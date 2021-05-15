@@ -1,4 +1,4 @@
-# TCS2 Maintenance Group Repository
+# TCS2 Task Group
 
 ![TCS diagram](./assets/tcs_diagram.svg)
 
