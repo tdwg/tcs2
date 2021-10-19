@@ -1,0 +1,117 @@
+#
+# Terms borrowed from Darwin Core
+#
+
+# property: genericName
+- localName: genericName
+  label: Generic Name
+  definition: The genus part of the scientificName without authorship.
+  usage: >-
+    This property should not be used for names at and above the rank of genus.
+    For those names the uninomial property should be used.
+  notes: null
+  examples: null
+  type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+  organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonName
+  required: No
+  repeatable: No
+
+# property: infragenericEpithet
+- localName: infragenericEpithet
+  label: Infrageneric Epithet
+  definition: >-
+    The infrageneric part of a binomial name at ranks above species but below 
+    genus.
+  usage: >-
+    Names at ranks between species and genus are composed of two parts; the 
+    genus and this infrageneric epithet. This property should therefore always 
+    be accompanied by the genus property. If the infragenericEpithet property is 
+    present, the uninomial, specificEpithet and infraspecificEpithet properties 
+    should be absent.
+  notes: null
+  examples: null
+  type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+  organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonName
+  required: No
+  repeatable: No
+
+# property: specificEpithet
+- localName: specificEpithet
+  label: Specific Epithet
+  definition: The name of the first or species epithet of the scientificName.
+  usage: >-
+    Names at ranks of species and below are composed of two or three words; the 
+    genus name, the specific epithet and possibly an infraspecific epithet. 
+    This property should therefore always be accompanied by the `genus` property. 
+    If the `specificEpithet` property is present the `uninomial` and 
+    `infragenericEpithet` properties should be absent.
+  notes: null
+  examples: null
+  type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+  organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonName
+  required: No
+  repeatable: No
+
+# property: infraspecificEpithet
+- localName: infraspecificEpithet
+  label: Infraspecific Epithet
+  definition: 'The name of the lowest or terminal infraspecific epithet of the scientificName,
+    excluding any rank designation. '
+  usage: >-
+    Names at ranks below species are composed of three words; the genus name, 
+    the specific epithet and an infraspecific epithet. This property should 
+    therefore always be accompanied by the `genus` and `specificEpithet` 
+    properties. If the `specificEpithet` property is present the `uninomial` and 
+    `infragenericEpithet` properties should be absent.
+  notes: null
+  examples: null
+  type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+  organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonName
+  repeatable: No
+  required: No
+
+# property: cultivarEpithet
+- localName: cultivarEpithet
+  label: Cultivar Epithet
+  definition: >-
+    Part of the name of a cultivar, cultivar group or grex that follows the 
+    scientific name.
+  usage: >-
+    The cultivar epithet follows a well-formed botanical name. Only include
+    the string of the epithet. i.e. omit the single quotes around cultivar 
+    names, the word nullGroupnull that denotes cultivar group and the + sign 
+    used in chimeras.
+  notes: null
+  examples: null
+  type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+  organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonName
+  required: No
+  repeatable: No
+
+# namePublishedInYear
+- localName: namePublishedInYear
+  label: Name Published In Year
+  definition: The four-digit year in which the scientificName was published.
+  usage: >-
+    This is the publication year for the present name combination not for the
+    basionym should this be a new combination.
+  notes: null
+  examples: null
+  type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+  organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonName
+  required: No
+  repeatable: No
+
+# varbatimRank
+- localName: verbatimRank
+  label: Verbatim Rank
+  definition: >-
+    The taxonomic rank of the most specific name in the scientificName as it 
+    appears in the original record.
+  usage: null
+  notes: null
+  examples: null
+  type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+  organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonName
+  required: No
+  repeatable: No

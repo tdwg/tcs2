@@ -1,0 +1,579 @@
+#
+# Type of Type vocabulary
+#
+
+# Type of Type Concept Scheme
+- localName: t
+  label: Type of Type Concept Scheme
+  skos_inScheme: t
+  controlled_value_string: null
+  definition: null
+  usage: null
+  notes: null
+  examples: null
+  type: http://www.w3.org/2004/02/skos/core#ConceptScheme
+
+# controlled term: allolectotype
+- localName: t001
+  label: allolectotype
+  skos_inScheme: t
+  controlled_value_string: allolectotype
+  definition: >-
+    A paralectotype specimen that is the opposite sex of the lectotype. The 
+    term is not regulated by the ICZN. [Zoo.]
+  usage: null
+  notes: null
+  examples: null
+  type: http://www.w3.org/2004/02/skos/core#Concept
+
+# controlled term: alloneotype
+- localName: t002
+  label: alloneotype
+  skos_inScheme: t
+  controlled_value_string: alloneotype
+  definition: >-
+    A paraneotype specimen that is the opposite sex of the neotype. The term is 
+    not regulated by the ICZN. [Zoo.]
+  usage: null
+  notes: null
+  examples: null
+  type: http://www.w3.org/2004/02/skos/core#Concept
+
+# controlled term: allotype
+- localName: t003
+  label: allotype
+  skos_inScheme: t
+  controlled_value_string: allotype
+  definition: >-
+    A paratype specimen designated from the type series by the original author 
+    that is the opposite sex of the holotype. The term is not regulated by the 
+    ICZN. [Zoo.]
+  usage: null
+  notes: null
+  examples: null
+  type: http://www.w3.org/2004/02/skos/core#Concept
+
+# controlled term: cotype
+- localName: t004
+  label: cotype
+  skos_inScheme: t
+  controlled_value_string: cotype
+  definition: >-
+    A deprecated term no longer recognized in the ICZN; formerly used for 
+    either syntype or paratype [see ICZN Recommendation 73E]. [Zoo.]
+  usage: null
+  notes: null
+  examples: null
+  type: http://www.w3.org/2004/02/skos/core#Concept
+
+# controlled term: epitype
+- localName: t005
+  label: epitype
+  skos_inScheme: t
+  controlled_value_string: epitype
+  definition: >-
+    An epitype is a specimen or illustration selected to serve as an 
+    interpretative type when any kind of holotype, lectotype, etc. is 
+    demonstrably ambiguous and cannot be critically identified for purposes of 
+    the precise application of the name of a taxon (see Art. ICBN 9.7, 9.18). 
+    An epitype supplements, rather than replaces existing types. [Bot./Bio.]
+  usage: null
+  notes: null
+  examples: null
+  type: http://www.w3.org/2004/02/skos/core#Concept
+
+# controlled term: exepitype
+- localName: t006
+  label: exepitype
+  skos_inScheme: t
+  controlled_value_string: exepitype
+  definition: >-
+    A strain or cultivation derived from epitype material. Ex-types are not 
+    regulated by the botanical or zoological code. [Bot.]
+  usage: null
+  notes: null
+  examples: null
+  type: http://www.w3.org/2004/02/skos/core#Concept
+
+# controlled term: exholotype
+- localName: t007
+  label: exholotype
+  skos_inScheme: t
+  controlled_value_string: exholotype
+  definition: >- 
+    A strain or cultivation derived from holotype material. Ex-types are not 
+    regulated by the botanical or zoological code. [Zoo./Bot.]
+  usage: null
+  notes: null
+  examples: null
+  type: http://www.w3.org/2004/02/skos/core#Concept
+
+# controlled term: exisotype
+- localName: t008
+  label: exisotype
+  skos_inScheme: t
+  controlled_value_string: exisotype
+  definition: A strain or cultivation derived from isotype material. Ex-types are not 
+    regulated by the botanical or zoological code. [Zoo./Bot.]
+  usage: null
+  notes: null
+  examples: null
+  type: http://www.w3.org/2004/02/skos/core#Concept
+
+# controlled term: exlectotype
+- localName: t009
+  label: exlectotype
+  skos_inScheme: t
+  controlled_value_string: exlectotype
+  definition: >-
+    A strain or cultivation derived from lectotype material. Ex-types are not 
+    regulated by the botanical or zoological code. [Zoo./Bot.]
+  usage: null
+  notes: null
+  examples: null
+  type: http://www.w3.org/2004/02/skos/core#Concept
+
+# controlled term: exneotype
+- localName: t010
+  label: exneotype
+  skos_inScheme: t
+  controlled_value_string: exneotype
+  definition: >-
+    A strain or cultivation derived from neotype material. Ex-types are not 
+    regulated by the botanical or zoological code. [Zoo./Bot.]
+  usage: null
+  notes: null
+  examples: null
+  type: http://www.w3.org/2004/02/skos/core#Concept
+
+# controlled term: exparatype
+- localName: t011
+  label: exparatype
+  skos_inScheme: t
+  controlled_value_string: exparatype
+  definition: >-
+    A strain or cultivation derived from paratype material. Ex-types are not 
+    regulated by the botanical or zoological code. [Zoo./Bot.]
+  usage: null
+  notes: null
+  examples: null
+  type: http://www.w3.org/2004/02/skos/core#Concept
+
+# controlled term: exsyntype
+- localName: t012
+  label: exsyntype
+  skos_inScheme: t
+  controlled_value_string: exsyntype
+  definition: >-
+    A strain or cultivation derived from neotype material. Ex-types  are not 
+    regulated by the botanical or zoological code. [Zoo./Bot.]
+  usage: null
+  notes: null
+  examples: null
+  type: http://www.w3.org/2004/02/skos/core#Concept
+
+# controlled term: extype
+- localName: t013
+  label: extype
+  skos_inScheme: t
+  controlled_value_string: extype
+  definition: >-
+    A strain or cultivation derived from some kind of type material. Ex-types 
+    are not regulated by the botanical or zoological code. [Zoo./Bot.]
+  usage: null
+  notes: null
+  examples: null
+  type: http://www.w3.org/2004/02/skos/core#Concept
+
+# controlled term: hapantotype
+- localName: t014
+  label: hapantotype
+  skos_inScheme: t
+  controlled_value_string: hapantotype
+  definition: >-
+    One or more preparations of directly related individuals representing
+    distinct stages in the life cycle, which together form the type in an extant 
+    species of protistan [ICZN Article 72.5.4]. A hapantotype, while a series of 
+    individuals, is a holotype that must not be restricted by lectotype 
+    selection. If an hapantotype is found to contain individuals of more than 
+    one species, however, components may be excluded until it contains 
+    individuals of only one species [ICZN Article 73.3.2]. [Zoo.]
+  usage: null
+  notes: null
+  examples: null
+  type: http://www.w3.org/2004/02/skos/core#Concept
+
+# controlled term: holotype
+- localName: t015
+  label: holotype
+  skos_inScheme: t
+  controlled_value_string: holotype
+  definition: >-
+    The one specimen or other element used or designated by the original author 
+    at the time of publication of the original description as the nomenclatural
+    type of a species or infraspecific taxon. A holotype may be 'explicit' if 
+    it is clearly stated in the originating publication or 'implicit' if it is 
+    the single specimen proved to have been in the hands of the originating 
+    author when the description was published. [Zoo./Bot./Bio.]
+  usage: null
+  notes: null
+  examples: null
+  type: http://www.w3.org/2004/02/skos/core#Concept
+
+# controlled term: iconotype
+- localName: t016
+  label: iconotype
+  skos_inScheme: t
+  controlled_value_string: iconotype
+  definition: >-
+    A drawing or photograph (also called nullphototypenull) of a type specimen.
+    Note: the term nulliconotypenull is not used in the ICBN, but implicit in, 
+    e.g., ICBN Art. 7 and 38. [Zoo./Bot.]
+  usage: null
+  notes: null
+  examples: null
+  type: http://www.w3.org/2004/02/skos/core#Concept
+
+# controlled term: isolectotype
+- localName: t017
+  label: isolectotype
+  skos_inScheme: t
+  controlled_value_string: isolectotype
+  definition: A duplicate of a lectotype, compare lectotype. [Bot.]
+  usage: null
+  notes: null
+  examples: null
+  type: http://www.w3.org/2004/02/skos/core#Concept
+
+# controlled term: isoneotype
+- localName: t018
+  label: isoneotype
+  skos_inScheme: t
+  controlled_value_string: isoneotype
+  definition: A duplicate of a neotype, compare neotype. [Bot.]
+  usage: null
+  notes: null
+  examples: null
+  type: http://www.w3.org/2004/02/skos/core#Concept
+
+# controlled term: isoparatype
+- localName: t019
+  label: isoparatype
+  skos_inScheme: t
+  controlled_value_string: isoparatype
+  definition: A duplicate of a paratype, compare paratype. [Bot.]
+  usage: null
+  notes: null
+  examples: null
+  type: http://www.w3.org/2004/02/skos/core#Concept
+
+# controlled term: isosyntype
+- localName: t020
+  label: isosyntype
+  skos_inScheme: t
+  controlled_value_string: isosyntype
+  definition: >-
+    A duplicate of a syntype, compare isotype = duplicate of holotype. [Bot.]
+  usage: null
+  notes: null
+  examples: null
+  type: http://www.w3.org/2004/02/skos/core#Concept
+
+# controlled term: isotype
+- localName: t021
+  label: isotype
+  skos_inScheme: t
+  controlled_value_string: isotype
+  definition: >-
+    An isotype is any duplicate of the holotype (i. e. part of a single 
+    gathering made by a collector at one time, from which the holotype was 
+    derived); it is always a specimen (ICBN Art. 7). [Bot.]
+  usage: null
+  notes: null
+  examples: null
+  type: http://www.w3.org/2004/02/skos/core#Concept
+
+# controlled term: lectotype
+- localName: t022
+  label: lectotype
+  skos_inScheme: t
+  controlled_value_string: lectotype
+  definition: >-
+    A specimen or other element designated subsequent to the publication of the 
+    original description from the original material (syntypes or paratypes) to 
+    serve as nomenclatural type. Lectotype designation can occur only where no
+    holotype was designated at the time of publication or if it is missing 
+    (ICBN Art. 7, ICZN Art. 74). [Zoo./Bot.] -- Note: the BioCode defines 
+    lectotype as selection from holotype material in cases where the holotype 
+    material contains more than ne taxon [Bio.].
+  usage: null
+  notes: null
+  examples: null
+  type: http://www.w3.org/2004/02/skos/core#Concept
+
+# controlled term: neotype
+- localName: t023
+  label: neotype
+  skos_inScheme: t
+  controlled_value_string: neotype
+  definition: >-
+    A specimen designated as nomenclatural type subsequent to the publication
+    of the original description in cases where the original holotype, lectotype, 
+    all paratypes and syntypes are lost or destroyed, or suppressed by the 
+    (botanical or zoological) commission on nomenclature. In zoology also 
+    called 'Standard specimen' or 'Representative specimen'. [Zoo./Bot./Bio.]
+  usage: null
+  notes: null
+  examples: null
+  type: http://www.w3.org/2004/02/skos/core#Concept
+
+# controlled term: notatype
+- localName: t024
+  label: notatype
+  skos_inScheme: t
+  controlled_value_string: notatype
+  definition: >-
+    For specimens erroneously labelled as types an explicit negative statement 
+    may be desirable. [General]
+  usage: null
+  notes: null
+  examples: null
+  type: http://www.w3.org/2004/02/skos/core#Concept
+
+# controlled term: originalmaterial
+- localName: t025
+  label: originalmaterial
+  skos_inScheme: t
+  controlled_value_string: originalmaterial
+  definition: >-
+    'type-suspicious' material. The term is in accordance with the Botanical 
+    Code, where it is used for material that has been at the disposal of an 
+    author describing a new species, and is distinct from a type only in the 
+    fact that either the Type has not been officially assigned yet, or that the 
+    specific material has not been explicitly cited in the typification process 
+    (i.e. it was part of the swarm of specimens examined in the process, but 
+    not labelled as type itself).
+  usage: null
+  notes: null
+  examples: null
+  type: http://www.w3.org/2004/02/skos/core#Concept
+
+# controlled term: paralectotype
+- localName: t026
+  label: paralectotype
+  skos_inScheme: t
+  controlled_value_string: paralectotype
+  definition: >-
+    All of the specimens in the syntype series of a species or infraspecific
+    taxon other than the lectotype itself. Also called 'lectoparatype'. [Zoo.]
+  usage: null
+  notes: null
+  examples: null
+  type: http://www.w3.org/2004/02/skos/core#Concept
+
+# controlled term: paraneotype
+- localName: t027
+  label: paraneotype
+  skos_inScheme: t
+  controlled_value_string: paraneotype
+  definition: >-
+    All of the specimens in the syntype series of a species or infraspecific
+    taxon other than the neotype itself. Also called 'neoparatype'. [Zoo.]
+  usage: null
+  notes: null
+  examples: null
+  type: http://www.w3.org/2004/02/skos/core#Concept
+
+# controlled term: paratype
+- localName: t028
+  label: paratype
+  skos_inScheme: t
+  controlled_value_string: paratype
+  definition: >-
+    All of the specimens in the type series of a species or infraspecific taxon 
+    other than the holotype (and, in botany, isotypes). Paratypes must have 
+    been at the disposition of the author at the time when the original 
+    description was created and must have been designated and indicated in the 
+    publication. Judgment must be exercised on paratype status, for only rarely 
+    are specimens explicitly cited as paratypes, but usually as 'specimens 
+    examined', 'other material seen', etc. [Zoo./Bot.]
+  usage: null
+  notes: null
+  examples: null
+  type: http://www.w3.org/2004/02/skos/core#Concept
+
+# controlled term: plastoholotype
+- localName: t029
+  label: plastoholotype
+  skos_inScheme: t
+  controlled_value_string: plastoholotype
+  definition: A copy or cast of holotype material (compare Plastotype).
+  usage: null
+  notes: null
+  examples: null
+  type: http://www.w3.org/2004/02/skos/core#Concept
+
+# controlled term: plastoisotype
+- localName: t030
+  label: plastoisotype
+  skos_inScheme: t
+  controlled_value_string: plastoisotype
+  definition: A copy or cast of isotype material (compare Plastotype).
+  usage: null
+  notes: null
+  examples: null
+  type: http://www.w3.org/2004/02/skos/core#Concept
+
+# controlled term: plastolectotype
+- localName: t031
+  label: plastolectotype
+  skos_inScheme: t
+  controlled_value_string: plastolectotype
+  definition: A copy or cast of lectotype material (compare Plastotype).
+  usage: null
+  notes: null
+  examples: null
+  type: http://www.w3.org/2004/02/skos/core#Concept
+
+# controlled term: plastoneotype
+- localName: t032
+  label: plastoneotype
+  skos_inScheme: t
+  controlled_value_string: plastoneotype
+  definition: A copy or cast of neotype material (compare Plastotype).
+  usage: null
+  notes: null
+  examples: null
+  type: http://www.w3.org/2004/02/skos/core#Concept
+
+# controlled term: plastoparatype
+- localName: t033
+  label: plastoparatype
+  skos_inScheme: t
+  controlled_value_string: plastoparatype
+  definition: A copy or cast of paratype material (compare Plastotype).
+  usage: null
+  notes: null
+  examples: null
+  type: http://www.w3.org/2004/02/skos/core#Concept
+
+# controlled term: plastosyntype
+- localName: t034
+  label: plastosyntype
+  skos_inScheme: t
+  controlled_value_string: plastosyntype
+  definition: A copy or cast of syntype material (compare Plastotype).
+  usage: null
+  notes: null
+  examples: null
+  type: http://www.w3.org/2004/02/skos/core#Concept
+
+# controlled term: plastotype
+- localName: t035
+  label: plastotype
+  skos_inScheme: t
+  controlled_value_string: plastotype
+  definition: >-
+    A copy or cast of type material, esp. relevant for fossil types. Not 
+    regulated by the botanical or zoological code (?). [Zoo./Bot.]
+  usage: null
+  notes: null
+  examples: null
+  type: http://www.w3.org/2004/02/skos/core#Concept
+
+# controlled term: secondarytype
+- localName: t036
+  label: secondarytype
+  skos_inScheme: t
+  controlled_value_string: secondarytype
+  definition: >-
+    A referred, described, measured or figured specimen in the original 
+    publication (including a neo/lectotypification publication) that is not a 
+    primary type. [Zoo.]
+  usage: null
+  notes: null
+  examples: null
+  type: http://www.w3.org/2004/02/skos/core#Concept
+
+# controlled term: supplementarytype
+- localName: t037
+  label: supplementarytype
+  skos_inScheme: t
+  controlled_value_string: supplementarytype
+  definition: >-
+    A referred, described, measured or figured specimen in a revision of a 
+    previously described taxon. [Zoo.]
+  usage: null
+  notes: null
+  examples: null
+  type: http://www.w3.org/2004/02/skos/core#Concept
+
+# controlled term: syntype
+- localName: t038
+  label: syntype
+  skos_inScheme: t
+  controlled_value_string: syntype
+  definition: >-
+    One of the series of specimens used to describe a species or infraspecific
+    taxon when neither a single holotype nor a lectotype has been designated. 
+    The syntypes collectively constitute the name-bearing type. [Zoo./Bot.]
+  usage: null
+  notes: null
+  examples: null
+  type: http://www.w3.org/2004/02/skos/core#Concept
+
+# controlled term: topotype
+- localName: t039
+  label: topotype
+  skos_inScheme: t
+  controlled_value_string: topotype
+  definition: >-
+    One or more specimens collected at the same location as the type series 
+    (type locality), regardless of whether they are part of the type series.
+    Topotypes are not regulated by the botanical or zoological code. Also 
+    called 'locotype'. [Zoo./Bot.]
+  usage: null
+  notes: null
+  examples: null
+  type: http://www.w3.org/2004/02/skos/core#Concept
+
+# controlled term: type
+- localName: t040
+  label: type
+  skos_inScheme: t
+  controlled_value_string: type
+  definition: >-
+    a) A specimen designated or indicated any kind of type of a species or 
+    infraspecific taxon. If possible more specific type terms (holotype, 
+    syntype, etc.) should be applied. b) the type name of a name of higher rank 
+    for taxa above the species rank. [General]
+  usage: null
+  notes: null
+  examples: null
+  type: http://www.w3.org/2004/02/skos/core#Concept
+
+# controlled term: typeSpecies
+- localName: t041
+  label: typeSpecies
+  skos_inScheme: t
+  controlled_value_string: typeSpecies
+  definition: >-
+    For designating a type record as a reference to type information tied to a 
+    genus
+  usage: null
+  notes: null
+  examples: null
+  type: http://www.w3.org/2004/02/skos/core#Concept
+
+# controlled term: typeGenus
+- localName: t042
+  label: typeGenus
+  skos_inScheme: t
+  controlled_value_string: typeGenus
+  definition: >-
+    For designating a type record as a reference to type information tied to a 
+    Family
+  usage: null
+  notes: null
+  examples: null
+  type: http://www.w3.org/2004/02/skos/core#Concept

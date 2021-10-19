@@ -1,0 +1,33 @@
+# githubBaseUri: https://raw.githubusercontent.com/tdwg/rs.tdwg.org/master/
+headerFileName: termlist-header.md
+footerFileName: termlist-footer.md
+outFileName: ../master/README.md
+termLists:
+  - filename: tcs
+    vann_preferredNamespacePrefix: tcs
+    vann_preferredNamespaceUri: http://rs.tdwg.org/tcs/terms/
+  - filename: dwc-for-tcs
+    vann_preferredNamespacePrefix: dwc
+    vann_preferredNamespaceUri: http://rs.tdwg.org/dwc/terms/
+vocab_type: 1
+organized_in_categories: True
+categories:
+  - namespace: 'http://rs.tdwg.org/tcs/terms/TaxonConcept'
+    label: Taxon Concept
+    comments: ''
+    display_id: taxonConcept
+  - namespace: 'http://rs.tdwg.org/tcs/terms/TaxonRelationship'
+    label: Taxon Relationship
+    comments: ''
+    display_id: taxonRelationship
+  - namespace: 'http://rs.tdwg.org/tcs/terms/TaxonName'
+    label: Taxon Name
+    comments: ''
+    display_id: taxonName
+  - namespace: 'http://rs.tdwg.org/tcs/terms/NomenclaturalType'
+    label: Nomenclatural Type
+    comments: ''
+    display_id: nomenclaturalType    
+
+
+    

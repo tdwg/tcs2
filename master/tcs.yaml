@@ -1,0 +1,480 @@
+#
+# Terms defined in TCS
+#
+
+# class: TaxonConcept
+- localName: TaxonConcept
+  label: Taxon Concept
+  definition: >-
+    The underlying meaning, or referential extension, of a scientific name  as 
+    stated by a particular author in a particular publication. It represents the 
+    author's full-blown view of how the name reaches out to observed or 
+    unobserved objects in nature (beyond statements about type specimens). It is 
+    a direct reflection of what has been written, illustrated, and deposited by 
+    a taxonomist, regardless of his or her theoretical orientation (Franz & Peet 
+    2009).
+  usage: null
+  notes: null
+  examples: null
+  type: http://www.w3.org/2000/01/rdf-schema#Class
+  organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonConcept
+  required: null
+  repeatable: null
+
+# property: taxonConceptCategory
+- localName: taxonConceptCategory
+  label: Taxon Concept Category
+  definition: >-
+    The category of Taxon Concept
+  usage: null
+  notes: null
+  examples: null
+  type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+  organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonConcept
+  required: No
+  repeatable: No
+
+# property: taxonName
+- localName: taxonName
+  label: Taxon Name
+  definition: The Taxon Name for this Taxonomic Name Usage
+  usage: null
+  notes: null
+  examples: null
+  type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+  organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonConcept
+  required: No
+  repeatable: No
+
+# property: accordingTo
+- localName: accordingTo
+  label: According To
+  definition: >- 
+    Reference to the source of this concept, which uses the Taxon Name
+    in this sense (i.e. secundum, sensu).
+  usage: null
+  notes: null
+  examples: null
+  type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+  organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonConcept
+  required: No
+  repeatable: No
+
+# property: accordingToString
+- localName: accordingToString
+  label: According To String
+  definition: >-
+    String representation of accordingTo
+  usage: null
+  notes: null
+  examples: null
+  type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+  organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonConcept
+  required: No
+  repeatable: No
+
+# property: parent
+- definition: >-
+    The direct, most proximate higher-rank parent (in a classification).
+  examples: null
+  label: Parent
+  notes: null
+  organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonConcept
+  repeatable: No
+  required: No
+  localName: parent
+  type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+  usage: null
+
+# property: synonym
+- localName: synonym
+  label: Synonym
+  definition: >-
+    Name considered to apply to the same taxon as the accepted name (taxonName)
+  usage: null
+  notes: null
+  examples: null
+  type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+  organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonConcept
+  required: No
+  repeatable: Yes
+
+# property: vernacularName
+- localName: vernacularName
+  label: Vernacular Name
+  definition: >-
+    Common or vernacular name, used as an alternative to the taxonomic name.
+  usage: null
+  notes: >-
+    A name is only a vernacular name if it is used as an alternative to another
+    name.
+  examples: null
+  type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+  organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonConcept
+  required: No
+  repeatable: Yes
+
+# property: characterCircumscription
+- localName: characterCircumscription
+  label: Character Circumscription
+  definition: >-
+    A set of taxonomic descriptions used to define this concept. May potentially
+    hold descriptions according to the TDWG SDD schema, or any other, format.
+  usage: null
+  examples: null
+  notes: null
+  type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+  organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonConcept
+  required: No
+  repeatable: '?'
+
+# property: specimenCircumscription
+- localName: specimenCircumscription
+  label: Specimen Circumscription
+  definition: A set of specimens that are used to define the concept.
+  usage: null
+  notes: null
+  examples: null
+  type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+  organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonConcept
+  required: No
+  repeatable: '?'
+
+
+# class: TaxonRelationship
+- localName: TaxonRelationship
+  label: Taxon Relationship
+  definition: Assertion of a relationship between two taxa
+  examples: null
+  usage: null
+  notes: null
+  type: http://www.w3.org/2000/01/rdf-schema#Class
+  organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonRelationship
+  repeatable: null
+  required: null
+
+# property: relationshipType
+- localName: relationshipType
+  label: Relationship type
+  definition: The type of relationship that is asserted.
+  usage: null
+  notes: null
+  examples: null
+  type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+  organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonRelationship
+  required: Yes
+  repeatable: No
+
+# property: subjectTaxonConcept
+- localName: subjectTaxonConcept
+  label: Subject Taxon Concept
+  definition: The subject Taxon Concept in this relationship.
+  usage: null
+  notes: null
+  examples: null
+  type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+  organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonRelationship
+  required: Yes
+  repeatable: No
+
+# property: objectTaxonConcept
+- localName: objectTaxonConcept
+  label: Object Taxon Concept
+  definition: The object or target Taxon Concept in this relationship.
+  usage: null
+  notes: null
+  examples: null
+  type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+  organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonRelationship
+  required: Yes
+  repeatable: No
+
+# property: relationshipAccordingTo
+- localName: relationshipAccordingTo
+  label: Relationship According To
+  definition: Reference for the taxon relationship assertion
+  usage: null
+  notes: null
+  examples: null
+  type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+  organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonRelationship
+  repeatable: No
+  required: Yes
+
+# class: TaxonName 
+- localName: TaxonName
+  label: Taxon Name
+  definition: A name used as a label for a taxon or taxonomic group.
+  usage: null
+  notes: null
+  examples: null
+  type: http://www.w3.org/2000/01/rdf-schema#Class
+  organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonName
+  required: null
+  repeatable: null
+
+# property: taxonNameString
+- localName: taxonNameString
+  label: Taxon Name String
+  definition: >-
+    The complete uninomial, binomial or trinomial name without any authority or 
+    year components.
+  usage: null
+  notes: null
+  examples: null
+  type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+  organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonName
+  required: Yes
+  repeatable: No
+
+# property: uninomial
+- localName: uninomial
+  label: Uninomial
+  definition: Single-word name string for a name of generic or higher rank
+  usage: >-
+    This property should be used for any single word names. These include 
+    family, genus, infrafamilial, and suprafamilial names. Note that this 
+    property should be used for generic names. The genus property should only 
+    be used for names below rank of genus.
+  notes: null
+  examples: null
+  type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+  organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonName
+  required: No
+  repeatable: No
+
+# property: taxonNameAuthorship
+- localName: taxonNameAuthorship
+  label: Taxon Name Authorship
+  definition: The full code-appropriate authorship string for the Taxon Name.
+  usage: null
+  notes: null
+  examples: null
+  type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+  organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonName
+  required: No
+  repeatable: No
+
+# property: combinationAuthorship
+- localName: combinationAuthoship
+  label: Combination Authorship
+  definition: The full code-appropriate authorship string for the Taxon Name.
+  usage: null
+  notes: null
+  examples: null
+  type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+  organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonName
+  required: No
+  repeatable: No
+
+# property: basionymAuthorship
+- localName: basionymAuthorship
+  label: Basionym Authorship
+  definition: Authorship of the basionym
+  usage: >-
+    Note that the basionym is another name (Taxon Name) and that names cannot
+    be their own basionym. The basionym authorship is always in parentheses in 
+    both botanical and zoological names.
+  notes: null
+  examples: null
+  type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+  organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonName
+  required: No
+  repeatable: No
+
+# property: namePublishedIn
+- localName: namePublishedIn
+  label: Name Published In
+  definition: Publication where the taxonomic name was first published.
+  usage: null
+  notes: null
+  examples: null
+  type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+  organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonName
+  required: No
+  repeatable: No
+
+# property: microreference
+- localName: microreference
+  label: Microreference
+  definition: Specifies any minor reference parts, e.g. page number.
+  usage: Refers to precise location within a larger work.
+  notes: null
+  examples: null
+  type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+  organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonName
+  required: No
+  repeatable: No
+
+# property: nomenclaturalCode
+- localName: nomenclaturalCode
+  label: Nomenclatural Code
+  definition: >-
+    Nomenclatural code that applies to the group of organisms the taxonomic name 
+    is for.
+  usage: null
+  notes: null
+  examples: null
+  type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+  organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonName
+  required: No
+  repeatable: No
+
+# property: nomenclaturalStatus
+- localName: nomenclaturalStatus
+  label: Nomenclatural Status
+  definition: >-
+    Status related to the original publication of the name and its conformance
+    to the relevant rules of nomenclature.
+  usage: null
+  notes: null
+  examples: null
+  type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+  organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonName
+  required: No
+  repeatable: No
+
+# property: basionym
+- localName: basionym
+  label: Basionym
+  definition: Original name on which the present name is based.
+  notes: null
+  examples: null
+  required: No
+  organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonName
+  repeatable: No
+  type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+  usage: null
+
+# property: replacedName
+- localName: replacedName
+  label: Replaced Name
+  definition: Name for which this name is a replacement
+  usage: null
+  notes: null
+  examples: null
+  type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+  organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonName
+  required: No
+  repeatable: No
+
+# property: basedOn
+- localName: basedOn
+  label: Based On
+  definition: >-
+    Invalidly published or illegitimate name for which this name is the 
+    validation.
+  usage: null
+  notes: null
+  examples: null
+  type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+  organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonName
+  required: No
+  repeatable: No
+
+# property: conservedAgainst
+- localName: conservedAgainst
+  label: Conserved Against
+  definition: Name(s) against which this name is conserved
+  usage: null
+  notes: null
+  examples: null
+  type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+  organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonName
+  repeatable: Yes
+  required: No
+
+# property: sanctionedBy
+- localName: sanctionedBy
+  label: Sanctioned By
+  definition: Reference to the work in which this name was sanctioned.
+  usage: null
+  notes: This is a reference to a publication, not a person.
+  examples: null
+  type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+  organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonName
+  required: No
+  repeatable: No
+
+
+# class: NomenclaturalType
+- localName: NomenclaturalType
+  label: Nomenclatural Type
+  definition: Element to which `TaxonName` permanently attached
+  usage: null
+  notes: >-
+    One or more `NomenclaturalType`s make up the typification of a `TaxonName`.
+  examples: null
+  type: http://www.w3.org/2000/01/rdf-schema#Class
+  organizedInClass: http://rs.tdwg.org/tcs/terms/NomenclaturalType
+  repeatable: null
+  required: null
+
+# property: typifiedName
+- localName: typifiedName
+  label: Typified Name
+  definition: The `TaxonName` for which this is `NomenclaturalType`
+  usage: null
+  notes: null
+  examples: null
+  type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+  organizedInClass: http://rs.tdwg.org/tcs/terms/NomenclaturalType
+  required: No
+  repeatable: No
+
+# property: typeOfType
+- localName: typeOfType
+  label: Type of Type
+  definition: >-
+    The kind of type this specimen is e.g. paratype, isotype, holotype etc.
+  usage: null
+  notes: null
+  examples: null
+  type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+  required: No
+  repeatable: No
+  organizedInClass: http://rs.tdwg.org/tcs/terms/NomenclaturalType
+
+# property: typeName
+- localName: typeName
+  label: Type Name
+  definition: The name that is the type.
+  usage: null
+  notes: >-
+    TaxonNames at ranks above species level are typified by the name of a lower
+    taxon. Ultimately, by following the chain of type names, all names resolve 
+    to a type species and so a type specimen.
+  examples: null
+  type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+  organizedInClass: http://rs.tdwg.org/tcs/terms/NomenclaturalType
+  required: No
+  repeatable: No
+
+# property: typeSpecimen
+- localName: typeSpecimen
+  label: Type Specimen
+  definition: The specimen that is the type.
+  usage: >-
+    TaxonNames at ranks of family and below are typified by a specimen. This
+    property is mutually exclusive with typeName.
+  notes: null
+  examples: null
+  type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+  organizedInClass: http://rs.tdwg.org/tcs/terms/NomenclaturalType
+  required: No
+  repeatable: No
+
+# property: typePublishedIn
+- localName: typePublishedIn
+  label: Type Published In
+  definition: Publication where the type was nominated
+  usage: >-
+    This is relevant for `lectotype`, `neotype`, `epitype` and conserved types.
+    For other types of type the publication where the type is nominated is the 
+    publication where the name was published.
+  notes: null
+  examples: null
+  type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+  organizedInClass: http://rs.tdwg.org/tcs/terms/NomenclaturalType
+  required: No
+  repeatable: No
