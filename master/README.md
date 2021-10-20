@@ -15,7 +15,7 @@
 
 **Taxon Name**
 
-[tcs:taxonNameString](#tcs_taxonNameString) | [tcs:uninomial](#tcs_uninomial) | [tcs:taxonNameAuthorship](#tcs_taxonNameAuthorship) | [tcs:combinationAuthoship](#tcs_combinationAuthoship) | [tcs:basionymAuthorship](#tcs_basionymAuthorship) | [tcs:namePublishedIn](#tcs_namePublishedIn) | [tcs:microreference](#tcs_microreference) | [tcs:nomenclaturalCode](#tcs_nomenclaturalCode) | [tcs:nomenclaturalStatus](#tcs_nomenclaturalStatus) | [tcs:basionym](#tcs_basionym) | [tcs:replacedName](#tcs_replacedName) | [tcs:basedOn](#tcs_basedOn) | [tcs:conservedAgainst](#tcs_conservedAgainst) | [tcs:sanctionedBy](#tcs_sanctionedBy)
+[tcs:taxonNameString](#tcs_taxonNameString) | [tcs:taxonNameAuthorship](#tcs_taxonNameAuthorship) | [tcs:combinationAuthoship](#tcs_combinationAuthoship) | [tcs:basionymAuthorship](#tcs_basionymAuthorship) | [tcs:namePublishedIn](#tcs_namePublishedIn) | [tcs:microreference](#tcs_microreference) | [tcs:nomenclaturalCode](#tcs_nomenclaturalCode) | [tcs:nomenclaturalStatus](#tcs_nomenclaturalStatus) | [tcs:basionym](#tcs_basionym) | [tcs:replacedName](#tcs_replacedName) | [tcs:basedOn](#tcs_basedOn) | [tcs:conservedAgainst](#tcs_conservedAgainst) | [tcs:sanctionedBy](#tcs_sanctionedBy) | [tcs:uninomial](#tcs_uninomial) | [dwc:genericName](#dwc_genericName) | [dwc:infragenericEpithet](#dwc_infragenericEpithet) | [dwc:specificEpithet](#dwc_specificEpithet) | [dwc:infraspecificEpithet](#dwc_infraspecificEpithet) | [dwc:cultivarEpithet](#dwc_cultivarEpithet) | [dwc:namePublishedInYear](#dwc_namePublishedInYear) | [dwc:verbatimRank](#dwc_verbatimRank)
 
 **Nomenclatural Type**
 
@@ -734,48 +734,6 @@
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="tcs_uninomial"></a>Property tcs:uninomial</th>
-		</tr>
-	</thead>
-	<tbody>
-		<tr>
-			<td>Term IRI</td>
-			<td>http://rs.tdwg.org/tcs/terms/uninomial</td>
-		</tr>
-		<tr>
-			<td>Type</td>
-			<td>http://www.w3.org/1999/02/22-rdf-syntax-ns#Property</td>
-		</tr>
-		<tr>
-			<td>Label</td>
-			<td>Uninomial</td>
-		</tr>
-		<tr>
-			<td></td>
-			<td><b>required:</b> No — <b>repeatable:</b> No</td>
-		</tr>
-		<tr>
-			<td>Definition</td>
-			<td><p>Single-word name string for a name of generic or higher rank</p></td>
-		</tr>
-		<tr>
-			<td>Usage</td>
-			<td><p>This property should be used for any single word names. These include  family, genus, infrafamilial, and suprafamilial names. Note that this  property should be used for generic names. The genus property should only  be used for names below rank of genus.</p></td>
-		</tr>
-		<tr>
-			<td>Comments</td>
-			<td></td>
-		</tr>
-		<tr>
-			<td>Examples</td>
-			<td></td>
-		</tr>
-	</tbody>
-</table>
-
-<table>
-	<thead>
-		<tr>
 			<th colspan="2"><a id="tcs_taxonNameAuthorship"></a>Property tcs:taxonNameAuthorship</th>
 		</tr>
 	</thead>
@@ -1269,6 +1227,342 @@
 		<tr>
 			<td>Comments</td>
 			<td><p>This is a reference to a publication, not a person.</p></td>
+		</tr>
+		<tr>
+			<td>Examples</td>
+			<td></td>
+		</tr>
+	</tbody>
+</table>
+
+<table>
+	<thead>
+		<tr>
+			<th colspan="2"><a id="tcs_uninomial"></a>Property tcs:uninomial</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Term IRI</td>
+			<td>http://rs.tdwg.org/tcs/terms/uninomial</td>
+		</tr>
+		<tr>
+			<td>Type</td>
+			<td>http://www.w3.org/1999/02/22-rdf-syntax-ns#Property</td>
+		</tr>
+		<tr>
+			<td>Label</td>
+			<td>Uninomial</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td><b>required:</b> No — <b>repeatable:</b> No</td>
+		</tr>
+		<tr>
+			<td>Definition</td>
+			<td><p>Single-word name string for a name of generic or higher rank</p></td>
+		</tr>
+		<tr>
+			<td>Usage</td>
+			<td><p>This property should be used for any single word names. These include  family, genus, infrafamilial, and suprafamilial names. Note that this  property should be used for generic names. The genus property should only  be used for names below rank of genus.</p></td>
+		</tr>
+		<tr>
+			<td>Comments</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Examples</td>
+			<td></td>
+		</tr>
+	</tbody>
+</table>
+
+<table>
+	<thead>
+		<tr>
+			<th colspan="2"><a id="dwc_genericName"></a>Property dwc:genericName</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Term IRI</td>
+			<td>http://rs.tdwg.org/dwc/terms/genericName</td>
+		</tr>
+		<tr>
+			<td>Type</td>
+			<td>http://www.w3.org/1999/02/22-rdf-syntax-ns#Property</td>
+		</tr>
+		<tr>
+			<td>Label</td>
+			<td>Generic Name</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td><b>required:</b> No — <b>repeatable:</b> No</td>
+		</tr>
+		<tr>
+			<td>Definition</td>
+			<td><p>The genus part of the scientificName without authorship.</p></td>
+		</tr>
+		<tr>
+			<td>Usage</td>
+			<td><p>This property should not be used for names at and above the rank of genus. For those names the uninomial property should be used.</p></td>
+		</tr>
+		<tr>
+			<td>Comments</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Examples</td>
+			<td></td>
+		</tr>
+	</tbody>
+</table>
+
+<table>
+	<thead>
+		<tr>
+			<th colspan="2"><a id="dwc_infragenericEpithet"></a>Property dwc:infragenericEpithet</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Term IRI</td>
+			<td>http://rs.tdwg.org/dwc/terms/infragenericEpithet</td>
+		</tr>
+		<tr>
+			<td>Type</td>
+			<td>http://www.w3.org/1999/02/22-rdf-syntax-ns#Property</td>
+		</tr>
+		<tr>
+			<td>Label</td>
+			<td>Infrageneric Epithet</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td><b>required:</b> No — <b>repeatable:</b> No</td>
+		</tr>
+		<tr>
+			<td>Definition</td>
+			<td><p>The infrageneric part of a binomial name at ranks above species but below  genus.</p></td>
+		</tr>
+		<tr>
+			<td>Usage</td>
+			<td><p>Names at ranks between species and genus are composed of two parts; the  genus and this infrageneric epithet. This property should therefore always  be accompanied by the genus property. If the infragenericEpithet property is  present, the uninomial, specificEpithet and infraspecificEpithet properties  should be absent.</p></td>
+		</tr>
+		<tr>
+			<td>Comments</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Examples</td>
+			<td></td>
+		</tr>
+	</tbody>
+</table>
+
+<table>
+	<thead>
+		<tr>
+			<th colspan="2"><a id="dwc_specificEpithet"></a>Property dwc:specificEpithet</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Term IRI</td>
+			<td>http://rs.tdwg.org/dwc/terms/specificEpithet</td>
+		</tr>
+		<tr>
+			<td>Type</td>
+			<td>http://www.w3.org/1999/02/22-rdf-syntax-ns#Property</td>
+		</tr>
+		<tr>
+			<td>Label</td>
+			<td>Specific Epithet</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td><b>required:</b> No — <b>repeatable:</b> No</td>
+		</tr>
+		<tr>
+			<td>Definition</td>
+			<td><p>The name of the first or species epithet of the scientificName.</p></td>
+		</tr>
+		<tr>
+			<td>Usage</td>
+			<td><p>Names at ranks of species and below are composed of two or three words; the  genus name, the specific epithet and possibly an infraspecific epithet.  This property should therefore always be accompanied by the <code>genus</code> property.  If the <code>specificEpithet</code> property is present the <code>uninomial</code> and  <code>infragenericEpithet</code> properties should be absent.</p></td>
+		</tr>
+		<tr>
+			<td>Comments</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Examples</td>
+			<td></td>
+		</tr>
+	</tbody>
+</table>
+
+<table>
+	<thead>
+		<tr>
+			<th colspan="2"><a id="dwc_infraspecificEpithet"></a>Property dwc:infraspecificEpithet</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Term IRI</td>
+			<td>http://rs.tdwg.org/dwc/terms/infraspecificEpithet</td>
+		</tr>
+		<tr>
+			<td>Type</td>
+			<td>http://www.w3.org/1999/02/22-rdf-syntax-ns#Property</td>
+		</tr>
+		<tr>
+			<td>Label</td>
+			<td>Infraspecific Epithet</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td><b>required:</b> No — <b>repeatable:</b> No</td>
+		</tr>
+		<tr>
+			<td>Definition</td>
+			<td><p>The name of the lowest or terminal infraspecific epithet of the scientificName, excluding any rank designation. </p></td>
+		</tr>
+		<tr>
+			<td>Usage</td>
+			<td><p>Names at ranks below species are composed of three words; the genus name,  the specific epithet and an infraspecific epithet. This property should  therefore always be accompanied by the <code>genus</code> and <code>specificEpithet</code>  properties. If the <code>specificEpithet</code> property is present the <code>uninomial</code> and  <code>infragenericEpithet</code> properties should be absent.</p></td>
+		</tr>
+		<tr>
+			<td>Comments</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Examples</td>
+			<td></td>
+		</tr>
+	</tbody>
+</table>
+
+<table>
+	<thead>
+		<tr>
+			<th colspan="2"><a id="dwc_cultivarEpithet"></a>Property dwc:cultivarEpithet</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Term IRI</td>
+			<td>http://rs.tdwg.org/dwc/terms/cultivarEpithet</td>
+		</tr>
+		<tr>
+			<td>Type</td>
+			<td>http://www.w3.org/1999/02/22-rdf-syntax-ns#Property</td>
+		</tr>
+		<tr>
+			<td>Label</td>
+			<td>Cultivar Epithet</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td><b>required:</b> No — <b>repeatable:</b> No</td>
+		</tr>
+		<tr>
+			<td>Definition</td>
+			<td><p>Part of the name of a cultivar, cultivar group or grex that follows the  scientific name.</p></td>
+		</tr>
+		<tr>
+			<td>Usage</td>
+			<td><p>The cultivar epithet follows a well-formed botanical name. Only include the string of the epithet. i.e. omit the single quotes around cultivar  names, the word nullGroupnull that denotes cultivar group and the + sign  used in chimeras.</p></td>
+		</tr>
+		<tr>
+			<td>Comments</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Examples</td>
+			<td></td>
+		</tr>
+	</tbody>
+</table>
+
+<table>
+	<thead>
+		<tr>
+			<th colspan="2"><a id="dwc_namePublishedInYear"></a>Property dwc:namePublishedInYear</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Term IRI</td>
+			<td>http://rs.tdwg.org/dwc/terms/namePublishedInYear</td>
+		</tr>
+		<tr>
+			<td>Type</td>
+			<td>http://www.w3.org/1999/02/22-rdf-syntax-ns#Property</td>
+		</tr>
+		<tr>
+			<td>Label</td>
+			<td>Name Published In Year</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td><b>required:</b> No — <b>repeatable:</b> No</td>
+		</tr>
+		<tr>
+			<td>Definition</td>
+			<td><p>The four-digit year in which the scientificName was published.</p></td>
+		</tr>
+		<tr>
+			<td>Usage</td>
+			<td><p>This is the publication year for the present name combination not for the basionym should this be a new combination.</p></td>
+		</tr>
+		<tr>
+			<td>Comments</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Examples</td>
+			<td></td>
+		</tr>
+	</tbody>
+</table>
+
+<table>
+	<thead>
+		<tr>
+			<th colspan="2"><a id="dwc_verbatimRank"></a>Property dwc:verbatimRank</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Term IRI</td>
+			<td>http://rs.tdwg.org/dwc/terms/verbatimRank</td>
+		</tr>
+		<tr>
+			<td>Type</td>
+			<td>http://www.w3.org/1999/02/22-rdf-syntax-ns#Property</td>
+		</tr>
+		<tr>
+			<td>Label</td>
+			<td>Verbatim Rank</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td><b>required:</b> No — <b>repeatable:</b> No</td>
+		</tr>
+		<tr>
+			<td>Definition</td>
+			<td><p>The taxonomic rank of the most specific name in the scientificName as it  appears in the original record.</p></td>
+		</tr>
+		<tr>
+			<td>Usage</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Comments</td>
+			<td></td>
 		</tr>
 		<tr>
 			<td>Examples</td>

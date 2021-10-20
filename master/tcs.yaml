@@ -227,22 +227,6 @@
   required: Yes
   repeatable: No
 
-# property: uninomial
-- localName: uninomial
-  label: Uninomial
-  definition: Single-word name string for a name of generic or higher rank
-  usage: >-
-    This property should be used for any single word names. These include 
-    family, genus, infrafamilial, and suprafamilial names. Note that this 
-    property should be used for generic names. The genus property should only 
-    be used for names below rank of genus.
-  notes: null
-  examples: null
-  type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
-  organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonName
-  required: No
-  repeatable: No
-
 # property: taxonNameAuthorship
 - localName: taxonNameAuthorship
   label: Taxon Name Authorship
@@ -476,5 +460,21 @@
   examples: null
   type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
   organizedInClass: http://rs.tdwg.org/tcs/terms/NomenclaturalType
+  required: No
+  repeatable: No
+
+# property: uninomial
+- localName: uninomial
+  label: Uninomial
+  definition: Single-word name string for a name of generic or higher rank
+  usage: >-
+    This property should be used for any single word names. These include 
+    family, genus, infrafamilial, and suprafamilial names. Note that this 
+    property should be used for generic names. The genus property should only 
+    be used for names below rank of genus.
+  notes: null
+  examples: null
+  type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+  organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonName
   required: No
   repeatable: No
