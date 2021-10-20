@@ -4,28 +4,28 @@ import yaml
 import pandas as pd
 import markdown
 
-# create data frame with terms from YAML file
+# create dictionary with terms from YAML file
 
 
-def yaml_to_df(filename):
-    f = open('../master/{filename}.yaml'.format(filename=filename), newline='')
-    data = yaml.load(f, Loader=yaml.FullLoader)
-    f.close()
-    return pd.DataFrame.from_dict(data)
+def dict_from_yaml(termLists):
+    dicts = []
+    for index, list in enumerate(termLists):
+        f = open(
+            '../master/{filename}.yaml'.format(filename=list['filename']), newline='')
+        data = yaml.load(f, Loader=yaml.FullLoader)
+        data = [dict(item, namespace=list['vann_preferredNamespaceUri'])
+                for item in data]
+        data = [dict(item, namespaceAlias=list['vann_preferredNamespacePrefix'])
+                for item in data]
+        dicts += data
+    return dicts
 
-# create merged data frame
+# create data frame from dictionary
 
 
 def create_df(termLists):
-    for index, list in enumerate(termLists):
-        df = yaml_to_df(list['filename'])
-        df['namespace'] = list['vann_preferredNamespaceUri']
-        df['namespaceAlias'] = list['vann_preferredNamespacePrefix']
-        if index == 0:
-            merged_df = df
-        else:
-            merged_df = pd.concat([merged_df, df])
-        return merged_df
+    dict = dict_from_yaml(termLists)
+    return pd.DataFrame.from_dict(dict)
 
 # create index of terms
 
@@ -176,6 +176,14 @@ def term_table(term):
         text += table_row([
             table_cell('Controlled value'),
             table_cell(term['controlled_value_string'])
+        ])
+
+    # Github issue
+    if 'github' in term and term['github']:
+        text += table_row([
+            table_cell('GitHub issue'),
+            table_cell(
+                'https://github.com/tdwg/tcs2/issues/{github}'.format(github=term['github']))
         ])
 
     text += '\t</tbody>\n'
