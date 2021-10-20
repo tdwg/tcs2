@@ -1,8 +1,0 @@
-term_localName,label,skos_inScheme,controlled_value_string,definition,usage,notes,examples,type
-nc,Nomenclatural Code Concept Scheme,nc,,,,,,http://www.w3.org/2004/02/skos/core#ConceptScheme
-nc001,ICN,nc,ICN,"International Code of Nomenclature for algae, fungi and plants",,,,http://www.w3.org/2004/02/skos/core#Concept
-nc002,ICZN,nc,ICZN,International Code of Zoological Nomenclature,,,,http://www.w3.org/2004/02/skos/core#Concept
-nc003,ICVCN,nc,ICVCN,International Code of Virus Classifications and Nomenclature,,,,http://www.w3.org/2004/02/skos/core#Concept
-nc004,ICNB,nc,ICNB,International Code of Nomenclature of Bacteria,,,,http://www.w3.org/2004/02/skos/core#Concept
-nc005,ICNCP,nc,ICNCP,International Code of Nomenclature for Cultivated Plants,,,,http://www.w3.org/2004/02/skos/core#Concept
-nc006,BioCode,nc,BioCode,International Code of Botanical Nomenclature,,,,http://www.w3.org/2004/02/skos/core#Concept
