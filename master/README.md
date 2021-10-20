@@ -15,7 +15,7 @@
 
 **Taxon Name**
 
-[tcs:taxonNameString](#tcs_taxonNameString) | [tcs:uninomial](#tcs_uninomial) | [tcs:taxonNameAuthorship](#tcs_taxonNameAuthorship) | [tcs:combinationAuthoship](#tcs_combinationAuthoship) | [tcs:basionymAuthorship](#tcs_basionymAuthorship) | [tcs:namePublishedIn](#tcs_namePublishedIn) | [tcs:microreference](#tcs_microreference) | [tcs:nomenclaturalCode](#tcs_nomenclaturalCode) | [tcs:nomenclaturalStatus](#tcs_nomenclaturalStatus) | [tcs:basionym](#tcs_basionym) | [tcs:replacedName](#tcs_replacedName) | [tcs:basedOn](#tcs_basedOn) | [tcs:conservedAgainst](#tcs_conservedAgainst) | [tcs:sanctionedBy](#tcs_sanctionedBy) | [dwc:genericName](#dwc_genericName) | [dwc:infragenericEpithet](#dwc_infragenericEpithet) | [dwc:specificEpithet](#dwc_specificEpithet) | [dwc:infraspecificEpithet](#dwc_infraspecificEpithet) | [dwc:cultivarEpithet](#dwc_cultivarEpithet) | [dwc:namePublishedInYear](#dwc_namePublishedInYear) | [dwc:verbatimRank](#dwc_verbatimRank)
+[tcs:taxonNameString](#tcs_taxonNameString) | [tcs:uninomial](#tcs_uninomial) | [tcs:taxonNameAuthorship](#tcs_taxonNameAuthorship) | [tcs:combinationAuthoship](#tcs_combinationAuthoship) | [tcs:basionymAuthorship](#tcs_basionymAuthorship) | [tcs:namePublishedIn](#tcs_namePublishedIn) | [tcs:microreference](#tcs_microreference) | [tcs:nomenclaturalCode](#tcs_nomenclaturalCode) | [tcs:nomenclaturalStatus](#tcs_nomenclaturalStatus) | [tcs:basionym](#tcs_basionym) | [tcs:replacedName](#tcs_replacedName) | [tcs:basedOn](#tcs_basedOn) | [tcs:conservedAgainst](#tcs_conservedAgainst) | [tcs:sanctionedBy](#tcs_sanctionedBy)
 
 **Nomenclatural Type**
 
@@ -28,13 +28,17 @@
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="tcs_TaxonConcept"></a>tcs:TaxonConcept</th>
+			<th colspan="2"><a id="tcs_TaxonConcept"></a>Class tcs:TaxonConcept</th>
 		</tr>
 	</thead>
 	<tbody>
 		<tr>
-			<td>URI</td>
+			<td>Term IRI</td>
 			<td>http://rs.tdwg.org/tcs/terms/TaxonConcept</td>
+		</tr>
+		<tr>
+			<td>Type</td>
+			<td>http://www.w3.org/2000/01/rdf-schema#Class</td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -58,13 +62,17 @@
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="tcs_taxonConceptCategory"></a>tcs:taxonConceptCategory</th>
+			<th colspan="2"><a id="tcs_taxonConceptCategory"></a>Property tcs:taxonConceptCategory</th>
 		</tr>
 	</thead>
 	<tbody>
 		<tr>
-			<td>URI</td>
+			<td>Term IRI</td>
 			<td>http://rs.tdwg.org/tcs/terms/taxonConceptCategory</td>
+		</tr>
+		<tr>
+			<td>Type</td>
+			<td>http://www.w3.org/1999/02/22-rdf-syntax-ns#Property</td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -92,13 +100,17 @@
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="tcs_taxonName"></a>tcs:taxonName</th>
+			<th colspan="2"><a id="tcs_taxonName"></a>Property tcs:taxonName</th>
 		</tr>
 	</thead>
 	<tbody>
 		<tr>
-			<td>URI</td>
+			<td>Term IRI</td>
 			<td>http://rs.tdwg.org/tcs/terms/taxonName</td>
+		</tr>
+		<tr>
+			<td>Type</td>
+			<td>http://www.w3.org/1999/02/22-rdf-syntax-ns#Property</td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -126,13 +138,17 @@
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="tcs_accordingTo"></a>tcs:accordingTo</th>
+			<th colspan="2"><a id="tcs_accordingTo"></a>Property tcs:accordingTo</th>
 		</tr>
 	</thead>
 	<tbody>
 		<tr>
-			<td>URI</td>
+			<td>Term IRI</td>
 			<td>http://rs.tdwg.org/tcs/terms/accordingTo</td>
+		</tr>
+		<tr>
+			<td>Type</td>
+			<td>http://www.w3.org/1999/02/22-rdf-syntax-ns#Property</td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -160,13 +176,17 @@
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="tcs_accordingToString"></a>tcs:accordingToString</th>
+			<th colspan="2"><a id="tcs_accordingToString"></a>Property tcs:accordingToString</th>
 		</tr>
 	</thead>
 	<tbody>
 		<tr>
-			<td>URI</td>
+			<td>Term IRI</td>
 			<td>http://rs.tdwg.org/tcs/terms/accordingToString</td>
+		</tr>
+		<tr>
+			<td>Type</td>
+			<td>http://www.w3.org/1999/02/22-rdf-syntax-ns#Property</td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -194,13 +214,17 @@
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="tcs_parent"></a>tcs:parent</th>
+			<th colspan="2"><a id="tcs_parent"></a>Property tcs:parent</th>
 		</tr>
 	</thead>
 	<tbody>
 		<tr>
-			<td>URI</td>
+			<td>Term IRI</td>
 			<td>http://rs.tdwg.org/tcs/terms/parent</td>
+		</tr>
+		<tr>
+			<td>Type</td>
+			<td>http://www.w3.org/1999/02/22-rdf-syntax-ns#Property</td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -228,13 +252,17 @@
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="tcs_synonym"></a>tcs:synonym</th>
+			<th colspan="2"><a id="tcs_synonym"></a>Property tcs:synonym</th>
 		</tr>
 	</thead>
 	<tbody>
 		<tr>
-			<td>URI</td>
+			<td>Term IRI</td>
 			<td>http://rs.tdwg.org/tcs/terms/synonym</td>
+		</tr>
+		<tr>
+			<td>Type</td>
+			<td>http://www.w3.org/1999/02/22-rdf-syntax-ns#Property</td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -262,13 +290,17 @@
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="tcs_vernacularName"></a>tcs:vernacularName</th>
+			<th colspan="2"><a id="tcs_vernacularName"></a>Property tcs:vernacularName</th>
 		</tr>
 	</thead>
 	<tbody>
 		<tr>
-			<td>URI</td>
+			<td>Term IRI</td>
 			<td>http://rs.tdwg.org/tcs/terms/vernacularName</td>
+		</tr>
+		<tr>
+			<td>Type</td>
+			<td>http://www.w3.org/1999/02/22-rdf-syntax-ns#Property</td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -296,13 +328,17 @@
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="tcs_characterCircumscription"></a>tcs:characterCircumscription</th>
+			<th colspan="2"><a id="tcs_characterCircumscription"></a>Property tcs:characterCircumscription</th>
 		</tr>
 	</thead>
 	<tbody>
 		<tr>
-			<td>URI</td>
+			<td>Term IRI</td>
 			<td>http://rs.tdwg.org/tcs/terms/characterCircumscription</td>
+		</tr>
+		<tr>
+			<td>Type</td>
+			<td>http://www.w3.org/1999/02/22-rdf-syntax-ns#Property</td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -330,13 +366,17 @@
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="tcs_specimenCircumscription"></a>tcs:specimenCircumscription</th>
+			<th colspan="2"><a id="tcs_specimenCircumscription"></a>Property tcs:specimenCircumscription</th>
 		</tr>
 	</thead>
 	<tbody>
 		<tr>
-			<td>URI</td>
+			<td>Term IRI</td>
 			<td>http://rs.tdwg.org/tcs/terms/specimenCircumscription</td>
+		</tr>
+		<tr>
+			<td>Type</td>
+			<td>http://www.w3.org/1999/02/22-rdf-syntax-ns#Property</td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -366,13 +406,17 @@
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="tcs_TaxonRelationship"></a>tcs:TaxonRelationship</th>
+			<th colspan="2"><a id="tcs_TaxonRelationship"></a>Class tcs:TaxonRelationship</th>
 		</tr>
 	</thead>
 	<tbody>
 		<tr>
-			<td>URI</td>
+			<td>Term IRI</td>
 			<td>http://rs.tdwg.org/tcs/terms/TaxonRelationship</td>
+		</tr>
+		<tr>
+			<td>Type</td>
+			<td>http://www.w3.org/2000/01/rdf-schema#Class</td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -396,13 +440,17 @@
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="tcs_relationshipType"></a>tcs:relationshipType</th>
+			<th colspan="2"><a id="tcs_relationshipType"></a>Property tcs:relationshipType</th>
 		</tr>
 	</thead>
 	<tbody>
 		<tr>
-			<td>URI</td>
+			<td>Term IRI</td>
 			<td>http://rs.tdwg.org/tcs/terms/relationshipType</td>
+		</tr>
+		<tr>
+			<td>Type</td>
+			<td>http://www.w3.org/1999/02/22-rdf-syntax-ns#Property</td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -430,13 +478,17 @@
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="tcs_subjectTaxonConcept"></a>tcs:subjectTaxonConcept</th>
+			<th colspan="2"><a id="tcs_subjectTaxonConcept"></a>Property tcs:subjectTaxonConcept</th>
 		</tr>
 	</thead>
 	<tbody>
 		<tr>
-			<td>URI</td>
+			<td>Term IRI</td>
 			<td>http://rs.tdwg.org/tcs/terms/subjectTaxonConcept</td>
+		</tr>
+		<tr>
+			<td>Type</td>
+			<td>http://www.w3.org/1999/02/22-rdf-syntax-ns#Property</td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -464,13 +516,17 @@
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="tcs_objectTaxonConcept"></a>tcs:objectTaxonConcept</th>
+			<th colspan="2"><a id="tcs_objectTaxonConcept"></a>Property tcs:objectTaxonConcept</th>
 		</tr>
 	</thead>
 	<tbody>
 		<tr>
-			<td>URI</td>
+			<td>Term IRI</td>
 			<td>http://rs.tdwg.org/tcs/terms/objectTaxonConcept</td>
+		</tr>
+		<tr>
+			<td>Type</td>
+			<td>http://www.w3.org/1999/02/22-rdf-syntax-ns#Property</td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -498,13 +554,17 @@
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="tcs_relationshipAccordingTo"></a>tcs:relationshipAccordingTo</th>
+			<th colspan="2"><a id="tcs_relationshipAccordingTo"></a>Property tcs:relationshipAccordingTo</th>
 		</tr>
 	</thead>
 	<tbody>
 		<tr>
-			<td>URI</td>
+			<td>Term IRI</td>
 			<td>http://rs.tdwg.org/tcs/terms/relationshipAccordingTo</td>
+		</tr>
+		<tr>
+			<td>Type</td>
+			<td>http://www.w3.org/1999/02/22-rdf-syntax-ns#Property</td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -534,13 +594,17 @@
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="tcs_TaxonName"></a>tcs:TaxonName</th>
+			<th colspan="2"><a id="tcs_TaxonName"></a>Class tcs:TaxonName</th>
 		</tr>
 	</thead>
 	<tbody>
 		<tr>
-			<td>URI</td>
+			<td>Term IRI</td>
 			<td>http://rs.tdwg.org/tcs/terms/TaxonName</td>
+		</tr>
+		<tr>
+			<td>Type</td>
+			<td>http://www.w3.org/2000/01/rdf-schema#Class</td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -564,13 +628,17 @@
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="tcs_taxonNameString"></a>tcs:taxonNameString</th>
+			<th colspan="2"><a id="tcs_taxonNameString"></a>Property tcs:taxonNameString</th>
 		</tr>
 	</thead>
 	<tbody>
 		<tr>
-			<td>URI</td>
+			<td>Term IRI</td>
 			<td>http://rs.tdwg.org/tcs/terms/taxonNameString</td>
+		</tr>
+		<tr>
+			<td>Type</td>
+			<td>http://www.w3.org/1999/02/22-rdf-syntax-ns#Property</td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -598,13 +666,17 @@
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="tcs_uninomial"></a>tcs:uninomial</th>
+			<th colspan="2"><a id="tcs_uninomial"></a>Property tcs:uninomial</th>
 		</tr>
 	</thead>
 	<tbody>
 		<tr>
-			<td>URI</td>
+			<td>Term IRI</td>
 			<td>http://rs.tdwg.org/tcs/terms/uninomial</td>
+		</tr>
+		<tr>
+			<td>Type</td>
+			<td>http://www.w3.org/1999/02/22-rdf-syntax-ns#Property</td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -632,13 +704,17 @@
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="tcs_taxonNameAuthorship"></a>tcs:taxonNameAuthorship</th>
+			<th colspan="2"><a id="tcs_taxonNameAuthorship"></a>Property tcs:taxonNameAuthorship</th>
 		</tr>
 	</thead>
 	<tbody>
 		<tr>
-			<td>URI</td>
+			<td>Term IRI</td>
 			<td>http://rs.tdwg.org/tcs/terms/taxonNameAuthorship</td>
+		</tr>
+		<tr>
+			<td>Type</td>
+			<td>http://www.w3.org/1999/02/22-rdf-syntax-ns#Property</td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -666,13 +742,17 @@
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="tcs_combinationAuthoship"></a>tcs:combinationAuthoship</th>
+			<th colspan="2"><a id="tcs_combinationAuthoship"></a>Property tcs:combinationAuthoship</th>
 		</tr>
 	</thead>
 	<tbody>
 		<tr>
-			<td>URI</td>
+			<td>Term IRI</td>
 			<td>http://rs.tdwg.org/tcs/terms/combinationAuthoship</td>
+		</tr>
+		<tr>
+			<td>Type</td>
+			<td>http://www.w3.org/1999/02/22-rdf-syntax-ns#Property</td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -700,13 +780,17 @@
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="tcs_basionymAuthorship"></a>tcs:basionymAuthorship</th>
+			<th colspan="2"><a id="tcs_basionymAuthorship"></a>Property tcs:basionymAuthorship</th>
 		</tr>
 	</thead>
 	<tbody>
 		<tr>
-			<td>URI</td>
+			<td>Term IRI</td>
 			<td>http://rs.tdwg.org/tcs/terms/basionymAuthorship</td>
+		</tr>
+		<tr>
+			<td>Type</td>
+			<td>http://www.w3.org/1999/02/22-rdf-syntax-ns#Property</td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -734,13 +818,17 @@
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="tcs_namePublishedIn"></a>tcs:namePublishedIn</th>
+			<th colspan="2"><a id="tcs_namePublishedIn"></a>Property tcs:namePublishedIn</th>
 		</tr>
 	</thead>
 	<tbody>
 		<tr>
-			<td>URI</td>
+			<td>Term IRI</td>
 			<td>http://rs.tdwg.org/tcs/terms/namePublishedIn</td>
+		</tr>
+		<tr>
+			<td>Type</td>
+			<td>http://www.w3.org/1999/02/22-rdf-syntax-ns#Property</td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -768,13 +856,17 @@
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="tcs_microreference"></a>tcs:microreference</th>
+			<th colspan="2"><a id="tcs_microreference"></a>Property tcs:microreference</th>
 		</tr>
 	</thead>
 	<tbody>
 		<tr>
-			<td>URI</td>
+			<td>Term IRI</td>
 			<td>http://rs.tdwg.org/tcs/terms/microreference</td>
+		</tr>
+		<tr>
+			<td>Type</td>
+			<td>http://www.w3.org/1999/02/22-rdf-syntax-ns#Property</td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -802,13 +894,17 @@
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="tcs_nomenclaturalCode"></a>tcs:nomenclaturalCode</th>
+			<th colspan="2"><a id="tcs_nomenclaturalCode"></a>Property tcs:nomenclaturalCode</th>
 		</tr>
 	</thead>
 	<tbody>
 		<tr>
-			<td>URI</td>
+			<td>Term IRI</td>
 			<td>http://rs.tdwg.org/tcs/terms/nomenclaturalCode</td>
+		</tr>
+		<tr>
+			<td>Type</td>
+			<td>http://www.w3.org/1999/02/22-rdf-syntax-ns#Property</td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -836,13 +932,17 @@
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="tcs_nomenclaturalStatus"></a>tcs:nomenclaturalStatus</th>
+			<th colspan="2"><a id="tcs_nomenclaturalStatus"></a>Property tcs:nomenclaturalStatus</th>
 		</tr>
 	</thead>
 	<tbody>
 		<tr>
-			<td>URI</td>
+			<td>Term IRI</td>
 			<td>http://rs.tdwg.org/tcs/terms/nomenclaturalStatus</td>
+		</tr>
+		<tr>
+			<td>Type</td>
+			<td>http://www.w3.org/1999/02/22-rdf-syntax-ns#Property</td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -870,13 +970,17 @@
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="tcs_basionym"></a>tcs:basionym</th>
+			<th colspan="2"><a id="tcs_basionym"></a>Property tcs:basionym</th>
 		</tr>
 	</thead>
 	<tbody>
 		<tr>
-			<td>URI</td>
+			<td>Term IRI</td>
 			<td>http://rs.tdwg.org/tcs/terms/basionym</td>
+		</tr>
+		<tr>
+			<td>Type</td>
+			<td>http://www.w3.org/1999/02/22-rdf-syntax-ns#Property</td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -904,13 +1008,17 @@
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="tcs_replacedName"></a>tcs:replacedName</th>
+			<th colspan="2"><a id="tcs_replacedName"></a>Property tcs:replacedName</th>
 		</tr>
 	</thead>
 	<tbody>
 		<tr>
-			<td>URI</td>
+			<td>Term IRI</td>
 			<td>http://rs.tdwg.org/tcs/terms/replacedName</td>
+		</tr>
+		<tr>
+			<td>Type</td>
+			<td>http://www.w3.org/1999/02/22-rdf-syntax-ns#Property</td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -938,13 +1046,17 @@
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="tcs_basedOn"></a>tcs:basedOn</th>
+			<th colspan="2"><a id="tcs_basedOn"></a>Property tcs:basedOn</th>
 		</tr>
 	</thead>
 	<tbody>
 		<tr>
-			<td>URI</td>
+			<td>Term IRI</td>
 			<td>http://rs.tdwg.org/tcs/terms/basedOn</td>
+		</tr>
+		<tr>
+			<td>Type</td>
+			<td>http://www.w3.org/1999/02/22-rdf-syntax-ns#Property</td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -972,13 +1084,17 @@
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="tcs_conservedAgainst"></a>tcs:conservedAgainst</th>
+			<th colspan="2"><a id="tcs_conservedAgainst"></a>Property tcs:conservedAgainst</th>
 		</tr>
 	</thead>
 	<tbody>
 		<tr>
-			<td>URI</td>
+			<td>Term IRI</td>
 			<td>http://rs.tdwg.org/tcs/terms/conservedAgainst</td>
+		</tr>
+		<tr>
+			<td>Type</td>
+			<td>http://www.w3.org/1999/02/22-rdf-syntax-ns#Property</td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -1006,13 +1122,17 @@
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="tcs_sanctionedBy"></a>tcs:sanctionedBy</th>
+			<th colspan="2"><a id="tcs_sanctionedBy"></a>Property tcs:sanctionedBy</th>
 		</tr>
 	</thead>
 	<tbody>
 		<tr>
-			<td>URI</td>
+			<td>Term IRI</td>
 			<td>http://rs.tdwg.org/tcs/terms/sanctionedBy</td>
+		</tr>
+		<tr>
+			<td>Type</td>
+			<td>http://www.w3.org/1999/02/22-rdf-syntax-ns#Property</td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -1037,256 +1157,22 @@
 	</tbody>
 </table>
 
-<table>
-	<thead>
-		<tr>
-			<th colspan="2"><a id="dwc_genericName"></a>dwc:genericName</th>
-		</tr>
-	</thead>
-	<tbody>
-		<tr>
-			<td>URI</td>
-			<td>http://rs.tdwg.org/dwc/terms/genericName</td>
-		</tr>
-		<tr>
-			<td>Label</td>
-			<td>Generic Name</td>
-		</tr>
-		<tr>
-			<td></td>
-			<td><b>required:</b> No — <b>repeatable:</b> No</td>
-		</tr>
-		<tr>
-			<td>Definition</td>
-			<td><p>The genus part of the scientificName without authorship.</p></td>
-		</tr>
-		<tr>
-			<td>Usage</td>
-			<td><p>This property should not be used for names at and above the rank of genus. For those names the uninomial property should be used.</p></td>
-		</tr>
-		<tr>
-			<td>Comments</td>
-			<td></td>
-		</tr>
-	</tbody>
-</table>
-
-<table>
-	<thead>
-		<tr>
-			<th colspan="2"><a id="dwc_infragenericEpithet"></a>dwc:infragenericEpithet</th>
-		</tr>
-	</thead>
-	<tbody>
-		<tr>
-			<td>URI</td>
-			<td>http://rs.tdwg.org/dwc/terms/infragenericEpithet</td>
-		</tr>
-		<tr>
-			<td>Label</td>
-			<td>Infrageneric Epithet</td>
-		</tr>
-		<tr>
-			<td></td>
-			<td><b>required:</b> No — <b>repeatable:</b> No</td>
-		</tr>
-		<tr>
-			<td>Definition</td>
-			<td><p>The infrageneric part of a binomial name at ranks above species but below  genus.</p></td>
-		</tr>
-		<tr>
-			<td>Usage</td>
-			<td><p>Names at ranks between species and genus are composed of two parts; the  genus and this infrageneric epithet. This property should therefore always  be accompanied by the genus property. If the infragenericEpithet property is  present, the uninomial, specificEpithet and infraspecificEpithet properties  should be absent.</p></td>
-		</tr>
-		<tr>
-			<td>Comments</td>
-			<td></td>
-		</tr>
-	</tbody>
-</table>
-
-<table>
-	<thead>
-		<tr>
-			<th colspan="2"><a id="dwc_specificEpithet"></a>dwc:specificEpithet</th>
-		</tr>
-	</thead>
-	<tbody>
-		<tr>
-			<td>URI</td>
-			<td>http://rs.tdwg.org/dwc/terms/specificEpithet</td>
-		</tr>
-		<tr>
-			<td>Label</td>
-			<td>Specific Epithet</td>
-		</tr>
-		<tr>
-			<td></td>
-			<td><b>required:</b> No — <b>repeatable:</b> No</td>
-		</tr>
-		<tr>
-			<td>Definition</td>
-			<td><p>The name of the first or species epithet of the scientificName.</p></td>
-		</tr>
-		<tr>
-			<td>Usage</td>
-			<td><p>Names at ranks of species and below are composed of two or three words; the  genus name, the specific epithet and possibly an infraspecific epithet.  This property should therefore always be accompanied by the <code>genus</code> property.  If the <code>specificEpithet</code> property is present the <code>uninomial</code> and  <code>infragenericEpithet</code> properties should be absent.</p></td>
-		</tr>
-		<tr>
-			<td>Comments</td>
-			<td></td>
-		</tr>
-	</tbody>
-</table>
-
-<table>
-	<thead>
-		<tr>
-			<th colspan="2"><a id="dwc_infraspecificEpithet"></a>dwc:infraspecificEpithet</th>
-		</tr>
-	</thead>
-	<tbody>
-		<tr>
-			<td>URI</td>
-			<td>http://rs.tdwg.org/dwc/terms/infraspecificEpithet</td>
-		</tr>
-		<tr>
-			<td>Label</td>
-			<td>Infraspecific Epithet</td>
-		</tr>
-		<tr>
-			<td></td>
-			<td><b>required:</b> No — <b>repeatable:</b> No</td>
-		</tr>
-		<tr>
-			<td>Definition</td>
-			<td><p>The name of the lowest or terminal infraspecific epithet of the scientificName, excluding any rank designation. </p></td>
-		</tr>
-		<tr>
-			<td>Usage</td>
-			<td><p>Names at ranks below species are composed of three words; the genus name,  the specific epithet and an infraspecific epithet. This property should  therefore always be accompanied by the <code>genus</code> and <code>specificEpithet</code>  properties. If the <code>specificEpithet</code> property is present the <code>uninomial</code> and  <code>infragenericEpithet</code> properties should be absent.</p></td>
-		</tr>
-		<tr>
-			<td>Comments</td>
-			<td></td>
-		</tr>
-	</tbody>
-</table>
-
-<table>
-	<thead>
-		<tr>
-			<th colspan="2"><a id="dwc_cultivarEpithet"></a>dwc:cultivarEpithet</th>
-		</tr>
-	</thead>
-	<tbody>
-		<tr>
-			<td>URI</td>
-			<td>http://rs.tdwg.org/dwc/terms/cultivarEpithet</td>
-		</tr>
-		<tr>
-			<td>Label</td>
-			<td>Cultivar Epithet</td>
-		</tr>
-		<tr>
-			<td></td>
-			<td><b>required:</b> No — <b>repeatable:</b> No</td>
-		</tr>
-		<tr>
-			<td>Definition</td>
-			<td><p>Part of the name of a cultivar, cultivar group or grex that follows the  scientific name.</p></td>
-		</tr>
-		<tr>
-			<td>Usage</td>
-			<td><p>The cultivar epithet follows a well-formed botanical name. Only include the string of the epithet. i.e. omit the single quotes around cultivar  names, the word nullGroupnull that denotes cultivar group and the + sign  used in chimeras.</p></td>
-		</tr>
-		<tr>
-			<td>Comments</td>
-			<td></td>
-		</tr>
-	</tbody>
-</table>
-
-<table>
-	<thead>
-		<tr>
-			<th colspan="2"><a id="dwc_namePublishedInYear"></a>dwc:namePublishedInYear</th>
-		</tr>
-	</thead>
-	<tbody>
-		<tr>
-			<td>URI</td>
-			<td>http://rs.tdwg.org/dwc/terms/namePublishedInYear</td>
-		</tr>
-		<tr>
-			<td>Label</td>
-			<td>Name Published In Year</td>
-		</tr>
-		<tr>
-			<td></td>
-			<td><b>required:</b> No — <b>repeatable:</b> No</td>
-		</tr>
-		<tr>
-			<td>Definition</td>
-			<td><p>The four-digit year in which the scientificName was published.</p></td>
-		</tr>
-		<tr>
-			<td>Usage</td>
-			<td><p>This is the publication year for the present name combination not for the basionym should this be a new combination.</p></td>
-		</tr>
-		<tr>
-			<td>Comments</td>
-			<td></td>
-		</tr>
-	</tbody>
-</table>
-
-<table>
-	<thead>
-		<tr>
-			<th colspan="2"><a id="dwc_verbatimRank"></a>dwc:verbatimRank</th>
-		</tr>
-	</thead>
-	<tbody>
-		<tr>
-			<td>URI</td>
-			<td>http://rs.tdwg.org/dwc/terms/verbatimRank</td>
-		</tr>
-		<tr>
-			<td>Label</td>
-			<td>Verbatim Rank</td>
-		</tr>
-		<tr>
-			<td></td>
-			<td><b>required:</b> No — <b>repeatable:</b> No</td>
-		</tr>
-		<tr>
-			<td>Definition</td>
-			<td><p>The taxonomic rank of the most specific name in the scientificName as it  appears in the original record.</p></td>
-		</tr>
-		<tr>
-			<td>Usage</td>
-			<td></td>
-		</tr>
-		<tr>
-			<td>Comments</td>
-			<td></td>
-		</tr>
-	</tbody>
-</table>
-
 #### Nomenclatural Type
 
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="tcs_NomenclaturalType"></a>tcs:NomenclaturalType</th>
+			<th colspan="2"><a id="tcs_NomenclaturalType"></a>Class tcs:NomenclaturalType</th>
 		</tr>
 	</thead>
 	<tbody>
 		<tr>
-			<td>URI</td>
+			<td>Term IRI</td>
 			<td>http://rs.tdwg.org/tcs/terms/NomenclaturalType</td>
+		</tr>
+		<tr>
+			<td>Type</td>
+			<td>http://www.w3.org/2000/01/rdf-schema#Class</td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -1310,13 +1196,17 @@
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="tcs_typifiedName"></a>tcs:typifiedName</th>
+			<th colspan="2"><a id="tcs_typifiedName"></a>Property tcs:typifiedName</th>
 		</tr>
 	</thead>
 	<tbody>
 		<tr>
-			<td>URI</td>
+			<td>Term IRI</td>
 			<td>http://rs.tdwg.org/tcs/terms/typifiedName</td>
+		</tr>
+		<tr>
+			<td>Type</td>
+			<td>http://www.w3.org/1999/02/22-rdf-syntax-ns#Property</td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -1344,13 +1234,17 @@
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="tcs_typeOfType"></a>tcs:typeOfType</th>
+			<th colspan="2"><a id="tcs_typeOfType"></a>Property tcs:typeOfType</th>
 		</tr>
 	</thead>
 	<tbody>
 		<tr>
-			<td>URI</td>
+			<td>Term IRI</td>
 			<td>http://rs.tdwg.org/tcs/terms/typeOfType</td>
+		</tr>
+		<tr>
+			<td>Type</td>
+			<td>http://www.w3.org/1999/02/22-rdf-syntax-ns#Property</td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -1378,13 +1272,17 @@
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="tcs_typeName"></a>tcs:typeName</th>
+			<th colspan="2"><a id="tcs_typeName"></a>Property tcs:typeName</th>
 		</tr>
 	</thead>
 	<tbody>
 		<tr>
-			<td>URI</td>
+			<td>Term IRI</td>
 			<td>http://rs.tdwg.org/tcs/terms/typeName</td>
+		</tr>
+		<tr>
+			<td>Type</td>
+			<td>http://www.w3.org/1999/02/22-rdf-syntax-ns#Property</td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -1412,13 +1310,17 @@
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="tcs_typeSpecimen"></a>tcs:typeSpecimen</th>
+			<th colspan="2"><a id="tcs_typeSpecimen"></a>Property tcs:typeSpecimen</th>
 		</tr>
 	</thead>
 	<tbody>
 		<tr>
-			<td>URI</td>
+			<td>Term IRI</td>
 			<td>http://rs.tdwg.org/tcs/terms/typeSpecimen</td>
+		</tr>
+		<tr>
+			<td>Type</td>
+			<td>http://www.w3.org/1999/02/22-rdf-syntax-ns#Property</td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -1446,13 +1348,17 @@
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="tcs_typePublishedIn"></a>tcs:typePublishedIn</th>
+			<th colspan="2"><a id="tcs_typePublishedIn"></a>Property tcs:typePublishedIn</th>
 		</tr>
 	</thead>
 	<tbody>
 		<tr>
-			<td>URI</td>
+			<td>Term IRI</td>
 			<td>http://rs.tdwg.org/tcs/terms/typePublishedIn</td>
+		</tr>
+		<tr>
+			<td>Type</td>
+			<td>http://www.w3.org/1999/02/22-rdf-syntax-ns#Property</td>
 		</tr>
 		<tr>
 			<td>Label</td>

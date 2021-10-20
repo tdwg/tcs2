@@ -7,7 +7,8 @@
   label: Nomenclatural Status Concept Scheme
   skos_inScheme: ns
   controlled_value_string: null
-  definition: null
+  definition: >-
+    A SKOS Concept Scheme for controlled values for tcs:nomenclaturalStatus
   usage: null
   notes: null
   examples: null

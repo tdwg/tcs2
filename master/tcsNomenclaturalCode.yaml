@@ -7,7 +7,8 @@
   label: Nomenclatural Code Concept Scheme
   skos_inScheme: nc
   controlled_value_string: null
-  definition: null
+  definition: >-
+    A SKOS Concept Scheme for controlled values for tcs:nomenclaturalCode
   usage: null
   notes: null
   examples: null

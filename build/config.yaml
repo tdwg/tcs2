@@ -1,4 +1,4 @@
-# githubBaseUri: https://raw.githubusercontent.com/tdwg/rs.tdwg.org/master/
+---
 headerFileName: termlist-header.md
 footerFileName: termlist-footer.md
 outFileName: ../master/README.md
@@ -9,8 +9,6 @@ termLists:
   - filename: dwc-for-tcs
     vann_preferredNamespacePrefix: dwc
     vann_preferredNamespaceUri: http://rs.tdwg.org/dwc/terms/
-vocab_type: 1
-organized_in_categories: True
 categories:
   - namespace: 'http://rs.tdwg.org/tcs/terms/TaxonConcept'
     label: Taxon Concept
@@ -27,7 +25,70 @@ categories:
   - namespace: 'http://rs.tdwg.org/tcs/terms/NomenclaturalType'
     label: Nomenclatural Type
     comments: ''
-    display_id: nomenclaturalType    
-
-
-    
+    display_id: nomenclaturalType
+---
+headerFileName: taxon-concept-category-vocabulary-header.md
+footerFileName: termlist-footer.md
+outFileName: ../master/taxon-concept-category-vocabulary.md
+termLists:
+  - filename: tcsTaxonConceptCategory
+    vann_preferredNamespacePrefix: tcscategory
+    vann_preferredNamespaceUri: http://rs.tdwg.org/tcs-taxon-concept-category/values/
+categories:
+  - namespace: http://rs.tdwg.org/tcs-taxon-concept-category/values/
+    label: Taxon Concept Category
+---
+headerFileName: taxon-relationship-type-vocabulary-header.md
+footerFileName: termlist-footer.md
+outFileName: ../master/taxon-relationship-vocabulary.md
+termLists:
+  - filename: tcsTaxonRelationshipType
+    vann_preferredNamespacePrefix: tcsreltype
+    vann_preferredNamespaceUri: http://rs.tdwg.org/tcs-taxon-relationship-type/values/
+categories:
+  - namespace: http://rs.tdwg.org/tcs-taxon-relationship-type/values/
+    label: Taxon Relationship Type
+---
+headerFileName: nomenclatural-code-vocabulary-header.md
+footerFileName: termlist-footer.md
+outFileName: ../master/nomenclatural-code-vocabulary.md
+termLists:
+  - filename: tcsTaxonRelationshipType
+    vann_preferredNamespacePrefix: tcsnomcode
+    vann_preferredNamespaceUri: http://rs.tdwg.org/tcs-nomenclatural-code/values/
+categories:
+  - namespace: http://rs.tdwg.org/tcs-nomenclatural-code/values/
+    label: Nomenclatural Code
+---
+headerFileName: nomenclatural-status-vocabulary-header.md
+footerFileName: termlist-footer.md
+outFileName: ../master/nomenclatural-status-vocabulary.md
+termLists:
+  - filename: tcsNomenclaturalStatus
+    vann_preferredNamespacePrefix: tcsnomstat
+    vann_preferredNamespaceUri: http://rs.tdwg.org/tcs-nomenclatural-status/values/
+categories:
+  - namespace: http://rs.tdwg.org/tcs-nomenclatural-status/values/
+    label: Nomenclatural Status
+---
+headerFileName: rank-vocabulary-header.md
+footerFileName: termlist-footer.md
+outFileName: ../master/rank-vocabulary.md
+termLists:
+  - filename: tcsRank
+    vann_preferredNamespacePrefix: tcsrank
+    vann_preferredNamespaceUri: http://rs.tdwg.org/tcs-rank/values/
+categories:
+  - namespace: http://rs.tdwg.org/tcs-rank/values/
+    label: Rank
+---
+headerFileName: type-of-type-vocabulary-header.md
+footerFileName: termlist-footer.md
+outFileName: ../master/type-of-type-vocabulary.md
+termLists:
+  - filename: tcsTypeOfType
+    vann_preferredNamespacePrefix: tcstypeoftype
+    vann_preferredNamespaceUri: http://rs.tdwg.org/tcs-type-of-type/values/
+categories:
+  - namespace: http://rs.tdwg.org/tcs-type-of-type/values/
+    label: Type of Type

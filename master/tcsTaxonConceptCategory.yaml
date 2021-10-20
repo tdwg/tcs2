@@ -7,7 +7,8 @@
   label: Taxon Concept Category Concept Scheme
   skos_inScheme: tcc
   controlled_value_string: null
-  definition: null
+  definition: >- 
+    A SKOS Concept Scheme for controlled values for tcs:taxonConceptCategory
   usage: null
   notes: null
   examples: null
