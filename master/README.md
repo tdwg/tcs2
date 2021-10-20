@@ -56,6 +56,10 @@
 			<td>Comments</td>
 			<td></td>
 		</tr>
+		<tr>
+			<td>Examples</td>
+			<td></td>
+		</tr>
 	</tbody>
 </table>
 
@@ -92,6 +96,10 @@
 		</tr>
 		<tr>
 			<td>Comments</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Examples</td>
 			<td></td>
 		</tr>
 	</tbody>
@@ -132,6 +140,10 @@
 			<td>Comments</td>
 			<td></td>
 		</tr>
+		<tr>
+			<td>Examples</td>
+			<td></td>
+		</tr>
 	</tbody>
 </table>
 
@@ -168,6 +180,10 @@
 		</tr>
 		<tr>
 			<td>Comments</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Examples</td>
 			<td></td>
 		</tr>
 	</tbody>
@@ -208,6 +224,10 @@
 			<td>Comments</td>
 			<td></td>
 		</tr>
+		<tr>
+			<td>Examples</td>
+			<td></td>
+		</tr>
 	</tbody>
 </table>
 
@@ -244,6 +264,10 @@
 		</tr>
 		<tr>
 			<td>Comments</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Examples</td>
 			<td></td>
 		</tr>
 	</tbody>
@@ -284,6 +308,10 @@
 			<td>Comments</td>
 			<td></td>
 		</tr>
+		<tr>
+			<td>Examples</td>
+			<td></td>
+		</tr>
 	</tbody>
 </table>
 
@@ -322,6 +350,10 @@
 			<td>Comments</td>
 			<td><p>A name is only a vernacular name if it is used as an alternative to another name.</p></td>
 		</tr>
+		<tr>
+			<td>Examples</td>
+			<td></td>
+		</tr>
 	</tbody>
 </table>
 
@@ -358,6 +390,10 @@
 		</tr>
 		<tr>
 			<td>Comments</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Examples</td>
 			<td></td>
 		</tr>
 	</tbody>
@@ -398,6 +434,10 @@
 			<td>Comments</td>
 			<td></td>
 		</tr>
+		<tr>
+			<td>Examples</td>
+			<td></td>
+		</tr>
 	</tbody>
 </table>
 
@@ -432,6 +472,10 @@
 		</tr>
 		<tr>
 			<td>Comments</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Examples</td>
 			<td></td>
 		</tr>
 	</tbody>
@@ -472,6 +516,10 @@
 			<td>Comments</td>
 			<td></td>
 		</tr>
+		<tr>
+			<td>Examples</td>
+			<td></td>
+		</tr>
 	</tbody>
 </table>
 
@@ -508,6 +556,10 @@
 		</tr>
 		<tr>
 			<td>Comments</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Examples</td>
 			<td></td>
 		</tr>
 	</tbody>
@@ -548,6 +600,10 @@
 			<td>Comments</td>
 			<td></td>
 		</tr>
+		<tr>
+			<td>Examples</td>
+			<td></td>
+		</tr>
 	</tbody>
 </table>
 
@@ -586,6 +642,10 @@
 			<td>Comments</td>
 			<td></td>
 		</tr>
+		<tr>
+			<td>Examples</td>
+			<td></td>
+		</tr>
 	</tbody>
 </table>
 
@@ -620,6 +680,10 @@
 		</tr>
 		<tr>
 			<td>Comments</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Examples</td>
 			<td></td>
 		</tr>
 	</tbody>
@@ -660,6 +724,10 @@
 			<td>Comments</td>
 			<td></td>
 		</tr>
+		<tr>
+			<td>Examples</td>
+			<td></td>
+		</tr>
 	</tbody>
 </table>
 
@@ -696,6 +764,10 @@
 		</tr>
 		<tr>
 			<td>Comments</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Examples</td>
 			<td></td>
 		</tr>
 	</tbody>
@@ -736,6 +808,10 @@
 			<td>Comments</td>
 			<td></td>
 		</tr>
+		<tr>
+			<td>Examples</td>
+			<td></td>
+		</tr>
 	</tbody>
 </table>
 
@@ -772,6 +848,10 @@
 		</tr>
 		<tr>
 			<td>Comments</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Examples</td>
 			<td></td>
 		</tr>
 	</tbody>
@@ -812,6 +892,10 @@
 			<td>Comments</td>
 			<td></td>
 		</tr>
+		<tr>
+			<td>Examples</td>
+			<td></td>
+		</tr>
 	</tbody>
 </table>
 
@@ -848,6 +932,10 @@
 		</tr>
 		<tr>
 			<td>Comments</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Examples</td>
 			<td></td>
 		</tr>
 	</tbody>
@@ -888,6 +976,10 @@
 			<td>Comments</td>
 			<td></td>
 		</tr>
+		<tr>
+			<td>Examples</td>
+			<td></td>
+		</tr>
 	</tbody>
 </table>
 
@@ -924,6 +1016,10 @@
 		</tr>
 		<tr>
 			<td>Comments</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Examples</td>
 			<td></td>
 		</tr>
 	</tbody>
@@ -964,6 +1060,10 @@
 			<td>Comments</td>
 			<td></td>
 		</tr>
+		<tr>
+			<td>Examples</td>
+			<td></td>
+		</tr>
 	</tbody>
 </table>
 
@@ -1000,6 +1100,10 @@
 		</tr>
 		<tr>
 			<td>Comments</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Examples</td>
 			<td></td>
 		</tr>
 	</tbody>
@@ -1040,6 +1144,10 @@
 			<td>Comments</td>
 			<td></td>
 		</tr>
+		<tr>
+			<td>Examples</td>
+			<td></td>
+		</tr>
 	</tbody>
 </table>
 
@@ -1076,6 +1184,10 @@
 		</tr>
 		<tr>
 			<td>Comments</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Examples</td>
 			<td></td>
 		</tr>
 	</tbody>
@@ -1116,6 +1228,10 @@
 			<td>Comments</td>
 			<td></td>
 		</tr>
+		<tr>
+			<td>Examples</td>
+			<td></td>
+		</tr>
 	</tbody>
 </table>
 
@@ -1154,6 +1270,10 @@
 			<td>Comments</td>
 			<td><p>This is a reference to a publication, not a person.</p></td>
 		</tr>
+		<tr>
+			<td>Examples</td>
+			<td></td>
+		</tr>
 	</tbody>
 </table>
 
@@ -1189,6 +1309,10 @@
 		<tr>
 			<td>Comments</td>
 			<td><p>One or more <code>NomenclaturalType</code>s make up the typification of a <code>TaxonName</code>.</p></td>
+		</tr>
+		<tr>
+			<td>Examples</td>
+			<td></td>
 		</tr>
 	</tbody>
 </table>
@@ -1226,6 +1350,10 @@
 		</tr>
 		<tr>
 			<td>Comments</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Examples</td>
 			<td></td>
 		</tr>
 	</tbody>
@@ -1266,6 +1394,10 @@
 			<td>Comments</td>
 			<td></td>
 		</tr>
+		<tr>
+			<td>Examples</td>
+			<td></td>
+		</tr>
 	</tbody>
 </table>
 
@@ -1303,6 +1435,10 @@
 		<tr>
 			<td>Comments</td>
 			<td><p>TaxonNames at ranks above species level are typified by the name of a lower taxon. Ultimately, by following the chain of type names, all names resolve  to a type species and so a type specimen.</p></td>
+		</tr>
+		<tr>
+			<td>Examples</td>
+			<td></td>
 		</tr>
 	</tbody>
 </table>
@@ -1342,6 +1478,10 @@
 			<td>Comments</td>
 			<td></td>
 		</tr>
+		<tr>
+			<td>Examples</td>
+			<td></td>
+		</tr>
 	</tbody>
 </table>
 
@@ -1378,6 +1518,10 @@
 		</tr>
 		<tr>
 			<td>Comments</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Examples</td>
 			<td></td>
 		</tr>
 	</tbody>

@@ -37,6 +37,10 @@
 			<td></td>
 		</tr>
 		<tr>
+			<td>Examples</td>
+			<td></td>
+		</tr>
+		<tr>
 			<td>Controlled value</td>
 			<td>None</td>
 		</tr>
@@ -46,7 +50,7 @@
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="tcstypeoftype_t001"></a>Concept tcstypeoftype:t001</th>
+			<th colspan="2"><a id="tcstypeoftype_t001"></a>Concept tcstypeoftype:t001 (allolectotype)</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -75,6 +79,10 @@
 			<td></td>
 		</tr>
 		<tr>
+			<td>Examples</td>
+			<td></td>
+		</tr>
+		<tr>
 			<td>Controlled value</td>
 			<td>allolectotype</td>
 		</tr>
@@ -84,7 +92,7 @@
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="tcstypeoftype_t002"></a>Concept tcstypeoftype:t002</th>
+			<th colspan="2"><a id="tcstypeoftype_t002"></a>Concept tcstypeoftype:t002 (alloneotype)</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -113,6 +121,10 @@
 			<td></td>
 		</tr>
 		<tr>
+			<td>Examples</td>
+			<td></td>
+		</tr>
+		<tr>
 			<td>Controlled value</td>
 			<td>alloneotype</td>
 		</tr>
@@ -122,7 +134,7 @@
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="tcstypeoftype_t003"></a>Concept tcstypeoftype:t003</th>
+			<th colspan="2"><a id="tcstypeoftype_t003"></a>Concept tcstypeoftype:t003 (allotype)</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -151,6 +163,10 @@
 			<td></td>
 		</tr>
 		<tr>
+			<td>Examples</td>
+			<td></td>
+		</tr>
+		<tr>
 			<td>Controlled value</td>
 			<td>allotype</td>
 		</tr>
@@ -160,7 +176,7 @@
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="tcstypeoftype_t004"></a>Concept tcstypeoftype:t004</th>
+			<th colspan="2"><a id="tcstypeoftype_t004"></a>Concept tcstypeoftype:t004 (cotype)</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -189,6 +205,10 @@
 			<td></td>
 		</tr>
 		<tr>
+			<td>Examples</td>
+			<td></td>
+		</tr>
+		<tr>
 			<td>Controlled value</td>
 			<td>cotype</td>
 		</tr>
@@ -198,7 +218,7 @@
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="tcstypeoftype_t005"></a>Concept tcstypeoftype:t005</th>
+			<th colspan="2"><a id="tcstypeoftype_t005"></a>Concept tcstypeoftype:t005 (epitype)</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -227,6 +247,10 @@
 			<td></td>
 		</tr>
 		<tr>
+			<td>Examples</td>
+			<td></td>
+		</tr>
+		<tr>
 			<td>Controlled value</td>
 			<td>epitype</td>
 		</tr>
@@ -236,7 +260,7 @@
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="tcstypeoftype_t006"></a>Concept tcstypeoftype:t006</th>
+			<th colspan="2"><a id="tcstypeoftype_t006"></a>Concept tcstypeoftype:t006 (exepitype)</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -265,6 +289,10 @@
 			<td></td>
 		</tr>
 		<tr>
+			<td>Examples</td>
+			<td></td>
+		</tr>
+		<tr>
 			<td>Controlled value</td>
 			<td>exepitype</td>
 		</tr>
@@ -274,7 +302,7 @@
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="tcstypeoftype_t007"></a>Concept tcstypeoftype:t007</th>
+			<th colspan="2"><a id="tcstypeoftype_t007"></a>Concept tcstypeoftype:t007 (exholotype)</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -303,6 +331,10 @@
 			<td></td>
 		</tr>
 		<tr>
+			<td>Examples</td>
+			<td></td>
+		</tr>
+		<tr>
 			<td>Controlled value</td>
 			<td>exholotype</td>
 		</tr>
@@ -312,7 +344,7 @@
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="tcstypeoftype_t008"></a>Concept tcstypeoftype:t008</th>
+			<th colspan="2"><a id="tcstypeoftype_t008"></a>Concept tcstypeoftype:t008 (exisotype)</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -341,6 +373,10 @@
 			<td></td>
 		</tr>
 		<tr>
+			<td>Examples</td>
+			<td></td>
+		</tr>
+		<tr>
 			<td>Controlled value</td>
 			<td>exisotype</td>
 		</tr>
@@ -350,7 +386,7 @@
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="tcstypeoftype_t009"></a>Concept tcstypeoftype:t009</th>
+			<th colspan="2"><a id="tcstypeoftype_t009"></a>Concept tcstypeoftype:t009 (exlectotype)</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -379,6 +415,10 @@
 			<td></td>
 		</tr>
 		<tr>
+			<td>Examples</td>
+			<td></td>
+		</tr>
+		<tr>
 			<td>Controlled value</td>
 			<td>exlectotype</td>
 		</tr>
@@ -388,7 +428,7 @@
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="tcstypeoftype_t010"></a>Concept tcstypeoftype:t010</th>
+			<th colspan="2"><a id="tcstypeoftype_t010"></a>Concept tcstypeoftype:t010 (exneotype)</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -417,6 +457,10 @@
 			<td></td>
 		</tr>
 		<tr>
+			<td>Examples</td>
+			<td></td>
+		</tr>
+		<tr>
 			<td>Controlled value</td>
 			<td>exneotype</td>
 		</tr>
@@ -426,7 +470,7 @@
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="tcstypeoftype_t011"></a>Concept tcstypeoftype:t011</th>
+			<th colspan="2"><a id="tcstypeoftype_t011"></a>Concept tcstypeoftype:t011 (exparatype)</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -455,6 +499,10 @@
 			<td></td>
 		</tr>
 		<tr>
+			<td>Examples</td>
+			<td></td>
+		</tr>
+		<tr>
 			<td>Controlled value</td>
 			<td>exparatype</td>
 		</tr>
@@ -464,7 +512,7 @@
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="tcstypeoftype_t012"></a>Concept tcstypeoftype:t012</th>
+			<th colspan="2"><a id="tcstypeoftype_t012"></a>Concept tcstypeoftype:t012 (exsyntype)</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -493,6 +541,10 @@
 			<td></td>
 		</tr>
 		<tr>
+			<td>Examples</td>
+			<td></td>
+		</tr>
+		<tr>
 			<td>Controlled value</td>
 			<td>exsyntype</td>
 		</tr>
@@ -502,7 +554,7 @@
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="tcstypeoftype_t013"></a>Concept tcstypeoftype:t013</th>
+			<th colspan="2"><a id="tcstypeoftype_t013"></a>Concept tcstypeoftype:t013 (extype)</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -531,6 +583,10 @@
 			<td></td>
 		</tr>
 		<tr>
+			<td>Examples</td>
+			<td></td>
+		</tr>
+		<tr>
 			<td>Controlled value</td>
 			<td>extype</td>
 		</tr>
@@ -540,7 +596,7 @@
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="tcstypeoftype_t014"></a>Concept tcstypeoftype:t014</th>
+			<th colspan="2"><a id="tcstypeoftype_t014"></a>Concept tcstypeoftype:t014 (hapantotype)</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -569,6 +625,10 @@
 			<td></td>
 		</tr>
 		<tr>
+			<td>Examples</td>
+			<td></td>
+		</tr>
+		<tr>
 			<td>Controlled value</td>
 			<td>hapantotype</td>
 		</tr>
@@ -578,7 +638,7 @@
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="tcstypeoftype_t015"></a>Concept tcstypeoftype:t015</th>
+			<th colspan="2"><a id="tcstypeoftype_t015"></a>Concept tcstypeoftype:t015 (holotype)</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -607,6 +667,10 @@
 			<td></td>
 		</tr>
 		<tr>
+			<td>Examples</td>
+			<td></td>
+		</tr>
+		<tr>
 			<td>Controlled value</td>
 			<td>holotype</td>
 		</tr>
@@ -616,7 +680,7 @@
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="tcstypeoftype_t016"></a>Concept tcstypeoftype:t016</th>
+			<th colspan="2"><a id="tcstypeoftype_t016"></a>Concept tcstypeoftype:t016 (iconotype)</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -645,6 +709,10 @@
 			<td></td>
 		</tr>
 		<tr>
+			<td>Examples</td>
+			<td></td>
+		</tr>
+		<tr>
 			<td>Controlled value</td>
 			<td>iconotype</td>
 		</tr>
@@ -654,7 +722,7 @@
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="tcstypeoftype_t017"></a>Concept tcstypeoftype:t017</th>
+			<th colspan="2"><a id="tcstypeoftype_t017"></a>Concept tcstypeoftype:t017 (isolectotype)</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -683,6 +751,10 @@
 			<td></td>
 		</tr>
 		<tr>
+			<td>Examples</td>
+			<td></td>
+		</tr>
+		<tr>
 			<td>Controlled value</td>
 			<td>isolectotype</td>
 		</tr>
@@ -692,7 +764,7 @@
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="tcstypeoftype_t018"></a>Concept tcstypeoftype:t018</th>
+			<th colspan="2"><a id="tcstypeoftype_t018"></a>Concept tcstypeoftype:t018 (isoneotype)</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -721,6 +793,10 @@
 			<td></td>
 		</tr>
 		<tr>
+			<td>Examples</td>
+			<td></td>
+		</tr>
+		<tr>
 			<td>Controlled value</td>
 			<td>isoneotype</td>
 		</tr>
@@ -730,7 +806,7 @@
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="tcstypeoftype_t019"></a>Concept tcstypeoftype:t019</th>
+			<th colspan="2"><a id="tcstypeoftype_t019"></a>Concept tcstypeoftype:t019 (isoparatype)</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -759,6 +835,10 @@
 			<td></td>
 		</tr>
 		<tr>
+			<td>Examples</td>
+			<td></td>
+		</tr>
+		<tr>
 			<td>Controlled value</td>
 			<td>isoparatype</td>
 		</tr>
@@ -768,7 +848,7 @@
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="tcstypeoftype_t020"></a>Concept tcstypeoftype:t020</th>
+			<th colspan="2"><a id="tcstypeoftype_t020"></a>Concept tcstypeoftype:t020 (isosyntype)</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -797,6 +877,10 @@
 			<td></td>
 		</tr>
 		<tr>
+			<td>Examples</td>
+			<td></td>
+		</tr>
+		<tr>
 			<td>Controlled value</td>
 			<td>isosyntype</td>
 		</tr>
@@ -806,7 +890,7 @@
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="tcstypeoftype_t021"></a>Concept tcstypeoftype:t021</th>
+			<th colspan="2"><a id="tcstypeoftype_t021"></a>Concept tcstypeoftype:t021 (isotype)</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -835,6 +919,10 @@
 			<td></td>
 		</tr>
 		<tr>
+			<td>Examples</td>
+			<td></td>
+		</tr>
+		<tr>
 			<td>Controlled value</td>
 			<td>isotype</td>
 		</tr>
@@ -844,7 +932,7 @@
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="tcstypeoftype_t022"></a>Concept tcstypeoftype:t022</th>
+			<th colspan="2"><a id="tcstypeoftype_t022"></a>Concept tcstypeoftype:t022 (lectotype)</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -873,6 +961,10 @@
 			<td></td>
 		</tr>
 		<tr>
+			<td>Examples</td>
+			<td></td>
+		</tr>
+		<tr>
 			<td>Controlled value</td>
 			<td>lectotype</td>
 		</tr>
@@ -882,7 +974,7 @@
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="tcstypeoftype_t023"></a>Concept tcstypeoftype:t023</th>
+			<th colspan="2"><a id="tcstypeoftype_t023"></a>Concept tcstypeoftype:t023 (neotype)</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -911,6 +1003,10 @@
 			<td></td>
 		</tr>
 		<tr>
+			<td>Examples</td>
+			<td></td>
+		</tr>
+		<tr>
 			<td>Controlled value</td>
 			<td>neotype</td>
 		</tr>
@@ -920,7 +1016,7 @@
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="tcstypeoftype_t024"></a>Concept tcstypeoftype:t024</th>
+			<th colspan="2"><a id="tcstypeoftype_t024"></a>Concept tcstypeoftype:t024 (notatype)</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -949,6 +1045,10 @@
 			<td></td>
 		</tr>
 		<tr>
+			<td>Examples</td>
+			<td></td>
+		</tr>
+		<tr>
 			<td>Controlled value</td>
 			<td>notatype</td>
 		</tr>
@@ -958,7 +1058,7 @@
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="tcstypeoftype_t025"></a>Concept tcstypeoftype:t025</th>
+			<th colspan="2"><a id="tcstypeoftype_t025"></a>Concept tcstypeoftype:t025 (originalmaterial)</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -987,6 +1087,10 @@
 			<td></td>
 		</tr>
 		<tr>
+			<td>Examples</td>
+			<td></td>
+		</tr>
+		<tr>
 			<td>Controlled value</td>
 			<td>originalmaterial</td>
 		</tr>
@@ -996,7 +1100,7 @@
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="tcstypeoftype_t026"></a>Concept tcstypeoftype:t026</th>
+			<th colspan="2"><a id="tcstypeoftype_t026"></a>Concept tcstypeoftype:t026 (paralectotype)</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -1025,6 +1129,10 @@
 			<td></td>
 		</tr>
 		<tr>
+			<td>Examples</td>
+			<td></td>
+		</tr>
+		<tr>
 			<td>Controlled value</td>
 			<td>paralectotype</td>
 		</tr>
@@ -1034,7 +1142,7 @@
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="tcstypeoftype_t027"></a>Concept tcstypeoftype:t027</th>
+			<th colspan="2"><a id="tcstypeoftype_t027"></a>Concept tcstypeoftype:t027 (paraneotype)</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -1063,6 +1171,10 @@
 			<td></td>
 		</tr>
 		<tr>
+			<td>Examples</td>
+			<td></td>
+		</tr>
+		<tr>
 			<td>Controlled value</td>
 			<td>paraneotype</td>
 		</tr>
@@ -1072,7 +1184,7 @@
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="tcstypeoftype_t028"></a>Concept tcstypeoftype:t028</th>
+			<th colspan="2"><a id="tcstypeoftype_t028"></a>Concept tcstypeoftype:t028 (paratype)</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -1101,6 +1213,10 @@
 			<td></td>
 		</tr>
 		<tr>
+			<td>Examples</td>
+			<td></td>
+		</tr>
+		<tr>
 			<td>Controlled value</td>
 			<td>paratype</td>
 		</tr>
@@ -1110,7 +1226,7 @@
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="tcstypeoftype_t029"></a>Concept tcstypeoftype:t029</th>
+			<th colspan="2"><a id="tcstypeoftype_t029"></a>Concept tcstypeoftype:t029 (plastoholotype)</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -1139,6 +1255,10 @@
 			<td></td>
 		</tr>
 		<tr>
+			<td>Examples</td>
+			<td></td>
+		</tr>
+		<tr>
 			<td>Controlled value</td>
 			<td>plastoholotype</td>
 		</tr>
@@ -1148,7 +1268,7 @@
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="tcstypeoftype_t030"></a>Concept tcstypeoftype:t030</th>
+			<th colspan="2"><a id="tcstypeoftype_t030"></a>Concept tcstypeoftype:t030 (plastoisotype)</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -1177,6 +1297,10 @@
 			<td></td>
 		</tr>
 		<tr>
+			<td>Examples</td>
+			<td></td>
+		</tr>
+		<tr>
 			<td>Controlled value</td>
 			<td>plastoisotype</td>
 		</tr>
@@ -1186,7 +1310,7 @@
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="tcstypeoftype_t031"></a>Concept tcstypeoftype:t031</th>
+			<th colspan="2"><a id="tcstypeoftype_t031"></a>Concept tcstypeoftype:t031 (plastolectotype)</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -1215,6 +1339,10 @@
 			<td></td>
 		</tr>
 		<tr>
+			<td>Examples</td>
+			<td></td>
+		</tr>
+		<tr>
 			<td>Controlled value</td>
 			<td>plastolectotype</td>
 		</tr>
@@ -1224,7 +1352,7 @@
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="tcstypeoftype_t032"></a>Concept tcstypeoftype:t032</th>
+			<th colspan="2"><a id="tcstypeoftype_t032"></a>Concept tcstypeoftype:t032 (plastoneotype)</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -1253,6 +1381,10 @@
 			<td></td>
 		</tr>
 		<tr>
+			<td>Examples</td>
+			<td></td>
+		</tr>
+		<tr>
 			<td>Controlled value</td>
 			<td>plastoneotype</td>
 		</tr>
@@ -1262,7 +1394,7 @@
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="tcstypeoftype_t033"></a>Concept tcstypeoftype:t033</th>
+			<th colspan="2"><a id="tcstypeoftype_t033"></a>Concept tcstypeoftype:t033 (plastoparatype)</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -1291,6 +1423,10 @@
 			<td></td>
 		</tr>
 		<tr>
+			<td>Examples</td>
+			<td></td>
+		</tr>
+		<tr>
 			<td>Controlled value</td>
 			<td>plastoparatype</td>
 		</tr>
@@ -1300,7 +1436,7 @@
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="tcstypeoftype_t034"></a>Concept tcstypeoftype:t034</th>
+			<th colspan="2"><a id="tcstypeoftype_t034"></a>Concept tcstypeoftype:t034 (plastosyntype)</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -1329,6 +1465,10 @@
 			<td></td>
 		</tr>
 		<tr>
+			<td>Examples</td>
+			<td></td>
+		</tr>
+		<tr>
 			<td>Controlled value</td>
 			<td>plastosyntype</td>
 		</tr>
@@ -1338,7 +1478,7 @@
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="tcstypeoftype_t035"></a>Concept tcstypeoftype:t035</th>
+			<th colspan="2"><a id="tcstypeoftype_t035"></a>Concept tcstypeoftype:t035 (plastotype)</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -1367,6 +1507,10 @@
 			<td></td>
 		</tr>
 		<tr>
+			<td>Examples</td>
+			<td></td>
+		</tr>
+		<tr>
 			<td>Controlled value</td>
 			<td>plastotype</td>
 		</tr>
@@ -1376,7 +1520,7 @@
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="tcstypeoftype_t036"></a>Concept tcstypeoftype:t036</th>
+			<th colspan="2"><a id="tcstypeoftype_t036"></a>Concept tcstypeoftype:t036 (secondarytype)</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -1405,6 +1549,10 @@
 			<td></td>
 		</tr>
 		<tr>
+			<td>Examples</td>
+			<td></td>
+		</tr>
+		<tr>
 			<td>Controlled value</td>
 			<td>secondarytype</td>
 		</tr>
@@ -1414,7 +1562,7 @@
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="tcstypeoftype_t037"></a>Concept tcstypeoftype:t037</th>
+			<th colspan="2"><a id="tcstypeoftype_t037"></a>Concept tcstypeoftype:t037 (supplementarytype)</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -1443,6 +1591,10 @@
 			<td></td>
 		</tr>
 		<tr>
+			<td>Examples</td>
+			<td></td>
+		</tr>
+		<tr>
 			<td>Controlled value</td>
 			<td>supplementarytype</td>
 		</tr>
@@ -1452,7 +1604,7 @@
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="tcstypeoftype_t038"></a>Concept tcstypeoftype:t038</th>
+			<th colspan="2"><a id="tcstypeoftype_t038"></a>Concept tcstypeoftype:t038 (syntype)</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -1481,6 +1633,10 @@
 			<td></td>
 		</tr>
 		<tr>
+			<td>Examples</td>
+			<td></td>
+		</tr>
+		<tr>
 			<td>Controlled value</td>
 			<td>syntype</td>
 		</tr>
@@ -1490,7 +1646,7 @@
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="tcstypeoftype_t039"></a>Concept tcstypeoftype:t039</th>
+			<th colspan="2"><a id="tcstypeoftype_t039"></a>Concept tcstypeoftype:t039 (topotype)</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -1519,6 +1675,10 @@
 			<td></td>
 		</tr>
 		<tr>
+			<td>Examples</td>
+			<td></td>
+		</tr>
+		<tr>
 			<td>Controlled value</td>
 			<td>topotype</td>
 		</tr>
@@ -1528,7 +1688,7 @@
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="tcstypeoftype_t040"></a>Concept tcstypeoftype:t040</th>
+			<th colspan="2"><a id="tcstypeoftype_t040"></a>Concept tcstypeoftype:t040 (type)</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -1557,6 +1717,10 @@
 			<td></td>
 		</tr>
 		<tr>
+			<td>Examples</td>
+			<td></td>
+		</tr>
+		<tr>
 			<td>Controlled value</td>
 			<td>type</td>
 		</tr>
@@ -1566,7 +1730,7 @@
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="tcstypeoftype_t041"></a>Concept tcstypeoftype:t041</th>
+			<th colspan="2"><a id="tcstypeoftype_t041"></a>Concept tcstypeoftype:t041 (typeSpecies)</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -1595,6 +1759,10 @@
 			<td></td>
 		</tr>
 		<tr>
+			<td>Examples</td>
+			<td></td>
+		</tr>
+		<tr>
 			<td>Controlled value</td>
 			<td>typeSpecies</td>
 		</tr>
@@ -1604,7 +1772,7 @@
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="tcstypeoftype_t042"></a>Concept tcstypeoftype:t042</th>
+			<th colspan="2"><a id="tcstypeoftype_t042"></a>Concept tcstypeoftype:t042 (typeGenus)</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -1630,6 +1798,10 @@
 		</tr>
 		<tr>
 			<td>Comments</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Examples</td>
 			<td></td>
 		</tr>
 		<tr>

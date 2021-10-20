@@ -1,7 +1,6 @@
 #!/usr/bin/env python
 
-
-# import yaml
+import yaml
 import pandas as pd
 import markdown
 
@@ -101,8 +100,12 @@ def term_table(term):
         namespaceAlias=term['namespaceAlias'], localName=term['localName'])
     curieAnchor = curie.replace(':', '_')
     term_type = term['type'][term['type'].find('#')+1:]
-    tableHeader = '<a id="{anchor}"></a>{term_type} {curie}'.format(
-        curie=curie, anchor=curieAnchor, term_type=term_type)
+    if term_type == 'Concept':
+        tableHeader = '<a id="{anchor}"></a>{term_type} {curie} ({label})'.format(
+            curie=curie, anchor=curieAnchor, term_type=term_type, label=term['label'])
+    else:
+        tableHeader = '<a id="{anchor}"></a>{term_type} {curie}'.format(
+            curie=curie, anchor=curieAnchor, term_type=term_type)
     text += '\t<thead>\n'
     text += table_row([table_cell(tableHeader, celltype='th', colspan=2)])
     text += '\t</thead>\n'
@@ -159,6 +162,14 @@ def term_table(term):
         table_cell('Comments'),
         table_cell(markdown.markdown(comments))
     ])
+
+    # Examples
+    if 'examples' in term:
+        examples = term['examples'] if term['examples'] else ""
+        text += table_row([
+            table_cell('Examples'),
+            table_cell(markdown.markdown(examples))
+        ])
 
     # Controlled term
     if 'Concept' in term['type']:

@@ -37,6 +37,10 @@
 			<td></td>
 		</tr>
 		<tr>
+			<td>Examples</td>
+			<td></td>
+		</tr>
+		<tr>
 			<td>Controlled value</td>
 			<td>None</td>
 		</tr>
@@ -46,7 +50,7 @@
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="tcsreltype_rt001"></a>Concept tcsreltype:rt001</th>
+			<th colspan="2"><a id="tcsreltype_rt001"></a>Concept tcsreltype:rt001 (Is Congruent With)</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -75,6 +79,10 @@
 			<td></td>
 		</tr>
 		<tr>
+			<td>Examples</td>
+			<td></td>
+		</tr>
+		<tr>
 			<td>Controlled value</td>
 			<td>isCongruentWith</td>
 		</tr>
@@ -84,7 +92,7 @@
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="tcsreltype_rt002"></a>Concept tcsreltype:rt002</th>
+			<th colspan="2"><a id="tcsreltype_rt002"></a>Concept tcsreltype:rt002 (Includes)</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -113,6 +121,10 @@
 			<td></td>
 		</tr>
 		<tr>
+			<td>Examples</td>
+			<td></td>
+		</tr>
+		<tr>
 			<td>Controlled value</td>
 			<td>includes</td>
 		</tr>
@@ -122,7 +134,7 @@
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="tcsreltype_rt003"></a>Concept tcsreltype:rt003</th>
+			<th colspan="2"><a id="tcsreltype_rt003"></a>Concept tcsreltype:rt003 (Is Included In)</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -151,6 +163,10 @@
 			<td></td>
 		</tr>
 		<tr>
+			<td>Examples</td>
+			<td></td>
+		</tr>
+		<tr>
 			<td>Controlled value</td>
 			<td>isIncludedIn</td>
 		</tr>
@@ -160,7 +176,7 @@
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="tcsreltype_rt004"></a>Concept tcsreltype:rt004</th>
+			<th colspan="2"><a id="tcsreltype_rt004"></a>Concept tcsreltype:rt004 (Overlaps)</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -189,6 +205,10 @@
 			<td></td>
 		</tr>
 		<tr>
+			<td>Examples</td>
+			<td></td>
+		</tr>
+		<tr>
 			<td>Controlled value</td>
 			<td>overlaps</td>
 		</tr>
@@ -198,7 +218,7 @@
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="tcsreltype_rt005"></a>Concept tcsreltype:rt005</th>
+			<th colspan="2"><a id="tcsreltype_rt005"></a>Concept tcsreltype:rt005 (Excludes)</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -227,6 +247,10 @@
 			<td></td>
 		</tr>
 		<tr>
+			<td>Examples</td>
+			<td></td>
+		</tr>
+		<tr>
 			<td>Controlled value</td>
 			<td>excludes</td>
 		</tr>
@@ -236,7 +260,7 @@
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="tcsreltype_rt006"></a>Concept tcsreltype:rt006</th>
+			<th colspan="2"><a id="tcsreltype_rt006"></a>Concept tcsreltype:rt006 (Intersects)</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -263,6 +287,10 @@
 		<tr>
 			<td>Comments</td>
 			<td><p>This relationship type can be used when the more precise nature of the  relationship is not known, <em>e.g.</em> when dealing with nominal or informal  taxon concepts. It is the opposite of <code>excludes</code>.<br/>-<br/>- intersects = {<code>isCongruentWith</code> OR <code>includes</code> OR <code>isIncludedIn</code> OR  <code>overlaps</code>} = not {<code>excludes</code>}</p></td>
+		</tr>
+		<tr>
+			<td>Examples</td>
+			<td></td>
 		</tr>
 		<tr>
 			<td>Controlled value</td>

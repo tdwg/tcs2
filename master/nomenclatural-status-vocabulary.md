@@ -37,6 +37,10 @@
 			<td></td>
 		</tr>
 		<tr>
+			<td>Examples</td>
+			<td></td>
+		</tr>
+		<tr>
 			<td>Controlled value</td>
 			<td>None</td>
 		</tr>
@@ -46,7 +50,7 @@
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="tcsnomstat_ns001"></a>Concept tcsnomstat:ns001</th>
+			<th colspan="2"><a id="tcsnomstat_ns001"></a>Concept tcsnomstat:ns001 (abortivum)</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -75,6 +79,10 @@
 			<td></td>
 		</tr>
 		<tr>
+			<td>Examples</td>
+			<td></td>
+		</tr>
+		<tr>
 			<td>Controlled value</td>
 			<td>abortivum</td>
 		</tr>
@@ -84,7 +92,7 @@
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="tcsnomstat_ns002"></a>Concept tcsnomstat:ns002</th>
+			<th colspan="2"><a id="tcsnomstat_ns002"></a>Concept tcsnomstat:ns002 (alternativum)</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -113,6 +121,10 @@
 			<td></td>
 		</tr>
 		<tr>
+			<td>Examples</td>
+			<td></td>
+		</tr>
+		<tr>
 			<td>Controlled value</td>
 			<td>alternativum</td>
 		</tr>
@@ -122,7 +134,7 @@
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="tcsnomstat_ns003"></a>Concept tcsnomstat:ns003</th>
+			<th colspan="2"><a id="tcsnomstat_ns003"></a>Concept tcsnomstat:ns003 (ambigua)</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -151,6 +163,10 @@
 			<td></td>
 		</tr>
 		<tr>
+			<td>Examples</td>
+			<td></td>
+		</tr>
+		<tr>
 			<td>Controlled value</td>
 			<td>ambigua</td>
 		</tr>
@@ -160,7 +176,7 @@
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="tcsnomstat_ns004"></a>Concept tcsnomstat:ns004</th>
+			<th colspan="2"><a id="tcsnomstat_ns004"></a>Concept tcsnomstat:ns004 (available)</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -189,6 +205,10 @@
 			<td></td>
 		</tr>
 		<tr>
+			<td>Examples</td>
+			<td></td>
+		</tr>
+		<tr>
 			<td>Controlled value</td>
 			<td>available</td>
 		</tr>
@@ -198,7 +218,7 @@
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="tcsnomstat_ns005"></a>Concept tcsnomstat:ns005</th>
+			<th colspan="2"><a id="tcsnomstat_ns005"></a>Concept tcsnomstat:ns005 (combinatio)</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -227,6 +247,10 @@
 			<td></td>
 		</tr>
 		<tr>
+			<td>Examples</td>
+			<td></td>
+		</tr>
+		<tr>
 			<td>Controlled value</td>
 			<td>combinatio</td>
 		</tr>
@@ -236,7 +260,7 @@
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="tcsnomstat_ns006"></a>Concept tcsnomstat:ns006</th>
+			<th colspan="2"><a id="tcsnomstat_ns006"></a>Concept tcsnomstat:ns006 (confusum)</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -265,6 +289,10 @@
 			<td></td>
 		</tr>
 		<tr>
+			<td>Examples</td>
+			<td></td>
+		</tr>
+		<tr>
 			<td>Controlled value</td>
 			<td>confusum</td>
 		</tr>
@@ -274,7 +302,7 @@
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="tcsnomstat_ns007"></a>Concept tcsnomstat:ns007</th>
+			<th colspan="2"><a id="tcsnomstat_ns007"></a>Concept tcsnomstat:ns007 (conservandum)</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -303,6 +331,10 @@
 			<td></td>
 		</tr>
 		<tr>
+			<td>Examples</td>
+			<td></td>
+		</tr>
+		<tr>
 			<td>Controlled value</td>
 			<td>conservandum</td>
 		</tr>
@@ -312,7 +344,7 @@
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="tcsnomstat_ns008"></a>Concept tcsnomstat:ns008</th>
+			<th colspan="2"><a id="tcsnomstat_ns008"></a>Concept tcsnomstat:ns008 (conservandumProp)</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -341,6 +373,10 @@
 			<td></td>
 		</tr>
 		<tr>
+			<td>Examples</td>
+			<td></td>
+		</tr>
+		<tr>
 			<td>Controlled value</td>
 			<td>conservandumProp</td>
 		</tr>
@@ -350,7 +386,7 @@
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="tcsnomstat_ns009"></a>Concept tcsnomstat:ns009</th>
+			<th colspan="2"><a id="tcsnomstat_ns009"></a>Concept tcsnomstat:ns009 (correctum)</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -379,6 +415,10 @@
 			<td></td>
 		</tr>
 		<tr>
+			<td>Examples</td>
+			<td></td>
+		</tr>
+		<tr>
 			<td>Controlled value</td>
 			<td>correctum</td>
 		</tr>
@@ -388,7 +428,7 @@
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="tcsnomstat_ns010"></a>Concept tcsnomstat:ns010</th>
+			<th colspan="2"><a id="tcsnomstat_ns010"></a>Concept tcsnomstat:ns010 (dubimum)</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -417,6 +457,10 @@
 			<td></td>
 		</tr>
 		<tr>
+			<td>Examples</td>
+			<td></td>
+		</tr>
+		<tr>
 			<td>Controlled value</td>
 			<td>dubimum</td>
 		</tr>
@@ -426,7 +470,7 @@
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="tcsnomstat_ns011"></a>Concept tcsnomstat:ns011</th>
+			<th colspan="2"><a id="tcsnomstat_ns011"></a>Concept tcsnomstat:ns011 (illegitimum)</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -455,6 +499,10 @@
 			<td></td>
 		</tr>
 		<tr>
+			<td>Examples</td>
+			<td></td>
+		</tr>
+		<tr>
 			<td>Controlled value</td>
 			<td>illegitimum</td>
 		</tr>
@@ -464,7 +512,7 @@
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="tcsnomstat_ns012"></a>Concept tcsnomstat:ns012</th>
+			<th colspan="2"><a id="tcsnomstat_ns012"></a>Concept tcsnomstat:ns012 (invalidum)</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -493,6 +541,10 @@
 			<td></td>
 		</tr>
 		<tr>
+			<td>Examples</td>
+			<td></td>
+		</tr>
+		<tr>
 			<td>Controlled value</td>
 			<td>invalidum</td>
 		</tr>
@@ -502,7 +554,7 @@
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="tcsnomstat_ns013"></a>Concept tcsnomstat:ns013</th>
+			<th colspan="2"><a id="tcsnomstat_ns013"></a>Concept tcsnomstat:ns013 (legitimate)</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -531,6 +583,10 @@
 			<td></td>
 		</tr>
 		<tr>
+			<td>Examples</td>
+			<td></td>
+		</tr>
+		<tr>
 			<td>Controlled value</td>
 			<td>legitimate</td>
 		</tr>
@@ -540,7 +596,7 @@
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="tcsnomstat_ns014"></a>Concept tcsnomstat:ns014</th>
+			<th colspan="2"><a id="tcsnomstat_ns014"></a>Concept tcsnomstat:ns014 (negatum)</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -569,6 +625,10 @@
 			<td></td>
 		</tr>
 		<tr>
+			<td>Examples</td>
+			<td></td>
+		</tr>
+		<tr>
 			<td>Controlled value</td>
 			<td>negatum</td>
 		</tr>
@@ -578,7 +638,7 @@
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="tcsnomstat_ns015"></a>Concept tcsnomstat:ns015</th>
+			<th colspan="2"><a id="tcsnomstat_ns015"></a>Concept tcsnomstat:ns015 (novum)</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -607,6 +667,10 @@
 			<td></td>
 		</tr>
 		<tr>
+			<td>Examples</td>
+			<td></td>
+		</tr>
+		<tr>
 			<td>Controlled value</td>
 			<td>novum</td>
 		</tr>
@@ -616,7 +680,7 @@
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="tcsnomstat_ns016"></a>Concept tcsnomstat:ns016</th>
+			<th colspan="2"><a id="tcsnomstat_ns016"></a>Concept tcsnomstat:ns016 (nudum)</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -645,6 +709,10 @@
 			<td></td>
 		</tr>
 		<tr>
+			<td>Examples</td>
+			<td></td>
+		</tr>
+		<tr>
 			<td>Controlled value</td>
 			<td>nudum</td>
 		</tr>
@@ -654,7 +722,7 @@
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="tcsnomstat_ns017"></a>Concept tcsnomstat:ns017</th>
+			<th colspan="2"><a id="tcsnomstat_ns017"></a>Concept tcsnomstat:ns017 (nullum)</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -683,6 +751,10 @@
 			<td></td>
 		</tr>
 		<tr>
+			<td>Examples</td>
+			<td></td>
+		</tr>
+		<tr>
 			<td>Controlled value</td>
 			<td>nullum</td>
 		</tr>
@@ -692,7 +764,7 @@
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="tcsnomstat_ns018"></a>Concept tcsnomstat:ns018</th>
+			<th colspan="2"><a id="tcsnomstat_ns018"></a>Concept tcsnomstat:ns018 (oblitum)</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -721,6 +793,10 @@
 			<td></td>
 		</tr>
 		<tr>
+			<td>Examples</td>
+			<td></td>
+		</tr>
+		<tr>
 			<td>Controlled value</td>
 			<td>oblitum</td>
 		</tr>
@@ -730,7 +806,7 @@
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="tcsnomstat_ns019"></a>Concept tcsnomstat:ns019</th>
+			<th colspan="2"><a id="tcsnomstat_ns019"></a>Concept tcsnomstat:ns019 (oppressa)</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -759,6 +835,10 @@
 			<td></td>
 		</tr>
 		<tr>
+			<td>Examples</td>
+			<td></td>
+		</tr>
+		<tr>
 			<td>Controlled value</td>
 			<td>oppressa</td>
 		</tr>
@@ -768,7 +848,7 @@
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="tcsnomstat_ns020"></a>Concept tcsnomstat:ns020</th>
+			<th colspan="2"><a id="tcsnomstat_ns020"></a>Concept tcsnomstat:ns020 (orthographia)</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -797,6 +877,10 @@
 			<td></td>
 		</tr>
 		<tr>
+			<td>Examples</td>
+			<td></td>
+		</tr>
+		<tr>
 			<td>Controlled value</td>
 			<td>orthographia</td>
 		</tr>
@@ -806,7 +890,7 @@
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="tcsnomstat_ns021"></a>Concept tcsnomstat:ns021</th>
+			<th colspan="2"><a id="tcsnomstat_ns021"></a>Concept tcsnomstat:ns021 (protectum)</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -835,6 +919,10 @@
 			<td></td>
 		</tr>
 		<tr>
+			<td>Examples</td>
+			<td></td>
+		</tr>
+		<tr>
 			<td>Controlled value</td>
 			<td>protectum</td>
 		</tr>
@@ -844,7 +932,7 @@
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="tcsnomstat_ns022"></a>Concept tcsnomstat:ns022</th>
+			<th colspan="2"><a id="tcsnomstat_ns022"></a>Concept tcsnomstat:ns022 (provisorium)</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -873,6 +961,10 @@
 			<td></td>
 		</tr>
 		<tr>
+			<td>Examples</td>
+			<td></td>
+		</tr>
+		<tr>
 			<td>Controlled value</td>
 			<td>provisorium</td>
 		</tr>
@@ -882,7 +974,7 @@
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="tcsnomstat_ns023"></a>Concept tcsnomstat:ns023</th>
+			<th colspan="2"><a id="tcsnomstat_ns023"></a>Concept tcsnomstat:ns023 (rejiciendum)</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -911,6 +1003,10 @@
 			<td></td>
 		</tr>
 		<tr>
+			<td>Examples</td>
+			<td></td>
+		</tr>
+		<tr>
 			<td>Controlled value</td>
 			<td>rejiciendum</td>
 		</tr>
@@ -920,7 +1016,7 @@
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="tcsnomstat_ns024"></a>Concept tcsnomstat:ns024</th>
+			<th colspan="2"><a id="tcsnomstat_ns024"></a>Concept tcsnomstat:ns024 (rejiciendumProp)</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -949,6 +1045,10 @@
 			<td></td>
 		</tr>
 		<tr>
+			<td>Examples</td>
+			<td></td>
+		</tr>
+		<tr>
 			<td>Controlled value</td>
 			<td>rejiciendumProp</td>
 		</tr>
@@ -958,7 +1058,7 @@
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="tcsnomstat_ns025"></a>Concept tcsnomstat:ns025</th>
+			<th colspan="2"><a id="tcsnomstat_ns025"></a>Concept tcsnomstat:ns025 (rejiciendumUtique)</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -987,6 +1087,10 @@
 			<td></td>
 		</tr>
 		<tr>
+			<td>Examples</td>
+			<td></td>
+		</tr>
+		<tr>
 			<td>Controlled value</td>
 			<td>rejiciendumUtique</td>
 		</tr>
@@ -996,7 +1100,7 @@
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="tcsnomstat_ns026"></a>Concept tcsnomstat:ns026</th>
+			<th colspan="2"><a id="tcsnomstat_ns026"></a>Concept tcsnomstat:ns026 (rejiciendumUtiqueProp)</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -1025,6 +1129,10 @@
 			<td></td>
 		</tr>
 		<tr>
+			<td>Examples</td>
+			<td></td>
+		</tr>
+		<tr>
 			<td>Controlled value</td>
 			<td>rejiciendumUtiqueProp</td>
 		</tr>
@@ -1034,7 +1142,7 @@
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="tcsnomstat_ns027"></a>Concept tcsnomstat:ns027</th>
+			<th colspan="2"><a id="tcsnomstat_ns027"></a>Concept tcsnomstat:ns027 (subnudum)</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -1063,6 +1171,10 @@
 			<td></td>
 		</tr>
 		<tr>
+			<td>Examples</td>
+			<td></td>
+		</tr>
+		<tr>
 			<td>Controlled value</td>
 			<td>subnudum</td>
 		</tr>
@@ -1072,7 +1184,7 @@
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="tcsnomstat_ns028"></a>Concept tcsnomstat:ns028</th>
+			<th colspan="2"><a id="tcsnomstat_ns028"></a>Concept tcsnomstat:ns028 (superfluum)</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -1101,6 +1213,10 @@
 			<td></td>
 		</tr>
 		<tr>
+			<td>Examples</td>
+			<td></td>
+		</tr>
+		<tr>
 			<td>Controlled value</td>
 			<td>superfluum</td>
 		</tr>
@@ -1110,7 +1226,7 @@
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="tcsnomstat_ns029"></a>Concept tcsnomstat:ns029</th>
+			<th colspan="2"><a id="tcsnomstat_ns029"></a>Concept tcsnomstat:ns029 (valid)</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -1136,6 +1252,10 @@
 		</tr>
 		<tr>
 			<td>Comments</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Examples</td>
 			<td></td>
 		</tr>
 		<tr>

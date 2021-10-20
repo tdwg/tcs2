@@ -37,6 +37,10 @@
 			<td></td>
 		</tr>
 		<tr>
+			<td>Examples</td>
+			<td></td>
+		</tr>
+		<tr>
 			<td>Controlled value</td>
 			<td>None</td>
 		</tr>
@@ -46,7 +50,7 @@
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="tcscategory_tcc001"></a>Concept tcscategory:tcc001</th>
+			<th colspan="2"><a id="tcscategory_tcc001"></a>Concept tcscategory:tcc001 (Original Concept)</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -75,6 +79,10 @@
 			<td></td>
 		</tr>
 		<tr>
+			<td>Examples</td>
+			<td><p><em>Andropogon virginicus</em> L. sec. Linnaeus (1753)</p></td>
+		</tr>
+		<tr>
 			<td>Controlled value</td>
 			<td>OriginalConcept</td>
 		</tr>
@@ -84,7 +92,7 @@
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="tcscategory_tcc002"></a>Concept tcscategory:tcc002</th>
+			<th colspan="2"><a id="tcscategory_tcc002"></a>Concept tcscategory:tcc002 (Revisional Concept)</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -113,6 +121,10 @@
 			<td></td>
 		</tr>
 		<tr>
+			<td>Examples</td>
+			<td><p><em>Andropogon virginicus</em> L. sec. Campbell (1983)</p></td>
+		</tr>
+		<tr>
 			<td>Controlled value</td>
 			<td>RevisionalConcept</td>
 		</tr>
@@ -122,7 +134,7 @@
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="tcscategory_tcc003"></a>Concept tcscategory:tcc003</th>
+			<th colspan="2"><a id="tcscategory_tcc003"></a>Concept tcscategory:tcc003 (Relational Concept)</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -151,6 +163,10 @@
 			<td></td>
 		</tr>
 		<tr>
+			<td>Examples</td>
+			<td><p><em>Andropogon virginicus</em> L. sec. ITIS (2006). [an on-line taxonomic service]</p></td>
+		</tr>
+		<tr>
 			<td>Controlled value</td>
 			<td>RelationalConcept</td>
 		</tr>
@@ -160,7 +176,7 @@
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="tcscategory_tcc004"></a>Concept tcscategory:tcc004</th>
+			<th colspan="2"><a id="tcscategory_tcc004"></a>Concept tcscategory:tcc004 (Informal Concept)</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -189,6 +205,10 @@
 			<td></td>
 		</tr>
 		<tr>
+			<td>Examples</td>
+			<td><p><em>Andropogon hallii</em> Hack. sec. Weakley (2006). [a Midwestern species]</p></td>
+		</tr>
+		<tr>
 			<td>Controlled value</td>
 			<td>InformalConcept</td>
 		</tr>
@@ -198,7 +218,7 @@
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="tcscategory_tcc005"></a>Concept tcscategory:tcc005</th>
+			<th colspan="2"><a id="tcscategory_tcc005"></a>Concept tcscategory:tcc005 (Nominal Concept)</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -225,6 +245,10 @@
 		<tr>
 			<td>Comments</td>
 			<td></td>
+		</tr>
+		<tr>
+			<td>Examples</td>
+			<td><p><em>Andropogon virginicus</em> L.</p></td>
 		</tr>
 		<tr>
 			<td>Controlled value</td>

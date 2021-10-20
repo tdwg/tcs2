@@ -37,6 +37,10 @@
 			<td></td>
 		</tr>
 		<tr>
+			<td>Examples</td>
+			<td></td>
+		</tr>
+		<tr>
 			<td>Controlled value</td>
 			<td>None</td>
 		</tr>
@@ -46,7 +50,7 @@
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="tcsrank_r001"></a>Concept tcsrank:r001</th>
+			<th colspan="2"><a id="tcsrank_r001"></a>Concept tcsrank:r001 (domain)</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -75,6 +79,10 @@
 			<td></td>
 		</tr>
 		<tr>
+			<td>Examples</td>
+			<td></td>
+		</tr>
+		<tr>
 			<td>Controlled value</td>
 			<td>domain</td>
 		</tr>
@@ -84,7 +92,7 @@
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="tcsrank_r002"></a>Concept tcsrank:r002</th>
+			<th colspan="2"><a id="tcsrank_r002"></a>Concept tcsrank:r002 (kingdom)</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -113,6 +121,10 @@
 			<td></td>
 		</tr>
 		<tr>
+			<td>Examples</td>
+			<td></td>
+		</tr>
+		<tr>
 			<td>Controlled value</td>
 			<td>kingdom</td>
 		</tr>
@@ -122,7 +134,7 @@
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="tcsrank_r003"></a>Concept tcsrank:r003</th>
+			<th colspan="2"><a id="tcsrank_r003"></a>Concept tcsrank:r003 (subkingdom)</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -151,6 +163,10 @@
 			<td></td>
 		</tr>
 		<tr>
+			<td>Examples</td>
+			<td></td>
+		</tr>
+		<tr>
 			<td>Controlled value</td>
 			<td>subkingdom</td>
 		</tr>
@@ -160,7 +176,7 @@
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="tcsrank_r004"></a>Concept tcsrank:r004</th>
+			<th colspan="2"><a id="tcsrank_r004"></a>Concept tcsrank:r004 (superphylum)</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -189,6 +205,10 @@
 			<td></td>
 		</tr>
 		<tr>
+			<td>Examples</td>
+			<td></td>
+		</tr>
+		<tr>
 			<td>Controlled value</td>
 			<td>superphylum</td>
 		</tr>
@@ -198,7 +218,7 @@
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="tcsrank_r005"></a>Concept tcsrank:r005</th>
+			<th colspan="2"><a id="tcsrank_r005"></a>Concept tcsrank:r005 (phylum)</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -227,6 +247,10 @@
 			<td></td>
 		</tr>
 		<tr>
+			<td>Examples</td>
+			<td></td>
+		</tr>
+		<tr>
 			<td>Controlled value</td>
 			<td>phylum</td>
 		</tr>
@@ -236,7 +260,7 @@
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="tcsrank_r006"></a>Concept tcsrank:r006</th>
+			<th colspan="2"><a id="tcsrank_r006"></a>Concept tcsrank:r006 (subphylum)</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -265,6 +289,10 @@
 			<td></td>
 		</tr>
 		<tr>
+			<td>Examples</td>
+			<td></td>
+		</tr>
+		<tr>
 			<td>Controlled value</td>
 			<td>subphylum</td>
 		</tr>
@@ -274,7 +302,7 @@
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="tcsrank_r007"></a>Concept tcsrank:r007</th>
+			<th colspan="2"><a id="tcsrank_r007"></a>Concept tcsrank:r007 (superclass)</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -303,6 +331,10 @@
 			<td></td>
 		</tr>
 		<tr>
+			<td>Examples</td>
+			<td></td>
+		</tr>
+		<tr>
 			<td>Controlled value</td>
 			<td>superclass</td>
 		</tr>
@@ -312,7 +344,7 @@
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="tcsrank_r008"></a>Concept tcsrank:r008</th>
+			<th colspan="2"><a id="tcsrank_r008"></a>Concept tcsrank:r008 (class)</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -341,6 +373,10 @@
 			<td></td>
 		</tr>
 		<tr>
+			<td>Examples</td>
+			<td></td>
+		</tr>
+		<tr>
 			<td>Controlled value</td>
 			<td>class</td>
 		</tr>
@@ -350,7 +386,7 @@
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="tcsrank_r009"></a>Concept tcsrank:r009</th>
+			<th colspan="2"><a id="tcsrank_r009"></a>Concept tcsrank:r009 (subclass)</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -379,6 +415,10 @@
 			<td></td>
 		</tr>
 		<tr>
+			<td>Examples</td>
+			<td></td>
+		</tr>
+		<tr>
 			<td>Controlled value</td>
 			<td>subclass</td>
 		</tr>
@@ -388,7 +428,7 @@
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="tcsrank_r010"></a>Concept tcsrank:r010</th>
+			<th colspan="2"><a id="tcsrank_r010"></a>Concept tcsrank:r010 (supercohort)</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -417,6 +457,10 @@
 			<td></td>
 		</tr>
 		<tr>
+			<td>Examples</td>
+			<td></td>
+		</tr>
+		<tr>
 			<td>Controlled value</td>
 			<td>supercohort</td>
 		</tr>
@@ -426,7 +470,7 @@
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="tcsrank_r011"></a>Concept tcsrank:r011</th>
+			<th colspan="2"><a id="tcsrank_r011"></a>Concept tcsrank:r011 (cohort)</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -455,6 +499,10 @@
 			<td></td>
 		</tr>
 		<tr>
+			<td>Examples</td>
+			<td></td>
+		</tr>
+		<tr>
 			<td>Controlled value</td>
 			<td>cohort</td>
 		</tr>
@@ -464,7 +512,7 @@
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="tcsrank_r012"></a>Concept tcsrank:r012</th>
+			<th colspan="2"><a id="tcsrank_r012"></a>Concept tcsrank:r012 (subcohort)</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -493,6 +541,10 @@
 			<td></td>
 		</tr>
 		<tr>
+			<td>Examples</td>
+			<td></td>
+		</tr>
+		<tr>
 			<td>Controlled value</td>
 			<td>subcohort</td>
 		</tr>
@@ -502,7 +554,7 @@
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="tcsrank_r013"></a>Concept tcsrank:r013</th>
+			<th colspan="2"><a id="tcsrank_r013"></a>Concept tcsrank:r013 (superorder)</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -531,6 +583,10 @@
 			<td></td>
 		</tr>
 		<tr>
+			<td>Examples</td>
+			<td></td>
+		</tr>
+		<tr>
 			<td>Controlled value</td>
 			<td>superorder</td>
 		</tr>
@@ -540,7 +596,7 @@
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="tcsrank_r014"></a>Concept tcsrank:r014</th>
+			<th colspan="2"><a id="tcsrank_r014"></a>Concept tcsrank:r014 (order)</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -569,6 +625,10 @@
 			<td></td>
 		</tr>
 		<tr>
+			<td>Examples</td>
+			<td></td>
+		</tr>
+		<tr>
 			<td>Controlled value</td>
 			<td>order</td>
 		</tr>
@@ -578,7 +638,7 @@
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="tcsrank_r015"></a>Concept tcsrank:r015</th>
+			<th colspan="2"><a id="tcsrank_r015"></a>Concept tcsrank:r015 (suborder)</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -607,6 +667,10 @@
 			<td></td>
 		</tr>
 		<tr>
+			<td>Examples</td>
+			<td></td>
+		</tr>
+		<tr>
 			<td>Controlled value</td>
 			<td>suborder</td>
 		</tr>
@@ -616,7 +680,7 @@
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="tcsrank_r016"></a>Concept tcsrank:r016</th>
+			<th colspan="2"><a id="tcsrank_r016"></a>Concept tcsrank:r016 (infraorder)</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -645,6 +709,10 @@
 			<td></td>
 		</tr>
 		<tr>
+			<td>Examples</td>
+			<td></td>
+		</tr>
+		<tr>
 			<td>Controlled value</td>
 			<td>infraorder</td>
 		</tr>
@@ -654,7 +722,7 @@
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="tcsrank_r017"></a>Concept tcsrank:r017</th>
+			<th colspan="2"><a id="tcsrank_r017"></a>Concept tcsrank:r017 (superfamily)</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -683,6 +751,10 @@
 			<td></td>
 		</tr>
 		<tr>
+			<td>Examples</td>
+			<td></td>
+		</tr>
+		<tr>
 			<td>Controlled value</td>
 			<td>superfamily</td>
 		</tr>
@@ -692,7 +764,7 @@
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="tcsrank_r018"></a>Concept tcsrank:r018</th>
+			<th colspan="2"><a id="tcsrank_r018"></a>Concept tcsrank:r018 (family)</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -721,6 +793,10 @@
 			<td></td>
 		</tr>
 		<tr>
+			<td>Examples</td>
+			<td></td>
+		</tr>
+		<tr>
 			<td>Controlled value</td>
 			<td>family</td>
 		</tr>
@@ -730,7 +806,7 @@
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="tcsrank_r019"></a>Concept tcsrank:r019</th>
+			<th colspan="2"><a id="tcsrank_r019"></a>Concept tcsrank:r019 (subfamily)</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -759,6 +835,10 @@
 			<td></td>
 		</tr>
 		<tr>
+			<td>Examples</td>
+			<td></td>
+		</tr>
+		<tr>
 			<td>Controlled value</td>
 			<td>subfamily</td>
 		</tr>
@@ -768,7 +848,7 @@
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="tcsrank_r020"></a>Concept tcsrank:r020</th>
+			<th colspan="2"><a id="tcsrank_r020"></a>Concept tcsrank:r020 (tribe)</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -797,6 +877,10 @@
 			<td></td>
 		</tr>
 		<tr>
+			<td>Examples</td>
+			<td></td>
+		</tr>
+		<tr>
 			<td>Controlled value</td>
 			<td>tribe</td>
 		</tr>
@@ -806,7 +890,7 @@
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="tcsrank_r021"></a>Concept tcsrank:r021</th>
+			<th colspan="2"><a id="tcsrank_r021"></a>Concept tcsrank:r021 (subtribe)</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -835,6 +919,10 @@
 			<td></td>
 		</tr>
 		<tr>
+			<td>Examples</td>
+			<td></td>
+		</tr>
+		<tr>
 			<td>Controlled value</td>
 			<td>subtribe</td>
 		</tr>
@@ -844,7 +932,7 @@
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="tcsrank_r022"></a>Concept tcsrank:r022</th>
+			<th colspan="2"><a id="tcsrank_r022"></a>Concept tcsrank:r022 (supragenericname)</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -873,6 +961,10 @@
 			<td></td>
 		</tr>
 		<tr>
+			<td>Examples</td>
+			<td></td>
+		</tr>
+		<tr>
 			<td>Controlled value</td>
 			<td>supragenericname</td>
 		</tr>
@@ -882,7 +974,7 @@
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="tcsrank_r023"></a>Concept tcsrank:r023</th>
+			<th colspan="2"><a id="tcsrank_r023"></a>Concept tcsrank:r023 (genus)</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -911,6 +1003,10 @@
 			<td></td>
 		</tr>
 		<tr>
+			<td>Examples</td>
+			<td></td>
+		</tr>
+		<tr>
 			<td>Controlled value</td>
 			<td>genus</td>
 		</tr>
@@ -920,7 +1016,7 @@
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="tcsrank_r024"></a>Concept tcsrank:r024</th>
+			<th colspan="2"><a id="tcsrank_r024"></a>Concept tcsrank:r024 (subgenus)</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -949,6 +1045,10 @@
 			<td></td>
 		</tr>
 		<tr>
+			<td>Examples</td>
+			<td></td>
+		</tr>
+		<tr>
 			<td>Controlled value</td>
 			<td>subgenus</td>
 		</tr>
@@ -958,7 +1058,7 @@
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="tcsrank_r025"></a>Concept tcsrank:r025</th>
+			<th colspan="2"><a id="tcsrank_r025"></a>Concept tcsrank:r025 (section)</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -987,6 +1087,10 @@
 			<td></td>
 		</tr>
 		<tr>
+			<td>Examples</td>
+			<td></td>
+		</tr>
+		<tr>
 			<td>Controlled value</td>
 			<td>section</td>
 		</tr>
@@ -996,7 +1100,7 @@
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="tcsrank_r026"></a>Concept tcsrank:r026</th>
+			<th colspan="2"><a id="tcsrank_r026"></a>Concept tcsrank:r026 (subsection)</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -1025,6 +1129,10 @@
 			<td></td>
 		</tr>
 		<tr>
+			<td>Examples</td>
+			<td></td>
+		</tr>
+		<tr>
 			<td>Controlled value</td>
 			<td>subsection</td>
 		</tr>
@@ -1034,7 +1142,7 @@
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="tcsrank_r027"></a>Concept tcsrank:r027</th>
+			<th colspan="2"><a id="tcsrank_r027"></a>Concept tcsrank:r027 (series)</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -1063,6 +1171,10 @@
 			<td></td>
 		</tr>
 		<tr>
+			<td>Examples</td>
+			<td></td>
+		</tr>
+		<tr>
 			<td>Controlled value</td>
 			<td>series</td>
 		</tr>
@@ -1072,7 +1184,7 @@
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="tcsrank_r028"></a>Concept tcsrank:r028</th>
+			<th colspan="2"><a id="tcsrank_r028"></a>Concept tcsrank:r028 (subseries)</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -1101,6 +1213,10 @@
 			<td></td>
 		</tr>
 		<tr>
+			<td>Examples</td>
+			<td></td>
+		</tr>
+		<tr>
 			<td>Controlled value</td>
 			<td>subseries</td>
 		</tr>
@@ -1110,7 +1226,7 @@
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="tcsrank_r029"></a>Concept tcsrank:r029</th>
+			<th colspan="2"><a id="tcsrank_r029"></a>Concept tcsrank:r029 (speciesAggregate)</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -1139,6 +1255,10 @@
 			<td></td>
 		</tr>
 		<tr>
+			<td>Examples</td>
+			<td></td>
+		</tr>
+		<tr>
 			<td>Controlled value</td>
 			<td>speciesAggregate</td>
 		</tr>
@@ -1148,7 +1268,7 @@
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="tcsrank_r030"></a>Concept tcsrank:r030</th>
+			<th colspan="2"><a id="tcsrank_r030"></a>Concept tcsrank:r030 (infragenericname)</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -1177,6 +1297,10 @@
 			<td></td>
 		</tr>
 		<tr>
+			<td>Examples</td>
+			<td></td>
+		</tr>
+		<tr>
 			<td>Controlled value</td>
 			<td>infragenericname</td>
 		</tr>
@@ -1186,7 +1310,7 @@
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="tcsrank_r031"></a>Concept tcsrank:r031</th>
+			<th colspan="2"><a id="tcsrank_r031"></a>Concept tcsrank:r031 (species)</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -1215,6 +1339,10 @@
 			<td></td>
 		</tr>
 		<tr>
+			<td>Examples</td>
+			<td></td>
+		</tr>
+		<tr>
 			<td>Controlled value</td>
 			<td>species</td>
 		</tr>
@@ -1224,7 +1352,7 @@
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="tcsrank_r032"></a>Concept tcsrank:r032</th>
+			<th colspan="2"><a id="tcsrank_r032"></a>Concept tcsrank:r032 (subspecificAggregate)</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -1253,6 +1381,10 @@
 			<td></td>
 		</tr>
 		<tr>
+			<td>Examples</td>
+			<td></td>
+		</tr>
+		<tr>
 			<td>Controlled value</td>
 			<td>subspecificAggregate</td>
 		</tr>
@@ -1262,7 +1394,7 @@
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="tcsrank_r033"></a>Concept tcsrank:r033</th>
+			<th colspan="2"><a id="tcsrank_r033"></a>Concept tcsrank:r033 (infraspecificname)</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -1291,6 +1423,10 @@
 			<td></td>
 		</tr>
 		<tr>
+			<td>Examples</td>
+			<td></td>
+		</tr>
+		<tr>
 			<td>Controlled value</td>
 			<td>infraspecificname</td>
 		</tr>
@@ -1300,7 +1436,7 @@
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="tcsrank_r034"></a>Concept tcsrank:r034</th>
+			<th colspan="2"><a id="tcsrank_r034"></a>Concept tcsrank:r034 (subspecies)</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -1329,6 +1465,10 @@
 			<td></td>
 		</tr>
 		<tr>
+			<td>Examples</td>
+			<td></td>
+		</tr>
+		<tr>
 			<td>Controlled value</td>
 			<td>subspecies</td>
 		</tr>
@@ -1338,7 +1478,7 @@
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="tcsrank_r035"></a>Concept tcsrank:r035</th>
+			<th colspan="2"><a id="tcsrank_r035"></a>Concept tcsrank:r035 (infrasubspecificname)</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -1367,6 +1507,10 @@
 			<td></td>
 		</tr>
 		<tr>
+			<td>Examples</td>
+			<td></td>
+		</tr>
+		<tr>
 			<td>Controlled value</td>
 			<td>infrasubspecificname</td>
 		</tr>
@@ -1376,7 +1520,7 @@
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="tcsrank_r036"></a>Concept tcsrank:r036</th>
+			<th colspan="2"><a id="tcsrank_r036"></a>Concept tcsrank:r036 (variety)</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -1405,6 +1549,10 @@
 			<td></td>
 		</tr>
 		<tr>
+			<td>Examples</td>
+			<td></td>
+		</tr>
+		<tr>
 			<td>Controlled value</td>
 			<td>variety</td>
 		</tr>
@@ -1414,7 +1562,7 @@
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="tcsrank_r037"></a>Concept tcsrank:r037</th>
+			<th colspan="2"><a id="tcsrank_r037"></a>Concept tcsrank:r037 (subvariety)</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -1443,6 +1591,10 @@
 			<td></td>
 		</tr>
 		<tr>
+			<td>Examples</td>
+			<td></td>
+		</tr>
+		<tr>
 			<td>Controlled value</td>
 			<td>subvariety</td>
 		</tr>
@@ -1452,7 +1604,7 @@
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="tcsrank_r038"></a>Concept tcsrank:r038</th>
+			<th colspan="2"><a id="tcsrank_r038"></a>Concept tcsrank:r038 (form)</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -1481,6 +1633,10 @@
 			<td></td>
 		</tr>
 		<tr>
+			<td>Examples</td>
+			<td></td>
+		</tr>
+		<tr>
 			<td>Controlled value</td>
 			<td>form</td>
 		</tr>
@@ -1490,7 +1646,7 @@
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="tcsrank_r039"></a>Concept tcsrank:r039</th>
+			<th colspan="2"><a id="tcsrank_r039"></a>Concept tcsrank:r039 (subform)</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -1519,6 +1675,10 @@
 			<td></td>
 		</tr>
 		<tr>
+			<td>Examples</td>
+			<td></td>
+		</tr>
+		<tr>
 			<td>Controlled value</td>
 			<td>subform</td>
 		</tr>
@@ -1528,7 +1688,7 @@
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="tcsrank_r040"></a>Concept tcsrank:r040</th>
+			<th colspan="2"><a id="tcsrank_r040"></a>Concept tcsrank:r040 (pathovar)</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -1557,6 +1717,10 @@
 			<td></td>
 		</tr>
 		<tr>
+			<td>Examples</td>
+			<td></td>
+		</tr>
+		<tr>
 			<td>Controlled value</td>
 			<td>pathovar</td>
 		</tr>
@@ -1566,7 +1730,7 @@
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="tcsrank_r041"></a>Concept tcsrank:r041</th>
+			<th colspan="2"><a id="tcsrank_r041"></a>Concept tcsrank:r041 (biovar)</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -1595,6 +1759,10 @@
 			<td></td>
 		</tr>
 		<tr>
+			<td>Examples</td>
+			<td><p>Francisella tularensis biovar tularensis.</p></td>
+		</tr>
+		<tr>
 			<td>Controlled value</td>
 			<td>biovar</td>
 		</tr>
@@ -1604,7 +1772,7 @@
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="tcsrank_r042"></a>Concept tcsrank:r042</th>
+			<th colspan="2"><a id="tcsrank_r042"></a>Concept tcsrank:r042 (chemovar)</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -1633,6 +1801,10 @@
 			<td></td>
 		</tr>
 		<tr>
+			<td>Examples</td>
+			<td><p>Vibrio alginolyticus chemovar iophagus</p></td>
+		</tr>
+		<tr>
 			<td>Controlled value</td>
 			<td>chemovar</td>
 		</tr>
@@ -1642,7 +1814,7 @@
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="tcsrank_r043"></a>Concept tcsrank:r043</th>
+			<th colspan="2"><a id="tcsrank_r043"></a>Concept tcsrank:r043 (morphovar)</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -1671,6 +1843,10 @@
 			<td></td>
 		</tr>
 		<tr>
+			<td>Examples</td>
+			<td><p>Acinetobacter junii morphovar I</p></td>
+		</tr>
+		<tr>
 			<td>Controlled value</td>
 			<td>morphovar</td>
 		</tr>
@@ -1680,7 +1856,7 @@
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="tcsrank_r044"></a>Concept tcsrank:r044</th>
+			<th colspan="2"><a id="tcsrank_r044"></a>Concept tcsrank:r044 (phagovar)</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -1709,6 +1885,10 @@
 			<td></td>
 		</tr>
 		<tr>
+			<td>Examples</td>
+			<td><p>Staphyloccocus aureus phagovar 42D</p></td>
+		</tr>
+		<tr>
 			<td>Controlled value</td>
 			<td>phagovar</td>
 		</tr>
@@ -1718,7 +1898,7 @@
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="tcsrank_r045"></a>Concept tcsrank:r045</th>
+			<th colspan="2"><a id="tcsrank_r045"></a>Concept tcsrank:r045 (serovar)</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -1747,6 +1927,10 @@
 			<td></td>
 		</tr>
 		<tr>
+			<td>Examples</td>
+			<td><p>Salmonella enterica serovar Dublin</p></td>
+		</tr>
+		<tr>
 			<td>Controlled value</td>
 			<td>serovar</td>
 		</tr>
@@ -1756,7 +1940,7 @@
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="tcsrank_r046"></a>Concept tcsrank:r046</th>
+			<th colspan="2"><a id="tcsrank_r046"></a>Concept tcsrank:r046 (chemoform)</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -1785,6 +1969,10 @@
 			<td></td>
 		</tr>
 		<tr>
+			<td>Examples</td>
+			<td><p>Thymus vulgaris ct. geraniol</p></td>
+		</tr>
+		<tr>
 			<td>Controlled value</td>
 			<td>chemoform</td>
 		</tr>
@@ -1794,7 +1982,7 @@
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="tcsrank_r047"></a>Concept tcsrank:r047</th>
+			<th colspan="2"><a id="tcsrank_r047"></a>Concept tcsrank:r047 (formaspecialis)</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -1823,6 +2011,10 @@
 			<td></td>
 		</tr>
 		<tr>
+			<td>Examples</td>
+			<td><p>Puccinia graminis f. sp. avenae</p></td>
+		</tr>
+		<tr>
 			<td>Controlled value</td>
 			<td>formaspecialis</td>
 		</tr>
@@ -1832,7 +2024,7 @@
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="tcsrank_r048"></a>Concept tcsrank:r048</th>
+			<th colspan="2"><a id="tcsrank_r048"></a>Concept tcsrank:r048 (cultivarGroup)</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -1861,6 +2053,10 @@
 			<td></td>
 		</tr>
 		<tr>
+			<td>Examples</td>
+			<td></td>
+		</tr>
+		<tr>
 			<td>Controlled value</td>
 			<td>cultivarGroup</td>
 		</tr>
@@ -1870,7 +2066,7 @@
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="tcsrank_r049"></a>Concept tcsrank:r049</th>
+			<th colspan="2"><a id="tcsrank_r049"></a>Concept tcsrank:r049 (cultivar)</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -1899,6 +2095,10 @@
 			<td></td>
 		</tr>
 		<tr>
+			<td>Examples</td>
+			<td><p>Taxus baccata 'Variegata', Juniperus ×pfitzeriana 'Wilhelm Pfitzer';  Magnolia 'Elizabeth' (= a hybrid, no species epithet).</p></td>
+		</tr>
+		<tr>
 			<td>Controlled value</td>
 			<td>cultivar</td>
 		</tr>
@@ -1908,7 +2108,7 @@
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="tcsrank_r050"></a>Concept tcsrank:r050</th>
+			<th colspan="2"><a id="tcsrank_r050"></a>Concept tcsrank:r050 (strain)</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -1937,6 +2137,10 @@
 			<td></td>
 		</tr>
 		<tr>
+			<td>Examples</td>
+			<td></td>
+		</tr>
+		<tr>
 			<td>Controlled value</td>
 			<td>strain</td>
 		</tr>
@@ -1946,7 +2150,7 @@
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="tcsrank_r051"></a>Concept tcsrank:r051</th>
+			<th colspan="2"><a id="tcsrank_r051"></a>Concept tcsrank:r051 (informal)</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -1975,6 +2179,10 @@
 			<td></td>
 		</tr>
 		<tr>
+			<td>Examples</td>
+			<td></td>
+		</tr>
+		<tr>
 			<td>Controlled value</td>
 			<td>informal</td>
 		</tr>
@@ -1984,7 +2192,7 @@
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="tcsrank_r052"></a>Concept tcsrank:r052</th>
+			<th colspan="2"><a id="tcsrank_r052"></a>Concept tcsrank:r052 (unranked)</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -2010,6 +2218,10 @@
 		</tr>
 		<tr>
 			<td>Comments</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Examples</td>
 			<td></td>
 		</tr>
 		<tr>
