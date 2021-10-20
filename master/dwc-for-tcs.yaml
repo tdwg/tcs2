@@ -15,6 +15,7 @@
   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonName
   required: No
   repeatable: No
+  github: 19
 
 # property: infragenericEpithet
 - localName: infragenericEpithet
@@ -34,6 +35,7 @@
   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonName
   required: No
   repeatable: No
+  github: 20
 
 # property: specificEpithet
 - localName: specificEpithet
@@ -51,6 +53,7 @@
   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonName
   required: No
   repeatable: No
+  github: 21
 
 # property: infraspecificEpithet
 - localName: infraspecificEpithet
@@ -69,6 +72,7 @@
   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonName
   repeatable: No
   required: No
+  github: 22
 
 # property: cultivarEpithet
 - localName: cultivarEpithet
@@ -87,6 +91,7 @@
   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonName
   required: No
   repeatable: No
+  github: 23
 
 # namePublishedInYear
 - localName: namePublishedInYear
@@ -101,6 +106,7 @@
   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonName
   required: No
   repeatable: No
+  github: 31
 
 # varbatimRank
 - localName: verbatimRank
@@ -115,3 +121,4 @@
   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonName
   required: No
   repeatable: No
+  github: 6

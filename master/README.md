@@ -60,6 +60,10 @@
 			<td>Examples</td>
 			<td></td>
 		</tr>
+		<tr>
+			<td>GitHub issue</td>
+			<td>https://github.com/tdwg/tcs2/issues/1.0</td>
+		</tr>
 	</tbody>
 </table>
 
@@ -101,6 +105,10 @@
 		<tr>
 			<td>Examples</td>
 			<td></td>
+		</tr>
+		<tr>
+			<td>GitHub issue</td>
+			<td>https://github.com/tdwg/tcs2/issues/12.0</td>
 		</tr>
 	</tbody>
 </table>
@@ -144,6 +152,10 @@
 			<td>Examples</td>
 			<td></td>
 		</tr>
+		<tr>
+			<td>GitHub issue</td>
+			<td>https://github.com/tdwg/tcs2/issues/2.0</td>
+		</tr>
 	</tbody>
 </table>
 
@@ -185,6 +197,10 @@
 		<tr>
 			<td>Examples</td>
 			<td></td>
+		</tr>
+		<tr>
+			<td>GitHub issue</td>
+			<td>https://github.com/tdwg/tcs2/issues/4.0</td>
 		</tr>
 	</tbody>
 </table>
@@ -228,6 +244,10 @@
 			<td>Examples</td>
 			<td></td>
 		</tr>
+		<tr>
+			<td>GitHub issue</td>
+			<td>https://github.com/tdwg/tcs2/issues/66.0</td>
+		</tr>
 	</tbody>
 </table>
 
@@ -269,6 +289,10 @@
 		<tr>
 			<td>Examples</td>
 			<td></td>
+		</tr>
+		<tr>
+			<td>GitHub issue</td>
+			<td>https://github.com/tdwg/tcs2/issues/8.0</td>
 		</tr>
 	</tbody>
 </table>
@@ -312,6 +336,10 @@
 			<td>Examples</td>
 			<td></td>
 		</tr>
+		<tr>
+			<td>GitHub issue</td>
+			<td>https://github.com/tdwg/tcs2/issues/65.0</td>
+		</tr>
 	</tbody>
 </table>
 
@@ -353,6 +381,10 @@
 		<tr>
 			<td>Examples</td>
 			<td></td>
+		</tr>
+		<tr>
+			<td>GitHub issue</td>
+			<td>https://github.com/tdwg/tcs2/issues/10.0</td>
 		</tr>
 	</tbody>
 </table>
@@ -396,6 +428,10 @@
 			<td>Examples</td>
 			<td></td>
 		</tr>
+		<tr>
+			<td>GitHub issue</td>
+			<td>https://github.com/tdwg/tcs2/issues/13.0</td>
+		</tr>
 	</tbody>
 </table>
 
@@ -438,6 +474,10 @@
 			<td>Examples</td>
 			<td></td>
 		</tr>
+		<tr>
+			<td>GitHub issue</td>
+			<td>https://github.com/tdwg/tcs2/issues/14.0</td>
+		</tr>
 	</tbody>
 </table>
 
@@ -477,6 +517,10 @@
 		<tr>
 			<td>Examples</td>
 			<td></td>
+		</tr>
+		<tr>
+			<td>GitHub issue</td>
+			<td>https://github.com/tdwg/tcs2/issues/43.0</td>
 		</tr>
 	</tbody>
 </table>
@@ -520,6 +564,10 @@
 			<td>Examples</td>
 			<td></td>
 		</tr>
+		<tr>
+			<td>GitHub issue</td>
+			<td>https://github.com/tdwg/tcs2/issues/44.0</td>
+		</tr>
 	</tbody>
 </table>
 
@@ -561,6 +609,10 @@
 		<tr>
 			<td>Examples</td>
 			<td></td>
+		</tr>
+		<tr>
+			<td>GitHub issue</td>
+			<td>https://github.com/tdwg/tcs2/issues/45.0</td>
 		</tr>
 	</tbody>
 </table>
@@ -604,6 +656,10 @@
 			<td>Examples</td>
 			<td></td>
 		</tr>
+		<tr>
+			<td>GitHub issue</td>
+			<td>https://github.com/tdwg/tcs2/issues/46.0</td>
+		</tr>
 	</tbody>
 </table>
 
@@ -646,6 +702,10 @@
 			<td>Examples</td>
 			<td></td>
 		</tr>
+		<tr>
+			<td>GitHub issue</td>
+			<td>https://github.com/tdwg/tcs2/issues/47.0</td>
+		</tr>
 	</tbody>
 </table>
 
@@ -685,6 +745,10 @@
 		<tr>
 			<td>Examples</td>
 			<td></td>
+		</tr>
+		<tr>
+			<td>GitHub issue</td>
+			<td>https://github.com/tdwg/tcs2/issues/nan</td>
 		</tr>
 	</tbody>
 </table>
@@ -728,6 +792,10 @@
 			<td>Examples</td>
 			<td></td>
 		</tr>
+		<tr>
+			<td>GitHub issue</td>
+			<td>https://github.com/tdwg/tcs2/issues/16.0</td>
+		</tr>
 	</tbody>
 </table>
 
@@ -769,6 +837,10 @@
 		<tr>
 			<td>Examples</td>
 			<td></td>
+		</tr>
+		<tr>
+			<td>GitHub issue</td>
+			<td>https://github.com/tdwg/tcs2/issues/24.0</td>
 		</tr>
 	</tbody>
 </table>
@@ -812,6 +884,10 @@
 			<td>Examples</td>
 			<td></td>
 		</tr>
+		<tr>
+			<td>GitHub issue</td>
+			<td>https://github.com/tdwg/tcs2/issues/25.0</td>
+		</tr>
 	</tbody>
 </table>
 
@@ -853,6 +929,10 @@
 		<tr>
 			<td>Examples</td>
 			<td></td>
+		</tr>
+		<tr>
+			<td>GitHub issue</td>
+			<td>https://github.com/tdwg/tcs2/issues/26.0</td>
 		</tr>
 	</tbody>
 </table>
@@ -896,6 +976,10 @@
 			<td>Examples</td>
 			<td></td>
 		</tr>
+		<tr>
+			<td>GitHub issue</td>
+			<td>https://github.com/tdwg/tcs2/issues/29.0</td>
+		</tr>
 	</tbody>
 </table>
 
@@ -937,6 +1021,10 @@
 		<tr>
 			<td>Examples</td>
 			<td></td>
+		</tr>
+		<tr>
+			<td>GitHub issue</td>
+			<td>https://github.com/tdwg/tcs2/issues/30.0</td>
 		</tr>
 	</tbody>
 </table>
@@ -980,6 +1068,10 @@
 			<td>Examples</td>
 			<td></td>
 		</tr>
+		<tr>
+			<td>GitHub issue</td>
+			<td>https://github.com/tdwg/tcs2/issues/33.0</td>
+		</tr>
 	</tbody>
 </table>
 
@@ -1021,6 +1113,10 @@
 		<tr>
 			<td>Examples</td>
 			<td></td>
+		</tr>
+		<tr>
+			<td>GitHub issue</td>
+			<td>https://github.com/tdwg/tcs2/issues/35.0</td>
 		</tr>
 	</tbody>
 </table>
@@ -1064,6 +1160,10 @@
 			<td>Examples</td>
 			<td></td>
 		</tr>
+		<tr>
+			<td>GitHub issue</td>
+			<td>https://github.com/tdwg/tcs2/issues/36.0</td>
+		</tr>
 	</tbody>
 </table>
 
@@ -1105,6 +1205,10 @@
 		<tr>
 			<td>Examples</td>
 			<td></td>
+		</tr>
+		<tr>
+			<td>GitHub issue</td>
+			<td>https://github.com/tdwg/tcs2/issues/37.0</td>
 		</tr>
 	</tbody>
 </table>
@@ -1148,6 +1252,10 @@
 			<td>Examples</td>
 			<td></td>
 		</tr>
+		<tr>
+			<td>GitHub issue</td>
+			<td>https://github.com/tdwg/tcs2/issues/38.0</td>
+		</tr>
 	</tbody>
 </table>
 
@@ -1189,6 +1297,10 @@
 		<tr>
 			<td>Examples</td>
 			<td></td>
+		</tr>
+		<tr>
+			<td>GitHub issue</td>
+			<td>https://github.com/tdwg/tcs2/issues/39.0</td>
 		</tr>
 	</tbody>
 </table>
@@ -1232,6 +1344,10 @@
 			<td>Examples</td>
 			<td></td>
 		</tr>
+		<tr>
+			<td>GitHub issue</td>
+			<td>https://github.com/tdwg/tcs2/issues/40.0</td>
+		</tr>
 	</tbody>
 </table>
 
@@ -1273,6 +1389,10 @@
 		<tr>
 			<td>Examples</td>
 			<td></td>
+		</tr>
+		<tr>
+			<td>GitHub issue</td>
+			<td>https://github.com/tdwg/tcs2/issues/18.0</td>
 		</tr>
 	</tbody>
 </table>
@@ -1316,6 +1436,10 @@
 			<td>Examples</td>
 			<td></td>
 		</tr>
+		<tr>
+			<td>GitHub issue</td>
+			<td>https://github.com/tdwg/tcs2/issues/19.0</td>
+		</tr>
 	</tbody>
 </table>
 
@@ -1357,6 +1481,10 @@
 		<tr>
 			<td>Examples</td>
 			<td></td>
+		</tr>
+		<tr>
+			<td>GitHub issue</td>
+			<td>https://github.com/tdwg/tcs2/issues/20.0</td>
 		</tr>
 	</tbody>
 </table>
@@ -1400,6 +1528,10 @@
 			<td>Examples</td>
 			<td></td>
 		</tr>
+		<tr>
+			<td>GitHub issue</td>
+			<td>https://github.com/tdwg/tcs2/issues/21.0</td>
+		</tr>
 	</tbody>
 </table>
 
@@ -1441,6 +1573,10 @@
 		<tr>
 			<td>Examples</td>
 			<td></td>
+		</tr>
+		<tr>
+			<td>GitHub issue</td>
+			<td>https://github.com/tdwg/tcs2/issues/22.0</td>
 		</tr>
 	</tbody>
 </table>
@@ -1484,6 +1620,10 @@
 			<td>Examples</td>
 			<td></td>
 		</tr>
+		<tr>
+			<td>GitHub issue</td>
+			<td>https://github.com/tdwg/tcs2/issues/23.0</td>
+		</tr>
 	</tbody>
 </table>
 
@@ -1525,6 +1665,10 @@
 		<tr>
 			<td>Examples</td>
 			<td></td>
+		</tr>
+		<tr>
+			<td>GitHub issue</td>
+			<td>https://github.com/tdwg/tcs2/issues/31.0</td>
 		</tr>
 	</tbody>
 </table>
@@ -1568,6 +1712,10 @@
 			<td>Examples</td>
 			<td></td>
 		</tr>
+		<tr>
+			<td>GitHub issue</td>
+			<td>https://github.com/tdwg/tcs2/issues/6.0</td>
+		</tr>
 	</tbody>
 </table>
 
@@ -1607,6 +1755,10 @@
 		<tr>
 			<td>Examples</td>
 			<td></td>
+		</tr>
+		<tr>
+			<td>GitHub issue</td>
+			<td>https://github.com/tdwg/tcs2/issues/58.0</td>
 		</tr>
 	</tbody>
 </table>
@@ -1650,6 +1802,10 @@
 			<td>Examples</td>
 			<td></td>
 		</tr>
+		<tr>
+			<td>GitHub issue</td>
+			<td>https://github.com/tdwg/tcs2/issues/59.0</td>
+		</tr>
 	</tbody>
 </table>
 
@@ -1691,6 +1847,10 @@
 		<tr>
 			<td>Examples</td>
 			<td></td>
+		</tr>
+		<tr>
+			<td>GitHub issue</td>
+			<td>https://github.com/tdwg/tcs2/issues/60.0</td>
 		</tr>
 	</tbody>
 </table>
@@ -1734,6 +1894,10 @@
 			<td>Examples</td>
 			<td></td>
 		</tr>
+		<tr>
+			<td>GitHub issue</td>
+			<td>https://github.com/tdwg/tcs2/issues/61.0</td>
+		</tr>
 	</tbody>
 </table>
 
@@ -1776,6 +1940,10 @@
 			<td>Examples</td>
 			<td></td>
 		</tr>
+		<tr>
+			<td>GitHub issue</td>
+			<td>https://github.com/tdwg/tcs2/issues/62.0</td>
+		</tr>
 	</tbody>
 </table>
 
@@ -1817,6 +1985,10 @@
 		<tr>
 			<td>Examples</td>
 			<td></td>
+		</tr>
+		<tr>
+			<td>GitHub issue</td>
+			<td>https://github.com/tdwg/tcs2/issues/63.0</td>
 		</tr>
 	</tbody>
 </table>

@@ -20,6 +20,7 @@
   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonConcept
   required: null
   repeatable: null
+  github: 1
 
 # property: taxonConceptCategory
 - localName: taxonConceptCategory
@@ -33,6 +34,7 @@
   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonConcept
   required: No
   repeatable: No
+  github: 12
 
 # property: taxonName
 - localName: taxonName
@@ -45,6 +47,7 @@
   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonConcept
   required: No
   repeatable: No
+  github: 2
 
 # property: accordingTo
 - localName: accordingTo
@@ -59,6 +62,7 @@
   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonConcept
   required: No
   repeatable: No
+  github: 4
 
 # property: accordingToString
 - localName: accordingToString
@@ -72,6 +76,7 @@
   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonConcept
   required: No
   repeatable: No
+  github: 66
 
 # property: parent
 - definition: >-
@@ -85,6 +90,7 @@
   localName: parent
   type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
   usage: null
+  github: 8
 
 # property: synonym
 - localName: synonym
@@ -98,6 +104,7 @@
   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonConcept
   required: No
   repeatable: Yes
+  github: 65
 
 # property: vernacularName
 - localName: vernacularName
@@ -113,6 +120,7 @@
   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonConcept
   required: No
   repeatable: Yes
+  github: 10
 
 # property: characterCircumscription
 - localName: characterCircumscription
@@ -127,6 +135,7 @@
   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonConcept
   required: No
   repeatable: '?'
+  github: 13
 
 # property: specimenCircumscription
 - localName: specimenCircumscription
@@ -139,6 +148,7 @@
   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonConcept
   required: No
   repeatable: '?'
+  github: 14
 
 
 # class: TaxonRelationship
@@ -152,6 +162,7 @@
   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonRelationship
   repeatable: null
   required: null
+  github: 43
 
 # property: relationshipType
 - localName: relationshipType
@@ -164,6 +175,7 @@
   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonRelationship
   required: Yes
   repeatable: No
+  github: 44
 
 # property: subjectTaxonConcept
 - localName: subjectTaxonConcept
@@ -176,6 +188,7 @@
   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonRelationship
   required: Yes
   repeatable: No
+  github: 45
 
 # property: objectTaxonConcept
 - localName: objectTaxonConcept
@@ -188,6 +201,7 @@
   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonRelationship
   required: Yes
   repeatable: No
+  github: 46
 
 # property: relationshipAccordingTo
 - localName: relationshipAccordingTo
@@ -200,6 +214,7 @@
   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonRelationship
   repeatable: No
   required: Yes
+  github: 47
 
 # class: TaxonName 
 - localName: TaxonName
@@ -226,6 +241,7 @@
   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonName
   required: Yes
   repeatable: No
+  github: 16
 
 # property: taxonNameAuthorship
 - localName: taxonNameAuthorship
@@ -238,6 +254,7 @@
   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonName
   required: No
   repeatable: No
+  github: 24
 
 # property: combinationAuthorship
 - localName: combinationAuthoship
@@ -250,6 +267,7 @@
   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonName
   required: No
   repeatable: No
+  github: 25
 
 # property: basionymAuthorship
 - localName: basionymAuthorship
@@ -265,6 +283,7 @@
   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonName
   required: No
   repeatable: No
+  github: 26
 
 # property: namePublishedIn
 - localName: namePublishedIn
@@ -277,6 +296,7 @@
   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonName
   required: No
   repeatable: No
+  github: 29
 
 # property: microreference
 - localName: microreference
@@ -289,6 +309,7 @@
   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonName
   required: No
   repeatable: No
+  github: 30
 
 # property: nomenclaturalCode
 - localName: nomenclaturalCode
@@ -303,6 +324,7 @@
   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonName
   required: No
   repeatable: No
+  github: 33
 
 # property: nomenclaturalStatus
 - localName: nomenclaturalStatus
@@ -317,6 +339,7 @@
   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonName
   required: No
   repeatable: No
+  github: 35
 
 # property: basionym
 - localName: basionym
@@ -329,6 +352,7 @@
   repeatable: No
   type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
   usage: null
+  github: 36
 
 # property: replacedName
 - localName: replacedName
@@ -341,6 +365,7 @@
   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonName
   required: No
   repeatable: No
+  github: 37
 
 # property: basedOn
 - localName: basedOn
@@ -355,6 +380,7 @@
   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonName
   required: No
   repeatable: No
+  github: 38
 
 # property: conservedAgainst
 - localName: conservedAgainst
@@ -367,6 +393,8 @@
   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonName
   repeatable: Yes
   required: No
+  github: 39
+
 
 # property: sanctionedBy
 - localName: sanctionedBy
@@ -379,89 +407,7 @@
   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonName
   required: No
   repeatable: No
-
-
-# class: NomenclaturalType
-- localName: NomenclaturalType
-  label: Nomenclatural Type
-  definition: Element to which `TaxonName` permanently attached
-  usage: null
-  notes: >-
-    One or more `NomenclaturalType`s make up the typification of a `TaxonName`.
-  examples: null
-  type: http://www.w3.org/2000/01/rdf-schema#Class
-  organizedInClass: http://rs.tdwg.org/tcs/terms/NomenclaturalType
-  repeatable: null
-  required: null
-
-# property: typifiedName
-- localName: typifiedName
-  label: Typified Name
-  definition: The `TaxonName` for which this is `NomenclaturalType`
-  usage: null
-  notes: null
-  examples: null
-  type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
-  organizedInClass: http://rs.tdwg.org/tcs/terms/NomenclaturalType
-  required: No
-  repeatable: No
-
-# property: typeOfType
-- localName: typeOfType
-  label: Type of Type
-  definition: >-
-    The kind of type this specimen is e.g. paratype, isotype, holotype etc.
-  usage: null
-  notes: null
-  examples: null
-  type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
-  required: No
-  repeatable: No
-  organizedInClass: http://rs.tdwg.org/tcs/terms/NomenclaturalType
-
-# property: typeName
-- localName: typeName
-  label: Type Name
-  definition: The name that is the type.
-  usage: null
-  notes: >-
-    TaxonNames at ranks above species level are typified by the name of a lower
-    taxon. Ultimately, by following the chain of type names, all names resolve 
-    to a type species and so a type specimen.
-  examples: null
-  type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
-  organizedInClass: http://rs.tdwg.org/tcs/terms/NomenclaturalType
-  required: No
-  repeatable: No
-
-# property: typeSpecimen
-- localName: typeSpecimen
-  label: Type Specimen
-  definition: The specimen that is the type.
-  usage: >-
-    TaxonNames at ranks of family and below are typified by a specimen. This
-    property is mutually exclusive with typeName.
-  notes: null
-  examples: null
-  type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
-  organizedInClass: http://rs.tdwg.org/tcs/terms/NomenclaturalType
-  required: No
-  repeatable: No
-
-# property: typePublishedIn
-- localName: typePublishedIn
-  label: Type Published In
-  definition: Publication where the type was nominated
-  usage: >-
-    This is relevant for `lectotype`, `neotype`, `epitype` and conserved types.
-    For other types of type the publication where the type is nominated is the 
-    publication where the name was published.
-  notes: null
-  examples: null
-  type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
-  organizedInClass: http://rs.tdwg.org/tcs/terms/NomenclaturalType
-  required: No
-  repeatable: No
+  github: 40
 
 # property: uninomial
 - localName: uninomial
@@ -478,3 +424,92 @@
   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonName
   required: No
   repeatable: No
+  github: 18
+
+# class: NomenclaturalType
+- localName: NomenclaturalType
+  label: Nomenclatural Type
+  definition: Element to which `TaxonName` permanently attached
+  usage: null
+  notes: >-
+    One or more `NomenclaturalType`s make up the typification of a `TaxonName`.
+  examples: null
+  type: http://www.w3.org/2000/01/rdf-schema#Class
+  organizedInClass: http://rs.tdwg.org/tcs/terms/NomenclaturalType
+  repeatable: null
+  required: null
+  github: 58
+
+# property: typifiedName
+- localName: typifiedName
+  label: Typified Name
+  definition: The `TaxonName` for which this is `NomenclaturalType`
+  usage: null
+  notes: null
+  examples: null
+  type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+  organizedInClass: http://rs.tdwg.org/tcs/terms/NomenclaturalType
+  required: No
+  repeatable: No
+  github: 59
+
+# property: typeOfType
+- localName: typeOfType
+  label: Type of Type
+  definition: >-
+    The kind of type this specimen is e.g. paratype, isotype, holotype etc.
+  usage: null
+  notes: null
+  examples: null
+  type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+  required: No
+  repeatable: No
+  organizedInClass: http://rs.tdwg.org/tcs/terms/NomenclaturalType
+  github: 60
+
+# property: typeName
+- localName: typeName
+  label: Type Name
+  definition: The name that is the type.
+  usage: null
+  notes: >-
+    TaxonNames at ranks above species level are typified by the name of a lower
+    taxon. Ultimately, by following the chain of type names, all names resolve 
+    to a type species and so a type specimen.
+  examples: null
+  type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+  organizedInClass: http://rs.tdwg.org/tcs/terms/NomenclaturalType
+  required: No
+  repeatable: No
+  github: 61
+
+# property: typeSpecimen
+- localName: typeSpecimen
+  label: Type Specimen
+  definition: The specimen that is the type.
+  usage: >-
+    TaxonNames at ranks of family and below are typified by a specimen. This
+    property is mutually exclusive with typeName.
+  notes: null
+  examples: null
+  type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+  organizedInClass: http://rs.tdwg.org/tcs/terms/NomenclaturalType
+  required: No
+  repeatable: No
+  github: 62
+
+# property: typePublishedIn
+- localName: typePublishedIn
+  label: Type Published In
+  definition: Publication where the type was nominated
+  usage: >-
+    This is relevant for `lectotype`, `neotype`, `epitype` and conserved types.
+    For other types of type the publication where the type is nominated is the 
+    publication where the name was published.
+  notes: null
+  examples: null
+  type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+  organizedInClass: http://rs.tdwg.org/tcs/terms/NomenclaturalType
+  required: No
+  repeatable: No
+  github: 63
