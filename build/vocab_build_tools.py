@@ -4,6 +4,21 @@ import yaml
 import pandas as pd
 import markdown
 
+# convert YAML to CSV
+
+
+def yaml_to_df(in_filepath):
+    f = open(in_filepath, newline='')
+    data = yaml.load(f, Loader=yaml.FullLoader)
+    f.close()
+    return pd.DataFrame.from_dict(data)
+
+
+def yaml_to_csv(in_filepath, outfile_path):
+    df = yaml_to_df(in_filepath)
+    df.to_csv(outfile_path, index=False)
+
+
 # create dictionary with terms from YAML file
 
 
