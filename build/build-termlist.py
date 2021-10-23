@@ -1,7 +1,4 @@
-#!/usr/bin/env python
-
 # import libraries
-import os
 import yaml
 import vocab_build_tools as tools
 
@@ -9,13 +6,6 @@ import vocab_build_tools as tools
 stream = open('./config.yaml', 'r')
 
 documents = yaml.load_all(stream, Loader=yaml.FullLoader)
-
-# delete existing markdown files
-masterpath = '../master'
-filenames = next(os.walk(masterpath), (None, None, []))[2]
-for filename in filenames:
-    if '.md' in filename and filename != 'README.md':
-        os.remove(masterpath + '/' + filename)
 
 # create new markdown documents
 for config in documents:
