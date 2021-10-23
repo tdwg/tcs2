@@ -1,13 +1,20 @@
-#!/usr/bin/env python
-
-import yaml
-import pandas as pd
 import markdown
+import pandas as pd
+import yaml
+
 
 # convert YAML to CSV
 
 
 def yaml_to_df(in_filepath):
+    """Create data frame from YAML
+
+    Args:
+        in_filepath (string): path to the YAML file
+
+    Returns:
+        pandas.DataFrame: data frame
+    """
     f = open(in_filepath, newline='')
     data = yaml.load(f, Loader=yaml.FullLoader)
     f.close()
@@ -15,6 +22,12 @@ def yaml_to_df(in_filepath):
 
 
 def yaml_to_csv(in_filepath, outfile_path):
+    """Convert YAML to CSV
+
+    Args:
+        in_filepath ([type]): [description]
+        outfile_path ([type]): [description]
+    """
     df = yaml_to_df(in_filepath)
     df.to_csv(outfile_path, index=False)
 
@@ -23,6 +36,16 @@ def yaml_to_csv(in_filepath, outfile_path):
 
 
 def dict_from_yaml(termLists):
+    """Create Python dictionary from one or more YAML term list files
+
+    Args:
+        termLists (List<Dict>): list of dictionaries that, at a minimum, have 
+            the 'filename', 'vann_preferredNamespaceUri' and 
+            'vann_preferredNamespacePrefix' keys (from the config.)
+
+    Returns:
+        List<Dict>: List of terms: each term is a dictionary
+    """
     dicts = []
     for index, list in enumerate(termLists):
         f = open(
@@ -39,16 +62,35 @@ def dict_from_yaml(termLists):
 
 
 def create_df(termLists):
+    """Create Pandas data frame from list of dictionaries
+
+    Args:
+        termLists (List<Dict>): list of dictionaries that, at a minimum, have 
+            the 'filename', 'vann_preferredNamespaceUri' and 
+            'vann_preferredNamespacePrefix' keys (from the config.)
+
+    Returns:
+        pandas.DataFrame: data frame with terms
+    """
     dict = dict_from_yaml(termLists)
     return pd.DataFrame.from_dict(dict)
 
 # create index of terms
 
 
-def create_index(config, merged_df):
-    text = '### Index of terms\n\n'
+def create_index(categories, merged_df):
+    """Create index of terms
 
-    if len(config['categories']) > 1:
+    Args:
+        categories (List<Dict>): categories from the config.
+        merged_df (pandas.DataFrame): data frame with terms
+
+    Returns:
+        string: index of terms in Markdown format
+    """
+    text = '\n### Index of terms\n\n'
+
+    if len(categories) > 1:
         text += '**classes**\n\n'
 
         items = []
@@ -61,8 +103,8 @@ def create_index(config, merged_df):
             items.append(item)
         text += ' | '.join(items) + '\n\n'
 
-    for category in config['categories']:
-        if len(config['categories']) > 1:
+    for category in categories:
+        if len(categories) > 1:
             text += '**{label}**\n\n'.format(label=category['label'])
             filtered_df = merged_df[merged_df['organizedInClass']
                                     == category['namespace']]
@@ -93,6 +135,16 @@ def create_index(config, merged_df):
 
 
 def table_cell(content, celltype='td', colspan=1):
+    """Create HTML <td/> or </th> element
+
+    Args:
+        content (str): content to go into the cell
+        celltype (str, optional): The type of cell: 'td' or 'th'. Defaults to 'td'.
+        colspan (int, optional): Number of columns the cell should span. Defaults to 1.
+
+    Returns:
+        str: HTML table cell (<td)
+    """
     if colspan == 1:
         return '\t\t\t<{celltype}>{content}</{celltype}>'.format(content=content, celltype=celltype)
     else:
@@ -102,12 +154,28 @@ def table_cell(content, celltype='td', colspan=1):
 
 
 def table_row(cells):
+    """Create HTML <tr/> element
+
+    Args:
+        cells (List<str>): list of table cell elements
+
+    Returns:
+        str: HTML table row (</tr>)
+    """
     return '\t\t<tr>\n{cells}\n\t\t</tr>\n'.format(cells='\n'.join(cells))
 
 # create term table
 
 
 def term_table(term):
+    """Create HTML table for single term
+
+    Args:
+        term (dict): term dictionary (row from lerm list data frame)
+
+    Returns:
+        str: HTML table (<table/>) with term metadata
+    """
     text = '<table>\n'
 
     # table header
@@ -208,10 +276,19 @@ def term_table(term):
 # create vocabulary
 
 
-def create_vocab(config, merged_df):
+def create_vocab(categories, merged_df):
+    """Create vocabulary
+
+    Args:
+        categories (list<dict>): categories (from the config.)
+        merged_df (pandas.DataFrame): data frame with terms
+
+    Returns:
+        str: vocabulary in HTML format
+    """
     vocab = '### Vocabulary\n\n'
-    for category in config['categories']:
-        if len(config['categories']) > 1:
+    for category in categories:
+        if len(categories) > 1:
             vocab += '#### {label}\n\n'.format(label=category['label'])
             filtered_df = merged_df[merged_df['organizedInClass']
                                     == category['namespace']]

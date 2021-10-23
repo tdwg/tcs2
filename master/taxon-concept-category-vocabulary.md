@@ -1,4 +1,9 @@
 # TCS Taxon Concept Category Vocabulary
+
+**Note:** The content below is created dynamically from the
+[tcsTaxonConceptCategory.yaml](./tcsTaxonConceptCategory.yaml) file. Please do
+not edit the markdown directly, but make any changes in the YAML file.
+
 ### Index of terms
 
 [Taxon Concept Category Concept Scheme](#tcscategory_tcc) | [Original Concept](#tcscategory_tcc001) | [Revisional Concept](#tcscategory_tcc002) | [Relational Concept](#tcscategory_tcc003) | [Informal Concept](#tcscategory_tcc004) | [Nominal Concept](#tcscategory_tcc005)

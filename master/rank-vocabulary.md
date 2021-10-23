@@ -1,4 +1,9 @@
 # TCS Rank Vocabulary
+
+**Note:** The content below is created dynamically from the
+[tcsRank.yaml](./tcsRank.yaml) file. Please do not edit the markdown directly,
+but make any changes in the YAML file.
+
 ### Index of terms
 
 [Rank Concept Scheme](#tcsrank_r) | [domain](#tcsrank_r001) | [kingdom](#tcsrank_r002) | [subkingdom](#tcsrank_r003) | [superphylum](#tcsrank_r004) | [phylum](#tcsrank_r005) | [subphylum](#tcsrank_r006) | [superclass](#tcsrank_r007) | [class](#tcsrank_r008) | [subclass](#tcsrank_r009) | [supercohort](#tcsrank_r010) | [cohort](#tcsrank_r011) | [subcohort](#tcsrank_r012) | [superorder](#tcsrank_r013) | [order](#tcsrank_r014) | [suborder](#tcsrank_r015) | [infraorder](#tcsrank_r016) | [superfamily](#tcsrank_r017) | [family](#tcsrank_r018) | [subfamily](#tcsrank_r019) | [tribe](#tcsrank_r020) | [subtribe](#tcsrank_r021) | [supragenericname](#tcsrank_r022) | [genus](#tcsrank_r023) | [subgenus](#tcsrank_r024) | [section](#tcsrank_r025) | [subsection](#tcsrank_r026) | [series](#tcsrank_r027) | [subseries](#tcsrank_r028) | [speciesAggregate](#tcsrank_r029) | [infragenericname](#tcsrank_r030) | [species](#tcsrank_r031) | [subspecificAggregate](#tcsrank_r032) | [infraspecificname](#tcsrank_r033) | [subspecies](#tcsrank_r034) | [infrasubspecificname](#tcsrank_r035) | [variety](#tcsrank_r036) | [subvariety](#tcsrank_r037) | [form](#tcsrank_r038) | [subform](#tcsrank_r039) | [pathovar](#tcsrank_r040) | [biovar](#tcsrank_r041) | [chemovar](#tcsrank_r042) | [morphovar](#tcsrank_r043) | [phagovar](#tcsrank_r044) | [serovar](#tcsrank_r045) | [chemoform](#tcsrank_r046) | [formaspecialis](#tcsrank_r047) | [cultivarGroup](#tcsrank_r048) | [cultivar](#tcsrank_r049) | [strain](#tcsrank_r050) | [informal](#tcsrank_r051) | [unranked](#tcsrank_r052)

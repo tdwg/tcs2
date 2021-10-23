@@ -1,4 +1,9 @@
 # TCS Type of Type Vocabulary
+
+**Note:** The content below is created dynamically from the
+[tcsTypeOfType.yaml](./tcsTypeOfType.yaml) file. Please do not edit the markdown
+directly, but make any changes in the YAML file.
+
 ### Index of terms
 
 [Type of Type Concept Scheme](#tcstypeoftype_t) | [allolectotype](#tcstypeoftype_t001) | [alloneotype](#tcstypeoftype_t002) | [allotype](#tcstypeoftype_t003) | [cotype](#tcstypeoftype_t004) | [epitype](#tcstypeoftype_t005) | [exepitype](#tcstypeoftype_t006) | [exholotype](#tcstypeoftype_t007) | [exisotype](#tcstypeoftype_t008) | [exlectotype](#tcstypeoftype_t009) | [exneotype](#tcstypeoftype_t010) | [exparatype](#tcstypeoftype_t011) | [exsyntype](#tcstypeoftype_t012) | [extype](#tcstypeoftype_t013) | [hapantotype](#tcstypeoftype_t014) | [holotype](#tcstypeoftype_t015) | [iconotype](#tcstypeoftype_t016) | [isolectotype](#tcstypeoftype_t017) | [isoneotype](#tcstypeoftype_t018) | [isoparatype](#tcstypeoftype_t019) | [isosyntype](#tcstypeoftype_t020) | [isotype](#tcstypeoftype_t021) | [lectotype](#tcstypeoftype_t022) | [neotype](#tcstypeoftype_t023) | [notatype](#tcstypeoftype_t024) | [originalmaterial](#tcstypeoftype_t025) | [paralectotype](#tcstypeoftype_t026) | [paraneotype](#tcstypeoftype_t027) | [paratype](#tcstypeoftype_t028) | [plastoholotype](#tcstypeoftype_t029) | [plastoisotype](#tcstypeoftype_t030) | [plastolectotype](#tcstypeoftype_t031) | [plastoneotype](#tcstypeoftype_t032) | [plastoparatype](#tcstypeoftype_t033) | [plastosyntype](#tcstypeoftype_t034) | [plastotype](#tcstypeoftype_t035) | [secondarytype](#tcstypeoftype_t036) | [supplementarytype](#tcstypeoftype_t037) | [syntype](#tcstypeoftype_t038) | [topotype](#tcstypeoftype_t039) | [type](#tcstypeoftype_t040) | [typeSpecies](#tcstypeoftype_t041) | [typeGenus](#tcstypeoftype_t042)

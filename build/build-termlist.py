@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 
 # import libraries
+import os
 import yaml
 import vocab_build_tools as tools
 
@@ -9,13 +10,20 @@ stream = open('./config.yaml', 'r')
 
 documents = yaml.load_all(stream, Loader=yaml.FullLoader)
 
-# create markdown documents
+# delete existing markdown files
+masterpath = '../master'
+filenames = next(os.walk(masterpath), (None, None, []))[2]
+for filename in filenames:
+    if '.md' in filename and filename != 'README.md':
+        os.remove(masterpath + '/' + filename)
+
+# create new markdown documents
 for config in documents:
     print(config['outFileName'])
 
     merged_df = tools.create_df(config['termLists'])
-    term_index = tools.create_index(config, merged_df)
-    vocab = tools.create_vocab(config, merged_df)
+    term_index = tools.create_index(config['categories'], merged_df)
+    vocab = tools.create_vocab(config['categories'], merged_df)
     text = term_index + vocab
 
     headerObject = open(config['headerFileName'], 'rt', encoding='utf-8')

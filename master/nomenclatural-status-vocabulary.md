@@ -1,4 +1,9 @@
 # TCS Nomenclatural Status Vocabulary
+
+**Note:** The content below is created dynamically from the
+[tcsNomenclaturalStatus.yaml](./tcsNomenclaturalStatus.yaml) file. Please do not
+edit the markdown directly, but make any changes in the YAML file.
+
 ### Index of terms
 
 [Nomenclatural Status Concept Scheme](#tcsnomstat_ns) | [abortivum](#tcsnomstat_ns001) | [alternativum](#tcsnomstat_ns002) | [ambigua](#tcsnomstat_ns003) | [available](#tcsnomstat_ns004) | [combinatio](#tcsnomstat_ns005) | [confusum](#tcsnomstat_ns006) | [conservandum](#tcsnomstat_ns007) | [conservandumProp](#tcsnomstat_ns008) | [correctum](#tcsnomstat_ns009) | [dubimum](#tcsnomstat_ns010) | [illegitimum](#tcsnomstat_ns011) | [invalidum](#tcsnomstat_ns012) | [legitimate](#tcsnomstat_ns013) | [negatum](#tcsnomstat_ns014) | [novum](#tcsnomstat_ns015) | [nudum](#tcsnomstat_ns016) | [nullum](#tcsnomstat_ns017) | [oblitum](#tcsnomstat_ns018) | [oppressa](#tcsnomstat_ns019) | [orthographia](#tcsnomstat_ns020) | [protectum](#tcsnomstat_ns021) | [provisorium](#tcsnomstat_ns022) | [rejiciendum](#tcsnomstat_ns023) | [rejiciendumProp](#tcsnomstat_ns024) | [rejiciendumUtique](#tcsnomstat_ns025) | [rejiciendumUtiqueProp](#tcsnomstat_ns026) | [subnudum](#tcsnomstat_ns027) | [superfluum](#tcsnomstat_ns028) | [valid](#tcsnomstat_ns029)

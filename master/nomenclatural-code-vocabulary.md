@@ -1,4 +1,9 @@
 # TCS Nomenclatural Code Vocabulary
+
+**Note:** The content below is created dynamically from the
+[tcsNomenclaturalCode.yaml](./tcsNomenclaturalCode.yaml) file. Please do not
+edit the markdown directly, but make any changes in the YAML file.
+
 ### Index of terms
 
 [Taxon Relationship Type Concept Scheme](#tcsnomcode_rt) | [Is Congruent With](#tcsnomcode_rt001) | [Includes](#tcsnomcode_rt002) | [Is Included In](#tcsnomcode_rt003) | [Overlaps](#tcsnomcode_rt004) | [Excludes](#tcsnomcode_rt005) | [Intersects](#tcsnomcode_rt006)

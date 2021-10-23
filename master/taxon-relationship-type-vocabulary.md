@@ -1,4 +1,9 @@
 # TCS Taxon Relationship Type Vocabulary
+
+**Note:** The content below is created dynamically from the
+[tcsTaxonRelationshipType.yaml](./tcsTaxonRelationshipType.yaml) file. Please
+do not edit the markdown directly, but make any changes in the YAML file.
+
 ### Index of terms
 
 [Taxon Relationship Type Concept Scheme](#tcsreltype_rt) | [Is Congruent With](#tcsreltype_rt001) | [Includes](#tcsreltype_rt002) | [Is Included In](#tcsreltype_rt003) | [Overlaps](#tcsreltype_rt004) | [Excludes](#tcsreltype_rt005) | [Intersects](#tcsreltype_rt006)
