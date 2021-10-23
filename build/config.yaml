@@ -1,6 +1,6 @@
 ---
-headerFileName: termlist-header.md
-footerFileName: termlist-footer.md
+headerFileName: ./static/termlist-header.md
+footerFileName: ./static/termlist-footer.md
 outFileName: ../master/tcs-terms.md
 termLists:
   - filename: tcs
@@ -27,8 +27,8 @@ categories:
     comments: ''
     display_id: nomenclaturalType
 ---
-headerFileName: taxon-concept-category-vocabulary-header.md
-footerFileName: termlist-footer.md
+headerFileName: ./static/taxon-concept-category-vocabulary-header.md
+footerFileName: ./static/termlist-footer.md
 outFileName: ../master/taxon-concept-category-vocabulary.md
 termLists:
   - filename: tcsTaxonConceptCategory
@@ -38,8 +38,8 @@ categories:
   - namespace: http://rs.tdwg.org/tcs-taxon-concept-category/values/
     label: Taxon Concept Category
 ---
-headerFileName: taxon-relationship-type-vocabulary-header.md
-footerFileName: termlist-footer.md
+headerFileName: ./static/taxon-relationship-type-vocabulary-header.md
+footerFileName: ./static/termlist-footer.md
 outFileName: ../master/taxon-relationship-type-vocabulary.md
 termLists:
   - filename: tcsTaxonRelationshipType
@@ -49,8 +49,8 @@ categories:
   - namespace: http://rs.tdwg.org/tcs-taxon-relationship-type/values/
     label: Taxon Relationship Type
 ---
-headerFileName: nomenclatural-code-vocabulary-header.md
-footerFileName: termlist-footer.md
+headerFileName: ./static/nomenclatural-code-vocabulary-header.md
+footerFileName: ./static/termlist-footer.md
 outFileName: ../master/nomenclatural-code-vocabulary.md
 termLists:
   - filename: tcsTaxonRelationshipType
@@ -60,8 +60,8 @@ categories:
   - namespace: http://rs.tdwg.org/tcs-nomenclatural-code/values/
     label: Nomenclatural Code
 ---
-headerFileName: nomenclatural-status-vocabulary-header.md
-footerFileName: termlist-footer.md
+headerFileName: ./static/nomenclatural-status-vocabulary-header.md
+footerFileName: ./static/termlist-footer.md
 outFileName: ../master/nomenclatural-status-vocabulary.md
 termLists:
   - filename: tcsNomenclaturalStatus
@@ -71,8 +71,8 @@ categories:
   - namespace: http://rs.tdwg.org/tcs-nomenclatural-status/values/
     label: Nomenclatural Status
 ---
-headerFileName: rank-vocabulary-header.md
-footerFileName: termlist-footer.md
+headerFileName: ./static/rank-vocabulary-header.md
+footerFileName: ./static/termlist-footer.md
 outFileName: ../master/rank-vocabulary.md
 termLists:
   - filename: tcsRank
@@ -82,8 +82,8 @@ categories:
   - namespace: http://rs.tdwg.org/tcs-rank/values/
     label: Rank
 ---
-headerFileName: type-of-type-vocabulary-header.md
-footerFileName: termlist-footer.md
+headerFileName: ./static/type-of-type-vocabulary-header.md
+footerFileName: ./static/termlist-footer.md
 outFileName: ../master/type-of-type-vocabulary.md
 termLists:
   - filename: tcsTypeOfType
