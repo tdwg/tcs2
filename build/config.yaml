@@ -1,7 +1,7 @@
 ---
 headerFileName: ./static/termlist-header.md
 footerFileName: ./static/termlist-footer.md
-outFileName: ../master/tcs-terms.md
+outFileName: ../docs/tcs-terms.md
 termLists:
   - filename: tcs
     vann_preferredNamespacePrefix: tcs
@@ -29,7 +29,7 @@ categories:
 ---
 headerFileName: ./static/taxon-concept-category-vocabulary-header.md
 footerFileName: ./static/termlist-footer.md
-outFileName: ../master/taxon-concept-category-vocabulary.md
+outFileName: ../docs/taxon-concept-category-vocabulary.md
 termLists:
   - filename: tcsTaxonConceptCategory
     vann_preferredNamespacePrefix: tcscategory
@@ -40,7 +40,7 @@ categories:
 ---
 headerFileName: ./static/taxon-relationship-type-vocabulary-header.md
 footerFileName: ./static/termlist-footer.md
-outFileName: ../master/taxon-relationship-type-vocabulary.md
+outFileName: ../docs/taxon-relationship-type-vocabulary.md
 termLists:
   - filename: tcsTaxonRelationshipType
     vann_preferredNamespacePrefix: tcsreltype
@@ -51,7 +51,7 @@ categories:
 ---
 headerFileName: ./static/nomenclatural-code-vocabulary-header.md
 footerFileName: ./static/termlist-footer.md
-outFileName: ../master/nomenclatural-code-vocabulary.md
+outFileName: ../docs/nomenclatural-code-vocabulary.md
 termLists:
   - filename: tcsTaxonRelationshipType
     vann_preferredNamespacePrefix: tcsnomcode
@@ -62,7 +62,7 @@ categories:
 ---
 headerFileName: ./static/nomenclatural-status-vocabulary-header.md
 footerFileName: ./static/termlist-footer.md
-outFileName: ../master/nomenclatural-status-vocabulary.md
+outFileName: ../docs/nomenclatural-status-vocabulary.md
 termLists:
   - filename: tcsNomenclaturalStatus
     vann_preferredNamespacePrefix: tcsnomstat
@@ -73,7 +73,7 @@ categories:
 ---
 headerFileName: ./static/rank-vocabulary-header.md
 footerFileName: ./static/termlist-footer.md
-outFileName: ../master/rank-vocabulary.md
+outFileName: ../docs/rank-vocabulary.md
 termLists:
   - filename: tcsRank
     vann_preferredNamespacePrefix: tcsrank
@@ -84,7 +84,7 @@ categories:
 ---
 headerFileName: ./static/type-of-type-vocabulary-header.md
 footerFileName: ./static/termlist-footer.md
-outFileName: ../master/type-of-type-vocabulary.md
+outFileName: ../docs/type-of-type-vocabulary.md
 termLists:
   - filename: tcsTypeOfType
     vann_preferredNamespacePrefix: tcstypeoftype

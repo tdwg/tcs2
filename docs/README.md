@@ -1,12 +1,8 @@
 # Taxon Concept Schema Vocabularies
 
-The human readable documentation is dynamically created from the YAML master
+This human readable documentation is dynamically created from the YAML master
 files after updates have been made to these files. Any changes should be made in
 the YAML files, not directly in the markdown.
-
-Each term has an associated GitHub issue. Discussion about terms should take
-place there. The master documents here will be updated by members of the TCS 2 Task
-Group afterwards.
 
 ### Term list
 
