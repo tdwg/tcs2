@@ -144,7 +144,7 @@ files.
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td><p>The Taxon Name for this Taxonomic Name Usage</p></td>
+			<td><p>The Taxon Name for this Taxon Concept</p></td>
 		</tr>
 		<tr>
 			<td>Usage</td>

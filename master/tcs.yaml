@@ -39,7 +39,7 @@
 # property: taxonName
 - localName: taxonName
   label: Taxon Name
-  definition: The Taxon Name for this Taxonomic Name Usage
+  definition: The Taxon Name for this Taxon Concept
   usage: null
   notes: null
   examples: null
