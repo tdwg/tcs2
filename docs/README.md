@@ -10,10 +10,10 @@ Any changes should be made in the YAML files, not directly in the markdown.
 
 ### Controlled vocabularies
 
-- [Taxon Concept Category controlled vocabulary]('./taxon-concept-category-vocabulary.md)
-- [Taxon Relationship Type controlled vocabulary]('./taxon-relationship-vocabulary.md)
+- [Taxon Concept Category controlled vocabulary](./taxon-concept-category-vocabulary.md)
+- [Taxon Relationship Type controlled vocabulary](./taxon-relationship-vocabulary.md)
   &nbsp;
-- [Nomenclatural Code controlled vocabulary]('./nomenclatural-code-vocabulary.md')
-- [Nomenclatural Status controlled vocabulary]('./nomenclatural-status-vocabulary.md')
-- [Rank controlled vocabulary]('./rank-vocabulary.md')
-- [Type of Type vocabulary]('./type-of-type-vocabulary.md')
+- [Nomenclatural Code controlled vocabulary](./nomenclatural-code-vocabulary.md)
+- [Nomenclatural Status controlled vocabulary](./nomenclatural-status-vocabulary.md)
+- [Rank controlled vocabulary](./rank-vocabulary.md)
+- [Type of Type vocabulary](./type-of-type-vocabulary.md)
