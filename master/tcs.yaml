@@ -22,20 +22,6 @@
   repeatable: null
   github: 1
 
-# property: taxonConceptCategory
-- localName: taxonConceptCategory
-  label: Taxon Concept Category
-  definition: >-
-    The category of Taxon Concept
-  usage: null
-  notes: null
-  examples: null
-  type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
-  organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonConcept
-  required: No
-  repeatable: No
-  github: 12
-
 # property: taxonName
 - localName: taxonName
   label: Taxon Name
@@ -106,6 +92,39 @@
   repeatable: Yes
   github: 65
 
+# property: proParteSynonym
+- localName: proParteSynonym
+  label: Pro Parte Synonym
+  definition: >-
+    Taxon Concept of which the name is a synonym of the name of the subject 
+    Taxon Concept, but with a broader circumscription than the subject Taxon 
+    Concept
+  usage: null
+  notes: null
+  examples: null
+  type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+  organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonConcept
+  required: No
+  repeatable: Yes
+  github: 200
+
+# property: misapplication
+- localName: misapplication
+  label: Misapplication
+  definition: >-
+    Usage of a Taxon Name that does not include its nomenclatural type
+  usage: null
+  notes: >-
+    The Botanical Code recommends that misapplied names are listed – if they are 
+    listed – separately from the synonymy and with 'auct. non' in the 
+    authorship.
+  examples: null
+  type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+  organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonConcept
+  required: No
+  repeatable: Yes
+  github: 199
+
 # property: vernacularName
 - localName: vernacularName
   label: Vernacular Name
@@ -121,35 +140,6 @@
   required: No
   repeatable: Yes
   github: 10
-
-# property: characterCircumscription
-- localName: characterCircumscription
-  label: Character Circumscription
-  definition: >-
-    A set of taxonomic descriptions used to define this concept. May potentially
-    hold descriptions according to the TDWG SDD schema, or any other, format.
-  usage: null
-  examples: null
-  notes: null
-  type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
-  organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonConcept
-  required: No
-  repeatable: '?'
-  github: 13
-
-# property: specimenCircumscription
-- localName: specimenCircumscription
-  label: Specimen Circumscription
-  definition: A set of specimens that are used to define the concept.
-  usage: null
-  notes: null
-  examples: null
-  type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
-  organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonConcept
-  required: No
-  repeatable: '?'
-  github: 14
-
 
 # class: TaxonRelationship
 - localName: TaxonRelationship
