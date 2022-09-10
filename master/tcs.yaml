@@ -17,7 +17,7 @@
     separated by 'sec.' (from, 'secundus', meaning 'according to') or 'sensu' 
     (meaning the same). Because of the context provided by the source, taxon 
     concepts are in principle also alignable to other Taxon Concepts using the 
-    TCS Taxon Concept Alignments.
+    TCS Taxon Concept Relationship statements.
 
 
     The TCS Taxon Concept is a data object and is applied more broadly than the 
