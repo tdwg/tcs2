@@ -243,7 +243,7 @@ def term_table(term):
     comments = term['notes'] if term['notes'] else ""
     text += table_row([
         table_cell('Comments'),
-        table_cell(markdown.markdown(comments))
+        table_cell(markdown.markdown(comments, extensions=['nl2br']))
     ])
 
     # Examples
