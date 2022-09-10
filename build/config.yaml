@@ -27,17 +27,6 @@ categories:
     comments: ''
     display_id: nomenclaturalType
 ---
-headerFileName: ./static/taxon-concept-category-vocabulary-header.md
-footerFileName: ./static/termlist-footer.md
-outFileName: ../docs/taxon-concept-category-vocabulary.md
-termLists:
-  - filename: tcsTaxonConceptCategory
-    vann_preferredNamespacePrefix: tcscategory
-    vann_preferredNamespaceUri: http://rs.tdwg.org/tcs-taxon-concept-category/values/
-categories:
-  - namespace: http://rs.tdwg.org/tcs-taxon-concept-category/values/
-    label: Taxon Concept Category
----
 headerFileName: ./static/taxon-relationship-type-vocabulary-header.md
 footerFileName: ./static/termlist-footer.md
 outFileName: ../docs/taxon-relationship-type-vocabulary.md

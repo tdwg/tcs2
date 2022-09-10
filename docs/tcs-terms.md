@@ -13,7 +13,7 @@ files.
 
 **Taxon Concept**
 
-[tcs:taxonConceptCategory](#tcs_taxonConceptCategory) | [tcs:taxonName](#tcs_taxonName) | [tcs:accordingTo](#tcs_accordingTo) | [tcs:accordingToString](#tcs_accordingToString) | [tcs:parent](#tcs_parent) | [tcs:synonym](#tcs_synonym) | [tcs:vernacularName](#tcs_vernacularName) | [tcs:characterCircumscription](#tcs_characterCircumscription) | [tcs:specimenCircumscription](#tcs_specimenCircumscription)
+[tcs:taxonName](#tcs_taxonName) | [tcs:accordingTo](#tcs_accordingTo) | [tcs:accordingToString](#tcs_accordingToString) | [tcs:parent](#tcs_parent) | [tcs:synonym](#tcs_synonym) | [tcs:proParteSynonym](#tcs_proParteSynonym) | [tcs:misapplication](#tcs_misapplication) | [tcs:vernacularName](#tcs_vernacularName)
 
 **Taxon Relationship**
 
@@ -69,52 +69,6 @@ files.
 		<tr>
 			<td>GitHub issue</td>
 			<td>https://github.com/tdwg/tcs2/issues/1</td>
-		</tr>
-	</tbody>
-</table>
-
-<table>
-	<thead>
-		<tr>
-			<th colspan="2"><a id="tcs_taxonConceptCategory"></a>Property tcs:taxonConceptCategory</th>
-		</tr>
-	</thead>
-	<tbody>
-		<tr>
-			<td>Term IRI</td>
-			<td>http://rs.tdwg.org/tcs/terms/taxonConceptCategory</td>
-		</tr>
-		<tr>
-			<td>Type</td>
-			<td>http://www.w3.org/1999/02/22-rdf-syntax-ns#Property</td>
-		</tr>
-		<tr>
-			<td>Label</td>
-			<td>Taxon Concept Category</td>
-		</tr>
-		<tr>
-			<td></td>
-			<td><b>required:</b> No — <b>repeatable:</b> No</td>
-		</tr>
-		<tr>
-			<td>Definition</td>
-			<td><p>The category of Taxon Concept</p></td>
-		</tr>
-		<tr>
-			<td>Usage</td>
-			<td></td>
-		</tr>
-		<tr>
-			<td>Comments</td>
-			<td></td>
-		</tr>
-		<tr>
-			<td>Examples</td>
-			<td></td>
-		</tr>
-		<tr>
-			<td>GitHub issue</td>
-			<td>https://github.com/tdwg/tcs2/issues/12</td>
 		</tr>
 	</tbody>
 </table>
@@ -352,6 +306,98 @@ files.
 <table>
 	<thead>
 		<tr>
+			<th colspan="2"><a id="tcs_proParteSynonym"></a>Property tcs:proParteSynonym</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Term IRI</td>
+			<td>http://rs.tdwg.org/tcs/terms/proParteSynonym</td>
+		</tr>
+		<tr>
+			<td>Type</td>
+			<td>http://www.w3.org/1999/02/22-rdf-syntax-ns#Property</td>
+		</tr>
+		<tr>
+			<td>Label</td>
+			<td>Pro Parte Synonym</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td><b>required:</b> No — <b>repeatable:</b> Yes</td>
+		</tr>
+		<tr>
+			<td>Definition</td>
+			<td><p>Taxon Concept of which the name is a synonym of the name of the subject  Taxon Concept, but with a broader circumscription than the subject Taxon  Concept</p></td>
+		</tr>
+		<tr>
+			<td>Usage</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Comments</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Examples</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>GitHub issue</td>
+			<td>https://github.com/tdwg/tcs2/issues/200</td>
+		</tr>
+	</tbody>
+</table>
+
+<table>
+	<thead>
+		<tr>
+			<th colspan="2"><a id="tcs_misapplication"></a>Property tcs:misapplication</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Term IRI</td>
+			<td>http://rs.tdwg.org/tcs/terms/misapplication</td>
+		</tr>
+		<tr>
+			<td>Type</td>
+			<td>http://www.w3.org/1999/02/22-rdf-syntax-ns#Property</td>
+		</tr>
+		<tr>
+			<td>Label</td>
+			<td>Misapplication</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td><b>required:</b> No — <b>repeatable:</b> Yes</td>
+		</tr>
+		<tr>
+			<td>Definition</td>
+			<td><p>Usage of a Taxon Name that does not include its nomenclatural type</p></td>
+		</tr>
+		<tr>
+			<td>Usage</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Comments</td>
+			<td><p>The Botanical Code recommends that misapplied names are listed – if they are  listed – separately from the synonymy and with 'auct. non' in the  authorship.</p></td>
+		</tr>
+		<tr>
+			<td>Examples</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>GitHub issue</td>
+			<td>https://github.com/tdwg/tcs2/issues/199</td>
+		</tr>
+	</tbody>
+</table>
+
+<table>
+	<thead>
+		<tr>
 			<th colspan="2"><a id="tcs_vernacularName"></a>Property tcs:vernacularName</th>
 		</tr>
 	</thead>
@@ -391,98 +437,6 @@ files.
 		<tr>
 			<td>GitHub issue</td>
 			<td>https://github.com/tdwg/tcs2/issues/10</td>
-		</tr>
-	</tbody>
-</table>
-
-<table>
-	<thead>
-		<tr>
-			<th colspan="2"><a id="tcs_characterCircumscription"></a>Property tcs:characterCircumscription</th>
-		</tr>
-	</thead>
-	<tbody>
-		<tr>
-			<td>Term IRI</td>
-			<td>http://rs.tdwg.org/tcs/terms/characterCircumscription</td>
-		</tr>
-		<tr>
-			<td>Type</td>
-			<td>http://www.w3.org/1999/02/22-rdf-syntax-ns#Property</td>
-		</tr>
-		<tr>
-			<td>Label</td>
-			<td>Character Circumscription</td>
-		</tr>
-		<tr>
-			<td></td>
-			<td><b>required:</b> No — <b>repeatable:</b> Yes</td>
-		</tr>
-		<tr>
-			<td>Definition</td>
-			<td><p>A set of taxonomic descriptions used to define this concept. May potentially hold descriptions according to the TDWG SDD schema, or any other, format.</p></td>
-		</tr>
-		<tr>
-			<td>Usage</td>
-			<td></td>
-		</tr>
-		<tr>
-			<td>Comments</td>
-			<td></td>
-		</tr>
-		<tr>
-			<td>Examples</td>
-			<td></td>
-		</tr>
-		<tr>
-			<td>GitHub issue</td>
-			<td>https://github.com/tdwg/tcs2/issues/13</td>
-		</tr>
-	</tbody>
-</table>
-
-<table>
-	<thead>
-		<tr>
-			<th colspan="2"><a id="tcs_specimenCircumscription"></a>Property tcs:specimenCircumscription</th>
-		</tr>
-	</thead>
-	<tbody>
-		<tr>
-			<td>Term IRI</td>
-			<td>http://rs.tdwg.org/tcs/terms/specimenCircumscription</td>
-		</tr>
-		<tr>
-			<td>Type</td>
-			<td>http://www.w3.org/1999/02/22-rdf-syntax-ns#Property</td>
-		</tr>
-		<tr>
-			<td>Label</td>
-			<td>Specimen Circumscription</td>
-		</tr>
-		<tr>
-			<td></td>
-			<td><b>required:</b> No — <b>repeatable:</b> Yes</td>
-		</tr>
-		<tr>
-			<td>Definition</td>
-			<td><p>A set of specimens that are used to define the concept.</p></td>
-		</tr>
-		<tr>
-			<td>Usage</td>
-			<td></td>
-		</tr>
-		<tr>
-			<td>Comments</td>
-			<td></td>
-		</tr>
-		<tr>
-			<td>Examples</td>
-			<td></td>
-		</tr>
-		<tr>
-			<td>GitHub issue</td>
-			<td>https://github.com/tdwg/tcs2/issues/14</td>
 		</tr>
 	</tbody>
 </table>
