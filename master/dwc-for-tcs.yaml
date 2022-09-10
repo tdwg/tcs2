@@ -2,13 +2,46 @@
 # Terms borrowed from Darwin Core
 #
 
+# property: scientificNameAuthorship
+- localName: scientificNameAuthorship
+  label: Scientific Name Authorship
+  definition: >-
+    The authorship information for the `scientificName` formatted according to 
+    the conventions of the applicable `nomenclaturalCode`.
+  usage: >-
+    `scientificNameAuthorship` can be used if the `taxonNameString` is a 
+    scientific name.
+  notes: null
+  examples: null
+  type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+  organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonName
+  required: No
+  repeatable: No
+  github: 24
+
+# namePublishedInYear
+- localName: namePublishedInYear
+  label: Name Published In Year
+  definition: >-
+    The authorship information for the `scientificName` formatted according to 
+    the conventions of the applicable `nomenclaturalCode`.
+  usage: >-
+    This is the publication year for the present name combination, not the
+    basionym should this be a new combination.
+  notes: null
+  examples: null
+  type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+  organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonName
+  required: No
+  repeatable: No
+  github: 31
+
 # property: genericName
 - localName: genericName
   label: Generic Name
-  definition: The genus part of the scientificName without authorship.
+  definition: The genus part of the `scientificName` without authorship.
   usage: >-
-    This property should not be used for names at and above the rank of genus.
-    For those names the uninomial property should be used.
+    This property should only be used for names below the rank of genus.
   notes: null
   examples: null
   type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
@@ -21,14 +54,14 @@
 - localName: infragenericEpithet
   label: Infrageneric Epithet
   definition: >-
-    The infrageneric part of a binomial name at ranks above species but below 
+    The infrageneric part of combinations at ranks above species but below 
     genus.
   usage: >-
-    Names at ranks between species and genus are composed of two parts; the 
-    genus and this infrageneric epithet. This property should therefore always 
-    be accompanied by the genus property. If the infragenericEpithet property is 
-    present, the uninomial, specificEpithet and infraspecificEpithet properties 
-    should be absent.
+    Names at ranks between species and genus, e.g. subgenera and sections, are 
+    composed of two parts; the genus and the infrageneric epithet. This property 
+    should therefore always be accompanied by the `genericName` property. If the 
+    `infragenericEpithet` property is present, the `specificEpithet` and 
+    `infraspecificEpithet` properties should be absent. 
   notes: null
   examples: null
   type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
@@ -58,8 +91,9 @@
 # property: infraspecificEpithet
 - localName: infraspecificEpithet
   label: Infraspecific Epithet
-  definition: 'The name of the lowest or terminal infraspecific epithet of the scientificName,
-    excluding any rank designation. '
+  definition: >-
+    The name of the lowest or terminal infraspecific epithet of the 
+    `scientificName`, excluding any rank designation.
   usage: >-
     Names at ranks below species are composed of three words; the genus name, 
     the specific epithet and an infraspecific epithet. This property should 
@@ -92,33 +126,3 @@
   required: No
   repeatable: No
   github: 23
-
-# namePublishedInYear
-- localName: namePublishedInYear
-  label: Name Published In Year
-  definition: The four-digit year in which the scientificName was published.
-  usage: >-
-    This is the publication year for the present name combination not for the
-    basionym should this be a new combination.
-  notes: null
-  examples: null
-  type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
-  organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonName
-  required: No
-  repeatable: No
-  github: 31
-
-# varbatimRank
-- localName: verbatimRank
-  label: Verbatim Rank
-  definition: >-
-    The taxonomic rank of the most specific name in the scientificName as it 
-    appears in the original record.
-  usage: null
-  notes: null
-  examples: null
-  type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
-  organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonName
-  required: No
-  repeatable: No
-  github: 6
