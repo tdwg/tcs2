@@ -36,7 +36,7 @@ files.
 		<tr>
 			<th colspan="2">
             <a id="tcs_TaxonConcept"></a><span style="display:block;float:left;">tcs:TaxonConcept</span> 
-            <span style="color:#ffffff;background-color:#617694;display:block;float:right;padding:0 5px;">class</span>
+            <span style="color:#ffffff;background-color:#617694;display:block;float:right;padding:0 5px;">[class]</span>
             </th>
 		</tr>
 	</thead>
@@ -74,7 +74,7 @@ files.
 		<tr>
 			<th colspan="2">
             <a id="tcs_taxonName"></a><span style="display:block;float:left;">tcs:taxonName</span> 
-            <span style="color:#ffffff;background-color:#617694;display:block;float:right;padding:0 5px;">property</span>
+            <span style="color:#ffffff;background-color:#617694;display:block;float:right;padding:0 5px;">[property]</span>
             </th>
 		</tr>
 	</thead>
@@ -115,7 +115,7 @@ files.
 		<tr>
 			<th colspan="2">
             <a id="tcs_accordingTo"></a><span style="display:block;float:left;">tcs:accordingTo</span> 
-            <span style="color:#ffffff;background-color:#617694;display:block;float:right;padding:0 5px;">property</span>
+            <span style="color:#ffffff;background-color:#617694;display:block;float:right;padding:0 5px;">[property]</span>
             </th>
 		</tr>
 	</thead>
@@ -157,7 +157,7 @@ files.
 		<tr>
 			<th colspan="2">
             <a id="tcs_verbatimNameString"></a><span style="display:block;float:left;">tcs:verbatimNameString</span> 
-            <span style="color:#ffffff;background-color:#617694;display:block;float:right;padding:0 5px;">property</span>
+            <span style="color:#ffffff;background-color:#617694;display:block;float:right;padding:0 5px;">[property]</span>
             </th>
 		</tr>
 	</thead>
@@ -198,7 +198,7 @@ files.
 		<tr>
 			<th colspan="2">
             <a id="tcs_taxonomicRank"></a><span style="display:block;float:left;">tcs:taxonomicRank</span> 
-            <span style="color:#ffffff;background-color:#617694;display:block;float:right;padding:0 5px;">property</span>
+            <span style="color:#ffffff;background-color:#617694;display:block;float:right;padding:0 5px;">[property]</span>
             </th>
 		</tr>
 	</thead>
@@ -239,7 +239,7 @@ files.
 		<tr>
 			<th colspan="2">
             <a id="tcs_parent"></a><span style="display:block;float:left;">tcs:parent</span> 
-            <span style="color:#ffffff;background-color:#617694;display:block;float:right;padding:0 5px;">property</span>
+            <span style="color:#ffffff;background-color:#617694;display:block;float:right;padding:0 5px;">[property]</span>
             </th>
 		</tr>
 	</thead>
@@ -280,7 +280,7 @@ files.
 		<tr>
 			<th colspan="2">
             <a id="tcs_synonym"></a><span style="display:block;float:left;">tcs:synonym</span> 
-            <span style="color:#ffffff;background-color:#617694;display:block;float:right;padding:0 5px;">property</span>
+            <span style="color:#ffffff;background-color:#617694;display:block;float:right;padding:0 5px;">[property]</span>
             </th>
 		</tr>
 	</thead>
@@ -321,7 +321,7 @@ files.
 		<tr>
 			<th colspan="2">
             <a id="tcs_vernacularName"></a><span style="display:block;float:left;">tcs:vernacularName</span> 
-            <span style="color:#ffffff;background-color:#617694;display:block;float:right;padding:0 5px;">property</span>
+            <span style="color:#ffffff;background-color:#617694;display:block;float:right;padding:0 5px;">[property]</span>
             </th>
 		</tr>
 	</thead>
@@ -364,7 +364,7 @@ files.
 		<tr>
 			<th colspan="2">
             <a id="tcs_TaxonConceptRelationship"></a><span style="display:block;float:left;">tcs:TaxonConceptRelationship</span> 
-            <span style="color:#ffffff;background-color:#617694;display:block;float:right;padding:0 5px;">class</span>
+            <span style="color:#ffffff;background-color:#617694;display:block;float:right;padding:0 5px;">[class]</span>
             </th>
 		</tr>
 	</thead>
@@ -403,7 +403,7 @@ files.
 		<tr>
 			<th colspan="2">
             <a id="tcs_relationshipType"></a><span style="display:block;float:left;">tcs:relationshipType</span> 
-            <span style="color:#ffffff;background-color:#617694;display:block;float:right;padding:0 5px;">property</span>
+            <span style="color:#ffffff;background-color:#617694;display:block;float:right;padding:0 5px;">[property]</span>
             </th>
 		</tr>
 	</thead>
@@ -444,7 +444,7 @@ files.
 		<tr>
 			<th colspan="2">
             <a id="tcs_subjectTaxonConcept"></a><span style="display:block;float:left;">tcs:subjectTaxonConcept</span> 
-            <span style="color:#ffffff;background-color:#617694;display:block;float:right;padding:0 5px;">property</span>
+            <span style="color:#ffffff;background-color:#617694;display:block;float:right;padding:0 5px;">[property]</span>
             </th>
 		</tr>
 	</thead>
@@ -485,7 +485,7 @@ files.
 		<tr>
 			<th colspan="2">
             <a id="tcs_objectTaxonConcept"></a><span style="display:block;float:left;">tcs:objectTaxonConcept</span> 
-            <span style="color:#ffffff;background-color:#617694;display:block;float:right;padding:0 5px;">property</span>
+            <span style="color:#ffffff;background-color:#617694;display:block;float:right;padding:0 5px;">[property]</span>
             </th>
 		</tr>
 	</thead>
@@ -526,7 +526,7 @@ files.
 		<tr>
 			<th colspan="2">
             <a id="tcs_relationshipAccordingTo"></a><span style="display:block;float:left;">tcs:relationshipAccordingTo</span> 
-            <span style="color:#ffffff;background-color:#617694;display:block;float:right;padding:0 5px;">property</span>
+            <span style="color:#ffffff;background-color:#617694;display:block;float:right;padding:0 5px;">[property]</span>
             </th>
 		</tr>
 	</thead>
@@ -567,7 +567,7 @@ files.
 		<tr>
 			<th colspan="2">
             <a id="tcs_traditionalSynonymyRelationshipType"></a><span style="display:block;float:left;">tcs:traditionalSynonymyRelationshipType</span> 
-            <span style="color:#ffffff;background-color:#617694;display:block;float:right;padding:0 5px;">property</span>
+            <span style="color:#ffffff;background-color:#617694;display:block;float:right;padding:0 5px;">[property]</span>
             </th>
 		</tr>
 	</thead>
@@ -610,7 +610,7 @@ files.
 		<tr>
 			<th colspan="2">
             <a id="tcs_TaxonName"></a><span style="display:block;float:left;">tcs:TaxonName</span> 
-            <span style="color:#ffffff;background-color:#617694;display:block;float:right;padding:0 5px;">class</span>
+            <span style="color:#ffffff;background-color:#617694;display:block;float:right;padding:0 5px;">[class]</span>
             </th>
 		</tr>
 	</thead>
@@ -647,7 +647,7 @@ files.
 		<tr>
 			<th colspan="2">
             <a id="tcs_taxonNameString"></a><span style="display:block;float:left;">tcs:taxonNameString</span> 
-            <span style="color:#ffffff;background-color:#617694;display:block;float:right;padding:0 5px;">property</span>
+            <span style="color:#ffffff;background-color:#617694;display:block;float:right;padding:0 5px;">[property]</span>
             </th>
 		</tr>
 	</thead>
@@ -688,7 +688,7 @@ files.
 		<tr>
 			<th colspan="2">
             <a id="tcs_namePublishedIn"></a><span style="display:block;float:left;">tcs:namePublishedIn</span> 
-            <span style="color:#ffffff;background-color:#617694;display:block;float:right;padding:0 5px;">property</span>
+            <span style="color:#ffffff;background-color:#617694;display:block;float:right;padding:0 5px;">[property]</span>
             </th>
 		</tr>
 	</thead>
@@ -729,7 +729,7 @@ files.
 		<tr>
 			<th colspan="2">
             <a id="tcs_microreference"></a><span style="display:block;float:left;">tcs:microreference</span> 
-            <span style="color:#ffffff;background-color:#617694;display:block;float:right;padding:0 5px;">property</span>
+            <span style="color:#ffffff;background-color:#617694;display:block;float:right;padding:0 5px;">[property]</span>
             </th>
 		</tr>
 	</thead>
@@ -770,7 +770,7 @@ files.
 		<tr>
 			<th colspan="2">
             <a id="tcs_nomenclaturalCode"></a><span style="display:block;float:left;">tcs:nomenclaturalCode</span> 
-            <span style="color:#ffffff;background-color:#617694;display:block;float:right;padding:0 5px;">property</span>
+            <span style="color:#ffffff;background-color:#617694;display:block;float:right;padding:0 5px;">[property]</span>
             </th>
 		</tr>
 	</thead>
@@ -811,7 +811,7 @@ files.
 		<tr>
 			<th colspan="2">
             <a id="tcs_nomenclaturalStatus"></a><span style="display:block;float:left;">tcs:nomenclaturalStatus</span> 
-            <span style="color:#ffffff;background-color:#617694;display:block;float:right;padding:0 5px;">property</span>
+            <span style="color:#ffffff;background-color:#617694;display:block;float:right;padding:0 5px;">[property]</span>
             </th>
 		</tr>
 	</thead>
@@ -852,7 +852,7 @@ files.
 		<tr>
 			<th colspan="2">
             <a id="tcs_basionym"></a><span style="display:block;float:left;">tcs:basionym</span> 
-            <span style="color:#ffffff;background-color:#617694;display:block;float:right;padding:0 5px;">property</span>
+            <span style="color:#ffffff;background-color:#617694;display:block;float:right;padding:0 5px;">[property]</span>
             </th>
 		</tr>
 	</thead>
@@ -893,7 +893,7 @@ files.
 		<tr>
 			<th colspan="2">
             <a id="tcs_replacementNameFor"></a><span style="display:block;float:left;">tcs:replacementNameFor</span> 
-            <span style="color:#ffffff;background-color:#617694;display:block;float:right;padding:0 5px;">property</span>
+            <span style="color:#ffffff;background-color:#617694;display:block;float:right;padding:0 5px;">[property]</span>
             </th>
 		</tr>
 	</thead>
@@ -934,7 +934,7 @@ files.
 		<tr>
 			<th colspan="2">
             <a id="tcs_basedOn"></a><span style="display:block;float:left;">tcs:basedOn</span> 
-            <span style="color:#ffffff;background-color:#617694;display:block;float:right;padding:0 5px;">property</span>
+            <span style="color:#ffffff;background-color:#617694;display:block;float:right;padding:0 5px;">[property]</span>
             </th>
 		</tr>
 	</thead>
@@ -971,7 +971,7 @@ files.
 		<tr>
 			<th colspan="2">
             <a id="tcs_conservedAgainst"></a><span style="display:block;float:left;">tcs:conservedAgainst</span> 
-            <span style="color:#ffffff;background-color:#617694;display:block;float:right;padding:0 5px;">property</span>
+            <span style="color:#ffffff;background-color:#617694;display:block;float:right;padding:0 5px;">[property]</span>
             </th>
 		</tr>
 	</thead>
@@ -1012,7 +1012,7 @@ files.
 		<tr>
 			<th colspan="2">
             <a id="dwc_scientificNameAuthorship"></a><span style="display:block;float:left;">dwc:scientificNameAuthorship</span> 
-            <span style="color:#ffffff;background-color:#617694;display:block;float:right;padding:0 5px;">property</span>
+            <span style="color:#ffffff;background-color:#617694;display:block;float:right;padding:0 5px;">[property]</span>
             </th>
 		</tr>
 	</thead>
@@ -1053,7 +1053,7 @@ files.
 		<tr>
 			<th colspan="2">
             <a id="dwc_namePublishedInYear"></a><span style="display:block;float:left;">dwc:namePublishedInYear</span> 
-            <span style="color:#ffffff;background-color:#617694;display:block;float:right;padding:0 5px;">property</span>
+            <span style="color:#ffffff;background-color:#617694;display:block;float:right;padding:0 5px;">[property]</span>
             </th>
 		</tr>
 	</thead>
@@ -1094,7 +1094,7 @@ files.
 		<tr>
 			<th colspan="2">
             <a id="dwc_genericName"></a><span style="display:block;float:left;">dwc:genericName</span> 
-            <span style="color:#ffffff;background-color:#617694;display:block;float:right;padding:0 5px;">property</span>
+            <span style="color:#ffffff;background-color:#617694;display:block;float:right;padding:0 5px;">[property]</span>
             </th>
 		</tr>
 	</thead>
@@ -1135,7 +1135,7 @@ files.
 		<tr>
 			<th colspan="2">
             <a id="dwc_infragenericEpithet"></a><span style="display:block;float:left;">dwc:infragenericEpithet</span> 
-            <span style="color:#ffffff;background-color:#617694;display:block;float:right;padding:0 5px;">property</span>
+            <span style="color:#ffffff;background-color:#617694;display:block;float:right;padding:0 5px;">[property]</span>
             </th>
 		</tr>
 	</thead>
@@ -1176,7 +1176,7 @@ files.
 		<tr>
 			<th colspan="2">
             <a id="dwc_specificEpithet"></a><span style="display:block;float:left;">dwc:specificEpithet</span> 
-            <span style="color:#ffffff;background-color:#617694;display:block;float:right;padding:0 5px;">property</span>
+            <span style="color:#ffffff;background-color:#617694;display:block;float:right;padding:0 5px;">[property]</span>
             </th>
 		</tr>
 	</thead>
@@ -1217,7 +1217,7 @@ files.
 		<tr>
 			<th colspan="2">
             <a id="dwc_infraspecificEpithet"></a><span style="display:block;float:left;">dwc:infraspecificEpithet</span> 
-            <span style="color:#ffffff;background-color:#617694;display:block;float:right;padding:0 5px;">property</span>
+            <span style="color:#ffffff;background-color:#617694;display:block;float:right;padding:0 5px;">[property]</span>
             </th>
 		</tr>
 	</thead>
@@ -1258,7 +1258,7 @@ files.
 		<tr>
 			<th colspan="2">
             <a id="dwc_cultivarEpithet"></a><span style="display:block;float:left;">dwc:cultivarEpithet</span> 
-            <span style="color:#ffffff;background-color:#617694;display:block;float:right;padding:0 5px;">property</span>
+            <span style="color:#ffffff;background-color:#617694;display:block;float:right;padding:0 5px;">[property]</span>
             </th>
 		</tr>
 	</thead>
@@ -1301,7 +1301,7 @@ files.
 		<tr>
 			<th colspan="2">
             <a id="tcs_NomenclaturalType"></a><span style="display:block;float:left;">tcs:NomenclaturalType</span> 
-            <span style="color:#ffffff;background-color:#617694;display:block;float:right;padding:0 5px;">class</span>
+            <span style="color:#ffffff;background-color:#617694;display:block;float:right;padding:0 5px;">[class]</span>
             </th>
 		</tr>
 	</thead>
@@ -1338,7 +1338,7 @@ files.
 		<tr>
 			<th colspan="2">
             <a id="tcs_typifiedName"></a><span style="display:block;float:left;">tcs:typifiedName</span> 
-            <span style="color:#ffffff;background-color:#617694;display:block;float:right;padding:0 5px;">property</span>
+            <span style="color:#ffffff;background-color:#617694;display:block;float:right;padding:0 5px;">[property]</span>
             </th>
 		</tr>
 	</thead>
@@ -1379,7 +1379,7 @@ files.
 		<tr>
 			<th colspan="2">
             <a id="tcs_typeOfType"></a><span style="display:block;float:left;">tcs:typeOfType</span> 
-            <span style="color:#ffffff;background-color:#617694;display:block;float:right;padding:0 5px;">property</span>
+            <span style="color:#ffffff;background-color:#617694;display:block;float:right;padding:0 5px;">[property]</span>
             </th>
 		</tr>
 	</thead>
@@ -1420,7 +1420,7 @@ files.
 		<tr>
 			<th colspan="2">
             <a id="tcs_typeName"></a><span style="display:block;float:left;">tcs:typeName</span> 
-            <span style="color:#ffffff;background-color:#617694;display:block;float:right;padding:0 5px;">property</span>
+            <span style="color:#ffffff;background-color:#617694;display:block;float:right;padding:0 5px;">[property]</span>
             </th>
 		</tr>
 	</thead>
@@ -1461,7 +1461,7 @@ files.
 		<tr>
 			<th colspan="2">
             <a id="tcs_typeSpecimen"></a><span style="display:block;float:left;">tcs:typeSpecimen</span> 
-            <span style="color:#ffffff;background-color:#617694;display:block;float:right;padding:0 5px;">property</span>
+            <span style="color:#ffffff;background-color:#617694;display:block;float:right;padding:0 5px;">[property]</span>
             </th>
 		</tr>
 	</thead>
@@ -1502,7 +1502,7 @@ files.
 		<tr>
 			<th colspan="2">
             <a id="tcs_typePublishedIn"></a><span style="display:block;float:left;">tcs:typePublishedIn</span> 
-            <span style="color:#ffffff;background-color:#617694;display:block;float:right;padding:0 5px;">property</span>
+            <span style="color:#ffffff;background-color:#617694;display:block;float:right;padding:0 5px;">[property]</span>
             </th>
 		</tr>
 	</thead>

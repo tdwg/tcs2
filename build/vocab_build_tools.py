@@ -186,13 +186,13 @@ def term_table(term):
     if term_type == 'concept':
         tableHeader = """
             <a id="{anchor}"></a><span style="display:block;float:left;">{curie} ({label})</span> 
-            <span style="color:#ffffff;background-color:#617694;display:block;float:right;padding:0 5px;">{term_type}</span>
+            <span style="color:#ffffff;background-color:#617694;display:block;float:right;padding:0 5px;">[{term_type}]</span>
             """.format(
             curie=curie, anchor=curieAnchor, term_type=term_type, label=term['label'])
     else:
         tableHeader = """
             <a id="{anchor}"></a><span style="display:block;float:left;">{curie}</span> 
-            <span style="color:#ffffff;background-color:#617694;display:block;float:right;padding:0 5px;">{term_type}</span>
+            <span style="color:#ffffff;background-color:#617694;display:block;float:right;padding:0 5px;">[{term_type}]</span>
             """.format(curie=curie, anchor=curieAnchor, term_type=term_type)
     text += '\t<thead>\n'
     text += table_row([table_cell(tableHeader, celltype='th', colspan=2)])

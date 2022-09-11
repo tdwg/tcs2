@@ -15,7 +15,7 @@ do not edit the markdown directly, but make any changes in the YAML file.
 		<tr>
 			<th colspan="2">
             <a id="tcsreltype_rt"></a><span style="display:block;float:left;">tcsreltype:rt</span> 
-            <span style="color:#ffffff;background-color:#617694;display:block;float:right;padding:0 5px;">conceptscheme</span>
+            <span style="color:#ffffff;background-color:#617694;display:block;float:right;padding:0 5px;">[conceptscheme]</span>
             </th>
 		</tr>
 	</thead>
@@ -48,7 +48,7 @@ do not edit the markdown directly, but make any changes in the YAML file.
 		<tr>
 			<th colspan="2">
             <a id="tcsreltype_rt001"></a><span style="display:block;float:left;">tcsreltype:rt001 (Is Congruent With)</span> 
-            <span style="color:#ffffff;background-color:#617694;display:block;float:right;padding:0 5px;">concept</span>
+            <span style="color:#ffffff;background-color:#617694;display:block;float:right;padding:0 5px;">[concept]</span>
             </th>
 		</tr>
 	</thead>
@@ -85,7 +85,7 @@ do not edit the markdown directly, but make any changes in the YAML file.
 		<tr>
 			<th colspan="2">
             <a id="tcsreltype_rt002"></a><span style="display:block;float:left;">tcsreltype:rt002 (Has proper subset)</span> 
-            <span style="color:#ffffff;background-color:#617694;display:block;float:right;padding:0 5px;">concept</span>
+            <span style="color:#ffffff;background-color:#617694;display:block;float:right;padding:0 5px;">[concept]</span>
             </th>
 		</tr>
 	</thead>
@@ -122,7 +122,7 @@ do not edit the markdown directly, but make any changes in the YAML file.
 		<tr>
 			<th colspan="2">
             <a id="tcsreltype_rt003"></a><span style="display:block;float:left;">tcsreltype:rt003 (Is Included In)</span> 
-            <span style="color:#ffffff;background-color:#617694;display:block;float:right;padding:0 5px;">concept</span>
+            <span style="color:#ffffff;background-color:#617694;display:block;float:right;padding:0 5px;">[concept]</span>
             </th>
 		</tr>
 	</thead>
@@ -159,7 +159,7 @@ do not edit the markdown directly, but make any changes in the YAML file.
 		<tr>
 			<th colspan="2">
             <a id="tcsreltype_rt004"></a><span style="display:block;float:left;">tcsreltype:rt004 (partiallyOverlaps)</span> 
-            <span style="color:#ffffff;background-color:#617694;display:block;float:right;padding:0 5px;">concept</span>
+            <span style="color:#ffffff;background-color:#617694;display:block;float:right;padding:0 5px;">[concept]</span>
             </th>
 		</tr>
 	</thead>
@@ -196,7 +196,7 @@ do not edit the markdown directly, but make any changes in the YAML file.
 		<tr>
 			<th colspan="2">
             <a id="tcsreltype_rt005"></a><span style="display:block;float:left;">tcsreltype:rt005 (Is disjoint from)</span> 
-            <span style="color:#ffffff;background-color:#617694;display:block;float:right;padding:0 5px;">concept</span>
+            <span style="color:#ffffff;background-color:#617694;display:block;float:right;padding:0 5px;">[concept]</span>
             </th>
 		</tr>
 	</thead>
@@ -233,7 +233,7 @@ do not edit the markdown directly, but make any changes in the YAML file.
 		<tr>
 			<th colspan="2">
             <a id="tcsreltype_rt006"></a><span style="display:block;float:left;">tcsreltype:rt006 (Intersects)</span> 
-            <span style="color:#ffffff;background-color:#617694;display:block;float:right;padding:0 5px;">concept</span>
+            <span style="color:#ffffff;background-color:#617694;display:block;float:right;padding:0 5px;">[concept]</span>
             </th>
 		</tr>
 	</thead>
