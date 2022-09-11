@@ -94,7 +94,7 @@
 # property: verbatimNameString
 - localName: verbatimNameString
   label: Verbatim Name String
-  definition: <-
+  definition: >-
     The verbatim name string as used in the particular treatment.
   usage: null
   notes: >-

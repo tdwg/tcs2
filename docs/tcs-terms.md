@@ -180,7 +180,7 @@ files.
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td><p>&lt;- The verbatim name string as used in the particular treatment.</p></td>
+			<td><p>The verbatim name string as used in the particular treatment.</p></td>
 		</tr>
 		<tr>
 			<td>Comments</td>
