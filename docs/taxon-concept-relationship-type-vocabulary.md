@@ -10,15 +10,18 @@ do not edit the markdown directly, but make any changes in the YAML file.
 
 ### Vocabulary
 
-<table>
+<table style="width:100%;">
 	<thead>
 		<tr>
-			<th colspan="2"><a id="tcsreltype_rt"></a>ConceptScheme tcsreltype:rt</th>
+			<th colspan="2">
+            <a id="tcsreltype_rt"></a><span style="display:block;float:left;">tcsreltype:rt</span> 
+            <span style="color:#ffffff;background-color:#617694;display:block;float:right;padding:0 5px;">conceptscheme</span>
+            </th>
 		</tr>
 	</thead>
 	<tbody>
 		<tr>
-			<td>Term IRI</td>
+			<td>Identifier</td>
 			<td>http://rs.tdwg.org/tcs-taxon-concept-relationship-type/values/rt</td>
 		</tr>
 		<tr>
@@ -34,33 +37,24 @@ do not edit the markdown directly, but make any changes in the YAML file.
 			<td><p>A SKOS Concept Scheme for controlled values for  <code>tcs:taxonConceptRelationshipType</code></p></td>
 		</tr>
 		<tr>
-			<td>Usage</td>
-			<td></td>
-		</tr>
-		<tr>
-			<td>Comments</td>
-			<td></td>
-		</tr>
-		<tr>
-			<td>Examples</td>
-			<td></td>
-		</tr>
-		<tr>
 			<td>Controlled value</td>
 			<td>None</td>
 		</tr>
 	</tbody>
 </table>
 
-<table>
+<table style="width:100%;">
 	<thead>
 		<tr>
-			<th colspan="2"><a id="tcsreltype_rt001"></a>Concept tcsreltype:rt001 (Is Congruent With)</th>
+			<th colspan="2">
+            <a id="tcsreltype_rt001"></a><span style="display:block;float:left;">tcsreltype:rt001 (Is Congruent With)</span> 
+            <span style="color:#ffffff;background-color:#617694;display:block;float:right;padding:0 5px;">concept</span>
+            </th>
 		</tr>
 	</thead>
 	<tbody>
 		<tr>
-			<td>Term IRI</td>
+			<td>Identifier</td>
 			<td>http://rs.tdwg.org/tcs-taxon-concept-relationship-type/values/rt001</td>
 		</tr>
 		<tr>
@@ -76,16 +70,8 @@ do not edit the markdown directly, but make any changes in the YAML file.
 			<td><p>The subject and object taxon concepts have a congruent taxonomic meaning,  i.e. there is no conflict between the concepts</p></td>
 		</tr>
 		<tr>
-			<td>Usage</td>
-			<td></td>
-		</tr>
-		<tr>
 			<td>Comments</td>
 			<td><p>The <code>isCongruentWith</code> relationship is symmetrical, so if A <code>isCongruentWith</code>  B then B <code>isCongruentWith</code> A, as well as transitive, so if A  <code>isCongruentWith</code> B and B <code>isCongruentWith</code> C it follows that A  <code>isCongruentWith</code> C.</p></td>
-		</tr>
-		<tr>
-			<td>Examples</td>
-			<td></td>
 		</tr>
 		<tr>
 			<td>Controlled value</td>
@@ -94,15 +80,18 @@ do not edit the markdown directly, but make any changes in the YAML file.
 	</tbody>
 </table>
 
-<table>
+<table style="width:100%;">
 	<thead>
 		<tr>
-			<th colspan="2"><a id="tcsreltype_rt002"></a>Concept tcsreltype:rt002 (Has proper subset)</th>
+			<th colspan="2">
+            <a id="tcsreltype_rt002"></a><span style="display:block;float:left;">tcsreltype:rt002 (Has proper subset)</span> 
+            <span style="color:#ffffff;background-color:#617694;display:block;float:right;padding:0 5px;">concept</span>
+            </th>
 		</tr>
 	</thead>
 	<tbody>
 		<tr>
-			<td>Term IRI</td>
+			<td>Identifier</td>
 			<td>http://rs.tdwg.org/tcs-taxon-concept-relationship-type/values/rt002</td>
 		</tr>
 		<tr>
@@ -118,16 +107,8 @@ do not edit the markdown directly, but make any changes in the YAML file.
 			<td><p>The subject taxon concept has a more inclusive taxonomic meaning than the object taxon concept</p></td>
 		</tr>
 		<tr>
-			<td>Usage</td>
-			<td></td>
-		</tr>
-		<tr>
 			<td>Comments</td>
 			<td><p>The <code>hasProperSubset</code> relationship is not symmetric, its inverse  relationship being  <code>isProperSubsetOf</code>, so if A <code>hasProperSubset</code> B then B  <code>isProperSubsetOf</code> A. The <code>hasProperSubset</code> relationship  is transitive, so  if A <code>hasProperSubset</code> B and B <code>hasProperSubset</code> C it follows that A  <code>hasProperSubset</code> C.</p></td>
-		</tr>
-		<tr>
-			<td>Examples</td>
-			<td></td>
 		</tr>
 		<tr>
 			<td>Controlled value</td>
@@ -136,15 +117,18 @@ do not edit the markdown directly, but make any changes in the YAML file.
 	</tbody>
 </table>
 
-<table>
+<table style="width:100%;">
 	<thead>
 		<tr>
-			<th colspan="2"><a id="tcsreltype_rt003"></a>Concept tcsreltype:rt003 (Is Included In)</th>
+			<th colspan="2">
+            <a id="tcsreltype_rt003"></a><span style="display:block;float:left;">tcsreltype:rt003 (Is Included In)</span> 
+            <span style="color:#ffffff;background-color:#617694;display:block;float:right;padding:0 5px;">concept</span>
+            </th>
 		</tr>
 	</thead>
 	<tbody>
 		<tr>
-			<td>Term IRI</td>
+			<td>Identifier</td>
 			<td>http://rs.tdwg.org/tcs-taxon-concept-relationship-type/values/rt003</td>
 		</tr>
 		<tr>
@@ -160,16 +144,8 @@ do not edit the markdown directly, but make any changes in the YAML file.
 			<td><p>The subject taxon concept has a less inclusive taxonomic meaning than the  object taxon concept</p></td>
 		</tr>
 		<tr>
-			<td>Usage</td>
-			<td></td>
-		</tr>
-		<tr>
 			<td>Comments</td>
 			<td><p>The <code>isProperSubsetOf</code> relationship is not symmetric, its inverse  relationship being  <code>hasProperSubset</code>, so if A <code>isProperSubsetOf</code> B then B  <code>hasProperSubset</code> A. The <code>isProperSubsetOf</code> relationship  is transitive, so  if A <code>isProperSubsetOf</code> B and B <code>isProperSubsetOf</code> C it follows that A  <code>isProperSubsetOf</code> C.</p></td>
-		</tr>
-		<tr>
-			<td>Examples</td>
-			<td></td>
 		</tr>
 		<tr>
 			<td>Controlled value</td>
@@ -178,15 +154,18 @@ do not edit the markdown directly, but make any changes in the YAML file.
 	</tbody>
 </table>
 
-<table>
+<table style="width:100%;">
 	<thead>
 		<tr>
-			<th colspan="2"><a id="tcsreltype_rt004"></a>Concept tcsreltype:rt004 (partiallyOverlaps)</th>
+			<th colspan="2">
+            <a id="tcsreltype_rt004"></a><span style="display:block;float:left;">tcsreltype:rt004 (partiallyOverlaps)</span> 
+            <span style="color:#ffffff;background-color:#617694;display:block;float:right;padding:0 5px;">concept</span>
+            </th>
 		</tr>
 	</thead>
 	<tbody>
 		<tr>
-			<td>Term IRI</td>
+			<td>Identifier</td>
 			<td>http://rs.tdwg.org/tcs-taxon-concept-relationship-type/values/rt004</td>
 		</tr>
 		<tr>
@@ -202,16 +181,8 @@ do not edit the markdown directly, but make any changes in the YAML file.
 			<td><p>The subject and object taxon concepts have partially overlapping taxonomic  meanings, <em>i.e.</em> they have some members in common, but each concept in  addition has members that are not included in the other concept</p></td>
 		</tr>
 		<tr>
-			<td>Usage</td>
-			<td></td>
-		</tr>
-		<tr>
 			<td>Comments</td>
 			<td><p>The <code>partiallyOverlaps</code>  relationship is symmetrical, so if A  <code>partiallyOverlaps</code> B then B <code>partiallyOverlaps</code> A, but not transitive, so,  if A <code>partiallyOverlaps</code> B and B <code>partiallyOverlaps</code> C, it does not follow  that A <code>partiallyOverlaps</code> C.</p></td>
-		</tr>
-		<tr>
-			<td>Examples</td>
-			<td></td>
 		</tr>
 		<tr>
 			<td>Controlled value</td>
@@ -220,15 +191,18 @@ do not edit the markdown directly, but make any changes in the YAML file.
 	</tbody>
 </table>
 
-<table>
+<table style="width:100%;">
 	<thead>
 		<tr>
-			<th colspan="2"><a id="tcsreltype_rt005"></a>Concept tcsreltype:rt005 (Is disjoint from)</th>
+			<th colspan="2">
+            <a id="tcsreltype_rt005"></a><span style="display:block;float:left;">tcsreltype:rt005 (Is disjoint from)</span> 
+            <span style="color:#ffffff;background-color:#617694;display:block;float:right;padding:0 5px;">concept</span>
+            </th>
 		</tr>
 	</thead>
 	<tbody>
 		<tr>
-			<td>Term IRI</td>
+			<td>Identifier</td>
 			<td>http://rs.tdwg.org/tcs-taxon-concept-relationship-type/values/rt005</td>
 		</tr>
 		<tr>
@@ -244,16 +218,8 @@ do not edit the markdown directly, but make any changes in the YAML file.
 			<td><p>The subject and objects taxon concepts have non-overlapping taxonomic  meanings, <em>i.e.</em> they do not have any members in common</p></td>
 		</tr>
 		<tr>
-			<td>Usage</td>
-			<td></td>
-		</tr>
-		<tr>
 			<td>Comments</td>
 			<td><p>The <code>isDisjointFrom</code>  relationship is symmetrical, so if A <code>isDisjointFrom</code>  B then B <code>isDisjointFrom</code> A, but not transitive, so, if A <code>isDisjointFrom</code>  B and B <code>isDisjointFrom</code> C, it does not follow that A <code>isDisjointFrom</code> C.</p></td>
-		</tr>
-		<tr>
-			<td>Examples</td>
-			<td></td>
 		</tr>
 		<tr>
 			<td>Controlled value</td>
@@ -262,15 +228,18 @@ do not edit the markdown directly, but make any changes in the YAML file.
 	</tbody>
 </table>
 
-<table>
+<table style="width:100%;">
 	<thead>
 		<tr>
-			<th colspan="2"><a id="tcsreltype_rt006"></a>Concept tcsreltype:rt006 (Intersects)</th>
+			<th colspan="2">
+            <a id="tcsreltype_rt006"></a><span style="display:block;float:left;">tcsreltype:rt006 (Intersects)</span> 
+            <span style="color:#ffffff;background-color:#617694;display:block;float:right;padding:0 5px;">concept</span>
+            </th>
 		</tr>
 	</thead>
 	<tbody>
 		<tr>
-			<td>Term IRI</td>
+			<td>Identifier</td>
 			<td>http://rs.tdwg.org/tcs-taxon-concept-relationship-type/values/rt006</td>
 		</tr>
 		<tr>
@@ -286,16 +255,8 @@ do not edit the markdown directly, but make any changes in the YAML file.
 			<td><p>The taxonomic meanings of the subject and object taxon concepts intersect,  <em>i.e.</em> they have at least one member in common.</p></td>
 		</tr>
 		<tr>
-			<td>Usage</td>
-			<td></td>
-		</tr>
-		<tr>
 			<td>Comments</td>
 			<td><p><code>intersects</code> is the opposite of <code>isDisjointFrom</code> and the union of  <code>isCongruentWith</code>, <code>hasProperSubset</code>, <code>isProperSubsetOf</code> and  <code>partiallyOverlaps</code>, meaning it can be any of these relationships. This  relationship type can be used when the more precise nature of the  relationship is not known, for example when dealing with statements in  traditional synonymies.</p></td>
-		</tr>
-		<tr>
-			<td>Examples</td>
-			<td></td>
 		</tr>
 		<tr>
 			<td>Controlled value</td>

@@ -176,19 +176,24 @@ def term_table(term):
     Returns:
         str: HTML table (<table/>) with term metadata
     """
-    text = '<table>\n'
+    text = '<table style="width:100%;">\n'
 
     # table header
     curie = '{namespaceAlias}:{localName}'.format(
         namespaceAlias=term['namespaceAlias'], localName=term['localName'])
     curieAnchor = curie.replace(':', '_')
-    term_type = term['type'][term['type'].find('#')+1:]
-    if term_type == 'Concept':
-        tableHeader = '<a id="{anchor}"></a>{term_type} {curie} ({label})'.format(
+    term_type = term['type'][term['type'].find('#')+1:].lower()
+    if term_type == 'concept':
+        tableHeader = """
+            <a id="{anchor}"></a><span style="display:block;float:left;">{curie} ({label})</span> 
+            <span style="color:#ffffff;background-color:#617694;display:block;float:right;padding:0 5px;">{term_type}</span>
+            """.format(
             curie=curie, anchor=curieAnchor, term_type=term_type, label=term['label'])
     else:
-        tableHeader = '<a id="{anchor}"></a>{term_type} {curie}'.format(
-            curie=curie, anchor=curieAnchor, term_type=term_type)
+        tableHeader = """
+            <a id="{anchor}"></a><span style="display:block;float:left;">{curie}</span> 
+            <span style="color:#ffffff;background-color:#617694;display:block;float:right;padding:0 5px;">{term_type}</span>
+            """.format(curie=curie, anchor=curieAnchor, term_type=term_type)
     text += '\t<thead>\n'
     text += table_row([table_cell(tableHeader, celltype='th', colspan=2)])
     text += '\t</thead>\n'
@@ -199,7 +204,7 @@ def term_table(term):
     uri = '{namespace}{localName}'.format(
         namespace=term['namespace'], localName=term['localName'])
     text += table_row([
-        table_cell('Term IRI'),
+        table_cell('Identifier'),
         table_cell(uri)
     ])
 
@@ -233,22 +238,24 @@ def term_table(term):
         table_cell(markdown.markdown(definition))])
 
     # Usage
-    usage = term['usage'] if term['usage'] else ""
-    text += table_row([
-        table_cell('Usage'),
-        table_cell(markdown.markdown(usage))
-    ])
+    if term['usage']:
+        usage = term['usage'] if term['usage'] else ""
+        text += table_row([
+            table_cell('Usage'),
+            table_cell(markdown.markdown(usage))
+        ])
 
     # Comments/Notes
-    comments = term['notes'] if term['notes'] else ""
-    text += table_row([
-        table_cell('Comments'),
-        table_cell(markdown.markdown(comments, extensions=['nl2br']))
-    ])
+    if term['notes']:
+        comments = term['notes']
+        text += table_row([
+            table_cell('Comments'),
+            table_cell(markdown.markdown(comments, extensions=['nl2br']))
+        ])
 
     # Examples
-    if 'examples' in term:
-        examples = term['examples'] if term['examples'] else ""
+    if 'examples' in term and term['examples']:
+        examples = term['examples']
         text += table_row([
             table_cell('Examples'),
             table_cell(markdown.markdown(examples))
