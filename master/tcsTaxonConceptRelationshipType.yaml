@@ -1,0 +1,123 @@
+#
+# Taxon Relationship Type vocabulary
+#
+
+# Taxon Relationship Type Concept Scheme
+- localName: rt
+  type: http://www.w3.org/2004/02/skos/core#ConceptScheme
+  label: Taxon Concept Relationship Type Concept Scheme
+  controlled_value_string: null
+  skos_inScheme: rt
+  definition: >- 
+    A SKOS Concept Scheme for controlled values for 
+    `tcs:taxonConceptRelationshipType`
+  usage: null
+  notes: null
+  examples: null
+
+# controlled term: isCongruentWith
+- localName: rt001
+  type: http://www.w3.org/2004/02/skos/core#Concept
+  label: Is Congruent With
+  controlled_value_string: isCongruentWith
+  skos_inScheme: rt
+  definition: >-
+    The subject and object taxon concepts have a congruent taxonomic meaning, 
+    i.e. there is no conflict between the concepts
+  usage: null
+  notes: >-
+    The `isCongruentWith` relationship is symmetrical, so if A `isCongruentWith` 
+    B then B `isCongruentWith` A, as well as transitive, so if A 
+    `isCongruentWith` B and B `isCongruentWith` C it follows that A 
+    `isCongruentWith` C.
+  examples: null
+
+# controlled term: hasProperSubset
+- localName: rt002
+  label: Has proper subset
+  skos_inScheme: rt
+  controlled_value_string: hasProperSubset
+  definition: >-
+    The subject taxon concept has a more inclusive taxonomic meaning than
+    the object taxon concept
+  usage: null
+  notes: >-
+    The `hasProperSubset` relationship is not symmetric, its inverse 
+    relationship being  `isProperSubsetOf`, so if A `hasProperSubset` B then B 
+    `isProperSubsetOf` A. The `hasProperSubset` relationship  is transitive, so 
+    if A `hasProperSubset` B and B `hasProperSubset` C it follows that A 
+    `hasProperSubset` C.
+
+  examples: null
+  type: http://www.w3.org/2004/02/skos/core#Concept
+
+# controlled term: isProperSubsetOf
+- localName: rt003
+  label: Is Included In
+  skos_inScheme: rt
+  controlled_value_string: isIncludedIn
+  definition: >-
+    The subject taxon concept has a less inclusive taxonomic meaning than the 
+    object taxon concept
+  examples: null
+  notes: >-
+    The `isProperSubsetOf` relationship is not symmetric, its inverse 
+    relationship being  `hasProperSubset`, so if A `isProperSubsetOf` B then B 
+    `hasProperSubset` A. The `isProperSubsetOf` relationship  is transitive, so 
+    if A `isProperSubsetOf` B and B `isProperSubsetOf` C it follows that A 
+    `isProperSubsetOf` C.
+  type: http://www.w3.org/2004/02/skos/core#Concept
+  usage: null
+
+# controlled term: partiallyOverlaps
+- localName: rt004
+  type: http://www.w3.org/2004/02/skos/core#Concept
+  label: partiallyOverlaps
+  controlled_value_string: partiallyOverlaps
+  skos_inScheme: rt
+  definition: >-
+    The subject and object taxon concepts have partially overlapping taxonomic 
+    meanings, _i.e._ they have some members in common, but each concept in 
+    addition has members that are not included in the other concept
+  usage: null
+  examples: null
+  notes: >-
+    The `partiallyOverlaps`  relationship is symmetrical, so if A 
+    `partiallyOverlaps` B then B `partiallyOverlaps` A, but not transitive, so, 
+    if A `partiallyOverlaps` B and B `partiallyOverlaps` C, it does not follow 
+    that A `partiallyOverlaps` C.
+
+# controlled term: isDisjointFrom
+- localName: rt005
+  type: http://www.w3.org/2004/02/skos/core#Concept
+  label: Is disjoint from
+  controlled_value_string: isDisjointFrom
+  skos_inScheme: rt
+  definition: >-
+    The subject and objects taxon concepts have non-overlapping taxonomic 
+    meanings, _i.e._ they do not have any members in common
+  usage: null
+  notes: >-
+    The `isDisjointFrom`  relationship is symmetrical, so if A `isDisjointFrom` 
+    B then B `isDisjointFrom` A, but not transitive, so, if A `isDisjointFrom` 
+    B and B `isDisjointFrom` C, it does not follow that A `isDisjointFrom` C.
+  examples: null
+
+# controlled term: intersects
+- localName: rt006
+  label: Intersects
+  skos_inScheme: rt
+  controlled_value_string: intersects
+  definition: >-
+    The taxonomic meanings of the subject and object taxon concepts intersect, 
+    _i.e._ they have at least one member in common.
+  usage: null
+  notes: >-
+    `intersects` is the opposite of `isDisjointFrom` and the union of 
+    `isCongruentWith`, `hasProperSubset`, `isProperSubsetOf` and 
+    `partiallyOverlaps`, meaning it can be any of these relationships. This 
+    relationship type can be used when the more precise nature of the 
+    relationship is not known, for example when dealing with statements in 
+    traditional synonymies.
+  examples: null
+  type: http://www.w3.org/2004/02/skos/core#Concept
