@@ -16,9 +16,4 @@ vocabularies:
 
 ### Controlled vocabularies
 
-- Taxon Concept Category Vocabulary: [tcsTaxonConceptCategory.yaml](./tcsTaxonConceptCategory.yaml)
-- Taxon Relationship Type Vocabulary: [tcsTaxonRelationshipType.yaml](./tcsTaxonRelationshipType.yaml)
-- Nomenclatural Code Vocabulary: [tcsNomenclaturalCode.yaml](./tcsNomenclaturalCode.yaml)
-- Nomenclatural Status Vocabulary: [tcsNomenclaturalStatus.yaml](./tcsNomenclaturalStatus.yaml)
-- Rank Vocabulary: [tcsRank.yaml](./tcsRank.yaml)
-- Type of Type Vocabulary: [tcsTypeOfType.yaml](./tcsTypeOfType.yaml)
+- Taxon Concept Relationship Type Vocabulary: [tcsTaxonConceptRelationshipType.yaml](./tcsTaxonConceptRelationshipType.yaml)
