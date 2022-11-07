@@ -78,8 +78,8 @@
     Names at ranks of species and below are composed of two or three words; the 
     genus name, the specific epithet and possibly an infraspecific epithet. 
     This property should therefore always be accompanied by the `genus` property. 
-    If the `specificEpithet` property is present the `uninomial` and 
-    `infragenericEpithet` properties should be absent.
+    If the `specificEpithet` property is present the `infragenericEpithet` 
+    property should be absent.
   notes: null
   examples: null
   type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
@@ -98,8 +98,8 @@
     Names at ranks below species are composed of three words; the genus name, 
     the specific epithet and an infraspecific epithet. This property should 
     therefore always be accompanied by the `genus` and `specificEpithet` 
-    properties. If the `specificEpithet` property is present the `uninomial` and 
-    `infragenericEpithet` properties should be absent.
+    properties. If the `specificEpithet` property is present the 
+    `infragenericEpithet` property should be absent.
   notes: null
   examples: null
   type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
