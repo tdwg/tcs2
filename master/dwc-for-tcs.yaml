@@ -116,7 +116,7 @@
   usage: >-
     The cultivar epithet follows a well-formed botanical name. Only include
     the string of the epithet. i.e. omit the single quotes around cultivar 
-    names, the word nullGroupnull that denotes cultivar group and the + sign 
+    names, the word 'Group' that denotes cultivar group and the + sign 
     used in chimeras.
   notes: null
   examples: null
