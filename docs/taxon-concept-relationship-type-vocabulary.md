@@ -4,11 +4,11 @@
 [tcsTaxonConceptRelationshipType.yaml](./tcsTaxonConceptRelationshipType.yaml) file. Please
 do not edit the markdown directly, but make any changes in the YAML file.
 
-### Index of terms
+## Index of terms
 
 [Taxon Concept Relationship Type Concept Scheme](#tcsreltype_rt) | [Is Congruent With](#tcsreltype_rt001) | [Has proper subset](#tcsreltype_rt002) | [Is Included In](#tcsreltype_rt003) | [partiallyOverlaps](#tcsreltype_rt004) | [Is disjoint from](#tcsreltype_rt005) | [Intersects](#tcsreltype_rt006)
 
-### Vocabulary
+## Vocabulary
 
 <table style="width:100%;">
 	<thead>
