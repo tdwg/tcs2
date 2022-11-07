@@ -879,7 +879,7 @@ files.
 		</tr>
 		<tr>
 			<td>Comments</td>
-			<td><p>A basionym is the epithet-bringing name.  The <code>basionym</code> property is only  used for new combinations (<code>comb. nov.'). If the new name is an avowed  substitute ('nom. nov.') the</code>replacementNameFor` property should be used  instead.</p></td>
+			<td><p>A basionym is the epithet-bringing name.  The <code>basionym</code> property is only  used for new combinations ('comb. nov.'). If the new name is an avowed  substitute ('nom. nov.') the <code>replacementNameFor</code> property should be used  instead.</p></td>
 		</tr>
 		<tr>
 			<td>GitHub issue</td>
@@ -1076,7 +1076,7 @@ files.
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td><p>The authorship information for the <code>scientificName</code> formatted according to  the conventions of the applicable <code>nomenclaturalCode</code>.</p></td>
+			<td><p>The four-digit year in which the <code>scientificName</code> was published.</p></td>
 		</tr>
 		<tr>
 			<td>Usage</td>
@@ -1203,7 +1203,7 @@ files.
 		</tr>
 		<tr>
 			<td>Usage</td>
-			<td><p>Names at ranks of species and below are composed of two or three words; the  genus name, the specific epithet and possibly an infraspecific epithet.  This property should therefore always be accompanied by the <code>genus</code> property.  If the <code>specificEpithet</code> property is present the <code>uninomial</code> and  <code>infragenericEpithet</code> properties should be absent.</p></td>
+			<td><p>Names at ranks of species and below are composed of two or three words; the  genus name, the specific epithet and possibly an infraspecific epithet.  This property should therefore always be accompanied by the <code>genus</code> property.  If the <code>specificEpithet</code> property is present the <code>infragenericEpithet</code>  property should be absent.</p></td>
 		</tr>
 		<tr>
 			<td>GitHub issue</td>
@@ -1244,7 +1244,7 @@ files.
 		</tr>
 		<tr>
 			<td>Usage</td>
-			<td><p>Names at ranks below species are composed of three words; the genus name,  the specific epithet and an infraspecific epithet. This property should  therefore always be accompanied by the <code>genus</code> and <code>specificEpithet</code>  properties. If the <code>specificEpithet</code> property is present the <code>uninomial</code> and  <code>infragenericEpithet</code> properties should be absent.</p></td>
+			<td><p>Names at ranks below species are composed of three words; the genus name,  the specific epithet and an infraspecific epithet. This property should  therefore always be accompanied by the <code>genus</code> and <code>specificEpithet</code>  properties. If the <code>specificEpithet</code> property is present the  <code>infragenericEpithet</code> property should be absent.</p></td>
 		</tr>
 		<tr>
 			<td>GitHub issue</td>
@@ -1285,7 +1285,7 @@ files.
 		</tr>
 		<tr>
 			<td>Usage</td>
-			<td><p>The cultivar epithet follows a well-formed botanical name. Only include the string of the epithet. i.e. omit the single quotes around cultivar  names, the word nullGroupnull that denotes cultivar group and the + sign  used in chimeras.</p></td>
+			<td><p>The cultivar epithet follows a well-formed botanical name. Only include the string of the epithet. i.e. omit the single quotes around cultivar  names, the word 'Group' that denotes cultivar group and the + sign  used in chimeras.</p></td>
 		</tr>
 		<tr>
 			<td>GitHub issue</td>
