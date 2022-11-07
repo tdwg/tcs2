@@ -424,7 +424,7 @@
   definition: Original name on which the present name is based.
   notes: >-
     A basionym is the epithet-bringing name.  The `basionym` property is only 
-    used for new combinations (`comb. nov.'). If the new name is an avowed 
+    used for new combinations ('comb. nov.'). If the new name is an avowed 
     substitute ('nom. nov.') the `replacementNameFor` property should be used 
     instead.
   examples: null
