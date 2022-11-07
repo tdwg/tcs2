@@ -483,6 +483,22 @@
   repeatable: Yes
   github: 39
 
+# property: uninomial
+- localName: uninomial
+  label: uninomial
+  definition: >-
+    Single-word name string.
+  notes: >-
+    This property can be used for any 'single word' names. These include 
+    family, genus, infrafamilial, and suprafamilial names. Note that this 
+    property, rather than `genericName`, should be used for generic names. The 
+    `genericName` property should be used only for names below the rank of genus.
+  type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+  organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonName
+  required: No
+  repeatable: No
+  github: 18
+
 
 # class: NomenclaturalType
 - localName: NomenclaturalType
