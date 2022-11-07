@@ -5,7 +5,7 @@
 Please do not edit the markdown directly, but make any changes in the YAML
 files.
 
-### Index of terms
+## Index of terms
 
 **classes**
 
@@ -27,9 +27,9 @@ files.
 
 [tcs:typifiedName](#tcs_typifiedName) | [tcs:typeOfType](#tcs_typeOfType) | [tcs:typeName](#tcs_typeName) | [tcs:typeSpecimen](#tcs_typeSpecimen) | [tcs:typePublishedIn](#tcs_typePublishedIn)
 
-### Vocabulary
+## Vocabulary
 
-#### Taxon Concept
+### Taxon Concept
 
 <table style="width:100%;">
 	<thead>
@@ -357,7 +357,7 @@ files.
 	</tbody>
 </table>
 
-#### Taxon Concept Relationship
+### Taxon Concept Relationship
 
 <table style="width:100%;">
 	<thead>
@@ -603,7 +603,7 @@ files.
 	</tbody>
 </table>
 
-#### Taxon Name
+### Taxon Name
 
 <table style="width:100%;">
 	<thead>
@@ -1294,7 +1294,7 @@ files.
 	</tbody>
 </table>
 
-#### Nomenclatural Type
+### Nomenclatural Type
 
 <table style="width:100%;">
 	<thead>

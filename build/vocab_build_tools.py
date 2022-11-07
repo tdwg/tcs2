@@ -88,7 +88,7 @@ def create_index(categories, merged_df):
     Returns:
         string: index of terms in Markdown format
     """
-    text = '\n### Index of terms\n\n'
+    text = '\n## Index of terms\n\n'
 
     if len(categories) > 1:
         text += '**classes**\n\n'
@@ -293,10 +293,10 @@ def create_vocab(categories, merged_df):
     Returns:
         str: vocabulary in HTML format
     """
-    vocab = '### Vocabulary\n\n'
+    vocab = '## Vocabulary\n\n'
     for category in categories:
         if len(categories) > 1:
-            vocab += '#### {label}\n\n'.format(label=category['label'])
+            vocab += '### {label}\n\n'.format(label=category['label'])
             filtered_df = merged_df[merged_df['organizedInClass']
                                     == category['namespace']]
         else:
