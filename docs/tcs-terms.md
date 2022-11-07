@@ -586,7 +586,7 @@ files.
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>required:</b> Yes — <b>repeatable:</b> No</td>
+			<td><b>required:</b> No — <b>repeatable:</b> No</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -594,11 +594,11 @@ files.
 		</tr>
 		<tr>
 			<td>Comments</td>
-			<td><p>This is an IRI term. One should use a value from the TDWG Taxon Concept  Relationship Type Vocabulary. In the case of Taxon Concept Relationships  from traditional synonymy, the <code>relationshipAccordingTo</code> is the same as the  <code>accordingTo</code> of the Taxon Concept that is the <code>subjectTaxonConcept</code>.</p></td>
+			<td><p>This term should be used together with <code>relationshipType</code> (which is required  anyway). Generally, the value of <code>relationshipType</code> will be <code>intersects</code> if  this property is used.</p></td>
 		</tr>
 		<tr>
 			<td>GitHub issue</td>
-			<td>https://github.com/tdwg/tcs2/issues/200</td>
+			<td>https://github.com/tdwg/tcs2/issues/205</td>
 		</tr>
 	</tbody>
 </table>

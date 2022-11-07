@@ -298,16 +298,15 @@
     'pro parte synonym' or 'misapplication'.
   usage: null
   notes: >-
-    This is an IRI term. One should use a value from the TDWG Taxon Concept 
-    Relationship Type Vocabulary. In the case of Taxon Concept Relationships 
-    from traditional synonymy, the `relationshipAccordingTo` is the same as the 
-    `accordingTo` of the Taxon Concept that is the `subjectTaxonConcept`.
+    This term should be used together with `relationshipType` (which is required 
+    anyway). Generally, the value of `relationshipType` will be `intersects` if 
+    this property is used.
   examples: null
   type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonConceptRelationship
   repeatable: No
-  required: Yes
-  github: 200
+  required: No
+  github: 205
 
 
 # class: TaxonName 
