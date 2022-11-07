@@ -23,8 +23,7 @@
 - localName: namePublishedInYear
   label: Name Published In Year
   definition: >-
-    The authorship information for the `scientificName` formatted according to 
-    the conventions of the applicable `nomenclaturalCode`.
+    The four-digit year in which the `scientificName` was published.
   usage: >-
     This is the publication year for the present name combination, not the
     basionym should this be a new combination.
