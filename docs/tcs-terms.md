@@ -17,7 +17,7 @@ files.
 
 **Taxon Concept Relationship**
 
-[tcs:relationshipType](#tcs_relationshipType) | [tcs:subjectTaxonConcept](#tcs_subjectTaxonConcept) | [tcs:objectTaxonConcept](#tcs_objectTaxonConcept) | [tcs:relationshipAccordingTo](#tcs_relationshipAccordingTo) | [tcs:traditionalSynonymyRelationshipType](#tcs_traditionalSynonymyRelationshipType)
+[tcs:relationshipType](#tcs_relationshipType) | [tcs:subjectTaxonConcept](#tcs_subjectTaxonConcept) | [tcs:objectTaxonConcept](#tcs_objectTaxonConcept) | [tcs:relationshipAccordingTo](#tcs_relationshipAccordingTo)
 
 **Taxon Name**
 
@@ -307,7 +307,7 @@ files.
 		</tr>
 		<tr>
 			<td>Comments</td>
-			<td><p>Synonymy is between names but, if the names have different types, a Taxon  Concept is required. Therefore, <code>synonym</code> is a property of the Taxon Concept  class. <code>synonym</code> is used here in the stricter sense that only indicates that  the type of a name falls within a Taxon Concept and has the same  relationship to Taxon Concept as <code>taxonName</code>. This allows one to dispose of  names without having to deal with the Taxon Concepts that were realised  along with the publication of these names. If one wants to include these  “original concepts” and indicate a relationship between Taxon Concepts, the  <code>intersects</code> Taxon Concept Relationship can be used instead, optionally in  combination with the <code>traditionalSynonymyRelationshipType</code> property. The  <code>synonym</code> property can be used for both homotypic and heterotypic synonyms,  although for homotypic synonyms it is preferable to use the <code>basionym</code> or  <code>replacementNameFor</code> properties on the Taxon Name object.</p></td>
+			<td><p>Synonymy is between names but, if the names have different types, a Taxon  Concept is required. Therefore, <code>synonym</code> is a property of the Taxon Concept  class. <code>synonym</code> is used here in the stricter sense that only indicates that  the type of a name falls within a Taxon Concept and has the same  relationship to Taxon Concept as <code>taxonName</code> (the accepted name). This  allows one to dispose of names without having to deal with the Taxon  Concepts that were realised along with the publication of these names. If  one wants to include these “original concepts” and indicate a relationship  between Taxon Concepts, the <code>intersects</code> Taxon Concept Relationship can be  used instead.</p></td>
 		</tr>
 		<tr>
 			<td>GitHub issue</td>
@@ -388,7 +388,7 @@ files.
 		<tr>
 			<td>Comments</td>
 			<td><p>Taxon Concept Relationships are a set of relationships that allow for the  alignment of Taxon Concepts – or taxon concept mapping. The main  relationship types coincide with topological relationships that are widely  used in spatial analysis, analysis of computer networks, artificial  intelligence, etc. In particular, they are the relationships that are used  in RCC-5 Region Connection Calculus, which allows for reasoning.</p>
-<p>An extra controlled term <code>intersects</code> has been added to the Taxon Concept  Relationship Type Vocabulary to accommodate Taxon Concept Relationship  statements between Taxon Concepts of which we know that they have at least  one member in common, but where the more specific topological relationship  is not easily inferred. Also, a property  <code>traditionalSynonymyRelationshipType</code> has been added to refine the  <code>intersects</code> relationship type for terms that are in use in traditional  synonymy and are better dealt with as Taxon Concept Relationships than  nomenclatural relationships.</p>
+<p>An extra controlled term <code>intersects</code> has been added to the Taxon Concept  Relationship Type Vocabulary to accommodate Taxon Concept Relationship  statements between Taxon Concepts of which we know that they have at least  one member in common, but where the more specific topological relationship  is not easily inferred.</p>
 <p>Taxon Concept Relationship statements can be made in the treatment of the  subject Taxon Concept or by third parties.</p></td>
 		</tr>
 		<tr>
@@ -558,47 +558,6 @@ files.
 		<tr>
 			<td>GitHub issue</td>
 			<td>https://github.com/tdwg/tcs2/issues/47</td>
-		</tr>
-	</tbody>
-</table>
-
-<table style="width:100%;">
-	<thead>
-		<tr>
-			<th colspan="2">
-            <a id="tcs_traditionalSynonymyRelationshipType"></a><span style="display:block;float:left;">tcs:traditionalSynonymyRelationshipType</span> 
-            <span style="color:#ffffff;background-color:#617694;display:block;float:right;padding:0 5px;">[property]</span>
-            </th>
-		</tr>
-	</thead>
-	<tbody>
-		<tr>
-			<td>Identifier</td>
-			<td>http://rs.tdwg.org/tcs/terms/traditionalSynonymyRelationshipType</td>
-		</tr>
-		<tr>
-			<td>Type</td>
-			<td>http://www.w3.org/1999/02/22-rdf-syntax-ns#Property</td>
-		</tr>
-		<tr>
-			<td>Label</td>
-			<td>Traditional Synonymy Relationship Type</td>
-		</tr>
-		<tr>
-			<td></td>
-			<td><b>required:</b> No — <b>repeatable:</b> No</td>
-		</tr>
-		<tr>
-			<td>Definition</td>
-			<td><p>Type of relationship that is used in traditional synonymy, e.g. 'pro parte synonym' or 'misapplication'.</p></td>
-		</tr>
-		<tr>
-			<td>Comments</td>
-			<td><p>This term should be used together with <code>relationshipType</code> (which is required  anyway). Generally, the value of <code>relationshipType</code> will be <code>intersects</code> if  this property is used.</p></td>
-		</tr>
-		<tr>
-			<td>GitHub issue</td>
-			<td>https://github.com/tdwg/tcs2/issues/205</td>
 		</tr>
 	</tbody>
 </table>
