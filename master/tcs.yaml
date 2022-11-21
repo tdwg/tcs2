@@ -161,15 +161,12 @@
     Concept is required. Therefore, `synonym` is a property of the Taxon Concept 
     class. `synonym` is used here in the stricter sense that only indicates that 
     the type of a name falls within a Taxon Concept and has the same 
-    relationship to Taxon Concept as `taxonName`. This allows one to dispose of 
-    names without having to deal with the Taxon Concepts that were realised 
-    along with the publication of these names. If one wants to include these 
-    “original concepts” and indicate a relationship between Taxon Concepts, the 
-    `intersects` Taxon Concept Relationship can be used instead, optionally in 
-    combination with the `traditionalSynonymyRelationshipType` property. The 
-    `synonym` property can be used for both homotypic and heterotypic synonyms, 
-    although for homotypic synonyms it is preferable to use the `basionym` or 
-    `replacementNameFor` properties on the Taxon Name object.
+    relationship to Taxon Concept as `taxonName` (the accepted name). This 
+    allows one to dispose of names without having to deal with the Taxon 
+    Concepts that were realised along with the publication of these names. If 
+    one wants to include these “original concepts” and indicate a relationship 
+    between Taxon Concepts, the `intersects` Taxon Concept Relationship can be 
+    used instead.
   examples: null
   type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonConcept
@@ -214,11 +211,7 @@
     Relationship Type Vocabulary to accommodate Taxon Concept Relationship 
     statements between Taxon Concepts of which we know that they have at least 
     one member in common, but where the more specific topological relationship 
-    is not easily inferred. Also, a property 
-    `traditionalSynonymyRelationshipType` has been added to refine the 
-    `intersects` relationship type for terms that are in use in traditional 
-    synonymy and are better dealt with as Taxon Concept Relationships than 
-    nomenclatural relationships.
+    is not easily inferred.
 
 
     Taxon Concept Relationship statements can be made in the treatment of the 
@@ -290,24 +283,6 @@
   repeatable: No
   required: Yes
   github: 47
-
-# property: traditionalSynonymyRelationshipType
-- localName: traditionalSynonymyRelationshipType
-  label: Traditional Synonymy Relationship Type
-  definition: Type of relationship that is used in traditional synonymy, e.g. 
-    'pro parte synonym' or 'misapplication'.
-  usage: null
-  notes: >-
-    This is an IRI term. One should use a value from the TDWG Taxon Concept 
-    Relationship Type Vocabulary. In the case of Taxon Concept Relationships 
-    from traditional synonymy, the `relationshipAccordingTo` is the same as the 
-    `accordingTo` of the Taxon Concept that is the `subjectTaxonConcept`.
-  examples: null
-  type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
-  organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonConceptRelationship
-  repeatable: No
-  required: Yes
-  github: 200
 
 
 # class: TaxonName 
