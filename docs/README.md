@@ -10,4 +10,4 @@ Any changes should be made in the YAML files, not directly in the markdown.
 
 ### Controlled vocabularies
 
-- [Taxon Relationship Type controlled vocabulary](./taxon-relationship-vocabulary.md)
+- [Taxon Concept Relationship Type controlled vocabulary](./taxon-concept-relationship-type-vocabulary.md)
