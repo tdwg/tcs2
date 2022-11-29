@@ -4,7 +4,7 @@
   "TaxonConceptRelationship": "tcs:TaxonConceptRelationship",
   "TaxonName": "tcs:TaxonName",
   "NomenclaturalType": "tcs:NomenclaturalType",
-  "taxonName": { "@id": "tcs:taxonName", "@type": ["@id", "TaxonName"] },
+  "taxonName": { "@id": "tcs:taxonName", "@type": "@id" },
   "accordingTo": { "@id": "tcs:accordingTo", "@type": "@id" },
   "verbatimNameString": { "@id": "tcs:verbatimNameString", "@type": "xsd:String" },
   "taxonomicRank": { "@id": "tcs:taxonomicRank", "@type": "@id" },
