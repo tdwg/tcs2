@@ -45,7 +45,9 @@
       "dcterms": "http://purl.org/dc/terms/",
       "skos": "http://www.w3.org/2004/02/skos/core#",
       "skosxl": "http://www.w3.org/2008/05/skos-xl#",
-      "ex": "https://tdwg.github.io/tcs2/examples/"
+      "ex": "https://tdwg.github.io/tcs2/examples/",
+      "bibo": "http://purl.org/ontology/bibo/",
+      "foaf": "http://xmlns.com/foaf/0.1/"
     }
   ],
   "@id": "ex:1",
@@ -57,6 +59,8 @@
       "skos:prefLabel": "Dicranoloma assimile sec. Klazenga 1999",
       "taxonName": "https://www.tropicos.org/name/35121458",
       "accordingTo": "https://www.tropicos.org/reference/9020903",
+      "dwc:scientificName": "Dicranoloma assimile (Hampe) Renauld",
+      "dwc:nameAccordingTo": "Klazenga, 1999",
       "synonyms": [
         "https://www.tropicos.org/name/35124384",
         "https://www.tropicos.org/name/35121535",
@@ -78,7 +82,7 @@
       "@id": "https://www.tropicos.org/name/35121458",
       "@type": ["TaxonName", "skosxl:Label"],
       "taxonomicNameString": "Dicranoloma assimile",
-      "dwc:scientificName": "Dicranoloma assimile (Hampe) Renauld",
+      "skosxl:literalForm": "Dicranoloma assimile",
       "dwc:scientificNameAuthorship": "(Hampe) Renauld",
       "dwc:namePublishedIn": "Rev. Bryol. 28: 69 (1901)",
       "dwc:namePublishedInYear": "1901",
@@ -87,8 +91,7 @@
     {
       "@id": "https://www.tropicos.org/name/35121913",
       "@type": "TaxonName",
-      "taxonomicNameString": "Dicranolum assimile",
-      "dwc:scientificName": "Dicranum assimile Hampe",
+      "taxonomicNameString": "Dicranum assimile",
       "dwc:scientificNameAuthorship": "Hampe",
       "dwc:namePublishedIn": "Icon. Musc. 24 (1844)",
       "dwc:namePublishedInYear": "1844"
@@ -97,7 +100,6 @@
       "@id": "https://www.tropicos.org/name/35154841",
       "@type": "TaxonName",
       "taxonomicNameString": "Leucoloma assimile",
-      "dwc:scientificName": "Leucoloma assimile (Hampe) Broth.",
       "dwc:scientificNameAuthorship": "(Hampe) Broth.",
       "dwc:namePublishedIn": "Nat. Pflanzenfam. 1,3: 322 (1901)",
       "dwc:namePublishedInYear": "1901",
@@ -107,7 +109,6 @@
       "@id": "https://www.tropicos.org/name/35124384",
       "@type": "TaxonName",
       "taxonomicNameString": "Dicranum sumatranum",
-      "dwc:scientificName": "Dicranum sumatranum Müll.Hal.",
       "dwc:scientificNameAuthorship": "Müll.Hal.",
       "dwc:namePublishedIn": "Genera musc. fr.: 285 (1901)",
       "dwc:namePublishedInYear": "1901"
@@ -116,7 +117,6 @@
       "@id": "https://www.tropicos.org/name/35155131",
       "@type": "TaxonName",
       "taxonomicNameString": "Leucoloma sumatranum",
-      "dwc:scientificName": "Leucoloma sumatranum (Müll.Hal.) Broth.",
       "dwc:scientificNameAuthorship": "(Müll.Hal.) Broth.",
       "dwc:namePublishedIn": "Nat. Pflanzenfam. 1,3: 322 (1901)",
       "dwc:namePublishedInYear": "1901",
@@ -126,7 +126,6 @@
       "@id": "https://www.tropicos.org/name/35121646",
       "@type": "TaxonName",
       "taxonomicNameString": "Dicranoloma sumatranum",
-      "dwc:scientificName": "Dicranoloma sumatranum (Müll.Hal.) Renauld",
       "dwc:scientificNameAuthorship": "(Müll.Hal.) Renauld",
       "dwc:namePublishedIn": "Essai Leucoloma 14 (1909)",
       "dwc:namePublishedInYear": "1901",
@@ -136,7 +135,6 @@
       "@id": "https://www.tropicos.org/name/35121535",
       "@type": "TaxonName",
       "taxonomicNameString": "Dicranoloma gedeanum",
-      "dwc:scientificName": "Dicranoloma gedeanum Renauld & Cardot",
       "dwc:scientificNameAuthorship": "Renauld & Cardot",
       "dwc:namePublishedIn": "Rev. Bryol. 28: 117 (1901)",
       "dwc:namePublishedInYear": "1901"
@@ -145,7 +143,6 @@
       "@id": "https://www.tropicos.org/name/35121587",
       "@type": "TaxonName",
       "taxonomicNameString": "Dicranoloma perarmatum",
-      "dwc:scientificName": "Dicranoloma gedeanum Broth.",
       "dwc:scientificNameAuthorship": "Broth.",
       "dwc:namePublishedIn": "Öfvers. Finska Vetensk.-Soc. Förh. 47(14): 1 (1905)",
       "dwc:namePublishedInYear": "1905"
@@ -154,7 +151,6 @@
       "@id": "https://www.tropicos.org/name/35121523",
       "@type": "TaxonName",
       "taxonomicNameString": "Dicranoloma euryloma",
-      "dwc:scientificName": "Dicranoloma euryloma Dixon",
       "dwc:scientificNameAuthorship": "Dixon",
       "dwc:namePublishedIn": "J. Linn. Soc. Bot. 50: 69 (1935)",
       "dwc:namePublishedInYear": "1935"
@@ -163,7 +159,6 @@
       "@id": "https://www.tropicos.org/name/35121524",
       "@type": "TaxonName",
       "taxonomicNameString": "Dicranoloma euryloma var. rugifolium",
-      "dwc:scientificName": "Dicranoloma euryloma var. rugifolium E.B.Bartram",
       "dwc:scientificNameAuthorship": "E.B.Bartram",
       "dwc:namePublishedIn": "Philipp. J. Sci. 61: 237 (1936)",
       "dwc:namePublishedInYear": "1936"
@@ -172,7 +167,6 @@
       "@id": "https://www.tropicos.org/name/35121480",
       "@type": "TaxonName",
       "taxonomicNameString": "Dicranoloma brachyphyllum",
-      "dwc:scientificName": "Dicranoloma brachyphyllum Nog.",
       "dwc:scientificNameAuthorship": "Nog.",
       "dwc:namePublishedIn": "J. Hattori Bot. Lab. 10: 3 (1953)",
       "dwc:namePublishedInYear": "1953"
@@ -181,7 +175,6 @@
       "@id": "https://www.tropicos.org/name/35168349",
       "@type": "TaxonName",
       "taxonomicNameString": "Dicranoloma havilandii var. latifolium",
-      "dwc:scientificName": "Dicranoloma havilandii var. latifolium Zanten",
       "dwc:scientificNameAuthorship": "Zanten",
       "dwc:namePublishedIn": "Nova Guinea, Bot. 10(16): 272 (1964)",
       "dwc:namePublishedInYear": "1964"
@@ -194,8 +187,8 @@
       "bibo:authorList": [
         {
           "@type": "foaf:Person",
-          "foaf:givenName": "Niels",
-          "foaf:familyName": "Klazenga"
+          "foaf:givenname": "Niels",
+          "foaf:surname": "Klazenga"
         }
       ],
       "dcterms:isPartOf": {
