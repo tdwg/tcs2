@@ -329,13 +329,17 @@
     dwc:namePublishedInYear "1964" .
 
 <https://www.tropicos.org/reference/9020903> a bibo:AcademicArticle ;
-    bibo:authorList [ a ns2:Person ; foaf:givenname "Niels" ; foaf:surname "Klazenga" ] ;
+    dcterms:title "A revision of the Malesian species of Dicranoloma (Dicranaceae, Musci)" ;
+    bibo:authorList [ a foaf:Person ; foaf:givenname "Niels" ; foaf:surname "Klazenga" ] ;
     bibo:pages "1-130" ;
-    dcterms:isPartOf [ a bibo:Issue ;
-            ns1:volume "87" ;
-            dcterms:date "1999" ;
-            dcterms:isPartOf [ a ns1:Journal ;
-                    dcterms:shortTitle "J. Hattori Bot. Lab." ;
-                    dcterms:title "Journal of the Hattori Botanical Laboratory" ] ] ;
-    dcterms:title "A revision of the Malesian species of Dicranoloma (Dicranaceae, Musci)" .
+    dcterms:isPartOf [ 
+        a bibo:Issue ;
+        bibo:volume "87" ;
+        dcterms:date "1999" ;
+        dcterms:isPartOf [ 
+            a ns1:Journal ;
+            dcterms:shortTitle "J. Hattori Bot. Lab." ;
+            dcterms:title "Journal of the Hattori Botanical Laboratory" 
+        ] 
+    ] .
 ```
