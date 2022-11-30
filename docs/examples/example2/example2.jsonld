@@ -39,7 +39,9 @@
       "dwc:infragenericEpithet": { "@type": "xsd:string" },
       "dwc:specificEpithet": { "@type": "xsd:string" },
       "dwc:infraspecificEpithet": { "@type": "xsd:string" },
-      "dwc:cultivarEpithet": { "@type": "xsd:string" }     
+      "dwc:cultivarEpithet": { "@type": "xsd:string" },
+
+      "openbiodiv-o": "http://openbiodiv.net/"
     },
     {
       "dcterms": "http://purl.org/dc/terms/",
@@ -56,7 +58,12 @@
   "@graph": [
     {
       "@id": "ex:2/taxon-concept/1",
-      "@type": ["TaxonConcept", "skos:Concept"],
+      "@type": [
+        "TaxonConcept", 
+        "skos:Concept", 
+        "openbiodiv-o:TaxonomicConcept", 
+        "dwc:Taxon"
+      ],
       "skos:prefLabel": "Mimus polyglottos sec. Sibley 2014",
       "taxonName": {
         "@type": ["TaxonName", "skosxl:Label"],

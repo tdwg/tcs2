@@ -45,7 +45,9 @@
       "dwc:infragenericEpithet": { "@type": "xsd:string" },
       "dwc:specificEpithet": { "@type": "xsd:string" },
       "dwc:infraspecificEpithet": { "@type": "xsd:string" },
-      "dwc:cultivarEpithet": { "@type": "xsd:string" }     
+      "dwc:cultivarEpithet": { "@type": "xsd:string" },
+
+      "openbiodiv-o": "http://openbiodiv.net/"
     },
     {
       "dcterms": "http://purl.org/dc/terms/",
@@ -61,7 +63,12 @@
   "@graph": [
     {
       "@id": "ex:1/taxon-concept/1",
-      "@type": ["TaxonConcept", "skos:Concept"],
+      "@type": [
+        "TaxonConcept", 
+        "skos:Concept", 
+        "openbiodiv-o:TaxonomicConcept", 
+        "dwc:Taxon"
+      ],
       "skos:prefLabel": "Dicranoloma assimile sec. Klazenga 1999",
       "taxonName": "https://www.tropicos.org/name/35121458",
       "accordingTo": "https://www.tropicos.org/reference/9020903",
@@ -220,6 +227,7 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix dwc: <http://rs.tdwg.org/dwc/terms/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix openbiodiv-o": <http://openbiodiv.net/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix skosxl: <http://www.w3.org/2008/05/skos-xl#> .
@@ -228,7 +236,8 @@
 <https://tdwg.github.io/tcs2/examples/1> 
     dcterms:title "Example of a Taxon Concept from a taxonomic revision: Dicranoloma assimile sec. Klazenga 1999" .
 
-<https://tdwg.github.io/tcs2/examples/1/taxon-concept/1> a :TaxonConcept, skos:Concept ;
+<https://tdwg.github.io/tcs2/examples/1/taxon-concept/1> a :TaxonConcept, 
+        skos:Concept, openbiodiv-o:TaxonomicConcept, dwc:Taxon ;
     skos:prefLabel "Dicranoloma assimile sec. Klazenga 1999" ;
     :taxonName <https://www.tropicos.org/name/35121458> ;
     :accordingTo <https://www.tropicos.org/reference/9020903> ;
