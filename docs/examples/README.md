@@ -8,5 +8,5 @@
 
   Example of  Taxon Concept in a field guide.
 
-- [**Example 3:** Example from TCS 1]('/example3')
+- [**Example 3:** Example from TCS 1](./example3)
 
