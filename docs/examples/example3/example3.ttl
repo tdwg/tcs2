@@ -2,6 +2,9 @@
 @prefix bibo: <http://purl.org/ontology/bibo/> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix dwc: <http://rs.tdwg.org/dwc/terms/> .
+@prefix gbif-code: <http://rs.gbif.org/vocabulary/gbif/nomenclatural_code/> .
+@prefix gbif-rank: <http://rs.gbif.org/vocabulary/gbif/rank/> .
+@prefix ipni: <https://www.ipni.org/n/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix tcs-reltype: <http://rs.tdwg.org/tcs-taxon-concept-relationship-type/values/> .
@@ -16,9 +19,9 @@ ex:3 dcterms:title "Example from TCS 1" .
     :typifiedName <https://tdwg.github.io/tcs2/examples/3/taxon-name/1> .
 
 <https://tdwg.github.io/tcs2/examples/3/nomenclatural-type/2> a :NomenclaturalType ;
-    :typeName <https://www.ipni.org/n/333193-1> ;
+    :typeName ipni:333193-1 ;
     :typePublishedIn <https://tdwg.github.io/tcs2/examples/3/publication/2> ;
-    :typifiedName <https://www.ipni.org/n/50985479-1> .
+    :typifiedName ipni:50985479-1 .
 
 <https://tdwg.github.io/tcs2/examples/3/nomenclatural-type/3> a :NomenclaturalType ;
     :typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/lectotype> ;
@@ -28,7 +31,7 @@ ex:3 dcterms:title "Example from TCS 1" .
             dwc:institutionCode "?" ;
             dwc:recordedBy "C. Maximowicz" ;
             dwc:verbatimLocality "[Russia] Manchuria, shores of Possiet Bay, [SW of Vladivostok]" ] ;
-    :typifiedName <https://www.ipni.org/n/333307-1> .
+    :typifiedName ipni:333307-1 .
 
 <https://tdwg.github.io/tcs2/examples/3/nomenclatural-type/4> a :NomenclaturalType ;
     :typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isolectotype> ;
@@ -38,7 +41,7 @@ ex:3 dcterms:title "Example from TCS 1" .
             dwc:institutionCode "LE" ;
             dwc:recordedBy "C. Maximowicz" ;
             dwc:verbatimLocality "[Russia] Manchuria, shores of Possiet Bay, [SW of Vladivostok]" ] ;
-    :typifiedName <https://www.ipni.org/n/333307-1> .
+    :typifiedName ipni:333307-1 .
 
 <https://tdwg.github.io/tcs2/examples/3/nomenclatural-type/5> a :NomenclaturalType ;
     :typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/holotype> ;
@@ -46,7 +49,7 @@ ex:3 dcterms:title "Example from TCS 1" .
             dwc:institutionCode "LE" ;
             dwc:recordedBy "Tashiro" ;
             dwc:verbatimLocality "Japan, Kyushiu, prov. Osumi, summit, Mt Taka-kuma" ] ;
-    :typifiedName <https://www.ipni.org/n/333062-1> .
+    :typifiedName ipni:333062-1 .
 
 <https://tdwg.github.io/tcs2/examples/3/taxon-concept-relationship/1> a :TaxonConceptRelationship ;
     :objectTaxonConcept <https://tdwg.github.io/tcs2/examples/3/taxon-concept/2> ;
@@ -56,32 +59,27 @@ ex:3 dcterms:title "Example from TCS 1" .
 
 <https://tdwg.github.io/tcs2/examples/3/taxon-concept/4> a :TaxonConcept ;
     :accordingTo <https://tdwg.github.io/tcs2/examples/3/publication/4> ;
-    :synonym ( 
-        <https://www.ipni.org/n/332955-1>
-        <https://tdwg.github.io/tcs2/examples/3/taxon-name/9> 
-        <https://www.ipni.org/n/950666-1> 
-        <https://tdwg.github.io/tcs2/examples/3/taxon-name/11> 
-    ) ;
-    :taxonName <https://www.ipni.org/n/333062-1> ;
+    :synonym ( ipni:332955-1 <https://tdwg.github.io/tcs2/examples/3/taxon-name/9> ipni:950666-1 <https://tdwg.github.io/tcs2/examples/3/taxon-name/11> ) ;
+    :taxonName ipni:333062-1 ;
     skos:prefLabel "Rhododendron pentaphyllum sec. Judd & Kron 1995" .
 
 <https://tdwg.github.io/tcs2/examples/3/taxon-name/4> a :TaxonName ;
     dwc:scientificNameAuthorship "(Rehder & Wilson) Copeland"^^xsd:string ;
-    :basionym <https://www.ipni.org/n/50985479-1> ;
-    :nomenclaturalCode <http://rs.gbif.org/vocabulary/gbif/nomenclatural_code/ICN> ;
+    :basionym ipni:50985479-1 ;
+    :nomenclaturalCode gbif-code:ICN ;
     :taxonomicNameString "Azalea subg. Sciadorhodion"^^xsd:String .
 
-<https://www.ipni.org/n/326897-1> a :TaxonName ;
+ipni:326897-1 a :TaxonName ;
     dwc:genericName "Azalea"^^xsd:string ;
     dwc:namePublishedIn "Bull. Acad. Sci. St Petersbourg, ser. 3, 31:65 (1887)"^^xsd:string ;
     dwc:scientificNameAuthorship " (Maxim.) Copeland"^^xsd:string ;
     dwc:specificEpithet "pentaphylla"^^xsd:string ;
-    :basionym <https://www.ipni.org/n/333062-1> ;
-    :nomenclaturalCode <http://rs.gbif.org/vocabulary/gbif/nomenclatural_code/ICN> ;
+    :basionym ipni:333062-1 ;
+    :nomenclaturalCode gbif-code:ICN ;
     :taxonomicNameString "Azalea pentaphylla"^^xsd:String .
 
-<https://www.ipni.org/n/327085-2> a :TaxonName ;
-    :nomenclaturalCode <http://rs.gbif.org/vocabulary/gbif/nomenclatural_code/ICN> ;
+ipni:327085-2 a :TaxonName ;
+    :nomenclaturalCode gbif-code:ICN ;
     :taxonomicNameString "Rhododendron"^^xsd:String .
 
 <https://tdwg.github.io/tcs2/examples/3/publication/1> a bibo:Book ;
@@ -95,18 +93,19 @@ ex:3 dcterms:title "Example from TCS 1" .
 
 <https://tdwg.github.io/tcs2/examples/3/taxon-concept/1> a :TaxonConcept ;
     :accordingTo <https://tdwg.github.io/tcs2/examples/3/publication/4> ;
-    :taxonName <https://www.ipni.org/n/50985479-1> ;
+    :taxonName ipni:50985479-1 ;
+    :taxonomicRank gbif-rank:section ;
     skos:prefLabel "Rhododendron sect. Sciadorhodion sec. Judd & Kron 1995" .
 
 <https://tdwg.github.io/tcs2/examples/3/taxon-concept/2> a :TaxonConcept ;
     :accordingTo <https://tdwg.github.io/tcs2/examples/3/publication/4> ;
     :parent <https://tdwg.github.io/tcs2/examples/3/taxon-concept/1> ;
-    :taxonName <https://www.ipni.org/n/333307-1> ;
+    :taxonName ipni:333307-1 ;
     skos:prefLabel "Rhododendron schlippenbachii sec. Judd & Kron 1995" .
 
 <https://tdwg.github.io/tcs2/examples/3/taxon-concept/3> a :TaxonConcept ;
     :accordingTo <https://tdwg.github.io/tcs2/examples/3/publication/4> ;
-    :taxonName <https://www.ipni.org/n/326933-1> ;
+    :taxonName ipni:326933-1 ;
     skos:prefLabel "Azalea schlippenbachii sec. Kuntze 1891" .
 
 <https://tdwg.github.io/tcs2/examples/3/taxon-name/1> a :TaxonName ;
@@ -116,7 +115,7 @@ ex:3 dcterms:title "Example from TCS 1" .
     dwc:scientificNameAuthorship "(G.Don) Poyarkova"^^xsd:string ;
     :microReference "57"^^xsd:String ;
     :namePublishedIn <https://tdwg.github.io/tcs2/examples/3/publication/1> ;
-    :nomenclaturalCode <http://rs.gbif.org/vocabulary/gbif/nomenclatural_code/ICN> ;
+    :nomenclaturalCode gbif-code:ICN ;
     :taxonomicNameString "Rhododendron subg. Penthantera"^^xsd:String .
 
 <https://tdwg.github.io/tcs2/examples/3/taxon-name/11> a :TaxonName ;
@@ -126,8 +125,9 @@ ex:3 dcterms:title "Example from TCS 1" .
     dwc:scientificNameAuthorship "Rehder"^^xsd:string ;
     dwc:specificEpithet "quinquefolium"^^xsd:string ;
     :basionym <https://tdwg.github.io/tcs2/examples/3/taxon-name/0> ;
-    :nomenclaturalCode <http://rs.gbif.org/vocabulary/gbif/nomenclatural_code/ICN> ;
-    :taxonomicNameString "Rhododendron quinquefolium var. roseum"^^xsd:String .
+    :nomenclaturalCode gbif-code:ICN ;
+    :taxonomicNameString "Rhododendron quinquefolium var. roseum"^^xsd:String ;
+    :taxonomicRank gbif-rank:variety .
 
 <https://tdwg.github.io/tcs2/examples/3/taxon-name/9> a :TaxonName ;
     dwc:genericName "Rhododendron"^^xsd:string ;
@@ -135,101 +135,73 @@ ex:3 dcterms:title "Example from TCS 1" .
     dwc:namePublishedIn "Icon. Pl. Koisikav. 3: 45, t 168 (1916)"^^xsd:string ;
     dwc:scientificNameAuthorship "Komatsu"^^xsd:string ;
     dwc:specificEpithet "pentaphyllum"^^xsd:string ;
-    :nomenclaturalCode <http://rs.gbif.org/vocabulary/gbif/nomenclatural_code/ICN> ;
-    :taxonomicNameString "Rhododendron pentaphyllum var. nikoense"^^xsd:String .
+    :nomenclaturalCode gbif-code:ICN ;
+    :taxonomicNameString "Rhododendron pentaphyllum var. nikoense"^^xsd:String ;
+    :taxonomicRank gbif-rank:variety .
 
-<https://www.ipni.org/n/326933-1> a :TaxonName ;
+ipni:326933-1 a :TaxonName ;
     dwc:namePublishedIn "Revis. Gen.Pl. 2:387 (1891)"^^xsd:string ;
     dwc:scientificNameAuthorship "(Maxim.) Kuntze"^^xsd:string ;
-    :basionym <https://www.ipni.org/n/333307-1> ;
-    :nomenclaturalCode <http://rs.gbif.org/vocabulary/gbif/nomenclatural_code/ICN> ;
+    :basionym ipni:333307-1 ;
+    :nomenclaturalCode gbif-code:ICN ;
     :taxonomicNameString "Azalea schlippenbachii"^^xsd:String .
 
-<https://www.ipni.org/n/332955-1> a :TaxonName ;
+ipni:332955-1 a :TaxonName ;
     dwc:genericName "Rhododendron"^^xsd:string ;
     dwc:namePublishedIn "Nakai &amp; Koidz. Trees and Shrubs Japan 1: 68 (1922)"^^xsd:string ;
     dwc:scientificNameAuthorship "(Komatsu) Nakai"^^xsd:string ;
     dwc:specificEpithet "nikoense"^^xsd:string ;
     :basionym <https://tdwg.github.io/tcs2/examples/3/taxon-name/0> ;
-    :nomenclaturalCode <http://rs.gbif.org/vocabulary/gbif/nomenclatural_code/ICN> ;
-    :taxonomicNameString "Rhododendron nikoense"^^xsd:String .
+    :nomenclaturalCode gbif-code:ICN ;
+    :taxonomicNameString "Rhododendron nikoense"^^xsd:String ;
+    :taxonomicRank gbif-rank:species .
 
-<https://www.ipni.org/n/333193-1> a :TaxonName ;
+ipni:333193-1 a :TaxonName ;
     dwc:scientificNameAuthorship "Bisset & Moore"^^xsd:string ;
-    :nomenclaturalCode <http://rs.gbif.org/vocabulary/gbif/nomenclatural_code/ICN> ;
+    :nomenclaturalCode gbif-code:ICN ;
     :taxonomicNameString "Rhododendron quinquefolium"^^xsd:String .
 
-<https://www.ipni.org/n/950666-1> a :TaxonName ;
+ipni:950666-1 a :TaxonName ;
     dwc:genericName "Rhododendron"^^xsd:string ;
     dwc:infraspecificEpithet "shikokianum"^^xsd:string ;
     dwc:namePublishedIn "Jap. Bot. 63: 312 (1988)"^^xsd:string ;
     dwc:scientificNameAuthorship "T. Yamazaki"^^xsd:string ;
     dwc:specificEpithet "pentaphyllum"^^xsd:string ;
-    :nomenclaturalCode <http://rs.gbif.org/vocabulary/gbif/nomenclatural_code/ICN> ;
-    :taxonomicNameString "Rhododendron pentaphyllum var. shikokianum"^^xsd:String .
+    :nomenclaturalCode gbif-code:ICN ;
+    :taxonomicNameString "Rhododendron pentaphyllum var. shikokianum"^^xsd:String ;
+    :taxonomicRank gbif-rank:variety .
 
 <https://tdwg.github.io/tcs2/examples/3/publication/2> a bibo:Article ;
     dcterms:bibliographicCitation "Copeland, H.F. (1943). A study, anatomical and taxonomic, of the genera of Rhododendroideae. Am. Midl.Nat. 30:533-625" .
 
-<https://www.ipni.org/n/333062-1> a :TaxonName ;
+ipni:333062-1 a :TaxonName ;
     dwc:genericName "Rhododendron"^^xsd:string ;
     dwc:namePublishedIn "Bull. Acad. Sci. St Petersbourg, ser. 3, 31:65 (1887)"^^xsd:string ;
     dwc:scientificNameAuthorship "Maxim."^^xsd:string ;
     dwc:specificEpithet "pentaphyllum"^^xsd:string ;
-    :nomenclaturalCode <http://rs.gbif.org/vocabulary/gbif/nomenclatural_code/ICN> ;
+    :nomenclaturalCode gbif-code:ICN ;
     :taxonomicNameString "Rhododendron pentaphyllum"^^xsd:String .
 
-<https://www.ipni.org/n/50985479-1> a :TaxonName ;
+ipni:50985479-1 a :TaxonName ;
     dwc:genericName "Rhododendron"^^xsd:string ;
     dwc:infragenericName "Sciadorhodion" ;
     dwc:namePublishedIn "Monogr. Azaleas 79 (1921)"^^xsd:string ;
     dwc:scientificNameAuthorship "Rehder & Wilson"^^xsd:string ;
     :microReference "79"^^xsd:String ;
     :namePublishedIn <https://tdwg.github.io/tcs2/examples/3/publication/3> ;
-    :nomenclaturalCode <http://rs.gbif.org/vocabulary/gbif/nomenclatural_code/ICN> ;
+    :nomenclaturalCode gbif-code:ICN ;
     :taxonomicNameString "Rhododendron sect. Sciadorhodion"^^xsd:String .
 
-<https://www.ipni.org/n/333307-1> a :TaxonName ;
+ipni:333307-1 a :TaxonName ;
     dwc:genericName "Rhododendron"^^xsd:string ;
     dwc:namePublishedIn "Bull. Acad. Sci. St Petersbourg, ser. 3 15 (1870)"^^xsd:string ;
     dwc:scientificNameAuthorship "Maxim."^^xsd:string ;
     dwc:specificEpithet "schlippenbachii"^^xsd:string ;
     :microReference "57"^^xsd:String ;
     :namePublishedIn <https://tdwg.github.io/tcs2/examples/3/publication/5> ;
-    :nomenclaturalCode <http://rs.gbif.org/vocabulary/gbif/nomenclatural_code/ICN> ;
+    :nomenclaturalCode gbif-code:ICN ;
     :taxonomicNameString "Rhododendron schlippenbachii"^^xsd:String ;
-    :taxonomicRank <http://rs.gbif.org/vocabulary/gbif/rank/species> .
+    :taxonomicRank gbif-rank:species .
 
 <https://tdwg.github.io/tcs2/examples/3/publication/4> a bibo:Article ;
     dcterms:bibliographicCitation "Judd, W.S. & Kron, K.A. (1995) A Revision of Rhododendron VI Edinb. J. Bot. 52(1): 1-54" .
-
-[] :data <https://tdwg.github.io/tcs2/examples/3/nomenclatural-type/1>,
-        <https://tdwg.github.io/tcs2/examples/3/nomenclatural-type/2>,
-        <https://tdwg.github.io/tcs2/examples/3/nomenclatural-type/3>,
-        <https://tdwg.github.io/tcs2/examples/3/nomenclatural-type/4>,
-        <https://tdwg.github.io/tcs2/examples/3/nomenclatural-type/5>,
-        <https://tdwg.github.io/tcs2/examples/3/publication/1>,
-        <https://tdwg.github.io/tcs2/examples/3/publication/2>,
-        <https://tdwg.github.io/tcs2/examples/3/publication/3>,
-        <https://tdwg.github.io/tcs2/examples/3/publication/4>,
-        <https://tdwg.github.io/tcs2/examples/3/publication/5>,
-        <https://tdwg.github.io/tcs2/examples/3/taxon-concept-relationship/1>,
-        <https://tdwg.github.io/tcs2/examples/3/taxon-concept/1>,
-        <https://tdwg.github.io/tcs2/examples/3/taxon-concept/2>,
-        <https://tdwg.github.io/tcs2/examples/3/taxon-concept/3>,
-        <https://tdwg.github.io/tcs2/examples/3/taxon-concept/4>,
-        <https://tdwg.github.io/tcs2/examples/3/taxon-name/1>,
-        <https://tdwg.github.io/tcs2/examples/3/taxon-name/11>,
-        <https://tdwg.github.io/tcs2/examples/3/taxon-name/4>,
-        <https://tdwg.github.io/tcs2/examples/3/taxon-name/9>,
-        <https://www.ipni.org/n/326897-1>,
-        <https://www.ipni.org/n/326933-1>,
-        <https://www.ipni.org/n/327085-2>,
-        <https://www.ipni.org/n/332955-1>,
-        <https://www.ipni.org/n/333062-1>,
-        <https://www.ipni.org/n/333193-1>,
-        <https://www.ipni.org/n/333307-1>,
-        <https://www.ipni.org/n/50985479-1>,
-        <https://www.ipni.org/n/950666-1> .
-
-

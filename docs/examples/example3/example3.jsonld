@@ -43,7 +43,11 @@
       "dwc:infraspecificEpithet": { "@type": "xsd:string" },
       "dwc:cultivarEpithet": { "@type": "xsd:string" },
 
-      "openbiodiv-o": "http://openbiodiv.net/"
+      "openbiodiv-o": "http://openbiodiv.net/",
+
+      "gbif-rank": "http://rs.gbif.org/vocabulary/gbif/rank/",
+      "gbif-code": "http://rs.gbif.org/vocabulary/gbif/nomenclatural_code/",
+      "ipni": "https://www.ipni.org/n/"
     },
     {
       "dcterms": "http://purl.org/dc/terms/",
@@ -62,14 +66,15 @@
       "@id": "ex:3/taxon-concept/1",
       "@type": "TaxonConcept",
       "skos:prefLabel": "Rhododendron sect. Sciadorhodion sec. Judd & Kron 1995",
-      "taxonName": "https://www.ipni.org/n/50985479-1",
-      "accordingTo": "ex:3/publication/4"
+      "taxonName": "ipni:50985479-1",
+      "accordingTo": "ex:3/publication/4",
+      "taxonomicRank": "gbif-rank:section"
     },
     {
       "@id": "ex:3/taxon-concept/2",
       "@type": "TaxonConcept",
       "skos:prefLabel": "Rhododendron schlippenbachii sec. Judd & Kron 1995",
-      "taxonName": "https://www.ipni.org/n/333307-1",
+      "taxonName": "ipni:333307-1",
       "accordingTo": "ex:3/publication/4",
       "parent": "ex:3/taxon-concept/1"
     },
@@ -77,20 +82,20 @@
       "@id": "ex:3/taxon-concept/3",
       "@type": "TaxonConcept",
       "skos:prefLabel": "Azalea schlippenbachii sec. Kuntze 1891",
-      "taxonName": "https://www.ipni.org/n/326933-1",
+      "taxonName": "ipni:326933-1",
       "accordingTo": "ex:3/publication/4"
     },
     {
       "@id": "ex:3/taxon-concept/4",
       "@type": "TaxonConcept",
       "skos:prefLabel": "Rhododendron pentaphyllum sec. Judd & Kron 1995",
-      "taxonName": "https://www.ipni.org/n/333062-1",
+      "taxonName": "ipni:333062-1",
       "accordingTo": "ex:3/publication/4",
       "synonyms": {
         "@list": [
-          "https://www.ipni.org/n/332955-1",
+          "ipni:332955-1",
           "ex:3/taxon-name/9",
-          "https://www.ipni.org/n/950666-1",
+          "ipni:950666-1",
           "ex:3/taxon-name/11"
         ]
       }
@@ -104,27 +109,27 @@
       "relationshipAccordingTo": "ex:3/publication/4"
     },
     {
-      "@id": "https://www.ipni.org/n/327085-2",
+      "@id": "ipni:327085-2",
       "@type": "TaxonName",
-      "nomenclaturalCode": "http://rs.gbif.org/vocabulary/gbif/nomenclatural_code/ICN",
+      "nomenclaturalCode": "gbif-code:ICN",
       "taxonomicNameString": "Rhododendron"
     },
     {
       "@id": "ex:3/taxon-name/1",
       "@type": "TaxonName",
-      "nomenclaturalCode": "http://rs.gbif.org/vocabulary/gbif/nomenclatural_code/ICN",
+      "nomenclaturalCode": "gbif-code:ICN",
       "taxonomicNameString": "Rhododendron subg. Penthantera",
       "dwc:scientificNameAuthorship": "(G.Don) Poyarkova",
       "dwc:genericName": "Rhododendron",
       "dwc:infragenericEpithet": "Penthantera",
       "dwc:namePublishedIn": "Fl. SSR Vol. 18: 57 (1952)",
       "namePublishedIn": "ex:3/publication/1",
-      "microReference": "57" 
+      "microReference": "57"
     },
     {
-      "@id": "https://www.ipni.org/n/50985479-1",
+      "@id": "ipni:50985479-1",
       "@type": "TaxonName",
-      "nomenclaturalCode": "http://rs.gbif.org/vocabulary/gbif/nomenclatural_code/ICN",
+      "nomenclaturalCode": "gbif-code:ICN",
       "taxonomicNameString": "Rhododendron sect. Sciadorhodion",
       "dwc:scientificNameAuthorship": "Rehder & Wilson",
       "dwc:genericName": "Rhododendron",
@@ -134,27 +139,27 @@
       "microReference": "79"
     },
     {
-      "@id": "https://www.ipni.org/n/333193-1",
+      "@id": "ipni:333193-1",
       "@type": "TaxonName",
-      "nomenclaturalCode": "http://rs.gbif.org/vocabulary/gbif/nomenclatural_code/ICN",
+      "nomenclaturalCode": "gbif-code:ICN",
       "taxonomicNameString": "Rhododendron quinquefolium",
       "dwc:scientificNameAuthorship": "Bisset & Moore"
     },
     {
       "@id": "ex:3/taxon-name/4",
       "@type": "TaxonName",
-      "nomenclaturalCode": "http://rs.gbif.org/vocabulary/gbif/nomenclatural_code/ICN",
+      "nomenclaturalCode": "gbif-code:ICN",
       "taxonomicNameString": "Azalea subg. Sciadorhodion",
       "dwc:scientificNameAuthorship": "(Rehder & Wilson) Copeland",
-      "basionym": "https://www.ipni.org/n/50985479-1"
+      "basionym": "ipni:50985479-1"
     },
     {
-      "@id": "https://www.ipni.org/n/333307-1",
+      "@id": "ipni:333307-1",
       "@type": "TaxonName",
-      "nomenclaturalCode": "http://rs.gbif.org/vocabulary/gbif/nomenclatural_code/ICN",
+      "nomenclaturalCode": "gbif-code:ICN",
       "taxonomicNameString": "Rhododendron schlippenbachii",
       "dwc:scientificNameAuthorship": "Maxim.",
-      "taxonomicRank": "http://rs.gbif.org/vocabulary/gbif/rank/species",
+      "taxonomicRank": "gbif-rank:species",
       "dwc:genericName": "Rhododendron",
       "dwc:specificEpithet": "schlippenbachii",
       "namePublishedIn": "ex:3/publication/5",
@@ -162,18 +167,18 @@
       "microReference": "57"
     },
     {
-      "@id": "https://www.ipni.org/n/326933-1",
+      "@id": "ipni:326933-1",
       "@type": "TaxonName",
-      "nomenclaturalCode": "http://rs.gbif.org/vocabulary/gbif/nomenclatural_code/ICN",
+      "nomenclaturalCode": "gbif-code:ICN",
       "taxonomicNameString": "Azalea schlippenbachii",
       "dwc:scientificNameAuthorship": "(Maxim.) Kuntze",
       "dwc:namePublishedIn": "Revis. Gen.Pl. 2:387 (1891)",
-      "basionym": "https://www.ipni.org/n/333307-1"
+      "basionym": "ipni:333307-1"
     },
     {
-      "@id": "https://www.ipni.org/n/333062-1",
+      "@id": "ipni:333062-1",
       "@type": "TaxonName",
-      "nomenclaturalCode": "http://rs.gbif.org/vocabulary/gbif/nomenclatural_code/ICN",
+      "nomenclaturalCode": "gbif-code:ICN",
       "taxonomicNameString": "Rhododendron pentaphyllum",
       "dwc:scientificNameAuthorship": "Maxim.",
       "dwc:genericName": "Rhododendron",
@@ -181,33 +186,35 @@
       "dwc:namePublishedIn": "Bull. Acad. Sci. St Petersbourg, ser. 3, 31:65 (1887)"
     },
     {
-      "@id": "https://www.ipni.org/n/326897-1",
+      "@id": "ipni:326897-1",
       "@type": "TaxonName",
-      "nomenclaturalCode": "http://rs.gbif.org/vocabulary/gbif/nomenclatural_code/ICN",
+      "nomenclaturalCode": "gbif-code:ICN",
       "taxonomicNameString": "Azalea pentaphylla",
       "dwc:scientificNameAuthorship": " (Maxim.) Copeland",
       "dwc:genericName": "Azalea",
       "dwc:specificEpithet": "pentaphylla",
       "dwc:namePublishedIn": "Bull. Acad. Sci. St Petersbourg, ser. 3, 31:65 (1887)",
-      "basionym": "https://www.ipni.org/n/333062-1"
+      "basionym": "ipni:333062-1"
     },
     {
       "@id": "ex:3/taxon-name/9",
       "@type": "TaxonName",
-      "nomenclaturalCode": "http://rs.gbif.org/vocabulary/gbif/nomenclatural_code/ICN",
+      "nomenclaturalCode": "gbif-code:ICN",
       "taxonomicNameString": "Rhododendron pentaphyllum var. nikoense",
       "dwc:scientificNameAuthorship": "Komatsu",
+      "taxonomicRank": "gbif-rank:variety",
       "dwc:genericName": "Rhododendron",
       "dwc:specificEpithet": "pentaphyllum",
       "dwc:infraspecificEpithet": "nikoense",
       "dwc:namePublishedIn": "Icon. Pl. Koisikav. 3: 45, t 168 (1916)"
     },
     {
-      "@id": "https://www.ipni.org/n/332955-1",
+      "@id": "ipni:332955-1",
       "@type": "TaxonName",
-      "nomenclaturalCode": "http://rs.gbif.org/vocabulary/gbif/nomenclatural_code/ICN",
+      "nomenclaturalCode": "gbif-code:ICN",
       "taxonomicNameString": "Rhododendron nikoense",
       "dwc:scientificNameAuthorship": "(Komatsu) Nakai",
+      "taxonomicRank": "gbif-rank:species",
       "dwc:genericName": "Rhododendron",
       "dwc:specificEpithet": "nikoense",
       "dwc:namePublishedIn": "Nakai &amp; Koidz. Trees and Shrubs Japan 1: 68 (1922)",
@@ -216,9 +223,10 @@
     {
       "@id": "ex:3/taxon-name/11",
       "@type": "TaxonName",
-      "nomenclaturalCode": "http://rs.gbif.org/vocabulary/gbif/nomenclatural_code/ICN",
+      "nomenclaturalCode": "gbif-code:ICN",
       "taxonomicNameString": "Rhododendron quinquefolium var. roseum",
       "dwc:scientificNameAuthorship": "Rehder",
+      "taxonomicRank": "gbif-rank:variety",
       "dwc:genericName": "Rhododendron",
       "dwc:specificEpithet": "quinquefolium",
       "dwc:infraspecificEpithet": "roseum",
@@ -226,11 +234,12 @@
       "basionym": "ex:3/taxon-name/0"
     },
     {
-      "@id": "https://www.ipni.org/n/950666-1",
+      "@id": "ipni:950666-1",
       "@type": "TaxonName",
-      "nomenclaturalCode": "http://rs.gbif.org/vocabulary/gbif/nomenclatural_code/ICN",
+      "nomenclaturalCode": "gbif-code:ICN",
       "taxonomicNameString": "Rhododendron pentaphyllum var. shikokianum",
       "dwc:scientificNameAuthorship": "T. Yamazaki",
+      "taxonomicRank": "gbif-rank:variety",
       "dwc:genericName": "Rhododendron",
       "dwc:specificEpithet": "pentaphyllum",
       "dwc:infraspecificEpithet": "shikokianum",
@@ -249,14 +258,14 @@
     {
       "@id": "ex:3/nomenclatural-type/2",
       "@type": "NomenclaturalType",
-      "typifiedName": "https://www.ipni.org/n/50985479-1",
-      "typeName": "https://www.ipni.org/n/333193-1",
+      "typifiedName": "ipni:50985479-1",
+      "typeName": "ipni:333193-1",
       "typePublishedIn": "ex:3/publication/2"
     },
     {
       "@id": "ex:3/nomenclatural-type/3",
       "@type": "NomenclaturalType",
-      "typifiedName": "https://www.ipni.org/n/333307-1",
+      "typifiedName": "ipni:333307-1",
       "typeOfType": "http://rs.gbif.org/vocabulary/gbif/type_status/lectotype",
       "typeSpecimen": {
         "@type": "dwc:PreservedSpecimen",
@@ -270,7 +279,7 @@
     {
       "@id": "ex:3/nomenclatural-type/4",
       "@type": "NomenclaturalType",
-      "typifiedName": "https://www.ipni.org/n/333307-1",
+      "typifiedName": "ipni:333307-1",
       "typeOfType": "http://rs.gbif.org/vocabulary/gbif/type_status/isolectotype",
       "typeSpecimen": {
         "@type": "dwc:PreservedSpecimen",
@@ -284,7 +293,7 @@
     {
       "@id": "ex:3/nomenclatural-type/5",
       "@type": "NomenclaturalType",
-      "typifiedName": "https://www.ipni.org/n/333062-1",
+      "typifiedName": "ipni:333062-1",
       "typeOfType": "http://rs.gbif.org/vocabulary/gbif/type_status/holotype",
       "typeSpecimen": {
         "@type": "dwc:PreservedSpecimen",
