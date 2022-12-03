@@ -10,6 +10,17 @@
 | ex_tc:107   | Rhododendron albrechtii sec. Judd & Kron 1995          | ipni:331902-1   | ex_ref:3.4  |
 ```
 
+### TCS Synonyms
+
+```
+| taxonConcept | taxonName     |
+|--------------|---------------|
+| ex_tc:3.101  | ipni:950178-1 |
+| ex_tc:3.4    | ex_tn:3.9     |
+| ex_tc:3.4    | ex_tn:3.11    |
+| ex_tc:3.4    | ipni:950666-1 |
+```
+
 ### TCS Taxon names
 
 ```
@@ -29,17 +40,6 @@
 | ex_tn:3.11      | Rhododendron quinquefolium var. roseum     | Rehder                            | Bailey, Stand. Cycl. Hort. 5: 2947 (1916)               |                 |
 | ipni:950666-1   | Rhododendron pentaphyllum var. shikokianum | T.Yamazaki                        | Jap. Bot. 63: 312 (1988)                                |                 |
 | ipni:331902-1   | Rhododendron albrechtii                    | Maxim.                            | Bull. Acad. Sci. St Pétersbourg, sér. 3, 15: 227 (1870) |                 |
-```
-
-### TCS Synonyms
-
-```
-| taxonConcept | taxonName     |
-|--------------|---------------|
-| ex_tc:3.101  | ipni:950178-1 |
-| ex_tc:3.4    | ex_tn:3.9     |
-| ex_tc:3.4    | ex_tn:3.11    |
-| ex_tc:3.4    | ipni:950666-1 |
 ```
 
 ### Accepted names and synonyms combined
