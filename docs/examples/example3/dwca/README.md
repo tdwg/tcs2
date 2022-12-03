@@ -64,7 +64,7 @@
 
 ```
 | taxonID | taxonConceptID | taxonomicStatus    | scientificNameID | scientificName                                        | scientificNameAuthorship          | nameAccordingToID | nameAccordingTo  | namePublishedIn                                              | originalNameUsageID |
-| --------|----------------|--------------------|------------------|-------------------------------------------------------|-----------------------------------|-------------------|------------------|--------------------------------------------------------------|---------------------|
+|---------|----------------|--------------------|------------------|-------------------------------------------------------|-----------------------------------|-------------------|------------------|--------------------------------------------------------------|---------------------|
 | 1       | ex_tc:3.1      | accepted           | ipni:50985479-1  | Rhododendron sect. Sciadorhodion Rehder & Wilson      | Rehder & Wilson                   | ex_ref:3.4        | Judd & Kron 1995 | Monogr. Azaleas 79 (1921)                                    |                     |
 | 2       | ex_tc:3.1      | homotypicSynonym   | ex_tn:3.4        | Azalea subg. Sciadorhodion (Rehder & Wilson) Copeland | (Rehder & Wilson) Copeland        | ex_ref:3.4        | Judd & Kron 1995 | Am. Midl. Nat. 3o: 597 (1943)                                | ipni:50985479-1     |
 | 3       | ex_tc:3.2      | accepted           | ipni:333307-1    | Rhododendron schlippenbachii Maxim.                   | Maxim.                            | ex_ref:3.4        | Judd & Kron 1995 | Bull. Acad. Sci. St Pétersbourg, ser. 3 15 (1870)            |                     |
