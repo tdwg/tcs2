@@ -52,7 +52,7 @@ ex_tc:3.4 | ipni:950666-1 | synonym
 ex_tc:107 | ipni:331902-1 | accepted
 
 
-### Darwin Core Taxon core
+### Darwin Core Archive Taxon core
 
 (everything in a single table)
 
