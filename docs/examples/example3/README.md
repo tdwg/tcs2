@@ -41,27 +41,27 @@ in TCS 2 becomes:
 ```json
 [
   {
-    "@id": "ex:3/taxon-concept/3",
+    "@id": "ex_tc:3.3",
     "@type": "TaxonConcept",
     "skos:prefLabel": "Azalea schlippenbachii sec. Kuntze 1891",
     "taxonName": "ipni:326933-1",
-    "accordingTo": "ex:3/publication/4"
+    "accordingTo": "ex_ref:3.4"
   },
   {
-    "@id": "ex:3/taxon-concept/2",
+    "@id": "ex_tc:3.2",
     "@type": "TaxonConcept",
     "skos:prefLabel": "Rhododendron schlippenbachii sec. Judd & Kron 1995",
     "taxonName": "ipni:333307-1",
-    "accordingTo": "ex:3/publication/4",
-    "parent": "ex:3/taxon-concept/1"
+    "accordingTo": "ex_ref:3.4",
+    "parent": "ex_tc:3.1"
   },
   {
-    "@id": "ex:3/taxon-concept-relationship/1",
+    "@id": "ex_tr:3.1",
     "@type": "TaxonConceptRelationship",
     "relationshipType": "tcs-reltype:rt001",
-    "subjectTaxonConcept": "ex:3/taxon-concept/3",
-    "objectTaxonConcept": "ex:3/taxon-concept/2",
-    "relationshipAccordingTo": "ex:3/publication/4"
+    "subjectTaxonConcept": "ex_tc:3.3",
+    "objectTaxonConcept": "ex_tc:3.2",
+    "relationshipAccordingTo": "ex_ref:3.4"
   }
 ]
 ```
@@ -114,20 +114,20 @@ In TCS 2 becomes:
 ```json
 [
   {
-    "@id": "ex:3/taxon-concept/1",
+    "@id": "ex_tc:3.1",
     "@type": "TaxonConcept",
     "skos:prefLabel": "Rhododendron sect. Sciadorhodion sec. Judd & Kron 1995",
     "taxonName": "ipni:50985479-1",
-    "accordingTo": "ex:3/publication/4",
+    "accordingTo": "ex_ref:3.4",
     "taxonomicRank": "gbif-rank:section"
   },
   {
-    "@id": "ex:3/taxon-concept/2",
+    "@id": "ex_tc:3.2",
     "@type": "TaxonConcept",
     "skos:prefLabel": "Rhododendron schlippenbachii sec. Judd & Kron 1995",
     "taxonName": "ipni:333307-1",
-    "accordingTo": "ex:3/publication/4",
-    "parent": "ex:3/taxon-concept/1"
+    "accordingTo": "ex_ref:3.4",
+    "parent": "ex_tc:3.1"
   }
 ]
 ```
@@ -201,7 +201,7 @@ TCS 2:
 ```json
 [
   {
-    "@id": "ex:3/taxon-name/9",
+    "@id": "ex_tn:3.9",
     "@type": "TaxonName",
     "nomenclaturalCode": "gbif-code:ICN",
     "taxonomicNameString": "Rhododendron pentaphyllum var. nikoense",
@@ -222,7 +222,7 @@ TCS 2:
     "dwc:genericName": "Rhododendron",
     "dwc:specificEpithet": "nikoense",
     "dwc:namePublishedIn": "Nakai &amp; Koidz. Trees and Shrubs Japan 1: 68 (1922)",
-    "basionym": "ex:3/taxon-name/0"
+    "basionym": "ex_tn:3.0"
   }
 ]
 ```
@@ -284,17 +284,17 @@ in TCS 2 becomes:
 
 ```json
 {
-  "@id": "ex:3/taxon-concept/4",
+  "@id": "ex_tc:3.4",
   "@type": "TaxonConcept",
   "skos:prefLabel": "Rhododendron pentaphyllum sec. Judd & Kron 1995",
   "taxonName": "ipni:333062-1",
-  "accordingTo": "ex:3/publication/4",
+  "accordingTo": "ex_ref:3.4",
   "synonyms": {
     "@list": [
       "ipni:332955-1",
-      "ex:3/taxon-name/9",
+      "ex_tn:3.9",
       "ipni:950666-1",
-      "ex:3/taxon-name/11"
+      "ex_tn:3.11"
     ]
   }
 }
