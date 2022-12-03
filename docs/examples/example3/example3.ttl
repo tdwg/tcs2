@@ -61,6 +61,7 @@ ex_tn:3.4 a :TaxonName ;
     :nomenclaturalCode gbif-code:ICN ;
     :taxonomicNameString "Azalea subg. Sciadorhodion"^^xsd:String ;
     dwc:scientificNameAuthorship "(Rehder & Wilson) Copeland"^^xsd:string ;
+    dwc:namePublishedIn: "Am. Midl. Nat. 3o: 597 (1943)"^^xsd:string ;
     :basionym ipni:50985479-1 .
 
 ex_nt:3.2 a :NomenclaturalType ;
@@ -134,7 +135,7 @@ ex_tr:3.1 a :TaxonConceptRelationship ;
     :subjectTaxonConcept ex_tc:3.3 ;
     :objectTaxonConcept ex_tc:3.2 .
 
-<ex:3/taxon-concept/101> a :TaxonConcept ;
+<ex_tc:3.101> a :TaxonConcept ;
     skos:prefLabel "Rhododendron quinquefolium sec. Judd & Kron 1995" .
     :taxonName ipni:333193-1 ;
     :accordingTo ex_ref:3.4 ;
@@ -147,7 +148,7 @@ ipni:333193-1 a :TaxonName ;
     dwc:namePublishedIn "J. Bot. 15: 292 (1877)"^^xsd:string ;
     dwc:scientificNameAuthorship "Bisset & S.Moore"^^xsd:string .
 
-ex_tn:3.101> a :TaxonName ;
+ex_tn:3.101 a :TaxonName ;
     :nomenclaturalCode gbif-code:ICN ;
     :taxonomicNameString "Azalea quinquefolia"^^xsd:String ;
     dwc:scientificNameAuthorship "(Bisset & S.Moore) Olmsted et al."^^xsd:string ;
@@ -196,8 +197,10 @@ ipni:333062-1 a :TaxonName ;
 ipni:326897-1 a :TaxonName ;
     :nomenclaturalCode gbif-code:ICN ;
     :taxonomicNameString "Azalea pentaphylla"^^xsd:String ;
-    dwc:scientificNameAuthorship " (Maxim.) Copeland"^^xsd:string ;
+    dwc:scientificNameAuthorship "(Maxim.) Copeland"^^xsd:string ;
     :namePublishedIn ex_ref:3.2 ;
+    :microReference: "595" ;
+    dwc:namePublishedInYear: "1943" ;
     :basionym ipni:333062-1 ;
     dwc:genericName "Azalea"^^xsd:string ;
     dwc:specificEpithet "pentaphylla"^^xsd:string .
@@ -227,7 +230,7 @@ ipni:332955-1 a :TaxonName ;
     :nomenclaturalCode gbif-code:ICN ;
     :taxonomicNameString "Rhododendron nikoense"^^xsd:String ;
     dwc:scientificNameAuthorship "(Komatsu) Nakai"^^xsd:string ;
-    dwc:namePublishedIn "Nakai &amp; Koidz. Trees and Shrubs Japan 1: 68 (1922)"^^xsd:string ;
+    dwc:namePublishedIn "Nakai & Koidz. Trees and Shrubs Japan 1: 68 (1922)"^^xsd:string ;
     :basionym ex_tn:3.0 ;
     dwc:genericName "Rhododendron"^^xsd:string ;
     dwc:specificEpithet "nikoense"^^xsd:string ;
@@ -250,7 +253,7 @@ ex_tn:3.11 a :TaxonName ;
 ipni:950666-1 a :TaxonName ;
     :nomenclaturalCode gbif-code:ICN ;
     :taxonomicNameString "Rhododendron pentaphyllum var. shikokianum"^^xsd:String ;
-    dwc:scientificNameAuthorship "T. Yamazaki"^^xsd:string ;
+    dwc:scientificNameAuthorship "T.Yamazaki"^^xsd:string ;
     dwc:namePublishedIn "Jap. Bot. 63: 312 (1988)"^^xsd:string ;
     dwc:genericName "Rhododendron"^^xsd:string ;
     dwc:infraspecificEpithet "shikokianum"^^xsd:string ;

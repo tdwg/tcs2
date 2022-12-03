@@ -130,6 +130,7 @@
       "nomenclaturalCode": "gbif-code:ICN",
       "taxonomicNameString": "Azalea subg. Sciadorhodion",
       "dwc:scientificNameAuthorship": "(Rehder & Wilson) Copeland",
+      "dwc:namePublishedIn": "Am. Midl. Nat. 3o: 597 (1943)",
       "basionym": "ipni:50985479-1"
     },
     {
