@@ -40,6 +40,24 @@
     "dwc:infraspecificEpithet": { "@type": "xsd:string" },
     "dwc:cultivarEpithet": { "@type": "xsd:string" },
     
-    "openbiodiv-o": "http://openbiodiv.net/"
+    "openbiodiv-o": "http://openbiodiv.net/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "skosxl": "http://www.w3.org/2008/05/skos-xl#",
+    "ex": "https://tdwg.github.io/tcs2/examples/",
+    "bibo": "http://purl.org/ontology/bibo/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "address": "http://schemas.talis.com/2005/address/schema#",
+
+    "gbif-rank": "http://rs.gbif.org/vocabulary/gbif/rank/",
+    "gbif-code": "http://rs.gbif.org/vocabulary/gbif/nomenclatural_code/",
+    "gbif-typestatus": "gbif-typestatus:",
+    "ipni": "https://www.ipni.org/n/",
+
+    "ex_ref": "https://tdwg.github.io/tcs2/examples/publication/",
+    "ex_tc": "https://tdwg.github.io/tcs2/examples/taxon-concept/",
+    "ex_tr": "https://tdwg.github.io/tcs2/examples/taxon-concept-relationship/",
+    "ex_tn": "https://tdwg.github.io/tcs2/examples/taxon-name/",
+    "ex_nt": "https://tdwg.github.io/tcs2/examples/nomenclatural-type/"
   }
 }
