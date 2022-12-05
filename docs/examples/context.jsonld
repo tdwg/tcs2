@@ -52,10 +52,9 @@
 
     "gbif-rank": "http://rs.gbif.org/vocabulary/gbif/rank/",
     "gbif-code": "http://rs.gbif.org/vocabulary/gbif/nomenclatural_code/",
-    "gbif-typestatus": "gbif-typestatus:",
+    "gbif-typestatus": "http://rs.gbif.org/vocabulary/gbif/type_status/",
+
     "ipni": "https://www.ipni.org/n/",
     "tropicos": "https://www.tropicos.org/name/"
-
-
   }
 }
