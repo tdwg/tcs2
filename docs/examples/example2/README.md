@@ -7,58 +7,8 @@
 ```json
 {
   "@context": [
-    {
-      "xsd": "http://www.w3.org/2001/XMLSchema#",
-
-      "@vocab": "http://rs.tdwg.org/tcs/terms/",
-      "taxonName": { "@type": "@id" },
-      "accordingTo": { "@type": "@id" },
-      "verbatimNameString": { "@type": "xsd:String" },
-      "taxonomicRank": { "@type": "@id" },
-      "parent": { "@type": "@id" },
-      "children": { "@reverse": "parent" },
-      "synonyms": { "@id": "http://rs.tdwg.org/tcs/terms/synonym", "@type": "@id" },
-      "vernacularName": { "@type": "@id" },
-      "relationshipType": { "@type": "@id" },
-      "subjectTaxonConcept": { "@type": "@id" },
-      "objectTaxonConcept": { "@type": "@id" },
-      "relationshipAccordingTo": { "@type": "@id" },
-      "taxonomicNameString": { "@type": "xsd:String" },
-      "namePublishedIn": { "@type": "@id" },
-      "microReference": { "@type": "xsd:String" },
-      "nomenclaturalCode": { "@type": "@id" },
-      "nomenclaturalStatus": { "@type": "@id" },
-      "basionym": { "@type": "@id" },
-      "replacementNameFor": { "@type": "@id" },
-      "basedOn": { "@type": "@id" },
-      "conservedAgainst": { "@type": "@id" },
-      "typifiedName": { "@type": "@id" },
-      "typeOfType": { "@type": "@id" },
-      "typeName": { "@type": "@id" },
-      "typeSpecimen": { "@type": "@id" },
-      "typePublishedIn": { "@type": "@id" },
-
-      "dwc": "http://rs.tdwg.org/dwc/terms/",
-      "dwc:scientificName": { "@type": "xsd:string"},
-      "dwc:scientificNameAuthorship": { "@type": "xsd:string" },
-      "dwc:namePublishedIn": { "@type": "xsd:string" },
-      "dwc:genericName": { "@type": "xsd:string" },
-      "dwc:infragenericEpithet": { "@type": "xsd:string" },
-      "dwc:specificEpithet": { "@type": "xsd:string" },
-      "dwc:infraspecificEpithet": { "@type": "xsd:string" },
-      "dwc:cultivarEpithet": { "@type": "xsd:string" },
-
-      "openbiodiv-o": "http://openbiodiv.net/"
-    },
-    {
-      "dcterms": "http://purl.org/dc/terms/",
-      "skos": "http://www.w3.org/2004/02/skos/core#",
-      "skosxl": "http://www.w3.org/2008/05/skos-xl#",
-      "ex": "https://tdwg.github.io/tcs2/examples/",
-      "bibo": "http://purl.org/ontology/bibo/",
-      "foaf": "http://xmlns.com/foaf/0.1/",
-      "address": "http://schemas.talis.com/2005/address/schema#"
-    }
+    "https://raw.githubusercontent.com/tdwg/tcs2/examples/docs/examples/context.jsonld",
+    {"ex": "https://tdwg.github.io/tcs2/examples/"}
   ],
   "@id": "ex:2",
   "dcterms:title": "Example of a Taxon Concept from a field guide: Mimus polyglottos sec. Sibley 2014",
