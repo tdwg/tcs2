@@ -66,7 +66,7 @@ in TCS 2 becomes:
 ]
 ```
 
-### Hierachical relationships
+### Hierarchical relationships
 
 We consider that the 'according to' for hierachical relationships is always the same as that of the (subject) Taxon Concept. Therefore, he hierarchical relationships in TCS 1 have been replaced by a `parent` property on the Taxon Concept.
 
