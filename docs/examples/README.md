@@ -10,3 +10,8 @@
 
 - [**Example 3:** Example from TCS 1](./example3)
 
+  Rhododendron sect. Sciadorhodion sec. Judd & Kron 1995 and included species from 
+the treatment by Judd and Kron (1995).
+
+- [**Example 4:** Amblystegium and related genera from Koperski et al. (2000)](./example4)
+
