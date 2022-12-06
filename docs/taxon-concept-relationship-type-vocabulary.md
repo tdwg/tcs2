@@ -6,7 +6,7 @@ do not edit the markdown directly, but make any changes in the YAML file.
 
 ## Index of terms
 
-[Taxon Concept Relationship Type Concept Scheme](#tcsreltype_rt) | [Is Congruent With](#tcsreltype_rt001) | [Has proper subset](#tcsreltype_rt002) | [Is Included In](#tcsreltype_rt003) | [partiallyOverlaps](#tcsreltype_rt004) | [Is disjoint from](#tcsreltype_rt005) | [Intersects](#tcsreltype_rt006)
+[Taxon Concept Relationship Type Concept Scheme](#tcsreltype_rt) | [Is Congruent With](#tcsreltype_rt001) | [Has proper subset](#tcsreltype_rt002) | [Is proper subset of](#tcsreltype_rt003) | [partiallyOverlaps](#tcsreltype_rt004) | [Is disjoint from](#tcsreltype_rt005) | [Intersects](#tcsreltype_rt006)
 
 ## Vocabulary
 
@@ -121,7 +121,7 @@ do not edit the markdown directly, but make any changes in the YAML file.
 	<thead>
 		<tr>
 			<th colspan="2">
-            <a id="tcsreltype_rt003"></a><span style="display:block;float:left;">tcsreltype:rt003 (Is Included In)</span> 
+            <a id="tcsreltype_rt003"></a><span style="display:block;float:left;">tcsreltype:rt003 (Is proper subset of)</span> 
             <span style="color:#ffffff;background-color:#617694;display:block;float:right;padding:0 5px;">[concept]</span>
             </th>
 		</tr>
@@ -137,7 +137,7 @@ do not edit the markdown directly, but make any changes in the YAML file.
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td>Is Included In</td>
+			<td>Is proper subset of</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -149,7 +149,7 @@ do not edit the markdown directly, but make any changes in the YAML file.
 		</tr>
 		<tr>
 			<td>Controlled value</td>
-			<td>isIncludedIn</td>
+			<td>isProperSubsetOf</td>
 		</tr>
 	</tbody>
 </table>

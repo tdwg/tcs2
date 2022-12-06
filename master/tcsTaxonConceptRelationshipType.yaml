@@ -53,9 +53,9 @@
 
 # controlled term: isProperSubsetOf
 - localName: rt003
-  label: Is Included In
+  label: Is proper subset of
   skos_inScheme: rt
-  controlled_value_string: isIncludedIn
+  controlled_value_string: isProperSubsetOf
   definition: >-
     The subject taxon concept has a less inclusive taxonomic meaning than the 
     object taxon concept
