@@ -79,24 +79,6 @@
     :objectTaxonConcept <https://avibase.ca/F558C7F9> ;
     :relationshipAccordingTo <https://avibase.bsc-eoc.org> .
 
-<https://tdwg.github.io/tcs2/examples/relationships/6-10> a :TaxonConceptRelationship ;
-    :relationshipType <http://rs.tdwg.org/tcs-taxon-concept-relationship-type/values/rt001> ;
-    :subjectTaxonConcept <https://avibase.ca/A091D50A> ;
-    :objectTaxonConcept <https://tdwg.github.io/tcs2/examples/taxon-concepts/6-7> ;
-    :relationshipAccordingTo <https://avibase.bsc-eoc.org> .
-
-<https://tdwg.github.io/tcs2/examples/relationships/6-11> a :TaxonConceptRelationship ;
-    :relationshipType <http://rs.tdwg.org/tcs-taxon-concept-relationship-type/values/rt001> ;
-    :subjectTaxonConcept <https://avibase.ca/A091D50A> ;
-    :objectTaxonConcept <https://tdwg.github.io/tcs2/examples/taxon-concepts/6-8> ;
-    :relationshipAccordingTo <https://avibase.bsc-eoc.org> .
-
-<https://tdwg.github.io/tcs2/examples/relationships/6-12> a :TaxonConceptRelationship ;
-    :relationshipType <http://rs.tdwg.org/tcs-taxon-concept-relationship-type/values/rt001> ;
-    :subjectTaxonConcept <https://avibase.ca/A091D50A> ;
-    :objectTaxonConcept <https://tdwg.github.io/tcs2/examples/taxon-concepts/6-9> ;
-    :relationshipAccordingTo <https://avibase.bsc-eoc.org> .
-
 <https://tdwg.github.io/tcs2/examples/relationships/6-2> a :TaxonConceptRelationship ;
     :relationshipType <http://rs.tdwg.org/tcs-taxon-concept-relationship-type/values/rt002> ;
     :subjectTaxonConcept <https://avibase.ca/82745BAA> ;
@@ -143,6 +125,24 @@
     :relationshipType <http://rs.tdwg.org/tcs-taxon-concept-relationship-type/values/rt001> ;
     :subjectTaxonConcept <https://avibase.ca/A091D50A> ;
     :objectTaxonConcept <https://tdwg.github.io/tcs2/examples/taxon-concepts/6-6> ;
+    :relationshipAccordingTo <https://avibase.bsc-eoc.org> .
+
+<https://tdwg.github.io/tcs2/examples/relationships/6-10> a :TaxonConceptRelationship ;
+    :relationshipType <http://rs.tdwg.org/tcs-taxon-concept-relationship-type/values/rt001> ;
+    :subjectTaxonConcept <https://avibase.ca/A091D50A> ;
+    :objectTaxonConcept <https://tdwg.github.io/tcs2/examples/taxon-concepts/6-7> ;
+    :relationshipAccordingTo <https://avibase.bsc-eoc.org> .
+
+<https://tdwg.github.io/tcs2/examples/relationships/6-11> a :TaxonConceptRelationship ;
+    :relationshipType <http://rs.tdwg.org/tcs-taxon-concept-relationship-type/values/rt001> ;
+    :subjectTaxonConcept <https://avibase.ca/A091D50A> ;
+    :objectTaxonConcept <https://tdwg.github.io/tcs2/examples/taxon-concepts/6-8> ;
+    :relationshipAccordingTo <https://avibase.bsc-eoc.org> .
+
+<https://tdwg.github.io/tcs2/examples/relationships/6-12> a :TaxonConceptRelationship ;
+    :relationshipType <http://rs.tdwg.org/tcs-taxon-concept-relationship-type/values/rt001> ;
+    :subjectTaxonConcept <https://avibase.ca/A091D50A> ;
+    :objectTaxonConcept <https://tdwg.github.io/tcs2/examples/taxon-concepts/6-9> ;
     :relationshipAccordingTo <https://avibase.bsc-eoc.org> .
 
 _:n3 a :TaxonName ;
