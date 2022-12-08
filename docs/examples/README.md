@@ -15,3 +15,9 @@ the treatment by Judd and Kron (1995).
 
 - [**Example 4:** Amblystegium and related genera from Koperski et al. (2000)](./example4)
 
+  Example with Taxon Concepts and Taxon Relationships
+
+- [**Example 5:** Franz & Cardona-Duque (2013)](./example5)
+
+  Example with Taxon Concepts: two new species of weevil described by Franz & Cardona-Duque (2013)
+
