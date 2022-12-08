@@ -2,8 +2,71 @@
 
 ## Rhododendron example from TCS 1
 
-This example stays as close as possible in TCS 2 to the example of TCS 1, so 
-looks a bit different from other examples.
+The example has been slightly extended to include *Rhododendron* sect. 
+*Sciadorhodion* and all its species from the Judd and Kron (1995) treatment.
+
+Below, the treatment of one of the species, *Rhododendron pentaphyllum* is 
+shown. Some properties in the example have been left out, as they are not needed 
+for illustration purposes. The full example can be viewed in TurTLe and JSON-LD, 
+respectively, [here](example5.ttl) and [here](example5.jsonld).
+
+![](judd-kron-1995-rpentaphyllum.jpg)
+
+```turtle
+# Taxon concept
+
+ex_tc:3.4 a :TaxonConcept ;
+    skos:prefLabel "Rhododendron pentaphyllum sec. Judd & Kron 1995" ;
+    :taxonName ipni:333062-1 ;
+    :accordingTo ex_ref:3.4 ;
+    :synonym ( ex_tn:3.9 ex_tn:3.11 ipni:950666-1 ) .
+
+
+# Accepted name
+
+ipni:333062-1 a :TaxonName ;
+    :taxonomicNameString "Rhododendron pentaphyllum"^^xsd:String ;
+    dwc:scientificNameAuthorship "Maxim."^^xsd:string ;
+    dwc:namePublishedIn "Bull. Acad. Sci. St Petersbourg, ser. 3, 31:65 (1887)"^^xsd:string .
+
+
+# Other combination of accepted name (homotypic synonym)
+
+ipni:326897-1 a :TaxonName ;
+    :taxonomicNameString "Azalea pentaphylla"^^xsd:String ;
+    dwc:scientificNameAuthorship "(Maxim.) Copeland"^^xsd:string ;
+    :namePublishedIn ex_ref:3.2 ;
+    :basionym ipni:333062-1 .
+
+
+# Type of the accepted name
+
+ex_nt:3.500 a :NomenclaturalType ;
+    :typifiedName ipni:333062-1 ;
+    :typeOfType gbif-typestatus:holotype ;
+    :typeSpecimen [ a dwc:PreservedSpecimen ;
+            dwc:verbatimLocality "Japan, Kyushiu, prov. Osumi, summit, Mt Taka-kuma" ;
+            dwc:recordedBy "Tashiro" ;
+            dwc:institutionCode "LE" ] .
+
+
+# Heterotypic synonyms
+
+ex_tn:3.9 a :TaxonName ;
+    :taxonomicNameString "Rhododendron pentaphyllum var. nikoense"^^xsd:String ;
+    dwc:scientificNameAuthorship "Komatsu"^^xsd:string ;
+    dwc:namePublishedIn "Icon. Pl. Koisikav. 3: 45, t 168 (1916)"^^xsd:string .
+
+ex_tn:3.11 a :TaxonName ;
+    :taxonomicNameString "Rhododendron quinquefolium var. roseum"^^xsd:String ;
+    dwc:scientificNameAuthorship "Rehder"^^xsd:string ;
+    dwc:namePublishedIn "Bailey, Stand. Cycl. Hort. 5: 2947 (1916)"^^xsd:string .
+
+ipni:950666-1 a :TaxonName ;
+    :taxonomicNameString "Rhododendron pentaphyllum var. shikokianum"^^xsd:String ;
+    dwc:scientificNameAuthorship "T.Yamazaki"^^xsd:string ;
+    dwc:namePublishedIn "Jap. Bot. 63: 312 (1988)"^^xsd:string .
+```
 
 The example illustrates nicely how the handling of taxon relationships in TCS 2 
 differs from TCS 1.
