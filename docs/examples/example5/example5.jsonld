@@ -7,12 +7,12 @@
       "@id": "https://doi.org/10.1080/14772000.2013.806371",
       "@type": "bibo:AcademicArticle",
       "dcterms:creator": [
-        { "@id": "_:n1" },
-        { "@id": "_:n2" }
+        { "@id": "https://orcid.org/0000-0001-7089-7018" },
+        { "@id": "https://orcid.org/0000-0002-2469-8162" }
       ],
       "bibo:authorList": [
-        { "@id": "_:n1" },
-        { "@id": "_:n2" }
+        { "@id": "https://orcid.org/0000-0001-7089-7018" },
+        { "@id": "https://orcid.org/0000-0002-2469-8162" }
       ],
       "dcterms:title": "Description of two new species and phylogenetic reassessment of Perelleschus O\u2019Brien & Wibmer, 1986 (Coleoptera: Curculionidae), with a complete taxonomic concept history of Perelleschus sec. Franz & Cardona-Duque, 2013",
       "bibo:shortTitle": "Description of two new species and phylogenetic reassessment of Perelleschus O\u2019Brien & Wibmer, 1986 (Coleoptera",
@@ -33,13 +33,13 @@
       "bibo:uri": "https://doi.org/10.1080/14772000.2013.806371"
     },
     {
-      "@id": "_:n1",
+      "@id": "https://orcid.org/0000-0001-7089-7018",
       "@type": "foaf:Person",
       "foaf:givenName": "Nico M.",
       "foaf:surname": "Franz"
     },
     {
-      "@id": "_:n2",
+      "@id": "https://orcid.org/0000-0002-2469-8162",
       "@type": "foaf:Person",
       "foaf:givenName": "Juliana",
       "foaf:surname": "Cardona-Duque*"
