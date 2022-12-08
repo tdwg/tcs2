@@ -20,7 +20,7 @@
           },
           {
             "name": "http://www.w3.org/2004/02/skos/core#prefLabel",
-            "title": "prefLabel",
+            "title": "skos:prefLabel",
             "type": "string",
             "format": "default",
             "constraints": {
@@ -47,7 +47,7 @@
           },
           {
             "name": "http://www.w3.org/2004/02/skos/core#note",
-            "title": "note",
+            "title": "skos:note",
             "type": "string",
             "format": "default",
             "language": "de",
@@ -128,7 +128,7 @@
           },
           {
             "name": "http://www.w3.org/2004/02/skos/core#note",
-            "title": "note",
+            "title": "skos:note",
             "type": "string",
             "format": "default",
             "constraints": {
@@ -238,7 +238,7 @@
           },
           {
             "name": "http://rs.tdwg.org/dwc/terms/scientificNameAuthorship",
-            "title": "scientificNameAuthorship",
+            "title": "dwc:scientificNameAuthorship",
             "type": "string",
             "format": "default",
             "constraints": {
@@ -247,7 +247,7 @@
           },
           {
             "name": "http://rs.tdwg.org/dwc/terms/namePublishedIn",
-            "title": "namePublishedIn",
+            "title": "dwc:namePublishedIn",
             "type": "string",
             "format": "default",
             "constraints": {

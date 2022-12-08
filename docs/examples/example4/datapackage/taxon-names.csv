@@ -1,4 +1,4 @@
-id,taxonNameString,scientificNameAuthorship,namePublishedIn,basionym,nomenclaturalStatus
+id,taxonNameString,dwc:scientificNameAuthorship,dwc:namePublishedIn,basionym,nomenclaturalStatus
 https://www.tropicos.org/name/35000040,Amblystegium,Schimp.,Bryol. Eur. 6: 45 (1853),,
 https://www.tropicos.org/name/35000208,Campylium,(Sull.) Mitt.,"J. Linn. Soc., Bot. 12: 631 (1809)",https://www.tropicos.org/name/35101380,
 https://www.tropicos.org/name/35000970,Platydictya,Berk.,Handb. Brit. Mosses: 145 (1863),,
