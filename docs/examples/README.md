@@ -21,3 +21,12 @@ the treatment by Judd and Kron (1995).
 
   Example with Taxon Concepts: two new species of weevil described by Franz & Cardona-Duque (2013)
 
+- [**Example 6:** Avibase: Circus cyaneus and Circus hudsonius](./example6/example6.ttl)
+  
+  Example with Taxon Concepts and Taxon Concept Relationships: 
+  compares *Circus cyaneus* and *Circus hudsonius* concepts from different taxonomies of birds.
+
+- [**Example7:** *Panthera leo* (Lion) with classification from the Catalogue of Life](./example7)
+
+  Example with higher classification done two different ways
+

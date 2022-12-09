@@ -1,0 +1,188 @@
+@prefix : <http://rs.tdwg.org/tcs/terms/> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dwc: <http://rs.tdwg.org/dwc/terms/> .
+@prefix gbif-rank: <http://rs.gbif.org/vocabulary/gbif/rank/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.catalogueoflife.org/data/taxon/4CGXP> a :TaxonConcept ;
+    skos:prefLabel "Panthera leo sec. CoL 2022-11-14" ;
+    :taxonName [ a :TaxonName ;
+            dwc:scientificNameAuthorship "(Linnaeus, 1758)"^^xsd:string ;
+            :taxonNameString "Panthera leo" ] ;
+    :accordingTo <https://www.catalogueoflife.org#v2022-11-14> ;
+    :taxonomicRank gbif-rank:species ;
+    :parent <https://www.catalogueoflife.org/data/taxon/6DBT> .
+
+<https://www.catalogueoflife.org/data/taxon/6DBT> a :TaxonConcept ;
+    skos:prefLabel "Panthera sec. CoL 2022-11-14" ;
+    :accordingTo <https://www.catalogueoflife.org#v2022-11-14> ;
+    :taxonName [ a :TaxonName ;
+            :taxonNameString "Panthera" ] ;
+    :taxonomicRank gbif-rank:genus ;
+    :parent <https://www.catalogueoflife.org/data/taxon/628LP> .
+
+<https://www.catalogueoflife.org/data/taxon/628LP> a :TaxonConcept ;
+    skos:prefLabel "Pantherinae sec. CoL 2022-11-14" ;
+    :taxonName [ a :TaxonName ;
+            :taxonNameString "Pantherinae" ] ;
+    :accordingTo <https://www.catalogueoflife.org#v2022-11-14> ;
+    :taxonomicRank gbif-rank:subfamily ;
+    :parent <https://www.catalogueoflife.org/data/taxon/623RM> .
+
+<https://www.catalogueoflife.org/data/taxon/623RM> a :TaxonConcept ;
+    skos:prefLabel "Felidae sec. CoL 2022-11-14" ;
+    :taxonName [ a :TaxonName ;
+            :taxonNameString "Felidae" ] ;
+    :accordingTo <https://www.catalogueoflife.org#v2022-11-14> ;
+    :taxonomicRank gbif-rank:family ;
+    :parent <https://www.catalogueoflife.org/data/taxon/4DL> .
+
+<https://www.catalogueoflife.org/data/taxon/4DL> a :TaxonConcept ;
+    skos:prefLabel "Feliformia sec. CoL 2022-11-14" ;
+    :taxonName [ a :TaxonName ;
+            :taxonNameString "Feliformia" ] ;
+    :accordingTo <https://www.catalogueoflife.org#v2022-11-14> ;
+    :taxonomicRank gbif-rank:suborder ;
+    :parent <https://www.catalogueoflife.org/data/taxon/VS> .
+
+<https://www.catalogueoflife.org/data/taxon/VS> a :TaxonConcept ;
+    skos:prefLabel "Carnivora sec. CoL 2022-11-14" ;
+    :taxonName [ a :TaxonName ;
+            :taxonNameString "Carnivora" ] ;
+    :accordingTo <https://www.catalogueoflife.org#v2022-11-14> ;
+    :taxonomicRank gbif-rank:order ;
+    :parent <https://www.catalogueoflife.org/data/taxon/LG> .
+
+<https://www.catalogueoflife.org/data/taxon/LG> a :TaxonConcept ;
+    skos:prefLabel "Eutheria sec. CoL 2022-11-14" ;
+    :accordingTo <https://www.catalogueoflife.org#v2022-11-14> ;
+    :taxonName [ a :TaxonName ;
+            :taxonNameString "Eutheria" ] ;
+    :taxonomicRank gbif-rank:superorder ;
+    :parent <https://www.catalogueoflife.org/data/taxon/924GT> .
+
+<https://www.catalogueoflife.org/data/taxon/924GT> a :TaxonConcept ;
+    skos:prefLabel "Theria sec. CoL 2022-11-14" ;
+    :taxonName [ a :TaxonName ;
+            :taxonNameString "Theria" ] ;
+    :accordingTo <https://www.catalogueoflife.org#v2022-11-14> ;
+    :taxonomicRank gbif-rank:subclass ;
+    :parent <https://www.catalogueoflife.org/data/taxon/6224G> .
+
+<https://www.catalogueoflife.org/data/taxon/6224G> a :TaxonConcept ;
+    skos:prefLabel "Mammalia sec. CoL 2022-11-14" ;
+    :taxonName [ a :TaxonName ;
+            :taxonNameString "Mammalia" ] ;
+    :accordingTo <https://www.catalogueoflife.org#v2022-11-14> ;
+    :taxonomicRank gbif-rank:class ;
+    :parent <https://www.catalogueoflife.org/data/taxon/8VLBH> .
+
+<https://www.catalogueoflife.org/data/taxon/8VLBH> a :TaxonConcept ;
+    skos:prefLabel "Amniota sec. CoL 2022-11-14" .
+    :taxonName [ a :TaxonName ;
+            :taxonNameString "Amniota" ] ;
+    :accordingTo <https://www.catalogueoflife.org#v2022-11-14> ;
+    :taxonomicRank gbif-rank:superclass ;
+    :parent <https://www.catalogueoflife.org/data/taxon/9CK8W> .
+
+<https://www.catalogueoflife.org/data/taxon/9CK8W> a :TaxonConcept ;
+    skos:prefLabel "Tetrapoda sec. CoL 2022-11-14" ;
+    :taxonName [ a :TaxonName ;
+            :taxonNameString "Tetrapoda" ] ;
+    :accordingTo <https://www.catalogueoflife.org#v2022-11-14> ;
+    :taxonomicRank gbif-rank:megaclass ;
+    :parent <https://www.catalogueoflife.org/data/taxon/8VSMX> .
+
+<https://www.catalogueoflife.org/data/taxon/8VSMX> a :TaxonConcept ;
+    skos:prefLabel "Sarcopterygii sec. CoL 2022-11-14" ;
+    :taxonName [ a :TaxonName ;
+            :taxonNameString "Sarcopterygii" ] ;
+    :accordingTo <https://www.catalogueoflife.org#v2022-11-14> ;
+    :taxonomicRank gbif-rank:gigaclass ;
+    :parent <https://www.catalogueoflife.org/data/taxon/8VVWB> .
+
+<https://www.catalogueoflife.org/data/taxon/8VVWB> a :TaxonConcept ;
+    skos:prefLabel "Osteichthyes sec. CoL 2022-11-14" ;
+    :taxonName [ a :TaxonName ;
+            :taxonNameString "Osteichthyes" ] ;
+    :accordingTo <https://www.catalogueoflife.org#v2022-11-14> ;
+    :taxonomicRank gbif-rank:parvphylum ;
+    :parent <https://www.catalogueoflife.org/data/taxon/8V4V5> .
+
+<https://www.catalogueoflife.org/data/taxon/8V4V5> a :TaxonConcept ;
+    skos:prefLabel "Gnathostomata sec. CoL 2022-11-14" ;
+    :taxonName [ a :TaxonName ;
+            :taxonNameString "Gnathostomata" ] ;
+    :accordingTo <https://www.catalogueoflife.org#v2022-11-14> ;
+    :taxonomicRank gbif-rank:infraphylum ;
+    :parent <https://www.catalogueoflife.org/data/taxon/8V4V3> .
+
+<https://www.catalogueoflife.org/data/taxon/8V4V3> a :TaxonConcept ;
+    :accordingTo <https://www.catalogueoflife.org#v2022-11-14> ;
+    :parent <https://www.catalogueoflife.org/data/taxon/CH2> ;
+    :taxonName [ a :TaxonName ;
+            :taxonNameString "Vertebrata" ] ;
+    :taxonomicRank gbif-rank:subphylum ;
+    skos:prefLabel "Vertebrata sec. CoL 2022-11-14" .
+
+<https://www.catalogueoflife.org/data/taxon/CH2> a :TaxonConcept ;
+    skos:prefLabel "Chordata sec. CoL 2022-11-14" ;
+    :taxonName [ a :TaxonName ;
+            :taxonNameString "Chordata" ] ;
+    :accordingTo <https://www.catalogueoflife.org#v2022-11-14> ;
+    :taxonomicRank gbif-rank:phylum ;
+    :parent <https://www.catalogueoflife.org/data/taxon/N> .
+
+<https://www.catalogueoflife.org/data/taxon/N> a :TaxonConcept ;
+    skos:prefLabel "Animalia sec. CoL 2022-11-14" ;
+    :taxonName [ a :TaxonName ;
+            :taxonNameString "Animalia" ] ;
+    :accordingTo <https://www.catalogueoflife.org#v2022-11-14> ;
+    :taxonomicRank gbif-rank:kingdom .
+
+<https://tdwg.github.io/tcs2/examples/relationships/7-1> a :TaxonConceptRelationship ;
+    :relationshipType <http://rs.tdwg.org/tcs-taxon-concept-relationship-type/values/rt003> ;
+    :subjectTaxonConcept <https://www.catalogueoflife.org/data/taxon/4CGXP> ;
+    :objectTaxonConcept <https://www.catalogueoflife.org/data/taxon/6DBT> ;
+    :relationshipAccordingTo <https://www.catalogueoflife.org#v2022-11-14> .
+
+<https://tdwg.github.io/tcs2/examples/relationships/7-2> a :TaxonConceptRelationship ;
+    :relationshipType <http://rs.tdwg.org/tcs-taxon-concept-relationship-type/values/rt003> ;
+    :subjectTaxonConcept <https://www.catalogueoflife.org/data/taxon/6DBT> ;
+    :objectTaxonConcept <https://www.catalogueoflife.org/data/taxon/623RM> ;
+    :relationshipAccordingTo <https://www.catalogueoflife.org#v2022-11-14> .
+
+<https://tdwg.github.io/tcs2/examples/relationships/7-3> a :TaxonConceptRelationship ;
+    :relationshipType <http://rs.tdwg.org/tcs-taxon-concept-relationship-type/values/rt003> ;
+    :subjectTaxonConcept <https://www.catalogueoflife.org/data/taxon/623RM> ;
+    :objectTaxonConcept <https://www.catalogueoflife.org/data/taxon/VS> ;
+    :relationshipAccordingTo <https://www.catalogueoflife.org#v2022-11-14> .
+
+<https://tdwg.github.io/tcs2/examples/relationships/7-4> a :TaxonConceptRelationship ;
+    :relationshipType <http://rs.tdwg.org/tcs-taxon-concept-relationship-type/values/rt003> ;
+    :subjectTaxonConcept <https://www.catalogueoflife.org/data/taxon/VS> ;
+    :objectTaxonConcept <https://www.catalogueoflife.org/data/taxon/924GT> ;
+    :relationshipAccordingTo <https://www.catalogueoflife.org#v2022-11-14> .
+
+<https://tdwg.github.io/tcs2/examples/relationships/7-5> a :TaxonConceptRelationship ;
+    :relationshipType <http://rs.tdwg.org/tcs-taxon-concept-relationship-type/values/rt003> ;
+    :subjectTaxonConcept <https://www.catalogueoflife.org/data/taxon/924GT> ;
+    :objectTaxonConcept <https://www.catalogueoflife.org/data/taxon/CH2> ;
+    :relationshipAccordingTo <https://www.catalogueoflife.org#v2022-11-14> .
+
+<https://tdwg.github.io/tcs2/examples/relationships/7-6> a :TaxonConceptRelationship ;
+    :relationshipType <http://rs.tdwg.org/tcs-taxon-concept-relationship-type/values/rt003> ;
+    :subjectTaxonConcept <https://www.catalogueoflife.org/data/taxon/CH2> ;
+    :objectTaxonConcept <https://www.catalogueoflife.org/data/taxon/N> ;
+    :relationshipAccordingTo <https://www.catalogueoflife.org#v2022-11-14> .
+
+<https://www.catalogueoflife.org> a bibo:Website ;
+    dcterms:title "Catalogue of Life" ;
+    bibo:uri "https://www.catalogueoflife.org" .
+
+<https://www.catalogueoflife.org#v2022-11-14> a bibo:Website ;
+    dcterms:isVersionOf "https://www.catalogueoflife.org" ;
+    dcterms:title "Catalogue of Life, version 2022-11-14" ;
+    bibo:uri "https://www.catalogueoflife.org" .
