@@ -11,7 +11,7 @@
     "children": { "@reverse": "parent" },
     "synonyms": { "@id": "http://rs.tdwg.org/tcs/terms/synonym", "@type": "@id" },
     "vernacularName": { "@type": "@id" },
-    "relationshipType": { "@type": "@id" },
+    "relationshipType": { "@type": "@vocab" },
     "subjectTaxonConcept": { "@type": "@id" },
     "objectTaxonConcept": { "@type": "@id" },
     "relationshipAccordingTo": { "@type": "@id" },
@@ -29,6 +29,13 @@
     "typeName": { "@type": "@id" },
     "typeSpecimen": { "@type": "@id" },
     "typePublishedIn": { "@type": "@id" },
+
+    "isCongruentWith": "http://rs.tdwg.org/tcs-taxon-concept-relationship-type/values/rt001",
+    "hasProperSubset": "http://rs.tdwg.org/tcs-taxon-concept-relationship-type/values/rt002",
+    "isProperSubsetOf": "http://rs.tdwg.org/tcs-taxon-concept-relationship-type/values/rt003",
+    "partiallyOverlaps": "http://rs.tdwg.org/tcs-taxon-concept-relationship-type/values/rt004",
+    "isDisjointFrom": "http://rs.tdwg.org/tcs-taxon-concept-relationship-type/values/rt005",
+    "intersects": "http://rs.tdwg.org/tcs-taxon-concept-relationship-type/values/rt006",
 
     "dwc": "http://rs.tdwg.org/dwc/terms/",
     "dwc:scientificName": { "@type": "xsd:string"},
