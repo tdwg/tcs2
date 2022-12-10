@@ -253,14 +253,6 @@ def term_table(term):
             table_cell(markdown.markdown(comments, extensions=['nl2br']))
         ])
 
-    # Examples
-    if 'examples' in term and term['examples']:
-        examples = term['examples']
-        text += table_row([
-            table_cell('Examples'),
-            table_cell(markdown.markdown(examples))
-        ])
-
     # Controlled term
     if 'Concept' in term['type']:
         text += table_row([
@@ -278,6 +270,14 @@ def term_table(term):
 
     text += '\t</tbody>\n'
     text += '</table>\n\n'
+
+    # Examples
+    if 'examples' in term and term['examples']:
+        examples = term['examples']
+        text += '\n**Examples:**\n\n'
+        text += examples
+        text += '\n\n'
+
     return text
 
 # create vocabulary
