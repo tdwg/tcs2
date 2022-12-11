@@ -46,11 +46,13 @@
   label: Taxon Name
   definition: A name or label that is given to a taxonomic group.
   usage: >-
-    `taxonName` is an IRI term and is required on a TCS Taxon Concept.
+    `taxonName` is an IRI term and is required on a TCS Taxon Concept. A Taxon 
+    Concept can only have one `taxonName`.
   notes: >-
     The `taxonName` can be anything from a well-formed scientific name to an 
     informal name, vernacular name, indigenous knowledge label, or even a label 
     containing numbers and/or special symbols, such as are often used for OTUs. 
+    
 
     The object of `taxonName` is an object or IRI, so that it can be reused in 
     other Taxon Concepts. TCS has got the Taxon Name class, which can be used 

@@ -171,7 +171,7 @@ Catalogue of Life:
 		</tr>
 		<tr>
 			<td>Usage</td>
-			<td><p><code>taxonName</code> is an IRI term and is required on a TCS Taxon Concept.</p></td>
+			<td><p><code>taxonName</code> is an IRI term and is required on a TCS Taxon Concept. A Taxon  Concept can only have one <code>taxonName</code>.</p></td>
 		</tr>
 		<tr>
 			<td>GitHub issue</td>
@@ -184,6 +184,7 @@ Catalogue of Life:
 **Comments**
 
 The `taxonName` can be anything from a well-formed scientific name to an  informal name, vernacular name, indigenous knowledge label, or even a label  containing numbers and/or special symbols, such as are often used for OTUs. 
+
 The object of `taxonName` is an object or IRI, so that it can be reused in  other Taxon Concepts. TCS has got the Taxon Name class, which can be used  for any type of name, but people are free to use alternatives, e.g.  `skosxl:Label`, if they want to restrict the use of the Taxon Name class to  scientific (or scientific-y) names only.
 
 ### tcs:accordingTo
