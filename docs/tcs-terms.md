@@ -64,7 +64,7 @@ A Taxon Concept is identifiable, because it combines a label – `taxonName` in 
 The TCS Taxon Concept is a data object and is applied more broadly than the  term is used in science (e.g. Franz & Peet 2009). On the one hand, things  that are not generally considered to be biological taxa, e.g. hybrids and  cultivars, can be casted as TCS Taxon Concepts. Also Operational Taxonomic  Units (OTUs, cf. Sokal & Sneath 1963) can be exchanged as Taxon Concepts,  if there is a reason to do so, e.g. if one wants to align them with other  Taxon Concepts later. On the other hand, entries from treatments that are  considered to cite concepts from other treatments can be formulated as  Taxon Concepts. Every taxon concept from a treatment that is likely to be  referenced as the source of taxonomic context, for example a field guide  for a determination of a specimen or a national census for an ecological  study, can – and it would be very nice if they would – be stated as a Taxon  Concept, so they can be aligned with other Taxon Concepts that may provide  more or different taxonomic context.
 
 
-**Examples:**
+**Examples**
 
 Taxonomic treatment:
 
@@ -364,7 +364,7 @@ The `parent` is another Taxon Concept. This is the parent as indicated in  the `
 Synonymy is between names but, if the names have different types, a Taxon  Concept is required. Therefore, `synonym` is a property of the Taxon Concept  class. `synonym` is used here in the stricter sense that only indicates that  the type of a name falls within a Taxon Concept and has the same  relationship to Taxon Concept as `taxonName` (the accepted name). This  allows one to dispose of names without having to deal with the Taxon  Concepts that were realised along with the publication of these names. If  one wants to include these “original concepts” and indicate a relationship  between Taxon Concepts, the `intersects` Taxon Concept Relationship can be  used instead.
 
 
-**Examples:**
+**Examples**
 
 ```turtle
 [] a :TaxonConcept ;
@@ -420,7 +420,7 @@ Synonymy is between names but, if the names have different types, a Taxon  Conce
 The `vernacularName` property can be used when a vernacular name is used  alongside a scientific name, which is the `taxonName`. If a vernacular name  is the only name, the `taxonName` property should be used.
 
 
-**Examples:**
+**Examples**
 
 ```turtle
 [] a :TaxonConcept ;
@@ -486,7 +486,7 @@ An extra controlled term `intersects` has been added to the Taxon Concept  Relat
 Taxon Concept Relationship statements can be made in the treatment of the  subject Taxon Concept or by third parties.
 
 
-**Examples:**
+**Examples**
 
 ```turtle
 # Athyriaceae sec. Rothfels et al. 2012 is proper subset of Woodsiaceae sec. Smith et al. 2006
@@ -760,7 +760,7 @@ In the case of Taxon Concept Relationships from traditional synonymy, the  `rela
 The word 'name' here is taken in its dictionary meaning and not in the  sense of a particular nomenclatural code. This means that the Taxon Name  class can be used for any type of name, not just names that are validly  published under the relevant nomenclatural code.
 
 
-**Examples:**
+**Examples**
 
 ```turtle
 <urn:lsid:zoobank.org:act:355AAA50-D89F-466E-A216-96B7A17D5AD4> a :TaxonName ;
@@ -1000,7 +1000,7 @@ This is the IRI equivalent of the Darwin Core `nomenclaturalStatus`. In the  abs
 A basionym is the epithet-bringing name.  The `basionym` property is only  used for new combinations ('comb. nov.'). If the new name is an avowed  substitute ('nom. nov.') the `replacementNameFor` property should be used  instead.
 
 
-**Examples:**
+**Examples**
 
 ```turtle
 <https://id.biodiversity.org.au/name/apni/166271> a TaxonName ;

@@ -284,7 +284,7 @@ def term_table(term):
         filename = '../master/inline-examples/' + term['examples']
         with open(filename, 'r') as exampleFile:
             examples = exampleFile.read()
-        text += '\n**Examples:**\n\n'
+        text += '\n**Examples**\n\n'
         text += examples
         text += '\n\n'
 
