@@ -159,7 +159,7 @@ Catalogue of Life:
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>required:</b> No — <b>repeatable:</b> No</td>
+			<td><b>required:</b> Yes — <b>repeatable:</b> No</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -199,7 +199,7 @@ The `taxonName` can be anything from a well-formed scientific name to an  inform
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>required:</b> No — <b>repeatable:</b> No</td>
+			<td><b>required:</b> Yes — <b>repeatable:</b> No</td>
 		</tr>
 		<tr>
 			<td>Definition</td>

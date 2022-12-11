@@ -58,7 +58,7 @@
   examples: null
   type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonConcept
-  required: No
+  required: Yes
   repeatable: No
   github: 2
 
@@ -87,7 +87,7 @@
   examples: null
   type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonConcept
-  required: No
+  required: Yes
   repeatable: No
   github: 4
 
