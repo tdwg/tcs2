@@ -179,7 +179,7 @@ def term_table(term):
     curie = '{namespaceAlias}:{localName}'.format(
         namespaceAlias=term['namespaceAlias'], localName=term['localName'])
 
-    text = '#### ' + curie + '\n\n'
+    text = '### ' + curie + '\n\n'
 
     text += '<table style="width:100%;">\n'
 
@@ -303,10 +303,11 @@ def create_vocab(categories, merged_df):
     Returns:
         str: vocabulary in HTML format
     """
-    vocab = '## Vocabulary\n\n'
+    # vocab = '## Vocabulary\n\n'
+    vocab = ''
     for category in categories:
         if len(categories) > 1:
-            vocab += '### {label}\n\n'.format(label=category['label'])
+            vocab += '## {label}\n\n'.format(label=category['label'])
             filtered_df = merged_df[merged_df['organizedInClass']
                                     == category['namespace']]
         else:
