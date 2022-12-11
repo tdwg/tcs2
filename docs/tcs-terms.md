@@ -73,6 +73,7 @@ files.
 **Examples:**
 
 Taxonomic treatment:
+
 ```turtle
 ex:taxon-concept/1 a :TaxonConcept ;
     skos:prefLabel "Dicranoloma blumei sec. Klazenga 1999" ;
@@ -82,9 +83,11 @@ ex:taxon-concept/1 a :TaxonConcept ;
     :accordingTo [ <https://www.tropicos.org/reference/9020903> a bibo:AcademicArticle ;
             dcterms:bibliographicCitation "Klazenga, N. (1999). A revision of the Malesian 
                     species of Dicranoloma (Dicranaceae, Musci). Journal of the Hattori
-                    Botanical Laboratory 87: 1-130" ] .
+                    Botanical Laboratory 87: 1-130." ] .
 ```
+
 Field guide:
+
 ```turtle
 ex:taxon-concept/3 a :TaxonConcept ;
         skos:prefLabel "Orthetrum caledonicum sec. Theischinger and Hawking 2010" ;
@@ -95,9 +98,12 @@ ex:taxon-concept/3 a :TaxonConcept ;
         :accordingTo [ <urn:isbn:978-0-643-09073-6> a bibo:Book ;
                 dcterms:bibliographicCitation "Theischinger, G.; Hawking, J. (2010). The 
                         complete field guide to dragonflies of Australia. CSIRO Publishing, 
-                        Collingwood, Australia" ] .
+                        Collingwood, Australia." ] .
+
 ```
+
 Checklist:
+
 ```turtle
 ex:taxon-concept/2 a :TaxonConcept ;
     skos:prefLabel "Calymperes moluccense sec. Yong et al. 2013" ;
@@ -107,7 +113,7 @@ ex:taxon-concept/2 a :TaxonConcept ;
     :accordingTo [ <urn:isbn:978-967-5221-99-6> a bibo:Book ;
             dcterms:bibliographicCitation "Yong, K.T.; Tan, B.C.; Ho, B.C.; Ho, Q.Y.; Mohamed, H.
                     A revised Moss Checklist of Peninsular Malaysia and Singapore. Research 
-                    Pamphlet no. 133, Forest Research Institute Malaysia, Kepong, Malaysia" ] .
+                    Pamphlet no. 133, Forest Research Institute Malaysia, Kepong, Malaysia." ] .
 ```
 
 
@@ -375,11 +381,12 @@ ex:taxon-concept/2 a :TaxonConcept ;
     :synonym [ <https://www.ipni.org/n/812507-1> a :TaxonName ;
             :taxonNameString "Veronica poppelwellii" ;
             dwc:scientificNameAuthorship "Cockayne" ; 
-            dwc:namePublishedIn "Trans. & Proc. New Zealand Inst. 1915, xlviii. 200 (1916)"] ;
+            dwc:namePublishedIn "Trans. & Proc. New Zealand Inst. 1915, xlviii. 200 (1916)" ] ;
     :accordingTo [ <urn:isbn:978-0-909010-12-6> a bibo:Book ;
             dcterms:bibliographicCitation "Bayly, M.; Kellow, A. (2006). An illustrated guide to 
-                    New Zealand Hebes. Te Papa Press, Wellington, New Zealand" ] .
+                    New Zealand Hebes. Te Papa Press, Wellington, New Zealand." ] .
 ```
+
 
 <table style="width:100%;">
 	<thead>
@@ -432,10 +439,11 @@ ex:taxon-concept/2 a :TaxonConcept ;
             :taxonNameString "Graphium macleayanum" ]
     :vernacularName [ a TaxonName ;
             :taxonNameString "Macleay's Swallowtail" ] ;
-    :accordingTo [ <978-1-74175-108-6> a bibo:Book ; 
-            dcterms:bibliographicCitation "Orr, A. & Kitching, R. The butterflies of Australia. 
-                    Jacana Books, Crows Nest, Australia" ].
+    :accordingTo [ <urn:isbn:978-1-74175-108-6> a bibo:Book ; 
+            dcterms:bibliographicCitation "Orr, A. & Kitching, R. (2010). The butterflies of 
+                    Australia. Jacana Books, Crows Nest, Australia." ] .
 ```
+
 ```turtle
 [] a :TaxonConcept ;
     skos:prefLabel "Quercus robur sec. Duistermaat 2020" ;
@@ -444,9 +452,10 @@ ex:taxon-concept/2 a :TaxonConcept ;
     :vernacularName [ a :TaxonName ;
             :taxonNameString "Zomereik" ] ;
     :accordingTo [ <urn:isbn:978-90-01-58956-1> a bibo:Book ;
-            dcterms:bibliographicCitation "Duistermaat, H. (2020). Heukels Flora van Nederland. 
-            Noordhoff, Groningen" ] .
+            dcterms:bibliographicCitation "Duistermaat, H. (2020). Heukels Flora van Nederland, edn 
+            24. Noordhoff, Groningen." ] .
 ```
+
 
 ### Taxon Concept Relationship
 
@@ -519,8 +528,10 @@ ex:taxon-concept/2 a :TaxonConcept ;
             Petra; Schneider, Harald; Wolf, Paul G. (2006). A classification for extant ferns. Taxon 
             55(3): 705-731." .
 ```
+
 ```turtle
-# Dicranum fuscescens sec. Koperski et al. 2000 is congruent with Dicranum fuscescens sec. Corley et al. 1981
+# Dicranum fuscescens sec. Koperski et al. 2000 is congruent with Dicranum fuscescens sec. Corley 
+# et al. 1981
 [] a :TaxonRelationship ;
         :relationshipType <http://rs.tdwg.org/tcs-taxon-concept-relationship-type/values/rt001> ; 
         :subjectTaxonConcept [ a :TaxonConcept ;
@@ -547,10 +558,11 @@ ex:taxon-concept/2 a :TaxonConcept ;
     A.J.E. (1981). Mosses of Europe and the Azores; an annotated list of species, with synonyms from 
     the recent literature. Journal of Bryology 11(4): 609-689." .
 ```
+
 ```turtle
 # Phyllotrox sec. Franz & O'Brien 2001 overlaps Phyllotrox sec. Franz 2006
 [] a :TaxonRelationship ;
-    :relationshipType <http://rs.tdwg.org/tcs-taxon-concept-relationship-type/values/rt004> ;
+    :relationshipType <http://rs.tdwg.org/tcs-taxon-concept-relationship-type/values/rt001> ;
     :subjectTaxonConcept [ a :TaxonConcept ;
             skos:prefLabel "Phyllotrox sec. Franz & O'Brien 2001" ;
             :taxonName _:n1 ;
@@ -567,7 +579,7 @@ _:n1 a :TaxonName ;
 
 <https://www.jstor.org/stable/25078744> a bibo:AcademicArticle ;
     dcterms:bibliographicCitation "Franz, Nico M.; O`Brien, Charles W. (2001). Revision and 
-            Phylogeny of Perelleschus (Coleoptera: Curculionidae) with Notes on Its Association with 
+            phylogeny of Perelleschus (Coleoptera: Curculionidae) with notes on its Association with 
             Carludovica (Cyclanthaceae). Transactions of the American Entomological Society 127(2): 
             255-287" .
 
@@ -580,6 +592,7 @@ _:n1 a :TaxonName ;
     dcterms:bibliographicCitation "Franz, Nico M. (2014). Anatomy of a cladistic analysis. 
             Cladistics 30(3): 294-321." .
 ```
+
 
 <table style="width:100%;">
 	<thead>
@@ -792,18 +805,21 @@ _:n1 a :TaxonName ;
     :taxonNameString "Carabus nitens"
     dwc:scientificNameAuthorship "Linnaeus, 1758" .
 ```
+
 ```turtle
 <https://www.ipni.org/n/316069-1> a :TaxonName ;
     :taxonNameString "Rafflesia arnoldii" ;
     dwc:scientificNameAuthorship "R.Br." ;
     dwc:namePublishedIn "Account Rafflesia 7, tt. 15-22 (1821)" .
 ```
+
 ```turtle
 <http://www.indexfungorum.org/names/NamesRecord.asp?RecordID=178962> a :TaxonName ;
     :taxonNameString "Amanita phalloides" ;
-    dwc:scientificNameAuthorship "(Vaill. ex Fr.) Link," ;
+    dwc:scientificNameAuthorship "(Vaill. ex Fr.) Link" ;
     dwc:namePublishedIn "Handb. Erk. Gew. 3: 272 (1833)" .
 ```
+
 
 <table style="width:100%;">
 	<thead>
@@ -1066,6 +1082,7 @@ _:n1 a :TaxonName ;
             dwc:scientificNameAuthorship "Parris" ;
             dwc:namePublishedIn "New Zealand J. Bot. 10(4): 593 (1972)" ] .
 ```
+
 
 <table style="width:100%;">
 	<thead>
