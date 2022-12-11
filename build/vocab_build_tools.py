@@ -176,27 +176,32 @@ def term_table(term):
     Returns:
         str: HTML table (<table/>) with term metadata
     """
-    text = '<table style="width:100%;">\n'
-
-    # table header
     curie = '{namespaceAlias}:{localName}'.format(
         namespaceAlias=term['namespaceAlias'], localName=term['localName'])
-    curieAnchor = curie.replace(':', '_')
-    term_type = term['type'][term['type'].find('#')+1:].lower()
-    if term_type == 'concept':
-        tableHeader = """
-            <a id="{anchor}"></a><span style="display:block;float:left;">{curie} ({label})</span> 
-            <span style="color:#ffffff;background-color:#617694;display:block;float:right;padding:0 5px;">[{term_type}]</span>
-            """.format(
-            curie=curie, anchor=curieAnchor, term_type=term_type, label=term['label'])
-    else:
-        tableHeader = """
-            <a id="{anchor}"></a><span style="display:block;float:left;">{curie}</span> 
-            <span style="color:#ffffff;background-color:#617694;display:block;float:right;padding:0 5px;">[{term_type}]</span>
-            """.format(curie=curie, anchor=curieAnchor, term_type=term_type)
-    text += '\t<thead>\n'
-    text += table_row([table_cell(tableHeader, celltype='th', colspan=2)])
-    text += '\t</thead>\n'
+
+    text = '####' + curie + '\n\n'
+
+    text += '<table style="width:100%;">\n'
+
+    # table header
+    # curie = '{namespaceAlias}:{localName}'.format(
+    #     namespaceAlias=term['namespaceAlias'], localName=term['localName'])
+    # curieAnchor = curie.replace(':', '_')
+    # term_type = term['type'][term['type'].find('#')+1:].lower()
+    # if term_type == 'concept':
+    #     tableHeader = """
+    #         <a id="{anchor}"></a><span style="display:block;float:left;">{curie} ({label})</span> 
+    #         <span style="color:#ffffff;background-color:#617694;display:block;float:right;padding:0 5px;">[{term_type}]</span>
+    #         """.format(
+    #         curie=curie, anchor=curieAnchor, term_type=term_type, label=term['label'])
+    # else:
+    #     tableHeader = """
+    #         <a id="{anchor}"></a><span style="display:block;float:left;">{curie}</span> 
+    #         <span style="color:#ffffff;background-color:#617694;display:block;float:right;padding:0 5px;">[{term_type}]</span>
+    #         """.format(curie=curie, anchor=curieAnchor, term_type=term_type)
+    # text += '\t<thead>\n'
+    # text += table_row([table_cell(tableHeader, celltype='th', colspan=2)])
+    # text += '\t</thead>\n'
 
     text += '\t<tbody>\n'
 
@@ -245,14 +250,6 @@ def term_table(term):
             table_cell(markdown.markdown(usage))
         ])
 
-    # Comments/Notes
-    if term['notes']:
-        comments = term['notes']
-        text += table_row([
-            table_cell('Comments'),
-            table_cell(markdown.markdown(comments, extensions=['nl2br']))
-        ])
-
     # Controlled term
     if 'Concept' in term['type']:
         text += table_row([
@@ -270,6 +267,17 @@ def term_table(term):
 
     text += '\t</tbody>\n'
     text += '</table>\n\n'
+
+    # Comments/Notes
+    if term['notes']:
+        comments = term['notes']
+        # text += table_row([
+        #     table_cell('Comments'),
+        #     table_cell(markdown.markdown(comments, extensions=['nl2br']))
+        # ])
+        text += '\n**Comments**\n\n'
+        text += comments
+        text += '\n\n'
 
     # Examples
     if 'examples' in term and term['examples']:
