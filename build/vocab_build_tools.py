@@ -179,7 +179,7 @@ def term_table(term):
     curie = '{namespaceAlias}:{localName}'.format(
         namespaceAlias=term['namespaceAlias'], localName=term['localName'])
 
-    text = '####' + curie + '\n\n'
+    text = '#### ' + curie + '\n\n'
 
     text += '<table style="width:100%;">\n'
 

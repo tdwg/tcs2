@@ -31,7 +31,7 @@ files.
 
 ### Taxon Concept
 
-####tcs:TaxonConcept
+#### tcs:TaxonConcept
 
 <table style="width:100%;">
 	<tbody>
@@ -143,7 +143,7 @@ Catalogue of Life:
 
 
 
-####tcs:taxonName
+#### tcs:taxonName
 
 <table style="width:100%;">
 	<tbody>
@@ -183,7 +183,7 @@ Catalogue of Life:
 
 The `taxonName` can be anything from a well-formed scientific name to an  informal name, vernacular name, indigenous knowledge label, or even a label  containing numbers and/or special symbols, such as are often used for OTUs. 
 
-####tcs:accordingTo
+#### tcs:accordingTo
 
 <table style="width:100%;">
 	<tbody>
@@ -221,7 +221,7 @@ Every Taxon Concept is in some sort of treatment and this treatment  provides im
 
 The value of `accordingTo` has to be an object or IRI. This object can  contain as little as a bibliographic reference but it is much more useful  to provide it in a format that can be understood by reference managers  such as Zotero or Mendeley.
 
-####tcs:verbatimNameString
+#### tcs:verbatimNameString
 
 <table style="width:100%;">
 	<tbody>
@@ -257,7 +257,7 @@ The value of `accordingTo` has to be an object or IRI. This object can  contain 
 
 The name string used in the treatment may be somewhat different from the  currently accepted spelling of the Taxon Name. The 'verbatim' does not  need to be taken too literally: it is permissible to write out abbreviated  generic names, or only provide the final epithet where the difference is.  It is also up to the user whether this term is used all the time when there  is a difference in spelling, only for nomenclatural novelties, only for the  original publication of original combinations, or not at all. Systems  cannot require this term and cannot use a default. 
 
-####tcs:taxonomicRank
+#### tcs:taxonomicRank
 
 <table style="width:100%;">
 	<tbody>
@@ -293,7 +293,7 @@ The name string used in the treatment may be somewhat different from the  curren
 
 The rank is an attribute of elements in a classification and `taxonomicRank`  can be applied to Taxon Concepts as well Taxon Names, as the rank of a  taxon is reflected in its name. This property takes an object or IRI and it  is recommended to use a value from an existing controlled vocabulary.  While there is no TDWG vocabulary yet, the GBIF Taxonomic Rank Vocabulary  (https://rs.gbif.org/vocabulary/gbif/rank.xml) is recommended.
 
-####tcs:parent
+#### tcs:parent
 
 <table style="width:100%;">
 	<tbody>
@@ -329,7 +329,7 @@ The rank is an attribute of elements in a classification and `taxonomicRank`  ca
 
 The `parent` is another Taxon Concept. This is the parent as indicated in  the `accordingTo` reference, rather than a third-party classification. The  `accordingTo` of the parent will generally, but not necessarily, be the  same as that of the child.
 
-####tcs:synonym
+#### tcs:synonym
 
 <table style="width:100%;">
 	<tbody>
@@ -385,7 +385,7 @@ Synonymy is between names but, if the names have different types, a Taxon  Conce
 ```
 
 
-####tcs:vernacularName
+#### tcs:vernacularName
 
 <table style="width:100%;">
 	<tbody>
@@ -451,7 +451,7 @@ The `vernacularName` property can be used when a vernacular name is used  alongs
 
 ### Taxon Concept Relationship
 
-####tcs:TaxonConceptRelationship
+#### tcs:TaxonConceptRelationship
 
 <table style="width:100%;">
 	<tbody>
@@ -583,7 +583,7 @@ _:n1 a :TaxonName ;
 ```
 
 
-####tcs:relationshipType
+#### tcs:relationshipType
 
 <table style="width:100%;">
 	<tbody>
@@ -619,7 +619,7 @@ _:n1 a :TaxonName ;
 
 This is an IRI term. One should use a value from the TDWG Taxon Concept  Relationship Type Vocabulary.
 
-####tcs:subjectTaxonConcept
+#### tcs:subjectTaxonConcept
 
 <table style="width:100%;">
 	<tbody>
@@ -655,7 +655,7 @@ This is an IRI term. One should use a value from the TDWG Taxon Concept  Relatio
 
 This is the Taxon Concept at the left-hand side of the relationship  statement.
 
-####tcs:objectTaxonConcept
+#### tcs:objectTaxonConcept
 
 <table style="width:100%;">
 	<tbody>
@@ -691,7 +691,7 @@ This is the Taxon Concept at the left-hand side of the relationship  statement.
 
 This is the Taxon Concept at the right-hand side of the relationship  statement.
 
-####tcs:relationshipAccordingTo
+#### tcs:relationshipAccordingTo
 
 <table style="width:100%;">
 	<tbody>
@@ -729,7 +729,7 @@ In the case of Taxon Concept Relationships from traditional synonymy, the  `rela
 
 ### Taxon Name
 
-####tcs:TaxonName
+#### tcs:TaxonName
 
 <table style="width:100%;">
 	<tbody>
@@ -785,7 +785,7 @@ The word 'name' here is taken in its dictionary meaning and not in the  sense of
 ```
 
 
-####tcs:taxonNameString
+#### tcs:taxonNameString
 
 <table style="width:100%;">
 	<tbody>
@@ -821,7 +821,7 @@ The word 'name' here is taken in its dictionary meaning and not in the  sense of
 
 The `taxonNameString` property differs from the `scientificName` property  in Darwin Core in that all kinds of names are allowed. Also, in the case of  scientific names, contrary to the `dwc:scientificName`, `taxonNameString`  does not include the authorship. In botanical names, it does include the  rank prefixes for infrageneric and infraspecific epithets as they are  considered part of the name.
 
-####tcs:namePublishedIn
+#### tcs:namePublishedIn
 
 <table style="width:100%;">
 	<tbody>
@@ -857,7 +857,7 @@ The `taxonNameString` property differs from the `scientificName` property  in Da
 
 In botany, this would be the protologue. This is the IRI counterpart of  the Darwin Core `namePublishedIn`.
 
-####tcs:microreference
+#### tcs:microreference
 
 <table style="width:100%;">
 	<tbody>
@@ -893,7 +893,7 @@ In botany, this would be the protologue. This is the IRI counterpart of  the Dar
 
 In taxonomic works it is convention to cite the exact location in a work  where a new name is published. The `microreference` property lets one do  that on the Taxon Name object, so that the `namePublishedIn` reference can  be reused.
 
-####tcs:nomenclaturalCode
+#### tcs:nomenclaturalCode
 
 <table style="width:100%;">
 	<tbody>
@@ -929,7 +929,7 @@ In taxonomic works it is convention to cite the exact location in a work  where 
 
 This is the IRI equivalent of the Darwin Core `nomenclaturalCode`. In the  absence of a TDWG vocabulary, it is recommended to use a value from the GBIF  Nomenclatural Codes Vocabulary  (https://rs.gbif.org/vocabulary/gbif/nomenclatural_code.xml).
 
-####tcs:nomenclaturalStatus
+#### tcs:nomenclaturalStatus
 
 <table style="width:100%;">
 	<tbody>
@@ -965,7 +965,7 @@ This is the IRI equivalent of the Darwin Core `nomenclaturalCode`. In the  absen
 
 This is the IRI equivalent of the Darwin Core `nomenclaturalStatus`. In the  absence of a TDWG vocabulary, it is recommended to use a value from the GBIF  Nomenclatural Status Vocabulary  (https://rs.gbif.org/vocabulary/gbif/nomenclatural_status.xml).
 
-####tcs:basionym
+#### tcs:basionym
 
 <table style="width:100%;">
 	<tbody>
@@ -1018,7 +1018,7 @@ A basionym is the epithet-bringing name.  The `basionym` property is only  used 
 ```
 
 
-####tcs:replacementNameFor
+#### tcs:replacementNameFor
 
 <table style="width:100%;">
 	<tbody>
@@ -1054,7 +1054,7 @@ A basionym is the epithet-bringing name.  The `basionym` property is only  used 
 
 This is the 'replaced synonym' of the Botanical Code, which is to an avowed  substitute ('nom. nov.') what 'basionym' is to a new combination  ('comb. nov.')
 
-####tcs:basedOn
+#### tcs:basedOn
 
 <table style="width:100%;">
 	<tbody>
@@ -1085,7 +1085,7 @@ This is the 'replaced synonym' of the Botanical Code, which is to an avowed  sub
 	</tbody>
 </table>
 
-####tcs:conservedAgainst
+#### tcs:conservedAgainst
 
 <table style="width:100%;">
 	<tbody>
@@ -1121,7 +1121,7 @@ This is the 'replaced synonym' of the Botanical Code, which is to an avowed  sub
 
 A scientific name is not conserved against all other names, but only  against one or more names that in turn are rejected against the conserved  name. A name can be conserved against more than one other name, so this  property is repeatable.
 
-####dwc:scientificNameAuthorship
+#### dwc:scientificNameAuthorship
 
 <table style="width:100%;">
 	<tbody>
@@ -1156,7 +1156,7 @@ A scientific name is not conserved against all other names, but only  against on
 	</tbody>
 </table>
 
-####dwc:namePublishedInYear
+#### dwc:namePublishedInYear
 
 <table style="width:100%;">
 	<tbody>
@@ -1191,7 +1191,7 @@ A scientific name is not conserved against all other names, but only  against on
 	</tbody>
 </table>
 
-####dwc:genericName
+#### dwc:genericName
 
 <table style="width:100%;">
 	<tbody>
@@ -1226,7 +1226,7 @@ A scientific name is not conserved against all other names, but only  against on
 	</tbody>
 </table>
 
-####dwc:infragenericEpithet
+#### dwc:infragenericEpithet
 
 <table style="width:100%;">
 	<tbody>
@@ -1261,7 +1261,7 @@ A scientific name is not conserved against all other names, but only  against on
 	</tbody>
 </table>
 
-####dwc:specificEpithet
+#### dwc:specificEpithet
 
 <table style="width:100%;">
 	<tbody>
@@ -1296,7 +1296,7 @@ A scientific name is not conserved against all other names, but only  against on
 	</tbody>
 </table>
 
-####dwc:infraspecificEpithet
+#### dwc:infraspecificEpithet
 
 <table style="width:100%;">
 	<tbody>
@@ -1331,7 +1331,7 @@ A scientific name is not conserved against all other names, but only  against on
 	</tbody>
 </table>
 
-####dwc:cultivarEpithet
+#### dwc:cultivarEpithet
 
 <table style="width:100%;">
 	<tbody>
@@ -1368,7 +1368,7 @@ A scientific name is not conserved against all other names, but only  against on
 
 ### Nomenclatural Type
 
-####tcs:NomenclaturalType
+#### tcs:NomenclaturalType
 
 <table style="width:100%;">
 	<tbody>
@@ -1400,7 +1400,7 @@ A scientific name is not conserved against all other names, but only  against on
 
 A nomenclatural type fixes the usage of a name to the taxonomic group that  contains the type. One or more Nomenclatural Types make up the typification  of a Taxon Name. The Nomenclatural Type class is a decomposition of the  Darwin Core `typeStatus` into its individual components. It is the  intention that instances of this class can be referenced from both Taxon  Name (TCS) and Preserved Specimen (Darwin Core) records.
 
-####tcs:typifiedName
+#### tcs:typifiedName
 
 <table style="width:100%;">
 	<tbody>
@@ -1436,7 +1436,7 @@ A nomenclatural type fixes the usage of a name to the taxonomic group that  cont
 
 The `typifiedName` property links the Nomenclatural Type back to the Taxon  Name. Also, when coming from the Preserved Specimen, the typified name is  the most important piece of information, because there is no point in  knowing what kind of type a specimen is without knowing for what name it  is the type. Therefore, `typifiedName` is a required property.
 
-####tcs:typeOfType
+#### tcs:typeOfType
 
 <table style="width:100%;">
 	<tbody>
@@ -1472,7 +1472,7 @@ The `typifiedName` property links the Nomenclatural Type back to the Taxon  Name
 
 This is an IRI property. In the absence of a TDWG controlled vocabulary,  it is recommended to use a value from the GBIF Nomenclatural Type Status  Vocabulary (https://rs.gbif.org/vocabulary/gbif/type_status.xml).
 
-####tcs:typeName
+#### tcs:typeName
 
 <table style="width:100%;">
 	<tbody>
@@ -1508,7 +1508,7 @@ This is an IRI property. In the absence of a TDWG controlled vocabulary,  it is 
 
 Taxon names at ranks above species level can be typified by the name of a  lower taxon. Ultimately, by following the chain of type names, all names  resolve to a type species and thus a type specimen. One of `typeName` or  `typeSpecimen` is required.
 
-####tcs:typeSpecimen
+#### tcs:typeSpecimen
 
 <table style="width:100%;">
 	<tbody>
@@ -1543,7 +1543,7 @@ Taxon names at ranks above species level can be typified by the name of a  lower
 	</tbody>
 </table>
 
-####tcs:typePublishedIn
+#### tcs:typePublishedIn
 
 <table style="width:100%;">
 	<tbody>

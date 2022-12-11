@@ -10,7 +10,7 @@ do not edit the markdown directly, but make any changes in the YAML file.
 
 ## Vocabulary
 
-####tcsreltype:rt
+#### tcsreltype:rt
 
 <table style="width:100%;">
 	<tbody>
@@ -37,7 +37,7 @@ do not edit the markdown directly, but make any changes in the YAML file.
 	</tbody>
 </table>
 
-####tcsreltype:rt001
+#### tcsreltype:rt001
 
 <table style="width:100%;">
 	<tbody>
@@ -69,7 +69,7 @@ do not edit the markdown directly, but make any changes in the YAML file.
 
 The `isCongruentWith` relationship is symmetrical, so if A `isCongruentWith`  B then B `isCongruentWith` A, as well as transitive, so if A  `isCongruentWith` B and B `isCongruentWith` C it follows that A  `isCongruentWith` C.
 
-####tcsreltype:rt002
+#### tcsreltype:rt002
 
 <table style="width:100%;">
 	<tbody>
@@ -101,7 +101,7 @@ The `isCongruentWith` relationship is symmetrical, so if A `isCongruentWith`  B 
 
 The `hasProperSubset` relationship is not symmetric, its inverse  relationship being  `isProperSubsetOf`, so if A `hasProperSubset` B then B  `isProperSubsetOf` A. The `hasProperSubset` relationship  is transitive, so  if A `hasProperSubset` B and B `hasProperSubset` C it follows that A  `hasProperSubset` C.
 
-####tcsreltype:rt003
+#### tcsreltype:rt003
 
 <table style="width:100%;">
 	<tbody>
@@ -133,7 +133,7 @@ The `hasProperSubset` relationship is not symmetric, its inverse  relationship b
 
 The `isProperSubsetOf` relationship is not symmetric, its inverse  relationship being  `hasProperSubset`, so if A `isProperSubsetOf` B then B  `hasProperSubset` A. The `isProperSubsetOf` relationship  is transitive, so  if A `isProperSubsetOf` B and B `isProperSubsetOf` C it follows that A  `isProperSubsetOf` C.
 
-####tcsreltype:rt004
+#### tcsreltype:rt004
 
 <table style="width:100%;">
 	<tbody>
@@ -165,7 +165,7 @@ The `isProperSubsetOf` relationship is not symmetric, its inverse  relationship 
 
 The `partiallyOverlaps`  relationship is symmetrical, so if A  `partiallyOverlaps` B then B `partiallyOverlaps` A, but not transitive, so,  if A `partiallyOverlaps` B and B `partiallyOverlaps` C, it does not follow  that A `partiallyOverlaps` C.
 
-####tcsreltype:rt005
+#### tcsreltype:rt005
 
 <table style="width:100%;">
 	<tbody>
@@ -197,7 +197,7 @@ The `partiallyOverlaps`  relationship is symmetrical, so if A  `partiallyOverlap
 
 The `isDisjointFrom`  relationship is symmetrical, so if A `isDisjointFrom`  B then B `isDisjointFrom` A, but not transitive, so, if A `isDisjointFrom`  B and B `isDisjointFrom` C, it does not follow that A `isDisjointFrom` C.
 
-####tcsreltype:rt006
+#### tcsreltype:rt006
 
 <table style="width:100%;">
 	<tbody>
