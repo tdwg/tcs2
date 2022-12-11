@@ -41,3 +41,33 @@ ex:taxon-concept/2 a :TaxonConcept ;
                     A revised Moss Checklist of Peninsular Malaysia and Singapore. Research 
                     Pamphlet no. 133, Forest Research Institute Malaysia, Kepong, Malaysia." ] .
 ```
+
+Plants of the World Online:
+
+```turtle
+<https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:105644-1> a :TaxonConcept ;
+    skos:prefLabel "Begonia salaziensis sec. POWO 2022" ;
+    :taxonName [ <https://www.ipni.org/n/105644-1> a :TaxonName ;
+            :taxonNameString "Begonia salaziensis" ; 
+            dwc:scientificNameAuthorship "Warb." ;
+            dwc:namePublishedIn "Nat. Pflanzenfam. [Engler & Prantl] iii. 6 a. (1894) 139." ] ;
+    :accordingTo [ <urn:lsid:ipni.org:publications:17755-2> a bibo:Book ;
+        dcterms:bibliographicCitation "Govaerts, R. (1996). World Checklist of Seed Plants 2(1, 2): 
+                1-492. MIM, Deurne." ] .
+```
+
+Catalogue of Life:
+
+```turtle
+<https://www.catalogueoflife.org/data/taxon/KF8T> a :TaxonConcept ;
+    skos:prefLabel "Balaenoptera musculus sec. CoL 2022-11-14" ;
+    :taxonName [ a :TaxonName ;
+            :taxonNameString "Balaenoptera musculus" ;
+            dwc:scientificNameAuthorship "(Linnaeus, 1758)" ] ;
+    :accordingTo [ <https://www.catalogueoflife.org#v2022-11-14> a bibo:Website ;
+            dcterms:isVersionOf "https://www.catalogueoflife.org" ;
+            dcterms:title "Catalogue of Life, version 2022-11-14" ;
+            bibo:uri "https://www.catalogueoflife.org" ] .
+```
+
+
