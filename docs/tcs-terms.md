@@ -13,7 +13,7 @@ files.
 
 **Taxon Concept**
 
-[tcs:taxonName](#tcs_taxonName) | [tcs:accordingTo](#tcs_accordingTo) | [tcs:verbatimNameString](#tcs_verbatimNameString) | [tcs:taxonomicRank](#tcs_taxonomicRank) | [tcs:parent](#tcs_parent) | [tcs:synonym](#tcs_synonym) | [tcs:vernacularName](#tcs_vernacularName)
+[tcs:taxonName](#tcs_taxonName) | [tcs:accordingTo](#tcs_accordingTo) | [tcs:taxonomicRank](#tcs_taxonomicRank) | [tcs:parent](#tcs_parent) | [tcs:synonym](#tcs_synonym) | [tcs:vernacularName](#tcs_vernacularName)
 
 **Taxon Concept Relationship**
 
@@ -209,7 +209,11 @@ The object of `taxonName` is an object or IRI, so that it can be reused in  othe
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td><p>Reference to the treatment in which a Taxon Concept is established or used. </p></td>
+			<td><p>Reference to the treatment or other source in which a Taxon Concept is  established or used. </p></td>
+		</tr>
+		<tr>
+			<td>Usage</td>
+			<td><p><code>accordingTo</code> is an IRI term and is required on a Taxon Concept. A  Taxon Concept can have only one <code>accordingTo</code>. </p></td>
 		</tr>
 		<tr>
 			<td>GitHub issue</td>
@@ -224,42 +228,6 @@ The object of `taxonName` is an object or IRI, so that it can be reused in  othe
 Every Taxon Concept is in some sort of treatment and this treatment  provides important context without which we do not know what a taxon name  really means and therefore the `accordingTo` property is required for a TCS  Taxon Concept. In TCS 2, `accordingTo` has to be a reference to some sort  of resource rather than just a person's name. However, TCS is lenient about  the nature of this resource and, apart from references to bibliographic  resources, references to personal communications and determinations are  also acceptable, if there is value in supplying taxon concepts from such  communications as Taxon Concepts.
 
 The value of `accordingTo` has to be an object or IRI. This object can  contain as little as a bibliographic reference but it is much more useful  to provide it in a format that can be understood by reference managers  such as Zotero or Mendeley.
-
-### tcs:verbatimNameString
-
-<table style="width:100%;">
-	<tbody>
-		<tr>
-			<td>Identifier</td>
-			<td>http://rs.tdwg.org/tcs/terms/verbatimNameString</td>
-		</tr>
-		<tr>
-			<td>Type</td>
-			<td>http://www.w3.org/1999/02/22-rdf-syntax-ns#Property</td>
-		</tr>
-		<tr>
-			<td>Label</td>
-			<td>Verbatim Name String</td>
-		</tr>
-		<tr>
-			<td></td>
-			<td><b>required:</b> No — <b>repeatable:</b> No</td>
-		</tr>
-		<tr>
-			<td>Definition</td>
-			<td><p>The verbatim name string as used in the particular treatment.</p></td>
-		</tr>
-		<tr>
-			<td>GitHub issue</td>
-			<td>https://github.com/tdwg/tcs2/issues/3</td>
-		</tr>
-	</tbody>
-</table>
-
-
-**Comments**
-
-The name string used in the treatment may be somewhat different from the  currently accepted spelling of the Taxon Name. The 'verbatim' does not  need to be taken too literally: it is permissible to write out abbreviated  generic names, or only provide the final epithet where the difference is.  It is also up to the user whether this term is used all the time when there  is a difference in spelling, only for nomenclatural novelties, only for the  original publication of original combinations, or not at all. Systems  cannot require this term and cannot use a default. 
 
 ### tcs:taxonomicRank
 
@@ -284,6 +252,10 @@ The name string used in the treatment may be somewhat different from the  curren
 		<tr>
 			<td>Definition</td>
 			<td><p>The rank at which a taxon is classified.</p></td>
+		</tr>
+		<tr>
+			<td>Usage</td>
+			<td><p><code>taxonomicRank</code> is an IRI property; a Taxon Concept can have only one  <code>taxonomicRank</code>.</p></td>
 		</tr>
 		<tr>
 			<td>GitHub issue</td>
@@ -322,6 +294,10 @@ The rank is an attribute of elements in a classification and `taxonomicRank`  ca
 			<td><p>The direct parent in a classification.</p></td>
 		</tr>
 		<tr>
+			<td>Usage</td>
+			<td><p><code>parent</code> is another Taxon Concept; a Taxon Concept can have only one  <code>parent</code>.</p></td>
+		</tr>
+		<tr>
 			<td>GitHub issue</td>
 			<td>https://github.com/tdwg/tcs2/issues/8</td>
 		</tr>
@@ -331,7 +307,7 @@ The rank is an attribute of elements in a classification and `taxonomicRank`  ca
 
 **Comments**
 
-The `parent` is another Taxon Concept. This is the parent as indicated in  the `accordingTo` reference, rather than a third-party classification. The  `accordingTo` of the parent will generally, but not necessarily, be the  same as that of the child.
+The `parent` is another Taxon Concept. This is the parent as indicated in  the `accordingTo` reference, rather than a third-party classification. The  `accordingTo` of the parent will generally, but not necessarily, be the  same as that of the child. Parent-child relationships can also be exchanged  as, or converted to, TCS Taxon Relationships, using the `isProperSubsetOf`  and/or `hasProperSubset` relationships.
 
 ### tcs:synonym
 
@@ -356,6 +332,10 @@ The `parent` is another Taxon Concept. This is the parent as indicated in  the `
 		<tr>
 			<td>Definition</td>
 			<td><p>Name considered to apply to the same taxon as the accepted name.</p></td>
+		</tr>
+		<tr>
+			<td>Usage</td>
+			<td><p><code>synonym</code> is a Taxon Name; a Taxon Concept can have multiple synonyms.</p></td>
 		</tr>
 		<tr>
 			<td>GitHub issue</td>
@@ -412,6 +392,10 @@ Synonymy is between names but, if the names have different types, a Taxon  Conce
 		<tr>
 			<td>Definition</td>
 			<td><p>Common or vernacular name for a taxonomic group, when used besides the  <code>taxonName</code>.</p></td>
+		</tr>
+		<tr>
+			<td>Usage</td>
+			<td><p><code>vernacularName</code> is a Taxon Name or other Label; a Taxon Concept can have  more than one <code>vernacularName</code>.</p></td>
 		</tr>
 		<tr>
 			<td>GitHub issue</td>
@@ -474,6 +458,10 @@ The `vernacularName` property can be used when a vernacular name is used  alongs
 		<tr>
 			<td>Definition</td>
 			<td><p>Topological relationship between two Taxon Concepts.</p></td>
+		</tr>
+		<tr>
+			<td>Usage</td>
+			<td><p><code>relationshipType</code>, <code>subjectTaxonConcept</code>, <code>objectTaxonConcept</code> and  <code>relationshipAccordingTo</code> are all required.</p></td>
 		</tr>
 		<tr>
 			<td>GitHub issue</td>
@@ -612,16 +600,15 @@ _:n1 a :TaxonName ;
 			<td><p>The type of relationship.</p></td>
 		</tr>
 		<tr>
+			<td>Usage</td>
+			<td><p>This property is required; one MUST use a term from the Taxon Relationship  Vocabulary.</p></td>
+		</tr>
+		<tr>
 			<td>GitHub issue</td>
 			<td>https://github.com/tdwg/tcs2/issues/44</td>
 		</tr>
 	</tbody>
 </table>
-
-
-**Comments**
-
-This is an IRI term. One should use a value from the TDWG Taxon Concept  Relationship Type Vocabulary.
 
 ### tcs:subjectTaxonConcept
 
@@ -646,6 +633,10 @@ This is an IRI term. One should use a value from the TDWG Taxon Concept  Relatio
 		<tr>
 			<td>Definition</td>
 			<td><p>Taxon Concept that is the subject in the relationship statement.</p></td>
+		</tr>
+		<tr>
+			<td>Usage</td>
+			<td><p><code>subjectTaxonConcept</code> is a TCS Taxon Concept; a Taxon Relationship statement  can have only one <code>subjectTaxonConcept</code>.</p></td>
 		</tr>
 		<tr>
 			<td>GitHub issue</td>
@@ -684,6 +675,10 @@ This is the Taxon Concept at the left-hand side of the relationship  statement.
 			<td><p>Taxon Concept that is the object in the relationship statement.</p></td>
 		</tr>
 		<tr>
+			<td>Usage</td>
+			<td><p><code>objectTaxonConcept</code> is a TCS Taxon Concept; a Taxon Relationship statement  can have only one <code>objectTaxonConcept</code>.</p></td>
+		</tr>
+		<tr>
 			<td>GitHub issue</td>
 			<td>https://github.com/tdwg/tcs2/issues/46</td>
 		</tr>
@@ -720,6 +715,10 @@ This is the Taxon Concept at the right-hand side of the relationship  statement.
 			<td><p>Reference to the source of the taxon concept relationship statement.</p></td>
 		</tr>
 		<tr>
+			<td>Usage</td>
+			<td><p><code>relationshipAccordingTo</code> is an IRI term and is required; a Taxon  Relationship statement can have only one <code>relationshipAccordingTo</code>.</p></td>
+		</tr>
+		<tr>
 			<td>GitHub issue</td>
 			<td>https://github.com/tdwg/tcs2/issues/47</td>
 		</tr>
@@ -752,6 +751,10 @@ In the case of Taxon Concept Relationships from traditional synonymy, the  `rela
 		<tr>
 			<td>Definition</td>
 			<td><p>A name or label applied to a taxon or taxonomic group.</p></td>
+		</tr>
+		<tr>
+			<td>Usage</td>
+			<td><p>A TCS Taxon Name only requires a <code>taxonNameString</code>.</p></td>
 		</tr>
 		<tr>
 			<td>GitHub issue</td>
@@ -814,6 +817,10 @@ The word 'name' here is taken in its dictionary meaning and not in the  sense of
 			<td><p>The complete name string without any authority or year components.</p></td>
 		</tr>
 		<tr>
+			<td>Usage</td>
+			<td><p><code>taxonNameString</code> is a literal and is required on a TCS TAxon Name. A Taxon  Name can have only one <code>taxonNameString</code>.</p></td>
+		</tr>
+		<tr>
 			<td>GitHub issue</td>
 			<td>https://github.com/tdwg/tcs2/issues/16</td>
 		</tr>
@@ -848,6 +855,10 @@ The `taxonNameString` property differs from the `scientificName` property  in Da
 		<tr>
 			<td>Definition</td>
 			<td><p>Reference to the publication in which the name was first published.</p></td>
+		</tr>
+		<tr>
+			<td>Usage</td>
+			<td><p><code>taxonNameString</code> is a literal; there can only be one <code>taxonNameString</code> on  a Taxon Name.</p></td>
 		</tr>
 		<tr>
 			<td>GitHub issue</td>
@@ -886,6 +897,10 @@ In botany, this would be the protologue. This is the IRI counterpart of  the Dar
 			<td><p>Specifies any minor reference parts, e.g. page number.</p></td>
 		</tr>
 		<tr>
+			<td>Usage</td>
+			<td><p><code>microreference</code> is a string literal; a Taxon Name can have only one  <code>microreference</code> and only when <code>namePublishedIn</code> is used as well.</p></td>
+		</tr>
+		<tr>
 			<td>GitHub issue</td>
 			<td>https://github.com/tdwg/tcs2/issues/30</td>
 		</tr>
@@ -922,6 +937,10 @@ In taxonomic works it is convention to cite the exact location in a work  where 
 			<td><p>Nomenclatural code that applies to the group of organisms the taxonomic name  is for.</p></td>
 		</tr>
 		<tr>
+			<td>Usage</td>
+			<td><p><code>nomenclaturalCode</code> takes an IRI or object; a Taxon Name can have only one  <code>nomenclaturalCode</code>.</p></td>
+		</tr>
+		<tr>
 			<td>GitHub issue</td>
 			<td>https://github.com/tdwg/tcs2/issues/33</td>
 		</tr>
@@ -956,6 +975,10 @@ This is the IRI equivalent of the Darwin Core `nomenclaturalCode`. In the  absen
 		<tr>
 			<td>Definition</td>
 			<td><p>Status related to the original publication of the name and its conformance to the relevant rules of nomenclature.</p></td>
+		</tr>
+		<tr>
+			<td>Usage</td>
+			<td><p><code>nomenclaturalStatus</code> takes an IRI or object; a Taxon Name can have only one  <code>nomenclaturalStatus</code>.</p></td>
 		</tr>
 		<tr>
 			<td>GitHub issue</td>
@@ -1047,6 +1070,10 @@ A basionym is the epithet-bringing name.  The `basionym` property is only  used 
 			<td><p>Name for which this name is a replacement</p></td>
 		</tr>
 		<tr>
+			<td>Usage</td>
+			<td><p><code>replacementNameFor</code> is another Taxon Name; a Taxon Name can have only one  <code>replaccementNameFor</code>.</p></td>
+		</tr>
+		<tr>
 			<td>GitHub issue</td>
 			<td>https://github.com/tdwg/tcs2/issues/37</td>
 		</tr>
@@ -1112,6 +1139,10 @@ This is the 'replaced synonym' of the Botanical Code, which is to an avowed  sub
 		<tr>
 			<td>Definition</td>
 			<td><p>Name(s) against which this name is conserved.</p></td>
+		</tr>
+		<tr>
+			<td>Usage</td>
+			<td><p>The <code>conservedAgainst</code> property takes another Taxon Name; a Taxon Name can  be conserved against more than one other Taxon Names.</p></td>
 		</tr>
 		<tr>
 			<td>GitHub issue</td>
@@ -1393,6 +1424,10 @@ A scientific name is not conserved against all other names, but only  against on
 			<td><p>Element to which a scientific name is permanently attached.</p></td>
 		</tr>
 		<tr>
+			<td>Usage</td>
+			<td><p>A Nomenclatural Type requires a <code>typifiedName</code> and either a <code>typeName</code> or  <code>typeSpecimen</code>.</p></td>
+		</tr>
+		<tr>
 			<td>GitHub issue</td>
 			<td>https://github.com/tdwg/tcs2/issues/58</td>
 		</tr>
@@ -1427,6 +1462,10 @@ A nomenclatural type fixes the usage of a name to the taxonomic group that  cont
 		<tr>
 			<td>Definition</td>
 			<td><p>The scientific name for which the specimen or other name is the type.</p></td>
+		</tr>
+		<tr>
+			<td>Usage</td>
+			<td><p><code>typifiedName</code> is a Taxon Name and is required; a Nomenclatural Type can  typify only one Taxon Name.</p></td>
 		</tr>
 		<tr>
 			<td>GitHub issue</td>
@@ -1465,6 +1504,10 @@ The `typifiedName` property links the Nomenclatural Type back to the Taxon  Name
 			<td><p>The kind of type this specimen is, e.g. holotype, isotype etc.</p></td>
 		</tr>
 		<tr>
+			<td>Usage</td>
+			<td><p><code>typeOfType</code> is an IRI term and should take its value from a controlled  vocabulary. A Nomenclatural Type can have only one</p></td>
+		</tr>
+		<tr>
 			<td>GitHub issue</td>
 			<td>https://github.com/tdwg/tcs2/issues/60</td>
 		</tr>
@@ -1501,6 +1544,10 @@ This is an IRI property. In the absence of a TDWG controlled vocabulary,  it is 
 			<td><p>The name that is the type.</p></td>
 		</tr>
 		<tr>
+			<td>Usage</td>
+			<td><p><code>typeName</code> is a Taxon Name. A nomenclatural type can have only one  <code>typeName</code>. Either <code>typeName</code> or <code>typeSpecimen</code> is required and if one is  used the other MUST NOT be used.</p></td>
+		</tr>
+		<tr>
 			<td>GitHub issue</td>
 			<td>https://github.com/tdwg/tcs2/issues/61</td>
 		</tr>
@@ -1510,7 +1557,7 @@ This is an IRI property. In the absence of a TDWG controlled vocabulary,  it is 
 
 **Comments**
 
-Taxon names at ranks above species level can be typified by the name of a  lower taxon. Ultimately, by following the chain of type names, all names  resolve to a type species and thus a type specimen. One of `typeName` or  `typeSpecimen` is required.
+Taxon names at ranks above species level can be typified by the name of a  lower taxon. Ultimately, by following the chain of type names, all names  resolve to a type species and thus a type specimen. 
 
 ### tcs:typeSpecimen
 
@@ -1538,7 +1585,7 @@ Taxon names at ranks above species level can be typified by the name of a  lower
 		</tr>
 		<tr>
 			<td>Usage</td>
-			<td><p>Names at ranks of family and below are typified by a specimen. This property  is mutually exclusive with <code>typeName</code>. This is an IRI property. One could  use the Darwin Core Preserved Specimen. One of <code>typeSpecimen</code> or <code>typeName</code>  is required.</p></td>
+			<td><p><code>typeSpecimen</code> takes an IRI – or object – that refers to a specimen. A  Nomenclatural Type can only have one <code>typeSpecimen</code>. Either this property or  <code>typeName</code> is required and if one is used the other MUST NOT be used.</p></td>
 		</tr>
 		<tr>
 			<td>GitHub issue</td>
@@ -1546,6 +1593,11 @@ Taxon names at ranks above species level can be typified by the name of a  lower
 		</tr>
 	</tbody>
 </table>
+
+
+**Comments**
+
+Names at ranks of family and below are typified by a specimen. This property  is mutually exclusive with `typeName`. This is an IRI property. One could  use the Darwin Core Preserved Specimen. While a Taxon Name can have more  than one type specimens, each of these type specimens requires its own  Nomenclatural Type record, so a Nomenclatural Type can have only one  `typeSpecimen`.
 
 ### tcs:typePublishedIn
 
@@ -1570,6 +1622,10 @@ Taxon names at ranks above species level can be typified by the name of a  lower
 		<tr>
 			<td>Definition</td>
 			<td><p>Publication where the type was nominated</p></td>
+		</tr>
+		<tr>
+			<td>Usage</td>
+			<td><p><code>typePublishedIn</code> is an IRI term. A Nomenclatural Type can have at most one  <code>typePublishedIn</code>. </p></td>
 		</tr>
 		<tr>
 			<td>GitHub issue</td>

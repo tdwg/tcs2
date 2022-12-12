@@ -70,8 +70,11 @@
 - localName: accordingTo
   label: According To
   definition: >- 
-    Reference to the treatment in which a Taxon Concept is established or used. 
-  usage: null
+    Reference to the treatment or other source in which a Taxon Concept is 
+    established or used. 
+  usage: >-
+    `accordingTo` is an IRI term and is required on a Taxon Concept. A 
+    Taxon Concept can have only one `accordingTo`. 
   notes: >-
     Every Taxon Concept is in some sort of treatment and this treatment 
     provides important context without which we do not know what a taxon name 
@@ -96,32 +99,34 @@
   github: 4
 
 # property: verbatimNameString
-- localName: verbatimNameString
-  label: Verbatim Name String
-  definition: >-
-    The verbatim name string as used in the particular treatment.
-  usage: null
-  notes: >-
-    The name string used in the treatment may be somewhat different from the 
-    currently accepted spelling of the Taxon Name. The 'verbatim' does not 
-    need to be taken too literally: it is permissible to write out abbreviated 
-    generic names, or only provide the final epithet where the difference is. 
-    It is also up to the user whether this term is used all the time when there 
-    is a difference in spelling, only for nomenclatural novelties, only for the 
-    original publication of original combinations, or not at all. Systems 
-    cannot require this term and cannot use a default. 
-  examples: null
-  type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
-  organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonConcept
-  required: No
-  repeatable: No
-  github: 3
+# - localName: verbatimNameString
+#   label: Verbatim Name String
+#   definition: >-
+#     The verbatim name string as used in the particular treatment.
+#   usage: null
+#   notes: >-
+#     The name string used in the treatment may be somewhat different from the 
+#     currently accepted spelling of the Taxon Name. The 'verbatim' does not 
+#     need to be taken too literally: it is permissible to write out abbreviated 
+#     generic names, or only provide the final epithet where the difference is. 
+#     It is also up to the user whether this term is used all the time when there 
+#     is a difference in spelling, only for nomenclatural novelties, only for the 
+#     original publication of original combinations, or not at all. Systems 
+#     cannot require this term and cannot use a default. 
+#   examples: null
+#   type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+#   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonConcept
+#   required: No
+#   repeatable: No
+#   github: 3
 
 # property: taxonomicRank
 - localName: taxonomicRank
   label: Taxonomic Rank
   definition: The rank at which a taxon is classified.
-  usage: null
+  usage: >-
+    `taxonomicRank` is an IRI property; a Taxon Concept can have only one 
+    `taxonomicRank`.
   notes: >-
     The rank is an attribute of elements in a classification and `taxonomicRank` 
     can be applied to Taxon Concepts as well Taxon Names, as the rank of a 
@@ -141,12 +146,16 @@
   label: Parent
   definition: >-
     The direct parent in a classification.
-  usage: null
+  usage: >-
+    `parent` is another Taxon Concept; a Taxon Concept can have only one 
+    `parent`.
   notes: >-
     The `parent` is another Taxon Concept. This is the parent as indicated in 
     the `accordingTo` reference, rather than a third-party classification. The 
     `accordingTo` of the parent will generally, but not necessarily, be the 
-    same as that of the child.
+    same as that of the child. Parent-child relationships can also be exchanged 
+    as, or converted to, TCS Taxon Relationships, using the `isProperSubsetOf` 
+    and/or `hasProperSubset` relationships.
   examples: null
   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonConcept
   repeatable: No
@@ -159,7 +168,8 @@
   label: Synonym
   definition: >-
     Name considered to apply to the same taxon as the accepted name.
-  usage: null
+  usage: >-
+    `synonym` is a Taxon Name; a Taxon Concept can have multiple synonyms.
   notes: >-
     Synonymy is between names but, if the names have different types, a Taxon 
     Concept is required. Therefore, `synonym` is a property of the Taxon Concept 
@@ -184,7 +194,9 @@
   definition: >-
     Common or vernacular name for a taxonomic group, when used besides the 
     `taxonName`.
-  usage: null
+  usage: >-
+    `vernacularName` is a Taxon Name or other Label; a Taxon Concept can have 
+    more than one `vernacularName`.
   notes: >-
     The `vernacularName` property can be used when a vernacular name is used 
     alongside a scientific name, which is the `taxonName`. If a vernacular name 
@@ -201,7 +213,9 @@
   label: Taxon Concept Relationship
   definition: Topological relationship between two Taxon Concepts.
   examples: "TaxonRelationship.md"
-  usage: null
+  usage: >-
+    `relationshipType`, `subjectTaxonConcept`, `objectTaxonConcept` and 
+    `relationshipAccordingTo` are all required.
   notes: >-
     Taxon Concept Relationships are a set of relationships that allow for the 
     alignment of Taxon Concepts – or taxon concept mapping. The main 
@@ -230,10 +244,10 @@
 - localName: relationshipType
   label: Relationship type
   definition: The type of relationship.
-  usage: null
-  notes: >-
-    This is an IRI term. One should use a value from the TDWG Taxon Concept 
-    Relationship Type Vocabulary.
+  usage: >-
+    This property is required; one MUST use a term from the Taxon Relationship 
+    Vocabulary.
+  notes: null
   examples: null
   type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonConceptRelationship
@@ -245,7 +259,9 @@
 - localName: subjectTaxonConcept
   label: Subject Taxon Concept
   definition: Taxon Concept that is the subject in the relationship statement.
-  usage: null
+  usage: >-
+    `subjectTaxonConcept` is a TCS Taxon Concept; a Taxon Relationship statement 
+    can have only one `subjectTaxonConcept`.
   notes: >-
     This is the Taxon Concept at the left-hand side of the relationship 
     statement.
@@ -260,7 +276,9 @@
 - localName: objectTaxonConcept
   label: Object Taxon Concept
   definition: Taxon Concept that is the object in the relationship statement.
-  usage: null
+  usage: >-
+    `objectTaxonConcept` is a TCS Taxon Concept; a Taxon Relationship statement 
+    can have only one `objectTaxonConcept`.
   notes: >-
     This is the Taxon Concept at the right-hand side of the relationship 
     statement.
@@ -276,7 +294,9 @@
   label: Relationship According To
   definition: >-
     Reference to the source of the taxon concept relationship statement.
-  usage: null
+  usage: >-
+    `relationshipAccordingTo` is an IRI term and is required; a Taxon 
+    Relationship statement can have only one `relationshipAccordingTo`.
   notes: >-
     In the case of Taxon Concept Relationships from traditional synonymy, the 
     `relationshipAccordingTo` is the same as the `accordingTo` of the Taxon 
@@ -284,8 +304,8 @@
   examples: null
   type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonConceptRelationship
-  repeatable: No
   required: Yes
+  repeatable: No
   github: 47
 
 
@@ -293,7 +313,8 @@
 - localName: TaxonName
   label: Taxon Name
   definition: A name or label applied to a taxon or taxonomic group. 
-  usage: null
+  usage: >-
+    A TCS Taxon Name only requires a `taxonNameString`.
   notes: >-
     The word 'name' here is taken in its dictionary meaning and not in the 
     sense of a particular nomenclatural code. This means that the Taxon Name 
@@ -311,7 +332,9 @@
   label: Taxon Name String
   definition: >-
     The complete name string without any authority or year components.
-  usage: null
+  usage: >-
+    `taxonNameString` is a literal and is required on a TCS TAxon Name. A Taxon 
+    Name can have only one `taxonNameString`.
   notes: >-
     The `taxonNameString` property differs from the `scientificName` property 
     in Darwin Core in that all kinds of names are allowed. Also, in the case of 
@@ -331,7 +354,9 @@
   label: Name Published In
   definition: >-
     Reference to the publication in which the name was first published.
-  usage: null
+  usage: >-
+    `taxonNameString` is a literal; there can only be one `taxonNameString` on 
+    a Taxon Name.
   notes: >-
     In botany, this would be the protologue. This is the IRI counterpart of 
     the Darwin Core `namePublishedIn`.
@@ -346,7 +371,9 @@
 - localName: microreference
   label: Microreference
   definition: Specifies any minor reference parts, e.g. page number.
-  usage: null
+  usage: >-
+    `microreference` is a string literal; a Taxon Name can have only one 
+    `microreference` and only when `namePublishedIn` is used as well.
   notes: >-
     In taxonomic works it is convention to cite the exact location in a work 
     where a new name is published. The `microreference` property lets one do 
@@ -365,7 +392,9 @@
   definition: >-
     Nomenclatural code that applies to the group of organisms the taxonomic name 
     is for.
-  usage: null
+  usage: >-
+    `nomenclaturalCode` takes an IRI or object; a Taxon Name can have only one 
+    `nomenclaturalCode`.
   notes: >-
     This is the IRI equivalent of the Darwin Core `nomenclaturalCode`. In the 
     absence of a TDWG vocabulary, it is recommended to use a value from the GBIF 
@@ -384,7 +413,10 @@
   definition: >-
     Status related to the original publication of the name and its conformance
     to the relevant rules of nomenclature.
-  usage: null
+  usage: >-
+    `nomenclaturalStatus` takes an IRI or object; a Taxon Name can have only one 
+    `nomenclaturalStatus`.
+
   notes: >-
     This is the IRI equivalent of the Darwin Core `nomenclaturalStatus`. In the 
     absence of a TDWG vocabulary, it is recommended to use a value from the GBIF 
@@ -401,6 +433,9 @@
 - localName: basionym
   label: Basionym
   definition: Original name on which the present name is based.
+  usage: >-
+    A `basionym` is another Taxon Name; a Taxon Name can have only one 
+    `basionym`.
   notes: >-
     A basionym is the epithet-bringing name.  The `basionym` property is only 
     used for new combinations ('comb. nov.'). If the new name is an avowed 
@@ -418,7 +453,9 @@
 - localName: replacementNameFor
   label: Replacement Name For
   definition: Name for which this name is a replacement
-  usage: null
+  usage: >-
+    `replacementNameFor` is another Taxon Name; a Taxon Name can have only one 
+    `replaccementNameFor`.
   notes: >-
     This is the 'replaced synonym' of the Botanical Code, which is to an avowed 
     substitute ('nom. nov.') what 'basionym' is to a new combination 
@@ -449,7 +486,9 @@
 - localName: conservedAgainst
   label: Conserved Against
   definition: Name(s) against which this name is conserved.
-  usage: null
+  usage: >-
+    The `conservedAgainst` property takes another Taxon Name; a Taxon Name can 
+    be conserved against more than one other Taxon Names.
   notes: >-
     A scientific name is not conserved against all other names, but only 
     against one or more names that in turn are rejected against the conserved 
@@ -467,7 +506,9 @@
 - localName: NomenclaturalType
   label: Nomenclatural Type
   definition: Element to which a scientific name is permanently attached.
-  usage: null
+  usage: >-
+    A Nomenclatural Type requires a `typifiedName` and either a `typeName` or 
+    `typeSpecimen`.
   notes: >-
     A nomenclatural type fixes the usage of a name to the taxonomic group that 
     contains the type. One or more Nomenclatural Types make up the typification 
@@ -487,7 +528,9 @@
   label: Typified Name
   definition: >-
     The scientific name for which the specimen or other name is the type.
-  usage: null
+  usage: >-
+    `typifiedName` is a Taxon Name and is required; a Nomenclatural Type can 
+    typify only one Taxon Name.
   notes: >-
     The `typifiedName` property links the Nomenclatural Type back to the Taxon 
     Name. Also, when coming from the Preserved Specimen, the typified name is 
@@ -506,7 +549,9 @@
   label: Type of Type
   definition: >-
     The kind of type this specimen is, e.g. holotype, isotype etc.
-  usage: null
+  usage: >-
+    `typeOfType` is an IRI term and should take its value from a controlled 
+    vocabulary. A Nomenclatural Type can have only one
   notes: >-
     This is an IRI property. In the absence of a TDWG controlled vocabulary, 
     it is recommended to use a value from the GBIF Nomenclatural Type Status 
@@ -522,12 +567,14 @@
 - localName: typeName
   label: Type Name
   definition: The name that is the type.
-  usage: null
+  usage: >-
+    `typeName` is a Taxon Name. A nomenclatural type can have only one 
+    `typeName`. Either `typeName` or `typeSpecimen` is required and if one is 
+    used the other MUST NOT be used.
   notes: >-
     Taxon names at ranks above species level can be typified by the name of a 
     lower taxon. Ultimately, by following the chain of type names, all names 
-    resolve to a type species and thus a type specimen. One of `typeName` or 
-    `typeSpecimen` is required.
+    resolve to a type species and thus a type specimen. 
   examples: null
   type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
   organizedInClass: http://rs.tdwg.org/tcs/terms/NomenclaturalType
@@ -540,11 +587,16 @@
   label: Type Specimen
   definition: The specimen that is the type.
   usage: >-
+    `typeSpecimen` takes an IRI – or object – that refers to a specimen. A 
+    Nomenclatural Type can only have one `typeSpecimen`. Either this property or 
+    `typeName` is required and if one is used the other MUST NOT be used.
+  notes: >-
     Names at ranks of family and below are typified by a specimen. This property 
     is mutually exclusive with `typeName`. This is an IRI property. One could 
-    use the Darwin Core Preserved Specimen. One of `typeSpecimen` or `typeName` 
-    is required.
-  notes: null
+    use the Darwin Core Preserved Specimen. While a Taxon Name can have more 
+    than one type specimens, each of these type specimens requires its own 
+    Nomenclatural Type record, so a Nomenclatural Type can have only one 
+    `typeSpecimen`.
   examples: null
   type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
   organizedInClass: http://rs.tdwg.org/tcs/terms/NomenclaturalType
@@ -556,7 +608,9 @@
 - localName: typePublishedIn
   label: Type Published In
   definition: Publication where the type was nominated
-  usage: null
+  usage: >-
+    `typePublishedIn` is an IRI term. A Nomenclatural Type can have at most one 
+    `typePublishedIn`. 
   notes: >-
     `typePublishedIn` is relevant for lectotypes, neotypes, epitypes and 
     conserved types. For other kinds of type the publication where the type is 
