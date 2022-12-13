@@ -512,10 +512,8 @@
   notes: >-
     A nomenclatural type fixes the usage of a name to the taxonomic group that 
     contains the type. One or more Nomenclatural Types make up the typification 
-    of a Taxon Name. The Nomenclatural Type class is a decomposition of the 
-    Darwin Core `typeStatus` into its individual components. It is the 
-    intention that instances of this class can be referenced from both Taxon 
-    Name (TCS) and Preserved Specimen (Darwin Core) records.
+    of a Taxon Name. In Darwin Core RDF, NomenclaturalType can be used as object 
+    with `dwciri:typeStatus`.
   examples: null
   type: http://www.w3.org/2000/01/rdf-schema#Class
   organizedInClass: http://rs.tdwg.org/tcs/terms/NomenclaturalType
@@ -569,8 +567,7 @@
   definition: The name that is the type.
   usage: >-
     `typeName` is a Taxon Name. A nomenclatural type can have only one 
-    `typeName`. Either `typeName` or `typeSpecimen` is required and if one is 
-    used the other MUST NOT be used.
+    `typeName`.
   notes: >-
     Taxon names at ranks above species level can be typified by the name of a 
     lower taxon. Ultimately, by following the chain of type names, all names 
@@ -588,8 +585,7 @@
   definition: The specimen that is the type.
   usage: >-
     `typeSpecimen` takes an IRI – or object – that refers to a specimen. A 
-    Nomenclatural Type can only have one `typeSpecimen`. Either this property or 
-    `typeName` is required and if one is used the other MUST NOT be used.
+    Nomenclatural Type can only have one `typeSpecimen`.
   notes: >-
     Names at ranks of family and below are typified by a specimen. This property 
     is mutually exclusive with `typeName`. This is an IRI property. One could 

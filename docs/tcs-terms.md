@@ -1437,7 +1437,7 @@ A scientific name is not conserved against all other names, but only  against on
 
 **Comments**
 
-A nomenclatural type fixes the usage of a name to the taxonomic group that  contains the type. One or more Nomenclatural Types make up the typification  of a Taxon Name. The Nomenclatural Type class is a decomposition of the  Darwin Core `typeStatus` into its individual components. It is the  intention that instances of this class can be referenced from both Taxon  Name (TCS) and Preserved Specimen (Darwin Core) records.
+A nomenclatural type fixes the usage of a name to the taxonomic group that  contains the type. One or more Nomenclatural Types make up the typification  of a Taxon Name. In Darwin Core RDF, NomenclaturalType can be used as object  with `dwciri:typeStatus`.
 
 ### tcs:typifiedName
 
@@ -1545,7 +1545,7 @@ This is an IRI property. In the absence of a TDWG controlled vocabulary,  it is 
 		</tr>
 		<tr>
 			<td>Usage</td>
-			<td><p><code>typeName</code> is a Taxon Name. A nomenclatural type can have only one  <code>typeName</code>. Either <code>typeName</code> or <code>typeSpecimen</code> is required and if one is  used the other MUST NOT be used.</p></td>
+			<td><p><code>typeName</code> is a Taxon Name. A nomenclatural type can have only one  <code>typeName</code>.</p></td>
 		</tr>
 		<tr>
 			<td>GitHub issue</td>
@@ -1585,7 +1585,7 @@ Taxon names at ranks above species level can be typified by the name of a  lower
 		</tr>
 		<tr>
 			<td>Usage</td>
-			<td><p><code>typeSpecimen</code> takes an IRI – or object – that refers to a specimen. A  Nomenclatural Type can only have one <code>typeSpecimen</code>. Either this property or  <code>typeName</code> is required and if one is used the other MUST NOT be used.</p></td>
+			<td><p><code>typeSpecimen</code> takes an IRI – or object – that refers to a specimen. A  Nomenclatural Type can only have one <code>typeSpecimen</code>.</p></td>
 		</tr>
 		<tr>
 			<td>GitHub issue</td>
