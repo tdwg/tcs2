@@ -6,7 +6,7 @@ do not edit the markdown directly, but make any changes in the YAML file.
 
 ## Index of terms
 
-[Taxon Concept Relationship Type Concept Scheme](#tcsreltype_rt) | [Is Congruent With](#tcsreltype_rt001) | [Has proper subset](#tcsreltype_rt002) | [Is proper subset of](#tcsreltype_rt003) | [partiallyOverlaps](#tcsreltype_rt004) | [Is disjoint from](#tcsreltype_rt005) | [Intersects](#tcsreltype_rt006)
+[Taxon Concept Relationship Type Concept Scheme](##user-content-tcsreltypert) | [Is Congruent With](##user-content-tcsreltypert001) | [Has proper subset](##user-content-tcsreltypert002) | [Is proper subset of](##user-content-tcsreltypert003) | [partiallyOverlaps](##user-content-tcsreltypert004) | [Is disjoint from](##user-content-tcsreltypert005) | [Intersects](##user-content-tcsreltypert006)
 
 ### tcsreltype:rt
 

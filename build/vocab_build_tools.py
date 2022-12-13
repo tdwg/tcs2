@@ -121,8 +121,8 @@ def create_index(categories, merged_df):
             else:
                 label = '{label}'.format(label=row['label'])
 
-            anchor = '#{namespaceAlias}_{localName}'.format(
-                namespaceAlias=row['namespaceAlias'], localName=row['localName'])
+            anchor = '##user-content-{namespaceAlias}{localName}'.format(
+                namespaceAlias=row['namespaceAlias'], localName=row['localName'].lower())
 
             if 'Class' not in row['type']:
                 item = '[{label}]({anchor})'.format(label=label, anchor=anchor)
