@@ -9,7 +9,7 @@ files.
 
 **classes**
 
-[tcs:TaxonConcept](#tcs_TaxonConcept) | [tcs:TaxonConceptRelationship](#tcs_TaxonConceptRelationship) | [tcs:TaxonName](#tcs_TaxonName) | [tcs:NomenclaturalType](#tcs_NomenclaturalType)
+[tcs:TaxonConcept](#user-content-tcstaxonconcept) | [tcs:TaxonConceptRelationship](#user-content-tcstaxonconceptrelationship) | [tcs:TaxonName](#user-content-tcstaxonname) | [tcs:NomenclaturalType](#user-content-tcsnomenclaturaltype)
 
 **Taxon Concept**
 

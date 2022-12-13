@@ -97,8 +97,8 @@ def create_index(categories, merged_df):
         for index, row in merged_df[merged_df['type'].str.contains('Class')].iterrows():
             label = '{namespaceAlias}:{localName}'.format(
                 namespaceAlias=row['namespaceAlias'], localName=row['localName'])
-            anchor = '#{namespaceAlias}_{localName}'.format(
-                namespaceAlias=row['namespaceAlias'], localName=row['localName'])
+            anchor = '#user-content-{namespaceAlias}{localName}'.format(
+                namespaceAlias=row['namespaceAlias'], localName=row['localName'].lower())
             item = '[{label}]({anchor})'.format(label=label, anchor=anchor)
             items.append(item)
         text += ' | '.join(items) + '\n\n'
