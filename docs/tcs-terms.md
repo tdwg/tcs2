@@ -9,23 +9,23 @@ files.
 
 **classes**
 
-[tcs:TaxonConcept](#user-content-tcstaxonconcept) | [tcs:TaxonConceptRelationship](#user-content-tcstaxonconceptrelationship) | [tcs:TaxonName](#user-content-tcstaxonname) | [tcs:NomenclaturalType](#user-content-tcsnomenclaturaltype)
+[tcs:TaxonConcept](#tcstaxonconcept) | [tcs:TaxonConceptRelationship](#tcstaxonconceptrelationship) | [tcs:TaxonName](#tcstaxonname) | [tcs:NomenclaturalType](#tcsnomenclaturaltype)
 
 **Taxon Concept**
 
-[tcs:taxonName](##user-content-tcstaxonname) | [tcs:accordingTo](##user-content-tcsaccordingto) | [tcs:taxonomicRank](##user-content-tcstaxonomicrank) | [tcs:parent](##user-content-tcsparent) | [tcs:synonym](##user-content-tcssynonym) | [tcs:vernacularName](##user-content-tcsvernacularname)
+[tcs:taxonName](#tcstaxonname) | [tcs:accordingTo](#tcsaccordingto) | [tcs:taxonomicRank](#tcstaxonomicrank) | [tcs:parent](#tcsparent) | [tcs:synonym](#tcssynonym) | [tcs:vernacularName](#tcsvernacularname)
 
 **Taxon Concept Relationship**
 
-[tcs:relationshipType](##user-content-tcsrelationshiptype) | [tcs:subjectTaxonConcept](##user-content-tcssubjecttaxonconcept) | [tcs:objectTaxonConcept](##user-content-tcsobjecttaxonconcept) | [tcs:relationshipAccordingTo](##user-content-tcsrelationshipaccordingto)
+[tcs:relationshipType](#tcsrelationshiptype) | [tcs:subjectTaxonConcept](#tcssubjecttaxonconcept) | [tcs:objectTaxonConcept](#tcsobjecttaxonconcept) | [tcs:relationshipAccordingTo](#tcsrelationshipaccordingto)
 
 **Taxon Name**
 
-[tcs:taxonNameString](##user-content-tcstaxonnamestring) | [tcs:namePublishedIn](##user-content-tcsnamepublishedin) | [tcs:microreference](##user-content-tcsmicroreference) | [tcs:nomenclaturalCode](##user-content-tcsnomenclaturalcode) | [tcs:nomenclaturalStatus](##user-content-tcsnomenclaturalstatus) | [tcs:basionym](##user-content-tcsbasionym) | [tcs:replacementNameFor](##user-content-tcsreplacementnamefor) | [tcs:basedOn](##user-content-tcsbasedon) | [tcs:conservedAgainst](##user-content-tcsconservedagainst) | [dwc:scientificNameAuthorship](##user-content-dwcscientificnameauthorship) | [dwc:namePublishedInYear](##user-content-dwcnamepublishedinyear) | [dwc:genericName](##user-content-dwcgenericname) | [dwc:infragenericEpithet](##user-content-dwcinfragenericepithet) | [dwc:specificEpithet](##user-content-dwcspecificepithet) | [dwc:infraspecificEpithet](##user-content-dwcinfraspecificepithet) | [dwc:cultivarEpithet](##user-content-dwccultivarepithet)
+[tcs:taxonNameString](#tcstaxonnamestring) | [tcs:namePublishedIn](#tcsnamepublishedin) | [tcs:microreference](#tcsmicroreference) | [tcs:nomenclaturalCode](#tcsnomenclaturalcode) | [tcs:nomenclaturalStatus](#tcsnomenclaturalstatus) | [tcs:basionym](#tcsbasionym) | [tcs:replacementNameFor](#tcsreplacementnamefor) | [tcs:basedOn](#tcsbasedon) | [tcs:conservedAgainst](#tcsconservedagainst) | [dwc:scientificNameAuthorship](#dwcscientificnameauthorship) | [dwc:namePublishedInYear](#dwcnamepublishedinyear) | [dwc:genericName](#dwcgenericname) | [dwc:infragenericEpithet](#dwcinfragenericepithet) | [dwc:specificEpithet](#dwcspecificepithet) | [dwc:infraspecificEpithet](#dwcinfraspecificepithet) | [dwc:cultivarEpithet](#dwccultivarepithet)
 
 **Nomenclatural Type**
 
-[tcs:typifiedName](##user-content-tcstypifiedname) | [tcs:typeOfType](##user-content-tcstypeoftype) | [tcs:typeName](##user-content-tcstypename) | [tcs:typeSpecimen](##user-content-tcstypespecimen) | [tcs:typePublishedIn](##user-content-tcstypepublishedin)
+[tcs:typifiedName](#tcstypifiedname) | [tcs:typeOfType](#tcstypeoftype) | [tcs:typeName](#tcstypename) | [tcs:typeSpecimen](#tcstypespecimen) | [tcs:typePublishedIn](#tcstypepublishedin)
 
 ## Taxon Concept
 
