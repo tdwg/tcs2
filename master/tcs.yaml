@@ -98,28 +98,6 @@
   repeatable: No
   github: 4
 
-# property: verbatimNameString
-# - localName: verbatimNameString
-#   label: Verbatim Name String
-#   definition: >-
-#     The verbatim name string as used in the particular treatment.
-#   usage: null
-#   notes: >-
-#     The name string used in the treatment may be somewhat different from the 
-#     currently accepted spelling of the Taxon Name. The 'verbatim' does not 
-#     need to be taken too literally: it is permissible to write out abbreviated 
-#     generic names, or only provide the final epithet where the difference is. 
-#     It is also up to the user whether this term is used all the time when there 
-#     is a difference in spelling, only for nomenclatural novelties, only for the 
-#     original publication of original combinations, or not at all. Systems 
-#     cannot require this term and cannot use a default. 
-#   examples: null
-#   type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
-#   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonConcept
-#   required: No
-#   repeatable: No
-#   github: 3
-
 # property: taxonomicRank
 - localName: taxonomicRank
   label: Taxonomic Rank
@@ -154,8 +132,8 @@
     the `accordingTo` reference, rather than a third-party classification. The 
     `accordingTo` of the parent will generally, but not necessarily, be the 
     same as that of the child. Parent-child relationships can also be exchanged 
-    as, or converted to, TCS Taxon Relationships, using the `isProperSubsetOf` 
-    and/or `hasProperSubset` relationships.
+    as, or converted to, TCS Taxon Concept Relationships, using the 
+    `isProperSubsetOf` and/or `hasProperSubset` relationships.
   examples: null
   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonConcept
   repeatable: No
@@ -245,8 +223,8 @@
   label: Relationship type
   definition: The type of relationship.
   usage: >-
-    This property is required; one MUST use a term from the Taxon Relationship 
-    Vocabulary.
+    This property is required; one MUST use a term from the Taxon Concept 
+    Relationship Vocabulary.
   notes: null
   examples: null
   type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
@@ -260,8 +238,8 @@
   label: Subject Taxon Concept
   definition: Taxon Concept that is the subject in the relationship statement.
   usage: >-
-    `subjectTaxonConcept` is a TCS Taxon Concept; a Taxon Relationship statement 
-    can have only one `subjectTaxonConcept`.
+    `subjectTaxonConcept` is a TCS Taxon Concept; a Taxon Concept Relationship 
+    statement can have only one `subjectTaxonConcept`.
   notes: >-
     This is the Taxon Concept at the left-hand side of the relationship 
     statement.
@@ -277,8 +255,8 @@
   label: Object Taxon Concept
   definition: Taxon Concept that is the object in the relationship statement.
   usage: >-
-    `objectTaxonConcept` is a TCS Taxon Concept; a Taxon Relationship statement 
-    can have only one `objectTaxonConcept`.
+    `objectTaxonConcept` is a TCS Taxon Concept; a Taxon Concept Relationship 
+    statement can have only one `objectTaxonConcept`.
   notes: >-
     This is the Taxon Concept at the right-hand side of the relationship 
     statement.

@@ -307,7 +307,7 @@ The rank is an attribute of elements in a classification and `taxonomicRank`  ca
 
 **Comments**
 
-The `parent` is another Taxon Concept. This is the parent as indicated in  the `accordingTo` reference, rather than a third-party classification. The  `accordingTo` of the parent will generally, but not necessarily, be the  same as that of the child. Parent-child relationships can also be exchanged  as, or converted to, TCS Taxon Relationships, using the `isProperSubsetOf`  and/or `hasProperSubset` relationships.
+The `parent` is another Taxon Concept. This is the parent as indicated in  the `accordingTo` reference, rather than a third-party classification. The  `accordingTo` of the parent will generally, but not necessarily, be the  same as that of the child. Parent-child relationships can also be exchanged  as, or converted to, TCS Taxon Concept Relationships, using the  `isProperSubsetOf` and/or `hasProperSubset` relationships.
 
 ### tcs:synonym
 
@@ -646,7 +646,7 @@ _:n1 a :TaxonName ;
 		</tr>
 		<tr>
 			<td>Usage</td>
-			<td><p>This property is required; one MUST use a term from the Taxon Relationship  Vocabulary.</p></td>
+			<td><p>This property is required; one MUST use a term from the Taxon Concept  Relationship Vocabulary.</p></td>
 		</tr>
 		<tr>
 			<td>GitHub issue</td>
@@ -681,7 +681,7 @@ _:n1 a :TaxonName ;
 		</tr>
 		<tr>
 			<td>Usage</td>
-			<td><p><code>subjectTaxonConcept</code> is a TCS Taxon Concept; a Taxon Relationship statement  can have only one <code>subjectTaxonConcept</code>.</p></td>
+			<td><p><code>subjectTaxonConcept</code> is a TCS Taxon Concept; a Taxon Concept Relationship  statement can have only one <code>subjectTaxonConcept</code>.</p></td>
 		</tr>
 		<tr>
 			<td>GitHub issue</td>
@@ -721,7 +721,7 @@ This is the Taxon Concept at the left-hand side of the relationship  statement.
 		</tr>
 		<tr>
 			<td>Usage</td>
-			<td><p><code>objectTaxonConcept</code> is a TCS Taxon Concept; a Taxon Relationship statement  can have only one <code>objectTaxonConcept</code>.</p></td>
+			<td><p><code>objectTaxonConcept</code> is a TCS Taxon Concept; a Taxon Concept Relationship  statement can have only one <code>objectTaxonConcept</code>.</p></td>
 		</tr>
 		<tr>
 			<td>GitHub issue</td>
