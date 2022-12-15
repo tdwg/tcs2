@@ -451,7 +451,7 @@ The `vernacularName` property can be used when a vernacular name is used  alongs
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td>Title</td>
+			<td>Taxon concept label</td>
 		</tr>
 		<tr>
 			<td></td>

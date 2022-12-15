@@ -4,7 +4,7 @@
 
 # title
 - localName: title
-  label: Title
+  label: Taxon concept label
   definition: A name given to the resource.
   usage: null
   notes: >
