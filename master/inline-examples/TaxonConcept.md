@@ -2,7 +2,7 @@ Taxonomic treatment:
 
 ```turtle
 [] :TaxonConcept ;
-    dcterms:title "Dicranoloma blumei sec. Klazenga 1999" ;
+    dcterms:title "Dicranoloma blumei sec. Klazenga (1999)" ;
     :taxonName [ <https://www.tropicos.org/name/35121475> a :TaxonName ;
             :taxonNameString "Dicranoloma blumei" ;
             dwc:scientificNameAuthorship "(Nees) Renauld" ] ;
@@ -16,7 +16,7 @@ Field guide:
 
 ```turtle
 [] a :TaxonConcept ;
-        dcterms:title "Orthetrum caledonicum sec. Theischinger and Hawking 2010" ;
+        dcterms:title "Orthetrum caledonicum sec. Theischinger and Hawking (2010)" ;
         :taxonName [ a :TaxonName ; 
                 :taxonNameString "Orthetrum caledonicum" ] ;
         :vernacularName [ a :TaxonName ;
@@ -32,7 +32,7 @@ Checklist:
 
 ```turtle
 [] a :TaxonConcept ;
-    dcterms:title "Calymperes moluccense sec. Yong et al. 2013" ;
+    dcterms:title "Calymperes moluccense sec. Yong et al. (2013)" ;
     :taxonName [ <https://www.tropicos.org/name/35153806> a :TaxonName ;
             :taxonNameString "Calymperes moluccense" ;
             dwc:scientificNameAuthorship "Schwägr." ] ;
@@ -46,7 +46,7 @@ Plants of the World Online:
 
 ```turtle
 <https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:105644-1> a :TaxonConcept ;
-    dcterms:title "Begonia salaziensis sec. POWO 2022" ;
+    dcterms:title "Begonia salaziensis sec. POWO (2022)" ;
     :taxonName [ <https://www.ipni.org/n/105644-1> a :TaxonName ;
             :taxonNameString "Begonia salaziensis" ; 
             dwc:scientificNameAuthorship "Warb." ;
@@ -60,7 +60,7 @@ Catalogue of Life:
 
 ```turtle
 <https://www.catalogueoflife.org/data/taxon/KF8T> a :TaxonConcept ;
-    dcterms:title "Balaenoptera musculus sec. CoL 2022-11-14" ;
+    dcterms:title "Balaenoptera musculus sec. Catalogue of Life (2022-11-14)" ;
     :taxonName [ a :TaxonName ;
             :taxonNameString "Balaenoptera musculus" ;
             dwc:scientificNameAuthorship "(Linnaeus, 1758)" ] ;

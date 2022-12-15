@@ -1,6 +1,6 @@
 ```turtle
 [] a :TaxonConcept ;
-    dcterms:title "Hebe imbricata sec. Bayly & Kellow 2006" ;
+    dcterms:title "Hebe imbricata sec. Bayly & Kellow (2006)" ;
     :taxonName [ <https://www.ipni.org/n/989261-1> a :TaxonName ;
             :taxonNameString "Hebe imbricata" ;
             dwc:scientificNameAuthorship "Cockayne & Allen" ;
