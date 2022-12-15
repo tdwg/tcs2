@@ -26,7 +26,7 @@
                 [ a :TaxonName ;
                         :taxonNameString "Dicranoloma assimile f. major"^^xsd:String ;
                         dwc:scientificNameAuthorship "M.Fleisch."^^xsd:string ;
-                        dwc:namePublishedIn "Musci Fl. Buitenzorg 74 (1904)"^^xsd:string ;
+                        dwc:namePublishedIn "Musci Fl. Buitenzorg 1: 74 (1904)"^^xsd:string ;
                         dwc:namePublishedInYear "1904" ]
                 tropicos:35121587 
                 tropicos:35121523 
