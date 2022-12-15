@@ -3,11 +3,11 @@
 #
 
 # Taxon Relationship Type Concept Scheme
-- localName: rt
+- localName: ""
   type: http://www.w3.org/2004/02/skos/core#ConceptScheme
   label: Taxon Concept Relationship Type Concept Scheme
   controlled_value_string: null
-  skos_inScheme: rt
+  skos_inScheme: TaxonConceptRelationshipType
   definition: >- 
     A SKOS Concept Scheme for controlled values for 
     `tcs:taxonConceptRelationshipType`
@@ -16,11 +16,11 @@
   examples: null
 
 # controlled term: isCongruentWith
-- localName: rt001
+- localName: isCongruentWith
   type: http://www.w3.org/2004/02/skos/core#Concept
   label: Is Congruent With
   controlled_value_string: isCongruentWith
-  skos_inScheme: rt
+  skos_inScheme: TaxonConceptRelationshipType
   definition: >-
     The subject and object taxon concepts have a congruent taxonomic meaning, 
     i.e. there is no conflict between the concepts
@@ -33,9 +33,9 @@
   examples: null
 
 # controlled term: hasProperSubset
-- localName: rt002
+- localName: hasProperSubset
   label: Has proper subset
-  skos_inScheme: rt
+  skos_inScheme: TaxonConceptRelationshipType
   controlled_value_string: hasProperSubset
   definition: >-
     The subject taxon concept has a more inclusive taxonomic meaning than
@@ -52,9 +52,9 @@
   type: http://www.w3.org/2004/02/skos/core#Concept
 
 # controlled term: isProperSubsetOf
-- localName: rt003
+- localName: isProperSubsetOf
   label: Is proper subset of
-  skos_inScheme: rt
+  skos_inScheme: TaxonConceptRelationshipType
   controlled_value_string: isProperSubsetOf
   definition: >-
     The subject taxon concept has a less inclusive taxonomic meaning than the 
@@ -70,11 +70,11 @@
   usage: null
 
 # controlled term: partiallyOverlaps
-- localName: rt004
+- localName: partiallyOverlaps
   type: http://www.w3.org/2004/02/skos/core#Concept
   label: partiallyOverlaps
   controlled_value_string: partiallyOverlaps
-  skos_inScheme: rt
+  skos_inScheme: TaxonConceptRelationshipType
   definition: >-
     The subject and object taxon concepts have partially overlapping taxonomic 
     meanings, _i.e._ they have some members in common, but each concept in 
@@ -88,11 +88,11 @@
     that A `partiallyOverlaps` C.
 
 # controlled term: isDisjointFrom
-- localName: rt005
+- localName: isDisjointFrom
   type: http://www.w3.org/2004/02/skos/core#Concept
   label: Is disjoint from
   controlled_value_string: isDisjointFrom
-  skos_inScheme: rt
+  skos_inScheme: TaxonConceptRelationshipType
   definition: >-
     The subject and objects taxon concepts have non-overlapping taxonomic 
     meanings, _i.e._ they do not have any members in common
@@ -104,9 +104,9 @@
   examples: null
 
 # controlled term: intersects
-- localName: rt006
+- localName: intersects
   label: Intersects
-  skos_inScheme: rt
+  skos_inScheme: TaxonConceptRelationshipType
   controlled_value_string: intersects
   definition: >-
     The taxonomic meanings of the subject and object taxon concepts intersect, 

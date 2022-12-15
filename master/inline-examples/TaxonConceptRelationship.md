@@ -1,7 +1,7 @@
 ```turtle
 # Athyriaceae sec. Rothfels et al. 2012 is proper subset of Woodsiaceae sec. Smith et al. 2006
-[] a :TaxonRelationship ; # isProperSubsetOf
-    :relationshipType <http://rs.tdwg.org/tcs-taxon-concept-relationship-type/values/rt003> ; 
+[] a :TaxonRelationship ; 
+    :relationshipType tcreltype:isProperSubsetOf ; 
     :subjectTaxonConcept [ a :TaxonConcept ; 
             skos:prefLabel "Athyriaceae sec. Rothfels et al. 2012" ;
             :taxonName [ a :TaxonName ;
@@ -30,7 +30,7 @@
 # Dicranum fuscescens sec. Koperski et al. 2000 is congruent with Dicranum fuscescens sec. Corley 
 # et al. 1981
 [] a :TaxonRelationship ;
-        :relationshipType <http://rs.tdwg.org/tcs-taxon-concept-relationship-type/values/rt001> ; 
+        :relationshipType tcreltype:isCongruentWith ; 
         :subjectTaxonConcept [ a :TaxonConcept ;
                 skos:prefLabel "Dicranum fuscescens sec. Koperski et al. 2000" ;
                 :taxonName <https://www.tropicos.org/name/35122385> ;
@@ -57,9 +57,9 @@
 ```
 
 ```turtle
-# Phyllotrox sec. Franz & O'Brien 2001 overlaps Phyllotrox sec. Franz 2006
+# Phyllotrox sec. Franz & O'Brien 2001 partially overlaps Phyllotrox sec. Franz 2006
 [] a :TaxonRelationship ;
-    :relationshipType <http://rs.tdwg.org/tcs-taxon-concept-relationship-type/values/rt001> ;
+    :relationshipType tcreltype:partiallyOverlaps ;
     :subjectTaxonConcept [ a :TaxonConcept ;
             skos:prefLabel "Phyllotrox sec. Franz & O'Brien 2001" ;
             :taxonName _:n1 ;

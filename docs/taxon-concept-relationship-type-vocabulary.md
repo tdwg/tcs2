@@ -6,15 +6,15 @@ do not edit the markdown directly, but make any changes in the YAML file.
 
 ## Index of terms
 
-[Taxon Concept Relationship Type Concept Scheme](#tcsreltypert) | [Is Congruent With](#tcsreltypert001) | [Has proper subset](#tcsreltypert002) | [Is proper subset of](#tcsreltypert003) | [partiallyOverlaps](#tcsreltypert004) | [Is disjoint from](#tcsreltypert005) | [Intersects](#tcsreltypert006)
+[Taxon Concept Relationship Type Concept Scheme](#tcreltype) | [Is Congruent With](#tcreltypeiscongruentwith) | [Has proper subset](#tcreltypehaspropersubset) | [Is proper subset of](#tcreltypeispropersubsetof) | [partiallyOverlaps](#tcreltypepartiallyoverlaps) | [Is disjoint from](#tcreltypeisdisjointfrom) | [Intersects](#tcreltypeintersects)
 
-### tcsreltype:rt
+### tcreltype:
 
 <table style="width:100%;">
 	<tbody>
 		<tr>
 			<td>Identifier</td>
-			<td>http://rs.tdwg.org/tcs-taxon-concept-relationship-type/values/rt</td>
+			<td>http://rs.tdwg.org/tcs-taxon-concept-relationship-type/values/</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -35,13 +35,13 @@ do not edit the markdown directly, but make any changes in the YAML file.
 	</tbody>
 </table>
 
-### tcsreltype:rt001
+### tcreltype:isCongruentWith
 
 <table style="width:100%;">
 	<tbody>
 		<tr>
 			<td>Identifier</td>
-			<td>http://rs.tdwg.org/tcs-taxon-concept-relationship-type/values/rt001</td>
+			<td>http://rs.tdwg.org/tcs-taxon-concept-relationship-type/values/isCongruentWith</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -67,13 +67,13 @@ do not edit the markdown directly, but make any changes in the YAML file.
 
 The `isCongruentWith` relationship is symmetrical, so if A `isCongruentWith`  B then B `isCongruentWith` A, as well as transitive, so if A  `isCongruentWith` B and B `isCongruentWith` C it follows that A  `isCongruentWith` C.
 
-### tcsreltype:rt002
+### tcreltype:hasProperSubset
 
 <table style="width:100%;">
 	<tbody>
 		<tr>
 			<td>Identifier</td>
-			<td>http://rs.tdwg.org/tcs-taxon-concept-relationship-type/values/rt002</td>
+			<td>http://rs.tdwg.org/tcs-taxon-concept-relationship-type/values/hasProperSubset</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -99,13 +99,13 @@ The `isCongruentWith` relationship is symmetrical, so if A `isCongruentWith`  B 
 
 The `hasProperSubset` relationship is not symmetric, its inverse  relationship being  `isProperSubsetOf`, so if A `hasProperSubset` B then B  `isProperSubsetOf` A. The `hasProperSubset` relationship  is transitive, so  if A `hasProperSubset` B and B `hasProperSubset` C it follows that A  `hasProperSubset` C.
 
-### tcsreltype:rt003
+### tcreltype:isProperSubsetOf
 
 <table style="width:100%;">
 	<tbody>
 		<tr>
 			<td>Identifier</td>
-			<td>http://rs.tdwg.org/tcs-taxon-concept-relationship-type/values/rt003</td>
+			<td>http://rs.tdwg.org/tcs-taxon-concept-relationship-type/values/isProperSubsetOf</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -131,13 +131,13 @@ The `hasProperSubset` relationship is not symmetric, its inverse  relationship b
 
 The `isProperSubsetOf` relationship is not symmetric, its inverse  relationship being  `hasProperSubset`, so if A `isProperSubsetOf` B then B  `hasProperSubset` A. The `isProperSubsetOf` relationship  is transitive, so  if A `isProperSubsetOf` B and B `isProperSubsetOf` C it follows that A  `isProperSubsetOf` C.
 
-### tcsreltype:rt004
+### tcreltype:partiallyOverlaps
 
 <table style="width:100%;">
 	<tbody>
 		<tr>
 			<td>Identifier</td>
-			<td>http://rs.tdwg.org/tcs-taxon-concept-relationship-type/values/rt004</td>
+			<td>http://rs.tdwg.org/tcs-taxon-concept-relationship-type/values/partiallyOverlaps</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -163,13 +163,13 @@ The `isProperSubsetOf` relationship is not symmetric, its inverse  relationship 
 
 The `partiallyOverlaps`  relationship is symmetrical, so if A  `partiallyOverlaps` B then B `partiallyOverlaps` A, but not transitive, so,  if A `partiallyOverlaps` B and B `partiallyOverlaps` C, it does not follow  that A `partiallyOverlaps` C.
 
-### tcsreltype:rt005
+### tcreltype:isDisjointFrom
 
 <table style="width:100%;">
 	<tbody>
 		<tr>
 			<td>Identifier</td>
-			<td>http://rs.tdwg.org/tcs-taxon-concept-relationship-type/values/rt005</td>
+			<td>http://rs.tdwg.org/tcs-taxon-concept-relationship-type/values/isDisjointFrom</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -195,13 +195,13 @@ The `partiallyOverlaps`  relationship is symmetrical, so if A  `partiallyOverlap
 
 The `isDisjointFrom`  relationship is symmetrical, so if A `isDisjointFrom`  B then B `isDisjointFrom` A, but not transitive, so, if A `isDisjointFrom`  B and B `isDisjointFrom` C, it does not follow that A `isDisjointFrom` C.
 
-### tcsreltype:rt006
+### tcreltype:intersects
 
 <table style="width:100%;">
 	<tbody>
 		<tr>
 			<td>Identifier</td>
-			<td>http://rs.tdwg.org/tcs-taxon-concept-relationship-type/values/rt006</td>
+			<td>http://rs.tdwg.org/tcs-taxon-concept-relationship-type/values/intersects</td>
 		</tr>
 		<tr>
 			<td>Type</td>

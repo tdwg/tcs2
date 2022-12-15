@@ -35,7 +35,7 @@ footerFileName: ./static/termlist-footer.md
 outFileName: ../docs/taxon-concept-relationship-type-vocabulary.md
 termLists:
   - filename: tcsTaxonConceptRelationshipType
-    vann_preferredNamespacePrefix: tcsreltype
+    vann_preferredNamespacePrefix: tcreltype
     vann_preferredNamespaceUri: http://rs.tdwg.org/tcs-taxon-concept-relationship-type/values/
 categories:
   - namespace: http://rs.tdwg.org/tcs-taxon-concept-relationship-type/values/
