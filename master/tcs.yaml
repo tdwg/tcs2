@@ -212,7 +212,7 @@
 - localName: TaxonConceptRelationship
   label: Taxon Concept Relationship
   definition: Topological relationship between two Taxon Concepts.
-  examples: "TaxonRelationship.md"
+  examples: "TaxonConceptRelationship.md"
   usage: >-
     `relationshipType`, `subjectTaxonConcept`, `objectTaxonConcept` and 
     `relationshipAccordingTo` are all required.

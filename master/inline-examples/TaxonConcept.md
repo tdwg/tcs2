@@ -1,7 +1,7 @@
 Taxonomic treatment:
 
 ```turtle
-ex:taxon-concept/1 a :TaxonConcept ;
+[] :TaxonConcept ;
     skos:prefLabel "Dicranoloma blumei sec. Klazenga 1999" ;
     :taxonName [ <https://www.tropicos.org/name/35121475> a :TaxonName ;
             :taxonNameString "Dicranoloma blumei" ;
@@ -15,7 +15,7 @@ ex:taxon-concept/1 a :TaxonConcept ;
 Field guide:
 
 ```turtle
-ex:taxon-concept/3 a :TaxonConcept ;
+[] a :TaxonConcept ;
         skos:prefLabel "Orthetrum caledonicum sec. Theischinger and Hawking 2010" ;
         :taxonName [ a :TaxonName ; 
                 :taxonNameString "Orthetrum caledonicum" ] ;
@@ -31,7 +31,7 @@ ex:taxon-concept/3 a :TaxonConcept ;
 Checklist:
 
 ```turtle
-ex:taxon-concept/2 a :TaxonConcept ;
+[] a :TaxonConcept ;
     skos:prefLabel "Calymperes moluccense sec. Yong et al. 2013" ;
     :taxonName [ <https://www.tropicos.org/name/35153806> a :TaxonName ;
             :taxonNameString "Calymperes moluccense" ;

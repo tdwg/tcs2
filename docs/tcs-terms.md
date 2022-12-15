@@ -73,7 +73,7 @@ The TCS Taxon Concept is a data object and is applied more broadly than the  ter
 Taxonomic treatment:
 
 ```turtle
-ex:taxon-concept/1 a :TaxonConcept ;
+[] :TaxonConcept ;
     skos:prefLabel "Dicranoloma blumei sec. Klazenga 1999" ;
     :taxonName [ <https://www.tropicos.org/name/35121475> a :TaxonName ;
             :taxonNameString "Dicranoloma blumei" ;
@@ -87,7 +87,7 @@ ex:taxon-concept/1 a :TaxonConcept ;
 Field guide:
 
 ```turtle
-ex:taxon-concept/3 a :TaxonConcept ;
+[] a :TaxonConcept ;
         skos:prefLabel "Orthetrum caledonicum sec. Theischinger and Hawking 2010" ;
         :taxonName [ a :TaxonName ; 
                 :taxonNameString "Orthetrum caledonicum" ] ;
@@ -103,7 +103,7 @@ ex:taxon-concept/3 a :TaxonConcept ;
 Checklist:
 
 ```turtle
-ex:taxon-concept/2 a :TaxonConcept ;
+[] a :TaxonConcept ;
     skos:prefLabel "Calymperes moluccense sec. Yong et al. 2013" ;
     :taxonName [ <https://www.tropicos.org/name/35153806> a :TaxonName ;
             :taxonNameString "Calymperes moluccense" ;
@@ -529,8 +529,8 @@ Taxon Concept Relationship statements can be made in the treatment of the  subje
 
 ```turtle
 # Athyriaceae sec. Rothfels et al. 2012 is proper subset of Woodsiaceae sec. Smith et al. 2006
-[] a :TaxonRelationship ; # isProperSubsetOf
-    :relationshipType <http://rs.tdwg.org/tcs-taxon-concept-relationship-type/values/rt003> ; 
+[] a :TaxonRelationship ; 
+    :relationshipType tcreltype:isProperSubsetOf ; 
     :subjectTaxonConcept [ a :TaxonConcept ; 
             skos:prefLabel "Athyriaceae sec. Rothfels et al. 2012" ;
             :taxonName [ a :TaxonName ;
@@ -559,7 +559,7 @@ Taxon Concept Relationship statements can be made in the treatment of the  subje
 # Dicranum fuscescens sec. Koperski et al. 2000 is congruent with Dicranum fuscescens sec. Corley 
 # et al. 1981
 [] a :TaxonRelationship ;
-        :relationshipType <http://rs.tdwg.org/tcs-taxon-concept-relationship-type/values/rt001> ; 
+        :relationshipType tcreltype:isCongruentWith ; 
         :subjectTaxonConcept [ a :TaxonConcept ;
                 skos:prefLabel "Dicranum fuscescens sec. Koperski et al. 2000" ;
                 :taxonName <https://www.tropicos.org/name/35122385> ;
@@ -586,9 +586,9 @@ Taxon Concept Relationship statements can be made in the treatment of the  subje
 ```
 
 ```turtle
-# Phyllotrox sec. Franz & O'Brien 2001 overlaps Phyllotrox sec. Franz 2006
+# Phyllotrox sec. Franz & O'Brien 2001 partially overlaps Phyllotrox sec. Franz 2006
 [] a :TaxonRelationship ;
-    :relationshipType <http://rs.tdwg.org/tcs-taxon-concept-relationship-type/values/rt001> ;
+    :relationshipType tcreltype:partiallyOverlaps ;
     :subjectTaxonConcept [ a :TaxonConcept ;
             skos:prefLabel "Phyllotrox sec. Franz & O'Brien 2001" ;
             :taxonName _:n1 ;
