@@ -445,21 +445,6 @@
   repeatable: No
   github: 37
 
-# property: basedOn
-- localName: basedOn
-  label: Based On
-  definition: >-
-    Invalidly published or illegitimate name for which this name is the 
-    validation.
-  usage: null
-  notes: null
-  examples: null
-  type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
-  organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonName
-  required: No
-  repeatable: No
-  github: 38
-
 # property: conservedAgainst
 - localName: conservedAgainst
   label: Conserved Against
