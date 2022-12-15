@@ -15,7 +15,7 @@
     "subjectTaxonConcept": { "@type": "@id" },
     "objectTaxonConcept": { "@type": "@id" },
     "relationshipAccordingTo": { "@type": "@id" },
-    "taxonomicNameString": { "@type": "xsd:String" },
+    "taxonNameString": { "@type": "xsd:String" },
     "namePublishedIn": { "@type": "@id" },
     "microReference": { "@type": "xsd:String" },
     "nomenclaturalCode": { "@type": "@id" },

@@ -446,7 +446,7 @@ tropicos:35102656 a :TaxonName ;
                     bibo:shortTitle "J. Bryol." ] ;
             bibo:issue "4" ;
             bibo:volume "11" ] ;
-    bibo:pages "173-177" .
+    bibo:pages "609-689" .
 
 <https://www.tropicos.org/reference/9010070> a bibo:AcademicArticle ;
     dcterms:creator ( _:n13 _:n15 ) ;
