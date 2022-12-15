@@ -9,6 +9,9 @@ termLists:
   - filename: dwc-for-tcs
     vann_preferredNamespacePrefix: dwc
     vann_preferredNamespaceUri: http://rs.tdwg.org/dwc/terms/
+  - filename: dcterms-for-tcs
+    vann_preferredNamespacePrefix: dcterms
+    vann_preferredNamespaceUri: http://purl.org/dc/terms/
 categories:
   - namespace: 'http://rs.tdwg.org/tcs/terms/TaxonConcept'
     label: Taxon Concept

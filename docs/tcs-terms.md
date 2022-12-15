@@ -13,7 +13,7 @@ files.
 
 **Taxon Concept**
 
-[tcs:taxonName](#tcstaxonname) | [tcs:accordingTo](#tcsaccordingto) | [tcs:taxonomicRank](#tcstaxonomicrank) | [tcs:parent](#tcsparent) | [tcs:synonym](#tcssynonym) | [tcs:vernacularName](#tcsvernacularname)
+[tcs:taxonName](#tcstaxonname) | [tcs:accordingTo](#tcsaccordingto) | [tcs:taxonomicRank](#tcstaxonomicrank) | [tcs:parent](#tcsparent) | [tcs:synonym](#tcssynonym) | [tcs:vernacularName](#tcsvernacularname) | [dcterms:title](#dctermstitle)
 
 **Taxon Concept Relationship**
 
@@ -436,6 +436,51 @@ The `vernacularName` property can be used when a vernacular name is used  alongs
             24. Noordhoff, Groningen." ] .
 ```
 
+
+### dcterms:title
+
+<table style="width:100%;">
+	<tbody>
+		<tr>
+			<td>Identifier</td>
+			<td>http://purl.org/dc/terms/title</td>
+		</tr>
+		<tr>
+			<td>Type</td>
+			<td>http://www.w3.org/1999/02/22-rdf-syntax-ns#Property</td>
+		</tr>
+		<tr>
+			<td>Label</td>
+			<td>Title</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td><b>required:</b> No — <b>repeatable:</b> No</td>
+		</tr>
+		<tr>
+			<td>Definition</td>
+			<td><p>A name given to the resource.</p></td>
+		</tr>
+		<tr>
+			<td>GitHub issue</td>
+			<td>https://github.com/tdwg/tcs2/issues/222</td>
+		</tr>
+	</tbody>
+</table>
+
+
+**Comments**
+
+In TCS `dcterms:title` is used for the taxonomic concept label (cf.  Senderov et al., 2018), which consists of the Taxon Name and a reference to  the publication where the concept is circumscribed, separated by 'sec.',  which stands for 'secundus' ('according to'). It is used to indicate one  specific meaning of a name – a Taxon Concept – rather than the cumulative  nomenclatural and taxonomic legacy associated with the name.
+
+
+
+**Examples**
+
+```
+Andropogon virginicus var. tenuis-patheus sec. Blomquist (1948)
+Perelleschus sec. Franz & Cardona-Duque (2013)
+```
 
 ## Taxon Concept Relationship
 
