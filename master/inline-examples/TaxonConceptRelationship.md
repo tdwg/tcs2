@@ -3,12 +3,12 @@
 [] a :TaxonRelationship ; 
     :relationshipType tcreltype:isProperSubsetOf ; 
     :subjectTaxonConcept [ a :TaxonConcept ; 
-            skos:prefLabel "Athyriaceae sec. Rothfels et al. 2012" ;
+            dcterms:title "Athyriaceae sec. Rothfels et al. 2012" ;
             :taxonName [ a :TaxonName ;
                     :taxonNameString "Athyriaceae" ] ;
             :accordingTo <https://doi.org/10.1002/tax.613003> ] ;
     :objectTaxonConcept [ a :TaxonConcept ;
-            skos:prefLabel "Woodsiaceae sec. Smith et al. 2006" ;
+            dcterms:title "Woodsiaceae sec. Smith et al. 2006" ;
             :taxonName [ a :TaxonName ;
                     :taxonNameString "Woodsiaceae" ] ;
             :accordingTo <https://doi.org/10.2307/25065646> ] ;
@@ -32,11 +32,11 @@
 [] a :TaxonRelationship ;
         :relationshipType tcreltype:isCongruentWith ; 
         :subjectTaxonConcept [ a :TaxonConcept ;
-                skos:prefLabel "Dicranum fuscescens sec. Koperski et al. 2000" ;
+                dcterms:title "Dicranum fuscescens sec. Koperski et al. 2000" ;
                 :taxonName <https://www.tropicos.org/name/35122385> ;
                 :accordingTo <https://www.tropicos.org/reference/9022656> ] ;
         :objectTaxonConcept [ a :TaxonConcept ;
-                skos:prefLabel "Dicranum fuscescens sec. Corley et al. 1981" ;
+                dcterms:title "Dicranum fuscescens sec. Corley et al. 1981" ;
                 :taxonName <https://www.tropicos.org/name/35122385> ;
                 :accordingTo <https://www.tropicos.org/reference/9004554> ] ;
         :raletionshipAccordingTo <https://www.tropicos.org/reference/9022656> .
@@ -61,11 +61,11 @@
 [] a :TaxonRelationship ;
     :relationshipType tcreltype:partiallyOverlaps ;
     :subjectTaxonConcept [ a :TaxonConcept ;
-            skos:prefLabel "Phyllotrox sec. Franz & O'Brien 2001" ;
+            dcterms:title "Phyllotrox sec. Franz & O'Brien 2001" ;
             :taxonName _:n1 ;
             :accordingTo <https://www.jstor.org/stable/25078744> ] ;
     :objectTaxonConcept [ a :TaxonConcept ; 
-            skos:prefLabel "Phyllotrox sec. Franz 2006" ;
+            dcterms:title "Phyllotrox sec. Franz 2006" ;
             :taxonName _:n1 ;
             :accordingTo <https://doi.org/10.1111/j.1365-3113.2005.00308.x> ] ;
     :relationshipAccordingTo <https://doi.org/10.1111/cla.12042> .

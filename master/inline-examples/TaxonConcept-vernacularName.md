@@ -1,6 +1,6 @@
 ```turtle
 [] a :TaxonConcept ;
-    skos:prefLabel "Graphium macleayanum sec. Orr & Kitching 2010"
+    dcterms:title "Graphium macleayanum sec. Orr & Kitching 2010"
     :taxonName [ a :TaxonName ;
             :taxonNameString "Graphium macleayanum" ]
     :vernacularName [ a TaxonName ;
@@ -12,7 +12,7 @@
 
 ```turtle
 [] a :TaxonConcept ;
-    skos:prefLabel "Quercus robur sec. Duistermaat 2020" ;
+    dcterms:title "Quercus robur sec. Duistermaat 2020" ;
     :taxonName [ <https://www.ipni.org/n/304293-2> a :TaxonName ;
             :taxonNameString "Quercus robur" ] ;
     :vernacularName [ a :TaxonName ;

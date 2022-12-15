@@ -74,7 +74,7 @@ Taxonomic treatment:
 
 ```turtle
 [] :TaxonConcept ;
-    skos:prefLabel "Dicranoloma blumei sec. Klazenga 1999" ;
+    dcterms:title "Dicranoloma blumei sec. Klazenga 1999" ;
     :taxonName [ <https://www.tropicos.org/name/35121475> a :TaxonName ;
             :taxonNameString "Dicranoloma blumei" ;
             dwc:scientificNameAuthorship "(Nees) Renauld" ] ;
@@ -88,7 +88,7 @@ Field guide:
 
 ```turtle
 [] a :TaxonConcept ;
-        skos:prefLabel "Orthetrum caledonicum sec. Theischinger and Hawking 2010" ;
+        dcterms:title "Orthetrum caledonicum sec. Theischinger and Hawking 2010" ;
         :taxonName [ a :TaxonName ; 
                 :taxonNameString "Orthetrum caledonicum" ] ;
         :vernacularName [ a :TaxonName ;
@@ -104,7 +104,7 @@ Checklist:
 
 ```turtle
 [] a :TaxonConcept ;
-    skos:prefLabel "Calymperes moluccense sec. Yong et al. 2013" ;
+    dcterms:title "Calymperes moluccense sec. Yong et al. 2013" ;
     :taxonName [ <https://www.tropicos.org/name/35153806> a :TaxonName ;
             :taxonNameString "Calymperes moluccense" ;
             dwc:scientificNameAuthorship "Schwägr." ] ;
@@ -118,7 +118,7 @@ Plants of the World Online:
 
 ```turtle
 <https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:105644-1> a :TaxonConcept ;
-    skos:prefLabel "Begonia salaziensis sec. POWO 2022" ;
+    dcterms:title "Begonia salaziensis sec. POWO 2022" ;
     :taxonName [ <https://www.ipni.org/n/105644-1> a :TaxonName ;
             :taxonNameString "Begonia salaziensis" ; 
             dwc:scientificNameAuthorship "Warb." ;
@@ -132,7 +132,7 @@ Catalogue of Life:
 
 ```turtle
 <https://www.catalogueoflife.org/data/taxon/KF8T> a :TaxonConcept ;
-    skos:prefLabel "Balaenoptera musculus sec. CoL 2022-11-14" ;
+    dcterms:title "Balaenoptera musculus sec. CoL 2022-11-14" ;
     :taxonName [ a :TaxonName ;
             :taxonNameString "Balaenoptera musculus" ;
             dwc:scientificNameAuthorship "(Linnaeus, 1758)" ] ;
@@ -354,7 +354,7 @@ Synonymy is between names but, if the names have different types, a Taxon  Conce
 
 ```turtle
 [] a :TaxonConcept ;
-    skos:prefLabel "Hebe imbricata sec. Bayly & Kellow 2006" ;
+    dcterms:title "Hebe imbricata sec. Bayly & Kellow 2006" ;
     :taxonName [ <https://www.ipni.org/n/989261-1> a :TaxonName ;
             :taxonNameString "Hebe imbricata" ;
             dwc:scientificNameAuthorship "Cockayne & Allen" ;
@@ -414,7 +414,7 @@ The `vernacularName` property can be used when a vernacular name is used  alongs
 
 ```turtle
 [] a :TaxonConcept ;
-    skos:prefLabel "Graphium macleayanum sec. Orr & Kitching 2010"
+    dcterms:title "Graphium macleayanum sec. Orr & Kitching 2010"
     :taxonName [ a :TaxonName ;
             :taxonNameString "Graphium macleayanum" ]
     :vernacularName [ a TaxonName ;
@@ -426,7 +426,7 @@ The `vernacularName` property can be used when a vernacular name is used  alongs
 
 ```turtle
 [] a :TaxonConcept ;
-    skos:prefLabel "Quercus robur sec. Duistermaat 2020" ;
+    dcterms:title "Quercus robur sec. Duistermaat 2020" ;
     :taxonName [ <https://www.ipni.org/n/304293-2> a :TaxonName ;
             :taxonNameString "Quercus robur" ] ;
     :vernacularName [ a :TaxonName ;
@@ -532,12 +532,12 @@ Taxon Concept Relationship statements can be made in the treatment of the  subje
 [] a :TaxonRelationship ; 
     :relationshipType tcreltype:isProperSubsetOf ; 
     :subjectTaxonConcept [ a :TaxonConcept ; 
-            skos:prefLabel "Athyriaceae sec. Rothfels et al. 2012" ;
+            dcterms:title "Athyriaceae sec. Rothfels et al. 2012" ;
             :taxonName [ a :TaxonName ;
                     :taxonNameString "Athyriaceae" ] ;
             :accordingTo <https://doi.org/10.1002/tax.613003> ] ;
     :objectTaxonConcept [ a :TaxonConcept ;
-            skos:prefLabel "Woodsiaceae sec. Smith et al. 2006" ;
+            dcterms:title "Woodsiaceae sec. Smith et al. 2006" ;
             :taxonName [ a :TaxonName ;
                     :taxonNameString "Woodsiaceae" ] ;
             :accordingTo <https://doi.org/10.2307/25065646> ] ;
@@ -561,11 +561,11 @@ Taxon Concept Relationship statements can be made in the treatment of the  subje
 [] a :TaxonRelationship ;
         :relationshipType tcreltype:isCongruentWith ; 
         :subjectTaxonConcept [ a :TaxonConcept ;
-                skos:prefLabel "Dicranum fuscescens sec. Koperski et al. 2000" ;
+                dcterms:title "Dicranum fuscescens sec. Koperski et al. 2000" ;
                 :taxonName <https://www.tropicos.org/name/35122385> ;
                 :accordingTo <https://www.tropicos.org/reference/9022656> ] ;
         :objectTaxonConcept [ a :TaxonConcept ;
-                skos:prefLabel "Dicranum fuscescens sec. Corley et al. 1981" ;
+                dcterms:title "Dicranum fuscescens sec. Corley et al. 1981" ;
                 :taxonName <https://www.tropicos.org/name/35122385> ;
                 :accordingTo <https://www.tropicos.org/reference/9004554> ] ;
         :raletionshipAccordingTo <https://www.tropicos.org/reference/9022656> .
@@ -590,11 +590,11 @@ Taxon Concept Relationship statements can be made in the treatment of the  subje
 [] a :TaxonRelationship ;
     :relationshipType tcreltype:partiallyOverlaps ;
     :subjectTaxonConcept [ a :TaxonConcept ;
-            skos:prefLabel "Phyllotrox sec. Franz & O'Brien 2001" ;
+            dcterms:title "Phyllotrox sec. Franz & O'Brien 2001" ;
             :taxonName _:n1 ;
             :accordingTo <https://www.jstor.org/stable/25078744> ] ;
     :objectTaxonConcept [ a :TaxonConcept ; 
-            skos:prefLabel "Phyllotrox sec. Franz 2006" ;
+            dcterms:title "Phyllotrox sec. Franz 2006" ;
             :taxonName _:n1 ;
             :accordingTo <https://doi.org/10.1111/j.1365-3113.2005.00308.x> ] ;
     :relationshipAccordingTo <https://doi.org/10.1111/cla.12042> .
