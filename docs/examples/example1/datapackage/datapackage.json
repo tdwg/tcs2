@@ -13,7 +13,7 @@
             "name": "http://www.w3.org/1999/02/22-rdf-syntax-ns#id",
             "title": "id",
             "type": "string",
-            "format": "uri",
+            "format": "default",
             "constraints": {
               "required": true
             }
@@ -184,7 +184,7 @@
             "name": "http://www.w3.org/1999/02/22-rdf-syntax-ns#id",
             "title": "id",
             "type": "string",
-            "format": "uri",
+            "format": "default",
             "constraints": {
               "required": true
             }
