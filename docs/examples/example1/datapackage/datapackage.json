@@ -1,0 +1,592 @@
+{
+  "name": "klazenga_1999_dicranoloma_assimile",
+  "profile": "tabular-data-package",
+  "title": "Dicranoloma assimile from Klazenga (1999)",
+  "resources": [
+    {
+      "profile": "tabular-data-resource",
+      "name": "taxon-concepts",
+      "path": "taxon-concepts.csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "http://www.w3.org/1999/02/22-rdf-syntax-ns#id",
+            "title": "id",
+            "type": "string",
+            "format": "uri",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "http://purl.org/dc/terms/title",
+            "title": "dcterms:title",
+            "type": "string",
+            "format": "default",
+            "constraints": {
+              "required": false
+            }
+          },
+          {
+            "name": "http://rs.tdwg.org/tcs/terms/taxonName",
+            "title": "taxonName",
+            "type": "string",
+            "format": "uri",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "http://rs.tdwg.org/tcs/terms/accordingTo",
+            "title": "accordingTo",
+            "type": "string",
+            "format": "uri",
+            "constraints": {
+              "required": true
+            }
+          }
+        ],
+        "primaryKey": "http://www.w3.org/1999/02/22-rdf-syntax-ns#id"
+      }
+    },
+    {
+      "profile": "tabular-data-resource",
+      "name": "synonyms",
+      "path": "synonyms.csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "taxonConcept",
+            "title": "taxonConcept",
+            "type": "string",
+            "format": "uri",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "http://rs.tdwg.org/tcs/terms/taxonName",
+            "title": "taxonName",
+            "type": "string",
+            "format": "uri",
+            "constraints": {
+              "required": true
+            }
+          }
+        ],
+        "foreignKeys": [
+          {
+            "fields": "taxonConcept",
+            "reference": {
+              "resource": "taxon-concepts",
+              "fields": "http://www.w3.org/1999/02/22-rdf-syntax-ns#id"
+            }
+          },
+          {
+            "fields": "http://rs.tdwg.org/tcs/terms/taxonName",
+            "reference": {
+              "resource": "taxon-names",
+              "fields": "http://www.w3.org/1999/02/22-rdf-syntax-ns#id"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "profile": "tabular-data-resource",
+      "name": "taxon-names",
+      "path": "taxon-names.csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "http://www.w3.org/1999/02/22-rdf-syntax-ns#id",
+            "title": "id",
+            "type": "string",
+            "format": "uri",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "http://rs.tdwg.org/tcs/terms/taxonNameString",
+            "title": "taxonNameString",
+            "type": "string",
+            "format": "default",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "http://rs.tdwg.org/dwc/terms/scientificNameAuthorship",
+            "title": "dwc:scientificNameAuthorship",
+            "type": "string",
+            "format": "default",
+            "constraints": {
+              "required": false
+            }
+          },
+          {
+            "name": "http://rs.tdwg.org/tcs/terms/namePublishedIn",
+            "title": "namePublishedIn",
+            "type": "string",
+            "format": "default",
+            "constraints": {
+              "required": false
+            }
+          },
+          {
+            "name": "http://rs.tdwg.org/dwc/terms/namePublishedIn",
+            "title": "dwc:namePublishedIn",
+            "type": "string",
+            "format": "default",
+            "constraints": {
+              "required": false
+            }
+          },
+          {
+            "name": "http://rs.tdwg.org/dwc/terms/namePublishedInYear",
+            "title": "dwc:namePublishedInYear",
+            "type": "string",
+            "format": "default",
+            "constraints": {
+              "required": false
+            }
+          },
+          {
+            "name": "http://rs.tdwg.org/dwc/terms/basionym",
+            "title": "basionym",
+            "type": "string",
+            "format": "uri",
+            "constraints": {
+              "required": false
+            }
+          }
+        ],
+        "primaryKey": "http://www.w3.org/1999/02/22-rdf-syntax-ns#id",
+        "foreignKeys": [
+          {
+            "fields": "http://rs.tdwg.org/tcs/terms/basionym",
+            "reference": {
+              "resource": "taxon-names",
+              "fields": "http://www.w3.org/1999/02/22-rdf-syntax-ns#id"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "profile": "tabular-data-resource",
+      "name": "references",
+      "path": "references.csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "http://www.w3.org/1999/02/22-rdf-syntax-ns#id",
+            "title": "id",
+            "type": "string",
+            "format": "uri",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "itemType",
+            "title": "Item type",
+            "type": "string",
+            "format": "default",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "publicationYear",
+            "title": "Publication year",
+            "type": "string",
+            "format": "default",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "author",
+            "title": "Author",
+            "type": "string",
+            "format": "default",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "title",
+            "title": "title",
+            "type": "string",
+            "format": "default",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "publicationTitle",
+            "title": "Publication title",
+            "type": "string",
+            "format": "default",
+            "constraints": {
+              "required": false
+            }
+          },
+          {
+            "name": "ISBN",
+            "title": "ISBN",
+            "type": "string",
+            "format": "default",
+            "constraints": {
+              "required": false
+            }
+          },
+          {
+            "name": "ISSN",
+            "title": "ISSN",
+            "type": "string",
+            "format": "default",
+            "constraints": {
+              "required": false
+            }
+          },
+          {
+            "name": "DOI",
+            "title": "DOI",
+            "type": "string",
+            "format": "default",
+            "constraints": {
+              "required": false
+            }
+          },
+          {
+            "name": "pages",
+            "title": "pages",
+            "type": "string",
+            "format": "default",
+            "constraints": {
+              "required": false
+            }
+          },
+          {
+            "name": "numPages",
+            "title": "numPages",
+            "type": "string",
+            "format": "default",
+            "constraints": {
+              "required": false
+            }
+          },
+          {
+            "name": "issue",
+            "title": "issue",
+            "type": "string",
+            "format": "default",
+            "constraints": {
+              "required": false
+            }
+          },
+          {
+            "name": "volume",
+            "title": "volume",
+            "type": "string",
+            "format": "default",
+            "constraints": {
+              "required": false
+            }
+          },
+          {
+            "name": "journalAbbreviation",
+            "title": "Journal abbreviation",
+            "type": "string",
+            "format": "default",
+            "constraints": {
+              "required": false
+            }
+          },
+          {
+            "name": "shortTitle",
+            "title": "Short title",
+            "type": "string",
+            "format": "default",
+            "constraints": {
+              "required": false
+            }
+          },
+          {
+            "name": "series",
+            "title": "series",
+            "type": "string",
+            "format": "default",
+            "constraints": {
+              "required": false
+            }
+          },
+          {
+            "name": "number",
+            "title": "Series number",
+            "type": "string",
+            "format": "default",
+            "constraints": {
+              "required": false
+            }
+          },
+          {
+            "name": "publisher",
+            "title": "publisher",
+            "type": "string",
+            "format": "default",
+            "constraints": {
+              "required": false
+            }
+          },
+          {
+            "name": "place",
+            "title": "place",
+            "type": "string",
+            "format": "default",
+            "constraints": {
+              "required": false
+            }
+          },
+          {
+            "name": "language",
+            "title": "language",
+            "type": "string",
+            "format": "default",
+            "constraints": {
+              "required": false
+            }
+          },
+          {
+            "name": "editor",
+            "title": "Editor",
+            "type": "string",
+            "format": "default",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "edition",
+            "title": "edition",
+            "type": "string",
+            "format": "default",
+            "constraints": {
+              "required": false
+            }
+          }
+        ]
+      }
+    },
+    {
+      "profile": "tabular-data-resource",
+      "name": "nomenclatural-types",
+      "path": "nomenclatural-types.csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "http://rs.tdwg.org/tcs/terms/typifiedName",
+            "title": "typifiedName",
+            "type": "string",
+            "format": "uri",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "http://rs.tdwg.org/tcs/terms/typeOfType",
+            "title": "typeOfType",
+            "type": "string",
+            "format": "default",
+            "constraints": {
+              "required": false
+            }
+          },
+          {
+            "name": "http://rs.tdwg.org/dwc/terms/country",
+            "title": "dwc:country",
+            "type": "string",
+            "format": "default",
+            "constraints": {
+              "required": false
+            }
+          },
+          {
+            "name": "http://rs.tdwg.org/dwc/terms/island",
+            "title": "dwc:island",
+            "type": "string",
+            "format": "default",
+            "constraints": {
+              "required": false
+            }
+          },
+          {
+            "name": "http://rs.tdwg.org/dwc/terms/stateOrProvince",
+            "title": "dwc:stateOrProvince",
+            "type": "string",
+            "format": "default",
+            "constraints": {
+              "required": false
+            }
+          },
+          {
+            "name": "http://rs.tdwg.org/dwc/terms/verbatimLocality",
+            "title": "dwc:verbatimLocality",
+            "type": "string",
+            "format": "default",
+            "constraints": {
+              "required": false
+            }
+          },
+          {
+            "name": "http://rs.tdwg.org/dwc/terms/locationRemarks",
+            "title": "dwc:locationRemarks",
+            "type": "string",
+            "format": "default",
+            "constraints": {
+              "required": false
+            }
+          },
+          {
+            "name": "http://rs.tdwg.org/dwc/terms/recordedBy",
+            "title": "dwc:recordedBy",
+            "type": "string",
+            "format": "default",
+            "constraints": {
+              "required": false
+            }
+          },
+          {
+            "name": "http://rs.tdwg.org/dwc/terms/recordNumber",
+            "title": "dwc:recordNumber",
+            "type": "string",
+            "format": "default",
+            "constraints": {
+              "required": false
+            }
+          },
+          {
+            "name": "http://rs.tdwg.org/dwc/terms/catalogNumber",
+            "title": "dwc:catalogNumber",
+            "type": "string",
+            "format": "default",
+            "constraints": {
+              "required": false
+            }
+          },
+          {
+            "name": "http://rs.tdwg.org/dwc/terms/institutionCode",
+            "title": "dwc:institutionCode",
+            "type": "string",
+            "format": "default",
+            "constraints": {
+              "required": false
+            }
+          },
+          {
+            "name": "http://rs.tdwg.org/dwc/terms/collectionCode",
+            "title": "dwc:collectionCode",
+            "type": "string",
+            "format": "default",
+            "constraints": {
+              "required": false
+            }
+          },
+          {
+            "name": "http://rs.tdwg.org/dwc/terms/disposition",
+            "title": "dwc:disposition",
+            "type": "string",
+            "format": "default",
+            "constraints": {
+              "required": false
+            }
+          }
+        ],
+        "foreignKeys": [
+          {
+            "fields": "http://rs.tdwg.org/tcs/terms/typifiedName",
+            "reference": {
+              "resource": "taxon-names",
+              "fields": "http://www.w3.org/1999/02/22-rdf-syntax-ns#id"
+            }
+          },
+          {
+            "fields": "http://rs.tdwg.org/tcs/terms/typeOfType",
+            "reference": {
+              "resource": "type-of-type-vocabulary",
+              "fields": "controlledTerm"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "profile": "tabular-data-resource",
+      "name": "relationship-type-vocabulary",
+      "path": "https://github.com/tdwg/tcs2/blob/examples/docs/examples/relationship-types.csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "controlledTerm",
+            "title": "controlledTerm",
+            "type": "string",
+            "format": "default",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "label",
+            "title": "label",
+            "type": "string",
+            "format": "default",
+            "constraints": {
+              "required": true
+            }
+          }
+        ],
+        "primaryKey": "http://www.w3.org/1999/02/22-rdf-syntax-ns#id"
+      }
+    },
+    {
+      "profile": "tabular-data-resource",
+      "name": "type-of-type-vocabulary",
+      "path": "https://github.com/tdwg/tcs2/blob/examples/docs/examples/type-of-type.csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "http://www.w3.org/1999/02/22-rdf-syntax-ns#id",
+            "title": "id",
+            "type": "string",
+            "format": "uri",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "controlledTerm",
+            "title": "controlledTerm",
+            "type": "string",
+            "format": "default",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "label",
+            "title": "label",
+            "type": "string",
+            "format": "default",
+            "constraints": {
+              "required": true
+            }
+          }
+        ],
+        "primaryKey": "http://www.w3.org/1999/02/22-rdf-syntax-ns#id"
+      }
+    }
+  ]
+}
