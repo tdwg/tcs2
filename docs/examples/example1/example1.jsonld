@@ -4,39 +4,20 @@
   "@graph": [
     {
       "@type": "TaxonConcept",
-      "@id": "_:tc1",
       "dcterms:title": "Dicranoloma assimile sec. Klazenga (1999)",
       "taxonName": "https://www.tropicos.org/name/35121458",
       "accordingTo": "https://doi.org/10.18968/jhbl.87.0_1",
-      "synonyms": {
+      "synonym": {
         "@list": [
-          {
-            "@id": "https://www.tropicos.org/name/35124384"
-          },
-          {
-            "@id": "https://www.tropicos.org/name/35121535"
-          },
-          {
-            "@id": "https://www.tropicos.org/name/35204815"
-          },
-          {
-            "@id": "https://www.tropicos.org/name/35121587"
-          },
-          {
-            "@id": "https://www.tropicos.org/name/35121569"
-          },
-          {
-            "@id": "https://www.tropicos.org/name/35121523"
-          },
-          {
-            "@id": "https://www.tropicos.org/name/35121524"
-          },
-          {
-            "@id": "https://www.tropicos.org/name/35121480"
-          },
-          {
-            "@id": "https://www.tropicos.org/name/35168349"
-          }
+          "https://www.tropicos.org/name/35124384",
+          "https://www.tropicos.org/name/35121535", 
+          "https://www.tropicos.org/name/35204815",
+          "https://www.tropicos.org/name/35121587",
+          "https://www.tropicos.org/name/35121569",
+          "https://www.tropicos.org/name/35121523",
+          "https://www.tropicos.org/name/35121524",
+          "https://www.tropicos.org/name/35121480",
+          "https://www.tropicos.org/name/35168349"
         ]
       }
     },

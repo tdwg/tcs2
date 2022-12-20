@@ -9,6 +9,7 @@
     "taxonomicRank": { "@type": "@id" },
     "parent": { "@type": "@id" },
     "children": { "@reverse": "parent" },
+    "synonym": { "@type": "@id" },
     "synonyms": { "@id": "http://rs.tdwg.org/tcs/terms/synonym", "@type": "@id" },
     "vernacularName": { "@type": "@id" },
     "relationshipType": { "@type": "@vocab" },
