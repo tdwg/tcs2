@@ -30,12 +30,12 @@
     "typeSpecimen": { "@type": "@id" },
     "typePublishedIn": { "@type": "@id" },
 
-    "isCongruentWith": "http://rs.tdwg.org/tcs-taxon-concept-relationship-type/values/rt001",
-    "hasProperSubset": "http://rs.tdwg.org/tcs-taxon-concept-relationship-type/values/rt002",
-    "isProperSubsetOf": "http://rs.tdwg.org/tcs-taxon-concept-relationship-type/values/rt003",
-    "partiallyOverlaps": "http://rs.tdwg.org/tcs-taxon-concept-relationship-type/values/rt004",
-    "isDisjointFrom": "http://rs.tdwg.org/tcs-taxon-concept-relationship-type/values/rt005",
-    "intersects": "http://rs.tdwg.org/tcs-taxon-concept-relationship-type/values/rt006",
+    "isCongruentWith": "http://rs.tdwg.org/tcs-taxon-concept-relationship-type/values/isCongruentWith",
+    "hasProperSubset": "http://rs.tdwg.org/tcs-taxon-concept-relationship-type/values/hasProperSubset",
+    "isProperSubsetOf": "http://rs.tdwg.org/tcs-taxon-concept-relationship-type/values/isProperSubsetOf",
+    "partiallyOverlaps": "http://rs.tdwg.org/tcs-taxon-concept-relationship-type/values/partiallyOverlaps",
+    "isDisjointFrom": "http://rs.tdwg.org/tcs-taxon-concept-relationship-type/values/isDisjointFrom",
+    "intersects": "http://rs.tdwg.org/tcs-taxon-concept-relationship-type/values/intersects",
 
     "dwc": "http://rs.tdwg.org/dwc/terms/",
     "dwc:scientificName": { "@type": "xsd:string"},
