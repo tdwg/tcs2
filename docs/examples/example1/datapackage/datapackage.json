@@ -406,6 +406,15 @@
             }
           },
           {
+            "name": "http://rs.tdwg.org/tcs/terms/typePublishedIn",
+            "title": "typePublishedIn",
+            "type": "string",
+            "format": "default",
+            "constraints": {
+              "required": false
+            }
+          },
+          {
             "name": "http://rs.tdwg.org/dwc/terms/country",
             "title": "dwc:country",
             "type": "string",
@@ -518,6 +527,13 @@
             "reference": {
               "resource": "type-of-type-vocabulary",
               "fields": "controlledTerm"
+            }
+          },
+          {
+            "fields": "http://rs.tdwg.org/tcs/terms/typePublishedIn",
+            "reference": {
+              "resource": "references",
+              "fields": "http://www.w3.org/1999/02/22-rdf-syntax-ns#id"
             }
           }
         ]

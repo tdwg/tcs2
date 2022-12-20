@@ -195,7 +195,8 @@ tropicos:35168349 a :TaxonName ;
             dwc:recordedBy "Micholitz, W." ;
             dwc:recordNumber "48" ;
             dwc:institutionCode "H" ;
-			dwc:collectionCode "H-BR" ] .
+			dwc:collectionCode "H-BR" ] ;
+    :typePublishedIn "_:JVTZRNZJ" .
 
 [] a :NomenclaturalType ;
     :typifiedName tropicos:35124384 ;
@@ -661,6 +662,18 @@ _:EE7TDMF8 a bibo:AcademicArticle ;
             bibo:volume "10" ] ;
     bibo:pages "263-368" .
 
+_:JVTZRNZJ a bibo:AcademicArticle ;
+    dcterms:title "Dicranoloma (Musci, Dicranaceae) in Southeast Asia, with special reference to the Philippine taxa" ;
+    dcterms:creator _:n6, _:n8 ;
+    bibo:authorList ( _:n6 _:n8 ) ;
+    dcterms:isPartOf [ a bibo:Issue ;
+            dcterms:date "1983" ;
+            dcterms:isPartOf [ a bibo:Journal ;
+                    dcterms:title "Annales Botanici Fennici" ;
+                    bibo:shortTitle "Ann. Bot. Fenn." ] ;
+            bibo:volume "263-368" ] ;
+    bibo:pages "263-368" .
+
 # Agents
 
 _:Nd643f29cd028450a87f2a7eb6ea71a5f a foaf:Person ;
@@ -695,6 +708,10 @@ _:N54663d0d057b4f048d3f8758708c96de a foaf:Person ;
     foaf:givenName "Niels" ;
     foaf:surname "Klazenga" .
 
+_:n8 a foaf:Person ;
+    foaf:givenName "T." ;
+    foaf:surname "Koponen" .
+
 _:N0be59e7f90304ee4bb48689d12fe7fa5 a foaf:Person ;
     foaf:givenName "C." ;
     foaf:surname "Müller" .
@@ -710,6 +727,10 @@ _:N41587ef3e8a84a9ebef3f7ba7f89a616 a foaf:Person ;
 _:Nf298021bc1014d939ed87b5150e0dcc7 a foaf:Person ;
     foaf:givenName "F." ;
     foaf:surname "Renauld" .
+
+_:n6 a foaf:Person ;
+    foaf:givenName "B.C." ;
+    foaf:surname "Tan" .
 
 _:N302873fa17f7445f939b79ac85621391 a foaf:Person ;
     foaf:givenName "B.O. van" ;

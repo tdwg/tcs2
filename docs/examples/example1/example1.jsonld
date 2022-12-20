@@ -116,7 +116,8 @@
               "dwc:recordNumber": "48",
               "dwc:institutionCode": "H",
               "dwc:collectionCode": "H-BR"
-            }
+            },
+            "typePublishedIn": "_:JVTZRNZJ"
           },
           {
             "@type": "NomenclaturalType",
@@ -955,6 +956,32 @@
       "bibo:pages": "263-368"
     },
     {
+      "@id": "_:JVTZRNZJ",
+      "@type": "bibo:AcademicArticle",
+      "dcterms:title": "Dicranoloma (Musci, Dicranaceae) in Southeast Asia, with special reference to the Philippine taxa",
+      "dcterms:creator": [
+        { "@id": "_:n6" },
+        { "@id": "_:n8" }
+      ],
+      "bibo:authorList": {
+        "@list": [
+        { "@id": "_:n6" },
+        { "@id": "_:n8" }
+        ]
+      },
+      "dcterms:isPartOf": {
+        "@type": "bibo:Issue",
+        "dcterms:date": "1983",
+        "dcterms:isPartOf": {
+          "@type": "bibo:Journal",
+          "dcterms:title": "Annales Botanici Fennici",
+          "bibo:shortTitle": "Ann. Bot. Fenn."
+        },
+        "bibo:volume": "20"
+      },
+      "bibo:pages": "317-334"
+    },
+    {
       "@id": "_:Nd643f29cd028450a87f2a7eb6ea71a5f",
       "@type": "foaf:Person",
       "foaf:givenName": "E.B.",
@@ -1003,6 +1030,12 @@
       "foaf:surname": "Klazenga"
     },
     {
+      "@id": "_:n8",
+      "@type": "foaf:Person",
+      "foaf:givenName": "T.",
+      "foaf:surname": "Koponen"
+    },
+    {
       "@id": "_:N0be59e7f90304ee4bb48689d12fe7fa5",
       "@type": "foaf:Person",
       "foaf:givenName": "C.",
@@ -1025,6 +1058,12 @@
       "@type": "foaf:Person",
       "foaf:givenName": "F.",
       "foaf:surname": "Renauld"
+    },
+    { 
+      "@id": "_:n6",
+      "@type": "foaf:Person",
+      "foaf:givenName": "B.C.",
+      "foaf:surname": "Tan"
     },
     {
       "@id": "_:N302873fa17f7445f939b79ac85621391",
