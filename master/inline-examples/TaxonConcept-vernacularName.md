@@ -6,8 +6,8 @@
     :vernacularName [ a TaxonName ;
             :taxonNameString "Macleay's Swallowtail" ] ;
     :accordingTo [ <urn:isbn:978-1-74175-108-6> a bibo:Book ; 
-            dcterms:bibliographicCitation "Orr, A. & Kitching, R. (2010). The butterflies of 
-                    Australia. Jacana Books, Crows Nest, Australia." ] .
+            dcterms:bibliographicCitation """Orr, A. & Kitching, R. (2010). The butterflies of 
+                    Australia. Jacana Books, Crows Nest, Australia.""" ] .
 ```
 
 ```turtle
@@ -18,6 +18,6 @@
     :vernacularName [ a :TaxonName ;
             :taxonNameString "Zomereik" ] ;
     :accordingTo [ <urn:isbn:978-90-01-58956-1> a bibo:Book ;
-            dcterms:bibliographicCitation "Duistermaat, H. (2020). Heukels Flora van Nederland, edn 
-            24. Noordhoff, Groningen." ] .
+            dcterms:bibliographicCitation """Duistermaat, H. (2020). Heukels Flora van Nederland, edn 
+            24. Noordhoff, Groningen.""" ] .
 ```

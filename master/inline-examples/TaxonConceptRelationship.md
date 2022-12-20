@@ -15,15 +15,15 @@
     :relationshipAccordingTo <https://doi.org/10.1002/tax.613003> .
 
 <https://doi.org/10.1002/tax.613003> a bibo:AcademicArticle ;
-    dcterms:bibliographicCitation "Rothfels, Carl J.; Sundue, Michael A.; Kuo, Li-Yaung; Larsson, 
+    dcterms:bibliographicCitation """Rothfels, Carl J.; Sundue, Michael A.; Kuo, Li-Yaung; Larsson, 
             Anders; Kato, Masahiro; Schuettpelz, Eric; Pryer, Kathleen M. (2012). A revised 
             family–level classification for eupolypod II ferns (Polypodiidae: Polypodiales). Taxon 
-            61(3): 515-533." .
+            61(3): 515-533.""" .
 
 <https://doi.org/10.2307/25065646> a bibo:AcademicArticle ;
-    dcterms:bibliographicCitation "Smith, Alan R.; Pryer, Kathleen M.; Schuettpelz, Eric; Korall, 
+    dcterms:bibliographicCitation """Smith, Alan R.; Pryer, Kathleen M.; Schuettpelz, Eric; Korall, 
             Petra; Schneider, Harald; Wolf, Paul G. (2006). A classification for extant ferns. Taxon 
-            55(3): 705-731." .
+            55(3): 705-731.""" .
 ```
 
 ```turtle
@@ -46,14 +46,14 @@
     dwc:scientificNameAuthorship "Turner" .        
 
 <https://www.tropicos.org/reference/9022656> a bibo:Book ;
-    dcterms:bibliographicCitation "Koperski, Monika; Sauer, Michael; Braun, Walter; Gradstein, S. 
+    dcterms:bibliographicCitation """Koperski, Monika; Sauer, Michael; Braun, Walter; Gradstein, S. 
             Rob (2000). Referenzliste der Moose Deuthschlands. Schriftenreihe für Vegetationskunde 
-            34. Bundersamt für Naturschutz, Bonn-Bad Godesberg." .
+            34. Bundersamt für Naturschutz, Bonn-Bad Godesberg.""" .
 
 <https://www.tropicos.org/reference/9004554> a bibo:AcademicArticle ;
-    dcterms:bibliographicCitation "Corley, M.F.V.; Crundwell, A.C.; Düll, R.; Hill, M.O.; Smith, 
+    dcterms:bibliographicCitation """Corley, M.F.V.; Crundwell, A.C.; Düll, R.; Hill, M.O.; Smith, 
     A.J.E. (1981). Mosses of Europe and the Azores; an annotated list of species, with synonyms from 
-    the recent literature. Journal of Bryology 11(4): 609-689." .
+    the recent literature. Journal of Bryology 11(4): 609-689.""" .
 ```
 
 ```turtle
@@ -75,17 +75,17 @@ _:n1 a :TaxonName ;
     dwc:scientificNameAuthorship "Schoenherr" .
 
 <https://www.jstor.org/stable/25078744> a bibo:AcademicArticle ;
-    dcterms:bibliographicCitation "Franz, Nico M.; O`Brien, Charles W. (2001). Revision and 
+    dcterms:bibliographicCitation """Franz, Nico M.; O`Brien, Charles W. (2001). Revision and 
             phylogeny of Perelleschus (Coleoptera: Curculionidae) with notes on its Association with 
             Carludovica (Cyclanthaceae). Transactions of the American Entomological Society 127(2): 
-            255-287" .
+            255-287""" .
 
 <https://doi.org/10.1111/j.1365-3113.2005.00308.x> a bibo: AcademicArticle ;
-    dcterms:bibliographicReference "Franz, Nico M. (2006). Towards a phylogenetic system of 
+    dcterms:bibliographicReference """Franz, Nico M. (2006). Towards a phylogenetic system of 
             derelomine flower weevils (Coleoptera: Curculionidae). Systematic Entomology 31(2): 
-            220-287." .
+            220-287.""" .
 
 <https://doi.org/10.1111/cla.12042> a bibo:AcademicArticle ;
-    dcterms:bibliographicCitation "Franz, Nico M. (2014). Anatomy of a cladistic analysis. 
-            Cladistics 30(3): 294-321." .
+    dcterms:bibliographicCitation """Franz, Nico M. (2014). Anatomy of a cladistic analysis. 
+            Cladistics 30(3): 294-321.""" .
 ```

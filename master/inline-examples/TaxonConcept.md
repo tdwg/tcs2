@@ -7,9 +7,9 @@ Taxonomic treatment:
             :taxonNameString "Dicranoloma blumei" ;
             dwc:scientificNameAuthorship "(Nees) Renauld" ] ;
     :accordingTo [ <https://www.tropicos.org/reference/9020903> a bibo:AcademicArticle ;
-            dcterms:bibliographicCitation "Klazenga, N. (1999). A revision of the Malesian 
+            dcterms:bibliographicCitation """Klazenga, N. (1999). A revision of the Malesian 
                     species of Dicranoloma (Dicranaceae, Musci). Journal of the Hattori
-                    Botanical Laboratory 87: 1-130." ] .
+                    Botanical Laboratory 87: 1-130.""" ] .
 ```
 
 Field guide:
@@ -22,9 +22,9 @@ Field guide:
         :vernacularName [ a :TaxonName ;
                 :taxonNameString "Blue Skimmer" ] ;
         :accordingTo [ <urn:isbn:978-0-643-09073-6> a bibo:Book ;
-                dcterms:bibliographicCitation "Theischinger, G.; Hawking, J. (2010). The 
+                dcterms:bibliographicCitation """Theischinger, G.; Hawking, J. (2010). The 
                         complete field guide to dragonflies of Australia. CSIRO Publishing, 
-                        Collingwood, Australia." ] .
+                        Collingwood, Australia.""" ] .
 
 ```
 
@@ -37,9 +37,9 @@ Checklist:
             :taxonNameString "Calymperes moluccense" ;
             dwc:scientificNameAuthorship "Schwägr." ] ;
     :accordingTo [ <urn:isbn:978-967-5221-99-6> a bibo:Book ;
-            dcterms:bibliographicCitation "Yong, K.T.; Tan, B.C.; Ho, B.C.; Ho, Q.Y.; Mohamed, H.
+            dcterms:bibliographicCitation """Yong, K.T.; Tan, B.C.; Ho, B.C.; Ho, Q.Y.; Mohamed, H.
                     A revised Moss Checklist of Peninsular Malaysia and Singapore. Research 
-                    Pamphlet no. 133, Forest Research Institute Malaysia, Kepong, Malaysia." ] .
+                    Pamphlet no. 133, Forest Research Institute Malaysia, Kepong, Malaysia.""" ] .
 ```
 
 Plants of the World Online:
@@ -50,10 +50,10 @@ Plants of the World Online:
     :taxonName [ <https://www.ipni.org/n/105644-1> a :TaxonName ;
             :taxonNameString "Begonia salaziensis" ; 
             dwc:scientificNameAuthorship "Warb." ;
-            dwc:namePublishedIn "Nat. Pflanzenfam. [Engler & Prantl] iii. 6 a. (1894) 139." ] ;
+            dwc:namePublishedIn """Nat. Pflanzenfam. [Engler & Prantl] iii. 6 a. (1894) 139." ] ;
     :accordingTo [ <urn:lsid:ipni.org:publications:17755-2> a bibo:Book ;
         dcterms:bibliographicCitation "Govaerts, R. (1996). World Checklist of Seed Plants 2(1, 2): 
-                1-492. MIM, Deurne." ] .
+                1-492. MIM, Deurne.""" ] .
 ```
 
 Catalogue of Life:
@@ -63,11 +63,11 @@ Catalogue of Life:
     dcterms:title "Balaenoptera musculus sec. Catalogue of Life (2022-11-14)" ;
     :taxonName [ a :TaxonName ;
             :taxonNameString "Balaenoptera musculus" ;
-            dwc:scientificNameAuthorship "(Linnaeus, 1758)" ] ;
+            dwc:scientificNameAuthorship """(Linnaeus, 1758)" ] ;
     :accordingTo [ <https://www.catalogueoflife.org#v2022-11-14> a bibo:Website ;
             dcterms:isVersionOf "https://www.catalogueoflife.org" ;
             dcterms:title "Catalogue of Life, version 2022-11-14" ;
-            bibo:uri "https://www.catalogueoflife.org" ] .
+            bibo:uri "https://www.catalogueoflife.org""" ] .
 ```
 
 
