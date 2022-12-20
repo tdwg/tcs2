@@ -10,6 +10,6 @@
             dwc:scientificNameAuthorship "Cockayne" ; 
             dwc:namePublishedIn "Trans. & Proc. New Zealand Inst. 1915, xlviii. 200 (1916)" ] ;
     :accordingTo [ <urn:isbn:978-0-909010-12-6> a bibo:Book ;
-            dcterms:bibliographicCitation "Bayly, M.; Kellow, A. (2006). An illustrated guide to 
+            dcterms:bibliographicCitation """Bayly, M.; Kellow, A. (2006). An illustrated guide to 
                     New Zealand Hebes. Te Papa Press, Wellington, New Zealand." ] .
 ```
