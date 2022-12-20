@@ -131,8 +131,8 @@ Plants of the World Online:
 Catalogue of Life:
 
 ```turtle
-<https://www.catalogueoflife.org/data/taxon/KF8T> a :TaxonConcept ;
-    dcterms:title "Balaenoptera musculus sec. Catalogue of Life (2022-11-14)" ;
+<https://www.catalogueoflife.org/data/taxon/KF8T#v2022-11-14> a :TaxonConcept ;
+    dcterms:title "Balaenoptera musculus sec. Catalogue of Life (v2022-11-14)" ;
     :taxonName [ a :TaxonName ;
             :taxonNameString "Balaenoptera musculus" ;
             dwc:scientificNameAuthorship """(Linnaeus, 1758)" ] ;
