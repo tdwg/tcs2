@@ -79,9 +79,9 @@ Taxonomic treatment:
             :taxonNameString "Dicranoloma blumei" ;
             dwc:scientificNameAuthorship "(Nees) Renauld" ] ;
     :accordingTo [ <https://www.tropicos.org/reference/9020903> a bibo:AcademicArticle ;
-            dcterms:bibliographicCitation "Klazenga, N. (1999). A revision of the Malesian 
+            dcterms:bibliographicCitation """Klazenga, N. (1999). A revision of the Malesian 
                     species of Dicranoloma (Dicranaceae, Musci). Journal of the Hattori
-                    Botanical Laboratory 87: 1-130." ] .
+                    Botanical Laboratory 87: 1-130.""" ] .
 ```
 
 Field guide:
@@ -94,9 +94,9 @@ Field guide:
         :vernacularName [ a :TaxonName ;
                 :taxonNameString "Blue Skimmer" ] ;
         :accordingTo [ <urn:isbn:978-0-643-09073-6> a bibo:Book ;
-                dcterms:bibliographicCitation "Theischinger, G.; Hawking, J. (2010). The 
+                dcterms:bibliographicCitation """Theischinger, G.; Hawking, J. (2010). The 
                         complete field guide to dragonflies of Australia. CSIRO Publishing, 
-                        Collingwood, Australia." ] .
+                        Collingwood, Australia.""" ] .
 
 ```
 
@@ -109,9 +109,9 @@ Checklist:
             :taxonNameString "Calymperes moluccense" ;
             dwc:scientificNameAuthorship "Schwägr." ] ;
     :accordingTo [ <urn:isbn:978-967-5221-99-6> a bibo:Book ;
-            dcterms:bibliographicCitation "Yong, K.T.; Tan, B.C.; Ho, B.C.; Ho, Q.Y.; Mohamed, H.
+            dcterms:bibliographicCitation """Yong, K.T.; Tan, B.C.; Ho, B.C.; Ho, Q.Y.; Mohamed, H.
                     A revised Moss Checklist of Peninsular Malaysia and Singapore. Research 
-                    Pamphlet no. 133, Forest Research Institute Malaysia, Kepong, Malaysia." ] .
+                    Pamphlet no. 133, Forest Research Institute Malaysia, Kepong, Malaysia.""" ] .
 ```
 
 Plants of the World Online:
@@ -122,10 +122,10 @@ Plants of the World Online:
     :taxonName [ <https://www.ipni.org/n/105644-1> a :TaxonName ;
             :taxonNameString "Begonia salaziensis" ; 
             dwc:scientificNameAuthorship "Warb." ;
-            dwc:namePublishedIn "Nat. Pflanzenfam. [Engler & Prantl] iii. 6 a. (1894) 139." ] ;
+            dwc:namePublishedIn """Nat. Pflanzenfam. [Engler & Prantl] iii. 6 a. (1894) 139." ] ;
     :accordingTo [ <urn:lsid:ipni.org:publications:17755-2> a bibo:Book ;
         dcterms:bibliographicCitation "Govaerts, R. (1996). World Checklist of Seed Plants 2(1, 2): 
-                1-492. MIM, Deurne." ] .
+                1-492. MIM, Deurne.""" ] .
 ```
 
 Catalogue of Life:
@@ -135,11 +135,11 @@ Catalogue of Life:
     dcterms:title "Balaenoptera musculus sec. Catalogue of Life (2022-11-14)" ;
     :taxonName [ a :TaxonName ;
             :taxonNameString "Balaenoptera musculus" ;
-            dwc:scientificNameAuthorship "(Linnaeus, 1758)" ] ;
+            dwc:scientificNameAuthorship """(Linnaeus, 1758)" ] ;
     :accordingTo [ <https://www.catalogueoflife.org#v2022-11-14> a bibo:Website ;
             dcterms:isVersionOf "https://www.catalogueoflife.org" ;
             dcterms:title "Catalogue of Life, version 2022-11-14" ;
-            bibo:uri "https://www.catalogueoflife.org" ] .
+            bibo:uri "https://www.catalogueoflife.org""" ] .
 ```
 
 
@@ -364,8 +364,8 @@ Synonymy is between names but, if the names have different types, a Taxon  Conce
             dwc:scientificNameAuthorship "Cockayne" ; 
             dwc:namePublishedIn "Trans. & Proc. New Zealand Inst. 1915, xlviii. 200 (1916)" ] ;
     :accordingTo [ <urn:isbn:978-0-909010-12-6> a bibo:Book ;
-            dcterms:bibliographicCitation "Bayly, M.; Kellow, A. (2006). An illustrated guide to 
-                    New Zealand Hebes. Te Papa Press, Wellington, New Zealand." ] .
+            dcterms:bibliographicCitation """Bayly, M.; Kellow, A. (2006). An illustrated guide to 
+                    New Zealand Hebes. Te Papa Press, Wellington, New Zealand.""" ] .
 ```
 
 
@@ -395,7 +395,7 @@ Synonymy is between names but, if the names have different types, a Taxon  Conce
 		</tr>
 		<tr>
 			<td>Usage</td>
-			<td><p><code>vernacularName</code> is a Taxon Name or other Label; a Taxon Concept can have  more than one <code>vernacularName</code>.</p></td>
+			<td><p><code>vernacularName</code> is an IRI term; a Taxon Concept can have more than one  <code>vernacularName</code>.</p></td>
 		</tr>
 		<tr>
 			<td>GitHub issue</td>
@@ -407,7 +407,7 @@ Synonymy is between names but, if the names have different types, a Taxon  Conce
 
 **Comments**
 
-The `vernacularName` property can be used when a vernacular name is used  alongside a scientific name, which is the `taxonName`. If a vernacular name  is the only name, the `taxonName` property should be used.
+The `vernacularName` property can be used when a vernacular name is used  alongside a scientific name, which is the `taxonName`. If a vernacular name  is the only name, the `taxonName` property should be used. The object of the  `vernacularName` property can be a Taxon Name, but can also be another label  object, such as the GBIF [Vernacular Name](https://rs.gbif.org/extension/gbif/1.0/vernacularname.xml).
 
 
 **Examples**
@@ -416,12 +416,12 @@ The `vernacularName` property can be used when a vernacular name is used  alongs
 [] a :TaxonConcept ;
     dcterms:title "Graphium macleayanum sec. Orr & Kitching (2010)"
     :taxonName [ a :TaxonName ;
-            :taxonNameString "Graphium macleayanum" ]
+            :taxonNameString "Graphium macleayanum" ] ;
     :vernacularName [ a TaxonName ;
             :taxonNameString "Macleay's Swallowtail" ] ;
     :accordingTo [ <urn:isbn:978-1-74175-108-6> a bibo:Book ; 
-            dcterms:bibliographicCitation "Orr, A. & Kitching, R. (2010). The butterflies of 
-                    Australia. Jacana Books, Crows Nest, Australia." ] .
+            dcterms:bibliographicCitation """Orr, A. & Kitching, R. (2010). The butterflies of 
+                    Australia. Jacana Books, Crows Nest, Australia.""" ] .
 ```
 
 ```turtle
@@ -429,11 +429,12 @@ The `vernacularName` property can be used when a vernacular name is used  alongs
     dcterms:title "Quercus robur sec. Duistermaat (2020)" ;
     :taxonName [ <https://www.ipni.org/n/304293-2> a :TaxonName ;
             :taxonNameString "Quercus robur" ] ;
-    :vernacularName [ a :TaxonName ;
-            :taxonNameString "Zomereik" ] ;
+    :vernacularName [ a <http://rs.gbif.org/terms/1.0/VernacularName> ;
+            dwc:vernacularName "Zomereik" ;
+            dcterms:language "nl" ] ;
     :accordingTo [ <urn:isbn:978-90-01-58956-1> a bibo:Book ;
-            dcterms:bibliographicCitation "Duistermaat, H. (2020). Heukels Flora van Nederland, edn 
-            24. Noordhoff, Groningen." ] .
+            dcterms:bibliographicCitation """Duistermaat, H. (2020). Heukels Flora van Nederland, edn 
+            24. Noordhoff, Groningen.""" ] .
 ```
 
 
@@ -544,15 +545,15 @@ Taxon Concept Relationship statements can be made in the treatment of the  subje
     :relationshipAccordingTo <https://doi.org/10.1002/tax.613003> .
 
 <https://doi.org/10.1002/tax.613003> a bibo:AcademicArticle ;
-    dcterms:bibliographicCitation "Rothfels, Carl J.; Sundue, Michael A.; Kuo, Li-Yaung; Larsson, 
+    dcterms:bibliographicCitation """Rothfels, Carl J.; Sundue, Michael A.; Kuo, Li-Yaung; Larsson, 
             Anders; Kato, Masahiro; Schuettpelz, Eric; Pryer, Kathleen M. (2012). A revised 
             family–level classification for eupolypod II ferns (Polypodiidae: Polypodiales). Taxon 
-            61(3): 515-533." .
+            61(3): 515-533.""" .
 
 <https://doi.org/10.2307/25065646> a bibo:AcademicArticle ;
-    dcterms:bibliographicCitation "Smith, Alan R.; Pryer, Kathleen M.; Schuettpelz, Eric; Korall, 
+    dcterms:bibliographicCitation """Smith, Alan R.; Pryer, Kathleen M.; Schuettpelz, Eric; Korall, 
             Petra; Schneider, Harald; Wolf, Paul G. (2006). A classification for extant ferns. Taxon 
-            55(3): 705-731." .
+            55(3): 705-731.""" .
 ```
 
 ```turtle
@@ -575,14 +576,14 @@ Taxon Concept Relationship statements can be made in the treatment of the  subje
     dwc:scientificNameAuthorship "Turner" .        
 
 <https://www.tropicos.org/reference/9022656> a bibo:Book ;
-    dcterms:bibliographicCitation "Koperski, Monika; Sauer, Michael; Braun, Walter; Gradstein, S. 
+    dcterms:bibliographicCitation """Koperski, Monika; Sauer, Michael; Braun, Walter; Gradstein, S. 
             Rob (2000). Referenzliste der Moose Deuthschlands. Schriftenreihe für Vegetationskunde 
-            34. Bundersamt für Naturschutz, Bonn-Bad Godesberg." .
+            34. Bundersamt für Naturschutz, Bonn-Bad Godesberg.""" .
 
 <https://www.tropicos.org/reference/9004554> a bibo:AcademicArticle ;
-    dcterms:bibliographicCitation "Corley, M.F.V.; Crundwell, A.C.; Düll, R.; Hill, M.O.; Smith, 
+    dcterms:bibliographicCitation """Corley, M.F.V.; Crundwell, A.C.; Düll, R.; Hill, M.O.; Smith, 
     A.J.E. (1981). Mosses of Europe and the Azores; an annotated list of species, with synonyms from 
-    the recent literature. Journal of Bryology 11(4): 609-689." .
+    the recent literature. Journal of Bryology 11(4): 609-689.""" .
 ```
 
 ```turtle
@@ -604,19 +605,19 @@ _:n1 a :TaxonName ;
     dwc:scientificNameAuthorship "Schoenherr" .
 
 <https://www.jstor.org/stable/25078744> a bibo:AcademicArticle ;
-    dcterms:bibliographicCitation "Franz, Nico M.; O`Brien, Charles W. (2001). Revision and 
+    dcterms:bibliographicCitation """Franz, Nico M.; O`Brien, Charles W. (2001). Revision and 
             phylogeny of Perelleschus (Coleoptera: Curculionidae) with notes on its Association with 
             Carludovica (Cyclanthaceae). Transactions of the American Entomological Society 127(2): 
-            255-287" .
+            255-287""" .
 
 <https://doi.org/10.1111/j.1365-3113.2005.00308.x> a bibo: AcademicArticle ;
-    dcterms:bibliographicReference "Franz, Nico M. (2006). Towards a phylogenetic system of 
+    dcterms:bibliographicReference """Franz, Nico M. (2006). Towards a phylogenetic system of 
             derelomine flower weevils (Coleoptera: Curculionidae). Systematic Entomology 31(2): 
-            220-287." .
+            220-287.""" .
 
 <https://doi.org/10.1111/cla.12042> a bibo:AcademicArticle ;
-    dcterms:bibliographicCitation "Franz, Nico M. (2014). Anatomy of a cladistic analysis. 
-            Cladistics 30(3): 294-321." .
+    dcterms:bibliographicCitation """Franz, Nico M. (2014). Anatomy of a cladistic analysis. 
+            Cladistics 30(3): 294-321.""" .
 ```
 
 
