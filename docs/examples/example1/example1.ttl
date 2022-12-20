@@ -1,57 +1,46 @@
 @prefix : <http://rs.tdwg.org/tcs/terms/> .
+@prefix address: <http://schemas.talis.com/2005/address/schema#> .
 @prefix bibo: <http://purl.org/ontology/bibo/> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix dwc: <http://rs.tdwg.org/dwc/terms/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
-@prefix openbiodiv-o: <http://openbiodiv.net/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
-@prefix skosxl: <http://www.w3.org/2008/05/skos-xl#> .
 @prefix tropicos: <https://www.tropicos.org/name/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-[] dcterms:title "Example of a Taxon Concept from a taxonomic revision: Dicranoloma assimile sec. Klazenga (1999)" .
+[] dcterms:title "Dicranoloma assimile from Klazenga (1999)" .
 
-[] a openbiodiv-o:TaxonomicConcept,
-        dwc:Taxon,
-        :TaxonConcept,
-        skos:Concept ;
+# Taxon concept
+
+[] a :TaxonConcept ;
     dcterms:title "Dicranoloma assimile sec. Klazenga (1999)" ;
     :taxonName tropicos:35121458 ;
-    :accordingTo <https://www.tropicos.org/reference/9020903> ;
-    dwc:scientificName "Dicranoloma assimile (Hampe) Renauld"^^xsd:string ;
-    dwc:nameAccordingTo "Klazenga, 1999" ;
-    :synonym ( tropicos:35124384 
-                tropicos:35121535 
-                [ a :TaxonName ;
-                        :taxonNameString "Dicranoloma assimile f. major"^^xsd:String ;
-                        dwc:scientificNameAuthorship "M.Fleisch."^^xsd:string ;
-                        dwc:namePublishedIn "Musci Fl. Buitenzorg 1: 74 (1904)"^^xsd:string ;
-                        dwc:namePublishedInYear "1904" ]
-                tropicos:35121587 
-                tropicos:35121523 
-                tropicos:35121524 
-                tropicos:35121480 
-                tropicos:35168349 ) ;
+    :accordingTo <https://doi.org/10.18968/jhbl.87.0_1> ;
+    :synonym ( tropicos:35124384 tropicos:35121535 tropicos:35204815 
+            tropicos:35121587 tropicos:35121569 tropicos:35121523 
+            tropicos:35121524 tropicos:35121480 tropicos:35168349 ) .
 
-tropicos:35121458 a :TaxonName,
-        skosxl:Label ;
+# Taxon names
+
+tropicos:35121458 a :TaxonName ;
     :taxonNameString "Dicranoloma assimile"^^xsd:String ;
-    skosxl:literalForm "Dicranoloma assimile" ;
     dwc:scientificNameAuthorship "(Hampe) Renauld"^^xsd:string ;
+    :namePublishedIn _:HE6KA2A4 ;
     dwc:namePublishedIn "Rev. Bryol. 28: 69 (1901)"^^xsd:string ;
     dwc:namePublishedInYear "1901" ;
     :basionym tropicos:35121913 .
 
 tropicos:35121913 a :TaxonName ;
-    :taxonNameString "Dicranum assimile"^^xsd:String ;
-    dwc:scientificNameAuthorship "Hampe"^^xsd:string ;
     dwc:namePublishedIn "Icon. Musc. 24 (1844)"^^xsd:string ;
-    dwc:namePublishedInYear "1844" .
+    dwc:namePublishedInYear "1844" ;
+    dwc:scientificNameAuthorship "Hampe"^^xsd:string ;
+    :namePublishedIn <https://www.tropicos.org/publication/667> ;
+    :taxonNameString "Dicranum assimile"^^xsd:String .
 
 tropicos:35154841 a :TaxonName ;
     :taxonNameString "Leucoloma assimile"^^xsd:String ;
     dwc:scientificNameAuthorship "(Hampe) Broth."^^xsd:string ;
+    :namePublishedIn _:QCZTMYTT ;
     dwc:namePublishedIn "Nat. Pflanzenfam. 1,3: 322 (1901)"^^xsd:string ;
     dwc:namePublishedInYear "1901" ;
     :basionym tropicos:35121913 .
@@ -59,70 +48,669 @@ tropicos:35154841 a :TaxonName ;
 tropicos:35124384 a :TaxonName ;
     :taxonNameString "Dicranum sumatranum"^^xsd:String ;
     dwc:scientificNameAuthorship "Müll.Hal."^^xsd:string ;
+    :namePublishedIn <https://www.tropicos.org/publication/658> ;
     dwc:namePublishedIn "Genera musc. fr.: 285 (1901)"^^xsd:string ;
     dwc:namePublishedInYear "1901" .
 
 tropicos:35155131 a :TaxonName ;
     :taxonNameString "Leucoloma sumatranum"^^xsd:String ;
     dwc:scientificNameAuthorship "(Müll.Hal.) Broth."^^xsd:string ;
+    :namePublishedIn _:QCZTMYTT ;
     dwc:namePublishedIn "Nat. Pflanzenfam. 1,3: 322 (1901)"^^xsd:string ;
     dwc:namePublishedInYear "1901" ;
     :basionym tropicos:35124384 .
 
 tropicos:35121646 a :TaxonName ;
-    :taxonNameString "Dicranoloma sumatranum"^^xsd:String .
     dwc:namePublishedIn "Essai Leucoloma 14 (1909)"^^xsd:string ;
-    dwc:namePublishedInYear "1901" ;
+    dwc:namePublishedInYear "1909" ;
     dwc:scientificNameAuthorship "(Müll.Hal.) Renauld"^^xsd:string ;
     :basionym tropicos:35124384 ;
+    :namePublishedIn <https://www.tropicos.org/publication/4881> ;
+    :taxonNameString "Dicranoloma sumatranum"^^xsd:String .
 
 tropicos:35121535 a :TaxonName ;
-    dwc:namePublishedIn "Rev. Bryol. 28: 117 (1901)"^^xsd:string ;
-    dwc:namePublishedInYear "1901" ;
+    :taxonNameString "Dicranoloma gedeanum"^^xsd:String ;
     dwc:scientificNameAuthorship "Renauld & Cardot"^^xsd:string ;
-    :taxonNameString "Dicranoloma gedeanum"^^xsd:String .
+    :namePublishedIn _:7CXQYQDB ;
+    dwc:namePublishedIn "Rev. Bryol. 28: 117 (1901)"^^xsd:string ;
+    dwc:namePublishedInYear "1901" .
+
+tropicos:35204815 a :TaxonName ;
+    :taxonNameString "Dicranum assimile f. major"^^xsd:String ;
+    dwc:scientificNameAuthorship "M.Fleisch."^^xsd:string ;
+    :namePublishedIn _:PS5TWLLZ ;
+    dwc:namePublishedIn "Musci Fl. Buitenzorg 1: 74 (1904)"^^xsd:string ;
+    dwc:namePublishedInYear "1904" .
 
 tropicos:35121587 a :TaxonName ;
     :taxonNameString "Dicranoloma perarmatum"^^xsd:String ;
     dwc:scientificNameAuthorship "Broth."^^xsd:string ;
+    :namePublishedIn _:JHNVI8D4 ;
     dwc:namePublishedIn "Öfvers. Finska Vetensk.-Soc. Förh. 47(14): 1 (1905)"^^xsd:string ;
     dwc:namePublishedInYear "1905" .
+
+tropicos:35121569 a :TaxonName ;
+    :taxonNameString "Dicranoloma monocarpum"^^xsd:String ;
+    dwc:scientificNameAuthorship "Broth."^^xsd:string ;
+    :namePublishedIn _:TJW6677Q ;
+    dwc:namePublishedIn "Philipp. J. Sci., C. 13: 202 (1918)"^^xsd:string ;
+    dwc:namePublishedInYear "1918" .
 
 tropicos:35121523 a :TaxonName ;
     :taxonNameString "Dicranoloma euryloma"^^xsd:String ;
     dwc:scientificNameAuthorship "Dixon"^^xsd:string ;
+    :namePublishedIn _:WH2VEJW4 ;
     dwc:namePublishedIn "J. Linn. Soc. Bot. 50: 69 (1935)"^^xsd:string ;
     dwc:namePublishedInYear "1935" .
 
 tropicos:35121524 a :TaxonName ;
     :taxonNameString "Dicranoloma euryloma var. rugifolium"^^xsd:String ;
     dwc:scientificNameAuthorship "E.B.Bartram"^^xsd:string ;
+    :namePublishedIn _:ZCFFTZHT ;
     dwc:namePublishedIn "Philipp. J. Sci. 61: 237 (1936)"^^xsd:string ;
     dwc:namePublishedInYear "1936" .
 
 tropicos:35121480 a :TaxonName ;
     :taxonNameString "Dicranoloma brachyphyllum"^^xsd:String ;
     dwc:scientificNameAuthorship "Nog."^^xsd:string ;
+    :namePublishedIn _:2R6W6BY5 ;
     dwc:namePublishedIn "J. Hattori Bot. Lab. 10: 3 (1953)"^^xsd:string ;
     dwc:namePublishedInYear "1953" .
 
 tropicos:35168349 a :TaxonName ;
-    :taxonNameString "Dicranoloma havilandii var. latifolium"^^xsd:String ;
-    dwc:scientificNameAuthorship "Zanten"^^xsd:string ;
     dwc:namePublishedIn "Nova Guinea, Bot. 10(16): 272 (1964)"^^xsd:string ;
-    dwc:namePublishedInYear "1964" .
+    dwc:namePublishedInYear "1964" ;
+    dwc:scientificNameAuthorship "Zanten"^^xsd:string ;
+    :namePublishedIn [  ] ;
+    :taxonNameString "Dicranoloma havilandii var. latifolium"^^xsd:String .
 
-<https://www.tropicos.org/reference/9020903> a bibo:AcademicArticle ;
-    dcterms:title "A revision of the Malesian species of Dicranoloma (Dicranaceae, Musci)" ;
-    bibo:authorList [ a foaf:Person ;
-            foaf:givenname "Niels" ;
-            foaf:surname "Klazenga" ] ;
+# Nomenclatural types
+
+[] a :NomenclaturalType ;
+    :typifiedName tropicos:35121913 ;
+    :typeOfType <http://rs.tdwg.org/tcs-taxon-concept-relationship-type/values/holotype> ;
+    :typeSpecimen [ a dwc:PreservedSpecimen
+			dwc:country "Indonesia" ;
+            dwc:island "Java" ;
+            dwc:recordedBy "Junghuhn" ;
+            dwc:recordNumber "s.n." ;
+            dwc:institutionCode "BM" ] .
+
+[] a :NomenclaturalType ;
+    :typifiedName tropicos:35121913 ;
+    :typeOfType <http://rs.tdwg.org/tcs-taxon-concept-relationship-type/values/isotype> ;
+    :typeSpecimen [ a dwc:PreservedSpecimen
+			dwc:country "Indonesia" ;
+            dwc:island "Java" ;
+            dwc:recordedBy "Junghuhn" ;
+            dwc:recordNumber "s.n." ;
+            dwc:institutionCode "L" ] .
+
+[] a :NomenclaturalType ;
+    :typifiedName tropicos:35124384 ;
+    :typeOfType <http://rs.tdwg.org/tcs-taxon-concept-relationship-type/values/holotype> ;
+    :typeSpecimen [ a dwc:PreservedSpecimen
+			dwc:country "Indonesia" ;
+            dwc:island "Sumatra" ;
+            dwc:stateOrProvince "Sumatra Barat" ;
+            dwc:verbatimLocality "West Sumatra"  ;
+            dwc:recordedBy "Micholitz, W." ;
+            dwc:recordNumber "48" ;
+            dwc:institutionCode "B" ;
+            dwc:disposition "destroyed" ] .
+
+[] a :NomenclaturalType ;
+    :typeOfType <http://rs.tdwg.org/tcs-taxon-concept-relationship-type/values/isotype> ;
+    :typifiedName tropicos:35124384 ;
+    :typeSpecimen [ a dwc:PreservedSpecimen
+			dwc:country "Indonesia" ;
+            dwc:island "Sumatra" ;
+            dwc:stateOrProvince "Sumatra Barat" ;
+            dwc:verbatimLocality "West Sumatra" ;
+            dwc:recordedBy "Micholitz, W." ;
+            dwc:recordNumber "48" ;
+            dwc:institutionCode "BM" ] ;
+
+[] a :NomenclaturalType ;
+    :typifiedName tropicos:35124384 ;
+    :typeOfType <http://rs.tdwg.org/tcs-taxon-concept-relationship-type/values/isotype> ;
+    :typeSpecimen [ a dwc:PreservedSpecimen
+            dwc:country "Indonesia" ;
+            dwc:island "Sumatra" ;
+            dwc:stateOrProvince "Sumatra Barat" ;
+            dwc:verbatimLocality "West Sumatra" ;
+            dwc:recordedBy "Micholitz, W." ;
+            dwc:recordNumber "48" ;
+            dwc:institutionCode "FH" ;
+			dwc:collectionCode "FH-FL" ] ;
+
+[] a :NomenclaturalType ;
+    :typifiedName tropicos:35124384 ;
+    :typeOfType <http://rs.tdwg.org/tcs-taxon-concept-relationship-type/values/lectotype> ;
+    :typeSpecimen [ a dwc:PreservedSpecimen
+            dwc:country "Indonesia" ;
+            dwc:island "Sumatra" ;
+            dwc:stateOrProvince "Sumatra Barat" ;
+            dwc:verbatimLocality "West Sumatra" ;
+            dwc:recordedBy "Micholitz, W." ;
+            dwc:recordNumber "48" ;
+            dwc:institutionCode "H" ;
+			dwc:collectionCode "H-BR" ] .
+
+[] a :NomenclaturalType ;
+    :typifiedName tropicos:35124384 ;
+    :typeOfType <http://rs.tdwg.org/tcs-taxon-concept-relationship-type/values/isotype> ;
+    :typeSpecimen [ a dwc:PreservedSpecimen
+			dwc:country "Indonesia" ;
+            dwc:island "Sumatra" ;
+            dwc:stateOrProvince "Sumatra Barat" ;
+            dwc:verbatimLocality "West Sumatra" ;
+            dwc:recordNumber "49" ;
+            dwc:recordedBy "Micholitz, W." ;
+            dwc:institutionCode "S" ] .
+
+[] a :NomenclaturalType ;
+    :typifiedName tropicos:35121535 ;
+    :typeOfType <http://rs.tdwg.org/tcs-taxon-concept-relationship-type/values/holotype> ;
+    :typeSpecimen [ a dwc:PreservedSpecimen
+			dwc:country "Indonesia" ;
+            dwc:island "Java" ;
+            dwc:recordedBy "Lefèbre" ;
+            dwc:recordNumber "s.n." ;
+            dwc:institutionCode "P" ;
+            dwc:disposition "not found" ] .
+
+[] a :NomenclaturalType ;
+    :typifiedName tropicos:35121535 ;
+    :typeOfType <http://rs.tdwg.org/tcs-taxon-concept-relationship-type/values/isotype> ;
+    :typeSpecimen [ a dwc:PreservedSpecimen
+            dwc:country "Indonesia" ;
+            dwc:island "Java" ;
+            dwc:recordedBy "Lefèbre" ;
+            dwc:recordNumber "s.n." ;
+            dwc:institutionCode "FH" ;
+		    dwc:collectionCode "FH-FL" ] .
+
+[] a :NomenclaturalType ;
+    :typifiedName tropicos:35204815 ;
+    :typeOfType <http://rs.tdwg.org/tcs-taxon-concept-relationship-type/values/holotype> ;
+    :typeSpecimen [ a dwc:PreservedSpecimen
+            dwc:island "Borneo" ;
+            dwc:recordedBy "Korthals" ;
+            dwc:recordNumber "s.n." ;
+            dwc:institutionCode "FH" ;
+			dwc:collectionCode "FH-FL" ] .
+
+[] a :NomenclaturalType ;
+    :typifiedName tropicos:35204815 ;
+    :typeOfType <http://rs.tdwg.org/tcs-taxon-concept-relationship-type/values/isotype> ;
+    :typeSpecimen [ a dwc:PreservedSpecimen
+            dwc:island "Borneo" ;
+            dwc:recordedBy "Korthals" ;
+            dwc:recordNumber "s.n." ;
+			dwc:institutionCode "L" ] .
+
+[] a :NomenclaturalType ;
+    :typifiedName tropicos:35121587 ;
+    :typeOfType <http://rs.tdwg.org/tcs-taxon-concept-relationship-type/values/holotype> ;
+    :typeSpecimen [ a dwc:PreservedSpecimen
+            dwc:country "Philippines" ;
+            dwc:island "Mindanao" ;
+            dwc:stateOrProvince "Davao" ;
+            dwc:verbatimLocality "Mt Apo" ;
+            dwc:locationRemarks "On trees, 1800 m" ;
+            dwc:recordedBy "Copeland" ;
+            dwc:recordNumber "1126" ;
+            dwc:institutionCode "H" ;
+			dwc:collectionCode "H-BR" ] .
+
+[] a :NomenclaturalType ;
+    :typifiedName tropicos:35121587 ;
+    :typeOfType <http://rs.tdwg.org/tcs-taxon-concept-relationship-type/values/isotype> ;
+    :typeSpecimen [ a dwc:PreservedSpecimen
+            dwc:country "Philippines" ;
+            dwc:island "Mindanao" ;
+            dwc:stateOrProvince "Davao" ;
+            dwc:verbatimLocality "Mt Apo" ;
+            dwc:locationRemarks "On trees, 1800 m" ;
+            dwc:recordedBy "Copeland" ;
+            dwc:recordNumber "1126" ;
+            dwc:institutionCode "FH" ;
+			dwc:collectionCode "FH-Bartr." ] .
+
+[] a :NomenclaturalType ;
+    :typifiedName tropicos:35121587 ;
+    :typeOfType <http://rs.tdwg.org/tcs-taxon-concept-relationship-type/values/isotype> ;
+    :typeSpecimen [ a dwc:PreservedSpecimen
+            dwc:country "Philippines" ;
+            dwc:island "Mindanao" ;
+            dwc:stateOrProvince "Davao" ;
+            dwc:verbatimLocality "Mt Apo" ;
+            dwc:locationRemarks "On trees, 1800 m" ;
+            dwc:recordedBy "Copeland" ;
+            dwc:recordNumber "1126" ;
+            dwc:institutionCode "FH" ;
+			dwc:collectionCode "FH-FL" ] .
+
+[] a :NomenclaturalType ;
+    :typifiedName tropicos:35121587 ;
+    :typeOfType <http://rs.tdwg.org/tcs-taxon-concept-relationship-type/values/isotype> ;
+    :typeSpecimen [ a dwc:PreservedSpecimen
+            dwc:country "Philippines" ;
+            dwc:island "Mindanao" ;
+            dwc:stateOrProvince "Davao" ;
+            dwc:verbatimLocality "Mt Apo" ;
+            dwc:locationRemarks "On trees, 1800 m" ;
+            dwc:recordedBy "Copeland" ;
+            dwc:recordNumber "1126" ;
+            dwc:institutionCode "NY" ] .
+
+[] a :NomenclaturalType ;
+    :typifiedName tropicos:35121569 ;
+    :typeOfType <http://rs.tdwg.org/tcs-taxon-concept-relationship-type/values/holotype> ;
+    :typeSpecimen [ a dwc:PreservedSpecimen
+            dwc:country "Philippines" ;
+            dwc:island "Luzon" ;
+            dwc:stateOrProvince "Camarines Sur" ;
+            dwc:verbatimLocality "Mt. Isarog" ;
+            dwc:recordedBy "Ramos" ;
+            dwc:recordNumber "BS 22114" ;
+            dwc:institutionCode "H" ;
+			dwc:collectionCode "H-BR" ] .
+
+[] a :NomenclaturalType ;
+    :typifiedName tropicos:35121523 ;
+    :typeOfType <http://rs.tdwg.org/tcs-taxon-concept-relationship-type/values/holotype> ;
+    :typeSpecimen [ a dwc:PreservedSpecimen
+			dwc:country "Malaysia" ;
+            dwc:island "Borneo" ;
+            dwc:stateOrProvince "Sabah" ;
+            dwc:verbatimLocality "Tenompok, Lumu-Lumu" ;
+            dwc:locationRemarks "1400-1600 m" ;
+            dwc:recordedBy "Holttum" ;
+            dwc:recordNumber "25633" ;
+            dwc:institutionCode "BM" ] .
+
+[] a :NomenclaturalType ;
+    :typifiedName tropicos:35121523 ;
+    :typeOfType <http://rs.tdwg.org/tcs-taxon-concept-relationship-type/values/isotype> ;
+    :typeSpecimen [ a dwc:PreservedSpecimen
+            dwc:country "Malaysia" ;
+            dwc:island "Borneo" ;
+            dwc:stateOrProvince "Sabah" ;
+            dwc:verbatimLocality "Tenompok, Lumu-Lumu" ;
+            dwc:locationRemarks "1400-1600 m" ;
+            dwc:recordedBy "Holttum" ;
+            dwc:recordNumber "25633" ;
+            dwc:institutionCode "FH" ;
+			dwc:collectionCode "FH-Bartr." ] .
+
+[] a :NomenclaturalType ;
+    :typifiedName tropicos:35121523 ;
+    :typeOfType <http://rs.tdwg.org/tcs-taxon-concept-relationship-type/values/paratype> ;
+    :typeSpecimen [ a dwc:PreservedSpecimen
+			dwc:country "Malaysia" ;
+            dwc:island "Borneo" ;
+            dwc:stateOrProvince "Sarawak" ;
+            dwc:verbatimLocality "Ulu Koyan" ;
+            dwc:locationRemarks "At base of tree in white sand forest" ;
+            dwc:recordedBy "Oxford Expedition 1932 (P.W. Richards)" ;
+            dwc:recordNumber "1853" ;
+            dwc:institutionCode "BM" ] .
+
+[] a :NomenclaturalType ;
+    :typifiedName tropicos:35121524 ;
+    :typeOfType <http://rs.tdwg.org/tcs-taxon-concept-relationship-type/values/holotype> ;
+    :typeSpecimen [ a dwc:PreservedSpecimen
+            dwc:country "Malaysia" ;
+            dwc:island "Borneo" ;
+            dwc:stateOrProvince "Sarawak" ;
+            dwc:verbatimLocality "Mt Tibang" ;
+            dwc:locationRemarks "1600 m" ;
+            dwc:recordedBy "Mjöberg" ;
+            dwc:recordNumber "s.n." ;
+            dwc:institutionCode "FH" ;
+			dwc:collectionCode "FH-Bart." ] .
+
+[] a :NomenclaturalType ;
+    :typifiedName tropicos:35121524 ;
+    :typeOfType <http://rs.tdwg.org/tcs-taxon-concept-relationship-type/values/isotype> ;
+    :typeSpecimen [ a dwc:PreservedSpecimen
+			dwc:country "Malaysia" ;
+            dwc:island "Borneo" ;
+            dwc:stateOrProvince "Sarawak" ;
+            dwc:verbatimLocality "Mt Tibang" ;
+            dwc:locationRemarks "1600 m" ;
+            dwc:recordedBy "Mjöberg" ;
+            dwc:recordNumber "s.n." ;
+            dwc:institutionCode "BM" ] .
+
+[] a :NomenclaturalType ;
+    :typifiedName tropicos:35121524 ;
+    :typeOfType <http://rs.tdwg.org/tcs-taxon-concept-relationship-type/values/isotype> ;
+    :typeSpecimen [ a dwc:PreservedSpecimen
+			dwc:country "Malaysia" ;
+            dwc:island "Borneo" ;
+            dwc:stateOrProvince "Sarawak" ;
+            dwc:verbatimLocality "Mt Tibang" ;
+            dwc:locationRemarks "1600 m" ;
+            dwc:recordedBy "Mjöberg" ;
+            dwc:recordNumber "s.n." ;
+            dwc:institutionCode "FH" ] .
+
+[] a :NomenclaturalType ;
+    :typifiedName tropicos:35121480 .
+    :typeOfType <http://rs.tdwg.org/tcs-taxon-concept-relationship-type/values/holotype> ;
+    :typeSpecimen [ a dwc:PreservedSpecimen
+			dwc:country "Papua New Guinea" ;
+            dwc:island "New Guinea" ;
+            dwc:stateOrProvince "Morobe" ;
+            dwc:verbatimLocality "Mt Sarawaket" ;
+            dwc:locationRemarks "11000-12000 ft" ;
+            dwc:recordedBy "Clemens, M.S." ;
+            dwc:recordNumber "10245" ;
+            dwc:institutionCode "NICH" ] .
+
+[] a :NomenclaturalType ;
+    :typifiedName tropicos:35121480 ;
+    :typeOfType <http://rs.tdwg.org/tcs-taxon-concept-relationship-type/values/isotype> ;
+    :typeSpecimen [ a dwc:PreservedSpecimen
+			dwc:country "Papua New Guinea" ;
+            dwc:island "New Guinea" ;
+            dwc:stateOrProvince "Morobe" ;
+            dwc:verbatimLocality "Mt Sarawaket" ;
+            dwc:locationRemarks "11000-12000 ft" ;
+            dwc:recordedBy "Clemens, M.S." ;
+            dwc:recordNumber "10245" ;
+            dwc:institutionCode "L" ] .
+
+[] a :NomenclaturalType ;
+    :typifiedName tropicos:35168349 ;
+    :typeOfType <http://rs.tdwg.org/tcs-taxon-concept-relationship-type/values/holotype> ;
+    :typeSpecimen [ a dwc:PreservedSpecimen
+			dwc:country "Indonesia" ;
+            dwc:island "New Guinea" ;
+            dwc:stateOrProvince "Irian Jaya" ;
+            dwc:verbatimLocality "Star Mountains, Mt Antares" ;
+            dwc:locationRemarks "Below western summit, 3300 m, terrestrial and at base of shrubs in alpine peat" ;
+            dwc:recordedBy "van Zanten, B.O." ;
+            dwc:recordNumber "677a" ;
+            dwc:institutionCode "L" ] .
+
+[] a :NomenclaturalType ;
+    :typifiedName tropicos:35168349 ;
+    :typeOfType <http://rs.tdwg.org/tcs-taxon-concept-relationship-type/values/isotype> ;
+    :typeSpecimen [ a dwc:PreservedSpecimen
+			dwc:country "Indonesia" ;
+            dwc:island "New Guinea" ;
+            dwc:stateOrProvince "Irian Jaya" ;
+            dwc:verbatimLocality "Star Mountains, Mt Antares" ;
+            dwc:locationRemarks "Below western summit, 3300 m, terrestrial and at base of shrubs in alpine peat" ;
+            dwc:recordedBy "van Zanten, B.O." ;
+            dwc:recordNumber "677a" ;
+            dwc:institutionCode "BM" ] .
+
+[] a :NomenclaturalType ;
+    :typifiedName tropicos:35168349 ;
+    :typeOfType <http://rs.tdwg.org/tcs-taxon-concept-relationship-type/values/isotype> ;
+    :typeSpecimen [ a dwc:PreservedSpecimen
+			dwc:country "Indonesia" ;
+            dwc:island "New Guinea" ;
+            dwc:stateOrProvince "Irian Jaya" ;
+            dwc:verbatimLocality "Star Mountains, Mt Antares" ;
+            dwc:locationRemarks "Below western summit, 3300 m, terrestrial and at base of shrubs in alpine peat" ;
+            dwc:recordedBy "van Zanten, B.O." ;
+            dwc:recordNumber "677a" ;
+            dwc:institutionCode "NY" ] .
+
+[] a :NomenclaturalType ;
+    :typifiedName tropicos:35168349 ;
+    :typeOfType <http://rs.tdwg.org/tcs-taxon-concept-relationship-type/values/paratype> ;
+    :typeSpecimen [ a dwc:PreservedSpecimen
+			dwc:country "Indonesia" ;
+            dwc:island "New Guinea" ;
+            dwc:stateOrProvince "Irian Jaya" ;
+            dwc:verbatimLocality "Star Mountains, Mt Antares" ;
+            dwc:locationRemarks "Below western summit, 3300 m, terrestrial and at base of shrubs in alpine peat" ;
+            dwc:recordedBy "van Zanten, B.O." ;
+            dwc:recordNumber "680a" ;
+            dwc:institutionCode "L" ] .
+
+[] a :NomenclaturalType ;
+    :typifiedName tropicos:35168349 ;
+    :typeOfType <http://rs.tdwg.org/tcs-taxon-concept-relationship-type/values/paratype> ;
+    :typeSpecimen [ a dwc:PreservedSpecimen
+			dwc:country "Indonesia" ;
+            dwc:island "New Guinea" ;
+            dwc:stateOrProvince "Irian Jaya" ;
+            dwc:verbatimLocality "Star Mountains, Mt Antares" ;
+            dwc:locationRemarks "Below western summit, 3300 m, terrestrial and at base of shrubs in alpine peat" ;
+            dwc:recordedBy "van Zanten, B.O." ;
+            dwc:recordNumber "680a" ;
+            dwc:institutionCode "NY" ] .
+
+[] a :NomenclaturalType ;
+    :typifiedName tropicos:35168349 ;
+    :typeOfType <http://rs.tdwg.org/tcs-taxon-concept-relationship-type/values/paratype> ;
+    :typeSpecimen [ a dwc:PreservedSpecimen
+			dwc:country "Indonesia" ;
+            dwc:island "New Guinea" ;
+            dwc:stateOrProvince "Irian Jaya" ;
+            dwc:verbatimLocality "Star Mountains, Mt Antares" ;
+            dwc:locationRemarks "Below western summit, 3300 m, terrestrial and at base of shrubs in alpine peat" ;
+            dwc:recordedBy "van Zanten, B.O." ;
+            dwc:recordNumber "680a" ;
+            dwc:institutionCode "BM" ] .
+
+# References
+
+<https://doi.org/10.18968/jhbl.87.0_1> a bibo:AcademicArticle ;
+    dcterms:creator _:N54663d0d057b4f048d3f8758708c96de ;
     dcterms:isPartOf [ a bibo:Issue ;
+            dcterms:date "1999" ;
             dcterms:isPartOf [ a bibo:Journal ;
-                    dcterms:shortTitle "J. Hattori Bot. Lab." ;
-                    dcterms:title "Journal of the Hattori Botanical Laboratory" ] ;
-            bibo:volume "87" ;
-            dcterms:date "1999" ] ;
+                    dcterms:title "The Journal of the Hattori Botanical Laboratory" ] ;
+            bibo:volume "87" ] ;
+    dcterms:title "A revision of the Malesian species of Dicranoloma (Dicranaceae, Musci)" ;
+    bibo:authorList ( _:N54663d0d057b4f048d3f8758708c96de ) ;
+    bibo:doi "10.18968/jhbl.87.0_1" ;
     bibo:pages "1-130" .
 
+_:HE6KA2A4 a bibo:AcademicArticle ;
+    dcterms:creator _:Nf298021bc1014d939ed87b5150e0dcc7 ;
+    bibo:authorList ( _:Nf298021bc1014d939ed87b5150e0dcc7 ) ;
+    dcterms:title "Nouvelle classification des Leucoloma" ;  
+    dcterms:isPartOf [ a bibo:Issue ;
+            dcterms:date "1901" ;
+            dcterms:isPartOf [ a bibo:Journal ;
+                    dcterms:title "Revue Bryologique" ;
+                    bibo:shortTitle "Rev. Bryol." ] ;
+            bibo:volume "28" ] ;
+    bibo:pages "66-70, 85-87" .
 
+_:QCZTMYTT a bibo:BookSection ;
+    dcterms:creator _:N865f2ec8af89476d9e4956d4db26d162 ;
+    dcterms:isPartOf [ a bibo:EditedBook ;
+            dcterms:date "1901" ;
+            dcterms:publisher [ a foaf:Organization ;
+                    address:localityName "Leipzig" ] ;
+            dcterms:title "Die natürlichen Pflanzenfamilien" ;
+            bibo:editor _:N41587ef3e8a84a9ebef3f7ba7f89a616,
+                _:Ndea481d02f794edcb50a463318fa2fc7 ;
+            bibo:editorList ( _:Ndea481d02f794edcb50a463318fa2fc7 _:N41587ef3e8a84a9ebef3f7ba7f89a616 ) ;
+            bibo:volume "T. 1, Abt. 3, H. 1" ] ;
+    dcterms:title "Dicranaceae" ;
+    bibo:authorList _:N7004564d888d46b4bc55baa6898cc2a1 ;
+    bibo:pages "289-342" .
+
+<https://www.tropicos.org/publication/4881> a bibo:Book ;
+    dcterms:creator _:Nf298021bc1014d939ed87b5150e0dcc7 ;
+    dcterms:date "1909" ;
+    dcterms:publisher [ a foaf:Organization ;
+            address:localityName "Monaco" ] ;
+    dcterms:title "Essai sur les Leucoloma" ;
+    bibo:authorList ( _:Nf298021bc1014d939ed87b5150e0dcc7 ) .
+
+_:7CXQYQDB a bibo:AcademicArticle ;
+    dcterms:creator _:Nfeaf7a4e129b479ebb8c2f50575ee7b7 ;
+    dcterms:isPartOf [ a bibo:Issue ;
+            dcterms:date "1901" ;
+            dcterms:isPartOf [ a bibo:Journal ;
+                    dcterms:title "Revue Bryologique" ;
+                    bibo:shortTitle "Rev. Bryol." ] ;
+            bibo:volume "28" ] ;
+    dcterms:title "Notes sur deux collections de mousses de l'archipel indien" ;
+    bibo:authorList ( _:Nfeaf7a4e129b479ebb8c2f50575ee7b7 ) ;
+    bibo:pages "112-118" .
+
+_:PS5TWLLZ a bibo:Book ;
+    dcterms:title "Die Musci der Flora von Buitenzorg" ;
+    dcterms:creator _:N65346cc4be03468bb37acdac60cdda45 ;
+    bibo:authorList ( _:N65346cc4be03468bb37acdac60cdda45 ) ;
+    dcterms:date "1901-1902 [1904]" ;
+    dcterms:publisher [ a foaf:Organization ;
+            address:localityName "Leiden" ] ;
+    bibo:volume "1" .
+
+<https://www.tropicos.org/publication/658> a bibo:Book ;
+    dcterms:creator _:N0be59e7f90304ee4bb48689d12fe7fa5 ;
+    dcterms:date "1901" ;
+    dcterms:publisher [ a foaf:Organization ;
+            address:localityName "Leipzig" ] ;
+    dcterms:title "Genera muscorum frondosorum" ;
+    bibo:authorList ( _:N0be59e7f90304ee4bb48689d12fe7fa5 ) .
+
+<https://www.tropicos.org/publication/667> a bibo:Book ;
+    dcterms:creator _:Ndb730634415442d794e6dac238e12bdf ;
+    dcterms:date "1844" ;
+    dcterms:publisher [ a foaf:Organization ;
+            address:localityName "Bonn" ] ;
+    dcterms:title "Icones muscorum novorum vel minus cognitorum" ;
+    bibo:authorList ( _:Ndb730634415442d794e6dac238e12bdf ) .
+
+_:JHNVI8D4 a bibo:AcademicArticle ;
+    dcterms:title "Contributions to the bryological flora of the Philippines. 1" ;
+    dcterms:creator _:N865f2ec8af89476d9e4956d4db26d162 ;
+    bibo:authorList ( _:N865f2ec8af89476d9e4956d4db26d162 ) ;
+    dcterms:isPartOf [ a bibo:Issue ;
+            dcterms:date "1905" ;
+            dcterms:isPartOf [ a bibo:Journal ;
+                    dcterms:title "Öfversigt af Finska Vetenskaps-Societetens Förhandlingar" ;
+                    bibo:shortTitle "Öfv. Förh. Finsk. Vet.-Soc." ] ;
+            bibo:issue "14" ;
+            bibo:volume "47" ] ;
+    bibo:pages "1-12" .
+
+_:TJW6677Q a bibo:AcademicArticle ;
+    dcterms:title "Contributions to the bryological flora of the Philippines. V" ;
+    dcterms:creator _:N865f2ec8af89476d9e4956d4db26d162 ;
+    bibo:authorList ( _:N865f2ec8af89476d9e4956d4db26d162 ) ;
+    dcterms:isPartOf [ a bibo:Issue ;
+            dcterms:date "1918" ;
+            dcterms:isPartOf [ a bibo:Journal ;
+                    dcterms:title "The Philippine Journal of Science. Section C, Botany" ;
+                    bibo:shortTitle "Philipp. J. Sci., C." ] ;
+            bibo:volume "13" ] ;
+    bibo:pages "201-222" .
+
+_:WH2VEJW4 a bibo:AcademicArticle ;
+    dcterms:title "A contribution to the moss flora of Borneo" ;
+    dcterms:creator _:Na547a33dbdb74d20ad53a4afd66cbd7f ;
+    bibo:authorList ( _:Na547a33dbdb74d20ad53a4afd66cbd7f ) ;
+    dcterms:isPartOf [ a bibo:Issue ;
+            dcterms:date "1935" ;
+            dcterms:isPartOf [ a bibo:Journal ;
+                    dcterms:title "Journal of the Linnean Society, Botany" ;
+                    bibo:shortTitle "J. Linn. Soc., Bot." ] ;
+            bibo:volume "50" ] ;
+    bibo:pages "47-140" .
+
+_:ZCFFTZHT a bibo:AcademicArticle ;
+    dcterms:title "Bornean mosses, principally from Mount Kinabalu" ;
+    bibo:authorList ( _:Nd643f29cd028450a87f2a7eb6ea71a5f ) ;
+    dcterms:creator _:Nd643f29cd028450a87f2a7eb6ea71a5f ;
+    dcterms:isPartOf [ a bibo:Issue ;
+            dcterms:date "1936" ;
+            dcterms:isPartOf [ a bibo:Journal ;
+                    dcterms:title "Philippine Journal of Science" ;
+                    bibo:shortTitle "Philipp. J. Sci." ] ;
+            bibo:volume "61" ] ;
+    bibo:pages "235-251" .
+
+_:2R6W6BY5 a bibo:AcademicArticle ;
+    dcterms:title "Mosses of Mt. Sarawaket, New Guinea" ;
+    dcterms:creator _:Ne1773e9a3e784f099d9dac6925267317 ;
+    bibo:authorList ( _:Ne1773e9a3e784f099d9dac6925267317 ) ;
+    dcterms:isPartOf [ a bibo:Issue ;
+            dcterms:date "1953" ;
+            dcterms:isPartOf [ a bibo:Journal ;
+                    dcterms:title "Journal of the Hattori Botanical Laboratory" ;
+                    bibo:shortTitle "J. Hattori Bot. Lab." ] ;
+            bibo:volume "10" ] ;
+    bibo:pages "1-23" .
+
+_:EE7TDMF8 a bibo:AcademicArticle ;
+    dcterms:title "Mosses of the Star Mountain expedition" ;
+    dcterms:creator _:N302873fa17f7445f939b79ac85621391 ;
+    bibo:authorList ( _:N302873fa17f7445f939b79ac85621391 ) ;
+    dcterms:isPartOf [ a bibo:Issue ;
+            dcterms:date "1964" ;
+            dcterms:isPartOf [ a bibo:Journal ;
+                    dcterms:title "Nova Guinea, Botany" ;
+                    bibo:shortTitle "Nova Guinea, Bot." ] ;
+            bibo:volume "10" ] ;
+    bibo:pages "263-368" .
+
+# Agents
+
+_:Nd643f29cd028450a87f2a7eb6ea71a5f a foaf:Person ;
+    foaf:givenName "E.B." ;
+    foaf:surname "Bartram" .
+
+_:N865f2ec8af89476d9e4956d4db26d162 a foaf:Person ;
+    foaf:givenName "V.F." ;
+    foaf:surname "Brotherus" .
+
+_:Nfeaf7a4e129b479ebb8c2f50575ee7b7 a foaf:Person ;
+    foaf:givenName "J." ;
+    foaf:surname "Cardot" .
+
+_:Na547a33dbdb74d20ad53a4afd66cbd7f a foaf:Person ;
+    foaf:givenName "H.N." ;
+    foaf:surname "Dixon" .
+
+_:Ndea481d02f794edcb50a463318fa2fc7 a foaf:Person ;
+    foaf:givenName "A." ;
+    foaf:surname "Engler" .
+
+_:N65346cc4be03468bb37acdac60cdda45 a foaf:Person ;
+    foaf:givenName "M." ;
+    foaf:surname "Fleischer" .
+
+_:Ndb730634415442d794e6dac238e12bdf a foaf:Person ;
+    foaf:givenName "E." ;
+    foaf:surname "Hampe" .
+
+_:N54663d0d057b4f048d3f8758708c96de a foaf:Person ;
+    foaf:givenName "Niels" ;
+    foaf:surname "Klazenga" .
+
+_:N0be59e7f90304ee4bb48689d12fe7fa5 a foaf:Person ;
+    foaf:givenName "C." ;
+    foaf:surname "Müller" .
+
+_:Ne1773e9a3e784f099d9dac6925267317 a foaf:Person ;
+    foaf:givenName "A." ;
+    foaf:surname "Noguchi" .
+
+_:N41587ef3e8a84a9ebef3f7ba7f89a616 a foaf:Person ;
+    foaf:givenName "K." ;
+    foaf:surname "Prantl" .
+
+_:Nf298021bc1014d939ed87b5150e0dcc7 a foaf:Person ;
+    foaf:givenName "F." ;
+    foaf:surname "Renauld" .
+
+_:N302873fa17f7445f939b79ac85621391 a foaf:Person ;
+    foaf:givenName "B.O. van" ;
+    foaf:surname "Zanten" .
