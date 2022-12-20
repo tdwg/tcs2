@@ -15,8 +15,9 @@
     dcterms:title "Quercus robur sec. Duistermaat (2020)" ;
     :taxonName [ <https://www.ipni.org/n/304293-2> a :TaxonName ;
             :taxonNameString "Quercus robur" ] ;
-    :vernacularName [ a :TaxonName ;
-            :taxonNameString "Zomereik" ] ;
+    :vernacularName [ a <http://rs.gbif.org/terms/1.0/VernacularName> ;
+            dwc:vernacularName "Zomereik" ;
+            dcterms:language "nl" ] ;
     :accordingTo [ <urn:isbn:978-90-01-58956-1> a bibo:Book ;
             dcterms:bibliographicCitation """Duistermaat, H. (2020). Heukels Flora van Nederland, edn 
             24. Noordhoff, Groningen.""" ] .
