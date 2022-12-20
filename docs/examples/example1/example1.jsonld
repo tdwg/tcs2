@@ -64,7 +64,7 @@
             "@type": "NomenclaturalType",
             "typeOfType": "holotype",
             "typeSpecimen": {
-							"@type": "dwc:PreservedSpecimen",
+              "@type": "dwc:PreservedSpecimen",
               "dwc:country": "Indonesia",
               "dwc:island": "Java",
               "dwc:recordedBy": "Junghuhn",
@@ -76,7 +76,7 @@
             "@type": "NomenclaturalType",
             "typeOfType": "isotype",
             "typeSpecimen": {
-							"@type": "dwc:PreservedSpecimen",
+              "@type": "dwc:PreservedSpecimen",
               "dwc:country": "Indonesia",
               "dwc:island": "Java",
               "dwc:recordedBy": "Junghuhn",
@@ -111,7 +111,7 @@
             "@type": "NomenclaturalType",
             "typeOfType": "holotype",
             "typeSpecimen": {
-							"@type": "dwc:PreservedSpecimen",
+              "@type": "dwc:PreservedSpecimen",
               "dwc:country": "Indonesia",
               "dwc:island": "Sumatra",
               "dwc:stateOrProvince": "Sumatra Barat",
@@ -126,7 +126,7 @@
             "@type": "NomenclaturalType",
             "typeOfType": "lectotype",
             "typeSpecimen": {
-							"@type": "dwc:PreservedSpecimen",
+              "@type": "dwc:PreservedSpecimen",
               "dwc:country": "Indonesia",
               "dwc:island": "Sumatra",
               "dwc:stateOrProvince": "Sumatra Barat",
@@ -141,7 +141,7 @@
             "@type": "NomenclaturalType",
             "typeOfType": "isotype",
             "typeSpecimen": {
-							"@type": "dwc:PreservedSpecimen",
+              "@type": "dwc:PreservedSpecimen",
               "dwc:country": "Indonesia",
               "dwc:island": "Sumatra",
               "dwc:stateOrProvince": "Sumatra Barat",
@@ -155,7 +155,7 @@
             "@type": "NomenclaturalType",
             "typeOfType": "isotype",
             "typeSpecimen": {
-							"@type": "dwc:PreservedSpecimen",
+              "@type": "dwc:PreservedSpecimen",
               "dwc:country": "Indonesia",
               "dwc:island": "Sumatra",
               "dwc:stateOrProvince": "Sumatra Barat",
@@ -170,7 +170,7 @@
             "@type": "NomenclaturalType",
             "typeOfType": "isotype",
             "typeSpecimen": {
-							"@type": "dwc:PreservedSpecimen",
+              "@type": "dwc:PreservedSpecimen",
               "dwc:country": "Indonesia",
               "dwc:island": "Sumatra",
               "dwc:stateOrProvince": "Sumatra Barat",
@@ -217,7 +217,7 @@
             "@type": "NomenclaturalType",
             "typeOfType": "holotype",
             "typeSpecimen": {
-							"@type": "dwc:PreservedSpecimen",
+              "@type": "dwc:PreservedSpecimen",
               "dwc:country": "Indonesia",
               "dwc:island": "Java",
               "dwc:recordedBy": "Lef\u00e8bre",
@@ -230,7 +230,7 @@
             "@type": "NomenclaturalType",
             "typeOfType": "isotype",
             "typeSpecimen": {
-							"@type": "dwc:PreservedSpecimen",
+              "@type": "dwc:PreservedSpecimen",
               "dwc:country": "Indonesia",
               "dwc:island": "Java",
               "dwc:recordedBy": "Lef\u00e8bre",
@@ -256,7 +256,7 @@
             "@type": "NomenclaturalType",
             "typeOfType": "holotype",
             "typeSpecimen": {
-							"@type": "dwc:PreservedSpecimen",
+              "@type": "dwc:PreservedSpecimen",
               "dwc:island": "Borneo",
               "dwc:recordedBy": "Korthals",
               "dwc:recordNumber": "s.n.",
@@ -268,7 +268,7 @@
             "@type": "NomenclaturalType",
             "typeOfType": "isotype",
             "typeSpecimen": {
-							"@type": "dwc:PreservedSpecimen",
+              "@type": "dwc:PreservedSpecimen",
               "dwc:island": "Borneo",
               "dwc:recordedBy": "Korthals",
               "dwc:recordNumber": "s.n.",
@@ -292,7 +292,7 @@
             "@type": "NomenclaturalType",
             "typeOfType": "holotype",
             "typeSpecimen": {
-							"@type": "dwc:PreservedSpecimen",
+              "@type": "dwc:PreservedSpecimen",
               "dwc:country": "Philippines",
               "dwc:island": "Mindanao",
               "dwc:stateOrProvince": "Davao",
@@ -308,7 +308,7 @@
             "@type": "NomenclaturalType",
             "typeOfType": "isotype",
             "typeSpecimen": {
-							"@type": "dwc:PreservedSpecimen",
+              "@type": "dwc:PreservedSpecimen",
               "dwc:country": "Philippines",
               "dwc:island": "Mindanao",
               "dwc:stateOrProvince": "Davao",
@@ -324,7 +324,7 @@
             "@type": "NomenclaturalType",
             "typeOfType": "isotype",
             "typeSpecimen": {
-							"@type": "dwc:PreservedSpecimen",
+              "@type": "dwc:PreservedSpecimen",
               "dwc:country": "Philippines",
               "dwc:island": "Mindanao",
               "dwc:stateOrProvince": "Davao",
@@ -340,7 +340,7 @@
             "@type": "NomenclaturalType",
             "typeOfType": "isotype",
             "typeSpecimen": {
-							"@type": "dwc:PreservedSpecimen",
+              "@type": "dwc:PreservedSpecimen",
               "dwc:country": "Philippines",
               "dwc:island": "Mindanao",
               "dwc:stateOrProvince": "Davao",
@@ -368,7 +368,7 @@
             "@type": "NomenclaturalType",
             "typeOfType": "holotype",
             "typeSpecimen": {
-							"@type": "dwc:PreservedSpecimen",
+              "@type": "dwc:PreservedSpecimen",
               "dwc:country": "Philippines",
               "dwc:island": "Luzon",
               "dwc:stateOrProvince": "Camarines Sur",
@@ -396,7 +396,7 @@
             "@type": "NomenclaturalType",
             "typeOfType": "holotype",
             "typeSpecimen": {
-							"@type": "dwc:PreservedSpecimen",
+              "@type": "dwc:PreservedSpecimen",
               "dwc:country": "Malaysia",
               "dwc:island": "Borneo",
               "dwc:stateOrProvince": "Sabah",
@@ -411,7 +411,7 @@
             "@type": "NomenclaturalType",
             "typeOfType": "isotype",
             "typeSpecimen": {
-							"@type": "dwc:PreservedSpecimen",
+              "@type": "dwc:PreservedSpecimen",
               "dwc:country": "Malaysia",
               "dwc:island": "Borneo",
               "dwc:stateOrProvince": "Sabah",
@@ -427,7 +427,7 @@
             "@type": "NomenclaturalType",
             "typeOfType": "paratype",
             "typeSpecimen": {
-							"@type": "dwc:PreservedSpecimen",
+              "@type": "dwc:PreservedSpecimen",
               "dwc:country": "Malaysia",
               "dwc:island": "Borneo",
               "dwc:stateOrProvince": "Sarawak",
@@ -455,7 +455,7 @@
             "@type": "NomenclaturalType",
             "typeOfType": "holotype",
             "typeSpecimen": {
-							"@type": "dwc:PreservedSpecimen",
+              "@type": "dwc:PreservedSpecimen",
               "dwc:country": "Malaysia",
               "dwc:island": "Borneo",
               "dwc:stateOrProvince": "Sarawak",
@@ -471,7 +471,7 @@
             "@type": "NomenclaturalType",
             "typeOfType": "isotype",
             "typeSpecimen": {
-							"@type": "dwc:PreservedSpecimen",
+              "@type": "dwc:PreservedSpecimen",
               "dwc:country": "Malaysia",
               "dwc:island": "Borneo",
               "dwc:stateOrProvince": "Sarawak",
@@ -486,7 +486,7 @@
             "@type": "NomenclaturalType",
             "typeOfType": "isotype",
             "typeSpecimen": {
-							"@type": "dwc:PreservedSpecimen",
+              "@type": "dwc:PreservedSpecimen",
               "dwc:country": "Malaysia",
               "dwc:island": "Borneo",
               "dwc:stateOrProvince": "Sarawak",
@@ -514,7 +514,7 @@
             "@type": "NomenclaturalType",
             "typeOfType": "holotype",
             "typeSpecimen": {
-							"@type": "dwc:PreservedSpecimen",
+              "@type": "dwc:PreservedSpecimen",
               "dwc:country": "Papua New Guinea",
               "dwc:island": "New Guinea",
               "dwc:stateOrProvince": "Morobe",
@@ -529,7 +529,7 @@
             "@type": "NomenclaturalType",
             "typeOfType": "isotype",
             "typeSpecimen": {
-							"@type": "dwc:PreservedSpecimen",
+              "@type": "dwc:PreservedSpecimen",
               "dwc:country": "Papua New Guinea",
               "dwc:island": "New Guinea",
               "dwc:stateOrProvince": "Morobe",
@@ -557,7 +557,7 @@
             "@type": "NomenclaturalType",
             "typeOfType": "holotype",
             "typeSpecimen": {
-							"@type": "dwc:PreservedSpecimen",
+              "@type": "dwc:PreservedSpecimen",
               "dwc:country": "Indonesia",
               "dwc:island": "New Guinea",
               "dwc:stateOrProvince": "Irian Jaya",
@@ -572,7 +572,7 @@
             "@type": "NomenclaturalType",
             "typeOfType": "isotype",
             "typeSpecimen": {
-							"@type": "dwc:PreservedSpecimen",
+              "@type": "dwc:PreservedSpecimen",
               "dwc:country": "Indonesia",
               "dwc:island": "New Guinea",
               "dwc:stateOrProvince": "Irian Jaya",
@@ -587,7 +587,7 @@
             "@type": "NomenclaturalType",
             "typeOfType": "isotype",
             "typeSpecimen": {
-							"@type": "dwc:PreservedSpecimen",
+              "@type": "dwc:PreservedSpecimen",
               "dwc:country": "Indonesia",
               "dwc:island": "New Guinea",
               "dwc:stateOrProvince": "Irian Jaya",
@@ -602,7 +602,7 @@
             "@type": "NomenclaturalType",
             "typeOfType": "paratype",
             "typeSpecimen": {
-							"@type": "dwc:PreservedSpecimen",
+              "@type": "dwc:PreservedSpecimen",
               "dwc:country": "Indonesia",
               "dwc:island": "New Guinea",
               "dwc:stateOrProvince": "Irian Jaya",
@@ -617,7 +617,7 @@
             "@type": "NomenclaturalType",
             "typeOfType": "paratype",
             "typeSpecimen": {
-							"@type": "dwc:PreservedSpecimen",
+              "@type": "dwc:PreservedSpecimen",
               "dwc:country": "Indonesia",
               "dwc:island": "New Guinea",
               "dwc:stateOrProvince": "Irian Jaya",
@@ -632,7 +632,7 @@
             "@type": "NomenclaturalType",
             "typeOfType": "paratype",
             "typeSpecimen": {
-							"@type": "dwc:PreservedSpecimen",
+              "@type": "dwc:PreservedSpecimen",
               "dwc:country": "Indonesia",
               "dwc:island": "New Guinea",
               "dwc:stateOrProvince": "Irian Jaya",
