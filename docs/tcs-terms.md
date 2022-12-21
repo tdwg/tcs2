@@ -307,7 +307,7 @@ The rank is an attribute of elements in a classification and `taxonomicRank`  ca
 
 **Comments**
 
-The `parent` is another Taxon Concept. This is the parent as indicated in  the `accordingTo` reference, rather than a third-party classification. The  `accordingTo` of the parent will generally, but not necessarily, be the  same as that of the child. Parent-child relationships can also be exchanged  as, or converted to, TCS Taxon Concept Relationships, using the  `isProperSubsetOf` and/or `hasProperSubset` relationships.
+The `parent` is another Taxon Concept. This is the parent as indicated in  the `accordingTo` reference, rather than a third-party classification. The  `accordingTo` of the parent will generally, but not necessarily, be the  same as that of the child. 
 
 ### tcs:synonym
 
