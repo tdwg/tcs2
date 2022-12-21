@@ -24,9 +24,9 @@ concept label.
 
 <https://www.catalogueoflife.org/data/taxon/6DBT#v2022-11-14> a :TaxonConcept ;
     dcterms:title "Panthera sec. Catalogue of Life (v2022-11-14)" ;
-    :accordingTo <https://www.catalogueoflife.org#v2022-11-14> ;
     :taxonName [ a :TaxonName ;
             :taxonNameString "Panthera" ] ;
+    :accordingTo <https://www.catalogueoflife.org#v2022-11-14> ;
     :taxonomicRank gbif-rank:genus ;
     :parent <https://www.catalogueoflife.org/data/taxon/628LP#v2022-11-14> .
 
