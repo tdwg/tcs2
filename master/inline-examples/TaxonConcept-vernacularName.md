@@ -19,6 +19,6 @@
             dwc:vernacularName "Zomereik" ;
             dcterms:language "nl" ] ;
     :accordingTo [ <urn:isbn:978-90-01-58956-1> a bibo:Book ;
-            dcterms:bibliographicCitation """Duistermaat, H. (2020). Heukels Flora van Nederland, edn 
-            24. Noordhoff, Groningen.""" ] .
+            dcterms:bibliographicCitation """Duistermaat, H. (2020). Heukels 
+                    Flora van Nederland, edn 24. Noordhoff, Groningen.""" ] .
 ```
