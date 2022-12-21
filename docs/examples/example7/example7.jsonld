@@ -1,6 +1,5 @@
 {
   "@context": "https://raw.githubusercontent.com/tdwg/tcs2/examples/docs/examples/context.jsonld",
-  "@id": "ex:6",
   "dcterms:title": "Example from Catalogue of Life with classification",
   "@graph": [
     {
