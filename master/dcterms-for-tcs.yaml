@@ -1,0 +1,22 @@
+#
+# Terms borrowed from Dublin Core
+#
+
+# title
+- localName: title
+  label: Taxon concept label
+  definition: A name given to the resource.
+  usage: null
+  notes: >
+    In TCS `dcterms:title` is used for the taxonomic concept label (cf. 
+    Senderov et al., 2018), which consists of the Taxon Name and a reference to 
+    the publication where the concept is circumscribed, separated by 'sec.', 
+    which stands for 'secundus' ('according to'). It is used to indicate one 
+    specific meaning of a name – a Taxon Concept – rather than the cumulative 
+    nomenclatural and taxonomic legacy associated with the name.
+  examples: TaxonConcept-title.md
+  type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+  organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonConcept
+  required: No
+  repeatable: No
+  github: 222

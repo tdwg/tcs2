@@ -97,8 +97,8 @@ def create_index(categories, merged_df):
         for index, row in merged_df[merged_df['type'].str.contains('Class')].iterrows():
             label = '{namespaceAlias}:{localName}'.format(
                 namespaceAlias=row['namespaceAlias'], localName=row['localName'])
-            anchor = '#{namespaceAlias}_{localName}'.format(
-                namespaceAlias=row['namespaceAlias'], localName=row['localName'])
+            anchor = '#{namespaceAlias}{localName}'.format(
+                namespaceAlias=row['namespaceAlias'], localName=row['localName'].lower())
             item = '[{label}]({anchor})'.format(label=label, anchor=anchor)
             items.append(item)
         text += ' | '.join(items) + '\n\n'
@@ -121,8 +121,8 @@ def create_index(categories, merged_df):
             else:
                 label = '{label}'.format(label=row['label'])
 
-            anchor = '#{namespaceAlias}_{localName}'.format(
-                namespaceAlias=row['namespaceAlias'], localName=row['localName'])
+            anchor = '#{namespaceAlias}{localName}'.format(
+                namespaceAlias=row['namespaceAlias'], localName=row['localName'].lower())
 
             if 'Class' not in row['type']:
                 item = '[{label}]({anchor})'.format(label=label, anchor=anchor)
@@ -176,27 +176,32 @@ def term_table(term):
     Returns:
         str: HTML table (<table/>) with term metadata
     """
-    text = '<table style="width:100%;">\n'
-
-    # table header
     curie = '{namespaceAlias}:{localName}'.format(
         namespaceAlias=term['namespaceAlias'], localName=term['localName'])
-    curieAnchor = curie.replace(':', '_')
-    term_type = term['type'][term['type'].find('#')+1:].lower()
-    if term_type == 'concept':
-        tableHeader = """
-            <a id="{anchor}"></a><span style="display:block;float:left;">{curie} ({label})</span> 
-            <span style="color:#ffffff;background-color:#617694;display:block;float:right;padding:0 5px;">[{term_type}]</span>
-            """.format(
-            curie=curie, anchor=curieAnchor, term_type=term_type, label=term['label'])
-    else:
-        tableHeader = """
-            <a id="{anchor}"></a><span style="display:block;float:left;">{curie}</span> 
-            <span style="color:#ffffff;background-color:#617694;display:block;float:right;padding:0 5px;">[{term_type}]</span>
-            """.format(curie=curie, anchor=curieAnchor, term_type=term_type)
-    text += '\t<thead>\n'
-    text += table_row([table_cell(tableHeader, celltype='th', colspan=2)])
-    text += '\t</thead>\n'
+
+    text = '### ' + curie + '\n\n'
+
+    text += '<table style="width:100%;">\n'
+
+    # table header
+    # curie = '{namespaceAlias}:{localName}'.format(
+    #     namespaceAlias=term['namespaceAlias'], localName=term['localName'])
+    # curieAnchor = curie.replace(':', '_')
+    # term_type = term['type'][term['type'].find('#')+1:].lower()
+    # if term_type == 'concept':
+    #     tableHeader = """
+    #         <a id="{anchor}"></a><span style="display:block;float:left;">{curie} ({label})</span> 
+    #         <span style="color:#ffffff;background-color:#617694;display:block;float:right;padding:0 5px;">[{term_type}]</span>
+    #         """.format(
+    #         curie=curie, anchor=curieAnchor, term_type=term_type, label=term['label'])
+    # else:
+    #     tableHeader = """
+    #         <a id="{anchor}"></a><span style="display:block;float:left;">{curie}</span> 
+    #         <span style="color:#ffffff;background-color:#617694;display:block;float:right;padding:0 5px;">[{term_type}]</span>
+    #         """.format(curie=curie, anchor=curieAnchor, term_type=term_type)
+    # text += '\t<thead>\n'
+    # text += table_row([table_cell(tableHeader, celltype='th', colspan=2)])
+    # text += '\t</thead>\n'
 
     text += '\t<tbody>\n'
 
@@ -245,22 +250,6 @@ def term_table(term):
             table_cell(markdown.markdown(usage))
         ])
 
-    # Comments/Notes
-    if term['notes']:
-        comments = term['notes']
-        text += table_row([
-            table_cell('Comments'),
-            table_cell(markdown.markdown(comments, extensions=['nl2br']))
-        ])
-
-    # Examples
-    if 'examples' in term and term['examples']:
-        examples = term['examples']
-        text += table_row([
-            table_cell('Examples'),
-            table_cell(markdown.markdown(examples))
-        ])
-
     # Controlled term
     if 'Concept' in term['type']:
         text += table_row([
@@ -278,6 +267,27 @@ def term_table(term):
 
     text += '\t</tbody>\n'
     text += '</table>\n\n'
+
+    # Comments/Notes
+    if term['notes']:
+        comments = term['notes']
+        # text += table_row([
+        #     table_cell('Comments'),
+        #     table_cell(markdown.markdown(comments, extensions=['nl2br']))
+        # ])
+        text += '\n**Comments**\n\n'
+        text += comments
+        text += '\n\n'
+
+    # Examples
+    if 'examples' in term and term['examples']:
+        filename = '../master/inline-examples/' + term['examples']
+        with open(filename, 'r') as exampleFile:
+            examples = exampleFile.read()
+        text += '\n**Examples**\n\n'
+        text += examples
+        text += '\n\n'
+
     return text
 
 # create vocabulary
@@ -293,10 +303,11 @@ def create_vocab(categories, merged_df):
     Returns:
         str: vocabulary in HTML format
     """
-    vocab = '## Vocabulary\n\n'
+    # vocab = '## Vocabulary\n\n'
+    vocab = ''
     for category in categories:
         if len(categories) > 1:
-            vocab += '### {label}\n\n'.format(label=category['label'])
+            vocab += '## {label}\n\n'.format(label=category['label'])
             filtered_df = merged_df[merged_df['organizedInClass']
                                     == category['namespace']]
         else:

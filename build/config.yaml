@@ -9,6 +9,9 @@ termLists:
   - filename: dwc-for-tcs
     vann_preferredNamespacePrefix: dwc
     vann_preferredNamespaceUri: http://rs.tdwg.org/dwc/terms/
+  - filename: dcterms-for-tcs
+    vann_preferredNamespacePrefix: dcterms
+    vann_preferredNamespaceUri: http://purl.org/dc/terms/
 categories:
   - namespace: 'http://rs.tdwg.org/tcs/terms/TaxonConcept'
     label: Taxon Concept
@@ -32,7 +35,7 @@ footerFileName: ./static/termlist-footer.md
 outFileName: ../docs/taxon-concept-relationship-type-vocabulary.md
 termLists:
   - filename: tcsTaxonConceptRelationshipType
-    vann_preferredNamespacePrefix: tcsreltype
+    vann_preferredNamespacePrefix: tcreltype
     vann_preferredNamespaceUri: http://rs.tdwg.org/tcs-taxon-concept-relationship-type/values/
 categories:
   - namespace: http://rs.tdwg.org/tcs-taxon-concept-relationship-type/values/
