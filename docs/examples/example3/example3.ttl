@@ -1,0 +1,311 @@
+@prefix : <http://rs.tdwg.org/tcs/terms/> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dwc: <http://rs.tdwg.org/dwc/terms/> .
+@prefix ex_nt: <https://tdwg.github.io/tcs2/examples/nomenclatural-types/> .
+@prefix ex_ref: <https://tdwg.github.io/tcs2/examples/publications/> .
+@prefix ex_tc: <https://tdwg.github.io/tcs2/examples/taxon-concepts/> .
+@prefix ex_tn: <https://tdwg.github.io/tcs2/examples/taxon-names/> .
+@prefix ex_tr: <https://tdwg.github.io/tcs2/examples/taxon-relationships/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix gbif-code: <http://rs.gbif.org/vocabulary/gbif/nomenclatural_code/> .
+@prefix gbif-rank: <http://rs.gbif.org/vocabulary/gbif/rank/> .
+@prefix gbif-typestatus: <http://rs.gbif.org/vocabulary/gbif/type_status/> .
+@prefix ipni: <https://www.ipni.org/n/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex_tc:3.1 a :TaxonConcept ;
+    :accordingTo ex_ref:3.4 ;
+    :taxonName ipni:50985479-1 ;
+    :taxonomicRank gbif-rank:section ;
+    skos:prefLabel "Rhododendron sect. Sciadorhodion sec. Judd & Kron 1995" .
+
+ex_tc:3.2 a :TaxonConcept ;
+    skos:prefLabel "Rhododendron schlippenbachii sec. Judd & Kron 1995" ;
+    :taxonName ipni:333307-1 ;
+    :accordingTo ex_ref:3.4 ;
+    :parent ex_tc:3.1 .
+
+ex_tc:3.3 a :TaxonConcept ;
+    skos:prefLabel "Azalea schlippenbachii sec. Kuntze 1891" ;
+    :taxonName ipni:326933-1 ;
+    :accordingTo [ skos:note "Assertion made in TCS example" ] .
+
+ex_tc:3.101 a :TaxonConcept ;
+    skos:prefLabel "Rhododendron quinquefolium sec. Judd & Kron 1995" ;
+    :taxonName ipni:333193-1 ;
+    :accordingTo ex_ref:3.4 ;
+    :synonym ( ipni:950178-1 ) ;
+    :parent ex_tc:3.1 .
+
+ex_tc:3.4 a :TaxonConcept ;
+    skos:prefLabel "Rhododendron pentaphyllum sec. Judd & Kron 1995" ;
+    :taxonName ipni:333062-1 ;
+    :accordingTo ex_ref:3.4 ;
+    :synonym ( ex_tn:3.9 ex_tn:3.11 ipni:950666-1 ) ;
+    :parent ex_tc:3.1 .
+
+ex_tc:3.107 a :TaxonConcept ;
+    skos:prefLabel "Rhododendron albrechtii sec. Judd & Kron 1995" ;
+    :taxonName ipni:331902-1 ;
+    :accordingTo ex_ref:3.4 ;
+    :parent ex_tc:3.1 .
+
+ex_tr:3.1 a :TaxonConceptRelationship ;
+    :relationshipType <tcs-reltype:rt001> ;
+    :subjectTaxonConcept ex_tc:3.3 ;
+    :objectTaxonConcept ex_tc:3.2 .
+
+ipni:333307-1 a :TaxonName ;
+    :nomenclaturalCode gbif-code:ICN ;
+    :taxonomicNameString "Rhododendron schlippenbachii"^^xsd:String ;
+    dwc:scientificNameAuthorship "Maxim."^^xsd:string ;
+    dwc:namePublishedIn "Bull. Acad. Sci. St Pétersbourg, ser. 3 15 (1870)"^^xsd:string ;
+    :namePublishedIn ex_ref:3.5 ;
+    :microReference "57"^^xsd:String ;
+    dwc:genericName "Rhododendron"^^xsd:string ;
+    dwc:specificEpithet "schlippenbachii"^^xsd:string ;
+    :taxonomicRank gbif-rank:species .
+
+ex_tn:3.101 a :TaxonName ;
+    :nomenclaturalCode gbif-code:ICN ;
+    :taxonomicNameString "Azalea quinquefolia"^^xsd:String ;
+    dwc:scientificNameAuthorship "(Bisset & S.Moore) Olmsted et al."^^xsd:string ;
+    dwc:namePublishedIn "Stand. Pl. Names 27 (1923)"^^xsd:string ;
+    :basionym ipni:333193-1 .
+
+ex_tn:3.4 a :TaxonName ;
+    :nomenclaturalCode gbif-code:ICN ;
+    :taxonomicNameString "Azalea subg. Sciadorhodion"^^xsd:String .
+    dwc:scientificNameAuthorship "(Rehder & Wilson) Copeland"^^xsd:string ;
+    dwc:namePublishedIn "Am. Midl. Nat. 3o: 597 (1943)"^^xsd:string ;
+    :basionym ipni:50985479-1 .
+
+ipni:326708-1 a :TaxonName ;
+    :nomenclaturalCode gbif-code:ICN ;
+    :taxonomicNameString "Azalea albrechtii"^^xsd:String ;
+    dwc:scientificNameAuthorship "(Maxim.) Kuntze"^^xsd:string ;
+    dwc:namePublishedIn "Revis. Gen.Pl. 2:387 (1892)"^^xsd:string ;
+    dwc:genericName "Azalea"^^xsd:string ;
+    dwc:specificEpithet "albrechtii"^^xsd:string ;
+    :basionym ipni:331902-1 ;
+    :taxonomicRank gbif-rank:species .
+
+ipni:326897-1 a :TaxonName ;
+    :nomenclaturalCode gbif-code:ICN ;
+    :taxonomicNameString "Azalea pentaphylla"^^xsd:String ;
+    dwc:scientificNameAuthorship " (Maxim.) Copeland"^^xsd:string ;
+    :namePublishedIn ex_ref:3.2 ;
+    dwc:genericName "Azalea"^^xsd:string ;
+    dwc:specificEpithet "pentaphylla"^^xsd:string ;
+    :basionym ipni:333062-1 .
+
+ipni:332955-1 a :TaxonName ;
+    :nomenclaturalCode gbif-code:ICN ;
+    :taxonomicNameString "Rhododendron nikoense"^^xsd:String ;
+    dwc:scientificNameAuthorship "(Komatsu) Nakai"^^xsd:string ;
+    dwc:namePublishedIn "Nakai &amp; Koidz. Trees and Shrubs Japan 1: 68 (1922)"^^xsd:string ;
+    dwc:genericName "Rhododendron"^^xsd:string ;
+    dwc:specificEpithet "nikoense"^^xsd:string ;
+    :basionym ex_tn:3.0 ;
+    :taxonomicRank gbif-rank:species .
+
+ex_tn:3.11 a :TaxonName ;
+    :nomenclaturalCode gbif-code:ICN ;
+    :taxonomicNameString "Rhododendron quinquefolium var. roseum"^^xsd:String ;
+    dwc:scientificNameAuthorship "Rehder"^^xsd:string ;
+    dwc:namePublishedIn "Bailey, Stand. Cycl. Hort. 5: 2947 (1916)"^^xsd:string ;
+    dwc:genericName "Rhododendron"^^xsd:string ;
+    dwc:specificEpithet "quinquefolium"^^xsd:string ;
+    dwc:infraspecificEpithet "roseum"^^xsd:string ;
+    :taxonomicRank gbif-rank:variety .
+
+ipni:326933-1 a :TaxonName ;
+    :nomenclaturalCode gbif-code:ICN ;
+    :taxonomicNameString "Azalea schlippenbachii"^^xsd:String ;
+    dwc:namePublishedIn "Revis. Gen.Pl. 2:387 (1891)"^^xsd:string ;
+    dwc:scientificNameAuthorship "(Maxim.) Kuntze"^^xsd:string ;
+    :basionym ipni:333307-1 .
+
+ex_tn:3.9 a :TaxonName ;
+    :nomenclaturalCode gbif-code:ICN ;
+    :taxonomicNameString "Rhododendron pentaphyllum var. nikoense"^^xsd:String ;
+    dwc:scientificNameAuthorship "Komatsu"^^xsd:string ;
+    dwc:namePublishedIn "Icon. Pl. Koisikav. 3: 45, t 168 (1916)"^^xsd:string ;
+    dwc:genericName "Rhododendron"^^xsd:string ;
+    dwc:infraspecificEpithet "nikoense"^^xsd:string ;
+    dwc:specificEpithet "pentaphyllum"^^xsd:string ;
+    :taxonomicRank gbif-rank:variety .
+
+ipni:950178-1 a :TaxonName ;
+    dwc:namePublishedIn "J. Phytogeogr. Taxon. 35(2): 101 (1987)"^^xsd:string ;
+    dwc:scientificNameAuthorship "N. Yonezawa"^^xsd:string ;
+    :nomenclaturalCode gbif-code:ICN ;
+    :taxonomicNameString "Rhododendron quinquefolium f. speciosum"^^xsd:String .
+
+ipni:950666-1 a :TaxonName ;
+    :nomenclaturalCode gbif-code:ICN ;
+    :taxonomicNameString "Rhododendron pentaphyllum var. shikokianum"^^xsd:String ;
+    dwc:scientificNameAuthorship "T. Yamazaki"^^xsd:string ;
+    dwc:namePublishedIn "Jap. Bot. 63: 312 (1988)"^^xsd:string ;
+    dwc:genericName "Rhododendron"^^xsd:string ;
+    dwc:infraspecificEpithet "shikokianum"^^xsd:string ;
+    dwc:specificEpithet "pentaphyllum"^^xsd:string ;
+    :taxonomicRank gbif-rank:variety .
+
+ipni:333193-1 a :TaxonName ;
+    :nomenclaturalCode gbif-code:ICN ;
+    :taxonomicNameString "Rhododendron quinquefolium"^^xsd:String ;
+    dwc:scientificNameAuthorship "Bisset & S.Moore"^^xsd:string ;
+    dwc:namePublishedIn "J. Bot. 15: 292 (1877)"^^xsd:string .
+
+ipni:331902-1 a :TaxonName ;
+    :nomenclaturalCode gbif-code:ICN ;
+    :taxonomicNameString "Rhododendron albrechtii"^^xsd:String ;
+    dwc:scientificNameAuthorship "Maxim."^^xsd:string ;
+    dwc:namePublishedIn "Bull. Acad. Sci. Sci. St Pétersbourg, sér. 3, 15: 227 (1870)"^^xsd:string ;
+    dwc:genericName "Rhododendron"^^xsd:string ;
+    dwc:specificEpithet "albrechtii"^^xsd:string ;
+    :taxonomicRank gbif-rank:species .
+
+ipni:333062-1 a :TaxonName ;
+    :nomenclaturalCode gbif-code:ICN ;
+    :taxonomicNameString "Rhododendron pentaphyllum"^^xsd:String ;
+    dwc:scientificNameAuthorship "Maxim."^^xsd:string ;
+    dwc:namePublishedIn "Bull. Acad. Sci. St Petersbourg, ser. 3, 31:65 (1887)"^^xsd:string ;
+    dwc:genericName "Rhododendron"^^xsd:string ;
+    dwc:specificEpithet "pentaphyllum"^^xsd:string .
+
+ipni:50985479-1 a :TaxonName ;
+    :nomenclaturalCode gbif-code:ICN ;
+    :taxonomicNameString "Rhododendron sect. Sciadorhodion"^^xsd:String ;
+    dwc:scientificNameAuthorship "Rehder & Wilson"^^xsd:string ;
+    dwc:namePublishedIn "Monogr. Azaleas 79 (1921)"^^xsd:string ;
+    :namePublishedIn ex_ref:3.3 ;
+    :microReference "79"^^xsd:String ;
+    dwc:genericName "Rhododendron"^^xsd:string ;
+    dwc:infragenericName "Sciadorhodion" .
+
+ex_nt:3.1 a :NomenclaturalType ;
+    :typifiedName ex_tn:3.1 ;
+    :typeName [ a :TaxonName ;
+            dwc:scientificNameAuthorship "G.Don"^^xsd:string ;
+            :taxonomicNameString "Rhododendron flavum"^^xsd:String ] .
+
+ex_nt:3.101 a :NomenclaturalType ;
+    :typifiedName ipni:333193-1 ;
+    :typeOfType gbif-typestatus:lectotype ;
+    :typeSpecimen [ a dwc:PreservedSpecimen ;
+            dwc:verbatimLocality "Japan, Honshu, Nikko" ;
+            dwc:recordedBy "Bisset" ;
+            dwc:recordNumber "233" ;
+            dwc:eventDate "1876-05-23" ;
+            dwc:institutionCode "E" ] .
+
+ex_nt:3.102 a :NomenclaturalType ;
+    :typifiedName ipni:950178-1 ;
+    :typeOfType gbif-typestatus:lectotype ;
+    :typeSpecimen [ a dwc:PreservedSpecimen ;
+            dwc:verbatimLocality "Japan, Honshu, Nikko" ;
+            dwc:recordedBy "Bisset" ;
+            dwc:recordNumber "233" ;
+            dwc:eventDate "1876-05-23" ;
+            dwc:institutionCode "E" ] .
+
+ex_nt:3.103 a :NomenclaturalType ;
+    :typifiedName ex_tn:3.9 ;
+    :typeSpecimen [ a dwc:PreservedSpecimen ;
+        dwc:verbatimLocality "Japan, central mountains" ] .
+
+ex_nt:3.104 a :NomenclaturalType ;
+    :typifiedName ipni:331902-1 ;
+    :typeOfType gbif-typestatus:lectotype ;
+    :typeSpecimen [ a dwc:PreservedSpecimen ;
+            dwc:eventDate "1861" ;
+            dwc:institutionCode "LE" ;
+            dwc:recordedBy "C. Maximowicz" ;
+            dwc:verbatimLocality "Japan, Hakodate, in subapline valley near Nodafu" ] .
+
+ex_nt:3.105 a :NomenclaturalType ;
+    :typifiedName ipni:950666-1 ;
+    :typeOfType gbif-typestatus:holotype ;
+    :typeSpecimen [ a dwc:PreservedSpecimen ;
+            dwc:verbatimLocality "Japan, Shikoku, pref. Kochi, Agawagun Nanokawa" ;
+            dwc:recordedBy "K. Watanabe" ; 
+            dwc:eventDate "1890-04-21" ;
+            dwc:institutionCode "TI" ] .
+
+ex_nt:3.2 a :NomenclaturalType ;
+    :typifiedName ipni:50985479-1 ;
+    :typeOfType gbif-typestatus:lectotype ;
+    :typeName ipni:333193-1 ;
+    :typePublishedIn ex_ref:3.2 ;
+
+ex_nt:3.3 a :NomenclaturalType ;
+    :typifiedName ipni:333307-1 .
+    :typeOfType gbif-typestatus:lectotype ;
+    :typeSpecimen [ a dwc:PreservedSpecimen ;
+            dwc:verbatimLocality "[Russia] Manchuria, shores of Possiet Bay, [SW of Vladivostok]" ;
+            dwc:eventDate "1860" ;
+            dwc:recordedBy "C. Maximowicz" ;
+            dwc:institutionCode "LE" ] ;
+    :typePublishedIn ex_ref:3.2 .
+
+ex_nt:3.4 a :NomenclaturalType ;
+    :typifiedName ipni:333307-1 ;
+    :typeOfType gbif-typestatus:lectotype ;
+    :typeSpecimen [ a dwc:PreservedSpecimen ;
+            dwc:verbatimLocality "[Russia] Manchuria, shores of Possiet Bay, [SW of Vladivostok]" ;
+            dwc:recordedBy "C. Maximowicz" ;
+            dwc:eventDate "1860" ;
+            dwc:institutionCode "GH" ] .
+
+ex_nt:3.5 a :NomenclaturalType ;
+    :typifiedName ipni:333307-1 ;
+    :typeOfType gbif-typestatus:lectotype ;
+    :typeSpecimen [ a dwc:PreservedSpecimen ;
+            dwc:verbatimLocality "[Russia] Manchuria, shores of Possiet Bay, [SW of Vladivostok]" ;
+            dwc:recordedBy "C. Maximowicz" ;
+            dwc:eventDate "1860" ;
+            dwc:institutionCode "NY" ] ;
+
+ex_nt:3.500 a :NomenclaturalType ;
+    :typifiedName ipni:333062-1 ;
+    :typeOfType gbif-typestatus:holotype ;
+    :typeSpecimen [ a dwc:PreservedSpecimen ;
+            dwc:verbatimLocality "Japan, Kyushiu, prov. Osumi, summit, Mt Taka-kuma" ;
+            dwc:recordedBy "Tashiro" ;
+            dwc:institutionCode "LE" ] .
+
+ex_ref:3.2 a bibo:Article ;
+    dcterms:bibliographicCitation "Copeland, H.F. (1943). A study, anatomical and taxonomic, of the genera of Rhododendroideae. Am. Midl. Nat. 30: 533-625" .
+
+ex_ref:3.3 a bibo:Book ;
+    dcterms:bibliographicCitation "Wilson, E.H. & Rehder, A. (1921). A monograph of the azaleas. Publication of the Arnold Arboretum No. 9 Harvard University, Cambridge MA." .
+
+ex_ref:3.5 a bibo:Article ;
+    dcterms:bibliographicCitation "Maximoxicz, C.J. (1870) Rhododendron schlippenbachii. Bull. Acad. Sci. St Pétersbourg. ser.3 15." .
+
+ex_ref:3.4 a bibo:AcademicArticle ;
+    dcterms:creator <https://orcid.org/0000-0003-2209-0222>,
+        <https://orcid.org/0000-0003-2391-2654> ;
+    dcterms:isPartOf [ a bibo:Issue ;
+            dcterms:date "1995" ;
+            dcterms:isPartOf [ a bibo:Journal ;
+                    dcterms:title "Edinburgh Journal of Botany" ;
+                    bibo:shortTitle "Edinb. J. Bot." ] ;
+            :volume "52" ] ;
+    dcterms:title "A revision of Rhododendron VI. Subgenus Pentanthera (sections Sciadorhodon, Rhodora and Viscidula)" ;
+    bibo:authorList ( <https://orcid.org/0000-0003-2391-2654> <https://orcid.org/0000-0003-2209-0222> ) ;
+    bibo:pages "1-54" .
+
+<https://orcid.org/0000-0003-2209-0222> a foaf:Person ;
+    foaf:givenName "K.A." ;
+    foaf:surname "Kron" .
+
+<https://orcid.org/0000-0003-2391-2654> a foaf:Person ;
+    foaf:givenName "W.S." ;
+    foaf:surname "Judd" .
+

@@ -1,0 +1,223 @@
+{
+  "@context": "https://raw.githubusercontent.com/tdwg/tcs2/examples/docs/examples/context.jsonld",
+  "dcterms:title": "Example from Catalogue of Life with classification",
+  "@graph": [
+    {
+      "@type": "TaxonConcept",
+      "@id": "https://www.catalogueoflife.org/data/taxon/4CGXP#v2022-11-14",
+      "dcterms:title": "Panthera leo sec. Catalogue of Life (v2022-11-14)",
+      "taxonName": {
+        "@type": "TaxonName",
+        "taxonNameString": "Panthera leo",
+        "dwc:scientificNameAuthorship": "(Linnaeus, 1758)"
+      },
+      "accordingTo": "https://www.catalogueoflife.org#v2022-11-14",
+      "taxonomicRank": "gbif-rank:species",
+      "parent": "https://www.catalogueoflife.org/data/taxon/6DBT#v2022-11-14"
+    },
+    {
+      "@type": "TaxonConcept",
+      "@id": "https://www.catalogueoflife.org/data/taxon/6DBT#v2022-11-14",
+      "dcterms:title": "Panthera sec. Catalogue of Life (v2022-11-14)",
+      "taxonName": {
+        "@type": "TaxonName",
+        "taxonNameString": "Panthera"
+      },
+      "accordingTo": "https://www.catalogueoflife.org#v2022-11-14",
+      "taxonomicRank": "gbif-rank:genus",
+      "parent": "https://www.catalogueoflife.org/data/taxon/628LP#v2022-11-14"
+    },
+    {
+      "@type": "TaxonConcept",
+      "@id": "https://www.catalogueoflife.org/data/taxon/628LP#v2022-11-14",
+      "dcterms:title": "Pantherinae sec. Catalogue of Life (v2022-11-14)",
+      "taxonName": {
+        "@type": "TaxonName",
+        "taxonNameString": "Pantherinae"
+      },
+      "accordingTo": "https://www.catalogueoflife.org#v2022-11-14",
+      "taxonomicRank": "gbif-rank:subfamily",
+      "parent": "https://www.catalogueoflife.org/data/taxon/623RM#v2022-11-14"
+    },
+    {
+      "@type": "TaxonConcept",
+      "@id": "https://www.catalogueoflife.org/data/taxon/623RM#v2022-11-14",
+      "dcterms:title": "Felidae sec. Catalogue of Life (v2022-11-14)",
+      "taxonName": {
+        "@type": "TaxonName",
+        "taxonNameString": "Felidae"
+      },
+      "accordingTo": "https://www.catalogueoflife.org#v2022-11-14",
+      "taxonomicRank": "gbif-rank:family",
+      "parent": "https://www.catalogueoflife.org/data/taxon/4DL#v2022-11-14"
+    },
+    {
+      "@type": "TaxonConcept",
+      "@id": "https://www.catalogueoflife.org/data/taxon/4DL#v2022-11-14",
+      "dcterms:title": "Feliformia sec. Catalogue of Life (v2022-11-14)",
+      "taxonName": {
+        "@type": "TaxonName",
+        "taxonNameString": "Feliformia"
+      },
+      "accordingTo": "https://www.catalogueoflife.org#v2022-11-14",
+      "taxonomicRank": "gbif-rank:suborder",
+      "parent": "https://www.catalogueoflife.org/data/taxon/VS#v2022-11-14"
+    },
+    {
+      "@type": "TaxonConcept",
+      "@id": "https://www.catalogueoflife.org/data/taxon/VS#v2022-11-14",
+      "dcterms:title": "Carnivora sec. Catalogue of Life (v2022-11-14)",
+      "taxonName": {
+        "@type": "TaxonName",
+        "taxonNameString": "Carnivora"
+      },
+      "accordingTo": "https://www.catalogueoflife.org#v2022-11-14",
+      "taxonomicRank": "gbif-rank:order",
+      "parent": "https://www.catalogueoflife.org/data/taxon/LG#v2022-11-14"
+    },
+    {
+      "@type": "TaxonConcept",
+      "@id": "https://www.catalogueoflife.org/data/taxon/LG#v2022-11-14",
+      "dcterms:title": "Eutheria sec. Catalogue of Life (v2022-11-14)",
+      "taxonName": {
+        "@type": "TaxonName",
+        "taxonNameString": "Eutheria"
+      },
+      "accordingTo": "https://www.catalogueoflife.org#v2022-11-14",
+      "taxonomicRank": "gbif-rank:superorder",
+      "parent": "https://www.catalogueoflife.org/data/taxon/924GT#v2022-11-14"
+    },
+    {
+      "@type": "TaxonConcept",
+      "@id": "https://www.catalogueoflife.org/data/taxon/924GT#v2022-11-14",
+      "dcterms:title": "Theria sec. Catalogue of Life (v2022-11-14)",
+      "taxonName": {
+        "@type": "TaxonName",
+        "taxonNameString": "Theria"
+      },
+      "accordingTo": "https://www.catalogueoflife.org#v2022-11-14",
+      "taxonomicRank": "gbif-rank:subclass",
+      "parent": "https://www.catalogueoflife.org/data/taxon/6224G#v2022-11-14"
+    },
+    {
+      "@type": "TaxonConcept",
+      "@id": "https://www.catalogueoflife.org/data/taxon/6224G#v2022-11-14",
+      "dcterms:title": "Mammalia sec. Catalogue of Life (v2022-11-14)",
+      "taxonName": {
+        "@type": "TaxonName",
+        "taxonNameString": "Mammalia"
+      },
+      "accordingTo": "https://www.catalogueoflife.org#v2022-11-14",
+      "taxonomicRank": "gbif-rank:class",
+      "parent": "https://www.catalogueoflife.org/data/taxon/8VLBH#v2022-11-14"
+    },
+    {
+      "@type": "TaxonConcept",
+      "@id": "https://www.catalogueoflife.org/data/taxon/8VLBH#v2022-11-14",
+      "dcterms:title": "Amniota sec. Catalogue of Life (v2022-11-14)",
+      "taxonName": {
+        "@type": "TaxonName",
+        "taxonNameString": "Amniota"
+      },
+      "accordingTo": "https://www.catalogueoflife.org#v2022-11-14",
+      "taxonomicRank": "gbif-rank:superclass",
+      "parent": "https://www.catalogueoflife.org/data/taxon/9CK8W#v2022-11-14"
+    },
+    {
+      "@type": "TaxonConcept",
+      "@id": "https://www.catalogueoflife.org/data/taxon/9CK8W#v2022-11-14",
+      "dcterms:title": "Tetrapoda sec. Catalogue of Life (v2022-11-14)",
+      "taxonName": {
+        "@type": "TaxonName",
+        "taxonNameString": "Tetrapoda"
+      },
+      "accordingTo": "https://www.catalogueoflife.org#v2022-11-14",
+      "taxonomicRank": "gbif-rank:megaclass",
+      "parent": "https://www.catalogueoflife.org/data/taxon/8VSMX#v2022-11-14"
+    },
+    {
+      "@type": "TaxonConcept",
+      "@id": "https://www.catalogueoflife.org/data/taxon/8VSMX#v2022-11-14",
+      "dcterms:title": "Sarcopterygii sec. Catalogue of Life (v2022-11-14)",
+      "taxonName": {
+        "@type": "TaxonName",
+        "taxonNameString": "Sarcopterygii"
+      },
+      "accordingTo": "https://www.catalogueoflife.org#v2022-11-14",
+      "taxonomicRank": "gbif-rank:gigaclass",
+      "parent": "https://www.catalogueoflife.org/data/taxon/8VVWB#v2022-11-14"
+    },
+    {
+      "@type": "TaxonConcept",
+      "@id": "https://www.catalogueoflife.org/data/taxon/8VVWB#v2022-11-14",
+      "dcterms:title": "Osteichthyes sec. Catalogue of Life (v2022-11-14)",
+      "taxonName": {
+        "@type": "TaxonName",
+        "taxonNameString": "Osteichthyes"
+      },
+      "accordingTo": "https://www.catalogueoflife.org#v2022-11-14",
+      "taxonomicRank": "gbif-rank:parvphylum",
+      "parent": "https://www.catalogueoflife.org/data/taxon/8V4V5#v2022-11-14"
+    },
+    {
+      "@type": "TaxonConcept",
+      "@id": "https://www.catalogueoflife.org/data/taxon/8V4V5#v2022-11-14",
+      "dcterms:title": "Gnathostomata sec. Catalogue of Life (v2022-11-14)",
+      "taxonName": {
+        "@type": "TaxonName",
+        "taxonNameString": "Gnathostomata"
+      },
+      "accordingTo": "https://www.catalogueoflife.org#v2022-11-14",
+      "taxonomicRank": "gbif-rank:infraphylum",
+      "parent": "https://www.catalogueoflife.org/data/taxon/8V4V3#v2022-11-14"
+    },
+    {
+      "@type": "TaxonConcept",
+      "@id": "https://www.catalogueoflife.org/data/taxon/8V4V3#v2022-11-14",
+      "dcterms:title": "Vertebrata sec. Catalogue of Life (v2022-11-14)",
+      "taxonName": {
+        "@type": "TaxonName",
+        "taxonNameString": "Vertebrata"
+      },
+      "accordingTo": "https://www.catalogueoflife.org#v2022-11-14",
+      "taxonomicRank": "gbif-rank:subphylum",
+      "parent": "https://www.catalogueoflife.org/data/taxon/CH2#v2022-11-14"
+    },
+    {
+      "@type": "TaxonConcept",
+      "@id": "https://www.catalogueoflife.org/data/taxon/CH2#v2022-11-14",
+      "dcterms:title": "Chordata sec. Catalogue of Life (v2022-11-14)",
+      "taxonName": {
+        "@type": "TaxonName",
+        "taxonNameString": "Chordata"
+      },
+      "accordingTo": "https://www.catalogueoflife.org#v2022-11-14",
+      "taxonomicRank": "gbif-rank:phylum",
+      "parent": "https://www.catalogueoflife.org/data/taxon/N#v2022-11-14"
+    },
+    {
+      "@type": "TaxonConcept",
+      "@id": "https://www.catalogueoflife.org/data/taxon/N#v2022-11-14",
+      "dcterms:title": "Animalia sec. Catalogue of Life (v2022-11-14)",
+      "taxonName": {
+        "@type": "TaxonName",
+        "taxonNameString": "Animalia"
+      },
+      "accordingTo": "https://www.catalogueoflife.org#v2022-11-14",
+      "taxonomicRank": "gbif-rank:kingdom"
+    },
+    {
+      "@type": "bibo:Website",
+      "@id": "https://www.catalogueoflife.org",
+      "dcterms:title": "Catalogue of Life",
+      "bibo:uri": "https://www.catalogueoflife.org"
+    },
+    {
+      "@type": "bibo:Website",
+      "@id": "https://www.catalogueoflife.org#v2022-11-14",
+      "dcterms:title": "Catalogue of Life, version 2022-11-14",
+      "bibo:uri": "https://www.catalogueoflife.org",
+      "dcterms:isVersionOf": "https://www.catalogueoflife.org"
+    }
+  ]
+}

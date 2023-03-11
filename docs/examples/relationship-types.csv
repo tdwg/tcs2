@@ -1,0 +1,7 @@
+id,controlledTerm,label
+http://rs.tdwg.org/tcs-taxon-concept-relationship-type/values/rt001,isCongruentWith,Is congruent with
+http://rs.tdwg.org/tcs-taxon-concept-relationship-type/values/rt002,hasProperSubset,Has proper subset
+http://rs.tdwg.org/tcs-taxon-concept-relationship-type/values/rt003,isProperSubsetOf,Is proper subset of
+http://rs.tdwg.org/tcs-taxon-concept-relationship-type/values/rt004,partiallyOverlaps,Partially overlaps
+http://rs.tdwg.org/tcs-taxon-concept-relationship-type/values/rt005,isDisjointFrom,Is disjoint from
+http://rs.tdwg.org/tcs-taxon-concept-relationship-type/values/rt006,intersects,Intersects
