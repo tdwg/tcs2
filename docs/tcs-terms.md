@@ -67,6 +67,8 @@ A taxonomic position is an opinion about the definition of a taxonomic  group. A
 
 The TCS Taxon Concept is a data object and is applied more broadly than the  term is used in science (e.g. Franz & Peet 2009). On the one hand, things  that are not generally considered to be biological taxa, e.g. hybrids and  cultivars, can be casted as TCS Taxon Concepts. Also Operational Taxonomic  Units (OTUs, cf. Sokal & Sneath 1963) can be exchanged as Taxon Concepts,  if there is a reason to do so, e.g. if one wants to align them with other  Taxon Concepts later. On the other hand, entries from treatments that are  considered to cite concepts from other treatments can be formulated as  Taxon Concepts. Every taxon concept from a treatment that is likely to be  referenced as the source of taxonomic context, for example a field guide  for a determination of a specimen or a national census for an ecological  study, can – and it would be very nice if they would – be stated as a Taxon  Concept, so they can be aligned with other Taxon Concepts that may provide  more or different taxonomic context.
 
+By contrast, assertions of synonymy or misapplication and entries in lists  of nomenclatural types are not Taxon Concepts.
+
 
 **Examples**
 
@@ -1063,6 +1065,10 @@ This is the IRI equivalent of the Darwin Core `nomenclaturalStatus`. In the  abs
 			<td><p>Original name on which the present name is based.</p></td>
 		</tr>
 		<tr>
+			<td>Usage</td>
+			<td><p>A <code>basionym</code> is another Taxon Name; a Taxon Name can have only one  <code>basionym</code>.</p></td>
+		</tr>
+		<tr>
 			<td>GitHub issue</td>
 			<td>https://github.com/tdwg/tcs2/issues/36</td>
 		</tr>
@@ -1337,7 +1343,7 @@ A scientific name is not conserved against all other names, but only  against on
 		</tr>
 		<tr>
 			<td>Usage</td>
-			<td><p>Names at ranks of species and below are composed of two or three words; the  genus name, the specific epithet and possibly an infraspecific epithet.  This property should therefore always be accompanied by the <code>genus</code> property.  If the <code>specificEpithet</code> property is present the <code>infragenericEpithet</code>  property should be absent.</p></td>
+			<td><p>Names at ranks of species and below are composed of two or three words; the  genus name, the specific epithet and possibly an infraspecific epithet.  This property should therefore always be accompanied by the <code>genus</code> property.  If the <code>specificEpithet</code> property is present the <code>uninomial</code> and  <code>infragenericEpithet</code> properties should be absent.</p></td>
 		</tr>
 		<tr>
 			<td>GitHub issue</td>
@@ -1372,7 +1378,7 @@ A scientific name is not conserved against all other names, but only  against on
 		</tr>
 		<tr>
 			<td>Usage</td>
-			<td><p>Names at ranks below species are composed of three words; the genus name,  the specific epithet and an infraspecific epithet. This property should  therefore always be accompanied by the <code>genus</code> and <code>specificEpithet</code>  properties. If the <code>specificEpithet</code> property is present the  <code>infragenericEpithet</code> property should be absent.</p></td>
+			<td><p>Names at ranks below species are composed of three words; the genus name,  the specific epithet and an infraspecific epithet. This property should  therefore always be accompanied by the <code>genus</code> and <code>specificEpithet</code>  properties. If the <code>specificEpithet</code> property is present the <code>uninomial</code> and <code>infragenericEpithet</code> properties should be absent.</p></td>
 		</tr>
 		<tr>
 			<td>GitHub issue</td>
