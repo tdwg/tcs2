@@ -243,12 +243,16 @@ def term_table(term):
         table_cell(markdown.markdown(definition))])
 
     # Usage
-    if term['usage']:
-        usage = term['usage'] if term['usage'] else ""
-        text += table_row([
-            table_cell('Usage'),
-            table_cell(markdown.markdown(usage))
-        ])
+    if 'usage' in term and isinstance(term['usage'], str):
+        try: 
+            usage = term['usage'] if term['usage'] else ""
+            text += table_row([
+                table_cell('Usage'),
+                table_cell(markdown.markdown(usage))
+            ])
+        except: 
+            print(term['localName'])
+            print(term['usage'])
 
     # Controlled term
     if 'Concept' in term['type']:
@@ -280,13 +284,17 @@ def term_table(term):
         text += '\n\n'
 
     # Examples
-    if 'examples' in term and term['examples']:
-        filename = '../master/inline-examples/' + term['examples']
-        with open(filename, 'r') as exampleFile:
-            examples = exampleFile.read()
-        text += '\n**Examples**\n\n'
-        text += examples
-        text += '\n\n'
+    if 'examples' in term and isinstance(term['examples'], str):
+        try:
+            filename = '../master/inline-examples/' + term['examples']
+            with open(filename, 'r') as exampleFile:
+                examples = exampleFile.read()
+            text += '\n**Examples**\n\n'
+            text += examples
+            text += '\n\n'
+        except:
+            print(term['localName'])
+            print(term['examples'])
 
     return text
 
