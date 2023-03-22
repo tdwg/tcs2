@@ -177,8 +177,10 @@
     The `vernacularName` property can be used when a vernacular name is used 
     alongside a scientific name, which is the `taxonName`. If a vernacular name 
     is the only name, the `taxonName` property should be used. The object of the 
-    `vernacularName` property can be a Taxon Name, but can also be another label 
-    object, such as the GBIF [Vernacular Name](https://rs.gbif.org/extension/gbif/1.0/vernacularname.xml).
+    `vernacularName` property can be a Taxon Name, but another label 
+    object, such as the GBIF [Vernacular Name](https://rs.gbif.org/extension/gbif/1.0/vernacularname.xml), 
+    might be preferrable, especially if there can be multiple vernacular names 
+    for a concept.
   examples: "TaxonConcept-vernacularName.md"
   type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonConcept
