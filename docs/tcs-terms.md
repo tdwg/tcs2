@@ -349,7 +349,7 @@ The `parent` is another Taxon Concept. This is the parent as indicated in  the `
 
 **Comments**
 
-Synonymy is between names but, if the names have different types, a Taxon  Concept is required. Therefore, `synonym` is a property of the Taxon Concept  class. `synonym` is used here in the stricter sense that only indicates that  the type of a name falls within a Taxon Concept and has the same  relationship to Taxon Concept as `taxonName` (the accepted name). This  allows one to dispose of names without having to deal with the Taxon  Concepts that were realised along with the publication of these names. If  one wants to include these “original concepts” and indicate a relationship  between Taxon Concepts, the `intersects` Taxon Concept Relationship can be  used instead.
+Synonymy is between names but, if the names have different nomenclatural types, a Taxon  Concept is required. Therefore, `synonym` is a property of the Taxon Concept  class. `synonym` is used here in the stricter sense that only indicates that  the type of a name falls within a Taxon Concept and has the same  relationship to Taxon Concept as `taxonName` (the accepted name). This  allows one to dispose of names without having to deal with the Taxon  Concepts that were realised along with the publication of these names. If  one wants to include these “original concepts” and indicate a relationship  between Taxon Concepts, the `intersects` Taxon Concept Relationship can be  used instead.
 
 
 **Examples**
