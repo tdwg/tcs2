@@ -49,7 +49,7 @@
             dwc:vernacularName "Turpentine Pine" ;
             dcterms:language "en" ;
             gbif:isPreferredName: <http://rs.gbif.org/vocab/boolean/false> ] ;
-    :accordingTo [ a bibo:website ;
+    :accordingTo [ a bibo:Website ;
             dcterms:bibliographicCitation """VicFlora (2023). Flora of Victoria, 
                     Royal Botanic Gardens Victoria. Available online: 
                     https://vicflora.rbg.vic.gov.au (accessed on: 22 Mar. 2023).""" ].
