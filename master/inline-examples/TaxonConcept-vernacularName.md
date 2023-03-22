@@ -16,8 +16,7 @@
 ```turtle
 [] a :TaxonConcept ;
     dcterms:title "Quercus robur sec. Duistermaat (2020)" ;
-    :taxonName [ <https://www.ipni.org/n/304293-2> a :TaxonName ;
-            :taxonNameString "Quercus robur" ] ;
+    :taxonName <https://www.ipni.org/n/304293-2> ;
     :vernacularName [ a gbif:VernacularName ;
             dwc:vernacularName "Zomereik" ;
             dcterms:language "nl" ] ;
