@@ -409,7 +409,7 @@ Synonymy is between names but, if the names have different nomenclatural types, 
 
 **Comments**
 
-The `vernacularName` property can be used when a vernacular name is used  alongside a scientific name, which is the `taxonName`. If a vernacular name  is the only name, the `taxonName` property should be used. The object of the  `vernacularName` property can be a Taxon Name, but can also be another label  object, such as the GBIF [Vernacular Name](https://rs.gbif.org/extension/gbif/1.0/vernacularname.xml).
+The `vernacularName` property can be used when a vernacular name is used  alongside a scientific name, which is the `taxonName`. If a vernacular name  is the only name, the `taxonName` property should be used. The object of the  `vernacularName` property can be a Taxon Name, but another label  object, such as the GBIF [Vernacular Name](https://rs.gbif.org/extension/gbif/1.0/vernacularname.xml),  might be preferrable, especially if there can be multiple vernacular names  for a concept.
 
 
 **Examples**
@@ -419,11 +419,14 @@ The `vernacularName` property can be used when a vernacular name is used  alongs
     dcterms:title "Graphium macleayanum sec. Orr & Kitching (2010)"
     :taxonName [ a :TaxonName ;
             :taxonNameString "Graphium macleayanum" ] ;
-    :vernacularName [ a TaxonName ;
-            :taxonNameString "Macleay's Swallowtail" ] ;
-    :accordingTo [ <urn:isbn:978-1-74175-108-6> a bibo:Book ; 
-            dcterms:bibliographicCitation """Orr, A. & Kitching, R. (2010). The butterflies of 
-                    Australia. Jacana Books, Crows Nest, Australia.""" ] .
+    :vernacularName [ a gbif:VernacularName ;
+            dwc:vernacularName "Macleay's Swallowtail" 
+            dcterms:language: "en" ] ;
+    :accordingTo <urn:isbn:978-1-74175-108-6> .
+
+<urn:isbn:978-1-74175-108-6> a bibo:Book ; 
+    dcterms:bibliographicCitation """Orr, A. & Kitching, R. (2010). The 
+            butterflies of Australia. Jacana Books, Crows Nest, Australia.""" .
 ```
 
 ```turtle
@@ -431,12 +434,45 @@ The `vernacularName` property can be used when a vernacular name is used  alongs
     dcterms:title "Quercus robur sec. Duistermaat (2020)" ;
     :taxonName [ <https://www.ipni.org/n/304293-2> a :TaxonName ;
             :taxonNameString "Quercus robur" ] ;
-    :vernacularName [ a <http://rs.gbif.org/terms/1.0/VernacularName> ;
+    :vernacularName [ a gbif:VernacularName ;
             dwc:vernacularName "Zomereik" ;
             dcterms:language "nl" ] ;
     :accordingTo [ <urn:isbn:978-90-01-58956-1> a bibo:Book ;
             dcterms:bibliographicCitation """Duistermaat, H. (2020). Heukels 
                     Flora van Nederland, edn 24. Noordhoff, Groningen.""" ] .
+
+<https://www.ipni.org/n/304293-2> a :TaxonName ;
+    :taxonNameString "Quercus robur" .
+```
+
+```turtle
+<https://vicflora.rbg.vic.gov.au/flora/taxon/93c88fde-ab15-4a9a-a61d-3830a57a0160#2023-03-02> 
+    a :TaxonConcept ;
+    dcterms:title "Callitris verrucosa sec. VicFlora (2023-03-22)" ;
+    :taxonName <https://www.ipni.org/n/134460-3> ;
+    :vernacularName [ a gbif:VernacularName ; 
+            dwc:vernacularName "Scrub Cypress-pine" ;
+            dcterms:language "en" ;
+            gbif:isPreferredName: <http://rs.gbif.org/vocab/boolean/true> ] ;
+    :vernacularName [ a gbif:VernacularName ; 
+            dwc:vernacularName "Mallee Pine" ;
+            dcterms:language "en" ;
+            gbif:isPreferredName: <http://rs.gbif.org/vocab/boolean/false> ] ;
+    :vernacularName [ a gbif:VernacularName ; 
+            dwc:vernacularName "Cow Pine" ;
+            dcterms:language "en" ;
+            gbif:isPreferredName: <http://rs.gbif.org/vocab/boolean/false> ] ;
+    :vernacularName [ a gbif:VernacularName ; 
+            dwc:vernacularName "Turpentine Pine" ;
+            dcterms:language "en" ;
+            gbif:isPreferredName: <http://rs.gbif.org/vocab/boolean/false> ] ;
+    :accordingTo [ a bibo:website ;
+            dcterms:bibliographicCitation """VicFlora (2023). Flora of Victoria, 
+                    Royal Botanic Gardens Victoria. Available online: 
+                    https://vicflora.rbg.vic.gov.au (accessed on: 22 Mar. 2023).""" ].
+
+<https://www.ipni.org/n/134460-3> a TaxonName ;
+    :taxonNameString "Callitris verrucosa" .
 ```
 
 
