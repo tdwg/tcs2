@@ -147,7 +147,7 @@
   usage: >-
     `synonym` is a Taxon Name; a Taxon Concept can have multiple synonyms.
   notes: >-
-    Synonymy is between names but, if the names have different types, a Taxon 
+    Synonymy is between names but, if the names have different nomenclatural types, a Taxon 
     Concept is required. Therefore, `synonym` is a property of the Taxon Concept 
     class. `synonym` is used here in the stricter sense that only indicates that 
     the type of a name falls within a Taxon Concept and has the same 
