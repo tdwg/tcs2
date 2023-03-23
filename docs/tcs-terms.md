@@ -29,46 +29,6 @@ files.
 
 ## Taxon Concept
 
-### tcs:TaxonConcept
-
-<table style="width:100%;">
-	<tbody>
-		<tr>
-			<td>Identifier</td>
-			<td>http://rs.tdwg.org/tcs/terms/TaxonConcept</td>
-		</tr>
-		<tr>
-			<td>Type</td>
-			<td>http://www.w3.org/2000/01/rdf-schema#Class</td>
-		</tr>
-		<tr>
-			<td>Label</td>
-			<td>Taxon Concept</td>
-		</tr>
-		<tr>
-			<td>Definition</td>
-			<td><p>An identifiable taxonomic position that can be aligned to other such  positions through TCS Taxon Relationships.</p></td>
-		</tr>
-		<tr>
-			<td>Usage</td>
-			<td><p>The <code>taxonName</code> and <code>accordingTo</code> properties are required.</p></td>
-		</tr>
-		<tr>
-			<td>GitHub issue</td>
-			<td>https://github.com/tdwg/tcs2/issues/1</td>
-		</tr>
-	</tbody>
-</table>
-
-
-**Comments**
-
-A taxonomic position is an opinion about the definition of a taxonomic  group. A Taxon Concept is identifiable, because it combines a label –  `taxonName` in TCS – with a source – `accordingTo`. Both these properties  are required. When mentioning a taxon concept, the label and the source are  also combined, separated by 'sec.' (from, 'secundus', meaning 'according  to') or 'sensu' (meaning the same). Because of the context provided by the  source, taxon concepts are in principle also alignable to other Taxon  Concepts using the TCS Taxon Relationship statements.
-
-The TCS Taxon Concept is a data object and is applied more broadly than the  term is used in science (e.g. Franz & Peet 2009). On the one hand, things  that are not generally considered to be biological taxa, e.g. hybrids and  cultivars, can be casted as TCS Taxon Concepts. Also Operational Taxonomic  Units (OTUs, cf. Sokal & Sneath 1963) can be exchanged as Taxon Concepts,  if there is a reason to do so, e.g. if one wants to align them with other  Taxon Concepts later. On the other hand, entries from treatments that are  considered to cite concepts from other treatments can be formulated as  Taxon Concepts. Every taxon concept from a treatment that is likely to be  referenced as the source of taxonomic context, for example a field guide  for a determination of a specimen or a national census for an ecological  study, can – and it would be very nice if they would – be stated as a Taxon  Concept, so they can be aligned with other Taxon Concepts that may provide  more or different taxonomic context.
-
-By contrast, assertions of synonymy or misapplication and entries in lists  of nomenclatural types are not Taxon Concepts.
-
 
 **Examples**
 
@@ -98,9 +58,6 @@ By contrast, assertions of synonymy or misapplication and entries in lists  of n
 [&lsqb;TaxonConcept-1.ttl&rsqb;](examples/TaxonConcept-1.ttl)
 
 
-**Examples**
-
-
 ```turtle
 @prefix : <http://rs.tdwg.org/tcs/terms/> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
@@ -121,9 +78,6 @@ dcterms:title "Orthetrum caledonicum sec. Theischinger and Hawking (2010)" ;
 ```
 
 [&lsqb;TaxonConcept-2.ttl&rsqb;](examples/TaxonConcept-2.ttl)
-
-
-**Examples**
 
 
 ```turtle
@@ -150,9 +104,6 @@ dcterms:title "Orthetrum caledonicum sec. Theischinger and Hawking (2010)" ;
 [&lsqb;TaxonConcept-3.ttl&rsqb;](examples/TaxonConcept-3.ttl)
 
 
-**Examples**
-
-
 ```turtle
 @prefix : <http://rs.tdwg.org/tcs/terms/> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
@@ -175,9 +126,6 @@ dcterms:title "Orthetrum caledonicum sec. Theischinger and Hawking (2010)" ;
 ```
 
 [&lsqb;TaxonConcept-4.ttl&rsqb;](examples/TaxonConcept-4.ttl)
-
-
-**Examples**
 
 
 ```turtle
@@ -365,46 +313,6 @@ The rank is an attribute of elements in a classification and `taxonomicRank`  ca
 
 The `parent` is another Taxon Concept. This is the parent as indicated in  the `accordingTo` reference, rather than a third-party classification. The  `accordingTo` of the parent will generally, but not necessarily, be the  same as that of the child. 
 
-### tcs:synonym
-
-<table style="width:100%;">
-	<tbody>
-		<tr>
-			<td>Identifier</td>
-			<td>http://rs.tdwg.org/tcs/terms/synonym</td>
-		</tr>
-		<tr>
-			<td>Type</td>
-			<td>http://www.w3.org/1999/02/22-rdf-syntax-ns#Property</td>
-		</tr>
-		<tr>
-			<td>Label</td>
-			<td>Synonym</td>
-		</tr>
-		<tr>
-			<td></td>
-			<td><b>required:</b> No — <b>repeatable:</b> Yes</td>
-		</tr>
-		<tr>
-			<td>Definition</td>
-			<td><p>Name considered to apply to the same taxon as the accepted name.</p></td>
-		</tr>
-		<tr>
-			<td>Usage</td>
-			<td><p><code>synonym</code> is a Taxon Name; a Taxon Concept can have multiple synonyms.</p></td>
-		</tr>
-		<tr>
-			<td>GitHub issue</td>
-			<td>https://github.com/tdwg/tcs2/issues/65</td>
-		</tr>
-	</tbody>
-</table>
-
-
-**Comments**
-
-Synonymy is between names but, if the names have different nomenclatural types, a Taxon  Concept is required. Therefore, `synonym` is a property of the Taxon Concept  class. `synonym` is used here in the stricter sense that only indicates that  the type of a name falls within a Taxon Concept and has the same  relationship to Taxon Concept as `taxonName` (the accepted name). This  allows one to dispose of names without having to deal with the Taxon  Concepts that were realised along with the publication of these names. If  one wants to include these “original concepts” and indicate a relationship  between Taxon Concepts, the `intersects` Taxon Relationship can be  used instead.
-
 
 **Examples**
 
@@ -438,46 +346,6 @@ Synonymy is between names but, if the names have different nomenclatural types, 
 
 [&lsqb;TaxonConcept-synonym.ttl&rsqb;](examples/TaxonConcept-synonym.ttl)
 
-### tcs:vernacularName
-
-<table style="width:100%;">
-	<tbody>
-		<tr>
-			<td>Identifier</td>
-			<td>http://rs.tdwg.org/tcs/terms/vernacularName</td>
-		</tr>
-		<tr>
-			<td>Type</td>
-			<td>http://www.w3.org/1999/02/22-rdf-syntax-ns#Property</td>
-		</tr>
-		<tr>
-			<td>Label</td>
-			<td>Vernacular Name</td>
-		</tr>
-		<tr>
-			<td></td>
-			<td><b>required:</b> No — <b>repeatable:</b> Yes</td>
-		</tr>
-		<tr>
-			<td>Definition</td>
-			<td><p>Common or vernacular name for a taxonomic group, when used besides the  <code>taxonName</code>.</p></td>
-		</tr>
-		<tr>
-			<td>Usage</td>
-			<td><p><code>vernacularName</code> is an IRI term; a Taxon Concept can have more than one  <code>vernacularName</code>.</p></td>
-		</tr>
-		<tr>
-			<td>GitHub issue</td>
-			<td>https://github.com/tdwg/tcs2/issues/10</td>
-		</tr>
-	</tbody>
-</table>
-
-
-**Comments**
-
-The `vernacularName` property can be used when a vernacular name is used  alongside a scientific name, which is the `taxonName`. If a vernacular name  is the only name, the `taxonName` property should be used. The object of the  `vernacularName` property can be a Taxon Name, but another label  object, such as the GBIF [Vernacular Name](https://rs.gbif.org/extension/gbif/1.0/vernacularname.xml),  might be preferrable, especially if there can be multiple vernacular names  for a concept.
-
 
 **Examples**
 
@@ -506,9 +374,6 @@ The `vernacularName` property can be used when a vernacular name is used  alongs
 [&lsqb;TaxonConcept-vernacularName-1.ttl&rsqb;](examples/TaxonConcept-vernacularName-1.ttl)
 
 
-**Examples**
-
-
 ```turtle
 @prefix : <http://rs.tdwg.org/tcs/terms/> .
 @prefix bibo: <http://purl.org/ontology/bibo/> .
@@ -533,9 +398,6 @@ The `vernacularName` property can be used when a vernacular name is used  alongs
 ```
 
 [&lsqb;TaxonConcept-vernacularName-2.ttl&rsqb;](examples/TaxonConcept-vernacularName-2.ttl)
-
-
-**Examples**
 
 
 ```turtle
@@ -615,46 +477,6 @@ In TCS `dcterms:title` is used for the taxonomic concept label (cf.  Senderov et
 
 ## Taxon Relationship
 
-### tcs:TaxonRelationship
-
-<table style="width:100%;">
-	<tbody>
-		<tr>
-			<td>Identifier</td>
-			<td>http://rs.tdwg.org/tcs/terms/TaxonRelationship</td>
-		</tr>
-		<tr>
-			<td>Type</td>
-			<td>http://www.w3.org/2000/01/rdf-schema#Class</td>
-		</tr>
-		<tr>
-			<td>Label</td>
-			<td>Taxon Relationship</td>
-		</tr>
-		<tr>
-			<td>Definition</td>
-			<td><p>Topological relationship between two Taxon Concepts.</p></td>
-		</tr>
-		<tr>
-			<td>Usage</td>
-			<td><p><code>relationshipType</code>, <code>subjectTaxonConcept</code>, <code>objectTaxonConcept</code> and  <code>relationshipAccordingTo</code> are all required.</p></td>
-		</tr>
-		<tr>
-			<td>GitHub issue</td>
-			<td>https://github.com/tdwg/tcs2/issues/43</td>
-		</tr>
-	</tbody>
-</table>
-
-
-**Comments**
-
-Taxon Relationships are a set of relationships that allow for the  alignment of Taxon Concepts – or taxon concept mapping. The main  relationship types coincide with topological relationships that are widely  used in spatial analysis, analysis of computer networks, artificial  intelligence, etc. In particular, they are the relationships that are used  in RCC-5 Region Connection Calculus, which allows for reasoning.
-
-An extra controlled term `intersects` has been added to the Taxon Concept  Relationship Type Vocabulary to accommodate Taxon Relationship  statements between Taxon Concepts of which we know that they have at least  one member in common, but where the more specific topological relationship  is not easily inferred.
-
-Taxon Relationship statements can be made in the treatment of the  subject Taxon Concept or by third parties.
-
 
 **Examples**
 
@@ -694,9 +516,6 @@ Taxon Relationship statements can be made in the treatment of the  subject Taxon
 [&lsqb;TaxonRelationship-1.ttl&rsqb;](examples/TaxonRelationship-1.ttl)
 
 
-**Examples**
-
-
 ```turtle
 @prefix : <http://rs.tdwg.org/tcs/terms/> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
@@ -733,9 +552,6 @@ Taxon Relationship statements can be made in the treatment of the  subject Taxon
 ```
 
 [&lsqb;TaxonRelationship-2.ttl&rsqb;](examples/TaxonRelationship-2.ttl)
-
-
-**Examples**
 
 
 ```turtle
@@ -936,42 +752,6 @@ In the case of Taxon Relationships from traditional synonymy, the  `relationship
 
 ## Taxon Name
 
-### tcs:TaxonName
-
-<table style="width:100%;">
-	<tbody>
-		<tr>
-			<td>Identifier</td>
-			<td>http://rs.tdwg.org/tcs/terms/TaxonName</td>
-		</tr>
-		<tr>
-			<td>Type</td>
-			<td>http://www.w3.org/2000/01/rdf-schema#Class</td>
-		</tr>
-		<tr>
-			<td>Label</td>
-			<td>Taxon Name</td>
-		</tr>
-		<tr>
-			<td>Definition</td>
-			<td><p>A name or label applied to a taxon or taxonomic group.</p></td>
-		</tr>
-		<tr>
-			<td>Usage</td>
-			<td><p>A TCS Taxon Name only requires a <code>taxonNameString</code>.</p></td>
-		</tr>
-		<tr>
-			<td>GitHub issue</td>
-			<td>https://github.com/tdwg/tcs2/issues/15</td>
-		</tr>
-	</tbody>
-</table>
-
-
-**Comments**
-
-The word 'name' here is taken in its dictionary meaning and not in the  sense of a particular nomenclatural code. This means that the Taxon Name  class can be used for any type of name, not just names that are validly  published under the relevant nomenclatural code.
-
 
 **Examples**
 
@@ -988,9 +768,6 @@ The word 'name' here is taken in its dictionary meaning and not in the  sense of
 [&lsqb;TaxonName-1.ttl&rsqb;](examples/TaxonName-1.ttl)
 
 
-**Examples**
-
-
 ```turtle
 @prefix : <http://rs.tdwg.org/tcs/terms/> .
 @prefix dwc: <http://rs.tdwg.org/dwc/terms/> .
@@ -1003,9 +780,6 @@ The word 'name' here is taken in its dictionary meaning and not in the  sense of
 ```
 
 [&lsqb;TaxonName-2.ttl&rsqb;](examples/TaxonName-2.ttl)
-
-
-**Examples**
 
 
 ```turtle
@@ -1221,46 +995,6 @@ This is the IRI equivalent of the Darwin Core `nomenclaturalCode`. In the  absen
 
 This is the IRI equivalent of the Darwin Core `nomenclaturalStatus`. In the  absence of a TDWG vocabulary, it is recommended to use a value from the GBIF  Nomenclatural Status Vocabulary  (https://rs.gbif.org/vocabulary/gbif/nomenclatural_status.xml).
 
-### tcs:basionym
-
-<table style="width:100%;">
-	<tbody>
-		<tr>
-			<td>Identifier</td>
-			<td>http://rs.tdwg.org/tcs/terms/basionym</td>
-		</tr>
-		<tr>
-			<td>Type</td>
-			<td>http://www.w3.org/1999/02/22-rdf-syntax-ns#Property</td>
-		</tr>
-		<tr>
-			<td>Label</td>
-			<td>Basionym</td>
-		</tr>
-		<tr>
-			<td></td>
-			<td><b>required:</b> No — <b>repeatable:</b> No</td>
-		</tr>
-		<tr>
-			<td>Definition</td>
-			<td><p>Original name on which the present name is based.</p></td>
-		</tr>
-		<tr>
-			<td>Usage</td>
-			<td><p>A <code>basionym</code> is another Taxon Name; a Taxon Name can have only one  <code>basionym</code>.</p></td>
-		</tr>
-		<tr>
-			<td>GitHub issue</td>
-			<td>https://github.com/tdwg/tcs2/issues/36</td>
-		</tr>
-	</tbody>
-</table>
-
-
-**Comments**
-
-A basionym is the epithet-bringing name.  The `basionym` property is only  used for new combinations ('comb. nov.'). If the new name is an avowed  substitute ('nom. nov.') the `replacementNameFor` property should be used  instead.
-
 
 **Examples**
 
@@ -1285,9 +1019,6 @@ A basionym is the epithet-bringing name.  The `basionym` property is only  used 
 ```
 
 [&lsqb;TaxonName-basionym-1.ttl&rsqb;](examples/TaxonName-basionym-1.ttl)
-
-
-**Examples**
 
 
 ```turtle
@@ -1350,46 +1081,6 @@ _:b1 a :TaxonName ;
 **Comments**
 
 In the Zoological Code, a 'replacement name' is a name established to replace  an already established name. The term used in the Botanical Code is 'avowed  substitute'. In both Codes (maybe all nomenclatural codes) the latin term  'nomen novum' (nom. nov.) is used as well. In the Botanical Code,  `replacementNameFor` is a 'replaced synonym', which is to an avowed  substitute ('nom. nov.') what 'basionym' is to a new combination  ('comb. nov.').
-
-### tcs:conservedAgainst
-
-<table style="width:100%;">
-	<tbody>
-		<tr>
-			<td>Identifier</td>
-			<td>http://rs.tdwg.org/tcs/terms/conservedAgainst</td>
-		</tr>
-		<tr>
-			<td>Type</td>
-			<td>http://www.w3.org/1999/02/22-rdf-syntax-ns#Property</td>
-		</tr>
-		<tr>
-			<td>Label</td>
-			<td>Conserved Against</td>
-		</tr>
-		<tr>
-			<td></td>
-			<td><b>required:</b> No — <b>repeatable:</b> Yes</td>
-		</tr>
-		<tr>
-			<td>Definition</td>
-			<td><p>Name(s) against which this name is conserved.</p></td>
-		</tr>
-		<tr>
-			<td>Usage</td>
-			<td><p>The <code>conservedAgainst</code> property takes another Taxon Name; a Taxon Name can  be conserved against more than one other Taxon Names.</p></td>
-		</tr>
-		<tr>
-			<td>GitHub issue</td>
-			<td>https://github.com/tdwg/tcs2/issues/39</td>
-		</tr>
-	</tbody>
-</table>
-
-
-**Comments**
-
-A scientific name at and below the rank of family is not conserved against  all other names, but only against one or more names that in turn are  rejected against the conserved name. A name can be conserved against more  than one other name, so this property is repeatable.
 
 
 **Examples**

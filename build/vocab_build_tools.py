@@ -285,6 +285,7 @@ def term_table(term):
 
     # Examples
     if 'examples' in term and isinstance(term['examples'], list):
+        text = '\n**Examples**\n\n'
         for ex in term['examples']:
             text += add_example(ex)
 
@@ -294,8 +295,7 @@ def add_example(ex):
     file_name = '../docs/examples/' + ex + '.ttl'
     with open(file_name, 'r') as examplefile:
         example = examplefile.read()
-    text = '\n**Examples**\n\n'
-    text += '\n```turtle\n'
+    text = '\n```turtle\n'
     text += example
     text += '\n```\n\n' 
     text += '[&lsqb;' + ex + '.ttl&rsqb;](examples/' + ex + '.ttl)\n\n'
