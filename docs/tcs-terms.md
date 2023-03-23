@@ -70,6 +70,9 @@ The TCS Taxon Concept is a data object and is applied more broadly than the  ter
 By contrast, assertions of synonymy or misapplication and entries in lists  of nomenclatural types are not Taxon Concepts.
 
 
+**Examples**
+
+
 ```turtle
 @prefix : <http://rs.tdwg.org/tcs/terms/> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
@@ -95,6 +98,9 @@ By contrast, assertions of synonymy or misapplication and entries in lists  of n
 [&lsqb;TaxonConcept-1.ttl&rsqb;](examples/TaxonConcept-1.ttl)
 
 
+**Examples**
+
+
 ```turtle
 @prefix : <http://rs.tdwg.org/tcs/terms/> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
@@ -115,6 +121,9 @@ dcterms:title "Orthetrum caledonicum sec. Theischinger and Hawking (2010)" ;
 ```
 
 [&lsqb;TaxonConcept-2.ttl&rsqb;](examples/TaxonConcept-2.ttl)
+
+
+**Examples**
 
 
 ```turtle
@@ -141,6 +150,9 @@ dcterms:title "Orthetrum caledonicum sec. Theischinger and Hawking (2010)" ;
 [&lsqb;TaxonConcept-3.ttl&rsqb;](examples/TaxonConcept-3.ttl)
 
 
+**Examples**
+
+
 ```turtle
 @prefix : <http://rs.tdwg.org/tcs/terms/> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
@@ -163,6 +175,9 @@ dcterms:title "Orthetrum caledonicum sec. Theischinger and Hawking (2010)" ;
 ```
 
 [&lsqb;TaxonConcept-4.ttl&rsqb;](examples/TaxonConcept-4.ttl)
+
+
+**Examples**
 
 
 ```turtle
@@ -391,6 +406,9 @@ The `parent` is another Taxon Concept. This is the parent as indicated in  the `
 Synonymy is between names but, if the names have different nomenclatural types, a Taxon  Concept is required. Therefore, `synonym` is a property of the Taxon Concept  class. `synonym` is used here in the stricter sense that only indicates that  the type of a name falls within a Taxon Concept and has the same  relationship to Taxon Concept as `taxonName` (the accepted name). This  allows one to dispose of names without having to deal with the Taxon  Concepts that were realised along with the publication of these names. If  one wants to include these “original concepts” and indicate a relationship  between Taxon Concepts, the `intersects` Taxon Relationship can be  used instead.
 
 
+**Examples**
+
+
 ```turtle
 @prefix : <http://rs.tdwg.org/tcs/terms/> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
@@ -461,6 +479,9 @@ Synonymy is between names but, if the names have different nomenclatural types, 
 The `vernacularName` property can be used when a vernacular name is used  alongside a scientific name, which is the `taxonName`. If a vernacular name  is the only name, the `taxonName` property should be used. The object of the  `vernacularName` property can be a Taxon Name, but another label  object, such as the GBIF [Vernacular Name](https://rs.gbif.org/extension/gbif/1.0/vernacularname.xml),  might be preferrable, especially if there can be multiple vernacular names  for a concept.
 
 
+**Examples**
+
+
 ```turtle
 @prefix : <http://rs.tdwg.org/tcs/terms/> .
 @prefix bibo: <http://purl.org/ontology/bibo/> .
@@ -483,6 +504,9 @@ The `vernacularName` property can be used when a vernacular name is used  alongs
 ```
 
 [&lsqb;TaxonConcept-vernacularName-1.ttl&rsqb;](examples/TaxonConcept-vernacularName-1.ttl)
+
+
+**Examples**
 
 
 ```turtle
@@ -509,6 +533,9 @@ The `vernacularName` property can be used when a vernacular name is used  alongs
 ```
 
 [&lsqb;TaxonConcept-vernacularName-2.ttl&rsqb;](examples/TaxonConcept-vernacularName-2.ttl)
+
+
+**Examples**
 
 
 ```turtle
@@ -629,6 +656,9 @@ An extra controlled term `intersects` has been added to the Taxon Concept  Relat
 Taxon Relationship statements can be made in the treatment of the  subject Taxon Concept or by third parties.
 
 
+**Examples**
+
+
 ```turtle
 @prefix : <http://rs.tdwg.org/tcs/terms/> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
@@ -662,6 +692,9 @@ Taxon Relationship statements can be made in the treatment of the  subject Taxon
 ```
 
 [&lsqb;TaxonRelationship-1.ttl&rsqb;](examples/TaxonRelationship-1.ttl)
+
+
+**Examples**
 
 
 ```turtle
@@ -700,6 +733,9 @@ Taxon Relationship statements can be made in the treatment of the  subject Taxon
 ```
 
 [&lsqb;TaxonRelationship-2.ttl&rsqb;](examples/TaxonRelationship-2.ttl)
+
+
+**Examples**
 
 
 ```turtle
@@ -937,6 +973,9 @@ In the case of Taxon Relationships from traditional synonymy, the  `relationship
 The word 'name' here is taken in its dictionary meaning and not in the  sense of a particular nomenclatural code. This means that the Taxon Name  class can be used for any type of name, not just names that are validly  published under the relevant nomenclatural code.
 
 
+**Examples**
+
+
 ```turtle
 @prefix : <http://rs.tdwg.org/tcs/terms/> .
 @prefix dwc: <http://rs.tdwg.org/dwc/terms/> .
@@ -947,6 +986,9 @@ The word 'name' here is taken in its dictionary meaning and not in the  sense of
 ```
 
 [&lsqb;TaxonName-1.ttl&rsqb;](examples/TaxonName-1.ttl)
+
+
+**Examples**
 
 
 ```turtle
@@ -961,6 +1003,9 @@ The word 'name' here is taken in its dictionary meaning and not in the  sense of
 ```
 
 [&lsqb;TaxonName-2.ttl&rsqb;](examples/TaxonName-2.ttl)
+
+
+**Examples**
 
 
 ```turtle
@@ -1217,6 +1262,9 @@ This is the IRI equivalent of the Darwin Core `nomenclaturalStatus`. In the  abs
 A basionym is the epithet-bringing name.  The `basionym` property is only  used for new combinations ('comb. nov.'). If the new name is an avowed  substitute ('nom. nov.') the `replacementNameFor` property should be used  instead.
 
 
+**Examples**
+
+
 ```turtle
 @prefix : <http://rs.tdwg.org/tcs/terms/> .
 @prefix dwc: <http://rs.tdwg.org/dwc/terms/> .
@@ -1237,6 +1285,9 @@ A basionym is the epithet-bringing name.  The `basionym` property is only  used 
 ```
 
 [&lsqb;TaxonName-basionym-1.ttl&rsqb;](examples/TaxonName-basionym-1.ttl)
+
+
+**Examples**
 
 
 ```turtle
@@ -1339,6 +1390,9 @@ In the Zoological Code, a 'replacement name' is a name established to replace  a
 **Comments**
 
 A scientific name at and below the rank of family is not conserved against  all other names, but only against one or more names that in turn are  rejected against the conserved name. A name can be conserved against more  than one other name, so this property is repeatable.
+
+
+**Examples**
 
 
 ```turtle

@@ -294,7 +294,8 @@ def add_example(ex):
     file_name = '../docs/examples/' + ex + '.ttl'
     with open(file_name, 'r') as examplefile:
         example = examplefile.read()
-    text = '\n```turtle\n'
+    text = '\n**Examples**\n\n'
+    text += '\n```turtle\n'
     text += example
     text += '\n```\n\n' 
     text += '[&lsqb;' + ex + '.ttl&rsqb;](examples/' + ex + '.ttl)\n\n'
