@@ -92,6 +92,8 @@ By contrast, assertions of synonymy or misapplication and entries in lists  of n
 
 ```
 
+[&lsqb;TaxonConcept-1.ttl&rsqb;](examples/TaxonConcept-1.ttl)
+
 
 ```turtle
 @prefix : <http://rs.tdwg.org/tcs/terms/> .
@@ -111,6 +113,8 @@ dcterms:title "Orthetrum caledonicum sec. Theischinger and Hawking (2010)" ;
             The complete field guide to dragonflies of Australia. CSIRO 
             Publishing, Collingwood, Australia.""" .
 ```
+
+[&lsqb;TaxonConcept-2.ttl&rsqb;](examples/TaxonConcept-2.ttl)
 
 
 ```turtle
@@ -134,6 +138,8 @@ dcterms:title "Orthetrum caledonicum sec. Theischinger and Hawking (2010)" ;
             Pamphlet no. 133, Forest Research Institute Malaysia, Kepong, Malaysia.""" .
 ```
 
+[&lsqb;TaxonConcept-3.ttl&rsqb;](examples/TaxonConcept-3.ttl)
+
 
 ```turtle
 @prefix : <http://rs.tdwg.org/tcs/terms/> .
@@ -156,6 +162,8 @@ dcterms:title "Orthetrum caledonicum sec. Theischinger and Hawking (2010)" ;
             1-492. MIM, Deurne.""" .
 ```
 
+[&lsqb;TaxonConcept-4.ttl&rsqb;](examples/TaxonConcept-4.ttl)
+
 
 ```turtle
 @prefix : <http://rs.tdwg.org/tcs/terms/> .
@@ -175,6 +183,8 @@ dcterms:title "Orthetrum caledonicum sec. Theischinger and Hawking (2010)" ;
     dcterms:title "Catalogue of Life, version 2022-11-14" ;
     bibo:uri "https://www.catalogueoflife.org" .
 ```
+
+[&lsqb;TaxonConcept-5.ttl&rsqb;](examples/TaxonConcept-5.ttl)
 
 ### tcs:taxonName
 
@@ -408,6 +418,8 @@ Synonymy is between names but, if the names have different nomenclatural types, 
             New Zealand Hebes. Te Papa Press, Wellington, New Zealand.""" .
 ```
 
+[&lsqb;TaxonConcept-synonym.ttl&rsqb;](examples/TaxonConcept-synonym.ttl)
+
 ### tcs:vernacularName
 
 <table style="width:100%;">
@@ -470,6 +482,8 @@ The `vernacularName` property can be used when a vernacular name is used  alongs
             butterflies of Australia. Jacana Books, Crows Nest, Australia.""" .
 ```
 
+[&lsqb;TaxonConcept-vernacularName-1.ttl&rsqb;](examples/TaxonConcept-vernacularName-1.ttl)
+
 
 ```turtle
 @prefix : <http://rs.tdwg.org/tcs/terms/> .
@@ -493,6 +507,8 @@ The `vernacularName` property can be used when a vernacular name is used  alongs
     dcterms:bibliographicCitation """Duistermaat, H. (2020). Heukels 
             Flora van Nederland, edn 24. Noordhoff, Groningen.""" .
 ```
+
+[&lsqb;TaxonConcept-vernacularName-2.ttl&rsqb;](examples/TaxonConcept-vernacularName-2.ttl)
 
 
 ```turtle
@@ -530,6 +546,8 @@ The `vernacularName` property can be used when a vernacular name is used  alongs
 <https://www.ipni.org/n/134460-3> a :TaxonName ;
     :taxonNameString "Callitris verrucosa" .
 ```
+
+[&lsqb;TaxonConcept-vernacularName-3.ttl&rsqb;](examples/TaxonConcept-vernacularName-3.ttl)
 
 ### dcterms:title
 
@@ -643,6 +661,8 @@ Taxon Concept Relationship statements can be made in the treatment of the  subje
             55(3): 705-731.""" .
 ```
 
+[&lsqb;TaxonRelationship-1.ttl&rsqb;](examples/TaxonRelationship-1.ttl)
+
 
 ```turtle
 @prefix : <http://rs.tdwg.org/tcs/terms/> .
@@ -678,6 +698,8 @@ Taxon Concept Relationship statements can be made in the treatment of the  subje
             A.J.E. (1981). Mosses of Europe and the Azores; an annotated list of species, with synonyms from 
             the recent literature. Journal of Bryology 11(4): 609-689.""" .
 ```
+
+[&lsqb;TaxonRelationship-2.ttl&rsqb;](examples/TaxonRelationship-2.ttl)
 
 
 ```turtle
@@ -718,6 +740,8 @@ _:n1 a :TaxonName ;
     dcterms:bibliographicCitation """Franz, Nico M. (2014). Anatomy of a cladistic analysis. 
             Cladistics 30(3): 294-321.""" .
 ```
+
+[&lsqb;TaxonRelationship-3.ttl&rsqb;](examples/TaxonRelationship-3.ttl)
 
 ### tcs:relationshipType
 
@@ -922,6 +946,8 @@ The word 'name' here is taken in its dictionary meaning and not in the  sense of
     dwc:scientificNameAuthorship "Linnaeus, 1758" .
 ```
 
+[&lsqb;TaxonName-1.ttl&rsqb;](examples/TaxonName-1.ttl)
+
 
 ```turtle
 @prefix : <http://rs.tdwg.org/tcs/terms/> .
@@ -934,6 +960,8 @@ The word 'name' here is taken in its dictionary meaning and not in the  sense of
 
 ```
 
+[&lsqb;TaxonName-2.ttl&rsqb;](examples/TaxonName-2.ttl)
+
 
 ```turtle
 @prefix : <http://rs.tdwg.org/tcs/terms/> .
@@ -945,6 +973,8 @@ The word 'name' here is taken in its dictionary meaning and not in the  sense of
     dwc:namePublishedIn "Handb. Erk. Gew. 3: 272 (1833)" .
 
 ```
+
+[&lsqb;TaxonName-3.ttl&rsqb;](examples/TaxonName-3.ttl)
 
 ### tcs:taxonNameString
 
@@ -1206,6 +1236,8 @@ A basionym is the epithet-bringing name.  The `basionym` property is only  used 
     dwc:namePublishedIn "New Zealand J. Bot. 10(4): 593 (1972)" .
 ```
 
+[&lsqb;TaxonName-basionym-1.ttl&rsqb;](examples/TaxonName-basionym-1.ttl)
+
 
 ```turtle
 @prefix : <http://rs.tdwg.org/tcs/terms/> .
@@ -1225,6 +1257,8 @@ _:b1 a :TaxonName ;
     :taxonNameString "Kangurus rufus" ;
     dwc:scientificNameAuthorship "Desmaret, 1882" .
 ```
+
+[&lsqb;TaxonName-basionym-2.ttl&rsqb;](examples/TaxonName-basionym-2.ttl)
 
 ### tcs:replacementNameFor
 
@@ -1334,6 +1368,8 @@ A scientific name at and below the rank of family is not conserved against  all 
     dwc:scientificNameAuthorship "Paris" ;
     dwc:namePublishedInYear "1894" .
 ```
+
+[&lsqb;TaxonName-conservedAgainst.ttl&rsqb;](examples/TaxonName-conservedAgainst.ttl)
 
 ### dwc:scientificNameAuthorship
 
