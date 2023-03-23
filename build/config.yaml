@@ -17,10 +17,10 @@ categories:
     label: Taxon Concept
     comments: ''
     display_id: taxonConcept
-  - namespace: 'http://rs.tdwg.org/tcs/terms/TaxonConceptRelationship'
-    label: Taxon Concept Relationship
+  - namespace: 'http://rs.tdwg.org/tcs/terms/TaxonRelationship'
+    label: Taxon Relationship
     comments: ''
-    display_id: taxonConceptRelationship
+    display_id: taxonRelationship
   - namespace: 'http://rs.tdwg.org/tcs/terms/TaxonName'
     label: Taxon Name
     comments: ''
@@ -34,9 +34,9 @@ headerFileName: ./static/taxon-concept-relationship-type-vocabulary-header.md
 footerFileName: ./static/termlist-footer.md
 outFileName: ../docs/taxon-concept-relationship-type-vocabulary.md
 termLists:
-  - filename: tcsTaxonConceptRelationshipType
+  - filename: tcsTaxonRelationshipType
     vann_preferredNamespacePrefix: tcreltype
-    vann_preferredNamespaceUri: http://rs.tdwg.org/tcs-taxon-concept-relationship-type/values/
+    vann_preferredNamespaceUri: http://rs.tdwg.org/tcs-taxon-relationship-type/values/
 categories:
-  - namespace: http://rs.tdwg.org/tcs-taxon-concept-relationship-type/values/
-    label: Taxon Concept Relationship Type
+  - namespace: http://rs.tdwg.org/tcs-taxon-relationship-type/values/
+    label: Taxon Relationship Type

@@ -9,13 +9,13 @@ files.
 
 **classes**
 
-[tcs:TaxonConcept](#tcstaxonconcept) | [tcs:TaxonConceptRelationship](#tcstaxonconceptrelationship) | [tcs:TaxonName](#tcstaxonname) | [tcs:NomenclaturalType](#tcsnomenclaturaltype)
+[tcs:TaxonConcept](#tcstaxonconcept) | [tcs:TaxonRelationship](#tcstaxonrelationship) | [tcs:TaxonName](#tcstaxonname) | [tcs:NomenclaturalType](#tcsnomenclaturaltype)
 
 **Taxon Concept**
 
 [tcs:taxonName](#tcstaxonname) | [tcs:accordingTo](#tcsaccordingto) | [tcs:taxonomicRank](#tcstaxonomicrank) | [tcs:parent](#tcsparent) | [tcs:synonym](#tcssynonym) | [tcs:vernacularName](#tcsvernacularname) | [dcterms:title](#dctermstitle)
 
-**Taxon Concept Relationship**
+**Taxon Relationship**
 
 [tcs:relationshipType](#tcsrelationshiptype) | [tcs:subjectTaxonConcept](#tcssubjecttaxonconcept) | [tcs:objectTaxonConcept](#tcsobjecttaxonconcept) | [tcs:relationshipAccordingTo](#tcsrelationshipaccordingto)
 
@@ -47,7 +47,7 @@ files.
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td><p>An identifiable taxonomic position that can be aligned to other such  positions through TCS Taxon Concept Relationships.</p></td>
+			<td><p>An identifiable taxonomic position that can be aligned to other such  positions through TCS Taxon Relationships.</p></td>
 		</tr>
 		<tr>
 			<td>Usage</td>
@@ -63,7 +63,7 @@ files.
 
 **Comments**
 
-A taxonomic position is an opinion about the definition of a taxonomic  group. A Taxon Concept is identifiable, because it combines a label –  `taxonName` in TCS – with a source – `accordingTo`. Both these properties  are required. When mentioning a taxon concept, the label and the source are  also combined, separated by 'sec.' (from, 'secundus', meaning 'according  to') or 'sensu' (meaning the same). Because of the context provided by the  source, taxon concepts are in principle also alignable to other Taxon  Concepts using the TCS Taxon Concept Relationship statements.
+A taxonomic position is an opinion about the definition of a taxonomic  group. A Taxon Concept is identifiable, because it combines a label –  `taxonName` in TCS – with a source – `accordingTo`. Both these properties  are required. When mentioning a taxon concept, the label and the source are  also combined, separated by 'sec.' (from, 'secundus', meaning 'according  to') or 'sensu' (meaning the same). Because of the context provided by the  source, taxon concepts are in principle also alignable to other Taxon  Concepts using the TCS Taxon Relationship statements.
 
 The TCS Taxon Concept is a data object and is applied more broadly than the  term is used in science (e.g. Franz & Peet 2009). On the one hand, things  that are not generally considered to be biological taxa, e.g. hybrids and  cultivars, can be casted as TCS Taxon Concepts. Also Operational Taxonomic  Units (OTUs, cf. Sokal & Sneath 1963) can be exchanged as Taxon Concepts,  if there is a reason to do so, e.g. if one wants to align them with other  Taxon Concepts later. On the other hand, entries from treatments that are  considered to cite concepts from other treatments can be formulated as  Taxon Concepts. Every taxon concept from a treatment that is likely to be  referenced as the source of taxonomic context, for example a field guide  for a determination of a specimen or a national census for an ecological  study, can – and it would be very nice if they would – be stated as a Taxon  Concept, so they can be aligned with other Taxon Concepts that may provide  more or different taxonomic context.
 
@@ -388,7 +388,7 @@ The `parent` is another Taxon Concept. This is the parent as indicated in  the `
 
 **Comments**
 
-Synonymy is between names but, if the names have different nomenclatural types, a Taxon  Concept is required. Therefore, `synonym` is a property of the Taxon Concept  class. `synonym` is used here in the stricter sense that only indicates that  the type of a name falls within a Taxon Concept and has the same  relationship to Taxon Concept as `taxonName` (the accepted name). This  allows one to dispose of names without having to deal with the Taxon  Concepts that were realised along with the publication of these names. If  one wants to include these “original concepts” and indicate a relationship  between Taxon Concepts, the `intersects` Taxon Concept Relationship can be  used instead.
+Synonymy is between names but, if the names have different nomenclatural types, a Taxon  Concept is required. Therefore, `synonym` is a property of the Taxon Concept  class. `synonym` is used here in the stricter sense that only indicates that  the type of a name falls within a Taxon Concept and has the same  relationship to Taxon Concept as `taxonName` (the accepted name). This  allows one to dispose of names without having to deal with the Taxon  Concepts that were realised along with the publication of these names. If  one wants to include these “original concepts” and indicate a relationship  between Taxon Concepts, the `intersects` Taxon Relationship can be  used instead.
 
 
 ```turtle
@@ -586,15 +586,15 @@ The `vernacularName` property can be used when a vernacular name is used  alongs
 In TCS `dcterms:title` is used for the taxonomic concept label (cf.  Senderov et al., 2018), which consists of the Taxon Name and a reference to  the publication where the concept is circumscribed, separated by 'sec.',  which stands for 'secundus' ('according to'). It is used to indicate one  specific meaning of a name – a Taxon Concept – rather than the cumulative  nomenclatural and taxonomic legacy associated with the name.
 
 
-## Taxon Concept Relationship
+## Taxon Relationship
 
-### tcs:TaxonConceptRelationship
+### tcs:TaxonRelationship
 
 <table style="width:100%;">
 	<tbody>
 		<tr>
 			<td>Identifier</td>
-			<td>http://rs.tdwg.org/tcs/terms/TaxonConceptRelationship</td>
+			<td>http://rs.tdwg.org/tcs/terms/TaxonRelationship</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -602,7 +602,7 @@ In TCS `dcterms:title` is used for the taxonomic concept label (cf.  Senderov et
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td>Taxon Concept Relationship</td>
+			<td>Taxon Relationship</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -622,11 +622,11 @@ In TCS `dcterms:title` is used for the taxonomic concept label (cf.  Senderov et
 
 **Comments**
 
-Taxon Concept Relationships are a set of relationships that allow for the  alignment of Taxon Concepts – or taxon concept mapping. The main  relationship types coincide with topological relationships that are widely  used in spatial analysis, analysis of computer networks, artificial  intelligence, etc. In particular, they are the relationships that are used  in RCC-5 Region Connection Calculus, which allows for reasoning.
+Taxon Relationships are a set of relationships that allow for the  alignment of Taxon Concepts – or taxon concept mapping. The main  relationship types coincide with topological relationships that are widely  used in spatial analysis, analysis of computer networks, artificial  intelligence, etc. In particular, they are the relationships that are used  in RCC-5 Region Connection Calculus, which allows for reasoning.
 
-An extra controlled term `intersects` has been added to the Taxon Concept  Relationship Type Vocabulary to accommodate Taxon Concept Relationship  statements between Taxon Concepts of which we know that they have at least  one member in common, but where the more specific topological relationship  is not easily inferred.
+An extra controlled term `intersects` has been added to the Taxon Concept  Relationship Type Vocabulary to accommodate Taxon Relationship  statements between Taxon Concepts of which we know that they have at least  one member in common, but where the more specific topological relationship  is not easily inferred.
 
-Taxon Concept Relationship statements can be made in the treatment of the  subject Taxon Concept or by third parties.
+Taxon Relationship statements can be made in the treatment of the  subject Taxon Concept or by third parties.
 
 
 ```turtle
@@ -804,7 +804,7 @@ _:n1 a :TaxonName ;
 		</tr>
 		<tr>
 			<td>Usage</td>
-			<td><p><code>subjectTaxonConcept</code> is a TCS Taxon Concept; a Taxon Concept Relationship  statement can have only one <code>subjectTaxonConcept</code>.</p></td>
+			<td><p><code>subjectTaxonConcept</code> is a TCS Taxon Concept; a Taxon Relationship  statement can have only one <code>subjectTaxonConcept</code>.</p></td>
 		</tr>
 		<tr>
 			<td>GitHub issue</td>
@@ -844,7 +844,7 @@ This is the Taxon Concept at the left-hand side of the relationship  statement.
 		</tr>
 		<tr>
 			<td>Usage</td>
-			<td><p><code>objectTaxonConcept</code> is a TCS Taxon Concept; a Taxon Concept Relationship  statement can have only one <code>objectTaxonConcept</code>.</p></td>
+			<td><p><code>objectTaxonConcept</code> is a TCS Taxon Concept; a Taxon Relationship  statement can have only one <code>objectTaxonConcept</code>.</p></td>
 		</tr>
 		<tr>
 			<td>GitHub issue</td>
@@ -880,7 +880,7 @@ This is the Taxon Concept at the right-hand side of the relationship  statement.
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td><p>Reference to the source of the taxon concept relationship statement.</p></td>
+			<td><p>Reference to the source of the taxon relationship statement.</p></td>
 		</tr>
 		<tr>
 			<td>Usage</td>
@@ -896,7 +896,7 @@ This is the Taxon Concept at the right-hand side of the relationship  statement.
 
 **Comments**
 
-In the case of Taxon Concept Relationships from traditional synonymy, the  `relationshipAccordingTo` is the same as the `accordingTo` of the Taxon  Concept that is the `subjectTaxonConcept`.
+In the case of Taxon Relationships from traditional synonymy, the  `relationshipAccordingTo` is the same as the `accordingTo` of the Taxon  Concept that is the `subjectTaxonConcept`.
 
 ## Taxon Name
 

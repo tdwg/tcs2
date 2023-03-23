@@ -1,12 +1,12 @@
-# TCS Taxon Concept Relationship Type Vocabulary
+# TCS Taxon Relationship Type Vocabulary
 
 **Note:** The content below is created dynamically from the
-[tcsTaxonConceptRelationshipType.yaml](./tcsTaxonConceptRelationshipType.yaml) file. Please
+[tcsTaxonRelationshipType.yaml](./tcsTaxonRelationshipType.yaml) file. Please
 do not edit the markdown directly, but make any changes in the YAML file.
 
 ## Index of terms
 
-[Taxon Concept Relationship Type Concept Scheme](#tcreltype) | [Is Congruent With](#tcreltypeiscongruentwith) | [Has proper subset](#tcreltypehaspropersubset) | [Is proper subset of](#tcreltypeispropersubsetof) | [partiallyOverlaps](#tcreltypepartiallyoverlaps) | [Is disjoint from](#tcreltypeisdisjointfrom) | [Intersects](#tcreltypeintersects)
+[Taxon Relationship Type Concept Scheme](#tcreltype) | [Is Congruent With](#tcreltypeiscongruentwith) | [Has proper subset](#tcreltypehaspropersubset) | [Is proper subset of](#tcreltypeispropersubsetof) | [partiallyOverlaps](#tcreltypepartiallyoverlaps) | [Is disjoint from](#tcreltypeisdisjointfrom) | [Intersects](#tcreltypeintersects)
 
 ### tcreltype:
 
@@ -14,7 +14,7 @@ do not edit the markdown directly, but make any changes in the YAML file.
 	<tbody>
 		<tr>
 			<td>Identifier</td>
-			<td>http://rs.tdwg.org/tcs-taxon-concept-relationship-type/values/</td>
+			<td>http://rs.tdwg.org/tcs-taxon-relationship-type/values/</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -22,11 +22,11 @@ do not edit the markdown directly, but make any changes in the YAML file.
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td>Taxon Concept Relationship Type Concept Scheme</td>
+			<td>Taxon Relationship Type Concept Scheme</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td><p>A SKOS Concept Scheme for controlled values for  <code>tcs:taxonConceptRelationshipType</code></p></td>
+			<td><p>A SKOS Concept Scheme for controlled values for  <code>tcs:TaxonRelationshipType</code></p></td>
 		</tr>
 		<tr>
 			<td>Controlled value</td>
@@ -41,7 +41,7 @@ do not edit the markdown directly, but make any changes in the YAML file.
 	<tbody>
 		<tr>
 			<td>Identifier</td>
-			<td>http://rs.tdwg.org/tcs-taxon-concept-relationship-type/values/isCongruentWith</td>
+			<td>http://rs.tdwg.org/tcs-taxon-relationship-type/values/isCongruentWith</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -73,7 +73,7 @@ The `isCongruentWith` relationship is symmetrical, so if A `isCongruentWith`  B 
 	<tbody>
 		<tr>
 			<td>Identifier</td>
-			<td>http://rs.tdwg.org/tcs-taxon-concept-relationship-type/values/hasProperSubset</td>
+			<td>http://rs.tdwg.org/tcs-taxon-relationship-type/values/hasProperSubset</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -105,7 +105,7 @@ The `hasProperSubset` relationship is not symmetric, its inverse  relationship b
 	<tbody>
 		<tr>
 			<td>Identifier</td>
-			<td>http://rs.tdwg.org/tcs-taxon-concept-relationship-type/values/isProperSubsetOf</td>
+			<td>http://rs.tdwg.org/tcs-taxon-relationship-type/values/isProperSubsetOf</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -137,7 +137,7 @@ The `isProperSubsetOf` relationship is not symmetric, its inverse  relationship 
 	<tbody>
 		<tr>
 			<td>Identifier</td>
-			<td>http://rs.tdwg.org/tcs-taxon-concept-relationship-type/values/partiallyOverlaps</td>
+			<td>http://rs.tdwg.org/tcs-taxon-relationship-type/values/partiallyOverlaps</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -169,7 +169,7 @@ The `partiallyOverlaps`  relationship is symmetrical, so if A  `partiallyOverlap
 	<tbody>
 		<tr>
 			<td>Identifier</td>
-			<td>http://rs.tdwg.org/tcs-taxon-concept-relationship-type/values/isDisjointFrom</td>
+			<td>http://rs.tdwg.org/tcs-taxon-relationship-type/values/isDisjointFrom</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -201,7 +201,7 @@ The `isDisjointFrom`  relationship is symmetrical, so if A `isDisjointFrom`  B t
 	<tbody>
 		<tr>
 			<td>Identifier</td>
-			<td>http://rs.tdwg.org/tcs-taxon-concept-relationship-type/values/intersects</td>
+			<td>http://rs.tdwg.org/tcs-taxon-relationship-type/values/intersects</td>
 		</tr>
 		<tr>
 			<td>Type</td>

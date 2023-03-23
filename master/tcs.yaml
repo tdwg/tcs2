@@ -7,7 +7,7 @@
   label: Taxon Concept
   definition: >-
     An identifiable taxonomic position that can be aligned to other such 
-    positions through TCS Taxon Concept Relationships.
+    positions through TCS Taxon Relationships.
   usage: The `taxonName` and `accordingTo` properties are required.
   notes: >-
     A taxonomic position is an opinion about the definition of a taxonomic 
@@ -17,7 +17,7 @@
     also combined, separated by 'sec.' (from, 'secundus', meaning 'according 
     to') or 'sensu' (meaning the same). Because of the context provided by the 
     source, taxon concepts are in principle also alignable to other Taxon 
-    Concepts using the TCS Taxon Concept Relationship statements.
+    Concepts using the TCS Taxon Relationship statements.
 
 
     The TCS Taxon Concept is a data object and is applied more broadly than the 
@@ -160,7 +160,7 @@
     allows one to dispose of names without having to deal with the Taxon 
     Concepts that were realised along with the publication of these names. If 
     one wants to include these “original concepts” and indicate a relationship 
-    between Taxon Concepts, the `intersects` Taxon Concept Relationship can be 
+    between Taxon Concepts, the `intersects` Taxon Relationship can be 
     used instead.
   examples: 
     - TaxonConcept-synonym
@@ -197,9 +197,9 @@
   repeatable: Yes
   github: 10
 
-# class: TaxonConceptRelationship
-- localName: TaxonConceptRelationship
-  label: Taxon Concept Relationship
+# class: TaxonRelationship
+- localName: TaxonRelationship
+  label: Taxon Relationship
   definition: Topological relationship between two Taxon Concepts.
   examples: 
     - TaxonRelationship-1
@@ -209,7 +209,7 @@
     `relationshipType`, `subjectTaxonConcept`, `objectTaxonConcept` and 
     `relationshipAccordingTo` are all required.
   notes: >-
-    Taxon Concept Relationships are a set of relationships that allow for the 
+    Taxon Relationships are a set of relationships that allow for the 
     alignment of Taxon Concepts – or taxon concept mapping. The main 
     relationship types coincide with topological relationships that are widely 
     used in spatial analysis, analysis of computer networks, artificial 
@@ -218,16 +218,16 @@
 
 
     An extra controlled term `intersects` has been added to the Taxon Concept 
-    Relationship Type Vocabulary to accommodate Taxon Concept Relationship 
+    Relationship Type Vocabulary to accommodate Taxon Relationship 
     statements between Taxon Concepts of which we know that they have at least 
     one member in common, but where the more specific topological relationship 
     is not easily inferred.
 
 
-    Taxon Concept Relationship statements can be made in the treatment of the 
+    Taxon Relationship statements can be made in the treatment of the 
     subject Taxon Concept or by third parties.
   type: http://www.w3.org/2000/01/rdf-schema#Class
-  organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonConceptRelationship
+  organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonRelationship
   repeatable: null
   required: null
   github: 43
@@ -241,7 +241,7 @@
     Relationship Vocabulary.
   notes: null
   type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
-  organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonConceptRelationship
+  organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonRelationship
   required: Yes
   repeatable: No
   github: 44
@@ -251,13 +251,13 @@
   label: Subject Taxon Concept
   definition: Taxon Concept that is the subject in the relationship statement.
   usage: >-
-    `subjectTaxonConcept` is a TCS Taxon Concept; a Taxon Concept Relationship 
+    `subjectTaxonConcept` is a TCS Taxon Concept; a Taxon Relationship 
     statement can have only one `subjectTaxonConcept`.
   notes: >-
     This is the Taxon Concept at the left-hand side of the relationship 
     statement.
   type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
-  organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonConceptRelationship
+  organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonRelationship
   required: Yes
   repeatable: No
   github: 45
@@ -267,13 +267,13 @@
   label: Object Taxon Concept
   definition: Taxon Concept that is the object in the relationship statement.
   usage: >-
-    `objectTaxonConcept` is a TCS Taxon Concept; a Taxon Concept Relationship 
+    `objectTaxonConcept` is a TCS Taxon Concept; a Taxon Relationship 
     statement can have only one `objectTaxonConcept`.
   notes: >-
     This is the Taxon Concept at the right-hand side of the relationship 
     statement.
   type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
-  organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonConceptRelationship
+  organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonRelationship
   required: Yes
   repeatable: No
   github: 46
@@ -282,16 +282,16 @@
 - localName: relationshipAccordingTo
   label: Relationship According To
   definition: >-
-    Reference to the source of the taxon concept relationship statement.
+    Reference to the source of the taxon relationship statement.
   usage: >-
     `relationshipAccordingTo` is an IRI term and is required; a Taxon 
     Relationship statement can have only one `relationshipAccordingTo`.
   notes: >-
-    In the case of Taxon Concept Relationships from traditional synonymy, the 
+    In the case of Taxon Relationships from traditional synonymy, the 
     `relationshipAccordingTo` is the same as the `accordingTo` of the Taxon 
     Concept that is the `subjectTaxonConcept`.
   type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
-  organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonConceptRelationship
+  organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonRelationship
   required: Yes
   repeatable: No
   github: 47

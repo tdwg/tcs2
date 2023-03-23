@@ -16,4 +16,4 @@ vocabularies:
 
 ### Controlled vocabularies
 
-- Taxon Concept Relationship Type Vocabulary: [tcsTaxonConceptRelationshipType.yaml](./tcsTaxonConceptRelationshipType.yaml)
+- Taxon Relationship Type Vocabulary: [tcsTaxonRelationshipType.yaml](./tcsTaxonRelationshipType.yaml)
