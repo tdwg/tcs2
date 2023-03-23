@@ -285,7 +285,7 @@ def term_table(term):
 
     # Examples
     if 'examples' in term and isinstance(term['examples'], list):
-        text = '\n**Examples**\n\n'
+        text += '\n**Examples**\n\n'
         for ex in term['examples']:
             text += add_example(ex)
 
