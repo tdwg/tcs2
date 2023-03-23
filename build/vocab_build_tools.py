@@ -284,18 +284,19 @@ def term_table(term):
         text += '\n\n'
 
     # Examples
-    if 'examples' in term and isinstance(term['examples'], str):
-        try:
-            filename = '../master/inline-examples/' + term['examples']
-            with open(filename, 'r') as exampleFile:
-                examples = exampleFile.read()
-            text += '\n**Examples**\n\n'
-            text += examples
-            text += '\n\n'
-        except:
-            print(term['localName'])
-            print(term['examples'])
+    if 'examples' in term and isinstance(term['examples'], list):
+        for ex in term['examples']:
+            text += add_example(ex)
 
+    return text
+
+def add_example(ex):
+    file_name = '../docs/examples/' + ex + '.ttl'
+    with open(file_name, 'r') as examplefile:
+        example = examplefile.read()
+    text = '\n```turtle\n'
+    text += example
+    text += '\n```\n\n' 
     return text
 
 # create vocabulary

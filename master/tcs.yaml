@@ -202,9 +202,9 @@
   label: Taxon Concept Relationship
   definition: Topological relationship between two Taxon Concepts.
   examples: 
-    - TaxonConceptRelationship-1
-    - TaxonConceptRelationship-2
-    - TaxonConceptRelationship-3
+    - TaxonRelationship-1
+    - TaxonRelationship-2
+    - TaxonRelationship-3
   usage: >-
     `relationshipType`, `subjectTaxonConcept`, `objectTaxonConcept` and 
     `relationshipAccordingTo` are all required.

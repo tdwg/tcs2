@@ -70,82 +70,111 @@ The TCS Taxon Concept is a data object and is applied more broadly than the  ter
 By contrast, assertions of synonymy or misapplication and entries in lists  of nomenclatural types are not Taxon Concepts.
 
 
-**Examples**
-
-Taxonomic treatment:
-
 ```turtle
-[] :TaxonConcept ;
+@prefix : <http://rs.tdwg.org/tcs/terms/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dwc: <http://rs.tdwg.org/dwc/terms/> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+
+[]  a :TaxonConcept ;
     dcterms:title "Dicranoloma blumei sec. Klazenga (1999)" ;
-    :taxonName [ <https://www.tropicos.org/name/35121475> a :TaxonName ;
-            :taxonNameString "Dicranoloma blumei" ;
-            dwc:scientificNameAuthorship "(Nees) Renauld" ] ;
-    :accordingTo [ <https://www.tropicos.org/reference/9020903> a bibo:AcademicArticle ;
-            dcterms:bibliographicCitation """Klazenga, N. (1999). A revision of the Malesian 
-                    species of Dicranoloma (Dicranaceae, Musci). Journal of the Hattori
-                    Botanical Laboratory 87: 1-130.""" ] .
+    :taxonName <https://www.tropicos.org/name/35121475> ;
+    :accordingTo <https://www.tropicos.org/reference/9020903> .
+
+<https://www.tropicos.org/name/35121475> a :TaxonName ;
+    :taxonNameString "Dicranoloma blumei" ;
+    dwc:scientificNameAuthorship "(Nees) Renauld" .
+
+<https://www.tropicos.org/reference/9020903> a bibo:AcademicArticle ;
+    dcterms:bibliographicCitation """Klazenga, N. (1999). A revision of the 
+            Malesian species of Dicranoloma (Dicranaceae, Musci). Journal of the 
+            Hattori Botanical Laboratory 87: 1-130.""" .
+
 ```
 
-Field guide:
 
 ```turtle
+@prefix : <http://rs.tdwg.org/tcs/terms/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+
 [] a :TaxonConcept ;
-        dcterms:title "Orthetrum caledonicum sec. Theischinger and Hawking (2010)" ;
-        :taxonName [ a :TaxonName ; 
-                :taxonNameString "Orthetrum caledonicum" ] ;
-        :vernacularName [ a :TaxonName ;
-                :taxonNameString "Blue Skimmer" ] ;
-        :accordingTo [ <urn:isbn:978-0-643-09073-6> a bibo:Book ;
-                dcterms:bibliographicCitation """Theischinger, G.; Hawking, J. (2010). The 
-                        complete field guide to dragonflies of Australia. CSIRO Publishing, 
-                        Collingwood, Australia.""" ] .
+dcterms:title "Orthetrum caledonicum sec. Theischinger and Hawking (2010)" ;
+    :taxonName [ a :TaxonName ; 
+            :taxonNameString "Orthetrum caledonicum" ] ;
+    :vernacularName [ a :TaxonName ;
+            :taxonNameString "Blue Skimmer" ] ;
+    :accordingTo <urn:isbn:978-0-643-09073-6> .
 
+<urn:isbn:978-0-643-09073-6> a bibo:Book ;
+    dcterms:bibliographicCitation """Theischinger, G.; Hawking, J. (2010). 
+            The complete field guide to dragonflies of Australia. CSIRO 
+            Publishing, Collingwood, Australia.""" .
 ```
 
-Checklist:
 
 ```turtle
+@prefix : <http://rs.tdwg.org/tcs/terms/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dwc: <http://rs.tdwg.org/dwc/terms/> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+
 [] a :TaxonConcept ;
     dcterms:title "Calymperes moluccense sec. Yong et al. (2013)" ;
-    :taxonName [ <https://www.tropicos.org/name/35153806> a :TaxonName ;
-            :taxonNameString "Calymperes moluccense" ;
-            dwc:scientificNameAuthorship "Schwägr." ] ;
-    :accordingTo [ <urn:isbn:978-967-5221-99-6> a bibo:Book ;
-            dcterms:bibliographicCitation """Yong, K.T.; Tan, B.C.; Ho, B.C.; Ho, Q.Y.; Mohamed, H.
-                    A revised Moss Checklist of Peninsular Malaysia and Singapore. Research 
-                    Pamphlet no. 133, Forest Research Institute Malaysia, Kepong, Malaysia.""" ] .
+    :taxonName <https://www.tropicos.org/name/35153806> ;
+    :accordingTo <urn:isbn:978-967-5221-99-6> .
+
+<https://www.tropicos.org/name/35153806> a :TaxonName ;
+    :taxonNameString "Calymperes moluccense" ;
+    dwc:scientificNameAuthorship "Schwägr." .
+
+<urn:isbn:978-967-5221-99-6> a bibo:Book ;
+    dcterms:bibliographicCitation """Yong, K.T.; Tan, B.C.; Ho, B.C.; Ho, Q.Y.; Mohamed, H.
+            A revised Moss Checklist of Peninsular Malaysia and Singapore. Research 
+            Pamphlet no. 133, Forest Research Institute Malaysia, Kepong, Malaysia.""" .
 ```
 
-Plants of the World Online:
 
 ```turtle
+@prefix : <http://rs.tdwg.org/tcs/terms/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dwc: <http://rs.tdwg.org/dwc/terms/> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+
 <https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:105644-1> a :TaxonConcept ;
     dcterms:title "Begonia salaziensis sec. POWO (2022)" ;
-    :taxonName [ <https://www.ipni.org/n/105644-1> a :TaxonName ;
-            :taxonNameString "Begonia salaziensis" ; 
-            dwc:scientificNameAuthorship "Warb." ;
-            dwc:namePublishedIn """Nat. Pflanzenfam. [Engler & Prantl] iii. 6 a. (1894) 139." ] ;
-    :accordingTo [ <urn:lsid:ipni.org:publications:17755-2> a bibo:Book ;
-        dcterms:bibliographicCitation "Govaerts, R. (1996). World Checklist of Seed Plants 2(1, 2): 
-                1-492. MIM, Deurne.""" ] .
+    :taxonName <https://www.ipni.org/n/105644-1> ;
+    :accordingTo <urn:lsid:ipni.org:publications:17755-2> .
+
+<https://www.ipni.org/n/105644-1> a :TaxonName ;
+    :taxonNameString "Begonia salaziensis" ; 
+    dwc:scientificNameAuthorship "Warb." ;
+    dwc:namePublishedIn "Nat. Pflanzenfam. [Engler & Prantl] iii. 6 a. (1894) 139." .
+
+<urn:lsid:ipni.org:publications:17755-2> a bibo:Book ;
+    dcterms:bibliographicCitation """Govaerts, R. (1996). World Checklist of Seed Plants 2(1, 2): 
+            1-492. MIM, Deurne.""" .
 ```
 
-Catalogue of Life:
 
 ```turtle
+@prefix : <http://rs.tdwg.org/tcs/terms/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dwc: <http://rs.tdwg.org/dwc/terms/> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+
 <https://www.catalogueoflife.org/data/taxon/KF8T#v2022-11-14> a :TaxonConcept ;
     dcterms:title "Balaenoptera musculus sec. Catalogue of Life (v2022-11-14)" ;
     :taxonName [ a :TaxonName ;
             :taxonNameString "Balaenoptera musculus" ;
-            dwc:scientificNameAuthorship """(Linnaeus, 1758)" ] ;
-    :accordingTo [ <https://www.catalogueoflife.org#v2022-11-14> a bibo:Website ;
-            dcterms:isVersionOf "https://www.catalogueoflife.org" ;
-            dcterms:title "Catalogue of Life, version 2022-11-14" ;
-            bibo:uri "https://www.catalogueoflife.org""" ] .
+            dwc:scientificNameAuthorship "(Linnaeus, 1758)" ] ;
+    :accordingTo <https://www.catalogueoflife.org#v2022-11-14> .
+
+<https://www.catalogueoflife.org#v2022-11-14> a bibo:Website ;
+    dcterms:isVersionOf "https://www.catalogueoflife.org" ;
+    dcterms:title "Catalogue of Life, version 2022-11-14" ;
+    bibo:uri "https://www.catalogueoflife.org" .
 ```
-
-
-
 
 ### tcs:taxonName
 
@@ -352,24 +381,32 @@ The `parent` is another Taxon Concept. This is the parent as indicated in  the `
 Synonymy is between names but, if the names have different nomenclatural types, a Taxon  Concept is required. Therefore, `synonym` is a property of the Taxon Concept  class. `synonym` is used here in the stricter sense that only indicates that  the type of a name falls within a Taxon Concept and has the same  relationship to Taxon Concept as `taxonName` (the accepted name). This  allows one to dispose of names without having to deal with the Taxon  Concepts that were realised along with the publication of these names. If  one wants to include these “original concepts” and indicate a relationship  between Taxon Concepts, the `intersects` Taxon Concept Relationship can be  used instead.
 
 
-**Examples**
-
 ```turtle
+@prefix : <http://rs.tdwg.org/tcs/terms/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dwc: <http://rs.tdwg.org/dwc/terms/> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+
 [] a :TaxonConcept ;
     dcterms:title "Hebe imbricata sec. Bayly & Kellow (2006)" ;
-    :taxonName [ <https://www.ipni.org/n/989261-1> a :TaxonName ;
-            :taxonNameString "Hebe imbricata" ;
-            dwc:scientificNameAuthorship "Cockayne & Allen" ;
-            dwc:namePublishedIn "Trans. & Proc. New Zealand Inst. lvii. 42 (1927) (1927)" ] ;
-    :synonym [ <https://www.ipni.org/n/812507-1> a :TaxonName ;
-            :taxonNameString "Veronica poppelwellii" ;
-            dwc:scientificNameAuthorship "Cockayne" ; 
-            dwc:namePublishedIn "Trans. & Proc. New Zealand Inst. 1915, xlviii. 200 (1916)" ] ;
-    :accordingTo [ <urn:isbn:978-0-909010-12-6> a bibo:Book ;
-            dcterms:bibliographicCitation """Bayly, M.; Kellow, A. (2006). An illustrated guide to 
-                    New Zealand Hebes. Te Papa Press, Wellington, New Zealand.""" ] .
-```
+    :taxonName <https://www.ipni.org/n/989261-1> ;
+    :synonym <https://www.ipni.org/n/812507-1> ;
+    :accordingTo <urn:isbn:978-0-909010-12-6> .
 
+<https://www.ipni.org/n/989261-1> a :TaxonName ;
+    :taxonNameString "Hebe imbricata" ;
+    dwc:scientificNameAuthorship "Cockayne & Allen" ;
+    dwc:namePublishedIn "Trans. & Proc. New Zealand Inst. lvii. 42 (1927) (1927)" .
+
+<https://www.ipni.org/n/812507-1> a :TaxonName ;
+    :taxonNameString "Veronica poppelwellii" ;
+    dwc:scientificNameAuthorship "Cockayne" ; 
+    dwc:namePublishedIn "Trans. & Proc. New Zealand Inst. 1915, xlviii. 200 (1916)" .
+
+<urn:isbn:978-0-909010-12-6> a bibo:Book ;
+    dcterms:bibliographicCitation """Bayly, M.; Kellow, A. (2006). An illustrated guide to 
+            New Zealand Hebes. Te Papa Press, Wellington, New Zealand.""" .
+```
 
 ### tcs:vernacularName
 
@@ -412,15 +449,19 @@ Synonymy is between names but, if the names have different nomenclatural types, 
 The `vernacularName` property can be used when a vernacular name is used  alongside a scientific name, which is the `taxonName`. If a vernacular name  is the only name, the `taxonName` property should be used. The object of the  `vernacularName` property can be a Taxon Name, but another label  object, such as the GBIF [Vernacular Name](https://rs.gbif.org/extension/gbif/1.0/vernacularname.xml),  might be preferrable, especially if there can be multiple vernacular names  for a concept.
 
 
-**Examples**
-
 ```turtle
+@prefix : <http://rs.tdwg.org/tcs/terms/> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dwc: <http://rs.tdwg.org/dwc/terms/> .
+@prefix gbif: <http://rs.gbif.org/terms/1.0/> .
+
 [] a :TaxonConcept ;
-    dcterms:title "Graphium macleayanum sec. Orr & Kitching (2010)"
+    dcterms:title "Graphium macleayanum sec. Orr & Kitching (2010)" ;
     :taxonName [ a :TaxonName ;
             :taxonNameString "Graphium macleayanum" ] ;
     :vernacularName [ a gbif:VernacularName ;
-            dwc:vernacularName "Macleay's Swallowtail" 
+            dwc:vernacularName "Macleay's Swallowtail" ;
             dcterms:language: "en" ] ;
     :accordingTo <urn:isbn:978-1-74175-108-6> .
 
@@ -429,51 +470,66 @@ The `vernacularName` property can be used when a vernacular name is used  alongs
             butterflies of Australia. Jacana Books, Crows Nest, Australia.""" .
 ```
 
+
 ```turtle
+@prefix : <http://rs.tdwg.org/tcs/terms/> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dwc: <http://rs.tdwg.org/dwc/terms/> .
+@prefix gbif: <http://rs.gbif.org/terms/1.0/> .
+
 [] a :TaxonConcept ;
     dcterms:title "Quercus robur sec. Duistermaat (2020)" ;
     :taxonName <https://www.ipni.org/n/304293-2> ;
     :vernacularName [ a gbif:VernacularName ;
             dwc:vernacularName "Zomereik" ;
             dcterms:language "nl" ] ;
-    :accordingTo [ <urn:isbn:978-90-01-58956-1> a bibo:Book ;
-            dcterms:bibliographicCitation """Duistermaat, H. (2020). Heukels 
-                    Flora van Nederland, edn 24. Noordhoff, Groningen.""" ] .
+    :accordingTo <urn:isbn:978-90-01-58956-1> .
 
 <https://www.ipni.org/n/304293-2> a :TaxonName ;
     :taxonNameString "Quercus robur" .
+
+<urn:isbn:978-90-01-58956-1> a bibo:Book ;
+    dcterms:bibliographicCitation """Duistermaat, H. (2020). Heukels 
+            Flora van Nederland, edn 24. Noordhoff, Groningen.""" .
 ```
 
+
 ```turtle
+@prefix : <http://rs.tdwg.org/tcs/terms/> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dwc: <http://rs.tdwg.org/dwc/terms/> .
+@prefix gbif: <http://rs.gbif.org/terms/1.0/> .
+
 <https://vicflora.rbg.vic.gov.au/flora/taxon/93c88fde-ab15-4a9a-a61d-3830a57a0160#2023-03-02> 
     a :TaxonConcept ;
     dcterms:title "Callitris verrucosa sec. VicFlora (2023-03-22)" ;
     :taxonName <https://www.ipni.org/n/134460-3> ;
     :vernacularName [ a gbif:VernacularName ; 
-            dwc:vernacularName "Scrub Cypress-pine" ;
-            dcterms:language "en" ;
-            gbif:isPreferredName: <http://rs.gbif.org/vocab/boolean/true> ] ;
-    :vernacularName [ a gbif:VernacularName ; 
-            dwc:vernacularName "Mallee Pine" ;
-            dcterms:language "en" ;
-            gbif:isPreferredName: <http://rs.gbif.org/vocab/boolean/false> ] ;
-    :vernacularName [ a gbif:VernacularName ; 
-            dwc:vernacularName "Cow Pine" ;
-            dcterms:language "en" ;
-            gbif:isPreferredName: <http://rs.gbif.org/vocab/boolean/false> ] ;
-    :vernacularName [ a gbif:VernacularName ; 
-            dwc:vernacularName "Turpentine Pine" ;
-            dcterms:language "en" ;
-            gbif:isPreferredName: <http://rs.gbif.org/vocab/boolean/false> ] ;
+        dwc:vernacularName "Scrub Cypress-pine" ;
+        dcterms:language "en" ;
+        gbif:isPreferredName: <http://rs.gbif.org/vocab/boolean/true> ] ,
+        [ a gbif:VernacularName ; 
+        dwc:vernacularName "Mallee Pine" ;
+        dcterms:language "en" ;
+        gbif:isPreferredName: <http://rs.gbif.org/vocab/boolean/false> ] ,
+        [ a gbif:VernacularName ; 
+        dwc:vernacularName "Cow Pine" ;
+        dcterms:language "en" ;
+        gbif:isPreferredName: <http://rs.gbif.org/vocab/boolean/false> ] ,
+        [ a gbif:VernacularName ; 
+        dwc:vernacularName "Turpentine Pine" ;
+        dcterms:language "en" ;
+        gbif:isPreferredName: <http://rs.gbif.org/vocab/boolean/false> ] ;
     :accordingTo [ a bibo:Website ;
-            dcterms:bibliographicCitation """VicFlora (2023). Flora of Victoria, 
-                    Royal Botanic Gardens Victoria. Available online: 
-                    https://vicflora.rbg.vic.gov.au (accessed on: 22 Mar. 2023).""" ].
+        dcterms:bibliographicCitation """VicFlora (2023). Flora of Victoria, 
+                Royal Botanic Gardens Victoria. Available online: 
+                https://vicflora.rbg.vic.gov.au (accessed on: 22 Mar. 2023).""" ] .
 
-<https://www.ipni.org/n/134460-3> a TaxonName ;
+<https://www.ipni.org/n/134460-3> a :TaxonName ;
     :taxonNameString "Callitris verrucosa" .
 ```
-
 
 ### dcterms:title
 
@@ -511,14 +567,6 @@ The `vernacularName` property can be used when a vernacular name is used  alongs
 
 In TCS `dcterms:title` is used for the taxonomic concept label (cf.  Senderov et al., 2018), which consists of the Taxon Name and a reference to  the publication where the concept is circumscribed, separated by 'sec.',  which stands for 'secundus' ('according to'). It is used to indicate one  specific meaning of a name – a Taxon Concept – rather than the cumulative  nomenclatural and taxonomic legacy associated with the name.
 
-
-
-**Examples**
-
-```
-Andropogon virginicus var. tenuis-patheus sec. Blomquist (1948)
-Perelleschus sec. Franz & Cardona-Duque (2013)
-```
 
 ## Taxon Concept Relationship
 
@@ -563,22 +611,24 @@ An extra controlled term `intersects` has been added to the Taxon Concept  Relat
 Taxon Concept Relationship statements can be made in the treatment of the  subject Taxon Concept or by third parties.
 
 
-**Examples**
-
 ```turtle
+@prefix : <http://rs.tdwg.org/tcs/terms/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+
 # Athyriaceae sec. Rothfels et al. (2012) is proper subset of Woodsiaceae sec. Smith et al. (2006)
 [] a :TaxonRelationship ; 
-    :relationshipType tcreltype:isProperSubsetOf ; 
+    :relationshipType <http://rs.tdwg.org/tcs-taxon-concept-relationship-type/values/isProperSubsetOf> ; 
     :subjectTaxonConcept [ a :TaxonConcept ; 
-            dcterms:title "Athyriaceae sec. Rothfels et al. (2012)" ;
-            :taxonName [ a :TaxonName ;
-                    :taxonNameString "Athyriaceae" ] ;
-            :accordingTo <https://doi.org/10.1002/tax.613003> ] ;
+        dcterms:title "Athyriaceae sec. Rothfels et al. (2012)" ;
+        :taxonName [ a :TaxonName ;
+        :taxonNameString "Athyriaceae" ] ;
+        :accordingTo <https://doi.org/10.1002/tax.613003> ] ;
     :objectTaxonConcept [ a :TaxonConcept ;
-            dcterms:title "Woodsiaceae sec. Smith et al. (2006)" ;
-            :taxonName [ a :TaxonName ;
-                    :taxonNameString "Woodsiaceae" ] ;
-            :accordingTo <https://doi.org/10.2307/25065646> ] ;
+        dcterms:title "Woodsiaceae sec. Smith et al. (2006)" ;
+        :taxonName [ a :TaxonName ;
+        :taxonNameString "Woodsiaceae" ] ;
+        :accordingTo <https://doi.org/10.2307/25065646> ] ;
     :relationshipAccordingTo <https://doi.org/10.1002/tax.613003> .
 
 <https://doi.org/10.1002/tax.613003> a bibo:AcademicArticle ;
@@ -593,24 +643,30 @@ Taxon Concept Relationship statements can be made in the treatment of the  subje
             55(3): 705-731.""" .
 ```
 
+
 ```turtle
+@prefix : <http://rs.tdwg.org/tcs/terms/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dwc: <http://rs.tdwg.org/dwc/terms/> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+
 # Dicranum fuscescens sec. Koperski et al. (2000) is congruent with Dicranum fuscescens sec. Corley 
 # et al. (1981)
 [] a :TaxonRelationship ;
-        :relationshipType tcreltype:isCongruentWith ; 
-        :subjectTaxonConcept [ a :TaxonConcept ;
-                dcterms:title "Dicranum fuscescens sec. Koperski et al. (2000)" ;
-                :taxonName <https://www.tropicos.org/name/35122385> ;
-                :accordingTo <https://www.tropicos.org/reference/9022656> ] ;
-        :objectTaxonConcept [ a :TaxonConcept ;
-                dcterms:title "Dicranum fuscescens sec. Corley et al. (1981)" ;
-                :taxonName <https://www.tropicos.org/name/35122385> ;
-                :accordingTo <https://www.tropicos.org/reference/9004554> ] ;
-        :raletionshipAccordingTo <https://www.tropicos.org/reference/9022656> .
+    :relationshipType <http://rs.tdwg.org/tcs-taxon-concept-relationship-type/values/isCongruentWith> ; 
+    :subjectTaxonConcept [ a :TaxonConcept ;
+        dcterms:title "Dicranum fuscescens sec. Koperski et al. (2000)" ;
+        :taxonName <https://www.tropicos.org/name/35122385> ;
+        :accordingTo <https://www.tropicos.org/reference/9022656> ] ;
+    :objectTaxonConcept [ a :TaxonConcept ;
+        dcterms:title "Dicranum fuscescens sec. Corley et al. (1981)" ;
+        :taxonName <https://www.tropicos.org/name/35122385> ;
+        :accordingTo <https://www.tropicos.org/reference/9004554> ] ;
+    :relationshipAccordingTo <https://www.tropicos.org/reference/9022656> .
 
 <https://www.tropicos.org/name/35122385> a :TaxonName ;
     :taxonNameString "Dicranum fuscescens" ;
-    dwc:scientificNameAuthorship "Turner" .        
+    dwc:scientificNameAuthorship "Turner" .
 
 <https://www.tropicos.org/reference/9022656> a bibo:Book ;
     dcterms:bibliographicCitation """Koperski, Monika; Sauer, Michael; Braun, Walter; Gradstein, S. 
@@ -619,22 +675,28 @@ Taxon Concept Relationship statements can be made in the treatment of the  subje
 
 <https://www.tropicos.org/reference/9004554> a bibo:AcademicArticle ;
     dcterms:bibliographicCitation """Corley, M.F.V.; Crundwell, A.C.; Düll, R.; Hill, M.O.; Smith, 
-    A.J.E. (1981). Mosses of Europe and the Azores; an annotated list of species, with synonyms from 
-    the recent literature. Journal of Bryology 11(4): 609-689.""" .
+            A.J.E. (1981). Mosses of Europe and the Azores; an annotated list of species, with synonyms from 
+            the recent literature. Journal of Bryology 11(4): 609-689.""" .
 ```
 
+
 ```turtle
+@prefix : <http://rs.tdwg.org/tcs/terms/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dwc: <http://rs.tdwg.org/dwc/terms/> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+
 # Phyllotrox sec. Franz & O'Brien (2001) partially overlaps Phyllotrox sec. Franz (2006)
 [] a :TaxonRelationship ;
-    :relationshipType tcreltype:partiallyOverlaps ;
+    :relationshipType <http://rs.tdwg.org/tcs-taxon-concept-relationship-type/values/partiallyOverlaps> ;
     :subjectTaxonConcept [ a :TaxonConcept ;
-            dcterms:title "Phyllotrox sec. Franz & O'Brien (2001)" ;
-            :taxonName _:n1 ;
-            :accordingTo <https://www.jstor.org/stable/25078744> ] ;
+        dcterms:title "Phyllotrox sec. Franz & O'Brien (2001)" ;
+        :taxonName _:n1 ;
+        :accordingTo <https://www.jstor.org/stable/25078744> ] ;
     :objectTaxonConcept [ a :TaxonConcept ; 
-            dcterms:title "Phyllotrox sec. Franz (2006)" ;
-            :taxonName _:n1 ;
-            :accordingTo <https://doi.org/10.1111/j.1365-3113.2005.00308.x> ] ;
+        dcterms:title "Phyllotrox sec. Franz (2006)" ;
+        :taxonName _:n1 ;
+        :accordingTo <https://doi.org/10.1111/j.1365-3113.2005.00308.x> ] ;
     :relationshipAccordingTo <https://doi.org/10.1111/cla.12042> .
 
 _:n1 a :TaxonName ;
@@ -647,7 +709,7 @@ _:n1 a :TaxonName ;
             Carludovica (Cyclanthaceae). Transactions of the American Entomological Society 127(2): 
             255-287""" .
 
-<https://doi.org/10.1111/j.1365-3113.2005.00308.x> a bibo: AcademicArticle ;
+<https://doi.org/10.1111/j.1365-3113.2005.00308.x> a bibo:AcademicArticle ;
     dcterms:bibliographicReference """Franz, Nico M. (2006). Towards a phylogenetic system of 
             derelomine flower weevils (Coleoptera: Curculionidae). Systematic Entomology 31(2): 
             220-287.""" .
@@ -656,7 +718,6 @@ _:n1 a :TaxonName ;
     dcterms:bibliographicCitation """Franz, Nico M. (2014). Anatomy of a cladistic analysis. 
             Cladistics 30(3): 294-321.""" .
 ```
-
 
 ### tcs:relationshipType
 
@@ -852,28 +913,38 @@ In the case of Taxon Concept Relationships from traditional synonymy, the  `rela
 The word 'name' here is taken in its dictionary meaning and not in the  sense of a particular nomenclatural code. This means that the Taxon Name  class can be used for any type of name, not just names that are validly  published under the relevant nomenclatural code.
 
 
-**Examples**
-
 ```turtle
+@prefix : <http://rs.tdwg.org/tcs/terms/> .
+@prefix dwc: <http://rs.tdwg.org/dwc/terms/> .
+
 <urn:lsid:zoobank.org:act:355AAA50-D89F-466E-A216-96B7A17D5AD4> a :TaxonName ;
-    :taxonNameString "Carabus nitens"
+    :taxonNameString "Carabus nitens" ;
     dwc:scientificNameAuthorship "Linnaeus, 1758" .
 ```
 
+
 ```turtle
+@prefix : <http://rs.tdwg.org/tcs/terms/> .
+@prefix dwc: <http://rs.tdwg.org/dwc/terms/> .
+
 <https://www.ipni.org/n/316069-1> a :TaxonName ;
     :taxonNameString "Rafflesia arnoldii" ;
     dwc:scientificNameAuthorship "R.Br." ;
     dwc:namePublishedIn "Account Rafflesia 7, tt. 15-22 (1821)" .
+
 ```
 
+
 ```turtle
+@prefix : <http://rs.tdwg.org/tcs/terms/> .
+@prefix dwc: <http://rs.tdwg.org/dwc/terms/> .
+
 <http://www.indexfungorum.org/names/NamesRecord.asp?RecordID=178962> a :TaxonName ;
     :taxonNameString "Amanita phalloides" ;
     dwc:scientificNameAuthorship "(Vaill. ex Fr.) Link" ;
     dwc:namePublishedIn "Handb. Erk. Gew. 3: 272 (1833)" .
-```
 
+```
 
 ### tcs:taxonNameString
 
@@ -1116,21 +1187,44 @@ This is the IRI equivalent of the Darwin Core `nomenclaturalStatus`. In the  abs
 A basionym is the epithet-bringing name.  The `basionym` property is only  used for new combinations ('comb. nov.'). If the new name is an avowed  substitute ('nom. nov.') the `replacementNameFor` property should be used  instead.
 
 
-**Examples**
-
 ```turtle
-<https://id.biodiversity.org.au/name/apni/166271> a TaxonName ;
+@prefix : <http://rs.tdwg.org/tcs/terms/> .
+@prefix dwc: <http://rs.tdwg.org/dwc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<https://id.biodiversity.org.au/name/apni/166271> a :TaxonName ;
     rdf:seeAlso <https://www.ipni.org/n/17571690-1> ;
     :taxonNameString "Doodia australis" ;
     dwc:scientificNameAuthorship "(Parris) Parris" ;
     dwc:namePublishedIn "Fl. Australia 48: 710 (1998)" ;
-    :basionym [ <https://id.biodiversity.org.au/name/apni/117170> a :TaxonName ;
-            rdf:seeAlso <https://www.ipni.org/n/17567870-1> ;
-            :taxonNameString "Doodia media subsp. australis" ;
-            dwc:scientificNameAuthorship "Parris" ;
-            dwc:namePublishedIn "New Zealand J. Bot. 10(4): 593 (1972)" ] .
+    :basionym <https://id.biodiversity.org.au/name/apni/117170> .
+
+<https://id.biodiversity.org.au/name/apni/117170> a :TaxonName ;
+    rdf:seeAlso <https://www.ipni.org/n/17567870-1> ;
+    :taxonNameString "Doodia media subsp. australis" ;
+    dwc:scientificNameAuthorship "Parris" ;
+    dwc:namePublishedIn "New Zealand J. Bot. 10(4): 593 (1972)" .
 ```
 
+
+```turtle
+@prefix : <http://rs.tdwg.org/tcs/terms/> .
+@prefix dwc: <http://rs.tdwg.org/dwc/terms/> .
+
+[] a :TaxonName ;
+    :taxonNameString "Osphranter rufus" ;
+    dwc:scientificNameAuthorship "(Desmaret, 1882)" ;
+    :basionym _:b1 .
+
+[] a :TaxonName ;
+    :taxonNameString "Macropus rufus" ;
+    dwc:scientificNameAuthorship "(Desmaret, 1882)" ;
+    :basionym: _:b1 .
+
+_:b1 a :TaxonName ;
+    :taxonNameString "Kangurus rufus" ;
+    dwc:scientificNameAuthorship "Desmaret, 1882" .
+```
 
 ### tcs:replacementNameFor
 
@@ -1170,7 +1264,7 @@ A basionym is the epithet-bringing name.  The `basionym` property is only  used 
 
 **Comments**
 
-This is the 'replaced synonym' of the Botanical Code, which is to an avowed  substitute ('nom. nov.') what 'basionym' is to a new combination  ('comb. nov.')
+In the Zoological Code, a 'replacement name' is a name established to replace  an already established name. The term used in the Botanical Code is 'avowed  substitute'. In both Codes (maybe all nomenclatural codes) the latin term  'nomen novum' (nom. nov.) is used as well. In the Botanical Code,  `replacementNameFor` is a 'replaced synonym', which is to an avowed  substitute ('nom. nov.') what 'basionym' is to a new combination  ('comb. nov.').
 
 ### tcs:conservedAgainst
 
@@ -1210,7 +1304,36 @@ This is the 'replaced synonym' of the Botanical Code, which is to an avowed  sub
 
 **Comments**
 
-A scientific name is not conserved against all other names, but only  against one or more names that in turn are rejected against the conserved  name. A name can be conserved against more than one other name, so this  property is repeatable.
+A scientific name at and below the rank of family is not conserved against  all other names, but only against one or more names that in turn are  rejected against the conserved name. A name can be conserved against more  than one other name, so this property is repeatable.
+
+
+```turtle
+@prefix : <http://rs.tdwg.org/tcs/terms/> .
+@prefix dwc: <http://rs.tdwg.org/dwc/terms/> .
+
+<https://www.tropicos.org/name/35000378> a :TaxonName ;
+    :taxonNameString "Dicranoloma" ;
+    dwc:scientificNameAuthorship "(Renauld) Renauld" ;
+    :namePublishedInYear "1909" ;
+    :basionym <https://www.tropicos.org/name/35154778> ;
+    :conservedAgainst <https://www.tropicos.org/name/35000771> ,
+            <https://www.tropicos.org/name/35000146> .
+
+<https://www.tropicos.org/name/35154778> a :TaxonName ;
+    :taxonNameString "Leucoloma subg. Dicranoloma" ;
+    dwc:scientificNameAuthorship "Renauld" ;
+    :namePublishedInYear "1898" .
+
+<https://www.tropicos.org/name/35000771> a :TaxonName ;
+    :taxonNameString "Megalostylium" ;
+    dwc:scientificNameAuthorship "Dozy & Molk." ;
+    dwc:namePublishedInYear "1848" . 
+
+<https://www.tropicos.org/name/35000146> a :TaxonName ;
+    :taxonNameString "Braunfelsia" ;
+    dwc:scientificNameAuthorship "Paris" ;
+    dwc:namePublishedInYear "1894" .
+```
 
 ### dwc:scientificNameAuthorship
 
