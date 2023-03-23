@@ -1,0 +1,16 @@
+@prefix : <http://rs.tdwg.org/tcs/terms/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dwc: <http://rs.tdwg.org/dwc/terms/> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+
+<https://www.catalogueoflife.org/data/taxon/KF8T#v2022-11-14> a :TaxonConcept ;
+    dcterms:title "Balaenoptera musculus sec. Catalogue of Life (v2022-11-14)" ;
+    :taxonName [ a :TaxonName ;
+            :taxonNameString "Balaenoptera musculus" ;
+            dwc:scientificNameAuthorship "(Linnaeus, 1758)" ] ;
+    :accordingTo <https://www.catalogueoflife.org#v2022-11-14> .
+
+<https://www.catalogueoflife.org#v2022-11-14> a bibo:Website ;
+    dcterms:isVersionOf "https://www.catalogueoflife.org" ;
+    dcterms:title "Catalogue of Life, version 2022-11-14" ;
+    bibo:uri "https://www.catalogueoflife.org" .

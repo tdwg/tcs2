@@ -1,0 +1,32 @@
+@prefix : <http://rs.tdwg.org/tcs/terms/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dwc: <http://rs.tdwg.org/dwc/terms/> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+
+# Dicranum fuscescens sec. Koperski et al. (2000) is congruent with Dicranum fuscescens sec. Corley 
+# et al. (1981)
+[] a :TaxonRelationship ;
+    :relationshipType <http://rs.tdwg.org/tcs-taxon-concept-relationship-type/values/isCongruentWith> ; 
+    :subjectTaxonConcept [ a :TaxonConcept ;
+        dcterms:title "Dicranum fuscescens sec. Koperski et al. (2000)" ;
+        :taxonName <https://www.tropicos.org/name/35122385> ;
+        :accordingTo <https://www.tropicos.org/reference/9022656> ] ;
+    :objectTaxonConcept [ a :TaxonConcept ;
+        dcterms:title "Dicranum fuscescens sec. Corley et al. (1981)" ;
+        :taxonName <https://www.tropicos.org/name/35122385> ;
+        :accordingTo <https://www.tropicos.org/reference/9004554> ] ;
+    :relationshipAccordingTo <https://www.tropicos.org/reference/9022656> .
+
+<https://www.tropicos.org/name/35122385> a :TaxonName ;
+    :taxonNameString "Dicranum fuscescens" ;
+    dwc:scientificNameAuthorship "Turner" .
+
+<https://www.tropicos.org/reference/9022656> a bibo:Book ;
+    dcterms:bibliographicCitation """Koperski, Monika; Sauer, Michael; Braun, Walter; Gradstein, S. 
+            Rob (2000). Referenzliste der Moose Deuthschlands. Schriftenreihe für Vegetationskunde 
+            34. Bundersamt für Naturschutz, Bonn-Bad Godesberg.""" .
+
+<https://www.tropicos.org/reference/9004554> a bibo:AcademicArticle ;
+    dcterms:bibliographicCitation """Corley, M.F.V.; Crundwell, A.C.; Düll, R.; Hill, M.O.; Smith, 
+            A.J.E. (1981). Mosses of Europe and the Azores; an annotated list of species, with synonyms from 
+            the recent literature. Journal of Bryology 11(4): 609-689.""" .

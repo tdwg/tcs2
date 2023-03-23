@@ -1,0 +1,16 @@
+@prefix : <http://rs.tdwg.org/tcs/terms/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+
+[] a :TaxonConcept ;
+dcterms:title "Orthetrum caledonicum sec. Theischinger and Hawking (2010)" ;
+    :taxonName [ a :TaxonName ; 
+            :taxonNameString "Orthetrum caledonicum" ] ;
+    :vernacularName [ a :TaxonName ;
+            :taxonNameString "Blue Skimmer" ] ;
+    :accordingTo <urn:isbn:978-0-643-09073-6> .
+
+<urn:isbn:978-0-643-09073-6> a bibo:Book ;
+    dcterms:bibliographicCitation """Theischinger, G.; Hawking, J. (2010). 
+            The complete field guide to dragonflies of Australia. CSIRO 
+            Publishing, Collingwood, Australia.""" .

@@ -1,0 +1,29 @@
+@prefix : <http://rs.tdwg.org/tcs/terms/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+
+# Athyriaceae sec. Rothfels et al. (2012) is proper subset of Woodsiaceae sec. Smith et al. (2006)
+[] a :TaxonRelationship ; 
+    :relationshipType <http://rs.tdwg.org/tcs-taxon-concept-relationship-type/values/isProperSubsetOf> ; 
+    :subjectTaxonConcept [ a :TaxonConcept ; 
+        dcterms:title "Athyriaceae sec. Rothfels et al. (2012)" ;
+        :taxonName [ a :TaxonName ;
+        :taxonNameString "Athyriaceae" ] ;
+        :accordingTo <https://doi.org/10.1002/tax.613003> ] ;
+    :objectTaxonConcept [ a :TaxonConcept ;
+        dcterms:title "Woodsiaceae sec. Smith et al. (2006)" ;
+        :taxonName [ a :TaxonName ;
+        :taxonNameString "Woodsiaceae" ] ;
+        :accordingTo <https://doi.org/10.2307/25065646> ] ;
+    :relationshipAccordingTo <https://doi.org/10.1002/tax.613003> .
+
+<https://doi.org/10.1002/tax.613003> a bibo:AcademicArticle ;
+    dcterms:bibliographicCitation """Rothfels, Carl J.; Sundue, Michael A.; Kuo, Li-Yaung; Larsson, 
+            Anders; Kato, Masahiro; Schuettpelz, Eric; Pryer, Kathleen M. (2012). A revised 
+            family–level classification for eupolypod II ferns (Polypodiidae: Polypodiales). Taxon 
+            61(3): 515-533.""" .
+
+<https://doi.org/10.2307/25065646> a bibo:AcademicArticle ;
+    dcterms:bibliographicCitation """Smith, Alan R.; Pryer, Kathleen M.; Schuettpelz, Eric; Korall, 
+            Petra; Schneider, Harald; Wolf, Paul G. (2006). A classification for extant ferns. Taxon 
+            55(3): 705-731.""" .

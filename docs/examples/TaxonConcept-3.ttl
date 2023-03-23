@@ -1,0 +1,18 @@
+@prefix : <http://rs.tdwg.org/tcs/terms/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dwc: <http://rs.tdwg.org/dwc/terms/> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+
+[] a :TaxonConcept ;
+    dcterms:title "Calymperes moluccense sec. Yong et al. (2013)" ;
+    :taxonName <https://www.tropicos.org/name/35153806> ;
+    :accordingTo <urn:isbn:978-967-5221-99-6> .
+
+<https://www.tropicos.org/name/35153806> a :TaxonName ;
+    :taxonNameString "Calymperes moluccense" ;
+    dwc:scientificNameAuthorship "Schwägr." .
+
+<urn:isbn:978-967-5221-99-6> a bibo:Book ;
+    dcterms:bibliographicCitation """Yong, K.T.; Tan, B.C.; Ho, B.C.; Ho, Q.Y.; Mohamed, H.
+            A revised Moss Checklist of Peninsular Malaysia and Singapore. Research 
+            Pamphlet no. 133, Forest Research Institute Malaysia, Kepong, Malaysia.""" .

@@ -38,7 +38,12 @@
 
     By contrast, assertions of synonymy or misapplication and entries in lists 
     of nomenclatural types are not Taxon Concepts.
-  examples: "TaxonConcept.md"
+  examples: 
+    - TaxonConcept-1
+    - TaxonConcept-2
+    - TaxonConcept-3
+    - TaxonConcept-4
+    - TaxonConcept-5
   type: http://www.w3.org/2000/01/rdf-schema#Class
   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonConcept
   required: null
@@ -157,7 +162,8 @@
     one wants to include these “original concepts” and indicate a relationship 
     between Taxon Concepts, the `intersects` Taxon Concept Relationship can be 
     used instead.
-  examples: "TaxonConcept-synonym.md"
+  examples: 
+    - TaxonConcept-synonym
   type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonConcept
   required: No
@@ -181,7 +187,10 @@
     object, such as the GBIF [Vernacular Name](https://rs.gbif.org/extension/gbif/1.0/vernacularname.xml), 
     might be preferrable, especially if there can be multiple vernacular names 
     for a concept.
-  examples: "TaxonConcept-vernacularName.md"
+  examples: 
+    - TaxonConcept-vernacularName-1
+    - TaxonConcept-vernacularName-2
+    - TaxonConcept-vernacularName-3
   type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonConcept
   required: No
@@ -192,7 +201,10 @@
 - localName: TaxonConceptRelationship
   label: Taxon Concept Relationship
   definition: Topological relationship between two Taxon Concepts.
-  examples: "TaxonConceptRelationship.md"
+  examples: 
+    - TaxonConceptRelationship-1
+    - TaxonConceptRelationship-2
+    - TaxonConceptRelationship-3
   usage: >-
     `relationshipType`, `subjectTaxonConcept`, `objectTaxonConcept` and 
     `relationshipAccordingTo` are all required.
@@ -296,7 +308,10 @@
     sense of a particular nomenclatural code. This means that the Taxon Name 
     class can be used for any type of name, not just names that are validly 
     published under the relevant nomenclatural code.
-  examples: "TaxonName.md"
+  examples: 
+    - TaxonName-1
+    - TaxonName-2
+    - TaxonName-3
   type: http://www.w3.org/2000/01/rdf-schema#Class
   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonName
   required: null
@@ -412,7 +427,9 @@
     used for new combinations ('comb. nov.'). If the new name is an avowed 
     substitute ('nom. nov.') the `replacementNameFor` property should be used 
     instead.
-  examples: "TaxonName-basionym.md"
+  examples: 
+    - TaxonName-basionym-1
+    - TaxonName-basionym-2
   required: No
   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonName
   repeatable: No
@@ -427,9 +444,13 @@
     `replacementNameFor` is another Taxon Name; a Taxon Name can have only one 
     `replaccementNameFor`.
   notes: >-
-    This is the 'replaced synonym' of the Botanical Code, which is to an avowed 
+    In the Zoological Code, a 'replacement name' is a name established to replace 
+    an already established name. The term used in the Botanical Code is 'avowed 
+    substitute'. In both Codes (maybe all nomenclatural codes) the latin term 
+    'nomen novum' (nom. nov.) is used as well. In the Botanical Code, 
+    `replacementNameFor` is a 'replaced synonym', which is to an avowed 
     substitute ('nom. nov.') what 'basionym' is to a new combination 
-    ('comb. nov.')
+    ('comb. nov.').
   type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonName
   required: No
@@ -444,10 +465,12 @@
     The `conservedAgainst` property takes another Taxon Name; a Taxon Name can 
     be conserved against more than one other Taxon Names.
   notes: >-
-    A scientific name is not conserved against all other names, but only 
-    against one or more names that in turn are rejected against the conserved 
-    name. A name can be conserved against more than one other name, so this 
-    property is repeatable.
+    A scientific name at and below the rank of family is not conserved against 
+    all other names, but only against one or more names that in turn are 
+    rejected against the conserved name. A name can be conserved against more 
+    than one other name, so this property is repeatable.
+  examples:
+    - TaxonName-conservedAgainst
   type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonName
   required: No
