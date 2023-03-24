@@ -450,6 +450,55 @@ Synonymy is between names but, if the names have different nomenclatural types, 
 
 
 ```turtle
+[]  a :TaxonConcept ;
+    dcterms:title "Dicranoloma blumei sec. Klazenga (1999)" ;
+    :taxonName <https://www.tropicos.org/name/35121475> ;
+	  :synonym <https://www.tropicos.org/name/35121973> , 
+			      <https://www.tropicos.org/name/35121484> ;
+    :accordingTo <https://www.tropicos.org/reference/9020903> .
+
+<https://www.tropicos.org/name/35121475> a :TaxonName ;
+    :taxonNameString "Dicranoloma blumei" ;
+    dwc:scientificNameAuthorship "(Nees) Renauld" ;
+	  :basionym <https://www.tropicos.org/name/35121972> .
+
+<https://www.tropicos.org/name/35121972> a :TaxonName ;
+	  :taxonNameString "Dicranum blumei" ;
+	  dwc:scientificNameAuthorship "Nees" . 
+
+<https://www.tropicos.org/name/35154856> a :TaxonName ;
+	  :taxonNameString "Leucoloma blumei" ;
+	  dwc:scientificNameAuthorship "(Nees) Broth." ; 
+	  :basionym <https://www.tropicos.org/name/35121972> .
+
+<https://www.tropicos.org/name/35121973> a :TaxonName ;
+	  :taxonNameString "Dicranum blumei var. laxifolium" ;
+	  dwc:scientificNameAuthorship "Broth. & Geh." . 
+
+<https://www.tropicos.org/name/35121484> a :TaxonName ;
+	  :taxonNameString "Dicranoloma braunfelsioides" ;
+	  dwc:scientificNameAuthorship "Herzog" . 
+
+<https://www.tropicos.org/reference/9020903> a bibo:AcademicArticle ;
+    dcterms:bibliographicCitation """Klazenga, N. (1999). A revision of the 
+            Malesian species of Dicranoloma (Dicranaceae, Musci). Journal of the 
+            Hattori Botanical Laboratory 87: 1-130.""" .
+
+# Example shows both homotypic and heterotypic synonyms:
+# 
+# Dicranoloma blumei, Dicranum blumei and Leucoloma blumei are homotypic 
+# synonyms and are linked through the basionym (Dicranum blumei is the basionym 
+# of Dicranoloma blumei and Leucoloma blumei).
+# 
+# Dicranum blumei var. laxifolium and Dicranoloma braunfelsioides are 
+# heterotypic synonyms of Dicranoloma blumei (according to this publication) and 
+# are provided using the `synonym` property.
+```
+
+[&lsqb;TaxonConcept-synonym-1.ttl&rsqb;](examples/TaxonConcept-synonym-1.ttl)
+
+
+```turtle
 [] a :TaxonConcept ;
     dcterms:title "Hebe imbricata sec. Bayly & Kellow (2006)" ;
     :taxonName <https://www.ipni.org/n/989261-1> ;
@@ -471,7 +520,7 @@ Synonymy is between names but, if the names have different nomenclatural types, 
             New Zealand Hebes. Te Papa Press, Wellington, New Zealand.""" .
 ```
 
-[&lsqb;TaxonConcept-synonym.ttl&rsqb;](examples/TaxonConcept-synonym.ttl)
+[&lsqb;TaxonConcept-synonym-2.ttl&rsqb;](examples/TaxonConcept-synonym-2.ttl)
 
 ### tcs:vernacularName
 

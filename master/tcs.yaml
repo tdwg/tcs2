@@ -167,7 +167,8 @@
     between Taxon Concepts, the `intersects` Taxon Relationship can be 
     used instead.
   examples: 
-    - TaxonConcept-synonym
+    - TaxonConcept-synonym-1
+    - TaxonConcept-synonym-2
   type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonConcept
   required: No
