@@ -454,30 +454,48 @@ Synonymy is between names but, if the names have different nomenclatural types, 
     dcterms:title "Dicranoloma blumei sec. Klazenga (1999)" ;
     :taxonName <https://www.tropicos.org/name/35121475> ;
     :synonym <https://www.tropicos.org/name/35121973> , 
-            <https://www.tropicos.org/name/35121484> ;
+            <https://www.tropicos.org/name/35121477> ,
+            <https://www.tropicos.org/name/35121484> ,
+            <https://www.tropicos.org/name/35188177> ;
     :accordingTo <https://www.tropicos.org/reference/9020903> .
 
 <https://www.tropicos.org/name/35121475> a :TaxonName ;
     :taxonNameString "Dicranoloma blumei" ;
     dwc:scientificNameAuthorship "(Nees) Renauld" ;
+    dwc:namePublishedIn "Rev. Bryol. 28(4): 69 (1901)" ;
     :basionym <https://www.tropicos.org/name/35121972> .
 
 <https://www.tropicos.org/name/35121972> a :TaxonName ;
     :taxonNameString "Dicranum blumei" ;
-    dwc:scientificNameAuthorship "Nees" . 
+    dwc:scientificNameAuthorship "Nees" ; 
+    dwc:namePublishedIn """Nova Acta Phys.-Med. Acad. Caes. Leop.-Carol. Nat. 
+            Cur. 11(1): 131 (1823)""" .
 
 <https://www.tropicos.org/name/35154856> a :TaxonName ;
     :taxonNameString "Leucoloma blumei" ;
     dwc:scientificNameAuthorship "(Nees) Broth." ; 
+    dwc:namePublishedIn "Nat. Pflanzenfam. I(3): 322 (1901)" .
     :basionym <https://www.tropicos.org/name/35121972> .
 
 <https://www.tropicos.org/name/35121973> a :TaxonName ;
     :taxonNameString "Dicranum blumei var. laxifolium" ;
-    dwc:scientificNameAuthorship "Broth. & Geh." . 
+    dwc:scientificNameAuthorship "Broth. & Geh." ;
+    dwc:namePublishedIn "Biblioth. Bot. 44: 4 (1898)" 
+
+<https://www.tropicos.org/name/35121477> a :TaxonName ;
+    :taxonNameString "Dicranoloma blumei var. papillisetum" ;
+    dwc:scientificNameAuthorship "M. Fleisch." ;
+    dwc:namePublishedIn "Nova Guinea 12(2): 112 (1914)" .
+
+<https://www.tropicos.org/name/35188177> a :TaxonName ;
+    :taxonNameString "Dicranoloma blumei fo. subintegrum" ;
+    dwc:scientificNameAuthorship "Dixon" ;
+    dwc:namePublishedIn "J. Bot. 80: 4 (1942)" .
 
 <https://www.tropicos.org/name/35121484> a :TaxonName ;
     :taxonNameString "Dicranoloma braunfelsioides" ;
-    dwc:scientificNameAuthorship "Herzog" . 
+    dwc:scientificNameAuthorship "Herzog" ;
+    dwc:namePublishedIn "Hedwigia 61: 288 (1919)" . 
 
 <https://www.tropicos.org/reference/9020903> a bibo:AcademicArticle ;
     dcterms:bibliographicCitation """Klazenga, N. (1999). A revision of the 
@@ -490,7 +508,8 @@ Synonymy is between names but, if the names have different nomenclatural types, 
 # synonyms and are linked through the basionym (Dicranum blumei is the basionym 
 # of Dicranoloma blumei and Leucoloma blumei).
 # 
-# Dicranum blumei var. laxifolium and Dicranoloma braunfelsioides are 
+# Dicranum blumei var. laxifolium, Dicranoloma blumei var. papillisetum, 
+# Dicranoloma braunfelsioides and Dicranoloma blumei f. subintegrum are 
 # heterotypic synonyms of Dicranoloma blumei (according to this publication) and 
 # are provided using the `synonym` property.
 ```
