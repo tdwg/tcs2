@@ -349,6 +349,20 @@ _:b1 a foaf:Person ;
 
 [&lsqb;TaxonConcept-accordingTo-2.ttl&rsqb;](examples/TaxonConcept-accordingTo-2.ttl)
 
+
+```turtle
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+# Checklist (object of property only)
+<urn:isbn:978-967-5221-99-6> a bibo:Book ;
+    dcterms:bibliographicCitation """Yong, K.T.; Tan, B.C.; Ho, B.C.; Ho, Q.Y.; Mohamed, H. (2013). 
+            A revised moss checklist of Peninsular Malaysia and Singapore. Research Pamphlet no. 
+            133. Forest Research Institute Malaysia, Kepong, Selangor, Malaysia.""" .
+```
+
+[&lsqb;TaxonConcept-accordingTo-3.ttl&rsqb;](examples/TaxonConcept-accordingTo-3.ttl)
+
 ### tcs:taxonomicRank
 
 <table style="width:100%;">

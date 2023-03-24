@@ -102,6 +102,7 @@
   examples: 
     - TaxonConcept-accordingTo-1
     - TaxonConcept-accordingTo-2
+    - TaxonConcept-accordingTo-3
   type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonConcept
   required: Yes
