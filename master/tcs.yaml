@@ -312,6 +312,7 @@
     - TaxonName-1
     - TaxonName-2
     - TaxonName-3
+    - TaxonName-4
   type: http://www.w3.org/2000/01/rdf-schema#Class
   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonName
   required: null
@@ -490,6 +491,8 @@
     contains the type. One or more Nomenclatural Types make up the typification 
     of a Taxon Name. In Darwin Core RDF, NomenclaturalType can be used as object 
     with `dwciri:typeStatus`.
+  examples: 
+    - NomenclaturalType
   type: http://www.w3.org/2000/01/rdf-schema#Class
   organizedInClass: http://rs.tdwg.org/tcs/terms/NomenclaturalType
   repeatable: null

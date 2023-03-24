@@ -1,0 +1,18 @@
+@prefix : <http://rs.tdwg.org/tcs/terms/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dwc: <http://rs.tdwg.org/dwc/terms/> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+
+# Example from TCS 1
+<https://www.ipni.org/n/50985479-1> a :TaxonName ;
+    :nomenclaturalCode <http://rs.gbif.org/vocabulary/gbif/nomenclatural_code/ICN> ;
+    :taxonomicNameString "Rhododendron sect. Sciadorhodion" ;
+    dwc:scientificNameAuthorship "Rehder & Wilson" ;
+    dwc:namePublishedIn "Monogr. Azaleas 79 (1921)" ;
+    :namePublishedIn [ a bibo:Book ;
+    	  dcterms:bibliographicCitation """Wilson, E.H. & Rehder, A. (1921). A monograph of 
+        		    the azaleas. Publication of the Arnold Arboretum No. 9 Harvard University, 
+                Cambridge MA.""" ] ;
+    :microReference "79" ;
+    dwc:genericName "Rhododendron" ;
+    dwc:infragenericName "Sciadorhodion" .
