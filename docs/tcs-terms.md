@@ -74,11 +74,6 @@ By contrast, assertions of synonymy or misapplication and entries in lists  of n
 
 
 ```turtle
-@prefix : <http://rs.tdwg.org/tcs/terms/> .
-@prefix dcterms: <http://purl.org/dc/terms/> .
-@prefix dwc: <http://rs.tdwg.org/dwc/terms/> .
-@prefix bibo: <http://purl.org/ontology/bibo/> .
-
 []  a :TaxonConcept ;
     dcterms:title "Dicranoloma blumei sec. Klazenga (1999)" ;
     :taxonName <https://www.tropicos.org/name/35121475> ;
@@ -92,17 +87,12 @@ By contrast, assertions of synonymy or misapplication and entries in lists  of n
     dcterms:bibliographicCitation """Klazenga, N. (1999). A revision of the 
             Malesian species of Dicranoloma (Dicranaceae, Musci). Journal of the 
             Hattori Botanical Laboratory 87: 1-130.""" .
-
 ```
 
 [&lsqb;TaxonConcept-1.ttl&rsqb;](examples/TaxonConcept-1.ttl)
 
 
 ```turtle
-@prefix : <http://rs.tdwg.org/tcs/terms/> .
-@prefix dcterms: <http://purl.org/dc/terms/> .
-@prefix bibo: <http://purl.org/ontology/bibo/> .
-
 [] a :TaxonConcept ;
 dcterms:title "Orthetrum caledonicum sec. Theischinger and Hawking (2010)" ;
     :taxonName [ a :TaxonName ; 
@@ -121,11 +111,6 @@ dcterms:title "Orthetrum caledonicum sec. Theischinger and Hawking (2010)" ;
 
 
 ```turtle
-@prefix : <http://rs.tdwg.org/tcs/terms/> .
-@prefix dcterms: <http://purl.org/dc/terms/> .
-@prefix dwc: <http://rs.tdwg.org/dwc/terms/> .
-@prefix bibo: <http://purl.org/ontology/bibo/> .
-
 [] a :TaxonConcept ;
     dcterms:title "Calymperes moluccense sec. Yong et al. (2013)" ;
     :taxonName <https://www.tropicos.org/name/35153806> ;
@@ -145,11 +130,6 @@ dcterms:title "Orthetrum caledonicum sec. Theischinger and Hawking (2010)" ;
 
 
 ```turtle
-@prefix : <http://rs.tdwg.org/tcs/terms/> .
-@prefix dcterms: <http://purl.org/dc/terms/> .
-@prefix dwc: <http://rs.tdwg.org/dwc/terms/> .
-@prefix bibo: <http://purl.org/ontology/bibo/> .
-
 <https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:105644-1> a :TaxonConcept ;
     dcterms:title "Begonia salaziensis sec. POWO (2022)" ;
     :taxonName <https://www.ipni.org/n/105644-1> ;
@@ -169,11 +149,6 @@ dcterms:title "Orthetrum caledonicum sec. Theischinger and Hawking (2010)" ;
 
 
 ```turtle
-@prefix : <http://rs.tdwg.org/tcs/terms/> .
-@prefix dcterms: <http://purl.org/dc/terms/> .
-@prefix dwc: <http://rs.tdwg.org/dwc/terms/> .
-@prefix bibo: <http://purl.org/ontology/bibo/> .
-
 <https://www.catalogueoflife.org/data/taxon/KF8T#v2022-11-14> a :TaxonConcept ;
     dcterms:title "Balaenoptera musculus sec. Catalogue of Life (v2022-11-14)" ;
     :taxonName [ a :TaxonName ;
@@ -278,10 +253,6 @@ The value of `accordingTo` has to be an object or IRI. This object can  contain 
 
 
 ```turtle
-@prefix bibo: <http://purl.org/ontology/bibo/> .
-@prefix dcterms: <http://purl.org/dc/terms/> .
-@prefix foaf: <http://xmlns.com/foaf/0.1/> .
-
 # Taxonomic article (object of property only)
 <https://doi.org/10.1080/14772000.2013.806371> a bibo:AcademicArticle ;
     dcterms:creator <https://orcid.org/0000-0001-7089-7018>,
@@ -314,18 +285,12 @@ The value of `accordingTo` has to be an object or IRI. This object can  contain 
 <https://orcid.org/0000-0002-2469-8162> a foaf:Person ;
     foaf:givenName "Juliana" ;
     foaf:surname "Cardona-Duque*" .
-
 ```
 
 [&lsqb;TaxonConcept-accordingTo-1.ttl&rsqb;](examples/TaxonConcept-accordingTo-1.ttl)
 
 
 ```turtle
-@prefix address: <http://schemas.talis.com/2005/address/schema#> .
-@prefix bibo: <http://purl.org/ontology/bibo/> .
-@prefix dcterms: <http://purl.org/dc/terms/> .
-@prefix foaf: <http://xmlns.com/foaf/0.1/> .
-
 # Field guide (object of property only)
 <urn:isbn:978-0-307-95790-0> a bibo:Book ;
     dcterms:title "The Sibley guide to birds" ;
@@ -351,9 +316,6 @@ _:b1 a foaf:Person ;
 
 
 ```turtle
-@prefix bibo: <http://purl.org/ontology/bibo/> .
-@prefix dcterms: <http://purl.org/dc/terms/> .
-
 # Checklist (object of property only)
 <urn:isbn:978-967-5221-99-6> a bibo:Book ;
     dcterms:bibliographicCitation """Yong, K.T.; Tan, B.C.; Ho, B.C.; Ho, Q.Y.; Mohamed, H. (2013). 
@@ -488,11 +450,6 @@ Synonymy is between names but, if the names have different nomenclatural types, 
 
 
 ```turtle
-@prefix : <http://rs.tdwg.org/tcs/terms/> .
-@prefix dcterms: <http://purl.org/dc/terms/> .
-@prefix dwc: <http://rs.tdwg.org/dwc/terms/> .
-@prefix bibo: <http://purl.org/ontology/bibo/> .
-
 [] a :TaxonConcept ;
     dcterms:title "Hebe imbricata sec. Bayly & Kellow (2006)" ;
     :taxonName <https://www.ipni.org/n/989261-1> ;
@@ -561,12 +518,6 @@ The `vernacularName` property can be used when a vernacular name is used  alongs
 
 
 ```turtle
-@prefix : <http://rs.tdwg.org/tcs/terms/> .
-@prefix bibo: <http://purl.org/ontology/bibo/> .
-@prefix dcterms: <http://purl.org/dc/terms/> .
-@prefix dwc: <http://rs.tdwg.org/dwc/terms/> .
-@prefix gbif: <http://rs.gbif.org/terms/1.0/> .
-
 [] a :TaxonConcept ;
     dcterms:title "Graphium macleayanum sec. Orr & Kitching (2010)" ;
     :taxonName [ a :TaxonName ;
@@ -585,12 +536,6 @@ The `vernacularName` property can be used when a vernacular name is used  alongs
 
 
 ```turtle
-@prefix : <http://rs.tdwg.org/tcs/terms/> .
-@prefix bibo: <http://purl.org/ontology/bibo/> .
-@prefix dcterms: <http://purl.org/dc/terms/> .
-@prefix dwc: <http://rs.tdwg.org/dwc/terms/> .
-@prefix gbif: <http://rs.gbif.org/terms/1.0/> .
-
 [] a :TaxonConcept ;
     dcterms:title "Quercus robur sec. Duistermaat (2020)" ;
     :taxonName <https://www.ipni.org/n/304293-2> ;
@@ -611,12 +556,6 @@ The `vernacularName` property can be used when a vernacular name is used  alongs
 
 
 ```turtle
-@prefix : <http://rs.tdwg.org/tcs/terms/> .
-@prefix bibo: <http://purl.org/ontology/bibo/> .
-@prefix dcterms: <http://purl.org/dc/terms/> .
-@prefix dwc: <http://rs.tdwg.org/dwc/terms/> .
-@prefix gbif: <http://rs.gbif.org/terms/1.0/> .
-
 <https://vicflora.rbg.vic.gov.au/flora/taxon/93c88fde-ab15-4a9a-a61d-3830a57a0160#2023-03-02> 
     a :TaxonConcept ;
     dcterms:title "Callitris verrucosa sec. VicFlora (2023-03-22)" ;
@@ -732,10 +671,6 @@ Taxon Relationship statements can be made in the treatment of the  subject Taxon
 
 
 ```turtle
-@prefix : <http://rs.tdwg.org/tcs/terms/> .
-@prefix dcterms: <http://purl.org/dc/terms/> .
-@prefix bibo: <http://purl.org/ontology/bibo/> .
-
 # Athyriaceae sec. Rothfels et al. (2012) is proper subset of Woodsiaceae sec. Smith et al. (2006)
 [] a :TaxonRelationship ; 
     :relationshipType <http://rs.tdwg.org/tcs-taxon-concept-relationship-type/values/isProperSubsetOf> ; 
@@ -767,11 +702,6 @@ Taxon Relationship statements can be made in the treatment of the  subject Taxon
 
 
 ```turtle
-@prefix : <http://rs.tdwg.org/tcs/terms/> .
-@prefix dcterms: <http://purl.org/dc/terms/> .
-@prefix dwc: <http://rs.tdwg.org/dwc/terms/> .
-@prefix bibo: <http://purl.org/ontology/bibo/> .
-
 # Dicranum fuscescens sec. Koperski et al. (2000) is congruent with Dicranum fuscescens sec. Corley 
 # et al. (1981)
 [] a :TaxonRelationship ;
@@ -805,11 +735,6 @@ Taxon Relationship statements can be made in the treatment of the  subject Taxon
 
 
 ```turtle
-@prefix : <http://rs.tdwg.org/tcs/terms/> .
-@prefix dcterms: <http://purl.org/dc/terms/> .
-@prefix dwc: <http://rs.tdwg.org/dwc/terms/> .
-@prefix bibo: <http://purl.org/ontology/bibo/> .
-
 # Phyllotrox sec. Franz & O'Brien (2001) partially overlaps Phyllotrox sec. Franz (2006)
 [] a :TaxonRelationship ;
     :relationshipType <http://rs.tdwg.org/tcs-taxon-concept-relationship-type/values/partiallyOverlaps> ;
@@ -1043,9 +968,6 @@ The word 'name' here is taken in its dictionary meaning and not in the  sense of
 
 
 ```turtle
-@prefix : <http://rs.tdwg.org/tcs/terms/> .
-@prefix dwc: <http://rs.tdwg.org/dwc/terms/> .
-
 <urn:lsid:zoobank.org:act:355AAA50-D89F-466E-A216-96B7A17D5AD4> a :TaxonName ;
     :taxonNameString "Carabus nitens" ;
     dwc:scientificNameAuthorship "Linnaeus, 1758" .
@@ -1055,39 +977,26 @@ The word 'name' here is taken in its dictionary meaning and not in the  sense of
 
 
 ```turtle
-@prefix : <http://rs.tdwg.org/tcs/terms/> .
-@prefix dwc: <http://rs.tdwg.org/dwc/terms/> .
-
 <https://www.ipni.org/n/316069-1> a :TaxonName ;
     :taxonNameString "Rafflesia arnoldii" ;
     dwc:scientificNameAuthorship "R.Br." ;
     dwc:namePublishedIn "Account Rafflesia 7, tt. 15-22 (1821)" .
-
 ```
 
 [&lsqb;TaxonName-2.ttl&rsqb;](examples/TaxonName-2.ttl)
 
 
 ```turtle
-@prefix : <http://rs.tdwg.org/tcs/terms/> .
-@prefix dwc: <http://rs.tdwg.org/dwc/terms/> .
-
 <http://www.indexfungorum.org/names/NamesRecord.asp?RecordID=178962> a :TaxonName ;
     :taxonNameString "Amanita phalloides" ;
     dwc:scientificNameAuthorship "(Vaill. ex Fr.) Link" ;
     dwc:namePublishedIn "Handb. Erk. Gew. 3: 272 (1833)" .
-
 ```
 
 [&lsqb;TaxonName-3.ttl&rsqb;](examples/TaxonName-3.ttl)
 
 
 ```turtle
-@prefix : <http://rs.tdwg.org/tcs/terms/> .
-@prefix dcterms: <http://purl.org/dc/terms/> .
-@prefix dwc: <http://rs.tdwg.org/dwc/terms/> .
-@prefix bibo: <http://purl.org/ontology/bibo/> .
-
 # Example from TCS 1
 <https://www.ipni.org/n/50985479-1> a :TaxonName ;
     :nomenclaturalCode <http://rs.gbif.org/vocabulary/gbif/nomenclatural_code/ICN> ;
@@ -1101,7 +1010,6 @@ The word 'name' here is taken in its dictionary meaning and not in the  sense of
     :microReference "79" ;
     dwc:genericName "Rhododendron" ;
     dwc:infragenericName "Sciadorhodion" .
-
 ```
 
 [&lsqb;TaxonName-4.ttl&rsqb;](examples/TaxonName-4.ttl)
@@ -1351,10 +1259,6 @@ A basionym is the epithet-bringing name.  The `basionym` property is only  used 
 
 
 ```turtle
-@prefix : <http://rs.tdwg.org/tcs/terms/> .
-@prefix dwc: <http://rs.tdwg.org/dwc/terms/> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-
 <https://id.biodiversity.org.au/name/apni/166271> a :TaxonName ;
     rdf:seeAlso <https://www.ipni.org/n/17571690-1> ;
     :taxonNameString "Doodia australis" ;
@@ -1373,9 +1277,6 @@ A basionym is the epithet-bringing name.  The `basionym` property is only  used 
 
 
 ```turtle
-@prefix : <http://rs.tdwg.org/tcs/terms/> .
-@prefix dwc: <http://rs.tdwg.org/dwc/terms/> .
-
 [] a :TaxonName ;
     :taxonNameString "Osphranter rufus" ;
     dwc:scientificNameAuthorship "(Desmaret, 1882)" ;
@@ -1478,9 +1379,6 @@ A scientific name at and below the rank of family is not conserved against  all 
 
 
 ```turtle
-@prefix : <http://rs.tdwg.org/tcs/terms/> .
-@prefix dwc: <http://rs.tdwg.org/dwc/terms/> .
-
 <https://www.tropicos.org/name/35000378> a :TaxonName ;
     :taxonNameString "Dicranoloma" ;
     dwc:scientificNameAuthorship "(Renauld) Renauld" ;
@@ -1795,11 +1693,6 @@ A nomenclatural type fixes the usage of a name to the taxonomic group that  cont
 
 
 ```turtle
-@prefix : <http://rs.tdwg.org/tcs/terms/> .
-@prefix dcterms: <http://purl.org/dc/terms/> .
-@prefix dwc: <http://rs.tdwg.org/dwc/terms/> .
-@prefix bibo: <http://purl.org/ontology/bibo/> .
-
 # Examples from TCS 1
 [] a :NomenclaturalType ;
     :typifiedName <https://www.ipni.org/n/50985479-1> ;
