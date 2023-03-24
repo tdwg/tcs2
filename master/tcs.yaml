@@ -99,6 +99,9 @@
     contain as little as a bibliographic reference but it is much more useful 
     to provide it in a format that can be understood by reference managers 
     such as Zotero or Mendeley.
+  examples: 
+    - TaxonConcept-accordingTo-1
+    - TaxonConcept-accordingTo-2
   type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonConcept
   required: Yes

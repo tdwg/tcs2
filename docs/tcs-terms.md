@@ -273,6 +273,82 @@ Every Taxon Concept is in some sort of treatment and this treatment  provides im
 
 The value of `accordingTo` has to be an object or IRI. This object can  contain as little as a bibliographic reference but it is much more useful  to provide it in a format that can be understood by reference managers  such as Zotero or Mendeley.
 
+
+**Examples**
+
+
+```turtle
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+# Taxonomic article (object of property only)
+<https://doi.org/10.1080/14772000.2013.806371> a bibo:AcademicArticle ;
+    dcterms:creator <https://orcid.org/0000-0001-7089-7018>,
+        <https://orcid.org/0000-0002-2469-8162> ;
+    bibo:authorList ( <https://orcid.org/0000-0001-7089-7018> 
+        	<https://orcid.org/0000-0002-2469-8162> ) ;
+    dcterms:title """Description of two new species and phylogenetic reassessment of 
+			Perelleschus O’Brien & Wibmer, 1986 (Coleoptera: Curculionidae), with 
+			a complete taxonomic concept history of Perelleschus sec. Franz & 
+			Cardona-Duque, 2013""" ;
+    bibo:shortTitle """Description of two new species and phylogenetic reassessment 
+			of Perelleschus O’Brien & Wibmer, 1986 (Coleoptera""" ;
+    dcterms:isPartOf [ a bibo:Issue ;
+        dcterms:date "June 1, 2013" ;
+        dcterms:isPartOf [ a bibo:Journal ;
+                dcterms:title "Systematics and Biodiversity" ;
+                bibo:issn "1477-2000" ] ;
+                dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "Taylor & Francis" ] ;
+            bibo:volume "11" ;
+            bibo:issue "2" ] ;
+    bibo:pages "209-236" ;
+    bibo:doi "10.1080/14772000.2013.806371" ;
+    bibo:uri "https://doi.org/10.1080/14772000.2013.806371" .
+
+<https://orcid.org/0000-0001-7089-7018> a foaf:Person ;
+    foaf:givenName "Nico M." ;
+    foaf:surname "Franz" .
+
+<https://orcid.org/0000-0002-2469-8162> a foaf:Person ;
+    foaf:givenName "Juliana" ;
+    foaf:surname "Cardona-Duque*" .
+
+```
+
+[&lsqb;TaxonConcept-accordingTo-1.ttl&rsqb;](examples/TaxonConcept-accordingTo-1.ttl)
+
+
+```turtle
+@prefix address: <http://schemas.talis.com/2005/address/schema#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+# Field guide (object of property only)
+<urn:isbn:978-0-307-95790-0> a bibo:Book ;
+    dcterms:title "The Sibley guide to birds" ;
+    dcterms:date "2014" ;
+    dcterms:language "en" ;
+    dcterms:publisher [ 
+        a foaf:Organization ;
+        address:localityName "New York, NY, USA" ;
+        foaf:name "Alfred A. Knopf" 
+    ] ;
+    bibo:isbn "978-0-307-95790-0" ;
+    bibo:edition "2" ;
+    bibo:numPages "599" ;
+    dcterms:creator "_:b1" ;
+    bibo:authorList ( "_:b1" ) .
+
+_:b1 a foaf:Person ;
+    foaf:givenName "David Allen" ;
+    foaf:surname "Sibley" .
+```
+
+[&lsqb;TaxonConcept-accordingTo-2.ttl&rsqb;](examples/TaxonConcept-accordingTo-2.ttl)
+
 ### tcs:taxonomicRank
 
 <table style="width:100%;">
