@@ -1717,7 +1717,7 @@ A nomenclatural type fixes the usage of a name to the taxonomic group that  cont
     :typeName <https://www.ipni.org/n/333193-1> ;
     :typePublishedIn [ a bibo:Article ;
     	  dcterms:bibliographicCitation """Copeland, H.F. (1943). A study, anatomical and 
-        		    taxonomic, of the genera of Rhododendroideae. Am. Midl. Nat. 30: 533-625""" ] .
+                taxonomic, of the genera of Rhododendroideae. Am. Midl. Nat. 30: 533-625""" ] .
 
 [] a :NomenclaturalType ;
     :typifiedName <https://www.ipni.org/n/333193-1> ;
