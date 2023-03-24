@@ -453,31 +453,31 @@ Synonymy is between names but, if the names have different nomenclatural types, 
 []  a :TaxonConcept ;
     dcterms:title "Dicranoloma blumei sec. Klazenga (1999)" ;
     :taxonName <https://www.tropicos.org/name/35121475> ;
-	  :synonym <https://www.tropicos.org/name/35121973> , 
-			      <https://www.tropicos.org/name/35121484> ;
+    :synonym <https://www.tropicos.org/name/35121973> , 
+            <https://www.tropicos.org/name/35121484> ;
     :accordingTo <https://www.tropicos.org/reference/9020903> .
 
 <https://www.tropicos.org/name/35121475> a :TaxonName ;
     :taxonNameString "Dicranoloma blumei" ;
     dwc:scientificNameAuthorship "(Nees) Renauld" ;
-	  :basionym <https://www.tropicos.org/name/35121972> .
+    :basionym <https://www.tropicos.org/name/35121972> .
 
 <https://www.tropicos.org/name/35121972> a :TaxonName ;
-	  :taxonNameString "Dicranum blumei" ;
-	  dwc:scientificNameAuthorship "Nees" . 
+    :taxonNameString "Dicranum blumei" ;
+    dwc:scientificNameAuthorship "Nees" . 
 
 <https://www.tropicos.org/name/35154856> a :TaxonName ;
-	  :taxonNameString "Leucoloma blumei" ;
-	  dwc:scientificNameAuthorship "(Nees) Broth." ; 
-	  :basionym <https://www.tropicos.org/name/35121972> .
+    :taxonNameString "Leucoloma blumei" ;
+    dwc:scientificNameAuthorship "(Nees) Broth." ; 
+    :basionym <https://www.tropicos.org/name/35121972> .
 
 <https://www.tropicos.org/name/35121973> a :TaxonName ;
-	  :taxonNameString "Dicranum blumei var. laxifolium" ;
-	  dwc:scientificNameAuthorship "Broth. & Geh." . 
+    :taxonNameString "Dicranum blumei var. laxifolium" ;
+    dwc:scientificNameAuthorship "Broth. & Geh." . 
 
 <https://www.tropicos.org/name/35121484> a :TaxonName ;
-	  :taxonNameString "Dicranoloma braunfelsioides" ;
-	  dwc:scientificNameAuthorship "Herzog" . 
+    :taxonNameString "Dicranoloma braunfelsioides" ;
+    dwc:scientificNameAuthorship "Herzog" . 
 
 <https://www.tropicos.org/reference/9020903> a bibo:AcademicArticle ;
     dcterms:bibliographicCitation """Klazenga, N. (1999). A revision of the 
