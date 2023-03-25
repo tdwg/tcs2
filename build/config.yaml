@@ -30,9 +30,9 @@ categories:
     comments: ''
     display_id: nomenclaturalType
 ---
-headerFileName: ./static/taxon-concept-relationship-type-vocabulary-header.md
+headerFileName: ./static/taxon-relationship-type-vocabulary-header.md
 footerFileName: ./static/termlist-footer.md
-outFileName: ../docs/taxon-concept-relationship-type-vocabulary.md
+outFileName: ../docs/taxon-relationship-type-vocabulary.md
 termLists:
   - filename: tcsTaxonRelationshipType
     vann_preferredNamespacePrefix: tcreltype
