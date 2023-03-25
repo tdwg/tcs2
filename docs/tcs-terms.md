@@ -864,7 +864,7 @@ _:n1 a :TaxonName ;
 		</tr>
 		<tr>
 			<td>Usage</td>
-			<td><p>This property is required; one MUST use a term from the Taxon Concept  Relationship Vocabulary.</p></td>
+			<td><p>This property is required; one MUST use a term from the <a href="taxon-relationship-type-vocabulary.md">Taxon Concept  Relationship Vocabulary</a>.</p></td>
 		</tr>
 		<tr>
 			<td>GitHub issue</td>

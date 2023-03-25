@@ -242,8 +242,8 @@
   label: Relationship type
   definition: The type of relationship.
   usage: >-
-    This property is required; one MUST use a term from the Taxon Concept 
-    Relationship Vocabulary.
+    This property is required; one MUST use a term from the [Taxon Concept 
+    Relationship Vocabulary](taxon-relationship-type-vocabulary.md).
   notes: null
   type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonRelationship
