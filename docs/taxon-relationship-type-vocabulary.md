@@ -60,6 +60,7 @@ Publications used in examples:
             Reasoning over taxonomic change in the Andropogon complex 1. 
             Semantic Web 7, 645–667. doi:10.3233/SW-160220.""" .
 ```
+[&lsqb;TaxonRelationshipType-publications.ttl&rsqb;](examples/TaxonRelationshipType-publications.ttl)
 
 ### tcreltype:isCongruentWith
 
@@ -92,6 +93,8 @@ Publications used in examples:
 **Comments**
 
 The `isCongruentWith` relationship is symmetrical, so if A `isCongruentWith`  B then B `isCongruentWith` A, as well as transitive, so if A  `isCongruentWith` B and B `isCongruentWith` C it follows that A  `isCongruentWith` C.
+
+![](media/taxon-relationship-type-is-congruent-with.jpg)
 
 
 **Examples**
@@ -149,6 +152,8 @@ The `isCongruentWith` relationship is symmetrical, so if A `isCongruentWith`  B 
 **Comments**
 
 The `hasProperSubset` relationship is not symmetric, its inverse  relationship being  `isProperSubsetOf`, so if A `hasProperSubset` B then B  `isProperSubsetOf` A. The `hasProperSubset` relationship  is transitive, so  if A `hasProperSubset` B and B `hasProperSubset` C it follows that A  `hasProperSubset` C.
+
+![](media/taxon-relationship-type-has-proper-subset.jpg)
 
 
 **Examples**
@@ -211,6 +216,8 @@ The `hasProperSubset` relationship is not symmetric, its inverse  relationship b
 
 The `isProperSubsetOf` relationship is not symmetric, its inverse  relationship being  `hasProperSubset`, so if A `isProperSubsetOf` B then B  `hasProperSubset` A. The `isProperSubsetOf` relationship  is transitive, so  if A `isProperSubsetOf` B and B `isProperSubsetOf` C it follows that A  `isProperSubsetOf` C.
 
+![](media/taxon-relationship-type-is-proper-subset-of.jpg)
+
 
 **Examples**
 
@@ -272,6 +279,8 @@ The `isProperSubsetOf` relationship is not symmetric, its inverse  relationship 
 
 The `partiallyOverlaps`  relationship is symmetrical, so if A  `partiallyOverlaps` B then B `partiallyOverlaps` A, but not transitive, so,  if A `partiallyOverlaps` B and B `partiallyOverlaps` C, it does not follow  that A `partiallyOverlaps` C.
 
+![](media/taxon-relationship-type-partially-overlaps.jpg)
+
 
 **Examples**
 
@@ -327,6 +336,8 @@ The `partiallyOverlaps`  relationship is symmetrical, so if A  `partiallyOverlap
 **Comments**
 
 The `isDisjointFrom`  relationship is symmetrical, so if A `isDisjointFrom`  B then B `isDisjointFrom` A, but not transitive, so, if A `isDisjointFrom`  B and B `isDisjointFrom` C, it does not follow that A `isDisjointFrom` C.
+
+![](media/taxon-relationship-type-is-disjoint-from.jpg)
 
 
 **Examples**

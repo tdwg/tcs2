@@ -37,7 +37,8 @@
                 Reasoning over taxonomic change in the Andropogon complex 1. 
                 Semantic Web 7, 645–667. doi:10.3233/SW-160220.""" .
     ```
-  examples: null
+
+    [&lsqb;TaxonRelationshipType-publications.ttl&rsqb;](examples/TaxonRelationshipType-publications.ttl)
 
 # controlled term: isCongruentWith
 - localName: isCongruentWith
@@ -54,6 +55,9 @@
     B then B `isCongruentWith` A, as well as transitive, so if A 
     `isCongruentWith` B and B `isCongruentWith` C it follows that A 
     `isCongruentWith` C.
+
+
+    ![](media/taxon-relationship-type-is-congruent-with.jpg)
   examples: 
     - TaxonRelationshipType-isCongruentWith
 
@@ -72,12 +76,16 @@
     `isProperSubsetOf` A. The `hasProperSubset` relationship  is transitive, so 
     if A `hasProperSubset` B and B `hasProperSubset` C it follows that A 
     `hasProperSubset` C.
+
+
+    ![](media/taxon-relationship-type-has-proper-subset.jpg)
   examples: 
     - TaxonRelationshipType-hasProperSubset
   type: http://www.w3.org/2004/02/skos/core#Concept
 
 # controlled term: isProperSubsetOf
 - localName: isProperSubsetOf
+  type: http://www.w3.org/2004/02/skos/core#Concept
   label: Is proper subset of
   skos_inScheme: TaxonRelationshipType
   controlled_value_string: isProperSubsetOf
@@ -90,7 +98,9 @@
     `hasProperSubset` A. The `isProperSubsetOf` relationship  is transitive, so 
     if A `isProperSubsetOf` B and B `isProperSubsetOf` C it follows that A 
     `isProperSubsetOf` C.
-  type: http://www.w3.org/2004/02/skos/core#Concept
+
+
+    ![](media/taxon-relationship-type-is-proper-subset-of.jpg)
   examples: 
     - TaxonRelationshipType-isProperSubsetOf
 
@@ -109,6 +119,9 @@
     `partiallyOverlaps` B then B `partiallyOverlaps` A, but not transitive, so, 
     if A `partiallyOverlaps` B and B `partiallyOverlaps` C, it does not follow 
     that A `partiallyOverlaps` C.
+
+
+    ![](media/taxon-relationship-type-partially-overlaps.jpg)
   examples:
     - TaxonRelationshipType-partiallyOverlaps
 
@@ -125,6 +138,9 @@
     The `isDisjointFrom`  relationship is symmetrical, so if A `isDisjointFrom` 
     B then B `isDisjointFrom` A, but not transitive, so, if A `isDisjointFrom` 
     B and B `isDisjointFrom` C, it does not follow that A `isDisjointFrom` C.
+
+
+    ![](media/taxon-relationship-type-is-disjoint-from.jpg)
   examples: 
     - TaxonRelationshipType-isDisjointFrom
 
