@@ -96,6 +96,8 @@ The `isCongruentWith` relationship is symmetrical, so if A `isCongruentWith`  B 
 
 ![](media/taxon-relationship-type-is-congruent-with.jpg)
 
+This relationship can also be written as the formula ""A &cong; B** or **A == B**.
+
 
 **Examples**
 
@@ -154,6 +156,8 @@ The `isCongruentWith` relationship is symmetrical, so if A `isCongruentWith`  B 
 The `hasProperSubset` relationship is not symmetric, its inverse  relationship being  `isProperSubsetOf`, so if A `hasProperSubset` B then B  `isProperSubsetOf` A. The `hasProperSubset` relationship  is transitive, so  if A `hasProperSubset` B and B `hasProperSubset` C it follows that A  `hasProperSubset` C.
 
 ![](media/taxon-relationship-type-has-proper-subset.jpg)
+
+This relation type can also be written as the formula **A > B**.
 
 
 **Examples**
@@ -218,6 +222,8 @@ The `isProperSubsetOf` relationship is not symmetric, its inverse  relationship 
 
 ![](media/taxon-relationship-type-is-proper-subset-of.jpg)
 
+This relation type can also be written as the formula **A < B**.
+
 
 **Examples**
 
@@ -281,6 +287,8 @@ The `partiallyOverlaps`  relationship is symmetrical, so if A  `partiallyOverlap
 
 ![](media/taxon-relationship-type-partially-overlaps.jpg)
 
+This relationship can also be written as the formula **A >< B**.
+
 
 **Examples**
 
@@ -338,6 +346,8 @@ The `partiallyOverlaps`  relationship is symmetrical, so if A  `partiallyOverlap
 The `isDisjointFrom`  relationship is symmetrical, so if A `isDisjointFrom`  B then B `isDisjointFrom` A, but not transitive, so, if A `isDisjointFrom`  B and B `isDisjointFrom` C, it does not follow that A `isDisjointFrom` C.
 
 ![](media/taxon-relationship-type-is-disjoint-from.jpg)
+
+This relationship can also be written as the formula **A | B**.
 
 
 **Examples**

@@ -58,6 +58,9 @@
 
 
     ![](media/taxon-relationship-type-is-congruent-with.jpg)
+
+
+    This relationship can also be written as the formula ""A &cong; B** or **A == B**.
   examples: 
     - TaxonRelationshipType-isCongruentWith
 
@@ -79,6 +82,9 @@
 
 
     ![](media/taxon-relationship-type-has-proper-subset.jpg)
+
+
+    This relation type can also be written as the formula **A > B**.
   examples: 
     - TaxonRelationshipType-hasProperSubset
   type: http://www.w3.org/2004/02/skos/core#Concept
@@ -101,6 +107,9 @@
 
 
     ![](media/taxon-relationship-type-is-proper-subset-of.jpg)
+
+
+    This relation type can also be written as the formula **A < B**.
   examples: 
     - TaxonRelationshipType-isProperSubsetOf
 
@@ -122,6 +131,9 @@
 
 
     ![](media/taxon-relationship-type-partially-overlaps.jpg)
+
+
+    This relationship can also be written as the formula **A >< B**.
   examples:
     - TaxonRelationshipType-partiallyOverlaps
 
@@ -141,6 +153,9 @@
 
 
     ![](media/taxon-relationship-type-is-disjoint-from.jpg)
+
+
+    This relationship can also be written as the formula **A | B**.
   examples: 
     - TaxonRelationshipType-isDisjointFrom
 
