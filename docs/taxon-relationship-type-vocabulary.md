@@ -86,6 +86,10 @@ Publications used in examples:
 			<td>Controlled value</td>
 			<td>isCongruentWith</td>
 		</tr>
+		<tr>
+			<td>GitHub issue</td>
+			<td>https://github.com/tdwg/tcs2/issues/52</td>
+		</tr>
 	</tbody>
 </table>
 
@@ -146,6 +150,10 @@ This relationship can also be written as the formula **A &cong; B** or **A == B*
 		<tr>
 			<td>Controlled value</td>
 			<td>hasProperSubset</td>
+		</tr>
+		<tr>
+			<td>GitHub issue</td>
+			<td>https://github.com/tdwg/tcs2/issues/53</td>
 		</tr>
 	</tbody>
 </table>
@@ -212,6 +220,10 @@ This relation type can also be written as the formula **A > B**.
 			<td>Controlled value</td>
 			<td>isProperSubsetOf</td>
 		</tr>
+		<tr>
+			<td>GitHub issue</td>
+			<td>https://github.com/tdwg/tcs2/issues/54</td>
+		</tr>
 	</tbody>
 </table>
 
@@ -277,6 +289,10 @@ This relation type can also be written as the formula **A < B**.
 			<td>Controlled value</td>
 			<td>partiallyOverlaps</td>
 		</tr>
+		<tr>
+			<td>GitHub issue</td>
+			<td>https://github.com/tdwg/tcs2/issues/55</td>
+		</tr>
 	</tbody>
 </table>
 
@@ -336,6 +352,10 @@ This relationship can also be written as the formula **A >< B**.
 		<tr>
 			<td>Controlled value</td>
 			<td>isDisjointFrom</td>
+		</tr>
+		<tr>
+			<td>GitHub issue</td>
+			<td>https://github.com/tdwg/tcs2/issues/56</td>
 		</tr>
 	</tbody>
 </table>
@@ -401,6 +421,10 @@ This relationship can also be written as the formula **A | B**.
 		<tr>
 			<td>Controlled value</td>
 			<td>intersects</td>
+		</tr>
+		<tr>
+			<td>GitHub issue</td>
+			<td>https://github.com/tdwg/tcs2/issues/57</td>
 		</tr>
 	</tbody>
 </table>

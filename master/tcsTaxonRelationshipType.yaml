@@ -11,7 +11,6 @@
   definition: >- 
     A SKOS Concept Scheme for controlled values for 
     `tcs:TaxonRelationshipType`
-  usage: null
   notes: >-
     Publications used in examples:
 
@@ -63,16 +62,17 @@
     This relationship can also be written as the formula **A &cong; B** or **A == B**.
   examples: 
     - TaxonRelationshipType-isCongruentWith
+  github: 52
 
 # controlled term: hasProperSubset
 - localName: hasProperSubset
+  type: http://www.w3.org/2004/02/skos/core#Concept
   label: Has proper subset
   skos_inScheme: TaxonRelationshipType
   controlled_value_string: hasProperSubset
   definition: >-
     The subject taxon concept has a more inclusive taxonomic meaning than
     the object taxon concept
-  usage: null
   notes: >-
     The `hasProperSubset` relationship is not symmetric, its inverse 
     relationship being  `isProperSubsetOf`, so if A `hasProperSubset` B then B 
@@ -87,7 +87,7 @@
     This relation type can also be written as the formula **A > B**.
   examples: 
     - TaxonRelationshipType-hasProperSubset
-  type: http://www.w3.org/2004/02/skos/core#Concept
+  github: 53
 
 # controlled term: isProperSubsetOf
 - localName: isProperSubsetOf
@@ -112,6 +112,7 @@
     This relation type can also be written as the formula **A < B**.
   examples: 
     - TaxonRelationshipType-isProperSubsetOf
+  github: 54
 
 # controlled term: partiallyOverlaps
 - localName: partiallyOverlaps
@@ -136,6 +137,7 @@
     This relationship can also be written as the formula **A >< B**.
   examples:
     - TaxonRelationshipType-partiallyOverlaps
+  github: 55
 
 # controlled term: isDisjointFrom
 - localName: isDisjointFrom
@@ -158,9 +160,11 @@
     This relationship can also be written as the formula **A | B**.
   examples: 
     - TaxonRelationshipType-isDisjointFrom
+  github: 56
 
 # controlled term: intersects
 - localName: intersects
+  type: http://www.w3.org/2004/02/skos/core#Concept
   label: Intersects
   skos_inScheme: TaxonRelationshipType
   controlled_value_string: intersects
@@ -175,5 +179,4 @@
     relationship type can be used when the more precise nature of the 
     relationship is not known, for example when dealing with statements in 
     traditional synonymies.
-  examples: null
-  type: http://www.w3.org/2004/02/skos/core#Concept
+  github: 57
