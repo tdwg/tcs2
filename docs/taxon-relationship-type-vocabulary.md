@@ -96,7 +96,7 @@ The `isCongruentWith` relationship is symmetrical, so if A `isCongruentWith`  B 
 
 ![](media/taxon-relationship-type-is-congruent-with.jpg)
 
-This relationship can also be written as the formula ""A &cong; B** or **A == B**.
+This relationship can also be written as the formula **A &cong; B** or **A == B**.
 
 
 **Examples**
