@@ -488,7 +488,7 @@ Synonyms are names and synonymy is between names but, if the names have  differe
     dwc:namePublishedIn "Nova Guinea 12(2): 112 (1914)" .
 
 <https://www.tropicos.org/name/35188177> a :TaxonName ;
-    :taxonNameString "Dicranoloma blumei fo. subintegrum" ;
+    :taxonNameString "Dicranoloma blumei f. subintegrum" ;
     dwc:scientificNameAuthorship "Dixon" ;
     dwc:namePublishedIn "J. Bot. 80: 4 (1942)" .
 
