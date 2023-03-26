@@ -16,7 +16,7 @@
     are required. When mentioning a taxon concept, the label and the source are 
     combined, separated by 'sec.' (from, 'secundus', meaning 'according 
     to') or 'sensu' (meaning the same). The term `title` has been borrowed from 
-    Dublin Core to provided this taxon concept label. Because of the context 
+    Dublin Core to provide this taxon concept label. Because of the context 
     provided by the source, taxon concepts are in principle also alignable to 
     other Taxon Concepts using the TCS Taxon Relationship statements.
 
