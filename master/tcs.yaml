@@ -14,10 +14,11 @@
     group. A Taxon Concept is identifiable, because it combines a label – 
     `taxonName` in TCS – with a source – `accordingTo`. Both these properties 
     are required. When mentioning a taxon concept, the label and the source are 
-    also combined, separated by 'sec.' (from, 'secundus', meaning 'according 
-    to') or 'sensu' (meaning the same). Because of the context provided by the 
-    source, taxon concepts are in principle also alignable to other Taxon 
-    Concepts using the TCS Taxon Relationship statements.
+    combined, separated by 'sec.' (from, 'secundus', meaning 'according 
+    to') or 'sensu' (meaning the same). The term `title` has been borrowed from 
+    Dublin Core to provided this taxon concept label. Because of the context 
+    provided by the source, taxon concepts are in principle also alignable to 
+    other Taxon Concepts using the TCS Taxon Relationship statements.
 
 
     The TCS Taxon Concept is a data object and is applied more broadly than the 
