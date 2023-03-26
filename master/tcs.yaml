@@ -165,8 +165,8 @@
     having to deal with the Taxon Concepts that were realised along with the 
     publication of these names. If one wants to include these “original 
     concepts” and indicate a relationship between Taxon Concepts, and the more 
-    precise relationship is unknown, the `intersects` Taxon Relationship can be 
-    used.
+    precise relationship is not provided, the `intersects` Taxon Relationship 
+    can be used.
   examples: 
     - TaxonConcept-synonym-1
     - TaxonConcept-synonym-2
