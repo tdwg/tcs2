@@ -74,7 +74,7 @@ By contrast, assertions of synonymy or misapplication and entries in lists  of n
 
 
 ```turtle
-[]  a :TaxonConcept ;
+[] a :TaxonConcept ;
     dcterms:title "Dicranoloma blumei sec. Klazenga (1999)" ;
     :taxonName <https://www.tropicos.org/name/35121475> ;
     :accordingTo <https://www.tropicos.org/reference/9020903> .
@@ -94,7 +94,7 @@ By contrast, assertions of synonymy or misapplication and entries in lists  of n
 
 ```turtle
 [] a :TaxonConcept ;
-dcterms:title "Orthetrum caledonicum sec. Theischinger and Hawking (2010)" ;
+    dcterms:title "Orthetrum caledonicum sec. Theischinger and Hawking (2010)" ;
     :taxonName [ a :TaxonName ; 
             :taxonNameString "Orthetrum caledonicum" ] ;
     :vernacularName [ a :TaxonName ;
@@ -256,15 +256,15 @@ The value of `accordingTo` has to be an object or IRI. This object can  contain 
 # Taxonomic article (object of property only)
 <https://doi.org/10.1080/14772000.2013.806371> a bibo:AcademicArticle ;
     dcterms:creator <https://orcid.org/0000-0001-7089-7018>,
-        <https://orcid.org/0000-0002-2469-8162> ;
+            <https://orcid.org/0000-0002-2469-8162> ;
     bibo:authorList ( <https://orcid.org/0000-0001-7089-7018> 
         	<https://orcid.org/0000-0002-2469-8162> ) ;
     dcterms:title """Description of two new species and phylogenetic reassessment of 
-			Perelleschus O’Brien & Wibmer, 1986 (Coleoptera: Curculionidae), with 
-			a complete taxonomic concept history of Perelleschus sec. Franz & 
-			Cardona-Duque, 2013""" ;
+            Perelleschus O’Brien & Wibmer, 1986 (Coleoptera: Curculionidae), with 
+            a complete taxonomic concept history of Perelleschus sec. Franz & 
+            Cardona-Duque, 2013""" ;
     bibo:shortTitle """Description of two new species and phylogenetic reassessment 
-			of Perelleschus O’Brien & Wibmer, 1986 (Coleoptera""" ;
+            of Perelleschus O’Brien & Wibmer, 1986 (Coleoptera""" ;
     dcterms:isPartOf [ a bibo:Issue ;
         dcterms:date "June 1, 2013" ;
         dcterms:isPartOf [ a bibo:Journal ;
@@ -443,7 +443,7 @@ The `parent` is another Taxon Concept. This is the parent as indicated in  the `
 
 **Comments**
 
-Synonyms are names and synonymy is between names but, if the names have  different nomenclatural types, a Taxon Concept is required. Therefore,  `synonym` is a property of the Taxon Concept class. `synonym` is used here  in the strict sense that indicates that the type of a name falls within  a Taxon Concept and has the same relationship to Taxon Concept as  `taxonName` (the accepted name). This allows one to dispose of names without  having to deal with the Taxon Concepts that were realised along with the  publication of these names. If one wants to include these “original  concepts” and indicate a relationship between Taxon Concepts, and the more  precise relationship is not provided, the `intersects` Taxon Relationship  can be used.
+Synonyms are names and synonymy is between names but, if the names have  different nomenclatural types, a Taxon Concept is required. Therefore,  `synonym` is a property of the Taxon Concept class. `synonym` is used here  in the strict meaning that the type of a name falls within a Taxon Concept.  The same goes for the accepted name (`taxonName`) and therefore `synonym`  has the same relationship to Taxon Concept as `taxonName`. This allows one  to dispose of names without having to deal with the Taxon Concepts that were  realised along with the publication of these names. If one wants to include  these “original concepts” and indicate a relationship between Taxon  Concepts, and the more precise relationship is not provided, the  `intersects` Taxon Relationship can be used.
 
 
 **Examples**
@@ -645,12 +645,13 @@ The `vernacularName` property can be used when a vernacular name is used  alongs
         dcterms:language "en" ;
         gbif:isPreferredName: <http://rs.gbif.org/vocab/boolean/false> ] ;
     :accordingTo [ a bibo:Website ;
-        dcterms:bibliographicCitation """VicFlora (2023). Flora of Victoria, 
-                Royal Botanic Gardens Victoria. Available online: 
-                https://vicflora.rbg.vic.gov.au (accessed on: 22 Mar. 2023).""" ] .
+            dcterms:bibliographicCitation """VicFlora (2023). Flora of Victoria, 
+                    Royal Botanic Gardens Victoria. Available online: 
+                    https://vicflora.rbg.vic.gov.au (accessed on: 22 Mar. 2023).""" ] .
 
 <https://www.ipni.org/n/134460-3> a :TaxonName ;
-    :taxonNameString "Callitris verrucosa" .
+    :taxonNameString "Callitris verrucosa" ;
+    dwc:scientificNameAuthorship "(A.Cunn. ex Endl.) F.Muell." .
 ```
 
 [&lsqb;TaxonConcept-vernacularName-3.ttl&rsqb;](examples/TaxonConcept-vernacularName-3.ttl)
@@ -1072,10 +1073,11 @@ The word 'name' here is taken in its dictionary meaning and not in the  sense of
     dwc:scientificNameAuthorship "Rehder & Wilson" ;
     dwc:namePublishedIn "Monogr. Azaleas 79 (1921)" ;
     :namePublishedIn [ a bibo:Book ;
-    	  dcterms:bibliographicCitation """Wilson, E.H. & Rehder, A. (1921). A monograph of 
-        		    the azaleas. Publication of the Arnold Arboretum No. 9 Harvard University, 
-                Cambridge MA.""" ] ;
+        dcterms:bibliographicCitation """Wilson, E.H. & Rehder, A. (1921). A 
+                monograph of the azaleas. Publication of the Arnold Arboretum 
+                No. 9 Harvard University, Cambridge MA.""" ] ;
     :microReference "79" ;
+    dwc:namePublishedInYear "1921" ;
     dwc:genericName "Rhododendron" ;
     dwc:infragenericName "Sciadorhodion" .
 ```
@@ -1451,14 +1453,8 @@ A scientific name at and below the rank of family is not conserved against  all 
     :taxonNameString "Dicranoloma" ;
     dwc:scientificNameAuthorship "(Renauld) Renauld" ;
     :namePublishedInYear "1909" ;
-    :basionym <https://www.tropicos.org/name/35154778> ;
     :conservedAgainst <https://www.tropicos.org/name/35000771> ,
             <https://www.tropicos.org/name/35000146> .
-
-<https://www.tropicos.org/name/35154778> a :TaxonName ;
-    :taxonNameString "Leucoloma subg. Dicranoloma" ;
-    dwc:scientificNameAuthorship "Renauld" ;
-    :namePublishedInYear "1898" .
 
 <https://www.tropicos.org/name/35000771> a :TaxonName ;
     :taxonNameString "Megalostylium" ;
