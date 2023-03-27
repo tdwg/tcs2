@@ -5,14 +5,8 @@
     :taxonNameString "Dicranoloma" ;
     dwc:scientificNameAuthorship "(Renauld) Renauld" ;
     :namePublishedInYear "1909" ;
-    :basionym <https://www.tropicos.org/name/35154778> ;
     :conservedAgainst <https://www.tropicos.org/name/35000771> ,
             <https://www.tropicos.org/name/35000146> .
-
-<https://www.tropicos.org/name/35154778> a :TaxonName ;
-    :taxonNameString "Leucoloma subg. Dicranoloma" ;
-    dwc:scientificNameAuthorship "Renauld" ;
-    :namePublishedInYear "1898" .
 
 <https://www.tropicos.org/name/35000771> a :TaxonName ;
     :taxonNameString "Megalostylium" ;

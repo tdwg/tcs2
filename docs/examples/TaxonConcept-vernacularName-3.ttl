@@ -25,9 +25,10 @@
         dcterms:language "en" ;
         gbif:isPreferredName: <http://rs.gbif.org/vocab/boolean/false> ] ;
     :accordingTo [ a bibo:Website ;
-        dcterms:bibliographicCitation """VicFlora (2023). Flora of Victoria, 
-                Royal Botanic Gardens Victoria. Available online: 
-                https://vicflora.rbg.vic.gov.au (accessed on: 22 Mar. 2023).""" ] .
+            dcterms:bibliographicCitation """VicFlora (2023). Flora of Victoria, 
+                    Royal Botanic Gardens Victoria. Available online: 
+                    https://vicflora.rbg.vic.gov.au (accessed on: 22 Mar. 2023).""" ] .
 
 <https://www.ipni.org/n/134460-3> a :TaxonName ;
-    :taxonNameString "Callitris verrucosa" .
+    :taxonNameString "Callitris verrucosa" ;
+    dwc:scientificNameAuthorship "(A.Cunn. ex Endl.) F.Muell." .

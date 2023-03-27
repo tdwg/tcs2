@@ -10,9 +10,10 @@
     dwc:scientificNameAuthorship "Rehder & Wilson" ;
     dwc:namePublishedIn "Monogr. Azaleas 79 (1921)" ;
     :namePublishedIn [ a bibo:Book ;
-    	  dcterms:bibliographicCitation """Wilson, E.H. & Rehder, A. (1921). A monograph of 
-        		    the azaleas. Publication of the Arnold Arboretum No. 9 Harvard University, 
-                Cambridge MA.""" ] ;
+        dcterms:bibliographicCitation """Wilson, E.H. & Rehder, A. (1921). A 
+                monograph of the azaleas. Publication of the Arnold Arboretum 
+                No. 9 Harvard University, Cambridge MA.""" ] ;
     :microReference "79" ;
+    dwc:namePublishedInYear "1921" ;
     dwc:genericName "Rhododendron" ;
     dwc:infragenericName "Sciadorhodion" .

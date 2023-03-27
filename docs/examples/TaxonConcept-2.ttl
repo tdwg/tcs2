@@ -3,7 +3,7 @@
 @prefix bibo: <http://purl.org/ontology/bibo/> .
 
 [] a :TaxonConcept ;
-dcterms:title "Orthetrum caledonicum sec. Theischinger and Hawking (2010)" ;
+    dcterms:title "Orthetrum caledonicum sec. Theischinger and Hawking (2010)" ;
     :taxonName [ a :TaxonName ; 
             :taxonNameString "Orthetrum caledonicum" ] ;
     :vernacularName [ a :TaxonName ;
