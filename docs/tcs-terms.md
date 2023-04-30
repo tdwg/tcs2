@@ -1409,6 +1409,47 @@ In the Zoological Code, a 'replacement name' is a name established to replace  a
 
 
 ```turtle
+<https://www.tropicos.org/name/35183593> a :TaxonName ;
+    :taxonNameString "Dicranum bartramianum" ;
+    dwc:scientificNameAuthorship "B.H.Allen" ;
+    dwc:namePublishedIn "Cryptog. Bryol. Lichénol. 8: 323" ;
+    dwc:namePublishedInYear "1987" ;
+    :replacedSynonym <https://www.tropicos.org/name/35120798> .
+
+<https://www.tropicos.org/name/35120798> a :TaxonName ;
+    :taxonNameString "Dicnemon robustum" ;
+    dwc:scientificNameAuthorship "E.B.Bartram" ;
+    dwc:namePublishedIn "Bryologist 48: 112" ;
+    dwc:namePublishedInYear "1945" .
+
+# blocking name
+<https://www.tropicos.org/name/35124067> a :TaxonName ;
+    :taxonNameString "Dicranum robustum" ;
+    dwc:scientificNameAuthorship "Hook.f. & Wilson" ;
+    dwc:namePublishedIn "London J. Bot. 3: 542" ;
+    dwc:namePublishedInYear "1844" .
+
+# combination of Dicnemon robustum
+<https://www.tropicos.org/name/35162373> a :TaxonName ;
+    :taxonNameString "Eucamptodon robustum" ;
+    dwc:scientificNameAuthorship "(E.B.Bartram) E.B.Bartram" ;
+    dwc:namePublishedIn "Brittonia 11: 88" ;
+    dwc:namePublishedInYear "1959" ;
+    :basionym <https://www.tropicos.org/name/35120798> .
+
+# combination of Dicranum bartramianum
+<https://www.tropicos.org/name/35204723> a :TaxonName ;
+    :taxonNameString "Dicranoloma bartramianum" ;
+    dwc:scientificNameAuthorship "(B.H.Allen) Klazenga" ;
+    dwc:namePublishedIn "J. Hattory Bot. Lab. 87: 57" ;
+    dwc:namePublishedInYear "1999" ;
+    :basionym <https://www.tropicos.org/name/35183593> .
+```
+
+[&lsqb;TaxonName-replacementNameFor-1.ttl&rsqb;](examples/TaxonName-replacementNameFor-1.ttl)
+
+
+```turtle
 <https://www.tropicos.org/name/35000146> a :TaxonName ;
     :taxonNameString "Braunfelsia" ;
     dwc:scientificNameAuthorship "Paris" ;
@@ -1424,7 +1465,7 @@ In the Zoological Code, a 'replacement name' is a name established to replace  a
     :nomenclaturalStatus "http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/illegitimum" .
 ```
 
-[&lsqb;TaxonName-replacementNameFor.ttl&rsqb;](examples/TaxonName-replacementNameFor.ttl)
+[&lsqb;TaxonName-replacementNameFor-2.ttl&rsqb;](examples/TaxonName-replacementNameFor-2.ttl)
 
 ### tcs:conservedAgainst
 
