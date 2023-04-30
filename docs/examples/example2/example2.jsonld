@@ -1,37 +1,23 @@
 {
-  "@context": [
-    "https://raw.githubusercontent.com/tdwg/tcs2/examples/docs/examples/context.jsonld",
-    {"ex": "https://tdwg.github.io/tcs2/examples/"}
-  ],
-  "@id": "ex:2",
+  "@context": "https://raw.githubusercontent.com/tdwg/tcs2/examples/docs/examples/context.jsonld",
   "dcterms:title": "Example of a Taxon Concept from a field guide: Mimus polyglottos sec. Sibley 2014",
   "@graph": [
     {
-      "@id": "ex:2/taxon-concept/1",
-      "@type": [
-        "TaxonConcept", 
-        "skos:Concept", 
-        "openbiodiv-o:TaxonomicConcept", 
-        "dwc:Taxon"
-      ],
-      "skos:prefLabel": "Mimus polyglottos sec. Sibley 2014",
+      "@type": "TaxonConcept", 
+      "dcterms:title": "Mimus polyglottos sec. Sibley 2014",
       "taxonName": {
-        "@type": ["TaxonName", "skosxl:Label"],
-        "taxonomicNameString": "Mimus polyglottos"
+        "@type": "TaxonName",
+        "taxonNameString": "Mimus polyglottos"
       },
       "accordingTo": "urn:isbn:978-0-307-95790-0",
       "vernacularName": {
-        "@type": "skosxl:Label",
-        "skosxl:literalForm": {
-          "@value": "Northern Mockingbird",
-          "@language": "en"
-        }
-      },
-      "dwc:scientificName": "Mimus polyglottos",
-      "dwc:nameAccordingTo": "Sibley, 2014",
-      "dwc:vernacularName": {
-        "@value": "Northern Mockingbird",
-        "@language": "en"
+        "@set": [
+          {
+            "@type": "http://rs.gbif.org/terms/1.0/VernacularName",
+            "dwc:vernacularName": "Northern Mockingbird",
+            "dcterms:language": "en"
+          }
+        ]
       }
     },
     {
@@ -48,10 +34,10 @@
       "bibo:isbn": "978-0-307-95790-0",
       "bibo:edition": "2",
       "bibo:numPages": "599",
-      "dcterms:creator": "_:n19",
+      "dcterms:creator": { "@id": "_:n19" },
       "bibo:authorList": {
         "@list": [
-          "_:n19"
+          { "@id": "_:n19" }
         ]
       }
     },
