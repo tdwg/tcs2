@@ -62,6 +62,12 @@
     "gbif-code": "http://rs.gbif.org/vocabulary/gbif/nomenclatural_code/",
     "gbif-typestatus": "http://rs.gbif.org/vocabulary/gbif/type_status/",
 
+    "holotype": "http://rs.gbif.org/vocabulary/gbif/type_status/holotype",
+    "lectotype": "http://rs.gbif.org/vocabulary/gbif/type_status/lectotype",
+    "isotype": "http://rs.gbif.org/vocabulary/gbif/type_status/isotype",
+    "syntype": "http://rs.gbif.org/vocabulary/gbif/type_status/syntype",
+    "paratype": "http://rs.gbif.org/vocabulary/gbif/type_status/paratype",
+
     "ipni": "https://www.ipni.org/n/",
     "tropicos": "https://www.tropicos.org/name/"
   }
