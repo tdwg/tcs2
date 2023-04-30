@@ -26,30 +26,22 @@
     "basedOn": { "@type": "@id" },
     "conservedAgainst": { "@type": "@id" },
     "typifiedName": { "@type": "@id" },
-    "typeOfType": { "@type": "@id" },
+    "typeOfType": { "@type": "@vocab" },
     "typeName": { "@type": "@id" },
     "typeSpecimen": { "@type": "@id" },
     "typePublishedIn": { "@type": "@id" },
-
-    "isCongruentWith": "http://rs.tdwg.org/tcs-taxon-concept-relationship-type/values/isCongruentWith",
-    "hasProperSubset": "http://rs.tdwg.org/tcs-taxon-concept-relationship-type/values/hasProperSubset",
-    "isProperSubsetOf": "http://rs.tdwg.org/tcs-taxon-concept-relationship-type/values/isProperSubsetOf",
-    "partiallyOverlaps": "http://rs.tdwg.org/tcs-taxon-concept-relationship-type/values/partiallyOverlaps",
-    "isDisjointFrom": "http://rs.tdwg.org/tcs-taxon-concept-relationship-type/values/isDisjointFrom",
-    "intersects": "http://rs.tdwg.org/tcs-taxon-concept-relationship-type/values/intersects",
 
     "dwc": "http://rs.tdwg.org/dwc/terms/",
     "dwc:scientificName": { "@type": "xsd:string"},
     "dwc:scientificNameAuthorship": { "@type": "xsd:string" },
     "dwc:namePublishedIn": { "@type": "xsd:string" },
+    "dwc:namePublishedInYear": { "@type": "xsd:string" },
     "dwc:genericName": { "@type": "xsd:string" },
     "dwc:infragenericEpithet": { "@type": "xsd:string" },
     "dwc:specificEpithet": { "@type": "xsd:string" },
     "dwc:infraspecificEpithet": { "@type": "xsd:string" },
     "dwc:cultivarEpithet": { "@type": "xsd:string" },
     
-    "openbiodiv-o": "http://openbiodiv.net/",
-
     "dcterms": "http://purl.org/dc/terms/",
     "skos": "http://www.w3.org/2004/02/skos/core#",
     "skosxl": "http://www.w3.org/2008/05/skos-xl#",
@@ -58,17 +50,17 @@
     "foaf": "http://xmlns.com/foaf/0.1/",
     "address": "http://schemas.talis.com/2005/address/schema#",
 
-    "gbif-rank": "http://rs.gbif.org/vocabulary/gbif/rank/",
-    "gbif-code": "http://rs.gbif.org/vocabulary/gbif/nomenclatural_code/",
-    "gbif-typestatus": "http://rs.gbif.org/vocabulary/gbif/type_status/",
+    "isCongruentWith": "http://rs.tdwg.org/tcs-taxon-concept-relationship-type/values/isCongruentWith",
+    "hasProperSubset": "http://rs.tdwg.org/tcs-taxon-concept-relationship-type/values/hasProperSubset",
+    "isProperSubsetOf": "http://rs.tdwg.org/tcs-taxon-concept-relationship-type/values/isProperSubsetOf",
+    "partiallyOverlaps": "http://rs.tdwg.org/tcs-taxon-concept-relationship-type/values/partiallyOverlaps",
+    "isDisjointFrom": "http://rs.tdwg.org/tcs-taxon-concept-relationship-type/values/isDisjointFrom",
+    "intersects": "http://rs.tdwg.org/tcs-taxon-concept-relationship-type/values/intersects",
 
     "holotype": "http://rs.gbif.org/vocabulary/gbif/type_status/holotype",
     "lectotype": "http://rs.gbif.org/vocabulary/gbif/type_status/lectotype",
     "isotype": "http://rs.gbif.org/vocabulary/gbif/type_status/isotype",
     "syntype": "http://rs.gbif.org/vocabulary/gbif/type_status/syntype",
-    "paratype": "http://rs.gbif.org/vocabulary/gbif/type_status/paratype",
-
-    "ipni": "https://www.ipni.org/n/",
-    "tropicos": "https://www.tropicos.org/name/"
+    "paratype": "http://rs.gbif.org/vocabulary/gbif/type_status/paratype"
   }
 }
