@@ -476,10 +476,10 @@
     The `conservedAgainst` property takes another Taxon Name; a Taxon Name can 
     be conserved against more than one other Taxon Names.
   notes: >-
-    A scientific name at and below the rank of family is not conserved against 
-    all other names, but only against one or more names that in turn are 
-    rejected against the conserved name. A name can be conserved against more 
-    than one other name, so this property is repeatable.
+    A scientific name below the rank of family is not conserved against all 
+    other names, but only against one or more names that in turn are rejected 
+    against the conserved name. A name can be conserved against more than one 
+    other name, so this property is repeatable.
   examples:
     - TaxonName-conservedAgainst
   type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property

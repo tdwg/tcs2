@@ -1464,7 +1464,7 @@ In the Zoological Code, a 'replacement name' is a name established to replace  a
 
 **Comments**
 
-A scientific name at and below the rank of family is not conserved against  all other names, but only against one or more names that in turn are  rejected against the conserved name. A name can be conserved against more  than one other name, so this property is repeatable.
+A scientific name below the rank of family is not conserved against all  other names, but only against one or more names that in turn are rejected  against the conserved name. A name can be conserved against more than one  other name, so this property is repeatable.
 
 
 **Examples**
