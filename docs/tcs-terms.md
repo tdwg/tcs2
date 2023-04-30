@@ -1402,7 +1402,29 @@ _:b1 a :TaxonName ;
 
 **Comments**
 
-In the Zoological Code, a 'replacement name' is a name established to replace  an already established name. The term used in the Botanical Code is 'avowed  substitute'. In both Codes (maybe all nomenclatural codes) the latin term  'nomen novum' (nom. nov.) is used as well. In the Botanical Code,  `replacementNameFor` is a 'replaced synonym', which is to an avowed  substitute ('nom. nov.') what 'basionym' is to a new combination  ('comb. nov.').
+In the Zoological Code, a 'replacement name' is a name established to replace  an already established name. The term used in the Botanical Code is 'avowed  substitute'. In both Codes (maybe all nomenclatural codes) the latin term  'nomen novum' (nom. nov.) is used as well. In the Botanical Code,  `replacementNameFor` is a 'replaced synonym', which is to an avowed  substitute ('nom. nov.') what 'basionym' is to a new combination  ('comb. nov.'). Unlike `basionym`, `replacementNameFor` can be an  illegitimate name.
+
+
+**Examples**
+
+
+```turtle
+<https://www.tropicos.org/name/35000146> a :TaxonName ;
+    :taxonNameString "Braunfelsia" ;
+    dwc:scientificNameAuthorship "Paris" ;
+    dwc:namePublishedIn "Index Bryol.: 148" ;
+    dwc:namePublishedInYear "1894" ;
+    :replacedSynonym <https://www.tropicos.org/name/35001206> .
+
+<https://www.tropicos.org/name/35001206> a :TaxonName ;
+    :taxonNameString "Solmsia" ;
+    dwc:scientificNameAuthorship "Hampe" ;
+    dwc:namePublishedIn "Nuovo Giorn. Bot. Ital. 4(4): 273, 281" ;
+    dwc:namePublishedInYear "1872" ;
+    :nomenclaturalStatus "http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/illegitimum" .
+```
+
+[&lsqb;TaxonName-replacementNameFor.ttl&rsqb;](examples/TaxonName-replacementNameFor.ttl)
 
 ### tcs:conservedAgainst
 

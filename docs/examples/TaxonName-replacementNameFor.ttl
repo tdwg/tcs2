@@ -1,0 +1,16 @@
+@prefix : <http://rs.tdwg.org/tcs/terms/> .
+@prefix dwc: <http://rs.tdwg.org/dwc/terms/> .
+
+<https://www.tropicos.org/name/35000146> a :TaxonName ;
+    :taxonNameString "Braunfelsia" ;
+    dwc:scientificNameAuthorship "Paris" ;
+    dwc:namePublishedIn "Index Bryol.: 148" ;
+    dwc:namePublishedInYear "1894" ;
+    :replacedSynonym <https://www.tropicos.org/name/35001206> .
+
+<https://www.tropicos.org/name/35001206> a :TaxonName ;
+    :taxonNameString "Solmsia" ;
+    dwc:scientificNameAuthorship "Hampe" ;
+    dwc:namePublishedIn "Nuovo Giorn. Bot. Ital. 4(4): 273, 281" ;
+    dwc:namePublishedInYear "1872" ;
+    :nomenclaturalStatus "http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/illegitimum" .

@@ -458,7 +458,10 @@
     'nomen novum' (nom. nov.) is used as well. In the Botanical Code, 
     `replacementNameFor` is a 'replaced synonym', which is to an avowed 
     substitute ('nom. nov.') what 'basionym' is to a new combination 
-    ('comb. nov.').
+    ('comb. nov.'). Unlike `basionym`, `replacementNameFor` can be an 
+    illegitimate name.
+  examples: 
+    - TaxonName-replacementNameFor
   type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonName
   required: No
