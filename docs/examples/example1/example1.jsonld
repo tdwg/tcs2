@@ -1,5 +1,5 @@
 {
-  "@context": "https://raw.githubusercontent.com/tdwg/tcs2/examples/docs/examples/context.jsonld",
+  "@context": "https://raw.githubusercontent.com/tdwg/tcs2/examples-stash/docs/examples/context.jsonld",
   "dcterms:title": "Dicranoloma assimile from Klazenga (1999)",
   "@graph": [
     {
@@ -22,11 +22,75 @@
       }
     },
     {
+      "@type": "TaxonConcept",
+      "dcterms:title": "Dicranoloma assimile sec. Tan & Koponen (1983)",
+      "taxonName": "https://www.tropicos.org/name/35121458",
+      "accordingTo": "https://www.tropicos.org/reference/9002886",
+      "synonym": {
+        "@list": [
+          { "@id": "https://www.tropicos.org/name/35124384" },
+          { "@id": "https://www.tropicos.org/name/35121535" },
+          { "@id": "https://www.tropicos.org/name/35121587" },
+          { "@id": "https://www.tropicos.org/name/35121569" }
+        ]
+      }
+    },
+    {
+      "@type": "TaxonConcept",
+      "dcterms:title": "Dicranoloma assimile sec. Eddy (1988)",
+      "taxonName": "https://www.tropicos.org/name/35121458",
+      "accordingTo": "https://www.tropicos.org/reference/9005756",
+      "synonym": {
+        "@list": [
+          { "@id": "https://www.tropicos.org/name/35121523" },
+          { "@id": "https://www.tropicos.org/name/35121483" }
+        ]
+      }
+    },
+    {
+      "@type": "TaxonConcept",
+      "dcterms:title": "Dicranoloma assimile sec. Tan (1989)",
+      "taxonName": "https://www.tropicos.org/name/35121458",
+      "accordingTo": "https://www.tropicos.org/reference/9006742",
+      "synonym": {
+        "@list": [
+          { "@id": "https://www.tropicos.org/name/35121587" },
+          { "@id": "https://www.tropicos.org/name/35121569" },
+          { "@id": "https://www.tropicos.org/name/35121523" },
+          { "@id": "https://www.tropicos.org/name/35121483" }
+        ]
+      }
+    },
+    {
+      "@type": "TaxonConcept",
+      "dcterms:title": "Dicranum assimile sec. Norris & Koponen (1990)",
+      "taxonName": "https://www.tropicos.org/name/35121913",
+      "accordingTo": "https://www.tropicos.org/reference/9007945",
+      "synonym": {
+        "@list": [
+          { "@id": "https://www.tropicos.org/name/35121587" }
+        ]
+      }
+    },
+    {
+      "@type": "TaxonConcept",
+      "dcterms:title": "Dicranoloma assimile sec. Gao (1994)",
+      "taxonName": "https://www.tropicos.org/name/35121458",
+      "accordingTo": "https://www.tropicos.org/reference/9015584",
+      "synonym": {
+        "@list": [
+          { "@id": "https://www.tropicos.org/name/35121569" },
+          { "@id": "https://www.tropicos.org/name/35182608" },
+          { "@id": "https://www.tropicos.org/name/35124238" }
+        ]
+      }
+    },
+    {
       "@type": "TaxonName",
       "@id": "https://www.tropicos.org/name/35121458",
       "taxonNameString": "Dicranoloma assimile",
       "dwc:scientificNameAuthorship": "(Hampe) Renauld",
-      "namePublishedIn": "_:HE6KA2A4",
+      "namePublishedIn": "https://www.tropicos.org/reference/100042929",
       "dwc:namePublishedIn": "Rev. Bryol. 28: 69 (1901)",
       "dwc:namePublishedInYear": "1901",
       "basionym": "https://www.tropicos.org/name/35121913"
@@ -43,7 +107,7 @@
         "typifiedName": [
           {
             "@type": "NomenclaturalType",
-            "typeOfType": "holotype",
+            "typeOfType": "http://rs.gbif.org/vocabulary/gbif/type_status/holotype",
             "typeSpecimen": {
               "@type": "dwc:PreservedSpecimen",
               "dwc:country": "Indonesia",
@@ -55,7 +119,7 @@
           },
           {
             "@type": "NomenclaturalType",
-            "typeOfType": "isotype",
+            "typeOfType": "http://rs.gbif.org/vocabulary/gbif/type_status/isotype",
             "typeSpecimen": {
               "@type": "dwc:PreservedSpecimen",
               "dwc:country": "Indonesia",
@@ -73,7 +137,7 @@
       "@id": "https://www.tropicos.org/name/35154841",
       "taxonNameString": "Leucoloma assimile",
       "dwc:scientificNameAuthorship": "(Hampe) Broth.",
-      "namePublishedIn": "_:QCZTMYTT",
+      "namePublishedIn": "https://www.tropicos.org/reference/9029579",
       "dwc:namePublishedIn": "Nat. Pflanzenfam. 1,3: 322 (1901)",
       "dwc:namePublishedInYear": "1901",
       "basionym": "https://www.tropicos.org/name/35121913"
@@ -82,7 +146,7 @@
       "@type": "TaxonName",
       "@id": "https://www.tropicos.org/name/35124384",
       "taxonNameString": "Dicranum sumatranum",
-      "dwc:scientificNameAuthorship": "M\u00fcll.Hal.",
+      "dwc:scientificNameAuthorship": "Müll.Hal.",
       "namePublishedIn": "https://www.tropicos.org/publication/658",
       "dwc:namePublishedIn": "Genera musc. fr.: 285 (1901)",
       "dwc:namePublishedInYear": "1901",
@@ -90,7 +154,7 @@
         "typifiedName": [
           {
             "@type": "NomenclaturalType",
-            "typeOfType": "holotype",
+            "typeOfType": "http://rs.gbif.org/vocabulary/gbif/type_status/holotype",
             "typeSpecimen": {
               "@type": "dwc:PreservedSpecimen",
               "dwc:country": "Indonesia",
@@ -105,7 +169,7 @@
           },
           {
             "@type": "NomenclaturalType",
-            "typeOfType": "lectotype",
+            "typeOfType": "http://rs.gbif.org/vocabulary/gbif/type_status/lectotype",
             "typeSpecimen": {
               "@type": "dwc:PreservedSpecimen",
               "dwc:country": "Indonesia",
@@ -117,11 +181,11 @@
               "dwc:institutionCode": "H",
               "dwc:collectionCode": "H-BR"
             },
-            "typePublishedIn": "_:JVTZRNZJ"
+            "typePublishedIn": "https://www.tropicos.org/reference/9002886"
           },
           {
             "@type": "NomenclaturalType",
-            "typeOfType": "isotype",
+            "typeOfType": "http://rs.gbif.org/vocabulary/gbif/type_status/isotype",
             "typeSpecimen": {
               "@type": "dwc:PreservedSpecimen",
               "dwc:country": "Indonesia",
@@ -135,7 +199,7 @@
           },
           {
             "@type": "NomenclaturalType",
-            "typeOfType": "isotype",
+            "typeOfType": "http://rs.gbif.org/vocabulary/gbif/type_status/isotype",
             "typeSpecimen": {
               "@type": "dwc:PreservedSpecimen",
               "dwc:country": "Indonesia",
@@ -150,7 +214,7 @@
           },
           {
             "@type": "NomenclaturalType",
-            "typeOfType": "isotype",
+            "typeOfType": "http://rs.gbif.org/vocabulary/gbif/type_status/isotype",
             "typeSpecimen": {
               "@type": "dwc:PreservedSpecimen",
               "dwc:country": "Indonesia",
@@ -158,7 +222,7 @@
               "dwc:stateOrProvince": "Sumatra Barat",
               "dwc:verbatimLocality": "West Sumatra",
               "dwc:recordedBy": "Micholitz, W.",
-              "dwc:recordNumber": "49",
+              "dwc:recordNumber": "48",
               "dwc:institutionCode": "S"
             }
           }
@@ -169,8 +233,8 @@
       "@type": "TaxonName",
       "@id": "https://www.tropicos.org/name/35155131",
       "taxonNameString": "Leucoloma sumatranum",
-      "dwc:scientificNameAuthorship": "(M\u00fcll.Hal.) Broth.",
-      "namePublishedIn": "_:QCZTMYTT",
+      "dwc:scientificNameAuthorship": "(Müll.Hal.) Broth.",
+      "namePublishedIn": "https://www.tropicos.org/reference/9029579",
       "dwc:namePublishedIn": "Nat. Pflanzenfam. 1,3: 322 (1901)",
       "dwc:namePublishedInYear": "1901",
       "basionym": "https://www.tropicos.org/name/35124384"
@@ -179,7 +243,7 @@
       "@type": "TaxonName",
       "@id": "https://www.tropicos.org/name/35121646",
       "taxonNameString": "Dicranoloma sumatranum",
-      "dwc:scientificNameAuthorship": "(M\u00fcll.Hal.) Renauld",
+      "dwc:scientificNameAuthorship": "(Müll.Hal.) Renauld",
       "namePublishedIn": "https://www.tropicos.org/publication/4881",
       "dwc:namePublishedIn": "Essai Leucoloma 14 (1909)",
       "dwc:namePublishedInYear": "1909",
@@ -190,19 +254,19 @@
       "@id": "https://www.tropicos.org/name/35121535",
       "taxonNameString": "Dicranoloma gedeanum",
       "dwc:scientificNameAuthorship": "Renauld & Cardot",
-      "namePublishedIn": "_:7CXQYQDB",
+      "namePublishedIn": "https://www.tropicos.org/reference/9010439",
       "dwc:namePublishedIn": "Rev. Bryol. 28: 117 (1901)",
       "dwc:namePublishedInYear": "1901",
       "@reverse": {
         "typifiedName": [
           {
             "@type": "NomenclaturalType",
-            "typeOfType": "holotype",
+            "typeOfType": "http://rs.gbif.org/vocabulary/gbif/type_status/holotype",
             "typeSpecimen": {
               "@type": "dwc:PreservedSpecimen",
               "dwc:country": "Indonesia",
               "dwc:island": "Java",
-              "dwc:recordedBy": "Lef\u00e8bre",
+              "dwc:recordedBy": "Lefèbre",
               "dwc:recordNumber": "s.n.",
               "dwc:institutionCode": "P",
               "dwc:disposition": "not found"
@@ -210,12 +274,12 @@
           },
           {
             "@type": "NomenclaturalType",
-            "typeOfType": "isotype",
+            "typeOfType": "http://rs.gbif.org/vocabulary/gbif/type_status/isotype",
             "typeSpecimen": {
               "@type": "dwc:PreservedSpecimen",
               "dwc:country": "Indonesia",
               "dwc:island": "Java",
-              "dwc:recordedBy": "Lef\u00e8bre",
+              "dwc:recordedBy": "Lefèbre",
               "dwc:recordNumber": "s.n.",
               "dwc:institutionCode": "FH",
               "dwc:collectionCode": "FH-FL"
@@ -229,14 +293,14 @@
       "@id": "https://www.tropicos.org/name/35204815",
       "taxonNameString": "Dicranum assimile f. major",
       "dwc:scientificNameAuthorship": "M.Fleisch.",
-      "namePublishedIn": "_:PS5TWLLZ",
+      "namePublishedIn": "https://www.tropicos.org/reference/9005094",
       "dwc:namePublishedIn": "Musci Fl. Buitenzorg 1: 74 (1904)",
       "dwc:namePublishedInYear": "1904",
       "@reverse": {
         "typifiedName": [
           {
             "@type": "NomenclaturalType",
-            "typeOfType": "holotype",
+            "typeOfType": "http://rs.gbif.org/vocabulary/gbif/type_status/holotype",
             "typeSpecimen": {
               "@type": "dwc:PreservedSpecimen",
               "dwc:island": "Borneo",
@@ -248,7 +312,7 @@
           },
           {
             "@type": "NomenclaturalType",
-            "typeOfType": "isotype",
+            "typeOfType": "http://rs.gbif.org/vocabulary/gbif/type_status/isotype",
             "typeSpecimen": {
               "@type": "dwc:PreservedSpecimen",
               "dwc:island": "Borneo",
@@ -266,13 +330,13 @@
       "taxonNameString": "Dicranoloma perarmatum",
       "dwc:scientificNameAuthorship": "Broth.",
       "namePublishedIn": "_:JHNVI8D4",
-      "dwc:namePublishedIn": "\u00d6fvers. Finska Vetensk.-Soc. F\u00f6rh. 47(14): 1 (1905)",
+      "dwc:namePublishedIn": "Öfvers. Finska Vetensk.-Soc. Förh. 47(14): 1 (1905)",
       "dwc:namePublishedInYear": "1905",
       "@reverse": {
         "typifiedName": [
           {
             "@type": "NomenclaturalType",
-            "typeOfType": "holotype",
+            "typeOfType": "http://rs.gbif.org/vocabulary/gbif/type_status/holotype",
             "typeSpecimen": {
               "@type": "dwc:PreservedSpecimen",
               "dwc:country": "Philippines",
@@ -288,7 +352,7 @@
           },
           {
             "@type": "NomenclaturalType",
-            "typeOfType": "isotype",
+            "typeOfType": "http://rs.gbif.org/vocabulary/gbif/type_status/isotype",
             "typeSpecimen": {
               "@type": "dwc:PreservedSpecimen",
               "dwc:country": "Philippines",
@@ -304,7 +368,7 @@
           },
           {
             "@type": "NomenclaturalType",
-            "typeOfType": "isotype",
+            "typeOfType": "http://rs.gbif.org/vocabulary/gbif/type_status/isotype",
             "typeSpecimen": {
               "@type": "dwc:PreservedSpecimen",
               "dwc:country": "Philippines",
@@ -320,7 +384,7 @@
           },
           {
             "@type": "NomenclaturalType",
-            "typeOfType": "isotype",
+            "typeOfType": "http://rs.gbif.org/vocabulary/gbif/type_status/isotype",
             "typeSpecimen": {
               "@type": "dwc:PreservedSpecimen",
               "dwc:country": "Philippines",
@@ -341,14 +405,14 @@
       "@id": "https://www.tropicos.org/name/35121569",
       "taxonNameString": "Dicranoloma monocarpum",
       "dwc:scientificNameAuthorship": "Broth.",
-      "namePublishedIn": "_:TJW6677Q",
+      "namePublishedIn": "https://www.tropicos.org/reference/9005056",
       "dwc:namePublishedIn": "Philipp. J. Sci., C. 13: 202 (1918)",
       "dwc:namePublishedInYear": "1918",
       "@reverse": {
         "typifiedName": [
           {
             "@type": "NomenclaturalType",
-            "typeOfType": "holotype",
+            "typeOfType": "http://rs.gbif.org/vocabulary/gbif/type_status/holotype",
             "typeSpecimen": {
               "@type": "dwc:PreservedSpecimen",
               "dwc:country": "Philippines",
@@ -365,18 +429,86 @@
       }
     },
     {
+      "@id": "https://www.tropicos.org/name/35182608",
+      "@type": "TaxonName",
+      "taxonNameString": "Dicranoloma formosanum",
+      "dwc:scientificNameAuthorship": "Broth.",
+      "dwc:namePublishedIn": "Ann. Bryol. 1: 17",
+      "dwc:namePublishedInYear": "1928",
+      "namePublishedIn": "https://www.tropicos.org/reference/9005081",
+      "@reverse": {
+        "typifiedName": [
+          {
+            "@type": "NomenclaturalType",
+            "typeOfType": "http://rs.gbif.org/vocabulary/gbif/type_status/lectotype",
+            "typeSpecimen": {
+              "@type": "dwc:PreservedSpecimen",
+              "dwc:country": "Taiwan",
+              "dwc:stateOrProvince": "Taichu",
+              "dwc:verbatimLocality": "Mt. Tankitake",
+              "dwc:recordedBy": "Shimada",
+              "dwc:recordNumber": "2468",
+              "dwc:institutionCode": "H",
+              "dwc:collectionCode": "H-BR"
+            },
+            "typePublishedIn": "https://www.tropicos.org/reference/9002886"
+          },
+          {
+            "@type": "NomenclaturalType",
+            "typeOfType": "http://rs.gbif.org/vocabulary/gbif/type_status/syntype",
+            "typeSpecimen": {
+              "@type": "dwc:PreservedSpecimen",
+              "dwc:country": "Taiwan",
+              "dwc:stateOrProvince": "Taichu",
+              "dwc:verbatimLocality": "Mt. Hassen",
+              "dwc:recordedBy": "Sasaki",
+              "dwc:recordNumber": "2412",
+              "dwc:institutionCode": "H",
+              "dwc:collectionCode": "H-BR"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "@id": "https://www.tropicos.org/name/35124238",
+      "@type": "TaxonName",
+      "taxonNameString": "Dicranum sericifolium",
+      "dwc:scientificNameAuthorship": "Dixon",
+      "dwc:namePublishedIn": "Hong Kong Naturalist, Suppl. 2: 4",
+      "dwc:namePublishedInYear": "1933",
+      "namePublishedIn": "https://www.tropicos.org/reference/9005951",
+      "@reverse": {
+        "typifiedName": [
+          {
+            "@type": "NomenclaturalType",
+            "typeOfType": "http://rs.gbif.org/vocabulary/gbif/type_status/lectotype",
+            "typeSpecimen": {
+              "@type": "dwc:PreservedSpecimen",
+              "dwc:country": "China",
+              "dwc:stateOrProvince": "Hong Kong",
+              "dwc:verbatimLocality": "Lan Tau Peak",
+              "dwc:recordedBy": "Herklotz",
+              "dwc:recordNumber": "349",
+              "dwc:institutionCode": "BM"
+            }
+          }
+        ]
+      }
+    },
+    {
       "@type": "TaxonName",
       "@id": "https://www.tropicos.org/name/35121523",
       "taxonNameString": "Dicranoloma euryloma",
       "dwc:scientificNameAuthorship": "Dixon",
-      "namePublishedIn": "_:WH2VEJW4",
+      "namePublishedIn": "https://www.tropicos.org/reference/9005961",
       "dwc:namePublishedIn": "J. Linn. Soc. Bot. 50: 69 (1935)",
       "dwc:namePublishedInYear": "1935",
       "@reverse": {
         "typifiedName": [
           {
             "@type": "NomenclaturalType",
-            "typeOfType": "holotype",
+            "typeOfType": "http://rs.gbif.org/vocabulary/gbif/type_status/holotype",
             "typeSpecimen": {
               "@type": "dwc:PreservedSpecimen",
               "dwc:country": "Malaysia",
@@ -391,7 +523,7 @@
           },
           {
             "@type": "NomenclaturalType",
-            "typeOfType": "isotype",
+            "typeOfType": "http://rs.gbif.org/vocabulary/gbif/type_status/isotype",
             "typeSpecimen": {
               "@type": "dwc:PreservedSpecimen",
               "dwc:country": "Malaysia",
@@ -407,7 +539,7 @@
           },
           {
             "@type": "NomenclaturalType",
-            "typeOfType": "paratype",
+            "typeOfType": "http://rs.gbif.org/vocabulary/gbif/type_status/paratype",
             "typeSpecimen": {
               "@type": "dwc:PreservedSpecimen",
               "dwc:country": "Malaysia",
@@ -428,14 +560,14 @@
       "@id": "https://www.tropicos.org/name/35121524",
       "taxonNameString": "Dicranoloma euryloma var. rugifolium",
       "dwc:scientificNameAuthorship": "E.B.Bartram",
-      "namePublishedIn": "_:ZCFFTZHT",
+      "namePublishedIn": "https://www.tropicos.org/reference/9003884",
       "dwc:namePublishedIn": "Philipp. J. Sci. 61: 237 (1936)",
       "dwc:namePublishedInYear": "1936",
       "@reverse": {
         "typifiedName": [
           {
             "@type": "NomenclaturalType",
-            "typeOfType": "holotype",
+            "typeOfType": "http://rs.gbif.org/vocabulary/gbif/type_status/holotype",
             "typeSpecimen": {
               "@type": "dwc:PreservedSpecimen",
               "dwc:country": "Malaysia",
@@ -443,7 +575,7 @@
               "dwc:stateOrProvince": "Sarawak",
               "dwc:verbatimLocality": "Mt Tibang",
               "dwc:locationRemarks": "1600 m",
-              "dwc:recordedBy": "Mj\u00f6berg",
+              "dwc:recordedBy": "Mjöberg",
               "dwc:recordNumber": "s.n.",
               "dwc:institutionCode": "FH",
               "dwc:collectionCode": "FH-Bart."
@@ -451,7 +583,7 @@
           },
           {
             "@type": "NomenclaturalType",
-            "typeOfType": "isotype",
+            "typeOfType": "http://rs.gbif.org/vocabulary/gbif/type_status/isotype",
             "typeSpecimen": {
               "@type": "dwc:PreservedSpecimen",
               "dwc:country": "Malaysia",
@@ -459,14 +591,14 @@
               "dwc:stateOrProvince": "Sarawak",
               "dwc:verbatimLocality": "Mt Tibang",
               "dwc:locationRemarks": "1600 m",
-              "dwc:recordedBy": "Mj\u00f6berg",
+              "dwc:recordedBy": "Mjöberg",
               "dwc:recordNumber": "s.n.",
               "dwc:institutionCode": "BM"
             }
           },
           {
             "@type": "NomenclaturalType",
-            "typeOfType": "isotype",
+            "typeOfType": "http://rs.gbif.org/vocabulary/gbif/type_status/isotype",
             "typeSpecimen": {
               "@type": "dwc:PreservedSpecimen",
               "dwc:country": "Malaysia",
@@ -474,7 +606,7 @@
               "dwc:stateOrProvince": "Sarawak",
               "dwc:verbatimLocality": "Mt Tibang",
               "dwc:locationRemarks": "1600 m",
-              "dwc:recordedBy": "Mj\u00f6berg",
+              "dwc:recordedBy": "Mjöberg",
               "dwc:recordNumber": "s.n.",
               "dwc:institutionCode": "FH"
             }
@@ -487,14 +619,14 @@
       "@id": "https://www.tropicos.org/name/35121480",
       "taxonNameString": "Dicranoloma brachyphyllum",
       "dwc:scientificNameAuthorship": "Nog.",
-      "namePublishedIn": "_:2R6W6BY5",
+      "namePublishedIn": "https://www.tropicos.org/reference/9028720",
       "dwc:namePublishedIn": "J. Hattori Bot. Lab. 10: 3 (1953)",
       "dwc:namePublishedInYear": "1953",
       "@reverse": {
         "typifiedName": [
           {
             "@type": "NomenclaturalType",
-            "typeOfType": "holotype",
+            "typeOfType": "http://rs.gbif.org/vocabulary/gbif/type_status/holotype",
             "typeSpecimen": {
               "@type": "dwc:PreservedSpecimen",
               "dwc:country": "Papua New Guinea",
@@ -509,7 +641,7 @@
           },
           {
             "@type": "NomenclaturalType",
-            "typeOfType": "isotype",
+            "typeOfType": "http://rs.gbif.org/vocabulary/gbif/type_status/isotype",
             "typeSpecimen": {
               "@type": "dwc:PreservedSpecimen",
               "dwc:country": "Papua New Guinea",
@@ -526,18 +658,144 @@
       }
     },
     {
+      "@id": "https://www.tropicos.org/name/35121483",
+      "@type": "TaxonName",
+      "taxonNameString": "Dicranoloma brassii",
+      "dwc:scientificNameAuthorship": "E.B.Bartram",
+      "namePublishedIn": "https://www.tropicos.org/reference/9003947",
+      "dwc:namePublishedIn": "Brittonia 9: 34",
+      "dwc:namePublishedInYear": "1957",
+      "@reverse": {
+        "typifiedName": [
+          {
+            "@type": "NomenclaturalType",
+            "typeOfType": "http://rs.gbif.org/vocabulary/gbif/type_status/holotype",
+            "typeSpecimen": {
+              "@type": "dwc:PreservedSpecimen",
+              "dwc:country": "Papua New Guinea",
+              "dwc:stateOrProvince": "Milne Bay",
+              "dwc:verbatimLocality": "Mt. Dayman, north slopes",
+              "dwc:habitat": "Mossy forest, on ground",
+              "dwc:minimumElevationInMeters": 2250,
+              "dwc:maximumElevationInMeters": 2250,
+              "dwc:recordedBy": "Brass, L.J.",
+              "dwc:recordNumber": "22854",
+              "dwc:institutionCode": "FH",
+              "dwc:collectionCode": "FH-Bartr."
+            }
+          },
+          {
+            "@type": "NomenclaturalType",
+            "typeOfType": "http://rs.gbif.org/vocabulary/gbif/type_status/isotype",
+            "typeSpecimen": {
+              "@type": "dwc:PreservedSpecimen",
+              "dwc:country": "Papua New Guinea",
+              "dwc:stateOrProvince": "Milne Bay",
+              "dwc:verbatimLocality": "Mt. Dayman, north slopes",
+              "dwc:habitat": "Mossy forest, on ground",
+              "dwc:minimumElevationInMeters": 2250,
+              "dwc:maximumElevationInMeters": 2250,
+              "dwc:recordedBy": "Brass, L.J.",
+              "dwc:recordNumber": "22854",
+              "dwc:institutionCode": "CBG"
+            }
+          },
+          {
+            "@type": "NomenclaturalType",
+            "typeOfType": "http://rs.gbif.org/vocabulary/gbif/type_status/isotype",
+            "typeSpecimen": {
+              "@type": "dwc:PreservedSpecimen",
+              "dwc:country": "Papua New Guinea",
+              "dwc:stateOrProvince": "Milne Bay",
+              "dwc:verbatimLocality": "Mt. Dayman, north slopes",
+              "dwc:habitat": "Mossy forest, on ground",
+              "dwc:minimumElevationInMeters": 2250,
+              "dwc:maximumElevationInMeters": 2250,
+              "dwc:recordedBy": "Brass, L.J.",
+              "dwc:recordNumber": "22854",
+              "dwc:institutionCode": "FH"
+            }
+          },
+          {
+            "@type": "NomenclaturalType",
+            "typeOfType": "http://rs.gbif.org/vocabulary/gbif/type_status/holotype",
+            "typeSpecimen": {
+              "@type": "dwc:PreservedSpecimen",
+              "dwc:country": "Papua New Guinea",
+              "dwc:stateOrProvince": "Milne Bay",
+              "dwc:verbatimLocality": "Mt. Dayman, north slopes",
+              "dwc:habitat": "Mossy forest, on ground",
+              "dwc:minimumElevationInMeters": 2250,
+              "dwc:maximumElevationInMeters": 2250,
+              "dwc:recordedBy": "Brass, L.J.",
+              "dwc:recordNumber": "22854",
+              "dwc:institutionCode": "H"
+            }
+          },
+          {
+            "@type": "NomenclaturalType",
+            "typeOfType": "http://rs.gbif.org/vocabulary/gbif/type_status/syntype",
+            "typeSpecimen": {
+              "@type": "dwc:PreservedSpecimen",
+              "dwc:country": "Papua New Guinea",
+              "dwc:stateOrProvince": "Milne Bay",
+              "dwc:verbatimLocality": "Mt. Dayman, north slopes",
+              "dwc:habitat": "Lower tree trunks in mossy forest",
+              "dwc:minimumElevationInMeters": 2230,
+              "dwc:maximumElevationInMeters": 2230,
+              "dwc:recordedBy": "Brass, L.J.",
+              "dwc:recordNumber": "22390",
+              "dwc:institutionCode": "FH"
+            }
+          },
+          {
+            "@type": "NomenclaturalType",
+            "typeOfType": "http://rs.gbif.org/vocabulary/gbif/type_status/syntype",
+            "typeSpecimen": {
+              "@type": "dwc:PreservedSpecimen",
+              "dwc:country": "Papua New Guinea",
+              "dwc:stateOrProvince": "Milne Bay",
+              "dwc:verbatimLocality": "Mt. Dayman, north slopes",
+              "dwc:habitat": "Dryish forest of slopes, tufted on logs and lower tree trunks",
+              "dwc:minimumElevationInMeters": 2000,
+              "dwc:maximumElevationInMeters": 2000,
+              "dwc:recordedBy": "Brass, L.J.",
+              "dwc:recordNumber": "22558",
+              "dwc:institutionCode": "FH"
+            }
+          },
+          {
+            "@type": "NomenclaturalType",
+            "typeOfType": "http://rs.gbif.org/vocabulary/gbif/type_status/syntype",
+            "typeSpecimen": {
+              "@type": "dwc:PreservedSpecimen",
+              "dwc:country": "Papua New Guinea",
+              "dwc:stateOrProvince": "Milne Bay",
+              "dwc:verbatimLocality": "Mt. Dayman, north slopes",
+              "dwc:habitat": "Dryish forest of slopes, tufted on logs and lower tree trunks",
+              "dwc:minimumElevationInMeters": 2000,
+              "dwc:maximumElevationInMeters": 2000,
+              "dwc:recordedBy": "Brass, L.J.",
+              "dwc:recordNumber": "22558",
+              "dwc:institutionCode": "CBG"
+            }
+          }
+        ]
+      }
+    },
+    {
       "@type": "TaxonName",
       "@id": "https://www.tropicos.org/name/35168349",
       "taxonNameString": "Dicranoloma havilandii var. latifolium",
       "dwc:scientificNameAuthorship": "Zanten",
-      "namePublishedIn": "_:EE7TDMF8",
+      "namePublishedIn": "https://www.tropicos.org/reference/9010062",
       "dwc:namePublishedIn": "Nova Guinea, Bot. 10(16): 272 (1964)",
       "dwc:namePublishedInYear": "1964",
       "@reverse": {
         "typifiedName": [
           {
             "@type": "NomenclaturalType",
-            "typeOfType": "holotype",
+            "typeOfType": "http://rs.gbif.org/vocabulary/gbif/type_status/holotype",
             "typeSpecimen": {
               "@type": "dwc:PreservedSpecimen",
               "dwc:country": "Indonesia",
@@ -552,7 +810,7 @@
           },
           {
             "@type": "NomenclaturalType",
-            "typeOfType": "isotype",
+            "typeOfType": "http://rs.gbif.org/vocabulary/gbif/type_status/isotype",
             "typeSpecimen": {
               "@type": "dwc:PreservedSpecimen",
               "dwc:country": "Indonesia",
@@ -567,7 +825,7 @@
           },
           {
             "@type": "NomenclaturalType",
-            "typeOfType": "isotype",
+            "typeOfType": "http://rs.gbif.org/vocabulary/gbif/type_status/isotype",
             "typeSpecimen": {
               "@type": "dwc:PreservedSpecimen",
               "dwc:country": "Indonesia",
@@ -582,7 +840,7 @@
           },
           {
             "@type": "NomenclaturalType",
-            "typeOfType": "paratype",
+            "typeOfType": "http://rs.gbif.org/vocabulary/gbif/type_status/paratype",
             "typeSpecimen": {
               "@type": "dwc:PreservedSpecimen",
               "dwc:country": "Indonesia",
@@ -597,7 +855,7 @@
           },
           {
             "@type": "NomenclaturalType",
-            "typeOfType": "paratype",
+            "typeOfType": "http://rs.gbif.org/vocabulary/gbif/type_status/paratype",
             "typeSpecimen": {
               "@type": "dwc:PreservedSpecimen",
               "dwc:country": "Indonesia",
@@ -612,7 +870,7 @@
           },
           {
             "@type": "NomenclaturalType",
-            "typeOfType": "paratype",
+            "typeOfType": "http://rs.gbif.org/vocabulary/gbif/type_status/paratype",
             "typeSpecimen": {
               "@type": "dwc:PreservedSpecimen",
               "dwc:country": "Indonesia",
@@ -632,24 +890,27 @@
       "@id": "https://doi.org/10.18968/jhbl.87.0_1",
       "@type": "bibo:AcademicArticle",
       "dcterms:title": "A revision of the Malesian species of Dicranoloma (Dicranaceae, Musci)",
-      "dcterms:creator": { "@id": "_:N54663d0d057b4f048d3f8758708c96de" },
+      "dcterms:creator": { "@id": "https://orcid.org/0000-0003-2224-6821" },
       "bibo:authorList": {
-        "@list": [{"@id": "_:N54663d0d057b4f048d3f8758708c96de"}]
+        "@list": [{"@id": "https://orcid.org/0000-0003-2224-6821"}]
       },
       "dcterms:isPartOf": {
         "@type": "bibo:Issue",
         "dcterms:date": "1999",
-        "dcterms:isPartOf": {
-          "@type": "bibo:Journal",
-          "dcterms:title": "The Journal of the Hattori Botanical Laboratory"
-        },
+        "dcterms:isPartOf": { "@id": "https://www.tropicos.org/publication/680" },
         "bibo:volume": "87"
       },
       "bibo:pages": "1-130",
       "bibo:doi": "10.18968/jhbl.87.0_1"
     },
     {
-      "@id": "_:HE6KA2A4",
+      "@id": "https://www.tropicos.org/publication/680",
+      "@type": "bibo:Journal",
+      "dcterms:title": "The Journal of the Hattori Botanical Laboratory",
+      "bibo:shortTitle": "J. Hattori Bot. Lab."
+    },
+    {
+      "@id": "https://www.tropicos.org/reference/100042929",
       "@type": "bibo:AcademicArticle",
       "dcterms:title": "Nouvelle classification des Leucoloma",
       "dcterms:creator": {
@@ -661,15 +922,16 @@
       "dcterms:isPartOf": {
         "@type": "bibo:Issue",
         "dcterms:date": "1901",
-        "dcterms:isPartOf":     {
-          "@id": "_:N1bfb8ae9e82a4554932b3a2b1c92a9b4",
-          "@type": "bibo:Journal",
-          "dcterms:title": "Revue Bryologique",
-          "bibo:shortTitle": "Rev. Bryol."
-        },    
+        "dcterms:isPartOf": "https://www.tropicos.org/publication/791",
         "bibo:volume": "28"
       },
       "bibo:pages": "66-70, 85-87"
+    },
+    {
+      "@id": "https://www.tropicos.org/publication/791",
+      "@type": "bibo:Journal",
+      "dcterms:title": "Revue Bryologique",
+      "bibo:shortTitle": "Rev. Bryol."
     },
     {
       "@id": "https://www.tropicos.org/publication/667",
@@ -684,49 +946,11 @@
         ]
       },
       "dcterms:date": "1844",
-      "dcterms:publisher":     {
+      "dcterms:publisher": {
         "@type": "foaf:Organization",
+        "foaf:name": "Sumptibus Henry & Cohen",
         "address:localityName": "Bonn"
       }
-    },
-    {
-      "@id": "_:QCZTMYTT",
-      "@type": "bibo:BookSection",
-      "dcterms:title": "Dicranaceae",
-      "dcterms:creator": {
-        "@id": "_:N865f2ec8af89476d9e4956d4db26d162"
-      },
-      "bibo:authorList": {
-        "@list": [
-          { "@id": "_:N865f2ec8af89476d9e4956d4db26d162" }
-        ]
-      },
-      "dcterms:isPartOf":     {
-        "@id": "_:N7d9346494cba4ed19bb2f86f57e84a49",
-        "@type": "bibo:EditedBook",
-        "dcterms:title": "Die nat\u00fcrlichen Pflanzenfamilien",
-        "dcterms:date": "1901",
-        "bibo:editor": [
-          {
-            "@id": "_:Ndea481d02f794edcb50a463318fa2fc7"
-          },
-          {
-            "@id": "_:N41587ef3e8a84a9ebef3f7ba7f89a616"
-          }
-        ],
-        "bibo:editorList": {
-          "@list": [
-            { "@id": "_:Ndea481d02f794edcb50a463318fa2fc7" },
-            { "@id": "_:N41587ef3e8a84a9ebef3f7ba7f89a616" }
-          ]
-        },
-        "dcterms:publisher":     {
-          "@type": "foaf:Organization",
-          "address:localityName": "Leipzig"
-        },
-        "bibo:volume": "T. 1, Abt. 3, H. 1"
-      },  
-      "bibo:pages": "289-342"
     },
     {
       "@id": "https://www.tropicos.org/publication/658",
@@ -741,8 +965,9 @@
         ]
       },
       "dcterms:date": "1901",
-      "dcterms:publisher":     {
+      "dcterms:publisher": {
         "@type": "foaf:Organization",
+        "foaf:name": "Eduard Kummer",
         "address:localityName": "Leipzig"
       }
     },
@@ -759,13 +984,13 @@
         ]
       },
       "dcterms:date": "1909",
-      "dcterms:publisher":     {
+      "dcterms:publisher": {
         "@type": "foaf:Organization",
         "address:localityName": "Monaco"
       }
     },
     {
-      "@id": "_:7CXQYQDB",
+      "@id": "https://www.tropicos.org/reference/9010439",
       "@type": "bibo:AcademicArticle",
       "dcterms:title": "Notes sur deux collections de mousses de l'archipel indien",
       "dcterms:creator": {
@@ -773,40 +998,37 @@
       },
       "bibo:authorList": {
         "@list": [
-          {"@id": "_:Nfeaf7a4e129b479ebb8c2f50575ee7b7"}
+          { "@id": "_:Nfeaf7a4e129b479ebb8c2f50575ee7b7" }
         ]
       },
       "dcterms:isPartOf": {
-        "@id": "_:Na4fdef2f5a1748de9b30c23767beabc2",
         "@type": "bibo:Issue",
         "dcterms:date": "1901",
-        "dcterms:isPartOf":     {
-          "@type": "bibo:Journal",
-          "dcterms:title": "Revue Bryologique",
-          "bibo:shortTitle": "Rev. Bryol."
-        },
+        "dcterms:isPartOf": "https://www.tropicos.org/publication/791",
         "bibo:volume": "28"
       },
       "bibo:pages": "112-118"
     },
     {
-      "@id": "_:PS5TWLLZ",
+      "@id": "https://www.tropicos.org/reference/9005094",
       "@type": "bibo:Book",
-      "dcterms:title": "Die Musci der Flora von Buitenzorg",
-      "dcterms:creator": {
-        "@id": "_:N65346cc4be03468bb37acdac60cdda45"
+      "dcterms:isPartOf": {
+        "@id": "https://www.tropicos.org/publication/746",
+        "@type": "bibo:MultiVolumeBook",
+        "dcterms:title": "Die Musci der Flora von Buitenzorg",
+        "dcterms:creator": { "@id": "_:N65346cc4be03468bb37acdac60cdda45" },
+        "bibo:authorList": {
+          "@list": [
+            {"@id": "_:N65346cc4be03468bb37acdac60cdda45" }
+          ]
+        },
+        "dcterms:publisher": {
+          "@type": "foaf:Organization",
+          "address:localityName": "Leiden"
+        }
       },
-      "bibo:authorList": {
-        "@list": [
-          {"@id": "_:N65346cc4be03468bb37acdac60cdda45" }
-        ]
-      },
-      "dcterms:date": "1901-1902 [1904]",
-      "dcterms:publisher":     {
-        "@type": "foaf:Organization",
-        "address:localityName": "Leiden"
-      },
-      "bibo:volume": "1"
+      "bibo:volume": "1",
+      "dcterms:date": "1901-1902 [1904]"
     },
     {
       "@id": "_:JHNVI8D4",
@@ -820,21 +1042,23 @@
           { "@id": "_:N865f2ec8af89476d9e4956d4db26d162" }
         ]
       },
-      "dcterms:isPartOf":     {
+      "dcterms:isPartOf": {
+        "@id": "https://www.tropicos.org/publication/765",
         "@type": "bibo:Issue",
         "dcterms:date": "1905",
         "dcterms:isPartOf": {
           "@type": "bibo:Journal",
-          "dcterms:title": "\u00d6fversigt af Finska Vetenskaps-Societetens F\u00f6rhandlingar",
-          "bibo:shortTitle": "\u00d6fv. F\u00f6rh. Finsk. Vet.-Soc."
+          "dcterms:title": "Öfversigt af Finska Vetenskaps-Societetens Förhandlingar",
+          "bibo:shortTitle": "Öfv. Förh. Finsk. Vet.-Soc."
         },
         "bibo:issue": "14",
         "bibo:volume": "47"
       },
-      "bibo:pages": "1-12"
+      "bibo:pages": "1-12",
+      "dcterms:data": "1905"
     },
     {
-      "@id": "_:TJW6677Q",
+      "@id": "https://www.tropicos.org/reference/9005056",
       "@type": "bibo:AcademicArticle",
       "dcterms:title": "Contributions to the bryological flora of the Philippines. V",
       "dcterms:creator": {
@@ -845,10 +1069,11 @@
           { "@id": "_:N865f2ec8af89476d9e4956d4db26d162" }
         ]
       },
-      "dcterms:isPartOf":     {
+      "dcterms:isPartOf": {
         "@type": "bibo:Issue",
         "dcterms:date": "1918",
-        "dcterms:isPartOf":     {
+        "dcterms:isPartOf": {
+          "@id": "https://www.tropicos.org/publication/8671",
           "@type": "bibo:Journal",
           "dcterms:title": "The Philippine Journal of Science. Section C, Botany",
           "bibo:shortTitle": "Philipp. J. Sci., C."
@@ -858,7 +1083,7 @@
       "bibo:pages": "201-222"
     },
     {
-      "@id": "_:WH2VEJW4",
+      "@id": "https://www.tropicos.org/reference/9005961",
       "@type": "bibo:AcademicArticle",
       "dcterms:title": "A contribution to the moss flora of Borneo",
       "dcterms:creator": {
@@ -869,11 +1094,11 @@
           { "@id": "_:Na547a33dbdb74d20ad53a4afd66cbd7f" }
         ]
       },
-      "dcterms:isPartOf":     {
+      "dcterms:isPartOf": {
         "@type": "bibo:Issue",
         "dcterms:date": "1935",
-        "dcterms:isPartOf":     {
-          "@id": "_:N39ce01b8a5fc4922ac571baccf5d39cd",
+        "dcterms:isPartOf": {
+          "@id": "https://www.tropicos.org/publication/682",
           "@type": "bibo:Journal",
           "dcterms:title": "Journal of the Linnean Society, Botany",
           "bibo:shortTitle": "J. Linn. Soc., Bot."
@@ -883,7 +1108,7 @@
       "bibo:pages": "47-140"
     },
     {
-      "@id": "_:ZCFFTZHT",
+      "@id": "https://www.tropicos.org/reference/9003884",
       "@type": "bibo:AcademicArticle",
       "dcterms:title": "Bornean mosses, principally from Mount Kinabalu",
       "dcterms:creator": {
@@ -894,11 +1119,11 @@
           { "@id": "_:Nd643f29cd028450a87f2a7eb6ea71a5f" }
         ]
       },
-      "dcterms:isPartOf":     {
-        "@id": "_:N473d3b1d324344a98329cd4af1327a36",
+      "dcterms:isPartOf": {
         "@type": "bibo:Issue",
         "dcterms:date": "1936",
-        "dcterms:isPartOf":     {
+        "dcterms:isPartOf": {
+          "@id": "https://www.tropicos.org/publication/772",
           "@type": "bibo:Journal",
           "dcterms:title": "Philippine Journal of Science",
           "bibo:shortTitle": "Philipp. J. Sci."
@@ -908,7 +1133,7 @@
       "bibo:pages": "235-251"
     },
     {
-      "@id": "_:2R6W6BY5",
+      "@id": "https://www.tropicos.org/reference/9028720",
       "@type": "bibo:AcademicArticle",
       "dcterms:title": "Mosses of Mt. Sarawaket, New Guinea",
       "dcterms:creator": {
@@ -919,20 +1144,16 @@
           { "@id": "_:Ne1773e9a3e784f099d9dac6925267317" }
         ]
       },
-      "dcterms:isPartOf":     {
+      "dcterms:isPartOf": {
         "@type": "bibo:Issue",
         "dcterms:date": "1953",
-        "dcterms:isPartOf":     {
-          "@type": "bibo:Journal",
-          "dcterms:title": "Journal of the Hattori Botanical Laboratory",
-          "bibo:shortTitle": "J. Hattori Bot. Lab."
-        },
+        "dcterms:isPartOf": { "@id": "https://www.tropicos.org/publication/680" },
         "bibo:volume": "10"
       },  
       "bibo:pages": "1-23"
     },
     {
-      "@id": "_:EE7TDMF8",
+      "@id": "https://www.tropicos.org/reference/9010062",
       "@type": "bibo:AcademicArticle",
       "dcterms:title": "Mosses of the Star Mountain expedition",
       "dcterms:creator": {
@@ -943,10 +1164,11 @@
           { "@id": "_:N302873fa17f7445f939b79ac85621391" }
         ]
       },
-      "dcterms:isPartOf":     {
+      "dcterms:isPartOf": {
         "@type": "bibo:Issue",
         "dcterms:date": "1964",
-        "dcterms:isPartOf":     {
+        "dcterms:isPartOf": {
+          "@id": "https://www.tropicos.org/publication/761",
           "@type": "bibo:Journal",
           "dcterms:title": "Nova Guinea, Botany",
           "bibo:shortTitle": "Nova Guinea, Bot."
@@ -956,23 +1178,24 @@
       "bibo:pages": "263-368"
     },
     {
-      "@id": "_:JVTZRNZJ",
+      "@id": "https://www.tropicos.org/reference/9002886",
       "@type": "bibo:AcademicArticle",
       "dcterms:title": "Dicranoloma (Musci, Dicranaceae) in Southeast Asia, with special reference to the Philippine taxa",
       "dcterms:creator": [
-        { "@id": "_:n6" },
-        { "@id": "_:n8" }
+        { "@id": "_:N3e93c7e3b5ed4c10ae8a59558c0e7af9" },
+        { "@id": "_:N9fa6b6725a2349ee85cc42a96f8b1d94" }
       ],
       "bibo:authorList": {
         "@list": [
-        { "@id": "_:n6" },
-        { "@id": "_:n8" }
+        { "@id": "_:N3e93c7e3b5ed4c10ae8a59558c0e7af9" },
+        { "@id": "_:N9fa6b6725a2349ee85cc42a96f8b1d94" }
         ]
       },
       "dcterms:isPartOf": {
         "@type": "bibo:Issue",
         "dcterms:date": "1983",
         "dcterms:isPartOf": {
+          "@id": "https://www.tropicos.org/publication/516",
           "@type": "bibo:Journal",
           "dcterms:title": "Annales Botanici Fennici",
           "bibo:shortTitle": "Ann. Bot. Fenn."
@@ -980,6 +1203,206 @@
         "bibo:volume": "20"
       },
       "bibo:pages": "317-334"
+    },
+    {
+      "@id": "https://www.tropicos.org/reference/9005756",
+      "@type": "bibo:Book",
+      "dcterms:title": "Sphagnales to Dicranales",
+      "dcterms:isPartOf": {
+        "@id": "https://www.tropicos.org/publication/7628",
+        "@type": "bibo:MultiVolumeBook",
+        "dcterms:title": "A Handbook of Malesian Mosses",
+        "dcterms:creator": {
+          "@id": "_:Nb82a0470763e462ead4503fe6d49132e"
+        },
+        "dcterms:publisher": {
+          "@type": "foaf:Organization",
+          "address:localityName": "London",
+          "foaf:name": "Natural History Museum Publications"
+        },
+        "bibo:authorList": {
+          "@list": [
+            { "@id": "_:Nb82a0470763e462ead4503fe6d49132e" }
+          ]
+        }
+      },
+      "bibo:volume": "1",
+      "bibo:numPages": "204",
+      "dcterms:date": "1988"
+    },
+    {
+      "@id": "https://www.tropicos.org/reference/9003947",
+      "@type": "bibo:AcademicArticle",
+      "dcterms:creator": "_:Nd643f29cd028450a87f2a7eb6ea71a5f",
+      "bibo:authorList": {
+        "@list": [
+          { "@id": "_:Nd643f29cd028450a87f2a7eb6ea71a5f" }
+        ]
+      },
+      "dcterms:title": "Mosses of eastern Papua, New Guinea",
+      "dcterms:isPartOf": {
+        "@type": "bibo:Issue",
+        "dcterms:isPartOf": {
+          "@id": "https://www.tropicos.org/publication/561",
+          "@type": "bibo:Journal",
+          "dcterms:title": "Brittonia"
+        },
+        "bibo:volume": "9",
+        "dcterms:date": "1957"
+      },
+      "bibo:pages": "32-56"
+    },
+    {
+      "@id": "https://www.tropicos.org/reference/9006742",
+      "@type": "bibo:AcademicArticle",
+      "dcterms:title": "The bryophytes of Sabah (North Borneo) with special reference to the BRYOTROP transect of Mount Kinabalu. II. Dicranoloma and Brotherobryum (Dicranaceae, Bryopsida)",
+      "dcterms:creator": {
+        "@id": "_:N3e93c7e3b5ed4c10ae8a59558c0e7af9"
+      },
+      "bibo:authorList": {
+        "@list": [
+          { "@id": "_:N3e93c7e3b5ed4c10ae8a59558c0e7af9" }
+        ]
+      },
+      "dcterms:isPartOf": {
+        "@type": "bibo:Issue",
+        "dcterms:isPartOf": {
+          "@id": "https://www.tropicos.org/publication/3087",
+          "@type": "bibo:Journal",
+          "dcterms:title": "Willdenowia"
+        },
+        "bibo:volume": "18",
+        "dcterms:date": "1989"
+      },
+      "bibo:pages": "497-512"
+    },
+    {
+      "@id": "https://www.tropicos.org/reference/9015584",
+      "@type": "bibo:Book",
+      "dcterms:creator": {
+        "@id": "_:Ndf3afd43af7948aa9cd569d1dafcc861"
+      },
+      "bibo:authorList": {
+        "@list": [
+          { "@id": "_:Ndf3afd43af7948aa9cd569d1dafcc861" }
+        ]
+      },
+      "dcterms:title": "Sphagnales, Andreaeales, Archidiales, Dicranales",
+      "dcterms:isPartOf": {
+        "@id": "https://www.tropicos.org/publication/19369",
+        "@type": "bibo:Series",
+        "dcterms:title": "Flora Bryophytorum Sinicorum",
+        "dcterms:publisher": {
+          "@id": "_:Nd0ac2eab1bb943e89c5868fcb7271f6d",
+          "@type": "foaf:Organization",
+          "address:localityName": "Beijing",
+          "foaf:name": "Science Press"
+        }  
+      },
+      "bibo:volume": "1",
+      "bibo:numPages": "364",
+      "dcterms:date": "1994"
+    },
+    {
+      "@id": "https://www.tropicos.org/reference/9005081",
+      "@type": "bibo:AcademicArticle",
+      "dcterms:title": "Musci novi Japonici",
+      "dcterms:creator": { "@id": "_:N865f2ec8af89476d9e4956d4db26d162" },
+      "bibo:authorList": {
+        "@list": [
+          { "@id": "_:N865f2ec8af89476d9e4956d4db26d162" }
+        ]
+      },
+      "dcterms:isPartOf": {
+        "@type": "bibo:Issue",
+        "dcterms:isPartOf": {
+          "@id": "https://www.tropicos.org/publication/518",
+          "@type": "bibo:Series",
+          "dcterms:title": "Annales Bryologici",
+          "bibo:shortTitle": "Ann. Bryol."
+        },
+        "bibo:volume": "1",
+        "dcterms:date": "1928"
+      },
+      "bibo:pages": "17-27"
+    },
+    {
+      "@id": "https://www.tropicos.org/reference/9005951",
+      "@type": "bibo:AcademicArticle",
+      "dcterms:creator": { "@id": "_:Na547a33dbdb74d20ad53a4afd66cbd7f" },
+      "bibo:authorList": {
+        "@list": [
+          { "@id": "_:Na547a33dbdb74d20ad53a4afd66cbd7f" }
+        ]
+      },
+      "dcterms:title": "Mosses of Hong Kong. With other Chinese mosses",
+      "dcterms:isPartOf": {
+        "@type": "bibo:Issue",
+        "dcterms:isPartOf": {
+          "@id": "https://www.tropicos.org/publication/666",
+          "bibo:volume": "2",
+          "dcterms:date": "1933"
+        }
+      },
+      "bibo:pages": "1-31"
+    },
+    {
+      "@id": "https://www.tropicos.org/reference/9007945",
+      "@type": "bibo:AcademicArticle",
+      "dcterms:creator": [
+        { "@id": "_:N4110d53cdbba4c5981ca2db9f9fcc160" },
+        { "@id": "_:N9fa6b6725a2349ee85cc42a96f8b1d94" }
+      ],
+      "bibo:authorList": {
+        "@list": [
+          { "@id": "_:N4110d53cdbba4c5981ca2db9f9fcc160" },
+          { "@id": "_:N9fa6b6725a2349ee85cc42a96f8b1d94" }
+        ]
+      },
+      "dcterms:title": "Bryophyte flora of the Huon Peninsula, Papua New Guinea. XXXV. Dicranaceae and Dicnemonaceae (Musci)",
+      "dcterms:isPartOf": {
+        "@type": "bibo:Issue",
+        "dcterms:isPartOf": {
+          "@id": "https://www.tropicos.org/publication/1636",
+          "@type": "bibo:Journal",
+          "dcterms:title": "Acta Botanica Fennica",
+          "bibo:shortTitle": "Acta Bot. Fenn."
+        },
+        "bibo:volume": "139",
+        "dcterms:date": "1990"
+      },
+      "bibo:pages": "1-64"
+    },
+    {
+      "@id": "https://www.tropicos.org/reference/9029579",
+      "@type": "bibo:BookSection",
+      "dcterms:creator": { "@id": "_:N865f2ec8af89476d9e4956d4db26d162" },
+      "bibo:authorList": {
+        "@list": [
+          { "@id": "_:N865f2ec8af89476d9e4956d4db26d162" }
+        ]
+      },
+      "dcterms:title": "Bryales, in part",
+      "dcterms:isPartOf": {
+        "@type": "bibo:EditedBook",
+        "dcterms:date": "1901",
+        "dcterms:isPartOf": {
+          "@id": "https://www.tropicos.org/publication/754",
+          "@type": "bibo:Series",
+          "dcterms:title": "Die Natürlichen Pflanzenfamilien",
+          "bibo:editor": [
+            { "@id": "_:Ndea481d02f794edcb50a463318fa2fc7" },
+            { "@id": "_:N41587ef3e8a84a9ebef3f7ba7f89a616" }
+          ],
+          "dcterms:publisher": {
+            "@type": "foaf:Organization",
+            "address:localityName": "Leipzig",
+            "foaf:name": "Engelmann"
+          }
+        },
+        "bibo:volume": "T. 1, Abt. 3, H. 1"
+      },
+      "bibo:pages": "289-336"
     },
     {
       "@id": "_:Nd643f29cd028450a87f2a7eb6ea71a5f",
@@ -1006,6 +1429,12 @@
       "foaf:surname": "Dixon"
     },
     {
+      "@id": "_:Nb82a0470763e462ead4503fe6d49132e",
+      "@type": "foaf:Person",
+      "foaf:givenName": "A.",
+      "foaf:surname": "Eddy"
+    },
+    {
       "@id": "_:Ndea481d02f794edcb50a463318fa2fc7",
       "@type": "foaf:Person",
       "foaf:givenName": "A.",
@@ -1018,19 +1447,25 @@
       "foaf:surname": "Fleischer"
     },
     {
+      "@id": "_:Ndf3afd43af7948aa9cd569d1dafcc861",
+      "@type": "foaf:Person",
+      "foaf:givenName": "C.",
+      "foaf:surname": "Gao"
+    },
+    {
       "@id": "_:Ndb730634415442d794e6dac238e12bdf",
       "@type": "foaf:Person",
       "foaf:givenName": "E.",
       "foaf:surname": "Hampe"
     },
     {
-      "@id": "_:N54663d0d057b4f048d3f8758708c96de",
+      "@id": "https://orcid.org/0000-0003-2224-6821",
       "@type": "foaf:Person",
       "foaf:givenName": "Niels",
       "foaf:surname": "Klazenga"
     },
     {
-      "@id": "_:n8",
+      "@id": "_:N9fa6b6725a2349ee85cc42a96f8b1d94",
       "@type": "foaf:Person",
       "foaf:givenName": "T.",
       "foaf:surname": "Koponen"
@@ -1039,13 +1474,19 @@
       "@id": "_:N0be59e7f90304ee4bb48689d12fe7fa5",
       "@type": "foaf:Person",
       "foaf:givenName": "C.",
-      "foaf:surname": "M\u00fcller"
+      "foaf:surname": "Müller"
     },
     {
       "@id": "_:Ne1773e9a3e784f099d9dac6925267317",
       "@type": "foaf:Person",
       "foaf:givenName": "A.",
       "foaf:surname": "Noguchi"
+    },
+    {
+      "@id": "_:N4110d53cdbba4c5981ca2db9f9fcc160",
+      "@type": "foaf:Person",
+      "foaf:givenName": "D.H.",
+      "foaf:surname": "Norris"
     },
     {
       "@id": "_:N41587ef3e8a84a9ebef3f7ba7f89a616",
@@ -1060,7 +1501,7 @@
       "foaf:surname": "Renauld"
     },
     { 
-      "@id": "_:n6",
+      "@id": "_:N3e93c7e3b5ed4c10ae8a59558c0e7af9",
       "@type": "foaf:Person",
       "foaf:givenName": "B.C.",
       "foaf:surname": "Tan"
