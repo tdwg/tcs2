@@ -1464,7 +1464,7 @@ In the Botanical Code the term 'replaced synonym' is used. A 'replacement  name'
     dwc:namePublishedInYear "1872" ;
     :nomenclaturalStatus "http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/illegitimum" .
 
-# prior name
+# prior homonym
 <https://www.ipni.org/n/39527-1> a :TaxonName ;
     :taxonNameString "Solmsia" ;
     dwc:scientificNameAuthorship "Baill." ;
