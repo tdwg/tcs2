@@ -1463,6 +1463,13 @@ In the Botanical Code the term 'replaced synonym' is used. A 'replacement  name'
     dwc:namePublishedIn "Nuovo Giorn. Bot. Ital. 4(4): 273, 281" ;
     dwc:namePublishedInYear "1872" ;
     :nomenclaturalStatus "http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/illegitimum" .
+
+# prior name
+<https://www.ipni.org/n/39527-1> a :TaxonName ;
+    :taxonNameString "Solmsia" ;
+    dwc:scientificNameAuthorship "Baill." ;
+    dwc:namePublishedIn "Adansonia 10: 37" ;
+    dwc:namePublishedInYear "1871"
 ```
 
 [&lsqb;TaxonName-replacementNameFor-2.ttl&rsqb;](examples/TaxonName-replacementNameFor-2.ttl)
