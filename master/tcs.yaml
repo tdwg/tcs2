@@ -447,19 +447,18 @@
 # property: replacementNameFor
 - localName: replacementNameFor
   label: Replacement Name For
-  definition: Name for which this name is a replacement
+  definition: >-
+    The legitimate or illegitimate, previously published name on which a 
+    replacement name (nomen novum) is based.
   usage: >-
     `replacementNameFor` is another Taxon Name; a Taxon Name can have only one 
     `replaccementNameFor`.
   notes: >-
-    In the Zoological Code, a 'replacement name' is a name established to replace 
-    an already established name. The term used in the Botanical Code is 'avowed 
-    substitute'. In both Codes (maybe all nomenclatural codes) the latin term 
-    'nomen novum' (nom. nov.) is used as well. In the Botanical Code, 
-    `replacementNameFor` is a 'replaced synonym', which is to an avowed 
-    substitute ('nom. nov.') what 'basionym' is to a new combination 
-    ('comb. nov.'). Unlike `basionym`, `replacementNameFor` can be an 
-    illegitimate name.
+    In the Botanical Code the term 'replaced synonym' is used. A 'replacement 
+    name' is a name that is published as a substitute for an earlier published 
+    name that is either illegitimate or for which a new combination cannot be 
+    created in the place a taxon is transferred to because of an older blocking 
+    name.
   examples: 
     - TaxonName-replacementNameFor-1
     - TaxonName-replacementNameFor-2

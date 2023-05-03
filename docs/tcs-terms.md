@@ -1386,7 +1386,7 @@ _:b1 a :TaxonName ;
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td><p>Name for which this name is a replacement</p></td>
+			<td><p>The legitimate or illegitimate, previously published name on which a  replacement name (nomen novum) is based.</p></td>
 		</tr>
 		<tr>
 			<td>Usage</td>
@@ -1402,7 +1402,7 @@ _:b1 a :TaxonName ;
 
 **Comments**
 
-In the Zoological Code, a 'replacement name' is a name established to replace  an already established name. The term used in the Botanical Code is 'avowed  substitute'. In both Codes (maybe all nomenclatural codes) the latin term  'nomen novum' (nom. nov.) is used as well. In the Botanical Code,  `replacementNameFor` is a 'replaced synonym', which is to an avowed  substitute ('nom. nov.') what 'basionym' is to a new combination  ('comb. nov.'). Unlike `basionym`, `replacementNameFor` can be an  illegitimate name.
+In the Botanical Code the term 'replaced synonym' is used. A 'replacement  name' is a name that is published as a substitute for an earlier published  name that is either illegitimate or for which a new combination cannot be  created in the place a taxon is transferred to because of an older blocking  name.
 
 
 **Examples**
