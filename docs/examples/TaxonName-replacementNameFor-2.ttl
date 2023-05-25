@@ -13,11 +13,11 @@
     dwc:scientificNameAuthorship "Hampe" ;
     dwc:namePublishedIn "Nuovo Giorn. Bot. Ital. 4(4): 273, 281" ;
     dwc:namePublishedInYear "1872" ;
-    :nomenclaturalStatus "http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/illegitimum" .
+    :nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/illegitimum> .
 
 # prior homonym
 <https://www.ipni.org/n/39527-1> a :TaxonName ;
     :taxonNameString "Solmsia" ;
     dwc:scientificNameAuthorship "Baill." ;
     dwc:namePublishedIn "Adansonia 10: 37" ;
-    dwc:namePublishedInYear "1871"
+    dwc:namePublishedInYear "1871" .
