@@ -21,7 +21,7 @@ files.
 
 **Taxon Name**
 
-[tcs:taxonNameString](#tcstaxonnamestring) | [tcs:namePublishedIn](#tcsnamepublishedin) | [tcs:microreference](#tcsmicroreference) | [tcs:nomenclaturalCode](#tcsnomenclaturalcode) | [tcs:nomenclaturalStatus](#tcsnomenclaturalstatus) | [tcs:basionym](#tcsbasionym) | [tcs:replacementNameFor](#tcsreplacementnamefor) | [tcs:conservedAgainst](#tcsconservedagainst) | [dwc:scientificNameAuthorship](#dwcscientificnameauthorship) | [dwc:namePublishedInYear](#dwcnamepublishedinyear) | [dwc:genericName](#dwcgenericname) | [dwc:infragenericEpithet](#dwcinfragenericepithet) | [dwc:specificEpithet](#dwcspecificepithet) | [dwc:infraspecificEpithet](#dwcinfraspecificepithet) | [dwc:cultivarEpithet](#dwccultivarepithet)
+[tcs:taxonNameString](#tcstaxonnamestring) | [tcs:namePublishedIn](#tcsnamepublishedin) | [tcs:microreference](#tcsmicroreference) | [tcs:nomenclaturalCode](#tcsnomenclaturalcode) | [tcs:nomenclaturalStatus](#tcsnomenclaturalstatus) | [tcs:basionym](#tcsbasionym) | [tcs:replacementNameFor](#tcsreplacementnamefor) | [tcs:spellingCorrectionOf](#tcsspellingcorrectionof) | [tcs:conservedAgainst](#tcsconservedagainst) | [dwc:scientificNameAuthorship](#dwcscientificnameauthorship) | [dwc:namePublishedInYear](#dwcnamepublishedinyear) | [dwc:genericName](#dwcgenericname) | [dwc:infragenericEpithet](#dwcinfragenericepithet) | [dwc:specificEpithet](#dwcspecificepithet) | [dwc:infraspecificEpithet](#dwcinfraspecificepithet) | [dwc:cultivarEpithet](#dwccultivarepithet)
 
 **Nomenclatural Type**
 
@@ -1462,17 +1462,89 @@ In the Botanical Code the term 'replaced synonym' is used. A 'replacement  name'
     dwc:scientificNameAuthorship "Hampe" ;
     dwc:namePublishedIn "Nuovo Giorn. Bot. Ital. 4(4): 273, 281" ;
     dwc:namePublishedInYear "1872" ;
-    :nomenclaturalStatus "http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/illegitimum" .
+    :nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/illegitimum> .
 
 # prior homonym
 <https://www.ipni.org/n/39527-1> a :TaxonName ;
     :taxonNameString "Solmsia" ;
     dwc:scientificNameAuthorship "Baill." ;
     dwc:namePublishedIn "Adansonia 10: 37" ;
-    dwc:namePublishedInYear "1871"
+    dwc:namePublishedInYear "1871" .
 ```
 
 [&lsqb;TaxonName-replacementNameFor-2.ttl&rsqb;](examples/TaxonName-replacementNameFor-2.ttl)
+
+### tcs:spellingCorrectionOf
+
+<table style="width:100%;">
+	<tbody>
+		<tr>
+			<td>Identifier</td>
+			<td>http://rs.tdwg.org/tcs/terms/spellingCorrectionOf</td>
+		</tr>
+		<tr>
+			<td>Type</td>
+			<td>http://www.w3.org/1999/02/22-rdf-syntax-ns#Property</td>
+		</tr>
+		<tr>
+			<td>Label</td>
+			<td>Spelling correction of</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td><b>required:</b> No — <b>repeatable:</b> Yes</td>
+		</tr>
+		<tr>
+			<td>Definition</td>
+			<td><p>Name for which this name is a correction</p></td>
+		</tr>
+		<tr>
+			<td>Usage</td>
+			<td><p><code>spellingCorrectionOf</code> is another Taxon Name object</p></td>
+		</tr>
+		<tr>
+			<td>GitHub issue</td>
+			<td>https://github.com/tdwg/tcs2/issues/224</td>
+		</tr>
+	</tbody>
+</table>
+
+
+**Comments**
+
+The `spellingCorrectionOf` property can be used if the originally published  name string, or another established name string, is not spelt correctly  according to the current version of the relevant Code. It can link an  established spelling of a name to the correctly spelt name where other name  relationship properties cannot.
+
+
+**Examples**
+
+
+```turtle
+<https://www.tropicos.org/name/35121514> a :TaxonName ;
+    :taxonNameString "Dicranoloma dicarpon" ;
+    :authorship "(Nees) Paris" ;
+    dwc:namePublishedIn "Index Bryol. ed. 2, 2: 26" ;
+    dwc:namePublishedInYear "1904" ;
+    :basionym <https://www.tropicos.org/name/35122214> ;
+    :spellingCorrectionOf <https://id.biodiversity.org.au/name/ausmoss/10152639> .
+
+<https://www.tropicos.org/name/35122214> a :TaxonName ;
+    :taxonNameString "Dicranum dicarpon" ;
+    :authorship "Nees" ;
+    dwc:namePublishedIn "Syst. Veg. ed. 16, 4(2):322" ;
+    dwc:namePublishedInYear "1827" .
+
+<https://id.biodiversity.org.au/name/ausmoss/10152639> a :TaxonName ;
+    :taxonNameString "Dicranoloma dicarpum" .
+
+# Dicranoloma dicarpon is a common species of moss in Australia and New 
+# Zealand. The correct spelling of the epithet is 'dicarpon', because that is 
+# how it was spelt in the basionym, Dicranum dicarpon. However, the combination 
+# in Dicranoloma was originally spelt as 'Dicranoloma dicarpum' and that is 
+# the spelling that has been consistently used for the last almost 120 years. 
+# All records in GBIF will be as 'Dicranoloma dicarpum'.
+```
+
+[&lsqb;TaxonName-spellingCorrectionOf.ttl&rsqb;](examples/TaxonName-spellingCorrectionOf.ttl)
 
 ### tcs:conservedAgainst
 

@@ -468,6 +468,27 @@
   repeatable: No
   github: 37
 
+# property: spellingCorrectionOf
+- localName: spellingCorrectionOf
+  label: Spelling correction of
+  definition: >-
+    Name for which this name is a correction
+  usage: >-
+    `spellingCorrectionOf` is another Taxon Name object
+  notes: >-
+    The `spellingCorrectionOf` property can be used if the originally published 
+    name string, or another established name string, is not spelt correctly 
+    according to the current version of the relevant Code. It can link an 
+    established spelling of a name to the correctly spelt name where other name 
+    relationship properties cannot.
+  examples:
+    - TaxonName-spellingCorrectionOf
+  type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+  organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonName
+  required: No
+  repeatable: Yes
+  github: 224
+
 # property: conservedAgainst
 - localName: conservedAgainst
   label: Conserved Against
