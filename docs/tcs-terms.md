@@ -1512,7 +1512,7 @@ In the Botanical Code the term 'replaced synonym' is used. A 'replacement  name'
 
 **Comments**
 
-The `spellingCorrectionOf` property can be used if the originally published  name string, or another established name string, is not spelt correctly  according to the current version of the relevant Code. It can link an  established spelling of a name to the correctly spelt name where other name  relationship properties cannot.
+The `spellingCorrectionOf` property can be used if the originally published  name string, or another established name string, is not spelt correctly  according to the current version of the relevant Code. It can link an  established spelling of a name to the correctly spelt name where other name  relationship properties cannot. `spellingCorrectionOf` is not the same as  an orthographic variant. An orthographic variant is a valid name in another  publication, while a spelling correction is generally for a correctable  error in the original publication. 
 
 
 **Examples**
