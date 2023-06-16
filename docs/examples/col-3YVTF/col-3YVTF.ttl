@@ -1,0 +1,825 @@
+@prefix : <http://rs.tdwg.org/tcs/terms/> .
+@prefix address: <http://schemas.talis.com/2005/address/schema#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix dwc: <http://rs.tdwg.org/dwc/terms/> .
+@prefix dwciri: <http://rs.tdwg.org/dwc/iri/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix gbif: <http://rs.gbif.org/terms/1.0/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+
+<https://www.catalogueoflife.org/data/taxon/3YVTF> a :TaxonConcept ;
+  dcterms:title "Megalorhipida leucodactylus sec. Gielis, C. & Hobern, D., 2020-07-16" ;
+  :taxonName [ a :TaxonName ;
+    :taxonNameString "Megalorhipida leucodactylus" ;
+    dwc:scientificName "Megalorhipida leucodactylus (Fabricius, 1794)" ;
+    :basionym <https://zoobank.org/NomenclaturalActs/39b2f236-3914-4962-9dcc-f594671654bd> ] ;
+  :accordingTo <https://doi.org/10.48580/dfry-3gd#1.1.23.5> ;
+  :synonym [ a :taxonName ;
+      dwc:scientificName "Aciptilia hawaiiensis Butler, 1881" ], 
+    [ a :TaxonName ;
+      dwc:scientificName "Megalorhipida palaestinensis Amsel, 1935" ],
+    [ a :TaxonName ;
+      dwc:scientificName "Pterophorus congrualis Walker, 1864" ],
+    [ a :TaxonName ;
+      dwc:scientificName "Pterophorus defectalis Walker, 1864" ],
+    [ a :TaxonName ;
+      dwc:scientificName "Trichoptilus adelphodes Meyrick, 1887" ],
+    [ a :TaxonName ;
+      dwc:scientificName "Trichoptilus centetes Meyrick, 1886" ],
+    [ a :TaxonName ;
+      dwc:scientificName "Trichoptilus compsochares Meyrick, 1886" ],
+    [ a :TaxonName ;
+      dwc:scientificName "Trichoptilus derelictus Meyrick, 1926" ],
+    [ a :TaxonName ;
+      dwc:scientificName "Trichoptilus ochrodactylus Fish, 1881" ],
+    [ a :TaxonName ;
+      dwc:scientificName "Trichoptilus ralumensis Pagenstecher, 1900" ],
+    [ a :TaxonName ;
+      dwc:scientificName "Pterophorus oxydactylus Walker, 1864" ] ;
+  :rank <http://rs.gbif.org/vocabulary/gbif/rank/species> ;
+  :parent <https://www.catalogueoflife.org/data/taxon/62ZBY> .
+
+<https://zoobank.org/NomenclaturalActs/39b2f236-3914-4962-9dcc-f594671654bd> a :TaxonName ;
+  dwc:scientificName "Pterophorus leucodactylus Fabricius, 1794" 
+  :namePublishedIn _:p15 .
+
+<https://doi.org/10.48580/dfry-3gd#1.1.23.5> a dcmitype:Dataset ;
+  dcterms:title "Catalogue of the Pterophoroidea of the World | COL" ;
+  dcterms:creator <https://orcid.org/0000-0001-6492-4016>,
+    <https://orcid.org/0000-0003-0857-1679> ;
+  bibo:authorList [ a rdf:Seq ;
+    rdf:_1 <https://orcid.org/0000-0003-0857-1679> ;
+    rdf:_2 <https://orcid.org/0000-0001-6492-4016> ] ;
+  bibo:edition "1.1.23.5" ;
+  dcterms:date "2023-01-05" ;
+  bibo:doi "10.48580/dfry-3gd#1.1.23.5"
+  bibo:uri "https://www.catalogueoflife.org/data/dataset/1199" .
+
+<https://orcid.org/0000-0001-6492-4016> a foaf:Person ;
+  foaf:givenName "Donald" ;
+  foaf:surname "Hobern" .
+
+<https://orcid.org/0000-0003-0857-1679> a foaf:Person ;
+  foaf:givenName "C." ;
+  foaf:surname "Gielis" .
+
+
+# Higher classification
+
+<https://www.catalogueoflife.org/data/taxon/62ZBY> a :TaxonConcept ;
+  dcterms:title "Megalorhipida sec. Gielis, C. & Hobern, D., 2020-07-16" ;
+  :taxonName [ a :TaxonName ;
+    dwc:scientificName "Megalorhipida Amsel, 1935" ] ;
+  :accordingTo <https://doi.org/10.48580/dfry-3gd#1.1.23.5> ;
+  :rank <http://rs.gbif.org/vocabulary/gbif/rank/genus> ;
+  :parent <https://www.catalogueoflife.org/data/taxon/L44> .
+
+<https://www.catalogueoflife.org/data/taxon/L44> a :TaxonConcept ;
+  dcterms:title "Oxyptilini sec. Gielis, C. & Hobern, D., 2020-07-16" ;
+  :taxonName [ a :TaxonName ;
+    dwc:scientificName "Oxyptilini Bigot, Gibeaux, Nel & Picard, 1998" ] ;
+  :accordingTo <https://doi.org/10.48580/dfry-3gd#1.1.23.5> ;
+  :rank <http://rs.gbif.org/vocabulary/gbif/rank/tribe> ;
+  :parent <https://www.catalogueoflife.org/data/taxon/K8N> .
+
+<https://www.catalogueoflife.org/data/taxon/K8N> a :TaxonConcept ;
+  dcterms:title "Pterophorinae sec. Gielis, C. & Hobern, D., 2020-07-16" ;
+  :taxonName [ a :TaxonName ;
+    dwc:scientificName "Pterophorinae Zeller, 1841" ] ;
+  :accordingTo <https://doi.org/10.48580/dfry-3gd#1.1.23.5> ;
+  :rank <http://rs.gbif.org/vocabulary/gbif/rank/subfamily> ;
+  :parent <https://www.catalogueoflife.org/data/taxon/8TLBR> .
+
+<https://www.catalogueoflife.org/data/taxon/8TLBR> a :TaxonConcept ;
+  dcterms:title "Pterophoridae sec. Gielis, C. & Hobern, D., 2020-07-16" ;
+  :taxonName [ a :TaxonName ;
+    dwc:scientificName "Pterophoridae Latreille, 1802" ] ;
+  :accordingTo <https://doi.org/10.48580/dfry-3gd#1.1.23.5> ;
+  :rank <http://rs.gbif.org/vocabulary/gbif/rank/family> ;
+  :parent <https://www.catalogueoflife.org/data/taxon/B6LST> .
+
+<https://www.catalogueoflife.org/data/taxon/B6LST> a :TaxonConcept ;
+  dcterms:title "Pterophoroidea sec. Gielis, C. & Hobern, D., 2020-07-16" ;
+  :taxonName [ a :TaxonName ;
+    dwc:scientificName "Pterophoroidea Kuznetzov & Stekolnikov, 1979" ] ;
+  :accordingTo <https://doi.org/10.48580/dfry-3gd#1.1.23.5> ;
+  :rank <http://rs.gbif.org/vocabulary/gbif/rank/superfamily> ;
+  :parent <https://www.catalogueoflife.org/data/taxon/B6L67> .
+
+<https://www.catalogueoflife.org/data/taxon/B6L67> a :TaxonConcept ;
+  dcterms:title "Lepidoptera sec. Global Lepidoptera Index 2023-05-10" ;
+  :taxonName [ a :TaxonName ;
+    dwc:scientificName "Lepidoptera Linnaeus, 1758" ] ;
+  :accordingTo <https://doi.org/10.48580/dfs6-49xk> ;
+  :rank <http://rs.gbif.org/vocabulary/gbif/rank/order> ;
+  :parent <https://www.catalogueoflife.org/data/taxon/H6> .
+
+<https://www.catalogueoflife.org/data/taxon/H6> a :TaxonConcept ;
+  dcterms:title "Insecta sec. Catalogue of Life" ;
+  :taxonName [ a :TaxonName ;
+    dwc:scientificName "Insecta" ] ;
+  :accordingTo <https://doi.org/10.48580/dfs6> ;
+  :rank <http://rs.gbif.org/vocabulary/gbif/rank/class> ;
+  :parent <https://www.catalogueoflife.org/data/taxon/RT> .
+
+<https://www.catalogueoflife.org/data/taxon/RT> a :TaxonConcept ;
+  dcterms:title "Arthropoda sec. Catalogue of Life" ;
+  :taxonName [ a :TaxonName ;
+    dwc:scientificName "Arthropoda" ] ;
+  :accordingTo <https://doi.org/10.48580/dfs6> ;
+  :rank <http://rs.gbif.org/vocabulary/gbif/rank/phylum> ;
+  :parent <https://www.catalogueoflife.org/data/taxon/N> .
+
+<https://www.catalogueoflife.org/data/taxon/N> a :TaxonConcept ;
+  dcterms:title "Animalia sec. Catalogue of Life" ;
+  :taxonName [ a :TaxonName ;
+    dwc:scientificName "Arthropoda" ] ;
+  :accordingTo <https://doi.org/10.48580/dfs6> ;
+  :rank <http://rs.gbif.org/vocabulary/gbif/rank/kingdom> ;
+  :parent <https://www.catalogueoflife.org/data/taxon/5T6MX> .
+
+<https://www.catalogueoflife.org/data/taxon/5T6MX> a :TaxonConcept ;
+  dcterms:title "Biota sec. Catalogue of Life" ;
+  :taxonName [ a :TaxonName ;
+    dwc:scientificName "Arthropoda" ] ;
+  :accordingTo <https://doi.org/10.48580/dfs6> .
+
+
+# References
+
+## [1] Pagenstecher 1900
+[] a :TaxonRelationship ;
+  :relationshipType <http://rs.tdwg.org/tcs-taxon-relationship-type/values/intersects> ;
+  :subjectTaxonConcept <https://www.catalogueoflife.org/data/taxon/3YVTF> ;
+  :objectTaxonConcept _:tc1 ;
+  :relationshipAccordingTo <https://doi.org/10.48580/dfry-3gd#1.1.23.5> .
+
+_:tc1 a :TaxonConcept ;
+    dcterms:title "Pterophorus leucodactylus sec. Pagenstecher 1900" ;
+    :taxonName <https://zoobank.org/NomenclaturalActs/39b2f236-3914-4962-9dcc-f594671654bd> ;
+    :accordingTo _:p1 .
+
+_:p1 a bibo:AcademicArticle ;
+  dcterms:title "Die Lepidopterenfauna des Bismarck-Archipels" ;
+  dcterms:creator _:N6924d2dfac934f3dad503684326ab8fe ;
+  bibo:authorList [ a rdf:Seq ;
+    rdf:_1 _:N6924d2dfac934f3dad503684326ab8fe ] ;
+  dcterms:isPartOf [ a bibo:Issue ;
+    dcterms:date "1900" ;
+    dcterms:isPartOf [ a bibo:Journal ;
+      dcterms:title "Zoologica, Stuttg." ] ;
+    bibo:volume "27" ] ;
+  bibo:pages "238-242" .
+
+## [2] Ustjuzhanin, Kovtunovich & Streltzov 2022
+[] a :TaxonRelationship ;
+  :relationshipType <http://rs.tdwg.org/tcs-taxon-relationship-type/values/intersects> ;
+  :subjectTaxonConcept <https://www.catalogueoflife.org/data/taxon/3YVTF> ;
+  :objectTaxonConcept _:tc2 ;
+  :relationshipAccordingTo <https://doi.org/10.48580/dfry-3gd#1.1.23.5> .
+
+_:tc2 a :TaxonConcept ;
+  dcterms:title "Pterophorus leucodactylus sec. Ustjuzhanin, Kovtunovich & Streltzov 2022" ;
+  :taxonName <https://zoobank.org/NomenclaturalActs/39b2f236-3914-4962-9dcc-f594671654bd> ;
+  :accordingTo _:p2 .
+
+_:p2 a bibo:AcademicArticle ;
+  dcterms:title "Review on the fauna of Pterophoridae of the Republic of Guinea (Lepidoptera: Pterophoridae)" ;
+  dcterms:creator _:N4cbcd8b0157f41ea9d757699158eba3e,
+    _:N2f5ec99d964742a8b140441111391750,
+    _:N43ba965fda0d4a24afde4ca923f85e4c ;
+  bibo:authorList [ a rdf:Seq ;
+    rdf:_1 _:N2f5ec99d964742a8b140441111391750 ;
+    rdf:_2 _:N43ba965fda0d4a24afde4ca923f85e4c ;
+    rdf:_3 _:N4cbcd8b0157f41ea9d757699158eba3e ] ;
+  dcterms:isPartOf [ a bibo:Issue ;
+    dcterms:date "2022" ;
+    dcterms:isPartOf [ a bibo:Journal ;
+      dcterms:title "SHILAP Revista De Lepidopterología" ] ;
+    bibo:issue "199" ;
+    bibo:volume "50" ] ;
+  bibo:pages "435-439" .
+
+[] a gbif:Distribution ; dwciri:toTaxon _:tc2 ; dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:TW> .
+[] a gbif:Distribution ; dwciri:toTaxon _:tc2 ; dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:TZ> .
+[] a gbif:Distribution ; dwciri:toTaxon _:tc2 ; dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:UG> .
+[] a gbif:Distribution ; dwciri:toTaxon _:tc2 ; dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:UM-79> .
+[] a gbif:Distribution ; dwciri:toTaxon _:tc2 ; dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:US> .
+[] a gbif:Distribution ; dwciri:toTaxon _:tc2 ; dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:VC> .
+[] a gbif:Distribution ; dwciri:toTaxon _:tc2 ; dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:VE> .
+[] a gbif:Distribution ; dwciri:toTaxon _:tc2 ; dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:VI> .
+[] a gbif:Distribution ; dwciri:toTaxon _:tc2 ; dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:VN> .
+[] a gbif:Distribution ; dwciri:toTaxon _:tc2 ; dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:YE> .
+[] a gbif:Distribution ; dwciri:toTaxon _:tc2 ; dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:ZA> .
+[] a gbif:Distribution ; dwciri:toTaxon _:tc2 ; dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:GN> .
+
+## [3] Karsholt & Razowski 1996
+[] a :TaxonRelationship ;
+  :relationshipType <http://rs.tdwg.org/tcs-taxon-relationship-type/values/intersects> ;
+  :subjectTaxonConcept <https://www.catalogueoflife.org/data/taxon/3YVTF> ;
+  :objectTaxonConcept _:tc3 ;
+  :relationshipAccordingTo <https://doi.org/10.48580/dfry-3gd#1.1.23.5> .
+
+_:tc3 a :TaxonConcept ;
+  dcterms:title "Pterophorus leucodactylus sec. Karsholt & Razowski 1996" ;
+  :taxonName <https://zoobank.org/NomenclaturalActs/39b2f236-3914-4962-9dcc-f594671654bd> ;
+  :accordingTo _:p3 .
+
+_:p3 a bibo:Book ;
+  dcterms:title "The Lepidoptera of Europe. A Distribution Checklist" ;
+  dcterms:creator _:N679aa18e71ea4a0b99b1ead5e8a6dca2,
+    _:Nc1d4a7ea7e7a4e5fa5bc5778cca2b4e0 ;
+  bibo:authorList [ a rdf:Seq ;
+    rdf:_1 _:N679aa18e71ea4a0b99b1ead5e8a6dca2 ;
+    rdf:_2 _:Nc1d4a7ea7e7a4e5fa5bc5778cca2b4e0 ] ;
+  dcterms:date "1996" ;
+  dcterms:publisher [ a foaf:Organization ;
+    address:localityName "Stenstrup, Denmark" ;
+  foaf:name "Apollo Books" ] ;
+  bibo:numPages "380" .
+
+[] a gbif:Distribution ; dwciri:toTaxon _:tc3 ; dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:CD> .
+[] a gbif:Distribution ; dwciri:toTaxon _:tc3 ; dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:CI> .
+[] a gbif:Distribution ; dwciri:toTaxon _:tc3 ; dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:CL> .
+[] a gbif:Distribution ; dwciri:toTaxon _:tc3 ; dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:CM> .
+[] a gbif:Distribution ; dwciri:toTaxon _:tc3 ; dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:CN> .
+[] a gbif:Distribution ; dwciri:toTaxon _:tc3 ; dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:CO> .
+[] a gbif:Distribution ; dwciri:toTaxon _:tc3 ; dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:CV> .
+[] a gbif:Distribution ; dwciri:toTaxon _:tc3 ; dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:EC> .
+[] a gbif:Distribution ; dwciri:toTaxon _:tc3 ; dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:EC-W> .
+[] a gbif:Distribution ; dwciri:toTaxon _:tc3 ; dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:ES> .
+
+## [4] Kovtunovich & al. 2014
+[] a :TaxonRelationship ;
+  :relationshipType <http://rs.tdwg.org/tcs-taxon-relationship-type/values/intersects> ;
+  :subjectTaxonConcept <https://www.catalogueoflife.org/data/taxon/3YVTF> ;
+  :objectTaxonConcept _:tc4 ;
+  :relationshipAccordingTo <https://doi.org/10.48580/dfry-3gd#1.1.23.5> .
+
+_:tc4 a :TaxonConcept ;
+  dcterms:title "Pterophorus leucodactylus sec. Kovtunovich & al. 2014" ;
+  :taxonName <https://zoobank.org/NomenclaturalActs/39b2f236-3914-4962-9dcc-f594671654bd> ;
+  :accordingTo <https://doi.org/10.11646/zootaxa.3847.4.1> .
+
+<https://doi.org/10.11646/zootaxa.3847.4.1> a bibo:AcademicArticle ;
+  dcterms:title "Plume moths of Malawi (Lepidoptera: Pterophoridae)" ;
+  dcterms:creator _:N43ba965fda0d4a24afde4ca923f85e4c,
+    _:N9ba1d0252dd444cb8825bdf6a42e51f3,
+    _:N2f5ec99d964742a8b140441111391750 ;
+  bibo:authorList [ a rdf:Seq ;
+    rdf:_1 _:N43ba965fda0d4a24afde4ca923f85e4c ;
+    rdf:_2 _:N2f5ec99d964742a8b140441111391750 ;
+    rdf:_3 _:N9ba1d0252dd444cb8825bdf6a42e51f3 ] ;
+  dcterms:isPartOf [ a bibo:Issue ;
+    dcterms:date "2014-08-11" ;
+    dcterms:isPartOf [ a bibo:Journal ;
+      dcterms:title "Zootaxa" ;
+      bibo:issn "1175-5334" ] ;
+    bibo:issue "4" ;
+    bibo:volume "3847" ] ;
+  bibo:doi "10.11646/zootaxa.3847.4.1" ;
+  bibo:pages "451-494" ;
+  bibo:uri "https://www.biotaxa.org/Zootaxa/article/view/zootaxa.3847.4.1" .
+
+[] a gbif:Distribution ; dwciri:toTaxon _:tc4 ; dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:GF> .
+[] a gbif:Distribution ; dwciri:toTaxon _:tc4 ; dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:GM> .
+[] a gbif:Distribution ; dwciri:toTaxon _:tc4 ; dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:GP> .
+[] a gbif:Distribution ; dwciri:toTaxon _:tc4 ; dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:ID> .
+[] a gbif:Distribution ; dwciri:toTaxon _:tc4 ; dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:IL> .
+[] a gbif:Distribution ; dwciri:toTaxon _:tc4 ; dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:IN> .
+[] a gbif:Distribution ; dwciri:toTaxon _:tc4 ; dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:IR> .
+[] a gbif:Distribution ; dwciri:toTaxon _:tc4 ; dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:IT> .
+[] a gbif:Distribution ; dwciri:toTaxon _:tc4 ; dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:JM> .
+[] a gbif:Distribution ; dwciri:toTaxon _:tc4 ; dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:JO> .
+[] a gbif:Distribution ; dwciri:toTaxon _:tc4 ; dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:KA> .
+[] a gbif:Distribution ; dwciri:toTaxon _:tc4 ; dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:KI> .
+[] a gbif:Distribution ; dwciri:toTaxon _:tc4 ; dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:LB> .
+[] a gbif:Distribution ; dwciri:toTaxon _:tc4 ; dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:LK> .
+[] a gbif:Distribution ; dwciri:toTaxon _:tc4 ; dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:GM> .
+[] a gbif:Distribution ; dwciri:toTaxon _:tc4 ; dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:LR> .
+[] a gbif:Distribution ; dwciri:toTaxon _:tc4 ; dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:MA> .
+[] a gbif:Distribution ; dwciri:toTaxon _:tc4 ; dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:MG> .
+[] a gbif:Distribution ; dwciri:toTaxon _:tc4 ; dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:MH> .
+[] a gbif:Distribution ; dwciri:toTaxon _:tc4 ; dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:MP> .
+[] a gbif:Distribution ; dwciri:toTaxon _:tc4 ; dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:MU> .
+[] a gbif:Distribution ; dwciri:toTaxon _:tc4 ; dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:MV> .
+[] a gbif:Distribution ; dwciri:toTaxon _:tc4 ; dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:MW> .
+
+## [5] Kovtunovich & al. 2014
+[] a :TaxonRelationship ;
+  :relationshipType <http://rs.tdwg.org/tcs-taxon-relationship-type/values/intersects> ;
+  :subjectTaxonConcept <https://www.catalogueoflife.org/data/taxon/3YVTF> ;
+  :objectTaxonConcept _:tc5 ;
+  :relationshipAccordingTo <https://doi.org/10.48580/dfry-3gd#1.1.23.5> .
+
+_:tc5 a :TaxonConcept ;
+  dcterms:title "Pterophorus leucodactylus sec. Kovtunovich & al. 2014" ;
+  :taxonName <https://zoobank.org/NomenclaturalActs/39b2f236-3914-4962-9dcc-f594671654bd> ;
+  :accordingTo <https://doi.org/10.1080/09397140.2018.1540159> .
+
+<https://doi.org/10.1080/09397140.2018.1540159> a bibo:AcademicArticle ;
+  dcterms:title "New data on plume moths (Lepidoptera: Pterophoridae) of Oman" ;
+  dcterms:creator _:N33a6e9be89ef41668ddd821133ee31ad,
+    _:N2f5ec99d964742a8b140441111391750,
+    _:N82015eff054d4a028ab13fb1f60b3786,
+    _:N43ba965fda0d4a24afde4ca923f85e4c ;
+  bibo:authorList [ a rdf:Seq ;
+    rdf:_1 _:N2f5ec99d964742a8b140441111391750 ;
+    rdf:_2 _:N43ba965fda0d4a24afde4ca923f85e4c ;
+    rdf:_3 _:N33a6e9be89ef41668ddd821133ee31ad ;
+    rdf:_4 _:N82015eff054d4a028ab13fb1f60b3786 ] ;
+  dcterms:isPartOf [ a bibo:Issue ;
+    dcterms:date "2019-01-02" ;
+    dcterms:isPartOf [ a bibo:Journal ;
+      dcterms:title "Zoology in the Middle East" ;
+      bibo:issn "0939-7140" ] ;
+    bibo:issue "1" ;
+    bibo:volume "65" ] ;
+  bibo:doi "10.1080/09397140.2018.1540159" ;
+  bibo:pages "75-78" ;
+  bibo:shortTitle "New data on plume moths (Lepidoptera" ;
+  bibo:uri "https://doi.org/10.1080/09397140.2018.1540159" .
+
+[] a gbif:Distribution ; dwciri:toTaxon _:tc5 ; dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:MX> .
+[] a gbif:Distribution ; dwciri:toTaxon _:tc5 ; dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:MY> .
+[] a gbif:Distribution ; dwciri:toTaxon _:tc5 ; dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:NA> .
+[] a gbif:Distribution ; dwciri:toTaxon _:tc5 ; dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:NG> .
+[] a gbif:Distribution ; dwciri:toTaxon _:tc5 ; dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:OM> .
+
+## [6] Meyrick 1886
+[] a :TaxonRelationship ;
+  :relationshipType <http://rs.tdwg.org/tcs-taxon-relationship-type/values/intersects> ;
+  :subjectTaxonConcept <https://www.catalogueoflife.org/data/taxon/3YVTF> ;
+  :objectTaxonConcept _:tc6 ;
+  :relationshipAccordingTo <https://doi.org/10.48580/dfry-3gd#1.1.23.5> .
+
+_:tc6 a :TaxonConcept ;
+  dcterms:title "Pterophorus leucodactylus sec. Meyrick 1886" ;
+  :taxonName <https://zoobank.org/NomenclaturalActs/39b2f236-3914-4962-9dcc-f594671654bd> ;
+  :accordingTo _:p6 .
+
+:p6 a bibo:AcademicArticle ;
+  dcterms:creator _:N6e22db5aa1c242a5a3386b855b8ea41b ;
+  bibo:authorList [ a rdf:Seq ;
+    rdf:_1 _:N6e22db5aa1c242a5a3386b855b8ea41b ] ;
+  dcterms:title "On the classification of the Pterophoridae" ;
+  dcterms:isPartOf [ a bibo:Issue ;
+    dcterms:date "1886" ;
+    dcterms:isPartOf [ a bibo:Journal ;
+      dcterms:title "Trans. Ent. Soc. London" ] ;
+    bibo:volume "1886" ] ;
+  bibo:pages "1-21" .
+
+## [7] Walker 1864
+[] a :TaxonRelationship ;
+  :relationshipType <http://rs.tdwg.org/tcs-taxon-relationship-type/values/intersects> ;
+  :subjectTaxonConcept <https://www.catalogueoflife.org/data/taxon/3YVTF> ;
+  :objectTaxonConcept _:tc7 ;
+  :relationshipAccordingTo <https://doi.org/10.48580/dfry-3gd#1.1.23.5> .
+
+_:tc7 a :TaxonConcept ;
+  dcterms:title "Pterophorus leucodactylus sec. Walker 1864" ;
+  :taxonName <https://zoobank.org/NomenclaturalActs/39b2f236-3914-4962-9dcc-f594671654bd> ;
+  :accordingTo <https://www.biodiversitylibrary.org/page/38948425> .
+
+<https://www.biodiversitylibrary.org/page/38948425> a bibo:Book ;
+  dcterms:creator _:Nda9bdcdd0f9648699a89028f1dce9204 ;
+  bibo:authorList [ a rdf:Seq ;
+    rdf:_1 _:Nda9bdcdd0f9648699a89028f1dce9204 ] ;
+  dcterms:date "1864" ;
+  dcterms:title "List of the specimens of lepidopterous insects in the collection of the British Museum. Part XXX. Tineites." ;
+  dcterms:publisher [ a foaf:Organization ;
+    address:localityName "London" ;
+  foaf:name "British Museum" ] ;
+  bibo:uri "https://www.biodiversitylibrary.org/page/38948425" .
+
+## [8] Ustjuzhanin & al. 2021
+[] a :TaxonRelationship ;
+  :relationshipType <http://rs.tdwg.org/tcs-taxon-relationship-type/values/intersects> ;
+  :subjectTaxonConcept <https://www.catalogueoflife.org/data/taxon/3YVTF> ;
+  :objectTaxonConcept _:tc8 ;
+  :relationshipAccordingTo <https://doi.org/10.48580/dfry-3gd#1.1.23.5> .
+
+_:tc8 a :TaxonConcept ;
+  dcterms:title "Pterophorus leucodactylus sec. Ustjuzhanin & al. 2021" ;
+  :taxonName <https://zoobank.org/NomenclaturalActs/39b2f236-3914-4962-9dcc-f594671654bd> ;
+  :accordingTo <https://doi.org/10.25221/fee.423.2> .
+
+<https://doi.org/10.25221/fee.423.2> a bibo:AcademicArticle ;
+  dcterms:title "A list of plume moths (Lepidoptera: Pterophoridae) of the fauna of Pakistan" ;
+  dcterms:creator _:N2f5ec99d964742a8b140441111391750,
+    _:N43d088cb722f4b9198f63eb255dfe425,
+    _:N4cbcd8b0157f41ea9d757699158eba3e,
+    _:N43ba965fda0d4a24afde4ca923f85e4c,
+    _:N7e56857ec4154397b6aae34fbc3da275 ;
+  bibo:authorList [ a rdf:Seq ;
+    rdf:_1 _:N2f5ec99d964742a8b140441111391750 ;
+    rdf:_2 _:N43ba965fda0d4a24afde4ca923f85e4c ;
+    rdf:_3 _:N7e56857ec4154397b6aae34fbc3da275 ;
+    rdf:_4 _:N43d088cb722f4b9198f63eb255dfe425 ;
+    rdf:_5 _:N4cbcd8b0157f41ea9d757699158eba3e ] ;
+  dcterms:isPartOf [ a bibo:Issue ;
+    dcterms:date "2021" ;
+    dcterms:isPartOf [ a bibo:Journal ;
+      dcterms:title "Far Eastern Entomologist" ] ] ;
+  bibo:doi "10.25221/fee.423.2" ;
+  bibo:uri "https://www.biosoil.ru/FEE/Publication/2032" .
+
+[] a gbif:Distribution ; dwciri:toTaxon _:tc8 ; dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:PA> .
+[] a gbif:Distribution ; dwciri:toTaxon _:tc8 ; dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:PI> .
+[] a gbif:Distribution ; dwciri:toTaxon _:tc8 ; dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:PK> .
+
+## [9] Matthews et al. 2019
+[] a :TaxonRelationship ;
+  :relationshipType <http://rs.tdwg.org/tcs-taxon-relationship-type/values/intersects> ;
+  :subjectTaxonConcept <https://www.catalogueoflife.org/data/taxon/3YVTF> ;
+  :objectTaxonConcept _:tc9 ;
+  :relationshipAccordingTo <https://doi.org/10.48580/dfry-3gd#1.1.23.5> .
+
+_:tc9 a :TaxonConcept ;
+    dcterms:title "Pterophorus leucodactylus sec. Matthews et al. 2019" ;
+    :taxonName <https://zoobank.org/NomenclaturalActs/39b2f236-3914-4962-9dcc-f594671654bd> ;
+    :accordingTo <https://digitalcommons.unl.edu/insectamundi/1219> .
+
+<https://digitalcommons.unl.edu/insectamundi/1219> a bibo:AcademicArticle ;
+  dcterms:title "Additions to the plume moth fauna of The Bahamas (Lepidoptera: Pterophoridae) with description of four new species" ;
+  dcterms:creator _:N47f02901eb7d4e73b0ad484a2b8f90b1,
+    _:N5cf44afcfdf74327bf520f99aa11cea6,
+    _:Nd77cc5ea9a7a42de9b8b7b911ed51685,
+    _:Nf20a531a89fe4cf0baddaaad29bffc8b ;
+  dcterms:isPartOf [ a bibo:Issue ;
+    dcterms:date "2019-01-01" ;
+    dcterms:isPartOf [ a bibo:Journal ;
+      dcterms:title "Insecta Mundi" ] ] ;
+  bibo:authorList [ a rdf:Seq ;
+    rdf:_1 _:N5cf44afcfdf74327bf520f99aa11cea6 ;
+    rdf:_2 _:N47f02901eb7d4e73b0ad484a2b8f90b1 ;
+    rdf:_3 _:Nf20a531a89fe4cf0baddaaad29bffc8b ;
+    rdf:_4 _:Nd77cc5ea9a7a42de9b8b7b911ed51685 ] ;
+  bibo:uri "https://digitalcommons.unl.edu/insectamundi/1219" .
+
+[] a gbif:Distribution ; dwciri:toTaxon _:tc9 ; dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:AE-DU> .
+[] a gbif:Distribution ; dwciri:toTaxon _:tc9 ; dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:AR> .
+[] a gbif:Distribution ; dwciri:toTaxon _:tc9 ; dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:AU> .
+[] a gbif:Distribution ; dwciri:toTaxon _:tc9 ; dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:BR> .
+[] a gbif:Distribution ; dwciri:toTaxon _:tc9 ; dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:BS> .
+
+## [10] Amsel 1935
+[] a :TaxonRelationship ;
+  :relationshipType <http://rs.tdwg.org/tcs-taxon-relationship-type/values/intersects> ;
+  :subjectTaxonConcept <https://www.catalogueoflife.org/data/taxon/3YVTF> ;
+  :objectTaxonConcept _:tc10 ;
+  :relationshipAccordingTo <https://doi.org/10.48580/dfry-3gd#1.1.23.5> .
+
+_:tc10 a :TaxonConcept ;
+    dcterms:title "Pterophorus leucodactylus sec. Amsel 1935" ;
+    :taxonName <https://zoobank.org/NomenclaturalActs/39b2f236-3914-4962-9dcc-f594671654bd> ;
+    :accordingTo _:p10 .
+  
+_:p10 a bibo:AcademicArticle ;
+  dcterms:title "Neue palästinensische Lepidopteren" ;
+  dcterms:creator _:Nc55d75f07bd64893a2b6c2693211c0ca ;
+  bibo:authorList [ a rdf:Seq ;
+    rdf:_1 _:Nc55d75f07bd64893a2b6c2693211c0ca ] ;
+  dcterms:isPartOf [ a bibo:Issue ;
+    dcterms:date "1935" ;
+    dcterms:isPartOf [ a bibo:Journal ;
+      dcterms:title "Mitt. Zool. Mus. Berlin" ] ;
+    bibo:volume "20" ] ;
+  bibo:pages "217-319" .
+
+## [11] Fish 1881
+[] a :TaxonRelationship ;
+  :relationshipType <http://rs.tdwg.org/tcs-taxon-relationship-type/values/intersects> ;
+  :subjectTaxonConcept <https://www.catalogueoflife.org/data/taxon/3YVTF> ;
+  :objectTaxonConcept _:tc11 ;
+  :relationshipAccordingTo <https://doi.org/10.48580/dfry-3gd#1.1.23.5> .
+
+_:tc11 a :TaxonConcept ;
+    dcterms:title "Pterophorus leucodactylus sec. Fish 1881" ;
+    :taxonName <https://zoobank.org/NomenclaturalActs/39b2f236-3914-4962-9dcc-f594671654bd> ;
+    :accordingTo _:p11 .
+  
+_:p11 a bibo:AcademicArticle ;
+  dcterms:title "Pterophoridae" ;
+  dcterms:creator _:N0266d7b69dfb4febac79809cdbcef62e ;
+  bibo:authorList [ a rdf:Seq ;
+    rdf:_1 _:N0266d7b69dfb4febac79809cdbcef62e ] ;
+  dcterms:isPartOf [ a bibo:Issue ;
+    dcterms:date "1881" ;
+    dcterms:isPartOf [ a bibo:Journal ;
+      dcterms:title "Can. Ent." ] ;
+    bibo:volume "13" ] ;
+  bibo:pages "70-74, 140-143" .
+
+## [12] Meyrick 1887
+[] a :TaxonRelationship ;
+  :relationshipType <http://rs.tdwg.org/tcs-taxon-relationship-type/values/intersects> ;
+  :subjectTaxonConcept <https://www.catalogueoflife.org/data/taxon/3YVTF> ;
+  :objectTaxonConcept _:tc12 ;
+  :relationshipAccordingTo <https://doi.org/10.48580/dfry-3gd#1.1.23.5> .
+
+_:tc12 a :TaxonConcept ;
+    dcterms:title "Pterophorus leucodactylus sec. Meyrick 1887" ;
+    :taxonName <https://zoobank.org/NomenclaturalActs/39b2f236-3914-4962-9dcc-f594671654bd> ;
+    :accordingTo <https://www.biodiversitylibrary.org/page/13718569> .
+  
+<https://www.biodiversitylibrary.org/page/13718569> a bibo:AcademicArticle ;
+  dcterms:title "On Pyralidina from Australia and the South Pacific" ;
+  dcterms:creator _:N6e22db5aa1c242a5a3386b855b8ea41b ;
+  bibo:authorList [ a rdf:Seq ;
+    rdf:_1 _:N6e22db5aa1c242a5a3386b855b8ea41b ] ;
+  dcterms:isPartOf [ a bibo:Issue ;
+    dcterms:date "1887" ;
+    dcterms:isPartOf [ a bibo:Journal ;
+      dcterms:title "Trans. Ent. Soc. London" ] ;
+    bibo:volume "1887" ] ;
+  bibo:pages "185-268" ;
+  bibo:uri "https://www.biodiversitylibrary.org/page/13718569" .
+
+## [13] Gielis & al. 2022
+[] a :TaxonRelationship ;
+  :relationshipType <http://rs.tdwg.org/tcs-taxon-relationship-type/values/intersects> ;
+  :subjectTaxonConcept <https://www.catalogueoflife.org/data/taxon/3YVTF> ;
+  :objectTaxonConcept _:tc13 ;
+  :relationshipAccordingTo <https://doi.org/10.48580/dfry-3gd#1.1.23.5> .
+
+_:tc13 a :TaxonConcept ;
+    dcterms:title "Pterophorus leucodactylus sec. Gielis & al. 2022" ;
+    :taxonName <https://zoobank.org/NomenclaturalActs/39b2f236-3914-4962-9dcc-f594671654bd> ;
+    :accordingTo _:p13 .
+
+_:p13 a bibo:Book ;
+  dcterms:title "Moths of Bhutan" ;
+  dcterms:creator _:N1afed33a07364c659a7f1a44140190ac,
+    _:N67e34188a636477bbbdb8a724ed61703,
+    <https://orcid.org/0000-0003-0857-1679>,
+    _:Nab7f710803bd417a813e6bf8ebd585f8 ;
+  bibo:authorList [ a rdf:Seq ;
+    rdf:_1 <https://orcid.org/0000-0003-0857-1679> ;
+    rdf:_2 _:N1afed33a07364c659a7f1a44140190ac ;
+    rdf:_3 _:N67e34188a636477bbbdb8a724ed61703 ;
+    rdf:_4 _:Nab7f710803bd417a813e6bf8ebd585f8 ] ;
+  dcterms:date "2022" ;
+  bibo:numPages "420" .
+
+[] a gbif:Distribution ; dwciri:toTaxon _:tc13 ; dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:BT> .
+
+## [14] Ustjuzhanin & Kovtunovich 2017
+[] a :TaxonRelationship ;
+  :relationshipType <http://rs.tdwg.org/tcs-taxon-relationship-type/values/intersects> ;
+  :subjectTaxonConcept <https://www.catalogueoflife.org/data/taxon/3YVTF> ;
+  :objectTaxonConcept _:tc14 ;
+  :relationshipAccordingTo <https://doi.org/10.48580/dfry-3gd#1.1.23.5> .
+
+_:tc14 a :TaxonConcept ;
+    dcterms:title "Pterophorus leucodactylus sec. Ustjuzhanin & Kovtunovich 2017" ;
+    :taxonName <https://zoobank.org/NomenclaturalActs/39b2f236-3914-4962-9dcc-f594671654bd> ;
+    :accordingTo _:p14 .
+
+_:p14 a bibo:AcademicArticle ;
+  dcterms:title "The Pterophoridae fauna (Lepidoptera) of Thailand" ;
+  dcterms:creator _:N43ba965fda0d4a24afde4ca923f85e4c,
+    _:N2f5ec99d964742a8b140441111391750 ;
+  bibo:authorList [ a rdf:Seq ;
+    rdf:_1 _:N2f5ec99d964742a8b140441111391750 ;
+    rdf:_2 _:N43ba965fda0d4a24afde4ca923f85e4c ] ;
+  dcterms:isPartOf [ a bibo:Issue ;
+    dcterms:date "2017" ;
+    dcterms:isPartOf [ a bibo:Journal ;
+      dcterms:title "Ukrainian Journal of Ecology" ] ;
+    bibo:issue "4" ;
+    bibo:volume "7" ] ;
+  bibo:pages "649-654" .
+
+[] a gbif:Distribution ; dwciri:toTaxon _:tc14 ; dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:PR> .
+[] a gbif:Distribution ; dwciri:toTaxon _:tc14 ; dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:PY> .
+[] a gbif:Distribution ; dwciri:toTaxon _:tc14 ; dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:RE> .
+[] a gbif:Distribution ; dwciri:toTaxon _:tc14 ; dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:SA> .
+[] a gbif:Distribution ; dwciri:toTaxon _:tc14 ; dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:SB> .
+[] a gbif:Distribution ; dwciri:toTaxon _:tc14 ; dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:SC> .
+[] a gbif:Distribution ; dwciri:toTaxon _:tc14 ; dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:SL> .
+[] a gbif:Distribution ; dwciri:toTaxon _:tc14 ; dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:SO> .
+[] a gbif:Distribution ; dwciri:toTaxon _:tc14 ; dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:SR> .
+[] a gbif:Distribution ; dwciri:toTaxon _:tc14 ; dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:SZ> .
+[] a gbif:Distribution ; dwciri:toTaxon _:tc14 ; dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:TD> .
+[] a gbif:Distribution ; dwciri:toTaxon _:tc14 ; dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:TH> .
+
+## [15] Fabricius 1794
+[] a :TaxonRelationship ;
+  :relationshipType <http://rs.tdwg.org/tcs-taxon-relationship-type/values/intersects> ;
+  :subjectTaxonConcept <https://www.catalogueoflife.org/data/taxon/3YVTF> ;
+  :objectTaxonConcept _:tc15 ;
+  :relationshipAccordingTo <https://doi.org/10.48580/dfry-3gd#1.1.23.5> .
+
+_:tc15 a :TaxonConcept ;
+    dcterms:title "Pterophorus leucodactylus sec. Fabricius 1794" ;
+    :taxonName <https://zoobank.org/NomenclaturalActs/39b2f236-3914-4962-9dcc-f594671654bd> ;
+    :accordingTo _:p15 .
+  
+_:p15 a bibo:Book ;
+  dcterms:creator _:Nfe97f34642a547698a901dd1d679feca ;
+  bibo:authorList [ a rdf:Seq ;
+    rdf:_1 _:Nfe97f34642a547698a901dd1d679feca ] ;
+  dcterms:date "1794" ;
+  dcterms:title "Entomologia systematica emendata et aucta: secundum classes, ordines, genera, species adiectis synonymis, locis, observationibus, descriptionibus" ;
+  bibo:volume "3(1)" ;
+  bibo:numPages "349" .
+
+## [16] Butler 1881
+[] a :TaxonRelationship ;
+  :relationshipType <http://rs.tdwg.org/tcs-taxon-relationship-type/values/intersects> ;
+  :subjectTaxonConcept <https://www.catalogueoflife.org/data/taxon/3YVTF> ;
+  :objectTaxonConcept _:tc16 ;
+  :relationshipAccordingTo <https://doi.org/10.48580/dfry-3gd#1.1.23.5> .
+
+_:tc16 a :TaxonConcept ;
+    dcterms:title "Pterophorus leucodactylus sec. Butler 1881" ;
+    :taxonName <https://zoobank.org/NomenclaturalActs/39b2f236-3914-4962-9dcc-f594671654bd> ;
+    :accordingTo _:p16 .
+  
+_:p16 a bibo:AcademicArticle ;
+  dcterms:creator _:Na0b2fa2fb0db4f9ebba87e0e95f6f55d ;
+  bibo:authorList [ a rdf:Seq ;
+    rdf:_1 _:Na0b2fa2fb0db4f9ebba87e0e95f6f55d ] ;
+  dcterms:title "On a collection of nocturnal lepidoptera from the Hawaiian Islands" ;
+  dcterms:isPartOf [ a bibo:Issue ;
+    dcterms:date "1881" ;
+    dcterms:isPartOf [ a bibo:Journal ;
+      dcterms:title "Ann. Mag. Nat. Hist. (5th Series)" ] ;
+    bibo:volume "7" ] ;
+  bibo:pages "407-408" .
+
+## [17] Meyrick 1926
+[] a :TaxonRelationship ;
+  :relationshipType <http://rs.tdwg.org/tcs-taxon-relationship-type/values/intersects> ;
+  :subjectTaxonConcept <https://www.catalogueoflife.org/data/taxon/3YVTF> ;
+  :objectTaxonConcept _:tc17 ;
+  :relationshipAccordingTo <https://doi.org/10.48580/dfry-3gd#1.1.23.5> .
+
+_:tc17 a :TaxonConcept ;
+    dcterms:title "Pterophorus leucodactylus sec. Meyrick 1926" ;
+    :taxonName <https://zoobank.org/NomenclaturalActs/39b2f236-3914-4962-9dcc-f594671654bd> ;
+    :accordingTo _:p17 .
+  
+_:p17 a bibo:AcademicArticle ;
+  dcterms:title "Microlepidoptera from the Galapagos Islands and Rapa" ;
+  dcterms:creator _:N6e22db5aa1c242a5a3386b855b8ea41b ;
+  bibo:authorList [ a rdf:Seq ;
+    rdf:_1 _:N6e22db5aa1c242a5a3386b855b8ea41b ] ;
+  dcterms:isPartOf [ a bibo:Issue ;
+    dcterms:date "1926" ;
+    dcterms:isPartOf [ a bibo:Journal ;
+      dcterms:title "Trans. Ent. Soc. London" ] ;
+    bibo:volume "74" ] ;
+  bibo:pages "276" .
+
+## [18] Ustjuzhanin, Kovtunovich, Müller, Prozorov & Streltzov 2022
+[] a :TaxonRelationship ;
+  :relationshipType <http://rs.tdwg.org/tcs-taxon-relationship-type/values/intersects> ;
+  :subjectTaxonConcept <https://www.catalogueoflife.org/data/taxon/3YVTF> ;
+  :objectTaxonConcept _:tc18 ;
+  :relationshipAccordingTo <https://doi.org/10.48580/dfry-3gd#1.1.23.5> .
+
+_:tc18 a :TaxonConcept ;
+    dcterms:title "Pterophorus leucodactylus sec. Ustjuzhanin, Kovtunovich, Müller, Prozorov & Streltzov 2022" ;
+    :taxonName <https://zoobank.org/NomenclaturalActs/39b2f236-3914-4962-9dcc-f594671654bd> ;
+    :accordingTo <https://doi.org/10.37828/em.2022.53.6> .
+
+<https://doi.org/10.37828/em.2022.53.6> a bibo:AcademicArticle ;
+  dcterms:creator _:N2f5ec99d964742a8b140441111391750,
+    _:Nac900cc737d94b2fa845ae14b1867924,
+    _:N43ba965fda0d4a24afde4ca923f85e4c,
+    _:N4cbcd8b0157f41ea9d757699158eba3e,
+    _:Nfa8303a19a36455cb2d0a533da945855 ;
+  dcterms:isPartOf [ a bibo:Issue ;
+    dcterms:date "2022-05-27" ;
+    dcterms:isPartOf [ a bibo:Journal ;
+      dcterms:title "Ecologica Montenegrina" ;
+      bibo:issn "2336-9744" ] ;
+    bibo:volume "53" ] ;
+  dcterms:language "en" ;
+  dcterms:title "Plume Moths (Lepidoptera: Pterophoridae) of Ethiopia. Part 2" ;
+  bibo:authorList [ a rdf:Seq ;
+    rdf:_1 _:N2f5ec99d964742a8b140441111391750 ;
+    rdf:_2 _:N43ba965fda0d4a24afde4ca923f85e4c ;
+    rdf:_3 _:Nfa8303a19a36455cb2d0a533da945855 ;
+    rdf:_4 _:Nac900cc737d94b2fa845ae14b1867924 ;
+    rdf:_5 _:N4cbcd8b0157f41ea9d757699158eba3e ] ;
+  bibo:doi "10.37828/em.2022.53.6" ;
+  bibo:pages "45-55" ;
+  bibo:uri "https://www.biotaxa.org/em/article/view/75561" .
+
+[] a gbif:Distribution ; dwciri:toTaxon _:tc18 ; dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:ES-CN> .
+[] a gbif:Distribution ; dwciri:toTaxon _:tc18 ; dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:ET> .
+
+
+# Agents
+
+_:Nc55d75f07bd64893a2b6c2693211c0ca a foaf:Person ;
+  foaf:givenName "H.G." ;
+  foaf:surname "Arnsel" .
+
+_:Na0b2fa2fb0db4f9ebba87e0e95f6f55d a foaf:Person ;
+  foaf:givenName "A.G." ;
+  foaf:surname "Butler" .
+
+_:N43d088cb722f4b9198f63eb255dfe425 a foaf:Person ;
+  foaf:givenName "S.I." ;
+  foaf:surname "Evdoschenko" .
+
+_:Nfe97f34642a547698a901dd1d679feca a foaf:Person ;
+  foaf:givenName "J." ;
+  foaf:surname "Fabricius" .
+
+_:N0266d7b69dfb4febac79809cdbcef62e a foaf:Person ;
+  foaf:givenName "C." ;
+  foaf:surname "Fish" .
+
+_:N1afed33a07364c659a7f1a44140190ac a foaf:Person ;
+  foaf:givenName "M." ;
+  foaf:surname "Franssen" .
+
+_:Nd77cc5ea9a7a42de9b8b7b911ed51685 a foaf:Person ;
+  foaf:givenName "Gary" ;
+  foaf:surname "Goss" .
+
+_:N67e34188a636477bbbdb8a724ed61703 a foaf:Person ;
+  foaf:givenName "F." ;
+  foaf:surname "Groenen" .
+
+_:N679aa18e71ea4a0b99b1ead5e8a6dca2 a foaf:Person ;
+  foaf:givenName "O." ;
+  foaf:surname "Karsholt" .
+
+_:N43ba965fda0d4a24afde4ca923f85e4c a foaf:Person ;
+  foaf:givenName "Vasily N." ;
+  foaf:surname "Kovtunovich" .
+
+_:N5cf44afcfdf74327bf520f99aa11cea6 a foaf:Person ;
+  foaf:givenName "Deborah" ;
+  foaf:surname "Matthews" .
+
+_:N6e22db5aa1c242a5a3386b855b8ea41b a foaf:Person ;
+  foaf:givenName "E." ;
+  foaf:surname "Meyrick" .
+
+_:N47f02901eb7d4e73b0ad484a2b8f90b1 a foaf:Person ;
+  foaf:givenName "Jacqueline" ;
+  foaf:surname "Miller" .
+
+_:Nfa8303a19a36455cb2d0a533da945855 a foaf:Person ;
+  foaf:givenName "Günter" ;
+  foaf:surname "Müller" .
+
+_:N9ba1d0252dd444cb8825bdf6a42e51f3 a foaf:Person ;
+  foaf:givenName "R." ;
+  foaf:surname "Murphy" .
+
+_:N6924d2dfac934f3dad503684326ab8fe a foaf:Person ;
+  foaf:givenName "A." ;
+  foaf:surname "Pagenstecher" .
+
+_:Nac900cc737d94b2fa845ae14b1867924 a foaf:Person ;
+  foaf:givenName "Alexey M." ;
+  foaf:surname "Prozorov" .
+
+_:Nc1d4a7ea7e7a4e5fa5bc5778cca2b4e0 a foaf:Person ;
+  foaf:givenName "J." ;
+  foaf:surname "Razowski" .
+
+_:N33a6e9be89ef41668ddd821133ee31ad a foaf:Person ;
+  foaf:givenName "Aidas" ;
+  foaf:surname "Saldaitis" .
+
+_:Nf20a531a89fe4cf0baddaaad29bffc8b a foaf:Person ;
+  foaf:givenName "Mark" ;
+  foaf:surname "Simon" .
+
+_:N7e56857ec4154397b6aae34fbc3da275 a foaf:Person ;
+  foaf:givenName "V.V." ;
+  foaf:surname "Sinyaev" .
+
+_:N4cbcd8b0157f41ea9d757699158eba3e a foaf:Person ;
+  foaf:givenName "Alexander N." ;
+  foaf:surname "Streltzov" .
+
+_:N2f5ec99d964742a8b140441111391750 a foaf:Person ;
+  foaf:givenName "P." ;
+  foaf:surname "Ustjuzhanin" .
+
+_:N82015eff054d4a028ab13fb1f60b3786 a foaf:Person ;
+  foaf:givenName "Anna" ;
+  foaf:surname "Ustjuzhanina" .
+
+_:Nda9bdcdd0f9648699a89028f1dce9204 a foaf:Person ;
+  foaf:givenName "F." ;
+  foaf:surname "Walker" .
+
+_:Nab7f710803bd417a813e6bf8ebd585f8 a foaf:Person ;
+  foaf:givenName "K." ;
+  foaf:surname "Wangdi" .
