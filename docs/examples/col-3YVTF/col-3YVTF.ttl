@@ -44,7 +44,7 @@
   :parent <https://www.catalogueoflife.org/data/taxon/62ZBY> .
 
 <https://zoobank.org/NomenclaturalActs/39b2f236-3914-4962-9dcc-f594671654bd> a :TaxonName ;
-  dwc:scientificName "Pterophorus leucodactylus Fabricius, 1794" 
+  dwc:scientificName "Pterophorus leucodactylus Fabricius, 1794" ;
   :namePublishedIn _:p15 .
 
 <https://doi.org/10.48580/dfry-3gd#1.1.23.5> a dcmitype:Dataset ;
@@ -56,7 +56,7 @@
     rdf:_2 <https://orcid.org/0000-0001-6492-4016> ] ;
   bibo:edition "1.1.23.5" ;
   dcterms:date "2023-01-05" ;
-  bibo:doi "10.48580/dfry-3gd#1.1.23.5"
+  bibo:doi "10.48580/dfry-3gd#1.1.23.5" ;
   bibo:uri "https://www.catalogueoflife.org/data/dataset/1199" .
 
 <https://orcid.org/0000-0001-6492-4016> a foaf:Person ;
