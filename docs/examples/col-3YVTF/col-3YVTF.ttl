@@ -19,25 +19,25 @@
     :basionym <https://zoobank.org/NomenclaturalActs/39b2f236-3914-4962-9dcc-f594671654bd> ] ;
   :accordingTo <https://doi.org/10.48580/dfry-3gd#1.1.23.5> ;
   :synonym [ a :taxonName ;
-      dwc:scientificName "Aciptilia hawaiiensis Butler, 1881" ], 
+    dwc:scientificName "Aciptilia hawaiiensis Butler, 1881" ] , 
     [ a :TaxonName ;
-      dwc:scientificName "Megalorhipida palaestinensis Amsel, 1935" ],
+      dwc:scientificName "Megalorhipida palaestinensis Amsel, 1935" ] ,
     [ a :TaxonName ;
-      dwc:scientificName "Pterophorus congrualis Walker, 1864" ],
+      dwc:scientificName "Pterophorus congrualis Walker, 1864" ] ,
     [ a :TaxonName ;
-      dwc:scientificName "Pterophorus defectalis Walker, 1864" ],
+      dwc:scientificName "Pterophorus defectalis Walker, 1864" ] ,
     [ a :TaxonName ;
-      dwc:scientificName "Trichoptilus adelphodes Meyrick, 1887" ],
+      dwc:scientificName "Trichoptilus adelphodes Meyrick, 1887" ] ,
     [ a :TaxonName ;
-      dwc:scientificName "Trichoptilus centetes Meyrick, 1886" ],
+      dwc:scientificName "Trichoptilus centetes Meyrick, 1886" ] ,
     [ a :TaxonName ;
-      dwc:scientificName "Trichoptilus compsochares Meyrick, 1886" ],
+      dwc:scientificName "Trichoptilus compsochares Meyrick, 1886" ] ,
     [ a :TaxonName ;
-      dwc:scientificName "Trichoptilus derelictus Meyrick, 1926" ],
+      dwc:scientificName "Trichoptilus derelictus Meyrick, 1926" ] ,
     [ a :TaxonName ;
-      dwc:scientificName "Trichoptilus ochrodactylus Fish, 1881" ],
+      dwc:scientificName "Trichoptilus ochrodactylus Fish, 1881" ] ,
     [ a :TaxonName ;
-      dwc:scientificName "Trichoptilus ralumensis Pagenstecher, 1900" ],
+      dwc:scientificName "Trichoptilus ralumensis Pagenstecher, 1900" ] ,
     [ a :TaxonName ;
       dwc:scientificName "Pterophorus oxydactylus Walker, 1864" ] ;
   :rank <http://rs.gbif.org/vocabulary/gbif/rank/species> ;
@@ -204,18 +204,54 @@ _:p2 a bibo:AcademicArticle ;
     bibo:volume "50" ] ;
   bibo:pages "435-439" .
 
-[] a gbif:Distribution ; dwciri:toTaxon _:tc2 ; dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:TW> .
-[] a gbif:Distribution ; dwciri:toTaxon _:tc2 ; dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:TZ> .
-[] a gbif:Distribution ; dwciri:toTaxon _:tc2 ; dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:UG> .
-[] a gbif:Distribution ; dwciri:toTaxon _:tc2 ; dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:UM-79> .
-[] a gbif:Distribution ; dwciri:toTaxon _:tc2 ; dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:US> .
-[] a gbif:Distribution ; dwciri:toTaxon _:tc2 ; dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:VC> .
-[] a gbif:Distribution ; dwciri:toTaxon _:tc2 ; dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:VE> .
-[] a gbif:Distribution ; dwciri:toTaxon _:tc2 ; dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:VI> .
-[] a gbif:Distribution ; dwciri:toTaxon _:tc2 ; dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:VN> .
-[] a gbif:Distribution ; dwciri:toTaxon _:tc2 ; dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:YE> .
-[] a gbif:Distribution ; dwciri:toTaxon _:tc2 ; dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:ZA> .
-[] a gbif:Distribution ; dwciri:toTaxon _:tc2 ; dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:GN> .
+[] a gbif:Distribution ;
+  dwciri:toTaxon _:tc2 ;
+  dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:TW>  ;
+  dwciri:occurrenceStatus <http://rs.gbif.org/vocabulary/gbif/occurrence_status/present> .
+[] a gbif:Distribution ;
+  dwciri:toTaxon _:tc2 ;
+  dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:TZ>  ;
+  dwciri:occurrenceStatus <http://rs.gbif.org/vocabulary/gbif/occurrence_status/present> .
+[] a gbif:Distribution ;
+  dwciri:toTaxon _:tc2 ;
+  dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:UG>  ;
+  dwciri:occurrenceStatus <http://rs.gbif.org/vocabulary/gbif/occurrence_status/present> .
+[] a gbif:Distribution ;
+  dwciri:toTaxon _:tc2 ;
+  dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:UM-79>  ;
+  dwciri:occurrenceStatus <http://rs.gbif.org/vocabulary/gbif/occurrence_status/present> .
+[] a gbif:Distribution ;
+  dwciri:toTaxon _:tc2 ;
+  dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:US>  ;
+  dwciri:occurrenceStatus <http://rs.gbif.org/vocabulary/gbif/occurrence_status/present> .
+[] a gbif:Distribution ;
+  dwciri:toTaxon _:tc2 ;
+  dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:VC>  ;
+  dwciri:occurrenceStatus <http://rs.gbif.org/vocabulary/gbif/occurrence_status/present> .
+[] a gbif:Distribution ;
+  dwciri:toTaxon _:tc2 ;
+  dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:VE>  ;
+  dwciri:occurrenceStatus <http://rs.gbif.org/vocabulary/gbif/occurrence_status/present> .
+[] a gbif:Distribution ;
+  dwciri:toTaxon _:tc2 ;
+  dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:VI>  ;
+  dwciri:occurrenceStatus <http://rs.gbif.org/vocabulary/gbif/occurrence_status/present> .
+[] a gbif:Distribution ;
+  dwciri:toTaxon _:tc2 ;
+  dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:VN>  ;
+  dwciri:occurrenceStatus <http://rs.gbif.org/vocabulary/gbif/occurrence_status/present> .
+[] a gbif:Distribution ;
+  dwciri:toTaxon _:tc2 ;
+  dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:YE>  ;
+  dwciri:occurrenceStatus <http://rs.gbif.org/vocabulary/gbif/occurrence_status/present> .
+[] a gbif:Distribution ;
+  dwciri:toTaxon _:tc2 ;
+  dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:ZA>  ;
+  dwciri:occurrenceStatus <http://rs.gbif.org/vocabulary/gbif/occurrence_status/present> .
+[] a gbif:Distribution ;
+  dwciri:toTaxon _:tc2 ;
+  dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:GN>  ;
+  dwciri:occurrenceStatus <http://rs.gbif.org/vocabulary/gbif/occurrence_status/present> .
 
 ## [3] Karsholt & Razowski 1996
 [] a :TaxonRelationship ;
@@ -242,16 +278,46 @@ _:p3 a bibo:Book ;
     address:localityName "Stenstrup, Denmark" ] ;
   bibo:numPages "380" .
 
-[] a gbif:Distribution ; dwciri:toTaxon _:tc3 ; dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:CD> .
-[] a gbif:Distribution ; dwciri:toTaxon _:tc3 ; dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:CI> .
-[] a gbif:Distribution ; dwciri:toTaxon _:tc3 ; dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:CL> .
-[] a gbif:Distribution ; dwciri:toTaxon _:tc3 ; dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:CM> .
-[] a gbif:Distribution ; dwciri:toTaxon _:tc3 ; dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:CN> .
-[] a gbif:Distribution ; dwciri:toTaxon _:tc3 ; dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:CO> .
-[] a gbif:Distribution ; dwciri:toTaxon _:tc3 ; dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:CV> .
-[] a gbif:Distribution ; dwciri:toTaxon _:tc3 ; dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:EC> .
-[] a gbif:Distribution ; dwciri:toTaxon _:tc3 ; dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:EC-W> .
-[] a gbif:Distribution ; dwciri:toTaxon _:tc3 ; dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:ES> .
+[] a gbif:Distribution ;
+  dwciri:toTaxon _:tc3 ;
+  dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:CD>  ;
+  dwciri:occurrenceStatus <http://rs.gbif.org/vocabulary/gbif/occurrence_status/present> .
+[] a gbif:Distribution ;
+  dwciri:toTaxon _:tc3 ;
+  dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:CI>  ;
+  dwciri:occurrenceStatus <http://rs.gbif.org/vocabulary/gbif/occurrence_status/present> .
+[] a gbif:Distribution ;
+  dwciri:toTaxon _:tc3 ;
+  dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:CL>  ;
+  dwciri:occurrenceStatus <http://rs.gbif.org/vocabulary/gbif/occurrence_status/present> .
+[] a gbif:Distribution ;
+  dwciri:toTaxon _:tc3 ;
+  dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:CM>  ;
+  dwciri:occurrenceStatus <http://rs.gbif.org/vocabulary/gbif/occurrence_status/present> .
+[] a gbif:Distribution ;
+  dwciri:toTaxon _:tc3 ;
+  dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:CN>  ;
+  dwciri:occurrenceStatus <http://rs.gbif.org/vocabulary/gbif/occurrence_status/present> .
+[] a gbif:Distribution ;
+  dwciri:toTaxon _:tc3 ;
+  dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:CO>  ;
+  dwciri:occurrenceStatus <http://rs.gbif.org/vocabulary/gbif/occurrence_status/present> .
+[] a gbif:Distribution ;
+  dwciri:toTaxon _:tc3 ;
+  dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:CV>  ;
+  dwciri:occurrenceStatus <http://rs.gbif.org/vocabulary/gbif/occurrence_status/present> .
+[] a gbif:Distribution ;
+  dwciri:toTaxon _:tc3 ;
+  dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:EC>  ;
+  dwciri:occurrenceStatus <http://rs.gbif.org/vocabulary/gbif/occurrence_status/present> .
+[] a gbif:Distribution ;
+  dwciri:toTaxon _:tc3 ;
+  dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:EC-W>  ;
+  dwciri:occurrenceStatus <http://rs.gbif.org/vocabulary/gbif/occurrence_status/present> .
+[] a gbif:Distribution ;
+  dwciri:toTaxon _:tc3 ;
+  dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:ES>  ;
+  dwciri:occurrenceStatus <http://rs.gbif.org/vocabulary/gbif/occurrence_status/present> .
 
 ## [4] Kovtunovich & al. 2014
 [] a :TaxonRelationship ;
@@ -285,29 +351,98 @@ _:tc4 a :TaxonConcept ;
   bibo:pages "451-494" ;
   bibo:uri "https://www.biotaxa.org/Zootaxa/article/view/zootaxa.3847.4.1" .
 
-[] a gbif:Distribution ; dwciri:toTaxon _:tc4 ; dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:GF> .
-[] a gbif:Distribution ; dwciri:toTaxon _:tc4 ; dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:GM> .
-[] a gbif:Distribution ; dwciri:toTaxon _:tc4 ; dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:GP> .
-[] a gbif:Distribution ; dwciri:toTaxon _:tc4 ; dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:ID> .
-[] a gbif:Distribution ; dwciri:toTaxon _:tc4 ; dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:IL> .
-[] a gbif:Distribution ; dwciri:toTaxon _:tc4 ; dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:IN> .
-[] a gbif:Distribution ; dwciri:toTaxon _:tc4 ; dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:IR> .
-[] a gbif:Distribution ; dwciri:toTaxon _:tc4 ; dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:IT> .
-[] a gbif:Distribution ; dwciri:toTaxon _:tc4 ; dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:JM> .
-[] a gbif:Distribution ; dwciri:toTaxon _:tc4 ; dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:JO> .
-[] a gbif:Distribution ; dwciri:toTaxon _:tc4 ; dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:KA> .
-[] a gbif:Distribution ; dwciri:toTaxon _:tc4 ; dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:KI> .
-[] a gbif:Distribution ; dwciri:toTaxon _:tc4 ; dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:LB> .
-[] a gbif:Distribution ; dwciri:toTaxon _:tc4 ; dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:LK> .
-[] a gbif:Distribution ; dwciri:toTaxon _:tc4 ; dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:GM> .
-[] a gbif:Distribution ; dwciri:toTaxon _:tc4 ; dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:LR> .
-[] a gbif:Distribution ; dwciri:toTaxon _:tc4 ; dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:MA> .
-[] a gbif:Distribution ; dwciri:toTaxon _:tc4 ; dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:MG> .
-[] a gbif:Distribution ; dwciri:toTaxon _:tc4 ; dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:MH> .
-[] a gbif:Distribution ; dwciri:toTaxon _:tc4 ; dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:MP> .
-[] a gbif:Distribution ; dwciri:toTaxon _:tc4 ; dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:MU> .
-[] a gbif:Distribution ; dwciri:toTaxon _:tc4 ; dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:MV> .
-[] a gbif:Distribution ; dwciri:toTaxon _:tc4 ; dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:MW> .
+[] a gbif:Distribution ;
+  dwciri:toTaxon _:tc4 ;
+  dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:GF>  ;
+  dwciri:occurrenceStatus <http://rs.gbif.org/vocabulary/gbif/occurrence_status/present> .
+[] a gbif:Distribution ;
+  dwciri:toTaxon _:tc4 ;
+  dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:GM>  ;
+  dwciri:occurrenceStatus <http://rs.gbif.org/vocabulary/gbif/occurrence_status/present> .
+[] a gbif:Distribution ;
+  dwciri:toTaxon _:tc4 ;
+  dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:GP>  ;
+  dwciri:occurrenceStatus <http://rs.gbif.org/vocabulary/gbif/occurrence_status/present> .
+[] a gbif:Distribution ;
+  dwciri:toTaxon _:tc4 ;
+  dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:ID>  ;
+  dwciri:occurrenceStatus <http://rs.gbif.org/vocabulary/gbif/occurrence_status/present> .
+[] a gbif:Distribution ;
+  dwciri:toTaxon _:tc4 ;
+  dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:IL>  ;
+  dwciri:occurrenceStatus <http://rs.gbif.org/vocabulary/gbif/occurrence_status/present> .
+[] a gbif:Distribution ;
+  dwciri:toTaxon _:tc4 ;
+  dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:IN>  ;
+  dwciri:occurrenceStatus <http://rs.gbif.org/vocabulary/gbif/occurrence_status/present> .
+[] a gbif:Distribution ;
+  dwciri:toTaxon _:tc4 ;
+  dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:IR>  ;
+  dwciri:occurrenceStatus <http://rs.gbif.org/vocabulary/gbif/occurrence_status/present> .
+[] a gbif:Distribution ;
+  dwciri:toTaxon _:tc4 ;
+  dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:IT>  ;
+  dwciri:occurrenceStatus <http://rs.gbif.org/vocabulary/gbif/occurrence_status/present> .
+[] a gbif:Distribution ;
+  dwciri:toTaxon _:tc4 ;
+  dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:JM>  ;
+  dwciri:occurrenceStatus <http://rs.gbif.org/vocabulary/gbif/occurrence_status/present> .
+[] a gbif:Distribution ;
+  dwciri:toTaxon _:tc4 ;
+  dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:JO>  ;
+  dwciri:occurrenceStatus <http://rs.gbif.org/vocabulary/gbif/occurrence_status/present> .
+[] a gbif:Distribution ;
+  dwciri:toTaxon _:tc4 ;
+  dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:KA>  ;
+  dwciri:occurrenceStatus <http://rs.gbif.org/vocabulary/gbif/occurrence_status/present> .
+[] a gbif:Distribution ;
+  dwciri:toTaxon _:tc4 ;
+  dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:KI>  ;
+  dwciri:occurrenceStatus <http://rs.gbif.org/vocabulary/gbif/occurrence_status/present> .
+[] a gbif:Distribution ;
+  dwciri:toTaxon _:tc4 ;
+  dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:LB>  ;
+  dwciri:occurrenceStatus <http://rs.gbif.org/vocabulary/gbif/occurrence_status/present> .
+[] a gbif:Distribution ;
+  dwciri:toTaxon _:tc4 ;
+  dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:LK>  ;
+  dwciri:occurrenceStatus <http://rs.gbif.org/vocabulary/gbif/occurrence_status/present> .
+[] a gbif:Distribution ;
+  dwciri:toTaxon _:tc4 ;
+  dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:GM>  ;
+  dwciri:occurrenceStatus <http://rs.gbif.org/vocabulary/gbif/occurrence_status/present> .
+[] a gbif:Distribution ;
+  dwciri:toTaxon _:tc4 ;
+  dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:LR>  ;
+  dwciri:occurrenceStatus <http://rs.gbif.org/vocabulary/gbif/occurrence_status/present> .
+[] a gbif:Distribution ;
+  dwciri:toTaxon _:tc4 ;
+  dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:MA>  ;
+  dwciri:occurrenceStatus <http://rs.gbif.org/vocabulary/gbif/occurrence_status/present> .
+[] a gbif:Distribution ;
+  dwciri:toTaxon _:tc4 ;
+  dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:MG>  ;
+  dwciri:occurrenceStatus <http://rs.gbif.org/vocabulary/gbif/occurrence_status/present> .
+[] a gbif:Distribution ;
+  dwciri:toTaxon _:tc4 ;
+  dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:MH>  ;
+  dwciri:occurrenceStatus <http://rs.gbif.org/vocabulary/gbif/occurrence_status/present> .
+[] a gbif:Distribution ;
+  dwciri:toTaxon _:tc4 ;
+  dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:MP>  ;
+  dwciri:occurrenceStatus <http://rs.gbif.org/vocabulary/gbif/occurrence_status/present> .
+[] a gbif:Distribution ;
+  dwciri:toTaxon _:tc4 ;
+  dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:MU>  ;
+  dwciri:occurrenceStatus <http://rs.gbif.org/vocabulary/gbif/occurrence_status/present> .
+[] a gbif:Distribution ;
+  dwciri:toTaxon _:tc4 ;
+  dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:MV>  ;
+  dwciri:occurrenceStatus <http://rs.gbif.org/vocabulary/gbif/occurrence_status/present> .
+[] a gbif:Distribution ;
+  dwciri:toTaxon _:tc4 ;
+  dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:MW>  ;
+  dwciri:occurrenceStatus <http://rs.gbif.org/vocabulary/gbif/occurrence_status/present> .
 
 ## [5] Kovtunovich & al. 2014
 [] a :TaxonRelationship ;
@@ -343,11 +478,26 @@ _:tc5 a :TaxonConcept ;
   bibo:pages "75-78" ;
   bibo:uri "https://doi.org/10.1080/09397140.2018.1540159" .
 
-[] a gbif:Distribution ; dwciri:toTaxon _:tc5 ; dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:MX> .
-[] a gbif:Distribution ; dwciri:toTaxon _:tc5 ; dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:MY> .
-[] a gbif:Distribution ; dwciri:toTaxon _:tc5 ; dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:NA> .
-[] a gbif:Distribution ; dwciri:toTaxon _:tc5 ; dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:NG> .
-[] a gbif:Distribution ; dwciri:toTaxon _:tc5 ; dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:OM> .
+[] a gbif:Distribution ;
+  dwciri:toTaxon _:tc5 ;
+  dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:MX>  ;
+  dwciri:occurrenceStatus <http://rs.gbif.org/vocabulary/gbif/occurrence_status/present> .
+[] a gbif:Distribution ;
+  dwciri:toTaxon _:tc5 ;
+  dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:MY>  ;
+  dwciri:occurrenceStatus <http://rs.gbif.org/vocabulary/gbif/occurrence_status/present> .
+[] a gbif:Distribution ;
+  dwciri:toTaxon _:tc5 ;
+  dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:NA>  ;
+  dwciri:occurrenceStatus <http://rs.gbif.org/vocabulary/gbif/occurrence_status/present> .
+[] a gbif:Distribution ;
+  dwciri:toTaxon _:tc5 ;
+  dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:NG>  ;
+  dwciri:occurrenceStatus <http://rs.gbif.org/vocabulary/gbif/occurrence_status/present> .
+[] a gbif:Distribution ;
+  dwciri:toTaxon _:tc5 ;
+  dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:OM>  ;
+  dwciri:occurrenceStatus <http://rs.gbif.org/vocabulary/gbif/occurrence_status/present> .
 
 ## [6] Meyrick 1886
 [] a :TaxonRelationship ;
@@ -428,9 +578,18 @@ _:tc8 a :TaxonConcept ;
   bibo:doi "10.25221/fee.423.2" ;
   bibo:uri "https://www.biosoil.ru/FEE/Publication/2032" .
 
-[] a gbif:Distribution ; dwciri:toTaxon _:tc8 ; dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:PA> .
-[] a gbif:Distribution ; dwciri:toTaxon _:tc8 ; dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:PI> .
-[] a gbif:Distribution ; dwciri:toTaxon _:tc8 ; dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:PK> .
+[] a gbif:Distribution ;
+  dwciri:toTaxon _:tc8 ;
+  dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:PA>  ;
+  dwciri:occurrenceStatus <http://rs.gbif.org/vocabulary/gbif/occurrence_status/present> .
+[] a gbif:Distribution ;
+  dwciri:toTaxon _:tc8 ;
+  dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:PI>  ;
+  dwciri:occurrenceStatus <http://rs.gbif.org/vocabulary/gbif/occurrence_status/present> .
+[] a gbif:Distribution ;
+  dwciri:toTaxon _:tc8 ;
+  dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:PK>  ;
+  dwciri:occurrenceStatus <http://rs.gbif.org/vocabulary/gbif/occurrence_status/present> .
 
 ## [9] Matthews et al. 2019
 [] a :TaxonRelationship ;
@@ -461,11 +620,26 @@ _:tc9 a :TaxonConcept ;
     rdf:_4 _:Nd77cc5ea9a7a42de9b8b7b911ed51685 ] ;
   bibo:uri "https://digitalcommons.unl.edu/insectamundi/1219" .
 
-[] a gbif:Distribution ; dwciri:toTaxon _:tc9 ; dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:AE-DU> .
-[] a gbif:Distribution ; dwciri:toTaxon _:tc9 ; dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:AR> .
-[] a gbif:Distribution ; dwciri:toTaxon _:tc9 ; dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:AU> .
-[] a gbif:Distribution ; dwciri:toTaxon _:tc9 ; dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:BR> .
-[] a gbif:Distribution ; dwciri:toTaxon _:tc9 ; dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:BS> .
+[] a gbif:Distribution ;
+  dwciri:toTaxon _:tc9 ;
+  dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:AE-DU>  ;
+  dwciri:occurrenceStatus <http://rs.gbif.org/vocabulary/gbif/occurrence_status/present> .
+[] a gbif:Distribution ;
+  dwciri:toTaxon _:tc9 ;
+  dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:AR>  ;
+  dwciri:occurrenceStatus <http://rs.gbif.org/vocabulary/gbif/occurrence_status/present> .
+[] a gbif:Distribution ;
+  dwciri:toTaxon _:tc9 ;
+  dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:AU>  ;
+  dwciri:occurrenceStatus <http://rs.gbif.org/vocabulary/gbif/occurrence_status/present> .
+[] a gbif:Distribution ;
+  dwciri:toTaxon _:tc9 ;
+  dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:BR>  ;
+  dwciri:occurrenceStatus <http://rs.gbif.org/vocabulary/gbif/occurrence_status/present> .
+[] a gbif:Distribution ;
+  dwciri:toTaxon _:tc9 ;
+  dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:BS>  ;
+  dwciri:occurrenceStatus <http://rs.gbif.org/vocabulary/gbif/occurrence_status/present> .
 
 ## [10] Amsel 1935
 [] a :TaxonRelationship ;
@@ -566,7 +740,9 @@ _:p13 a bibo:Book ;
   dcterms:date "2022" ;
   bibo:numPages "420" .
 
-[] a gbif:Distribution ; dwciri:toTaxon _:tc13 ; dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:BT> .
+[] a gbif:Distribution ;
+  dwciri:toTaxon _:tc13 ;
+  dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:BT> .
 
 ## [14] Ustjuzhanin & Kovtunovich 2017
 [] a :TaxonRelationship ;
@@ -595,18 +771,54 @@ _:p14 a bibo:AcademicArticle ;
     bibo:volume "7" ] ;
   bibo:pages "649-654" .
 
-[] a gbif:Distribution ; dwciri:toTaxon _:tc14 ; dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:PR> .
-[] a gbif:Distribution ; dwciri:toTaxon _:tc14 ; dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:PY> .
-[] a gbif:Distribution ; dwciri:toTaxon _:tc14 ; dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:RE> .
-[] a gbif:Distribution ; dwciri:toTaxon _:tc14 ; dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:SA> .
-[] a gbif:Distribution ; dwciri:toTaxon _:tc14 ; dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:SB> .
-[] a gbif:Distribution ; dwciri:toTaxon _:tc14 ; dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:SC> .
-[] a gbif:Distribution ; dwciri:toTaxon _:tc14 ; dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:SL> .
-[] a gbif:Distribution ; dwciri:toTaxon _:tc14 ; dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:SO> .
-[] a gbif:Distribution ; dwciri:toTaxon _:tc14 ; dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:SR> .
-[] a gbif:Distribution ; dwciri:toTaxon _:tc14 ; dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:SZ> .
-[] a gbif:Distribution ; dwciri:toTaxon _:tc14 ; dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:TD> .
-[] a gbif:Distribution ; dwciri:toTaxon _:tc14 ; dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:TH> .
+[] a gbif:Distribution ;
+  dwciri:toTaxon _:tc14 ;
+  dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:PR>  ;
+  dwciri:occurrenceStatus <http://rs.gbif.org/vocabulary/gbif/occurrence_status/present> .
+[] a gbif:Distribution ;
+  dwciri:toTaxon _:tc14 ;
+  dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:PY>  ;
+  dwciri:occurrenceStatus <http://rs.gbif.org/vocabulary/gbif/occurrence_status/present> .
+[] a gbif:Distribution ;
+  dwciri:toTaxon _:tc14 ;
+  dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:RE>  ;
+  dwciri:occurrenceStatus <http://rs.gbif.org/vocabulary/gbif/occurrence_status/present> .
+[] a gbif:Distribution ;
+  dwciri:toTaxon _:tc14 ;
+  dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:SA>  ;
+  dwciri:occurrenceStatus <http://rs.gbif.org/vocabulary/gbif/occurrence_status/present> .
+[] a gbif:Distribution ;
+  dwciri:toTaxon _:tc14 ;
+  dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:SB>  ;
+  dwciri:occurrenceStatus <http://rs.gbif.org/vocabulary/gbif/occurrence_status/present> .
+[] a gbif:Distribution ;
+  dwciri:toTaxon _:tc14 ;
+  dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:SC>  ;
+  dwciri:occurrenceStatus <http://rs.gbif.org/vocabulary/gbif/occurrence_status/present> .
+[] a gbif:Distribution ;
+  dwciri:toTaxon _:tc14 ;
+  dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:SL>  ;
+  dwciri:occurrenceStatus <http://rs.gbif.org/vocabulary/gbif/occurrence_status/present> .
+[] a gbif:Distribution ;
+  dwciri:toTaxon _:tc14 ;
+  dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:SO>  ;
+  dwciri:occurrenceStatus <http://rs.gbif.org/vocabulary/gbif/occurrence_status/present> .
+[] a gbif:Distribution ;
+  dwciri:toTaxon _:tc14 ;
+  dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:SR>  ;
+  dwciri:occurrenceStatus <http://rs.gbif.org/vocabulary/gbif/occurrence_status/present> .
+[] a gbif:Distribution ;
+  dwciri:toTaxon _:tc14 ;
+  dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:SZ>  ;
+  dwciri:occurrenceStatus <http://rs.gbif.org/vocabulary/gbif/occurrence_status/present> .
+[] a gbif:Distribution ;
+  dwciri:toTaxon _:tc14 ;
+  dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:TD>  ;
+  dwciri:occurrenceStatus <http://rs.gbif.org/vocabulary/gbif/occurrence_status/present> .
+[] a gbif:Distribution ;
+  dwciri:toTaxon _:tc14 ;
+  dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:TH>  ;
+  dwciri:occurrenceStatus <http://rs.gbif.org/vocabulary/gbif/occurrence_status/present> .
 
 ## [15] Fabricius 1794
 [] a :TaxonRelationship ;
@@ -713,8 +925,14 @@ _:tc18 a :TaxonConcept ;
   bibo:pages "45-55" ;
   bibo:uri "https://www.biotaxa.org/em/article/view/75561" .
 
-[] a gbif:Distribution ; dwciri:toTaxon _:tc18 ; dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:ES-CN> .
-[] a gbif:Distribution ; dwciri:toTaxon _:tc18 ; dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:ET> .
+[] a gbif:Distribution ;
+  dwciri:toTaxon _:tc18 ; 
+  dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:ES-CN> ;
+  dwciri:occurrenceStatus <http://rs.gbif.org/vocabulary/gbif/occurrence_status/present> .
+[] a gbif:Distribution ;
+  dwciri:toTaxon _:tc18 ; 
+  dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:ET> ;
+  dwciri:occurrenceStatus <http://rs.gbif.org/vocabulary/gbif/occurrence_status/present> .
 
 
 # Agents
