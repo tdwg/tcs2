@@ -12,7 +12,7 @@
 
 
 <https://www.catalogueoflife.org/data/taxon/3YVTF> a :TaxonConcept ;
-  dcterms:title "Megalorhipida leucodactylus sec. Gielis, C. & Hobern, D., 2020-07-16" ;
+  dcterms:title "Megalorhipida leucodactylus sec. Gielis & Hobern 2020-07-16" ;
   :taxonName [ a :TaxonName ;
     :taxonNameString "Megalorhipida leucodactylus" ;
     dwc:scientificName "Megalorhipida leucodactylus (Fabricius, 1794)" ;
@@ -56,7 +56,7 @@
     rdf:_2 <https://orcid.org/0000-0001-6492-4016> ] ;
   bibo:edition "1.1.23.5" ;
   dcterms:date "2023-01-05" ;
-  bibo:doi "10.48580/dfry-3gd#1.1.23.5" ;
+  bibo:doi "10.48580/dfry-3gd" ;
   bibo:uri "https://www.catalogueoflife.org/data/dataset/1199" .
 
 <https://orcid.org/0000-0001-6492-4016> a foaf:Person ;
@@ -71,7 +71,7 @@
 # Higher classification
 
 <https://www.catalogueoflife.org/data/taxon/62ZBY> a :TaxonConcept ;
-  dcterms:title "Megalorhipida sec. Gielis, C. & Hobern, D., 2020-07-16" ;
+  dcterms:title "Megalorhipida sec. Gielis & Hobern 2020-07-16" ;
   :taxonName [ a :TaxonName ;
     dwc:scientificName "Megalorhipida Amsel, 1935" ] ;
   :accordingTo <https://doi.org/10.48580/dfry-3gd#1.1.23.5> ;
@@ -79,7 +79,7 @@
   :parent <https://www.catalogueoflife.org/data/taxon/L44> .
 
 <https://www.catalogueoflife.org/data/taxon/L44> a :TaxonConcept ;
-  dcterms:title "Oxyptilini sec. Gielis, C. & Hobern, D., 2020-07-16" ;
+  dcterms:title "Oxyptilini sec. Gielis & Hobern 2020-07-16" ;
   :taxonName [ a :TaxonName ;
     dwc:scientificName "Oxyptilini Bigot, Gibeaux, Nel & Picard, 1998" ] ;
   :accordingTo <https://doi.org/10.48580/dfry-3gd#1.1.23.5> ;
@@ -87,7 +87,7 @@
   :parent <https://www.catalogueoflife.org/data/taxon/K8N> .
 
 <https://www.catalogueoflife.org/data/taxon/K8N> a :TaxonConcept ;
-  dcterms:title "Pterophorinae sec. Gielis, C. & Hobern, D., 2020-07-16" ;
+  dcterms:title "Pterophorinae sec. Gielis & Hobern 2020-07-16" ;
   :taxonName [ a :TaxonName ;
     dwc:scientificName "Pterophorinae Zeller, 1841" ] ;
   :accordingTo <https://doi.org/10.48580/dfry-3gd#1.1.23.5> ;
@@ -95,7 +95,7 @@
   :parent <https://www.catalogueoflife.org/data/taxon/8TLBR> .
 
 <https://www.catalogueoflife.org/data/taxon/8TLBR> a :TaxonConcept ;
-  dcterms:title "Pterophoridae sec. Gielis, C. & Hobern, D., 2020-07-16" ;
+  dcterms:title "Pterophoridae sec. Gielis & Hobern 2020-07-16" ;
   :taxonName [ a :TaxonName ;
     dwc:scientificName "Pterophoridae Latreille, 1802" ] ;
   :accordingTo <https://doi.org/10.48580/dfry-3gd#1.1.23.5> ;
@@ -103,7 +103,7 @@
   :parent <https://www.catalogueoflife.org/data/taxon/B6LST> .
 
 <https://www.catalogueoflife.org/data/taxon/B6LST> a :TaxonConcept ;
-  dcterms:title "Pterophoroidea sec. Gielis, C. & Hobern, D., 2020-07-16" ;
+  dcterms:title "Pterophoroidea sec. Gielis & Hobern 2020-07-16" ;
   :taxonName [ a :TaxonName ;
     dwc:scientificName "Pterophoroidea Kuznetzov & Stekolnikov, 1979" ] ;
   :accordingTo <https://doi.org/10.48580/dfry-3gd#1.1.23.5> ;
@@ -238,8 +238,8 @@ _:p3 a bibo:Book ;
     rdf:_2 _:Nc1d4a7ea7e7a4e5fa5bc5778cca2b4e0 ] ;
   dcterms:date "1996" ;
   dcterms:publisher [ a foaf:Organization ;
-    address:localityName "Stenstrup, Denmark" ;
-  foaf:name "Apollo Books" ] ;
+    foaf:name "Apollo Books" ;
+    address:localityName "Stenstrup, Denmark" ] ;
   bibo:numPages "380" .
 
 [] a gbif:Distribution ; dwciri:toTaxon _:tc3 ; dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:CD> .
@@ -341,7 +341,6 @@ _:tc5 a :TaxonConcept ;
     bibo:volume "65" ] ;
   bibo:doi "10.1080/09397140.2018.1540159" ;
   bibo:pages "75-78" ;
-  bibo:shortTitle "New data on plume moths (Lepidoptera" ;
   bibo:uri "https://doi.org/10.1080/09397140.2018.1540159" .
 
 [] a gbif:Distribution ; dwciri:toTaxon _:tc5 ; dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:MX> .
@@ -441,9 +440,9 @@ _:tc8 a :TaxonConcept ;
   :relationshipAccordingTo <https://doi.org/10.48580/dfry-3gd#1.1.23.5> .
 
 _:tc9 a :TaxonConcept ;
-    dcterms:title "Pterophorus leucodactylus sec. Matthews et al. 2019" ;
-    :taxonName <https://zoobank.org/NomenclaturalActs/39b2f236-3914-4962-9dcc-f594671654bd> ;
-    :accordingTo <https://digitalcommons.unl.edu/insectamundi/1219> .
+  dcterms:title "Pterophorus leucodactylus sec. Matthews et al. 2019" ;
+  :taxonName <https://zoobank.org/NomenclaturalActs/39b2f236-3914-4962-9dcc-f594671654bd> ;
+  :accordingTo <https://digitalcommons.unl.edu/insectamundi/1219> .
 
 <https://digitalcommons.unl.edu/insectamundi/1219> a bibo:AcademicArticle ;
   dcterms:title "Additions to the plume moth fauna of The Bahamas (Lepidoptera: Pterophoridae) with description of four new species" ;
@@ -476,9 +475,9 @@ _:tc9 a :TaxonConcept ;
   :relationshipAccordingTo <https://doi.org/10.48580/dfry-3gd#1.1.23.5> .
 
 _:tc10 a :TaxonConcept ;
-    dcterms:title "Pterophorus leucodactylus sec. Amsel 1935" ;
-    :taxonName <https://zoobank.org/NomenclaturalActs/39b2f236-3914-4962-9dcc-f594671654bd> ;
-    :accordingTo _:p10 .
+  dcterms:title "Pterophorus leucodactylus sec. Amsel 1935" ;
+  :taxonName <https://zoobank.org/NomenclaturalActs/39b2f236-3914-4962-9dcc-f594671654bd> ;
+  :accordingTo _:p10 .
   
 _:p10 a bibo:AcademicArticle ;
   dcterms:title "Neue palästinensische Lepidopteren" ;
@@ -524,9 +523,9 @@ _:p11 a bibo:AcademicArticle ;
   :relationshipAccordingTo <https://doi.org/10.48580/dfry-3gd#1.1.23.5> .
 
 _:tc12 a :TaxonConcept ;
-    dcterms:title "Pterophorus leucodactylus sec. Meyrick 1887" ;
-    :taxonName <https://zoobank.org/NomenclaturalActs/39b2f236-3914-4962-9dcc-f594671654bd> ;
-    :accordingTo <https://www.biodiversitylibrary.org/page/13718569> .
+  dcterms:title "Pterophorus leucodactylus sec. Meyrick 1887" ;
+  :taxonName <https://zoobank.org/NomenclaturalActs/39b2f236-3914-4962-9dcc-f594671654bd> ;
+  :accordingTo <https://www.biodiversitylibrary.org/page/13718569> .
   
 <https://www.biodiversitylibrary.org/page/13718569> a bibo:AcademicArticle ;
   dcterms:title "On Pyralidina from Australia and the South Pacific" ;
@@ -549,9 +548,9 @@ _:tc12 a :TaxonConcept ;
   :relationshipAccordingTo <https://doi.org/10.48580/dfry-3gd#1.1.23.5> .
 
 _:tc13 a :TaxonConcept ;
-    dcterms:title "Pterophorus leucodactylus sec. Gielis & al. 2022" ;
-    :taxonName <https://zoobank.org/NomenclaturalActs/39b2f236-3914-4962-9dcc-f594671654bd> ;
-    :accordingTo _:p13 .
+  dcterms:title "Pterophorus leucodactylus sec. Gielis & al. 2022" ;
+  :taxonName <https://zoobank.org/NomenclaturalActs/39b2f236-3914-4962-9dcc-f594671654bd> ;
+  :accordingTo _:p13 .
 
 _:p13 a bibo:Book ;
   dcterms:title "Moths of Bhutan" ;
@@ -577,9 +576,9 @@ _:p13 a bibo:Book ;
   :relationshipAccordingTo <https://doi.org/10.48580/dfry-3gd#1.1.23.5> .
 
 _:tc14 a :TaxonConcept ;
-    dcterms:title "Pterophorus leucodactylus sec. Ustjuzhanin & Kovtunovich 2017" ;
-    :taxonName <https://zoobank.org/NomenclaturalActs/39b2f236-3914-4962-9dcc-f594671654bd> ;
-    :accordingTo _:p14 .
+  dcterms:title "Pterophorus leucodactylus sec. Ustjuzhanin & Kovtunovich 2017" ;
+  :taxonName <https://zoobank.org/NomenclaturalActs/39b2f236-3914-4962-9dcc-f594671654bd> ;
+  :accordingTo _:p14 .
 
 _:p14 a bibo:AcademicArticle ;
   dcterms:title "The Pterophoridae fauna (Lepidoptera) of Thailand" ;
@@ -617,9 +616,9 @@ _:p14 a bibo:AcademicArticle ;
   :relationshipAccordingTo <https://doi.org/10.48580/dfry-3gd#1.1.23.5> .
 
 _:tc15 a :TaxonConcept ;
-    dcterms:title "Pterophorus leucodactylus sec. Fabricius 1794" ;
-    :taxonName <https://zoobank.org/NomenclaturalActs/39b2f236-3914-4962-9dcc-f594671654bd> ;
-    :accordingTo _:p15 .
+  dcterms:title "Pterophorus leucodactylus sec. Fabricius 1794" ;
+  :taxonName <https://zoobank.org/NomenclaturalActs/39b2f236-3914-4962-9dcc-f594671654bd> ;
+  :accordingTo _:p15 .
   
 _:p15 a bibo:Book ;
   dcterms:creator _:Nfe97f34642a547698a901dd1d679feca ;
@@ -638,9 +637,9 @@ _:p15 a bibo:Book ;
   :relationshipAccordingTo <https://doi.org/10.48580/dfry-3gd#1.1.23.5> .
 
 _:tc16 a :TaxonConcept ;
-    dcterms:title "Pterophorus leucodactylus sec. Butler 1881" ;
-    :taxonName <https://zoobank.org/NomenclaturalActs/39b2f236-3914-4962-9dcc-f594671654bd> ;
-    :accordingTo _:p16 .
+  dcterms:title "Pterophorus leucodactylus sec. Butler 1881" ;
+  :taxonName <https://zoobank.org/NomenclaturalActs/39b2f236-3914-4962-9dcc-f594671654bd> ;
+  :accordingTo _:p16 .
   
 _:p16 a bibo:AcademicArticle ;
   dcterms:creator _:Na0b2fa2fb0db4f9ebba87e0e95f6f55d ;
@@ -662,9 +661,9 @@ _:p16 a bibo:AcademicArticle ;
   :relationshipAccordingTo <https://doi.org/10.48580/dfry-3gd#1.1.23.5> .
 
 _:tc17 a :TaxonConcept ;
-    dcterms:title "Pterophorus leucodactylus sec. Meyrick 1926" ;
-    :taxonName <https://zoobank.org/NomenclaturalActs/39b2f236-3914-4962-9dcc-f594671654bd> ;
-    :accordingTo _:p17 .
+  dcterms:title "Pterophorus leucodactylus sec. Meyrick 1926" ;
+  :taxonName <https://zoobank.org/NomenclaturalActs/39b2f236-3914-4962-9dcc-f594671654bd> ;
+  :accordingTo _:p17 .
   
 _:p17 a bibo:AcademicArticle ;
   dcterms:title "Microlepidoptera from the Galapagos Islands and Rapa" ;
@@ -686,16 +685,23 @@ _:p17 a bibo:AcademicArticle ;
   :relationshipAccordingTo <https://doi.org/10.48580/dfry-3gd#1.1.23.5> .
 
 _:tc18 a :TaxonConcept ;
-    dcterms:title "Pterophorus leucodactylus sec. Ustjuzhanin, Kovtunovich, Müller, Prozorov & Streltzov 2022" ;
-    :taxonName <https://zoobank.org/NomenclaturalActs/39b2f236-3914-4962-9dcc-f594671654bd> ;
-    :accordingTo <https://doi.org/10.37828/em.2022.53.6> .
+  dcterms:title "Pterophorus leucodactylus sec. Ustjuzhanin, Kovtunovich, Müller, Prozorov & Streltzov 2022" ;
+  :taxonName <https://zoobank.org/NomenclaturalActs/39b2f236-3914-4962-9dcc-f594671654bd> ;
+  :accordingTo <https://doi.org/10.37828/em.2022.53.6> .
 
 <https://doi.org/10.37828/em.2022.53.6> a bibo:AcademicArticle ;
+  dcterms:title "Plume Moths (Lepidoptera: Pterophoridae) of Ethiopia. Part 2" ;
   dcterms:creator _:N2f5ec99d964742a8b140441111391750,
     _:Nac900cc737d94b2fa845ae14b1867924,
     _:N43ba965fda0d4a24afde4ca923f85e4c,
     _:N4cbcd8b0157f41ea9d757699158eba3e,
     _:Nfa8303a19a36455cb2d0a533da945855 ;
+  bibo:authorList [ a rdf:Seq ;
+    rdf:_1 _:N2f5ec99d964742a8b140441111391750 ;
+    rdf:_2 _:N43ba965fda0d4a24afde4ca923f85e4c ;
+    rdf:_3 _:Nfa8303a19a36455cb2d0a533da945855 ;
+    rdf:_4 _:Nac900cc737d94b2fa845ae14b1867924 ;
+    rdf:_5 _:N4cbcd8b0157f41ea9d757699158eba3e ] ;
   dcterms:isPartOf [ a bibo:Issue ;
     dcterms:date "2022-05-27" ;
     dcterms:isPartOf [ a bibo:Journal ;
@@ -703,13 +709,6 @@ _:tc18 a :TaxonConcept ;
       bibo:issn "2336-9744" ] ;
     bibo:volume "53" ] ;
   dcterms:language "en" ;
-  dcterms:title "Plume Moths (Lepidoptera: Pterophoridae) of Ethiopia. Part 2" ;
-  bibo:authorList [ a rdf:Seq ;
-    rdf:_1 _:N2f5ec99d964742a8b140441111391750 ;
-    rdf:_2 _:N43ba965fda0d4a24afde4ca923f85e4c ;
-    rdf:_3 _:Nfa8303a19a36455cb2d0a533da945855 ;
-    rdf:_4 _:Nac900cc737d94b2fa845ae14b1867924 ;
-    rdf:_5 _:N4cbcd8b0157f41ea9d757699158eba3e ] ;
   bibo:doi "10.37828/em.2022.53.6" ;
   bibo:pages "45-55" ;
   bibo:uri "https://www.biotaxa.org/em/article/view/75561" .
