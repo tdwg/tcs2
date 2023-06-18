@@ -110,7 +110,7 @@ This relationship can also be written as the formula **A &cong; B** or **A == B*
 # Andropogon capillipes sec. BONAP 2014 is congruent with Andropogon capillipes sec. Weakley 2006
 [] a :TaxonRelationship ;
     :relationshipAccordingTo <https://doi.org/10.3233/SW-160220> ;
-    :relationshipType <http://rs.tdwg.org/tcs-taxon-relationship-type/values/hasProperSubset> ;
+    :relationshipType <http://rs.tdwg.org/tcs-taxon-relationship-type/values/isCongruentWith> ;
     :subjectTaxonConcept [ a :TaxonConcept ;
         dcterms:title "Andropogon capillipes sec. BONAP 2014" ;
         :accordingTo <http://bonap.net/napa#2014> ;
@@ -172,7 +172,7 @@ This relation type can also be written as the formula **A > B**.
 
 
 ```turtle
-# Andropogon glomeratus sec. BONAP 2014 has a proper subset Andropogon tenuispatheus sec. Weakley 2006
+# Andropogon glomeratus sec. BONAP 2014 includes Andropogon tenuispatheus sec. Weakley 2006
 [] a :TaxonRelationship ;
     :relationshipAccordingTo <https://doi.org/10.3233/SW-160220> ;
     :relationshipType <http://rs.tdwg.org/tcs-taxon-relationship-type/values/includes> ;
@@ -241,7 +241,7 @@ This relation type can also be written as the formula **A < B**.
 
 
 ```turtle
-# Andropogon hirsutior sec. BONAP 2014 is a proper subset of Andropogon glomeratus sec. Weakley 2006
+# Andropogon hirsutior sec. BONAP 2014 is included in Andropogon glomeratus sec. Weakley 2006
 [] a :TaxonRelationship ;
     :relationshipAccordingTo <https://doi.org/10.3233/SW-160220> ;
     :relationshipType <http://rs.tdwg.org/tcs-taxon-relationship-type/values/isIncludedIn> ;

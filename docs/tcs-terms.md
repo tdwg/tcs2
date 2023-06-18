@@ -740,10 +740,10 @@ Taxon Relationship statements can be made in the treatment of the  subject Taxon
 
 
 ```turtle
-# Athyriaceae sec. Rothfels et al. (2012) is proper subset of Woodsiaceae sec. Smith et al. (2006)
+# Athyriaceae sec. Rothfels et al. (2012) is included in Woodsiaceae sec. Smith et al. (2006)
 [] a :TaxonRelationship ; 
     :relationshipAccordingTo <https://doi.org/10.1002/tax.613003> ;
-    :relationshipType <http://rs.tdwg.org/tcs-taxon-concept-relationship-type/values/isProperSubsetOf> ; 
+    :relationshipType <http://rs.tdwg.org/tcs-taxon-concept-relationship-type/values/isIncludedIn> ; 
     :subjectTaxonConcept [ a :TaxonConcept ; 
         dcterms:title "Athyriaceae sec. Rothfels et al. (2012)" ;
         :accordingTo <https://doi.org/10.1002/tax.613003> ;
