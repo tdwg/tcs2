@@ -13,12 +13,12 @@
 
 <https://www.catalogueoflife.org/data/taxon/3YVTF> a :TaxonConcept ;
   dcterms:title "Megalorhipida leucodactylus sec. Gielis & Hobern 2020-07-16" ;
-  :taxonName [ a :TaxonName ;
+  :accordingTo <https://doi.org/10.48580/dfry-3gd#1.1.23.5> ;
+  :acceptedName [ a :TaxonName ;
     :taxonNameString "Megalorhipida leucodactylus" ;
     dwc:scientificName "Megalorhipida leucodactylus (Fabricius, 1794)" ;
     :basionym <https://zoobank.org/NomenclaturalActs/39b2f236-3914-4962-9dcc-f594671654bd> ] ;
-  :accordingTo <https://doi.org/10.48580/dfry-3gd#1.1.23.5> ;
-  :synonym [ a :taxonName ;
+  :synonym [ a :TaxonName ;
     dwc:scientificName "Aciptilia hawaiiensis Butler, 1881" ] , 
     [ a :TaxonName ;
       dwc:scientificName "Megalorhipida palaestinensis Amsel, 1935" ] ,
@@ -40,7 +40,7 @@
       dwc:scientificName "Trichoptilus ralumensis Pagenstecher, 1900" ] ,
     [ a :TaxonName ;
       dwc:scientificName "Pterophorus oxydactylus Walker, 1864" ] ;
-  :rank <http://rs.gbif.org/vocabulary/gbif/rank/species> ;
+  :taxonomicRank <http://rs.gbif.org/vocabulary/gbif/rank/species> ;
   :parent <https://www.catalogueoflife.org/data/taxon/62ZBY> .
 
 <https://zoobank.org/NomenclaturalActs/39b2f236-3914-4962-9dcc-f594671654bd> a :TaxonName ;
@@ -72,96 +72,96 @@
 
 <https://www.catalogueoflife.org/data/taxon/62ZBY> a :TaxonConcept ;
   dcterms:title "Megalorhipida sec. Gielis & Hobern 2020-07-16" ;
-  :taxonName [ a :TaxonName ;
-    dwc:scientificName "Megalorhipida Amsel, 1935" ] ;
   :accordingTo <https://doi.org/10.48580/dfry-3gd#1.1.23.5> ;
-  :rank <http://rs.gbif.org/vocabulary/gbif/rank/genus> ;
+  :acceptedName [ a :TaxonName ;
+    dwc:scientificName "Megalorhipida Amsel, 1935" ] ;
+  :taxonomicRank <http://rs.gbif.org/vocabulary/gbif/rank/genus> ;
   :parent <https://www.catalogueoflife.org/data/taxon/L44> .
 
 <https://www.catalogueoflife.org/data/taxon/L44> a :TaxonConcept ;
   dcterms:title "Oxyptilini sec. Gielis & Hobern 2020-07-16" ;
-  :taxonName [ a :TaxonName ;
-    dwc:scientificName "Oxyptilini Bigot, Gibeaux, Nel & Picard, 1998" ] ;
   :accordingTo <https://doi.org/10.48580/dfry-3gd#1.1.23.5> ;
-  :rank <http://rs.gbif.org/vocabulary/gbif/rank/tribe> ;
+  :acceptedName [ a :TaxonName ;
+    dwc:scientificName "Oxyptilini Bigot, Gibeaux, Nel & Picard, 1998" ] ;
+  :taxonomicRank <http://rs.gbif.org/vocabulary/gbif/rank/tribe> ;
   :parent <https://www.catalogueoflife.org/data/taxon/K8N> .
 
 <https://www.catalogueoflife.org/data/taxon/K8N> a :TaxonConcept ;
   dcterms:title "Pterophorinae sec. Gielis & Hobern 2020-07-16" ;
-  :taxonName [ a :TaxonName ;
-    dwc:scientificName "Pterophorinae Zeller, 1841" ] ;
   :accordingTo <https://doi.org/10.48580/dfry-3gd#1.1.23.5> ;
-  :rank <http://rs.gbif.org/vocabulary/gbif/rank/subfamily> ;
+  :acceptedName [ a :TaxonName ;
+    dwc:scientificName "Pterophorinae Zeller, 1841" ] ;
+  :taxonomicRank <http://rs.gbif.org/vocabulary/gbif/rank/subfamily> ;
   :parent <https://www.catalogueoflife.org/data/taxon/8TLBR> .
 
 <https://www.catalogueoflife.org/data/taxon/8TLBR> a :TaxonConcept ;
   dcterms:title "Pterophoridae sec. Gielis & Hobern 2020-07-16" ;
-  :taxonName [ a :TaxonName ;
-    dwc:scientificName "Pterophoridae Latreille, 1802" ] ;
   :accordingTo <https://doi.org/10.48580/dfry-3gd#1.1.23.5> ;
-  :rank <http://rs.gbif.org/vocabulary/gbif/rank/family> ;
+  :acceptedName [ a :TaxonName ;
+    dwc:scientificName "Pterophoridae Latreille, 1802" ] ;
+  :taxonomicRank <http://rs.gbif.org/vocabulary/gbif/rank/family> ;
   :parent <https://www.catalogueoflife.org/data/taxon/B6LST> .
 
 <https://www.catalogueoflife.org/data/taxon/B6LST> a :TaxonConcept ;
   dcterms:title "Pterophoroidea sec. Gielis & Hobern 2020-07-16" ;
-  :taxonName [ a :TaxonName ;
-    dwc:scientificName "Pterophoroidea Kuznetzov & Stekolnikov, 1979" ] ;
   :accordingTo <https://doi.org/10.48580/dfry-3gd#1.1.23.5> ;
-  :rank <http://rs.gbif.org/vocabulary/gbif/rank/superfamily> ;
+  :acceptedName [ a :TaxonName ;
+    dwc:scientificName "Pterophoroidea Kuznetzov & Stekolnikov, 1979" ] ;
+  :taxonomicRank <http://rs.gbif.org/vocabulary/gbif/rank/superfamily> ;
   :parent <https://www.catalogueoflife.org/data/taxon/B6L67> .
 
 <https://www.catalogueoflife.org/data/taxon/B6L67> a :TaxonConcept ;
   dcterms:title "Lepidoptera sec. Global Lepidoptera Index 2023-05-10" ;
-  :taxonName [ a :TaxonName ;
-    dwc:scientificName "Lepidoptera Linnaeus, 1758" ] ;
   :accordingTo <https://doi.org/10.48580/dfs6-49xk> ;
-  :rank <http://rs.gbif.org/vocabulary/gbif/rank/order> ;
+  :acceptedName [ a :TaxonName ;
+    dwc:scientificName "Lepidoptera Linnaeus, 1758" ] ;
+  :taxonomicRank <http://rs.gbif.org/vocabulary/gbif/rank/order> ;
   :parent <https://www.catalogueoflife.org/data/taxon/H6> .
 
 <https://www.catalogueoflife.org/data/taxon/H6> a :TaxonConcept ;
   dcterms:title "Insecta sec. Catalogue of Life" ;
-  :taxonName [ a :TaxonName ;
-    dwc:scientificName "Insecta" ] ;
   :accordingTo <https://doi.org/10.48580/dfs6> ;
-  :rank <http://rs.gbif.org/vocabulary/gbif/rank/class> ;
+  :acceptedName [ a :TaxonName ;
+    dwc:scientificName "Insecta" ] ;
+  :taxonomicRank <http://rs.gbif.org/vocabulary/gbif/rank/class> ;
   :parent <https://www.catalogueoflife.org/data/taxon/RT> .
 
 <https://www.catalogueoflife.org/data/taxon/RT> a :TaxonConcept ;
   dcterms:title "Arthropoda sec. Catalogue of Life" ;
-  :taxonName [ a :TaxonName ;
-    dwc:scientificName "Arthropoda" ] ;
   :accordingTo <https://doi.org/10.48580/dfs6> ;
-  :rank <http://rs.gbif.org/vocabulary/gbif/rank/phylum> ;
+  :acceptedName [ a :TaxonName ;
+    dwc:scientificName "Arthropoda" ] ;
+  :taxonomicRank <http://rs.gbif.org/vocabulary/gbif/rank/phylum> ;
   :parent <https://www.catalogueoflife.org/data/taxon/N> .
 
 <https://www.catalogueoflife.org/data/taxon/N> a :TaxonConcept ;
   dcterms:title "Animalia sec. Catalogue of Life" ;
-  :taxonName [ a :TaxonName ;
-    dwc:scientificName "Arthropoda" ] ;
   :accordingTo <https://doi.org/10.48580/dfs6> ;
-  :rank <http://rs.gbif.org/vocabulary/gbif/rank/kingdom> ;
+  :acceptedName [ a :TaxonName ;
+    dwc:scientificName "Arthropoda" ] ;
+  :taxonomicRank <http://rs.gbif.org/vocabulary/gbif/rank/kingdom> ;
   :parent <https://www.catalogueoflife.org/data/taxon/5T6MX> .
 
 <https://www.catalogueoflife.org/data/taxon/5T6MX> a :TaxonConcept ;
   dcterms:title "Biota sec. Catalogue of Life" ;
-  :taxonName [ a :TaxonName ;
-    dwc:scientificName "Arthropoda" ] ;
-  :accordingTo <https://doi.org/10.48580/dfs6> .
+  :accordingTo <https://doi.org/10.48580/dfs6> ;
+  :acceptedName [ a :TaxonName ;
+    dwc:scientificName "Arthropoda" ] .
 
 
 # References
 
 ## [1] Pagenstecher 1900
 [] a :TaxonRelationship ;
+  :relationshipAccordingTo <https://doi.org/10.48580/dfry-3gd#1.1.23.5> ;
   :relationshipType <http://rs.tdwg.org/tcs-taxon-relationship-type/values/intersects> ;
   :subjectTaxonConcept <https://www.catalogueoflife.org/data/taxon/3YVTF> ;
-  :objectTaxonConcept _:tc1 ;
-  :relationshipAccordingTo <https://doi.org/10.48580/dfry-3gd#1.1.23.5> .
+  :objectTaxonConcept _:tc1 .
 
 _:tc1 a :TaxonConcept ;
     dcterms:title "Pterophorus leucodactylus sec. Pagenstecher 1900" ;
-    :taxonName <https://zoobank.org/NomenclaturalActs/39b2f236-3914-4962-9dcc-f594671654bd> ;
-    :accordingTo _:p1 .
+    :accordingTo _:p1 ;
+    :acceptedName <https://zoobank.org/NomenclaturalActs/39b2f236-3914-4962-9dcc-f594671654bd> .
 
 _:p1 a bibo:AcademicArticle ;
   dcterms:title "Die Lepidopterenfauna des Bismarck-Archipels" ;
@@ -177,15 +177,15 @@ _:p1 a bibo:AcademicArticle ;
 
 ## [2] Ustjuzhanin, Kovtunovich & Streltzov 2022
 [] a :TaxonRelationship ;
+  :relationshipAccordingTo <https://doi.org/10.48580/dfry-3gd#1.1.23.5> ;
   :relationshipType <http://rs.tdwg.org/tcs-taxon-relationship-type/values/intersects> ;
   :subjectTaxonConcept <https://www.catalogueoflife.org/data/taxon/3YVTF> ;
-  :objectTaxonConcept _:tc2 ;
-  :relationshipAccordingTo <https://doi.org/10.48580/dfry-3gd#1.1.23.5> .
+  :objectTaxonConcept _:tc2 .
 
 _:tc2 a :TaxonConcept ;
+  :accordingTo _:p2 ;
   dcterms:title "Pterophorus leucodactylus sec. Ustjuzhanin, Kovtunovich & Streltzov 2022" ;
-  :taxonName <https://zoobank.org/NomenclaturalActs/39b2f236-3914-4962-9dcc-f594671654bd> ;
-  :accordingTo _:p2 .
+  :acceptedName <https://zoobank.org/NomenclaturalActs/39b2f236-3914-4962-9dcc-f594671654bd> .
 
 _:p2 a bibo:AcademicArticle ;
   dcterms:title "Review on the fauna of Pterophoridae of the Republic of Guinea (Lepidoptera: Pterophoridae)" ;
@@ -255,15 +255,15 @@ _:p2 a bibo:AcademicArticle ;
 
 ## [3] Karsholt & Razowski 1996
 [] a :TaxonRelationship ;
+  :relationshipAccordingTo <https://doi.org/10.48580/dfry-3gd#1.1.23.5> ;
   :relationshipType <http://rs.tdwg.org/tcs-taxon-relationship-type/values/intersects> ;
   :subjectTaxonConcept <https://www.catalogueoflife.org/data/taxon/3YVTF> ;
-  :objectTaxonConcept _:tc3 ;
-  :relationshipAccordingTo <https://doi.org/10.48580/dfry-3gd#1.1.23.5> .
+  :objectTaxonConcept _:tc3 .
 
 _:tc3 a :TaxonConcept ;
   dcterms:title "Pterophorus leucodactylus sec. Karsholt & Razowski 1996" ;
-  :taxonName <https://zoobank.org/NomenclaturalActs/39b2f236-3914-4962-9dcc-f594671654bd> ;
-  :accordingTo _:p3 .
+  :accordingTo _:p3 ;
+  :acceptedName <https://zoobank.org/NomenclaturalActs/39b2f236-3914-4962-9dcc-f594671654bd> .
 
 _:p3 a bibo:Book ;
   dcterms:title "The Lepidoptera of Europe. A Distribution Checklist" ;
@@ -321,15 +321,15 @@ _:p3 a bibo:Book ;
 
 ## [4] Kovtunovich & al. 2014
 [] a :TaxonRelationship ;
+  :relationshipAccordingTo <https://doi.org/10.48580/dfry-3gd#1.1.23.5> ;
   :relationshipType <http://rs.tdwg.org/tcs-taxon-relationship-type/values/intersects> ;
   :subjectTaxonConcept <https://www.catalogueoflife.org/data/taxon/3YVTF> ;
-  :objectTaxonConcept _:tc4 ;
-  :relationshipAccordingTo <https://doi.org/10.48580/dfry-3gd#1.1.23.5> .
+  :objectTaxonConcept _:tc4 .
 
 _:tc4 a :TaxonConcept ;
   dcterms:title "Pterophorus leucodactylus sec. Kovtunovich & al. 2014" ;
-  :taxonName <https://zoobank.org/NomenclaturalActs/39b2f236-3914-4962-9dcc-f594671654bd> ;
-  :accordingTo <https://doi.org/10.11646/zootaxa.3847.4.1> .
+  :accordingTo <https://doi.org/10.11646/zootaxa.3847.4.1> ;
+  :acceptedName <https://zoobank.org/NomenclaturalActs/39b2f236-3914-4962-9dcc-f594671654bd> .
 
 <https://doi.org/10.11646/zootaxa.3847.4.1> a bibo:AcademicArticle ;
   dcterms:title "Plume moths of Malawi (Lepidoptera: Pterophoridae)" ;
@@ -446,15 +446,15 @@ _:tc4 a :TaxonConcept ;
 
 ## [5] Kovtunovich & al. 2014
 [] a :TaxonRelationship ;
+  :relationshipAccordingTo <https://doi.org/10.48580/dfry-3gd#1.1.23.5> ;
   :relationshipType <http://rs.tdwg.org/tcs-taxon-relationship-type/values/intersects> ;
   :subjectTaxonConcept <https://www.catalogueoflife.org/data/taxon/3YVTF> ;
-  :objectTaxonConcept _:tc5 ;
-  :relationshipAccordingTo <https://doi.org/10.48580/dfry-3gd#1.1.23.5> .
+  :objectTaxonConcept _:tc5 .
 
 _:tc5 a :TaxonConcept ;
   dcterms:title "Pterophorus leucodactylus sec. Kovtunovich & al. 2014" ;
-  :taxonName <https://zoobank.org/NomenclaturalActs/39b2f236-3914-4962-9dcc-f594671654bd> ;
-  :accordingTo <https://doi.org/10.1080/09397140.2018.1540159> .
+  :accordingTo <https://doi.org/10.1080/09397140.2018.1540159> ;
+  :acceptedName <https://zoobank.org/NomenclaturalActs/39b2f236-3914-4962-9dcc-f594671654bd> .
 
 <https://doi.org/10.1080/09397140.2018.1540159> a bibo:AcademicArticle ;
   dcterms:title "New data on plume moths (Lepidoptera: Pterophoridae) of Oman" ;
@@ -501,15 +501,15 @@ _:tc5 a :TaxonConcept ;
 
 ## [6] Meyrick 1886
 [] a :TaxonRelationship ;
+  :relationshipAccordingTo <https://doi.org/10.48580/dfry-3gd#1.1.23.5> ;
   :relationshipType <http://rs.tdwg.org/tcs-taxon-relationship-type/values/intersects> ;
   :subjectTaxonConcept <https://www.catalogueoflife.org/data/taxon/3YVTF> ;
-  :objectTaxonConcept _:tc6 ;
-  :relationshipAccordingTo <https://doi.org/10.48580/dfry-3gd#1.1.23.5> .
+  :objectTaxonConcept _:tc6 .
 
 _:tc6 a :TaxonConcept ;
   dcterms:title "Pterophorus leucodactylus sec. Meyrick 1886" ;
-  :taxonName <https://zoobank.org/NomenclaturalActs/39b2f236-3914-4962-9dcc-f594671654bd> ;
-  :accordingTo _:p6 .
+  :accordingTo _:p6 ;
+  :acceptedName <https://zoobank.org/NomenclaturalActs/39b2f236-3914-4962-9dcc-f594671654bd> .
 
 :p6 a bibo:AcademicArticle ;
   dcterms:creator _:N6e22db5aa1c242a5a3386b855b8ea41b ;
@@ -525,15 +525,15 @@ _:tc6 a :TaxonConcept ;
 
 ## [7] Walker 1864
 [] a :TaxonRelationship ;
+  :relationshipAccordingTo <https://doi.org/10.48580/dfry-3gd#1.1.23.5> ;
   :relationshipType <http://rs.tdwg.org/tcs-taxon-relationship-type/values/intersects> ;
   :subjectTaxonConcept <https://www.catalogueoflife.org/data/taxon/3YVTF> ;
-  :objectTaxonConcept _:tc7 ;
-  :relationshipAccordingTo <https://doi.org/10.48580/dfry-3gd#1.1.23.5> .
+  :objectTaxonConcept _:tc7 .
 
 _:tc7 a :TaxonConcept ;
   dcterms:title "Pterophorus leucodactylus sec. Walker 1864" ;
-  :taxonName <https://zoobank.org/NomenclaturalActs/39b2f236-3914-4962-9dcc-f594671654bd> ;
-  :accordingTo <https://www.biodiversitylibrary.org/page/38948425> .
+  :accordingTo <https://www.biodiversitylibrary.org/page/38948425> ;
+  :acceptedName <https://zoobank.org/NomenclaturalActs/39b2f236-3914-4962-9dcc-f594671654bd> .
 
 <https://www.biodiversitylibrary.org/page/38948425> a bibo:Book ;
   dcterms:creator _:Nda9bdcdd0f9648699a89028f1dce9204 ;
@@ -548,15 +548,15 @@ _:tc7 a :TaxonConcept ;
 
 ## [8] Ustjuzhanin & al. 2021
 [] a :TaxonRelationship ;
+  :relationshipAccordingTo <https://doi.org/10.48580/dfry-3gd#1.1.23.5> ;
   :relationshipType <http://rs.tdwg.org/tcs-taxon-relationship-type/values/intersects> ;
   :subjectTaxonConcept <https://www.catalogueoflife.org/data/taxon/3YVTF> ;
-  :objectTaxonConcept _:tc8 ;
-  :relationshipAccordingTo <https://doi.org/10.48580/dfry-3gd#1.1.23.5> .
+  :objectTaxonConcept _:tc8 .
 
 _:tc8 a :TaxonConcept ;
   dcterms:title "Pterophorus leucodactylus sec. Ustjuzhanin & al. 2021" ;
-  :taxonName <https://zoobank.org/NomenclaturalActs/39b2f236-3914-4962-9dcc-f594671654bd> ;
-  :accordingTo <https://doi.org/10.25221/fee.423.2> .
+  :accordingTo <https://doi.org/10.25221/fee.423.2> ;
+  :acceptedName <https://zoobank.org/NomenclaturalActs/39b2f236-3914-4962-9dcc-f594671654bd> .
 
 <https://doi.org/10.25221/fee.423.2> a bibo:AcademicArticle ;
   dcterms:title "A list of plume moths (Lepidoptera: Pterophoridae) of the fauna of Pakistan" ;
@@ -593,15 +593,15 @@ _:tc8 a :TaxonConcept ;
 
 ## [9] Matthews et al. 2019
 [] a :TaxonRelationship ;
+  :relationshipAccordingTo <https://doi.org/10.48580/dfry-3gd#1.1.23.5> ;
   :relationshipType <http://rs.tdwg.org/tcs-taxon-relationship-type/values/intersects> ;
   :subjectTaxonConcept <https://www.catalogueoflife.org/data/taxon/3YVTF> ;
-  :objectTaxonConcept _:tc9 ;
-  :relationshipAccordingTo <https://doi.org/10.48580/dfry-3gd#1.1.23.5> .
+  :objectTaxonConcept _:tc9 .
 
 _:tc9 a :TaxonConcept ;
   dcterms:title "Pterophorus leucodactylus sec. Matthews et al. 2019" ;
-  :taxonName <https://zoobank.org/NomenclaturalActs/39b2f236-3914-4962-9dcc-f594671654bd> ;
-  :accordingTo <https://digitalcommons.unl.edu/insectamundi/1219> .
+  :accordingTo <https://digitalcommons.unl.edu/insectamundi/1219> ;
+  :acceptedName <https://zoobank.org/NomenclaturalActs/39b2f236-3914-4962-9dcc-f594671654bd> .
 
 <https://digitalcommons.unl.edu/insectamundi/1219> a bibo:AcademicArticle ;
   dcterms:title "Additions to the plume moth fauna of The Bahamas (Lepidoptera: Pterophoridae) with description of four new species" ;
@@ -643,15 +643,15 @@ _:tc9 a :TaxonConcept ;
 
 ## [10] Amsel 1935
 [] a :TaxonRelationship ;
+  :relationshipAccordingTo <https://doi.org/10.48580/dfry-3gd#1.1.23.5> ;
   :relationshipType <http://rs.tdwg.org/tcs-taxon-relationship-type/values/intersects> ;
   :subjectTaxonConcept <https://www.catalogueoflife.org/data/taxon/3YVTF> ;
-  :objectTaxonConcept _:tc10 ;
-  :relationshipAccordingTo <https://doi.org/10.48580/dfry-3gd#1.1.23.5> .
+  :objectTaxonConcept _:tc10 .
 
 _:tc10 a :TaxonConcept ;
   dcterms:title "Pterophorus leucodactylus sec. Amsel 1935" ;
-  :taxonName <https://zoobank.org/NomenclaturalActs/39b2f236-3914-4962-9dcc-f594671654bd> ;
-  :accordingTo _:p10 .
+  :accordingTo _:p10 ;
+  :acceptedName <https://zoobank.org/NomenclaturalActs/39b2f236-3914-4962-9dcc-f594671654bd> .
   
 _:p10 a bibo:AcademicArticle ;
   dcterms:title "Neue palästinensische Lepidopteren" ;
@@ -667,15 +667,15 @@ _:p10 a bibo:AcademicArticle ;
 
 ## [11] Fish 1881
 [] a :TaxonRelationship ;
+  :relationshipAccordingTo <https://doi.org/10.48580/dfry-3gd#1.1.23.5> ;
   :relationshipType <http://rs.tdwg.org/tcs-taxon-relationship-type/values/intersects> ;
   :subjectTaxonConcept <https://www.catalogueoflife.org/data/taxon/3YVTF> ;
-  :objectTaxonConcept _:tc11 ;
-  :relationshipAccordingTo <https://doi.org/10.48580/dfry-3gd#1.1.23.5> .
+  :objectTaxonConcept _:tc11 .
 
 _:tc11 a :TaxonConcept ;
     dcterms:title "Pterophorus leucodactylus sec. Fish 1881" ;
-    :taxonName <https://zoobank.org/NomenclaturalActs/39b2f236-3914-4962-9dcc-f594671654bd> ;
-    :accordingTo _:p11 .
+    :accordingTo _:p11 ;
+    :acceptedName <https://zoobank.org/NomenclaturalActs/39b2f236-3914-4962-9dcc-f594671654bd> .
   
 _:p11 a bibo:AcademicArticle ;
   dcterms:title "Pterophoridae" ;
@@ -691,15 +691,15 @@ _:p11 a bibo:AcademicArticle ;
 
 ## [12] Meyrick 1887
 [] a :TaxonRelationship ;
+  :relationshipAccordingTo <https://doi.org/10.48580/dfry-3gd#1.1.23.5> ;
   :relationshipType <http://rs.tdwg.org/tcs-taxon-relationship-type/values/intersects> ;
   :subjectTaxonConcept <https://www.catalogueoflife.org/data/taxon/3YVTF> ;
-  :objectTaxonConcept _:tc12 ;
-  :relationshipAccordingTo <https://doi.org/10.48580/dfry-3gd#1.1.23.5> .
+  :objectTaxonConcept _:tc12 .
 
 _:tc12 a :TaxonConcept ;
   dcterms:title "Pterophorus leucodactylus sec. Meyrick 1887" ;
-  :taxonName <https://zoobank.org/NomenclaturalActs/39b2f236-3914-4962-9dcc-f594671654bd> ;
-  :accordingTo <https://www.biodiversitylibrary.org/page/13718569> .
+  :accordingTo <https://www.biodiversitylibrary.org/page/13718569> ;
+  :acceptedName <https://zoobank.org/NomenclaturalActs/39b2f236-3914-4962-9dcc-f594671654bd> .
   
 <https://www.biodiversitylibrary.org/page/13718569> a bibo:AcademicArticle ;
   dcterms:title "On Pyralidina from Australia and the South Pacific" ;
@@ -716,15 +716,15 @@ _:tc12 a :TaxonConcept ;
 
 ## [13] Gielis & al. 2022
 [] a :TaxonRelationship ;
+  :relationshipAccordingTo <https://doi.org/10.48580/dfry-3gd#1.1.23.5> ;
   :relationshipType <http://rs.tdwg.org/tcs-taxon-relationship-type/values/intersects> ;
   :subjectTaxonConcept <https://www.catalogueoflife.org/data/taxon/3YVTF> ;
-  :objectTaxonConcept _:tc13 ;
-  :relationshipAccordingTo <https://doi.org/10.48580/dfry-3gd#1.1.23.5> .
+  :objectTaxonConcept _:tc13 .
 
 _:tc13 a :TaxonConcept ;
   dcterms:title "Pterophorus leucodactylus sec. Gielis & al. 2022" ;
-  :taxonName <https://zoobank.org/NomenclaturalActs/39b2f236-3914-4962-9dcc-f594671654bd> ;
-  :accordingTo _:p13 .
+  :accordingTo _:p13 ;
+  :acceptedName <https://zoobank.org/NomenclaturalActs/39b2f236-3914-4962-9dcc-f594671654bd> .
 
 _:p13 a bibo:Book ;
   dcterms:title "Moths of Bhutan" ;
@@ -746,15 +746,15 @@ _:p13 a bibo:Book ;
 
 ## [14] Ustjuzhanin & Kovtunovich 2017
 [] a :TaxonRelationship ;
+  :relationshipAccordingTo <https://doi.org/10.48580/dfry-3gd#1.1.23.5> ;
   :relationshipType <http://rs.tdwg.org/tcs-taxon-relationship-type/values/intersects> ;
   :subjectTaxonConcept <https://www.catalogueoflife.org/data/taxon/3YVTF> ;
-  :objectTaxonConcept _:tc14 ;
-  :relationshipAccordingTo <https://doi.org/10.48580/dfry-3gd#1.1.23.5> .
+  :objectTaxonConcept _:tc14 .
 
 _:tc14 a :TaxonConcept ;
   dcterms:title "Pterophorus leucodactylus sec. Ustjuzhanin & Kovtunovich 2017" ;
-  :taxonName <https://zoobank.org/NomenclaturalActs/39b2f236-3914-4962-9dcc-f594671654bd> ;
-  :accordingTo _:p14 .
+  :accordingTo _:p14 ;
+  :acceptedName <https://zoobank.org/NomenclaturalActs/39b2f236-3914-4962-9dcc-f594671654bd> .
 
 _:p14 a bibo:AcademicArticle ;
   dcterms:title "The Pterophoridae fauna (Lepidoptera) of Thailand" ;
@@ -822,15 +822,15 @@ _:p14 a bibo:AcademicArticle ;
 
 ## [15] Fabricius 1794
 [] a :TaxonRelationship ;
+  :relationshipAccordingTo <https://doi.org/10.48580/dfry-3gd#1.1.23.5> ;
   :relationshipType <http://rs.tdwg.org/tcs-taxon-relationship-type/values/intersects> ;
   :subjectTaxonConcept <https://www.catalogueoflife.org/data/taxon/3YVTF> ;
-  :objectTaxonConcept _:tc15 ;
-  :relationshipAccordingTo <https://doi.org/10.48580/dfry-3gd#1.1.23.5> .
+  :objectTaxonConcept _:tc15 .
 
 _:tc15 a :TaxonConcept ;
   dcterms:title "Pterophorus leucodactylus sec. Fabricius 1794" ;
-  :taxonName <https://zoobank.org/NomenclaturalActs/39b2f236-3914-4962-9dcc-f594671654bd> ;
-  :accordingTo _:p15 .
+  :accordingTo _:p15 ;
+  :acceptedName <https://zoobank.org/NomenclaturalActs/39b2f236-3914-4962-9dcc-f594671654bd> .
   
 _:p15 a bibo:Book ;
   dcterms:creator _:Nfe97f34642a547698a901dd1d679feca ;
@@ -843,15 +843,15 @@ _:p15 a bibo:Book ;
 
 ## [16] Butler 1881
 [] a :TaxonRelationship ;
+  :relationshipAccordingTo <https://doi.org/10.48580/dfry-3gd#1.1.23.5> ;
   :relationshipType <http://rs.tdwg.org/tcs-taxon-relationship-type/values/intersects> ;
   :subjectTaxonConcept <https://www.catalogueoflife.org/data/taxon/3YVTF> ;
-  :objectTaxonConcept _:tc16 ;
-  :relationshipAccordingTo <https://doi.org/10.48580/dfry-3gd#1.1.23.5> .
+  :objectTaxonConcept _:tc16 .
 
 _:tc16 a :TaxonConcept ;
   dcterms:title "Pterophorus leucodactylus sec. Butler 1881" ;
-  :taxonName <https://zoobank.org/NomenclaturalActs/39b2f236-3914-4962-9dcc-f594671654bd> ;
-  :accordingTo _:p16 .
+  :accordingTo _:p16 ;
+  :acceptedName <https://zoobank.org/NomenclaturalActs/39b2f236-3914-4962-9dcc-f594671654bd> .
   
 _:p16 a bibo:AcademicArticle ;
   dcterms:creator _:Na0b2fa2fb0db4f9ebba87e0e95f6f55d ;
@@ -867,14 +867,14 @@ _:p16 a bibo:AcademicArticle ;
 
 ## [17] Meyrick 1926
 [] a :TaxonRelationship ;
+  :relationshipAccordingTo <https://doi.org/10.48580/dfry-3gd#1.1.23.5> ;
   :relationshipType <http://rs.tdwg.org/tcs-taxon-relationship-type/values/intersects> ;
   :subjectTaxonConcept <https://www.catalogueoflife.org/data/taxon/3YVTF> ;
-  :objectTaxonConcept _:tc17 ;
-  :relationshipAccordingTo <https://doi.org/10.48580/dfry-3gd#1.1.23.5> .
+  :objectTaxonConcept _:tc17 .
 
 _:tc17 a :TaxonConcept ;
   dcterms:title "Pterophorus leucodactylus sec. Meyrick 1926" ;
-  :taxonName <https://zoobank.org/NomenclaturalActs/39b2f236-3914-4962-9dcc-f594671654bd> ;
+  :acceptedName <https://zoobank.org/NomenclaturalActs/39b2f236-3914-4962-9dcc-f594671654bd> ;
   :accordingTo _:p17 .
   
 _:p17 a bibo:AcademicArticle ;
@@ -891,15 +891,15 @@ _:p17 a bibo:AcademicArticle ;
 
 ## [18] Ustjuzhanin, Kovtunovich, Müller, Prozorov & Streltzov 2022
 [] a :TaxonRelationship ;
+  :relationshipAccordingTo <https://doi.org/10.48580/dfry-3gd#1.1.23.5> ;
   :relationshipType <http://rs.tdwg.org/tcs-taxon-relationship-type/values/intersects> ;
   :subjectTaxonConcept <https://www.catalogueoflife.org/data/taxon/3YVTF> ;
-  :objectTaxonConcept _:tc18 ;
-  :relationshipAccordingTo <https://doi.org/10.48580/dfry-3gd#1.1.23.5> .
+  :objectTaxonConcept _:tc18 .
 
 _:tc18 a :TaxonConcept ;
   dcterms:title "Pterophorus leucodactylus sec. Ustjuzhanin, Kovtunovich, Müller, Prozorov & Streltzov 2022" ;
-  :taxonName <https://zoobank.org/NomenclaturalActs/39b2f236-3914-4962-9dcc-f594671654bd> ;
-  :accordingTo <https://doi.org/10.37828/em.2022.53.6> .
+  :accordingTo <https://doi.org/10.37828/em.2022.53.6> ;
+  :acceptedName <https://zoobank.org/NomenclaturalActs/39b2f236-3914-4962-9dcc-f594671654bd> .
 
 <https://doi.org/10.37828/em.2022.53.6> a bibo:AcademicArticle ;
   dcterms:title "Plume Moths (Lepidoptera: Pterophoridae) of Ethiopia. Part 2" ;
