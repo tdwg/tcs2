@@ -4,7 +4,7 @@
 
 # Andropogon glomeratus sec. BONAP 2014 has a proper subset Andropogon tenuispatheus sec. Weakley 2006
 [] a :TaxonRelationship ;
-    :relationshipType <http://rs.tdwg.org/tcs-taxon-relationship-type/values/hasProperSubset> ;
+    :relationshipType <http://rs.tdwg.org/tcs-taxon-relationship-type/values/includes> ;
     :subjectTaxonConcept [ a :TaxonConcept ;
         dcterms:title "Andropogon glomeratus sec. BONAP 2014" ;
         :taxonName <https://www.ipni.org/n/12850-2> ;

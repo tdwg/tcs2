@@ -4,7 +4,7 @@
 
 # Andropogon hirsutior sec. BONAP 2014 is a proper subset of Andropogon glomeratus sec. Weakley 2006
 [] a :TaxonRelationship ;
-    :relationshipType <http://rs.tdwg.org/tcs-taxon-relationship-type/values/isProperSubsetOf> ;
+    :relationshipType <http://rs.tdwg.org/tcs-taxon-relationship-type/values/isIncludedIn> ;
     :subjectTaxonConcept [ a :TaxonConcept ;
         dcterms:title "Andropogon hirsutior sec. BONAP 2014" ;
         :taxonName <https://www.ipni.org/n/60458078-2> ;

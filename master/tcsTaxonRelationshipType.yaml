@@ -64,54 +64,54 @@
     - TaxonRelationshipType-isCongruentWith
   github: 52
 
-# controlled term: hasProperSubset
-- localName: hasProperSubset
+# controlled term: includes
+- localName: includes
   type: http://www.w3.org/2004/02/skos/core#Concept
   label: Has proper subset
   skos_inScheme: TaxonRelationshipType
-  controlled_value_string: hasProperSubset
+  controlled_value_string: includes
   definition: >-
     The subject taxon concept has a more inclusive taxonomic meaning than
     the object taxon concept
   notes: >-
-    The `hasProperSubset` relationship is not symmetric, its inverse 
-    relationship being  `isProperSubsetOf`, so if A `hasProperSubset` B then B 
-    `isProperSubsetOf` A. The `hasProperSubset` relationship  is transitive, so 
-    if A `hasProperSubset` B and B `hasProperSubset` C it follows that A 
-    `hasProperSubset` C.
+    The `includes` relationship is not symmetric, its inverse 
+    relationship being  `isIncludedIn`, so if A `includes` B then B 
+    `isIncludedIn` A. The `includes` relationship  is transitive, so 
+    if A `includes` B and B `includes` C it follows that A 
+    `includes` C.
 
 
-    ![](media/taxon-relationship-type-has-proper-subset.jpg)
+    ![](media/taxon-relationship-type-includes.jpg)
 
 
     This relation type can also be written as the formula **A > B**.
   examples: 
-    - TaxonRelationshipType-hasProperSubset
+    - TaxonRelationshipType-includes
   github: 53
 
-# controlled term: isProperSubsetOf
-- localName: isProperSubsetOf
+# controlled term: isIncludedIn
+- localName: isIncludedIn
   type: http://www.w3.org/2004/02/skos/core#Concept
   label: Is proper subset of
   skos_inScheme: TaxonRelationshipType
-  controlled_value_string: isProperSubsetOf
+  controlled_value_string: isIncludedIn
   definition: >-
     The subject taxon concept has a less inclusive taxonomic meaning than the 
     object taxon concept
   notes: >-
-    The `isProperSubsetOf` relationship is not symmetric, its inverse 
-    relationship being  `hasProperSubset`, so if A `isProperSubsetOf` B then B 
-    `hasProperSubset` A. The `isProperSubsetOf` relationship  is transitive, so 
-    if A `isProperSubsetOf` B and B `isProperSubsetOf` C it follows that A 
-    `isProperSubsetOf` C.
+    The `isIncludedIn` relationship is not symmetric, its inverse 
+    relationship being  `includes`, so if A `isIncludedIn` B then B 
+    `includes` A. The `isIncludedIn` relationship  is transitive, so 
+    if A `isIncludedIn` B and B `isIncludedIn` C it follows that A 
+    `isIncludedIn` C.
 
 
-    ![](media/taxon-relationship-type-is-proper-subset-of.jpg)
+    ![](media/taxon-relationship-type-is-included-in.jpg)
 
 
     This relation type can also be written as the formula **A < B**.
   examples: 
-    - TaxonRelationshipType-isProperSubsetOf
+    - TaxonRelationshipType-isIncludedIn
   github: 54
 
 # controlled term: partiallyOverlaps
@@ -174,7 +174,7 @@
   usage: null
   notes: >-
     `intersects` is the opposite of `isDisjointFrom` and the union of 
-    `isCongruentWith`, `hasProperSubset`, `isProperSubsetOf` and 
+    `isCongruentWith`, `includes`, `isIncludedIn` and 
     `partiallyOverlaps`, meaning it can be any of these relationships. This 
     relationship type can be used when the more precise nature of the 
     relationship is not known, for example when dealing with statements in 
