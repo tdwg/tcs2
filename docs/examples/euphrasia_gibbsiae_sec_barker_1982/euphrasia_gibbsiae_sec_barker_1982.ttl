@@ -14,8 +14,8 @@
 
 <https://id.biodiversity.org.au/instance/apni/545068> a :TaxonConcept ;
   dcterms:title "Euphrasia gibbsiae sec. Barker 1982" ;
-  :taxonName <https://www.ipni.org/n/802545-1> ;
   :accordingTo <https://www.jstor.org/stable/23873848> ;
+  :acceptedName <https://www.ipni.org/n/802545-1> ;
   :synonym <https://www.ipni.org/n/802619-1> .
 
 
@@ -23,108 +23,108 @@
 
 <https://id.biodiversity.org.au/instance/apni/713514> a :TaxonConcept ;
   dcterms:title "Euphrasia gibbsiae sec. Curtis 1967" ;
-  :taxonName <https://www.ipni.org/n/802545-1> ;
-  :accordingTo <https://id.biodiversity.org.au/reference/apni/23028> .
+  :accordingTo <https://id.biodiversity.org.au/reference/apni/23028> ;
+  :acceptedName <https://www.ipni.org/n/802545-1> .
 
 _:N86e41a0d00563b48 a :TaxonConcept ;
   dcterms:title "Euphrasia gibbsiae sec. Willis 1967" ;
-  :taxonName <https://www.ipni.org/n/802545-1> ;
-  :accordingTo _:Na6a75dcc04768ba7 .
+  :accordingTo _:Na6a75dcc04768ba7 ;
+  :acceptedName <https://www.ipni.org/n/802545-1> .
 
 _:Nd937d59f723e1b01 a :TaxonConcept ;
   dcterms:title "Euphrasia gibbsiae sec. Cochrane & al. 1968" ;
-  :taxonName <https://www.ipni.org/n/802545-1> ;
-  :accordingTo _:Ne16fbc3182e54544 .
+  :accordingTo _:Ne16fbc3182e54544 ;
+  :acceptedName <https://www.ipni.org/n/802545-1> .
 
 _:N239923369ce6bf37 a :TaxonConcept ;
   dcterms:title "Euphrasia gibbsiae sec. Harris 1970" ;
-  :taxonName <https://www.ipni.org/n/802545-1> ;
-  :accordingTo _:Na33bb24846ff4c09 .
+  :accordingTo _:Na33bb24846ff4c09 ;
+  :acceptedName <https://www.ipni.org/n/802545-1> .
 
 _:N2b41e667646cb764 a :TaxonConcept ;
   dcterms:title "Euphrasia gibbsiae sec. Willis 1973" ;
-  :taxonName <https://www.ipni.org/n/802545-1> ;
-  :accordingTo _:Nebbab71930ea86b3 .
+  :accordingTo _:Nebbab71930ea86b3 ;
+  :acceptedName <https://www.ipni.org/n/802545-1> .
 
 _:Nec95f13744439b3d a :TaxonConcept ;
   dcterms:title "Euphrasia gibbsiae sec. Stones & Curtis 1978" ;
-  :taxonName <https://www.ipni.org/n/802545-1> ;
-  :accordingTo _:Nbe94f4ff7eb146c3 .
+  :accordingTo _:Nbe94f4ff7eb146c3 ;
+  :acceptedName <https://www.ipni.org/n/802545-1> .
 
 _:N70f97aa3a0bc576b a :TaxonConcept ;
   dcterms:title "Euphrasia kingii sec. Curtis 1967" ;
-  :taxonName <https://www.ipni.org/n/802619-1> ;
-  :accordingTo <https://id.biodiversity.org.au/reference/apni/23028> .
+  :accordingTo <https://id.biodiversity.org.au/reference/apni/23028> ;
+  :acceptedName <https://www.ipni.org/n/802619-1> .
 
 _:N0682bd87efbec6a5 a :TaxonConcept ;
   dcterms:title "Euphrasia kingii sec. Stones & Curtis 1978" ;
-  :taxonName <https://www.ipni.org/n/802619-1> ;
-  :accordingTo _:Nbe94f4ff7eb146c3 .
+  :accordingTo _:Nbe94f4ff7eb146c3 ;
+  :acceptedName <https://www.ipni.org/n/802619-1> .
 
 _:N4678aed5c164f1b6 a :TaxonConcept ;
   dcterms:title "Euphrasia brownii sec. Mueller 1865" ;
-  :taxonName <https://www.ipni.org/n/124446-3> ;
-  :accordingTo _:N3fa574ead9183735 .
+  :accordingTo _:N3fa574ead9183735 ;
+  :acceptedName <https://www.ipni.org/n/124446-3> .
 
 _:N69bac5cea79d155d a :TaxonConcept ;
   dcterms:title "Euphrasia striata sec. Bentham 1868" ;
-  :taxonName <https://www.ipni.org/n/802876-1> ;
-  :accordingTo _:N41135f64f1689f36 .
+  :accordingTo _:N41135f64f1689f36 ;
+  :acceptedName <https://www.ipni.org/n/802876-1> .
 
 _:N46c73edcf453c18d a :TaxonConcept ;
   dcterms:title "Euphrasia striata sec. Wettstein 1896" ;
-  :taxonName <https://www.ipni.org/n/802876-1> ;
-  :accordingTo _:Nec460744fad886b3 .
+  :accordingTo _:Nec460744fad886b3 ;
+  :acceptedName <https://www.ipni.org/n/802876-1> .
 
 _:N3b7de1bfea67a9bb a :TaxonConcept ;
   dcterms:title "Euphrasia collina sec. Wettstein 1896" ;
-  :taxonName <https://www.ipni.org/n/802451-1> ;
-  :accordingTo _:Nec460744fad886b3 .
+  :accordingTo _:Nec460744fad886b3 ;
+  :acceptedName <https://www.ipni.org/n/802451-1> .
 
 
 # Taxon relationships in treatment
 
 # Euphrasia gibbsiae sec. Barker 1982 ? Euphrasia gibbsiae sec. Curtis 1967
 [] a :TaxonRelationship ;
+  :relationshipAccordingTo <https://www.jstor.org/stable/23873848> ;
   :relationshipType <http://rs.tdwg.org/tcs-taxon-relationship-type/values/intersects> ;
   :subjectTaxonConcept <https://id.biodiversity.org.au/instance/apni/545068> ;
-  :objectTaxonConcept <https://id.biodiversity.org.au/instance/apni/713514> ;
-  :relationshipAccordingTo <https://www.jstor.org/stable/23873848> .
+  :objectTaxonConcept <https://id.biodiversity.org.au/instance/apni/713514> .
 
 # Euphrasia gibbsiae sec. Barker 1982 ? Euphrasia gibbsiae sec. Willis 1967
 [] a :TaxonRelationship ;
+  :relationshipAccordingTo <https://www.jstor.org/stable/23873848> ;
   :relationshipType <http://rs.tdwg.org/tcs-taxon-relationship-type/values/intersects> ;
   :subjectTaxonConcept <https://id.biodiversity.org.au/instance/apni/545068> ;
-  :objectTaxonConcept _:N86e41a0d00563b48 ;
-  :relationshipAccordingTo <https://www.jstor.org/stable/23873848> .
+  :objectTaxonConcept _:N86e41a0d00563b48 .
 
 # Euphrasia gibbsiae sec. Barker 1982 ? Euphrasia gibbsiae sec. Cochrane & al. 1968
 [] a :TaxonRelationship ;
+  :relationshipAccordingTo <https://www.jstor.org/stable/23873848> ;
   :relationshipType <http://rs.tdwg.org/tcs-taxon-relationship-type/values/intersects> ;
   :subjectTaxonConcept <https://id.biodiversity.org.au/instance/apni/545068> ;
-  :objectTaxonConcept _:Nd937d59f723e1b01 ;
-  :relationshipAccordingTo <https://www.jstor.org/stable/23873848> .
+  :objectTaxonConcept _:Nd937d59f723e1b01 .
 
 # Euphrasia gibbsiae sec. Barker 1982 ? Euphrasia gibbsiae sec. Harris 1978
 [] a :TaxonRelationship ;
+  :relationshipAccordingTo <https://www.jstor.org/stable/23873848> ;
   :relationshipType <http://rs.tdwg.org/tcs-taxon-relationship-type/values/intersects> ;
   :subjectTaxonConcept <https://id.biodiversity.org.au/instance/apni/545068> ;
-  :objectTaxonConcept _:N239923369ce6bf37 ;
-  :relationshipAccordingTo <https://www.jstor.org/stable/23873848> .
+  :objectTaxonConcept _:N239923369ce6bf37 .
 
 # Euphrasia gibbsiae sec. Barker 1982 ? Euphrasia gibbsiae sec. Willis 1973
 [] a :TaxonRelationship ;
+  :relationshipAccordingTo <https://www.jstor.org/stable/23873848> ;
   :relationshipType <http://rs.tdwg.org/tcs-taxon-relationship-type/values/intersects> ;
   :subjectTaxonConcept <https://id.biodiversity.org.au/instance/apni/545068> ;
-  :objectTaxonConcept _:N2b41e667646cb764 ;
-  :relationshipAccordingTo <https://www.jstor.org/stable/23873848> .
+  :objectTaxonConcept _:N2b41e667646cb764 .
 
 # Euphrasia gibbsiae sec. Barker 1982 ? Euphrasia gibbsiae sec. Stones & Curtis 1978
 [] a :TaxonRelationship ;
+  :relationshipAccordingTo <https://www.jstor.org/stable/23873848> ;
   :relationshipType <http://rs.tdwg.org/tcs-taxon-relationship-type/values/intersects> ;
   :subjectTaxonConcept <https://id.biodiversity.org.au/instance/apni/545068> ;
-  :objectTaxonConcept _:Nec95f13744439b3d ;
-  :relationshipAccordingTo <https://www.jstor.org/stable/23873848> .
+  :objectTaxonConcept _:Nec95f13744439b3d .
 
 # Euphrasia gibbsiae sec. Barker 1982 ? Euphrasia kingii sec. Curtis 1967
 [] a :TaxonRelationship ;
@@ -135,137 +135,137 @@ _:N3b7de1bfea67a9bb a :TaxonConcept ;
 
 # Euphrasia gibbsiae sec. Barker 1982 ? Euphrasia kingii sec. Stones & Curtis 1978
 [] a :TaxonRelationship ;
+  :relationshipAccordingTo <https://www.jstor.org/stable/23873848> ;
   :relationshipType <http://rs.tdwg.org/tcs-taxon-relationship-type/values/intersects> ;
   :subjectTaxonConcept <https://id.biodiversity.org.au/instance/apni/545068> ;
-  :objectTaxonConcept _:N0682bd87efbec6a5 ;
-  :relationshipAccordingTo <https://www.jstor.org/stable/23873848> .
+  :objectTaxonConcept _:N0682bd87efbec6a5 .
 
 # Euphrasia gibbsiae sec. Barker 1982 ? Euphrasia brownii sec. Mueller 1865
 [] a :TaxonRelationship ;
+  :relationshipAccordingTo <https://www.jstor.org/stable/23873848> ;
   :relationshipType <http://rs.tdwg.org/tcs-taxon-relationship-type/values/intersects> ;
   :subjectTaxonConcept <https://id.biodiversity.org.au/instance/apni/545068> ;
-  :objectTaxonConcept _:N4678aed5c164f1b6 ;
-  :relationshipAccordingTo <https://www.jstor.org/stable/23873848> .
+  :objectTaxonConcept _:N4678aed5c164f1b6 .
 
 # Euphrasia gibbsiae sec. Barker 1982 ? Euphrasia striata sec. Bentham 1868
 [] a :TaxonRelationship ;
+  :relationshipAccordingTo <https://www.jstor.org/stable/23873848> ;
   :relationshipType <http://rs.tdwg.org/tcs-taxon-relationship-type/values/intersects> ;
   :subjectTaxonConcept <https://id.biodiversity.org.au/instance/apni/545068> ;
-  :objectTaxonConcept _:N69bac5cea79d155d ;
-  :relationshipAccordingTo <https://www.jstor.org/stable/23873848> .
+  :objectTaxonConcept _:N69bac5cea79d155d .
 
 # Euphrasia gibbsiae sec. Barker 1982 ? Euphrasia striata sec. Wettstein 1896
 [] a :TaxonRelationship ;
+  :relationshipAccordingTo <https://www.jstor.org/stable/23873848> ;
   :relationshipType <http://rs.tdwg.org/tcs-taxon-relationship-type/values/intersects> ;
   :subjectTaxonConcept <https://id.biodiversity.org.au/instance/apni/545068> ;
-  :objectTaxonConcept _:N46c73edcf453c18d ;
-  :relationshipAccordingTo <https://www.jstor.org/stable/23873848> .
+  :objectTaxonConcept _:N46c73edcf453c18d .
 
 # Euphrasia gibbsiae sec. Barker 1982 ? Euphrasia collina sec. Wettstein 1896
 [] a :TaxonRelationship ;
+  :relationshipAccordingTo <https://www.jstor.org/stable/23873848> ;
   :relationshipType <http://rs.tdwg.org/tcs-taxon-relationship-type/values/intersects> ;
   :subjectTaxonConcept <https://id.biodiversity.org.au/instance/apni/545068> ;
-  :objectTaxonConcept _:N3b7de1bfea67a9bb ;
-  :relationshipAccordingTo <https://www.jstor.org/stable/23873848> .
+  :objectTaxonConcept _:N3b7de1bfea67a9bb .
 
  
 # Third-party taxon relationship assertions
 
 # Euphrasia gibbsiae sec. Barker 1982 > Euphrasia gibbsiae sec. Curtis 1967
 [] a :TaxonRelationship ;
+  :relationshipAccordingTo _:N99c6add138b4a4c9 ;
   :relationshipType <http://rs.tdwg.org/tcs-taxon-relationship-type/values/includes> ;
   :subjectTaxonConcept <https://id.biodiversity.org.au/instance/apni/545068> ;
   :objectTaxonConcept <https://id.biodiversity.org.au/instance/apni/713514> ;
-  :relationshipAccordingTo _:N99c6add138b4a4c9 ;
   rdfs:comment """Euphrasia gibbsiae sec. Barker 1982 also includes Euphrasia 
       kingii sec. Curtis 1967""" .
 
 # Euphrasia gibbsiae sec. Barker 1982 < Euphrasia gibbsiae sec. Willis 1967
 [] a :TaxonRelationship ;
+  :relationshipAccordingTo _:N99c6add138b4a4c9 ;
   :relationshipType <http://rs.tdwg.org/tcs-taxon-relationship-type/values/isIncludedIn> ;
   :subjectTaxonConcept <https://id.biodiversity.org.au/instance/apni/545068> ;
   :objectTaxonConcept _:N86e41a0d00563b48 ;
-  :relationshipAccordingTo _:N99c6add138b4a4c9 ;
   rdfs:comment """Only Tasmanian occurrences and Victorian occurrences of 
       f. subglabrifolia of Euphrasia gibbsiae sec. Willis 1967 are included in 
       Euphrasia gibbsiae sec. Barker 1982 [WRB 1982]""" .
 
 # Euphrasia gibbsiae sec. Barker 1982 ≙ Euphrasia gibbsiae sec. Cochrane et al. 1968
 [] a :TaxonRelationship ;
+  :relationshipAccordingTo _:N99c6add138b4a4c9 ;
   :relationshipType <http://rs.tdwg.org/tcs-taxon-relationship-type/values/isCongruentWith> ;
   :subjectTaxonConcept <https://id.biodiversity.org.au/instance/apni/545068> ;
-  :objectTaxonConcept _:Nd937d59f723e1b01 ;
-  :relationshipAccordingTo _:N99c6add138b4a4c9 .
+  :objectTaxonConcept _:Nd937d59f723e1b01 .
 
 # Euphrasia gibbsiae sec. Barker 1982 < Euphrasia gibbsiae Harris 1970
 [] a :TaxonRelationship ;
+  :relationshipAccordingTo _:N99c6add138b4a4c9 ;
   :relationshipType <http://rs.tdwg.org/tcs-taxon-relationship-type/values/isIncludedIn> ;
   :subjectTaxonConcept <https://id.biodiversity.org.au/instance/apni/545068> ;
   :objectTaxonConcept _:N239923369ce6bf37 ;
-  :relationshipAccordingTo _:N99c6add138b4a4c9 ;
   rdfs:comment """Victoria occurrences of f. comberi sensu Harris 1978 are 
       excluded from Euphrasia gibbsiae sec. Barker 1982 [WRB 1982]""" .
 
 # Euphrasia gibbsiae sec. Barker 1982 < Euphrasia gibbsiae sec. Willis 1973
 [] a :TaxonRelationship ;
+  :relationshipAccordingTo _:N99c6add138b4a4c9 ;
   :relationshipType <http://rs.tdwg.org/tcs-taxon-relationship-type/values/isIncludedIn> ;
   :subjectTaxonConcept <https://id.biodiversity.org.au/instance/apni/545068> ;
   :objectTaxonConcept _:N2b41e667646cb764 ;
-  :relationshipAccordingTo _:N99c6add138b4a4c9 ;
   rdfs:comment """Only occurrences of f. subglabrifolia sensu Willis 1973 are 
       included in Euphrasia gibbsiae sec. Barker 1982 [WRB 1982]""".
 
 # Euphrasia gibbsiae sec. Barker 1982 > Euphrasia gibbsiae sec. Stones & Curtis 1978
 [] a :TaxonRelationship ;
+  :relationshipAccordingTo _:N99c6add138b4a4c9 ;
   :relationshipType <http://rs.tdwg.org/tcs-taxon-relationship-type/values/includes> ;
   :subjectTaxonConcept <https://id.biodiversity.org.au/instance/apni/545068> ;
   :objectTaxonConcept _:Nec95f13744439b3d ;
-  :relationshipAccordingTo _:N99c6add138b4a4c9 ;
   rdfs:comment """Euphrasia gibbsiae sec. Barker 1982 also includes Euphrasia 
       kingii sec. Curtis & Stones 1973""".
 
 # Euphrasia gibbsiae sec. Barker 1982 > Euphrasia kingii sec. Curtis 1967
 [] a :TaxonRelationship ;
+  :relationshipAccordingTo _:N99c6add138b4a4c9 ;
   :relationshipType <http://rs.tdwg.org/tcs-taxon-relationship-type/values/includes> ;
   :subjectTaxonConcept <https://id.biodiversity.org.au/instance/apni/545068> ;
   :objectTaxonConcept _:N70f97aa3a0bc576b ;
-  :relationshipAccordingTo _:N99c6add138b4a4c9 ;
   rdfs:comment """Euphrasia gibbsiae sec. Barker 1982 also includes Euphrasia 
       gibbsiae sec. Curtis 1967""".
 
 # Euphrasia gibbsiae sec. Barker 1982 > Euphrasia kingii sec. Curtis & Stones 1973
 [] a :TaxonRelationship ;
+  :relationshipAccordingTo _:N99c6add138b4a4c9 ;
   :relationshipType <http://rs.tdwg.org/tcs-taxon-relationship-type/values/includes> ;
   :subjectTaxonConcept <https://id.biodiversity.org.au/instance/apni/545068> ;
   :objectTaxonConcept _:N0682bd87efbec6a5 ;
-  :relationshipAccordingTo _:N99c6add138b4a4c9 ;
   rdfs:comment """Euphrasia gibbsiae sec. Barker 1982 also includes Euphrasia 
       gibbsiae sec. Curtis & Stones 1973""".
 
 # Euphrasia gibbsiae sec. Barker 1982 >< Euphrasia brownii sec. Mueller 1865
 [] a :TaxonRelationship ;
+  :relationshipAccordingTo _:N99c6add138b4a4c9 ;
   :relationshipType <http://rs.tdwg.org/tcs-taxon-relationship-type/values/partiallyOverlaps> ;
   :subjectTaxonConcept <https://id.biodiversity.org.au/instance/apni/545068> ;
   :objectTaxonConcept _:N4678aed5c164f1b6 ;
-  :relationshipAccordingTo _:N99c6add138b4a4c9 ;
   rdfs:comment """Euphrasia brownii sec. Mueller 1865 is listed as a 
       misapplication by Barker (1982)""".
 
 # Euphrasia gibbsiae sec. Barker 1982 >< Euphrasia striata sec. Bentham 1868
 [] a :TaxonRelationship ;
+  :relationshipAccordingTo _:N99c6add138b4a4c9 ;
   :relationshipType <http://rs.tdwg.org/tcs-taxon-relationship-type/values/partiallyOverlaps> ;
   :subjectTaxonConcept <https://id.biodiversity.org.au/instance/apni/545068> ;
   :objectTaxonConcept _:N69bac5cea79d155d ;
-  :relationshipAccordingTo _:N99c6add138b4a4c9 ;
   rdfs:comment """Euphrasia striata sec. Bentham 1868 is listed as a 
       misapplication by Barker (1982)""".
 
 # Euphrasia gibbsiae sec. Barker 1982 >< Euphrasia striata sec. Wettstein 1896
 [] a :TaxonRelationship ;
+  :relationshipAccordingTo _:N99c6add138b4a4c9 ;
   :relationshipType <http://rs.tdwg.org/tcs-taxon-relationship-type/values/partiallyOverlaps> ;
   :subjectTaxonConcept <https://id.biodiversity.org.au/instance/apni/545068> ;
   :objectTaxonConcept _:N46c73edcf453c18d ;
-  :relationshipAccordingTo _:N99c6add138b4a4c9 ;
   rdfs:comment """Euphrasia striata sec. Wettstein 1896 is listed as a 
       misapplication by Barker (1982)""".
 
