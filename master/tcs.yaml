@@ -310,7 +310,8 @@
   label: Taxon Name
   definition: A name or label applied to a taxon or taxonomic group. 
   usage: >-
-    A TCS Taxon Name only requires a `taxonNameString`.
+    A TCS Taxon Name requires either a `taxonNameString` or 
+    `dwc:scientificName`.
   notes: >-
     The word 'name' here is taken in its dictionary meaning and not in the 
     sense of a particular nomenclatural code. This means that the Taxon Name 
@@ -333,8 +334,9 @@
   definition: >-
     The complete name string without any authority or year components.
   usage: >-
-    `taxonNameString` is a literal and is required on a TCS TAxon Name. A Taxon 
-    Name can have only one `taxonNameString`.
+    `taxonNameString` is a literal and either a `taxonomicNameString` or 
+    `dwc:scientificName` is required on a TCS Taxon Name. A Taxon Name can have 
+    only one `taxonNameString`.
   notes: >-
     The `taxonNameString` property differs from the `scientificName` property 
     in Darwin Core in that all kinds of names are allowed. Also, in the case of 
@@ -344,7 +346,7 @@
     considered part of the name.
   type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonName
-  required: Yes
+  required: No
   repeatable: No
   github: 16
 

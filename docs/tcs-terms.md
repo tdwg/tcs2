@@ -21,7 +21,7 @@ files.
 
 **Taxon Name**
 
-[tcs:taxonNameString](#tcstaxonnamestring) | [tcs:namePublishedIn](#tcsnamepublishedin) | [tcs:microreference](#tcsmicroreference) | [tcs:nomenclaturalCode](#tcsnomenclaturalcode) | [tcs:nomenclaturalStatus](#tcsnomenclaturalstatus) | [tcs:basionym](#tcsbasionym) | [tcs:replacementNameFor](#tcsreplacementnamefor) | [tcs:spellingCorrectionOf](#tcsspellingcorrectionof) | [tcs:conservedAgainst](#tcsconservedagainst) | [dwc:scientificNameAuthorship](#dwcscientificnameauthorship) | [dwc:namePublishedInYear](#dwcnamepublishedinyear) | [dwc:genericName](#dwcgenericname) | [dwc:infragenericEpithet](#dwcinfragenericepithet) | [dwc:specificEpithet](#dwcspecificepithet) | [dwc:infraspecificEpithet](#dwcinfraspecificepithet) | [dwc:cultivarEpithet](#dwccultivarepithet)
+[tcs:taxonNameString](#tcstaxonnamestring) | [tcs:namePublishedIn](#tcsnamepublishedin) | [tcs:microreference](#tcsmicroreference) | [tcs:nomenclaturalCode](#tcsnomenclaturalcode) | [tcs:nomenclaturalStatus](#tcsnomenclaturalstatus) | [tcs:basionym](#tcsbasionym) | [tcs:replacementNameFor](#tcsreplacementnamefor) | [tcs:spellingCorrectionOf](#tcsspellingcorrectionof) | [tcs:conservedAgainst](#tcsconservedagainst) | [dwc:scientificName](#dwcscientificname) | [dwc:scientificNameAuthorship](#dwcscientificnameauthorship) | [dwc:namePublishedInYear](#dwcnamepublishedinyear) | [dwc:genericName](#dwcgenericname) | [dwc:infragenericEpithet](#dwcinfragenericepithet) | [dwc:specificEpithet](#dwcspecificepithet) | [dwc:infraspecificEpithet](#dwcinfraspecificepithet) | [dwc:cultivarEpithet](#dwccultivarepithet)
 
 **Nomenclatural Type**
 
@@ -1018,7 +1018,7 @@ This is the Taxon Concept at the right-hand side of the relationship  statement.
 		</tr>
 		<tr>
 			<td>Usage</td>
-			<td><p>A TCS Taxon Name only requires a <code>taxonNameString</code>.</p></td>
+			<td><p>A TCS Taxon Name requires either a <code>taxonNameString</code> or  <code>dwc:scientificName</code>.</p></td>
 		</tr>
 		<tr>
 			<td>GitHub issue</td>
@@ -1102,7 +1102,7 @@ The word 'name' here is taken in its dictionary meaning and not in the  sense of
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>required:</b> Yes — <b>repeatable:</b> No</td>
+			<td><b>required:</b> No — <b>repeatable:</b> No</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -1110,7 +1110,7 @@ The word 'name' here is taken in its dictionary meaning and not in the  sense of
 		</tr>
 		<tr>
 			<td>Usage</td>
-			<td><p><code>taxonNameString</code> is a literal and is required on a TCS TAxon Name. A Taxon  Name can have only one <code>taxonNameString</code>.</p></td>
+			<td><p><code>taxonNameString</code> is a literal and either a <code>taxonomicNameString</code> or  <code>dwc:scientificName</code> is required on a TCS Taxon Name. A Taxon Name can have  only one <code>taxonNameString</code>.</p></td>
 		</tr>
 		<tr>
 			<td>GitHub issue</td>
@@ -1610,6 +1610,41 @@ A scientific name below the rank of family is not conserved against all  other n
 ```
 
 [&lsqb;TaxonName-conservedAgainst.ttl&rsqb;](examples/TaxonName-conservedAgainst.ttl)
+
+### dwc:scientificName
+
+<table style="width:100%;">
+	<tbody>
+		<tr>
+			<td>Identifier</td>
+			<td>http://rs.tdwg.org/dwc/terms/scientificName</td>
+		</tr>
+		<tr>
+			<td>Type</td>
+			<td>http://www.w3.org/1999/02/22-rdf-syntax-ns#Property</td>
+		</tr>
+		<tr>
+			<td>Label</td>
+			<td>Scientific Name</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td><b>required:</b> No — <b>repeatable:</b> No</td>
+		</tr>
+		<tr>
+			<td>Definition</td>
+			<td><p>The full scientific name, with authorship and date information if known.  When forming part of an Identification, this should be the name in lowest  level taxonomic rank that can be determined. This term should not contain  identification qualifications, which should instead be supplied in the  IdentificationQualifier term.</p></td>
+		</tr>
+		<tr>
+			<td>Usage</td>
+			<td><p><code>scientificName</code> can be used instead of the <code>taxonNameString</code> property.</p></td>
+		</tr>
+		<tr>
+			<td>GitHub issue</td>
+			<td>https://github.com/tdwg/tcs2/issues/17</td>
+		</tr>
+	</tbody>
+</table>
 
 ### dwc:scientificNameAuthorship
 
