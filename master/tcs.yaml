@@ -334,9 +334,9 @@
   definition: >-
     The complete name string without any authority or year components.
   usage: >-
-    `taxonNameString` is a literal and either a `taxonomicNameString` or 
-    `dwc:scientificName` is required on a TCS Taxon Name. A Taxon Name can have 
-    only one `taxonNameString`.
+    `taxonNameString` is a literal. Either `taxonomicNameString` or 
+    `dwc:scientificName` is required on a TCS Taxon Name and a Taxon Name can 
+    have only one of either.
   notes: >-
     The `taxonNameString` property differs from the `scientificName` property 
     in Darwin Core in that all kinds of names are allowed. Also, in the case of 
@@ -355,9 +355,7 @@
   label: Name Published In
   definition: >-
     Reference to the publication in which the name was first published.
-  usage: >-
-    `taxonNameString` is a literal; there can only be one `taxonNameString` on 
-    a Taxon Name.
+  usage: null
   notes: >-
     In botany, this would be the protologue. This is the IRI counterpart of 
     the Darwin Core `namePublishedIn`.

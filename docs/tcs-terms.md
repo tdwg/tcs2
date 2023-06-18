@@ -1110,7 +1110,7 @@ The word 'name' here is taken in its dictionary meaning and not in the  sense of
 		</tr>
 		<tr>
 			<td>Usage</td>
-			<td><p><code>taxonNameString</code> is a literal and either a <code>taxonomicNameString</code> or  <code>dwc:scientificName</code> is required on a TCS Taxon Name. A Taxon Name can have  only one <code>taxonNameString</code>.</p></td>
+			<td><p><code>taxonNameString</code> is a literal. Either <code>taxonomicNameString</code> or  <code>dwc:scientificName</code> is required on a TCS Taxon Name and a Taxon Name can  have only one of either.</p></td>
 		</tr>
 		<tr>
 			<td>GitHub issue</td>
@@ -1147,10 +1147,6 @@ The `taxonNameString` property differs from the `scientificName` property  in Da
 		<tr>
 			<td>Definition</td>
 			<td><p>Reference to the publication in which the name was first published.</p></td>
-		</tr>
-		<tr>
-			<td>Usage</td>
-			<td><p><code>taxonNameString</code> is a literal; there can only be one <code>taxonNameString</code> on  a Taxon Name.</p></td>
 		</tr>
 		<tr>
 			<td>GitHub issue</td>
