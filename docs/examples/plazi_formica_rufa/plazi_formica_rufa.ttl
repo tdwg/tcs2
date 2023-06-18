@@ -1,0 +1,236 @@
+@prefix : <http://rs.tdwg.org/tcs/terms/> .
+@prefix address: <http://schemas.talis.com/2005/address/schema#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix dwc: <http://rs.tdwg.org/dwc/terms/> .
+@prefix dwciri: <http://rs.tdwg.org/dwc/iri/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix gbif: <http://rs.gbif.org/terms/1.0/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<https://tb.plazi.org/GgServer/html/F52B87F65E256152FF5EDB7FFC4E1859> a :TaxonConcept ;
+  dcterms:title "Formica rufa sec. Seifert 2021" ;
+  :accordingTo <https://doi.org/10.5281/zenodo.5587859> ;
+  :taxonName <https://zoobank.org/NomenclaturalActs/936eef3e-2618-40d2-bbe9-7512577843ac> .
+
+<https://tb.plazi.org/GgServer/html/817434FFCE09EA2FEF89DD5D92C4C443> a :TaxonConcept ;
+  dcterms:title "Formica rufa sec. George et al. 2016" ;
+  :accordingTo <https://doi.org/10.3897/BDJ.4.e8050> ;
+  :taxonName <https://zoobank.org/NomenclaturalActs/936eef3e-2618-40d2-bbe9-7512577843ac> ;
+  :synonym _:N99c6add138b4a4c9 ,
+    <https://zoobank.org/NomenclaturalActs/9adc26ac-da0f-4488-b55e-5128c3230e4a> ,
+    _:Nccfe84e28a387196 ,
+    _:N209c2ff1b5ea9e88 ,
+    <https://zoobank.org/NomenclaturalActs/e0e3ae2d-c1cf-4cfa-a45c-67037b13369b> ,
+    _:N81c4e47b249f31ee ,
+    _:Nbe0f8fc99315dadb ,
+    _:N9ed79b8c49e17ad5 .
+
+<https://tb.plazi.org/GgServer/html/F4F6B3B26CBDD3713753D6B96BD9C1D2> a :TaxonConcept ;
+  dcterms:title "Formica rufa sec. Smith 1858" ;
+  :accordingTo <https://doi.org/10.5281/zenodo.6295956> ;
+  :taxonName <https://zoobank.org/NomenclaturalActs/936eef3e-2618-40d2-bbe9-7512577843ac> ;
+  :synonym <https://zoobank.org/NomenclaturalActs/9adc26ac-da0f-4488-b55e-5128c3230e4a> ,
+    <https://zoobank.org/NomenclaturalActs/2d78c98d-0b15-4362-8dd8-185983c468fe> ,
+    _:Ne5f14976eb7c949e , 
+    _:N07cc5eb0d56f3149 ,
+    _:N5f48e5a5e350ff44 ,
+    _:N209c2ff1b5ea9e88 .
+
+<https://tb.plazi.org/GgServer/html/F9094B0178FE97FDCC84011E0114A942> a :TaxonConcept ;
+  dcterms:title "Formica rufa sec. Smith 1851" ;
+  :accordingTo <https://doi.org/10.5281/zenodo.6298026> ;
+  :taxonName <https://zoobank.org/NomenclaturalActs/936eef3e-2618-40d2-bbe9-7512577843ac> ;
+  :synonym  _:N07cc5eb0d56f3149 ,
+    _:N4250f9b11c4feab7 .
+
+<https://tb.plazi.org/GgServer/html/90E189915E76590B4483A23ED72A7D33> a :TaxonConcept ;
+  dcterms:title "Formica rufa sec. Förster 1850" ;
+  :accordingTo <https://zenodo.org/record/6298088> ;
+  :taxonName <https://zoobank.org/NomenclaturalActs/936eef3e-2618-40d2-bbe9-7512577843ac> ;
+  :synonym <https://zoobank.org/NomenclaturalActs/2d78c98d-0b15-4362-8dd8-185983c468fe> ,
+      <https://zoobank.org/NomenclaturalActs/9adc26ac-da0f-4488-b55e-5128c3230e4a> ,
+      _:Ne5f14976eb7c949e .
+
+<https://doi.org/10.5281/zenodo.6298224> a :TaxonConcept ;
+  dcterms:title "Formica rufa sec. Nylander 1848" ;
+  :accordingTo <https://doi.org/10.5281/zenodo.6298224> ;
+  :taxonName <https://zoobank.org/NomenclaturalActs/936eef3e-2618-40d2-bbe9-7512577843ac> ;
+  :synonym <https://zoobank.org/NomenclaturalActs/2d78c98d-0b15-4362-8dd8-185983c468fe> ,
+    <https://zoobank.org/NomenclaturalActs/9adc26ac-da0f-4488-b55e-5128c3230e4a> ,
+    _:Ne5f14976eb7c949e .
+
+
+# Taxon names
+
+<https://zoobank.org/NomenclaturalActs/936eef3e-2618-40d2-bbe9-7512577843ac> a :TaxonName ;
+  dwc:scientificName "Formica rufa Linnaeus, 1760" .
+
+<https://zoobank.org/NomenclaturalActs/2d78c98d-0b15-4362-8dd8-185983c468fe> a :TaxonName ;
+  dwc:scientificName "Formica obsoleta Linnaeus, 1758" .
+
+_:N99c6add138b4a4c9 a :TaxonName ;
+  dwc:scientificName "Formica ferruginea Christ, 1791" .
+
+<https://zoobank.org/NomenclaturalActs/9adc26ac-da0f-4488-b55e-5128c3230e4a> a :TaxonName ;
+  dwc:scientificName "Formica dorsata Panzer, 1798" .
+
+<https://zoobank.org/NomenclaturalActs/e0e3ae2d-c1cf-4cfa-a45c-67037b13369b> a :TaxonName ;
+  dwc:scientificName "Formica apicalis Latreille, 1802" .
+
+_:Ne5f14976eb7c949e a :TaxonName ;
+  dwc:scientificName "Formica lugubris Zetterstedt, 1838" .
+
+_:N4250f9b11c4feab7 a :TaxonName ;
+  dwc:scientificName "Formica congerens Förster, 1850" .
+
+_:N5f48e5a5e350ff44 a :TaxonName ;
+  dwc:scientificName "Formica truncicola Förster, 1850" .
+
+_:N07cc5eb0d56f3149 a :TaxonName ;
+  dwc:scientificName "Formica polyctena Förster, 1858" .
+
+_:Nccfe84e28a387196 a :TaxonName ;
+  dwc:scientificName "Formica major Nylander, 1849" .
+
+_:N209c2ff1b5ea9e88 a :TaxonName ;
+  dwc:scientificName "Formica piniphila Schenck, 1852" .
+
+_:N81c4e47b249f31ee a :TaxonName ;
+  dwc:scientificName "Formica rufopratensis Forel, 1874" .
+
+_:Nbe0f8fc99315dadb a :TaxonName ;
+  dwc:scientificName "Formica meridionalis Nasonov, 1889" .
+
+_:N9ed79b8c49e17ad5 a :TaxonName ;
+  dwc:scientificName "Formica gaullii Bondroit, 1917" .
+
+
+# References 
+<https://doi.org/10.3897/BDJ.4.e8050> a bibo:AcademicArticle ;
+  dcterms:title """Checklist of British and Irish Hymenoptera - aculeates 
+      (Apoidea, Chrysidoidea and Vespoidea)""" ;
+  dcterms:creator _:N13ec93853ccf5014 ,
+    _:N136fdc2da54b84a8 ,
+    _:N3a2d7adf60dc30a0 ;
+  bibo:authorList [ a rdf:Seq ;
+    rdf:_1 _:N13ec93853ccf5014 ;
+    rdf:_2 _:N136fdc2da54b84a8 ;
+    rdf:_3 _:N3a2d7adf60dc30a0 ] ;
+  dcterms:isPartOf [ a bibo:Issue ;
+    dcterms:date "2016-04-07" ;
+    dcterms:isPartOf [ a bibo:Journal ;
+      dcterms:title "Biodiversity Data Journal" ] ;
+    bibo:volume "4" ] ;
+  bibo:number "e8050" ;
+  bibo:uri <https://bdj.pensoft.net/article/8050/element/8/25333/> ;
+  bibo:doi <https://doi.org/10.3897/BDJ.4.e8050> .
+
+<https://zenodo.org/record/6298088> a dcterms:BibliographicResource ;
+  dcterms:isPartOf <http://antbase.org/ants/publications/8138/8138.pdf> .
+
+<http://antbase.org/ants/publications/8138/8138.pdf> a bibo:Book ;
+  dcterms:title "Hymenopterologische Studien. 1. Formicariae" ;
+  dcterms:creator _:N833bffe176d16b58 ;
+  bibo:authorList [ a rdf:Seq ;
+    rdf:_1 _:N833bffe176d16b58 ] ;
+  dcterms:date "1851" ;
+  dcterms:publisher [ a foaf:Organization ;
+    address: "Aachen" ] .
+
+<https://doi.org/10.5281/zenodo.5587859> a dcterms:BibliographicResource ;
+  dcterms:isPartOf <https://doi.org/10.25849/myrmecol.news_031:133> .
+
+<https://doi.org/10.25849/myrmecol.news_031:133> a bibo:AcademicArticle ;
+  dcterms:title """A taxonomic revision of the Palaearctic members of the 
+      Formica rufa group (Hymenoptera: Formicidae) – the famous mound-building 
+      red wood ants""" ;
+  dcterms:creator _:N00e541d3e0393407 ;
+  bibo:authorList [ a rdf:Seq ;
+    rdf:_1 _:N00e541d3e0393407 ] ;
+  dcterms:isPartOf [ a bibo:Issue ;
+    dcterms:date "2021" ;
+    dcterms:isPartOf [ a bibo:Journal ;
+      dcterms:title "Myrmecological News" ] ;
+    bibo:volume "31" ] ;
+  bibo:pages "133-179" ;
+  bibo:doi "10.25849/myrmecol.news_031:133" .
+
+<https://doi.org/10.5281/zenodo.6298026> a dcterms:BibliographicResource ;
+  dcterms:isPartOf <http://antbase.org/ants/publications/8200/8200.pdf> .
+
+<http://antbase.org/ants/publications/8200/8200.pdf> a bibo:Book ;
+  dcterms:title """Catalogue of the hymenopterous insects in the collection of 
+      the British Museum. Part VI. Hymenoptera Aculeata""" ;
+  dcterms:creator _:N24adfec1e0f502a7 ;
+  bibo:authorList [ a rdf:Seq ;
+    rdf:_1 _:N24adfec1e0f502a7 ] ;
+  dcterms:date "1851" ;
+  dcterms:publisher [ a foaf:Organization ;
+    foaf:name "British Museum" ;
+    address:localityName "London" ] ;
+  bibo:uri "http://antbase.org/ants/publications/8200/8200.pdf" .
+
+<https://doi.org/10.5281/zenodo.6295956> a dcterms:BibliographicResource ;
+  dcterms:isPartOf <http://antbase.org/ants/publications/8127/8127.pdf> .
+
+<http://antbase.org/ants/publications/8127/8127.pdf> a bibo:Book ;
+  dcterms:title """Catalogue of the hymenopterous insects in the collection of 
+      the British Museum. Part VI. Formicidae""" ;
+  dcterms:creator _:N24adfec1e0f502a7 ;
+  bibo:authorList [ a rdf:Seq ;
+    rdf:_1 _:N24adfec1e0f502a7 ] ;
+  dcterms:date "1858" ;
+  dcterms:publisher [ a foaf:Organization ;
+    foaf:name "British Museum" ;
+    address:localityName "London" ] ;
+  bibo:uri "http://antbase.org/ants/publications/8127/8127.pdf" .
+
+<https://doi.org/10.5281/zenodo.6298224> a dcterms:BibliographicResource ;
+  dcterms:isPartOf <http://antbase.org/ants/publications/4277/4277.pdf> .
+
+<http://antbase.org/ants/publications/4277/4277.pdf> a bibo:AcademicArticle ;
+  dcterms:title "Adnotationes in monographiam formicarum borealium Europae" ;
+  dcterms:creator _:N77bc225033cbd012 ;
+  bibo:authorList [ a rdf:Seq ;
+    rdf:_1 _:N77bc225033cbd012 ] ;
+  dcterms:isPartOf [ a bibo:Issue ;
+    dcterms:date "1848" ;
+    dcterms:isPartOf [ a bibo:Journal ;
+      dcterms:title "Acta Societatis Scientiarum Fennicae" ] ;
+    bibo:volume: "2" ] ;
+  bibo:pages "875-944" .
+  
+
+# Agents
+
+_:N136fdc2da54b84a8 a foaf:Person ;
+  foaf:givenName "Barry" ;
+  foaf:surname "Bolton" .
+
+_:N3a2d7adf60dc30a0 a foaf:Person ;
+  foaf:givenName "Gavin R." ;
+  foaf:surname "Broad" .
+
+_:N833bffe176d16b58 a foaf:Person ;
+  foaf:givenName "A." ;
+  foaf:surname "Förster" .
+
+_:N13ec93853ccf5014 a foaf:Person ;
+  foaf:givenName "R. Else" ;
+  foaf:surname "George" .
+
+_:N77bc225033cbd012 a foaf:Person ;
+  foaf:givenName "W." ;
+  foaf:surname "Nylander" .
+
+_:N00e541d3e0393407 a foaf:Person ;
+  foaf:givenName "Bernard" ;
+  foaf:surname "Seifert" .
+
+_:N24adfec1e0f502a7 a foaf:Person ;
+  foaf:givenName "F." ;
+  foaf:surname "Smith" .
