@@ -5,8 +5,8 @@
 
 [] a :TaxonConcept ;
     dcterms:title "Dicranoloma blumei sec. Klazenga (1999)" ;
-    :acceptedName <https://www.tropicos.org/name/35121475> ;
-    :accordingTo <https://www.tropicos.org/reference/9020903> .
+    :accordingTo <https://www.tropicos.org/reference/9020903> 
+    :acceptedName <https://www.tropicos.org/name/35121475> .
 
 <https://www.tropicos.org/name/35121475> a ;
     :taxonNameString "Dicranoloma blumei" ;

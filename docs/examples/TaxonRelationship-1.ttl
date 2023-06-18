@@ -4,18 +4,18 @@
 
 # Athyriaceae sec. Rothfels et al. (2012) is proper subset of Woodsiaceae sec. Smith et al. (2006)
 [] a :TaxonRelationship ; 
+    :relationshipAccordingTo <https://doi.org/10.1002/tax.613003> ;
     :relationshipType <http://rs.tdwg.org/tcs-taxon-concept-relationship-type/values/isProperSubsetOf> ; 
     :subjectTaxonConcept [ a :TaxonConcept ; 
         dcterms:title "Athyriaceae sec. Rothfels et al. (2012)" ;
+        :accordingTo <https://doi.org/10.1002/tax.613003> ;
         :acceptedName [ a :TaxonName ;
-        :taxonNameString "Athyriaceae" ] ;
-        :accordingTo <https://doi.org/10.1002/tax.613003> ] ;
+            :taxonNameString "Athyriaceae" ] ; ] ;
     :objectTaxonConcept [ a :TaxonConcept ;
         dcterms:title "Woodsiaceae sec. Smith et al. (2006)" ;
+        :accordingTo <https://doi.org/10.2307/25065646> ;
         :acceptedName [ a :TaxonName ;
-        :taxonNameString "Woodsiaceae" ] ;
-        :accordingTo <https://doi.org/10.2307/25065646> ] ;
-    :relationshipAccordingTo <https://doi.org/10.1002/tax.613003> .
+            :taxonNameString "Woodsiaceae" ] ] .
 
 <https://doi.org/10.1002/tax.613003> a bibo:AcademicArticle ;
     dcterms:bibliographicCitation """Rothfels, Carl J.; Sundue, Michael A.; Kuo, Li-Yaung; Larsson, 

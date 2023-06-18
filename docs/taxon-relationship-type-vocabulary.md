@@ -109,16 +109,16 @@ This relationship can also be written as the formula **A &cong; B** or **A == B*
 ```turtle
 # Andropogon capillipes sec. BONAP 2014 is congruent with Andropogon capillipes sec. Weakley 2006
 [] a :TaxonRelationship ;
+    :relationshipAccordingTo <https://doi.org/10.3233/SW-160220> ;
     :relationshipType <http://rs.tdwg.org/tcs-taxon-relationship-type/values/hasProperSubset> ;
     :subjectTaxonConcept [ a :TaxonConcept ;
         dcterms:title "Andropogon capillipes sec. BONAP 2014" ;
-        :acceptedName <https://www.ipni.org/n/12781-2> ;
-        :accordingTo <http://bonap.net/napa#2014> ] ;
+        :accordingTo <http://bonap.net/napa#2014> ;
+        :acceptedName <https://www.ipni.org/n/12781-2> ] ;
     :objectTaxonConcept [ a :TaxonConcept ;
         dcterms:title "Andropogon capillipes sec. Weakley 2006" ;
-        :acceptedName <https://www.ipni.org/n/12781-2> ;
-        :accordingTo <http://www.herbarium.unc.edu/FloraArchives/WeakleyFlora_2006-Jan.pdf> ] ;
-    :relationshipAccordingTo <https://doi.org/10.3233/SW-160220> .
+        :accordingTo <http://www.herbarium.unc.edu/FloraArchives/WeakleyFlora_2006-Jan.pdf> ;
+        :acceptedName <https://www.ipni.org/n/12781-2> ] .
 
 <https://www.ipni.org/n/12781-2> a :TaxonName ;
     :taxonNameString "Andropogon capillipes" ;
@@ -174,16 +174,16 @@ This relation type can also be written as the formula **A > B**.
 ```turtle
 # Andropogon glomeratus sec. BONAP 2014 has a proper subset Andropogon tenuispatheus sec. Weakley 2006
 [] a :TaxonRelationship ;
+    :relationshipAccordingTo <https://doi.org/10.3233/SW-160220> ;
     :relationshipType <http://rs.tdwg.org/tcs-taxon-relationship-type/values/includes> ;
     :subjectTaxonConcept [ a :TaxonConcept ;
         dcterms:title "Andropogon glomeratus sec. BONAP 2014" ;
-        :acceptedName <https://www.ipni.org/n/12850-2> ;
-        :accordingTo <http://bonap.net/napa#2014> ] ;
+        :accordingTo <http://bonap.net/napa#2014> ;
+        :acceptedName <https://www.ipni.org/n/12850-2> ] ;
     :objectTaxonConcept [ a :TaxonConcept ;
         dcterms:title "Andropogon tenuispatheus sec. Weakley 2006" ;
-        :acceptedName <https://www.ipni.org/n/13093-2> ;
-        :accordingTo <http://www.herbarium.unc.edu/FloraArchives/WeakleyFlora_2006-Jan.pdf> ] ;
-    :relationshipAccordingTo <https://doi.org/10.3233/SW-160220> .
+        :accordingTo <http://www.herbarium.unc.edu/FloraArchives/WeakleyFlora_2006-Jan.pdf> ;
+        :acceptedName <https://www.ipni.org/n/13093-2> ] .
 
 <https://www.ipni.org/n/12850-2> a :TaxonName ;
     :taxonNameString "Andropogon glomeratus" ;
@@ -243,16 +243,16 @@ This relation type can also be written as the formula **A < B**.
 ```turtle
 # Andropogon hirsutior sec. BONAP 2014 is a proper subset of Andropogon glomeratus sec. Weakley 2006
 [] a :TaxonRelationship ;
+    :relationshipAccordingTo <https://doi.org/10.3233/SW-160220> ;
     :relationshipType <http://rs.tdwg.org/tcs-taxon-relationship-type/values/isIncludedIn> ;
     :subjectTaxonConcept [ a :TaxonConcept ;
         dcterms:title "Andropogon hirsutior sec. BONAP 2014" ;
-        :acceptedName <https://www.ipni.org/n/60458078-2> ;
-        :accordingTo <http://bonap.net/napa#2014> ] ;
+        :accordingTo <http://bonap.net/napa#2014> ;
+        :acceptedName <https://www.ipni.org/n/60458078-2> ] ;
     :objectTaxonConcept [ a :TaxonConcept ;
         dcterms:title "Andropogon glomeratus sec. Weakley 2006" ;
-        :acceptedName <https://www.ipni.org/n/12850-2> ;
-        :accordingTo <http://www.herbarium.unc.edu/FloraArchives/WeakleyFlora_2006-Jan.pdf> ] ;
-    :relationshipAccordingTo <https://doi.org/10.3233/SW-160220> .
+        :accordingTo <http://www.herbarium.unc.edu/FloraArchives/WeakleyFlora_2006-Jan.pdf> ;
+        :acceptedName <https://www.ipni.org/n/12850-2> ] .
 
 <https://www.ipni.org/n/60458078-2> a :TaxonName ;
     :taxonNameString "Andropogon hirsutior" ;
@@ -311,16 +311,16 @@ This relationship can also be written as the formula **A >< B**.
 
 ```turtle
 [] a :TaxonRelationship ;
+    :relationshipAccordingTo <https://doi.org/10.3233/SW-160220> ;
     :relationshipType <http://rs.tdwg.org/tcs-taxon-relationship-type/values/partiallyOverlaps> ;
     :subjectTaxonConcept [ a :TaxonConcept ;
         dcterms:title "Andropogon glomeratus sec. BONAP 2014" ;
-        :acceptedName <https://www.ipni.org/n/12850-2> ;
-        :accordingTo <http://bonap.net/napa#2014> ] ;
+        :accordingTo <http://bonap.net/napa#2014> ;
+        :acceptedName <https://www.ipni.org/n/12850-2> ] ;
     :objectTaxonConcept [ a :TaxonConcept ;
         dcterms:title "Andropogon glomeratus sec. Weakley 2006" ;
-        :acceptedName <https://www.ipni.org/n/12850-2> ;
-        :accordingTo <http://www.herbarium.unc.edu/FloraArchives/WeakleyFlora_2006-Jan.pdf> ] ;
-    :relationshipAccordingTo <https://doi.org/10.3233/SW-160220> .
+        :accordingTo <http://www.herbarium.unc.edu/FloraArchives/WeakleyFlora_2006-Jan.pdf> ;
+        :acceptedName <https://www.ipni.org/n/12850-2> ] .
 
 <https://www.ipni.org/n/12850-2> a :TaxonName ;
     :taxonNameString "Andropogon glomeratus" ;
@@ -376,16 +376,16 @@ This relationship can also be written as the formula **A | B**.
 ```turtle
 # Andropogon glaucopsis sec. BONAP 2014 is disjoint from Andropogon vitginicus sec. Weakley 2006
 [] a :TaxonRelationship ;
+    :relationshipAccordingTo <https://doi.org/10.3233/SW-160220> ;
     :relationshipType <http://rs.tdwg.org/tcs-taxon-relationship-type/values/isDisjointFrom> ;
     :subjectTaxonConcept [ a :TaxonConcept ;
         dcterms:title "Andropogon glaucopsis sec. BONAP 2014" ;
-        :acceptedName <https://www.ipni.org/n/387942-1> ;
-        :accordingTo <http://bonap.net/napa#2014> ] ;
+        :accordingTo <http://bonap.net/napa#2014> ;
+        :acceptedName <https://www.ipni.org/n/387942-1> ] ;
     :objectTaxonConcept [ a :TaxonConcept ;
         dcterms:title "Andropogon vitginicus sec. Weakley 2006" ;
-        :acceptedName <https://www.ipni.org/n/388740-1> ;
-        :accordingTo <http://www.herbarium.unc.edu/FloraArchives/WeakleyFlora_2006-Jan.pdf> ] ;
-    :relationshipAccordingTo <https://doi.org/10.3233/SW-160220> .
+        :accordingTo <http://www.herbarium.unc.edu/FloraArchives/WeakleyFlora_2006-Jan.pdf> ;
+        :acceptedName <https://www.ipni.org/n/388740-1> ] .
 
 <https://www.ipni.org/n/387942-1> a :TaxonName ;
     :taxonNameString "Andropogon glaucopsis" ;

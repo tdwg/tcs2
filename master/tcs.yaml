@@ -51,30 +51,6 @@
   repeatable: null
   github: 1
 
-# property: acceptedName
-- localName: acceptedName
-  label: Accepted Name
-  definition: The accepted name for the taxonomic group.
-  usage: >-
-    `acceptedName` is an IRI term and is required on a TCS Taxon Concept. A Taxon 
-    Concept can only have one `acceptedName`.
-  notes: >-
-    The `acceptedName` can be anything from a well-formed scientific name to an 
-    informal name, vernacular name, indigenous knowledge label, or even a label 
-    containing numbers and/or special symbols, such as are often used for OTUs. 
-    
-
-    The object of `acceptedName` is an object or IRI, so that it can be reused in 
-    other Taxon Concepts. TCS has got the Taxon Name class, which can be used 
-    for any type of name, but people are free to use alternatives, e.g. 
-    `skosxl:Label`, if they want to restrict the use of the Taxon Name class to 
-    scientific (or scientific-y) names only.
-  type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
-  organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonConcept
-  required: Yes
-  repeatable: No
-  github: 2
-
 # property: accordingTo
 - localName: accordingTo
   label: According To
@@ -110,44 +86,29 @@
   repeatable: No
   github: 4
 
-# property: taxonomicRank
-- localName: taxonomicRank
-  label: Taxonomic Rank
-  definition: The rank at which a taxon is classified.
+# property: acceptedName
+- localName: acceptedName
+  label: Accepted Name
+  definition: The accepted name for the taxonomic group.
   usage: >-
-    `taxonomicRank` is an IRI property; a Taxon Concept can have only one 
-    `taxonomicRank`.
+    `acceptedName` is an IRI term and is required on a TCS Taxon Concept. A Taxon 
+    Concept can only have one `acceptedName`.
   notes: >-
-    The rank is an attribute of elements in a classification and `taxonomicRank` 
-    can be applied to Taxon Concepts as well Taxon Names, as the rank of a 
-    taxon is reflected in its name. This property takes an object or IRI and it 
-    is recommended to use a value from an existing controlled vocabulary. 
-    While there is no TDWG vocabulary yet, the GBIF Taxonomic Rank Vocabulary 
-    (https://rs.gbif.org/vocabulary/gbif/rank.xml) is recommended.
-  type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
-  organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonConcept
-  required: No
-  repeatable: No
-  github: 32
+    The `acceptedName` can be anything from a well-formed scientific name to an 
+    informal name, vernacular name, indigenous knowledge label, or even a label 
+    containing numbers and/or special symbols, such as are often used for OTUs. 
+    
 
-# property: parent
-- localName: parent
-  label: Parent
-  definition: >-
-    The direct parent in a classification.
-  usage: >-
-    `parent` is another Taxon Concept; a Taxon Concept can have only one 
-    `parent`.
-  notes: >-
-    The `parent` is another Taxon Concept. This is the parent as indicated in 
-    the `accordingTo` reference, rather than a third-party classification. The 
-    `accordingTo` of the parent will generally, but not necessarily, be the 
-    same as that of the child. 
-  organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonConcept
-  repeatable: No
-  required: No
+    The object of `acceptedName` is an object or IRI, so that it can be reused in 
+    other Taxon Concepts. TCS has got the Taxon Name class, which can be used 
+    for any type of name, but people are free to use alternatives, e.g. 
+    `skosxl:Label`, if they want to restrict the use of the Taxon Name class to 
+    scientific (or scientific-y) names only.
   type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
-  github: 8
+  organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonConcept
+  required: Yes
+  repeatable: No
+  github: 2
 
 # property: synonym
 - localName: synonym
@@ -204,6 +165,46 @@
   repeatable: Yes
   github: 10
 
+# property: taxonomicRank
+- localName: taxonomicRank
+  label: Taxonomic Rank
+  definition: The rank at which a taxon is classified.
+  usage: >-
+    `taxonomicRank` is an IRI property; a Taxon Concept can have only one 
+    `taxonomicRank`.
+  notes: >-
+    The rank is an attribute of elements in a classification and `taxonomicRank` 
+    can be applied to Taxon Concepts as well Taxon Names, as the rank of a 
+    taxon is reflected in its name. This property takes an object or IRI and it 
+    is recommended to use a value from an existing controlled vocabulary. 
+    While there is no TDWG vocabulary yet, the GBIF Taxonomic Rank Vocabulary 
+    (https://rs.gbif.org/vocabulary/gbif/rank.xml) is recommended.
+  type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+  organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonConcept
+  required: No
+  repeatable: No
+  github: 32
+
+# property: parent
+- localName: parent
+  label: Parent
+  definition: >-
+    The direct parent in a classification.
+  usage: >-
+    `parent` is another Taxon Concept; a Taxon Concept can have only one 
+    `parent`.
+  notes: >-
+    The `parent` is another Taxon Concept. This is the parent as indicated in 
+    the `accordingTo` reference, rather than a third-party classification. The 
+    `accordingTo` of the parent will generally, but not necessarily, be the 
+    same as that of the child. 
+  organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonConcept
+  repeatable: No
+  required: No
+  type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+  github: 8
+
+
 # class: TaxonRelationship
 - localName: TaxonRelationship
   label: Taxon Relationship
@@ -238,6 +239,24 @@
   repeatable: null
   required: null
   github: 43
+
+# property: relationshipAccordingTo
+- localName: relationshipAccordingTo
+  label: Relationship According To
+  definition: >-
+    Reference to the source of the taxon relationship statement.
+  usage: >-
+    `relationshipAccordingTo` is an IRI term and is required; a Taxon 
+    Relationship statement can have only one `relationshipAccordingTo`.
+  notes: >-
+    In the case of Taxon Relationships from traditional synonymy, the 
+    `relationshipAccordingTo` is the same as the `accordingTo` of the Taxon 
+    Concept that is the `subjectTaxonConcept`.
+  type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+  organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonRelationship
+  required: Yes
+  repeatable: No
+  github: 47
 
 # property: relationshipType
 - localName: relationshipType
@@ -284,24 +303,6 @@
   required: Yes
   repeatable: No
   github: 46
-
-# property: relationshipAccordingTo
-- localName: relationshipAccordingTo
-  label: Relationship According To
-  definition: >-
-    Reference to the source of the taxon relationship statement.
-  usage: >-
-    `relationshipAccordingTo` is an IRI term and is required; a Taxon 
-    Relationship statement can have only one `relationshipAccordingTo`.
-  notes: >-
-    In the case of Taxon Relationships from traditional synonymy, the 
-    `relationshipAccordingTo` is the same as the `accordingTo` of the Taxon 
-    Concept that is the `subjectTaxonConcept`.
-  type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
-  organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonRelationship
-  required: Yes
-  repeatable: No
-  github: 47
 
 
 # class: TaxonName 

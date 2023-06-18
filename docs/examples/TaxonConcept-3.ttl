@@ -5,8 +5,8 @@
 
 [] a :TaxonConcept ;
     dcterms:title "Calymperes moluccense sec. Yong et al. (2013)" ;
-    :acceptedName <https://www.tropicos.org/name/35153806> ;
-    :accordingTo <urn:isbn:978-967-5221-99-6> .
+    :accordingTo <urn:isbn:978-967-5221-99-6> ;
+    :acceptedName <https://www.tropicos.org/name/35153806> .
 
 <https://www.tropicos.org/name/35153806> a :TaxonName ;
     :taxonNameString "Calymperes moluccense" ;

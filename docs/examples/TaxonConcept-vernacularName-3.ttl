@@ -7,6 +7,10 @@
 <https://vicflora.rbg.vic.gov.au/flora/taxon/93c88fde-ab15-4a9a-a61d-3830a57a0160#2023-03-02> 
     a :TaxonConcept ;
     dcterms:title "Callitris verrucosa sec. VicFlora (2023-03-22)" ;
+    :accordingTo [ a bibo:Website ;
+            dcterms:bibliographicCitation """VicFlora (2023). Flora of Victoria, 
+                    Royal Botanic Gardens Victoria. Available online: 
+                    https://vicflora.rbg.vic.gov.au (accessed on: 22 Mar. 2023).""" ] ;
     :acceptedName <https://www.ipni.org/n/134460-3> ;
     :vernacularName [ a gbif:VernacularName ; 
         dwc:vernacularName "Scrub Cypress-pine" ;
@@ -23,11 +27,7 @@
         [ a gbif:VernacularName ; 
         dwc:vernacularName "Turpentine Pine" ;
         dcterms:language "en" ;
-        gbif:isPreferredName: <http://rs.gbif.org/vocab/boolean/false> ] ;
-    :accordingTo [ a bibo:Website ;
-            dcterms:bibliographicCitation """VicFlora (2023). Flora of Victoria, 
-                    Royal Botanic Gardens Victoria. Available online: 
-                    https://vicflora.rbg.vic.gov.au (accessed on: 22 Mar. 2023).""" ] .
+        gbif:isPreferredName: <http://rs.gbif.org/vocab/boolean/false> ] .
 
 <https://www.ipni.org/n/134460-3> a :TaxonName ;
     :taxonNameString "Callitris verrucosa" ;
