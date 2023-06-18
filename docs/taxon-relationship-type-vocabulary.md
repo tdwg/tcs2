@@ -310,6 +310,7 @@ This relationship can also be written as the formula **A >< B**.
 
 
 ```turtle
+# Andropogon glomeratus sec. BONAP 2014 partially overlaps Andropogon glomeratus sec. Weakley 2006
 [] a :TaxonRelationship ;
     :relationshipAccordingTo <https://doi.org/10.3233/SW-160220> ;
     :relationshipType <http://rs.tdwg.org/tcs-taxon-relationship-type/values/partiallyOverlaps> ;
