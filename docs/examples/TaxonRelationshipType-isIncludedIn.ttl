@@ -7,11 +7,11 @@
     :relationshipType <http://rs.tdwg.org/tcs-taxon-relationship-type/values/isIncludedIn> ;
     :subjectTaxonConcept [ a :TaxonConcept ;
         dcterms:title "Andropogon hirsutior sec. BONAP 2014" ;
-        :taxonName <https://www.ipni.org/n/60458078-2> ;
+        :acceptedName <https://www.ipni.org/n/60458078-2> ;
         :accordingTo <http://bonap.net/napa#2014> ] ;
     :objectTaxonConcept [ a :TaxonConcept ;
         dcterms:title "Andropogon glomeratus sec. Weakley 2006" ;
-        :taxonName <https://www.ipni.org/n/12850-2> ;
+        :acceptedName <https://www.ipni.org/n/12850-2> ;
         :accordingTo <http://www.herbarium.unc.edu/FloraArchives/WeakleyFlora_2006-Jan.pdf> ] ;
     :relationshipAccordingTo <https://doi.org/10.3233/SW-160220> .
 

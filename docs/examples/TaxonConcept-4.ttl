@@ -5,7 +5,7 @@
 
 <https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:105644-1> a :TaxonConcept ;
     dcterms:title "Begonia salaziensis sec. POWO (2022)" ;
-    :taxonName <https://www.ipni.org/n/105644-1> ;
+    :acceptedName <https://www.ipni.org/n/105644-1> ;
     :accordingTo <urn:lsid:ipni.org:publications:17755-2> .
 
 <https://www.ipni.org/n/105644-1> a :TaxonName ;

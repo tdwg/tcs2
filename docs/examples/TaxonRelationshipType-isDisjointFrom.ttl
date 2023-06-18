@@ -7,11 +7,11 @@
     :relationshipType <http://rs.tdwg.org/tcs-taxon-relationship-type/values/isDisjointFrom> ;
     :subjectTaxonConcept [ a :TaxonConcept ;
         dcterms:title "Andropogon glaucopsis sec. BONAP 2014" ;
-        :taxonName <https://www.ipni.org/n/387942-1> ;
+        :acceptedName <https://www.ipni.org/n/387942-1> ;
         :accordingTo <http://bonap.net/napa#2014> ] ;
     :objectTaxonConcept [ a :TaxonConcept ;
         dcterms:title "Andropogon vitginicus sec. Weakley 2006" ;
-        :taxonName <https://www.ipni.org/n/388740-1> ;
+        :acceptedName <https://www.ipni.org/n/388740-1> ;
         :accordingTo <http://www.herbarium.unc.edu/FloraArchives/WeakleyFlora_2006-Jan.pdf> ] ;
     :relationshipAccordingTo <https://doi.org/10.3233/SW-160220> .
 

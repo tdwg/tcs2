@@ -6,7 +6,7 @@ do not edit the markdown directly, but make any changes in the YAML file.
 
 ## Index of terms
 
-[Taxon Relationship Type Concept Scheme](#tcreltype) | [Is Congruent With](#tcreltypeiscongruentwith) | [Has proper subset](#tcreltypehaspropersubset) | [Is proper subset of](#tcreltypeispropersubsetof) | [partiallyOverlaps](#tcreltypepartiallyoverlaps) | [Is disjoint from](#tcreltypeisdisjointfrom) | [Intersects](#tcreltypeintersects)
+[Taxon Relationship Type Concept Scheme](#tcreltype) | [Is Congruent With](#tcreltypeiscongruentwith) | [Has proper subset](#tcreltypeincludes) | [Is proper subset of](#tcreltypeisincludedin) | [partiallyOverlaps](#tcreltypepartiallyoverlaps) | [Is disjoint from](#tcreltypeisdisjointfrom) | [Intersects](#tcreltypeintersects)
 
 ### tcreltype:
 
@@ -112,11 +112,11 @@ This relationship can also be written as the formula **A &cong; B** or **A == B*
     :relationshipType <http://rs.tdwg.org/tcs-taxon-relationship-type/values/hasProperSubset> ;
     :subjectTaxonConcept [ a :TaxonConcept ;
         dcterms:title "Andropogon capillipes sec. BONAP 2014" ;
-        :taxonName <https://www.ipni.org/n/12781-2> ;
+        :acceptedName <https://www.ipni.org/n/12781-2> ;
         :accordingTo <http://bonap.net/napa#2014> ] ;
     :objectTaxonConcept [ a :TaxonConcept ;
         dcterms:title "Andropogon capillipes sec. Weakley 2006" ;
-        :taxonName <https://www.ipni.org/n/12781-2> ;
+        :acceptedName <https://www.ipni.org/n/12781-2> ;
         :accordingTo <http://www.herbarium.unc.edu/FloraArchives/WeakleyFlora_2006-Jan.pdf> ] ;
     :relationshipAccordingTo <https://doi.org/10.3233/SW-160220> .
 
@@ -127,13 +127,13 @@ This relationship can also be written as the formula **A &cong; B** or **A == B*
 
 [&lsqb;TaxonRelationshipType-isCongruentWith.ttl&rsqb;](examples/TaxonRelationshipType-isCongruentWith.ttl)
 
-### tcreltype:hasProperSubset
+### tcreltype:includes
 
 <table style="width:100%;">
 	<tbody>
 		<tr>
 			<td>Identifier</td>
-			<td>http://rs.tdwg.org/tcs-taxon-relationship-type/values/hasProperSubset</td>
+			<td>http://rs.tdwg.org/tcs-taxon-relationship-type/values/includes</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -149,7 +149,7 @@ This relationship can also be written as the formula **A &cong; B** or **A == B*
 		</tr>
 		<tr>
 			<td>Controlled value</td>
-			<td>hasProperSubset</td>
+			<td>includes</td>
 		</tr>
 		<tr>
 			<td>GitHub issue</td>
@@ -161,9 +161,9 @@ This relationship can also be written as the formula **A &cong; B** or **A == B*
 
 **Comments**
 
-The `hasProperSubset` relationship is not symmetric, its inverse  relationship being  `isProperSubsetOf`, so if A `hasProperSubset` B then B  `isProperSubsetOf` A. The `hasProperSubset` relationship  is transitive, so  if A `hasProperSubset` B and B `hasProperSubset` C it follows that A  `hasProperSubset` C.
+The `includes` relationship is not symmetric, its inverse  relationship being  `isIncludedIn`, so if A `includes` B then B  `isIncludedIn` A. The `includes` relationship  is transitive, so  if A `includes` B and B `includes` C it follows that A  `includes` C.
 
-![](media/taxon-relationship-type-has-proper-subset.jpg)
+![](media/taxon-relationship-type-includes.jpg)
 
 This relation type can also be written as the formula **A > B**.
 
@@ -174,14 +174,14 @@ This relation type can also be written as the formula **A > B**.
 ```turtle
 # Andropogon glomeratus sec. BONAP 2014 has a proper subset Andropogon tenuispatheus sec. Weakley 2006
 [] a :TaxonRelationship ;
-    :relationshipType <http://rs.tdwg.org/tcs-taxon-relationship-type/values/hasProperSubset> ;
+    :relationshipType <http://rs.tdwg.org/tcs-taxon-relationship-type/values/includes> ;
     :subjectTaxonConcept [ a :TaxonConcept ;
         dcterms:title "Andropogon glomeratus sec. BONAP 2014" ;
-        :taxonName <https://www.ipni.org/n/12850-2> ;
+        :acceptedName <https://www.ipni.org/n/12850-2> ;
         :accordingTo <http://bonap.net/napa#2014> ] ;
     :objectTaxonConcept [ a :TaxonConcept ;
         dcterms:title "Andropogon tenuispatheus sec. Weakley 2006" ;
-        :taxonName <https://www.ipni.org/n/13093-2> ;
+        :acceptedName <https://www.ipni.org/n/13093-2> ;
         :accordingTo <http://www.herbarium.unc.edu/FloraArchives/WeakleyFlora_2006-Jan.pdf> ] ;
     :relationshipAccordingTo <https://doi.org/10.3233/SW-160220> .
 
@@ -194,15 +194,15 @@ This relation type can also be written as the formula **A > B**.
     dwc:scientificNameAuthorship "Nash" .
 ```
 
-[&lsqb;TaxonRelationshipType-hasProperSubset.ttl&rsqb;](examples/TaxonRelationshipType-hasProperSubset.ttl)
+[&lsqb;TaxonRelationshipType-includes.ttl&rsqb;](examples/TaxonRelationshipType-includes.ttl)
 
-### tcreltype:isProperSubsetOf
+### tcreltype:isIncludedIn
 
 <table style="width:100%;">
 	<tbody>
 		<tr>
 			<td>Identifier</td>
-			<td>http://rs.tdwg.org/tcs-taxon-relationship-type/values/isProperSubsetOf</td>
+			<td>http://rs.tdwg.org/tcs-taxon-relationship-type/values/isIncludedIn</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -218,7 +218,7 @@ This relation type can also be written as the formula **A > B**.
 		</tr>
 		<tr>
 			<td>Controlled value</td>
-			<td>isProperSubsetOf</td>
+			<td>isIncludedIn</td>
 		</tr>
 		<tr>
 			<td>GitHub issue</td>
@@ -230,9 +230,9 @@ This relation type can also be written as the formula **A > B**.
 
 **Comments**
 
-The `isProperSubsetOf` relationship is not symmetric, its inverse  relationship being  `hasProperSubset`, so if A `isProperSubsetOf` B then B  `hasProperSubset` A. The `isProperSubsetOf` relationship  is transitive, so  if A `isProperSubsetOf` B and B `isProperSubsetOf` C it follows that A  `isProperSubsetOf` C.
+The `isIncludedIn` relationship is not symmetric, its inverse  relationship being  `includes`, so if A `isIncludedIn` B then B  `includes` A. The `isIncludedIn` relationship  is transitive, so  if A `isIncludedIn` B and B `isIncludedIn` C it follows that A  `isIncludedIn` C.
 
-![](media/taxon-relationship-type-is-proper-subset-of.jpg)
+![](media/taxon-relationship-type-is-included-in.jpg)
 
 This relation type can also be written as the formula **A < B**.
 
@@ -243,14 +243,14 @@ This relation type can also be written as the formula **A < B**.
 ```turtle
 # Andropogon hirsutior sec. BONAP 2014 is a proper subset of Andropogon glomeratus sec. Weakley 2006
 [] a :TaxonRelationship ;
-    :relationshipType <http://rs.tdwg.org/tcs-taxon-relationship-type/values/isProperSubsetOf> ;
+    :relationshipType <http://rs.tdwg.org/tcs-taxon-relationship-type/values/isIncludedIn> ;
     :subjectTaxonConcept [ a :TaxonConcept ;
         dcterms:title "Andropogon hirsutior sec. BONAP 2014" ;
-        :taxonName <https://www.ipni.org/n/60458078-2> ;
+        :acceptedName <https://www.ipni.org/n/60458078-2> ;
         :accordingTo <http://bonap.net/napa#2014> ] ;
     :objectTaxonConcept [ a :TaxonConcept ;
         dcterms:title "Andropogon glomeratus sec. Weakley 2006" ;
-        :taxonName <https://www.ipni.org/n/12850-2> ;
+        :acceptedName <https://www.ipni.org/n/12850-2> ;
         :accordingTo <http://www.herbarium.unc.edu/FloraArchives/WeakleyFlora_2006-Jan.pdf> ] ;
     :relationshipAccordingTo <https://doi.org/10.3233/SW-160220> .
 
@@ -263,7 +263,7 @@ This relation type can also be written as the formula **A < B**.
     dwc:scientificNameAuthorship "Britton, Sterns & Poggenb." .
 ```
 
-[&lsqb;TaxonRelationshipType-isProperSubsetOf.ttl&rsqb;](examples/TaxonRelationshipType-isProperSubsetOf.ttl)
+[&lsqb;TaxonRelationshipType-isIncludedIn.ttl&rsqb;](examples/TaxonRelationshipType-isIncludedIn.ttl)
 
 ### tcreltype:partiallyOverlaps
 
@@ -314,11 +314,11 @@ This relationship can also be written as the formula **A >< B**.
     :relationshipType <http://rs.tdwg.org/tcs-taxon-relationship-type/values/partiallyOverlaps> ;
     :subjectTaxonConcept [ a :TaxonConcept ;
         dcterms:title "Andropogon glomeratus sec. BONAP 2014" ;
-        :taxonName <https://www.ipni.org/n/12850-2> ;
+        :acceptedName <https://www.ipni.org/n/12850-2> ;
         :accordingTo <http://bonap.net/napa#2014> ] ;
     :objectTaxonConcept [ a :TaxonConcept ;
         dcterms:title "Andropogon glomeratus sec. Weakley 2006" ;
-        :taxonName <https://www.ipni.org/n/12850-2> ;
+        :acceptedName <https://www.ipni.org/n/12850-2> ;
         :accordingTo <http://www.herbarium.unc.edu/FloraArchives/WeakleyFlora_2006-Jan.pdf> ] ;
     :relationshipAccordingTo <https://doi.org/10.3233/SW-160220> .
 
@@ -379,11 +379,11 @@ This relationship can also be written as the formula **A | B**.
     :relationshipType <http://rs.tdwg.org/tcs-taxon-relationship-type/values/isDisjointFrom> ;
     :subjectTaxonConcept [ a :TaxonConcept ;
         dcterms:title "Andropogon glaucopsis sec. BONAP 2014" ;
-        :taxonName <https://www.ipni.org/n/387942-1> ;
+        :acceptedName <https://www.ipni.org/n/387942-1> ;
         :accordingTo <http://bonap.net/napa#2014> ] ;
     :objectTaxonConcept [ a :TaxonConcept ;
         dcterms:title "Andropogon vitginicus sec. Weakley 2006" ;
-        :taxonName <https://www.ipni.org/n/388740-1> ;
+        :acceptedName <https://www.ipni.org/n/388740-1> ;
         :accordingTo <http://www.herbarium.unc.edu/FloraArchives/WeakleyFlora_2006-Jan.pdf> ] ;
     :relationshipAccordingTo <https://doi.org/10.3233/SW-160220> .
 
@@ -432,6 +432,6 @@ This relationship can also be written as the formula **A | B**.
 
 **Comments**
 
-`intersects` is the opposite of `isDisjointFrom` and the union of  `isCongruentWith`, `hasProperSubset`, `isProperSubsetOf` and  `partiallyOverlaps`, meaning it can be any of these relationships. This  relationship type can be used when the more precise nature of the  relationship is not known, for example when dealing with statements in  traditional synonymies.
+`intersects` is the opposite of `isDisjointFrom` and the union of  `isCongruentWith`, `includes`, `isIncludedIn` and  `partiallyOverlaps`, meaning it can be any of these relationships. This  relationship type can be used when the more precise nature of the  relationship is not known, for example when dealing with statements in  traditional synonymies.
 
 <!-- termlist-footer.md ==>

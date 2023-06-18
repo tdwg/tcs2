@@ -8,11 +8,11 @@
   definition: >-
     An identifiable taxonomic position that can be aligned to other such 
     positions through TCS Taxon Relationships.
-  usage: The `taxonName` and `accordingTo` properties are required.
+  usage: The `acceptedName` and `accordingTo` properties are required.
   notes: >-
     A taxonomic position is an opinion about the definition of a taxonomic 
     group. A Taxon Concept is identifiable, because it combines a label – 
-    `taxonName` in TCS – with a source – `accordingTo`. Both these properties 
+    `acceptedName` in TCS – with a source – `accordingTo`. Both these properties 
     are required. When mentioning a taxon concept, the label and the source are 
     combined, separated by 'sec.' (from, 'secundus', meaning 'according 
     to') or 'sensu' (meaning the same). The term `title` has been borrowed from 
@@ -51,20 +51,20 @@
   repeatable: null
   github: 1
 
-# property: taxonName
-- localName: taxonName
-  label: Taxon Name
-  definition: A name or label that is given to a taxonomic group.
+# property: acceptedName
+- localName: acceptedName
+  label: Accepted Name
+  definition: The accepted name for the taxonomic group.
   usage: >-
-    `taxonName` is an IRI term and is required on a TCS Taxon Concept. A Taxon 
-    Concept can only have one `taxonName`.
+    `acceptedName` is an IRI term and is required on a TCS Taxon Concept. A Taxon 
+    Concept can only have one `acceptedName`.
   notes: >-
-    The `taxonName` can be anything from a well-formed scientific name to an 
+    The `acceptedName` can be anything from a well-formed scientific name to an 
     informal name, vernacular name, indigenous knowledge label, or even a label 
     containing numbers and/or special symbols, such as are often used for OTUs. 
     
 
-    The object of `taxonName` is an object or IRI, so that it can be reused in 
+    The object of `acceptedName` is an object or IRI, so that it can be reused in 
     other Taxon Concepts. TCS has got the Taxon Name class, which can be used 
     for any type of name, but people are free to use alternatives, e.g. 
     `skosxl:Label`, if they want to restrict the use of the Taxon Name class to 
@@ -161,8 +161,8 @@
     different nomenclatural types, a Taxon Concept is required. Therefore, 
     `synonym` is a property of the Taxon Concept class. `synonym` is used here 
     in the strict meaning that the type of a name falls within a Taxon Concept. 
-    The same goes for the accepted name (`taxonName`) and therefore `synonym` 
-    has the same relationship to Taxon Concept as `taxonName`. This allows one 
+    The same goes for the `acceptedName` and therefore `synonym` 
+    has the same relationship to Taxon Concept as `acceptedName`. This allows one 
     to dispose of names without having to deal with the Taxon Concepts that were 
     realised along with the publication of these names. If one wants to include 
     these “original concepts” and indicate a relationship between Taxon 
@@ -182,14 +182,14 @@
   label: Vernacular Name
   definition: >-
     Common or vernacular name for a taxonomic group, when used besides the 
-    `taxonName`.
+    `acceptedName`.
   usage: >-
     `vernacularName` is an IRI term; a Taxon Concept can have more than one 
     `vernacularName`.
   notes: >-
     The `vernacularName` property can be used when a vernacular name is used 
-    alongside a scientific name, which is the `taxonName`. If a vernacular name 
-    is the only name, the `taxonName` property should be used. The object of the 
+    alongside a scientific name, which is the `acceptedName`. If a vernacular name 
+    is the only name, the `acceptedName` property should be used. The object of the 
     `vernacularName` property can be a Taxon Name, but another label 
     object, such as the GBIF [Vernacular Name](https://rs.gbif.org/extension/gbif/1.0/vernacularname.xml), 
     might be preferrable, especially if there can be multiple vernacular names 

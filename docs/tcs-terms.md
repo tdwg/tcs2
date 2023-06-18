@@ -13,7 +13,7 @@ files.
 
 **Taxon Concept**
 
-[tcs:taxonName](#tcstaxonname) | [tcs:accordingTo](#tcsaccordingto) | [tcs:taxonomicRank](#tcstaxonomicrank) | [tcs:parent](#tcsparent) | [tcs:synonym](#tcssynonym) | [tcs:vernacularName](#tcsvernacularname) | [dcterms:title](#dctermstitle)
+[tcs:acceptedName](#tcsacceptedname) | [tcs:accordingTo](#tcsaccordingto) | [tcs:taxonomicRank](#tcstaxonomicrank) | [tcs:parent](#tcsparent) | [tcs:synonym](#tcssynonym) | [tcs:vernacularName](#tcsvernacularname) | [dcterms:title](#dctermstitle)
 
 **Taxon Relationship**
 
@@ -51,7 +51,7 @@ files.
 		</tr>
 		<tr>
 			<td>Usage</td>
-			<td><p>The <code>taxonName</code> and <code>accordingTo</code> properties are required.</p></td>
+			<td><p>The <code>acceptedName</code> and <code>accordingTo</code> properties are required.</p></td>
 		</tr>
 		<tr>
 			<td>GitHub issue</td>
@@ -63,7 +63,7 @@ files.
 
 **Comments**
 
-A taxonomic position is an opinion about the definition of a taxonomic  group. A Taxon Concept is identifiable, because it combines a label –  `taxonName` in TCS – with a source – `accordingTo`. Both these properties  are required. When mentioning a taxon concept, the label and the source are  combined, separated by 'sec.' (from, 'secundus', meaning 'according  to') or 'sensu' (meaning the same). The term `title` has been borrowed from  Dublin Core to provide this taxon concept label. Because of the context  provided by the source, taxon concepts are in principle also alignable to  other Taxon Concepts using the TCS Taxon Relationship statements.
+A taxonomic position is an opinion about the definition of a taxonomic  group. A Taxon Concept is identifiable, because it combines a label –  `acceptedName` in TCS – with a source – `accordingTo`. Both these properties  are required. When mentioning a taxon concept, the label and the source are  combined, separated by 'sec.' (from, 'secundus', meaning 'according  to') or 'sensu' (meaning the same). The term `title` has been borrowed from  Dublin Core to provide this taxon concept label. Because of the context  provided by the source, taxon concepts are in principle also alignable to  other Taxon Concepts using the TCS Taxon Relationship statements.
 
 The TCS Taxon Concept is a data object and is applied more broadly than the  term is used in science (e.g. Franz & Peet 2009). On the one hand, things  that are not generally considered to be biological taxa, e.g. hybrids and  cultivars, can be casted as TCS Taxon Concepts. Also Operational Taxonomic  Units (OTUs, cf. Sokal & Sneath 1963) can be exchanged as Taxon Concepts,  if there is a reason to do so, e.g. if one wants to align them with other  Taxon Concepts later. On the other hand, entries from treatments that are  considered to cite concepts from other treatments can be formulated as  Taxon Concepts. Every taxon concept from a treatment that is likely to be  referenced as the source of taxonomic context, for example a field guide  for a determination of a specimen or a national census for an ecological  study, can – and it would be very nice if they would – be stated as a Taxon  Concept, so they can be aligned with other Taxon Concepts that may provide  more or different taxonomic context.
 
@@ -76,10 +76,10 @@ By contrast, assertions of synonymy or misapplication and entries in lists  of n
 ```turtle
 [] a :TaxonConcept ;
     dcterms:title "Dicranoloma blumei sec. Klazenga (1999)" ;
-    :taxonName <https://www.tropicos.org/name/35121475> ;
+    :acceptedName <https://www.tropicos.org/name/35121475> ;
     :accordingTo <https://www.tropicos.org/reference/9020903> .
 
-<https://www.tropicos.org/name/35121475> a :TaxonName ;
+<https://www.tropicos.org/name/35121475> a ;
     :taxonNameString "Dicranoloma blumei" ;
     dwc:scientificNameAuthorship "(Nees) Renauld" .
 
@@ -95,7 +95,7 @@ By contrast, assertions of synonymy or misapplication and entries in lists  of n
 ```turtle
 [] a :TaxonConcept ;
     dcterms:title "Orthetrum caledonicum sec. Theischinger and Hawking (2010)" ;
-    :taxonName [ a :TaxonName ; 
+    :acceptedName [ a :TaxonName ; 
             :taxonNameString "Orthetrum caledonicum" ] ;
     :vernacularName [ a :TaxonName ;
             :taxonNameString "Blue Skimmer" ] ;
@@ -113,7 +113,7 @@ By contrast, assertions of synonymy or misapplication and entries in lists  of n
 ```turtle
 [] a :TaxonConcept ;
     dcterms:title "Calymperes moluccense sec. Yong et al. (2013)" ;
-    :taxonName <https://www.tropicos.org/name/35153806> ;
+    :acceptedName <https://www.tropicos.org/name/35153806> ;
     :accordingTo <urn:isbn:978-967-5221-99-6> .
 
 <https://www.tropicos.org/name/35153806> a :TaxonName ;
@@ -132,7 +132,7 @@ By contrast, assertions of synonymy or misapplication and entries in lists  of n
 ```turtle
 <https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:105644-1> a :TaxonConcept ;
     dcterms:title "Begonia salaziensis sec. POWO (2022)" ;
-    :taxonName <https://www.ipni.org/n/105644-1> ;
+    :acceptedName <https://www.ipni.org/n/105644-1> ;
     :accordingTo <urn:lsid:ipni.org:publications:17755-2> .
 
 <https://www.ipni.org/n/105644-1> a :TaxonName ;
@@ -151,7 +151,7 @@ By contrast, assertions of synonymy or misapplication and entries in lists  of n
 ```turtle
 <https://www.catalogueoflife.org/data/taxon/KF8T#v2022-11-14> a :TaxonConcept ;
     dcterms:title "Balaenoptera musculus sec. Catalogue of Life (v2022-11-14)" ;
-    :taxonName [ a :TaxonName ;
+    :acceptedName [ a :TaxonName ;
             :taxonNameString "Balaenoptera musculus" ;
             dwc:scientificNameAuthorship "(Linnaeus, 1758)" ] ;
     :accordingTo <https://www.catalogueoflife.org#v2022-11-14> .
@@ -164,13 +164,13 @@ By contrast, assertions of synonymy or misapplication and entries in lists  of n
 
 [&lsqb;TaxonConcept-5.ttl&rsqb;](examples/TaxonConcept-5.ttl)
 
-### tcs:taxonName
+### tcs:acceptedName
 
 <table style="width:100%;">
 	<tbody>
 		<tr>
 			<td>Identifier</td>
-			<td>http://rs.tdwg.org/tcs/terms/taxonName</td>
+			<td>http://rs.tdwg.org/tcs/terms/acceptedName</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -178,7 +178,7 @@ By contrast, assertions of synonymy or misapplication and entries in lists  of n
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td>Taxon Name</td>
+			<td>Accepted Name</td>
 		</tr>
 		<tr>
 			<td></td>
@@ -186,11 +186,11 @@ By contrast, assertions of synonymy or misapplication and entries in lists  of n
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td><p>A name or label that is given to a taxonomic group.</p></td>
+			<td><p>The accepted name for the taxonomic group.</p></td>
 		</tr>
 		<tr>
 			<td>Usage</td>
-			<td><p><code>taxonName</code> is an IRI term and is required on a TCS Taxon Concept. A Taxon  Concept can only have one <code>taxonName</code>.</p></td>
+			<td><p><code>acceptedName</code> is an IRI term and is required on a TCS Taxon Concept. A Taxon  Concept can only have one <code>acceptedName</code>.</p></td>
 		</tr>
 		<tr>
 			<td>GitHub issue</td>
@@ -202,9 +202,9 @@ By contrast, assertions of synonymy or misapplication and entries in lists  of n
 
 **Comments**
 
-The `taxonName` can be anything from a well-formed scientific name to an  informal name, vernacular name, indigenous knowledge label, or even a label  containing numbers and/or special symbols, such as are often used for OTUs. 
+The `acceptedName` can be anything from a well-formed scientific name to an  informal name, vernacular name, indigenous knowledge label, or even a label  containing numbers and/or special symbols, such as are often used for OTUs. 
 
-The object of `taxonName` is an object or IRI, so that it can be reused in  other Taxon Concepts. TCS has got the Taxon Name class, which can be used  for any type of name, but people are free to use alternatives, e.g.  `skosxl:Label`, if they want to restrict the use of the Taxon Name class to  scientific (or scientific-y) names only.
+The object of `acceptedName` is an object or IRI, so that it can be reused in  other Taxon Concepts. TCS has got the Taxon Name class, which can be used  for any type of name, but people are free to use alternatives, e.g.  `skosxl:Label`, if they want to restrict the use of the Taxon Name class to  scientific (or scientific-y) names only.
 
 ### tcs:accordingTo
 
@@ -443,7 +443,7 @@ The `parent` is another Taxon Concept. This is the parent as indicated in  the `
 
 **Comments**
 
-Synonyms are names and synonymy is between names but, if the names have  different nomenclatural types, a Taxon Concept is required. Therefore,  `synonym` is a property of the Taxon Concept class. `synonym` is used here  in the strict meaning that the type of a name falls within a Taxon Concept.  The same goes for the accepted name (`taxonName`) and therefore `synonym`  has the same relationship to Taxon Concept as `taxonName`. This allows one  to dispose of names without having to deal with the Taxon Concepts that were  realised along with the publication of these names. If one wants to include  these “original concepts” and indicate a relationship between Taxon  Concepts, and the more precise relationship is not provided, the  `intersects` Taxon Relationship can be used.
+Synonyms are names and synonymy is between names but, if the names have  different nomenclatural types, a Taxon Concept is required. Therefore,  `synonym` is a property of the Taxon Concept class. `synonym` is used here  in the strict meaning that the type of a name falls within a Taxon Concept.  The same goes for the `acceptedName` and therefore `synonym`  has the same relationship to Taxon Concept as `acceptedName`. This allows one  to dispose of names without having to deal with the Taxon Concepts that were  realised along with the publication of these names. If one wants to include  these “original concepts” and indicate a relationship between Taxon  Concepts, and the more precise relationship is not provided, the  `intersects` Taxon Relationship can be used.
 
 
 **Examples**
@@ -452,7 +452,7 @@ Synonyms are names and synonymy is between names but, if the names have  differe
 ```turtle
 []  a :TaxonConcept ;
     dcterms:title "Dicranoloma blumei sec. Klazenga (1999)" ;
-    :taxonName <https://www.tropicos.org/name/35121475> ;
+    :acceptedName <https://www.tropicos.org/name/35121475> ;
     :synonym <https://www.tropicos.org/name/35121973> , 
             <https://www.tropicos.org/name/35121477> ,
             <https://www.tropicos.org/name/35121484> ,
@@ -520,7 +520,7 @@ Synonyms are names and synonymy is between names but, if the names have  differe
 ```turtle
 [] a :TaxonConcept ;
     dcterms:title "Hebe imbricata sec. Bayly & Kellow (2006)" ;
-    :taxonName <https://www.ipni.org/n/989261-1> ;
+    <https://www.ipni.org/n/989261-1> ;
     :synonym <https://www.ipni.org/n/812507-1> ;
     :accordingTo <urn:isbn:978-0-909010-12-6> .
 
@@ -563,7 +563,7 @@ Synonyms are names and synonymy is between names but, if the names have  differe
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td><p>Common or vernacular name for a taxonomic group, when used besides the  <code>taxonName</code>.</p></td>
+			<td><p>Common or vernacular name for a taxonomic group, when used besides the  <code>acceptedName</code>.</p></td>
 		</tr>
 		<tr>
 			<td>Usage</td>
@@ -579,7 +579,7 @@ Synonyms are names and synonymy is between names but, if the names have  differe
 
 **Comments**
 
-The `vernacularName` property can be used when a vernacular name is used  alongside a scientific name, which is the `taxonName`. If a vernacular name  is the only name, the `taxonName` property should be used. The object of the  `vernacularName` property can be a Taxon Name, but another label  object, such as the GBIF [Vernacular Name](https://rs.gbif.org/extension/gbif/1.0/vernacularname.xml),  might be preferrable, especially if there can be multiple vernacular names  for a concept.
+The `vernacularName` property can be used when a vernacular name is used  alongside a scientific name, which is the `acceptedName`. If a vernacular name  is the only name, the `acceptedName` property should be used. The object of the  `vernacularName` property can be a Taxon Name, but another label  object, such as the GBIF [Vernacular Name](https://rs.gbif.org/extension/gbif/1.0/vernacularname.xml),  might be preferrable, especially if there can be multiple vernacular names  for a concept.
 
 
 **Examples**
@@ -588,7 +588,7 @@ The `vernacularName` property can be used when a vernacular name is used  alongs
 ```turtle
 [] a :TaxonConcept ;
     dcterms:title "Graphium macleayanum sec. Orr & Kitching (2010)" ;
-    :taxonName [ a :TaxonName ;
+    :acceptedName [ a :TaxonName ;
             :taxonNameString "Graphium macleayanum" ] ;
     :vernacularName [ a gbif:VernacularName ;
             dwc:vernacularName "Macleay's Swallowtail" ;
@@ -606,7 +606,7 @@ The `vernacularName` property can be used when a vernacular name is used  alongs
 ```turtle
 [] a :TaxonConcept ;
     dcterms:title "Quercus robur sec. Duistermaat (2020)" ;
-    :taxonName <https://www.ipni.org/n/304293-2> ;
+    :acceptedName <https://www.ipni.org/n/304293-2> ;
     :vernacularName [ a gbif:VernacularName ;
             dwc:vernacularName "Zomereik" ;
             dcterms:language "nl" ] ;
@@ -627,7 +627,7 @@ The `vernacularName` property can be used when a vernacular name is used  alongs
 <https://vicflora.rbg.vic.gov.au/flora/taxon/93c88fde-ab15-4a9a-a61d-3830a57a0160#2023-03-02> 
     a :TaxonConcept ;
     dcterms:title "Callitris verrucosa sec. VicFlora (2023-03-22)" ;
-    :taxonName <https://www.ipni.org/n/134460-3> ;
+    :acceptedName <https://www.ipni.org/n/134460-3> ;
     :vernacularName [ a gbif:VernacularName ; 
         dwc:vernacularName "Scrub Cypress-pine" ;
         dcterms:language "en" ;
@@ -745,12 +745,12 @@ Taxon Relationship statements can be made in the treatment of the  subject Taxon
     :relationshipType <http://rs.tdwg.org/tcs-taxon-concept-relationship-type/values/isProperSubsetOf> ; 
     :subjectTaxonConcept [ a :TaxonConcept ; 
         dcterms:title "Athyriaceae sec. Rothfels et al. (2012)" ;
-        :taxonName [ a :TaxonName ;
+        :acceptedName [ a :TaxonName ;
         :taxonNameString "Athyriaceae" ] ;
         :accordingTo <https://doi.org/10.1002/tax.613003> ] ;
     :objectTaxonConcept [ a :TaxonConcept ;
         dcterms:title "Woodsiaceae sec. Smith et al. (2006)" ;
-        :taxonName [ a :TaxonName ;
+        :acceptedName [ a :TaxonName ;
         :taxonNameString "Woodsiaceae" ] ;
         :accordingTo <https://doi.org/10.2307/25065646> ] ;
     :relationshipAccordingTo <https://doi.org/10.1002/tax.613003> .
@@ -777,11 +777,11 @@ Taxon Relationship statements can be made in the treatment of the  subject Taxon
     :relationshipType <http://rs.tdwg.org/tcs-taxon-concept-relationship-type/values/isCongruentWith> ; 
     :subjectTaxonConcept [ a :TaxonConcept ;
         dcterms:title "Dicranum fuscescens sec. Koperski et al. (2000)" ;
-        :taxonName <https://www.tropicos.org/name/35122385> ;
+        :acceptedName <https://www.tropicos.org/name/35122385> ;
         :accordingTo <https://www.tropicos.org/reference/9022656> ] ;
     :objectTaxonConcept [ a :TaxonConcept ;
         dcterms:title "Dicranum fuscescens sec. Corley et al. (1981)" ;
-        :taxonName <https://www.tropicos.org/name/35122385> ;
+        :acceptedName <https://www.tropicos.org/name/35122385> ;
         :accordingTo <https://www.tropicos.org/reference/9004554> ] ;
     :relationshipAccordingTo <https://www.tropicos.org/reference/9022656> .
 
@@ -809,11 +809,11 @@ Taxon Relationship statements can be made in the treatment of the  subject Taxon
     :relationshipType <http://rs.tdwg.org/tcs-taxon-concept-relationship-type/values/partiallyOverlaps> ;
     :subjectTaxonConcept [ a :TaxonConcept ;
         dcterms:title "Phyllotrox sec. Franz & O'Brien (2001)" ;
-        :taxonName _:n1 ;
+        :acceptedName _:n1 ;
         :accordingTo <https://www.jstor.org/stable/25078744> ] ;
     :objectTaxonConcept [ a :TaxonConcept ; 
         dcterms:title "Phyllotrox sec. Franz (2006)" ;
-        :taxonName _:n1 ;
+        :acceptedName _:n1 ;
         :accordingTo <https://doi.org/10.1111/j.1365-3113.2005.00308.x> ] ;
     :relationshipAccordingTo <https://doi.org/10.1111/cla.12042> .
 

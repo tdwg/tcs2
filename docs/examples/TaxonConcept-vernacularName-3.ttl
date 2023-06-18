@@ -7,7 +7,7 @@
 <https://vicflora.rbg.vic.gov.au/flora/taxon/93c88fde-ab15-4a9a-a61d-3830a57a0160#2023-03-02> 
     a :TaxonConcept ;
     dcterms:title "Callitris verrucosa sec. VicFlora (2023-03-22)" ;
-    :taxonName <https://www.ipni.org/n/134460-3> ;
+    :acceptedName <https://www.ipni.org/n/134460-3> ;
     :vernacularName [ a gbif:VernacularName ; 
         dwc:vernacularName "Scrub Cypress-pine" ;
         dcterms:language "en" ;
