@@ -1,0 +1,572 @@
+prefix : <http://rs.tdwg.org/tcs/terms/> .
+@prefix address: <http://schemas.talis.com/2005/address/schema#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix dwc: <http://rs.tdwg.org/dwc/terms/> .
+@prefix dwciri: <http://rs.tdwg.org/dwc/iri/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix gbif: <http://rs.gbif.org/terms/1.0/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+
+_:tc0d8b3bc859b207e1 a :TaxonConcept ;
+  dcterms:title "Begonia sect. Mezierea sec. Klazenga & al. 1994" ;
+  :accordingTo <https://doi/org/10.2307/3668252> ;
+  :acceptedName [ a :TaxonName ;
+      :taxonNameString "Begonia sect. Mezierea" ;
+      dwc:scientificName "Begonia sect. Mezierea (Gaudich.) Warb." ;
+      dwc:scientificNameAuthorship "(Gaudich.) Warb." ;
+      dwc:namePublishedIn "Nat. Pflanzenfam. 3 (6A): 139 (1894)" ;
+      :basionym <https://www.ipni.org/n/3898-1> ] ;
+  :synonym _:tn9948023f0d6c7923 ,
+      <https://www.ipni.org/n/77215303-1> .
+
+[] a :TaxonConcept ;
+  dcterms:title "Begonia comorensis sec. Klazenga & al. 1994" ;
+  :accordingTo <https://doi/org/10.2307/3668252> ;
+  :acceptedName <https://www.ipni.org/n/104440-1> ;
+  :synonym <https://www.ipni.org/n/77283357-1> ;
+  :parent _:tc0d8b3bc859b207e1 .
+
+[] a :TaxonConcept ;
+  dcterms:title "Begonia humbertii sec. Klazenga & al. 1994" ;
+  :accordingTo <https://doi/org/10.2307/3668252> ;
+  :acceptedName <https://www.ipni.org/n/901574-1> ;
+  :parent _:tc0d8b3bc859b207e1 .
+
+[] a :TaxonConcept ;
+  dcterms:title "Begonia meyeri-johannis sec. Klazenga & al. 1994" ;
+  :accordingTo <https://doi/org/10.2307/3668252> ;
+  :acceptedName <https://www.ipni.org/n/105197-1> ;
+  :parent _:tc0d8b3bc859b207e1 .
+
+[] a :TaxonConcept ;
+  dcterms:title "Begonia oxyloba sec. Klazenga & al. 1994" ;
+  :accordingTo <https://doi/org/10.2307/3668252> ;
+  :acceptedName <https://www.ipni.org/n/105331-1> ;
+  :synonym <https://www.ipni.org/n/104421-1> ,
+      <https://www.ipni.org/n/104820-1> ,
+      <https://www.ipni.org/n/105026-1> ,
+      <https://www.ipni.org/n/104451-1> ,
+      <https://www.ipni.org/n/104983-1> ,
+      <https://www.ipni.org/n/105419-1> ,
+      <https://www.ipni.org/n/105880-1> ,
+      <https://www.ipni.org/n/105716-1> ,
+      <https://www.ipni.org/n/105665-1> ,
+      <https://www.ipni.org/n/105529-1> ;
+  :parent _:tc0d8b3bc859b207e1 .
+
+[] a :TaxonConcept ;
+  dcterms:title "Begonia salaziensis sec. Klazenga & al. 1994" ;
+  :accordingTo <https://doi/org/10.2307/3668252> ;
+  :acceptedName <https://www.ipni.org/n/106227-1> ;
+  :parent _:tc0d8b3bc859b207e1 .
+
+[] a :TaxonConcept ;
+  dcterms:title "Begonia seychellensis sec. Klazenga & al. 1994" ;
+  :accordingTo <https://doi/org/10.2307/3668252> ;
+  :acceptedName <https://www.ipni.org/n/105731-1> ;
+  :parent _:tc0d8b3bc859b207e1 .
+
+<https://doi/org/10.2307/3668252> a bibo:JournalArticle ;
+  :dcterms:title "Begonia sect. Mezierea (Gaud.) Warb., a taxonomic revision" ;
+  dcterms:creator <https://orcid.org/0000-0003-2224-6821> ;
+  bibo:authorList [ a rdf:Seq ;
+    rdf:_1 <https://orcid.org/0000-0003-2224-6821> ] ;
+  dcterms:isPartOf [ a bibo:Issue ; 
+    dcterms:date "1994" ;
+    dcterms:isPartOf [ a bibo:Journal ; 
+      dcterms:title "Bulletin du Jardin botanique national de Belgique / Bulletin van de National Plantentuin van België" ;
+      bibo:shortTitle "Bull. Jard. Bot. Nat. Belg./Bull. Nat. Plantentuin Belg." ] ;
+    bibo:volume "63" ] ;
+  bibo:pages "263-312" ;
+  bibo:doi "10.2307/3668252" ;
+  bibo:url "https://www.jstor.org/stable/3668252" .
+
+<https://orcid.org/0000-0003-2224-6821> a foaf:Person ;
+  foaf:givenName "Niels" ;
+  foaf:surname "Klazenga" .
+
+<https://www.ipni.org/n/3898-1> a :TaxonName ;
+  :taxonNameString "Mezierea" ;
+  dwc:scientificName "Mezierea Gaudich." ;
+  dwc:scientificNameAuthorship "Gaudich." ;
+  dwc:nameAccordingTo "Voy. Bonite, Bot. 3(Atlas): t. 32 (1841)" .
+
+_:tn9948023f0d6c7923 a :TaxonName ;
+  :taxonNameString "Begonia sect. Aneupteron" ;
+  dwc:scientificName "Begonia sect. Aneupteron A.DC." ;
+  dwc:scientificNameAuthorship "A.DC." ;
+  dwc:namePublishedIn "Prodr. 15(1): 407 (1864)" .
+
+<https://www.ipni.org/n/77215303-1> a :TaxonName ;
+  :taxonNameString "Begonia sect. Exalabegonia" ;
+  dwc:scientificName "Begonia sect. Exalabegonia Warb." ;
+  dwc:scientificNameAuthorship "Warb." ;
+  dwc:namePublishedIn "Gartenflora 49: 2 (1900)" .
+
+<https://www.ipni.org/n/106227-1> a :TaxonName ;
+  :taxonNameString "Mezierea salaziensis" ;
+  dwc:scientificName "Mezierea salaziensis Gaudich." ;
+  dwc:scientificNameAuthorship "Gaudich." ;
+  dwc:namePublishedIn "Voy. Bonite, Bot. 3(Atlas): t. 32 (1841)" .
+
+<https://www.ipni.org/n/104440-1> a :TaxonName ;
+  :taxonNameString "Begonia comorensis" ;
+  dwc:scientificName "Begonia comorensis Warb." ;
+  dwc:scientificNameAuthorship "Warb." ;
+  dwc:namePublishedIn "Bot. Jahrb. Syst. 22(1): 38 (1895)" .
+
+<https://www.ipni.org/n/105731-1> a :TaxonName ;
+  :taxonNameString "Begonia seychellensis Hemsl., J. Bot. 54(Suppl. 2): 15 (1916)" ;
+  dwc:scientificName "Begonia seychellensis Hemsl." ;
+  dwc:scientificNameAuthorship "Hemsl." ;
+  dwc:namePublishedIn "J. Bot. 54(Suppl. 2): 15 (1916)" .
+
+<https://www.ipni.org/n/923040-1> a :TaxonName ;
+  :taxonNameString "Begonia salaziensis var. comorensis" ;
+  dwc:scientificName "Begonia salaziensis var. comorensis (Warb.) L.B.Sm. & Wassh." ;
+  dwc:scientificNameAuthorship "(Warb.) L.B.Sm. & Wassh." ;
+  dwc:namePublishedIn "Phytologia 54(7): 466 (1984)." ;
+  :basionym <https://www.ipni.org/n/104440-1> .
+
+<https://www.ipni.org/n/77283357-1> a :TaxonName ;
+  :taxonNameString "Mezierea salaziensis var. comorensis" ;
+  dwc:scientificName "Mezierea salaziensis var. comorensis A.DC." ;
+  dwc:scientificNameAuthorship "A.DC." ;
+  dwc:namePublishedIn "Prodr. [A. P. de Candolle] 15(1): 408 (1864)" .
+
+<https://www.ipni.org/n/901574-1> a :TaxonName ;
+  :taxonNameString "Begonia humbertii" ;
+  dwc:scientificName "Begonia humbertii Keraudren" ;
+  dwc:scientificNameAuthorship "Keraudren" ;
+  dwc:namePublishedIn "Fl. Madagasc. Fam. 144: 100 (1983) (1983)"
+
+<https://www.ipni.org/n/105197-1> a :TaxonName ;
+  :taxonNameString "Begonia meyeri-johannis Engl." ;
+  dwc:scientificName "Begonia meyeri-johannis Engl." ;
+  dwc:scientificNameAuthorship "Engl." ;
+  dwc:namePublishedIn "Abh. Königl. Akad. Wiss. Berlin 1891(2): 305 (1892" .
+
+<https://www.ipni.org/n/105331-1> a :TaxonName ;
+  :taxonNameString "Begonia oxyloba" ;
+  dwc:scientificName "Begonia oxyloba Welw. ex Hook.f." ;
+  dwc:scientificNameAuthorship "Welw. ex Hook.f." ;
+  dwc:namePublishedIn "Fl. Trop. Afr. [Oliver et al.] 2: 578 (1871)" .
+
+<https://www.ipni.org/n/104421-1> a :TaxonName ;
+  :taxonNameString "Begonia cladocarpa" ;
+  dwc:scientificName "Begonia cladocarpa Baker" ;
+  dwc:scientificNameAuthorship "Baker" ;
+  dwc:namePublishedIn "J. Bot. 20: 113 (1882)" .
+
+<https://www.ipni.org/n/104820-1> a :TaxonName ;
+  :taxonNameString "Begonia heddei" ;
+  dwc:scientificName "Begonia heddei Warb." ;
+  dwc:scientificNameAuthorship "Warb." ;
+  dwc:namePublishedIn "Dartenflora 49: 1 (1900)" .
+
+<https://www.ipni.org/n/105026-1> a :TaxonName ;
+  :taxonNameString "Begonia lehmbachii" ;
+  dwc:scientificName "Begonia lehmbachii Warb." ;
+  dwc:namePublishedIn "Gartenfl. 49:281 (1900)" .
+
+<https://www.ipni.org/n/104451-1> a :TaxonName ;
+  :taxonNameString "Begonia conraui" ;
+  dwc:scientificName "Begonia conraui Gilg" ;
+  dwc:scientificNameAuthorship "Gilg" ;
+  dwc:namePublishedIn "Bot. Jahrb. Syst. 34(1): 87 (1904)" .
+
+<https://www.ipni.org/n/104983-1> a :TaxonName ;
+  :taxonNameString "Begonia kummeriae" ;
+  dwc:scientificName "Begonia kummeriae Gilg" ;
+  dwc:scientificNameAuthorship "Gilg" ;
+  dwc:namePublishedIn "Bot. Jahrb. Syst. 34(1): 87 (1904)" .
+
+<https://www.ipni.org/n/105419-1> a :TaxonName ;
+  :taxonNameString "Begonia petrophila" ;
+  dwc:scientificName "Begonia petrophila Gilg" ;
+  dwc:scientificNameAuthorship "Gilg" ;
+  dwc:namePublishedIn "Bot. Jahrb. Syst. 34(1): 86 (1904)" .
+
+<https://www.ipni.org/n/105880-1> a :TaxonName ;
+  :taxonNameString "Begonia togoensis" ;
+  dwc:scientificName "Begonia togoensis Gilg" ;
+  dwc:scientificNameAuthorship "Gilg" ;
+  dwc:namePublishedIn "Bot. Jahrb. Syst. 34(1): 88 (1904)" .
+
+<https://www.ipni.org/n/105716-1> a :TaxonName ;
+  :taxonNameString "Begonia seretii" ;
+  dwc:scientificName "Begonia seretii De Wild." ;
+  dwc:scientificNameAuthorship "De Wild." ;
+  dwc:namePublishedIn "Ann. Mus. Congo Belge, Bot. sér. 5, 2[1]: 59 (1907)" .
+
+<https://www.ipni.org/n/105665-1> a :TaxonName ;
+  :taxonNameString "Begonia sassandrensis" ;
+  dwc:scientificName "Begonia sassandrensis A.Chev." ;
+  dwc:scientificNameAuthorship "A.Chev." ;
+  dwc:namePublishedIn "Bull. Soc. Bot. France 58(Mém. 8d): 175 (1912)" .
+
+<https://www.ipni.org/n/105529-1> a :TaxonName ;
+  :taxonNameString "Begonia pycnocaulis" ;
+  dwc:scientificName "Begonia pycnocaulis Irmsch." ;
+  dwc:scientificNameAuthorship "Irmsch." ;
+  dwc:namePublishedIn "Bot. Jahrb. Syst. 81(1-2): 180 (1961)" .
+
+<https://www.ipni.org/n/105731-1> a :TaxonName ;
+  :taxonNameString "Begonia seychellensis" ;
+  dwc:scientificName "Begonia seychellensis Hemsl." ;
+  dwc:scientificNameAuthorship "Hemsl." ;
+  dwc:namePublishedIn "J. Bot. 54(Suppl. 2): 15 (1916)" .
+
+[] a :NomenclaturalType ;
+  :typifiedName <https://www.ipni.org/n/3898-1> ;
+  :typeName <https://www.ipni.org/n/106227-1> .
+
+[] a :NomenclaturalType ;
+  :typifiedName _:tn9948023f0d6c7923 ;
+  :typeName <https://www.ipni.org/n/106227-1> .
+
+[] a :NomenclaturalType ;
+  :typifiedName <https://www.ipni.org/n/77215303-1> ;
+  :typeName <https://www.ipni.org/n/104820-1> .
+
+[] a :NomenclaturalType ;
+  :typifiedName <https://www.ipni.org/n/104440-1> ;
+  :typeSpecimen [ a dwc:MaterialCitation ;
+    dwc:country "Comoros" ;
+    dwc:recordedBy "Hildebrandt" ;
+    dwc:recordNumber "1606" ;
+    dwc:institutionCode "B" ] ;
+  :typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/holotype> .
+
+[] a :NomenclaturalType ;
+  :typifiedName <https://www.ipni.org/n/104440-1> ;
+  :typeSpecimen [ a dwc:MaterialCitation ;
+    dwc:country "Comoros" ;
+    dwc:recordedBy "Hildebrandt" ;
+    dwc:recordNumber "1606" ;
+    dwc:institutionCode "W" ] ;
+  :typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> .
+
+[] a :NomenclaturalType ;
+  :typifiedName <https://www.ipni.org/n/77283357-1> ;
+  :typeSpecimen [ a dwc:MaterialCitation ;
+    dwc:country "Comoros" ;
+    dwc:recordedBy "Boivin" ;
+    dwc:recordNumber "s.n." ;
+    dwc:institutionCode "P" ] ;
+  :typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/holotype> .
+
+[] a :NomenclaturalType ;
+  :typifiedName <https://www.ipni.org/n/901574-1> ;
+  :typeSpecimen [ a dwc:MaterialCitation ;
+    dwc:country "Madagascar" ;
+    dwc:recordedBy "Humbert" ;
+    dwc:recordNumber "22493" ;
+    dwc:institutionCode "P" ] ;
+  :typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/holotype> .
+
+[] a :NomenclaturalType ;
+  :typifiedName <https://www.ipni.org/n/901574-1> ;
+  :typeSpecimen [ a dwc:MaterialCitation ;
+    dwc:country "Madagascar" ;
+    dwc:recordedBy "Humbert" ;
+    dwc:recordNumber "22493" ;
+    dwc:institutionCode "P" ] ;
+  :typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> .
+
+[] a :NomenclaturalType ;
+  :typifiedName <https://www.ipni.org/n/105197-1> ;
+  :typeSpecimen [ a dwc:MaterialCitation ;
+    dwc:country "Tanzania" ;
+    dwc:recordedBy "Meyer" ;
+    dwc:recordNumber "306" ;
+    dwc:institutionCode "B" ] ;
+  :typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/holotype> .
+
+[] a :NomenclaturalType ;
+  :typifiedName <https://www.ipni.org/n/105331-1> ;
+  :typeSpecimen [ a dwc:MaterialCitation ;
+    dwc:country "Angola" ;
+    dwc:recordedBy "Welwitsch" ;
+    dwc:recordNumber "875" ;
+    dwc:institutionCode "BM" ] ;
+  :typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/lectotype> .
+
+[] a :NomenclaturalType ;
+  :typifiedName <https://www.ipni.org/n/105331-1> ;
+  :typeSpecimen [ a dwc:MaterialCitation ;
+    dwc:country "Angola" ;
+    dwc:recordedBy "Welwitsch" ;
+    dwc:recordNumber "875" ;
+    dwc:institutionCode "COI" ] ;
+  :typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isolectotype> .
+
+[] a :NomenclaturalType ;
+  :typifiedName <https://www.ipni.org/n/105331-1> ;
+  :typeSpecimen [ a dwc:MaterialCitation ;
+    dwc:country "Angola" ;
+    dwc:recordedBy "Welwitsch" ;
+    dwc:recordNumber "875" ;
+    dwc:institutionCode "G" ] ;
+  :typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isolectotype> .
+
+[] a :NomenclaturalType ;
+  :typifiedName <https://www.ipni.org/n/105331-1> ;
+  :typeSpecimen [ a dwc:MaterialCitation ;
+    dwc:country "Angola" ;
+    dwc:recordedBy "Welwitsch" ;
+    dwc:recordNumber "875" ;
+    dwc:institutionCode "K" ] ;
+  :typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isolectotype> .
+
+[] a :NomenclaturalType ;
+  :typifiedName <https://www.ipni.org/n/105331-1> ;
+  :typeSpecimen [ a dwc:MaterialCitation ;
+    dwc:country "Bioko" ;
+    dwc:recordedBy "Mann" ;
+    dwc:recordNumber "562" ;
+    dwc:institutionCode "K" ] ;
+  :typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/syntype> .
+
+[] a :NomenclaturalType ;
+  :typifiedName <https://www.ipni.org/n/105331-1> ;
+  :typeSpecimen [ a dwc:MaterialCitation ;
+    dwc:country "Cameroon" ;
+    dwc:recordedBy "Mann" ;
+    dwc:recordNumber "1274" ;
+    dwc:institutionCode "K" ] ;
+  :typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/syntype> .
+
+[] a :NomenclaturalType ;
+  :typifiedName <https://www.ipni.org/n/104421-1> ;
+  :typeSpecimen [ a dwc:MaterialCitation ;
+    dwc:country "Madagascar" ;
+    dwc:recordedBy "Baron" ;
+    dwc:recordNumber "9" ;
+    dwc:institutionCode "K" ] ;
+  :typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/holotype> .
+
+[] a :NomenclaturalType ;
+  :typifiedName <https://www.ipni.org/n/104820-1> ;
+  :typeSpecimen [ a dwc:MaterialCitation ;
+    dwc:recordedBy "Culta Bot. Garten Berlin" ;
+    dwc:recordNumber "s.n." ;
+    dwc:institutionCode "B" ] ;
+  :typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/holotype> .
+
+[] a :NomenclaturalType ;
+  :typifiedName <https://www.ipni.org/n/105026-1> ;
+  :typeSpecimen [ a dwc:MaterialCitation ;
+    dwc:country "Cameroon" ;
+    dwc:recordedBy "Preuss" ;
+    dwc:recordNumber "1063" ;
+    dwc:institutionCode "B" ] ;
+  :typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/lectotype> .
+
+[] a :NomenclaturalType ;
+  :typifiedName <https://www.ipni.org/n/105026-1> ;
+  :typeSpecimen [ a dwc:MaterialCitation ;
+    dwc:country "Cameroon" ;
+    dwc:recordedBy "Preuss" ;
+    dwc:recordNumber "1063" ;
+    dwc:institutionCode "COI" ] ;
+  :typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isolectotype> .
+
+[] a :NomenclaturalType ;
+  :typifiedName <https://www.ipni.org/n/105026-1> ;
+  :typeSpecimen [ a dwc:MaterialCitation ;
+    dwc:country "Cameroon" ;
+    dwc:recordedBy "Preuss" ;
+    dwc:recordNumber "658" ;
+    dwc:institutionCode "B" ] ;
+  :typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/syntype> .
+
+[] a :NomenclaturalType ;
+  :typifiedName <https://www.ipni.org/n/105026-1> ;
+  :typeSpecimen [ a dwc:MaterialCitation ;
+    dwc:country "Cameroon" ;
+    dwc:recordedBy "Preuss" ;
+    dwc:recordNumber "995" ;
+    dwc:institutionCode "B" ] ;
+  :typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/syntype> .
+
+[] a :NomenclaturalType ;
+  :typifiedName <https://www.ipni.org/n/105026-1> ;
+  :typeSpecimen [ a dwc:MaterialCitation ;
+    dwc:country "Cameroon" ;
+    dwc:recordedBy "Dusén" ;
+    dwc:recordNumber "418" ;
+    dwc:institutionCode "B" ] ;
+  :typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/syntype> .
+
+[] a :NomenclaturalType ;
+  :typifiedName <https://www.ipni.org/n/104451-1> ;
+  :typeSpecimen [ a dwc:MaterialCitation ;
+    dwc:country "Cameroon" ;
+    dwc:recordedBy "Conrau" ;
+    dwc:recordNumber "4" ;
+    dwc:institutionCode "B" ] ;
+  :typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/holotype> .
+
+[] a :NomenclaturalType ;
+  :typifiedName <https://www.ipni.org/n/104983-1> ;
+  :typeSpecimen [ a dwc:MaterialCitation ;
+    dwc:country "Tanzania" ;
+    dwc:recordedBy "Engler" ;
+    dwc:recordNumber "647" ;
+    dwc:institutionCode "B" ] ;
+  :typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/holotype> .
+
+[] a :NomenclaturalType ;
+  :typifiedName <https://www.ipni.org/n/104983-1> ;
+  :typeSpecimen [ a dwc:MaterialCitation ;
+    dwc:country "Tanzania" ;
+    dwc:recordedBy "Busse" ;
+    dwc:recordNumber "349" ;
+    dwc:institutionCode "B" ] ;
+  :typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/holotype> .
+
+[] a :NomenclaturalType ;
+  :typifiedName <https://www.ipni.org/n/105880-1> ;
+  :typeSpecimen [ a dwc:MaterialCitation ;
+    dwc:country "Ghana" ;
+    dwc:recordedBy "Baumann" ;
+    dwc:recordNumber "419" ;
+    dwc:institutionCode "B" ] ;
+  :typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/holotype> .
+
+[] a :NomenclaturalType ;
+  :typifiedName <https://www.ipni.org/n/105716-1> ;
+  :typeSpecimen [ a dwc:MaterialCitation ;
+    dwc:country "Democratic Republic of the Congo" ;
+    dwc:recordedBy "Seret" ;
+    dwc:recordNumber "121" ;
+    dwc:institutionCode "BR" ] ;
+  :typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/lectotype> .
+
+[] a :NomenclaturalType ;
+  :typifiedName <https://www.ipni.org/n/105665-1> ;
+  :typeSpecimen [ a dwc:MaterialCitation ;
+    dwc:country "Ivory Coast" ;
+    dwc:recordedBy "Chevalier" ;
+    dwc:recordNumber "21349" ;
+    dwc:institutionCode "P" ] ;
+  :typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/lectotype> .
+
+[] a :NomenclaturalType ;
+  :typifiedName <https://www.ipni.org/n/105665-1> ;
+  :typeSpecimen [ a dwc:MaterialCitation ;
+    dwc:country "Ivory Coast" ;
+    dwc:recordedBy "Chevalier" ;
+    dwc:recordNumber "21355" ;
+    dwc:institutionCode "P" ] ;
+  :typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/syntype> .
+
+[] a :NomenclaturalType ;
+  :typifiedName <https://www.ipni.org/n/105665-1> ;
+  :typeSpecimen [ a dwc:MaterialCitation ;
+    dwc:country "Ivory Coast" ;
+    dwc:recordedBy "Chevalier" ;
+    dwc:recordNumber "21419" ;
+    dwc:institutionCode "P" ] ;
+  :typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/syntype> .
+
+[] a :NomenclaturalType ;
+  :typifiedName <https://www.ipni.org/n/105665-1> ;
+  :typeSpecimen [ a dwc:MaterialCitation ;
+    dwc:country "Guinea" ;
+    dwc:recordedBy "Chevalier" ;
+    dwc:recordNumber "20609" ;
+    dwc:institutionCode "P" ] ;
+  :typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/syntype> .
+
+[] a :NomenclaturalType ;
+  :typifiedName <https://www.ipni.org/n/105665-1> ;
+  :typeSpecimen [ a dwc:MaterialCitation ;
+    dwc:country "Guinea" ;
+    dwc:recordedBy "Chevalier" ;
+    dwc:recordNumber "20609" ;
+    dwc:institutionCode "B" ] ;
+  :typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isosyntype> .
+
+[] a :NomenclaturalType ;
+  :typifiedName <https://www.ipni.org/n/105665-1> ;
+  :typeSpecimen [ a dwc:MaterialCitation ;
+    dwc:country "Guinea" ;
+    dwc:recordedBy "Chevalier" ;
+    dwc:recordNumber "20761" ;
+    dwc:institutionCode "P" ] ;
+  :typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/syntype> .
+
+[] a :NomenclaturalType ;
+  :typifiedName <https://www.ipni.org/n/106227-1> ;
+  :typeSpecimen [ a dwc:MaterialCitation ;
+    dwc:country "Réunion" ;
+    dwc:recordedBy "Gaudichaud" ;
+    dwc:recordNumber "s.n." ;
+    dwc:institutionCode "P" ] ;
+  :typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/holotype> .
+
+[] a :NomenclaturalType ;
+  :typifiedName <https://www.ipni.org/n/106227-1> ;
+  :typeSpecimen [ a dwc:MaterialCitation ;
+    dwc:country "Réunion" ;
+    dwc:recordedBy "Gaudichaud" ;
+    dwc:recordNumber "s.n." ;
+    dwc:institutionCode "G" ] ;
+  :typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> .
+
+[] a :NomenclaturalType ;
+  :typifiedName <https://www.ipni.org/n/106227-1> ;
+  :typeSpecimen [ a dwc:MaterialCitation ;
+    dwc:country "Seychelles" ;
+    dwc:island "Mahé" ;
+    dwc:recordedBy "Horne" ;
+    dwc:recordNumber "s.n." ;
+    dwc:institutionCode "G" ] ;
+  :typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> .
+
+[] a :NomenclaturalType ;
+  :typifiedName <https://doi/org/10.2307/3668252> ;
+  :typeSpecimen [ a dwc:MaterialCitation ;
+    dwc:country "Seychelles" ;
+    dwc:island "Mahé" ;
+    dwc:recordedBy "Horne" ;
+    dwc:recordNumber "245" ;
+    dwc:institutionCode "K" ] ;
+  :typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/lectotype> .
+
+[] a :NomenclaturalType ;
+  :typifiedName <https://doi/org/10.2307/3668252> ;
+  :typeSpecimen [ a dwc:MaterialCitation ;
+    dwc:country "Seychelles" ;
+    dwc:island "Mahé" ;
+    dwc:recordedBy "Gardiner" ;
+    dwc:recordNumber "s.n." ;
+    dwc:institutionCode "K" ] ;
+  :typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/syntype> .
+
+[] a :NomenclaturalType ;
+  :typifiedName <https://doi/org/10.2307/3668252> ;
+  :typeSpecimen [ a dwc:MaterialCitation ;
+    dwc:country "Seychelles" ;
+    dwc:island "Silhouette" ;
+    dwc:recordedBy "Gardiner" ;
+    dwc:recordNumber "111" ;
+    dwc:institutionCode "K" ] ;
+  :typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/syntype> .
+
+[] a :NomenclaturalType ;
+  :typifiedName <https://doi/org/10.2307/3668252> ;
+  :typeSpecimen [ a dwc:MaterialCitation ;
+    dwc:country "Seychelles" ;
+    dwc:island "Mahé and Silhouette" ;
+    dwc:recordedBy "Neville" ;
+    dwc:recordNumber "s.n." ;
+    dwc:institutionCode "K" ] ;
+  :typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/syntype> .
