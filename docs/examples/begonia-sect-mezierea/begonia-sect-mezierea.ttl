@@ -73,9 +73,13 @@ _:tc0d8b3bc859b207e1 a :TaxonConcept ;
 
 <https://doi/org/10.2307/3668252> a bibo:JournalArticle ;
   :dcterms:title "Begonia sect. Mezierea (Gaud.) Warb., a taxonomic revision" ;
-  dcterms:creator <https://orcid.org/0000-0003-2224-6821> ;
+  dcterms:creator <https://orcid.org/0000-0003-2224-6821> ,
+      _:pad7fc0e09cd2f9eb , 
+      _:p05d35d005babd070 ;
   bibo:authorList [ a rdf:Seq ;
-    rdf:_1 <https://orcid.org/0000-0003-2224-6821> ] ;
+    rdf:_1 <https://orcid.org/0000-0003-2224-6821> ;
+    rdf:_2 _:pad7fc0e09cd2f9eb ;
+    rdf:_3 _:p05d35d005babd070 ] ;
   dcterms:isPartOf [ a bibo:Issue ; 
     dcterms:date "1994" ;
     dcterms:isPartOf [ a bibo:Journal ; 
@@ -89,6 +93,14 @@ _:tc0d8b3bc859b207e1 a :TaxonConcept ;
 <https://orcid.org/0000-0003-2224-6821> a foaf:Person ;
   foaf:givenName "Niels" ;
   foaf:surname "Klazenga" .
+
+_:pad7fc0e09cd2f9eb a foaf:Person ;
+  foaf:givenName "J.J.F.E." ;
+  foaf:surname "de Wilde" .
+
+_:p05d35d005babd070 a foaf:Person ;
+  foaf:givenName "R.J." ;
+  foaf:surname "Quené" .
 
 <https://www.ipni.org/n/3898-1> a :TaxonName ;
   :taxonNameString "Mezierea" ;
