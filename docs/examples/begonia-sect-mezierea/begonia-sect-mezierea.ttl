@@ -11,6 +11,45 @@ prefix : <http://rs.tdwg.org/tcs/terms/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
+
+#
+# A revision of Begonia sect. Mezierea
+#
+
+<https://doi/org/10.2307/3668252> a bibo:JournalArticle ;
+    :dcterms:title "Begonia sect. Mezierea (Gaud.) Warb., a taxonomic revision" ;
+    dcterms:creator <https://orcid.org/0000-0003-2224-6821> ,
+            <https://www.wikidata.org/wiki/Q21387987> , 
+            <https://www.wikidata.org/wiki/Q21394461> ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 <https://orcid.org/0000-0003-2224-6821> ;
+            rdf:_2 <https://www.wikidata.org/wiki/Q21387987> ;
+            rdf:_3 <https://www.wikidata.org/wiki/Q21394461> ] ;
+    dcterms:isPartOf [ a bibo:Issue ; 
+            dcterms:date "1994" ;
+            dcterms:isPartOf [ a bibo:Journal ; 
+                    dcterms:title """Bulletin du Jardin botanique national de 
+                            Belgique / Bulletin van de National Plantentuin van 
+                            België""" ;
+                    bibo:shortTitle """Bull. Jard. Bot. Nat. Belg./Bull. Nat. 
+                            Plantentuin Belg.""" ] ;
+            bibo:volume "63" ] ;
+    bibo:pages "263-312" ;
+    bibo:doi "10.2307/3668252" ;
+    bibo:url "https://www.jstor.org/stable/3668252" .
+
+<https://orcid.org/0000-0003-2224-6821> a foaf:Person ;
+    foaf:givenName "Niels" ;
+    foaf:surname "Klazenga" .
+
+<https://www.wikidata.org/wiki/Q21387987> a foaf:Person ;
+    foaf:givenName "J.J.F.E." ;
+    foaf:surname "de Wilde" .
+
+<https://www.wikidata.org/wiki/Q21394461> a foaf:Person ;
+    foaf:givenName "R.J." ;
+    foaf:surname "Quené" .
+
 # 
 # Begonia sect. Mezierea sec. Klazenga & al. 1994
 # 
@@ -76,6 +115,7 @@ _:tn9948023f0d6c7923 a :TaxonName ;
             dcterms:title "Begonia sect. Mezierea sec. Irmscher 1925" ;
             :accordingTo _:r9a8fd7d105edf2e6 ;
             :acceptedName _:tn343a158936f1d741 ] .
+
 
 # 
 # Begonia comorensis sec. Klazenga & al. 1994
@@ -927,28 +967,6 @@ _:tc972de7086730e734 a :TaxonConcept ;
 # References
 #
 
-<https://doi/org/10.2307/3668252> a bibo:JournalArticle ;
-    :dcterms:title "Begonia sect. Mezierea (Gaud.) Warb., a taxonomic revision" ;
-    dcterms:creator <https://orcid.org/0000-0003-2224-6821> ,
-            <https://www.wikidata.org/wiki/Q21387987> , 
-            <https://www.wikidata.org/wiki/Q21394461> ;
-    bibo:authorList [ a rdf:Seq ;
-            rdf:_1 <https://orcid.org/0000-0003-2224-6821> ;
-            rdf:_2 <https://www.wikidata.org/wiki/Q21387987> ;
-            rdf:_3 <https://www.wikidata.org/wiki/Q21394461> ] ;
-    dcterms:isPartOf [ a bibo:Issue ; 
-            dcterms:date "1994" ;
-            dcterms:isPartOf [ a bibo:Journal ; 
-                    dcterms:title """Bulletin du Jardin botanique national de 
-                            Belgique / Bulletin van de National Plantentuin van 
-                            België""" ;
-                    bibo:shortTitle """Bull. Jard. Bot. Nat. Belg./Bull. Nat. 
-                            Plantentuin Belg.""" ] ;
-            bibo:volume "63" ] ;
-    bibo:pages "263-312" ;
-    bibo:doi "10.2307/3668252" ;
-    bibo:url "https://www.jstor.org/stable/3668252" .
-
 _:red0645a4f5f1004c a bibo:BookSection ;
     dcterms:title "Fam. Begoniaceae" ;
     dcterms:creator <https://www.wikidata.org/wiki/Q60718> ;
@@ -1029,18 +1047,6 @@ _:r9a8fd7d105edf2e6 a bibo:Chapter ;
                     bibo:edition "2" ] ;
             bibo:volume "21" ] ;
     pages: "121-150" .
-
-<https://orcid.org/0000-0003-2224-6821> a foaf:Person ;
-    foaf:givenName "Niels" ;
-    foaf:surname "Klazenga" .
-
-<https://www.wikidata.org/wiki/Q21387987> a foaf:Person ;
-    foaf:givenName "J.J.F.E." ;
-    foaf:surname "de Wilde" .
-
-<https://www.wikidata.org/wiki/Q21394461> a foaf:Person ;
-    foaf:givenName "R.J." ;
-    foaf:surname "Quené" .
 
 <https://www.wikidata.org/wiki/Q60718> a foaf:Person ;
     foaf:givenName "A." ;
