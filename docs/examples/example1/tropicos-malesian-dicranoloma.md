@@ -404,8 +404,6 @@
 
 **Dicranum braunii** Müll.Hal. [sec. Norris & Koponen 1990]
 
-  = *Dicranum brevisetum* Dozy & Molk., *nom. illeg.*
-
   = *Dicranum nematosum* Broth. & Geh.
 
   = *Megalostylium brevisetum* Dozy & Molk.
