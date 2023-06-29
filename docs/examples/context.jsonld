@@ -19,7 +19,7 @@
     "nomenclaturalCode": { "@type": "@id" },
     "nomenclaturalStatus": { "@type": "@id" },
     "basionym": { "@type": "@id" },
-    "replacementNameFor": { "@type": "@id" },
+    "replacedName": { "@type": "@id" },
     "basedOn": { "@type": "@id" },
     "conservedAgainst": { "@type": "@id" },
     "typifiedName": { "@type": "@id" },

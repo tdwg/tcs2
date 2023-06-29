@@ -1242,7 +1242,7 @@
     :taxonNameString "Dicranum bartramianum" ;
     dwc:scientificNameAuthorship "B.H.Allen" ;
     dwc:namePublishedIn "Cryptogamie: Bryologie, Lichénologie 8: 323. 1987. (Cryptog. Bryol. Lichénol.)" ;
-    :replacementNameFor <https://tropicos.org/name/35120798> ;
+    :replacedName <https://tropicos.org/name/35120798> ;
     :nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
 
 <https://tropicos.org/name/35120798> a :TaxonName ;
@@ -1407,7 +1407,7 @@
     :taxonNameString "Dicranoloma subecostatum" ;
     dwc:scientificNameAuthorship "Dixon" ;
     dwc:namePublishedIn "Journal of the Linnean Society, Botany 50: 69. 1935. (J. Linn. Soc., Bot.)" ;
-    :replacementNameFor <https://tropicos.org/name/35121637> ;
+    :replacedName <https://tropicos.org/name/35121637> ;
     :nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
 
 <https://tropicos.org/name/35121637> a :TaxonName ;
@@ -1853,7 +1853,7 @@
     :taxonNameString "Leucoloma brachypelma" ;
     dwc:scientificNameAuthorship "Broth." ;
     dwc:namePublihedIn "Die Natürlichen Pflanzenfamilien I(3) : 322. 1901. (Nat. Pflanzenfam.)" ;
-    :replacementNameFor <https://tropicos.org/name/35122011> ;
+    :replacedName <https://tropicos.org/name/35122011> ;
     :nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
 
 <https://tropicos.org/name/35122011> a :TaxonName ;
@@ -2329,7 +2329,7 @@
     :taxonNameString "Megalostylium brevisetum" ;
     dwc:scientificNameAuthorship "Dozy & Molk." ;
     dwc:namePublishedIn "Musci Frondosi Inediti Archipelagi Indici 6: 146, pl. 44. 1848. (Musc. Frond. Ined. Archip. Ind.)" ;
-    :replacementNameFor <https://tropicos.org/name/35122026> ;
+    :replacedName <https://tropicos.org/name/35122026> ;
     :nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
 
 <https://tropicos.org/name/35122026> a :TaxonName ;
@@ -4255,7 +4255,7 @@
     :taxonNameString "Dicranum psathyrum" ;
     dwc:scientificNameAuthorship "Klazenga" ;
     dwc:namePublishedIn "Journal of the Hattori Botanical Laboratory 87: 118. 1999. (J. Hattori Bot. Lab.)" ;
-    :replacementNameFor <https://tropicos.org/name/35121530> ;
+    :replacedName <https://tropicos.org/name/35121530> ;
     :nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
 
 <https://tropicos.org/name/35121530> a :TaxonName ;
@@ -4263,7 +4263,7 @@
     :taxonNameString "Dicranoloma fragile" ;
     dwc:scientificNameAuthorship "Broth." ;
     dwc:namePublishedIn "Die natürlichen Pflanzenfamilien, Zweite Auflage 10: 209. 1924. (Nat. Pflanzenfam. (ed. 2) )" ;
-    :replacementNameFor <https://tropicos.org/name/35122365> ;
+    :replacedName <https://tropicos.org/name/35122365> ;
     :nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
 
 <https://tropicos.org/name/35122365> a :TaxonName ;

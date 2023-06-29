@@ -216,7 +216,7 @@ the first category.
 #### Homotypic synonyms
 
 TCS 2 deals with homotypic synonyms the same way as TCS 1, namely through the 
-`basionym` and `replacementNameFor` properties on the Taxon Name object.
+`basionym` and `replacedName` properties on the Taxon Name object.
 
 TCS 1:
 
