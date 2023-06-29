@@ -1,6 +1,6 @@
-**Dicranoloma arfakianum** (Müll.Hal. ex Geh.) Renauld [sec. Tan & Koponen 1983]
+**Dicranoloma arfakianum** (Geh.) Renauld [sec. Tan & Koponen 1983]
 
-  ≡ *Dicranum arfakianum* Müll.Hal. ex Geh.
+  ≡ *Dicranum arfakianum* Geh.
 
 <br/>
 
@@ -16,7 +16,7 @@
 
 <br/>
 
-**Dicranoloma assimile** (Hampe) Broth. ex Renauld [sec. Tan & Koponen 1983]
+**Dicranoloma assimile** (Hampe) Renauld [sec. Tan & Koponen 1983]
 
   ≡ *Dicranum assimile* Hampe
 
@@ -46,15 +46,15 @@
 
   = *Dicranum chiloense* Müll.Hal., *nom. inval.*
 
-  = *Dicranum commutatum* Hampe ex A.Jaeger, *nom. inval.*
+  = *Dicranum commutatum* A.Jaeger, *nom. inval.*
 
   = *Dicranum tabulare* Rehmann, *nom. inval.*
 
-  = *Dicranum truncorum* Schimp. ex Müll.Hal.
+  = *Dicranum truncorum* Müll.Hal.
 
 <br/>
 
-**Dicranoloma blumei** (Nees) Broth. ex Renauld [sec. Tan & Koponen 1983]
+**Dicranoloma blumei** (Nees) Renauld [sec. Tan & Koponen 1983]
 
   ≡ *Dicranum blumei* Nees
 
@@ -80,7 +80,7 @@
 
 **Dicranoloma brevisetum** var. **brevisetum**  [sec. Tan & Koponen 1983]
 
-  = *Dicranum leucophyllum* Hampe ex Sande Lac.
+  = *Dicranum leucophyllum* Sande Lac.
 
   = *Dicranum leucophyllum* var. *kurzii* M.Fleisch.
 
@@ -108,15 +108,15 @@
 
 <br/>
 
-**Dicranoloma dicarpon** (Nees ex Spreng.) Paris [sec. Tan & Koponen 1983]
+**Dicranoloma dicarpon** (Nees) Paris [sec. Tan & Koponen 1983]
 
-  ≡ *Dicranum dicarpon* Nees ex Spreng.
+  ≡ *Dicranum dicarpon* Nees
 
 <br/>
 
-**Dicranoloma dives** (Müll.Hal. ex Bosch & Sande Lac.) Paris [sec. Tan & Koponen 1983]
+**Dicranoloma dives** (Bosch & Sande Lac.) Paris [sec. Tan & Koponen 1983]
 
-  ≡ *Dicranum dives* Müll.Hal. ex Bosch & Sande Lac.
+  ≡ *Dicranum dives* Bosch & Sande Lac.
 
 <br/>
 
@@ -158,13 +158,13 @@
 
 <br/>
 
-**Dicranoloma arfakianum** (Müll.Hal. ex Geh.) Renauld [sec. Eddy 1988]
+**Dicranoloma arfakianum** (Geh.) Renauld [sec. Eddy 1988]
 
-  ≡ *Dicranum arfakianum* Müll.Hal. ex Geh.
+  ≡ *Dicranum arfakianum* Geh.
 
 <br/>
 
-**Dicranoloma assimile** (Hampe) Broth. ex Renauld [sec. Eddy 1988]
+**Dicranoloma assimile** (Hampe) Renauld [sec. Eddy 1988]
 
   ≡ *Dicranum assimile* Hampe
 
@@ -236,9 +236,9 @@
 
 <br/>
 
-**Dicranoloma leucophyllum** (Hampe ex Sande Lac.) Paris [sec. Eddy 1988]
+**Dicranoloma leucophyllum** (Sande Lac.) Paris [sec. Eddy 1988]
 
-  ≡ *Dicranum leucophyllum* Hampe ex Sande Lac.
+  ≡ *Dicranum leucophyllum* Sande Lac.
 
 <br/>
 
@@ -252,7 +252,7 @@
 
   ≡ *Dicranum reflexum* Müll.Hal.
 
-  = *Dicranum dives* Müll.Hal. ex Bosch & Sande Lac.
+  = *Dicranum dives* Bosch & Sande Lac.
 
   = *Dicranum limprichtii* M.Fleisch.
 
@@ -276,7 +276,7 @@
 
 <br/>
 
-**Dicranoloma assimile** (Hampe) Broth. ex Renauld [sec. Tan 1989]
+**Dicranoloma assimile** (Hampe) Renauld [sec. Tan 1989]
 
   ≡ *Dicranum assimile* Hampe
 
@@ -302,7 +302,7 @@
 
 <br/>
 
-**Dicranoloma blumei** (Nees) Broth. ex Renauld [sec. Tan 1989]
+**Dicranoloma blumei** (Nees) Renauld [sec. Tan 1989]
 
   ≡ *Dicranum blumei* Nees
 
@@ -326,7 +326,7 @@
 
   = *Dicranum braunii* Müll.Hal.
 
-  = *Dicranum leucophyllum* Hampe ex Sande Lac.
+  = *Dicranum leucophyllum* Sande Lac.
 
 <br/>
 
@@ -350,7 +350,7 @@
 
   ≡ *Dicranum reflexum* Müll.Hal.
 
-  = *Dicranum dives* Müll.Hal. ex Bosch & Sande Lac.
+  = *Dicranum dives* Bosch & Sande Lac.
 
   = *Dicranum reflexifolium* Müll.Hal.
 
@@ -358,7 +358,7 @@
 <br/>
 <br/>
 
-**Dicranum arfakianum** Müll.Hal. ex Geh. [sec. Norris & Koponen 1990]
+**Dicranum arfakianum** Geh. [sec. Norris & Koponen 1990]
 
   = *Dicranum elimbatum* Broth. & Geh., *nom. inval.*
 
@@ -414,7 +414,7 @@
 
 <br/>
 
-**Dicranum dicarpon** Nees ex Spreng. [sec. Norris & Koponen 1990]
+**Dicranum dicarpon** Nees [sec. Norris & Koponen 1990]
 
   = *Dicranoloma brassii* E.B.Bartram
 
@@ -456,13 +456,13 @@
 
 <br/>
 
-**Dicranoloma arfakianum** (Müll.Hal. ex Geh.) Renauld [sec. Klazenga 1999]
+**Dicranoloma arfakianum** (Geh.) Renauld [sec. Klazenga 1999]
 
-  ≡ *Dicranum arfakianum* Müll.Hal. ex Geh.
+  ≡ *Dicranum arfakianum* Geh.
 
 <br/>
 
-**Dicranoloma assimile** (Hampe) Broth. ex Renauld [sec. Klazenga 1999]
+**Dicranoloma assimile** (Hampe) Renauld [sec. Klazenga 1999]
 
   ≡ *Dicranum assimile* Hampe
 
@@ -510,7 +510,7 @@
 
 <br/>
 
-**Dicranoloma blumei** (Nees) Broth. ex Renauld [sec. Klazenga 1999]
+**Dicranoloma blumei** (Nees) Renauld [sec. Klazenga 1999]
 
   ≡ *Dicranum blumei* Nees
 
@@ -566,7 +566,7 @@
 
   = *Dicranum brevisetum* var. *angustum* Sande Lac.
 
-  = *Dicranum leucophyllum* Hampe ex Sande Lac.
+  = *Dicranum leucophyllum* Sande Lac.
 
   = *Dicranum leucophyllum* var. *kurzii* M.Fleisch.
 
@@ -582,9 +582,9 @@
 
 <br/>
 
-**Dicranoloma dicarpon** (Nees ex Spreng.) Paris [sec. Klazenga 1999]
+**Dicranoloma dicarpon** (Nees) Paris [sec. Klazenga 1999]
 
-  ≡ *Dicranum dicarpon* Nees ex Spreng.
+  ≡ *Dicranum dicarpon* Nees
 
   = *Dicranoloma brassii* E.B.Bartram
 
@@ -610,7 +610,7 @@
 
   = *Dicranoloma tenuirete* Broth.
 
-  = *Dicranum dives* Müll.Hal. ex Bosch & Sande Lac.
+  = *Dicranum dives* Bosch & Sande Lac.
 
   = *Dicranum limprichtii* M.Fleisch.
 
