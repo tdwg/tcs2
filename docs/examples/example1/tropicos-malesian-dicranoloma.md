@@ -382,6 +382,10 @@
 
 <br/>
 
+**Dicranum bartramianum** B.H.Allen [sec. Norris & Koponen 1990]
+
+<br/>
+
 **Dicranum billarderii** Brid. [sec. Norris & Koponen 1990]
 
   = *Dicranum laevifolium* Broth. & Geh.
