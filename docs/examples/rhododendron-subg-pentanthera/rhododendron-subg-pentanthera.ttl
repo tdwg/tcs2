@@ -12,92 +12,50 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
 
+#
+# A revision of Rhododendron subg Pentanthera
+#
+
+_:r62ce22329244e221 a bibo:AcademicArticle ;
+    dcterms:title """A revision of Rhododendron VI. Subgenus Pentanthera 
+            (sections Sciadorhodon, Rhodora and Viscidula)""" ;
+    dcterms:creator <https://orcid.org/0000-0003-2209-0222>,
+            <https://orcid.org/0000-0003-2391-2654> ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 <https://orcid.org/0000-0003-2391-2654> ;
+            rdf:_2 <https://orcid.org/0000-0003-2209-0222> ] ;
+    dcterms:isPartOf [ a bibo:Issue ;
+            dcterms:date "1995" ;
+            dcterms:isPartOf [ a bibo:Journal ;
+                    dcterms:title "Edinburgh Journal of Botany" ;
+                    bibo:shortTitle "Edinb. J. Bot." ] ;
+            :volume "52" ] ;
+    bibo:pages "1-54" .
+
+<https://orcid.org/0000-0003-2209-0222> a foaf:Person ;
+    foaf:givenName "K.A." ;
+    foaf:surname "Kron" .
+
+<https://orcid.org/0000-0003-2391-2654> a foaf:Person ;
+    foaf:givenName "W.S." ;
+    foaf:surname "Judd" .
+
+
+#
+# Rhododendron subgen. pentanthera sec. Judd & Cron 1995
+# 
+
 _:tc7214cdd0d09d6aca a :TaxonConcept ;
-    dcterms:title "Rhododendron subg. Pentanthera sec. Judd & Kron 1995" ;
+    dcterms:title "Rhododendron subgen. Pentanthera sec. Judd & Kron 1995" ;
     :accordingTo _:r62ce22329244e221 ;
     :acceptedName _:tna1d719b927b7958b ;
     :synonym <https://www.ipni.org/n/14620-1> ,
             _:tndc7c6220b2d62b21 . 
 
-_:tc85b620fdf55d82f9 a :TaxonConcept ;
-    dcterms:title "Rhododendron sect. Pentanthera sec. Judd & Kron 1995" ;
-    :accordingTo _:r62ce22329244e221 ;
-    :acceptedName _:tna1d719b927b7958b ;
-    :parent _:tc7214cdd0d09d6aca . 
-
-_:tn820d8876a7b2bf4c a :TaxonConcept ;
-    dcterms:title "Rhododendron sect. Sciadorhodion sec. Judd & Kron 1995" ;
-    :accordingTo _:r62ce22329244e221 ;
-    :acceptedName <https://www.ipni.org/n/50985479-1> ;
-    :parent _:tc7214cdd0d09d6aca .
-
-[] a :TaxonConcept ;
-    dcterms:title "Rhododendron schlippenbachii sec. Judd & Kron 1995" ;
-    :accordingTo _:r62ce22329244e221 ;
-    :acceptedName <https://www.ipni.org/n/333307-1> ;
-    :parent _:tc7214cdd0d09d6aca .
-
-[] a :TaxonConcept ;
-    dcterms:title "Rhododendron quinquefolium sec. Judd & Kron 1995" ;
-    :accordingTo _:r62ce22329244e221 ;
-    :acceptedName <https://www.ipni.org/n/333193-1> ;
-    :synonym ( <https://www.ipni.org/n/950178-1> ) ;
-    :parent _:tn820d8876a7b2bf4c .
-
-[] a :TaxonConcept ;
-    dcterms:title "Rhododendron pentaphyllum sec. Judd & Kron 1995" ;
-    :accordingTo _:r62ce22329244e221 ;
-    :acceptedName <https://www.ipni.org/n/333062-1> ;
-    :synonym _:tn0ebf23d620a6a02e ,
-        _:tna0bd9ee1dca8addd ,
-        <https://www.ipni.org/n/950666-1> ;
-    :parent _:tn820d8876a7b2bf4c .
-
-[] a :TaxonConcept ;
-    dcterms:title "Rhododendron albrechtii sec. Judd & Kron 1995" ;
-    :acceptedName <https://www.ipni.org/n/331902-1> ;
-    :accordingTo _:r62ce22329244e221 ;
-    :parent _:tn820d8876a7b2bf4c .
-
-_:tcce6ae0d45e149f07 a :TaxonConcept ;
-    dcterms:title "Rhodondendron sect. Viscidula sec. Judd & Cron 1995" ;
-    :accordingTo _:r62ce22329244e221 ;
-    :acceptedName _:tnf10f3578492e583e ;
-    :parent _:tc7214cdd0d09d6aca .
-
-[] a :TaxonConcept ;
-    dcterms:title "Rhodondendron nipponicum sec. Judd & Cron 1995" ;
-    :accordingTo _:r62ce22329244e221 ;
-    :acceptedName <https://www.ipni.org/n/332960-1> ;
-    :parent _:tcce6ae0d45e149f07 .
-
-_:tcce6ae0d45e149f07 a :TaxonConcept ;
-    dcterms:title "Rhodondendron sect. Rhodora sec. Judd & Cron 1995" ;
-    :accordingTo _:r62ce22329244e221 ;
-    :acceptedName _:tn8fac6d02d7c4f86a ;
-    :parent _:tc7214cdd0d09d6aca .
-
-[] a :TaxonConcept ;
-    dcterms:title "Rhodondendron vaseyi sec. Judd & Cron 1995" ;
-    :accordingTo _:r62ce22329244e221 ;
-    :acceptedName <https://www.ipni.org/n/307873-2> ;
-    :synonym <https://www.ipni.org/n/219536-2> ;
-    :parent _:tcce6ae0d45e149f07 .
-
-[] a :TaxonConcept ;
-    dcterms:title "Rhodondendron canadense sec. Judd & Cron 1995" ;
-    :accordingTo _:r62ce22329244e221 ;
-    :acceptedName <https://www.ipni.org/n/1203750-2> ;
-    :synonym <https://www.ipni.org/n/333228-1> ,
-            <https://www.ipni.org/n/219524-2> ,
-            _:tn62ce22329244e221 ,
-            <https://www.ipni.org/n/219459-2> ;
-    :parent _:tcce6ae0d45e149f07 .
-
 _:tna1d719b927b7958b a :TaxonName ;
     :nomenclaturalCode <http://rs.gbif.org/vocabulary/gbif/nomenclatural_code/ICN> ;
-    :taxonNameString "Rhododendron subg. Pentanthera" ;
-    dwc:scientificName "Rhododendron subg. Pentanthera (G. Don) Poyarkova, Fl. SSR 18: 57 (1952)" ;
+    :taxonNameString "Rhododendron subgen. Pentanthera" ;
+    dwc:scientificName "Rhododendron subgen. Pentanthera (G. Don) Poyarkova, Fl. SSR 18: 57 (1952)" ;
     dwc:scientificNameAuthorship "(G. Don) Poyarkova" ;
     dwc:namePublishedIn "Fl. SSR 18: 57 (1952)" ;
     :basionym _:tna1d719b927b7958b .
@@ -115,12 +73,10 @@ _:tn4f3bdb03b355e6b5 a :TaxonName ;
     dwc:namePublishedIn "Dendrol. 2: 186 (1872)" ;
     :basionym _:tna1d719b927b7958b .
 
-_:tn210d3c877544263c a :TaxonName ;
-      dwc:scientificName "Rhododendron flavum G.Don" .
-
 [] a :NomenclaturalType ;
     :typifiedName _:tna1d719b927b7958b ;
-    :typeName _:tn210d3c877544263c .
+    :typeName [ a :TaxonName ;
+            dwc:scientificName "Rhododendron flavum G.Don" ] .
 
 <https://www.ipni.org/n/14620-1> a :TaxonName ;
     :nomenclaturalCode <http://rs.gbif.org/vocabulary/gbif/nomenclatural_code/ICN> ;
@@ -159,6 +115,28 @@ _:tndc7c6220b2d62b21 a :TaxonName ;
     :typifiedName _:tndc7c6220b2d62b21 ;
     :typeName <https://www.ipni.org/n/332817-1> .
 
+
+#
+# Rhododendron sect. pentanthera sec. Judd & Cron 1995
+# 
+
+_:tc85b620fdf55d82f9 a :TaxonConcept ;
+    dcterms:title "Rhododendron sect. Pentanthera sec. Judd & Kron 1995" ;
+    :accordingTo _:r62ce22329244e221 ;
+    :acceptedName _:tna1d719b927b7958b ;
+    :parent _:tc7214cdd0d09d6aca . 
+
+
+#
+# Rhododendron sect. Sciadorhodion sec. Judd & Cron 1995
+# 
+
+_:tn820d8876a7b2bf4c a :TaxonConcept ;
+    dcterms:title "Rhododendron sect. Sciadorhodion sec. Judd & Kron 1995" ;
+    :accordingTo _:r62ce22329244e221 ;
+    :acceptedName <https://www.ipni.org/n/50985479-1> ;
+    :parent _:tc7214cdd0d09d6aca .
+
 <https://www.ipni.org/n/50985479-1> a :TaxonName ;
     :nomenclaturalCode <http://rs.gbif.org/vocabulary/gbif/nomenclatural_code/ICN> ;
     :taxonomicNameString "Rhododendron sect. Sciadorhodion" ;
@@ -168,8 +146,8 @@ _:tndc7c6220b2d62b21 a :TaxonName ;
 
 _:tnd68f8431052ec199 a :TaxonName ;
     :nomenclaturalCode <http://rs.gbif.org/vocabulary/gbif/nomenclatural_code/ICN> ;
-    :taxonNameString "Azalea subg. Sciadorhodion (Rehder & Wilson) Copeland" ;
-    dwc:scientificName "Azalea subg. Sciadorhodion (Rehder & Wilson) Copeland" ;
+    :taxonNameString "Azalea subgen. Sciadorhodion (Rehder & Wilson) Copeland" ;
+    dwc:scientificName "Azalea subgen. Sciadorhodion (Rehder & Wilson) Copeland" ;
     dwc:scientificNameAuthorship "(Rehder & Wilson) Copeland" ;
     dwc:namePublishedIn "Am. Midi. Nat. 30: 597 (1943)" ;
     :basionym <https://www.ipni.org/n/50985479-1> .
@@ -177,6 +155,17 @@ _:tnd68f8431052ec199 a :TaxonName ;
 [] a :NomenclaturalType ;
   :typifiedName <https://www.ipni.org/n/50985479-1> ;
   :typeName <https://www.ipni.org/n/333193-1> .
+
+
+#
+# Rhododendron schlippenbachii sec. Judd & Cron 1995
+# 
+
+[] a :TaxonConcept ;
+    dcterms:title "Rhododendron schlippenbachii sec. Judd & Kron 1995" ;
+    :accordingTo _:r62ce22329244e221 ;
+    :acceptedName <https://www.ipni.org/n/333307-1> ;
+    :parent _:tc7214cdd0d09d6aca .
 
 <https://www.ipni.org/n/333307-1> a :TaxonName ;
     :nomenclaturalCode <http://rs.gbif.org/vocabulary/gbif/nomenclatural_code/ICN> ;
@@ -230,6 +219,18 @@ _:tnd68f8431052ec199 a :TaxonName ;
             dwc:institutionCode "NY" ] ;
     :typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isolectotype> .
 
+
+#
+# Rhododendron quinquefolium sec. Judd & Cron 1995
+# 
+
+[] a :TaxonConcept ;
+    dcterms:title "Rhododendron quinquefolium sec. Judd & Kron 1995" ;
+    :accordingTo _:r62ce22329244e221 ;
+    :acceptedName <https://www.ipni.org/n/333193-1> ;
+    :synonym ( <https://www.ipni.org/n/950178-1> ) ;
+    :parent _:tn820d8876a7b2bf4c .
+
 <https://www.ipni.org/n/333193-1> a :TaxonName ;
     :nomenclaturalCode <http://rs.gbif.org/vocabulary/gbif/nomenclatural_code/ICN> ;
     :taxonomicNameString "Rhododendron quinquefolium" ;
@@ -269,6 +270,20 @@ _:tnd68f8431052ec199 a :TaxonName ;
             dwc:eventDate "1876-05-23" ;
             dwc:institutionCode "E" ] ;
     :typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/holotype> .
+
+
+#
+# Rhododendron pentaphyllum sec. Judd & Cron 1995
+# 
+
+[] a :TaxonConcept ;
+    dcterms:title "Rhododendron pentaphyllum sec. Judd & Kron 1995" ;
+    :accordingTo _:r62ce22329244e221 ;
+    :acceptedName <https://www.ipni.org/n/333062-1> ;
+    :synonym _:tn0ebf23d620a6a02e ,
+        _:tna0bd9ee1dca8addd ,
+        <https://www.ipni.org/n/950666-1> ;
+    :parent _:tn820d8876a7b2bf4c .
 
 <https://www.ipni.org/n/333062-1> a :TaxonName ;
     :nomenclaturalCode <http://rs.gbif.org/vocabulary/gbif/nomenclatural_code/ICN> ;
@@ -327,6 +342,17 @@ _:tna0bd9ee1dca8addd a :TaxonName ;
             dwc:institutionCode "TI" ] ;
     :typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/holotype> .
 
+
+#
+# Rhododendron albrechtii sec. Judd & Cron 1995
+# 
+
+[] a :TaxonConcept ;
+    dcterms:title "Rhododendron albrechtii sec. Judd & Kron 1995" ;
+    :acceptedName <https://www.ipni.org/n/331902-1> ;
+    :accordingTo _:r62ce22329244e221 ;
+    :parent _:tn820d8876a7b2bf4c .
+
 <https://www.ipni.org/n/331902-1> a :TaxonName ;
     :nomenclaturalCode <http://rs.gbif.org/vocabulary/gbif/nomenclatural_code/ICN> ;
     :taxonomicNameString "Rhododendron albrechtii" ;
@@ -350,6 +376,17 @@ _:tna0bd9ee1dca8addd a :TaxonName ;
             dwc:institutionCode "LE" ] ;
     :typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/lectotype> .
 
+
+#
+# Rhododendron sect. Viscidula sec. Judd & Cron 1995
+# 
+
+_:tcce6ae0d45e149f07 a :TaxonConcept ;
+    dcterms:title "Rhodondendron sect. Viscidula sec. Judd & Cron 1995" ;
+    :accordingTo _:r62ce22329244e221 ;
+    :acceptedName _:tnf10f3578492e583e ;
+    :parent _:tc7214cdd0d09d6aca .
+
 _:tnf10f3578492e583e a :TaxonName ;
     :taxonNameString "Rhododendron sect. Viscidula" ;
     dwc:scientificName "Rhododendron sect. Viscidula Matsum. & Nakai" ;
@@ -359,6 +396,17 @@ _:tnf10f3578492e583e a :TaxonName ;
 [ ] a :NomenclaturalType ;
     :typifiedName _:tnf10f3578492e583e ;
     :typeName <https://www.ipni.org/n/332960-1> .
+
+
+#
+# Rhododendron nipponicum sec. Judd & Cron 1995
+# 
+
+[] a :TaxonConcept ;
+    dcterms:title "Rhodondendron nipponicum sec. Judd & Cron 1995" ;
+    :accordingTo _:r62ce22329244e221 ;
+    :acceptedName <https://www.ipni.org/n/332960-1> ;
+    :parent _:tcce6ae0d45e149f07 .
 
 <https://www.ipni.org/n/332960-1> a :TaxonName ;
     :nomenclaturalCode <http://rs.gbif.org/vocabulary/gbif/nomenclatural_code/ICN> ;
@@ -388,6 +436,17 @@ _:tnf10f3578492e583e a :TaxonName ;
     :typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/lectotype> ;
     :typePublishedIn _:r62ce22329244e221 .
 
+
+#
+# Rhododendron sect. Rhodora sec. Judd & Cron 1995
+# 
+
+_:tcce6ae0d45e149f07 a :TaxonConcept ;
+    dcterms:title "Rhodondendron sect. Rhodora sec. Judd & Cron 1995" ;
+    :accordingTo _:r62ce22329244e221 ;
+    :acceptedName _:tn8fac6d02d7c4f86a ;
+    :parent _:tc7214cdd0d09d6aca .
+
 _:tn8fac6d02d7c4f86a a :TaxonName ;
     :nomenclaturalCode <http://rs.gbif.org/vocabulary/gbif/nomenclatural_code/ICN> ;
     :taxonNameString "Rhododendron sect. Rhodora" ;
@@ -416,6 +475,22 @@ _:tn0916f44282bd1eea a :TaxonName ;
     dwc:scientificName "Azalea subgen. Rhodora (L.) H.F.Copel." ;
     :namePublishedIn "Am. Midi. Nat. 30: 595 (1943)" ;
     :basionym <https://www.ipni.org/n/14860-1> .
+
+[] a :NomenclaturalType ;
+    :typifiedName _:tn0916f44282bd1eea ;
+    :typeName <https://www.ipni.org/n/307873-2> .
+
+
+#
+# Rhododendron vaseyi sec. Judd & Cron 1995
+# 
+
+[] a :TaxonConcept ;
+    dcterms:title "Rhodondendron vaseyi sec. Judd & Cron 1995" ;
+    :accordingTo _:r62ce22329244e221 ;
+    :acceptedName <https://www.ipni.org/n/307873-2> ;
+    :synonym <https://www.ipni.org/n/219536-2> ;
+    :parent _:tcce6ae0d45e149f07 .
 
 <https://www.ipni.org/n/307873-2> a :TaxonName ;
     :nomenclaturalCode <http://rs.gbif.org/vocabulary/gbif/nomenclatural_code/ICN> ;
@@ -485,6 +560,21 @@ _:tn0916f44282bd1eea a :TaxonName ;
     dwc:scientificName "Rhododendron vaseyi f. album Rehder" ;
     dwc:scientificNameAuthorship "Rehder" ;
     dwc:namePublishedIn "Mitt. Deutsch. Dendrol. Ges. 1915: 225 (1915)" .
+
+
+#
+# Rhododendron canadense sec. Judd & Cron 1995
+# 
+
+[] a :TaxonConcept ;
+    dcterms:title "Rhodondendron canadense sec. Judd & Cron 1995" ;
+    :accordingTo _:r62ce22329244e221 ;
+    :acceptedName <https://www.ipni.org/n/1203750-2> ;
+    :synonym <https://www.ipni.org/n/333228-1> ,
+            <https://www.ipni.org/n/219524-2> ,
+            _:tn62ce22329244e221 ,
+            <https://www.ipni.org/n/219459-2> ;
+    :parent _:tcce6ae0d45e149f07 .
 
 <https://www.ipni.org/n/1203750-2> a :TaxonName ;
     :nomenclaturalCode <http://rs.gbif.org/vocabulary/gbif/nomenclatural_code/ICN> ;
@@ -590,28 +680,3 @@ _:tn62ce22329244e221 a :TaxonName ;
             dwc:recordNumber "22150" ;
             dwc:institutionCode "NY" ] ;
     :typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> .
-
-
-_:r62ce22329244e221 a bibo:AcademicArticle ;
-    dcterms:title "A revision of Rhododendron VI. Subgenus Pentanthera (sections Sciadorhodon, Rhodora and Viscidula)" ;
-    dcterms:creator <https://orcid.org/0000-0003-2209-0222>,
-            <https://orcid.org/0000-0003-2391-2654> ;
-    bibo:authorList [ a rdf:Seq ;
-            rdf:_1 <https://orcid.org/0000-0003-2391-2654> ;
-            rdf:_2 <https://orcid.org/0000-0003-2209-0222> ] ;
-    dcterms:isPartOf [ a bibo:Issue ;
-            dcterms:date "1995" ;
-            dcterms:isPartOf [ a bibo:Journal ;
-                    dcterms:title "Edinburgh Journal of Botany" ;
-                    bibo:shortTitle "Edinb. J. Bot." ] ;
-            :volume "52" ] ;
-    bibo:pages "1-54" .
-
-<https://orcid.org/0000-0003-2209-0222> a foaf:Person ;
-    foaf:givenName "K.A." ;
-    foaf:surname "Kron" .
-
-<https://orcid.org/0000-0003-2391-2654> a foaf:Person ;
-    foaf:givenName "W.S." ;
-    foaf:surname "Judd" .
-
