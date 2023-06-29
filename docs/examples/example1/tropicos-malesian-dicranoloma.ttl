@@ -619,21 +619,21 @@
 
 
 <https://tropicos.org/name/35121455> a :TaxonName ;
-    dwc:scientificName "Dicranoloma arfakianum (Müll.Hal. ex Geh.) Renauld" ;
+    dwc:scientificName "Dicranoloma arfakianum (Geh.) Renauld" ;
     :taxonNameString "Dicranoloma arfakianum" ;
-    dwc:scientificNameAuthorship "(Müll.Hal.ex Geh.) Renauld" ;
+    dwc:scientificNameAuthorship "(Geh.) Renauld" ;
     :basionym <https://tropicos.org/name/35121903> ;
     :nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
 
 <https://tropicos.org/name/35121903> a :TaxonName ;
-    dwc:scientificName "Dicranum arfakianum Müll.Hal. ex Geh." ;
+    dwc:scientificName "Dicranum arfakianum Geh." ;
     :taxonNameString "Dicranum arfakianum" ;
-    dwc:scientificNameAuthorship "Müll.Hal. ex Geh." ;
+    dwc:scientificNameAuthorship "Geh." ;
     dwc:namePublishedIn "Bibliotheca Botanica 44: 3. 1. 1898. (Biblioth. Bot.)" ;
     :nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
 
 <https://tropicos.org/name/35154836> a :TaxonName ;
-    dwc:scientificName "Leucoloma arfakianum (Müll.Hal. ex Geh.) Broth." ;
+    dwc:scientificName "Leucoloma arfakianum (Geh.) Broth." ;
     :taxonNameString "Leucoloma arfakianum" ;
     dwc:scientificNameAuthorship "Broth." ;
     :basionym <https://tropicos.org/name/35121903> ;
@@ -706,9 +706,9 @@
     :nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/invalidum> .
 
 <https://tropicos.org/name/35121458> a :TaxonName ;
-    dwc:scientificName "Dicranoloma assimile (Hampe) Broth. ex Renauld" ;
+    dwc:scientificName "Dicranoloma assimile (Hampe) Renauld" ;
     :taxonNameString "Dicranoloma assimile" ;
-    dwc:scientificNameAuthorship "(Hampe) Broth. ex Renauld" ;
+    dwc:scientificNameAuthorship "(Hampe) Renauld" ;
     :basionym <https://tropicos.org/name/35121913> ;
     :nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
 
@@ -1540,9 +1540,9 @@
 
 
 <https://tropicos.org/name/35121475> a :TaxonName ;
-    dwc:scientificName "Dicranoloma blumei (Nees) Broth. ex Renauld" ;
+    dwc:scientificName "Dicranoloma blumei (Nees) Renauld" ;
     :taxonNameString "Dicranoloma blumei" ;
-    dwc:scientificNameAuthorship "(Nees) Broth. ex Renauld" ;
+    dwc:scientificNameAuthorship "(Nees) Renauld" ;
     :basionym <https://tropicos.org/name/35121972> ;
     :nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
 
@@ -2429,14 +2429,14 @@
 
 
 <https://tropicos.org/name/35123679> a :TaxonName ;
-    dwc:scientificName "Dicranum leucophyllum Hampe ex Sande Lac." ;
+    dwc:scientificName "Dicranum leucophyllum Sande Lac." ;
     :taxonNameString "Dicranum leucophyllum" ;
-    dwc:scientificNameAuthorship "Hampe ex Sande Lac." ;
+    dwc:scientificNameAuthorship "Sande Lac." ;
     dwc:namePublishedIn "Verhandelingen der Koninklijke Akademie van Wetenschappen, Afdeeling Natuurkunde 13: 10. 6C. 1872. (Verh. Kon. Akad. Wetensch., Afd. Natuurk.)" ;
     :nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
 
 <https://tropicos.org/name/35154985> a :TaxonName ;
-    dwc:scientificName "Leucoloma leucophyllum (Hampe ex Sande Lac.) Broth." ;
+    dwc:scientificName "Leucoloma leucophyllum (Sande Lac.) Broth." ;
     :taxonNameString "Leucoloma leucophyllum" ;
     dwc:scientificNameAuthorship "Broth." ;
     dwc:namePublihedIn "Die Natürlichen Pflanzenfamilien I(3) : 322. 1901. (Nat. Pflanzenfam.)" ;
@@ -2444,9 +2444,9 @@
     :nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
 
 <https://tropicos.org/name/35121559> a :TaxonName ;
-    dwc:scientificName "Dicranoloma leucophyllum (Hampe ex Sande Lac.) Paris" ;
+    dwc:scientificName "Dicranoloma leucophyllum (Sande Lac.) Paris" ;
     :taxonNameString "Dicranoloma leucophyllum" ;
-    dwc:scientificNameAuthorship "(Hampe ex Sande Lac.) Paris" ;
+    dwc:scientificNameAuthorship "(Sande Lac.) Paris" ;
     dwc:namePublihedIn "Index Bryologicus, editio secunda 2: 27. 1904. (Index Bryol. (ed. 2) )" ;
     :basionym <https://tropicos.org/name/35123679> ;
     :nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
@@ -3157,22 +3157,22 @@
 
 
 <https://tropicos.org/name/35121514> a :TaxonName ;
-    dwc:scientificName "Dicranoloma dicarpon (Nees ex Spreng.) Paris" ;
+    dwc:scientificName "Dicranoloma dicarpon (Nees) Paris" ;
     :taxonNameString "Dicranoloma dicarpon" ;
-    dwc:scientificNameAuthorship "(Nees ex Spreng.) Paris" ;
+    dwc:scientificNameAuthorship "(Nees) Paris" ;
     :basionym <https://tropicos.org/name/35122214> ;
     :nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
 
 <https://tropicos.org/name/35122214> a :TaxonName ;
-    dwc:scientificName "Dicranum dicarpon Nees ex Spreng." ;
+    dwc:scientificName "Dicranum dicarpon Nees" ;
     :taxonNameString "Dicranum dicarpon" ;
-    dwc:scientificNameAuthorship "Nees ex Spreng." ;
+    dwc:scientificNameAuthorship "Nees" ;
     dwc:namePublishedIn "Systema Vegetabilium, editio decima sexta 4(2) : 322. 1827. (Syst. Veg. [Sprengel])" ;
     :nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
 
 
 <https://tropicos.org/name/35154915> a :TaxonName ;
-    dwc:scientificName "Leucoloma dicarpon (Nees ex Spreng.) Broth." ;
+    dwc:scientificName "Leucoloma dicarpon (Nees) Broth." ;
     :taxonNameString "Leucoloma dicarpon" ;
     dwc:scientificNameAuthorship "Broth." ;
     dwc:namePublihedIn "Die Natürlichen Pflanzenfamilien I(3) : 322. 1901. (Nat. Pflanzenfam.)" ;
@@ -3610,14 +3610,14 @@
 
 
 <https://tropicos.org/name/35122238> a :TaxonName ;
-    dwc:scientificName "Dicranum dives Müll.Hal. ex Bosch & Sande Lac." ;
+    dwc:scientificName "Dicranum dives Bosch & Sande Lac." ;
     :taxonNameString "Dicranum dives" ;
-    dwc:scientificNameAuthorship "Müll.Hal. ex Bosch & Sande Lac." ;
+    dwc:scientificNameAuthorship "Bosch & Sande Lac." ;
     dwc:namePublishedIn "Bryologia Javanica 1: 72. 59. 1858. (Bryol. Jav.)" ;
     :nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
 
 <https://tropicos.org/name/35154920> a :TaxonName ;
-    dwc:scientificName "Leucoloma dives (Müll.Hal. ex Bosch & Sande Lac.) Broth." ;
+    dwc:scientificName "Leucoloma dives (Bosch & Sande Lac.) Broth." ;
     :taxonNameString "Leucoloma dives" ;
     dwc:scientificNameAuthorship "Broth." ;
     dwc:namePublihedIn "Die Natürlichen Pflanzenfamilien I(3) : 322. 1901. (Nat. Pflanzenfam.)" ;
@@ -3625,7 +3625,7 @@
     :nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
 
 <https://tropicos.org/name/35121518> a :TaxonName ;
-    dwc:scientificName "Dicranoloma dives (Müll.Hal. ex Bosch & Sande Lac.) Paris" ;
+    dwc:scientificName "Dicranoloma dives (Bosch & Sande Lac.) Paris" ;
     :taxonNameString "Dicranoloma dives" ;
     dwc:scientificNameAuthorship "(Müll.Hal.ex Bosch & Sande Lac.) Paris" ;
     :basionym <https://tropicos.org/name/35122238> ;
@@ -4312,9 +4312,9 @@
     :nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/invalidum> .
 
 <https://tropicos.org/name/35122121> a :TaxonName ;
-    dwc:scientificName "Dicranum commutatum Hampe ex A.Jaeger" ;
+    dwc:scientificName "Dicranum commutatum A.Jaeger" ;
     :taxonNameString "Dicranum commutatum" ;
-    dwc:scientificNameAuthorship "Hampe ex A.Jaeger" ;
+    dwc:scientificNameAuthorship "A.Jaeger" ;
     dwc:namePublishedIn "Bericht über die Thätigkeit der St. Gallischen Naturwissenschaftlichen Gesellschaft 1877–78: 495. 1880. (Ber. Thätigk. St. Gallischen Naturwiss. Ges.)" ;
     :nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/invalidum> .
 
@@ -4340,9 +4340,9 @@
     :nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/invalidum> .
 
 <https://tropicos.org/name/35131611> a :TaxonName ;
-    dwc:scientificName "Dicranum truncorum Schimp. ex Müll.Hal." ;
+    dwc:scientificName "Dicranum truncorum Müll.Hal." ;
     :taxonNameString "Dicranum truncorum" ;
-    dwc:scientificNameAuthorship "Schimp. ex Müll.Hal." ;
+    dwc:scientificNameAuthorship "Müll.Hal." ;
     dwc:namePublishedIn "Botanische Zeitung (Berlin) 17: 215. 1859. (Bot. Zeitung (Berlin) )" ;
     :nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
 
