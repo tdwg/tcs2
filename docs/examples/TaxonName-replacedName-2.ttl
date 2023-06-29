@@ -6,7 +6,7 @@
     dwc:scientificNameAuthorship "Paris" ;
     dwc:namePublishedIn "Index Bryol.: 148" ;
     dwc:namePublishedInYear "1894" ;
-    :replacedSynonym <https://www.tropicos.org/name/35001206> .
+    :replacedName <https://www.tropicos.org/name/35001206> .
 
 <https://www.tropicos.org/name/35001206> a :TaxonName ;
     :taxonNameString "Solmsia" ;
