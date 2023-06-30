@@ -637,7 +637,7 @@
     :taxonNameString "Leucoloma arfakianum" ;
     dwc:scientificNameAuthorship "Broth." ;
     :basionym <https://tropicos.org/name/35121903> ;
-    dwc:namePublihedIn "Die Natürlichen Pflanzenfamilien I(3) : 322. 1901. (Nat. Pflanzenfam.)" ;
+    dwc:namePublishedIn "Die Natürlichen Pflanzenfamilien I(3) : 322. 1901. (Nat. Pflanzenfam.)" ;
     :nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
 
 [] a :NomenclaturalType ;
@@ -723,7 +723,7 @@
     dwc:scientificName "Dicranum polysetum var. assimile (Hampe) Dozy & Molk." ;
     :taxonNameString "Dicranum polysetum var. assimile" ;
     dwc:scientificNameAuthorship "Dozy & Molk." ;
-    dwc:namePublihedIn "Musci Frondosi Inediti Archipelagi Indici 5: 143. 1847. (Musc. Frond. Ined. Archip. Ind.)" ;
+    dwc:namePublishedIn "Musci Frondosi Inediti Archipelagi Indici 5: 143. 1847. (Musc. Frond. Ined. Archip. Ind.)" ;
     :nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
 
 <https://tropicos.org/name/35154841> a :TaxonName ;
@@ -1249,14 +1249,14 @@
     dwc:scientificName "Dicnemon robustum E.B.Bartram" ;
     :taxonNameString "Dicnemon robustum" ;
     dwc:scientificNameAuthorship "E.B.Bartram" ;
-    dwc:namePublihedIn "The Bryologist 48: 112. 1945. (Bryologist)" ;
+    dwc:namePublishedIn "The Bryologist 48: 112. 1945. (Bryologist)" ;
     :nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
 
 <https://tropicos.org/name/35162373> a :TaxonName ;
     dwc:scientificName "Eucamptodon robustus (E.B.Bartram) E.B.Bartram" ;
     :taxonNameString "Eucamptodon robustus" ;
     dwc:scientificNameAuthorship "E.B.Bartram" ;
-    dwc:namePublihedIn "Brittonia 11: 88. 1959. (Brittonia)" ;
+    dwc:namePublishedIn "Brittonia 11: 88. 1959. (Brittonia)" ;
     :basionym <https://tropicos.org/name/35120798> ;
     :nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
 
@@ -1327,14 +1327,14 @@
     :taxonNameString "Leucoloma novoguinense" ;
     dwc:scientificName "Leucoloma novoguinense (Broth. & Geh.) Broth." ;
     dwc:scientificNameAuthorship "(Broth. & Geh.) Broth." ;
-    dwc:namePublihedIn "Die Natürlichen Pflanzenfamilien I(3) : 322. 1901. (Nat. Pflanzenfam.)" ;
+    dwc:namePublishedIn "Die Natürlichen Pflanzenfamilien I(3) : 322. 1901. (Nat. Pflanzenfam.)" ;
     :basionym <https://tropicos.org/name/35123838> .
 
 <https://tropicos.org/name/35121578> a :TaxonName ;
     :taxonNameString "Dicranoloma novoguinense" ;
     dwc:scientificName "Dicranoloma novoguinense (Broth. & Geh.) Paris" ;
     dwc:scientificNameAuthorship "(Broth. & Geh.) Paris" ;
-    dwc:namePublihedIn "Index Bryologicus, editio secunda 2: 28. 1904. (Index Bryol. (ed. 2) )" ;
+    dwc:namePublishedIn "Index Bryologicus, editio secunda 2: 28. 1904. (Index Bryol. (ed. 2) )" ;
     :basionym <https://tropicos.org/name/35123838> .
 
 [] a :NomenclaturalType ;
@@ -1414,7 +1414,7 @@
     dwc:scientificName "Dicranoloma subenerve Broth." ;
     :taxonNameString "Dicranoloma subenerve" ;
     dwc:scientificNameAuthorship "Broth." ;
-    dwc:namePublihedIn "Mitteilungen aus dem Institut für Allgemeine Botanik in Hamburg 7(2) : 117. 1928. (Mitt. Inst. Allg. Bot. Hamburg)" ;
+    dwc:namePublishedIn "Mitteilungen aus dem Institut für Allgemeine Botanik in Hamburg 7(2) : 117. 1928. (Mitt. Inst. Allg. Bot. Hamburg)" ;
     :nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
 
 [] a :NomenclaturalType ;
@@ -1557,7 +1557,7 @@
     dwc:scientificName "Leucoloma blumei (Nees) Broth." ;
     :taxonNameString "Leucoloma blumei" ;
     dwc:scientificNameAuthorship "Broth." ;
-    dwc:namePublihedIn "Die Natürlichen Pflanzenfamilien I(3) : 322. 1901. (Nat. Pflanzenfam.)" ;
+    dwc:namePublishedIn "Die Natürlichen Pflanzenfamilien I(3) : 322. 1901. (Nat. Pflanzenfam.)" ;
     :basionym <https://tropicos.org/name/35121972> ;
     :nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
 
@@ -1618,7 +1618,7 @@
     dwc:scientificName "Dicranoloma blumei var. laxifolium (Broth. & Geh.) M.Fleisch." ;
     :taxonNameString "Dicranoloma blumei var. laxifolium" ;
     dwc:scientificNameAuthorship "M.Fleisch." ;
-    dwc:namePublihedIn "Nova Guinea 12(2) : 112. 1914. (Nova Guinea)" ;
+    dwc:namePublishedIn "Nova Guinea 12(2) : 112. 1914. (Nova Guinea)" ;
     :nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
 
 [] a :NomenclaturalType ;
@@ -1792,7 +1792,7 @@
     dwc:scientificName "Leucoloma braunii (Müll.Hal.) Broth." ;
     :taxonNameString "Leucoloma braunii" ;
     dwc:scientificNameAuthorship "Broth." ;
-    dwc:namePublihedIn "Die Natürlichen Pflanzenfamilien I(3) : 322. 1901. (Nat. Pflanzenfam.)" ;
+    dwc:namePublishedIn "Die Natürlichen Pflanzenfamilien I(3) : 322. 1901. (Nat. Pflanzenfam.)" ;
     :basionym <https://tropicos.org/name/35122018> ;
     :nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
 
@@ -1852,7 +1852,7 @@
     dwc:scientificName "Leucoloma brachypelma Broth." ;
     :taxonNameString "Leucoloma brachypelma" ;
     dwc:scientificNameAuthorship "Broth." ;
-    dwc:namePublihedIn "Die Natürlichen Pflanzenfamilien I(3) : 322. 1901. (Nat. Pflanzenfam.)" ;
+    dwc:namePublishedIn "Die Natürlichen Pflanzenfamilien I(3) : 322. 1901. (Nat. Pflanzenfam.)" ;
     :replacedName <https://tropicos.org/name/35122011> ;
     :nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
 
@@ -1902,7 +1902,7 @@
     dwc:scientificName "Dicranoloma graeffeanum (Müll.Hal.) Paris" ;
     :taxonNameString "Dicranoloma graeffeanum" ;
     dwc:scientificNameAuthorship "Paris" ;
-    dwc:namePublihedIn "Index Bryologicus, editio secunda 2: 27. 1904. (Index Bryol. (ed. 2) )" ;
+    dwc:namePublishedIn "Index Bryologicus, editio secunda 2: 27. 1904. (Index Bryol. (ed. 2) )" ;
     :basionym <https://tropicos.org/name/35123489> ;
     :nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
 
@@ -1910,7 +1910,7 @@
     dwc:scientificName "Leucoloma graeffeanum (Müll.Hal.) Broth." ;
     :taxonNameString "Leucoloma graeffeanum" ;
     dwc:scientificNameAuthorship "Broth." ;
-    dwc:namePublihedIn "Die Natürlichen Pflanzenfamilien I(3) : 322. 1901. (Nat. Pflanzenfam.)" ;
+    dwc:namePublishedIn "Die Natürlichen Pflanzenfamilien I(3) : 322. 1901. (Nat. Pflanzenfam.)" ;
     :basionym <https://tropicos.org/name/35123489> ;
     :nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
 
@@ -1959,14 +1959,14 @@
     dwc:scientificName "Leucoloma laevifolium (Broth. & Geh.) Broth." ;
     :taxonNameString "Leucoloma laevifolium" ;
     dwc:scientificNameAuthorship "Broth." ;
-    dwc:namePublihedIn "Die Natürlichen Pflanzenfamilien I(3) : 322. 1901. (Nat. Pflanzenfam.)" ;
+    dwc:namePublishedIn "Die Natürlichen Pflanzenfamilien I(3) : 322. 1901. (Nat. Pflanzenfam.)" ;
     :nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
 
 <https://tropicos.org/name/35121556> a :TaxonName ;
     dwc:scientificName "Dicranoloma laevifolium (Broth. & Geh.) Paris" ;
     :taxonNameString "Dicranoloma laevifolium" ;
     dwc:scientificNameAuthorship "Paris" ;
-    dwc:namePublihedIn "Index Bryologicus, editio secunda 2: 27. 1904. (Index Bryol. (ed. 2) )" ;
+    dwc:namePublishedIn "Index Bryologicus, editio secunda 2: 27. 1904. (Index Bryol. (ed. 2) )" ;
     :nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
 
 [] a :NomenclaturalType ;
@@ -2016,14 +2016,14 @@
     dwc:scientificName "Leucoloma nematosum (Broth. & Geh.) Broth." ;
     :taxonNameString "Leucoloma nematosum" ;
     dwc:scientificNameAuthorship "Broth." ;
-    dwc:namePublihedIn "Die Natürlichen Pflanzenfamilien I(3) : 322. 1901. (Nat. Pflanzenfam.)" ;
+    dwc:namePublishedIn "Die Natürlichen Pflanzenfamilien I(3) : 322. 1901. (Nat. Pflanzenfam.)" ;
     :nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
 
 <https://tropicos.org/name/35121574> a :TaxonName ;
     dwc:scientificName "Dicranoloma nematosum (Broth. & Geh.) Paris" ;
     :taxonNameString "Dicranoloma nematosum" ;
     dwc:scientificNameAuthorship "Paris" ;
-    dwc:namePublihedIn "Index Bryologicus, editio secunda 2: 28. 1904. (Index Bryol. (ed. 2) )" ;
+    dwc:namePublishedIn "Index Bryologicus, editio secunda 2: 28. 1904. (Index Bryol. (ed. 2) )" ;
     :basionym <https://tropicos.org/name/35123815> ;
     :nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
 
@@ -2031,7 +2031,7 @@
     dwc:scientificName "Dicranoloma brevisetum f. nematosum (Broth. & Geh.) B.C.Tan & T.J.Kop." ;
     :taxonNameString "Dicranoloma brevisetum f. nematosum" ;
     dwc:scientificNameAuthorship "(Broth. & Geh.) B.C.Tan & T.J.Kop." ;
-    dwc:namePublihedIn "Annales Botanici Fennici 20: 326. 1983. (Ann. Bot. Fenn.)" ;
+    dwc:namePublishedIn "Annales Botanici Fennici 20: 326. 1983. (Ann. Bot. Fenn.)" ;
     :basionym <https://tropicos.org/name/35123815> ;
     :nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
 
@@ -2066,7 +2066,7 @@
     dwc:scientificName "Dicranum mindanense Broth." ;
     :taxonNameString "Dicranum mindanense" ;
     dwc:scientificNameAuthorship "Broth." ;
-    dwc:namePublihedIn "Genera Muscorum Frondosorum 288. 1900. (Gen. Musc. Frond.)" ;
+    dwc:namePublishedIn "Genera Muscorum Frondosorum 288. 1900. (Gen. Musc. Frond.)" ;
     :basionym <https://tropicos.org/name/35186801> ;
     :nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/invalidum> .
 
@@ -2074,7 +2074,7 @@
     dwc:scientificName "Dicranoloma braunii f. mindanense (M.Fleisch.) Sasaoka" ;
     :taxonNameString "Dicranoloma braunii f. mindanense" ;
     dwc:scientificNameAuthorship "Sasaoka" ;
-    dwc:namePublihedIn "Transactions of the Natural History Society of Formosa 18: 184. 1928. (Trans. Nat. Hist. Soc. Formosa)" ;
+    dwc:namePublishedIn "Transactions of the Natural History Society of Formosa 18: 184. 1928. (Trans. Nat. Hist. Soc. Formosa)" ;
     :basionym <https://tropicos.org/name/35186801> ;
     :nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
 
@@ -2082,7 +2082,7 @@
     dwc:scientificName "Dicranoloma braunii var. mindanense (M.Fleisch.) Ihsiba" ;
     :taxonNameString "Dicranoloma braunii var. mindanense" ;
     dwc:scientificNameAuthorship "Ihsiba" ;
-    dwc:namePublihedIn "Catalog of Mosses of Japan [index] 4. 1929. (Cat. Mosses Japan)" ;
+    dwc:namePublishedIn "Catalog of Mosses of Japan [index] 4. 1929. (Cat. Mosses Japan)" ;
     :basionym <https://tropicos.org/name/35186801> ;
     :nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
 
@@ -2090,7 +2090,7 @@
     dwc:scientificName "Dicranoloma mindanense (M.Fleisch.) Z.Iwats. & B.C.Tan" ;
     :taxonNameString "Dicranoloma mindanense" ;
     dwc:scientificNameAuthorship "Z.Iwats. & B.C.Tan" ;
-    dwc:namePublihedIn "Kalikasan, Philippine Journal of Biology 8: 188. 1979. (Kalikasan)" ;
+    dwc:namePublishedIn "Kalikasan, Philippine Journal of Biology 8: 188. 1979. (Kalikasan)" ;
     :basionym <https://tropicos.org/name/35186801> ;
     :nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
 
@@ -2343,7 +2343,7 @@
     dwc:scientificName "Leucoloma brevisetum (Dozy & Molk.) Broth." ;
     :taxonNameString "Leucoloma brevisetum" ;
     dwc:scientificNameAuthorship "Broth." ;
-    dwc:namePublihedIn "Die Natürlichen Pflanzenfamilien I(3) : 322. 1901. (Nat. Pflanzenfam.)" ;
+    dwc:namePublishedIn "Die Natürlichen Pflanzenfamilien I(3) : 322. 1901. (Nat. Pflanzenfam.)" ;
     :basionym <https://tropicos.org/name/35150829> ;
     :nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
 
@@ -2439,7 +2439,7 @@
     dwc:scientificName "Leucoloma leucophyllum (Sande Lac.) Broth." ;
     :taxonNameString "Leucoloma leucophyllum" ;
     dwc:scientificNameAuthorship "Broth." ;
-    dwc:namePublihedIn "Die Natürlichen Pflanzenfamilien I(3) : 322. 1901. (Nat. Pflanzenfam.)" ;
+    dwc:namePublishedIn "Die Natürlichen Pflanzenfamilien I(3) : 322. 1901. (Nat. Pflanzenfam.)" ;
     :basionym <https://tropicos.org/name/35123679> ;
     :nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
 
@@ -2447,7 +2447,7 @@
     dwc:scientificName "Dicranoloma leucophyllum (Sande Lac.) Paris" ;
     :taxonNameString "Dicranoloma leucophyllum" ;
     dwc:scientificNameAuthorship "(Sande Lac.) Paris" ;
-    dwc:namePublihedIn "Index Bryologicus, editio secunda 2: 27. 1904. (Index Bryol. (ed. 2) )" ;
+    dwc:namePublishedIn "Index Bryologicus, editio secunda 2: 27. 1904. (Index Bryol. (ed. 2) )" ;
     :basionym <https://tropicos.org/name/35123679> ;
     :nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
 
@@ -2495,7 +2495,7 @@
     dwc:scientificName "Dicranoloma leucophyllum var. kurzii (M.Fleisch.) Paris" ;
     :taxonNameString "Dicranoloma leucophyllum var. kurzii" ;
     dwc:scientificNameAuthorship "Paris" ;
-    dwc:namePublihedIn "Index Bryologicus, editio secunda 2: 27. 1904. (Index Bryol. (ed. 2) )" ;
+    dwc:namePublishedIn "Index Bryologicus, editio secunda 2: 27. 1904. (Index Bryol. (ed. 2) )" ;
     :basionym <https://tropicos.org/name/35123680> ;
     :nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
 
@@ -3111,7 +3111,7 @@
 <https://tropicos.org/name/35184274> a :TaxonName ;
     dwc:scientificName "Dicranum daymannianum (E.B.Bartram) D.H.Norris & T.J.Kop." ;
     dwc:scientificNameAuthorship "(E.B.Bartram) D.H.Norris & T.J.Kop." ;
-    dwc:namePublihedIn "Acta Botanica Fennica 139: 40. 1990. (Acta Bot. Fenn.)" ;
+    dwc:namePublishedIn "Acta Botanica Fennica 139: 40. 1990. (Acta Bot. Fenn.)" ;
     dwc:namePublishedInYear "1990" ;
     :basionym <https://tropicos.org/name/35121509> .
 
@@ -3175,7 +3175,7 @@
     dwc:scientificName "Leucoloma dicarpon (Nees) Broth." ;
     :taxonNameString "Leucoloma dicarpon" ;
     dwc:scientificNameAuthorship "Broth." ;
-    dwc:namePublihedIn "Die Natürlichen Pflanzenfamilien I(3) : 322. 1901. (Nat. Pflanzenfam.)" ;
+    dwc:namePublishedIn "Die Natürlichen Pflanzenfamilien I(3) : 322. 1901. (Nat. Pflanzenfam.)" ;
     :basionym <https://tropicos.org/name/35122214> ;
     :nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
 
@@ -3370,7 +3370,7 @@
     dwc:scientificName "Dicranum geluense (Herzog) D.H.Norris & T.J.Kop." ;
     :taxonNameString "Dicranum geluense" ;
     dwc:scientificNameAuthorship "D.H.Norris & T.J.Kop." ;
-    dwc:namePublihedIn "Acta Botanica Fennica 139: 43. 1990. (Acta Bot. Fenn.)" ;
+    dwc:namePublishedIn "Acta Botanica Fennica 139: 43. 1990. (Acta Bot. Fenn.)" ;
     :basionym <https://tropicos.org/name/35128174> ;
     :nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
 
@@ -3576,7 +3576,7 @@
     dwc:scientificName "Leucoloma reflexifolium (Müll.Hal.) Broth." ;
     :taxonNameString "Leucoloma reflexifolium" ;
     dwc:scientificNameAuthorship "Broth." ;
-    dwc:namePublihedIn "Die Natürlichen Pflanzenfamilien I(3) : 322. 1901. (Nat. Pflanzenfam.)" ;
+    dwc:namePublishedIn "Die Natürlichen Pflanzenfamilien I(3) : 322. 1901. (Nat. Pflanzenfam.)" ;
     :basionym <https://tropicos.org/name/35124046> ;
     :nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
 
@@ -3584,7 +3584,7 @@
     dwc:scientificName "Dicranoloma reflexifolium (Müll.Hal.) Broth." ;
     :taxonNameString "Dicranoloma reflexifolium" ;
     dwc:scientificNameAuthorship "Broth." ;
-    dwc:namePublihedIn "Index Bryologicus, editio secunda 2: 29. 1904. (Index Bryol. (ed. 2) )" ;
+    dwc:namePublishedIn "Index Bryologicus, editio secunda 2: 29. 1904. (Index Bryol. (ed. 2) )" ;
     :basionym <https://tropicos.org/name/35124046> ;
     :nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
 
@@ -3620,7 +3620,7 @@
     dwc:scientificName "Leucoloma dives (Bosch & Sande Lac.) Broth." ;
     :taxonNameString "Leucoloma dives" ;
     dwc:scientificNameAuthorship "Broth." ;
-    dwc:namePublihedIn "Die Natürlichen Pflanzenfamilien I(3) : 322. 1901. (Nat. Pflanzenfam.)" ;
+    dwc:namePublishedIn "Die Natürlichen Pflanzenfamilien I(3) : 322. 1901. (Nat. Pflanzenfam.)" ;
     :basionym <https://tropicos.org/name/35122238> ;
     :nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
 
@@ -3652,7 +3652,7 @@
     dwc:scientificName "Dicranoloma limprichtii (M.Fleisch.) Paris" ;
     :taxonNameString "Dicranoloma limprichtii" ;
     dwc:scientificNameAuthorship "Paris" ;
-    dwc:namePublihedIn "Index Bryologicus, editio secunda 2: 27. 1904. (Index Bryol. (ed. 2) )" ;
+    dwc:namePublishedIn "Index Bryologicus, editio secunda 2: 27. 1904. (Index Bryol. (ed. 2) )" ;
     :basionym <https://tropicos.org/name/35123686> ;
     :nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
 
@@ -4035,7 +4035,7 @@
     dwc:scientificName "Leucoloma armitii (Müll.Hal.) Broth." ;
     :taxonNameString "Leucoloma armitii" ;
     dwc:scientificNameAuthorship "Broth." ;
-    dwc:namePublihedIn "Die Natürlichen Pflanzenfamilien I(3) : 322. 1901. (Nat. Pflanzenfam.)" ;
+    dwc:namePublishedIn "Die Natürlichen Pflanzenfamilien I(3) : 322. 1901. (Nat. Pflanzenfam.)" ;
     :basionym <https://tropicos.org/name/35121907> ;
     :nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
 
