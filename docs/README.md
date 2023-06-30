@@ -6,8 +6,8 @@ Any changes should be made in the YAML files, not directly in the markdown.
 
 ### Term list
 
-- [TCS terms](./tcs-terms.md)
+- [TCS terms](./tcs-terms/)
 
 ### Controlled vocabularies
 
-- [Taxon Relationship Type controlled vocabulary](./taxon-relationship-type-vocabulary.md)
+- [Taxon Relationship Type controlled vocabulary](./taxon-relationship-type-vocabulary/)
