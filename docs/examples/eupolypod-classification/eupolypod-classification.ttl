@@ -1,0 +1,535 @@
+# see https://github.com/tdwg/tnc/issues/58
+@prefix : <http://rs.tdwg.org/tcs/terms/> .
+@prefix address: <http://schemas.talis.com/2005/address/schema#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix dwc: <http://rs.tdwg.org/dwc/terms/> .
+@prefix dwciri: <http://rs.tdwg.org/dwc/iri/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix gbif: <http://rs.gbif.org/terms/1.0/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+
+# Taxon concepts
+
+# Taxonomy 2012 Rothfels & al.
+
+_:tc-2012-Eupolypods a :TaxonConcept ;
+    dcterms:title "Eupolypods sec. Rothfels & al. 2012" ;
+    :accordingTo <https://doi.org/10.1002/tax.613003> ;
+    :acceptedName _:tn5d4f0656a86805a4 .
+
+_:tc-2012-Eupolypods-I a :TaxonConcept ;
+    dcterms:title "Eupolypods I sec. Rothfels & al. 2012" ;
+    :accordingTo <https://doi.org/10.1002/tax.613003> ;
+    :acceptedName _:tn44673c94cdc45415 .
+
+_:tc-2012-Eupolypods-II a :TaxonConcept ;
+    dcterms:title "Eupolypods II sec. Rothfels & al. 2012" ;
+    :accordingTo <https://doi.org/10.1002/tax.613003> ;
+    :acceptedName _:tn79905b93a0bb9c11 .
+
+_:tc-2012-Aspleniaceae a :TaxonConcept ;
+    dcterms:title "Aspleniaceae sec. Rothfels & al. 2012" ;
+    :accordingTo <https://doi.org/10.1002/tax.613003> ;
+    :acceptedName <https://ipni.org/n/30001382-2> .
+
+_:tc-2012-Athyriaceae a :TaxonConcept ;
+    dcterms:title "Athyriaceae sec. Rothfels & al. 2012" ;
+    :accordingTo <https://doi.org/10.1002/tax.613003> ;
+    :acceptedName <https://ipni.org/n/30000361-2> .
+
+_:tc-2012-Blechnaceae a :TaxonConcept ;
+    dcterms:title "Blechnaceae sec. Rothfels & al. 2012" ;
+    :accordingTo <https://doi.org/10.1002/tax.613003> ;
+    :acceptedName <https://ipni.org/n/30002151-2> .
+
+_:tc-2012-Cystopteridaceae a :TaxonConcept ;
+    dcterms:title "Cystopteridaceae sec. Rothfels & al. 2012" ;
+    :accordingTo <https://doi.org/10.1002/tax.613003> ;
+    :acceptedName <https://ipni.org/n/20001946-1> .
+
+_:tc-2012-Diplaziopsidaceae a :TaxonConcept ;
+    dcterms:title "Diplaziopsidaceae sec. Rothfels & al. 2012" ;
+    :accordingTo <https://doi.org/10.1002/tax.613003> ;
+    :acceptedName <https://ipni.org/n/77110538-1> .
+
+_:tc-2012-Hemidictyaceae a :TaxonConcept ;
+    dcterms:title "Hemidictyaceae sec. Rothfels & al. 2012" ;
+    :accordingTo <https://doi.org/10.1002/tax.613003> ;
+    :acceptedName <https://ipni.org/n/77114955-1> .
+
+_:tc-2012-Onocleaceae a :TaxonConcept ;
+    dcterms:title "Onocleaceae sec. Rothfels & al. 2012" ;
+    :accordingTo <https://doi.org/10.1002/tax.613003> ;
+    :acceptedName <https://ipni.org/n/17446060-1> .
+
+_:tc-2012-Rhachidosoraceae a :TaxonConcept ;
+    dcterms:title "Rhachidosoraceae sec. Rothfels & al. 2012" ;
+    :accordingTo <https://doi.org/10.1002/tax.613003> ;
+    :acceptedName <https://ipni.org/n/77110539-1> .
+
+_:tc-2012-Thelypteridaceae a :TaxonConcept ;
+    dcterms:title "Thelypteridaceae sec. Rothfels & al. 2012" ;
+    :accordingTo <https://doi.org/10.1002/tax.613003> ;
+    :acceptedName <https://ipni.org/n/30000455-2> .
+
+_:tc-2012-Woodsiaceae a :TaxonConcept ;
+    dcterms:title "Woodsiaceae sec. Rothfels & al. 2012" ;
+    :accordingTo <https://doi.org/10.1002/tax.613003> ;
+    :acceptedName <https://ipni.org/n/60456504-2> .
+
+# Taxonomy 2006 Smith & al.
+
+_:tc-2006-Eupolypods a :TaxonConcept ;
+    dcterms:title "Eupolypods sec. Smith & al. 2006" ;
+    :accordingTo <https://doi.org/10.2307/25065646> ;
+    :acceptedName _:tn5d4f0656a86805a4 .
+
+_:tc-2006-Eupolypods-I a :TaxonConcept ;
+    dcterms:title "Eupolypods I sec. Smith & al. 2006" ;
+    :accordingTo <https://doi.org/10.2307/25065646> ;
+    :acceptedName _:tn44673c94cdc45415 .
+
+_:tc-2006-Davalliaceae a :TaxonConcept ;
+    dcterms:title "Davalliaceae sec. Smith & al. 2006" ;
+    :accordingTo <https://doi.org/10.2307/25065646> ;
+    :acceptedName <https://www.ipni.org/n/30010274-2> .
+
+_:tc-2006-Dryopteridaceae a :TaxonConcept ;
+    dcterms:title "Dryopteridaceae sec. Smith & al. 2006" ;
+    :accordingTo <https://doi.org/10.2307/25065646> ;
+    :acceptedName <https://www.ipni.org/n/30014148-2> .
+
+_:tc-2006-Lomariopsidaceae a :TaxonConcept ;
+    dcterms:title "Lomariopsidaceae sec. Smith & al. 2006" ;
+    :accordingTo <https://doi.org/10.2307/25065646> ;
+    :acceptedName <https://ipni.org/n/30007469-2> .
+
+_:tc-2006-Oleandraceae a :TaxonConcept ;
+    dcterms:title "Oleandraceae sec. Smith & al. 2006" ;
+    :accordingTo <https://doi.org/10.2307/25065646> ;
+    :acceptedName <https://ipni.org/n/30007469-2> .
+
+_:tc-2006-Polypodiaceae a :TaxonConcept ;
+    dcterms:title "Polypodiaceae sec. Smith & al. 2006" ;
+    :accordingTo <https://doi.org/10.2307/25065646> ;
+    :acceptedName <https://ipni.org/n/30000471-2> .
+
+_:tc-2006-Tectariaceae a :TaxonConcept ;
+    dcterms:title "Tectariaceae sec. Smith & al. 2006" ;
+    :accordingTo <https://doi.org/10.2307/25065646> ;
+    :acceptedName <https://ipni.org/n/17522120-1> .
+
+_:tc-2006-Eupolypods-II a :TaxonConcept ;
+    dcterms:title "Eupolypods II sec. Smith & al. 2006" ;
+    :accordingTo <https://doi.org/10.2307/25065646> ;
+    :acceptedName _:tn79905b93a0bb9c11 .
+
+_:tc-2006-Aspleniaceae a :TaxonConcept ;
+    dcterms:title "Aspleniaceae sec. Smith & al. 2006" ;
+    :accordingTo <https://doi.org/10.2307/25065646> ;
+    :acceptedName <https://ipni.org/n/30001382-2> .
+
+_:tc-2006-Blechnaceae a :TaxonConcept ;
+    dcterms:title "Blechnaceae sec. Smith & al. 2006" ;
+    :accordingTo <https://doi.org/10.2307/25065646> ;
+    :acceptedName <https://ipni.org/n/30000361-2> .
+
+_:tc-2006-Onocleaceae a :TaxonConcept ;
+    dcterms:title "Onocleaceae sec. Smith & al. 2006" ;
+    :accordingTo <https://doi.org/10.2307/25065646> ;
+    :acceptedName <https://ipni.org/n/17446060-1> .
+
+_:tc-2006-Thelypteridaceae a :TaxonConcept ;
+    dcterms:title "Thelypteridaceae sec. Smith & al. 2006" ;
+    :accordingTo <https://doi.org/10.2307/25065646> ;
+    :acceptedName <https://ipni.org/n/30000455-2> .
+
+_:tc-2006-Woodsiaceae a :TaxonConcept ;
+    dcterms:title "Woodsiaceae sec. Smith & al. 2006" ;
+    :accordingTo <https://doi.org/10.2307/25065646> ;
+    :acceptedName <https://ipni.org/n/30000455-2> .
+
+
+# Taxon relationships
+
+[] a :TaxonRelationship ;
+    :relationshipAccordingTo <https://doi.org/10.1002/tax.613003> ;
+    :relationshipType <http://rs.tdwg.org/tcs-taxon-relationship-type/values/isCongruentWith> ;
+    :subjectTaxonConcept _:tc-2012-Eupolypods;
+    :objectTaxonConcept _:tc-2006-Eupolypods .
+
+[] a :TaxonRelationship ;
+    :relationshipAccordingTo <https://doi.org/10.1002/tax.613003> ;
+    :relationshipType <http://rs.tdwg.org/tcs-taxon-relationship-type/values/isCongruentWith> ;
+    :subjectTaxonConcept _:tc-2012-Eupolypods-I;
+    :objectTaxonConcept _:tc-2006-Eupolypods-I .
+
+[] a :TaxonRelationship ;
+    :relationshipAccordingTo <https://doi.org/10.1002/tax.613003> ;
+    :relationshipType <http://rs.tdwg.org/tcs-taxon-relationship-type/values/isCongruentWith> ;
+    :subjectTaxonConcept _:tc-2012-Eupolypods-II;
+    :objectTaxonConcept _:tc-2006-Eupolypods-II .
+
+[] a :TaxonRelationship ;
+    :relationshipAccordingTo <https://doi.org/10.1002/tax.613003> ;
+    :relationshipType <http://rs.tdwg.org/tcs-taxon-relationship-type/values/isIncludedIn> ;
+    :subjectTaxonConcept _:tc-2012-Athyriaceae;
+    :objectTaxonConcept _:tc-2006-Woodsiaceae .
+
+[] a :TaxonRelationship ;
+    :relationshipAccordingTo <https://doi.org/10.1002/tax.613003> ;
+    :relationshipType <http://rs.tdwg.org/tcs-taxon-relationship-type/values/isIncludedIn> ;
+    :subjectTaxonConcept _:tc-2012-Cystopteridaceae;
+    :objectTaxonConcept _:tc-2006-Woodsiaceae .
+
+[] a :TaxonRelationship ;
+    :relationshipAccordingTo <https://doi.org/10.1002/tax.613003> ;
+    :relationshipType <http://rs.tdwg.org/tcs-taxon-relationship-type/values/isIncludedIn> ;
+    :subjectTaxonConcept _:tc-2012-Diplaziopsidaceae;
+    :objectTaxonConcept _:tc-2006-Woodsiaceae .
+
+[] a :TaxonRelationship ;
+    :relationshipAccordingTo <https://doi.org/10.1002/tax.613003> ;
+    :relationshipType <http://rs.tdwg.org/tcs-taxon-relationship-type/values/isIncludedIn> ;
+    :subjectTaxonConcept _:tc-2012-Hemidictyaceae;
+    :objectTaxonConcept _:tc-2006-Woodsiaceae .
+
+[] a :TaxonRelationship ;
+    :relationshipAccordingTo <https://doi.org/10.1002/tax.613003> ;
+    :relationshipType <http://rs.tdwg.org/tcs-taxon-relationship-type/values/isIncludedIn> ;
+    :subjectTaxonConcept _:tc-2012-Rhachidosoraceae;
+    :objectTaxonConcept _:tc-2006-Woodsiaceae .
+
+[] a :TaxonRelationship ;
+    :relationshipAccordingTo <https://doi.org/10.1002/tax.613003> ;
+    :relationshipType <http://rs.tdwg.org/tcs-taxon-relationship-type/values/isIncludedIn> ;
+    :subjectTaxonConcept _:tc-2012-Woodsiaceae;
+    :objectTaxonConcept _:tc-2006-Woodsiaceae .
+
+[] a :TaxonRelationship ;
+    :relationshipAccordingTo <https://doi.org/10.1002/tax.613003> ;
+    :relationshipType <http://rs.tdwg.org/tcs-taxon-relationship-type/values/isCongruentWith> ;
+    :subjectTaxonConcept _:tc-2012-Blechnaceae;
+    :objectTaxonConcept _:tc-2006-Blechnaceae .
+
+[] a :TaxonRelationship ;
+    :relationshipAccordingTo <https://doi.org/10.1002/tax.613003> ;
+    :relationshipType <http://rs.tdwg.org/tcs-taxon-relationship-type/values/isCongruentWith> ;
+    :subjectTaxonConcept _:tc-2012-Onocleaceae;
+    :objectTaxonConcept _:tc-2006-Onocleaceae .
+
+[] a :TaxonRelationship ;
+    :relationshipAccordingTo <https://doi.org/10.1002/tax.613003> ;
+    :relationshipType <http://rs.tdwg.org/tcs-taxon-relationship-type/values/isCongruentWith> ;
+    :subjectTaxonConcept _:tc-2012-Thelypteridaceae;
+    :objectTaxonConcept _:tc-2006-Thelypteridaceae .
+
+# Alternate, apocryphal way
+
+
+_:tc-2012-Eupolypods a :TaxonConcept ;
+    dcterms:title "Eupolypods sec. Rothfels & al. 2012" ;
+    :accordingTo <https://doi.org/10.1002/tax.613003> ;
+    :acceptedName _:tn5d4f0656a86805a4 ;
+    :isCongruentWith _:tc-2006-Eupolypods .
+
+_:tc-2012-Eupolypods-I a :TaxonConcept ;
+    dcterms:title "Eupolypods I sec. Rothfels & al. 2012" ;
+    :accordingTo <https://doi.org/10.1002/tax.613003> ;
+    :acceptedName _:tn44673c94cdc45415 ;
+    :isCongruentWith _:tc-2006-Eupolypods-I .
+
+_:tc-2012-Eupolypods-II a :TaxonConcept ;
+    dcterms:title "Eupolypods II sec. Rothfels & al. 2012" ;
+    :accordingTo <https://doi.org/10.1002/tax.613003> ;
+    :acceptedName _:tn79905b93a0bb9c11 ;
+    :isCongruentWith _:tc-2006-Eupolypods-II .
+
+_:tc-2012-Aspleniaceae a :TaxonConcept ;
+    dcterms:title "Aspleniaceae sec. Rothfels & al. 2012" ;
+    :accordingTo <https://doi.org/10.1002/tax.613003> ;
+    :acceptedName <https://ipni.org/n/30001382-2> ;
+    :isCongruentWith _:tc-2006-Aspleniaceae .
+
+_:tc-2012-Athyriaceae a :TaxonConcept ;
+    dcterms:title "Athyriaceae sec. Rothfels & al. 2012" ;
+    :accordingTo <https://doi.org/10.1002/tax.613003> ;
+    :acceptedName <https://ipni.org/n/30000361-2> ;
+    :isIncludedIn _:tc-2006-Woodsiaceae .
+
+_:tc-2012-Blechnaceae a :TaxonConcept ;
+    dcterms:title "Blechnaceae sec. Rothfels & al. 2012" ;
+    :accordingTo <https://doi.org/10.1002/tax.613003> ;
+    :acceptedName <https://ipni.org/n/30002151-2> ;
+    :isIncludedIn _:tc-2006-Woodsiaceae .
+
+_:tc-2012-Cystopteridaceae a :TaxonConcept ;
+    dcterms:title "Cystopteridaceae sec. Rothfels & al. 2012" ;
+    :accordingTo <https://doi.org/10.1002/tax.613003> ;
+    :acceptedName <https://ipni.org/n/20001946-1> ;
+    :isIncludedIn _:tc-2006-Woodsiaceae .
+
+_:tc-2012-Diplaziopsidaceae a :TaxonConcept ;
+    dcterms:title "Diplaziopsidaceae sec. Rothfels & al. 2012" ;
+    :accordingTo <https://doi.org/10.1002/tax.613003> ;
+    :acceptedName <https://ipni.org/n/77110538-1> ;
+    :isIncludedIn _:tc-2006-Woodsiaceae .
+
+_:tc-2012-Hemidictyaceae a :TaxonConcept ;
+    dcterms:title "Hemidictyaceae sec. Rothfels & al. 2012" ;
+    :accordingTo <https://doi.org/10.1002/tax.613003> ;
+    :acceptedName <https://ipni.org/n/77114955-1> ;
+    :isIncludedIn _:tc-2006-Woodsiaceae .
+
+_:tc-2012-Onocleaceae a :TaxonConcept ;
+    dcterms:title "Onocleaceae sec. Rothfels & al. 2012" ;
+    :accordingTo <https://doi.org/10.1002/tax.613003> ;
+    :acceptedName <https://ipni.org/n/17446060-1> ;
+    :isCongruentWith _:tc-2006-Onocleaceae .
+
+_:tc-2012-Rhachidosoraceae a :TaxonConcept ;
+    dcterms:title "Rhachidosoraceae sec. Rothfels & al. 2012" ;
+    :accordingTo <https://doi.org/10.1002/tax.613003> ;
+    :acceptedName <https://ipni.org/n/77110539-1> ;
+    :isIncludedIn _:tc-2006-Woodsiaceae .
+
+_:tc-2012-Thelypteridaceae a :TaxonConcept ;
+    dcterms:title "Thelypteridaceae sec. Rothfels & al. 2012" ;
+    :accordingTo <https://doi.org/10.1002/tax.613003> ;
+    :acceptedName <https://ipni.org/n/30000455-2> ;
+    :isCongruentWith _:tc-2006-Thelypteridaceae .
+
+_:tc-2012-Woodsiaceae a :TaxonConcept ;
+    dcterms:title "Woodsiaceae sec. Rothfels & al. 2012" ;
+    :accordingTo <https://doi.org/10.1002/tax.613003> ;
+    :acceptedName <https://ipni.org/n/60456504-2> ;
+    :isIncludedIn _:tc-2006-Woodsiaceae .
+
+
+# Taxon names
+
+_:tn5d4f0656a86805a4 a :TaxonName ;
+    :taxonNameString "Eupolypods" .
+
+_:tn44673c94cdc45415 a :TaxonName ;
+    :taxonNameString "Eupolypods I" .
+
+_:tn79905b93a0bb9c11 a :TaxonName ;
+    :taxonNameString "Eupolypods II" .
+
+<https://www.ipni.org/n/30010274-2> a :TaxonName ;
+    :taxonNameString "Davalliaceae" ;
+    dwc:scientificName "Davalliaceae M.R.Schomb." ;
+    dwc:scientificNameAuthorship "M.R.Schomb." ;
+    dwc:namePublishedIn "Reis. Br.-Guiana [Ri. Schomburgk] 2: 883" ;
+    dwc:namePublishedInYear "1848" .
+
+<https://www.ipni.org/n/30014148-2> a :TaxonName ;
+    :taxonNameString "Dryopteridaceae" ;
+    dwc:scientificName "Dryopteridaceae Herter" ;
+    dwc:scientificNameAuthorship "Herter" ;
+    dwc:namePublishedIn "Revista Sudamer. Bot. 9: 15" ;
+    dwc:namePublishedInYear "1949" .
+
+<https://ipni.org/n/30007469-2> a :TaxonName ;
+    :taxonNameString "Lomariopsidaceae" ;
+    dwc:scientificName "Lomariopsidaceae Alston" ;
+    dwc:scientificNameAuthorship "Alston" ;
+    dwc:namePublishedIn "Taxon 5: 25" ;
+    dwc:namePublishedInYear "1956" .
+
+<https://ipni.org/n/17446010-1> a :TaxonName ;
+    :taxonNameString "Oleandraceae Ching ex Pic.Serm., " ;
+    dwc:scientificName "Oleandraceae Pic.Serm." ;
+    dwc:scientificNameAuthorship "Pic.Serm." ;
+    dwc:namePublishedIn "Webbia 20: 745" ;
+    dwc:namePublishedInYear "1965" .
+
+<https://ipni.org/n/30000471-2> a :TaxonName ;
+    :taxonNameString "Polypodiaceae" ;
+    dwc:scientificName "Polypodiaceae J.Presl & C.Presl" ;
+    dwc:scientificNameAuthorship "J.Presl & C.Presl" ;
+    dwc:namePublishedIn "Delic. Prag. 159" ;
+    dwc:namePublishedInYear "1822" .
+
+<https://ipni.org/n/17522120-1> a :TaxonName ;
+    :taxonNameString "Tectariaceae Panigrahi, J. Orissa Bot. Soc. 8(1): 41 (1986)" ;
+    dwc:scientificName "Tectariaceae Panigrahi" ;
+    dwc:scientificNameAuthorship "Panigrahi" ;
+    dwc:namePublishedIn "J. Orissa Bot. Soc. 8(1): 41" ;
+    dwc:namePublishedInYear "1986" .
+
+<https://ipni.org/n/30001382-2> a :TaxonName ;
+    :taxonNameString "Aspleniaceae" ;
+    dwc:scientificName "Aspleniaceae Newman" ;
+    dwc:scientificNameAuthorship "Newman" ;
+    dwc:namePublishedIn "Hist. Brit. Ferns 6" ;
+    dwc:namePublishedInYear "1840" .
+
+<https://ipni.org/n/30000361-2> a :TaxonName ;
+    :taxonNameString "Athyriaceae" ;
+    dwc:scientificName "Athyriaceae Alston" ;
+    dwc:scientificNameAuthorship "Alston" ;
+    dwc:namePublishedIn "Taxon 5: 25" ;
+    dwc:namePublishedInYear "1956" .
+
+<https://ipni.org/n/30002151-2> a :TaxonName ;
+    :taxonNameString "Blechnaceae" ;
+    dwc:scientificName "Blechnaceae Newman" ;
+    dwc:scientificNameAuthorship "Newman" ;
+    dwc:namePublishedIn "Hist. Brit. Ferns, ed. 2 8" ;
+    dwc:namePublishedInYear "1844" .
+
+<https://ipni.org/n/20001946-1> a :TaxonName ;
+    :taxonNameString "Cystopteridaceae" ;
+    dwc:scientificName "Cystopteridaceae (Payer) Shmakov" ;
+    dwc:scientificNameAuthorship "(Payer) Shmakov" ;
+    dwc:namePublishedIn "Turczaninowia 4(1-2): 60" ;
+    dwc:namePublishedInYear "2001" .
+
+<https://ipni.org/n/77110538-1> a :TaxonName ;
+    :taxonNameString "Diplaziopsidaceae" ;
+    dwc:scientificName "Diplaziopsidaceae X.C.Zhang & Christenh." ;
+    dwc:scientificNameAuthorship "X.C.Zhang & Christenh." ;
+    dwc:namePublishedIn "Phytotaxa 19: 15" ;
+    dwc:namePublishedInYear "2011" .
+
+<https://ipni.org/n/77114955-1> a :TaxonName ;
+    :taxonNameString "Hemidictyaceae" ;
+    dwc:scientificName "Hemidictyaceae Christenh. & H.Schneid." ;
+    dwc:scientificNameAuthorship "Christenh. & H.Schneid." ;
+    dwc:namePublishedIn "Phytotaxa 28: 51" ;
+    dwc:namePublishedInYear "2011" .
+
+<https://ipni.org/n/17446060-1> a :TaxonName ;
+    :taxonNameString "Onocleaceae" ;
+    dwc:scientificName "Onocleaceae Pic.Serm." ;
+    dwc:scientificNameAuthorship "Pic.Serm." ;
+    dwc:namePublishedIn "Webbia 24(2): 708" ;
+    dwc:namePublishedInYear "1970" .
+
+<https://ipni.org/n/77110539-1> a :TaxonName ;
+    :taxonNameString "Rhachidosoraceae" ;
+    dwc:scientificName "Rhachidosoraceae X.C.Zhang" ;
+    dwc:scientificNameAuthorship "X.C.Zhang" ;
+    dwc:namePublishedIn "Phytotaxa 19: 16" ;
+    dwc:namePublishedInYear "2011" .
+
+<https://ipni.org/n/30000455-2> a :TaxonName ;
+    :taxonNameString "Thelypteridaceae" ;
+    dwc:scientificName "Thelypteridaceae Pic.Serm." ;
+    dwc:scientificNameAuthorship "Pic.Serm." ;
+    dwc:namePublishedIn "Webbia 24(2): 709" ;
+    dwc:namePublishedInYear "1970" .
+
+<https://ipni.org/n/60456504-2> a :TaxonName ;
+    :taxonNameString "Woodsiaceae" ;
+    dwc:scientificName "Woodsiaceae Herter" ;
+    dwc:scientificNameAuthorship "Herter" ;
+    dwc:namePublishedIn "Revista Sudamer. Bot. 9: 14" ;
+    dwc:namePublishedInYear "1949" .
+
+
+# References
+
+<https://doi.org/10.1002/tax.613003> a bibo:AcademicArticle ;
+    dcterms:title "A revised family–level classification for eupolypod II ferns (Polypodiidae: Polypodiales)" ;
+    dcterms:creator <https://orcid.org/0000-0002-6605-1770> ,
+            <https://orcid.org/0000-0003-1568-150X> ,
+            <https://www.ipni.org/a/20030162-1> ,
+            _:p7db44c4c846970d7 ,
+            <https://www.ipni.org/a/14414-1> ,
+            <https://orcid.org/0000-0003-3891-9904> ,
+            <https://orcid.org/0000-0002-9776-6736> ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 <https://orcid.org/0000-0002-6605-1770> ;
+            rdf:_2 <https://orcid.org/0000-0003-1568-150X> ;
+            rdf:_3 <https://www.ipni.org/a/20030162-1> ;
+            rdf:_4 _:p7db44c4c846970d7 ;
+            rdf:_5 <https://www.ipni.org/a/14414-1> ;
+            rdf:_6 <https://orcid.org/0000-0003-3891-9904> ;
+            rdf:_7 <https://orcid.org/0000-0002-9776-6736> ] ;
+    dcterms:isPartOf [ a bibo:Issue ; 
+            dcterms:date "2012" ;
+            dcterms:isPartOf <https://www.ipni.org/p/812-2> ;
+            bibo:volume "61" ;
+            bibo:issue "3" ] ;
+    bibo:pages "513-533" ;
+    bibo:doi "10.1002/tax.613003" .
+
+<https://doi.org/10.2307/25065646> a bibo:AcademicArticle ;
+    dcterms:title "A classification for extant ferns" ;
+    dcterms:creator <https://www.ipni.org/a/9771-1> , 
+            <https://orcid.org/0000-0002-9776-6736> ,
+            <https://orcid.org/0000-0003-3891-9904> ,
+            <https://orcid.org/0000-0002-6677-5234> ,
+            <https://www.ipni.org/a/40553-1> ,
+            _:p548a313ff862ecc1 ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 <https://www.ipni.org/a/9771-1> ; 
+            rdf:_2 <https://orcid.org/0000-0002-9776-6736> ;
+            rdf:_3 <https://orcid.org/0000-0003-3891-9904> ;
+            rdf:_4 <https://orcid.org/0000-0002-6677-5234> ;
+            rdf:_5 <https://www.ipni.org/a/40553-1> ;
+            rdf:_6 _:p548a313ff862ecc1 ] ;
+    dcterms:isPartOf [ a bibo:Issue ;
+            dcterms:date "2006" ;
+            dcterms:isPartOf <https://www.ipni.org/p/812-2> ;
+            bibo:volume "55" ;
+            bibo:issue "3" ] ;
+    bibo:pages "705-731" ;
+    bibo:doi "10.2307/25065646" .
+
+<https://www.ipni.org/p/812-2> a bibo:Journal ;
+    dcterms:title "Taxon" ;
+    bibo:issn "1996-8175" .
+
+<https://orcid.org/0000-0002-6605-1770> a foaf:Person ;
+    foaf:givenName "Carl J." ;
+    foaf:surname "Rothfels" .
+
+<https://orcid.org/0000-0003-1568-150X> a foaf:Person ;
+    foaf:givenName "Michael E." ;
+    foaf:surname "Sundue" .
+
+<https://www.ipni.org/a/20030162-1> a foaf:Person ;
+    foaf:givenName "L-Jaung" ;
+    foaf:surname "Kuo" .
+
+_:p7db44c4c846970d7 a foaf:Person ;
+    foaf:givenName "Anders" ;
+    foaf:surname "Larsson" .
+
+<https://www.ipni.org/a/14414-1> a foaf:Person ;
+    foaf:givenName "Masahiro" ;
+    foaf:surname "Kato" .
+
+<https://orcid.org/0000-0003-3891-9904> a foaf:Person ;
+    foaf:givenName "Eric" ;
+    foaf:surname "Schuetpelz" .
+
+<https://orcid.org/0000-0002-9776-6736> a foaf:Person ;
+    foaf:givenName "Kathleen M." ;
+    foaf:surname "Pryer" .
+
+<https://www.ipni.org/a/9771-1> a foaf:Person ;
+    foaf:givenName "Alan R." ;
+    foaf:surname "Smith" .
+
+<https://orcid.org/0000-0002-6677-5234> a foaf:Person ;
+    foaf:givenName "Petra" ;
+    foaf:surname "Korall" .
+
+<https://www.ipni.org/a/40553-1> a foaf:Person ;
+    foaf:givenName "Harald" ;
+    foaf:surname "Schneider" .
+
+_:p548a313ff862ecc1 a bibo:Person ;
+    foaf:givenName "Paul G." ;
+    foaf:surname "Wolf" .
+

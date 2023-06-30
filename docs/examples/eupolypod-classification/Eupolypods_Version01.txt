@@ -1,0 +1,21 @@
+taxonomy 2012 RothfelsEtAl2012
+(Eupolypods Eupolypods_I Eupolypods_II)
+(Eupolypods_II Aspleniaceae Athyriaceae Blechnaceae Cystopteridaceae Diplaziopsidaceae Hemidictyaceae Onocleaceae Rhachidosoraceae Thelypteridaceae Woodsiaceae)
+
+taxonomy 2006 SmithEtAl2006
+(Eupolypods Eupolypods_I Eupolypods_II)
+(Eupolypods_I Davalliaceae Dryopteridaceae Lomariopsidaceae Oleandraceae Polypodiaceae Tectariaceae)
+(Eupolypods_II Aspleniaceae Blechnaceae Onocleaceae Thelypteridaceae Woodsiaceae)
+
+articulation 2012-2006 RothfelsEtAl2012-SmithEtAl2006
+[2012.Eupolypods_I = 2006.Eupolypods_I]
+[2012.Aspleniaceae = 2006.Aspleniaceae]
+[2012.Athyriaceae < 2006.Woodsiaceae]
+[2012.Cystopteridaceae < 2006.Woodsiaceae]
+[2012.Diplaziopsidaceae < 2006.Woodsiaceae]
+[2012.Hemidictyaceae < 2006.Woodsiaceae]
+[2012.Rhachidosoraceae < 2006.Woodsiaceae]
+[2012.Woodsiaceae < 2006.Woodsiaceae]
+[2012.Blechnaceae = 2006.Blechnaceae]
+[2012.Onocleaceae = 2006.Onocleaceae]
+[2012.Thelypteridaceae = 2006.Thelypteridaceae]
