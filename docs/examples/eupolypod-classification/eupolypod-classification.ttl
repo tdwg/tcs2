@@ -155,7 +155,6 @@ _:tc-2006-Woodsiaceae a :TaxonConcept ;
     :acceptedName <https://ipni.org/n/30000455-2> .
 
 
-
 _:tc-2011-Cystopteridaceae a :TaxonConcept ;
     dcterms:title "Cystopteridaceae sec. Christenhusz & al. 2011" ;
     :accordingTo <https://doi.org/10.11646/phytotaxa.19.1.2> ;
@@ -502,12 +501,6 @@ _:tc-1947-Onocleoideae a :TaxonConcept ;
     :subjectTaxonConcept _:tc-2012-Hemidictyaceae ;
     :objectTaxonConcept _:tc-1977-Athyriaceae .
 
-# [] a :TaxonRelationship ;
-#     :relationshipAccordingTo <https://doi.org/10.1002/tax.613003> ;
-#     :relationshipType <http://rs.tdwg.org/tcs-taxon-relationship-type/values/isIncludedIn> ;
-#     :subjectTaxonConcept _:tc-2012-Athyriaceae ;
-#     :objectTaxonConcept _:tc-1977-Athyriaceae .
-
 [] a :TaxonRelationship ;
     :relationshipAccordingTo <https://doi.org/10.1002/tax.613003> ;
     :relationshipType <http://rs.tdwg.org/tcs-taxon-relationship-type/values/isCongruentWith> ;
@@ -737,6 +730,7 @@ _:tn79905b93a0bb9c11 a :TaxonName ;
     dwc:namePublishedIn "Taxon 19: 235" ;
     dwc:namePublishedInYear "1970" .
 
+
 # References
 
 <https://doi.org/10.1002/tax.613003> a bibo:AcademicArticle ;
@@ -858,6 +852,7 @@ _:r8356b78f024b33be a bibo:AcademicArticle ;
     dcterms:title "Journal of the Linnean Society. Botany" .
 
 
+# Agents
 
 <https://orcid.org/0000-0002-6605-1770> a foaf:Person ;
     foaf:givenName "Carl J." ;
