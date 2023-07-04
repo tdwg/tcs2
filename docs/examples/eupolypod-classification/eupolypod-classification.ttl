@@ -155,6 +155,126 @@ _:tc-2006-Woodsiaceae a :TaxonConcept ;
     :acceptedName <https://ipni.org/n/30000455-2> .
 
 
+
+_:tc-2011-Cystopteridaceae a :TaxonConcept ;
+    dcterms:title "Cystopteridaceae sec. Christenhusz & al. 2011" ;
+    :accordingTo <https://doi.org/10.11646/phytotaxa.19.1.2> ;
+    :acceptedName <https://ipni.org/n/20001946-1> .
+
+_:tc-2011-Rhachidosoraceae a :TaxonConcept ;
+    dcterms:title "Rhachidosoraceae sec. Christnhusz & al. 2011" ;
+    :accordingTo <https://doi.org/10.11646/phytotaxa.19.1.2> ;
+    :acceptedName <https://ipni.org/n/77110539-1> .
+
+_:tc-2011-Diplaziopsidaceae a :TaxonConcept ;
+    dcterms:title "Diplaziopsidaceae sec. Christenhusz & al. 2011" ;
+    :accordingTo <https://doi.org/10.11646/phytotaxa.19.1.2> ;
+    :acceptedName <https://ipni.org/n/77110538-1> .
+
+_:tc-2011-Athyriaceae a :TaxonConcept ;
+    dcterms:title "Athyriaceae sec. Christenhusz & al. 2011" ;
+    :accordingTo <https://doi.org/10.11646/phytotaxa.19.1.2> ;
+    :acceptedName <https://ipni.org/n/30000361-2> .
+
+_:tc-2011-Hemidictyaceae a :TaxonConcept ;
+    dcterms:title "Hemidictyaceae sec. Christenhusz & al. 2011" ;
+    :accordingTo <https://doi.org/10.11646/phytotaxa.19.1.2> ;
+    :acceptedName <https://ipni.org/n/77114955-1> .
+
+_:tc-2012-Aspleniaceae a :TaxonConcept ;
+    dcterms:title "Aspleniaceae sec. Christenhusz & al. 2011" ;
+    :accordingTo <https://doi.org/10.11646/phytotaxa.19.1.2> ;
+    :acceptedName <https://ipni.org/n/30001382-2> .
+
+_:tc-2011-Thelypteridaceae a :TaxonConcept ;
+    dcterms:title "Thelypteridaceae sec. Christenhusz & al. 2011" ;
+    :accordingTo <https://doi.org/10.11646/phytotaxa.19.1.2> ;
+    :acceptedName <https://ipni.org/n/30000455-2> .
+
+_:tc-2011-Woodsiaceae a :TaxonConcept ;
+    dcterms:title "Woodsiaceae sec. Christenhusz & al. 2011" ;
+    :accordingTo <https://doi.org/10.11646/phytotaxa.19.1.2> ;
+    :acceptedName <https://ipni.org/n/60456504-2> .
+
+_:tc-2011-Blechnaceae a :TaxonConcept ;
+    dcterms:title "Blechnaceae sec. Christenhusz & al. 2011" ;
+    :accordingTo <https://doi.org/10.11646/phytotaxa.19.1.2> ;
+    :acceptedName <https://ipni.org/n/30002151-2> .
+
+_:tc-2012-Onocleaceae a :TaxonConcept ;
+    dcterms:title "Onocleaceae sec. Christenhusz & al. 2011" ;
+    :accordingTo <https://doi.org/10.11646/phytotaxa.19.1.2> ;
+    :acceptedName <https://ipni.org/n/17446060-1> .
+
+
+_:tc-1970-Dryopteridaceae a :TaxonConcept ;
+    dcterms:title "Dryopteridaceae sec. Nayar 1970" ;
+    :accordingTo <https://doi.org/10.2307/1217958> ;
+    :acceptedName <https://www.ipni.org/n/30014148-2> .
+
+_:tc-1970-Aspleniaceae a :TaxonConcept ;
+    dcterms:title "Aspleniaceae sec. Nayar 1970" ;
+    :accordingTo <https://doi.org/10.2307/1217958> ;
+    :acceptedName <https://ipni.org/n/30001382-2> .
+
+_:tc-1970-Thelypteridaceae a :TaxonConcept ;
+    dcterms:title "Thelypteridaceae sec. Nayar 1970" ;
+    :accordingTo <https://doi.org/10.2307/1217958> ;
+    :acceptedName <https://ipni.org/n/30000455-2> .
+
+_:tc-1970-Blechnaceae a :TaxonConcept ;
+    dcterms:title "Blechnaceae sec. Nayar 1970" ;
+    :accordingTo <https://doi.org/10.1002/tax.613003> ;
+    :acceptedName <https://ipni.org/n/30002151-2> .
+
+
+_:tc-1977-Athyriaceae a :TaxonConcept ;
+    dcterms:title "Athyriaceae sec. Pichi Sermolli 1977" ;
+    :accordingTo <https://doi.org/10.1080/00837792.1977.10670077> ;
+    :acceptedName <https://ipni.org/n/30000361-2> .
+
+_:tc-1977-Aspleniaceae a :TaxonConcept ;
+    dcterms:title "Aspleniaceae sec. Pichi Sermolli 1977" ;
+    :accordingTo <https://doi.org/10.1080/00837792.1977.10670077> ;
+    :acceptedName <https://ipni.org/n/30001382-2> .
+
+_:tc-1977-Thelypteridaceae a :TaxonConcept ;
+    dcterms:title "Thelypteridaceae sec. Pichi Sermolli 1977" ;
+    :accordingTo <https://doi.org/10.1080/00837792.1977.10670077> ;
+    :acceptedName <https://ipni.org/n/30000455-2> .
+
+_:tc-1977-Woodsiaceae a :TaxonConcept ;
+    dcterms:title "Woodsiaceae sec. Pichi Sermolli 1977" ;
+    :accordingTo <https://doi.org/10.1080/00837792.1977.10670077> ;
+    :acceptedName <https://ipni.org/n/60456504-2> .
+
+_:tc-1977-Blechnaceae a :TaxonConcept ;
+    dcterms:title "Blechnaceae sec. Pichi Sermolli" ;
+    :accordingTo <https://doi.org/10.1080/00837792.1977.10670077> ;
+    :acceptedName <https://ipni.org/n/30002151-2> .
+
+_:tc-1977-Onocleaceae a :TaxonConcept ;
+    dcterms:title "Onocleaceae sec. Pichi Sermolli 1977" ;
+    :accordingTo <https://doi.org/10.1080/00837792.1977.10670077> ;
+    :acceptedName <https://ipni.org/n/17446060-1> .
+
+
+_:tc-1947-Dennstaedtiaceae a :TaxonConcept ;
+    dcterms:title "Dennstaedtiaceae sec. Holttum 1947" ;
+    :accordingTo _:r8356b78f024b33be ;
+    :acceptedName <https://ipni.org/n/17434830-1> .
+
+_:tc-1947-Thelypteridaceae a :TaxonConcept ;
+    dcterms:title "Thelypteridaceae sec. Holttum 1947" ;
+    :accordingTo _:r8356b78f024b33be ;
+    :acceptedName <https://ipni.org/n/30000455-2> .
+
+_:tc-1947-Onocleoideae a :TaxonConcept ;
+    dcterms:title "Onocleoideae sec. Holttum 1947" ;
+    :accordingTo _:r8356b78f024b33be ;
+    :acceptedName <https://www.ipni.org/n/17436290-1> .
+
+    
 # Taxon relationships
 
 [] a :TaxonRelationship ;
@@ -229,86 +349,255 @@ _:tc-2006-Woodsiaceae a :TaxonConcept ;
     :subjectTaxonConcept _:tc-2012-Thelypteridaceae;
     :objectTaxonConcept _:tc-2006-Thelypteridaceae .
 
-# Alternate, apocryphal way
+
+[] a :TaxonRelationship ;
+    :relationshipAccordingTo <https://doi.org/10.1002/tax.613003> ;
+    :relationshipType <http://rs.tdwg.org/tcs-taxon-relationship-type/values/isCongruentWith> ;
+    :subjectTaxonConcept _:tc-2012-Cystopteridaceae ;
+    :objectTaxonConcept _:tc-2011-Cystopteridaceae .
+
+[] a :TaxonRelationship ;
+    :relationshipAccordingTo <https://doi.org/10.1002/tax.613003> ;
+    :relationshipType <http://rs.tdwg.org/tcs-taxon-relationship-type/values/isCongruentWith> ;
+    :subjectTaxonConcept _:tc-2012-Rhachidosoraceae ;
+    :objectTaxonConcept _:tc-2011-Rhachidosoraceae .
+
+[] a :TaxonRelationship ;
+    :relationshipAccordingTo <https://doi.org/10.1002/tax.613003> ;
+    :relationshipType <http://rs.tdwg.org/tcs-taxon-relationship-type/values/includes> ;
+    :subjectTaxonConcept _:tc-2012-Diplaziopsidaceae ;
+    :objectTaxonConcept _:tc-2011-Diplaziopsidaceae .
+
+[] a :TaxonRelationship ;
+    :relationshipAccordingTo <https://doi.org/10.1002/tax.613003> ;
+    :relationshipType <http://rs.tdwg.org/tcs-taxon-relationship-type/values/partiallyOverlaps> ;
+    :subjectTaxonConcept _:tc-2012-Diplaziopsidaceae ;
+    :objectTaxonConcept _:tc-2011-Athyriaceae .
+
+[] a :TaxonRelationship ;
+    :relationshipAccordingTo <https://doi.org/10.1002/tax.613003> ;
+    :relationshipType <http://rs.tdwg.org/tcs-taxon-relationship-type/values/isIncludedIn> ;
+    :subjectTaxonConcept _:tc-2012-Athyriaceae ;
+    :objectTaxonConcept _:tc-2011-Athyriaceae .
+
+[] a :TaxonRelationship ;
+    :relationshipAccordingTo <https://doi.org/10.1002/tax.613003> ;
+    :relationshipType <http://rs.tdwg.org/tcs-taxon-relationship-type/values/isCongruentWith> ;
+    :subjectTaxonConcept _:tc-2012-Hemidictyaceae ;
+    :objectTaxonConcept _:tc-2011-Hemidictyaceae .
+
+[] a :TaxonRelationship ;
+    :relationshipAccordingTo <https://doi.org/10.1002/tax.613003> ;
+    :relationshipType <http://rs.tdwg.org/tcs-taxon-relationship-type/values/isCongruentWith> ;
+    :subjectTaxonConcept _:tc-2012-Aspleniaceae ;
+    :objectTaxonConcept _:tc-2011-Aspleniaceae .
+
+[] a :TaxonRelationship ;
+    :relationshipAccordingTo <https://doi.org/10.1002/tax.613003> ;
+    :relationshipType <http://rs.tdwg.org/tcs-taxon-relationship-type/values/isCongruentWith> ;
+    :subjectTaxonConcept _:tc-2012-Thelypteridaceae ;
+    :objectTaxonConcept _:tc-2011-Thelypteridaceae .
+
+[] a :TaxonRelationship ;
+    :relationshipAccordingTo <https://doi.org/10.1002/tax.613003> ;
+    :relationshipType <http://rs.tdwg.org/tcs-taxon-relationship-type/values/isCongruentWith> ;
+    :subjectTaxonConcept _:tc-2012-Woodsiaceae ;
+    :objectTaxonConcept _:tc-2011-Woodsiaceae .
+
+[] a :TaxonRelationship ;
+    :relationshipAccordingTo <https://doi.org/10.1002/tax.613003> ;
+    :relationshipType <http://rs.tdwg.org/tcs-taxon-relationship-type/values/isCongruentWith> ;
+    :subjectTaxonConcept _:tc-2012-Blechnaceae ;
+    :objectTaxonConcept _:tc-2011-Blechnaceae .
+
+[] a :TaxonRelationship ;
+    :relationshipAccordingTo <https://doi.org/10.1002/tax.613003> ;
+    :relationshipType <http://rs.tdwg.org/tcs-taxon-relationship-type/values/isCongruentWith> ;
+    :subjectTaxonConcept _:tc-2012-Onocleaceae ;
+    :objectTaxonConcept _:tc-2011-Onocleaceae .
 
 
-_:tc-2012-Eupolypods a :TaxonConcept ;
-    dcterms:title "Eupolypods sec. Rothfels & al. 2012" ;
-    :accordingTo <https://doi.org/10.1002/tax.613003> ;
-    :acceptedName _:tn5d4f0656a86805a4 ;
-    :isCongruentWith _:tc-2006-Eupolypods .
+[] a :TaxonRelationship ;
+    :relationshipAccordingTo <https://doi.org/10.1002/tax.613003> ;
+    :relationshipType <http://rs.tdwg.org/tcs-taxon-relationship-type/values/isIncludedIn> ;
+    :subjectTaxonConcept _:tc-2012-Cystopteridaceae ;
+    :objectTaxonConcept _:tc-1970-Dryopteridaceae .
 
-_:tc-2012-Eupolypods-I a :TaxonConcept ;
-    dcterms:title "Eupolypods I sec. Rothfels & al. 2012" ;
-    :accordingTo <https://doi.org/10.1002/tax.613003> ;
-    :acceptedName _:tn44673c94cdc45415 ;
-    :isCongruentWith _:tc-2006-Eupolypods-I .
+[] a :TaxonRelationship ;
+    :relationshipAccordingTo <https://doi.org/10.1002/tax.613003> ;
+    :relationshipType <http://rs.tdwg.org/tcs-taxon-relationship-type/values/isIncludedIn> ;
+    :subjectTaxonConcept _:tc-2012-Rhachidosoraceae ;
+    :objectTaxonConcept _:tc-1970-Dryopteridaceae .
 
-_:tc-2012-Eupolypods-II a :TaxonConcept ;
-    dcterms:title "Eupolypods II sec. Rothfels & al. 2012" ;
-    :accordingTo <https://doi.org/10.1002/tax.613003> ;
-    :acceptedName _:tn79905b93a0bb9c11 ;
-    :isCongruentWith _:tc-2006-Eupolypods-II .
+[] a :TaxonRelationship ;
+    :relationshipAccordingTo <https://doi.org/10.1002/tax.613003> ;
+    :relationshipType <http://rs.tdwg.org/tcs-taxon-relationship-type/values/isIncludedIn> ;
+    :subjectTaxonConcept _:tc-2012-Diplaziopsidaceae ;
+    :objectTaxonConcept _:tc-1970-Dryopteridaceae .
 
-_:tc-2012-Aspleniaceae a :TaxonConcept ;
-    dcterms:title "Aspleniaceae sec. Rothfels & al. 2012" ;
-    :accordingTo <https://doi.org/10.1002/tax.613003> ;
-    :acceptedName <https://ipni.org/n/30001382-2> ;
-    :isCongruentWith _:tc-2006-Aspleniaceae .
+[] a :TaxonRelationship ;
+    :relationshipAccordingTo <https://doi.org/10.1002/tax.613003> ;
+    :relationshipType <http://rs.tdwg.org/tcs-taxon-relationship-type/values/isIncludedIn> ;
+    :subjectTaxonConcept _:tc-2012-Hemidictyaceae ;
+    :objectTaxonConcept _:tc-1970-Dryopteridaceae .
 
-_:tc-2012-Athyriaceae a :TaxonConcept ;
-    dcterms:title "Athyriaceae sec. Rothfels & al. 2012" ;
-    :accordingTo <https://doi.org/10.1002/tax.613003> ;
-    :acceptedName <https://ipni.org/n/30000361-2> ;
-    :isIncludedIn _:tc-2006-Woodsiaceae .
+[] a :TaxonRelationship ;
+    :relationshipAccordingTo <https://doi.org/10.1002/tax.613003> ;
+    :relationshipType <http://rs.tdwg.org/tcs-taxon-relationship-type/values/isIncludedIn> ;
+    :subjectTaxonConcept _:tc-2012-Woodsiaceae ;
+    :objectTaxonConcept _:tc-1970-Dryopteridaceae .
 
-_:tc-2012-Blechnaceae a :TaxonConcept ;
-    dcterms:title "Blechnaceae sec. Rothfels & al. 2012" ;
-    :accordingTo <https://doi.org/10.1002/tax.613003> ;
-    :acceptedName <https://ipni.org/n/30002151-2> ;
-    :isIncludedIn _:tc-2006-Woodsiaceae .
+[] a :TaxonRelationship ;
+    :relationshipAccordingTo <https://doi.org/10.1002/tax.613003> ;
+    :relationshipType <http://rs.tdwg.org/tcs-taxon-relationship-type/values/isIncludedIn> ;
+    :subjectTaxonConcept _:tc-2012-Athyriaceae ;
+    :objectTaxonConcept _:tc-1970-Dryopteridaceae .
 
-_:tc-2012-Cystopteridaceae a :TaxonConcept ;
-    dcterms:title "Cystopteridaceae sec. Rothfels & al. 2012" ;
-    :accordingTo <https://doi.org/10.1002/tax.613003> ;
-    :acceptedName <https://ipni.org/n/20001946-1> ;
-    :isIncludedIn _:tc-2006-Woodsiaceae .
+[] a :TaxonRelationship ;
+    :relationshipAccordingTo <https://doi.org/10.1002/tax.613003> ;
+    :relationshipType <http://rs.tdwg.org/tcs-taxon-relationship-type/values/isCongruentWith> ;
+    :subjectTaxonConcept _:tc-2012-Onocleaceae ;
+    :objectTaxonConcept _:tc-1970-Dryopteridaceae .
 
-_:tc-2012-Diplaziopsidaceae a :TaxonConcept ;
-    dcterms:title "Diplaziopsidaceae sec. Rothfels & al. 2012" ;
-    :accordingTo <https://doi.org/10.1002/tax.613003> ;
-    :acceptedName <https://ipni.org/n/77110538-1> ;
-    :isIncludedIn _:tc-2006-Woodsiaceae .
+[] a :TaxonRelationship ;
+    :relationshipAccordingTo <https://doi.org/10.1002/tax.613003> ;
+    :relationshipType <http://rs.tdwg.org/tcs-taxon-relationship-type/values/isCongruentWith> ;
+    :subjectTaxonConcept _:tc-2012-Aspleniaceae;
+    :objectTaxonConcept _:tc-1970-Aspleniaceae .
 
-_:tc-2012-Hemidictyaceae a :TaxonConcept ;
-    dcterms:title "Hemidictyaceae sec. Rothfels & al. 2012" ;
-    :accordingTo <https://doi.org/10.1002/tax.613003> ;
-    :acceptedName <https://ipni.org/n/77114955-1> ;
-    :isIncludedIn _:tc-2006-Woodsiaceae .
+[] a :TaxonRelationship ;
+    :relationshipAccordingTo <https://doi.org/10.1002/tax.613003> ;
+    :relationshipType <http://rs.tdwg.org/tcs-taxon-relationship-type/values/isCongruentWith> ;
+    :subjectTaxonConcept _:tc-2012-Thelypteridaceae;
+    :objectTaxonConcept _:tc-1970-Thelypteridaceae .
 
-_:tc-2012-Onocleaceae a :TaxonConcept ;
-    dcterms:title "Onocleaceae sec. Rothfels & al. 2012" ;
-    :accordingTo <https://doi.org/10.1002/tax.613003> ;
-    :acceptedName <https://ipni.org/n/17446060-1> ;
-    :isCongruentWith _:tc-2006-Onocleaceae .
+[] a :TaxonRelationship ;
+    :relationshipAccordingTo <https://doi.org/10.1002/tax.613003> ;
+    :relationshipType <http://rs.tdwg.org/tcs-taxon-relationship-type/values/isCongruentWith> ;
+    :subjectTaxonConcept _:tc-2012-Blechnaceae ;
+    :objectTaxonConcept _:tc-1970-Blechnaceae .
 
-_:tc-2012-Rhachidosoraceae a :TaxonConcept ;
-    dcterms:title "Rhachidosoraceae sec. Rothfels & al. 2012" ;
-    :accordingTo <https://doi.org/10.1002/tax.613003> ;
-    :acceptedName <https://ipni.org/n/77110539-1> ;
-    :isIncludedIn _:tc-2006-Woodsiaceae .
 
-_:tc-2012-Thelypteridaceae a :TaxonConcept ;
-    dcterms:title "Thelypteridaceae sec. Rothfels & al. 2012" ;
-    :accordingTo <https://doi.org/10.1002/tax.613003> ;
-    :acceptedName <https://ipni.org/n/30000455-2> ;
-    :isCongruentWith _:tc-2006-Thelypteridaceae .
+[] a :TaxonRelationship ;
+    :relationshipAccordingTo <https://doi.org/10.1002/tax.613003> ;
+    :relationshipType <http://rs.tdwg.org/tcs-taxon-relationship-type/values/isIncludedIn> ;
+    :subjectTaxonConcept _:tc-2012-Cystopteridaceae;
+    :objectTaxonConcept _:tc-1977-Athyriaceae .
 
-_:tc-2012-Woodsiaceae a :TaxonConcept ;
-    dcterms:title "Woodsiaceae sec. Rothfels & al. 2012" ;
-    :accordingTo <https://doi.org/10.1002/tax.613003> ;
-    :acceptedName <https://ipni.org/n/60456504-2> ;
-    :isIncludedIn _:tc-2006-Woodsiaceae .
+[] a :TaxonRelationship ;
+    :relationshipAccordingTo <https://doi.org/10.1002/tax.613003> ;
+    :relationshipType <http://rs.tdwg.org/tcs-taxon-relationship-type/values/isIncludedIn> ;
+    :subjectTaxonConcept _:tc-2012-Rhachidosoraceae ;
+    :objectTaxonConcept _:tc-1977-Athyriaceae .
+
+[] a :TaxonRelationship ;
+    :relationshipAccordingTo <https://doi.org/10.1002/tax.613003> ;
+    :relationshipType <http://rs.tdwg.org/tcs-taxon-relationship-type/values/isIncludedIn> ;
+    :subjectTaxonConcept _:tc-2012-Diplaziopsidaceae ;
+    :objectTaxonConcept _:tc-1977-Athyriaceae .
+
+[] a :TaxonRelationship ;
+    :relationshipAccordingTo <https://doi.org/10.1002/tax.613003> ;
+    :relationshipType <http://rs.tdwg.org/tcs-taxon-relationship-type/values/isIncludedIn> ;
+    :subjectTaxonConcept _:tc-2012-Hemidictyaceae ;
+    :objectTaxonConcept _:tc-1977-Athyriaceae .
+
+# [] a :TaxonRelationship ;
+#     :relationshipAccordingTo <https://doi.org/10.1002/tax.613003> ;
+#     :relationshipType <http://rs.tdwg.org/tcs-taxon-relationship-type/values/isIncludedIn> ;
+#     :subjectTaxonConcept _:tc-2012-Athyriaceae ;
+#     :objectTaxonConcept _:tc-1977-Athyriaceae .
+
+[] a :TaxonRelationship ;
+    :relationshipAccordingTo <https://doi.org/10.1002/tax.613003> ;
+    :relationshipType <http://rs.tdwg.org/tcs-taxon-relationship-type/values/isCongruentWith> ;
+    :subjectTaxonConcept _:tc-2012-Aspleniaceae ;
+    :objectTaxonConcept _:tc-1977-Aspleniaceae .
+
+[] a :TaxonRelationship ;
+    :relationshipAccordingTo <https://doi.org/10.1002/tax.613003> ;
+    :relationshipType <http://rs.tdwg.org/tcs-taxon-relationship-type/values/isCongruentWith> ;
+    :subjectTaxonConcept _:tc-2012-Thelypteridaceae ;
+    :objectTaxonConcept _:tc-1977-Thelypteridaceae .
+
+[] a :TaxonRelationship ;
+    :relationshipAccordingTo <https://doi.org/10.1002/tax.613003> ;
+    :relationshipType <http://rs.tdwg.org/tcs-taxon-relationship-type/values/isCongruentWith> ;
+    :subjectTaxonConcept _:tc-2012-Woodsiaceae ;
+    :objectTaxonConcept _:tc-1977-Woodsiaceae .
+
+[] a :TaxonRelationship ;
+    :relationshipAccordingTo <https://doi.org/10.1002/tax.613003> ;
+    :relationshipType <http://rs.tdwg.org/tcs-taxon-relationship-type/values/isCongruentWith> ;
+    :subjectTaxonConcept _:tc-2012-Blechnaceae ;
+    :objectTaxonConcept _:tc-1977-Blechnaceae .
+
+[] a :TaxonRelationship ;
+    :relationshipAccordingTo <https://doi.org/10.1002/tax.613003> ;
+    :relationshipType <http://rs.tdwg.org/tcs-taxon-relationship-type/values/isCongruentWith> ;
+    :subjectTaxonConcept _:tc-2012-Onocleaceae ;
+    :objectTaxonConcept _:tc-1977-Onocleaceae .
+
+
+[] a :TaxonRelationship ;
+    :relationshipAccordingTo <https://doi.org/10.1002/tax.613003> ;
+    :relationshipType <http://rs.tdwg.org/tcs-taxon-relationship-type/values/isIncludedIn> ;
+    :subjectTaxonConcept _:tc-2012-Cystopteridaceae ;
+    :objectTaxonConcept _:tc-1947-Dennstaedtiaceae .
+
+[] a :TaxonRelationship ;
+    :relationshipAccordingTo <https://doi.org/10.1002/tax.613003> ;
+    :relationshipType <http://rs.tdwg.org/tcs-taxon-relationship-type/values/isIncludedIn> ;
+    :subjectTaxonConcept _:tc-2012-Rhachidosoraceae ;
+    :objectTaxonConcept _:tc-1947-Dennstaedtiaceae .
+
+[] a :TaxonRelationship ;
+    :relationshipAccordingTo <https://doi.org/10.1002/tax.613003> ;
+    :relationshipType <http://rs.tdwg.org/tcs-taxon-relationship-type/values/isIncludedIn> ;
+    :subjectTaxonConcept _:tc-2012-Diplaziopsidaceae ;
+    :objectTaxonConcept _:tc-1947-Dennstaedtiaceae .
+
+[] a :TaxonRelationship ;
+    :relationshipAccordingTo <https://doi.org/10.1002/tax.613003> ;
+    :relationshipType <http://rs.tdwg.org/tcs-taxon-relationship-type/values/isIncludedIn> ;
+    :subjectTaxonConcept _:tc-2012-Hemidictyaceae ;
+    :objectTaxonConcept _:tc-1947-Dennstaedtiaceae .
+
+[] a :TaxonRelationship ;
+    :relationshipAccordingTo <https://doi.org/10.1002/tax.613003> ;
+    :relationshipType <http://rs.tdwg.org/tcs-taxon-relationship-type/values/isIncludedIn> ;
+    :subjectTaxonConcept _:tc-2012-Aspleniaceae ;
+    :objectTaxonConcept _:tc-1947-Dennstaedtiaceae .
+
+[] a :TaxonRelationship ;
+    :relationshipAccordingTo <https://doi.org/10.1002/tax.613003> ;
+    :relationshipType <http://rs.tdwg.org/tcs-taxon-relationship-type/values/isIncludedIn> ;
+    :subjectTaxonConcept _:tc-2012-Woodsiaceae ;
+    :objectTaxonConcept _:tc-1947-Dennstaedtiaceae .
+
+[] a :TaxonRelationship ;
+    :relationshipAccordingTo <https://doi.org/10.1002/tax.613003> ;
+    :relationshipType <http://rs.tdwg.org/tcs-taxon-relationship-type/values/isIncludedIn> ;
+    :subjectTaxonConcept _:tc-2012-Athyriaceae ;
+    :objectTaxonConcept _:tc-1947-Dennstaedtiaceae .
+
+[] a :TaxonRelationship ;
+    :relationshipAccordingTo <https://doi.org/10.1002/tax.613003> ;
+    :relationshipType <http://rs.tdwg.org/tcs-taxon-relationship-type/values/isIncludedIn> ;
+    :subjectTaxonConcept _:tc-2012-Blechnaceae ;
+    :objectTaxonConcept _:tc-1947-Dennstaedtiaceae .
+
+[] a :TaxonRelationship ;
+    :relationshipAccordingTo <https://doi.org/10.1002/tax.613003> ;
+    :relationshipType <http://rs.tdwg.org/tcs-taxon-relationship-type/values/isCongruentWith> ;
+    :subjectTaxonConcept _:tc-2012-Thelypteridaceae ;
+    :objectTaxonConcept _:tc-1947-Thelypteridaceae .
+
+[] a :TaxonRelationship ;
+    :relationshipAccordingTo <https://doi.org/10.1002/tax.613003> ;
+    :relationshipType <http://rs.tdwg.org/tcs-taxon-relationship-type/values/isCongruentWith> ;
+    :subjectTaxonConcept _:tc-2012-Onocleaceae ;
+    :objectTaxonConcept _:tc-1947-Onocleoideae .
 
 
 # Taxon names
@@ -434,6 +723,19 @@ _:tn79905b93a0bb9c11 a :TaxonName ;
     dwc:namePublishedIn "Revista Sudamer. Bot. 9: 14" ;
     dwc:namePublishedInYear "1949" .
 
+<https://ipni.org/n/17434830-1> a :TaxonName ;
+    :taxonNameString "Dennstaedtiaceae" ;
+    dwc:scientificName "Dennstaedtiaceae Pic.Serm." ;
+    dwc:scientificNameAuthorship "Pic.Serm." ;
+    dwc:namePublishedIn "Webbia 24(2): 704" ;
+    dwc:namePublishedInYear "1970" .
+
+<https://www.ipni.org/n/17436290-1> a :TaxonName ;
+    :taxonNameString "Onocleoideae B.K.Nayar, " ;
+    dwc:scientificName "Onocleoideae B.K.Nayar" ;
+    dwc:scientificNameAuthorship "B.K.Nayar" ;
+    dwc:namePublishedIn "Taxon 19: 235" ;
+    dwc:namePublishedInYear "1970" .
 
 # References
 
@@ -489,6 +791,74 @@ _:tn79905b93a0bb9c11 a :TaxonName ;
     dcterms:title "Taxon" ;
     bibo:issn "1996-8175" .
 
+<https://doi.org/10.11646/phytotaxa.19.1.2> a bibo:AcademicArticle ;
+    dcterms:title "A linear sequence of extant families and genera of lycophytes and ferns" ;
+    dcterms:creator <https://orcid.org/0000-0003-1398-8743> ,
+            <https://orcid.org/0000-0003-3425-1011> ,
+            <https://www.ipni.org/a/40553-1> ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 <https://orcid.org/0000-0003-1398-8743> ;
+            rdf:_2 <https://orcid.org/0000-0003-3425-1011> ;
+            rdf:_3 <https://www.ipni.org/a/40553-1> ] ;
+    dcterms:isPartOf [ a bibo:Issue ;
+            dcterms:date "2011" ;
+            dcterms:isPartOf <https://www.ipni.org/p/20011462-1> ; 
+            dcterms:volume "19" ] ;
+    bibo:pages "7-54" ;
+    bibo:uri "https://www.biotaxa.org/Phytotaxa/article/view/phytotaxa.19.1.2" ;
+    bibo:doi "10.11646/phytotaxa.19.1.2" .
+
+<https://www.ipni.org/p/20011462-1> a bibo:Journal ;
+    dcterms:title "Phytotaxa" ;
+    bibo:issn "1179-3155" .
+
+<https://doi.org/10.2307/1217958> a bibo:AcademicArticle ;
+    dcterms:title "A phylogenetic classification of the homosporous ferns" ;
+    dcterms:creator <https://www.ipni.org/a/23960-1> ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 <https://www.ipni.org/a/23960-1> ] ;
+    dcterms:isPartOf [ a bibo:Issue ;
+            dcterms:date "1970" ;
+            dcterms:isPartOf <https://www.ipni.org/p/812-2> ;
+            bibo:volume "19" ;
+            bibo:issue "2" ] ;
+    bibo:pages "229-236" ;
+    bibo:uri "https://onlinelibrary.wiley.com/doi/abs/10.2307/1217958" ;
+    bibo:doi "10.2307/1217958" .
+
+<https://doi.org/10.1080/00837792.1977.10670077> a bibo:AcademicArticle ;
+    dcterms:title "Tentamen Pteridophytorum genera in taxonomicum ordinem redigendi" ;
+    dcterms:creator <https://www.ipni.org/a/7667-1> ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 <https://www.ipni.org/a/7667-1> ] ;
+    dcterms:isPartOf [ a bibo:Issue ;
+            dcterms:date "1977" ;
+            dcterms:isPartOf <https://www.ipni.org/p/826-2> ;
+            bibo:volume "31" ;
+            bibo:issue "2" ] ;
+    bibo:pages "313-512" ;
+    bibo:uri "https://www.tandfonline.com/doi/abs/10.1080/00837792.1977.10670077" ;
+    bibo:doi "10.1080/00837792.1977.10670077" .
+
+<https://www.ipni.org/p/826-2> a bibo:Journal ;
+    dcterms:title "Webbia" .
+
+_:r8356b78f024b33be a bibo:AcademicArticle ;
+    dcterms:title "A revised classification of leptosporangiate ferns" ;
+    dcterms:creator <https://www.ipni.org/a/4063-1> ;
+    bibo:authorList [ a rdf:Seq; 
+            rdf:_1 <https://www.ipni.org/a/4063-1> ] ;
+    dcterms:isPartOf [ a bibo:Issue ;
+            dcterms:date "1947" ;
+            dcterms:isPartOf <https://www.ipni.org/p/682-2> ;
+            bibo:volume 53 ] ;
+    bibo:pages "123-155" .
+
+<https://www.ipni.org/p/682-2> a bibo:Journal ;
+    dcterms:title "Journal of the Linnean Society. Botany" .
+
+
+
 <https://orcid.org/0000-0002-6605-1770> a foaf:Person ;
     foaf:givenName "Carl J." ;
     foaf:surname "Rothfels" .
@@ -529,7 +899,26 @@ _:p7db44c4c846970d7 a foaf:Person ;
     foaf:givenName "Harald" ;
     foaf:surname "Schneider" .
 
-_:p548a313ff862ecc1 a bibo:Person ;
+_:p548a313ff862ecc1 a foaf:Person ;
     foaf:givenName "Paul G." ;
     foaf:surname "Wolf" .
 
+<https://orcid.org/0000-0003-1398-8743> a foaf:Person ;
+    foaf:givenName "Maarten J.M." ;
+    foaf:surname "Christenhusz" .
+
+<https://orcid.org/0000-0003-3425-1011> a foaf:Person ;
+    foaf:givenName "Xian-Chun" ;
+    foaf:surname "Zhang" .
+
+<https://www.ipni.org/a/23960-1> a foaf:Person ;
+    foaf:givenName "Bala Krishnan" ;
+    foaf:surname "Nayar" .
+
+<https://www.ipni.org/a/7667-1> a foaf:Person ;
+    foaf:givenName "Rodolfo Emilio Giuseppe" ;
+    foaf:surname "Pichi Sermolli" .
+
+<https://www.ipni.org/a/4063-1> a foaf:Person ;
+    foaf:givenName "Richard Eric" ;
+    foaf:surname "Holttum" .
