@@ -36,9 +36,19 @@ _:org-a85fd953891853f3 a dwc:Organism ;
             dwc:verbatimLocality """Tanana Lowlands, Bonanza Creek Experimental 
                     Forest, Bonanza Cr. Logging Road, 10 Km Down, Fairbanks 
                     Quad, Bonanza Creek Experimental Forest""" ;
-            dwc:decimalLongitude "64.7" ;
-            dwc:decimalLatitude "-148.3" ] ;
-    dsw:occurrenceOf _:org-a85fd953891853f .
+            dwciri:inDescribedPlace [ a dcterms:Location ;
+                dwc:country "United States" ;
+                dwc:stateOrProvince "Alaska" ;
+                dwc:county "Fairbanks North Star" ;
+                dwc:verbatimLocality """Tanana Lowlands, Bonanza Creek Experimental 
+                        Forest, Bonanza Cr. Logging Road, 10 Km Down, Fairbanks 
+                        Quad, Bonanza Creek Experimental Forest""" ;
+                dwc:decimalLongitude 64.7 ;
+                dwc:decimalLatitude -148.3 ;
+                dwc:coordinateUncertaintyInMeters 3615 ;
+                dwciri:geodeticDatum <https://epsg.io/4326> ] ] ;
+    dsw:occurrenceOf _:org-a85fd953891853f ;
+    dsw:hasEvidence <https://arctos.database.museum/guid/UAM:Herb:86707> .
 
 <https://ipni.org/n/306317-2> a tcs:TaxonName ;
     dwc:scientificName "Salix arbusculoides Andersson" .
