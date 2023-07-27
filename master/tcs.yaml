@@ -433,8 +433,8 @@
     `basionym`.
   notes: >-
     A basionym is the epithet-bringing name.  The `basionym` property is only 
-    used for new combinations ('comb. nov.'). If the new name is an avowed 
-    substitute ('nom. nov.') the `replacedName` property should be used 
+    used for new combinations ('comb. nov.'). If the new name is a replacement 
+    name ('nom. nov.') the `replacedSynonym` property should be used 
     instead.
   examples: 
     - TaxonName-basionym-1
@@ -445,14 +445,14 @@
   type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
   github: 36
 
-# property: replacedName
-- localName: replacedName
+# property: replacedSynonym
+- localName: replacedSynonym
   label: Replaced name
   definition: >-
     The legitimate or illegitimate, previously published name on which a 
     replacement name (nomen novum) is based.
   usage: >-
-    `replacedName` is another Taxon Name; a Taxon Name can have only one 
+    `replacedSynonym` is another Taxon Name; a Taxon Name can have only one 
     `replaccementNameFor`.
   notes: >-
     In the Botanical Code the term 'replaced synonym' is used. A 'replacement 
@@ -461,8 +461,8 @@
     created in the place a taxon is transferred to because of an older blocking 
     name.
   examples: 
-    - TaxonName-replacedName-1
-    - TaxonName-replacedName-2
+    - TaxonName-replacedSynonym-1
+    - TaxonName-replacedSynonym-2
   type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonName
   required: No

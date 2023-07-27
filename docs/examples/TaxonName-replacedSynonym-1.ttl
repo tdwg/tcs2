@@ -6,7 +6,7 @@
     dwc:scientificNameAuthorship "B.H.Allen" ;
     dwc:namePublishedIn "Cryptog. Bryol. Lichénol. 8: 323" ;
     dwc:namePublishedInYear "1987" ;
-    :replacedName <https://www.tropicos.org/name/35120798> .
+    :replacedSynonym <https://www.tropicos.org/name/35120798> .
 
 <https://www.tropicos.org/name/35120798> a :TaxonName ;
     :taxonNameString "Dicnemon robustum" ;

@@ -21,7 +21,7 @@ files.
 
 **Taxon Name**
 
-[tcs:taxonNameString](#tcstaxonnamestring) | [tcs:namePublishedIn](#tcsnamepublishedin) | [tcs:microreference](#tcsmicroreference) | [tcs:nomenclaturalCode](#tcsnomenclaturalcode) | [tcs:nomenclaturalStatus](#tcsnomenclaturalstatus) | [tcs:basionym](#tcsbasionym) | [tcs:replacedName](#tcsreplacedname) | [tcs:spellingCorrectionOf](#tcsspellingcorrectionof) | [tcs:conservedAgainst](#tcsconservedagainst) | [dwc:scientificName](#dwcscientificname) | [dwc:scientificNameAuthorship](#dwcscientificnameauthorship) | [dwc:namePublishedInYear](#dwcnamepublishedinyear) | [dwc:genericName](#dwcgenericname) | [dwc:infragenericEpithet](#dwcinfragenericepithet) | [dwc:specificEpithet](#dwcspecificepithet) | [dwc:infraspecificEpithet](#dwcinfraspecificepithet) | [dwc:cultivarEpithet](#dwccultivarepithet)
+[tcs:taxonNameString](#tcstaxonnamestring) | [tcs:namePublishedIn](#tcsnamepublishedin) | [tcs:microreference](#tcsmicroreference) | [tcs:nomenclaturalCode](#tcsnomenclaturalcode) | [tcs:nomenclaturalStatus](#tcsnomenclaturalstatus) | [tcs:basionym](#tcsbasionym) | [tcs:replacedSynonym](#tcsreplacedsynonym) | [tcs:spellingCorrectionOf](#tcsspellingcorrectionof) | [tcs:conservedAgainst](#tcsconservedagainst) | [dwc:scientificName](#dwcscientificname) | [dwc:scientificNameAuthorship](#dwcscientificnameauthorship) | [dwc:namePublishedInYear](#dwcnamepublishedinyear) | [dwc:genericName](#dwcgenericname) | [dwc:infragenericEpithet](#dwcinfragenericepithet) | [dwc:specificEpithet](#dwcspecificepithet) | [dwc:infraspecificEpithet](#dwcinfraspecificepithet) | [dwc:cultivarEpithet](#dwccultivarepithet)
 
 **Nomenclatural Type**
 
@@ -1318,7 +1318,7 @@ This is the IRI equivalent of the Darwin Core `nomenclaturalStatus`. In the  abs
 
 **Comments**
 
-A basionym is the epithet-bringing name.  The `basionym` property is only  used for new combinations ('comb. nov.'). If the new name is an avowed  substitute ('nom. nov.') the `replacedName` property should be used  instead.
+A basionym is the epithet-bringing name.  The `basionym` property is only  used for new combinations ('comb. nov.'). If the new name is a replacement  name ('nom. nov.') the `replacedSynonym` property should be used  instead.
 
 
 **Examples**
@@ -1360,13 +1360,13 @@ _:b1 a :TaxonName ;
 
 [&lsqb;TaxonName-basionym-2.ttl&rsqb;](examples/TaxonName-basionym-2.ttl)
 
-### tcs:replacedName
+### tcs:replacedSynonym
 
 <table style="width:100%;">
 	<tbody>
 		<tr>
 			<td>Identifier</td>
-			<td>http://rs.tdwg.org/tcs/terms/replacedName</td>
+			<td>http://rs.tdwg.org/tcs/terms/replacedSynonym</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -1386,7 +1386,7 @@ _:b1 a :TaxonName ;
 		</tr>
 		<tr>
 			<td>Usage</td>
-			<td><p><code>replacedName</code> is another Taxon Name; a Taxon Name can have only one  <code>replaccementNameFor</code>.</p></td>
+			<td><p><code>replacedSynonym</code> is another Taxon Name; a Taxon Name can have only one  <code>replaccementNameFor</code>.</p></td>
 		</tr>
 		<tr>
 			<td>GitHub issue</td>
@@ -1410,7 +1410,7 @@ In the Botanical Code the term 'replaced synonym' is used. A 'replacement  name'
     dwc:scientificNameAuthorship "B.H.Allen" ;
     dwc:namePublishedIn "Cryptog. Bryol. Lichénol. 8: 323" ;
     dwc:namePublishedInYear "1987" ;
-    :replacedName <https://www.tropicos.org/name/35120798> .
+    :replacedSynonym <https://www.tropicos.org/name/35120798> .
 
 <https://www.tropicos.org/name/35120798> a :TaxonName ;
     :taxonNameString "Dicnemon robustum" ;
@@ -1442,7 +1442,7 @@ In the Botanical Code the term 'replaced synonym' is used. A 'replacement  name'
     :basionym <https://www.tropicos.org/name/35183593> .
 ```
 
-[&lsqb;TaxonName-replacedName-1.ttl&rsqb;](examples/TaxonName-replacedName-1.ttl)
+[&lsqb;TaxonName-replacedSynonym-1.ttl&rsqb;](examples/TaxonName-replacedSynonym-1.ttl)
 
 
 ```turtle
@@ -1451,7 +1451,7 @@ In the Botanical Code the term 'replaced synonym' is used. A 'replacement  name'
     dwc:scientificNameAuthorship "Paris" ;
     dwc:namePublishedIn "Index Bryol.: 148" ;
     dwc:namePublishedInYear "1894" ;
-    :replacedName <https://www.tropicos.org/name/35001206> .
+    :replacedSynonym <https://www.tropicos.org/name/35001206> .
 
 <https://www.tropicos.org/name/35001206> a :TaxonName ;
     :taxonNameString "Solmsia" ;
@@ -1468,7 +1468,7 @@ In the Botanical Code the term 'replaced synonym' is used. A 'replacement  name'
     dwc:namePublishedInYear "1871" .
 ```
 
-[&lsqb;TaxonName-replacedName-2.ttl&rsqb;](examples/TaxonName-replacedName-2.ttl)
+[&lsqb;TaxonName-replacedSynonym-2.ttl&rsqb;](examples/TaxonName-replacedSynonym-2.ttl)
 
 ### tcs:spellingCorrectionOf
 
