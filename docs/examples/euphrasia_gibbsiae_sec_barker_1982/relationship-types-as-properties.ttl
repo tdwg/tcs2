@@ -1,0 +1,19 @@
+<https://id.biodiversity.org.au/instance/apni/545068> a tcs:TaxonConcept ;
+  dcterms:title "Euphrasia gibbsiae sec. Barker 1982" ;
+  tcs:accordingTo <https://www.jstor.org/stable/23873848> ;
+  tcs:acceptedName <https://www.ipni.org/n/802545-1> ;
+  tcs:synonym <https://www.ipni.org/n/802619-1> ;
+  tcs:intersects <https://id.biodiversity.org.au/instance/apni/713514> .
+
+<https://id.biodiversity.org.au/instance/apni/713514> a tcs:TaxonConcept ;
+  dcterms:title "Euphrasia gibbsiae sec. Curtis 1967" ;
+  tcs:accordingTo <https://id.biodiversity.org.au/reference/apni/23028> ;
+  tcs:acceptedName <https://www.ipni.org/n/802545-1> .
+
+_:my_assertion a rdf:Statement ;
+  rdf:subject <https://id.biodiversity.org.au/instance/apni/545068> ;
+  rdf:predicate tcs:includes ;
+  rdf:object <https://id.biodiversity.org.au/instance/apni/713514> .
+
+
+

@@ -319,7 +319,7 @@ _:p3 a bibo:Book ;
   dwciri:inDescribedPlace <https://www.iso.org/obp/ui/#iso:code:3166:ES>  ;
   dwciri:occurrenceStatus <http://rs.gbif.org/vocabulary/gbif/occurrence_status/present> .
 
-## [4] Kovtunovich & al. 2014
+## [4] Ustjuzhanin & al. 2019
 [] a :TaxonRelationship ;
   :relationshipAccordingTo <https://doi.org/10.48580/dfry-3gd#1.1.23.5> ;
   :relationshipType <http://rs.tdwg.org/tcs-taxon-relationship-type/values/intersects> ;

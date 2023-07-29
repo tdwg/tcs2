@@ -180,7 +180,7 @@ _:tc-2011-Hemidictyaceae a :TaxonConcept ;
     :accordingTo <https://doi.org/10.11646/phytotaxa.19.1.2> ;
     :acceptedName <https://ipni.org/n/77114955-1> .
 
-_:tc-2012-Aspleniaceae a :TaxonConcept ;
+_:tc-2011-Aspleniaceae a :TaxonConcept ;
     dcterms:title "Aspleniaceae sec. Christenhusz & al. 2011" ;
     :accordingTo <https://doi.org/10.11646/phytotaxa.19.1.2> ;
     :acceptedName <https://ipni.org/n/30001382-2> .
@@ -233,9 +233,9 @@ _:tc-1977-Athyriaceae a :TaxonConcept ;
     :acceptedName <https://ipni.org/n/30000361-2> .
 
 _:tc-1977-Aspleniaceae a :TaxonConcept ;
-    dcterms:title "Aspleniaceae sec. Pichi Sermolli 1977" ;
-    :accordingTo <https://doi.org/10.1080/00837792.1977.10670077> ;
-    :acceptedName <https://ipni.org/n/30001382-2> .
+    dcterms:title "Aspleniaceae sec. Nayar 1970" ;
+    :accordingTo <https://doi.org/10.2307/1217958> ;
+    :acceptedName <https://ipni.org/n/30001382-2>.
 
 _:tc-1977-Thelypteridaceae a :TaxonConcept ;
     dcterms:title "Thelypteridaceae sec. Pichi Sermolli 1977" ;
