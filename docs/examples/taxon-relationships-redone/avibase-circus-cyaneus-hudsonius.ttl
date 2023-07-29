@@ -1,0 +1,125 @@
+@prefix tcs: <http://rs.tdwg.org/tcs/terms/> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dwc: <http://rs.tdwg.org/dwc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosxl: <http://www.w3.org/2008/05/skos-xl#> .
+
+<https://avibase.ca/82745BAA> a tcs:TaxonConcept ;
+    dcterms:identifier "avibase-82745BAA" ;
+    dcterms:title "Circus [cyaneus or hudsonius] #82745BAA sec. Avibase" ;
+    tcs:accordingTo <https://avibase.bsc-eoc.org> ;
+    tcs:acceptedName [ a skosxl:Label ;
+            skosxl:literalForm "Circus [cyaneus or hudsonius]" ] ;
+    tcs:isCongruentWith _:tc1 ;
+    tcs:includes <https://avibase.ca/F558C7F9> ,
+            <https://avibase.ca/A091D50A> .
+
+<https://avibase.ca/F558C7F9> a tcs:TaxonConcept ;
+    dcterms:identifier "avibase-F558C7F9" ;
+    dcterms:title "Circus cyaneus #F558C7F9 sec. Avibase" ;
+    tcs:accordingTo <https://avibase.bsc-eoc.org> ;
+    tcs:acceptedName [ a skosxl:Label ;
+            skosxl:literalForm "Circus cuaneus" ] ;
+    tcs:isCongruentWith _:tc2 ,
+            _:tc3 ,
+            _:tc4 ,
+            _:tc5 ;
+    tcs:isIncludedIn <https://avibase.ca/82745BAA> ;
+    tcs:isDisjointWith <https://avibase.ca/A091D50A> .
+
+<https://avibase.ca/A091D50A> a tcs:TaxonConcept ;
+    dcterms:identifier "avibase-A091D50A" ;
+    dcterms:title "Circus hudsonius #A091D50A sec. Avibase" ;
+    tcs:accordingTo <https://avibase.bsc-eoc.org> ;
+    tcs:acceptedName [ a skosxl:Label; 
+            skosxl:literalForm "Circus hudsonius" ] ;
+    tcs:isIncludedIn <https://avibase.ca/82745BAA> ;
+    tcs:isCongruentWith _:tc6 ,
+            _:tc7 ,
+            _:tc8 ,
+            _:tc9 ;
+    tcs:isDisjointWith <https://avibase.ca/F558C7F9> .
+
+
+_:tc1 a tcs:TaxonConcept ;
+    dcterms:title "Circus cyaneus sec. Howard & Moore 2013" ;
+    tcs:accordingTo _:r4 ;
+    tcs:acceptedName _:n2 .
+
+_:tc2 a tcs:TaxonConcept ;
+    dcterms:title "Circus cyaneus sec. Clements 2021" ;
+    tcs:accordingTo _:r1 ;
+    tcs:acceptedName _:n2 .
+
+_:tc3 a tcs:TaxonConcept ;
+    dcterms:title "Circus cyaneus sec. Gill & al. 2021" ;
+    tcs:accordingTo _:r2 ;
+    tcs:acceptedName _:n2 .
+
+_:tc4 a tcs:TaxonConcept ;
+    dcterms:title "Circus cyaneus sec. HBW/Birdlife 2020" ;
+    tcs:accordingTo _:r3 ;
+    tcs:acceptedName _:n2 .
+
+_:tc5 a tcs:TaxonConcept ;
+    dcterms:title "Circus cyaneus cyaneus sec. Howard & Moore 2013" ;
+    tcs:accordingTo _:r4 ;
+    tcs:acceptedName [ a tcs:TaxonName ;
+            tcs:taxonNameString "Circus cyaneus cyaneus" ] .
+
+_:tc6 a tcs:TaxonConcept ;
+    dcterms:title "Circus hudsonius sec. Clements 2021" ;
+    tcs:accordingTo _:r1 ;
+    tcs:acceptedName _:n3 .
+
+_:tc7 a tcs:TaxonConcept ;
+    dcterms:title "Circus hudsonius sec. Gill & al. 2021" ;
+    tcs:accordingTo _:r2 ;
+    tcs:acceptedName _:n3 .
+
+_:tc8 a tcs:TaxonConcept ;
+    dcterms:title "Circus hudsonius sec. HBW/Birdlife 2020" ;
+    tcs:accordingTo _:r3 ;
+    tcs:acceptedName _:n3 .
+
+_:tc9 a tcs:TaxonConcept ;
+    dcterms:title "Circus cyaneus hudsonius sec. Howard & Moore 2013" ;
+    tcs:accordingTo _:r4 ;
+    tcs:acceptedName [ a tcs:TaxonName ;
+            tcs:taxonNameString "Circus cyaneus hudsonius" ;
+            dwc:scientificNameAuthorship "(Linnaeus 1766)" ] .
+
+
+_:n3 a tcs:acceptedName ;
+    dwc:scientificNameAuthorship "(Linnaeus 1766)" ;
+    tcs:acceptedNameString "Circus hudsonius" .
+
+_:n2 a tcs:acceptedName ;
+    dwc:scientificNameAuthorship "(Linnaeus 1766)" ;
+    tcs:acceptedNameString "Circus cyaneus" .
+
+
+<https://avibase.bsc-eoc.org> a bibo:Website ;
+    dcterms:title "Avibase" ;
+    dcterms:creator [ a foaf:Person ;
+            foaf:givenNames "Denis" ;
+            foaf:surname "Lepage" ] ;
+    bibo:uri "https://avibase.bsc-eoc.org/avibase.jsp" .
+
+_:r1 a dcterms:BibliographicResource ;
+    dcterms:bibliographicCitation "Clements, 2021" .
+
+_:r2 a dcterms:BibliographicResource ;
+    dcterms:bibliographicCitation "Gill et al., 2021" .
+
+_:r3 a dcterms:BibliographicResource ;
+    dcterms:bibliographicCitation "HBW/Birdlife, 2020" .
+
+_:r4 a dcterms:BibliographicResource ;
+    dcterms:bibliographicCitation "Howard & Moore, 2013" .
+
+
+
+
