@@ -11,9 +11,7 @@
     tcs:accordingTo <https://avibase.bsc-eoc.org> ;
     tcs:acceptedName [ a skosxl:Label ;
             skosxl:literalForm "Circus [cyaneus or hudsonius]" ] ;
-    tcs:isCongruentWith _:tc1 ;
-    tcs:includes <https://avibase.ca/F558C7F9> ,
-            <https://avibase.ca/A091D50A> .
+    tcs:isCongruentWith _:tc1 .
 
 <https://avibase.ca/F558C7F9> a tcs:TaxonConcept ;
     dcterms:identifier "avibase-F558C7F9" ;
@@ -23,9 +21,7 @@
     tcs:isCongruentWith _:tc2 ,
             _:tc3 ,
             _:tc4 ,
-            _:tc5 ;
-    tcs:isIncludedIn <https://avibase.ca/82745BAA> ;
-    tcs:isDisjointWith <https://avibase.ca/A091D50A> .
+            _:tc5 .
 
 <https://avibase.ca/A091D50A> a tcs:TaxonConcept ;
     dcterms:identifier "avibase-A091D50A" ;
@@ -36,8 +32,29 @@
     tcs:isCongruentWith _:tc6 ,
             _:tc7 ,
             _:tc8 ,
-            _:tc9 ;
-    tcs:isDisjointWith <https://avibase.ca/F558C7F9> .
+            _:tc9 .
+
+
+_:tra1 a tcs:TaxonRelationshipAssertion ;
+    tcs:relationshipAccordingTo [ a bibo:PersonalCommunication ;
+            dcterms:bibliographicCitation "Klazenga, 2023-07-31" ] ;
+    tcs:relationshipType tcs:includes ;
+    tcs:subjectTaxonConcept <https://avibase.ca/82745BAA> ;
+    tcs:objectTaxonConcept <https://avibase.ca/F558C7F9> .
+
+_:tra2 a tcs:TaxonRelationshipAssertion ;
+    tcs:relationshipAccordingTo [ a bibo:PersonalCommunication ;
+            dcterms:bibliographicCitation "Klazenga, 2023-07-31" ] ;
+    tcs:relationshipType tcs:includes ;
+    tcs:subjectTaxonConcept <https://avibase.ca/82745BAA> ;
+    tcs:objectTaxonConcept <https://avibase.ca/A091D50A> .
+
+_:tra3 a tcs:TaxonRelationshipAssertion ;
+    tcs:relationshipAccordingTo [ a bibo:PersonalCommunication ;
+            dcterms:bibliographicCitation "Klazenga, 2023-07-31" ] ;
+    tcs:relationshipType tcs:includes ;
+    tcs:subjectTaxonConcept <https://avibase.ca/F558C7F9> ;
+    tcs:objectTaxonConcept <https://avibase.ca/A091D50A> .
 
 
 _:tc1 a tcs:TaxonConcept ;
