@@ -8,7 +8,6 @@
 
 <https://avibase.ca/82745BAA> a tcs:TaxonConcept ;
     dcterms:identifier "avibase-82745BAA" ;
-    dcterms:title "Circus [cyaneus or hudsonius] #82745BAA sec. Avibase" ;
     tcs:accordingTo <https://avibase.bsc-eoc.org> ;
     tcs:acceptedName [ a skosxl:Label ;
             skosxl:literalForm "Circus [cyaneus or hudsonius]" ] ;
@@ -18,7 +17,6 @@
 
 <https://avibase.ca/F558C7F9> a tcs:TaxonConcept ;
     dcterms:identifier "avibase-F558C7F9" ;
-    dcterms:title "Circus cyaneus #F558C7F9 sec. Avibase" ;
     tcs:accordingTo <https://avibase.bsc-eoc.org> ;
     tcs:acceptedName [ a skosxl:Label ;
             skosxl:literalForm "Circus cuaneus" ] ;
@@ -31,7 +29,6 @@
 
 <https://avibase.ca/A091D50A> a tcs:TaxonConcept ;
     dcterms:identifier "avibase-A091D50A" ;
-    dcterms:title "Circus hudsonius #A091D50A sec. Avibase" ;
     tcs:accordingTo <https://avibase.bsc-eoc.org> ;
     tcs:acceptedName [ a skosxl:Label; 
             skosxl:literalForm "Circus hudsonius" ] ;
