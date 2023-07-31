@@ -49,5 +49,11 @@
 | tcs:isDisjointWith | skos:relatedMatch |
 | tcs:intersects | skos:relatedMatch |
 | | |
+| tcs:parent | skos:broadMatch |
+| | |
 | **tcs:TaxonName** | **skosxl:Label** |
 | tcs:taxonNameString | skosxl:literalForm |
+
+- Relationships between taxa are anologous to `skos:mappingRelationship` (subproperty of `skos:semanticRelationship`) properties.
+- Relationships between taxa and names are analogous to `skosxl:prefLabel`, `skosxl:altLabel` and `skosxl:hiddenLabel` properties.
+- Relationships between names are analogous to the `skosxl:labelRelationship` property.
