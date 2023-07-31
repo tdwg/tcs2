@@ -46,6 +46,7 @@
 | tcs:includes | skos:narrowMatch |
 | tcs:isIncludedIn | skos:broadMatch |
 | tcs:partiallyOverlaps | skos:relatedMatch |
+| tcs:isDisjointWith | skos:relatedMatch |
 | tcs:intersects | skos:relatedMatch |
 | | |
 | **tcs:TaxonName** | **skosxl:Label** |
