@@ -3,6 +3,8 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix dwc: <http://rs.tdwg.org/dwc/terms/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix skosxl: <http://www.w3.org/2008/05/skos-xl#> .
 
@@ -36,28 +38,25 @@
 
 
 _:tra1 a tcs:TaxonRelationshipAssertion ;
-    tcs:relationshipAccordingTo [ a bibo:PersonalCommunication ;
-            dcterms:creator <https://orcid.org/0000-0003-2224-6821> ;
-            dcterms:created "2023-07-31" ] ;
-    tcs:relationshipType tcs:includes ;
-    tcs:subjectTaxonConcept <https://avibase.ca/82745BAA> ;
-    tcs:objectTaxonConcept <https://avibase.ca/F558C7F9> .
+    rdf:subject <https://avibase.ca/82745BAA> ;
+    rdf:predicate tcs:includes ;
+    rdf:object <https://avibase.ca/F558C7F9> ;
+    dcterms:creator <https://orcid.org/0000-0003-2224-6821> ;
+    dcterms:created "2023-07-31" .
 
 _:tra2 a tcs:TaxonRelationshipAssertion ;
-    tcs:relationshipAccordingTo [ a bibo:PersonalCommunication ;
-            dcterms:creator <https://orcid.org/0000-0003-2224-6821> ;
-            dcterms:created "2023-07-31" ] ;
-    tcs:relationshipType tcs:includes ;
-    tcs:subjectTaxonConcept <https://avibase.ca/82745BAA> ;
-    tcs:objectTaxonConcept <https://avibase.ca/A091D50A> .
+    rdf:subject <https://avibase.ca/82745BAA> ;
+    rdf:predicate tcs:includes ;
+    rdf:object <https://avibase.ca/A091D50A> ;
+    dcterms:creator <https://orcid.org/0000-0003-2224-6821> ;
+    dcterms:created "2023-07-31" .
 
 _:tra3 a tcs:TaxonRelationshipAssertion ;
-    tcs:relationshipAccordingTo [ a bibo:PersonalCommunication ;
-            dcterms:creator <https://orcid.org/0000-0003-2224-6821> ;
-            dcterms:created "2023-07-31" ] ;
-    tcs:relationshipType tcs:includes ;
-    tcs:subjectTaxonConcept <https://avibase.ca/F558C7F9> ;
-    tcs:objectTaxonConcept <https://avibase.ca/A091D50A> .
+    rdf:subject <https://avibase.ca/F558C7F9> ;
+    rdf:predicate tcs:includes ;
+    rdf:object <https://avibase.ca/A091D50A> ;
+    dcterms:creator <https://orcid.org/0000-0003-2224-6821> ;
+    dcterms:created "2023-07-31" .
 
 
 _:tc1 a tcs:TaxonConcept ;
