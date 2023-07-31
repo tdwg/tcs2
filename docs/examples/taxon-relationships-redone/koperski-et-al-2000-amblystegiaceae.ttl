@@ -15,13 +15,13 @@ _:tc-2000-Campylium a tcs:TaxonConcept ;
             auch die Gattungen Campyliadelphus und Campylophyllum und stellt 
             Campylium polygamum zur Gattung Drepanocladus.""" .
 
-[] a tcs:TaxonRelationshipAssertion ;
+[] a rdf:Statement ;
     rdf:subject _:tc-2000-Campylium ;
     rdf:predicate tcs:isCongruentWith ;
     rdf:object _:tc-1981-Campylium ;
     prov:wasDerivedFrom <https://tropicos.org/reference/9022656> .
 
-[] a tcs:TaxonRelationshipAssertion ;
+[] a rdf:Statement ;
     rdf:subject _:tc-2000-Campylium ;
     rdf:predicate tcs:includes ;
     rdf:object _:tc-1980-Campylium ;
@@ -33,7 +33,7 @@ _:tc-2000-Campylium a tcs:TaxonConcept ;
             welcher Gattung SMITH dieses auf den Britischen Inseln nicht 
             nachgewiesene Taxon stellt""" .
 
-[] a tcs:TaxonRelationshipAssertion ;
+[] a rdf:Statement ;
     rdf:subject _:tc-2000-Campylium ;
     rdf:predicate tcs:partiallyOverlaps ;
     rdf:object _:tc-1927-Chrysohypnum ;
@@ -42,7 +42,7 @@ _:tc-2000-Campylium a tcs:TaxonConcept ;
             excl. * Campylium longicuspis (Lindb. & Arnell) Hedenäs 
             (Drepanocladus l.).""" .
 
-[] a tcs:TaxonRelationshipAssertion ;
+[] a rdf:Statement ;
     rdf:subject _:tc-2000-Campylium ;
     rdf:predicate tcs:partiallyOverlaps ;
     rdf:object _:tc-1927-Drepanocladus ;
@@ -50,7 +50,7 @@ _:tc-2000-Campylium a tcs:TaxonConcept ;
     rdfs:comment """incl. * Campylium longicuspis (Lindb. & Arnell) Hedenäs 
             (Drepanocladus l.)""" .
 
-[] a tcs:TaxonRelationshipAssertion ;
+[] a rdf:Statement ;
     rdf:subject _:tc-2000-Campylium ;
     rdf:predicate tcs:intersects ;
     rdf:object _:tc-1992-Campylium ;
@@ -73,14 +73,14 @@ _:tc-2000-Amblystegium a tcs:TaxonConcept ;
             (1999) Leptodictyum als Gattung akzeptiert (s. auch Hedenäs 
             1990a""" .
 
-[] a tcs:TaxonRelationshipAssertion ;
+[] a rdf:Statement ;
     rdf:subject _:tc-2000-Amblystegium ;
     rdf:predicate tcs:includes ;
     rdf:object _:tc-1981-Amblystegium ;
     prov:wasDerivedFrom <https://tropicos.org/reference/9022656> ;
     rdfs:comment "incl. Leptodictyum riparium (Amblystegium r.)" .
 
-[] a tcs:TaxonRelationshipAssertion ;
+[] a rdf:Statement ;
     rdf:subject _:tc-2000-Amblystegium ;
     rdf:predicate tcs:includes ;
     rdf:object _:tc-1992-Amblystegium ;
@@ -89,19 +89,19 @@ _:tc-2000-Amblystegium a tcs:TaxonConcept ;
             subtile (Amblystegiella s.), A. fluviatile (Hygroamblystegium f.), 
             A. tenax (Hygroambystegium t.), A. radicale (Campylium r.)""" .
 
-[] a tcs:TaxonRelationshipAssertion ;
+[] a rdf:Statement ;
     rdf:subject _:tc-2000-Amblystegium ;
     rdf:predicate tcs:includes ;
     rdf:object _:tc-1992-Hygroamblystegium ;
     prov:wasDerivedFrom <https://tropicos.org/reference/9022656> .
 
-[] a tcs:TaxonRelationshipAssertion ;
+[] a rdf:Statement ;
     rdf:subject _:tc-2000-Amblystegium ;
     rdf:predicate tcs:includes ;
     rdf:object _:tc-1927-Hygroamblystegium ;
     prov:wasDerivedFrom <https://tropicos.org/reference/9022656> .
 
-[] a tcs:TaxonRelationshipAssertion ;
+[] a rdf:Statement ;
     rdf:subject _:tc-2000-Amblystegium ;
     rdf:predicate tcs:partiallyOverlaps ;
     rdf:object _:tc-1992-Amblystegiella ;
@@ -109,13 +109,13 @@ _:tc-2000-Amblystegium a tcs:TaxonConcept ;
     rdfs:comment """incl. Amblystegium confervoides (Amblystegiella c.), 
             Amblystegium subtile (Amblystegiella s.)""" .
 
-[] a tcs:TaxonRelationshipAssertion ;
+[] a rdf:Statement ;
     rdf:subject _:tc-2000-Amblystegium ;
     rdf:predicate tcs:partiallyOverlaps ;
     rdf:object _:tc-1992-Campylium ;
     prov:wasDerivedFrom <https://tropicos.org/reference/9022656> .
 
-[] a tcs:TaxonRelationshipAssertion ;
+[] a rdf:Statement ;
     rdf:subject _:tc-2000-Amblystegium ;
     rdf:predicate tcs:partiallyOverlaps ;
     rdf:object _:tc-1927-Amblystegium ;
@@ -129,14 +129,14 @@ _:tc-2000-Amblystegium a tcs:TaxonConcept ;
             fluviatile (Hygroamblystegium f.), A. tenax (Hygroamblystegium t.), 
             A. radicale (Chrysohypnum hygrophilum).""" .
 
-[] a tcs:TaxonRelationshipAssertion ;
+[] a rdf:Statement ;
     rdf:subject _:tc-2000-Amblystegium ;
     rdf:predicate tcs:partiallyOverlaps ;
     rdf:object _:tc-1927-Chrysohypnum ;
     prov:wasDerivedFrom <https://tropicos.org/reference/9022656> ;
     rdfs:comment "incl. Amblystegium radicale (Chrysohypnum hygrophilum)" .
 
-[] a tcs:TaxonRelationshipAssertion ;
+[] a rdf:Statement ;
     rdf:subject _:tc-2000-Amblystegium ;
     rdf:predicate tcs:partiallyOverlaps ;
     rdf:object _:tc-1980-Amblystegium ;
@@ -145,7 +145,7 @@ _:tc-2000-Amblystegium a tcs:TaxonConcept ;
             riparium (Amblystegium r.); excl. Amblystegium confervioides 
             (Platydictya c.)""" .
 
-[] a tcs:TaxonRelationshipAssertion ;
+[] a rdf:Statement ;
     rdf:subject _:tc-2000-Amblystegium ;
     rdf:predicate tcs:partiallyOverlaps ;
     rdf:object _:tc-1980-Platydictya ;
@@ -159,13 +159,13 @@ _:tc-2000-Platydictya a tcs:TaxonConcept ;
     tcs:acceptedName <https://tropicos.org/name/35000970> ;
     rdfs:comment "Weltweit 7 Arten, in Europa 1 Art." .
 
-[] a tcs:TaxonRelationshipAssertion ;
+[] a rdf:Statement ;
     rdf:subject _:tc-2000-Platydictya ;
     rdf:predicate tcs:isCongruentWith ;
     rdf:object _:tc-1981-Platydictya ;
     prov:wasDerivedFrom <https://tropicos.org/reference/9022656> .
 
-[] a tcs:TaxonRelationshipAssertion ;
+[] a rdf:Statement ;
     rdf:subject _:tc-2000-Platydictya ;
     rdf:predicate tcs:includes ;
     rdf:object _:tc-1992-Amblystegiella ;
@@ -174,13 +174,13 @@ _:tc-2000-Platydictya a tcs:TaxonConcept ;
             Amblystegium subtile (Amblystegiella s.), Amblystegium subtile 
             (Amblystegiella s.)""" .
 
-[] a tcs:TaxonRelationshipAssertion ;
+[] a rdf:Statement ;
     rdf:subject _:tc-2000-Platydictya ;
     rdf:predicate tcs:includes ;
     rdf:object _:tc-1927-Amblystegium ;
     prov:wasDerivedFrom <https://tropicos.org/reference/9022656> .
 
-[] a tcs:TaxonRelationshipAssertion ;
+[] a rdf:Statement ;
     rdf:subject _:tc-2000-Platydictya ;
     rdf:predicate tcs:includes ;
     rdf:object _:tc-1927-Amblystegium-sect-Serpoleskea ;
@@ -191,7 +191,7 @@ _:tc-2000-Platydictya a tcs:TaxonConcept ;
             *Homomallium adnatum (Hedw.) Broth. (Amblystegium a.), einem in 
             Europa nicht nachge""" .
 
-[] a tcs:TaxonRelationshipAssertion ;
+[] a rdf:Statement ;
     rdf:subject _:tc-2000-Platydictya ;
     rdf:predicate tcs:includes ;
     rdf:object _:tc-1980-Platydictya ;
@@ -208,38 +208,38 @@ _:tc-2000-Leptodictyum a tcs:TaxonConcept ;
             (1998) sowie Crosby & al. (1999) Leptodictyum als Gattung akzeptiert 
             (s. auch Hedenäs 1990a).""" .
 
-[] a tcs:TaxonRelationshipAssertion ;
+[] a rdf:Statement ;
     rdf:subject _:tc-2000-Leptodictyum ;
     rdf:predicate tcs:isCongruentWith ;
     rdf:object _:tc-1992-Leptodictyum ;
     prov:wasDerivedFrom <https://tropicos.org/reference/9022656> .
 
-[] a tcs:TaxonRelationshipAssertion ;
+[] a rdf:Statement ;
     rdf:subject _:tc-2000-Leptodictyum ;
     rdf:predicate tcs:isCongruentWith ;
     rdf:object _:tc-1927-Amblystegium-sect-Leptodictyum ;
     prov:wasDerivedFrom <https://tropicos.org/reference/9022656> .
 
-[] a tcs:TaxonRelationshipAssertion ;
+[] a rdf:Statement ;
     rdf:subject _:tc-2000-Leptodictyum ;
     rdf:predicate tcs:includes ;
     rdf:object _:tc-1981-Amblystegium ;
     prov:wasDerivedFrom <https://tropicos.org/reference/9022656> .
 
-[] a tcs:TaxonRelationshipAssertion ;
+[] a rdf:Statement ;
     rdf:subject _:tc-2000-Leptodictyum ;
     rdf:predicate tcs:includes ;
     rdf:object _:tc-1981-Amblystegium-subg-Leptodictyum ;
     prov:wasDerivedFrom <https://tropicos.org/reference/9022656> ;
     rdfs:comment "incl. Amblystegium humile" .
 
-[] a tcs:TaxonRelationshipAssertion ;
+[] a rdf:Statement ;
     rdf:subject _:tc-2000-Leptodictyum ;
     rdf:predicate tcs:includes ;
     rdf:object _:tc-1927-Amblystegium ;
     prov:wasDerivedFrom <https://tropicos.org/reference/9022656> .
 
-[] a tcs:TaxonRelationshipAssertion ;
+[] a rdf:Statement ;
     prov:wasDerivedFrom <https://tropicos.org/reference/9022656> ;
     rdf:predicate tcs:includes ;
     rdf:subject _:tc-2000-Leptodictyum ;
@@ -252,25 +252,25 @@ _:tc-2000-Conardia a tcs:TaxonConcept ;
     tcs:acceptedName <https://tropicos.org/name/35000290> ;
     rdfs:comment "Weltweit 1 Art." .
 
-[] a tcs:TaxonRelationshipAssertion ;
+[] a rdf:Statement ;
     rdf:subject _:tc-2000-Conardia ;
     rdf:predicate tcs:isCongruentWith ;
     rdf:object _:tc-1981-Conardia ;
     prov:wasDerivedFrom <https://tropicos.org/reference/9022656> .
 
-[] a tcs:TaxonRelationshipAssertion ;
+[] a rdf:Statement ;
     rdf:subject _:tc-2000-Conardia ;
     rdf:predicate tcs:includes ;
     rdf:object _:tc-1992-Rhynchostegiella ;
     prov:wasDerivedFrom <https://tropicos.org/reference/9022656> .
 
-[] a tcs:TaxonRelationshipAssertion ;
+[] a rdf:Statement ;
     rdf:subject _:tc-2000-Conardia ;
     rdf:predicate tcs:includes ;
     rdf:object _:tc-1927-Amblystegium ;
     prov:wasDerivedFrom <https://tropicos.org/reference/9022656> .
 
-[] a tcs:TaxonRelationshipAssertion ;
+[] a rdf:Statement ;
     rdf:subject _:tc-2000-Conardia ;
     rdf:predicate tcs:includes ;
     rdf:object _:tc-1980-Amblystegium ;

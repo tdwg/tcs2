@@ -6,7 +6,7 @@
 
 
 # Andropogon capillipes sec. BONAP 2014 is congruent with Andropogon capillipes sec. Weakley 2006
-[] a tcs:TaxonRelationshipAssertion ;
+[] a rdf:Statement ;
     rdf:subject [ a tcs:TaxonConcept ;
             dcterms:title "Andropogon capillipes sec. BONAP 2014" ;
             tcs:accordingTo <http://bonap.net/napa#2014> ;
@@ -23,7 +23,7 @@
     dwc:scientificNameAuthorship "Nash" .
 
 # Andropogon glomeratus sec. BONAP 2014 includes Andropogon tenuispatheus sec. Weakley 2006
-[] a tcs:TaxonRelationshipAssertion ;
+[] a rdf:Statement ;
     rdf:subject [ a tcs:TaxonConcept ;
             dcterms:title "Andropogon glomeratus sec. BONAP 2014" ;
             tcs:accordingTo <http://bonap.net/napa#2014> ;
@@ -44,7 +44,7 @@
     dwc:scientificNameAuthorship "Nash" .
 
 # Andropogon hirsutior sec. BONAP 2014 is included in Andropogon glomeratus sec. Weakley 2006
-[] a tcs:TaxonRelationshipAssertion ;
+[] a rdf:Statement ;
     rdf:subject [ a tcs:TaxonConcept ;
             dcterms:title "Andropogon hirsutior sec. BONAP 2014" ;
             tcs:accordingTo <http://bonap.net/napa#2014> ;
@@ -65,7 +65,7 @@
     dwc:scientificNameAuthorship "Britton, Sterns & Poggenb." .
 
 # Andropogon glomeratus sec. BONAP 2014 partially overlaps Andropogon glomeratus sec. Weakley 2006
-[] a tcs:TaxonRelationshipAssertion ;
+[] a rdf:Statement ;
     rdf:subject [ a tcs:TaxonConcept ;
             dcterms:title "Andropogon glomeratus sec. BONAP 2014" ;
             tcs:accordingTo <http://bonap.net/napa#2014> ;
@@ -82,7 +82,7 @@
     dwc:scientificNameAuthorship "Britton, Sterns & Poggenb." .
 
 # Andropogon glaucopsis sec. BONAP 2014 is disjoint from Andropogon vitginicus sec. Weakley 2006
-[] a tcs:TaxonRelationshipAssertion ;
+[] a rdf:Statement ;
     rdf:subject [ a tcs:TaxonConcept ;
             dcterms:title "Andropogon glaucopsis sec. BONAP 2014" ;
             tcs:accordingTo <http://bonap.net/napa#2014> ;
