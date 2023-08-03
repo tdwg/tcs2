@@ -35,21 +35,21 @@
             _:tc9 .
 
 
-_:tra1 a rdf:Statement ;
+[] a rdf:Statement ;
     rdf:subject <https://avibase.ca/82745BAA> ;
     rdf:predicate tcs:includes ;
     rdf:object <https://avibase.ca/F558C7F9> ;
     dcterms:creator <https://orcid.org/0000-0003-2224-6821> ;
     dcterms:created "2023-07-31" .
 
-_:tra2 a rdf:Statement ;
+[] a rdf:Statement ;
     rdf:subject <https://avibase.ca/82745BAA> ;
     rdf:predicate tcs:includes ;
     rdf:object <https://avibase.ca/A091D50A> ;
     dcterms:creator <https://orcid.org/0000-0003-2224-6821> ;
     dcterms:created "2023-07-31" .
 
-_:tra3 a rdf:Statement ;
+[] a rdf:Statement ;
     rdf:subject <https://avibase.ca/F558C7F9> ;
     rdf:predicate tcs:includes ;
     rdf:object <https://avibase.ca/A091D50A> ;
