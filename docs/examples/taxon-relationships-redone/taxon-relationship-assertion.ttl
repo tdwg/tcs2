@@ -1,7 +1,6 @@
 @prefix tcs: <http://rs.tdwg.org/tcs/terms/> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix dwc: <http://rs.tdwg.org/dwc/terms/> .
-@prefix prov: <http://www.w3.org/ns/prov#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 
 
@@ -16,7 +15,7 @@
             dcterms:title "Andropogon capillipes sec. Weakley 2006" ;
             tcs:accordingTo <http://www.herbarium.unc.edu/FloraArchives/WeakleyFlora_2006-Jan.pdf> ;
             tcs:acceptedName <https://www.ipni.org/n/12781-2> ] ;
-    prov:wasDerivedFrom <https://doi.org/10.3233/SW-160220> .
+    dcterms:source <https://doi.org/10.3233/SW-160220> .
 
 <https://www.ipni.org/n/12781-2> a tcs:TaxonName ;
     tcs:taxonNameString "Andropogon capillipes" ;
@@ -33,7 +32,7 @@
             dcterms:title "Andropogon tenuispatheus sec. Weakley 2006" ;
             tcs:accordingTo <http://www.herbarium.unc.edu/FloraArchives/WeakleyFlora_2006-Jan.pdf> ;
             tcs:acceptedName <https://www.ipni.org/n/13093-2> ] ;
-    prov:wasDerivedFrom <https://doi.org/10.3233/SW-160220> .
+    dcterms:source <https://doi.org/10.3233/SW-160220> .
 
 <https://www.ipni.org/n/12850-2> a tcs:TaxonName ;
     tcs:taxonNameString "Andropogon glomeratus" ;
@@ -54,7 +53,7 @@
             dcterms:title "Andropogon glomeratus sec. Weakley 2006" ;
             tcs:accordingTo <http://www.herbarium.unc.edu/FloraArchives/WeakleyFlora_2006-Jan.pdf> ;
             tcs:acceptedName <https://www.ipni.org/n/12850-2> ] ;
-    prov:wasDerivedFrom <https://doi.org/10.3233/SW-160220> .
+    dcterms:source <https://doi.org/10.3233/SW-160220> .
 
 <https://www.ipni.org/n/60458078-2> a tcs:TaxonName ;
     tcs:taxonNameString "Andropogon hirsutior" ;
@@ -75,7 +74,7 @@
             dcterms:title "Andropogon glomeratus sec. Weakley 2006" ;
             tcs:accordingTo <http://www.herbarium.unc.edu/FloraArchives/WeakleyFlora_2006-Jan.pdf> ;
             tcs:acceptedName <https://www.ipni.org/n/12850-2> ] ;
-    prov:wasDerivedFrom <https://doi.org/10.3233/SW-160220> .
+    dcterms:source <https://doi.org/10.3233/SW-160220> .
 
 <https://www.ipni.org/n/12850-2> a tcs:TaxonName ;
     tcs:taxonNameString "Andropogon glomeratus" ;
@@ -92,7 +91,7 @@
             dcterms:title "Andropogon vitginicus sec. Weakley 2006" ;
             tcs:accordingTo <http://www.herbarium.unc.edu/FloraArchives/WeakleyFlora_2006-Jan.pdf> ;
             tcs:acceptedName <https://www.ipni.org/n/388740-1> ] ;
-    prov:wasDerivedFrom <https://doi.org/10.3233/SW-160220> .
+    dcterms:source <https://doi.org/10.3233/SW-160220> .
 
 <https://www.ipni.org/n/387942-1> a tcs:TaxonName ;
     tcs:taxonNameString "Andropogon glaucopsis" ;
