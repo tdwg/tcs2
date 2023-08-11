@@ -9,49 +9,50 @@
 
 <https://arctos.database.museum/guid/UAM:Herb:86707> a dwc:PreservedSpecimen ;
     dsw:evidenceFor <https://www.idigbio.org/portal/records/1e364de0-e016-4ace-8c7d-46a60027c4cb> ;
-    dsw:isBasisForId  [ a dwc:Identification ;
-            dcterms:date "1984" ;
-            dwciri:identifiedBy <https://www.wikidata.org/wiki/Q18982613> ;
-            # Taxon Concept
-            dwciri:toTaxon [ a tcs:TaxonConcept ;
-                    dcterms:title "Salix arbusculoides sec. Argus 1973" ;
-                    tcs:acceptedName <https://ipni.org/n/306317-2> ;
-                    tcs:accordingTo [ a bibo:Book ;
-                            dcterms:title "The Genus Salix in Alaska and the Yukon" ;
-                            dcterms:creator <https://www.wikidata.org/wiki/Q18982613> ;
-                            dcterms:date "1973" ] ] ;
-            rdfs:comment "Assumes Argus's concept did not change from 1973 to 1984" ;
-            # Occurrence
-            dsw:identifies _:org-a85fd953891853f3 ] .
+    dsw:isBasisForId <https://eg.tdwg.org/tcs/det/0e69ee5cc7d757bb> .
 
-_:org-a85fd953891853f3 a dwc:Organism ;
-    dsw:hasOccurrence <https://www.idigbio.org/portal/records/1e364de0-e016-4ace-8c7d-46a60027c4cb> .
+<https://eg.tdwg.org/tcs/det/0e69ee5cc7d757bb> a dwc:Identification ;
+    dcterms:date "1984" ;
+    dwciri:identifiedBy <https://www.wikidata.org/wiki/Q18982613> ;
+    dwciri:toTaxon <https://eg.tdwg.org/tcs/tc/2dad951ecb0ebf68> ;
+    rdfs:comment "Assumes Argus's concept did not change from 1973 to 1984" .
+
+<https://eg.tdwg.org/tcs/tc/2dad951ecb0ebf68> a tcs:TaxonConcept ;
+    dcterms:title "Salix arbusculoides sec. Argus 1973" ;
+    tcs:acceptedName <https://ipni.org/n/306317-2> ;
+    tcs:accordingTo [ a bibo:Book ;
+            dcterms:title "The Genus Salix in Alaska and the Yukon" ;
+            dcterms:creator <https://www.wikidata.org/wiki/Q18982613> ;
+            dcterms:date "1973" ] .
+
+<https://ipni.org/n/306317-2> a tcs:TaxonName ;
+    dwc:scientificName "Salix arbusculoides Andersson" .
 
 <https://www.idigbio.org/portal/records/1e364de0-e016-4ace-8c7d-46a60027c4cb> a dwc:Occurrence ;
     dwciri:recordedBy [ a foaf:Person ;
             foaf:givenName "David" ;
             foaf:surname "Densmore" ] ;
-    dsw:atEvent [ a dwc:Event ;
-            dwc:eventDate "1975-07-03" ;
-            dwc:verbatimLocality """Tanana Lowlands, Bonanza Creek Experimental 
-                    Forest, Bonanza Cr. Logging Road, 10 Km Down, Fairbanks 
-                    Quad, Bonanza Creek Experimental Forest""" ;
-            dwciri:inDescribedPlace [ a dcterms:Location ;
-                dwc:country "United States" ;
-                dwc:stateOrProvince "Alaska" ;
-                dwc:county "Fairbanks North Star" ;
-                dwc:verbatimLocality """Tanana Lowlands, Bonanza Creek Experimental 
-                        Forest, Bonanza Cr. Logging Road, 10 Km Down, Fairbanks 
-                        Quad, Bonanza Creek Experimental Forest""" ;
-                dwc:decimalLongitude 64.7 ;
-                dwc:decimalLatitude -148.3 ;
-                dwc:coordinateUncertaintyInMeters 3615 ;
-                dwciri:geodeticDatum <https://epsg.io/4326> ] ] ;
-    dsw:occurrenceOf _:org-a85fd953891853f ;
+    dsw:atEvent <https://eg.tdwg.org/tcs/ev/85ea3bfc69e664f9> ;
     dsw:hasEvidence <https://arctos.database.museum/guid/UAM:Herb:86707> .
 
-<https://ipni.org/n/306317-2> a tcs:TaxonName ;
-    dwc:scientificName "Salix arbusculoides Andersson" .
+<https://eg.tdwg.org/tcs/ev/85ea3bfc69e664f9> a dwc:Event ;
+    dwc:eventDate "1975-07-03" ;
+    dwc:verbatimLocality """Tanana Lowlands, Bonanza Creek Experimental 
+            Forest, Bonanza Cr. Logging Road, 10 Km Down, Fairbanks 
+            Quad, Bonanza Creek Experimental Forest""" ;
+    dwciri:inDescribedPlace <https://eg.tdwg.org/tcs/loc/8d1b9adc24ef0e0d> .
+
+<https://eg.tdwg.org/tcs/loc/8d1b9adc24ef0e0d> a dcterms:Location ;
+    dwc:country "United States" ;
+    dwc:stateOrProvince "Alaska" ;
+    dwc:county "Fairbanks North Star" ;
+    dwc:verbatimLocality """Tanana Lowlands, Bonanza Creek Experimental 
+            Forest, Bonanza Cr. Logging Road, 10 Km Down, Fairbanks 
+            Quad, Bonanza Creek Experimental Forest""" ;
+    dwc:decimalLongitude 64.7 ;
+    dwc:decimalLatitude -148.3 ;
+    dwc:coordinateUncertaintyInMeters 3615 ;
+    dwciri:geodeticDatum <https://epsg.io/4326> .
 
 <https://www.wikidata.org/wiki/Q18982613> a foaf:Agent ;
     foaf:givenName "George" ;
