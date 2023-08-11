@@ -11,106 +11,138 @@
     tcs:accordingTo <https://avibase.bsc-eoc.org> ;
     tcs:acceptedName [ a skosxl:Label ;
             skosxl:literalForm "Circus [cyaneus or hudsonius]" ] ;
-    tcs:isCongruentWith _:tc1 .
+    tcs:isCongruentWith <https://avibase.ca/F558C7F9> .
+
+<https://avibase.ca/82745BAA#tca-1> a tcs:TaxonConceptAlignment ;
+    rdf:subject <https://avibase.ca/82745BAA> ;
+    rdf:predicate tcs:isCongruentWith ;
+    rdf:object <https://eg.tdwg.org/tcs/tc/1> .
 
 <https://avibase.ca/F558C7F9> a tcs:TaxonConcept ;
     dcterms:identifier "avibase-F558C7F9" ;
     tcs:accordingTo <https://avibase.bsc-eoc.org> ;
     tcs:acceptedName [ a skosxl:Label ;
-            skosxl:literalForm "Circus cuaneus" ] ;
-    tcs:isCongruentWith _:tc2 ,
-            _:tc3 ,
-            _:tc4 ,
-            _:tc5 .
+            skosxl:literalForm "Circus cyaneus" ] ;
+    tcs:isCongruentWith <https://eg.tdwg.org/tcs/tc/2> ,
+            <https://eg.tdwg.org/tcs/tc/3> ,
+            <https://eg.tdwg.org/tcs/tc/4> .
+
+<https://avibase.ca/F558C7F9#tca-1> a tcs:TaxonConceptAlignment ;
+    rdf:subject <https://avibase.ca/F558C7F9> ;
+    rdf:predicate tcs:isCongruentWith ;
+    rdf:object <https://eg.tdwg.org/tcs/tc/2> .
+
+<https://avibase.ca/F558C7F9#tca-2> a tcs:TaxonConceptAlignment ;
+    rdf:subject <https://avibase.ca/F558C7F9> ;
+    rdf:predicate tcs:isCongruentWith ;
+    rdf:object <https://eg.tdwg.org/tcs/tc/3> .
+
+<https://avibase.ca/F558C7F9#tca-3> a tcs:TaxonConceptAlignment ;
+    rdf:subject <https://avibase.ca/F558C7F9> ;
+    rdf:predicate tcs:isCongruentWith ;
+    rdf:object <https://eg.tdwg.org/tcs/tc/4> .
 
 <https://avibase.ca/A091D50A> a tcs:TaxonConcept ;
     dcterms:identifier "avibase-A091D50A" ;
     tcs:accordingTo <https://avibase.bsc-eoc.org> ;
     tcs:acceptedName [ a skosxl:Label; 
             skosxl:literalForm "Circus hudsonius" ] ;
-    tcs:isIncludedIn <https://avibase.ca/82745BAA> ;
-    tcs:isCongruentWith _:tc6 ,
-            _:tc7 ,
-            _:tc8 ,
-            _:tc9 .
+    tcs:isCongruentWith <https://eg.tdwg.org/tcs/tc/7> ,
+            <https://eg.tdwg.org/tcs/tc/8> ,
+            <https://eg.tdwg.org/tcs/tc/9> .
+            
+<https://avibase.ca/A091D50A#tca-2> a tcs:TaxonConceptAlignment ;
+    rdf:subject <https://avibase.ca/A091D50A> ;
+    rdf:predicate tcs:isCongruentWith ;
+    rdf:object <https://eg.tdwg.org/tcs/tc/7> .
+
+<https://avibase.ca/A091D50A#tca-3> a tcs:TaxonConceptAlignment ;
+    rdf:subject <https://avibase.ca/A091D50A> ;
+    rdf:predicate tcs:isCongruentWith ;
+    rdf:object <https://eg.tdwg.org/tcs/tc/8> .
+
+<https://avibase.ca/A091D50A#tca-4> a tcs:TaxonConceptAlignment ;
+    rdf:subject <https://avibase.ca/A091D50A> ;
+    rdf:predicate tcs:isCongruentWith ;
+    rdf:object <https://eg.tdwg.org/tcs/tc/9> .
 
 
-[] a rdf:Statement ;
+<https://eg.tdwg.org/tcs/tca/1> a tcs:TaxonConceptAlignment ;
     rdf:subject <https://avibase.ca/82745BAA> ;
     rdf:predicate tcs:includes ;
     rdf:object <https://avibase.ca/F558C7F9> ;
-    dcterms:creator <https://orcid.org/0000-0003-2224-6821> ;
-    dcterms:created "2023-07-31" .
+    dcterms:contributor <https://orcid.org/0000-0003-2224-6821> ;
+    dcterms:date "2023-07-31" .
 
-[] a rdf:Statement ;
+<https://eg.tdwg.org/tcs/tca/2> a tcs:TaxonConceptAlignment ;
     rdf:subject <https://avibase.ca/82745BAA> ;
     rdf:predicate tcs:includes ;
     rdf:object <https://avibase.ca/A091D50A> ;
-    dcterms:creator <https://orcid.org/0000-0003-2224-6821> ;
-    dcterms:created "2023-07-31" .
+    dcterms:contributor <https://orcid.org/0000-0003-2224-6821> ;
+    dcterms:date "2023-07-31" .
 
-[] a rdf:Statement ;
+<https://eg.tdwg.org/tcs/tca/3> a tcs:TaxonConceptAlignment ;
     rdf:subject <https://avibase.ca/F558C7F9> ;
-    rdf:predicate tcs:includes ;
+    rdf:predicate tcs:isDisjointWith ;
     rdf:object <https://avibase.ca/A091D50A> ;
-    dcterms:creator <https://orcid.org/0000-0003-2224-6821> ;
-    dcterms:created "2023-07-31" .
+    dcterms:contributor <https://orcid.org/0000-0003-2224-6821> ;
+    dcterms:date "2023-07-31" .
 
 
-_:tc1 a tcs:TaxonConcept ;
+<https://eg.tdwg.org/tcs/tc/1> a tcs:TaxonConcept ;
     dcterms:title "Circus cyaneus sec. Howard & Moore 2013" ;
-    tcs:accordingTo _:r4 ;
-    tcs:acceptedName _:n2 .
+    tcs:accordingTo <https://eg.tdwg.org/tcs/ref/4> ;
+    tcs:acceptedName <https://eg.tdwg.org/tcs/tn/2> .
 
-_:tc2 a tcs:TaxonConcept ;
+<https://eg.tdwg.org/tcs/tc/2> a tcs:TaxonConcept ;
     dcterms:title "Circus cyaneus sec. Clements 2021" ;
-    tcs:accordingTo _:r1 ;
-    tcs:acceptedName _:n2 .
+    tcs:accordingTo <https://eg.tdwg.org/tcs/ref/1> ;
+    tcs:acceptedName <https://eg.tdwg.org/tcs/tn/2> .
 
-_:tc3 a tcs:TaxonConcept ;
+<https://eg.tdwg.org/tcs/tc/3> a tcs:TaxonConcept ;
     dcterms:title "Circus cyaneus sec. Gill & al. 2021" ;
-    tcs:accordingTo _:r2 ;
-    tcs:acceptedName _:n2 .
+    tcs:accordingTo <https://eg.tdwg.org/tcs/ref/2> ;
+    tcs:acceptedName <https://eg.tdwg.org/tcs/tn/2> .
 
-_:tc4 a tcs:TaxonConcept ;
+<https://eg.tdwg.org/tcs/tc/4> a tcs:TaxonConcept ;
     dcterms:title "Circus cyaneus sec. HBW/Birdlife 2020" ;
-    tcs:accordingTo _:r3 ;
-    tcs:acceptedName _:n2 .
+    tcs:accordingTo <https://eg.tdwg.org/tcs/ref/3> ;
+    tcs:acceptedName <https://eg.tdwg.org/tcs/tn/2> .
 
-_:tc5 a tcs:TaxonConcept ;
+<https://eg.tdwg.org/tcs/tc/5> a tcs:TaxonConcept ;
     dcterms:title "Circus cyaneus cyaneus sec. Howard & Moore 2013" ;
-    tcs:accordingTo _:r4 ;
+    tcs:accordingTo <https://eg.tdwg.org/tcs/ref/4> ;
     tcs:acceptedName [ a tcs:TaxonName ;
             tcs:taxonNameString "Circus cyaneus cyaneus" ] .
 
-_:tc6 a tcs:TaxonConcept ;
+<https://eg.tdwg.org/tcs/tc/6> a tcs:TaxonConcept ;
     dcterms:title "Circus hudsonius sec. Clements 2021" ;
-    tcs:accordingTo _:r1 ;
-    tcs:acceptedName _:n3 .
+    tcs:accordingTo <https://eg.tdwg.org/tcs/ref/1> ;
+    tcs:acceptedName <https://eg.tdwg.org/tcs/tn/3> .
 
-_:tc7 a tcs:TaxonConcept ;
+<https://eg.tdwg.org/tcs/tc/7> a tcs:TaxonConcept ;
     dcterms:title "Circus hudsonius sec. Gill & al. 2021" ;
-    tcs:accordingTo _:r2 ;
-    tcs:acceptedName _:n3 .
+    tcs:accordingTo <https://eg.tdwg.org/tcs/ref/2> ;
+    tcs:acceptedName <https://eg.tdwg.org/tcs/tn/3> .
 
-_:tc8 a tcs:TaxonConcept ;
+<https://eg.tdwg.org/tcs/tc/8> a tcs:TaxonConcept ;
     dcterms:title "Circus hudsonius sec. HBW/Birdlife 2020" ;
-    tcs:accordingTo _:r3 ;
-    tcs:acceptedName _:n3 .
+    tcs:accordingTo <https://eg.tdwg.org/tcs/ref/3> ;
+    tcs:acceptedName <https://eg.tdwg.org/tcs/tn/3> .
 
-_:tc9 a tcs:TaxonConcept ;
+<https://eg.tdwg.org/tcs/tc/9> a tcs:TaxonConcept ;
     dcterms:title "Circus cyaneus hudsonius sec. Howard & Moore 2013" ;
-    tcs:accordingTo _:r4 ;
+    tcs:accordingTo <https://eg.tdwg.org/tcs/ref/4> ;
     tcs:acceptedName [ a tcs:TaxonName ;
             tcs:taxonNameString "Circus cyaneus hudsonius" ;
             dwc:scientificNameAuthorship "(Linnaeus 1766)" ] .
 
 
-_:n3 a tcs:acceptedName ;
+<https://eg.tdwg.org/tcs/tn/3> a tcs:acceptedName ;
     dwc:scientificNameAuthorship "(Linnaeus 1766)" ;
     tcs:acceptedNameString "Circus hudsonius" .
 
-_:n2 a tcs:acceptedName ;
+<https://eg.tdwg.org/tcs/tn/2> a tcs:acceptedName ;
     dwc:scientificNameAuthorship "(Linnaeus 1766)" ;
     tcs:acceptedNameString "Circus cyaneus" .
 
@@ -122,14 +154,14 @@ _:n2 a tcs:acceptedName ;
             foaf:surname "Lepage" ] ;
     bibo:uri "https://avibase.bsc-eoc.org/avibase.jsp" .
 
-_:r1 a dcterms:BibliographicResource ;
+<https://eg.tdwg.org/tcs/ref/1> a dcterms:BibliographicResource ;
     dcterms:bibliographicCitation "Clements, 2021" .
 
-_:r2 a dcterms:BibliographicResource ;
+<https://eg.tdwg.org/tcs/ref/2> a dcterms:BibliographicResource ;
     dcterms:bibliographicCitation "Gill et al., 2021" .
 
-_:r3 a dcterms:BibliographicResource ;
+<https://eg.tdwg.org/tcs/ref/3> a dcterms:BibliographicResource ;
     dcterms:bibliographicCitation "HBW/Birdlife, 2020" .
 
-_:r4 a dcterms:BibliographicResource ;
+<https://eg.tdwg.org/tcs/ref/4> a dcterms:BibliographicResource ;
     dcterms:bibliographicCitation "Howard & Moore, 2013" .

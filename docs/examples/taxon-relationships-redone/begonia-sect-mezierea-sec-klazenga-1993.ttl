@@ -1,4 +1,4 @@
-prefix tcs: <http://rs.tdwg.org/tcs/terms/> .
+@prefix tcs: <http://rs.tdwg.org/tcs/terms/> .
 @prefix address: <http://schemas.talis.com/2005/address/schema#> .
 @prefix bibo: <http://purl.org/ontology/bibo/> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
@@ -17,7 +17,7 @@ prefix tcs: <http://rs.tdwg.org/tcs/terms/> .
 #
 
 <https://doi/org/10.2307/3668252> a bibo:JournalArticle ;
-    decterms:title "Begonia sect. Mezierea (Gaud.) Warb., a taxonomic revision" ;
+    dcterms:title "Begonia sect. Mezierea (Gaud.) Warb., a taxonomic revision" ;
     dcterms:creator <https://orcid.org/0000-0003-2224-6821> ,
             <https://www.wikidata.org/wiki/Q21387987> , 
             <https://www.wikidata.org/wiki/Q21394461> ;
@@ -54,22 +54,16 @@ prefix tcs: <http://rs.tdwg.org/tcs/terms/> .
 # Begonia sect. Mezierea sec. Klazenga & al. 1994
 # 
 
-_:tc0d8b3bc859b207e1 a tcs:TaxonConcept ;
+<https://eg.tdwg.org/tcs/tc/0d8b3bc859b207e1> a tcs:TaxonConcept ;
     dcterms:title "Begonia sect. Mezierea sec. Klazenga & al. 1994" ;
     tcs:accordingTo <https://doi/org/10.2307/3668252> ;
-    tcs:acceptedName _:tn343a158936f1d741 ;
-    tcs:synonym _:tn9948023f0d6c7923 ,
+    tcs:acceptedName <https://eg.tdwg.org/tcs/tn/343a158936f1d741> ;
+    tcs:synonym <https://eg.tdwg.org/tcs/tn/9948023f0d6c7923> ,
             <https://www.ipni.org/n/77215303-1> ;
-    tcs:intersects [ a tcs:TaxonConcept ;
-            dcterms:title "Begonia sect. Mezierea sec. Warburg 1894" ;
-            tcs:accordingTo _:rd9a27f7b90cde25a ;
-            tcs:acceptedName _:tn343a158936f1d741 ] ,
-        [ a tcs:TaxonConcept ;
-            dcterms:title "Begonia sect. Mezierea sec. Irmscher 1925" ;
-            tcs:accordingTo _:r9a8fd7d105edf2e6 ;
-            tcs:acceptedName _:tn343a158936f1d741 ] .
+    tcs:intersects <https://eg.tdwg.org/tcs/tc/102d8be723380571> ,
+            <https://eg.tdwg.org/tcs/tc/fcd76b62fd7b4cd6> .
 
-_:tn343a158936f1d741 a tcs:TaxonName ;
+<https://eg.tdwg.org/tcs/tn/343a158936f1d741> a tcs:TaxonName ;
     tcs:taxonNameString "Begonia sect. Mezierea" ;
     dwc:scientificName "Begonia sect. Mezierea (Gaudich.) Warb." ;
     dwc:scientificNameAuthorship "(Gaudich.) Warb." ;
@@ -82,18 +76,18 @@ _:tn343a158936f1d741 a tcs:TaxonName ;
     dwc:scientificNameAuthorship "Gaudich." ;
     dwc:nameAccordingTo "Voy. Bonite, Bot. 3(Atlas): t. 32 (1841)" .
 
-[] a tcs:NomenclaturalType ;
+<https://eg.tdwg.org/tcs/nt/3bd708c4c047eca6> a tcs:NomenclaturalType ;
     tcs:typifiedName <https://www.ipni.org/n/3898-1> ;
     tcs:typeName <https://www.ipni.org/n/106227-1> .
 
-_:tn9948023f0d6c7923 a tcs:TaxonName ;
+<https://eg.tdwg.org/tcs/tn/9948023f0d6c7923> a tcs:TaxonName ;
     tcs:taxonNameString "Begonia sect. Aneupteron" ;
     dwc:scientificName "Begonia sect. Aneupteron A.DC." ;
     dwc:scientificNameAuthorship "A.DC." ;
     dwc:namePublishedIn "Prodr. 15(1): 407 (1864)" .
 
-[] a tcs:NomenclaturalType ;
-    tcs:typifiedName _:tn9948023f0d6c7923 ;
+<https://eg.tdwg.org/tcs/nt/cd570b87d6dc5c56> a tcs:NomenclaturalType ;
+    tcs:typifiedName <https://eg.tdwg.org/tcs/tn/9948023f0d6c7923> ;
     tcs:typeName <https://www.ipni.org/n/106227-1> .
 
 <https://www.ipni.org/n/77215303-1> a tcs:TaxonName ;
@@ -102,41 +96,35 @@ _:tn9948023f0d6c7923 a tcs:TaxonName ;
     dwc:scientificNameAuthorship "Warb." ;
     dwc:namePublishedIn "Gartenflora 49: 2 (1900)" .
 
-[] a tcs:NomenclaturalType ;
+<https://eg.tdwg.org/tcs/nt/57171b639614096f> a tcs:NomenclaturalType ;
     tcs:typifiedName <https://www.ipni.org/n/77215303-1> ;
     tcs:typeName <https://www.ipni.org/n/104820-1> .
+
+<https://eg.tdwg.org/tcs/tc/102d8be723380571> a tcs:TaxonConcept ;
+    dcterms:title "Begonia sect. Mezierea sec. Warburg 1894" ;
+    tcs:accordingTo <https://eg.tdwg.org/tcs/ref/d9a27f7b90cde25a> ;
+    tcs:acceptedName <https://eg.tdwg.org/tcs/tn/343a158936f1d741> .
+
+<https://eg.tdwg.org/tcs/tc/fcd76b62fd7b4cd6> a tcs:TaxonConcept ;
+    dcterms:title "Begonia sect. Mezierea sec. Irmscher 1925" ;
+    tcs:accordingTo <https://eg.tdwg.org/tcs/ref/9a8fd7d105edf2e6> ;
+    tcs:acceptedName <https://eg.tdwg.org/tcs/tn/343a158936f1d741> .
 
 
 # 
 # Begonia comorensis sec. Klazenga & al. 1994
 # 
 
-_:tc63487324680cd5bc a tcs:TaxonConcept ;
+<https://eg.tdwg.org/tcs/tc/63487324680cd5bc> a tcs:TaxonConcept ;
     dcterms:title "Begonia comorensis sec. Klazenga & al. 1994" ;
     tcs:accordingTo <https://doi/org/10.2307/3668252> ;
     tcs:acceptedName <https://www.ipni.org/n/104440-1> ;
     tcs:synonym <https://www.ipni.org/n/77283357-1> ;
-    tcs:parent _:tc0d8b3bc859b207e1 ;
-    TCS:intersects [ a tcs:TaxonConcept ;
-            dcterms:title "Begonia comorensis sec. Warburg 1894" ;
-            tcs:accordingTo _:rd9a27f7b90cde25a ;
-            tcs:acceptedName <https://www.ipni.org/n/104440-1> ] ,
-            [ a tcs:TaxonConcept ;
-            dcterms:title "Begonia comorensis sec. Warburg 1895" ;
-            tcs:accordingTo _:r0552488b705004b9 ;
-            tcs:acceptedName <https://www.ipni.org/n/104440-1> ] ,
-            [ a tcs:TaxonConcept ;
-            dcterms:title "Begonia comorensis sec. Irmscher 1925" ;
-            tcs:accordingTo _:r9a8fd7d105edf2e6 ;
-            tcs:acceptedName <https://www.ipni.org/n/104440-1> ] ,
-            _:tcfef94e0ef53e7304 . # Begonia comorensis sec. Keraudren-Aymonin 1983
-
-_:tcfef94e0ef53e7304 a tcs:TaxonConcept ;
-    dcterms:title "Begonia comorensis sec. Keraudren-Aymonin 1983" ;
-    tcs:accordingTo _:rba1eab1dfbe06903 ;
-    tcs:acceptedName <https://www.ipni.org/n/104440-1> ;
-    tcs:synonym <https://www.ipni.org/n/105731-1> .
-
+    tcs:parent <https://eg.tdwg.org/tcs/tc/0d8b3bc859b207e1> ;
+    tcs:intersects <https://eg.tdwg.org/tcs/tc/480215911351c846> ,
+            <https://eg.tdwg.org/tcs/tc/f11e86a84c084111> ,
+            <https://eg.tdwg.org/tcs/tc/e7bc1fa99e258131> ,
+            <https://eg.tdwg.org/tcs/tc/fef94e0ef53e7304> . 
 
 <https://www.ipni.org/n/104440-1> a tcs:TaxonName ;
     tcs:taxonNameString "Begonia comorensis" ;
@@ -158,7 +146,7 @@ _:tcfef94e0ef53e7304 a tcs:TaxonConcept ;
     dwc:namePublishedIn "Prodr. [A. P. de Candolle] 15(1): 408 (1864)" ;
     tcs:basionym <https://www.ipni.org/n/104440-1> .
 
-[] a tcs:NomenclaturalType ;
+<https://eg.tdwg.org/tcs/nt/91673f7e16c84ca0> a tcs:NomenclaturalType ;
     tcs:typifiedName <https://www.ipni.org/n/104440-1> ;
     tcs:typeSpecimen [ a dwc:MaterialCitation ;
             dwc:country "Comoros" ;
@@ -167,7 +155,7 @@ _:tcfef94e0ef53e7304 a tcs:TaxonConcept ;
             dwc:institutionCode "B" ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/holotype> .
 
-[] a tcs:NomenclaturalType ;
+<https://eg.tdwg.org/tcs/nt/9ec3155f1f794cd4> a tcs:NomenclaturalType ;
     tcs:typifiedName <https://www.ipni.org/n/104440-1> ;
     tcs:typeSpecimen [ a dwc:MaterialCitation ;
             dwc:country "Comoros" ;
@@ -176,7 +164,7 @@ _:tcfef94e0ef53e7304 a tcs:TaxonConcept ;
             dwc:institutionCode "W" ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> .
 
-[] a tcs:NomenclaturalType ;
+<https://eg.tdwg.org/tcs/nt/a7da8d00e48e3a4f> a tcs:NomenclaturalType ;
     tcs:typifiedName <https://www.ipni.org/n/77283357-1> ;
     tcs:typeSpecimen [ a dwc:MaterialCitation ;
             dwc:country "Comoros" ;
@@ -185,28 +173,46 @@ _:tcfef94e0ef53e7304 a tcs:TaxonConcept ;
             dwc:institutionCode "P" ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/holotype> .
 
+<https://eg.tdwg.org/tcs/tc/480215911351c846> a tcs:TaxonConcept ;
+    dcterms:title "Begonia comorensis sec. Warburg 1894" ;
+    tcs:accordingTo <https://eg.tdwg.org/tcs/ref/d9a27f7b90cde25a> ;
+    tcs:acceptedName <https://www.ipni.org/n/104440-1> .
+
+<https://eg.tdwg.org/tcs/tc/f11e86a84c084111> a tcs:TaxonConcept ;
+    dcterms:title "Begonia comorensis sec. Warburg 1895" ;
+    tcs:accordingTo <https://eg.tdwg.org/tcs/ref/0552488b705004b9> ;
+    tcs:acceptedName <https://www.ipni.org/n/104440-1> .
+
+<https://eg.tdwg.org/tcs/tc/e7bc1fa99e258131> a tcs:TaxonConcept ;
+    dcterms:title "Begonia comorensis sec. Irmscher 1925" ;
+    tcs:accordingTo <https://eg.tdwg.org/tcs/ref/9a8fd7d105edf2e6> ;
+    tcs:acceptedName <https://www.ipni.org/n/104440-1> .
+
+<https://eg.tdwg.org/tcs/tc/fef94e0ef53e7304> a tcs:TaxonConcept ;
+    dcterms:title "Begonia comorensis sec. Keraudren-Aymonin 1983" ;
+    tcs:accordingTo <https://eg.tdwg.org/tcs/ref/ba1eab1dfbe06903> ;
+    tcs:acceptedName <https://www.ipni.org/n/104440-1> ;
+    tcs:synonym <https://www.ipni.org/n/105731-1> .
+
 
 #
 # Begonia humbertii sec. Klazenga & al. 1994
 #
 
-_:tcb7b7df666f2ad96a a tcs:TaxonConcept ;
+<https://eg.tdwg.org/tcs/tc/b7b7df666f2ad96a> a tcs:TaxonConcept ;
     dcterms:title "Begonia humbertii sec. Klazenga & al. 1994" ;
     tcs:accordingTo <https://doi/org/10.2307/3668252> ;
     tcs:acceptedName <https://www.ipni.org/n/901574-1> ;
-    tcs:parent _:tc0d8b3bc859b207e1 ;
-    TCS:INTERSECTS [ a tcs:TaxonConcept ;
-            dcterms:title "Begonia humbertii sec. Keraudren-Aymonin 1983" ;
-            tcs:accordingTo _:rba1eab1dfbe06903 ;
-            tcs:acceptedName <https://www.ipni.org/n/104440-1> ] .
+    tcs:parent <https://eg.tdwg.org/tcs/tc/0d8b3bc859b207e1> ;
+    tcs:intersects <https://eg.tdwg.org/tcs/tc/634da55988e6b724> .
 
 <https://www.ipni.org/n/901574-1> a tcs:TaxonName ;
     tcs:taxonNameString "Begonia humbertii" ;
     dwc:scientificName "Begonia humbertii Keraudren" ;
     dwc:scientificNameAuthorship "Keraudren" ;
-    dwc:namePublishedIn "Fl. Madagasc. Fam. 144: 100 (1983) (1983)"
+    dwc:namePublishedIn "Fl. Madagasc. Fam. 144: 100 (1983) (1983)" .
 
-[] a tcs:NomenclaturalType ;
+<https://eg.tdwg.org/tcs/nt/803dc3776540f4b6> a tcs:NomenclaturalType ;
     tcs:typifiedName <https://www.ipni.org/n/901574-1> ;
     tcs:typeSpecimen [ a dwc:MaterialCitation ;
             dwc:country "Madagascar" ;
@@ -215,7 +221,7 @@ _:tcb7b7df666f2ad96a a tcs:TaxonConcept ;
             dwc:institutionCode "P" ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/holotype> .
 
-[] a tcs:NomenclaturalType ;
+<https://eg.tdwg.org/tcs/nt/40452133747aece6> a tcs:NomenclaturalType ;
     tcs:typifiedName <https://www.ipni.org/n/901574-1> ;
     tcs:typeSpecimen [ a dwc:MaterialCitation ;
             dwc:country "Madagascar" ;
@@ -224,28 +230,24 @@ _:tcb7b7df666f2ad96a a tcs:TaxonConcept ;
             dwc:institutionCode "P" ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> .
 
+<https://eg.tdwg.org/tcs/tc/634da55988e6b724> a tcs:TaxonConcept ;
+    dcterms:title "Begonia humbertii sec. Keraudren-Aymonin 1983" ;
+    tcs:accordingTo <https://eg.tdwg.org/tcs/ref/ba1eab1dfbe06903> ;
+    tcs:acceptedName <https://www.ipni.org/n/104440-1> .
+
 
 #
 # Begonia meyeri-johannis sec. Klazenga et al. 1994
 #
 
-_:tccaf5d40d7685695e a tcs:TaxonConcept ;
+<https://eg.tdwg.org/tcs/tc/caf5d40d7685695e> a tcs:TaxonConcept ;
     dcterms:title "Begonia meyeri-johannis sec. Klazenga & al. 1994" ;
     tcs:accordingTo <https://doi/org/10.2307/3668252> ;
     tcs:acceptedName <https://www.ipni.org/n/105197-1> ;
-    tcs:parent _:tc0d8b3bc859b207e1 ;
-    tcs:intersects [ a tcs:TaxonConcept ;
-            dcterms:title "Begonia meyeri-johannis sec. Warburg 1894" ;
-            tcs:accordingTo _:rd9a27f7b90cde25a ;
-            tcs:acceptedName <https://www.ipni.org/n/105197-1> ] ,
-        [ a tcs:TaxonConcept ;
-            dcterms:title "Begonia meyeri-johannis sec. Warburg 1895" ;
-            tcs:accordingTo _:r0552488b705004b9 ;
-            tcs:acceptedName <https://www.ipni.org/n/105197-1> ] ,
-        [ a tcs:TaxonConcept ;
-            dcterms:title "Begonia meyeri-johannis sec. Irmscher 1925" ;
-            tcs:accordingTo _:r9a8fd7d105edf2e6 ;
-            tcs:acceptedName <https://www.ipni.org/n/105197-1> ] .
+    tcs:parent <https://eg.tdwg.org/tcs/tc/0d8b3bc859b207e1> ;
+    tcs:intersects <https://eg.tdwg.org/tcs/tc/fce6ffb24ce07881> ,
+        <https://eg.tdwg.org/tcs/tc/5d8933bdd541a6fc> ,
+        <https://eg.tdwg.org/tcs/tc/fa71e81593ae092f> .
 
 <https://www.ipni.org/n/105197-1> a tcs:TaxonName ;
     tcs:taxonNameString "Begonia meyeri-johannis Engl." ;
@@ -253,7 +255,7 @@ _:tccaf5d40d7685695e a tcs:TaxonConcept ;
     dwc:scientificNameAuthorship "Engl." ;
     dwc:namePublishedIn "Abh. Königl. Akad. Wiss. Berlin 1891(2): 305 (1892" .
 
-[] a tcs:NomenclaturalType ;
+<https://eg.tdwg.org/tcs/nt/f0bdad5383979660> a tcs:NomenclaturalType ;
     tcs:typifiedName <https://www.ipni.org/n/105197-1> ;
     tcs:typeSpecimen [ a dwc:MaterialCitation ;
       dwc:country "Tanzania" ;
@@ -262,12 +264,27 @@ _:tccaf5d40d7685695e a tcs:TaxonConcept ;
       dwc:institutionCode "B" ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/holotype> .
 
+<https://eg.tdwg.org/tcs/tc/fce6ffb24ce07881> a tcs:TaxonConcept ;
+    dcterms:title "Begonia meyeri-johannis sec. Warburg 1894" ;
+    tcs:accordingTo <https://eg.tdwg.org/tcs/ref/d9a27f7b90cde25a> ;
+    tcs:acceptedName <https://www.ipni.org/n/105197-1> .
+
+<https://eg.tdwg.org/tcs/tc/5d8933bdd541a6fc> a tcs:TaxonConcept ;
+    dcterms:title "Begonia meyeri-johannis sec. Warburg 1895" ;
+    tcs:accordingTo <https://eg.tdwg.org/tcs/ref/0552488b705004b9> ;
+    tcs:acceptedName <https://www.ipni.org/n/105197-1> .
+
+<https://eg.tdwg.org/tcs/tc/fa71e81593ae092f> a tcs:TaxonConcept ;
+    dcterms:title "Begonia meyeri-johannis sec. Irmscher 1925" ;
+    tcs:accordingTo <https://eg.tdwg.org/tcs/ref/9a8fd7d105edf2e6> ;
+    tcs:acceptedName <https://www.ipni.org/n/105197-1> .
+
 
 #
 # Begonia oxyloba sec. Klazenga et al. 1994
 #
 
-_:tc344b8e571c88d358 a tcs:TaxonConcept ;
+<https://eg.tdwg.org/tcs/tc/344b8e571c88d358> a tcs:TaxonConcept ;
     dcterms:title "Begonia oxyloba sec. Klazenga & al. 1994" ;
     tcs:accordingTo <https://doi/org/10.2307/3668252> ;
     tcs:acceptedName <https://www.ipni.org/n/105331-1> ;
@@ -281,69 +298,21 @@ _:tc344b8e571c88d358 a tcs:TaxonConcept ;
             <https://www.ipni.org/n/105716-1> ,
             <https://www.ipni.org/n/105665-1> ,
             <https://www.ipni.org/n/105529-1> ;
-    tcs:parent _:tc0d8b3bc859b207e1 ;
-    tcs:intersects [ a tcs:TaxonConcept ;
-            dcterms:title "Begonia oxyloba sec. Warburg 1894" ;
-            tcs:accordingTo _:rd9a27f7b90cde25a ;
-            tcs:acceptedName <https://www.ipni.org/n/105331-1> ] ,
-        [ a tcs:TaxonConcept ;
-            dcterms:title "Begonia oxyloba sec. Warburg 1894" ;
-            tcs:accordingTo _:r0552488b705004b9 ;
-            tcs:acceptedName <https://www.ipni.org/n/105331-1> ] , 
-        [ a tcs:TaxonConcept ;
-            dcterms:title "Begonia cladocarpa sec. Warburg 1894" ;
-            tcs:accordingTo _:rd9a27f7b90cde25a ;
-            tcs:acceptedName <https://www.ipni.org/n/104421-1> ] ,
-        [ a tcs:TaxonConcept ;
-            dcterms:title "Begonia cladocarpa sec. Keraudren-Aymonin 1983" ;
-            tcs:accordingTo _:rba1eab1dfbe06903 ;
-            tcs:acceptedName <https://www.ipni.org/n/104421-1> ] ,
-        [ a tcs:TaxonConcept ;
-            dcterms:title "Begonia oxyloba sec. Warburg 1895" ;
-            tcs:accordingTo _:r0552488b705004b9 ;
-            tcs:acceptedName <https://www.ipni.org/n/105331-1> ] ,
-        [ a tcs:TaxonConcept ;
-            dcterms:title "Begonia oxyloba sec. Engler 1921" ;
-            tcs:accordingTo _:red0645a4f5f1004c ;
-            tcs:acceptedName <https://www.ipni.org/n/105331-1> ;
-            tcs:synonym <https://www.ipni.org/n/104820-1> ,
-                    <https://www.ipni.org/n/105026-1> ,
-                    <https://www.ipni.org/n/104451-1> ,
-                    <https://www.ipni.org/n/104983-1> , 
-                    <https://www.ipni.org/n/105419-1> ,
-                    <https://www.ipni.org/n/105665-1> ] ,
-        [ a tcs:TaxonConcept ;
-            dcterms:title "Begonia oxyloba sec. Irmscher 1925" ;
-            tcs:accordingTo _:r0552488b705004b9 ;
-            tcs:acceptedName <https://www.ipni.org/n/105331-1> ] ,
-        [ a tcs:TaxonConcept ;
-            dcterms:title "Begonia heddei sec. Irmscher 1925" ;
-            tcs:accordingTo _:r0552488b705004b9 ;
-            tcs:acceptedName <https://www.ipni.org/n/104820-1> ] ,
-        [ a tcs:TaxonConcept ;
-            dcterms:title "Begonia lehmbachii sec. Irmscher 1925" ;
-            tcs:accordingTo _:r0552488b705004b9 ;
-            tcs:acceptedName <https://www.ipni.org/n/105026-1> ] ,
-        [ a tcs:TaxonConcept ;
-            dcterms:title "Begonia conraui sec. Irmscher 1925" ;
-            tcs:accordingTo _:r0552488b705004b9 ;
-            tcs:acceptedName <https://www.ipni.org/n/104451-1> ] ,
-        [ a tcs:TaxonConcept ;
-            dcterms:title "Begonia kummerae sec. Irmscher 1925" ;
-            tcs:accordingTo _:r0552488b705004b9 ;
-            tcs:acceptedName <https://www.ipni.org/n/104983-1> ] ,
-        [ a tcs:TaxonConcept ;
-            dcterms:title "Begonia petrophila sec. Irmscher 1925" ;
-            tcs:accordingTo _:r0552488b705004b9 ;
-            tcs:acceptedName <https://www.ipni.org/n/105419-1> ] ,
-        [ a tcs:TaxonConcept ;
-            dcterms:title "Begonia seretii sec. Irmscher 1925" ;
-            tcs:accordingTo _:r0552488b705004b9 ;
-            tcs:acceptedName <https://www.ipni.org/n/105716-1> ] ,
-        [ a tcs:TaxonConcept ;
-            dcterms:title "Begonia sassandrensis sec. Irmscher 1925" ;
-            tcs:accordingTo _:r0552488b705004b9 ;
-            tcs:acceptedName <https://www.ipni.org/n/105665-1> ] .
+    tcs:parent <https://eg.tdwg.org/tcs/tc/0d8b3bc859b207e1> ;
+    tcs:intersects <https://eg.tdwg.org/tcs/tc/55d4345a4aa40550> ,
+            <https://eg.tdwg.org/tcs/tc/6839c7a7eee8d3fa> , 
+            <https://eg.tdwg.org/tcs/tc/108b9ecc15fbf92f> ,
+            <https://eg.tdwg.org/tcs/tc/21d66b865bcaaca0> ,
+            <https://eg.tdwg.org/tcs/tc/e738e81dbcb6820c> ,
+            <https://eg.tdwg.org/tcs/tc/8d2b0053fc074927> ,
+            <https://eg.tdwg.org/tcs/tc/e9647d0140d0ec84> ,
+            <https://eg.tdwg.org/tcs/tc/4aed8fe762c680f5> ,
+            <https://eg.tdwg.org/tcs/tc/b9e5246eb36c0874> ,
+            <https://eg.tdwg.org/tcs/tc/f1d0a4e1463ca67b> ,
+            <https://eg.tdwg.org/tcs/tc/73e4c67fb98060f3> ,
+            <https://eg.tdwg.org/tcs/tc/d20cc86a7287c169> ,
+            <https://eg.tdwg.org/tcs/tc/2dd6f6bf8214d266> ,
+            <https://eg.tdwg.org/tcs/tc/e40d73a77b9058ee> .
 
 
 <https://www.ipni.org/n/105331-1> a tcs:TaxonName ;
@@ -352,7 +321,7 @@ _:tc344b8e571c88d358 a tcs:TaxonConcept ;
     dwc:scientificNameAuthorship "Hook.f." ;
     dwc:namePublishedIn "Fl. Trop. Afr. [Oliver et al.] 2: 578 (1871)" .
 
-[] a tcs:NomenclaturalType ;
+<https://eg.tdwg.org/tcs/5ddb486092e88f28> a tcs:NomenclaturalType ;
     tcs:typifiedName <https://www.ipni.org/n/105331-1> ;
     tcs:typeSpecimen [ a dwc:MaterialCitation ;
             dwc:country "Angola" ;
@@ -361,7 +330,7 @@ _:tc344b8e571c88d358 a tcs:TaxonConcept ;
             dwc:institutionCode "BM" ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/lectotype> .
 
-[] a tcs:NomenclaturalType ;
+<https://eg.tdwg.org/tcs/3aa03d9bb5b8ed19> a tcs:NomenclaturalType ;
     tcs:typifiedName <https://www.ipni.org/n/105331-1> ;
     tcs:typeSpecimen [ a dwc:MaterialCitation ;
             dwc:country "Angola" ;
@@ -370,7 +339,7 @@ _:tc344b8e571c88d358 a tcs:TaxonConcept ;
             dwc:institutionCode "COI" ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isolectotype> .
 
-[] a tcs:NomenclaturalType ;
+<https://eg.tdwg.org/tcs/c00929bf19639832> a tcs:NomenclaturalType ;
     tcs:typifiedName <https://www.ipni.org/n/105331-1> ;
     tcs:typeSpecimen [ a dwc:MaterialCitation ;
             dwc:country "Angola" ;
@@ -379,7 +348,7 @@ _:tc344b8e571c88d358 a tcs:TaxonConcept ;
             dwc:institutionCode "G" ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isolectotype> .
 
-[] a tcs:NomenclaturalType ;
+<https://eg.tdwg.org/tcs/51cb0504b49252ea> a tcs:NomenclaturalType ;
     tcs:typifiedName <https://www.ipni.org/n/105331-1> ;
     tcs:typeSpecimen [ a dwc:MaterialCitation ;
             dwc:country "Angola" ;
@@ -388,7 +357,7 @@ _:tc344b8e571c88d358 a tcs:TaxonConcept ;
             dwc:institutionCode "K" ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isolectotype> .
 
-[] a tcs:NomenclaturalType ;
+<https://eg.tdwg.org/tcs/cc720464c0680447> a tcs:NomenclaturalType ;
     tcs:typifiedName <https://www.ipni.org/n/105331-1> ;
     tcs:typeSpecimen [ a dwc:MaterialCitation ;
             dwc:country "Bioko" ;
@@ -397,7 +366,7 @@ _:tc344b8e571c88d358 a tcs:TaxonConcept ;
             dwc:institutionCode "K" ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/syntype> .
 
-[] a tcs:NomenclaturalType ;
+<https://eg.tdwg.org/tcs/367b211240aa94b9> a tcs:NomenclaturalType ;
     tcs:typifiedName <https://www.ipni.org/n/105331-1> ;
     tcs:typeSpecimen [ a dwc:MaterialCitation ;
             dwc:country "Cameroon" ;
@@ -412,7 +381,7 @@ _:tc344b8e571c88d358 a tcs:TaxonConcept ;
     dwc:scientificNameAuthorship "Baker" ;
     dwc:namePublishedIn "J. Bot. 20: 113 (1882)" .
 
-[] a tcs:NomenclaturalType ;
+<https://eg.tdwg.org/tcs/d345e462dcfecdac> a tcs:NomenclaturalType ;
     tcs:typifiedName <https://www.ipni.org/n/104421-1> ;
     tcs:typeSpecimen [ a dwc:MaterialCitation ;
             dwc:country "Madagascar" ;
@@ -427,7 +396,7 @@ _:tc344b8e571c88d358 a tcs:TaxonConcept ;
     dwc:scientificNameAuthorship "Warb." ;
     dwc:namePublishedIn "Dartenflora 49: 1 (1900)" .
 
-[] a tcs:NomenclaturalType ;
+<https://eg.tdwg.org/tcs/643ef56efc6be405> a tcs:NomenclaturalType ;
     tcs:typifiedName <https://www.ipni.org/n/104820-1> ;
     tcs:typeSpecimen [ a dwc:MaterialCitation ;
             dwc:recordedBy "Culta Bot. Garten Berlin" ;
@@ -440,7 +409,7 @@ _:tc344b8e571c88d358 a tcs:TaxonConcept ;
     dwc:scientificName "Begonia lehmbachii Warb." ;
     dwc:namePublishedIn "Gartenfl. 49:281 (1900)" .
 
-[] a tcs:NomenclaturalType ;
+<https://eg.tdwg.org/tcs/f7abd3a2605510e4> a tcs:NomenclaturalType ;
     tcs:typifiedName <https://www.ipni.org/n/105026-1> ;
     tcs:typeSpecimen [ a dwc:MaterialCitation ;
             dwc:country "Cameroon" ;
@@ -449,7 +418,7 @@ _:tc344b8e571c88d358 a tcs:TaxonConcept ;
             dwc:institutionCode "B" ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/lectotype> .
 
-[] a tcs:NomenclaturalType ;
+<https://eg.tdwg.org/tcs/52d17d5b71a8c1b1> a tcs:NomenclaturalType ;
     tcs:typifiedName <https://www.ipni.org/n/105026-1> ;
     tcs:typeSpecimen [ a dwc:MaterialCitation ;
             dwc:country "Cameroon" ;
@@ -458,7 +427,7 @@ _:tc344b8e571c88d358 a tcs:TaxonConcept ;
             dwc:institutionCode "COI" ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isolectotype> .
 
-[] a tcs:NomenclaturalType ;
+<https://eg.tdwg.org/tcs/5db2530311163c80> a tcs:NomenclaturalType ;
     tcs:typifiedName <https://www.ipni.org/n/105026-1> ;
     tcs:typeSpecimen [ a dwc:MaterialCitation ;
             dwc:country "Cameroon" ;
@@ -467,7 +436,7 @@ _:tc344b8e571c88d358 a tcs:TaxonConcept ;
             dwc:institutionCode "B" ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/syntype> .
 
-[] a tcs:NomenclaturalType ;
+<https://eg.tdwg.org/tcs/cb118a9249c3394c> a tcs:NomenclaturalType ;
     tcs:typifiedName <https://www.ipni.org/n/105026-1> ;
     tcs:typeSpecimen [ a dwc:MaterialCitation ;
             dwc:country "Cameroon" ;
@@ -476,7 +445,7 @@ _:tc344b8e571c88d358 a tcs:TaxonConcept ;
             dwc:institutionCode "B" ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/syntype> .
 
-[] a tcs:NomenclaturalType ;
+<https://eg.tdwg.org/tcs/52881cafbf5c9d65> a tcs:NomenclaturalType ;
     tcs:typifiedName <https://www.ipni.org/n/105026-1> ;
     tcs:typeSpecimen [ a dwc:MaterialCitation ;
             dwc:country "Cameroon" ;
@@ -491,7 +460,7 @@ _:tc344b8e571c88d358 a tcs:TaxonConcept ;
     dwc:scientificNameAuthorship "Gilg" ;
     dwc:namePublishedIn "Bot. Jahrb. Syst. 34(1): 87 (1904)" .
 
-[] a tcs:NomenclaturalType ;
+<https://eg.tdwg.org/tcs/2f848881ad52255b> a tcs:NomenclaturalType ;
     tcs:typifiedName <https://www.ipni.org/n/104451-1> ;
     tcs:typeSpecimen [ a dwc:MaterialCitation ;
             dwc:country "Cameroon" ;
@@ -506,7 +475,7 @@ _:tc344b8e571c88d358 a tcs:TaxonConcept ;
     dwc:scientificNameAuthorship "Gilg" ;
     dwc:namePublishedIn "Bot. Jahrb. Syst. 34(1): 87 (1904)" .
 
-[] a tcs:NomenclaturalType ;
+<https://eg.tdwg.org/tcs/67575cfb74935b9d> a tcs:NomenclaturalType ;
     tcs:typifiedName <https://www.ipni.org/n/104983-1> ;
     tcs:typeSpecimen [ a dwc:MaterialCitation ;
             dwc:country "Tanzania" ;
@@ -521,7 +490,7 @@ _:tc344b8e571c88d358 a tcs:TaxonConcept ;
     dwc:scientificNameAuthorship "Gilg" ;
     dwc:namePublishedIn "Bot. Jahrb. Syst. 34(1): 86 (1904)" .
 
-[] a tcs:NomenclaturalType ;
+<https://eg.tdwg.org/tcs/23583f3bbd89438b> a tcs:NomenclaturalType ;
     tcs:typifiedName <https://www.ipni.org/n/104983-1> ;
     tcs:typeSpecimen [ a dwc:MaterialCitation ;
             dwc:country "Tanzania" ;
@@ -536,7 +505,7 @@ _:tc344b8e571c88d358 a tcs:TaxonConcept ;
     dwc:scientificNameAuthorship "Gilg" ;
     dwc:namePublishedIn "Bot. Jahrb. Syst. 34(1): 88 (1904)" .
 
-[] a tcs:NomenclaturalType ;
+<https://eg.tdwg.org/tcs/569c222f1de7a039> a tcs:NomenclaturalType ;
     tcs:typifiedName <https://www.ipni.org/n/105880-1> ;
     tcs:typeSpecimen [ a dwc:MaterialCitation ;
             dwc:country "Ghana" ;
@@ -551,7 +520,7 @@ _:tc344b8e571c88d358 a tcs:TaxonConcept ;
     dwc:scientificNameAuthorship "De Wild." ;
     dwc:namePublishedIn "Ann. Mus. Congo Belge, Bot. sér. 5, 2[1]: 59 (1907)" .
 
-[] a tcs:NomenclaturalType ;
+<https://eg.tdwg.org/tcs/750f19646e5ed811> a tcs:NomenclaturalType ;
     tcs:typifiedName <https://www.ipni.org/n/105716-1> ;
     tcs:typeSpecimen [ a dwc:MaterialCitation ;
             dwc:country "Democratic Republic of the Congo" ;
@@ -560,7 +529,7 @@ _:tc344b8e571c88d358 a tcs:TaxonConcept ;
             dwc:institutionCode "BR" ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/lectotype> .
 
-[] a tcs:NomenclaturalType ;
+<https://eg.tdwg.org/tcs/3f52e4a31ec61fda> a tcs:NomenclaturalType ;
     tcs:typifiedName <https://www.ipni.org/n/105716-1> ;
     tcs:typeSpecimen [ a dwc:MaterialCitation ;
             dwc:country "Democratic Republic of the Congo" ;
@@ -575,7 +544,7 @@ _:tc344b8e571c88d358 a tcs:TaxonConcept ;
     dwc:scientificNameAuthorship "A.Chev." ;
     dwc:namePublishedIn "Bull. Soc. Bot. France 58(Mém. 8d): 175 (1912)" .
 
-[] a tcs:NomenclaturalType ;
+<https://eg.tdwg.org/tcs/5660253d45ec5aa1> a tcs:NomenclaturalType ;
     tcs:typifiedName <https://www.ipni.org/n/105665-1> ;
     tcs:typeSpecimen [ a dwc:MaterialCitation ;
             dwc:country "Ivory Coast" ;
@@ -584,7 +553,7 @@ _:tc344b8e571c88d358 a tcs:TaxonConcept ;
             dwc:institutionCode "P" ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/lectotype> .
 
-[] a tcs:NomenclaturalType ;
+<https://eg.tdwg.org/tcs/b54f5a4dd72909bd> a tcs:NomenclaturalType ;
     tcs:typifiedName <https://www.ipni.org/n/105665-1> ;
     tcs:typeSpecimen [ a dwc:MaterialCitation ;
             dwc:country "Ivory Coast" ;
@@ -593,7 +562,7 @@ _:tc344b8e571c88d358 a tcs:TaxonConcept ;
             dwc:institutionCode "P" ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/syntype> .
 
-[] a tcs:NomenclaturalType ;
+<https://eg.tdwg.org/tcs/7e3fb5c68d9d6705> a tcs:NomenclaturalType ;
     tcs:typifiedName <https://www.ipni.org/n/105665-1> ;
     tcs:typeSpecimen [ a dwc:MaterialCitation ;
             dwc:country "Ivory Coast" ;
@@ -602,7 +571,7 @@ _:tc344b8e571c88d358 a tcs:TaxonConcept ;
             dwc:institutionCode "P" ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/syntype> .
 
-[] a tcs:NomenclaturalType ;
+<https://eg.tdwg.org/tcs/c1f503f21d9192fb> a tcs:NomenclaturalType ;
     tcs:typifiedName <https://www.ipni.org/n/105665-1> ;
     tcs:typeSpecimen [ a dwc:MaterialCitation ;
             dwc:country "Guinea" ;
@@ -611,7 +580,7 @@ _:tc344b8e571c88d358 a tcs:TaxonConcept ;
             dwc:institutionCode "P" ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/syntype> .
 
-[] a tcs:NomenclaturalType ;
+<https://eg.tdwg.org/tcs/18c5f794973b1305> a tcs:NomenclaturalType ;
     tcs:typifiedName <https://www.ipni.org/n/105665-1> ;
     tcs:typeSpecimen [ a dwc:MaterialCitation ;
             dwc:country "Guinea" ;
@@ -620,7 +589,7 @@ _:tc344b8e571c88d358 a tcs:TaxonConcept ;
             dwc:institutionCode "B" ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isosyntype> .
 
-[] a tcs:NomenclaturalType ;
+<https://eg.tdwg.org/tcs/3a13275a9b7d3cc4> a tcs:NomenclaturalType ;
     tcs:typifiedName <https://www.ipni.org/n/105665-1> ;
     tcs:typeSpecimen [ a dwc:MaterialCitation ;
             dwc:country "Guinea" ;
@@ -635,7 +604,7 @@ _:tc344b8e571c88d358 a tcs:TaxonConcept ;
     dwc:scientificNameAuthorship "Irmsch." ;
     dwc:namePublishedIn "Bot. Jahrb. Syst. 81(1-2): 180 (1961)" .
 
-[] a tcs:NomenclaturalType ;
+<https://eg.tdwg.org/tcs/4fef95e906451b0d> a tcs:NomenclaturalType ;
     tcs:typifiedName <https://www.ipni.org/n/105529-1> ;
     tcs:typeSpecimen [ a dwc:MaterialCitation ;
             dwc:country "Tanzania" ;
@@ -644,7 +613,7 @@ _:tc344b8e571c88d358 a tcs:TaxonConcept ;
             dwc:institutionCode "B" ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/holotype> .
 
-[] a tcs:NomenclaturalType ;
+<https://eg.tdwg.org/tcs/4c79cfe074820a8a> a tcs:NomenclaturalType ;
     tcs:typifiedName <https://www.ipni.org/n/105529-1> ;
     tcs:typeSpecimen [ a dwc:MaterialCitation ;
             dwc:country "Tanzania" ;
@@ -653,7 +622,7 @@ _:tc344b8e571c88d358 a tcs:TaxonConcept ;
             dwc:institutionCode "B" ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> .
 
-[] a tcs:NomenclaturalType ;
+<https://eg.tdwg.org/tcs/99bcad6dcc38d09e> a tcs:NomenclaturalType ;
     tcs:typifiedName <https://www.ipni.org/n/105529-1> ;
     tcs:typeSpecimen [ a dwc:MaterialCitation ;
             dwc:country "Tanzania" ;
@@ -662,7 +631,7 @@ _:tc344b8e571c88d358 a tcs:TaxonConcept ;
             dwc:institutionCode "WAG" ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> .
 
-[] a tcs:NomenclaturalType ;
+<https://eg.tdwg.org/tcs/7e547204ff43062b> a tcs:NomenclaturalType ;
     tcs:typifiedName <https://www.ipni.org/n/105529-1> ;
     tcs:typeSpecimen [ a dwc:MaterialCitation ;
             dwc:country "Tanzania" ;
@@ -671,7 +640,7 @@ _:tc344b8e571c88d358 a tcs:TaxonConcept ;
             dwc:institutionCode "BM" ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/paratype> .
 
-[] a tcs:NomenclaturalType ;
+<https://eg.tdwg.org/tcs/a3a3e1e6db3272c7> a tcs:NomenclaturalType ;
     tcs:typifiedName <https://www.ipni.org/n/105529-1> ;
     tcs:typeSpecimen [ a dwc:MaterialCitation ;
             dwc:country "Tanzania" ;
@@ -680,25 +649,96 @@ _:tc344b8e571c88d358 a tcs:TaxonConcept ;
             dwc:institutionCode "K" ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/paratype> .
 
+<https://eg.tdwg.org/tcs/tc/55d4345a4aa40550> a tcs:TaxonConcept ;
+    dcterms:title "Begonia oxyloba sec. Warburg 1894" ;
+    tcs:accordingTo <https://eg.tdwg.org/tcs/ref/d9a27f7b90cde25a> ;
+    tcs:acceptedName <https://www.ipni.org/n/105331-1> .
+
+<https://eg.tdwg.org/tcs/tc/6839c7a7eee8d3fa> a tcs:TaxonConcept ;
+    dcterms:title "Begonia oxyloba sec. Warburg 1894" ;
+    tcs:accordingTo <https://eg.tdwg.org/tcs/ref/0552488b705004b9> ;
+    tcs:acceptedName <https://www.ipni.org/n/105331-1> .
+
+<https://eg.tdwg.org/tcs/tc/108b9ecc15fbf92f> a tcs:TaxonConcept ;
+    dcterms:title "Begonia cladocarpa sec. Warburg 1894" ;
+    tcs:accordingTo <https://eg.tdwg.org/tcs/ref/d9a27f7b90cde25a> ;
+    tcs:acceptedName <https://www.ipni.org/n/104421-1> .
+
+<https://eg.tdwg.org/tcs/tc/21d66b865bcaaca0> a tcs:TaxonConcept ;
+    dcterms:title "Begonia cladocarpa sec. Keraudren-Aymonin 1983" ;
+    tcs:accordingTo <https://eg.tdwg.org/tcs/ref/ba1eab1dfbe06903> ;
+    tcs:acceptedName <https://www.ipni.org/n/104421-1> .
+
+<https://eg.tdwg.org/tcs/tc/e738e81dbcb6820c> a tcs:TaxonConcept ;
+    dcterms:title "Begonia oxyloba sec. Warburg 1895" ;
+    tcs:accordingTo <https://eg.tdwg.org/tcs/ref/0552488b705004b9> ;
+    tcs:acceptedName <https://www.ipni.org/n/105331-1> .
+
+<https://eg.tdwg.org/tcs/tc/8d2b0053fc074927> a tcs:TaxonConcept ;
+    dcterms:title "Begonia oxyloba sec. Engler 1921" ;
+    tcs:accordingTo <https://eg.tdwg.org/tcs/ref/ed0645a4f5f1004c> ;
+    tcs:acceptedName <https://www.ipni.org/n/105331-1> ;
+    tcs:synonym <https://www.ipni.org/n/104820-1> ,
+            <https://www.ipni.org/n/105026-1> ,
+            <https://www.ipni.org/n/104451-1> ,
+            <https://www.ipni.org/n/104983-1> , 
+            <https://www.ipni.org/n/105419-1> ,
+            <https://www.ipni.org/n/105665-1> .
+
+<https://eg.tdwg.org/tcs/tc/e9647d0140d0ec84> a tcs:TaxonConcept ;
+    dcterms:title "Begonia oxyloba sec. Irmscher 1925" ;
+    tcs:accordingTo <https://eg.tdwg.org/tcs/ref/0552488b705004b9> ;
+    tcs:acceptedName <https://www.ipni.org/n/105331-1> .
+
+<https://eg.tdwg.org/tcs/tc/4aed8fe762c680f5> a tcs:TaxonConcept ;
+    dcterms:title "Begonia heddei sec. Irmscher 1925" ;
+    tcs:accordingTo <https://eg.tdwg.org/tcs/ref/0552488b705004b9> ;
+    tcs:acceptedName <https://www.ipni.org/n/104820-1> .
+
+<https://eg.tdwg.org/tcs/tc/b9e5246eb36c0874> a tcs:TaxonConcept ;
+    dcterms:title "Begonia lehmbachii sec. Irmscher 1925" ;
+    tcs:accordingTo <https://eg.tdwg.org/tcs/ref/0552488b705004b9> ;
+    tcs:acceptedName <https://www.ipni.org/n/105026-1> .
+
+<https://eg.tdwg.org/tcs/tc/f1d0a4e1463ca67b> a tcs:TaxonConcept ;
+    dcterms:title "Begonia conraui sec. Irmscher 1925" ;
+    tcs:accordingTo <https://eg.tdwg.org/tcs/ref/0552488b705004b9> ;
+    tcs:acceptedName <https://www.ipni.org/n/104451-1> .
+
+<https://eg.tdwg.org/tcs/tc/73e4c67fb98060f3> a tcs:TaxonConcept ;
+    dcterms:title "Begonia kummerae sec. Irmscher 1925" ;
+    tcs:accordingTo <https://eg.tdwg.org/tcs/ref/0552488b705004b9> ;
+    tcs:acceptedName <https://www.ipni.org/n/104983-1> .
+
+<https://eg.tdwg.org/tcs/tc/d20cc86a7287c169> a tcs:TaxonConcept ;
+    dcterms:title "Begonia petrophila sec. Irmscher 1925" ;
+    tcs:accordingTo <https://eg.tdwg.org/tcs/ref/0552488b705004b9> ;
+    tcs:acceptedName <https://www.ipni.org/n/105419-1> .
+
+<https://eg.tdwg.org/tcs/tc/2dd6f6bf8214d266> a tcs:TaxonConcept ;
+    dcterms:title "Begonia seretii sec. Irmscher 1925" ;
+    tcs:accordingTo <https://eg.tdwg.org/tcs/ref/0552488b705004b9> ;
+    tcs:acceptedName <https://www.ipni.org/n/105716-1> .
+
+<https://eg.tdwg.org/tcs/tc/e40d73a77b9058ee> a tcs:TaxonConcept ;
+    dcterms:title "Begonia sassandrensis sec. Irmscher 1925" ;
+    tcs:accordingTo <https://eg.tdwg.org/tcs/ref/0552488b705004b9> ;
+    tcs:acceptedName <https://www.ipni.org/n/105665-1> .
+
+
 #
 # Begonia salaziensis sec. Klazenga & al. 1994
 #
 
-_:tc56a6fd4d5232a730 a tcs:TaxonConcept ;
+<https://eg.tdwg.org/tcs/tc/56a6fd4d5232a730> a tcs:TaxonConcept ;
     dcterms:title "Begonia salaziensis sec. Klazenga & al. 1994" ;
     tcs:accordingTo <https://doi/org/10.2307/3668252> ;
     tcs:acceptedName <https://ipni.org/n/105644-1> ;
     tcs:synonym <https://ipni.org/n/104198-1> ,
             <https://ipni.org/n/77237080-1> ;
-    tcs:parent _:tc0d8b3bc859b207e1 ;
-    tcs:intersects [ a tcs:TaxonConcept ;
-            dcterms:title "Begonia salaziensis sec. Warburg 1894" ;
-            tcs:accordingTo _:rd9a27f7b90cde25a ;
-            tcs:acceptedName <https://ipni.org/n/105644-1> ] ,
-        [ a tcs:TaxonConcept ;
-            dcterms:title "Begonia salaziensis sec. Irmscher 1925" ;
-            tcs:accordingTo _:r0552488b705004b9 ;
-            tcs:acceptedName <https://ipni.org/n/105644-1> ] .
+    tcs:parent <https://eg.tdwg.org/tcs/tc/0d8b3bc859b207e1> ;
+    tcs:intersects <https://eg.tdwg.org/tcs/tc/4d278a6515f891a7> ,
+            <https://eg.tdwg.org/tcs/tc/6af663449ecd3ac3> .
 
 <https://ipni.org/n/105644-1> a tcs:TaxonName ;
     tcs:taxonNameString "Begonia salaziensis" ;
@@ -713,7 +753,7 @@ _:tc56a6fd4d5232a730 a tcs:TaxonConcept ;
     dwc:scientificNameAuthorship "Gaudich." ;
     dwc:namePublishedIn "Voy. Bonite, Bot. 3(Atlas): t. 32 (1841)" .
 
-[] a tcs:NomenclaturalType ;
+<https://eg.tdwg.org/tcs/nt/2b975591dd13a7cd> a tcs:NomenclaturalType ;
     tcs:typifiedName <https://www.ipni.org/n/106227-1> ;
     tcs:typeSpecimen [ a dwc:MaterialCitation ;
             dwc:country "Réunion" ;
@@ -722,7 +762,7 @@ _:tc56a6fd4d5232a730 a tcs:TaxonConcept ;
             dwc:institutionCode "P" ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/holotype> .
 
-[] a tcs:NomenclaturalType ;
+<https://eg.tdwg.org/tcs/nt/0e5908429d808ce0> a tcs:NomenclaturalType ;
     tcs:typifiedName <https://www.ipni.org/n/106227-1> ;
     tcs:typeSpecimen [ a dwc:MaterialCitation ;
             dwc:country "Réunion" ;
@@ -738,7 +778,7 @@ _:tc56a6fd4d5232a730 a tcs:TaxonConcept ;
     dwc:namePublishedIn "Hort. Bengal. 104; Fl. Ind. iii. 650 (1832)" ;
     tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/illegitimum> .
 
-[] a tcs:NomenclaturalType ;
+<https://eg.tdwg.org/tcs/nt/c4bcc38109c1a310> a tcs:NomenclaturalType ;
     tcs:typifiedName <https://ipni.org/n/104198-1> ;
     tcs:typeSpecimen [ a dwc:MaterialCitation ;
             dwc:country "Réunion" ;
@@ -754,17 +794,27 @@ _:tc56a6fd4d5232a730 a tcs:TaxonConcept ;
     dwc:namePublishedIn "Fl. Mauritius 129 (1877)" ;
     tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/dubimum> .
 
+<https://eg.tdwg.org/tcs/tc/4d278a6515f891a7> a tcs:TaxonConcept ;
+    dcterms:title "Begonia salaziensis sec. Warburg 1894" ;
+    tcs:accordingTo <https://eg.tdwg.org/tcs/ref/d9a27f7b90cde25a> ;
+    tcs:acceptedName <https://ipni.org/n/105644-1> .
+
+<https://eg.tdwg.org/tcs/tc/6af663449ecd3ac3>  a tcs:TaxonConcept ;
+    dcterms:title "Begonia salaziensis sec. Irmscher 1925" ;
+    tcs:accordingTo <https://eg.tdwg.org/tcs/ref/0552488b705004b9> ;
+    tcs:acceptedName <https://ipni.org/n/105644-1> .
+
 
 #
 # Begonia seychellensis sec. Klazenga & al. 1994
 # 
 
-_:tc972de7086730e734 a tcs:TaxonConcept ;
+<https://eg.tdwg.org/tcs/tc/972de7086730e734> a tcs:TaxonConcept ;
     dcterms:title "Begonia seychellensis sec. Klazenga & al. 1994" ;
     tcs:accordingTo <https://doi/org/10.2307/3668252> ;
     tcs:acceptedName <https://www.ipni.org/n/105731-1> ;
-    tcs:parent _:tc0d8b3bc859b207e1 ;
-    tcs:intersects _:tcfef94e0ef53e7304 . # Begonia comorensis sec. Keraudren-Aymonin 1983
+    tcs:parent <https://eg.tdwg.org/tcs/tc/0d8b3bc859b207e1> ;
+    tcs:intersects <https://eg.tdwg.org/tcs/tc/fef94e0ef53e7304> . # Begonia comorensis sec. Keraudren-Aymonin 1983
 
 <https://www.ipni.org/n/105731-1> a tcs:TaxonName ;
     tcs:taxonNameString "Begonia seychellensis Hemsl., J. Bot. 54(Suppl. 2): 15 (1916)" ;
@@ -778,7 +828,7 @@ _:tc972de7086730e734 a tcs:TaxonConcept ;
     dwc:scientificNameAuthorship "Hemsl." ;
     dwc:namePublishedIn "J. Bot. 54(Suppl. 2): 15 (1916)" .
 
-[] a tcs:NomenclaturalType ;
+<https://eg.tdwg.org/tcs/nt/27844d49f476bc0a> a tcs:NomenclaturalType ;
     tcs:typifiedName <https://www.ipni.org/n/106227-1> ;
     tcs:typeSpecimen [ a dwc:MaterialCitation ;
             dwc:country "Seychelles" ;
@@ -788,7 +838,7 @@ _:tc972de7086730e734 a tcs:TaxonConcept ;
             dwc:institutionCode "G" ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> .
 
-[] a tcs:NomenclaturalType ;
+<https://eg.tdwg.org/tcs/nt/13cb8fd5783c9914> a tcs:NomenclaturalType ;
     tcs:typifiedName <https://doi/org/10.2307/3668252> ;
     tcs:typeSpecimen [ a dwc:MaterialCitation ;
             dwc:country "Seychelles" ;
@@ -798,7 +848,7 @@ _:tc972de7086730e734 a tcs:TaxonConcept ;
             dwc:institutionCode "K" ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/lectotype> .
 
-[] a tcs:NomenclaturalType ;
+<https://eg.tdwg.org/tcs/nt/eec0e4dd5218ce1c> a tcs:NomenclaturalType ;
     tcs:typifiedName <https://doi/org/10.2307/3668252> ;
     tcs:typeSpecimen [ a dwc:MaterialCitation ;
             dwc:country "Seychelles" ;
@@ -808,7 +858,7 @@ _:tc972de7086730e734 a tcs:TaxonConcept ;
             dwc:institutionCode "K" ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/syntype> .
 
-[] a tcs:NomenclaturalType ;
+<https://eg.tdwg.org/tcs/nt/30497c49d5b3231f> a tcs:NomenclaturalType ;
     tcs:typifiedName <https://doi/org/10.2307/3668252> ;
     tcs:typeSpecimen [ a dwc:MaterialCitation ;
             dwc:country "Seychelles" ;
@@ -818,7 +868,7 @@ _:tc972de7086730e734 a tcs:TaxonConcept ;
             dwc:institutionCode "K" ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/syntype> .
 
-[] a tcs:NomenclaturalType ;
+<https://eg.tdwg.org/tcs/nt/62582803731bccbc> a tcs:NomenclaturalType ;
     tcs:typifiedName <https://doi/org/10.2307/3668252> ;
     tcs:typeSpecimen [ a dwc:MaterialCitation ;
             dwc:country "Seychelles" ;
@@ -833,7 +883,7 @@ _:tc972de7086730e734 a tcs:TaxonConcept ;
 # References
 #
 
-_:red0645a4f5f1004c a bibo:BookSection ;
+<https://eg.tdwg.org/tcs/ref/ed0645a4f5f1004c> a bibo:BookSection ;
     dcterms:title "Fam. Begoniaceae" ;
     dcterms:creator <https://www.wikidata.org/wiki/Q60718> ;
     bibo:authorList [ a rdf:Seq ;
@@ -856,7 +906,7 @@ _:red0645a4f5f1004c a bibo:BookSection ;
             bibo:issue "2" ] ;
     bibo:pages "612-612" .
 
-_:rd9a27f7b90cde25a a bibo:Chapter ;
+<https://eg.tdwg.org/tcs/ref/d9a27f7b90cde25a> a bibo:Chapter ;
     dcterms:title "Begoniaceae" ;
     dcterms:creator <https://www.wikidata.org/wiki/Q62822> ;
     bibo:authorList [ a rdf:Seq; 
@@ -873,9 +923,9 @@ _:rd9a27f7b90cde25a a bibo:Chapter ;
                             rdf:_2 <https://www.wikidata.org/wiki/Q64995> ] ] ;
             bibo:volume "3" ;
             bibo:issue "6a" ] ;
-    pages: "121-150" .
+    bibo:pages "121-150" .
 
-_:r0552488b705004b9 a bibo:AcademicArticle ;
+<https://eg.tdwg.org/tcs/ref/0552488b705004b9> a bibo:AcademicArticle ;
     dcterms:title "Begoniaceae africanae" ;
     dcterms:creator <https://www.wikidata.org/wiki/Q62822> ;
     bibo:authorList <https://www.wikidata.org/wiki/Q62822> ;
@@ -886,16 +936,16 @@ _:r0552488b705004b9 a bibo:AcademicArticle ;
             bibo:volume "22" ] ;
     bibo:pages "32-45" .
 
-_:rba1eab1dfbe06903 a bibo:Book ;
+<https://eg.tdwg.org/tcs/ref/ba1eab1dfbe06903> a bibo:Book ;
     dcterms:title "Famille 144 – Begoniacées" ;
     dcterms:creator <https://www.wikidata.org/wiki/Q10331852> ;
-    dcterms:authorList [ rdf:Seq ; 
+    dcterms:authorList [ a rdf:Seq ; 
             rdf:_1 <https://www.wikidata.org/wiki/Q10331852> ] ;
     dcterms:isPartOf [ a bibo:Series ;
             dcterms:title "Flore de Madagascar et des Comores" ] ;
     bibo:pages "7-108" .
 
-_:r9a8fd7d105edf2e6 a bibo:Chapter ;
+<https://eg.tdwg.org/tcs/ref/9a8fd7d105edf2e6> a bibo:Chapter ;
     dcterms:title "Begoniaceae" ;
     dcterms:creator <https://www.wikidata.org/wiki/Q8771887> ;
     bibo:authorList [ a rdf:Seq; 
@@ -912,11 +962,11 @@ _:r9a8fd7d105edf2e6 a bibo:Chapter ;
                             rdf:_2 <https://www.wikidata.org/wiki/Q64995> ] ;
                     bibo:edition "2" ] ;
             bibo:volume "21" ] ;
-    pages: "121-150" .
+    bibo:pages "121-150" .
 
 <https://www.wikidata.org/wiki/Q60718> a foaf:Person ;
     foaf:givenName "A." ;
-    foaf:surname "Engler" ;
+    foaf:surname "Engler" .
 
 <https://www.wikidata.org/wiki/Q63040> a foaf:Person ;
     foaf:givenName "O." ;

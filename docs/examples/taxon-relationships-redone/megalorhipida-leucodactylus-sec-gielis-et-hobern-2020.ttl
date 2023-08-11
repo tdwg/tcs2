@@ -17,42 +17,42 @@
             tcs:taxonNameString "Megalorhipida leucodactylus" ;
             dwc:scientificName "Megalorhipida leucodactylus (Fabricius, 1794)" ;
             tcs:basionym <https://zoobank.org/NomenclaturalActs/39b2f236-3914-4962-9dcc-f594671654bd> ] ;
-    tcs:synonym _:tn1 , 
-            _:tn2 ,
-            _:tn3 ,
-            _:tn4 ,
-            _:tn5 ,
-            _:tn6 ,
-            _:tn7 ,
-            _:tn8 ,
-            _:tn9 ,
-            _:tn10 ,
-            _:tn11 ;
+    tcs:synonym <https://eg.tdwg.org/tcs/tn/1> , 
+            <https://eg.tdwg.org/tcs/tn/2> ,
+            <https://eg.tdwg.org/tcs/tn/3> ,
+            <https://eg.tdwg.org/tcs/tn/4> ,
+            <https://eg.tdwg.org/tcs/tn/5> ,
+            <https://eg.tdwg.org/tcs/tn/6> ,
+            <https://eg.tdwg.org/tcs/tn/7> ,
+            <https://eg.tdwg.org/tcs/tn/8> ,
+            <https://eg.tdwg.org/tcs/tn/9> ,
+            <https://eg.tdwg.org/tcs/tn/10> ,
+            <https://eg.tdwg.org/tcs/tn/11> ;
     tcs:taxonomicRank <http://rs.gbif.org/vocabulary/gbif/rank/species> ;
     tcs:parent <https://www.catalogueoflife.org/data/taxon/62ZBY> ;
-    tcs:intersects _:tc1,
-            _:tc2,
-            _:tc3,
-            _:tc4,
-            _:tc5,
-            _:tc6,
-            _:tc7,
-            _:tc8,
-            _:tc9,
-            _:tc10,
-            _:tc11,
-            _:tc12,
-            _:tc13,
-            _:tc10,
-            _:tc15,
-            _:tc16,
-            _:tc17,
-            _:tc18,
-            _:tc19,
-            _:tc20,
-            _:tc21,
-            _:tc22,
-            _:tc23 .
+    tcs:intersects <https://eg.tdwg.org/tcs/tc/1>,
+            <https://eg.tdwg.org/tcs/tc/2>,
+            <https://eg.tdwg.org/tcs/tc/3>,
+            <https://eg.tdwg.org/tcs/tc/4>,
+            <https://eg.tdwg.org/tcs/tc/5>,
+            <https://eg.tdwg.org/tcs/tc/6>,
+            <https://eg.tdwg.org/tcs/tc/7>,
+            <https://eg.tdwg.org/tcs/tc/8>,
+            <https://eg.tdwg.org/tcs/tc/9>,
+            <https://eg.tdwg.org/tcs/tc/10>,
+            <https://eg.tdwg.org/tcs/tc/11>,
+            <https://eg.tdwg.org/tcs/tc/12>,
+            <https://eg.tdwg.org/tcs/tc/13>,
+            <https://eg.tdwg.org/tcs/tc/10>,
+            <https://eg.tdwg.org/tcs/tc/15>,
+            <https://eg.tdwg.org/tcs/tc/16>,
+            <https://eg.tdwg.org/tcs/tc/17>,
+            <https://eg.tdwg.org/tcs/tc/18>,
+            <https://eg.tdwg.org/tcs/tc/19>,
+            <https://eg.tdwg.org/tcs/tc/20>,
+            <https://eg.tdwg.org/tcs/tc/21>,
+            <https://eg.tdwg.org/tcs/tc/22>,
+            <https://eg.tdwg.org/tcs/tc/23> .
 
 #
 # Names
@@ -61,37 +61,37 @@
 <https://zoobank.org/NomenclaturalActs/39b2f236-3914-4962-9dcc-f594671654bd> a tcs:TaxonName ;
     dwc:scientificName "Pterophorus leucodactylus Fabricius, 1794" .
 
-_:tn1 a tcs:TaxonName ;
+<https://eg.tdwg.org/tcs/tn/1> a tcs:TaxonName ;
     dwc:scientificName "Aciptilia hawaiiensis Butler, 1881" .
 
-_:tn2 a tcs:TaxonName ;
+<https://eg.tdwg.org/tcs/tn/2> a tcs:TaxonName ;
     dwc:scientificName "Megalorhipida palaestinensis Amsel, 1935" .
 
-_:tn3 a tcs:TaxonName ;
+<https://eg.tdwg.org/tcs/tn/3> a tcs:TaxonName ;
     dwc:scientificName "Pterophorus congrualis Walker, 1864" .
 
-_:tn4 a tcs:TaxonName ;
+<https://eg.tdwg.org/tcs/tn/4> a tcs:TaxonName ;
     dwc:scientificName "Pterophorus defectalis Walker, 1864" .
 
-_:tn5 a tcs:TaxonName ;
+<https://eg.tdwg.org/tcs/tn/5> a tcs:TaxonName ;
     dwc:scientificName "Trichoptilus adelphodes Meyrick, 1887" .
 
-_:tn6 a tcs:TaxonName ;
+<https://eg.tdwg.org/tcs/tn/6> a tcs:TaxonName ;
     dwc:scientificName "Trichoptilus centetes Meyrick, 1886" .
 
-_:tn7 a tcs:TaxonName ;
+<https://eg.tdwg.org/tcs/tn/7> a tcs:TaxonName ;
     dwc:scientificName "Trichoptilus compsochares Meyrick, 1886" .
 
-_:tn8 a tcs:TaxonName ;
+<https://eg.tdwg.org/tcs/tn/8> a tcs:TaxonName ;
     dwc:scientificName "Trichoptilus derelictus Meyrick, 1926" .
 
-_:tn9 a tcs:TaxonName ;
+<https://eg.tdwg.org/tcs/tn/9> a tcs:TaxonName ;
     dwc:scientificName "Trichoptilus ochrodactylus Fish, 1881" .
 
-_:tn10 a tcs:TaxonName ;
+<https://eg.tdwg.org/tcs/tn/10> a tcs:TaxonName ;
     dwc:scientificName "Trichoptilus ralumensis Pagenstecher, 1900" .
 
-_:tn11 a tcs:TaxonName ;
+<https://eg.tdwg.org/tcs/tn/11> a tcs:TaxonName ;
     dwc:scientificName "Pterophorus oxydactylus Walker, 1864" .
 
 
@@ -182,34 +182,34 @@ _:tn11 a tcs:TaxonName ;
 # References 
 #
 
-_:tc1 a tcs:TaxonConcept ;
+<https://eg.tdwg.org/tcs/tc/1> a tcs:TaxonConcept ;
     dcterms:title "Pterophorus congrualis sec. Walker 1864" ;
     tcs:accordingTo <https://www.biodiversitylibrary.org/page/38948425> ;
-    tcs:acceptedName _:tn3 .
+    tcs:acceptedName <https://eg.tdwg.org/tcs/tn/3> .
 
-_:tc21 a tcs:TaxonConcept ;
+<https://eg.tdwg.org/tcs/tc/21> a tcs:TaxonConcept ;
     dcterms:title "Pterophorus defectalis sec. Walker 1864" ;
     tcs:accordingTo <https://www.biodiversitylibrary.org/page/38948425> ;
-    tcs:acceptedName _:tn4 .
+    tcs:acceptedName <https://eg.tdwg.org/tcs/tn/4> .
 
-_:tc22 a tcs:TaxonConcept ;
+<https://eg.tdwg.org/tcs/tc/22> a tcs:TaxonConcept ;
     dcterms:title "Pterophorus oxydactylus sec. Walker 1864" ;
     tcs:accordingTo <https://www.biodiversitylibrary.org/page/38948425> ;
-    tcs:acceptedName _:tn11 .
+    tcs:acceptedName <https://eg.tdwg.org/tcs/tn/11> .
 
 <https://www.biodiversitylibrary.org/page/38948425> a bibo:Book ;
     dcterms:bibliographicCitation """Walker, F. (1864). List of the specimens 
             of lepidopterous insects in the collection of the British Museum. 
             Part XXX. Tineites.""" .
 
-_:tc2 a tcs:TaxonConcept ;
+<https://eg.tdwg.org/tcs/tc/2> a tcs:TaxonConcept ;
     dcterms:title "Pterophorus leucodactylus sec. Gielis & al. 2022" ;
     tcs:accordingTo [ a bibo:Book ;
             dcterms:bibliographicCitation """Gielis, C., Franssen, M., Groenen, 
                     F., & Wangdi, K. (2022). Moths of Bhutan. 1–420.""" ] ;
     tcs:acceptedName <https://zoobank.org/NomenclaturalActs/39b2f236-3914-4962-9dcc-f594671654bd> .
 
-_:tc3 a tcs:TaxonConcept ;
+<https://eg.tdwg.org/tcs/tc/3> a tcs:TaxonConcept ;
     dcterms:title "Pterophorus leucodactylus sec. Matthews et al. 2019" ;
     tcs:accordingTo <https://digitalcommons.unl.edu/insectamundi/1219> ;
     tcs:acceptedName <https://zoobank.org/NomenclaturalActs/39b2f236-3914-4962-9dcc-f594671654bd> .
@@ -220,7 +220,7 @@ _:tc3 a tcs:TaxonConcept ;
             Bahamas (Lepidoptera: Pterophoridae) with description of four new 
             species. Insecta Mundi, 0708, 1–35.""" .
 
-_:tc4 a tcs:TaxonConcept ;
+<https://eg.tdwg.org/tcs/tc/4> a tcs:TaxonConcept ;
     dcterms:title "Pterophorus leucodactylus sec. Ustjuzhanin, Kovtunovich & Streltzov 2022" ;
     tcs:accordingTo [ a bibo:AcademicArticle ;
             dcterms:bibliographicCitation """Ustjuzhanin, P., Kovtunovich V. & 
@@ -229,54 +229,54 @@ _:tc4 a tcs:TaxonConcept ;
                     SHILAP Revista De Lepidopterología, 50(199), 435–439.""" ] ;
     tcs:acceptedName <https://zoobank.org/NomenclaturalActs/39b2f236-3914-4962-9dcc-f594671654bd> .
 
-_:tc5 a tcs:TaxonConcept ;
+<https://eg.tdwg.org/tcs/tc/5> a tcs:TaxonConcept ;
     dcterms:title "Trichoptilus ralumensis sec. Pagenstecher 1900" ;
     tcs:accordingTo [ a bibo:AcademicArticle ;
             dcterms:bibliographicCitation """Pagenstecher, A. (1900). Die 
                     Lepidopterenfauna des Bismarck-Archipels. Zoologica, 
                     Stuttg., 27, 238–242.""" ] ;
-    tcs:acceptedName _:tn10 .
+    tcs:acceptedName <https://eg.tdwg.org/tcs/tn/10> .
 
-_:tc6 a tcs:TaxonConcept ;
+<https://eg.tdwg.org/tcs/tc/6> a tcs:TaxonConcept ;
     dcterms:title "Trichoptilus centetes sec. Meyrick 1886" ;
-    tcs:accordingTo _:p1 ;
-    tcs:acceptedName _:tn6 .
+    tcs:accordingTo <https://eg.tdwg.org/tcs/ref/1> ;
+    tcs:acceptedName <https://eg.tdwg.org/tcs/tn/6> .
 
-_:tc23 a tcs:TaxonConcept ;
+<https://eg.tdwg.org/tcs/tc/23> a tcs:TaxonConcept ;
     dcterms:title "Trichoptilus compsochares sec. Meyrick 1886" ;
-    tcs:accordingTo _:p1 ;
-    tcs:acceptedName _:tn6 .
+    tcs:accordingTo <https://eg.tdwg.org/tcs/ref/1> ;
+    tcs:acceptedName <https://eg.tdwg.org/tcs/tn/6> .
 
-_:p1 a bibo:AcademicArticle ;
+<https://eg.tdwg.org/tcs/ref/1> a bibo:AcademicArticle ;
     dcterms:bibliographicCitation """On the classification of the Pterophoridae. 
             Trans. Ent. Soc. London, 1886, 1–21.""" .
 
-_:tc7 a tcs:TaxonConcept ;
+<https://eg.tdwg.org/tcs/tc/7> a tcs:TaxonConcept ;
     dcterms:title "Trichoptilus ochrodactylus sec. Fish 1881" ;
     tcs:accordingTo [ a bibo:AcademicArticle ;
             dcterms:bibliographicCitation """Fish, C. (1881). Pterophoridae. 
                     Can. Ent., 13, 70–74, 140–143.""" ] ;
-    tcs:acceptedName _:tn9 .
+    tcs:acceptedName <https://eg.tdwg.org/tcs/tn/9> .
 
-_:tc8 a tcs:TaxonConcept ;
+<https://eg.tdwg.org/tcs/tc/8> a tcs:TaxonConcept ;
     dcterms:title "Aciptilia hawaiiensis sec. Butler 1881" ;
     tcs:accordingTo [ a bibo:AcademicArticle ;
             dcterms:bibliographicCitation """Butler, A. G. (1881). On a 
                     collection of nocturnal lepidoptera from the Hawaiian 
                     Islands. Ann. Mag. Nat. Hist. (5th Series), 7, 407–408.""" ] ;
-    tcs:acceptedName _:tn1 .
+    tcs:acceptedName <https://eg.tdwg.org/tcs/tn/1> .
 
-_:tc9 a tcs:TaxonConcept ;
+<https://eg.tdwg.org/tcs/tc/9> a tcs:TaxonConcept ;
     dcterms:title "Trichoptilus adelphodes sec. Meyrick 1887" ;
     tcs:accordingTo <https://www.biodiversitylibrary.org/page/13718569> ;
-    tcs:acceptedName _:tn5 .
+    tcs:acceptedName <https://eg.tdwg.org/tcs/tn/5> .
 
 <https://www.biodiversitylibrary.org/page/13718569> a bibo:AcademicArticle ;
     dcterms:bibliographicCitation """Meyrick, E. (1887). On Pyralidina from 
             Australia and the South Pacific. Trans. Ent. Soc. London, 1887, 
             185–268.""" .
 
-_:tc10 a tcs:TaxonConcept ;
+<https://eg.tdwg.org/tcs/tc/10> a tcs:TaxonConcept ;
     dcterms:title "Pterophorus leucodactylus sec. Ustjuzhanin et al. 2019," ;
     tcs:accordingTo <https://doi.org/10.1080/09397140.2018.1540159> ;
     tcs:acceptedName <https://zoobank.org/NomenclaturalActs/39b2f236-3914-4962-9dcc-f594671654bd> .
@@ -287,7 +287,7 @@ _:tc10 a tcs:TaxonConcept ;
             (Lepidoptera: Pterophoridae) of Oman. Zoology in the Middle East, 
             65:1, 75–78.""" .
 
-_:tc11 a tcs:TaxonConcept ;
+<https://eg.tdwg.org/tcs/tc/11> a tcs:TaxonConcept ;
     dcterms:title "Pterophorus leucodactylus sec. Kovtunovich, Ustjuzhanin, Popotski & Haverinen 2023" ;
     tcs:accordingTo <https://doi.org/10.37828/em.2023.62.17> ;
     tcs:acceptedName <https://zoobank.org/NomenclaturalActs/39b2f236-3914-4962-9dcc-f594671654bd> .
@@ -296,15 +296,15 @@ _:tc11 a tcs:TaxonConcept ;
     dcterms:bibliographicCitation """To the plume moths fauna (Lepidoptera: 
             Pterophoridae) of Kenya. Ecologica Montenegrina, 67, 127–138.""" .
 
-_:tc12 a tcs:TaxonConcept ;
+<https://eg.tdwg.org/tcs/tc/12> a tcs:TaxonConcept ;
     dcterms:title "Megalorhipida palaestinensis sec. Amsel 1935" ;
     tcs:accordingTo [ a bibo:AcademicArticle ;
             dcterms:bibliographicCitation """Amsel, H. G. (1935). Neue 
                     palästinensische Lepidopteren. Mitt. Zool. Mus. Berlin, 20, 
                     271–319, 10 pl.""" ] ;
-    tcs:acceptedName _:tn2 .
+    tcs:acceptedName <https://eg.tdwg.org/tcs/tn/2> .
 
-_:tc13 a tcs:TaxonConcept ;
+<https://eg.tdwg.org/tcs/tc/13> a tcs:TaxonConcept ;
     dcterms:title "Pterophorus leucodactylus sec. Fabricius 1794" ;
     tcs:accordingTo [ a bibo:Book ;
             dcterms:bibliographicCitation """Fabricius, J. C. (1794). 
@@ -313,7 +313,7 @@ _:tc13 a tcs:TaxonConcept ;
                     observationibus, descriptionibus. 3(1), 1–349.""" ] ;
     tcs:acceptedName <https://zoobank.org/NomenclaturalActs/39b2f236-3914-4962-9dcc-f594671654bd> .
 
-_:tc10 a tcs:TaxonConcept ;
+<https://eg.tdwg.org/tcs/tc/10> a tcs:TaxonConcept ;
     dcterms:title "Pterophorus leucodactylus sec. Kovtunovich & al. 2014" ;
     tcs:accordingTo <https://doi.org/10.11646/zootaxa.3847.4.1> ;
     tcs:acceptedName <https://zoobank.org/NomenclaturalActs/39b2f236-3914-4962-9dcc-f594671654bd> .
@@ -323,7 +323,7 @@ _:tc10 a tcs:TaxonConcept ;
             R. (2014). Plume moths of Malawi (Lepidoptera: Pterophoridae). 
             Zootaxa, 3847, 451–494.""" .
 
-_:tc15 a tcs:TaxonConcept ;
+<https://eg.tdwg.org/tcs/tc/15> a tcs:TaxonConcept ;
     dcterms:title "Pterophorus leucodactylus sec. Ustjuzhanin & Kovtunovich 2023" ;
     tcs:accordingTo <https://doi.org/10.37828/em.2023.61.4> ;
     tcs:acceptedName <https://zoobank.org/NomenclaturalActs/39b2f236-3914-4962-9dcc-f594671654bd> .
@@ -333,15 +333,15 @@ _:tc15 a tcs:TaxonConcept ;
             Plume Moths (Lepidoptera: Pterophoridae) of Ethiopia Part 3. 
             Ecologica Montenegrina, 61, 31–42. """ .
 
-_:tc16 a tcs:TaxonConcept ;
+<https://eg.tdwg.org/tcs/tc/16> a tcs:TaxonConcept ;
     dcterms:title "Trichoptilus derelictus sec. Meyrick 1926" ;
     tcs:accordingTo [ a bibo:AcademicArticle ;
             dcterms:bibliographicCitation """Meyrick, E. (1926). 
                     Microlepidoptera from the Galapagos Islands and Rapa. Trans. 
                     Ent. Soc. London, 74, 276.""" ] ;
-    tcs:acceptedName _:tn8 .
+    tcs:acceptedName <https://eg.tdwg.org/tcs/tn/8> .
 
-_:tc17 a tcs:TaxonConcept ;
+<https://eg.tdwg.org/tcs/tc/17> a tcs:TaxonConcept ;
     dcterms:title "Pterophorus leucodactylus sec. Ustjuzhanin & al. 2021" ;
     tcs:accordingTo <https://doi.org/10.25221/fee.423.2> ;
     tcs:acceptedName <https://zoobank.org/NomenclaturalActs/39b2f236-3914-4962-9dcc-f594671654bd> .
@@ -352,7 +352,7 @@ _:tc17 a tcs:TaxonConcept ;
             plume moths (Lepidoptera: Pterophoridae) of the fauna of Pakistan. 
             Far Eastern Entomologist, 432, 5–8.""" .
 
-_:tc18 a tcs:TaxonConcept ;
+<https://eg.tdwg.org/tcs/tc/18> a tcs:TaxonConcept ;
     dcterms:title "Pterophorus leucodactylus sec. Ustjuzhanin & Kovtunovich 2017" ;
     tcs:accordingTo [ a bibo:AcademicArticle ;
             dcterms:bibliographicCitation """Ustjuzhanin, P., & Kovtunovich, V. 
@@ -360,7 +360,7 @@ _:tc18 a tcs:TaxonConcept ;
                     Ukrainian Journal of Ecology, 7(4), 649–654.""" ] ;
     tcs:acceptedName <https://zoobank.org/NomenclaturalActs/39b2f236-3914-4962-9dcc-f594671654bd> .
 
-_:tc19 a tcs:TaxonConcept ;
+<https://eg.tdwg.org/tcs/tc/19> a tcs:TaxonConcept ;
     dcterms:title "Pterophorus leucodactylus sec. Karsholt & Razowski 1996" ;
     tcs:accordingTo [ a bibo:Book ;
             dcterms:bibliographicCitation """Karsholt, O., & Razowski, J. (1996). 
@@ -368,7 +368,7 @@ _:tc19 a tcs:TaxonConcept ;
                     Apollo Books, Stenstrup, Denmark.""" ] ;
     tcs:acceptedName <https://zoobank.org/NomenclaturalActs/39b2f236-3914-4962-9dcc-f594671654bd> .
 
-_:tc20 a tcs:TaxonConcept ;
+<https://eg.tdwg.org/tcs/tc/20> a tcs:TaxonConcept ;
     dcterms:title "Pterophorus leucodactylus sec. Ustjuzhanin, Kovtunovich, Müller, Prozorov & Streltzov 2022" ;
     tcs:accordingTo <https://doi.org/10.37828/em.2022.53.6> ;
     tcs:acceptedName <https://zoobank.org/NomenclaturalActs/39b2f236-3914-4962-9dcc-f594671654bd> .
