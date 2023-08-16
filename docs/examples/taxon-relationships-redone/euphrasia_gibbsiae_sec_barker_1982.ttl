@@ -33,43 +33,43 @@
 
 [] a dwc:ResourceRelationship ;
     rdf:subject <https://id.biodiversity.org.au/instance/apni/545068> ;
-    rdf:predicate <http://rs.tdwg.org/tcs-taxon-relationship-type/values/intersects> ;
+    rdf:predicate tcs:intersects ;
     rdf:object <https://eg.tdwg.org/tcs/tc/86e41a0d00563b48> ;
-    rdfs:comment "p.p. (as to Tasmanian occurrences and f. subglabrifolia in Victoria)".
+    rdfs:comment "p.p. (as to Tasmanian occurrences and f. subglabrifolia in Victoria)" .
 
 [] a dwc:ResourceRelationship ;
     rdf:subject <https://id.biodiversity.org.au/instance/apni/545068> ;
-    rdf:predicate <http://rs.tdwg.org/tcs-taxon-relationship-type/values/intersects> ;
+    rdf:predicate tcs:intersects ;
     rdf:object <https://eg.tdwg.org/tcs/tc/239923369ce6bf37> ;
-    rdfs:comment """p.p. (excl. "f. comberi" in Victoria)""".
+    rdfs:comment """p.p. (excl. "f. comberi" in Victoria)""" .
 
 [] a dwc:ResourceRelationship ;
     rdf:subject <https://id.biodiversity.org.au/instance/apni/545068> ;
-    rdf:predicate <http://rs.tdwg.org/tcs-taxon-relationship-type/values/intersects> ;
+    rdf:predicate tcs:intersects ;
     rdf:object <https://eg.tdwg.org/tcs/tc/2b41e667646cb764> ;
-    rdfs:comment "p.p. (as to f. subglabrifolia)".
+    rdfs:comment "p.p. (as to f. subglabrifolia)" .
 
 [] a dwc:ResourceRelationship ;
     rdf:subject <https://id.biodiversity.org.au/instance/apni/545068> ;
-    rdf:predicate <http://rs.tdwg.org/tcs-taxon-relationship-type/values/intersects> ;
+    rdf:predicate tcs:intersects ;
     rdf:object <https://eg.tdwg.org/tcs/tc/4678aed5c164f1b6> ;
     rdfs:comment "p.p. (as to var. psilantherea p.p.)" .
 
 [] a dwc:ResourceRelationship ;
     rdf:subject <https://id.biodiversity.org.au/instance/apni/545068> ;
-    rdf:predicate <http://rs.tdwg.org/tcs-taxon-relationship-type/values/intersects> ;
+    rdf:predicate tcs:intersects ;
     rdf:object <https://eg.tdwg.org/tcs/tc/69bac5cea79d155d> ;
     rdfs:comment "p.p. (as to Stuart 1745, Milligan MEL41451, p.p., Mueller MEL41539)" .
 
 [] a dwc:ResourceRelationship ;
     rdf:subject <https://id.biodiversity.org.au/instance/apni/545068> ;
-    rdf:predicate <http://rs.tdwg.org/tcs-taxon-relationship-type/values/intersects> ;
+    rdf:predicate tcs:intersects ;
     rdf:object <https://eg.tdwg.org/tcs/ref/46c73edcf453c18d> ;
     rdfs:comment "p.p. (as to Oldfield W36919, W36922)" .
 
 [] a dwc:ResourceRelationship ;
     rdf:subject <https://id.biodiversity.org.au/instance/apni/545068> ;
-    rdf:predicate <http://rs.tdwg.org/tcs-taxon-relationship-type/values/intersects> ;
+    rdf:predicate tcs:intersects ;
     rdf:object <https://eg.tdwg.org/tcs/tc/3b7de1bfea67a9bb> ;
     rdfs:comment "p.p. (as to Labillardière G)" .
     

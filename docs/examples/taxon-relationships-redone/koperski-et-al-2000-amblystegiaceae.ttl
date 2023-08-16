@@ -1,7 +1,14 @@
 @prefix tcs: <http://rs.tdwg.org/tcs/terms/> .
+@prefix address: <http://schemas.talis.com/2005/address/schema#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dwc: <http://rs.tdwg.org/dwc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix ns1: <http://purl.org/dc/terms/dcterms:> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix tropicos: <https://www.tropicos.org/name/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://eg.tdwg.org/tcs/tc/2000-Campylium> a tcs:TaxonConcept ;
     dcterms:title "Campylium sec. Koperski et al. 2000" ;
@@ -22,12 +29,14 @@
 <https://eg.tdwg.org/tcs/tca/1> a tcs:TaxonConceptAlignment ;
     rdf:subject <https://eg.tdwg.org/tcs/tc/2000-Campylium> ;
     rdf:predicate tcs:isCongruentWith ;
-    rdf:object <https://eg.tdwg.org/tcs/tc/1981-Campylium> .
+    rdf:object <https://eg.tdwg.org/tcs/tc/1981-Campylium> ;
+    dcterms:source <https://tropicos.org/reference/9022656> .
 
 <https://eg.tdwg.org/tcs/tca/2> a tcs:TaxonConceptAlignment ;
     rdf:subject <https://eg.tdwg.org/tcs/tc/2000-Campylium> ;
     rdf:predicate tcs:includes ;
     rdf:object <https://eg.tdwg.org/tcs/tc/1980-Campylium> ;
+    dcterms:source <https://tropicos.org/reference/9022656> ;
     rdfs:comment """excl. *C. longicuspis (Lindb. & Arnell) Hedenäs (syn. 
             *Amblystegium l. Lindb. & Arnell, *Drepanocladus l. (Lindb. & 
             Arnell) Broth., Pseudocalliergon l. (Lindb. & Arnell) Loeske), da 
@@ -39,6 +48,7 @@
     rdf:subject <https://eg.tdwg.org/tcs/tc/2000-Campylium> ;
     rdf:predicate tcs:partiallyOverlaps ;
     rdf:object <https://eg.tdwg.org/tcs/tc/1927-Chrysohypnum> ;
+    dcterms:source <https://tropicos.org/reference/9022656> ;
     rdfs:comment """incl. Amblystegium radicale (Chrysohypnum hygrophyllum); 
             excl. * Campylium longicuspis (Lindb. & Arnell) Hedenäs 
             (Drepanocladus l.).""" .
@@ -47,6 +57,7 @@
     rdf:subject <https://eg.tdwg.org/tcs/tc/2000-Campylium> ;
     rdf:predicate tcs:partiallyOverlaps ;
     rdf:object <https://eg.tdwg.org/tcs/tc/1927-Drepanocladus> ;
+    dcterms:source <https://tropicos.org/reference/9022656> ;
     rdfs:comment """incl. * Campylium longicuspis (Lindb. & Arnell) Hedenäs 
             (Drepanocladus l.)""" .
 
@@ -54,6 +65,7 @@
     rdf:subject <https://eg.tdwg.org/tcs/tc/2000-Campylium> ;
     rdf:predicate tcs:intersects ;
     rdf:object <https://eg.tdwg.org/tcs/tc/1992-Campylium> ;
+    dcterms:source <https://tropicos.org/reference/9022656> ;
     rdfs:comment """incl. Amblystegium radicale (Campylium r.). Wahrscheinlich 
             excl. *C. longicuspis (Lindb. & Arnell) Hedenäs. Dieses arktische 
             Taxon wird vermutlich nicht in das Gattungskonzept einbezogen, 
@@ -86,12 +98,14 @@
     rdf:subject <https://eg.tdwg.org/tcs/tc/2000-Amblystegium> ;
     rdf:predicate tcs:includes ;
     rdf:object <https://eg.tdwg.org/tcs/tc/1981-Amblystegium> ;
+    dcterms:source <https://tropicos.org/reference/9022656> ;
     rdfs:comment "incl. Leptodictyum riparium (Amblystegium r.)" .
 
 <https://eg.tdwg.org/tcs/tca/7> a tcs:TaxonConceptAlignment ;
     rdf:subject <https://eg.tdwg.org/tcs/tc/2000-Amblystegium> ;
     rdf:predicate tcs:includes ;
     rdf:object <https://eg.tdwg.org/tcs/tc/1992-Amblystegium> ;
+    dcterms:source <https://tropicos.org/reference/9022656> ;
     rdfs:comment """excl. Amblystegium confervoides (Amblystegiella c.), A. 
             subtile (Amblystegiella s.), A. fluviatile (Hygroamblystegium f.), 
             A. tenax (Hygroambystegium t.), A. radicale (Campylium r.)""" .
@@ -99,29 +113,34 @@
 <https://eg.tdwg.org/tcs/tca/8> a tcs:TaxonConceptAlignment ;
     rdf:subject <https://eg.tdwg.org/tcs/tc/2000-Amblystegium> ;
     rdf:predicate tcs:includes ;
-    rdf:object <https://eg.tdwg.org/tcs/tc/1992-Hygroamblystegium> .
+    rdf:object <https://eg.tdwg.org/tcs/tc/1992-Hygroamblystegium> ;
+    dcterms:source <https://tropicos.org/reference/9022656> .
 
 <https://eg.tdwg.org/tcs/tca/9> a tcs:TaxonConceptAlignment ;
     rdf:subject <https://eg.tdwg.org/tcs/tc/2000-Amblystegium> ;
     rdf:predicate tcs:includes ;
-    rdf:object <https://eg.tdwg.org/tcs/tc/1927-Hygroamblystegium> .
+    rdf:object <https://eg.tdwg.org/tcs/tc/1927-Hygroamblystegium> ;
+    dcterms:source <https://tropicos.org/reference/9022656> .
 
 <https://eg.tdwg.org/tcs/tca/10> a tcs:TaxonConceptAlignment ;
     rdf:subject <https://eg.tdwg.org/tcs/tc/2000-Amblystegium> ;
     rdf:predicate tcs:partiallyOverlaps ;
     rdf:object <https://eg.tdwg.org/tcs/tc/1992-Amblystegiella> ;
+    dcterms:source <https://tropicos.org/reference/9022656> ;
     rdfs:comment """incl. Amblystegium confervoides (Amblystegiella c.), 
             Amblystegium subtile (Amblystegiella s.)""" .
 
 <https://eg.tdwg.org/tcs/tca/11> a tcs:TaxonConceptAlignment ;
     rdf:subject <https://eg.tdwg.org/tcs/tc/2000-Amblystegium> ;
     rdf:predicate tcs:partiallyOverlaps ;
-    rdf:object <https://eg.tdwg.org/tcs/tc/1992-Campylium> .
+    rdf:object <https://eg.tdwg.org/tcs/tc/1992-Campylium> ;
+    dcterms:source <https://tropicos.org/reference/9022656> .
 
 <https://eg.tdwg.org/tcs/tca/12> a tcs:TaxonConceptAlignment ;
     rdf:subject <https://eg.tdwg.org/tcs/tc/2000-Amblystegium> ;
     rdf:predicate tcs:partiallyOverlaps ;
     rdf:object <https://eg.tdwg.org/tcs/tc/1927-Amblystegium> ;
+    dcterms:source <https://tropicos.org/reference/9022656> ;
     rdfs:comment """incl. Conardia compacta (Amblystegium c.), *Isopterygiopsis 
             alpicola (Lind. & Arnell) Hedenäs (Amblystegium a.), Leptodictyum 
             riparium (Amblystegium r.), Platydictya jungermannioides 
@@ -135,12 +154,14 @@
     rdf:subject <https://eg.tdwg.org/tcs/tc/2000-Amblystegium> ;
     rdf:predicate tcs:partiallyOverlaps ;
     rdf:object <https://eg.tdwg.org/tcs/tc/1927-Chrysohypnum> ;
+    dcterms:source <https://tropicos.org/reference/9022656> ;
     rdfs:comment "incl. Amblystegium radicale (Chrysohypnum hygrophilum)" .
 
 <https://eg.tdwg.org/tcs/tca/14> a tcs:TaxonConceptAlignment ;
     rdf:subject <https://eg.tdwg.org/tcs/tc/2000-Amblystegium> ;
     rdf:predicate tcs:partiallyOverlaps ;
     rdf:object <https://eg.tdwg.org/tcs/tc/1980-Amblystegium> ;
+    dcterms:source <https://tropicos.org/reference/9022656> ;
     rdfs:comment """incl. Conardia compacta (Amblystegium c.), Leptodictyum 
             riparium (Amblystegium r.); excl. Amblystegium confervioides 
             (Platydictya c.)""" .
@@ -149,6 +170,7 @@
     rdf:subject <https://eg.tdwg.org/tcs/tc/2000-Amblystegium> ;
     rdf:predicate tcs:partiallyOverlaps ;
     rdf:object <https://eg.tdwg.org/tcs/tc/1980-Platydictya> ;
+    dcterms:source <https://tropicos.org/reference/9022656> ;
     rdfs:comment "incl. Amblystegium confervoides (Platydictya c.)" .
 
 
@@ -166,12 +188,14 @@
 <https://eg.tdwg.org/tcs/tca/16> a tcs:TaxonConceptAlignment ;
     rdf:subject <https://eg.tdwg.org/tcs/tc/2000-Platydictya> ;
     rdf:predicate tcs:isCongruentWith ;
-    rdf:object <https://eg.tdwg.org/tcs/tc/1981-Platydictya> .
+    rdf:object <https://eg.tdwg.org/tcs/tc/1981-Platydictya> ;
+    dcterms:source <https://tropicos.org/reference/9022656> .
 
 <https://eg.tdwg.org/tcs/tca/17> a tcs:TaxonConceptAlignment ;
     rdf:subject <https://eg.tdwg.org/tcs/tc/2000-Platydictya> ;
     rdf:predicate tcs:includes ;
     rdf:object <https://eg.tdwg.org/tcs/tc/1992-Amblystegiella> ;
+    dcterms:source <https://tropicos.org/reference/9022656> ;
     rdfs:comment """incl. Amblystegium confervoides (Amblystegiella c.), 
             Amblystegium subtile (Amblystegiella s.), Amblystegium subtile 
             (Amblystegiella s.)""" .
@@ -179,12 +203,14 @@
 <https://eg.tdwg.org/tcs/tca/18> a tcs:TaxonConceptAlignment ;
     rdf:subject <https://eg.tdwg.org/tcs/tc/2000-Platydictya> ;
     rdf:predicate tcs:includes ;
-    rdf:object <https://eg.tdwg.org/tcs/tc/1927-Amblystegium> .
+    rdf:object <https://eg.tdwg.org/tcs/tc/1927-Amblystegium> ;
+    dcterms:source <https://tropicos.org/reference/9022656> .
 
 <https://eg.tdwg.org/tcs/tca/19> a tcs:TaxonConceptAlignment ;
     rdf:subject <https://eg.tdwg.org/tcs/tc/2000-Platydictya> ;
     rdf:predicate tcs:includes ;
     rdf:object <https://eg.tdwg.org/tcs/tc/1927-Amblystegium-sect-Serpoleskea> ;
+    dcterms:source <https://tropicos.org/reference/9022656> ;
     rdfs:comment """incl. Amblystegium confervoides, A. subtile, 
             *Isopterygiopsis alpicola (Lindb. & Arnell) Hedenäs (Amblystegium 
             a.), Pseudoleskeella catenulata (Amblystegium ursorum) sowie 
@@ -195,6 +221,7 @@
     rdf:subject <https://eg.tdwg.org/tcs/tc/2000-Platydictya> ;
     rdf:predicate tcs:includes ;
     rdf:object <https://eg.tdwg.org/tcs/tc/1980-Platydictya> ;
+    dcterms:source <https://tropicos.org/reference/9022656> ;
     rdfs:comment "incl. Amblystegium confervoides (Platydictya c.)" .
 
 
@@ -216,33 +243,39 @@
 <https://eg.tdwg.org/tcs/tca/21> a tcs:TaxonConceptAlignment ;
     rdf:subject <https://eg.tdwg.org/tcs/tc/2000-Leptodictyum> ;
     rdf:predicate tcs:isCongruentWith ;
-    rdf:object <https://eg.tdwg.org/tcs/tc/1992-Leptodictyum> .
+    rdf:object <https://eg.tdwg.org/tcs/tc/1992-Leptodictyum> ;
+    dcterms:source <https://tropicos.org/reference/9022656> .
 
 <https://eg.tdwg.org/tcs/tca/22> a tcs:TaxonConceptAlignment ;
     rdf:subject <https://eg.tdwg.org/tcs/tc/2000-Leptodictyum> ;
     rdf:predicate tcs:isCongruentWith ;
-    rdf:object <https://eg.tdwg.org/tcs/tc/1927-Amblystegium-sect-Leptodictyum> .
+    rdf:object <https://eg.tdwg.org/tcs/tc/1927-Amblystegium-sect-Leptodictyum> ;
+    dcterms:source <https://tropicos.org/reference/9022656> .
 
 <https://eg.tdwg.org/tcs/tca/23> a tcs:TaxonConceptAlignment ;
     rdf:subject <https://eg.tdwg.org/tcs/tc/2000-Leptodictyum> ;
     rdf:predicate tcs:isIncludedIn ;
-    rdf:object <https://eg.tdwg.org/tcs/tc/1981-Amblystegium> .
+    rdf:object <https://eg.tdwg.org/tcs/tc/1981-Amblystegium> ;
+    dcterms:source <https://tropicos.org/reference/9022656> .
 
 <https://eg.tdwg.org/tcs/tca/24> a tcs:TaxonConceptAlignment ;
     rdf:subject <https://eg.tdwg.org/tcs/tc/2000-Leptodictyum> ;
     rdf:predicate tcs:isIncludedIn ;
     rdf:object <https://eg.tdwg.org/tcs/tc/1981-Amblystegium-subg-Leptodictyum> ;
-    rdfs:comment "incl. Amblystegium humile" .
+    rdfs:comment "incl. Amblystegium humile" ;
+    dcterms:source <https://tropicos.org/reference/9022656> .
 
 <https://eg.tdwg.org/tcs/tca/25> a tcs:TaxonConceptAlignment ;
     rdf:subject <https://eg.tdwg.org/tcs/tc/2000-Leptodictyum> ;
     rdf:predicate tcs:isIncludedIn ;
-    rdf:object <https://eg.tdwg.org/tcs/tc/1927-Amblystegium> .
+    rdf:object <https://eg.tdwg.org/tcs/tc/1927-Amblystegium> ;
+    dcterms:source <https://tropicos.org/reference/9022656> .
 
 <https://eg.tdwg.org/tcs/tca/26> a tcs:TaxonConceptAlignment ;
     rdf:subject <https://eg.tdwg.org/tcs/tc/2000-Leptodictyum> ;
     rdf:predicate tcs:isIncludedIn ;
-    rdf:object <https://eg.tdwg.org/tcs/tc/1980-Amblystegium> .
+    rdf:object <https://eg.tdwg.org/tcs/tc/1980-Amblystegium> ;
+    dcterms:source <https://tropicos.org/reference/9022656> .
 
 
 <https://eg.tdwg.org/tcs/tc/2000-Conardia> a tcs:TaxonConcept ;
@@ -258,22 +291,26 @@
 <https://eg.tdwg.org/tcs/tca/27> a tcs:TaxonConceptAlignment ;
     rdf:subject <https://eg.tdwg.org/tcs/tc/2000-Conardia> ;
     rdf:predicate tcs:isCongruentWith ;
-    rdf:object <https://eg.tdwg.org/tcs/tc/1981-Conardia> .
+    rdf:object <https://eg.tdwg.org/tcs/tc/1981-Conardia> ;
+    dcterms:source <https://tropicos.org/reference/9022656> .
 
 <https://eg.tdwg.org/tcs/tca/28> a tcs:TaxonConceptAlignment ;
     rdf:subject <https://eg.tdwg.org/tcs/tc/2000-Conardia> ;
     rdf:predicate tcs:isIncludedIn ;
-    rdf:object <https://eg.tdwg.org/tcs/tc/1992-Rhynchostegiella> .
+    rdf:object <https://eg.tdwg.org/tcs/tc/1992-Rhynchostegiella> ;
+    dcterms:source <https://tropicos.org/reference/9022656> .
 
 <https://eg.tdwg.org/tcs/tca/29> a tcs:TaxonConceptAlignment ;
     rdf:subject <https://eg.tdwg.org/tcs/tc/2000-Conardia> ;
     rdf:predicate tcs:isIncludedIn ;
-    rdf:object <https://eg.tdwg.org/tcs/tc/1927-Amblystegium> .
+    rdf:object <https://eg.tdwg.org/tcs/tc/1927-Amblystegium> ;
+    dcterms:source <https://tropicos.org/reference/9022656> .
 
 <https://eg.tdwg.org/tcs/tca/30> a tcs:TaxonConceptAlignment ;
     rdf:subject <https://eg.tdwg.org/tcs/tc/2000-Conardia> ;
     rdf:predicate tcs:isIncludedIn ;
-    rdf:object <https://eg.tdwg.org/tcs/tc/1980-Amblystegium> .
+    rdf:object <https://eg.tdwg.org/tcs/tc/1980-Amblystegium> ;
+    dcterms:source <https://tropicos.org/reference/9022656> .
 
 
 
@@ -379,3 +416,207 @@
     dcterms:title "Rhynchostegiella sec. Frahm & Frey 1992" ;
     tcs:accordingTo <https://tropicos.org/reference/9011497> ;
     tcs:acceptedName <https://tropicos.org/name/35001131> .
+
+
+<https://tropicos.org/name/35000040> a tcs:TaxonName ;
+    tcs:taxonNameString "Amblystegium" ;
+    dwc:scientificNameAuthorship "Schimp."^^xsd:string ;
+    dwc:namePublishedIn "Bryol. Eur. 6: 45 (1853)"^^xsd:string .
+
+<https://tropicos.org/name/35000208> a tcs:TaxonName ;
+    tcs:taxonNameString "Campylium" ;
+    dwc:scientificNameAuthorship "(Sull.) Mitt."^^xsd:string ;
+    dwc:namePublishedIn "J. Linn. Soc., Bot. 12: 631 (1809)"^^xsd:string ;
+    tcs:basionym <https://tropicos.org/name/35101380> .
+
+<https://tropicos.org/name/35000970> a tcs:TaxonName ;
+    tcs:taxonNameString "Platydictya" ;
+    dwc:scientificNameAuthorship "Berk."^^xsd:string ;
+    dwc:namePublishedIn "Handb. Brit. Mosses: 145 (1863)"^^xsd:string .
+
+<https://tropicos.org/name/35000692> a tcs:TaxonName ;
+    tcs:taxonNameString "Leptodictyum" ;
+    dwc:scientificNameAuthorship "(Schimp.) Warnst."^^xsd:string ;
+    dwc:namePublishedIn "Krypt.-Fl. Brandenburg, Laubm. 2: 840 (1906)"^^xsd:string ;
+    tcs:basionym <https://tropicos.org/name/35102656> .
+
+<https://tropicos.org/name/35000290> a tcs:TaxonName ;
+    tcs:taxonNameString "Conardia" ;
+    dwc:scientificNameAuthorship "H.Rob."^^xsd:string ;
+    dwc:namePublishedIn "Phytologia 33: 294 (1976)"^^xsd:string .
+
+<https://tropicos.org/name/35000207> a tcs:TaxonName ;
+    tcs:taxonNameString "Campyliadelphus" ;
+    dwc:namePublishedIn "Taxon. Indian Mosses: 442 (1975)"^^xsd:string ;
+    dwc:scientificNameAuthorship "(Kindb.) R.S.Chopra"^^xsd:string .
+
+<https://tropicos.org/name/35000213> a tcs:TaxonName ;
+    tcs:taxonNameString "Campylophyllum" ;
+    dwc:namePublishedIn "Nova Guinea 12(2): 123 (1914)"^^xsd:string ;
+    dwc:scientificNameAuthorship "(Schimp.) M.Fleisch."^^xsd:string .
+
+<https://tropicos.org/name/35000039> a tcs:TaxonName ;
+    tcs:taxonNameString "Amblystegiella" ;
+    dwc:namePublishedIn "Moosfl. Harz.: 294 (1903)"^^xsd:string ;
+    dwc:scientificNameAuthorship "Loeske"^^xsd:string ;
+    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/superfluum> .
+
+<https://tropicos.org/name/35000256> a tcs:TaxonName ;
+    tcs:taxonNameString "Chrysohypnum" ;
+    dwc:scientificNameAuthorship "G.Roth"^^xsd:string ;
+    dwc:namePublishedIn "Hedwigia 38(Beibl. 1): 6 (1899)"^^xsd:string ;
+    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/superfluum> .
+
+<https://tropicos.org/name/35000413> a tcs:TaxonName ;
+    dwc:namePublishedIn "Hedwigia 38(Beibl. 1): 6 (1899)"^^xsd:string ;
+    dwc:scientificNameAuthorship "(Müll.Hal.) G.Roth"^^xsd:string ;
+    tcs:taxonNameString "Drepanocladus" .
+
+<https://tropicos.org/name/35001131> a tcs:TaxonName ;
+    tcs:taxonNameString "Rhynchostegiella" ;
+    dwc:scientificNameAuthorship "(Schimp.) Limpr."^^xsd:string ;
+    dwc:namePublishedIn "Laubm. Deutschl. 3: 207 (1896)"^^xsd:string ;
+    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/conservandum> .
+
+<https://tropicos.org/name/35101380> a tcs:TaxonName ;
+    tcs:taxonNameString "Hypnum subg. Campylium" ;
+    dwc:namePublishedIn "Man. Bot. (A. Eaton), ed. 2: 677 (1856)"^^xsd:string ;
+    dwc:scientificNameAuthorship "Sull."^^xsd:string .
+
+<https://tropicos.org/name/35102679> a tcs:TaxonName ;
+    tcs:taxonNameString "Amblystegium sect. Serpoleskea" ;
+    dwc:scientificNameAuthorship "(Limpr.) Mönk."^^xsd:string ;
+    dwc:namePublishedIn "Laubm. Eur.: 730 (1927)"^^xsd:string .
+
+<https://tropicos.org/name/35000612> a tcs:TaxonName ;
+    tcs:taxonNameString "Hygroamblystegium" ;
+    dwc:scientificNameAuthorship "Loeske"^^xsd:string ;
+    dwc:namePublishedIn "Moosfl. Harz.: 298 (1903)"^^xsd:string .
+
+<https://tropicos.org/name/35102656> a tcs:TaxonName ;
+    tcs:taxonNameString "Amblystegium subg. Leptodictyum" ;
+    dwc:scientificNameAuthorship "Schimp."^^xsd:string ;
+    dwc:namePublishedIn "Syn. Musc. Eur.: 595 (1860)"^^xsd:string .
+
+<https://www.tropicos.org/reference/9022656> a bibo:Book ;
+    dcterms:creator ( _:n2 _:n4 _:n5 _:n6 ) ;
+    bibo:authorList ( _:n2 _:n4 _:n5 _:n6 ) ;
+    dcterms:date "2000" ;
+    dcterms:title "Referenzliste der Moose Deutschlands, Dokumentation unterschiedlicher taxonomischer Auffassungen" ;
+    dcterms:isPartOf [ a bibo:Series ;
+            dcterms:title "Schriftenreihe für Vegetationskunde" ;
+            bibo:number "34" ] ;
+    dcterms:publisher [ a foaf:Organization ;
+            address:localityName "Bonn-Bad Godesberg" ;
+            foaf:name "Bundersamt für Naturschutz" ] ;
+    bibo:numPages "519" ;
+    dcterms:language "German" ;
+    bibo:isbn13 "3-7843-3504-7" .
+
+<https://www.tropicos.org/reference/9004554> a bibo:AcademicArticle ;
+    dcterms:creator ( _:n13 _:n15 _:n16 _:n17 _:n18 ) ;
+    bibo:authorList ( _:n13 _:n15 _:n16 _:n17 _:n18 ) ;
+    dcterms:title "Mosses of Europe and the Azores; an annotated list of species, with synonyms from the recent literature" ;
+    dcterms:isPartOf [ a bibo:Issue ;
+            dcterms:date "1981" ;
+            dcterms:isPartOf [ a bibo:Journal ;
+                    dcterms:title "Journal of Bryology" ;
+                    bibo:shortTitle "J. Bryol." ] ;
+            bibo:issue "4" ;
+            bibo:volume "11" ] ;
+    bibo:pages "609-689" .
+
+<https://www.tropicos.org/reference/9010070> a bibo:AcademicArticle ;
+    dcterms:creator ( _:n13 _:n15 ) ;
+    bibo:authorList ( _:n13 _:n15 ) ;
+    dcterms:title "Additions and amendments of the mosses of Europe and the Azores" ;
+    dcterms:isPartOf [ a bibo:Issue ;
+            dcterms:isPartOf [ a bibo:Journal ;
+                    dcterms:title "Journal of Bryology" ;
+                    bibo:shortTitle "J. Bryol." ] ;
+            bibo:issue "3" ;
+            bibo:volume "16" ] ;
+    bibo:pages "337-356" .
+
+<https://www.tropicos.org/reference/9011497> a bibo:Book ;
+    dcterms:creator ( _:n22 _:n24 ) ;
+    bibo:authorList ( _:n22 _:n24 ) ;
+    dcterms:date "1992" ;
+    dcterms:title "Moosflora" ;
+    bibo:edition "3. Aufl." ;
+    dcterms:isPartOf [ a bibo:Series ;
+            dcterms:title "Uni-Taschenb." ;
+            bibo:number "1250" ] ;
+    dcterms:publisher [ a foaf:Organization ;
+            address:localityName "Stuttgart" ;
+            foaf:name "Ulmer" ] ;
+    bibo:numPages "528" .
+
+<https://www.tropicos.org/reference/9007023> a bibo:Book ;
+    dcterms:creator _:n33 ;
+    bibo:authorList _:n33 ;
+    dcterms:date "1978" ;
+    dcterms:title "The moss flora of Britain and Ireland" ;
+    dcterms:publisher [ a foaf:Organization ;
+            address:localityName "Cambridge" ;
+            foaf:name "Cambridge University Press" ] .
+
+<https://www.tropicos.org/reference/9021085> a bibo:Book ;
+    dcterms:creator _:n28 ;
+    bibo:authorList _:n28 ;
+    dcterms:date "1927" ;
+    dcterms:title "Die Laubmoose Europas" ;
+    bibo:volume "Bd. IV" ;
+    dcterms:isPartOf [ a bibo:Series ;
+            dcterms:title "Kryptogamenflora von Deutschland, Österreich und der Schweiz" ;
+            bibo:editor [ a foaf:Person ;
+                    foaf:givenName "G.L." ;
+                    foaf:surname "Rabenhorst" ] ] ;
+    ns1:publisher [ a foaf:Organization ;
+            address:localityName "Leipzig" ;
+            foaf:name "Geest & Portig" ] ;
+    bibo:numPages "960" .
+
+_:n2 a foaf:Person ;
+    foaf:givenName "Monica" ;
+    foaf:surname "Koperski" .
+
+_:n4 a foaf:Person ;
+    foaf:givenName "Michael" ;
+    foaf:surname "Sauer" .
+
+_:n5 a foaf:Person ;
+    foaf:givenName "Walter" ;
+    foaf:surname "Braun" .
+
+_:n6 a foaf:Person ;
+    foaf:givenName "S. Rob" ;
+    foaf:surname "Gradstein" .
+
+_:n13 a foaf:Person ;
+    foaf:givenName "M.F.V." ;
+    foaf:surname "Corley" .
+
+_:n15 a foaf:Person ;
+    foaf:givenName "A.C." ;
+    foaf:surname "Crundwell" .
+    
+_:n16 a foaf:Person ;
+    foaf:givenName "R." ;
+    foaf:surname "Düll" .
+
+_:n17 a foaf:Person ;
+    foaf:givenName "M.O." ;
+    foaf:surname "Hill" .
+
+_:n18 a foaf:Person ;
+    foaf:givenName "A.J.E." ;
+    foaf:surname "Smith" .
+
+_:n22 a foaf:Person ;
+    foaf:givenName "J.-P." ;
+    foaf:surname "Frahm" .
+
+_:n24 a foaf:Person ;
+    foaf:givenName "W." ;
+    foaf:surname "Frey" .
