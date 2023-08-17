@@ -179,7 +179,7 @@
     tcs:accordingTo <https://tropicos.org/reference/9022656> ;
     tcs:acceptedName <https://tropicos.org/name/35000970> ;
     tcs:isCongruentWith <https://eg.tdwg.org/tcs/tc/1981-Platydictya> ;
-    tcs:includes <https://eg.tdwg.org/tcs/tc/1992-Amblystegiella> ,
+    tcs:isIncludedIn <https://eg.tdwg.org/tcs/tc/1992-Amblystegiella> ,
             <https://eg.tdwg.org/tcs/tc/1927-Amblystegium> ,
             <https://eg.tdwg.org/tcs/tc/1927-Amblystegium-sect-Serpoleskea> ,
             <https://eg.tdwg.org/tcs/tc/1980-Platydictya> ;
@@ -193,7 +193,7 @@
 
 <https://eg.tdwg.org/tcs/tca/17> a tcs:TaxonConceptAlignment ;
     rdf:subject <https://eg.tdwg.org/tcs/tc/2000-Platydictya> ;
-    rdf:predicate tcs:includes ;
+    rdf:predicate tcs:isIncludedIn ;
     rdf:object <https://eg.tdwg.org/tcs/tc/1992-Amblystegiella> ;
     dcterms:source <https://tropicos.org/reference/9022656> ;
     rdfs:comment """incl. Amblystegium confervoides (Amblystegiella c.), 
@@ -202,13 +202,13 @@
 
 <https://eg.tdwg.org/tcs/tca/18> a tcs:TaxonConceptAlignment ;
     rdf:subject <https://eg.tdwg.org/tcs/tc/2000-Platydictya> ;
-    rdf:predicate tcs:includes ;
+    rdf:predicate tcs:isIncludedIn ;
     rdf:object <https://eg.tdwg.org/tcs/tc/1927-Amblystegium> ;
     dcterms:source <https://tropicos.org/reference/9022656> .
 
 <https://eg.tdwg.org/tcs/tca/19> a tcs:TaxonConceptAlignment ;
     rdf:subject <https://eg.tdwg.org/tcs/tc/2000-Platydictya> ;
-    rdf:predicate tcs:includes ;
+    rdf:predicate tcs:isIncludedIn ;
     rdf:object <https://eg.tdwg.org/tcs/tc/1927-Amblystegium-sect-Serpoleskea> ;
     dcterms:source <https://tropicos.org/reference/9022656> ;
     rdfs:comment """incl. Amblystegium confervoides, A. subtile, 
@@ -219,7 +219,7 @@
 
 <https://eg.tdwg.org/tcs/tca/20> a tcs:TaxonConceptAlignment ;
     rdf:subject <https://eg.tdwg.org/tcs/tc/2000-Platydictya> ;
-    rdf:predicate tcs:includes ;
+    rdf:predicate tcs:isIncludedIn ;
     rdf:object <https://eg.tdwg.org/tcs/tc/1980-Platydictya> ;
     dcterms:source <https://tropicos.org/reference/9022656> ;
     rdfs:comment "incl. Amblystegium confervoides (Platydictya c.)" .
@@ -236,7 +236,7 @@
             <https://eg.tdwg.org/tcs/tc/1927-Amblystegium> ,
             <https://eg.tdwg.org/tcs/tc/1980-Amblystegium> ;
     rdfs:comment """Weltweit 8 Arten, in Europa 1 Art. In Übereinstimmung mit 
-            Anderson & al. (1990), Ignatoc & Afonina (1992), Blockeel & Long 
+            Anderson & al. (1990), Ignatov & Afonina (1992), Blockeel & Long 
             (1998) sowie Crosby & al. (1999) Leptodictyum als Gattung akzeptiert 
             (s. auch Hedenäs 1990a).""" .
 
