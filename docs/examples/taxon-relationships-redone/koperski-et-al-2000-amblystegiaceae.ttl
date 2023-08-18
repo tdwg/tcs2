@@ -92,7 +92,7 @@
             Corley & al. Wird in Übereinstimmung mit Anderson & al. (1990), 
             Ignatov & Afonina (1992), Blockeel & Long (1998) sowie Crosby & al. 
             (1999) Leptodictyum als Gattung akzeptiert (s. auch Hedenäs 
-            1990a""" .
+            1990a.""" .
 
 <https://eg.tdwg.org/tcs/tca/6> a tcs:TaxonConceptAlignment ;
     rdf:subject <https://eg.tdwg.org/tcs/tc/2000-Amblystegium> ;
@@ -134,6 +134,7 @@
     rdf:subject <https://eg.tdwg.org/tcs/tc/2000-Amblystegium> ;
     rdf:predicate tcs:partiallyOverlaps ;
     rdf:object <https://eg.tdwg.org/tcs/tc/1992-Campylium> ;
+    rdfs:comment """incl. Amblystegium radicale (Campylium r.)"""
     dcterms:source <https://tropicos.org/reference/9022656> .
 
 <https://eg.tdwg.org/tcs/tca/12> a tcs:TaxonConceptAlignment ;
