@@ -70,6 +70,12 @@ skos:semanticRelation
  +- skos:related
  |   |
  |   +- skos:relatedMatch
+ |       |
+ |       +- tcs:partiallyOverlaps
+ |       |
+ |       +- tcs:intersects
+ |       |
+ |       +- tcs:isDisjointWith
  |
  +- skos:broaderTransitive
  |   |
