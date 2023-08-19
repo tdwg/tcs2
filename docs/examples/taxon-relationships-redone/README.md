@@ -42,6 +42,8 @@
 | tcs:synonym | skosxl:hiddenLabel |
 | tcs:vernacularName | skosxl:altLabel |
 | | |
+| tcs:parent | skos:broader |
+| | |
 | tcs:isCongruentWith | skos:closeMatch/skos:exactMatch |
 | tcs:includes | skos:narrowMatch |
 | tcs:isIncludedIn | skos:broadMatch |
@@ -49,12 +51,15 @@
 | tcs:isDisjointWith | skos:relatedMatch |
 | tcs:intersects | skos:relatedMatch |
 | | |
-| tcs:parent | skos:broader |
-| | |
 | **tcs:TaxonName** | **skosxl:Label** |
 | tcs:taxonNameString | skosxl:literalForm |
+| | |
+| tcs:basionym | skosxl:labelRelation |
+| tcs:replacedSynonym | skosxl:labelRelation |
+| tcs:conservedAgainst | skosxl:labelRelation |
+| tcs:spellingCorrectionOf | skosxl:labelRelation |
 
-- Relationships between taxa are anologous to `skos:semanticRelationship` properties
+- Relationships between taxa are anologous to `skos:semanticRelation` properties
 - Horizontal relationships between taxa are also analogous to `skos:mappingRelation` properties
 - Relationships between taxa and names are analogous to `skosxl:prefLabel`, `skosxl:altLabel` and `skosxl:hiddenLabel` properties
-- Relationships between names are analogous to the `skosxl:labelRelationship` property.
+- Relationships between names are analogous to the `skosxl:labelRelation` property.
