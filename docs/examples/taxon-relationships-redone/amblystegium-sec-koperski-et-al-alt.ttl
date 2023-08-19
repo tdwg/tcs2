@@ -1,0 +1,46 @@
+@prefix tcs: <http://rs.tdwg.org/tcs/terms/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<https://eg.tdwg.org/tcs/tc/2000-Amblystegium> a tcs:TaxonConcept ;
+    dcterms:title "Amblystegium sec. Koperski et al. 2000" ;
+    tcs:accordingTo <https://tropicos.org/reference/9022656> ;
+    tcs:acceptedName <https://tropicos.org/name/35000040> ;
+    tcs:synonym <https://tropicos.org/name/35000612> ;
+    tcs:includes [ rdf:value <https://eg.tdwg.org/tcs/tc/1981-Amblystegium> ;
+            rdfs:comment "incl. Leptodictyum riparium (Amblystegium r.)" ] ,
+        [ rdf:value <https://eg.tdwg.org/tcs/tc/1992-Amblystegium> ;
+            rdfs:comment """excl. Amblystegium confervoides (Amblystegiella c.), A. 
+                    subtile (Amblystegiella s.), A. fluviatile (Hygroamblystegium f.), 
+                    A. tenax (Hygroambystegium t.), A. radicale (Campylium r.)""" ] ,
+        <https://eg.tdwg.org/tcs/tc/1992-Hygroamblystegium> ,
+        <https://eg.tdwg.org/tcs/tc/1927-Hygroamblystegium> ;
+    tcs:partiallyOverlaps [ rdf:value <https://eg.tdwg.org/tcs/tc/1992-Amblystegiella> ;
+            rdfs:comment """incl. Amblystegium confervoides (Amblystegiella c.), 
+                    Amblystegium subtile (Amblystegiella s.)""" ] ,
+        [ rdf:value <https://eg.tdwg.org/tcs/tc/1992-Campylium> ;
+            rdfs:comment """incl. Amblystegium confervoides (Amblystegiella c.), 
+                    Amblystegium subtile (Amblystegiella s.)""" ] ,
+        [ rdf:value <https://eg.tdwg.org/tcs/tc/1927-Amblystegium> ;
+            rdfs:comment """incl. Conardia compacta (Amblystegium c.), *Isopterygiopsis 
+                    alpicola (Lind. & Arnell) Hedenäs (Amblystegium a.), Leptodictyum 
+                    riparium (Amblystegium r.), Platydictya jungermannioides 
+                    (Amblystegium sprucei), Pseudoleskeella catenulata p.p. 
+                    (Amblystegium ursorum) sowie die aussereuropäische Art *Homomallium 
+                    adnatum (Hedw,) Broth. (Amblystegium a.); excl. Amblystegium 
+                    fluviatile (Hygroamblystegium f.), A. tenax (Hygroamblystegium t.), 
+                    A. radicale (Chrysohypnum hygrophilum).""" ] ,
+        [ rdf:value <https://eg.tdwg.org/tcs/tc/1927-Chrysohypnum> ;
+            rdfs:comment "incl. Amblystegium radicale (Chrysohypnum hygrophilum)" ] ,
+        [ rdf:value <https://eg.tdwg.org/tcs/tc/1980-Amblystegium> ;
+            rdfs:comment """incl. Conardia compacta (Amblystegium c.), Leptodictyum 
+                    riparium (Amblystegium r.); excl. Amblystegium confervioides 
+                    (Platydictya c.)""" ] ,
+        [ rdf:value <https://eg.tdwg.org/tcs/tc/1980-Platydictya> ;
+            rdfs:comment "incl. Amblystegium confervoides (Platydictya c.)" ] ;
+    rdfs:comment """Weltweit etwa 35 Arten, in Europa 8 Arten. Abweichedn von 
+            Corley & al. Wird in Übereinstimmung mit Anderson & al. (1990), 
+            Ignatov & Afonina (1992), Blockeel & Long (1998) sowie Crosby & al. 
+            (1999) Leptodictyum als Gattung akzeptiert (s. auch Hedenäs 
+            1990a.""" .
