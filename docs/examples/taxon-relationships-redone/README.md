@@ -44,7 +44,7 @@
 | | |
 | tcs:parent | skos:broader |
 | | |
-| tcs:isCongruentWith | skos:closeMatch/skos:exactMatch |
+| tcs:isCongruentWith | skos:closeMatch |
 | tcs:includes | skos:narrowMatch |
 | tcs:isIncludedIn | skos:broadMatch |
 | tcs:partiallyOverlaps | skos:relatedMatch |
@@ -61,60 +61,5 @@
 
 - Relationships between taxa are anologous to `skos:semanticRelation` properties
 - Horizontal relationships between taxa are also analogous to `skos:mappingRelation` properties
-- Relationships between taxa and names are analogous to `skosxl:prefLabel`, `skosxl:altLabel` and `skosxl:hiddenLabel` properties
+- Relationships between taxa and names are analogous to the SKOS-XL labeling properties, `skosxl:prefLabel`, `skosxl:altLabel` and `skosxl:hiddenLabel`
 - Relationships between names are analogous to the `skosxl:labelRelation` property.
-
-```
-skos:semanticRelation
- |
- +- skos:related
- |   |
- |   +- skos:relatedMatch
- |       |
- |       +- tcs:partiallyOverlaps
- |       |
- |       +- tcs:intersects
- |       |
- |       +- tcs:isDisjointWith
- |
- +- skos:broaderTransitive
- |   |
- |   +- skos:broader
- |       |
- |       +- skos:broadMatch
- |       |   |
- |       |   +- tcs:isIncludedIn
- |       |
- |       +- tcs:parent
- |
- +- skos:narrowerTransitive
- |   |
- |   +- skos:narrower
- |       |
- |       +- skos:narrowMatch
- |           |
- |           +- tcs:includes
- |
- +- skos:mappingRelation
-     |
-     +- skos:closeMatch
-     |   |
-     |   +- skos:exactMatch
-     |
-     +- skos:relatedMatch
-     |   |
-     |   +- tcs:partiallyOverlaps
-     |   |
-     |   +- tcs:intersects
-     |   |
-     |   +- tcs:isDisjointWith
-     |
-     +- skos:broadMatch
-     |   |
-     |   +- tcs:isIncludedIn
-     |
-     +- skos:narrowMatch 
-         |
-         +- tcs:isIncludedIn
-
-```
