@@ -17,62 +17,25 @@
     tcs:accordingTo <https://www.jstor.org/stable/23873848> ;
     tcs:acceptedName <https://www.ipni.org/n/802545-1> ;
     tcs:synonym <https://www.ipni.org/n/802619-1> ;
-    tcs:intersects <https://id.biodiversity.org.au/instance/apni/545068> ,
+    tcs:intersects [ rdf:value <https://id.biodiversity.org.au/instance/apni/545068> ;
+            rdfs:comment "p.p. (as to Tasmanian occurrences and f. subglabrifolia in Victoria)" ] ,
             <https://eg.tdwg.org/tcs/tc/86e41a0d00563b48> ,
             <https://eg.tdwg.org/tcs/tc/d937d59f723e1b01> , 
-            <https://eg.tdwg.org/tcs/tc/239923369ce6bf37> , 
-            <https://eg.tdwg.org/tcs/tc/2b41e667646cb764> ,
+        [ rdf:value <https://eg.tdwg.org/tcs/tc/239923369ce6bf37> ;
+            rdfs:comment """p.p. (excl. "f. comberi" in Victoria)""" ] , 
+        [ rdf:value <https://eg.tdwg.org/tcs/tc/2b41e667646cb764> ;
+            rdfs:comment "p.p. (as to f. subglabrifolia)" ] ,
             <https://eg.tdwg.org/tcs/tc/ec95f13744439b3d> ,
             <https://eg.tdwg.org/tcs/tc/70f97aa3a0bc576b> ,
             <https://eg.tdwg.org/tcs/tc/0682bd87efbec6a5> ,
-            <https://eg.tdwg.org/tcs/tc/4678aed5c164f1b6> ,
-            <https://eg.tdwg.org/tcs/tc/69bac5cea79d155d> ,
-            <https://eg.tdwg.org/tcs/ref/46c73edcf453c18d> ,
-            <https://eg.tdwg.org/tcs/tc/3b7de1bfea67a9bb> .
-
-
-[] a dwc:ResourceRelationship ;
-    rdf:subject <https://id.biodiversity.org.au/instance/apni/545068> ;
-    rdf:predicate tcs:intersects ;
-    rdf:object <https://eg.tdwg.org/tcs/tc/86e41a0d00563b48> ;
-    rdfs:comment "p.p. (as to Tasmanian occurrences and f. subglabrifolia in Victoria)" .
-
-[] a dwc:ResourceRelationship ;
-    rdf:subject <https://id.biodiversity.org.au/instance/apni/545068> ;
-    rdf:predicate tcs:intersects ;
-    rdf:object <https://eg.tdwg.org/tcs/tc/239923369ce6bf37> ;
-    rdfs:comment """p.p. (excl. "f. comberi" in Victoria)""" .
-
-[] a dwc:ResourceRelationship ;
-    rdf:subject <https://id.biodiversity.org.au/instance/apni/545068> ;
-    rdf:predicate tcs:intersects ;
-    rdf:object <https://eg.tdwg.org/tcs/tc/2b41e667646cb764> ;
-    rdfs:comment "p.p. (as to f. subglabrifolia)" .
-
-[] a dwc:ResourceRelationship ;
-    rdf:subject <https://id.biodiversity.org.au/instance/apni/545068> ;
-    rdf:predicate tcs:intersects ;
-    rdf:object <https://eg.tdwg.org/tcs/tc/4678aed5c164f1b6> ;
-    rdfs:comment "p.p. (as to var. psilantherea p.p.)" .
-
-[] a dwc:ResourceRelationship ;
-    rdf:subject <https://id.biodiversity.org.au/instance/apni/545068> ;
-    rdf:predicate tcs:intersects ;
-    rdf:object <https://eg.tdwg.org/tcs/tc/69bac5cea79d155d> ;
-    rdfs:comment "p.p. (as to Stuart 1745, Milligan MEL41451, p.p., Mueller MEL41539)" .
-
-[] a dwc:ResourceRelationship ;
-    rdf:subject <https://id.biodiversity.org.au/instance/apni/545068> ;
-    rdf:predicate tcs:intersects ;
-    rdf:object <https://eg.tdwg.org/tcs/ref/46c73edcf453c18d> ;
-    rdfs:comment "p.p. (as to Oldfield W36919, W36922)" .
-
-[] a dwc:ResourceRelationship ;
-    rdf:subject <https://id.biodiversity.org.au/instance/apni/545068> ;
-    rdf:predicate tcs:intersects ;
-    rdf:object <https://eg.tdwg.org/tcs/tc/3b7de1bfea67a9bb> ;
-    rdfs:comment "p.p. (as to Labillardière G)" .
-    
+        [ rdf:value <https://eg.tdwg.org/tcs/tc/4678aed5c164f1b6> ;
+            rdfs:comment "p.p. (as to var. psilantherea p.p.)" ] ,
+        [ rdf:value <https://eg.tdwg.org/tcs/tc/69bac5cea79d155d> ;
+            rdfs:comment "p.p. (as to Stuart 1745, Milligan MEL41451, p.p., Mueller MEL41539)" ] ,
+        [ rdf:value <https://eg.tdwg.org/tcs/ref/46c73edcf453c18d> ;
+            rdfs:comment "p.p. (as to Oldfield W36919, W36922)" ] ,
+        [ rdf:value <https://eg.tdwg.org/tcs/tc/3b7de1bfea67a9bb> ;
+            rdfs:comment "p.p. (as to Labillardière G)" ] .
 
 <https://id.biodiversity.org.au/instance/apni/713514> a tcs:TaxonConcept ;
     dcterms:title "Euphrasia gibbsiae sec. Curtis 1967" ;
