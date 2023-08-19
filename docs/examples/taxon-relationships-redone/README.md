@@ -63,3 +63,52 @@
 - Horizontal relationships between taxa are also analogous to `skos:mappingRelation` properties
 - Relationships between taxa and names are analogous to `skosxl:prefLabel`, `skosxl:altLabel` and `skosxl:hiddenLabel` properties
 - Relationships between names are analogous to the `skosxl:labelRelation` property.
+
+```
+skos:semanticRelation
+ |
+ +- skos:related
+ |   |
+ |   +- skos:relatedMatch
+ |
+ +- skos:broaderTransitive
+ |   |
+ |   +- skos:broader
+ |       |
+ |       +- skos:broadMatch
+ |       |   |
+ |       |   +- tcs:isIncludedIn
+ |       |
+ |       +- tcs:parent
+ |
+ +- skos:narrowerTransitive
+ |   |
+ |   +- skos:narrower
+ |       |
+ |       +- skos:narrowMatch
+ |           |
+ |           +- tcs:includes
+ |
+ +- skos:mappingRelation
+     |
+     +- skos:closeMatch
+     |   |
+     |   +- skos:exactMatch
+     |
+     +- skos:relatedMatch
+     |   |
+     |   +- tcs:partiallyOverlaps
+     |   |
+     |   +- tcs:intersects
+     |   |
+     |   +- tcs:isDisjointWith
+     |
+     +- skos:broadMatch
+     |   |
+     |   +- tcs:isIncludedIn
+     |
+     +- skos:narrowMatch 
+         |
+         +- tcs:isIncludedIn
+
+```
