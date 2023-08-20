@@ -122,11 +122,11 @@
             dwc:scientificNameAuthorship "(Linnaeus 1766)" ] .
 
 
-<https://eg.tdwg.org/tcs/tn/3> a tcs:acceptedName ;
+<https://eg.tdwg.org/tcs/tn/3> a tcs:TaxonName ;
     dwc:scientificNameAuthorship "(Linnaeus 1766)" ;
     tcs:acceptedNameString "Circus hudsonius" .
 
-<https://eg.tdwg.org/tcs/tn/2> a tcs:acceptedName ;
+<https://eg.tdwg.org/tcs/tn/2> a tcs:TaxonName ;
     dwc:scientificNameAuthorship "(Linnaeus 1766)" ;
     tcs:acceptedNameString "Circus cyaneus" .
 
