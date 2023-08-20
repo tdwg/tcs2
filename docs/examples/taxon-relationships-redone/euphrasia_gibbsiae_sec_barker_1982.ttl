@@ -19,15 +19,15 @@
     tcs:synonym <https://www.ipni.org/n/802619-1> ;
     tcs:intersects [ rdf:value <https://id.biodiversity.org.au/instance/apni/545068> ;
             rdfs:comment "p.p. (as to Tasmanian occurrences and f. subglabrifolia in Victoria)" ] ,
-            <https://eg.tdwg.org/tcs/tc/86e41a0d00563b48> ,
-            <https://eg.tdwg.org/tcs/tc/d937d59f723e1b01> , 
+        <https://eg.tdwg.org/tcs/tc/86e41a0d00563b48> ,
+        <https://eg.tdwg.org/tcs/tc/d937d59f723e1b01> , 
         [ rdf:value <https://eg.tdwg.org/tcs/tc/239923369ce6bf37> ;
             rdfs:comment """p.p. (excl. "f. comberi" in Victoria)""" ] , 
         [ rdf:value <https://eg.tdwg.org/tcs/tc/2b41e667646cb764> ;
             rdfs:comment "p.p. (as to f. subglabrifolia)" ] ,
-            <https://eg.tdwg.org/tcs/tc/ec95f13744439b3d> ,
-            <https://eg.tdwg.org/tcs/tc/70f97aa3a0bc576b> ,
-            <https://eg.tdwg.org/tcs/tc/0682bd87efbec6a5> ,
+        <https://eg.tdwg.org/tcs/tc/ec95f13744439b3d> ,
+        <https://eg.tdwg.org/tcs/tc/70f97aa3a0bc576b> ,
+        <https://eg.tdwg.org/tcs/tc/0682bd87efbec6a5> ,
         [ rdf:value <https://eg.tdwg.org/tcs/tc/4678aed5c164f1b6> ;
             rdfs:comment "p.p. (as to var. psilantherea p.p.)" ] ,
         [ rdf:value <https://eg.tdwg.org/tcs/tc/69bac5cea79d155d> ;
