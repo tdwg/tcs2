@@ -5,7 +5,8 @@
 @prefix dwc: <http://rs.tdwg.org/dwc/terms/> .
 @prefix dwciri: <http://rs.tdwg.org/dwc/iri/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
-@prefix rdfs: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
 <https://arctos.database.museum/guid/UAM:Herb:86707> a dwc:PreservedSpecimen ;
     dsw:evidenceFor <https://www.idigbio.org/portal/records/1e364de0-e016-4ace-8c7d-46a60027c4cb> ;
@@ -14,8 +15,8 @@
 <https://eg.tdwg.org/tcs/det/0e69ee5cc7d757bb> a dwc:Identification ;
     dcterms:date "1984" ;
     dwciri:identifiedBy <https://www.wikidata.org/wiki/Q18982613> ;
-    dwciri:toTaxon <https://eg.tdwg.org/tcs/tc/2dad951ecb0ebf68> ;
-    rdfs:comment "Assumes Argus's concept did not change from 1973 to 1984" .
+    dwciri:toTaxon [ rdf:value <https://eg.tdwg.org/tcs/tc/2dad951ecb0ebf68> ;
+            rdfs:comment "Assumes Argus's concept did not change from 1973 to 1984 [CW 2023]" ] .
 
 <https://eg.tdwg.org/tcs/tc/2dad951ecb0ebf68> a tcs:TaxonConcept ;
     dcterms:title "Salix arbusculoides sec. Argus 1973" ;
