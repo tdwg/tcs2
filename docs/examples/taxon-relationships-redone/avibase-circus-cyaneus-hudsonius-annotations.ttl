@@ -4,7 +4,7 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 
 
-<https://eg.tdwg.org/tcs/anno/d72e0b3fe7de1e63> a oa:Annotation ;
+<https://eg.tdwg.org/tcs/oa/d72e0b3fe7de1e63> a oa:Annotation ;
     oa:motivatedBy oa:commenting ;
     oa:hasBody <https://eg.tdwg.org/tcs/tca/c9af290420ef2256> ;
     oa:hasTarget <https://avibase.ca/82745BAA> ;
@@ -17,7 +17,7 @@
     rdf:object <https://avibase.ca/F558C7F9> .
 
 
-<https://eg.tdwg.org/tcs/anno/10b61fdae1a88978> a oa:Annotation ;
+<https://eg.tdwg.org/tcs/oa/10b61fdae1a88978> a oa:Annotation ;
     oa:motivatedBy oa:commenting ;
     oa:hasBody <https://eg.tdwg.org/tcs/tca/eefa383c442711de> ;
     oa:hasTarget <https://avibase.ca/82745BAA> ;
@@ -30,7 +30,7 @@
     rdf:object <https://avibase.ca/A091D50A> .
 
 
-<https://eg.tdwg.org/tcs/anno/9301a4fc3f423fd4> a oa:Annotation ;
+<https://eg.tdwg.org/tcs/oa/9301a4fc3f423fd4> a oa:Annotation ;
     oa:motivatedBy oa:commenting ;
     oa:hasBody <https://eg.tdwg.org/tcs/tca/80f7b17271bf083d> ;
     oa:hasTarget <https://avibase.ca/F558C7F9> ;

@@ -6,7 +6,7 @@
 
 
 # Euphrasia gibbsiae sec. Barker 1982 > Euphrasia gibbsiae sec. Curtis 1967
-<https://eg.tdwg.org/tcs/anno/eb2637c3567585b3> a oa:Annotation ;
+<https://eg.tdwg.org/tcs/oa/eb2637c3567585b3> a oa:Annotation ;
     oa:motivatedBy oa:commenting ;
     oa:hasBody <https://eg.tdwg.org/tcs/tca/08b031bad263d95d> ;
     oa:hasTarget <https://id.biodiversity.org.au/instance/apni/545068> ;
@@ -17,13 +17,12 @@
     rdf:subject <https://id.biodiversity.org.au/instance/apni/545068> ;
     rdf:predicate tcs:includes ;
     rdf:object <https://id.biodiversity.org.au/instance/apni/713514> ;
-    dcterms:source <https://eg.tdwg.org/tcs/anno/eb2637c3567585b3> ;
     rdfs:comment """Euphrasia gibbsiae sec. Barker 1982 also includes Euphrasia 
             kingii sec. Curtis 1967""" .
 
 
 # Euphrasia gibbsiae sec. Barker 1982 < Euphrasia gibbsiae sec. Willis 1967
-<https://eg.tdwg.org/tcs/anno/ba196072a25d2e80> a oa:Annotation ;
+<https://eg.tdwg.org/tcs/oa/ba196072a25d2e80> a oa:Annotation ;
     oa:motivatedBy oa:commenting ;
     oa:hasBody <https://eg.tdwg.org/tcs/tca/391b05b1a2cf03d9> ;
     oa:hasTarget <https://id.biodiversity.org.au/instance/apni/545068> ;
@@ -34,14 +33,13 @@
     rdf:subject <https://id.biodiversity.org.au/instance/apni/545068> ;
     rdf:predicate tcs:isIncludedIn ;
     rdf:object <https://eg.tdwg.org/tcs/tc/86e41a0d00563b48> ;
-    dcterms:source <https://eg.tdwg.org/tcs/anno/ba196072a25d2e80> ;
     rdfs:comment """Only Tasmanian occurrences and Victorian occurrences of 
             f. subglabrifolia of Euphrasia gibbsiae sec. Willis 1967 are included in 
             Euphrasia gibbsiae sec. Barker 1982 [WRB 1982]""" .
 
 
 # Euphrasia gibbsiae sec. Barker 1982 ≙ Euphrasia gibbsiae sec. Cochrane et al. 1968
-<https://eg.tdwg.org/tcs/anno/cbbb24db0efe1bee> a oa:Annotation ;
+<https://eg.tdwg.org/tcs/oa/cbbb24db0efe1bee> a oa:Annotation ;
     oa:motivatedBy oa:commenting ;
     oa:hasBody <https://eg.tdwg.org/tcs/tca/c9b8260a520087c3> ;
     oa:hasTarget <https://id.biodiversity.org.au/instance/apni/545068> ;
@@ -51,12 +49,11 @@
 <https://eg.tdwg.org/tcs/tca/c9b8260a520087c3> a rdf:Statement ;
     rdf:subject <https://id.biodiversity.org.au/instance/apni/545068> ;
     rdf:predicate tcs:isCongruentWith ;
-    rdf:object <https://eg.tdwg.org/tcs/tc/d937d59f723e1b01> ;
-    dcterms:source <https://eg.tdwg.org/tcs/anno/cbbb24db0efe1bee> .
+    rdf:object <https://eg.tdwg.org/tcs/tc/d937d59f723e1b01> .
 
 
 # Euphrasia gibbsiae sec. Barker 1982 < Euphrasia gibbsiae Harris 1970
-<https://eg.tdwg.org/tcs/anno/a2f156d7c84b2ef9> a oa:Annotation ;
+<https://eg.tdwg.org/tcs/oa/a2f156d7c84b2ef9> a oa:Annotation ;
     oa:motivatedBy oa:commenting ;
     oa:hasBody <https://eg.tdwg.org/tcs/tca/1a3d4ccaba1f9a07> ;
     oa:hasTarget <https://id.biodiversity.org.au/instance/apni/545068> ;
@@ -67,13 +64,12 @@
     rdf:subject <https://id.biodiversity.org.au/instance/apni/545068> ;
     rdf:predicate tcs:isIncludedIn ;
     rdf:object <https://eg.tdwg.org/tcs/tc/239923369ce6bf37> ;
-    dcterms:source <https://eg.tdwg.org/tcs/anno/a2f156d7c84b2ef9> ;
     rdfs:comment """Victoria occurrences of f. comberi sensu Harris 1978 are 
             excluded from Euphrasia gibbsiae sec. Barker 1982 [WRB 1982]""" .
 
 
 # Euphrasia gibbsiae sec. Barker 1982 < Euphrasia gibbsiae sec. Willis 1973
-<https://eg.tdwg.org/tcs/anno/3f488854f1211d61> a oa:Annotation ;
+<https://eg.tdwg.org/tcs/oa/3f488854f1211d61> a oa:Annotation ;
     oa:motivatedBy oa:commenting ;
     oa:hasBody <https://eg.tdwg.org/tcs/tca/2a2ebae57be181c1> ;
     oa:hasTarget <https://id.biodiversity.org.au/instance/apni/545068> ;
@@ -84,13 +80,12 @@
     rdf:subject <https://id.biodiversity.org.au/instance/apni/545068> ;
     rdf:predicate tcs:isIncludedIn ;
     rdf:object <https://eg.tdwg.org/tcs/tc/2b41e667646cb764> ;
-    dcterms:source <https://eg.tdwg.org/tcs/anno/3f488854f1211d61> ;
     rdfs:comment """Only occurrences of f. subglabrifolia sensu Willis 1973 are 
             included in Euphrasia gibbsiae sec. Barker 1982 [WRB 1982]""" .
 
 
 # Euphrasia gibbsiae sec. Barker 1982 > Euphrasia gibbsiae sec. Stones & Curtis 1978
-<https://eg.tdwg.org/tcs/anno/acd8f81cad9c7712> a oa:Annotation ;
+<https://eg.tdwg.org/tcs/oa/acd8f81cad9c7712> a oa:Annotation ;
     oa:motivatedBy oa:commenting ;
     oa:hasBody <https://eg.tdwg.org/tcs/tca/ae920244c43b1f7b> ;
     oa:hasTarget <https://id.biodiversity.org.au/instance/apni/545068> ;
@@ -101,13 +96,12 @@
     rdf:subject <https://id.biodiversity.org.au/instance/apni/545068> ;
     rdf:predicate tcs:includes ;
     rdf:object <https://eg.tdwg.org/tcs/tc/ec95f13744439b3d> ;
-    dcterms:source <https://eg.tdwg.org/tcs/anno/acd8f81cad9c7712> ;
     rdfs:comment """Euphrasia gibbsiae sec. Barker 1982 also includes Euphrasia 
             kingii sec. Curtis & Stones 1973""" .
 
 
 # Euphrasia gibbsiae sec. Barker 1982 > Euphrasia kingii sec. Curtis 1967
-<https://eg.tdwg.org/tcs/anno/b5982766b8a889be> a oa:Annotation ;
+<https://eg.tdwg.org/tcs/oa/b5982766b8a889be> a oa:Annotation ;
     oa:motivatedBy oa:commenting ;
     oa:hasBody <https://eg.tdwg.org/tcs/tca/eb3027e2a994560f> ;
     oa:hasTarget <https://id.biodiversity.org.au/instance/apni/545068> ;
@@ -118,13 +112,12 @@
     rdf:predicate tcs:includes ;
     rdf:subject <https://id.biodiversity.org.au/instance/apni/545068> ;
     rdf:object <https://eg.tdwg.org/tcs/tc/70f97aa3a0bc576b> ;
-    dcterms:source <https://eg.tdwg.org/tcs/anno/b5982766b8a889be> ;
     rdfs:comment """Euphrasia gibbsiae sec. Barker 1982 also includes Euphrasia 
             gibbsiae sec. Curtis 1967""" .
 
 
 # Euphrasia gibbsiae sec. Barker 1982 > Euphrasia kingii sec. Curtis & Stones 1973
-<https://eg.tdwg.org/tcs/anno/b6d5b9a712e87557> a oa:Annotation ;
+<https://eg.tdwg.org/tcs/oa/b6d5b9a712e87557> a oa:Annotation ;
     oa:motivatedBy oa:commenting ;
     oa:hasBody <https://eg.tdwg.org/tcs/tca/47b8bf0477ba4efc> ;
     oa:hasTarget <https://id.biodiversity.org.au/instance/apni/545068> ;
@@ -135,6 +128,5 @@
     rdf:subject <https://id.biodiversity.org.au/instance/apni/545068> ;
     rdf:predicate tcs:includes ;
     rdf:object <https://eg.tdwg.org/tcs/tc/0682bd87efbec6a5> ;
-    dcterms:source <https://eg.tdwg.org/tcs/anno/b6d5b9a712e87557> ;
     rdfs:comment """Euphrasia gibbsiae sec. Barker 1982 also includes Euphrasia 
             gibbsiae sec. Curtis & Stones 1973""" .
