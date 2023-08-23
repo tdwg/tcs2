@@ -1,0 +1,42 @@
+@prefix this: <https://eg.tdwg.org/tcs/np/ac86c47062da4a52> .
+@prefix sub: <https://eg.tdwg.org/tcs/np/ac86c47062da4a52#> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix tcs: <http://rs.tdwg.org/tcs/terms/> .
+
+sub:Head {
+    this: a np:Nanopublication ;
+        np:hasAssertion sub:assertion ;
+        np:hasProvenance sub:provenance ;
+        np:hasPublicationInfo sub:pubinfo .
+}
+
+sub:assertion {
+    <https://eg.tdwg.org/tcs/tc/2012-Hemidictyaceae> a tcs:TaxonConcept ;
+        dcterms:title "Hemidictyaceae sec. Rothfels & al. 2012" ;
+        tcs:accordingTo <https://doi.org/10.1002/tax.613003> ;
+        tcs:acceptedName <https://ipni.org/n/77114955-1> .
+}
+
+sub:provenance {
+    sub:assertion dcterms:source <https://doi.org/10.1002/tax.613003> .
+}
+
+sub:pubinfo {
+    this: dcterms:created "2012" ;
+        dcterms:creator <https://orcid.org/0000-0002-6605-1770> ,
+                <https://orcid.org/0000-0003-1568-150X> ,
+                <https://www.ipni.org/a/20030162-1> ,
+                [ foaf:name "Anders Larsson" ] ,
+                <https://www.ipni.org/a/14414-1> ,
+                <https://orcid.org/0000-0003-3891-9904> ,
+                <https://orcid.org/0000-0002-9776-6736> .
+
+    <https://orcid.org/0000-0002-6605-1770> foaf:name "Carl J. Rothfels" .
+    <https://orcid.org/0000-0003-1568-150X> foaf:name "Michael E. Sundue" .
+    <https://www.ipni.org/a/20030162-1> foaf:name "L-Jaung Kuo" .
+    <https://www.ipni.org/a/14414-1> foaf:name "Masahiro Kato" .
+    <https://orcid.org/0000-0003-3891-9904> foaf:name "Eric Shuetpelz" .
+    <https://orcid.org/0000-0002-9776-6736> foaf:name "Kathleen M. Pryer" .
+}

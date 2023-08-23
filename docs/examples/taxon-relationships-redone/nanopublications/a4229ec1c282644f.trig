@@ -1,0 +1,40 @@
+@prefix this: <https://eg.tdwg.org/tcs/np/a4229ec1c282644f> .
+@prefix sub: <https://eg.tdwg.org/tcs/np/a4229ec1c282644f#> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> . 
+@prefix tcs: <http://rs.tdwg.org/tcs/terms/> .
+
+sub:Head {
+    this: a np:Nanopublication ;
+        np:hasAssertion sub:assertion ;
+        np:hasProvenance sub:provenance ;
+        np:hasPublicationInfo sub:pubinfo .
+}
+
+sub:assertion {
+    <https://eg.tdwg.org/tcs/tc/2006-Woodsiaceae> a tcs:TaxonConcept ;
+        dcterms:title "Woodsiaceae sec. Smith & al. 2006" ;
+        tcs:accordingTo <https://doi.org/10.2307/25065646> ;
+        tcs:acceptedName <https://ipni.org/n/30000455-2> .
+}
+
+sub:provenance {
+    sub:assertion dcterms:source <https://doi.org/10.2307/25065646> .
+}
+
+sub:pubinfo {
+    this: dcterms:created "2006" ;
+        dcterms:creator <https://www.ipni.org/a/9771-1> , 
+                <https://orcid.org/0000-0002-9776-6736> ,
+                <https://orcid.org/0000-0003-3891-9904> ,
+                <https://orcid.org/0000-0002-6677-5234> ,
+                <https://www.ipni.org/a/40553-1> ,
+                [ foaf:name "Paul G. Wolf" ] .
+
+    <https://www.ipni.org/a/9771-1> foaf:name "Alan R. Smith" .
+    <https://orcid.org/0000-0002-9776-6736> foaf:name "Kathleen M. Pryer" .
+    <https://orcid.org/0000-0003-3891-9904> foaf:name "Eric Shuetpelz" .
+    <https://orcid.org/0000-0002-6677-5234> foaf:name "Petra Korall" .
+    <https://www.ipni.org/a/40553-1> foaf:name "Harald Schneider" .
+}
