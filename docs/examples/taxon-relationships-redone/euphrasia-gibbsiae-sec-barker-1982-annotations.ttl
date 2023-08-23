@@ -13,7 +13,7 @@
     dcterms:creator <https://orcid.org/0000-0003-2224-6821> ;
     dcterms:created "2020-04-08" .
 
-<https://eg.tdwg.org/tcs/tca/08b031bad263d95d> a tcs:TaxonConceptAlignment ;
+<https://eg.tdwg.org/tcs/tca/08b031bad263d95d> a rdf:Statement ;
     rdf:subject <https://id.biodiversity.org.au/instance/apni/545068> ;
     rdf:predicate tcs:includes ;
     rdf:object <https://id.biodiversity.org.au/instance/apni/713514> ;
@@ -30,7 +30,7 @@
     dcterms:creator <https://orcid.org/0000-0003-2224-6821> ;
     dcterms:created "2020-04-08" .
 
-<https://eg.tdwg.org/tcs/tca/391b05b1a2cf03d9> a tcs:TaxonConceptAlignment ;
+<https://eg.tdwg.org/tcs/tca/391b05b1a2cf03d9> a rdf:Statement ;
     rdf:subject <https://id.biodiversity.org.au/instance/apni/545068> ;
     rdf:predicate tcs:isIncludedIn ;
     rdf:object <https://eg.tdwg.org/tcs/tc/86e41a0d00563b48> ;
@@ -48,7 +48,7 @@
     dcterms:creator <https://orcid.org/0000-0003-2224-6821> ;
     dcterms:created "2020-04-08" .
 
-<https://eg.tdwg.org/tcs/tca/c9b8260a520087c3> a tcs:TaxonConceptAlignment ;
+<https://eg.tdwg.org/tcs/tca/c9b8260a520087c3> a rdf:Statement ;
     rdf:subject <https://id.biodiversity.org.au/instance/apni/545068> ;
     rdf:predicate tcs:isCongruentWith ;
     rdf:object <https://eg.tdwg.org/tcs/tc/d937d59f723e1b01> ;
@@ -63,7 +63,7 @@
     dcterms:creator <https://orcid.org/0000-0003-2224-6821> ;
     dcterms:created "2020-04-08" .
 
-<https://eg.tdwg.org/tcs/tca/1a3d4ccaba1f9a07> a tcs:TaxonConceptAlignment ;
+<https://eg.tdwg.org/tcs/tca/1a3d4ccaba1f9a07> a rdf:Statement ;
     rdf:subject <https://id.biodiversity.org.au/instance/apni/545068> ;
     rdf:predicate tcs:isIncludedIn ;
     rdf:object <https://eg.tdwg.org/tcs/tc/239923369ce6bf37> ;
@@ -80,7 +80,7 @@
     dcterms:creator <https://orcid.org/0000-0003-2224-6821> ;
     dcterms:created "2020-04-08" .
 
-<https://eg.tdwg.org/tcs/tca/2a2ebae57be181c1> a tcs:TaxonConceptAlignment ;
+<https://eg.tdwg.org/tcs/tca/2a2ebae57be181c1> a rdf:Statement ;
     rdf:subject <https://id.biodiversity.org.au/instance/apni/545068> ;
     rdf:predicate tcs:isIncludedIn ;
     rdf:object <https://eg.tdwg.org/tcs/tc/2b41e667646cb764> ;
@@ -97,7 +97,7 @@
     dcterms:creator <https://orcid.org/0000-0003-2224-6821> ;
     dcterms:created "2020-04-08" .
 
-<https://eg.tdwg.org/tcs/tca/ae920244c43b1f7b> a tcs:TaxonConceptAlignment ;
+<https://eg.tdwg.org/tcs/tca/ae920244c43b1f7b> a rdf:Statement ;
     rdf:subject <https://id.biodiversity.org.au/instance/apni/545068> ;
     rdf:predicate tcs:includes ;
     rdf:object <https://eg.tdwg.org/tcs/tc/ec95f13744439b3d> ;
@@ -114,7 +114,7 @@
     dcterms:creator <https://orcid.org/0000-0003-2224-6821> ;
     dcterms:created "2020-04-08" .
 
-<https://eg.tdwg.org/tcs/tca/eb3027e2a994560f> a tcs:TaxonConceptAlignment ;
+<https://eg.tdwg.org/tcs/tca/eb3027e2a994560f> a rdf:Statement ;
     rdf:predicate tcs:includes ;
     rdf:subject <https://id.biodiversity.org.au/instance/apni/545068> ;
     rdf:object <https://eg.tdwg.org/tcs/tc/70f97aa3a0bc576b> ;
@@ -131,7 +131,7 @@
     dcterms:creator <https://orcid.org/0000-0003-2224-6821> ;
     dcterms:created "2020-04-08" .
 
-<https://eg.tdwg.org/tcs/tca/47b8bf0477ba4efc> a tcs:TaxonConceptAlignment ;
+<https://eg.tdwg.org/tcs/tca/47b8bf0477ba4efc> a rdf:Statement ;
     rdf:subject <https://id.biodiversity.org.au/instance/apni/545068> ;
     rdf:predicate tcs:includes ;
     rdf:object <https://eg.tdwg.org/tcs/tc/0682bd87efbec6a5> ;

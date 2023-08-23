@@ -11,11 +11,10 @@
     dcterms:creator <https://orcid.org/0000-0003-2224-6821> ;
     dcterms:created "2023-07-31" .
 
-<https://eg.tdwg.org/tcs/tca/c9af290420ef2256> a tcs:TaxonConceptAlignment ;
+<https://eg.tdwg.org/tcs/tca/c9af290420ef2256> a rdf:Statement ;
     rdf:subject <https://avibase.ca/82745BAA> ;
     rdf:predicate tcs:includes ;
-    rdf:object <https://avibase.ca/F558C7F9> ;
-    dcterms:source <https://eg.tdwg.org/tcs/anno/d72e0b3fe7de1e63> .
+    rdf:object <https://avibase.ca/F558C7F9> .
 
 
 <https://eg.tdwg.org/tcs/anno/10b61fdae1a88978> a oa:Annotation ;
@@ -25,11 +24,10 @@
     dcterms:creator <https://orcid.org/0000-0003-2224-6821> ;
     dcterms:created "2023-07-31" .
 
-<https://eg.tdwg.org/tcs/tca/eefa383c442711de> a tcs:TaxonConceptAlignment ;
+<https://eg.tdwg.org/tcs/tca/eefa383c442711de> a rdf:Statement ;
     rdf:subject <https://avibase.ca/82745BAA> ;
     rdf:predicate tcs:includes ;
-    rdf:object <https://avibase.ca/A091D50A> ;
-    dcterms:source <https://eg.tdwg.org/tcs/tca/eefa383c442711de> .
+    rdf:object <https://avibase.ca/A091D50A> .
 
 
 <https://eg.tdwg.org/tcs/anno/9301a4fc3f423fd4> a oa:Annotation ;
@@ -39,8 +37,7 @@
     dcterms:creator <https://orcid.org/0000-0003-2224-6821> ;
     dcterms:created "2023-07-31" .
 
-<https://eg.tdwg.org/tcs/tca/80f7b17271bf083d> a tcs:TaxonConceptAlignment ;
+<https://eg.tdwg.org/tcs/tca/80f7b17271bf083d> a rdf:Statement ;
     rdf:subject <https://avibase.ca/F558C7F9> ;
     rdf:predicate tcs:isDisjointWith ;
-    rdf:object <https://avibase.ca/A091D50A> ;
-    dcterms:source <https://eg.tdwg.org/tcs/anno/9301a4fc3f423fd4> .
+    rdf:object <https://avibase.ca/A091D50A> .

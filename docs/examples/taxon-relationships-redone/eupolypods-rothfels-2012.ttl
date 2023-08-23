@@ -23,7 +23,7 @@
     tcs:acceptedName <https://eg.tdwg.org/tcs/tn/5d4f0656a86805a4> ;
     tcs:isCongruentWith <https://eg.tdwg.org/tcs/tc/2006-Eupolypods> .
 
-<https://eg.tdwg.org/tcs/tca/30768447d7620d7c> a tcs:TaxonConceptAlignment ;
+<https://eg.tdwg.org/tcs/tca/30768447d7620d7c> a rdf:Statement ;
     rdf:subject <https://eg.tdwg.org/tcs/tc/2012-Eupolypods>;
     rdf:predicate tcs:isCongruentWith ;
     rdf:object <https://eg.tdwg.org/tcs/tc/2006-Eupolypods> ;
@@ -36,7 +36,7 @@
     tcs:acceptedName <https://eg.tdwg.org/tcs/tn/44673c94cdc45415> ;
     tcs:isCongruentWith <https://eg.tdwg.org/tcs/tc/2006-Eupolypods-I> .
 
-<https://eg.tdwg.org/tcs/tca/29e2d6da538ad49d> a tcs:TaxonConceptAlignment ;
+<https://eg.tdwg.org/tcs/tca/29e2d6da538ad49d> a rdf:Statement ;
     rdf:subject <https://eg.tdwg.org/tcs/tc/2012-Eupolypods-I>;
     rdf:predicate tcs:isCongruentWith ;
     rdf:object <https://eg.tdwg.org/tcs/tc/2006-Eupolypods-I> ;
@@ -50,7 +50,7 @@
     tcs:isCongruentWith <https://eg.tdwg.org/tcs/tc/2006-Eupolypods-II> ;
     dcterms:source <https://doi.org/10.1002/tax.613003> .
 
-<https://eg.tdwg.org/tcs/tca/89f0073cc3ad78c4> a tcs:TaxonConceptAlignment ;
+<https://eg.tdwg.org/tcs/tca/89f0073cc3ad78c4> a rdf:Statement ;
     rdf:subject <https://eg.tdwg.org/tcs/tc/2012-Eupolypods-II> ;
     rdf:predicate tcs:isCongruentWith ;
     rdf:object <https://eg.tdwg.org/tcs/tc/2006-Eupolypods-II> ;
@@ -66,25 +66,25 @@
             <https://eg.tdwg.org/tcs/tc/1977-Aspleniaceae> ;
     tcs:isIncludedIn <https://eg.tdwg.org/tcs/tc/1947-Dennstaedtiaceae> .
 
-<https://eg.tdwg.org/tcs/tca/38eaf69abfc5ccb7> a tcs:TaxonConceptAlignment ;
+<https://eg.tdwg.org/tcs/tca/38eaf69abfc5ccb7> a rdf:Statement ;
     rdf:subject <https://eg.tdwg.org/tcs/tc/2012-Aspleniaceae> ;
     rdf:predicate tcs:isCongruentWith ;
     rdf:object <https://eg.tdwg.org/tcs/tc/2011-Aspleniaceae> ;
     dcterms:source <https://doi.org/10.1002/tax.613003> .
 
-<https://eg.tdwg.org/tcs/tca/51289c458d9b9d85> a tcs:TaxonConceptAlignment ;
+<https://eg.tdwg.org/tcs/tca/51289c458d9b9d85> a rdf:Statement ;
     rdf:subject <https://eg.tdwg.org/tcs/tc/2012-Aspleniaceae>;
     rdf:predicate tcs:isCongruentWith ;
     rdf:object <https://eg.tdwg.org/tcs/tc/1970-Aspleniaceae> ;
     dcterms:source <https://doi.org/10.1002/tax.613003> .
 
-<https://eg.tdwg.org/tcs/tca/7c3f8787591deeb8> a tcs:TaxonConceptAlignment ;
+<https://eg.tdwg.org/tcs/tca/7c3f8787591deeb8> a rdf:Statement ;
     rdf:subject <https://eg.tdwg.org/tcs/tc/2012-Aspleniaceae> ;
     rdf:predicate tcs:isCongruentWith ;
     rdf:object <https://eg.tdwg.org/tcs/tc/1977-Aspleniaceae> ;
     dcterms:source <https://doi.org/10.1002/tax.613003> .
 
-<https://eg.tdwg.org/tcs/tca/cd702990df6e558a> a tcs:TaxonConceptAlignment ;
+<https://eg.tdwg.org/tcs/tca/cd702990df6e558a> a rdf:Statement ;
     rdf:subject <https://eg.tdwg.org/tcs/tc/2012-Aspleniaceae> ;
     rdf:predicate tcs:isIncludedIn ;
     rdf:object <https://eg.tdwg.org/tcs/tc/1947-Dennstaedtiaceae> ;
@@ -100,25 +100,25 @@
             <https://eg.tdwg.org/tcs/tc/1970-Dryopteridaceae> ,
             <https://eg.tdwg.org/tcs/tc/1947-Dennstaedtiaceae> .
 
-<https://eg.tdwg.org/tcs/tca/dcb75fb0bac0fdc5> a tcs:TaxonConceptAlignment ;
+<https://eg.tdwg.org/tcs/tca/dcb75fb0bac0fdc5> a rdf:Statement ;
     rdf:subject <https://eg.tdwg.org/tcs/tc/2012-Athyriaceae> ;
     rdf:predicate tcs:isIncludedIn ;
     rdf:object <https://eg.tdwg.org/tcs/tc/2011-Athyriaceae> ;
     dcterms:source <https://doi.org/10.1002/tax.613003> .
 
-<https://eg.tdwg.org/tcs/tca/750dc25a633dc0c5> a tcs:TaxonConceptAlignment ;
+<https://eg.tdwg.org/tcs/tca/750dc25a633dc0c5> a rdf:Statement ;
     rdf:subject <https://eg.tdwg.org/tcs/tc/2012-Athyriaceae> ;
     rdf:predicate tcs:isIncludedIn ;
     rdf:object <https://eg.tdwg.org/tcs/tc/2006-Woodsiaceae> ;
     dcterms:source <https://doi.org/10.1002/tax.613003> .
 
-<https://eg.tdwg.org/tcs/tca/b46ff0fd86f8f736> a tcs:TaxonConceptAlignment ;
+<https://eg.tdwg.org/tcs/tca/b46ff0fd86f8f736> a rdf:Statement ;
     rdf:subject <https://eg.tdwg.org/tcs/tc/2012-Athyriaceae> ;
     rdf:predicate tcs:isIncludedIn ;
     rdf:object <https://eg.tdwg.org/tcs/tc/1970-Dryopteridaceae> ;
     dcterms:source <https://doi.org/10.1002/tax.613003> .
 
-<https://eg.tdwg.org/tcs/tca/8d73b8c1989daa7f> a tcs:TaxonConceptAlignment ;
+<https://eg.tdwg.org/tcs/tca/8d73b8c1989daa7f> a rdf:Statement ;
     rdf:subject <https://eg.tdwg.org/tcs/tc/2012-Athyriaceae> ;
     rdf:predicate tcs:isIncludedIn ;
     rdf:object <https://eg.tdwg.org/tcs/tc/1947-Dennstaedtiaceae> ;
@@ -135,31 +135,31 @@
             <https://eg.tdwg.org/tcs/tc/1977-Blechnaceae> ;
     tcs:isIncludedIn <https://eg.tdwg.org/tcs/tc/1947-Dennstaedtiaceae> .
 
-<https://eg.tdwg.org/tcs/tca/9464c2756dd557d8> a tcs:TaxonConceptAlignment ;
+<https://eg.tdwg.org/tcs/tca/9464c2756dd557d8> a rdf:Statement ;
     rdf:subject <https://eg.tdwg.org/tcs/tc/2012-Blechnaceae> ;
     rdf:predicate tcs:isCongruentWith ;
     rdf:object <https://eg.tdwg.org/tcs/tc/2011-Blechnaceae> ;
     dcterms:source <https://doi.org/10.1002/tax.613003> .
 
-<https://eg.tdwg.org/tcs/tca/c6690fda1d39f0ee> a tcs:TaxonConceptAlignment ;
+<https://eg.tdwg.org/tcs/tca/c6690fda1d39f0ee> a rdf:Statement ;
     rdf:subject <https://eg.tdwg.org/tcs/tc/2012-Blechnaceae>;
     rdf:predicate tcs:isCongruentWith ;
     rdf:object <https://eg.tdwg.org/tcs/tc/2006-Blechnaceae> ;
     dcterms:source <https://doi.org/10.1002/tax.613003> .
 
-<https://eg.tdwg.org/tcs/tca/1464b0a65246602b> a tcs:TaxonConceptAlignment ;
+<https://eg.tdwg.org/tcs/tca/1464b0a65246602b> a rdf:Statement ;
     rdf:subject <https://eg.tdwg.org/tcs/tc/2012-Blechnaceae> ;
     rdf:predicate tcs:isCongruentWith ;
     rdf:object <https://eg.tdwg.org/tcs/tc/1970-Blechnaceae> ;
     dcterms:source <https://doi.org/10.1002/tax.613003> .
 
-<https://eg.tdwg.org/tcs/tca/34f686c813033452> a tcs:TaxonConceptAlignment ;
+<https://eg.tdwg.org/tcs/tca/34f686c813033452> a rdf:Statement ;
     rdf:subject <https://eg.tdwg.org/tcs/tc/2012-Blechnaceae> ;
     rdf:predicate tcs:isCongruentWith ;
     rdf:object <https://eg.tdwg.org/tcs/tc/1977-Blechnaceae> ;
     dcterms:source <https://doi.org/10.1002/tax.613003> .
 
-<https://eg.tdwg.org/tcs/tca/e5f04ffcda36fbbd> a tcs:TaxonConceptAlignment ;
+<https://eg.tdwg.org/tcs/tca/e5f04ffcda36fbbd> a rdf:Statement ;
     rdf:subject <https://eg.tdwg.org/tcs/tc/2012-Blechnaceae> ;
     rdf:predicate tcs:isIncludedIn ;
     rdf:object <https://eg.tdwg.org/tcs/tc/1947-Dennstaedtiaceae> ;
@@ -176,31 +176,31 @@
             <https://eg.tdwg.org/tcs/tc/1977-Athyriaceae> ,
             <https://eg.tdwg.org/tcs/tc/1947-Dennstaedtiaceae> .
 
-<https://eg.tdwg.org/tcs/tca/31704f495e358d4b> a tcs:TaxonConceptAlignment ;
+<https://eg.tdwg.org/tcs/tca/31704f495e358d4b> a rdf:Statement ;
     rdf:subject <https://eg.tdwg.org/tcs/tc/2012-Cystopteridaceae> ;
     rdf:predicate tcs:isCongruentWith ;
     rdf:object <https://eg.tdwg.org/tcs/tc/2011-Cystopteridaceae> ;
     dcterms:source <https://doi.org/10.1002/tax.613003> .
 
-<https://eg.tdwg.org/tcs/tca/31447cd31873224a> a tcs:TaxonConceptAlignment ;
+<https://eg.tdwg.org/tcs/tca/31447cd31873224a> a rdf:Statement ;
     rdf:predicate tcs:isIncludedIn ;
     rdf:subject <https://eg.tdwg.org/tcs/tc/2012-Cystopteridaceae> ;
     rdf:object <https://eg.tdwg.org/tcs/tc/1970-Dryopteridaceae> ;
     dcterms:source <https://doi.org/10.1002/tax.613003> .
 
-<https://eg.tdwg.org/tcs/tca/4cb20c882367bddf> a tcs:TaxonConceptAlignment ;
+<https://eg.tdwg.org/tcs/tca/4cb20c882367bddf> a rdf:Statement ;
     rdf:subject <https://eg.tdwg.org/tcs/tc/2012-Cystopteridaceae>;
     rdf:predicate tcs:isIncludedIn ;
     rdf:object <https://eg.tdwg.org/tcs/tc/2006-Woodsiaceae>;
     dcterms:source <https://doi.org/10.1002/tax.613003> .
 
-<https://eg.tdwg.org/tcs/tca/aa80f71c6f443cf7> a tcs:TaxonConceptAlignment ;
+<https://eg.tdwg.org/tcs/tca/aa80f71c6f443cf7> a rdf:Statement ;
     rdf:subject <https://eg.tdwg.org/tcs/tc/2012-Cystopteridaceae>;
     rdf:predicate tcs:isIncludedIn ;
     rdf:object <https://eg.tdwg.org/tcs/tc/1977-Athyriaceae> ;
     dcterms:source <https://doi.org/10.1002/tax.613003> .
 
-<https://eg.tdwg.org/tcs/tca/f00c76888eaa477c> a tcs:TaxonConceptAlignment ;
+<https://eg.tdwg.org/tcs/tca/f00c76888eaa477c> a rdf:Statement ;
     rdf:subject <https://eg.tdwg.org/tcs/tc/2012-Cystopteridaceae> ;
     rdf:predicate tcs:isIncludedIn ;
     rdf:object <https://eg.tdwg.org/tcs/tc/1947-Dennstaedtiaceae> ;
@@ -218,37 +218,37 @@
             <https://eg.tdwg.org/tcs/tc/1947-Dennstaedtiaceae> ;
     tcs:partiallyOverlaps <https://eg.tdwg.org/tcs/tc/2011-Athyriaceae> .
 
-<https://eg.tdwg.org/tcs/tca/da40c86e5e11f188> a tcs:TaxonConceptAlignment ;
+<https://eg.tdwg.org/tcs/tca/da40c86e5e11f188> a rdf:Statement ;
     rdf:subject <https://eg.tdwg.org/tcs/tc/2012-Diplaziopsidaceae> ;
     rdf:predicate tcs:includes ;
     rdf:object <https://eg.tdwg.org/tcs/tc/2011-Diplaziopsidaceae> ;
     dcterms:source <https://doi.org/10.1002/tax.613003> .
 
-<https://eg.tdwg.org/tcs/tca/ace63e3d4071800a> a tcs:TaxonConceptAlignment ;
+<https://eg.tdwg.org/tcs/tca/ace63e3d4071800a> a rdf:Statement ;
     rdf:subject <https://eg.tdwg.org/tcs/tc/2012-Diplaziopsidaceae>;
     rdf:predicate tcs:isIncludedIn ;
     rdf:object <https://eg.tdwg.org/tcs/tc/2006-Woodsiaceae> ;
     dcterms:source <https://doi.org/10.1002/tax.613003> .
 
-<https://eg.tdwg.org/tcs/tca/530061a46c7c9a05> a tcs:TaxonConceptAlignment ;
+<https://eg.tdwg.org/tcs/tca/530061a46c7c9a05> a rdf:Statement ;
     rdf:subject <https://eg.tdwg.org/tcs/tc/2012-Diplaziopsidaceae> ;
     rdf:predicate tcs:isIncludedIn ;
     rdf:object <https://eg.tdwg.org/tcs/tc/1977-Athyriaceae> ;
     dcterms:source <https://doi.org/10.1002/tax.613003> .
 
-<https://eg.tdwg.org/tcs/tca/e4e4bf5143035c1d> a tcs:TaxonConceptAlignment ;
+<https://eg.tdwg.org/tcs/tca/e4e4bf5143035c1d> a rdf:Statement ;
     rdf:subject <https://eg.tdwg.org/tcs/tc/2012-Diplaziopsidaceae> ;
     rdf:predicate tcs:isIncludedIn ;
     rdf:object <https://eg.tdwg.org/tcs/tc/1970-Dryopteridaceae> ;
     dcterms:source <https://doi.org/10.1002/tax.613003> .
 
-<https://eg.tdwg.org/tcs/tca/b2eb4f29fa2bf5a1> a tcs:TaxonConceptAlignment ;
+<https://eg.tdwg.org/tcs/tca/b2eb4f29fa2bf5a1> a rdf:Statement ;
     rdf:subject <https://eg.tdwg.org/tcs/tc/2012-Diplaziopsidaceae> ;
     rdf:predicate tcs:isIncludedIn ;
     rdf:object <https://eg.tdwg.org/tcs/tc/1947-Dennstaedtiaceae> ;
     dcterms:source <https://doi.org/10.1002/tax.613003> .
 
-<https://eg.tdwg.org/tcs/tca/c0f4be5621fbddbe> a tcs:TaxonConceptAlignment ;
+<https://eg.tdwg.org/tcs/tca/c0f4be5621fbddbe> a rdf:Statement ;
     rdf:subject <https://eg.tdwg.org/tcs/tc/2012-Diplaziopsidaceae> ;
     rdf:predicate tcs:partiallyOverlaps ;
     rdf:object <https://eg.tdwg.org/tcs/tc/2011-Athyriaceae> ;
@@ -265,31 +265,31 @@
             <https://eg.tdwg.org/tcs/tc/1970-Dryopteridaceae> ,
             <https://eg.tdwg.org/tcs/tc/1947-Dennstaedtiaceae> .
 
-<https://eg.tdwg.org/tcs/tca/b9b510e8c01e63d1> a tcs:TaxonConceptAlignment ;
+<https://eg.tdwg.org/tcs/tca/b9b510e8c01e63d1> a rdf:Statement ;
     rdf:subject <https://eg.tdwg.org/tcs/tc/2012-Hemidictyaceae> ;
     rdf:predicate tcs:isCongruentWith ;
     rdf:object <https://eg.tdwg.org/tcs/tc/2011-Hemidictyaceae> ;
     dcterms:source <https://doi.org/10.1002/tax.613003> .
 
-<https://eg.tdwg.org/tcs/tca/64cd103cbc516b87> a tcs:TaxonConceptAlignment ;
+<https://eg.tdwg.org/tcs/tca/64cd103cbc516b87> a rdf:Statement ;
     rdf:subject <https://eg.tdwg.org/tcs/tc/2012-Hemidictyaceae> ;
     rdf:predicate tcs:isIncludedIn ;
     rdf:object <https://eg.tdwg.org/tcs/tc/2006-Woodsiaceae> ;
     dcterms:source <https://doi.org/10.1002/tax.613003> .
 
-<https://eg.tdwg.org/tcs/tca/186e5ee53b4557c3> a tcs:TaxonConceptAlignment ;
+<https://eg.tdwg.org/tcs/tca/186e5ee53b4557c3> a rdf:Statement ;
     rdf:subject <https://eg.tdwg.org/tcs/tc/2012-Hemidictyaceae> ;
     rdf:predicate tcs:isIncludedIn ;
     rdf:object <https://eg.tdwg.org/tcs/tc/1977-Athyriaceae> ;
     dcterms:source <https://doi.org/10.1002/tax.613003> .
 
-<https://eg.tdwg.org/tcs/tca/b6697e2c8f04f62b> a tcs:TaxonConceptAlignment ;
+<https://eg.tdwg.org/tcs/tca/b6697e2c8f04f62b> a rdf:Statement ;
     rdf:subject <https://eg.tdwg.org/tcs/tc/2012-Hemidictyaceae> ;
     rdf:predicate tcs:isIncludedIn ;
     rdf:object <https://eg.tdwg.org/tcs/tc/1970-Dryopteridaceae> ;
     dcterms:source <https://doi.org/10.1002/tax.613003> .
 
-<https://eg.tdwg.org/tcs/tca/21d76883bb95b70f> a tcs:TaxonConceptAlignment ;
+<https://eg.tdwg.org/tcs/tca/21d76883bb95b70f> a rdf:Statement ;
     rdf:subject <https://eg.tdwg.org/tcs/tc/2012-Hemidictyaceae> ;
     rdf:predicate tcs:isIncludedIn ;
     rdf:object <https://eg.tdwg.org/tcs/tc/1947-Dennstaedtiaceae> ;
@@ -306,31 +306,31 @@
             <https://eg.tdwg.org/tcs/tc/1970-Dryopteridaceae> ,
             <https://eg.tdwg.org/tcs/tc/1947-Onocleoideae> .
 
-<https://eg.tdwg.org/tcs/tca/a9f409453591b12d> a tcs:TaxonConceptAlignment ;
+<https://eg.tdwg.org/tcs/tca/a9f409453591b12d> a rdf:Statement ;
     rdf:subject <https://eg.tdwg.org/tcs/tc/2012-Onocleaceae> ;
     rdf:predicate tcs:isCongruentWith ;
     rdf:object <https://eg.tdwg.org/tcs/tc/2011-Onocleaceae> ;
     dcterms:source <https://doi.org/10.1002/tax.613003> .
 
-<https://eg.tdwg.org/tcs/tca/f2c7cdbd18976f88> a tcs:TaxonConceptAlignment ;
+<https://eg.tdwg.org/tcs/tca/f2c7cdbd18976f88> a rdf:Statement ;
     rdf:subject <https://eg.tdwg.org/tcs/tc/2012-Onocleaceae>;
     rdf:predicate tcs:isCongruentWith ;
     rdf:object <https://eg.tdwg.org/tcs/tc/2006-Onocleaceae> ;
     dcterms:source <https://doi.org/10.1002/tax.613003> .
 
-<https://eg.tdwg.org/tcs/tca/8da2aa82f15d19ff> a tcs:TaxonConceptAlignment ;
+<https://eg.tdwg.org/tcs/tca/8da2aa82f15d19ff> a rdf:Statement ;
     rdf:subject <https://eg.tdwg.org/tcs/tc/2012-Onocleaceae> ;
     rdf:predicate tcs:isCongruentWith ;
     rdf:object <https://eg.tdwg.org/tcs/tc/1977-Onocleaceae> ;
     dcterms:source <https://doi.org/10.1002/tax.613003> .
 
-<https://eg.tdwg.org/tcs/tca/b8ad586c0bcd0ee3> a tcs:TaxonConceptAlignment ;
+<https://eg.tdwg.org/tcs/tca/b8ad586c0bcd0ee3> a rdf:Statement ;
     rdf:subject <https://eg.tdwg.org/tcs/tc/2012-Onocleaceae> ;
     rdf:predicate tcs:isCongruentWith ;
     rdf:object <https://eg.tdwg.org/tcs/tc/1970-Dryopteridaceae> ;
     dcterms:source <https://doi.org/10.1002/tax.613003> .
 
-<https://eg.tdwg.org/tcs/tca/50ad882a94243814> a tcs:TaxonConceptAlignment ;
+<https://eg.tdwg.org/tcs/tca/50ad882a94243814> a rdf:Statement ;
     rdf:subject <https://eg.tdwg.org/tcs/tc/2012-Onocleaceae> ;
     rdf:predicate tcs:isCongruentWith ;
     rdf:object <https://eg.tdwg.org/tcs/tc/1947-Onocleoideae> ;
@@ -346,26 +346,26 @@
             <https://eg.tdwg.org/tcs/tc/1977-Athyriaceae> ,
             <https://eg.tdwg.org/tcs/tc/1947-Dennstaedtiaceae> .
 
-<https://eg.tdwg.org/tcs/tca/23fd648707ce8c10> a tcs:TaxonConceptAlignment ;
+<https://eg.tdwg.org/tcs/tca/23fd648707ce8c10> a rdf:Statement ;
     rdf:subject <https://eg.tdwg.org/tcs/tc/2012-Rhachidosoraceae> ;
     rdf:predicate tcs:isCongruentWith ;
     rdf:object <https://eg.tdwg.org/tcs/tc/2011-Rhachidosoraceae> ;
     dcterms:source <https://doi.org/10.1002/tax.613003> .
 
-<https://eg.tdwg.org/tcs/tca/0150a2d921174419> a tcs:TaxonConceptAlignment ;
+<https://eg.tdwg.org/tcs/tca/0150a2d921174419> a rdf:Statement ;
     rdf:subject <https://eg.tdwg.org/tcs/tc/2012-Rhachidosoraceae>;
     rdf:predicate tcs:isIncludedIn ;
     rdf:object <https://eg.tdwg.org/tcs/tc/2006-Woodsiaceae> ;
     dcterms:source <https://doi.org/10.1002/tax.613003> ;
     dcterms:source <https://doi.org/10.1002/tax.613003> .
 
-<https://eg.tdwg.org/tcs/tca/a7b72a386dbd1971> a tcs:TaxonConceptAlignment ;
+<https://eg.tdwg.org/tcs/tca/a7b72a386dbd1971> a rdf:Statement ;
     rdf:subject <https://eg.tdwg.org/tcs/tc/2012-Rhachidosoraceae> ;
     rdf:predicate tcs:isIncludedIn ;
     rdf:object <https://eg.tdwg.org/tcs/tc/1977-Athyriaceae> ;
     dcterms:source <https://doi.org/10.1002/tax.613003> .
 
-<https://eg.tdwg.org/tcs/tca/63610d1a9fbd148e> a tcs:TaxonConceptAlignment ;
+<https://eg.tdwg.org/tcs/tca/63610d1a9fbd148e> a rdf:Statement ;
     rdf:subject <https://eg.tdwg.org/tcs/tc/2012-Rhachidosoraceae> ;
     rdf:predicate tcs:isIncludedIn ;
     rdf:object <https://eg.tdwg.org/tcs/tc/1947-Dennstaedtiaceae> ;
@@ -382,31 +382,31 @@
             <https://eg.tdwg.org/tcs/tc/1970-Thelypteridaceae> ,
             <https://eg.tdwg.org/tcs/tc/1947-Thelypteridaceae> .
 
-<https://eg.tdwg.org/tcs/tca/738d8fc3eb15d98b> a tcs:TaxonConceptAlignment ;
+<https://eg.tdwg.org/tcs/tca/738d8fc3eb15d98b> a rdf:Statement ;
     rdf:subject <https://eg.tdwg.org/tcs/tc/2012-Thelypteridaceae> ;
     rdf:predicate tcs:isCongruentWith ;
     rdf:object <https://eg.tdwg.org/tcs/tc/2011-Thelypteridaceae> ;
     dcterms:source <https://doi.org/10.1002/tax.613003> .
 
-<https://eg.tdwg.org/tcs/tca/6b126deae40fc38c> a tcs:TaxonConceptAlignment ;
+<https://eg.tdwg.org/tcs/tca/6b126deae40fc38c> a rdf:Statement ;
     rdf:subject <https://eg.tdwg.org/tcs/tc/2012-Thelypteridaceae>;
     rdf:predicate tcs:isCongruentWith ;
     rdf:object <https://eg.tdwg.org/tcs/tc/2006-Thelypteridaceae> ;
     dcterms:source <https://doi.org/10.1002/tax.613003> .
 
-<https://eg.tdwg.org/tcs/tca/cfacb092161d6314> a tcs:TaxonConceptAlignment ;
+<https://eg.tdwg.org/tcs/tca/cfacb092161d6314> a rdf:Statement ;
     rdf:subject <https://eg.tdwg.org/tcs/tc/2012-Thelypteridaceae> ;
     rdf:predicate tcs:isCongruentWith ;
     rdf:object <https://eg.tdwg.org/tcs/tc/1977-Thelypteridaceae> ;
     dcterms:source <https://doi.org/10.1002/tax.613003> .
 
-<https://eg.tdwg.org/tcs/tca/d1c4fcffd4de6e68> a tcs:TaxonConceptAlignment ;
+<https://eg.tdwg.org/tcs/tca/d1c4fcffd4de6e68> a rdf:Statement ;
     rdf:subject <https://eg.tdwg.org/tcs/tc/2012-Thelypteridaceae>;
     rdf:predicate tcs:isCongruentWith ;
     rdf:object <https://eg.tdwg.org/tcs/tc/1970-Thelypteridaceae> ;
     dcterms:source <https://doi.org/10.1002/tax.613003> .
 
-<https://eg.tdwg.org/tcs/tca/d1e05f6f5c7f4e04> a tcs:TaxonConceptAlignment ;
+<https://eg.tdwg.org/tcs/tca/d1e05f6f5c7f4e04> a rdf:Statement ;
     rdf:subject <https://eg.tdwg.org/tcs/tc/2012-Thelypteridaceae> ;
     rdf:predicate tcs:isCongruentWith ;
     rdf:object <https://eg.tdwg.org/tcs/tc/1947-Thelypteridaceae> ;
@@ -419,31 +419,31 @@
     tcs:acceptedName <https://ipni.org/n/60456504-2> ;
     dcterms:source <https://doi.org/10.1002/tax.613003> .
 
-<https://eg.tdwg.org/tcs/tca/0f85ac215a3e6808> a tcs:TaxonConceptAlignment ;
+<https://eg.tdwg.org/tcs/tca/0f85ac215a3e6808> a rdf:Statement ;
     rdf:subject <https://eg.tdwg.org/tcs/tc/2012-Woodsiaceae> ;
     rdf:predicate tcs:isCongruentWith ;
     rdf:object <https://eg.tdwg.org/tcs/tc/2011-Woodsiaceae> ;
     dcterms:source <https://doi.org/10.1002/tax.613003> .
 
-<https://eg.tdwg.org/tcs/tca/91adfefa0d85cfdd> a tcs:TaxonConceptAlignment ;
+<https://eg.tdwg.org/tcs/tca/91adfefa0d85cfdd> a rdf:Statement ;
     rdf:subject <https://eg.tdwg.org/tcs/tc/2012-Woodsiaceae>;
     rdf:predicate tcs:isIncludedIn ;
     rdf:object <https://eg.tdwg.org/tcs/tc/2006-Woodsiaceae> ;
     dcterms:source <https://doi.org/10.1002/tax.613003> .
 
-<https://eg.tdwg.org/tcs/tca/9f3731e9871c024f> a tcs:TaxonConceptAlignment ;
+<https://eg.tdwg.org/tcs/tca/9f3731e9871c024f> a rdf:Statement ;
     rdf:subject <https://eg.tdwg.org/tcs/tc/2012-Woodsiaceae> ;
     rdf:predicate tcs:isIncludedIn ;
     rdf:object <https://eg.tdwg.org/tcs/tc/1970-Dryopteridaceae> ;
     dcterms:source <https://doi.org/10.1002/tax.613003> .
 
-<https://eg.tdwg.org/tcs/tca/6f99067706c74098> a tcs:TaxonConceptAlignment ;
+<https://eg.tdwg.org/tcs/tca/6f99067706c74098> a rdf:Statement ;
     rdf:subject <https://eg.tdwg.org/tcs/tc/2012-Woodsiaceae> ;
     rdf:predicate tcs:isCongruentWith ;
     rdf:object <https://eg.tdwg.org/tcs/tc/1977-Woodsiaceae> ;
     dcterms:source <https://doi.org/10.1002/tax.613003> .
 
-<https://eg.tdwg.org/tcs/tca/4c63a4c8a815372d> a tcs:TaxonConceptAlignment ;
+<https://eg.tdwg.org/tcs/tca/4c63a4c8a815372d> a rdf:Statement ;
     rdf:subject <https://eg.tdwg.org/tcs/tc/2012-Woodsiaceae> ;
     rdf:predicate tcs:isIncludedIn ;
     rdf:object <https://eg.tdwg.org/tcs/tc/1947-Dennstaedtiaceae> ;

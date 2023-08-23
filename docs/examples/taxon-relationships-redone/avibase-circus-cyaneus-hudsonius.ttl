@@ -13,7 +13,7 @@
             skosxl:literalForm "Circus [cyaneus or hudsonius]" ] ;
     tcs:isCongruentWith <https://avibase.ca/F558C7F9> .
 
-<https://avibase.ca/82745BAA#tca-1> a tcs:TaxonConceptAlignment ;
+<https://avibase.ca/82745BAA#tca-1> a rdf:Statement ;
     rdf:subject <https://avibase.ca/82745BAA> ;
     rdf:predicate tcs:isCongruentWith ;
     rdf:object <https://eg.tdwg.org/tcs/tc/1> ;
@@ -28,19 +28,19 @@
             <https://eg.tdwg.org/tcs/tc/3> ,
             <https://eg.tdwg.org/tcs/tc/4> .
 
-<https://avibase.ca/F558C7F9#tca-1> a tcs:TaxonConceptAlignment ;
+<https://avibase.ca/F558C7F9#tca-1> a rdf:Statement ;
     rdf:subject <https://avibase.ca/F558C7F9> ;
     rdf:predicate tcs:isCongruentWith ;
     rdf:object <https://eg.tdwg.org/tcs/tc/2> ;
     dcterms:source <https://avibase.bsc-eoc.org> .
 
-<https://avibase.ca/F558C7F9#tca-2> a tcs:TaxonConceptAlignment ;
+<https://avibase.ca/F558C7F9#tca-2> a rdf:Statement ;
     rdf:subject <https://avibase.ca/F558C7F9> ;
     rdf:predicate tcs:isCongruentWith ;
     rdf:object <https://eg.tdwg.org/tcs/tc/3> ;
     dcterms:source <https://avibase.bsc-eoc.org> .
 
-<https://avibase.ca/F558C7F9#tca-3> a tcs:TaxonConceptAlignment ;
+<https://avibase.ca/F558C7F9#tca-3> a rdf:Statement ;
     rdf:subject <https://avibase.ca/F558C7F9> ;
     rdf:predicate tcs:isCongruentWith ;
     rdf:object <https://eg.tdwg.org/tcs/tc/4> ;
@@ -55,19 +55,19 @@
             <https://eg.tdwg.org/tcs/tc/8> ,
             <https://eg.tdwg.org/tcs/tc/9> .
             
-<https://avibase.ca/A091D50A#tca-2> a tcs:TaxonConceptAlignment ;
+<https://avibase.ca/A091D50A#tca-2> a rdf:Statement ;
     rdf:subject <https://avibase.ca/A091D50A> ;
     rdf:predicate tcs:isCongruentWith ;
     rdf:object <https://eg.tdwg.org/tcs/tc/7> ;
     dcterms:source <https://avibase.bsc-eoc.org> .
 
-<https://avibase.ca/A091D50A#tca-3> a tcs:TaxonConceptAlignment ;
+<https://avibase.ca/A091D50A#tca-3> a rdf:Statement ;
     rdf:subject <https://avibase.ca/A091D50A> ;
     rdf:predicate tcs:isCongruentWith ;
     rdf:object <https://eg.tdwg.org/tcs/tc/8> ;
     dcterms:source <https://avibase.bsc-eoc.org> .
 
-<https://avibase.ca/A091D50A#tca-4> a tcs:TaxonConceptAlignment ;
+<https://avibase.ca/A091D50A#tca-4> a rdf:Statement ;
     rdf:subject <https://avibase.ca/A091D50A> ;
     rdf:predicate tcs:isCongruentWith ;
     rdf:object <https://eg.tdwg.org/tcs/tc/9> ;
