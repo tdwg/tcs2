@@ -10,11 +10,11 @@
     rdf:subject [ a :TaxonConcept ;
         dcterms:title "Phyllotrox sec. Franz & O'Brien (2001)" ;
         :accordingTo <https://www.jstor.org/stable/25078744> ;
-        :acceptedName _:n1 ] ;
+        :taxonName _:n1 ] ;
     rdf:object [ a :TaxonConcept ; 
         dcterms:title "Phyllotrox sec. Franz (2006)" ;
         :accordingTo <https://doi.org/10.1111/j.1365-3113.2005.00308.x> ;
-        :acceptedName _:n1 ] .
+        :taxonName _:n1 ] .
 
 _:n1 a :TaxonName ;
     :taxonNameString "Phyllotrox" ;

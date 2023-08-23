@@ -5,7 +5,7 @@
 [] a :TaxonConcept ;
     dcterms:title "Orthetrum caledonicum sec. Theischinger and Hawking (2010)" ;
     :accordingTo <urn:isbn:978-0-643-09073-6> ;
-    :acceptedName [ a :TaxonName ; 
+    :taxonName [ a :TaxonName ; 
             :taxonNameString "Orthetrum caledonicum" ] ;
     :vernacularName [ a :TaxonName ;
             :taxonNameString "Blue Skimmer" ] .

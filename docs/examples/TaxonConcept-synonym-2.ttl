@@ -6,7 +6,7 @@
 [] a :TaxonConcept ;
     dcterms:title "Hebe imbricata sec. Bayly & Kellow (2006)" ;
     :accordingTo <urn:isbn:978-0-909010-12-6> ;
-    :acceptedName <https://www.ipni.org/n/989261-1> ;
+    :taxonName <https://www.ipni.org/n/989261-1> ;
     :synonym <https://www.ipni.org/n/812507-1> .
 
 <https://www.ipni.org/n/989261-1> a :TaxonName ;

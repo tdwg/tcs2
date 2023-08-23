@@ -11,11 +11,11 @@
     rdf:subject [ a :TaxonConcept ;
         dcterms:title "Dicranum fuscescens sec. Koperski et al. (2000)" ;
         :accordingTo <https://www.tropicos.org/reference/9022656> ;
-        :acceptedName <https://www.tropicos.org/name/35122385> ] ;
+        :taxonName <https://www.tropicos.org/name/35122385> ] ;
     rdf:object [ a :TaxonConcept ;
         dcterms:title "Dicranum fuscescens sec. Corley et al. (1981)" ;
         :accordingTo <https://www.tropicos.org/reference/9004554> ;
-        :acceptedName <https://www.tropicos.org/name/35122385> ] .
+        :taxonName <https://www.tropicos.org/name/35122385> ] .
 
 <https://www.tropicos.org/name/35122385> a :TaxonName ;
     :taxonNameString "Dicranum fuscescens" ;

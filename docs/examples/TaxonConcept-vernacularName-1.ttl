@@ -7,7 +7,7 @@
 [] a :TaxonConcept ;
     dcterms:title "Graphium macleayanum sec. Orr & Kitching (2010)" ;
     :accordingTo <urn:isbn:978-1-74175-108-6> ;
-    :acceptedName [ a :TaxonName ;
+    :taxonName [ a :TaxonName ;
             :taxonNameString "Graphium macleayanum" ] ;
     :vernacularName [ a gbif:VernacularName ;
             dwc:vernacularName "Macleay's Swallowtail" ;

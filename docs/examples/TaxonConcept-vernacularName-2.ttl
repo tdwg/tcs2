@@ -7,7 +7,7 @@
 [] a :TaxonConcept ;
     dcterms:title "Quercus robur sec. Duistermaat (2020)" ;
     :accordingTo <urn:isbn:978-90-01-58956-1> ;
-    :acceptedName <https://www.ipni.org/n/304293-2> ;
+    :taxonName <https://www.ipni.org/n/304293-2> ;
     :vernacularName [ a gbif:VernacularName ;
             dwc:vernacularName "Zomereik" ;
             dcterms:language "nl" ] .

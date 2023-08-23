@@ -9,12 +9,12 @@
     rdf:subject [ a :TaxonConcept ; 
         dcterms:title "Athyriaceae sec. Rothfels et al. (2012)" ;
         :accordingTo <https://doi.org/10.1002/tax.613003> ;
-        :acceptedName [ a :TaxonName ;
+        :taxonName [ a :TaxonName ;
             :taxonNameString "Athyriaceae" ] ; ] ;
     rdf:object [ a :TaxonConcept ;
         dcterms:title "Woodsiaceae sec. Smith et al. (2006)" ;
         :accordingTo <https://doi.org/10.2307/25065646> ;
-        :acceptedName [ a :TaxonName ;
+        :taxonName [ a :TaxonName ;
             :taxonNameString "Woodsiaceae" ] ] .
 
 <https://doi.org/10.1002/tax.613003> a bibo:AcademicArticle ;

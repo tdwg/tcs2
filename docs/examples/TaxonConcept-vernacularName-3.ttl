@@ -11,7 +11,7 @@
             dcterms:bibliographicCitation """VicFlora (2023). Flora of Victoria, 
                     Royal Botanic Gardens Victoria. Available online: 
                     https://vicflora.rbg.vic.gov.au (accessed on: 22 Mar. 2023).""" ] ;
-    :acceptedName <https://www.ipni.org/n/134460-3> ;
+    :taxonName <https://www.ipni.org/n/134460-3> ;
     :vernacularName [ a gbif:VernacularName ; 
         dwc:vernacularName "Scrub Cypress-pine" ;
         dcterms:language "en" ;

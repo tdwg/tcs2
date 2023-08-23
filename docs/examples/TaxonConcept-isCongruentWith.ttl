@@ -15,7 +15,7 @@ _:b1 tcs:isCongruentWith _:b2 .
 _:b1 a tcs:TaxonConcept ;
     dcterms:title "Andropogon capillipes sec. BONAP 2014" ;
     tcs:accordingTo <http://bonap.net/napa#2014> ;
-    tcs:acceptedName <https://www.ipni.org/n/12781-2> .
+    tcs:taxonName <https://www.ipni.org/n/12781-2> .
 
 _:b2 a tcs:TaxonConcept ;
 

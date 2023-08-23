@@ -6,7 +6,7 @@
 <https://www.catalogueoflife.org/data/taxon/KF8T#v2022-11-14> a :TaxonConcept ;
     dcterms:title "Balaenoptera musculus sec. Catalogue of Life (v2022-11-14)" ;
     :accordingTo <https://www.catalogueoflife.org#v2022-11-14> ;
-    :acceptedName [ a :TaxonName ;
+    :taxonName [ a :TaxonName ;
             :taxonNameString "Balaenoptera musculus" ;
             dwc:scientificNameAuthorship "(Linnaeus, 1758)" ] .
 
