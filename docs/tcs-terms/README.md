@@ -13,7 +13,7 @@ files.
 
 **Taxon Concept**
 
-[tcs:accordingTo](#tcsaccordingto) | [tcs:acceptedName](#tcsacceptedname) | [tcs:synonym](#tcssynonym) | [tcs:vernacularName](#tcsvernacularname) | [tcs:taxonomicRank](#tcstaxonomicrank) | [tcs:parent](#tcsparent) | [tcs:isCongruentWith](#tcsiscongruentwith) | [tcs:includes](#tcsincludes) | [tcs:isDisjointFrom](#tcsisdisjointfrom) | [tcs:intersects](#tcsintersects) | [dcterms:title](#dctermstitle)
+[tcs:accordingTo](#tcsaccordingto) | [tcs:acceptedName](#tcsacceptedname) | [tcs:synonym](#tcssynonym) | [tcs:vernacularName](#tcsvernacularname) | [tcs:taxonomicRank](#tcstaxonomicrank) | [tcs:parent](#tcsparent) | [tcs:isCongruentWith](#tcsiscongruentwith) | [tcs:includes](#tcsincludes) | [tcs:isIncludedIn](#tcsisincludedin) | [tcs:partiallyOverlaps](#tcspartiallyoverlaps) | [tcs:isDisjointFrom](#tcsisdisjointfrom) | [tcs:intersects](#tcsintersects) | [dcterms:title](#dctermstitle)
 
 **Taxon Name**
 
@@ -670,7 +670,7 @@ The `parent` is another Taxon Concept. This is the parent as indicated in  the `
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>required:</b> No — <b>repeatable:</b> No</td>
+			<td><b>required:</b> No — <b>repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -738,7 +738,7 @@ _:b2 a tcs:TaxonConcept ;
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>required:</b> No — <b>repeatable:</b> No</td>
+			<td><b>required:</b> No — <b>repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -794,6 +794,152 @@ _:b2 a tcs:TaxonConcept ;
 ```
 
 [&lsqb;TaxonConcept-includes.ttl&rsqb;](examples/TaxonConcept-includes.ttl)
+
+### tcs:isIncludedIn
+
+<table style="width:100%;">
+	<tbody>
+		<tr>
+			<td>Identifier</td>
+			<td>http://rs.tdwg.org/tcs/terms/isIncludedIn</td>
+		</tr>
+		<tr>
+			<td>Type</td>
+			<td>http://www.w3.org/1999/02/22-rdf-syntax-ns#Property</td>
+		</tr>
+		<tr>
+			<td>Label</td>
+			<td>is included in</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td><b>required:</b> No — <b>repeatable:</b> Yes</td>
+		</tr>
+		<tr>
+			<td>Definition</td>
+			<td><p>The subject taxon concept has a less inclusive taxonomic meaning than the  object taxon concept</p></td>
+		</tr>
+		<tr>
+			<td>GitHub issue</td>
+			<td>https://github.com/tdwg/tcs2/issues/54</td>
+		</tr>
+	</tbody>
+</table>
+
+
+**Comments**
+
+The `isIncludedIn` relationship is not symmetric, its inverse  relationship being  `includes`, so if A `isIncludedIn` B then B  `includes` A. The `isIncludedIn` relationship  is transitive, so  if A `isIncludedIn` B and B `isIncludedIn` C it follows that A  `isIncludedIn` C.
+
+![](../media/taxon-relationship-type-is-included-in.jpg)
+
+This relation type can also be written as the formula **A < B**.
+
+
+**Examples**
+
+
+```turtle
+# Andropogon hirsutior sec. BONAP 2014 is included in Andropogon glomeratus sec. Weakley 2006
+_:b1 tcs:isIncludedIn _:b2 .
+
+[] a dwc:ResourceRelationship, rdf:Statement ;
+    rdf:predicate tcs:isIncludedIn ;
+    rdf:subject _:b1 ;
+    rdf:object _:b2 ;
+    dcterms:source <https://doi.org/10.3233/SW-160220> .
+
+_:b1 a tcs:TaxonConcept ;
+    dcterms:title "Andropogon hirsutior sec. BONAP 2014" ;
+    tcs:accordingTo <http://bonap.net/napa#2014> ;
+    tcs:acceptedName <https://www.ipni.org/n/60458078-2> .
+
+_:b2 a tcs:TaxonConcept ;
+    dcterms:title "Andropogon glomeratus sec. Weakley 2006" ;
+    tcs:accordingTo <http://www.herbarium.unc.edu/FloraArchives/WeakleyFlora_2006-Jan.pdf> ;
+    tcs:acceptedName <https://www.ipni.org/n/12850-2> .
+
+<https://www.ipni.org/n/60458078-2> a tcs:TaxonName ;
+    tcs:taxonNameString "Andropogon hirsutior" ;
+    dwc:scientificNameAuthorship "(Hack.) Weakley & LeBlond" .
+
+<https://www.ipni.org/n/12850-2> a tcs:TaxonName ;
+    tcs:taxonNameString "Andropogon glomeratus" ;
+    dwc:scientificNameAuthorship "Britton, Sterns & Poggenb." .
+```
+
+[&lsqb;TaxonConcept-isIncludedIn.ttl&rsqb;](examples/TaxonConcept-isIncludedIn.ttl)
+
+### tcs:partiallyOverlaps
+
+<table style="width:100%;">
+	<tbody>
+		<tr>
+			<td>Identifier</td>
+			<td>http://rs.tdwg.org/tcs/terms/partiallyOverlaps</td>
+		</tr>
+		<tr>
+			<td>Type</td>
+			<td>http://www.w3.org/1999/02/22-rdf-syntax-ns#Property</td>
+		</tr>
+		<tr>
+			<td>Label</td>
+			<td>partially overlaps</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td><b>required:</b> No — <b>repeatable:</b> Yes</td>
+		</tr>
+		<tr>
+			<td>Definition</td>
+			<td><p>The subject and object taxon concepts have partially overlapping taxonomic  meanings, <em>i.e.</em> they have some members in common, but each concept in  addition has members that are not included in the other concept</p></td>
+		</tr>
+		<tr>
+			<td>GitHub issue</td>
+			<td>https://github.com/tdwg/tcs2/issues/55</td>
+		</tr>
+	</tbody>
+</table>
+
+
+**Comments**
+
+The `partiallyOverlaps`  relationship is symmetrical, so if A  `partiallyOverlaps` B then B `partiallyOverlaps` A, but not transitive, so,  if A `partiallyOverlaps` B and B `partiallyOverlaps` C, it does not follow  that A `partiallyOverlaps` C.
+
+![](../media/taxon-relationship-type-partially-overlaps.jpg)
+
+This relationship can also be written as the formula **A >< B**.
+
+
+**Examples**
+
+
+```turtle
+# Andropogon glomeratus sec. BONAP 2014 partially overlaps Andropogon glomeratus sec. Weakley 2006
+_:b1 tcs:partiallyOverlaps _:b2 .
+
+[] a dwc:ResourceRelationship, rdf:Statement ;
+    rdf:subject _:b1 ;
+    rdf:predicate tcs:partiallyOverlaps ;
+    rdf:object _:b2 ;
+    dcterms:source <https://doi.org/10.3233/SW-160220> .
+
+_:b1 a tcs:TaxonConcept ;
+    dcterms:title "Andropogon glomeratus sec. BONAP 2014" ;
+    tcs:accordingTo <http://bonap.net/napa#2014> ;
+    tcs:acceptedName <https://www.ipni.org/n/12850-2 .
+
+_:b2 a tcs:TaxonConcept ;
+    dcterms:title "Andropogon glomeratus sec. Weakley 2006" ;
+    tcs:accordingTo <http://www.herbarium.unc.edu/FloraArchives/WeakleyFlora_2006-Jan.pdf> ;
+    tcs:acceptedName <https://www.ipni.org/n/12850-2> .
+
+<https://www.ipni.org/n/12850-2> a tcs:TaxonName ;
+    tcs:taxonNameString "Andropogon glomeratus" ;
+    dwc:scientificNameAuthorship "Britton, Sterns & Poggenb." .
+```
+
+[&lsqb;TaxonConcept-partiallyOverlaps.ttl&rsqb;](examples/TaxonConcept-partiallyOverlaps.ttl)
 
 ### tcs:isDisjointFrom
 

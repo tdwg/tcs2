@@ -225,7 +225,7 @@
   examples: 
     - TaxonConcept-isCongruentWith
   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonConcept
-  repeatable: No
+  repeatable: Yes
   required: No
   type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
   github: 52
@@ -252,7 +252,7 @@
   examples: 
     - TaxonConcept-includes
   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonConcept
-  repeatable: No
+  repeatable: Yes
   required: No
   type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
   github: 53
@@ -278,6 +278,10 @@
     This relation type can also be written as the formula **A < B**.
   examples: 
     - TaxonConcept-isIncludedIn
+  organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonConcept
+  repeatable: Yes
+  required: No
+  type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
   github: 54
 
 # controlled term: partiallyOverlaps
@@ -301,6 +305,10 @@
     This relationship can also be written as the formula **A >< B**.
   examples:
     - TaxonConcept-partiallyOverlaps
+  organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonConcept
+  repeatable: Yes
+  required: No
+  type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
   github: 55
 
 # property: isDisjointFrom
