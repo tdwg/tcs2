@@ -1,0 +1,26 @@
+@prefix tcs: <http://rs.tdwg.org/tcs/terms/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+
+[] a tcs:TaxonConcept ;
+    dcterms:title "Begonia salaziensis sec. Klazenga & al. 1994" ;
+    tcs:accordingTo <https://doi/org/10.2307/3668252> ;
+    tcs:taxonName <https://ipni.org/n/105644-1> ;
+    tcs:intersects [ a tcs:TaxonConcept ;
+            dcterms:title "Begonia salaziensis sec. Warburg 1894" ;
+            tcs:accordingTo <https://eg.tdwg.org/tcs/ref/d9a27f7b90cde25a> ;
+            tcs:taxonName <https://ipni.org/n/105644-1> ] ,
+        [ a tcs:TaxonConcept ;
+            dcterms:title "Begonia salaziensis sec. Irmscher 1925" ;
+            tcs:accordingTo <https://eg.tdwg.org/tcs/ref/0552488b705004b9> ;
+            tcs:taxonName <https://ipni.org/n/105644-1> ] .
+
+[] a tcs:TaxonConcept ;
+    dcterms:title "Begonia seychellensis sec. Klazenga & al. 1994" ;
+    tcs:accordingTo <https://doi/org/10.2307/3668252> ;
+    tcs:taxonName <https://www.ipni.org/n/105731-1> ;
+    tcs:intersects [ a tcs:TaxonConcept ;
+        dcterms:title "Begonia comorensis sec. Keraudren-Aymonin 1983" ;
+        tcs:accordingTo <https://eg.tdwg.org/tcs/ref/ba1eab1dfbe06903> ;
+        tcs:taxonName <https://www.ipni.org/n/104440-1> ;
+        tcs:synonym <https://www.ipni.org/n/105731-1> ] .

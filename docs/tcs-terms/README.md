@@ -697,6 +697,28 @@ This relationship can also be written as the formula **A &cong; B** or **A == B*
 
 
 ```turtle
+<https://eg.tdwg.org/tcs/tc/2012-Aspleniaceae> a tcs:TaxonConcept ;
+    dcterms:title "Aspleniaceae sec. Rothfels & al. 2012" ;
+    tcs:accordingTo <https://doi.org/10.1002/tax.613003> ;
+    tcs:taxonName <https://ipni.org/n/30001382-2> ;
+    tcs:isCongruentWith [ a tcs:TaxonConcept ;
+            dcterms:title "Aspleniaceae sec. Christenhusz & al. 2011" ;
+            tcs:accordingTo <https://doi.org/10.11646/phytotaxa.19.1.2> ;
+            tcs:taxonName <https://ipni.org/n/30001382-2> ] ,
+        [ a tcs:TaxonConcept ;
+            dcterms:title "Aspleniaceae sec. Nayar 1970" ;
+            tcs:accordingTo <https://doi.org/10.2307/1217958> ;
+            tcs:taxonName <https://ipni.org/n/30001382-2> ] ,
+        [ a tcs:TaxonConcept ;
+            dcterms:title "Aspleniaceae sec. Pichi Sermolli 1977" ;
+            tcs:accordingTo <https://doi.org/10.1080/00837792.1977.10670077> ;
+            tcs:taxonName <https://ipni.org/n/30001382-2> ] .
+```
+
+[&lsqb;TaxonConcept-isCongruentWith-1.ttl&rsqb;](examples/TaxonConcept-isCongruentWith-1.ttl)
+
+
+```turtle
 # Andropogon capillipes sec. BONAP 2014 is congruent with Andropogon capillipes sec. Weakley 2006
 _:b1 tcs:isCongruentWith _:b2 .
 
@@ -718,7 +740,7 @@ _:b2 a tcs:TaxonConcept ;
     dwc:scientificNameAuthorship "Nash" .
 ```
 
-[&lsqb;TaxonConcept-isCongruentWith.ttl&rsqb;](examples/TaxonConcept-isCongruentWith.ttl)
+[&lsqb;TaxonConcept-isCongruentWith-2.ttl&rsqb;](examples/TaxonConcept-isCongruentWith-2.ttl)
 
 ### tcs:includes
 
@@ -765,6 +787,20 @@ This relation type can also be written as the formula **A > B**.
 
 
 ```turtle
+[] a tcs:TaxonConcept ;
+    dcterms:title "Diplaziopsidaceae sec. Rothfels & al. 2012" ;
+    tcs:accordingTo <https://doi.org/10.1002/tax.613003> ;
+    tcs:taxonName <https://ipni.org/n/77110538-1> ;
+    tcs:includes [ a tcs:TaxonConcept ;
+            dcterms:title "Diplaziopsidaceae sec. Christenhusz & al. 2011" ;
+            tcs:accordingTo <https://doi.org/10.11646/phytotaxa.19.1.2> ;
+            tcs:taxonName <https://ipni.org/n/77110538-1> ] .
+```
+
+[&lsqb;TaxonConcept-includes-1.ttl&rsqb;](examples/TaxonConcept-includes-1.ttl)
+
+
+```turtle
 # Andropogon glomeratus sec. BONAP 2014 includes Andropogon tenuispatheus sec. Weakley 2006
 _:b1 tcs:includes _:b2 .
 
@@ -793,7 +829,7 @@ _:b2 a tcs:TaxonConcept ;
     dwc:scientificNameAuthorship "Nash" .
 ```
 
-[&lsqb;TaxonConcept-includes.ttl&rsqb;](examples/TaxonConcept-includes.ttl)
+[&lsqb;TaxonConcept-includes-2.ttl&rsqb;](examples/TaxonConcept-includes-2.ttl)
 
 ### tcs:isIncludedIn
 
@@ -840,6 +876,32 @@ This relation type can also be written as the formula **A < B**.
 
 
 ```turtle
+[] a tcs:TaxonConcept ;
+    dcterms:title "Athyriaceae sec. Rothfels & al. 2012" ;
+    tcs:accordingTo <https://doi.org/10.1002/tax.613003> ;
+    tcs:taxonName <https://ipni.org/n/30000361-2> ;
+    tcs:isIncludedIn [ a tcs:TaxonConcept ;
+            dcterms:title "Athyriaceae sec. Christenhusz & al. 2011" ;
+            tcs:accordingTo <https://doi.org/10.11646/phytotaxa.19.1.2> ;
+            tcs:taxonName <https://ipni.org/n/30000361-2> ] ,
+        [ a tcs:TaxonConcept ;
+            dcterms:title "Woodsiaceae sec. Smith & al. 2006" ;
+            tcs:accordingTo <https://doi.org/10.2307/25065646> ;
+            tcs:taxonName <https://ipni.org/n/30000455-2> ] ,
+        [ a tcs:TaxonConcept ;
+            dcterms:title "Dryopteridaceae sec. Nayar 1970" ;
+            tcs:accordingTo <https://doi.org/10.2307/1217958> ;
+            tcs:taxonName <https://www.ipni.org/n/30014148-2> ] ,
+        [ a tcs:TaxonConcept ;
+            dcterms:title "Dennstaedtiaceae sec. Holttum 1947" ;
+            tcs:accordingTo _:r8356b78f024b33be ;
+            tcs:taxonName <https://ipni.org/n/17434830-1> ] .
+```
+
+[&lsqb;TaxonConcept-isIncludedIn-1.ttl&rsqb;](examples/TaxonConcept-isIncludedIn-1.ttl)
+
+
+```turtle
 # Andropogon hirsutior sec. BONAP 2014 is included in Andropogon glomeratus sec. Weakley 2006
 _:b1 tcs:isIncludedIn _:b2 .
 
@@ -868,7 +930,7 @@ _:b2 a tcs:TaxonConcept ;
     dwc:scientificNameAuthorship "Britton, Sterns & Poggenb." .
 ```
 
-[&lsqb;TaxonConcept-isIncludedIn.ttl&rsqb;](examples/TaxonConcept-isIncludedIn.ttl)
+[&lsqb;TaxonConcept-isIncludedIn-2.ttl&rsqb;](examples/TaxonConcept-isIncludedIn-2.ttl)
 
 ### tcs:partiallyOverlaps
 
@@ -915,6 +977,20 @@ This relationship can also be written as the formula **A >< B**.
 
 
 ```turtle
+[] a tcs:TaxonConcept ;
+    dcterms:title "Diplaziopsidaceae sec. Rothfels & al. 2012" ;
+    tcs:accordingTo <https://doi.org/10.1002/tax.613003> ;
+    tcs:taxonName <https://ipni.org/n/77110538-1> ;
+    tcs:partiallyOverlaps [ a tcs:TaxonConcept ;
+            dcterms:title "Athyriaceae sec. Christenhusz & al. 2011" ;
+            tcs:accordingTo <https://doi.org/10.11646/phytotaxa.19.1.2> ;
+            tcs:taxonName <https://ipni.org/n/30000361-2> ] .
+```
+
+[&lsqb;TaxonConcept-partiallyOverlaps-1.ttl&rsqb;](examples/TaxonConcept-partiallyOverlaps-1.ttl)
+
+
+```turtle
 # Andropogon glomeratus sec. BONAP 2014 partially overlaps Andropogon glomeratus sec. Weakley 2006
 _:b1 tcs:partiallyOverlaps _:b2 .
 
@@ -939,7 +1015,7 @@ _:b2 a tcs:TaxonConcept ;
     dwc:scientificNameAuthorship "Britton, Sterns & Poggenb." .
 ```
 
-[&lsqb;TaxonConcept-partiallyOverlaps.ttl&rsqb;](examples/TaxonConcept-partiallyOverlaps.ttl)
+[&lsqb;TaxonConcept-partiallyOverlaps-2.ttl&rsqb;](examples/TaxonConcept-partiallyOverlaps-2.ttl)
 
 ### tcs:isDisjointFrom
 
@@ -1051,6 +1127,37 @@ _:b2 a tcs:TaxonConcept ;
 **Comments**
 
 `intersects` is the opposite of `isDisjointFrom` and the union of  `isCongruentWith`, `includes`, `isIncludedIn` and  `partiallyOverlaps`, meaning it can be any of these relationships. This  relationship type can be used when the more precise nature of the  relationship is not known or not stated, for example when dealing with  statements in traditional synonymies or with references to other treatments.
+
+
+**Examples**
+
+
+```turtle
+[] a tcs:TaxonConcept ;
+    dcterms:title "Begonia salaziensis sec. Klazenga & al. 1994" ;
+    tcs:accordingTo <https://doi/org/10.2307/3668252> ;
+    tcs:taxonName <https://ipni.org/n/105644-1> ;
+    tcs:intersects [ a tcs:TaxonConcept ;
+            dcterms:title "Begonia salaziensis sec. Warburg 1894" ;
+            tcs:accordingTo <https://eg.tdwg.org/tcs/ref/d9a27f7b90cde25a> ;
+            tcs:taxonName <https://ipni.org/n/105644-1> ] ,
+        [ a tcs:TaxonConcept ;
+            dcterms:title "Begonia salaziensis sec. Irmscher 1925" ;
+            tcs:accordingTo <https://eg.tdwg.org/tcs/ref/0552488b705004b9> ;
+            tcs:taxonName <https://ipni.org/n/105644-1> ] .
+
+[] a tcs:TaxonConcept ;
+    dcterms:title "Begonia seychellensis sec. Klazenga & al. 1994" ;
+    tcs:accordingTo <https://doi/org/10.2307/3668252> ;
+    tcs:taxonName <https://www.ipni.org/n/105731-1> ;
+    tcs:intersects [ a tcs:TaxonConcept ;
+        dcterms:title "Begonia comorensis sec. Keraudren-Aymonin 1983" ;
+        tcs:accordingTo <https://eg.tdwg.org/tcs/ref/ba1eab1dfbe06903> ;
+        tcs:taxonName <https://www.ipni.org/n/104440-1> ;
+        tcs:synonym <https://www.ipni.org/n/105731-1> ] .
+```
+
+[&lsqb;TaxonConcept-intersects-1.ttl&rsqb;](examples/TaxonConcept-intersects-1.ttl)
 
 ### dcterms:title
 

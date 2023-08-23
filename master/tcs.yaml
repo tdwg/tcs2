@@ -223,7 +223,8 @@
 
     This relationship can also be written as the formula **A &cong; B** or **A == B**.
   examples: 
-    - TaxonConcept-isCongruentWith
+    - TaxonConcept-isCongruentWith-1
+    - TaxonConcept-isCongruentWith-2
   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonConcept
   repeatable: Yes
   required: No
@@ -250,7 +251,8 @@
 
     This relation type can also be written as the formula **A > B**.
   examples: 
-    - TaxonConcept-includes
+    - TaxonConcept-includes-1
+    - TaxonConcept-includes-2
   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonConcept
   repeatable: Yes
   required: No
@@ -277,7 +279,8 @@
 
     This relation type can also be written as the formula **A < B**.
   examples: 
-    - TaxonConcept-isIncludedIn
+    - TaxonConcept-isIncludedIn-1
+    - TaxonConcept-isIncludedIn-2
   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonConcept
   repeatable: Yes
   required: No
@@ -304,7 +307,8 @@
 
     This relationship can also be written as the formula **A >< B**.
   examples:
-    - TaxonConcept-partiallyOverlaps
+    - TaxonConcept-partiallyOverlaps-1
+    - TaxonConcept-partiallyOverlaps-2
   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonConcept
   repeatable: Yes
   required: No
@@ -351,6 +355,8 @@
     relationship type can be used when the more precise nature of the 
     relationship is not known or not stated, for example when dealing with 
     statements in traditional synonymies or with references to other treatments.
+  examples:
+    - TaxonConcept-intersects-1
   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonConcept
   repeatable: Yes
   required: No
