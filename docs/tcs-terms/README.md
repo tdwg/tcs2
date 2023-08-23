@@ -9,15 +9,11 @@ files.
 
 **classes**
 
-[tcs:TaxonConcept](#tcstaxonconcept) | [tcs:TaxonRelationship](#tcstaxonrelationship) | [tcs:TaxonName](#tcstaxonname) | [tcs:NomenclaturalType](#tcsnomenclaturaltype)
+[tcs:TaxonConcept](#tcstaxonconcept) | [tcs:TaxonName](#tcstaxonname) | [tcs:NomenclaturalType](#tcsnomenclaturaltype)
 
 **Taxon Concept**
 
-[tcs:accordingTo](#tcsaccordingto) | [tcs:acceptedName](#tcsacceptedname) | [tcs:synonym](#tcssynonym) | [tcs:vernacularName](#tcsvernacularname) | [tcs:taxonomicRank](#tcstaxonomicrank) | [tcs:parent](#tcsparent) | [dcterms:title](#dctermstitle)
-
-**Taxon Relationship**
-
-[tcs:relationshipAccordingTo](#tcsrelationshipaccordingto) | [tcs:relationshipType](#tcsrelationshiptype) | [tcs:subjectTaxonConcept](#tcssubjecttaxonconcept) | [tcs:objectTaxonConcept](#tcsobjecttaxonconcept)
+[tcs:accordingTo](#tcsaccordingto) | [tcs:acceptedName](#tcsacceptedname) | [tcs:synonym](#tcssynonym) | [tcs:vernacularName](#tcsvernacularname) | [tcs:taxonomicRank](#tcstaxonomicrank) | [tcs:parent](#tcsparent) | [tcs:isCongruentWith](#tcsiscongruentwith) | [tcs:includes](#tcsincludes) | [tcs:isDisjointFrom](#tcsisdisjointfrom) | [tcs:intersects](#tcsintersects) | [dcterms:title](#dctermstitle)
 
 **Taxon Name**
 
@@ -656,6 +652,260 @@ The rank is an attribute of elements in a classification and `taxonomicRank`  ca
 
 The `parent` is another Taxon Concept. This is the parent as indicated in  the `accordingTo` reference, rather than a third-party classification. The  `accordingTo` of the parent will generally, but not necessarily, be the  same as that of the child. 
 
+### tcs:isCongruentWith
+
+<table style="width:100%;">
+	<tbody>
+		<tr>
+			<td>Identifier</td>
+			<td>http://rs.tdwg.org/tcs/terms/isCongruentWith</td>
+		</tr>
+		<tr>
+			<td>Type</td>
+			<td>http://www.w3.org/1999/02/22-rdf-syntax-ns#Property</td>
+		</tr>
+		<tr>
+			<td>Label</td>
+			<td>Is Congruent With</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td><b>required:</b> No — <b>repeatable:</b> No</td>
+		</tr>
+		<tr>
+			<td>Definition</td>
+			<td><p>The subject and object taxon concepts have a congruent taxonomic meaning,  i.e. there is no conflict between the concepts</p></td>
+		</tr>
+		<tr>
+			<td>GitHub issue</td>
+			<td>https://github.com/tdwg/tcs2/issues/52</td>
+		</tr>
+	</tbody>
+</table>
+
+
+**Comments**
+
+The `isCongruentWith` relationship is symmetrical, so if A `isCongruentWith`  B then B `isCongruentWith` A, as well as transitive, so if A  `isCongruentWith` B and B `isCongruentWith` C it follows that A  `isCongruentWith` C.
+
+![](../media/taxon-relationship-type-is-congruent-with.jpg)
+
+This relationship can also be written as the formula **A &cong; B** or **A == B**.
+
+
+**Examples**
+
+
+```turtle
+# Andropogon capillipes sec. BONAP 2014 is congruent with Andropogon capillipes sec. Weakley 2006
+_:b1 tcs:isCongruentWith _:b2 .
+
+[] a dwc:ResourceRelationship, rdf:Statement ;
+    rdf:subject _:b1 ;
+    rdf:predicate tcs:isCongruentWith ;
+    rdf:object _:b2 ;
+    dcterms:source <https://doi.org/10.3233/SW-160220> .
+
+_:b1 a tcs:TaxonConcept ;
+    dcterms:title "Andropogon capillipes sec. BONAP 2014" ;
+    tcs:accordingTo <http://bonap.net/napa#2014> ;
+    tcs:acceptedName <https://www.ipni.org/n/12781-2> .
+
+_:b2 a tcs:TaxonConcept ;
+
+<https://www.ipni.org/n/12781-2> a tcs:TaxonName ;
+    tcs:taxonNameString "Andropogon capillipes" ;
+    dwc:scientificNameAuthorship "Nash" .
+```
+
+[&lsqb;TaxonConcept-isCongruentWith.ttl&rsqb;](examples/TaxonConcept-isCongruentWith.ttl)
+
+### tcs:includes
+
+<table style="width:100%;">
+	<tbody>
+		<tr>
+			<td>Identifier</td>
+			<td>http://rs.tdwg.org/tcs/terms/includes</td>
+		</tr>
+		<tr>
+			<td>Type</td>
+			<td>http://www.w3.org/1999/02/22-rdf-syntax-ns#Property</td>
+		</tr>
+		<tr>
+			<td>Label</td>
+			<td>Includes</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td><b>required:</b> No — <b>repeatable:</b> No</td>
+		</tr>
+		<tr>
+			<td>Definition</td>
+			<td><p>The subject taxon concept has a more inclusive taxonomic meaning than the object taxon concept</p></td>
+		</tr>
+		<tr>
+			<td>GitHub issue</td>
+			<td>https://github.com/tdwg/tcs2/issues/53</td>
+		</tr>
+	</tbody>
+</table>
+
+
+**Comments**
+
+The `includes` relationship is not symmetric, its inverse  relationship being  `isIncludedIn`, so if A `includes` B then B  `isIncludedIn` A. The `includes` relationship  is transitive, so  if A `includes` B and B `includes` C it follows that A  `includes` C.
+
+![](../media/taxon-relationship-type-includes.jpg)
+
+This relation type can also be written as the formula **A > B**.
+
+
+**Examples**
+
+
+```turtle
+# Andropogon glomeratus sec. BONAP 2014 includes Andropogon tenuispatheus sec. Weakley 2006
+_:b1 tcs:includes _:b2 .
+
+[] a dwc:ResourceRelationship, rdf:Statement ;
+    rdf:subject _:b1 ;
+    rdf:predicate tcs:includes ;
+    rdf:object _:b2 ;
+    dcterms:source <https://doi.org/10.3233/SW-160220> .
+
+_:b1 a tcs:TaxonConcept ;
+        dcterms:title "Andropogon glomeratus sec. BONAP 2014" ;
+        tcs:accordingTo <http://bonap.net/napa#2014> ;
+        tcs:acceptedName <https://www.ipni.org/n/12850-2> .
+
+_:b2 a tcs:TaxonConcept ;
+        dcterms:title "Andropogon tenuispatheus sec. Weakley 2006" ;
+        tcs:accordingTo <http://www.herbarium.unc.edu/FloraArchives/WeakleyFlora_2006-Jan.pdf> ;
+        tcs:acceptedName <https://www.ipni.org/n/13093-2> .
+
+<https://www.ipni.org/n/12850-2> a tcs:TaxonName ;
+    tcs:taxonNameString "Andropogon glomeratus" ;
+    dwc:scientificNameAuthorship "Britton, Sterns & Poggenb." .
+
+<https://www.ipni.org/n/13093-2> a tcs:TaxonName ;
+    tcs:taxonNameString "Andropogon tenuispatheus" ;
+    dwc:scientificNameAuthorship "Nash" .
+```
+
+[&lsqb;TaxonConcept-includes.ttl&rsqb;](examples/TaxonConcept-includes.ttl)
+
+### tcs:isDisjointFrom
+
+<table style="width:100%;">
+	<tbody>
+		<tr>
+			<td>Identifier</td>
+			<td>http://rs.tdwg.org/tcs/terms/isDisjointFrom</td>
+		</tr>
+		<tr>
+			<td>Type</td>
+			<td>http://www.w3.org/1999/02/22-rdf-syntax-ns#Property</td>
+		</tr>
+		<tr>
+			<td>Label</td>
+			<td>is disjoint from</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td><b>required:</b> No — <b>repeatable:</b> Yes</td>
+		</tr>
+		<tr>
+			<td>Definition</td>
+			<td><p>The subject and objects taxon concepts have non-overlapping taxonomic  meanings, <em>i.e.</em> they do not have any members in common</p></td>
+		</tr>
+		<tr>
+			<td>GitHub issue</td>
+			<td>https://github.com/tdwg/tcs2/issues/56</td>
+		</tr>
+	</tbody>
+</table>
+
+
+**Comments**
+
+The `isDisjointFrom`  relationship is symmetrical, so if A `isDisjointFrom`  B then B `isDisjointFrom` A, but not transitive, so, if A `isDisjointFrom`  B and B `isDisjointFrom` C, it does not follow that A `isDisjointFrom` C.
+
+![](../media/taxon-relationship-type-is-disjoint-from.jpg)
+
+This relationship can also be written as the formula **A | B**.
+
+
+**Examples**
+
+
+```turtle
+# Andropogon glaucopsis sec. BONAP 2014 is disjoint from Andropogon vitginicus sec. Weakley 2006
+_:b1 tcs:isDisjointFrom _:b2
+
+[] a dwc:ResourceRelationship, rdf:Statement ;
+    rdf:subject _:b1 ;
+    rdf:predicate <http://rs.tdwg.org/tcs-taxon-relationship-type/values/isDisjointFrom> ;
+    rdf:object _:b2 ;
+    dcterms:source <https://doi.org/10.3233/SW-160220> .
+
+_:b1 a tcs:TaxonConcept ;
+        dcterms:title "Andropogon glaucopsis sec. BONAP 2014" ;
+        tcs:accordingTo <http://bonap.net/napa#2014> ;
+        tcs:acceptedName <https://www.ipni.org/n/387942-1> .
+
+_:b2 a tcs:TaxonConcept ;
+        dcterms:title "Andropogon vitginicus sec. Weakley 2006" ;
+        tcs:accordingTo <http://www.herbarium.unc.edu/FloraArchives/WeakleyFlora_2006-Jan.pdf> ;
+        tcs:acceptedName <https://www.ipni.org/n/388740-1> .
+
+<https://www.ipni.org/n/387942-1> a tcs:TaxonName ;
+    tcs:taxonNameString "Andropogon glaucopsis" ;
+    dwc:scientificNameAuthorship "Steud." .
+
+<https://www.ipni.org/n/388740-1> a tcs:TaxonName ;
+    tcs:taxonNameString "Andropogon virginicus" ;
+    dwc:scientificNameAuthorship "L." .
+```
+
+[&lsqb;TaxonConcept-isDisjointFrom.ttl&rsqb;](examples/TaxonConcept-isDisjointFrom.ttl)
+
+### tcs:intersects
+
+<table style="width:100%;">
+	<tbody>
+		<tr>
+			<td>Identifier</td>
+			<td>http://rs.tdwg.org/tcs/terms/intersects</td>
+		</tr>
+		<tr>
+			<td>Type</td>
+			<td>http://www.w3.org/1999/02/22-rdf-syntax-ns#Property</td>
+		</tr>
+		<tr>
+			<td>Label</td>
+			<td>Intersects</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td><b>required:</b> No — <b>repeatable:</b> Yes</td>
+		</tr>
+		<tr>
+			<td>Definition</td>
+			<td><p>The taxonomic meanings of the subject and object taxon concepts intersect,  <em>i.e.</em> they have at least one member in common.</p></td>
+		</tr>
+		<tr>
+			<td>GitHub issue</td>
+			<td>https://github.com/tdwg/tcs2/issues/57</td>
+		</tr>
+	</tbody>
+</table>
+
+
+**Comments**
+
+`intersects` is the opposite of `isDisjointFrom` and the union of  `isCongruentWith`, `includes`, `isIncludedIn` and  `partiallyOverlaps`, meaning it can be any of these relationships. This  relationship type can be used when the more precise nature of the  relationship is not known or not stated, for example when dealing with  statements in traditional synonymies or with references to other treatments.
+
 ### dcterms:title
 
 <table style="width:100%;">
@@ -692,307 +942,6 @@ The `parent` is another Taxon Concept. This is the parent as indicated in  the `
 
 In TCS `dcterms:title` is used for the taxonomic concept label (cf.  Senderov et al., 2018), which consists of the Taxon Name and a reference to  the publication where the concept is circumscribed, separated by 'sec.',  which stands for 'secundus' ('according to'). It is used to indicate one  specific meaning of a name – a Taxon Concept – rather than the cumulative  nomenclatural and taxonomic legacy associated with the name.
 
-
-## Taxon Relationship
-
-### tcs:TaxonRelationship
-
-<table style="width:100%;">
-	<tbody>
-		<tr>
-			<td>Identifier</td>
-			<td>http://rs.tdwg.org/tcs/terms/TaxonRelationship</td>
-		</tr>
-		<tr>
-			<td>Type</td>
-			<td>http://www.w3.org/2000/01/rdf-schema#Class</td>
-		</tr>
-		<tr>
-			<td>Label</td>
-			<td>Taxon Relationship</td>
-		</tr>
-		<tr>
-			<td>Definition</td>
-			<td><p>Topological relationship between two Taxon Concepts.</p></td>
-		</tr>
-		<tr>
-			<td>Usage</td>
-			<td><p><code>relationshipType</code>, <code>subjectTaxonConcept</code>, <code>objectTaxonConcept</code> and  <code>relationshipAccordingTo</code> are all required.</p></td>
-		</tr>
-		<tr>
-			<td>GitHub issue</td>
-			<td>https://github.com/tdwg/tcs2/issues/43</td>
-		</tr>
-	</tbody>
-</table>
-
-
-**Comments**
-
-Taxon Relationships are a set of relationships that allow for the  alignment of Taxon Concepts – or taxon concept mapping. The main  relationship types coincide with topological relationships that are widely  used in spatial analysis, analysis of computer networks, artificial  intelligence, etc. In particular, they are the relationships that are used  in RCC-5 Region Connection Calculus, which allows for reasoning.
-
-An extra controlled term `intersects` has been added to the Taxon Concept  Relationship Type Vocabulary to accommodate Taxon Relationship  statements between Taxon Concepts of which we know that they have at least  one member in common, but where the more specific topological relationship  is not easily inferred.
-
-Taxon Relationship statements can be made in the treatment of the  subject Taxon Concept or by third parties.
-
-
-**Examples**
-
-
-```turtle
-# Athyriaceae sec. Rothfels et al. (2012) is included in Woodsiaceae sec. Smith et al. (2006)
-[] a :TaxonRelationship ; 
-    :relationshipAccordingTo <https://doi.org/10.1002/tax.613003> ;
-    :relationshipType <http://rs.tdwg.org/tcs-taxon-concept-relationship-type/values/isIncludedIn> ; 
-    :subjectTaxonConcept [ a :TaxonConcept ; 
-        dcterms:title "Athyriaceae sec. Rothfels et al. (2012)" ;
-        :accordingTo <https://doi.org/10.1002/tax.613003> ;
-        :acceptedName [ a :TaxonName ;
-            :taxonNameString "Athyriaceae" ] ; ] ;
-    :objectTaxonConcept [ a :TaxonConcept ;
-        dcterms:title "Woodsiaceae sec. Smith et al. (2006)" ;
-        :accordingTo <https://doi.org/10.2307/25065646> ;
-        :acceptedName [ a :TaxonName ;
-            :taxonNameString "Woodsiaceae" ] ] .
-
-<https://doi.org/10.1002/tax.613003> a bibo:AcademicArticle ;
-    dcterms:bibliographicCitation """Rothfels, Carl J.; Sundue, Michael A.; Kuo, Li-Yaung; Larsson, 
-            Anders; Kato, Masahiro; Schuettpelz, Eric; Pryer, Kathleen M. (2012). A revised 
-            family–level classification for eupolypod II ferns (Polypodiidae: Polypodiales). Taxon 
-            61(3): 515-533.""" .
-
-<https://doi.org/10.2307/25065646> a bibo:AcademicArticle ;
-    dcterms:bibliographicCitation """Smith, Alan R.; Pryer, Kathleen M.; Schuettpelz, Eric; Korall, 
-            Petra; Schneider, Harald; Wolf, Paul G. (2006). A classification for extant ferns. Taxon 
-            55(3): 705-731.""" .
-```
-
-[&lsqb;TaxonRelationship-1.ttl&rsqb;](examples/TaxonRelationship-1.ttl)
-
-
-```turtle
-# Dicranum fuscescens sec. Koperski et al. (2000) is congruent with Dicranum fuscescens sec. Corley 
-# et al. (1981)
-[] a :TaxonRelationship ;
-    :relationshipAccordingTo <https://www.tropicos.org/reference/9022656> ;
-    :relationshipType <http://rs.tdwg.org/tcs-taxon-concept-relationship-type/values/isCongruentWith> ; 
-    :subjectTaxonConcept [ a :TaxonConcept ;
-        dcterms:title "Dicranum fuscescens sec. Koperski et al. (2000)" ;
-        :accordingTo <https://www.tropicos.org/reference/9022656> ;
-        :acceptedName <https://www.tropicos.org/name/35122385> ] ;
-    :objectTaxonConcept [ a :TaxonConcept ;
-        dcterms:title "Dicranum fuscescens sec. Corley et al. (1981)" ;
-        :accordingTo <https://www.tropicos.org/reference/9004554> ;
-        :acceptedName <https://www.tropicos.org/name/35122385> ] .
-
-<https://www.tropicos.org/name/35122385> a :TaxonName ;
-    :taxonNameString "Dicranum fuscescens" ;
-    dwc:scientificNameAuthorship "Turner" .
-
-<https://www.tropicos.org/reference/9022656> a bibo:Book ;
-    dcterms:bibliographicCitation """Koperski, Monika; Sauer, Michael; Braun, Walter; Gradstein, S. 
-            Rob (2000). Referenzliste der Moose Deuthschlands. Schriftenreihe für Vegetationskunde 
-            34. Bundersamt für Naturschutz, Bonn-Bad Godesberg.""" .
-
-<https://www.tropicos.org/reference/9004554> a bibo:AcademicArticle ;
-    dcterms:bibliographicCitation """Corley, M.F.V.; Crundwell, A.C.; Düll, R.; Hill, M.O.; Smith, 
-            A.J.E. (1981). Mosses of Europe and the Azores; an annotated list of species, with synonyms from 
-            the recent literature. Journal of Bryology 11(4): 609-689.""" .
-```
-
-[&lsqb;TaxonRelationship-2.ttl&rsqb;](examples/TaxonRelationship-2.ttl)
-
-
-```turtle
-# Phyllotrox sec. Franz & O'Brien (2001) partially overlaps Phyllotrox sec. Franz (2006)
-[] a :TaxonRelationship ;
-    :relationshipAccordingTo <https://doi.org/10.1111/cla.12042> ;
-    :relationshipType <http://rs.tdwg.org/tcs-taxon-concept-relationship-type/values/partiallyOverlaps> ;
-    :subjectTaxonConcept [ a :TaxonConcept ;
-        dcterms:title "Phyllotrox sec. Franz & O'Brien (2001)" ;
-        :accordingTo <https://www.jstor.org/stable/25078744> ;
-        :acceptedName _:n1 ] ;
-    :objectTaxonConcept [ a :TaxonConcept ; 
-        dcterms:title "Phyllotrox sec. Franz (2006)" ;
-        :accordingTo <https://doi.org/10.1111/j.1365-3113.2005.00308.x> ;
-        :acceptedName _:n1 ] .
-
-_:n1 a :TaxonName ;
-    :taxonNameString "Phyllotrox" ;
-    dwc:scientificNameAuthorship "Schoenherr" .
-
-<https://www.jstor.org/stable/25078744> a bibo:AcademicArticle ;
-    dcterms:bibliographicCitation """Franz, Nico M.; O`Brien, Charles W. (2001). Revision and 
-            phylogeny of Perelleschus (Coleoptera: Curculionidae) with notes on its Association with 
-            Carludovica (Cyclanthaceae). Transactions of the American Entomological Society 127(2): 
-            255-287""" .
-
-<https://doi.org/10.1111/j.1365-3113.2005.00308.x> a bibo:AcademicArticle ;
-    dcterms:bibliographicReference """Franz, Nico M. (2006). Towards a phylogenetic system of 
-            derelomine flower weevils (Coleoptera: Curculionidae). Systematic Entomology 31(2): 
-            220-287.""" .
-
-<https://doi.org/10.1111/cla.12042> a bibo:AcademicArticle ;
-    dcterms:bibliographicCitation """Franz, Nico M. (2014). Anatomy of a cladistic analysis. 
-            Cladistics 30(3): 294-321.""" .
-```
-
-[&lsqb;TaxonRelationship-3.ttl&rsqb;](examples/TaxonRelationship-3.ttl)
-
-### tcs:relationshipAccordingTo
-
-<table style="width:100%;">
-	<tbody>
-		<tr>
-			<td>Identifier</td>
-			<td>http://rs.tdwg.org/tcs/terms/relationshipAccordingTo</td>
-		</tr>
-		<tr>
-			<td>Type</td>
-			<td>http://www.w3.org/1999/02/22-rdf-syntax-ns#Property</td>
-		</tr>
-		<tr>
-			<td>Label</td>
-			<td>Relationship According To</td>
-		</tr>
-		<tr>
-			<td></td>
-			<td><b>required:</b> Yes — <b>repeatable:</b> No</td>
-		</tr>
-		<tr>
-			<td>Definition</td>
-			<td><p>Reference to the source of the taxon relationship statement.</p></td>
-		</tr>
-		<tr>
-			<td>Usage</td>
-			<td><p><code>relationshipAccordingTo</code> is an IRI term and is required; a Taxon  Relationship statement can have only one <code>relationshipAccordingTo</code>.</p></td>
-		</tr>
-		<tr>
-			<td>GitHub issue</td>
-			<td>https://github.com/tdwg/tcs2/issues/47</td>
-		</tr>
-	</tbody>
-</table>
-
-
-**Comments**
-
-In the case of Taxon Relationships from traditional synonymy, the  `relationshipAccordingTo` is the same as the `accordingTo` of the Taxon  Concept that is the `subjectTaxonConcept`.
-
-### tcs:relationshipType
-
-<table style="width:100%;">
-	<tbody>
-		<tr>
-			<td>Identifier</td>
-			<td>http://rs.tdwg.org/tcs/terms/relationshipType</td>
-		</tr>
-		<tr>
-			<td>Type</td>
-			<td>http://www.w3.org/1999/02/22-rdf-syntax-ns#Property</td>
-		</tr>
-		<tr>
-			<td>Label</td>
-			<td>Relationship type</td>
-		</tr>
-		<tr>
-			<td></td>
-			<td><b>required:</b> Yes — <b>repeatable:</b> No</td>
-		</tr>
-		<tr>
-			<td>Definition</td>
-			<td><p>The type of relationship.</p></td>
-		</tr>
-		<tr>
-			<td>Usage</td>
-			<td><p>This property is required; one MUST use a term from the <a href="taxon-relationship-type-vocabulary.md">Taxon Concept  Relationship Vocabulary</a>.</p></td>
-		</tr>
-		<tr>
-			<td>GitHub issue</td>
-			<td>https://github.com/tdwg/tcs2/issues/44</td>
-		</tr>
-	</tbody>
-</table>
-
-### tcs:subjectTaxonConcept
-
-<table style="width:100%;">
-	<tbody>
-		<tr>
-			<td>Identifier</td>
-			<td>http://rs.tdwg.org/tcs/terms/subjectTaxonConcept</td>
-		</tr>
-		<tr>
-			<td>Type</td>
-			<td>http://www.w3.org/1999/02/22-rdf-syntax-ns#Property</td>
-		</tr>
-		<tr>
-			<td>Label</td>
-			<td>Subject Taxon Concept</td>
-		</tr>
-		<tr>
-			<td></td>
-			<td><b>required:</b> Yes — <b>repeatable:</b> No</td>
-		</tr>
-		<tr>
-			<td>Definition</td>
-			<td><p>Taxon Concept that is the subject in the relationship statement.</p></td>
-		</tr>
-		<tr>
-			<td>Usage</td>
-			<td><p><code>subjectTaxonConcept</code> is a TCS Taxon Concept; a Taxon Relationship  statement can have only one <code>subjectTaxonConcept</code>.</p></td>
-		</tr>
-		<tr>
-			<td>GitHub issue</td>
-			<td>https://github.com/tdwg/tcs2/issues/45</td>
-		</tr>
-	</tbody>
-</table>
-
-
-**Comments**
-
-This is the Taxon Concept at the left-hand side of the relationship  statement.
-
-### tcs:objectTaxonConcept
-
-<table style="width:100%;">
-	<tbody>
-		<tr>
-			<td>Identifier</td>
-			<td>http://rs.tdwg.org/tcs/terms/objectTaxonConcept</td>
-		</tr>
-		<tr>
-			<td>Type</td>
-			<td>http://www.w3.org/1999/02/22-rdf-syntax-ns#Property</td>
-		</tr>
-		<tr>
-			<td>Label</td>
-			<td>Object Taxon Concept</td>
-		</tr>
-		<tr>
-			<td></td>
-			<td><b>required:</b> Yes — <b>repeatable:</b> No</td>
-		</tr>
-		<tr>
-			<td>Definition</td>
-			<td><p>Taxon Concept that is the object in the relationship statement.</p></td>
-		</tr>
-		<tr>
-			<td>Usage</td>
-			<td><p><code>objectTaxonConcept</code> is a TCS Taxon Concept; a Taxon Relationship  statement can have only one <code>objectTaxonConcept</code>.</p></td>
-		</tr>
-		<tr>
-			<td>GitHub issue</td>
-			<td>https://github.com/tdwg/tcs2/issues/46</td>
-		</tr>
-	</tbody>
-</table>
-
-
-**Comments**
-
-This is the Taxon Concept at the right-hand side of the relationship  statement.
 
 ## Taxon Name
 

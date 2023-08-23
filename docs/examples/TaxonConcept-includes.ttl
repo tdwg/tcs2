@@ -1,0 +1,31 @@
+@prefix tcs: <http://rs.tdwg.org/tcs/terms/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dwc: <http://rs.tdwg.org/dwc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+# Andropogon glomeratus sec. BONAP 2014 includes Andropogon tenuispatheus sec. Weakley 2006
+_:b1 tcs:includes _:b2 .
+
+[] a dwc:ResourceRelationship, rdf:Statement ;
+    rdf:subject _:b1 ;
+    rdf:predicate tcs:includes ;
+    rdf:object _:b2 ;
+    dcterms:source <https://doi.org/10.3233/SW-160220> .
+
+_:b1 a tcs:TaxonConcept ;
+        dcterms:title "Andropogon glomeratus sec. BONAP 2014" ;
+        tcs:accordingTo <http://bonap.net/napa#2014> ;
+        tcs:acceptedName <https://www.ipni.org/n/12850-2> .
+
+_:b2 a tcs:TaxonConcept ;
+        dcterms:title "Andropogon tenuispatheus sec. Weakley 2006" ;
+        tcs:accordingTo <http://www.herbarium.unc.edu/FloraArchives/WeakleyFlora_2006-Jan.pdf> ;
+        tcs:acceptedName <https://www.ipni.org/n/13093-2> .
+
+<https://www.ipni.org/n/12850-2> a tcs:TaxonName ;
+    tcs:taxonNameString "Andropogon glomeratus" ;
+    dwc:scientificNameAuthorship "Britton, Sterns & Poggenb." .
+
+<https://www.ipni.org/n/13093-2> a tcs:TaxonName ;
+    tcs:taxonNameString "Andropogon tenuispatheus" ;
+    dwc:scientificNameAuthorship "Nash" .

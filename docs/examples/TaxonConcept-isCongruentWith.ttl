@@ -1,0 +1,24 @@
+@prefix tcs: <http://rs.tdwg.org/tcs/terms/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dwc: <http://rs.tdwg.org/dwc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+# Andropogon capillipes sec. BONAP 2014 is congruent with Andropogon capillipes sec. Weakley 2006
+_:b1 tcs:isCongruentWith _:b2 .
+
+[] a dwc:ResourceRelationship, rdf:Statement ;
+    rdf:subject _:b1 ;
+    rdf:predicate tcs:isCongruentWith ;
+    rdf:object _:b2 ;
+    dcterms:source <https://doi.org/10.3233/SW-160220> .
+
+_:b1 a tcs:TaxonConcept ;
+    dcterms:title "Andropogon capillipes sec. BONAP 2014" ;
+    tcs:accordingTo <http://bonap.net/napa#2014> ;
+    tcs:acceptedName <https://www.ipni.org/n/12781-2> .
+
+_:b2 a tcs:TaxonConcept ;
+
+<https://www.ipni.org/n/12781-2> a tcs:TaxonName ;
+    tcs:taxonNameString "Andropogon capillipes" ;
+    dwc:scientificNameAuthorship "Nash" .

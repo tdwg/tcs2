@@ -5,14 +5,14 @@
 
 # Dicranum fuscescens sec. Koperski et al. (2000) is congruent with Dicranum fuscescens sec. Corley 
 # et al. (1981)
-[] a :TaxonRelationship ;
-    :relationshipAccordingTo <https://www.tropicos.org/reference/9022656> ;
-    :relationshipType <http://rs.tdwg.org/tcs-taxon-concept-relationship-type/values/isCongruentWith> ; 
-    :subjectTaxonConcept [ a :TaxonConcept ;
+[] a dwc:ResourceRelationship, rdf:Statement ;
+    dcterms:source <https://www.tropicos.org/reference/9022656> ;
+    rdf:predicate <http://rs.tdwg.org/tcs-taxon-concept-relationship-type/values/isCongruentWith> ; 
+    rdf:subject [ a :TaxonConcept ;
         dcterms:title "Dicranum fuscescens sec. Koperski et al. (2000)" ;
         :accordingTo <https://www.tropicos.org/reference/9022656> ;
         :acceptedName <https://www.tropicos.org/name/35122385> ] ;
-    :objectTaxonConcept [ a :TaxonConcept ;
+    rdf:object [ a :TaxonConcept ;
         dcterms:title "Dicranum fuscescens sec. Corley et al. (1981)" ;
         :accordingTo <https://www.tropicos.org/reference/9004554> ;
         :acceptedName <https://www.tropicos.org/name/35122385> ] .
