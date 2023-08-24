@@ -734,6 +734,9 @@ _:b1 a tcs:TaxonConcept ;
     tcs:taxonName <https://www.ipni.org/n/12781-2> .
 
 _:b2 a tcs:TaxonConcept ;
+    dcterms:title "Andropogon capillipes sec. Weakley 2006" ;
+    tcs:accordingTo <http://www.herbarium.unc.edu/FloraArchives/WeakleyFlora_2006-Jan.pdf> ;
+    tcs:taxonName <https://www.ipni.org/n/12781-2> .
 
 <https://www.ipni.org/n/12781-2> a tcs:TaxonName ;
     tcs:taxonNameString "Andropogon capillipes" ;
