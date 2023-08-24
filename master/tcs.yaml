@@ -27,7 +27,7 @@
     term is used in science (e.g. Franz & Peet 2009). On the one hand, things 
     that are not generally considered to be biological taxa, e.g. hybrids and 
     cultivars, can be casted as TCS Taxon Concepts. Also Operational Taxonomic 
-    Units (OTUs, cf. Sokal & Sneath 1963) can be exchanged as Taxon Concepts, 
+    Units (OTUs)[\[1\]](#ref-1) can be exchanged as Taxon Concepts, 
     if there is a reason to do so, e.g. if one wants to align them with other 
     Taxon Concepts later. On the other hand, entries from treatments that are 
     considered to cite concepts from other treatments can be formulated as 
