@@ -4,23 +4,17 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 
 # Andropogon glomeratus sec. BONAP 2014 includes Andropogon tenuispatheus sec. Weakley 2006
-_:b1 tcs:includes _:b2 .
-
 [] a dwc:ResourceRelationship, rdf:Statement ;
-    rdf:subject _:b1 ;
+    rdf:subject [ a tcs:TaxonConcept ;
+            dcterms:title "Andropogon glomeratus sec. BONAP 2014" ;
+            tcs:accordingTo <http://bonap.net/napa#2014> ;
+            tcs:taxonName <https://www.ipni.org/n/12850-2> ] ;
     rdf:predicate tcs:includes ;
-    rdf:object _:b2 ;
+    rdf:object [ a tcs:TaxonConcept ;
+            dcterms:title "Andropogon tenuispatheus sec. Weakley 2006" ;
+            tcs:accordingTo <http://www.herbarium.unc.edu/FloraArchives/WeakleyFlora_2006-Jan.pdf> ;
+            tcs:taxonName <https://www.ipni.org/n/13093-2> ] ;
     dcterms:source <https://doi.org/10.3233/SW-160220> .
-
-_:b1 a tcs:TaxonConcept ;
-        dcterms:title "Andropogon glomeratus sec. BONAP 2014" ;
-        tcs:accordingTo <http://bonap.net/napa#2014> ;
-        tcs:taxonName <https://www.ipni.org/n/12850-2> .
-
-_:b2 a tcs:TaxonConcept ;
-        dcterms:title "Andropogon tenuispatheus sec. Weakley 2006" ;
-        tcs:accordingTo <http://www.herbarium.unc.edu/FloraArchives/WeakleyFlora_2006-Jan.pdf> ;
-        tcs:taxonName <https://www.ipni.org/n/13093-2> .
 
 <https://www.ipni.org/n/12850-2> a tcs:TaxonName ;
     tcs:taxonNameString "Andropogon glomeratus" ;

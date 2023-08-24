@@ -760,23 +760,17 @@ This relationship can also be written as the formula **A &cong; B** or **A == B*
 
 ```turtle
 # Andropogon capillipes sec. BONAP 2014 is congruent with Andropogon capillipes sec. Weakley 2006
-_:b1 tcs:isCongruentWith _:b2 .
-
 [] a dwc:ResourceRelationship, rdf:Statement ;
-    rdf:subject _:b1 ;
+    rdf:subject [ a tcs:TaxonConcept ;
+            dcterms:title "Andropogon capillipes sec. BONAP 2014" ;
+            tcs:accordingTo <http://bonap.net/napa#2014> ;
+            tcs:taxonName <https://www.ipni.org/n/12781-2> ] ;
     rdf:predicate tcs:isCongruentWith ;
-    rdf:object _:b2 ;
+    rdf:object [ a tcs:TaxonConcept ;
+            dcterms:title "Andropogon capillipes sec. Weakley 2006" ;
+            tcs:accordingTo <http://www.herbarium.unc.edu/FloraArchives/WeakleyFlora_2006-Jan.pdf> ;
+            tcs:taxonName <https://www.ipni.org/n/12781-2> ] ;
     dcterms:source <https://doi.org/10.3233/SW-160220> .
-
-_:b1 a tcs:TaxonConcept ;
-    dcterms:title "Andropogon capillipes sec. BONAP 2014" ;
-    tcs:accordingTo <http://bonap.net/napa#2014> ;
-    tcs:taxonName <https://www.ipni.org/n/12781-2> .
-
-_:b2 a tcs:TaxonConcept ;
-    dcterms:title "Andropogon capillipes sec. Weakley 2006" ;
-    tcs:accordingTo <http://www.herbarium.unc.edu/FloraArchives/WeakleyFlora_2006-Jan.pdf> ;
-    tcs:taxonName <https://www.ipni.org/n/12781-2> .
 
 <https://www.ipni.org/n/12781-2> a tcs:TaxonName ;
     tcs:taxonNameString "Andropogon capillipes" ;
@@ -845,23 +839,17 @@ This relation type can also be written as the formula **A > B**.
 
 ```turtle
 # Andropogon glomeratus sec. BONAP 2014 includes Andropogon tenuispatheus sec. Weakley 2006
-_:b1 tcs:includes _:b2 .
-
 [] a dwc:ResourceRelationship, rdf:Statement ;
-    rdf:subject _:b1 ;
+    rdf:subject [ a tcs:TaxonConcept ;
+            dcterms:title "Andropogon glomeratus sec. BONAP 2014" ;
+            tcs:accordingTo <http://bonap.net/napa#2014> ;
+            tcs:taxonName <https://www.ipni.org/n/12850-2> ] ;
     rdf:predicate tcs:includes ;
-    rdf:object _:b2 ;
+    rdf:object [ a tcs:TaxonConcept ;
+            dcterms:title "Andropogon tenuispatheus sec. Weakley 2006" ;
+            tcs:accordingTo <http://www.herbarium.unc.edu/FloraArchives/WeakleyFlora_2006-Jan.pdf> ;
+            tcs:taxonName <https://www.ipni.org/n/13093-2> ] ;
     dcterms:source <https://doi.org/10.3233/SW-160220> .
-
-_:b1 a tcs:TaxonConcept ;
-        dcterms:title "Andropogon glomeratus sec. BONAP 2014" ;
-        tcs:accordingTo <http://bonap.net/napa#2014> ;
-        tcs:taxonName <https://www.ipni.org/n/12850-2> .
-
-_:b2 a tcs:TaxonConcept ;
-        dcterms:title "Andropogon tenuispatheus sec. Weakley 2006" ;
-        tcs:accordingTo <http://www.herbarium.unc.edu/FloraArchives/WeakleyFlora_2006-Jan.pdf> ;
-        tcs:taxonName <https://www.ipni.org/n/13093-2> .
 
 <https://www.ipni.org/n/12850-2> a tcs:TaxonName ;
     tcs:taxonNameString "Andropogon glomeratus" ;
@@ -946,23 +934,17 @@ This relation type can also be written as the formula **A < B**.
 
 ```turtle
 # Andropogon hirsutior sec. BONAP 2014 is included in Andropogon glomeratus sec. Weakley 2006
-_:b1 tcs:isIncludedIn _:b2 .
-
 [] a dwc:ResourceRelationship, rdf:Statement ;
+    rdf:subject [ a tcs:TaxonConcept ;
+            dcterms:title "Andropogon hirsutior sec. BONAP 2014" ;
+            tcs:accordingTo <http://bonap.net/napa#2014> ;
+            tcs:taxonName <https://www.ipni.org/n/60458078-2> ] ;
     rdf:predicate tcs:isIncludedIn ;
-    rdf:subject _:b1 ;
-    rdf:object _:b2 ;
+    rdf:object [ a tcs:TaxonConcept ;
+            dcterms:title "Andropogon glomeratus sec. Weakley 2006" ;
+            tcs:accordingTo <http://www.herbarium.unc.edu/FloraArchives/WeakleyFlora_2006-Jan.pdf> ;
+            tcs:taxonName <https://www.ipni.org/n/12850-2> ] ;
     dcterms:source <https://doi.org/10.3233/SW-160220> .
-
-_:b1 a tcs:TaxonConcept ;
-    dcterms:title "Andropogon hirsutior sec. BONAP 2014" ;
-    tcs:accordingTo <http://bonap.net/napa#2014> ;
-    tcs:taxonName <https://www.ipni.org/n/60458078-2> .
-
-_:b2 a tcs:TaxonConcept ;
-    dcterms:title "Andropogon glomeratus sec. Weakley 2006" ;
-    tcs:accordingTo <http://www.herbarium.unc.edu/FloraArchives/WeakleyFlora_2006-Jan.pdf> ;
-    tcs:taxonName <https://www.ipni.org/n/12850-2> .
 
 <https://www.ipni.org/n/60458078-2> a tcs:TaxonName ;
     tcs:taxonNameString "Andropogon hirsutior" ;
@@ -1035,23 +1017,17 @@ This relationship can also be written as the formula **A >< B**.
 
 ```turtle
 # Andropogon glomeratus sec. BONAP 2014 partially overlaps Andropogon glomeratus sec. Weakley 2006
-_:b1 tcs:partiallyOverlaps _:b2 .
-
 [] a dwc:ResourceRelationship, rdf:Statement ;
-    rdf:subject _:b1 ;
+    rdf:subject [ a tcs:TaxonConcept ;
+            dcterms:title "Andropogon glomeratus sec. BONAP 2014" ;
+            tcs:accordingTo <http://bonap.net/napa#2014> ;
+            tcs:taxonName <https://www.ipni.org/n/12850-2> ] ;
     rdf:predicate tcs:partiallyOverlaps ;
-    rdf:object _:b2 ;
+    rdf:object [ a tcs:TaxonConcept ;
+            dcterms:title "Andropogon glomeratus sec. Weakley 2006" ;
+            tcs:accordingTo <http://www.herbarium.unc.edu/FloraArchives/WeakleyFlora_2006-Jan.pdf> ;
+            tcs:taxonName <https://www.ipni.org/n/12850-2> ] ;
     dcterms:source <https://doi.org/10.3233/SW-160220> .
-
-_:b1 a tcs:TaxonConcept ;
-    dcterms:title "Andropogon glomeratus sec. BONAP 2014" ;
-    tcs:accordingTo <http://bonap.net/napa#2014> ;
-    tcs:taxonName <https://www.ipni.org/n/12850-2 .
-
-_:b2 a tcs:TaxonConcept ;
-    dcterms:title "Andropogon glomeratus sec. Weakley 2006" ;
-    tcs:accordingTo <http://www.herbarium.unc.edu/FloraArchives/WeakleyFlora_2006-Jan.pdf> ;
-    tcs:taxonName <https://www.ipni.org/n/12850-2> .
 
 <https://www.ipni.org/n/12850-2> a tcs:TaxonName ;
     tcs:taxonNameString "Andropogon glomeratus" ;
@@ -1106,23 +1082,17 @@ This relationship can also be written as the formula **A | B**.
 
 ```turtle
 # Andropogon glaucopsis sec. BONAP 2014 is disjoint from Andropogon vitginicus sec. Weakley 2006
-_:b1 tcs:isDisjointFrom _:b2
-
 [] a dwc:ResourceRelationship, rdf:Statement ;
-    rdf:subject _:b1 ;
-    rdf:predicate <http://rs.tdwg.org/tcs-taxon-relationship-type/values/isDisjointFrom> ;
-    rdf:object _:b2 ;
+    rdf:subject [ a tcs:TaxonConcept ;
+            dcterms:title "Andropogon glaucopsis sec. BONAP 2014" ;
+            tcs:accordingTo <http://bonap.net/napa#2014> ;
+            tcs:taxonName <https://www.ipni.org/n/387942-1> ] ;
+    rdf:predicate tcs:isDisjointFrom ;
+    rdf:object [ a tcs:TaxonConcept ;
+            dcterms:title "Andropogon vitginicus sec. Weakley 2006" ;
+            tcs:accordingTo <http://www.herbarium.unc.edu/FloraArchives/WeakleyFlora_2006-Jan.pdf> ;
+            tcs:taxonName <https://www.ipni.org/n/388740-1> ] ;
     dcterms:source <https://doi.org/10.3233/SW-160220> .
-
-_:b1 a tcs:TaxonConcept ;
-        dcterms:title "Andropogon glaucopsis sec. BONAP 2014" ;
-        tcs:accordingTo <http://bonap.net/napa#2014> ;
-        tcs:taxonName <https://www.ipni.org/n/387942-1> .
-
-_:b2 a tcs:TaxonConcept ;
-        dcterms:title "Andropogon vitginicus sec. Weakley 2006" ;
-        tcs:accordingTo <http://www.herbarium.unc.edu/FloraArchives/WeakleyFlora_2006-Jan.pdf> ;
-        tcs:taxonName <https://www.ipni.org/n/388740-1> .
 
 <https://www.ipni.org/n/387942-1> a tcs:TaxonName ;
     tcs:taxonNameString "Andropogon glaucopsis" ;
