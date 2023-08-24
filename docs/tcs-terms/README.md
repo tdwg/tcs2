@@ -1089,7 +1089,7 @@ This relationship can also be written as the formula **A | B**.
             tcs:taxonName <https://www.ipni.org/n/387942-1> ] ;
     rdf:predicate tcs:isDisjointFrom ;
     rdf:object [ a tcs:TaxonConcept ;
-            dcterms:title "Andropogon vitginicus sec. Weakley 2006" ;
+            dcterms:title "Andropogon virginicus sec. Weakley 2006" ;
             tcs:accordingTo <http://www.herbarium.unc.edu/FloraArchives/WeakleyFlora_2006-Jan.pdf> ;
             tcs:taxonName <https://www.ipni.org/n/388740-1> ] ;
     dcterms:source <https://doi.org/10.3233/SW-160220> .
