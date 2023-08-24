@@ -19,7 +19,7 @@
     Dublin Core to provide this taxon concept label. Because of the context 
     provided by the source, taxon concepts are in principle also alignable to 
     other Taxon Concepts using TCS concept mapping relationship statements. The 
-    concept mapping statements in TCS are `isCongruentWith`, `includes`, 
+    concept mapping properties in TCS are `isCongruentWith`, `includes`, 
     `isIncludedIn`, `partiallyOverlaps` and `isDisjointFrom`.
 
 
