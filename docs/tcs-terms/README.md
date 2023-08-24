@@ -63,7 +63,7 @@ A taxonomic position is an opinion about the definition of a taxonomic  group. A
 
 The TCS Taxon Concept is a data object and is applied more broadly than the  term is used in science (e.g. Franz & Peet 2009). On the one hand, things  that are not generally considered to be biological taxa, e.g. hybrids and  cultivars, can be casted as TCS Taxon Concepts. Also Operational Taxonomic  Units (OTUs, cf. Sokal & Sneath 1963) can be exchanged as Taxon Concepts,  if there is a reason to do so, e.g. if one wants to align them with other  Taxon Concepts later. On the other hand, entries from treatments that are  considered to cite concepts from other treatments can be formulated as  Taxon Concepts. Every taxon concept from a treatment that is likely to be  referenced as the source of taxonomic context, for example a field guide  for a determination of a specimen or a national census for an ecological  study, can – and it would be very nice if they would – be stated as a Taxon  Concept, so they can be aligned with other Taxon Concepts that may provide  more or different taxonomic context.
 
-By contrast, assertions of synonymy or misapplication and entries in lists  of nomenclatural types are not Taxon Concepts.
+By contrast, entries in the nomenclature section of treatments and in lists  of nomenclatural types are not Taxon Concepts.
 
 
 **Examples**
