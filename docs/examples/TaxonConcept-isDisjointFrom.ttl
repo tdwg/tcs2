@@ -3,7 +3,7 @@
 @prefix dwc: <http://rs.tdwg.org/dwc/terms/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 
-# Andropogon glaucopsis sec. BONAP 2014 is disjoint from Andropogon vitginicus sec. Weakley 2006
+# Andropogon glaucopsis sec. BONAP 2014 is disjoint from Andropogon virginicus sec. Weakley 2006
 [] a dwc:ResourceRelationship, rdf:Statement ;
     rdf:subject [ a tcs:TaxonConcept ;
             dcterms:title "Andropogon glaucopsis sec. BONAP 2014" ;

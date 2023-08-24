@@ -1057,7 +1057,7 @@ This relationship can also be written as the formula **A | B**.
 
 
 ```turtle
-# Andropogon glaucopsis sec. BONAP 2014 is disjoint from Andropogon vitginicus sec. Weakley 2006
+# Andropogon glaucopsis sec. BONAP 2014 is disjoint from Andropogon virginicus sec. Weakley 2006
 [] a dwc:ResourceRelationship, rdf:Statement ;
     rdf:subject [ a tcs:TaxonConcept ;
             dcterms:title "Andropogon glaucopsis sec. BONAP 2014" ;
