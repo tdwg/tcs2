@@ -15,7 +15,3 @@
             tcs:accordingTo <http://www.herbarium.unc.edu/FloraArchives/WeakleyFlora_2006-Jan.pdf> ;
             tcs:taxonName <https://www.ipni.org/n/12850-2> ] ;
     dcterms:source <https://doi.org/10.3233/SW-160220> .
-
-<https://www.ipni.org/n/12850-2> a tcs:TaxonName ;
-    tcs:taxonNameString "Andropogon glomeratus" ;
-    dwc:scientificNameAuthorship "Britton, Sterns & Poggenb." .

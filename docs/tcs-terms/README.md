@@ -771,10 +771,6 @@ This relationship can also be written as the formula **A &cong; B** or **A == B*
             tcs:accordingTo <http://www.herbarium.unc.edu/FloraArchives/WeakleyFlora_2006-Jan.pdf> ;
             tcs:taxonName <https://www.ipni.org/n/12781-2> ] ;
     dcterms:source <https://doi.org/10.3233/SW-160220> .
-
-<https://www.ipni.org/n/12781-2> a tcs:TaxonName ;
-    tcs:taxonNameString "Andropogon capillipes" ;
-    dwc:scientificNameAuthorship "Nash" .
 ```
 
 [&lsqb;TaxonConcept-isCongruentWith-2.ttl&rsqb;](examples/TaxonConcept-isCongruentWith-2.ttl)
@@ -850,14 +846,6 @@ This relation type can also be written as the formula **A > B**.
             tcs:accordingTo <http://www.herbarium.unc.edu/FloraArchives/WeakleyFlora_2006-Jan.pdf> ;
             tcs:taxonName <https://www.ipni.org/n/13093-2> ] ;
     dcterms:source <https://doi.org/10.3233/SW-160220> .
-
-<https://www.ipni.org/n/12850-2> a tcs:TaxonName ;
-    tcs:taxonNameString "Andropogon glomeratus" ;
-    dwc:scientificNameAuthorship "Britton, Sterns & Poggenb." .
-
-<https://www.ipni.org/n/13093-2> a tcs:TaxonName ;
-    tcs:taxonNameString "Andropogon tenuispatheus" ;
-    dwc:scientificNameAuthorship "Nash" .
 ```
 
 [&lsqb;TaxonConcept-includes-2.ttl&rsqb;](examples/TaxonConcept-includes-2.ttl)
@@ -945,14 +933,6 @@ This relation type can also be written as the formula **A < B**.
             tcs:accordingTo <http://www.herbarium.unc.edu/FloraArchives/WeakleyFlora_2006-Jan.pdf> ;
             tcs:taxonName <https://www.ipni.org/n/12850-2> ] ;
     dcterms:source <https://doi.org/10.3233/SW-160220> .
-
-<https://www.ipni.org/n/60458078-2> a tcs:TaxonName ;
-    tcs:taxonNameString "Andropogon hirsutior" ;
-    dwc:scientificNameAuthorship "(Hack.) Weakley & LeBlond" .
-
-<https://www.ipni.org/n/12850-2> a tcs:TaxonName ;
-    tcs:taxonNameString "Andropogon glomeratus" ;
-    dwc:scientificNameAuthorship "Britton, Sterns & Poggenb." .
 ```
 
 [&lsqb;TaxonConcept-isIncludedIn-2.ttl&rsqb;](examples/TaxonConcept-isIncludedIn-2.ttl)
@@ -1028,10 +1008,6 @@ This relationship can also be written as the formula **A >< B**.
             tcs:accordingTo <http://www.herbarium.unc.edu/FloraArchives/WeakleyFlora_2006-Jan.pdf> ;
             tcs:taxonName <https://www.ipni.org/n/12850-2> ] ;
     dcterms:source <https://doi.org/10.3233/SW-160220> .
-
-<https://www.ipni.org/n/12850-2> a tcs:TaxonName ;
-    tcs:taxonNameString "Andropogon glomeratus" ;
-    dwc:scientificNameAuthorship "Britton, Sterns & Poggenb." .
 ```
 
 [&lsqb;TaxonConcept-partiallyOverlaps-2.ttl&rsqb;](examples/TaxonConcept-partiallyOverlaps-2.ttl)
@@ -1093,14 +1069,6 @@ This relationship can also be written as the formula **A | B**.
             tcs:accordingTo <http://www.herbarium.unc.edu/FloraArchives/WeakleyFlora_2006-Jan.pdf> ;
             tcs:taxonName <https://www.ipni.org/n/388740-1> ] ;
     dcterms:source <https://doi.org/10.3233/SW-160220> .
-
-<https://www.ipni.org/n/387942-1> a tcs:TaxonName ;
-    tcs:taxonNameString "Andropogon glaucopsis" ;
-    dwc:scientificNameAuthorship "Steud." .
-
-<https://www.ipni.org/n/388740-1> a tcs:TaxonName ;
-    tcs:taxonNameString "Andropogon virginicus" ;
-    dwc:scientificNameAuthorship "L." .
 ```
 
 [&lsqb;TaxonConcept-isDisjointFrom.ttl&rsqb;](examples/TaxonConcept-isDisjointFrom.ttl)
