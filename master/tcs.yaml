@@ -7,7 +7,7 @@
   label: Taxon Concept
   definition: >-
     An identifiable taxonomic position that can be aligned to other such 
-    positions through concept mapping.
+    positions through TCS concept mapping relationships.
   usage: The `taxonName` and `accordingTo` properties are required.
   notes: >-
     A taxonomic position is an opinion about the definition of a taxonomic 
@@ -18,7 +18,9 @@
     to') or 'sensu' (meaning the same). The term `title` has been borrowed from 
     Dublin Core to provide this taxon concept label. Because of the context 
     provided by the source, taxon concepts are in principle also alignable to 
-    other Taxon Concepts using topological relationship statements.
+    other Taxon Concepts using TCS concept mapping relationship statements. The 
+    concept mapping statements in TCS are `isCongruentWith`, `includes`, 
+    `isIncludedIn`, `partiallyOverlaps` and `isDisjointFrom`.
 
 
     The TCS Taxon Concept is a data object and is applied more broadly than the 
