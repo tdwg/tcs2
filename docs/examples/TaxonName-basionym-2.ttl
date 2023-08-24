@@ -1,16 +1,16 @@
-@prefix : <http://rs.tdwg.org/tcs/terms/> .
+@prefix tcs: <http://rs.tdwg.org/tcs/terms/> .
 @prefix dwc: <http://rs.tdwg.org/dwc/terms/> .
 
-[] a :TaxonName ;
-    :taxonNameString "Osphranter rufus" ;
+[] a tcs:TaxonName ;
+    tcs:taxonNameString "Osphranter rufus" ;
     dwc:scientificNameAuthorship "(Desmaret, 1882)" ;
-    :basionym _:b1 .
+    tcs:basionym _:b1 .
 
-[] a :TaxonName ;
-    :taxonNameString "Macropus rufus" ;
+[] a tcs:TaxonName ;
+    tcs:taxonNameString "Macropus rufus" ;
     dwc:scientificNameAuthorship "(Desmaret, 1882)" ;
-    :basionym: _:b1 .
+    tcs:basionym: _:b1 .
 
-_:b1 a :TaxonName ;
-    :taxonNameString "Kangurus rufus" ;
+_:b1 a tcs:TaxonName ;
+    tcs:taxonNameString "Kangurus rufus" ;
     dwc:scientificNameAuthorship "Desmaret, 1882" .

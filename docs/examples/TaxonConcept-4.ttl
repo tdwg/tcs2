@@ -1,15 +1,15 @@
-@prefix : <http://rs.tdwg.org/tcs/terms/> .
+@prefix tcs: <http://rs.tdwg.org/tcs/terms/> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix dwc: <http://rs.tdwg.org/dwc/terms/> .
 @prefix bibo: <http://purl.org/ontology/bibo/> .
 
-<https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:105644-1> a :TaxonConcept ;
+<https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:105644-1> a tcs:TaxonConcept ;
     dcterms:title "Begonia salaziensis sec. POWO (2022)" ;
-    :accordingTo <urn:lsid:ipni.org:publications:17755-2> ;
-    :taxonName <https://www.ipni.org/n/105644-1> .
+    tcs:accordingTo <urn:lsid:ipni.org:publications:17755-2> ;
+    tcs:taxonName <https://www.ipni.org/n/105644-1> .
 
-<https://www.ipni.org/n/105644-1> a :TaxonName ;
-    :taxonNameString "Begonia salaziensis" ; 
+<https://www.ipni.org/n/105644-1> a tcs:TaxonName ;
+    tcs:taxonNameString "Begonia salaziensis" ; 
     dwc:scientificNameAuthorship "Warb." ;
     dwc:namePublishedIn "Nat. Pflanzenfam. [Engler & Prantl] iii. 6 a. (1894) 139." .
 

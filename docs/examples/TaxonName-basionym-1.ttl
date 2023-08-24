@@ -1,16 +1,16 @@
-@prefix : <http://rs.tdwg.org/tcs/terms/> .
+@prefix tcs: <http://rs.tdwg.org/tcs/terms/> .
 @prefix dwc: <http://rs.tdwg.org/dwc/terms/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 
-<https://id.biodiversity.org.au/name/apni/166271> a :TaxonName ;
+<https://id.biodiversity.org.au/name/apni/166271> a tcs:TaxonName ;
     rdf:seeAlso <https://www.ipni.org/n/17571690-1> ;
-    :taxonNameString "Doodia australis" ;
+    tcs:taxonNameString "Doodia australis" ;
     dwc:scientificNameAuthorship "(Parris) Parris" ;
     dwc:namePublishedIn "Fl. Australia 48: 710 (1998)" ;
-    :basionym <https://id.biodiversity.org.au/name/apni/117170> .
+    tcs:basionym <https://id.biodiversity.org.au/name/apni/117170> .
 
-<https://id.biodiversity.org.au/name/apni/117170> a :TaxonName ;
+<https://id.biodiversity.org.au/name/apni/117170> a tcs:TaxonName ;
     rdf:seeAlso <https://www.ipni.org/n/17567870-1> ;
-    :taxonNameString "Doodia media subsp. australis" ;
+    tcs:taxonNameString "Doodia media subsp. australis" ;
     dwc:scientificNameAuthorship "Parris" ;
     dwc:namePublishedIn "New Zealand J. Bot. 10(4): 593 (1972)" .

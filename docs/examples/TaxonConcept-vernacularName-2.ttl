@@ -1,19 +1,19 @@
-@prefix : <http://rs.tdwg.org/tcs/terms/> .
+@prefix tcs: <http://rs.tdwg.org/tcs/terms/> .
 @prefix bibo: <http://purl.org/ontology/bibo/> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix dwc: <http://rs.tdwg.org/dwc/terms/> .
 @prefix gbif: <http://rs.gbif.org/terms/1.0/> .
 
-[] a :TaxonConcept ;
+[] a tcs:TaxonConcept ;
     dcterms:title "Quercus robur sec. Duistermaat (2020)" ;
-    :accordingTo <urn:isbn:978-90-01-58956-1> ;
-    :taxonName <https://www.ipni.org/n/304293-2> ;
-    :vernacularName [ a gbif:VernacularName ;
+    tcs:accordingTo <urn:isbn:978-90-01-58956-1> ;
+    tcs:taxonName <https://www.ipni.org/n/304293-2> ;
+    tcs:vernacularName [ a gbif:VernacularName ;
             dwc:vernacularName "Zomereik" ;
             dcterms:language "nl" ] .
 
-<https://www.ipni.org/n/304293-2> a :TaxonName ;
-    :taxonNameString "Quercus robur" .
+<https://www.ipni.org/n/304293-2> a tcs:TaxonName ;
+    tcs:taxonNameString "Quercus robur" .
 
 <urn:isbn:978-90-01-58956-1> a bibo:Book ;
     dcterms:bibliographicCitation """Duistermaat, H. (2020). Heukels 

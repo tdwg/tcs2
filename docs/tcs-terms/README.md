@@ -70,13 +70,13 @@ By contrast, assertions of synonymy or misapplication and entries in lists  of n
 
 
 ```turtle
-[] a :TaxonConcept ;
+[] a tcs:TaxonConcept ;
     dcterms:title "Dicranoloma blumei sec. Klazenga (1999)" ;
-    :accordingTo <https://www.tropicos.org/reference/9020903> 
-    :taxonName <https://www.tropicos.org/name/35121475> .
+    tcs:accordingTo <https://www.tropicos.org/reference/9020903> 
+    tcs:taxonName <https://www.tropicos.org/name/35121475> .
 
 <https://www.tropicos.org/name/35121475> a ;
-    :taxonNameString "Dicranoloma blumei" ;
+    tcs:taxonNameString "Dicranoloma blumei" ;
     dwc:scientificNameAuthorship "(Nees) Renauld" .
 
 <https://www.tropicos.org/reference/9020903> a bibo:AcademicArticle ;
@@ -89,13 +89,13 @@ By contrast, assertions of synonymy or misapplication and entries in lists  of n
 
 
 ```turtle
-[] a :TaxonConcept ;
+[] a tcs:TaxonConcept ;
     dcterms:title "Orthetrum caledonicum sec. Theischinger and Hawking (2010)" ;
-    :accordingTo <urn:isbn:978-0-643-09073-6> ;
-    :taxonName [ a :TaxonName ; 
-            :taxonNameString "Orthetrum caledonicum" ] ;
-    :vernacularName [ a :TaxonName ;
-            :taxonNameString "Blue Skimmer" ] .
+    tcs:accordingTo <urn:isbn:978-0-643-09073-6> ;
+    tcs:taxonName [ a tcs:TaxonName ; 
+            tcs:taxonNameString "Orthetrum caledonicum" ] ;
+    tcs:vernacularName [ a tcs:TaxonName ;
+            tcs:taxonNameString "Blue Skimmer" ] .
 
 <urn:isbn:978-0-643-09073-6> a bibo:Book ;
     dcterms:bibliographicCitation """Theischinger, G.; Hawking, J. (2010). 
@@ -107,13 +107,13 @@ By contrast, assertions of synonymy or misapplication and entries in lists  of n
 
 
 ```turtle
-[] a :TaxonConcept ;
+[] a tcs:TaxonConcept ;
     dcterms:title "Calymperes moluccense sec. Yong et al. (2013)" ;
-    :accordingTo <urn:isbn:978-967-5221-99-6> ;
-    :taxonName <https://www.tropicos.org/name/35153806> .
+    tcs:accordingTo <urn:isbn:978-967-5221-99-6> ;
+    tcs:taxonName <https://www.tropicos.org/name/35153806> .
 
-<https://www.tropicos.org/name/35153806> a :TaxonName ;
-    :taxonNameString "Calymperes moluccense" ;
+<https://www.tropicos.org/name/35153806> a tcs:TaxonName ;
+    tcs:taxonNameString "Calymperes moluccense" ;
     dwc:scientificNameAuthorship "Schwägr." .
 
 <urn:isbn:978-967-5221-99-6> a bibo:Book ;
@@ -126,13 +126,13 @@ By contrast, assertions of synonymy or misapplication and entries in lists  of n
 
 
 ```turtle
-<https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:105644-1> a :TaxonConcept ;
+<https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:105644-1> a tcs:TaxonConcept ;
     dcterms:title "Begonia salaziensis sec. POWO (2022)" ;
-    :accordingTo <urn:lsid:ipni.org:publications:17755-2> ;
-    :taxonName <https://www.ipni.org/n/105644-1> .
+    tcs:accordingTo <urn:lsid:ipni.org:publications:17755-2> ;
+    tcs:taxonName <https://www.ipni.org/n/105644-1> .
 
-<https://www.ipni.org/n/105644-1> a :TaxonName ;
-    :taxonNameString "Begonia salaziensis" ; 
+<https://www.ipni.org/n/105644-1> a tcs:TaxonName ;
+    tcs:taxonNameString "Begonia salaziensis" ; 
     dwc:scientificNameAuthorship "Warb." ;
     dwc:namePublishedIn "Nat. Pflanzenfam. [Engler & Prantl] iii. 6 a. (1894) 139." .
 
@@ -145,11 +145,11 @@ By contrast, assertions of synonymy or misapplication and entries in lists  of n
 
 
 ```turtle
-<https://www.catalogueoflife.org/data/taxon/KF8T#v2022-11-14> a :TaxonConcept ;
+<https://www.catalogueoflife.org/data/taxon/KF8T#v2022-11-14> a tcs:TaxonConcept ;
     dcterms:title "Balaenoptera musculus sec. Catalogue of Life (v2022-11-14)" ;
-    :accordingTo <https://www.catalogueoflife.org#v2022-11-14> ;
-    :taxonName [ a :TaxonName ;
-            :taxonNameString "Balaenoptera musculus" ;
+    tcs:accordingTo <https://www.catalogueoflife.org#v2022-11-14> ;
+    tcs:taxonName [ a tcs:TaxonName ;
+            tcs:taxonNameString "Balaenoptera musculus" ;
             dwc:scientificNameAuthorship "(Linnaeus, 1758)" ] .
 
 <https://www.catalogueoflife.org#v2022-11-14> a bibo:Website ;
@@ -366,50 +366,50 @@ Synonyms are names and synonymy is between names but, if the names have  differe
 
 
 ```turtle
-[]  a :TaxonConcept ;
+[]  a tcs:TaxonConcept ;
     dcterms:title "Dicranoloma blumei sec. Klazenga (1999)" ;
-    :accordingTo <https://www.tropicos.org/reference/9020903> ;
-    :taxonName <https://www.tropicos.org/name/35121475> ;
-    :synonym <https://www.tropicos.org/name/35121973> , 
+    tcs:accordingTo <https://www.tropicos.org/reference/9020903> ;
+    tcs:taxonName <https://www.tropicos.org/name/35121475> ;
+    tcs:synonym <https://www.tropicos.org/name/35121973> , 
             <https://www.tropicos.org/name/35121477> ,
             <https://www.tropicos.org/name/35121484> ,
             <https://www.tropicos.org/name/35188177> .
 
-<https://www.tropicos.org/name/35121475> a :TaxonName ;
-    :taxonNameString "Dicranoloma blumei" ;
+<https://www.tropicos.org/name/35121475> a tcs:TaxonName ;
+    tcs:taxonNameString "Dicranoloma blumei" ;
     dwc:scientificNameAuthorship "(Nees) Renauld" ;
     dwc:namePublishedIn "Rev. Bryol. 28(4): 69 (1901)" ;
-    :basionym <https://www.tropicos.org/name/35121972> .
+    tcs:basionym <https://www.tropicos.org/name/35121972> .
 
-<https://www.tropicos.org/name/35121972> a :TaxonName ;
-    :taxonNameString "Dicranum blumei" ;
+<https://www.tropicos.org/name/35121972> a tcs:TaxonName ;
+    tcs:taxonNameString "Dicranum blumei" ;
     dwc:scientificNameAuthorship "Nees" ; 
     dwc:namePublishedIn """Nova Acta Phys.-Med. Acad. Caes. Leop.-Carol. Nat. 
             Cur. 11(1): 131 (1823)""" .
 
-<https://www.tropicos.org/name/35154856> a :TaxonName ;
-    :taxonNameString "Leucoloma blumei" ;
+<https://www.tropicos.org/name/35154856> a tcs:TaxonName ;
+    tcs:taxonNameString "Leucoloma blumei" ;
     dwc:scientificNameAuthorship "(Nees) Broth." ; 
     dwc:namePublishedIn "Nat. Pflanzenfam. I(3): 322 (1901)" .
-    :basionym <https://www.tropicos.org/name/35121972> .
+    tcs:basionym <https://www.tropicos.org/name/35121972> .
 
-<https://www.tropicos.org/name/35121973> a :TaxonName ;
-    :taxonNameString "Dicranum blumei var. laxifolium" ;
+<https://www.tropicos.org/name/35121973> a tcs:TaxonName ;
+    tcs:taxonNameString "Dicranum blumei var. laxifolium" ;
     dwc:scientificNameAuthorship "Broth. & Geh." ;
     dwc:namePublishedIn "Biblioth. Bot. 44: 4 (1898)" 
 
-<https://www.tropicos.org/name/35121477> a :TaxonName ;
-    :taxonNameString "Dicranoloma blumei var. papillisetum" ;
+<https://www.tropicos.org/name/35121477> a tcs:TaxonName ;
+    tcs:taxonNameString "Dicranoloma blumei var. papillisetum" ;
     dwc:scientificNameAuthorship "M. Fleisch." ;
     dwc:namePublishedIn "Nova Guinea 12(2): 112 (1914)" .
 
-<https://www.tropicos.org/name/35188177> a :TaxonName ;
-    :taxonNameString "Dicranoloma blumei f. subintegrum" ;
+<https://www.tropicos.org/name/35188177> a tcs:TaxonName ;
+    tcs:taxonNameString "Dicranoloma blumei f. subintegrum" ;
     dwc:scientificNameAuthorship "Dixon" ;
     dwc:namePublishedIn "J. Bot. 80: 4 (1942)" .
 
-<https://www.tropicos.org/name/35121484> a :TaxonName ;
-    :taxonNameString "Dicranoloma braunfelsioides" ;
+<https://www.tropicos.org/name/35121484> a tcs:TaxonName ;
+    tcs:taxonNameString "Dicranoloma braunfelsioides" ;
     dwc:scientificNameAuthorship "Herzog" ;
     dwc:namePublishedIn "Hedwigia 61: 288 (1919)" . 
 
@@ -434,19 +434,19 @@ Synonyms are names and synonymy is between names but, if the names have  differe
 
 
 ```turtle
-[] a :TaxonConcept ;
+[] a tcs:TaxonConcept ;
     dcterms:title "Hebe imbricata sec. Bayly & Kellow (2006)" ;
-    :accordingTo <urn:isbn:978-0-909010-12-6> ;
-    :taxonName <https://www.ipni.org/n/989261-1> ;
-    :synonym <https://www.ipni.org/n/812507-1> .
+    tcs:accordingTo <urn:isbn:978-0-909010-12-6> ;
+    tcs:taxonName <https://www.ipni.org/n/989261-1> ;
+    tcs:synonym <https://www.ipni.org/n/812507-1> .
 
-<https://www.ipni.org/n/989261-1> a :TaxonName ;
-    :taxonNameString "Hebe imbricata" ;
+<https://www.ipni.org/n/989261-1> a tcs:TaxonName ;
+    tcs:taxonNameString "Hebe imbricata" ;
     dwc:scientificNameAuthorship "Cockayne & Allen" ;
     dwc:namePublishedIn "Trans. & Proc. New Zealand Inst. lvii. 42 (1927) (1927)" .
 
-<https://www.ipni.org/n/812507-1> a :TaxonName ;
-    :taxonNameString "Veronica poppelwellii" ;
+<https://www.ipni.org/n/812507-1> a tcs:TaxonName ;
+    tcs:taxonNameString "Veronica poppelwellii" ;
     dwc:scientificNameAuthorship "Cockayne" ; 
     dwc:namePublishedIn "Trans. & Proc. New Zealand Inst. 1915, xlviii. 200 (1916)" .
 
@@ -456,6 +456,46 @@ Synonyms are names and synonymy is between names but, if the names have  differe
 ```
 
 [&lsqb;TaxonConcept-synonym-2.ttl&rsqb;](examples/TaxonConcept-synonym-2.ttl)
+
+
+```turtle
+<https://www.catalogueoflife.org/data/taxon/3YVTF> a tcs:TaxonConcept ;
+    dcterms:title "Megalorhipida leucodactylus sec. Gielis & Hobern 2020-07-16" ;
+    tcs:accordingTo <https://doi.org/10.48580/dfry-3gd#1.1.23.5> ;
+    tcs:taxonName [ a tcs:TaxonName ;
+            tcs:taxonNameString "Megalorhipida leucodactylus" ;
+            dwc:scientificName "Megalorhipida leucodactylus (Fabricius, 1794)" ;
+            tcs:basionym <https://zoobank.org/NomenclaturalActs/39b2f236-3914-4962-9dcc-f594671654bd> ] ;
+    tcs:synonym [ a tcs:TaxonName ;
+            dwc:scientificName "Aciptilia hawaiiensis Butler, 1881" ] , 
+        [ a tcs:TaxonName ;
+            dwc:scientificName "Megalorhipida palaestinensis Amsel, 1935" ] ,
+        [ a tcs:TaxonName ;
+            dwc:scientificName "Pterophorus congrualis Walker, 1864" ] ,
+        [ a tcs:TaxonName ;
+            dwc:scientificName "Pterophorus defectalis Walker, 1864" ] ,
+        [ a tcs:TaxonName ;
+            dwc:scientificName "Trichoptilus adelphodes Meyrick, 1887" ] ,
+        [ a tcs:TaxonName ;
+            dwc:scientificName "Trichoptilus centetes Meyrick, 1886" ] ,
+        [ a tcs:TaxonName ;
+            dwc:scientificName "Trichoptilus compsochares Meyrick, 1886" ] ,
+        [ a tcs:TaxonName ;
+            dwc:scientificName "Trichoptilus derelictus Meyrick, 1926" ] ,
+        [ a tcs:TaxonName ;
+            dwc:scientificName "Trichoptilus ochrodactylus Fish, 1881" ] ,
+        [ a tcs:TaxonName ;
+            dwc:scientificName "Trichoptilus ralumensis Pagenstecher, 1900" ] ,
+        [ a tcs:TaxonName ;
+            dwc:scientificName "Pterophorus oxydactylus Walker, 1864" ] ;
+    tcs:taxonomicRank <http://rs.gbif.org/vocabulary/gbif/rank/species> ;
+    tcs:parent <https://www.catalogueoflife.org/data/taxon/62ZBY> .
+
+<https://zoobank.org/NomenclaturalActs/39b2f236-3914-4962-9dcc-f594671654bd> a tcs:TaxonName ;
+    dwc:scientificName "Pterophorus leucodactylus Fabricius, 1794" .
+```
+
+[&lsqb;TaxonConcept-synonym-3.ttl&rsqb;](examples/TaxonConcept-synonym-3.ttl)
 
 ### tcs:vernacularName
 
@@ -502,12 +542,12 @@ The `vernacularName` property can be used when a vernacular name is used  alongs
 
 
 ```turtle
-[] a :TaxonConcept ;
+[] a tcs:TaxonConcept ;
     dcterms:title "Graphium macleayanum sec. Orr & Kitching (2010)" ;
-    :accordingTo <urn:isbn:978-1-74175-108-6> ;
-    :taxonName [ a :TaxonName ;
-            :taxonNameString "Graphium macleayanum" ] ;
-    :vernacularName [ a gbif:VernacularName ;
+    tcs:accordingTo <urn:isbn:978-1-74175-108-6> ;
+    tcs:taxonName [ a tcs:TaxonName ;
+            tcs:taxonNameString "Graphium macleayanum" ] ;
+    tcs:vernacularName [ a gbif:VernacularName ;
             dwc:vernacularName "Macleay's Swallowtail" ;
             dcterms:language: "en" ] .
 
@@ -520,16 +560,16 @@ The `vernacularName` property can be used when a vernacular name is used  alongs
 
 
 ```turtle
-[] a :TaxonConcept ;
+[] a tcs:TaxonConcept ;
     dcterms:title "Quercus robur sec. Duistermaat (2020)" ;
-    :accordingTo <urn:isbn:978-90-01-58956-1> ;
-    :taxonName <https://www.ipni.org/n/304293-2> ;
-    :vernacularName [ a gbif:VernacularName ;
+    tcs:accordingTo <urn:isbn:978-90-01-58956-1> ;
+    tcs:taxonName <https://www.ipni.org/n/304293-2> ;
+    tcs:vernacularName [ a gbif:VernacularName ;
             dwc:vernacularName "Zomereik" ;
             dcterms:language "nl" ] .
 
-<https://www.ipni.org/n/304293-2> a :TaxonName ;
-    :taxonNameString "Quercus robur" .
+<https://www.ipni.org/n/304293-2> a tcs:TaxonName ;
+    tcs:taxonNameString "Quercus robur" .
 
 <urn:isbn:978-90-01-58956-1> a bibo:Book ;
     dcterms:bibliographicCitation """Duistermaat, H. (2020). Heukels 
@@ -541,14 +581,14 @@ The `vernacularName` property can be used when a vernacular name is used  alongs
 
 ```turtle
 <https://vicflora.rbg.vic.gov.au/flora/taxon/93c88fde-ab15-4a9a-a61d-3830a57a0160#2023-03-02> 
-    a :TaxonConcept ;
+    a tcs:TaxonConcept ;
     dcterms:title "Callitris verrucosa sec. VicFlora (2023-03-22)" ;
-    :accordingTo [ a bibo:Website ;
+    tcs:accordingTo [ a bibo:Website ;
             dcterms:bibliographicCitation """VicFlora (2023). Flora of Victoria, 
                     Royal Botanic Gardens Victoria. Available online: 
                     https://vicflora.rbg.vic.gov.au (accessed on: 22 Mar. 2023).""" ] ;
-    :taxonName <https://www.ipni.org/n/134460-3> ;
-    :vernacularName [ a gbif:VernacularName ; 
+    tcs:taxonName <https://www.ipni.org/n/134460-3> ;
+    tcs:vernacularName [ a gbif:VernacularName ; 
         dwc:vernacularName "Scrub Cypress-pine" ;
         dcterms:language "en" ;
         gbif:isPreferredName: <http://rs.gbif.org/vocab/boolean/true> ] ,
@@ -565,8 +605,8 @@ The `vernacularName` property can be used when a vernacular name is used  alongs
         dcterms:language "en" ;
         gbif:isPreferredName: <http://rs.gbif.org/vocab/boolean/false> ] .
 
-<https://www.ipni.org/n/134460-3> a :TaxonName ;
-    :taxonNameString "Callitris verrucosa" ;
+<https://www.ipni.org/n/134460-3> a tcs:TaxonName ;
+    tcs:taxonNameString "Callitris verrucosa" ;
     dwc:scientificNameAuthorship "(A.Cunn. ex Endl.) F.Muell." .
 ```
 
@@ -1242,8 +1282,8 @@ The word 'name' here is taken in its dictionary meaning and not in the  sense of
 
 
 ```turtle
-<urn:lsid:zoobank.org:act:355AAA50-D89F-466E-A216-96B7A17D5AD4> a :TaxonName ;
-    :taxonNameString "Carabus nitens" ;
+<urn:lsid:zoobank.org:act:355AAA50-D89F-466E-A216-96B7A17D5AD4> a tcs:TaxonName ;
+    tcs:taxonNameString "Carabus nitens" ;
     dwc:scientificNameAuthorship "Linnaeus, 1758" .
 ```
 
@@ -1251,8 +1291,8 @@ The word 'name' here is taken in its dictionary meaning and not in the  sense of
 
 
 ```turtle
-<https://www.ipni.org/n/316069-1> a :TaxonName ;
-    :taxonNameString "Rafflesia arnoldii" ;
+<https://www.ipni.org/n/316069-1> a tcs:TaxonName ;
+    tcs:taxonNameString "Rafflesia arnoldii" ;
     dwc:scientificNameAuthorship "R.Br." ;
     dwc:namePublishedIn "Account Rafflesia 7, tt. 15-22 (1821)" .
 ```
@@ -1261,8 +1301,8 @@ The word 'name' here is taken in its dictionary meaning and not in the  sense of
 
 
 ```turtle
-<http://www.indexfungorum.org/names/NamesRecord.asp?RecordID=178962> a :TaxonName ;
-    :taxonNameString "Amanita phalloides" ;
+<http://www.indexfungorum.org/names/NamesRecord.asp?RecordID=178962> a tcs:TaxonName ;
+    tcs:taxonNameString "Amanita phalloides" ;
     dwc:scientificNameAuthorship "(Vaill. ex Fr.) Link" ;
     dwc:namePublishedIn "Handb. Erk. Gew. 3: 272 (1833)" .
 ```
@@ -1272,16 +1312,16 @@ The word 'name' here is taken in its dictionary meaning and not in the  sense of
 
 ```turtle
 # Example from TCS 1
-<https://www.ipni.org/n/50985479-1> a :TaxonName ;
-    :nomenclaturalCode <http://rs.gbif.org/vocabulary/gbif/nomenclatural_code/ICN> ;
-    :taxonomicNameString "Rhododendron sect. Sciadorhodion" ;
+<https://www.ipni.org/n/50985479-1> a tcs:TaxonName ;
+    tcs:nomenclaturalCode <http://rs.gbif.org/vocabulary/gbif/nomenclatural_code/ICN> ;
+    tcs:taxonomicNameString "Rhododendron sect. Sciadorhodion" ;
     dwc:scientificNameAuthorship "Rehder & Wilson" ;
     dwc:namePublishedIn "Monogr. Azaleas 79 (1921)" ;
-    :namePublishedIn [ a bibo:Book ;
+    tcs:namePublishedIn [ a bibo:Book ;
         dcterms:bibliographicCitation """Wilson, E.H. & Rehder, A. (1921). A 
                 monograph of the azaleas. Publication of the Arnold Arboretum 
                 No. 9 Harvard University, Cambridge MA.""" ] ;
-    :microReference "79" ;
+    tcs:microReference "79" ;
     dwc:namePublishedInYear "1921" ;
     dwc:genericName "Rhododendron" ;
     dwc:infragenericName "Sciadorhodion" .
@@ -1530,16 +1570,16 @@ A basionym is the epithet-bringing name.  The `basionym` property is only  used 
 
 
 ```turtle
-<https://id.biodiversity.org.au/name/apni/166271> a :TaxonName ;
+<https://id.biodiversity.org.au/name/apni/166271> a tcs:TaxonName ;
     rdf:seeAlso <https://www.ipni.org/n/17571690-1> ;
-    :taxonNameString "Doodia australis" ;
+    tcs:taxonNameString "Doodia australis" ;
     dwc:scientificNameAuthorship "(Parris) Parris" ;
     dwc:namePublishedIn "Fl. Australia 48: 710 (1998)" ;
-    :basionym <https://id.biodiversity.org.au/name/apni/117170> .
+    tcs:basionym <https://id.biodiversity.org.au/name/apni/117170> .
 
-<https://id.biodiversity.org.au/name/apni/117170> a :TaxonName ;
+<https://id.biodiversity.org.au/name/apni/117170> a tcs:TaxonName ;
     rdf:seeAlso <https://www.ipni.org/n/17567870-1> ;
-    :taxonNameString "Doodia media subsp. australis" ;
+    tcs:taxonNameString "Doodia media subsp. australis" ;
     dwc:scientificNameAuthorship "Parris" ;
     dwc:namePublishedIn "New Zealand J. Bot. 10(4): 593 (1972)" .
 ```
@@ -1548,18 +1588,18 @@ A basionym is the epithet-bringing name.  The `basionym` property is only  used 
 
 
 ```turtle
-[] a :TaxonName ;
-    :taxonNameString "Osphranter rufus" ;
+[] a tcs:TaxonName ;
+    tcs:taxonNameString "Osphranter rufus" ;
     dwc:scientificNameAuthorship "(Desmaret, 1882)" ;
-    :basionym _:b1 .
+    tcs:basionym _:b1 .
 
-[] a :TaxonName ;
-    :taxonNameString "Macropus rufus" ;
+[] a tcs:TaxonName ;
+    tcs:taxonNameString "Macropus rufus" ;
     dwc:scientificNameAuthorship "(Desmaret, 1882)" ;
-    :basionym: _:b1 .
+    tcs:basionym: _:b1 .
 
-_:b1 a :TaxonName ;
-    :taxonNameString "Kangurus rufus" ;
+_:b1 a tcs:TaxonName ;
+    tcs:taxonNameString "Kangurus rufus" ;
     dwc:scientificNameAuthorship "Desmaret, 1882" .
 ```
 
@@ -1610,64 +1650,64 @@ In the Botanical Code the term 'replaced synonym' is used. A 'replacement  name'
 
 
 ```turtle
-<https://www.tropicos.org/name/35183593> a :TaxonName ;
-    :taxonNameString "Dicranum bartramianum" ;
+<https://www.tropicos.org/name/35183593> a tcs:TaxonName ;
+    tcs:taxonNameString "Dicranum bartramianum" ;
     dwc:scientificNameAuthorship "B.H.Allen" ;
     dwc:namePublishedIn "Cryptog. Bryol. Lichénol. 8: 323" ;
     dwc:namePublishedInYear "1987" ;
-    :replacedName <https://www.tropicos.org/name/35120798> .
+    tcs:replacedName <https://www.tropicos.org/name/35120798> .
 
-<https://www.tropicos.org/name/35120798> a :TaxonName ;
-    :taxonNameString "Dicnemon robustum" ;
+<https://www.tropicos.org/name/35120798> a tcs:TaxonName ;
+    tcs:taxonNameString "Dicnemon robustum" ;
     dwc:scientificNameAuthorship "E.B.Bartram" ;
     dwc:namePublishedIn "Bryologist 48: 112" ;
     dwc:namePublishedInYear "1945" .
 
 # blocking name
-<https://www.tropicos.org/name/35124067> a :TaxonName ;
-    :taxonNameString "Dicranum robustum" ;
+<https://www.tropicos.org/name/35124067> a tcs:TaxonName ;
+    tcs:taxonNameString "Dicranum robustum" ;
     dwc:scientificNameAuthorship "Hook.f. & Wilson" ;
     dwc:namePublishedIn "London J. Bot. 3: 542" ;
     dwc:namePublishedInYear "1844" .
 
 # combination of Dicnemon robustum
-<https://www.tropicos.org/name/35162373> a :TaxonName ;
-    :taxonNameString "Eucamptodon robustum" ;
+<https://www.tropicos.org/name/35162373> a tcs:TaxonName ;
+    tcs:taxonNameString "Eucamptodon robustum" ;
     dwc:scientificNameAuthorship "(E.B.Bartram) E.B.Bartram" ;
     dwc:namePublishedIn "Brittonia 11: 88" ;
     dwc:namePublishedInYear "1959" ;
-    :basionym <https://www.tropicos.org/name/35120798> .
+    tcs:basionym <https://www.tropicos.org/name/35120798> .
 
 # combination of Dicranum bartramianum
-<https://www.tropicos.org/name/35204723> a :TaxonName ;
-    :taxonNameString "Dicranoloma bartramianum" ;
+<https://www.tropicos.org/name/35204723> a tcs:TaxonName ;
+    tcs:taxonNameString "Dicranoloma bartramianum" ;
     dwc:scientificNameAuthorship "(B.H.Allen) Klazenga" ;
     dwc:namePublishedIn "J. Hattory Bot. Lab. 87: 57" ;
     dwc:namePublishedInYear "1999" ;
-    :basionym <https://www.tropicos.org/name/35183593> .
+    tcs:basionym <https://www.tropicos.org/name/35183593> .
 ```
 
 [&lsqb;TaxonName-replacedSynonym-1.ttl&rsqb;](examples/TaxonName-replacedSynonym-1.ttl)
 
 
 ```turtle
-<https://www.tropicos.org/name/35000146> a :TaxonName ;
-    :taxonNameString "Braunfelsia" ;
+<https://www.tropicos.org/name/35000146> a tcs:TaxonName ;
+    tcs:taxonNameString "Braunfelsia" ;
     dwc:scientificNameAuthorship "Paris" ;
     dwc:namePublishedIn "Index Bryol.: 148" ;
     dwc:namePublishedInYear "1894" ;
-    :replacedName <https://www.tropicos.org/name/35001206> .
+    tcs:replacedName <https://www.tropicos.org/name/35001206> .
 
-<https://www.tropicos.org/name/35001206> a :TaxonName ;
-    :taxonNameString "Solmsia" ;
+<https://www.tropicos.org/name/35001206> a tcs:TaxonName ;
+    tcs:taxonNameString "Solmsia" ;
     dwc:scientificNameAuthorship "Hampe" ;
     dwc:namePublishedIn "Nuovo Giorn. Bot. Ital. 4(4): 273, 281" ;
     dwc:namePublishedInYear "1872" ;
-    :nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/illegitimum> .
+    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/illegitimum> .
 
 # prior homonym
-<https://www.ipni.org/n/39527-1> a :TaxonName ;
-    :taxonNameString "Solmsia" ;
+<https://www.ipni.org/n/39527-1> a tcs:TaxonName ;
+    tcs:taxonNameString "Solmsia" ;
     dwc:scientificNameAuthorship "Baill." ;
     dwc:namePublishedIn "Adansonia 10: 37" ;
     dwc:namePublishedInYear "1871" .
@@ -1720,22 +1760,22 @@ The `spellingCorrectionOf` property can be used if the originally published  nam
 
 
 ```turtle
-<https://www.tropicos.org/name/35121514> a :TaxonName ;
-    :taxonNameString "Dicranoloma dicarpon" ;
-    :authorship "(Nees) Paris" ;
+<https://www.tropicos.org/name/35121514> a tcs:TaxonName ;
+    tcs:taxonNameString "Dicranoloma dicarpon" ;
+    tcs:authorship "(Nees) Paris" ;
     dwc:namePublishedIn "Index Bryol. ed. 2, 2: 26" ;
     dwc:namePublishedInYear "1904" ;
-    :basionym <https://www.tropicos.org/name/35122214> ;
-    :spellingCorrectionOf <https://id.biodiversity.org.au/name/ausmoss/10152639> .
+    tcs:basionym <https://www.tropicos.org/name/35122214> ;
+    tcs:spellingCorrectionOf <https://id.biodiversity.org.au/name/ausmoss/10152639> .
 
-<https://www.tropicos.org/name/35122214> a :TaxonName ;
-    :taxonNameString "Dicranum dicarpon" ;
-    :authorship "Nees" ;
+<https://www.tropicos.org/name/35122214> a tcs:TaxonName ;
+    tcs:taxonNameString "Dicranum dicarpon" ;
+    tcs:authorship "Nees" ;
     dwc:namePublishedIn "Syst. Veg. ed. 16, 4(2):322" ;
     dwc:namePublishedInYear "1827" .
 
-<https://id.biodiversity.org.au/name/ausmoss/10152639> a :TaxonName ;
-    :taxonNameString "Dicranoloma dicarpum" .
+<https://id.biodiversity.org.au/name/ausmoss/10152639> a tcs:TaxonName ;
+    tcs:taxonNameString "Dicranoloma dicarpum" .
 
 # Dicranoloma dicarpon is a common species of moss in Australia and New 
 # Zealand. The correct spelling of the epithet is 'dicarpon', because that is 
@@ -1792,20 +1832,20 @@ A scientific name below the rank of family is not conserved against all  other n
 
 
 ```turtle
-<https://www.tropicos.org/name/35000378> a :TaxonName ;
-    :taxonNameString "Dicranoloma" ;
+<https://www.tropicos.org/name/35000378> a tcs:TaxonName ;
+    tcs:taxonNameString "Dicranoloma" ;
     dwc:scientificNameAuthorship "(Renauld) Renauld" ;
-    :namePublishedInYear "1909" ;
-    :conservedAgainst <https://www.tropicos.org/name/35000771> ,
+    tcs:namePublishedInYear "1909" ;
+    tcs:conservedAgainst <https://www.tropicos.org/name/35000771> ,
             <https://www.tropicos.org/name/35000146> .
 
-<https://www.tropicos.org/name/35000771> a :TaxonName ;
-    :taxonNameString "Megalostylium" ;
+<https://www.tropicos.org/name/35000771> a tcs:TaxonName ;
+    tcs:taxonNameString "Megalostylium" ;
     dwc:scientificNameAuthorship "Dozy & Molk." ;
     dwc:namePublishedInYear "1848" . 
 
-<https://www.tropicos.org/name/35000146> a :TaxonName ;
-    :taxonNameString "Braunfelsia" ;
+<https://www.tropicos.org/name/35000146> a tcs:TaxonName ;
+    tcs:taxonNameString "Braunfelsia" ;
     dwc:scientificNameAuthorship "Paris" ;
     dwc:namePublishedInYear "1894" .
 ```
@@ -2136,35 +2176,35 @@ A nomenclatural type fixes the usage of a name to the taxonomic group that  cont
 
 ```turtle
 # Examples from TCS 1
-[] a :NomenclaturalType ;
-    :typifiedName <https://www.ipni.org/n/50985479-1> ;
-    :typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/lectotype> ;
-    :typeName <https://www.ipni.org/n/333193-1> ;
-    :typePublishedIn [ a bibo:Article ;
+[] a tcs:NomenclaturalType ;
+    tcs:typifiedName <https://www.ipni.org/n/50985479-1> ;
+    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/lectotype> ;
+    tcs:typeName <https://www.ipni.org/n/333193-1> ;
+    tcs:typePublishedIn [ a bibo:Article ;
     	  dcterms:bibliographicCitation """Copeland, H.F. (1943). A study, anatomical and 
                 taxonomic, of the genera of Rhododendroideae. Am. Midl. Nat. 30: 533-625""" ] .
 
-[] a :NomenclaturalType ;
-    :typifiedName <https://www.ipni.org/n/333193-1> ;
-    :typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/lectotype> ;
-    :typeSpecimen [ a dwc:PreservedSpecimen ;
+[] a tcs:NomenclaturalType ;
+    tcs:typifiedName <https://www.ipni.org/n/333193-1> ;
+    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/lectotype> ;
+    tcs:typeSpecimen [ a dwc:PreservedSpecimen ;
         dwc:verbatimLocality "Japan, Honshu, Nikko" ;
         dwc:recordedBy "Bisset" ;
         dwc:recordNumber "233" ;
         dwc:eventDate "1876-05-23" ;
         dwc:institutionCode "E" ] ;
-    :typePublishedIn [ a bibo:Article ; 
+    tcs:typePublishedIn [ a bibo:Article ; 
         dcterms:bibliographicCitation """Judd, W.S.; Kron, K.A. (1995). A revision of Rhododendron 
                 VI. Subgenus Pentanthera (sections Sciadorhodon, Rhodora and Viscidula). Edinburgh 
                 Journal of Botany 52: 1-54.""" ] .
 
 # name used in TaxonName examples; more data there
-<https://www.ipni.org/n/50985479-1> a :TaxonName ;
-    :taxonomicNameString "Rhododendron sect. Sciadorhodion" ;
+<https://www.ipni.org/n/50985479-1> a tcs:TaxonName ;
+    tcs:taxonomicNameString "Rhododendron sect. Sciadorhodion" ;
     dwc:scientificNameAuthorship "Rehder & Wilson" .
 
-<https://www.ipni.org/n/333193-1> a :TaxonName ;
-    :taxonomicNameString "Rhododendron quinquefolium" ;
+<https://www.ipni.org/n/333193-1> a tcs:TaxonName ;
+    tcs:taxonomicNameString "Rhododendron quinquefolium" ;
     dwc:scientificNameAuthorship "Bisset & S.Moore" .
 ```
 

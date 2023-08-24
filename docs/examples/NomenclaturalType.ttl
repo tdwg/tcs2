@@ -1,36 +1,36 @@
-@prefix : <http://rs.tdwg.org/tcs/terms/> .
+@prefix tcs: <http://rs.tdwg.org/tcs/terms/> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix dwc: <http://rs.tdwg.org/dwc/terms/> .
 @prefix bibo: <http://purl.org/ontology/bibo/> .
 
 # Examples from TCS 1
-[] a :NomenclaturalType ;
-    :typifiedName <https://www.ipni.org/n/50985479-1> ;
-    :typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/lectotype> ;
-    :typeName <https://www.ipni.org/n/333193-1> ;
-    :typePublishedIn [ a bibo:Article ;
+[] a tcs:NomenclaturalType ;
+    tcs:typifiedName <https://www.ipni.org/n/50985479-1> ;
+    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/lectotype> ;
+    tcs:typeName <https://www.ipni.org/n/333193-1> ;
+    tcs:typePublishedIn [ a bibo:Article ;
     	  dcterms:bibliographicCitation """Copeland, H.F. (1943). A study, anatomical and 
                 taxonomic, of the genera of Rhododendroideae. Am. Midl. Nat. 30: 533-625""" ] .
 
-[] a :NomenclaturalType ;
-    :typifiedName <https://www.ipni.org/n/333193-1> ;
-    :typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/lectotype> ;
-    :typeSpecimen [ a dwc:PreservedSpecimen ;
+[] a tcs:NomenclaturalType ;
+    tcs:typifiedName <https://www.ipni.org/n/333193-1> ;
+    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/lectotype> ;
+    tcs:typeSpecimen [ a dwc:PreservedSpecimen ;
         dwc:verbatimLocality "Japan, Honshu, Nikko" ;
         dwc:recordedBy "Bisset" ;
         dwc:recordNumber "233" ;
         dwc:eventDate "1876-05-23" ;
         dwc:institutionCode "E" ] ;
-    :typePublishedIn [ a bibo:Article ; 
+    tcs:typePublishedIn [ a bibo:Article ; 
         dcterms:bibliographicCitation """Judd, W.S.; Kron, K.A. (1995). A revision of Rhododendron 
                 VI. Subgenus Pentanthera (sections Sciadorhodon, Rhodora and Viscidula). Edinburgh 
                 Journal of Botany 52: 1-54.""" ] .
 
 # name used in TaxonName examples; more data there
-<https://www.ipni.org/n/50985479-1> a :TaxonName ;
-    :taxonomicNameString "Rhododendron sect. Sciadorhodion" ;
+<https://www.ipni.org/n/50985479-1> a tcs:TaxonName ;
+    tcs:taxonomicNameString "Rhododendron sect. Sciadorhodion" ;
     dwc:scientificNameAuthorship "Rehder & Wilson" .
 
-<https://www.ipni.org/n/333193-1> a :TaxonName ;
-    :taxonomicNameString "Rhododendron quinquefolium" ;
+<https://www.ipni.org/n/333193-1> a tcs:TaxonName ;
+    tcs:taxonomicNameString "Rhododendron quinquefolium" ;
     dwc:scientificNameAuthorship "Bisset & S.Moore" .

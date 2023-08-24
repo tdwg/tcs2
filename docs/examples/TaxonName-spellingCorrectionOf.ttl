@@ -1,22 +1,22 @@
-@prefix : <http://rs.tdwg.org/tcs/terms/> .
+@prefix tcs: <http://rs.tdwg.org/tcs/terms/> .
 @prefix dwc: <http://rs.tdwg.org/dwc/terms/> .
 
-<https://www.tropicos.org/name/35121514> a :TaxonName ;
-    :taxonNameString "Dicranoloma dicarpon" ;
-    :authorship "(Nees) Paris" ;
+<https://www.tropicos.org/name/35121514> a tcs:TaxonName ;
+    tcs:taxonNameString "Dicranoloma dicarpon" ;
+    tcs:authorship "(Nees) Paris" ;
     dwc:namePublishedIn "Index Bryol. ed. 2, 2: 26" ;
     dwc:namePublishedInYear "1904" ;
-    :basionym <https://www.tropicos.org/name/35122214> ;
-    :spellingCorrectionOf <https://id.biodiversity.org.au/name/ausmoss/10152639> .
+    tcs:basionym <https://www.tropicos.org/name/35122214> ;
+    tcs:spellingCorrectionOf <https://id.biodiversity.org.au/name/ausmoss/10152639> .
 
-<https://www.tropicos.org/name/35122214> a :TaxonName ;
-    :taxonNameString "Dicranum dicarpon" ;
-    :authorship "Nees" ;
+<https://www.tropicos.org/name/35122214> a tcs:TaxonName ;
+    tcs:taxonNameString "Dicranum dicarpon" ;
+    tcs:authorship "Nees" ;
     dwc:namePublishedIn "Syst. Veg. ed. 16, 4(2):322" ;
     dwc:namePublishedInYear "1827" .
 
-<https://id.biodiversity.org.au/name/ausmoss/10152639> a :TaxonName ;
-    :taxonNameString "Dicranoloma dicarpum" .
+<https://id.biodiversity.org.au/name/ausmoss/10152639> a tcs:TaxonName ;
+    tcs:taxonNameString "Dicranoloma dicarpum" .
 
 # Dicranoloma dicarpon is a common species of moss in Australia and New 
 # Zealand. The correct spelling of the epithet is 'dicarpon', because that is 

@@ -1,18 +1,18 @@
-@prefix : <http://rs.tdwg.org/tcs/terms/> .
+@prefix tcs: <http://rs.tdwg.org/tcs/terms/> .
 @prefix bibo: <http://purl.org/ontology/bibo/> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix dwc: <http://rs.tdwg.org/dwc/terms/> .
 @prefix gbif: <http://rs.gbif.org/terms/1.0/> .
 
 <https://vicflora.rbg.vic.gov.au/flora/taxon/93c88fde-ab15-4a9a-a61d-3830a57a0160#2023-03-02> 
-    a :TaxonConcept ;
+    a tcs:TaxonConcept ;
     dcterms:title "Callitris verrucosa sec. VicFlora (2023-03-22)" ;
-    :accordingTo [ a bibo:Website ;
+    tcs:accordingTo [ a bibo:Website ;
             dcterms:bibliographicCitation """VicFlora (2023). Flora of Victoria, 
                     Royal Botanic Gardens Victoria. Available online: 
                     https://vicflora.rbg.vic.gov.au (accessed on: 22 Mar. 2023).""" ] ;
-    :taxonName <https://www.ipni.org/n/134460-3> ;
-    :vernacularName [ a gbif:VernacularName ; 
+    tcs:taxonName <https://www.ipni.org/n/134460-3> ;
+    tcs:vernacularName [ a gbif:VernacularName ; 
         dwc:vernacularName "Scrub Cypress-pine" ;
         dcterms:language "en" ;
         gbif:isPreferredName: <http://rs.gbif.org/vocab/boolean/true> ] ,
@@ -29,6 +29,6 @@
         dcterms:language "en" ;
         gbif:isPreferredName: <http://rs.gbif.org/vocab/boolean/false> ] .
 
-<https://www.ipni.org/n/134460-3> a :TaxonName ;
-    :taxonNameString "Callitris verrucosa" ;
+<https://www.ipni.org/n/134460-3> a tcs:TaxonName ;
+    tcs:taxonNameString "Callitris verrucosa" ;
     dwc:scientificNameAuthorship "(A.Cunn. ex Endl.) F.Muell." .

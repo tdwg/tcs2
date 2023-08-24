@@ -1,4 +1,4 @@
-@prefix : <http://rs.tdwg.org/tcs/terms/> .
+@prefix tcs: <http://rs.tdwg.org/tcs/terms/> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix bibo: <http://purl.org/ontology/bibo/> .
 
@@ -6,16 +6,16 @@
 [] a dwc:ResourceRelationship, rdf:Statement ; 
     dcterms:source <https://doi.org/10.1002/tax.613003> ;
     rdf:predicate <http://rs.tdwg.org/tcs-taxon-concept-relationship-type/values/isIncludedIn> ; 
-    rdf:subject [ a :TaxonConcept ; 
+    rdf:subject [ a tcs:TaxonConcept ; 
         dcterms:title "Athyriaceae sec. Rothfels et al. (2012)" ;
-        :accordingTo <https://doi.org/10.1002/tax.613003> ;
-        :taxonName [ a :TaxonName ;
-            :taxonNameString "Athyriaceae" ] ; ] ;
-    rdf:object [ a :TaxonConcept ;
+        tcs:accordingTo <https://doi.org/10.1002/tax.613003> ;
+        tcs:taxonName [ a tcs:TaxonName ;
+            tcs:taxonNameString "Athyriaceae" ] ; ] ;
+    rdf:object [ a tcs:TaxonConcept ;
         dcterms:title "Woodsiaceae sec. Smith et al. (2006)" ;
-        :accordingTo <https://doi.org/10.2307/25065646> ;
-        :taxonName [ a :TaxonName ;
-            :taxonNameString "Woodsiaceae" ] ] .
+        tcs:accordingTo <https://doi.org/10.2307/25065646> ;
+        tcs:taxonName [ a tcs:TaxonName ;
+            tcs:taxonNameString "Woodsiaceae" ] ] .
 
 <https://doi.org/10.1002/tax.613003> a bibo:AcademicArticle ;
     dcterms:bibliographicCitation """Rothfels, Carl J.; Sundue, Michael A.; Kuo, Li-Yaung; Larsson, 

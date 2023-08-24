@@ -132,6 +132,7 @@
   examples: 
     - TaxonConcept-synonym-1
     - TaxonConcept-synonym-2
+    - TaxonConcept-synonym-3
   type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonConcept
   required: No

@@ -1,15 +1,15 @@
-@prefix : <http://rs.tdwg.org/tcs/terms/> .
+@prefix tcs: <http://rs.tdwg.org/tcs/terms/> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix dwc: <http://rs.tdwg.org/dwc/terms/> .
 @prefix bibo: <http://purl.org/ontology/bibo/> .
 
-[] a :TaxonConcept ;
+[] a tcs:TaxonConcept ;
     dcterms:title "Dicranoloma blumei sec. Klazenga (1999)" ;
-    :accordingTo <https://www.tropicos.org/reference/9020903> 
-    :taxonName <https://www.tropicos.org/name/35121475> .
+    tcs:accordingTo <https://www.tropicos.org/reference/9020903> 
+    tcs:taxonName <https://www.tropicos.org/name/35121475> .
 
 <https://www.tropicos.org/name/35121475> a ;
-    :taxonNameString "Dicranoloma blumei" ;
+    tcs:taxonNameString "Dicranoloma blumei" ;
     dwc:scientificNameAuthorship "(Nees) Renauld" .
 
 <https://www.tropicos.org/reference/9020903> a bibo:AcademicArticle ;

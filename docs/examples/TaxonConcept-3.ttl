@@ -1,15 +1,15 @@
-@prefix : <http://rs.tdwg.org/tcs/terms/> .
+@prefix tcs: <http://rs.tdwg.org/tcs/terms/> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix dwc: <http://rs.tdwg.org/dwc/terms/> .
 @prefix bibo: <http://purl.org/ontology/bibo/> .
 
-[] a :TaxonConcept ;
+[] a tcs:TaxonConcept ;
     dcterms:title "Calymperes moluccense sec. Yong et al. (2013)" ;
-    :accordingTo <urn:isbn:978-967-5221-99-6> ;
-    :taxonName <https://www.tropicos.org/name/35153806> .
+    tcs:accordingTo <urn:isbn:978-967-5221-99-6> ;
+    tcs:taxonName <https://www.tropicos.org/name/35153806> .
 
-<https://www.tropicos.org/name/35153806> a :TaxonName ;
-    :taxonNameString "Calymperes moluccense" ;
+<https://www.tropicos.org/name/35153806> a tcs:TaxonName ;
+    tcs:taxonNameString "Calymperes moluccense" ;
     dwc:scientificNameAuthorship "Schwägr." .
 
 <urn:isbn:978-967-5221-99-6> a bibo:Book ;

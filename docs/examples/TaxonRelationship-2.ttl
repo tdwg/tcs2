@@ -1,4 +1,4 @@
-@prefix : <http://rs.tdwg.org/tcs/terms/> .
+@prefix tcs: <http://rs.tdwg.org/tcs/terms/> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix dwc: <http://rs.tdwg.org/dwc/terms/> .
 @prefix bibo: <http://purl.org/ontology/bibo/> .
@@ -8,17 +8,17 @@
 [] a dwc:ResourceRelationship, rdf:Statement ;
     dcterms:source <https://www.tropicos.org/reference/9022656> ;
     rdf:predicate <http://rs.tdwg.org/tcs-taxon-concept-relationship-type/values/isCongruentWith> ; 
-    rdf:subject [ a :TaxonConcept ;
+    rdf:subject [ a tcs:TaxonConcept ;
         dcterms:title "Dicranum fuscescens sec. Koperski et al. (2000)" ;
-        :accordingTo <https://www.tropicos.org/reference/9022656> ;
-        :taxonName <https://www.tropicos.org/name/35122385> ] ;
-    rdf:object [ a :TaxonConcept ;
+        tcs:accordingTo <https://www.tropicos.org/reference/9022656> ;
+        tcs:taxonName <https://www.tropicos.org/name/35122385> ] ;
+    rdf:object [ a tcs:TaxonConcept ;
         dcterms:title "Dicranum fuscescens sec. Corley et al. (1981)" ;
-        :accordingTo <https://www.tropicos.org/reference/9004554> ;
-        :taxonName <https://www.tropicos.org/name/35122385> ] .
+        tcs:accordingTo <https://www.tropicos.org/reference/9004554> ;
+        tcs:taxonName <https://www.tropicos.org/name/35122385> ] .
 
-<https://www.tropicos.org/name/35122385> a :TaxonName ;
-    :taxonNameString "Dicranum fuscescens" ;
+<https://www.tropicos.org/name/35122385> a tcs:TaxonName ;
+    tcs:taxonNameString "Dicranum fuscescens" ;
     dwc:scientificNameAuthorship "Turner" .
 
 <https://www.tropicos.org/reference/9022656> a bibo:Book ;
