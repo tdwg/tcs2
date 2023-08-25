@@ -20,7 +20,7 @@
     provided by the source, taxon concepts are in principle also alignable to 
     other Taxon Concepts using TCS concept mapping relationship statements. The 
     concept mapping properties in TCS are `isCongruentWith`, `includes`, 
-    `isIncludedIn`, `partiallyOverlaps` and `isDisjointFrom`.
+    `isIncludedIn`, `partiallyOverlaps`, `isDisjointFrom` and `intersects`.
 
 
     The TCS Taxon Concept is a data object and is applied more broadly than the 
