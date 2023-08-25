@@ -286,7 +286,7 @@ def add_example(ex):
     text = '\n```turtle\n'
     text += example
     text += '\n```\n\n' 
-    text += '[&lsqb;' + ex + '.ttl&rsqb;](examples/' + ex + '.ttl)\n\n'
+    text += '[&lsqb;' + ex + '.ttl&rsqb;](../examples/' + ex + '.ttl)\n\n'
     return text
 
 # create vocabulary

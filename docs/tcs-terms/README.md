@@ -76,7 +76,7 @@ By contrast, entries in the nomenclature section of treatments and in lists  of 
             Hattori Botanical Laboratory 87: 1-130.""" .
 ```
 
-[&lsqb;TaxonConcept-1.ttl&rsqb;](examples/TaxonConcept-1.ttl)
+[&lsqb;TaxonConcept-1.ttl&rsqb;](../examples/TaxonConcept-1.ttl)
 
 
 ```turtle
@@ -94,7 +94,7 @@ By contrast, entries in the nomenclature section of treatments and in lists  of 
             Publishing, Collingwood, Australia.""" .
 ```
 
-[&lsqb;TaxonConcept-2.ttl&rsqb;](examples/TaxonConcept-2.ttl)
+[&lsqb;TaxonConcept-2.ttl&rsqb;](../examples/TaxonConcept-2.ttl)
 
 
 ```turtle
@@ -113,7 +113,7 @@ By contrast, entries in the nomenclature section of treatments and in lists  of 
             Pamphlet no. 133, Forest Research Institute Malaysia, Kepong, Malaysia.""" .
 ```
 
-[&lsqb;TaxonConcept-3.ttl&rsqb;](examples/TaxonConcept-3.ttl)
+[&lsqb;TaxonConcept-3.ttl&rsqb;](../examples/TaxonConcept-3.ttl)
 
 
 ```turtle
@@ -132,7 +132,7 @@ By contrast, entries in the nomenclature section of treatments and in lists  of 
             1-492. MIM, Deurne.""" .
 ```
 
-[&lsqb;TaxonConcept-4.ttl&rsqb;](examples/TaxonConcept-4.ttl)
+[&lsqb;TaxonConcept-4.ttl&rsqb;](../examples/TaxonConcept-4.ttl)
 
 
 ```turtle
@@ -149,7 +149,7 @@ By contrast, entries in the nomenclature section of treatments and in lists  of 
     bibo:uri "https://www.catalogueoflife.org" .
 ```
 
-[&lsqb;TaxonConcept-5.ttl&rsqb;](examples/TaxonConcept-5.ttl)
+[&lsqb;TaxonConcept-5.ttl&rsqb;](../examples/TaxonConcept-5.ttl)
 
 ### tcs:accordingTo
 
@@ -232,7 +232,7 @@ The value of `accordingTo` has to be an object or IRI. This object can  contain 
     foaf:surname "Cardona-Duque*" .
 ```
 
-[&lsqb;TaxonConcept-accordingTo-1.ttl&rsqb;](examples/TaxonConcept-accordingTo-1.ttl)
+[&lsqb;TaxonConcept-accordingTo-1.ttl&rsqb;](../examples/TaxonConcept-accordingTo-1.ttl)
 
 
 ```turtle
@@ -257,7 +257,7 @@ _:b1 a foaf:Person ;
     foaf:surname "Sibley" .
 ```
 
-[&lsqb;TaxonConcept-accordingTo-2.ttl&rsqb;](examples/TaxonConcept-accordingTo-2.ttl)
+[&lsqb;TaxonConcept-accordingTo-2.ttl&rsqb;](../examples/TaxonConcept-accordingTo-2.ttl)
 
 
 ```turtle
@@ -268,7 +268,7 @@ _:b1 a foaf:Person ;
             133. Forest Research Institute Malaysia, Kepong, Selangor, Malaysia.""" .
 ```
 
-[&lsqb;TaxonConcept-accordingTo-3.ttl&rsqb;](examples/TaxonConcept-accordingTo-3.ttl)
+[&lsqb;TaxonConcept-accordingTo-3.ttl&rsqb;](../examples/TaxonConcept-accordingTo-3.ttl)
 
 ### tcs:taxonName
 
@@ -421,7 +421,7 @@ Synonyms are names and synonymy is between names but, if the names have  differe
 # are provided using the `synonym` property.
 ```
 
-[&lsqb;TaxonConcept-synonym-1.ttl&rsqb;](examples/TaxonConcept-synonym-1.ttl)
+[&lsqb;TaxonConcept-synonym-1.ttl&rsqb;](../examples/TaxonConcept-synonym-1.ttl)
 
 
 ```turtle
@@ -446,7 +446,7 @@ Synonyms are names and synonymy is between names but, if the names have  differe
             New Zealand Hebes. Te Papa Press, Wellington, New Zealand.""" .
 ```
 
-[&lsqb;TaxonConcept-synonym-2.ttl&rsqb;](examples/TaxonConcept-synonym-2.ttl)
+[&lsqb;TaxonConcept-synonym-2.ttl&rsqb;](../examples/TaxonConcept-synonym-2.ttl)
 
 
 ```turtle
@@ -486,7 +486,7 @@ Synonyms are names and synonymy is between names but, if the names have  differe
     dwc:scientificName "Pterophorus leucodactylus Fabricius, 1794" .
 ```
 
-[&lsqb;TaxonConcept-synonym-3.ttl&rsqb;](examples/TaxonConcept-synonym-3.ttl)
+[&lsqb;TaxonConcept-synonym-3.ttl&rsqb;](../examples/TaxonConcept-synonym-3.ttl)
 
 ### tcs:vernacularName
 
@@ -547,7 +547,7 @@ The `vernacularName` property can be used when a vernacular name is used  alongs
             butterflies of Australia. Jacana Books, Crows Nest, Australia.""" .
 ```
 
-[&lsqb;TaxonConcept-vernacularName-1.ttl&rsqb;](examples/TaxonConcept-vernacularName-1.ttl)
+[&lsqb;TaxonConcept-vernacularName-1.ttl&rsqb;](../examples/TaxonConcept-vernacularName-1.ttl)
 
 
 ```turtle
@@ -567,7 +567,7 @@ The `vernacularName` property can be used when a vernacular name is used  alongs
             Flora van Nederland, edn 24. Noordhoff, Groningen.""" .
 ```
 
-[&lsqb;TaxonConcept-vernacularName-2.ttl&rsqb;](examples/TaxonConcept-vernacularName-2.ttl)
+[&lsqb;TaxonConcept-vernacularName-2.ttl&rsqb;](../examples/TaxonConcept-vernacularName-2.ttl)
 
 
 ```turtle
@@ -601,7 +601,7 @@ The `vernacularName` property can be used when a vernacular name is used  alongs
     dwc:scientificNameAuthorship "(A.Cunn. ex Endl.) F.Muell." .
 ```
 
-[&lsqb;TaxonConcept-vernacularName-3.ttl&rsqb;](examples/TaxonConcept-vernacularName-3.ttl)
+[&lsqb;TaxonConcept-vernacularName-3.ttl&rsqb;](../examples/TaxonConcept-vernacularName-3.ttl)
 
 ### tcs:taxonomicRank
 
@@ -750,7 +750,7 @@ This relationship can also be written as the formula **A &cong; B** or **A == B*
             tcs:taxonName <https://ipni.org/n/30001382-2> ] .
 ```
 
-[&lsqb;TaxonConcept-isCongruentWith-1.ttl&rsqb;](examples/TaxonConcept-isCongruentWith-1.ttl)
+[&lsqb;TaxonConcept-isCongruentWith-1.ttl&rsqb;](../examples/TaxonConcept-isCongruentWith-1.ttl)
 
 
 ```turtle
@@ -768,7 +768,7 @@ This relationship can also be written as the formula **A &cong; B** or **A == B*
     dcterms:source <https://doi.org/10.3233/SW-160220> .
 ```
 
-[&lsqb;TaxonConcept-isCongruentWith-2.ttl&rsqb;](examples/TaxonConcept-isCongruentWith-2.ttl)
+[&lsqb;TaxonConcept-isCongruentWith-2.ttl&rsqb;](../examples/TaxonConcept-isCongruentWith-2.ttl)
 
 ### tcs:includes
 
@@ -825,7 +825,7 @@ This relation type can also be written as the formula **A > B**.
             tcs:taxonName <https://ipni.org/n/77110538-1> ] .
 ```
 
-[&lsqb;TaxonConcept-includes-1.ttl&rsqb;](examples/TaxonConcept-includes-1.ttl)
+[&lsqb;TaxonConcept-includes-1.ttl&rsqb;](../examples/TaxonConcept-includes-1.ttl)
 
 
 ```turtle
@@ -843,7 +843,7 @@ This relation type can also be written as the formula **A > B**.
     dcterms:source <https://doi.org/10.3233/SW-160220> .
 ```
 
-[&lsqb;TaxonConcept-includes-2.ttl&rsqb;](examples/TaxonConcept-includes-2.ttl)
+[&lsqb;TaxonConcept-includes-2.ttl&rsqb;](../examples/TaxonConcept-includes-2.ttl)
 
 ### tcs:isIncludedIn
 
@@ -912,7 +912,7 @@ This relation type can also be written as the formula **A < B**.
             tcs:taxonName <https://ipni.org/n/17434830-1> ] .
 ```
 
-[&lsqb;TaxonConcept-isIncludedIn-1.ttl&rsqb;](examples/TaxonConcept-isIncludedIn-1.ttl)
+[&lsqb;TaxonConcept-isIncludedIn-1.ttl&rsqb;](../examples/TaxonConcept-isIncludedIn-1.ttl)
 
 
 ```turtle
@@ -930,7 +930,7 @@ This relation type can also be written as the formula **A < B**.
     dcterms:source <https://doi.org/10.3233/SW-160220> .
 ```
 
-[&lsqb;TaxonConcept-isIncludedIn-2.ttl&rsqb;](examples/TaxonConcept-isIncludedIn-2.ttl)
+[&lsqb;TaxonConcept-isIncludedIn-2.ttl&rsqb;](../examples/TaxonConcept-isIncludedIn-2.ttl)
 
 ### tcs:partiallyOverlaps
 
@@ -987,7 +987,7 @@ This relationship can also be written as the formula **A >< B**.
             tcs:taxonName <https://ipni.org/n/30000361-2> ] .
 ```
 
-[&lsqb;TaxonConcept-partiallyOverlaps-1.ttl&rsqb;](examples/TaxonConcept-partiallyOverlaps-1.ttl)
+[&lsqb;TaxonConcept-partiallyOverlaps-1.ttl&rsqb;](../examples/TaxonConcept-partiallyOverlaps-1.ttl)
 
 
 ```turtle
@@ -1005,7 +1005,7 @@ This relationship can also be written as the formula **A >< B**.
     dcterms:source <https://doi.org/10.3233/SW-160220> .
 ```
 
-[&lsqb;TaxonConcept-partiallyOverlaps-2.ttl&rsqb;](examples/TaxonConcept-partiallyOverlaps-2.ttl)
+[&lsqb;TaxonConcept-partiallyOverlaps-2.ttl&rsqb;](../examples/TaxonConcept-partiallyOverlaps-2.ttl)
 
 ### tcs:isDisjointFrom
 
@@ -1066,7 +1066,7 @@ This relationship can also be written as the formula **A | B**.
     dcterms:source <https://doi.org/10.3233/SW-160220> .
 ```
 
-[&lsqb;TaxonConcept-isDisjointFrom.ttl&rsqb;](examples/TaxonConcept-isDisjointFrom.ttl)
+[&lsqb;TaxonConcept-isDisjointFrom.ttl&rsqb;](../examples/TaxonConcept-isDisjointFrom.ttl)
 
 ### tcs:intersects
 
@@ -1133,7 +1133,7 @@ This relationship can also be written as the formula **A | B**.
         tcs:synonym <https://www.ipni.org/n/105731-1> ] .
 ```
 
-[&lsqb;TaxonConcept-intersects-1.ttl&rsqb;](examples/TaxonConcept-intersects-1.ttl)
+[&lsqb;TaxonConcept-intersects-1.ttl&rsqb;](../examples/TaxonConcept-intersects-1.ttl)
 
 ### dcterms:title
 
@@ -1220,7 +1220,7 @@ The word 'name' here is taken in its dictionary meaning and not in the  sense of
     dwc:scientificNameAuthorship "Linnaeus, 1758" .
 ```
 
-[&lsqb;TaxonName-1.ttl&rsqb;](examples/TaxonName-1.ttl)
+[&lsqb;TaxonName-1.ttl&rsqb;](../examples/TaxonName-1.ttl)
 
 
 ```turtle
@@ -1230,7 +1230,7 @@ The word 'name' here is taken in its dictionary meaning and not in the  sense of
     dwc:namePublishedIn "Account Rafflesia 7, tt. 15-22 (1821)" .
 ```
 
-[&lsqb;TaxonName-2.ttl&rsqb;](examples/TaxonName-2.ttl)
+[&lsqb;TaxonName-2.ttl&rsqb;](../examples/TaxonName-2.ttl)
 
 
 ```turtle
@@ -1240,7 +1240,7 @@ The word 'name' here is taken in its dictionary meaning and not in the  sense of
     dwc:namePublishedIn "Handb. Erk. Gew. 3: 272 (1833)" .
 ```
 
-[&lsqb;TaxonName-3.ttl&rsqb;](examples/TaxonName-3.ttl)
+[&lsqb;TaxonName-3.ttl&rsqb;](../examples/TaxonName-3.ttl)
 
 
 ```turtle
@@ -1260,7 +1260,7 @@ The word 'name' here is taken in its dictionary meaning and not in the  sense of
     dwc:infragenericName "Sciadorhodion" .
 ```
 
-[&lsqb;TaxonName-4.ttl&rsqb;](examples/TaxonName-4.ttl)
+[&lsqb;TaxonName-4.ttl&rsqb;](../examples/TaxonName-4.ttl)
 
 ### tcs:taxonNameString
 
@@ -1517,7 +1517,7 @@ A basionym is the epithet-bringing name.  The `basionym` property is only  used 
     dwc:namePublishedIn "New Zealand J. Bot. 10(4): 593 (1972)" .
 ```
 
-[&lsqb;TaxonName-basionym-1.ttl&rsqb;](examples/TaxonName-basionym-1.ttl)
+[&lsqb;TaxonName-basionym-1.ttl&rsqb;](../examples/TaxonName-basionym-1.ttl)
 
 
 ```turtle
@@ -1536,7 +1536,7 @@ _:b1 a tcs:TaxonName ;
     dwc:scientificNameAuthorship "Desmaret, 1882" .
 ```
 
-[&lsqb;TaxonName-basionym-2.ttl&rsqb;](examples/TaxonName-basionym-2.ttl)
+[&lsqb;TaxonName-basionym-2.ttl&rsqb;](../examples/TaxonName-basionym-2.ttl)
 
 ### tcs:replacedName
 
@@ -1620,7 +1620,7 @@ In the Botanical Code the term 'replaced synonym' is used. A 'replacement  name'
     tcs:basionym <https://www.tropicos.org/name/35183593> .
 ```
 
-[&lsqb;TaxonName-replacedSynonym-1.ttl&rsqb;](examples/TaxonName-replacedSynonym-1.ttl)
+[&lsqb;TaxonName-replacedSynonym-1.ttl&rsqb;](../examples/TaxonName-replacedSynonym-1.ttl)
 
 
 ```turtle
@@ -1646,7 +1646,7 @@ In the Botanical Code the term 'replaced synonym' is used. A 'replacement  name'
     dwc:namePublishedInYear "1871" .
 ```
 
-[&lsqb;TaxonName-replacedSynonym-2.ttl&rsqb;](examples/TaxonName-replacedSynonym-2.ttl)
+[&lsqb;TaxonName-replacedSynonym-2.ttl&rsqb;](../examples/TaxonName-replacedSynonym-2.ttl)
 
 ### tcs:spellingCorrectionOf
 
@@ -1718,7 +1718,7 @@ The `spellingCorrectionOf` property can be used if the originally published  nam
 # All records in GBIF will be as 'Dicranoloma dicarpum'.
 ```
 
-[&lsqb;TaxonName-spellingCorrectionOf.ttl&rsqb;](examples/TaxonName-spellingCorrectionOf.ttl)
+[&lsqb;TaxonName-spellingCorrectionOf.ttl&rsqb;](../examples/TaxonName-spellingCorrectionOf.ttl)
 
 ### tcs:conservedAgainst
 
@@ -1783,7 +1783,7 @@ A scientific name below the rank of family is not conserved against all  other n
     dwc:namePublishedInYear "1894" .
 ```
 
-[&lsqb;TaxonName-conservedAgainst.ttl&rsqb;](examples/TaxonName-conservedAgainst.ttl)
+[&lsqb;TaxonName-conservedAgainst.ttl&rsqb;](../examples/TaxonName-conservedAgainst.ttl)
 
 ### dwc:scientificName
 
@@ -2141,7 +2141,7 @@ A nomenclatural type fixes the usage of a name to the taxonomic group that  cont
     dwc:scientificNameAuthorship "Bisset & S.Moore" .
 ```
 
-[&lsqb;NomenclaturalType.ttl&rsqb;](examples/NomenclaturalType.ttl)
+[&lsqb;NomenclaturalType.ttl&rsqb;](../examples/NomenclaturalType.ttl)
 
 ### tcs:typifiedName
 
