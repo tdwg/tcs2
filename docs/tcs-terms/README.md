@@ -61,7 +61,7 @@ files.
 
 A taxonomic position is an opinion about the definition of a taxonomic  group. A Taxon Concept is identifiable, because it combines a label –  `taxonName` in TCS – with a source – `accordingTo`. Both these properties  are required. When mentioning a taxon concept, the label and the source are  combined, separated by 'sec.' (from, 'secundus', meaning 'according  to') or 'sensu' (meaning the same). The term `title` has been borrowed from  Dublin Core to provide this taxon concept label. Because of the context  provided by the source, taxon concepts are in principle also alignable to  other Taxon Concepts using TCS concept mapping relationship statements. The  concept mapping properties in TCS are `isCongruentWith`, `includes`,  `isIncludedIn`, `partiallyOverlaps` and `isDisjointFrom`.
 
-The TCS Taxon Concept is a data object and is applied more broadly than the  term is used in science (e.g. Franz & Peet 2009). On the one hand, things  that are not generally considered to be biological taxa, e.g. hybrids and  cultivars, can be casted as TCS Taxon Concepts. Also Operational Taxonomic  Units (OTUs)[\[1\]](#ref-1) can be exchanged as Taxon Concepts,  if there is a reason to do so, e.g. if one wants to align them with other  Taxon Concepts later. On the other hand, entries from treatments that are  considered to cite concepts from other treatments can be formulated as  Taxon Concepts. Every taxon concept from a treatment that is likely to be  referenced as the source of taxonomic context, for example a field guide  for a determination of a specimen or a national census for an ecological  study, can – and it would be very nice if they would – be stated as a Taxon  Concept, so they can be aligned with other Taxon Concepts that may provide  more or different taxonomic context.
+The TCS Taxon Concept is a data object and is applied more broadly than the  term is used in science (e.g. Franz & Peet 2009). On the one hand, things  that are not generally considered to be biological taxa, e.g. hybrids and  cultivars, can be casted as TCS Taxon Concepts. Also Operational Taxonomic  Units (OTUs)[\[sokal_principles_1963\]](../bibliography/#sokal_principles_1963)  can be exchanged as Taxon Concepts, if there is a reason to do so, e.g. if  one wants to align them with other Taxon Concepts later. On the other hand,  entries from treatments that are considered to cite concepts from other  treatments can be formulated as Taxon Concepts. Every taxon concept from a  treatment that is likely to be referenced as the source of taxonomic  context, for example a field guide for a determination of a specimen or a  national census for an ecological study, can – and it would be very nice if  they would – be stated as a Taxon Concept, so they can be aligned with other  Taxon Concepts that may provide more or different taxonomic context.
 
 By contrast, entries in the nomenclature section of treatments and in lists  of nomenclatural types are not Taxon Concepts.
 
@@ -1178,7 +1178,7 @@ This relationship can also be written as the formula **A | B**.
 
 **Comments**
 
-In TCS `dcterms:title` is used for the taxonomic concept label [\[2\]](#ref-2), which consists of the Taxon Name and a reference to  the publication where the concept is circumscribed, separated by 'sec.',  which stands for 'secundus' ('according to'). It is used to indicate one  specific meaning of a name – a Taxon Concept – rather than the cumulative  nomenclatural and taxonomic legacy associated with the name.
+In TCS `dcterms:title` is used for the taxonomic concept label [\[senderov_openbiodiv-o_2018\]](../bibliography#senderov_openbiodiv-o_2018), which consists of the Taxon Name and a reference to  the publication where the concept is circumscribed, separated by 'sec.',  which stands for 'secundus' ('according to'). It is used to indicate one  specific meaning of a name – a Taxon Concept – rather than the cumulative  nomenclatural and taxonomic legacy associated with the name.
 
 
 ## Taxon Name
@@ -2352,11 +2352,4 @@ Names at ranks of family and below are typified by a specimen. This property  is
 
 `typePublishedIn` is relevant for lectotypes, neotypes, epitypes and  conserved types. For other kinds of type the publication where the type is  designated is the publication where the name was published.
 
-## Bibliography
-
-<a id="ref-1"></a>
-[1]&emsp;Sokal, R.R. and Sneath, P.H.A. (1963) Principles of Numerical Taxonomy. New York: W.H. Freeman & Co.
-
-<a id="ref-2"></a>
-[2]&emsp;Senderov, V. et al. (2018) ‘OpenBiodiv-O: ontology of the OpenBiodiv knowledge management system’, Journal of Biomedical Semantics, 9(1), p. 5. Available at: https://doi.org/10.1186/s13326-017-0174-5.
-
+<!-- footer -->
