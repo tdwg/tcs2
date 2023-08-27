@@ -279,14 +279,14 @@ def term_table(term):
     return text
 
 def add_example(ex):
-    file_name = '../docs/examples/' + ex + '.ttl'
+    file_name = '../examples/' + ex + '.ttl'
     with open(file_name, 'r') as examplefile:
         example = examplefile.read()
         example = re.sub(r'@.*> ?. *\n', '', example).strip()
     text = '\n```turtle\n'
     text += example
     text += '\n```\n\n' 
-    text += '[&lsqb;' + ex + '.ttl&rsqb;](../examples/' + ex + '.ttl)\n\n'
+    text += '[&lsqb;' + ex + '.ttl&rsqb;](../../examples/' + ex + '.ttl)\n\n'
     return text
 
 # create vocabulary

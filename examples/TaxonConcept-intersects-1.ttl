@@ -8,7 +8,7 @@
     tcs:taxonName <https://ipni.org/n/105644-1> ;
     tcs:intersects [ a tcs:TaxonConcept ;
             dcterms:title "Begonia salaziensis sec. Warburg 1894" ;
-            tcs:accordingTo <https://eg.tdwg.org/tcs/ref/d9a27f7b90cde25a> ;
+            tcs:accordingTo <https://bibdigital.rjb.csic.es/viewer/10939/?offset=#page=141> ;
             tcs:taxonName <https://ipni.org/n/105644-1> ] ,
         [ a tcs:TaxonConcept ;
             dcterms:title "Begonia salaziensis sec. Irmscher 1925" ;
