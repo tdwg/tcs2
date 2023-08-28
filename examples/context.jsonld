@@ -6,11 +6,15 @@
     "dcterms":                  "http://purl.org/dc/terms/",
     "dwc":                      "http://rs.tdwg.org/dwc/terms/",
     "foaf":                     "http://xmlns.com/foaf/0.1/",
+    "gbif":                     "http://rs.gbif.org/terms/1.0/",
     "rdf":                      "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "rdfs":                     "http://www.w3.org/2000/01/rdf-schema#",
     "xsd":                      "http://www.w3.org/2001/XMLSchema#",
 
     "TaxonConcept":             "tcs:TaxonConcept",
+    "TaxonName":                "tcs:TaxonName",
+    "NomenclaturalType":        "tcs:NomenclaturalType",
+
     "accordingTo":              { "@type": "@id", "@id": "tcs:accordingTo" },
     "taxonName":                { "@type": "@id", "@id": "tcs:taxonName" },
     "synonym":                  { "@type": "@id", "@id": "tcs:synonym" },
@@ -23,8 +27,6 @@
     "partiallyOverlaps":        { "@type": "@id", "@id": "tcs:partiallyOverlaps" },
     "isDisjointFrom":           { "@type": "@id", "@id": "tcs:isDisjointFrom" },
     "intersects":               { "@type": "@id", "@id": "tcs:intersects" },
-
-    "TaxonName":                "tcs:TaxonName",
     "taxonNameString":          { "@type": "xsd:String", "@id": "tcs:taxonNameString" },
     "namePublishedIn":          { "@type": "@id", "@id": "tcs:namePublishedIn" },
     "microReference":           { "@type": "xsd:String", "@id": "tcs:microReference" },
@@ -34,8 +36,6 @@
     "replacedName":             { "@type": "@id", "@id": "tcs:replacedName" },
     "basedOn":                  { "@type": "@id", "@id": "tcs:basedOn" },
     "conservedAgainst":         { "@type": "@id", "@id": "tcs:conservedAgainst" },
-    
-    "NomenclaturalType":        "tcs:NomenclaturalType",
     "typifiedName":             { "@type": "@id", "@id": "tcs:typifiedName" },
     "typeOfType":               { "@type": "@vocab", "@id": "tcs:typeOfType" },
     "typeName":                 { "@type": "@id", "@id": "tcs:typeName" },
