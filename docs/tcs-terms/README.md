@@ -426,24 +426,26 @@ Synonyms are names and synonymy is between names but, if the names have  differe
 
 ```turtle
 [] a tcs:TaxonConcept ;
-    dcterms:title "Hebe imbricata sec. Bayly & Kellow (2006)" ;
+    dcterms:title "Hebe colensoi sec. Bayly & Kellow 2006" ;
     tcs:accordingTo <urn:isbn:978-0-909010-12-6> ;
-    tcs:taxonName <https://www.ipni.org/n/989261-1> ;
-    tcs:synonym <https://www.ipni.org/n/812507-1> .
+    tcs:taxonName <https://www.ipni.org/n/803678-1> ;
+    tcs:synonym <https://www.ipni.org/n/812087-1> .
 
-<https://www.ipni.org/n/989261-1> a tcs:TaxonName ;
-    tcs:taxonNameString "Hebe imbricata" ;
-    dwc:scientificNameAuthorship "Cockayne & Allen" ;
-    dwc:namePublishedIn "Trans. & Proc. New Zealand Inst. lvii. 42 (1927) (1927)" .
+<https://www.ipni.org/n/803678-1> a tcs:TaxonName ;
+    tcs:taxonNameString "Hebe colensoi" ;
+    dwc:scientificNameAuthorship "(Hook.f.) Cockayne" ;
+    dwc:namePublishedIn "Trans. & Proc. New Zealand Inst. 60: 384 (1929)" ;
+    tcs:basionym <https://www.ipni.org/n/811835-1> .
 
-<https://www.ipni.org/n/812507-1> a tcs:TaxonName ;
-    tcs:taxonNameString "Veronica poppelwellii" ;
-    dwc:scientificNameAuthorship "Cockayne" ; 
-    dwc:namePublishedIn "Trans. & Proc. New Zealand Inst. 1915, xlviii. 200 (1916)" .
+<https://www.ipni.org/n/811835-1> a tcs:TaxonName ;
+    tcs:taxonNameString "Veronica colensoi" ;
+    dwc:scientificNameAuthorship "Hook'f." ;
+    dwc:namePublishedIn "Handb. N. Zeal. Fl. 209. (1864)" .
 
-<urn:isbn:978-0-909010-12-6> a bibo:Book ;
-    dcterms:bibliographicCitation """Bayly, M.; Kellow, A. (2006). An illustrated guide to 
-            New Zealand Hebes. Te Papa Press, Wellington, New Zealand.""" .
+<https://www.ipni.org/n/812087-1> a tcs:TaxonName ;
+    tcs:taxonNameString "Veronica hillii" ;
+    dwc:scientificNameAuthorship "Colenso" ;
+    dwc:namePublishedIn "Trans. & Proc. New Zealand Inst. 28: 606 (1896)" .
 ```
 
 [&lsqb;TaxonConcept-synonym-2.ttl&rsqb;](../../examples/TaxonConcept-synonym-2.ttl)&nbsp;[&lsqb;TaxonConcept-synonym-2.jsonld&rsqb;](../../examples/TaxonConcept-synonym-2.jsonld)
