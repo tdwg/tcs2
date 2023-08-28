@@ -287,7 +287,7 @@ def add_example(ex):
     text += example
     text += '\n```\n\n' 
     text += '[&lsqb;' + ex + '.ttl&rsqb;](../../examples/' + ex + '.ttl)&nbsp;'
-    text += '[&lsqb;' + ex + '.ttl&rsqb;](../../examples/' + ex + '.jsonld)\n\n;'
+    text += '[&lsqb;' + ex + '.jsonld&rsqb;](../../examples/' + ex + '.jsonld)\n\n;'
     return text
 
 # create vocabulary
