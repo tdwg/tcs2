@@ -12,7 +12,7 @@
     "basionym": {
       "@id": "https://www.ipni.org/n/811835-1",
       "@type": "TaxonName",
-      "tcs:taxonNameString": "Veronica colensoi",
+      "taxonNameString": "Veronica colensoi",
       "dwc:scientificNameAuthorship": "Hook'f.",
       "dwc:namePublishedIn": "Handb. N. Zeal. Fl. 209. (1864)"
     }
