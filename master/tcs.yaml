@@ -228,6 +228,7 @@
   examples: 
     - TaxonConcept-isCongruentWith-1
     - TaxonConcept-isCongruentWith-2
+    - TaxonConcept-isCongruentWith-3
   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonConcept
   repeatable: Yes
   required: No
@@ -312,6 +313,7 @@
   examples:
     - TaxonConcept-partiallyOverlaps-1
     - TaxonConcept-partiallyOverlaps-2
+    - TaxonConcept-partiallyOverlaps-3
   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonConcept
   repeatable: Yes
   required: No

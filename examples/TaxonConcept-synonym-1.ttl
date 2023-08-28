@@ -27,13 +27,13 @@
 <https://www.tropicos.org/name/35154856> a tcs:TaxonName ;
     tcs:taxonNameString "Leucoloma blumei" ;
     dwc:scientificNameAuthorship "(Nees) Broth." ; 
-    dwc:namePublishedIn "Nat. Pflanzenfam. I(3): 322 (1901)" .
+    dwc:namePublishedIn "Nat. Pflanzenfam. I(3): 322 (1901)" ;
     tcs:basionym <https://www.tropicos.org/name/35121972> .
 
 <https://www.tropicos.org/name/35121973> a tcs:TaxonName ;
     tcs:taxonNameString "Dicranum blumei var. laxifolium" ;
     dwc:scientificNameAuthorship "Broth. & Geh." ;
-    dwc:namePublishedIn "Biblioth. Bot. 44: 4 (1898)" 
+    dwc:namePublishedIn "Biblioth. Bot. 44: 4 (1898)" .
 
 <https://www.tropicos.org/name/35121477> a tcs:TaxonName ;
     tcs:taxonNameString "Dicranoloma blumei var. papillisetum" ;

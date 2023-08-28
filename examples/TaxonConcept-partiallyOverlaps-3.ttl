@@ -1,0 +1,21 @@
+@prefix tcs: <http://rs.tdwg.org/tcs/terms/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dwc: <http://rs.tdwg.org/dwc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+# Phyllotrox sec. Franz & O'Brien (2001) partially overlaps Phyllotrox sec. Franz (2006)
+[] a dwc:ResourceRelationship, rdf:Statement ;
+    rdf:subject [ a tcs:TaxonConcept ;
+        dcterms:title "Phyllotrox sec. Franz & O'Brien (2001)" ;
+        tcs:accordingTo <https://www.jstor.org/stable/25078744> ;
+        tcs:taxonName _:b1 ] ;
+    rdf:predicate tcs:partiallyOverlaps ;
+    rdf:object [ a tcs:TaxonConcept ; 
+        dcterms:title "Phyllotrox sec. Franz (2006)" ;
+        tcs:accordingTo <https://doi.org/10.1111/j.1365-3113.2005.00308.x> ;
+        tcs:taxonName _:b1 ] ;
+    dcterms:source <https://doi.org/10.1111/cla.12042> .
+
+_:b1 a tcs:TaxonName ;
+    tcs:taxonNameString "Phyllotrox" ;
+    dwc:scientificNameAuthorship "Schönherr, 1843" .

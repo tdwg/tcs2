@@ -1,0 +1,44 @@
+{
+  "@context": "https://raw.githubusercontent.com/tdwg/tcs2/dev-20230824/examples/context.jsonld",
+  "@graph": [
+    {
+      "@type": "NomenclaturalType",
+      "typifiedName": {
+        "@id": "https://www.ipni.org/n/50985479-1",
+        "@type": "TaxonName",
+        "taxonNameString": "Rhododendron sect. Sciadorhodion",
+        "dwc:scientificNameAuthorship": "Rehder & Wilson"
+      },
+      "typeOfType": "lectotype",
+      "typeName": {
+        "@id": "https://www.ipni.org/n/333193-1",
+        "@type": "TaxonName",
+        "taxonNameString": "Rhododendron quinquefolium",
+        "dwc:scientificNameAuthorship": "Bisset & S.Moore"
+      },
+      "typePublishedIn": {
+        "dcterms:bibliographicCitation": "Copeland, H.F. (1943). A study, anatomical and taxonomic, of the genera of Rhododendroideae. Am. Midl. Nat. 30: 533-625"
+      }
+    },
+    {
+      "@type": "NomenclaturalType",
+      "typifiedName": {
+        "@id": "https://www.ipni.org/n/333193-1",
+        "@type": "TaxonName",
+        "taxonNameString": "Rhododendron quinquefolium",
+        "dwc:scientificNameAuthorship": "Bisset & S.Moore"
+      },
+      "typeOfType": "lectotype",
+      "typeSpecimen": {
+        "@type": "dwc:PreservedSpecimen",
+        "dwc:verbatimLocality": "Japan, Honshu, Nikko",
+        "dwc:recordedBy": "Bisset",
+        "dwc:eventDate": "1876-05-23",
+        "dwc:institutionCode": "E"
+      },
+      "typePublishedIn": {
+        "dcterms:bibliographicCitation": "Judd, W.S.; Kron, K.A. (1995). A revision of Rhododendron VI. Subgenus Pentanthera (sections Sciadorhodon, Rhodora and Viscidula). Edinburgh Journal of Botany 52: 1-54."
+      }
+    }
+  ]
+}
