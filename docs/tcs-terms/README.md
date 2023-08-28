@@ -78,7 +78,7 @@ By contrast, entries in the nomenclature section of treatments and in lists  of 
 
 [&lsqb;TaxonConcept-1.ttl&rsqb;](../../examples/TaxonConcept-1.ttl)&nbsp;[&lsqb;TaxonConcept-1.jsonld&rsqb;](../../examples/TaxonConcept-1.jsonld)
 
-;
+
 ```turtle
 [] a tcs:TaxonConcept ;
     dcterms:title "Orthetrum caledonicum sec. Theischinger and Hawking (2010)" ;
@@ -96,7 +96,7 @@ By contrast, entries in the nomenclature section of treatments and in lists  of 
 
 [&lsqb;TaxonConcept-2.ttl&rsqb;](../../examples/TaxonConcept-2.ttl)&nbsp;[&lsqb;TaxonConcept-2.jsonld&rsqb;](../../examples/TaxonConcept-2.jsonld)
 
-;
+
 ```turtle
 [] a tcs:TaxonConcept ;
     dcterms:title "Calymperes moluccense sec. Yong et al. (2013)" ;
@@ -115,7 +115,7 @@ By contrast, entries in the nomenclature section of treatments and in lists  of 
 
 [&lsqb;TaxonConcept-3.ttl&rsqb;](../../examples/TaxonConcept-3.ttl)&nbsp;[&lsqb;TaxonConcept-3.jsonld&rsqb;](../../examples/TaxonConcept-3.jsonld)
 
-;
+
 ```turtle
 <https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:105644-1> a tcs:TaxonConcept ;
     dcterms:title "Begonia salaziensis sec. POWO (2022)" ;
@@ -134,7 +134,7 @@ By contrast, entries in the nomenclature section of treatments and in lists  of 
 
 [&lsqb;TaxonConcept-4.ttl&rsqb;](../../examples/TaxonConcept-4.ttl)&nbsp;[&lsqb;TaxonConcept-4.jsonld&rsqb;](../../examples/TaxonConcept-4.jsonld)
 
-;
+
 ```turtle
 <https://www.catalogueoflife.org/data/taxon/KF8T#v2022-11-14> a tcs:TaxonConcept ;
     dcterms:title "Balaenoptera musculus sec. Catalogue of Life (v2022-11-14)" ;
@@ -151,7 +151,7 @@ By contrast, entries in the nomenclature section of treatments and in lists  of 
 
 [&lsqb;TaxonConcept-5.ttl&rsqb;](../../examples/TaxonConcept-5.ttl)&nbsp;[&lsqb;TaxonConcept-5.jsonld&rsqb;](../../examples/TaxonConcept-5.jsonld)
 
-;### tcs:accordingTo
+### tcs:accordingTo
 
 <table style="width:100%;">
 	<tbody>
@@ -234,7 +234,7 @@ The value of `accordingTo` has to be an object or IRI. This object can  contain 
 
 [&lsqb;TaxonConcept-accordingTo-1.ttl&rsqb;](../../examples/TaxonConcept-accordingTo-1.ttl)&nbsp;[&lsqb;TaxonConcept-accordingTo-1.jsonld&rsqb;](../../examples/TaxonConcept-accordingTo-1.jsonld)
 
-;
+
 ```turtle
 # Field guide (object of property only)
 <urn:isbn:978-0-307-95790-0> a bibo:Book ;
@@ -259,7 +259,7 @@ _:b1 a foaf:Person ;
 
 [&lsqb;TaxonConcept-accordingTo-2.ttl&rsqb;](../../examples/TaxonConcept-accordingTo-2.ttl)&nbsp;[&lsqb;TaxonConcept-accordingTo-2.jsonld&rsqb;](../../examples/TaxonConcept-accordingTo-2.jsonld)
 
-;
+
 ```turtle
 # Checklist (object of property only)
 <urn:isbn:978-967-5221-99-6> a bibo:Book ;
@@ -270,7 +270,7 @@ _:b1 a foaf:Person ;
 
 [&lsqb;TaxonConcept-accordingTo-3.ttl&rsqb;](../../examples/TaxonConcept-accordingTo-3.ttl)&nbsp;[&lsqb;TaxonConcept-accordingTo-3.jsonld&rsqb;](../../examples/TaxonConcept-accordingTo-3.jsonld)
 
-;### tcs:taxonName
+### tcs:taxonName
 
 <table style="width:100%;">
 	<tbody>
@@ -423,7 +423,7 @@ Synonyms are names and synonymy is between names but, if the names have  differe
 
 [&lsqb;TaxonConcept-synonym-1.ttl&rsqb;](../../examples/TaxonConcept-synonym-1.ttl)&nbsp;[&lsqb;TaxonConcept-synonym-1.jsonld&rsqb;](../../examples/TaxonConcept-synonym-1.jsonld)
 
-;
+
 ```turtle
 [] a tcs:TaxonConcept ;
     dcterms:title "Hebe imbricata sec. Bayly & Kellow (2006)" ;
@@ -448,7 +448,7 @@ Synonyms are names and synonymy is between names but, if the names have  differe
 
 [&lsqb;TaxonConcept-synonym-2.ttl&rsqb;](../../examples/TaxonConcept-synonym-2.ttl)&nbsp;[&lsqb;TaxonConcept-synonym-2.jsonld&rsqb;](../../examples/TaxonConcept-synonym-2.jsonld)
 
-;
+
 ```turtle
 <https://www.catalogueoflife.org/data/taxon/3YVTF> a tcs:TaxonConcept ;
     dcterms:title "Megalorhipida leucodactylus sec. Gielis & Hobern 2020-07-16" ;
@@ -488,7 +488,7 @@ Synonyms are names and synonymy is between names but, if the names have  differe
 
 [&lsqb;TaxonConcept-synonym-3.ttl&rsqb;](../../examples/TaxonConcept-synonym-3.ttl)&nbsp;[&lsqb;TaxonConcept-synonym-3.jsonld&rsqb;](../../examples/TaxonConcept-synonym-3.jsonld)
 
-;### tcs:vernacularName
+### tcs:vernacularName
 
 <table style="width:100%;">
 	<tbody>
@@ -549,7 +549,7 @@ The `vernacularName` property can be used when a vernacular name is used  alongs
 
 [&lsqb;TaxonConcept-vernacularName-1.ttl&rsqb;](../../examples/TaxonConcept-vernacularName-1.ttl)&nbsp;[&lsqb;TaxonConcept-vernacularName-1.jsonld&rsqb;](../../examples/TaxonConcept-vernacularName-1.jsonld)
 
-;
+
 ```turtle
 [] a tcs:TaxonConcept ;
     dcterms:title "Quercus robur sec. Duistermaat (2020)" ;
@@ -569,7 +569,7 @@ The `vernacularName` property can be used when a vernacular name is used  alongs
 
 [&lsqb;TaxonConcept-vernacularName-2.ttl&rsqb;](../../examples/TaxonConcept-vernacularName-2.ttl)&nbsp;[&lsqb;TaxonConcept-vernacularName-2.jsonld&rsqb;](../../examples/TaxonConcept-vernacularName-2.jsonld)
 
-;
+
 ```turtle
 <https://vicflora.rbg.vic.gov.au/flora/taxon/93c88fde-ab15-4a9a-a61d-3830a57a0160#2023-03-02> 
     a tcs:TaxonConcept ;
@@ -603,7 +603,7 @@ The `vernacularName` property can be used when a vernacular name is used  alongs
 
 [&lsqb;TaxonConcept-vernacularName-3.ttl&rsqb;](../../examples/TaxonConcept-vernacularName-3.ttl)&nbsp;[&lsqb;TaxonConcept-vernacularName-3.jsonld&rsqb;](../../examples/TaxonConcept-vernacularName-3.jsonld)
 
-;### tcs:taxonomicRank
+### tcs:taxonomicRank
 
 <table style="width:100%;">
 	<tbody>
@@ -752,7 +752,7 @@ This relationship can also be written as the formula **A &cong; B** or **A == B*
 
 [&lsqb;TaxonConcept-isCongruentWith-1.ttl&rsqb;](../../examples/TaxonConcept-isCongruentWith-1.ttl)&nbsp;[&lsqb;TaxonConcept-isCongruentWith-1.jsonld&rsqb;](../../examples/TaxonConcept-isCongruentWith-1.jsonld)
 
-;
+
 ```turtle
 # Andropogon capillipes sec. BONAP 2014 is congruent with Andropogon capillipes sec. Weakley 2006
 [] a dwc:ResourceRelationship, rdf:Statement ;
@@ -770,7 +770,7 @@ This relationship can also be written as the formula **A &cong; B** or **A == B*
 
 [&lsqb;TaxonConcept-isCongruentWith-2.ttl&rsqb;](../../examples/TaxonConcept-isCongruentWith-2.ttl)&nbsp;[&lsqb;TaxonConcept-isCongruentWith-2.jsonld&rsqb;](../../examples/TaxonConcept-isCongruentWith-2.jsonld)
 
-;
+
 ```turtle
 [] a tcs:TaxonConcept ;
     dcterms:title "Dicranum fuscescens sec. Koperski et al. (2000)" ;
@@ -784,7 +784,7 @@ This relationship can also be written as the formula **A &cong; B** or **A == B*
 
 [&lsqb;TaxonConcept-isCongruentWith-3.ttl&rsqb;](../../examples/TaxonConcept-isCongruentWith-3.ttl)&nbsp;[&lsqb;TaxonConcept-isCongruentWith-3.jsonld&rsqb;](../../examples/TaxonConcept-isCongruentWith-3.jsonld)
 
-;### tcs:includes
+### tcs:includes
 
 <table style="width:100%;">
 	<tbody>
@@ -841,7 +841,7 @@ This relation type can also be written as the formula **A > B**.
 
 [&lsqb;TaxonConcept-includes-1.ttl&rsqb;](../../examples/TaxonConcept-includes-1.ttl)&nbsp;[&lsqb;TaxonConcept-includes-1.jsonld&rsqb;](../../examples/TaxonConcept-includes-1.jsonld)
 
-;
+
 ```turtle
 # Andropogon glomeratus sec. BONAP 2014 includes Andropogon tenuispatheus sec. Weakley 2006
 [] a dwc:ResourceRelationship, rdf:Statement ;
@@ -859,7 +859,7 @@ This relation type can also be written as the formula **A > B**.
 
 [&lsqb;TaxonConcept-includes-2.ttl&rsqb;](../../examples/TaxonConcept-includes-2.ttl)&nbsp;[&lsqb;TaxonConcept-includes-2.jsonld&rsqb;](../../examples/TaxonConcept-includes-2.jsonld)
 
-;### tcs:isIncludedIn
+### tcs:isIncludedIn
 
 <table style="width:100%;">
 	<tbody>
@@ -928,7 +928,7 @@ This relation type can also be written as the formula **A < B**.
 
 [&lsqb;TaxonConcept-isIncludedIn-1.ttl&rsqb;](../../examples/TaxonConcept-isIncludedIn-1.ttl)&nbsp;[&lsqb;TaxonConcept-isIncludedIn-1.jsonld&rsqb;](../../examples/TaxonConcept-isIncludedIn-1.jsonld)
 
-;
+
 ```turtle
 # Andropogon hirsutior sec. BONAP 2014 is included in Andropogon glomeratus sec. Weakley 2006
 [] a dwc:ResourceRelationship, rdf:Statement ;
@@ -946,7 +946,7 @@ This relation type can also be written as the formula **A < B**.
 
 [&lsqb;TaxonConcept-isIncludedIn-2.ttl&rsqb;](../../examples/TaxonConcept-isIncludedIn-2.ttl)&nbsp;[&lsqb;TaxonConcept-isIncludedIn-2.jsonld&rsqb;](../../examples/TaxonConcept-isIncludedIn-2.jsonld)
 
-;### tcs:partiallyOverlaps
+### tcs:partiallyOverlaps
 
 <table style="width:100%;">
 	<tbody>
@@ -1003,7 +1003,7 @@ This relationship can also be written as the formula **A >< B**.
 
 [&lsqb;TaxonConcept-partiallyOverlaps-1.ttl&rsqb;](../../examples/TaxonConcept-partiallyOverlaps-1.ttl)&nbsp;[&lsqb;TaxonConcept-partiallyOverlaps-1.jsonld&rsqb;](../../examples/TaxonConcept-partiallyOverlaps-1.jsonld)
 
-;
+
 ```turtle
 # Andropogon glomeratus sec. BONAP 2014 partially overlaps Andropogon glomeratus sec. Weakley 2006
 [] a dwc:ResourceRelationship, rdf:Statement ;
@@ -1021,7 +1021,7 @@ This relationship can also be written as the formula **A >< B**.
 
 [&lsqb;TaxonConcept-partiallyOverlaps-2.ttl&rsqb;](../../examples/TaxonConcept-partiallyOverlaps-2.ttl)&nbsp;[&lsqb;TaxonConcept-partiallyOverlaps-2.jsonld&rsqb;](../../examples/TaxonConcept-partiallyOverlaps-2.jsonld)
 
-;
+
 ```turtle
 # Phyllotrox sec. Franz & O'Brien (2001) partially overlaps Phyllotrox sec. Franz (2006)
 [] a dwc:ResourceRelationship, rdf:Statement ;
@@ -1043,7 +1043,7 @@ _:b1 a tcs:TaxonName ;
 
 [&lsqb;TaxonConcept-partiallyOverlaps-3.ttl&rsqb;](../../examples/TaxonConcept-partiallyOverlaps-3.ttl)&nbsp;[&lsqb;TaxonConcept-partiallyOverlaps-3.jsonld&rsqb;](../../examples/TaxonConcept-partiallyOverlaps-3.jsonld)
 
-;### tcs:isDisjointFrom
+### tcs:isDisjointFrom
 
 <table style="width:100%;">
 	<tbody>
@@ -1104,7 +1104,7 @@ This relationship can also be written as the formula **A | B**.
 
 [&lsqb;TaxonConcept-isDisjointFrom.ttl&rsqb;](../../examples/TaxonConcept-isDisjointFrom.ttl)&nbsp;[&lsqb;TaxonConcept-isDisjointFrom.jsonld&rsqb;](../../examples/TaxonConcept-isDisjointFrom.jsonld)
 
-;### tcs:intersects
+### tcs:intersects
 
 <table style="width:100%;">
 	<tbody>
@@ -1171,7 +1171,7 @@ This relationship can also be written as the formula **A | B**.
 
 [&lsqb;TaxonConcept-intersects-1.ttl&rsqb;](../../examples/TaxonConcept-intersects-1.ttl)&nbsp;[&lsqb;TaxonConcept-intersects-1.jsonld&rsqb;](../../examples/TaxonConcept-intersects-1.jsonld)
 
-;### dcterms:title
+### dcterms:title
 
 <table style="width:100%;">
 	<tbody>
@@ -1258,7 +1258,7 @@ The word 'name' here is taken in its dictionary meaning and not in the  sense of
 
 [&lsqb;TaxonName-1.ttl&rsqb;](../../examples/TaxonName-1.ttl)&nbsp;[&lsqb;TaxonName-1.jsonld&rsqb;](../../examples/TaxonName-1.jsonld)
 
-;
+
 ```turtle
 <https://www.ipni.org/n/316069-1> a tcs:TaxonName ;
     tcs:taxonNameString "Rafflesia arnoldii" ;
@@ -1268,7 +1268,7 @@ The word 'name' here is taken in its dictionary meaning and not in the  sense of
 
 [&lsqb;TaxonName-2.ttl&rsqb;](../../examples/TaxonName-2.ttl)&nbsp;[&lsqb;TaxonName-2.jsonld&rsqb;](../../examples/TaxonName-2.jsonld)
 
-;
+
 ```turtle
 <http://www.indexfungorum.org/names/NamesRecord.asp?RecordID=178962> a tcs:TaxonName ;
     tcs:taxonNameString "Amanita phalloides" ;
@@ -1278,7 +1278,7 @@ The word 'name' here is taken in its dictionary meaning and not in the  sense of
 
 [&lsqb;TaxonName-3.ttl&rsqb;](../../examples/TaxonName-3.ttl)&nbsp;[&lsqb;TaxonName-3.jsonld&rsqb;](../../examples/TaxonName-3.jsonld)
 
-;
+
 ```turtle
 # Example from TCS 1
 <https://www.ipni.org/n/50985479-1> a tcs:TaxonName ;
@@ -1298,7 +1298,7 @@ The word 'name' here is taken in its dictionary meaning and not in the  sense of
 
 [&lsqb;TaxonName-4.ttl&rsqb;](../../examples/TaxonName-4.ttl)&nbsp;[&lsqb;TaxonName-4.jsonld&rsqb;](../../examples/TaxonName-4.jsonld)
 
-;### tcs:taxonNameString
+### tcs:taxonNameString
 
 <table style="width:100%;">
 	<tbody>
@@ -1555,7 +1555,7 @@ A basionym is the epithet-bringing name.  The `basionym` property is only  used 
 
 [&lsqb;TaxonName-basionym-1.ttl&rsqb;](../../examples/TaxonName-basionym-1.ttl)&nbsp;[&lsqb;TaxonName-basionym-1.jsonld&rsqb;](../../examples/TaxonName-basionym-1.jsonld)
 
-;
+
 ```turtle
 [] a tcs:TaxonName ;
     tcs:taxonNameString "Osphranter rufus" ;
@@ -1574,7 +1574,7 @@ _:b1 a tcs:TaxonName ;
 
 [&lsqb;TaxonName-basionym-2.ttl&rsqb;](../../examples/TaxonName-basionym-2.ttl)&nbsp;[&lsqb;TaxonName-basionym-2.jsonld&rsqb;](../../examples/TaxonName-basionym-2.jsonld)
 
-;### tcs:replacedName
+### tcs:replacedName
 
 <table style="width:100%;">
 	<tbody>
@@ -1658,7 +1658,7 @@ In the Botanical Code the term 'replaced synonym' is used. A 'replacement  name'
 
 [&lsqb;TaxonName-replacedSynonym-1.ttl&rsqb;](../../examples/TaxonName-replacedSynonym-1.ttl)&nbsp;[&lsqb;TaxonName-replacedSynonym-1.jsonld&rsqb;](../../examples/TaxonName-replacedSynonym-1.jsonld)
 
-;
+
 ```turtle
 <https://www.tropicos.org/name/35000146> a tcs:TaxonName ;
     tcs:taxonNameString "Braunfelsia" ;
@@ -1684,7 +1684,7 @@ In the Botanical Code the term 'replaced synonym' is used. A 'replacement  name'
 
 [&lsqb;TaxonName-replacedSynonym-2.ttl&rsqb;](../../examples/TaxonName-replacedSynonym-2.ttl)&nbsp;[&lsqb;TaxonName-replacedSynonym-2.jsonld&rsqb;](../../examples/TaxonName-replacedSynonym-2.jsonld)
 
-;### tcs:spellingCorrectionOf
+### tcs:spellingCorrectionOf
 
 <table style="width:100%;">
 	<tbody>
@@ -1756,7 +1756,7 @@ The `spellingCorrectionOf` property can be used if the originally published  nam
 
 [&lsqb;TaxonName-spellingCorrectionOf.ttl&rsqb;](../../examples/TaxonName-spellingCorrectionOf.ttl)&nbsp;[&lsqb;TaxonName-spellingCorrectionOf.jsonld&rsqb;](../../examples/TaxonName-spellingCorrectionOf.jsonld)
 
-;### tcs:conservedAgainst
+### tcs:conservedAgainst
 
 <table style="width:100%;">
 	<tbody>
@@ -1821,7 +1821,7 @@ A scientific name below the rank of family is not conserved against all  other n
 
 [&lsqb;TaxonName-conservedAgainst.ttl&rsqb;](../../examples/TaxonName-conservedAgainst.ttl)&nbsp;[&lsqb;TaxonName-conservedAgainst.jsonld&rsqb;](../../examples/TaxonName-conservedAgainst.jsonld)
 
-;### dwc:scientificName
+### dwc:scientificName
 
 <table style="width:100%;">
 	<tbody>
@@ -2179,7 +2179,7 @@ A nomenclatural type fixes the usage of a name to the taxonomic group that  cont
 
 [&lsqb;NomenclaturalType.ttl&rsqb;](../../examples/NomenclaturalType.ttl)&nbsp;[&lsqb;NomenclaturalType.jsonld&rsqb;](../../examples/NomenclaturalType.jsonld)
 
-;### tcs:typifiedName
+### tcs:typifiedName
 
 <table style="width:100%;">
 	<tbody>
