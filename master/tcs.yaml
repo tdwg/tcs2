@@ -525,8 +525,8 @@
     created in the place a taxon is transferred to because of an older blocking 
     name.
   examples: 
-    - TaxonName-replacedSynonym-1
-    - TaxonName-replacedSynonym-2
+    - TaxonName-replacedName-1
+    - TaxonName-replacedName-2
   type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonName
   required: No
