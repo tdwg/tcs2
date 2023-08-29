@@ -1153,11 +1153,17 @@ This relationship can also be written as the formula **A | B**.
     tcs:taxonName <https://ipni.org/n/105644-1> ;
     tcs:intersects [ a tcs:TaxonConcept ;
             dcterms:title "Begonia salaziensis sec. Warburg 1894" ;
-            tcs:accordingTo <https://bibdigital.rjb.csic.es/viewer/10939/?offset=#page=141> ;
+            tcs:accordingTo [ a bibo:Chapter ;
+                    dcterms:bibliographicCitation """Warburg, O. (1894). Begoniaceae, 
+                            in Engler, A. & K. Prantl, Nat. Pflanzenfam. 3(6a): 
+                            121-150.""" ] ;
             tcs:taxonName <https://ipni.org/n/105644-1> ] ,
         [ a tcs:TaxonConcept ;
             dcterms:title "Begonia salaziensis sec. Irmscher 1925" ;
-            tcs:accordingTo <https://eg.tdwg.org/tcs/ref/0552488b705004b9> ;
+            tcs:accordingTo [ a bibo:Chapter ;
+                    dcterms:bibliographicCitation """Irmscher, E. (1925). Begoniaceae, 
+                            in Engler, A. & K. Prantl, Nat. Pflanzenfam. ed. 2, 21: 
+                            548-588.""" ] ;
             tcs:taxonName <https://ipni.org/n/105644-1> ] .
 
 [] a tcs:TaxonConcept ;
@@ -1166,7 +1172,9 @@ This relationship can also be written as the formula **A | B**.
     tcs:taxonName <https://www.ipni.org/n/105731-1> ;
     tcs:intersects [ a tcs:TaxonConcept ;
         dcterms:title "Begonia comorensis sec. Keraudren-Aymonin 1983" ;
-        tcs:accordingTo <https://eg.tdwg.org/tcs/ref/ba1eab1dfbe06903> ;
+        tcs:accordingTo [ a bibo:Book ;
+                dcterms:bibliographicCitation """Keraudren-Aymonin, M. (1983). Flore 
+                        de Madagascar et des Comores. Famille 144 – Begoniacées: 7-108""" ] ;
         tcs:taxonName <https://www.ipni.org/n/104440-1> ;
         tcs:synonym <https://www.ipni.org/n/105731-1> ] .
 ```
@@ -1658,7 +1666,7 @@ In the Botanical Code the term 'replaced synonym' is used. A 'replacement  name'
     tcs:basionym <https://www.tropicos.org/name/35183593> .
 ```
 
-[&lsqb;TaxonName-replacedSynonym-1.ttl&rsqb;](../../examples/TaxonName-replacedSynonym-1.ttl)&nbsp;[&lsqb;TaxonName-replacedSynonym-1.jsonld&rsqb;](../../examples/TaxonName-replacedSynonym-1.jsonld)
+[&lsqb;TaxonName-replacedName-1.ttl&rsqb;](../../examples/TaxonName-replacedName-1.ttl)&nbsp;[&lsqb;TaxonName-replacedName-1.jsonld&rsqb;](../../examples/TaxonName-replacedName-1.jsonld)
 
 
 ```turtle
@@ -1684,7 +1692,7 @@ In the Botanical Code the term 'replaced synonym' is used. A 'replacement  name'
     dwc:namePublishedInYear "1871" .
 ```
 
-[&lsqb;TaxonName-replacedSynonym-2.ttl&rsqb;](../../examples/TaxonName-replacedSynonym-2.ttl)&nbsp;[&lsqb;TaxonName-replacedSynonym-2.jsonld&rsqb;](../../examples/TaxonName-replacedSynonym-2.jsonld)
+[&lsqb;TaxonName-replacedName-2.ttl&rsqb;](../../examples/TaxonName-replacedName-2.ttl)&nbsp;[&lsqb;TaxonName-replacedName-2.jsonld&rsqb;](../../examples/TaxonName-replacedName-2.jsonld)
 
 ### tcs:spellingCorrectionOf
 

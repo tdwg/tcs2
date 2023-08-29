@@ -11,7 +11,7 @@
           "@type": "TaxonConcept",
           "dcterms:title": "Begonia salaziensis sec. Warburg 1894",
           "accordingTo": {
-            "dcterms:bibliographicCitation": "Warburg, 1894"
+            "dcterms:bibliographicCitation": "Warburg, O. (1894). Begoniaceae, in Engler, A. & K. Prantl, Nat. Pflanzenfam. 3(6a): 121-150."
           },
           "taxonName": "https://ipni.org/n/105644-1"
         },
@@ -19,7 +19,7 @@
           "@type": "TaxonConcept",
           "dcterms:title": "Begonia salaziensis sec. Irmscher 1925",
           "accordingTo": {
-            "dcterms:bibliographicCitation": "Irmscher, 1925"
+            "dcterms:bibliographicCitation": "Irmscher, E. (1925). Begoniaceae, in Engler, A. & K. Prantl, Nat. Pflanzenfam. ed. 2, 21: 548-588."
           },
           "taxonName": "https://ipni.org/n/105644-1"
         }
