@@ -23,11 +23,13 @@
     `isIncludedIn`, `partiallyOverlaps`, `isDisjointFrom` and `intersects`.
 
 
-    The TCS Taxon Concept is applied more broadly than the 
-    term is used in science (e.g. Franz & Peet 2009). On the one hand, things 
+    The TCS Taxon Concept is applied more broadly than the term is used in 
+    science (e.g. Franz & Peet 2009 
+    [\[franz_perspectives_2009\]](../bibliography/#franz_perspectives_2009)). 
+    On the one hand, things 
     that are not generally considered to be biological taxa, e.g. hybrids and 
     cultivars, can be casted as TCS Taxon Concepts. Also Operational Taxonomic 
-    Units (OTUs)[\[sokal_principles_1963\]](../bibliography/#sokal_principles_1963) 
+    Units (OTUs) [\[sokal_principles_1963\]](../bibliography/#sokal_principles_1963) 
     can be exchanged as Taxon Concepts, if there is a reason to do so, e.g. if 
     one wants to align them with other Taxon Concepts later. On the other hand, 
     entries from treatments that are considered to cite concepts from other 
