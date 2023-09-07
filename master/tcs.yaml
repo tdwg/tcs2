@@ -41,8 +41,8 @@
     Taxon Concepts that may provide more or different taxonomic context.
 
 
-    By contrast, entries in the nomenclature section of treatments and in lists 
-    of nomenclatural types are not Taxon Concepts.
+    By contrast, entries in the nomenclature section of treatments (synonyms) 
+    and in lists of nomenclatural types are not Taxon Concepts.
   examples: 
     - TaxonConcept-1
     - TaxonConcept-2
