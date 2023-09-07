@@ -6,12 +6,12 @@
 # Phyllotrox sec. Franz & O'Brien (2001) partially overlaps Phyllotrox sec. Franz (2006)
 [] a dwc:ResourceRelationship, rdf:Statement ;
     rdf:subject [ a tcs:TaxonConcept ;
-        dcterms:title "Phyllotrox sec. Franz & O'Brien (2001)" ;
+        dcterms:title "Phyllotrox sec. Franz & O'Brien 2001" ;
         tcs:accordingTo <https://www.jstor.org/stable/25078744> ;
         tcs:taxonName _:b1 ] ;
     rdf:predicate tcs:partiallyOverlaps ;
     rdf:object [ a tcs:TaxonConcept ; 
-        dcterms:title "Phyllotrox sec. Franz (2006)" ;
+        dcterms:title "Phyllotrox sec. Franz 2006" ;
         tcs:accordingTo <https://doi.org/10.1111/j.1365-3113.2005.00308.x> ;
         tcs:taxonName _:b1 ] ;
     dcterms:source <https://doi.org/10.1111/cla.12042> .

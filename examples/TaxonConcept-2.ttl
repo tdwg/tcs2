@@ -3,7 +3,7 @@
 @prefix bibo: <http://purl.org/ontology/bibo/> .
 
 [] a tcs:TaxonConcept ;
-    dcterms:title "Orthetrum caledonicum sec. Theischinger and Hawking (2010)" ;
+    dcterms:title "Orthetrum caledonicum sec. Theischinger and Hawking 2010" ;
     tcs:accordingTo <urn:isbn:978-0-643-09073-6> ;
     tcs:taxonName [ a tcs:TaxonName ; 
             tcs:taxonNameString "Orthetrum caledonicum" ] ;

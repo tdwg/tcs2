@@ -4,7 +4,7 @@
 @prefix bibo: <http://purl.org/ontology/bibo/> .
 
 <https://www.catalogueoflife.org/data/taxon/KF8T#v2022-11-14> a tcs:TaxonConcept ;
-    dcterms:title "Balaenoptera musculus sec. Catalogue of Life (v2022-11-14)" ;
+    dcterms:title "Balaenoptera musculus sec. Catalogue of Life 2022-11-14" ;
     tcs:accordingTo <https://www.catalogueoflife.org#v2022-11-14> ;
     tcs:taxonName [ a tcs:TaxonName ;
             tcs:taxonNameString "Balaenoptera musculus" ;

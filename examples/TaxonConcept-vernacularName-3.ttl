@@ -6,7 +6,7 @@
 
 <https://vicflora.rbg.vic.gov.au/flora/taxon/93c88fde-ab15-4a9a-a61d-3830a57a0160#2023-03-02> 
     a tcs:TaxonConcept ;
-    dcterms:title "Callitris verrucosa sec. VicFlora (2023-03-22)" ;
+    dcterms:title "Callitris verrucosa sec. VicFlora 2023-03-22" ;
     tcs:accordingTo [ a bibo:Website ;
             dcterms:bibliographicCitation """VicFlora (2023). Flora of Victoria, 
                     Royal Botanic Gardens Victoria. Available online: 

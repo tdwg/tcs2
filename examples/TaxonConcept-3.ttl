@@ -4,7 +4,7 @@
 @prefix bibo: <http://purl.org/ontology/bibo/> .
 
 [] a tcs:TaxonConcept ;
-    dcterms:title "Calymperes moluccense sec. Yong et al. (2013)" ;
+    dcterms:title "Calymperes moluccense sec. Yong et al. 2013" ;
     tcs:accordingTo <urn:isbn:978-967-5221-99-6> ;
     tcs:taxonName <https://www.tropicos.org/name/35153806> .
 

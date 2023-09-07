@@ -4,7 +4,7 @@
 @prefix bibo: <http://purl.org/ontology/bibo/> .
 
 <https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:105644-1> a tcs:TaxonConcept ;
-    dcterms:title "Begonia salaziensis sec. POWO (2022)" ;
+    dcterms:title "Begonia salaziensis sec. POWO 2022" ;
     tcs:accordingTo <urn:lsid:ipni.org:publications:17755-2> ;
     tcs:taxonName <https://www.ipni.org/n/105644-1> .
 

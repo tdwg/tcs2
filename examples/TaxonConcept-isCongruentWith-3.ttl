@@ -4,7 +4,7 @@
 @prefix bibo: <http://purl.org/ontology/bibo/> .
 
 [] a tcs:TaxonConcept ;
-    dcterms:title "Dicranum fuscescens sec. Koperski et al. (2000)" ;
+    dcterms:title "Dicranum fuscescens sec. Koperski et al. 2000" ;
     tcs:accordingTo <https://www.tropicos.org/reference/9022656> ;
     tcs:taxonName <https://www.tropicos.org/name/35122385> ;
     tcs:isCongruentWith [ a tcs:TaxonConcept ;

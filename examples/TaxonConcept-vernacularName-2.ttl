@@ -5,7 +5,7 @@
 @prefix gbif: <http://rs.gbif.org/terms/1.0/> .
 
 [] a tcs:TaxonConcept ;
-    dcterms:title "Quercus robur sec. Duistermaat (2020)" ;
+    dcterms:title "Quercus robur sec. Duistermaat 2020" ;
     tcs:accordingTo <urn:isbn:978-90-01-58956-1> ;
     tcs:taxonName <https://www.ipni.org/n/304293-2> ;
     tcs:vernacularName [ a gbif:VernacularName ;

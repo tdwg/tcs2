@@ -62,7 +62,7 @@ By contrast, entries in the nomenclature section of treatments and in lists  of 
 
 ```turtle
 [] a tcs:TaxonConcept ;
-    dcterms:title "Dicranoloma blumei sec. Klazenga (1999)" ;
+    dcterms:title "Dicranoloma blumei sec. Klazenga 1999" ;
     tcs:accordingTo <https://www.tropicos.org/reference/9020903> 
     tcs:taxonName <https://www.tropicos.org/name/35121475> .
 
@@ -81,7 +81,7 @@ By contrast, entries in the nomenclature section of treatments and in lists  of 
 
 ```turtle
 [] a tcs:TaxonConcept ;
-    dcterms:title "Orthetrum caledonicum sec. Theischinger and Hawking (2010)" ;
+    dcterms:title "Orthetrum caledonicum sec. Theischinger and Hawking 2010" ;
     tcs:accordingTo <urn:isbn:978-0-643-09073-6> ;
     tcs:taxonName [ a tcs:TaxonName ; 
             tcs:taxonNameString "Orthetrum caledonicum" ] ;
@@ -99,7 +99,7 @@ By contrast, entries in the nomenclature section of treatments and in lists  of 
 
 ```turtle
 [] a tcs:TaxonConcept ;
-    dcterms:title "Calymperes moluccense sec. Yong et al. (2013)" ;
+    dcterms:title "Calymperes moluccense sec. Yong et al. 2013" ;
     tcs:accordingTo <urn:isbn:978-967-5221-99-6> ;
     tcs:taxonName <https://www.tropicos.org/name/35153806> .
 
@@ -118,7 +118,7 @@ By contrast, entries in the nomenclature section of treatments and in lists  of 
 
 ```turtle
 <https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:105644-1> a tcs:TaxonConcept ;
-    dcterms:title "Begonia salaziensis sec. POWO (2022)" ;
+    dcterms:title "Begonia salaziensis sec. POWO 2022" ;
     tcs:accordingTo <urn:lsid:ipni.org:publications:17755-2> ;
     tcs:taxonName <https://www.ipni.org/n/105644-1> .
 
@@ -137,7 +137,7 @@ By contrast, entries in the nomenclature section of treatments and in lists  of 
 
 ```turtle
 <https://www.catalogueoflife.org/data/taxon/KF8T#v2022-11-14> a tcs:TaxonConcept ;
-    dcterms:title "Balaenoptera musculus sec. Catalogue of Life (v2022-11-14)" ;
+    dcterms:title "Balaenoptera musculus sec. Catalogue of Life 2022-11-14" ;
     tcs:accordingTo <https://www.catalogueoflife.org#v2022-11-14> ;
     tcs:taxonName [ a tcs:TaxonName ;
             tcs:taxonNameString "Balaenoptera musculus" ;
@@ -358,7 +358,7 @@ Synonyms are names and synonymy is between names but, if the names have  differe
 
 ```turtle
 []  a tcs:TaxonConcept ;
-    dcterms:title "Dicranoloma blumei sec. Klazenga (1999)" ;
+    dcterms:title "Dicranoloma blumei sec. Klazenga 1999" ;
     tcs:accordingTo <https://www.tropicos.org/reference/9020903> ;
     tcs:taxonName <https://www.tropicos.org/name/35121475> ;
     tcs:synonym <https://www.tropicos.org/name/35121973> , 
@@ -536,7 +536,7 @@ The `vernacularName` property can be used when a vernacular name is used  alongs
 
 ```turtle
 [] a tcs:TaxonConcept ;
-    dcterms:title "Graphium macleayanum sec. Orr & Kitching (2010)" ;
+    dcterms:title "Graphium macleayanum sec. Orr & Kitching 2010" ;
     tcs:accordingTo <urn:isbn:978-1-74175-108-6> ;
     tcs:taxonName [ a tcs:TaxonName ;
             tcs:taxonNameString "Graphium macleayanum" ] ;
@@ -554,7 +554,7 @@ The `vernacularName` property can be used when a vernacular name is used  alongs
 
 ```turtle
 [] a tcs:TaxonConcept ;
-    dcterms:title "Quercus robur sec. Duistermaat (2020)" ;
+    dcterms:title "Quercus robur sec. Duistermaat 2020" ;
     tcs:accordingTo <urn:isbn:978-90-01-58956-1> ;
     tcs:taxonName <https://www.ipni.org/n/304293-2> ;
     tcs:vernacularName [ a gbif:VernacularName ;
@@ -575,7 +575,7 @@ The `vernacularName` property can be used when a vernacular name is used  alongs
 ```turtle
 <https://vicflora.rbg.vic.gov.au/flora/taxon/93c88fde-ab15-4a9a-a61d-3830a57a0160#2023-03-02> 
     a tcs:TaxonConcept ;
-    dcterms:title "Callitris verrucosa sec. VicFlora (2023-03-22)" ;
+    dcterms:title "Callitris verrucosa sec. VicFlora 2023-03-22" ;
     tcs:accordingTo [ a bibo:Website ;
             dcterms:bibliographicCitation """VicFlora (2023). Flora of Victoria, 
                     Royal Botanic Gardens Victoria. Available online: 
@@ -775,7 +775,7 @@ This relationship can also be written as the formula **A &cong; B** or **A == B*
 
 ```turtle
 [] a tcs:TaxonConcept ;
-    dcterms:title "Dicranum fuscescens sec. Koperski et al. (2000)" ;
+    dcterms:title "Dicranum fuscescens sec. Koperski et al. 2000" ;
     tcs:accordingTo <https://www.tropicos.org/reference/9022656> ;
     tcs:taxonName <https://www.tropicos.org/name/35122385> ;
     tcs:isCongruentWith [ a tcs:TaxonConcept ;
@@ -1028,12 +1028,12 @@ This relationship can also be written as the formula **A >< B**.
 # Phyllotrox sec. Franz & O'Brien (2001) partially overlaps Phyllotrox sec. Franz (2006)
 [] a dwc:ResourceRelationship, rdf:Statement ;
     rdf:subject [ a tcs:TaxonConcept ;
-        dcterms:title "Phyllotrox sec. Franz & O'Brien (2001)" ;
+        dcterms:title "Phyllotrox sec. Franz & O'Brien 2001" ;
         tcs:accordingTo <https://www.jstor.org/stable/25078744> ;
         tcs:taxonName _:b1 ] ;
     rdf:predicate tcs:partiallyOverlaps ;
     rdf:object [ a tcs:TaxonConcept ; 
-        dcterms:title "Phyllotrox sec. Franz (2006)" ;
+        dcterms:title "Phyllotrox sec. Franz 2006" ;
         tcs:accordingTo <https://doi.org/10.1111/j.1365-3113.2005.00308.x> ;
         tcs:taxonName _:b1 ] ;
     dcterms:source <https://doi.org/10.1111/cla.12042> .
@@ -1761,7 +1761,7 @@ The `spellingCorrectionOf` property can be used if the originally published  nam
 # how it was spelt in the basionym, Dicranum dicarpon. However, the combination 
 # in Dicranoloma was originally spelt as 'Dicranoloma dicarpum' and that is 
 # the spelling that has been consistently used for the last almost 120 years. 
-# All records in GBIF will be as 'Dicranoloma dicarpum'.
+# All records in GBIF, for example, will be as 'Dicranoloma dicarpum'.
 ```
 
 [&lsqb;TaxonName-spellingCorrectionOf.ttl&rsqb;](../../examples/TaxonName-spellingCorrectionOf.ttl)&nbsp;[&lsqb;TaxonName-spellingCorrectionOf.jsonld&rsqb;](../../examples/TaxonName-spellingCorrectionOf.jsonld)
