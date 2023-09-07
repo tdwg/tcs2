@@ -1,13 +1,9 @@
 # Taxon Concept Schema Vocabularies
 
-This human readable documentation is dynamically created from the 
-[YAML master files](../master) after updates have been made to these files. 
-Any changes should be made in the YAML files, not directly in the markdown.
-
-### Term list
+## Term list
 
 - [TCS terms](./tcs-terms/)
 
-### Controlled vocabularies
+## Bibliography
 
-- [Taxon Relationship Type controlled vocabulary](./taxon-relationship-type-vocabulary/)
+- [Bibliography](./bibliography/)

@@ -1,1 +1,1 @@
-<!-- termlist-footer.md ==>
+<!-- footer -->

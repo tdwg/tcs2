@@ -1,31 +1,18 @@
 # TCS Term List
 
-**Note:** The content below is created dynamically from the
-`tcs.yaml` and `<other-standard>-for-tcs.yaml` files in the [`/master`](../master) folder.
-Please do not edit the markdown directly, but make any changes in the YAML
-files.
-
 ## Index of terms
-
-**classes**
-
-[tcs:TaxonConcept](#tcstaxonconcept) | [tcs:TaxonRelationship](#tcstaxonrelationship) | [tcs:TaxonName](#tcstaxonname) | [tcs:NomenclaturalType](#tcsnomenclaturaltype)
 
 **Taxon Concept**
 
-[tcs:accordingTo](#tcsaccordingto) | [tcs:acceptedName](#tcsacceptedname) | [tcs:synonym](#tcssynonym) | [tcs:vernacularName](#tcsvernacularname) | [tcs:taxonomicRank](#tcstaxonomicrank) | [tcs:parent](#tcsparent) | [dcterms:title](#dctermstitle)
-
-**Taxon Relationship**
-
-[tcs:relationshipAccordingTo](#tcsrelationshipaccordingto) | [tcs:relationshipType](#tcsrelationshiptype) | [tcs:subjectTaxonConcept](#tcssubjecttaxonconcept) | [tcs:objectTaxonConcept](#tcsobjecttaxonconcept)
+[tcs:TaxonConcept](#tcstaxonconcept) | [tcs:accordingTo](#tcsaccordingto) | [tcs:taxonName](#tcstaxonname) | [tcs:synonym](#tcssynonym) | [tcs:vernacularName](#tcsvernacularname) | [tcs:taxonomicRank](#tcstaxonomicrank) | [tcs:parent](#tcsparent) | [tcs:isCongruentWith](#tcsiscongruentwith) | [tcs:includes](#tcsincludes) | [tcs:isIncludedIn](#tcsisincludedin) | [tcs:partiallyOverlaps](#tcspartiallyoverlaps) | [tcs:isDisjointFrom](#tcsisdisjointfrom) | [tcs:intersects](#tcsintersects) | [dcterms:title](#dctermstitle)
 
 **Taxon Name**
 
-[tcs:taxonNameString](#tcstaxonnamestring) | [tcs:namePublishedIn](#tcsnamepublishedin) | [tcs:microreference](#tcsmicroreference) | [tcs:nomenclaturalCode](#tcsnomenclaturalcode) | [tcs:nomenclaturalStatus](#tcsnomenclaturalstatus) | [tcs:basionym](#tcsbasionym) | [tcs:replacedSynonym](#tcsreplacedsynonym) | [tcs:spellingCorrectionOf](#tcsspellingcorrectionof) | [tcs:conservedAgainst](#tcsconservedagainst) | [dwc:scientificName](#dwcscientificname) | [dwc:scientificNameAuthorship](#dwcscientificnameauthorship) | [dwc:namePublishedInYear](#dwcnamepublishedinyear) | [dwc:genericName](#dwcgenericname) | [dwc:infragenericEpithet](#dwcinfragenericepithet) | [dwc:specificEpithet](#dwcspecificepithet) | [dwc:infraspecificEpithet](#dwcinfraspecificepithet) | [dwc:cultivarEpithet](#dwccultivarepithet)
+[tcs:TaxonName](#tcstaxonname) | [tcs:taxonNameString](#tcstaxonnamestring) | [tcs:namePublishedIn](#tcsnamepublishedin) | [tcs:microreference](#tcsmicroreference) | [tcs:nomenclaturalCode](#tcsnomenclaturalcode) | [tcs:nomenclaturalStatus](#tcsnomenclaturalstatus) | [tcs:basionym](#tcsbasionym) | [tcs:replacedName](#tcsreplacedname) | [tcs:spellingCorrectionOf](#tcsspellingcorrectionof) | [tcs:conservedAgainst](#tcsconservedagainst) | [dwc:scientificName](#dwcscientificname) | [dwc:scientificNameAuthorship](#dwcscientificnameauthorship) | [dwc:namePublishedInYear](#dwcnamepublishedinyear) | [dwc:genericName](#dwcgenericname) | [dwc:infragenericEpithet](#dwcinfragenericepithet) | [dwc:specificEpithet](#dwcspecificepithet) | [dwc:infraspecificEpithet](#dwcinfraspecificepithet) | [dwc:cultivarEpithet](#dwccultivarepithet)
 
 **Nomenclatural Type**
 
-[tcs:typifiedName](#tcstypifiedname) | [tcs:typeOfType](#tcstypeoftype) | [tcs:typeName](#tcstypename) | [tcs:typeSpecimen](#tcstypespecimen) | [tcs:typePublishedIn](#tcstypepublishedin)
+[tcs:NomenclaturalType](#tcsnomenclaturaltype) | [tcs:typifiedName](#tcstypifiedname) | [tcs:typeOfType](#tcstypeoftype) | [tcs:typeName](#tcstypename) | [tcs:typeSpecimen](#tcstypespecimen) | [tcs:typePublishedIn](#tcstypepublishedin)
 
 ## Taxon Concept
 
@@ -47,11 +34,11 @@ files.
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td><p>An identifiable taxonomic position that can be aligned to other such  positions through TCS Taxon Relationships.</p></td>
+			<td><p>An identifiable taxonomic position that can be aligned to other such  positions through TCS concept mapping relationships.</p></td>
 		</tr>
 		<tr>
 			<td>Usage</td>
-			<td><p>The <code>acceptedName</code> and <code>accordingTo</code> properties are required.</p></td>
+			<td><p>The <code>taxonName</code> and <code>accordingTo</code> properties are required.</p></td>
 		</tr>
 		<tr>
 			<td>GitHub issue</td>
@@ -63,24 +50,24 @@ files.
 
 **Comments**
 
-A taxonomic position is an opinion about the definition of a taxonomic  group. A Taxon Concept is identifiable, because it combines a label –  `acceptedName` in TCS – with a source – `accordingTo`. Both these properties  are required. When mentioning a taxon concept, the label and the source are  combined, separated by 'sec.' (from, 'secundus', meaning 'according  to') or 'sensu' (meaning the same). The term `title` has been borrowed from  Dublin Core to provide this taxon concept label. Because of the context  provided by the source, taxon concepts are in principle also alignable to  other Taxon Concepts using the TCS Taxon Relationship statements.
+A taxonomic position is an opinion about the definition of a taxonomic  group. A Taxon Concept is identifiable, because it combines a label –  `taxonName` in TCS – with a source – `accordingTo`. Both these properties  are required. When mentioning a taxon concept, the label and the source are  combined, separated by 'sec.' (from, 'secundus', meaning 'according  to') or 'sensu' (meaning the same). The term `title` has been borrowed from  Dublin Core to provide this taxon concept label. Because of the context  provided by the source, taxon concepts are in principle also alignable to  other Taxon Concepts using TCS concept mapping relationship statements. The  concept mapping properties in TCS are `isCongruentWith`, `includes`,  `isIncludedIn`, `partiallyOverlaps`, `isDisjointFrom` and `intersects`.
 
-The TCS Taxon Concept is a data object and is applied more broadly than the  term is used in science (e.g. Franz & Peet 2009). On the one hand, things  that are not generally considered to be biological taxa, e.g. hybrids and  cultivars, can be casted as TCS Taxon Concepts. Also Operational Taxonomic  Units (OTUs, cf. Sokal & Sneath 1963) can be exchanged as Taxon Concepts,  if there is a reason to do so, e.g. if one wants to align them with other  Taxon Concepts later. On the other hand, entries from treatments that are  considered to cite concepts from other treatments can be formulated as  Taxon Concepts. Every taxon concept from a treatment that is likely to be  referenced as the source of taxonomic context, for example a field guide  for a determination of a specimen or a national census for an ecological  study, can – and it would be very nice if they would – be stated as a Taxon  Concept, so they can be aligned with other Taxon Concepts that may provide  more or different taxonomic context.
+The TCS Taxon Concept is a data object and is applied more broadly than the  term is used in science (e.g. Franz & Peet 2009). On the one hand, things  that are not generally considered to be biological taxa, e.g. hybrids and  cultivars, can be casted as TCS Taxon Concepts. Also Operational Taxonomic  Units (OTUs)[\[sokal_principles_1963\]](../bibliography/#sokal_principles_1963)  can be exchanged as Taxon Concepts, if there is a reason to do so, e.g. if  one wants to align them with other Taxon Concepts later. On the other hand,  entries from treatments that are considered to cite concepts from other  treatments can be formulated as Taxon Concepts. Every taxon concept from a  treatment that is likely to be referenced as the source of taxonomic  context, for example a field guide for a determination of a specimen or a  national census for an ecological study, can – and it would be very nice if  they would – be stated as a Taxon Concept, so they can be aligned with other  Taxon Concepts that may provide more or different taxonomic context.
 
-By contrast, assertions of synonymy or misapplication and entries in lists  of nomenclatural types are not Taxon Concepts.
+By contrast, entries in the nomenclature section of treatments and in lists  of nomenclatural types are not Taxon Concepts.
 
 
 **Examples**
 
 
 ```turtle
-[] a :TaxonConcept ;
+[] a tcs:TaxonConcept ;
     dcterms:title "Dicranoloma blumei sec. Klazenga (1999)" ;
-    :accordingTo <https://www.tropicos.org/reference/9020903> 
-    :acceptedName <https://www.tropicos.org/name/35121475> .
+    tcs:accordingTo <https://www.tropicos.org/reference/9020903> 
+    tcs:taxonName <https://www.tropicos.org/name/35121475> .
 
 <https://www.tropicos.org/name/35121475> a ;
-    :taxonNameString "Dicranoloma blumei" ;
+    tcs:taxonNameString "Dicranoloma blumei" ;
     dwc:scientificNameAuthorship "(Nees) Renauld" .
 
 <https://www.tropicos.org/reference/9020903> a bibo:AcademicArticle ;
@@ -89,17 +76,17 @@ By contrast, assertions of synonymy or misapplication and entries in lists  of n
             Hattori Botanical Laboratory 87: 1-130.""" .
 ```
 
-[&lsqb;TaxonConcept-1.ttl&rsqb;](examples/TaxonConcept-1.ttl)
+[&lsqb;TaxonConcept-1.ttl&rsqb;](../../examples/TaxonConcept-1.ttl)&nbsp;[&lsqb;TaxonConcept-1.jsonld&rsqb;](../../examples/TaxonConcept-1.jsonld)
 
 
 ```turtle
-[] a :TaxonConcept ;
+[] a tcs:TaxonConcept ;
     dcterms:title "Orthetrum caledonicum sec. Theischinger and Hawking (2010)" ;
-    :accordingTo <urn:isbn:978-0-643-09073-6> ;
-    :acceptedName [ a :TaxonName ; 
-            :taxonNameString "Orthetrum caledonicum" ] ;
-    :vernacularName [ a :TaxonName ;
-            :taxonNameString "Blue Skimmer" ] .
+    tcs:accordingTo <urn:isbn:978-0-643-09073-6> ;
+    tcs:taxonName [ a tcs:TaxonName ; 
+            tcs:taxonNameString "Orthetrum caledonicum" ] ;
+    tcs:vernacularName [ a tcs:TaxonName ;
+            tcs:taxonNameString "Blue Skimmer" ] .
 
 <urn:isbn:978-0-643-09073-6> a bibo:Book ;
     dcterms:bibliographicCitation """Theischinger, G.; Hawking, J. (2010). 
@@ -107,17 +94,17 @@ By contrast, assertions of synonymy or misapplication and entries in lists  of n
             Publishing, Collingwood, Australia.""" .
 ```
 
-[&lsqb;TaxonConcept-2.ttl&rsqb;](examples/TaxonConcept-2.ttl)
+[&lsqb;TaxonConcept-2.ttl&rsqb;](../../examples/TaxonConcept-2.ttl)&nbsp;[&lsqb;TaxonConcept-2.jsonld&rsqb;](../../examples/TaxonConcept-2.jsonld)
 
 
 ```turtle
-[] a :TaxonConcept ;
+[] a tcs:TaxonConcept ;
     dcterms:title "Calymperes moluccense sec. Yong et al. (2013)" ;
-    :accordingTo <urn:isbn:978-967-5221-99-6> ;
-    :acceptedName <https://www.tropicos.org/name/35153806> .
+    tcs:accordingTo <urn:isbn:978-967-5221-99-6> ;
+    tcs:taxonName <https://www.tropicos.org/name/35153806> .
 
-<https://www.tropicos.org/name/35153806> a :TaxonName ;
-    :taxonNameString "Calymperes moluccense" ;
+<https://www.tropicos.org/name/35153806> a tcs:TaxonName ;
+    tcs:taxonNameString "Calymperes moluccense" ;
     dwc:scientificNameAuthorship "Schwägr." .
 
 <urn:isbn:978-967-5221-99-6> a bibo:Book ;
@@ -126,17 +113,17 @@ By contrast, assertions of synonymy or misapplication and entries in lists  of n
             Pamphlet no. 133, Forest Research Institute Malaysia, Kepong, Malaysia.""" .
 ```
 
-[&lsqb;TaxonConcept-3.ttl&rsqb;](examples/TaxonConcept-3.ttl)
+[&lsqb;TaxonConcept-3.ttl&rsqb;](../../examples/TaxonConcept-3.ttl)&nbsp;[&lsqb;TaxonConcept-3.jsonld&rsqb;](../../examples/TaxonConcept-3.jsonld)
 
 
 ```turtle
-<https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:105644-1> a :TaxonConcept ;
+<https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:105644-1> a tcs:TaxonConcept ;
     dcterms:title "Begonia salaziensis sec. POWO (2022)" ;
-    :accordingTo <urn:lsid:ipni.org:publications:17755-2> ;
-    :acceptedName <https://www.ipni.org/n/105644-1> .
+    tcs:accordingTo <urn:lsid:ipni.org:publications:17755-2> ;
+    tcs:taxonName <https://www.ipni.org/n/105644-1> .
 
-<https://www.ipni.org/n/105644-1> a :TaxonName ;
-    :taxonNameString "Begonia salaziensis" ; 
+<https://www.ipni.org/n/105644-1> a tcs:TaxonName ;
+    tcs:taxonNameString "Begonia salaziensis" ; 
     dwc:scientificNameAuthorship "Warb." ;
     dwc:namePublishedIn "Nat. Pflanzenfam. [Engler & Prantl] iii. 6 a. (1894) 139." .
 
@@ -145,15 +132,15 @@ By contrast, assertions of synonymy or misapplication and entries in lists  of n
             1-492. MIM, Deurne.""" .
 ```
 
-[&lsqb;TaxonConcept-4.ttl&rsqb;](examples/TaxonConcept-4.ttl)
+[&lsqb;TaxonConcept-4.ttl&rsqb;](../../examples/TaxonConcept-4.ttl)&nbsp;[&lsqb;TaxonConcept-4.jsonld&rsqb;](../../examples/TaxonConcept-4.jsonld)
 
 
 ```turtle
-<https://www.catalogueoflife.org/data/taxon/KF8T#v2022-11-14> a :TaxonConcept ;
+<https://www.catalogueoflife.org/data/taxon/KF8T#v2022-11-14> a tcs:TaxonConcept ;
     dcterms:title "Balaenoptera musculus sec. Catalogue of Life (v2022-11-14)" ;
-    :accordingTo <https://www.catalogueoflife.org#v2022-11-14> ;
-    :acceptedName [ a :TaxonName ;
-            :taxonNameString "Balaenoptera musculus" ;
+    tcs:accordingTo <https://www.catalogueoflife.org#v2022-11-14> ;
+    tcs:taxonName [ a tcs:TaxonName ;
+            tcs:taxonNameString "Balaenoptera musculus" ;
             dwc:scientificNameAuthorship "(Linnaeus, 1758)" ] .
 
 <https://www.catalogueoflife.org#v2022-11-14> a bibo:Website ;
@@ -162,7 +149,7 @@ By contrast, assertions of synonymy or misapplication and entries in lists  of n
     bibo:uri "https://www.catalogueoflife.org" .
 ```
 
-[&lsqb;TaxonConcept-5.ttl&rsqb;](examples/TaxonConcept-5.ttl)
+[&lsqb;TaxonConcept-5.ttl&rsqb;](../../examples/TaxonConcept-5.ttl)&nbsp;[&lsqb;TaxonConcept-5.jsonld&rsqb;](../../examples/TaxonConcept-5.jsonld)
 
 ### tcs:accordingTo
 
@@ -245,7 +232,7 @@ The value of `accordingTo` has to be an object or IRI. This object can  contain 
     foaf:surname "Cardona-Duque*" .
 ```
 
-[&lsqb;TaxonConcept-accordingTo-1.ttl&rsqb;](examples/TaxonConcept-accordingTo-1.ttl)
+[&lsqb;TaxonConcept-accordingTo-1.ttl&rsqb;](../../examples/TaxonConcept-accordingTo-1.ttl)&nbsp;[&lsqb;TaxonConcept-accordingTo-1.jsonld&rsqb;](../../examples/TaxonConcept-accordingTo-1.jsonld)
 
 
 ```turtle
@@ -270,7 +257,7 @@ _:b1 a foaf:Person ;
     foaf:surname "Sibley" .
 ```
 
-[&lsqb;TaxonConcept-accordingTo-2.ttl&rsqb;](examples/TaxonConcept-accordingTo-2.ttl)
+[&lsqb;TaxonConcept-accordingTo-2.ttl&rsqb;](../../examples/TaxonConcept-accordingTo-2.ttl)&nbsp;[&lsqb;TaxonConcept-accordingTo-2.jsonld&rsqb;](../../examples/TaxonConcept-accordingTo-2.jsonld)
 
 
 ```turtle
@@ -281,15 +268,15 @@ _:b1 a foaf:Person ;
             133. Forest Research Institute Malaysia, Kepong, Selangor, Malaysia.""" .
 ```
 
-[&lsqb;TaxonConcept-accordingTo-3.ttl&rsqb;](examples/TaxonConcept-accordingTo-3.ttl)
+[&lsqb;TaxonConcept-accordingTo-3.ttl&rsqb;](../../examples/TaxonConcept-accordingTo-3.ttl)&nbsp;[&lsqb;TaxonConcept-accordingTo-3.jsonld&rsqb;](../../examples/TaxonConcept-accordingTo-3.jsonld)
 
-### tcs:acceptedName
+### tcs:taxonName
 
 <table style="width:100%;">
 	<tbody>
 		<tr>
 			<td>Identifier</td>
-			<td>http://rs.tdwg.org/tcs/terms/acceptedName</td>
+			<td>http://rs.tdwg.org/tcs/terms/taxonName</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -297,7 +284,7 @@ _:b1 a foaf:Person ;
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td>Accepted Name</td>
+			<td>Taxon name</td>
 		</tr>
 		<tr>
 			<td></td>
@@ -309,7 +296,7 @@ _:b1 a foaf:Person ;
 		</tr>
 		<tr>
 			<td>Usage</td>
-			<td><p><code>acceptedName</code> is an IRI term and is required on a TCS Taxon Concept. A Taxon  Concept can only have one <code>acceptedName</code>.</p></td>
+			<td><p><code>taxonName</code> is an IRI term and is required on a TCS Taxon Concept. A Taxon  Concept can only have one <code>taxonName</code>.</p></td>
 		</tr>
 		<tr>
 			<td>GitHub issue</td>
@@ -321,9 +308,9 @@ _:b1 a foaf:Person ;
 
 **Comments**
 
-The `acceptedName` can be anything from a well-formed scientific name to an  informal name, vernacular name, indigenous knowledge label, or even a label  containing numbers and/or special symbols, such as are often used for OTUs. 
+The `taxonName` can be anything from a well-formed scientific name to an  informal name, vernacular name, indigenous knowledge label, or even a label  containing numbers and/or special symbols, such as are often used for OTUs. 
 
-The object of `acceptedName` is an object or IRI, so that it can be reused in  other Taxon Concepts. TCS has got the Taxon Name class, which can be used  for any type of name, but people are free to use alternatives, e.g.  `skosxl:Label`, if they want to restrict the use of the Taxon Name class to  scientific (or scientific-y) names only.
+The object of `taxonName` is an object or IRI, so that it can be reused in  other Taxon Concepts. TCS has got the Taxon Name class, which can be used  for any type of name, but people are free to use alternatives, e.g.  `skosxl:Label`, if they want to restrict the use of the Taxon Name class to  scientific (or scientific-y) names only.
 
 ### tcs:synonym
 
@@ -363,57 +350,57 @@ The object of `acceptedName` is an object or IRI, so that it can be reused in  o
 
 **Comments**
 
-Synonyms are names and synonymy is between names but, if the names have  different nomenclatural types, a Taxon Concept is required. Therefore,  `synonym` is a property of the Taxon Concept class. `synonym` is used here  in the strict meaning that the type of a name falls within a Taxon Concept.  The same goes for the `acceptedName` and therefore `synonym`  has the same relationship to Taxon Concept as `acceptedName`. This allows one  to dispose of names without having to deal with the Taxon Concepts that were  realised along with the publication of these names. If one wants to include  these “original concepts” and indicate a relationship between Taxon  Concepts, and the more precise relationship is not provided, the  `intersects` Taxon Relationship can be used.
+Synonyms are names and synonymy is between names but, if the names have  different nomenclatural types, a Taxon Concept is required. Therefore,  `synonym` is a property of the Taxon Concept class. `synonym` is used here  in the strict meaning that the type of a name falls within a Taxon Concept.  The same goes for the `taxonName` and therefore `synonym`  has the same relationship to Taxon Concept as `taxonName`. This allows one  to dispose of names without having to deal with the Taxon Concepts that were  realised along with the publication of these names. If one wants to include  these “original concepts” and indicate a relationship between Taxon  Concepts, and the more precise relationship is not provided, the  `intersects` property can be used.
 
 
 **Examples**
 
 
 ```turtle
-[]  a :TaxonConcept ;
+[]  a tcs:TaxonConcept ;
     dcterms:title "Dicranoloma blumei sec. Klazenga (1999)" ;
-    :accordingTo <https://www.tropicos.org/reference/9020903> ;
-    :acceptedName <https://www.tropicos.org/name/35121475> ;
-    :synonym <https://www.tropicos.org/name/35121973> , 
+    tcs:accordingTo <https://www.tropicos.org/reference/9020903> ;
+    tcs:taxonName <https://www.tropicos.org/name/35121475> ;
+    tcs:synonym <https://www.tropicos.org/name/35121973> , 
             <https://www.tropicos.org/name/35121477> ,
             <https://www.tropicos.org/name/35121484> ,
             <https://www.tropicos.org/name/35188177> .
 
-<https://www.tropicos.org/name/35121475> a :TaxonName ;
-    :taxonNameString "Dicranoloma blumei" ;
+<https://www.tropicos.org/name/35121475> a tcs:TaxonName ;
+    tcs:taxonNameString "Dicranoloma blumei" ;
     dwc:scientificNameAuthorship "(Nees) Renauld" ;
     dwc:namePublishedIn "Rev. Bryol. 28(4): 69 (1901)" ;
-    :basionym <https://www.tropicos.org/name/35121972> .
+    tcs:basionym <https://www.tropicos.org/name/35121972> .
 
-<https://www.tropicos.org/name/35121972> a :TaxonName ;
-    :taxonNameString "Dicranum blumei" ;
+<https://www.tropicos.org/name/35121972> a tcs:TaxonName ;
+    tcs:taxonNameString "Dicranum blumei" ;
     dwc:scientificNameAuthorship "Nees" ; 
     dwc:namePublishedIn """Nova Acta Phys.-Med. Acad. Caes. Leop.-Carol. Nat. 
             Cur. 11(1): 131 (1823)""" .
 
-<https://www.tropicos.org/name/35154856> a :TaxonName ;
-    :taxonNameString "Leucoloma blumei" ;
+<https://www.tropicos.org/name/35154856> a tcs:TaxonName ;
+    tcs:taxonNameString "Leucoloma blumei" ;
     dwc:scientificNameAuthorship "(Nees) Broth." ; 
-    dwc:namePublishedIn "Nat. Pflanzenfam. I(3): 322 (1901)" .
-    :basionym <https://www.tropicos.org/name/35121972> .
+    dwc:namePublishedIn "Nat. Pflanzenfam. I(3): 322 (1901)" ;
+    tcs:basionym <https://www.tropicos.org/name/35121972> .
 
-<https://www.tropicos.org/name/35121973> a :TaxonName ;
-    :taxonNameString "Dicranum blumei var. laxifolium" ;
+<https://www.tropicos.org/name/35121973> a tcs:TaxonName ;
+    tcs:taxonNameString "Dicranum blumei var. laxifolium" ;
     dwc:scientificNameAuthorship "Broth. & Geh." ;
-    dwc:namePublishedIn "Biblioth. Bot. 44: 4 (1898)" 
+    dwc:namePublishedIn "Biblioth. Bot. 44: 4 (1898)" .
 
-<https://www.tropicos.org/name/35121477> a :TaxonName ;
-    :taxonNameString "Dicranoloma blumei var. papillisetum" ;
+<https://www.tropicos.org/name/35121477> a tcs:TaxonName ;
+    tcs:taxonNameString "Dicranoloma blumei var. papillisetum" ;
     dwc:scientificNameAuthorship "M. Fleisch." ;
     dwc:namePublishedIn "Nova Guinea 12(2): 112 (1914)" .
 
-<https://www.tropicos.org/name/35188177> a :TaxonName ;
-    :taxonNameString "Dicranoloma blumei f. subintegrum" ;
+<https://www.tropicos.org/name/35188177> a tcs:TaxonName ;
+    tcs:taxonNameString "Dicranoloma blumei f. subintegrum" ;
     dwc:scientificNameAuthorship "Dixon" ;
     dwc:namePublishedIn "J. Bot. 80: 4 (1942)" .
 
-<https://www.tropicos.org/name/35121484> a :TaxonName ;
-    :taxonNameString "Dicranoloma braunfelsioides" ;
+<https://www.tropicos.org/name/35121484> a tcs:TaxonName ;
+    tcs:taxonNameString "Dicranoloma braunfelsioides" ;
     dwc:scientificNameAuthorship "Herzog" ;
     dwc:namePublishedIn "Hedwigia 61: 288 (1919)" . 
 
@@ -434,32 +421,74 @@ Synonyms are names and synonymy is between names but, if the names have  differe
 # are provided using the `synonym` property.
 ```
 
-[&lsqb;TaxonConcept-synonym-1.ttl&rsqb;](examples/TaxonConcept-synonym-1.ttl)
+[&lsqb;TaxonConcept-synonym-1.ttl&rsqb;](../../examples/TaxonConcept-synonym-1.ttl)&nbsp;[&lsqb;TaxonConcept-synonym-1.jsonld&rsqb;](../../examples/TaxonConcept-synonym-1.jsonld)
 
 
 ```turtle
-[] a :TaxonConcept ;
-    dcterms:title "Hebe imbricata sec. Bayly & Kellow (2006)" ;
-    :accordingTo <urn:isbn:978-0-909010-12-6> ;
-    :acceptedName <https://www.ipni.org/n/989261-1> ;
-    :synonym <https://www.ipni.org/n/812507-1> .
+[] a tcs:TaxonConcept ;
+    dcterms:title "Hebe colensoi sec. Bayly & Kellow 2006" ;
+    tcs:accordingTo <urn:isbn:978-0-909010-12-6> ;
+    tcs:taxonName <https://www.ipni.org/n/803678-1> ;
+    tcs:synonym <https://www.ipni.org/n/812087-1> .
 
-<https://www.ipni.org/n/989261-1> a :TaxonName ;
-    :taxonNameString "Hebe imbricata" ;
-    dwc:scientificNameAuthorship "Cockayne & Allen" ;
-    dwc:namePublishedIn "Trans. & Proc. New Zealand Inst. lvii. 42 (1927) (1927)" .
+<https://www.ipni.org/n/803678-1> a tcs:TaxonName ;
+    tcs:taxonNameString "Hebe colensoi" ;
+    dwc:scientificNameAuthorship "(Hook.f.) Cockayne" ;
+    dwc:namePublishedIn "Trans. & Proc. New Zealand Inst. 60: 384 (1929)" ;
+    tcs:basionym <https://www.ipni.org/n/811835-1> .
 
-<https://www.ipni.org/n/812507-1> a :TaxonName ;
-    :taxonNameString "Veronica poppelwellii" ;
-    dwc:scientificNameAuthorship "Cockayne" ; 
-    dwc:namePublishedIn "Trans. & Proc. New Zealand Inst. 1915, xlviii. 200 (1916)" .
+<https://www.ipni.org/n/811835-1> a tcs:TaxonName ;
+    tcs:taxonNameString "Veronica colensoi" ;
+    dwc:scientificNameAuthorship "Hook'f." ;
+    dwc:namePublishedIn "Handb. N. Zeal. Fl. 209. (1864)" .
 
-<urn:isbn:978-0-909010-12-6> a bibo:Book ;
-    dcterms:bibliographicCitation """Bayly, M.; Kellow, A. (2006). An illustrated guide to 
-            New Zealand Hebes. Te Papa Press, Wellington, New Zealand.""" .
+<https://www.ipni.org/n/812087-1> a tcs:TaxonName ;
+    tcs:taxonNameString "Veronica hillii" ;
+    dwc:scientificNameAuthorship "Colenso" ;
+    dwc:namePublishedIn "Trans. & Proc. New Zealand Inst. 28: 606 (1896)" .
 ```
 
-[&lsqb;TaxonConcept-synonym-2.ttl&rsqb;](examples/TaxonConcept-synonym-2.ttl)
+[&lsqb;TaxonConcept-synonym-2.ttl&rsqb;](../../examples/TaxonConcept-synonym-2.ttl)&nbsp;[&lsqb;TaxonConcept-synonym-2.jsonld&rsqb;](../../examples/TaxonConcept-synonym-2.jsonld)
+
+
+```turtle
+<https://www.catalogueoflife.org/data/taxon/3YVTF> a tcs:TaxonConcept ;
+    dcterms:title "Megalorhipida leucodactylus sec. Gielis & Hobern 2020-07-16" ;
+    tcs:accordingTo <https://doi.org/10.48580/dfry-3gd#1.1.23.5> ;
+    tcs:taxonName [ a tcs:TaxonName ;
+            tcs:taxonNameString "Megalorhipida leucodactylus" ;
+            dwc:scientificName "Megalorhipida leucodactylus (Fabricius, 1794)" ;
+            tcs:basionym <https://zoobank.org/NomenclaturalActs/39b2f236-3914-4962-9dcc-f594671654bd> ] ;
+    tcs:synonym [ a tcs:TaxonName ;
+            dwc:scientificName "Aciptilia hawaiiensis Butler, 1881" ] , 
+        [ a tcs:TaxonName ;
+            dwc:scientificName "Megalorhipida palaestinensis Amsel, 1935" ] ,
+        [ a tcs:TaxonName ;
+            dwc:scientificName "Pterophorus congrualis Walker, 1864" ] ,
+        [ a tcs:TaxonName ;
+            dwc:scientificName "Pterophorus defectalis Walker, 1864" ] ,
+        [ a tcs:TaxonName ;
+            dwc:scientificName "Trichoptilus adelphodes Meyrick, 1887" ] ,
+        [ a tcs:TaxonName ;
+            dwc:scientificName "Trichoptilus centetes Meyrick, 1886" ] ,
+        [ a tcs:TaxonName ;
+            dwc:scientificName "Trichoptilus compsochares Meyrick, 1886" ] ,
+        [ a tcs:TaxonName ;
+            dwc:scientificName "Trichoptilus derelictus Meyrick, 1926" ] ,
+        [ a tcs:TaxonName ;
+            dwc:scientificName "Trichoptilus ochrodactylus Fish, 1881" ] ,
+        [ a tcs:TaxonName ;
+            dwc:scientificName "Trichoptilus ralumensis Pagenstecher, 1900" ] ,
+        [ a tcs:TaxonName ;
+            dwc:scientificName "Pterophorus oxydactylus Walker, 1864" ] ;
+    tcs:taxonomicRank <http://rs.gbif.org/vocabulary/gbif/rank/species> ;
+    tcs:parent <https://www.catalogueoflife.org/data/taxon/62ZBY> .
+
+<https://zoobank.org/NomenclaturalActs/39b2f236-3914-4962-9dcc-f594671654bd> a tcs:TaxonName ;
+    dwc:scientificName "Pterophorus leucodactylus Fabricius, 1794" .
+```
+
+[&lsqb;TaxonConcept-synonym-3.ttl&rsqb;](../../examples/TaxonConcept-synonym-3.ttl)&nbsp;[&lsqb;TaxonConcept-synonym-3.jsonld&rsqb;](../../examples/TaxonConcept-synonym-3.jsonld)
 
 ### tcs:vernacularName
 
@@ -483,7 +512,7 @@ Synonyms are names and synonymy is between names but, if the names have  differe
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td><p>Common or vernacular name for a taxonomic group, when used besides the  <code>acceptedName</code>.</p></td>
+			<td><p>Common or vernacular name for a taxonomic group, when used besides the  <code>taxonName</code>.</p></td>
 		</tr>
 		<tr>
 			<td>Usage</td>
@@ -499,19 +528,19 @@ Synonyms are names and synonymy is between names but, if the names have  differe
 
 **Comments**
 
-The `vernacularName` property can be used when a vernacular name is used  alongside a scientific name, which is the `acceptedName`. If a vernacular name  is the only name, the `acceptedName` property should be used. The object of the  `vernacularName` property can be a Taxon Name, but another label  object, such as the GBIF [Vernacular Name](https://rs.gbif.org/extension/gbif/1.0/vernacularname.xml),  might be preferrable, especially if there can be multiple vernacular names  for a concept.
+The `vernacularName` property can be used when a vernacular name is used  alongside a scientific name, which is the `taxonName`. If a vernacular name  is the only name, the `taxonName` property should be used. The object of the  `vernacularName` property can be a Taxon Name, but another label  object, such as the GBIF [Vernacular Name](https://rs.gbif.org/extension/gbif/1.0/vernacularname.xml),  might be preferrable, especially if there can be multiple vernacular names  for a concept.
 
 
 **Examples**
 
 
 ```turtle
-[] a :TaxonConcept ;
+[] a tcs:TaxonConcept ;
     dcterms:title "Graphium macleayanum sec. Orr & Kitching (2010)" ;
-    :accordingTo <urn:isbn:978-1-74175-108-6> ;
-    :acceptedName [ a :TaxonName ;
-            :taxonNameString "Graphium macleayanum" ] ;
-    :vernacularName [ a gbif:VernacularName ;
+    tcs:accordingTo <urn:isbn:978-1-74175-108-6> ;
+    tcs:taxonName [ a tcs:TaxonName ;
+            tcs:taxonNameString "Graphium macleayanum" ] ;
+    tcs:vernacularName [ a gbif:VernacularName ;
             dwc:vernacularName "Macleay's Swallowtail" ;
             dcterms:language: "en" ] .
 
@@ -520,39 +549,39 @@ The `vernacularName` property can be used when a vernacular name is used  alongs
             butterflies of Australia. Jacana Books, Crows Nest, Australia.""" .
 ```
 
-[&lsqb;TaxonConcept-vernacularName-1.ttl&rsqb;](examples/TaxonConcept-vernacularName-1.ttl)
+[&lsqb;TaxonConcept-vernacularName-1.ttl&rsqb;](../../examples/TaxonConcept-vernacularName-1.ttl)&nbsp;[&lsqb;TaxonConcept-vernacularName-1.jsonld&rsqb;](../../examples/TaxonConcept-vernacularName-1.jsonld)
 
 
 ```turtle
-[] a :TaxonConcept ;
+[] a tcs:TaxonConcept ;
     dcterms:title "Quercus robur sec. Duistermaat (2020)" ;
-    :accordingTo <urn:isbn:978-90-01-58956-1> ;
-    :acceptedName <https://www.ipni.org/n/304293-2> ;
-    :vernacularName [ a gbif:VernacularName ;
+    tcs:accordingTo <urn:isbn:978-90-01-58956-1> ;
+    tcs:taxonName <https://www.ipni.org/n/304293-2> ;
+    tcs:vernacularName [ a gbif:VernacularName ;
             dwc:vernacularName "Zomereik" ;
             dcterms:language "nl" ] .
 
-<https://www.ipni.org/n/304293-2> a :TaxonName ;
-    :taxonNameString "Quercus robur" .
+<https://www.ipni.org/n/304293-2> a tcs:TaxonName ;
+    tcs:taxonNameString "Quercus robur" .
 
 <urn:isbn:978-90-01-58956-1> a bibo:Book ;
     dcterms:bibliographicCitation """Duistermaat, H. (2020). Heukels 
             Flora van Nederland, edn 24. Noordhoff, Groningen.""" .
 ```
 
-[&lsqb;TaxonConcept-vernacularName-2.ttl&rsqb;](examples/TaxonConcept-vernacularName-2.ttl)
+[&lsqb;TaxonConcept-vernacularName-2.ttl&rsqb;](../../examples/TaxonConcept-vernacularName-2.ttl)&nbsp;[&lsqb;TaxonConcept-vernacularName-2.jsonld&rsqb;](../../examples/TaxonConcept-vernacularName-2.jsonld)
 
 
 ```turtle
 <https://vicflora.rbg.vic.gov.au/flora/taxon/93c88fde-ab15-4a9a-a61d-3830a57a0160#2023-03-02> 
-    a :TaxonConcept ;
+    a tcs:TaxonConcept ;
     dcterms:title "Callitris verrucosa sec. VicFlora (2023-03-22)" ;
-    :accordingTo [ a bibo:Website ;
+    tcs:accordingTo [ a bibo:Website ;
             dcterms:bibliographicCitation """VicFlora (2023). Flora of Victoria, 
                     Royal Botanic Gardens Victoria. Available online: 
                     https://vicflora.rbg.vic.gov.au (accessed on: 22 Mar. 2023).""" ] ;
-    :acceptedName <https://www.ipni.org/n/134460-3> ;
-    :vernacularName [ a gbif:VernacularName ; 
+    tcs:taxonName <https://www.ipni.org/n/134460-3> ;
+    tcs:vernacularName [ a gbif:VernacularName ; 
         dwc:vernacularName "Scrub Cypress-pine" ;
         dcterms:language "en" ;
         gbif:isPreferredName: <http://rs.gbif.org/vocab/boolean/true> ] ,
@@ -569,12 +598,12 @@ The `vernacularName` property can be used when a vernacular name is used  alongs
         dcterms:language "en" ;
         gbif:isPreferredName: <http://rs.gbif.org/vocab/boolean/false> ] .
 
-<https://www.ipni.org/n/134460-3> a :TaxonName ;
-    :taxonNameString "Callitris verrucosa" ;
+<https://www.ipni.org/n/134460-3> a tcs:TaxonName ;
+    tcs:taxonNameString "Callitris verrucosa" ;
     dwc:scientificNameAuthorship "(A.Cunn. ex Endl.) F.Muell." .
 ```
 
-[&lsqb;TaxonConcept-vernacularName-3.ttl&rsqb;](examples/TaxonConcept-vernacularName-3.ttl)
+[&lsqb;TaxonConcept-vernacularName-3.ttl&rsqb;](../../examples/TaxonConcept-vernacularName-3.ttl)&nbsp;[&lsqb;TaxonConcept-vernacularName-3.jsonld&rsqb;](../../examples/TaxonConcept-vernacularName-3.jsonld)
 
 ### tcs:taxonomicRank
 
@@ -656,6 +685,502 @@ The rank is an attribute of elements in a classification and `taxonomicRank`  ca
 
 The `parent` is another Taxon Concept. This is the parent as indicated in  the `accordingTo` reference, rather than a third-party classification. The  `accordingTo` of the parent will generally, but not necessarily, be the  same as that of the child. 
 
+### tcs:isCongruentWith
+
+<table style="width:100%;">
+	<tbody>
+		<tr>
+			<td>Identifier</td>
+			<td>http://rs.tdwg.org/tcs/terms/isCongruentWith</td>
+		</tr>
+		<tr>
+			<td>Type</td>
+			<td>http://www.w3.org/1999/02/22-rdf-syntax-ns#Property</td>
+		</tr>
+		<tr>
+			<td>Label</td>
+			<td>Is Congruent With</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td><b>required:</b> No — <b>repeatable:</b> Yes</td>
+		</tr>
+		<tr>
+			<td>Definition</td>
+			<td><p>The subject and object taxon concepts have a congruent taxonomic meaning,  i.e. there is no conflict between the concepts</p></td>
+		</tr>
+		<tr>
+			<td>GitHub issue</td>
+			<td>https://github.com/tdwg/tcs2/issues/52</td>
+		</tr>
+	</tbody>
+</table>
+
+
+**Comments**
+
+The `isCongruentWith` relationship is symmetrical, so if A `isCongruentWith`  B then B `isCongruentWith` A, as well as transitive, so if A  `isCongruentWith` B and B `isCongruentWith` C it follows that A  `isCongruentWith` C.
+
+![](../media/taxon-relationship-type-is-congruent-with.jpg)
+
+This relationship can also be written as the formula **A &cong; B** or **A == B**.
+
+
+**Examples**
+
+
+```turtle
+[] a tcs:TaxonConcept ;
+    dcterms:title "Aspleniaceae sec. Rothfels & al. 2012" ;
+    tcs:accordingTo <https://doi.org/10.1002/tax.613003> ;
+    tcs:taxonName <https://ipni.org/n/30001382-2> ;
+    tcs:isCongruentWith [ a tcs:TaxonConcept ;
+            dcterms:title "Aspleniaceae sec. Christenhusz & al. 2011" ;
+            tcs:accordingTo <https://doi.org/10.11646/phytotaxa.19.1.2> ;
+            tcs:taxonName <https://ipni.org/n/30001382-2> ] ,
+        [ a tcs:TaxonConcept ;
+            dcterms:title "Aspleniaceae sec. Smith & al. 2006" ;
+            tcs:accordingTo <https://doi.org/10.2307/25065646> ;
+            tcs:acceptedName <https://ipni.org/n/30001382-2> ] ,
+        [ a tcs:TaxonConcept ;
+            dcterms:title "Aspleniaceae sec. Pichi Sermolli 1977" ;
+            tcs:accordingTo <https://doi.org/10.1080/00837792.1977.10670077> ;
+            tcs:taxonName <https://ipni.org/n/30001382-2> ] ,
+        [ a tcs:TaxonConcept ;
+            dcterms:title "Aspleniaceae sec. Nayar 1970" ;
+            tcs:accordingTo <https://doi.org/10.2307/1217958> ;
+            tcs:taxonName <https://ipni.org/n/30001382-2> ] .
+```
+
+[&lsqb;TaxonConcept-isCongruentWith-1.ttl&rsqb;](../../examples/TaxonConcept-isCongruentWith-1.ttl)&nbsp;[&lsqb;TaxonConcept-isCongruentWith-1.jsonld&rsqb;](../../examples/TaxonConcept-isCongruentWith-1.jsonld)
+
+
+```turtle
+# Andropogon capillipes sec. BONAP 2014 is congruent with Andropogon capillipes sec. Weakley 2006
+[] a dwc:ResourceRelationship, rdf:Statement ;
+    rdf:subject [ a tcs:TaxonConcept ;
+            dcterms:title "Andropogon capillipes sec. BONAP 2014" ;
+            tcs:accordingTo <http://bonap.net/napa#2014> ;
+            tcs:taxonName <https://www.ipni.org/n/12781-2> ] ;
+    rdf:predicate tcs:isCongruentWith ;
+    rdf:object [ a tcs:TaxonConcept ;
+            dcterms:title "Andropogon capillipes sec. Weakley 2006" ;
+            tcs:accordingTo <http://www.herbarium.unc.edu/FloraArchives/WeakleyFlora_2006-Jan.pdf> ;
+            tcs:taxonName <https://www.ipni.org/n/12781-2> ] ;
+    dcterms:source <https://doi.org/10.3233/SW-160220> .
+```
+
+[&lsqb;TaxonConcept-isCongruentWith-2.ttl&rsqb;](../../examples/TaxonConcept-isCongruentWith-2.ttl)&nbsp;[&lsqb;TaxonConcept-isCongruentWith-2.jsonld&rsqb;](../../examples/TaxonConcept-isCongruentWith-2.jsonld)
+
+
+```turtle
+[] a tcs:TaxonConcept ;
+    dcterms:title "Dicranum fuscescens sec. Koperski et al. (2000)" ;
+    tcs:accordingTo <https://www.tropicos.org/reference/9022656> ;
+    tcs:taxonName <https://www.tropicos.org/name/35122385> ;
+    tcs:isCongruentWith [ a tcs:TaxonConcept ;
+        dcterms:title "Dicranum fuscescens sec. Corley et al. (1981)" ;
+        tcs:accordingTo <https://www.tropicos.org/reference/9004554> ;
+        tcs:taxonName <https://www.tropicos.org/name/35122385> ] .
+```
+
+[&lsqb;TaxonConcept-isCongruentWith-3.ttl&rsqb;](../../examples/TaxonConcept-isCongruentWith-3.ttl)&nbsp;[&lsqb;TaxonConcept-isCongruentWith-3.jsonld&rsqb;](../../examples/TaxonConcept-isCongruentWith-3.jsonld)
+
+### tcs:includes
+
+<table style="width:100%;">
+	<tbody>
+		<tr>
+			<td>Identifier</td>
+			<td>http://rs.tdwg.org/tcs/terms/includes</td>
+		</tr>
+		<tr>
+			<td>Type</td>
+			<td>http://www.w3.org/1999/02/22-rdf-syntax-ns#Property</td>
+		</tr>
+		<tr>
+			<td>Label</td>
+			<td>Includes</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td><b>required:</b> No — <b>repeatable:</b> Yes</td>
+		</tr>
+		<tr>
+			<td>Definition</td>
+			<td><p>The subject taxon concept has a more inclusive taxonomic meaning than the object taxon concept</p></td>
+		</tr>
+		<tr>
+			<td>GitHub issue</td>
+			<td>https://github.com/tdwg/tcs2/issues/53</td>
+		</tr>
+	</tbody>
+</table>
+
+
+**Comments**
+
+The `includes` relationship is not symmetric, its inverse  relationship being  `isIncludedIn`, so if A `includes` B then B  `isIncludedIn` A. The `includes` relationship  is transitive, so  if A `includes` B and B `includes` C it follows that A  `includes` C.
+
+![](../media/taxon-relationship-type-includes.jpg)
+
+This relation type can also be written as the formula **A > B**.
+
+
+**Examples**
+
+
+```turtle
+[] a tcs:TaxonConcept ;
+    dcterms:title "Diplaziopsidaceae sec. Rothfels & al. 2012" ;
+    tcs:accordingTo <https://doi.org/10.1002/tax.613003> ;
+    tcs:taxonName <https://ipni.org/n/77110538-1> ;
+    tcs:includes [ a tcs:TaxonConcept ;
+            dcterms:title "Diplaziopsidaceae sec. Christenhusz & al. 2011" ;
+            tcs:accordingTo <https://doi.org/10.11646/phytotaxa.19.1.2> ;
+            tcs:taxonName <https://ipni.org/n/77110538-1> ] .
+```
+
+[&lsqb;TaxonConcept-includes-1.ttl&rsqb;](../../examples/TaxonConcept-includes-1.ttl)&nbsp;[&lsqb;TaxonConcept-includes-1.jsonld&rsqb;](../../examples/TaxonConcept-includes-1.jsonld)
+
+
+```turtle
+# Andropogon glomeratus sec. BONAP 2014 includes Andropogon tenuispatheus sec. Weakley 2006
+[] a dwc:ResourceRelationship, rdf:Statement ;
+    rdf:subject [ a tcs:TaxonConcept ;
+            dcterms:title "Andropogon glomeratus sec. BONAP 2014" ;
+            tcs:accordingTo <http://bonap.net/napa#2014> ;
+            tcs:taxonName <https://www.ipni.org/n/12850-2> ] ;
+    rdf:predicate tcs:includes ;
+    rdf:object [ a tcs:TaxonConcept ;
+            dcterms:title "Andropogon tenuispatheus sec. Weakley 2006" ;
+            tcs:accordingTo <http://www.herbarium.unc.edu/FloraArchives/WeakleyFlora_2006-Jan.pdf> ;
+            tcs:taxonName <https://www.ipni.org/n/13093-2> ] ;
+    dcterms:source <https://doi.org/10.3233/SW-160220> .
+```
+
+[&lsqb;TaxonConcept-includes-2.ttl&rsqb;](../../examples/TaxonConcept-includes-2.ttl)&nbsp;[&lsqb;TaxonConcept-includes-2.jsonld&rsqb;](../../examples/TaxonConcept-includes-2.jsonld)
+
+### tcs:isIncludedIn
+
+<table style="width:100%;">
+	<tbody>
+		<tr>
+			<td>Identifier</td>
+			<td>http://rs.tdwg.org/tcs/terms/isIncludedIn</td>
+		</tr>
+		<tr>
+			<td>Type</td>
+			<td>http://www.w3.org/1999/02/22-rdf-syntax-ns#Property</td>
+		</tr>
+		<tr>
+			<td>Label</td>
+			<td>is included in</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td><b>required:</b> No — <b>repeatable:</b> Yes</td>
+		</tr>
+		<tr>
+			<td>Definition</td>
+			<td><p>The subject taxon concept has a less inclusive taxonomic meaning than the  object taxon concept</p></td>
+		</tr>
+		<tr>
+			<td>GitHub issue</td>
+			<td>https://github.com/tdwg/tcs2/issues/54</td>
+		</tr>
+	</tbody>
+</table>
+
+
+**Comments**
+
+The `isIncludedIn` relationship is not symmetric, its inverse  relationship being  `includes`, so if A `isIncludedIn` B then B  `includes` A. The `isIncludedIn` relationship  is transitive, so  if A `isIncludedIn` B and B `isIncludedIn` C it follows that A  `isIncludedIn` C.
+
+![](../media/taxon-relationship-type-is-included-in.jpg)
+
+This relation type can also be written as the formula **A < B**.
+
+
+**Examples**
+
+
+```turtle
+[] a tcs:TaxonConcept ;
+    dcterms:title "Athyriaceae sec. Rothfels & al. 2012" ;
+    tcs:accordingTo <https://doi.org/10.1002/tax.613003> ;
+    tcs:taxonName <https://ipni.org/n/30000361-2> ;
+    tcs:isIncludedIn [ a tcs:TaxonConcept ;
+            dcterms:title "Athyriaceae sec. Christenhusz & al. 2011" ;
+            tcs:accordingTo <https://doi.org/10.11646/phytotaxa.19.1.2> ;
+            tcs:taxonName <https://ipni.org/n/30000361-2> ] ,
+        [ a tcs:TaxonConcept ;
+            dcterms:title "Woodsiaceae sec. Smith & al. 2006" ;
+            tcs:accordingTo <https://doi.org/10.2307/25065646> ;
+            tcs:taxonName <https://ipni.org/n/30000455-2> ] ,
+        [ a tcs:TaxonConcept ;
+            dcterms:title "Dryopteridaceae sec. Nayar 1970" ;
+            tcs:accordingTo <https://doi.org/10.2307/1217958> ;
+            tcs:taxonName <https://www.ipni.org/n/30014148-2> ] ,
+        [ a tcs:TaxonConcept ;
+            dcterms:title "Dennstaedtiaceae sec. Holttum 1947" ;
+            tcs:accordingTo _:r8356b78f024b33be ;
+            tcs:taxonName <https://ipni.org/n/17434830-1> ] .
+```
+
+[&lsqb;TaxonConcept-isIncludedIn-1.ttl&rsqb;](../../examples/TaxonConcept-isIncludedIn-1.ttl)&nbsp;[&lsqb;TaxonConcept-isIncludedIn-1.jsonld&rsqb;](../../examples/TaxonConcept-isIncludedIn-1.jsonld)
+
+
+```turtle
+# Andropogon hirsutior sec. BONAP 2014 is included in Andropogon glomeratus sec. Weakley 2006
+[] a dwc:ResourceRelationship, rdf:Statement ;
+    rdf:subject [ a tcs:TaxonConcept ;
+            dcterms:title "Andropogon hirsutior sec. BONAP 2014" ;
+            tcs:accordingTo <http://bonap.net/napa#2014> ;
+            tcs:taxonName <https://www.ipni.org/n/60458078-2> ] ;
+    rdf:predicate tcs:isIncludedIn ;
+    rdf:object [ a tcs:TaxonConcept ;
+            dcterms:title "Andropogon glomeratus sec. Weakley 2006" ;
+            tcs:accordingTo <http://www.herbarium.unc.edu/FloraArchives/WeakleyFlora_2006-Jan.pdf> ;
+            tcs:taxonName <https://www.ipni.org/n/12850-2> ] ;
+    dcterms:source <https://doi.org/10.3233/SW-160220> .
+```
+
+[&lsqb;TaxonConcept-isIncludedIn-2.ttl&rsqb;](../../examples/TaxonConcept-isIncludedIn-2.ttl)&nbsp;[&lsqb;TaxonConcept-isIncludedIn-2.jsonld&rsqb;](../../examples/TaxonConcept-isIncludedIn-2.jsonld)
+
+### tcs:partiallyOverlaps
+
+<table style="width:100%;">
+	<tbody>
+		<tr>
+			<td>Identifier</td>
+			<td>http://rs.tdwg.org/tcs/terms/partiallyOverlaps</td>
+		</tr>
+		<tr>
+			<td>Type</td>
+			<td>http://www.w3.org/1999/02/22-rdf-syntax-ns#Property</td>
+		</tr>
+		<tr>
+			<td>Label</td>
+			<td>partially overlaps</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td><b>required:</b> No — <b>repeatable:</b> Yes</td>
+		</tr>
+		<tr>
+			<td>Definition</td>
+			<td><p>The subject and object taxon concepts have partially overlapping taxonomic  meanings, <em>i.e.</em> they have some members in common, but each concept in  addition has members that are not included in the other concept</p></td>
+		</tr>
+		<tr>
+			<td>GitHub issue</td>
+			<td>https://github.com/tdwg/tcs2/issues/55</td>
+		</tr>
+	</tbody>
+</table>
+
+
+**Comments**
+
+The `partiallyOverlaps`  relationship is symmetrical, so if A  `partiallyOverlaps` B then B `partiallyOverlaps` A, but not transitive, so,  if A `partiallyOverlaps` B and B `partiallyOverlaps` C, it does not follow  that A `partiallyOverlaps` C.
+
+![](../media/taxon-relationship-type-partially-overlaps.jpg)
+
+This relationship can also be written as the formula **A >< B**.
+
+
+**Examples**
+
+
+```turtle
+[] a tcs:TaxonConcept ;
+    dcterms:title "Diplaziopsidaceae sec. Rothfels & al. 2012" ;
+    tcs:accordingTo <https://doi.org/10.1002/tax.613003> ;
+    tcs:taxonName <https://ipni.org/n/77110538-1> ;
+    tcs:partiallyOverlaps [ a tcs:TaxonConcept ;
+            dcterms:title "Athyriaceae sec. Christenhusz & al. 2011" ;
+            tcs:accordingTo <https://doi.org/10.11646/phytotaxa.19.1.2> ;
+            tcs:taxonName <https://ipni.org/n/30000361-2> ] .
+```
+
+[&lsqb;TaxonConcept-partiallyOverlaps-1.ttl&rsqb;](../../examples/TaxonConcept-partiallyOverlaps-1.ttl)&nbsp;[&lsqb;TaxonConcept-partiallyOverlaps-1.jsonld&rsqb;](../../examples/TaxonConcept-partiallyOverlaps-1.jsonld)
+
+
+```turtle
+# Andropogon glomeratus sec. BONAP 2014 partially overlaps Andropogon glomeratus sec. Weakley 2006
+[] a dwc:ResourceRelationship, rdf:Statement ;
+    rdf:subject [ a tcs:TaxonConcept ;
+            dcterms:title "Andropogon glomeratus sec. BONAP 2014" ;
+            tcs:accordingTo <http://bonap.net/napa#2014> ;
+            tcs:taxonName <https://www.ipni.org/n/12850-2> ] ;
+    rdf:predicate tcs:partiallyOverlaps ;
+    rdf:object [ a tcs:TaxonConcept ;
+            dcterms:title "Andropogon glomeratus sec. Weakley 2006" ;
+            tcs:accordingTo <http://www.herbarium.unc.edu/FloraArchives/WeakleyFlora_2006-Jan.pdf> ;
+            tcs:taxonName <https://www.ipni.org/n/12850-2> ] ;
+    dcterms:source <https://doi.org/10.3233/SW-160220> .
+```
+
+[&lsqb;TaxonConcept-partiallyOverlaps-2.ttl&rsqb;](../../examples/TaxonConcept-partiallyOverlaps-2.ttl)&nbsp;[&lsqb;TaxonConcept-partiallyOverlaps-2.jsonld&rsqb;](../../examples/TaxonConcept-partiallyOverlaps-2.jsonld)
+
+
+```turtle
+# Phyllotrox sec. Franz & O'Brien (2001) partially overlaps Phyllotrox sec. Franz (2006)
+[] a dwc:ResourceRelationship, rdf:Statement ;
+    rdf:subject [ a tcs:TaxonConcept ;
+        dcterms:title "Phyllotrox sec. Franz & O'Brien (2001)" ;
+        tcs:accordingTo <https://www.jstor.org/stable/25078744> ;
+        tcs:taxonName _:b1 ] ;
+    rdf:predicate tcs:partiallyOverlaps ;
+    rdf:object [ a tcs:TaxonConcept ; 
+        dcterms:title "Phyllotrox sec. Franz (2006)" ;
+        tcs:accordingTo <https://doi.org/10.1111/j.1365-3113.2005.00308.x> ;
+        tcs:taxonName _:b1 ] ;
+    dcterms:source <https://doi.org/10.1111/cla.12042> .
+
+_:b1 a tcs:TaxonName ;
+    tcs:taxonNameString "Phyllotrox" ;
+    dwc:scientificNameAuthorship "Schönherr, 1843" .
+```
+
+[&lsqb;TaxonConcept-partiallyOverlaps-3.ttl&rsqb;](../../examples/TaxonConcept-partiallyOverlaps-3.ttl)&nbsp;[&lsqb;TaxonConcept-partiallyOverlaps-3.jsonld&rsqb;](../../examples/TaxonConcept-partiallyOverlaps-3.jsonld)
+
+### tcs:isDisjointFrom
+
+<table style="width:100%;">
+	<tbody>
+		<tr>
+			<td>Identifier</td>
+			<td>http://rs.tdwg.org/tcs/terms/isDisjointFrom</td>
+		</tr>
+		<tr>
+			<td>Type</td>
+			<td>http://www.w3.org/1999/02/22-rdf-syntax-ns#Property</td>
+		</tr>
+		<tr>
+			<td>Label</td>
+			<td>is disjoint from</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td><b>required:</b> No — <b>repeatable:</b> Yes</td>
+		</tr>
+		<tr>
+			<td>Definition</td>
+			<td><p>The subject and objects taxon concepts have non-overlapping taxonomic  meanings, <em>i.e.</em> they do not have any members in common</p></td>
+		</tr>
+		<tr>
+			<td>GitHub issue</td>
+			<td>https://github.com/tdwg/tcs2/issues/56</td>
+		</tr>
+	</tbody>
+</table>
+
+
+**Comments**
+
+The `isDisjointFrom`  relationship is symmetrical, so if A `isDisjointFrom`  B then B `isDisjointFrom` A, but not transitive, so, if A `isDisjointFrom`  B and B `isDisjointFrom` C, it does not follow that A `isDisjointFrom` C.
+
+![](../media/taxon-relationship-type-is-disjoint-from.jpg)
+
+This relationship can also be written as the formula **A | B**.
+
+
+**Examples**
+
+
+```turtle
+# Andropogon glaucopsis sec. BONAP 2014 is disjoint from Andropogon virginicus sec. Weakley 2006
+[] a dwc:ResourceRelationship, rdf:Statement ;
+    rdf:subject [ a tcs:TaxonConcept ;
+            dcterms:title "Andropogon glaucopsis sec. BONAP 2014" ;
+            tcs:accordingTo <http://bonap.net/napa#2014> ;
+            tcs:taxonName <https://www.ipni.org/n/387942-1> ] ;
+    rdf:predicate tcs:isDisjointFrom ;
+    rdf:object [ a tcs:TaxonConcept ;
+            dcterms:title "Andropogon virginicus sec. Weakley 2006" ;
+            tcs:accordingTo <http://www.herbarium.unc.edu/FloraArchives/WeakleyFlora_2006-Jan.pdf> ;
+            tcs:taxonName <https://www.ipni.org/n/388740-1> ] ;
+    dcterms:source <https://doi.org/10.3233/SW-160220> .
+```
+
+[&lsqb;TaxonConcept-isDisjointFrom.ttl&rsqb;](../../examples/TaxonConcept-isDisjointFrom.ttl)&nbsp;[&lsqb;TaxonConcept-isDisjointFrom.jsonld&rsqb;](../../examples/TaxonConcept-isDisjointFrom.jsonld)
+
+### tcs:intersects
+
+<table style="width:100%;">
+	<tbody>
+		<tr>
+			<td>Identifier</td>
+			<td>http://rs.tdwg.org/tcs/terms/intersects</td>
+		</tr>
+		<tr>
+			<td>Type</td>
+			<td>http://www.w3.org/1999/02/22-rdf-syntax-ns#Property</td>
+		</tr>
+		<tr>
+			<td>Label</td>
+			<td>Intersects</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td><b>required:</b> No — <b>repeatable:</b> Yes</td>
+		</tr>
+		<tr>
+			<td>Definition</td>
+			<td><p>The taxonomic meanings of the subject and object taxon concepts intersect,  <em>i.e.</em> they have at least one member in common.</p></td>
+		</tr>
+		<tr>
+			<td>GitHub issue</td>
+			<td>https://github.com/tdwg/tcs2/issues/57</td>
+		</tr>
+	</tbody>
+</table>
+
+
+**Comments**
+
+`intersects` is the opposite of `isDisjointFrom` and the union of  `isCongruentWith`, `includes`, `isIncludedIn` and  `partiallyOverlaps`, meaning it can be any of these relationships. This  relationship type can be used when the more precise nature of the  relationship is not known or not stated, for example when dealing with  statements in traditional synonymies or with references to other treatments.
+
+
+**Examples**
+
+
+```turtle
+[] a tcs:TaxonConcept ;
+    dcterms:title "Begonia salaziensis sec. Klazenga & al. 1994" ;
+    tcs:accordingTo <https://doi/org/10.2307/3668252> ;
+    tcs:taxonName <https://ipni.org/n/105644-1> ;
+    tcs:intersects [ a tcs:TaxonConcept ;
+            dcterms:title "Begonia salaziensis sec. Warburg 1894" ;
+            tcs:accordingTo [ a bibo:Chapter ;
+                    dcterms:bibliographicCitation """Warburg, O. (1894). Begoniaceae, 
+                            in Engler, A. & K. Prantl, Nat. Pflanzenfam. 3(6a): 
+                            121-150.""" ] ;
+            tcs:taxonName <https://ipni.org/n/105644-1> ] ,
+        [ a tcs:TaxonConcept ;
+            dcterms:title "Begonia salaziensis sec. Irmscher 1925" ;
+            tcs:accordingTo [ a bibo:Chapter ;
+                    dcterms:bibliographicCitation """Irmscher, E. (1925). Begoniaceae, 
+                            in Engler, A. & K. Prantl, Nat. Pflanzenfam. ed. 2, 21: 
+                            548-588.""" ] ;
+            tcs:taxonName <https://ipni.org/n/105644-1> ] .
+
+[] a tcs:TaxonConcept ;
+    dcterms:title "Begonia seychellensis sec. Klazenga & al. 1994" ;
+    tcs:accordingTo <https://doi/org/10.2307/3668252> ;
+    tcs:taxonName <https://www.ipni.org/n/105731-1> ;
+    tcs:intersects [ a tcs:TaxonConcept ;
+        dcterms:title "Begonia comorensis sec. Keraudren-Aymonin 1983" ;
+        tcs:accordingTo [ a bibo:Book ;
+                dcterms:bibliographicCitation """Keraudren-Aymonin, M. (1983). Flore 
+                        de Madagascar et des Comores. Famille 144 – Begoniacées: 7-108""" ] ;
+        tcs:taxonName <https://www.ipni.org/n/104440-1> ;
+        tcs:synonym <https://www.ipni.org/n/105731-1> ] .
+```
+
+[&lsqb;TaxonConcept-intersects-1.ttl&rsqb;](../../examples/TaxonConcept-intersects-1.ttl)&nbsp;[&lsqb;TaxonConcept-intersects-1.jsonld&rsqb;](../../examples/TaxonConcept-intersects-1.jsonld)
+
 ### dcterms:title
 
 <table style="width:100%;">
@@ -690,309 +1215,8 @@ The `parent` is another Taxon Concept. This is the parent as indicated in  the `
 
 **Comments**
 
-In TCS `dcterms:title` is used for the taxonomic concept label (cf.  Senderov et al., 2018), which consists of the Taxon Name and a reference to  the publication where the concept is circumscribed, separated by 'sec.',  which stands for 'secundus' ('according to'). It is used to indicate one  specific meaning of a name – a Taxon Concept – rather than the cumulative  nomenclatural and taxonomic legacy associated with the name.
+In TCS `dcterms:title` is used for the taxonomic concept label [\[senderov_openbiodiv-o_2018\]](../bibliography#senderov_openbiodiv-o_2018), which consists of the Taxon Name and a reference to  the publication where the concept is circumscribed, separated by 'sec.',  which stands for 'secundus' ('according to'). It is used to indicate one  specific meaning of a name – a Taxon Concept – rather than the cumulative  nomenclatural and taxonomic legacy associated with the name.
 
-
-## Taxon Relationship
-
-### tcs:TaxonRelationship
-
-<table style="width:100%;">
-	<tbody>
-		<tr>
-			<td>Identifier</td>
-			<td>http://rs.tdwg.org/tcs/terms/TaxonRelationship</td>
-		</tr>
-		<tr>
-			<td>Type</td>
-			<td>http://www.w3.org/2000/01/rdf-schema#Class</td>
-		</tr>
-		<tr>
-			<td>Label</td>
-			<td>Taxon Relationship</td>
-		</tr>
-		<tr>
-			<td>Definition</td>
-			<td><p>Topological relationship between two Taxon Concepts.</p></td>
-		</tr>
-		<tr>
-			<td>Usage</td>
-			<td><p><code>relationshipType</code>, <code>subjectTaxonConcept</code>, <code>objectTaxonConcept</code> and  <code>relationshipAccordingTo</code> are all required.</p></td>
-		</tr>
-		<tr>
-			<td>GitHub issue</td>
-			<td>https://github.com/tdwg/tcs2/issues/43</td>
-		</tr>
-	</tbody>
-</table>
-
-
-**Comments**
-
-Taxon Relationships are a set of relationships that allow for the  alignment of Taxon Concepts – or taxon concept mapping. The main  relationship types coincide with topological relationships that are widely  used in spatial analysis, analysis of computer networks, artificial  intelligence, etc. In particular, they are the relationships that are used  in RCC-5 Region Connection Calculus, which allows for reasoning.
-
-An extra controlled term `intersects` has been added to the Taxon Concept  Relationship Type Vocabulary to accommodate Taxon Relationship  statements between Taxon Concepts of which we know that they have at least  one member in common, but where the more specific topological relationship  is not easily inferred.
-
-Taxon Relationship statements can be made in the treatment of the  subject Taxon Concept or by third parties.
-
-
-**Examples**
-
-
-```turtle
-# Athyriaceae sec. Rothfels et al. (2012) is included in Woodsiaceae sec. Smith et al. (2006)
-[] a :TaxonRelationship ; 
-    :relationshipAccordingTo <https://doi.org/10.1002/tax.613003> ;
-    :relationshipType <http://rs.tdwg.org/tcs-taxon-concept-relationship-type/values/isIncludedIn> ; 
-    :subjectTaxonConcept [ a :TaxonConcept ; 
-        dcterms:title "Athyriaceae sec. Rothfels et al. (2012)" ;
-        :accordingTo <https://doi.org/10.1002/tax.613003> ;
-        :acceptedName [ a :TaxonName ;
-            :taxonNameString "Athyriaceae" ] ; ] ;
-    :objectTaxonConcept [ a :TaxonConcept ;
-        dcterms:title "Woodsiaceae sec. Smith et al. (2006)" ;
-        :accordingTo <https://doi.org/10.2307/25065646> ;
-        :acceptedName [ a :TaxonName ;
-            :taxonNameString "Woodsiaceae" ] ] .
-
-<https://doi.org/10.1002/tax.613003> a bibo:AcademicArticle ;
-    dcterms:bibliographicCitation """Rothfels, Carl J.; Sundue, Michael A.; Kuo, Li-Yaung; Larsson, 
-            Anders; Kato, Masahiro; Schuettpelz, Eric; Pryer, Kathleen M. (2012). A revised 
-            family–level classification for eupolypod II ferns (Polypodiidae: Polypodiales). Taxon 
-            61(3): 515-533.""" .
-
-<https://doi.org/10.2307/25065646> a bibo:AcademicArticle ;
-    dcterms:bibliographicCitation """Smith, Alan R.; Pryer, Kathleen M.; Schuettpelz, Eric; Korall, 
-            Petra; Schneider, Harald; Wolf, Paul G. (2006). A classification for extant ferns. Taxon 
-            55(3): 705-731.""" .
-```
-
-[&lsqb;TaxonRelationship-1.ttl&rsqb;](examples/TaxonRelationship-1.ttl)
-
-
-```turtle
-# Dicranum fuscescens sec. Koperski et al. (2000) is congruent with Dicranum fuscescens sec. Corley 
-# et al. (1981)
-[] a :TaxonRelationship ;
-    :relationshipAccordingTo <https://www.tropicos.org/reference/9022656> ;
-    :relationshipType <http://rs.tdwg.org/tcs-taxon-concept-relationship-type/values/isCongruentWith> ; 
-    :subjectTaxonConcept [ a :TaxonConcept ;
-        dcterms:title "Dicranum fuscescens sec. Koperski et al. (2000)" ;
-        :accordingTo <https://www.tropicos.org/reference/9022656> ;
-        :acceptedName <https://www.tropicos.org/name/35122385> ] ;
-    :objectTaxonConcept [ a :TaxonConcept ;
-        dcterms:title "Dicranum fuscescens sec. Corley et al. (1981)" ;
-        :accordingTo <https://www.tropicos.org/reference/9004554> ;
-        :acceptedName <https://www.tropicos.org/name/35122385> ] .
-
-<https://www.tropicos.org/name/35122385> a :TaxonName ;
-    :taxonNameString "Dicranum fuscescens" ;
-    dwc:scientificNameAuthorship "Turner" .
-
-<https://www.tropicos.org/reference/9022656> a bibo:Book ;
-    dcterms:bibliographicCitation """Koperski, Monika; Sauer, Michael; Braun, Walter; Gradstein, S. 
-            Rob (2000). Referenzliste der Moose Deuthschlands. Schriftenreihe für Vegetationskunde 
-            34. Bundersamt für Naturschutz, Bonn-Bad Godesberg.""" .
-
-<https://www.tropicos.org/reference/9004554> a bibo:AcademicArticle ;
-    dcterms:bibliographicCitation """Corley, M.F.V.; Crundwell, A.C.; Düll, R.; Hill, M.O.; Smith, 
-            A.J.E. (1981). Mosses of Europe and the Azores; an annotated list of species, with synonyms from 
-            the recent literature. Journal of Bryology 11(4): 609-689.""" .
-```
-
-[&lsqb;TaxonRelationship-2.ttl&rsqb;](examples/TaxonRelationship-2.ttl)
-
-
-```turtle
-# Phyllotrox sec. Franz & O'Brien (2001) partially overlaps Phyllotrox sec. Franz (2006)
-[] a :TaxonRelationship ;
-    :relationshipAccordingTo <https://doi.org/10.1111/cla.12042> ;
-    :relationshipType <http://rs.tdwg.org/tcs-taxon-concept-relationship-type/values/partiallyOverlaps> ;
-    :subjectTaxonConcept [ a :TaxonConcept ;
-        dcterms:title "Phyllotrox sec. Franz & O'Brien (2001)" ;
-        :accordingTo <https://www.jstor.org/stable/25078744> ;
-        :acceptedName _:n1 ] ;
-    :objectTaxonConcept [ a :TaxonConcept ; 
-        dcterms:title "Phyllotrox sec. Franz (2006)" ;
-        :accordingTo <https://doi.org/10.1111/j.1365-3113.2005.00308.x> ;
-        :acceptedName _:n1 ] .
-
-_:n1 a :TaxonName ;
-    :taxonNameString "Phyllotrox" ;
-    dwc:scientificNameAuthorship "Schoenherr" .
-
-<https://www.jstor.org/stable/25078744> a bibo:AcademicArticle ;
-    dcterms:bibliographicCitation """Franz, Nico M.; O`Brien, Charles W. (2001). Revision and 
-            phylogeny of Perelleschus (Coleoptera: Curculionidae) with notes on its Association with 
-            Carludovica (Cyclanthaceae). Transactions of the American Entomological Society 127(2): 
-            255-287""" .
-
-<https://doi.org/10.1111/j.1365-3113.2005.00308.x> a bibo:AcademicArticle ;
-    dcterms:bibliographicReference """Franz, Nico M. (2006). Towards a phylogenetic system of 
-            derelomine flower weevils (Coleoptera: Curculionidae). Systematic Entomology 31(2): 
-            220-287.""" .
-
-<https://doi.org/10.1111/cla.12042> a bibo:AcademicArticle ;
-    dcterms:bibliographicCitation """Franz, Nico M. (2014). Anatomy of a cladistic analysis. 
-            Cladistics 30(3): 294-321.""" .
-```
-
-[&lsqb;TaxonRelationship-3.ttl&rsqb;](examples/TaxonRelationship-3.ttl)
-
-### tcs:relationshipAccordingTo
-
-<table style="width:100%;">
-	<tbody>
-		<tr>
-			<td>Identifier</td>
-			<td>http://rs.tdwg.org/tcs/terms/relationshipAccordingTo</td>
-		</tr>
-		<tr>
-			<td>Type</td>
-			<td>http://www.w3.org/1999/02/22-rdf-syntax-ns#Property</td>
-		</tr>
-		<tr>
-			<td>Label</td>
-			<td>Relationship According To</td>
-		</tr>
-		<tr>
-			<td></td>
-			<td><b>required:</b> Yes — <b>repeatable:</b> No</td>
-		</tr>
-		<tr>
-			<td>Definition</td>
-			<td><p>Reference to the source of the taxon relationship statement.</p></td>
-		</tr>
-		<tr>
-			<td>Usage</td>
-			<td><p><code>relationshipAccordingTo</code> is an IRI term and is required; a Taxon  Relationship statement can have only one <code>relationshipAccordingTo</code>.</p></td>
-		</tr>
-		<tr>
-			<td>GitHub issue</td>
-			<td>https://github.com/tdwg/tcs2/issues/47</td>
-		</tr>
-	</tbody>
-</table>
-
-
-**Comments**
-
-In the case of Taxon Relationships from traditional synonymy, the  `relationshipAccordingTo` is the same as the `accordingTo` of the Taxon  Concept that is the `subjectTaxonConcept`.
-
-### tcs:relationshipType
-
-<table style="width:100%;">
-	<tbody>
-		<tr>
-			<td>Identifier</td>
-			<td>http://rs.tdwg.org/tcs/terms/relationshipType</td>
-		</tr>
-		<tr>
-			<td>Type</td>
-			<td>http://www.w3.org/1999/02/22-rdf-syntax-ns#Property</td>
-		</tr>
-		<tr>
-			<td>Label</td>
-			<td>Relationship type</td>
-		</tr>
-		<tr>
-			<td></td>
-			<td><b>required:</b> Yes — <b>repeatable:</b> No</td>
-		</tr>
-		<tr>
-			<td>Definition</td>
-			<td><p>The type of relationship.</p></td>
-		</tr>
-		<tr>
-			<td>Usage</td>
-			<td><p>This property is required; one MUST use a term from the <a href="taxon-relationship-type-vocabulary.md">Taxon Concept  Relationship Vocabulary</a>.</p></td>
-		</tr>
-		<tr>
-			<td>GitHub issue</td>
-			<td>https://github.com/tdwg/tcs2/issues/44</td>
-		</tr>
-	</tbody>
-</table>
-
-### tcs:subjectTaxonConcept
-
-<table style="width:100%;">
-	<tbody>
-		<tr>
-			<td>Identifier</td>
-			<td>http://rs.tdwg.org/tcs/terms/subjectTaxonConcept</td>
-		</tr>
-		<tr>
-			<td>Type</td>
-			<td>http://www.w3.org/1999/02/22-rdf-syntax-ns#Property</td>
-		</tr>
-		<tr>
-			<td>Label</td>
-			<td>Subject Taxon Concept</td>
-		</tr>
-		<tr>
-			<td></td>
-			<td><b>required:</b> Yes — <b>repeatable:</b> No</td>
-		</tr>
-		<tr>
-			<td>Definition</td>
-			<td><p>Taxon Concept that is the subject in the relationship statement.</p></td>
-		</tr>
-		<tr>
-			<td>Usage</td>
-			<td><p><code>subjectTaxonConcept</code> is a TCS Taxon Concept; a Taxon Relationship  statement can have only one <code>subjectTaxonConcept</code>.</p></td>
-		</tr>
-		<tr>
-			<td>GitHub issue</td>
-			<td>https://github.com/tdwg/tcs2/issues/45</td>
-		</tr>
-	</tbody>
-</table>
-
-
-**Comments**
-
-This is the Taxon Concept at the left-hand side of the relationship  statement.
-
-### tcs:objectTaxonConcept
-
-<table style="width:100%;">
-	<tbody>
-		<tr>
-			<td>Identifier</td>
-			<td>http://rs.tdwg.org/tcs/terms/objectTaxonConcept</td>
-		</tr>
-		<tr>
-			<td>Type</td>
-			<td>http://www.w3.org/1999/02/22-rdf-syntax-ns#Property</td>
-		</tr>
-		<tr>
-			<td>Label</td>
-			<td>Object Taxon Concept</td>
-		</tr>
-		<tr>
-			<td></td>
-			<td><b>required:</b> Yes — <b>repeatable:</b> No</td>
-		</tr>
-		<tr>
-			<td>Definition</td>
-			<td><p>Taxon Concept that is the object in the relationship statement.</p></td>
-		</tr>
-		<tr>
-			<td>Usage</td>
-			<td><p><code>objectTaxonConcept</code> is a TCS Taxon Concept; a Taxon Relationship  statement can have only one <code>objectTaxonConcept</code>.</p></td>
-		</tr>
-		<tr>
-			<td>GitHub issue</td>
-			<td>https://github.com/tdwg/tcs2/issues/46</td>
-		</tr>
-	</tbody>
-</table>
-
-
-**Comments**
-
-This is the Taxon Concept at the right-hand side of the relationship  statement.
 
 ## Taxon Name
 
@@ -1037,52 +1261,52 @@ The word 'name' here is taken in its dictionary meaning and not in the  sense of
 
 
 ```turtle
-<urn:lsid:zoobank.org:act:355AAA50-D89F-466E-A216-96B7A17D5AD4> a :TaxonName ;
-    :taxonNameString "Carabus nitens" ;
+<urn:lsid:zoobank.org:act:355AAA50-D89F-466E-A216-96B7A17D5AD4> a tcs:TaxonName ;
+    tcs:taxonNameString "Carabus nitens" ;
     dwc:scientificNameAuthorship "Linnaeus, 1758" .
 ```
 
-[&lsqb;TaxonName-1.ttl&rsqb;](examples/TaxonName-1.ttl)
+[&lsqb;TaxonName-1.ttl&rsqb;](../../examples/TaxonName-1.ttl)&nbsp;[&lsqb;TaxonName-1.jsonld&rsqb;](../../examples/TaxonName-1.jsonld)
 
 
 ```turtle
-<https://www.ipni.org/n/316069-1> a :TaxonName ;
-    :taxonNameString "Rafflesia arnoldii" ;
+<https://www.ipni.org/n/316069-1> a tcs:TaxonName ;
+    tcs:taxonNameString "Rafflesia arnoldii" ;
     dwc:scientificNameAuthorship "R.Br." ;
     dwc:namePublishedIn "Account Rafflesia 7, tt. 15-22 (1821)" .
 ```
 
-[&lsqb;TaxonName-2.ttl&rsqb;](examples/TaxonName-2.ttl)
+[&lsqb;TaxonName-2.ttl&rsqb;](../../examples/TaxonName-2.ttl)&nbsp;[&lsqb;TaxonName-2.jsonld&rsqb;](../../examples/TaxonName-2.jsonld)
 
 
 ```turtle
-<http://www.indexfungorum.org/names/NamesRecord.asp?RecordID=178962> a :TaxonName ;
-    :taxonNameString "Amanita phalloides" ;
+<http://www.indexfungorum.org/names/NamesRecord.asp?RecordID=178962> a tcs:TaxonName ;
+    tcs:taxonNameString "Amanita phalloides" ;
     dwc:scientificNameAuthorship "(Vaill. ex Fr.) Link" ;
     dwc:namePublishedIn "Handb. Erk. Gew. 3: 272 (1833)" .
 ```
 
-[&lsqb;TaxonName-3.ttl&rsqb;](examples/TaxonName-3.ttl)
+[&lsqb;TaxonName-3.ttl&rsqb;](../../examples/TaxonName-3.ttl)&nbsp;[&lsqb;TaxonName-3.jsonld&rsqb;](../../examples/TaxonName-3.jsonld)
 
 
 ```turtle
 # Example from TCS 1
-<https://www.ipni.org/n/50985479-1> a :TaxonName ;
-    :nomenclaturalCode <http://rs.gbif.org/vocabulary/gbif/nomenclatural_code/ICN> ;
-    :taxonomicNameString "Rhododendron sect. Sciadorhodion" ;
+<https://www.ipni.org/n/50985479-1> a tcs:TaxonName ;
+    tcs:nomenclaturalCode <http://rs.gbif.org/vocabulary/gbif/nomenclatural_code/ICN> ;
+    tcs:taxonomicNameString "Rhododendron sect. Sciadorhodion" ;
     dwc:scientificNameAuthorship "Rehder & Wilson" ;
     dwc:namePublishedIn "Monogr. Azaleas 79 (1921)" ;
-    :namePublishedIn [ a bibo:Book ;
+    tcs:namePublishedIn [ a bibo:Book ;
         dcterms:bibliographicCitation """Wilson, E.H. & Rehder, A. (1921). A 
                 monograph of the azaleas. Publication of the Arnold Arboretum 
                 No. 9 Harvard University, Cambridge MA.""" ] ;
-    :microReference "79" ;
+    tcs:microReference "79" ;
     dwc:namePublishedInYear "1921" ;
     dwc:genericName "Rhododendron" ;
     dwc:infragenericName "Sciadorhodion" .
 ```
 
-[&lsqb;TaxonName-4.ttl&rsqb;](examples/TaxonName-4.ttl)
+[&lsqb;TaxonName-4.ttl&rsqb;](../../examples/TaxonName-4.ttl)&nbsp;[&lsqb;TaxonName-4.jsonld&rsqb;](../../examples/TaxonName-4.jsonld)
 
 ### tcs:taxonNameString
 
@@ -1318,55 +1542,55 @@ This is the IRI equivalent of the Darwin Core `nomenclaturalStatus`. In the  abs
 
 **Comments**
 
-A basionym is the epithet-bringing name.  The `basionym` property is only  used for new combinations ('comb. nov.'). If the new name is a replacement  name ('nom. nov.') the `replacedSynonym` property should be used  instead.
+A basionym is the epithet-bringing name.  The `basionym` property is only  used for new combinations ('comb. nov.'). If the new name is a replacement  name ('nom. nov.') the `replacedName` property should be used  instead.
 
 
 **Examples**
 
 
 ```turtle
-<https://id.biodiversity.org.au/name/apni/166271> a :TaxonName ;
+<https://id.biodiversity.org.au/name/apni/166271> a tcs:TaxonName ;
     rdf:seeAlso <https://www.ipni.org/n/17571690-1> ;
-    :taxonNameString "Doodia australis" ;
+    tcs:taxonNameString "Doodia australis" ;
     dwc:scientificNameAuthorship "(Parris) Parris" ;
     dwc:namePublishedIn "Fl. Australia 48: 710 (1998)" ;
-    :basionym <https://id.biodiversity.org.au/name/apni/117170> .
+    tcs:basionym <https://id.biodiversity.org.au/name/apni/117170> .
 
-<https://id.biodiversity.org.au/name/apni/117170> a :TaxonName ;
+<https://id.biodiversity.org.au/name/apni/117170> a tcs:TaxonName ;
     rdf:seeAlso <https://www.ipni.org/n/17567870-1> ;
-    :taxonNameString "Doodia media subsp. australis" ;
+    tcs:taxonNameString "Doodia media subsp. australis" ;
     dwc:scientificNameAuthorship "Parris" ;
     dwc:namePublishedIn "New Zealand J. Bot. 10(4): 593 (1972)" .
 ```
 
-[&lsqb;TaxonName-basionym-1.ttl&rsqb;](examples/TaxonName-basionym-1.ttl)
+[&lsqb;TaxonName-basionym-1.ttl&rsqb;](../../examples/TaxonName-basionym-1.ttl)&nbsp;[&lsqb;TaxonName-basionym-1.jsonld&rsqb;](../../examples/TaxonName-basionym-1.jsonld)
 
 
 ```turtle
-[] a :TaxonName ;
-    :taxonNameString "Osphranter rufus" ;
+[] a tcs:TaxonName ;
+    tcs:taxonNameString "Osphranter rufus" ;
     dwc:scientificNameAuthorship "(Desmaret, 1882)" ;
-    :basionym _:b1 .
+    tcs:basionym _:b1 .
 
-[] a :TaxonName ;
-    :taxonNameString "Macropus rufus" ;
+[] a tcs:TaxonName ;
+    tcs:taxonNameString "Macropus rufus" ;
     dwc:scientificNameAuthorship "(Desmaret, 1882)" ;
-    :basionym: _:b1 .
+    tcs:basionym: _:b1 .
 
-_:b1 a :TaxonName ;
-    :taxonNameString "Kangurus rufus" ;
+_:b1 a tcs:TaxonName ;
+    tcs:taxonNameString "Kangurus rufus" ;
     dwc:scientificNameAuthorship "Desmaret, 1882" .
 ```
 
-[&lsqb;TaxonName-basionym-2.ttl&rsqb;](examples/TaxonName-basionym-2.ttl)
+[&lsqb;TaxonName-basionym-2.ttl&rsqb;](../../examples/TaxonName-basionym-2.ttl)&nbsp;[&lsqb;TaxonName-basionym-2.jsonld&rsqb;](../../examples/TaxonName-basionym-2.jsonld)
 
-### tcs:replacedSynonym
+### tcs:replacedName
 
 <table style="width:100%;">
 	<tbody>
 		<tr>
 			<td>Identifier</td>
-			<td>http://rs.tdwg.org/tcs/terms/replacedSynonym</td>
+			<td>http://rs.tdwg.org/tcs/terms/replacedName</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -1386,7 +1610,7 @@ _:b1 a :TaxonName ;
 		</tr>
 		<tr>
 			<td>Usage</td>
-			<td><p><code>replacedSynonym</code> is another Taxon Name; a Taxon Name can have only one  <code>replaccementNameFor</code>.</p></td>
+			<td><p><code>replacedName</code> is another Taxon Name; a Taxon Name can have only one  <code>replacedName</code>.</p></td>
 		</tr>
 		<tr>
 			<td>GitHub issue</td>
@@ -1405,70 +1629,70 @@ In the Botanical Code the term 'replaced synonym' is used. A 'replacement  name'
 
 
 ```turtle
-<https://www.tropicos.org/name/35183593> a :TaxonName ;
-    :taxonNameString "Dicranum bartramianum" ;
+<https://www.tropicos.org/name/35183593> a tcs:TaxonName ;
+    tcs:taxonNameString "Dicranum bartramianum" ;
     dwc:scientificNameAuthorship "B.H.Allen" ;
     dwc:namePublishedIn "Cryptog. Bryol. Lichénol. 8: 323" ;
     dwc:namePublishedInYear "1987" ;
-    :replacedSynonym <https://www.tropicos.org/name/35120798> .
+    tcs:replacedName <https://www.tropicos.org/name/35120798> .
 
-<https://www.tropicos.org/name/35120798> a :TaxonName ;
-    :taxonNameString "Dicnemon robustum" ;
+<https://www.tropicos.org/name/35120798> a tcs:TaxonName ;
+    tcs:taxonNameString "Dicnemon robustum" ;
     dwc:scientificNameAuthorship "E.B.Bartram" ;
     dwc:namePublishedIn "Bryologist 48: 112" ;
     dwc:namePublishedInYear "1945" .
 
 # blocking name
-<https://www.tropicos.org/name/35124067> a :TaxonName ;
-    :taxonNameString "Dicranum robustum" ;
+<https://www.tropicos.org/name/35124067> a tcs:TaxonName ;
+    tcs:taxonNameString "Dicranum robustum" ;
     dwc:scientificNameAuthorship "Hook.f. & Wilson" ;
     dwc:namePublishedIn "London J. Bot. 3: 542" ;
     dwc:namePublishedInYear "1844" .
 
 # combination of Dicnemon robustum
-<https://www.tropicos.org/name/35162373> a :TaxonName ;
-    :taxonNameString "Eucamptodon robustum" ;
+<https://www.tropicos.org/name/35162373> a tcs:TaxonName ;
+    tcs:taxonNameString "Eucamptodon robustum" ;
     dwc:scientificNameAuthorship "(E.B.Bartram) E.B.Bartram" ;
     dwc:namePublishedIn "Brittonia 11: 88" ;
     dwc:namePublishedInYear "1959" ;
-    :basionym <https://www.tropicos.org/name/35120798> .
+    tcs:basionym <https://www.tropicos.org/name/35120798> .
 
 # combination of Dicranum bartramianum
-<https://www.tropicos.org/name/35204723> a :TaxonName ;
-    :taxonNameString "Dicranoloma bartramianum" ;
+<https://www.tropicos.org/name/35204723> a tcs:TaxonName ;
+    tcs:taxonNameString "Dicranoloma bartramianum" ;
     dwc:scientificNameAuthorship "(B.H.Allen) Klazenga" ;
     dwc:namePublishedIn "J. Hattory Bot. Lab. 87: 57" ;
     dwc:namePublishedInYear "1999" ;
-    :basionym <https://www.tropicos.org/name/35183593> .
+    tcs:basionym <https://www.tropicos.org/name/35183593> .
 ```
 
-[&lsqb;TaxonName-replacedSynonym-1.ttl&rsqb;](examples/TaxonName-replacedSynonym-1.ttl)
+[&lsqb;TaxonName-replacedName-1.ttl&rsqb;](../../examples/TaxonName-replacedName-1.ttl)&nbsp;[&lsqb;TaxonName-replacedName-1.jsonld&rsqb;](../../examples/TaxonName-replacedName-1.jsonld)
 
 
 ```turtle
-<https://www.tropicos.org/name/35000146> a :TaxonName ;
-    :taxonNameString "Braunfelsia" ;
+<https://www.tropicos.org/name/35000146> a tcs:TaxonName ;
+    tcs:taxonNameString "Braunfelsia" ;
     dwc:scientificNameAuthorship "Paris" ;
     dwc:namePublishedIn "Index Bryol.: 148" ;
     dwc:namePublishedInYear "1894" ;
-    :replacedSynonym <https://www.tropicos.org/name/35001206> .
+    tcs:replacedName <https://www.tropicos.org/name/35001206> .
 
-<https://www.tropicos.org/name/35001206> a :TaxonName ;
-    :taxonNameString "Solmsia" ;
+<https://www.tropicos.org/name/35001206> a tcs:TaxonName ;
+    tcs:taxonNameString "Solmsia" ;
     dwc:scientificNameAuthorship "Hampe" ;
     dwc:namePublishedIn "Nuovo Giorn. Bot. Ital. 4(4): 273, 281" ;
     dwc:namePublishedInYear "1872" ;
-    :nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/illegitimum> .
+    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/illegitimum> .
 
 # prior homonym
-<https://www.ipni.org/n/39527-1> a :TaxonName ;
-    :taxonNameString "Solmsia" ;
+<https://www.ipni.org/n/39527-1> a tcs:TaxonName ;
+    tcs:taxonNameString "Solmsia" ;
     dwc:scientificNameAuthorship "Baill." ;
     dwc:namePublishedIn "Adansonia 10: 37" ;
     dwc:namePublishedInYear "1871" .
 ```
 
-[&lsqb;TaxonName-replacedSynonym-2.ttl&rsqb;](examples/TaxonName-replacedSynonym-2.ttl)
+[&lsqb;TaxonName-replacedName-2.ttl&rsqb;](../../examples/TaxonName-replacedName-2.ttl)&nbsp;[&lsqb;TaxonName-replacedName-2.jsonld&rsqb;](../../examples/TaxonName-replacedName-2.jsonld)
 
 ### tcs:spellingCorrectionOf
 
@@ -1515,22 +1739,22 @@ The `spellingCorrectionOf` property can be used if the originally published  nam
 
 
 ```turtle
-<https://www.tropicos.org/name/35121514> a :TaxonName ;
-    :taxonNameString "Dicranoloma dicarpon" ;
-    :authorship "(Nees) Paris" ;
+<https://www.tropicos.org/name/35121514> a tcs:TaxonName ;
+    tcs:taxonNameString "Dicranoloma dicarpon" ;
+    tcs:authorship "(Nees) Paris" ;
     dwc:namePublishedIn "Index Bryol. ed. 2, 2: 26" ;
     dwc:namePublishedInYear "1904" ;
-    :basionym <https://www.tropicos.org/name/35122214> ;
-    :spellingCorrectionOf <https://id.biodiversity.org.au/name/ausmoss/10152639> .
+    tcs:basionym <https://www.tropicos.org/name/35122214> ;
+    tcs:spellingCorrectionOf <https://id.biodiversity.org.au/name/ausmoss/10152639> .
 
-<https://www.tropicos.org/name/35122214> a :TaxonName ;
-    :taxonNameString "Dicranum dicarpon" ;
-    :authorship "Nees" ;
+<https://www.tropicos.org/name/35122214> a tcs:TaxonName ;
+    tcs:taxonNameString "Dicranum dicarpon" ;
+    tcs:authorship "Nees" ;
     dwc:namePublishedIn "Syst. Veg. ed. 16, 4(2):322" ;
     dwc:namePublishedInYear "1827" .
 
-<https://id.biodiversity.org.au/name/ausmoss/10152639> a :TaxonName ;
-    :taxonNameString "Dicranoloma dicarpum" .
+<https://id.biodiversity.org.au/name/ausmoss/10152639> a tcs:TaxonName ;
+    tcs:taxonNameString "Dicranoloma dicarpum" .
 
 # Dicranoloma dicarpon is a common species of moss in Australia and New 
 # Zealand. The correct spelling of the epithet is 'dicarpon', because that is 
@@ -1540,7 +1764,7 @@ The `spellingCorrectionOf` property can be used if the originally published  nam
 # All records in GBIF will be as 'Dicranoloma dicarpum'.
 ```
 
-[&lsqb;TaxonName-spellingCorrectionOf.ttl&rsqb;](examples/TaxonName-spellingCorrectionOf.ttl)
+[&lsqb;TaxonName-spellingCorrectionOf.ttl&rsqb;](../../examples/TaxonName-spellingCorrectionOf.ttl)&nbsp;[&lsqb;TaxonName-spellingCorrectionOf.jsonld&rsqb;](../../examples/TaxonName-spellingCorrectionOf.jsonld)
 
 ### tcs:conservedAgainst
 
@@ -1587,25 +1811,25 @@ A scientific name below the rank of family is not conserved against all  other n
 
 
 ```turtle
-<https://www.tropicos.org/name/35000378> a :TaxonName ;
-    :taxonNameString "Dicranoloma" ;
+<https://www.tropicos.org/name/35000378> a tcs:TaxonName ;
+    tcs:taxonNameString "Dicranoloma" ;
     dwc:scientificNameAuthorship "(Renauld) Renauld" ;
-    :namePublishedInYear "1909" ;
-    :conservedAgainst <https://www.tropicos.org/name/35000771> ,
+    tcs:namePublishedInYear "1909" ;
+    tcs:conservedAgainst <https://www.tropicos.org/name/35000771> ,
             <https://www.tropicos.org/name/35000146> .
 
-<https://www.tropicos.org/name/35000771> a :TaxonName ;
-    :taxonNameString "Megalostylium" ;
+<https://www.tropicos.org/name/35000771> a tcs:TaxonName ;
+    tcs:taxonNameString "Megalostylium" ;
     dwc:scientificNameAuthorship "Dozy & Molk." ;
     dwc:namePublishedInYear "1848" . 
 
-<https://www.tropicos.org/name/35000146> a :TaxonName ;
-    :taxonNameString "Braunfelsia" ;
+<https://www.tropicos.org/name/35000146> a tcs:TaxonName ;
+    tcs:taxonNameString "Braunfelsia" ;
     dwc:scientificNameAuthorship "Paris" ;
     dwc:namePublishedInYear "1894" .
 ```
 
-[&lsqb;TaxonName-conservedAgainst.ttl&rsqb;](examples/TaxonName-conservedAgainst.ttl)
+[&lsqb;TaxonName-conservedAgainst.ttl&rsqb;](../../examples/TaxonName-conservedAgainst.ttl)&nbsp;[&lsqb;TaxonName-conservedAgainst.jsonld&rsqb;](../../examples/TaxonName-conservedAgainst.jsonld)
 
 ### dwc:scientificName
 
@@ -1931,39 +2155,39 @@ A nomenclatural type fixes the usage of a name to the taxonomic group that  cont
 
 ```turtle
 # Examples from TCS 1
-[] a :NomenclaturalType ;
-    :typifiedName <https://www.ipni.org/n/50985479-1> ;
-    :typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/lectotype> ;
-    :typeName <https://www.ipni.org/n/333193-1> ;
-    :typePublishedIn [ a bibo:Article ;
+[] a tcs:NomenclaturalType ;
+    tcs:typifiedName <https://www.ipni.org/n/50985479-1> ;
+    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/lectotype> ;
+    tcs:typeName <https://www.ipni.org/n/333193-1> ;
+    tcs:typePublishedIn [ a bibo:Article ;
     	  dcterms:bibliographicCitation """Copeland, H.F. (1943). A study, anatomical and 
                 taxonomic, of the genera of Rhododendroideae. Am. Midl. Nat. 30: 533-625""" ] .
 
-[] a :NomenclaturalType ;
-    :typifiedName <https://www.ipni.org/n/333193-1> ;
-    :typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/lectotype> ;
-    :typeSpecimen [ a dwc:PreservedSpecimen ;
+[] a tcs:NomenclaturalType ;
+    tcs:typifiedName <https://www.ipni.org/n/333193-1> ;
+    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/lectotype> ;
+    tcs:typeSpecimen [ a dwc:PreservedSpecimen ;
         dwc:verbatimLocality "Japan, Honshu, Nikko" ;
         dwc:recordedBy "Bisset" ;
         dwc:recordNumber "233" ;
         dwc:eventDate "1876-05-23" ;
         dwc:institutionCode "E" ] ;
-    :typePublishedIn [ a bibo:Article ; 
+    tcs:typePublishedIn [ a bibo:Article ; 
         dcterms:bibliographicCitation """Judd, W.S.; Kron, K.A. (1995). A revision of Rhododendron 
                 VI. Subgenus Pentanthera (sections Sciadorhodon, Rhodora and Viscidula). Edinburgh 
                 Journal of Botany 52: 1-54.""" ] .
 
 # name used in TaxonName examples; more data there
-<https://www.ipni.org/n/50985479-1> a :TaxonName ;
-    :taxonomicNameString "Rhododendron sect. Sciadorhodion" ;
+<https://www.ipni.org/n/50985479-1> a tcs:TaxonName ;
+    tcs:taxonNameString "Rhododendron sect. Sciadorhodion" ;
     dwc:scientificNameAuthorship "Rehder & Wilson" .
 
-<https://www.ipni.org/n/333193-1> a :TaxonName ;
-    :taxonomicNameString "Rhododendron quinquefolium" ;
+<https://www.ipni.org/n/333193-1> a tcs:TaxonName ;
+    tcs:taxonNameString "Rhododendron quinquefolium" ;
     dwc:scientificNameAuthorship "Bisset & S.Moore" .
 ```
 
-[&lsqb;NomenclaturalType.ttl&rsqb;](examples/NomenclaturalType.ttl)
+[&lsqb;NomenclaturalType.ttl&rsqb;](../../examples/NomenclaturalType.ttl)&nbsp;[&lsqb;NomenclaturalType.jsonld&rsqb;](../../examples/NomenclaturalType.jsonld)
 
 ### tcs:typifiedName
 
@@ -2165,4 +2389,4 @@ Names at ranks of family and below are typified by a specimen. This property  is
 
 `typePublishedIn` is relevant for lectotypes, neotypes, epitypes and  conserved types. For other kinds of type the publication where the type is  designated is the publication where the name was published.
 
-<!-- termlist-footer.md ==>
+<!-- footer -->

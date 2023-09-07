@@ -91,19 +91,6 @@ def create_index(categories, merged_df):
     """
     text = '\n## Index of terms\n\n'
 
-    if len(categories) > 1:
-        text += '**classes**\n\n'
-
-        items = []
-        for index, row in merged_df[merged_df['type'].str.contains('Class')].iterrows():
-            label = '{namespaceAlias}:{localName}'.format(
-                namespaceAlias=row['namespaceAlias'], localName=row['localName'])
-            anchor = '#{namespaceAlias}{localName}'.format(
-                namespaceAlias=row['namespaceAlias'], localName=row['localName'].lower())
-            item = '[{label}]({anchor})'.format(label=label, anchor=anchor)
-            items.append(item)
-        text += ' | '.join(items) + '\n\n'
-
     for category in categories:
         if len(categories) > 1:
             text += '**{label}**\n\n'.format(label=category['label'])
@@ -125,9 +112,8 @@ def create_index(categories, merged_df):
             anchor = '#{namespaceAlias}{localName}'.format(
                 namespaceAlias=row['namespaceAlias'], localName=row['localName'].lower())
 
-            if 'Class' not in row['type']:
-                item = '[{label}]({anchor})'.format(label=label, anchor=anchor)
-                items.append(item)
+            item = '[{label}]({anchor})'.format(label=label, anchor=anchor)
+            items.append(item)
         text += ' | '.join(items) + '\n\n'
 
     return text
@@ -293,14 +279,15 @@ def term_table(term):
     return text
 
 def add_example(ex):
-    file_name = '../docs/examples/' + ex + '.ttl'
+    file_name = '../examples/' + ex + '.ttl'
     with open(file_name, 'r') as examplefile:
         example = examplefile.read()
         example = re.sub(r'@.*> ?. *\n', '', example).strip()
     text = '\n```turtle\n'
     text += example
     text += '\n```\n\n' 
-    text += '[&lsqb;' + ex + '.ttl&rsqb;](examples/' + ex + '.ttl)\n\n'
+    text += '[&lsqb;' + ex + '.ttl&rsqb;](../../examples/' + ex + '.ttl)&nbsp;'
+    text += '[&lsqb;' + ex + '.jsonld&rsqb;](../../examples/' + ex + '.jsonld)\n\n'
     return text
 
 # create vocabulary

@@ -8,8 +8,7 @@
   definition: A name given to the resource.
   usage: null
   notes: >
-    In TCS `dcterms:title` is used for the taxonomic concept label (cf. 
-    Senderov et al., 2018), which consists of the Taxon Name and a reference to 
+    In TCS `dcterms:title` is used for the taxonomic concept label [\[senderov_openbiodiv-o_2018\]](../bibliography#senderov_openbiodiv-o_2018), which consists of the Taxon Name and a reference to 
     the publication where the concept is circumscribed, separated by 'sec.', 
     which stands for 'secundus' ('according to'). It is used to indicate one 
     specific meaning of a name – a Taxon Concept – rather than the cumulative 

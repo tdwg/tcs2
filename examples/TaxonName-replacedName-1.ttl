@@ -1,0 +1,38 @@
+@prefix tcs: <http://rs.tdwg.org/tcs/terms/> .
+@prefix dwc: <http://rs.tdwg.org/dwc/terms/> .
+
+<https://www.tropicos.org/name/35183593> a tcs:TaxonName ;
+    tcs:taxonNameString "Dicranum bartramianum" ;
+    dwc:scientificNameAuthorship "B.H.Allen" ;
+    dwc:namePublishedIn "Cryptog. Bryol. Lichénol. 8: 323" ;
+    dwc:namePublishedInYear "1987" ;
+    tcs:replacedName <https://www.tropicos.org/name/35120798> .
+
+<https://www.tropicos.org/name/35120798> a tcs:TaxonName ;
+    tcs:taxonNameString "Dicnemon robustum" ;
+    dwc:scientificNameAuthorship "E.B.Bartram" ;
+    dwc:namePublishedIn "Bryologist 48: 112" ;
+    dwc:namePublishedInYear "1945" .
+
+# blocking name
+<https://www.tropicos.org/name/35124067> a tcs:TaxonName ;
+    tcs:taxonNameString "Dicranum robustum" ;
+    dwc:scientificNameAuthorship "Hook.f. & Wilson" ;
+    dwc:namePublishedIn "London J. Bot. 3: 542" ;
+    dwc:namePublishedInYear "1844" .
+
+# combination of Dicnemon robustum
+<https://www.tropicos.org/name/35162373> a tcs:TaxonName ;
+    tcs:taxonNameString "Eucamptodon robustum" ;
+    dwc:scientificNameAuthorship "(E.B.Bartram) E.B.Bartram" ;
+    dwc:namePublishedIn "Brittonia 11: 88" ;
+    dwc:namePublishedInYear "1959" ;
+    tcs:basionym <https://www.tropicos.org/name/35120798> .
+
+# combination of Dicranum bartramianum
+<https://www.tropicos.org/name/35204723> a tcs:TaxonName ;
+    tcs:taxonNameString "Dicranoloma bartramianum" ;
+    dwc:scientificNameAuthorship "(B.H.Allen) Klazenga" ;
+    dwc:namePublishedIn "J. Hattory Bot. Lab. 87: 57" ;
+    dwc:namePublishedInYear "1999" ;
+    tcs:basionym <https://www.tropicos.org/name/35183593> .

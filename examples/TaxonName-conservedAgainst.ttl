@@ -1,0 +1,19 @@
+@prefix tcs: <http://rs.tdwg.org/tcs/terms/> .
+@prefix dwc: <http://rs.tdwg.org/dwc/terms/> .
+
+<https://www.tropicos.org/name/35000378> a tcs:TaxonName ;
+    tcs:taxonNameString "Dicranoloma" ;
+    dwc:scientificNameAuthorship "(Renauld) Renauld" ;
+    tcs:namePublishedInYear "1909" ;
+    tcs:conservedAgainst <https://www.tropicos.org/name/35000771> ,
+            <https://www.tropicos.org/name/35000146> .
+
+<https://www.tropicos.org/name/35000771> a tcs:TaxonName ;
+    tcs:taxonNameString "Megalostylium" ;
+    dwc:scientificNameAuthorship "Dozy & Molk." ;
+    dwc:namePublishedInYear "1848" . 
+
+<https://www.tropicos.org/name/35000146> a tcs:TaxonName ;
+    tcs:taxonNameString "Braunfelsia" ;
+    dwc:scientificNameAuthorship "Paris" ;
+    dwc:namePublishedInYear "1894" .

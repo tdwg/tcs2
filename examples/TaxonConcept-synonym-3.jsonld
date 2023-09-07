@@ -1,0 +1,65 @@
+{
+  "@context": "https://raw.githubusercontent.com/tdwg/tcs2/dev-20230824/examples/context.jsonld",
+  "@id": "https://www.catalogueoflife.org/data/taxon/3YVTF",
+  "@type": "TaxonConcept",
+  "accordingTo": "https://doi.org/10.48580/dfry-3gd#1.1.23.5",
+  "dcterms:title": "Megalorhipida leucodactylus sec. Gielis & Hobern 2020-07-16",
+  "taxonName": {
+    "@type": "TaxonName",
+    "taxonNameString": "Megalorhipida leucodactylus",
+    "dwc:scientificName": "Megalorhipida leucodactylus (Fabricius, 1794)",
+    "basionym": {
+      "@type": "TaxonName",
+      "@id": "https://zoobank.org/NomenclaturalActs/39b2f236-3914-4962-9dcc-f594671654bd",
+      "dwc:scientificName": "Pterophorus leucodactylus Fabricius, 1794"
+    }
+  },
+  "synonym": [
+    {
+      "@type": "TaxonName",
+      "dwc:scientificName": "Aciptilia hawaiiensis Butler, 1881"
+    }, 
+    {
+      "@type": "TaxonName",
+      "dwc:scientificName": "Megalorhipida palaestinensis Amsel, 1935"
+    },
+    {
+      "@type": "TaxonName",
+      "dwc:scientificName": "Pterophorus congrualis Walker, 1864"
+    },
+    {
+      "@type": "TaxonName",
+      "dwc:scientificName": "Pterophorus defectalis Walker, 1864"
+    },
+    {
+      "@type": "TaxonName",
+      "dwc:scientificName": "Trichoptilus adelphodes Meyrick, 1887"
+    },
+    {
+      "@type": "TaxonName",
+      "dwc:scientificName": "Trichoptilus centetes Meyrick, 1886"
+    },
+    {
+      "@type": "TaxonName",
+      "dwc:scientificName": "Trichoptilus compsochares Meyrick, 1886"
+    },
+    {
+      "@type": "TaxonName",
+      "dwc:scientificName": "Trichoptilus derelictus Meyrick, 1926"
+    },
+    {
+      "@type": "TaxonName",
+      "dwc:scientificName": "Trichoptilus ochrodactylus Fish, 1881"
+    },
+    {
+      "@type": "TaxonName",
+      "dwc:scientificName": "Trichoptilus ralumensis Pagenstecher, 1900"
+    },
+    {
+      "@type": "TaxonName",
+      "dwc:scientificName": "Pterophorus oxydactylus Walker, 1864"
+    }
+  ],
+  "taxonomicRank": "species",
+  "parent": "https://www.catalogueoflife.org/data/taxon/62ZBY"
+}

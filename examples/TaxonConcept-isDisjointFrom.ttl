@@ -1,0 +1,17 @@
+@prefix tcs: <http://rs.tdwg.org/tcs/terms/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dwc: <http://rs.tdwg.org/dwc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+# Andropogon glaucopsis sec. BONAP 2014 is disjoint from Andropogon virginicus sec. Weakley 2006
+[] a dwc:ResourceRelationship, rdf:Statement ;
+    rdf:subject [ a tcs:TaxonConcept ;
+            dcterms:title "Andropogon glaucopsis sec. BONAP 2014" ;
+            tcs:accordingTo <http://bonap.net/napa#2014> ;
+            tcs:taxonName <https://www.ipni.org/n/387942-1> ] ;
+    rdf:predicate tcs:isDisjointFrom ;
+    rdf:object [ a tcs:TaxonConcept ;
+            dcterms:title "Andropogon virginicus sec. Weakley 2006" ;
+            tcs:accordingTo <http://www.herbarium.unc.edu/FloraArchives/WeakleyFlora_2006-Jan.pdf> ;
+            tcs:taxonName <https://www.ipni.org/n/388740-1> ] ;
+    dcterms:source <https://doi.org/10.3233/SW-160220> .

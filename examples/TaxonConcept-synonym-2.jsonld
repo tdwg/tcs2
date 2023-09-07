@@ -1,0 +1,27 @@
+{
+  "@context": "https://raw.githubusercontent.com/tdwg/tcs2/dev-20230824/examples/context.jsonld",
+  "@type": "TaxonConcept",
+  "dcterms:title": "Hebe colensoi sec. Bayly & Kellow 2006",
+  "accordingTo": "urn:isbn:978-0-909010-12-6",
+  "taxonName": {
+    "@id": "https://www.ipni.org/n/803678-1",
+    "@type": "TaxonName",
+    "taxonNameString": "Hebe colensoi",
+    "dwc:scientificNameAuthorship": "(Hook.f.) Cockayne",
+    "dwc:namePublishedIn": "Trans. & Proc. New Zealand Inst. 60: 384 (1929)",
+    "basionym": {
+      "@id": "https://www.ipni.org/n/811835-1",
+      "@type": "TaxonName",
+      "taxonNameString": "Veronica colensoi",
+      "dwc:scientificNameAuthorship": "Hook'f.",
+      "dwc:namePublishedIn": "Handb. N. Zeal. Fl. 209. (1864)"
+    }
+  },
+  "synonym": {
+    "@id": "https://www.ipni.org/n/812087-1",
+    "@type": "TaxonName",
+    "taxonNameString": "Veronica hillii",
+    "dwc:scientificNameAuthorship": "Colenso",
+    "dwc:namePublishedIn": "Trans. & Proc. New Zealand Inst. 28: 606 (1896)"
+  }
+}
