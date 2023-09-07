@@ -588,7 +588,7 @@
   notes: >-
     A nomenclatural type fixes the usage of a name to the taxonomic group that 
     contains the type. One or more Nomenclatural Types make up the typification 
-    of a Taxon Name. In Darwin Core RDF, NomenclaturalType can be used as object 
+    of a Taxon Name. In Darwin Core, NomenclaturalType can be used as object 
     with `dwciri:typeStatus`.
   examples: 
     - NomenclaturalType

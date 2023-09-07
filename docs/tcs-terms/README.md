@@ -2147,7 +2147,7 @@ A scientific name below the rank of family is not conserved against all  other n
 
 **Comments**
 
-A nomenclatural type fixes the usage of a name to the taxonomic group that  contains the type. One or more Nomenclatural Types make up the typification  of a Taxon Name. In Darwin Core RDF, NomenclaturalType can be used as object  with `dwciri:typeStatus`.
+A nomenclatural type fixes the usage of a name to the taxonomic group that  contains the type. One or more Nomenclatural Types make up the typification  of a Taxon Name. In Darwin Core, NomenclaturalType can be used as object  with `dwciri:typeStatus`.
 
 
 **Examples**
