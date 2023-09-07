@@ -23,7 +23,7 @@
     `isIncludedIn`, `partiallyOverlaps`, `isDisjointFrom` and `intersects`.
 
 
-    The TCS Taxon Concept is a data object and is applied more broadly than the 
+    The TCS Taxon Concept is applied more broadly than the 
     term is used in science (e.g. Franz & Peet 2009). On the one hand, things 
     that are not generally considered to be biological taxa, e.g. hybrids and 
     cultivars, can be casted as TCS Taxon Concepts. Also Operational Taxonomic 
