@@ -1,0 +1,128 @@
+@prefix tcs: <http://rs.tdwg.org/tcs/terms/> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dwc: <http://rs.tdwg.org/dwc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skosxl: <http://www.w3.org/2008/05/skos-xl#> .
+
+<https://avibase.ca/82745BAA> a tcs:TaxonConcept ;
+    dcterms:identifier "avibase-82745BAA" ;
+    tcs:accordingTo <https://avibase.bsc-eoc.org> ;
+    tcs:taxonName [ a skosxl:Label ;
+            skosxl:literalForm "Circus [cyaneus or hudsonius]" ] ;
+    tcs:isCongruentWith [ a tcs:TaxonConcept ;
+            dcterms:title "Circus cyaneus sec. Howard & Moore 2013" ;
+            tcs:accordingTo _:ref4 ;
+            tcs:taxonName _:tn1 ] .
+
+<https://avibase.ca/F558C7F9> a tcs:TaxonConcept ;
+    dcterms:identifier "avibase-F558C7F9" ;
+    tcs:accordingTo <https://avibase.bsc-eoc.org> ;
+    tcs:taxonName [ a skosxl:Label ;
+            skosxl:literalForm "Circus cyaneus" ] ;
+    tcs:isCongruentWith [ a tcs:TaxonConcept ;
+            dcterms:title "Circus cyaneus sec. Clements 2021" ;
+            tcs:accordingTo _:ref1 ;
+            tcs:taxonName _:tn1 ] ,
+        [ a tcs:TaxonConcept ;
+            dcterms:title "Circus cyaneus sec. Gill & al. 2021" ;
+            tcs:accordingTo _:ref2 ;
+            tcs:taxonName _:tn1 ] ,
+        [ a tcs:TaxonConcept ;
+            dcterms:title "Circus cyaneus sec. HBW/Birdlife 2020" ;
+            tcs:accordingTo _:ref3 ;
+            tcs:taxonName _:tn1 ] ,
+        [ a tcs:TaxonConcept ;
+            dcterms:title "Circus cyaneus cyaneus sec. Howard & Moore 2013" ;
+            tcs:accordingTo _:ref4 ;
+            tcs:taxonName [ a tcs:TaxonName ;
+                    tcs:taxonNameString "Circus cyaneus cyaneus" ] ] .
+
+<https://avibase.ca/A091D50A> a tcs:TaxonConcept ;
+    dcterms:identifier "avibase-A091D50A" ;
+    tcs:accordingTo <https://avibase.bsc-eoc.org> ;
+    tcs:taxonName [ a skosxl:Label; 
+            skosxl:literalForm "Circus hudsonius" ] ;
+    tcs:isCongruentWith [ a tcs:TaxonConcept ;
+            dcterms:title "Circus hudsonius sec. Clements 2021" ;
+            tcs:accordingTo _:ref1 ;
+            tcs:taxonName _:tn2 ] ,
+        [ a tcs:TaxonConcept ;
+            dcterms:title "Circus hudsonius sec. Gill & al. 2021" ;
+            tcs:accordingTo _:ref2 ;
+            tcs:taxonName _:tn2 ] ,
+        [ a tcs:TaxonConcept ;
+            dcterms:title "Circus hudsonius sec. HBW/Birdlife 2020" ;
+            tcs:accordingTo _:ref3 ;
+            tcs:taxonName _:tn2 ] ,
+        [ a tcs:TaxonConcept ;
+            dcterms:title "Circus cyaneus hudsonius sec. Howard & Moore 2013" ;
+            tcs:accordingTo _:ref4 ;
+            tcs:taxonName [ a tcs:TaxonName ;
+                    tcs:taxonNameString "Circus cyaneus hudsonius" ;
+                    dwc:scientificNameAuthorship "(Linnaeus 1766)" ] ] .
+
+
+_:tn1 a tcs:TaxonName ;
+    dwc:scientificNameAuthorship "(Linnaeus 1766)" ;
+    tcs:taxonNameString "Circus cyaneus" .
+
+_:tn2 a tcs:TaxonName ;
+    dwc:scientificNameAuthorship "(Linnaeus 1766)" ;
+    tcs:taxonNameString "Circus hudsonius" .
+
+
+<https://avibase.bsc-eoc.org> a bibo:Website ;
+    dcterms:title "Avibase" ;
+    dcterms:creator [ a foaf:Person ;
+            foaf:givenNames "Denis" ;
+            foaf:surname "Lepage" ] ;
+    bibo:uri "https://avibase.bsc-eoc.org/avibase.jsp" .
+
+_:ref1 a dcterms:BibliographicResource ;
+    dcterms:bibliographicCitation "Clements, 2021" .
+
+_:ref2 a dcterms:BibliographicResource ;
+    dcterms:bibliographicCitation "Gill et al., 2021" .
+
+_:ref3 a dcterms:BibliographicResource ;
+    dcterms:bibliographicCitation "HBW/Birdlife, 2020" .
+
+_:ref4 a dcterms:BibliographicResource ;
+    dcterms:bibliographicCitation "Howard & Moore, 2013" .
+
+
+# Third-party taxon concept mappings
+
+[] a oa:Annotation ;
+    oa:motivatedBy oa:commenting ;
+    oa:hasBody [ a rdf:Statement ;
+            rdf:subject <https://avibase.ca/82745BAA> ;
+            rdf:predicate tcs:includes ;
+            rdf:object <https://avibase.ca/F558C7F9> ] ;
+    oa:hasTarget <https://avibase.ca/82745BAA> ;
+    dcterms:creator <https://orcid.org/0000-0003-2224-6821> ;
+    dcterms:created "2023-10-21T13:55:00+10" .
+
+
+[] a oa:Annotation ;
+    oa:motivatedBy oa:commenting ;
+    oa:hasBody [ a rdf:Statement ;
+            rdf:subject <https://avibase.ca/82745BAA> ;
+            rdf:predicate tcs:includes ;
+            rdf:object <https://avibase.ca/A091D50A> ] ;
+    oa:hasTarget <https://avibase.ca/82745BAA> ;
+    dcterms:creator <https://orcid.org/0000-0003-2224-6821> ;
+    dcterms:created "2023-10-21T13:55:00+10" .
+
+[] a oa:Annotation ;
+    oa:motivatedBy oa:commenting ;
+    oa:hasBody [ a rdf:Statement ;
+            rdf:subject <https://avibase.ca/F558C7F9> ;
+            rdf:predicate tcs:isDisjointWith ;
+            rdf:object <https://avibase.ca/A091D50A> ] ;
+    oa:hasTarget <https://avibase.ca/F558C7F9> ;
+    dcterms:creator <https://orcid.org/0000-0003-2224-6821> ;
+    dcterms:created "2023-10-21T13:55:00+10" .

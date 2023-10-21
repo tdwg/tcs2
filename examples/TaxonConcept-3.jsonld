@@ -1,15 +1,15 @@
 {
   "@context": "https://raw.githubusercontent.com/tdwg/tcs2/dev-20230824/examples/context.jsonld",
-  "@type": "TaxonConcept",
+  "type": "TaxonConcept",
   "dcterms:title": "Calymperes moluccense sec. Yong et al. 2013",
   "accordingTo": {
-    "@id": "urn:isbn:978-967-5221-99-6",
-    "@type": "bibo:Book",
+    "id": "urn:isbn:978-967-5221-99-6",
+    "type": "bibo:Book",
     "dcterms:bibliographicCitation": "Yong, K.T.; Tan, B.C.; Ho, B.C.; Ho, Q.Y.; Mohamed, H. A revised Moss Checklist of Peninsular Malaysia and Singapore. Research Pamphlet no. 133, Forest Research Institute Malaysia, Kepong, Malaysia."
   },
   "taxonName": {
-    "@id": "https://www.tropicos.org/name/35153806",
-    "@type": "TaxonName",
+    "id": "https://www.tropicos.org/name/35153806",
+    "type": "TaxonName",
     "taxonNameString": "Calymperes moluccense",
     "dwc:scientificNameAuthorship": "Schwägr."
   }

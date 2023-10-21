@@ -1,21 +1,21 @@
 {
   "@context": "https://raw.githubusercontent.com/tdwg/tcs2/dev-20230824/examples/context.jsonld",
-  "@id": "https://www.tropicos.org/name/35000378",
-  "@type": "TaxonName",
+  "id": "https://www.tropicos.org/name/35000378",
+  "type": "TaxonName",
   "taxonNameString": "Dicranoloma",
   "dwc:scientificNameAuthorship": "(Renauld) Renauld",
   "tcs:namePublishedInYear": "1909",
   "conservedAgainst": [
     {
-      "@id": "https://www.tropicos.org/name/35000771",
-      "@type": "TaxonName",
+      "id": "https://www.tropicos.org/name/35000771",
+      "type": "TaxonName",
       "taxonNameString": "Megalostylium",
       "dwc:namePublishedInYear": "1848",
       "dwc:scientificNameAuthorship": "Dozy & Molk."
     },
     {
-      "@id": "https://www.tropicos.org/name/35000146",
-      "@type": "TaxonName",
+      "id": "https://www.tropicos.org/name/35000146",
+      "type": "TaxonName",
       "taxonNameString": "Braunfelsia",
       "dwc:namePublishedInYear": "1894",
       "dwc:scientificNameAuthorship": "Paris"

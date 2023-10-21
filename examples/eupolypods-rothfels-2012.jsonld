@@ -1,0 +1,773 @@
+{
+  "@context": "https://raw.githubusercontent.com/tdwg/tcs2/master/examples/context.jsonld",
+  "@graph": [
+    {
+      "type": "TaxonConcept",
+      "dcterms:title": "Eupolypods sec. Rothfels & al. 2012",
+      "accordingTo": "https://doi.org/10.1002/tax.613003",
+      "taxonName": "_:b2",
+      "isCongruentWith": [
+        {
+          "type": "TaxonConcept",
+          "dcterms:title": "Eupolypods sec. Smith & al. 2006",
+          "accordingTo": "https://doi.org/10.2307/25065646",
+          "taxonName": "_:b2"
+        }
+      ]
+    },
+    {
+      "type": "TaxonConcept",
+      "dcterms:title": "Eupolypods I sec. Rothfels & al. 2012",
+      "accordingTo": "https://doi.org/10.1002/tax.613003",
+      "taxonName": "_:b5",
+      "isCongruentWith": [
+        {
+          "type": "TaxonConcept",
+          "dcterms:title": "Eupolypods I sec. Smith & al. 2006",
+          "accordingTo": "https://doi.org/10.2307/25065646",
+          "taxonName": "_:b5"
+        }
+      ]
+    },
+    {
+      "type": "TaxonConcept",
+      "dcterms:title": "Eupolypods II sec. Rothfels & al. 2012",
+      "accordingTo": "https://doi.org/10.1002/tax.613003",
+      "taxonName": "_:b8",
+      "isCongruentWith": [
+        {
+          "type": "TaxonConcept",
+          "dcterms:title": "Eupolypods II sec. Smith & al. 2006",
+          "accordingTo": "https://doi.org/10.2307/25065646",
+          "taxonName": "_:b8"
+        }
+      ]
+    },
+    {
+      "type": "TaxonConcept",
+      "dcterms:title": "Onocleaceae sec. Rothfels & al. 2012",
+      "accordingTo": "https://doi.org/10.1002/tax.613003",
+      "taxonName": "https://ipni.org/n/17446060-1",
+      "isCongruentWith": [
+        {
+          "type": "TaxonConcept",
+          "dcterms:title": "Onocleaceae sec. Christenhusz & al. 2011",
+          "accordingTo": "https://doi.org/10.11646/phytotaxa.19.1.2",
+          "taxonName": "https://ipni.org/n/17446060-1"
+        },
+        {
+          "type": "TaxonConcept",
+          "dcterms:title": "Onocleaceae sec. Smith & al. 2006",
+          "accordingTo": "https://doi.org/10.2307/25065646",
+          "taxonName": "https://ipni.org/n/17446060-1"
+        },
+        {
+          "type": "TaxonConcept",
+          "dcterms:title": "Onocleaceae sec. Pichi Sermolli 1977",
+          "accordingTo": "https://doi.org/10.1080/00837792.1977.10670077",
+          "taxonName": "https://ipni.org/n/17446060-1"
+        },
+        {
+          "type": "TaxonConcept",
+          "dcterms:title": "Onocleoideae sec. Holttum 1947",
+          "accordingTo": "_:b38",
+          "taxonName": "https://www.ipni.org/n/17436290-1"
+        }
+      ]
+    },
+    {
+      "type": "TaxonConcept",
+      "dcterms:title": "Thelypteridaceae sec. Rothfels & al. 2012",
+      "accordingTo": "https://doi.org/10.1002/tax.613003",
+      "taxonName": "https://ipni.org/n/30000455-2",
+      "isCongruentWith": [
+        {
+          "type": "TaxonConcept",
+          "dcterms:title": "Thelypteridaceae sec. Christenhusz & al. 2011",
+          "accordingTo": "https://doi.org/10.11646/phytotaxa.19.1.2",
+          "taxonName": "https://ipni.org/n/30000455-2"
+        },
+        {
+          "type": "TaxonConcept",
+          "dcterms:title": "Thelypteridaceae sec. Smith & al. 2006",
+          "accordingTo": "https://doi.org/10.2307/25065646",
+          "taxonName": "https://ipni.org/n/30000455-2"
+        },
+        {
+          "type": "TaxonConcept",
+          "dcterms:title": "Thelypteridaceae sec. Pichi Sermolli 1977",
+          "accordingTo": "https://doi.org/10.1080/00837792.1977.10670077",
+          "taxonName": "https://ipni.org/n/30000455-2"
+        },
+        {
+          "type": "TaxonConcept",
+          "dcterms:title": "Thelypteridaceae sec. Nayar 1970",
+          "accordingTo": "https://doi.org/10.2307/1217958",
+          "taxonName": "https://ipni.org/n/30000455-2"
+        },
+        {
+          "type": "TaxonConcept",
+          "dcterms:title": "Thelypteridaceae sec. Holttum 1947",
+          "accordingTo": "_:b38",
+          "taxonName": "https://ipni.org/n/30000455-2"
+        }
+      ]
+    },
+    {
+      "type": "TaxonConcept",
+      "dcterms:title": "Woodsiaceae sec. Rothfels & al. 2012",
+      "accordingTo": "https://doi.org/10.1002/tax.613003",
+      "taxonName": "https://ipni.org/n/60456504-2",
+      "isCongruentWith": [
+        {
+          "type": "TaxonConcept",
+          "dcterms:title": "Woodsiaceae sec. Christenhusz & al. 2011",
+          "accordingTo": "https://doi.org/10.11646/phytotaxa.19.1.2",
+          "taxonName": "https://ipni.org/n/60456504-2"
+        },
+        {
+          "type": "TaxonConcept",
+          "dcterms:title": "Woodsiaceae sec. Pichi Sermolli 1977",
+          "accordingTo": "https://doi.org/10.1080/00837792.1977.10670077",
+          "taxonName": "https://ipni.org/n/60456504-2"
+        }
+      ],
+      "isIncludedIn": [
+        "_:2006-Woodsiaceae",
+        "_:1947-Dennstaedtiaceae",
+        "_:1970-Dryopteridaceae"
+      ]
+    },
+    {
+      "type": "TaxonConcept",
+      "dcterms:title": "Cystopteridaceae sec. Rothfels & al. 2012",
+      "accordingTo": "https://doi.org/10.1002/tax.613003",
+      "taxonName": "https://ipni.org/n/20001946-1",
+      "isCongruentWith": [
+        {
+          "type": "TaxonConcept",
+          "dcterms:title": "Cystopteridaceae sec. Christenhusz & al. 2011",
+          "accordingTo": "https://doi.org/10.11646/phytotaxa.19.1.2",
+          "taxonName": "https://ipni.org/n/20001946-1"
+        }
+      ],
+      "isIncludedIn": [
+        {
+          "type": "TaxonConcept",
+          "dcterms:title": "Cystopteridaceae sensu Christenhusz & al. 2011",
+          "accordingTo": "https://doi.org/10.11646/phytotaxa.19.1.2",
+          "taxonName": "https://ipni.org/n/20001946-1"
+        },
+        "_:2006-Woodsiaceae",
+        "_:1977-Athyriaceae",
+        "_:1947-Dennstaedtiaceae"
+      ]
+    },
+    {
+      "type": "TaxonConcept",
+      "dcterms:title": "Rhachidosoraceae sec. Rothfels & al. 2012",
+      "accordingTo": "https://doi.org/10.1002/tax.613003",
+      "taxonName": "https://ipni.org/n/77110539-1",
+      "isCongruentWith": [
+        {
+          "type": "TaxonConcept",
+          "dcterms:title": "Rhachidosoraceae sec. Christnhusz & al. 2011",
+          "accordingTo": "https://doi.org/10.11646/phytotaxa.19.1.2",
+          "taxonName": "https://ipni.org/n/77110539-1"
+        }
+      ],
+      "isIncludedIn": [
+        "_:2006-Woodsiaceae",
+        "_:1977-Athyriaceae",
+        "_:1947-Dennstaedtiaceae"
+      ]
+    },
+    {
+      "type": "TaxonConcept",
+      "dcterms:title": "Diplaziopsidaceae sec. Rothfels & al. 2012",
+      "accordingTo": "https://doi.org/10.1002/tax.613003",
+      "taxonName": "https://ipni.org/n/77110538-1",
+      "includes": [
+        {
+          "type": "TaxonConcept",
+          "dcterms:title": "Diplaziopsidaceae sec. Christenhusz & al. 2011",
+          "accordingTo": "https://doi.org/10.11646/phytotaxa.19.1.2",
+          "taxonName": "https://ipni.org/n/77110538-1"
+        }
+      ],
+      "isIncludedIn": [
+        "_:2006-Woodsiaceae",
+        "_:1977-Athyriaceae",
+        "_:1970-Dryopteridaceae",
+        "_:1947-Dennstaedtiaceae"
+      ],
+      "partiallyOverlaps": [
+        "_:2011-Athyriaceae"
+      ]
+    },
+    {
+      "type": "TaxonConcept",
+      "dcterms:title": "Hemidictyaceae sec. Rothfels & al. 2012",
+      "accordingTo": "https://doi.org/10.1002/tax.613003",
+      "isCongruentWith": [
+        {
+          "type": "TaxonConcept",
+          "dcterms:title": "Hemidictyaceae sec. Christenhusz & al. 2011",
+          "accordingTo": "https://doi.org/10.11646/phytotaxa.19.1.2",
+          "taxonName": "https://ipni.org/n/77114955-1"
+        }
+      ],
+      "isIncludedIn": [
+        "_:2006-Woodsiaceae",
+        "_:1977-Athyriaceae",
+        "_:1970-Dryopteridaceae",
+        "_:1947-Dennstaedtiaceae"
+      ],
+      "taxonName": "https://ipni.org/n/77114955-1"
+    },
+    {
+      "type": "TaxonConcept",
+      "dcterms:title": "Athyriaceae sec. Rothfels & al. 2012",
+      "accordingTo": "https://doi.org/10.1002/tax.613003",
+      "taxonName": "https://ipni.org/n/30000361-2",
+      "isIncludedIn": [
+        "_:2011-Athyriaceae",
+        "_:2006-Woodsiaceae",
+        "_:1970-Dryopteridaceae",
+        "_:1947-Dennstaedtiaceae"
+      ]
+    },
+    {
+      "type": "TaxonConcept",
+      "dcterms:title": "Aspleniaceae sec. Rothfels & al. 2012",
+      "accordingTo": "https://doi.org/10.1002/tax.613003",
+      "taxonName": "https://ipni.org/n/30001382-2",
+      "isCongruentWith": [
+        {
+          "type": "TaxonConcept",
+          "dcterms:title": "Aspleniaceae sec. Christenhusz & al. 2011",
+          "accordingTo": "https://doi.org/10.11646/phytotaxa.19.1.2",
+          "taxonName": "https://ipni.org/n/30001382-2"
+        },
+        {
+          "type": "TaxonConcept",
+          "dcterms:title": "Aspleniaceae sec. Smith & al. 2006",
+          "accordingTo": "https://doi.org/10.2307/25065646",
+          "taxonName": "https://ipni.org/n/30001382-2"
+        },
+        {
+          "type": "TaxonConcept",
+          "dcterms:title": "Aspleniaceae sec. Nayar 1970",
+          "accordingTo": "https://doi.org/10.2307/1217958",
+          "taxonName": "https://ipni.org/n/30001382-2"
+        },
+        {
+          "type": "TaxonConcept",
+          "dcterms:title": "Aspleniaceae sec. Pichi Sermolli 1977",
+          "accordingTo": "https://doi.org/10.1080/00837792.1977.10670077",
+          "taxonName": "https://ipni.org/n/30001382-2"
+        }
+      ],
+      "isIncludedIn": [
+        "_:1947-Dennstaedtiaceae"
+      ]
+    },
+    {
+      "type": "TaxonConcept",
+      "dcterms:title": "Blechnaceae sec. Rothfels & al. 2012",
+      "accordingTo": "https://doi.org/10.1002/tax.613003",
+      "taxonName": "https://ipni.org/n/30002151-2",
+      "isCongruentWith": [
+        {
+          "type": "TaxonConcept",
+          "dcterms:title": "Blechnaceae sec. Christenhusz & al. 2011",
+          "accordingTo": "https://doi.org/10.11646/phytotaxa.19.1.2",
+          "taxonName": "https://ipni.org/n/30002151-2"
+        },
+        {
+          "type": "TaxonConcept",
+          "dcterms:title": "Blechnaceae sec. Smith & al. 2006",
+          "accordingTo": "https://doi.org/10.2307/25065646",
+          "taxonName": "https://ipni.org/n/30000361-2"
+        },
+        {
+          "type": "TaxonConcept",
+          "dcterms:title": "Blechnaceae sec. Pichi Sermolli",
+          "accordingTo": "https://doi.org/10.1080/00837792.1977.10670077",
+          "taxonName": "https://ipni.org/n/30002151-2"
+        },
+        {
+          "type": "TaxonConcept",
+          "dcterms:title": "Blechnaceae sec. Nayar 1970",
+          "accordingTo": "https://doi.org/10.1002/tax.613003",
+          "taxonName": "https://ipni.org/n/30002151-2"
+        }
+      ],
+      "isIncludedIn": [
+        "_:1947-Dennstaedtiaceae"
+      ]
+    },
+    {
+      "id": "_:2011-Athyriaceae",
+      "type": "TaxonConcept",
+      "dcterms:title": "Athyriaceae sec. Christenhusz & al. 2011",
+      "accordingTo": "https://doi.org/10.11646/phytotaxa.19.1.2",
+      "taxonName": "https://ipni.org/n/30000361-2"
+    },
+    {
+      "id": "_:2006-Woodsiaceae",
+      "type": "TaxonConcept",
+      "dcterms:title": "Woodsiaceae sec. Smith & al. 2006",
+      "accordingTo": "https://doi.org/10.2307/25065646",
+      "taxonName": "https://ipni.org/n/30000455-2"
+    },
+    {
+      "id": "_:1977-Athyriaceae",
+      "type": "TaxonConcept",
+      "dcterms:title": "Athyriaceae sec. Pichi Sermolli 1977",
+      "accordingTo": "https://doi.org/10.1080/00837792.1977.10670077",
+      "taxonName": "https://ipni.org/n/30000361-2"
+    },
+    {
+      "id": "_:1970-Dryopteridaceae",
+      "type": "TaxonConcept",
+      "dcterms:title": "Dryopteridaceae sec. Nayar 1970",
+      "accordingTo": "https://doi.org/10.2307/1217958",
+      "taxonName": "https://www.ipni.org/n/30014148-2"
+    },
+    {
+      "id": "_:1947-Dennstaedtiaceae",
+      "type": "TaxonConcept",
+      "dcterms:title": "Dennstaedtiaceae sec. Holttum 1947",
+      "accordingTo": "_:b38",
+      "taxonName": "https://ipni.org/n/17434830-1"
+    },
+    {
+      "id": "https://ipni.org/n/30001382-2",
+      "type": "TaxonName",
+      "taxonNameString": "Aspleniaceae",
+      "dwc:scientificNameAuthorship": "Newman",
+      "dwc:namePublishedIn": "Hist. Brit. Ferns 6",
+      "dwc:namePublishedInYear": "1840"
+    },
+    {
+      "id": "https://ipni.org/n/30000361-2",
+      "type": "TaxonName",
+      "taxonNameString": "Athyriaceae",
+      "dwc:scientificNameAuthorship": "Alston",
+      "dwc:namePublishedIn": "Taxon 5: 25",
+      "dwc:namePublishedInYear": "1956"
+    },
+    {
+      "id": "https://ipni.org/n/30002151-2",
+      "type": "TaxonName",
+      "taxonNameString": "Blechnaceae",
+      "dwc:scientificNameAuthorship": "Newman",
+      "dwc:namePublishedIn": "Hist. Brit. Ferns, ed. 2 8",
+      "dwc:namePublishedInYear": "1844"
+    },
+    {
+      "id": "https://ipni.org/n/20001946-1",
+      "type": "TaxonName",
+      "dwc:namePublishedIn": "Turczaninowia 4(1-2): 60",
+      "dwc:namePublishedInYear": "2001",
+      "dwc:scientificNameAuthorship": "(Payer) Shmakov",
+      "taxonNameString": "Cystopteridaceae"
+    },
+    {
+      "id": "https://ipni.org/n/17434830-1",
+      "type": "TaxonName",
+      "taxonNameString": "Dennstaedtiaceae",
+      "dwc:scientificNameAuthorship": "Pic.Serm.",
+      "dwc:namePublishedIn": "Webbia 24(2): 704",
+      "dwc:namePublishedInYear": "1970"
+    },
+    {
+      "id": "https://ipni.org/n/77110538-1",
+      "type": "TaxonName",
+      "dwc:namePublishedIn": "Phytotaxa 19: 15",
+      "dwc:namePublishedInYear": "2011",
+      "dwc:scientificNameAuthorship": "X.C.Zhang & Christenh.",
+      "taxonNameString": "Diplaziopsidaceae"
+    },
+    {
+      "id": "https://www.ipni.org/n/30014148-2",
+      "type": "TaxonName",
+      "taxonNameString": "Dryopteridaceae",
+      "dwc:scientificNameAuthorship": "Herter",
+      "dwc:namePublishedIn": "Revista Sudamer. Bot. 9: 15",
+      "dwc:namePublishedInYear": "1949"
+    },
+    {
+      "id": "https://ipni.org/n/77114955-1",
+      "type": "TaxonName",
+      "taxonNameString": "Hemidictyaceae",
+      "dwc:scientificNameAuthorship": "Christenh. & H.Schneid.",
+      "dwc:namePublishedIn": "Phytotaxa 28: 51",
+      "dwc:namePublishedInYear": "2011"
+    },
+    {
+      "id": "https://ipni.org/n/17446060-1",
+      "type": "TaxonName",
+      "taxonNameString": "Onocleaceae",
+      "dwc:scientificNameAuthorship": "Pic.Serm.",
+      "dwc:namePublishedIn": "Webbia 24(2): 708",
+      "dwc:namePublishedInYear": "1970"
+    },
+    {
+      "id": "https://www.ipni.org/n/17436290-1",
+      "type": "TaxonName",
+      "taxonNameString": "Onocleoideae",
+      "dwc:scientificNameAuthorship": "B.K.Nayar",
+      "dwc:namePublishedIn": "Taxon 19: 235",
+      "dwc:namePublishedInYear": "1970"
+    },
+    {
+      "id": "https://ipni.org/n/77110539-1",
+      "type": "TaxonName",
+      "taxonNameString": "Rhachidosoraceae",
+      "dwc:scientificNameAuthorship": "X.C.Zhang",
+      "dwc:namePublishedIn": "Phytotaxa 19: 16",
+      "dwc:namePublishedInYear": "2011"
+    },
+    {
+      "id": "https://ipni.org/n/30000455-2",
+      "type": "TaxonName",
+      "taxonNameString": "Thelypteridaceae",
+      "dwc:scientificNameAuthorship": "Pic.Serm.",
+      "dwc:namePublishedIn": "Webbia 24(2): 709",
+      "dwc:namePublishedInYear": "1970"
+    },
+    {
+      "id": "https://ipni.org/n/60456504-2",
+      "type": "TaxonName",
+      "taxonNameString": "Woodsiaceae",
+      "dwc:scientificNameAuthorship": "Herter",
+      "dwc:namePublishedIn": "Revista Sudamer. Bot. 9: 14",
+      "dwc:namePublishedInYear": "1949"
+    },
+    {
+      "id": "https://doi.org/10.1002/tax.613003",
+      "type": "bibo:AcademicArticle",
+      "dcterms:title": "A revised family–level classification for eupolypod II ferns (Polypodiidae: Polypodiales)",
+      "dcterms:creator": [
+        {
+          "id": "https://orcid.org/0000-0002-6605-1770"
+        },
+        {
+          "id": "https://orcid.org/0000-0003-1568-150X"
+        },
+        {
+          "id": "https://www.ipni.org/a/20030162-1"
+        },
+        {
+          "id": "_:b50"
+        },
+        {
+          "id": "https://www.ipni.org/a/14414-1"
+        },
+        {
+          "id": "https://orcid.org/0000-0003-3891-9904"
+        },
+        {
+          "id": "https://orcid.org/0000-0002-9776-6736"
+        }
+      ],
+      "bibo:authorList": {
+        "@list": [
+          {
+            "id": "https://orcid.org/0000-0002-6605-1770"
+          },
+          {
+            "id": "https://orcid.org/0000-0003-1568-150X"
+          },
+          {
+            "id": "https://www.ipni.org/a/20030162-1"
+          },
+          {
+            "id": "_:b50"
+          },
+          {
+            "id": "https://www.ipni.org/a/14414-1"
+          },
+          {
+            "id": "https://orcid.org/0000-0003-3891-9904"
+          },
+          {
+            "id": "https://orcid.org/0000-0002-9776-6736"
+          }
+        ]
+      },
+      "dcterms:isPartOf": {
+        "type": "bibo:Issue",
+        "dcterms:date": "2012",
+        "dcterms:isPartOf": {
+          "id": "https://www.ipni.org/p/812-2"
+        },
+        "bibo:volume": "61",
+        "bibo:issue": "3"
+      },
+      "bibo:pages": "513-533",
+      "bibo:doi": "10.1002/tax.613003"
+    },
+    {
+      "id": "https://doi.org/10.11646/phytotaxa.19.1.2",
+      "type": "bibo:AcademicArticle",
+      "dcterms:title": "A linear sequence of extant families and genera of lycophytes and ferns",
+      "dcterms:creator": [
+        {
+          "id": "https://orcid.org/0000-0003-1398-8743"
+        },
+        {
+          "id": "https://orcid.org/0000-0003-3425-1011"
+        },
+        {
+          "id": "https://www.ipni.org/a/40553-1"
+        }
+      ],
+      "bibo:authorList": {
+        "@list": [
+          {
+            "id": "https://orcid.org/0000-0003-1398-8743"
+          },
+          {
+            "id": "https://orcid.org/0000-0003-3425-1011"
+          },
+          {
+            "id": "https://www.ipni.org/a/40553-1"
+          }
+        ]
+      },
+      "dcterms:isPartOf": {
+        "type": "bibo:Issue",
+        "dcterms:date": "2011",
+        "dcterms:isPartOf": {
+          "id": "https://www.ipni.org/p/20011462-1",
+          "type": "bibo:Journal",
+          "dcterms:title": "Phytotaxa",
+          "bibo:issn": "1179-3155"
+        },
+        "dcterms:volume": "19"
+      },
+      "bibo:pages": "7-54",
+      "bibo:doi": "10.11646/phytotaxa.19.1.2",
+      "bibo:uri": "https://www.biotaxa.org/Phytotaxa/article/view/phytotaxa.19.1.2"
+    },
+    {
+      "id": "https://doi.org/10.2307/25065646",
+      "type": "bibo:AcademicArticle",
+      "dcterms:title": "A classification for extant ferns",
+      "dcterms:creator": [
+        {
+          "id": "https://www.ipni.org/a/9771-1"
+        },
+        {
+          "id": "https://orcid.org/0000-0002-9776-6736"
+        },
+        {
+          "id": "https://orcid.org/0000-0003-3891-9904"
+        },
+        {
+          "id": "https://orcid.org/0000-0002-6677-5234"
+        },
+        {
+          "id": "https://www.ipni.org/a/40553-1"
+        },
+        {
+          "id": "_:b53"
+        }
+      ],
+      "bibo:authorList": {
+        "@list": [
+          {
+            "id": "https://www.ipni.org/a/9771-1"
+          },
+          {
+            "id": "https://orcid.org/0000-0002-9776-6736"
+          },
+          {
+            "id": "https://orcid.org/0000-0003-3891-9904"
+          },
+          {
+            "id": "https://orcid.org/0000-0002-6677-5234"
+          },
+          {
+            "id": "https://www.ipni.org/a/40553-1"
+          },
+          {
+            "id": "_:b53"
+          }
+        ]
+      },
+      "dcterms:isPartOf": {
+        "type": "bibo:Issue",
+        "dcterms:date": "2006",
+        "dcterms:isPartOf": {
+          "id": "https://www.ipni.org/p/812-2"
+        },
+        "bibo:volume": "55",
+        "bibo:issue": "3"
+      },
+      "bibo:pages": "705-731",
+      "bibo:doi": "10.2307/25065646"
+    },
+    {
+      "id": "https://doi.org/10.1080/00837792.1977.10670077",
+      "type": "bibo:AcademicArticle",
+      "dcterms:title": "Tentamen Pteridophytorum genera in taxonomicum ordinem redigendi",
+      "dcterms:creator": {
+        "id": "https://www.ipni.org/a/7667-1"
+      },
+      "bibo:authorList": {
+        "@list": [
+          {
+            "id": "https://www.ipni.org/a/7667-1"
+          }
+        ]
+      },
+      "dcterms:isPartOf": {
+        "type": "bibo:Issue",
+        "dcterms:date": "1977",
+        "dcterms:isPartOf": {
+          "id": "https://www.ipni.org/p/826-2",
+          "type": "bibo:Journal",
+          "dcterms:title": "Webbia"
+        },
+        "bibo:volume": "31",
+        "bibo:issue": "2"
+      },
+      "bibo:pages": "313-512",
+      "bibo:doi": "10.1080/00837792.1977.10670077",
+      "bibo:uri": "https://www.tandfonline.com/doi/abs/10.1080/00837792.1977.10670077"
+    },
+    {
+      "id": "https://doi.org/10.2307/1217958",
+      "type": "bibo:AcademicArticle",
+      "dcterms:title": "A phylogenetic classification of the homosporous ferns",
+      "dcterms:creator": {
+        "id": "https://www.ipni.org/a/23960-1"
+      },
+      "bibo:authorList": {
+        "@list": [
+          {
+            "id": "https://www.ipni.org/a/23960-1"
+          }
+        ]
+      },
+      "dcterms:isPartOf": {
+        "type": "bibo:Issue",
+        "dcterms:date": "1970",
+        "dcterms:isPartOf": {
+          "id": "https://www.ipni.org/p/812-2"
+        },
+        "bibo:volume": "19",
+        "bibo:issue": "2"
+      },
+      "bibo:pages": "229-236",
+      "bibo:doi": "10.2307/1217958",
+      "bibo:uri": "https://onlinelibrary.wiley.com/doi/abs/10.2307/1217958"
+    },
+    {
+      "id": "https://www.ipni.org/p/812-2",
+      "type": "bibo:Journal",
+      "dcterms:title": "Taxon",
+      "bibo:issn": "1996-8175"
+    },
+    {
+      "id": "https://orcid.org/0000-0003-1398-8743",
+      "type": "foaf:Person",
+      "foaf:givenname": "Maarten J.M.",
+      "foaf:surname": "Christenhusz"
+    },
+    {
+      "id": "https://www.ipni.org/a/4063-1",
+      "type": "foaf:Person",
+      "foaf:givenname": "Richard Eric",
+      "foaf:surname": "Holttum"
+    },
+    {
+      "id": "https://www.ipni.org/a/14414-1",
+      "type": "foaf:Person",
+      "foaf:givenname": "Masahiro",
+      "foaf:surname": "Kato"
+    },
+    {
+      "id": "https://orcid.org/0000-0002-6677-5234",
+      "type": "foaf:Person",
+      "foaf:givenname": "Petra",
+      "foaf:surname": "Korall"
+    },
+    {
+      "id": "https://www.ipni.org/a/20030162-1",
+      "type": "foaf:Person",
+      "foaf:givenname": "L-Jaung",
+      "foaf:surname": "Kuo"
+    },
+    {
+      "id": "_:b50",
+      "type": "foaf:Person",
+      "foaf:givenname": "Anders",
+      "foaf:surname": "Larsson"
+    },
+    {
+      "id": "https://www.ipni.org/a/23960-1",
+      "type": "foaf:Person",
+      "foaf:givenname": "Bala Krishnan",
+      "foaf:surname": "Nayar"
+    },
+    {
+      "id": "https://www.ipni.org/a/7667-1",
+      "type": "foaf:Person",
+      "foaf:givenname": "Rodolfo Emilio Giuseppe",
+      "foaf:surname": "Pichi Sermolli"
+    },
+    {
+      "id": "https://orcid.org/0000-0002-9776-6736",
+      "type": "foaf:Person",
+      "foaf:givenname": "Kathleen M.",
+      "foaf:surname": "Pryer"
+    },
+    {
+      "id": "https://orcid.org/0000-0002-6605-1770",
+      "type": "foaf:Person",
+      "foaf:givenname": "Carl J.",
+      "foaf:surname": "Rothfels"
+    },
+    {
+      "id": "https://www.ipni.org/a/40553-1",
+      "type": "foaf:Person",
+      "foaf:givenname": "Harald",
+      "foaf:surname": "Schneider"
+    },
+    {
+      "id": "https://orcid.org/0000-0003-3891-9904",
+      "type": "foaf:Person",
+      "foaf:givenname": "Eric",
+      "foaf:surname": "Schuetpelz"
+    },
+    {
+      "id": "https://www.ipni.org/a/9771-1",
+      "type": "foaf:Person",
+      "foaf:givenname": "Alan R.",
+      "foaf:surname": "Smith"
+    },
+    {
+      "id": "https://orcid.org/0000-0003-1568-150X",
+      "type": "foaf:Person",
+      "foaf:givenname": "Michael E.",
+      "foaf:surname": "Sundue"
+    },
+    {
+      "id": "_:b53",
+      "type": "foaf:Person",
+      "foaf:givenname": "Paul G.",
+      "foaf:surname": "Wolf"
+    },
+    {
+      "id": "https://orcid.org/0000-0003-3425-1011",
+      "type": "foaf:Person",
+      "foaf:givenname": "Xian-Chun",
+      "foaf:surname": "Zhang"
+    }
+  ]
+}

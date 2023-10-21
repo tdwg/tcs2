@@ -1,0 +1,204 @@
+{
+  "@context": [
+    "https://raw.githubusercontent.com/tdwg/tcs2/master/examples/context.jsonld",
+    {
+      "Annotation": "oa:Annotation",
+      "commenting": "oa:commenting",
+      "body": "oa:hasBody",
+      "target": "oa:hasTarget",
+      "motivation": { "@id": "oa:motivatedBy", "@type": "@vocab" },
+
+      "TaxonConceptMapping": "rdf:Statement",
+      "subject": { "@id": "rdf:subject", "@type": "@id"},
+      "predicate": { "@id": "rdf:predicate", "@type": "@vocab"},
+      "object": { "@id": "rdf:object", "@type": "@id"},
+      "creator": { "@id": "dcterms:creator", "@type": "@id"},
+      "created": { "@id": "dcterms:created", "@type": "xsd:datetime"}
+    }
+  ],
+  "@graph": [
+    {
+      "id": "https://avibase.ca/82745BAA",
+      "type": "TaxonConcept",
+      "dcterms:identifier": "avibase-82745BAA",
+      "accordingTo": "https://avibase.bsc-eoc.org",
+      "taxonName": {
+        "type": "skosxl:Label",
+        "skosxl:literalForm": "Circus [cyaneus or hudsonius]"
+      },
+      "isCongruentWith": {
+        "type": "TaxonConcept",
+        "accordingTo": "_:ref4",
+        "dcterms:title": "Circus cyaneus sec. Howard & Moore 2013",
+        "taxonName": "_:tn1"
+      }
+    },
+    {
+      "id": "https://avibase.ca/F558C7F9",
+      "type": "TaxonConcept",
+      "dcterms:identifier": "avibase-F558C7F9",
+      "accordingTo": "https://avibase.bsc-eoc.org",
+      "taxonName": {
+        "type": "skosxl:Label",
+        "skosxl:literalForm": "Circus cyaneus"
+      },
+      "isCongruentWith": [
+        {
+          "type": "TaxonConcept",
+          "dcterms:title": "Circus cyaneus sec. Clements 2021",
+          "accordingTo": "_:ref1",
+          "taxonName": "_:tn1"
+        },
+        {
+          "type": "TaxonConcept",
+          "dcterms:title": "Circus cyaneus sec. Gill & al. 2021",
+          "accordingTo": "_:ref2",
+          "taxonName": "_:tn1"
+        },
+        {
+          "type": "TaxonConcept",
+          "accordingTo": "_:ref3",
+          "dcterms:title": "Circus cyaneus sec. HBW/Birdlife 2020",
+          "taxonName": "_:tn1"
+        },
+        {
+          "type": "TaxonConcept",
+          "accordingTo": "_:ref4",
+          "dcterms:title": "Circus cyaneus cyaneus sec. Howard & Moore 2013",
+          "taxonName": {
+            "type": "TaxonName",
+            "taxonNameString": "Circus cyaneus cyaneus"
+          }
+        }
+      ]
+    },
+    {
+      "id": "https://avibase.ca/A091D50A",
+      "type": "TaxonConcept",
+      "dcterms:identifier": "avibase-A091D50A",
+      "accordingTo": {
+        "id": "https://avibase.bsc-eoc.org"
+      },
+      "taxonName": {
+        "type": "skosxl:Label",
+        "skosxl:literalForm": "Circus hudsonius"
+      },
+      "isCongruentWith": [
+        {
+          "type": "TaxonConcept",
+          "dcterms:title": "Circus hudsonius sec. Clements 2021",
+          "accordingTo": "_:ref1",
+          "taxonName": "_:tn2"
+        },
+        {
+          "type": "TaxonConcept",
+          "dcterms:title": "Circus hudsonius sec. Gill & al. 2021",
+          "accordingTo": "_:ref2",
+          "taxonName": "_:tn2"
+        },
+        {
+          "type": "TaxonConcept",
+          "dcterms:title": "Circus hudsonius sec. HBW/Birdlife 2020",
+          "accordingTo": "_:ref3",
+          "taxonName": "_:tn2"
+        },
+        {
+          "type": "TaxonConcept",
+          "dcterms:title": "Circus cyaneus hudsonius sec. Howard & Moore 2013",
+          "accordingTo": "_:ref4",
+          "taxonName": {
+            "type": "TaxonName",
+            "taxonNameString": "Circus cyaneus hudsonius",
+            "dwc:scientificNameAuthorship": "(Linnaeus 1766)"
+          }
+        }
+      ]
+    },
+
+    {
+      "id": "_:tn1",
+      "type": "TaxonName",
+      "dwc:scientificNameAuthorship": "(Linnaeus 1766)",
+      "taxonNameString": "Circus cyaneus"
+    },
+    {
+      "id": "_:tn2",
+      "type": "TaxonName",
+      "dwc:scientificNameAuthorship": "(Linnaeus 1766)",
+      "taxonNameString": "Circus hudsonius"
+    },
+    
+
+    {
+      "id": "https://avibase.bsc-eoc.org",
+      "type": "bibo:Website",
+      "bibo:uri": "https://avibase.bsc-eoc.org/avibase.jsp",
+      "dcterms:creator": [{
+        "type": "foaf:Person",
+        "foaf:givenNames": "Denis",
+        "foaf:surname": "Lepage"
+      }],
+      "dcterms:title": "Avibase"
+    },
+    {
+      "id": "_:ref1",
+      "type": "dcterms:BibliographicResource",
+      "dcterms:bibliographicCitation": "Clements, 2021"
+    },
+    {
+      "id": "_:ref2",
+      "type": "dcterms:BibliographicResource",
+      "dcterms:bibliographicCitation": "Gill et al., 2021"
+    },
+    {
+      "id": "_:ref3",
+      "type": "dcterms:BibliographicResource",
+      "dcterms:bibliographicCitation": "HBW/Birdlife, 2020"
+    },
+    {
+      "id": "_:ref4",
+      "type": "dcterms:BibliographicResource",
+      "dcterms:bibliographicCitation": "Howard & Moore, 2013"
+    },
+
+    {
+      "type": "Annotation",
+      "motivation": "commenting",
+      "body": {
+        "type": "TaxonConceptMapping",
+        "subject": "https://avibase.ca/82745BAA",
+        "predicate": "includes",
+        "object": "https://avibase.ca/F558C7F9"
+      },
+      "target": "https://avibase.ca/82745BAA",
+      "creator": "https://orcid.org/0000-0003-2224-6821",
+      "created": "2023-10-21T13:55:00+10"
+    },
+    {
+      "type": "Annotation",
+      "motivation": "commenting",
+      "body": {
+        "type": "TaxonConceptMapping",
+        "subject": "https://avibase.ca/82745BAA",
+        "predicate": "includes",
+        "object": "https://avibase.ca/A091D50A"
+      },
+      "target": "https://avibase.ca/82745BAA",
+      "creator": "https://orcid.org/0000-0003-2224-6821",
+      "created": "2023-10-21T13:55:00+10"
+    },
+    {
+      "type": "Annotation",
+      "motivation": "commenting",
+      "body": {
+        "type": "TaxonConceptMapping",
+        "subject": "https://avibase.ca/F558C7F9",
+        "predicate": "isDisjointWith",
+        "object": "https://avibase.ca/A091D50A"
+      },
+      "target": "https://avibase.ca/F558C7F9",
+      "creator": "https://orcid.org/0000-0003-2224-6821",
+      "created": "2023-10-21T13:55:00+10"
+    }
+  ]
+}

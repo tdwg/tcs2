@@ -1,7 +1,7 @@
 {
   "@context": "https://raw.githubusercontent.com/tdwg/tcs2/dev-20230824/examples/context.jsonld",
-  "@id": "https://www.ipni.org/n/316069-1",
-  "@type": "TaxonName",
+  "id": "https://www.ipni.org/n/316069-1",
+  "type": "TaxonName",
   "taxonNameString": "Rafflesia arnoldii",
   "dwc:scientificNameAuthorship": "R.Br.",
   "dwc:namePublishedIn": "Account Rafflesia 7, tt. 15-22 (1821)"

@@ -1,0 +1,1237 @@
+{
+  "@context": "https://raw.githubusercontent.com/tdwg/tcs2/master/examples/context.jsonld",
+  "@graph": [
+    {
+      "id": "_:1994-begonia-sect-mezierea",
+      "type": "TaxonConcept",
+      "dcterms:title": "Begonia sect. Mezierea sec. Klazenga & al. 1994",
+      "accordingTo": { "id": "https://doi/org/10.2307/3668252" },
+      "taxonName": "_:b5",
+      "synonym": [
+        { "id": "_:b6" },
+        { "id": "https://ipni.org/n/77215303-1" }
+      ],
+      "intersects": [
+        {
+          "type": "TaxonConcept",
+          "dcterms:title": "Begonia sect. Mezierea sec. Warburg 1894",
+          "accordingTo": "_:b8",
+          "taxonName": "_:b5"
+        },
+        {
+          "type": "TaxonConcept",
+          "dcterms:title": "Begonia sect. Mezierea sec. Irmscher 1925",
+          "accordingTo": "_:b10",
+          "taxonName": "_:b5"
+        }
+      ]
+    },
+    {
+      "id": "_b5",
+      "type": "TaxonName",
+      "taxonNameString": "Begonia sect. Mezierea",
+      "dwc:scientificNameAuthorship": "(Gaudich.) Warb.",
+      "dwc:namePublishedIn": "Nat. Pflanzenfam. 3 (6A): 139 (1894)",
+      "basionym": "https://ipni.org/n/3898-1"
+    },
+    {
+      "id": "https://ipni.org/n/3898-1",
+      "type": "TaxonName",
+      "dwc:namePublishedIn": "Voy. Bonite, Bot. 3(Atlas): t. 32 (1841)",
+      "dwc:scientificNameAuthorship": "Gaudich.",
+      "taxonNameString": "Mezierea"
+    },
+    {
+      "type": "NomenclaturalType",
+      "typifiedName": "https://ipni.org/n/3898-1",
+      "typeName": "https://ipni.org/n/106227-1"
+    },
+    {
+      "id": "_:b6",
+      "type": "TaxonName",
+      "dwc:namePublishedIn": "Prodr. 15(1): 407 (1864)",
+      "dwc:scientificNameAuthorship": "A.DC.",
+      "taxonNameString": "Begonia sect. Aneupteron"
+    },
+    {
+      "id": "_:b12",
+      "type": "NomenclaturalType",
+      "typifiedName": "_:b6",
+      "typeName": "https://ipni.org/n/106227-1"
+    },
+    {
+      "id": "https://ipni.org/n/77215303-1",
+      "type": "TaxonName",
+      "dwc:namePublishedIn": "Gartenflora 49: 2 (1900)",
+      "dwc:scientificNameAuthorship": "Warb.",
+      "taxonNameString": "Begonia sect. Exalabegonia"
+    },
+    {
+      "type": "NomenclaturalType",
+      "typifiedName": "https://ipni.org/n/77215303-1",
+      "typeName": "https://ipni.org/n/104820-1"
+    },
+
+    {
+      "id": "_:b14",
+      "type": "TaxonConcept",
+      "dcterms:title": "Begonia comorensis sec. Klazenga & al. 1994",
+      "accordingTo": { "id": "https://doi/org/10.2307/3668252" },
+      "taxonName": { "id": "https://ipni.org/n/104440-1" },
+      "synonym": [
+        { "id": "https://ipni.org/n/77283357-1" }
+      ],
+      "parent": { "id": "_:1994-begonia-sect-mezierea" },
+      "intersects": [
+        {
+          "type": "TaxonConcept",
+          "dcterms:title": "Begonia comorensis sec. Warburg 1894",
+          "accordingTo": "_:b8",
+          "taxonName": { "id": "https://ipni.org/n/104440-1" }
+        },
+        {
+          "type": "TaxonConcept",
+          "dcterms:title": "Begonia comorensis sec. Warburg 1895",
+          "accordingTo": "_:b17",
+          "taxonName": { "id": "https://ipni.org/n/104440-1" }
+        },
+        {
+          "type": "TaxonConcept",
+          "dcterms:title": "Begonia comorensis sec. Irmscher 1925",
+          "accordingTo": "_:b10",
+          "taxonName": { "id": "https://ipni.org/n/104440-1" }
+        },
+        { "id": "_:1983-begonia-comorensis" }
+      ]
+    },
+    {
+      "id": "_:1983-begonia-comorensis",
+      "type": "TaxonConcept",
+      "dcterms:title": "Begonia comorensis sec. Keraudren-Aymonin 1983",
+      "accordingTo": "_:b20",
+      "taxonName": { "id": "https://ipni.org/n/104440-1" },
+      "synonym": [
+        { "id": "https://ipni.org/n/105731-1" }
+      ]
+    },
+    {
+      "id": "https://ipni.org/n/104440-1",
+      "type": "TaxonName",
+      "taxonNameString": "Begonia comorensis",
+      "dwc:scientificNameAuthorship": "Warb.",
+      "dwc:namePublishedIn": "Bot. Jahrb. Syst. 22(1): 38 (1895)"
+    },
+    {
+      "id": "https://ipni.org/n/923040-1",
+      "type": "TaxonName",
+      "taxonNameString": "Begonia salaziensis var. comorensis",
+      "dwc:scientificNameAuthorship": "(Warb.) L.B.Sm. & Wassh.",
+      "dwc:namePublishedIn": "Phytologia 54(7): 466 (1984)",
+      "basionym": "https://ipni.org/n/104440-1"
+    },
+    {
+      "type": "NomenclaturalType",
+      "typifiedName": "https://ipni.org/n/104440-1",
+      "typeSpecimen": {
+        "type": "dwc:MaterialCitation",
+        "dwc:country": "Comoros",
+        "dwc:recordedBy": "Hildebrandt",
+        "dwc:recordNumber": "1606",
+        "dwc:institutionCode": "B"
+      },
+      "typeOfType": "holotype"
+    },
+    {
+      "type": "NomenclaturalType",
+      "typeOfType": "isotype",
+      "typeSpecimen": {
+        "type": "dwc:MaterialCitation",
+        "dwc:country": "Comoros",
+        "dwc:recordedBy": "Hildebrandt",
+        "dwc:recordNumber": "1606",
+        "dwc:institutionCode": "W"
+      },
+      "typifiedName": "https://ipni.org/n/104440-1"
+    },
+    {
+      "id": "https://ipni.org/n/77283357-1",
+      "type": "TaxonName",
+      "taxonNameString": "Mezierea salaziensis var. comorensis",
+      "dwc:scientificNameAuthorship": "A.DC.",
+      "dwc:namePublishedIn": "Prodr. [A. P. de Candolle] 15(1): 408 (1864)",
+      "basionym": "https://ipni.org/n/104440-1"
+    },
+    {
+      "type": "NomenclaturalType",
+      "typifiedName": "https://ipni.org/n/77283357-1",
+      "typeSpecimen": {
+        "type": "dwc:MaterialCitation",
+        "dwc:country": "Comoros",
+        "dwc:recordedBy": "Boivin",
+        "dwc:recordNumber": "s.n.",
+        "dwc:institutionCode": "P"
+      },
+      "typeOfType": "holotype"
+    },
+
+    {
+      "id": "_:b27",
+      "type": "TaxonConcept",
+      "dcterms:title": "Begonia humbertii sec. Klazenga & al. 1994",
+      "accordingTo": { "id": "https://doi/org/10.2307/3668252" },
+      "taxonName": { "id": "https://ipni.org/n/901574-1" },
+      "parent": { "id": "_:1994-begonia-sect-mezierea" },
+      "intersects": [
+        {
+          "type": "TaxonConcept",
+          "dcterms:title": "Begonia humbertii sec. Keraudren-Aymonin 1983",
+          "accordingTo": "_:b20",
+          "taxonName": { "id": "https://ipni.org/n/901574-1" }
+        }
+      ]
+    },
+    {
+      "id": "https://ipni.org/n/901574-1",
+      "type": "TaxonName",
+      "taxonNameString": "Begonia humbertii",
+      "dwc:scientificNameAuthorship": "Keraudren",
+      "dwc:namePublishedIn": "Fl. Madagasc. Fam. 144: 100 (1983) (1983)"
+    },
+    {
+      "id": "_:b29",
+      "type": "NomenclaturalType",
+      "typeOfType": "holotype",
+      "typifiedName": "https://ipni.org/n/901574-1",
+      "typeSpecimen": {
+        "type": "dwc:MaterialCitation",
+        "dwc:country": "Madagascar",
+        "dwc:recordedBy": "Humbert",
+        "dwc:recordNumber": "22493",
+        "dwc:institutionCode": "P"
+      }
+    },
+    {
+      "type": "NomenclaturalType",
+      "typeOfType": "isotype",
+      "typifiedName": "https://ipni.org/n/901574-1",
+      "typeSpecimen": {
+        "type": "dwc:MaterialCitation",
+        "dwc:country": "Madagascar",
+        "dwc:recordedBy": "Humbert",
+        "dwc:recordNumber": "22493",
+        "dwc:institutionCode": "P"
+      }
+    },
+
+    {
+      "id": "_:b33",
+      "type": "TaxonConcept",
+      "dcterms:title": "Begonia meyeri-johannis sec. Klazenga & al. 1994",
+      "accordingTo": { "id": "https://doi/org/10.2307/3668252" },
+      "taxonName": { "id": "https://ipni.org/n/105197-1" },
+      "parent": { "id": "_:1994-begonia-sect-mezierea" },
+      "intersects": [
+        {
+          "type": "TaxonConcept",
+          "dcterms:title": "Begonia meyeri-johannis sec. Warburg 1894",
+          "accordingTo": "_:b8",
+          "taxonName": { "id": "https://ipni.org/n/105197-1" }
+        },
+        {
+          "type": "TaxonConcept",
+          "dcterms:title": "Begonia meyeri-johannis sec. Warburg 1895",
+          "accordingTo": "_:b17",
+          "taxonName": { "id": "https://ipni.org/n/105197-1" }
+        },
+        {
+          "type": "TaxonConcept",
+          "dcterms:title": "Begonia meyeri-johannis sec. Irmscher 1925",
+          "accordingTo": "_:b10",
+          "taxonName": { "id": "https://ipni.org/n/105197-1" }
+        }
+      ]
+    },
+    {
+      "id": "https://ipni.org/n/105197-1",
+      "type": "TaxonName",
+      "taxonNameString": "Begonia meyeri-johannis Engl.",
+      "dwc:scientificNameAuthorship": "Engl.",
+      "dwc:namePublishedIn": "Abh. Königl. Akad. Wiss. Berlin 1891(2): 305 (1892)"
+    },
+    {
+      "id": "_:b37",
+      "type": "NomenclaturalType",
+      "typifiedName": "https://ipni.org/n/105197-1",
+      "typeSpecimen": {
+        "type": "dwc:MaterialCitation",
+        "dwc:country": "Tanzania",
+        "dwc:recordedBy": "Meyer",
+        "dwc:recordNumber": "306",
+        "dwc:institutionCode": "B"
+      },
+      "typeOfType": "holotype"
+    },
+
+    {
+      "id": "_:b39",
+      "type": "TaxonConcept",
+      "accordingTo": { "id": "https://doi/org/10.2307/3668252" },
+      "dcterms:title": "Begonia oxyloba sec. Klazenga & al. 1994",
+      "taxonName": { "id": "https://ipni.org/n/105331-1" },
+      "synonym": [
+        { "id": "https://ipni.org/n/104421-1" },
+        { "id": "https://ipni.org/n/104820-1" },
+        { "id": "https://ipni.org/n/105026-1" },
+        { "id": "https://ipni.org/n/104451-1" },
+        { "id": "https://ipni.org/n/104983-1" },
+        { "id": "https://ipni.org/n/105419-1" },
+        { "id": "https://ipni.org/n/105880-1" },
+        { "id": "https://ipni.org/n/105716-1" },
+        { "id": "https://ipni.org/n/105665-1" },
+        { "id": "https://ipni.org/n/105529-1" }
+      ],
+      "parent": { "id": "_:1994-begonia-sect-mezierea" },
+      "intersects": [
+        {
+          "type": "TaxonConcept",
+          "dcterms:title": "Begonia oxyloba sec. Warburg 1894",
+          "accordingTo": "_:b8",
+          "taxonName": { "id": "https://ipni.org/n/105331-1" }
+        },
+        {
+          "type": "TaxonConcept",
+          "dcterms:title": "Begonia oxyloba sec. Warburg 1895",
+          "accordingTo": "_:b17",
+          "taxonName": { "id": "https://ipni.org/n/105331-1" }
+        },
+        {
+          "type": "TaxonConcept",
+          "dcterms:title": "Begonia cladocarpa sec. Warburg 1894",
+          "accordingTo": "_:b8",
+          "taxonName": { "id": "https://ipni.org/n/104421-1" }
+        },
+        {
+          "type": "TaxonConcept",
+          "dcterms:title": "Begonia cladocarpa sec. Keraudren-Aymonin 1983",
+          "accordingTo": "_:b20",
+          "taxonName": { "id": "https://ipni.org/n/104421-1" }
+        },
+        {
+          "type": "TaxonConcept",
+          "dcterms:title": "Begonia oxyloba sec. Engler 1921",
+          "accordingTo": "_:b45",
+          "taxonName": { "id": "https://ipni.org/n/105331-1" },
+          "synonym": [
+            { "id": "https://ipni.org/n/104820-1" },
+            { "id": "https://ipni.org/n/105026-1" },
+            { "id": "https://ipni.org/n/104451-1" },
+            { "id": "https://ipni.org/n/104983-1" },
+            { "id": "https://ipni.org/n/105419-1" },
+            { "id": "https://ipni.org/n/105665-1" }
+          ]
+        },
+        {
+          "type": "TaxonConcept",
+          "dcterms:title": "Begonia oxyloba sec. Irmscher 1925",
+          "accordingTo": "_:b17",
+          "taxonName": { "id": "https://ipni.org/n/105331-1" }
+        },
+        {
+          "type": "TaxonConcept",
+          "dcterms:title": "Begonia heddei sec. Irmscher 1925",
+          "accordingTo": "_:b17",
+          "taxonName": { "id": "https://ipni.org/n/104820-1" }
+        },
+        {
+          "type": "TaxonConcept",
+          "dcterms:title": "Begonia lehmbachii sec. Irmscher 1925",
+          "accordingTo": "_:b17",
+          "taxonName": { "id": "https://ipni.org/n/105026-1" }
+        },
+        {
+          "type": "TaxonConcept",
+          "dcterms:title": "Begonia conraui sec. Irmscher 1925",
+          "accordingTo": "_:b17",
+          "taxonName": { "id": "https://ipni.org/n/104451-1" }
+        },
+        {
+          "type": "TaxonConcept",
+          "dcterms:title": "Begonia kummerae sec. Irmscher 1925",
+          "accordingTo": "_:b17",
+          "taxonName": { "id": "https://ipni.org/n/104983-1" }
+        },
+        {
+          "dcterms:title": "Begonia petrophila sec. Irmscher 1925",
+          "type": "TaxonConcept",
+          "accordingTo": "_:b17",
+          "taxonName": { "id": "https://ipni.org/n/105419-1" }
+        },
+        {
+          "type": "TaxonConcept",
+          "dcterms:title": "Begonia seretii sec. Irmscher 1925",
+          "accordingTo": "_:b17",
+          "taxonName": { "id": "https://ipni.org/n/105716-1" }
+        },
+        {
+          "type": "TaxonConcept",
+          "dcterms:title": "Begonia sassandrensis sec. Irmscher 1925",
+          "accordingTo": "_:b17",
+          "taxonName": { "id": "https://ipni.org/n/105665-1" }
+        }
+      ]
+    },
+    {
+      "id": "https://ipni.org/n/105331-1",
+      "type": "TaxonName",
+      "taxonNameString": "Begonia oxyloba",
+      "dwc:scientificNameAuthorship": "Hook.f.",
+      "dwc:namePublishedIn": "Fl. Trop. Afr. [Oliver et al.] 2: 578 (1871)"
+    },
+    {
+      "type": "NomenclaturalType",
+      "typifiedName": "https://ipni.org/n/105331-1",
+      "typeSpecimen": {
+        "type": "dwc:MaterialCitation",
+        "dwc:country": "Angola",
+        "dwc:institutionCode": "BM",
+        "dwc:recordNumber": "875",
+        "dwc:recordedBy": "Welwitsch"
+      },
+      "typeOfType": "lectotype"
+    },
+    {
+      "type": "NomenclaturalType",
+      "typifiedName": "https://ipni.org/n/105331-1",
+      "typeSpecimen": {
+        "type": "dwc:MaterialCitation",
+        "dwc:country": "Angola",
+        "dwc:recordedBy": "Welwitsch",
+        "dwc:recordNumber": "875",
+        "dwc:institutionCode": "COI"
+      },
+      "typeOfType": "isolectotype"
+    },
+    {
+      "type": "NomenclaturalType",
+      "typifiedName": "https://ipni.org/n/105331-1",
+      "typeSpecimen": {
+        "type": "dwc:MaterialCitation",
+        "dwc:country": "Angola",
+        "dwc:recordedBy": "Welwitsch",
+        "dwc:recordNumber": "875",
+        "dwc:institutionCode": "G"
+      },
+      "typeOfType": "isolectotype"
+    },
+    {
+      "type": "NomenclaturalType",
+      "typifiedName": "https://ipni.org/n/105331-1",
+      "typeSpecimen": {
+        "type": "dwc:MaterialCitation",
+        "dwc:country": "Angola",
+        "dwc:recordedBy": "Welwitsch",
+        "dwc:recordNumber": "875",
+        "dwc:institutionCode": "K"
+      },
+      "typeOfType": "isolectotype"
+    },
+    {
+      "id": "_:b62",
+      "type": "NomenclaturalType",
+      "typifiedName": "https://ipni.org/n/105331-1",
+      "typeSpecimen": {
+        "type": "dwc:MaterialCitation",
+        "dwc:country": "Bioko",
+        "dwc:recordedBy": "Mann",
+        "dwc:recordNumber": "562",
+        "dwc:institutionCode": "K"
+      },
+      "typeOfType": "syntype"
+    },
+    {
+      "type": "NomenclaturalType",
+      "typifiedName": "https://ipni.org/n/105331-1",
+      "typeSpecimen": {
+        "type": "dwc:MaterialCitation",
+        "dwc:country": "Cameroon",
+        "dwc:recordedBy": "Mann",
+        "dwc:recordNumber": "1274",
+        "dwc:institutionCode": "K"
+      },
+      "typeOfType": "syntype"
+    },
+    {
+      "id": "https://ipni.org/n/104421-1",
+      "type": "TaxonName",
+      "dwc:namePublishedIn": "J. Bot. 20: 113 (1882)",
+      "dwc:scientificNameAuthorship": "Baker",
+      "taxonNameString": "Begonia cladocarpa"
+    },
+    {
+      "type": "NomenclaturalType",
+      "typifiedName": "https://ipni.org/n/104421-1",
+      "typeSpecimen": {
+        "type": "dwc:MaterialCitation",
+        "dwc:country": "Madagascar",
+        "dwc:recordedBy": "Baron",
+        "dwc:recordNumber": "9",
+        "dwc:institutionCode": "K"
+      },
+      "typeOfType": "holotype"
+    },
+    {
+      "id": "https://ipni.org/n/104820-1",
+      "type": "TaxonName",
+      "taxonNameString": "Begonia heddei",
+      "dwc:scientificNameAuthorship": "Warb.",
+      "dwc:namePublishedIn": "Gartenflora 49: 1 (1900)"
+    },
+    {
+      "type": "NomenclaturalType",
+      "typifiedName": "https://ipni.org/n/104820-1",
+      "typeSpecimen": {
+        "type": "dwc:MaterialCitation",
+        "dwc:recordedBy": "Culta Bot. Garten Berlin",
+        "dwc:recordNumber": "s.n.",
+        "dwc:institutionCode": "B"
+      },
+      "typeOfType": "holotype"
+    },
+    {
+      "id": "https://ipni.org/n/105026-1",
+      "type": "TaxonName",
+      "taxonNameString": "Begonia lehmbachii",
+      "dwc:scientificNameAuthorship": "Warb",
+      "dwc:namePublishedIn": "Gartenfl. 49:281 (1900)"
+    },
+    {
+      "type": "NomenclaturalType",
+      "typifiedName": "https://ipni.org/n/105026-1",
+      "typeSpecimen": {
+        "type": "dwc:MaterialCitation",
+        "dwc:country": "Cameroon",
+        "dwc:recordedBy": "Preuss",
+        "dwc:recordNumber": "1063",
+        "dwc:institutionCode": "B"
+      },
+      "typeOfType": "lectotype"
+    },
+    {
+      "type": "NomenclaturalType",
+      "typifiedName": "https://ipni.org/n/105026-1",
+      "typeSpecimen": {
+        "type": "dwc:MaterialCitation",
+        "dwc:country": "Cameroon",
+        "dwc:recordedBy": "Preuss",
+        "dwc:recordNumber": "1063",
+        "dwc:institutionCode": "COI"
+      },
+      "typeOfType": "isolectotype"
+    },
+    {
+      "type": "NomenclaturalType",
+      "typifiedName": "https://ipni.org/n/105026-1",
+      "typeSpecimen": {
+        "type": "dwc:MaterialCitation",
+        "dwc:country": "Cameroon",
+        "dwc:recordedBy": "Dusén",
+        "dwc:recordNumber": "418",
+        "dwc:institutionCode": "B"
+      },
+      "typeOfType": "syntype"
+    },
+    {
+      "type": "NomenclaturalType",
+      "typeOfType": "syntype",
+      "typeSpecimen": {
+        "type": "dwc:MaterialCitation",
+        "dwc:country": "Cameroon",
+        "dwc:recordedBy": "Preuss",
+        "dwc:recordNumber": "658",
+        "dwc:institutionCode": "B"
+      },
+      "typifiedName": "https://ipni.org/n/105026-1"
+    },
+    {
+      "type": "NomenclaturalType",
+      "typifiedName": "https://ipni.org/n/105026-1",
+      "typeSpecimen": {
+        "type": "dwc:MaterialCitation",
+        "dwc:country": "Cameroon",
+        "dwc:recordedBy": "Preuss",
+        "dwc:recordNumber": "995",
+        "dwc:institutionCode": "B"
+      },
+      "typeOfType": "syntype"
+    },
+    {
+      "id": "https://ipni.org/n/104451-1",
+      "type": "TaxonName",
+      "taxonNameString": "Begonia conraui",
+      "dwc:scientificNameAuthorship": "Gilg",
+      "dwc:namePublishedIn": "Bot. Jahrb. Syst. 34(1): 87 (1904)"
+    },
+    {
+      "type": "NomenclaturalType",
+      "typifiedName": "https://ipni.org/n/104451-1",
+      "typeSpecimen": {
+        "type": "dwc:MaterialCitation",
+        "dwc:country": "Cameroon",
+        "dwc:recordedBy": "Conrau",
+        "dwc:recordNumber": "4",
+        "dwc:institutionCode": "B"
+      },
+      "typeOfType": "holotype"
+    },
+    {
+      "id": "https://ipni.org/n/104983-1",
+      "type": "TaxonName",
+      "taxonNameString": "Begonia kummerae",
+      "dwc:scientificNameAuthorship": "Gilg",
+      "dwc:namePublishedIn": "Bot. Jahrb. Syst. 34(1): 87 (1904)"
+    },
+    {
+      "type": "NomenclaturalType",
+      "typifiedName": "https://ipni.org/n/104983-1",
+      "typeSpecimen": {
+        "type": "dwc:MaterialCitation",
+        "dwc:country": "Tanzania",
+        "dwc:recordedBy": "Busse",
+        "dwc:recordNumber": "349",
+        "dwc:institutionCode": "B"
+      },
+      "typeOfType": "holotype"
+    },
+    {
+      "id": "https://ipni.org/n/105419-1",
+      "type": "TaxonName",
+      "taxonNameString": "Begonia petrophila",
+      "dwc:scientificNameAuthorship": "Gilg",
+      "dwc:namePublishedIn": "Bot. Jahrb. Syst. 34(1): 86 (1904)"
+    },
+    {
+      "type": "NomenclaturalType",
+      "typifiedName": "https://ipni.org/n/105419-1",
+      "typeSpecimen": {
+        "type": "dwc:MaterialCitation",
+        "dwc:country": "Tanzania",
+        "dwc:recordedBy": "Engler",
+        "dwc:recordNumber": "647",
+        "dwc:institutionCode": "B"
+      },
+      "typeOfType": "holotype"
+    },
+    {
+      "id": "https://ipni.org/n/105880-1",
+      "type": "TaxonName",
+      "taxonNameString": "Begonia togoensis",
+      "dwc:scientificNameAuthorship": "Gilg",
+      "dwc:namePublishedIn": "Bot. Jahrb. Syst. 34(1): 88 (1904)"
+    },
+    {
+      "type": "NomenclaturalType",
+      "typifiedName": "https://ipni.org/n/105880-1",
+      "typeSpecimen": {
+        "type": "dwc:MaterialCitation",
+        "dwc:country": "Ghana",
+        "dwc:recordedBy": "Baumann",
+        "dwc:recordNumber": "419",
+        "dwc:institutionCode": "B"
+      },
+      "typeOfType": "holotype"
+    },
+    {
+      "id": "https://ipni.org/n/105716-1",
+      "type": "TaxonName",
+      "taxonNameString": "Begonia seretii",
+      "dwc:scientificNameAuthorship": "De Wild.",
+      "dwc:namePublishedIn": "Ann. Mus. Congo Belge, Bot. sér. 5, 2[1]: 59 (1907)"
+    },
+    {
+      "type": "NomenclaturalType",
+      "typifiedName": "https://ipni.org/n/105716-1",
+      "typeSpecimen": {
+        "type": "dwc:MaterialCitation",
+        "dwc:country": "Democratic Republic of the Congo",
+        "dwc:recordedBy": "Seret",
+        "dwc:recordNumber": "121",
+        "dwc:institutionCode": "BR"
+      },
+      "typeOfType": "lectotype"
+    },
+    {
+      "type": "NomenclaturalType",
+      "typifiedName": "https://ipni.org/n/105716-1",
+      "typeSpecimen": {
+        "type": "dwc:MaterialCitation",
+        "dwc:country": "Democratic Republic of the Congo",
+        "dwc:recordedBy": "Seret",
+        "dwc:recordNumber": "121 bis",
+        "dwc:institutionCode": "BR"
+      },
+      "typeOfType": "syntype"
+    },
+    {
+      "id": "https://ipni.org/n/105665-1",
+      "type": "TaxonName",
+      "taxonNameString": "Begonia sassandrensis",
+      "dwc:scientificNameAuthorship": "A.Chev.",
+      "dwc:namePublishedIn": "Bull. Soc. Bot. France 58(Mém. 8d): 175 (1912)"
+    },
+    {
+      "type": "NomenclaturalType",
+      "typifiedName": "https://ipni.org/n/105665-1",
+      "typeSpecimen": {
+        "type": "dwc:MaterialCitation",
+        "dwc:country": "Ivory Coast",
+        "dwc:recordedBy": "Chevalier",
+        "dwc:recordNumber": "21349",
+        "dwc:institutionCode": "P"
+      },
+      "typeOfType": "lectotype"
+    },
+    {
+      "type": "NomenclaturalType",
+      "typifiedName": "https://ipni.org/n/105665-1",
+      "typeSpecimen": {
+        "type": "dwc:MaterialCitation",
+        "dwc:country": "Guinea",
+        "dwc:recordedBy": "Chevalier",
+        "dwc:recordNumber": "20609",
+        "dwc:institutionCode": "B"
+      },
+      "typeOfType": "isosyntype"
+    },
+    {
+      "type": "NomenclaturalType",
+      "typifiedName": "https://ipni.org/n/105665-1",
+      "typeSpecimen": {
+        "type": "dwc:MaterialCitation",
+        "dwc:country": "Guinea",
+        "dwc:recordedBy": "Chevalier",
+        "dwc:recordNumber": "20609",
+        "dwc:institutionCode": "P"
+      },
+      "typeOfType": "syntype"
+    },
+    {
+      "type": "NomenclaturalType",
+      "typifiedName": "https://ipni.org/n/105665-1",
+      "typeSpecimen": {
+        "type": "dwc:MaterialCitation",
+        "dwc:country": "Guinea",
+        "dwc:recordedBy": "Chevalier",
+        "dwc:recordNumber": "20761",
+        "dwc:institutionCode": "P"
+      },
+      "typeOfType": "syntype"
+    },
+    {
+      "type": "NomenclaturalType",
+      "typifiedName": "https://ipni.org/n/105665-1",
+      "typeSpecimen": {
+        "type": "dwc:MaterialCitation",
+        "dwc:country": "Ivory Coast",
+        "dwc:institutionCode": "P",
+        "dwc:recordNumber": "21355",
+        "dwc:recordedBy": "Chevalier"
+      },
+      "typeOfType": "syntype"
+    },
+    {
+      "type": "NomenclaturalType",
+      "typifiedName": "https://ipni.org/n/105665-1",
+      "typeSpecimen": {
+        "type": "dwc:MaterialCitation",
+        "dwc:country": "Ivory Coast",
+        "dwc:recordNumber": "21419",
+        "dwc:recordedBy": "Chevalier",
+        "dwc:institutionCode": "P"
+      },
+      "typeOfType": "syntype"
+    },
+    {
+      "id": "https://ipni.org/n/105529-1",
+      "type": "TaxonName",
+      "taxonNameString": "Begonia pycnocaulis",
+      "dwc:scientificNameAuthorship": "Irmsch.",
+      "dwc:namePublishedIn": "Bot. Jahrb. Syst. 81(1-2): 180 (1961)"
+    },
+    {
+      "type": "NomenclaturalType",
+      "typifiedName": "https://ipni.org/n/105529-1",
+      "typeSpecimen": {
+        "type": "dwc:MaterialCitation",
+        "dwc:country": "Tanzania",
+        "dwc:recordedBy": "Schlieben",
+        "dwc:recordNumber": "3306",
+        "dwc:institutionCode": "B"
+      },
+      "typeOfType": "holotype"
+    },
+    {
+      "type": "NomenclaturalType",
+      "typifiedName": "https://ipni.org/n/105529-1",
+      "typeSpecimen": {
+        "type": "dwc:MaterialCitation",
+        "dwc:country": "Tanzania",
+        "dwc:recordedBy": "Schlieben",
+        "dwc:recordNumber": "3306",
+        "dwc:institutionCode": "B"
+      },
+      "typeOfType": "isotype"
+    },
+    {
+      "type": "NomenclaturalType",
+      "typifiedName": "https://ipni.org/n/105529-1",
+      "typeSpecimen": {
+        "type": "dwc:MaterialCitation",
+        "dwc:country": "Tanzania",
+        "dwc:recordedBy": "Schlieben",
+        "dwc:recordNumber": "3306",
+        "dwc:institutionCode": "WAG"
+      },
+      "typeOfType": "isotype"
+    },
+    {
+      "type": "NomenclaturalType",
+      "typifiedName": "https://ipni.org/n/105529-1",
+      "typeSpecimen": {
+        "type": "dwc:MaterialCitation",
+        "dwc:country": "Tanzania",
+        "dwc:recordedBy": "Burtt",
+        "dwc:recordNumber": "4720",
+        "dwc:institutionCode": "BM"
+      },
+      "typeOfType": "paratype"
+    },
+    {
+      "type": "NomenclaturalType",
+      "typifiedName": "https://ipni.org/n/105529-1",
+      "typeSpecimen": {
+        "type": "dwc:MaterialCitation",
+        "dwc:country": "Tanzania",
+        "dwc:recordedBy": "Burtt",
+        "dwc:recordNumber": "4720",
+        "dwc:institutionCode": "K"
+      },
+      "typeOfType": "paratype"
+    },
+
+    {
+      "id": "_:b114",
+      "type": "TaxonConcept",
+      "dcterms:title": "Begonia salaziensis sec. Klazenga & al. 1994",
+      "accordingTo": { "id": "https://doi/org/10.2307/3668252" },
+      "taxonName": { "id": "https://ipni.org/n/105644-1" },
+      "synonym": [
+        { "id": "https://ipni.org/n/104198-1" },
+        { "id": "https://ipni.org/n/77237080-1" }
+      ],
+      "parent": { "id": "_:1994-begonia-sect-mezierea" },
+      "intersects": [
+        {
+          "type": "TaxonConcept",
+          "dcterms:title": "Begonia salaziensis sec. Warburg 1894",
+          "accordingTo": "_:b8",
+          "taxonName": { "id": "https://ipni.org/n/105644-1" }
+        },
+        {
+          "type": "TaxonConcept",
+          "dcterms:title": "Begonia salaziensis sec. Irmscher 1925",
+          "accordingTo": "_:b17",
+          "taxonName": { "id": "https://ipni.org/n/105644-1" }
+        }
+      ]
+    },
+    {
+      "id": "https://ipni.org/n/105644-1",
+      "type": "TaxonName",
+      "taxonNameString": "Begonia salaziensis",
+      "dwc:scientificNameAuthorship": "(Gaudich.) Warb.",
+      "dwc:namePublishedIn": "Nat. Pflanzenfam. [Engler & Prantl] iii. 6a: 139 (1894)",
+      "basionym": "https://ipni.org/n/106227-1"
+    },
+    {
+      "id": "https://ipni.org/n/106227-1",
+      "type": "TaxonName",
+      "taxonNameString": "Mezierea salaziensis",
+      "dwc:scientificNameAuthorship": "Gaudich.",
+      "dwc:namePublishedIn": "Voy. Bonite, Bot. 3(Atlas): t. 32 (1841)"
+    },
+    {
+      "type": "NomenclaturalType",
+      "typifiedName": "https://ipni.org/n/106227-1",
+      "typeSpecimen": {
+        "type": "dwc:MaterialCitation",
+        "dwc:country": "Réunion",
+        "dwc:recordedBy": "Gaudichaud",
+        "dwc:recordNumber": "s.n.",
+        "dwc:institutionCode": "G"
+      },
+      "typeOfType": "isotype"
+    },
+    {
+      "type": "NomenclaturalType",
+      "typifiedName": "https://ipni.org/n/106227-1",
+      "typeSpecimen": {
+        "type": "dwc:MaterialCitation",
+        "dwc:country": "Réunion",
+        "dwc:recordedBy": "Gaudichaud",
+        "dwc:recordNumber": "s.n.",
+        "dwc:institutionCode": "P"
+      },
+      "typeOfType": "holotype"
+    },
+    {
+      "id": "https://ipni.org/n/104198-1",
+      "type": "TaxonName",
+      "taxonNameString": "Begonia aptera Roxb., Hort. Bengal. 104; Fl. Ind. iii. 650.",
+      "dwc:scientificNameAuthorship": "Roxb.",
+      "dwc:namePublishedIn": "Hort. Bengal. 104; Fl. Ind. iii. 650 (1832)",
+      "nomenclaturalStatus": "http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/illegitimum"
+    },
+    {
+      "id": "_:b121",
+      "type": "NomenclaturalType",
+      "typifiedName": "https://ipni.org/n/104198-1",
+      "typeSpecimen": {
+        "type": "dwc:MaterialCitation",
+        "dwc:country": "Réunion",
+        "dwc:recordedBy": "Hardwicke",
+        "dwc:recordNumber": "s.n.",
+        "dwc:institutionCode": "BM"
+      },
+      "typeOfType": "holotype"
+    },
+    {
+      "id": "https://ipni.org/n/77237080-1",
+      "type": "TaxonName",
+      "taxonNameString": "Begonia mascariensis",
+      "dwc:scientificNameAuthorship": "Baker",
+      "dwc:namePublishedIn": "Fl. Mauritius 129 (1877)",
+      "nomenclaturalStatus": "http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/dubimum"
+    },
+
+    {
+      "id": "_:b123",
+      "type": "TaxonConcept",
+      "dcterms:title": "Begonia seychellensis sec. Klazenga & al. 1994",
+      "accordingTo": { "id": "https://doi/org/10.2307/3668252" },
+      "taxonName": { "id": "https://ipni.org/n/105731-1" },
+      "parent": { "id": "_:1994-begonia-sect-mezierea" },
+      "intersects": [
+        { "id": "_:1983-begonia-comorensis" }
+      ]
+    },
+    {
+      "id": "https://ipni.org/n/105731-1",
+      "type": "TaxonName",
+      "taxonNameString": "Begonia seychellensis",
+      "dwc:scientificNameAuthorship": "Hemsl.",
+      "dwc:namePublishedIn": "J. Bot. 54(Suppl. 2): 15 (1916)"
+    },
+    {
+      "type": "NomenclaturalType",
+      "typifiedName": "https://doi/org/10.2307/3668252",
+      "typeSpecimen": {
+        "type": "dwc:MaterialCitation",
+        "dwc:country": "Seychelles",
+        "dwc:island": "Mahé",
+        "dwc:recordedBy": "Horne",
+        "dwc:recordNumber": "245",
+        "dwc:institutionCode": "K"
+      },
+      "typeOfType": "lectotype"
+    },
+    {
+      "type": "NomenclaturalType",
+      "typifiedName": "https://ipni.org/n/105731-1",
+      "typeSpecimen": {
+        "type": "dwc:MaterialCitation",
+        "dwc:country": "Seychelles",
+        "dwc:island": "Mahé",
+        "dwc:recordedBy": "Horne",
+        "dwc:recordNumber": "s.n.",
+        "dwc:institutionCode": "G"
+      },
+      "typeOfType": "isotype"
+    },
+    {
+      "type": "NomenclaturalType",
+      "typifiedName": "https://ipni.org/n/105731-1",
+      "typeSpecimen": {
+        "type": "dwc:MaterialCitation",
+        "dwc:country": "Seychelles",
+        "dwc:island": "Mahé",
+        "dwc:recordedBy": "Gardiner",
+        "dwc:recordNumber": "s.n.",
+        "dwc:institutionCode": "K"
+      },
+      "typeOfType": "syntype"
+    },
+    {
+      "type": "NomenclaturalType",
+      "typifiedName": "https://ipni.org/n/105731-1",
+      "typeSpecimen": {
+        "type": "dwc:MaterialCitation",
+        "dwc:country": "Seychelles",
+        "dwc:island": "Silhouette",
+        "dwc:recordedBy": "Gardiner",
+        "dwc:recordNumber": "111",
+        "dwc:institutionCode": "K"
+      },
+      "typeOfType": "syntype"
+    },
+    {
+      "type": "NomenclaturalType",
+      "typifiedName": "https://ipni.org/n/105731-1",
+      "typeSpecimen": {
+        "type": "dwc:MaterialCitation",
+        "dwc:country": "Seychelles",
+        "dwc:island": "Mahé and Silhouette",
+        "dwc:recordedBy": "Neville",
+        "dwc:recordNumber": "s.n.",
+        "dwc:institutionCode": "K"
+      },
+      "typeOfType": "syntype"
+    },
+
+    {
+      "id": "https://doi/org/10.2307/3668252",
+      "type": "bibo:JournalArticle",
+      "dcterms:title": "Begonia sect. Mezierea (Gaud.) Warb., a taxonomic revision",
+      "dcterms:creator": [
+        { "id": "https://orcid.org/0000-0003-2224-6821" },
+        { "id": "https://www.wikidata.org/wiki/Q21387987" },
+        { "id": "https://www.wikidata.org/wiki/Q21394461" }
+      ],
+      "bibo:authorList": {
+        "@list": [
+          { "id": "https://orcid.org/0000-0003-2224-6821" },
+          { "id": "https://www.wikidata.org/wiki/Q21387987" },
+          { "id": "https://www.wikidata.org/wiki/Q21394461" }
+        ]
+      },
+      "dcterms:isPartOf": {
+        "type": "bibo:Issue",
+        "dcterms:isPartOf": {
+          "type": "bibo:Journal",
+          "dcterms:title": "Bulletin du Jardin botanique national de Belgique / Bulletin van de Nationale Plantentuin van België",
+          "bibo:shortTitle": "Bull. Jard. Bot. Nat. Belg./Bull. Nat. Plantentuin Belg."
+        },
+        "bibo:volume": "63",
+        "dcterms:date": "1994"
+      },
+      "bibo:doi": "10.2307/3668252",
+      "bibo:pages": "263-312",
+      "bibo:url": "https://www.jstor.org/stable/3668252"
+    },
+    {
+      "id": "_:b45",
+      "type": "bibo:BookSection",
+      "dcterms:title": "Fam. Begoniaceae",
+      "dcterms:creator": [
+        { "id": "https://www.wikidata.org/wiki/Q60718" }
+      ],
+      "bibo:authorList": {
+        "@list": [
+          { "id": "https://www.wikidata.org/wiki/Q60718" }
+        ]
+      },
+      "dcterms:isPartOf": {
+        "type": "bibo:Book",
+        "bibo:editor": [
+          { "id": "https://www.wikidata.org/wiki/Q60718" },
+          { "id": "https://www.wikidata.org/wiki/Q63040"}
+        ],
+        "bibo:editorList": {
+          "@list": [
+            { "id": "https://www.wikidata.org/wiki/Q60718" },
+            { "id": "https://www.wikidata.org/wiki/Q63040"}
+          ]
+        },
+        "dcterms:date": "1921",
+        "dcterms:isPartOf": {
+          "type": "bibo:Series",
+          "dcterms:title": "Die Pflanzenwelt Afrikas, insbesondere seiner tropischen Gebiete tcs: Grundzüge der Pflanzenverbreitung im Afrika und die Charakterpflanzen Afrikas",
+          "bibo:publisher": {
+            "type": "foaf:Organization",
+            "foaf:name": "W. Engleman",
+            "address:localityName": "Leipzig"
+          }
+        },
+        "bibo:volume": "3",
+        "bibo:issue": "2"
+      },
+      "bibo:pages": "612-612"
+    },
+    {
+      "id": "_:b8",
+      "type": "bibo:BookSection",
+      "dcterms:title": "Begoniaceae",
+      "dcterms:creator": [
+        { "id": "https://www.wikidata.org/wiki/Q62822" }
+      ],
+      "bibo:authorList": {
+        "@list": [
+          { "id": "https://www.wikidata.org/wiki/Q62822" }
+        ]
+      },
+      "dcterms:isPartOf": {
+        "type": "bibo:Issue",
+        "dcterms:date": "1894",
+        "dcterms:isPartOf": {
+          "type": "bibo:Series",
+          "dcterms:title": "Die natürlichen Pflanzenfamilien",
+          "bibo:shortTitle": "Nat. Pfl.",
+          "bibo:editor": [
+            { "id": "https://www.wikidata.org/wiki/Q60718" },
+            { "id": "https://www.wikidata.org/wiki/Q64995" }
+          ],
+          "bibo:editorList": {
+            "@list": [
+              { "id": "https://www.wikidata.org/wiki/Q60718" },
+              { "id": "https://www.wikidata.org/wiki/Q64995" }
+            ]
+          }
+        },
+        "bibo:volume": "3",
+        "bibo:issue": "6a"
+      },
+      "bibo:pages": "121-150"
+    },
+    {
+      "id": "_:b17",
+      "type": "bibo:AcademicArticle",
+      "dcterms:title": "Begoniaceae africanae",
+      "dcterms:creator": [
+        { "id": "https://www.wikidata.org/wiki/Q62822" }
+      ],
+      "bibo:authorList": {
+        "@list": [
+          { "id": "https://www.wikidata.org/wiki/Q62822" }
+        ]
+      },
+      "dcterms:isPartOf": {
+        "type": "bibo:Issue",
+        "dcterms:date": "1895",
+        "dcterms:isPartOf": {
+          "type": "bibo:Journal",
+          "dcterms:title": "Bot. Jarhrb. Syst."
+        },
+        "bibo:volume": "22"
+      },
+      "bibo:pages": "32-45"
+    },
+    {
+      "id": "_:b20",
+      "type": "bibo:Book",
+      "dcterms:title": "Famille 144 – Begoniacées",
+      "dcterms:creator": [
+        { "id": "https://www.wikidata.org/wiki/Q10331852" }
+      ],
+      "bibo:authorList": {
+          "@list": [
+          { "id": "https://www.wikidata.org/wiki/Q10331852" }
+        ]
+      },
+      "dcterms:date": "1983",
+      "dcterms:isPartOf": {
+        "type": "bibo:Series",
+        "dcterms:title": "Flore de Madagascar et des Comores"
+      },
+      "bibo:pages": "7-108"
+    },
+    {
+      "id": "_:b10",
+      "type": "bibo:BookSection",
+      "dcterms:title": "Begoniaceae",
+      "dcterms:creator": [
+        { "id": "https://www.wikidata.org/wiki/Q8771887" }
+      ],
+      "bibo:authorList": {
+        "@list": [
+          { "id": "https://www.wikidata.org/wiki/Q8771887" }
+        ]
+      },
+      "dcterms:isPartOf": {
+        "type": "bibo:Issue",
+        "dcterms:date": "1925",
+        "dcterms:isPartOf": {
+          "type": "bibo:Series",
+          "dcterms:title": "Die natürlichen Pflanzenfamilien",
+          "bibo:shortTitle": "Nat. Pflanzenfam.",
+          "bibo:editor": [
+            { "id": "https://www.wikidata.org/wiki/Q60718" },
+            { "id": "https://www.wikidata.org/wiki/Q64995" }
+          ],
+          "bibo:editorList": {
+            "@list": [
+              { "id": "https://www.wikidata.org/wiki/Q60718" },
+              { "id": "https://www.wikidata.org/wiki/Q64995" }
+            ]
+          },
+          "bibo:edition": "2"
+        },
+        "bibo:volume": "21"
+      },
+      "bibo:pages": "121-150"
+    },
+
+    {
+      "id": "https://www.wikidata.org/wiki/Q60718",
+      "type": "foaf:Person",
+      "foaf:givenName": "A.",
+      "foaf:surname": "Engler"
+    },
+    {
+      "id": "https://www.wikidata.org/wiki/Q64995",
+      "type": "foaf:Person",
+      "foaf:givenName": "K.",
+      "foaf:surname": "Prantl"
+    },
+    {
+      "id": "https://www.wikidata.org/wiki/Q63040",
+      "type": "foaf:Person",
+      "foaf:givenName": "O.",
+      "foaf:surname": "Drude"
+    },
+    {
+      "id": "https://orcid.org/0000-0003-2224-6821",
+      "type": "foaf:Person",
+      "foaf:givenName": "Niels",
+      "foaf:surname": "Klazenga"
+    },
+    {
+      "id": "https://www.wikidata.org/wiki/Q8771887",
+      "type": "foaf:Person",
+      "foaf:givenName": "E.",
+      "foaf:surname": "Irmscher"
+    },
+    {
+      "id": "https://www.wikidata.org/wiki/Q62822",
+      "type": "foaf:Person",
+      "foaf:givenName": "O.",
+      "foaf:surname": "Warburg"
+    },
+    {
+      "id": "https://www.wikidata.org/wiki/Q21387987",
+      "type": "foaf:Person",
+      "foaf:givenName": "J.J.F.E.",
+      "foaf:surname": "de Wilde"
+    },
+    {
+      "id": "https://www.wikidata.org/wiki/Q21394461",
+      "type": "foaf:Person",
+      "foaf:givenName": "R.J.",
+      "foaf:surname": "Quené"
+    },
+    {
+      "id": "https://www.wikidata.org/wiki/Q10331852",
+      "type": "foaf:Person",
+      "foaf:givenName": "M.",
+      "foaf:surname": "Keraudren-Aymonin"
+    }
+  ]
+}

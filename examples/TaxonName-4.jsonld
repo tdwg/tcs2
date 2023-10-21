@@ -1,11 +1,11 @@
 {
   "@context": "https://raw.githubusercontent.com/tdwg/tcs2/dev-20230824/examples/context.jsonld",
-  "@id": "https://www.ipni.org/n/50985479-1",
-  "@type": "TaxonName",
+  "id": "https://www.ipni.org/n/50985479-1",
+  "type": "TaxonName",
   "taxonNameString": "Rhododendron sect. Sciadorhodion",
   "dwc:scientificNameAuthorship": "Rehder & Wilson",
   "namePublishedIn": {
-    "@type": "bibo:Book",
+    "type": "bibo:Book",
     "dcterms:bibliographicCitation": "Wilson, E.H. & Rehder, A. (1921). A monograph of the azaleas. Publication of the Arnold Arboretum No. 9 Harvard University, Cambridge MA."
   },
   "tcs:microReference": "79",

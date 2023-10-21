@@ -1,15 +1,15 @@
 {
   "@context": "https://raw.githubusercontent.com/tdwg/tcs2/dev-20230824/examples/context.jsonld",
-  "@type": [ "dwc:ResourceRelationship", "rdf:Statement" ],
+  "type": [ "dwc:ResourceRelationship", "rdf:Statement" ],
   "rdf:subject": {
-    "@type": "TaxonConcept",
+    "type": "TaxonConcept",
     "dcterms:title": "Andropogon hirsutior sec. BONAP 2014",
     "accordingTo": "http://bonap.net/napa#2014",
     "taxonName": "https://www.ipni.org/n/60458078-2"
   },
   "rdf:predicate": "isIncludedIn",
   "rdf:object": {
-    "@type": "TaxonConcept",
+    "type": "TaxonConcept",
     "dcterms:title": "Andropogon glomeratus sec. Weakley 2006",
     "accordingTo": "http://www.herbarium.unc.edu/FloraArchives/WeakleyFlora_2006-Jan.pdf",
     "taxonName": "https://www.ipni.org/n/12850-2"

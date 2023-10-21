@@ -2,8 +2,8 @@
   "@context": "https://raw.githubusercontent.com/tdwg/tcs2/dev-20230824/examples/context.jsonld",
   "@graph": [
     {
-      "@type": "bibo:AcademicArticle",
-      "@id": "https://doi.org/10.1080/14772000.2013.806371",
+      "type": "bibo:AcademicArticle",
+      "id": "https://doi.org/10.1080/14772000.2013.806371",
       "dcterms:title": "Description of two new species and phylogenetic reassessment of \n            Perelleschus O’Brien & Wibmer, 1986 (Coleoptera: Curculionidae), with \n            a complete taxonomic concept history of Perelleschus sec. Franz & \n            Cardona-Duque, 2013",
       "bibo:shortTitle": "Description of two new species and phylogenetic reassessment \n            of Perelleschus O’Brien & Wibmer, 1986 (Coleoptera",
       "dcterms:creator": [
@@ -17,15 +17,15 @@
         ]
       },
       "dcterms:isPartOf": {
-        "@type": "bibo:Issue",
+        "type": "bibo:Issue",
         "bibo:issue": "2",
         "bibo:volume": "11",
         "dcterms:date": "June 1, 2013",
         "dcterms:isPartOf": {
-          "@type": "bibo:Journal",
+          "type": "bibo:Journal",
           "dcterms:title": "Systematics and Biodiversity",
           "dcterms:publisher": {
-            "@type": "foaf:Organization",
+            "type": "foaf:Organization",
             "foaf:name": "Taylor & Francis"
           },
           "bibo:issn": "1477-2000"
@@ -36,14 +36,14 @@
       "bibo:uri": "https://doi.org/10.1080/14772000.2013.806371"
     },
     {
-      "@id": "https://orcid.org/0000-0001-7089-7018",
-      "@type": "foaf:Person",
+      "id": "https://orcid.org/0000-0001-7089-7018",
+      "type": "foaf:Person",
       "foaf:givenName": "Nico M.",
       "foaf:surname": "Franz"
     },
     {
-      "@id": "https://orcid.org/0000-0002-2469-8162",
-      "@type": "foaf:Person",
+      "id": "https://orcid.org/0000-0002-2469-8162",
+      "type": "foaf:Person",
       "foaf:givenName": "Juliana",
       "foaf:surname": "Cardona-Duque"
     }

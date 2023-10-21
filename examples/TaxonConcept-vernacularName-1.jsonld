@@ -1,18 +1,18 @@
 {
   "@context": "https://raw.githubusercontent.com/tdwg/tcs2/dev-20230824/examples/context.jsonld",
-  "@type": "TaxonConcept",
+  "type": "TaxonConcept",
   "dcterms:title": "Graphium macleayanum sec. Orr & Kitching 2010",
   "accordingTo": {
-    "@id": "urn:isbn:978-1-74175-108-6",
-    "@type": "bibo:Book",
+    "id": "urn:isbn:978-1-74175-108-6",
+    "type": "bibo:Book",
     "dcterms:bibliographicCitation": "Orr, A. & Kitching, R. (2010). The butterflies of Australia. Jacana Books, Crows Nest, Australia."
   },
   "taxonName": {
-    "@type": "TaxonName",
+    "type": "TaxonName",
     "taxonNameString": "Graphium macleayanum"
   },
   "vernacularName": {
-    "@type": "gbif:VernacularName",
+    "type": "gbif:VernacularName",
     "dwc:vernacularName": "Macleay's Swallowtail",
     "dcterms:language": "en"
   }

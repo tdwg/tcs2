@@ -1,8 +1,8 @@
 {
   "@context": "https://raw.githubusercontent.com/tdwg/tcs2/dev-20230824/examples/context.jsonld",
-  "@type": [ "dwc:ResourceRelationship", "rdf:Statement" ],
+  "type": [ "dwc:ResourceRelationship", "rdf:Statement" ],
   "rdf:subject": {
-    "@type": "TaxonConcept",
+    "type": "TaxonConcept",
     "dcterms:title": "Andropogon glomeratus sec. BONAP 2014",
     "accordingTo": "http://bonap.net/napa#2014",
     "taxonName": "https://www.ipni.org/n/12850-2"

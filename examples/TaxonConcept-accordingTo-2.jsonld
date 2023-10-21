@@ -2,8 +2,8 @@
   "@context": "https://raw.githubusercontent.com/tdwg/tcs2/dev-20230824/examples/context.jsonld",
   "@graph": [
     {
-      "@id": "urn:isbn:978-0-307-95790-0",
-      "@type": "bibo:Book",
+      "id": "urn:isbn:978-0-307-95790-0",
+      "type": "bibo:Book",
       "dcterms:title": "The Sibley guide to birds",
       "bibo:edition": "2",
       "bibo:authorList": {
@@ -14,7 +14,7 @@
       "dcterms:creator": [ "_:b1" ],
       "dcterms:date": "2014",
       "dcterms:publisher": {
-        "@type": "foaf:Organization",
+        "type": "foaf:Organization",
         "foaf:name": "Alfred A. Knopf",
         "address:localityName": "New York, NY, USA"
       },
@@ -23,8 +23,8 @@
       "dcterms:language": "en"
     },
     {
-      "@id": "_:b1",
-      "@type": "foaf:Person",
+      "id": "_:b1",
+      "type": "foaf:Person",
       "foaf:givenName": "David Allen",
       "foaf:surname": "Sibley"
     }
