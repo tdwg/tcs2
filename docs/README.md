@@ -8,7 +8,7 @@
 
 ## #xamples
 
-- [Examples](./examples/)
+- [Examples](../examples/)
 
 ## Bibliography
 

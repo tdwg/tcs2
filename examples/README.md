@@ -1,6 +1,6 @@
 # Examples
 
-### Amblystgiaceae in Koperski & al. (2000)
+### Amblystegiaceae in Koperski & al. (2000)
 
 [TurTLe](https://github.com/tdwg/tcs2/blob/master/examples/amblystegium-sec-koperski-et-al.jsonld) |
 [JSON-LD](https://github.com/tdwg/tcs2/blob/master/examples/amblystegium-sec-koperski-et-al.ttl)
