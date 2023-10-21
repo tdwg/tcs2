@@ -11,6 +11,9 @@
     "rdfs":                     "http://www.w3.org/2000/01/rdf-schema#",
     "xsd":                      "http://www.w3.org/2001/XMLSchema#",
 
+    "id": "@id",
+    "type": "@type",
+
     "TaxonConcept":             "tcs:TaxonConcept",
     "TaxonName":                "tcs:TaxonName",
     "NomenclaturalType":        "tcs:NomenclaturalType",
@@ -36,7 +39,7 @@
     "basionym":                 { "@type": "@id", "@id": "tcs:basionym" },
     "replacedName":             { "@type": "@id", "@id": "tcs:replacedName" },
     "conservedAgainst":         { "@type": "@id", "@id": "tcs:conservedAgainst", "@container": "@set" },
-    
+
     "typifiedName":             { "@type": "@id", "@id": "tcs:typifiedName" },
     "typeOfType":               { "@type": "@vocab", "@id": "tcs:typeOfType" },
     "typeName":                 { "@type": "@id", "@id": "tcs:typeName" },
