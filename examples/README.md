@@ -13,6 +13,29 @@ _Rhododendron_ subg. _Pentanthera_ by Judd & Kron [\[judd_revision_1995\]](../do
 [TurTLe](https://github.com/tdwg/tcs2/blob/master/examples/begonia-sect-mezierea-sec-klazenga-1993.ttl) |
 [JSON-LD](https://github.com/tdwg/tcs2/blob/master/examples/begonia-sect-mezierea-sec-klazenga-1993.jsonld)
 
+### Treatments of Malesian Dicranoloma in Tropicos
+
+This example compares five treatments of Malesian Dicranoloma (Bryophyta, 
+Dicranaceae) based on data obtained from [Tropicos](https://tropicos.org). 
+Tropicos has taxon concepts (in the References tab on the Name pages) but does 
+not expose IDs for them. Therefore Taxon Concept IDs have been made up by adding 
+a hash with the Name ID to the URLs of the references.
+
+Tropicos does not generally have nomenclatural types. Therefore type information 
+is taken from the latest treatment by Klazenga \[[klazenga_revision_1999](../docs/bibliography/#klazenga_revision_1999)\]. 
+In the JSON-LD, types are nested within the Taxon Name objects by reversing the 
+`typifiedName` property.
+
+[TurTLe](https://github.com/tdwg/tcs2/blob/master/examples/tropicos-malesian-dicranoloma.ttl) |
+[JSON-LD](https://github.com/tdwg/tcs2/blob/master/examples/tropicos-malesian-dicranoloma.jsonld)
+
+Based on the data from Tropicos (and some knowledge of the group), third-party 
+taxon concept mappings can be created. The following example maps the concepts 
+from the treatment by Klazenga to the concepts in the other four treatments:
+
+[TurTLe](https://github.com/tdwg/tcs2/blob/master/examples/tropicos-malesian-dicranoloma-annotations.ttl) |
+[JSON-LD](https://github.com/tdwg/tcs2/blob/master/examples/tropicos-malesian-dicranoloma-annotations.jsonld)
+
 ### Euphrasia gibbsiae sec. Barker 1982
 
 [TurTLe](https://github.com/tdwg/tcs2/blob/master/examples/euphrasia_gibbsiae_sec_barker_1982.ttl) |
