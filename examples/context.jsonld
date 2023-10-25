@@ -137,6 +137,7 @@
     "hapantotype":              "http://rs.gbif.org/vocabulary/gbif/type_status/hapantotype",
     "holotype":                 "http://rs.gbif.org/vocabulary/gbif/type_status/holotype",
     "iconotype":                "http://rs.gbif.org/vocabulary/gbif/type_status/iconotype",
+    "isotype":                  "http://rs.gbif.org/vocabulary/gbif/type_status/isotype",
     "isolectotype":             "http://rs.gbif.org/vocabulary/gbif/type_status/isolectotype",
     "isoneotype":               "http://rs.gbif.org/vocabulary/gbif/type_status/isoneotype",
     "isosyntype":               "http://rs.gbif.org/vocabulary/gbif/type_status/isosyntype",
