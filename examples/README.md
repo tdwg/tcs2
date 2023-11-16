@@ -2,7 +2,7 @@
 
 ### Revision of Rhododendron subg. Pentanthera
 
-This is the examle that shipped with TCS 1. It is based on a revision of 
+This is the example that shipped with TCS 1. It is based on a revision of 
 _Rhododendron_ subg. _Pentanthera_ by Judd & Kron [\[judd_revision_1995\]](../docs/bibliography/#judd_revision_1995).
 
 [TurTLe](https://github.com/tdwg/tcs2/blob/master/examples/rhododendron-subg-pentanthera.ttl) |
@@ -64,6 +64,7 @@ from the treatment by Klazenga to the concepts in the other four treatments:
 ### Specimen of Salix arbusculoides sec. Argus 1973 in the University of Alaska Museum of the North (ALA)
 This example shows how TCS can be used in combination with Darwin Core in 
 occurrence data. The Identification cites a Taxon Concept. 
+
 [TurTLe](https://github.com/tdwg/tcs2/blob/master/examples/uam-herb-86707.ttl)
 [JSON-LD](https://github.com/tdwg/tcs2/blob/master/examples/uam-herb-86707.jsonld)
 
