@@ -1,4 +1,9 @@
 # Bibliography
+<a id="darwin_core_and_rdfowl_task_groups_darwin_2015"></a>
+[darwin_core_and_rdfowl_task_groups_darwin_2015]&emsp;Darwin Core and RDF/OWL Task Groups (2015) Darwin Core RDF guide, Darwin Core. Available at: https://dwc.tdwg.org/rdf/.
+
+<a id="baskauf_darwin-sw_2016"></a>
+[baskauf_darwin-sw_2016]&emsp;Baskauf, S.J. and Webb, C.O. (2016) ‘Darwin-SW: Darwin Core-based terms for expressing biodiversity data as RDF’, Semantic Web, 7(6), pp. 629–643. Available at: https://doi.org/10.3233/SW-150203.
 
 <a id="franz_perspectives_2009"></a>
 [franz_perspectives_2009]&emsp;Franz, N.M. and Peet, R.K. (2009) ‘Perspectives: Towards a language for mapping relationships among taxonomic concepts’, Systematics and Biodiversity, 7(1), pp. 5–20. Available at: https://doi.org/10.1017/S147720000800282X.

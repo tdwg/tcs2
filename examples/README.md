@@ -61,5 +61,13 @@ from the treatment by Klazenga to the concepts in the other four treatments:
 [TurTLe](https://github.com/tdwg/tcs2/blob/master/examples/megalorhipida-leucodactylus-sec-gielis-et-hobern-2020.jsonld) |
 [JSON-LD](https://github.com/tdwg/tcs2/blob/master/examples/megalorhipida-leucodactylus-sec-gielis-et-hobern-2020.jsonld)
 
+### Specimen of Salix arbusculoides sec. Argus 1973 in the University of Alaska Museum of the North (ALA)
+This example shows how TCS can be used in combination with Darwin Core in 
+occurrence data. The Identification cites a Taxon Concept. 
+[TurTLe](https://github.com/tdwg/tcs2/blob/master/examples/uam-herb-86707.ttl)
+[JSON-LD](https://github.com/tdwg/tcs2/blob/master/examples/uam-herb-86707.jsonld)
+
+
+
 
 
