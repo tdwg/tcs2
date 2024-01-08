@@ -2347,7 +2347,7 @@ Taxon names at ranks above species level can be typified by the name of a  lower
 
 **Comments**
 
-Names at ranks of family and below are typified by a specimen. This property  is mutually exclusive with `typeName`. This is an IRI property. One could  use the Darwin Core Preserved Specimen. While a Taxon Name can have more  than one type specimens, each of these type specimens requires its own  Nomenclatural Type record, so a Nomenclatural Type can have only one  `typeSpecimen`.
+Names at ranks of species and below are typified by a specimen. This property is mutually exclusive with `typeName`. This is an IRI property. One could use the Darwin Core Preserved Specimen or Material Citation. While a Taxon Name can have more than one type specimens, each of these type specimens requires its own Nomenclatural Type record, so a Nomenclatural Type can have only one `typeSpecimen`.
 
 ### tcs:typePublishedIn
 
