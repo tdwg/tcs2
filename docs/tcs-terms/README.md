@@ -582,21 +582,21 @@ The `vernacularName` property can be used when a vernacular name is used  alongs
                     https://vicflora.rbg.vic.gov.au (accessed on: 22 Mar. 2023).""" ] ;
     tcs:taxonName <https://www.ipni.org/n/134460-3> ;
     tcs:vernacularName [ a gbif:VernacularName ; 
-        dwc:vernacularName "Scrub Cypress-pine" ;
-        dcterms:language "en" ;
-        gbif:isPreferredName: <http://rs.gbif.org/vocab/boolean/true> ] ,
+            dwc:vernacularName "Scrub Cypress-pine" ;
+            dcterms:language "en" ;
+            gbif:isPreferredName: <http://rs.gbif.org/vocab/boolean/true> ] ,
         [ a gbif:VernacularName ; 
-        dwc:vernacularName "Mallee Pine" ;
-        dcterms:language "en" ;
-        gbif:isPreferredName: <http://rs.gbif.org/vocab/boolean/false> ] ,
+            dwc:vernacularName "Mallee Pine" ;
+            dcterms:language "en" ;
+            gbif:isPreferredName: <http://rs.gbif.org/vocab/boolean/false> ] ,
         [ a gbif:VernacularName ; 
-        dwc:vernacularName "Cow Pine" ;
-        dcterms:language "en" ;
-        gbif:isPreferredName: <http://rs.gbif.org/vocab/boolean/false> ] ,
+            dwc:vernacularName "Cow Pine" ;
+            dcterms:language "en" ;
+            gbif:isPreferredName: <http://rs.gbif.org/vocab/boolean/false> ] ,
         [ a gbif:VernacularName ; 
-        dwc:vernacularName "Turpentine Pine" ;
-        dcterms:language "en" ;
-        gbif:isPreferredName: <http://rs.gbif.org/vocab/boolean/false> ] .
+            dwc:vernacularName "Turpentine Pine" ;
+            dcterms:language "en" ;
+            gbif:isPreferredName: <http://rs.gbif.org/vocab/boolean/false> ] .
 
 <https://www.ipni.org/n/134460-3> a tcs:TaxonName ;
     tcs:taxonNameString "Callitris verrucosa" ;
