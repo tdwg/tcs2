@@ -2255,7 +2255,7 @@ The `typifiedName` property links the Nomenclatural Type back to the Taxon  Name
 		</tr>
 		<tr>
 			<td>Usage</td>
-			<td><p><code>typeOfType</code> is an IRI term and should take its value from a controlled  vocabulary. A Nomenclatural Type can have only one</p></td>
+			<td><p><code>typeOfType</code> is an IRI term and should take its value from a controlled  vocabulary. A Nomenclatural Type can have only one <code>typeOfType</code></p></td>
 		</tr>
 		<tr>
 			<td>GitHub issue</td>

@@ -627,7 +627,7 @@
     The kind of type this specimen is, e.g. holotype, isotype etc.
   usage: >-
     `typeOfType` is an IRI term and should take its value from a controlled 
-    vocabulary. A Nomenclatural Type can have only one
+    vocabulary. A Nomenclatural Type can have only one `typeOfType`
   notes: >-
     This is an IRI property. In the absence of a TDWG controlled vocabulary, 
     it is recommended to use a value from the GBIF Nomenclatural Type Status 
