@@ -6,7 +6,7 @@
 
 - [TCS terms](./tcs-terms/)
 
-## #xamples
+## Examples
 
 - [Examples](../examples/)
 
