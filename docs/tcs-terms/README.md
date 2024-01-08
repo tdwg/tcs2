@@ -2166,7 +2166,7 @@ A nomenclatural type fixes the usage of a name to the taxonomic group that  cont
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://www.ipni.org/n/333193-1> ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/lectotype> ;
-    tcs:typeSpecimen [ a dwc:PreservedSpecimen ;
+    tcs:typeSpecimen [ a dwc:MaterialCitation ;
         dwc:verbatimLocality "Japan, Honshu, Nikko" ;
         dwc:recordedBy "Bisset" ;
         dwc:recordNumber "233" ;

@@ -30,7 +30,7 @@
       },
       "typeOfType": "lectotype",
       "typeSpecimen": {
-        "type": "dwc:PreservedSpecimen",
+        "type": "dwc:MaterialCitation",
         "dwc:verbatimLocality": "Japan, Honshu, Nikko",
         "dwc:recordedBy": "Bisset",
         "dwc:eventDate": "1876-05-23",
