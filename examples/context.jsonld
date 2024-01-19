@@ -16,7 +16,7 @@
     "type":                             "@type",
 
     "TaxonConcept":                     "tcs:TaxonConcept",
-    "TaxonConceptMappingRelation":      "TaxonConceptMappingRelation",
+    "TaxonConceptMapping":              "tcs:TaxonConceptMapping",
     "TaxonName":                        "tcs:TaxonName",
     "NomenclaturalType":                "tcs:NomenclaturalType",
 
