@@ -1,0 +1,20 @@
+@prefix : <http://rs.tdwg.org/tcs/terms/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dwc: <http://rs.tdwg.org/dwc/terms/> .
+
+# Andropogon capillipes sec. BONAP 2014 is congruent with Andropogon capillipes sec. Weakley 2006
+[] a :TaxonConceptMapping ;
+    :mappingRelation <http://rs.tdwg.org/tcs-taxon-concept-mapping-relation/values/isCongruentWith> ;
+    :subjectTaxonConcept [ a :TaxonConcept ;
+        dcterms:title "Andropogon capillipes sec. BONAP 2014" ;
+        :taxonName <https://www.ipni.org/n/12781-2> ;
+        :accordingTo <http://bonap.net/napa#2014> ] ;
+    :objectTaxonConcept [ a :TaxonConcept ;
+        dcterms:title "Andropogon capillipes sec. Weakley 2006" ;
+        :taxonName <https://www.ipni.org/n/12781-2> ;
+        :accordingTo <http://www.herbarium.unc.edu/FloraArchives/WeakleyFlora_2006-Jan.pdf> ] ;
+    :mappingAccordingTo <https://doi.org/10.3233/SW-160220> .
+
+<https://www.ipni.org/n/12781-2> a :TaxonName ;
+    :taxonNameString "Andropogon capillipes" ;
+    dwc:scientificNameAuthorship "Nash" .

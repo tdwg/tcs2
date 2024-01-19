@@ -723,11 +723,7 @@ The `parent` is another Taxon Concept. This is the parent as indicated in  the `
 
 **Comments**
 
-The `isCongruentWith` relationship is symmetrical, so if A `isCongruentWith`  B then B `isCongruentWith` A, as well as transitive, so if A  `isCongruentWith` B and B `isCongruentWith` C it follows that A  `isCongruentWith` C.
-
-![](../media/taxon-relationship-type-is-congruent-with.jpg)
-
-This relationship can also be written as the formula **A &cong; B** or **A == B**.
+The `isCongruentWith` property allows one to do a taxon concept mapping without having to create a Taxon Concept Mapping object. This can be done when the mapping is done in the same publication as one of the Taxon Concepts that are mapped, as in this case the subject and according to from the mapping are obtained from the Taxon Concept. For more details, see the `[isCongruentWith](docs/taxon-concept-mapping-relation-vocabulary#isCongruentWith)` controlled term in the Taxon Concept Mapping Relation Vocabulary.
 
 
 **Examples**
@@ -757,24 +753,6 @@ This relationship can also be written as the formula **A &cong; B** or **A == B*
 ```
 
 [&lsqb;TaxonConcept-isCongruentWith-1.ttl&rsqb;](../../examples/TaxonConcept-isCongruentWith-1.ttl)&nbsp;[&lsqb;TaxonConcept-isCongruentWith-1.jsonld&rsqb;](../../examples/TaxonConcept-isCongruentWith-1.jsonld)
-
-
-```turtle
-# Andropogon capillipes sec. BONAP 2014 is congruent with Andropogon capillipes sec. Weakley 2006
-[] a dwc:ResourceRelationship, rdf:Statement ;
-    rdf:subject [ a tcs:TaxonConcept ;
-            dcterms:title "Andropogon capillipes sec. BONAP 2014" ;
-            tcs:accordingTo <http://bonap.net/napa#2014> ;
-            tcs:taxonName <https://www.ipni.org/n/12781-2> ] ;
-    rdf:predicate tcs:isCongruentWith ;
-    rdf:object [ a tcs:TaxonConcept ;
-            dcterms:title "Andropogon capillipes sec. Weakley 2006" ;
-            tcs:accordingTo <http://www.herbarium.unc.edu/FloraArchives/WeakleyFlora_2006-Jan.pdf> ;
-            tcs:taxonName <https://www.ipni.org/n/12781-2> ] ;
-    dcterms:source <https://doi.org/10.3233/SW-160220> .
-```
-
-[&lsqb;TaxonConcept-isCongruentWith-2.ttl&rsqb;](../../examples/TaxonConcept-isCongruentWith-2.ttl)&nbsp;[&lsqb;TaxonConcept-isCongruentWith-2.jsonld&rsqb;](../../examples/TaxonConcept-isCongruentWith-2.jsonld)
 
 
 ```turtle
@@ -824,11 +802,7 @@ This relationship can also be written as the formula **A &cong; B** or **A == B*
 
 **Comments**
 
-The `includes` relationship is not symmetric, its inverse  relationship being  `isIncludedIn`, so if A `includes` B then B  `isIncludedIn` A. The `includes` relationship  is transitive, so  if A `includes` B and B `includes` C it follows that A  `includes` C.
-
-![](../media/taxon-relationship-type-includes.jpg)
-
-This relation type can also be written as the formula **A > B**.
+The `includes` property allows one to do a taxon concept mapping without having to create a Taxon Concept Mapping object. This can be done when the mapping is done in the same publication as one of the Taxon Concepts that are mapped, as in this case the subject and according to from the mapping are obtained from the Taxon Concept. For more details, see the `[includes](docs/taxon-concept-mapping-relation-vocabulary#includes)` controlled term in the Taxon Concept Mapping Relation Vocabulary.
 
 
 **Examples**
@@ -846,24 +820,6 @@ This relation type can also be written as the formula **A > B**.
 ```
 
 [&lsqb;TaxonConcept-includes-1.ttl&rsqb;](../../examples/TaxonConcept-includes-1.ttl)&nbsp;[&lsqb;TaxonConcept-includes-1.jsonld&rsqb;](../../examples/TaxonConcept-includes-1.jsonld)
-
-
-```turtle
-# Andropogon glomeratus sec. BONAP 2014 includes Andropogon tenuispatheus sec. Weakley 2006
-[] a dwc:ResourceRelationship, rdf:Statement ;
-    rdf:subject [ a tcs:TaxonConcept ;
-            dcterms:title "Andropogon glomeratus sec. BONAP 2014" ;
-            tcs:accordingTo <http://bonap.net/napa#2014> ;
-            tcs:taxonName <https://www.ipni.org/n/12850-2> ] ;
-    rdf:predicate tcs:includes ;
-    rdf:object [ a tcs:TaxonConcept ;
-            dcterms:title "Andropogon tenuispatheus sec. Weakley 2006" ;
-            tcs:accordingTo <http://www.herbarium.unc.edu/FloraArchives/WeakleyFlora_2006-Jan.pdf> ;
-            tcs:taxonName <https://www.ipni.org/n/13093-2> ] ;
-    dcterms:source <https://doi.org/10.3233/SW-160220> .
-```
-
-[&lsqb;TaxonConcept-includes-2.ttl&rsqb;](../../examples/TaxonConcept-includes-2.ttl)&nbsp;[&lsqb;TaxonConcept-includes-2.jsonld&rsqb;](../../examples/TaxonConcept-includes-2.jsonld)
 
 ### tcs:isIncludedIn
 
@@ -899,11 +855,7 @@ This relation type can also be written as the formula **A > B**.
 
 **Comments**
 
-The `isIncludedIn` relationship is not symmetric, its inverse  relationship being  `includes`, so if A `isIncludedIn` B then B  `includes` A. The `isIncludedIn` relationship  is transitive, so  if A `isIncludedIn` B and B `isIncludedIn` C it follows that A  `isIncludedIn` C.
-
-![](../media/taxon-relationship-type-is-included-in.jpg)
-
-This relation type can also be written as the formula **A < B**.
+The `isIncludedIn` property allows one to do a taxon concept mapping without having to create a Taxon Concept Mapping object. This can be done when the mapping is done in the same publication as one of the Taxon Concepts that are mapped, as in this case the subject and according to from the mapping are obtained from the Taxon Concept. For more details, see the `[isIncludedIn](docs/taxon-concept-mapping-relation-vocabulary#isIncludedIn)` controlled term in the Taxon Concept Mapping Relation Vocabulary.
 
 
 **Examples**
@@ -933,24 +885,6 @@ This relation type can also be written as the formula **A < B**.
 ```
 
 [&lsqb;TaxonConcept-isIncludedIn-1.ttl&rsqb;](../../examples/TaxonConcept-isIncludedIn-1.ttl)&nbsp;[&lsqb;TaxonConcept-isIncludedIn-1.jsonld&rsqb;](../../examples/TaxonConcept-isIncludedIn-1.jsonld)
-
-
-```turtle
-# Andropogon hirsutior sec. BONAP 2014 is included in Andropogon glomeratus sec. Weakley 2006
-[] a dwc:ResourceRelationship, rdf:Statement ;
-    rdf:subject [ a tcs:TaxonConcept ;
-            dcterms:title "Andropogon hirsutior sec. BONAP 2014" ;
-            tcs:accordingTo <http://bonap.net/napa#2014> ;
-            tcs:taxonName <https://www.ipni.org/n/60458078-2> ] ;
-    rdf:predicate tcs:isIncludedIn ;
-    rdf:object [ a tcs:TaxonConcept ;
-            dcterms:title "Andropogon glomeratus sec. Weakley 2006" ;
-            tcs:accordingTo <http://www.herbarium.unc.edu/FloraArchives/WeakleyFlora_2006-Jan.pdf> ;
-            tcs:taxonName <https://www.ipni.org/n/12850-2> ] ;
-    dcterms:source <https://doi.org/10.3233/SW-160220> .
-```
-
-[&lsqb;TaxonConcept-isIncludedIn-2.ttl&rsqb;](../../examples/TaxonConcept-isIncludedIn-2.ttl)&nbsp;[&lsqb;TaxonConcept-isIncludedIn-2.jsonld&rsqb;](../../examples/TaxonConcept-isIncludedIn-2.jsonld)
 
 ### tcs:partiallyOverlaps
 
@@ -986,11 +920,7 @@ This relation type can also be written as the formula **A < B**.
 
 **Comments**
 
-The `partiallyOverlaps`  relationship is symmetrical, so if A  `partiallyOverlaps` B then B `partiallyOverlaps` A, but not transitive, so,  if A `partiallyOverlaps` B and B `partiallyOverlaps` C, it does not follow  that A `partiallyOverlaps` C.
-
-![](../media/taxon-relationship-type-partially-overlaps.jpg)
-
-This relationship can also be written as the formula **A >< B**.
+The `partiallyOverlaps` property allows one to do a taxon concept mapping without having to create a Taxon Concept Mapping object. This can be done when the mapping is done in the same publication as one of the Taxon Concepts that are mapped, as in this case the subject and according to from the mapping are obtained from the Taxon Concept. For more details, see the `[partiallyOverlaps](docs/taxon-concept-mapping-relation-vocabulary#partiallyOverlaps)` controlled term in the Taxon Concept Mapping Relation Vocabulary.
 
 
 **Examples**
@@ -1008,46 +938,6 @@ This relationship can also be written as the formula **A >< B**.
 ```
 
 [&lsqb;TaxonConcept-partiallyOverlaps-1.ttl&rsqb;](../../examples/TaxonConcept-partiallyOverlaps-1.ttl)&nbsp;[&lsqb;TaxonConcept-partiallyOverlaps-1.jsonld&rsqb;](../../examples/TaxonConcept-partiallyOverlaps-1.jsonld)
-
-
-```turtle
-# Andropogon glomeratus sec. BONAP 2014 partially overlaps Andropogon glomeratus sec. Weakley 2006
-[] a dwc:ResourceRelationship, rdf:Statement ;
-    rdf:subject [ a tcs:TaxonConcept ;
-            dcterms:title "Andropogon glomeratus sec. BONAP 2014" ;
-            tcs:accordingTo <http://bonap.net/napa#2014> ;
-            tcs:taxonName <https://www.ipni.org/n/12850-2> ] ;
-    rdf:predicate tcs:partiallyOverlaps ;
-    rdf:object [ a tcs:TaxonConcept ;
-            dcterms:title "Andropogon glomeratus sec. Weakley 2006" ;
-            tcs:accordingTo <http://www.herbarium.unc.edu/FloraArchives/WeakleyFlora_2006-Jan.pdf> ;
-            tcs:taxonName <https://www.ipni.org/n/12850-2> ] ;
-    dcterms:source <https://doi.org/10.3233/SW-160220> .
-```
-
-[&lsqb;TaxonConcept-partiallyOverlaps-2.ttl&rsqb;](../../examples/TaxonConcept-partiallyOverlaps-2.ttl)&nbsp;[&lsqb;TaxonConcept-partiallyOverlaps-2.jsonld&rsqb;](../../examples/TaxonConcept-partiallyOverlaps-2.jsonld)
-
-
-```turtle
-# Phyllotrox sec. Franz & O'Brien (2001) partially overlaps Phyllotrox sec. Franz (2006)
-[] a dwc:ResourceRelationship, rdf:Statement ;
-    rdf:subject [ a tcs:TaxonConcept ;
-        dcterms:title "Phyllotrox sec. Franz & O'Brien 2001" ;
-        tcs:accordingTo <https://www.jstor.org/stable/25078744> ;
-        tcs:taxonName _:b1 ] ;
-    rdf:predicate tcs:partiallyOverlaps ;
-    rdf:object [ a tcs:TaxonConcept ; 
-        dcterms:title "Phyllotrox sec. Franz 2006" ;
-        tcs:accordingTo <https://doi.org/10.1111/j.1365-3113.2005.00308.x> ;
-        tcs:taxonName _:b1 ] ;
-    dcterms:source <https://doi.org/10.1111/cla.12042> .
-
-_:b1 a tcs:TaxonName ;
-    tcs:taxonNameString "Phyllotrox" ;
-    dwc:scientificNameAuthorship "Schönherr, 1843" .
-```
-
-[&lsqb;TaxonConcept-partiallyOverlaps-3.ttl&rsqb;](../../examples/TaxonConcept-partiallyOverlaps-3.ttl)&nbsp;[&lsqb;TaxonConcept-partiallyOverlaps-3.jsonld&rsqb;](../../examples/TaxonConcept-partiallyOverlaps-3.jsonld)
 
 ### tcs:isDisjointFrom
 
@@ -1083,32 +973,7 @@ _:b1 a tcs:TaxonName ;
 
 **Comments**
 
-The `isDisjointFrom`  relationship is symmetrical, so if A `isDisjointFrom`  B then B `isDisjointFrom` A, but not transitive, so, if A `isDisjointFrom`  B and B `isDisjointFrom` C, it does not follow that A `isDisjointFrom` C.
-
-![](../media/taxon-relationship-type-is-disjoint-from.jpg)
-
-This relationship can also be written as the formula **A | B**.
-
-
-**Examples**
-
-
-```turtle
-# Andropogon glaucopsis sec. BONAP 2014 is disjoint from Andropogon virginicus sec. Weakley 2006
-[] a dwc:ResourceRelationship, rdf:Statement ;
-    rdf:subject [ a tcs:TaxonConcept ;
-            dcterms:title "Andropogon glaucopsis sec. BONAP 2014" ;
-            tcs:accordingTo <http://bonap.net/napa#2014> ;
-            tcs:taxonName <https://www.ipni.org/n/387942-1> ] ;
-    rdf:predicate tcs:isDisjointFrom ;
-    rdf:object [ a tcs:TaxonConcept ;
-            dcterms:title "Andropogon virginicus sec. Weakley 2006" ;
-            tcs:accordingTo <http://www.herbarium.unc.edu/FloraArchives/WeakleyFlora_2006-Jan.pdf> ;
-            tcs:taxonName <https://www.ipni.org/n/388740-1> ] ;
-    dcterms:source <https://doi.org/10.3233/SW-160220> .
-```
-
-[&lsqb;TaxonConcept-isDisjointFrom.ttl&rsqb;](../../examples/TaxonConcept-isDisjointFrom.ttl)&nbsp;[&lsqb;TaxonConcept-isDisjointFrom.jsonld&rsqb;](../../examples/TaxonConcept-isDisjointFrom.jsonld)
+The `isDisjointFrom` property allows one to do a taxon concept mapping without having to create a Taxon Concept Mapping object. This can be done when the mapping is done in the same publication as one of the Taxon Concepts that are mapped, as in this case the subject and according to from the mapping are obtained from the Taxon Concept. For more details, see the `[isDisjointFrom](docs/taxon-concept-mapping-relation-vocabulary#isDisjointFrom)` controlled term in the Taxon Concept Mapping Relation Vocabulary.
 
 ### tcs:intersects
 
@@ -1144,7 +1009,7 @@ This relationship can also be written as the formula **A | B**.
 
 **Comments**
 
-`intersects` is the opposite of `isDisjointFrom` and the union of  `isCongruentWith`, `includes`, `isIncludedIn` and  `partiallyOverlaps`, meaning it can be any of these relationships. This  relationship type can be used when the more precise nature of the  relationship is not known or not stated, for example when dealing with  statements in traditional synonymies or with references to other treatments.
+The `intersects` property allows one to do a taxon concept mapping without having to create a Taxon Concept Mapping object. This can be done when the mapping is done in the same publication as one of the Taxon Concepts that are mapped, as in this case the subject and according to from the mapping are obtained from the Taxon Concept. For more details, see the `[intersects](docs/taxon-concept-mapping-relation-vocabulary#intersects)` controlled term in the Taxon Concept Mapping Relation Vocabulary.
 
 
 **Examples**

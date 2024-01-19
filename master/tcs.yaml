@@ -217,19 +217,15 @@
     i.e. there is no conflict between the concepts
   usage: null
   notes: >-
-    The `isCongruentWith` relationship is symmetrical, so if A `isCongruentWith` 
-    B then B `isCongruentWith` A, as well as transitive, so if A 
-    `isCongruentWith` B and B `isCongruentWith` C it follows that A 
-    `isCongruentWith` C.
-
-
-    ![](../media/taxon-relationship-type-is-congruent-with.jpg)
-
-
-    This relationship can also be written as the formula **A &cong; B** or **A == B**.
+    The `isCongruentWith` property allows one to do a taxon concept mapping
+    without having to create a Taxon Concept Mapping object. This can be done
+    when the mapping is done in the same publication as one of the Taxon
+    Concepts that are mapped, as in this case the subject and according to from
+    the mapping are obtained from the Taxon Concept. For more details, see the
+    `[isCongruentWith](docs/taxon-concept-mapping-relation-vocabulary#isCongruentWith)`
+    controlled term in the Taxon Concept Mapping Relation Vocabulary.
   examples: 
     - TaxonConcept-isCongruentWith-1
-    - TaxonConcept-isCongruentWith-2
     - TaxonConcept-isCongruentWith-3
   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonConcept
   repeatable: Yes
@@ -245,20 +241,15 @@
     The subject taxon concept has a more inclusive taxonomic meaning than
     the object taxon concept
   notes: >-
-    The `includes` relationship is not symmetric, its inverse 
-    relationship being  `isIncludedIn`, so if A `includes` B then B 
-    `isIncludedIn` A. The `includes` relationship  is transitive, so 
-    if A `includes` B and B `includes` C it follows that A 
-    `includes` C.
-
-
-    ![](../media/taxon-relationship-type-includes.jpg)
-
-
-    This relation type can also be written as the formula **A > B**.
+    The `includes` property allows one to do a taxon concept mapping without
+    having to create a Taxon Concept Mapping object. This can be done when the
+    mapping is done in the same publication as one of the Taxon Concepts that
+    are mapped, as in this case the subject and according to from the mapping
+    are obtained from the Taxon Concept. For more details, see the
+    `[includes](docs/taxon-concept-mapping-relation-vocabulary#includes)`
+    controlled term in the Taxon Concept Mapping Relation Vocabulary.
   examples: 
     - TaxonConcept-includes-1
-    - TaxonConcept-includes-2
   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonConcept
   repeatable: Yes
   required: No
@@ -273,27 +264,22 @@
     The subject taxon concept has a less inclusive taxonomic meaning than the 
     object taxon concept
   notes: >-
-    The `isIncludedIn` relationship is not symmetric, its inverse 
-    relationship being  `includes`, so if A `isIncludedIn` B then B 
-    `includes` A. The `isIncludedIn` relationship  is transitive, so 
-    if A `isIncludedIn` B and B `isIncludedIn` C it follows that A 
-    `isIncludedIn` C.
-
-
-    ![](../media/taxon-relationship-type-is-included-in.jpg)
-
-
-    This relation type can also be written as the formula **A < B**.
+    The `isIncludedIn` property allows one to do a taxon concept mapping without
+    having to create a Taxon Concept Mapping object. This can be done when the
+    mapping is done in the same publication as one of the Taxon Concepts that
+    are mapped, as in this case the subject and according to from the mapping
+    are obtained from the Taxon Concept. For more details, see the
+    `[isIncludedIn](docs/taxon-concept-mapping-relation-vocabulary#isIncludedIn)`
+    controlled term in the Taxon Concept Mapping Relation Vocabulary.
   examples: 
     - TaxonConcept-isIncludedIn-1
-    - TaxonConcept-isIncludedIn-2
   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonConcept
   repeatable: Yes
   required: No
   type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
   github: 54
 
-# property term: partiallyOverlaps
+# property: partiallyOverlaps
 - localName: partiallyOverlaps
   type: http://www.w3.org/2004/02/skos/core#Concept
   label: partially overlaps
@@ -302,20 +288,15 @@
     meanings, _i.e._ they have some members in common, but each concept in 
     addition has members that are not included in the other concept
   notes: >-
-    The `partiallyOverlaps`  relationship is symmetrical, so if A 
-    `partiallyOverlaps` B then B `partiallyOverlaps` A, but not transitive, so, 
-    if A `partiallyOverlaps` B and B `partiallyOverlaps` C, it does not follow 
-    that A `partiallyOverlaps` C.
-
-
-    ![](../media/taxon-relationship-type-partially-overlaps.jpg)
-
-
-    This relationship can also be written as the formula **A >< B**.
+    The `partiallyOverlaps` property allows one to do a taxon concept mapping
+    without having to create a Taxon Concept Mapping object. This can be done
+    when the mapping is done in the same publication as one of the Taxon
+    Concepts that are mapped, as in this case the subject and according to from
+    the mapping are obtained from the Taxon Concept. For more details, see the
+    `[partiallyOverlaps](docs/taxon-concept-mapping-relation-vocabulary#partiallyOverlaps)`
+    controlled term in the Taxon Concept Mapping Relation Vocabulary.
   examples:
     - TaxonConcept-partiallyOverlaps-1
-    - TaxonConcept-partiallyOverlaps-2
-    - TaxonConcept-partiallyOverlaps-3
   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonConcept
   repeatable: Yes
   required: No
@@ -330,24 +311,20 @@
     The subject and objects taxon concepts have non-overlapping taxonomic 
     meanings, _i.e._ they do not have any members in common
   notes: >-
-    The `isDisjointFrom`  relationship is symmetrical, so if A `isDisjointFrom` 
-    B then B `isDisjointFrom` A, but not transitive, so, if A `isDisjointFrom` 
-    B and B `isDisjointFrom` C, it does not follow that A `isDisjointFrom` C.
-
-
-    ![](../media/taxon-relationship-type-is-disjoint-from.jpg)
-
-
-    This relationship can also be written as the formula **A | B**.
-  examples: 
-    - TaxonConcept-isDisjointFrom
+    The `isDisjointFrom` property allows one to do a taxon concept mapping
+    without having to create a Taxon Concept Mapping object. This can be done
+    when the mapping is done in the same publication as one of the Taxon
+    Concepts that are mapped, as in this case the subject and according to from
+    the mapping are obtained from the Taxon Concept. For more details, see the
+    `[isDisjointFrom](docs/taxon-concept-mapping-relation-vocabulary#isDisjointFrom)`
+    controlled term in the Taxon Concept Mapping Relation Vocabulary.
   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonConcept
   repeatable: Yes
   required: No
   type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
   github: 56
 
-# controlled term: intersects
+# property: intersects
 - localName: intersects
   type: http://www.w3.org/2004/02/skos/core#Concept
   label: Intersects
@@ -356,12 +333,13 @@
     _i.e._ they have at least one member in common.
   usage: null
   notes: >-
-    `intersects` is the opposite of `isDisjointFrom` and the union of 
-    `isCongruentWith`, `includes`, `isIncludedIn` and 
-    `partiallyOverlaps`, meaning it can be any of these relationships. This 
-    relationship type can be used when the more precise nature of the 
-    relationship is not known or not stated, for example when dealing with 
-    statements in traditional synonymies or with references to other treatments.
+    The `intersects` property allows one to do a taxon concept mapping without
+    having to create a Taxon Concept Mapping object. This can be done when the
+    mapping is done in the same publication as one of the Taxon Concepts that
+    are mapped, as in this case the subject and according to from the mapping
+    are obtained from the Taxon Concept. For more details, see the
+    `[intersects](docs/taxon-concept-mapping-relation-vocabulary#intersects)`
+    controlled term in the Taxon Concept Mapping Relation Vocabulary.
   examples:
     - TaxonConcept-intersects-1
   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonConcept
