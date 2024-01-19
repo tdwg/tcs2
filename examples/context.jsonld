@@ -33,6 +33,11 @@
     "isDisjointFrom":                   { "@type": "@id", "@id": "tcs:isDisjointFrom", "@container": "@set" },
     "intersects":                       { "@type": "@id", "@id": "tcs:intersects", "@container": "@set" },
 
+    "mappingAccordingTo":               { "@type": "@id", "@id": "tcs:mappingAccordingTo" },
+    "mappingRelation":                  { "@type": "@id", "@id": "tcs:mappingRelation" },
+    "subjectTaxonConcept":              { "@type": "@id", "@id": "tcs:subjectTaxonConcept" },
+    "objectTaxonConcept":               { "@type": "@id", "@id": "tcs:objectTaxonConcept" },
+
     "taxonNameString":                  { "@type": "xsd:String", "@id": "tcs:taxonNameString" },
     "namePublishedIn":                  { "@type": "@id", "@id": "tcs:namePublishedIn" },
     "microReference":                   { "@type": "xsd:String", "@id": "tcs:microReference" },
