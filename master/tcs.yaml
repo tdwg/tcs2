@@ -293,7 +293,7 @@
   type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
   github: 54
 
-# controlled term: partiallyOverlaps
+# property term: partiallyOverlaps
 - localName: partiallyOverlaps
   type: http://www.w3.org/2004/02/skos/core#Concept
   label: partially overlaps
@@ -369,6 +369,86 @@
   required: No
   type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
   github: 57
+
+# class: TaxonConceptMapping
+- localName: TaxonConceptMapping
+  label: Taxon concept mapping
+  definition: Mapping or alignment of two Taxon Concepts
+  usage: When using this class all properties are required
+  notes: >-
+    The Taxon Concept Mapping class allows for adding an 'according to' to a
+    concept mapping and therefore alows for third-party mappings. Applications
+    might prefer to always use the Taxon Concept Mapping class rather than the
+    mapping properties, as it allows for treating all mappings the same way.
+  type: http://www.w3.org/2000/01/rdf-schema#Class
+  organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonConceptMapping
+  required: null
+  repeatable: null
+  github: 43
+
+
+# property: mappingAccordingTo
+- localName: mappingAccordingTo
+  label: Mapping according to
+  definition: >-
+    Reference to the source of the taxon concept mapping.
+  usage: >-
+    `mappingAccordingTo` is an IRI term and is required; a Taxon 
+    Concept Mapping can have only one `mappingAccordingTo`.
+  notes: >-
+    In the case of Taxon Relationships from traditional synonymy, the 
+    `relationshipAccordingTo` is the same as the `accordingTo` of the Taxon 
+    Concept that is the `subjectTaxonConcept`.
+  type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+  organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonRelationship
+  required: Yes
+  repeatable: No
+  github: 47
+
+# property: mappingRelation
+- localName: mappingRelation
+  label: Mapping relation
+  definition: The kind of mapping relation between the two concepts
+  usage: >-
+    This property is required; one MUST use one of the mapping properties
+    `isCongruentWith`, `includes`, `isIncludedIn`, `partiallyOverlaps`,
+    `isDisjointFrom` or `intersects`.
+  notes: null
+  type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+  organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonRelationship
+  required: Yes
+  repeatable: No
+  github: 44
+
+# property: subjectTaxonConcept
+- localName: subjectTaxonConcept
+  label: Subject Taxon Concept
+  definition: Taxon Concept that is the subject in the mapping statement.
+  usage: >-
+    `subjectTaxonConcept` is a TCS Taxon Concept; a Taxon Concept Mapping 
+    statement can have only one `subjectTaxonConcept`.
+  notes: >-
+    This is the Taxon Concept at the left-hand side of the statement.
+  type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+  organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonRelationship
+  required: Yes
+  repeatable: No
+  github: 45
+
+# property: objectTaxonConcept
+- localName: objectTaxonConcept
+  label: Object Taxon Concept
+  definition: Taxon Concept that is the object in the mapping statement.
+  usage: >-
+    `objectTaxonConcept` is a TCS Taxon Concept; a Taxon Concept Mapping 
+    statement can have only one `objectTaxonConcept`.
+  notes: >-
+    This is the Taxon Concept at the right-hand side of the statement.
+  type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+  organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonRelationship
+  required: Yes
+  repeatable: No
+  github: 46
 
 
 # class: TaxonName 

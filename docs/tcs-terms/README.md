@@ -6,6 +6,10 @@
 
 [tcs:TaxonConcept](#tcstaxonconcept) | [tcs:accordingTo](#tcsaccordingto) | [tcs:taxonName](#tcstaxonname) | [tcs:synonym](#tcssynonym) | [tcs:vernacularName](#tcsvernacularname) | [tcs:taxonomicRank](#tcstaxonomicrank) | [tcs:parent](#tcsparent) | [tcs:isCongruentWith](#tcsiscongruentwith) | [tcs:includes](#tcsincludes) | [tcs:isIncludedIn](#tcsisincludedin) | [tcs:partiallyOverlaps](#tcspartiallyoverlaps) | [tcs:isDisjointFrom](#tcsisdisjointfrom) | [tcs:intersects](#tcsintersects) | [dcterms:title](#dctermstitle)
 
+**Taxon Concept Mapping**
+
+[tcs:TaxonConceptMapping](#tcstaxonconceptmapping)
+
 **Taxon Name**
 
 [tcs:TaxonName](#tcstaxonname) | [tcs:taxonNameString](#tcstaxonnamestring) | [tcs:namePublishedIn](#tcsnamepublishedin) | [tcs:microreference](#tcsmicroreference) | [tcs:nomenclaturalCode](#tcsnomenclaturalcode) | [tcs:nomenclaturalStatus](#tcsnomenclaturalstatus) | [tcs:basionym](#tcsbasionym) | [tcs:replacedName](#tcsreplacedname) | [tcs:spellingCorrectionOf](#tcsspellingcorrectionof) | [tcs:conservedAgainst](#tcsconservedagainst) | [dwc:scientificName](#dwcscientificname) | [dwc:scientificNameAuthorship](#dwcscientificnameauthorship) | [dwc:namePublishedInYear](#dwcnamepublishedinyear) | [dwc:genericName](#dwcgenericname) | [dwc:infragenericEpithet](#dwcinfragenericepithet) | [dwc:specificEpithet](#dwcspecificepithet) | [dwc:infraspecificEpithet](#dwcinfraspecificepithet) | [dwc:cultivarEpithet](#dwccultivarepithet)
@@ -1217,6 +1221,44 @@ This relationship can also be written as the formula **A | B**.
 
 In TCS `dcterms:title` is used for the taxonomic concept label [\[senderov_openbiodiv-o_2018\]](../bibliography#senderov_openbiodiv-o_2018), which consists of the Taxon Name and a reference to  the publication where the concept is circumscribed, separated by 'sec.',  which stands for 'secundus' ('according to'). It is used to indicate one  specific meaning of a name – a Taxon Concept – rather than the cumulative  nomenclatural and taxonomic legacy associated with the name.
 
+
+## Taxon Concept Mapping
+
+### tcs:TaxonConceptMapping
+
+<table style="width:100%;">
+	<tbody>
+		<tr>
+			<td>Identifier</td>
+			<td>http://rs.tdwg.org/tcs/terms/TaxonConceptMapping</td>
+		</tr>
+		<tr>
+			<td>Type</td>
+			<td>http://www.w3.org/2000/01/rdf-schema#Class</td>
+		</tr>
+		<tr>
+			<td>Label</td>
+			<td>Taxon concept mapping</td>
+		</tr>
+		<tr>
+			<td>Definition</td>
+			<td><p>Mapping or alignment of two Taxon Concepts</p></td>
+		</tr>
+		<tr>
+			<td>Usage</td>
+			<td><p>When using this class all properties are required</p></td>
+		</tr>
+		<tr>
+			<td>GitHub issue</td>
+			<td>https://github.com/tdwg/tcs2/issues/43</td>
+		</tr>
+	</tbody>
+</table>
+
+
+**Comments**
+
+The Taxon Concept Mapping class allows for adding an 'according to' to a concept mapping and therefore alows for third-party mappings. Applications might prefer to always use the Taxon Concept Mapping class rather than the mapping properties, as it allows for treating all mappings the same way.
 
 ## Taxon Name
 
