@@ -723,7 +723,7 @@ The `parent` is another Taxon Concept. This is the parent as indicated in  the `
 
 **Comments**
 
-The `isCongruentWith` property allows one to do a taxon concept mapping without having to create a Taxon Concept Mapping object. This can be done when the mapping is done in the same publication as one of the Taxon Concepts that are mapped, as in this case the subject and according to from the mapping are obtained from the Taxon Concept. For more details, see the `[isCongruentWith](docs/taxon-concept-mapping-relation-vocabulary#isCongruentWith)` controlled term in the Taxon Concept Mapping Relation Vocabulary.
+The `isCongruentWith` property allows one to do a taxon concept mapping without having to create a Taxon Concept Mapping object. This can be done when the mapping is done in the same publication as one of the Taxon Concepts that are mapped, as in this case the subject and according to from the mapping are obtained from the Taxon Concept. For more details, see the [`isCongruentWith`](docs/taxon-concept-mapping-relation-vocabulary#isCongruentWith) controlled term in the Taxon Concept Mapping Relation Vocabulary.
 
 
 **Examples**
@@ -802,7 +802,7 @@ The `isCongruentWith` property allows one to do a taxon concept mapping without 
 
 **Comments**
 
-The `includes` property allows one to do a taxon concept mapping without having to create a Taxon Concept Mapping object. This can be done when the mapping is done in the same publication as one of the Taxon Concepts that are mapped, as in this case the subject and according to from the mapping are obtained from the Taxon Concept. For more details, see the `[includes](docs/taxon-concept-mapping-relation-vocabulary#includes)` controlled term in the Taxon Concept Mapping Relation Vocabulary.
+The `includes` property allows one to do a taxon concept mapping without having to create a Taxon Concept Mapping object. This can be done when the mapping is done in the same publication as one of the Taxon Concepts that are mapped, as in this case the subject and according to from the mapping are obtained from the Taxon Concept. For more details, see the [`includes`](docs/taxon-concept-mapping-relation-vocabulary#includes) controlled term in the Taxon Concept Mapping Relation Vocabulary.
 
 
 **Examples**
@@ -855,7 +855,7 @@ The `includes` property allows one to do a taxon concept mapping without having 
 
 **Comments**
 
-The `isIncludedIn` property allows one to do a taxon concept mapping without having to create a Taxon Concept Mapping object. This can be done when the mapping is done in the same publication as one of the Taxon Concepts that are mapped, as in this case the subject and according to from the mapping are obtained from the Taxon Concept. For more details, see the `[isIncludedIn](docs/taxon-concept-mapping-relation-vocabulary#isIncludedIn)` controlled term in the Taxon Concept Mapping Relation Vocabulary.
+The `isIncludedIn` property allows one to do a taxon concept mapping without having to create a Taxon Concept Mapping object. This can be done when the mapping is done in the same publication as one of the Taxon Concepts that are mapped, as in this case the subject and according to from the mapping are obtained from the Taxon Concept. For more details, see the [`isIncludedIn`](docs/taxon-concept-mapping-relation-vocabulary#isIncludedIn) controlled term in the Taxon Concept Mapping Relation Vocabulary.
 
 
 **Examples**
@@ -920,7 +920,7 @@ The `isIncludedIn` property allows one to do a taxon concept mapping without hav
 
 **Comments**
 
-The `partiallyOverlaps` property allows one to do a taxon concept mapping without having to create a Taxon Concept Mapping object. This can be done when the mapping is done in the same publication as one of the Taxon Concepts that are mapped, as in this case the subject and according to from the mapping are obtained from the Taxon Concept. For more details, see the `[partiallyOverlaps](docs/taxon-concept-mapping-relation-vocabulary#partiallyOverlaps)` controlled term in the Taxon Concept Mapping Relation Vocabulary.
+The `partiallyOverlaps` property allows one to do a taxon concept mapping without having to create a Taxon Concept Mapping object. This can be done when the mapping is done in the same publication as one of the Taxon Concepts that are mapped, as in this case the subject and according to from the mapping are obtained from the Taxon Concept. For more details, see the [`partiallyOverlaps`](docs/taxon-concept-mapping-relation-vocabulary#partiallyOverlaps) controlled term in the Taxon Concept Mapping Relation Vocabulary.
 
 
 **Examples**
@@ -973,7 +973,7 @@ The `partiallyOverlaps` property allows one to do a taxon concept mapping withou
 
 **Comments**
 
-The `isDisjointFrom` property allows one to do a taxon concept mapping without having to create a Taxon Concept Mapping object. This can be done when the mapping is done in the same publication as one of the Taxon Concepts that are mapped, as in this case the subject and according to from the mapping are obtained from the Taxon Concept. For more details, see the `[isDisjointFrom](docs/taxon-concept-mapping-relation-vocabulary#isDisjointFrom)` controlled term in the Taxon Concept Mapping Relation Vocabulary.
+The `isDisjointFrom` property allows one to do a taxon concept mapping without having to create a Taxon Concept Mapping object. This can be done when the mapping is done in the same publication as one of the Taxon Concepts that are mapped, as in this case the subject and according to from the mapping are obtained from the Taxon Concept. For more details, see the [`isDisjointFrom`](docs/taxon-concept-mapping-relation-vocabulary#isDisjointFrom) controlled term in the Taxon Concept Mapping Relation Vocabulary.
 
 ### tcs:intersects
 
@@ -1009,7 +1009,7 @@ The `isDisjointFrom` property allows one to do a taxon concept mapping without h
 
 **Comments**
 
-The `intersects` property allows one to do a taxon concept mapping without having to create a Taxon Concept Mapping object. This can be done when the mapping is done in the same publication as one of the Taxon Concepts that are mapped, as in this case the subject and according to from the mapping are obtained from the Taxon Concept. For more details, see the `[intersects](docs/taxon-concept-mapping-relation-vocabulary#intersects)` controlled term in the Taxon Concept Mapping Relation Vocabulary.
+The `intersects` property allows one to do a taxon concept mapping without having to create a Taxon Concept Mapping object. This can be done when the mapping is done in the same publication as one of the Taxon Concepts that are mapped, as in this case the subject and according to from the mapping are obtained from the Taxon Concept. For more details, see the [`intersects`](docs/taxon-concept-mapping-relation-vocabulary#intersects) controlled term in the Taxon Concept Mapping Relation Vocabulary.
 
 
 **Examples**

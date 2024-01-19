@@ -222,7 +222,7 @@
     when the mapping is done in the same publication as one of the Taxon
     Concepts that are mapped, as in this case the subject and according to from
     the mapping are obtained from the Taxon Concept. For more details, see the
-    `[isCongruentWith](docs/taxon-concept-mapping-relation-vocabulary#isCongruentWith)`
+    [`isCongruentWith`](docs/taxon-concept-mapping-relation-vocabulary#isCongruentWith)
     controlled term in the Taxon Concept Mapping Relation Vocabulary.
   examples: 
     - TaxonConcept-isCongruentWith-1
@@ -246,7 +246,7 @@
     mapping is done in the same publication as one of the Taxon Concepts that
     are mapped, as in this case the subject and according to from the mapping
     are obtained from the Taxon Concept. For more details, see the
-    `[includes](docs/taxon-concept-mapping-relation-vocabulary#includes)`
+    [`includes`](docs/taxon-concept-mapping-relation-vocabulary#includes)
     controlled term in the Taxon Concept Mapping Relation Vocabulary.
   examples: 
     - TaxonConcept-includes-1
@@ -269,7 +269,7 @@
     mapping is done in the same publication as one of the Taxon Concepts that
     are mapped, as in this case the subject and according to from the mapping
     are obtained from the Taxon Concept. For more details, see the
-    `[isIncludedIn](docs/taxon-concept-mapping-relation-vocabulary#isIncludedIn)`
+    [`isIncludedIn`](docs/taxon-concept-mapping-relation-vocabulary#isIncludedIn)
     controlled term in the Taxon Concept Mapping Relation Vocabulary.
   examples: 
     - TaxonConcept-isIncludedIn-1
@@ -293,7 +293,7 @@
     when the mapping is done in the same publication as one of the Taxon
     Concepts that are mapped, as in this case the subject and according to from
     the mapping are obtained from the Taxon Concept. For more details, see the
-    `[partiallyOverlaps](docs/taxon-concept-mapping-relation-vocabulary#partiallyOverlaps)`
+    [`partiallyOverlaps`](docs/taxon-concept-mapping-relation-vocabulary#partiallyOverlaps)
     controlled term in the Taxon Concept Mapping Relation Vocabulary.
   examples:
     - TaxonConcept-partiallyOverlaps-1
@@ -316,7 +316,7 @@
     when the mapping is done in the same publication as one of the Taxon
     Concepts that are mapped, as in this case the subject and according to from
     the mapping are obtained from the Taxon Concept. For more details, see the
-    `[isDisjointFrom](docs/taxon-concept-mapping-relation-vocabulary#isDisjointFrom)`
+    [`isDisjointFrom`](docs/taxon-concept-mapping-relation-vocabulary#isDisjointFrom)
     controlled term in the Taxon Concept Mapping Relation Vocabulary.
   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonConcept
   repeatable: Yes
@@ -338,7 +338,7 @@
     mapping is done in the same publication as one of the Taxon Concepts that
     are mapped, as in this case the subject and according to from the mapping
     are obtained from the Taxon Concept. For more details, see the
-    `[intersects](docs/taxon-concept-mapping-relation-vocabulary#intersects)`
+    [`intersects`](docs/taxon-concept-mapping-relation-vocabulary#intersects)
     controlled term in the Taxon Concept Mapping Relation Vocabulary.
   examples:
     - TaxonConcept-intersects-1
