@@ -8,7 +8,7 @@
 
 **Taxon Concept Mapping**
 
-[tcs:TaxonConceptMapping](#tcstaxonconceptmapping)
+[tcs:TaxonConceptMapping](#tcstaxonconceptmapping) | [tcs:mappingAccordingTo](#tcsmappingaccordingto) | [tcs:mappingRelation](#tcsmappingrelation) | [tcs:subjectTaxonConcept](#tcssubjecttaxonconcept) | [tcs:objectTaxonConcept](#tcsobjecttaxonconcept)
 
 **Taxon Name**
 
@@ -1259,6 +1259,161 @@ In TCS `dcterms:title` is used for the taxonomic concept label [\[senderov_openb
 **Comments**
 
 The Taxon Concept Mapping class allows for adding an 'according to' to a concept mapping and therefore alows for third-party mappings. Applications might prefer to always use the Taxon Concept Mapping class rather than the mapping properties, as it allows for treating all mappings the same way.
+
+### tcs:mappingAccordingTo
+
+<table style="width:100%;">
+	<tbody>
+		<tr>
+			<td>Identifier</td>
+			<td>http://rs.tdwg.org/tcs/terms/mappingAccordingTo</td>
+		</tr>
+		<tr>
+			<td>Type</td>
+			<td>http://www.w3.org/1999/02/22-rdf-syntax-ns#Property</td>
+		</tr>
+		<tr>
+			<td>Label</td>
+			<td>Mapping according to</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td><b>required:</b> Yes — <b>repeatable:</b> No</td>
+		</tr>
+		<tr>
+			<td>Definition</td>
+			<td><p>Reference to the source of the taxon concept mapping.</p></td>
+		</tr>
+		<tr>
+			<td>Usage</td>
+			<td><p><code>mappingAccordingTo</code> is an IRI term and is required; a Taxon  Concept Mapping can have only one <code>mappingAccordingTo</code>.</p></td>
+		</tr>
+		<tr>
+			<td>GitHub issue</td>
+			<td>https://github.com/tdwg/tcs2/issues/47</td>
+		</tr>
+	</tbody>
+</table>
+
+
+**Comments**
+
+In the case of Taxon Relationships from traditional synonymy, the  `relationshipAccordingTo` is the same as the `accordingTo` of the Taxon  Concept that is the `subjectTaxonConcept`.
+
+### tcs:mappingRelation
+
+<table style="width:100%;">
+	<tbody>
+		<tr>
+			<td>Identifier</td>
+			<td>http://rs.tdwg.org/tcs/terms/mappingRelation</td>
+		</tr>
+		<tr>
+			<td>Type</td>
+			<td>http://www.w3.org/1999/02/22-rdf-syntax-ns#Property</td>
+		</tr>
+		<tr>
+			<td>Label</td>
+			<td>Mapping relation</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td><b>required:</b> Yes — <b>repeatable:</b> No</td>
+		</tr>
+		<tr>
+			<td>Definition</td>
+			<td><p>The kind of mapping relation between the two concepts</p></td>
+		</tr>
+		<tr>
+			<td>Usage</td>
+			<td><p>This property is required; one MUST use one of the mapping properties <code>isCongruentWith</code>, <code>includes</code>, <code>isIncludedIn</code>, <code>partiallyOverlaps</code>, <code>isDisjointFrom</code> or <code>intersects</code>.</p></td>
+		</tr>
+		<tr>
+			<td>GitHub issue</td>
+			<td>https://github.com/tdwg/tcs2/issues/44</td>
+		</tr>
+	</tbody>
+</table>
+
+### tcs:subjectTaxonConcept
+
+<table style="width:100%;">
+	<tbody>
+		<tr>
+			<td>Identifier</td>
+			<td>http://rs.tdwg.org/tcs/terms/subjectTaxonConcept</td>
+		</tr>
+		<tr>
+			<td>Type</td>
+			<td>http://www.w3.org/1999/02/22-rdf-syntax-ns#Property</td>
+		</tr>
+		<tr>
+			<td>Label</td>
+			<td>Subject Taxon Concept</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td><b>required:</b> Yes — <b>repeatable:</b> No</td>
+		</tr>
+		<tr>
+			<td>Definition</td>
+			<td><p>Taxon Concept that is the subject in the mapping statement.</p></td>
+		</tr>
+		<tr>
+			<td>Usage</td>
+			<td><p><code>subjectTaxonConcept</code> is a TCS Taxon Concept; a Taxon Concept Mapping  statement can have only one <code>subjectTaxonConcept</code>.</p></td>
+		</tr>
+		<tr>
+			<td>GitHub issue</td>
+			<td>https://github.com/tdwg/tcs2/issues/45</td>
+		</tr>
+	</tbody>
+</table>
+
+
+**Comments**
+
+This is the Taxon Concept at the left-hand side of the statement.
+
+### tcs:objectTaxonConcept
+
+<table style="width:100%;">
+	<tbody>
+		<tr>
+			<td>Identifier</td>
+			<td>http://rs.tdwg.org/tcs/terms/objectTaxonConcept</td>
+		</tr>
+		<tr>
+			<td>Type</td>
+			<td>http://www.w3.org/1999/02/22-rdf-syntax-ns#Property</td>
+		</tr>
+		<tr>
+			<td>Label</td>
+			<td>Object Taxon Concept</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td><b>required:</b> Yes — <b>repeatable:</b> No</td>
+		</tr>
+		<tr>
+			<td>Definition</td>
+			<td><p>Taxon Concept that is the object in the mapping statement.</p></td>
+		</tr>
+		<tr>
+			<td>Usage</td>
+			<td><p><code>objectTaxonConcept</code> is a TCS Taxon Concept; a Taxon Concept Mapping  statement can have only one <code>objectTaxonConcept</code>.</p></td>
+		</tr>
+		<tr>
+			<td>GitHub issue</td>
+			<td>https://github.com/tdwg/tcs2/issues/46</td>
+		</tr>
+	</tbody>
+</table>
+
+
+**Comments**
+
+This is the Taxon Concept at the right-hand side of the statement.
 
 ## Taxon Name
 
