@@ -98,7 +98,7 @@ Publications used in examples:
 
 The `isCongruentWith` relationship is symmetrical, so if A `isCongruentWith`  B then B `isCongruentWith` A, as well as transitive, so if A  `isCongruentWith` B and B `isCongruentWith` C it follows that A  `isCongruentWith` C.
 
-![](media/taxon-relationship-type-is-congruent-with.jpg)
+![](../media/taxon-relationship-type-is-congruent-with.jpg)
 
 This relationship can also be written as the formula **A &cong; B** or **A == B**.
 
@@ -163,7 +163,7 @@ This relationship can also be written as the formula **A &cong; B** or **A == B*
 
 The `includes` relationship is not symmetric, its inverse  relationship being  `isIncludedIn`, so if A `includes` B then B  `isIncludedIn` A. The `includes` relationship  is transitive, so  if A `includes` B and B `includes` C it follows that A  `includes` C.
 
-![](media/taxon-relationship-type-includes.jpg)
+![](../media/taxon-relationship-type-includes.jpg)
 
 This relation type can also be written as the formula **A > B**.
 
@@ -232,7 +232,7 @@ This relation type can also be written as the formula **A > B**.
 
 The `isIncludedIn` relationship is not symmetric, its inverse  relationship being  `includes`, so if A `isIncludedIn` B then B  `includes` A. The `isIncludedIn` relationship  is transitive, so  if A `isIncludedIn` B and B `isIncludedIn` C it follows that A  `isIncludedIn` C.
 
-![](media/taxon-relationship-type-is-included-in.jpg)
+![](../media/taxon-relationship-type-is-included-in.jpg)
 
 This relation type can also be written as the formula **A < B**.
 
@@ -301,7 +301,7 @@ This relation type can also be written as the formula **A < B**.
 
 The `partiallyOverlaps`  relationship is symmetrical, so if A  `partiallyOverlaps` B then B `partiallyOverlaps` A, but not transitive, so,  if A `partiallyOverlaps` B and B `partiallyOverlaps` C, it does not follow  that A `partiallyOverlaps` C.
 
-![](media/taxon-relationship-type-partially-overlaps.jpg)
+![](../media/taxon-relationship-type-partially-overlaps.jpg)
 
 This relationship can also be written as the formula **A >< B**.
 
@@ -367,7 +367,7 @@ This relationship can also be written as the formula **A >< B**.
 
 The `isDisjointFrom`  relationship is symmetrical, so if A `isDisjointFrom`  B then B `isDisjointFrom` A, but not transitive, so, if A `isDisjointFrom`  B and B `isDisjointFrom` C, it does not follow that A `isDisjointFrom` C.
 
-![](media/taxon-relationship-type-is-disjoint-from.jpg)
+![](../media/taxon-relationship-type-is-disjoint-from.jpg)
 
 This relationship can also be written as the formula **A | B**.
 
