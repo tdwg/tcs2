@@ -1090,25 +1090,18 @@ This relationship can also be written as the formula **A | B**.
 
 
 ```turtle
-[] a tcs:TaxonConcept 
-    dcterms:title "Campylopus introflexus sec. Koperski & al. 2000" ; 
-    tcs:accordingTo <https://www.tropicos.org/reference/9022656> ;
-    tcs:taxonName <https://www.tropicos.org/name/35156181> ;
-    tcs:isDisjointFrom [ rdf:value [ a tcs:TaxonConcept ;
-                    dcterms:title "Campylopus introflexus sec. Mönkemeyer 1927" ;
-                    tcs:accordingTo <https://www.tropicos.org/publication/700> ;
-                    tcs:taxonName <https://www.tropicos.org/name/35156181> ] ;
-            rdfs:comment """Mit dem Taxon in Mönkemeyer ist der Beschreibung 
-                    nach eindeutig *C. pilifer Brid. (C. polytrichoides De 
-                    Not.), eine ozeanisch-submediterrane Art, gemeint. In 
-                    älteren Floren wird C. introflexus, bevor diese Art von 
-                    Störmer (1958) für Europa nachgewiesen wurde, regelmäßig als 
-                    Synonym von C. polytrichoides aufgeführt oder in diesem 
-                    Sinne verwendet (vgl. u. a. Demaret & Castagne 1961: 
-                    203)""" ] .
-
-# Because of the comment it is better to use a Taxon Concept Mapping object
-# here.
+# Andropogon glaucopsis sec. BONAP 2014 is disjoint from Andropogon virginicus sec. Weakley 2006
+[] a dwc:ResourceRelationship, rdf:Statement ;
+    rdf:subject [ a tcs:TaxonConcept ;
+            dcterms:title "Andropogon glaucopsis sec. BONAP 2014" ;
+            tcs:accordingTo <http://bonap.net/napa#2014> ;
+            tcs:taxonName <https://www.ipni.org/n/387942-1> ] ;
+    rdf:predicate tcs:isDisjointFrom ;
+    rdf:object [ a tcs:TaxonConcept ;
+            dcterms:title "Andropogon virginicus sec. Weakley 2006" ;
+            tcs:accordingTo <http://www.herbarium.unc.edu/FloraArchives/WeakleyFlora_2006-Jan.pdf> ;
+            tcs:taxonName <https://www.ipni.org/n/388740-1> ] ;
+    dcterms:source <https://doi.org/10.3233/SW-160220> .
 ```
 
 [&lsqb;TaxonConcept-isDisjointFrom.ttl&rsqb;](../../examples/TaxonConcept-isDisjointFrom.ttl)&nbsp;[&lsqb;TaxonConcept-isDisjointFrom.jsonld&rsqb;](../../examples/TaxonConcept-isDisjointFrom.jsonld)
@@ -1729,6 +1722,37 @@ In the Botanical Code the term 'replaced synonym' is used. A 'replacement  name'
 ```
 
 [&lsqb;TaxonName-replacedName-3.ttl&rsqb;](../../examples/TaxonName-replacedName-3.ttl)&nbsp;[&lsqb;TaxonName-replacedName-3.jsonld&rsqb;](../../examples/TaxonName-replacedName-3.jsonld)
+
+
+```turtle
+<https://www.ipni.org/n/471632-1> a tcs:TaxonName ;
+    tcs:taxonNameString "Acacia tenuifolia" ;
+    dwc:scientificNameAuthorship "F.Muell." ;
+    dwc:namePublishedIn "Trans. Philos. Soc. Victoria 1: 37" ;
+    dwc:namePublishedInYear "1855" ;
+    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/illegitimum> ;
+    rdf:seeAlso <https://www.ipni.org/n/81578-3> ,
+            <https://id.biodiversity.org.au/name/apni/71120> .
+
+<https://www.ipni.org/n/469641-1> a tcs:TaxonName ;
+    tcs:taxonNameString "Acacia aculeatissima" ;
+    dwc:scientificNameAuthorship "J.F.Macbr." ;
+    dwc:namePublishedIn "Contr. Gray Herb. 59: 6" ;
+    dwc:namePublishedInYear "1919" ;
+    tcs:replacedName <https://www.ipni.org/n/471632-1> ;
+    rdf:seeAlso <https://www.ipni.org/n/56412-3> ,
+            <https://id.biodiversity.org.au/name/apni/58056> .
+
+<https://www.ipni.org/n/60428094-2> a tcs:TaxonName ;
+    tcs:taxonNameString "Racosperma aculeatissimum" ;
+    dwc:scientificNameAuthorship "(J.F.Macbr.) Pedley" ;
+    dwc:namePublishedIn "Austrobaileya 6(3): 447" ;
+    dwc:namePublishedInYear "2003" ;
+    tcs:basionym <https://www.ipni.org/n/469641-1> ;
+    rdf:seeAlso <https://id.biodiversity.org.au/name/apni/190652> .
+```
+
+[&lsqb;TaxonName-replacedName-4.ttl&rsqb;](../../examples/TaxonName-replacedName-4.ttl)&nbsp;[&lsqb;TaxonName-replacedName-4.jsonld&rsqb;](../../examples/TaxonName-replacedName-4.jsonld)
 
 ### tcs:spellingCorrectionOf
 

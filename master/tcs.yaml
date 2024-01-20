@@ -530,6 +530,7 @@
     - TaxonName-replacedName-1
     - TaxonName-replacedName-2
     - TaxonName-replacedName-3
+    - TaxonName-replacedName-4
   type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonName
   required: No
