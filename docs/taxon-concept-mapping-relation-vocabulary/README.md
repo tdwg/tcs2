@@ -566,8 +566,7 @@ This relationship can also be written as the formula **A | B**.
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td><p>The taxonomic meanings of the subject and object taxon concepts intersect,  <em>i.e.</em> they have at least one member in common.
-Quasi-nomenclatural statements like 'pro parte synonym' and 'misapplication', are Taxon Concept Mappings, no matter how imperfect, and, in TCS, are best dealt with using the <code>intersects</code> relation. In fact, all 'traditional synonymy' relationships, cf. Berendsohn &amp; al. (2000 <a href="../bibliography/#berendsohn_berlin_2003">[berendsohn_berlin_2003]</a>), can be dealt with using <code>intersects</code>. Also, citations of references in treatments are, in the context of TCS, best dealt with using the <code>intersects</code> relation.</p></td>
+			<td><p>The taxonomic meanings of the subject and object taxon concepts intersect,  <em>i.e.</em> they have at least one member in common.</p></td>
 		</tr>
 		<tr>
 			<td>Controlled value</td>
@@ -583,7 +582,9 @@ Quasi-nomenclatural statements like 'pro parte synonym' and 'misapplication', ar
 
 **Comments**
 
-`intersects` is the opposite of `isDisjointFrom` and the union of  `isCongruentWith`, `includes`, `isIncludedIn` and  `partiallyOverlaps`, meaning it can be any of these relationships. This  relationship type can be used when the more precise nature of the  relationship is not known, for example when dealing with statements in  traditional synonymies.
+`intersects` is the opposite of `isDisjointFrom` and the union of  `isCongruentWith`, `includes`, `isIncludedIn` and  `partiallyOverlaps`, meaning it can be any of these relationships. This  relationship type can be used when the more precise nature of the  relationship is not known.
+
+Quasi-nomenclatural statements like 'pro parte synonym' and 'misapplication', are Taxon Concept Mappings, no matter how imperfect, and, in TCS, are best dealt with using the `intersects` relation. In fact, all 'traditional synonymy' relationships, cf. Berendsohn & al. (2000 [\[berendsohn_berlin_2003\]](../bibliography/#berendsohn_berlin_2003)), can be dealt with using `intersects`. Also, citations of references in treatments are, in the context of TCS, best dealt with using the `intersects` relation.
 
 
 **Examples**

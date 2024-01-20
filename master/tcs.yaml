@@ -134,6 +134,7 @@
     Concepts, and the more precise relationship is not provided, the 
     `intersects` property can be used.
 
+
     The terms 'heterotypic synonym' and 'homotypic synonym' from the
     nomenclatural codes ('subjective synonym' and 'objective synonym',
     respectively, in the Zoological Code) are, in the context of Taxon Concepts,
@@ -145,7 +146,8 @@
     strictly applied in the nomenclatural codes also has the advantage that the
     term `synonym` can be applied more broadly, e.g., to names that are not
     validly published under the codes, or names of different taxonomic ranks
-    than the accepted name (`taxonName`).
+    than the accepted name (`taxonName`), and avoids inappropriate use of terms
+    defined in the nomenclatural codes.
   examples: 
     - TaxonConcept-synonym-1
     - TaxonConcept-synonym-2

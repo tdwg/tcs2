@@ -176,6 +176,14 @@
   definition: >-
     The taxonomic meanings of the subject and object taxon concepts intersect, 
     _i.e._ they have at least one member in common.
+  usage: null
+  notes: >-
+    `intersects` is the opposite of `isDisjointFrom` and the union of 
+    `isCongruentWith`, `includes`, `isIncludedIn` and 
+    `partiallyOverlaps`, meaning it can be any of these relationships. This 
+    relationship type can be used when the more precise nature of the 
+    relationship is not known.
+
 
     Quasi-nomenclatural statements like 'pro parte synonym' and
     'misapplication', are Taxon Concept Mappings, no matter how imperfect, and,
@@ -185,14 +193,6 @@
     be dealt with using `intersects`. Also, citations of references in
     treatments are, in the context of TCS, best dealt with using the
     `intersects` relation.
-  usage: null
-  notes: >-
-    `intersects` is the opposite of `isDisjointFrom` and the union of 
-    `isCongruentWith`, `includes`, `isIncludedIn` and 
-    `partiallyOverlaps`, meaning it can be any of these relationships. This 
-    relationship type can be used when the more precise nature of the 
-    relationship is not known, for example when dealing with statements in 
-    traditional synonymies.
   examples: 
     - TaxonConceptMappingRelation-intersects-1
     - TaxonConceptMappingRelation-intersects-2
