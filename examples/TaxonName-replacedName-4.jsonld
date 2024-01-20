@@ -34,7 +34,7 @@
       "dwc:scientificNameAuthorship": "(J.F.Macbr.) Pedley",
       "dwc:namePublishedIn": "2011",
       "replacedName": { "id": "https://www.ipni.org/n/17567870-1" },
-      "seeAlso": { "id": "https://id.biodiversity.org.au/instance/apni/51432623" }
+      "rdf:seeAlso": { "id": "https://id.biodiversity.org.au/instance/apni/51432623" }
     }
   ]
 }
