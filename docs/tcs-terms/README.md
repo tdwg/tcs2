@@ -1129,7 +1129,6 @@ _:tc9 a tcs:TaxonConcept ;
     dcterms:title "Megalorhipida leucodactylus sec. Gielis & Hobern 2023-01-05" ;
     tcs:accordingTo <https://doi.org/10.48580/dfry-3gd#1.1.23.5> ;
     tcs:taxonName [ a tcs:TaxonName ;
-            tcs:taxonNameString "Megalorhipida leucodactylus" ;
             dwc:scientificName "Megalorhipida leucodactylus (Fabricius, 1794)" ;
             tcs:basionym <https://zoobank.org/NomenclaturalActs/39b2f236-3914-4962-9dcc-f594671654bd> ] ;
     tcs:intersects [ a tcs:TaxonConcept ;
