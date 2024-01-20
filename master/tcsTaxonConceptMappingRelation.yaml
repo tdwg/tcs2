@@ -195,5 +195,4 @@
     `intersects` relation.
   examples: 
     - TaxonConceptMappingRelation-intersects-1
-    - TaxonConceptMappingRelation-intersects-2
   github: 57

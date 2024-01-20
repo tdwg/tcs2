@@ -360,6 +360,7 @@
   examples:
     - TaxonConcept-intersects-1
     - TaxonConcept-intersects-2
+    - TaxonConcept-intersects-3
   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonConcept
   repeatable: Yes
   required: No

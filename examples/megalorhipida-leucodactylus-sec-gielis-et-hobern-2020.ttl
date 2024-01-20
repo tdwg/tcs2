@@ -209,10 +209,12 @@ _:tc2 a tcs:TaxonConcept ;
                     F., & Wangdi, K. (2022). Moths of Bhutan. 1–420.""" ] ;
     tcs:taxonName <https://zoobank.org/NomenclaturalActs/39b2f236-3914-4962-9dcc-f594671654bd> .
 
-_:tc3 a tcs:TaxonConcept ;
-    dcterms:title "Pterophorus leucodactylus sec. Matthews et al. 2019" ;
-    tcs:accordingTo <https://digitalcommons.unl.edu/insectamundi/1219> ;
-    tcs:taxonName <https://zoobank.org/NomenclaturalActs/39b2f236-3914-4962-9dcc-f594671654bd> .
+_:tc3a tcs:TaxonConcept ;
+    dcterms:title "Pterophorus leucodactylus sec. Gielis & al. 2022" ;
+    tcs:accordingTo [ a bibo:Book ;
+            dcterms:bibliographicCitation """Gielis, C., Franssen, M., Groenen, 
+                    F., & Wangdi, K. (2022). Moths of Bhutan. 1–420.""" ] ;
+    tcs:taxonName <https://zoobank.org/NomenclaturalActs/39b2f236-3914-4962-9dcc-f594671654bd> ..
 
 <https://digitalcommons.unl.edu/insectamundi/1219> a bibo:AcademicArticle ;
     dcterms:bibliographicCitation """Matthews, D. L., Miller, J. Y., Simon, M. 
