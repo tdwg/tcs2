@@ -1,5 +1,5 @@
 {
-  "@context": "https://raw.githubusercontent.com/tdwg/tcs2/dev-20230824/examples/context.jsonld",
+  "@context": "https://raw.githubusercontent.com/tdwg/tcs2/master/examples/context.jsonld",
   "type": "TaxonConcept",
   "dcterms:title": "Orthetrum caledonicum sec. Theischinger and Hawking 2010",
   "accordingTo": {

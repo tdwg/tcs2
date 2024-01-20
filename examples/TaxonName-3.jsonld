@@ -1,5 +1,5 @@
 {
-  "@context": "https://raw.githubusercontent.com/tdwg/tcs2/dev-20230824/examples/context.jsonld",
+  "@context": "https://raw.githubusercontent.com/tdwg/tcs2/master/examples/context.jsonld",
   "id": "http://www.indexfungorum.org/names/NamesRecord.asp?RecordID=178962",
   "type": "TaxonName",
   "taxonNameString": "Amanita phalloides",
