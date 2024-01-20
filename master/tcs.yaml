@@ -318,6 +318,8 @@
     the mapping are obtained from the Taxon Concept. For more details, see the
     [`isDisjointFrom`](../taxon-concept-mapping-relation-vocabulary/#tcreltypeisdisjointfrom)
     controlled term in the Taxon Concept Mapping Relation Vocabulary.
+  examples:
+    - TaxonConcept-isDisjointFrom
   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonConcept
   repeatable: Yes
   required: No

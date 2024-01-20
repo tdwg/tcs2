@@ -975,6 +975,34 @@ The `partiallyOverlaps` property allows one to do a taxon concept mapping withou
 
 The `isDisjointFrom` property allows one to do a taxon concept mapping without having to create a Taxon Concept Mapping object. This can be done when the mapping is done in the same publication as one of the Taxon Concepts that are mapped, as in this case the subject and according to from the mapping are obtained from the Taxon Concept. For more details, see the [`isDisjointFrom`](../taxon-concept-mapping-relation-vocabulary/#tcreltypeisdisjointfrom) controlled term in the Taxon Concept Mapping Relation Vocabulary.
 
+
+**Examples**
+
+
+```turtle
+[] a tcs:TaxonConcept 
+    dcterms:title "Campylopus introflexus sec. Koperski & al. 2000" ; 
+    tcs:accordingTo <https://www.tropicos.org/reference/9022656> ;
+    tcs:taxonName <https://www.tropicos.org/name/35156181> ;
+    tcs:isDisjointFrom [ rdf:value [ a tcs:TaxonConcept ;
+                    dcterms:title "Campylopus introflexus sec. Mönkemeyer 1927" ;
+                    tcs:accordingTo <https://www.tropicos.org/publication/700> ;
+                    tcs:taxonName <https://www.tropicos.org/name/35156181> ] ;
+            rdfs:comment """Mit dem Taxon in Mönkemeyer ist der Beschreibung 
+                    nach eindeutig *C. pilifer Brid. (C. polytrichoides De 
+                    Not.), eine ozeanisch-submediterrane Art, gemeint. In 
+                    älteren Floren wird C. introflexus, bevor diese Art von 
+                    Störmer (1958) für Europa nachgewiesen wurde, regelmäßig als 
+                    Synonym von C. polytrichoides aufgeführt oder in diesem 
+                    Sinne verwendet (vgl. u. a. Demaret & Castagne 1961: 
+                    203)""" ] .
+
+# Because of the comment it is better to use a Taxon Concept Mapping object
+# here.
+```
+
+[&lsqb;TaxonConcept-isDisjointFrom.ttl&rsqb;](../../examples/TaxonConcept-isDisjointFrom.ttl)&nbsp;[&lsqb;TaxonConcept-isDisjointFrom.jsonld&rsqb;](../../examples/TaxonConcept-isDisjointFrom.jsonld)
+
 ### tcs:intersects
 
 <table style="width:100%;">
