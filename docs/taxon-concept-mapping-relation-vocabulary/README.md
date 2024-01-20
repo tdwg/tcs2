@@ -398,7 +398,31 @@ This relationship can also be written as the formula **A | B**.
     dwc:scientificNameAuthorship "L." .
 ```
 
-[&lsqb;TaxonConceptMappingRelation-isDisjointFrom.ttl&rsqb;](../../examples/TaxonConceptMappingRelation-isDisjointFrom.ttl)&nbsp;[&lsqb;TaxonConceptMappingRelation-isDisjointFrom.jsonld&rsqb;](../../examples/TaxonConceptMappingRelation-isDisjointFrom.jsonld)
+[&lsqb;TaxonConceptMappingRelation-isDisjointFrom-1.ttl&rsqb;](../../examples/TaxonConceptMappingRelation-isDisjointFrom-1.ttl)&nbsp;[&lsqb;TaxonConceptMappingRelation-isDisjointFrom-1.jsonld&rsqb;](../../examples/TaxonConceptMappingRelation-isDisjointFrom-1.jsonld)
+
+
+```turtle
+[] a tcs:TaxonConceptMapping ;
+    tcs:mappingAccordingTo <https://www.tropicos.org/reference/9022656> ;
+    tcs:mappingRelation <http://rs.tdwg.org/tcs-taxon-concept-mapping-relation/values/isDisjointFrom> ;
+    tcs:subjectTaxonConcept [ a tcs:TaxonConcept ;
+            dcterms:title "Campylopus introflexus sec. Koperski & al. 2000" ; 
+            tcs:accordingTo <https://www.tropicos.org/reference/9022656> ;
+            tcs:taxonName <https://www.tropicos.org/name/35156181> ] ;
+    tcs:objectTaxonConcept [ a tcs:TaxonConcept ;
+            dcterms:title "Campylopus introflexus sec. Mönkemeyer 1927" ;
+            tcs:accordingTo <https://www.tropicos.org/publication/700> ;
+            tcs:taxonName <https://www.tropicos.org/publication/700> ] ;
+    rdfs:comment """Mit dem Taxon in Mönkemeyer ist der Beschreibung nach 
+            eindeutig *C. pilifer Brid. (C. polytrichoides De Not.), eine 
+            ozeanisch-submediterrane Art, gemeint. In älteren Floren wird C. 
+            introflexus, bevor diese Art von Störmer (1958) für Europa 
+            nachgewiesen wurde, regelmäßig als Synonym von C. polytrichoides 
+            aufgeführt oder in diesem Sinne verwendet (vgl. u. a. Demaret & 
+            Castagne 1961: 203)""" .
+```
+
+[&lsqb;TaxonConceptMappingRelation-isDisjointFrom-2.ttl&rsqb;](../../examples/TaxonConceptMappingRelation-isDisjointFrom-2.ttl)&nbsp;[&lsqb;TaxonConceptMappingRelation-isDisjointFrom-2.jsonld&rsqb;](../../examples/TaxonConceptMappingRelation-isDisjointFrom-2.jsonld)
 
 ### tcreltype:intersects
 

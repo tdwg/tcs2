@@ -159,7 +159,8 @@
 
     This relationship can also be written as the formula **A | B**.
   examples: 
-    - TaxonConceptMappingRelation-isDisjointFrom
+    - TaxonConceptMappingRelation-isDisjointFrom-1
+    - TaxonConceptMappingRelation-isDisjointFrom-2
   github: 56
 
 # controlled term: intersects
