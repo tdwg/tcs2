@@ -1,5 +1,5 @@
 {
-  "@context": "https://raw.githubusercontent.com/tdwg/tcs2/dev-20230824/examples/context.jsonld",
+  "@context": "https://raw.githubusercontent.com/tdwg/tcs2/master/examples/context.jsonld",
   "type": "TaxonConcept",
   "dcterms:title": "Dicranum fuscescens sec. Koperski et al. 2000",
   "taxonName": "https://www.tropicos.org/name/35122385",

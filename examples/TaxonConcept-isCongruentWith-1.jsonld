@@ -1,5 +1,5 @@
 {
-  "@context": "https://raw.githubusercontent.com/tdwg/tcs2/dev-20230824/examples/context.jsonld",
+  "@context": "https://raw.githubusercontent.com/tdwg/tcs2/master/examples/context.jsonld",
   "type": "TaxonConcept",
   "dcterms:title": "Aspleniaceae sec. Rothfels & al. 2012",
   "accordingTo": "https://doi.org/10.1002/tax.613003",

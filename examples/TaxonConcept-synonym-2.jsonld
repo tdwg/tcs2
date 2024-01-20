@@ -1,5 +1,5 @@
 {
-  "@context": "https://raw.githubusercontent.com/tdwg/tcs2/dev-20230824/examples/context.jsonld",
+  "@context": "https://raw.githubusercontent.com/tdwg/tcs2/master/examples/context.jsonld",
   "type": "TaxonConcept",
   "dcterms:title": "Hebe colensoi sec. Bayly & Kellow 2006",
   "accordingTo": "urn:isbn:978-0-909010-12-6",

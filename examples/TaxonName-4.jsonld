@@ -1,5 +1,5 @@
 {
-  "@context": "https://raw.githubusercontent.com/tdwg/tcs2/dev-20230824/examples/context.jsonld",
+  "@context": "https://raw.githubusercontent.com/tdwg/tcs2/master/examples/context.jsonld",
   "id": "https://www.ipni.org/n/50985479-1",
   "type": "TaxonName",
   "taxonNameString": "Rhododendron sect. Sciadorhodion",

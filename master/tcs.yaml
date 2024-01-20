@@ -590,6 +590,8 @@
   examples: 
     - TaxonName-replacedName-1
     - TaxonName-replacedName-2
+    - TaxonName-replacedName-3
+    - TaxonName-replacedName-4
   type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonName
   required: No
@@ -613,7 +615,8 @@
     publication, while a spelling correction is generally for a correctable 
     error in the original publication. 
   examples:
-    - TaxonName-spellingCorrectionOf
+    - TaxonName-spellingCorrectionOf-1
+    - TaxonName-spellingCorrectionOf-2
   type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonName
   required: No

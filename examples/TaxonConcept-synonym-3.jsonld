@@ -1,5 +1,5 @@
 {
-  "@context": "https://raw.githubusercontent.com/tdwg/tcs2/dev-20230824/examples/context.jsonld",
+  "@context": "https://raw.githubusercontent.com/tdwg/tcs2/master/examples/context.jsonld",
   "id": "https://www.catalogueoflife.org/data/taxon/3YVTF",
   "type": "TaxonConcept",
   "accordingTo": "https://doi.org/10.48580/dfry-3gd#1.1.23.5",
