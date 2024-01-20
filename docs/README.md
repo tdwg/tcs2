@@ -1,4 +1,4 @@
-# Taxon Concept Schema Vocabularies
+# Taxon Concept Schema vocabularies
 
 ![](../assets/tcs_diagram_20231005.svg)
 
@@ -6,7 +6,7 @@
 
 - [TCS terms](./tcs-terms/)
 
-## Taxon Concept Mapping Relation Vocabulary
+## Taxon Concept Mapping Relation vocabulary
 
 - [Taxon Concept Mapping Relation Vocabulary](./taxon-concept-mapping-relation-vocabulary)
 

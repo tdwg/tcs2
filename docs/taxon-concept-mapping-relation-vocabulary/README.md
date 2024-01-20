@@ -1,4 +1,4 @@
-# TCS Taxon Comcept Mapping Relation Vocabulary
+# TCS Taxon Concept Mapping Relation vocabulary
 
 **Note:** The content below is created dynamically from the
 [tcsTaxonConceptMappingRelation.yaml](./tcsTaxonConceptMappingRelation.yaml) file. Please
