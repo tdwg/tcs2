@@ -3,7 +3,7 @@
   "@graph": [
     {
       "type": "TaxonConceptMapping",
-      "mappinRelation": "tcsrel:isDisjointFrom",
+      "mappingRelation": "tcsrel:isDisjointFrom",
       "subjectTaxonConcept": {
         "dcterms:title": "Andropogon glaucopsis sec. BONAP 2014",
         "taxonName": {"id": "https://www.ipni.org/n/387942-1>"},

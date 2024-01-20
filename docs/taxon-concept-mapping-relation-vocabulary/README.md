@@ -125,7 +125,48 @@ This relationship can also be written as the formula **A &cong; B** or **A == B*
     dwc:scientificNameAuthorship "Nash" .
 ```
 
-[&lsqb;TaxonConceptMappingRelation-isCongruentWith.ttl&rsqb;](../../examples/TaxonConceptMappingRelation-isCongruentWith.ttl)&nbsp;[&lsqb;TaxonConceptMappingRelation-isCongruentWith.jsonld&rsqb;](../../examples/TaxonConceptMappingRelation-isCongruentWith.jsonld)
+[&lsqb;TaxonConceptMappingRelation-isCongruentWith-1.ttl&rsqb;](../../examples/TaxonConceptMappingRelation-isCongruentWith-1.ttl)&nbsp;[&lsqb;TaxonConceptMappingRelation-isCongruentWith-1.jsonld&rsqb;](../../examples/TaxonConceptMappingRelation-isCongruentWith-1.jsonld)
+
+
+```turtle
+[] a tcs:TaxonConceptMapping ;
+    tcs:mappingAccordingTo <https://doi.org/10.1002/tax.613003> ;
+    tcs:mappingRelation <http://rs.tdwg.org/tcs-taxon-concept-mapping-relation/values/isCongruentWith> ;
+    tcs:subjectTaxonConcept _:b0 ;
+    tcs:objectTaxonConcept [ a tcs:TaxonConcept ;
+            dcterms:title "Aspleniaceae sec. Christenhusz & al. 2011" ;
+            tcs:accordingTo <https://doi.org/10.11646/phytotaxa.19.1.2> ;
+            tcs:taxonName <https://ipni.org/n/30001382-2> ] .
+
+[] a tcs:TaxonConceptMapping ;
+    tcs:mappingAccordingTo <https://doi.org/10.1002/tax.613003> ;
+    tcs:mappingRelation <http://rs.tdwg.org/tcs-taxon-concept-mapping-relation/values/isCongruentWith> ;
+    tcs:subjectTaxonConcept _:b0 ;
+    tcs:objectTaxonConcept [ a tcs:TaxonConcept ;
+            dcterms:title "Aspleniaceae sec. Smith & al. 2006" ;
+            tcs:accordingTo <https://doi.org/10.2307/25065646> ;
+            tcs:acceptedName <https://ipni.org/n/30001382-2> ] .
+
+[] a tcs:TaxonConceptMapping ;
+    tcs:mappingAccordingTo <https://doi.org/10.1002/tax.613003> ;
+    tcs:mappingRelation <http://rs.tdwg.org/tcs-taxon-concept-mapping-relation/values/isCongruentWith> ;
+    tcs:subjectTaxonConcept _:b0 ;
+    tcs:objectTaxonConcept [ a tcs:TaxonConcept ;
+            dcterms:title "Aspleniaceae sec. Pichi Sermolli 1977" ;
+            tcs:accordingTo <https://doi.org/10.1080/00837792.1977.10670077> ;
+            tcs:taxonName <https://ipni.org/n/30001382-2> ] .
+
+[] a tcs:TaxonConceptMapping ;
+    tcs:mappingAccordingTo <https://doi.org/10.1002/tax.613003> ;
+    tcs:mappingRelation <http://rs.tdwg.org/tcs-taxon-concept-mapping-relation/values/isCongruentWith> ;
+    tcs:subjectTaxonConcept _:b0 ;
+    tcs:objectTaxonConcept [ a tcs:TaxonConcept ;
+            dcterms:title "Aspleniaceae sec. Nayar 1970" ;
+            tcs:accordingTo <https://doi.org/10.2307/1217958> ;
+            tcs:taxonName <https://ipni.org/n/30001382-2> ] .
+```
+
+[&lsqb;TaxonConceptMappingRelation-isCongruentWith-2.ttl&rsqb;](../../examples/TaxonConceptMappingRelation-isCongruentWith-2.ttl)&nbsp;[&lsqb;TaxonConceptMappingRelation-isCongruentWith-2.jsonld&rsqb;](../../examples/TaxonConceptMappingRelation-isCongruentWith-2.jsonld)
 
 ### tcreltype:includes
 
@@ -194,7 +235,24 @@ This relation type can also be written as the formula **A > B**.
     dwc:scientificNameAuthorship "Nash" .
 ```
 
-[&lsqb;TaxonConceptMappingRelation-includes.ttl&rsqb;](../../examples/TaxonConceptMappingRelation-includes.ttl)&nbsp;[&lsqb;TaxonConceptMappingRelation-includes.jsonld&rsqb;](../../examples/TaxonConceptMappingRelation-includes.jsonld)
+[&lsqb;TaxonConceptMappingRelation-includes-1.ttl&rsqb;](../../examples/TaxonConceptMappingRelation-includes-1.ttl)&nbsp;[&lsqb;TaxonConceptMappingRelation-includes-1.jsonld&rsqb;](../../examples/TaxonConceptMappingRelation-includes-1.jsonld)
+
+
+```turtle
+[] a tcs:TaxonConceptMapping ;
+    tcs:mappingAccordingTo <https://doi.org/10.1002/tax.613003> ;
+    tcs:mappingRelation <http://rs.tdwg.org/tcs-taxon-concept-mapping-relation/values/includess> ;
+    tcs:subjectTaxonConcept [ a tcs:TaxonConcept ;
+            dcterms:title "Diplaziopsidaceae sec. Rothfels & al. 2012" ;
+            tcs:accordingTo <https://doi.org/10.1002/tax.613003> ;
+            tcs:taxonName <https://ipni.org/n/77110538-1> ] ;
+    tcs:objectTaxonConcept [ a tcs:TaxonConcept ;
+            dcterms:title "Diplaziopsidaceae sec. Christenhusz & al. 2011" ;
+            tcs:accordingTo <https://doi.org/10.11646/phytotaxa.19.1.2> ;
+            tcs:taxonName <https://ipni.org/n/77110538-1> ] .
+```
+
+[&lsqb;TaxonConceptMappingRelation-includes-2.ttl&rsqb;](../../examples/TaxonConceptMappingRelation-includes-2.ttl)&nbsp;[&lsqb;TaxonConceptMappingRelation-includes-2.jsonld&rsqb;](../../examples/TaxonConceptMappingRelation-includes-2.jsonld)
 
 ### tcreltype:isIncludedIn
 
@@ -263,7 +321,56 @@ This relation type can also be written as the formula **A < B**.
     dwc:scientificNameAuthorship "Britton, Sterns & Poggenb." .
 ```
 
-[&lsqb;TaxonConceptMappingRelation-isIncludedIn.ttl&rsqb;](../../examples/TaxonConceptMappingRelation-isIncludedIn.ttl)&nbsp;[&lsqb;TaxonConceptMappingRelation-isIncludedIn.jsonld&rsqb;](../../examples/TaxonConceptMappingRelation-isIncludedIn.jsonld)
+[&lsqb;TaxonConceptMappingRelation-isIncludedIn-1.ttl&rsqb;](../../examples/TaxonConceptMappingRelation-isIncludedIn-1.ttl)&nbsp;[&lsqb;TaxonConceptMappingRelation-isIncludedIn-1.jsonld&rsqb;](../../examples/TaxonConceptMappingRelation-isIncludedIn-1.jsonld)
+
+
+```turtle
+[] a tcs:TaxonConceptMapping ;
+    tcs:mappingAccordingTo <https://doi.org/10.1002/tax.613003> ;
+    tcs:mappingRelation <http://rs.tdwg.org/tcs-taxon-concept-mapping-relation/values/isIncludedIn> ;
+    tcs:subjectTaxonConcept _:b1 ;
+    tcs:objectTaxonConcept [ a tcs:TaxonConcept ;
+            dcterms:title "Athyriaceae sec. Christenhusz & al. 2011" ;
+            tcs:accordingTo <https://doi.org/10.11646/phytotaxa.19.1.2> ;
+            tcs:taxonName <https://ipni.org/n/30000361-2> ] .
+
+_:b1 a tcs:TaxonConcept ;
+    dcterms:title "Athyriaceae sec. Rothfels & al. 2012" ;
+    tcs:accordingTo <https://doi.org/10.1002/tax.613003> ;
+    tcs:taxonName <https://ipni.org/n/30000361-2> .
+
+[] a tcs:TaxonConceptMapping ;
+    tcs:mappingAccordingTo <https://doi.org/10.1002/tax.613003> ;
+    tcs:mappingRelation <http://rs.tdwg.org/tcs-taxon-concept-mapping-relation/values/isIncludedIn> ;
+    tcs:subjectTaxonConcept _:b1 ;
+    tcs:objectTaxonConcept [ a tcs:TaxonConcept ;
+            dcterms:title "Woodsiaceae sec. Smith & al. 2006" ;
+            tcs:accordingTo <https://doi.org/10.2307/25065646> ;
+            tcs:taxonName <https://ipni.org/n/30000455-2> ] .
+
+[] a tcs:TaxonConceptMapping ;
+    tcs:mappingAccordingTo <https://doi.org/10.1002/tax.613003> ;
+    tcs:mappingRelation <http://rs.tdwg.org/tcs-taxon-concept-mapping-relation/values/isIncludedIn> ;
+    tcs:subjectTaxonConcept _:b1 ;
+    tcs:objectTaxonConcept [ a tcs:TaxonConcept ;
+            dcterms:title "Dryopteridaceae sec. Nayar 1970" ;
+            tcs:accordingTo <https://doi.org/10.2307/1217958> ;
+            tcs:taxonName <https://www.ipni.org/n/30014148-2> ] .
+
+[] a tcs:TaxonConceptMapping ;
+    tcs:mappingAccordingTo <https://doi.org/10.1002/tax.613003> ;
+    tcs:mappingRelation <http://rs.tdwg.org/tcs-taxon-concept-mapping-relation/values/isIncludedIn> ;
+    tcs:subjectTaxonConcept _:b1 ;
+    tcs:objectTaxonConcept [ a tcs:TaxonConcept ;
+            dcterms:title "Dennstaedtiaceae sec. Holttum 1947" ;
+            tcs:accordingTo [ a dcterms:BibliographicResource ;
+                    dcterms:bibliographicCitation """Holttum, R.E. (1947). A 
+                            revised classification of leptosporangiate ferns. 
+                            Journal of the Linnean Society. Botany 53: 123–155.""" ] ;
+            tcs:taxonName <https://ipni.org/n/17434830-1> ] .
+```
+
+[&lsqb;TaxonConceptMappingRelation-isIncludedIn-2.ttl&rsqb;](../../examples/TaxonConceptMappingRelation-isIncludedIn-2.ttl)&nbsp;[&lsqb;TaxonConceptMappingRelation-isIncludedIn-2.jsonld&rsqb;](../../examples/TaxonConceptMappingRelation-isIncludedIn-2.jsonld)
 
 ### tcreltype:partiallyOverlaps
 
@@ -329,7 +436,24 @@ This relationship can also be written as the formula **A >< B**.
     dwc:scientificNameAuthorship "Britton, Sterns & Poggenb." .
 ```
 
-[&lsqb;TaxonConceptMappingRelation-partiallyOverlaps.ttl&rsqb;](../../examples/TaxonConceptMappingRelation-partiallyOverlaps.ttl)&nbsp;[&lsqb;TaxonConceptMappingRelation-partiallyOverlaps.jsonld&rsqb;](../../examples/TaxonConceptMappingRelation-partiallyOverlaps.jsonld)
+[&lsqb;TaxonConceptMappingRelation-partiallyOverlaps-1.ttl&rsqb;](../../examples/TaxonConceptMappingRelation-partiallyOverlaps-1.ttl)&nbsp;[&lsqb;TaxonConceptMappingRelation-partiallyOverlaps-1.jsonld&rsqb;](../../examples/TaxonConceptMappingRelation-partiallyOverlaps-1.jsonld)
+
+
+```turtle
+[] a tcs:TaxonConceptMapping ;
+    tcs:mappingAccordingTo <https://doi.org/10.1002/tax.613003> ;
+    tcs:mappingRelation <http://rs.tdwg.org/tcs-taxon-concept-mapping-relation/values/partiallyOverlaps> ;
+    tcs:subjectTaxonConcept [ a tcs:TaxonConcept ;
+            dcterms:title "Diplaziopsidaceae sec. Rothfels & al. 2012" ;
+            tcs:accordingTo <https://doi.org/10.1002/tax.613003> ;
+            tcs:taxonName <https://ipni.org/n/77110538-1> ] ;
+    tcs:objectTaxonConcept [ a tcs:TaxonConcept ;
+            dcterms:title "Athyriaceae sec. Christenhusz & al. 2011" ;
+            tcs:accordingTo <https://doi.org/10.11646/phytotaxa.19.1.2> ;
+            tcs:taxonName <https://ipni.org/n/30000361-2> ] .
+```
+
+[&lsqb;TaxonConceptMappingRelation-partiallyOverlaps-2.ttl&rsqb;](../../examples/TaxonConceptMappingRelation-partiallyOverlaps-2.ttl)&nbsp;[&lsqb;TaxonConceptMappingRelation-partiallyOverlaps-2.jsonld&rsqb;](../../examples/TaxonConceptMappingRelation-partiallyOverlaps-2.jsonld)
 
 ### tcreltype:isDisjointFrom
 
@@ -459,5 +583,103 @@ This relationship can also be written as the formula **A | B**.
 **Comments**
 
 `intersects` is the opposite of `isDisjointFrom` and the union of  `isCongruentWith`, `includes`, `isIncludedIn` and  `partiallyOverlaps`, meaning it can be any of these relationships. This  relationship type can be used when the more precise nature of the  relationship is not known, for example when dealing with statements in  traditional synonymies.
+
+
+**Examples**
+
+
+```turtle
+[] a tcs:TaxonConceptMapping ;
+    tcs:mappingAccordingTo <https://www.jstor.org/stable/23873848> ;
+    tcs:mappingRelation <http://rs.tdwg.org/tcs-taxon-concept-mapping-relation/values/intersects> ;
+    tcs:subjectTaxonConcept <https://id.biodiversity.org.au/instance/apni/545068> ;
+    tcs:objectTaxonConcept <https://id.biodiversity.org.au/instance/apni/713514> .
+
+[] a tcs:TaxonConceptMapping ;
+    tcs:mappingAccordingTo <https://www.jstor.org/stable/23873848> ;
+    tcs:mappingRelation <http://rs.tdwg.org/tcs-taxon-concept-mapping-relation/values/intersects> ;
+    tcs:subjectTaxonConcept <https://id.biodiversity.org.au/instance/apni/545068> ;
+    tcs:objectTaxonConcept [ a tcs:TaxonConcept ;
+            dcterms:title "Euphrasia gibbsiae sec. Harris 1970" ;
+            tcs:accordingTo [ a dcterms:BibliographicResource ;
+                    dcterms:bibliographicCitation "Harris, Alp. Pl. Austral. (1970)" ] ;
+            tcs:taxonName <https://www.ipni.org/n/802545-1> ] ;
+    rdfs:comment """p.p. (excl. "f. comberi" in Victoria)""" .
+
+[] a tcs:TaxonConceptMapping ;
+    tcs:mappingAccordingTo <https://www.jstor.org/stable/23873848> ;
+    tcs:mappingRelation <http://rs.tdwg.org/tcs-taxon-concept-mapping-relation/values/intersects> ;
+    tcs:subjectTaxonConcept <https://id.biodiversity.org.au/instance/apni/545068> ;
+    tcs:objectTaxonConcept [ a tcs:TaxonConcept ;
+            dcterms:title "Euphrasia striata sec. Bentham 1868" ;
+            tcs:accordingTo [ a dcterms:BibliographicResource ;
+                    dcterms:bibliographicCitation "Bentham, Fl. Austral. (1868)" ] ;
+            tcs:taxonName <https://www.ipni.org/n/802876-1> ] ;
+    rdfs:comment """p.p. (as to Stuart 1745, Milligan MEL41451, p.p., Mueller 
+            MEL41539)""" .
+
+<https://id.biodiversity.org.au/instance/apni/545068> a tcs:TaxonConcept ;
+    dcterms:title "Euphrasia gibbsiae sec. Barker 1982" ;
+    tcs:accordingTo <https://www.jstor.org/stable/23873848> ;
+    tcs:taxonName <https://www.ipni.org/n/802545-1> ;
+    tcs:synonym <https://www.ipni.org/n/802619-1> .
+
+<https://id.biodiversity.org.au/instance/apni/713514> a tcs:TaxonConcept ;
+    dcterms:title "Euphrasia gibbsiae sec. Curtis 1967" ;
+    tcs:accordingTo <https://id.biodiversity.org.au/reference/apni/23028> ;
+    tcs:taxonName <https://www.ipni.org/n/802545-1> .
+```
+
+[&lsqb;TaxonConceptMappingRelation-intersects-1.ttl&rsqb;](../../examples/TaxonConceptMappingRelation-intersects-1.ttl)&nbsp;[&lsqb;TaxonConceptMappingRelation-intersects-1.jsonld&rsqb;](../../examples/TaxonConceptMappingRelation-intersects-1.jsonld)
+
+
+```turtle
+[] a tcs:TaxonConceptMapping ;
+    tcs:mappingAccordingTo <https://doi/org/10.2307/3668252> ;
+    tcs:mappingRelation <http://rs.tdwg.org/tcs-taxon-concept-mapping-relation/values/intersects> ;
+    tcs:subjectTaxonConcept [ a tcs:TaxonConcept ;
+            dcterms:title "Begonia salaziensis sec. Klazenga & al. 1994" ;
+            tcs:accordingTo <https://doi/org/10.2307/3668252> ;
+            tcs:taxonName <https://ipni.org/n/105644-1> ] ;
+    tcs:objectTaxonConcept [ a tcs:TaxonConcept ;
+            dcterms:title "Begonia salaziensis sec. Warburg 1894" ;
+            tcs:accordingTo [ a bibo:Chapter ;
+                    dcterms:bibliographicCitation """Warburg, O. (1894). Begoniaceae, 
+                            in Engler, A. & K. Prantl, Nat. Pflanzenfam. 3(6a): 
+                            121-150.""" ] ;
+            tcs:taxonName <https://ipni.org/n/105644-1> ] .
+
+[] a tcs:TaxonConceptMapping ;
+    tcs:mappingAccordingTo <https://doi/org/10.2307/3668252> ;
+    tcs:mappingRelation <http://rs.tdwg.org/tcs-taxon-concept-mapping-relation/values/intersects> ;
+    tcs:subjectTaxonConcept [ a tcs:TaxonConcept ;
+            dcterms:title "Begonia salaziensis sec. Klazenga & al. 1994" ;
+            tcs:accordingTo <https://doi/org/10.2307/3668252> ;
+            tcs:taxonName <https://ipni.org/n/105644-1> ] ;
+    tcs:objectTaxonConcept [ a tcs:TaxonConcept ;
+            dcterms:title "Begonia salaziensis sec. Irmscher 1925" ;
+            tcs:accordingTo [ a bibo:Chapter ;
+                    dcterms:bibliographicCitation """Irmscher, E. (1925). Begoniaceae, 
+                            in Engler, A. & K. Prantl, Nat. Pflanzenfam. ed. 2, 21: 
+                            548-588.""" ] ;
+            tcs:taxonName <https://ipni.org/n/105644-1> ] .
+
+[] a tcs:TaxonConceptMapping ;
+    tcs:mappingAccordingTo <https://doi/org/10.2307/3668252> ;
+    tcs:mappingRelation <http://rs.tdwg.org/tcs-taxon-concept-mapping-relation/values/intersects> ;
+    tcs:subjectTaxonConcept [ a tcs:TaxonConcept ;
+            dcterms:title "Begonia seychellensis sec. Klazenga & al. 1994" ;
+            tcs:accordingTo <https://doi/org/10.2307/3668252> ;
+            tcs:taxonName <https://www.ipni.org/n/105731-1> ] ;
+    tcs:objectTaxonConcept [ a tcs:TaxonConcept ;
+        dcterms:title "Begonia comorensis sec. Keraudren-Aymonin 1983" ;
+        tcs:accordingTo [ a bibo:Book ;
+                dcterms:bibliographicCitation """Keraudren-Aymonin, M. (1983). Flore 
+                        de Madagascar et des Comores. Famille 144 – Begoniacées: 7-108""" ] ;
+        tcs:taxonName <https://www.ipni.org/n/104440-1> ;
+        tcs:synonym <https://www.ipni.org/n/105731-1> ] .
+```
+
+[&lsqb;TaxonConceptMappingRelation-intersects-2.ttl&rsqb;](../../examples/TaxonConceptMappingRelation-intersects-2.ttl)&nbsp;[&lsqb;TaxonConceptMappingRelation-intersects-2.jsonld&rsqb;](../../examples/TaxonConceptMappingRelation-intersects-2.jsonld)
 
 <!-- footer -->

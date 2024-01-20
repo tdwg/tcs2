@@ -344,6 +344,7 @@
     controlled term in the Taxon Concept Mapping Relation Vocabulary.
   examples:
     - TaxonConcept-intersects-1
+    - TaxonConcept-intersects-2
   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonConcept
   repeatable: Yes
   required: No

@@ -1,0 +1,16 @@
+{
+  "@context": "https://raw.githubusercontent.com/tdwg/tcs2/taxon-concept-mapping-object/examples/context.jsonld",
+  "type": "TaxonConceptMapping",
+  "mappingAccordingTo": { "id": "https://doi.org/10.1002/tax.613003" },
+  "mappingRelation": "tcsrel:partiallyOverlaps",
+  "subjectTaxonConcept": {
+    "dcterms:title": "Diplaziopsidaceae sec. Rothfels & al. 2012",
+    "accordingTo": { "id": "https://doi.org/10.1002/tax.613003" },
+    "taxonName": { "id": "https://ipni.org/n/77110538-1" }
+  },
+  "objectTaxonConcept": {
+    "dcterms:title": "Athyriaceae sec. Christenhusz & al. 2011",
+    "accordingTo": { "id": "https://doi.org/10.11646/phytotaxa.19.1.2" },
+    "taxonName": { "id": "https://ipni.org/n/30000361-2" }
+  }
+}

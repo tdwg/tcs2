@@ -3,10 +3,10 @@
   "@graph": [
     {
       "type": "TaxonConceptMapping",
-      "mappinRelation": "tcsrel:partiallyOverlaps",
+      "mappingRelation": "tcsrel:isIncludedIn",
       "subjectTaxonConcept": {
-        "dcterms:title": "Andropogon glomeratus sec. BONAP 2014",
-        "taxonName": {"id": "https://www.ipni.org/n/12850-2"},
+        "dcterms:title": "Andropogon hirsutior sec. BONAP 2014",
+        "taxonName": {"id": "https://www.ipni.org/n/60458078-2"},
         "accordingTo": {"id": "http://bonap.net/napa#2014"}
       },
       "objectTaxonConcept": {
@@ -17,7 +17,7 @@
       "mappingAccordingTo": {"id": "https://doi.org/10.3233/SW-160220"}
     }, 
     {
-      "id": "https://www.ipni.org/n/12850-2",
+      "id": "https://www.ipni.org/n/60458078-2",
       "type": "TaxonName",
       "taxonNameString": "Andropogon hirsutior",
       "dwc:scientificNameAuthorship": "(Hack.) Weakley & LeBlond"

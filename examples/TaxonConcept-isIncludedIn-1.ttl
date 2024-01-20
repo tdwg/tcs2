@@ -22,5 +22,8 @@
             tcs:taxonName <https://www.ipni.org/n/30014148-2> ] ,
         [ a tcs:TaxonConcept ;
             dcterms:title "Dennstaedtiaceae sec. Holttum 1947" ;
-            tcs:accordingTo _:r8356b78f024b33be ;
+            tcs:accordingTo [ a dcterms:BibliographicResource ;
+                    dcterms:bibliographicCitation """Holttum, R.E. (1947). A 
+                            revised classification of leptosporangiate ferns. 
+                            Journal of the Linnean Society. Botany 53: 123–155.""" ] ;
             tcs:taxonName <https://ipni.org/n/17434830-1> ] .

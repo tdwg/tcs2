@@ -880,7 +880,10 @@ The `isIncludedIn` property allows one to do a taxon concept mapping without hav
             tcs:taxonName <https://www.ipni.org/n/30014148-2> ] ,
         [ a tcs:TaxonConcept ;
             dcterms:title "Dennstaedtiaceae sec. Holttum 1947" ;
-            tcs:accordingTo _:r8356b78f024b33be ;
+            tcs:accordingTo [ a dcterms:BibliographicResource ;
+                    dcterms:bibliographicCitation """Holttum, R.E. (1947). A 
+                            revised classification of leptosporangiate ferns. 
+                            Journal of the Linnean Society. Botany 53: 123–155.""" ] ;
             tcs:taxonName <https://ipni.org/n/17434830-1> ] .
 ```
 
@@ -1077,6 +1080,46 @@ The `intersects` property allows one to do a taxon concept mapping without havin
 ```
 
 [&lsqb;TaxonConcept-intersects-1.ttl&rsqb;](../../examples/TaxonConcept-intersects-1.ttl)&nbsp;[&lsqb;TaxonConcept-intersects-1.jsonld&rsqb;](../../examples/TaxonConcept-intersects-1.jsonld)
+
+
+```turtle
+<https://id.biodiversity.org.au/instance/apni/545068> a tcs:TaxonConcept ;
+    dcterms:title "Euphrasia gibbsiae sec. Barker 1982" ;
+    tcs:accordingTo <https://www.jstor.org/stable/23873848> ;
+    tcs:taxonName <https://www.ipni.org/n/802545-1> ;
+    tcs:synonym <https://www.ipni.org/n/802619-1> ;
+    tcs:intersects [ rdf:value <https://id.biodiversity.org.au/instance/apni/713514> ;
+            rdfs:comment """p.p. (as to Tasmanian occurrences and f. 
+                    subglabrifolia in Victoria)""" ] ,
+        [ rdf:value _:tc3 ;
+            rdfs:comment """p.p. (excl. "f. comberi" in Victoria)""" ] ,
+        [ rdf:value _:tc9 ;
+            rdfs:comment """p.p. (as to Stuart 1745, Milligan MEL41451, p.p., 
+                    Mueller MEL41539)""" ] .
+
+<https://id.biodiversity.org.au/instance/apni/713514> a tcs:TaxonConcept ;
+    dcterms:title "Euphrasia gibbsiae sec. Curtis 1967" ;
+    tcs:accordingTo <https://id.biodiversity.org.au/reference/apni/23028> ;
+    tcs:taxonName <https://www.ipni.org/n/802545-1> .
+
+_:tc3 a tcs:TaxonConcept ;
+    dcterms:title "Euphrasia gibbsiae sec. Harris 1970" ;
+    tcs:accordingTo [ a dcterms:BibliographicResource ;
+            dcterms:bibliographicCitation "Harris, Alp. Pl. Austral. (1970)" ] ;
+    tcs:taxonName <https://www.ipni.org/n/802545-1> .
+
+_:tc9 a tcs:TaxonConcept ;
+    dcterms:title "Euphrasia striata sec. Bentham 1868" ;
+    tcs:accordingTo [ a dcterms:BibliographicResource ;
+            dcterms:bibliographicCitation "Bentham, Fl. Austral. (1868)" ] ;
+    tcs:taxonName <https://www.ipni.org/n/802876-1> .
+
+# This is only a small part of the nomenclature section of the treatment of
+# Euphrasia gibbsiae sec. Barker 1982. See
+# examples/euphrasia_gibbsiae_sec_barker_1982.ttl for the full treatment.
+```
+
+[&lsqb;TaxonConcept-intersects-2.ttl&rsqb;](../../examples/TaxonConcept-intersects-2.ttl)&nbsp;[&lsqb;TaxonConcept-intersects-2.jsonld&rsqb;](../../examples/TaxonConcept-intersects-2.jsonld)
 
 ### dcterms:title
 

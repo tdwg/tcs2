@@ -61,7 +61,8 @@
 
     This relationship can also be written as the formula **A &cong; B** or **A == B**.
   examples: 
-    - TaxonConceptMappingRelation-isCongruentWith
+    - TaxonConceptMappingRelation-isCongruentWith-1
+    - TaxonConceptMappingRelation-isCongruentWith-2
   github: 52
 
 # controlled term: includes
@@ -86,7 +87,8 @@
 
     This relation type can also be written as the formula **A > B**.
   examples: 
-    - TaxonConceptMappingRelation-includes
+    - TaxonConceptMappingRelation-includes-1
+    - TaxonConceptMappingRelation-includes-2
   github: 53
 
 # controlled term: isIncludedIn
@@ -111,7 +113,8 @@
 
     This relation type can also be written as the formula **A < B**.
   examples: 
-    - TaxonConceptMappingRelation-isIncludedIn
+    - TaxonConceptMappingRelation-isIncludedIn-1
+    - TaxonConceptMappingRelation-isIncludedIn-2
   github: 54
 
 # controlled term: partiallyOverlaps
@@ -136,7 +139,8 @@
 
     This relationship can also be written as the formula **A >< B**.
   examples:
-    - TaxonConceptMappingRelation-partiallyOverlaps
+    - TaxonConceptMappingRelation-partiallyOverlaps-1
+    - TaxonConceptMappingRelation-partiallyOverlaps-2
   github: 55
 
 # controlled term: isDisjointFrom
@@ -180,4 +184,7 @@
     relationship type can be used when the more precise nature of the 
     relationship is not known, for example when dealing with statements in 
     traditional synonymies.
+  examples: 
+    - TaxonConceptMappingRelation-intersects-1
+    - TaxonConceptMappingRelation-intersects-2
   github: 57

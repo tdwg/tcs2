@@ -3,7 +3,7 @@
   "@graph": [
     {
       "type": "TaxonConceptMapping",
-      "mappinRelation": "tcsrel:isCongruentWith",
+      "mappingRelation": "tcsrel:isCongruentWith",
       "subjectTaxonConcept": {
         "dcterms:title": "Andropogon capillipes sec. BONAP 2014",
         "taxonName": {"id": "https://www.ipni.org/n/12781-2"},
