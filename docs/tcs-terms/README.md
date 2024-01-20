@@ -1694,6 +1694,35 @@ In the Botanical Code the term 'replaced synonym' is used. A 'replacement  name'
 
 [&lsqb;TaxonName-replacedName-2.ttl&rsqb;](../../examples/TaxonName-replacedName-2.ttl)&nbsp;[&lsqb;TaxonName-replacedName-2.jsonld&rsqb;](../../examples/TaxonName-replacedName-2.jsonld)
 
+
+```turtle
+<https://www.ipni.org/n/17567870-1> a tcs:TaxonName ;
+    tcs:taxonNameString "Doodia media subsp. australis" ;
+    dwc:scientificNameAuthorship: "Parris" ;
+    dwc:namePublishedIn "New Zealand J. Bot. 10(4): 593" ;
+    dwc:namePublishedInYear "1972" ;
+    rdf:seeAlso <https://www.ipni.org/n/167675-3> ,
+            <https://id.biodiversity.org.au/name/apni/117170> .
+
+<https://www.ipni.org/n/17571690-1> a tcs:TaxonName ;
+    tcs:taxonNameString "Doodia australis" ;
+    dwc:scientificNameAuthorship "(Parris) Parris" ;
+    dwc:namePublishedIn "Fl. Australia 48: 710" ;
+    dwc:namePublishedInYear "1998" ;
+    tcs:basionym <https://www.ipni.org/n/17567870-1> ;
+    rdf:seeAlso <https://id.biodiversity.org.au/name/apni/166271> .
+
+<https://www.ipni.org/n/77110594-1> a tcs:TaxonName ;
+    tcs:taxonNameString "Blechnum parrisiae" ;
+    dwc:scientificNameAuthorship "Christenh." ;
+    dwc:namePublishedIn "Phytotaxa 19: 20" ;
+    dwc:namePublishedInYear "2011" ;
+    tcs:replacedName <https://www.ipni.org/n/17567870-1> ;
+    rdf:seeAlso <https://id.biodiversity.org.au/instance/apni/51432623> .
+```
+
+[&lsqb;TaxonName-replacedName-3.ttl&rsqb;](../../examples/TaxonName-replacedName-3.ttl)&nbsp;[&lsqb;TaxonName-replacedName-3.jsonld&rsqb;](../../examples/TaxonName-replacedName-3.jsonld)
+
 ### tcs:spellingCorrectionOf
 
 <table style="width:100%;">
@@ -1764,7 +1793,24 @@ The `spellingCorrectionOf` property can be used if the originally published  nam
 # All records in GBIF, for example, will be as 'Dicranoloma dicarpum'.
 ```
 
-[&lsqb;TaxonName-spellingCorrectionOf.ttl&rsqb;](../../examples/TaxonName-spellingCorrectionOf.ttl)&nbsp;[&lsqb;TaxonName-spellingCorrectionOf.jsonld&rsqb;](../../examples/TaxonName-spellingCorrectionOf.jsonld)
+[&lsqb;TaxonName-spellingCorrectionOf-1.ttl&rsqb;](../../examples/TaxonName-spellingCorrectionOf-1.ttl)&nbsp;[&lsqb;TaxonName-spellingCorrectionOf-1.jsonld&rsqb;](../../examples/TaxonName-spellingCorrectionOf-1.jsonld)
+
+
+```turtle
+<https://www.ipni.org/n/77110594-1> a tcs:TaxonName ;
+    tcs:taxonNameString "Blechnum parrisiae" ;
+    dwc:scientificNameAuthorship "Christenh." ;
+    dwc:namePublishedIn "Phytotaxa 19: 20" ;
+    dwc:namePublishedInYear "2011" ;
+    tcs:replacedName <https://www.ipni.org/n/17567870-1> ;
+    tcs:spellingCorrectionOf <https://id.biodiversity.org.au/instance/apni/781107> ;
+    rdf:seeAlso <https://id.biodiversity.org.au/instance/apni/51432623> .
+
+<https://id.biodiversity.org.au/instance/apni/781107> a tcs:TaxonName ;
+    tcs:taxonNameString "Blechnum parrisii" .
+```
+
+[&lsqb;TaxonName-spellingCorrectionOf-2.ttl&rsqb;](../../examples/TaxonName-spellingCorrectionOf-2.ttl)&nbsp;[&lsqb;TaxonName-spellingCorrectionOf-2.jsonld&rsqb;](../../examples/TaxonName-spellingCorrectionOf-2.jsonld)
 
 ### tcs:conservedAgainst
 
