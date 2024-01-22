@@ -6,7 +6,7 @@
 
 [] a tcs:TaxonConceptMapping ;
     tcs:mappingAccordingTo <https://doi.org/10.1002/tax.613003> ;
-    tcs:mappingRelation <http://rs.tdwg.org/tcs-taxon-concept-mapping-relation/values/partiallyOverlaps> ;
+    tcs:mappingRelation tcs:partiallyOverlaps ;
     tcs:subjectTaxonConcept [ a tcs:TaxonConcept ;
             dcterms:title "Diplaziopsidaceae sec. Rothfels & al. 2012" ;
             tcs:accordingTo <https://doi.org/10.1002/tax.613003> ;

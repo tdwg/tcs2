@@ -4,7 +4,7 @@
     {
       "type": "TaxonConceptMapping",
       "mappingAccordingTo": { "id": "https://doi.org/10.3233/SW-160220" },
-      "mappingRelation": "tcsrel:isIncludedIn",
+      "mappingRelation": "isIncludedIn",
       "subjectTaxonConcept": { "id": "_:b1" },
       "objectTaxonConcept": {
         "dcterms:title": "Athyriaceae sec. Christenhusz & al. 2011",
@@ -22,7 +22,7 @@
     {
       "type": "TaxonConceptMapping",
       "mappingAccordingTo": { "id": "https://doi.org/10.3233/SW-160220" },
-      "mappingRelation": "tcsrel:isIncludedIn",
+      "mappingRelation": "isIncludedIn",
       "subjectTaxonConcept": { "id": "_:b1" },
       "objectTaxonConcept": {
         "dcterms:title": "Woodsiaceae sec. Smith & al. 2006",
@@ -33,7 +33,7 @@
     {
       "type": "TaxonConceptMapping",
       "mappingAccordingTo": { "id": "https://doi.org/10.3233/SW-160220" },
-      "mappingRelation": "tcsrel:isIncludedIn",
+      "mappingRelation": "isIncludedIn",
       "subjectTaxonConcept": { "id": "_:b1" },
       "objectTaxonConcept": {
         "dcterms:title": "Dryopteridaceae sec. Nayar 1970",
@@ -44,7 +44,7 @@
     {
       "type": "TaxonConceptMapping",
       "mappingAccordingTo": { "id": "https://doi.org/10.3233/SW-160220" },
-      "mappingRelation": "tcsrel:isIncludedIn",
+      "mappingRelation": "isIncludedIn",
       "subjectTaxonConcept": { "id": "_:b1" },
       "objectTaxonConcept": {
         "dcterms:title": "Dennstaedtiaceae sec. Holttum 1947",

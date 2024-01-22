@@ -1,7 +1,6 @@
 {
   "@context": {
     "tcs":                              "http://rs.tdwg.org/tcs/terms/",
-    "tcsrel":                           "http://rs.tdwg.org/tcs-taxon-concept-mapping-relation/values/",
     "address":                          "http://schemas.talis.com/2005/address/schema#",
     "bibo":                             "http://purl.org/ontology/bibo/",
     "dcterms":                          "http://purl.org/dc/terms/",

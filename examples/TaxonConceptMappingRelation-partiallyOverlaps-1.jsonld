@@ -3,7 +3,7 @@
   "@graph": [
     {
       "type": "TaxonConceptMapping",
-      "mappingRelation": "tcsrel:partiallyOverlaps",
+      "mappingRelation": "partiallyOverlaps",
       "subjectTaxonConcept": {
         "dcterms:title": "Andropogon glomeratus sec. BONAP 2014",
         "taxonName": {"id": "https://www.ipni.org/n/12850-2"},

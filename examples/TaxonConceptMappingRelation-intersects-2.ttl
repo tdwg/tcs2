@@ -3,7 +3,7 @@
 
 [] a tcs:TaxonConceptMapping ;
     tcs:mappingAccordingTo <https://doi/org/10.2307/3668252> ;
-    tcs:mappingRelation <http://rs.tdwg.org/tcs-taxon-concept-mapping-relation/values/intersects> ;
+    tcs:mappingRelation tcs:intersects ;
     tcs:subjectTaxonConcept [ a tcs:TaxonConcept ;
             dcterms:title "Begonia salaziensis sec. Klazenga & al. 1994" ;
             tcs:accordingTo <https://doi/org/10.2307/3668252> ;
@@ -18,7 +18,7 @@
 
 [] a tcs:TaxonConceptMapping ;
     tcs:mappingAccordingTo <https://doi/org/10.2307/3668252> ;
-    tcs:mappingRelation <http://rs.tdwg.org/tcs-taxon-concept-mapping-relation/values/intersects> ;
+    tcs:mappingRelation tcs:intersects ;
     tcs:subjectTaxonConcept [ a tcs:TaxonConcept ;
             dcterms:title "Begonia salaziensis sec. Klazenga & al. 1994" ;
             tcs:accordingTo <https://doi/org/10.2307/3668252> ;
@@ -33,7 +33,7 @@
 
 [] a tcs:TaxonConceptMapping ;
     tcs:mappingAccordingTo <https://doi/org/10.2307/3668252> ;
-    tcs:mappingRelation <http://rs.tdwg.org/tcs-taxon-concept-mapping-relation/values/intersects> ;
+    tcs:mappingRelation tcs:intersects ;
     tcs:subjectTaxonConcept [ a tcs:TaxonConcept ;
             dcterms:title "Begonia seychellensis sec. Klazenga & al. 1994" ;
             tcs:accordingTo <https://doi/org/10.2307/3668252> ;

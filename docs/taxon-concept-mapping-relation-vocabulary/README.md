@@ -109,7 +109,7 @@ This relationship can also be written as the formula **A &cong; B** or **A == B*
 ```turtle
 # Andropogon capillipes sec. BONAP 2014 is congruent with Andropogon capillipes sec. Weakley 2006
 [] a :TaxonConceptMapping ;
-    :mappingRelation <http://rs.tdwg.org/tcs-taxon-concept-mapping-relation/values/isCongruentWith> ;
+    :mappingRelation tcs:isCongruentWith ;
     :subjectTaxonConcept [ a :TaxonConcept ;
         dcterms:title "Andropogon capillipes sec. BONAP 2014" ;
         :taxonName <https://www.ipni.org/n/12781-2> ;
@@ -131,7 +131,7 @@ This relationship can also be written as the formula **A &cong; B** or **A == B*
 ```turtle
 [] a tcs:TaxonConceptMapping ;
     tcs:mappingAccordingTo <https://doi.org/10.1002/tax.613003> ;
-    tcs:mappingRelation <http://rs.tdwg.org/tcs-taxon-concept-mapping-relation/values/isCongruentWith> ;
+    tcs:mappingRelation tcs:isCongruentWith ;
     tcs:subjectTaxonConcept _:b0 ;
     tcs:objectTaxonConcept [ a tcs:TaxonConcept ;
             dcterms:title "Aspleniaceae sec. Christenhusz & al. 2011" ;
@@ -140,7 +140,7 @@ This relationship can also be written as the formula **A &cong; B** or **A == B*
 
 [] a tcs:TaxonConceptMapping ;
     tcs:mappingAccordingTo <https://doi.org/10.1002/tax.613003> ;
-    tcs:mappingRelation <http://rs.tdwg.org/tcs-taxon-concept-mapping-relation/values/isCongruentWith> ;
+    tcs:mappingRelation tcs:isCongruentWith ;
     tcs:subjectTaxonConcept _:b0 ;
     tcs:objectTaxonConcept [ a tcs:TaxonConcept ;
             dcterms:title "Aspleniaceae sec. Smith & al. 2006" ;
@@ -149,7 +149,7 @@ This relationship can also be written as the formula **A &cong; B** or **A == B*
 
 [] a tcs:TaxonConceptMapping ;
     tcs:mappingAccordingTo <https://doi.org/10.1002/tax.613003> ;
-    tcs:mappingRelation <http://rs.tdwg.org/tcs-taxon-concept-mapping-relation/values/isCongruentWith> ;
+    tcs:mappingRelation tcs:isCongruentWith ;
     tcs:subjectTaxonConcept _:b0 ;
     tcs:objectTaxonConcept [ a tcs:TaxonConcept ;
             dcterms:title "Aspleniaceae sec. Pichi Sermolli 1977" ;
@@ -158,7 +158,7 @@ This relationship can also be written as the formula **A &cong; B** or **A == B*
 
 [] a tcs:TaxonConceptMapping ;
     tcs:mappingAccordingTo <https://doi.org/10.1002/tax.613003> ;
-    tcs:mappingRelation <http://rs.tdwg.org/tcs-taxon-concept-mapping-relation/values/isCongruentWith> ;
+    tcs:mappingRelation tcs:isCongruentWith ;
     tcs:subjectTaxonConcept _:b0 ;
     tcs:objectTaxonConcept [ a tcs:TaxonConcept ;
             dcterms:title "Aspleniaceae sec. Nayar 1970" ;
@@ -215,7 +215,7 @@ This relation type can also be written as the formula **A > B**.
 ```turtle
 # Andropogon glomeratus sec. BONAP 2014 has a proper subset Andropogon tenuispatheus sec. Weakley 2006
 [] a :TaxonConceptMapping ;
-    :mappingRelation <http://rs.tdwg.org/tcs-taxon-concept-mapping-relation/values/includes> ;
+    :mappingRelation tcs:includes ;
     :subjectTaxonConcept [ a :TaxonConcept ;
         dcterms:title "Andropogon glomeratus sec. BONAP 2014" ;
         :taxonName <https://www.ipni.org/n/12850-2> ;
@@ -241,7 +241,7 @@ This relation type can also be written as the formula **A > B**.
 ```turtle
 [] a tcs:TaxonConceptMapping ;
     tcs:mappingAccordingTo <https://doi.org/10.1002/tax.613003> ;
-    tcs:mappingRelation <http://rs.tdwg.org/tcs-taxon-concept-mapping-relation/values/includess> ;
+    tcs:mappingRelation tcs:includess ;
     tcs:subjectTaxonConcept [ a tcs:TaxonConcept ;
             dcterms:title "Diplaziopsidaceae sec. Rothfels & al. 2012" ;
             tcs:accordingTo <https://doi.org/10.1002/tax.613003> ;
@@ -301,7 +301,7 @@ This relation type can also be written as the formula **A < B**.
 ```turtle
 # Andropogon hirsutior sec. BONAP 2014 is a proper subset of Andropogon glomeratus sec. Weakley 2006
 [] a :TaxonConceptMapping ;
-    :mappingRelation <http://rs.tdwg.org/tcs-taxon-concept-mapping-relation/values/isIncludedIn> ;
+    :mappingRelation tcs:isIncludedIn ;
     :subjectTaxonConcept [ a :TaxonConcept ;
         dcterms:title "Andropogon hirsutior sec. BONAP 2014" ;
         :taxonName <https://www.ipni.org/n/60458078-2> ;
@@ -327,7 +327,7 @@ This relation type can also be written as the formula **A < B**.
 ```turtle
 [] a tcs:TaxonConceptMapping ;
     tcs:mappingAccordingTo <https://doi.org/10.1002/tax.613003> ;
-    tcs:mappingRelation <http://rs.tdwg.org/tcs-taxon-concept-mapping-relation/values/isIncludedIn> ;
+    tcs:mappingRelation tcs:isIncludedIn ;
     tcs:subjectTaxonConcept _:b1 ;
     tcs:objectTaxonConcept [ a tcs:TaxonConcept ;
             dcterms:title "Athyriaceae sec. Christenhusz & al. 2011" ;
@@ -341,7 +341,7 @@ _:b1 a tcs:TaxonConcept ;
 
 [] a tcs:TaxonConceptMapping ;
     tcs:mappingAccordingTo <https://doi.org/10.1002/tax.613003> ;
-    tcs:mappingRelation <http://rs.tdwg.org/tcs-taxon-concept-mapping-relation/values/isIncludedIn> ;
+    tcs:mappingRelation tcs:isIncludedIn ;
     tcs:subjectTaxonConcept _:b1 ;
     tcs:objectTaxonConcept [ a tcs:TaxonConcept ;
             dcterms:title "Woodsiaceae sec. Smith & al. 2006" ;
@@ -350,7 +350,7 @@ _:b1 a tcs:TaxonConcept ;
 
 [] a tcs:TaxonConceptMapping ;
     tcs:mappingAccordingTo <https://doi.org/10.1002/tax.613003> ;
-    tcs:mappingRelation <http://rs.tdwg.org/tcs-taxon-concept-mapping-relation/values/isIncludedIn> ;
+    tcs:mappingRelation tcs:isIncludedIn ;
     tcs:subjectTaxonConcept _:b1 ;
     tcs:objectTaxonConcept [ a tcs:TaxonConcept ;
             dcterms:title "Dryopteridaceae sec. Nayar 1970" ;
@@ -359,7 +359,7 @@ _:b1 a tcs:TaxonConcept ;
 
 [] a tcs:TaxonConceptMapping ;
     tcs:mappingAccordingTo <https://doi.org/10.1002/tax.613003> ;
-    tcs:mappingRelation <http://rs.tdwg.org/tcs-taxon-concept-mapping-relation/values/isIncludedIn> ;
+    tcs:mappingRelation tcs:isIncludedIn ;
     tcs:subjectTaxonConcept _:b1 ;
     tcs:objectTaxonConcept [ a tcs:TaxonConcept ;
             dcterms:title "Dennstaedtiaceae sec. Holttum 1947" ;
@@ -420,7 +420,7 @@ This relationship can also be written as the formula **A >< B**.
 # Andropogon glomeratus sec. BONAP 2014 partially overlaps Andropogon glomeratus
 # sec. Weakley 2006
 [] a :TaxonConceptMapping ;
-    :mappingRelation <http://rs.tdwg.org/tcs-taxon-concept-mapping-relation/values/partiallyOverlaps> ;
+    :mappingRelation tcs:partiallyOverlaps ;
     :subjectTaxonConcept [ a :TaxonConcept ;
         dcterms:title "Andropogon glomeratus sec. BONAP 2014" ;
         :taxonName <https://www.ipni.org/n/12850-2> ;
@@ -442,7 +442,7 @@ This relationship can also be written as the formula **A >< B**.
 ```turtle
 [] a tcs:TaxonConceptMapping ;
     tcs:mappingAccordingTo <https://doi.org/10.1002/tax.613003> ;
-    tcs:mappingRelation <http://rs.tdwg.org/tcs-taxon-concept-mapping-relation/values/partiallyOverlaps> ;
+    tcs:mappingRelation tcs:partiallyOverlaps ;
     tcs:subjectTaxonConcept [ a tcs:TaxonConcept ;
             dcterms:title "Diplaziopsidaceae sec. Rothfels & al. 2012" ;
             tcs:accordingTo <https://doi.org/10.1002/tax.613003> ;
@@ -502,7 +502,7 @@ This relationship can also be written as the formula **A | B**.
 ```turtle
 # Andropogon glaucopsis sec. BONAP 2014 is disjoint from Andropogon virginicus sec. Weakley 2006
 [] a :TaxonConceptMapping ;
-    :mappingRelation <http://rs.tdwg.org/tcs-taxon-concept-mapping-relation/values/isDisjointFrom> ;
+    :mappingRelation tcs:isDisjointFrom ;
     :subjectTaxonConcept [ a :TaxonConcept ;
         dcterms:title "Andropogon glaucopsis sec. BONAP 2014" ;
         :taxonName <https://www.ipni.org/n/387942-1> ;
@@ -528,7 +528,7 @@ This relationship can also be written as the formula **A | B**.
 ```turtle
 [] a tcs:TaxonConceptMapping ;
     tcs:mappingAccordingTo <https://www.tropicos.org/reference/9022656> ;
-    tcs:mappingRelation <http://rs.tdwg.org/tcs-taxon-concept-mapping-relation/values/isDisjointFrom> ;
+    tcs:mappingRelation tcs:isDisjointFrom ;
     tcs:subjectTaxonConcept [ a tcs:TaxonConcept ;
             dcterms:title "Campylopus introflexus sec. Koperski & al. 2000" ; 
             tcs:accordingTo <https://www.tropicos.org/reference/9022656> ;
@@ -593,13 +593,13 @@ Quasi-nomenclatural statements like 'pro parte synonym' and 'misapplication', ar
 ```turtle
 [] a tcs:TaxonConceptMapping ;
     tcs:mappingAccordingTo <https://www.jstor.org/stable/23873848> ;
-    tcs:mappingRelation <http://rs.tdwg.org/tcs-taxon-concept-mapping-relation/values/intersects> ;
+    tcs:mappingRelation tcs:intersects ;
     tcs:subjectTaxonConcept <https://id.biodiversity.org.au/instance/apni/545068> ;
     tcs:objectTaxonConcept <https://id.biodiversity.org.au/instance/apni/713514> .
 
 [] a tcs:TaxonConceptMapping ;
     tcs:mappingAccordingTo <https://www.jstor.org/stable/23873848> ;
-    tcs:mappingRelation <http://rs.tdwg.org/tcs-taxon-concept-mapping-relation/values/intersects> ;
+    tcs:mappingRelation tcs:intersects ;
     tcs:subjectTaxonConcept <https://id.biodiversity.org.au/instance/apni/545068> ;
     tcs:objectTaxonConcept [ a tcs:TaxonConcept ;
             dcterms:title "Euphrasia gibbsiae sec. Harris 1970" ;
@@ -610,7 +610,7 @@ Quasi-nomenclatural statements like 'pro parte synonym' and 'misapplication', ar
 
 [] a tcs:TaxonConceptMapping ;
     tcs:mappingAccordingTo <https://www.jstor.org/stable/23873848> ;
-    tcs:mappingRelation <http://rs.tdwg.org/tcs-taxon-concept-mapping-relation/values/intersects> ;
+    tcs:mappingRelation tcs:intersects ;
     tcs:subjectTaxonConcept <https://id.biodiversity.org.au/instance/apni/545068> ;
     tcs:objectTaxonConcept [ a tcs:TaxonConcept ;
             dcterms:title "Euphrasia striata sec. Bentham 1868" ;

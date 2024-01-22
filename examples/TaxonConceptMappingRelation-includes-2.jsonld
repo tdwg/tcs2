@@ -2,7 +2,7 @@
   "@context": "https://raw.githubusercontent.com/tdwg/tcs2/taxon-concept-mapping-object/examples/context.jsonld",
   "type": "TaxonConceptMapping",
   "mappingAccordingTo": { "id": "https://doi.org/10.1002/tax.613003" },
-  "mappingRelation": "tcsrel:includes",
+  "mappingRelation": "includes",
   "subjectTaxonConcept": {
     "type": "TaxonConcept",
     "dcterms:title": "Diplaziopsidaceae sec. Rothfels & al. 2012",

@@ -29,14 +29,3 @@ categories:
     label: Nomenclatural Type
     comments: ''
     display_id: nomenclaturalType
----
-headerFileName: ./static/taxon-concept-mapping-relation-vocabulary-header.md
-footerFileName: ./static/termlist-footer.md
-outFileName: ../docs/taxon-concept-mapping-relation-vocabulary/README.md
-termLists:
-  - filename: tcsTaxonConceptMappingRelation
-    vann_preferredNamespacePrefix: tcreltype
-    vann_preferredNamespaceUri: http://rs.tdwg.org/tcs-taxon-concept-mapping-relation/values/
-categories:
-  - namespace: http://rs.tdwg.org/tcs-taxon-concept-mapping-relation/values/
-    label: Taxon Relationship Type

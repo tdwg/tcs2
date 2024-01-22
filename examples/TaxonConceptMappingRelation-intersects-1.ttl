@@ -6,13 +6,13 @@
 
 [] a tcs:TaxonConceptMapping ;
     tcs:mappingAccordingTo <https://www.jstor.org/stable/23873848> ;
-    tcs:mappingRelation <http://rs.tdwg.org/tcs-taxon-concept-mapping-relation/values/intersects> ;
+    tcs:mappingRelation tcs:intersects ;
     tcs:subjectTaxonConcept <https://id.biodiversity.org.au/instance/apni/545068> ;
     tcs:objectTaxonConcept <https://id.biodiversity.org.au/instance/apni/713514> .
 
 [] a tcs:TaxonConceptMapping ;
     tcs:mappingAccordingTo <https://www.jstor.org/stable/23873848> ;
-    tcs:mappingRelation <http://rs.tdwg.org/tcs-taxon-concept-mapping-relation/values/intersects> ;
+    tcs:mappingRelation tcs:intersects ;
     tcs:subjectTaxonConcept <https://id.biodiversity.org.au/instance/apni/545068> ;
     tcs:objectTaxonConcept [ a tcs:TaxonConcept ;
             dcterms:title "Euphrasia gibbsiae sec. Harris 1970" ;
@@ -23,7 +23,7 @@
 
 [] a tcs:TaxonConceptMapping ;
     tcs:mappingAccordingTo <https://www.jstor.org/stable/23873848> ;
-    tcs:mappingRelation <http://rs.tdwg.org/tcs-taxon-concept-mapping-relation/values/intersects> ;
+    tcs:mappingRelation tcs:intersects ;
     tcs:subjectTaxonConcept <https://id.biodiversity.org.au/instance/apni/545068> ;
     tcs:objectTaxonConcept [ a tcs:TaxonConcept ;
             dcterms:title "Euphrasia striata sec. Bentham 1868" ;

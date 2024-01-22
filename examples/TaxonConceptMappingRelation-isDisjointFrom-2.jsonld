@@ -4,7 +4,7 @@
     {
       "type": "TaxonConceptMapping",
       "mappingAccordingTo": { "id": "https://www.tropicos.org/reference/9022656" },
-      "mappingRelation": "tcsrel:isDisjointFrom",
+      "mappingRelation": "isDisjointFrom",
       "subjectTaxonConcept": {
         "dcterms:title": "Campylopus introflexus sec. Koperski & al. 2000",
         "accordingTo": { "id": "https://www.tropicos.org/reference/9022656" },

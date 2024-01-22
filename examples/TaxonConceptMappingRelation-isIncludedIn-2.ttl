@@ -3,7 +3,7 @@
 
 [] a tcs:TaxonConceptMapping ;
     tcs:mappingAccordingTo <https://doi.org/10.1002/tax.613003> ;
-    tcs:mappingRelation <http://rs.tdwg.org/tcs-taxon-concept-mapping-relation/values/isIncludedIn> ;
+    tcs:mappingRelation tcs:isIncludedIn ;
     tcs:subjectTaxonConcept _:b1 ;
     tcs:objectTaxonConcept [ a tcs:TaxonConcept ;
             dcterms:title "Athyriaceae sec. Christenhusz & al. 2011" ;
@@ -17,7 +17,7 @@ _:b1 a tcs:TaxonConcept ;
 
 [] a tcs:TaxonConceptMapping ;
     tcs:mappingAccordingTo <https://doi.org/10.1002/tax.613003> ;
-    tcs:mappingRelation <http://rs.tdwg.org/tcs-taxon-concept-mapping-relation/values/isIncludedIn> ;
+    tcs:mappingRelation tcs:isIncludedIn ;
     tcs:subjectTaxonConcept _:b1 ;
     tcs:objectTaxonConcept [ a tcs:TaxonConcept ;
             dcterms:title "Woodsiaceae sec. Smith & al. 2006" ;
@@ -26,7 +26,7 @@ _:b1 a tcs:TaxonConcept ;
 
 [] a tcs:TaxonConceptMapping ;
     tcs:mappingAccordingTo <https://doi.org/10.1002/tax.613003> ;
-    tcs:mappingRelation <http://rs.tdwg.org/tcs-taxon-concept-mapping-relation/values/isIncludedIn> ;
+    tcs:mappingRelation tcs:isIncludedIn ;
     tcs:subjectTaxonConcept _:b1 ;
     tcs:objectTaxonConcept [ a tcs:TaxonConcept ;
             dcterms:title "Dryopteridaceae sec. Nayar 1970" ;
@@ -35,7 +35,7 @@ _:b1 a tcs:TaxonConcept ;
 
 [] a tcs:TaxonConceptMapping ;
     tcs:mappingAccordingTo <https://doi.org/10.1002/tax.613003> ;
-    tcs:mappingRelation <http://rs.tdwg.org/tcs-taxon-concept-mapping-relation/values/isIncludedIn> ;
+    tcs:mappingRelation tcs:isIncludedIn ;
     tcs:subjectTaxonConcept _:b1 ;
     tcs:objectTaxonConcept [ a tcs:TaxonConcept ;
             dcterms:title "Dennstaedtiaceae sec. Holttum 1947" ;

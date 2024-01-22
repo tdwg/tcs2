@@ -3,7 +3,7 @@
   "@graph": [
     {
       "type": "TaxonConceptMapping",
-      "mappingRelation": "tcsrel:isIncludedIn",
+      "mappingRelation": "isIncludedIn",
       "subjectTaxonConcept": {
         "dcterms:title": "Andropogon hirsutior sec. BONAP 2014",
         "taxonName": {"id": "https://www.ipni.org/n/60458078-2"},

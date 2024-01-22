@@ -6,7 +6,7 @@
 
 [] a tcs:TaxonConceptMapping ;
     tcs:mappingAccordingTo <https://www.tropicos.org/reference/9022656> ;
-    tcs:mappingRelation <http://rs.tdwg.org/tcs-taxon-concept-mapping-relation/values/isDisjointFrom> ;
+    tcs:mappingRelation tcs:isDisjointFrom ;
     tcs:subjectTaxonConcept [ a tcs:TaxonConcept ;
             dcterms:title "Campylopus introflexus sec. Koperski & al. 2000" ; 
             tcs:accordingTo <https://www.tropicos.org/reference/9022656> ;

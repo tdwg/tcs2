@@ -6,10 +6,6 @@
 
 - [TCS terms](./tcs-terms/)
 
-## Taxon Concept Mapping Relation vocabulary
-
-- [Taxon Concept Mapping Relation Vocabulary](./taxon-concept-mapping-relation-vocabulary)
-
 ## Examples
 
 - [Examples](../examples/)

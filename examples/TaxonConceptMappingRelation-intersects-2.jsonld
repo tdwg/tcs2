@@ -4,7 +4,7 @@
     {
       "type": "TaxonConceptMapping",
       "mappingAccordingTo": { "id": "<https://doi/org/10.2307/3668252" },
-      "mappingRelation": "tcsrel:intersects",
+      "mappingRelation": "intersects",
       "subjectTaxonConcept": {
         "id": "_:b0",
         "type": "TaxonConcept",
@@ -25,7 +25,7 @@
     {
       "type": "TaxonConceptMapping",
       "mappingAccordingTo": { "id": "<https://doi/org/10.2307/3668252" },
-      "mappingRelation": "tcsrel:intersects",
+      "mappingRelation": "intersects",
       "subjectTaxonConcept": { "id": "_:b0" },
       "objectTaxonConcept": {
         "type": "TaxonConcept",
@@ -40,7 +40,7 @@
     {
       "type": "TaxonConceptMapping",
       "mappingAccordingTo": { "id": "<https://doi/org/10.2307/3668252" },
-      "mappingRelation": "tcsrel:intersects",
+      "mappingRelation": "intersects",
       "subjectTaxonConcept": {
         "type": "TaxonConcept",
         "dcterms:title": "Begonia seychellensis sec. Klazenga & al. 1994",

@@ -4,7 +4,7 @@
 
 [] a tcs:TaxonConceptMapping ;
     tcs:mappingAccordingTo <https://doi.org/10.1002/tax.613003> ;
-    tcs:mappingRelation <http://rs.tdwg.org/tcs-taxon-concept-mapping-relation/values/isCongruentWith> ;
+    tcs:mappingRelation tcs:isCongruentWith ;
     tcs:subjectTaxonConcept _:b0 ;
     tcs:objectTaxonConcept [ a tcs:TaxonConcept ;
             dcterms:title "Aspleniaceae sec. Christenhusz & al. 2011" ;
@@ -13,7 +13,7 @@
 
 [] a tcs:TaxonConceptMapping ;
     tcs:mappingAccordingTo <https://doi.org/10.1002/tax.613003> ;
-    tcs:mappingRelation <http://rs.tdwg.org/tcs-taxon-concept-mapping-relation/values/isCongruentWith> ;
+    tcs:mappingRelation tcs:isCongruentWith ;
     tcs:subjectTaxonConcept _:b0 ;
     tcs:objectTaxonConcept [ a tcs:TaxonConcept ;
             dcterms:title "Aspleniaceae sec. Smith & al. 2006" ;
@@ -22,7 +22,7 @@
 
 [] a tcs:TaxonConceptMapping ;
     tcs:mappingAccordingTo <https://doi.org/10.1002/tax.613003> ;
-    tcs:mappingRelation <http://rs.tdwg.org/tcs-taxon-concept-mapping-relation/values/isCongruentWith> ;
+    tcs:mappingRelation tcs:isCongruentWith ;
     tcs:subjectTaxonConcept _:b0 ;
     tcs:objectTaxonConcept [ a tcs:TaxonConcept ;
             dcterms:title "Aspleniaceae sec. Pichi Sermolli 1977" ;
@@ -31,7 +31,7 @@
 
 [] a tcs:TaxonConceptMapping ;
     tcs:mappingAccordingTo <https://doi.org/10.1002/tax.613003> ;
-    tcs:mappingRelation <http://rs.tdwg.org/tcs-taxon-concept-mapping-relation/values/isCongruentWith> ;
+    tcs:mappingRelation tcs:isCongruentWith ;
     tcs:subjectTaxonConcept _:b0 ;
     tcs:objectTaxonConcept [ a tcs:TaxonConcept ;
             dcterms:title "Aspleniaceae sec. Nayar 1970" ;

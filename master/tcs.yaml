@@ -23,21 +23,21 @@
     `isIncludedIn`, `partiallyOverlaps`, `isDisjointFrom` and `intersects`.
 
 
-    The TCS Taxon Concept is applied more broadly than the term is used in 
-    science (e.g. Franz & Peet 2009 
-    [\[franz_perspectives_2009\]](../bibliography/#franz_perspectives_2009)). 
-    On the one hand, things 
-    that are not generally considered to be biological taxa, e.g. hybrids and 
-    cultivars, can be casted as TCS Taxon Concepts. Also Operational Taxonomic 
-    Units (OTUs) [\[sokal_principles_1963\]](../bibliography/#sokal_principles_1963) 
-    can be exchanged as Taxon Concepts, if there is a reason to do so, e.g. if 
-    one wants to align them with other Taxon Concepts later. On the other hand, 
-    entries from treatments that are considered to cite concepts from other 
-    treatments can be formulated as Taxon Concepts. Every taxon concept from a 
-    treatment that is likely to be referenced as the source of taxonomic 
-    context, for example a field guide for a determination of a specimen or a 
-    national census for an ecological study, can – and it would be very nice if 
-    they would – be stated as a Taxon Concept, so they can be aligned with other 
+    The TCS Taxon Concept is applied more broadly than the term is used in
+    science (e.g. Franz & Peet 2009
+    [\[franz_perspectives_2009\]](../bibliography/#franz_perspectives_2009)). On
+    the one hand, things that are not generally considered to be biological
+    taxa, e.g. hybrids and cultivars, can be casted as TCS Taxon Concepts. Also
+    Operational Taxonomic Units (OTUs)
+    [\[sokal_principles_1963\]](../bibliography/#sokal_principles_1963) can be
+    exchanged as Taxon Concepts, if there is a reason to do so, e.g. if one
+    wants to align them with other Taxon Concepts later. On the other hand,
+    entries from treatments that are considered to cite concepts from other
+    treatments can be formulated as Taxon Concepts. Every taxon concept from a
+    treatment that is likely to be referenced as the source of taxonomic
+    context, for example a field guide for a determination of a specimen or a
+    national census for an ecological study, can – and it would be very nice if
+    they would – be stated as a Taxon Concept, so they can be aligned with other
     Taxon Concepts that may provide more or different taxonomic context.
 
 
@@ -131,23 +131,24 @@
     names without having to deal with the Taxon Concepts that were realised
     along with the publication of these names. If one wants to include these
     “original concepts” and indicate a relationship between Taxon Concepts, and
-    the more precise relationship is not provided, the `intersects` property can
+    the more precise relation is not provided, the `intersects` property can
     be used.
 
 
     The terms 'heterotypic synonym' and 'homotypic synonym' from the
     nomenclatural codes ('subjective synonym' and 'objective synonym',
-    respectively, in the Zoological Code) are, in the context of Taxon Concepts,
-    best treated as 'synonyms' and 'combinations', respectively. Combinations
-    are dealt with using the `basionym` and `replacedSynonym` properties. This
-    has the advantage that people do not need to separate heterotypic and
-    homotypic synonyms, or group names around a type, which adds a degree of
-    complexity that not all systems need or want. Avoiding terms that are too
-    strictly defined in the nomenclatural codes also has the advantage that the
-    term can be applied to things that cannot be heterotypic or homotypic
-    synonyms, e.g., to names that are not validly published under the codes, or
-    names of different taxonomic ranks than the accepted name, and avoids
-    inappropriate use of the terms defined in the nomenclatural codes.
+    respectively, in the Zoological Code) are, in the context of Taxon Concepts
+    and Taxon Names, best seen as 'synonyms' and 'combinations', respectively.
+    In TCS, combinations are dealt with using the `basionym` and
+    `replacedSynonym` properties. This has the advantage that people do not need
+    to separate heterotypic and homotypic synonyms, or group names around a
+    type, or generally deal with nomenclature, which adds a degree of complexity
+    that not all systems need or want. Avoiding terms that are too strictly
+    defined in the nomenclatural codes also has the advantage that the term can
+    be applied to things that cannot be heterotypic or homotypic synonyms, e.g.,
+    to names that are not validly published under the codes, or names of
+    different taxonomic ranks than the accepted name, and avoids inappropriate
+    use of the terms defined in the nomenclatural codes.
   examples: 
     - TaxonConcept-synonym-1
     - TaxonConcept-synonym-2
@@ -168,13 +169,14 @@
     `vernacularName` is an IRI term; a Taxon Concept can have more than one 
     `vernacularName`.
   notes: >-
-    The `vernacularName` property can be used when a vernacular name is used 
-    alongside a scientific name, which is the `taxonName`. If a vernacular name 
-    is the only name, the `taxonName` property should be used. The object of the 
-    `vernacularName` property can be a Taxon Name, but another label 
-    object, such as the GBIF [Vernacular Name](https://rs.gbif.org/extension/gbif/1.0/vernacularname.xml), 
-    might be preferrable, especially if there can be multiple vernacular names 
-    for a concept.
+    The `vernacularName` property can be used when a vernacular name is used
+    alongside a scientific name, which is the `taxonName`. If a vernacular name
+    is the only name, the `taxonName` property should be used. The object of the
+    `vernacularName` property can be a Taxon Name, but another label object,
+    such as the GBIF [Vernacular
+    Name](https://rs.gbif.org/extension/gbif/1.0/vernacularname.xml), might be
+    preferrable, especially if there can be multiple vernacular names for a
+    concept.
   examples: 
     - TaxonConcept-vernacularName-1
     - TaxonConcept-vernacularName-2
@@ -230,18 +232,26 @@
   definition: >-
     The subject and object taxon concepts have a congruent taxonomic meaning, 
     i.e. there is no conflict between the concepts
-  usage: null
+  usage: >-
+    `isCongruentWith` can be used as a property on a Taxon Concept object, or as
+    the value of the `mappingRelation` property on a Taxon Concept Mapping
+    object. In both cases both the subject and object are Taxon Concepts.
   notes: >-
-    The `isCongruentWith` property allows one to do a taxon concept mapping
-    without having to create a Taxon Concept Mapping object. This can be done
-    when the mapping is done in the same publication as one of the Taxon
-    Concepts that are mapped, as in this case the subject and according to from
-    the mapping are obtained from the Taxon Concept. For more details, see the
-    [`isCongruentWith`](../taxon-concept-mapping-relation-vocabulary/#tcreltypeiscongruentwith)
-    controlled term in the Taxon Concept Mapping Relation Vocabulary.
+    The `isCongruentWith` relation is symmetrical, so if A `isCongruentWith` B
+    then B `isCongruentWith` A, as well as transitive, so if A `isCongruentWith`
+    B and B `isCongruentWith` C it follows that A `isCongruentWith` C.
+
+
+    ![](../media/taxon-relationship-type-is-congruent-with.jpg)
+
+
+    This relation can also be written as the formula **A &cong; B** or **A
+    == B**.
   examples: 
     - TaxonConcept-isCongruentWith-1
+    - TaxonConceptMappingRelation-isCongruentWith-2
     - TaxonConcept-isCongruentWith-3
+    - TaxonConceptMappingRelation-isCongruentWith-1
   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonConcept
   repeatable: Yes
   required: No
@@ -250,139 +260,183 @@
 
 # property: includes
 - localName: includes
-  type: http://www.w3.org/2004/02/skos/core#Concept
+  type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
   label: Includes
   definition: >-
     The subject taxon concept has a more inclusive taxonomic meaning than
     the object taxon concept
+  usage: >-
+    `includes` can be used as a property on a Taxon Concept object, or as the
+    value of the `mappingRelation` property on a Taxon Concept Mapping object.
+    In both cases both the subject and object are Taxon Concepts.
   notes: >-
-    The `includes` property allows one to do a taxon concept mapping without
-    having to create a Taxon Concept Mapping object. This can be done when the
-    mapping is done in the same publication as one of the Taxon Concepts that
-    are mapped, as in this case the subject and according to from the mapping
-    are obtained from the Taxon Concept. For more details, see the
-    [`includes`](../taxon-concept-mapping-relation-vocabulary/#tcreltypeincludes)
-    controlled term in the Taxon Concept Mapping Relation Vocabulary.
+    The `includes` relation is not symmetric, its inverse relation being
+    `isIncludedIn`, so if A `includes` B then B `isIncludedIn` A. The `includes`
+    relation  is transitive, so if A `includes` B and B `includes` C it follows
+    that A `includes` C.
+
+
+    ![](../media/taxon-relationship-type-includes.jpg)
+
+
+    This relation type can also be written as the formula **A > B**.
   examples: 
     - TaxonConcept-includes-1
+    - TaxonConceptMappingRelation-includes-2
+    - TaxonConceptMappingRelation-includes-1
   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonConcept
   repeatable: Yes
   required: No
-  type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
   github: 53
 
 # controlled term: isIncludedIn
 - localName: isIncludedIn
-  type: http://www.w3.org/2004/02/skos/core#Concept
+  type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
   label: is included in
   definition: >-
     The subject taxon concept has a less inclusive taxonomic meaning than the 
     object taxon concept
+  usage: >-
+    `isIncludedIn` can be used as a property on a Taxon Concept object, or as
+    the value of the `mappingRelation` property on a Taxon Concept Mapping
+    object. In both cases both the subject and object are Taxon Concepts.
   notes: >-
-    The `isIncludedIn` property allows one to do a taxon concept mapping without
-    having to create a Taxon Concept Mapping object. This can be done when the
-    mapping is done in the same publication as one of the Taxon Concepts that
-    are mapped, as in this case the subject and according to from the mapping
-    are obtained from the Taxon Concept. For more details, see the
-    [`isIncludedIn`](../taxon-concept-mapping-relation-vocabulary/#tcreltypeisincludedin)
-    controlled term in the Taxon Concept Mapping Relation Vocabulary.
+    The `isIncludedIn` relation is not symmetric, its inverse relation being
+    `includes`, so if A `isIncludedIn` B then B `includes` A. The `isIncludedIn`
+    relation  is transitive, so if A `isIncludedIn` B and B `isIncludedIn` C it
+    follows that A `isIncludedIn` C.
+
+
+    ![](../media/taxon-relationship-type-is-included-in.jpg)
+
+
+    This relation type can also be written as the formula **A < B**.
   examples: 
     - TaxonConcept-isIncludedIn-1
+    - TaxonConceptMappingRelation-isIncludedIn-2
+    - TaxonConceptMappingRelation-isIncludedIn-1
   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonConcept
   repeatable: Yes
   required: No
-  type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
   github: 54
 
 # property: partiallyOverlaps
 - localName: partiallyOverlaps
-  type: http://www.w3.org/2004/02/skos/core#Concept
+  type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
   label: partially overlaps
   definition: >-
     The subject and object taxon concepts have partially overlapping taxonomic 
     meanings, _i.e._ they have some members in common, but each concept in 
     addition has members that are not included in the other concept
+  usage: >-
+    `partiallyOverlaps` can be used as a property on a Taxon Concept object, or
+    as the value of the `mappingRelation` property on a Taxon Concept Mapping
+    object. In both cases both the subject and object are Taxon Concepts.
   notes: >-
-    The `partiallyOverlaps` property allows one to do a taxon concept mapping
-    without having to create a Taxon Concept Mapping object. This can be done
-    when the mapping is done in the same publication as one of the Taxon
-    Concepts that are mapped, as in this case the subject and according to from
-    the mapping are obtained from the Taxon Concept. For more details, see the
-    [`partiallyOverlaps`](../taxon-concept-mapping-relation-vocabulary/#tcreltypepartiallyoverlaps)
-    controlled term in the Taxon Concept Mapping Relation Vocabulary.
+    The `partiallyOverlaps` relation is symmetrical, so if A `partiallyOverlaps`
+    B then B `partiallyOverlaps` A, but not transitive, so, if A
+    `partiallyOverlaps` B and B `partiallyOverlaps` C, it does not follow that A
+    `partiallyOverlaps` C.
+
+
+    ![](../media/taxon-relationship-type-partially-overlaps.jpg)
+
+
+    This relation can also be written as the formula **A >< B**.
   examples:
     - TaxonConcept-partiallyOverlaps-1
+    - TaxonConceptMappingRelation-partiallyOverlaps-2
+    - TaxonConceptMappingRelation-partiallyOverlaps-1
   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonConcept
   repeatable: Yes
   required: No
-  type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
   github: 55
 
 # property: isDisjointFrom
 - localName: isDisjointFrom
-  type: http://www.w3.org/2004/02/skos/core#Concept
+  type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
   label: is disjoint from
   definition: >-
     The subject and objects taxon concepts have non-overlapping taxonomic 
     meanings, _i.e._ they do not have any members in common
+  usage: >-
+    `isDisjointFrom` can be used as a property on a Taxon Concept object, or as
+    the value of the `mappingRelation` property on a Taxon Concept Mapping
+    object. In both cases both the subject and object are Taxon Concepts.
   notes: >-
-    The `isDisjointFrom` property allows one to do a taxon concept mapping
-    without having to create a Taxon Concept Mapping object. This can be done
-    when the mapping is done in the same publication as one of the Taxon
-    Concepts that are mapped, as in this case the subject and according to from
-    the mapping are obtained from the Taxon Concept. For more details, see the
-    [`isDisjointFrom`](../taxon-concept-mapping-relation-vocabulary/#tcreltypeisdisjointfrom)
-    controlled term in the Taxon Concept Mapping Relation Vocabulary.
+    The `isDisjointFrom`  relation is symmetrical, so if A `isDisjointFrom` 
+    B then B `isDisjointFrom` A, but not transitive, so, if A `isDisjointFrom` 
+    B and B `isDisjointFrom` C, it does not follow that A `isDisjointFrom` C.
+
+
+    ![](../media/taxon-relationship-type-is-disjoint-from.jpg)
+
+
+    This relation can also be written as the formula **A | B**.
   examples:
     - TaxonConcept-isDisjointFrom
+    - TaxonConceptMappingRelation-isDisjointFrom-2
+    - TaxonConceptMappingRelation-isDisjointFrom-1
   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonConcept
   repeatable: Yes
   required: No
-  type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
   github: 56
 
 # property: intersects
 - localName: intersects
-  type: http://www.w3.org/2004/02/skos/core#Concept
+  type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
   label: Intersects
   definition: >-
     The taxonomic meanings of the subject and object taxon concepts intersect, 
     _i.e._ they have at least one member in common.
-  usage: null
+  usage: >-
+    `intersects` can be used as a property on a Taxon Concept object, or as the
+    value of the `mappingRelation` property on a Taxon Concept Mapping object.
+    In both cases both the subject and object are Taxon Concepts.
   notes: >-
-    The `intersects` property allows one to do a taxon concept mapping without
-    having to create a Taxon Concept Mapping object. This can be done when the
-    mapping is done in the same publication as one of the Taxon Concepts that
-    are mapped, as in this case the subject and according to from the mapping
-    are obtained from the Taxon Concept. For more details, see the
-    [`intersects`](../taxon-concept-mapping-relation-vocabulary/#tcreltypeintersects)
-    controlled term in the Taxon Concept Mapping Relation Vocabulary.
+    `intersects` is the opposite of `isDisjointFrom` and the union of
+    `isCongruentWith`, `includes`, `isIncludedIn` and `partiallyOverlaps`,
+    meaning it can be any of these relations. This relation can be used when the
+    more precise nature of the relationship is not known.
+
+
+    Quasi-nomenclatural statements like 'pro parte synonym', 'partial synonym'
+    and 'misapplication', are Taxon Concept Mappings, no matter how imperfect,
+    and, in TCS, are best dealt with using the `intersects` relation. In fact,
+    all 'traditional synonymy' relationships, cf. Berendsohn & al. (2000
+    [\[berendsohn_berlin_2003\]](../bibliography/#berendsohn_berlin_2003)), can
+    be dealt with using `intersects`. Also, citations of references in
+    treatments are, in the context of TCS, best dealt with using the
+    `intersects` relation.
   examples:
     - TaxonConcept-intersects-1
+    - TaxonConceptMappingRelation-intersects-1
     - TaxonConcept-intersects-2
     - TaxonConcept-intersects-3
   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonConcept
   repeatable: Yes
   required: No
-  type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
   github: 57
 
 # class: TaxonConceptMapping
 - localName: TaxonConceptMapping
   label: Taxon concept mapping
-  definition: Mapping or alignment of two Taxon Concepts
+  definition: >-
+    Alignment or mapping of two Taxon Concepts in different taxonomies or
+    different versions of a taxonomy
   usage: When using this class all properties are required
   notes: >-
-    The Taxon Concept Mapping class allows for adding an 'according to' to a
-    concept mapping and therefore alows for third-party mappings. Applications
-    might prefer to always use the Taxon Concept Mapping class rather than the
-    mapping properties, as it allows for treating all mappings the same way.
+    The Taxon Concept Mapping class is syntactic sugar that allows for adding
+    extra data to a taxon concept mapping statement. As it allows for adding an
+    'according to' to a concept mapping it can be used for third-party mappings.
+    While structurally very similar to the Darwin Core Resource Relationship
+    class, it is different in that instances of the Taxon Concept Mapping class
+    are meaningful as standalone objects.
   type: http://www.w3.org/2000/01/rdf-schema#Class
   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonConceptMapping
   required: null
   repeatable: null
   github: 43
-
 
 # property: mappingAccordingTo
 - localName: mappingAccordingTo
@@ -392,10 +446,7 @@
   usage: >-
     `mappingAccordingTo` is an IRI term and is required; a Taxon 
     Concept Mapping can have only one `mappingAccordingTo`.
-  notes: >-
-    In the case of Taxon Relationships from traditional synonymy, the 
-    `relationshipAccordingTo` is the same as the `accordingTo` of the Taxon 
-    Concept that is the `subjectTaxonConcept`.
+  notes: null
   type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonConceptMapping
   required: Yes

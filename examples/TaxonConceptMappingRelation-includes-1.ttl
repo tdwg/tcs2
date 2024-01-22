@@ -1,24 +1,24 @@
-@prefix : <http://rs.tdwg.org/tcs/terms/> .
+@prefix tcs: <http://rs.tdwg.org/tcs/terms/> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix dwc: <http://rs.tdwg.org/dwc/terms/> .
 
 # Andropogon glomeratus sec. BONAP 2014 has a proper subset Andropogon tenuispatheus sec. Weakley 2006
-[] a :TaxonConceptMapping ;
-    :mappingRelation <http://rs.tdwg.org/tcs-taxon-concept-mapping-relation/values/includes> ;
-    :subjectTaxonConcept [ a :TaxonConcept ;
+[] a tcs:TaxonConceptMapping ;
+    tcs:mappingAccordingTo <https://doi.org/10.3233/SW-160220> ;
+    tcs:mappingRelation tcs:includes ;
+    tcs:subjectTaxonConcept [ a tcs:TaxonConcept ;
         dcterms:title "Andropogon glomeratus sec. BONAP 2014" ;
-        :taxonName <https://www.ipni.org/n/12850-2> ;
-        :accordingTo <http://bonap.net/napa#2014> ] ;
-    :objectTaxonConcept [ a :TaxonConcept ;
+        tcs:taxonName <https://www.ipni.org/n/12850-2> ;
+        tcs:accordingTo <http://bonap.net/napa#2014> ] ;
+    tcs:objectTaxonConcept [ a tcs:TaxonConcept ;
         dcterms:title "Andropogon tenuispatheus sec. Weakley 2006" ;
-        :taxonName <https://www.ipni.org/n/13093-2> ;
-        :accordingTo <http://www.herbarium.unc.edu/FloraArchives/WeakleyFlora_2006-Jan.pdf> ] ;
-    :mappingAccordingTo <https://doi.org/10.3233/SW-160220> .
+        tcs:taxonName <https://www.ipni.org/n/13093-2> ;
+        tcs:accordingTo <http://www.herbarium.unc.edu/FloraArchives/WeakleyFlora_2006-Jan.pdf> ] .
 
-<https://www.ipni.org/n/12850-2> a :TaxonName ;
-    :taxonNameString "Andropogon glomeratus" ;
+<https://www.ipni.org/n/12850-2> a tcs:TaxonName ;
+    tcs:taxonNameString "Andropogon glomeratus" ;
     dwc:scientificNameAuthorship "Britton, Sterns & Poggenb." .
 
-<https://www.ipni.org/n/13093-2> a :TaxonName ;
-    :taxonNameString "Andropogon tenuispatheus" ;
+<https://www.ipni.org/n/13093-2> a tcs:TaxonName ;
+    tcs:taxonNameString "Andropogon tenuispatheus" ;
     dwc:scientificNameAuthorship "Nash" .
