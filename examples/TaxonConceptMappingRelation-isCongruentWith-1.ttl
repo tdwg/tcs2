@@ -4,6 +4,7 @@
 
 # Andropogon capillipes sec. BONAP 2014 is congruent with Andropogon capillipes sec. Weakley 2006
 [] a tcs:TaxonConceptMapping ;
+    tcs:mappingAccordingTo <https://doi.org/10.3233/SW-160220> ;
     tcs:mappingRelation tcs:isCongruentWith ;
     tcs:subjectTaxonConcept [ a tcs:TaxonConcept ;
         dcterms:title "Andropogon capillipes sec. BONAP 2014" ;
@@ -12,9 +13,4 @@
     tcs:objectTaxonConcept [ a tcs:TaxonConcept ;
         dcterms:title "Andropogon capillipes sec. Weakley 2006" ;
         tcs:taxonName <https://www.ipni.org/n/12781-2> ;
-        tcs:accordingTo <http://www.herbarium.unc.edu/FloraArchives/WeakleyFlora_2006-Jan.pdf> ] ;
-    tcs:mappingAccordingTo <https://doi.org/10.3233/SW-160220> .
-
-<https://www.ipni.org/n/12781-2> a tcs:TaxonName ;
-    tcs:taxonNameString "Andropogon capillipes" ;
-    dwc:scientificNameAuthorship "Nash" .
+        tcs:accordingTo <http://www.herbarium.unc.edu/FloraArchives/WeakleyFlora_2006-Jan.pdf> ] .

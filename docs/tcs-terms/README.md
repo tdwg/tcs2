@@ -823,6 +823,7 @@ This relation can also be written as the formula **A &cong; B** or **A == B**.
 ```turtle
 # Andropogon capillipes sec. BONAP 2014 is congruent with Andropogon capillipes sec. Weakley 2006
 [] a tcs:TaxonConceptMapping ;
+    tcs:mappingAccordingTo <https://doi.org/10.3233/SW-160220> ;
     tcs:mappingRelation tcs:isCongruentWith ;
     tcs:subjectTaxonConcept [ a tcs:TaxonConcept ;
         dcterms:title "Andropogon capillipes sec. BONAP 2014" ;
@@ -831,12 +832,7 @@ This relation can also be written as the formula **A &cong; B** or **A == B**.
     tcs:objectTaxonConcept [ a tcs:TaxonConcept ;
         dcterms:title "Andropogon capillipes sec. Weakley 2006" ;
         tcs:taxonName <https://www.ipni.org/n/12781-2> ;
-        tcs:accordingTo <http://www.herbarium.unc.edu/FloraArchives/WeakleyFlora_2006-Jan.pdf> ] ;
-    tcs:mappingAccordingTo <https://doi.org/10.3233/SW-160220> .
-
-<https://www.ipni.org/n/12781-2> a tcs:TaxonName ;
-    tcs:taxonNameString "Andropogon capillipes" ;
-    dwc:scientificNameAuthorship "Nash" .
+        tcs:accordingTo <http://www.herbarium.unc.edu/FloraArchives/WeakleyFlora_2006-Jan.pdf> ] .
 ```
 
 [&lsqb;TaxonConceptMappingRelation-isCongruentWith-1.ttl&rsqb;](../../examples/TaxonConceptMappingRelation-isCongruentWith-1.ttl)&nbsp;[&lsqb;TaxonConceptMappingRelation-isCongruentWith-1.jsonld&rsqb;](../../examples/TaxonConceptMappingRelation-isCongruentWith-1.jsonld)
@@ -1074,6 +1070,7 @@ _:b1 a tcs:TaxonConcept ;
 ```turtle
 # Andropogon hirsutior sec. BONAP 2014 is a proper subset of Andropogon glomeratus sec. Weakley 2006
 [] a tcs:TaxonConceptMapping ;
+    tcs:mappingAccordingTo <https://doi.org/10.3233/SW-160220> ;
     tcs:mappingRelation tcs:isIncludedIn ;
     tcs:subjectTaxonConcept [ a tcs:TaxonConcept ;
         dcterms:title "Andropogon hirsutior sec. BONAP 2014" ;
@@ -1082,16 +1079,7 @@ _:b1 a tcs:TaxonConcept ;
     tcs:objectTaxonConcept [ a tcs:TaxonConcept ;
         dcterms:title "Andropogon glomeratus sec. Weakley 2006" ;
         tcs:taxonName <https://www.ipni.org/n/12850-2> ;
-        tcs:accordingTo <http://www.herbarium.unc.edu/FloraArchives/WeakleyFlora_2006-Jan.pdf> ] ;
-    tcs:mappingAccordingTo <https://doi.org/10.3233/SW-160220> .
-
-<https://www.ipni.org/n/60458078-2> a tcs:TaxonName ;
-    tcs:taxonNameString "Andropogon hirsutior" ;
-    dwc:scientificNameAuthorship "(Hack.) Weakley & LeBlond" .
-
-<https://www.ipni.org/n/12850-2> a tcs:TaxonName ;
-    tcs:taxonNameString "Andropogon glomeratus" ;
-    dwc:scientificNameAuthorship "Britton, Sterns & Poggenb." .
+        tcs:accordingTo <http://www.herbarium.unc.edu/FloraArchives/WeakleyFlora_2006-Jan.pdf> ] .
 ```
 
 [&lsqb;TaxonConceptMappingRelation-isIncludedIn-1.ttl&rsqb;](../../examples/TaxonConceptMappingRelation-isIncludedIn-1.ttl)&nbsp;[&lsqb;TaxonConceptMappingRelation-isIncludedIn-1.jsonld&rsqb;](../../examples/TaxonConceptMappingRelation-isIncludedIn-1.jsonld)
@@ -1179,6 +1167,7 @@ This relation can also be written as the formula **A >< B**.
 # Andropogon glomeratus sec. BONAP 2014 partially overlaps Andropogon glomeratus
 # sec. Weakley 2006
 [] a tcs:TaxonConceptMapping ;
+    tcs:mappingAccordingTo <https://doi.org/10.3233/SW-160220> ;
     tcs:mappingRelation tcs:partiallyOverlaps ;
     tcs:subjectTaxonConcept [ a tcs:TaxonConcept ;
         dcterms:title "Andropogon glomeratus sec. BONAP 2014" ;
@@ -1187,12 +1176,7 @@ This relation can also be written as the formula **A >< B**.
     tcs:objectTaxonConcept [ a tcs:TaxonConcept ;
         dcterms:title "Andropogon glomeratus sec. Weakley 2006" ;
         tcs:taxonName <https://www.ipni.org/n/12850-2> ;
-        tcs:accordingTo <http://www.herbarium.unc.edu/FloraArchives/WeakleyFlora_2006-Jan.pdf> ] ;
-    tcs:mappingAccordingTo <https://doi.org/10.3233/SW-160220> .
-
-<https://www.ipni.org/n/12850-2> a tcs:TaxonName ;
-    tcs:taxonNameString "Andropogon glomeratus" ;
-    dwc:scientificNameAuthorship "Britton, Sterns & Poggenb." .
+        tcs:accordingTo <http://www.herbarium.unc.edu/FloraArchives/WeakleyFlora_2006-Jan.pdf> ] .
 ```
 
 [&lsqb;TaxonConceptMappingRelation-partiallyOverlaps-1.ttl&rsqb;](../../examples/TaxonConceptMappingRelation-partiallyOverlaps-1.ttl)&nbsp;[&lsqb;TaxonConceptMappingRelation-partiallyOverlaps-1.jsonld&rsqb;](../../examples/TaxonConceptMappingRelation-partiallyOverlaps-1.jsonld)
@@ -1297,6 +1281,7 @@ This relation can also be written as the formula **A | B**.
 ```turtle
 # Andropogon glaucopsis sec. BONAP 2014 is disjoint from Andropogon virginicus sec. Weakley 2006
 [] a tcs:TaxonConceptMapping ;
+    tcs:mappingAccordingTo <https://doi.org/10.3233/SW-160220> ;
     tcs:mappingRelation tcs:isDisjointFrom ;
     tcs:subjectTaxonConcept [ a tcs:TaxonConcept ;
         dcterms:title "Andropogon glaucopsis sec. BONAP 2014" ;
@@ -1305,16 +1290,7 @@ This relation can also be written as the formula **A | B**.
     tcs:objectTaxonConcept [ a tcs:TaxonConcept ;
         dcterms:title "Andropogon virginicus sec. Weakley 2006" ;
         tcs:taxonName <https://www.ipni.org/n/388740-1> ;
-        tcs:accordingTo <http://www.herbarium.unc.edu/FloraArchives/WeakleyFlora_2006-Jan.pdf> ] ;
-    tcs:mappingAccordingTo <https://doi.org/10.3233/SW-160220> .
-
-<https://www.ipni.org/n/387942-1> a tcs:TaxonName ;
-    tcs:taxonNameString "Andropogon glaucopsis" ;
-    dwc:scientificNameAuthorship "Steud." .
-
-<https://www.ipni.org/n/388740-1> a tcs:TaxonName ;
-    tcs:taxonNameString "Andropogon virginicus" ;
-    dwc:scientificNameAuthorship "L." .
+        tcs:accordingTo <http://www.herbarium.unc.edu/FloraArchives/WeakleyFlora_2006-Jan.pdf> ] .
 ```
 
 [&lsqb;TaxonConceptMappingRelation-isDisjointFrom-1.ttl&rsqb;](../../examples/TaxonConceptMappingRelation-isDisjointFrom-1.ttl)&nbsp;[&lsqb;TaxonConceptMappingRelation-isDisjointFrom-1.jsonld&rsqb;](../../examples/TaxonConceptMappingRelation-isDisjointFrom-1.jsonld)
@@ -1402,11 +1378,22 @@ Quasi-nomenclatural statements like 'pro parte synonym', 'partial synonym' and '
 
 
 ```turtle
+<https://id.biodiversity.org.au/instance/apni/545068> a tcs:TaxonConcept ;
+    dcterms:title "Euphrasia gibbsiae sec. Barker 1982" ;
+    tcs:accordingTo <https://www.jstor.org/stable/23873848> ;
+    tcs:taxonName <https://www.ipni.org/n/802545-1> ;
+    tcs:synonym <https://www.ipni.org/n/802619-1> .
+
 [] a tcs:TaxonConceptMapping ;
     tcs:mappingAccordingTo <https://www.jstor.org/stable/23873848> ;
     tcs:mappingRelation tcs:intersects ;
     tcs:subjectTaxonConcept <https://id.biodiversity.org.au/instance/apni/545068> ;
     tcs:objectTaxonConcept <https://id.biodiversity.org.au/instance/apni/713514> .
+
+<https://id.biodiversity.org.au/instance/apni/713514> a tcs:TaxonConcept ;
+    dcterms:title "Euphrasia gibbsiae sec. Curtis 1967" ;
+    tcs:accordingTo <https://id.biodiversity.org.au/reference/apni/23028> ;
+    tcs:taxonName <https://www.ipni.org/n/802545-1> .
 
 [] a tcs:TaxonConceptMapping ;
     tcs:mappingAccordingTo <https://www.jstor.org/stable/23873848> ;
@@ -1430,17 +1417,6 @@ Quasi-nomenclatural statements like 'pro parte synonym', 'partial synonym' and '
             tcs:taxonName <https://www.ipni.org/n/802876-1> ] ;
     rdfs:comment """p.p. (as to Stuart 1745, Milligan MEL41451, p.p., Mueller 
             MEL41539)""" .
-
-<https://id.biodiversity.org.au/instance/apni/545068> a tcs:TaxonConcept ;
-    dcterms:title "Euphrasia gibbsiae sec. Barker 1982" ;
-    tcs:accordingTo <https://www.jstor.org/stable/23873848> ;
-    tcs:taxonName <https://www.ipni.org/n/802545-1> ;
-    tcs:synonym <https://www.ipni.org/n/802619-1> .
-
-<https://id.biodiversity.org.au/instance/apni/713514> a tcs:TaxonConcept ;
-    dcterms:title "Euphrasia gibbsiae sec. Curtis 1967" ;
-    tcs:accordingTo <https://id.biodiversity.org.au/reference/apni/23028> ;
-    tcs:taxonName <https://www.ipni.org/n/802545-1> .
 ```
 
 [&lsqb;TaxonConceptMappingRelation-intersects-1.ttl&rsqb;](../../examples/TaxonConceptMappingRelation-intersects-1.ttl)&nbsp;[&lsqb;TaxonConceptMappingRelation-intersects-1.jsonld&rsqb;](../../examples/TaxonConceptMappingRelation-intersects-1.jsonld)
