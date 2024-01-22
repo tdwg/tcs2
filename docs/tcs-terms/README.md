@@ -356,7 +356,7 @@ The object of `taxonName` is an object or IRI, so that it can be reused in  othe
 
 Synonyms are names and synonymy is between names but, if the names have different nomenclatural types, a Taxon Concept is required. Therefore, `synonym` is a property of the Taxon Concept class. `synonym` is used here in the strict meaning that the type of a name falls within a Taxon Concept. The same goes for the accepted name and therefore `synonym` has the same relationship to Taxon Concept as `taxonName`. This allows one to dispose of names without having to deal with the Taxon Concepts that were realised along with the publication of these names. If one wants to include these “original concepts” and indicate a relationship between Taxon Concepts, and the more precise relation is not provided, the `intersects` property can be used.
 
-The terms 'heterotypic synonym' and 'homotypic synonym' from the nomenclatural codes ('subjective synonym' and 'objective synonym', respectively, in the Zoological Code) are, in the context of Taxon Concepts and Taxon Names, best seen as 'synonyms' and 'combinations', respectively. In TCS, combinations are dealt with using the `basionym` and `replacedSynonym` properties. This has the advantage that people do not need to separate heterotypic and homotypic synonyms, or group names around a type, or generally deal with nomenclature, which adds a degree of complexity that not all systems need or want. Avoiding terms that are too strictly defined in the nomenclatural codes also has the advantage that the term can be applied to things that cannot be heterotypic or homotypic synonyms, e.g., to names that are not validly published under the codes, or names of different taxonomic ranks than the accepted name, and avoids inappropriate use of the terms defined in the nomenclatural codes.
+The terms 'heterotypic synonym' and 'homotypic synonym' from the nomenclatural codes ('subjective synonym' and 'objective synonym', respectively, in the Zoological Code) are, in the context of Taxon Concepts and Taxon Names, best seen as 'synonyms' and 'combinations', respectively. In TCS, combinations are dealt with using the `basionym` property. This has the advantage that people do not need to separate heterotypic and homotypic synonyms, or group names around a type, or generally deal with nomenclature, which adds a degree of complexity that not all systems need or want. Avoiding terms that are too strictly defined in the nomenclatural codes also has the advantage that the term can be applied to things that cannot be heterotypic or homotypic synonyms, e.g., to names that are not validly published under the codes, or names of different taxonomic ranks than the accepted name, and avoids inappropriate use of the terms defined in the nomenclatural codes.
 
 
 **Examples**
@@ -1251,7 +1251,7 @@ This relation can also be written as the formula **A | B**.
 # here.
 ```
 
-[&lsqb;TaxonConcept-isDisjointFrom.ttl&rsqb;](../../examples/TaxonConcept-isDisjointFrom.ttl)&nbsp;[&lsqb;TaxonConcept-isDisjointFrom.jsonld&rsqb;](../../examples/TaxonConcept-isDisjointFrom.jsonld)
+[&lsqb;TaxonConcept-isDisjointFrom-1.ttl&rsqb;](../../examples/TaxonConcept-isDisjointFrom-1.ttl)&nbsp;[&lsqb;TaxonConcept-isDisjointFrom-1.jsonld&rsqb;](../../examples/TaxonConcept-isDisjointFrom-1.jsonld)
 
 
 ```turtle
