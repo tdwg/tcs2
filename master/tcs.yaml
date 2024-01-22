@@ -138,9 +138,9 @@
     The terms 'heterotypic synonym' and 'homotypic synonym' from the
     nomenclatural codes ('subjective synonym' and 'objective synonym',
     respectively, in the Zoological Code) are, in the context of Taxon Concepts
-    and Taxon Names, best seen as 'synonyms' and 'combinations', respectively.
-    In TCS, combinations are dealt with using the `basionym` property. This has
-    the advantage that people do not need to separate heterotypic and homotypic
+    and Taxon Names, best seen as synonyms and combinations, respectively. In
+    TCS, combinations are dealt with using the `basionym` property. This has the
+    advantage that people do not need to separate heterotypic and homotypic
     synonyms, or group names around a type, or generally deal with nomenclature,
     which adds a degree of complexity that not all systems need or want.
     Avoiding terms that are too strictly defined in the nomenclatural codes also
