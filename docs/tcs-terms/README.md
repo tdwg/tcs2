@@ -445,7 +445,7 @@ The terms 'heterotypic synonym' and 'homotypic synonym' from the nomenclatural c
 
 <https://www.ipni.org/n/811835-1> a tcs:TaxonName ;
     tcs:taxonNameString "Veronica colensoi" ;
-    dwc:scientificNameAuthorship "Hook'f." ;
+    dwc:scientificNameAuthorship "Hook.f." ;
     dwc:namePublishedIn "Handb. N. Zeal. Fl. 209. (1864)" .
 
 <https://www.ipni.org/n/812087-1> a tcs:TaxonName ;
