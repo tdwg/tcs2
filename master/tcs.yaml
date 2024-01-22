@@ -374,7 +374,7 @@
 
     This relation can also be written as the formula **A | B**.
   examples:
-    - TaxonConcept-isDisjointFrom
+    - TaxonConcept-isDisjointFrom-1
     - TaxonConceptMappingRelation-isDisjointFrom-2
     - TaxonConceptMappingRelation-isDisjointFrom-1
   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonConcept
