@@ -1400,6 +1400,17 @@ Quasi-nomenclatural statements like 'pro parte synonym', 'partial synonym' and '
     tcs:mappingRelation tcs:intersects ;
     tcs:subjectTaxonConcept <https://id.biodiversity.org.au/instance/apni/545068> ;
     tcs:objectTaxonConcept [ a tcs:TaxonConcept ;
+            dcterms:title "Euphrasia gibbsiae sec. Willis 1970" ;
+            tcs:accordingTo <https://www.biodiversitylibrary.org/page/49934392> ;
+            tcs:taxonName <https://www.ipni.org/n/802545-1> ] ;
+    rdfs:comment """p.p. (as to Tasmanian occurrences and f. subglabrifolia in 
+            Victoria)"""
+
+[] a tcs:TaxonConceptMapping ;
+    tcs:mappingAccordingTo <https://www.jstor.org/stable/23873848> ;
+    tcs:mappingRelation tcs:intersects ;
+    tcs:subjectTaxonConcept <https://id.biodiversity.org.au/instance/apni/545068> ;
+    tcs:objectTaxonConcept [ a tcs:TaxonConcept ;
             dcterms:title "Euphrasia gibbsiae sec. Harris 1970" ;
             tcs:accordingTo [ a dcterms:BibliographicResource ;
                     dcterms:bibliographicCitation "Harris, Alp. Pl. Austral. (1970)" ] ;
@@ -1431,9 +1442,24 @@ Quasi-nomenclatural statements like 'pro parte synonym', 'partial synonym' and '
     tcs:intersects [ rdf:value <https://id.biodiversity.org.au/instance/apni/713514> ;
             rdfs:comment """p.p. (as to Tasmanian occurrences and f. 
                     subglabrifolia in Victoria)""" ] ,
-        [ rdf:value _:tc3 ;
+        [ rdf:value [ a tcs:TaxonConcept ;
+                    dcterms:title "Euphrasia gibbsiae sec. Harris 1970" ;
+                    tcs:accordingTo [ a dcterms:BibliographicResource ;
+                            dcterms:bibliographicCitation "Harris, Alp. Pl. Austral. (1970)" ] ;
+                    tcs:taxonName <https://www.ipni.org/n/802545-1> ] ;
             rdfs:comment """p.p. (excl. "f. comberi" in Victoria)""" ] ,
-        [ rdf:value _:tc9 ;
+        [ rdf:value [ a tcs:TaxonConcept ;
+                    dcterms:title "Euphrasia gibbsiae sec. Harris 1970" ;
+                    tcs:accordingTo [ a dcterms:BibliographicResource ;
+                            dcterms:bibliographicCitation "Harris, Alp. Pl. Austral. (1970)" ] ;
+                    tcs:taxonName <https://www.ipni.org/n/802545-1> ] ;
+            rdfs:comment """p.p. (as to Tasmanian occurrences and f. 
+                    subglabrifolia in Victoria)""" ] ;
+        [ rdf:value [ a tcs:TaxonConcept ;
+                    dcterms:title "Euphrasia striata sec. Bentham 1868" ;
+                    tcs:accordingTo [ a dcterms:BibliographicResource ;
+                            dcterms:bibliographicCitation "Bentham, Fl. Austral. (1868)" ] ;
+                    tcs:taxonName <https://www.ipni.org/n/802876-1> ] ;
             rdfs:comment """p.p. (as to Stuart 1745, Milligan MEL41451, p.p., 
                     Mueller MEL41539)""" ] .
 

@@ -28,6 +28,19 @@
       "subjectTaxonConcept": { "id": "https://id.biodiversity.org.au/instance/apni/545068" },
       "objectTaxonConcept": {
         "type": "TaxonConcept",
+        "dcterms:title": "Euphrasia gibbsiae sec. Willis 1967",
+        "accordingTo": { "id": "https://www.biodiversitylibrary.org/page/49934392" },
+        "taxonName": { "id": "https://www.ipni.org/n/802545-1" }
+      },
+      "rdfs:comment": "p.p. (as to Tasmanian occurrences and f. subglabrifolia in Victoria)"
+    },
+    {
+      "type": "TaxonConceptMapping",
+      "mappingAccordingTo": { "id": "https://www.jstor.org/stable/23873848" },
+      "mappingRelation": "intersects",
+      "subjectTaxonConcept": { "id": "https://id.biodiversity.org.au/instance/apni/545068" },
+      "objectTaxonConcept": {
+        "type": "TaxonConcept",
         "dcterms:title": "Euphrasia gibbsiae sec. Harris 1970",
         "accordingTo": { 
           "type": "dcterms:BibliographicResource",

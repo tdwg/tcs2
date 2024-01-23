@@ -27,6 +27,17 @@
     tcs:mappingRelation tcs:intersects ;
     tcs:subjectTaxonConcept <https://id.biodiversity.org.au/instance/apni/545068> ;
     tcs:objectTaxonConcept [ a tcs:TaxonConcept ;
+            dcterms:title "Euphrasia gibbsiae sec. Willis 1970" ;
+            tcs:accordingTo <https://www.biodiversitylibrary.org/page/49934392> ;
+            tcs:taxonName <https://www.ipni.org/n/802545-1> ] ;
+    rdfs:comment """p.p. (as to Tasmanian occurrences and f. subglabrifolia in 
+            Victoria)"""
+
+[] a tcs:TaxonConceptMapping ;
+    tcs:mappingAccordingTo <https://www.jstor.org/stable/23873848> ;
+    tcs:mappingRelation tcs:intersects ;
+    tcs:subjectTaxonConcept <https://id.biodiversity.org.au/instance/apni/545068> ;
+    tcs:objectTaxonConcept [ a tcs:TaxonConcept ;
             dcterms:title "Euphrasia gibbsiae sec. Harris 1970" ;
             tcs:accordingTo [ a dcterms:BibliographicResource ;
                     dcterms:bibliographicCitation "Harris, Alp. Pl. Austral. (1970)" ] ;
