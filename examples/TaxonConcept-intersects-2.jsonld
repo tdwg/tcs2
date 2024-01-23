@@ -7,14 +7,11 @@
   "synonym": { "id": "https://www.ipni.org/n/802619-1" },
   "intersects": [
     {
-      "rdf:value": {
-        "id": "https://id.biodiversity.org.au/instance/apni/713514",
-        "type": "TaxonConcept",
-        "dcterms:title": "Euphrasia gibbsiae sec. Curtis 1967",
-        "accordingTo": { "id": "https://id.biodiversity.org.au/reference/apni/23028" },
-        "taxonName": { "id": "https://www.ipni.org/n/802545-1" }
-      },
-      "rdfs:comment": "p.p. (as to Tasmanian occurrences and f. subglabrifolia in Victoria)"
+      "id": "https://id.biodiversity.org.au/instance/apni/713514",
+      "type": "TaxonConcept",
+      "dcterms:title": "Euphrasia gibbsiae sec. Curtis 1967",
+      "accordingTo": { "id": "https://id.biodiversity.org.au/reference/apni/23028" },
+      "taxonName": { "id": "https://www.ipni.org/n/802545-1" }
     },
     {
       "rdf:value": {

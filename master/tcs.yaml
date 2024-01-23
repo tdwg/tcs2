@@ -411,8 +411,8 @@
     `intersects` relation.
   examples:
     - TaxonConcept-intersects-1
-    - TaxonConceptMappingRelation-intersects-1
     - TaxonConcept-intersects-2
+    - TaxonConceptMappingRelation-intersects-1
     - TaxonConcept-intersects-3
   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonConcept
   repeatable: Yes
