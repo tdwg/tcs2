@@ -766,6 +766,11 @@ This relation can also be written as the formula **A &cong; B** or **A == B**.
 
 
 ```turtle
+_:b0  a tcs:TaxonConcept ;
+    dcterms:title "Aspleniaceae sec. Rothfels & al. 2012" ;
+    tcs:accordingTo <https://doi.org/10.1002/tax.613003> ;
+    tcs:taxonName <https://ipni.org/n/30001382-2> .
+
 [] a tcs:TaxonConceptMapping ;
     tcs:mappingAccordingTo <https://doi.org/10.1002/tax.613003> ;
     tcs:mappingRelation tcs:isCongruentWith ;
