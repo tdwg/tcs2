@@ -356,7 +356,7 @@ The object of `taxonName` is an object or IRI, so that it can be reused in  othe
 
 Synonyms are names and synonymy is between names but, unless the names have the same nomenclatural type, the context of a Taxon Concept is needed to establish which names are synonyms of each other. Therefore, `synonym` is a property of the Taxon Concept class. `synonym` is used here in the strict meaning that the type of a name falls within a Taxon Concept. The same goes for the accepted name and therefore `synonym` has the same relationship to Taxon Concept as `taxonName`. This means one can use names without having to deal with the original Taxon Concepts for which the name was published as a label. If one wants to include these “original concepts” and indicate a relationship between Taxon Concepts, and the more precise relation is not provided, the `intersects` relation can be used.
 
-The terms 'heterotypic synonym' and 'homotypic synonym' from the nomenclatural codes ('subjective synonym' and 'objective synonym', respectively, in the Zoological Code) are, in the context of Taxon Concepts and Taxon Names, best understood as synonyms (relations between Taxon Concepts and Taxon Names) and combinations (relations between Taxon Names), respectively. In TCS, combinations are dealt with using the `basionym` property. This has the advantage that people do not need to separate heterotypic and homotypic synonyms, or generally deal with nomenclature, which adds a degree of complexity that not all systems need or want. Avoiding terms that are too strictly defined in the nomenclatural codes also has the advantage that the term can be applied to things that cannot be heterotypic or homotypic synonyms, e.g., to names that are not validly published under the codes, or names of different taxonomic ranks than the accepted name, and avoids inappropriate use of the terms defined in the nomenclatural codes.
+The terms 'heterotypic synonym' and 'homotypic synonym' from the nomenclatural codes ('subjective synonym' and 'objective synonym', respectively, in the Zoological Code) are, in the context of Taxon Concepts and Taxon Names, best understood as synonyms (relations between Taxon Concepts and Taxon Names) and combinations (relations between Taxon Names), respectively. In TCS, combinations are dealt with using the `basionym` property. This has the advantage that people do not need to separate heterotypic and homotypic synonyms, or generally deal with nomenclature, which adds a degree of complexity that not all systems need or want. Avoiding terms that are too strictly defined in the nomenclatural codes also has the advantage that the term can, in principle, be applied to things that cannot be heterotypic or homotypic synonyms, e.g., to names that are not validly published under the codes, or names of different taxonomic ranks than the accepted name, and avoids inappropriate use of the terms defined in the nomenclatural codes.
 
 
 **Examples**
@@ -1775,7 +1775,7 @@ This is the Taxon Concept at the right-hand side of the statement.
 
 **Comments**
 
-The word 'name' here is taken in its dictionary meaning and not in the  sense of a particular nomenclatural code. This means that the Taxon Name  class can be used for any type of name, not just names that are validly  published under the relevant nomenclatural code.
+The word 'name' here is taken in its dictionary meaning and not in the sense of a particular nomenclatural code. This means that the Taxon Name class can, in principle, be used for any type of name, not just names that are validly published under the relevant nomenclatural code.
 
 
 **Examples**
@@ -2051,7 +2051,7 @@ This is the IRI equivalent of the Darwin Core `nomenclaturalStatus`. In the  abs
 		</tr>
 		<tr>
 			<td>Usage</td>
-			<td><p>A <code>basionym</code> is another Taxon Name; a Taxon Name can have only one  <code>basionym</code>.</p></td>
+			<td><p>A <code>basionym</code> is another Taxon Name; a Taxon Name can have only one <code>basionym</code>.</p></td>
 		</tr>
 		<tr>
 			<td>GitHub issue</td>
@@ -2063,7 +2063,7 @@ This is the IRI equivalent of the Darwin Core `nomenclaturalStatus`. In the  abs
 
 **Comments**
 
-A basionym is the epithet-bringing name.  The `basionym` property is only  used for new combinations ('comb. nov.'). If the new name is a replacement  name ('nom. nov.') the `replacedName` property should be used  instead.
+A basionym is the epithet-bringing name.  The `basionym` property is only used for new combinations ('comb. nov.'). If the new name is a replacement name ('nom. nov.') the `replacedName` property should be used instead. It should also be noted that a basionym is always a different name: a name cannot be its own basionym.
 
 
 **Examples**
@@ -2313,7 +2313,7 @@ In the Botanical Code the term 'replaced synonym' is used. A 'replacement  name'
 
 **Comments**
 
-The `spellingCorrectionOf` property can be used if the originally published  name string, or another established name string, is not spelt correctly  according to the current version of the relevant Code. It can link an  established spelling of a name to the correctly spelt name where other name  relationship properties cannot. `spellingCorrectionOf` is not the same as  an orthographic variant. An orthographic variant is a valid name in another  publication, while a spelling correction is generally for a correctable  error in the original publication. 
+The `spellingCorrectionOf` property can be used if the originally published  name string, or another established name string, is not spelt correctly  according to the current version of the relevant Code. It can link an  established spelling of a name to the correctly spelt name where other name  relation properties cannot.
 
 
 **Examples**

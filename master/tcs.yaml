@@ -145,11 +145,11 @@
     heterotypic and homotypic synonyms, or generally deal with nomenclature,
     which adds a degree of complexity that not all systems need or want.
     Avoiding terms that are too strictly defined in the nomenclatural codes also
-    has the advantage that the term can be applied to things that cannot be
-    heterotypic or homotypic synonyms, e.g., to names that are not validly
-    published under the codes, or names of different taxonomic ranks than the
-    accepted name, and avoids inappropriate use of the terms defined in the
-    nomenclatural codes.
+    has the advantage that the term can, in principle, be applied to things that
+    cannot be heterotypic or homotypic synonyms, e.g., to names that are not
+    validly published under the codes, or names of different taxonomic ranks
+    than the accepted name, and avoids inappropriate use of the terms defined in
+    the nomenclatural codes.
   examples: 
     - TaxonConcept-synonym-1
     - TaxonConcept-synonym-2
@@ -508,10 +508,10 @@
     A TCS Taxon Name requires either a `taxonNameString` or 
     `dwc:scientificName`.
   notes: >-
-    The word 'name' here is taken in its dictionary meaning and not in the 
-    sense of a particular nomenclatural code. This means that the Taxon Name 
-    class can be used for any type of name, not just names that are validly 
-    published under the relevant nomenclatural code.
+    The word 'name' here is taken in its dictionary meaning and not in the sense
+    of a particular nomenclatural code. This means that the Taxon Name class
+    can, in principle, be used for any type of name, not just names that are
+    validly published under the relevant nomenclatural code.
   examples: 
     - TaxonName-1
     - TaxonName-2
@@ -624,18 +624,19 @@
   label: Basionym
   definition: Original name on which the present name is based.
   usage: >-
-    A `basionym` is another Taxon Name; a Taxon Name can have only one 
+    A `basionym` is another Taxon Name; a Taxon Name can have only one
     `basionym`.
   notes: >-
-    A basionym is the epithet-bringing name.  The `basionym` property is only 
-    used for new combinations ('comb. nov.'). If the new name is a replacement 
-    name ('nom. nov.') the `replacedName` property should be used 
-    instead.
+    A basionym is the epithet-bringing name.  The `basionym` property is only
+    used for new combinations ('comb. nov.'). If the new name is a replacement
+    name ('nom. nov.') the `replacedName` property should be used instead. It
+    should also be noted that a basionym is always a different name: a name
+    cannot be its own basionym.
   examples: 
     - TaxonName-basionym-1
     - TaxonName-basionym-2
-  required: No
   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonName
+  required: No
   repeatable: No
   type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
   github: 36
@@ -678,10 +679,7 @@
     name string, or another established name string, is not spelt correctly 
     according to the current version of the relevant Code. It can link an 
     established spelling of a name to the correctly spelt name where other name 
-    relationship properties cannot. `spellingCorrectionOf` is not the same as 
-    an orthographic variant. An orthographic variant is a valid name in another 
-    publication, while a spelling correction is generally for a correctable 
-    error in the original publication. 
+    relation properties cannot.
   examples:
     - TaxonName-spellingCorrectionOf-1
     - TaxonName-spellingCorrectionOf-2
