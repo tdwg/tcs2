@@ -1,6 +1,6 @@
 # Taxon Concept Schema vocabularies
 
-![](../assets/tcs_diagram_20231005.svg)
+![](./media/tcs-diagram-20240205.svg)
 
 ## Term list
 
