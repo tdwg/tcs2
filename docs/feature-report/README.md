@@ -37,10 +37,9 @@ Ontology).
 
 By elevating the values from the Taxon Relationship type enumeration to
 first-class TCS properties and leaving the syntax out of the standard, people
-can choose whether to hang them off the subject Taxon Concept, or use them as
-controlled values a "relationship type" property of a utility object outside
-TCS, for example the Darwin Core Resource Relationship class. The terms have the
-same meaning, no matter what syntax is used.
+can choose whether to hang them off the subject Taxon Concept, or use them in a
+utility object outside TCS, for example the Darwin Core Resource Relationship
+class. The terms have the same meaning, no matter what syntax is used.
 
 We currently recognise the following relations between the major objects in TCS:
 
