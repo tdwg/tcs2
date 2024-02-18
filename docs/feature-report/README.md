@@ -154,14 +154,15 @@ DataSet/TaxonConcepts/TaxonConcept/Name/@ref | [tc:hasName](https://github.com/t
 DataSet/TaxonConcepts/TaxonConcept/AccordingTo/AccordingToDetailed | [  tc:accordingTo](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonConcept.ttl#L50) | [accordingTo](https://github.com/tdwg/tcs2/tree/master/docs/tcs-terms#tcsaccordingto)
 DataSet/TaxonConcepts/TaxonConcept/AccordingTo/AccordingToSimple | [tc:accordingToString](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonConcept.ttl#L58) | &mdash;
 
-### Taxon Relationship
+### Taxon Relationship / Taxon Relationship Assertion
 
 TCS 1 | TDWG Ontology | TCS 2 
 -|-|-
 DataSet/TaxonConcepts/TaxonConcept/TaxonRelationships/TaxonRelationship \| DataSet/TaxonRelationshipAssertions/TaxonRelationshipAssertion | [tc:Relationship](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonConcept.ttl#L42) | [dwc:ResourceRelationship](http://rs.tdwg.org/dwc/terms/ResourceRelationship)
 DataSet/TaxonConcepts/TaxonConcept/Relationships/Relationship/@type \| DataSet/TaxonRelationshipAssertions/TaxonRelationshipAssertion/@type | [tc:relationshipCategory](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonConcept.ttl#L128) | &mdash;
 DataSet/TaxonRelationshipAssertions/TaxonRelationshipAssertion/FromTaxonConcept | [tc:fromTaxon](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonConcept.ttl#L94) | &mdash;
-DataSet/TaxonRelationshipAssertions/TaxonRelationshipAssertion/ToTaxonConcept | [tc:toTaxon](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonConcept.ttl#L134) | &mdash;
+DataSet/TaxonRelationshipAssertions/TaxonRelationshipAssertion/ToTaxonConcept \| DataSet/TaxonConcepts/TaxonConcept/TaxonRelationships/TaxonRelationship/ToTaxonConcept | [tc:toTaxon](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonConcept.ttl#L134) | &mdash;
+DataSet/TaxonRelationshipAssertions/TaxonRelationshipAssertion/AccordingTo | &mdash; | &mdash;
 
 ### Taxon Relationship Type
 
