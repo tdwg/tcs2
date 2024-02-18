@@ -617,19 +617,19 @@ The `vernacularName` property can be used when a vernacular name is used alongsi
     tcs:vernacularName [ a gbif:VernacularName ; 
             dwc:vernacularName "Scrub Cypress-pine" ;
             dcterms:language "en" ;
-            gbif:isPreferredName: <http://rs.gbif.org/vocab/boolean/true> ] ,
+            gbif:isPreferredName <http://rs.gbif.org/vocab/boolean/true> ] ,
         [ a gbif:VernacularName ; 
             dwc:vernacularName "Mallee Pine" ;
             dcterms:language "en" ;
-            gbif:isPreferredName: <http://rs.gbif.org/vocab/boolean/false> ] ,
+            gbif:isPreferredName <http://rs.gbif.org/vocab/boolean/false> ] ,
         [ a gbif:VernacularName ; 
             dwc:vernacularName "Cow Pine" ;
             dcterms:language "en" ;
-            gbif:isPreferredName: <http://rs.gbif.org/vocab/boolean/false> ] ,
+            gbif:isPreferredName <http://rs.gbif.org/vocab/boolean/false> ] ,
         [ a gbif:VernacularName ; 
             dwc:vernacularName "Turpentine Pine" ;
             dcterms:language "en" ;
-            gbif:isPreferredName: <http://rs.gbif.org/vocab/boolean/false> ] .
+            gbif:isPreferredName <http://rs.gbif.org/vocab/boolean/false> ] .
 
 <https://www.ipni.org/n/134460-3> a tcs:TaxonName ;
     tcs:taxonNameString "Callitris verrucosa" ;
