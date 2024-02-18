@@ -156,7 +156,7 @@ DataSet/TaxonConcepts/TaxonConcept/AccordingTo/AccordingToSimple | [tc:according
 
 ### Taxon Relationship
 
-TCS1 | TDWG Ontology | TCS 2 
+TCS 1 | TDWG Ontology | TCS 2 
 -|-|-
 DataSet/TaxonConcepts/TaxonConcept/TaxonRelationships/TaxonRelationship \| DataSet/TaxonRelationshipAssertions/TaxonRelationshipAssertion | [tc:Relationship](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonConcept.ttl#L42) | [dwc:ResourceRelationship](http://rs.tdwg.org/dwc/terms/ResourceRelationship)
 DataSet/TaxonConcepts/TaxonConcept/Relationships/Relationship/@type \| DataSet/TaxonRelationshipAssertions/TaxonRelationshipAssertion/@type | [tc:relationshipCategory](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonConcept.ttl#L128) | &mdash;
@@ -165,7 +165,7 @@ DataSet/TaxonRelationshipAssertions/TaxonRelationshipAssertion/ToTaxonConcept | 
 
 ### Taxon Relationship Type
 
-TCS1 | TDWG Ontology | TCS 2 
+TCS 1 | TDWG Ontology | TCS 2 
 -|-|-
 //TaxonRelationship[@type=”is congruent to”] | [tc:isCongruentTo](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonConcept.ttl#L252) | [isCongruentWit](https://github.com/tdwg/tcs2/tree/master/docs/tcs-terms#tcsiscongruentwith)
 //TaxonRelationship[@type=”is&nbsp;not&nbsp;congruent&nbsp;to”] | [tc:isNotCongruentTo](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonConcept.ttl#L299) | &mdash;
@@ -198,7 +198,7 @@ TCS1 | TDWG Ontology | TCS 2
 
 ### Taxon Name
 
-TCS1 | TDWG Ontology | TCS 2 
+TCS 1 | TDWG Ontology | TCS 2 
 -|-|-
 DataSet/TaxonNames/TaxonName | [tn:TaxonName](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L29) | **[TaxonName](https://github.com/tdwg/tcs2/tree/master/docs/tcs-terms#tcstaxonname)**
 DataSet/TaxonNames/TaxonName/@nomenclaturalCode | [tn:nomenclaturalCode](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L173) | [nomenclaturalCode](https://github.com/tdwg/tcs2/tree/master/docs/tcs-terms#tcsnomenclaturalcode)
@@ -234,7 +234,7 @@ DataSet/TaxonNames/TaxonName/PublicationStatus | [tn:publicationStatus](https://
 
 ### Typification
 
-TCS1 | TDWG Ontology | TCS 2 
+TCS 1 | TDWG Ontology | TCS 2 
 -|-|-
 DataSet/TaxonNames/TaxonName/Typification/TypeVouchers/TypeVoucher \| DataSet/TaxonNames/TaxonName/Typification/TypeName | [tn:NomenclaturalType](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L45) | **[NomenclaturalType](https://github.com/tdwg/tcs2/tree/master/docs/tcs-terms#tcsnomenclaturaltype)**
 &mdash; | &mdash; | [typifiedName](https://github.com/tdwg/tcs2/tree/master/docs/tcs-terms#tcstypifiedname)
