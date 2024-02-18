@@ -1,0 +1,41 @@
+{
+  "@context": "https://raw.githubusercontent.com/tdwg/tcs2/taxon-concept-mapping-object/examples/context.jsonld",
+  "id": "https://www.catalogueoflife.org/data/taxon/BRKHX",
+  "type": "TaxonConcept",
+  "dcterms:title": "Megalorhipida leucodactylus sec. Gielis & Hobern 2023-01-05",
+  "accordingTo": { "id": "https://doi.org/10.48580/dfry-3gd#1.1.23.5" },
+  "taxonName": { 
+    "type": "TaxonName",
+    "dwc:scientificName": "Megalorhipida leucodactylus (Fabricius, 1794)",
+    "basionym": { "id": "https://zoobank.org/NomenclaturalActs/39b2f236-3914-4962-9dcc-f594671654bd" }
+  },
+  "intersects": [
+    {
+      "type": "TaxonConcept",
+      "dcterms:title": "Pterophorus congrualis sec. Walker 1864",
+      "accordingTo": { "id": "https://www.biodiversitylibrary.org/page/38948425" },
+      "taxonName": {
+        "type": "TaxonName",
+        "dwc:scientificName": "Pterophorus congrualis Walker, 1864"
+      }
+    },
+    {
+      "type": "TaxonConcept",
+      "dcterms:title": "Pterophorus leucodactylus sec. Gielis & al. 2022",
+      "accordingTo": {
+        "type": "bibo:Book",
+        "dcterms:bibliographicCitation": "Gielis, C., Franssen, M., Groenen, F., & Wangdi, K. (2022). Moths of Bhutan. 1–420."
+      },
+      "taxonName": { "id": "https://zoobank.org/NomenclaturalActs/39b2f236-3914-4962-9dcc-f594671654bd" } 
+    },
+    {
+      "type": "TaxonConcept",
+      "dcterms:title": "Pterophorus leucodactylus sec. Ustjuzhanin & al. 2022",
+      "accordingTo": {
+        "type": "bibo:AcademicArticle",
+        "dcterms:bibliographicCitation": "Ustjuzhanin, P., Kovtunovich V. & Streltzov, A. (2022). Review on the fauna of Pterophoridae of the Republic of Guinea (Lepidoptera: Pterophoridae). SHILAP Revista De Lepidopterología, 50(199), 435–439."
+      },
+      "taxonName": { "id": "https://zoobank.org/NomenclaturalActs/39b2f236-3914-4962-9dcc-f594671654bd" } 
+    }
+  ]
+}

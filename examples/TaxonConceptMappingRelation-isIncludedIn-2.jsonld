@@ -1,0 +1,59 @@
+{
+  "@context": "https://raw.githubusercontent.com/tdwg/tcs2/taxon-concept-mapping-object/examples/context.jsonld",
+  "@graph": [
+    {
+      "type": "TaxonConceptMapping",
+      "mappingAccordingTo": { "id": "https://doi.org/10.3233/SW-160220" },
+      "mappingRelation": "isIncludedIn",
+      "subjectTaxonConcept": { "id": "_:b1" },
+      "objectTaxonConcept": {
+        "dcterms:title": "Athyriaceae sec. Christenhusz & al. 2011",
+        "accordingTo": { "id": "https://doi.org/10.11646/phytotaxa.19.1.2" },
+        "taxonName": { "id": "https://ipni.org/n/30000361-2" }
+      }
+    },
+    {
+      "id": "_:b1",
+      "type": "TaxonConcept",
+      "dcterms:title": "Athyriaceae sec. Rothfels & al. 2012",
+      "accordingTo": { "id": "https://doi.org/10.1002/tax.613003" },
+      "taxonName": { "id": "https://ipni.org/n/30000361-2" }
+    },
+    {
+      "type": "TaxonConceptMapping",
+      "mappingAccordingTo": { "id": "https://doi.org/10.3233/SW-160220" },
+      "mappingRelation": "isIncludedIn",
+      "subjectTaxonConcept": { "id": "_:b1" },
+      "objectTaxonConcept": {
+        "dcterms:title": "Woodsiaceae sec. Smith & al. 2006",
+        "accordingTo": { "id": "https://doi.org/10.2307/25065646" },
+        "taxonName": { "id": "https://ipni.org/n/30000455-2" }
+      }
+    },
+    {
+      "type": "TaxonConceptMapping",
+      "mappingAccordingTo": { "id": "https://doi.org/10.3233/SW-160220" },
+      "mappingRelation": "isIncludedIn",
+      "subjectTaxonConcept": { "id": "_:b1" },
+      "objectTaxonConcept": {
+        "dcterms:title": "Dryopteridaceae sec. Nayar 1970",
+        "accordingTo": { "id": "https://doi.org/10.2307/1217958" },
+        "taxonName": { "id": "https://www.ipni.org/n/30014148-2" }
+      }
+    },
+    {
+      "type": "TaxonConceptMapping",
+      "mappingAccordingTo": { "id": "https://doi.org/10.3233/SW-160220" },
+      "mappingRelation": "isIncludedIn",
+      "subjectTaxonConcept": { "id": "_:b1" },
+      "objectTaxonConcept": {
+        "dcterms:title": "Dennstaedtiaceae sec. Holttum 1947",
+        "accordingTo": {
+          "type": "dcterms:BibliographicResource",
+          "dcterms:bibliographicCitation": "Holttum, R.E. (1947). A revised classification of leptosporangiate ferns. Journal of the Linnean Society. Botany 53: 123–155."
+        },
+        "taxonName": { "id": "https://ipni.org/n/17434830-1" }
+      }
+    }
+  ]
+}

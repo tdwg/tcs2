@@ -1,0 +1,55 @@
+{
+  "@context": "https://raw.githubusercontent.com/tdwg/tcs2/taxon-concept-mapping-object/examples/context.jsonld",
+  "@graph": [
+    {
+      "id": "_:b0",
+      "type": "TaxonConcept",
+      "accordingTo": { "id": "https://doi.org/10.1002/tax.613003" },
+      "taxonName": { "id": "https://ipni.org/n/30001382-2" }
+    },
+    {
+      "type": "TaxonConceptMapping",
+      "mappingAccordingTo": { "id": "https://doi.org/10.1002/tax.613003" },
+      "mappingRelation": "isCongruentWith",
+      "subjectTaxonConcept": { "id": "_:b0" },
+      "objectTaxonConcept": {
+        "dcterms:title": "Aspleniaceae sec. Christenhusz & al. 2011",
+        "accordingTo": { "id": "https://doi.org/10.11646/phytotaxa.19.1.2" },
+        "taxonName": { "id": "https://ipni.org/n/30001382-2" }
+      }
+    },
+    {
+      "type": "TaxonConceptMapping",
+      "mappingAccordingTo": { "id": "https://doi.org/10.1002/tax.613003" },
+      "mappingRelation": "isCongruentWith",
+      "subjectTaxonConcept": { "id": "_:b0" },
+      "objectTaxonConcept": {
+        "dcterms:title": "Aspleniaceae sec. Smith & al. 2006",
+        "accordingTo": { "id": "https://doi.org/10.2307/25065646" },
+        "taxonName": { "id": "https://ipni.org/n/30001382-2" }
+      }
+    },
+    {
+      "type": "TaxonConceptMapping",
+      "mappingAccordingTo": { "id": "https://doi.org/10.1002/tax.613003" },
+      "mappingRelation": "isCongruentWith",
+      "subjectTaxonConcept": { "id": "_:b0" },
+      "objectTaxonConcept": {
+        "dcterms:title": "Aspleniaceae sec. Pichi Sermolli 1977",
+        "accordingTo": { "id": "https://doi.org/10.1080/00837792.1977.10670077" },
+        "taxonName": { "id": "https://ipni.org/n/30001382-2" }
+      }
+    },
+    {
+      "type": "TaxonConceptMapping",
+      "mappingAccordingTo": { "id": "https://doi.org/10.1002/tax.613003" },
+      "mappingRelation": "isCongruentWith",
+      "subjectTaxonConcept": { "id": "_:b0" },
+      "objectTaxonConcept": {
+        "dcterms:title": "Aspleniaceae sec. Nayar 1970",
+        "accordingTo": { "id": "https://doi.org/10.2307/1217958" },
+        "taxonName": { "id": "https://ipni.org/n/30001382-2" }
+      }
+    }
+  ]
+}
