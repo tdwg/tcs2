@@ -2,6 +2,13 @@
   "@context": "https://raw.githubusercontent.com/tdwg/tcs2/taxon-concept-mapping-object/examples/context.jsonld",
   "@graph": [
     {
+      "id": "_:b1",
+      "type": "TaxonConcept",
+      "dcterms:title": "Athyriaceae sec. Rothfels & al. 2012",
+      "accordingTo": { "id": "https://doi.org/10.1002/tax.613003" },
+      "taxonName": { "id": "https://ipni.org/n/30000361-2" }
+    },
+    {
       "type": "TaxonConceptMapping",
       "mappingAccordingTo": { "id": "https://doi.org/10.3233/SW-160220" },
       "mappingRelation": "isIncludedIn",
@@ -11,13 +18,6 @@
         "accordingTo": { "id": "https://doi.org/10.11646/phytotaxa.19.1.2" },
         "taxonName": { "id": "https://ipni.org/n/30000361-2" }
       }
-    },
-    {
-      "id": "_:b1",
-      "type": "TaxonConcept",
-      "dcterms:title": "Athyriaceae sec. Rothfels & al. 2012",
-      "accordingTo": { "id": "https://doi.org/10.1002/tax.613003" },
-      "taxonName": { "id": "https://ipni.org/n/30000361-2" }
     },
     {
       "type": "TaxonConceptMapping",
