@@ -709,10 +709,13 @@
 - localName: laterHomonymOf
   label: Later homonym of
   definition: >-
-    An older legitimate name with the same spelling
+    An older legitimate name with the same spelling but a different
+    nomenclatural type
   usage: >-
     `laterHomonymOf` is another Taxon Name object
-  notes:
+  notes: >-
+    If there are more than two homonyms, the oldest one should be given here. In
+    zoology, this is the _senior homonym_.
   type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonName
   required: No

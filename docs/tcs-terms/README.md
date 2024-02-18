@@ -2449,7 +2449,7 @@ The `spellingCorrectionOf` property can be used if the originally published  nam
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td><p>An older legitimate name with the same spelling</p></td>
+			<td><p>An older legitimate name with the same spelling but a different nomenclatural type</p></td>
 		</tr>
 		<tr>
 			<td>Usage</td>
@@ -2461,6 +2461,11 @@ The `spellingCorrectionOf` property can be used if the originally published  nam
 		</tr>
 	</tbody>
 </table>
+
+
+**Comments**
+
+If there are more than two homonyms, the oldest one should be given here. In zoology, this is the _senior homonym_.
 
 ### tcs:conservedAgainst
 
