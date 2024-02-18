@@ -949,7 +949,7 @@ This relation type can also be written as the formula **A > B**.
 
 
 ```turtle
-# Andropogon glomeratus sec. BONAP 2014 has a proper subset Andropogon tenuispatheus sec. Weakley 2006
+# Andropogon glomeratus sec. BONAP 2014 includes Andropogon tenuispatheus sec. Weakley 2006
 [] a tcs:TaxonConceptMapping ;
     tcs:mappingAccordingTo <https://doi.org/10.3233/SW-160220> ;
     tcs:mappingRelation tcs:includes ;
@@ -1100,7 +1100,7 @@ _:b1 a tcs:TaxonConcept ;
 
 
 ```turtle
-# Andropogon hirsutior sec. BONAP 2014 is a proper subset of Andropogon glomeratus sec. Weakley 2006
+# Andropogon hirsutior sec. BONAP 2014 is included in Andropogon glomeratus sec. Weakley 2006
 [] a tcs:TaxonConceptMapping ;
     tcs:mappingAccordingTo <https://doi.org/10.3233/SW-160220> ;
     tcs:mappingRelation tcs:isIncludedIn ;
