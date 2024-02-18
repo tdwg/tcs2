@@ -608,7 +608,6 @@
   usage: >-
     `nomenclaturalStatus` takes an IRI or object; a Taxon Name can have only one 
     `nomenclaturalStatus`.
-
   notes: >-
     This is the IRI equivalent of the Darwin Core `nomenclaturalStatus`. In the 
     absence of a TDWG vocabulary, it is recommended to use a value from the GBIF 
@@ -619,6 +618,22 @@
   required: No
   repeatable: No
   github: 35
+
+# property: typification
+- localName: typification
+  label: Typification
+  definition: >-
+    Designation of a nomenclatural type for a name
+  notes: >-
+    The `typification` property can be used for citation of a type (or types) as
+    written in the publication in which the typified name was published.
+    Alternatively, or in addition, the Nomenclatural Type object can be used for
+    to link a typified name to a type name or type specimen.
+  type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+  organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonName
+  required: No
+  repeatable: No
+  github: 223
 
 # property: basionym
 - localName: basionym
@@ -689,6 +704,20 @@
   required: No
   repeatable: Yes
   github: 224
+
+# property: laterHomonymOf
+- localName: laterHomonymOf
+  label: Later homonym of
+  definition: >-
+    An older legitimate name with the same spelling
+  usage: >-
+    `laterHomonymOf` is another Taxon Name object
+  notes:
+  type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+  organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonName
+  required: No
+  repeatable: No
+  github: 229
 
 # property: conservedAgainst
 - localName: conservedAgainst
