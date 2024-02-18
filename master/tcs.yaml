@@ -49,6 +49,7 @@
     - TaxonConcept-3
     - TaxonConcept-4
     - TaxonConcept-5
+    - TaxonConcept-6
   type: http://www.w3.org/2000/01/rdf-schema#Class
   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonConcept
   required: null

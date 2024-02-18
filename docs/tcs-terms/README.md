@@ -155,6 +155,33 @@ By contrast, entries in the nomenclature section of treatments (synonyms)  and i
 
 [&lsqb;TaxonConcept-5.ttl&rsqb;](../../examples/TaxonConcept-5.ttl)&nbsp;[&lsqb;TaxonConcept-5.jsonld&rsqb;](../../examples/TaxonConcept-5.jsonld)
 
+
+```turtle
+# Species Hypothesis (SH) from UNITE
+
+<https://doi.plutof.ut.ee/doi/10.15156/BIO/SH1109146.09FU> a tcs:TaxonConcept ;
+    dcterms:identifier "SH1109146.09FU" ;
+    tcs:accordingTo <https://unite.ut.ee> ;
+    tcs:isIncludedIn <https://doi.plutof.ut.ee/doi/10.15156/BIO/TH077737> .
+
+<https://doi.plutof.ut.ee/doi/10.15156/BIO/TH077737> ;
+    tcs:accordingTo <https://unite.ut.ee> ;
+    tcs:taxonName <https://www.indexfungorum.org/names/NamesRecord.asp?RecordID=17175> .
+
+<https://www.indexfungorum.org/names/NamesRecord.asp?RecordID=17175> a tcs:TaxonNAme ;
+    tcs:taxonNameString "Boletus" ;
+    dwc:scientificNameAuthorship "L" ;
+    dwc:namePublishedIn "Sp. pl. 2: 1176" ;
+    dwc:namePublishedInYear "1753" .
+
+<https://unite.ut.ee> a bibo:Website ;
+    dcterms:title """UNITE: rDNA ITS based identification of Eukaryotes and 
+            their communication via DOIs""" ;
+    bibo:uri "https://unite.ut.ee" .
+```
+
+[&lsqb;TaxonConcept-6.ttl&rsqb;](../../examples/TaxonConcept-6.ttl)&nbsp;[&lsqb;TaxonConcept-6.jsonld&rsqb;](../../examples/TaxonConcept-6.jsonld)
+
 ### tcs:accordingTo
 
 <table style="width:100%;">

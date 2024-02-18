@@ -13,6 +13,6 @@
   "taxonName": {
     "type": "TaxonName",
     "taxonNameString": "Balaenoptera musculus",
-    "scientificNameAuthorship": "(Linnaeus, 1758)"
+    "dwc:scientificNameAuthorship": "(Linnaeus, 1758)"
   }
 }
