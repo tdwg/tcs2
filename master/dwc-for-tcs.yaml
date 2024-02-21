@@ -54,6 +54,25 @@
   repeatable: No
   github: 31
 
+# verbatimTaxonRank
+- localName: verbatimTaxonRank
+  label: Verbatim taxon rank
+  definition: >-
+    The taxonomic rank of the most specific name in the dwc:scientificName as it
+    appears in the original record.
+  usage: 
+  notes: >-
+    This term can be used for taxonomic rank designations that are not in the
+    controlled vocabulary that is used. Implementations can decide for
+    themselves if it makes more sense to use this term on a Taxon Concept object
+    or a Taxon Name object, or both.
+  examples: null
+  type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+  organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonConcept
+  required: No
+  repeatable: No
+  github: 6
+
 # property: genericName
 - localName: genericName
   label: Generic Name

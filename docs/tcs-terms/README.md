@@ -4,7 +4,7 @@
 
 **Taxon Concept**
 
-[tcs:TaxonConcept](#tcstaxonconcept) | [tcs:accordingTo](#tcsaccordingto) | [tcs:taxonName](#tcstaxonname) | [tcs:synonym](#tcssynonym) | [tcs:vernacularName](#tcsvernacularname) | [tcs:taxonomicRank](#tcstaxonomicrank) | [tcs:parent](#tcsparent) | [tcs:isCongruentWith](#tcsiscongruentwith) | [tcs:includes](#tcsincludes) | [tcs:isIncludedIn](#tcsisincludedin) | [tcs:partiallyOverlaps](#tcspartiallyoverlaps) | [tcs:isDisjointFrom](#tcsisdisjointfrom) | [tcs:intersects](#tcsintersects) | [dcterms:title](#dctermstitle)
+[tcs:TaxonConcept](#tcstaxonconcept) | [tcs:accordingTo](#tcsaccordingto) | [tcs:taxonName](#tcstaxonname) | [tcs:synonym](#tcssynonym) | [tcs:vernacularName](#tcsvernacularname) | [tcs:taxonomicRank](#tcstaxonomicrank) | [tcs:parent](#tcsparent) | [tcs:isCongruentWith](#tcsiscongruentwith) | [tcs:includes](#tcsincludes) | [tcs:isIncludedIn](#tcsisincludedin) | [tcs:partiallyOverlaps](#tcspartiallyoverlaps) | [tcs:isDisjointFrom](#tcsisdisjointfrom) | [tcs:intersects](#tcsintersects) | [dwc:verbatimTaxonRank](#dwcverbatimtaxonrank) | [dcterms:title](#dctermstitle)
 
 **Taxon Concept Mapping**
 
@@ -664,7 +664,7 @@ The `vernacularName` property can be used when a vernacular name is used alongsi
 		</tr>
 		<tr>
 			<td>Usage</td>
-			<td><p><code>taxonomicRank</code> is an IRI property; a Taxon Concept can have only one  <code>taxonomicRank</code>.</p></td>
+			<td><p><code>taxonomicRank</code> is an IRI property; a Taxon Concept or Taxon Name can have only one <code>taxonomicRank</code>.</p></td>
 		</tr>
 		<tr>
 			<td>GitHub issue</td>
@@ -676,7 +676,7 @@ The `vernacularName` property can be used when a vernacular name is used alongsi
 
 **Comments**
 
-The rank is an attribute of elements in a classification and `taxonomicRank`  can be applied to Taxon Concepts as well Taxon Names, as the rank of a  taxon is reflected in its name. This property takes an object or IRI and it  is recommended to use a value from an existing controlled vocabulary.  While there is no TDWG vocabulary yet, the GBIF Taxonomic Rank Vocabulary  (https://rs.gbif.org/vocabulary/gbif/rank.xml) is recommended.
+The rank is an attribute of elements in a classification and implementations can decide for themselves if it makes more sense to use `taxonomicRank` on a Taxon Concept object or a Taxon Name object, or both. This property takes an object or IRI and it is recommended to use a value from an existing controlled vocabulary. While there is no TDWG vocabulary yet, the GBIF Taxonomic Rank Vocabulary (https://rs.gbif.org/vocabulary/gbif/rank.xml) is recommended.
 
 ### tcs:parent
 
@@ -1540,6 +1540,42 @@ Quasi-nomenclatural statements like 'pro parte synonym', 'partial synonym' and '
 ```
 
 [&lsqb;TaxonConcept-intersects-3.ttl&rsqb;](../../examples/TaxonConcept-intersects-3.ttl)&nbsp;[&lsqb;TaxonConcept-intersects-3.jsonld&rsqb;](../../examples/TaxonConcept-intersects-3.jsonld)
+
+### dwc:verbatimTaxonRank
+
+<table style="width:100%;">
+	<tbody>
+		<tr>
+			<td>Identifier</td>
+			<td>http://rs.tdwg.org/dwc/terms/verbatimTaxonRank</td>
+		</tr>
+		<tr>
+			<td>Type</td>
+			<td>http://www.w3.org/1999/02/22-rdf-syntax-ns#Property</td>
+		</tr>
+		<tr>
+			<td>Label</td>
+			<td>Verbatim taxon rank</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td><b>required:</b> No — <b>repeatable:</b> No</td>
+		</tr>
+		<tr>
+			<td>Definition</td>
+			<td><p>The taxonomic rank of the most specific name in the dwc:scientificName as it appears in the original record.</p></td>
+		</tr>
+		<tr>
+			<td>GitHub issue</td>
+			<td>https://github.com/tdwg/tcs2/issues/6</td>
+		</tr>
+	</tbody>
+</table>
+
+
+**Comments**
+
+This term can be used for taxonomic rank designations that are not in the controlled vocabulary that is used. Implementations can decide for themselves if it makes more sense to use this term on a Taxon Concept object or a Taxon Name object, or both.
 
 ### dcterms:title
 

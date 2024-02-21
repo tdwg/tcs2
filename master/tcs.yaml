@@ -197,15 +197,16 @@
   label: Taxonomic Rank
   definition: The rank at which a taxon is classified.
   usage: >-
-    `taxonomicRank` is an IRI property; a Taxon Concept can have only one 
-    `taxonomicRank`.
+    `taxonomicRank` is an IRI property; a Taxon Concept or Taxon Name can have
+    only one `taxonomicRank`.
   notes: >-
-    The rank is an attribute of elements in a classification and `taxonomicRank` 
-    can be applied to Taxon Concepts as well Taxon Names, as the rank of a 
-    taxon is reflected in its name. This property takes an object or IRI and it 
-    is recommended to use a value from an existing controlled vocabulary. 
-    While there is no TDWG vocabulary yet, the GBIF Taxonomic Rank Vocabulary 
-    (https://rs.gbif.org/vocabulary/gbif/rank.xml) is recommended.
+    The rank is an attribute of elements in a classification and implementations
+    can decide for themselves if it makes more sense to use `taxonomicRank` on a
+    Taxon Concept object or a Taxon Name object, or both. This property takes an
+    object or IRI and it is recommended to use a value from an existing
+    controlled vocabulary. While there is no TDWG vocabulary yet, the GBIF
+    Taxonomic Rank Vocabulary (https://rs.gbif.org/vocabulary/gbif/rank.xml) is
+    recommended.
   type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonConcept
   required: No
