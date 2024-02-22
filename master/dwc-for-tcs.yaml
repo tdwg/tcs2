@@ -12,11 +12,12 @@
     identification qualifications, which should instead be supplied in the 
     IdentificationQualifier term.
   usage: >-
-    `scientificName` can be used instead of the `taxonNameString` property.
+    `scientificName` can be used instead of the `taxonName` property on a Taxon
+    Concept or the `taxonNameString` property on the Taxon Name.
   notes: null
   examples: null
   type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
-  organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonName
+  organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonConcept
   required: No
   repeatable: No
   github: 17
@@ -37,6 +38,20 @@
   required: No
   repeatable: No
   github: 24
+
+# property: vernacularName
+- localName: vernacularName
+  label: Vernacular Name 
+  definition: >-
+    A common or vernacular name.
+  usage: null
+  notes: null
+  examples: null
+  type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+  organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonConcept
+  required: No
+  repeatable: No
+  github: null
 
 # namePublishedInYear
 - localName: namePublishedInYear

@@ -4,7 +4,7 @@
 
 **Taxon Concept**
 
-[tcs:TaxonConcept](#tcstaxonconcept) | [tcs:accordingTo](#tcsaccordingto) | [tcs:taxonName](#tcstaxonname) | [tcs:synonym](#tcssynonym) | [tcs:vernacularName](#tcsvernacularname) | [tcs:taxonomicRank](#tcstaxonomicrank) | [tcs:parent](#tcsparent) | [tcs:isCongruentWith](#tcsiscongruentwith) | [tcs:includes](#tcsincludes) | [tcs:isIncludedIn](#tcsisincludedin) | [tcs:partiallyOverlaps](#tcspartiallyoverlaps) | [tcs:isDisjointFrom](#tcsisdisjointfrom) | [tcs:intersects](#tcsintersects) | [dwc:verbatimTaxonRank](#dwcverbatimtaxonrank) | [dcterms:title](#dctermstitle)
+[tcs:TaxonConcept](#tcstaxonconcept) | [tcs:accordingTo](#tcsaccordingto) | [tcs:taxonName](#tcstaxonname) | [tcs:synonym](#tcssynonym) | [tcs:vernacularName](#tcsvernacularname) | [tcs:taxonomicRank](#tcstaxonomicrank) | [tcs:parent](#tcsparent) | [tcs:isCongruentWith](#tcsiscongruentwith) | [tcs:includes](#tcsincludes) | [tcs:isIncludedIn](#tcsisincludedin) | [tcs:partiallyOverlaps](#tcspartiallyoverlaps) | [tcs:isDisjointFrom](#tcsisdisjointfrom) | [tcs:intersects](#tcsintersects) | [dwc:scientificName](#dwcscientificname) | [dwc:vernacularName](#dwcvernacularname) | [dwc:verbatimTaxonRank](#dwcverbatimtaxonrank) | [dcterms:title](#dctermstitle)
 
 **Taxon Concept Mapping**
 
@@ -12,7 +12,7 @@
 
 **Taxon Name**
 
-[tcs:TaxonName](#tcstaxonname) | [tcs:taxonNameString](#tcstaxonnamestring) | [tcs:namePublishedIn](#tcsnamepublishedin) | [tcs:microreference](#tcsmicroreference) | [tcs:nomenclaturalCode](#tcsnomenclaturalcode) | [tcs:nomenclaturalStatus](#tcsnomenclaturalstatus) | [tcs:typification](#tcstypification) | [tcs:basionym](#tcsbasionym) | [tcs:replacedName](#tcsreplacedname) | [tcs:spellingCorrectionOf](#tcsspellingcorrectionof) | [tcs:laterHomonymOf](#tcslaterhomonymof) | [tcs:conservedAgainst](#tcsconservedagainst) | [dwc:scientificName](#dwcscientificname) | [dwc:scientificNameAuthorship](#dwcscientificnameauthorship) | [dwc:namePublishedInYear](#dwcnamepublishedinyear) | [dwc:genericName](#dwcgenericname) | [dwc:infragenericEpithet](#dwcinfragenericepithet) | [dwc:specificEpithet](#dwcspecificepithet) | [dwc:infraspecificEpithet](#dwcinfraspecificepithet) | [dwc:cultivarEpithet](#dwccultivarepithet)
+[tcs:TaxonName](#tcstaxonname) | [tcs:taxonNameString](#tcstaxonnamestring) | [tcs:namePublishedIn](#tcsnamepublishedin) | [tcs:microreference](#tcsmicroreference) | [tcs:nomenclaturalCode](#tcsnomenclaturalcode) | [tcs:nomenclaturalStatus](#tcsnomenclaturalstatus) | [tcs:typification](#tcstypification) | [tcs:basionym](#tcsbasionym) | [tcs:replacedName](#tcsreplacedname) | [tcs:spellingCorrectionOf](#tcsspellingcorrectionof) | [tcs:laterHomonymOf](#tcslaterhomonymof) | [tcs:conservedAgainst](#tcsconservedagainst) | [dwc:scientificNameAuthorship](#dwcscientificnameauthorship) | [dwc:namePublishedInYear](#dwcnamepublishedinyear) | [dwc:genericName](#dwcgenericname) | [dwc:infragenericEpithet](#dwcinfragenericepithet) | [dwc:specificEpithet](#dwcspecificepithet) | [dwc:infraspecificEpithet](#dwcinfraspecificepithet) | [dwc:cultivarEpithet](#dwccultivarepithet)
 
 **Nomenclatural Type**
 
@@ -1541,6 +1541,68 @@ Quasi-nomenclatural statements like 'pro parte synonym', 'partial synonym' and '
 
 [&lsqb;TaxonConcept-intersects-3.ttl&rsqb;](../../examples/TaxonConcept-intersects-3.ttl)&nbsp;[&lsqb;TaxonConcept-intersects-3.jsonld&rsqb;](../../examples/TaxonConcept-intersects-3.jsonld)
 
+### dwc:scientificName
+
+<table style="width:100%;">
+	<tbody>
+		<tr>
+			<td>Identifier</td>
+			<td>http://rs.tdwg.org/dwc/terms/scientificName</td>
+		</tr>
+		<tr>
+			<td>Type</td>
+			<td>http://www.w3.org/1999/02/22-rdf-syntax-ns#Property</td>
+		</tr>
+		<tr>
+			<td>Label</td>
+			<td>Scientific Name</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td><b>required:</b> No — <b>repeatable:</b> No</td>
+		</tr>
+		<tr>
+			<td>Definition</td>
+			<td><p>The full scientific name, with authorship and date information if known.  When forming part of an Identification, this should be the name in lowest  level taxonomic rank that can be determined. This term should not contain  identification qualifications, which should instead be supplied in the  IdentificationQualifier term.</p></td>
+		</tr>
+		<tr>
+			<td>Usage</td>
+			<td><p><code>scientificName</code> can be used instead of the <code>taxonName</code> property on a Taxon Concept or the <code>taxonNameString</code> property on the Taxon Name.</p></td>
+		</tr>
+		<tr>
+			<td>GitHub issue</td>
+			<td>https://github.com/tdwg/tcs2/issues/17</td>
+		</tr>
+	</tbody>
+</table>
+
+### dwc:vernacularName
+
+<table style="width:100%;">
+	<tbody>
+		<tr>
+			<td>Identifier</td>
+			<td>http://rs.tdwg.org/dwc/terms/vernacularName</td>
+		</tr>
+		<tr>
+			<td>Type</td>
+			<td>http://www.w3.org/1999/02/22-rdf-syntax-ns#Property</td>
+		</tr>
+		<tr>
+			<td>Label</td>
+			<td>Vernacular Name</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td><b>required:</b> No — <b>repeatable:</b> No</td>
+		</tr>
+		<tr>
+			<td>Definition</td>
+			<td><p>A common or vernacular name.</p></td>
+		</tr>
+	</tbody>
+</table>
+
 ### dwc:verbatimTaxonRank
 
 <table style="width:100%;">
@@ -2567,41 +2629,6 @@ A scientific name below the rank of family is not conserved against all  other n
 ```
 
 [&lsqb;TaxonName-conservedAgainst.ttl&rsqb;](../../examples/TaxonName-conservedAgainst.ttl)&nbsp;[&lsqb;TaxonName-conservedAgainst.jsonld&rsqb;](../../examples/TaxonName-conservedAgainst.jsonld)
-
-### dwc:scientificName
-
-<table style="width:100%;">
-	<tbody>
-		<tr>
-			<td>Identifier</td>
-			<td>http://rs.tdwg.org/dwc/terms/scientificName</td>
-		</tr>
-		<tr>
-			<td>Type</td>
-			<td>http://www.w3.org/1999/02/22-rdf-syntax-ns#Property</td>
-		</tr>
-		<tr>
-			<td>Label</td>
-			<td>Scientific Name</td>
-		</tr>
-		<tr>
-			<td></td>
-			<td><b>required:</b> No — <b>repeatable:</b> No</td>
-		</tr>
-		<tr>
-			<td>Definition</td>
-			<td><p>The full scientific name, with authorship and date information if known.  When forming part of an Identification, this should be the name in lowest  level taxonomic rank that can be determined. This term should not contain  identification qualifications, which should instead be supplied in the  IdentificationQualifier term.</p></td>
-		</tr>
-		<tr>
-			<td>Usage</td>
-			<td><p><code>scientificName</code> can be used instead of the <code>taxonNameString</code> property.</p></td>
-		</tr>
-		<tr>
-			<td>GitHub issue</td>
-			<td>https://github.com/tdwg/tcs2/issues/17</td>
-		</tr>
-	</tbody>
-</table>
 
 ### dwc:scientificNameAuthorship
 
