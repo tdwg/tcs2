@@ -215,101 +215,112 @@ nominal | &mdash; | &mdash;
 
 ### Taxonomic Rank vocabulary
 
+<sup>*</sup> TCS 2 recommends the [Taxonomic Rank GBIF Vocabulary](https://rs.gbif.org/vocabulary/gbif/rank.xml)
+
 #### TaxonomicRankAboveSuperfamilyEnum
 
 TCS 1 | TDWG Ontology | TCS 2
 -|-|-
-infraord | &mdash; | &mdash;
-subord | &mdash; | &mdash;
-ord | &mdash; | &mdash;
-superord | &mdash; | &mdash;
-infracl | &mdash; | &mdash;
-subcl | &mdash; | &mdash;
-cl | &mdash; | &mdash;
-supercl | &mdash; | &mdash;
-infraphyl_div | &mdash; | &mdash;
-subphyl_div | &mdash; | &mdash;
-phyl_div | &mdash; | &mdash;
-superphyl_div | &mdash; | &mdash;
-infrareg | &mdash; | &mdash;
-subreg | &mdash; | &mdash;
-reg | &mdash; | &mdash;
+dom | &mdash; | [domain](http://rs.gbif.org/vocabulary/gbif/rank/domain)
 superreg | &mdash; | &mdash;
-dom | &mdash; | &mdash;
+reg | &mdash; | [kingdom](http://rs.gbif.org/vocabulary/gbif/rank/kingdom)
+subreg | &mdash; | [subkingdom](http://rs.gbif.org/vocabulary/gbif/rank/subkingdom)
+infrareg | &mdash; | &mdash;
+superphyl_div | &mdash; | [superphylum](http://rs.gbif.org/vocabulary/gbif/rank/superphylum)
+phyl_div | &mdash; | [phylum](http://rs.gbif.org/vocabulary/gbif/rank/phylum)
+subphyl_div | &mdash; | [subphylum](http://rs.gbif.org/vocabulary/gbif/rank/subphylum)
+infraphyl_div | &mdash; | &mdash;
+supercl | &mdash; | [superclass](http://rs.gbif.org/vocabulary/gbif/rank/superclass)
+cl | &mdash; | [class](http://rs.gbif.org/vocabulary/gbif/rank/class)
+subcl | &mdash; | [subclass](http://rs.gbif.org/vocabulary/gbif/rank/subclass)
+infracl | &mdash; | &mdash;
+&mdash; | &mdash; | [supercohort](http://rs.gbif.org/vocabulary/gbif/rank/supercohort)
+&mdash; | &mdash; | [cohort](http://rs.gbif.org/vocabulary/gbif/rank/cohort)
+&mdash; | &mdash; | [subcohort](http://rs.gbif.org/vocabulary/gbif/rank/subcohort)
+superord | &mdash; | [superorder](http://rs.gbif.org/vocabulary/gbif/rank/superorder)
+ord | &mdash; | [order](http://rs.gbif.org/vocabulary/gbif/rank/order)
+subord | &mdash; | [suborder](http://rs.gbif.org/vocabulary/gbif/rank/suborder)
+infraord | &mdash; | [infraorder](http://rs.gbif.org/vocabulary/gbif/rank/infraorder)
 taxsupragen | &mdash; | &mdash;
 
 #### TaxonomicRankFamilyGroupEnum
 
 TCS 1 | TDWG Ontology | TCS 2
 -|-|-
+superfam | &mdash; | [superfamily](http://rs.gbif.org/vocabulary/gbif/rank/superfamily)
+fam | &mdash; | [family](http://rs.gbif.org/vocabulary/gbif/rank/family)
+subfam | &mdash; | [subfamily](http://rs.gbif.org/vocabulary/gbif/rank/subfamily)
 infrafam | &mdash; | &mdash;
-subfam | &mdash; | &mdash;
-fam | &mdash; | &mdash;
-superfam | &mdash; | &mdash;
 
 #### TaxonomicRankFamilySubdivisionEnum
 
 TCS 1 | TDWG Ontology | TCS 2
 -|-|-
-infratrib | &mdash; | &mdash;
-subtrib | &mdash; | &mdash;
-trib | &mdash; | &mdash;
 supertrib | &mdash; | &mdash;
+trib | &mdash; | [tribe](http://rs.gbif.org/vocabulary/gbif/rank/tribe)
+subtrib | &mdash; | [subtribe](http://rs.gbif.org/vocabulary/gbif/rank/subtribe)
+infratrib | &mdash; | &mdash;
 
 #### TaxonomicRankGenusGroupEnum
 
 TCS 1 | TDWG Ontology | TCS 2
 -|-|-
+gen | &mdash; | [genus](http://rs.gbif.org/vocabulary/gbif/rank/genus)
+subgen | &mdash; | [subgenus](http://rs.gbif.org/vocabulary/gbif/rank/subgenus)
 infragen | &mdash; | &mdash;
-subgen | &mdash; | &mdash;
-gen | &mdash; | &mdash;
 
 #### TaxonomicRankGenusSubdivisionEnum
 
 TCS 1 | TDWG Ontology | TCS 2
 -|-|-
-aggr | &mdash; | &mdash;
+sect | &mdash; | [section](http://rs.gbif.org/vocabulary/gbif/rank/section)
+subsect | &mdash; | [subsection](http://rs.gbif.org/vocabulary/gbif/rank/subsection)
+ser | &mdash; | [series](http://rs.gbif.org/vocabulary/gbif/rank/series)
+subser | &mdash; | [subseries](http://rs.gbif.org/vocabulary/gbif/rank/subseries)
+aggr | &mdash; | [speciesAggregate](http://rs.gbif.org/vocabulary/gbif/rank/speciesAggregate)
 taxinfragen | &mdash; | &mdash;
-subser | &mdash; | &mdash;
-ser | &mdash; | &mdash;
-subsect | &mdash; | &mdash;
-sect | &mdash; | &mdash;
 
 #### TaxonomicRankSpeciesGroupEnum
 
 TCS 1 | TDWG Ontology | TCS 2
 -|-|-
-subsp_aggr | &mdash; | &mdash;
-subsp | &mdash; | &mdash;
-sp | &mdash; | &mdash;
+sp | &mdash; | [species](http://rs.gbif.org/vocabulary/gbif/rank/species)
+subsp_aggr | &mdash; | [subspecificAggregate](http://rs.gbif.org/vocabulary/gbif/rank/subspecificAggregate)
+subsp | &mdash; | [subspecies](http://rs.gbif.org/vocabulary/gbif/rank/subspecies)
 
 #### TaxonomicRankBelowSubspeciesEnum
 
 TCS 1 | TDWG Ontology | TCS 2
 -|-|-
-cand | &mdash; | &mdash;
-taxinfrasp | &mdash; | &mdash;
-fsp | &mdash; | &mdash;
-subsubfm | &mdash; | &mdash;
-subfm | &mdash; | &mdash;
-fm | &mdash; | &mdash;
-subsubvar | &mdash; | &mdash;
-subvar | &mdash; | &mdash;
-var | &mdash; | &mdash;
-pv | &mdash; | &mdash;
 bv | &mdash; | &mdash;
+pv | &mdash; | &mdash;
+var | &mdash; | [variety](http://rs.gbif.org/vocabulary/gbif/rank/variety)
+subvar | &mdash; | [subvariety](http://rs.gbif.org/vocabulary/gbif/rank/subvariety)
+subsubvar | &mdash; | &mdash;
+fm | &mdash; | [form](http://rs.gbif.org/vocabulary/gbif/rank/form)
+subfm | &mdash; | [subform](http://rs.gbif.org/vocabulary/gbif/rank/subform)
+subsubfm | &mdash; | &mdash;
+fsp | &mdash; | &mdash;
+taxinfrasp | &mdash; | &mdash;
+cand | &mdash; | &mdash;
 infrasp | &mdash; | &mdash;
+
 
 #### TaxonomicRankCultivatedPlants
 
 TCS 1 | TDWG Ontology | TCS 2
 -|-|-
-cv | &mdash; | &mdash;
-convar | &mdash; | &mdash;
+cvgroup | &mdash; | [cultivarGroup](http://rs.gbif.org/vocabulary/gbif/rank/cultivarGroup)
 grex | &mdash; | &mdash;
-cvgroup | &mdash; | &mdash;
+cv | &mdash; | [cultivar](http://rs.gbif.org/vocabulary/gbif/rank/cultivar)
+convar | &mdash; | &mdash;
 graftchimaera | &mdash; | &mdash;
 denomclass | &mdash; | &mdash;
+
+TCS 1 | TDWG Ontology | TCS 2
+-|-|-
+&mdash; | &mdash; | [strain](http://rs.gbif.org/vocabulary/gbif/rank/strain)
+
 
 ### Taxon Name
 
@@ -349,14 +360,17 @@ TCS 1 | TDWG Ontology | TCS 2
 
 ### Nomenclatural Code vocabulary
 
+<sup>*</sup> TCS 2 recommends the GBIF [Nomenclatural Codes](https://rs.gbif.org/vocabulary/gbif/nomenclatural_code.xml) vocabulary
+
 TCS 1 | TDWG Ontology | TCS 2
 -|-|-
-Viral | [tn:Viral](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L675) | &mdash;
-Bacteriological | [tn:Bacteriological](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L422) | &mdash;
-Botanical | [tn:ICBN](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L505) | &mdash;
-Zoological | [tn:ICZN](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L515) | &mdash;
-CultivatedPlant | [tn:ICNCP](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L510) | &mdash;
+Viral | [tn:Viral](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L675) | [ICVCN](http://rs.gbif.org/vocabulary/gbif/nomenclatural_code/ICVCN)
+Bacteriological | [tn:Bacteriological](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L422) | [ICNB](http://rs.gbif.org/vocabulary/gbif/nomenclatural_code/ICNB)
+Botanical | [tn:ICBN](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L505) | [ICN](http://rs.gbif.org/vocabulary/gbif/nomenclatural_code/ICN)
+Zoological | [tn:ICZN](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L515) | [ICZN](http://rs.gbif.org/vocabulary/gbif/nomenclatural_code/ICZN)
+CultivatedPlant | [tn:ICNCP](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L510) | [ICNCP](http://rs.gbif.org/vocabulary/gbif/nomenclatural_code/ICNCP)
 Indeterminate | &mdash; | &mdash;
+&mdash; | &mdash; | [BioCode](http://rs.gbif.org/vocabulary/gbif/nomenclatural_code/BioCode)
 
 ### Typification
 
@@ -371,44 +385,48 @@ TCS 1 | TDWG Ontology | TCS 2
 
 ### Type of Type vocabulary
 
+<sup>*</sup> TCS 2 recommends the GBIF [Nomenclatural Type Status Vocabulary](https://rs.gbif.org/vocabulary/gbif/type_status.xml)
+
 TCS 1 | TDWG Ontology | TCS 2
 -|-|-
-allo | [tn:Allotype](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L416) | &mdash;
-allolecto | [tn:Allolectotype](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L406) | &mdash;
-alloneo | [tn:Alloneotype](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L411) | &mdash;
-co | [tn:Cotype](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L439) | &mdash;
-epi | [tn:Epitype](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L444) | &mdash;
-ex | [tn:ExType](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L486) | &mdash;
-exepi | [tn:ExEpitype](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L451) | &mdash;
-exholo | [tn:ExHolotype](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L456) | &mdash;
-exiso | [tn:ExIsotype](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L273) | &mdash;
-exlecto | [tn:ExLectotype](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L466) | &mdash;
-exneo | [tn:ExNeotype](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L471) | &mdash;
-expara | [tn:ExParatype](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L476) | &mdash;
-exsyn | [tn:ExSyntype](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L481) | &mdash;
-hapanto | [tn:Hapantotype](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L491) | &mdash;
-holo | [tn:Holotype](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L498) | &mdash;
-icono | [tn:Iconotype](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L520) | &mdash;
-iso | [tn:Isotype](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L541) | &mdash;
-isolecto | [tn:IsoLectotype](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L526) | &mdash;
-isoneo | [tn:Isoneotype](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L531) | &mdash;
-isosyn | [tn:Isosyntype](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L536) | &mdash;
-lecto | [tn:Lectotype](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L553) | &mdash;
-neo | [tn:Neotype](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L560) | &mdash;
-para | [tn:Paratype](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L582) | &mdash;
-paralecto | [tn:Paralectotype](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L572) | &mdash;
-paraneo | [tn:Paraneotype](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L577) | &mdash;
-plasto | [tn:Plastotype](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L609) | &mdash;
-plastoholo | [tn:Plastoholotype](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L589) | &mdash;
-plastoiso | [tn:Plastoisotype](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L594) | &mdash;
-plastolecto | [tn:Plastolectotype](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L599) | &mdash;
-plastoneo | [tn:Plastoneotype](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L604) | &mdash;
-plastopara | [tn:Plastoparatype](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L609) | &mdash;
-plastosyn | [tn:Plastosyntype](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L614) | &mdash;
-sec | [tn:SecondaryType](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L641) | &mdash;
-supp | [tn:SupplementaryType](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L652) | &mdash;
-syn | [tn:Syntype](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L657) | &mdash;
-topo | [tn:Topotype](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L663) | &mdash;
-type | [tn:Type](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L669) | &mdash;
-not | [tn:NotAType](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L567) | &mdash;
-
+allo | [tn:Allotype](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L416) | [allotype](http://rs.gbif.org/vocabulary/gbif/type_status/allotype)
+allolecto | [tn:Allolectotype](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L406) | [allolectotype](http://rs.gbif.org/vocabulary/gbif/type_status/allolectotype)
+alloneo | [tn:Alloneotype](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L411) | [alloneotype](http://rs.gbif.org/vocabulary/gbif/type_status/alloneotype)
+co | [tn:Cotype](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L439) | [cotype](http://rs.gbif.org/vocabulary/gbif/type_status/cotype)
+epi | [tn:Epitype](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L444) | [epitype](http://rs.gbif.org/vocabulary/gbif/type_status/epitype)
+ex | [tn:ExType](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L486) | [extype](http://rs.gbif.org/vocabulary/gbif/type_status/exsyntype)
+exepi | [tn:ExEpitype](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L451) | [exepitype](http://rs.gbif.org/vocabulary/gbif/type_status/exepitype)
+exholo | [tn:ExHolotype](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L456) | [exholotype](http://rs.gbif.org/vocabulary/gbif/type_status/exholotype)
+exiso | [tn:ExIsotype](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L273) | [exisotype](http://rs.gbif.org/vocabulary/gbif/type_status/exisotype)
+exlecto | [tn:ExLectotype](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L466) | [exlectotype](http://rs.gbif.org/vocabulary/gbif/type_status/exlectotype)
+exneo | [tn:ExNeotype](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L471) | [exneotype](http://rs.gbif.org/vocabulary/gbif/type_status/exneotype)
+expara | [tn:ExParatype](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L476) | [exparatype](http://rs.gbif.org/vocabulary/gbif/type_status/exparatype)
+exsyn | [tn:ExSyntype](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L481) | [exsyntype](http://rs.gbif.org/vocabulary/gbif/type_status/exsyntype)
+hapanto | [tn:Hapantotype](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L491) | [hapantotype](http://rs.gbif.org/vocabulary/gbif/type_status/hapantotype)
+holo | [tn:Holotype](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L498) | [holotype](http://rs.gbif.org/vocabulary/gbif/type_status/holotype)
+icono | [tn:Iconotype](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L520) | [iconotype](http://rs.gbif.org/vocabulary/gbif/type_status/iconotype)
+iso | [tn:Isotype](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L541) | [isotype](http://rs.gbif.org/vocabulary/gbif/type_status/isotype)
+isolecto | [tn:IsoLectotype](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L526) | [isolectotype](http://rs.gbif.org/vocabulary/gbif/type_status/isolectotype)
+isoneo | [tn:Isoneotype](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L531) | [isoneotype](http://rs.gbif.org/vocabulary/gbif/type_status/isoneotype)
+isosyn | [tn:Isosyntype](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L536) | [isosyntype](http://rs.gbif.org/vocabulary/gbif/type_status/isosyntype)
+lecto | [tn:Lectotype](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L553) | [lectotype]()
+neo | [tn:Neotype](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L560) | [lectotype](http://rs.gbif.org/vocabulary/gbif/type_status/lectotype)
+para | [tn:Paratype](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L582) | [paratype](http://rs.gbif.org/vocabulary/gbif/type_status/paratype)
+paralecto | [tn:Paralectotype](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L572) | [paralectotype](http://rs.gbif.org/vocabulary/gbif/type_status/paralectotype)
+paraneo | [tn:Paraneotype](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L577) | [paraneotype](http://rs.gbif.org/vocabulary/gbif/type_status/paraneotype)
+plasto | [tn:Plastotype](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L609) | [plastotype](http://rs.gbif.org/vocabulary/gbif/type_status/plastotype)
+plastoholo | [tn:Plastoholotype](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L589) | [plastoholotype](http://rs.gbif.org/vocabulary/gbif/type_status/plastoholotype)
+plastoiso | [tn:Plastoisotype](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L594) | [plastoisotype](http://rs.gbif.org/vocabulary/gbif/type_status/plastoisotype)
+plastolecto | [tn:Plastolectotype](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L599) | [plastolectotype](http://rs.gbif.org/vocabulary/gbif/type_status/plastolectotype)
+plastoneo | [tn:Plastoneotype](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L604) | [plastoneotype](http://rs.gbif.org/vocabulary/gbif/type_status/plastoneotype)
+plastopara | [tn:Plastoparatype](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L609) | [plastoparatype](http://rs.gbif.org/vocabulary/gbif/type_status/plastoparatype)
+plastosyn | [tn:Plastosyntype](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L614) | [plastosyntype](http://rs.gbif.org/vocabulary/gbif/type_status/plastosyntype)
+sec | [tn:SecondaryType](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L641) | [secondarytype](http://rs.gbif.org/vocabulary/gbif/type_status/secondarytype)
+supp | [tn:SupplementaryType](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L652) | [supplementarytype](http://rs.gbif.org/vocabulary/gbif/type_status/supplementarytype)
+syn | [tn:Syntype](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L657) | [syntype](http://rs.gbif.org/vocabulary/gbif/type_status/syntype)
+topo | [tn:Topotype](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L663) | [topotype](http://rs.gbif.org/vocabulary/gbif/type_status/topotype)
+type | [tn:Type](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L669) | [type](http://rs.gbif.org/vocabulary/gbif/type_status/type)
+not | [tn:NotAType](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L567) | [notatype](http://rs.gbif.org/vocabulary/gbif/type_status/notatype)
+&mdash; | &mdash; | [originalmaterial](http://rs.gbif.org/vocabulary/gbif/type_status/originalmaterial)
+&mdash; | &mdash; | [typeSpecies](http://rs.gbif.org/vocabulary/gbif/type_status/typeSpecies)
+&mdash; | &mdash; | [typeGenus](http://rs.gbif.org/vocabulary/gbif/type_status/typeGenus)
