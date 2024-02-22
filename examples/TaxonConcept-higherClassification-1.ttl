@@ -13,33 +13,34 @@
             <https://www.catalogueoflife.org/data/taxon/8SY> ,
             <https://www.catalogueoflife.org/data/taxon/7FQF> .
 
-<https://www.catalogueoflife.org/data/taxon/7FQF> a tcs:TaxonConcept ;
-    dcterms:title "Sequioadendron sec. Catalogue of Life 2024-01-24"
+<https://www.catalogueoflife.org/data/taxon/P> a tcs:TaxonConcept ;
+    dcterms:title "Plantae sec. Catalogue of Life 2024-01-24"
     tcs:accordingTo <https://doi.org/10.48580/dfrdl> ;
-    dwc:scientificName "Sequoiadendron" .
-
-<https://www.catalogueoflife.org/data/taxon/8SY> a tcs:TaxonConcept ;
-    dcterms:title "Cupressaceae sec. Catalogue of Life 2024-01-24"
-    tcs:accordingTo <https://doi.org/10.48580/dfrdl> ;
-    dwc:scientificName "Cupressaceae" .
-
-<https://www.catalogueoflife.org/data/taxon/623FD> a tcs:TaxonConcept ;
-    dcterms:title "Pinales sec. Catalogue of Life 2024-01-24"
-    tcs:accordingTo <https://doi.org/10.48580/dfrdl> ;
-    dwc:scientificName "Pinales" .
-
-<https://www.catalogueoflife.org/data/taxon/GG> a tcs:TaxonConcept ;
-    dcterms:title "Pinopsida sec. Catalogue of Life 2024-01-24"
-    tcs:accordingTo <https://doi.org/10.48580/dfrdl> ;
-    dwc:scientificName "Pinopsida" .
+    dwc:scientificName "Plantae" .
 
 <https://www.catalogueoflife.org/data/taxon/TP> a tcs:TaxonConcept ;
     dcterms:title "Tracheophyta sec. Catalogue of Life 2024-01-24"
     tcs:accordingTo <https://doi.org/10.48580/dfrdl> ;
     dwc:scientificName "Tracheophyta" .
 
-<https://www.catalogueoflife.org/data/taxon/P> a tcs:TaxonConcept ;
-    dcterms:title "Plantae sec. Catalogue of Life 2024-01-24"
+<https://www.catalogueoflife.org/data/taxon/GG> a tcs:TaxonConcept ;
+    dcterms:title "Pinopsida sec. Catalogue of Life 2024-01-24"
     tcs:accordingTo <https://doi.org/10.48580/dfrdl> ;
-    dwc:scientificName "Plantae" .
+    dwc:scientificName "Pinopsida" .
+
+<https://www.catalogueoflife.org/data/taxon/623FD> a tcs:TaxonConcept ;
+    dcterms:title "Pinales sec. Catalogue of Life 2024-01-24"
+    tcs:accordingTo <https://doi.org/10.48580/dfrdl> ;
+    dwc:scientificName "Pinales" .
+
+<https://www.catalogueoflife.org/data/taxon/8SY> a tcs:TaxonConcept ;
+    dcterms:title "Cupressaceae sec. Catalogue of Life 2024-01-24"
+    tcs:accordingTo <https://doi.org/10.48580/dfrdl> ;
+    dwc:scientificName "Cupressaceae" .
+
+<https://www.catalogueoflife.org/data/taxon/7FQF> a tcs:TaxonConcept ;
+    dcterms:title "Sequioadendron sec. Catalogue of Life 2024-01-24"
+    tcs:accordingTo <https://doi.org/10.48580/dfrdl> ;
+    dwc:scientificName "Sequoiadendron" .
+
     
