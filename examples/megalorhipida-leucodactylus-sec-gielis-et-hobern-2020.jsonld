@@ -5,24 +5,19 @@
       "id": "https://www.catalogueoflife.org/data/taxon/3YVTF",
       "type": "TaxonConcept",
       "dcterms:title": "Megalorhipida leucodactylus sec. Gielis & Hobern 2020-07-16",
-      "accordingTo": "https://doi.org/10.48580/dfry-3gd#1.1.23.5",
-      "taxonName": {
-        "type": "TaxonName",
-        "taxonNameString": "Megalorhipida leucodactylus",
-        "dwc:scientificName": "Megalorhipida leucodactylus (Fabricius, 1794)",
-        "basionym": "https://zoobank.org/NomenclaturalActs/39b2f236-3914-4962-9dcc-f594671654bd"
-      },
+      "accordingTo": { "id": "https://doi.org/10.48580/dfry-3gd#1.1.23.5" },
+      "taxonName": { "id": "https://zoobank.org/NomenclaturalActs/39b2f236-3914-4962-9dcc-f594671654bd" },
       "synonym": [
         "_:tn1", "_:tn2", "_:tn3", "_:tn4", "_:tn5", "_:tn6", 
         "_:tn7", "_:tn8", "_:tn9", "_:tn10", "_:tn11"
       ],
       "taxonomicRank": "species",
-      "parent": "https://www.catalogueoflife.org/data/taxon/62ZBY",
+      "parent": { "id": "https://www.catalogueoflife.org/data/taxon/62ZBY" },
       "intersects": [
         {
           "type": "TaxonConcept",
           "dcterms:title": "Pterophorus congrualis sec. Walker 1864",
-          "accordingTo": "https://www.biodiversitylibrary.org/page/38948425",
+          "accordingTo": { "id": "https://www.biodiversitylibrary.org/page/38948425" },
           "taxonName": "_:tn3"
         },
         {
@@ -32,7 +27,7 @@
             "type": "bibo:Book",
             "dcterms:bibliographicCitation": "Gielis, C., Franssen, M., Groenen, F., & Wangdi, K. (2022). Moths of Bhutan. 1–420."
           },
-          "taxonName": "https://zoobank.org/NomenclaturalActs/39b2f236-3914-4962-9dcc-f594671654bd"
+          "taxonName": { "id": "https://zoobank.org/NomenclaturalActs/39b2f236-3914-4962-9dcc-f594671654bd" }
         },
         {
           "type": "TaxonConcept",
@@ -42,7 +37,7 @@
             "type": "bibo:AcademicArticle",
             "dcterms:bibliographicCitation": "Matthews, D. L., Miller, J. Y., Simon, M. J., & Goss, G. (2019). Additions to the plume moth fauna of the Bahamas (Lepidoptera: Pterophoridae) with description of four new species. Insecta Mundi, 0708, 1–35."
           },
-          "taxonName": "https://zoobank.org/NomenclaturalActs/39b2f236-3914-4962-9dcc-f594671654bd"
+          "taxonName": { "id": "https://zoobank.org/NomenclaturalActs/39b2f236-3914-4962-9dcc-f594671654bd" }
         },
         {
           "type": "TaxonConcept",
@@ -51,7 +46,7 @@
             "type": "bibo:AcademicArticle",
             "dcterms:bibliographicCitation": "Ustjuzhanin, P., Kovtunovich V. & Streltzov, A. (2022). Review on the fauna of Pterophoridae of the Republic of Guinea (Lepidoptera: Pterophoridae). SHILAP Revista De Lepidopterología, 50(199), 435–439."
           },
-          "taxonName": "https://zoobank.org/NomenclaturalActs/39b2f236-3914-4962-9dcc-f594671654bd"
+          "taxonName": { "id": "https://zoobank.org/NomenclaturalActs/39b2f236-3914-4962-9dcc-f594671654bd" }
         },
         {
           "type": "TaxonConcept",
@@ -93,7 +88,7 @@
           "type": "TaxonConcept",
           "dcterms:title": "Trichoptilus adelphodes sec. Meyrick 1887",
           "accordingTo": {
-            "id": "https://www.biodiversitylibrary.org/page/13718569",
+            "id": { "id": "https://www.biodiversitylibrary.org/page/13718569" },
             "type": "bibo:AcademicArticle",
             "dcterms:bibliographicCitation": "Meyrick, E. (1887). On Pyralidina from Australia and the South Pacific. Trans. Ent. Soc. London, 1887, 185–268."
           },  
@@ -103,21 +98,21 @@
           "type": "TaxonConcept",
           "dcterms:title": "Pterophorus leucodactylus sec. Ustjuzhanin et al. 2019,",
           "accordingTo": {
-            "id": "https://doi.org/10.1080/09397140.2018.1540159",
+            "id": { "id": "https://doi.org/10.1080/09397140.2018.1540159" },
             "type": "bibo:AcademicArticle",
             "dcterms:bibliographicCitation": "Ustjuzhanin, P., Kovtunovich, V., Saldaitis, A., & Ustjuzhanina, A. (2019). New data on plume moths (Lepidoptera: Pterophoridae) of Oman. Zoology in the Middle East, 65:1, 75–78."
           },
-          "taxonName": "https://zoobank.org/NomenclaturalActs/39b2f236-3914-4962-9dcc-f594671654bd"
+          "taxonName": { "id": "https://zoobank.org/NomenclaturalActs/39b2f236-3914-4962-9dcc-f594671654bd" }
         },
         {
           "type": "TaxonConcept",
           "dcterms:title": "Pterophorus leucodactylus sec. Kovtunovich, Ustjuzhanin, Popotski & Haverinen 2023",
           "accordingTo": {
-            "id": "https://doi.org/10.37828/em.2023.62.17",
+            "id": { "id": "https://doi.org/10.37828/em.2023.62.17" },
             "type": "bibo:AcademicArticle",
             "dcterms:bibliographicCitation": "To the plume moths fauna (Lepidoptera: Pterophoridae) of Kenya. Ecologica Montenegrina, 67, 127–138."
           },
-          "taxonName": "https://zoobank.org/NomenclaturalActs/39b2f236-3914-4962-9dcc-f594671654bd"
+          "taxonName": { "id": "https://zoobank.org/NomenclaturalActs/39b2f236-3914-4962-9dcc-f594671654bd"}
         },
         {
           "type": "TaxonConcept",
@@ -135,7 +130,7 @@
             "type": "bibo:Book",
             "dcterms:bibliographicCitation": "Fabricius, J. C. (1794). Entomologia systematica emendata et aucta: secundum classes, ordines, genera, species adiectis synonymis, locis, observationibus, descriptionibus. 3(1), 1–349."
           },
-          "taxonName": "https://zoobank.org/NomenclaturalActs/39b2f236-3914-4962-9dcc-f594671654bd"
+          "taxonName": { "id": "https://zoobank.org/NomenclaturalActs/39b2f236-3914-4962-9dcc-f594671654bd" }
         },
         {
           "type": "TaxonConcept",
@@ -145,7 +140,7 @@
             "type": "bibo:AcademicArticle",
             "dcterms:bibliographicCitation": "Kovtunovich, V., Ustjuzhanin, P., & Murphy, R. (2014). Plume moths of Malawi (Lepidoptera: Pterophoridae). Zootaxa, 3847, 451–494."
           },
-          "taxonName": "https://zoobank.org/NomenclaturalActs/39b2f236-3914-4962-9dcc-f594671654bd"
+          "taxonName": { "id": "https://zoobank.org/NomenclaturalActs/39b2f236-3914-4962-9dcc-f594671654bd" }
         },
         {
           "type": "TaxonConcept",
@@ -155,7 +150,7 @@
             "type": "bibo:AcademicArticle",
             "dcterms:bibliographicCitation": "Ustjuzhanin, P., & Kovtunovich, V. (2023). Plume Moths (Lepidoptera: Pterophoridae) of Ethiopia Part 3. Ecologica Montenegrina, 61, 31–42. "
           },
-          "taxonName": "https://zoobank.org/NomenclaturalActs/39b2f236-3914-4962-9dcc-f594671654bd"
+          "taxonName": { "id": "https://zoobank.org/NomenclaturalActs/39b2f236-3914-4962-9dcc-f594671654bd" }
         },
         {
           "type": "TaxonConcept",
@@ -174,7 +169,7 @@
             "type": "bibo:AcademicArticle",
             "dcterms:bibliographicCitation": "Ustjuzhanin, P., Kovtunovich, V., Sinyaev, V. V., Evdoschenko, S. I., & Streltzov, A. N. (2021). A list of plume moths (Lepidoptera: Pterophoridae) of the fauna of Pakistan. Far Eastern Entomologist, 432, 5–8."
           },
-          "taxonName": "https://zoobank.org/NomenclaturalActs/39b2f236-3914-4962-9dcc-f594671654bd"
+          "taxonName": { "id": "https://zoobank.org/NomenclaturalActs/39b2f236-3914-4962-9dcc-f594671654bd" }
         },
         {
           "type": "TaxonConcept",
@@ -183,7 +178,7 @@
             "type": "bibo:AcademicArticle",
             "dcterms:bibliographicCitation": "Ustjuzhanin, P., & Kovtunovich, V. (2017). The Pterophoridae fauna (Lepidoptera) of Thailand. Ukrainian Journal of Ecology, 7(4), 649–654."
           },
-          "taxonName": "https://zoobank.org/NomenclaturalActs/39b2f236-3914-4962-9dcc-f594671654bd"
+          "taxonName": { "id": "https://zoobank.org/NomenclaturalActs/39b2f236-3914-4962-9dcc-f594671654bd" }
         },
         {
           "type": "TaxonConcept",
@@ -192,7 +187,7 @@
             "type": "bibo:Book",
             "dcterms:bibliographicCitation": "Karsholt, O., & Razowski, J. (1996). The Lepidoptera of Europe. A Distribution Checklist. 380 pp. Apollo Books, Stenstrup, Denmark."
           },
-          "taxonName": "https://zoobank.org/NomenclaturalActs/39b2f236-3914-4962-9dcc-f594671654bd"
+          "taxonName": { "id": "https://zoobank.org/NomenclaturalActs/39b2f236-3914-4962-9dcc-f594671654bd" }
         },
         {
           "type": "TaxonConcept",
@@ -202,7 +197,7 @@
             "type": "bibo:AcademicArticle",
             "dcterms:bibliographicCitation": "Ustjuzhanin, P., Kovtunovich, V., Müller, G., Prozorov, A. & Streltzov A. (2022). Plume Moths (Lepidoptera: Pterophoridae) of Ethiopia. Part 2. Ecologica Montenegrina, 53, 45–55."
           },
-          "taxonName": "https://zoobank.org/NomenclaturalActs/39b2f236-3914-4962-9dcc-f594671654bd"
+          "taxonName": { "id": "https://zoobank.org/NomenclaturalActs/39b2f236-3914-4962-9dcc-f594671654bd" }
         },
         {
           "type": "TaxonConcept",
@@ -298,7 +293,7 @@
         "dwc:scientificName": "Megalorhipida Amsel, 1935"
       },
       "taxonomicRank": "genus",
-      "parent": "https://www.catalogueoflife.org/data/taxon/L44"
+      "parent": { "id": "https://www.catalogueoflife.org/data/taxon/L44" }
     },
     {
       "id": "https://www.catalogueoflife.org/data/taxon/L44",
@@ -310,7 +305,7 @@
         "dwc:scientificName": "Oxyptilini Bigot, Gibeaux, Nel & Picard, 1998"
       },
       "taxonomicRank": "tribe",
-      "parent": "https://www.catalogueoflife.org/data/taxon/K8N"
+      "parent": { "id": "https://www.catalogueoflife.org/data/taxon/K8N" }
     },
     {
       "id": "https://www.catalogueoflife.org/data/taxon/K8N",
@@ -322,7 +317,7 @@
         "dwc:scientificName": "Pterophorinae Zeller, 1841"
       },
       "taxonomicRank": "subfamily",
-      "parent": "https://www.catalogueoflife.org/data/taxon/8TLBR"
+      "parent": { "id": "https://www.catalogueoflife.org/data/taxon/8TLBR" }
     },
     {
       "id": "https://www.catalogueoflife.org/data/taxon/8TLBR",
@@ -334,7 +329,7 @@
         "dwc:scientificName": "Pterophoridae Latreille, 1802"
       },
       "taxonomicRank": "family",
-      "parent": "https://www.catalogueoflife.org/data/taxon/B6LST"
+      "parent": { "id": "https://www.catalogueoflife.org/data/taxon/B6LST" }
     },
     {
       "id": "https://www.catalogueoflife.org/data/taxon/B6LST",
@@ -346,7 +341,7 @@
         "dwc:scientificName": "Pterophoroidea Kuznetzov & Stekolnikov, 1979"
       },
       "taxonomicRank": "superfamily",
-      "parent": "https://www.catalogueoflife.org/data/taxon/B6L67"
+      "parent": { "id": "https://www.catalogueoflife.org/data/taxon/B6L67" }
     },
     {
       "id": "https://www.catalogueoflife.org/data/taxon/B6L67",
@@ -358,7 +353,7 @@
         "dwc:scientificName": "Lepidoptera Linnaeus, 1758"
       },
       "taxonomicRank": "order",
-      "parent": "https://www.catalogueoflife.org/data/taxon/H6"
+      "parent": { "id": "https://www.catalogueoflife.org/data/taxon/H6" }
     },
     {
       "id": "https://www.catalogueoflife.org/data/taxon/H6",
@@ -370,7 +365,7 @@
         "dwc:scientificName": "Insecta"
       },
       "taxonomicRank": "class",
-      "parent": "https://www.catalogueoflife.org/data/taxon/RT"
+      "parent": { "id": "https://www.catalogueoflife.org/data/taxon/RT" }
     },
     {
       "id": "https://www.catalogueoflife.org/data/taxon/RT",
@@ -382,7 +377,7 @@
         "dwc:scientificName": "Arthropoda"
       },
       "taxonomicRank": "phylum",
-      "parent": "https://www.catalogueoflife.org/data/taxon/N"
+      "parent": { "id": "https://www.catalogueoflife.org/data/taxon/N" }
     },
     {
       "id": "https://www.catalogueoflife.org/data/taxon/N",
@@ -394,7 +389,7 @@
         "dwc:scientificName": "Animalia"
       },
       "taxonomicRank": "kingdom",
-      "parent": "https://www.catalogueoflife.org/data/taxon/5T6MX"
+      "parent": { "id": "https://www.catalogueoflife.org/data/taxon/5T6MX" }
     },
     {
       "id": "https://www.catalogueoflife.org/data/taxon/5T6MX",

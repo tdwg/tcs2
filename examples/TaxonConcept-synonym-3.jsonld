@@ -4,16 +4,7 @@
   "type": "TaxonConcept",
   "accordingTo": "https://doi.org/10.48580/dfry-3gd#1.1.23.5",
   "dcterms:title": "Megalorhipida leucodactylus sec. Gielis & Hobern 2020-07-16",
-  "taxonName": {
-    "type": "TaxonName",
-    "taxonNameString": "Megalorhipida leucodactylus",
-    "dwc:scientificName": "Megalorhipida leucodactylus (Fabricius, 1794)",
-    "basionym": {
-      "type": "TaxonName",
-      "id": "https://zoobank.org/NomenclaturalActs/39b2f236-3914-4962-9dcc-f594671654bd",
-      "dwc:scientificName": "Pterophorus leucodactylus Fabricius, 1794"
-    }
-  },
+  "taxonName": { "id": "https://zoobank.org/NomenclaturalActs/39b2f236-3914-4962-9dcc-f594671654bd" },
   "synonym": [
     {
       "type": "TaxonName",
@@ -61,5 +52,5 @@
     }
   ],
   "taxonomicRank": "species",
-  "parent": "https://www.catalogueoflife.org/data/taxon/62ZBY"
+  "parent": { "id": "https://www.catalogueoflife.org/data/taxon/62ZBY" }
 }
