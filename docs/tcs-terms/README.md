@@ -488,7 +488,10 @@ The terms 'heterotypic synonym' and 'homotypic synonym' from the nomenclatural c
 <https://www.catalogueoflife.org/data/taxon/3YVTF> a tcs:TaxonConcept ;
     dcterms:title "Megalorhipida leucodactylus sec. Gielis & Hobern 2020-07-16" ;
     tcs:accordingTo <https://doi.org/10.48580/dfry-3gd#1.1.23.5> ;
-    tcs:taxonName <https://zoobank.org/NomenclaturalActs/39b2f236-3914-4962-9dcc-f594671654bd> ;
+    tcs:taxonName [ a tcs:TaxonName ;
+            tcs:taxonNameString "Megalorhipida leucodactylus" ;
+            dwc:scientificName "Megalorhipida leucodactylus (Fabricius, 1794)" ;
+            tcs:basionym <https://zoobank.org/NomenclaturalActs/39b2f236-3914-4962-9dcc-f594671654bd> ] ;
     tcs:synonym [ a tcs:TaxonName ;
             dwc:scientificName "Aciptilia hawaiiensis Butler, 1881" ] , 
         [ a tcs:TaxonName ;
