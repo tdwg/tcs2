@@ -2,29 +2,97 @@
 
 ## Why do we need TCS 2?
 
-> However, the object properties necessary to relate dwc:Taxon instances to name
-> entities, references, parent taxa, and child taxa do not exist and the exact
-> relationship between taxonomic entities such as taxon concepts, protonyms,
-> taxon name usages, etc. has not been established using RDF. So the creation of
-> functional dwc:Taxon instances described using RDF is not possible at the
-> present time.
+The Taxon Concept Schema (TCS) is the TDWG standard for exchanging taxonomic
+data. It is one of the '2005' group of standards, together with Access to
+Biological Collections Data (ABCD) and Structured Descriptive Data (SDD), that
+consists of an XML Schema. Unlike ABCD, TCS did not have a dedicated group of
+users or maintainers and has not been maintained since shortly after it was
+ratified. Any problems that people might have with TCS were never fixed, because
+there was no mechanism for making changes to the XML Schema.
+
+As TCS is an XML Schema, data delivered as TCS has to be XML, which was the
+predominant format for data exchange at the time. A few years after TCS was
+ratified, another format, Comma-delimited Values (CSV), became people's
+preferred format for shipping around large amounts of data, at least in the
+Biodiversity Data domain. Another issue people have with TCS is that it can only
+be used for complete datasets and not for individual Taxon Concepts or Taxon
+Names. 
+
+Since Darwin Core was ratified in 2009, the Darwin Core Taxon class has been the
+main vehicle for shipping around taxonomic data. Darwin Core, because it is a
+vocabulary standard, can be delivered in various formats, including CSV.
+
+There has been dissatisfaction with the Darwin Core Taxon class for exchanging
+taxonomic data, however, predominantly because people feel it is too permissive.
+There are many different ways to deliver syntactically correct Darwin Core Taxon
+data that works well for the purpose it was designed for, but comes apart when
+people try to incorporate it in systems that are different. The Darwin Core
+Taxon class also has references to objects that are not defined and its
+implementation allows for data artefacts that are not taxa by any definition,
+including that of the Darwin Core Taxon itself.
+
+The latter issues were the reason that the Darwin Core RDF Guide
+([\[darwin_core_and_rdfowl_task_groups_darwin_2015\]](../bibliography/#darwin_core_and_rdfowl_task_groups_darwin_2015))
+concluded that the creation of functional `dwc:Taxon` instances described using
+RDF was not possible at the time of writing and that the task of describing
+taxonomic entities would have to be an effort outside of Darwin Core. This is
+that effort.
+
+In 2017, the Vocabulary Maintenance Standard (VMS) and Standard Documentation
+Standard (SDS) were ratified, which establisheed a mechanism by which existing
+TDWG standards should be maintained and documented. In 2018, the then Taxonomic
+Names and Concepts Interest Group (TNC)—which was also responsible for the
+creation of TCS 1—set out to review TCS, the TDWG Taxon Concept and Taxon Name
+LSID Ontologies, the Darwin Core Taxon class and other systems for exchanging
+taxonomic data that were out there. In 2020, a new charter for the TNC was
+ratified, which made the TNC the Interest Group that maintains TCS and which
+lead to a change of the name of the Interest Group to TCS Maintence Group. A
+charter for the TCS 2 Task Group, to create the new version of TCS, was ratified
+in 2021.
+
+TCS 2, which we now bring to public review, converts the TCS 1 XML Schema to a vocabulary standard, like Darwin Core, that can be maintained under the VMS.
 
 ## Parameters
 
-- stick to terms that are already available in TCS 1.
-- borrow what we can from Darwin Core and other specifications
+The purpose of the current work is to make TCS useable again by changing it from
+an XML Schema to a vocabulary standard. Changes we propose are as far as
+possible only structural and do not affect the meaning of terms. Because TCS 2
+is a vocabulary standard we have had to provide new definitions for many of the
+terms, as in TCS 1 the meaning of elements and attributes was largely implicit,
+but the Taxon Concept and Taxon Name in TCS 2 are the Taxon Concept and Taxon
+Name in TCS 1 and the same goes for all other terms. No completely new terms
+have been added (with the exception of `higherClassification`, which has an equivalent in Darwin Core).
+
+Where we can we borrow terms from other standards, rather than defining them in
+TCS. The parsed name properties, as well as some other Taxon Name properties are
+borrowed from Darwin Core and some Taxon Concept properties from Dublin Core.
+There are some other terms which have been defined in TCS as IRI properties,
+which have literal equivalents in Darwin Core. In most cases, they will share
+the same label.
+
+While the version of the standard we are replacing is an XML Schema (XSD), we
+took a lot from the TDWG Taxon Concept and Taxon Name LSID Ontologies, which
+form a rather precise translation of the TCS XML Schema into OWL ontologies.
+Because the TDWG Ontologies never made it into a standard, we could not borrow
+any terms from them, but a lot from the TDWG Ontologies can be seen in TCS 2.
 
 ## Changes
 
-While the version of the standard we are replacing is an XML Schema (XSD), our
-work was mainly based on the TDWG Taxon Concept and Taxon Name LSID Ontologies,
-which form a rather honest translation of the TCS XML Schema into OWL
-ontologies.
+The most important change is that while in TCS 1 the `Name` element on of the
+Taxon Concept is required and the `AccordingTo` element is not, in TCS 2 it is
+the `accordingTo` property that is required. Every TCS 2 Taxon Concept object
+has to have a source, or `accordingTo`, which is a publication or other other
+form of communication where a taxon is defined in a certain way. This means that
+every Taxon Concept is traceable to a source and identifiable, and that in TCS 2
+nominal concepts are not possible. With regards to the Name, in TCS 1 a `Name`
+can either be a text node, so a string, or a reference (`ref`) to a `TaxonName`
+element with an `id` attribute. This is completely analogous to the use of the
+Darwin Core `scientificName` and the TCS `taxonName`, respectively, in TCS 2.
 
-The most important change we made was to dismantle the Taxon Relationship object
-that both TCS 1 and the Taxon Concept Ontology have. We want TCS to be a
-vocabulary standard, i.e. a set of terms and definitions, so TCS should not
-prescribe a certain syntax. 
+The most important structural change we made was dismantling the Taxon
+Relationship object that both TCS 1 and the Taxon Concept Ontology have. We want
+TCS to be a vocabulary standard, i.e. a set of terms and definitions, so TCS
+should not prescribe a certain syntax. 
 
 Another problem with a relationship object is that it obscures the precise
 nature of the relationship. Not all relationship types in TCS 1 are
@@ -35,7 +103,7 @@ relationships between Taxon Concepts (and some between Taxon Concepts and Taxon
 Names) are values in an enumeration (owl:Class in the TDWG Taxon Concept LSID
 Ontology).
 
-By elevating the values from the Taxon Relationship type enumeration to
+By elevating the values from the Taxon Relationship Type enumeration to
 first-class TCS properties and leaving the syntax out of the standard, people
 can choose whether to hang them off the subject Taxon Concept, or use them in a
 utility object outside TCS, for example the Darwin Core Resource Relationship
@@ -82,8 +150,52 @@ Concepts in different taxonomies (or different versions of a taxonomy).
 
 ## Left out for now
 
+The most important thing that has been left out of TCS 2 for now is the
+circumscription or definition of taxa. TCS 1 has the `CharacterCircumsciption`
+and `SpecimenCircumscription` elements, translated to `DescribedBy` and
+`CircumscribedBy`, respectively. These have been left out of the initial release
+of TCS 2, because we are not aware of any systems using them and because it is
+not immediately apparent how they should be used, especially for
+`CharacterCircumscription`, or that they are the only and best way to express
+circumscription in TCS. Just because it is not included yet does not mean
+circumscription is not important. The TCS Maintenance Group has every intention
+of adding circumscription to TCS at a later stage.
+
+All parsed name terms, except 'uninomial' can be borrowed from Darwin Core and
+we think that, if people have a need for a uninomial term, it might be best to
+have that in Darwin Core as well. Parsed authorship terms are not in Darwin
+Core, but we have not added them in TCS 2 either, as adding them is not
+straightforward because, unlike the parsed name terms, these terms are not
+defined outside the TDWG standards. They can be added if people who want them
+can come up with terms and definitions that are acceptable to the entire
+community.
+
+Finally, several of the relations in the Taxon Relationship Type enumeration
+have not been included as properties. Some of these are negations of adopted
+terms that are in groups of more than two, making their meaning ambiguous, e.g.
+`does not include`. Others, like the hybrid parent terms seem to have more to do
+with the format of hybrid formulas than with relationships between taxa, and yet
+others, e.g., `anamorph of`, only apply to certain groups of organisms and are
+not used in systems designed specifically for these groups.
 
 ## Context: SKOS and OpenBiodiv-O
+
+TCS can be usefully compared with SKOS (Simple Knowledge Organization System),
+with the Taxon Concept equivalent to the `skos:Concept` and the Taxon Name to
+the `skosxl:Label`. The taxonomy or publication the Taxon Concepts are in can be
+compared to the `skos:ConceptScheme` and therefore the `accordingTo` property to
+the `skos:inScheme` property. `taxonName`, `synonym` and `vernacularName` can be
+seen as `skosxl:prefLabel`, `skosxl:hiddenLabel` and `skosxl:altLabel`,
+respectively. Relationships between names are `skosxl:labelRelation`properties
+and relationships between taxa `skos:semanticRelation` properties, with the
+hierachical relationships being `skos:broader` and `skos:narrower` and the
+horizontal ones `skos:mappingRelation`s. In SKOS, `skos:broader` and
+`skos:narrower` are used between Concepts in the same Concept Scheme, while the
+`skos:mappingRelation` properties are used to map Concepts from different
+Concept Schemes. Likewise, in TCS, hierarchical relationship terms are used
+within the same taxonomy, while the horizontal relationship terms are mostly
+used to align Taxon Concepts between different taxonomies or different versions
+of a taxonomy.
 
 ![](../media/context-skos.jpg)
 
@@ -118,30 +230,38 @@ Concepts in different taxonomies (or different versions of a taxonomy).
 | tcs:spellingCorrectionOf | skosxl:labelRelation |
 | tcs:laterHomonymOf | skosxl:labelRelation |
 
-<br/>
-
-- Relationships between taxa are anologous to `skos:semanticRelation` properties
-- Horizontal relationships between taxa are also analogous to
-  `skos:mappingRelation` properties
-- Relationships between taxa and names are analogous to the SKOS-XL labeling
-  properties, `skosxl:prefLabel`, `skosxl:altLabel` and `skosxl:hiddenLabel`
-- Relationships between names are analogous to the `skosxl:labelRelation`
-  property.
-
 <br/><br/>
+
+The OpenBiodiv Ontology (OpenBiodiv-O) defines the `TaxonomicConcept` as a Work
+under the FRBR (Functional Requirements for Bibliographic Records) data model as
+well as a SKOS Concept. A `Work` in FRBR is the product of an intellectual
+process of one or more persons, about which only indirect evidence is at our
+hand. The Expression that realises this Work is the Treatment. While in FRBR a
+Work can have more than one Expression, there is a one-to-one relationship
+between Taxonomic Concepts and Treatment. This is exactly how we think of Taxon
+Concepts in TCS and forms a nice bridge between Taxon (or Taxonomic) Concepts
+and the literature.
+
+One or more Treatments are contained in a `TaxonomicArticle`. Therefore, the
+`accordingTo` property in TCS can point to either a Taxonomic Article or an
+individual Treatment. It should be noted that the Taxonomic Article and
+everything contained in it are not part of TCS and that TCS relies on other
+specifications for those.
+
+In other respects, TCS is a bit broader than OpenBiodiv-O. Every
+`OperationalTaxonomicUnit`, which is a superclass of `TaxonomicConcept` in
+OpenBiodiv-O, can be expressed as a TCS Taxon Concept. Also, there re categories
+of Taxon Concepts that TCS needs to be able to deal with that, while fitting the
+definition of a Taxonomic Concept cannot be expressed in OpneBiodiv-O.
+
+The `RCC5Statement` in OpenBiodiv-O is equivalent to the `TaxonConceptMapping`
+in TCS (or vice versa).
+
+<br/>
 
 ![](../media/context-openbiodiv-o.jpg)
 
-- The OpenBiodiv Ontology (OpenBiodiv-O) establishes the Taxonomic Concept as a
-  Work under the FRBR (Functional Requirements for Bibliographic Records) data
-  model. The Expression that realises this Work is the Treatment. While in FRBR
-  a Work can have more than one Expression, there is a one-to-one relationship
-  between Taxonomic Concepts and Treatment.
-
-  > A **Work** is the product of an intellectual process of one or more persons,
-  yet only indirect evidence about it is at our hands.
-
-- At the same time the OpenBiodiv-O Taxonomic Concept is a SKOS Concept.
+<br/><br/>
 
 ## Appendix 1: Mapping of TCS 1 and TDWG Ontology terms
 
@@ -220,7 +340,7 @@ nominal | &mdash; | &mdash;
 
 #### TaxonomicRankAboveSuperfamilyEnum
 
-TCS 1 | TDWG Ontology | TCS 2
+TCS 1 | TDWG Ontology | TCS 2<sup>*</sup>
 -|-|-
 dom | &mdash; | [domain](http://rs.gbif.org/vocabulary/gbif/rank/domain)
 superreg | &mdash; | &mdash;
@@ -246,7 +366,7 @@ taxsupragen | &mdash; | &mdash;
 
 #### TaxonomicRankFamilyGroupEnum
 
-TCS 1 | TDWG Ontology | TCS 2
+TCS 1 | TDWG Ontology | TCS 2<sup>*</sup>
 -|-|-
 superfam | &mdash; | [superfamily](http://rs.gbif.org/vocabulary/gbif/rank/superfamily)
 fam | &mdash; | [family](http://rs.gbif.org/vocabulary/gbif/rank/family)
@@ -255,7 +375,7 @@ infrafam | &mdash; | &mdash;
 
 #### TaxonomicRankFamilySubdivisionEnum
 
-TCS 1 | TDWG Ontology | TCS 2
+TCS 1 | TDWG Ontology | TCS 2<sup>*</sup>
 -|-|-
 supertrib | &mdash; | &mdash;
 trib | &mdash; | [tribe](http://rs.gbif.org/vocabulary/gbif/rank/tribe)
@@ -264,7 +384,7 @@ infratrib | &mdash; | &mdash;
 
 #### TaxonomicRankGenusGroupEnum
 
-TCS 1 | TDWG Ontology | TCS 2
+TCS 1 | TDWG Ontology | TCS 2<sup>*</sup>
 -|-|-
 gen | &mdash; | [genus](http://rs.gbif.org/vocabulary/gbif/rank/genus)
 subgen | &mdash; | [subgenus](http://rs.gbif.org/vocabulary/gbif/rank/subgenus)
@@ -272,7 +392,7 @@ infragen | &mdash; | &mdash;
 
 #### TaxonomicRankGenusSubdivisionEnum
 
-TCS 1 | TDWG Ontology | TCS 2
+TCS 1 | TDWG Ontology | TCS 2<sup>*</sup>
 -|-|-
 sect | &mdash; | [section](http://rs.gbif.org/vocabulary/gbif/rank/section)
 subsect | &mdash; | [subsection](http://rs.gbif.org/vocabulary/gbif/rank/subsection)
@@ -283,7 +403,7 @@ taxinfragen | &mdash; | &mdash;
 
 #### TaxonomicRankSpeciesGroupEnum
 
-TCS 1 | TDWG Ontology | TCS 2
+TCS 1 | TDWG Ontology | TCS 2<sup>*</sup>
 -|-|-
 sp | &mdash; | [species](http://rs.gbif.org/vocabulary/gbif/rank/species)
 subsp_aggr | &mdash; | [subspecificAggregate](http://rs.gbif.org/vocabulary/gbif/rank/subspecificAggregate)
@@ -291,7 +411,7 @@ subsp | &mdash; | [subspecies](http://rs.gbif.org/vocabulary/gbif/rank/subspecie
 
 #### TaxonomicRankBelowSubspeciesEnum
 
-TCS 1 | TDWG Ontology | TCS 2
+TCS 1 | TDWG Ontology | TCS 2<sup>*</sup>
 -|-|-
 bv | &mdash; | &mdash;
 pv | &mdash; | &mdash;
@@ -309,7 +429,7 @@ infrasp | &mdash; | &mdash;
 
 #### TaxonomicRankCultivatedPlants
 
-TCS 1 | TDWG Ontology | TCS 2
+TCS 1 | TDWG Ontology | TCS 2<sup>*</sup>
 -|-|-
 cvgroup | &mdash; | [cultivarGroup](http://rs.gbif.org/vocabulary/gbif/rank/cultivarGroup)
 grex | &mdash; | &mdash;
@@ -363,7 +483,7 @@ TCS 1 | TDWG Ontology | TCS 2
 
 <sup>*</sup> TCS 2 recommends the GBIF [Nomenclatural Codes](https://rs.gbif.org/vocabulary/gbif/nomenclatural_code.xml) vocabulary
 
-TCS 1 | TDWG Ontology | TCS 2
+TCS 1 | TDWG Ontology | TCS 2<sup>*</sup>
 -|-|-
 Viral | [tn:Viral](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L675) | [ICVCN](http://rs.gbif.org/vocabulary/gbif/nomenclatural_code/ICVCN)
 Bacteriological | [tn:Bacteriological](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L422) | [ICNB](http://rs.gbif.org/vocabulary/gbif/nomenclatural_code/ICNB)
@@ -388,7 +508,7 @@ TCS 1 | TDWG Ontology | TCS 2
 
 <sup>*</sup> TCS 2 recommends the GBIF [Nomenclatural Type Status Vocabulary](https://rs.gbif.org/vocabulary/gbif/type_status.xml)
 
-TCS 1 | TDWG Ontology | TCS 2
+TCS 1 | TDWG Ontology | TCS 2<sup>*</sup>
 -|-|-
 allo | [tn:Allotype](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L416) | [allotype](http://rs.gbif.org/vocabulary/gbif/type_status/allotype)
 allolecto | [tn:Allolectotype](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L406) | [allolectotype](http://rs.gbif.org/vocabulary/gbif/type_status/allolectotype)
