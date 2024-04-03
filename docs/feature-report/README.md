@@ -145,7 +145,7 @@ Concepts in different taxonomies (or different versions of a taxonomy).
 
 ![](../media/context-tcs.jpg)
 
-## Left out for now
+## Terms omitted from the first version of TCS 2
 
 The most important thing that has been left out of TCS 2 for now is the
 circumscription or definition of taxa. TCS 1 has the `CharacterCircumsciption`
