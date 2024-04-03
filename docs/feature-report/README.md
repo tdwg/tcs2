@@ -24,9 +24,7 @@ vocabulary standard, can be delivered in various formats, including CSV.
 
 There has been dissatisfaction with the Darwin Core Taxon class for exchanging
 taxonomic data, however, predominantly because people feel it is too permissive.
-There are many different ways to deliver syntactically correct Darwin Core Taxon
-data that works well for the purpose it was designed for, but comes apart when
-people try to incorporate it in systems that are different. The Darwin Core
+Darwin Core Taxon data may be syntactically correct but have a meaning that is incompatible with the receiver's data model. The Darwin Core
 Taxon class also has references to objects that are not defined and its
 implementation allows for data artefacts that are not taxa by any definition,
 including that of the Darwin Core Taxon itself.
