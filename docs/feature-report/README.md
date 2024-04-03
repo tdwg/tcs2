@@ -102,7 +102,7 @@ values in an enumeration (owl:Class in the TDWG Taxon Concept LSID Ontology).
 
 By elevating the values from the Taxon Relationship Type enumeration to
 first-class TCS properties and leaving the syntax out of the standard, people
-can choose whether to hang them off the subject Taxon Concept, or use them in a
+can choose whether to connect them to the subject Taxon Concept, or use them in a
 utility object outside TCS, for example the Darwin Core Resource Relationship
 class. The shape of the data may dictate the use of a relationship object, but
 the terms have the same meaning, regardless of the syntax.
