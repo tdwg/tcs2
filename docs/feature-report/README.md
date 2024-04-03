@@ -61,7 +61,7 @@ is a vocabulary standard we have had to provide new definitions for many of the
 terms, as in TCS 1 the meaning of elements and attributes was largely implicit,
 but the Taxon Concept and Taxon Name in TCS 2 are the Taxon Concept and Taxon
 Name in TCS 1 and the same goes for all other terms. No completely new terms
-have been added (with the exception of `higherClassification`, which has an equivalent in Darwin Core).
+have been added.
 
 Where we can we borrow terms from other standards, rather than defining them in
 TCS. The parsed name properties, as well as some other Taxon Name properties are
@@ -107,8 +107,8 @@ By elevating the values from the Taxon Relationship Type enumeration to
 first-class TCS properties and leaving the syntax out of the standard, people
 can choose whether to hang them off the subject Taxon Concept, or use them in a
 utility object outside TCS, for example the Darwin Core Resource Relationship
-class. The data may dictate the use of a relationship object, but the terms have
-the same meaning, regardless of the syntax.
+class. The shape of the data may dictate the use of a relationship object, but
+the terms have the same meaning, regardless of the syntax.
 
 We currently recognise the following relations between the major objects in TCS:
 
@@ -279,7 +279,7 @@ TCS 1 | TDWG Ontology | TCS 2
 /DataSet/TaxonConcepts/TaxonConcept/AccordingTo/AccordingToSimple | [tc:accordingToString](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonConcept.ttl#L58) | &mdash;
 /DataSet/TaxonConcepts/TaxonConcept/SpecimenCircumscription | [tc:circumscribedBy](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonConcept.ttl#L80) | &mdash;
 /DataSet/TaxonConcepts/TaxonConcept/CharacterCircumscription | [tc:describedBy](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonConcept.ttl#L87) | &mdash;
-&mdash; | &mdash; | [higherClassification](https://github.com/tdwg/tcs2/tree/master/docs/tcs-terms#tcshigherclassification)
+
 
 ### Taxon Relationship / Taxon Relationship Assertion
 
