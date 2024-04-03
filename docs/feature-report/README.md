@@ -29,7 +29,7 @@ Taxon class also has references to objects that are not defined and its
 implementation allows for data artefacts that are not taxa by any definition,
 including that of the Darwin Core Taxon itself.
 
-The latter issues were the reason that the Darwin Core RDF Guide
+These issues were the reason that the Darwin Core RDF Guide
 ([\[darwin_core_and_rdfowl_task_groups_darwin_2015\]](../bibliography/#darwin_core_and_rdfowl_task_groups_darwin_2015))
 concluded that the creation of functional `dwc:Taxon` instances described using
 RDF was not possible at the time of writing and that the task of describing
