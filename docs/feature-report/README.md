@@ -8,7 +8,7 @@ Biological Collections Data (ABCD) and Structured Descriptive Data (SDD), that
 consists of an XML Schema. Unlike ABCD, TCS did not have a dedicated group of
 users or maintainers and has not been maintained since shortly after it was
 ratified. Any problems that people might have with TCS were never fixed, because
-there was no mechanism for making changes to the XML Schema.
+there was no mechanism for making formal changes to the XML Schema.
 
 As TCS is an XML Schema, data delivered as TCS has to be XML, which was the
 predominant format for data exchange at the time. A few years after TCS was
