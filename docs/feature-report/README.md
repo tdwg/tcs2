@@ -94,14 +94,13 @@ Relationship object that both TCS 1 and the Taxon Concept Ontology have. We want
 TCS to be a vocabulary standard, i.e. a set of terms and definitions, so TCS
 should not prescribe a certain syntax. 
 
-Another problem with a relationship object is that it obscures the precise
-nature of the relationship. Not all relationship types in TCS 1 are
-relationships between Taxon Concepts, some are relationships between Taxon
-Concepts and Taxon Names. Also, relationships between Taxon Names in TCS 1 are
-elements (owl:objectProperty in the TDWG Taxon Name LSID Ontology), while
-relationships between Taxon Concepts (and some between Taxon Concepts and Taxon
-Names) are values in an enumeration (owl:Class in the TDWG Taxon Concept LSID
-Ontology).
+Another problem with a relationship object is that it obscures the nature of the
+relationship. Not all relationship types in TCS 1 are relationships between
+Taxon Concepts, some are relationships between Taxon Concepts and Taxon Names.
+Also, relationships between Taxon Names in TCS 1 are elements
+(owl:objectProperty in the TDWG Taxon Name LSID Ontology), while relationships
+between Taxon Concepts (and some between Taxon Concepts and Taxon Names) are
+values in an enumeration (owl:Class in the TDWG Taxon Concept LSID Ontology).
 
 By elevating the values from the Taxon Relationship Type enumeration to
 first-class TCS properties and leaving the syntax out of the standard, people
@@ -275,7 +274,7 @@ TCS 1 | TDWG Ontology | TCS 2
 /DataSet/TaxonConcepts/TaxonConcept/Rank/@code | [tc:rank](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonConcept.ttl#L157) | [taxonomicRank](https://github.com/tdwg/tcs2/tree/master/docs/tcs-terms#tcstaxonomicrank)
 /DataSet/TaxonConcepts/TaxonConcept/Name | [tc:nameString](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonConcept.ttl#L72) | [dcterms:title](https://github.com/tdwg/tcs2/tree/master/docs/tcs-terms#dctermstitle) \| [dcterms:identifier](https://github.com/tdwg/tcs2/tree/master/docs/tcs-terms#dctermsidentifier) \| [dwc:scientificName](https://github.com/tdwg/tcs2/tree/master/docs/tcs-terms#dwcscientificname) \| [dwc:vernacularName](https://github.com/tdwg/tcs2/tree/master/docs/tcs-terms#dwcvernacularname)
 /DataSet/TaxonConcepts/TaxonConcept/Name/@ref | [tc:hasName](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonConcept.ttl#L65) | [taxonName](https://github.com/tdwg/tcs2/tree/master/docs/tcs-terms#tcstaxonname)
-/DataSet/TaxonConcepts/TaxonConcept/AccordingTo/AccordingToDetailed | [  tc:accordingTo](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonConcept.ttl#L50) | [accordingTo](https://github.com/tdwg/tcs2/tree/master/docs/tcs-terms#tcsaccordingto)
+/DataSet/TaxonConcepts/TaxonConcept/AccordingTo/AccordingToDetailed | [tc:accordingTo](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonConcept.ttl#L50) | [accordingTo](https://github.com/tdwg/tcs2/tree/master/docs/tcs-terms#tcsaccordingto)
 /DataSet/TaxonConcepts/TaxonConcept/AccordingTo/AccordingToSimple | [tc:accordingToString](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonConcept.ttl#L58) | &mdash;
 /DataSet/TaxonConcepts/TaxonConcept/SpecimenCircumscription | [tc:circumscribedBy](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonConcept.ttl#L80) | &mdash;
 /DataSet/TaxonConcepts/TaxonConcept/CharacterCircumscription | [tc:describedBy](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonConcept.ttl#L87) | &mdash;
@@ -289,7 +288,7 @@ TCS 1 | TDWG Ontology | TCS 2
 /DataSet/TaxonConcepts/TaxonConcept/Relationships/Relationship/@type \| /DataSet/TaxonRelationshipAssertions/TaxonRelationshipAssertion/@type | [tc:relationshipCategory](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonConcept.ttl#L128) | &mdash;
 /DataSet/TaxonRelationshipAssertions/TaxonRelationshipAssertion/FromTaxonConcept | [tc:fromTaxon](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonConcept.ttl#L94) | &mdash;
 /DataSet/TaxonRelationshipAssertions/TaxonRelationshipAssertion/ToTaxonConcept \| /DataSet/TaxonConcepts/TaxonConcept/TaxonRelationships/TaxonRelationship/ToTaxonConcept | [tc:toTaxon](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonConcept.ttl#L134) | &mdash;
-/DataSet/TaxonRelationshipAssertions/TaxonRelationshipAssertion/AccordingTo | &mdash; | &mdash;
+/DataSet/TaxonRelationshipAssertions/TaxonRelationshipAssertion/AccordingTo | &mdash; | [mappingAccordingTo](https://github.com/tdwg/tcs2/tree/master/docs/tcs-terms#tcsmappingaccordingto)
 
 ### Relationship Type vocabulary
 
