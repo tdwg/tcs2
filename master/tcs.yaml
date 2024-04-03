@@ -213,25 +213,6 @@
   repeatable: No
   github: 32
 
-# property: higherClassification
-- localName: higherClassification
-  label: Higher classification
-  definition: >-
-    List or array of Taxon Concepts that starts with the highest-ranked Taxon
-    Concept in a classification (generally a Kingdom or Domain) and ends with
-    the parent.
-  usage: >-
-    `higherClassification` is a list or array of Taxon Concepts.
-  notes: >-
-    `higherClassification` is the IRI equivalent of `dwc:higherClassification`. 
-  examples:
-    - TaxonConcept-higherClassification-1
-  organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonConcept
-  repeatable: No
-  required: No
-  type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
-  github: 230
-
 # property: parent
 - localName: parent
   label: Parent

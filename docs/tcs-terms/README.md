@@ -4,7 +4,7 @@
 
 **Taxon Concept**
 
-[tcs:TaxonConcept](#tcstaxonconcept) | [tcs:accordingTo](#tcsaccordingto) | [tcs:taxonName](#tcstaxonname) | [tcs:synonym](#tcssynonym) | [tcs:vernacularName](#tcsvernacularname) | [tcs:taxonomicRank](#tcstaxonomicrank) | [tcs:higherClassification](#tcshigherclassification) | [tcs:parent](#tcsparent) | [tcs:child](#tcschild) | [tcs:isCongruentWith](#tcsiscongruentwith) | [tcs:includes](#tcsincludes) | [tcs:isIncludedIn](#tcsisincludedin) | [tcs:partiallyOverlaps](#tcspartiallyoverlaps) | [tcs:isDisjointFrom](#tcsisdisjointfrom) | [tcs:intersects](#tcsintersects) | [dwc:scientificName](#dwcscientificname) | [dwc:vernacularName](#dwcvernacularname) | [dwc:verbatimTaxonRank](#dwcverbatimtaxonrank) | [dcterms:identifier](#dctermsidentifier) | [dcterms:title](#dctermstitle)
+[tcs:TaxonConcept](#tcstaxonconcept) | [tcs:accordingTo](#tcsaccordingto) | [tcs:taxonName](#tcstaxonname) | [tcs:synonym](#tcssynonym) | [tcs:vernacularName](#tcsvernacularname) | [tcs:taxonomicRank](#tcstaxonomicrank) | [tcs:parent](#tcsparent) | [tcs:child](#tcschild) | [tcs:isCongruentWith](#tcsiscongruentwith) | [tcs:includes](#tcsincludes) | [tcs:isIncludedIn](#tcsisincludedin) | [tcs:partiallyOverlaps](#tcspartiallyoverlaps) | [tcs:isDisjointFrom](#tcsisdisjointfrom) | [tcs:intersects](#tcsintersects) | [dwc:scientificName](#dwcscientificname) | [dwc:vernacularName](#dwcvernacularname) | [dwc:verbatimTaxonRank](#dwcverbatimtaxonrank) | [dcterms:identifier](#dctermsidentifier) | [dcterms:title](#dctermstitle)
 
 **Taxon Concept Mapping**
 
@@ -677,95 +677,6 @@ The `vernacularName` property can be used when a vernacular name is used alongsi
 **Comments**
 
 The rank is an attribute of elements in a classification and implementations can decide for themselves if it makes more sense to use `taxonomicRank` on a Taxon Concept object or a Taxon Name object, or both. This property takes an object or IRI and it is recommended to use a value from an existing controlled vocabulary. While there is no TDWG vocabulary yet, the GBIF Taxonomic Rank Vocabulary (https://rs.gbif.org/vocabulary/gbif/rank.xml) is recommended.
-
-### tcs:higherClassification
-
-<table style="width:100%;">
-	<tbody>
-		<tr>
-			<td>Identifier</td>
-			<td>http://rs.tdwg.org/tcs/terms/higherClassification</td>
-		</tr>
-		<tr>
-			<td>Type</td>
-			<td>http://www.w3.org/1999/02/22-rdf-syntax-ns#Property</td>
-		</tr>
-		<tr>
-			<td>Label</td>
-			<td>Higher classification</td>
-		</tr>
-		<tr>
-			<td></td>
-			<td><b>required:</b> No — <b>repeatable:</b> No</td>
-		</tr>
-		<tr>
-			<td>Definition</td>
-			<td><p>List or array of Taxon Concepts that starts with the highest-ranked Taxon Concept in a classification (generally a Kingdom or Domain) and ends with the parent.</p></td>
-		</tr>
-		<tr>
-			<td>Usage</td>
-			<td><p><code>higherClassification</code> is a list or array of Taxon Concepts.</p></td>
-		</tr>
-		<tr>
-			<td>GitHub issue</td>
-			<td>https://github.com/tdwg/tcs2/issues/230</td>
-		</tr>
-	</tbody>
-</table>
-
-
-**Comments**
-
-`higherClassification` is the IRI equivalent of `dwc:higherClassification`. 
-
-
-**Examples**
-
-
-```turtle
-<https://www.catalogueoflife.org/data/taxon/4WSQK> a tcs:TaxonConcept ;
-    dcterms:title "Sequioadendron giganteum sec. Catalogue of Life 2024-01-24"
-    tcs:accordingTo <https://doi.org/10.48580/dfrdl> ;
-    dwc:scientificName "Sequoiadendron giganteum (Lindl.) J.T. Buchholz" ;
-    tcs:higherClassification <https://www.catalogueoflife.org/data/taxon/P> ,
-            <https://www.catalogueoflife.org/data/taxon/TP> ,
-            <https://www.catalogueoflife.org/data/taxon/GG> ,
-            <https://www.catalogueoflife.org/data/taxon/623FD> ,
-            <https://www.catalogueoflife.org/data/taxon/8SY> ,
-            <https://www.catalogueoflife.org/data/taxon/7FQF> .
-
-<https://www.catalogueoflife.org/data/taxon/P> a tcs:TaxonConcept ;
-    dcterms:title "Plantae sec. Catalogue of Life 2024-01-24"
-    tcs:accordingTo <https://doi.org/10.48580/dfrdl> ;
-    dwc:scientificName "Plantae" .
-
-<https://www.catalogueoflife.org/data/taxon/TP> a tcs:TaxonConcept ;
-    dcterms:title "Tracheophyta sec. Catalogue of Life 2024-01-24"
-    tcs:accordingTo <https://doi.org/10.48580/dfrdl> ;
-    dwc:scientificName "Tracheophyta" .
-
-<https://www.catalogueoflife.org/data/taxon/GG> a tcs:TaxonConcept ;
-    dcterms:title "Pinopsida sec. Catalogue of Life 2024-01-24"
-    tcs:accordingTo <https://doi.org/10.48580/dfrdl> ;
-    dwc:scientificName "Pinopsida" .
-
-<https://www.catalogueoflife.org/data/taxon/623FD> a tcs:TaxonConcept ;
-    dcterms:title "Pinales sec. Catalogue of Life 2024-01-24"
-    tcs:accordingTo <https://doi.org/10.48580/dfrdl> ;
-    dwc:scientificName "Pinales" .
-
-<https://www.catalogueoflife.org/data/taxon/8SY> a tcs:TaxonConcept ;
-    dcterms:title "Cupressaceae sec. Catalogue of Life 2024-01-24"
-    tcs:accordingTo <https://doi.org/10.48580/dfrdl> ;
-    dwc:scientificName "Cupressaceae" .
-
-<https://www.catalogueoflife.org/data/taxon/7FQF> a tcs:TaxonConcept ;
-    dcterms:title "Sequioadendron sec. Catalogue of Life 2024-01-24"
-    tcs:accordingTo <https://doi.org/10.48580/dfrdl> ;
-    dwc:scientificName "Sequoiadendron" .
-```
-
-[&lsqb;TaxonConcept-higherClassification-1.ttl&rsqb;](../../examples/TaxonConcept-higherClassification-1.ttl)&nbsp;[&lsqb;TaxonConcept-higherClassification-1.jsonld&rsqb;](../../examples/TaxonConcept-higherClassification-1.jsonld)
 
 ### tcs:parent
 
