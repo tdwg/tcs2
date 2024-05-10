@@ -24,7 +24,7 @@ vocabulary standard, can be delivered in various formats, including CSV.
 
 There has been dissatisfaction with the Darwin Core Taxon class for exchanging
 taxonomic data, however, predominantly because people feel it is too permissive.
-Darwin Core Taxon data may be syntactically correct but have a meaning that is incompatible with the receiver's data model. The Darwin Core
+Darwin Core Taxon data may be syntactically correct but have a meaning that is incompatible with the consumer's data model. The Darwin Core
 Taxon class also has references to objects that are not defined and its
 implementation allows for data artefacts that are not taxa by any definition,
 including that of the Darwin Core Taxon itself.
@@ -33,18 +33,18 @@ These issues were the reason that the Darwin Core RDF Guide
 ([\[darwin_core_and_rdfowl_task_groups_darwin_2015\]](../bibliography/#darwin_core_and_rdfowl_task_groups_darwin_2015))
 concluded that the creation of functional `dwc:Taxon` instances described using
 RDF was not possible at the time of writing and that the task of describing
-taxonomic entities would have to be an effort outside of Darwin Core. This is
+taxonomic entities would have to be an effort outside of Darwin Core. TCS 2 is
 that effort.
 
 In 2017, the Vocabulary Maintenance Standard (VMS) and Standard Documentation
-Standard (SDS) were ratified, which establisheed a mechanism by which existing
+Standard (SDS) were ratified, which established a mechanism by which existing
 TDWG standards should be maintained and documented. In 2018, the then Taxonomic
 Names and Concepts Interest Group (TNC)—which was also responsible for the
 creation of TCS 1—set out to review TCS, the TDWG Taxon Concept and Taxon Name
 LSID Ontologies, the Darwin Core Taxon class and other systems for exchanging
 taxonomic data that were out there. In 2020, a new charter for the TNC was
 ratified, which made the TNC the Interest Group that maintains TCS and which
-lead to a change of the name of the Interest Group to TCS Maintence Group. A
+lead to a change of the name of the Interest Group to TCS Maintenance Group. A
 charter for the TCS 2 Task Group, to create the new version of TCS, was ratified
 in 2021.
 
@@ -61,21 +61,30 @@ but the Taxon Concept and Taxon Name in TCS 2 are the Taxon Concept and Taxon
 Name in TCS 1 and the same goes for all other terms. No completely new terms
 have been added.
 
-Where we can we borrow terms from other standards, rather than defining them in
-TCS. The parsed name properties, as well as some other Taxon Name properties are
-borrowed from Darwin Core and some Taxon Concept properties from Dublin Core.
-There are some other terms which have been defined in TCS as IRI properties,
-which have literal equivalents in Darwin Core. In most cases, they will share
-the same label.
+Where possible, we borrow terms from other standards, rather than defining them
+in TCS. The parsed name properties, as well as some other Taxon Name properties
+are borrowed from Darwin Core and some Taxon Concept properties from Dublin
+Core. There are some other terms which have been defined in TCS as IRI
+properties, which have literal equivalents in Darwin Core. In most cases, they
+will share the same label.
 
 While the version of the standard we are replacing is an XML Schema (XSD), we
 took a lot from the TDWG Taxon Concept and Taxon Name LSID Ontologies, which
-form a rather precise translation of the TCS XML Schema into OWL ontologies.
-Because the TDWG Ontologies never made it into a standard, we could not borrow
-any terms from them, but a lot from the TDWG Ontologies can be seen in TCS 2.
+While the formal TDWG standard we are replacing is an XML Schema (XSD), we were
+influenced by and borrowed from the TDWG [Taxon
+Concept](https://github.com/tdwg/ontology/blob/master/ontology/voc/TaxonConcept.rdf)
+and [Taxon
+Name](https://github.com/tdwg/ontology/blob/master/ontology/voc/TaxonName.rdf)
+LSID Ontologies, (with non-resolving URIs:
+`http://rs.tdwg.org/ontology/voc/TaxonConcept` and
+`http://rs.tdwg.org/ontology/voc/TaxonName`), which were primarily developed by
+Roger Hyam. These were a precise translation of the TCS XML Schema into OWL
+ontologies. Because the TDWG Ontologies were never standardized, we could not
+directly import terms from them, but, conceptually, much from the TDWG
+Ontologies can be found back in TCS 2.
 
 ## Changes
-
+ 
 The most important change is that while in TCS 1 the `Name` element on of the
 Taxon Concept is required and the `AccordingTo` element is not, in TCS 2 it is
 the `accordingTo` property that is required. Every TCS 2 Taxon Concept object
@@ -107,9 +116,10 @@ utility object outside TCS, for example the Darwin Core Resource Relationship
 class. The shape of the data may dictate the use of a relationship object, but
 the terms have the same meaning, regardless of the syntax.
 
-We currently recognise the following relations between the major objects in TCS:
+We currently recognise the following relations between the major entities in
+TCS:
 
-### Relationships between taxa
+### Relationships between Taxon Concepts (taxa)
 
 #### Hierarchical relationships
 
@@ -125,15 +135,16 @@ We currently recognise the following relations between the major objects in TCS:
 - tcs:intersects
 
 Horizontal relationships between Taxon Concepts are relationships between Taxon
-Concepts in different taxonomies (or different versions of a taxonomy).
+Concepts in different taxonomies (or different versions of a taxonomy), or
+between Taxon Concepts in rank-free systems, e.g., cladograms.
 
-### Relationships between taxa and names
+### Relationships between Taxon Concepts and Taxon Names
 
 - tcs:taxonName
 - tcs:synonym
 - tcs:vernacularName
 
-### Relationships between names
+### Relationships between Taxon Names
 
 - tcs:basionym
 - tcs:replacedSynonym
@@ -145,35 +156,35 @@ Concepts in different taxonomies (or different versions of a taxonomy).
 
 ![](../media/context-tcs.jpg)
 
-## Terms omitted from the first version of TCS 2
+## Terms omitted from the initial release
 
 The most important thing that has been left out of TCS 2 for now is the
-circumscription or definition of taxa. TCS 1 has the `CharacterCircumsciption`
+circumscription or definition of taxa. TCS 1 has the `CharacterCircumscription`
 and `SpecimenCircumscription` elements, translated to `DescribedBy` and
-`CircumscribedBy`, respectively. These have been left out of the initial release
-of TCS 2, because we are not aware of any systems using them and because it is
-not immediately apparent how they should be used, especially for
-`CharacterCircumscription`, or that they are the only and best way to express
-circumscription in TCS. Just because it is not included yet does not mean
-circumscription is not important. The TCS Maintenance Group has every intention
-of adding circumscription to TCS at a later stage.
+`CircumscribedBy`, respectively, in the TDWG Ontology. These have been left out
+of the initial release of TCS 2, because we are not aware of any systems using
+them and because it is not immediately apparent how they should be used,
+especially for `CharacterCircumscription`, or that they are the only and best
+way to express circumscription in TCS. Just because it is not included yet does
+not mean circumscription is not important. The TCS Maintenance Group has every
+intention of adding circumscription to TCS at a later stage.
 
-All parsed name terms, except 'uninomial' can be borrowed from Darwin Core and
-we think that, if people have a need for a uninomial term, it might be best to
-have that in Darwin Core as well. Parsed authorship terms are not in Darwin
-Core, but we have not added them in TCS 2 either, as adding them is not
-straightforward because, unlike the parsed name terms, these terms are not
-defined outside the TDWG standards. They can be added if people who want them
-can come up with terms and definitions that are acceptable to the entire
-community.
+All parsed name terms, except 'uninomial', are in Darwin Core and have been
+borrowed from there. We think that, if people have a need for a 'uninomial'
+term, it might be best to have that in Darwin Core as well. Parsed authorship
+terms are not in Darwin Core, but we have not added them in TCS 2 either, as
+adding them is not straightforward because, unlike the parsed name terms, these
+terms are not defined outside DWG standards. They can be added if people
+who want them can come up with terms and definitions that are acceptable to the
+entire community.
 
 Finally, several of the relations in the Taxon Relationship Type enumeration
-have not been included as properties. Some of these are negations of adopted
-terms that are in groups of more than two, making their meaning ambiguous, e.g.
-`does not include`. Others, like the hybrid parent terms seem to have more to do
-with the format of hybrid formulas than with relationships between taxa, and yet
-others, e.g., `anamorph of`, only apply to certain groups of organisms and are
-not used in systems designed specifically for these groups.
+have not (yet) been included as properties. Some of these are negations of
+adopted terms that are in groups of more than two, making their meaning
+ambiguous, e.g. `does not include`. Others, like the hybrid parent terms seem to
+have more to do with the format of hybrid formulas than with relationships
+between taxa, and yet others, e.g., `anamorph of`, only apply to certain groups
+of organisms and are not used in systems designed specifically for these groups.
 
 ## Context: SKOS and OpenBiodiv-O
 
@@ -183,9 +194,9 @@ the `skosxl:Label`. The taxonomy or publication the Taxon Concepts are in can be
 compared to the `skos:ConceptScheme` and therefore the `accordingTo` property to
 the `skos:inScheme` property. `taxonName`, `synonym` and `vernacularName` can be
 seen as `skosxl:prefLabel`, `skosxl:hiddenLabel` and `skosxl:altLabel`,
-respectively. Relationships between names are `skosxl:labelRelation`properties
+respectively. Relationships between names are `skosxl:labelRelation` properties
 and relationships between taxa `skos:semanticRelation` properties, with the
-hierachical relationships being `skos:broader` and `skos:narrower` and the
+hierarchical relationships being `skos:broader` and `skos:narrower` and the
 horizontal ones `skos:mappingRelation`s. In SKOS, `skos:broader` and
 `skos:narrower` are used between Concepts in the same Concept Scheme, while the
 `skos:mappingRelation` properties are used to map Concepts from different
@@ -242,17 +253,18 @@ and the literature.
 One or more Treatments are contained in a `TaxonomicArticle`. Therefore, the
 `accordingTo` property in TCS can point to either a Taxonomic Article or an
 individual Treatment. It should be noted that the Taxonomic Article and
-everything contained in it are not part of TCS and that TCS relies on other
-specifications for those.
+everything contained in it have no counterparts in TCS and that TCS relies on
+other specifications for those.
 
 In other respects, TCS is a bit broader than OpenBiodiv-O. Every
 `OperationalTaxonomicUnit`, which is a superclass of `TaxonomicConcept` in
-OpenBiodiv-O, can be expressed as a TCS Taxon Concept. Also, there re categories
-of Taxon Concepts that TCS needs to be able to deal with that, while fitting the
-definition of a Taxonomic Concept cannot be expressed in OpneBiodiv-O.
+OpenBiodiv-O, can be expressed as a TCS Taxon Concept. Also, there are
+categories of Taxon Concepts that TCS needs to be able to deal with that, while
+fitting the definition of a Taxonomic Concept, cannot be expressed in
+OpenBiodiv-O.
 
 The `RCC5Statement` in OpenBiodiv-O is equivalent to the `TaxonConceptMapping`
-in TCS (or vice versa).
+in TCS.
 
 <br/>
 
