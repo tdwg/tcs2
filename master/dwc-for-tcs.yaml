@@ -53,6 +53,25 @@
   repeatable: No
   github: null
 
+# property: namePublishedIn
+- localName: namePublishedInYear
+  label: Name Published In
+  definition: >-
+    A reference for the publication in which the dwc:scientificName was 
+    originally established under the rules of the associated 
+    dwc:nomenclaturalCode.
+  usage: null
+  notes: >-
+    This is the string equivalent of the TCS `namePublishedIn`. It can be used
+    if one wants to give the protologue as a string, as in many botanical
+    publications.
+  examples: null
+  type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+  organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonName
+  required: No
+  repeatable: No
+  github: 29
+
 # namePublishedInYear
 - localName: namePublishedInYear
   label: Name Published In Year

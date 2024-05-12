@@ -12,7 +12,7 @@
 
 **Taxon Name**
 
-[tcs:TaxonName](#tcstaxonname) | [tcs:taxonNameString](#tcstaxonnamestring) | [tcs:namePublishedIn](#tcsnamepublishedin) | [tcs:microreference](#tcsmicroreference) | [tcs:nomenclaturalCode](#tcsnomenclaturalcode) | [tcs:nomenclaturalStatus](#tcsnomenclaturalstatus) | [tcs:typification](#tcstypification) | [tcs:basionym](#tcsbasionym) | [tcs:replacedName](#tcsreplacedname) | [tcs:spellingCorrectionOf](#tcsspellingcorrectionof) | [tcs:laterHomonymOf](#tcslaterhomonymof) | [tcs:conservedAgainst](#tcsconservedagainst) | [dwc:scientificNameAuthorship](#dwcscientificnameauthorship) | [dwc:namePublishedInYear](#dwcnamepublishedinyear) | [dwc:genericName](#dwcgenericname) | [dwc:infragenericEpithet](#dwcinfragenericepithet) | [dwc:specificEpithet](#dwcspecificepithet) | [dwc:infraspecificEpithet](#dwcinfraspecificepithet) | [dwc:cultivarEpithet](#dwccultivarepithet)
+[tcs:TaxonName](#tcstaxonname) | [tcs:taxonNameString](#tcstaxonnamestring) | [tcs:namePublishedIn](#tcsnamepublishedin) | [tcs:microreference](#tcsmicroreference) | [tcs:nomenclaturalCode](#tcsnomenclaturalcode) | [tcs:nomenclaturalStatus](#tcsnomenclaturalstatus) | [tcs:typification](#tcstypification) | [tcs:basionym](#tcsbasionym) | [tcs:replacedName](#tcsreplacedname) | [tcs:spellingCorrectionOf](#tcsspellingcorrectionof) | [tcs:laterHomonymOf](#tcslaterhomonymof) | [tcs:conservedAgainst](#tcsconservedagainst) | [dwc:scientificNameAuthorship](#dwcscientificnameauthorship) | [dwc:namePublishedInYear](#dwcnamepublishedinyear) | [dwc:namePublishedInYear](#dwcnamepublishedinyear) | [dwc:genericName](#dwcgenericname) | [dwc:infragenericEpithet](#dwcinfragenericepithet) | [dwc:specificEpithet](#dwcspecificepithet) | [dwc:infraspecificEpithet](#dwcinfraspecificepithet) | [dwc:cultivarEpithet](#dwccultivarepithet)
 
 **Nomenclatural Type**
 
@@ -2773,6 +2773,42 @@ A scientific name below the rank of family is not conserved against all  other n
 		</tr>
 	</tbody>
 </table>
+
+### dwc:namePublishedInYear
+
+<table style="width:100%;">
+	<tbody>
+		<tr>
+			<td>Identifier</td>
+			<td>http://rs.tdwg.org/dwc/terms/namePublishedInYear</td>
+		</tr>
+		<tr>
+			<td>Type</td>
+			<td>http://www.w3.org/1999/02/22-rdf-syntax-ns#Property</td>
+		</tr>
+		<tr>
+			<td>Label</td>
+			<td>Name Published In</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td><b>required:</b> No — <b>repeatable:</b> No</td>
+		</tr>
+		<tr>
+			<td>Definition</td>
+			<td><p>A reference for the publication in which the dwc:scientificName was  originally established under the rules of the associated  dwc:nomenclaturalCode.</p></td>
+		</tr>
+		<tr>
+			<td>GitHub issue</td>
+			<td>https://github.com/tdwg/tcs2/issues/29</td>
+		</tr>
+	</tbody>
+</table>
+
+
+**Comments**
+
+This is the string equivalent of the TCS `namePublishedIn`. It can be used if one wants to give the protologue as a string, as in many botanical publications.
 
 ### dwc:namePublishedInYear
 
