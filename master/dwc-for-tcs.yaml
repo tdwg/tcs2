@@ -54,7 +54,7 @@
   github: null
 
 # property: namePublishedIn
-- localName: namePublishedInYear
+- localName: namePublishedIn
   label: Name Published In
   definition: >-
     A reference for the publication in which the dwc:scientificName was 
