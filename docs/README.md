@@ -1,6 +1,6 @@
 # Taxon Concept Schema
 
-![](./media/tcs-diagram-20240205.svg)
+![](./media/tcs-diagram-20240511.drawio.svg)
 
 ## Feature report
 
