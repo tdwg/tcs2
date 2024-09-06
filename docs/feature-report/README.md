@@ -68,8 +68,6 @@ Core. There are some other terms which have been defined in TCS as IRI
 properties, which have literal equivalents in Darwin Core. In most cases, they
 will share the same label.
 
-While the version of the standard we are replacing is an XML Schema (XSD), we
-took a lot from the TDWG Taxon Concept and Taxon Name LSID Ontologies, which
 While the formal TDWG standard we are replacing is an XML Schema (XSD), we were
 influenced by and borrowed from the TDWG [Taxon
 Concept](https://github.com/tdwg/ontology/blob/master/ontology/voc/TaxonConcept.rdf)
@@ -78,9 +76,9 @@ Name](https://github.com/tdwg/ontology/blob/master/ontology/voc/TaxonName.rdf)
 LSID Ontologies, (with non-resolving URIs:
 `http://rs.tdwg.org/ontology/voc/TaxonConcept` and
 `http://rs.tdwg.org/ontology/voc/TaxonName`), which were primarily developed by
-Roger Hyam. These were a precise translation of the TCS XML Schema into OWL
-ontologies. Because the TDWG Ontologies were never standardized, we could not
-directly import terms from them, but, conceptually, much from the TDWG
+Roger Hyam. These were a rather precise translation of the TCS XML Schema into
+OWL ontologies. Because the TDWG Ontologies were never standardized, we could
+not directly import terms from them, but, conceptually, much from the TDWG
 Ontologies can be found back in TCS 2.
 
 ## Changes
@@ -111,8 +109,8 @@ values in an enumeration (owl:Class in the TDWG Taxon Concept LSID Ontology).
 
 By elevating the values from the Taxon Relationship Type enumeration to
 first-class TCS properties and leaving the syntax out of the standard, people
-can choose whether to connect them to the subject Taxon Concept, or use them in a
-utility object outside TCS, for example the Darwin Core Resource Relationship
+can choose whether to connect them to the subject Taxon Concept, or use them in
+a utility object outside TCS, for example the Darwin Core Resource Relationship
 class. The shape of the data may dictate the use of a relationship object, but
 the terms have the same meaning, regardless of the syntax.
 
