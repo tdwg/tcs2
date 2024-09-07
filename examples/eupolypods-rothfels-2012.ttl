@@ -1,15 +1,10 @@
 # see https://github.com/tdwg/tnc/issues/58
 @prefix tcs: <http://rs.tdwg.org/tcs/terms/> .
-@prefix address: <http://schemas.talis.com/2005/address/schema#> .
 @prefix bibo: <http://purl.org/ontology/bibo/> .
-@prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
-@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
 @prefix dwc: <http://rs.tdwg.org/dwc/terms/> .
-@prefix dwciri: <http://rs.tdwg.org/dwc/iri/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
 
 # Taxon concepts
