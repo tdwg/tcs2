@@ -1,14 +1,7 @@
 @prefix tcs: <http://rs.tdwg.org/tcs/terms/> .
-@prefix address: <http://schemas.talis.com/2005/address/schema#> .
 @prefix bibo: <http://purl.org/ontology/bibo/> .
-@prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
-@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
 @prefix dwc: <http://rs.tdwg.org/dwc/terms/> .
-@prefix dwciri: <http://rs.tdwg.org/dwc/iri/> .
-@prefix foaf: <http://xmlns.com/foaf/0.1/> .
-@prefix gbif: <http://rs.gbif.org/terms/1.0/> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 
 <https://www.catalogueoflife.org/data/taxon/3YVTF> a tcs:TaxonConcept ;
     dcterms:title "Megalorhipida leucodactylus sec. Gielis & Hobern 2020-07-16" ;
@@ -209,12 +202,12 @@ _:tc2 a tcs:TaxonConcept ;
                     F., & Wangdi, K. (2022). Moths of Bhutan. 1–420.""" ] ;
     tcs:taxonName <https://zoobank.org/NomenclaturalActs/39b2f236-3914-4962-9dcc-f594671654bd> .
 
-_:tc3a tcs:TaxonConcept ;
+_:tc3 a tcs:TaxonConcept ;
     dcterms:title "Pterophorus leucodactylus sec. Gielis & al. 2022" ;
     tcs:accordingTo [ a bibo:Book ;
             dcterms:bibliographicCitation """Gielis, C., Franssen, M., Groenen, 
                     F., & Wangdi, K. (2022). Moths of Bhutan. 1–420.""" ] ;
-    tcs:taxonName <https://zoobank.org/NomenclaturalActs/39b2f236-3914-4962-9dcc-f594671654bd> ..
+    tcs:taxonName <https://zoobank.org/NomenclaturalActs/39b2f236-3914-4962-9dcc-f594671654bd> .
 
 <https://digitalcommons.unl.edu/insectamundi/1219> a bibo:AcademicArticle ;
     dcterms:bibliographicCitation """Matthews, D. L., Miller, J. Y., Simon, M. 
