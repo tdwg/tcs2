@@ -13,6 +13,7 @@
     dwc:scientificNameAuthorship "Schwägr." .
 
 <urn:isbn:978-967-5221-99-6> a bibo:Book ;
-    dcterms:bibliographicCitation """Yong, K.T.; Tan, B.C.; Ho, B.C.; Ho, Q.Y.; Mohamed, H.
-            A revised Moss Checklist of Peninsular Malaysia and Singapore. Research 
-            Pamphlet no. 133, Forest Research Institute Malaysia, Kepong, Malaysia.""" .
+    dcterms:bibliographicCitation """Yong, K.T.; Tan, B.C.; Ho, B.C.; Ho, Q.Y.; 
+            Mohamed, H. (2013). A revised Moss Checklist of Peninsular Malaysia 
+            and Singapore. Research Pamphlet no. 133, Forest Research Institute 
+            Malaysia, Kepong, Malaysia.""" .
