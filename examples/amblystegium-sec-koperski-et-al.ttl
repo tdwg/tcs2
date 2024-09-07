@@ -135,7 +135,7 @@
     dcterms:title "Leptodictyum sec. Koperski & al. 2000" ;
     tcs:accordingTo <https://www.tropicos.org/reference/9022656> ;
     tcs:taxonName <https://www.tropicos.org/name/35000692> ;
-    rdfs:comment """Welweit 8 Arten, in Europa 1 Art. – In Übereinstimmung mit 
+    rdfs:comment """Weltweit 8 Arten, in Europa 1 Art. – In Übereinstimmung mit 
             Anderson & al. (1990), Ignatov & Afonina (1992), Blockeel & Long 
             (1998) sowie Crosby & al. (1999) wird Leptodictyum als Gattung 
             akzeptiert (s. auch Hedenäs 1990a).""" ;
