@@ -204,6 +204,7 @@
     },
 
     {
+      "id": "_:ann1",
       "type": "Annotation",
       "motivation": "commenting",
       "body": {
@@ -218,6 +219,14 @@
       "dcterms:created": "2023-10-21T23:41:00+11"
     },
     {
+      "type": "TaxonConceptMapping",
+      "mappingAccordingTo": "_:ann1",
+      "mappingRelation": "includes",
+      "subjectTaxonConcept": "https://id.biodiversity.org.au/instance/apni/545068",
+      "objectTaxonConcept": "https://id.biodiversity.org.au/instance/apni/713514"
+    },
+    {
+      "id": "_:ann2",
       "type": "Annotation",
       "motivation": "commenting",
       "body": {
@@ -232,6 +241,14 @@
       "dcterms:created": "2023-10-21T23:41:00+11"
     },
     {
+      "type": "TaxonConceptMapping",
+      "mappingAccordingTo": "_:ann2",
+      "mappingRelation": "isIncludedIn",
+      "subjectTaxonConcept": "https://id.biodiversity.org.au/instance/apni/545068",
+      "objectTaxonConcept": "_:tc1"
+    },
+    {
+      "id": "_:ann3",
       "type": "Annotation",
       "motivation": "commenting",
       "body": {
@@ -245,13 +262,21 @@
       "dcterms:creator": "https://orcid.org/0000-0003-2224-6821"
     },
     {
+      "type": "TaxonConceptMapping",
+      "mappingAccordingTo": "_:ann3",
+      "mappingRelation": "isCongruentWith",
+      "subjectTaxonConcept": "https://id.biodiversity.org.au/instance/apni/545068",
+      "objectTaxonConcept": "_:tc2"
+    },
+    {
+      "id": "_:ann4",
       "type": "Annotation",
       "motivation": "commenting",
       "body": {
         "type": "TaxonConceptMapping",
         "subjectTaxonConcept": "https://id.biodiversity.org.au/instance/apni/545068",
         "relationshipType": "isIncludedIn",
-        "objectTaxonConcept": "tc3",
+        "objectTaxonConcept": "_:tc3",
         "rdfs:comment": "Victoria occurrences of f. comberi sensu Harris 1978 are excluded from Euphrasia gibbsiae sec. Barker 1982 [WRB 1982]"
       },
       "target": "https://id.biodiversity.org.au/instance/apni/545068",
@@ -259,6 +284,14 @@
       "dcterms:creator": "https://orcid.org/0000-0003-2224-6821"
     },
     {
+      "type": "TaxonConceptMapping",
+      "mappingAccordingTo": "_:ann4",
+      "mappingRelation": "isIncludedIn",
+      "subjectTaxonConcept": "https://id.biodiversity.org.au/instance/apni/545068",
+      "objectTaxonConcept": "_:tc3"
+    },
+    {
+      "id": "_:ann5",
       "type": "Annotation",
       "motivation": "commenting",
       "body": {
@@ -273,6 +306,14 @@
       "dcterms:created": "2023-10-21T23:41:00+11"
     },
     {
+      "type": "TaxonConceptMapping",
+      "mappingAccordingTo": "_:ann5",
+      "mappingRelation": "isIncludedIn",
+      "subjectTaxonConcept": "https://id.biodiversity.org.au/instance/apni/545068",
+      "objectTaxonConcept": "_:tc4"
+    },
+    {
+      "id": "_:ann6",
       "type": "Annotation",
       "motivation": "commenting",
       "body": {
@@ -287,6 +328,14 @@
       "dcterms:created": "2023-10-21T23:41:00+11"
     },
     {
+      "type": "TaxonConceptMapping",
+      "mappingAccordingTo": "_:ann6",
+      "mappingRelation": "includes",
+      "subjectTaxonConcept": "https://id.biodiversity.org.au/instance/apni/545068",
+      "objectTaxonConcept": "_:tc5"
+    },
+    {
+      "id": "ann7",
       "type": "Annotation",
       "motivation": "commenting",
       "body": {
@@ -301,6 +350,14 @@
       "dcterms:created": "2023-10-21T23:41:00+11"
     },
     {
+      "type": "TaxonConceptMapping",
+      "mappingAccordingTo": "_:ann7",
+      "mappingRelation": "includes",
+      "subjectTaxonConcept": "https://id.biodiversity.org.au/instance/apni/545068",
+      "objectTaxonConcept": "_:tc6"
+    },
+    {
+      "id": "_:ann8",
       "type": "Annotation",
       "motivation": "commenting",
       "body": {
@@ -313,6 +370,13 @@
       "target": "https://id.biodiversity.org.au/instance/apni/545068",
       "dcterms:creator": "https://orcid.org/0000-0003-2224-6821",
       "dcterms:created": "2023-10-21T23:41:00+11"
+    },
+    {
+      "type": "TaxonConceptMapping",
+      "mappingAccordingTo": "_:ann8",
+      "mappingRelation": "includes",
+      "subjectTaxonConcept": "https://id.biodiversity.org.au/instance/apni/545068",
+      "objectTaxonConcept": "_:tc7"
     },
 
     {
