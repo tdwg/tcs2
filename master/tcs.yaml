@@ -272,9 +272,9 @@
     == B**.
   examples: 
     - TaxonConcept-isCongruentWith-1
-    - TaxonConceptMappingRelation-isCongruentWith-2
+    - TaxonConceptMapping-isCongruentWith-2
     - TaxonConcept-isCongruentWith-3
-    - TaxonConceptMappingRelation-isCongruentWith-1
+    - TaxonConceptMapping-isCongruentWith-1
   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonConcept
   repeatable: Yes
   required: No
@@ -305,8 +305,8 @@
     This relation type can also be written as the formula **A > B**.
   examples: 
     - TaxonConcept-includes-1
-    - TaxonConceptMappingRelation-includes-2
-    - TaxonConceptMappingRelation-includes-1
+    - TaxonConceptMapping-includes-2
+    - TaxonConceptMapping-includes-1
   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonConcept
   repeatable: Yes
   required: No
@@ -336,8 +336,8 @@
     This relation type can also be written as the formula **A < B**.
   examples: 
     - TaxonConcept-isIncludedIn-1
-    - TaxonConceptMappingRelation-isIncludedIn-2
-    - TaxonConceptMappingRelation-isIncludedIn-1
+    - TaxonConceptMapping-isIncludedIn-2
+    - TaxonConceptMapping-isIncludedIn-1
   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonConcept
   repeatable: Yes
   required: No
@@ -368,8 +368,8 @@
     This relation can also be written as the formula **A >< B**.
   examples:
     - TaxonConcept-partiallyOverlaps-1
-    - TaxonConceptMappingRelation-partiallyOverlaps-2
-    - TaxonConceptMappingRelation-partiallyOverlaps-1
+    - TaxonConceptMapping-partiallyOverlaps-2
+    - TaxonConceptMapping-partiallyOverlaps-1
   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonConcept
   repeatable: Yes
   required: No
@@ -398,8 +398,8 @@
     This relation can also be written as the formula **A | B**.
   examples:
     - TaxonConcept-isDisjointFrom-1
-    - TaxonConceptMappingRelation-isDisjointFrom-2
-    - TaxonConceptMappingRelation-isDisjointFrom-1
+    - TaxonConceptMapping-isDisjointFrom-2
+    - TaxonConceptMapping-isDisjointFrom-1
   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonConcept
   repeatable: Yes
   required: No
@@ -434,7 +434,7 @@
   examples:
     - TaxonConcept-intersects-1
     - TaxonConcept-intersects-2
-    - TaxonConceptMappingRelation-intersects-1
+    - TaxonConceptMapping-intersects-1
     - TaxonConcept-intersects-3
   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonConcept
   repeatable: Yes
