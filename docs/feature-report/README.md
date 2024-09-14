@@ -63,12 +63,12 @@ but the Taxon Concept and Taxon Name in TCS 2 are the Taxon Concept and Taxon
 Name in TCS 1 and the same goes for all other terms. No completely new terms
 have been added.
 
-Where possible, we borrow terms from other standards, rather than defining them
-in TCS. The parsed name properties, as well as some other Taxon Name properties
-are borrowed from Darwin Core and some Taxon Concept properties from Dublin
-Core. There are some other terms which have been defined in TCS as IRI
-properties, which have literal equivalents in Darwin Core. In most cases, they
-will share the same label.
+Where possible, we borrow terms from other existing standards, rather than
+defining them in TCS. The parsed name properties, as well as some other Taxon
+Name properties, are borrowed from Darwin Core and some Taxon Concept properties
+from Dublin Core. There are some other terms which have been defined in TCS as
+IRI properties, which have literal equivalents in Darwin Core. In most cases,
+they will share the same label.
 
 While the formal TDWG standard we are replacing is an XML Schema (XSD), we were
 influenced by and borrowed from the TDWG [Taxon
@@ -85,15 +85,15 @@ Ontologies can be found back in TCS 2.
 
 ## Changes
  
-The most important change is that while in TCS 1 the `Name` element on of the
-Taxon Concept is required and the `AccordingTo` element is not, in TCS 2 it is
-the `accordingTo` property that is required. Every TCS 2 Taxon Concept object
-has to have a source, or `accordingTo`, which is a publication or other other
-form of communication where a taxon is defined in a certain way. This means that
-every Taxon Concept is traceable to a source and identifiable. With regards to
-the Name, in TCS 1 a `Name` can either be a text node, so a string, or a
-reference (`ref`) to a `TaxonName` element with an `id` attribute. This is
-completely analogous to the use of the Darwin Core `scientificName` and the TCS
+The most important change is that while in TCS 1 the `Name` element of the Taxon
+Concept is required and the `AccordingTo` element is not, in TCS 2 it is the
+`accordingTo` property that is required. Every TCS 2 Taxon Concept object has to
+have a source, or `accordingTo`, which is a publication or other other form of
+communication where a taxon is defined in a certain way. This means that every
+Taxon Concept is traceable to a source and identifiable. With regards to the
+Name, in TCS 1 a `Name` can either be a text node, so a string, or a reference
+(`ref`) to a `TaxonName` element with an `id` attribute. This is completely
+analogous to the use of the Darwin Core `scientificName` and the TCS
 `taxonName`, respectively, in TCS 2.
 
 The most important structural change we made was dismantling the Taxon
