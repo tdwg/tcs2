@@ -112,9 +112,10 @@ By contrast, entries in the nomenclature section of treatments (synonyms)  and i
     dwc:scientificNameAuthorship "Schwägr." .
 
 <urn:isbn:978-967-5221-99-6> a bibo:Book ;
-    dcterms:bibliographicCitation """Yong, K.T.; Tan, B.C.; Ho, B.C.; Ho, Q.Y.; Mohamed, H.
-            A revised Moss Checklist of Peninsular Malaysia and Singapore. Research 
-            Pamphlet no. 133, Forest Research Institute Malaysia, Kepong, Malaysia.""" .
+    dcterms:bibliographicCitation """Yong, K.T.; Tan, B.C.; Ho, B.C.; Ho, Q.Y.; 
+            Mohamed, H. (2013). A revised Moss Checklist of Peninsular Malaysia 
+            and Singapore. Research Pamphlet no. 133, Forest Research Institute 
+            Malaysia, Kepong, Malaysia.""" .
 ```
 
 [&lsqb;TaxonConcept-3.ttl&rsqb;](../../examples/TaxonConcept-3.ttl)&nbsp;[&lsqb;TaxonConcept-3.jsonld&rsqb;](../../examples/TaxonConcept-3.jsonld)
@@ -907,7 +908,7 @@ _:b0  a tcs:TaxonConcept ;
             tcs:taxonName <https://ipni.org/n/30001382-2> ] .
 ```
 
-[&lsqb;TaxonConceptMappingRelation-isCongruentWith-2.ttl&rsqb;](../../examples/TaxonConceptMappingRelation-isCongruentWith-2.ttl)&nbsp;[&lsqb;TaxonConceptMappingRelation-isCongruentWith-2.jsonld&rsqb;](../../examples/TaxonConceptMappingRelation-isCongruentWith-2.jsonld)
+[&lsqb;TaxonConceptMapping-isCongruentWith-2.ttl&rsqb;](../../examples/TaxonConceptMapping-isCongruentWith-2.ttl)&nbsp;[&lsqb;TaxonConceptMapping-isCongruentWith-2.jsonld&rsqb;](../../examples/TaxonConceptMapping-isCongruentWith-2.jsonld)
 
 
 ```turtle
@@ -939,7 +940,7 @@ _:b0  a tcs:TaxonConcept ;
         tcs:accordingTo <http://www.herbarium.unc.edu/FloraArchives/WeakleyFlora_2006-Jan.pdf> ] .
 ```
 
-[&lsqb;TaxonConceptMappingRelation-isCongruentWith-1.ttl&rsqb;](../../examples/TaxonConceptMappingRelation-isCongruentWith-1.ttl)&nbsp;[&lsqb;TaxonConceptMappingRelation-isCongruentWith-1.jsonld&rsqb;](../../examples/TaxonConceptMappingRelation-isCongruentWith-1.jsonld)
+[&lsqb;TaxonConceptMapping-isCongruentWith-1.ttl&rsqb;](../../examples/TaxonConceptMapping-isCongruentWith-1.ttl)&nbsp;[&lsqb;TaxonConceptMapping-isCongruentWith-1.jsonld&rsqb;](../../examples/TaxonConceptMapping-isCongruentWith-1.jsonld)
 
 ### tcs:includes
 
@@ -1017,7 +1018,7 @@ This relation type can also be written as the formula **A > B**.
             tcs:taxonName <https://ipni.org/n/77110538-1> ] .
 ```
 
-[&lsqb;TaxonConceptMappingRelation-includes-2.ttl&rsqb;](../../examples/TaxonConceptMappingRelation-includes-2.ttl)&nbsp;[&lsqb;TaxonConceptMappingRelation-includes-2.jsonld&rsqb;](../../examples/TaxonConceptMappingRelation-includes-2.jsonld)
+[&lsqb;TaxonConceptMapping-includes-2.ttl&rsqb;](../../examples/TaxonConceptMapping-includes-2.ttl)&nbsp;[&lsqb;TaxonConceptMapping-includes-2.jsonld&rsqb;](../../examples/TaxonConceptMapping-includes-2.jsonld)
 
 
 ```turtle
@@ -1043,7 +1044,7 @@ This relation type can also be written as the formula **A > B**.
     dwc:scientificNameAuthorship "Nash" .
 ```
 
-[&lsqb;TaxonConceptMappingRelation-includes-1.ttl&rsqb;](../../examples/TaxonConceptMappingRelation-includes-1.ttl)&nbsp;[&lsqb;TaxonConceptMappingRelation-includes-1.jsonld&rsqb;](../../examples/TaxonConceptMappingRelation-includes-1.jsonld)
+[&lsqb;TaxonConceptMapping-includes-1.ttl&rsqb;](../../examples/TaxonConceptMapping-includes-1.ttl)&nbsp;[&lsqb;TaxonConceptMapping-includes-1.jsonld&rsqb;](../../examples/TaxonConceptMapping-includes-1.jsonld)
 
 ### tcs:isIncludedIn
 
@@ -1168,7 +1169,7 @@ _:b1 a tcs:TaxonConcept ;
             tcs:taxonName <https://ipni.org/n/17434830-1> ] .
 ```
 
-[&lsqb;TaxonConceptMappingRelation-isIncludedIn-2.ttl&rsqb;](../../examples/TaxonConceptMappingRelation-isIncludedIn-2.ttl)&nbsp;[&lsqb;TaxonConceptMappingRelation-isIncludedIn-2.jsonld&rsqb;](../../examples/TaxonConceptMappingRelation-isIncludedIn-2.jsonld)
+[&lsqb;TaxonConceptMapping-isIncludedIn-2.ttl&rsqb;](../../examples/TaxonConceptMapping-isIncludedIn-2.ttl)&nbsp;[&lsqb;TaxonConceptMapping-isIncludedIn-2.jsonld&rsqb;](../../examples/TaxonConceptMapping-isIncludedIn-2.jsonld)
 
 
 ```turtle
@@ -1186,7 +1187,7 @@ _:b1 a tcs:TaxonConcept ;
         tcs:accordingTo <http://www.herbarium.unc.edu/FloraArchives/WeakleyFlora_2006-Jan.pdf> ] .
 ```
 
-[&lsqb;TaxonConceptMappingRelation-isIncludedIn-1.ttl&rsqb;](../../examples/TaxonConceptMappingRelation-isIncludedIn-1.ttl)&nbsp;[&lsqb;TaxonConceptMappingRelation-isIncludedIn-1.jsonld&rsqb;](../../examples/TaxonConceptMappingRelation-isIncludedIn-1.jsonld)
+[&lsqb;TaxonConceptMapping-isIncludedIn-1.ttl&rsqb;](../../examples/TaxonConceptMapping-isIncludedIn-1.ttl)&nbsp;[&lsqb;TaxonConceptMapping-isIncludedIn-1.jsonld&rsqb;](../../examples/TaxonConceptMapping-isIncludedIn-1.jsonld)
 
 ### tcs:partiallyOverlaps
 
@@ -1264,7 +1265,7 @@ This relation can also be written as the formula **A >< B**.
             tcs:taxonName <https://ipni.org/n/30000361-2> ] .
 ```
 
-[&lsqb;TaxonConceptMappingRelation-partiallyOverlaps-2.ttl&rsqb;](../../examples/TaxonConceptMappingRelation-partiallyOverlaps-2.ttl)&nbsp;[&lsqb;TaxonConceptMappingRelation-partiallyOverlaps-2.jsonld&rsqb;](../../examples/TaxonConceptMappingRelation-partiallyOverlaps-2.jsonld)
+[&lsqb;TaxonConceptMapping-partiallyOverlaps-2.ttl&rsqb;](../../examples/TaxonConceptMapping-partiallyOverlaps-2.ttl)&nbsp;[&lsqb;TaxonConceptMapping-partiallyOverlaps-2.jsonld&rsqb;](../../examples/TaxonConceptMapping-partiallyOverlaps-2.jsonld)
 
 
 ```turtle
@@ -1283,7 +1284,7 @@ This relation can also be written as the formula **A >< B**.
         tcs:accordingTo <http://www.herbarium.unc.edu/FloraArchives/WeakleyFlora_2006-Jan.pdf> ] .
 ```
 
-[&lsqb;TaxonConceptMappingRelation-partiallyOverlaps-1.ttl&rsqb;](../../examples/TaxonConceptMappingRelation-partiallyOverlaps-1.ttl)&nbsp;[&lsqb;TaxonConceptMappingRelation-partiallyOverlaps-1.jsonld&rsqb;](../../examples/TaxonConceptMappingRelation-partiallyOverlaps-1.jsonld)
+[&lsqb;TaxonConceptMapping-partiallyOverlaps-1.ttl&rsqb;](../../examples/TaxonConceptMapping-partiallyOverlaps-1.ttl)&nbsp;[&lsqb;TaxonConceptMapping-partiallyOverlaps-1.jsonld&rsqb;](../../examples/TaxonConceptMapping-partiallyOverlaps-1.jsonld)
 
 ### tcs:isDisjointFrom
 
@@ -1307,7 +1308,7 @@ This relation can also be written as the formula **A >< B**.
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td><p>The subject and objects taxon concepts have non-overlapping taxonomic  meanings, <em>i.e.</em> they do not have any members in common</p></td>
+			<td><p>The subject and object taxon concepts have non-overlapping taxonomic  meanings, <em>i.e.</em> they do not have any members in common</p></td>
 		</tr>
 		<tr>
 			<td>Usage</td>
@@ -1379,7 +1380,7 @@ This relation can also be written as the formula **A | B**.
             Castagne 1961: 203)""" .
 ```
 
-[&lsqb;TaxonConceptMappingRelation-isDisjointFrom-2.ttl&rsqb;](../../examples/TaxonConceptMappingRelation-isDisjointFrom-2.ttl)&nbsp;[&lsqb;TaxonConceptMappingRelation-isDisjointFrom-2.jsonld&rsqb;](../../examples/TaxonConceptMappingRelation-isDisjointFrom-2.jsonld)
+[&lsqb;TaxonConceptMapping-isDisjointFrom-2.ttl&rsqb;](../../examples/TaxonConceptMapping-isDisjointFrom-2.ttl)&nbsp;[&lsqb;TaxonConceptMapping-isDisjointFrom-2.jsonld&rsqb;](../../examples/TaxonConceptMapping-isDisjointFrom-2.jsonld)
 
 
 ```turtle
@@ -1397,7 +1398,7 @@ This relation can also be written as the formula **A | B**.
         tcs:accordingTo <http://www.herbarium.unc.edu/FloraArchives/WeakleyFlora_2006-Jan.pdf> ] .
 ```
 
-[&lsqb;TaxonConceptMappingRelation-isDisjointFrom-1.ttl&rsqb;](../../examples/TaxonConceptMappingRelation-isDisjointFrom-1.ttl)&nbsp;[&lsqb;TaxonConceptMappingRelation-isDisjointFrom-1.jsonld&rsqb;](../../examples/TaxonConceptMappingRelation-isDisjointFrom-1.jsonld)
+[&lsqb;TaxonConceptMapping-isDisjointFrom-1.ttl&rsqb;](../../examples/TaxonConceptMapping-isDisjointFrom-1.ttl)&nbsp;[&lsqb;TaxonConceptMapping-isDisjointFrom-1.jsonld&rsqb;](../../examples/TaxonConceptMapping-isDisjointFrom-1.jsonld)
 
 ### tcs:intersects
 
@@ -1576,7 +1577,7 @@ Quasi-nomenclatural statements like 'pro parte synonym', 'partial synonym' and '
             MEL41539)""" .
 ```
 
-[&lsqb;TaxonConceptMappingRelation-intersects-1.ttl&rsqb;](../../examples/TaxonConceptMappingRelation-intersects-1.ttl)&nbsp;[&lsqb;TaxonConceptMappingRelation-intersects-1.jsonld&rsqb;](../../examples/TaxonConceptMappingRelation-intersects-1.jsonld)
+[&lsqb;TaxonConceptMapping-intersects-1.ttl&rsqb;](../../examples/TaxonConceptMapping-intersects-1.ttl)&nbsp;[&lsqb;TaxonConceptMapping-intersects-1.jsonld&rsqb;](../../examples/TaxonConceptMapping-intersects-1.jsonld)
 
 
 ```turtle
