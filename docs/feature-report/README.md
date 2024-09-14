@@ -48,7 +48,9 @@ lead to a change of the name of the Interest Group to TCS Maintenance Group. A
 charter for the TCS 2 Task Group, to create the new version of TCS, was ratified
 in 2021.
 
-TCS 2, which we now bring to public review, converts the TCS 1 XML Schema to a vocabulary standard, like Darwin Core, that can be maintained under the VMS.
+TCS 2, which we now bring to public review, takes TCS out of its XML Schema and
+converts it to a vocabulary standard, like Darwin Core, that does not impose a
+data format and can be maintained under the VMS.
 
 ## Parameters
 
@@ -88,24 +90,25 @@ Taxon Concept is required and the `AccordingTo` element is not, in TCS 2 it is
 the `accordingTo` property that is required. Every TCS 2 Taxon Concept object
 has to have a source, or `accordingTo`, which is a publication or other other
 form of communication where a taxon is defined in a certain way. This means that
-every Taxon Concept is traceable to a source and identifiable, and that in TCS 2
-nominal concepts are not possible. With regards to the Name, in TCS 1 a `Name`
-can either be a text node, so a string, or a reference (`ref`) to a `TaxonName`
-element with an `id` attribute. This is completely analogous to the use of the
-Darwin Core `scientificName` and the TCS `taxonName`, respectively, in TCS 2.
+every Taxon Concept is traceable to a source and identifiable. With regards to
+the Name, in TCS 1 a `Name` can either be a text node, so a string, or a
+reference (`ref`) to a `TaxonName` element with an `id` attribute. This is
+completely analogous to the use of the Darwin Core `scientificName` and the TCS
+`taxonName`, respectively, in TCS 2.
 
 The most important structural change we made was dismantling the Taxon
 Relationship object that both TCS 1 and the Taxon Concept Ontology have. We want
 TCS to be a vocabulary standard, i.e. a set of terms and definitions, so TCS
 should not prescribe a certain syntax. 
 
-Another problem with a relationship object is that it obscures the nature of the
-relationship. Not all relationship types in TCS 1 are relationships between
-Taxon Concepts, some are relationships between Taxon Concepts and Taxon Names.
-Also, relationships between Taxon Names in TCS 1 are elements
-(owl:objectProperty in the TDWG Taxon Name LSID Ontology), while relationships
-between Taxon Concepts (and some between Taxon Concepts and Taxon Names) are
-values in an enumeration (owl:Class in the TDWG Taxon Concept LSID Ontology).
+Another problem with an all-purpose relationship object is that it obscures the
+nature of the relationship. Not all relationship types in TCS 1 are
+relationships between Taxon Concepts, some are relationships between Taxon
+Concepts and Taxon Names. Also, relationships between Taxon Names in TCS 1 are
+elements (owl:objectProperty in the TDWG Taxon Name LSID Ontology), while
+relationships between Taxon Concepts (and some between Taxon Concepts and Taxon
+Names) are values in an enumeration (owl:Class in the TDWG Taxon Concept LSID
+Ontology).
 
 By elevating the values from the Taxon Relationship Type enumeration to
 first-class TCS properties and leaving the syntax out of the standard, people
@@ -123,7 +126,7 @@ TCS:
 
 - tcs:parent
 
-#### Horizontal relationships 
+#### Horizontal relationships<sup>*</sup>
 
 - tcs:isCongruentWith
 - tcs:includes
@@ -132,7 +135,7 @@ TCS:
 - tcs:isDisjointWith
 - tcs:intersects
 
-Horizontal relationships between Taxon Concepts are relationships between Taxon
+<sup>*</sup>Horizontal relationships between Taxon Concepts are relationships between Taxon
 Concepts in different taxonomies (or different versions of a taxonomy), or
 between Taxon Concepts in rank-free systems, e.g., cladograms.
 
@@ -150,13 +153,21 @@ between Taxon Concepts in rank-free systems, e.g., cladograms.
 - tcs:conservedAgainst
 - tcs:laterHomonymOf
 
+We have included a TaxonConceptMapping class, as it is often useful to have
+objects for Taxon Concept mappings that can be shared. The TaxonConceptMapping
+class replaces the TaxonRelationshipAssertion element in TCS 1, but is only to
+be used with the relationship types that TCS 1 calls 'set relationships'. In TCS
+2, the properties that can be used as object for the `mappingRelation` property
+are the mapping properties, *i.e.* `isCongruentWith`, `includes`,
+`isIncludedIn`, `partiallyOverlaps`, `isDisjointFrom` and `intersects`.
+
 <br/>
 
 ![](../media/context-tcs.jpg)
 
 ## Terms omitted from the initial release
 
-The most important thing that has been left out of TCS 2 for now is the
+The most significant thing that has been left out of TCS 2 for now is the
 circumscription or definition of taxa. TCS 1 has the `CharacterCircumscription`
 and `SpecimenCircumscription` elements, translated to `DescribedBy` and
 `CircumscribedBy`, respectively, in the TDWG Ontology. These have been left out
@@ -165,14 +176,18 @@ them and because it is not immediately apparent how they should be used,
 especially for `CharacterCircumscription`, or that they are the only and best
 way to express circumscription in TCS. Just because it is not included yet does
 not mean circumscription is not important. The TCS Maintenance Group has every
-intention of adding circumscription to TCS at a later stage.
+intention of adding circumscription to TCS at a later stage in a separate
+effort. If we are to include circumscription in TCS, it should be done in a way
+that it is operational and computer-tractable. Lists of characters (or
+descriptions) and lists of specimens are better accommodated in other TDWG
+standards, like Plinian Core and SDD.
 
 All parsed name terms, except 'uninomial', are in Darwin Core and have been
 borrowed from there. We think that, if people have a need for a 'uninomial'
 term, it might be best to have that in Darwin Core as well. Parsed authorship
 terms are not in Darwin Core, but we have not added them in TCS 2 either, as
 adding them is not straightforward because, unlike the parsed name terms, these
-terms are not defined outside DWG standards. They can be added if people
+terms are not defined outside TDWG standards. They can be added if people
 who want them can come up with terms and definitions that are acceptable to the
 entire community.
 
