@@ -380,7 +380,7 @@
   type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
   label: is disjoint from
   definition: >-
-    The subject and objects taxon concepts have non-overlapping taxonomic 
+    The subject and object taxon concepts have non-overlapping taxonomic 
     meanings, _i.e._ they do not have any members in common
   usage: >-
     `isDisjointFrom` can be used as a property on a Taxon Concept object, or as
