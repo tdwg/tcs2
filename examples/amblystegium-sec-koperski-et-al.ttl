@@ -85,13 +85,6 @@ _:2000_Amblystegium a tcs:TaxonConcept ;
 
 [] a tcs:TaxonConceptMapping ;
     tcs:mappingAccordingTo <https://tropicos.org/reference/9022656> ;
-    tcs:mappingRelation tcs:isIncludedIn ;
-    tcs:subjectTaxonConcept _:2000_Amblystegium ;
-    tcs:objectTaxonConcept _:1981_Amblystegium ;
-    rdfs:comment "incl. Leptodictyum riparium (Amblystegium r.)" .
-
-[] a tcs:TaxonConceptMapping ;
-    tcs:mappingAccordingTo <https://tropicos.org/reference/9022656> ;
     tcs:mappingRelation tcs:includes ;
     tcs:subjectTaxonConcept _:2000_Amblystegium ;
     tcs:objectTaxonConcept _:1981_Amblystegium ;
