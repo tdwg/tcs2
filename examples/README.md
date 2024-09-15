@@ -46,6 +46,11 @@ from the treatment by Klazenga to the concepts in the other four treatments:
 [TurTLe](https://github.com/tdwg/tcs2/blob/master/examples/amblystegium-sec-koperski-et-al.jsonld) |
 [JSON-LD](https://github.com/tdwg/tcs2/blob/master/examples/amblystegium-sec-koperski-et-al.ttl)
 
+With embedded Taxon Concept Mappings:
+
+[TurTLe](https://github.com/tdwg/tcs2/blob/master/examples/amblystegium-sec-koperski-et-al-embedded.jsonld) |
+[JSON-LD](https://github.com/tdwg/tcs2/blob/master/examples/amblystegium-sec-koperski-et-al-embedded.ttl)
+
 ### Circus cyaneus and Circus hudsonianus in Avibase
 
 [TurTLe](https://github.com/tdwg/tcs2/blob/master/examples/avibase-circus-cyaneus-hudsonius.ttl) |
