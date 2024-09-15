@@ -7,7 +7,10 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-[] a tcs:TaxonConcept ;
+
+# Campylium sec. Koperski & al. 2000
+
+_:2000_Campylium a tcs:TaxonConcept ;
     dcterms:title "Campylium sec. Koperski & al. 2000" ;
     tcs:accordingTo <https://tropicos.org/reference/9022656> ;
     tcs:taxonName <https://www.tropicos.org/name/35000208> ;
@@ -17,40 +20,59 @@
     rdfs:comment """Weltweit über 30 Arten, in Europa 9 Arten (incl. *C. 
             laxifolium Engelmark & Hedenäs 1990). – Hedenäs (1997a) akzeptiert 
             auch die Gattungen Campyliadelphus und Campylophyllum und stellt 
-            Campylium polygamum zur Gattung Drepanocladus.""" ;
-    tcs:isCongruentWith [ a tcs:TaxonConcept ;
-            dcterms:title "Campylium sec. Corley & al. 1981" ;
-            tcs:accordingTo <https://www.tropicos.org/reference/9004554> ;
-            tcs:taxonName <https://www.tropicos.org/name/35000208> ] ;
-    tcs:includes [ rdf:value [ a tcs:TaxonConcept ;
-                    dcterms:title "Campylium sec. Smith & al. 1980" ;
-                    tcs:accordingTo <https://www.tropicos.org/reference/9007023> ;
-                    tcs:taxonName <https://www.tropicos.org/name/35000208> ] ;
-            rdfs:comment """excl. *C. longicuspis (Lindb. & Arnell) Hedenäs 
-                    (syn. *Amblystegium l. Lindb. & Arnell, *Drepanocladus l. 
-                    [Lindb. & Arnell] Broth., *Pseudocalliergon l. [Lindb. & 
-                    Arnell] Loeske), da Hedenäs diese Kombination erst 1989 
-                    schuf. Es bleibt unklar, zu welcher Gattung Smith dieses auf 
-                    den Britischen Inseln nicht nachgewiesene Taxon stellt.""" ] ;
-    tcs:partiallyOverlaps [ rdf:value _:1927_Chrysohypnum ;
-            rdfs:comment """incl. Amblystegium radicale (Chrysohypnum 
-                    hygrophilum); excl. *Campylium longicuspis (Lindb. & Arnell) 
-                    Hedenäs (Drepanocladus l.).""" ] ,
-        [ rdf:value [ a tcs:TaxonConcept ;
-                    dcterms:title "Drepanocladus sec. Mönkemeyer 1927" ;
-                    tcs:accordingTo <https://www.tropicos.org/reference/9021085> ;
-                    tcs:taxonName <https://www.tropicos.org/name/35000413> ] ;
-            rdfs:comment """incl. *Campylium longicuspis (Lindb. & Arnell) 
-                    Hedenäs (Drepanocladus l.).""" ] ,
-        [ rdf:value _:1992_Campylium ;
-            rdfs:comment """incl. Amblystegium radicale (Campylium r.). 
-                    Wahrscheinlich excl. *C. longicuspis (Lindb. & Arnell) 
-                    Hedenäs. Dieses arktische Taxon wird vermutlich nicht in das 
-                    Gattungkonzept einbezogen, da Hedenäs erst 1989 diese 
-                    Kombination schuf. Es bleibt unklar, zu welcher Gattung 
-                    Frahm & Frey dieses Taxon stellen.""" ] .
+            Campylium polygamum zur Gattung Drepanocladus.""" .
 
-[] a tcs:TaxonConcept ;
+[] a tcs:TaxonConceptMapping ;
+    tcs:mappingAccordingTo <https://tropicos.org/reference/9022656> ;
+    tcs:mappingRelation tcs:isCongruentWith ;
+    tcs:subjectTaxonConcept _:2000_Campylium ;
+    tcs:objectTaxonConcept _:1981_Campylium .
+
+[] a tcs:TaxonConceptMapping ;
+    tcs:mappingAccordingTo <https://tropicos.org/reference/9022656> ;
+    tcs:mappingRelation tcs:includes ;
+    tcs:subjectTaxonConcept _:2000_Campylium ;
+    tcs:objectTaxonConcept _:1980_Campylium ;
+    rdfs:comment """excl. *C. longicuspis (Lindb. & Arnell) Hedenäs 
+            (syn. *Amblystegium l. Lindb. & Arnell), *Drepanocladus l. 
+            [Lindb. & Arnell] Broth., *Pseudocalliergon l. [Lindb. & 
+            Arnell] Loeske), da Hedenäs diese Kombination erst 1989 
+            schuf. Es bleibt unklar, zu welcher Gattung Smith dieses auf 
+            den Britischen Inseln nicht nachgewiesene Taxon stellt.""" .
+    
+[] a tcs:TaxonConceptMapping ;
+    tcs:mappingAccordingTo <https://tropicos.org/reference/9022656> ;
+    tcs:mappingRelation tcs:partiallyOverlaps ;
+    tcs:subjectTaxonConcept _:2000_Campylium ;
+    tcs:objectTaxonConcept _:1927_Chrysohypnum ;
+    rdfs:comment """incl. Amblystegium radicale (Chrysohypnum 
+            hygrophilum); excl. *Campylium longicuspis (Lindb. & Arnell) 
+            Hedenäs (Drepanocladus l.).""" .
+
+[] a tcs:TaxonConceptMapping ;
+    tcs:mappingAccordingTo <https://tropicos.org/reference/9022656> ;
+    tcs:mappingRelation tcs:partiallyOverlaps ;
+    tcs:subjectTaxonConcept _:2000_Campylium ;
+    tcs:objectTaxonConcept _:1927_Drepanocladus ;
+    rdfs:comment """incl. *Campylium longicuspis (Lindb. & Arnell) 
+            Hedenäs (Drepanocladus l.).""" .
+
+[] a tcs:TaxonConceptMapping ;
+    tcs:mappingAccordingTo <https://tropicos.org/reference/9022656> ;
+    tcs:mappingRelation tcs:partiallyOverlaps ;
+    tcs:subjectTaxonConcept _:2000_Campylium ;
+    tcs:objectTaxonConcept _:1992_Campylium ;
+    rdfs:comment """incl. Amblystegium radicale (Campylium r.). 
+            Wahrscheinlich excl. *C. longicuspis (Lindb. & Arnell) 
+            Hedenäs. Dieses arktische Taxon wird vermutlich nicht in das 
+            Gattungkonzept einbezogen, da Hedenäs erst 1989 diese 
+            Kombination schuf. Es bleibt unklar, zu welcher Gattung 
+            Frahm & Frey dieses Taxon stellen.""" .
+
+
+# Amblystegium sec. Koperski & al. 2000
+
+_:2000_Amblystegium a tcs:TaxonConcept ;
     dcterms:title "Amblystegium sec. Koperski & al. 2000" ;
     tcs:accordingTo <https://tropicos.org/reference/9022656> ;
     tcs:taxonName <https://tropicos.org/name/35000040> ;
@@ -59,77 +81,147 @@
             Corley & al. wird in Übereinstimmung mit Anderson & al. (1990), 
             Ignatov & Afonina (1992), Blockeel & Long (1998) sowie Crosby & al. 
             (1999) Leptodictyum als Gattung akzeptiert (s. auch Hedenäs 
-            1990a).""" ;
-    tcs:isIncludedIn [ rdf:value _:1981_Amblystegium ;
-            rdfs:comment "incl. Leptodictyum riparium (Amblystegium r.)" ] ;
-    tcs:includes [ rdf:value [ a tcs:TaxonConcept ;
-                    dcterms:title "Amblystegium sec. Frahm & Frey 1992" ;
-                    tcs:accordingTo <https://www.tropicos.org/reference/9011497> ;
-                    tcs:taxonName <https://www.tropicos.org/name/35000040> ] ;
-            rdfs:comment """excl. Amblystegium confervoides (Amblystegiella c.), A. 
-                    subtile (Amblystegiella s.), A. fluviatile (Hygroamblystegium f.), 
-                    A. tenax (Hygroambystegium t.), A. radicale (Campylium r.)""" ] ,
-        [ a tcs:TaxonConcept ;
-                dcterms:title "Hygroamblystegium sec. Frahm & Frey 1992" ;
-                tcs:accordingTo <https://www.tropicos.org/reference/9011497> ;
-                tcs:taxonName <https://www.tropicos.org/name/35000612> ] ,
-        [ a tcs:TaxonConcept ;
-                dcterms:title "Hygroamblystegium sec. Mönkemeyer 1927" ;
-                tcs:accordingTo <https://www.tropicos.org/reference/9011497> ;
-                tcs:taxonName <https://www.tropicos.org/name/35000612> ] ;
-    tcs:partiallyOverlaps [ rdf:value _:1992_Amblystegiella ;
-            rdfs:comment """incl. Amblystegium confervoides (Amblystegiella c.), 
-                    Amblystegium subtile (Amblystegiella s.)""" ] ,
-        [ rdf:value _:1992_Campylium ;
-            rdfs:comment """incl. Amblystegium confervoides (Amblystegiella c.), 
-                    Amblystegium subtile (Amblystegiella s.)""" ] ,
-        [ rdf:value _:1927_Amblystegium ;
-            rdfs:comment """incl. Conardia compacta (Amblystegium c.), *Isopterygiopsis 
-                    alpicola (Lind. & Arnell) Hedenäs (Amblystegium a.), Leptodictyum 
-                    riparium (Amblystegium r.), Platydictya jungermannioides 
-                    (Amblystegium sprucei), Pseudoleskeella catenulata p.p. 
-                    (Amblystegium ursorum) sowie die aussereuropäische Art *Homomallium 
-                    adnatum (Hedw,) Broth. (Amblystegium a.); excl. Amblystegium 
-                    fluviatile (Hygroamblystegium f.), A. tenax (Hygroamblystegium t.), 
-                    A. radicale (Chrysohypnum hygrophilum).""" ] ,
-        [ rdf:value _:1927_Chrysohypnum ;
-            rdfs:comment "incl. Amblystegium radicale (Chrysohypnum hygrophilum)" ] ,
-        [ rdf:value [ a tcs:TaxonConcept ;
-                dcterms:title "Amblystegium sec. Smith 1980" ;
-                tcs:accordingTo <https://www.tropicos.org/reference/9007023> ;
-                tcs:taxonName <https://www.tropicos.org/name/35000040> ] ;
-            rdfs:comment """incl. Conardia compacta (Amblystegium c.), Leptodictyum 
-                    riparium (Amblystegium r.); excl. Amblystegium confervioides 
-                    (Platydictya c.)""" ] ,
-        [ rdf:value _:1980_Platydictya ;
-            rdfs:comment "incl. Amblystegium confervoides (Platydictya c.)" ] .
+            1990a).""" .
 
-[] a tcs:TaxonConcept ;
+[] a tcs:TaxonConceptMapping ;
+    tcs:mappingAccordingTo <https://tropicos.org/reference/9022656> ;
+    tcs:mappingRelation tcs:isIncludedIn ;
+    tcs:subjectTaxonConcept _:2000_Amblystegium ;
+    tcs:objectTaxonConcept _:1981_Amblystegium ;
+    rdfs:comment "incl. Leptodictyum riparium (Amblystegium r.)" .
+
+[] a tcs:TaxonConceptMapping ;
+    tcs:mappingAccordingTo <https://tropicos.org/reference/9022656> ;
+    tcs:mappingRelation tcs:includes ;
+    tcs:subjectTaxonConcept _:2000_Amblystegium ;
+    tcs:objectTaxonConcept _:1981_Amblystegium ;
+    rdfs:comment "incl. Leptodictyum riparium (Amblystegium r.)" .
+
+[] a tcs:TaxonConceptMapping ;
+    tcs:mappingAccordingTo <https://tropicos.org/reference/9022656> ;
+    tcs:mappingRelation tcs:includes ;
+    tcs:subjectTaxonConcept _:2000_Amblystegium ;
+    tcs:objectTaxonConcept _:1992_Amblystegium ;
+    rdfs:comment """excl. Amblystegium confervoides (Amblystegiella c.), A. 
+            subtile (Amblystegiella s.), A. fluviatile (Hygroamblystegium f.), 
+            A. tenax (Hygroambystegium t.), A. radicale (Campylium r.)""" .
+
+[] a tcs:TaxonConceptMapping ;
+    tcs:mappingAccordingTo <https://tropicos.org/reference/9022656> ;
+    tcs:mappingRelation tcs:includes ;
+    tcs:subjectTaxonConcept _:2000_Amblystegium ;
+    tcs:objectTaxonConcept _:1992_Hygroamblystegium .
+
+[] a tcs:TaxonConceptMapping ;
+    tcs:mappingAccordingTo <https://tropicos.org/reference/9022656> ;
+    tcs:mappingRelation tcs:includes ;
+    tcs:subjectTaxonConcept _:2000_Amblystegium ;
+    tcs:objectTaxonConcept _:1927_Hygroamblystegium .
+
+[] a tcs:TaxonConceptMapping ;
+    tcs:mappingAccordingTo <https://tropicos.org/reference/9022656> ;
+    tcs:mappingRelation tcs:partiallyOverlaps ;
+    tcs:subjectTaxonConcept _:2000_Amblystegium ;
+    tcs:objectTaxonConcept _:1992_Amblystegiella ;
+    rdfs:comment """excl. Amblystegium confervoides (Amblystegiella c.), A. 
+                subtile (Amblystegiella s.), A. fluviatile (Hygroamblystegium f.), 
+                A. tenax (Hygroambystegium t.), A. radicale (Campylium r.)""" .
+
+[] a tcs:TaxonConceptMapping ;
+    tcs:mappingAccordingTo <https://tropicos.org/reference/9022656> ;
+    tcs:mappingRelation tcs:partiallyOverlaps ;
+    tcs:subjectTaxonConcept _:2000_Amblystegium ;
+    tcs:objectTaxonConcept _:1992_Campylium ;
+    rdfs:comment """incl. Amblystegium confervoides (Amblystegiella c.), 
+            Amblystegium subtile (Amblystegiella s.)""" .
+
+[] a tcs:TaxonConceptMapping ;
+    tcs:mappingAccordingTo <https://tropicos.org/reference/9022656> ;
+    tcs:mappingRelation tcs:partiallyOverlaps ;
+    tcs:subjectTaxonConcept _:2000_Amblystegium ;
+    tcs:objectTaxonConcept _:1927_Amblystegium ;
+    rdfs:comment """incl. Conardia compacta (Amblystegium c.), *Isopterygiopsis 
+            alpicola (Lind. & Arnell) Hedenäs (Amblystegium a.), Leptodictyum 
+            riparium (Amblystegium r.), Platydictya jungermannioides 
+            (Amblystegium sprucei), Pseudoleskeella catenulata p.p. 
+            (Amblystegium ursorum) sowie die aussereuropäische Art *Homomallium 
+            adnatum (Hedw,) Broth. (Amblystegium a.); excl. Amblystegium 
+            fluviatile (Hygroamblystegium f.), A. tenax (Hygroamblystegium t.), 
+            A. radicale (Chrysohypnum hygrophilum).""" .
+
+[] a tcs:TaxonConceptMapping ;
+    tcs:mappingAccordingTo <https://tropicos.org/reference/9022656> ;
+    tcs:mappingRelation tcs:partiallyOverlaps ;
+    tcs:subjectTaxonConcept _:2000_Amblystegium ;
+    tcs:objectTaxonConcept _:1927_Chrysohypnum ;
+    rdfs:comment "incl. Amblystegium radicale (Chrysohypnum hygrophilum)" .
+
+[] a tcs:TaxonConceptMapping ;
+    tcs:mappingAccordingTo <https://tropicos.org/reference/9022656> ;
+    tcs:mappingRelation tcs:partiallyOverlaps ;
+    tcs:subjectTaxonConcept _:2000_Amblystegium ;
+    tcs:objectTaxonConcept _:1980_Amblystegium ;
+    rdfs:comment """incl. Conardia compacta (Amblystegium c.), Leptodictyum 
+            riparium (Amblystegium r.); excl. Amblystegium confervioides 
+            (Platydictya c.)""" .
+
+[] a tcs:TaxonConceptMapping ;
+    tcs:mappingAccordingTo <https://tropicos.org/reference/9022656> ;
+    tcs:mappingRelation tcs:partiallyOverlaps ;
+    tcs:subjectTaxonConcept _:2000_Amblystegium ;
+    tcs:objectTaxonConcept _:1980_Platydictya ;
+    rdfs:comment "incl. Amblystegium confervoides (Platydictya c.)" .
+
+
+# Platydictya sec. Koperski & al. 2000
+
+_:2000_Platydictya a tcs:TaxonConcept ;
     dcterms:title "Platydictya sec. Koperski & al. 2000" ;
     tcs:accordingTo <https://www.tropicos.org/reference/9022656> ;
     tcs:taxonName <https://www.tropicos.org/name/35000970> ;
     tcs:synonym <https://www.tropicos.org/name/35000039> ;
-    rdfs:comment "Weltweit 7 Arten, in Europa 1 Art." ;
-    tcs:isCongruentWith [ a tcs:TaxonConcept ;
-            dcterms:title "Platydictya sec. Corley & al. 1981" ;
-            tcs:accordingTo <https://www.tropicos.org/reference/9004554> ;
-            tcs:taxonName <https://www.tropicos.org/name/35000970> ] ;
-    tcs:isIncludedIn [ rdf:value _:1992_Amblystegiella ;
-            rdfs:comment """incl. Amblystegium confervoides (Amblystegiella c.), 
-                    Amblystegium subtile (Amblystegiella s.)""" ] ,
-        _:1927_Amblystegium ,
-        [ rdf:value [ a tcs:TaxonConcept ;
-                dcterms:title "Amblystegium sect. Serpoleskea sec. Mönkemeyer 1927" ;
-                tcs:accordingTo <https://www.tropicos.org/reference/9021085> ;
-                tcs:taxonName <https://www.tropicos.org/name/35102679> ] ;
-            rdfs:comment """incl. Amblystegium confervoides, A. subtile, 
-                    *Isopterygiopsis alpicola (Lindb. & Arnell) Hedenäs 
-                    (Amblystegium a.), Pseudoleskeella catenulata 
-                    (Amblystegium ursorum) sowie *Homomallium adnatum 
-                    (Hedw.) Broth. (Amblystegium a.), einem in Europa nicht 
-                    nachgewiesene Taxon""" ] ,
-        [ rdf:value _:1980_Platydictya ;
-            rdfs:comment "incl. Amblystegium confervoides (Platydictya c.)" ].
+    rdfs:comment "Weltweit 7 Arten, in Europa 1 Art." .
+
+[] a tcs:TaxonConceptMapping ;
+    tcs:mappingAccordingTo <https://tropicos.org/reference/9022656> ;
+    tcs:mappingRelation tcs:isCongruentWith ;
+    tcs:subjectTaxonConcept _:2000_Platydictya ;
+    tcs:objectTaxonConcept _:1981_Platydictya .
+
+[] a tcs:TaxonConceptMapping ;
+    tcs:mappingAccordingTo <https://tropicos.org/reference/9022656> ;
+    tcs:mappingRelation tcs:isIncludedIn ;
+    tcs:subjectTaxonConcept _:2000_Platydictya ;
+    tcs:objectTaxonConcept _:1992_Amblystegiella ;
+    rdfs:comment """incl. Amblystegium confervoides (Amblystegiella c.), 
+            Amblystegium subtile (Amblystegiella s.)""" .
+
+[] a tcs:TaxonConceptMapping ;
+    tcs:mappingAccordingTo <https://tropicos.org/reference/9022656> ;
+    tcs:mappingRelation tcs:isIncludedIn ;
+    tcs:subjectTaxonConcept _:2000_Platydictya ;
+    tcs:objectTaxonConcept _:1927_Amblystegium .
+
+[] a tcs:TaxonConceptMapping ;
+    tcs:mappingAccordingTo <https://tropicos.org/reference/9022656> ;
+    tcs:mappingRelation tcs:isIncludedIn ;
+    tcs:subjectTaxonConcept _:2000_Platydictya ;
+    tcs:objectTaxonConcept _:1927_Amblystegium_Serpoleskea ;
+    rdfs:comment """incl. Amblystegium confervoides, A. subtile, 
+            *Isopterygiopsis alpicola (Lindb. & Arnell) Hedenäs 
+            (Amblystegium a.), Pseudoleskeella catenulata 
+            (Amblystegium ursorum) sowie *Homomallium adnatum (Hedw.) Broth. 
+            (Amblystegium a.), einem in Europa nicht nachgewiesene Taxon""" .
+
+[] a tcs:TaxonConceptMapping ;
+    tcs:mappingAccordingTo <https://tropicos.org/reference/9022656> ;
+    tcs:mappingRelation tcs:isIncludedIn ;
+    tcs:subjectTaxonConcept _:2000_Platydictya ;
+    tcs:objectTaxonConcept _:1980_Platydictya ;
+    rdfs:comment "incl. Amblystegium confervoides (Platydictya c.)" .
+
+
+# Leptodictyum sec. Koperski & al. 2000
 
 [] a tcs:TaxonConcept ;
     dcterms:title "Leptodictyum sec. Koperski & al. 2000" ;
@@ -138,76 +230,195 @@
     rdfs:comment """Weltweit 8 Arten, in Europa 1 Art. – In Übereinstimmung mit 
             Anderson & al. (1990), Ignatov & Afonina (1992), Blockeel & Long 
             (1998) sowie Crosby & al. (1999) wird Leptodictyum als Gattung 
-            akzeptiert (s. auch Hedenäs 1990a).""" ;
-    tcs:isCongruentWith [ a tcs:TaxonConcept ;
-            dcterms:title "Leptodictyum sec. Frahm & Frey 1992" ;
-            tcs:accordingTo <https://www.tropicos.org/reference/9011497> ;
-            tcs:taxonName <https://www.tropicos.org/name/35000692> ] ,
-        [ a tcs:TaxonConcept ;
-            dcterms:title "Amblystegium sect. Leptodictyum sec. Mönkemeyer 1927" ;
-            tcs:accordingTo <https://www.tropicos.org/reference/9021085> ;
-            tcs:taxonName <https://www.tropicos.org/name/35102672> ] ;
-    tcs:isIncludedIn _:1981_Amblystegium ,
-        [ rdf:value [ a tcs:TaxonConcept ;
-                dcterms:title "Amblystegium subg. Leptodictyum sec. Corley & al. 1981" ;
-                tcs:accordingTo <https://www.tropicos.org/reference/9004554> ;
-                tcs:taxonName <https://www.tropicos.org/name/35102656> ] ;
-            rdfs:comment "incl. Amblystegium humile" ] ,
-        _:1927_Amblystegium ,
-        _:1980_Amblystegium .
+            akzeptiert (s. auch Hedenäs 1990a).""" .
+            
+[] a tcs:TaxonConceptMapping ;
+    tcs:mappingAccordingTo <https://tropicos.org/reference/9022656> ;
+    tcs:mappingRelation tcs:isCongruentWith ;
+    tcs:subjectTaxonConcept _:2000_Leptodictyum ;
+    tcs:objectTaxonConcept _:1992_Leptodictyum .
 
-[] a tcs:TaxonConcept ;
+[] a tcs:TaxonConceptMapping ;
+    tcs:mappingAccordingTo <https://tropicos.org/reference/9022656> ;
+    tcs:mappingRelation tcs:isCongruentWith ;
+    tcs:subjectTaxonConcept _:2000_Leptodictyum ;
+    tcs:objectTaxonConcept _:1927_Amblystegium_Leptodictyum .
+
+[] a tcs:TaxonConceptMapping ;
+    tcs:mappingAccordingTo <https://tropicos.org/reference/9022656> ;
+    tcs:mappingRelation tcs:isIncludedIn ;
+    tcs:subjectTaxonConcept _:2000_Leptodictyum ;
+    tcs:objectTaxonConcept _:1981_Amblystegium .
+
+[] a tcs:TaxonConceptMapping ;
+    tcs:mappingAccordingTo <https://tropicos.org/reference/9022656> ;
+    tcs:mappingRelation tcs:isIncludedIn ;
+    tcs:subjectTaxonConcept _:2000_Leptodictyum ;
+    tcs:objectTaxonConcept _:1981_Amblystegium_Leptodictyum ;
+    rdfs:comment "incl. Amblystegium humile" .
+
+[] a tcs:TaxonConceptMapping ;
+    tcs:mappingAccordingTo <https://tropicos.org/reference/9022656> ;
+    tcs:mappingRelation tcs:isIncludedIn ;
+    tcs:subjectTaxonConcept _:2000_Leptodictyum ;
+    tcs:objectTaxonConcept _:1927_Amblystegium .
+
+[] a tcs:TaxonConceptMapping ;
+    tcs:mappingAccordingTo <https://tropicos.org/reference/9022656> ;
+    tcs:mappingRelation tcs:isIncludedIn ;
+    tcs:subjectTaxonConcept _:2000_Leptodictyum ;
+    tcs:objectTaxonConcept _:1980_Amblystegium .
+
+
+# Conardia sec. Koperski & al. 2000
+
+_:2000_Conardia a tcs:TaxonConcept ;
     dcterms:title "Conardia sec. Koperski & al. 2000" ;
     tcs:accordingTo <https://www.tropicos.org/reference/9022656> ;
     tcs:taxonName <https://www.tropicos.org/name/35000290> ;
-    rdfs:comment "Weltweit 1 Art." ;
-    tcs:isCongruentWith [ a tcs:TaxonConcept ;
-            dcterms:title "Conardia sec. Corley & al. 1981" ;
-            tcs:accordingTo <https://www.tropicos.org/reference/9004554> ;
-            tcs:taxonName <https://www.tropicos.org/name/35000290> ] ;
-    tcs:isIncludedIn [ a tcs:TaxonConcept ;
-            dcterms:title "Rhynchostegiella sec. Frahm & Frey 1992" ;
-            tcs:accordingTo <https://www.tropicos.org/reference/9011497> ;
-            tcs:taxonName <https://www.tropicos.org/name/35001131> ] ,
-         _:1927_Amblystegium ,
-         _:1980_Amblystegium .
+    rdfs:comment "Weltweit 1 Art." .
+
+[] a tcs:TaxonConceptMapping ;
+    tcs:mappingAccordingTo <https://tropicos.org/reference/9022656> ;
+    tcs:mappingRelation tcs:isCongruentWith ;
+    tcs:subjectTaxonConcept _:2000_Conardia ;
+    tcs:objectTaxonConcept _:1981_Conardia .
+
+[] a tcs:TaxonConceptMapping ;
+    tcs:mappingAccordingTo <https://tropicos.org/reference/9022656> ;
+    tcs:mappingRelation tcs:isIncludedIn ;
+    tcs:subjectTaxonConcept _:2000_Conardia ;
+    tcs:objectTaxonConcept _:1992_Rhynchostegiella .
+
+[] a tcs:TaxonConceptMapping ;
+    tcs:mappingAccordingTo <https://tropicos.org/reference/9022656> ;
+    tcs:mappingRelation tcs:isIncludedIn ;
+    tcs:subjectTaxonConcept _:2000_Conardia ;
+    tcs:objectTaxonConcept _:1927_Amblystegium .
+
+[] a tcs:TaxonConceptMapping ;
+    tcs:mappingAccordingTo <https://tropicos.org/reference/9022656> ;
+    tcs:mappingRelation tcs:isIncludedIn ;
+    tcs:subjectTaxonConcept _:2000_Conardia ;
+    tcs:objectTaxonConcept _:1980_Amblystegium .
+
+
+# Taxon Concepts from other publications
+
+## Corley et al., 1981
 
 _:1981_Amblystegium a tcs:TaxonConcept ;
     dcterms:title "Amblystegium sec. Corley & al. 1981" ;
     tcs:accordingTo <https://www.tropicos.org/reference/9004554>;
     tcs:taxonName <https://tropicos.org/name/35000040> .
 
-_:1927_Chrysohypnum a tcs:TaxonConcept ;
-    dcterms:title "Chrysohypnum sec. Mönkemeyer 1927" ;
-    tcs:accordingTo <https://www.tropicos.org/reference/9011497> ;
-    tcs:taxonName <https://www.tropicos.org/name/35000256> .
+_:1981_Amblystegium_Leptodictyum a tcs:TaxonConcept ;
+    dcterms:title "Amblystegium subg. Leptodictyum sec. Corley & al. 1981" ;
+    tcs:accordingTo <https://www.tropicos.org/reference/9004554> ;
+    tcs:taxonName <https://www.tropicos.org/name/35102656> .
 
-_:1992_Campylium a tcs:TaxonConcept ;
-    dcterms:title "Campylium sec. Frahm & Frey 1992" ;
-    tcs:accordingTo <https://www.tropicos.org/reference/9011497> ;
+_:1981_Campylium a tcs:TaxonConcept ;
+    dcterms:title "Campylium sec. Corley & al. 1981" ;
+    tcs:accordingTo <https://www.tropicos.org/reference/9004554> ;
     tcs:taxonName <https://www.tropicos.org/name/35000208> .
 
-_:1992_Amblystegiella a tcs:TaxonConcept ;
-    dcterms:title "Amblystegiella sec. Frahm & Frey 1992" ;
-    tcs:accordingTo <https://www.tropicos.org/reference/9011497> ;
-    tcs:taxonName <https://www.tropicos.org/name/35000039> .
+_:1981_Conardia a tcs:TaxonConcept ;
+    dcterms:title "Conardia sec. Corley & al. 1981" ;
+    tcs:accordingTo <https://www.tropicos.org/reference/9004554> ;
+    tcs:taxonName <https://www.tropicos.org/name/35000290> .
 
-_:1927_Amblystegium a tcs:TaxonConcept ;
-    dcterms:title "Amblystegium sec. Mönkemeyer 1927" ;
-    tcs:accordingTo <https://www.tropicos.org/reference/9011497> ;
-    tcs:taxonName <https://www.tropicos.org/name/35000040> .
+_:1981_Platydictya a tcs:TaxonConcept ;
+    dcterms:title "Platydictya sec. Corley & al. 1981" ;
+    tcs:accordingTo <https://www.tropicos.org/reference/9004554> ;
+    tcs:taxonName <https://www.tropicos.org/name/35000970> .
+
+
+## Smith, 1980
 
 _:1980_Amblystegium a tcs:TaxonConcept ;
     dcterms:title "Amblystegium sec. Smith 1980" ;
     tcs:accordingTo <https://www.tropicos.org/reference/9007023> ;
     tcs:taxonName <https://www.tropicos.org/name/35000040> .
 
+_:1980_Campylium a tcs:TaxonConcept ;
+    dcterms:title "Campylium sec. Smith & al. 1980" ;
+    tcs:accordingTo <https://www.tropicos.org/reference/9007023> ;
+    tcs:taxonName <https://www.tropicos.org/name/35000208> .
+
 _:1980_Platydictya a tcs:TaxonConcept ;
     dcterms:title "Platydictya sec. Smith 1980" ;
     tcs:accordingTo <https://www.tropicos.org/reference/9007023> ;
     tcs:taxonName <https://www.tropicos.org/name/35000970> .
 
+
+## Frahm & Frey, 1992
+
+_:1992_Amblystegiella a tcs:TaxonConcept ;
+    dcterms:title "Amblystegiella sec. Frahm & Frey 1992" ;
+    tcs:accordingTo <https://www.tropicos.org/reference/9011497> ;
+    tcs:taxonName <https://www.tropicos.org/name/35000039> .
+
+_:1992_Amblystegium a tcs:TaxonConcept ;
+    dcterms:title "Amblystegium sec. Frahm & Frey 1992" ;
+    tcs:accordingTo <https://www.tropicos.org/reference/9011497> ;
+    tcs:taxonName <https://www.tropicos.org/name/35000040> .
+
+_:1992_Campylium a tcs:TaxonConcept ;
+    dcterms:title "Campylium sec. Frahm & Frey 1992" ;
+    tcs:accordingTo <https://www.tropicos.org/reference/9011497> ;
+    tcs:taxonName <https://www.tropicos.org/name/35000208> .
+
+_:1992_Hygroamblystegium a tcs:TaxonConcept ;
+    dcterms:title "Hygroamblystegium sec. Frahm & Frey 1992" ;
+    tcs:accordingTo <https://www.tropicos.org/reference/9011497> ;
+    tcs:taxonName <https://www.tropicos.org/name/35000612> .
+
+_:1992_Leptodictyum a tcs:TaxonConcept ;
+    dcterms:title "Leptodictyum sec. Frahm & Frey 1992" ;
+    tcs:accordingTo <https://www.tropicos.org/reference/9011497> ;
+    tcs:taxonName <https://www.tropicos.org/name/35000692> .
+
+_:1992_Rhynchostegiella a tcs:TaxonConcept ;
+    dcterms:title "Rhynchostegiella sec. Frahm & Frey 1992" ;
+    tcs:accordingTo <https://www.tropicos.org/reference/9011497> ;
+    tcs:taxonName <https://www.tropicos.org/name/35001131> .
+
+
+## Mönkemeyer, 1927
+
+_:1927_Amblystegium a tcs:TaxonConcept ;
+    dcterms:title "Amblystegium sec. Mönkemeyer 1927" ;
+    tcs:accordingTo <https://www.tropicos.org/reference/9011497> ;
+    tcs:taxonName <https://www.tropicos.org/name/35000040> .
+
+_:1927_Amblystegium_Leptodictyum a tcs:TaxonConcept ;
+    dcterms:title "Amblystegium sect. Leptodictyum sec. Mönkemeyer 1927" ;
+    tcs:accordingTo <https://www.tropicos.org/reference/9021085> ;
+    tcs:taxonName <https://www.tropicos.org/name/35102672> .
+
+_:1927_Amblystegium_Serpoleskea a tcs:TaxonConcept ;
+    dcterms:title "Amblystegium sect. Serpoleskea sec. Mönkemeyer 1927" ;
+    tcs:accordingTo <https://www.tropicos.org/reference/9021085> ;
+    tcs:taxonName <https://www.tropicos.org/name/35102679> .
+
+_:1927_Drepanocladus a tcs:TaxonConcept ;
+    dcterms:title "Drepanocladus sec. Mönkemeyer 1927" ;
+    tcs:accordingTo <https://www.tropicos.org/reference/9021085> ;
+    tcs:taxonName <https://www.tropicos.org/name/35000413> .
+
+_:1927_Chrysohypnum a tcs:TaxonConcept ;
+    dcterms:title "Chrysohypnum sec. Mönkemeyer 1927" ;
+    tcs:accordingTo <https://www.tropicos.org/reference/9011497> ;
+    tcs:taxonName <https://www.tropicos.org/name/35000256> .
+
+_:1927_Hygroamblystegium a tcs:TaxonConcept ;
+    dcterms:title "Hygroamblystegium sec. Mönkemeyer 1927" ;
+    tcs:accordingTo <https://www.tropicos.org/reference/9011497> ;
+    tcs:taxonName <https://www.tropicos.org/name/35000612> .
+
+
 # Names
+
 <https://www.tropicos.org/name/35000040> a tcs:TaxonName ;
     tcs:taxonNameString "Amblystegium" ;
     dwc:scientificNameAuthorship "Schimp." ;
@@ -295,6 +506,7 @@ _:1980_Platydictya a tcs:TaxonConcept ;
     tcs:basionym <https://www.tropicos.org/name/35102656> .
 
 # References
+
 <https://www.tropicos.org/reference/9022656> a bibo:Book ;
     dcterms:creator ( _:koperski_m _:sauer_m _:braun_w _:gradstein_sr ) ;
     bibo:authorList ( _:koperski_m _:sauer_m _:braun_w _:gradstein_sr ) ;
@@ -373,6 +585,9 @@ _:1980_Platydictya a tcs:TaxonConcept ;
             address:localityName "Leipzig" ;
             foaf:name "Geest & Portig" ] ;
     bibo:numPages "960" .
+
+
+# Agents
 
 _:koperski_m a foaf:Person ;
     foaf:givenname "Monica" ;
