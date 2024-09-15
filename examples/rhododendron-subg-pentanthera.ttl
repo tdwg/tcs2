@@ -49,7 +49,7 @@ _:tc1 a tcs:TaxonConcept ;
 _:tn1 a tcs:TaxonName ;
     tcs:nomenclaturalCode <http://rs.gbif.org/vocabulary/gbif/nomenclatural_code/ICN> ;
     tcs:taxonNameString "Rhododendron subgen. Pentanthera" ;
-    dwc:scientificName "Rhododendron subgen. Pentanthera (G. Don) Poyarkova, Fl. SSR 18: 57 (1952)" ;
+    dwc:scientificName "Rhododendron subgen. Pentanthera (G. Don) Poyarkova" ;
     dwc:scientificNameAuthorship "(G. Don) Poyarkova" ;
     dwc:namePublishedIn "Fl. SSR 18: 57 (1952)" ;
     tcs:basionym _:tn2 .

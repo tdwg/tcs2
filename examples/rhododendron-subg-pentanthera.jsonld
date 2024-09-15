@@ -125,7 +125,7 @@
       "type": "TaxonName",
       "nomenclaturalCode": "ICN",
       "taxonNameString": "Rhododendron subgen. Pentanthera",
-      "dwc:scientificName": "Rhododendron subgen. Pentanthera (G. Don) Poyarkova, Fl. SSR 18: 57 (1952)",
+      "dwc:scientificName": "Rhododendron subgen. Pentanthera (G. Don) Poyarkova",
       "dwc:scientificNameAuthorship": "(G. Don) Poyarkova",
       "basionym": "_:tn2",
       "dwc:namePublishedIn": "Fl. SSR 18: 57 (1952)"
