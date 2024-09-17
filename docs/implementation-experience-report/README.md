@@ -10,9 +10,10 @@ A recent important development, the Catalogue of Life Data Package (ColDP), has
 a data model that is very similar to TCS and includes all TCS terms, the main
 difference being that ColDP has a Synonym entity, which TCS does not. When TCS
 is expressed in tabular form, a separate table is needed for synonyms, because
-of the one-to-many relation between Taxon Concepts and Taxon Names (synonyms are
-Taxon Names, just like accepted names), but there will be no identifiers for
-synonyms. This is the same way the Name Relation in the ColDP schema works.
+of the many-to-many relation between Taxon Concepts and Taxon Names (synonyms,
+like accepted names (`taxonName`), are Taxon Names), but there should be no
+identifiers for synonyms. This is the same way the Name Relation in the ColDP
+schema works.
 
 ColDP also offers a Name Usage entity "for simpler sharing". The "simpler
 sharing" is probably because the ColDP Name Usage is essentially the Darwin Core
