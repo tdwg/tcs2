@@ -17,7 +17,7 @@ Johan Liljeblad, William Ulate, Cam Webb
 
 **Creator**: TDWG Taxon Concept Schema (TCS) 2 Task Group
 
-""Bibliographic citation**: Taxon Concept Standard Maintenance Group (2024).
+**Bibliographic citation**: Taxon Concept Standard Maintenance Group (2024).
 Taxon Concept Standard Term List. Biodiversity Information Standards (TDWG).
 
 ## Introduction
