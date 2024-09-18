@@ -571,7 +571,7 @@ The terms 'heterotypic synonym' and 'homotypic synonym' from the nomenclatural c
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td><p>Common or vernacular name for a taxonomic group, when used besides the  <code>taxonName</code>.</p></td>
+			<td><p>Name for an organism or organisms in a language used for general purposes.</p></td>
 		</tr>
 		<tr>
 			<td>Usage</td>
