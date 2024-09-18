@@ -67,7 +67,7 @@ Taxon Concept Standard Term List. Biodiversity Information Standards (TDWG).
 		</tr>
 		<tr>
 			<td>Usage</td>
-			<td><p>The <code>taxonName</code> and <code>accordingTo</code> properties are required.</p></td>
+			<td><p>A <code>TaxonConcept</code> MUST have a label and a source. For the source, the <code>accordingTo</code> property MUST be used. For the label, one or more of <code>taxonName</code>, <code>dwc:scientificName</code>and <code>dcterms:identifier</code> MUST be used. </p></td>
 		</tr>
 		<tr>
 			<td>GitHub issue</td>

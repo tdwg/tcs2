@@ -8,7 +8,10 @@
   definition: >-
     An identifiable taxonomic position that can be aligned to other such 
     positions through TCS concept mapping relationships.
-  usage: The `taxonName` and `accordingTo` properties are required.
+  usage: >-
+    A `TaxonConcept` MUST have a label and a source. For the source, the
+    `accordingTo` property MUST be used. For the label, one or more of
+    `taxonName`, `dwc:scientificName`and `dcterms:identifier` MUST be used. 
   notes: >-
     A taxonomic position is an opinion about the definition of a taxonomic
     group. A Taxon Concept is identifiable, because it combines a label –
