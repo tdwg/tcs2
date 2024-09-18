@@ -160,67 +160,50 @@
       "type": "dcterms:BibliographicResource",
       "dcterms:bibliographicCitation": "Howard & Moore, 2013"
     },
-
     {
       "id": "_:ann1",
       "type": "Annotation",
       "motivation": "commenting",
       "body": {
-        "type": "rdf:Statement",
-        "subject": "https://avibase.ca/82745BAA",
-        "predicate": "includes",
-        "object": "https://avibase.ca/F558C7F9"
+        "type": "TaxonConceptMapping",
+        "mappingAccordingTo": "_:ann1",
+        "mappingRelation": "includes",
+        "subjectTaxonConcept": "https://avibase.ca/82745BAA",
+        "objectTaxonConcept": "https://avibase.ca/F558C7F9"
       },
       "target": "https://avibase.ca/82745BAA",
       "creator": "https://orcid.org/0000-0003-2224-6821",
       "created": "2023-10-21T13:55:00+10"
     },
     {
-      "type": "TaxonConceptMapping",
-      "mappingAccordingTo": "_:ann1",
-      "mappingRelation": "includes",
-      "subjectTaxonConcept": "https://avibase.ca/82745BAA",
-      "objectTaxonConcept": "https://avibase.ca/F558C7F9"
-    },
-    {
+      "id": "_:ann2",
       "type": "Annotation",
       "motivation": "commenting",
       "body": {
-        "type": "rdf:Statement",
-        "subject": "https://avibase.ca/82745BAA",
-        "predicate": "includes",
-        "object": "https://avibase.ca/A091D50A"
+        "type": "TaxonConceptMapping",
+        "mappingAccordingTo": "_:ann2",
+        "mappingRelation": "includes",
+        "subjectTaxonConcept": "https://avibase.ca/82745BAA",
+        "objectTaxonConcept": "https://avibase.ca/A091D50A"
       },
       "target": "https://avibase.ca/82745BAA",
       "creator": "https://orcid.org/0000-0003-2224-6821",
       "created": "2023-10-21T13:55:00+10"
     },
     {
-      "type": "TaxonConceptMapping",
-      "mappingAccordingTo": "_:ann2",
-      "mappingRelation": "includes",
-      "subjectTaxonConcept": "https://avibase.ca/82745BAA",
-      "objectTaxonConcept": "https://avibase.ca/A091D50A"
-    },
-    {
+      "id": "_:ann3",
       "type": "Annotation",
       "motivation": "commenting",
       "body": {
-        "type": "rdf:Statement",
-        "subject": "https://avibase.ca/F558C7F9",
-        "predicate": "isDisjointWith",
-        "object": "https://avibase.ca/A091D50A"
+        "type": "TaxonConceptMapping",
+        "mappingAccordingTo": "_:ann3",
+        "mappingRelation": "isDisjointFrom",
+        "subjectTaxonConcept": "https://avibase.ca/F558C7F9",
+        "objectTaxonConcept": "https://avibase.ca/A091D50A"
       },
       "target": "https://avibase.ca/F558C7F9",
       "creator": "https://orcid.org/0000-0003-2224-6821",
       "created": "2023-10-21T13:55:00+10"
-    },
-    {
-      "type": "TaxonConceptMapping",
-      "mappingAccordingTo": "_:ann3",
-      "mappingRelation": "isDisjointFrom",
-      "subjectTaxonConcept": "https://avibase.ca/F558C7F9",
-      "objectTaxonConcept": "https://avibase.ca/A091D50A"
     }
   ]
 }
