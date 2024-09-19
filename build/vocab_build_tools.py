@@ -286,8 +286,8 @@ def add_example(ex):
     text = '\n```turtle\n'
     text += example
     text += '\n```\n\n' 
-    text += '[&lsqb;' + ex + '.ttl&rsqb;](../../examples/' + ex + '.ttl)&nbsp;'
-    text += '[&lsqb;' + ex + '.jsonld&rsqb;](../../examples/' + ex + '.jsonld)\n\n'
+    text += '[&lsqb;' + ex + '.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/' + ex + '.ttl)&nbsp;'
+    text += '[&lsqb;' + ex + '.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/' + ex + '.jsonld)\n\n'
     return text
 
 # create vocabulary

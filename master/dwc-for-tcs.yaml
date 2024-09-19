@@ -51,7 +51,7 @@
   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonConcept
   required: No
   repeatable: No
-  github: null
+  github: 235
 
 # property: namePublishedIn
 - localName: namePublishedIn
@@ -70,7 +70,7 @@
   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonName
   required: No
   repeatable: No
-  github: 29
+  github: 237
 
 # namePublishedInYear
 - localName: namePublishedInYear
@@ -188,8 +188,8 @@
   usage: >-
     The cultivar epithet follows a well-formed botanical name. Only include
     the string of the epithet. i.e. omit the single quotes around cultivar 
-    names, the word 'Group' that denotes cultivar group and the + sign 
-    used in chimeras.
+    names, the word 'Group' that denotes cultivar group, the + sign 
+    used in chimeras and the 'gx' suffix in greges.
   notes: null
   examples: null
   type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
