@@ -60,7 +60,7 @@
   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonConcept
   required: null
   repeatable: null
-  github: 1
+  github: 213
 
 # property: accordingTo
 - localName: accordingTo

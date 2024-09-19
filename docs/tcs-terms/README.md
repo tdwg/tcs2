@@ -71,7 +71,7 @@ Taxon Concept Standard Term List. Biodiversity Information Standards (TDWG).
 		</tr>
 		<tr>
 			<td>GitHub issue</td>
-			<td>https://github.com/tdwg/tcs2/issues/1</td>
+			<td>https://github.com/tdwg/tcs2/issues/213</td>
 		</tr>
 	</tbody>
 </table>
