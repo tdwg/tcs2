@@ -69,6 +69,10 @@ Taxon Concept Standard Term List. Biodiversity Information Standards (TDWG).
 			<td>Usage</td>
 			<td><p>A <code>TaxonConcept</code> MUST have a label and a source. For the source, the <code>accordingTo</code> property MUST be used. For the label, one or more of <code>taxonName</code>, <code>dwc:scientificName</code>and <code>dcterms:identifier</code> MUST be used. </p></td>
 		</tr>
+		<tr>
+			<td>GitHub issue</td>
+			<td>https://github.com/tdwg/tcs2/issues/1</td>
+		</tr>
 	</tbody>
 </table>
 
@@ -232,6 +236,10 @@ By contrast, entries in the nomenclature section of treatments (synonyms)  and i
 			<td>Usage</td>
 			<td><p><code>accordingTo</code> is an IRI term and is required on a Taxon Concept. A  Taxon Concept can have only one <code>accordingTo</code>. </p></td>
 		</tr>
+		<tr>
+			<td>GitHub issue</td>
+			<td>https://github.com/tdwg/tcs2/issues/4</td>
+		</tr>
 	</tbody>
 </table>
 
@@ -347,6 +355,10 @@ _:b1 a foaf:Person ;
 			<td>Usage</td>
 			<td><p><code>taxonName</code> is an IRI term and is required on a TCS Taxon Concept. A Taxon  Concept can only have one <code>taxonName</code>.</p></td>
 		</tr>
+		<tr>
+			<td>GitHub issue</td>
+			<td>https://github.com/tdwg/tcs2/issues/2</td>
+		</tr>
 	</tbody>
 </table>
 
@@ -384,6 +396,10 @@ The object of `taxonName` is an object or IRI, so that it can be reused in  othe
 		<tr>
 			<td>Usage</td>
 			<td><p><code>synonym</code> is a Taxon Name; a Taxon Concept can have multiple synonyms.</p></td>
+		</tr>
+		<tr>
+			<td>GitHub issue</td>
+			<td>https://github.com/tdwg/tcs2/issues/65</td>
 		</tr>
 	</tbody>
 </table>
@@ -561,6 +577,10 @@ The terms 'heterotypic synonym' and 'homotypic synonym' from the nomenclatural c
 			<td>Usage</td>
 			<td><p><code>vernacularName</code> is an IRI term; a Taxon Concept can have more than one  <code>vernacularName</code>.</p></td>
 		</tr>
+		<tr>
+			<td>GitHub issue</td>
+			<td>https://github.com/tdwg/tcs2/issues/10</td>
+		</tr>
 	</tbody>
 </table>
 
@@ -672,6 +692,10 @@ The `vernacularName` property can be used when a vernacular name is used alongsi
 			<td>Usage</td>
 			<td><p><code>taxonomicRank</code> is an IRI property; a Taxon Concept or Taxon Name can have only one <code>taxonomicRank</code>.</p></td>
 		</tr>
+		<tr>
+			<td>GitHub issue</td>
+			<td>https://github.com/tdwg/tcs2/issues/32</td>
+		</tr>
 	</tbody>
 </table>
 
@@ -708,6 +732,10 @@ The rank is an attribute of elements in a classification and implementations can
 			<td>Usage</td>
 			<td><p><code>parent</code> is another Taxon Concept; a Taxon Concept can have only one  <code>parent</code>.</p></td>
 		</tr>
+		<tr>
+			<td>GitHub issue</td>
+			<td>https://github.com/tdwg/tcs2/issues/9</td>
+		</tr>
 	</tbody>
 </table>
 
@@ -743,6 +771,10 @@ The `parent` is another Taxon Concept. This is the parent as indicated in  the `
 		<tr>
 			<td>Usage</td>
 			<td><p><code>child</code> is another Taxon Concept; a Taxon Concept can have more than one  child.</p></td>
+		</tr>
+		<tr>
+			<td>GitHub issue</td>
+			<td>https://github.com/tdwg/tcs2/issues/232</td>
 		</tr>
 	</tbody>
 </table>
@@ -811,6 +843,10 @@ The `parent` is another Taxon Concept. This is the parent as indicated in  the `
 		<tr>
 			<td>Usage</td>
 			<td><p><code>isCongruentWith</code> can be used as a property on a Taxon Concept object, or as the value of the <code>mappingRelation</code> property on a Taxon Concept Mapping object. In both cases both the subject and object are Taxon Concepts.</p></td>
+		</tr>
+		<tr>
+			<td>GitHub issue</td>
+			<td>https://github.com/tdwg/tcs2/issues/52</td>
 		</tr>
 	</tbody>
 </table>
@@ -959,6 +995,10 @@ _:b0  a tcs:TaxonConcept ;
 			<td>Usage</td>
 			<td><p><code>includes</code> can be used as a property on a Taxon Concept object, or as the value of the <code>mappingRelation</code> property on a Taxon Concept Mapping object. In both cases both the subject and object are Taxon Concepts.</p></td>
 		</tr>
+		<tr>
+			<td>GitHub issue</td>
+			<td>https://github.com/tdwg/tcs2/issues/53</td>
+		</tr>
 	</tbody>
 </table>
 
@@ -1058,6 +1098,10 @@ This relation type can also be written as the formula **A > B**.
 		<tr>
 			<td>Usage</td>
 			<td><p><code>isIncludedIn</code> can be used as a property on a Taxon Concept object, or as the value of the <code>mappingRelation</code> property on a Taxon Concept Mapping object. In both cases both the subject and object are Taxon Concepts.</p></td>
+		</tr>
+		<tr>
+			<td>GitHub issue</td>
+			<td>https://github.com/tdwg/tcs2/issues/54</td>
 		</tr>
 	</tbody>
 </table>
@@ -1198,6 +1242,10 @@ _:b1 a tcs:TaxonConcept ;
 			<td>Usage</td>
 			<td><p><code>partiallyOverlaps</code> can be used as a property on a Taxon Concept object, or as the value of the <code>mappingRelation</code> property on a Taxon Concept Mapping object. In both cases both the subject and object are Taxon Concepts.</p></td>
 		</tr>
+		<tr>
+			<td>GitHub issue</td>
+			<td>https://github.com/tdwg/tcs2/issues/55</td>
+		</tr>
 	</tbody>
 </table>
 
@@ -1290,6 +1338,10 @@ This relation can also be written as the formula **A >< B**.
 		<tr>
 			<td>Usage</td>
 			<td><p><code>isDisjointFrom</code> can be used as a property on a Taxon Concept object, or as the value of the <code>mappingRelation</code> property on a Taxon Concept Mapping object. In both cases both the subject and object are Taxon Concepts.</p></td>
+		</tr>
+		<tr>
+			<td>GitHub issue</td>
+			<td>https://github.com/tdwg/tcs2/issues/56</td>
 		</tr>
 	</tbody>
 </table>
@@ -1400,6 +1452,10 @@ This relation can also be written as the formula **A | B**.
 		<tr>
 			<td>Usage</td>
 			<td><p><code>intersects</code> can be used as a property on a Taxon Concept object, or as the value of the <code>mappingRelation</code> property on a Taxon Concept Mapping object. In both cases both the subject and object are Taxon Concepts.</p></td>
+		</tr>
+		<tr>
+			<td>GitHub issue</td>
+			<td>https://github.com/tdwg/tcs2/issues/57</td>
 		</tr>
 	</tbody>
 </table>
@@ -1611,6 +1667,10 @@ Quasi-nomenclatural statements like 'pro parte synonym', 'partial synonym' and '
 			<td>Usage</td>
 			<td><p><code>scientificName</code> can be used instead of the <code>taxonName</code> property on a Taxon Concept or the <code>taxonNameString</code> property on the Taxon Name.</p></td>
 		</tr>
+		<tr>
+			<td>GitHub issue</td>
+			<td>https://github.com/tdwg/tcs2/issues/17</td>
+		</tr>
 	</tbody>
 </table>
 
@@ -1638,6 +1698,10 @@ Quasi-nomenclatural statements like 'pro parte synonym', 'partial synonym' and '
 			<td>Definition</td>
 			<td><p>A common or vernacular name.</p></td>
 		</tr>
+		<tr>
+			<td>GitHub issue</td>
+			<td>https://github.com/tdwg/tcs2/issues/235</td>
+		</tr>
 	</tbody>
 </table>
 
@@ -1664,6 +1728,10 @@ Quasi-nomenclatural statements like 'pro parte synonym', 'partial synonym' and '
 		<tr>
 			<td>Definition</td>
 			<td><p>The taxonomic rank of the most specific name in the dwc:scientificName as it appears in the original record.</p></td>
+		</tr>
+		<tr>
+			<td>GitHub issue</td>
+			<td>https://github.com/tdwg/tcs2/issues/6</td>
 		</tr>
 	</tbody>
 </table>
@@ -1697,6 +1765,10 @@ This term can be used for taxonomic rank designations that are not in the contro
 			<td>Definition</td>
 			<td><p>An unambiguous reference to the resource within a given context.</p></td>
 		</tr>
+		<tr>
+			<td>GitHub issue</td>
+			<td>https://github.com/tdwg/tcs2/issues/236</td>
+		</tr>
 	</tbody>
 </table>
 
@@ -1729,6 +1801,10 @@ This term can be used for taxonomic rank designations that are not in the contro
 		<tr>
 			<td>Definition</td>
 			<td><p>A name given to the resource.</p></td>
+		</tr>
+		<tr>
+			<td>GitHub issue</td>
+			<td>https://github.com/tdwg/tcs2/issues/222</td>
 		</tr>
 	</tbody>
 </table>
@@ -1764,6 +1840,10 @@ In TCS `dcterms:title` is used for the taxonomic concept label [\[senderov_openb
 		<tr>
 			<td>Usage</td>
 			<td><p>When using this class all properties are required</p></td>
+		</tr>
+		<tr>
+			<td>GitHub issue</td>
+			<td>https://github.com/tdwg/tcs2/issues/43</td>
 		</tr>
 	</tbody>
 </table>
@@ -1801,6 +1881,10 @@ The Taxon Concept Mapping class allows for adding extra data to a taxon concept 
 			<td>Usage</td>
 			<td><p><code>mappingAccordingTo</code> is an IRI term and is required; a Taxon  Concept Mapping can have only one <code>mappingAccordingTo</code>.</p></td>
 		</tr>
+		<tr>
+			<td>GitHub issue</td>
+			<td>https://github.com/tdwg/tcs2/issues/47</td>
+		</tr>
 	</tbody>
 </table>
 
@@ -1832,6 +1916,10 @@ The Taxon Concept Mapping class allows for adding extra data to a taxon concept 
 			<td>Usage</td>
 			<td><p>This property is required; one MUST use one of the mapping properties <code>isCongruentWith</code>, <code>includes</code>, <code>isIncludedIn</code>, <code>partiallyOverlaps</code>, <code>isDisjointFrom</code> or <code>intersects</code>.</p></td>
 		</tr>
+		<tr>
+			<td>GitHub issue</td>
+			<td>https://github.com/tdwg/tcs2/issues/44</td>
+		</tr>
 	</tbody>
 </table>
 
@@ -1862,6 +1950,10 @@ The Taxon Concept Mapping class allows for adding extra data to a taxon concept 
 		<tr>
 			<td>Usage</td>
 			<td><p><code>subjectTaxonConcept</code> is a TCS Taxon Concept; a Taxon Concept Mapping  statement can have only one <code>subjectTaxonConcept</code>.</p></td>
+		</tr>
+		<tr>
+			<td>GitHub issue</td>
+			<td>https://github.com/tdwg/tcs2/issues/45</td>
 		</tr>
 	</tbody>
 </table>
@@ -1899,6 +1991,10 @@ This is the Taxon Concept at the left-hand side of the statement.
 			<td>Usage</td>
 			<td><p><code>objectTaxonConcept</code> is a TCS Taxon Concept; a Taxon Concept Mapping  statement can have only one <code>objectTaxonConcept</code>.</p></td>
 		</tr>
+		<tr>
+			<td>GitHub issue</td>
+			<td>https://github.com/tdwg/tcs2/issues/46</td>
+		</tr>
 	</tbody>
 </table>
 
@@ -1932,6 +2028,10 @@ This is the Taxon Concept at the right-hand side of the statement.
 		<tr>
 			<td>Usage</td>
 			<td><p>A TCS Taxon Name requires either a <code>taxonNameString</code> or  <code>dwc:scientificName</code>.</p></td>
+		</tr>
+		<tr>
+			<td>GitHub issue</td>
+			<td>https://github.com/tdwg/tcs2/issues/15</td>
 		</tr>
 	</tbody>
 </table>
@@ -2021,6 +2121,10 @@ The word 'name' here is taken in its dictionary meaning and not in the sense of 
 			<td>Usage</td>
 			<td><p><code>taxonNameString</code> is a literal. Either <code>taxonomicNameString</code> or  <code>dwc:scientificName</code> is required on a TCS Taxon Name and a Taxon Name can  have only one of either.</p></td>
 		</tr>
+		<tr>
+			<td>GitHub issue</td>
+			<td>https://github.com/tdwg/tcs2/issues/16</td>
+		</tr>
 	</tbody>
 </table>
 
@@ -2052,6 +2156,10 @@ The `taxonNameString` property differs from the `scientificName` property  in Da
 		<tr>
 			<td>Definition</td>
 			<td><p>Reference to the publication in which the name was first published.</p></td>
+		</tr>
+		<tr>
+			<td>GitHub issue</td>
+			<td>https://github.com/tdwg/tcs2/issues/29</td>
 		</tr>
 	</tbody>
 </table>
@@ -2089,6 +2197,10 @@ In botany, this would be the protologue. This is the IRI counterpart of  the Dar
 			<td>Usage</td>
 			<td><p><code>microreference</code> is a string literal; a Taxon Name can have only one  <code>microreference</code> and only when <code>namePublishedIn</code> is used as well.</p></td>
 		</tr>
+		<tr>
+			<td>GitHub issue</td>
+			<td>https://github.com/tdwg/tcs2/issues/30</td>
+		</tr>
 	</tbody>
 </table>
 
@@ -2124,6 +2236,10 @@ In taxonomic works it is convention to cite the exact location in a work  where 
 		<tr>
 			<td>Usage</td>
 			<td><p><code>nomenclaturalCode</code> takes an IRI or object; a Taxon Name can have only one  <code>nomenclaturalCode</code>.</p></td>
+		</tr>
+		<tr>
+			<td>GitHub issue</td>
+			<td>https://github.com/tdwg/tcs2/issues/33</td>
 		</tr>
 	</tbody>
 </table>
@@ -2161,6 +2277,10 @@ This is the IRI equivalent of the Darwin Core `nomenclaturalCode`. In the  absen
 			<td>Usage</td>
 			<td><p><code>nomenclaturalStatus</code> takes an IRI or object; a Taxon Name can have only one  <code>nomenclaturalStatus</code>.</p></td>
 		</tr>
+		<tr>
+			<td>GitHub issue</td>
+			<td>https://github.com/tdwg/tcs2/issues/35</td>
+		</tr>
 	</tbody>
 </table>
 
@@ -2192,6 +2312,10 @@ This is the IRI equivalent of the Darwin Core `nomenclaturalStatus`. In the  abs
 		<tr>
 			<td>Definition</td>
 			<td><p>Designation of a nomenclatural type for a name</p></td>
+		</tr>
+		<tr>
+			<td>GitHub issue</td>
+			<td>https://github.com/tdwg/tcs2/issues/223</td>
 		</tr>
 	</tbody>
 </table>
@@ -2228,6 +2352,10 @@ The `typification` property can be used for citation of a type (or types) as wri
 		<tr>
 			<td>Usage</td>
 			<td><p>A <code>basionym</code> is another Taxon Name; a Taxon Name can have only one <code>basionym</code>.</p></td>
+		</tr>
+		<tr>
+			<td>GitHub issue</td>
+			<td>https://github.com/tdwg/tcs2/issues/36</td>
 		</tr>
 	</tbody>
 </table>
@@ -2304,6 +2432,10 @@ _:b1 a tcs:TaxonName ;
 		<tr>
 			<td>Usage</td>
 			<td><p><code>replacedName</code> is another Taxon Name; a Taxon Name can have only one  <code>replacedName</code>.</p></td>
+		</tr>
+		<tr>
+			<td>GitHub issue</td>
+			<td>https://github.com/tdwg/tcs2/issues/37</td>
 		</tr>
 	</tbody>
 </table>
@@ -2471,6 +2603,10 @@ _:b1 a tcs:TaxonName ;
 			<td>Usage</td>
 			<td><p><code>spellingCorrectionOf</code> is another Taxon Name object</p></td>
 		</tr>
+		<tr>
+			<td>GitHub issue</td>
+			<td>https://github.com/tdwg/tcs2/issues/224</td>
+		</tr>
 	</tbody>
 </table>
 
@@ -2556,6 +2692,10 @@ The `spellingCorrectionOf` property can be used if the originally published  nam
 			<td>Usage</td>
 			<td><p><code>laterHomonymOf</code> is another Taxon Name object</p></td>
 		</tr>
+		<tr>
+			<td>GitHub issue</td>
+			<td>https://github.com/tdwg/tcs2/issues/229</td>
+		</tr>
 	</tbody>
 </table>
 
@@ -2591,6 +2731,10 @@ If there are more than two homonyms, the oldest one should be given here. In zoo
 		<tr>
 			<td>Usage</td>
 			<td><p>The <code>conservedAgainst</code> property takes another Taxon Name; a Taxon Name can  be conserved against more than one other Taxon Names.</p></td>
+		</tr>
+		<tr>
+			<td>GitHub issue</td>
+			<td>https://github.com/tdwg/tcs2/issues/39</td>
 		</tr>
 	</tbody>
 </table>
@@ -2653,6 +2797,10 @@ A scientific name below the rank of family is not conserved against all  other n
 			<td>Usage</td>
 			<td><p><code>scientificNameAuthorship</code> can be used if the <code>taxonNameString</code> is a  scientific name.</p></td>
 		</tr>
+		<tr>
+			<td>GitHub issue</td>
+			<td>https://github.com/tdwg/tcs2/issues/24</td>
+		</tr>
 	</tbody>
 </table>
 
@@ -2679,6 +2827,10 @@ A scientific name below the rank of family is not conserved against all  other n
 		<tr>
 			<td>Definition</td>
 			<td><p>A reference for the publication in which the dwc:scientificName was  originally established under the rules of the associated  dwc:nomenclaturalCode.</p></td>
+		</tr>
+		<tr>
+			<td>GitHub issue</td>
+			<td>https://github.com/tdwg/tcs2/issues/237</td>
 		</tr>
 	</tbody>
 </table>
@@ -2716,6 +2868,10 @@ This is the string equivalent of the TCS `namePublishedIn`. It can be used if on
 			<td>Usage</td>
 			<td><p>This is the publication year for the present name combination, not the basionym should this be a new combination.</p></td>
 		</tr>
+		<tr>
+			<td>GitHub issue</td>
+			<td>https://github.com/tdwg/tcs2/issues/31</td>
+		</tr>
 	</tbody>
 </table>
 
@@ -2746,6 +2902,10 @@ This is the string equivalent of the TCS `namePublishedIn`. It can be used if on
 		<tr>
 			<td>Usage</td>
 			<td><p>This property should only be used for names below the rank of genus.</p></td>
+		</tr>
+		<tr>
+			<td>GitHub issue</td>
+			<td>https://github.com/tdwg/tcs2/issues/19</td>
 		</tr>
 	</tbody>
 </table>
@@ -2778,6 +2938,10 @@ This is the string equivalent of the TCS `namePublishedIn`. It can be used if on
 			<td>Usage</td>
 			<td><p>Names at ranks between species and genus, e.g. subgenera and sections, are  composed of two parts; the genus and the infrageneric epithet. This property  should therefore always be accompanied by the <code>genericName</code> property. If the  <code>infragenericEpithet</code> property is present, the <code>specificEpithet</code> and  <code>infraspecificEpithet</code> properties should not be present. </p></td>
 		</tr>
+		<tr>
+			<td>GitHub issue</td>
+			<td>https://github.com/tdwg/tcs2/issues/20</td>
+		</tr>
 	</tbody>
 </table>
 
@@ -2808,6 +2972,10 @@ This is the string equivalent of the TCS `namePublishedIn`. It can be used if on
 		<tr>
 			<td>Usage</td>
 			<td><p>Names at ranks of species and below are composed of two or three words; the  genus name, the specific epithet and possibly an infraspecific epithet.  This property should therefore always be accompanied by the <code>genus</code> property.  If the <code>specificEpithet</code> property is present the <code>infragenericEpithet</code>  property should not be present.</p></td>
+		</tr>
+		<tr>
+			<td>GitHub issue</td>
+			<td>https://github.com/tdwg/tcs2/issues/21</td>
 		</tr>
 	</tbody>
 </table>
@@ -2840,6 +3008,10 @@ This is the string equivalent of the TCS `namePublishedIn`. It can be used if on
 			<td>Usage</td>
 			<td><p>Names at ranks below species are composed of three words; the genus name,  the specific epithet and an infraspecific epithet. This property should  therefore always be accompanied by the <code>genus</code> and <code>specificEpithet</code>  properties. If the <code>infraspecificEpithet</code> property is present the  <code>infragenericEpithet</code> property should not be present.</p></td>
 		</tr>
+		<tr>
+			<td>GitHub issue</td>
+			<td>https://github.com/tdwg/tcs2/issues/22</td>
+		</tr>
 	</tbody>
 </table>
 
@@ -2869,7 +3041,11 @@ This is the string equivalent of the TCS `namePublishedIn`. It can be used if on
 		</tr>
 		<tr>
 			<td>Usage</td>
-			<td><p>The cultivar epithet follows a well-formed botanical name. Only include the string of the epithet. i.e. omit the single quotes around cultivar names, the word 'Group' that denotes cultivar group, the + sign  used in chimeras and the 'gx' suffix in greges.</p></td>
+			<td><p>The cultivar epithet follows a well-formed botanical name. Only include the string of the epithet. i.e. omit the single quotes around cultivar  names, the word 'Group' that denotes cultivar group, the + sign  used in chimeras and the 'gx' suffix in greges.</p></td>
+		</tr>
+		<tr>
+			<td>GitHub issue</td>
+			<td>https://github.com/tdwg/tcs2/issues/23</td>
 		</tr>
 	</tbody>
 </table>
@@ -2899,6 +3075,10 @@ This is the string equivalent of the TCS `namePublishedIn`. It can be used if on
 		<tr>
 			<td>Usage</td>
 			<td><p>A Nomenclatural Type requires a <code>typifiedName</code> and either a <code>typeName</code> or  <code>typeSpecimen</code>.</p></td>
+		</tr>
+		<tr>
+			<td>GitHub issue</td>
+			<td>https://github.com/tdwg/tcs2/issues/58</td>
 		</tr>
 	</tbody>
 </table>
@@ -2976,13 +3156,17 @@ A nomenclatural type fixes the usage of a name to the taxonomic group that  cont
 			<td>Usage</td>
 			<td><p><code>typifiedName</code> is a Taxon Name and is required; a Nomenclatural Type can  typify only one Taxon Name.</p></td>
 		</tr>
+		<tr>
+			<td>GitHub issue</td>
+			<td>https://github.com/tdwg/tcs2/issues/59</td>
+		</tr>
 	</tbody>
 </table>
 
 
 **Comments**
 
-The `typifiedName` property links the Nomenclatural Type back to the Taxon Name. Also, when coming from the Preserved Specimen, the typified name is  the most important piece of information, because there is no point in  knowing what kind of type a specimen is without knowing for what name it  is the type. Therefore, `typifiedName` is a required property.
+The `typifiedName` property links the Nomenclatural Type back to the Taxon  Name. Also, when coming from the Preserved Specimen, the typified name is  the most important piece of information, because there is no point in  knowing what kind of type a specimen is without knowing for what name it  is the type. Therefore, `typifiedName` is a required property.
 
 ### tcs:typeOfType
 
@@ -3011,6 +3195,10 @@ The `typifiedName` property links the Nomenclatural Type back to the Taxon Name.
 		<tr>
 			<td>Usage</td>
 			<td><p><code>typeOfType</code> is an IRI term and should take its value from a controlled  vocabulary. A Nomenclatural Type can have only one <code>typeOfType</code></p></td>
+		</tr>
+		<tr>
+			<td>GitHub issue</td>
+			<td>https://github.com/tdwg/tcs2/issues/60</td>
 		</tr>
 	</tbody>
 </table>
@@ -3048,6 +3236,10 @@ This is an IRI property. In the absence of a TDWG controlled vocabulary,  it is 
 			<td>Usage</td>
 			<td><p><code>typeName</code> is a Taxon Name. A nomenclatural type can have only one  <code>typeName</code>.</p></td>
 		</tr>
+		<tr>
+			<td>GitHub issue</td>
+			<td>https://github.com/tdwg/tcs2/issues/61</td>
+		</tr>
 	</tbody>
 </table>
 
@@ -3084,6 +3276,10 @@ Taxon names at ranks above species level can be typified by the name of a  lower
 			<td>Usage</td>
 			<td><p><code>typeSpecimen</code> takes an IRI – or object – that refers to a specimen. A  Nomenclatural Type can only have one <code>typeSpecimen</code>.</p></td>
 		</tr>
+		<tr>
+			<td>GitHub issue</td>
+			<td>https://github.com/tdwg/tcs2/issues/62</td>
+		</tr>
 	</tbody>
 </table>
 
@@ -3119,6 +3315,10 @@ Names at ranks of species and below are typified by a specimen. This property is
 		<tr>
 			<td>Usage</td>
 			<td><p><code>typePublishedIn</code> is an IRI term. A Nomenclatural Type can have at most one  <code>typePublishedIn</code>. </p></td>
+		</tr>
+		<tr>
+			<td>GitHub issue</td>
+			<td>https://github.com/tdwg/tcs2/issues/63</td>
 		</tr>
 	</tbody>
 </table>
