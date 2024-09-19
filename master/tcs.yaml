@@ -233,7 +233,7 @@
   repeatable: No
   required: No
   type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
-  github: 8
+  github: 9
 
 # property: child
 - localName: child
@@ -241,8 +241,8 @@
   definition: >-
     A direct subordinate in a classification.
   usage: >-
-    `child` is another Taxon Concept; a Taxon Concept can more than one 
-    children.
+    `child` is another Taxon Concept; a Taxon Concept can have more than one 
+    child.
   notes: 
   examples: 
     - TaxonConcept-child-1
@@ -452,12 +452,12 @@
     different versions of a taxonomy
   usage: When using this class all properties are required
   notes: >-
-    The Taxon Concept Mapping class is syntactic sugar that allows for adding
-    extra data to a taxon concept mapping statement. As it allows for adding an
-    'according to' to a concept mapping it can be used for third-party mappings.
-    While structurally very similar to the Darwin Core Resource Relationship
-    class, it is different in that instances of the Taxon Concept Mapping class
-    are meaningful as standalone objects.
+    The Taxon Concept Mapping class allows for adding extra data to a taxon
+    concept mapping statement. As it allows for adding an 'according to' to a
+    concept mapping it can be used for third-party mappings. While structurally
+    very similar to the Darwin Core Resource Relationship class, it is different
+    in that instances of the Taxon Concept Mapping class are meaningful as
+    standalone objects.
   type: http://www.w3.org/2000/01/rdf-schema#Class
   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonConceptMapping
   required: null
@@ -578,7 +578,7 @@
   usage: null
   notes: >-
     In botany, this would be the protologue. This is the IRI counterpart of 
-    the Darwin Core `namePublishedIn`.
+    the Darwin Core `namePublishedIn`, which TCS borrows.
   type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonName
   required: No
@@ -662,15 +662,17 @@
 # property: basionym
 - localName: basionym
   label: Basionym
-  definition: Original name on which the present name is based.
+  definition: Epithet- or name-bringing synonym.
   usage: >-
     A `basionym` is another Taxon Name; a Taxon Name can have only one
     `basionym`.
   notes: >-
-    A basionym is the epithet-bringing name.  The `basionym` property is only
-    used for new combinations ('comb. nov.'). If the new name is a replacement
-    name ('nom. nov.') the `replacedName` property should be used instead. It
-    should also be noted that a basionym is always a different name: a name
+    The term `basionym` is in the draft BioCode
+    ([\[greuter_draft_2011\]](../bibliography/#greuter_draft_2011)), so can be
+    used for all organisms. The `basionym` property is only used for new
+    combinations ('comb. nov.'). If the new name is a replacement name ('nom.
+    nov.') the `replacedName` property should be used instead. It should be
+    noted that a basionym is always a different name or combination: a name
     cannot be its own basionym.
   examples: 
     - TaxonName-basionym-1
@@ -691,11 +693,13 @@
     `replacedName` is another Taxon Name; a Taxon Name can have only one 
     `replacedName`.
   notes: >-
-    In the Botanical Code the term 'replaced synonym' is used. A 'replacement 
-    name' is a name that is published as a substitute for an earlier published 
-    name that is either illegitimate or for which a new combination cannot be 
-    created in the place a taxon is transferred to because of an older blocking 
-    name.
+    'replaced name' is used in the draft BioCode
+    ([\[greuter_draft_2011\]](../bibliography/#greuter_draft_2011)). In the
+    Botanical Code the term 'replaced synonym' is used for the same thing. A
+    'replacement name' is a name that is published as a substitute for an
+    earlier published name that is either illegitimate or for which a new
+    combination cannot be created in the place a taxon is transferred to because
+    of an older blocking name.
   examples: 
     - TaxonName-replacedName-1
     - TaxonName-replacedName-2

@@ -16,7 +16,7 @@
   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonConcept
   required: No
   repeatable: No
-  github: 222
+  github: 236
 
 # title
 - localName: title
