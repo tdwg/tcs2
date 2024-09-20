@@ -2,6 +2,15 @@
   "@context": [
     "https://raw.githubusercontent.com/tdwg/tcs2/master/examples/context.jsonld",
     {
+      "mappingRelation": {
+        "@id": "tcs:mappingRelation",
+        "@type": "@vocab"
+      },
+      "isCongruentWith": "tcs:isCongruentWith",
+      "includes": "tcs:includes",
+      "isIncludedIn": "tcs:isIncludedIn",
+      "partiallyOverlaps": "tcs:partiallyOverlaps",
+      "isDisjointFrom": "tcs:isDisjointFrom",
       "oa": "http://www.w3.org/ns/oa#",
       "Annotation": "oa:Annotation",
       "commenting": "oa:commenting",
@@ -25,7 +34,10 @@
         "@id": "dcterms:creator",
         "@type": "@id"
       },
-      "created": "dcterms:created"
+      "created": {
+        "@id": "dcterms:created",
+        "@type": "xsd:datetime"
+      }
     }
   ],
   "@graph": [
@@ -36,7 +48,7 @@
       "body": {
         "type": "TaxonConceptMapping",
         "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35121455",
-        "mappingRelation": "tcs:isCongruentWith",
+        "mappingRelation": "isCongruentWith",
         "objectTaxonConcept": "https://tropicos.org/reference/9002886#name-35121455",
         "mappingAccordingTo": "_:ann1"
       },
@@ -51,7 +63,7 @@
       "body": {
         "type": "TaxonConceptMapping",
         "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35121455",
-        "mappingRelation": "tcs:isCongruentWith",
+        "mappingRelation": "isCongruentWith",
         "objectTaxonConcept": "https://tropicos.org/reference/9005756#name-35121455",
         "mappingAccordingTo": "_:ann2"
       },
@@ -66,7 +78,7 @@
       "body": {
         "type": "TaxonConceptMapping",
         "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35121455",
-        "mappingRelation": "tcs:isCongruentWith",
+        "mappingRelation": "isCongruentWith",
         "objectTaxonConcept": "https://tropicos.org/reference/9007945#name-35121903",
         "mappingAccordingTo": "_:ann3"
       },
@@ -82,7 +94,7 @@
       "body": {
         "type": "TaxonConceptMapping",
         "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35121458",
-        "mappingRelation": "tcs:isIncludedIn",
+        "mappingRelation": "isIncludedIn",
         "objectTaxonConcept": "https://tropicos.org/reference/9002886#name-35121458",
         "mappingAccordingTo": "_:ann4",
         "rdfs:comment": "incl. Dicranoloma brassii"
@@ -98,7 +110,7 @@
       "body": {
         "type": "TaxonConceptMapping",
         "objectTaxonConcept": "https://tropicos.org/reference/9005756#name-35121458",
-        "mappingRelation": "tcs:partiallyOverlaps",
+        "mappingRelation": "partiallyOverlaps",
         "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35121458",
         "mappingAccordingTo": "_:ann5",
         "rdfs:comment": "incl. Dicranoloma brassii; excl. \"Dicranoloma laevifolium\""
@@ -114,7 +126,7 @@
       "body": {
         "type": "TaxonConceptMapping",
         "objectTaxonConcept": "https://tropicos.org/reference/9005756#name-35121556",
-        "mappingRelation": "tcs:includes",
+        "mappingRelation": "includes",
         "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35121458",
         "mappingAccordingTo": "_:ann6",
         "rdfs:comment": "The type of Dicranum laevifolium belongs to Dicranoloma braunii but specimens seen by Eddy belong to Dicranoloma assimile"
@@ -130,7 +142,7 @@
       "body": {
         "type": "TaxonConceptMapping",
         "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35121458",
-        "mappingRelation": "tcs:includes",
+        "mappingRelation": "includes",
         "objectTaxonConcept": "https://tropicos.org/reference/9006742#name-35121596",
         "mappingAccordingTo": "_:ann7",
         "rdfs:comment": "excl. Dicranoloma euryloma var. rugifolium"
@@ -146,7 +158,7 @@
       "body": {
         "type": "TaxonConceptMapping",
         "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35121458",
-        "mappingRelation": "tcs:includes",
+        "mappingRelation": "includes",
         "objectTaxonConcept": "https://tropicos.org/reference/9006742#name-35121458",
         "mappingAccordingTo": "_:ann8",
         "rdfs:comment": "excl. Dicranoloma euryloma var. rugifolium"
@@ -162,7 +174,7 @@
       "body": {
         "type": "TaxonConceptMapping",
         "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35121458",
-        "mappingRelation": "tcs:includes",
+        "mappingRelation": "includes",
         "objectTaxonConcept": "https://tropicos.org/reference/9007945#name-35121913",
         "mappingAccordingTo": "_:ann9",
         "rdfs:comment": "excl. Dicranoloma brachyphyllum, Dicranoloma havilandii var. latifolium"
@@ -178,7 +190,7 @@
       "body": {
         "type": "TaxonConceptMapping",
         "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35121458",
-        "mappingRelation": "tcs:partiallyOverlaps",
+        "mappingRelation": "partiallyOverlaps",
         "objectTaxonConcept": "https://tropicos.org/reference/9007945#name-35184276",
         "mappingAccordingTo": "_:ann10",
         "rdfs:comment": "incl. Dicranoloma brachyphyllum, Dicranoloma havilandii var. latifolium"
@@ -194,7 +206,7 @@
       "body": {
         "type": "TaxonConceptMapping",
         "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35121617",
-        "mappingRelation": "tcs:isIncludedIn",
+        "mappingRelation": "isIncludedIn",
         "objectTaxonConcept": "https://tropicos.org/reference/9007945#name-35184276",
         "mappingAccordingTo": "_:ann11",
         "rdfs:comment": "incl. Dicranoloma brachyphyllum, Dicranoloma havilandii var. latifolium"
@@ -211,7 +223,7 @@
       "body": {
         "type": "TaxonConceptMapping",
         "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35121542",
-        "mappingRelation": "tcs:isCongruentWith",
+        "mappingRelation": "isCongruentWith",
         "objectTaxonConcept": "https://tropicos.org/reference/9005756#name-35121542",
         "mappingAccordingTo": "_:ann12"
       },
@@ -226,7 +238,7 @@
       "body": {
         "type": "TaxonConceptMapping",
         "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35121542",
-        "mappingRelation": "tcs:isCongruentWith",
+        "mappingRelation": "isCongruentWith",
         "objectTaxonConcept": "https://tropicos.org/reference/9006742#name-35121542",
         "mappingAccordingTo": "_:ann13"
       },
@@ -242,7 +254,7 @@
       "body": {
         "type": "TaxonConceptMapping",
         "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35121514",
-        "mappingRelation": "tcs:includes",
+        "mappingRelation": "includes",
         "objectTaxonConcept": "https://tropicos.org/reference/9002886#name-35121514",
         "mappingAccordingTo": "_:ann14",
         "rdfs:comment": "excl. Dicranoloma brassii"
@@ -258,7 +270,7 @@
       "body": {
         "type": "TaxonConceptMapping",
         "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35121514",
-        "mappingRelation": "tcs:includes",
+        "mappingRelation": "includes",
         "objectTaxonConcept": "https://tropicos.org/reference/9002886#name-35121483",
         "mappingAccordingTo": "_:ann15"
       },
@@ -273,7 +285,7 @@
       "body": {
         "type": "TaxonConceptMapping",
         "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35121514",
-        "mappingRelation": "tcs:isCongruentWith",
+        "mappingRelation": "isCongruentWith",
         "objectTaxonConcept": "https://tropicos.org/reference/9007945#name-35122214",
         "mappingAccordingTo": "_:ann16"
       },
@@ -289,7 +301,7 @@
       "body": {
         "type": "TaxonConceptMapping",
         "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35121609",
-        "mappingRelation": "tcs:includes",
+        "mappingRelation": "includes",
         "objectTaxonConcept": "https://tropicos.org/reference/9002886#name-35121609",
         "mappingAccordingTo": "_:ann17",
         "rdfs:comment": "excl. Dicranum dives"
@@ -305,7 +317,7 @@
       "body": {
         "type": "TaxonConceptMapping",
         "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35121609",
-        "mappingRelation": "tcs:includes",
+        "mappingRelation": "includes",
         "objectTaxonConcept": "https://tropicos.org/reference/9002886#name-35121518",
         "mappingAccordingTo": "_:ann18"
       },
@@ -320,7 +332,7 @@
       "body": {
         "type": "TaxonConceptMapping",
         "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35121609",
-        "mappingRelation": "tcs:isCongruentWith",
+        "mappingRelation": "isCongruentWith",
         "objectTaxonConcept": "https://tropicos.org/reference/9005756#name-35121609",
         "mappingAccordingTo": "_:ann19"
       },
@@ -335,7 +347,7 @@
       "body": {
         "type": "TaxonConceptMapping",
         "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35121609",
-        "mappingRelation": "tcs:isCongruentWith",
+        "mappingRelation": "isCongruentWith",
         "objectTaxonConcept": "https://tropicos.org/reference/9005756#name-35121609",
         "mappingAccordingTo": "_:ann120"
       },
@@ -351,7 +363,7 @@
       "body": {
         "type": "TaxonConceptMapping",
         "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35121509",
-        "mappingRelation": "tcs:isCongruentWith",
+        "mappingRelation": "isCongruentWith",
         "objectTaxonConcept": "https://tropicos.org/reference/9002886#name-35121509",
         "mappingAccordingTo": "_:ann21"
       },
@@ -366,7 +378,7 @@
       "body": {
         "type": "TaxonConceptMapping",
         "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35121509",
-        "mappingRelation": "tcs:isIncludedIn",
+        "mappingRelation": "isIncludedIn",
         "objectTaxonConcept": "https://tropicos.org/reference/9005756#name-35121530",
         "mappingAccordingTo": "_:ann22"
       },
@@ -381,7 +393,7 @@
       "body": {
         "type": "TaxonConceptMapping",
         "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35121509",
-        "mappingRelation": "tcs:isCongruentWith",
+        "mappingRelation": "isCongruentWith",
         "objectTaxonConcept": "https://tropicos.org/reference/9007945#name-35184274",
         "mappingAccordingTo": "_:ann23"
       },
@@ -396,7 +408,7 @@
       "body": {
         "type": "TaxonConceptMapping",
         "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35204725",
-        "mappingRelation": "tcs:isCongruentWith",
+        "mappingRelation": "isCongruentWith",
         "objectTaxonConcept": "https://tropicos.org/reference/9002886#name-35121530",
         "mappingAccordingTo": "_:ann24"
       },
@@ -411,7 +423,7 @@
       "body": {
         "type": "TaxonConceptMapping",
         "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35121467",
-        "mappingRelation": "tcs:includes",
+        "mappingRelation": "includes",
         "objectTaxonConcept": "https://tropicos.org/reference/9002886#name-35121467",
         "mappingAccordingTo": "_:ann25"
       },
@@ -426,7 +438,7 @@
       "body": {
         "type": "TaxonConceptMapping",
         "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35121467",
-        "mappingRelation": "tcs:includes",
+        "mappingRelation": "includes",
         "objectTaxonConcept": "https://tropicos.org/reference/9002886#name-35121578",
         "mappingAccordingTo": "_:ann26"
       },
@@ -441,7 +453,7 @@
       "body": {
         "type": "TaxonConceptMapping",
         "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35121467",
-        "mappingRelation": "tcs:includes",
+        "mappingRelation": "includes",
         "objectTaxonConcept": "https://tropicos.org/reference/9005756#name-35121467",
         "mappingAccordingTo": "_:ann27"
       },
@@ -456,7 +468,7 @@
       "body": {
         "type": "TaxonConceptMapping",
         "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35121467",
-        "mappingRelation": "tcs:includes",
+        "mappingRelation": "includes",
         "objectTaxonConcept": "https://tropicos.org/reference/9005756#name-35121488",
         "mappingAccordingTo": "_:ann28"
       },
@@ -471,7 +483,7 @@
       "body": {
         "type": "TaxonConceptMapping",
         "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35121467",
-        "mappingRelation": "tcs:includes",
+        "mappingRelation": "includes",
         "objectTaxonConcept": "https://tropicos.org/reference/9005756#name-35121578",
         "mappingAccordingTo": "_:ann29"
       },
@@ -486,7 +498,7 @@
       "body": {
         "type": "TaxonConceptMapping",
         "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35121467",
-        "mappingRelation": "tcs:includes",
+        "mappingRelation": "includes",
         "objectTaxonConcept": "https://tropicos.org/reference/9006742#name-35121467",
         "mappingAccordingTo": "_:ann30"
       },
@@ -501,7 +513,7 @@
       "body": {
         "type": "TaxonConceptMapping",
         "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35121467",
-        "mappingRelation": "tcs:includes",
+        "mappingRelation": "includes",
         "objectTaxonConcept": "https://tropicos.org/reference/9006742#name-35121578",
         "mappingAccordingTo": "_:ann31"
       },
@@ -516,7 +528,7 @@
       "body": {
         "type": "TaxonConceptMapping",
         "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35121467",
-        "mappingRelation": "tcs:includes",
+        "mappingRelation": "includes",
         "objectTaxonConcept": "https://tropicos.org/reference/9007945#name-35121960",
         "mappingAccordingTo": "_:ann32"
       },
@@ -531,7 +543,7 @@
       "body": {
         "type": "TaxonConceptMapping",
         "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35121467",
-        "mappingRelation": "tcs:includes",
+        "mappingRelation": "includes",
         "objectTaxonConcept": "https://tropicos.org/reference/9007945#-name-35123838",
         "mappingAccordingTo": "_:ann33"
       },
@@ -547,7 +559,7 @@
       "body": {
         "type": "TaxonConceptMapping",
         "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35121475",
-        "mappingRelation": "tcs:isCongruentWith",
+        "mappingRelation": "isCongruentWith",
         "objectTaxonConcept": "https://tropicos.org/reference/9002886#name-35121475",
         "mappingAccordingTo": "_:ann34"
       },
@@ -562,7 +574,7 @@
       "body": {
         "type": "TaxonConceptMapping",
         "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35121475",
-        "mappingRelation": "tcs:isCongruentWith",
+        "mappingRelation": "isCongruentWith",
         "objectTaxonConcept": "https://tropicos.org/reference/9005756#name-35121475",
         "mappingAccordingTo": "_:ann35"
       },
@@ -577,7 +589,7 @@
       "body": {
         "type": "TaxonConceptMapping",
         "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35121475",
-        "mappingRelation": "tcs:includes",
+        "mappingRelation": "includes",
         "objectTaxonConcept": "https://tropicos.org/reference/9006742#name-35121475",
         "mappingAccordingTo": "_:ann36"
       },
@@ -592,7 +604,7 @@
       "body": {
         "type": "TaxonConceptMapping",
         "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35121475",
-        "mappingRelation": "tcs:includes",
+        "mappingRelation": "includes",
         "objectTaxonConcept": "https://tropicos.org/reference/9006742#name-35121484",
         "mappingAccordingTo": "_:ann37"
       },
@@ -607,7 +619,7 @@
       "body": {
         "type": "TaxonConceptMapping",
         "objectTaxonConcept": "https://tropicos.org/reference/9007945#name-35121972",
-        "mappingRelation": "tcs:isCongruentWith",
+        "mappingRelation": "isCongruentWith",
         "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35121475",
         "mappingAccordingTo": "_:ann38"
       },
@@ -623,7 +635,7 @@
       "body": {
         "type": "TaxonConceptMapping",
         "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35121491",
-        "mappingRelation": "tcs:isIncludedIn",
+        "mappingRelation": "isIncludedIn",
         "objectTaxonConcept": "https://tropicos.org/reference/9002886#name-35121491",
         "mappingAccordingTo": "_:ann39"
       },
@@ -638,7 +650,7 @@
       "body": {
         "type": "TaxonConceptMapping",
         "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35121491",
-        "mappingRelation": "tcs:includes",
+        "mappingRelation": "includes",
         "objectTaxonConcept": "https://tropicos.org/reference/9005756#name-35121491",
         "mappingAccordingTo": "_:ann40"
       },
@@ -653,7 +665,7 @@
       "body": {
         "type": "TaxonConceptMapping",
         "objectTaxonConcept": "https://tropicos.org/reference/9002886#name-35191032",
-        "mappingRelation": "tcs:isCongruentWith",
+        "mappingRelation": "isCongruentWith",
         "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35121491",
         "mappingAccordingTo": "_:ann41"
       },
@@ -668,7 +680,7 @@
       "body": {
         "type": "TaxonConceptMapping",
         "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35204725",
-        "mappingRelation": "tcs:isIncludedIn",
+        "mappingRelation": "isIncludedIn",
         "objectTaxonConcept": "https://tropicos.org/reference/9005756#name-35121491",
         "mappingAccordingTo": "_:ann42"
       },
@@ -683,7 +695,7 @@
       "body": {
         "type": "TaxonConceptMapping",
         "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35121491",
-        "mappingRelation": "tcs:includes",
+        "mappingRelation": "includes",
         "objectTaxonConcept": "https://tropicos.org/reference/9005756#name-35121559",
         "mappingAccordingTo": "_:ann43"
       },
@@ -698,7 +710,7 @@
       "body": {
         "type": "TaxonConceptMapping",
         "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35121491",
-        "mappingRelation": "tcs:isIncludedIn",
+        "mappingRelation": "isIncludedIn",
         "objectTaxonConcept": "https://tropicos.org/reference/9006742#name-35121491",
         "mappingAccordingTo": "_:ann44"
       },
@@ -713,7 +725,7 @@
       "body": {
         "type": "TaxonConceptMapping",
         "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35121491",
-        "mappingRelation": "tcs:isIncludedIn",
+        "mappingRelation": "isIncludedIn",
         "objectTaxonConcept": "https://tropicos.org/reference/9007945#name-35122018",
         "mappingAccordingTo": "_:ann45",
         "rdfs:comment": "Dicranoloma brevisetum does not occur in New Guinea, but Norris & Koponen (1990) include Megalostylium brevisetum as a synonym of Dicranum braunii"
@@ -730,7 +742,7 @@
       "body": {
         "type": "TaxonConceptMapping",
         "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35121486",
-        "mappingRelation": "tcs:partiallyOverlaps",
+        "mappingRelation": "partiallyOverlaps",
         "objectTaxonConcept": "https://tropicos.org/reference/9002886#name-35121491",
         "mappingAccordingTo": "_:ann46",
         "rdfs:comment": "excl. Leucoloma brachypelma"
@@ -746,7 +758,7 @@
       "body": {
         "type": "TaxonConceptMapping",
         "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35121486",
-        "mappingRelation": "tcs:partiallyOverlaps",
+        "mappingRelation": "partiallyOverlaps",
         "objectTaxonConcept": "https://tropicos.org/reference/9002886#name-35167976",
         "mappingAccordingTo": "_:ann47",
         "rdfs:comment": "excl. Leucoloma brachypelma"
@@ -762,7 +774,7 @@
       "body": {
         "type": "TaxonConceptMapping",
         "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35121486",
-        "mappingRelation": "tcs:includes",
+        "mappingRelation": "includes",
         "objectTaxonConcept": "https://tropicos.org/reference/9002886#name-35167975",
         "mappingAccordingTo": "_:ann48"
       },
@@ -777,7 +789,7 @@
       "body": {
         "type": "TaxonConceptMapping",
         "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35121486",
-        "mappingRelation": "tcs:isCongruentWith",
+        "mappingRelation": "isCongruentWith",
         "objectTaxonConcept": "https://tropicos.org/reference/9005756#name-35121486",
         "mappingAccordingTo": "_:ann49"
       },
@@ -792,7 +804,7 @@
       "body": {
         "type": "TaxonConceptMapping",
         "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35121486",
-        "mappingRelation": "tcs:isIncludedIn",
+        "mappingRelation": "isIncludedIn",
         "objectTaxonConcept": "https://tropicos.org/reference/9006742#name-35121491",
         "mappingAccordingTo": "_:ann50"
       },
@@ -807,7 +819,7 @@
       "body": {
         "type": "TaxonConceptMapping",
         "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35121486",
-        "mappingRelation": "tcs:isIncludedIn",
+        "mappingRelation": "isIncludedIn",
         "objectTaxonConcept": "https://tropicos.org/reference/9007945#name-35122018",
         "mappingAccordingTo": "_:ann51"
       },
@@ -822,7 +834,7 @@
       "body": {
         "type": "TaxonConceptMapping",
         "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35204724",
-        "mappingRelation": "tcs:isCongruentWith",
+        "mappingRelation": "isCongruentWith",
         "objectTaxonConcept": "https://tropicos.org/reference/9007945#name-35184272",
         "mappingAccordingTo": "_:ann52"
       },
@@ -838,7 +850,7 @@
       "body": {
         "type": "TaxonConceptMapping",
         "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35158613",
-        "mappingRelation": "tcs:isCongruentWith",
+        "mappingRelation": "isCongruentWith",
         "objectTaxonConcept": "https://tropicos.org/reference/9002886#name-35121457",
         "mappingAccordingTo": "_:ann53"
       },
@@ -853,7 +865,7 @@
       "body": {
         "type": "TaxonConceptMapping",
         "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35158613",
-        "mappingRelation": "tcs:isCongruentWith",
+        "mappingRelation": "isCongruentWith",
         "objectTaxonConcept": "https://tropicos.org/reference/9005756#name-35158613",
         "mappingAccordingTo": "_:ann54"
       },
@@ -868,7 +880,7 @@
       "body": {
         "type": "TaxonConceptMapping",
         "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35158613",
-        "mappingRelation": "tcs:isCongruentWith",
+        "mappingRelation": "isCongruentWith",
         "objectTaxonConcept": "https://tropicos.org/reference/9006742#name-35121457",
         "mappingAccordingTo": "_:ann55"
       },
@@ -883,7 +895,7 @@
       "body": {
         "type": "TaxonConceptMapping",
         "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35158613",
-        "mappingRelation": "tcs:isCongruentWith",
+        "mappingRelation": "isCongruentWith",
         "objectTaxonConcept": "https://tropicos.org/reference/9007945#name-35121907",
         "mappingAccordingTo": "_:ann56"
       },
@@ -899,7 +911,7 @@
       "body": {
         "type": "TaxonConceptMapping",
         "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35184079",
-        "mappingRelation": "tcs:isCongruentWith",
+        "mappingRelation": "isCongruentWith",
         "objectTaxonConcept": "https://tropicos.org/reference/9005756#name-35184079",
         "mappingAccordingTo": "_:ann57"
       },
@@ -914,7 +926,7 @@
       "body": {
         "type": "TaxonConceptMapping",
         "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35184079",
-        "mappingRelation": "tcs:isCongruentWith",
+        "mappingRelation": "isCongruentWith",
         "objectTaxonConcept": "https://tropicos.org/reference/9007945#name-35184275",
         "mappingAccordingTo": "_:ann58"
       },
@@ -929,7 +941,7 @@
       "body": {
         "type": "TaxonConceptMapping",
         "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35204723",
-        "mappingRelation": "tcs:isCongruentWith",
+        "mappingRelation": "isCongruentWith",
         "objectTaxonConcept": "https://tropicos.org/reference/9007945#name-35204723",
         "mappingAccordingTo": "_:ann59"
       },

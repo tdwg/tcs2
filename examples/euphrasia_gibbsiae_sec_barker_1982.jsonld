@@ -2,6 +2,15 @@
   "@context": [
     "https://raw.githubusercontent.com/tdwg/tcs2/master/examples/context.jsonld",
     {
+      "mappingRelation": {
+        "@id": "tcs:mappingRelation",
+        "@type": "@vocab"
+      },
+      "isCongruentWith": "tcs:isCongruentWith",
+      "includes": "tcs:includes",
+      "isIncludedIn": "tcs:isIncludedIn",
+      "partiallyOverlaps": "tcs:partiallyOverlaps",
+      "isDisjointFrom": "tcs:isDisjointFrom",
       "oa": "http://www.w3.org/ns/oa#",
       "Annotation": "oa:Annotation",
       "commenting": "oa:commenting",
@@ -25,7 +34,10 @@
         "@id": "dcterms:creator",
         "@type": "@id"
       },
-      "created": "dcterms:created"
+      "created": {
+        "@id": "dcterms:created",
+        "@type": "xsd:datetime"
+      }
     }
   ],
   "@graph": [
@@ -202,7 +214,7 @@
       "body": {
         "type": "TaxonConceptMapping",
         "mappingAccordingTo": "_:ann1",
-        "mappingRelation": "tcs:includes",
+        "mappingRelation": "includes",
         "subjectTaxonConcept": "https://id.biodiversity.org.au/instance/apni/545068",
         "objectTaxonConcept": "https://id.biodiversity.org.au/instance/apni/713514"
       },
@@ -217,7 +229,7 @@
       "body": {
         "type": "TaxonConceptMapping",
         "mappingAccordingTo": "_:ann2",
-        "mappingRelation": "tcs:isIncludedIn",
+        "mappingRelation": "isIncludedIn",
         "subjectTaxonConcept": "https://id.biodiversity.org.au/instance/apni/545068",
         "objectTaxonConcept": "_:tc1"
       },
@@ -232,7 +244,7 @@
       "body": {
         "type": "TaxonConceptMapping",
         "mappingAccordingTo": "_:ann3",
-        "mappingRelation": "tcs:isCongruentWith",
+        "mappingRelation": "isCongruentWith",
         "subjectTaxonConcept": "https://id.biodiversity.org.au/instance/apni/545068",
         "objectTaxonConcept": "_:tc2"
       },
@@ -247,7 +259,7 @@
       "body": {
         "type": "TaxonConceptMapping",
         "mappingAccordingTo": "_:ann4",
-        "mappingRelation": "tcs:isIncludedIn",
+        "mappingRelation": "isIncludedIn",
         "subjectTaxonConcept": "https://id.biodiversity.org.au/instance/apni/545068",
         "objectTaxonConcept": "_:tc3"
       },
@@ -262,7 +274,7 @@
       "body": {
         "type": "TaxonConceptMapping",
         "mappingAccordingTo": "_:ann5",
-        "mappingRelation": "tcs:isIncludedIn",
+        "mappingRelation": "isIncludedIn",
         "subjectTaxonConcept": "https://id.biodiversity.org.au/instance/apni/545068",
         "objectTaxonConcept": "_:tc4"
       },
@@ -277,7 +289,7 @@
       "body": {
         "type": "TaxonConceptMapping",
         "mappingAccordingTo": "_:ann6",
-        "mappingRelation": "tcs:includes",
+        "mappingRelation": "includes",
         "subjectTaxonConcept": "https://id.biodiversity.org.au/instance/apni/545068",
         "objectTaxonConcept": "_:tc5"
       },
@@ -292,7 +304,7 @@
       "body": {
         "type": "TaxonConceptMapping",
         "mappingAccordingTo": "_:ann7",
-        "mappingRelation": "tcs:includes",
+        "mappingRelation": "includes",
         "subjectTaxonConcept": "https://id.biodiversity.org.au/instance/apni/545068",
         "objectTaxonConcept": "_:tc6"
       },
@@ -307,7 +319,7 @@
       "body": {
         "type": "TaxonConceptMapping",
         "mappingAccordingTo": "_:ann8",
-        "mappingRelation": "tcs:includes",
+        "mappingRelation": "includes",
         "subjectTaxonConcept": "https://id.biodiversity.org.au/instance/apni/545068",
         "objectTaxonConcept": "_:tc7"
       },
