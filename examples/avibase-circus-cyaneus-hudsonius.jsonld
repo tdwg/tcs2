@@ -2,18 +2,26 @@
   "@context": [
     "https://raw.githubusercontent.com/tdwg/tcs2/master/examples/context.jsonld",
     {
+      "oa": "http://www.w3.org/ns/oa#",
       "Annotation": "oa:Annotation",
       "commenting": "oa:commenting",
-      "body": "oa:hasBody",
-      "target": "oa:hasTarget",
-      "motivation": { "@id": "oa:motivatedBy", "@type": "@vocab" },
-
-      "TaxonConceptMapping": "rdf:Statement",
-      "subject": { "@id": "rdf:subject", "@type": "@id"},
-      "predicate": { "@id": "rdf:predicate", "@type": "@vocab"},
-      "object": { "@id": "rdf:object", "@type": "@id"},
-      "creator": { "@id": "dcterms:creator", "@type": "@id"},
-      "created": { "@id": "dcterms:created", "@type": "xsd:datetime"}
+      "body": {
+        "@id": "oa:hasBody",
+        "@type": "@id"
+      },
+      "target": {
+        "@id": "oa:hasTarget",
+        "@type": "@id"
+      },
+      "motivation": {
+        "@id": "oa:motivatedBy",
+        "@type": "@vocab"
+      },
+      "created": "dcterms:created",
+      "creator": {
+        "@id": "dcterms:creator",
+        "@type": "@id"
+      }
     }
   ],
   "@graph": [
@@ -133,7 +141,7 @@
       "id": "https://avibase.bsc-eoc.org",
       "type": "bibo:Website",
       "bibo:uri": "https://avibase.bsc-eoc.org/avibase.jsp",
-      "dcterms:creator": [{
+      "creator": [{
         "type": "foaf:Person",
         "foaf:givenNames": "Denis",
         "foaf:surname": "Lepage"
@@ -167,7 +175,7 @@
       "body": {
         "type": "TaxonConceptMapping",
         "mappingAccordingTo": "_:ann1",
-        "mappingRelation": "includes",
+        "mappingRelation": "tcs:includes",
         "subjectTaxonConcept": "https://avibase.ca/82745BAA",
         "objectTaxonConcept": "https://avibase.ca/F558C7F9"
       },
@@ -182,7 +190,7 @@
       "body": {
         "type": "TaxonConceptMapping",
         "mappingAccordingTo": "_:ann2",
-        "mappingRelation": "includes",
+        "mappingRelation": "tcs:includes",
         "subjectTaxonConcept": "https://avibase.ca/82745BAA",
         "objectTaxonConcept": "https://avibase.ca/A091D50A"
       },
@@ -197,7 +205,7 @@
       "body": {
         "type": "TaxonConceptMapping",
         "mappingAccordingTo": "_:ann3",
-        "mappingRelation": "isDisjointFrom",
+        "mappingRelation": "tcs:isDisjointFrom",
         "subjectTaxonConcept": "https://avibase.ca/F558C7F9",
         "objectTaxonConcept": "https://avibase.ca/A091D50A"
       },

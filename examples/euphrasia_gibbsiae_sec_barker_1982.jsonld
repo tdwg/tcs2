@@ -20,7 +20,12 @@
       "value": { 
         "@id": "rdf:value", 
         "@type": "@id" 
-      }
+      },
+      "creator": {
+        "@id": "dcterms:creator",
+        "@type": "@id"
+      },
+      "created": "dcterms:created"
     }
   ],
   "@graph": [
@@ -92,7 +97,7 @@
       "taxonName": "https://www.ipni.org/n/802545-1"
     },
     {
-      "id": "tc3",
+      "id": "_:tc3",
       "type": "TaxonConcept",
       "dcterms:title": "Euphrasia gibbsiae sec. Harris 1970",
       "accordingTo": "_:ref3",
@@ -197,13 +202,13 @@
       "body": {
         "type": "TaxonConceptMapping",
         "mappingAccordingTo": "_:ann1",
-        "mappingRelation": "includes",
+        "mappingRelation": "tcs:includes",
         "subjectTaxonConcept": "https://id.biodiversity.org.au/instance/apni/545068",
         "objectTaxonConcept": "https://id.biodiversity.org.au/instance/apni/713514"
       },
       "target": "https://id.biodiversity.org.au/instance/apni/545068",
-      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821",
-      "dcterms:created": "2023-10-21T23:41:00+11"
+      "creator": "https://orcid.org/0000-0003-2224-6821",
+      "created": "2023-10-21T23:41:00+11"
     },
     {
       "id": "_:ann2",
@@ -212,13 +217,13 @@
       "body": {
         "type": "TaxonConceptMapping",
         "mappingAccordingTo": "_:ann2",
-        "mappingRelation": "isIncludedIn",
+        "mappingRelation": "tcs:isIncludedIn",
         "subjectTaxonConcept": "https://id.biodiversity.org.au/instance/apni/545068",
         "objectTaxonConcept": "_:tc1"
       },
       "target": "https://id.biodiversity.org.au/instance/apni/545068",
-      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821",
-      "dcterms:created": "2023-10-21T23:41:00+11"
+      "creator": "https://orcid.org/0000-0003-2224-6821",
+      "created": "2023-10-21T23:41:00+11"
     },
     {
       "id": "_:ann3",
@@ -227,13 +232,13 @@
       "body": {
         "type": "TaxonConceptMapping",
         "mappingAccordingTo": "_:ann3",
-        "mappingRelation": "isCongruentWith",
+        "mappingRelation": "tcs:isCongruentWith",
         "subjectTaxonConcept": "https://id.biodiversity.org.au/instance/apni/545068",
         "objectTaxonConcept": "_:tc2"
       },
       "target": "https://id.biodiversity.org.au/instance/apni/545068",
-      "dcterms:created": "2023-10-21T23:41:00+11",
-      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821"
+      "created": "2023-10-21T23:41:00+11",
+      "creator": "https://orcid.org/0000-0003-2224-6821"
     },
     {
       "id": "_:ann4",
@@ -242,13 +247,13 @@
       "body": {
         "type": "TaxonConceptMapping",
         "mappingAccordingTo": "_:ann4",
-        "mappingRelation": "isIncludedIn",
+        "mappingRelation": "tcs:isIncludedIn",
         "subjectTaxonConcept": "https://id.biodiversity.org.au/instance/apni/545068",
         "objectTaxonConcept": "_:tc3"
       },
       "target": "https://id.biodiversity.org.au/instance/apni/545068",
-      "dcterms:created": "2023-10-21T23:41:00+11",
-      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821"
+      "created": "2023-10-21T23:41:00+11",
+      "creator": "https://orcid.org/0000-0003-2224-6821"
     },
     {
       "id": "_:ann5",
@@ -257,13 +262,13 @@
       "body": {
         "type": "TaxonConceptMapping",
         "mappingAccordingTo": "_:ann5",
-        "mappingRelation": "isIncludedIn",
+        "mappingRelation": "tcs:isIncludedIn",
         "subjectTaxonConcept": "https://id.biodiversity.org.au/instance/apni/545068",
         "objectTaxonConcept": "_:tc4"
       },
       "target": "https://id.biodiversity.org.au/instance/apni/545068",
-      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821",
-      "dcterms:created": "2023-10-21T23:41:00+11"
+      "creator": "https://orcid.org/0000-0003-2224-6821",
+      "created": "2023-10-21T23:41:00+11"
     },
     {
       "id": "_:ann6",
@@ -272,28 +277,28 @@
       "body": {
         "type": "TaxonConceptMapping",
         "mappingAccordingTo": "_:ann6",
-        "mappingRelation": "includes",
+        "mappingRelation": "tcs:includes",
         "subjectTaxonConcept": "https://id.biodiversity.org.au/instance/apni/545068",
         "objectTaxonConcept": "_:tc5"
       },
       "target": "https://id.biodiversity.org.au/instance/apni/545068",
-      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821",
-      "dcterms:created": "2023-10-21T23:41:00+11"
+      "creator": "https://orcid.org/0000-0003-2224-6821",
+      "created": "2023-10-21T23:41:00+11"
     },
     {
-      "id": "ann7",
+      "id": "_:ann7",
       "type": "Annotation",
       "motivation": "commenting",
       "body": {
         "type": "TaxonConceptMapping",
         "mappingAccordingTo": "_:ann7",
-        "mappingRelation": "includes",
+        "mappingRelation": "tcs:includes",
         "subjectTaxonConcept": "https://id.biodiversity.org.au/instance/apni/545068",
         "objectTaxonConcept": "_:tc6"
       },
       "target": "https://id.biodiversity.org.au/instance/apni/545068",
-      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821",
-      "dcterms:created": "2023-10-21T23:41:00+11"
+      "creator": "https://orcid.org/0000-0003-2224-6821",
+      "created": "2023-10-21T23:41:00+11"
     },
     {
       "id": "_:ann8",
@@ -302,13 +307,13 @@
       "body": {
         "type": "TaxonConceptMapping",
         "mappingAccordingTo": "_:ann8",
-        "mappingRelation": "includes",
+        "mappingRelation": "tcs:includes",
         "subjectTaxonConcept": "https://id.biodiversity.org.au/instance/apni/545068",
         "objectTaxonConcept": "_:tc7"
       },
       "target": "https://id.biodiversity.org.au/instance/apni/545068",
-      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821",
-      "dcterms:created": "2023-10-21T23:41:00+11"
+      "creator": "https://orcid.org/0000-0003-2224-6821",
+      "created": "2023-10-21T23:41:00+11"
     },
     
     {
