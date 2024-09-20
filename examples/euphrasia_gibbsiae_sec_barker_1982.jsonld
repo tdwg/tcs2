@@ -17,23 +17,15 @@
         "@id": "oa:motivatedBy",
         "@type": "@vocab"
       },
-      "TaxonConceptMapping": "rdf:Statement",
-      "subjectTaxonConcept": {
-        "@id": "rdf:subject",
-        "@type": "@id"
-      },
-      "relationshipType": {
-        "@id": "rdf:predicate",
-        "@type": "@vocab"
-      },
-      "objectTaxonConcept": {
-        "@id": "rdf:object",
-        "@type": "@id"
-      },
       "value": { 
         "@id": "rdf:value", 
         "@type": "@id" 
-      }
+      },
+      "creator": {
+        "@id": "dcterms:creator",
+        "@type": "@id"
+      },
+      "created": "dcterms:created"
     }
   ],
   "@graph": [
@@ -105,7 +97,7 @@
       "taxonName": "https://www.ipni.org/n/802545-1"
     },
     {
-      "id": "tc3",
+      "id": "_:tc3",
       "type": "TaxonConcept",
       "dcterms:title": "Euphrasia gibbsiae sec. Harris 1970",
       "accordingTo": "_:ref3",
@@ -209,21 +201,14 @@
       "motivation": "commenting",
       "body": {
         "type": "TaxonConceptMapping",
+        "mappingAccordingTo": "_:ann1",
+        "mappingRelation": "tcs:includes",
         "subjectTaxonConcept": "https://id.biodiversity.org.au/instance/apni/545068",
-        "relationshipType": "includes",
-        "objectTaxonConcept": "https://id.biodiversity.org.au/instance/apni/713514",
-        "rdfs:comment": "Euphrasia gibbsiae sec. Barker 1982 also includes Euphrasia kingii sec. Curtis 1967"
+        "objectTaxonConcept": "https://id.biodiversity.org.au/instance/apni/713514"
       },
       "target": "https://id.biodiversity.org.au/instance/apni/545068",
-      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821",
-      "dcterms:created": "2023-10-21T23:41:00+11"
-    },
-    {
-      "type": "TaxonConceptMapping",
-      "mappingAccordingTo": "_:ann1",
-      "mappingRelation": "includes",
-      "subjectTaxonConcept": "https://id.biodiversity.org.au/instance/apni/545068",
-      "objectTaxonConcept": "https://id.biodiversity.org.au/instance/apni/713514"
+      "creator": "https://orcid.org/0000-0003-2224-6821",
+      "created": "2023-10-21T23:41:00+11"
     },
     {
       "id": "_:ann2",
@@ -231,21 +216,14 @@
       "motivation": "commenting",
       "body": {
         "type": "TaxonConceptMapping",
+        "mappingAccordingTo": "_:ann2",
+        "mappingRelation": "tcs:isIncludedIn",
         "subjectTaxonConcept": "https://id.biodiversity.org.au/instance/apni/545068",
-        "relationshipType": "isIncludedIn",
-        "objectTaxonConcept": "_:tc1",
-        "rdfs:comment": "Only Tasmanian occurrences and Victorian occurrences of f. subglabrifolia of Euphrasia gibbsiae sec. Willis 1967 are included in Euphrasia gibbsiae sec. Barker 1982 [WRB 1982]"
+        "objectTaxonConcept": "_:tc1"
       },
       "target": "https://id.biodiversity.org.au/instance/apni/545068",
-      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821",
-      "dcterms:created": "2023-10-21T23:41:00+11"
-    },
-    {
-      "type": "TaxonConceptMapping",
-      "mappingAccordingTo": "_:ann2",
-      "mappingRelation": "isIncludedIn",
-      "subjectTaxonConcept": "https://id.biodiversity.org.au/instance/apni/545068",
-      "objectTaxonConcept": "_:tc1"
+      "creator": "https://orcid.org/0000-0003-2224-6821",
+      "created": "2023-10-21T23:41:00+11"
     },
     {
       "id": "_:ann3",
@@ -253,20 +231,14 @@
       "motivation": "commenting",
       "body": {
         "type": "TaxonConceptMapping",
+        "mappingAccordingTo": "_:ann3",
+        "mappingRelation": "tcs:isCongruentWith",
         "subjectTaxonConcept": "https://id.biodiversity.org.au/instance/apni/545068",
-        "relationshipType": "isCongruentWith",
         "objectTaxonConcept": "_:tc2"
       },
       "target": "https://id.biodiversity.org.au/instance/apni/545068",
-      "dcterms:created": "2023-10-21T23:41:00+11",
-      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821"
-    },
-    {
-      "type": "TaxonConceptMapping",
-      "mappingAccordingTo": "_:ann3",
-      "mappingRelation": "isCongruentWith",
-      "subjectTaxonConcept": "https://id.biodiversity.org.au/instance/apni/545068",
-      "objectTaxonConcept": "_:tc2"
+      "created": "2023-10-21T23:41:00+11",
+      "creator": "https://orcid.org/0000-0003-2224-6821"
     },
     {
       "id": "_:ann4",
@@ -274,21 +246,14 @@
       "motivation": "commenting",
       "body": {
         "type": "TaxonConceptMapping",
+        "mappingAccordingTo": "_:ann4",
+        "mappingRelation": "tcs:isIncludedIn",
         "subjectTaxonConcept": "https://id.biodiversity.org.au/instance/apni/545068",
-        "relationshipType": "isIncludedIn",
-        "objectTaxonConcept": "_:tc3",
-        "rdfs:comment": "Victoria occurrences of f. comberi sensu Harris 1978 are excluded from Euphrasia gibbsiae sec. Barker 1982 [WRB 1982]"
+        "objectTaxonConcept": "_:tc3"
       },
       "target": "https://id.biodiversity.org.au/instance/apni/545068",
-      "dcterms:created": "2023-10-21T23:41:00+11",
-      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821"
-    },
-    {
-      "type": "TaxonConceptMapping",
-      "mappingAccordingTo": "_:ann4",
-      "mappingRelation": "isIncludedIn",
-      "subjectTaxonConcept": "https://id.biodiversity.org.au/instance/apni/545068",
-      "objectTaxonConcept": "_:tc3"
+      "created": "2023-10-21T23:41:00+11",
+      "creator": "https://orcid.org/0000-0003-2224-6821"
     },
     {
       "id": "_:ann5",
@@ -296,21 +261,14 @@
       "motivation": "commenting",
       "body": {
         "type": "TaxonConceptMapping",
+        "mappingAccordingTo": "_:ann5",
+        "mappingRelation": "tcs:isIncludedIn",
         "subjectTaxonConcept": "https://id.biodiversity.org.au/instance/apni/545068",
-        "relationshipType": "isIncludedIn",
-        "objectTaxonConcept": "_:tc4",
-        "rdfs:comment": "Only occurrences of f. subglabrifolia sensu Willis 1973 are included in Euphrasia gibbsiae sec. Barker 1982 [WRB 1982]"
+        "objectTaxonConcept": "_:tc4"
       },
       "target": "https://id.biodiversity.org.au/instance/apni/545068",
-      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821",
-      "dcterms:created": "2023-10-21T23:41:00+11"
-    },
-    {
-      "type": "TaxonConceptMapping",
-      "mappingAccordingTo": "_:ann5",
-      "mappingRelation": "isIncludedIn",
-      "subjectTaxonConcept": "https://id.biodiversity.org.au/instance/apni/545068",
-      "objectTaxonConcept": "_:tc4"
+      "creator": "https://orcid.org/0000-0003-2224-6821",
+      "created": "2023-10-21T23:41:00+11"
     },
     {
       "id": "_:ann6",
@@ -318,43 +276,29 @@
       "motivation": "commenting",
       "body": {
         "type": "TaxonConceptMapping",
+        "mappingAccordingTo": "_:ann6",
+        "mappingRelation": "tcs:includes",
         "subjectTaxonConcept": "https://id.biodiversity.org.au/instance/apni/545068",
-        "relationshipType": "includes",
-        "objectTaxonConcept": "_:tc5",
-        "rdfs:comment": "Euphrasia gibbsiae sec. Barker 1982 also includes Euphrasia kingii sec. Curtis & Stones 1973"
+        "objectTaxonConcept": "_:tc5"
       },
       "target": "https://id.biodiversity.org.au/instance/apni/545068",
-      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821",
-      "dcterms:created": "2023-10-21T23:41:00+11"
+      "creator": "https://orcid.org/0000-0003-2224-6821",
+      "created": "2023-10-21T23:41:00+11"
     },
     {
-      "type": "TaxonConceptMapping",
-      "mappingAccordingTo": "_:ann6",
-      "mappingRelation": "includes",
-      "subjectTaxonConcept": "https://id.biodiversity.org.au/instance/apni/545068",
-      "objectTaxonConcept": "_:tc5"
-    },
-    {
-      "id": "ann7",
+      "id": "_:ann7",
       "type": "Annotation",
       "motivation": "commenting",
       "body": {
         "type": "TaxonConceptMapping",
+        "mappingAccordingTo": "_:ann7",
+        "mappingRelation": "tcs:includes",
         "subjectTaxonConcept": "https://id.biodiversity.org.au/instance/apni/545068",
-        "relationshipType": "includes",
-        "objectTaxonConcept": "_:tc6",
-        "rdfs:comment": "Euphrasia gibbsiae sec. Barker 1982 also includes Euphrasia gibbsiae sec. Curtis 1967"
+        "objectTaxonConcept": "_:tc6"
       },
       "target": "https://id.biodiversity.org.au/instance/apni/545068",
-      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821",
-      "dcterms:created": "2023-10-21T23:41:00+11"
-    },
-    {
-      "type": "TaxonConceptMapping",
-      "mappingAccordingTo": "_:ann7",
-      "mappingRelation": "includes",
-      "subjectTaxonConcept": "https://id.biodiversity.org.au/instance/apni/545068",
-      "objectTaxonConcept": "_:tc6"
+      "creator": "https://orcid.org/0000-0003-2224-6821",
+      "created": "2023-10-21T23:41:00+11"
     },
     {
       "id": "_:ann8",
@@ -362,23 +306,16 @@
       "motivation": "commenting",
       "body": {
         "type": "TaxonConceptMapping",
+        "mappingAccordingTo": "_:ann8",
+        "mappingRelation": "tcs:includes",
         "subjectTaxonConcept": "https://id.biodiversity.org.au/instance/apni/545068",
-        "relationshipType": "includes",
-        "objectTaxonConcept": "_:tc7",
-        "rdfs:comment": "Euphrasia gibbsiae sec. Barker 1982 also includes Euphrasia gibbsiae sec. Curtis & Stones 1973"
+        "objectTaxonConcept": "_:tc7"
       },
       "target": "https://id.biodiversity.org.au/instance/apni/545068",
-      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821",
-      "dcterms:created": "2023-10-21T23:41:00+11"
+      "creator": "https://orcid.org/0000-0003-2224-6821",
+      "created": "2023-10-21T23:41:00+11"
     },
-    {
-      "type": "TaxonConceptMapping",
-      "mappingAccordingTo": "_:ann8",
-      "mappingRelation": "includes",
-      "subjectTaxonConcept": "https://id.biodiversity.org.au/instance/apni/545068",
-      "objectTaxonConcept": "_:tc7"
-    },
-
+    
     {
       "id": "https://www.jstor.org/stable/23873848",
       "type": "bibo:AcademicArticle",

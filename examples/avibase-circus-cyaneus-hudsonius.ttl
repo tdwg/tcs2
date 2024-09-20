@@ -98,48 +98,33 @@ _:ref4 a dcterms:BibliographicResource ;
 
 _:ann1 a oa:Annotation ;
     oa:motivatedBy oa:commenting ;
-    oa:hasBody [ a rdf:Statement ;
-            rdf:subject <https://avibase.ca/82745BAA> ;
-            rdf:predicate tcs:includes ;
-            rdf:object <https://avibase.ca/F558C7F9> ] ;
+    oa:hasBody [ a tcs:TaxonConceptMapping ;
+            tcs:mappingAccordingTo _:ann1 ;
+            tcs:mappingRelation tcs:includes ;
+            tcs:subjectTaxonConcept <https://avibase.ca/82745BAA> ;
+            tcs:objectTaxonConcept <https://avibase.ca/F558C7F9> ] ;
     oa:hasTarget <https://avibase.ca/82745BAA> ;
     dcterms:creator <https://orcid.org/0000-0003-2224-6821> ;
     dcterms:created "2023-10-21T13:55:00+10" .
 
 _:ann2 a oa:Annotation ;
     oa:motivatedBy oa:commenting ;
-    oa:hasBody [ a rdf:Statement ;
-            rdf:subject <https://avibase.ca/82745BAA> ;
-            rdf:predicate tcs:includes ;
-            rdf:object <https://avibase.ca/A091D50A> ] ;
+    oa:hasBody [ a tcs:TaxonConceptMapping ;
+            tcs:mappingAccordingTo _:ann2 ;
+            tcs:mappingRelation tcs:includes ;
+            tcs:subjectTaxonConcept <https://avibase.ca/82745BAA> ;
+            tcs:objectTaxonConcept <https://avibase.ca/A091D50A> ];
     oa:hasTarget <https://avibase.ca/82745BAA> ;
     dcterms:creator <https://orcid.org/0000-0003-2224-6821> ;
     dcterms:created "2023-10-21T13:55:00+10" .
 
 _:ann3 a oa:Annotation ;
     oa:motivatedBy oa:commenting ;
-    oa:hasBody [ a rdf:Statement ;
-            rdf:subject <https://avibase.ca/F558C7F9> ;
-            rdf:predicate tcs:isDisjointWith ;
-            rdf:object <https://avibase.ca/A091D50A> ] ;
+    oa:hasBody [ a tcs:TaxonConceptMapping ;
+            tcs:mappingAccordingTo _:ann3 ;
+            tcs:mappingRelation tcs:isDisjointFrom ;
+            tcs:subjectTaxonConcept <https://avibase.ca/F558C7F9> ;
+            tcs:objectTaxonConcept <https://avibase.ca/A091D50A> ] ;
     oa:hasTarget <https://avibase.ca/F558C7F9> ;
     dcterms:creator <https://orcid.org/0000-0003-2224-6821> ;
     dcterms:created "2023-10-21T13:55:00+10" .
-
-[] a tcs:TaxonConceptMapping ;
-	tcs:mappingAccordingTo _:ann1 ;
-	tcs:mappingRelation tcs:includes ;
-	tcs:subjectTaxonConcept <https://avibase.ca/82745BAA> ;
-	tcs:objectTaxonConcept <https://avibase.ca/F558C7F9> .
-
-[] a tcs:TaxonConceptMapping ;
-	tcs:mappingAccordingTo _:ann2 ;
-	tcs:mappingRelation tcs:includes ;
-	tcs:subjectTaxonConcept <https://avibase.ca/82745BAA> ;
-	tcs:objectTaxonConcept <https://avibase.ca/A091D50A> .
-
-[] a tcs:TaxonConceptMapping ;
-	tcs:mappingAccordingTo _:ann3 ;
-	tcs:mappingRelation tcs:isDisjointFrom ;
-	tcs:subjectTaxonConcept <https://avibase.ca/F558C7F9> ;
-	tcs:objectTaxonConcept <https://avibase.ca/A091D50A> .
