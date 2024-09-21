@@ -2,22 +2,6 @@
 # Terms borrowed from Dublin Core
 #
 
-# identifier
-- localName: identifier
-  label: Identifier
-  definition: An unambiguous reference to the resource within a given context.
-  usage: null
-  notes: >
-    `dcterms:identifier` can be used in addition to or instead of a label for
-    Taxon Concepts in systems with well-known identifiers, e.g. AviBase and
-    UNITE.
-  examples: TaxonConcept-title.md
-  type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
-  organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonConcept
-  required: No
-  repeatable: No
-  github: 236
-
 # title
 - localName: title
   label: Taxon concept label
