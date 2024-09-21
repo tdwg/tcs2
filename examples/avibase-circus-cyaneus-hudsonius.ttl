@@ -66,12 +66,12 @@
 
 
 _:tn1 a tcs:TaxonName ;
-    dwc:scientificNameAuthorship "(Linnaeus 1766)" ;
-    tcs:taxonNameString "Circus cyaneus" .
+    tcs:taxonNameString "Circus cyaneus" ;
+    dwc:scientificNameAuthorship "(Linnaeus 1766)" .
 
 _:tn2 a tcs:TaxonName ;
-    dwc:scientificNameAuthorship "(Linnaeus 1766)" ;
-    tcs:taxonNameString "Circus hudsonius" .
+    tcs:taxonNameString "Circus hudsonius" ;
+    dwc:scientificNameAuthorship "(Linnaeus 1766)" .
 
 
 <https://avibase.bsc-eoc.org> a bibo:Website ;
