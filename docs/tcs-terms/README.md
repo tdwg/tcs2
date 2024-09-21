@@ -37,7 +37,7 @@ Taxon Concept Standard Term List. Biodiversity Information Standards (TDWG).
 
 **Taxon Name**
 
-[tcs:TaxonName](#tcstaxonname) | [tcs:taxonNameString](#tcstaxonnamestring) | [tcs:namePublishedIn](#tcsnamepublishedin) | [tcs:microreference](#tcsmicroreference) | [tcs:nomenclaturalCode](#tcsnomenclaturalcode) | [tcs:nomenclaturalStatus](#tcsnomenclaturalstatus) | [tcs:typification](#tcstypification) | [tcs:basionym](#tcsbasionym) | [tcs:replacedName](#tcsreplacedname) | [tcs:spellingCorrectionOf](#tcsspellingcorrectionof) | [tcs:laterHomonymOf](#tcslaterhomonymof) | [tcs:conservedAgainst](#tcsconservedagainst) | [dwc:scientificNameAuthorship](#dwcscientificnameauthorship) | [dwc:namePublishedIn](#dwcnamepublishedin) | [dwc:namePublishedInYear](#dwcnamepublishedinyear) | [dwc:genericName](#dwcgenericname) | [dwc:infragenericEpithet](#dwcinfragenericepithet) | [dwc:specificEpithet](#dwcspecificepithet) | [dwc:infraspecificEpithet](#dwcinfraspecificepithet) | [dwc:cultivarEpithet](#dwccultivarepithet)
+[tcs:TaxonName](#tcstaxonname) | [tcs:taxonNameString](#tcstaxonnamestring) | [tcs:namePublishedIn](#tcsnamepublishedin) | [tcs:microreference](#tcsmicroreference) | [tcs:nomenclaturalCode](#tcsnomenclaturalcode) | [tcs:nomenclaturalStatus](#tcsnomenclaturalstatus) | [tcs:typificationLiteral](#tcstypificationliteral) | [tcs:basionym](#tcsbasionym) | [tcs:replacedName](#tcsreplacedname) | [tcs:spellingCorrectionOf](#tcsspellingcorrectionof) | [tcs:laterHomonymOf](#tcslaterhomonymof) | [tcs:conservedAgainst](#tcsconservedagainst) | [dwc:scientificNameAuthorship](#dwcscientificnameauthorship) | [dwc:namePublishedIn](#dwcnamepublishedin) | [dwc:namePublishedInYear](#dwcnamepublishedinyear) | [dwc:genericName](#dwcgenericname) | [dwc:infragenericEpithet](#dwcinfragenericepithet) | [dwc:specificEpithet](#dwcspecificepithet) | [dwc:infraspecificEpithet](#dwcinfraspecificepithet) | [dwc:cultivarEpithet](#dwccultivarepithet)
 
 **Nomenclatural Type**
 
@@ -571,7 +571,7 @@ The terms 'heterotypic synonym' and 'homotypic synonym' from the nomenclatural c
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td><p>Name for an organism or organisms in a language used for general purposes.</p></td>
+			<td><p>Name for a taxon in a language used for general purposes.</p></td>
 		</tr>
 		<tr>
 			<td>Usage</td>
@@ -2289,13 +2289,13 @@ This is the IRI equivalent of the Darwin Core `nomenclaturalCode`. In the  absen
 
 This is the IRI equivalent of the Darwin Core `nomenclaturalStatus`. In the  absence of a TDWG vocabulary, it is recommended to use a value from the GBIF  Nomenclatural Status Vocabulary  (https://rs.gbif.org/vocabulary/gbif/nomenclatural_status.xml).
 
-### tcs:typification
+### tcs:typificationLiteral
 
 <table style="width:100%;">
 	<tbody>
 		<tr>
 			<td>Identifier</td>
-			<td>http://rs.tdwg.org/tcs/terms/typification</td>
+			<td>http://rs.tdwg.org/tcs/terms/typificationLiteral</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -2314,6 +2314,10 @@ This is the IRI equivalent of the Darwin Core `nomenclaturalStatus`. In the  abs
 			<td><p>Designation of a nomenclatural type for a name</p></td>
 		</tr>
 		<tr>
+			<td>Usage</td>
+			<td><p>The <code>typificationLiteral</code> property takes a literal value.</p></td>
+		</tr>
+		<tr>
 			<td>GitHub issue</td>
 			<td>https://github.com/tdwg/tcs2/issues/223</td>
 		</tr>
@@ -2323,7 +2327,7 @@ This is the IRI equivalent of the Darwin Core `nomenclaturalStatus`. In the  abs
 
 **Comments**
 
-The `typification` property can be used for citation of a type (or types) as written in the publication in which the typified name was published. Alternatively, or in addition, the Nomenclatural Type object can be used for to link a typified name to a type name or type specimen.
+The `typificationLiteral` property can be used for citation of a type (or types) as written in the publication in which the typified name was published. Alternatively, or in addition, the Nomenclatural Type object can be used for to link a typified name to a type name or type specimen.
 
 ### tcs:basionym
 
