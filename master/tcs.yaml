@@ -642,16 +642,17 @@
   repeatable: No
   github: 35
 
-# property: typification
-- localName: typification
+# property: typificationLiteral
+- localName: typificationLiteral
   label: Typification
   definition: >-
     Designation of a nomenclatural type for a name
+  usage: The `typificationLiteral` property takes a literal value.
   notes: >-
-    The `typification` property can be used for citation of a type (or types) as
-    written in the publication in which the typified name was published.
-    Alternatively, or in addition, the Nomenclatural Type object can be used for
-    to link a typified name to a type name or type specimen.
+    The `typificationLiteral` property can be used for citation of a type (or
+    types) as written in the publication in which the typified name was
+    published. Alternatively, or in addition, the Nomenclatural Type object can
+    be used for to link a typified name to a type name or type specimen.
   type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonName
   required: No
