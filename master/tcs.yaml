@@ -171,7 +171,7 @@
 - localName: vernacularName
   label: Vernacular Name
   definition: >-
-    Name for an organism or organisms in a language used for general purposes.
+    Name for a taxon in a language used for general purposes.
   usage: >-
     `vernacularName` is an IRI term; a Taxon Concept can have more than one 
     `vernacularName`.
