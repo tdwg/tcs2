@@ -2,15 +2,17 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix dwc: <http://rs.tdwg.org/dwc/terms/> .
 @prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix skosxl: <http://www.w3.org/2008/05/skos-xl#> .
 
 # Species Hypothesis (SH) from UNITE
 
 <https://doi.plutof.ut.ee/doi/10.15156/BIO/SH1109146.09FU> a tcs:TaxonConcept ;
-    dcterms:identifier "SH1109146.09FU" ;
+    tcs:taxonName [ a skosxl:Label ;
+        skosxl:literalForm "SH1109146.09FU" ] ;
     tcs:accordingTo <https://unite.ut.ee> ;
     tcs:isIncludedIn <https://doi.plutof.ut.ee/doi/10.15156/BIO/TH077737> .
 
-<https://doi.plutof.ut.ee/doi/10.15156/BIO/TH077737> ;
+<https://doi.plutof.ut.ee/doi/10.15156/BIO/TH077737> a tcs:TaxonConcept ;
     tcs:accordingTo <https://unite.ut.ee> ;
     tcs:taxonName <https://www.indexfungorum.org/names/NamesRecord.asp?RecordID=17175> .
 

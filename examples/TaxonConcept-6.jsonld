@@ -1,14 +1,22 @@
 {
-  "@context": "https://raw.githubusercontent.com/tdwg/tcs2/master/examples/context.jsonld",
+  "@context": [
+    "https://raw.githubusercontent.com/tdwg/tcs2/master/examples/context.jsonld",
+    {
+      "skosxl": "http://www.w3.org/2008/05/skos-xl#"
+    }
+  ],
   "@graph": [
     {
       "id": "https://doi.plutof.ut.ee/doi/10.15156/BIO/SH1109146.09FU",
       "type": "TaxonConcept",
-      "dcterms:identifier": "SH1109146.09FU",
-      "accordingTo": { "id": "https://unite.ut.ee" },
+      "taxonName": {
+        "type": "skosxl:Label",
+        "skosxl:literalForm": "SH1109146.09FU"
+      },
+      "accordingTo": "https://unite.ut.ee",
       "isIncludedIn": {
         "id": "https://doi.plutof.ut.ee/doi/10.15156/BIO/TH077737",
-        "accordingTo": { "id": "https://unite.ut.ee" },
+        "accordingTo": "https://unite.ut.ee",
         "taxonName": {
           "id": "https://www.indexfungorum.org/names/NamesRecord.asp?RecordID=17175",
           "type": "TaxonName",

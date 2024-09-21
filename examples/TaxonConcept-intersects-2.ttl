@@ -13,6 +13,7 @@
         [ rdf:value [ a tcs:TaxonConcept ;
                     dcterms:title "Euphrasia gibbsiae sec. Willis 1967" ;
                     tcs:accordingTo <https://www.biodiversitylibrary.org/page/49934392> ;
+                    tcs:taxonName <https://www.ipni.org/n/802545-1> ] ;
             rdfs:comment """p.p. (as to Tasmanian occurrences and f. 
                     subglabrifolia in Victoria)""" ] ,
         [ rdf:value [ a tcs:TaxonConcept ;

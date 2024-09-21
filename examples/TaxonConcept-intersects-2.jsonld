@@ -1,24 +1,24 @@
 {
-  "@context": "https://raw.githubusercontent.com/tdwg/tcs2/taxon-concept-mapping-object/examples/context.jsonld",
+  "@context": "https://raw.githubusercontent.com/tdwg/tcs2/master/examples/context.jsonld",
   "id": "https://id.biodiversity.org.au/instance/apni/545068",
   "type": "TaxonConcept",
-  "accordingTo": { "id": "https://www.jstor.org/stable/23873848" },
-  "taxonName": { "id": "https://www.ipni.org/n/802545-1" },
-  "synonym": { "id": "https://www.ipni.org/n/802619-1" },
+  "accordingTo": "https://www.jstor.org/stable/23873848",
+  "taxonName": "https://www.ipni.org/n/802545-1",
+  "synonym": "https://www.ipni.org/n/802619-1",
   "intersects": [
     {
       "id": "https://id.biodiversity.org.au/instance/apni/713514",
       "type": "TaxonConcept",
       "dcterms:title": "Euphrasia gibbsiae sec. Curtis 1967",
-      "accordingTo": { "id": "https://id.biodiversity.org.au/reference/apni/23028" },
-      "taxonName": { "id": "https://www.ipni.org/n/802545-1" }
+      "accordingTo": "https://id.biodiversity.org.au/reference/apni/23028",
+      "taxonName": "https://www.ipni.org/n/802545-1"
     },
     {
       "rdf:value": {
         "type": "TaxonConcept",
         "dcterms:title": "Euphrasia gibbsiae sec. Willis 1967",
-        "accordingTo": { "id": "https://www.biodiversitylibrary.org/page/49934392" },
-        "taxonName": { "id": "https://www.ipni.org/n/802545-1" }
+        "accordingTo": "https://www.biodiversitylibrary.org/page/49934392",
+        "taxonName": "https://www.ipni.org/n/802545-1"
       },
       "rdfs:comment": "p.p. (as to Tasmanian occurrences and f. subglabrifolia in Victoria)"
     },
@@ -30,7 +30,7 @@
           "type": "dcterms:BibliographicResource",
           "dcterms:bibliographicCitation": "Harris, Alp. Pl. Austral. (1970)"
         },
-        "taxonName": { "id": "https://www.ipni.org/n/802545-1" }
+        "taxonName": "https://www.ipni.org/n/802545-1"
       },
       "rdfs:comment": "p.p. (excl. \"f. comberi\" in Victoria)"
     },
@@ -39,10 +39,10 @@
         "type": "TaxonConcept",
         "dcterms:title": "Euphrasia gibbsiae sec. Harris 1970",
         "accordingTo": {
-          "type": "Euphrasia striata sec. Bentham 1868",
+          "type": "dcterms:BibliographicResource",
           "dcterms:bibliographicCitation": "Bentham, Fl. Austral. (1868)"
         },
-        "taxonName": { "id": "https://www.ipni.org/n/802876-1" }
+        "taxonName": "https://www.ipni.org/n/802876-1"
       },
       "rdfs:comment": "p.p. (as to Stuart 1745, Milligan MEL41451, p.p., Mueller MEL41539)"
     }
