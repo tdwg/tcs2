@@ -1,0 +1,22 @@
+@prefix tcs: <http://rs.tdwg.org/tcs/terms/> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dwc: <http://rs.tdwg.org/dwc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skosxl: <http://www.w3.org/2008/05/skos-xl#> .
+
+<https://avibase.ca/E0E4DFB8> a tcs:TaxonConcept ;
+    tcs:accordingTo <https://avibase.bsc-eoc.org> ;
+    tcs:taxonName: [ a tcs:TaxonName ;
+            tcs:taxonNameString "Acrocephalus sechellensis" ;
+            dwc:scientificNameAuthorship "(Oustalet, J-FÉ 1877)" ;
+            tcs:basionym [ a tcs:TaxonName ;
+                    tcs:taxonNameString "Ellisia sechellensis" ;
+                    dwc:scientificNameAuthorship "Oustalet, J-FÉ 1877" ;
+                    dwc:namePublishedIn "Bull. (Sci.) Soc. Philomath. [Paris] (7), 1 p.103" ;
+                    dwc:namePublishedInYear "1877" ]] ;
+    tcs:vernacularName [ a <http://rs.gbif.org/terms/1.0/VernacularName> ;
+            dwc:vernacularName "Seychelles Warbler" ;
+            dcterms:language "en" ] .
