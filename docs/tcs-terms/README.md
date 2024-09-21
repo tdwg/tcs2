@@ -186,11 +186,12 @@ By contrast, entries in the nomenclature section of treatments (synonyms)  and i
 # Species Hypothesis (SH) from UNITE
 
 <https://doi.plutof.ut.ee/doi/10.15156/BIO/SH1109146.09FU> a tcs:TaxonConcept ;
-    dcterms:identifier "SH1109146.09FU" ;
+    tcs:taxonName [ a skosxl:Label ;
+        skosxl:literalForm "SH1109146.09FU" ] ;
     tcs:accordingTo <https://unite.ut.ee> ;
     tcs:isIncludedIn <https://doi.plutof.ut.ee/doi/10.15156/BIO/TH077737> .
 
-<https://doi.plutof.ut.ee/doi/10.15156/BIO/TH077737> ;
+<https://doi.plutof.ut.ee/doi/10.15156/BIO/TH077737> a tcs:TaxonConcept ;
     tcs:accordingTo <https://unite.ut.ee> ;
     tcs:taxonName <https://www.indexfungorum.org/names/NamesRecord.asp?RecordID=17175> .
 
@@ -787,7 +788,9 @@ The `parent` is another Taxon Concept. This is the parent as indicated in  the `
 <https://www.catalogueoflife.org/data/taxon/6DBT> a tcs:TaxonConcept ;
     dcterms:title "Panthera sec. Catalogue of Life 2024-01-24" ;
     tcs:accordingTo <https://doi.org/10.48580/dfrdl> ;
-    dwc:scientificName "Panthera Oken, 1816" ;
+    tcs:taxonName: [ a tcs:TaxonName ;
+			tcs:taxonNameString: "Panthera" ;
+			dwc:scientificNameAuthorship: "Oken, 1816" ]  ;
     tcs:child <https://www.catalogueoflife.org/data/taxon/4CGXP> ,
             <https://www.catalogueoflife.org/data/taxon/4CGXQ> ,
             <https://www.catalogueoflife.org/data/taxon/4CGXR> ,
@@ -796,22 +799,30 @@ The `parent` is another Taxon Concept. This is the parent as indicated in  the `
 <https://www.catalogueoflife.org/data/taxon/4CGXP> a tcs:TaxonConcept ;
     dcterms:title "Panthera leo sec. Catalogue of Life 2024-01-24" ;
     tcs:accordingTo <https://doi.org/10.48580/dfrdl> ;
-    dwc:scientificName "Panthera leo (Linnaeus, 1758)" .
+    tcs:taxonName: [ a tcs:TaxonName ;
+			tcs:taxonNameString: "Panthera leo" ;
+			dwc:scientificNameAuthorship: "(Linnaeus, 1758)" ] .
 
 <https://www.catalogueoflife.org/data/taxon/4CGXQ> a tcs:TaxonConcept ;
     dcterms:title "Panthera onca sec. Catalogue of Life 2024-01-24" ;
     tcs:accordingTo <https://doi.org/10.48580/dfrdl> ;
-    dwc:scientificName "Panthera onca (Linnaeus, 1758)" .
+    tcs:taxonName: [ a tcs:TaxonName ;
+			tcs:taxonNameString: "Panthera onca" ;
+			dwc:scientificNameAuthorship: "(Linnaeus, 1758)" ] .
 
 <https://www.catalogueoflife.org/data/taxon/4CGXR> a tcs:TaxonConcept ;
     dcterms:title "Panthera pardus sec. Catalogue of Life 2024-01-24" ;
     tcs:accordingTo <https://doi.org/10.48580/dfrdl> ;
-    dwc:scientificName "Panthera pardus (Linnaeus, 1758)" .
+    tcs:taxonName: [ a tcs:TaxonName ;
+			tcs:taxonNameString: "Panthera pardus" ;
+			dwc:scientificNameAuthorship: "(Linnaeus, 1758)" ] .
 
 <https://www.catalogueoflife.org/data/taxon/4CGXS> a tcs:TaxonConcept ;
     dcterms:title "Panthera tigris sec. Catalogue of Life 2024-01-24" ;
     tcs:accordingTo <https://doi.org/10.48580/dfrdl> ;
-    dwc:scientificName "Panthera tigris (Linnaeus, 1758)" .
+    tcs:taxonName: [ a tcs:TaxonName ;
+			tcs:taxonNameString: "Panthera tigris" ;
+			dwc:scientificNameAuthorship: "(Linnaeus, 1758)" ] .
 ```
 
 [&lsqb;TaxonConcept-child-1.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-child-1.ttl)&nbsp;[&lsqb;TaxonConcept-child-1.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-child-1.jsonld)
@@ -1300,13 +1311,13 @@ This relation can also be written as the formula **A >< B**.
     tcs:mappingAccordingTo <https://doi.org/10.3233/SW-160220> ;
     tcs:mappingRelation tcs:partiallyOverlaps ;
     tcs:subjectTaxonConcept [ a tcs:TaxonConcept ;
-        dcterms:title "Andropogon glomeratus sec. BONAP 2014" ;
-        tcs:taxonName <https://www.ipni.org/n/12850-2> ;
-        tcs:accordingTo <http://bonap.net/napa#2014> ] ;
+            dcterms:title "Andropogon glomeratus sec. BONAP 2014" ;
+            tcs:taxonName <https://www.ipni.org/n/12850-2> ;
+            tcs:accordingTo <http://bonap.net/napa#2014> ] ;
     tcs:objectTaxonConcept [ a tcs:TaxonConcept ;
-        dcterms:title "Andropogon glomeratus sec. Weakley 2006" ;
-        tcs:taxonName <https://www.ipni.org/n/12850-2> ;
-        tcs:accordingTo <http://www.herbarium.unc.edu/FloraArchives/WeakleyFlora_2006-Jan.pdf> ] .
+            dcterms:title "Andropogon glomeratus sec. Weakley 2006" ;
+            tcs:taxonName <https://www.ipni.org/n/12850-2> ;
+            tcs:accordingTo <http://www.herbarium.unc.edu/FloraArchives/WeakleyFlora_2006-Jan.pdf> ] .
 ```
 
 [&lsqb;TaxonConceptMapping-partiallyOverlaps-1.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConceptMapping-partiallyOverlaps-1.ttl)&nbsp;[&lsqb;TaxonConceptMapping-partiallyOverlaps-1.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConceptMapping-partiallyOverlaps-1.jsonld)
@@ -1517,6 +1528,7 @@ Quasi-nomenclatural statements like 'pro parte synonym', 'partial synonym' and '
         [ rdf:value [ a tcs:TaxonConcept ;
                     dcterms:title "Euphrasia gibbsiae sec. Willis 1967" ;
                     tcs:accordingTo <https://www.biodiversitylibrary.org/page/49934392> ;
+                    tcs:taxonName <https://www.ipni.org/n/802545-1> ] ;
             rdfs:comment """p.p. (as to Tasmanian occurrences and f. 
                     subglabrifolia in Victoria)""" ] ,
         [ rdf:value [ a tcs:TaxonConcept ;
@@ -1610,13 +1622,15 @@ Quasi-nomenclatural statements like 'pro parte synonym', 'partial synonym' and '
     dcterms:title "Megalorhipida leucodactylus sec. Gielis & Hobern 2023-01-05" ;
     tcs:accordingTo <https://doi.org/10.48580/dfry-3gd#1.1.23.5> ;
     tcs:taxonName [ a tcs:TaxonName ;
-            dwc:scientificName "Megalorhipida leucodactylus (Fabricius, 1794)" ;
+            tcs:taxonNameString "Megalorhipida leucodactylus" ;
+            dwc:scientificNameAuthorship "(Fabricius, 1794)" ;
             tcs:basionym <https://zoobank.org/NomenclaturalActs/39b2f236-3914-4962-9dcc-f594671654bd> ] ;
     tcs:intersects [ a tcs:TaxonConcept ;
             dcterms:title "Pterophorus congrualis sec. Walker 1864" ;
             tcs:accordingTo <https://www.biodiversitylibrary.org/page/38948425> ;
             tcs:taxonName [ a tcs:TaxonName ;
-                    dwc:scientificName "Pterophorus congrualis Walker, 1864" ] ] ,
+                    tcs:taxonNameString "Pterophorus congrualis" ;
+                    dwc:scientificNameAuthorship "Walker, 1864" ] ] ,
         [ a tcs:TaxonConcept ;
             dcterms:title "Pterophorus leucodactylus sec. Gielis & al. 2022" ;
             tcs:accordingTo [ a bibo:Book ;
