@@ -9,24 +9,22 @@
     An identifiable taxonomic position that can be aligned to other such 
     positions through TCS concept mapping relationships.
   usage: >-
-    A `TaxonConcept` MUST have a label and a source. For the source, the
-    `accordingTo` property MUST be used. For the label, one or more of
-    `taxonName`, `dwc:scientificName`and `dcterms:identifier` MUST be used. 
+    A `TaxonConcept` MUST have `taxonName` and `accordingTo` properties. 
   notes: >-
     A taxonomic position is an opinion about the definition of a taxonomic
     group. A Taxon Concept is identifiable, because it combines a label –
-    `taxonName` in TCS – with a source – `accordingTo`. The `accordingTo`
-    property is required. The `taxonName` property is not strictly required,
-    because its role can, in principle, be taken by other properties, e.g.,
-    `dcterms:title` or `dwc:scientificName`, When mentioning a taxon concept,
-    the label and the source are combined, separated by 'sec.' (from,
-    'secundus', meaning 'according to') or 'sensu' (meaning the same). The term
-    `title` has been borrowed from Dublin Core to provide this taxon concept
-    label. Because of the context provided by the source, taxon concepts are in
-    principle also alignable to other Taxon Concepts using TCS concept mapping
-    relation statements. The concept mapping properties in TCS are
+    `taxonName` in TCS – with a source – `accordingTo`. Both the `taxonName` and
+    `accordingTo` properties are required on a `tcs:TaxonConcept`. When
+    mentioning a taxon concept, the label and the source are combined, separated
+    by 'sec.' (from, 'secundus', meaning 'according to') or 'sensu' (meaning the
+    same). The term `dcterms:title` has been borrowed from Dublin Core to provide this
+    taxon concept label. Because of the context provided by the source, taxon
+    concepts are in principle also alignable to other Taxon Concepts using TCS
+    concept mapping statements. The concept mapping properties in TCS are
     `isCongruentWith`, `includes`, `isIncludedIn`, `partiallyOverlaps`,
-    `isDisjointFrom` and `intersects`.
+    `isDisjointFrom` and `intersects`. These properties can be used directly on
+    a `TaxonConcept` object or as the value of the `tcs:mappingRelation`
+    property in a `tcs:TaxonConceptMapping` object.
 
 
     The TCS Taxon Concept is applied more broadly than the term is used in
@@ -118,7 +116,7 @@
     scientific (or scientific-y) names only.
   type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonConcept
-  required: No
+  required: Yes
   repeatable: No
   github: 2
 

@@ -85,16 +85,18 @@ Ontologies can be found back in TCS 2.
 
 ## Changes
  
-The most important change is that while in TCS 1 the `Name` element of the Taxon
-Concept is required and the `AccordingTo` element is not, in TCS 2 it is the
-`accordingTo` property that is required. Every TCS 2 Taxon Concept object has to
-have a source, or `accordingTo`, which is a publication or other other form of
-communication where a taxon is defined in a certain way. This means that every
-Taxon Concept is traceable to a source and identifiable. With regards to the
-Name, in TCS 1 a `Name` can either be a text node, so a string, or a reference
-(`ref`) to a `TaxonName` element with an `id` attribute. This is completely
-analogous to the use of the Darwin Core `scientificName` and the TCS
-`taxonName`, respectively, in TCS 2.
+The most important change is that while in TCS 1 a `Name` can either be a text
+node, so a string, or a reference (`ref`) to a `TaxonName` element with an `id`
+attribute, and the `AccordingTo` element is not, in TCS 2 both `taxonName` and
+`accordingTo` are required and both properties are IRI or object properties.
+Every TCS 2 Taxon Concept object has to have a source, or `accordingTo`, which
+is a publication or other other form of communication where a taxon is defined
+in a certain way. This means that every Taxon Concept is traceable to a source
+and identifiable. Every TaxonConcept also must have a label and, while there are
+alternative properties, like `dcterms:title` and `dwc:scientificName`, for
+providing labels we think that for interoperability of TCS data sets it is
+important that the label is always provided with the same property. Therefore,
+the `taxonName` property is also required.
 
 The most important structural change we made was dismantling the Taxon
 Relationship object that both TCS 1 and the Taxon Concept Ontology have. We want

@@ -67,7 +67,7 @@ Taxon Concept Standard Term List. Biodiversity Information Standards (TDWG).
 		</tr>
 		<tr>
 			<td>Usage</td>
-			<td><p>A <code>TaxonConcept</code> MUST have a label and a source. For the source, the <code>accordingTo</code> property MUST be used. For the label, one or more of <code>taxonName</code>, <code>dwc:scientificName</code>and <code>dcterms:identifier</code> MUST be used. </p></td>
+			<td><p>A <code>TaxonConcept</code> MUST have <code>taxonName</code> and <code>accordingTo</code> properties. </p></td>
 		</tr>
 		<tr>
 			<td>GitHub issue</td>
@@ -79,7 +79,7 @@ Taxon Concept Standard Term List. Biodiversity Information Standards (TDWG).
 
 **Comments**
 
-A taxonomic position is an opinion about the definition of a taxonomic group. A Taxon Concept is identifiable, because it combines a label – `taxonName` in TCS – with a source – `accordingTo`. The `accordingTo` property is required. The `taxonName` property is not strictly required, because its role can, in principle, be taken by other properties, e.g., `dcterms:title` or `dwc:scientificName`, When mentioning a taxon concept, the label and the source are combined, separated by 'sec.' (from, 'secundus', meaning 'according to') or 'sensu' (meaning the same). The term `title` has been borrowed from Dublin Core to provide this taxon concept label. Because of the context provided by the source, taxon concepts are in principle also alignable to other Taxon Concepts using TCS concept mapping relation statements. The concept mapping properties in TCS are `isCongruentWith`, `includes`, `isIncludedIn`, `partiallyOverlaps`, `isDisjointFrom` and `intersects`.
+A taxonomic position is an opinion about the definition of a taxonomic group. A Taxon Concept is identifiable, because it combines a label – `taxonName` in TCS – with a source – `accordingTo`. Both the `taxonName` and `accordingTo` properties are required on a `tcs:TaxonConcept`. When mentioning a taxon concept, the label and the source are combined, separated by 'sec.' (from, 'secundus', meaning 'according to') or 'sensu' (meaning the same). The term `dcterms:title` has been borrowed from Dublin Core to provide this taxon concept label. Because of the context provided by the source, taxon concepts are in principle also alignable to other Taxon Concepts using TCS concept mapping statements. The concept mapping properties in TCS are `isCongruentWith`, `includes`, `isIncludedIn`, `partiallyOverlaps`, `isDisjointFrom` and `intersects`. These properties can be used directly on a `TaxonConcept` object or as the value of the `tcs:mappingRelation` property in a `tcs:TaxonConceptMapping` object.
 
 The TCS Taxon Concept is applied more broadly than the term is used in science (e.g. Franz & Peet 2009 [\[franz_perspectives_2009\]](../bibliography/#franz_perspectives_2009)). On the one hand, things that are not generally considered to be biological taxa, e.g. hybrids and cultivars, can be casted as TCS Taxon Concepts. Also Operational Taxonomic Units (OTUs) [\[sokal_principles_1963\]](../bibliography/#sokal_principles_1963) can be exchanged as Taxon Concepts, if there is a reason to do so, e.g. if one wants to align them with other Taxon Concepts later. On the other hand, entries from treatments that are considered to cite concepts from other treatments can be formulated as Taxon Concepts. Every taxon concept from a treatment that is likely to be referenced as the source of taxonomic context, for example a field guide for a determination of a specimen or a national census for an ecological study, can – and it would be very nice if they would – be stated as a Taxon Concept, so they can be aligned with other Taxon Concepts that may provide more or different taxonomic context.
 
@@ -365,7 +365,7 @@ _:b1 a foaf:Person ;
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>required:</b> No — <b>repeatable:</b> No</td>
+			<td><b>required:</b> Yes — <b>repeatable:</b> No</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
