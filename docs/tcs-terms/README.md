@@ -95,7 +95,7 @@ By contrast, entries in the nomenclature section of treatments ('TaxonomicNameUs
     tcs:accordingTo <https://www.tropicos.org/reference/9020903> 
     tcs:taxonName <https://www.tropicos.org/name/35121475> .
 
-<https://www.tropicos.org/name/35121475> a ;
+<https://www.tropicos.org/name/35121475> a tcs:TaxonName ;
     tcs:taxonNameString "Dicranoloma blumei" ;
     dwc:scientificNameAuthorship "(Nees) Renauld" .
 
