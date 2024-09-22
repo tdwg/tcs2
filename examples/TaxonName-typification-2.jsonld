@@ -1,0 +1,71 @@
+{
+  "@context": [
+    "https://raw.githubusercontent.com/tdwg/tcs2/master/examples/context.jsonld",
+    {
+      "typification": { "@reverse": "tcs:typifiedName", "@container": "@set" }
+    }
+  ],
+  "id": "https://tropicos.org/name/35121972",
+  "type": "TaxonName",
+  "taxonNameString": "Dicranum blumei",
+  "dwc:scientificName": "Dicranum blumei Nees",
+  "dwc:scientificNameAuthorship": "Nees",
+  "dwc:namePublishedIn": "Nova Acta Physico-medica Academiae Caesareae Leopoldino-Carolinae Naturae Curiosorum Exhibentia Ephemerides sive Observationes Historias et Experimenta 11(1) tcs: 131. 15 f. 1. 1823. (Nova Acta Phys.-Med. Acad. Caes. Leop.-Carol. Nat. Cur.)",
+  "nomenclaturalStatus": "legitimate",
+  "typification": [
+    {
+      "type": "NomenclaturalType",
+      "typeOfType": "holotype",
+      "typeSpecimen": {
+        "type": "dwc:MaterialCitation",
+        "dwc:country": "Indonesia",
+        "dwc:island": "Java",
+        "dwc:verbatimLocality": "Java in montibus excelsis partim ignivomis Salak et Gédé",
+        "dwc:recordedBy": "C. Blume",
+        "dwc:recordNumber": "s.n.",
+        "dwc:institutionCode": "LE",
+        "dwc:disposition": "not located"
+      }
+    },
+    {
+      "type": "NomenclaturalType",
+      "typeOfType": "lectotype",
+      "typeSpecimen": {
+        "type": "dwc:MaterialCitation",
+        "dwc:country": "Indonesia",
+        "dwc:island": "Java",
+        "dwc:verbatimLocality": "Java in montibus excelsis partim ignivomis Salak et Gédé",
+        "dwc:recordedBy": "C. Blume",
+        "dwc:recordNumber": "s.n.",
+        "dwc:institutionCode": "JE"
+      }
+    },
+    {
+      "id": "_:b124",
+      "type": "NomenclaturalType",
+      "typeOfType": "isotype",
+      "typeSpecimen": {
+        "type": "dwc:MaterialCitation",
+        "dwc:country": "Indonesia",
+        "dwc:island": "Java",
+        "dwc:verbatimLocality": "Java in montibus excelsis partim ignivomis Salak et Gédé",
+        "dwc:recordedBy": "C. Blume",
+        "dwc:recordNumber": "s.n.",
+        "dwc:institutionCode": "L"
+      }
+    },
+    {
+      "type": "NomenclaturalType",
+      "typeOfType": "isotype",
+      "typeSpecimen": {
+        "type": "dwc:MaterialCitation",
+        "dwc:country": "Indonesia",
+        "dwc:island": "Java",
+        "dwc:verbatimLocality": "Java in montibus excelsis partim ignivomis Salak et Gédé",
+        "dwc:recordedBy": "C. Blume",
+        "dwc:recordNumber": "s.n.",
+        "dwc:institutionCode": "NY"
+      }
+    }
+  ]
+}

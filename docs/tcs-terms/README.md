@@ -37,7 +37,7 @@ Taxon Concept Standard Term List. Biodiversity Information Standards (TDWG).
 
 **Taxon Name**
 
-[tcs:TaxonName](#tcstaxonname) | [tcs:taxonNameString](#tcstaxonnamestring) | [tcs:namePublishedIn](#tcsnamepublishedin) | [tcs:microreference](#tcsmicroreference) | [tcs:nomenclaturalCode](#tcsnomenclaturalcode) | [tcs:nomenclaturalStatus](#tcsnomenclaturalstatus) | [tcs:typificationLiteral](#tcstypificationliteral) | [tcs:basionym](#tcsbasionym) | [tcs:replacedName](#tcsreplacedname) | [tcs:spellingCorrectionOf](#tcsspellingcorrectionof) | [tcs:laterHomonymOf](#tcslaterhomonymof) | [tcs:conservedAgainst](#tcsconservedagainst) | [dwc:scientificNameAuthorship](#dwcscientificnameauthorship) | [dwc:namePublishedIn](#dwcnamepublishedin) | [dwc:namePublishedInYear](#dwcnamepublishedinyear) | [dwc:genericName](#dwcgenericname) | [dwc:infragenericEpithet](#dwcinfragenericepithet) | [dwc:specificEpithet](#dwcspecificepithet) | [dwc:infraspecificEpithet](#dwcinfraspecificepithet) | [dwc:cultivarEpithet](#dwccultivarepithet)
+[tcs:TaxonName](#tcstaxonname) | [tcs:taxonNameString](#tcstaxonnamestring) | [tcs:namePublishedIn](#tcsnamepublishedin) | [tcs:microreference](#tcsmicroreference) | [tcs:nomenclaturalCode](#tcsnomenclaturalcode) | [tcs:nomenclaturalStatus](#tcsnomenclaturalstatus) | [tcs:typification](#tcstypification) | [tcs:typificationLiteral](#tcstypificationliteral) | [tcs:basionym](#tcsbasionym) | [tcs:replacedName](#tcsreplacedname) | [tcs:spellingCorrectionOf](#tcsspellingcorrectionof) | [tcs:laterHomonymOf](#tcslaterhomonymof) | [tcs:conservedAgainst](#tcsconservedagainst) | [dwc:scientificNameAuthorship](#dwcscientificnameauthorship) | [dwc:namePublishedIn](#dwcnamepublishedin) | [dwc:namePublishedInYear](#dwcnamepublishedinyear) | [dwc:genericName](#dwcgenericname) | [dwc:infragenericEpithet](#dwcinfragenericepithet) | [dwc:specificEpithet](#dwcspecificepithet) | [dwc:infraspecificEpithet](#dwcinfraspecificepithet) | [dwc:cultivarEpithet](#dwccultivarepithet)
 
 **Nomenclatural Type**
 
@@ -2285,6 +2285,157 @@ This is the IRI equivalent of the Darwin Core `nomenclaturalCode`. In the  absen
 
 This is the IRI equivalent of the Darwin Core `nomenclaturalStatus`. In the  absence of a TDWG vocabulary, it is recommended to use a value from the GBIF  Nomenclatural Status Vocabulary  (https://rs.gbif.org/vocabulary/gbif/nomenclatural_status.xml).
 
+### tcs:typification
+
+<table style="width:100%;">
+	<tbody>
+		<tr>
+			<td>Identifier</td>
+			<td>http://rs.tdwg.org/tcs/terms/typification</td>
+		</tr>
+		<tr>
+			<td>Type</td>
+			<td>http://www.w3.org/1999/02/22-rdf-syntax-ns#Property</td>
+		</tr>
+		<tr>
+			<td>Label</td>
+			<td>Typification</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td><b>required:</b> No — <b>repeatable:</b> Yes</td>
+		</tr>
+		<tr>
+			<td>Definition</td>
+			<td><p>Designation of a nomenclatural type for a name</p></td>
+		</tr>
+		<tr>
+			<td>Usage</td>
+			<td><p>The <code>typification</code> property takes a <code>tcs:NomenclaturalType</code> or array of <code>tcs:NomenclaturalType</code>s.</p></td>
+		</tr>
+		<tr>
+			<td>GitHub issue</td>
+			<td>https://github.com/tdwg/tcs2/issues/238</td>
+		</tr>
+	</tbody>
+</table>
+
+
+**Comments**
+
+`tcs:typification` is the inverse of `tcs:typifiedName`.
+
+
+**Examples**
+
+
+```turtle
+<https://ipni.org/n/105731-1> a tcs:TaxonName ;
+    tcs:taxonNameString "Begonia seychellensis" ;
+    dwc:scientificNameAuthorship "Hemsl." ;
+    dwc:namePublishedIn "J. Bot. 54(Suppl. 2): 15 (1916)" ;
+    tcs:typification [ a tcs:NomenclaturalType ;
+            tcs:typifiedName <https://ipni.org/n/105731-1> ;
+            tcs:typeSpecimen [ a dwc:MaterialCitation ;
+                    dwc:country "Seychelles" ;
+                    dwc:island "Mahé" ;
+                    dwc:recordedBy "Horne" ;
+                    dwc:recordNumber "s.n." ;
+                    dwc:institutionCode "G" ] ;
+            tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isolectotype> ] ,
+        [ a tcs:NomenclaturalType ;
+            tcs:typifiedName <https://ipni.org/n/105731-1> ;
+            tcs:typeSpecimen [ a dwc:MaterialCitation ;
+                    dwc:country "Seychelles" ;
+                    dwc:island "Mahé" ;
+                    dwc:recordedBy "Horne" ;
+                    dwc:recordNumber "245" ;
+                    dwc:institutionCode "K" ] ;
+            tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/lectotype> ]  ,
+        [ a tcs:NomenclaturalType ;
+            tcs:typifiedName <https://ipni.org/n/105731-1> ;
+            tcs:typeSpecimen [ a dwc:MaterialCitation ;
+                    dwc:country "Seychelles" ;
+                    dwc:island "Mahé" ;
+                    dwc:recordedBy "Gardiner" ;
+                    dwc:recordNumber "s.n." ;
+                    dwc:institutionCode "K" ] ;
+            tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/syntype> ]  ,
+        [ a tcs:NomenclaturalType ;
+            tcs:typifiedName <https://ipni.org/n/105731-1> ;
+            tcs:typeSpecimen [ a dwc:MaterialCitation ;
+                    dwc:country "Seychelles" ;
+                    dwc:island "Silhouette" ;
+                    dwc:recordedBy "Gardiner" ;
+                    dwc:recordNumber "111" ;
+                    dwc:institutionCode "K" ] ;
+            tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/syntype> ]  ,
+        [ a tcs:NomenclaturalType ;
+            tcs:typifiedName <https://ipni.org/n/105731-1> ;
+            tcs:typeSpecimen [ a dwc:MaterialCitation ;
+                    dwc:country "Seychelles" ;
+                    dwc:island "Mahé and Silhouette" ;
+                    dwc:recordedBy "Neville" ;
+                    dwc:recordNumber "s.n." ;
+                    dwc:institutionCode "K" ] ;
+            tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/syntype> ]  .
+```
+
+[&lsqb;TaxonName-typification-1.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonName-typification-1.ttl)&nbsp;[&lsqb;TaxonName-typification-1.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonName-typification-1.jsonld)
+
+
+```turtle
+<https://tropicos.org/name/35121972> a tcs:TaxonName ;
+    dwc:scientificName "Dicranum blumei Nees" ;
+    tcs:taxonNameString "Dicranum blumei" ;
+    dwc:scientificNameAuthorship "Nees" ;
+    dwc:namePublishedIn "Nova Acta Physico-medica Academiae Caesareae Leopoldino-Carolinae Naturae Curiosorum Exhibentia Ephemerides sive Observationes Historias et Experimenta 11(1) tcs: 131. 15 f. 1. 1823. (Nova Acta Phys.-Med. Acad. Caes. Leop.-Carol. Nat. Cur.)" ;
+    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> ;
+    tcs:typification [ a tcs:NomenclaturalType ;
+            tcs:typifiedName <https://tropicos.org/name/35121972> ;
+            tcs:typeSpecimen [ a dwc:MaterialCitation ;
+                    dwc:country "Indonesia" ;
+                    dwc:island "Java" ;
+                    dwc:verbatimLocality "Java in montibus excelsis partim ignivomis Salak et Gédé" ;
+                    dwc:recordedBy "C. Blume" ;
+                    dwc:recordNumber "s.n." ;
+                    dwc:institutionCode "LE" ;
+                    dwc:disposition "not located" ] ;
+            tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/holotype> ] ,
+        [ a tcs:NomenclaturalType ;
+            tcs:typifiedName <https://tropicos.org/name/35121972> ;
+            tcs:typeSpecimen [ a dwc:MaterialCitation ;
+                    dwc:country "Indonesia" ;
+                    dwc:island "Java" ;
+                    dwc:verbatimLocality "Java in montibus excelsis partim ignivomis Salak et Gédé" ;
+                    dwc:recordedBy "C. Blume" ;
+                    dwc:recordNumber "s.n." ;
+                    dwc:institutionCode "JE" ] ;
+            tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/lectotype> ] ,
+        [ a tcs:NomenclaturalType ;
+            tcs:typifiedName <https://tropicos.org/name/35121972> ;
+            tcs:typeSpecimen [ a dwc:MaterialCitation ;
+                    dwc:country "Indonesia" ;
+                    dwc:island "Java" ;
+                    dwc:verbatimLocality "Java in montibus excelsis partim ignivomis Salak et Gédé" ;
+                    dwc:recordedBy "C. Blume" ;
+                    dwc:recordNumber "s.n." ;
+                    dwc:institutionCode "L" ] ;
+            tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> ] ,
+        [ a tcs:NomenclaturalType ;
+            tcs:typifiedName <https://tropicos.org/name/35121972> ;
+            tcs:typeSpecimen [ a dwc:MaterialCitation ;
+                    dwc:country "Indonesia" ;
+                    dwc:island "Java" ;
+                    dwc:verbatimLocality "Java in montibus excelsis partim ignivomis Salak et Gédé" ;
+                    dwc:recordedBy "C. Blume" ;
+                    dwc:recordNumber "s.n." ;
+                    dwc:institutionCode "NY" ] ;
+            tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> ] .
+```
+
+[&lsqb;TaxonName-typification-2.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonName-typification-2.ttl)&nbsp;[&lsqb;TaxonName-typification-2.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonName-typification-2.jsonld)
+
 ### tcs:typificationLiteral
 
 <table style="width:100%;">
@@ -2323,7 +2474,7 @@ This is the IRI equivalent of the Darwin Core `nomenclaturalStatus`. In the  abs
 
 **Comments**
 
-The `typificationLiteral` property can be used for citation of a type (or types) as written in the publication in which the typified name was published. Alternatively, or in addition, the Nomenclatural Type object can be used for to link a typified name to a type name or type specimen.
+The `typificationLiteral` property can be used for citation of a type (or types) as written in the publication in which the typified name was published. 
 
 ### tcs:basionym
 
