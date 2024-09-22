@@ -139,11 +139,11 @@
     nomenclatural codes ('subjective synonym' and 'objective synonym',
     respectively, in the Zoological Code) are, in the context of Taxon Concepts
     and Taxon Names, best understood as synonyms (relations between Taxon
-    Concepts and Taxon Names) and combinations (relations between Taxon Names,
-    note that the term 'combination' is used here in a broader sense that what
-    the term actually means), respectively. In TCS, combinations are dealt with
-    using properties of the `TaxonName` class, *e.g.* `basionym` and
-    `replacedName`. This has the advantage that people do not need to separate
+    Concepts and Taxon Names) and combinations (relations between Taxon Names),
+    respectively. In TCS, combinations are dealt with using properties of the
+    `TaxonName` class, *e.g.* `basionym` and `replacedName` (note that
+    'combination' is used here in a broader sense that what the term actually
+    means). This has the advantage that people do not need to separate
     heterotypic and homotypic synonyms, or generally deal with nomenclature,
     which adds a degree of complexity that not all systems need or want.
     Avoiding terms that are too strictly defined in the nomenclatural codes also
