@@ -15,8 +15,8 @@ predominant format for data exchange at the time. A few years after TCS was
 ratified, another format, Comma-delimited Values (CSV), became people's
 preferred format for shipping around large amounts of data, at least in the
 Biodiversity Data domain. Another issue people have with TCS is that it can only
-be used for complete datasets and not for individual Taxon Concepts or Taxon
-Names. 
+be used for complete data sets and not for individual Taxon Concepts or Taxon
+Names.
 
 Since Darwin Core was ratified in 2009, the Darwin Core Taxon class has been the
 main vehicle for shipping around taxonomic data. Darwin Core, because it is a
@@ -118,6 +118,32 @@ can choose whether to connect them to the subject Taxon Concept, or use them in
 a utility object outside TCS, for example the Darwin Core Resource Relationship
 class. The shape of the data may dictate the use of a relationship object, but
 the terms have the same meaning, regardless of the syntax.
+
+The one thing that really needed to be fixed in TCS was the 'has synonym'
+relationship type. The documentation of the term in TCS 1 already identifies
+'has synonym' as a mixed concept:
+
+> The target concept is considered a synonym of the current concept. This is an
+> ambiguous relationship. It can mean: 1) a nomenclatural relationship where all
+> that is implied is that the type of the target concept is included in the
+> current circumscription. This is more precisely expressed as a
+> SpecimenCircumscription (for heterotypic synonyms) or as TaxonName basionym
+> relationships (for homotypic synonyms) 2) a concept relationship where some
+> part of (or all of) the target concept is included in the current
+> circumscription. This is more precisely expressed using the set relationships
+> such as 'is congruent to'. This is intended for handling legacy data.
+
+To resolve this issue, we have split the term into `synonym` (for meaning 1) and
+`intersects` (for meaning 2). `intersects` is a mapping property that is the
+union of the `isCongruentWith`, `includes`, `isIncludedIn` and
+`partiallyOverlaps` (and the opposite of `isDisjointFrom`) mapping properties
+and thus can be used when the exact nature of the relationship is not known, or
+not indicated. We have found that this relation is not only useful for dealing
+with references to other treatments in the nomenclature section of a treatment
+(what the TCS 1 definition calls 'legacy data'), but for any references to other
+treatments, *e.g.* the references in a Catalogue of Life entry (see the
+[_Megalorhipida leucodactylus_
+example](https://github.com/tdwg/tcs2/blob/master/examples/megalorhipida-leucodactylus-sec-gielis-et-hobern-2020.ttl)).
 
 We currently recognise the following relations between the major entities in
 TCS:
