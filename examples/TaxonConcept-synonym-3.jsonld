@@ -7,57 +7,69 @@
   "taxonName": {
     "type": "TaxonName",
     "taxonNameString": "Megalorhipida leucodactylus",
-    "dwc:scientificName": "Megalorhipida leucodactylus (Fabricius, 1794)",
+    "dwc:scientificNameAuthorship": "(Fabricius, 1794)",
     "basionym": {
       "type": "TaxonName",
       "id": { "id": "https://zoobank.org/NomenclaturalActs/39b2f236-3914-4962-9dcc-f594671654bd" },
-      "dwc:scientificName": "Pterophorus leucodactylus Fabricius, 1794"
+      "taxonNameString": "Pterophorus leucodactylus Fabricius, 1794",
+			"dwc:scientificNameAuthorship": ""
     }
   },
   "synonym": [
     {
       "type": "TaxonName",
-      "dwc:scientificName": "Aciptilia hawaiiensis Butler, 1881"
+      "taxonNameString": "Aciptilia hawaiiensis",
+			"dwc:scientificNameAuthorship": "Butler, 1881"
     }, 
     {
       "type": "TaxonName",
-      "dwc:scientificName": "Megalorhipida palaestinensis Amsel, 1935"
+      "taxonNameString": "Megalorhipida palaestinensis",
+			"dwc:scientificNameAuthorship": "Amsel, 1935"
     },
     {
       "type": "TaxonName",
-      "dwc:scientificName": "Pterophorus congrualis Walker, 1864"
+      "taxonNameString": "Pterophorus congrualis",
+			"dwc:scientificNameAuthorship": "Walker, 1864"
     },
     {
       "type": "TaxonName",
-      "dwc:scientificName": "Pterophorus defectalis Walker, 1864"
+      "taxonNameString": "Pterophorus defectalis",
+			"dwc:scientificNameAuthorship": "Walker, 1864"
     },
     {
       "type": "TaxonName",
-      "dwc:scientificName": "Trichoptilus adelphodes Meyrick, 1887"
+      "taxonNameString": "Trichoptilus adelphodes",
+			"dwc:scientificNameAuthorship": "Meyrick, 1887"
     },
     {
       "type": "TaxonName",
-      "dwc:scientificName": "Trichoptilus centetes Meyrick, 1886"
+      "taxonNameString": "Trichoptilus centetes",
+			"dwc:scientificNameAuthorship": "Meyrick, 1886"
     },
     {
       "type": "TaxonName",
-      "dwc:scientificName": "Trichoptilus compsochares Meyrick, 1886"
+      "taxonNameString": "Trichoptilus compsochares",
+			"dwc:scientificNameAuthorship": "Meyrick, 1886"
     },
     {
       "type": "TaxonName",
-      "dwc:scientificName": "Trichoptilus derelictus Meyrick, 1926"
+      "taxonNameString": "Trichoptilus derelictus",
+			"dwc:scientificNameAuthorship": "Meyrick, 1926"
     },
     {
       "type": "TaxonName",
-      "dwc:scientificName": "Trichoptilus ochrodactylus Fish, 1881"
+      "taxonNameString": "Trichoptilus ochrodactylus",
+			"dwc:scientificNameAuthorship": "Fish, 1881"
     },
     {
       "type": "TaxonName",
-      "dwc:scientificName": "Trichoptilus ralumensis Pagenstecher, 1900"
+      "taxonNameString": "Trichoptilus ralumensis",
+			"dwc:scientificNameAuthorship": "Pagenstecher, 1900"
     },
     {
       "type": "TaxonName",
-      "dwc:scientificName": "Pterophorus oxydactylus Walker, 1864"
+      "taxonNameString": "Pterophorus oxydactylus",
+			"dwc:scientificNameAuthorship": "Walker, 1864"
     }
   ],
   "taxonomicRank": "species",
