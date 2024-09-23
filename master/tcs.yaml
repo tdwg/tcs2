@@ -229,6 +229,8 @@
   repeatable: No
   required: No
   type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+  examples:
+    - TaxonConcept-parent-1
   github: 9
 
 # property: child
