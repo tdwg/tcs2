@@ -536,35 +536,47 @@ The terms 'heterotypic synonym' and 'homotypic synonym' from the nomenclatural c
     tcs:accordingTo <https://doi.org/10.48580/dfry-3gd#1.1.23.5> ;
     tcs:taxonName [ a tcs:TaxonName ;
             tcs:taxonNameString "Megalorhipida leucodactylus" ;
-            dwc:scientificName "Megalorhipida leucodactylus (Fabricius, 1794)" ;
+			dwc:scientificNameAuthorship: "(Fabricius, 1794)"  ;
             tcs:basionym <https://zoobank.org/NomenclaturalActs/39b2f236-3914-4962-9dcc-f594671654bd> ] ;
     tcs:synonym [ a tcs:TaxonName ;
-            dwc:scientificName "Aciptilia hawaiiensis Butler, 1881" ] , 
+            tcs:taxonNameString "Aciptilia hawaiiensis" ;
+			dwc:scientificNameAuthorship: "Butler, 1881"  ] , 
         [ a tcs:TaxonName ;
-            dwc:scientificName "Megalorhipida palaestinensis Amsel, 1935" ] ,
+            tcs:taxonNameString "Megalorhipida palaestinensis" ;
+			dwc:scientificNameAuthorship: "Amsel, 1935"  ] ,
         [ a tcs:TaxonName ;
-            dwc:scientificName "Pterophorus congrualis Walker, 1864" ] ,
+            tcs:taxonNameString "Pterophorus congrualis" ;
+			dwc:scientificNameAuthorship: "Walker, 1864"  ] ,
         [ a tcs:TaxonName ;
-            dwc:scientificName "Pterophorus defectalis Walker, 1864" ] ,
+            tcs:taxonNameString "Pterophorus defectalis" ;
+			dwc:scientificNameAuthorship: "Walker, 1864"  ] ,
         [ a tcs:TaxonName ;
-            dwc:scientificName "Trichoptilus adelphodes Meyrick, 1887" ] ,
+            tcs:taxonNameString "Trichoptilus adelphodes" ;
+			dwc:scientificNameAuthorship: "Meyrick, 1887"  ] ,
         [ a tcs:TaxonName ;
-            dwc:scientificName "Trichoptilus centetes Meyrick, 1886" ] ,
+            tcs:taxonNameString "Trichoptilus centetes" ;
+			dwc:scientificNameAuthorship: "Meyrick, 1886"  ] ,
         [ a tcs:TaxonName ;
-            dwc:scientificName "Trichoptilus compsochares Meyrick, 1886" ] ,
+            tcs:taxonNameString "Trichoptilus compsochares"  ;
+			dwc:scientificNameAuthorship: "Meyrick, 1886"  ] ,
         [ a tcs:TaxonName ;
-            dwc:scientificName "Trichoptilus derelictus Meyrick, 1926" ] ,
+            tcs:taxonNameString "Trichoptilus derelictus" ;
+			dwc:scientificNameAuthorship: "Meyrick, 1926"  ] ,
         [ a tcs:TaxonName ;
-            dwc:scientificName "Trichoptilus ochrodactylus Fish, 1881" ] ,
+            tcs:taxonNameString "Trichoptilus ochrodactylus" ;
+			dwc:scientificNameAuthorship: "Fish, 1881"  ] ,
         [ a tcs:TaxonName ;
-            dwc:scientificName "Trichoptilus ralumensis Pagenstecher, 1900" ] ,
+            tcs:taxonNameString "Trichoptilus ralumensis" ;
+			dwc:scientificNameAuthorship: "Pagenstecher, 1900"  ] ,
         [ a tcs:TaxonName ;
-            dwc:scientificName "Pterophorus oxydactylus Walker, 1864" ] ;
+            tcs:taxonNameString "Pterophorus oxydactylus" ;
+			dwc:scientificNameAuthorship: "Walker, 1864"  ] ;
     tcs:taxonomicRank <http://rs.gbif.org/vocabulary/gbif/rank/species> ;
     tcs:parent <https://www.catalogueoflife.org/data/taxon/62ZBY> .
 
 <https://zoobank.org/NomenclaturalActs/39b2f236-3914-4962-9dcc-f594671654bd> a tcs:TaxonName ;
-    dwc:scientificName "Pterophorus leucodactylus Fabricius, 1794" .
+    tcs:taxonNameString "Pterophorus leucodactylus" ;
+	dwc:scientificNameAuthorship: "Fabricius, 1794"  .
 ```
 
 [&lsqb;TaxonConcept-synonym-3.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-synonym-3.ttl)&nbsp;[&lsqb;TaxonConcept-synonym-3.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-synonym-3.jsonld)
@@ -722,7 +734,9 @@ The `vernacularName` property can be used when a vernacular name is used alongsi
 
 **Comments**
 
-The rank is an attribute of elements in a classification and implementations can decide for themselves if it makes more sense to use `taxonomicRank` on a Taxon Concept object or a Taxon Name object, or both. This property takes an object or IRI and it is recommended to use a value from an existing controlled vocabulary. While there is no TDWG vocabulary yet, the GBIF Taxonomic Rank Vocabulary (https://rs.gbif.org/vocabulary/gbif/rank.xml) is recommended.
+This property takes an object or IRI and it is recommended to use a value from an existing controlled vocabulary. While there is no TDWG vocabulary yet, the GBIF Taxonomic Rank Vocabulary (https://rs.gbif.org/vocabulary/gbif/rank.xml) is recommended.
+
+A `TaxonName` takes its `taxonomicRank` from the `taxonConcept` it is applied to, so this property can also be used on a (stand-alone) `TaxonName` object.
 
 ### tcs:parent
 

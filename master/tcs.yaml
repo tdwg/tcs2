@@ -197,13 +197,15 @@
     `taxonomicRank` is an IRI property; a Taxon Concept or Taxon Name can have
     only one `taxonomicRank`.
   notes: >-
-    The rank is an attribute of elements in a classification and implementations
-    can decide for themselves if it makes more sense to use `taxonomicRank` on a
-    Taxon Concept object or a Taxon Name object, or both. This property takes an
-    object or IRI and it is recommended to use a value from an existing
-    controlled vocabulary. While there is no TDWG vocabulary yet, the GBIF
-    Taxonomic Rank Vocabulary (https://rs.gbif.org/vocabulary/gbif/rank.xml) is
-    recommended.
+    This property takes an object or IRI and it is recommended to use a value
+    from an existing controlled vocabulary. While there is no TDWG vocabulary
+    yet, the GBIF Taxonomic Rank Vocabulary
+    (https://rs.gbif.org/vocabulary/gbif/rank.xml) is recommended.
+
+
+    A `TaxonName` takes its `taxonomicRank` from the `taxonConcept` it is
+    applied to, so this property can also be used on a (stand-alone) `TaxonName`
+    object.
   type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonConcept
   required: No
