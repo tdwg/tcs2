@@ -38,7 +38,8 @@
         "dwc:recordedBy": "C. Blume",
         "dwc:recordNumber": "s.n.",
         "dwc:institutionCode": "JE"
-      }
+      },
+      "typePublishedIn": "https://www.tropicos.org/reference/9020903"
     },
     {
       "id": "_:b124",

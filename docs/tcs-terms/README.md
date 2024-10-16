@@ -2474,7 +2474,8 @@ This is the IRI equivalent of the Darwin Core `nomenclaturalStatus`. In the  abs
                     dwc:recordedBy "C. Blume" ;
                     dwc:recordNumber "s.n." ;
                     dwc:institutionCode "JE" ] ;
-            tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/lectotype> ] ,
+            tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/lectotype> ;
+            tcs:typePublishedIn <https://www.tropicos.org/reference/9020903> ] ,
         [ a tcs:NomenclaturalType ;
             tcs:typifiedName <https://tropicos.org/name/35121972> ;
             tcs:typeSpecimen [ a dwc:MaterialCitation ;
