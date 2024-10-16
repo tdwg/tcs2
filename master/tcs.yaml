@@ -737,15 +737,7 @@
     Name for which this name is a correction
   usage: >-
     `spellingCorrectionOf` is another Taxon Name object
-  notes: >-
-    The `spellingCorrectionOf` property can be used if the originally published 
-    name string, or another established name string, is not spelt correctly 
-    according to the current version of the relevant Code. It can link an 
-    established spelling of a name to the correctly spelt name where other name 
-    relation properties cannot.
-  examples:
-    - TaxonName-spellingCorrectionOf-example-1
-    - TaxonName-spellingCorrectionOf-example-2
+  notes:
   type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonName
   required: No

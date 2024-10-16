@@ -2824,60 +2824,6 @@ _:b1 a tcs:TaxonName ;
 	</tbody>
 </table>
 
-
-**Comments**
-
-The `spellingCorrectionOf` property can be used if the originally published  name string, or another established name string, is not spelt correctly  according to the current version of the relevant Code. It can link an  established spelling of a name to the correctly spelt name where other name  relation properties cannot.
-
-
-**Examples**
-
-
-```turtle
-<https://www.tropicos.org/name/35121514> a tcs:TaxonName ;
-    tcs:taxonNameString "Dicranoloma dicarpon" ;
-    tcs:authorship "(Nees) Paris" ;
-    dwc:namePublishedIn "Index Bryol. ed. 2, 2: 26" ;
-    dwc:namePublishedInYear "1904" ;
-    tcs:basionym <https://www.tropicos.org/name/35122214> ;
-    tcs:spellingCorrectionOf <https://id.biodiversity.org.au/name/ausmoss/10152639> .
-
-<https://www.tropicos.org/name/35122214> a tcs:TaxonName ;
-    tcs:taxonNameString "Dicranum dicarpon" ;
-    tcs:authorship "Nees" ;
-    dwc:namePublishedIn "Syst. Veg. ed. 16, 4(2):322" ;
-    dwc:namePublishedInYear "1827" .
-
-<https://id.biodiversity.org.au/name/ausmoss/10152639> a tcs:TaxonName ;
-    tcs:taxonNameString "Dicranoloma dicarpum" .
-
-# Dicranoloma dicarpon is a common species of moss in Australia and New 
-# Zealand. The correct spelling of the epithet is 'dicarpon', because that is 
-# how it was spelt in the basionym, Dicranum dicarpon. However, the combination 
-# in Dicranoloma was originally spelt as 'Dicranoloma dicarpum' and that is 
-# the spelling that has been consistently used for the last almost 120 years. 
-# All records in GBIF, for example, will be as 'Dicranoloma dicarpum'.
-```
-
-[&lsqb;TaxonName-spellingCorrectionOf-example-1.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonName-spellingCorrectionOf-example-1.ttl)&nbsp;[&lsqb;TaxonName-spellingCorrectionOf-example-1.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonName-spellingCorrectionOf-example-1.jsonld)
-
-
-```turtle
-<https://www.ipni.org/n/77110594-1> a tcs:TaxonName ;
-    tcs:taxonNameString "Blechnum parrisiae" ;
-    dwc:scientificNameAuthorship "Christenh." ;
-    dwc:namePublishedIn "Phytotaxa 19: 20" ;
-    dwc:namePublishedInYear "2011" ;
-    tcs:replacedName <https://www.ipni.org/n/17567870-1> ;
-    tcs:spellingCorrectionOf <https://id.biodiversity.org.au/instance/apni/781107> ;
-    rdf:seeAlso <https://id.biodiversity.org.au/instance/apni/51432623> .
-
-<https://id.biodiversity.org.au/instance/apni/781107> a tcs:TaxonName ;
-    tcs:taxonNameString "Blechnum parrisii" .
-```
-
-[&lsqb;TaxonName-spellingCorrectionOf-example-2.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonName-spellingCorrectionOf-example-2.ttl)&nbsp;[&lsqb;TaxonName-spellingCorrectionOf-example-2.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonName-spellingCorrectionOf-example-2.jsonld)
-
 ### tcs:laterHomonymOf
 
 <table style="width:100%;">
