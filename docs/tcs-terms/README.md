@@ -105,7 +105,7 @@ By contrast, entries in the nomenclature section of treatments ('TaxonomicNameUs
             Hattori Botanical Laboratory 87: 1-130.""" .
 ```
 
-[&lsqb;TaxonConcept-1.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-1.ttl)&nbsp;[&lsqb;TaxonConcept-1.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-1.jsonld)
+[&lsqb;TaxonConcept-example-1.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-example-1.ttl)&nbsp;[&lsqb;TaxonConcept-example-1.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-example-1.jsonld)
 
 
 ```turtle
@@ -123,7 +123,7 @@ By contrast, entries in the nomenclature section of treatments ('TaxonomicNameUs
             Publishing, Collingwood, Australia.""" .
 ```
 
-[&lsqb;TaxonConcept-2.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-2.ttl)&nbsp;[&lsqb;TaxonConcept-2.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-2.jsonld)
+[&lsqb;TaxonConcept-example-2.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-example-2.ttl)&nbsp;[&lsqb;TaxonConcept-example-2.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-example-2.jsonld)
 
 
 ```turtle
@@ -143,7 +143,7 @@ By contrast, entries in the nomenclature section of treatments ('TaxonomicNameUs
             Malaysia, Kepong, Malaysia.""" .
 ```
 
-[&lsqb;TaxonConcept-3.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-3.ttl)&nbsp;[&lsqb;TaxonConcept-3.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-3.jsonld)
+[&lsqb;TaxonConcept-example-3.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-example-3.ttl)&nbsp;[&lsqb;TaxonConcept-example-3.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-example-3.jsonld)
 
 
 ```turtle
@@ -162,7 +162,7 @@ By contrast, entries in the nomenclature section of treatments ('TaxonomicNameUs
             1-492. MIM, Deurne.""" .
 ```
 
-[&lsqb;TaxonConcept-4.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-4.ttl)&nbsp;[&lsqb;TaxonConcept-4.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-4.jsonld)
+[&lsqb;TaxonConcept-example-4.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-example-4.ttl)&nbsp;[&lsqb;TaxonConcept-example-4.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-example-4.jsonld)
 
 
 ```turtle
@@ -179,7 +179,7 @@ By contrast, entries in the nomenclature section of treatments ('TaxonomicNameUs
     bibo:uri "https://www.catalogueoflife.org" .
 ```
 
-[&lsqb;TaxonConcept-5.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-5.ttl)&nbsp;[&lsqb;TaxonConcept-5.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-5.jsonld)
+[&lsqb;TaxonConcept-example-5.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-example-5.ttl)&nbsp;[&lsqb;TaxonConcept-example-5.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-example-5.jsonld)
 
 
 ```turtle
@@ -207,7 +207,7 @@ By contrast, entries in the nomenclature section of treatments ('TaxonomicNameUs
     bibo:uri "https://unite.ut.ee" .
 ```
 
-[&lsqb;TaxonConcept-6.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-6.ttl)&nbsp;[&lsqb;TaxonConcept-6.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-6.jsonld)
+[&lsqb;TaxonConcept-example-6.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-example-6.ttl)&nbsp;[&lsqb;TaxonConcept-example-6.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-example-6.jsonld)
 
 
 ```turtle
@@ -226,7 +226,7 @@ By contrast, entries in the nomenclature section of treatments ('TaxonomicNameUs
             dcterms:language "en" ] .
 ```
 
-[&lsqb;TaxonConcept-7.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-7.ttl)&nbsp;[&lsqb;TaxonConcept-7.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-7.jsonld)
+[&lsqb;TaxonConcept-example-7.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-example-7.ttl)&nbsp;[&lsqb;TaxonConcept-example-7.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-example-7.jsonld)
 
 ### tcs:accordingTo
 
@@ -309,7 +309,7 @@ The value of `accordingTo` has to be an object or IRI. This object can  contain 
     foaf:surname "Cardona-Duque*" .
 ```
 
-[&lsqb;TaxonConcept-accordingTo-1.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-accordingTo-1.ttl)&nbsp;[&lsqb;TaxonConcept-accordingTo-1.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-accordingTo-1.jsonld)
+[&lsqb;TaxonConcept-accordingTo-example-1.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-accordingTo-example-1.ttl)&nbsp;[&lsqb;TaxonConcept-accordingTo-example-1.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-accordingTo-example-1.jsonld)
 
 
 ```turtle
@@ -334,7 +334,7 @@ _:b1 a foaf:Person ;
     foaf:surname "Sibley" .
 ```
 
-[&lsqb;TaxonConcept-accordingTo-2.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-accordingTo-2.ttl)&nbsp;[&lsqb;TaxonConcept-accordingTo-2.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-accordingTo-2.jsonld)
+[&lsqb;TaxonConcept-accordingTo-example-2.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-accordingTo-example-2.ttl)&nbsp;[&lsqb;TaxonConcept-accordingTo-example-2.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-accordingTo-example-2.jsonld)
 
 
 ```turtle
@@ -345,7 +345,7 @@ _:b1 a foaf:Person ;
             133. Forest Research Institute Malaysia, Kepong, Selangor, Malaysia.""" .
 ```
 
-[&lsqb;TaxonConcept-accordingTo-3.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-accordingTo-3.ttl)&nbsp;[&lsqb;TaxonConcept-accordingTo-3.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-accordingTo-3.jsonld)
+[&lsqb;TaxonConcept-accordingTo-example-3.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-accordingTo-example-3.ttl)&nbsp;[&lsqb;TaxonConcept-accordingTo-example-3.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-accordingTo-example-3.jsonld)
 
 ### tcs:taxonName
 
@@ -500,7 +500,7 @@ The terms 'heterotypic synonym' and 'homotypic synonym' from the nomenclatural c
 # are provided using the `synonym` property.
 ```
 
-[&lsqb;TaxonConcept-synonym-1.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-synonym-1.ttl)&nbsp;[&lsqb;TaxonConcept-synonym-1.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-synonym-1.jsonld)
+[&lsqb;TaxonConcept-synonym-example-1.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-synonym-example-1.ttl)&nbsp;[&lsqb;TaxonConcept-synonym-example-1.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-synonym-example-1.jsonld)
 
 
 ```turtle
@@ -527,7 +527,7 @@ The terms 'heterotypic synonym' and 'homotypic synonym' from the nomenclatural c
     dwc:namePublishedIn "Trans. & Proc. New Zealand Inst. 28: 606 (1896)" .
 ```
 
-[&lsqb;TaxonConcept-synonym-2.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-synonym-2.ttl)&nbsp;[&lsqb;TaxonConcept-synonym-2.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-synonym-2.jsonld)
+[&lsqb;TaxonConcept-synonym-example-2.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-synonym-example-2.ttl)&nbsp;[&lsqb;TaxonConcept-synonym-example-2.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-synonym-example-2.jsonld)
 
 
 ```turtle
@@ -579,7 +579,7 @@ The terms 'heterotypic synonym' and 'homotypic synonym' from the nomenclatural c
 	dwc:scientificNameAuthorship: "Fabricius, 1794"  .
 ```
 
-[&lsqb;TaxonConcept-synonym-3.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-synonym-3.ttl)&nbsp;[&lsqb;TaxonConcept-synonym-3.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-synonym-3.jsonld)
+[&lsqb;TaxonConcept-synonym-example-3.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-synonym-example-3.ttl)&nbsp;[&lsqb;TaxonConcept-synonym-example-3.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-synonym-example-3.jsonld)
 
 ### tcs:vernacularName
 
@@ -640,7 +640,7 @@ The `vernacularName` property can be used when a vernacular name is used alongsi
             butterflies of Australia. Jacana Books, Crows Nest, Australia.""" .
 ```
 
-[&lsqb;TaxonConcept-vernacularName-1.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-vernacularName-1.ttl)&nbsp;[&lsqb;TaxonConcept-vernacularName-1.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-vernacularName-1.jsonld)
+[&lsqb;TaxonConcept-vernacularName-example-1.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-vernacularName-example-1.ttl)&nbsp;[&lsqb;TaxonConcept-vernacularName-example-1.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-vernacularName-example-1.jsonld)
 
 
 ```turtle
@@ -660,7 +660,7 @@ The `vernacularName` property can be used when a vernacular name is used alongsi
             Flora van Nederland, edn 24. Noordhoff, Groningen.""" .
 ```
 
-[&lsqb;TaxonConcept-vernacularName-2.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-vernacularName-2.ttl)&nbsp;[&lsqb;TaxonConcept-vernacularName-2.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-vernacularName-2.jsonld)
+[&lsqb;TaxonConcept-vernacularName-example-2.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-vernacularName-example-2.ttl)&nbsp;[&lsqb;TaxonConcept-vernacularName-example-2.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-vernacularName-example-2.jsonld)
 
 
 ```turtle
@@ -694,7 +694,7 @@ The `vernacularName` property can be used when a vernacular name is used alongsi
     dwc:scientificNameAuthorship "(A.Cunn. ex Endl.) F.Muell." .
 ```
 
-[&lsqb;TaxonConcept-vernacularName-3.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-vernacularName-3.ttl)&nbsp;[&lsqb;TaxonConcept-vernacularName-3.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-vernacularName-3.jsonld)
+[&lsqb;TaxonConcept-vernacularName-example-3.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-vernacularName-example-3.ttl)&nbsp;[&lsqb;TaxonConcept-vernacularName-example-3.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-vernacularName-example-3.jsonld)
 
 ### tcs:taxonomicRank
 
@@ -823,7 +823,7 @@ The `parent` is another Taxon Concept. This is the parent as indicated in  the `
     tcs:parent <https://www.catalogueoflife.org/data/taxon/6DBT> .
 ```
 
-[&lsqb;TaxonConcept-parent-1.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-parent-1.ttl)&nbsp;[&lsqb;TaxonConcept-parent-1.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-parent-1.jsonld)
+[&lsqb;TaxonConcept-parent-example-1.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-parent-example-1.ttl)&nbsp;[&lsqb;TaxonConcept-parent-example-1.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-parent-example-1.jsonld)
 
 ### tcs:child
 
@@ -905,7 +905,7 @@ The `parent` is another Taxon Concept. This is the parent as indicated in  the `
             dwc:scientificNameAuthorship: "(Linnaeus, 1758)" ] .
 ```
 
-[&lsqb;TaxonConcept-child-1.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-child-1.ttl)&nbsp;[&lsqb;TaxonConcept-child-1.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-child-1.jsonld)
+[&lsqb;TaxonConcept-child-example-1.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-child-example-1.ttl)&nbsp;[&lsqb;TaxonConcept-child-example-1.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-child-example-1.jsonld)
 
 ### tcs:isCongruentWith
 
@@ -978,7 +978,7 @@ This relation can also be written as the formula **A &cong; B** or **A == B**.
             tcs:taxonName <https://ipni.org/n/30001382-2> ] .
 ```
 
-[&lsqb;TaxonConcept-isCongruentWith-1.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-isCongruentWith-1.ttl)&nbsp;[&lsqb;TaxonConcept-isCongruentWith-1.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-isCongruentWith-1.jsonld)
+[&lsqb;TaxonConcept-isCongruentWith-example-1.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-isCongruentWith-example-1.ttl)&nbsp;[&lsqb;TaxonConcept-isCongruentWith-example-1.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-isCongruentWith-example-1.jsonld)
 
 
 ```turtle
@@ -1024,7 +1024,7 @@ _:b0  a tcs:TaxonConcept ;
             tcs:taxonName <https://ipni.org/n/30001382-2> ] .
 ```
 
-[&lsqb;TaxonConceptMapping-isCongruentWith-2.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConceptMapping-isCongruentWith-2.ttl)&nbsp;[&lsqb;TaxonConceptMapping-isCongruentWith-2.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConceptMapping-isCongruentWith-2.jsonld)
+[&lsqb;TaxonConceptMapping-isCongruentWith-example-2.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConceptMapping-isCongruentWith-example-2.ttl)&nbsp;[&lsqb;TaxonConceptMapping-isCongruentWith-example-2.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConceptMapping-isCongruentWith-example-2.jsonld)
 
 
 ```turtle
@@ -1038,7 +1038,7 @@ _:b0  a tcs:TaxonConcept ;
         tcs:taxonName <https://www.tropicos.org/name/35122385> ] .
 ```
 
-[&lsqb;TaxonConcept-isCongruentWith-3.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-isCongruentWith-3.ttl)&nbsp;[&lsqb;TaxonConcept-isCongruentWith-3.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-isCongruentWith-3.jsonld)
+[&lsqb;TaxonConcept-isCongruentWith-example-3.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-isCongruentWith-example-3.ttl)&nbsp;[&lsqb;TaxonConcept-isCongruentWith-example-3.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-isCongruentWith-example-3.jsonld)
 
 
 ```turtle
@@ -1056,7 +1056,7 @@ _:b0  a tcs:TaxonConcept ;
         tcs:accordingTo <http://www.herbarium.unc.edu/FloraArchives/WeakleyFlora_2006-Jan.pdf> ] .
 ```
 
-[&lsqb;TaxonConceptMapping-isCongruentWith-1.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConceptMapping-isCongruentWith-1.ttl)&nbsp;[&lsqb;TaxonConceptMapping-isCongruentWith-1.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConceptMapping-isCongruentWith-1.jsonld)
+[&lsqb;TaxonConceptMapping-isCongruentWith-example-1.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConceptMapping-isCongruentWith-example-1.ttl)&nbsp;[&lsqb;TaxonConceptMapping-isCongruentWith-example-1.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConceptMapping-isCongruentWith-example-1.jsonld)
 
 ### tcs:includes
 
@@ -1117,7 +1117,7 @@ This relation type can also be written as the formula **A > B**.
             tcs:taxonName <https://ipni.org/n/77110538-1> ] .
 ```
 
-[&lsqb;TaxonConcept-includes-1.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-includes-1.ttl)&nbsp;[&lsqb;TaxonConcept-includes-1.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-includes-1.jsonld)
+[&lsqb;TaxonConcept-includes-example-1.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-includes-example-1.ttl)&nbsp;[&lsqb;TaxonConcept-includes-example-1.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-includes-example-1.jsonld)
 
 
 ```turtle
@@ -1134,7 +1134,7 @@ This relation type can also be written as the formula **A > B**.
             tcs:taxonName <https://ipni.org/n/77110538-1> ] .
 ```
 
-[&lsqb;TaxonConceptMapping-includes-2.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConceptMapping-includes-2.ttl)&nbsp;[&lsqb;TaxonConceptMapping-includes-2.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConceptMapping-includes-2.jsonld)
+[&lsqb;TaxonConceptMapping-includes-example-2.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConceptMapping-includes-example-2.ttl)&nbsp;[&lsqb;TaxonConceptMapping-includes-example-2.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConceptMapping-includes-example-2.jsonld)
 
 
 ```turtle
@@ -1160,7 +1160,7 @@ This relation type can also be written as the formula **A > B**.
     dwc:scientificNameAuthorship "Nash" .
 ```
 
-[&lsqb;TaxonConceptMapping-includes-1.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConceptMapping-includes-1.ttl)&nbsp;[&lsqb;TaxonConceptMapping-includes-1.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConceptMapping-includes-1.jsonld)
+[&lsqb;TaxonConceptMapping-includes-example-1.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConceptMapping-includes-example-1.ttl)&nbsp;[&lsqb;TaxonConceptMapping-includes-example-1.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConceptMapping-includes-example-1.jsonld)
 
 ### tcs:isIncludedIn
 
@@ -1236,7 +1236,7 @@ This relation type can also be written as the formula **A < B**.
             tcs:taxonName <https://ipni.org/n/17434830-1> ] .
 ```
 
-[&lsqb;TaxonConcept-isIncludedIn-1.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-isIncludedIn-1.ttl)&nbsp;[&lsqb;TaxonConcept-isIncludedIn-1.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-isIncludedIn-1.jsonld)
+[&lsqb;TaxonConcept-isIncludedIn-example-1.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-isIncludedIn-example-1.ttl)&nbsp;[&lsqb;TaxonConcept-isIncludedIn-example-1.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-isIncludedIn-example-1.jsonld)
 
 
 ```turtle
@@ -1285,7 +1285,7 @@ _:b1 a tcs:TaxonConcept ;
             tcs:taxonName <https://ipni.org/n/17434830-1> ] .
 ```
 
-[&lsqb;TaxonConceptMapping-isIncludedIn-2.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConceptMapping-isIncludedIn-2.ttl)&nbsp;[&lsqb;TaxonConceptMapping-isIncludedIn-2.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConceptMapping-isIncludedIn-2.jsonld)
+[&lsqb;TaxonConceptMapping-isIncludedIn-example-2.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConceptMapping-isIncludedIn-example-2.ttl)&nbsp;[&lsqb;TaxonConceptMapping-isIncludedIn-example-2.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConceptMapping-isIncludedIn-example-2.jsonld)
 
 
 ```turtle
@@ -1303,7 +1303,7 @@ _:b1 a tcs:TaxonConcept ;
         tcs:accordingTo <http://www.herbarium.unc.edu/FloraArchives/WeakleyFlora_2006-Jan.pdf> ] .
 ```
 
-[&lsqb;TaxonConceptMapping-isIncludedIn-1.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConceptMapping-isIncludedIn-1.ttl)&nbsp;[&lsqb;TaxonConceptMapping-isIncludedIn-1.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConceptMapping-isIncludedIn-1.jsonld)
+[&lsqb;TaxonConceptMapping-isIncludedIn-example-1.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConceptMapping-isIncludedIn-example-1.ttl)&nbsp;[&lsqb;TaxonConceptMapping-isIncludedIn-example-1.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConceptMapping-isIncludedIn-example-1.jsonld)
 
 ### tcs:partiallyOverlaps
 
@@ -1364,7 +1364,7 @@ This relation can also be written as the formula **A >< B**.
             tcs:taxonName <https://ipni.org/n/30000361-2> ] .
 ```
 
-[&lsqb;TaxonConcept-partiallyOverlaps-1.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-partiallyOverlaps-1.ttl)&nbsp;[&lsqb;TaxonConcept-partiallyOverlaps-1.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-partiallyOverlaps-1.jsonld)
+[&lsqb;TaxonConcept-partiallyOverlaps-example-1.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-partiallyOverlaps-example-1.ttl)&nbsp;[&lsqb;TaxonConcept-partiallyOverlaps-example-1.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-partiallyOverlaps-example-1.jsonld)
 
 
 ```turtle
@@ -1381,7 +1381,7 @@ This relation can also be written as the formula **A >< B**.
             tcs:taxonName <https://ipni.org/n/30000361-2> ] .
 ```
 
-[&lsqb;TaxonConceptMapping-partiallyOverlaps-2.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConceptMapping-partiallyOverlaps-2.ttl)&nbsp;[&lsqb;TaxonConceptMapping-partiallyOverlaps-2.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConceptMapping-partiallyOverlaps-2.jsonld)
+[&lsqb;TaxonConceptMapping-partiallyOverlaps-example-2.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConceptMapping-partiallyOverlaps-example-2.ttl)&nbsp;[&lsqb;TaxonConceptMapping-partiallyOverlaps-example-2.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConceptMapping-partiallyOverlaps-example-2.jsonld)
 
 
 ```turtle
@@ -1400,7 +1400,7 @@ This relation can also be written as the formula **A >< B**.
             tcs:accordingTo <http://www.herbarium.unc.edu/FloraArchives/WeakleyFlora_2006-Jan.pdf> ] .
 ```
 
-[&lsqb;TaxonConceptMapping-partiallyOverlaps-1.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConceptMapping-partiallyOverlaps-1.ttl)&nbsp;[&lsqb;TaxonConceptMapping-partiallyOverlaps-1.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConceptMapping-partiallyOverlaps-1.jsonld)
+[&lsqb;TaxonConceptMapping-partiallyOverlaps-example-1.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConceptMapping-partiallyOverlaps-example-1.ttl)&nbsp;[&lsqb;TaxonConceptMapping-partiallyOverlaps-example-1.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConceptMapping-partiallyOverlaps-example-1.jsonld)
 
 ### tcs:isDisjointFrom
 
@@ -1472,7 +1472,7 @@ This relation can also be written as the formula **A | B**.
 # here.
 ```
 
-[&lsqb;TaxonConcept-isDisjointFrom-1.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-isDisjointFrom-1.ttl)&nbsp;[&lsqb;TaxonConcept-isDisjointFrom-1.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-isDisjointFrom-1.jsonld)
+[&lsqb;TaxonConcept-isDisjointFrom-example-1.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-isDisjointFrom-example-1.ttl)&nbsp;[&lsqb;TaxonConcept-isDisjointFrom-example-1.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-isDisjointFrom-example-1.jsonld)
 
 
 ```turtle
@@ -1496,7 +1496,7 @@ This relation can also be written as the formula **A | B**.
             Castagne 1961: 203)""" .
 ```
 
-[&lsqb;TaxonConceptMapping-isDisjointFrom-2.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConceptMapping-isDisjointFrom-2.ttl)&nbsp;[&lsqb;TaxonConceptMapping-isDisjointFrom-2.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConceptMapping-isDisjointFrom-2.jsonld)
+[&lsqb;TaxonConceptMapping-isDisjointFrom-example-2.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConceptMapping-isDisjointFrom-example-2.ttl)&nbsp;[&lsqb;TaxonConceptMapping-isDisjointFrom-example-2.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConceptMapping-isDisjointFrom-example-2.jsonld)
 
 
 ```turtle
@@ -1514,7 +1514,7 @@ This relation can also be written as the formula **A | B**.
         tcs:accordingTo <http://www.herbarium.unc.edu/FloraArchives/WeakleyFlora_2006-Jan.pdf> ] .
 ```
 
-[&lsqb;TaxonConceptMapping-isDisjointFrom-1.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConceptMapping-isDisjointFrom-1.ttl)&nbsp;[&lsqb;TaxonConceptMapping-isDisjointFrom-1.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConceptMapping-isDisjointFrom-1.jsonld)
+[&lsqb;TaxonConceptMapping-isDisjointFrom-example-1.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConceptMapping-isDisjointFrom-example-1.ttl)&nbsp;[&lsqb;TaxonConceptMapping-isDisjointFrom-example-1.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConceptMapping-isDisjointFrom-example-1.jsonld)
 
 ### tcs:intersects
 
@@ -1595,7 +1595,7 @@ Quasi-nomenclatural statements like 'pro parte synonym', 'partial synonym' and '
         tcs:synonym <https://www.ipni.org/n/105731-1> ] .
 ```
 
-[&lsqb;TaxonConcept-intersects-1.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-intersects-1.ttl)&nbsp;[&lsqb;TaxonConcept-intersects-1.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-intersects-1.jsonld)
+[&lsqb;TaxonConcept-intersects-example-1.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-intersects-example-1.ttl)&nbsp;[&lsqb;TaxonConcept-intersects-example-1.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-intersects-example-1.jsonld)
 
 
 ```turtle
@@ -1638,7 +1638,7 @@ Quasi-nomenclatural statements like 'pro parte synonym', 'partial synonym' and '
 # examples/euphrasia_gibbsiae_sec_barker_1982.ttl for the full example.
 ```
 
-[&lsqb;TaxonConcept-intersects-2.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-intersects-2.ttl)&nbsp;[&lsqb;TaxonConcept-intersects-2.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-intersects-2.jsonld)
+[&lsqb;TaxonConcept-intersects-example-2.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-intersects-example-2.ttl)&nbsp;[&lsqb;TaxonConcept-intersects-example-2.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-intersects-example-2.jsonld)
 
 
 ```turtle
@@ -1694,7 +1694,7 @@ Quasi-nomenclatural statements like 'pro parte synonym', 'partial synonym' and '
             MEL41539)""" .
 ```
 
-[&lsqb;TaxonConceptMapping-intersects-1.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConceptMapping-intersects-1.ttl)&nbsp;[&lsqb;TaxonConceptMapping-intersects-1.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConceptMapping-intersects-1.jsonld)
+[&lsqb;TaxonConceptMapping-intersects-example-1.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConceptMapping-intersects-example-1.ttl)&nbsp;[&lsqb;TaxonConceptMapping-intersects-example-1.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConceptMapping-intersects-example-1.jsonld)
 
 
 ```turtle
@@ -1731,7 +1731,7 @@ Quasi-nomenclatural statements like 'pro parte synonym', 'partial synonym' and '
 # treatment, see examples/megalorhipida-leucodactylus-sec-gielis-et-hobern-2020.ttl.
 ```
 
-[&lsqb;TaxonConcept-intersects-3.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-intersects-3.ttl)&nbsp;[&lsqb;TaxonConcept-intersects-3.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-intersects-3.jsonld)
+[&lsqb;TaxonConcept-intersects-example-3.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-intersects-example-3.ttl)&nbsp;[&lsqb;TaxonConcept-intersects-example-3.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-intersects-example-3.jsonld)
 
 ### dwc:scientificName
 
@@ -2108,7 +2108,7 @@ The word 'name' here is taken in its dictionary meaning and not in the sense of 
     dwc:scientificNameAuthorship "Linnaeus, 1758" .
 ```
 
-[&lsqb;TaxonName-1.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonName-1.ttl)&nbsp;[&lsqb;TaxonName-1.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonName-1.jsonld)
+[&lsqb;TaxonName-example-1.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonName-example-1.ttl)&nbsp;[&lsqb;TaxonName-example-1.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonName-example-1.jsonld)
 
 
 ```turtle
@@ -2118,7 +2118,7 @@ The word 'name' here is taken in its dictionary meaning and not in the sense of 
     dwc:namePublishedIn "Account Rafflesia 7, tt. 15-22 (1821)" .
 ```
 
-[&lsqb;TaxonName-2.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonName-2.ttl)&nbsp;[&lsqb;TaxonName-2.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonName-2.jsonld)
+[&lsqb;TaxonName-example-2.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonName-example-2.ttl)&nbsp;[&lsqb;TaxonName-example-2.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonName-example-2.jsonld)
 
 
 ```turtle
@@ -2128,7 +2128,7 @@ The word 'name' here is taken in its dictionary meaning and not in the sense of 
     dwc:namePublishedIn "Handb. Erk. Gew. 3: 272 (1833)" .
 ```
 
-[&lsqb;TaxonName-3.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonName-3.ttl)&nbsp;[&lsqb;TaxonName-3.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonName-3.jsonld)
+[&lsqb;TaxonName-example-3.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonName-example-3.ttl)&nbsp;[&lsqb;TaxonName-example-3.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonName-example-3.jsonld)
 
 
 ```turtle
@@ -2148,7 +2148,7 @@ The word 'name' here is taken in its dictionary meaning and not in the sense of 
     dwc:infragenericName "Sciadorhodion" .
 ```
 
-[&lsqb;TaxonName-4.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonName-4.ttl)&nbsp;[&lsqb;TaxonName-4.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonName-4.jsonld)
+[&lsqb;TaxonName-example-4.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonName-example-4.ttl)&nbsp;[&lsqb;TaxonName-example-4.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonName-example-4.jsonld)
 
 ### tcs:taxonNameString
 
@@ -2442,7 +2442,7 @@ This is the IRI equivalent of the Darwin Core `nomenclaturalStatus`. In the  abs
             tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/syntype> ]  .
 ```
 
-[&lsqb;TaxonName-typification-1.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonName-typification-1.ttl)&nbsp;[&lsqb;TaxonName-typification-1.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonName-typification-1.jsonld)
+[&lsqb;TaxonName-typification-example-1.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonName-typification-example-1.ttl)&nbsp;[&lsqb;TaxonName-typification-example-1.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonName-typification-example-1.jsonld)
 
 
 ```turtle
@@ -2497,7 +2497,7 @@ This is the IRI equivalent of the Darwin Core `nomenclaturalStatus`. In the  abs
             tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> ] .
 ```
 
-[&lsqb;TaxonName-typification-2.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonName-typification-2.ttl)&nbsp;[&lsqb;TaxonName-typification-2.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonName-typification-2.jsonld)
+[&lsqb;TaxonName-typification-example-2.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonName-typification-example-2.ttl)&nbsp;[&lsqb;TaxonName-typification-example-2.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonName-typification-example-2.jsonld)
 
 ### tcs:typificationLiteral
 
@@ -2598,7 +2598,7 @@ The term `basionym` is in the draft BioCode ([\[greuter_draft_2011\]](../bibliog
     dwc:namePublishedIn "New Zealand J. Bot. 10(4): 593 (1972)" .
 ```
 
-[&lsqb;TaxonName-basionym-1.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonName-basionym-1.ttl)&nbsp;[&lsqb;TaxonName-basionym-1.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonName-basionym-1.jsonld)
+[&lsqb;TaxonName-basionym-example-1.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonName-basionym-example-1.ttl)&nbsp;[&lsqb;TaxonName-basionym-example-1.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonName-basionym-example-1.jsonld)
 
 
 ```turtle
@@ -2617,7 +2617,7 @@ _:b1 a tcs:TaxonName ;
     dwc:scientificNameAuthorship "Desmaret, 1882" .
 ```
 
-[&lsqb;TaxonName-basionym-2.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonName-basionym-2.ttl)&nbsp;[&lsqb;TaxonName-basionym-2.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonName-basionym-2.jsonld)
+[&lsqb;TaxonName-basionym-example-2.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonName-basionym-example-2.ttl)&nbsp;[&lsqb;TaxonName-basionym-example-2.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonName-basionym-example-2.jsonld)
 
 ### tcs:replacedName
 
@@ -2701,7 +2701,7 @@ _:b1 a tcs:TaxonName ;
     tcs:basionym <https://www.tropicos.org/name/35183593> .
 ```
 
-[&lsqb;TaxonName-replacedName-1.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonName-replacedName-1.ttl)&nbsp;[&lsqb;TaxonName-replacedName-1.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonName-replacedName-1.jsonld)
+[&lsqb;TaxonName-replacedName-example-1.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonName-replacedName-example-1.ttl)&nbsp;[&lsqb;TaxonName-replacedName-example-1.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonName-replacedName-example-1.jsonld)
 
 
 ```turtle
@@ -2727,7 +2727,7 @@ _:b1 a tcs:TaxonName ;
     dwc:namePublishedInYear "1871" .
 ```
 
-[&lsqb;TaxonName-replacedName-2.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonName-replacedName-2.ttl)&nbsp;[&lsqb;TaxonName-replacedName-2.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonName-replacedName-2.jsonld)
+[&lsqb;TaxonName-replacedName-example-2.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonName-replacedName-example-2.ttl)&nbsp;[&lsqb;TaxonName-replacedName-example-2.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonName-replacedName-example-2.jsonld)
 
 
 ```turtle
@@ -2756,7 +2756,7 @@ _:b1 a tcs:TaxonName ;
     rdf:seeAlso <https://id.biodiversity.org.au/instance/apni/51432623> .
 ```
 
-[&lsqb;TaxonName-replacedName-3.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonName-replacedName-3.ttl)&nbsp;[&lsqb;TaxonName-replacedName-3.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonName-replacedName-3.jsonld)
+[&lsqb;TaxonName-replacedName-example-3.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonName-replacedName-example-3.ttl)&nbsp;[&lsqb;TaxonName-replacedName-example-3.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonName-replacedName-example-3.jsonld)
 
 
 ```turtle
@@ -2787,7 +2787,7 @@ _:b1 a tcs:TaxonName ;
     rdf:seeAlso <https://id.biodiversity.org.au/name/apni/190652> .
 ```
 
-[&lsqb;TaxonName-replacedName-4.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonName-replacedName-4.ttl)&nbsp;[&lsqb;TaxonName-replacedName-4.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonName-replacedName-4.jsonld)
+[&lsqb;TaxonName-replacedName-example-4.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonName-replacedName-example-4.ttl)&nbsp;[&lsqb;TaxonName-replacedName-example-4.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonName-replacedName-example-4.jsonld)
 
 ### tcs:spellingCorrectionOf
 
@@ -2859,7 +2859,7 @@ The `spellingCorrectionOf` property can be used if the originally published  nam
 # All records in GBIF, for example, will be as 'Dicranoloma dicarpum'.
 ```
 
-[&lsqb;TaxonName-spellingCorrectionOf-1.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonName-spellingCorrectionOf-1.ttl)&nbsp;[&lsqb;TaxonName-spellingCorrectionOf-1.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonName-spellingCorrectionOf-1.jsonld)
+[&lsqb;TaxonName-spellingCorrectionOf-example-1.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonName-spellingCorrectionOf-example-1.ttl)&nbsp;[&lsqb;TaxonName-spellingCorrectionOf-example-1.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonName-spellingCorrectionOf-example-1.jsonld)
 
 
 ```turtle
@@ -2876,7 +2876,7 @@ The `spellingCorrectionOf` property can be used if the originally published  nam
     tcs:taxonNameString "Blechnum parrisii" .
 ```
 
-[&lsqb;TaxonName-spellingCorrectionOf-2.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonName-spellingCorrectionOf-2.ttl)&nbsp;[&lsqb;TaxonName-spellingCorrectionOf-2.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonName-spellingCorrectionOf-2.jsonld)
+[&lsqb;TaxonName-spellingCorrectionOf-example-2.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonName-spellingCorrectionOf-example-2.ttl)&nbsp;[&lsqb;TaxonName-spellingCorrectionOf-example-2.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonName-spellingCorrectionOf-example-2.jsonld)
 
 ### tcs:laterHomonymOf
 
@@ -2981,7 +2981,7 @@ A scientific name below the rank of family is not conserved against all  other n
     dwc:namePublishedInYear "1894" .
 ```
 
-[&lsqb;TaxonName-conservedAgainst.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonName-conservedAgainst.ttl)&nbsp;[&lsqb;TaxonName-conservedAgainst.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonName-conservedAgainst.jsonld)
+[&lsqb;TaxonName-conservedAgainst-example-1.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonName-conservedAgainst-example-1.ttl)&nbsp;[&lsqb;TaxonName-conservedAgainst-example-1.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonName-conservedAgainst-example-1.jsonld)
 
 ### dwc:scientificNameAuthorship
 
@@ -3340,7 +3340,7 @@ A nomenclatural type fixes the usage of a name to the taxonomic group that  cont
     dwc:scientificNameAuthorship "Bisset & S.Moore" .
 ```
 
-[&lsqb;NomenclaturalType.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/NomenclaturalType.ttl)&nbsp;[&lsqb;NomenclaturalType.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/NomenclaturalType.jsonld)
+[&lsqb;NomenclaturalType-example-1.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/NomenclaturalType-example-1.ttl)&nbsp;[&lsqb;NomenclaturalType-example-1.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/NomenclaturalType-example-1.jsonld)
 
 ### tcs:typifiedName
 

@@ -50,13 +50,13 @@
     &#91;[senderov_openbiodiv-o_2018](#senderov_openbiodiv-o_2018)&#93;) and in
     lists of nomenclatural types are not Taxon Concepts.
   examples: 
-    - TaxonConcept-1
-    - TaxonConcept-2
-    - TaxonConcept-3
-    - TaxonConcept-4
-    - TaxonConcept-5
-    - TaxonConcept-6
-    - TaxonConcept-7
+    - TaxonConcept-example-1
+    - TaxonConcept-example-2
+    - TaxonConcept-example-3
+    - TaxonConcept-example-4
+    - TaxonConcept-example-5
+    - TaxonConcept-example-6
+    - TaxonConcept-example-7
   type: http://www.w3.org/2000/01/rdf-schema#Class
   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonConcept
   required: null
@@ -89,9 +89,9 @@
     to provide it in a format that can be understood by reference managers 
     such as Zotero or Mendeley.
   examples: 
-    - TaxonConcept-accordingTo-1
-    - TaxonConcept-accordingTo-2
-    - TaxonConcept-accordingTo-3
+    - TaxonConcept-accordingTo-example-1
+    - TaxonConcept-accordingTo-example-2
+    - TaxonConcept-accordingTo-example-3
   type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonConcept
   required: Yes
@@ -153,9 +153,9 @@
     ranks than the accepted name, and avoids inappropriate use of the terms
     defined in the nomenclatural codes.
   examples: 
-    - TaxonConcept-synonym-1
-    - TaxonConcept-synonym-2
-    - TaxonConcept-synonym-3
+    - TaxonConcept-synonym-example-1
+    - TaxonConcept-synonym-example-2
+    - TaxonConcept-synonym-example-3
   type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonConcept
   required: No
@@ -180,9 +180,9 @@
     preferrable, especially if there can be multiple vernacular names for a
     concept.
   examples: 
-    - TaxonConcept-vernacularName-1
-    - TaxonConcept-vernacularName-2
-    - TaxonConcept-vernacularName-3
+    - TaxonConcept-vernacularName-example-1
+    - TaxonConcept-vernacularName-example-2
+    - TaxonConcept-vernacularName-example-3
   type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonConcept
   required: No
@@ -230,7 +230,7 @@
   required: No
   type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
   examples:
-    - TaxonConcept-parent-1
+    - TaxonConcept-parent-example-1
   github: 9
 
 # property: child
@@ -243,7 +243,7 @@
     child.
   notes: 
   examples: 
-    - TaxonConcept-child-1
+    - TaxonConcept-child-example-1
   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonConcept
   repeatable: Yes
   required: No
@@ -272,10 +272,10 @@
     This relation can also be written as the formula **A &cong; B** or **A
     == B**.
   examples: 
-    - TaxonConcept-isCongruentWith-1
-    - TaxonConceptMapping-isCongruentWith-2
-    - TaxonConcept-isCongruentWith-3
-    - TaxonConceptMapping-isCongruentWith-1
+    - TaxonConcept-isCongruentWith-example-1
+    - TaxonConceptMapping-isCongruentWith-example-2
+    - TaxonConcept-isCongruentWith-example-3
+    - TaxonConceptMapping-isCongruentWith-example-1
   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonConcept
   repeatable: Yes
   required: No
@@ -305,9 +305,9 @@
 
     This relation type can also be written as the formula **A > B**.
   examples: 
-    - TaxonConcept-includes-1
-    - TaxonConceptMapping-includes-2
-    - TaxonConceptMapping-includes-1
+    - TaxonConcept-includes-example-1
+    - TaxonConceptMapping-includes-example-2
+    - TaxonConceptMapping-includes-example-1
   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonConcept
   repeatable: Yes
   required: No
@@ -336,9 +336,9 @@
 
     This relation type can also be written as the formula **A < B**.
   examples: 
-    - TaxonConcept-isIncludedIn-1
-    - TaxonConceptMapping-isIncludedIn-2
-    - TaxonConceptMapping-isIncludedIn-1
+    - TaxonConcept-isIncludedIn-example-1
+    - TaxonConceptMapping-isIncludedIn-example-2
+    - TaxonConceptMapping-isIncludedIn-example-1
   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonConcept
   repeatable: Yes
   required: No
@@ -368,9 +368,9 @@
 
     This relation can also be written as the formula **A >< B**.
   examples:
-    - TaxonConcept-partiallyOverlaps-1
-    - TaxonConceptMapping-partiallyOverlaps-2
-    - TaxonConceptMapping-partiallyOverlaps-1
+    - TaxonConcept-partiallyOverlaps-example-1
+    - TaxonConceptMapping-partiallyOverlaps-example-2
+    - TaxonConceptMapping-partiallyOverlaps-example-1
   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonConcept
   repeatable: Yes
   required: No
@@ -398,9 +398,9 @@
 
     This relation can also be written as the formula **A | B**.
   examples:
-    - TaxonConcept-isDisjointFrom-1
-    - TaxonConceptMapping-isDisjointFrom-2
-    - TaxonConceptMapping-isDisjointFrom-1
+    - TaxonConcept-isDisjointFrom-example-1
+    - TaxonConceptMapping-isDisjointFrom-example-2
+    - TaxonConceptMapping-isDisjointFrom-example-1
   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonConcept
   repeatable: Yes
   required: No
@@ -433,10 +433,10 @@
     treatments are, in the context of TCS, best accommodated using the
     `intersects` relation.
   examples:
-    - TaxonConcept-intersects-1
-    - TaxonConcept-intersects-2
-    - TaxonConceptMapping-intersects-1
-    - TaxonConcept-intersects-3
+    - TaxonConcept-intersects-example-1
+    - TaxonConcept-intersects-example-2
+    - TaxonConceptMapping-intersects-example-1
+    - TaxonConcept-intersects-example-3
   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonConcept
   repeatable: Yes
   required: No
@@ -536,10 +536,10 @@
     can, in principle, be used for any type of name, not just names that are
     validly published under the relevant nomenclatural code.
   examples: 
-    - TaxonName-1
-    - TaxonName-2
-    - TaxonName-3
-    - TaxonName-4
+    - TaxonName-example-1
+    - TaxonName-example-2
+    - TaxonName-example-3
+    - TaxonName-example-4
   type: http://www.w3.org/2000/01/rdf-schema#Class
   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonName
   required: null
@@ -657,8 +657,8 @@
   required: No
   repeatable: Yes
   examples: 
-    - TaxonName-typification-1
-    - TaxonName-typification-2
+    - TaxonName-typification-example-1
+    - TaxonName-typification-example-2
   github: 238
 
 
@@ -694,8 +694,8 @@
     noted that a basionym is always a different name or combination: a name
     cannot be its own basionym.
   examples: 
-    - TaxonName-basionym-1
-    - TaxonName-basionym-2
+    - TaxonName-basionym-example-1
+    - TaxonName-basionym-example-2
   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonName
   required: No
   repeatable: No
@@ -720,10 +720,10 @@
     combination cannot be created in the place a taxon is transferred to because
     of an older blocking name.
   examples: 
-    - TaxonName-replacedName-1
-    - TaxonName-replacedName-2
-    - TaxonName-replacedName-3
-    - TaxonName-replacedName-4
+    - TaxonName-replacedName-example-1
+    - TaxonName-replacedName-example-2
+    - TaxonName-replacedName-example-3
+    - TaxonName-replacedName-example-4
   type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonName
   required: No
@@ -744,8 +744,8 @@
     established spelling of a name to the correctly spelt name where other name 
     relation properties cannot.
   examples:
-    - TaxonName-spellingCorrectionOf-1
-    - TaxonName-spellingCorrectionOf-2
+    - TaxonName-spellingCorrectionOf-example-1
+    - TaxonName-spellingCorrectionOf-example-2
   type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonName
   required: No
@@ -782,7 +782,7 @@
     against the conserved name. A name can be conserved against more than one 
     other name, so this property is repeatable.
   examples:
-    - TaxonName-conservedAgainst
+    - TaxonName-conservedAgainst-example-1
   type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonName
   required: No
@@ -803,7 +803,7 @@
     of a Taxon Name. In Darwin Core, NomenclaturalType can be used as object 
     with `dwciri:typeStatus`.
   examples: 
-    - NomenclaturalType
+    - NomenclaturalType-example-1
   type: http://www.w3.org/2000/01/rdf-schema#Class
   organizedInClass: http://rs.tdwg.org/tcs/terms/NomenclaturalType
   repeatable: null
