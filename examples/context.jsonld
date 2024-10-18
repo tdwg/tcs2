@@ -35,7 +35,7 @@
     "intersects":                       { "@type": "@id", "@id": "tcs:intersects", "@container": "@set" },
 
     "mappingAccordingTo":               { "@type": "@id", "@id": "tcs:mappingAccordingTo" },
-    "mappingRelation":                  { "@type": "@id", "@id": "tcs:mappingRelation" },
+    "mappingRelation":                  { "@type": "@vocab", "@id": "tcs:mappingRelation" },
     "subjectTaxonConcept":              { "@type": "@id", "@id": "tcs:subjectTaxonConcept" },
     "objectTaxonConcept":               { "@type": "@id", "@id": "tcs:objectTaxonConcept" },
 
@@ -47,6 +47,9 @@
     "basionym":                         { "@type": "@id", "@id": "tcs:basionym" },
     "replacedName":                     { "@type": "@id", "@id": "tcs:replacedName" },
     "conservedAgainst":                 { "@type": "@id", "@id": "tcs:conservedAgainst", "@container": "@set" },
+
+    "typification":                     { "@reverse": "tcs:typifiedName", "@container": "@set" },
+    "typificationLiteral":              { "@type": "xsd:String", "@id": "tcs:typificationLiteral" },
 
     "typifiedName":                     { "@type": "@id", "@id": "tcs:typifiedName" },
     "typeOfType":                       { "@type": "@vocab", "@id": "tcs:typeOfType" },
