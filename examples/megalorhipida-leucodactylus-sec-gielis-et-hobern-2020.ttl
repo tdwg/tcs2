@@ -10,7 +10,7 @@
             tcs:taxonNameString "Megalorhipida leucodactylus" ;
             dwc:scientificNameAuthorship "(Fabricius, 1794)" ;
             tcs:basionym <https://zoobank.org/NomenclaturalActs/39b2f236-3914-4962-9dcc-f594671654bd> ] ;
-    tcs:synonym _:tn1 , 
+    tcs:synonym _:tn1 ,
         _:tn2 ,
         _:tn3 ,
         _:tn4 ,

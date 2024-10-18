@@ -4,7 +4,6 @@
 
 
 <https://tropicos.org/name/35121972> a tcs:TaxonName ;
-    dwc:scientificName "Dicranum blumei Nees" ;
     tcs:taxonNameString "Dicranum blumei" ;
     dwc:scientificNameAuthorship "Nees" ;
     dwc:namePublishedIn """Nova Acta Physico-medica Academiae Caesareae Leopoldino-Carolinae Naturae Curiosorum 
