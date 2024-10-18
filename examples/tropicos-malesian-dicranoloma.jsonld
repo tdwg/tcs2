@@ -2,7 +2,33 @@
   "@context": [
     "https://raw.githubusercontent.com/tdwg/tcs2/master/examples/context.jsonld",
     {
-      "typification": { "@reverse": "tcs:typifiedName", "@container": "@set" }
+      "oa": "http://www.w3.org/ns/oa#",
+      "Annotation": "oa:Annotation",
+      "commenting": "oa:commenting",
+      "body": {
+        "@id": "oa:hasBody",
+        "@type": "@id"
+      },
+      "target": {
+        "@id": "oa:hasTarget",
+        "@type": "@id"
+      },
+      "motivation": {
+        "@id": "oa:motivatedBy",
+        "@type": "@vocab"
+      },
+      "value": {
+        "@id": "rdf:value",
+        "@type": "@id"
+      },
+      "creator": {
+        "@id": "dcterms:creator",
+        "@type": "@id"
+      },
+      "created": {
+        "@id": "dcterms:created",
+        "@type": "xsd:datetime"
+      }
     }
   ],
   "@graph": [
@@ -903,7 +929,6 @@
       "id": "https://tropicos.org/name/35121455",
       "type": "TaxonName",
       "taxonNameString": "Dicranoloma arfakianum",
-      "dwc:scientificName": "Dicranoloma arfakianum (Geh.) Renauld",
       "dwc:scientificNameAuthorship": "(Geh.) Renauld",
       "nomenclaturalStatus": "legitimate",
       "basionym": "https://tropicos.org/name/35121903"
@@ -912,7 +937,6 @@
       "id": "https://tropicos.org/name/35121903",
       "type": "TaxonName",
       "taxonNameString": "Dicranum arfakianum",
-      "dwc:scientificName": "Dicranum arfakianum Geh.",
       "dwc:scientificNameAuthorship": "Geh.",
       "dwc:namePublishedIn": "Bibliotheca Botanica 44: 3. 1. 1898. (Biblioth. Bot.)",
       "nomenclaturalStatus": "legitimate",
@@ -992,7 +1016,6 @@
       "id": "https://tropicos.org/name/35154836",
       "type": "TaxonName",
       "taxonNameString": "Leucoloma arfakianum",
-      "dwc:scientificName": "Leucoloma arfakianum (Geh.) Broth.",
       "dwc:scientificNameAuthorship": "Broth.",
       "dwc:namePublishedIn": "Die Natürlichen Pflanzenfamilien I(3) tcs: 322. 1901. (Nat. Pflanzenfam.)",
       "nomenclaturalStatus": "legitimate",
@@ -1002,7 +1025,6 @@
       "id": "https://tropicos.org/name/35122257",
       "type": "TaxonName",
       "taxonNameString": "Dicranum elimbatum",
-      "dwc:scientificName": "Dicranum elimbatum Broth. & Geh.",
       "dwc:scientificNameAuthorship": "Broth. & Geh.",
       "dwc:namePublishedIn": "Bibliotheca Botanica 44: 3. 1898. (Biblioth. Bot.)",
       "nomenclaturalStatus": "invalid"
@@ -1011,7 +1033,6 @@
       "id": "https://tropicos.org/name/35121458",
       "type": "TaxonName",
       "taxonNameString": "Dicranoloma assimile",
-      "dwc:scientificName": "Dicranoloma assimile (Hampe) Renauld",
       "dwc:scientificNameAuthorship": "(Hampe) Renauld",
       "nomenclaturalStatus": "legitimate",
       "basionym": "https://tropicos.org/name/35121913"
@@ -1020,7 +1041,6 @@
       "id": "https://tropicos.org/name/35121913",
       "type": "TaxonName",
       "taxonNameString": "Dicranum assimile",
-      "dwc:scientificName": "Dicranum assimile Hampe",
       "dwc:scientificNameAuthorship": "Hampe",
       "dwc:namePublishedIn": "Icones Muscorum Novorum vel Minus Cognitorum pl. 24. 1844. (Icon. Musc. (Hampe) )",
       "nomenclaturalStatus": "legitimate",
@@ -1066,7 +1086,6 @@
       "id": "https://tropicos.org/name/35123973",
       "type": "TaxonName",
       "taxonNameString": "Dicranum polysetum var. assimile",
-      "dwc:scientificName": "Dicranum polysetum var. assimile (Hampe) Dozy & Molk.",
       "dwc:scientificNameAuthorship": "Dozy & Molk.",
       "dwc:namePublishedIn": "Musci Frondosi Inediti Archipelagi Indici 5: 143. 1847. (Musc. Frond. Ined. Archip. Ind.)",
       "nomenclaturalStatus": "legitimate"
@@ -1075,7 +1094,6 @@
       "id": "https://tropicos.org/name/35124384",
       "type": "TaxonName",
       "taxonNameString": "Dicranum sumatranum",
-      "dwc:scientificName": "Dicranum sumatranum Broth.",
       "dwc:scientificNameAuthorship": "Broth.",
       "dwc:namePublishedIn": "Genera Muscorum Frondosorum 285. 1900. (Gen. Musc. Frond.)",
       "nomenclaturalStatus": "legitimate",
@@ -1179,7 +1197,6 @@
       "id": "https://tropicos.org/name/35121535",
       "type": "TaxonName",
       "taxonNameString": "Dicranoloma gedeanum",
-      "dwc:scientificName": "Dicranoloma gedeanum Renauld & Cardot",
       "dwc:scientificNameAuthorship": "Renauld & Cardot",
       "dwc:namePublishedIn": "Revue Bryologique 28: 117. 1901. (Rev. Bryol.)",
       "nomenclaturalStatus": "legitimate",
@@ -1250,7 +1267,6 @@
       "id": "https://tropicos.org/name/35121587",
       "type": "TaxonName",
       "taxonNameString": "Dicranoloma perarmatum",
-      "dwc:scientificName": "Dicranoloma perarmatum Broth.",
       "dwc:scientificNameAuthorship": "Broth.",
       "dwc:namePublishedIn": "Öfversigt af Finska Vetenskaps-Societetens Förhandlingar 47 (14) tcs: 1. 1905. (Öfvers. Finska Vetensk.-Soc. Förh.)",
       "nomenclaturalStatus": "legitimate",
@@ -1324,7 +1340,6 @@
       "id": "https://tropicos.org/name/35121569",
       "type": "TaxonName",
       "taxonNameString": "Dicranoloma monocarpum",
-      "dwc:scientificName": "Dicranoloma monocarpum Broth.",
       "dwc:scientificNameAuthorship": "Broth.",
       "dwc:namePublishedIn": "The Philippine Journal of Science. Section C, Botany 13: 202. 1918. (Philipp. J. Sci., C.)",
       "nomenclaturalStatus": "legitimate",
@@ -1350,7 +1365,6 @@
       "id": "https://tropicos.org/name/35121523",
       "type": "TaxonName",
       "taxonNameString": "Dicranoloma euryloma",
-      "dwc:scientificName": "Dicranoloma euryloma Dixon",
       "dwc:scientificNameAuthorship": "Dixon",
       "dwc:namePublishedIn": "Journal of the Linnean Society, Botany 50: 69. 1 f. 4. 1935. (J. Linn. Soc., Bot.)",
       "nomenclaturalStatus": "legitimate",
@@ -1408,7 +1422,6 @@
       "id": "https://tropicos.org/name/35121524",
       "type": "TaxonName",
       "taxonNameString": "Dicranoloma euryloma var. rugifolium",
-      "dwc:scientificName": "Dicranoloma euryloma var. rugifolium E.B.Bartram",
       "dwc:scientificNameAuthorship": "E.B.Bartram",
       "dwc:namePublishedIn": "Philippine Journal of Science 61: 237. 1936. (Philipp. J. Sci.)",
       "nomenclaturalStatus": "legitimate",
@@ -1465,7 +1478,6 @@
       "id": "https://tropicos.org/name/35121480",
       "type": "TaxonName",
       "taxonNameString": "Dicranoloma brachyphyllum",
-      "dwc:scientificName": "Dicranoloma brachyphyllum Nog.",
       "dwc:scientificNameAuthorship": "Nog.",
       "dwc:namePublishedIn": "Journal of the Hattori Botanical Laboratory 10: 3. 1 f. 1–6. 1953. (J. Hattori Bot. Lab.)",
       "nomenclaturalStatus": "legitimate",
@@ -1506,7 +1518,6 @@
       "id": "https://tropicos.org/name/35168349",
       "type": "TaxonName",
       "taxonNameString": "Dicranoloma havilandii var. latifolium",
-      "dwc:scientificName": "Dicranoloma havilandii var. latifolium Zanten",
       "dwc:scientificNameAuthorship": "Zanten",
       "dwc:namePublishedIn": "Nova Guinea, Botany 10(16) tcs: 272. pl. 23: f. 3. 1964. (Nova Guinea, Bot.)",
       "nomenclaturalStatus": "legitimate",
@@ -1607,7 +1618,6 @@
       "id": "https://tropicos.org/name/35154921",
       "type": "TaxonName",
       "taxonNameString": "Leucoloma donaldi",
-      "dwc:scientificName": "Leucoloma donaldi Broth.",
       "dwc:scientificNameAuthorship": "Broth.",
       "dwc:namePublishedIn": "Index Bryologicus, editio secunda 3: 27. 1904. (Index Bryol. (ed. 2) )",
       "nomenclaturalStatus": "invalid",
@@ -1645,7 +1655,6 @@
       "id": "https://tropicos.org/name/35204723",
       "type": "TaxonName",
       "taxonNameString": "Dicranoloma bartramianum",
-      "dwc:scientificName": "Dicranoloma bartramianum (B.H.Allen) Klazenga",
       "dwc:scientificNameAuthorship": "(B.H.Allen) Klazenga",
       "nomenclaturalStatus": "legitimate",
       "basionym": "https://tropicos.org/name/35183593"
@@ -1654,7 +1663,6 @@
       "id": "https://tropicos.org/name/35183593",
       "type": "TaxonName",
       "taxonNameString": "Dicranum bartramianum",
-      "dwc:scientificName": "Dicranum bartramianum B.H.Allen",
       "dwc:scientificNameAuthorship": "B.H.Allen",
       "dwc:namePublishedIn": "Cryptogamie: Bryologie, Lichénologie 8: 323. 1987. (Cryptog. Bryol. Lichénol.)",
       "nomenclaturalStatus": "legitimate",
@@ -1702,7 +1710,6 @@
       "id": "https://tropicos.org/name/35120798",
       "type": "TaxonName",
       "taxonNameString": "Dicnemon robustum",
-      "dwc:scientificName": "Dicnemon robustum E.B.Bartram",
       "dwc:scientificNameAuthorship": "E.B.Bartram",
       "dwc:namePublishedIn": "The Bryologist 48: 112. 1945. (Bryologist)",
       "nomenclaturalStatus": "legitimate"
@@ -1711,7 +1718,6 @@
       "id": "https://tropicos.org/name/35162373",
       "type": "TaxonName",
       "taxonNameString": "Eucamptodon robustus",
-      "dwc:scientificName": "Eucamptodon robustus (E.B.Bartram) E.B.Bartram",
       "dwc:scientificNameAuthorship": "E.B.Bartram",
       "dwc:namePublishedIn": "Brittonia 11: 88. 1959. (Brittonia)",
       "nomenclaturalStatus": "legitimate",
@@ -1720,7 +1726,6 @@
     {
       "id": "https://tropicos.org/name/35121467",
       "type": "TaxonName",
-      "dwc:scientificName": "Dicranoloma billarderii (Brid.) Paris",
       "dwc:scientificNameAuthorship": "(Brid.) Paris",
       "basionym": "https://tropicos.org/name/35121960",
       "nomenclaturalStatus": "legitimate",
@@ -1730,7 +1735,6 @@
       "id": "https://tropicos.org/name/35121960",
       "type": "TaxonName",
       "taxonNameString": "Dicranum billarderii",
-      "dwc:scientificName": "Dicranum billarderii Brid.",
       "dwc:scientificNameAuthorship": "Brid.",
       "dwc:namePublishedIn": "Botanische Zeitung (Regensburg) 1: 214. 1802. (Bot. Zeitung (Regensburg) )",
       "nomenclaturalStatus": "legitimate",
@@ -1753,7 +1757,6 @@
       "id": "https://tropicos.org/name/35121578",
       "type": "TaxonName",
       "taxonNameString": "Dicranoloma novoguinense",
-      "dwc:scientificName": "Dicranoloma novoguinense (Broth. & Geh.) Paris",
       "dwc:scientificNameAuthorship": "(Broth. & Geh.) Paris",
       "dwc:namePublishedIn": "Index Bryologicus, editio secunda 2: 28. 1904. (Index Bryol. (ed. 2) )",
       "basionym": "https://tropicos.org/name/35123838"
@@ -1762,7 +1765,6 @@
       "id": "https://tropicos.org/name/35123838",
       "type": "TaxonName",
       "taxonNameString": "Dicranum novoguinense",
-      "dwc:scientificName": "Dicranum novoguinense Broth. & Geh.",
       "dwc:scientificNameAuthorship": "Broth. & Geh.",
       "dwc:namePublishedIn": "Öfversigt af Finska Vetenskaps-Societetens Förhandlingar 37: 151. 1895. (Öfvers. Finska Vetensk.-Soc. Förh.)",
       "nomenclaturalStatus": "legitimate",
@@ -1803,7 +1805,6 @@
       "type": "TaxonName",
       "taxonNameString": "Leucoloma novoguinense",
       "dwc:namePublishedIn": "Die Natürlichen Pflanzenfamilien I(3) tcs: 322. 1901. (Nat. Pflanzenfam.)",
-      "dwc:scientificName": "Leucoloma novoguinense (Broth. & Geh.) Broth.",
       "dwc:scientificNameAuthorship": "(Broth. & Geh.) Broth.",
       "basionym": "https://tropicos.org/name/35123838"
     },
@@ -1811,7 +1812,6 @@
       "id": "https://tropicos.org/name/35121488",
       "type": "TaxonName",
       "taxonNameString": "Dicranoloma brevicapsulare",
-      "dwc:scientificName": "Dicranoloma brevicapsulare Dixon",
       "dwc:scientificNameAuthorship": "Dixon",
       "dwc:namePublishedIn": "Bulletin of the Torrey Botanical Club 51: 226. 3 f. 2. 1924. (Bull. Torrey Bot. Club)",
       "nomenclaturalStatus": "legitimate",
@@ -1862,7 +1862,6 @@
       "id": "https://tropicos.org/name/35121635",
       "type": "TaxonName",
       "taxonNameString": "Dicranoloma subecostatum",
-      "dwc:scientificName": "Dicranoloma subecostatum Dixon",
       "dwc:scientificNameAuthorship": "Dixon",
       "dwc:namePublishedIn": "Journal of the Linnean Society, Botany 50: 69. 1935. (J. Linn. Soc., Bot.)",
       "nomenclaturalStatus": "legitimate",
@@ -1956,7 +1955,6 @@
       "id": "https://tropicos.org/name/35121637",
       "type": "TaxonName",
       "taxonNameString": "Dicranoloma subenerve",
-      "dwc:scientificName": "Dicranoloma subenerve Broth.",
       "dwc:namePublishedIn": "Mitteilungen aus dem Institut für Allgemeine Botanik in Hamburg 7(2) tcs: 117. 1928. (Mitt. Inst. Allg. Bot. Hamburg)",
       "dwc:scientificNameAuthorship": "Broth.",
       "nomenclaturalStatus": "legitimate"
@@ -1965,7 +1963,6 @@
       "id": "https://tropicos.org/name/35121595",
       "type": "TaxonName",
       "taxonNameString": "Dicranoloma phillipsiae",
-      "dwc:scientificName": "Dicranoloma phillipsiae E.B.Bartram",
       "dwc:scientificNameAuthorship": "E.B.Bartram",
       "dwc:namePublishedIn": "Philippine Journal of Science 68: 53. f. 56. 1939. (Philipp. J. Sci.)",
       "nomenclaturalStatus": "legitimate",
@@ -2004,7 +2001,6 @@
       "id": "https://tropicos.org/name/35121510",
       "taxonNameString": "Dicranoloma deningeri",
       "type": "TaxonName",
-      "dwc:scientificName": "Dicranoloma deningeri Herzog",
       "dwc:scientificNameAuthorship": "Herzog",
       "dwc:namePublishedIn": "Hedwigia 61: 289. 1919. (Hedwigia)",
       "nomenclaturalStatus": "invalid",
@@ -2029,7 +2025,6 @@
       "id": "https://tropicos.org/name/35121475",
       "type": "TaxonName",
       "taxonNameString": "Dicranoloma blumei",
-      "dwc:scientificName": "Dicranoloma blumei (Nees) Renauld",
       "dwc:scientificNameAuthorship": "(Nees) Renauld",
       "nomenclaturalStatus": "legitimate",
       "basionym": "https://tropicos.org/name/35121972"
@@ -2038,7 +2033,6 @@
       "id": "https://tropicos.org/name/35121972",
       "type": "TaxonName",
       "taxonNameString": "Dicranum blumei",
-      "dwc:scientificName": "Dicranum blumei Nees",
       "dwc:scientificNameAuthorship": "Nees",
       "dwc:namePublishedIn": "Nova Acta Physico-medica Academiae Caesareae Leopoldino-Carolinae Naturae Curiosorum Exhibentia Ephemerides sive Observationes Historias et Experimenta 11(1) tcs: 131. 15 f. 1. 1823. (Nova Acta Phys.-Med. Acad. Caes. Leop.-Carol. Nat. Cur.)",
       "nomenclaturalStatus": "legitimate",
@@ -2103,7 +2097,6 @@
       "id": "https://tropicos.org/name/35154856",
       "type": "TaxonName",
       "taxonNameString": "Leucoloma blumei",
-      "dwc:scientificName": "Leucoloma blumei (Nees) Broth.",
       "dwc:scientificNameAuthorship": "Broth.",
       "dwc:namePublishedIn": "Die Natürlichen Pflanzenfamilien I(3) tcs: 322. 1901. (Nat. Pflanzenfam.)",
       "nomenclaturalStatus": "legitimate",
@@ -2113,7 +2106,6 @@
       "id": "https://tropicos.org/name/35121973",
       "type": "TaxonName",
       "taxonNameString": "Dicranum blumei var. laxifolium",
-      "dwc:scientificName": "Dicranum blumei var. laxifolium Broth. & Geh.",
       "dwc:scientificNameAuthorship": "Broth. & Geh.",
       "dwc:namePublishedIn": "Bibliotheca Botanica 44: 4. 1898. (Biblioth. Bot.)",
       "nomenclaturalStatus": "legitimate",
@@ -2166,7 +2158,6 @@
       "id": "https://tropicos.org/name/35121476",
       "type": "TaxonName",
       "taxonNameString": "Dicranoloma blumei var. laxifolium",
-      "dwc:scientificName": "Dicranoloma blumei var. laxifolium (Broth. & Geh.) M.Fleisch.",
       "dwc:scientificNameAuthorship": "M.Fleisch.",
       "dwc:namePublishedIn": "Nova Guinea 12(2) tcs: 112. 1914. (Nova Guinea)",
       "nomenclaturalStatus": "legitimate",
@@ -2176,7 +2167,6 @@
       "id": "https://tropicos.org/name/35121477",
       "type": "TaxonName",
       "taxonNameString": "Dicranoloma blumei var. papillisetum",
-      "dwc:scientificName": "Dicranoloma blumei var. papillisetum M.Fleisch.",
       "dwc:scientificNameAuthorship": "M.Fleisch.",
       "dwc:namePublishedIn": "Nova Guinea 12(2) tcs: 112. 1914. (Nova Guinea)",
       "nomenclaturalStatus": "legitimate",
@@ -2203,7 +2193,6 @@
       "id": "https://tropicos.org/name/35121484",
       "type": "TaxonName",
       "taxonNameString": "Dicranoloma braunfelsioides",
-      "dwc:scientificName": "Dicranoloma braunfelsioides Herzog",
       "dwc:scientificNameAuthorship": "Herzog",
       "dwc:namePublishedIn": "Hedwigia 61: 288. 1919. (Hedwigia)",
       "nomenclaturalStatus": "legitimate",
@@ -2256,7 +2245,6 @@
       "id": "https://tropicos.org/name/35188177",
       "type": "TaxonName",
       "taxonNameString": "Dicranoloma blumei f. subintegrum",
-      "dwc:scientificName": "Dicranoloma blumei f. subintegrum Dixon",
       "dwc:scientificNameAuthorship": "Dixon",
       "dwc:namePublishedIn": "Journal of Botany, British and Foreign 80: 4. 1942. (J. Bot.)",
       "nomenclaturalStatus": "legitimate",
@@ -2320,7 +2308,6 @@
       "id": "https://tropicos.org/name/35121486",
       "type": "TaxonName",
       "taxonNameString": "Dicranoloma braunii",
-      "dwc:scientificName": "Dicranoloma braunii (Müll.Hal.) Paris",
       "dwc:scientificNameAuthorship": "(Müll.Hal.) Paris",
       "nomenclaturalStatus": "legitimate",
       "basionym": "https://tropicos.org/name/35122018"
@@ -2329,7 +2316,6 @@
       "id": "https://tropicos.org/name/35122018",
       "type": "TaxonName",
       "taxonNameString": "Dicranum braunii",
-      "dwc:scientificName": "Dicranum braunii Müll.Hal.",
       "dwc:scientificNameAuthorship": "Müll.Hal.",
       "dwc:namePublishedIn": "Bryologia Javanica 1: 69. 57. 1858. (Bryol. Jav.)",
       "nomenclaturalStatus": "legitimate",
@@ -2401,7 +2387,6 @@
       "id": "https://tropicos.org/name/35154865",
       "type": "TaxonName",
       "taxonNameString": "Leucoloma braunii",
-      "dwc:scientificName": "Leucoloma braunii (Müll.Hal.) Broth.",
       "dwc:scientificNameAuthorship": "Broth.",
       "dwc:namePublishedIn": "Die Natürlichen Pflanzenfamilien I(3) tcs: 322. 1901. (Nat. Pflanzenfam.)",
       "nomenclaturalStatus": "legitimate",
@@ -2411,7 +2396,6 @@
       "id": "https://tropicos.org/name/35154862",
       "type": "TaxonName",
       "taxonNameString": "Leucoloma brachypelma",
-      "dwc:scientificName": "Leucoloma brachypelma Broth.",
       "dwc:scientificNameAuthorship": "Broth.",
       "dwc:namePublishedIn": "Die Natürlichen Pflanzenfamilien I(3) tcs: 322. 1901. (Nat. Pflanzenfam.)",
       "nomenclaturalStatus": "legitimate",
@@ -2447,7 +2431,6 @@
       "id": "https://tropicos.org/name/35122011",
       "type": "TaxonName",
       "taxonNameString": "Dicranum brachypelma",
-      "dwc:scientificName": "Dicranum brachypelma Müll.Hal.",
       "dwc:scientificNameAuthorship": "Müll.Hal.",
       "dwc:namePublishedIn": "Synopsis Muscorum Frondosorum omnium hucusque Cognitorum 2: 595. 1851. (Sep 1851) (Syn. Musc. Frond.)",
       "nomenclaturalStatus": "illegitimate"
@@ -2455,7 +2438,6 @@
     {
       "id": "https://tropicos.org/name/35121479",
       "type": "TaxonName",
-      "dwc:scientificName": "Dicranoloma brachypelma (Broth.) Paris",
       "dwc:scientificNameAuthorship": "(Broth.) Paris",
       "basionym": "https://tropicos.org/name/35154862",
       "nomenclaturalStatus": "legitimate",
@@ -2465,7 +2447,6 @@
       "id": "https://tropicos.org/name/35123489",
       "type": "TaxonName",
       "taxonNameString": "Dicranum graeffeanum",
-      "dwc:scientificName": "Dicranum graeffeanum Müll.Hal.",
       "dwc:scientificNameAuthorship": "Müll.Hal.",
       "dwc:namePublishedIn": "Journal des Museums Godeffroy 3(6) tcs: 62. 1874. (J. Mus. Godeffroy)",
       "nomenclaturalStatus": "legitimate",
@@ -2515,7 +2496,6 @@
       "id": "https://tropicos.org/name/35154946",
       "type": "TaxonName",
       "taxonNameString": "Leucoloma graeffeanum",
-      "dwc:scientificName": "Leucoloma graeffeanum (Müll.Hal.) Broth.",
       "dwc:scientificNameAuthorship": "Broth.",
       "dwc:namePublishedIn": "Die Natürlichen Pflanzenfamilien I(3) tcs: 322. 1901. (Nat. Pflanzenfam.)",
       "nomenclaturalStatus": "legitimate",
@@ -2525,7 +2505,6 @@
       "id": "https://tropicos.org/name/35121537",
       "type": "TaxonName",
       "taxonNameString": "Dicranoloma graeffeanum",
-      "dwc:scientificName": "Dicranoloma graeffeanum (Müll.Hal.) Paris",
       "dwc:scientificNameAuthorship": "Paris",
       "dwc:namePublishedIn": "Index Bryologicus, editio secunda 2: 27. 1904. (Index Bryol. (ed. 2) )",
       "nomenclaturalStatus": "legitimate",
@@ -2535,7 +2514,6 @@
       "id": "https://tropicos.org/name/35123636",
       "type": "TaxonName",
       "taxonNameString": "Dicranum laevifolium",
-      "dwc:scientificName": "Dicranum laevifolium Broth. & Geh.",
       "dwc:scientificNameAuthorship": "Broth. & Geh.",
       "dwc:namePublishedIn": "Bibliotheca Botanica 44: 4. 1898. (Biblioth. Bot.)",
       "nomenclaturalStatus": "legitimate",
@@ -2587,7 +2565,6 @@
       "id": "https://tropicos.org/name/35154980",
       "type": "TaxonName",
       "taxonNameString": "Leucoloma laevifolium",
-      "dwc:scientificName": "Leucoloma laevifolium (Broth. & Geh.) Broth.",
       "dwc:scientificNameAuthorship": "Broth.",
       "dwc:namePublishedIn": "Die Natürlichen Pflanzenfamilien I(3) tcs: 322. 1901. (Nat. Pflanzenfam.)",
       "nomenclaturalStatus": "legitimate",
@@ -2597,7 +2574,6 @@
       "id": "https://tropicos.org/name/35121556",
       "type": "TaxonName",
       "taxonNameString": "Dicranoloma laevifolium",
-      "dwc:scientificName": "Dicranoloma laevifolium (Broth. & Geh.) Paris",
       "dwc:scientificNameAuthorship": "Paris",
       "dwc:namePublishedIn": "Index Bryologicus, editio secunda 2: 27. 1904. (Index Bryol. (ed. 2) )",
       "nomenclaturalStatus": "legitimate",
@@ -2607,7 +2583,6 @@
       "id": "https://tropicos.org/name/35123815",
       "type": "TaxonName",
       "taxonNameString": "Dicranum nematosum",
-      "dwc:scientificName": "Dicranum nematosum Broth. & Geh.",
       "dwc:scientificNameAuthorship": "Broth. & Geh.",
       "dwc:namePublishedIn": "Öfversigt af Finska Vetenskaps-Societetens Förhandlingar 40: 163. 1898. (Öfvers. Finska Vetensk.-Soc. Förh.)",
       "nomenclaturalStatus": "legitimate",
@@ -2643,7 +2618,6 @@
       "id": "https://tropicos.org/name/35155008",
       "type": "TaxonName",
       "taxonNameString": "Leucoloma nematosum",
-      "dwc:scientificName": "Leucoloma nematosum (Broth. & Geh.) Broth.",
       "dwc:scientificNameAuthorship": "Broth.",
       "dwc:namePublishedIn": "Die Natürlichen Pflanzenfamilien I(3) tcs: 322. 1901. (Nat. Pflanzenfam.)",
       "nomenclaturalStatus": "legitimate",
@@ -2653,7 +2627,6 @@
       "id": "https://tropicos.org/name/35121574",
       "type": "TaxonName",
       "dwc:namePublishedIn": "Index Bryologicus, editio secunda 2: 28. 1904. (Index Bryol. (ed. 2) )",
-      "dwc:scientificName": "Dicranoloma nematosum (Broth. & Geh.) Paris",
       "dwc:scientificNameAuthorship": "Paris",
       "nomenclaturalStatus": "legitimate",
       "taxonNameString": "Dicranoloma nematosum",
@@ -2663,7 +2636,6 @@
       "id": "https://tropicos.org/name/35167975",
       "type": "TaxonName",
       "taxonNameString": "Dicranoloma brevisetum f. nematosum",
-      "dwc:scientificName": "Dicranoloma brevisetum f. nematosum (Broth. & Geh.) B.C.Tan & T.J.Kop.",
       "dwc:scientificNameAuthorship": "(Broth. & Geh.) B.C.Tan & T.J.Kop.",
       "dwc:namePublishedIn": "Annales Botanici Fennici 20: 326. 1983. (Ann. Bot. Fenn.)",
       "nomenclaturalStatus": "legitimate",
@@ -2673,7 +2645,6 @@
       "id": "https://tropicos.org/name/35186801",
       "type": "TaxonName",
       "taxonNameString": "Dicranum braunii f. mindanense",
-      "dwc:scientificName": "Dicranum braunii f. mindanense M.Fleisch.",
       "dwc:scientificNameAuthorship": "M.Fleisch.",
       "dwc:namePublishedIn": "Die Musci der Flora von Buitenzorg 1: 84. 1904. (Musci Buitenzorg)",
       "nomenclaturalStatus": "legitimate",
@@ -2713,7 +2684,6 @@
       "id": "https://tropicos.org/name/35123766",
       "type": "TaxonName",
       "taxonNameString": "Dicranum mindanense",
-      "dwc:scientificName": "Dicranum mindanense Broth.",
       "dwc:scientificNameAuthorship": "Broth.",
       "dwc:namePublishedIn": "Genera Muscorum Frondosorum 288. 1900. (Gen. Musc. Frond.)",
       "nomenclaturalStatus": "invalid",
@@ -2723,7 +2693,6 @@
       "id": "https://tropicos.org/name/100472684",
       "type": "TaxonName",
       "taxonNameString": "Dicranoloma braunii f. mindanense",
-      "dwc:scientificName": "Dicranoloma braunii f. mindanense (M.Fleisch.) Sasaoka",
       "dwc:scientificNameAuthorship": "Sasaoka",
       "dwc:namePublishedIn": "Transactions of the Natural History Society of Formosa 18: 184. 1928. (Trans. Nat. Hist. Soc. Formosa)",
       "nomenclaturalStatus": "legitimate",
@@ -2733,7 +2702,6 @@
       "id": "https://tropicos.org/name/35162123",
       "type": "TaxonName",
       "taxonNameString": "Dicranoloma braunii var. mindanense",
-      "dwc:scientificName": "Dicranoloma braunii var. mindanense (M.Fleisch.) Ihsiba",
       "dwc:scientificNameAuthorship": "Ihsiba",
       "dwc:namePublishedIn": "Catalog of Mosses of Japan [index] 4. 1929. (Cat. Mosses Japan)",
       "nomenclaturalStatus": "legitimate",
@@ -2743,7 +2711,6 @@
       "id": "https://tropicos.org/name/100472683",
       "type": "TaxonName",
       "taxonNameString": "Dicranoloma mindanense",
-      "dwc:scientificName": "Dicranoloma mindanense (M.Fleisch.) Z.Iwats. & B.C.Tan",
       "dwc:scientificNameAuthorship": "Z.Iwats. & B.C.Tan",
       "basionym": "https://tropicos.org/name/35186801",
       "dwc:namePublishedIn": "Kalikasan, Philippine Journal of Biology 8: 188. 1979. (Kalikasan)",
@@ -2753,7 +2720,6 @@
       "id": "https://tropicos.org/name/35121487",
       "type": "TaxonName",
       "taxonNameString": "Dicranoloma braunii var. samoanum",
-      "dwc:scientificName": "Dicranoloma braunii var. samoanum Broth.",
       "dwc:scientificNameAuthorship": "Broth.",
       "dwc:namePublishedIn": "Denkschriften der Kaiserlichen Akademie der Wissenschaften, Wien. Mathematisch-naturwissenschaftliche Klasse 84: 387. 1908. (Denkschr. Kaiserl. Akad. Wiss., Wien Math.-Naturwiss. Kl.)",
       "nomenclaturalStatus": "legitimate",
@@ -2791,7 +2757,6 @@
       "id": "https://tropicos.org/name/35167976",
       "type": "TaxonName",
       "taxonNameString": "Dicranoloma brevisetum var. samoanum",
-      "dwc:scientificName": "Dicranoloma brevisetum var. samoanum (Broth.) B.C.Tan & T.J.Kop.",
       "dwc:scientificNameAuthorship": "(Broth.) B.C.Tan & T.J.Kop.",
       "nomenclaturalStatus": "legitimate",
       "basionym": "https://tropicos.org/name/35121487"
@@ -2800,7 +2765,6 @@
       "id": "https://tropicos.org/name/35204816",
       "type": "TaxonName",
       "taxonNameString": "Dicranoloma braunii f. brevifolium",
-      "dwc:scientificName": "Dicranoloma braunii f. brevifolium Dixon",
       "dwc:scientificNameAuthorship": "Dixon",
       "dwc:namePublishedIn": "Journal of the Linnean Society, Botany 45: 497. 1922. (J. Linn. Soc., Bot.)",
       "nomenclaturalStatus": "legitimate",
@@ -2824,7 +2788,6 @@
       "id": "https://tropicos.org/name/35121543",
       "type": "TaxonName",
       "taxonNameString": "Dicranoloma hemineuron",
-      "dwc:scientificName": "Dicranoloma hemineuron Dixon",
       "dwc:scientificNameAuthorship": "Dixon",
       "dwc:namePublishedIn": "Annales Bryologici 5: 22. 1932. (Ann. Bryol.)",
       "nomenclaturalStatus": "legitimate",
@@ -2861,7 +2824,6 @@
       "id": "https://tropicos.org/name/35121452",
       "type": "TaxonName",
       "taxonNameString": "Dicranoloma angustifrondeum",
-      "dwc:scientificName": "Dicranoloma angustifrondeum Dixon",
       "dwc:scientificNameAuthorship": "Dixon",
       "dwc:namePublishedIn": "Journal of the Linnean Society, Botany 50: 70. 1 f. 3. 1935. (J. Linn. Soc., Bot.)",
       "nomenclaturalStatus": "legitimate",
@@ -2898,7 +2860,6 @@
       "id": "https://tropicos.org/name/35121631",
       "type": "TaxonName",
       "taxonNameString": "Dicranoloma spiniforme",
-      "dwc:scientificName": "Dicranoloma spiniforme E.B.Bartram",
       "dwc:scientificNameAuthorship": "E.B.Bartram",
       "dwc:namePublishedIn": "Farlowia 4: 237. 1952. (Farlowia)",
       "nomenclaturalStatus": "legitimate",
@@ -2923,7 +2884,6 @@
       "id": "https://tropicos.org/name/35113481",
       "type": "TaxonName",
       "taxonNameString": "Bartramia pungentella",
-      "dwc:scientificName": "Bartramia pungentella Müll.Hal.",
       "dwc:scientificNameAuthorship": "Müll.Hal.",
       "dwc:namePublishedIn": "Index Bryologicus Supplementum Primum 35. 1900. (Index Bryol. Suppl.)",
       "nomenclaturalStatus": "invalid",
@@ -2959,7 +2919,6 @@
       "id": "https://tropicos.org/name/35123553",
       "type": "TaxonName",
       "dwc:namePublishedIn": "Genera Muscorum Frondosorum 294. 1900. (Gen. Musc. Frond.)",
-      "dwc:scientificName": "Dicranum horridum Geh.",
       "dwc:scientificNameAuthorship": "Geh.",
       "nomenclaturalStatus": "invalid",
       "taxonNameString": "Dicranum horridum", 
@@ -2996,7 +2955,6 @@
       "id": "https://tropicos.org/name/35121491",
       "type": "TaxonName",
       "taxonNameString": "Dicranoloma brevisetum",
-      "dwc:scientificName": "Dicranoloma brevisetum (Dozy & Molk.) Paris",
       "dwc:scientificNameAuthorship": "(Dozy & Molk.) Paris",
       "nomenclaturalStatus": "legitimate",
       "basionym": "https://tropicos.org/name/35150829"
@@ -3005,7 +2963,6 @@
       "id": "https://tropicos.org/name/35150829",
       "type": "TaxonName",
       "taxonNameString": "Megalostylium brevisetum",
-      "dwc:scientificName": "Megalostylium brevisetum Dozy & Molk.",
       "dwc:scientificNameAuthorship": "Dozy & Molk.",
       "dwc:namePublishedIn": "Musci Frondosi Inediti Archipelagi Indici 6: 146, pl. 44. 1848. (Musc. Frond. Ined. Archip. Ind.)",
       "nomenclaturalStatus": "legitimate",
@@ -3072,7 +3029,6 @@
       "id": "https://tropicos.org/name/35122026",
       "type": "TaxonName",
       "taxonNameString": "Dicranum brevisetum",
-      "dwc:scientificName": "Dicranum brevisetum Dozy & Molk.",
       "dwc:scientificNameAuthorship": "Dozy & Molk.",
       "dwc:namePublishedIn": "Muscorum Frondosorum Novae Species ex Archipelago Indico et Japonica 5. 1844. (Aug–Sep 1844) (Musc. Frond. Archip. Ind.)",
       "nomenclaturalStatus": "illegitimate"
@@ -3081,7 +3037,6 @@
       "id": "https://tropicos.org/name/35154870",
       "type": "TaxonName",
       "taxonNameString": "Leucoloma brevisetum",
-      "dwc:scientificName": "Leucoloma brevisetum (Dozy & Molk.) Broth.",
       "dwc:scientificNameAuthorship": "Broth.",
       "dwc:namePublishedIn": "Die Natürlichen Pflanzenfamilien I(3) tcs: 322. 1901. (Nat. Pflanzenfam.)",
       "nomenclaturalStatus": "legitimate",
@@ -3090,14 +3045,12 @@
     {
       "id": "https://tropicos.org/name/35191032",
       "type": "TaxonName",
-      "taxonNameString": "Dicranoloma brevisetum var. brevisetum",
-      "dwc:scientificName": "Dicranoloma brevisetum var. brevisetum"
+      "taxonNameString": "Dicranoloma brevisetum var. brevisetum"
     },
     {
       "id": "https://tropicos.org/name/35122028",
       "type": "TaxonName",
       "taxonNameString": "Dicranum brevisetum var. angustum",
-      "dwc:scientificName": "Dicranum brevisetum var. angustum Sande Lac.",
       "dwc:scientificNameAuthorship": "Sande Lac.",
       "dwc:namePublishedIn": "Bryologia Javanica 2: 225. 1870. (Bryol. Jav.)",
       "nomenclaturalStatus": "legitimate",
@@ -3133,7 +3086,6 @@
       "id": "https://tropicos.org/name/35123679",
       "type": "TaxonName",
       "taxonNameString": "Dicranum leucophyllum",
-      "dwc:scientificName": "Dicranum leucophyllum Sande Lac.",
       "dwc:namePublishedIn": "Verhandelingen der Koninklijke Akademie van Wetenschappen, Afdeeling Natuurkunde 13: 10. 6C. 1872. (Verh. Kon. Akad. Wetensch., Afd. Natuurk.)",
       "dwc:scientificNameAuthorship": "Sande Lac.",
       "nomenclaturalStatus": "legitimate",
@@ -3184,7 +3136,6 @@
       "id": "https://tropicos.org/name/35154985",
       "type": "TaxonName",
       "taxonNameString": "Leucoloma leucophyllum",
-      "dwc:scientificName": "Leucoloma leucophyllum (Sande Lac.) Broth.",
       "dwc:scientificNameAuthorship": "Broth.",
       "dwc:namePublishedIn": "Die Natürlichen Pflanzenfamilien I(3): 322. 1901. (Nat. Pflanzenfam.)",
       "nomenclaturalStatus": "legitimate",
@@ -3194,7 +3145,6 @@
       "id": "https://tropicos.org/name/35121559",
       "type": "TaxonName",
       "taxonNameString": "Dicranoloma leucophyllum",
-      "dwc:scientificName": "Dicranoloma leucophyllum (Sande Lac.) Paris",
       "dwc:scientificNameAuthorship": "(Sande Lac.) Paris",
       "dwc:namePublishedIn": "Index Bryologicus, editio secunda 2: 27. 1904. (Index Bryol. (ed. 2) )",
       "nomenclaturalStatus": "legitimate",
@@ -3204,7 +3154,6 @@
       "id": "https://tropicos.org/name/35123680",
       "type": "TaxonName",
       "taxonNameString": "Dicranum leucophyllum var. kurzii",
-      "dwc:scientificName": "Dicranum leucophyllum var. kurzii M.Fleisch.",
       "dwc:scientificNameAuthorship": "M.Fleisch.",
       "dwc:namePublishedIn": "Die Musci der Flora von Buitenzorg 1: 85. 1904. (Musci Buitenzorg)",
       "nomenclaturalStatus": "legitimate",
@@ -3315,7 +3264,6 @@
       "id": "https://tropicos.org/name/35121560",
       "type": "TaxonName",
       "taxonNameString": "Dicranoloma leucophyllum var. kurzii",
-      "dwc:scientificName": "Dicranoloma leucophyllum var. kurzii (M.Fleisch.) Paris",
       "dwc:scientificNameAuthorship": "(M.Fleisch.) Paris",
       "dwc:namePublishedIn": "Index Bryologicus, editio secunda 2: 27. 1904. (Index Bryol. (ed. 2) )",
       "nomenclaturalStatus": "legitimate",
@@ -3325,7 +3273,6 @@
       "id": "https://tropicos.org/name/35162124",
       "type": "TaxonName",
       "taxonNameString": "Dicranoloma defoliatum",
-      "dwc:scientificName": "Dicranoloma defoliatum J.Froehl.",
       "dwc:scientificNameAuthorship": "J.Froehl.",
       "dwc:namePublishedIn": "Revue Bryologique et Lichénologique 31: 91. 1962. (Rev. Bryol. Lichénol.)",
       "nomenclaturalStatus": "legitimate",
@@ -3363,7 +3310,6 @@
       "id": "https://tropicos.org/name/35186481",
       "type": "TaxonName",
       "taxonNameString": "Dicranoloma damanhurii",
-      "dwc:scientificName": "Dicranoloma damanhurii B.C.Tan & Mohamed",
       "dwc:scientificNameAuthorship": "B.C.Tan & Mohamed",
       "dwc:namePublishedIn": "Cryptogamie: Bryologie, Lichénologie 11: 359. 1990. (Cryptog. Bryol. Lichénol.)",
       "nomenclaturalStatus": "legitimate",
@@ -3574,7 +3520,6 @@
       "id": "https://tropicos.org/name/35204817",
       "type": "TaxonName",
       "taxonNameString": "Dicranoloma leucophyllum f. rufescens",
-      "dwc:scientificName": "Dicranoloma leucophyllum f. rufescens M.Fleisch.",
       "dwc:scientificNameAuthorship": "M.Fleisch.",
       "dwc:namePublishedIn": "Musci Frondosi Archipelagi Indici Exsiccati 453. 1908. (Musci Frond. Archip. Ind. Exsic.)",
       "nomenclaturalStatus": "nudum",
@@ -3597,7 +3542,6 @@
       "id": "https://tropicos.org/name/35184272",
       "type": "TaxonName",
       "taxonNameString": "Dicranum cutlackii",
-      "dwc:scientificName": "Dicranum cutlackii D.H.Norris & T.J.Kop.",
       "dwc:scientificNameAuthorship": "D.H.Norris & T.J.Kop.",
       "dwc:namePublishedIn": "Acta Botanica Fennica 139: 38. 1990. (Acta Bot. Fenn.)",
       "nomenclaturalStatus": "legitimate",
@@ -3911,7 +3855,6 @@
     {
       "id": "https://tropicos.org/name/35204724",
       "type": "TaxonName",
-      "dwc:scientificName": "Dicranoloma cutlackii (D.H.Norris & T.J.Kop.) Klazenga",
       "dwc:scientificNameAuthorship": "(D.H.Norris & T.J.Kop.) Klazenga",
       "basionym": "https://tropicos.org/name/35184272",
       "nomenclaturalStatus": "legitimate",
@@ -3921,7 +3864,6 @@
       "id": "https://tropicos.org/name/35121509",
       "type": "TaxonName",
       "taxonNameString": "Dicranoloma daymannianum",
-      "dwc:scientificName": "Dicranoloma daymannianum E.B.Bartram",
       "dwc:scientificNameAuthorship": "E.B.Bartram",
       "dwc:namePublishedIn": "Brittonia 9: 35. 1957. (Brittonia)",
       "nomenclaturalStatus": "legitimate",
@@ -3962,8 +3904,7 @@
     {
       "id": "https://tropicos.org/name/35184274",
       "type": "TaxonName",
-      "taonName": "Dicranum daymannianum",
-      "dwc:scientificName": "Dicranum daymannianum (E.B.Bartram) D.H.Norris & T.J.Kop.",
+      "taxonNameString": "Dicranum daymannianum",
       "dwc:scientificNameAuthorship": "(E.B.Bartram) D.H.Norris & T.J.Kop.",
       "dwc:namePublishedIn": "Acta Botanica Fennica 139: 40. 1990. (Acta Bot. Fenn.)",
       "dwc:namePublishedInYear": "1990",
@@ -3973,7 +3914,6 @@
       "id": "https://tropicos.org/name/35121514",
       "type": "TaxonName",
       "taxonNameString": "Dicranoloma dicarpon",
-      "dwc:scientificName": "Dicranoloma dicarpon (Nees) Paris",
       "dwc:scientificNameAuthorship": "(Nees) Paris",
       "nomenclaturalStatus": "legitimate",
       "basionym": "https://tropicos.org/name/35122214"
@@ -3982,7 +3922,6 @@
       "id": "https://tropicos.org/name/35122214",
       "type": "TaxonName",
       "taxonNameString": "Dicranum dicarpon",
-      "dwc:scientificName": "Dicranum dicarpon Nees",
       "dwc:scientificNameAuthorship": "Nees",
       "dwc:namePublishedIn": "Systema Vegetabilium, editio decima sexta 4(2) tcs: 322. 1827. (Syst. Veg. [Sprengel])",
       "nomenclaturalStatus": "legitimate",
@@ -4050,7 +3989,6 @@
       "id": "https://tropicos.org/name/35154915",
       "type": "TaxonName",
       "taxonNameString": "Leucoloma dicarpon",
-      "dwc:scientificName": "Leucoloma dicarpon (Nees) Broth.",
       "dwc:scientificNameAuthorship": "Broth.",
       "dwc:namePublishedIn": "Die Natürlichen Pflanzenfamilien I(3) tcs: 322. 1901. (Nat. Pflanzenfam.)",
       "nomenclaturalStatus": "legitimate",
@@ -4060,7 +3998,6 @@
       "id": "https://tropicos.org/name/35182608",
       "type": "TaxonName",
       "taxonNameString": "Dicranoloma formosanum",
-      "dwc:scientificName": "Dicranoloma formosanum Broth.",
       "dwc:scientificNameAuthorship": "Broth.",
       "dwc:namePublishedIn": "Annales Bryologici 1: 17. 1928. (Ann. Bryol.)",
       "nomenclaturalStatus": "legitimate",
@@ -4100,7 +4037,6 @@
       "id": "https://tropicos.org/name/35121483",
       "type": "TaxonName",
       "taxonNameString": "Dicranoloma brassii",
-      "dwc:scientificName": "Dicranoloma brassii E.B.Bartram",
       "dwc:scientificNameAuthorship": "E.B.Bartram",
       "dwc:namePublishedIn": "Brittonia 9: 34. 1957. (Brittonia)",
       "nomenclaturalStatus": "legitimate",
@@ -4207,7 +4143,6 @@
       "id": "https://tropicos.org/name/35184079",
       "type": "TaxonName",
       "taxonNameString": "Dicranoloma geluense",
-      "dwc:scientificName": "Dicranoloma geluense (Herzog) B.H.Allen",
       "dwc:scientificNameAuthorship": "(Herzog) B.H.Allen",
       "nomenclaturalStatus": "legitimate",
       "basionym": "https://tropicos.org/name/35128174"
@@ -4216,7 +4151,6 @@
       "id": "https://tropicos.org/name/35128174",
       "type": "TaxonName",
       "taxonNameString": "Werneriobryum geluense",
-      "dwc:scientificName": "Werneriobryum geluense Herzog",
       "dwc:scientificNameAuthorship": "Herzog",
       "dwc:namePublishedIn": "Hedwigia 49: 122. f. 6. 1909. (Hedwigia)",
       "nomenclaturalStatus": "legitimate",
@@ -4240,7 +4174,6 @@
       "id": "https://tropicos.org/name/35184275",
       "type": "TaxonName",
       "taxonNameString": "Dicranum geluense",
-      "dwc:scientificName": "Dicranum geluense (Herzog) D.H.Norris & T.J.Kop.",
       "dwc:scientificNameAuthorship": "D.H.Norris & T.J.Kop.",
       "dwc:namePublishedIn": "Acta Botanica Fennica 139: 43. 1990. (Acta Bot. Fenn.)",
       "nomenclaturalStatus": "legitimate",
@@ -4250,7 +4183,6 @@
       "id": "https://tropicos.org/name/35121542",
       "type": "TaxonName",
       "taxonNameString": "Dicranoloma havilandii",
-      "dwc:scientificName": "Dicranoloma havilandii Broth.",
       "dwc:scientificNameAuthorship": "Broth.",
       "dwc:namePublishedIn": "Mitteilungen aus dem Institut für Allgemeine Botanik in Hamburg 7(2) tcs: 117. 1928. (Mitt. Inst. Allg. Bot. Hamburg)",
       "nomenclaturalStatus": "legitimate",
@@ -4371,14 +4303,12 @@
       "taxonNameString": "Dicranoloma reflexum",
       "dwc:scientificNameAuthorship": "(Müll.Hal.) Renauld",
       "basionym": "https://tropicos.org/name/35124048",
-      "dwc:scientificName": "Dicranoloma reflexum (Müll.Hal.) Renauld",
       "nomenclaturalStatus": "legitimate"
     },
     {
       "id": "https://tropicos.org/name/35124048",
       "type": "TaxonName",
       "taxonNameString": "Dicranum reflexum",
-      "dwc:scientificName": "Dicranum reflexum Müll.Hal.",
       "dwc:scientificNameAuthorship": "Müll.Hal.",
       "dwc:namePublishedIn": "Synopsis Muscorum Frondosorum omnium hucusque Cognitorum 1: 373. 1848. (Syn. Musc. Frond.)",
       "nomenclaturalStatus": "legitimate",
@@ -4466,7 +4396,6 @@
       "id": "https://tropicos.org/name/35121608",
       "type": "TaxonName",
       "taxonNameString": "Dicranoloma reflexifolium",
-      "dwc:scientificName": "Dicranoloma reflexifolium (Müll.Hal.) Broth.",
       "dwc:scientificNameAuthorship": "Broth.",
       "dwc:namePublishedIn": "Index Bryologicus, editio secunda 2: 29. 1904. (Index Bryol. (ed. 2) )",
       "nomenclaturalStatus": "legitimate",
@@ -4476,7 +4405,6 @@
       "id": "https://tropicos.org/name/35124046",
       "type": "TaxonName",
       "taxonNameString": "Dicranum reflexifolium",
-      "dwc:scientificName": "Dicranum reflexifolium Müll.Hal.",
       "dwc:scientificNameAuthorship": "Müll.Hal.",
       "dwc:namePublishedIn": "Synopsis Muscorum Frondosorum omnium hucusque Cognitorum 1: 382. 1848. (Syn. Musc. Frond.)",
       "nomenclaturalStatus": "legitimate",
@@ -4511,7 +4439,6 @@
       "id": "https://tropicos.org/name/35155055",
       "type": "TaxonName",
       "taxonNameString": "Leucoloma reflexifolium",
-      "dwc:scientificName": "Leucoloma reflexifolium (Müll.Hal.) Broth.",
       "dwc:scientificNameAuthorship": "Broth.",
       "dwc:namePublishedIn": "Die Natürlichen Pflanzenfamilien I(3) tcs: 322. 1901. (Nat. Pflanzenfam.)",
       "nomenclaturalStatus": "legitimate",
@@ -4521,7 +4448,6 @@
       "id": "https://tropicos.org/name/35122238",
       "type": "TaxonName",
       "taxonNameString": "Dicranum dives",
-      "dwc:scientificName": "Dicranum dives Bosch & Sande Lac.",
       "dwc:scientificNameAuthorship": "Bosch & Sande Lac.",
       "dwc:namePublishedIn": "Bryologia Javanica 1: 72. 59. 1858. (Bryol. Jav.)",
       "nomenclaturalStatus": "legitimate",
@@ -4544,7 +4470,6 @@
       "id": "https://tropicos.org/name/35154920",
       "type": "TaxonName",
       "taxonNameString": "Leucoloma dives",
-      "dwc:scientificName": "Leucoloma dives (Bosch & Sande Lac.) Broth.",
       "dwc:scientificNameAuthorship": "Broth.",
       "dwc:namePublishedIn": "Die Natürlichen Pflanzenfamilien I(3) tcs: 322. 1901. (Nat. Pflanzenfam.)",
       "nomenclaturalStatus": "legitimate",
@@ -4554,7 +4479,6 @@
       "id": "https://tropicos.org/name/35121518",
       "type": "TaxonName",
       "taxonNameString": "Dicranoloma dives",
-      "dwc:scientificName": "Dicranoloma dives (Bosch & Sande Lac.) Paris",
       "dwc:scientificNameAuthorship": "(Müll.Hal.ex Bosch & Sande Lac.) Paris",
       "nomenclaturalStatus": "legitimate",
       "basionym": "https://tropicos.org/name/35122238"
@@ -4563,7 +4487,6 @@
       "id": "https://tropicos.org/name/35123686",
       "type": "TaxonName",
       "taxonNameString": "Dicranum limprichtii",
-      "dwc:scientificName": "Dicranum limprichtii M.Fleisch.",
       "dwc:scientificNameAuthorship": "M.Fleisch.",
       "dwc:namePublishedIn": "Die Musci der Flora von Buitenzorg 1: 78. 1904. (Musci Buitenzorg)",
       "nomenclaturalStatus": "legitimate",
@@ -4676,7 +4599,6 @@
       "id": "https://tropicos.org/name/35121561",
       "type": "TaxonName",
       "taxonNameString": "Dicranoloma limprichtii",
-      "dwc:scientificName": "Dicranoloma limprichtii (M.Fleisch.) Paris",
       "dwc:scientificNameAuthorship": "Paris",
       "dwc:namePublishedIn": "Index Bryologicus, editio secunda 2: 27. 1904. (Index Bryol. (ed. 2) )",
       "nomenclaturalStatus": "legitimate",
@@ -4686,7 +4608,6 @@
       "id": "https://tropicos.org/name/35121606",
       "type": "TaxonName",
       "taxonNameString": "Dicranoloma ramosii",
-      "dwc:scientificName": "Dicranoloma ramosii Broth.",
       "dwc:scientificNameAuthorship": "Broth.",
       "dwc:namePublishedIn": "The Philippine Journal of Science. Section C, Botany 5: 158. 1910. (Philipp. J. Sci., C.)",
       "nomenclaturalStatus": "legitimate",
@@ -4741,7 +4662,6 @@
       "id": "https://tropicos.org/name/35121648",
       "taxonNameString": "Dicranoloma tenuirete",
       "type": "TaxonName",
-      "dwc:scientificName": "Dicranoloma tenuirete Broth.",
       "dwc:scientificNameAuthorship": "Broth.",
       "dwc:namePublishedIn": "The Philippine Journal of Science. Section C, Botany 13: 202. 1918. (Philipp. J. Sci., C.)",
       "nomenclaturalStatus": "legitimate",
@@ -4809,7 +4729,6 @@
       "id": "https://tropicos.org/name/35121617",
       "type": "TaxonName",
       "taxonNameString": "Dicranoloma rugifolium",
-      "dwc:scientificName": "Dicranoloma rugifolium E.B.Bartram",
       "dwc:scientificNameAuthorship": "E.B.Bartram",
       "dwc:namePublishedIn": "Lloydia 5: 251. pl. 1: f. 5. 1942. (Lloydia)",
       "nomenclaturalStatus": "legitimate",
@@ -4872,7 +4791,6 @@
       "id": "https://tropicos.org/name/35184276",
       "type": "TaxonName",
       "taxonNameString": "Dicranum rigifolium",
-      "dwc:scientificName": "Dicranum rugifolium (E.B.Bartram) D.H.Norris & T.J.Kop.",
       "dwc:scientificNameAuthorship": "(E.B.Bartram) D.H.Norris & T.J.Kop.",
       "dwc:namePublishedIn": "Acta Botanica Fennica 139: 44. 1990. (Acta Bot. Fenn.)",
       "dwc:namePublishedInYear": "1990",
@@ -4882,7 +4800,6 @@
       "id": "https://tropicos.org/name/35200565",
       "type": "TaxonName",
       "taxonNameString": "Dicranoloma steenisii",
-      "dwc:scientificName": "Dicranoloma steenisii Klazenga",
       "dwc:scientificNameAuthorship": "Klazenga",
       "dwc:namePublishedIn": "Blumea 41: 11. Illustrations. 1996. (Blumea)",
       "nomenclaturalStatus": "legitimate",
@@ -5011,7 +4928,6 @@
       "id": "https://tropicos.org/name/35158613",
       "type": "TaxonName",
       "taxonNameString": "Cryptodicranum armitii",
-      "dwc:scientificName": "Cryptodicranum armitii (Müll.Hal.) E.B.Bartram",
       "dwc:scientificNameAuthorship": "(Müll.Hal.) E.B.Bartram",
       "nomenclaturalStatus": "legitimate",
       "basionym": "https://tropicos.org/name/35121907"
@@ -5020,7 +4936,6 @@
       "id": "https://tropicos.org/name/35121907",
       "type": "TaxonName",
       "taxonNameString": "Dicranum armitii",
-      "dwc:scientificName": "Dicranum armitii Müll.Hal.",
       "dwc:scientificNameAuthorship": "Müll.Hal.",
       "dwc:namePublishedIn": "Hedwigia 36: 358. 1897. (Hedwigia)",
       "nomenclaturalStatus": "legitimate",
@@ -5116,7 +5031,6 @@
       "id": "https://tropicos.org/name/35154838",
       "type": "TaxonName",
       "taxonNameString": "Leucoloma armitii",
-      "dwc:scientificName": "Leucoloma armitii (Müll.Hal.) Broth.",
       "dwc:scientificNameAuthorship": "Broth.",
       "dwc:namePublishedIn": "Die Natürlichen Pflanzenfamilien I(3) tcs: 322. 1901. (Nat. Pflanzenfam.)",
       "nomenclaturalStatus": "legitimate",
@@ -5126,7 +5040,6 @@
       "id": "https://tropicos.org/name/35121457",
       "type": "TaxonName",
       "taxonNameString": "Dicranoloma armitii",
-      "dwc:scientificName": "Dicranoloma armitii (Müll.Hal.) Paris",
       "dwc:scientificNameAuthorship": "(Müll.Hal.) Paris",
       "nomenclaturalStatus": "legitimate",
       "basionym": "https://tropicos.org/name/35121907"
@@ -5135,7 +5048,6 @@
       "id": "https://tropicos.org/name/35121494",
       "type": "TaxonName",
       "taxonNameString": "Dicranoloma buruense",
-      "dwc:scientificName": "Dicranoloma buruense Broth. & Herzog",
       "dwc:scientificNameAuthorship": "Broth. & Herzog",
       "dwc:namePublishedIn": "Hedwigia 66: 343. 1926. (Hedwigia)",
       "nomenclaturalStatus": "legitimate",
@@ -5188,7 +5100,6 @@
       "id": "https://tropicos.org/name/35121551",
       "type": "TaxonName",
       "taxonNameString": "Dicranoloma johannis-winkleri",
-      "dwc:scientificName": "Dicranoloma johannis-winkleri Broth.",
       "dwc:scientificNameAuthorship": "Broth.",
       "dwc:namePublishedIn": "Mitteilungen aus dem Institut für Allgemeine Botanik in Hamburg 7(2) tcs: 116. 1928. (Mitt. Inst. Allg. Bot. Hamburg)",
       "nomenclaturalStatus": "legitimate",
@@ -5214,7 +5125,6 @@
       "id": "https://tropicos.org/name/35158615",
       "type": "TaxonName",
       "taxonNameString": "Cryptodicranum setosum",
-      "dwc:scientificName": "Cryptodicranum setosum E.B.Bartram",
       "dwc:scientificNameAuthorship": "E.B.Bartram",
       "dwc:namePublishedIn": "The Bryologist 41: 128. f. 1–8. 1938. (Bryologist)",
       "nomenclaturalStatus": "legitimate",
@@ -5254,7 +5164,6 @@
       "id": "https://tropicos.org/name/35158614",
       "type": "TaxonName",
       "taxonNameString": "Cryptodicranum armitii var. fragilifolium",
-      "dwc:scientificName": "Cryptodicranum armitii var. fragilifolium E.B.Bartram",
       "dwc:scientificNameAuthorship": "E.B.Bartram",
       "dwc:namePublishedIn": "The Bryologist 48: 111. 1945. (Bryologist)",
       "nomenclaturalStatus": "legitimate",
@@ -5278,7 +5187,6 @@
       "id": "https://tropicos.org/name/35204725",
       "type": "TaxonName",
       "dwc:namePublishedIn": "Journal of the Hattori Botanical Laboratory 87: 118. 1999. (J. Hattori Bot. Lab.)",
-      "dwc:scientificName": "Dicranum psathyrum Klazenga",
       "dwc:scientificNameAuthorship": "Klazenga",
       "nomenclaturalStatus": "legitimate",
       "replacedName": "https://tropicos.org/name/35121530",
@@ -5301,7 +5209,6 @@
       "id": "https://tropicos.org/name/35121530",
       "type": "TaxonName",
       "taxonNameString": "Dicranoloma fragile",
-      "dwc:scientificName": "Dicranoloma fragile Broth.",
       "dwc:scientificNameAuthorship": "Broth.",
       "dwc:namePublishedIn": "Die natürlichen Pflanzenfamilien, Zweite Auflage 10: 209. 1924. (Nat. Pflanzenfam. (ed. 2) )",
       "nomenclaturalStatus": "legitimate",
@@ -5311,7 +5218,6 @@
       "id": "https://tropicos.org/name/35122365",
       "type": "TaxonName",
       "taxonNameString": "Dicranum fragile",
-      "dwc:scientificName": "Dicranum fragile Hook.",
       "dwc:scientificNameAuthorship": "Hook.",
       "dwc:namePublishedIn": "Musci Exotici 2: 134. 1819. (Musci Exot.)",
       "nomenclaturalStatus": "illegitimate"
@@ -5320,7 +5226,6 @@
       "id": "https://tropicos.org/name/35157135",
       "type": "TaxonName",
       "taxonNameString": "Cecalyphum dichotomum",
-      "dwc:scientificName": "Cecalyphum dichotomum P.Beauv.",
       "dwc:scientificNameAuthorship": "P.Beauv.",
       "dwc:namePublishedIn": "Prodrome des Cinquième et Sixième Familles de l'Aethéogamie 51. 1805. (Prodr. Aethéogam.)",
       "nomenclaturalStatus": "legitimate"
@@ -5329,7 +5234,6 @@
       "id": "https://tropicos.org/name/35121596",
       "type": "TaxonName",
       "taxonNameString": "Dicranoloma platycaulon",
-      "dwc:scientificName": "Dicranoloma platycaulon Dixon",
       "dwc:scientificNameAuthorship": "Dixon",
       "dwc:namePublishedIn": "New Zealand Institute Bulletin 3(1) tcs: 15, pl. 3 f. 10. 1913. (New Zealand Inst. Bull.)",
       "nomenclaturalStatus": "legitimate"
@@ -5338,7 +5242,6 @@
       "id": "https://tropicos.org/name/35121858",
       "type": "TaxonName",
       "taxonNameString": "Dicranum alboalare",
-      "dwc:scientificName": "Dicranum alboalare Müll.Hal.",
       "dwc:scientificNameAuthorship": "Müll.Hal.",
       "dwc:namePublishedIn": "Enumeratio Bryinearum Exoticarum 55. 1888. (Enum. Bryin. Exot.)",
       "nomenclaturalStatus": "invalid"
@@ -5347,7 +5250,6 @@
       "id": "https://tropicos.org/name/35122093",
       "type": "TaxonName",
       "taxonNameString": "Dicranum chiloense",
-      "dwc:scientificName": "Dicranum chiloense Müll.Hal.",
       "dwc:scientificNameAuthorship": "Müll.Hal.",
       "dwc:namePublishedIn": "Enumeratio Bryinearum Exoticarum 54. 1888. (Enum. Bryin. Exot.)",
       "nomenclaturalStatus": "invalid"
@@ -5356,7 +5258,6 @@
       "id": "https://tropicos.org/name/35122121",
       "type": "TaxonName",
       "taxonNameString": "Dicranum commutatum",
-      "dwc:scientificName": "Dicranum commutatum A.Jaeger",
       "dwc:scientificNameAuthorship": "A.Jaeger",
       "dwc:namePublishedIn": "Bericht über die Thätigkeit der St. Gallischen Naturwissenschaftlichen Gesellschaft 1877–78: 495. 1880. (Ber. Thätigk. St. Gallischen Naturwiss. Ges.)",
       "nomenclaturalStatus": "invalid"
@@ -5365,7 +5266,6 @@
       "id": "https://tropicos.org/name/35122178",
       "type": "TaxonName",
       "taxonNameString": "Dicranum cryptopodium",
-      "dwc:scientificName": "Dicranum cryptopodium Broth. & Geh.",
       "dwc:scientificNameAuthorship": "Broth. & Geh.",
       "dwc:namePublishedIn": "Bibliotheca Botanica 44: 3. 1898. (Biblioth. Bot.)",
       "nomenclaturalStatus": "invalid"
@@ -5375,7 +5275,6 @@
       "type": "TaxonName",
       "taxonNameString": "Dicranum reduncum",
       "dwc:namePublishedIn": "Synopsis Muscorum Frondosorum omnium hucusque Cognitorum 1: 374. 1848. (Syn. Musc. Frond.)",
-      "dwc:scientificName": "Dicranum reduncum Duby",
       "dwc:scientificNameAuthorship": "Duby",
       "nomenclaturalStatus": "invalid"
     },
@@ -5383,7 +5282,6 @@
       "id": "https://tropicos.org/name/35124390",
       "type": "TaxonName",
       "taxonNameString": "Dicranum tabulare",
-      "dwc:scientificName": "Dicranum tabulare Rehmann",
       "dwc:scientificNameAuthorship": "Rehmann",
       "dwc:namePublishedIn": "Revue Bryologique 5: 69. 1878. (Rev. Bryol.)",
       "nomenclaturalStatus": "invalid"
@@ -5392,10 +5290,917 @@
       "id": "https://tropicos.org/name/35131611",
       "type": "TaxonName",
       "taxonNameString": "Dicranum truncorum",
-      "dwc:scientificName": "Dicranum truncorum Müll.Hal.",
       "dwc:scientificNameAuthorship": "Müll.Hal.",
       "dwc:namePublishedIn": "Botanische Zeitung (Berlin) 17: 215. 1859. (Bot. Zeitung (Berlin) )",
       "nomenclaturalStatus": "legitimate"
+    },
+    {
+      "id": "_:ann1",
+      "type": "Annotation",
+      "motivation": "commenting",
+      "body": {
+        "type": "TaxonConceptMapping",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35121455",
+        "mappingRelation": "isCongruentWith",
+        "objectTaxonConcept": "https://tropicos.org/reference/9002886#name-35121455",
+        "mappingAccordingTo": "_:ann1"
+      },
+      "target": "https://tropicos.org/reference/9020903#name-35121455",
+      "creator": "https://orcid.org/0000-0003-2224-6821",
+      "created": "2023-10-22T23:44:00+11"
+    },
+    {
+      "id": "_:ann2",
+      "type": "Annotation",
+      "motivation": "commenting",
+      "body": {
+        "type": "TaxonConceptMapping",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35121455",
+        "mappingRelation": "isCongruentWith",
+        "objectTaxonConcept": "https://tropicos.org/reference/9005756#name-35121455",
+        "mappingAccordingTo": "_:ann2"
+      },
+      "target": "https://tropicos.org/reference/9020903#name-35121455",
+      "creator": "https://orcid.org/0000-0003-2224-6821",
+      "created": "2023-10-22T23:44:00+11"
+    },
+    {
+      "id": "_:ann3",
+      "type": "Annotation",
+      "motivation": "commenting",
+      "body": {
+        "type": "TaxonConceptMapping",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35121455",
+        "mappingRelation": "isCongruentWith",
+        "objectTaxonConcept": "https://tropicos.org/reference/9007945#name-35121903",
+        "mappingAccordingTo": "_:ann3"
+      },
+      "target": "https://tropicos.org/reference/9020903#name-35121455",
+      "creator": "https://orcid.org/0000-0003-2224-6821",
+      "created": "2023-10-22T23:44:00+11"
+    },
+
+    {
+      "id": "_:ann4",
+      "type": "Annotation",
+      "motivation": "commenting",
+      "body": {
+        "type": "TaxonConceptMapping",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35121458",
+        "mappingRelation": "isIncludedIn",
+        "objectTaxonConcept": "https://tropicos.org/reference/9002886#name-35121458",
+        "mappingAccordingTo": "_:ann4",
+        "rdfs:comment": "incl. Dicranoloma brassii"
+      },
+      "target": "https://tropicos.org/reference/9020903#name-35121458",
+      "creator": "https://orcid.org/0000-0003-2224-6821",
+      "created": "2023-10-22T23:44:00+11"
+    },
+    {
+      "id": "_:ann5",
+      "type": "Annotation",
+      "motivation": "commenting",
+      "body": {
+        "type": "TaxonConceptMapping",
+        "objectTaxonConcept": "https://tropicos.org/reference/9005756#name-35121458",
+        "mappingRelation": "partiallyOverlaps",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35121458",
+        "mappingAccordingTo": "_:ann5",
+        "rdfs:comment": "incl. Dicranoloma brassii; excl. \"Dicranoloma laevifolium\""
+      },
+      "target": "https://tropicos.org/reference/9020903#name-35121458",
+      "creator": "https://orcid.org/0000-0003-2224-6821",
+      "created": "2023-10-22T23:44:00+11"
+    },
+    {
+      "id": "_:ann6",
+      "type": "Annotation",
+      "motivation": "commenting",
+      "body": {
+        "type": "TaxonConceptMapping",
+        "objectTaxonConcept": "https://tropicos.org/reference/9005756#name-35121556",
+        "mappingRelation": "includes",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35121458",
+        "mappingAccordingTo": "_:ann6",
+        "rdfs:comment": "The type of Dicranum laevifolium belongs to Dicranoloma braunii but specimens seen by Eddy belong to Dicranoloma assimile"
+      },
+      "target": "https://tropicos.org/reference/9020903#name-35121458",
+      "creator": "https://orcid.org/0000-0003-2224-6821",
+      "created": "2023-10-22T23:44:00+11"
+    },
+    {
+      "id": "_:ann7",
+      "type": "Annotation",
+      "motivation": "commenting",
+      "body": {
+        "type": "TaxonConceptMapping",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35121458",
+        "mappingRelation": "includes",
+        "objectTaxonConcept": "https://tropicos.org/reference/9006742#name-35121596",
+        "mappingAccordingTo": "_:ann7",
+        "rdfs:comment": "excl. Dicranoloma euryloma var. rugifolium"
+      },
+      "target": "https://tropicos.org/reference/9020903#name-35121458",
+      "creator": "https://orcid.org/0000-0003-2224-6821",
+      "created": "2023-10-22T23:44:00+11"
+    },
+    {
+      "id": "_:ann8",
+      "type": "Annotation",
+      "motivation": "commenting",
+      "body": {
+        "type": "TaxonConceptMapping",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35121458",
+        "mappingRelation": "includes",
+        "objectTaxonConcept": "https://tropicos.org/reference/9006742#name-35121458",
+        "mappingAccordingTo": "_:ann8",
+        "rdfs:comment": "excl. Dicranoloma euryloma var. rugifolium"
+      },
+      "target": "https://tropicos.org/reference/9020903#name-35121458",
+      "creator": "https://orcid.org/0000-0003-2224-6821",
+      "created": "2023-10-22T23:44:00+11"
+    },
+    {
+      "id": "_:ann9",
+      "type": "Annotation",
+      "motivation": "commenting",
+      "body": {
+        "type": "TaxonConceptMapping",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35121458",
+        "mappingRelation": "includes",
+        "objectTaxonConcept": "https://tropicos.org/reference/9007945#name-35121913",
+        "mappingAccordingTo": "_:ann9",
+        "rdfs:comment": "excl. Dicranoloma brachyphyllum, Dicranoloma havilandii var. latifolium"
+      },
+      "target": "https://tropicos.org/reference/9020903#name-35121458",
+      "creator": "https://orcid.org/0000-0003-2224-6821",
+      "created": "2023-10-22T23:44:00+11"
+    },
+    {
+      "id": "_:ann10",
+      "type": "Annotation",
+      "motivation": "commenting",
+      "body": {
+        "type": "TaxonConceptMapping",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35121458",
+        "mappingRelation": "partiallyOverlaps",
+        "objectTaxonConcept": "https://tropicos.org/reference/9007945#name-35184276",
+        "mappingAccordingTo": "_:ann10",
+        "rdfs:comment": "incl. Dicranoloma brachyphyllum, Dicranoloma havilandii var. latifolium"
+      },
+      "target": "https://tropicos.org/reference/9020903#name-35121458",
+      "creator": "https://orcid.org/0000-0003-2224-6821",
+      "created": "2023-10-22T23:44:00+11"
+    },
+    {
+      "id": "_:ann11",
+      "type": "Annotation",
+      "motivation": "commenting",
+      "body": {
+        "type": "TaxonConceptMapping",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35121617",
+        "mappingRelation": "isIncludedIn",
+        "objectTaxonConcept": "https://tropicos.org/reference/9007945#name-35184276",
+        "mappingAccordingTo": "_:ann11",
+        "rdfs:comment": "incl. Dicranoloma brachyphyllum, Dicranoloma havilandii var. latifolium"
+      },
+      "target": "https://tropicos.org/reference/9020903#name-35121458",
+      "creator": "https://orcid.org/0000-0003-2224-6821",
+      "created": "2023-10-22T23:44:00+11"
+    },
+
+    {
+      "id": "_:ann12",
+      "type": "Annotation",
+      "motivation": "commenting",
+      "body": {
+        "type": "TaxonConceptMapping",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35121542",
+        "mappingRelation": "isCongruentWith",
+        "objectTaxonConcept": "https://tropicos.org/reference/9005756#name-35121542",
+        "mappingAccordingTo": "_:ann12"
+      },
+      "target": "https://tropicos.org/reference/9020903#name-35121542",
+      "creator": "https://orcid.org/0000-0003-2224-6821",
+      "created": "2023-10-22T23:44:00+11"
+    },
+    {
+      "id": "_:ann13",
+      "type": "Annotation",
+      "motivation": "commenting",
+      "body": {
+        "type": "TaxonConceptMapping",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35121542",
+        "mappingRelation": "isCongruentWith",
+        "objectTaxonConcept": "https://tropicos.org/reference/9006742#name-35121542",
+        "mappingAccordingTo": "_:ann13"
+      },
+      "target": "https://tropicos.org/reference/9020903#name-35121542",
+      "creator": "https://orcid.org/0000-0003-2224-6821",
+      "created": "2023-10-22T23:44:00+11"
+    },
+
+    {
+      "id": "_:ann14",
+      "type": "Annotation",
+      "motivation": "commenting",
+      "body": {
+        "type": "TaxonConceptMapping",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35121514",
+        "mappingRelation": "includes",
+        "objectTaxonConcept": "https://tropicos.org/reference/9002886#name-35121514",
+        "mappingAccordingTo": "_:ann14",
+        "rdfs:comment": "excl. Dicranoloma brassii"
+      },
+      "target": "https://tropicos.org/reference/9020903#name-35121514",
+      "creator": "https://orcid.org/0000-0003-2224-6821",
+      "created": "2023-10-22T23:44:00+11"
+    },
+    {
+      "id": "_:ann15",
+      "type": "Annotation",
+      "motivation": "commenting",
+      "body": {
+        "type": "TaxonConceptMapping",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35121514",
+        "mappingRelation": "includes",
+        "objectTaxonConcept": "https://tropicos.org/reference/9002886#name-35121483",
+        "mappingAccordingTo": "_:ann15"
+      },
+      "target": "https://tropicos.org/reference/9020903#name-35121514",
+      "creator": "https://orcid.org/0000-0003-2224-6821",
+      "created": "2023-10-22T23:44:00+11"
+    },
+    {
+      "id": "_:ann16",
+      "type": "Annotation",
+      "motivation": "commenting",
+      "body": {
+        "type": "TaxonConceptMapping",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35121514",
+        "mappingRelation": "isCongruentWith",
+        "objectTaxonConcept": "https://tropicos.org/reference/9007945#name-35122214",
+        "mappingAccordingTo": "_:ann16"
+      },
+      "target": "https://tropicos.org/reference/9020903#name-35121514",
+      "creator": "https://orcid.org/0000-0003-2224-6821",
+      "created": "2023-10-22T23:44:00+11"
+    },
+
+    {
+      "id": "_:ann17",
+      "type": "Annotation",
+      "motivation": "commenting",
+      "body": {
+        "type": "TaxonConceptMapping",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35121609",
+        "mappingRelation": "includes",
+        "objectTaxonConcept": "https://tropicos.org/reference/9002886#name-35121609",
+        "mappingAccordingTo": "_:ann17",
+        "rdfs:comment": "excl. Dicranum dives"
+      },
+      "target": "https://tropicos.org/reference/9020903#name-35121609",
+      "creator": "https://orcid.org/0000-0003-2224-6821",
+      "created": "2023-10-22T23:44:00+11"
+    },
+    {
+      "id": "_:ann18",
+      "type": "Annotation",
+      "motivation": "commenting",
+      "body": {
+        "type": "TaxonConceptMapping",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35121609",
+        "mappingRelation": "includes",
+        "objectTaxonConcept": "https://tropicos.org/reference/9002886#name-35121518",
+        "mappingAccordingTo": "_:ann18"
+      },
+      "target": "https://tropicos.org/reference/9020903#name-35121609",
+      "creator": "https://orcid.org/0000-0003-2224-6821",
+      "created": "2023-10-22T23:44:00+11"
+    },
+    {
+      "id": "_:ann19",
+      "type": "Annotation",
+      "motivation": "commenting",
+      "body": {
+        "type": "TaxonConceptMapping",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35121609",
+        "mappingRelation": "isCongruentWith",
+        "objectTaxonConcept": "https://tropicos.org/reference/9005756#name-35121609",
+        "mappingAccordingTo": "_:ann19"
+      },
+      "target": "https://tropicos.org/reference/9020903#name-35121609",
+      "creator": "https://orcid.org/0000-0003-2224-6821",
+      "created": "2023-10-22T23:44:00+11"
+    },
+    {
+      "id": "_:ann20",
+      "type": "Annotation",
+      "motivation": "commenting",
+      "body": {
+        "type": "TaxonConceptMapping",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35121609",
+        "mappingRelation": "isCongruentWith",
+        "objectTaxonConcept": "https://tropicos.org/reference/9005756#name-35121609",
+        "mappingAccordingTo": "_:ann120"
+      },
+      "target": "https://tropicos.org/reference/9020903#name-35121609",
+      "creator": "https://orcid.org/0000-0003-2224-6821",
+      "created": "2023-10-22T23:44:00+11"
+    },
+
+    {
+      "id": "_:ann21",
+      "type": "Annotation",
+      "motivation": "commenting",
+      "body": {
+        "type": "TaxonConceptMapping",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35121509",
+        "mappingRelation": "isCongruentWith",
+        "objectTaxonConcept": "https://tropicos.org/reference/9002886#name-35121509",
+        "mappingAccordingTo": "_:ann21"
+      },
+      "target": "https://tropicos.org/reference/9020903#name-35121509",
+      "creator": "https://orcid.org/0000-0003-2224-6821",
+      "created": "2023-10-22T23:44:00+11"
+    },
+    {
+      "id": "_:ann22",
+      "type": "Annotation",
+      "motivation": "commenting",
+      "body": {
+        "type": "TaxonConceptMapping",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35121509",
+        "mappingRelation": "isIncludedIn",
+        "objectTaxonConcept": "https://tropicos.org/reference/9005756#name-35121530",
+        "mappingAccordingTo": "_:ann22"
+      },
+      "target": "https://tropicos.org/reference/9020903#name-35121509",
+      "creator": "https://orcid.org/0000-0003-2224-6821",
+      "created": "2023-10-22T23:44:00+11"
+    },
+    {
+      "id": "_:ann23",
+      "type": "Annotation",
+      "motivation": "commenting",
+      "body": {
+        "type": "TaxonConceptMapping",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35121509",
+        "mappingRelation": "isCongruentWith",
+        "objectTaxonConcept": "https://tropicos.org/reference/9007945#name-35184274",
+        "mappingAccordingTo": "_:ann23"
+      },
+      "target": "https://tropicos.org/reference/9020903#name-35121509",
+      "creator": "https://orcid.org/0000-0003-2224-6821",
+      "created": "2023-10-22T23:44:00+11"
+    },
+    {
+      "id": "_:ann24",
+      "type": "Annotation",
+      "motivation": "commenting",
+      "body": {
+        "type": "TaxonConceptMapping",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35204725",
+        "mappingRelation": "isCongruentWith",
+        "objectTaxonConcept": "https://tropicos.org/reference/9002886#name-35121530",
+        "mappingAccordingTo": "_:ann24"
+      },
+      "target": "https://tropicos.org/reference/9020903#name-35204725",
+      "creator": "https://orcid.org/0000-0003-2224-6821",
+      "created": "2023-10-22T23:44:00+11"
+    },
+    {
+      "id": "_:ann25",
+      "type": "Annotation",
+      "motivation": "commenting",
+      "body": {
+        "type": "TaxonConceptMapping",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35121467",
+        "mappingRelation": "includes",
+        "objectTaxonConcept": "https://tropicos.org/reference/9002886#name-35121467",
+        "mappingAccordingTo": "_:ann25"
+      },
+      "target": "https://tropicos.org/reference/9020903#name-35121467",
+      "creator": "https://orcid.org/0000-0003-2224-6821",
+      "created": "2023-10-22T23:44:00+11"
+    },
+    {
+      "id": "_:ann26",
+      "type": "Annotation",
+      "motivation": "commenting",
+      "body": {
+        "type": "TaxonConceptMapping",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35121467",
+        "mappingRelation": "includes",
+        "objectTaxonConcept": "https://tropicos.org/reference/9002886#name-35121578",
+        "mappingAccordingTo": "_:ann26"
+      },
+      "target": "https://tropicos.org/reference/9020903#name-35121467",
+      "creator": "https://orcid.org/0000-0003-2224-6821",
+      "created": "2023-10-22T23:44:00+11"
+    },
+    {
+      "id": "_:ann27",
+      "type": "Annotation",
+      "motivation": "commenting",
+      "body": {
+        "type": "TaxonConceptMapping",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35121467",
+        "mappingRelation": "includes",
+        "objectTaxonConcept": "https://tropicos.org/reference/9005756#name-35121467",
+        "mappingAccordingTo": "_:ann27"
+      },
+      "target": "https://tropicos.org/reference/9020903#name-35121467",
+      "creator": "https://orcid.org/0000-0003-2224-6821",
+      "created": "2023-10-22T23:44:00+11"
+    },
+    {
+      "id": "_:ann28",
+      "type": "Annotation",
+      "motivation": "commenting",
+      "body": {
+        "type": "TaxonConceptMapping",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35121467",
+        "mappingRelation": "includes",
+        "objectTaxonConcept": "https://tropicos.org/reference/9005756#name-35121488",
+        "mappingAccordingTo": "_:ann28"
+      },
+      "target": "https://tropicos.org/reference/9020903#name-35121467",
+      "creator": "https://orcid.org/0000-0003-2224-6821",
+      "created": "2023-10-22T23:44:00+11"
+    },
+    {
+      "id": "_:ann29",
+      "type": "Annotation",
+      "motivation": "commenting",
+      "body": {
+        "type": "TaxonConceptMapping",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35121467",
+        "mappingRelation": "includes",
+        "objectTaxonConcept": "https://tropicos.org/reference/9005756#name-35121578",
+        "mappingAccordingTo": "_:ann29"
+      },
+      "target": "https://tropicos.org/reference/9020903#name-35121467",
+      "creator": "https://orcid.org/0000-0003-2224-6821",
+      "created": "2023-10-22T23:44:00+11"
+    },
+    {
+      "id": "_:ann30",
+      "type": "Annotation",
+      "motivation": "commenting",
+      "body": {
+        "type": "TaxonConceptMapping",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35121467",
+        "mappingRelation": "includes",
+        "objectTaxonConcept": "https://tropicos.org/reference/9006742#name-35121467",
+        "mappingAccordingTo": "_:ann30"
+      },
+      "target": "https://tropicos.org/reference/9020903#name-35121467",
+      "creator": "https://orcid.org/0000-0003-2224-6821",
+      "created": "2023-10-22T23:44:00+11"
+    },
+    {
+      "id": "_:ann31",
+      "type": "Annotation",
+      "motivation": "commenting",
+      "body": {
+        "type": "TaxonConceptMapping",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35121467",
+        "mappingRelation": "includes",
+        "objectTaxonConcept": "https://tropicos.org/reference/9006742#name-35121578",
+        "mappingAccordingTo": "_:ann31"
+      },
+      "target": "https://tropicos.org/reference/9020903#name-35121467",
+      "creator": "https://orcid.org/0000-0003-2224-6821",
+      "created": "2023-10-22T23:44:00+11"
+    },
+    {
+      "id": "_:ann32",
+      "type": "Annotation",
+      "motivation": "commenting",
+      "body": {
+        "type": "TaxonConceptMapping",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35121467",
+        "mappingRelation": "includes",
+        "objectTaxonConcept": "https://tropicos.org/reference/9007945#name-35121960",
+        "mappingAccordingTo": "_:ann32"
+      },
+      "target": "https://tropicos.org/reference/9020903#name-35121467",
+      "creator": "https://orcid.org/0000-0003-2224-6821",
+      "created": "2023-10-22T23:44:00+11"
+    },
+    {
+      "id": "_:ann33",
+      "type": "Annotation",
+      "motivation": "commenting",
+      "body": {
+        "type": "TaxonConceptMapping",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35121467",
+        "mappingRelation": "includes",
+        "objectTaxonConcept": "https://tropicos.org/reference/9007945#-name-35123838",
+        "mappingAccordingTo": "_:ann33"
+      },
+      "target": "https://tropicos.org/reference/9020903#name-35121467",
+      "creator": "https://orcid.org/0000-0003-2224-6821",
+      "created": "2023-10-22T23:44:00+11"
+    },
+
+    {
+      "id": "_:ann34",
+      "type": "Annotation",
+      "motivation": "commenting",
+      "body": {
+        "type": "TaxonConceptMapping",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35121475",
+        "mappingRelation": "isCongruentWith",
+        "objectTaxonConcept": "https://tropicos.org/reference/9002886#name-35121475",
+        "mappingAccordingTo": "_:ann34"
+      },
+      "target": "https://tropicos.org/reference/9020903#name-35121475",
+      "creator": "https://orcid.org/0000-0003-2224-6821",
+      "created": "2023-10-22T23:44:00+11"
+    },
+    {
+      "id": "_:ann35",
+      "type": "Annotation",
+      "motivation": "commenting",
+      "body": {
+        "type": "TaxonConceptMapping",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35121475",
+        "mappingRelation": "isCongruentWith",
+        "objectTaxonConcept": "https://tropicos.org/reference/9005756#name-35121475",
+        "mappingAccordingTo": "_:ann35"
+      },
+      "target": "https://tropicos.org/reference/9020903#name-35121475",
+      "creator": "https://orcid.org/0000-0003-2224-6821",
+      "created": "2023-10-22T23:44:00+11"
+    },
+    {
+      "id": "_:ann36",
+      "type": "Annotation",
+      "motivation": "commenting",
+      "body": {
+        "type": "TaxonConceptMapping",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35121475",
+        "mappingRelation": "includes",
+        "objectTaxonConcept": "https://tropicos.org/reference/9006742#name-35121475",
+        "mappingAccordingTo": "_:ann36"
+      },
+      "target": "https://tropicos.org/reference/9020903#name-35121475",
+      "creator": "https://orcid.org/0000-0003-2224-6821",
+      "created": "2023-10-22T23:44:00+11"
+    },
+    {
+      "id": "_:ann37",
+      "type": "Annotation",
+      "motivation": "commenting",
+      "body": {
+        "type": "TaxonConceptMapping",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35121475",
+        "mappingRelation": "includes",
+        "objectTaxonConcept": "https://tropicos.org/reference/9006742#name-35121484",
+        "mappingAccordingTo": "_:ann37"
+      },
+      "target": "https://tropicos.org/reference/9020903#name-35121475",
+      "creator": "https://orcid.org/0000-0003-2224-6821",
+      "created": "2023-10-22T23:44:00+11"
+    },
+    {
+      "id": "_:ann38",
+      "type": "Annotation",
+      "motivation": "commenting",
+      "body": {
+        "type": "TaxonConceptMapping",
+        "objectTaxonConcept": "https://tropicos.org/reference/9007945#name-35121972",
+        "mappingRelation": "isCongruentWith",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35121475",
+        "mappingAccordingTo": "_:ann38"
+      },
+      "target": "https://tropicos.org/reference/9020903#name-35121475",
+      "creator": "https://orcid.org/0000-0003-2224-6821",
+      "created": "2023-10-22T23:44:00+11"
+    },
+
+    {
+      "id": "_:ann39",
+      "type": "Annotation",
+      "motivation": "commenting",
+      "body": {
+        "type": "TaxonConceptMapping",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35121491",
+        "mappingRelation": "isIncludedIn",
+        "objectTaxonConcept": "https://tropicos.org/reference/9002886#name-35121491",
+        "mappingAccordingTo": "_:ann39"
+      },
+      "target": "https://tropicos.org/reference/9020903#name-35121491",
+      "creator": "https://orcid.org/0000-0003-2224-6821",
+      "created": "2023-10-22T23:44:00+11"
+    },
+    {
+      "id": "_:ann40",
+      "type": "Annotation",
+      "motivation": "commenting",
+      "body": {
+        "type": "TaxonConceptMapping",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35121491",
+        "mappingRelation": "includes",
+        "objectTaxonConcept": "https://tropicos.org/reference/9005756#name-35121491",
+        "mappingAccordingTo": "_:ann40"
+      },
+      "target": "https://tropicos.org/reference/9020903#name-35121491",
+      "creator": "https://orcid.org/0000-0003-2224-6821",
+      "created": "2023-10-22T23:44:00+11"
+    },
+    {
+      "id": "_:ann41",
+      "type": "Annotation",
+      "motivation": "commenting",
+      "body": {
+        "type": "TaxonConceptMapping",
+        "objectTaxonConcept": "https://tropicos.org/reference/9002886#name-35191032",
+        "mappingRelation": "isCongruentWith",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35121491",
+        "mappingAccordingTo": "_:ann41"
+      },
+      "target": "https://tropicos.org/reference/9020903#name-35121491",
+      "creator": "https://orcid.org/0000-0003-2224-6821",
+      "created": "2023-10-22T23:44:00+11"
+    },
+    {
+      "id": "_:ann42",
+      "type": "Annotation",
+      "motivation": "commenting",
+      "body": {
+        "type": "TaxonConceptMapping",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35204725",
+        "mappingRelation": "isIncludedIn",
+        "objectTaxonConcept": "https://tropicos.org/reference/9005756#name-35121491",
+        "mappingAccordingTo": "_:ann42"
+      },
+      "target": "https://tropicos.org/reference/9020903#name-35204725",
+      "creator": "https://orcid.org/0000-0003-2224-6821",
+      "created": "2023-10-22T23:44:00+11"
+    },
+    {
+      "id": "_:ann43",
+      "type": "Annotation",
+      "motivation": "commenting",
+      "body": {
+        "type": "TaxonConceptMapping",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35121491",
+        "mappingRelation": "includes",
+        "objectTaxonConcept": "https://tropicos.org/reference/9005756#name-35121559",
+        "mappingAccordingTo": "_:ann43"
+      },
+      "target": "https://tropicos.org/reference/9020903#name-35121491",
+      "creator": "https://orcid.org/0000-0003-2224-6821",
+      "created": "2023-10-22T23:44:00+11"
+    },
+    {
+      "id": "_:ann44",
+      "type": "Annotation",
+      "motivation": "commenting",
+      "body": {
+        "type": "TaxonConceptMapping",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35121491",
+        "mappingRelation": "isIncludedIn",
+        "objectTaxonConcept": "https://tropicos.org/reference/9006742#name-35121491",
+        "mappingAccordingTo": "_:ann44"
+      },
+      "target": "https://tropicos.org/reference/9020903#name-35121491",
+      "creator": "https://orcid.org/0000-0003-2224-6821",
+      "created": "2023-10-22T23:44:00+11"
+    },
+    {
+      "id": "_:ann45",
+      "type": "Annotation",
+      "motivation": "commenting",
+      "body": {
+        "type": "TaxonConceptMapping",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35121491",
+        "mappingRelation": "isIncludedIn",
+        "objectTaxonConcept": "https://tropicos.org/reference/9007945#name-35122018",
+        "mappingAccordingTo": "_:ann45",
+        "rdfs:comment": "Dicranoloma brevisetum does not occur in New Guinea, but Norris & Koponen (1990) include Megalostylium brevisetum as a synonym of Dicranum braunii"
+      },
+      "target": "https://tropicos.org/reference/9020903#name-35121491",
+      "creator": "https://orcid.org/0000-0003-2224-6821",
+      "created": "2023-10-22T23:44:00+11"
+    },
+
+    {
+      "id": "_:ann46",
+      "type": "Annotation",
+      "motivation": "commenting",
+      "body": {
+        "type": "TaxonConceptMapping",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35121486",
+        "mappingRelation": "partiallyOverlaps",
+        "objectTaxonConcept": "https://tropicos.org/reference/9002886#name-35121491",
+        "mappingAccordingTo": "_:ann46",
+        "rdfs:comment": "excl. Leucoloma brachypelma"
+      },
+      "target": "https://tropicos.org/reference/9020903#name-35121486",
+      "creator": "https://orcid.org/0000-0003-2224-6821",
+      "created": "2023-10-22T23:44:00+11"
+    },
+    {
+      "id": "_:ann47",
+      "type": "Annotation",
+      "motivation": "commenting",
+      "body": {
+        "type": "TaxonConceptMapping",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35121486",
+        "mappingRelation": "partiallyOverlaps",
+        "objectTaxonConcept": "https://tropicos.org/reference/9002886#name-35167976",
+        "mappingAccordingTo": "_:ann47",
+        "rdfs:comment": "excl. Leucoloma brachypelma"
+      },
+      "target": "https://tropicos.org/reference/9020903#name-35121486",
+      "creator": "https://orcid.org/0000-0003-2224-6821",
+      "created": "2023-10-22T23:44:00+11"
+    },
+    {
+      "id": "_:ann48",
+      "type": "Annotation",
+      "motivation": "commenting",
+      "body": {
+        "type": "TaxonConceptMapping",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35121486",
+        "mappingRelation": "includes",
+        "objectTaxonConcept": "https://tropicos.org/reference/9002886#name-35167975",
+        "mappingAccordingTo": "_:ann48"
+      },
+      "target": "https://tropicos.org/reference/9020903#name-35121486",
+      "creator": "https://orcid.org/0000-0003-2224-6821",
+      "created": "2023-10-22T23:44:00+11"
+    },
+    {
+      "id": "_:ann49",
+      "type": "Annotation",
+      "motivation": "commenting",
+      "body": {
+        "type": "TaxonConceptMapping",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35121486",
+        "mappingRelation": "isCongruentWith",
+        "objectTaxonConcept": "https://tropicos.org/reference/9005756#name-35121486",
+        "mappingAccordingTo": "_:ann49"
+      },
+      "target": "https://tropicos.org/reference/9020903#name-35121486",
+      "creator": "https://orcid.org/0000-0003-2224-6821",
+      "created": "2023-10-22T23:44:00+11"
+    },
+    {
+      "id": "_:ann50",
+      "type": "Annotation",
+      "motivation": "commenting",
+      "body": {
+        "type": "TaxonConceptMapping",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35121486",
+        "mappingRelation": "isIncludedIn",
+        "objectTaxonConcept": "https://tropicos.org/reference/9006742#name-35121491",
+        "mappingAccordingTo": "_:ann50"
+      },
+      "target": "https://tropicos.org/reference/9020903#name-35121486",
+      "creator": "https://orcid.org/0000-0003-2224-6821",
+      "created": "2023-10-22T23:44:00+11"
+    },
+    {
+      "id": "_:ann51",
+      "type": "Annotation",
+      "motivation": "commenting",
+      "body": {
+        "type": "TaxonConceptMapping",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35121486",
+        "mappingRelation": "isIncludedIn",
+        "objectTaxonConcept": "https://tropicos.org/reference/9007945#name-35122018",
+        "mappingAccordingTo": "_:ann51"
+      },
+      "target": "https://tropicos.org/reference/9020903#name-35121486",
+      "creator": "https://orcid.org/0000-0003-2224-6821",
+      "created": "2023-10-22T23:44:00+11"
+    },
+    {
+      "id": "_:ann52",
+      "type": "Annotation",
+      "motivation": "commenting",
+      "body": {
+        "type": "TaxonConceptMapping",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35204724",
+        "mappingRelation": "isCongruentWith",
+        "objectTaxonConcept": "https://tropicos.org/reference/9007945#name-35184272",
+        "mappingAccordingTo": "_:ann52"
+      },
+      "target": "https://tropicos.org/reference/9020903#name-35204724",
+      "creator": "https://orcid.org/0000-0003-2224-6821",
+      "created": "2023-10-22T23:44:00+11"
+    },
+
+    {
+      "id": "_:ann53",
+      "type": "Annotation",
+      "motivation": "commenting",
+      "body": {
+        "type": "TaxonConceptMapping",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35158613",
+        "mappingRelation": "isCongruentWith",
+        "objectTaxonConcept": "https://tropicos.org/reference/9002886#name-35121457",
+        "mappingAccordingTo": "_:ann53"
+      },
+      "target": "https://tropicos.org/reference/9020903#name-35158613",
+      "creator": "https://orcid.org/0000-0003-2224-6821",
+      "created": "2023-10-22T23:44:00+11"
+    },
+    {
+      "id": "_:ann54",
+      "type": "Annotation",
+      "motivation": "commenting",
+      "body": {
+        "type": "TaxonConceptMapping",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35158613",
+        "mappingRelation": "isCongruentWith",
+        "objectTaxonConcept": "https://tropicos.org/reference/9005756#name-35158613",
+        "mappingAccordingTo": "_:ann54"
+      },
+      "target": "https://tropicos.org/reference/9020903#name-35158613",
+      "creator": "https://orcid.org/0000-0003-2224-6821",
+      "created": "2023-10-22T23:44:00+11"
+    },
+    {
+      "id": "_:ann55",
+      "type": "Annotation",
+      "motivation": "commenting",
+      "body": {
+        "type": "TaxonConceptMapping",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35158613",
+        "mappingRelation": "isCongruentWith",
+        "objectTaxonConcept": "https://tropicos.org/reference/9006742#name-35121457",
+        "mappingAccordingTo": "_:ann55"
+      },
+      "target": "https://tropicos.org/reference/9020903#name-35158613",
+      "creator": "https://orcid.org/0000-0003-2224-6821",
+      "created": "2023-10-22T23:44:00+11"
+    },
+    {
+      "id": "_:ann56",
+      "type": "Annotation",
+      "motivation": "commenting",
+      "body": {
+        "type": "TaxonConceptMapping",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35158613",
+        "mappingRelation": "isCongruentWith",
+        "objectTaxonConcept": "https://tropicos.org/reference/9007945#name-35121907",
+        "mappingAccordingTo": "_:ann56"
+      },
+      "target": "https://tropicos.org/reference/9020903#name-35158613",
+      "creator": "https://orcid.org/0000-0003-2224-6821",
+      "created": "2023-10-22T23:44:00+11"
+    },
+
+    {
+      "id": "_:ann57",
+      "type": "Annotation",
+      "motivation": "commenting",
+      "body": {
+        "type": "TaxonConceptMapping",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35184079",
+        "mappingRelation": "isCongruentWith",
+        "objectTaxonConcept": "https://tropicos.org/reference/9005756#name-35184079",
+        "mappingAccordingTo": "_:ann57"
+      },
+      "target": "https://tropicos.org/reference/9020903#name-35184079",
+      "creator": "https://orcid.org/0000-0003-2224-6821",
+      "created": "2023-10-22T23:44:00+11"
+    },
+    {
+      "id": "_:ann58",
+      "type": "Annotation",
+      "motivation": "commenting",
+      "body": {
+        "type": "TaxonConceptMapping",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35184079",
+        "mappingRelation": "isCongruentWith",
+        "objectTaxonConcept": "https://tropicos.org/reference/9007945#name-35184275",
+        "mappingAccordingTo": "_:ann58"
+      },
+      "target": "https://tropicos.org/reference/9020903#name-35184079",
+      "creator": "https://orcid.org/0000-0003-2224-6821",
+      "created": "2023-10-22T23:44:00+11"
+    },
+    {
+      "id": "_:ann59",
+      "type": "Annotation",
+      "motivation": "commenting",
+      "body": {
+        "type": "TaxonConceptMapping",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35204723",
+        "mappingRelation": "isCongruentWith",
+        "objectTaxonConcept": "https://tropicos.org/reference/9007945#name-35204723",
+        "mappingAccordingTo": "_:ann59"
+      },
+      "target": "https://tropicos.org/reference/9020903#name-35204723",
+      "creator": "https://orcid.org/0000-0003-2224-6821",
+      "created": "2023-10-22T23:44:00+11"
     }
   ]
 }

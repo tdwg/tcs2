@@ -8,9 +8,14 @@
 @prefix dwciri: <http://rs.tdwg.org/dwc/iri/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix gbif: <http://rs.gbif.org/terms/1.0/> .
+@prefix oa: <http://www.w3.org/ns/oa#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
+
+################################################################################
+# Treatments
+################################################################################
 
 <https://tropicos.org/reference/9002886> a bibo:AcademicArticle ;
     dcterms:title """Dicranoloma (Musci, Dicranaceae) in Southeast Asia, with 
@@ -38,6 +43,88 @@
 <https://www.wikidata.org/wiki/Q5411655> a foaf:Person ;
     foaf:givenName "Timo Juhani" ;
     foaf:surname "Koponen" .
+
+<https://tropicos.org/reference/9005756> a bibo:Book ;
+    dcterms:title "Sphagnales to Dicranales" ;
+    dcterms:creator <https://www.wikidata.org/wiki/Q21511351> ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 <https://www.wikidata.org/wiki/Q21511351> ] ;
+    dcterms:isPartOf <https://tropicos.org/publication/7628> ;
+    bibo:volume "1" ;
+    bibo:isbn "0-567-01038-7" .
+
+<https://tropicos.org/publication/7628> a bibo:MultiVolumeBook ;
+    dcterms:title "A Handbook of Malesian Mosses" ;
+    bibo:shortTitle "Hand. Males. Mosses" ;
+    bibo:publisher [ a foaf:Organization ;
+            foaf:name "Natural History Museum Publications" ;
+            address:localityName "London" ] .
+
+<https://www.wikidata.org/wiki/Q21511351> a foaf:Person ;
+    foaf:givenName "Alan" ;
+    foaf:surname "Eddy" .
+
+<https://tropicos.org/reference/9006742> a tcs:bibo:AcademicArticle ;
+    dcterms:title """The bryophytes of Sabah (North Borneo) with special 
+            reference to the BRYOTROP transect of Mount Kinabalu. II. 
+            Dicranoloma and Brotherobryum (Dicranaceae, Bryopsida)""" ;
+    dcterms:creator <https://www.wikidata.org/wiki/Q21339909> ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 <https://www.wikidata.org/wiki/Q21339909> ] ;
+    dcterms:isPartOf [ a bibo:Issue ;
+            dcterms:date "1989" ;
+            dcterms:isPartOf <https://tropicos.org/publication/3087> ;
+            bibo:volume "18" ] ;
+    bibo:pages "497-512" .
+
+<https://tropicos.org/publication/3087> a bibo:Journal ;
+    dcterms:title "Willdenowia" .
+
+<https://tropicos.org/reference/9007945> a bibo:AcademicArticle ;
+    dcterms:title """Bryophyte flora of the Huon Peninsula, Papua New Guinea. 
+            XXXV. Dicranaceae and Dicnemonaceae (Musci)""" ;
+    dcterms:creator <https://www.wikidata.org/wiki/Q21522236> ,
+            <https://www.wikidata.org/wiki/Q5411655> ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 <https://www.wikidata.org/wiki/Q21522236> ;
+            rdf:_2 <https://www.wikidata.org/wiki/Q5411655> ] ;
+    dcterms:isPartOf [ a bibo:Issue ;
+            dcterms:date "1990" ;
+            dcterms:isPartOf <https://tropicos.org/publication/1636> ;
+            bibo:volume "139" ] ;
+    bibo:pages "1-64" .
+
+<https://tropicos.org/publication/1636> a bibo:Journal ;
+    dcterms:title "Acta Botanica Fennica" ;
+    bibo:shortTitle "Acta Bot. Fenn." .
+
+<https://www.wikidata.org/wiki/Q21522236> a foaf:Person ;
+    foaf:givenName "Daniel Howard" ;
+    foaf:surname "Norris" .
+
+<https://tropicos.org/reference/9020903> a bibo:AcademicArticle ;
+    dcterms:title "A revision of the Malesian species of Dicranoloma (Dicranaceae, Musci)" ;
+    dcterms:creator <https://orcid.org/0000-0003-2224-6821> ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 <https://orcid.org/0000-0003-2224-6821> ] ;
+    dcterms:isPartOf [ a bibo:Issue ;
+            dcterms:date "1999" ;
+            dcterms:isPartOf <https://tropicos.org/publication/680> ;
+            bibo:volume "87" ] ;
+    bibo:pages: "1-130" .
+
+<https://tropicos.org/publication/680> a bibo:Journal ;
+    dcterms:title "Journal of the Hattori Botanical Laboratory" ;
+    bibo:shortTitle "J. Hattori Bot. Lab." .
+
+<https://orcid.org/0000-0003-2224-6821> a foaf:Person ;
+    foaf:givenName "Niels" ;
+    foaf:surname "Klazenga" .
+
+
+################################################################################
+# Taxon Concepts
+################################################################################
 
 <https://tropicos.org/reference/9002886#name-35121455> a tcs:TaxonConcept ;
     dcterms:title "Dicranoloma arfakianum sec. Tan & Koponen 1983" ;
@@ -155,27 +242,6 @@
             <https://tropicos.org/name/35124044> ,
             <https://tropicos.org/name/35124046> .
 
-
-<https://tropicos.org/reference/9005756> a bibo:Book ;
-    dcterms:title "Sphagnales to Dicranales" ;
-    dcterms:creator <https://www.wikidata.org/wiki/Q21511351> ;
-    bibo:authorList [ a rdf:Seq ;
-            rdf:_1 <https://www.wikidata.org/wiki/Q21511351> ] ;
-    dcterms:isPartOf <https://tropicos.org/publication/7628> ;
-    bibo:volume "1" ;
-    bibo:isbn "0-567-01038-7" .
-
-<https://tropicos.org/publication/7628> a bibo:MultiVolumeBook ;
-    dcterms:title "A Handbook of Malesian Mosses" ;
-    bibo:shortTitle "Hand. Males. Mosses" ;
-    bibo:publisher [ a foaf:Organization ;
-            foaf:name "Natural History Museum Publications" ;
-            address:localityName "London" ] .
-
-<https://www.wikidata.org/wiki/Q21511351> a foaf:Person ;
-    foaf:givenName "Alan" ;
-    foaf:surname "Eddy" .
-
 <https://tropicos.org/reference/9005756#name-35121455> a tcs:TaxonConcept ;
     dcterms:title "Dicranoloma arfakianum sec. Eddy 1988" ;
     tcs:accordingTo <https://tropicos.org/reference/9005756> ;
@@ -270,23 +336,6 @@
     tcs:accordingTo <https://tropicos.org/reference/9005756> ;
     tcs:taxonName <https://tropicos.org/name/35121617> .
 
-
-<https://tropicos.org/reference/9006742> a tcs:bibo:AcademicArticle ;
-    dcterms:title """The bryophytes of Sabah (North Borneo) with special 
-            reference to the BRYOTROP transect of Mount Kinabalu. II. 
-            Dicranoloma and Brotherobryum (Dicranaceae, Bryopsida)""" ;
-    dcterms:creator <https://www.wikidata.org/wiki/Q21339909> ;
-    bibo:authorList [ a rdf:Seq ;
-            rdf:_1 <https://www.wikidata.org/wiki/Q21339909> ] ;
-    dcterms:isPartOf [ a bibo:Issue ;
-            dcterms:date "1989" ;
-            dcterms:isPartOf <https://tropicos.org/publication/3087> ;
-            bibo:volume "18" ] ;
-    bibo:pages "497-512" .
-
-<https://tropicos.org/publication/3087> a bibo:Journal ;
-    dcterms:title "Willdenowia" .
-
 <https://tropicos.org/reference/9006742#name-35121457> a tcs:TaxonConcept ;
     dcterms:title "Dicranoloma armitii sec. Tan 1989" ;
     tcs:accordingTo <https://tropicos.org/reference/9006742> ;
@@ -355,29 +404,6 @@
     tcs:taxonName <https://tropicos.org/name/35121609> ;
     tcs:synonym <https://tropicos.org/name/35122238> ,
             <https://tropicos.org/name/35124046> .
-
-
-<https://tropicos.org/reference/9007945> a bibo:AcademicArticle ;
-    dcterms:title """Bryophyte flora of the Huon Peninsula, Papua New Guinea. 
-            XXXV. Dicranaceae and Dicnemonaceae (Musci)""" ;
-    dcterms:creator <https://www.wikidata.org/wiki/Q21522236> ,
-            <https://www.wikidata.org/wiki/Q5411655> ;
-    bibo:authorList [ a rdf:Seq ;
-            rdf:_1 <https://www.wikidata.org/wiki/Q21522236> ;
-            rdf:_2 <https://www.wikidata.org/wiki/Q5411655> ] ;
-    dcterms:isPartOf [ a bibo:Issue ;
-            dcterms:date "1990" ;
-            dcterms:isPartOf <https://tropicos.org/publication/1636> ;
-            bibo:volume "139" ] ;
-    bibo:pages "1-64" .
-
-<https://tropicos.org/publication/1636> a bibo:Journal ;
-    dcterms:title "Acta Botanica Fennica" ;
-    bibo:shortTitle "Acta Bot. Fenn." .
-
-<https://www.wikidata.org/wiki/Q21522236> a foaf:Person ;
-    foaf:givenName "Daniel Howard" ;
-    foaf:surname "Norris" .
 
 <https://tropicos.org/reference/9007945#name-35121903> a tcs:TaxonConcept ;
     dcterms:title "Dicranum arfakianum sec. Norris & Koponen 1990" ;
@@ -459,26 +485,6 @@
     tcs:taxonName <https://tropicos.org/name/35184276> ;
     tcs:synonym <https://tropicos.org/name/35121480> ,
             <https://tropicos.org/name/35168349> .
-
-
-<https://tropicos.org/reference/9020903> a bibo:AcademicArticle ;
-    dcterms:title "A revision of the Malesian species of Dicranoloma (Dicranaceae, Musci)" ;
-    dcterms:creator <https://orcid.org/0000-0003-2224-6821> ;
-    bibo:authorList [ a rdf:Seq ;
-            rdf:_1 <https://orcid.org/0000-0003-2224-6821> ] ;
-    dcterms:isPartOf [ a bibo:Issue ;
-            dcterms:date "1999" ;
-            dcterms:isPartOf <https://tropicos.org/publication/680> ;
-            bibo:volume "87" ] ;
-    bibo:pages: "1-130" .
-
-<https://tropicos.org/publication/680> a bibo:Journal ;
-    dcterms:title "Journal of the Hattori Botanical Laboratory" ;
-    bibo:shortTitle "J. Hattori Bot. Lab." .
-
-<https://orcid.org/0000-0003-2224-6821> a foaf:Person ;
-    foaf:givenName "Niels" ;
-    foaf:surname "Klazenga" .
 
 <https://tropicos.org/reference/9020903#name-35158613> a tcs:TaxonConcept ;
     dcterms:title "Cryptodicranum armitii sec. Klazenga 1999" ;
@@ -618,30 +624,1586 @@
 
 
 ################################################################################
+# Taxon Concept Mappings
+################################################################################
 
+# Dicranoloma arfakianum sec. Klazenga 1999 == Dicranoloma arfakianum sec. Tan & Koponen 1983
+_:ann1 a oa:Annotation ;
+    oa:motivatedBy oa:commenting ;
+    oa:hasTarget <https://tropicos.org/reference/9020903#name-35121455> ;
+    oa:hasBody [ a tcs:TaxonConceptMapping ;
+            tcs:subjectTaxonConcept <https://tropicos.org/reference/9020903#name-35121455> ;
+            tcs:mappingRelation tcs:isCongruentWith ;
+            tcs:objectTaxonConcept <https://tropicos.org/reference/9002886#name-35121455> ;
+            tcs:mappingAccordingTo _:ann1 ] ;
+    dcterms:creator <https://orcid.org/0000-0003-2224-6821> ;
+    dcterms:created "2023-10-22T23:44:00+11" .
+
+# Dicranoloma arfakianum sec. Klazenga 1999 == Dicranoloma arfakianum sec. Eddy 1988
+_:ann2 a oa:Annotation ;
+    oa:motivatedBy oa:commenting ;
+    oa:hasTarget <https://tropicos.org/reference/9020903#name-35121455> ;
+    oa:hasBody [ a tcs:TaxonConceptMapping ;
+            tcs:subjectTaxonConcept <https://tropicos.org/reference/9020903#name-35121455> ;
+            tcs:mappingRelation tcs:isCongruentWith ;
+            tcs:objectTaxonConcept <https://tropicos.org/reference/9005756#name-35121455> ;
+            tcs:mappingAccordingTo _:ann2 ] ;
+    dcterms:creator <https://orcid.org/0000-0003-2224-6821> ;
+    dcterms:created "2023-10-22T23:44:00+11" .
+
+# Dicranoloma arfakianum sec. Klazenga 1999 == Dicranum arfakianum sec. Norris & Koponen
+_:ann3 a oa:Annotation ;
+    oa:motivatedBy oa:commenting ;
+    oa:hasTarget <https://tropicos.org/reference/9020903#name-35121455> ;
+    oa:hasBody [ a tcs:TaxonConceptMapping ;
+            tcs:subjectTaxonConcept <https://tropicos.org/reference/9020903#name-35121455> ;
+            tcs:mappingRelation tcs:isCongruentWith ;
+            tcs:objectTaxonConcept <https://tropicos.org/reference/9007945#name-35121903>  ;
+            tcs:mappingAccordingTo _:ann3 ] ;
+    dcterms:creator <https://orcid.org/0000-0003-2224-6821> ;
+    dcterms:created "2023-10-22T23:44:00+11" .
+
+# Dicranoloma assimile sec. Klazenga 1999 < Dicranoloma assimile sec. Tan & Koponen 1983
+_:ann4 a oa:Annotation ;
+    oa:motivatedBy oa:commenting ;
+    oa:hasTarget <https://tropicos.org/reference/9020903#name-35121458> ;
+    oa:hasBody [ a tcs:TaxonConceptMapping ;
+            tcs:subjectTaxonConcept <https://tropicos.org/reference/9020903#name-35121458> ;
+            tcs:mappingRelation tcs:isIncludedIn ;
+            tcs:objectTaxonConcept <https://tropicos.org/reference/9002886#name-35121458>  ;
+            tcs:mappingAccordingTo _:ann4 ;
+            rdfs:comment "incl. Dicranoloma brassii" ] ;
+    dcterms:creator <https://orcid.org/0000-0003-2224-6821> ;
+    dcterms:created "2023-10-22T23:44:00+11" .
+
+# Dicranoloma assimile sec. Klazenga 1999 >< Dicranoloma assimile sec. Eddy 1988
+_:ann5 a oa:Annotation ;
+    oa:motivatedBy oa:commenting ;
+    oa:hasTarget <https://tropicos.org/reference/9020903#name-35121458> ;
+    oa:hasBody [ a tcs:TaxonConceptMapping ;
+            tcs:subjectTaxonConcept <https://tropicos.org/reference/9020903#name-35121458> ;
+            tcs:mappingRelation tcs:partiallyOverlaps ;
+            tcs:objectTaxonConcept <https://tropicos.org/reference/9005756#name-35121458>  ;
+            tcs:mappingAccordingTo _:ann5 ;
+            rdfs:comment """incl. Dicranoloma brassii; excl. "Dicranoloma 
+                    laevifolium" """ ] ;
+    dcterms:creator <https://orcid.org/0000-0003-2224-6821> ;
+    dcterms:created "2023-10-22T23:44:00+11" .
+
+# Dicranoloma assimile sec. Klazenga 1999 > Dicranoloma laevifolium sec. Eddy 1988
+_:ann6 a oa:Annotation ;
+    oa:motivatedBy oa:commenting ;
+    oa:hasTarget <https://tropicos.org/reference/9020903#name-35121458> ;
+    oa:hasBody [ a tcs:TaxonConceptMapping ;
+            tcs:subjectTaxonConcept <https://tropicos.org/reference/9020903#name-35121458> ;
+            tcs:mappingRelation tcs:includes ;
+            tcs:objectTaxonConcept <https://tropicos.org/reference/9005756#name-35121556>  ;
+            tcs:mappingAccordingTo _:ann6 ;
+            rdfs:comment """The type of Dicranum laevifolium belongs to 
+                    Dicranoloma braunii but specimens seen by Eddy belong to 
+                    Dicranoloma assimile""" ] ;
+    dcterms:creator <https://orcid.org/0000-0003-2224-6821> ;
+    dcterms:created "2023-10-22T23:44:00+11" .
+
+# Dicranoloma assimile sec. Klazenga 1999 > Dicranoloma assimile sec. Tan 1989
+_:ann7 a oa:Annotation ;
+    oa:motivatedBy oa:commenting ;
+    oa:hasTarget <https://tropicos.org/reference/9020903#name-35121458> ;
+    oa:hasBody [ a tcs:TaxonConceptMapping ;
+            tcs:subjectTaxonConcept <https://tropicos.org/reference/9020903#name-35121458> ;
+            tcs:mappingRelation tcs:includes ;
+            tcs:objectTaxonConcept <https://tropicos.org/reference/9006742#name-35121458>  ;
+            tcs:mappingAccordingTo _:ann7 ;
+            rdfs:comment """excl. Dicranoloma euryloma var. rugifolium""" ] ;
+    dcterms:creator <https://orcid.org/0000-0003-2224-6821> ;
+    dcterms:created "2023-10-22T23:44:00+11" .
+
+# Dicranoloma assimile sec. Klazenga 1999 > Dicranoloma platycaulon sec. Tan 1989
+_:ann8 a oa:Annotation ;
+    oa:motivatedBy oa:commenting ;
+    oa:hasTarget <https://tropicos.org/reference/9020903#name-35121458> ;
+    oa:hasBody [ a tcs:TaxonConceptMapping ;
+            tcs:subjectTaxonConcept <https://tropicos.org/reference/9020903#name-35121458> ;
+            tcs:mappingRelation tcs:includes ;
+            tcs:objectTaxonConcept <https://tropicos.org/reference/9006742#name-35121596>  ;
+            tcs:mappingAccordingTo _:ann8 ;
+            rdfs:comment """excl. Dicranoloma euryloma var. rugifolium""" ] ;
+    dcterms:creator <https://orcid.org/0000-0003-2224-6821> ;
+    dcterms:created "2023-10-22T23:44:00+11" .
+
+# Dicranoloma assimile sec. Klazenga 1999 > Dicranum assimile sec. Norris & Koponen 1990
+_:ann9 a oa:Annotation ;
+    oa:motivatedBy oa:commenting ;
+    oa:hasTarget <https://tropicos.org/reference/9020903#name-35121458> ;
+    oa:hasBody [ a tcs:TaxonConceptMapping ;
+            tcs:subjectTaxonConcept <https://tropicos.org/reference/9020903#name-35121458> ;
+            tcs:mappingRelation tcs:includes ;
+            tcs:objectTaxonConcept <https://tropicos.org/reference/9007945#name-35121913>  ;
+            tcs:mappingAccordingTo _:ann9 ;
+            rdfs:comment """excl. Dicranoloma brachyphyllum, Dicranoloma 
+                    havilandii var. latifolium""" ] ;
+    dcterms:creator <https://orcid.org/0000-0003-2224-6821> ;
+    dcterms:created "2023-10-22T23:44:00+11" .
+
+# Dicranoloma assimile sec. Klazenga 1999 >< Dicranum rugifolium sec. Norris & Koponen 1990
+_:ann10 a oa:Annotation ;
+    oa:motivatedBy oa:commenting ;
+    oa:hasTarget <https://tropicos.org/reference/9020903#name-35121458> ;
+    oa:hasBody [ a tcs:TaxonConceptMapping ;
+            tcs:subjectTaxonConcept <https://tropicos.org/reference/9020903#name-35121458> ;
+            tcs:mappingRelation tcs:partiallyOverlaps ;
+            tcs:objectTaxonConcept <https://tropicos.org/reference/9007945#name-35184276>  ;
+            tcs:mappingAccordingTo _:ann10 ;
+            rdfs:comment """incl. Dicranoloma brachyphyllum, Dicranoloma 
+                    havilandii var. latifolium""" ] ;
+    dcterms:creator <https://orcid.org/0000-0003-2224-6821> ;
+    dcterms:created "2023-10-22T23:44:00+11" .
+
+# Dicranoloma rugifolium sec. Klazenga 1999 < Dicranum rugifolium sec. Norris & Koponen 1990
+_:ann11 a oa:Annotation ;
+    oa:motivatedBy oa:commenting ;
+    oa:hasTarget <https://tropicos.org/reference/9020903#name-35121617> ;
+    oa:hasBody [ a tcs:TaxonConceptMapping ;
+            tcs:subjectTaxonConcept <https://tropicos.org/reference/9020903#name-35121617> ;
+            tcs:mappingRelation tcs:isIncludedIn ;
+            tcs:objectTaxonConcept <https://tropicos.org/reference/9007945#name-35184276>  ;
+            tcs:mappingAccordingTo _:ann11 ;
+            rdfs:comment """incl. Dicranoloma brachyphyllum, Dicranoloma 
+                    havilandii var. latifolium""" ] ;
+    dcterms:creator <https://orcid.org/0000-0003-2224-6821> ;
+    dcterms:created "2023-10-22T23:44:00+11" .
+
+
+# Dicranoloma havilandii sec. Klazenga 1999 == Dicranoloma havilandii sec. Eddy 1988
+_:ann12 a oa:Annotation ;
+    oa:motivatedBy oa:commenting ;
+    oa:hasTarget <https://tropicos.org/reference/9020903#name-35121542> ;
+    oa:hasBody [ a tcs:TaxonConceptMapping ;
+            tcs:subjectTaxonConcept <https://tropicos.org/reference/9020903#name-35121542> ;
+            tcs:mappingRelation tcs:isCongruentWith ;
+            tcs:objectTaxonConcept <https://tropicos.org/reference/9005756#name-35121542> ;
+            tcs:mappingAccordingTo _:ann12 ] ;
+    dcterms:creator <https://orcid.org/0000-0003-2224-6821> ;
+    dcterms:created "2023-10-22T23:44:00+11" .
+
+# Dicranoloma havilandii sec. Klazenga 1999 == Dicranoloma havilandii sec. Tan 1989
+_:ann13 a oa:Annotation ;
+    oa:motivatedBy oa:commenting ;
+    oa:hasTarget <https://tropicos.org/reference/9020903#name-35121542> ;
+    oa:hasBody [ a tcs:TaxonConceptMapping ;
+            tcs:subjectTaxonConcept <https://tropicos.org/reference/9020903#name-35121542> ;
+            tcs:mappingRelation tcs:isCongruentWith ;
+            tcs:objectTaxonConcept <https://tropicos.org/reference/9006742#name-35121542> ;
+            tcs:mappingAccordingTo _:ann13 ] ;
+    dcterms:creator <https://orcid.org/0000-0003-2224-6821> ;
+    dcterms:created "2023-10-22T23:44:00+11" .
+
+# Dicranoloma dicarpon sec. Klazenga 1999 > Dicranoloma dicarpon sec. Tan & Koponen 1983
+_:ann14 a oa:Annotation ;
+    oa:motivatedBy oa:commenting ;
+    oa:hasTarget <https://tropicos.org/reference/9020903#name-35121514> ;
+    oa:hasBody [ a tcs:TaxonConceptMapping ;
+            tcs:subjectTaxonConcept <https://tropicos.org/reference/9020903#name-35121514> ;
+            tcs:mappingRelation tcs:includes ;
+            tcs:objectTaxonConcept <https://tropicos.org/reference/9002886#name-35121514> ;
+            rdfs:comment """excl. Dicranoloma brassii""" ;
+            tcs:mappingAccordingTo _:ann14 ] ;
+    dcterms:creator <https://orcid.org/0000-0003-2224-6821> ;
+    dcterms:created "2023-10-22T23:44:00+11" .
+
+# Dicranoloma dicarpon sec. Klazenga 1999 > Dicranoloma brassii sec. Tan & Koponen 1983
+_:ann15 a oa:Annotation ;
+    oa:motivatedBy oa:commenting ;
+    oa:hasTarget <https://tropicos.org/reference/9020903#name-35121514> ;
+    oa:hasBody [ a tcs:TaxonConceptMapping ;
+            tcs:subjectTaxonConcept <https://tropicos.org/reference/9020903#name-35121514> ;
+            tcs:mappingRelation tcs:includes ;
+            tcs:objectTaxonConcept <https://tropicos.org/reference/9002886#name-35121483> ;
+            tcs:mappingAccordingTo _:ann15 ] ;
+    dcterms:creator <https://orcid.org/0000-0003-2224-6821> ;
+    dcterms:created "2023-10-22T23:44:00+11" .
+
+# Dicranoloma dicarpon sec. Klazenga 1999 == Dicranum dicarpon sec. Norris & Koponen 1990
+_:ann16 a oa:Annotation ;
+    oa:motivatedBy oa:commenting ;
+    oa:hasTarget <https://tropicos.org/reference/9020903#name-35121514> ;
+    oa:hasBody [ a tcs:TaxonConceptMapping ;
+            tcs:subjectTaxonConcept <https://tropicos.org/reference/9020903#name-35121514> ;
+            tcs:mappingRelation tcs:isCongruentWith ;
+            tcs:objectTaxonConcept <https://tropicos.org/reference/9007945#name-35122214> ;
+            tcs:mappingAccordingTo _:ann16 ] ;
+    dcterms:creator <https://orcid.org/0000-0003-2224-6821> ;
+    dcterms:created "2023-10-22T23:44:00+11" .
+
+# Dicranoloma reflexum sec. Klazenga 1999 > Dicranoloma reflexum sec. Tan & Koponen 1983
+_:ann17 a oa:Annotation ;
+    oa:motivatedBy oa:commenting ;
+    oa:hasTarget <https://tropicos.org/reference/9020903#name-35121609> ;
+    oa:hasBody [ a tcs:TaxonConceptMapping ;
+            tcs:subjectTaxonConcept <https://tropicos.org/reference/9020903#name-35121609> ;
+            tcs:mappingRelation tcs:includes ;
+            tcs:objectTaxonConcept <https://tropicos.org/reference/9002886#name-35121609> ;
+            tcs:mappingAccordingTo _:ann17 ;
+            rdfs:comment """excl. Dicranum dives""" ] ;
+    dcterms:creator <https://orcid.org/0000-0003-2224-6821> ;
+    dcterms:created "2023-10-22T23:44:00+11" .
+
+# Dicranoloma reflexum sec. Klazenga 1999 > Dicranoloma dives sec. Tan & Koponen 1983
+_:ann18 a oa:Annotation ;
+    oa:motivatedBy oa:commenting ;
+    oa:hasTarget <https://tropicos.org/reference/9020903#name-35121609> ;
+    oa:hasBody [ a tcs:TaxonConceptMapping ;
+            tcs:subjectTaxonConcept <https://tropicos.org/reference/9020903#name-35121609> ;
+            tcs:mappingRelation tcs:includes ;
+            tcs:objectTaxonConcept <https://tropicos.org/reference/9002886#name-35121518> ;
+            tcs:mappingAccordingTo _:ann18 ] ;
+    dcterms:creator <https://orcid.org/0000-0003-2224-6821> ;
+    dcterms:created "2023-10-22T23:44:00+11" .
+
+# Dicranoloma reflexum sec. Klazenga 1999 == Dicranoloma reflexum sec. Eddy 1988
+_:ann19 a oa:Annotation ;
+    oa:motivatedBy oa:commenting ;
+    oa:hasTarget <https://tropicos.org/reference/9020903#name-35121609> ;
+    oa:hasBody [ a tcs:TaxonConceptMapping ;
+            tcs:subjectTaxonConcept <https://tropicos.org/reference/9020903#name-35121609> ;
+            tcs:mappingRelation tcs:isCongruentWith ;
+            tcs:objectTaxonConcept <https://tropicos.org/reference/9005756#name-35121609> ;
+            tcs:mappingAccordingTo _:ann19 ] ;
+    dcterms:creator <https://orcid.org/0000-0003-2224-6821> ;
+    dcterms:created "2023-10-22T23:44:00+11" .
+
+# Dicranoloma reflexum sec. Klazenga 1999 == Dicranoloma reflexum sec. Tan 1989
+_:ann20 a oa:Annotation ;
+    oa:motivatedBy oa:commenting ;
+    oa:hasTarget <https://tropicos.org/reference/9020903#name-35121609> ;
+    oa:hasBody [ a tcs:TaxonConceptMapping ;
+            tcs:subjectTaxonConcept <https://tropicos.org/reference/9020903#name-35121609> ;
+            tcs:mappingRelation tcs:isCongruentWith ;
+            tcs:objectTaxonConcept <https://tropicos.org/reference/9005756#name-35121609> ;
+            tcs:mappingAccordingTo _:ann20 ] ;
+    dcterms:creator <https://orcid.org/0000-0003-2224-6821> ;
+    dcterms:created "2023-10-22T23:44:00+11" .
+
+# Dicranoloma daymannianum sec. Klazenga 1999 == Dicranoloma daymannianum sec. Tan & Koponen 1983
+_:ann21 a oa:Annotation ;
+    oa:motivatedBy oa:commenting ;
+    oa:hasTarget <https://tropicos.org/reference/9020903#name-35121509> ;
+    oa:hasBody [ a tcs:TaxonConceptMapping ;
+            tcs:subjectTaxonConcept <https://tropicos.org/reference/9020903#name-35121509> ;
+            tcs:mappingRelation tcs:isCongruentWith ;
+            tcs:objectTaxonConcept <https://tropicos.org/reference/9002886#name-35121509> ;
+            tcs:mappingAccordingTo _:ann21 ] ;
+    dcterms:creator <https://orcid.org/0000-0003-2224-6821> ;
+    dcterms:created "2023-10-22T23:44:00+11" .
+
+# Dicranoloma daymannianum sec. Klazenga 1999 < Dicranoloma fragile sec. Eddy 1988
+_:ann22 a oa:Annotation ;
+    oa:motivatedBy oa:commenting ;
+    oa:hasTarget <https://tropicos.org/reference/9020903#name-35121509> ;
+    oa:hasBody [ a tcs:TaxonConceptMapping ;
+            tcs:subjectTaxonConcept <https://tropicos.org/reference/9020903#name-35121509> ;
+            tcs:mappingRelation tcs:isIncludedIn ;
+            tcs:objectTaxonConcept <https://tropicos.org/reference/9005756#name-35121530> ;
+            tcs:mappingAccordingTo _:ann22 ] ;
+    dcterms:creator <https://orcid.org/0000-0003-2224-6821> ;
+    dcterms:created "2023-10-22T23:44:00+11" .
+
+# Dicranoloma daymannianum sec. Klazenga 1999 == Dicranum daymannianum sec. Norris & Koponen 1990
+_:ann23 a oa:Annotation ;
+    oa:motivatedBy oa:commenting ;
+    oa:hasTarget <https://tropicos.org/reference/9020903#name-35121509> ;
+    oa:hasBody [ a tcs:TaxonConceptMapping ;
+            tcs:subjectTaxonConcept <https://tropicos.org/reference/9020903#name-35121509> ;
+            tcs:mappingRelation tcs:isCongruentWith ;
+            tcs:objectTaxonConcept <https://tropicos.org/reference/9007945#name-35184274> ;
+            tcs:mappingAccordingTo _:ann23 ] ;
+    dcterms:creator <https://orcid.org/0000-0003-2224-6821> ;
+    dcterms:created "2023-10-22T23:44:00+11" .
+
+# Dicranum psathyrum sec. Klazenga 1999 == Dicranoloma fragile sec. Tan & Koponen 1983
+_:ann24 a oa:Annotation ;
+    oa:motivatedBy oa:commenting ;
+    oa:hasTarget <https://tropicos.org/reference/9020903#name-35204725> ;
+    oa:hasBody [ a tcs:TaxonConceptMapping ;
+            tcs:subjectTaxonConcept <https://tropicos.org/reference/9020903#name-35204725> ;
+            tcs:mappingRelation tcs:isCongruentWith ;
+            tcs:objectTaxonConcept <https://tropicos.org/reference/9002886#name-35121530> ;
+            tcs:mappingAccordingTo _:ann24 ] ;
+    dcterms:creator <https://orcid.org/0000-0003-2224-6821> ;
+    dcterms:created "2023-10-22T23:44:00+11" .
+
+# Dicranum psathyrum sec. Klazenga 1999 < Dicranoloma fragile sec. Eddy 1988
+_:ann25 a oa:Annotation ;
+    oa:motivatedBy oa:commenting ;
+    oa:hasTarget <https://tropicos.org/reference/9020903#name-35204725> ;
+    oa:hasBody [ a tcs:TaxonConceptMapping ;
+            tcs:subjectTaxonConcept <https://tropicos.org/reference/9020903#name-35204725> ;
+            tcs:mappingRelation tcs:isIncludedIn ;
+            tcs:objectTaxonConcept <https://tropicos.org/reference/9005756#name-35121491> ;
+            tcs:mappingAccordingTo _:ann25 ] ;
+    dcterms:creator <https://orcid.org/0000-0003-2224-6821> ;
+    dcterms:created "2023-10-22T23:44:00+11" .
+
+# Dicranoloma billarderii sec. Klazenga 1999 > Dicranoloma billarderii sec. Tan & Koponen 1983
+_:ann26 a oa:Annotation ;
+    oa:motivatedBy oa:commenting ;
+    oa:hasTarget <https://tropicos.org/reference/9020903#name-35121467> ;
+    oa:hasBody [ a tcs:TaxonConceptMapping ;
+            tcs:subjectTaxonConcept <https://tropicos.org/reference/9020903#name-35121467> ;
+            tcs:mappingRelation tcs:includes ;
+            tcs:objectTaxonConcept <https://tropicos.org/reference/9002886#name-35121467> ;
+            tcs:mappingAccordingTo _:ann26 ] ;
+    dcterms:creator <https://orcid.org/0000-0003-2224-6821> ;
+    dcterms:created "2023-10-22T23:44:00+11" .
+
+# Dicranoloma billarderii sec. Klazenga 1999 > Dicranoloma novoguinense sec. Tan & Koponen 1983
+_:ann27 a oa:Annotation ;
+    oa:motivatedBy oa:commenting ;
+    oa:hasTarget <https://tropicos.org/reference/9020903#name-35121467> ;
+    oa:hasBody [ a tcs:TaxonConceptMapping ;
+            tcs:subjectTaxonConcept <https://tropicos.org/reference/9020903#name-35121467> ;
+            tcs:mappingRelation tcs:includes ;
+            tcs:objectTaxonConcept <https://tropicos.org/reference/9002886#name-35121578> ;
+            tcs:mappingAccordingTo _:ann27 ] ;
+    dcterms:creator <https://orcid.org/0000-0003-2224-6821> ;
+    dcterms:created "2023-10-22T23:44:00+11" .
+
+# Dicranoloma billarderii sec. Klazenga 1999 > Dicranoloma billarderii sec. Eddy 1988
+_:ann28 a oa:Annotation ;
+    oa:motivatedBy oa:commenting ;
+    oa:hasTarget <https://tropicos.org/reference/9020903#name-35121467> ;
+    oa:hasBody [ a tcs:TaxonConceptMapping ;
+            tcs:subjectTaxonConcept <https://tropicos.org/reference/9020903#name-35121467> ;
+            tcs:mappingRelation tcs:includes ;
+            tcs:objectTaxonConcept <https://tropicos.org/reference/9005756#name-35121467> ;
+            tcs:mappingAccordingTo _:ann28 ] ;
+    dcterms:creator <https://orcid.org/0000-0003-2224-6821> ;
+    dcterms:created "2023-10-22T23:44:00+11" .
+
+# Dicranoloma billarderii sec. Klazenga 1999 > Dicranoloma brevicapsulare sec. Eddy 1988
+_:ann29 a oa:Annotation ;
+    oa:motivatedBy oa:commenting ;
+    oa:hasTarget <https://tropicos.org/reference/9020903#name-35121467> ;
+    oa:hasBody [ a tcs:TaxonConceptMapping ;
+            tcs:subjectTaxonConcept <https://tropicos.org/reference/9020903#name-35121467> ;
+            tcs:mappingRelation tcs:includes ;
+            tcs:objectTaxonConcept <https://tropicos.org/reference/9005756#name-35121488> ;
+            tcs:mappingAccordingTo _:ann29 ] ;
+    dcterms:creator <https://orcid.org/0000-0003-2224-6821> ;
+    dcterms:created "2023-10-22T23:44:00+11" .
+
+# Dicranoloma billarderii sec. Klazenga 1999 > Dicranoloma novoguinense sec. Eddy 1988
+_:ann30 a oa:Annotation ;
+    oa:motivatedBy oa:commenting ;
+    oa:hasTarget <https://tropicos.org/reference/9020903#name-35121467> ;
+    oa:hasBody [ a tcs:TaxonConceptMapping ;
+            tcs:subjectTaxonConcept <https://tropicos.org/reference/9020903#name-35121467> ;
+            tcs:mappingRelation tcs:includes ;
+            tcs:objectTaxonConcept <https://tropicos.org/reference/9005756#name-35121578> ;
+            tcs:mappingAccordingTo _:ann30 ] ;
+    dcterms:creator <https://orcid.org/0000-0003-2224-6821> ;
+    dcterms:created "2023-10-22T23:44:00+11" .
+
+# Dicranoloma billarderii sec. Klazenga 1999 > Dicranoloma billarderii sec. Tan 1989
+_:ann31 a oa:Annotation ;
+    oa:motivatedBy oa:commenting ;
+    oa:hasTarget <https://tropicos.org/reference/9020903#name-35121467> ;
+    oa:hasBody [ a tcs:TaxonConceptMapping ;
+            tcs:subjectTaxonConcept <https://tropicos.org/reference/9020903#name-35121467> ;
+            tcs:mappingRelation tcs:includes ;
+            tcs:objectTaxonConcept <https://tropicos.org/reference/9006742#name-35121467> ;
+            tcs:mappingAccordingTo _:ann31 ] ;
+    dcterms:creator <https://orcid.org/0000-0003-2224-6821> ;
+    dcterms:created "2023-10-22T23:44:00+11" .
+
+# Dicranoloma billarderii sec. Klazenga 1999 > Dicranoloma novoguinense sec. Tan 1989
+_:ann32 a oa:Annotation ;
+    oa:motivatedBy oa:commenting ;
+    oa:hasTarget <https://tropicos.org/reference/9020903#name-35121467> ;
+    oa:hasBody [ a tcs:TaxonConceptMapping ;
+            tcs:subjectTaxonConcept <https://tropicos.org/reference/9020903#name-35121467> ;
+            tcs:mappingRelation tcs:includes ;
+            tcs:objectTaxonConcept <https://tropicos.org/reference/9006742#name-35121578> ;
+            tcs:mappingAccordingTo _:ann32 ] ;
+    dcterms:creator <https://orcid.org/0000-0003-2224-6821> ;
+    dcterms:created "2023-10-22T23:44:00+11" .
+
+# Dicranoloma billarderii sec. Klazenga 1999 > Dicranum billarderii sec. Norris & Koponen 1990
+_:ann33 a oa:Annotation ;
+    oa:motivatedBy oa:commenting ;
+    oa:hasTarget <https://tropicos.org/reference/9020903#name-35121467> ;
+    oa:hasBody [ a tcs:TaxonConceptMapping ;
+            tcs:subjectTaxonConcept <https://tropicos.org/reference/9020903#name-35121467> ;
+            tcs:mappingRelation tcs:includes ;
+            tcs:objectTaxonConcept <https://tropicos.org/reference/9007945#name-35121960> ;
+            tcs:mappingAccordingTo _:ann33 ] ;
+    dcterms:creator <https://orcid.org/0000-0003-2224-6821> ;
+    dcterms:created "2023-10-22T23:44:00+11" .
+
+# Dicranoloma billarderii sec. Klazenga 1999 > Dicranum novoguinense sec. Norris & Koponen 1990
+_:ann34 a oa:Annotation ;
+    oa:motivatedBy oa:commenting ;
+    oa:hasTarget <https://tropicos.org/reference/9020903#name-35121467> ;
+    oa:hasBody [ a tcs:TaxonConceptMapping ;
+            tcs:subjectTaxonConcept <https://tropicos.org/reference/9020903#name-35121467> ;
+            tcs:mappingRelation tcs:includes ;
+            tcs:objectTaxonConcept <https://tropicos.org/reference/9007945#-name-35123838> ;
+            tcs:mappingAccordingTo _:ann34 ] ;
+    dcterms:creator <https://orcid.org/0000-0003-2224-6821> ;
+    dcterms:created "2023-10-22T23:44:00+11" .
+
+# Dicranoloma blumei sec. Klazenga 1999 == Dicranoloma blumei sec. Tan & Koponen 1983
+_:ann35 a oa:Annotation ;
+    oa:motivatedBy oa:commenting ;
+    oa:hasTarget <https://tropicos.org/reference/9020903#name-35121475> ;
+    oa:hasBody [ a tcs:TaxonConceptMapping ;
+            tcs:subjectTaxonConcept <https://tropicos.org/reference/9020903#name-35121475> ;
+            tcs:mappingRelation tcs:isCongruentWith ;
+            tcs:objectTaxonConcept <https://tropicos.org/reference/9002886#name-35121475> ;
+            tcs:mappingAccordingTo _:ann35 ] ;
+    dcterms:creator <https://orcid.org/0000-0003-2224-6821> ;
+    dcterms:created "2023-10-22T23:44:00+11" .
+
+# Dicranoloma blumei sec. Klazenga 1999 == Dicranoloma blumei sec. Eddy 1988
+_:ann36 a oa:Annotation ;
+    oa:motivatedBy oa:commenting ;
+    oa:hasTarget <https://tropicos.org/reference/9020903#name-35121475> ;
+    oa:hasBody [ a tcs:TaxonConceptMapping ;
+            tcs:subjectTaxonConcept <https://tropicos.org/reference/9020903#name-35121475> ;
+            tcs:mappingRelation tcs:isCongruentWith ;
+            tcs:objectTaxonConcept <https://tropicos.org/reference/9005756#name-35121475> ;
+            tcs:mappingAccordingTo _:ann36 ] ;
+    dcterms:creator <https://orcid.org/0000-0003-2224-6821> ;
+    dcterms:created "2023-10-22T23:44:00+11" .
+
+# Dicranoloma blumei sec. Klazenga 1999 > Dicranoloma blumei sec. Tan 1989
+_:ann37 a oa:Annotation ;
+    oa:motivatedBy oa:commenting ;
+    oa:hasTarget <https://tropicos.org/reference/9020903#name-35121475> ;
+    oa:hasBody [ a tcs:TaxonConceptMapping ;
+            tcs:subjectTaxonConcept <https://tropicos.org/reference/9020903#name-35121475> ;
+            tcs:mappingRelation tcs:includes ;
+            tcs:objectTaxonConcept <https://tropicos.org/reference/9006742#name-35121475> ;
+            tcs:mappingAccordingTo _:ann37 ] ;
+    dcterms:creator <https://orcid.org/0000-0003-2224-6821> ;
+    dcterms:created "2023-10-22T23:44:00+11" .
+
+# Dicranoloma blumei sec. Klazenga 1999 > Dicranoloma braunfelsioides sec. Tan 1989
+_:ann38 a oa:Annotation ;
+    oa:motivatedBy oa:commenting ;
+    oa:hasTarget <https://tropicos.org/reference/9020903#name-35121475> ;
+    oa:hasBody [ a tcs:TaxonConceptMapping ;
+            tcs:subjectTaxonConcept <https://tropicos.org/reference/9020903#name-35121475> ;
+            tcs:mappingRelation tcs:includes ;
+            tcs:objectTaxonConcept <https://tropicos.org/reference/9006742#name-35121484> ;
+            tcs:mappingAccordingTo _:ann38 ] ;
+    dcterms:creator <https://orcid.org/0000-0003-2224-6821> ;
+    dcterms:created "2023-10-22T23:44:00+11" .
+
+# Dicranoloma blumei sec. Klazenga 1999 == Dicranum blumei sec. Norris & Koponen 1990
+_:ann39 a oa:Annotation ;
+    oa:motivatedBy oa:commenting ;
+    oa:hasTarget <https://tropicos.org/reference/9020903#name-35121475> ;
+    oa:hasBody [ a tcs:TaxonConceptMapping ;
+            tcs:subjectTaxonConcept <https://tropicos.org/reference/9020903#name-35121475> ;
+            tcs:mappingRelation tcs:isCongruentWith ;
+            tcs:objectTaxonConcept <https://tropicos.org/reference/9007945#name-35121972> ;
+            tcs:mappingAccordingTo _:ann39 ] ;
+    dcterms:creator <https://orcid.org/0000-0003-2224-6821> ;
+    dcterms:created "2023-10-22T23:44:00+11" .
+
+# Dicranoloma brevisetum sec. Klazenga 1999 < Dicranoloma brevisetum sec. Tan & Koponen 1983
+_:ann40 a oa:Annotation ;
+    oa:motivatedBy oa:commenting ;
+    oa:hasTarget <https://tropicos.org/reference/9020903#name-35121491> ;
+    oa:hasBody [ a tcs:TaxonConceptMapping ;
+            tcs:subjectTaxonConcept <https://tropicos.org/reference/9020903#name-35121491> ;
+            tcs:mappingRelation tcs:isIncludedIn ;
+            tcs:objectTaxonConcept <https://tropicos.org/reference/9002886#name-35121491> ;
+            tcs:mappingAccordingTo _:ann40 ] ;
+    dcterms:creator <https://orcid.org/0000-0003-2224-6821> ;
+    dcterms:created "2023-10-22T23:44:00+11" .
+
+# Dicranoloma brevisetum sec. Klazenga 1999 == Dicranoloma brevisetum var. brevisetum sec. Tan & Koponen 1983
+_:ann41 a oa:Annotation ;
+    oa:motivatedBy oa:commenting ;
+    oa:hasTarget <https://tropicos.org/reference/9020903#name-35121491> ;
+    oa:hasBody [ a tcs:TaxonConceptMapping ;
+            tcs:subjectTaxonConcept <https://tropicos.org/reference/9020903#name-35121491> ;
+            tcs:mappingRelation tcs:isCongruentWith ;
+            tcs:objectTaxonConcept <https://tropicos.org/reference/9002886#name-35191032> ;
+            tcs:mappingAccordingTo _:ann41 ] ;
+    dcterms:creator <https://orcid.org/0000-0003-2224-6821> ;
+    dcterms:created "2023-10-22T23:44:00+11" .
+
+# Dicranoloma brevisetum sec. Klazenga 1999 > Dicranoloma brevisetum sec. Eddy 1988
+_:ann42 a oa:Annotation ;
+    oa:motivatedBy oa:commenting ;
+    oa:hasTarget <https://tropicos.org/reference/9020903#name-35121491> ;
+    oa:hasBody [ a tcs:TaxonConceptMapping ;
+            tcs:subjectTaxonConcept <https://tropicos.org/reference/9020903#name-35121491> ;
+            tcs:mappingRelation tcs:includes ;
+            tcs:objectTaxonConcept <https://tropicos.org/reference/9005756#name-35121491> ;
+            tcs:mappingAccordingTo _:ann42 ] ;
+    dcterms:creator <https://orcid.org/0000-0003-2224-6821> ;
+    dcterms:created "2023-10-22T23:44:00+11" .
+
+# Dicranoloma brevisetum sec. Klazenga 1999 > Dicranoloma leucophyllum sec. Eddy 1988
+_:ann43 a oa:Annotation ;
+    oa:motivatedBy oa:commenting ;
+    oa:hasTarget <https://tropicos.org/reference/9020903#name-35121491> ;
+    oa:hasBody [ a tcs:TaxonConceptMapping ;
+            tcs:subjectTaxonConcept <https://tropicos.org/reference/9020903#name-35121491> ;
+            tcs:mappingRelation tcs:includes ;
+            tcs:objectTaxonConcept <https://tropicos.org/reference/9005756#name-35121559> ;
+            tcs:mappingAccordingTo _:ann43 ] ;
+    dcterms:creator <https://orcid.org/0000-0003-2224-6821> ;
+    dcterms:created "2023-10-22T23:44:00+11" .
+
+# Dicranoloma brevisetum sec. Klazenga 1999 < Dicranoloma brevisetum sec. Tan 1989
+_:ann44 a oa:Annotation ;
+    oa:motivatedBy oa:commenting ;
+    oa:hasTarget <https://tropicos.org/reference/9020903#name-35121491> ;
+    oa:hasBody [ a tcs:TaxonConceptMapping ;
+            tcs:subjectTaxonConcept <https://tropicos.org/reference/9020903#name-35121491> ;
+            tcs:mappingRelation tcs:isIncludedIn ;
+            tcs:objectTaxonConcept <https://tropicos.org/reference/9006742#name-35121491> ;
+            tcs:mappingAccordingTo _:ann44 ] ;
+    dcterms:creator <https://orcid.org/0000-0003-2224-6821> ;
+    dcterms:created "2023-10-22T23:44:00+11" .
+
+# Dicranoloma brevisetum sec. Klazenga 1999 < Dicranum braunii sec. Norris & Koponen 1990
+_:ann45 a oa:Annotation ;
+    oa:motivatedBy oa:commenting ;
+    oa:hasTarget <https://tropicos.org/reference/9020903#name-35121491> ;
+    oa:hasBody [ a tcs:TaxonConceptMapping ;
+            tcs:subjectTaxonConcept <https://tropicos.org/reference/9020903#name-35121491> ;
+            tcs:mappingRelation tcs:isIncludedIn ;
+            tcs:objectTaxonConcept <https://tropicos.org/reference/9007945#name-35122018> ;
+            tcs:mappingAccordingTo _:ann45 ;
+            rdfs:comment """Dicranoloma brevisetum does not occur in New Guinea, 
+                    but Norris & Koponen (1990) include Megalostylium brevisetum 
+                    as a synonym of Dicranum braunii""" ] ;
+    dcterms:creator <https://orcid.org/0000-0003-2224-6821> ;
+    dcterms:created "2023-10-22T23:44:00+11" .
+
+# Dicranoloma braunii sec. Klazenga 1999 >< Dicranoloma brevisetum sec. Tan & Koponen 1983
+_:ann46 a oa:Annotation ;
+    oa:motivatedBy oa:commenting ;
+    oa:hasTarget <https://tropicos.org/reference/9020903#name-35121486> ;
+    oa:hasBody [ a tcs:TaxonConceptMapping ;
+            tcs:subjectTaxonConcept <https://tropicos.org/reference/9020903#name-35121486> ;
+            tcs:mappingRelation tcs:partiallyOverlaps ;
+            tcs:objectTaxonConcept <https://tropicos.org/reference/9002886#name-35121491> ;
+            tcs:mappingAccordingTo _:ann46 ;
+            rdfs:comment """excl. Leucoloma brachypelma""" ] ;
+    dcterms:creator <https://orcid.org/0000-0003-2224-6821> ;
+    dcterms:created "2023-10-22T23:44:00+11" .
+
+# Dicranoloma braunii sec. Klazenga 1999 >< Dicranoloma brevisetum var. samoanum sec. Tan & Koponen 1983
+_:ann47 a oa:Annotation ;
+    oa:motivatedBy oa:commenting ;
+    oa:hasTarget <https://tropicos.org/reference/9020903#name-35121486> ;
+    oa:hasBody [ a tcs:TaxonConceptMapping ;
+            tcs:subjectTaxonConcept <https://tropicos.org/reference/9020903#name-35121486> ;
+            tcs:mappingRelation tcs:partiallyOverlaps ;
+            tcs:objectTaxonConcept <https://tropicos.org/reference/9002886#name-35167976> ;
+            tcs:mappingAccordingTo _:ann47 ;
+            rdfs:comment """excl. Leucoloma brachypelma""" ] ;
+    dcterms:creator <https://orcid.org/0000-0003-2224-6821> ;
+    dcterms:created "2023-10-22T23:44:00+11" .
+
+# Dicranoloma braunii sec. Klazenga 1999 > Dicranoloma brevisetum f. nematosum sec. Tan & Koponen 1983
+_:ann48 a oa:Annotation ;
+    oa:motivatedBy oa:commenting ;
+    oa:hasTarget <https://tropicos.org/reference/9020903#name-35121486> ;
+    oa:hasBody [ a tcs:TaxonConceptMapping ;
+            tcs:subjectTaxonConcept <https://tropicos.org/reference/9020903#name-35121486> ;
+            tcs:mappingRelation tcs:includes ;
+            tcs:objectTaxonConcept <https://tropicos.org/reference/9002886#name-35167975> ;
+            tcs:mappingAccordingTo _:ann48 ] ;
+    dcterms:creator <https://orcid.org/0000-0003-2224-6821> ;
+    dcterms:created "2023-10-22T23:44:00+11" .
+
+# Dicranoloma braunii sec. Klazenga 1999 == Dicranoloma braunii sec. Eddy 1988
+_:ann49 a oa:Annotation ;
+    oa:motivatedBy oa:commenting ;
+    oa:hasTarget <https://tropicos.org/reference/9020903#name-35121486> ;
+    oa:hasBody [ a tcs:TaxonConceptMapping ;
+            tcs:subjectTaxonConcept <https://tropicos.org/reference/9020903#name-35121486> ;
+            tcs:mappingRelation tcs:isCongruentWith ;
+            tcs:objectTaxonConcept <https://tropicos.org/reference/9005756#name-35121486> ;
+            tcs:mappingAccordingTo _:ann49 ] ;
+    dcterms:creator <https://orcid.org/0000-0003-2224-6821> ;
+    dcterms:created "2023-10-22T23:44:00+11" .
+
+# Dicranoloma braunii sec. Klazenga 1999 < Dicranoloma brevisetum sec. Tan 1989
+_:ann50 a oa:Annotation ;
+    oa:motivatedBy oa:commenting ;
+    oa:hasTarget <https://tropicos.org/reference/9020903#name-35121486> ;
+    oa:hasBody [ a tcs:TaxonConceptMapping ;
+            tcs:subjectTaxonConcept <https://tropicos.org/reference/9020903#name-35121486> ;
+            tcs:mappingRelation tcs:isIncludedIn ;
+            tcs:objectTaxonConcept <https://tropicos.org/reference/9006742#name-35121491> ;
+            tcs:mappingAccordingTo _:ann50 ] ;
+    dcterms:creator <https://orcid.org/0000-0003-2224-6821> ;
+    dcterms:created "2023-10-22T23:44:00+11" .
+
+# Dicranoloma braunii sec. Klazenga 1999 < Dicranum braunii sec. Norris & Koponen 1990
+_:ann51 a oa:Annotation ;
+    oa:motivatedBy oa:commenting ;
+    oa:hasTarget <https://tropicos.org/reference/9020903#name-35121486> ;
+    oa:hasBody [ a tcs:TaxonConceptMapping ;
+            tcs:subjectTaxonConcept <https://tropicos.org/reference/9020903#name-35121486> ;
+            tcs:mappingRelation tcs:isIncludedIn ;
+            tcs:objectTaxonConcept <https://tropicos.org/reference/9007945#name-35122018> ;
+            tcs:mappingAccordingTo _:ann51 ] ;
+    dcterms:creator <https://orcid.org/0000-0003-2224-6821> ;
+    dcterms:created "2023-10-22T23:44:00+11" .
+
+# Dicranoloma cutlackii sec. Klazenga 1999 == Dicranum cutlackii sec. Norris & Koponen 1990
+_:ann52 a oa:Annotation ;
+    oa:motivatedBy oa:commenting ;
+    oa:hasTarget <https://tropicos.org/reference/9020903#name-35204724> ;
+    oa:hasBody [ a tcs:TaxonConceptMapping ;
+            tcs:subjectTaxonConcept <https://tropicos.org/reference/9020903#name-35204724> ;
+            tcs:mappingRelation tcs:isCongruentWith ;
+            tcs:objectTaxonConcept <https://tropicos.org/reference/9007945#name-35184272> ;
+            tcs:mappingAccordingTo _:ann52 ] ;
+    dcterms:creator <https://orcid.org/0000-0003-2224-6821> ;
+    dcterms:created "2023-10-22T23:44:00+11" .
+
+# Cryptodicranum armitii sec. Klazenga 1999 == Dicranoloma armitii sec. Tan & Koponen 1983
+_:ann53 a oa:Annotation ;
+    oa:motivatedBy oa:commenting ;
+    oa:hasTarget <https://tropicos.org/reference/9020903#name-35158613> ;
+    oa:hasBody [ a tcs:TaxonConceptMapping ;
+            tcs:subjectTaxonConcept <https://tropicos.org/reference/9020903#name-35158613> ;
+            tcs:mappingRelation tcs:isCongruentWith ;
+            tcs:objectTaxonConcept <https://tropicos.org/reference/9002886#name-35121457> ;
+            tcs:mappingAccordingTo _:ann53 ] ;
+    dcterms:creator <https://orcid.org/0000-0003-2224-6821> ;
+    dcterms:created "2023-10-22T23:44:00+11" .
+
+# Cryptodicranum armitii sec. Klazenga 1999 == Cryptodicranum armitii sec. Eddy 1988
+_:ann54 a oa:Annotation ;
+    oa:motivatedBy oa:commenting ;
+    oa:hasTarget <https://tropicos.org/reference/9020903#name-35158613> ;
+    oa:hasBody [ a tcs:TaxonConceptMapping ;
+            tcs:subjectTaxonConcept <https://tropicos.org/reference/9020903#name-35158613> ;
+            tcs:mappingRelation tcs:isCongruentWith ;
+            tcs:objectTaxonConcept <https://tropicos.org/reference/9005756#name-35158613> ;
+            tcs:mappingAccordingTo _:ann54 ] ;
+    dcterms:creator <https://orcid.org/0000-0003-2224-6821> ;
+    dcterms:created "2023-10-22T23:44:00+11" .
+
+# Cryptodicranum armitii sec. Klazenga 1999 == Dicranoloma armitii sec. Tan 1989
+_:ann55 a oa:Annotation ;
+    oa:motivatedBy oa:commenting ;
+    oa:hasTarget <https://tropicos.org/reference/9020903#name-35158613> ;
+    oa:hasBody [ a tcs:TaxonConceptMapping ;
+            tcs:subjectTaxonConcept <https://tropicos.org/reference/9020903#name-35158613> ;
+            tcs:mappingRelation tcs:isCongruentWith ;
+            tcs:objectTaxonConcept <https://tropicos.org/reference/9006742#name-35121457> ;
+            tcs:mappingAccordingTo _:ann55 ] ;
+    dcterms:creator <https://orcid.org/0000-0003-2224-6821> ;
+    dcterms:created "2023-10-22T23:44:00+11" .
+
+# Cryptodicranum armitii sec. Klazenga 1999 == Dicranum armitii sec. Norris & Koponen 1990
+_:ann56 a oa:Annotation ;
+    oa:motivatedBy oa:commenting ;
+    oa:hasTarget <https://tropicos.org/reference/9020903#name-35158613> ;
+    oa:hasBody [ a tcs:TaxonConceptMapping ;
+            tcs:subjectTaxonConcept <https://tropicos.org/reference/9020903#name-35158613> ;
+            tcs:mappingRelation tcs:isCongruentWith ;
+            tcs:objectTaxonConcept <https://tropicos.org/reference/9007945#name-35121907> ;
+            tcs:mappingAccordingTo _:ann56 ] ;
+    dcterms:creator <https://orcid.org/0000-0003-2224-6821> ;
+    dcterms:created "2023-10-22T23:44:00+11" .
+
+# Dicranoloma geluense sec. Klazenga 1999 == Dicranoloma geluense sec. Eddy 1988
+_:ann57 a oa:Annotation ;
+    oa:motivatedBy oa:commenting ;
+    oa:hasTarget <https://tropicos.org/reference/9020903#name-35184079> ;
+    oa:hasBody [ a tcs:TaxonConceptMapping ;
+            tcs:subjectTaxonConcept <https://tropicos.org/reference/9020903#name-35184079> ;
+            tcs:mappingRelation tcs:isCongruentWith ;
+            tcs:objectTaxonConcept <https://tropicos.org/reference/9005756#name-35184079> ;
+            tcs:mappingAccordingTo _:ann57 ] ;
+    dcterms:creator <https://orcid.org/0000-0003-2224-6821> ;
+    dcterms:created "2023-10-22T23:44:00+11" .
+
+# Dicranoloma geluense sec. Klazenga 1999 == Dicranum geluense sec. Norris & Koponen 1990
+_:ann58 a oa:Annotation ;
+    oa:motivatedBy oa:commenting ;
+    oa:hasTarget <https://tropicos.org/reference/9020903#name-35184079> ;
+    oa:hasBody [ a tcs:TaxonConceptMapping ;
+            tcs:subjectTaxonConcept <https://tropicos.org/reference/9020903#name-35184079> ;
+            tcs:mappingRelation tcs:isCongruentWith ;
+            tcs:objectTaxonConcept <https://tropicos.org/reference/9007945#name-35184275> ;
+            tcs:mappingAccordingTo _:ann58 ] ;
+    dcterms:creator <https://orcid.org/0000-0003-2224-6821> ;
+    dcterms:created "2023-10-22T23:44:00+11" .
+
+# Dicranoloma bartramianum sec. Klazenga 1999 == Dicranum bartramianum sec. Norris & Koponen 1990
+_:ann59 a oa:Annotation ;
+    oa:motivatedBy oa:commenting ;
+    oa:hasTarget <https://tropicos.org/reference/9020903#name-35204723> ;
+    oa:hasBody [ a tcs:TaxonConceptMapping ;
+            tcs:subjectTaxonConcept <https://tropicos.org/reference/9020903#name-35204723> ;
+            tcs:mappingRelation tcs:isCongruentWith ;
+            tcs:objectTaxonConcept <https://tropicos.org/reference/9007945#name-35204723> ;
+            tcs:mappingAccordingTo _:ann59 ] ;
+    dcterms:creator <https://orcid.org/0000-0003-2224-6821> ;
+    dcterms:created "2023-10-22T23:44:00+11" .
+
+
+################################################################################
+# Taxon Names
+################################################################################
 
 <https://tropicos.org/name/35121455> a tcs:TaxonName ;
-    dwc:scientificName "Dicranoloma arfakianum (Geh.) Renauld" ;
     tcs:taxonNameString "Dicranoloma arfakianum" ;
     dwc:scientificNameAuthorship "(Geh.) Renauld" ;
     tcs:basionym <https://tropicos.org/name/35121903> ;
     tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
 
 <https://tropicos.org/name/35121903> a tcs:TaxonName ;
-    dwc:scientificName "Dicranum arfakianum Geh." ;
     tcs:taxonNameString "Dicranum arfakianum" ;
     dwc:scientificNameAuthorship "Geh." ;
     dwc:namePublishedIn "Bibliotheca Botanica 44: 3. 1. 1898. (Biblioth. Bot.)" ;
     tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
 
 <https://tropicos.org/name/35154836> a tcs:TaxonName ;
-    dwc:scientificName "Leucoloma arfakianum (Geh.) Broth." ;
     tcs:taxonNameString "Leucoloma arfakianum" ;
     dwc:scientificNameAuthorship "Broth." ;
     tcs:basionym <https://tropicos.org/name/35121903> ;
     dwc:namePublishedIn "Die Natürlichen Pflanzenfamilien I(3) tcs: 322. 1901. (Nat. Pflanzenfam.)" ;
     tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
 
+<https://tropicos.org/name/35122257> a tcs:TaxonName ;
+    tcs:taxonNameString "Dicranum elimbatum" ;
+    dwc:scientificNameAuthorship "Broth. & Geh." ;
+    dwc:namePublishedIn "Bibliotheca Botanica 44: 3. 1898. (Biblioth. Bot.)" ;
+    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/invalidum> .
+
+<https://tropicos.org/name/35121458> a tcs:TaxonName ;
+    tcs:taxonNameString "Dicranoloma assimile" ;
+    dwc:scientificNameAuthorship "(Hampe) Renauld" ;
+    tcs:basionym <https://tropicos.org/name/35121913> ;
+    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
+
+<https://tropicos.org/name/35121913> a tcs:TaxonName ;
+    tcs:taxonNameString "Dicranum assimile" ;
+    dwc:scientificNameAuthorship "Hampe" ;
+    dwc:namePublishedIn "Icones Muscorum Novorum vel Minus Cognitorum pl. 24. 1844. (Icon. Musc. (Hampe) )" ;
+    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
+
+<https://tropicos.org/name/35123973> a tcs:TaxonName ;
+    tcs:taxonNameString "Dicranum polysetum var. assimile" ;
+    dwc:scientificNameAuthorship "Dozy & Molk." ;
+    dwc:namePublishedIn "Musci Frondosi Inediti Archipelagi Indici 5: 143. 1847. (Musc. Frond. Ined. Archip. Ind.)" ;
+    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
+
+<https://tropicos.org/name/35154841> a tcs:TaxonName ;
+    tcs:taxonNameString "Leucoloma assimile" ;
+    dwc:scientificNameAuthorship "(Hampe) Broth." ;
+    tcs:namePublishedIn <https://tropicos.org/reference/9029579> ;
+    dwc:namePublishedIn "Nat. Pflanzenfam. 1,3: 322 (1901)" ;
+    dwc:namePublishedInYear "1901" ;
+    tcs:basionym <https://tropicos.org/name/35121913> .
+
+<https://tropicos.org/name/35124384> a tcs:TaxonName ;
+    tcs:taxonNameString "Dicranum sumatranum" ;
+    dwc:scientificNameAuthorship "Broth." ;
+    dwc:namePublishedIn "Genera Muscorum Frondosorum 285. 1900. (Gen. Musc. Frond.)" ;
+    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
+
+<https://tropicos.org/name/35121646> a tcs:TaxonName ;
+    tcs:taxonNameString "Dicranoloma sumatranum" ;
+    dwc:scientificNameAuthorship "(Müll.Hal.) Renauld" ;
+    tcs:namePublishedIn <https://tropicos.org/publication/4881> ;
+    dwc:namePublishedIn "Essai Leucoloma 14 (1909)" ;
+    dwc:namePublishedInYear "1909" ;
+    tcs:basionym <https://tropicos.org/name/35124384> .
+
+<https://tropicos.org/name/35155131> a tcs:TaxonName ;
+    tcs:taxonNameString "Leucoloma sumatranum" ;
+    dwc:scientificNameAuthorship "(Müll.Hal.) Broth." ;
+    tcs:namePublishedIn <https://tropicos.org/reference/9029579> ;
+    dwc:namePublishedIn "Nat. Pflanzenfam. 1,3: 322 (1901)" ;
+    dwc:namePublishedInYear "1901" ;
+    tcs:basionym <https://tropicos.org/name/35124384> .
+
+<https://tropicos.org/name/35121535> a tcs:TaxonName ;
+    tcs:taxonNameString "Dicranoloma gedeanum" ;
+    dwc:scientificNameAuthorship "Renauld & Cardot" ;
+    dwc:namePublishedIn "Revue Bryologique 28: 117. 1901. (Rev. Bryol.)" ;
+    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
+
+<https://tropicos.org/name/35204815> a tcs:TaxonName ;
+    tcs:taxonNameString "Dicranum assimile f. major" ;
+    dwc:scientificNameAuthorship "M.Fleisch." ;
+    tcs:namePublishedIn <https://tropicos.org/reference/9005094> ;
+    dwc:namePublishedIn "Musci Fl. Buitenzorg 1: 74 (1904)" ;
+    dwc:namePublishedInYear "1904" .
+
+<https://tropicos.org/name/35121587> a tcs:TaxonName ;
+    tcs:taxonNameString "Dicranoloma perarmatum" ;
+    dwc:scientificNameAuthorship "Broth." ;
+    dwc:namePublishedIn "Öfversigt af Finska Vetenskaps-Societetens Förhandlingar 47 (14) tcs: 1. 1905. (Öfvers. Finska Vetensk.-Soc. Förh.)" ;
+    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
+
+<https://tropicos.org/name/35121569> a tcs:TaxonName ;
+    tcs:taxonNameString "Dicranoloma monocarpum" ;
+    dwc:scientificNameAuthorship "Broth." ;
+    dwc:namePublishedIn "The Philippine Journal of Science. Section C, Botany 13: 202. 1918. (Philipp. J. Sci., C.)" ;
+    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
+
+<https://tropicos.org/name/35121523> a tcs:TaxonName ;
+    tcs:taxonNameString "Dicranoloma euryloma" ;
+    dwc:scientificNameAuthorship "Dixon" ;
+    dwc:namePublishedIn "Journal of the Linnean Society, Botany 50: 69. 1 f. 4. 1935. (J. Linn. Soc., Bot.)" ;
+    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
+
+<https://tropicos.org/name/35121524> a tcs:TaxonName ;
+    tcs:taxonNameString "Dicranoloma euryloma var. rugifolium" ;
+    dwc:scientificNameAuthorship "E.B.Bartram" ;
+    dwc:namePublishedIn "Philippine Journal of Science 61: 237. 1936. (Philipp. J. Sci.)" ;
+    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
+
+<https://tropicos.org/name/35121480> a tcs:TaxonName ;
+    tcs:taxonNameString "Dicranoloma brachyphyllum" ;
+    dwc:scientificNameAuthorship "Nog." ;
+    dwc:namePublishedIn "Journal of the Hattori Botanical Laboratory 10: 3. 1 f. 1–6. 1953. (J. Hattori Bot. Lab.)" ;
+    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
+
+<https://tropicos.org/name/35168349> a tcs:TaxonName ;
+    tcs:taxonNameString "Dicranoloma havilandii var. latifolium" ;
+    dwc:scientificNameAuthorship "Zanten" ;
+    dwc:namePublishedIn "Nova Guinea, Botany 10(16) tcs: 272. pl. 23: f. 3. 1964. (Nova Guinea, Bot.)" ;
+    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
+
+<https://tropicos.org/name/35154921> a tcs:TaxonName ;
+    tcs:taxonNameString "Leucoloma donaldi" ;
+    dwc:scientificNameAuthorship "Broth." ;
+    dwc:namePublishedIn "Index Bryologicus, editio secunda 3: 27. 1904. (Index Bryol. (ed. 2) )" ;
+    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/invalidum> .
+
+<https://tropicos.org/name/35204723> a tcs:TaxonName ;
+    tcs:taxonNameString "Dicranoloma bartramianum" ;
+    dwc:scientificNameAuthorship "(B.H.Allen) Klazenga" ;
+    tcs:basionym <https://tropicos.org/name/35183593> ;
+    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
+
+<https://tropicos.org/name/35183593> a tcs:TaxonName ;
+    tcs:taxonNameString "Dicranum bartramianum" ;
+    dwc:scientificNameAuthorship "B.H.Allen" ;
+    dwc:namePublishedIn "Cryptogamie: Bryologie, Lichénologie 8: 323. 1987. (Cryptog. Bryol. Lichénol.)" ;
+    tcs:replacedName <https://tropicos.org/name/35120798> ;
+    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
+
+<https://tropicos.org/name/35120798> a tcs:TaxonName ;
+    tcs:taxonNameString "Dicnemon robustum" ;
+    dwc:scientificNameAuthorship "E.B.Bartram" ;
+    dwc:namePublishedIn "The Bryologist 48: 112. 1945. (Bryologist)" ;
+    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
+
+<https://tropicos.org/name/35162373> a tcs:TaxonName ;
+    tcs:taxonNameString "Eucamptodon robustus" ;
+    dwc:scientificNameAuthorship "(E.B.Bartram) E.B.Bartram" ;
+    dwc:namePublishedIn "Brittonia 11: 88. 1959. (Brittonia)" ;
+    tcs:basionym <https://tropicos.org/name/35120798> ;
+    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
+
+<https://tropicos.org/name/35121467> a tcs:TaxonName ;
+    tcs:taxonNameString "Dicranoloma billarderii" ;
+    dwc:scientificNameAuthorship "(Brid.) Paris" ;
+    tcs:basionym <https://tropicos.org/name/35121960> ;
+    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
+
+<https://tropicos.org/name/35121960> a tcs:TaxonName ;
+    tcs:taxonNameString "Dicranum billarderii" ;
+    dwc:scientificNameAuthorship "Brid." ;
+    dwc:namePublishedIn "Botanische Zeitung (Regensburg) 1: 214. 1802. (Bot. Zeitung (Regensburg) )" ;
+    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
+
+<https://tropicos.org/name/35123838> a tcs:TaxonName ;
+    tcs:taxonNameString "Dicranum novoguinense" ;
+    dwc:scientificNameAuthorship "Broth. & Geh." ;
+    dwc:namePublishedIn "Öfversigt af Finska Vetenskaps-Societetens Förhandlingar 37: 151. 1895. (Öfvers. Finska Vetensk.-Soc. Förh.)" ;
+    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
+
+<https://tropicos.org/name/35155018> a tcs:TaxonName ;
+    tcs:taxonNameString "Leucoloma novoguinense" ;
+    dwc:scientificNameAuthorship "(Broth. & Geh.) Broth." ;
+    dwc:namePublishedIn "Die Natürlichen Pflanzenfamilien I(3) tcs: 322. 1901. (Nat. Pflanzenfam.)" ;
+    tcs:basionym <https://tropicos.org/name/35123838> .
+
+<https://tropicos.org/name/35121578> a tcs:TaxonName ;
+    tcs:taxonNameString "Dicranoloma novoguinense" ;
+    dwc:scientificNameAuthorship "(Broth. & Geh.) Paris" ;
+    dwc:namePublishedIn "Index Bryologicus, editio secunda 2: 28. 1904. (Index Bryol. (ed. 2) )" ;
+    tcs:basionym <https://tropicos.org/name/35123838> .
+
+<https://tropicos.org/name/35121488> a tcs:TaxonName ;
+    tcs:taxonNameString "Dicranoloma brevicapsulare" ;
+    dwc:scientificNameAuthorship "Dixon" ;
+    dwc:namePublishedIn "Bulletin of the Torrey Botanical Club 51: 226. 3 f. 2. 1924. (Bull. Torrey Bot. Club)" ;
+    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
+
+<https://tropicos.org/name/35121635> a tcs:TaxonName ;
+    tcs:taxonNameString "Dicranoloma subecostatum" ;
+    dwc:scientificNameAuthorship "Dixon" ;
+    dwc:namePublishedIn "Journal of the Linnean Society, Botany 50: 69. 1935. (J. Linn. Soc., Bot.)" ;
+    tcs:replacedName <https://tropicos.org/name/35121637> ;
+    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
+
+<https://tropicos.org/name/35121637> a tcs:TaxonName ;
+    tcs:taxonNameString "Dicranoloma subenerve" ;
+    dwc:scientificNameAuthorship "Broth." ;
+    dwc:namePublishedIn "Mitteilungen aus dem Institut für Allgemeine Botanik in Hamburg 7(2) tcs: 117. 1928. (Mitt. Inst. Allg. Bot. Hamburg)" ;
+    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
+
+<https://tropicos.org/name/35121595> a tcs:TaxonName ;
+    tcs:taxonNameString "Dicranoloma phillipsiae" ;
+    dwc:scientificNameAuthorship "E.B.Bartram" ;
+    dwc:namePublishedIn "Philippine Journal of Science 68: 53. f. 56. 1939. (Philipp. J. Sci.)" ;
+    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
+
+<https://tropicos.org/name/35121510> a tcs:TaxonName ;
+    tcs:taxonNameString "Dicranoloma deningeri" ;
+    dwc:scientificNameAuthorship "Herzog" ;
+    dwc:namePublishedIn "Hedwigia 61: 289. 1919. (Hedwigia)" ;
+    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/invalidum> .
+
+<https://tropicos.org/name/35121475> a tcs:TaxonName ;
+    tcs:taxonNameString "Dicranoloma blumei" ;
+    dwc:scientificNameAuthorship "(Nees) Renauld" ;
+    tcs:basionym <https://tropicos.org/name/35121972> ;
+    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
+
+<https://tropicos.org/name/35121972> a tcs:TaxonName ;
+    tcs:taxonNameString "Dicranum blumei" ;
+    dwc:scientificNameAuthorship "Nees" ;
+    dwc:namePublishedIn "Nova Acta Physico-medica Academiae Caesareae Leopoldino-Carolinae Naturae Curiosorum Exhibentia Ephemerides sive Observationes Historias et Experimenta 11(1) tcs: 131. 15 f. 1. 1823. (Nova Acta Phys.-Med. Acad. Caes. Leop.-Carol. Nat. Cur.)" ;
+    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
+
+<https://tropicos.org/name/35154856> a tcs:TaxonName ;
+    tcs:taxonNameString "Leucoloma blumei" ;
+    dwc:scientificNameAuthorship "Broth." ;
+    dwc:namePublishedIn "Die Natürlichen Pflanzenfamilien I(3) tcs: 322. 1901. (Nat. Pflanzenfam.)" ;
+    tcs:basionym <https://tropicos.org/name/35121972> ;
+    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
+
+<https://tropicos.org/name/35121973> a tcs:TaxonName ;
+    tcs:taxonNameString "Dicranum blumei var. laxifolium" ;
+    dwc:scientificNameAuthorship "Broth. & Geh." ;
+    dwc:namePublishedIn "Bibliotheca Botanica 44: 4. 1898. (Biblioth. Bot.)" ;
+    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> ;
+    tcs:basionym <https://tropicos.org/name/35121973> .
+
+<https://tropicos.org/name/35121476> a tcs:TaxonName ;
+    tcs:taxonNameString "Dicranoloma blumei var. laxifolium" ;
+    dwc:scientificNameAuthorship "M.Fleisch." ;
+    dwc:namePublishedIn "Nova Guinea 12(2) tcs: 112. 1914. (Nova Guinea)" ;
+    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
+
+<https://tropicos.org/name/35121477> a tcs:TaxonName ;
+    tcs:taxonNameString "Dicranoloma blumei var. papillisetum" ;
+    dwc:scientificNameAuthorship "M.Fleisch." ;
+    dwc:namePublishedIn "Nova Guinea 12(2) tcs: 112. 1914. (Nova Guinea)" ;
+    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
+
+<https://tropicos.org/name/35121484> a tcs:TaxonName ;
+    tcs:taxonNameString "Dicranoloma braunfelsioides" ;
+    dwc:scientificNameAuthorship "Herzog" ;
+    dwc:namePublishedIn "Hedwigia 61: 288. 1919. (Hedwigia)" ;
+    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
+
+<https://tropicos.org/name/35188177> a tcs:TaxonName ;
+    tcs:taxonNameString "Dicranoloma blumei f. subintegrum" ;
+    dwc:scientificNameAuthorship "Dixon" ;
+    dwc:namePublishedIn "Journal of Botany, British and Foreign 80: 4. 1942. (J. Bot.)" ;
+    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
+
+<https://tropicos.org/name/35121486> a tcs:TaxonName ;
+    tcs:taxonNameString "Dicranoloma braunii" ;
+    dwc:scientificNameAuthorship "(Müll.Hal.) Paris" ;
+    tcs:basionym <https://tropicos.org/name/35122018> ;
+    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
+
+<https://tropicos.org/name/35122018> a tcs:TaxonName ;
+    tcs:taxonNameString "Dicranum braunii" ;
+    dwc:scientificNameAuthorship "Müll.Hal." ;
+    dwc:namePublishedIn "Bryologia Javanica 1: 69. 57. 1858. (Bryol. Jav.)" ;
+    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
+
+<https://tropicos.org/name/35154865> a tcs:TaxonName ;
+    tcs:taxonNameString "Leucoloma braunii" ;
+    dwc:scientificNameAuthorship "Broth." ;
+    dwc:namePublishedIn "Die Natürlichen Pflanzenfamilien I(3) tcs: 322. 1901. (Nat. Pflanzenfam.)" ;
+    tcs:basionym <https://tropicos.org/name/35122018> ;
+    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
+
+<https://tropicos.org/name/35154862> a tcs:TaxonName ;
+    tcs:taxonNameString "Leucoloma brachypelma" ;
+    dwc:scientificNameAuthorship "Broth." ;
+    dwc:namePublishedIn "Die Natürlichen Pflanzenfamilien I(3) tcs: 322. 1901. (Nat. Pflanzenfam.)" ;
+    tcs:replacedName <https://tropicos.org/name/35122011> ;
+    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
+
+<https://tropicos.org/name/35122011> a tcs:TaxonName ;
+    tcs:taxonNameString "Dicranum brachypelma" ;
+    dwc:scientificNameAuthorship "Müll.Hal." ;
+    dwc:namePublishedIn "Synopsis Muscorum Frondosorum omnium hucusque Cognitorum 2: 595. 1851. (Sep 1851) (Syn. Musc. Frond.)" ;
+    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/illegitimum> .
+
+<https://tropicos.org/name/35121479> a tcs:TaxonName ;
+    tcs:taxonNameString "Dicranoloma brachypelma" ;
+    dwc:scientificNameAuthorship "(Broth.) Paris" ;
+    tcs:basionym <https://tropicos.org/name/35154862> ;
+    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
+
+<https://tropicos.org/name/35123489> a tcs:TaxonName ;
+    tcs:taxonNameString "Dicranum graeffeanum" ;
+    dwc:scientificNameAuthorship "Müll.Hal." ;
+    dwc:namePublishedIn "Journal des Museums Godeffroy 3(6) tcs: 62. 1874. (J. Mus. Godeffroy)" ;
+    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
+
+<https://tropicos.org/name/35121537> a tcs:TaxonName ;
+    tcs:taxonNameString "Dicranoloma graeffeanum" ;
+    dwc:scientificNameAuthorship "Paris" ;
+    dwc:namePublishedIn "Index Bryologicus, editio secunda 2: 27. 1904. (Index Bryol. (ed. 2) )" ;
+    tcs:basionym <https://tropicos.org/name/35123489> ;
+    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
+
+<https://tropicos.org/name/35154946> a tcs:TaxonName ;
+    tcs:taxonNameString "Leucoloma graeffeanum" ;
+    dwc:scientificNameAuthorship "Broth." ;
+    dwc:namePublishedIn "Die Natürlichen Pflanzenfamilien I(3) tcs: 322. 1901. (Nat. Pflanzenfam.)" ;
+    tcs:basionym <https://tropicos.org/name/35123489> ;
+    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
+
+<https://tropicos.org/name/35123636> a tcs:TaxonName ;
+    tcs:taxonNameString "Dicranum laevifolium" ;
+    dwc:scientificNameAuthorship "Broth. & Geh." ;
+    dwc:namePublishedIn "Bibliotheca Botanica 44: 4. 1898. (Biblioth. Bot.)" ;
+    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
+
+<https://tropicos.org/name/35154980> a tcs:TaxonName ;
+    tcs:taxonNameString "Leucoloma laevifolium" ;
+    dwc:scientificNameAuthorship "Broth." ;
+    dwc:namePublishedIn "Die Natürlichen Pflanzenfamilien I(3) tcs: 322. 1901. (Nat. Pflanzenfam.)" ;
+    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> ;
+    tcs:basionym <https://tropicos.org/name/35123636> .
+
+<https://tropicos.org/name/35121556> a tcs:TaxonName ;
+    tcs:taxonNameString "Dicranoloma laevifolium" ;
+    dwc:scientificNameAuthorship "Paris" ;
+    dwc:namePublishedIn "Index Bryologicus, editio secunda 2: 27. 1904. (Index Bryol. (ed. 2) )" ;
+    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> ;
+    tcs:basionym <https://tropicos.org/name/35123636> .
+
+<https://tropicos.org/name/35123815> a tcs:TaxonName ;
+    tcs:taxonNameString "Dicranum nematosum" ;
+    dwc:scientificNameAuthorship "Broth. & Geh." ;
+    dwc:namePublishedIn "Öfversigt af Finska Vetenskaps-Societetens Förhandlingar 40: 163. 1898. (Öfvers. Finska Vetensk.-Soc. Förh.)" ;
+    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
+
+<https://tropicos.org/name/35155008> a tcs:TaxonName ;
+    tcs:taxonNameString "Leucoloma nematosum" ;
+    dwc:scientificNameAuthorship "Broth." ;
+    dwc:namePublishedIn "Die Natürlichen Pflanzenfamilien I(3) tcs: 322. 1901. (Nat. Pflanzenfam.)" ;
+    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> ;
+    tcs:basionym <https://tropicos.org/name/35123815> .
+
+<https://tropicos.org/name/35121574> a tcs:TaxonName ;
+    tcs:taxonNameString "Dicranoloma nematosum" ;
+    dwc:scientificNameAuthorship "Paris" ;
+    dwc:namePublishedIn "Index Bryologicus, editio secunda 2: 28. 1904. (Index Bryol. (ed. 2) )" ;
+    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> ;
+    tcs:basionym <https://tropicos.org/name/35123815> .
+
+<https://tropicos.org/name/35167975> a tcs:TaxonName ;
+    tcs:taxonNameString "Dicranoloma brevisetum f. nematosum" ;
+    dwc:scientificNameAuthorship "(Broth. & Geh.) B.C.Tan & T.J.Kop." ;
+    dwc:namePublishedIn "Annales Botanici Fennici 20: 326. 1983. (Ann. Bot. Fenn.)" ;
+    tcs:basionym <https://tropicos.org/name/35123815> ;
+    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
+
+<https://tropicos.org/name/35186801> a tcs:TaxonName ;
+    tcs:taxonNameString "Dicranum braunii f. mindanense" ;
+    dwc:scientificNameAuthorship "M.Fleisch." ;
+    dwc:namePublishedIn "Die Musci der Flora von Buitenzorg 1: 84. 1904. (Musci Buitenzorg)" ;
+    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
+
+<https://tropicos.org/name/35123766> a tcs:TaxonName ;
+    tcs:taxonNameString "Dicranum mindanense" ;
+    dwc:scientificNameAuthorship "Broth." ;
+    dwc:namePublishedIn "Genera Muscorum Frondosorum 288. 1900. (Gen. Musc. Frond.)" ;
+    tcs:basionym <https://tropicos.org/name/35186801> ;
+    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/invalidum> .
+
+<https://tropicos.org/name/100472684> a tcs:TaxonName ;
+    tcs:taxonNameString "Dicranoloma braunii f. mindanense" ;
+    dwc:scientificNameAuthorship "Sasaoka" ;
+    dwc:namePublishedIn "Transactions of the Natural History Society of Formosa 18: 184. 1928. (Trans. Nat. Hist. Soc. Formosa)" ;
+    tcs:basionym <https://tropicos.org/name/35186801> ;
+    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
+
+<https://tropicos.org/name/35162123> a tcs:TaxonName ;
+    tcs:taxonNameString "Dicranoloma braunii var. mindanense" ;
+    dwc:scientificNameAuthorship "Ihsiba" ;
+    dwc:namePublishedIn "Catalog of Mosses of Japan [index] 4. 1929. (Cat. Mosses Japan)" ;
+    tcs:basionym <https://tropicos.org/name/35186801> ;
+    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
+
+<https://tropicos.org/name/100472683> a tcs:TaxonName ;
+    tcs:taxonNameString "Dicranoloma mindanense" ;
+    dwc:scientificNameAuthorship "Z.Iwats. & B.C.Tan" ;
+    dwc:namePublishedIn "Kalikasan, Philippine Journal of Biology 8: 188. 1979. (Kalikasan)" ;
+    tcs:basionym <https://tropicos.org/name/35186801> ;
+    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
+
+<https://tropicos.org/name/35121487> a tcs:TaxonName ;
+    tcs:taxonNameString "Dicranoloma braunii var. samoanum" ;
+    dwc:scientificNameAuthorship "Broth." ;
+    dwc:namePublishedIn "Denkschriften der Kaiserlichen Akademie der Wissenschaften, Wien. Mathematisch-naturwissenschaftliche Klasse 84: 387. 1908. (Denkschr. Kaiserl. Akad. Wiss., Wien Math.-Naturwiss. Kl.)" ;
+    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
+
+<https://tropicos.org/name/35167976> a tcs:TaxonName ;
+    tcs:taxonNameString "Dicranoloma brevisetum var. samoanum" ;
+    dwc:scientificNameAuthorship "(Broth.) B.C.Tan & T.J.Kop." ;
+    tcs:basionym <https://tropicos.org/name/35121487> ;
+    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
+
+<https://tropicos.org/name/35204816> a tcs:TaxonName ;
+    tcs:taxonNameString "Dicranoloma braunii f. brevifolium" ;
+    dwc:scientificNameAuthorship "Dixon" ;
+    dwc:namePublishedIn "Journal of the Linnean Society, Botany 45: 497. 1922. (J. Linn. Soc., Bot.)" ;
+    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
+
+<https://tropicos.org/name/35121543> a tcs:TaxonName ;
+    tcs:taxonNameString "Dicranoloma hemineuron" ;
+    dwc:scientificNameAuthorship "Dixon" ;
+    dwc:namePublishedIn "Annales Bryologici 5: 22. 1932. (Ann. Bryol.)" ;
+    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
+
+<https://tropicos.org/name/35121452> a tcs:TaxonName ;
+    tcs:taxonNameString "Dicranoloma angustifrondeum" ;
+    dwc:scientificNameAuthorship "Dixon" ;
+    dwc:namePublishedIn "Journal of the Linnean Society, Botany 50: 70. 1 f. 3. 1935. (J. Linn. Soc., Bot.)" ;
+    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
+
+<https://tropicos.org/name/35121631> a tcs:TaxonName ;
+    tcs:taxonNameString "Dicranoloma spiniforme" ;
+    dwc:scientificNameAuthorship "E.B.Bartram" ;
+    dwc:namePublishedIn "Farlowia 4: 237. 1952. (Farlowia)" ;
+    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
+
+<https://tropicos.org/name/35113481> a tcs:TaxonName ;
+    tcs:taxonNameString "Bartramia pungentella" ;
+    dwc:scientificNameAuthorship "Müll.Hal." ;
+    dwc:namePublishedIn "Index Bryologicus Supplementum Primum 35. 1900. (Index Bryol. Suppl.)" ;
+    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/invalidum> .
+
+<https://tropicos.org/name/35123553> a tcs:TaxonName ;
+    tcs:taxonNameString "Dicranum horridum" ;
+    dwc:scientificNameAuthorship "Geh." ;
+    dwc:namePublishedIn "Genera Muscorum Frondosorum 294. 1900. (Gen. Musc. Frond.)" ;
+    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/invalidum> .
+
+<https://tropicos.org/name/35121491> a tcs:TaxonName ;
+    tcs:taxonNameString "Dicranoloma brevisetum" ;
+    dwc:scientificNameAuthorship "(Dozy & Molk.) Paris" ;
+    tcs:basionym <https://tropicos.org/name/35150829> ;
+    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
+
+<https://tropicos.org/name/35150829> a tcs:TaxonName ;
+    tcs:taxonNameString "Megalostylium brevisetum" ;
+    dwc:scientificNameAuthorship "Dozy & Molk." ;
+    dwc:namePublishedIn "Musci Frondosi Inediti Archipelagi Indici 6: 146, pl. 44. 1848. (Musc. Frond. Ined. Archip. Ind.)" ;
+    tcs:replacedName <https://tropicos.org/name/35122026> ;
+    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/illegitimate> .
+
+<https://tropicos.org/name/35122026> a tcs:TaxonName ;
+    tcs:taxonNameString "Dicranum brevisetum" ;
+    dwc:scientificNameAuthorship "Dozy & Molk." ;
+    dwc:namePublishedIn "Muscorum Frondosorum Novae Species ex Archipelago Indico et Japonica 5. 1844. (Aug–Sep 1844) (Musc. Frond. Archip. Ind.)" ;
+    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
+
+<https://tropicos.org/name/35154870> a tcs:TaxonName ;
+    tcs:taxonNameString "Leucoloma brevisetum" ;
+    dwc:scientificNameAuthorship "Broth." ;
+    dwc:namePublishedIn "Die Natürlichen Pflanzenfamilien I(3) tcs: 322. 1901. (Nat. Pflanzenfam.)" ;
+    tcs:basionym <https://tropicos.org/name/35150829> ;
+    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
+
+<https://tropicos.org/name/35191032> a tcs:TaxonName ;
+    tcs:taxonNameString "Dicranoloma brevisetum var. brevisetum" .
+
+<https://tropicos.org/name/35122028> a tcs:TaxonName ;
+    tcs:taxonNameString "Dicranum brevisetum var. angustum" ;
+    dwc:scientificNameAuthorship "Sande Lac." ;
+    dwc:namePublishedIn "Bryologia Javanica 2: 225. 1870. (Bryol. Jav.)" ;
+    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
+
+<https://tropicos.org/name/35123679> a tcs:TaxonName ;
+    tcs:taxonNameString "Dicranum leucophyllum" ;
+    dwc:scientificNameAuthorship "Sande Lac." ;
+    dwc:namePublishedIn "Verhandelingen der Koninklijke Akademie van Wetenschappen, Afdeeling Natuurkunde 13: 10. 6C. 1872. (Verh. Kon. Akad. Wetensch., Afd. Natuurk.)" ;
+    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
+
+<https://tropicos.org/name/35154985> a tcs:TaxonName ;
+    tcs:taxonNameString "Leucoloma leucophyllum" ;
+    dwc:scientificNameAuthorship "Broth." ;
+    dwc:namePublishedIn "Die Natürlichen Pflanzenfamilien I(3) tcs: 322. 1901. (Nat. Pflanzenfam.)" ;
+    tcs:basionym <https://tropicos.org/name/35123679> ;
+    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
+
+<https://tropicos.org/name/35121559> a tcs:TaxonName ;
+    tcs:taxonNameString "Dicranoloma leucophyllum" ;
+    dwc:scientificNameAuthorship "(Sande Lac.) Paris" ;
+    dwc:namePublishedIn "Index Bryologicus, editio secunda 2: 27. 1904. (Index Bryol. (ed. 2) )" ;
+    tcs:basionym <https://tropicos.org/name/35123679> ;
+    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
+
+<https://tropicos.org/name/35123680> a tcs:TaxonName ;
+    tcs:taxonNameString "Dicranum leucophyllum var. kurzii" ;
+    dwc:scientificNameAuthorship "M.Fleisch." ;
+    dwc:namePublishedIn "Die Musci der Flora von Buitenzorg 1: 85. 1904. (Musci Buitenzorg)" ;
+    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
+
+<https://tropicos.org/name/35121560> a tcs:TaxonName ;
+    tcs:taxonNameString "Dicranoloma leucophyllum var. kurzii" ;
+    dwc:scientificNameAuthorship "(M.Fleisch.) Paris" ;
+    dwc:namePublishedIn "Index Bryologicus, editio secunda 2: 27. 1904. (Index Bryol. (ed. 2) )" ;
+    tcs:basionym <https://tropicos.org/name/35123680> ;
+    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
+
+<https://tropicos.org/name/35162124> a tcs:TaxonName ;
+    tcs:taxonNameString "Dicranoloma defoliatum" ;
+    dwc:scientificNameAuthorship "J.Froehl." ;
+    dwc:namePublishedIn "Revue Bryologique et Lichénologique 31: 91. 1962. (Rev. Bryol. Lichénol.)" ;
+    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
+
+<https://tropicos.org/name/35186481> a tcs:TaxonName ;
+    tcs:taxonNameString "Dicranoloma damanhurii" ;
+    dwc:scientificNameAuthorship "B.C.Tan & Mohamed" ;
+    dwc:namePublishedIn "Cryptogamie: Bryologie, Lichénologie 11: 359. 1990. (Cryptog. Bryol. Lichénol.)" ;
+    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
+
+<https://tropicos.org/name/35204817> a tcs:TaxonName ;
+    tcs:taxonNameString "Dicranoloma leucophyllum f. rufescens" ;
+    dwc:scientificNameAuthorship "M.Fleisch." ;
+    dwc:namePublishedIn "Musci Frondosi Archipelagi Indici Exsiccati 453. 1908. (Musci Frond. Archip. Ind. Exsic.)" ;
+    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/nudum> .
+
+<https://tropicos.org/name/35184272> a tcs:TaxonName ;
+    tcs:taxonNameString "Dicranum cutlackii" ;
+    dwc:scientificNameAuthorship "D.H.Norris & T.J.Kop." ;
+    dwc:namePublishedIn "Acta Botanica Fennica 139: 38. 1990. (Acta Bot. Fenn.)" ;
+    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
+
+<https://tropicos.org/name/35204724> a tcs:TaxonName ;
+    tcs:taxonNameString "Dicranoloma cutlackii" ;
+    dwc:scientificNameAuthorship "(D.H.Norris & T.J.Kop.) Klazenga" ;
+    tcs:basionym <https://tropicos.org/name/35184272> ;
+    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
+
+<https://tropicos.org/name/35121509> a tcs:TaxonName ;
+    tcs:taxonNameString "Dicranoloma daymannianum" ;
+    dwc:scientificNameAuthorship "E.B.Bartram" ;
+    dwc:namePublishedIn "Brittonia 9: 35. 1957. (Brittonia)" ;
+    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
+
+<https://tropicos.org/name/35184274> a tcs:TaxonName ;
+    dwc:scientificNameAuthorship "(E.B.Bartram) D.H.Norris & T.J.Kop." ;
+    dwc:namePublishedIn "Acta Botanica Fennica 139: 40. 1990. (Acta Bot. Fenn.)" ;
+    dwc:namePublishedInYear "1990" ;
+    tcs:basionym <https://tropicos.org/name/35121509> .
+
+<https://tropicos.org/name/35121514> a tcs:TaxonName ;
+    tcs:taxonNameString "Dicranoloma dicarpon" ;
+    dwc:scientificNameAuthorship "(Nees) Paris" ;
+    tcs:basionym <https://tropicos.org/name/35122214> ;
+    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
+
+<https://tropicos.org/name/35122214> a tcs:TaxonName ;
+    tcs:taxonNameString "Dicranum dicarpon" ;
+    dwc:scientificNameAuthorship "Nees" ;
+    dwc:namePublishedIn "Systema Vegetabilium, editio decima sexta 4(2) tcs: 322. 1827. (Syst. Veg. [Sprengel])" ;
+    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
+
+
+<https://tropicos.org/name/35154915> a tcs:TaxonName ;
+    tcs:taxonNameString "Leucoloma dicarpon" ;
+    dwc:scientificNameAuthorship "Broth." ;
+    dwc:namePublishedIn "Die Natürlichen Pflanzenfamilien I(3) tcs: 322. 1901. (Nat. Pflanzenfam.)" ;
+    tcs:basionym <https://tropicos.org/name/35122214> ;
+    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
+
+<https://tropicos.org/name/35182608> a tcs:TaxonName ;
+    tcs:taxonNameString "Dicranoloma formosanum" ;
+    dwc:scientificNameAuthorship "Broth." ;
+    dwc:namePublishedIn "Annales Bryologici 1: 17. 1928. (Ann. Bryol.)" ;
+    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
+
+<https://tropicos.org/name/35121483> a tcs:TaxonName ;
+    tcs:taxonNameString "Dicranoloma brassii" ;
+    dwc:scientificNameAuthorship "E.B.Bartram" ;
+    dwc:namePublishedIn "Brittonia 9: 34. 1957. (Brittonia)" ;
+    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
+
+<https://tropicos.org/name/35184079> a tcs:TaxonName ;
+    tcs:taxonNameString "Dicranoloma geluense" ;
+    dwc:scientificNameAuthorship "(Herzog) B.H.Allen" ;
+    tcs:basionym <https://tropicos.org/name/35128174> ;
+    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
+
+<https://tropicos.org/name/35128174> a tcs:TaxonName ;
+    tcs:taxonNameString "Werneriobryum geluense" ;
+    dwc:scientificNameAuthorship "Herzog" ;
+    dwc:namePublishedIn "Hedwigia 49: 122. f. 6. 1909. (Hedwigia)" ;
+    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
+
+<https://tropicos.org/name/35184275> a tcs:TaxonName ;
+    tcs:taxonNameString "Dicranum geluense" ;
+    dwc:scientificNameAuthorship "D.H.Norris & T.J.Kop." ;
+    dwc:namePublishedIn "Acta Botanica Fennica 139: 43. 1990. (Acta Bot. Fenn.)" ;
+    tcs:basionym <https://tropicos.org/name/35128174> ;
+    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
+
+<https://tropicos.org/name/35121542> a tcs:TaxonName ;
+    tcs:taxonNameString "Dicranoloma havilandii" ;
+    dwc:scientificNameAuthorship "Broth." ;
+    dwc:namePublishedIn "Mitteilungen aus dem Institut für Allgemeine Botanik in Hamburg 7(2) tcs: 117. 1928. (Mitt. Inst. Allg. Bot. Hamburg)" ;
+    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
+
+<https://tropicos.org/name/35121609> a tcs:TaxonName ;
+    tcs:taxonNameString "Dicranoloma reflexum" ;
+    dwc:scientificNameAuthorship "(Müll.Hal.) Renauld" ;
+    tcs:basionym <https://tropicos.org/name/35124048> ;
+    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
+
+<https://tropicos.org/name/35124048> a tcs:TaxonName ;
+    tcs:taxonNameString "Dicranum reflexum" ;
+    dwc:scientificNameAuthorship "Müll.Hal." ;
+    dwc:namePublishedIn "Synopsis Muscorum Frondosorum omnium hucusque Cognitorum 1: 373. 1848. (Syn. Musc. Frond.)" ;
+    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
+
+<https://tropicos.org/name/35124046> a tcs:TaxonName ;
+    tcs:taxonNameString "Dicranum reflexifolium" ;
+    dwc:scientificNameAuthorship "Müll.Hal." ;
+    dwc:namePublishedIn "Synopsis Muscorum Frondosorum omnium hucusque Cognitorum 1: 382. 1848. (Syn. Musc. Frond.)" ;
+    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
+
+<https://tropicos.org/name/35155055> a tcs:TaxonName ;
+    tcs:taxonNameString "Leucoloma reflexifolium" ;
+    dwc:scientificNameAuthorship "Broth." ;
+    dwc:namePublishedIn "Die Natürlichen Pflanzenfamilien I(3) tcs: 322. 1901. (Nat. Pflanzenfam.)" ;
+    tcs:basionym <https://tropicos.org/name/35124046> ;
+    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
+
+<https://tropicos.org/name/35121608> a tcs:TaxonName ;
+    tcs:taxonNameString "Dicranoloma reflexifolium" ;
+    dwc:scientificNameAuthorship "Broth." ;
+    dwc:namePublishedIn "Index Bryologicus, editio secunda 2: 29. 1904. (Index Bryol. (ed. 2) )" ;
+    tcs:basionym <https://tropicos.org/name/35124046> ;
+    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
+
+<https://tropicos.org/name/35122238> a tcs:TaxonName ;
+    tcs:taxonNameString "Dicranum dives" ;
+    dwc:scientificNameAuthorship "Bosch & Sande Lac." ;
+    dwc:namePublishedIn "Bryologia Javanica 1: 72. 59. 1858. (Bryol. Jav.)" ;
+    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
+
+<https://tropicos.org/name/35154920> a tcs:TaxonName ;
+    tcs:taxonNameString "Leucoloma dives" ;
+    dwc:scientificNameAuthorship "Broth." ;
+    dwc:namePublishedIn "Die Natürlichen Pflanzenfamilien I(3) tcs: 322. 1901. (Nat. Pflanzenfam.)" ;
+    tcs:basionym <https://tropicos.org/name/35122238> ;
+    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
+
+<https://tropicos.org/name/35121518> a tcs:TaxonName ;
+    tcs:taxonNameString "Dicranoloma dives" ;
+    dwc:scientificNameAuthorship "(Müll.Hal.ex Bosch & Sande Lac.) Paris" ;
+    tcs:basionym <https://tropicos.org/name/35122238> ;
+    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
+
+<https://tropicos.org/name/35123686> a tcs:TaxonName ;
+    tcs:taxonNameString "Dicranum limprichtii" ;
+    dwc:scientificNameAuthorship "M.Fleisch." ;
+    dwc:namePublishedIn "Die Musci der Flora von Buitenzorg 1: 78. 1904. (Musci Buitenzorg)" ;
+    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
+
+<https://tropicos.org/name/35121561> a tcs:TaxonName ;
+    tcs:taxonNameString "Dicranoloma limprichtii" ;
+    dwc:scientificNameAuthorship "Paris" ;
+    dwc:namePublishedIn "Index Bryologicus, editio secunda 2: 27. 1904. (Index Bryol. (ed. 2) )" ;
+    tcs:basionym <https://tropicos.org/name/35123686> ;
+    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
+
+<https://tropicos.org/name/35121606> a tcs:TaxonName ;
+    tcs:taxonNameString "Dicranoloma ramosii" ;
+    dwc:scientificNameAuthorship "Broth." ;
+    dwc:namePublishedIn "The Philippine Journal of Science. Section C, Botany 5: 158. 1910. (Philipp. J. Sci., C.)" ;
+    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
+
+<https://tropicos.org/name/35121648> a tcs:TaxonName ;
+    tcs:taxonNameString "Dicranoloma tenuirete" ;
+    dwc:scientificNameAuthorship "Broth." ;
+    dwc:namePublishedIn "The Philippine Journal of Science. Section C, Botany 13: 202. 1918. (Philipp. J. Sci., C.)" ;
+    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
+
+<https://tropicos.org/name/35121617> a tcs:TaxonName ;
+    tcs:taxonNameString "Dicranoloma rugifolium" ;
+    dwc:scientificNameAuthorship "E.B.Bartram" ;
+    dwc:namePublishedIn "Lloydia 5: 251. pl. 1: f. 5. 1942. (Lloydia)" ;
+    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
+
+<https://tropicos.org/name/35184276> a tcs:TaxonName ;
+    dwc:scientificNameAuthorship "(E.B.Bartram) D.H.Norris & T.J.Kop." ;
+    dwc:namePublishedIn "Acta Botanica Fennica 139: 44. 1990. (Acta Bot. Fenn.)" ;
+    dwc:namePublishedInYear "1990" ;
+    tcs:basionym <https://tropicos.org/name/35121617> .
+
+<https://tropicos.org/name/35200565> a tcs:TaxonName ;
+    tcs:taxonNameString "Dicranoloma steenisii" ;
+    dwc:scientificNameAuthorship "Klazenga" ;
+    dwc:namePublishedIn "Blumea 41: 11. Illustrations. 1996. (Blumea)" ;
+    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
+
+<https://tropicos.org/name/35158613> a tcs:TaxonName ;
+    tcs:taxonNameString "Cryptodicranum armitii" ;
+    dwc:scientificNameAuthorship "(Müll.Hal.) E.B.Bartram" ;
+    tcs:basionym <https://tropicos.org/name/35121907> ;
+    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
+
+<https://tropicos.org/name/35121907> a tcs:TaxonName ;
+    tcs:taxonNameString "Dicranum armitii" ;
+    dwc:scientificNameAuthorship "Müll.Hal." ;
+    dwc:namePublishedIn "Hedwigia 36: 358. 1897. (Hedwigia)" ;
+    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
+
+<https://tropicos.org/name/35154838> a tcs:TaxonName ;
+    tcs:taxonNameString "Leucoloma armitii" ;
+    dwc:scientificNameAuthorship "Broth." ;
+    dwc:namePublishedIn "Die Natürlichen Pflanzenfamilien I(3) tcs: 322. 1901. (Nat. Pflanzenfam.)" ;
+    tcs:basionym <https://tropicos.org/name/35121907> ;
+    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
+
+<https://tropicos.org/name/35121457> a tcs:TaxonName ;
+    tcs:taxonNameString "Dicranoloma armitii" ;
+    dwc:scientificNameAuthorship "(Müll.Hal.) Paris" ;
+    tcs:basionym <https://tropicos.org/name/35121907> ;
+    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
+
+<https://tropicos.org/name/35121494> a tcs:TaxonName ;
+    tcs:taxonNameString "Dicranoloma buruense" ;
+    dwc:scientificNameAuthorship "Broth. & Herzog" ;
+    dwc:namePublishedIn "Hedwigia 66: 343. 1926. (Hedwigia)" ;
+    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
+
+<https://tropicos.org/name/35121551> a tcs:TaxonName ;
+    tcs:taxonNameString "Dicranoloma johannis-winkleri" ;
+    dwc:scientificNameAuthorship "Broth." ;
+    dwc:namePublishedIn "Mitteilungen aus dem Institut für Allgemeine Botanik in Hamburg 7(2) tcs: 116. 1928. (Mitt. Inst. Allg. Bot. Hamburg)" ;
+    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
+
+<https://tropicos.org/name/35158615> a tcs:TaxonName ;
+    tcs:taxonNameString "Cryptodicranum setosum" ;
+    dwc:scientificNameAuthorship "E.B.Bartram" ;
+    dwc:namePublishedIn "The Bryologist 41: 128. f. 1–8. 1938. (Bryologist)" ;
+    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
+
+<https://tropicos.org/name/35158614> a tcs:TaxonName ;
+    tcs:taxonNameString "Cryptodicranum armitii var. fragilifolium" ;
+    dwc:scientificNameAuthorship "E.B.Bartram" ;
+    dwc:namePublishedIn "The Bryologist 48: 111. 1945. (Bryologist)" ;
+    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
+
+<https://tropicos.org/name/35204725> a tcs:TaxonName ;
+    tcs:taxonNameString "Dicranum psathyrum" ;
+    dwc:scientificNameAuthorship "Klazenga" ;
+    dwc:namePublishedIn "Journal of the Hattori Botanical Laboratory 87: 118. 1999. (J. Hattori Bot. Lab.)" ;
+    tcs:replacedName <https://tropicos.org/name/35121530> ;
+    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
+
+<https://tropicos.org/name/35121530> a tcs:TaxonName ;
+    tcs:taxonNameString "Dicranoloma fragile" ;
+    dwc:scientificNameAuthorship "Broth." ;
+    dwc:namePublishedIn "Die natürlichen Pflanzenfamilien, Zweite Auflage 10: 209. 1924. (Nat. Pflanzenfam. (ed. 2) )" ;
+    tcs:replacedName <https://tropicos.org/name/35122365> ;
+    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
+
+<https://tropicos.org/name/35122365> a tcs:TaxonName ;
+    tcs:taxonNameString "Dicranum fragile" ;
+    dwc:scientificNameAuthorship "Hook." ;
+    dwc:namePublishedIn "Musci Exotici 2: 134. 1819. (Musci Exot.)" ;
+    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/illegitimum> .
+
+<https://tropicos.org/name/35157135> a tcs:TaxonName ;
+    tcs:taxonNameString "Cecalyphum dichotomum" ;
+    dwc:scientificNameAuthorship "P.Beauv." ;
+    dwc:namePublishedIn "Prodrome des Cinquième et Sixième Familles de l'Aethéogamie 51. 1805. (Prodr. Aethéogam.)" ;
+    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
+
+<https://tropicos.org/name/35121596> a tcs:TaxonName ;
+    tcs:taxonNameString "Dicranoloma platycaulon" ;
+    dwc:scientificNameAuthorship "Dixon" ;
+    dwc:namePublishedIn "New Zealand Institute Bulletin 3(1) tcs: 15, pl. 3 f. 10. 1913. (New Zealand Inst. Bull.)" ;
+    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
+
+<https://tropicos.org/name/35121858> a tcs:TaxonName ;
+    tcs:taxonNameString "Dicranum alboalare" ;
+    dwc:scientificNameAuthorship "Müll.Hal." ;
+    dwc:namePublishedIn "Enumeratio Bryinearum Exoticarum 55. 1888. (Enum. Bryin. Exot.)" ;
+    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/invalidum> .
+
+<https://tropicos.org/name/35122093> a tcs:TaxonName ;
+    tcs:taxonNameString "Dicranum chiloense" ;
+    dwc:scientificNameAuthorship "Müll.Hal." ;
+    dwc:namePublishedIn "Enumeratio Bryinearum Exoticarum 54. 1888. (Enum. Bryin. Exot.)" ;
+    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/invalidum> .
+
+<https://tropicos.org/name/35122121> a tcs:TaxonName ;
+    tcs:taxonNameString "Dicranum commutatum" ;
+    dwc:scientificNameAuthorship "A.Jaeger" ;
+    dwc:namePublishedIn "Bericht über die Thätigkeit der St. Gallischen Naturwissenschaftlichen Gesellschaft 1877–78: 495. 1880. (Ber. Thätigk. St. Gallischen Naturwiss. Ges.)" ;
+    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/invalidum> .
+
+<https://tropicos.org/name/35122178> a tcs:TaxonName ;
+    tcs:taxonNameString "Dicranum cryptopodium" ;
+    dwc:scientificNameAuthorship "Broth. & Geh." ;
+    dwc:namePublishedIn "Bibliotheca Botanica 44: 3. 1898. (Biblioth. Bot.)" ;
+    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/invalidum> .
+
+<https://tropicos.org/name/35124044> a tcs:TaxonName ;
+    tcs:taxonNameString "Dicranum reduncum" ;
+    dwc:scientificNameAuthorship "Duby" ;
+    dwc:namePublishedIn "Synopsis Muscorum Frondosorum omnium hucusque Cognitorum 1: 374. 1848. (Syn. Musc. Frond.)" ;
+    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/invalidum> .
+
+<https://tropicos.org/name/35124390> a tcs:TaxonName ;
+    tcs:taxonNameString "Dicranum tabulare" ;
+    dwc:scientificNameAuthorship "Rehmann" ;
+    dwc:namePublishedIn "Revue Bryologique 5: 69. 1878. (Rev. Bryol.)" ;
+    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/invalidum> .
+
+<https://tropicos.org/name/35131611> a tcs:TaxonName ;
+    tcs:taxonNameString "Dicranum truncorum" ;
+    dwc:scientificNameAuthorship "Müll.Hal." ;
+    dwc:namePublishedIn "Botanische Zeitung (Berlin) 17: 215. 1859. (Bot. Zeitung (Berlin) )" ;
+    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
+
+
+################################################################################
+# Nomenclatural Types
+################################################################################
+
+# Dicranum arfakianum Geh.
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35121903> ;
     tcs:typeSpecimen [ a dwc:MaterialCitation ;
@@ -699,43 +2261,7 @@
             dwc:institutionCode "S" ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> .
 
-
-<https://tropicos.org/name/35122257> a tcs:TaxonName ;
-    dwc:scientificName "Dicranum elimbatum Broth. & Geh." ;
-    tcs:taxonNameString "Dicranum elimbatum" ;
-    dwc:scientificNameAuthorship "Broth. & Geh." ;
-    dwc:namePublishedIn "Bibliotheca Botanica 44: 3. 1898. (Biblioth. Bot.)" ;
-    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/invalidum> .
-
-<https://tropicos.org/name/35121458> a tcs:TaxonName ;
-    dwc:scientificName "Dicranoloma assimile (Hampe) Renauld" ;
-    tcs:taxonNameString "Dicranoloma assimile" ;
-    dwc:scientificNameAuthorship "(Hampe) Renauld" ;
-    tcs:basionym <https://tropicos.org/name/35121913> ;
-    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
-
-<https://tropicos.org/name/35121913> a tcs:TaxonName ;
-    dwc:scientificName "Dicranum assimile Hampe" ;
-    tcs:taxonNameString "Dicranum assimile" ;
-    dwc:scientificNameAuthorship "Hampe" ;
-    dwc:namePublishedIn "Icones Muscorum Novorum vel Minus Cognitorum pl. 24. 1844. (Icon. Musc. (Hampe) )" ;
-    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
-
-<https://tropicos.org/name/35123973> a tcs:TaxonName ;
-    dwc:scientificName "Dicranum polysetum var. assimile (Hampe) Dozy & Molk." ;
-    tcs:taxonNameString "Dicranum polysetum var. assimile" ;
-    dwc:scientificNameAuthorship "Dozy & Molk." ;
-    dwc:namePublishedIn "Musci Frondosi Inediti Archipelagi Indici 5: 143. 1847. (Musc. Frond. Ined. Archip. Ind.)" ;
-    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
-
-<https://tropicos.org/name/35154841> a tcs:TaxonName ;
-    tcs:taxonNameString "Leucoloma assimile" ;
-    dwc:scientificNameAuthorship "(Hampe) Broth." ;
-    tcs:namePublishedIn <https://tropicos.org/reference/9029579> ;
-    dwc:namePublishedIn "Nat. Pflanzenfam. 1,3: 322 (1901)" ;
-    dwc:namePublishedInYear "1901" ;
-    tcs:basionym <https://tropicos.org/name/35121913> .
-
+# Dicranum assimile Hampe
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35121913> ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/holotype> ;
@@ -756,30 +2282,7 @@
             dwc:recordedBy "Junghuhn" ;
             dwc:institutionCode "L" ] .
 
-
-<https://tropicos.org/name/35124384> a tcs:TaxonName ;
-    dwc:scientificName "Dicranum sumatranum Broth." ;
-    tcs:taxonNameString "Dicranum sumatranum" ;
-    dwc:scientificNameAuthorship "Broth." ;
-    dwc:namePublishedIn "Genera Muscorum Frondosorum 285. 1900. (Gen. Musc. Frond.)" ;
-    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
-
-<https://tropicos.org/name/35121646> a tcs:TaxonName ;
-    tcs:taxonNameString "Dicranoloma sumatranum" ;
-    dwc:scientificNameAuthorship "(Müll.Hal.) Renauld" ;
-    tcs:namePublishedIn <https://tropicos.org/publication/4881> ;
-    dwc:namePublishedIn "Essai Leucoloma 14 (1909)" ;
-    dwc:namePublishedInYear "1909" ;
-    tcs:basionym <https://tropicos.org/name/35124384> .
-
-<https://tropicos.org/name/35155131> a tcs:TaxonName ;
-    tcs:taxonNameString "Leucoloma sumatranum" ;
-    dwc:scientificNameAuthorship "(Müll.Hal.) Broth." ;
-    tcs:namePublishedIn <https://tropicos.org/reference/9029579> ;
-    dwc:namePublishedIn "Nat. Pflanzenfam. 1,3: 322 (1901)" ;
-    dwc:namePublishedInYear "1901" ;
-    tcs:basionym <https://tropicos.org/name/35124384> .
-
+# Dicranum sumatranum Müll.Hal.
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35124384> ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/holotype> ;
@@ -844,14 +2347,7 @@
             dwc:recordNumber "48" ;
             dwc:institutionCode "S" ] .
 
-
-<https://tropicos.org/name/35121535> a tcs:TaxonName ;
-    dwc:scientificName "Dicranoloma gedeanum Renauld & Cardot" ;
-    tcs:taxonNameString "Dicranoloma gedeanum" ;
-    dwc:scientificNameAuthorship "Renauld & Cardot" ;
-    dwc:namePublishedIn "Revue Bryologique 28: 117. 1901. (Rev. Bryol.)" ;
-    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
-
+# Dicranoloma gedeanum Renauld & Cardot
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35121535> ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/holotype> ;
@@ -874,14 +2370,7 @@
             dwc:institutionCode "FH" ;
             dwc:collectionCode "FH-FL" ] .
 
-
-<https://tropicos.org/name/35204815> a tcs:TaxonName ;
-    tcs:taxonNameString "Dicranum assimile f. major" ;
-    dwc:scientificNameAuthorship "M.Fleisch." ;
-    tcs:namePublishedIn <https://tropicos.org/reference/9005094> ;
-    dwc:namePublishedIn "Musci Fl. Buitenzorg 1: 74 (1904)" ;
-    dwc:namePublishedInYear "1904" .
-
+# Dicranum assimile f. major M.Fleisch.
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35204815> ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/holotype> ;
@@ -901,13 +2390,7 @@
             dwc:recordNumber "s.n." ;
             dwc:institutionCode "L" ] .
 
-<https://tropicos.org/name/35121587> a tcs:TaxonName ;
-    dwc:scientificName "Dicranoloma perarmatum Broth." ;
-    tcs:taxonNameString "Dicranoloma perarmatum" ;
-    dwc:scientificNameAuthorship "Broth." ;
-    dwc:namePublishedIn "Öfversigt af Finska Vetenskaps-Societetens Förhandlingar 47 (14) tcs: 1. 1905. (Öfvers. Finska Vetensk.-Soc. Förh.)" ;
-    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
-
+# Dicranoloma perarmatum Broth.
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35121587> ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/holotype> ;
@@ -963,14 +2446,7 @@
             dwc:recordNumber "1126" ;
             dwc:institutionCode "NY" ] .
 
-
-<https://tropicos.org/name/35121569> a tcs:TaxonName ;
-    dwc:scientificName "Dicranoloma monocarpum Broth." ;
-    tcs:taxonNameString "Dicranoloma monocarpum" ;
-    dwc:scientificNameAuthorship "Broth." ;
-    dwc:namePublishedIn "The Philippine Journal of Science. Section C, Botany 13: 202. 1918. (Philipp. J. Sci., C.)" ;
-    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
-
+# Dicranoloma monocarpum Broth.
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35121569> ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/holotype> ;
@@ -984,14 +2460,7 @@
             dwc:institutionCode "H" ;
             dwc:collectionCode "H-BR" ] .
 
-
-<https://tropicos.org/name/35121523> a tcs:TaxonName ;
-    dwc:scientificName "Dicranoloma euryloma Dixon" ;
-    tcs:taxonNameString "Dicranoloma euryloma" ;
-    dwc:scientificNameAuthorship "Dixon" ;
-    dwc:namePublishedIn "Journal of the Linnean Society, Botany 50: 69. 1 f. 4. 1935. (J. Linn. Soc., Bot.)" ;
-    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
-
+# Dicranoloma euryloma Dixon
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35121523> ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/holotype> ;
@@ -1032,14 +2501,7 @@
             dwc:recordNumber "1853" ;
             dwc:institutionCode "BM" ] .
 
-
-<https://tropicos.org/name/35121524> a tcs:TaxonName ;
-    dwc:scientificName "Dicranoloma euryloma var. rugifolium E.B.Bartram" ;
-    tcs:taxonNameString "Dicranoloma euryloma var. rugifolium" ;
-    dwc:scientificNameAuthorship "E.B.Bartram" ;
-    dwc:namePublishedIn "Philippine Journal of Science 61: 237. 1936. (Philipp. J. Sci.)" ;
-    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
-
+# Dicranoloma euryloma var. rigifolium E.B.Bartram
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35121524> ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/holotype> ;
@@ -1080,14 +2542,7 @@
             dwc:recordNumber "s.n." ;
             dwc:institutionCode "FH" ] .
 
-
-<https://tropicos.org/name/35121480> a tcs:TaxonName ;
-    dwc:scientificName "Dicranoloma brachyphyllum Nog." ;
-    tcs:taxonNameString "Dicranoloma brachyphyllum" ;
-    dwc:scientificNameAuthorship "Nog." ;
-    dwc:namePublishedIn "Journal of the Hattori Botanical Laboratory 10: 3. 1 f. 1–6. 1953. (J. Hattori Bot. Lab.)" ;
-    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
-
+# Dicranoloma brachyphyllum Nog.
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35121480> ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/holotype> ;
@@ -1114,14 +2569,7 @@
             dwc:recordNumber "10245" ;
             dwc:institutionCode "L" ] .
 
-
-<https://tropicos.org/name/35168349> a tcs:TaxonName ;
-    dwc:scientificName "Dicranoloma havilandii var. latifolium Zanten" ;
-    tcs:taxonNameString "Dicranoloma havilandii var. latifolium" ;
-    dwc:scientificNameAuthorship "Zanten" ;
-    dwc:namePublishedIn "Nova Guinea, Botany 10(16) tcs: 272. pl. 23: f. 3. 1964. (Nova Guinea, Bot.)" ;
-    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
-
+# Dicranoloma havilandii var. latifolium Zanten
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35168349> ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/holotype> ;
@@ -1200,14 +2648,7 @@
             dwc:recordNumber "680a" ;
             dwc:institutionCode "NY" ] .
 
-
-<https://tropicos.org/name/35154921> a tcs:TaxonName ;
-    dwc:scientificName "Leucoloma donaldi Broth." ;
-    tcs:taxonNameString "Leucoloma donaldi" ;
-    dwc:scientificNameAuthorship "Broth." ;
-    dwc:namePublishedIn "Index Bryologicus, editio secunda 3: 27. 1904. (Index Bryol. (ed. 2) )" ;
-    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/invalidum> .
-
+# Leucoloma donaldii Broth.
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35154921> ;
     tcs:typeSpecimen [ a dwc:MaterialCitation ;
@@ -1231,37 +2672,7 @@
             dwc:collectionCode "H-BR" ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/originalmaterial> .
 
-
-<https://tropicos.org/name/35204723> a tcs:TaxonName ;
-    dwc:scientificName "Dicranoloma bartramianum (B.H.Allen) Klazenga" ;
-    tcs:taxonNameString "Dicranoloma bartramianum" ;
-    dwc:scientificNameAuthorship "(B.H.Allen) Klazenga" ;
-    tcs:basionym <https://tropicos.org/name/35183593> ;
-    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
-
-<https://tropicos.org/name/35183593> a tcs:TaxonName ;
-    dwc:scientificName "Dicranum bartramianum B.H.Allen" ;
-    tcs:taxonNameString "Dicranum bartramianum" ;
-    dwc:scientificNameAuthorship "B.H.Allen" ;
-    dwc:namePublishedIn "Cryptogamie: Bryologie, Lichénologie 8: 323. 1987. (Cryptog. Bryol. Lichénol.)" ;
-    tcs:replacedName <https://tropicos.org/name/35120798> ;
-    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
-
-<https://tropicos.org/name/35120798> a tcs:TaxonName ;
-    dwc:scientificName "Dicnemon robustum E.B.Bartram" ;
-    tcs:taxonNameString "Dicnemon robustum" ;
-    dwc:scientificNameAuthorship "E.B.Bartram" ;
-    dwc:namePublishedIn "The Bryologist 48: 112. 1945. (Bryologist)" ;
-    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
-
-<https://tropicos.org/name/35162373> a tcs:TaxonName ;
-    dwc:scientificName "Eucamptodon robustus (E.B.Bartram) E.B.Bartram" ;
-    tcs:taxonNameString "Eucamptodon robustus" ;
-    dwc:scientificNameAuthorship "E.B.Bartram" ;
-    dwc:namePublishedIn "Brittonia 11: 88. 1959. (Brittonia)" ;
-    tcs:basionym <https://tropicos.org/name/35120798> ;
-    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
-
+# Dicnemon robustum E.B.Bartram
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35183593> ;
     tcs:typeSpecimen [ a dwc:MaterialCitation ;
@@ -1292,21 +2703,7 @@
             dwc:institutionCode "MiCH" ] ;
     tcs:typeOfType  <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> .
 
-
-<https://tropicos.org/name/35121467> a tcs:TaxonName ;
-    dwc:scientificName "Dicranoloma billarderii (Brid.) Paris" ;
-    tcs:taxonNameString "Dicranoloma billarderii" ;
-    dwc:scientificNameAuthorship "(Brid.) Paris" ;
-    tcs:basionym <https://tropicos.org/name/35121960> ;
-    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
-
-<https://tropicos.org/name/35121960> a tcs:TaxonName ;
-    dwc:scientificName "Dicranum billarderii Brid." ;
-    tcs:taxonNameString "Dicranum billarderii" ;
-    dwc:scientificNameAuthorship "Brid." ;
-    dwc:namePublishedIn "Botanische Zeitung (Regensburg) 1: 214. 1802. (Bot. Zeitung (Regensburg) )" ;
-    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
-
+# Dicranum billarderii Brid.
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35121960> ;
     tcs:typeSpecimen [ a dwc:MaterialCitation ;
@@ -1317,28 +2714,7 @@
             dwc:disposition "not found" ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/holotype> .
 
-
-<https://tropicos.org/name/35123838> a tcs:TaxonName ;
-    dwc:scientificName "Dicranum novoguinense Broth. & Geh." ;
-    tcs:taxonNameString "Dicranum novoguinense" ;
-    dwc:scientificNameAuthorship "Broth. & Geh." ;
-    dwc:namePublishedIn "Öfversigt af Finska Vetenskaps-Societetens Förhandlingar 37: 151. 1895. (Öfvers. Finska Vetensk.-Soc. Förh.)" ;
-    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
-
-<https://tropicos.org/name/35155018> a tcs:TaxonName ;
-    tcs:taxonNameString "Leucoloma novoguinense" ;
-    dwc:scientificName "Leucoloma novoguinense (Broth. & Geh.) Broth." ;
-    dwc:scientificNameAuthorship "(Broth. & Geh.) Broth." ;
-    dwc:namePublishedIn "Die Natürlichen Pflanzenfamilien I(3) tcs: 322. 1901. (Nat. Pflanzenfam.)" ;
-    tcs:basionym <https://tropicos.org/name/35123838> .
-
-<https://tropicos.org/name/35121578> a tcs:TaxonName ;
-    tcs:taxonNameString "Dicranoloma novoguinense" ;
-    dwc:scientificName "Dicranoloma novoguinense (Broth. & Geh.) Paris" ;
-    dwc:scientificNameAuthorship "(Broth. & Geh.) Paris" ;
-    dwc:namePublishedIn "Index Bryologicus, editio secunda 2: 28. 1904. (Index Bryol. (ed. 2) )" ;
-    tcs:basionym <https://tropicos.org/name/35123838> .
-
+# Dicranum novoguineense
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35123838> ;
     tcs:typeSpecimen [ a dwc:MaterialCitation ;
@@ -1362,14 +2738,7 @@
             dwc:institutionCode "BM" ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> .
 
-
-<https://tropicos.org/name/35121488> a tcs:TaxonName ;
-    dwc:scientificName "Dicranoloma brevicapsulare Dixon" ;
-    tcs:taxonNameString "Dicranoloma brevicapsulare" ;
-    dwc:scientificNameAuthorship "Dixon" ;
-    dwc:namePublishedIn "Bulletin of the Torrey Botanical Club 51: 226. 3 f. 2. 1924. (Bull. Torrey Bot. Club)" ;
-    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
-
+# Dicranoloma brevicapsulare Dixon
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35121488> ;
     tcs:typeSpecimen [ a dwc:MaterialCitation ;
@@ -1403,22 +2772,7 @@
             dwc:institutionCode "L" ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> .
 
-
-<https://tropicos.org/name/35121635> a tcs:TaxonName ;
-    dwc:scientificName "Dicranoloma subecostatum Dixon" ;
-    tcs:taxonNameString "Dicranoloma subecostatum" ;
-    dwc:scientificNameAuthorship "Dixon" ;
-    dwc:namePublishedIn "Journal of the Linnean Society, Botany 50: 69. 1935. (J. Linn. Soc., Bot.)" ;
-    tcs:replacedName <https://tropicos.org/name/35121637> ;
-    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
-
-<https://tropicos.org/name/35121637> a tcs:TaxonName ;
-    dwc:scientificName "Dicranoloma subenerve Broth." ;
-    tcs:taxonNameString "Dicranoloma subenerve" ;
-    dwc:scientificNameAuthorship "Broth." ;
-    dwc:namePublishedIn "Mitteilungen aus dem Institut für Allgemeine Botanik in Hamburg 7(2) tcs: 117. 1928. (Mitt. Inst. Allg. Bot. Hamburg)" ;
-    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
-
+# Dicranoloma subecostatum Dixon
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35121635> ;
     tcs:typeSpecimen [ a dwc:MaterialCitation ;
@@ -1487,15 +2841,8 @@
             dwc:institutionCode "H" ;
             dwc:collectionCode "H-BR" ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/syntype> .
-    
 
-<https://tropicos.org/name/35121595> a tcs:TaxonName ;
-    dwc:scientificName "Dicranoloma phillipsiae E.B.Bartram" ;
-    tcs:taxonNameString "Dicranoloma phillipsiae" ;
-    dwc:scientificNameAuthorship "E.B.Bartram" ;
-    dwc:namePublishedIn "Philippine Journal of Science 68: 53. f. 56. 1939. (Philipp. J. Sci.)" ;
-    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
-
+# Dicranoloma phillipsiae E.B.Bartram
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35121595> ;
     tcs:typeSpecimen [ a dwc:MaterialCitation ;
@@ -1520,14 +2867,7 @@
             dwc:institutionCode "BM" ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> .
 
-
-<https://tropicos.org/name/35121510> a tcs:TaxonName ;
-    dwc:scientificName "Dicranoloma deningeri Herzog" ;
-    tcs:taxonNameString "Dicranoloma deningeri" ;
-    dwc:scientificNameAuthorship "Herzog" ;
-    dwc:namePublishedIn "Hedwigia 61: 289. 1919. (Hedwigia)" ;
-    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/invalidum> .
-
+# Dicranoloma deningeri Herzog
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35121510> ;
     tcs:typeSpecimen [ a dwc:MaterialCitation ;
@@ -1540,29 +2880,7 @@
             dwc:institutionCode "JE" ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/originalmaterial> .
 
-
-<https://tropicos.org/name/35121475> a tcs:TaxonName ;
-    dwc:scientificName "Dicranoloma blumei (Nees) Renauld" ;
-    tcs:taxonNameString "Dicranoloma blumei" ;
-    dwc:scientificNameAuthorship "(Nees) Renauld" ;
-    tcs:basionym <https://tropicos.org/name/35121972> ;
-    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
-
-<https://tropicos.org/name/35121972> a tcs:TaxonName ;
-    dwc:scientificName "Dicranum blumei Nees" ;
-    tcs:taxonNameString "Dicranum blumei" ;
-    dwc:scientificNameAuthorship "Nees" ;
-    dwc:namePublishedIn "Nova Acta Physico-medica Academiae Caesareae Leopoldino-Carolinae Naturae Curiosorum Exhibentia Ephemerides sive Observationes Historias et Experimenta 11(1) tcs: 131. 15 f. 1. 1823. (Nova Acta Phys.-Med. Acad. Caes. Leop.-Carol. Nat. Cur.)" ;
-    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
-
-<https://tropicos.org/name/35154856> a tcs:TaxonName ;
-    dwc:scientificName "Leucoloma blumei (Nees) Broth." ;
-    tcs:taxonNameString "Leucoloma blumei" ;
-    dwc:scientificNameAuthorship "Broth." ;
-    dwc:namePublishedIn "Die Natürlichen Pflanzenfamilien I(3) tcs: 322. 1901. (Nat. Pflanzenfam.)" ;
-    tcs:basionym <https://tropicos.org/name/35121972> ;
-    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
-
+# Dicranum blumei Nees
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35121972> ;
     tcs:typeSpecimen [ a dwc:MaterialCitation ;
@@ -1607,23 +2925,8 @@
             dwc:recordNumber "s.n." ;
             dwc:institutionCode "NY" ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> .
-     
 
-<https://tropicos.org/name/35121973> a tcs:TaxonName ;
-    dwc:scientificName "Dicranum blumei var. laxifolium Broth. & Geh." ;
-    tcs:taxonNameString "Dicranum blumei var. laxifolium" ;
-    dwc:scientificNameAuthorship "Broth. & Geh." ;
-    dwc:namePublishedIn "Bibliotheca Botanica 44: 4. 1898. (Biblioth. Bot.)" ;
-    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> ;
-    tcs:basionym <https://tropicos.org/name/35121973> .
-
-<https://tropicos.org/name/35121476> a tcs:TaxonName ;
-    dwc:scientificName "Dicranoloma blumei var. laxifolium (Broth. & Geh.) M.Fleisch." ;
-    tcs:taxonNameString "Dicranoloma blumei var. laxifolium" ;
-    dwc:scientificNameAuthorship "M.Fleisch." ;
-    dwc:namePublishedIn "Nova Guinea 12(2) tcs: 112. 1914. (Nova Guinea)" ;
-    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
-
+# Dicranum blumei var. laxifolium Broth. & Geh.
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35121973> ;
     tcs:typeSpecimen [ a dwc:MaterialCitation ;
@@ -1660,14 +2963,7 @@
             dwc:institutionCode "L" ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> .
 
-
-<https://tropicos.org/name/35121477> a tcs:TaxonName ;
-    dwc:scientificName "Dicranoloma blumei var. papillisetum M.Fleisch." ;
-    tcs:taxonNameString "Dicranoloma blumei var. papillisetum" ;
-    dwc:scientificNameAuthorship "M.Fleisch." ;
-    dwc:namePublishedIn "Nova Guinea 12(2) tcs: 112. 1914. (Nova Guinea)" ;
-    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
-
+# Dicranoloma blumei var. papillisetum M.Fleisch.
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35121477> ;
     tcs:typeSpecimen [ a dwc:MaterialCitation ;
@@ -1680,14 +2976,7 @@
             dwc:collectionCode "FH-FL" ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/holotype> .
     
-
-<https://tropicos.org/name/35121484> a tcs:TaxonName ;
-    dwc:scientificName "Dicranoloma braunfelsioides Herzog" ;
-    tcs:taxonNameString "Dicranoloma braunfelsioides" ;
-    dwc:scientificNameAuthorship "Herzog" ;
-    dwc:namePublishedIn "Hedwigia 61: 288. 1919. (Hedwigia)" ;
-    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
-
+# Dicranoloma braunfelsioides Herzog
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35121484> ;
     tcs:typeSpecimen [ a dwc:MaterialCitation ;
@@ -1724,14 +3013,7 @@
             dwc:institutionCode "S" ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> .
 
-
-<https://tropicos.org/name/35188177> a tcs:TaxonName ;
-    dwc:scientificName "Dicranoloma blumei f. subintegrum Dixon" ;
-    tcs:taxonNameString "Dicranoloma blumei f. subintegrum" ;
-    dwc:scientificNameAuthorship "Dixon" ;
-    dwc:namePublishedIn "Journal of Botany, British and Foreign 80: 4. 1942. (J. Bot.)" ;
-    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
-
+# Dicranoloma blumei f. subintegrum Dixon
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35188177> ;
     tcs:typeSpecimen [ a dwc:MaterialCitation ;
@@ -1776,29 +3058,7 @@
             dwc:institutionCode "NY" ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> .
  
-
-<https://tropicos.org/name/35121486> a tcs:TaxonName ;
-    dwc:scientificName "Dicranoloma braunii (Müll.Hal.) Paris" ;
-    tcs:taxonNameString "Dicranoloma braunii" ;
-    dwc:scientificNameAuthorship "(Müll.Hal.) Paris" ;
-    tcs:basionym <https://tropicos.org/name/35122018> ;
-    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
-
-<https://tropicos.org/name/35122018> a tcs:TaxonName ;
-    dwc:scientificName "Dicranum braunii Müll.Hal." ;
-    tcs:taxonNameString "Dicranum braunii" ;
-    dwc:scientificNameAuthorship "Müll.Hal." ;
-    dwc:namePublishedIn "Bryologia Javanica 1: 69. 57. 1858. (Bryol. Jav.)" ;
-    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
-
-<https://tropicos.org/name/35154865> a tcs:TaxonName ;
-    dwc:scientificName "Leucoloma braunii (Müll.Hal.) Broth." ;
-    tcs:taxonNameString "Leucoloma braunii" ;
-    dwc:scientificNameAuthorship "Broth." ;
-    dwc:namePublishedIn "Die Natürlichen Pflanzenfamilien I(3) tcs: 322. 1901. (Nat. Pflanzenfam.)" ;
-    tcs:basionym <https://tropicos.org/name/35122018> ;
-    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
-
+# Dicranum braunii Müll.Hal.
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35122018> ;
     tcs:typeSpecimen [ a dwc:MaterialCitation ;
@@ -1850,29 +3110,7 @@
             dwc:disposition "not located" ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/syntype> .
 
-
-<https://tropicos.org/name/35154862> a tcs:TaxonName ;
-    dwc:scientificName "Leucoloma brachypelma Broth." ;
-    tcs:taxonNameString "Leucoloma brachypelma" ;
-    dwc:scientificNameAuthorship "Broth." ;
-    dwc:namePublishedIn "Die Natürlichen Pflanzenfamilien I(3) tcs: 322. 1901. (Nat. Pflanzenfam.)" ;
-    tcs:replacedName <https://tropicos.org/name/35122011> ;
-    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
-
-<https://tropicos.org/name/35122011> a tcs:TaxonName ;
-    dwc:scientificName "Dicranum brachypelma Müll.Hal." ;
-    tcs:taxonNameString "Dicranum brachypelma" ;
-    dwc:scientificNameAuthorship "Müll.Hal." ;
-    dwc:namePublishedIn "Synopsis Muscorum Frondosorum omnium hucusque Cognitorum 2: 595. 1851. (Sep 1851) (Syn. Musc. Frond.)" ;
-    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/illegitimum> .
-
-<https://tropicos.org/name/35121479> a tcs:TaxonName ;
-    dwc:scientificName "Dicranoloma brachypelma (Broth.) Paris" ;
-    tcs:taxonNameString "Dicranoloma brachypelma" ;
-    dwc:scientificNameAuthorship "(Broth.) Paris" ;
-    tcs:basionym <https://tropicos.org/name/35154862> ;
-    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
-
+# Leucoloma brachypelma Broth.
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35154862> ;
     tcs:typeSpecimen [ a dwc:MaterialCitation ;
@@ -1893,30 +3131,7 @@
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/lectotype> ;
     tcs:typePublishedIn <https://tropicos.org/reference/9020903> .
 
-
-<https://tropicos.org/name/35123489> a tcs:TaxonName ;
-    dwc:scientificName "Dicranum graeffeanum Müll.Hal." ;
-    tcs:taxonNameString "Dicranum graeffeanum" ;
-    dwc:scientificNameAuthorship "Müll.Hal." ;
-    dwc:namePublishedIn "Journal des Museums Godeffroy 3(6) tcs: 62. 1874. (J. Mus. Godeffroy)" ;
-    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
-
-<https://tropicos.org/name/35121537> a tcs:TaxonName ;
-    dwc:scientificName "Dicranoloma graeffeanum (Müll.Hal.) Paris" ;
-    tcs:taxonNameString "Dicranoloma graeffeanum" ;
-    dwc:scientificNameAuthorship "Paris" ;
-    dwc:namePublishedIn "Index Bryologicus, editio secunda 2: 27. 1904. (Index Bryol. (ed. 2) )" ;
-    tcs:basionym <https://tropicos.org/name/35123489> ;
-    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
-
-<https://tropicos.org/name/35154946> a tcs:TaxonName ;
-    dwc:scientificName "Leucoloma graeffeanum (Müll.Hal.) Broth." ;
-    tcs:taxonNameString "Leucoloma graeffeanum" ;
-    dwc:scientificNameAuthorship "Broth." ;
-    dwc:namePublishedIn "Die Natürlichen Pflanzenfamilien I(3) tcs: 322. 1901. (Nat. Pflanzenfam.)" ;
-    tcs:basionym <https://tropicos.org/name/35123489> ;
-    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
-
+# Dicranum graeffeanum Müll.Hal.
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35123489> ;
     tcs:typeSpecimen [ a dwc:MaterialCitation ;
@@ -1950,30 +3165,7 @@
             dwc:collectionCode "H-BR" ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> .
     
-
-<https://tropicos.org/name/35123636> a tcs:TaxonName ;
-    dwc:scientificName "Dicranum laevifolium Broth. & Geh." ;
-    tcs:taxonNameString "Dicranum laevifolium" ;
-    dwc:scientificNameAuthorship "Broth. & Geh." ;
-    dwc:namePublishedIn "Bibliotheca Botanica 44: 4. 1898. (Biblioth. Bot.)" ;
-    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
-
-<https://tropicos.org/name/35154980> a tcs:TaxonName ;
-    dwc:scientificName "Leucoloma laevifolium (Broth. & Geh.) Broth." ;
-    tcs:taxonNameString "Leucoloma laevifolium" ;
-    dwc:scientificNameAuthorship "Broth." ;
-    dwc:namePublishedIn "Die Natürlichen Pflanzenfamilien I(3) tcs: 322. 1901. (Nat. Pflanzenfam.)" ;
-    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> ;
-    tcs:basionym <https://tropicos.org/name/35123636> .
-
-<https://tropicos.org/name/35121556> a tcs:TaxonName ;
-    dwc:scientificName "Dicranoloma laevifolium (Broth. & Geh.) Paris" ;
-    tcs:taxonNameString "Dicranoloma laevifolium" ;
-    dwc:scientificNameAuthorship "Paris" ;
-    dwc:namePublishedIn "Index Bryologicus, editio secunda 2: 27. 1904. (Index Bryol. (ed. 2) )" ;
-    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> ;
-    tcs:basionym <https://tropicos.org/name/35123636> .
-
+# Dicranum laevifolium Broth. & Geh.
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35123636> ;
     tcs:typeSpecimen [ a dwc:MaterialCitation ;
@@ -2009,38 +3201,7 @@
             dwc:institutionCode "S" ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> .
     
-
-<https://tropicos.org/name/35123815> a tcs:TaxonName ;
-    dwc:scientificName "Dicranum nematosum Broth. & Geh." ;
-    tcs:taxonNameString "Dicranum nematosum" ;
-    dwc:scientificNameAuthorship "Broth. & Geh." ;
-    dwc:namePublishedIn "Öfversigt af Finska Vetenskaps-Societetens Förhandlingar 40: 163. 1898. (Öfvers. Finska Vetensk.-Soc. Förh.)" ;
-    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
-
-<https://tropicos.org/name/35155008> a tcs:TaxonName ;
-    dwc:scientificName "Leucoloma nematosum (Broth. & Geh.) Broth." ;
-    tcs:taxonNameString "Leucoloma nematosum" ;
-    dwc:scientificNameAuthorship "Broth." ;
-    dwc:namePublishedIn "Die Natürlichen Pflanzenfamilien I(3) tcs: 322. 1901. (Nat. Pflanzenfam.)" ;
-    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> ;
-    tcs:basionym <https://tropicos.org/name/35123815> .
-
-<https://tropicos.org/name/35121574> a tcs:TaxonName ;
-    dwc:scientificName "Dicranoloma nematosum (Broth. & Geh.) Paris" ;
-    tcs:taxonNameString "Dicranoloma nematosum" ;
-    dwc:scientificNameAuthorship "Paris" ;
-    dwc:namePublishedIn "Index Bryologicus, editio secunda 2: 28. 1904. (Index Bryol. (ed. 2) )" ;
-    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> ;
-    tcs:basionym <https://tropicos.org/name/35123815> .
-
-<https://tropicos.org/name/35167975> a tcs:TaxonName ;
-    dwc:scientificName "Dicranoloma brevisetum f. nematosum (Broth. & Geh.) B.C.Tan & T.J.Kop." ;
-    tcs:taxonNameString "Dicranoloma brevisetum f. nematosum" ;
-    dwc:scientificNameAuthorship "(Broth. & Geh.) B.C.Tan & T.J.Kop." ;
-    dwc:namePublishedIn "Annales Botanici Fennici 20: 326. 1983. (Ann. Bot. Fenn.)" ;
-    tcs:basionym <https://tropicos.org/name/35123815> ;
-    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
-
+# Dicranum nematosum Broth. & Geh.
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35123815> ;
     tcs:typeSpecimen [ a dwc:MaterialCitation ;
@@ -2062,46 +3223,7 @@
             dwc:institutionCode "S" ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> .
 
-
-<https://tropicos.org/name/35186801> a tcs:TaxonName ;
-    dwc:scientificName "Dicranum braunii f. mindanense M.Fleisch." ;
-    tcs:taxonNameString "Dicranum braunii f. mindanense" ;
-    dwc:scientificNameAuthorship "M.Fleisch." ;
-    dwc:namePublishedIn "Die Musci der Flora von Buitenzorg 1: 84. 1904. (Musci Buitenzorg)" ;
-    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
-
-<https://tropicos.org/name/35123766> a tcs:TaxonName ;
-    dwc:scientificName "Dicranum mindanense Broth." ;
-    tcs:taxonNameString "Dicranum mindanense" ;
-    dwc:scientificNameAuthorship "Broth." ;
-    dwc:namePublishedIn "Genera Muscorum Frondosorum 288. 1900. (Gen. Musc. Frond.)" ;
-    tcs:basionym <https://tropicos.org/name/35186801> ;
-    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/invalidum> .
-
-<https://tropicos.org/name/100472684> a tcs:TaxonName ;
-    dwc:scientificName "Dicranoloma braunii f. mindanense (M.Fleisch.) Sasaoka" ;
-    tcs:taxonNameString "Dicranoloma braunii f. mindanense" ;
-    dwc:scientificNameAuthorship "Sasaoka" ;
-    dwc:namePublishedIn "Transactions of the Natural History Society of Formosa 18: 184. 1928. (Trans. Nat. Hist. Soc. Formosa)" ;
-    tcs:basionym <https://tropicos.org/name/35186801> ;
-    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
-
-<https://tropicos.org/name/35162123> a tcs:TaxonName ;
-    dwc:scientificName "Dicranoloma braunii var. mindanense (M.Fleisch.) Ihsiba" ;
-    tcs:taxonNameString "Dicranoloma braunii var. mindanense" ;
-    dwc:scientificNameAuthorship "Ihsiba" ;
-    dwc:namePublishedIn "Catalog of Mosses of Japan [index] 4. 1929. (Cat. Mosses Japan)" ;
-    tcs:basionym <https://tropicos.org/name/35186801> ;
-    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
-
-<https://tropicos.org/name/100472683> a tcs:TaxonName ;
-    dwc:scientificName "Dicranoloma mindanense (M.Fleisch.) Z.Iwats. & B.C.Tan" ;
-    tcs:taxonNameString "Dicranoloma mindanense" ;
-    dwc:scientificNameAuthorship "Z.Iwats. & B.C.Tan" ;
-    dwc:namePublishedIn "Kalikasan, Philippine Journal of Biology 8: 188. 1979. (Kalikasan)" ;
-    tcs:basionym <https://tropicos.org/name/35186801> ;
-    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
-
+# Dicranum mindanense Broth.
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35186801> ;
     tcs:typeSpecimen [ a dwc:MaterialCitation ;
@@ -2126,22 +3248,8 @@
             dwc:collectionCode "H-BR" ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/lectotype> ;
     tcs:typePublishedIn <https://tropicos.org/reference/9002886> .
-            
 
-<https://tropicos.org/name/35121487> a tcs:TaxonName ;
-    dwc:scientificName "Dicranoloma braunii var. samoanum Broth." ;
-    tcs:taxonNameString "Dicranoloma braunii var. samoanum" ;
-    dwc:scientificNameAuthorship "Broth." ;
-    dwc:namePublishedIn "Denkschriften der Kaiserlichen Akademie der Wissenschaften, Wien. Mathematisch-naturwissenschaftliche Klasse 84: 387. 1908. (Denkschr. Kaiserl. Akad. Wiss., Wien Math.-Naturwiss. Kl.)" ;
-    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
-
-<https://tropicos.org/name/35167976> a tcs:TaxonName ;
-    dwc:scientificName "Dicranoloma brevisetum var. samoanum (Broth.) B.C.Tan & T.J.Kop." ;
-    tcs:taxonNameString "Dicranoloma brevisetum var. samoanum" ;
-    dwc:scientificNameAuthorship "(Broth.) B.C.Tan & T.J.Kop." ;
-    tcs:basionym <https://tropicos.org/name/35121487> ;
-    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
-
+# Dicranoloma braunii var. samoanum Broth.
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35121487> ;
     tcs:typeSpecimen [ a dwc:MaterialCitation ;
@@ -2164,15 +3272,8 @@
             dwc:recordNumber "s.n." ;
             dwc:institutionCode "W" ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/paratype> .
-        
 
-<https://tropicos.org/name/35204816> a tcs:TaxonName ;
-    dwc:scientificName "Dicranoloma braunii f. brevifolium Dixon" ;
-    tcs:taxonNameString "Dicranoloma braunii f. brevifolium" ;
-    dwc:scientificNameAuthorship "Dixon" ;
-    dwc:namePublishedIn "Journal of the Linnean Society, Botany 45: 497. 1922. (J. Linn. Soc., Bot.)" ;
-    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
-
+# Dicranoloma braunii f. brevifolia
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35204816> ;
     tcs:typeSpecimen [ a dwc:MaterialCitation ;
@@ -2184,14 +3285,7 @@
             dwc:institutionCode "BM" ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/holotype> .
 
-
-<https://tropicos.org/name/35121543> a tcs:TaxonName ;
-    dwc:scientificName "Dicranoloma hemineuron Dixon" ;
-    tcs:taxonNameString "Dicranoloma hemineuron" ;
-    dwc:scientificNameAuthorship "Dixon" ;
-    dwc:namePublishedIn "Annales Bryologici 5: 22. 1932. (Ann. Bryol.)" ;
-    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
-
+# Dicranoloma hemineuron Dixon
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35121543> ;
     tcs:typeSpecimen [ a dwc:MaterialCitation ;
@@ -2214,14 +3308,7 @@
             dwc:institutionCode "JE" ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> .
 
-
-<https://tropicos.org/name/35121452> a tcs:TaxonName ;
-    dwc:scientificName "Dicranoloma angustifrondeum Dixon" ;
-    tcs:taxonNameString "Dicranoloma angustifrondeum" ;
-    dwc:scientificNameAuthorship "Dixon" ;
-    dwc:namePublishedIn "Journal of the Linnean Society, Botany 50: 70. 1 f. 3. 1935. (J. Linn. Soc., Bot.)" ;
-    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
-
+# Dicranoloma angustifondreum Dixon
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35121452> ;
     tcs:typeSpecimen [ a dwc:MaterialCitation ;
@@ -2244,14 +3331,7 @@
             dwc:institutionCode "L" ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> .
     
-
-<https://tropicos.org/name/35121631> a tcs:TaxonName ;
-    dwc:scientificName "Dicranoloma spiniforme E.B.Bartram" ;
-    tcs:taxonNameString "Dicranoloma spiniforme" ;
-    dwc:scientificNameAuthorship "E.B.Bartram" ;
-    dwc:namePublishedIn "Farlowia 4: 237. 1952. (Farlowia)" ;
-    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
-
+# Dicranoloma spiniforme E.B.Bartram
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35121631> ;
     tcs:typeSpecimen [ a dwc:MaterialCitation ;
@@ -2265,14 +3345,7 @@
             dwc:collectionCode "FH-Bartr." ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/holotype> .
 
-
-<https://tropicos.org/name/35113481> a tcs:TaxonName ;
-    dwc:scientificName "Bartramia pungentella Müll.Hal." ;
-    tcs:taxonNameString "Bartramia pungentella" ;
-    dwc:scientificNameAuthorship "Müll.Hal." ;
-    dwc:namePublishedIn "Index Bryologicus Supplementum Primum 35. 1900. (Index Bryol. Suppl.)" ;
-    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/invalidum> .
-
+# Bartramia pungentella Müll.Hal.
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35113481> ;
     tcs:typeSpecimen [ a dwc:MaterialCitation ;
@@ -2294,14 +3367,7 @@
             dwc:institutionCode "H" ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/originalmaterial> .
 
-
-<https://tropicos.org/name/35123553> a tcs:TaxonName ;
-    dwc:scientificName "Dicranum horridum Geh." ;
-    tcs:taxonNameString "Dicranum horridum" ;
-    dwc:scientificNameAuthorship "Geh." ;
-    dwc:namePublishedIn "Genera Muscorum Frondosorum 294. 1900. (Gen. Musc. Frond.)" ;
-    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/invalidum> .
-
+# Dicranum horridum Geh.
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35123553> ;
     tcs:typeSpecimen [ a dwc:MaterialCitation ;
@@ -2324,37 +3390,7 @@
             dwc:institutionCode "JE" ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/originalmaterial> .
 
-
-<https://tropicos.org/name/35121491> a tcs:TaxonName ;
-    dwc:scientificName "Dicranoloma brevisetum (Dozy & Molk.) Paris" ;
-    tcs:taxonNameString "Dicranoloma brevisetum" ;
-    dwc:scientificNameAuthorship "(Dozy & Molk.) Paris" ;
-    tcs:basionym <https://tropicos.org/name/35150829> ;
-    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
-
-<https://tropicos.org/name/35150829> a tcs:TaxonName ;
-    dwc:scientificName "Megalostylium brevisetum Dozy & Molk." ;
-    tcs:taxonNameString "Megalostylium brevisetum" ;
-    dwc:scientificNameAuthorship "Dozy & Molk." ;
-    dwc:namePublishedIn "Musci Frondosi Inediti Archipelagi Indici 6: 146, pl. 44. 1848. (Musc. Frond. Ined. Archip. Ind.)" ;
-    tcs:replacedName <https://tropicos.org/name/35122026> ;
-    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/illegitimate> .
-
-<https://tropicos.org/name/35122026> a tcs:TaxonName ;
-    dwc:scientificName "Dicranum brevisetum Dozy & Molk." ;
-    tcs:taxonNameString "Dicranum brevisetum" ;
-    dwc:scientificNameAuthorship "Dozy & Molk." ;
-    dwc:namePublishedIn "Muscorum Frondosorum Novae Species ex Archipelago Indico et Japonica 5. 1844. (Aug–Sep 1844) (Musc. Frond. Archip. Ind.)" ;
-    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
-
-<https://tropicos.org/name/35154870> a tcs:TaxonName ;
-    dwc:scientificName "Leucoloma brevisetum (Dozy & Molk.) Broth." ;
-    tcs:taxonNameString "Leucoloma brevisetum" ;
-    dwc:scientificNameAuthorship "Broth." ;
-    dwc:namePublishedIn "Die Natürlichen Pflanzenfamilien I(3) tcs: 322. 1901. (Nat. Pflanzenfam.)" ;
-    tcs:basionym <https://tropicos.org/name/35150829> ;
-    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
-
+# Megalostylium brevisetum Dozy & Molk.
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35150829> ;
     tcs:typeSpecimen [ a dwc:MaterialCitation ;
@@ -2400,20 +3436,8 @@
             dwc:recordNumber "s.n." ;
             dwc:institutionCode "S" ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/syntype> .
-     
 
-<https://tropicos.org/name/35191032> a tcs:TaxonName ;
-    dwc:scientificName "Dicranoloma brevisetum var. brevisetum " ;
-    tcs:taxonNameString "Dicranoloma brevisetum var. brevisetum" .
-
-
-<https://tropicos.org/name/35122028> a tcs:TaxonName ;
-    dwc:scientificName "Dicranum brevisetum var. angustum Sande Lac." ;
-    tcs:taxonNameString "Dicranum brevisetum var. angustum" ;
-    dwc:scientificNameAuthorship "Sande Lac." ;
-    dwc:namePublishedIn "Bryologia Javanica 2: 225. 1870. (Bryol. Jav.)" ;
-    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
-
+# Dicranum brevisetum var. angustum Sande Lac.
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35122028> ;
     tcs:typeSpecimen [ a dwc:MaterialCitation ;
@@ -2435,30 +3459,7 @@
             dwc:disposition "not located" ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/syntype> .
 
-
-<https://tropicos.org/name/35123679> a tcs:TaxonName ;
-    dwc:scientificName "Dicranum leucophyllum Sande Lac." ;
-    tcs:taxonNameString "Dicranum leucophyllum" ;
-    dwc:scientificNameAuthorship "Sande Lac." ;
-    dwc:namePublishedIn "Verhandelingen der Koninklijke Akademie van Wetenschappen, Afdeeling Natuurkunde 13: 10. 6C. 1872. (Verh. Kon. Akad. Wetensch., Afd. Natuurk.)" ;
-    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
-
-<https://tropicos.org/name/35154985> a tcs:TaxonName ;
-    dwc:scientificName "Leucoloma leucophyllum (Sande Lac.) Broth." ;
-    tcs:taxonNameString "Leucoloma leucophyllum" ;
-    dwc:scientificNameAuthorship "Broth." ;
-    dwc:namePublishedIn "Die Natürlichen Pflanzenfamilien I(3) tcs: 322. 1901. (Nat. Pflanzenfam.)" ;
-    tcs:basionym <https://tropicos.org/name/35123679> ;
-    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
-
-<https://tropicos.org/name/35121559> a tcs:TaxonName ;
-    dwc:scientificName "Dicranoloma leucophyllum (Sande Lac.) Paris" ;
-    tcs:taxonNameString "Dicranoloma leucophyllum" ;
-    dwc:scientificNameAuthorship "(Sande Lac.) Paris" ;
-    dwc:namePublishedIn "Index Bryologicus, editio secunda 2: 27. 1904. (Index Bryol. (ed. 2) )" ;
-    tcs:basionym <https://tropicos.org/name/35123679> ;
-    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
-
+# Dicranum leucophyllum Sande Lac.
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35123679> ;
     tcs:typeSpecimen [ a dwc:MaterialCitation ;
@@ -2491,22 +3492,7 @@
             dwc:institutionCode "S" ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isolectotype> .
 
-
-<https://tropicos.org/name/35123680> a tcs:TaxonName ;
-    dwc:scientificName "Dicranum leucophyllum var. kurzii M.Fleisch." ;
-    tcs:taxonNameString "Dicranum leucophyllum var. kurzii" ;
-    dwc:scientificNameAuthorship "M.Fleisch." ;
-    dwc:namePublishedIn "Die Musci der Flora von Buitenzorg 1: 85. 1904. (Musci Buitenzorg)" ;
-    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
-
-<https://tropicos.org/name/35121560> a tcs:TaxonName ;
-    dwc:scientificName "Dicranoloma leucophyllum var. kurzii (M.Fleisch.) Paris" ;
-    tcs:taxonNameString "Dicranoloma leucophyllum var. kurzii" ;
-    dwc:scientificNameAuthorship "(M.Fleisch.) Paris" ;
-    dwc:namePublishedIn "Index Bryologicus, editio secunda 2: 27. 1904. (Index Bryol. (ed. 2) )" ;
-    tcs:basionym <https://tropicos.org/name/35123680> ;
-    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
-
+# Dicranum leucophyllum var. kurzii M.Fleish.
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35122028> ;
     tcs:typeSpecimen [ a dwc:MaterialCitation ;
@@ -2591,14 +3577,7 @@
             dwc:institutionCode "S" ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> .
 
-
-<https://tropicos.org/name/35162124> a tcs:TaxonName ;
-    dwc:scientificName "Dicranoloma defoliatum J.Froehl." ;
-    tcs:taxonNameString "Dicranoloma defoliatum" ;
-    dwc:scientificNameAuthorship "J.Froehl." ;
-    dwc:namePublishedIn "Revue Bryologique et Lichénologique 31: 91. 1962. (Rev. Bryol. Lichénol.)" ;
-    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
-
+# Dicranoloma defoliatum J.Froehl.
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35162124> ;
     tcs:typeSpecimen [ a dwc:MaterialCitation ;
@@ -2624,14 +3603,7 @@
             dwc:institutionCode "L" ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> .
 
-
-<https://tropicos.org/name/35186481> a tcs:TaxonName ;
-    dwc:scientificName "Dicranoloma damanhurii B.C.Tan & Mohamed" ;
-    tcs:taxonNameString "Dicranoloma damanhurii" ;
-    dwc:scientificNameAuthorship "B.C.Tan & Mohamed" ;
-    dwc:namePublishedIn "Cryptogamie: Bryologie, Lichénologie 11: 359. 1990. (Cryptog. Bryol. Lichénol.)" ;
-    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
-
+# Dicranoloma damanhurii B.C.Tan & Mohamed
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35186481> ;
     tcs:typeSpecimen [ a dwc:MaterialCitation ;
@@ -2786,15 +3758,8 @@
             dwc:recordNumber "164" ;
             dwc:institutionCode "UKMB" ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/paratype> .
-   
 
-<https://tropicos.org/name/35204817> a tcs:TaxonName ;
-    dwc:scientificName "Dicranoloma leucophyllum f. rufescens M.Fleisch." ;
-    tcs:taxonNameString "Dicranoloma leucophyllum f. rufescens" ;
-    dwc:scientificNameAuthorship "M.Fleisch." ;
-    dwc:namePublishedIn "Musci Frondosi Archipelagi Indici Exsiccati 453. 1908. (Musci Frond. Archip. Ind. Exsic.)" ;
-    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/nudum> .
-
+# Dicranoloma leucophyllum f. rufescens M.Fleish.
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35204817> ;
     tcs:typeSpecimen [ a dwc:MaterialCitation ;
@@ -2804,22 +3769,8 @@
             dwc:recordNumber "s.n." ;
             dwc:institutionCode "BM" ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/originalmaterial> .
-
-
-<https://tropicos.org/name/35184272> a tcs:TaxonName ;
-    dwc:scientificName "Dicranum cutlackii D.H.Norris & T.J.Kop." ;
-    tcs:taxonNameString "Dicranum cutlackii" ;
-    dwc:scientificNameAuthorship "D.H.Norris & T.J.Kop." ;
-    dwc:namePublishedIn "Acta Botanica Fennica 139: 38. 1990. (Acta Bot. Fenn.)" ;
-    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
-
-<https://tropicos.org/name/35204724> a tcs:TaxonName ;
-    dwc:scientificName "Dicranoloma cutlackii (D.H.Norris & T.J.Kop.) Klazenga" ;
-    tcs:taxonNameString "Dicranoloma cutlackii" ;
-    dwc:scientificNameAuthorship "(D.H.Norris & T.J.Kop.) Klazenga" ;
-    tcs:basionym <https://tropicos.org/name/35184272> ;
-    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
-
+   
+# Dicranum cutlackii D.H.Norris & T.J.Kop.
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35184272> ;
     tcs:typeSpecimen [ a dwc:MaterialCitation ;
@@ -3095,21 +4046,7 @@
             dwc:institutionCode "H" ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/paratype> .
 
-
-<https://tropicos.org/name/35121509> a tcs:TaxonName ;
-    dwc:scientificName "Dicranoloma daymannianum E.B.Bartram" ;
-    tcs:taxonNameString "Dicranoloma daymannianum" ;
-    dwc:scientificNameAuthorship "E.B.Bartram" ;
-    dwc:namePublishedIn "Brittonia 9: 35. 1957. (Brittonia)" ;
-    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
-
-<https://tropicos.org/name/35184274> a tcs:TaxonName ;
-    dwc:scientificName "Dicranum daymannianum (E.B.Bartram) D.H.Norris & T.J.Kop." ;
-    dwc:scientificNameAuthorship "(E.B.Bartram) D.H.Norris & T.J.Kop." ;
-    dwc:namePublishedIn "Acta Botanica Fennica 139: 40. 1990. (Acta Bot. Fenn.)" ;
-    dwc:namePublishedInYear "1990" ;
-    tcs:basionym <https://tropicos.org/name/35121509> .
-
+# Dicranoloma daymannianum E.B.Bartram
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35121509> ;
     tcs:typeSpecimen [ a dwc:MaterialCitation ;
@@ -3150,30 +4087,7 @@
             dwc:institutionCode "H" ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> .
 
-
-<https://tropicos.org/name/35121514> a tcs:TaxonName ;
-    dwc:scientificName "Dicranoloma dicarpon (Nees) Paris" ;
-    tcs:taxonNameString "Dicranoloma dicarpon" ;
-    dwc:scientificNameAuthorship "(Nees) Paris" ;
-    tcs:basionym <https://tropicos.org/name/35122214> ;
-    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
-
-<https://tropicos.org/name/35122214> a tcs:TaxonName ;
-    dwc:scientificName "Dicranum dicarpon Nees" ;
-    tcs:taxonNameString "Dicranum dicarpon" ;
-    dwc:scientificNameAuthorship "Nees" ;
-    dwc:namePublishedIn "Systema Vegetabilium, editio decima sexta 4(2) tcs: 322. 1827. (Syst. Veg. [Sprengel])" ;
-    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
-
-
-<https://tropicos.org/name/35154915> a tcs:TaxonName ;
-    dwc:scientificName "Leucoloma dicarpon (Nees) Broth." ;
-    tcs:taxonNameString "Leucoloma dicarpon" ;
-    dwc:scientificNameAuthorship "Broth." ;
-    dwc:namePublishedIn "Die Natürlichen Pflanzenfamilien I(3) tcs: 322. 1901. (Nat. Pflanzenfam.)" ;
-    tcs:basionym <https://tropicos.org/name/35122214> ;
-    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
-
+# Dicranum dicarpon Nees
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35122214> ;
     tcs:typeSpecimen [ a dwc:MaterialCitation ;
@@ -3220,48 +4134,8 @@
             dwc:recordNumber "10" ;
             dwc:institutionCode "NY" ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> .
-    
 
-<https://tropicos.org/name/35182608> a tcs:TaxonName ;
-    dwc:scientificName "Dicranoloma formosanum Broth." ;
-    tcs:taxonNameString "Dicranoloma formosanum" ;
-    dwc:scientificNameAuthorship "Broth." ;
-    dwc:namePublishedIn "Annales Bryologici 1: 17. 1928. (Ann. Bryol.)" ;
-    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
-
-[] a tcs:NomenclaturalType ;
-    tcs:typifiedName <https://tropicos.org/name/35182608> ;
-    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/lectotype> ;
-    tcs:typePublishedIn <https://tropicos.org/reference/9002886> ;
-    tcs:typeSpecimen [ a dwc:MaterialCitation ;
-            dwc:country "Taiwan" ;
-            dwc:stateOrProvince "Taichu" ;
-            dwc:verbatimLocality "Mt. Tankitake" ;
-            dwc:recordedBy "Shimada" ;
-            dwc:recordNumber "2468" ;
-            dwc:institutionCode "H" ;
-            dwc:collectionCode "H-BR" ] .
-
-[] a tcs:NomenclaturalType ;
-    tcs:typifiedName <https://tropicos.org/name/35182608> ;
-    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/syntype> ;
-    tcs:typeSpecimen [ a dwc:MaterialCitation ;
-            dwc:country "Taiwan" ;
-            dwc:stateOrProvince "Taichu" ;
-            dwc:verbatimLocality "Mt. Hassen" ; 
-            dwc:recordedBy "Sasaki" ;
-            dwc:recordNumber "2412" ;
-            dwc:institutionCode "H" ;
-            dwc:collectionCode "H-BR" ] .
-
-
-<https://tropicos.org/name/35121483> a tcs:TaxonName ;
-    dwc:scientificName "Dicranoloma brassii E.B.Bartram" ;
-    tcs:taxonNameString "Dicranoloma brassii" ;
-    dwc:scientificNameAuthorship "E.B.Bartram" ;
-    dwc:namePublishedIn "Brittonia 9: 34. 1957. (Brittonia)" ;
-    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
-
+# Dicranoloma formosanum Broth.
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35121483> ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/holotype> ;
@@ -3346,48 +4220,19 @@
             dwc:recordNumber "22558" ;
             dwc:institutionCode "CBG" ] .
 
-
-<https://tropicos.org/name/35184079> a tcs:TaxonName ;
-    dwc:scientificName "Dicranoloma geluense (Herzog) B.H.Allen" ;
-    tcs:taxonNameString "Dicranoloma geluense" ;
-    dwc:scientificNameAuthorship "(Herzog) B.H.Allen" ;
-    tcs:basionym <https://tropicos.org/name/35128174> ;
-    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
-
-<https://tropicos.org/name/35128174> a tcs:TaxonName ;
-    dwc:scientificName "Werneriobryum geluense Herzog" ;
-    tcs:taxonNameString "Werneriobryum geluense" ;
-    dwc:scientificNameAuthorship "Herzog" ;
-    dwc:namePublishedIn "Hedwigia 49: 122. f. 6. 1909. (Hedwigia)" ;
-    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
-
-<https://tropicos.org/name/35184275> a tcs:TaxonName ;
-    dwc:scientificName "Dicranum geluense (Herzog) D.H.Norris & T.J.Kop." ;
-    tcs:taxonNameString "Dicranum geluense" ;
-    dwc:scientificNameAuthorship "D.H.Norris & T.J.Kop." ;
-    dwc:namePublishedIn "Acta Botanica Fennica 139: 43. 1990. (Acta Bot. Fenn.)" ;
-    tcs:basionym <https://tropicos.org/name/35128174> ;
-    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
-
+# Werneriobryum geluense Herzog
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35128174> ;
     tcs:typeSpecimen [ a dwc:MaterialCitation ;
             dwc:country "Papua New Guinea" ;
             dwc:stateOrProvince "Morobe" ;
-            dwc:verbatimLocality "Auf dem Gipfel des Gelu (Finisterregebirge) , c. 1700 m" ;
+            dwc:verbatimLocality "Auf dem Gipfel des Gelu (Finisterregebirge), c. 1700 m" ;
             dwc:recordedBy "Werner" ;
             dwc:recordNumber "s.n." ;
             dwc:institutionCode "JE" ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/holotype> .
             
-
-<https://tropicos.org/name/35121542> a tcs:TaxonName ;
-    dwc:scientificName "Dicranoloma havilandii Broth." ;
-    tcs:taxonNameString "Dicranoloma havilandii" ;
-    dwc:scientificNameAuthorship "Broth." ;
-    dwc:namePublishedIn "Mitteilungen aus dem Institut für Allgemeine Botanik in Hamburg 7(2) tcs: 117. 1928. (Mitt. Inst. Allg. Bot. Hamburg)" ;
-    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
-
+# Dicranoloma havilandii Broth.
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35121542> ;
     tcs:typeSpecimen [ a dwc:MaterialCitation ;
@@ -3479,21 +4324,7 @@
             dwc:collectionCode "H-BR" ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/syntype> .
 
-
-<https://tropicos.org/name/35121609> a tcs:TaxonName ;
-    dwc:scientificName "Dicranoloma reflexum (Müll.Hal.) Renauld" ;
-    tcs:taxonNameString "Dicranoloma reflexum" ;
-    dwc:scientificNameAuthorship "(Müll.Hal.) Renauld" ;
-    tcs:basionym <https://tropicos.org/name/35124048> ;
-    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
-
-<https://tropicos.org/name/35124048> a tcs:TaxonName ;
-    dwc:scientificName "Dicranum reflexum Müll.Hal." ;
-    tcs:taxonNameString "Dicranum reflexum" ;
-    dwc:scientificNameAuthorship "Müll.Hal." ;
-    dwc:namePublishedIn "Synopsis Muscorum Frondosorum omnium hucusque Cognitorum 1: 373. 1848. (Syn. Musc. Frond.)" ;
-    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
-
+# Dicranum reflexum Müll.Hal.
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35124048> ;
     tcs:typeSpecimen [ a dwc:MaterialCitation ;
@@ -3559,30 +4390,7 @@
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> ;
     tcs:typePublishedIn <https://tropicos.org/reference/9020903> .
 
-
-<https://tropicos.org/name/35124046> a tcs:TaxonName ;
-    dwc:scientificName "Dicranum reflexifolium Müll.Hal." ;
-    tcs:taxonNameString "Dicranum reflexifolium" ;
-    dwc:scientificNameAuthorship "Müll.Hal." ;
-    dwc:namePublishedIn "Synopsis Muscorum Frondosorum omnium hucusque Cognitorum 1: 382. 1848. (Syn. Musc. Frond.)" ;
-    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
-
-<https://tropicos.org/name/35155055> a tcs:TaxonName ;
-    dwc:scientificName "Leucoloma reflexifolium (Müll.Hal.) Broth." ;
-    tcs:taxonNameString "Leucoloma reflexifolium" ;
-    dwc:scientificNameAuthorship "Broth." ;
-    dwc:namePublishedIn "Die Natürlichen Pflanzenfamilien I(3) tcs: 322. 1901. (Nat. Pflanzenfam.)" ;
-    tcs:basionym <https://tropicos.org/name/35124046> ;
-    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
-
-<https://tropicos.org/name/35121608> a tcs:TaxonName ;
-    dwc:scientificName "Dicranoloma reflexifolium (Müll.Hal.) Broth." ;
-    tcs:taxonNameString "Dicranoloma reflexifolium" ;
-    dwc:scientificNameAuthorship "Broth." ;
-    dwc:namePublishedIn "Index Bryologicus, editio secunda 2: 29. 1904. (Index Bryol. (ed. 2) )" ;
-    tcs:basionym <https://tropicos.org/name/35124046> ;
-    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
-
+# Dicranum reflexifolium Müll.Hal.
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35124046> ;
     tcs:typeSpecimen [ a dwc:MaterialCitation ;
@@ -3603,29 +4411,7 @@
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/lectotype> ;
     tcs:typePublishedIn <https://tropicos.org/reference/9020903> .
 
-
-<https://tropicos.org/name/35122238> a tcs:TaxonName ;
-    dwc:scientificName "Dicranum dives Bosch & Sande Lac." ;
-    tcs:taxonNameString "Dicranum dives" ;
-    dwc:scientificNameAuthorship "Bosch & Sande Lac." ;
-    dwc:namePublishedIn "Bryologia Javanica 1: 72. 59. 1858. (Bryol. Jav.)" ;
-    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
-
-<https://tropicos.org/name/35154920> a tcs:TaxonName ;
-    dwc:scientificName "Leucoloma dives (Bosch & Sande Lac.) Broth." ;
-    tcs:taxonNameString "Leucoloma dives" ;
-    dwc:scientificNameAuthorship "Broth." ;
-    dwc:namePublishedIn "Die Natürlichen Pflanzenfamilien I(3) tcs: 322. 1901. (Nat. Pflanzenfam.)" ;
-    tcs:basionym <https://tropicos.org/name/35122238> ;
-    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
-
-<https://tropicos.org/name/35121518> a tcs:TaxonName ;
-    dwc:scientificName "Dicranoloma dives (Bosch & Sande Lac.) Paris" ;
-    tcs:taxonNameString "Dicranoloma dives" ;
-    dwc:scientificNameAuthorship "(Müll.Hal.ex Bosch & Sande Lac.) Paris" ;
-    tcs:basionym <https://tropicos.org/name/35122238> ;
-    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
-
+# Dicranum dives Bosch & Sande Lac.
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35122238> ;
     tcs:typeSpecimen [ a dwc:MaterialCitation ;
@@ -3635,22 +4421,7 @@
             dwc:disposition "not located" ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/holotype> .
 
-
-<https://tropicos.org/name/35123686> a tcs:TaxonName ;
-    dwc:scientificName "Dicranum limprichtii M.Fleisch." ;
-    tcs:taxonNameString "Dicranum limprichtii" ;
-    dwc:scientificNameAuthorship "M.Fleisch." ;
-    dwc:namePublishedIn "Die Musci der Flora von Buitenzorg 1: 78. 1904. (Musci Buitenzorg)" ;
-    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
-
-<https://tropicos.org/name/35121561> a tcs:TaxonName ;
-    dwc:scientificName "Dicranoloma limprichtii (M.Fleisch.) Paris" ;
-    tcs:taxonNameString "Dicranoloma limprichtii" ;
-    dwc:scientificNameAuthorship "Paris" ;
-    dwc:namePublishedIn "Index Bryologicus, editio secunda 2: 27. 1904. (Index Bryol. (ed. 2) )" ;
-    tcs:basionym <https://tropicos.org/name/35123686> ;
-    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
-
+# Dicranum limprichtii M.Fleisch.
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35123686> ;
     tcs:typeSpecimen [ a dwc:MaterialCitation ;
@@ -3738,15 +4509,8 @@
             dwc:recordNumber "s.n." ;
             dwc:institutionCode "S" ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> .
-    
 
-<https://tropicos.org/name/35121606> a tcs:TaxonName ;
-    dwc:scientificName "Dicranoloma ramosii Broth." ;
-    tcs:taxonNameString "Dicranoloma ramosii" ;
-    dwc:scientificNameAuthorship "Broth." ;
-    dwc:namePublishedIn "The Philippine Journal of Science. Section C, Botany 5: 158. 1910. (Philipp. J. Sci., C.)" ;
-    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
-
+# Dicranoloma ramosii Broth.
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35121606> ;
     tcs:typeSpecimen [ a dwc:MaterialCitation ;
@@ -3785,14 +4549,7 @@
             dwc:institutionCode "NY" ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> .
     
-
-<https://tropicos.org/name/35121648> a tcs:TaxonName ;
-    dwc:scientificName "Dicranoloma tenuirete Broth." ;
-    tcs:taxonNameString "Dicranoloma tenuirete" ;
-    dwc:scientificNameAuthorship "Broth." ;
-    dwc:namePublishedIn "The Philippine Journal of Science. Section C, Botany 13: 202. 1918. (Philipp. J. Sci., C.)" ;
-    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
-
+# Dicranoloma tenuirete Broth.
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35121648> ;
     tcs:typeSpecimen [ a dwc:MaterialCitation ;
@@ -3842,21 +4599,7 @@
             dwc:institutionCode "NY" ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> .
 
-
-<https://tropicos.org/name/35121617> a tcs:TaxonName ;
-    dwc:scientificName "Dicranoloma rugifolium E.B.Bartram" ;
-    tcs:taxonNameString "Dicranoloma rugifolium" ;
-    dwc:scientificNameAuthorship "E.B.Bartram" ;
-    dwc:namePublishedIn "Lloydia 5: 251. pl. 1: f. 5. 1942. (Lloydia)" ;
-    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
-
-<https://tropicos.org/name/35184276> a tcs:TaxonName ;
-    dwc:scientificName "Dicranum rugifolium (E.B.Bartram) D.H.Norris & T.J.Kop." ;
-    dwc:scientificNameAuthorship "(E.B.Bartram) D.H.Norris & T.J.Kop." ;
-    dwc:namePublishedIn "Acta Botanica Fennica 139: 44. 1990. (Acta Bot. Fenn.)" ;
-    dwc:namePublishedInYear "1990" ;
-    tcs:basionym <https://tropicos.org/name/35121617> .
-
+# Dicranoloma rugifolium E.B.Bartram
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35121617> ;
     tcs:typeSpecimen [ a dwc:MaterialCitation ;
@@ -3901,14 +4644,7 @@
             dwc:institutionCode "NY" ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> .
     
-
-<https://tropicos.org/name/35200565> a tcs:TaxonName ;
-    dwc:scientificName "Dicranoloma steenisii Klazenga" ;
-    tcs:taxonNameString "Dicranoloma steenisii" ;
-    dwc:scientificNameAuthorship "Klazenga" ;
-    dwc:namePublishedIn "Blumea 41: 11. Illustrations. 1996. (Blumea)" ;
-    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
-
+# Dicranoloma steenisii
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35200565> ;
     tcs:typeSpecimen [ a dwc:MaterialCitation ;
@@ -4011,36 +4747,7 @@
             dwc:institutionCode "H" ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/paratype> .
 
-
-<https://tropicos.org/name/35158613> a tcs:TaxonName ;
-    dwc:scientificName "Cryptodicranum armitii (Müll.Hal.) E.B.Bartram" ;
-    tcs:taxonNameString "Cryptodicranum armitii" ;
-    dwc:scientificNameAuthorship "(Müll.Hal.) E.B.Bartram" ;
-    tcs:basionym <https://tropicos.org/name/35121907> ;
-    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
-
-<https://tropicos.org/name/35121907> a tcs:TaxonName ;
-    dwc:scientificName "Dicranum armitii Müll.Hal." ;
-    tcs:taxonNameString "Dicranum armitii" ;
-    dwc:scientificNameAuthorship "Müll.Hal." ;
-    dwc:namePublishedIn "Hedwigia 36: 358. 1897. (Hedwigia)" ;
-    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
-
-<https://tropicos.org/name/35154838> a tcs:TaxonName ;
-    dwc:scientificName "Leucoloma armitii (Müll.Hal.) Broth." ;
-    tcs:taxonNameString "Leucoloma armitii" ;
-    dwc:scientificNameAuthorship "Broth." ;
-    dwc:namePublishedIn "Die Natürlichen Pflanzenfamilien I(3) tcs: 322. 1901. (Nat. Pflanzenfam.)" ;
-    tcs:basionym <https://tropicos.org/name/35121907> ;
-    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
-
-<https://tropicos.org/name/35121457> a tcs:TaxonName ;
-    dwc:scientificName "Dicranoloma armitii (Müll.Hal.) Paris" ;
-    tcs:taxonNameString "Dicranoloma armitii" ;
-    dwc:scientificNameAuthorship "(Müll.Hal.) Paris" ;
-    tcs:basionym <https://tropicos.org/name/35121907> ;
-    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
-
+# Dicranum armitii Müll.Hal.
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35121907> ;
     tcs:typeSpecimen [ a dwc:MaterialCitation ;
@@ -4113,14 +4820,7 @@
             dwc:occurrenceRemarks "\"Hb. Melbourne 1885 misit\"" ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/syntype> .
 
-
-<https://tropicos.org/name/35121494> a tcs:TaxonName ;
-    dwc:scientificName "Dicranoloma buruense Broth. & Herzog" ;
-    tcs:taxonNameString "Dicranoloma buruense" ;
-    dwc:scientificNameAuthorship "Broth. & Herzog" ;
-    dwc:namePublishedIn "Hedwigia 66: 343. 1926. (Hedwigia)" ;
-    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
-
+# Dicranoloma buruense Broth. & Herzog
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35121494> ;
     tcs:typeSpecimen [ a dwc:MaterialCitation ;
@@ -4157,14 +4857,7 @@
             dwc:institutionCode "S" ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> .
 
-
-<https://tropicos.org/name/35121551> a tcs:TaxonName ;
-    dwc:scientificName "Dicranoloma johannis-winkleri Broth." ;
-    tcs:taxonNameString "Dicranoloma johannis-winkleri" ;
-    dwc:scientificNameAuthorship "Broth." ;
-    dwc:namePublishedIn "Mitteilungen aus dem Institut für Allgemeine Botanik in Hamburg 7(2) tcs: 116. 1928. (Mitt. Inst. Allg. Bot. Hamburg)" ;
-    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
-
+# Dicranoloma johannis-winkleri Broth.
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35121551> ;
     tcs:typeSpecimen [ a dwc:MaterialCitation ;
@@ -4178,14 +4871,7 @@
             dwc:collectionCode "H-BR" ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/holotype> .
 
-
-<https://tropicos.org/name/35158615> a tcs:TaxonName ;
-    tcs:taxonNameString "Cryptodicranum setosum" ;
-    dwc:scientificName "Cryptodicranum setosum E.B.Bartram" ;
-    dwc:scientificNameAuthorship "E.B.Bartram" ;
-    dwc:namePublishedIn "The Bryologist 41: 128. f. 1–8. 1938. (Bryologist)" ;
-    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
-
+# Cryptodicranum setosum E.B.Bartram
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35158615> ;
     tcs:typeSpecimen [ a dwc:MaterialCitation ;
@@ -4211,14 +4897,7 @@
             dwc:institutionCode "FH" ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> .
 
-
-<https://tropicos.org/name/35158614> a tcs:TaxonName ;
-    dwc:scientificName "Cryptodicranum armitii var. fragilifolium E.B.Bartram" ;
-    tcs:taxonNameString "Cryptodicranum armitii var. fragilifolium" ;
-    dwc:scientificNameAuthorship "E.B.Bartram" ;
-    dwc:namePublishedIn "The Bryologist 48: 111. 1945. (Bryologist)" ;
-    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
-
+# Cryptodicranum armitii var. fragilifolium E.B.Bartram
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35158614> ;
     tcs:typeSpecimen [ a dwc:MaterialCitation ;
@@ -4232,30 +4911,7 @@
             dwc:institutionCode "FH" ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/holotype> .
 
-
-<https://tropicos.org/name/35204725> a tcs:TaxonName ;
-    dwc:scientificName "Dicranum psathyrum Klazenga" ;
-    tcs:taxonNameString "Dicranum psathyrum" ;
-    dwc:scientificNameAuthorship "Klazenga" ;
-    dwc:namePublishedIn "Journal of the Hattori Botanical Laboratory 87: 118. 1999. (J. Hattori Bot. Lab.)" ;
-    tcs:replacedName <https://tropicos.org/name/35121530> ;
-    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
-
-<https://tropicos.org/name/35121530> a tcs:TaxonName ;
-    dwc:scientificName "Dicranoloma fragile Broth." ;
-    tcs:taxonNameString "Dicranoloma fragile" ;
-    dwc:scientificNameAuthorship "Broth." ;
-    dwc:namePublishedIn "Die natürlichen Pflanzenfamilien, Zweite Auflage 10: 209. 1924. (Nat. Pflanzenfam. (ed. 2) )" ;
-    tcs:replacedName <https://tropicos.org/name/35122365> ;
-    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
-
-<https://tropicos.org/name/35122365> a tcs:TaxonName ;
-    dwc:scientificName "Dicranum fragile Hook." ;
-    tcs:taxonNameString "Dicranum fragile" ;
-    dwc:scientificNameAuthorship "Hook." ;
-    dwc:namePublishedIn "Musci Exotici 2: 134. 1819. (Musci Exot.)" ;
-    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/illegitimum> .
-
+# Dicranoloma fragile Broth.
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35204725> ;
     tcs:typeSpecimen [ a dwc:MaterialCitation ;
@@ -4264,68 +4920,3 @@
             dwc:recordNumber "12229.12" ;
             dwc:institutionCode "BM" ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/holotype> .
-
-
-<https://tropicos.org/name/35157135> a tcs:TaxonName ;
-    dwc:scientificName "Cecalyphum dichotomum P.Beauv." ;
-    tcs:taxonNameString "Cecalyphum dichotomum" ;
-    dwc:scientificNameAuthorship "P.Beauv." ;
-    dwc:namePublishedIn "Prodrome des Cinquième et Sixième Familles de l'Aethéogamie 51. 1805. (Prodr. Aethéogam.)" ;
-    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
-
-<https://tropicos.org/name/35121596> a tcs:TaxonName ;
-    dwc:scientificName "Dicranoloma platycaulon Dixon" ;
-    tcs:taxonNameString "Dicranoloma platycaulon" ;
-    dwc:scientificNameAuthorship "Dixon" ;
-    dwc:namePublishedIn "New Zealand Institute Bulletin 3(1) tcs: 15, pl. 3 f. 10. 1913. (New Zealand Inst. Bull.)" ;
-    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
-
-<https://tropicos.org/name/35121858> a tcs:TaxonName ;
-    dwc:scientificName "Dicranum alboalare Müll.Hal." ;
-    tcs:taxonNameString "Dicranum alboalare" ;
-    dwc:scientificNameAuthorship "Müll.Hal." ;
-    dwc:namePublishedIn "Enumeratio Bryinearum Exoticarum 55. 1888. (Enum. Bryin. Exot.)" ;
-    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/invalidum> .
-
-<https://tropicos.org/name/35122093> a tcs:TaxonName ;
-    dwc:scientificName "Dicranum chiloense Müll.Hal." ;
-    tcs:taxonNameString "Dicranum chiloense" ;
-    dwc:scientificNameAuthorship "Müll.Hal." ;
-    dwc:namePublishedIn "Enumeratio Bryinearum Exoticarum 54. 1888. (Enum. Bryin. Exot.)" ;
-    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/invalidum> .
-
-<https://tropicos.org/name/35122121> a tcs:TaxonName ;
-    dwc:scientificName "Dicranum commutatum A.Jaeger" ;
-    tcs:taxonNameString "Dicranum commutatum" ;
-    dwc:scientificNameAuthorship "A.Jaeger" ;
-    dwc:namePublishedIn "Bericht über die Thätigkeit der St. Gallischen Naturwissenschaftlichen Gesellschaft 1877–78: 495. 1880. (Ber. Thätigk. St. Gallischen Naturwiss. Ges.)" ;
-    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/invalidum> .
-
-<https://tropicos.org/name/35122178> a tcs:TaxonName ;
-    dwc:scientificName "Dicranum cryptopodium Broth. & Geh." ;
-    tcs:taxonNameString "Dicranum cryptopodium" ;
-    dwc:scientificNameAuthorship "Broth. & Geh." ;
-    dwc:namePublishedIn "Bibliotheca Botanica 44: 3. 1898. (Biblioth. Bot.)" ;
-    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/invalidum> .
-
-<https://tropicos.org/name/35124044> a tcs:TaxonName ;
-    dwc:scientificName "Dicranum reduncum Duby" ;
-    tcs:taxonNameString "Dicranum reduncum" ;
-    dwc:scientificNameAuthorship "Duby" ;
-    dwc:namePublishedIn "Synopsis Muscorum Frondosorum omnium hucusque Cognitorum 1: 374. 1848. (Syn. Musc. Frond.)" ;
-    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/invalidum> .
-
-<https://tropicos.org/name/35124390> a tcs:TaxonName ;
-    dwc:scientificName "Dicranum tabulare Rehmann" ;
-    tcs:taxonNameString "Dicranum tabulare" ;
-    dwc:scientificNameAuthorship "Rehmann" ;
-    dwc:namePublishedIn "Revue Bryologique 5: 69. 1878. (Rev. Bryol.)" ;
-    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/invalidum> .
-
-<https://tropicos.org/name/35131611> a tcs:TaxonName ;
-    dwc:scientificName "Dicranum truncorum Müll.Hal." ;
-    tcs:taxonNameString "Dicranum truncorum" ;
-    dwc:scientificNameAuthorship "Müll.Hal." ;
-    dwc:namePublishedIn "Botanische Zeitung (Berlin) 17: 215. 1859. (Bot. Zeitung (Berlin) )" ;
-    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> .
-
