@@ -29,7 +29,7 @@ Taxon Concept Standard Term List. Biodiversity Information Standards (TDWG).
 
 **Taxon Concept**
 
-[tcs:TaxonConcept](#tcstaxonconcept) | [tcs:accordingTo](#tcsaccordingto) | [tcs:taxonName](#tcstaxonname) | [tcs:synonym](#tcssynonym) | [tcs:vernacularName](#tcsvernacularname) | [tcs:taxonRank](#tcstaxonRank) | [tcs:parent](#tcsparent) | [tcs:child](#tcschild) | [tcs:isCongruentWith](#tcsiscongruentwith) | [tcs:includes](#tcsincludes) | [tcs:isIncludedIn](#tcsisincludedin) | [tcs:partiallyOverlaps](#tcspartiallyoverlaps) | [tcs:isDisjointFrom](#tcsisdisjointfrom) | [tcs:intersects](#tcsintersects) | [dwc:scientificName](#dwcscientificname) | [dwc:vernacularName](#dwcvernacularname) | [dwc:verbatimTaxonRank](#dwcverbatimtaxonrank) | [dcterms:title](#dctermstitle)
+[tcs:TaxonConcept](#tcstaxonconcept) | [tcs:accordingTo](#tcsaccordingto) | [tcs:taxonName](#tcstaxonname) | [tcs:synonym](#tcssynonym) | [tcs:vernacularName](#tcsvernacularname) | [tcs:taxonRank](#tcstaxonrank) | [tcs:parent](#tcsparent) | [tcs:child](#tcschild) | [tcs:isCongruentWith](#tcsiscongruentwith) | [tcs:includes](#tcsincludes) | [tcs:isIncludedIn](#tcsisincludedin) | [tcs:partiallyOverlaps](#tcspartiallyoverlaps) | [tcs:isDisjointFrom](#tcsisdisjointfrom) | [tcs:intersects](#tcsintersects) | [dwc:scientificName](#dwcscientificname) | [dwc:vernacularName](#dwcvernacularname) | [dwc:verbatimTaxonRank](#dwcverbatimtaxonrank) | [dcterms:title](#dctermstitle)
 
 **Taxon Concept Mapping**
 
@@ -37,7 +37,7 @@ Taxon Concept Standard Term List. Biodiversity Information Standards (TDWG).
 
 **Taxon Name**
 
-[tcs:TaxonName](#tcstaxonname) | [tcs:taxonNameString](#tcstaxonnamestring) | [tcs:namePublishedIn](#tcsnamepublishedin) | [tcs:microreference](#tcsmicroreference) | [tcs:nomenclaturalCode](#tcsnomenclaturalcode) | [tcs:nomenclaturalStatus](#tcsnomenclaturalstatus) | [tcs:typification](#tcstypification) | [tcs:typificationLiteral](#tcstypificationliteral) | [tcs:basionym](#tcsbasionym) | [tcs:replacedName](#tcsreplacedname) | [tcs:spellingCorrectionOf](#tcsspellingcorrectionof) | [tcs:laterHomonymOf](#tcslaterhomonymof) | [tcs:conservedAgainst](#tcsconservedagainst) | [dwc:scientificNameAuthorship](#dwcscientificnameauthorship) | [dwc:namePublishedIn](#dwcnamepublishedin) | [dwc:namePublishedInYear](#dwcnamepublishedinyear) | [dwc:genericName](#dwcgenericname) | [dwc:infragenericEpithet](#dwcinfragenericepithet) | [dwc:specificEpithet](#dwcspecificepithet) | [dwc:infraspecificEpithet](#dwcinfraspecificepithet) | [dwc:cultivarEpithet](#dwccultivarepithet)
+[tcs:TaxonName](#tcstaxonname) | [tcs:taxonNameString](#tcstaxonnamestring) | [tcs:namePublishedIn](#tcsnamepublishedin) | [tcs:microreference](#tcsmicroreference) | [tcs:nomenclaturalCode](#tcsnomenclaturalcode) | [tcs:nomenclaturalStatus](#tcsnomenclaturalstatus) | [tcs:typification](#tcstypification) | [tcs:typificationLiteral](#tcstypificationliteral) | [tcs:basionym](#tcsbasionym) | [tcs:replacedName](#tcsreplacedname) | [tcs:emendationOf](#tcsemendationof) | [tcs:laterHomonymOf](#tcslaterhomonymof) | [tcs:conservedAgainst](#tcsconservedagainst) | [dwc:scientificNameAuthorship](#dwcscientificnameauthorship) | [dwc:namePublishedIn](#dwcnamepublishedin) | [dwc:namePublishedInYear](#dwcnamepublishedinyear) | [dwc:genericName](#dwcgenericname) | [dwc:infragenericEpithet](#dwcinfragenericepithet) | [dwc:specificEpithet](#dwcspecificepithet) | [dwc:infraspecificEpithet](#dwcinfraspecificepithet) | [dwc:cultivarEpithet](#dwccultivarepithet)
 
 **Nomenclatural Type**
 
@@ -2447,7 +2447,6 @@ This is the IRI equivalent of the Darwin Core `nomenclaturalStatus`. In the  abs
 
 ```turtle
 <https://tropicos.org/name/35121972> a tcs:TaxonName ;
-    dwc:scientificName "Dicranum blumei Nees" ;
     tcs:taxonNameString "Dicranum blumei" ;
     dwc:scientificNameAuthorship "Nees" ;
     dwc:namePublishedIn """Nova Acta Physico-medica Academiae Caesareae Leopoldino-Carolinae Naturae Curiosorum 
@@ -2790,13 +2789,13 @@ _:b1 a tcs:TaxonName ;
 
 [&lsqb;TaxonName-replacedName-example-4.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonName-replacedName-example-4.ttl)&nbsp;[&lsqb;TaxonName-replacedName-example-4.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonName-replacedName-example-4.jsonld)
 
-### tcs:spellingCorrectionOf
+### tcs:emendationOf
 
 <table style="width:100%;">
 	<tbody>
 		<tr>
 			<td>Identifier</td>
-			<td>http://rs.tdwg.org/tcs/terms/spellingCorrectionOf</td>
+			<td>http://rs.tdwg.org/tcs/terms/emendationOf</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -2804,19 +2803,19 @@ _:b1 a tcs:TaxonName ;
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td>Spelling correction of</td>
+			<td>Emendation of</td>
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>required:</b> No — <b>repeatable:</b> Yes</td>
+			<td><b>required:</b> No — <b>repeatable:</b> No</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td><p>Name for which this name is a correction</p></td>
+			<td><p>Name for which this name is an emendation</p></td>
 		</tr>
 		<tr>
 			<td>Usage</td>
-			<td><p><code>spellingCorrectionOf</code> is another Taxon Name object</p></td>
+			<td><p><code>emendationOf</code> is another Taxon Name object</p></td>
 		</tr>
 		<tr>
 			<td>GitHub issue</td>

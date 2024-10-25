@@ -177,7 +177,7 @@ between Taxon Concepts in rank-free systems, e.g., cladograms.
 
 - tcs:basionym
 - tcs:replacedSynonym
-- tcs:spellingCorrectionOf
+- tcs:emendationOf
 - tcs:conservedAgainst
 - tcs:laterHomonymOf
 
@@ -523,7 +523,7 @@ TCS 1 | TDWG Ontology | TCS 2
 /DataSet/TaxonNames/TaxonName/MicroReference \| //element(*,NomenclaturalNoteType)/MicroReference | &mdash; | [microReference](https://github.com/tdwg/tcs2/tree/master/docs/tcs-terms#tcsmicroreference)
 /DataSet/TaxonNames/TaxonName/Typification | &mdash; | [typification](https://github.com/tdwg/tcs2/tree/master/docs/tcs-terms#tcstypification)
 /DataSet/TaxonNames/TaxonName/Typification/Simple | &mdash; | [typificationLiteral](https://github.com/tdwg/tcs2/tree/master/docs/tcs-terms#tcstypificationLiteral)
-/DataSet/TaxonNames/TaxonName/SpellingCorrectionOf | [tn:spellingCorrection](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L647) | [spellingCorrectionOf](https://github.com/tdwg/tcs2/tree/master/docs/tcs-terms#tcsspellingcorrectionof)
+/DataSet/TaxonNames/TaxonName/SpellingCorrectionOf | [tn:spellingCorrection](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L647) | [emendationOf](https://github.com/tdwg/tcs2/tree/master/docs/tcs-terms#tcsspellingcorrectionof)
 /DataSet/TaxonNames/TaxonName/Basionym | [tn:hasBasionym](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L296) | [basionym](https://github.com/tdwg/tcs2/tree/master/docs/tcs-terms#tcsbasionym)
 /DataSet/TaxonNames/TaxonName/BasedOn | [tn:BasedOn](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L427) | &mdash;
 /DataSet/TaxonNames/TaxonName/ConservedAgainst | [tn:ConservedAgainst](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L433) | [conservedAgainst](https://github.com/tdwg/tcs2/tree/master/docs/tcs-terms#tcsconservedagainst)
