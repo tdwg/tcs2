@@ -11,7 +11,7 @@
         "_:tn1", "_:tn2", "_:tn3", "_:tn4", "_:tn5", "_:tn6", 
         "_:tn7", "_:tn8", "_:tn9", "_:tn10", "_:tn11"
       ],
-      "taxonomicRank": "species",
+      "taxonRank": "species",
       "parent": "https://www.catalogueoflife.org/data/taxon/62ZBY",
       "intersects": [
         {
@@ -310,7 +310,7 @@
         "taxonNameString": "Megalorhipida",
 			  "dwc:scientificNameAuthorship": "Amsel, 1935"
       },
-      "taxonomicRank": "genus",
+      "taxonRank": "genus",
       "parent": "https://www.catalogueoflife.org/data/taxon/L44"
     },
     {
@@ -323,7 +323,7 @@
         "taxonNameString": "Oxyptilini",
 			  "dwc:scientificNameAuthorship": "Bigot, Gibeaux, Nel & Picard, 1998"
       },
-      "taxonomicRank": "tribe",
+      "taxonRank": "tribe",
       "parent": "https://www.catalogueoflife.org/data/taxon/K8N"
     },
     {
@@ -336,7 +336,7 @@
         "taxonNameString": "Pterophorinae",
 			  "dwc:scientificNameAuthorship": "Zeller, 1841"
       },
-      "taxonomicRank": "subfamily",
+      "taxonRank": "subfamily",
       "parent": "https://www.catalogueoflife.org/data/taxon/8TLBR"
     },
     {
@@ -349,7 +349,7 @@
         "taxonNameString": "Pterophoridae",
 			"dwc:scientificNameAuthorship": "Latreille, 1802"
       },
-      "taxonomicRank": "family",
+      "taxonRank": "family",
       "parent": "https://www.catalogueoflife.org/data/taxon/B6LST"
     },
     {
@@ -362,7 +362,7 @@
         "taxonNameString": "Pterophoroidea",
 			  "dwc:scientificNameAuthorship": "Kuznetzov & Stekolnikov, 1979"
       },
-      "taxonomicRank": "superfamily",
+      "taxonRank": "superfamily",
       "parent": "https://www.catalogueoflife.org/data/taxon/B6L67"
     },
     {
@@ -375,7 +375,7 @@
         "taxonNameString": "Lepidoptera",
 			  "dwc:scientificNameAuthorship": "Linnaeus, 1758"
       },
-      "taxonomicRank": "order",
+      "taxonRank": "order",
       "parent": "https://www.catalogueoflife.org/data/taxon/H6"
     },
     {
@@ -387,7 +387,7 @@
         "type": "TaxonName",
         "taxonNameString": "Insecta"
       },
-      "taxonomicRank": "class",
+      "taxonRank": "class",
       "parent": "https://www.catalogueoflife.org/data/taxon/RT"
     },
     {
@@ -399,7 +399,7 @@
         "type": "TaxonName",
         "taxonNameString": "Arthropoda"
       },
-      "taxonomicRank": "phylum",
+      "taxonRank": "phylum",
       "parent": "https://www.catalogueoflife.org/data/taxon/N"
     },
     {
@@ -411,7 +411,7 @@
         "type": "TaxonName",
         "taxonNameString": "Animalia"
       },
-      "taxonomicRank": "kingdom",
+      "taxonRank": "kingdom",
       "parent": "https://www.catalogueoflife.org/data/taxon/5T6MX"
     },
     {

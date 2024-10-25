@@ -29,7 +29,7 @@ Taxon Concept Standard Term List. Biodiversity Information Standards (TDWG).
 
 **Taxon Concept**
 
-[tcs:TaxonConcept](#tcstaxonconcept) | [tcs:accordingTo](#tcsaccordingto) | [tcs:taxonName](#tcstaxonname) | [tcs:synonym](#tcssynonym) | [tcs:vernacularName](#tcsvernacularname) | [tcs:taxonomicRank](#tcstaxonomicrank) | [tcs:parent](#tcsparent) | [tcs:child](#tcschild) | [tcs:isCongruentWith](#tcsiscongruentwith) | [tcs:includes](#tcsincludes) | [tcs:isIncludedIn](#tcsisincludedin) | [tcs:partiallyOverlaps](#tcspartiallyoverlaps) | [tcs:isDisjointFrom](#tcsisdisjointfrom) | [tcs:intersects](#tcsintersects) | [dwc:scientificName](#dwcscientificname) | [dwc:vernacularName](#dwcvernacularname) | [dwc:verbatimTaxonRank](#dwcverbatimtaxonrank) | [dcterms:title](#dctermstitle)
+[tcs:TaxonConcept](#tcstaxonconcept) | [tcs:accordingTo](#tcsaccordingto) | [tcs:taxonName](#tcstaxonname) | [tcs:synonym](#tcssynonym) | [tcs:vernacularName](#tcsvernacularname) | [tcs:taxonRank](#tcstaxonRank) | [tcs:parent](#tcsparent) | [tcs:child](#tcschild) | [tcs:isCongruentWith](#tcsiscongruentwith) | [tcs:includes](#tcsincludes) | [tcs:isIncludedIn](#tcsisincludedin) | [tcs:partiallyOverlaps](#tcspartiallyoverlaps) | [tcs:isDisjointFrom](#tcsisdisjointfrom) | [tcs:intersects](#tcsintersects) | [dwc:scientificName](#dwcscientificname) | [dwc:vernacularName](#dwcvernacularname) | [dwc:verbatimTaxonRank](#dwcverbatimtaxonrank) | [dcterms:title](#dctermstitle)
 
 **Taxon Concept Mapping**
 
@@ -571,7 +571,7 @@ The terms 'heterotypic synonym' and 'homotypic synonym' from the nomenclatural c
         [ a tcs:TaxonName ;
             tcs:taxonNameString "Pterophorus oxydactylus" ;
 			dwc:scientificNameAuthorship: "Walker, 1864"  ] ;
-    tcs:taxonomicRank <http://rs.gbif.org/vocabulary/gbif/rank/species> ;
+    tcs:taxonRank <http://rs.gbif.org/vocabulary/gbif/rank/species> ;
     tcs:parent <https://www.catalogueoflife.org/data/taxon/62ZBY> .
 
 <https://zoobank.org/NomenclaturalActs/39b2f236-3914-4962-9dcc-f594671654bd> a tcs:TaxonName ;
@@ -696,13 +696,13 @@ The `vernacularName` property can be used when a vernacular name is used alongsi
 
 [&lsqb;TaxonConcept-vernacularName-example-3.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-vernacularName-example-3.ttl)&nbsp;[&lsqb;TaxonConcept-vernacularName-example-3.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-vernacularName-example-3.jsonld)
 
-### tcs:taxonomicRank
+### tcs:taxonRank
 
 <table style="width:100%;">
 	<tbody>
 		<tr>
 			<td>Identifier</td>
-			<td>http://rs.tdwg.org/tcs/terms/taxonomicRank</td>
+			<td>http://rs.tdwg.org/tcs/terms/taxonRank</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -722,7 +722,7 @@ The `vernacularName` property can be used when a vernacular name is used alongsi
 		</tr>
 		<tr>
 			<td>Usage</td>
-			<td><p><code>taxonomicRank</code> is an IRI property; a Taxon Concept or Taxon Name can have only one <code>taxonomicRank</code>.</p></td>
+			<td><p><code>taxonRank</code> is an IRI property; a Taxon Concept or Taxon Name can have only one <code>taxonRank</code>.</p></td>
 		</tr>
 		<tr>
 			<td>GitHub issue</td>
@@ -736,7 +736,7 @@ The `vernacularName` property can be used when a vernacular name is used alongsi
 
 This property takes an object or IRI and it is recommended to use a value from an existing controlled vocabulary. While there is no TDWG vocabulary yet, the GBIF Taxonomic Rank Vocabulary (https://rs.gbif.org/vocabulary/gbif/rank.xml) is recommended.
 
-A `TaxonName` takes its `taxonomicRank` from the `taxonConcept` it is applied to, so this property can also be used on a (stand-alone) `TaxonName` object.
+A `TaxonName` takes its `taxonRank` from the `taxonConcept` it is applied to, so this property can also be used on a (stand-alone) `TaxonName` object.
 
 ### tcs:parent
 

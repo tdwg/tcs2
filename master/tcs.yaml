@@ -189,13 +189,13 @@
   repeatable: Yes
   github: 10
 
-# property: taxonomicRank
-- localName: taxonomicRank
+# property: taxonRank
+- localName: taxonRank
   label: Taxonomic Rank
   definition: The rank at which a taxon is classified.
   usage: >-
-    `taxonomicRank` is an IRI property; a Taxon Concept or Taxon Name can have
-    only one `taxonomicRank`.
+    `taxonRank` is an IRI property; a Taxon Concept or Taxon Name can have
+    only one `taxonRank`.
   notes: >-
     This property takes an object or IRI and it is recommended to use a value
     from an existing controlled vocabulary. While there is no TDWG vocabulary
@@ -203,7 +203,7 @@
     (https://rs.gbif.org/vocabulary/gbif/rank.xml) is recommended.
 
 
-    A `TaxonName` takes its `taxonomicRank` from the `taxonConcept` it is
+    A `TaxonName` takes its `taxonRank` from the `taxonConcept` it is
     applied to, so this property can also be used on a (stand-alone) `TaxonName`
     object.
   type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property

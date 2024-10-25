@@ -116,7 +116,7 @@
         "https://tropicos.org/name/35121587",
         "https://tropicos.org/name/35124384"
       ],
-      "taxonomicRank": "species"
+      "taxonRank": "species"
     },
     {
       "id": "https://tropicos.org/reference/9002886#name-35121467",
@@ -136,7 +136,7 @@
         "https://tropicos.org/name/35124390",
         "https://tropicos.org/name/35131611"
       ],
-      "taxonomicRank": "species"
+      "taxonRank": "species"
     },
     {
       "id": "https://tropicos.org/reference/9002886#name-35121475",
@@ -147,7 +147,7 @@
       "synonym": [
         "https://tropicos.org/name/35121973"
       ],
-      "taxonomicRank": "species"
+      "taxonRank": "species"
     },
     {
       "id": "https://tropicos.org/reference/9002886#name-35121479",
@@ -162,7 +162,7 @@
       "dcterms:title": "Dicranoloma brassii sec. Tan & Koponen 1983",
       "accordingTo": "https://tropicos.org/reference/9002886",
       "taxonName": "https://tropicos.org/name/35121483",
-      "taxonomicRank": "species"
+      "taxonRank": "species"
     },
     {
       "id": "https://tropicos.org/reference/9005756#name-35121488",
@@ -175,7 +175,7 @@
         "https://tropicos.org/name/35121595",
         "https://tropicos.org/name/35121635"
       ],
-      "taxonomicRank": "species"
+      "taxonRank": "species"
     },
     {
       "id": "https://tropicos.org/reference/9002886#name-35121491",
@@ -183,7 +183,7 @@
       "dcterms:title": "Dicranoloma brevisetum sec. Tan & Koponen 1983",
       "accordingTo": "https://tropicos.org/reference/9002886",
       "taxonName": "https://tropicos.org/name/35121491",
-      "taxonomicRank": "species"
+      "taxonRank": "species"
     },
     {
       "id": "https://tropicos.org/reference/9002886#name-35191032",
@@ -195,7 +195,7 @@
         "https://tropicos.org/name/35123679",
         "https://tropicos.org/name/35123680"
       ],
-      "taxonomicRank": "variety",
+      "taxonRank": "variety",
       "parent": "https://tropicos.org/reference/9002886#name-35121491"
     },
     {
@@ -209,7 +209,7 @@
         "https://tropicos.org/name/35122018",
         "https://tropicos.org/name/35186801"
       ],
-      "taxonomicRank": "variety",
+      "taxonRank": "variety",
       "parent": "https://tropicos.org/reference/9002886#name-35121491"
     },
     {
@@ -218,7 +218,7 @@
       "dcterms:title": "Dicranoloma brevisetum f. nematosum sec. Tan & Koponen 1983",
       "accordingTo": "https://tropicos.org/reference/9002886",
       "taxonName": "https://tropicos.org/name/35167975",
-      "taxonomicRank": "form",
+      "taxonRank": "form",
       "parent": "https://tropicos.org/reference/9002886#name-35167976"
     },
     {
@@ -227,7 +227,7 @@
       "dcterms:title": "Dicranoloma daymannianum sec. Tan & Koponen 1983",
       "accordingTo": "https://tropicos.org/reference/9002886",
       "taxonName": "https://tropicos.org/name/35121509",
-      "taxonomicRank": "species"
+      "taxonRank": "species"
     },
     {
       "id": "https://tropicos.org/reference/9002886#name-35121514",
@@ -235,7 +235,7 @@
       "dcterms:title": "Dicranoloma dicarpon sec. Tan & Koponen 1983",
       "accordingTo": "https://tropicos.org/reference/9002886",
       "taxonName": "https://tropicos.org/name/35121514",
-      "taxonomicRank": "species"
+      "taxonRank": "species"
     },
     {
       "id": "https://tropicos.org/reference/9002886#name-35121518",
@@ -243,7 +243,7 @@
       "dcterms:title": "Dicranoloma dives sec. Tan & Koponen 1983",
       "accordingTo": "https://tropicos.org/reference/9002886",
       "taxonName": "https://tropicos.org/name/35121518",
-      "taxonomicRank": "species"
+      "taxonRank": "species"
     },
     {
       "id": "https://tropicos.org/reference/9002886#name-35121530",
@@ -251,7 +251,7 @@
       "dcterms:title": "Dicranoloma fragile sec. Tan & Koponen 1983",
       "accordingTo": "https://tropicos.org/reference/9002886",
       "taxonName": "https://tropicos.org/name/35121530",
-      "taxonomicRank": "species"
+      "taxonRank": "species"
     },
     {
       "id": "https://tropicos.org/reference/9002886#name-35121578",
@@ -259,7 +259,7 @@
       "dcterms:title": "Dicranoloma novoguinense sec. Tan & Koponen 1983",
       "accordingTo": "https://tropicos.org/reference/9002886",
       "taxonName": "https://tropicos.org/name/35121578",
-      "taxonomicRank": "species"
+      "taxonRank": "species"
     },
     {
       "id": "https://tropicos.org/reference/9002886#name-35121609",
@@ -274,7 +274,7 @@
         "https://tropicos.org/name/35124046"
       ],
       "taxonName": "https://tropicos.org/name/35121609",
-      "taxonomicRank": "species"
+      "taxonRank": "species"
     },
     {
       "id": "https://tropicos.org/reference/9005756",
@@ -339,7 +339,7 @@
         "https://tropicos.org/name/35121483",
         "https://tropicos.org/name/35121523"
       ],
-      "taxonomicRank": "species"
+      "taxonRank": "species"
     },
     {
       "id": "https://tropicos.org/reference/9005756#name-35121467",
@@ -347,7 +347,7 @@
       "dcterms:title": "Dicranoloma billarderii sec. Eddy 1988",
       "accordingTo": "https://tropicos.org/reference/9005756",
       "taxonName": "https://tropicos.org/name/35121467",
-      "taxonomicRank": "species"
+      "taxonRank": "species"
     },
     {
       "id": "https://tropicos.org/reference/9005756#name-35121475",
@@ -355,7 +355,7 @@
       "dcterms:title": "Dicranoloma blumei sec. Eddy 1988",
       "accordingTo": "https://tropicos.org/reference/9005756",
       "taxonName": "https://tropicos.org/name/35121475",
-      "taxonomicRank": "species"
+      "taxonRank": "species"
     },
     {
       "id": "https://tropicos.org/reference/9005756#name-35121486",
@@ -368,7 +368,7 @@
         "https://tropicos.org/name/35121479",
         "https://tropicos.org/name/35122011"
       ],
-      "taxonomicRank": "species"
+      "taxonRank": "species"
     },
     {
       "id": "https://tropicos.org/reference/9005756#name-35121491",
@@ -376,7 +376,7 @@
       "dcterms:title": "Dicranoloma brevisetum sec. Eddy 1988",
       "accordingTo": "https://tropicos.org/reference/9005756",
       "taxonName": "https://tropicos.org/name/35121491",
-      "taxonomicRank": "species"
+      "taxonRank": "species"
     },
     {
       "id": "https://tropicos.org/reference/9005756#name-35121530",
@@ -387,7 +387,7 @@
       "synonym": [
         "https://tropicos.org/name/35121509"
       ],
-      "taxonomicRank": "species"
+      "taxonRank": "species"
     },
     {
       "id": "https://tropicos.org/reference/9005756#name-35184079",
@@ -395,7 +395,7 @@
       "dcterms:title": "Dicranoloma geluense sec. Eddy 1988",
       "accordingTo": "https://tropicos.org/reference/9005756",
       "taxonName": "https://tropicos.org/name/35184079",
-      "taxonomicRank": "species"
+      "taxonRank": "species"
     },
     {
       "id": "https://tropicos.org/reference/9005756#name-35121542",
@@ -403,7 +403,7 @@
       "dcterms:title": "Dicranoloma havilandii sec. Eddy 1988",
       "accordingTo": "https://tropicos.org/reference/9005756",
       "taxonName": "https://tropicos.org/name/35121542",
-      "taxonomicRank": "species"
+      "taxonRank": "species"
     },
     {
       "id": "https://tropicos.org/reference/9005756#name-35121556",
@@ -411,7 +411,7 @@
       "dcterms:title": "Dicranoloma laevifolium sec. Eddy 1988",
       "accordingTo": "https://tropicos.org/reference/9005756",
       "taxonName": "https://tropicos.org/name/35121556",
-      "taxonomicRank": "species"
+      "taxonRank": "species"
     },
     {
       "id": "https://tropicos.org/reference/9005756#name-35121559",
@@ -419,7 +419,7 @@
       "dcterms:title": "Dicranoloma leucophyllum sec. Eddy 1988",
       "accordingTo": "https://tropicos.org/reference/9005756",
       "taxonName": "https://tropicos.org/name/35121559",
-      "taxonomicRank": "species"
+      "taxonRank": "species"
     },
     {
       "id": "https://tropicos.org/reference/9005756#name-35121578",
@@ -427,7 +427,7 @@
       "dcterms:title": "Dicranoloma novoguinense sec. Eddy 1988",
       "accordingTo": "https://tropicos.org/reference/9005756",
       "taxonName": "https://tropicos.org/name/35121578",
-      "taxonomicRank": "species"
+      "taxonRank": "species"
     },
     {
       "id": "https://tropicos.org/reference/9005756#name-35121609",
@@ -440,7 +440,7 @@
         "https://tropicos.org/name/35123686",
         "https://tropicos.org/name/35124046"
       ],
-      "taxonomicRank": "species"
+      "taxonRank": "species"
     },
     {
       "id": "https://tropicos.org/reference/9005756#name-35121617",
@@ -448,7 +448,7 @@
       "dcterms:title": "Dicranoloma rugifolium sec. Eddy 1988",
       "accordingTo": "https://tropicos.org/reference/9005756",
       "taxonName": "https://tropicos.org/name/35121617",
-      "taxonomicRank": "species"
+      "taxonRank": "species"
     },
     {
       "id": "https://tropicos.org/reference/9006742#name-35121457",
@@ -460,7 +460,7 @@
         "https://tropicos.org/name/35121494",
         "https://tropicos.org/name/35121551"
       ],
-      "taxonomicRank": "species"
+      "taxonRank": "species"
     },
     {
       "id": "https://tropicos.org/reference/9006742",
@@ -499,7 +499,7 @@
         "https://tropicos.org/name/35121569",
         "https://tropicos.org/name/35121587"
       ],
-      "taxonomicRank": "species"
+      "taxonRank": "species"
     },
     {
       "id": "https://tropicos.org/reference/9006742#name-35121467",
@@ -513,7 +513,7 @@
         "https://tropicos.org/name/35121635",
         "https://tropicos.org/name/35121637"
       ],
-      "taxonomicRank": "species"
+      "taxonRank": "species"
     },
     {
       "id": "https://tropicos.org/reference/9006742#name-35121475",
@@ -524,7 +524,7 @@
       "synonym": [
         "https://tropicos.org/name/35162124"
       ],
-      "taxonomicRank": "species"
+      "taxonRank": "species"
     },
     {
       "id": "https://tropicos.org/reference/9006742#name-35121484",
@@ -532,7 +532,7 @@
       "dcterms:title": "Dicranoloma braunfelsioides sec. Tan 1989",
       "accordingTo": "https://tropicos.org/reference/9006742",
       "taxonName": "https://tropicos.org/name/35121484",
-      "taxonomicRank": "species"
+      "taxonRank": "species"
     },
     {
       "id": "https://tropicos.org/reference/9006742#name-35121491",
@@ -547,7 +547,7 @@
         "https://tropicos.org/name/35122018",
         "https://tropicos.org/name/35123679"
       ],
-      "taxonomicRank": "species"
+      "taxonRank": "species"
     },
     {
       "id": "https://tropicos.org/reference/9006742#name-35121542",
@@ -555,7 +555,7 @@
       "dcterms:title": "Dicranoloma havilandii sec. Tan 1989",
       "accordingTo": "https://tropicos.org/reference/9006742",
       "taxonName": "https://tropicos.org/name/35121542",
-      "taxonomicRank": "species"
+      "taxonRank": "species"
     },
     {
       "id": "https://tropicos.org/reference/9006742#name-35121596",
@@ -566,7 +566,7 @@
       "synonym": [
         "https://tropicos.org/name/35121524"
       ],
-      "taxonomicRank": "species"
+      "taxonRank": "species"
     },
     {
       "id": "https://tropicos.org/reference/9006742#name-35121578",
@@ -585,7 +585,7 @@
         "https://tropicos.org/name/35122238",
         "https://tropicos.org/name/35124046"
       ],
-      "taxonomicRank": "species"
+      "taxonRank": "species"
     },
     {
       "id": "https://tropicos.org/reference/9007945",
@@ -630,7 +630,7 @@
       "synonym": [
         "https://tropicos.org/name/35122257"
       ],
-      "taxonomicRank": "species"
+      "taxonRank": "species"
     },
     {
       "id": "https://tropicos.org/reference/9007945#name-35121907",
@@ -643,7 +643,7 @@
         "https://tropicos.org/name/35158615",
         "https://tropicos.org/name/35122178"
       ],
-      "taxonomicRank": "species"
+      "taxonRank": "species"
     },
     {
       "id": "https://tropicos.org/reference/9007945#name-35121913",
@@ -655,7 +655,7 @@
         "https://tropicos.org/name/35121587",
         "https://tropicos.org/name/35154921"
       ],
-      "taxonomicRank": "species"
+      "taxonRank": "species"
     },
     {
       "id": "https://tropicos.org/reference/9007945#name-35204723",
@@ -663,7 +663,7 @@
       "dcterms:title": "Dicranum bartramianum sec. Norris & Koponen 1990",
       "accordingTo": "https://tropicos.org/reference/9007945",
       "taxonName": "https://tropicos.org/name/35183593",
-      "taxonomicRank": "species"
+      "taxonRank": "species"
     },
     {
       "id": "https://tropicos.org/reference/9007945#name-35121960",
@@ -674,7 +674,7 @@
       "synonym": [
         "https://tropicos.org/name/35123636"
       ],
-      "taxonomicRank": "species"
+      "taxonRank": "species"
     },
     {
       "id": "https://tropicos.org/reference/9007945#name-35121972",
@@ -687,7 +687,7 @@
         "https://tropicos.org/name/35121477",
         "https://tropicos.org/name/35121973"
       ],
-      "taxonomicRank": "species"
+      "taxonRank": "species"
     },
     {
       "id": "https://tropicos.org/reference/9007945#name-35122018",
@@ -700,7 +700,7 @@
         "https://tropicos.org/name/35123815",
         "https://tropicos.org/name/35150829"
       ],
-      "taxonomicRank": "species"
+      "taxonRank": "species"
     },
     {
       "id": "https://tropicos.org/reference/9007945#name-35184272",
@@ -708,7 +708,7 @@
       "dcterms:title": "Dicranum cutlackii sec. Norris & Koponen 1990",
       "accordingTo": "https://tropicos.org/reference/9007945",
       "taxonName": "https://tropicos.org/name/35184272",
-      "taxonomicRank": "species"
+      "taxonRank": "species"
     },
     {
       "id": "https://tropicos.org/reference/9007945#name-35184274",
@@ -716,7 +716,7 @@
       "dcterms:title": "Dicranum daymannianum sec. Norris & Koponen 1990",
       "accordingTo": "https://tropicos.org/reference/9007945",
       "taxonName": "https://tropicos.org/name/35184274",
-      "taxonomicRank": "species"
+      "taxonRank": "species"
     },
     {
       "id": "https://tropicos.org/reference/9007945#name-35122214",
@@ -727,7 +727,7 @@
       "synonym": [
         "https://tropicos.org/name/35121483"
       ],
-      "taxonomicRank": "species"
+      "taxonRank": "species"
     },
     {
       "id": "https://tropicos.org/reference/9020903#name-35121455",
@@ -738,7 +738,7 @@
       "synonym": [
         "https://tropicos.org/name/35122257"
       ],
-      "taxonomicRank": "species"
+      "taxonRank": "species"
     },
     {
       "id": "https://tropicos.org/reference/9007945#name-35184275",
@@ -746,7 +746,7 @@
       "dcterms:title": "Dicranum geluense sec. Norris & Koponen 1990",
       "accordingTo": "https://tropicos.org/reference/9007945",
       "taxonName": "https://tropicos.org/name/35184275",
-      "taxonomicRank": "species"
+      "taxonRank": "species"
     },
     {
       "id": "https://tropicos.org/reference/9007945#-name-35123838",
@@ -754,7 +754,7 @@
       "dcterms:title": "Dicranum novoguineense sec. Norris & Koponen 1990",
       "accordingTo": "https://tropicos.org/reference/9007945",
       "taxonName": "https://tropicos.org/name/35123838",
-      "taxonomicRank": "species"
+      "taxonRank": "species"
     },
     {
       "id": "https://tropicos.org/reference/9007945#name-35184276",
@@ -766,7 +766,7 @@
         "https://tropicos.org/name/35121480",
         "https://tropicos.org/name/35168349"
       ],
-      "taxonomicRank": "species"
+      "taxonRank": "species"
     },
     {
       "id": "https://tropicos.org/reference/9020903",
@@ -816,7 +816,7 @@
         "https://tropicos.org/name/35121494",
         "https://tropicos.org/name/35121551"
       ],
-      "taxonomicRank": "species"
+      "taxonRank": "species"
     },
     {
       "id": "https://tropicos.org/reference/9020903#name-35121458",
@@ -836,7 +836,7 @@
         "https://tropicos.org/name/35124384",
         "https://tropicos.org/name/35154921"
       ],
-      "taxonomicRank": "species"
+      "taxonRank": "species"
     },
     {
       "id": "https://tropicos.org/reference/9020903#name-35204723",
@@ -844,7 +844,7 @@
       "dcterms:title": "Dicranoloma bartramianum sec. Klazenga 1999",
       "accordingTo": "https://tropicos.org/reference/9020903",
       "taxonName": "https://tropicos.org/name/35204723",
-      "taxonomicRank": "species"
+      "taxonRank": "species"
     },
     {
       "id": "https://tropicos.org/reference/9020903#name-35121475",
@@ -858,7 +858,7 @@
         "https://tropicos.org/name/35121484",
         "https://tropicos.org/name/35121973"
       ],
-      "taxonomicRank": "species"
+      "taxonRank": "species"
     },
     {
       "id": "https://tropicos.org/reference/9020903#name-35121467",
@@ -873,7 +873,7 @@
         "https://tropicos.org/name/35121635",
         "https://tropicos.org/name/35123838"
       ],
-      "taxonomicRank": "species"
+      "taxonRank": "species"
     },
     {
       "id": "https://tropicos.org/reference/9020903#name-35121486",
@@ -895,7 +895,7 @@
         "https://tropicos.org/name/35123636",
         "https://tropicos.org/name/35123815"
       ],
-      "taxonomicRank": "species"
+      "taxonRank": "species"
     },
     {
       "id": "https://tropicos.org/reference/9020903#name-35121491",
@@ -911,7 +911,7 @@
         "https://tropicos.org/name/35123679",
         "https://tropicos.org/name/35123680"
       ],
-      "taxonomicRank": "species"
+      "taxonRank": "species"
     },
     {
       "id": "https://tropicos.org/reference/9020903#name-35204724",
@@ -930,7 +930,7 @@
         "https://tropicos.org/name/35121483",
         "https://tropicos.org/name/35182608"
       ],
-      "taxonomicRank": "species"
+      "taxonRank": "species"
     },
     {
       "id": "https://tropicos.org/reference/9020903#name-35121609",
@@ -945,7 +945,7 @@
         "https://tropicos.org/name/35123686",
         "https://tropicos.org/name/35124046"
       ],
-      "taxonomicRank": "species"
+      "taxonRank": "species"
     },
     {
       "id": "https://tropicos.org/reference/9020903#name-35121509",
@@ -953,7 +953,7 @@
       "taxonName": "https://tropicos.org/name/35121509",
       "dcterms:title": "Dicranoloma daymannianum sec. Klazenga 1999",
       "accordingTo": "https://tropicos.org/reference/9020903",
-      "taxonomicRank": "species"
+      "taxonRank": "species"
     },
     {
       "id": "https://tropicos.org/reference/9020903#name-35184079",
@@ -961,7 +961,7 @@
       "dcterms:title": "Dicranoloma geluense sec. Klazenga 1999",
       "accordingTo": "https://tropicos.org/reference/9020903",
       "taxonName": "https://tropicos.org/name/35184079",
-      "taxonomicRank": "species"
+      "taxonRank": "species"
     },
     {
       "id": "https://tropicos.org/reference/9020903#name-35121542",
@@ -969,7 +969,7 @@
       "dcterms:title": "Dicranoloma havilandii sec. Klazenga 1999",
       "accordingTo": "https://tropicos.org/reference/9020903",
       "taxonName": "https://tropicos.org/name/35121542",
-      "taxonomicRank": "species"
+      "taxonRank": "species"
     },
     {
       "id": "https://tropicos.org/reference/9020903#name-35121617",
@@ -977,7 +977,7 @@
       "dcterms:title": "Dicranoloma rugifolium sec. Klazenga 1999",
       "accordingTo": "https://tropicos.org/reference/9020903",
       "taxonName": "https://tropicos.org/name/35121617",
-      "taxonomicRank": "species"
+      "taxonRank": "species"
     },
     {
       "id": "https://tropicos.org/reference/9020903#name-35200565",
@@ -985,7 +985,7 @@
       "dcterms:title": "Dicranoloma steenisii sec. Klazenga 1999",
       "accordingTo": "https://tropicos.org/reference/9020903",
       "taxonName": "https://tropicos.org/name/35200565",
-      "taxonomicRank": "species"
+      "taxonRank": "species"
     },
     {
       "id": "https://tropicos.org/reference/9020903#name-35204725",
@@ -997,7 +997,7 @@
         "https://tropicos.org/name/35121530",
         "https://tropicos.org/name/35122365"
       ],
-      "taxonomicRank": "species"
+      "taxonRank": "species"
     },
 
     {

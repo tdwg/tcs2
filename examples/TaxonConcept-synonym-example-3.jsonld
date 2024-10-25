@@ -72,6 +72,6 @@
 			"dwc:scientificNameAuthorship": "Walker, 1864"
     }
   ],
-  "taxonomicRank": "species",
+  "taxonRank": "species",
   "parent": { "id": "https://www.catalogueoflife.org/data/taxon/62ZBY" }
 }

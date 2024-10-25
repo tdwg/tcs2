@@ -21,7 +21,7 @@
         _:tn9 ,
         _:tn10 ,
         _:tn11 ;
-    tcs:taxonomicRank <http://rs.gbif.org/vocabulary/gbif/rank/species> ;
+    tcs:taxonRank <http://rs.gbif.org/vocabulary/gbif/rank/species> ;
     tcs:parent <https://www.catalogueoflife.org/data/taxon/62ZBY> ;
     tcs:intersects _:tc1,
         _:tc2,
@@ -110,7 +110,7 @@ _:tn11 a tcs:TaxonName ;
     tcs:taxonName [ a tcs:TaxonName ;
             tcs:taxonNameString "Megalorhipida" ;
             dwc:scientificNameAuthorship "Amsel, 1935" ] ;
-    tcs:taxonomicRank <http://rs.gbif.org/vocabulary/gbif/rank/genus> ;
+    tcs:taxonRank <http://rs.gbif.org/vocabulary/gbif/rank/genus> ;
     tcs:parent <https://www.catalogueoflife.org/data/taxon/L44> .
 
 <https://www.catalogueoflife.org/data/taxon/L44> a tcs:TaxonConcept ;
@@ -119,7 +119,7 @@ _:tn11 a tcs:TaxonName ;
     tcs:taxonName [ a tcs:TaxonName ;
             tcs:taxonNameString "Oxyptilini" ;
     dwc:scientificNameAuthorship "Bigot, Gibeaux, Nel & Picard, 1998" ] ;
-    tcs:taxonomicRank <http://rs.gbif.org/vocabulary/gbif/rank/tribe> ;
+    tcs:taxonRank <http://rs.gbif.org/vocabulary/gbif/rank/tribe> ;
     tcs:parent <https://www.catalogueoflife.org/data/taxon/K8N> .
 
 <https://www.catalogueoflife.org/data/taxon/K8N> a tcs:TaxonConcept ;
@@ -128,7 +128,7 @@ _:tn11 a tcs:TaxonName ;
     tcs:taxonName [ a tcs:TaxonName ;
             tcs:taxonNameString "Pterophorinae" ;
     dwc:scientificNameAuthorship "Zeller, 1841" ] ;
-    tcs:taxonomicRank <http://rs.gbif.org/vocabulary/gbif/rank/subfamily> ;
+    tcs:taxonRank <http://rs.gbif.org/vocabulary/gbif/rank/subfamily> ;
     tcs:parent <https://www.catalogueoflife.org/data/taxon/8TLBR> .
 
 <https://www.catalogueoflife.org/data/taxon/8TLBR> a tcs:TaxonConcept ;
@@ -137,7 +137,7 @@ _:tn11 a tcs:TaxonName ;
     tcs:taxonName [ a tcs:TaxonName ;
             tcs:taxonNameString "Pterophoridae" ;
     dwc:scientificNameAuthorship "Latreille, 1802" ] ;
-    tcs:taxonomicRank <http://rs.gbif.org/vocabulary/gbif/rank/family> ;
+    tcs:taxonRank <http://rs.gbif.org/vocabulary/gbif/rank/family> ;
     tcs:parent <https://www.catalogueoflife.org/data/taxon/B6LST> .
 
 <https://www.catalogueoflife.org/data/taxon/B6LST> a tcs:TaxonConcept ;
@@ -146,7 +146,7 @@ _:tn11 a tcs:TaxonName ;
     tcs:taxonName [ a tcs:TaxonName ;
             tcs:taxonNameString "Pterophoroidea" ;
     dwc:scientificNameAuthorship "Kuznetzov & Stekolnikov, 1979" ] ;
-    tcs:taxonomicRank <http://rs.gbif.org/vocabulary/gbif/rank/superfamily> ;
+    tcs:taxonRank <http://rs.gbif.org/vocabulary/gbif/rank/superfamily> ;
     tcs:parent <https://www.catalogueoflife.org/data/taxon/B6L67> .
 
 <https://www.catalogueoflife.org/data/taxon/B6L67> a tcs:TaxonConcept ;
@@ -155,7 +155,7 @@ _:tn11 a tcs:TaxonName ;
     tcs:taxonName [ a tcs:TaxonName ;
             tcs:taxonNameString "Lepidoptera" ;
     dwc:scientificNameAuthorship "Linnaeus, 1758" ] ;
-    tcs:taxonomicRank <http://rs.gbif.org/vocabulary/gbif/rank/order> ;
+    tcs:taxonRank <http://rs.gbif.org/vocabulary/gbif/rank/order> ;
     tcs:parent <https://www.catalogueoflife.org/data/taxon/H6> .
 
 <https://www.catalogueoflife.org/data/taxon/H6> a tcs:TaxonConcept ;
@@ -163,7 +163,7 @@ _:tn11 a tcs:TaxonName ;
     tcs:accordingTo <https://doi.org/10.48580/dfs6> ;
     tcs:taxonName [ a tcs:TaxonName ;
             tcs:taxonNameString "Insecta" ] ;
-    tcs:taxonomicRank <http://rs.gbif.org/vocabulary/gbif/rank/class> ;
+    tcs:taxonRank <http://rs.gbif.org/vocabulary/gbif/rank/class> ;
     tcs:parent <https://www.catalogueoflife.org/data/taxon/RT> .
 
 <https://www.catalogueoflife.org/data/taxon/RT> a tcs:TaxonConcept ;
@@ -171,7 +171,7 @@ _:tn11 a tcs:TaxonName ;
     tcs:accordingTo <https://doi.org/10.48580/dfs6> ;
     tcs:taxonName [ a tcs:TaxonName ;
             tcs:taxonNameString "Arthropoda" ] ;
-    tcs:taxonomicRank <http://rs.gbif.org/vocabulary/gbif/rank/phylum> ;
+    tcs:taxonRank <http://rs.gbif.org/vocabulary/gbif/rank/phylum> ;
     tcs:parent <https://www.catalogueoflife.org/data/taxon/N> .
 
 <https://www.catalogueoflife.org/data/taxon/N> a tcs:TaxonConcept ;
@@ -179,7 +179,7 @@ _:tn11 a tcs:TaxonName ;
     tcs:accordingTo <https://doi.org/10.48580/dfs6> ;
     tcs:taxonName [ a tcs:TaxonName ;
             tcs:taxonNameString "Animalia" ] ;
-    tcs:taxonomicRank <http://rs.gbif.org/vocabulary/gbif/rank/kingdom> ;
+    tcs:taxonRank <http://rs.gbif.org/vocabulary/gbif/rank/kingdom> ;
     tcs:parent <https://www.catalogueoflife.org/data/taxon/5T6MX> .
 
 <https://www.catalogueoflife.org/data/taxon/5T6MX> a tcs:TaxonConcept ;
