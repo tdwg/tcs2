@@ -75,7 +75,7 @@
         `taxonomicStatus` or `acceptedNameUsage` terms are used, both `accepted`
         and `synonym` uses are data artefacts that are not TaxonConcepts.
     - predicate: "skos:exactMatch"
-      iri: "openbiodiv-o:TaxonConcept"
+      iri: "openbiodiv-o:TaxonomicConcept"
     - predicate: "skos:broadMatch"
       iri: "openbiodiv-o:OperationalTaxonomicUnit"
     - predicate: "skos:broadMatch"
@@ -779,6 +779,8 @@
       iri: /DataSet/TaxonNames/TaxonName
     - predicate: "skos:exactMatch"
       iri: "tn:TaxonName"
+    - predicate: "skos:closeMatch"
+      iri: "openbiodiv-o:TaxonomicName"
     - predicate: "skos:broadMatch"
       iri:  "skosxl:Label"
       remarks: >-

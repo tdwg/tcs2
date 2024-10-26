@@ -42,6 +42,10 @@ https://www.anbg.gov.au/abrs/Mosses_online/Dicranaceae.pdf.
 ontology of the OpenBiodiv knowledge management system’, Journal of Biomedical
 Semantics, 9(1), p. 5. https://doi.org/10.1186/s13326-017-0174-5.
 
+<a id="senderov_openbiodiv_nodate"></a>
+Senderov, Viktor, and Kiril Simov. “OpenBiodiv Ontology and Guide.” The Open Biodiversity Knowledge Management System. Accessed October 26, 2024. https://github.com/pensoft/OpenBiodiv/blob/master/ontology/openbiodiv-ontology.Rmd.
+
+
 <a id="sokal_principles_1963"></a> [sokal_principles_1963]&emsp;Sokal, R.R. and
 Sneath, P.H.A. (1963) Principles of Numerical Taxonomy. New York: W.H. Freeman &
 Co.

@@ -11,7 +11,7 @@
 | skos:exactMatch | /DataSet/TaxonConcepts/TaxonConcept |  |
 | skos:exactMatch | http://rs.tdwg.org/ontology/voc/TaxonConcept#TaxonConcept |  |
 | skos:relatedMatch | http://rs.tdwg.org/dwc/terms/Taxon | The dwc:Taxon is hard to categorise. as it can be implemented in a way that a Taxon is equivalent to a TaxonConcept, but if either `taxonomicStatus` or `acceptedNameUsage` terms are used, both `accepted` and `synonym` uses are data artefacts that are not TaxonConcepts. |
-| skos:exactMatch | http://openbiodiv.net/TaxonConcept |  |
+| skos:exactMatch | http://openbiodiv.net/TaxonomicConcept |  |
 | skos:broadMatch | http://openbiodiv.net/OperationalTaxonomicUnit |  |
 | skos:broadMatch | http://www.w3.org/2004/02/skos/core#Concept |  |
 | skos:broadMatch | http://purl.org/spar/frbr/Work |  |
@@ -166,6 +166,7 @@
 |-|-|-|
 | skos:exactMatch | /DataSet/TaxonNames/TaxonName |  |
 | skos:exactMatch | http://rs.tdwg.org/ontology/voc/TaxonName#TaxonName |  |
+| skos:closeMatch | http://openbiodiv.net/TaxonomicName |  |
 | skos:broadMatch | http://www.w3.org/2008/05/skos-xl#Label | The TaxonName is a special kind of SKOSXL Label |
 
 ### tcs:taxonNameString

@@ -3486,6 +3486,6 @@ Names at ranks of species and below are typified by a specimen. This property is
 
 **Comments**
 
-`typePublishedIn` is relevant for lectotypes, neotypes, epitypes and  conserved types. For other kinds of type the publication where the type is  designated is the publication where the name was published.
+`typePublishedIn` is relevant for lectotypes, neotypes, epitypes and  conserved types. For other kinds of type the publication where the type is  designated is the publication the name was published in.
 
 <!-- footer -->

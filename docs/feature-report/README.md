@@ -281,16 +281,15 @@ of a taxonomy.
 
 <br/><br/>
 
-The OpenBiodiv Ontology (OpenBiodiv-O) defines the `TaxonConcept` (in the paper,
-it is 'TaxonomicConcept' but in the ontology itself it is 'TaxonConcept') as a
-Work under the FRBR (Functional Requirements for Bibliographic Records) data
-model as well as a SKOS Concept. A `Work` in FRBR is the product of an
-intellectual process of one or more persons, about which only indirect evidence
-is at our hand. The Expression that realises this Work is the Treatment. While
-in FRBR a Work can have more than one Expression, there is a one-to-one
-relationship between Taxonomic Concepts and Treatment. This is exactly how we
-think of Taxon Concepts in TCS and forms a nice bridge between Taxon (or
-Taxonomic) Concepts and the literature.
+The OpenBiodiv Ontology (OpenBiodiv-O) defines the `TaxonomicConcept` as a Work
+under the FRBR (Functional Requirements for Bibliographic Records) data model as
+well as a SKOS Concept. A `Work` in FRBR is the product of an intellectual
+process of one or more persons, about which only indirect evidence is at our
+hand. The Expression that realises this Work is the Treatment. While in FRBR a
+Work can have more than one Expression, there is a one-to-one relationship
+between Taxonomic Concepts and Treatment. This is exactly how we think of Taxon
+Concepts in TCS and forms a nice bridge between Taxon (or Taxonomic) Concepts
+and the literature.
 
 One or more Treatments are contained in a `TaxonomicArticle`. Therefore, the
 `accordingTo` property in TCS can point to either a Taxonomic Article or an
