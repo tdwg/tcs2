@@ -120,7 +120,6 @@ def create_index(categories, merged_df):
 
 # create table cell
 
-
 def table_cell(content, celltype='td', colspan=1):
     """Create HTML <td/> or </th> element
 
@@ -137,8 +136,8 @@ def table_cell(content, celltype='td', colspan=1):
     else:
         return '\t\t\t<{celltype} colspan="{colspan}">{content}</{celltype}>'.format(content=content, celltype=celltype, colspan=colspan)
 
-# create table row
 
+# create table row
 
 def table_row(cells):
     """Create HTML <tr/> element
@@ -151,8 +150,8 @@ def table_row(cells):
     """
     return '\t\t<tr>\n{cells}\n\t\t</tr>\n'.format(cells='\n'.join(cells))
 
-# create term table
 
+# create term table
 
 def term_table(term):
     """Create HTML table for single term
@@ -169,26 +168,6 @@ def term_table(term):
     text = '### ' + curie + '\n\n'
 
     text += '<table style="width:100%;">\n'
-
-    # table header
-    # curie = '{namespaceAlias}:{localName}'.format(
-    #     namespaceAlias=term['namespaceAlias'], localName=term['localName'])
-    # curieAnchor = curie.replace(':', '_')
-    # term_type = term['type'][term['type'].find('#')+1:].lower()
-    # if term_type == 'concept':
-    #     tableHeader = """
-    #         <a id="{anchor}"></a><span style="display:block;float:left;">{curie} ({label})</span> 
-    #         <span style="color:#ffffff;background-color:#617694;display:block;float:right;padding:0 5px;">[{term_type}]</span>
-    #         """.format(
-    #         curie=curie, anchor=curieAnchor, term_type=term_type, label=term['label'])
-    # else:
-    #     tableHeader = """
-    #         <a id="{anchor}"></a><span style="display:block;float:left;">{curie}</span> 
-    #         <span style="color:#ffffff;background-color:#617694;display:block;float:right;padding:0 5px;">[{term_type}]</span>
-    #         """.format(curie=curie, anchor=curieAnchor, term_type=term_type)
-    # text += '\t<thead>\n'
-    # text += table_row([table_cell(tableHeader, celltype='th', colspan=2)])
-    # text += '\t</thead>\n'
 
     text += '\t<tbody>\n'
 
@@ -290,8 +269,8 @@ def add_example(ex):
     text += '[&lsqb;' + ex + '.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/' + ex + '.jsonld)\n\n'
     return text
 
-# create vocabulary
 
+# create vocabulary
 
 def create_vocab(categories, merged_df):
     """Create vocabulary

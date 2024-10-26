@@ -21,6 +21,12 @@
   required: No
   repeatable: No
   github: 17
+  mappings:
+    - predicate: "skos:broadMatch"
+      iri: /DataSet/TaxonNames/TaxonName/Simple
+      remarks: TCS 1 uses the same element for vernacular names
+    - predicate: "skos:broadMatch"
+      iri: tn:nameComplete
 
 # property: scientificNameAuthorship
 - localName: scientificNameAuthorship
@@ -38,6 +44,11 @@
   required: No
   repeatable: No
   github: 24
+  mappings:
+    - predicate: "skos:exactMatch"
+      iri: /DataSet/TaxonNames/TaxonName/CanonicalAuthorship/Simple
+    - predicate: "skos:exactMatch"
+      iri: "tn:authorship"
 
 # property: vernacularName
 - localName: vernacularName
@@ -71,6 +82,12 @@
   required: No
   repeatable: No
   github: 237
+  mappings:
+  - predicate: "skos:exactMatch"
+    iri: /DataSet/TaxonNames/TaxonName/Simple 
+    remarks: >-
+      The TCS 1 element can be used with both a 'ref' attribute and a text node.
+
 
 # namePublishedInYear
 - localName: namePublishedInYear
@@ -87,6 +104,11 @@
   required: No
   repeatable: No
   github: 31
+  mappings:
+    - predicate: "skos:exactMatch"
+      iri: /DataSet/TaxonNames/TaxonName/Year
+    - predicate: "skos:exactMatch"
+      iri: "tn:year"
 
 # verbatimTaxonRank
 - localName: verbatimTaxonRank
@@ -106,6 +128,12 @@
   required: No
   repeatable: No
   github: 6
+  mappings:
+    - predicate: "skos:exactMatch"
+      iri: /DataSet/TaxonConcepts/TaxonConcept/Rank
+    - predicate: "skos:exactMatch"
+      iri: tc:rankString
+
 
 # property: genericName
 - localName: genericName
@@ -120,6 +148,11 @@
   required: No
   repeatable: No
   github: 19
+  mappings: 
+    - predicate: "skos:exactMatch"
+      iri: /DataSet/TaxonNames/TaxonName/CanonicalName/Genus
+    - predicate: "skos:exactMatch"
+      iri: "tn:genusPart"
 
 # property: infragenericEpithet
 - localName: infragenericEpithet
@@ -140,6 +173,11 @@
   required: No
   repeatable: No
   github: 20
+  mappings:
+    - predicate: "skos:exactMatch"
+      iri: /DataSet/TaxonNames/TaxonName/CanonicalName/InfragenericEpithet
+    - predicate: "skos:exactMatch"
+      iri: "tn:infragenericEpithet"
 
 # property: specificEpithet
 - localName: specificEpithet
@@ -158,6 +196,11 @@
   required: No
   repeatable: No
   github: 21
+  mappings:
+    - predicate: "skos:exactMatch"
+      iri: /DataSet/TaxonNames/TaxonName/CanonicalName/SpecificEpithet
+    - predicate: "skos:exactMatch"
+      iri: "tn:specificEpithet"
 
 # property: infraspecificEpithet
 - localName: infraspecificEpithet
@@ -178,6 +221,11 @@
   repeatable: No
   required: No
   github: 22
+  mappings:
+    - predicate: "skos:exactMatch"
+      iri: /DataSet/TaxonNames/TaxonName/CanonicalName/InfraspecificEpithet
+    - predicate: "skos:exactMatch"
+      iri: "tn:infraspecificEpithet"
 
 # property: cultivarEpithet
 - localName: cultivarEpithet
@@ -197,3 +245,8 @@
   required: No
   repeatable: No
   github: 23
+  mappings:
+  - predicate: "skos:exactMatch"
+    iri: /DataSet/TaxonNames/TaxonName/CanonicalName/CultivarNameGroup
+  - predicate: "skos:exactMatch"
+    iri: "tn:cultivarNameGroup"

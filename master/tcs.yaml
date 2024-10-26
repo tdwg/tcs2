@@ -62,6 +62,27 @@
   required: null
   repeatable: null
   github: 213
+  mappings:
+    - predicate: "skos:exactMatch"
+      iri: /DataSet/TaxonConcepts/TaxonConcept
+    - predicate: "skos:exactMatch"
+      iri: "tc:TaxonConcept"
+    - predicate: "skos:relatedMatch"
+      iri: "dwc:Taxon"
+      remarks: >-
+        The dwc:Taxon is hard to categorise. as it can be implemented in a way
+        that a Taxon is equivalent to a TaxonConcept, but if either
+        `taxonomicStatus` or `acceptedNameUsage` terms are used, both `accepted`
+        and `synonym` uses are data artefacts that are not TaxonConcepts.
+    - predicate: "skos:exactMatch"
+      iri: "openbiodiv-o:TaxonConcept"
+    - predicate: "skos:broadMatch"
+      iri: "openbiodiv-o:OperationalTaxonomicUnit"
+    - predicate: "skos:broadMatch"
+      iri: "skos:Concept"
+    - predicate: "skos:broadMatch"
+      iri: "frbr:Work"
+    
 
 # property: accordingTo
 - localName: accordingTo
@@ -97,6 +118,29 @@
   required: Yes
   repeatable: No
   github: 4
+  mappings:
+    - predicate: "skos:exactMatch"
+      iri: /DataSet/TaxonConcepts/TaxonConcept/AccordingTo/AccordingToDetailed
+    - predicate: "skos:exactMatch"
+      iri: "tn:accordingTo"
+    - predicate: "skos:exactMatch"
+      iri: "dwc:nameAccordingTo"
+      remarks: >-
+        The TCS term is the IRI equivalent of the Darwin Core term.
+    - predicate: "skos:narrowMatch"
+      iri: "frbr:realization"
+      remarks: >-
+        In OpenBiodiv-O, the `frbr:realization` is the `openbiodiv-o:Treatment`
+        of that particular taxon. `tcs:accordingTo` can also point to the
+        `openbiodiv-o:TaxonomicArticle`. In OpenBiodiv-O the `TaxonomicArticle`
+        `openbiodiv-o:contains` the `Treatment`s.
+    - predicate: "skos:closeMatch"
+      iri: "skos:inScheme"
+      remarks: >-
+        Both the subject and object in this relationship have a broader meaning
+        in SKOS, but if the subject is a TaxonConcept, the meaning of the term
+        is the same.
+
 
 # property: taxonName
 - localName: taxonName
@@ -121,6 +165,22 @@
   required: Yes
   repeatable: No
   github: 2
+  mappings:
+    - predicate: "skos:exactMatch"
+      iri: /DataSet/TaxonConcepts/TaxonConcept/Name/@ref
+    - predicate: "skos:exactMatch"
+      iri: "tn:hasName"
+    - predicate: "skos:narrowMatch"
+      iri: "dwc:scientificName"
+      remarks: >-
+        In Darwin Core records that do not have a `scientificName` but do have a
+        `vernacularName`, the `vernacularName` is the `taxonName`. Also note
+        `dwc:scientificName` is a string and `tcs:taxonName` an IRI.
+    - predicate: "skos:narrowMatch"
+      iri: "dwc:vernacularName"
+    - predicate: "skos:closeMatch"
+      iri: "openbiodiv-o:taxonomicName"
+
 
 # property: synonym
 - localName: synonym
@@ -161,6 +221,21 @@
   required: No
   repeatable: Yes
   github: 65
+  mappings: 
+    - predicate: "skos:broadMatch"
+      iri: "/DataSet/TaxonConcepts/TaxonConcept/TaxonRelationships/TaxonRelationship[@type='has synonym']" 
+      remarks: >-
+        The 'has synonym' relationship from TCS 1 has been
+        split into `synonym` for relations between TaxonConcept and TaxonName
+        and `intersects` for relationships between TaxonConcepts. Also note that
+        the object of `has synonym` is a TaxonConcept and the object of
+        `synonym` a TaxonName.
+    - predicate: "skos:broadMatch"
+      iri: "tc:hasSynonym"
+    - predicate: "skos:closeMatch"
+      iri: "skosxl:hiddenLabel"
+      remarks: >-
+        A synonym is an alternative label that is not used for the TaxonConcept.
 
 # property: vernacularName
 - localName: vernacularName
@@ -188,6 +263,23 @@
   required: No
   repeatable: Yes
   github: 10
+  mappings: 
+    - predicate: "skos:exactMatch"
+      iri: /DataSet/TaxonConcepts/TaxonConcept/TaxonRelationships/TaxonRelationship[@type='has vernacular']
+      remarks: >-
+        Note that the object of `has vernacular` is a TaxonConcept while the
+        object of `vernacularName` is a TaxonName.
+    - predicate: "skos:exactMatch"
+      iri: "tc:hasVernacular"
+    - predicate: "skos:exactMatch"
+      iri: "dwc:vernacularName"
+      remarks: >-
+        The TCS term is the IRI equivalent of the Darwin Core term.
+    - predicate: "skos:closeMatch"
+      iri: "openbiodiv-o:vernacularName"
+    - predicate: "skos:closeMatch"
+      iri: "skosxl:altLabel"
+         
 
 # property: taxonRank
 - localName: taxonRank
@@ -211,6 +303,15 @@
   required: No
   repeatable: No
   github: 32
+  mappings: 
+    - predicate: "skos:exactMatch"
+      iri: /DataSet/TaxonConcepts/TaxonConcept/Rank/@code
+    - predicate: "skos:exactMatch"
+      iri: "tc:taxonomicRank"
+    - predicate: "skos:exactMatch"
+      iri: "dwc:taxonRank"
+      remarks: >-
+        The TCS term is the IRI equivalent of the Darwin Core term.
 
 # property: parent
 - localName: parent
@@ -232,6 +333,17 @@
   examples:
     - TaxonConcept-parent-example-1
   github: 9
+  mappings:
+    - predicate: "skos:exactMatch"
+      iri: /DataSet/TaxonConcepts/TaxonConcept/TaxonRelationships/TaxonRelationship[@type='is child taxon of']
+    - predicate: "skos:exactMatch"
+      iri: "tc:isChildTaxonOf"
+    - predicate: "skos:exactMatch"
+      iri: "dwc:parentNameUsage"
+      remarks: >-
+        The TCS term is the IRI equivalent of the Darwin Core term.
+    - predicate: "skos:closeMatch"
+      iri: "skos:broader"
 
 # property: child
 - localName: child
@@ -249,6 +361,14 @@
   required: No
   type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
   github: 232
+  mappings:
+    - predicate: "skos:exactMatch"
+      iri: /DataSet/TaxonConcepts/TaxonConcept/TaxonRelationships/TaxonRelationship[@type='is parent taxon of']
+    - predicate: "skos:exactMatch"
+      iri: "tc:isParentTaxonOf"
+    - predicate: "skos:closeMatch"
+      iri: "skos:narrower"
+
 
 # property: isCongruentWith
 - localName: isCongruentWith
@@ -281,6 +401,21 @@
   required: No
   type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
   github: 52
+  mappings:
+    - predicate: "skos:exactMatch"
+      iri: /DataSet/TaxonConcepts/TaxonConcept/TaxonRelationships/TaxonRelationship[@type='is congruent to']
+    - predicate: "skos:exactMatch"
+      iri: "tc:isCongruentTo"
+    - predicate: "skos:narrowMatch"
+      iri: "openbiodiv-o:Equal_INT"
+      remarks: >-
+        OpenBiodiv-O distinguishes between RCC5 Relation statements based on the
+        ostensive component of the concepts and those based on the intensional
+        component.
+    - predicate: "skos:narrowMatch"
+      iri: "openbiodiv-o:Equal_OST"
+    - predicate: "skos:closeMatch"
+      iri: "skos:closeMatch"
 
 # property: includes
 - localName: includes
@@ -312,6 +447,17 @@
   repeatable: Yes
   required: No
   github: 53
+  mappings:
+    - predicate: "skos:exactMatch"
+      iri: /DataSet/TaxonConcepts/TaxonConcept/TaxonRelationships/TaxonRelationship[@type='includes']
+    - predicate: "skos:exactMatch"
+      iri: "tc:includes"
+    - predicate: "skos:narrowMatch"
+      iri: "openbiodiv-o:InverseProperPart_INT"
+    - predicate: "skos:narrowMatch"
+      iri: "openbiodiv-o:InverseProperPart_OST"
+    - predicate: "skos:closeMatch"
+      iri: "skos:broadMatch"
 
 # controlled term: isIncludedIn
 - localName: isIncludedIn
@@ -343,6 +489,21 @@
   repeatable: Yes
   required: No
   github: 54
+  mappings:
+    - predicate: "skos:exactMatch"
+      iri: /DataSet/TaxonConcepts/TaxonConcept/TaxonRelationships/TaxonRelationship[@type='is included in']
+    - predicate: "skos:exactMatch"
+      iri: "tc:isIncludedIn"
+    - predicate: "skos:narrowMatch"
+      iri: "openbiodiv-o:ProperPart_INT"
+      remarks: >-
+        OpenBiodiv-O distinguishes between RCC5 Relation statements based on the
+        ostensive component of the concepts and those based on the intensional
+        component.
+    - predicate: "skos:narrowMatch"
+      iri: "openbiodiv-o:ProperPart_OST"
+    - predicate: "skos:closeMatch"
+      iri: "skos:narrowMatch"
 
 # property: partiallyOverlaps
 - localName: partiallyOverlaps
@@ -375,6 +536,19 @@
   repeatable: Yes
   required: No
   github: 55
+  mappings:
+    - predicate: "skos:exactMatch"
+      iri: /DataSet/TaxonConcepts/TaxonConcept/TaxonRelationships/TaxonRelationship[@type='overlaps']
+    - predicate: "skos:exactMatch"
+      iri: "tc:overlaps"
+    - predicate: "skos:narrowMatch"
+      iri: "openbiodiv-o:PartiallyOverlaps_INT"
+      remarks: >-
+        OpenBiodiv-O distinguishes between RCC5 Relation statements based on the
+        ostensive component of the concepts and those based on the intensional
+        component.
+    - predicate: "skos:narrowMatch"
+      iri: "openbiodiv-o:PartiallyOverlaps_OST"
 
 # property: isDisjointFrom
 - localName: isDisjointFrom
@@ -405,6 +579,19 @@
   repeatable: Yes
   required: No
   github: 56
+  mappings:
+    - predicate: "skos:exactMatch"
+      iri: /DataSet/TaxonConcepts/TaxonConcept/TaxonRelationships/TaxonRelationship[@type='excludes']
+    - predicate: "skos:exactMatch"
+      iri: "tc:excludes"
+    - predicate: "skos:narrowMatch"
+      iri: "openbiodiv-o:Disjoint_INT"
+      remarks: >-
+        OpenBiodiv-O distinguishes between RCC5 Relation statements based on the
+        ostensive component of the concepts and those based on the intensional
+        component.
+    - predicate: "skos:narrowMatch"
+      iri: "openbiodiv-o:Disjoint_OST"
 
 # property: intersects
 - localName: intersects
@@ -441,6 +628,15 @@
   repeatable: Yes
   required: No
   github: 57
+  mappings:
+    - predicate: "skos:broadMatch"
+      iri: /DataSet/TaxonConcepts/TaxonConcept/TaxonRelationships/TaxonRelationship[@type='has synonym']
+      remarks: >-
+        The TCS 1 `has synonym` relationship has been split into `synonym` for
+        relations between TaxonConcept and TaxonName and `intersects` for
+        relationships between TaxonConcepts.
+    - predicate: "skos:broadMatch"
+      iri: "tc:hasSynonym"
 
 # class: TaxonConceptMapping
 - localName: TaxonConceptMapping
@@ -461,6 +657,19 @@
   required: null
   repeatable: null
   github: 43
+  mappings:
+    - predicate: "skos:broadMatch"
+      iri: /DataSet/TaxonRelationshipAssertions/TaxonRelationshipAssertion
+      remarks: >-
+        TCS 1 TaxonRelationshipInsertions could include many more relationship
+        types; the TCS 2 TaxonConceptMapping can only include the set-theory
+        relationship types.
+    - predicate: "skos:broadMatch"
+      iri: "dwc:ResourceRelationship"
+      remarks: >-
+        The TaxonConceptMapping is a special kind of ResourceRelationship.
+    - predicate: "skos:broadMatch"
+      iri: "rdf:Statement"
 
 # property: mappingAccordingTo
 - localName: mappingAccordingTo
@@ -476,6 +685,11 @@
   required: Yes
   repeatable: No
   github: 47
+  mappings:
+    - predicate: "skos:exactMatch"
+      iri: /DataSet/TaxonRelationshipAssertions/TaxonRelationshipAssertion/AccordingTo
+    - predicate: "skos:exactMatch"
+      iri: "dwc:relationshipAccordingTo"
 
 # property: mappingRelation
 - localName: mappingRelation
@@ -491,6 +705,11 @@
   required: Yes
   repeatable: No
   github: 44
+  mappings:
+    - predicate: "skos:exactMatch"
+      iri: /DataSet/TaxonRelationshipAssertions/TaxonRelationshipAssertion/@type
+    - predicate: "skos:exactMatch"
+      iri: "dwc:relationshipOfResourceID"
 
 # property: subjectTaxonConcept
 - localName: subjectTaxonConcept
@@ -506,6 +725,11 @@
   required: Yes
   repeatable: No
   github: 45
+  mappings:
+    - predicate: "skos:exactMatch"
+      iri: /DataSet/TaxonRelationshipAssertions/TaxonRelationshipAssertion/FromTaxonConcept
+    - predicate: "skos:exactMatch"
+      iri: "dwc:resourceID"
 
 # property: objectTaxonConcept
 - localName: objectTaxonConcept
@@ -521,6 +745,11 @@
   required: Yes
   repeatable: No
   github: 46
+  mappings:
+    - predicate: "skos:exactMatch"
+      iri: /DataSet/TaxonRelationshipAssertions/TaxonRelationshipAssertion/ToTaxonConcept
+    - predicate: "skos:exactMatch"
+      iri: "dwc:relatedResourceID"
 
 
 # class: TaxonName 
@@ -545,6 +774,15 @@
   required: null
   repeatable: null
   github: 15
+  mappings: 
+    - predicate: "skos:exactMatch"
+      iri: /DataSet/TaxonNames/TaxonName
+    - predicate: "skos:exactMatch"
+      iri: "tn:TaxonName"
+    - predicate: "skos:broadMatch"
+      iri:  "skosxl:Label"
+      remarks: >-
+        The TaxonName is a special kind of SKOSXL Label
 
 # property: taxonNameString
 - localName: taxonNameString
@@ -567,6 +805,13 @@
   required: No
   repeatable: No
   github: 16
+  mappings: 
+    - predicate: "skos:exactMatch"
+      iri: /DataSet/TaxonNames/TaxonName/Simple
+    - predicate: "skos:exactMatch"
+      iri: "tn:nameComplete"
+    - predicate: "skos:closeMatch"
+      iri: "skosxl:literalForm"
 
 # property: namePublishedIn
 - localName: namePublishedIn
@@ -582,6 +827,15 @@
   required: No
   repeatable: No
   github: 29
+  mappings: 
+    - predicate: "skos:exactMatch"
+      iri: /DataSet/TaxonNames/TaxonName/PublishedIn
+    - predicate: "skos:exactMatch"
+      iri: "tn:namePublishedIn"
+    - predicate: "skos:exactMatch"
+      iri: "dwc:namePublishedIn"
+      remarks: >-
+        The TCS term is the IRI equivalent of the Darwin Core term
 
 # property: microreference
 - localName: microreference
@@ -600,6 +854,11 @@
   required: No
   repeatable: No
   github: 30
+  mappings:
+    - predicate: "skos:exactMatch"
+      iri: /DataSet/TaxonNames/TaxonName/MicroReference
+    - predicate:
+      iri: "tn:microReference"
 
 # property: nomenclaturalCode
 - localName: nomenclaturalCode
@@ -620,6 +879,15 @@
   required: No
   repeatable: No
   github: 33
+  mappings:
+    - predicate: "skos:exactMatch"
+      iri: /DataSet/TaxonNames/TaxonName/@nomenclaturalCode
+    - predicate: "skos:exactMatch"
+      iri: "tn:nomenclaturalCode"
+    - predicate: "skos:exactMatch"
+      iri: "dwc:nomenclaturalCode"
+      remarks: >-
+        The TCS term is the IRI equivalent of the Darwin Core term.
 
 # property: nomenclaturalStatus
 - localName: nomenclaturalStatus
@@ -640,6 +908,15 @@
   required: No
   repeatable: No
   github: 35
+  mappings:
+    - predicate: "skos:exactMatch"
+      iri: /DataSet/TaxonNames/TaxonName/PublicationStatus
+    - predicate: "skos:exactMatch"
+      iri: "tn:publicationStatus"
+    - predicate: "skos:exactMatch"
+      iri: "dwc:nomenclaturalCode"
+      remarks: >-
+        The TCS term is the IRI equivalent of the Darwin Core term.
 
 
 # property: typification
@@ -660,6 +937,9 @@
     - TaxonName-typification-example-1
     - TaxonName-typification-example-2
   github: 238
+  mappings:
+    - predicate: "skos:exactMatch"
+      iri: /DataSet/TaxonNames/TaxonName/Typification
 
 
 # property: typificationLiteral
@@ -677,6 +957,9 @@
   required: No
   repeatable: No
   github: 223
+  mappings:
+    - predicate: "skos:exactMatch"
+      iri: /DataSet/TaxonNames/TaxonName/Typification/Simple
 
 # property: basionym
 - localName: basionym
@@ -701,6 +984,16 @@
   repeatable: No
   type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
   github: 36
+  mappings:
+    - predicate: "skos:exactMatch"
+      iri: /DataSet/TaxonNames/TaxonName/Basionym
+    - predicate: "skos:exactMatch"
+      iri: "tn:hasBasionym"
+    - predicate: "skos:broadMatch"
+      iri: "dwc:originalNameUsage"
+      remarks: >-
+        `originalNameUsage` can be a `basionym` or a `replacedName` or any older
+        name with the same type. Also note that `originalNameUsage` is a string.
 
 # property: replacedName
 - localName: replacedName
@@ -729,6 +1022,16 @@
   required: No
   repeatable: No
   github: 37
+  mappings:
+    - predicate: "skos:exactMatch"
+      iri: /DataSet/TaxonNames/TaxonName/ReplacementNameFor
+    - predicate: "skos:exactMatch"
+      iri: "tn:ReplacementNameFor"
+    - predicate: "skos:broadMatch"
+      iri: "dwc:originalNameUsage"
+      remarks: >-
+        `originalNameUsage` can be a `replacedName` or a `basionym` or any older
+        name with the same type. Also note that `originalNameUsage` is a string.
 
 # property: emendationOf
 - localName: emendationOf
@@ -743,6 +1046,11 @@
   required: No
   repeatable: No
   github: 224
+  mappings:
+    - predicate: "skos:exactMatch"
+      iri: /DataSet/TaxonNames/TaxonName/SpellingCorrectionOf
+    - predicate: "skos:exactMatch"
+      iri: "tn:SpellingCorrection"
 
 # property: laterHomonymOf
 - localName: laterHomonymOf
@@ -760,6 +1068,11 @@
   required: No
   repeatable: No
   github: 229
+  mappings:
+    - predicate: "skos:exactMatch"
+      iri: /DataSet/TaxonNames/TaxonName/LaterHomonymOf
+    - predicate: "skos:exactMatch"
+      iri: "tn:LaterHomonymOf"
 
 # property: conservedAgainst
 - localName: conservedAgainst
@@ -780,6 +1093,11 @@
   required: No
   repeatable: Yes
   github: 39
+  mappings:
+    - predicate: "skos:exactMatch"
+      iri: /DataSet/TaxonNames/TaxonName/ConservedAgainst
+    - predicate: "skos:exactMatch"
+      iri: "tn:ConservedAgainst"
 
 
 # class: NomenclaturalType
@@ -801,6 +1119,22 @@
   repeatable: null
   required: null
   github: 58
+  mappings:
+    - predicate: "skos:narrowMatch"
+      iri: /DataSet/TaxonNames/TaxonName/Typification/TypeVouchers/TypeVoucher/
+      remarks: >-
+        TCS 1 does not have an equivalent for NomenclaturalType, but has a
+        choice between TypeName and TypeVouchers. Therefore, TypeVoucher does
+        not include those NomenclaturalTypes that have a `typeName` rather than
+        a `typeSpecimen`.
+    - predicate: "skos:broadMatch"
+      iri: "dwc:ResourceRelationship"
+      remarks: >-
+        A NomenclaturalType is in essence a special kind of ResourceRelationship
+        connecting a name to a specimen or other name, with, depending on
+        whether one comes from a tcs:TaxonName or a dwc:MaterialEntity,
+        `typifiedName` being the `resourceID` and `typeSpecimen` or `typeName`
+        the `relatedResourceID` and vice versa.
 
 # property: typifiedName
 - localName: typifiedName
@@ -821,6 +1155,12 @@
   required: Yes
   repeatable: No
   github: 59
+  mappings:
+    - predicate: ""
+      iri: ""
+      remarks: >-
+        In TCS 1 there is no property relating a TypeVoucher to a TaxonName, as
+        TypeVouchers are nested under the TaxonName.
 
 # property: typeOfType
 - localName: typeOfType
@@ -839,6 +1179,13 @@
   repeatable: No
   organizedInClass: http://rs.tdwg.org/tcs/terms/NomenclaturalType
   github: 60
+  mappings:
+    - predicate: "skos:narrowMatch"
+      iri: /DataSet/TaxonNames/TaxonName/Typification/TypeVouchers/TypeVoucher/@typeofType
+      remarks: >-
+        In TCS 1 only TypeVouchers have a `typeOfType`; TypeName does not.
+    - predicate: "skos:narrowMatch"
+      iri: "tn:typeOfType"
 
 # property: typeName
 - localName: typeName
@@ -856,6 +1203,11 @@
   required: No
   repeatable: No
   github: 61
+  mappings:
+    - predicate: "skos:exactMatch"
+      iri: /DataSet/TaxonNames/TaxonName/Typification/TypeName/NameReference
+    - predicate: "skos:exactMatch"
+      iri: "tn:typeName"
 
 # property: typeSpecimen
 - localName: typeSpecimen
@@ -876,6 +1228,12 @@
   required: No
   repeatable: No
   github: 62
+  mappings:
+    - predicate: "skos:exactMatch"
+      iri: /DataSet/TaxonNames/TaxonName/Typification/TypeVouchers/TypeVoucher/VoucherReference
+    - predicate: "skos:exactMatch"
+      iri: "tn:typeSpecimen"
+
 
 # property: typePublishedIn
 - localName: typePublishedIn
@@ -887,9 +1245,22 @@
   notes: >-
     `typePublishedIn` is relevant for lectotypes, neotypes, epitypes and 
     conserved types. For other kinds of type the publication where the type is 
-    designated is the publication where the name was published.
+    designated is the publication the name was published in.
   type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
   organizedInClass: http://rs.tdwg.org/tcs/terms/NomenclaturalType
   required: No
   repeatable: No
   github: 63
+  mappings:
+    - predicate: "skos:narrowMatch"
+      iri: /DataSet/TaxonNames/TaxonName/Typification/TypeName/LectotypePublication
+      remarks: >-
+        Apart from TCS 1 having different elements for `LectotypePublication`for
+        TypeName and TypeVoucher, the TCS 1 terms are ostensibly only to be used
+        for lectotypifications, while designations of neotypes, epitypes and
+        conserved types also takes place in different publications from the ones
+        the names have been published in. The TCS 2 term can be used for all
+        these typifications, as it could for typifications that are in the
+        publication of the name.
+    - predicate: "skos:narrowMatch"
+      iri: /DataSet/TaxonNames/TaxonName/Typification/TypeVouchers/TypeVoucher/LectotypePublication

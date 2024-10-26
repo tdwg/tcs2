@@ -19,3 +19,9 @@
   required: No
   repeatable: No
   github: 222
+  mappings:
+    - predicate: "skos:closeMatch"
+      iri: "openbiodiv-o:taxonConceptLabel"
+      remarks: >-
+        TCS adopts the TaxonConceptLabel from OpenBiodiv-O. `dcterms:title` s
+        good match for the string representation.
