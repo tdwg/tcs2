@@ -281,15 +281,16 @@ of a taxonomy.
 
 <br/><br/>
 
-The OpenBiodiv Ontology (OpenBiodiv-O) defines the `TaxonomicConcept` as a Work
-under the FRBR (Functional Requirements for Bibliographic Records) data model as
-well as a SKOS Concept. A `Work` in FRBR is the product of an intellectual
-process of one or more persons, about which only indirect evidence is at our
-hand. The Expression that realises this Work is the Treatment. While in FRBR a
-Work can have more than one Expression, there is a one-to-one relationship
-between Taxonomic Concepts and Treatment. This is exactly how we think of Taxon
-Concepts in TCS and forms a nice bridge between Taxon (or Taxonomic) Concepts
-and the literature.
+The OpenBiodiv Ontology (OpenBiodiv-O) defines the `TaxonConcept` (in the paper,
+it is 'TaxonomicConcept' but in the ontology itself it is 'TaxonConcept') as a
+Work under the FRBR (Functional Requirements for Bibliographic Records) data
+model as well as a SKOS Concept. A `Work` in FRBR is the product of an
+intellectual process of one or more persons, about which only indirect evidence
+is at our hand. The Expression that realises this Work is the Treatment. While
+in FRBR a Work can have more than one Expression, there is a one-to-one
+relationship between Taxonomic Concepts and Treatment. This is exactly how we
+think of Taxon Concepts in TCS and forms a nice bridge between Taxon (or
+Taxonomic) Concepts and the literature.
 
 One or more Treatments are contained in a `TaxonomicArticle`. Therefore, the
 `accordingTo` property in TCS can point to either a Taxonomic Article or an
@@ -347,33 +348,33 @@ TCS 1 | TDWG Ontology | TCS 2<sup>*</sup>
 
 TCS 1 | TDWG Ontology | TCS 2 
 -|-|-
-is congruent to | [tc:isCongruentTo](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonConcept.ttl#L252) | [isCongruentWith](https://github.com/tdwg/tcs2/tree/master/docs/tcs-terms#tcsiscongruentwith)
-is not congruent to | [tc:isNotCongruentTo](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonConcept.ttl#L299) | &mdash;
-includes | [tc:includes](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonConcept.ttl#L222) | [includes](https://github.com/tdwg/tcs2/tree/master/docs/tcs-terms#tcsincludes)
-does not include | [tc:doesNotInclude](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonConcept.ttl#L178) | &mdash;
-excludes | [tc:excludes](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonConcept.ttl#L191) | [isDisjointFrom](https://github.com/tdwg/tcs2/tree/master/docs/tcs-terms#tcsisdisjointfrom)
-is included in | [tc:isIncludedIn](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonConcept.ttl#L286) | [isIncludedIn](https://github.com/tdwg/tcs2/tree/master/docs/tcs-terms#tcsisincludedin)
-is not included in | [tc:isNotIncludedIn](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonConcept.ttl#L306) | &mdash;
-overlaps | [tc:overlaps](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonConcept.ttl#L357) | [partiallyOverlaps](https://github.com/tdwg/tcs2/tree/master/docs/tcs-terms#tcspartiallyoverlaps)
-does not overlap | [tc:doesNotOverlap](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonConcept.ttl#L184) | &mdash;
+is congruent to | [tc:IsCongruentTo](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonConcept.ttl#L252) | [isCongruentWith](https://github.com/tdwg/tcs2/tree/master/docs/tcs-terms#tcsiscongruentwith)
+is not congruent to | [tc:IsNotCongruentTo](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonConcept.ttl#L299) | &mdash;
+includes | [tc:Includes](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonConcept.ttl#L222) | [includes](https://github.com/tdwg/tcs2/tree/master/docs/tcs-terms#tcsincludes)
+does not include | [tc:DoesNotInclude](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonConcept.ttl#L178) | &mdash;
+excludes | [tc:Excludes](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonConcept.ttl#L191) | [isDisjointFrom](https://github.com/tdwg/tcs2/tree/master/docs/tcs-terms#tcsisdisjointfrom)
+is included in | [tc:IsIncludedIn](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonConcept.ttl#L286) | [isIncludedIn](https://github.com/tdwg/tcs2/tree/master/docs/tcs-terms#tcsisincludedin)
+is not included in | [tc:IsNotIncludedIn](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonConcept.ttl#L306) | &mdash;
+overlaps | [tc:Overlaps](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonConcept.ttl#L357) | [partiallyOverlaps](https://github.com/tdwg/tcs2/tree/master/docs/tcs-terms#tcspartiallyoverlaps)
+does not overlap | [tc:DoesNotOverlap](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonConcept.ttl#L184) | &mdash;
  | | 
-is child taxon of | [tc:isChildTaxonOf](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonConcept.ttl#L245) | [parent](https://github.com/tdwg/tcs2/tree/master/docs/tcs-terms#tcsparent)
-is parent taxon of | [tc:isParentTaxonOf](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonConcept.ttl#L312) | [child](https://github.com/tdwg/tcs2/tree/master/docs/tcs-terms#tcschild)
+is child taxon of | [tc:IsChildTaxonOf](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonConcept.ttl#L245) | [parent](https://github.com/tdwg/tcs2/tree/master/docs/tcs-terms#tcsparent)
+is parent taxon of | [tc:IsParentTaxonOf](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonConcept.ttl#L312) | [child](https://github.com/tdwg/tcs2/tree/master/docs/tcs-terms#tcschild)
  | | 
-is anamorph of | [tc:isAnamorphOf](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonConcept.ttl#L237) | &mdash;
-is teleomorph of | [tc:isTeleomorphOf](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonConcept.ttl#L340) | &mdash;
+is anamorph of | [tc:IsAnamorphOf](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonConcept.ttl#L237) | &mdash;
+is teleomorph of | [tc:IsTeleomorphOf](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonConcept.ttl#L340) | &mdash;
  | | 
-is second parent of | [tc:isSecondParentOf](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonConcept.ttl#L319) | &mdash;
-is female parent of | [tc:isFemaleParentOf](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonConcept.ttl#L259) | &mdash;
-is first parent of | [tc:isFirstParentOf](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonConcept.ttl#L265) | &mdash;
-is male parent of | [tc:isMaleParentOf](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonConcept.ttl#292) | &mdash;
-is hybrid parent of | [tc:isHybridParentOf](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonConcept.ttl#279) | &mdash;
-is hybrid child of | [tc:isHybridChildOf](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonConcept.ttl#272) | &mdash;
+is second parent of | [tc:IsSecondParentOf](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonConcept.ttl#L319) | &mdash;
+is female parent of | [tc:IsFemaleParentOf](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonConcept.ttl#L259) | &mdash;
+is first parent of | [tc:IsFirstParentOf](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonConcept.ttl#L265) | &mdash;
+is male parent of | [tc:IsMaleParentOf](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonConcept.ttl#292) | &mdash;
+is hybrid parent of | [tc:sHybridParentOf](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonConcept.ttl#279) | &mdash;
+is hybrid child of | [tc:IsHybridChildOf](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonConcept.ttl#272) | &mdash;
  | | 
-is ambiregnal of | [tc:isAmbiregnalOf](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonConcept.ttl#228) | &mdash;
+is ambiregnal of | [tc:IsAmbiregnalOf](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonConcept.ttl#228) | &mdash;
  | | 
-is vernacular for | [tc:isVernacularFor](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonConcept.ttl#348) | &mdash;
-has vernacular | [tc:hasVernacular](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonConcept.ttl#212) | [vernacularName](https://github.com/tdwg/tcs2/tree/master/docs/tcs-terms#tcsvernacularname)
+is vernacular for | [tc:IsVernacularFor](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonConcept.ttl#348) | &mdash;
+has vernacular | [tc:HasVernacular](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonConcept.ttl#212) | [vernacularName](https://github.com/tdwg/tcs2/tree/master/docs/tcs-terms#tcsvernacularname)
 has synonym | [tc:HasSynonym](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonConcept.ttl#L198) | [synonym](https://github.com/tdwg/tcs2/tree/master/docs/tcs-terms#tcssynonym) \| [intersects](https://github.com/tdwg/tcs2/tree/master/docs/tcs-terms#tcsintersects)
 
 ### Taxon Concept type vocabulary
@@ -506,7 +507,7 @@ TCS 1 | TDWG Ontology | TCS 2
 /DataSet/TaxonNames/TaxonName/Rank | [tn:rankString](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L321) | [dwc:verbatimTaxonRank](https://github.com/tdwg/tcs2/tree/master/docs/tcs-terms#dwcverbatimtaxonrank)
 /DataSet/TaxonNames/TaxonName/Rank/@code | [tn:rank](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L309) | [taxonRank](https://github.com/tdwg/tcs2/tree/master/docs/tcs-terms#tcstaxonomicrank)
 /DataSet/TaxonNames/TaxonName/CanonicalName/Uninomial | [tn:uninomial](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L257) | &mdash;
-/DataSet/TaxonNames/TaxonName/CanonicalName/Genus | [  tn:genusPart](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L110) | [dwc:genericName](https://github.com/tdwg/tcs2/tree/master/docs/tcs-terms#dwcgenericname)
+/DataSet/TaxonNames/TaxonName/CanonicalName/Genus | [tn:genusPart](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L110) | [dwc:genericName](https://github.com/tdwg/tcs2/tree/master/docs/tcs-terms#dwcgenericname)
 /DataSet/TaxonNames/TaxonName/CanonicalName/InfragenericEpithet | [tn:infragenericEpithet](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L133) | [dwc:infragenericEpithet](https://github.com/tdwg/tcs2/tree/master/docs/tcs-terms#dwcinfragenericepithet)
 /DataSet/TaxonNames/TaxonName/CanonicalName/SpecificEpithet | [tn:specificEpithet](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L205) | [dwc:specificEpithet](https://github.com/tdwg/tcs2/tree/master/docs/tcs-terms#dwcspecificepithet)
 /DataSet/TaxonNames/TaxonName/CanonicalName/InfraspecificEpithet | [tn:infraspecificEpithet](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L147) | [dwc:infraspecificEpithet](https://github.com/tdwg/tcs2/tree/master/docs/tcs-terms#dwcinfraspecificepithet)
@@ -554,7 +555,7 @@ TCS 1 | TDWG Ontology | TCS 2
 &mdash; | &mdash; | [typifiedName](https://github.com/tdwg/tcs2/tree/master/docs/tcs-terms#tcstypifiedname)
 /DataSet/TaxonNames/TaxonName/Typification/TypeVouchers/TypeVoucher/@typeofType | [tn:typeOfType](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L241) | [typeOfType](https://github.com/tdwg/tcs2/tree/master/docs/tcs-terms#tcstypeoftype)
 /DataSet/TaxonNames/TaxonName/Typification/TypeVouchers/TypeVoucher/VoucherReference | [tn:typeSpecimen](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L249) | [typeSpecimen](https://github.com/tdwg/tcs2/tree/master/docs/tcs-terms#tcstypespecimen)
-/DataSet/TaxonNames/TaxonName/Typification/TypeVouchers/TypeVoucher/LectotypePublication \| /DataSet/TaxonNames/TaxonName/Typification/TypeName/LectotypePublication | &mdash; | [typePublishedIn](https://github.com/tdwg/tcs2/tree/master/docs/tcs-terms#tcstypepublishedin)
+/DataSet/TaxonNames/TaxonName/Typification/TypeName/LectotypePublication \| /DataSet/TaxonNames/TaxonName/Typification/TypeVouchers/TypeVoucher/LectotypePublication \| /DataSet/TaxonNames/TaxonName/Typification/TypeName/LectotypePublication | &mdash; | [typePublishedIn](https://github.com/tdwg/tcs2/tree/master/docs/tcs-terms#tcstypepublishedin)
 /DataSet/TaxonNames/TaxonName/Typification/TypeName/NameReference | [tn:typeName](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L233) | [typeName](https://github.com/tdwg/tcs2/tree/master/docs/tcs-terms#tcstypename)
 
 ### Type of Type vocabulary
