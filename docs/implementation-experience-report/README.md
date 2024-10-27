@@ -24,3 +24,6 @@ TCS can play the same role for the Darwin Core Taxon that the Darwin Core IRI
 (`dwciri`) namespace has for the other Darwin Core entities. Moreover the TCS
 Nomenclatural Type can be used as the object for the `dwciri:typeStatus`
 property.
+
+<img alt="" src="media/intensional-group-latest.svg" height="400" width="400"/>
+<img alt="" src="media/intensional-group-latest.svg" height="400" width="400"/>
