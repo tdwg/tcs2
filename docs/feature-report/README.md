@@ -234,15 +234,15 @@ with the Taxon Concept equivalent to the `skos:Concept` and the Taxon Name to
 the `skosxl:Label`. The taxonomy or publication the Taxon Concepts are in can be
 compared to the `skos:ConceptScheme` and therefore the `accordingTo` property to
 the `skos:inScheme` property. `taxonName`, `synonym` and `vernacularName` can be
-seen as `skosxl:prefLabel`, `skosxl:hiddenLabel` and `skosxl:altLabel`,
+seen as `skosxl:prefLabel`, `skosxl:hiddenLabel` and `skosxl:altLabel`
 respectively. Relationships between names are `skosxl:labelRelation` properties
 and relationships between taxa `skos:semanticRelation` properties, with the
 hierarchical relationships being `skos:broader` and `skos:narrower` and the
 horizontal ones `skos:mappingRelation`s. In SKOS, `skos:broader` and
 `skos:narrower` are used between Concepts in the same Concept Scheme, while the
 `skos:mappingRelation` properties are used to map Concepts from different
-Concept Schemes. Likewise, in TCS, hierarchical relationship terms are used
-within the same taxonomy, while the horizontal relationship terms are mostly
+Concept Schemes. Likewise, in TCS, hierarchical relationship terms are only used
+within the same taxonomy, while the horizontal relationship terms can also be
 used to align Taxon Concepts between different taxonomies or different versions
 of a taxonomy.
 
@@ -289,7 +289,9 @@ hand. The Expression that realises this Work is the Treatment. While in FRBR a
 Work can have more than one Expression, there is a one-to-one relationship
 between Taxonomic Concepts and Treatment. This is exactly how we think of Taxon
 Concepts in TCS and forms a nice bridge between Taxon (or Taxonomic) Concepts
-and the literature.
+and the literature. Librarians among us will recognise FRBR as the data model,
+or one of the data models, behind RDA (Resource Description and Access), a
+cataloguing standard that is used world-wide.
 
 One or more Treatments are contained in a `TaxonomicArticle`. Therefore, the
 `accordingTo` property in TCS can point to either a Taxonomic Article or an
@@ -299,9 +301,10 @@ other specifications for those.
 
 In other respects, TCS is a bit broader than OpenBiodiv-O. Every
 `OperationalTaxonomicUnit`, which is a superclass of `TaxonomicConcept` in
-OpenBiodiv-O, can be expressed as a TCS Taxon Concept. Also, there are
-categories of Taxon Concepts that TCS needs to be able to deal with that, while
-fitting the definition of a Taxonomic Concept, cannot be expressed in
+OpenBiodiv-O, can be expressed as a TCS Taxon Concept, if there is a reason to
+do so. Also, there are categories of Taxon Concepts that TCS needs to be able to
+deal with, like entries in Catalogue of Life or AviBase, that, while fitting the
+definition of a Taxonomic Concept, can (probably) not be expressed in
 OpenBiodiv-O.
 
 The `RCC5Statement` in OpenBiodiv-O is equivalent to the `TaxonConceptMapping`
