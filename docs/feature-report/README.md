@@ -24,10 +24,11 @@ vocabulary standard, can be delivered in various formats, including CSV.
 
 There has been dissatisfaction with the Darwin Core Taxon class for exchanging
 taxonomic data, however, predominantly because people feel it is too permissive.
-Darwin Core Taxon data may be syntactically correct but have a meaning that is incompatible with the consumer's data model. The Darwin Core
-Taxon class also has references to objects that are not defined and its
-implementation allows for data artefacts that are not taxa by any definition,
-including that of the Darwin Core Taxon itself.
+Darwin Core Taxon data may be syntactically correct but have a meaning that is
+incompatible with the consumer's data model. The Darwin Core Taxon class also
+has references to objects that are not defined and its implementation allows for
+data artefacts that are not taxa by any definition, including that of the Darwin
+Core Taxon itself.
 
 These issues were the reason that the Darwin Core RDF Guide
 ([\[darwin_core_and_rdfowl_task_groups_darwin_2015\]](../bibliography/#darwin_core_and_rdfowl_task_groups_darwin_2015))
@@ -163,9 +164,9 @@ TCS:
 - tcs:isDisjointWith
 - tcs:intersects
 
-<sup>*</sup>Horizontal relationships between Taxon Concepts are relationships between Taxon
-Concepts in different taxonomies (or different versions of a taxonomy), or
-between Taxon Concepts in rank-free systems, e.g., cladograms.
+<sup>*</sup>Horizontal relationships between Taxon Concepts are relationships
+between Taxon Concepts in different taxonomies (or different versions of a
+taxonomy), or between Taxon Concepts in rank-free systems, e.g., cladograms.
 
 ### Relationships between Taxon Concepts and Taxon Names
 
