@@ -649,16 +649,6 @@
       ]
     },
     {
-      "id": "https://tropicos.org/reference/9020903#name-35121455",
-      "type": "TaxonConcept",
-      "dcterms:title": "Dicranoloma arfakianum sec. Klazenga 1999",
-      "accordingTo": "https://tropicos.org/reference/9020903",
-      "taxonName": "https://tropicos.org/name/35121455",
-      "synonym": [
-        "https://tropicos.org/name/35122257"
-      ]
-    },
-    {
       "id": "https://tropicos.org/reference/9007945#name-35184275",
       "type": "TaxonConcept",
       "dcterms:title": "Dicranum geluense sec. Norris & Koponen 1990",
@@ -719,6 +709,17 @@
       "foaf:surname": "Klazenga"
     },
     {
+      "id": "https://tropicos.org/reference/9020903#name-35121455",
+      "type": "TaxonConcept",
+      "dcterms:title": "Dicranoloma arfakianum sec. Klazenga 1999",
+      "accordingTo": "https://tropicos.org/reference/9020903",
+      "taxonName": "https://tropicos.org/name/35121455",
+      "synonym": [
+        "https://tropicos.org/name/35122257"
+      ],
+      "parent": "https://tropicos.org/reference/9020903#name-35000378"
+    },
+    {
       "id": "https://tropicos.org/reference/9020903#name-35158613",
       "type": "TaxonConcept",
       "dcterms:title": "Cryptodicranum armitii sec. Klazenga 1999",
@@ -729,7 +730,8 @@
         "https://tropicos.org/name/35158615",
         "https://tropicos.org/name/35121494",
         "https://tropicos.org/name/35121551"
-      ]
+      ],
+      "parent": "https://tropicos.org/reference/9020903#name-35000314"
     },
     {
       "id": "https://tropicos.org/reference/9020903#name-35121458",
@@ -748,14 +750,16 @@
         "https://tropicos.org/name/35204815",
         "https://tropicos.org/name/35124384",
         "https://tropicos.org/name/35154921"
-      ]
+      ],
+      "parent": "https://tropicos.org/reference/9020903#name-35000378"
     },
     {
       "id": "https://tropicos.org/reference/9020903#name-35204723",
       "type": "TaxonConcept",
       "dcterms:title": "Dicranoloma bartramianum sec. Klazenga 1999",
       "accordingTo": "https://tropicos.org/reference/9020903",
-      "taxonName": "https://tropicos.org/name/35204723"
+      "taxonName": "https://tropicos.org/name/35204723",
+      "parent": "https://tropicos.org/reference/9020903#name-35000378"
     },
     {
       "id": "https://tropicos.org/reference/9020903#name-35121475",
@@ -768,7 +772,8 @@
         "https://tropicos.org/name/35121477",
         "https://tropicos.org/name/35121484",
         "https://tropicos.org/name/35121973"
-      ]
+      ],
+      "parent": "https://tropicos.org/reference/9020903#name-35000378"
     },
     {
       "id": "https://tropicos.org/reference/9020903#name-35121467",
@@ -782,7 +787,8 @@
         "https://tropicos.org/name/35121595",
         "https://tropicos.org/name/35121635",
         "https://tropicos.org/name/35123838"
-      ]
+      ],
+      "parent": "https://tropicos.org/reference/9020903#name-35000378"
     },
     {
       "id": "https://tropicos.org/reference/9020903#name-35121486",
@@ -803,7 +809,8 @@
         "https://tropicos.org/name/35123553",
         "https://tropicos.org/name/35123636",
         "https://tropicos.org/name/35123815"
-      ]
+      ],
+      "parent": "https://tropicos.org/reference/9020903#name-35000378"
     },
     {
       "id": "https://tropicos.org/reference/9020903#name-35121491",
@@ -818,14 +825,16 @@
         "https://tropicos.org/name/35122028",
         "https://tropicos.org/name/35123679",
         "https://tropicos.org/name/35123680"
-      ]
+      ],
+      "parent": "https://tropicos.org/reference/9020903#name-35000378"
     },
     {
       "id": "https://tropicos.org/reference/9020903#name-35204724",
       "type": "TaxonConcept",
       "dcterms:title": "Dicranoloma cutlackii sec. Klazenga 1999",
       "accordingTo": "https://tropicos.org/reference/9020903",
-      "taxonName": "https://tropicos.org/name/35204724"
+      "taxonName": "https://tropicos.org/name/35204724",
+      "parent": "https://tropicos.org/reference/9020903#name-35000378"
     },
     {
       "id": "https://tropicos.org/reference/9020903#name-35121514",
@@ -836,7 +845,8 @@
       "synonym": [
         "https://tropicos.org/name/35121483",
         "https://tropicos.org/name/35182608"
-      ]
+      ],
+      "parent": "https://tropicos.org/reference/9020903#name-35000378"
     },
     {
       "id": "https://tropicos.org/reference/9020903#name-35121609",
@@ -850,42 +860,48 @@
         "https://tropicos.org/name/35122238",
         "https://tropicos.org/name/35123686",
         "https://tropicos.org/name/35124046"
-      ]
+      ],
+      "parent": "https://tropicos.org/reference/9020903#name-35000378"
     },
     {
       "id": "https://tropicos.org/reference/9020903#name-35121509",
       "type": "TaxonConcept",
       "taxonName": "https://tropicos.org/name/35121509",
       "dcterms:title": "Dicranoloma daymannianum sec. Klazenga 1999",
-      "accordingTo": "https://tropicos.org/reference/9020903"
+      "accordingTo": "https://tropicos.org/reference/9020903",
+      "parent": "https://tropicos.org/reference/9020903#name-35000378"
     },
     {
       "id": "https://tropicos.org/reference/9020903#name-35184079",
       "type": "TaxonConcept",
       "dcterms:title": "Dicranoloma geluense sec. Klazenga 1999",
       "accordingTo": "https://tropicos.org/reference/9020903",
-      "taxonName": "https://tropicos.org/name/35184079"
+      "taxonName": "https://tropicos.org/name/35184079",
+      "parent": "https://tropicos.org/reference/9020903#name-35000378"
     },
     {
       "id": "https://tropicos.org/reference/9020903#name-35121542",
       "type": "TaxonConcept",
       "dcterms:title": "Dicranoloma havilandii sec. Klazenga 1999",
       "accordingTo": "https://tropicos.org/reference/9020903",
-      "taxonName": "https://tropicos.org/name/35121542"
+      "taxonName": "https://tropicos.org/name/35121542",
+      "parent": "https://tropicos.org/reference/9020903#name-35000378"
     },
     {
       "id": "https://tropicos.org/reference/9020903#name-35121617",
       "type": "TaxonConcept",
       "dcterms:title": "Dicranoloma rugifolium sec. Klazenga 1999",
       "accordingTo": "https://tropicos.org/reference/9020903",
-      "taxonName": "https://tropicos.org/name/35121617"
+      "taxonName": "https://tropicos.org/name/35121617",
+      "parent": "https://tropicos.org/reference/9020903#name-35000378"
     },
     {
       "id": "https://tropicos.org/reference/9020903#name-35200565",
       "type": "TaxonConcept",
       "dcterms:title": "Dicranoloma steenisii sec. Klazenga 1999",
       "accordingTo": "https://tropicos.org/reference/9020903",
-      "taxonName": "https://tropicos.org/name/35200565"
+      "taxonName": "https://tropicos.org/name/35200565",
+      "parent": "https://tropicos.org/reference/9020903#name-35000378"
     },
     {
       "id": "https://tropicos.org/reference/9020903#name-35204725",
@@ -896,7 +912,8 @@
       "synonym": [
         "https://tropicos.org/name/35121530",
         "https://tropicos.org/name/35122365"
-      ]
+      ],
+      "parent": "https://tropicos.org/reference/9020903#name-35000381"
     },
 
     {
@@ -3962,7 +3979,7 @@
     {
       "id": "https://tropicos.org/name/35184274",
       "type": "TaxonName",
-      "taonName": "Dicranum daymannianum",
+      "taxonNameString": "Dicranum daymannianum",
       "dwc:scientificName": "Dicranum daymannianum (E.B.Bartram) D.H.Norris & T.J.Kop.",
       "dwc:scientificNameAuthorship": "(E.B.Bartram) D.H.Norris & T.J.Kop.",
       "dwc:namePublishedIn": "Acta Botanica Fennica 139: 40. 1990. (Acta Bot. Fenn.)",
@@ -5396,6 +5413,77 @@
       "dwc:scientificNameAuthorship": "Müll.Hal.",
       "dwc:namePublishedIn": "Botanische Zeitung (Berlin) 17: 215. 1859. (Bot. Zeitung (Berlin) )",
       "nomenclaturalStatus": "legitimate"
+    },
+    {
+      "id": "https://www.tropicos.org/name/35000378",
+      "type": "TaxonName",
+      "taxonNameString": "Dicranoloma",
+      "dwc:scientificNameAuthorship": "(Renauld) Renauld",
+      "dwc:namePublishedIn": "Revue Bryologique 28(4): 69–70. 1901. (Rev. Bryol.)",
+      "nomenclaturalStatus": "legitimate"
+    },
+    {
+      "id": "https://tropicos.org/name/35000378",
+      "type": "TaxonName",
+      "taxonNameString": "Dicranoloma",
+      "dwc:scientificNameAuthorship": "(Renauld) Renauld",
+      "dwc:namePublishedIn": "Revue Bryologique 28(4): 69–70. 1901. (Rev. Bryol.)",
+      "nomenclaturalStatus": "legitimate"
+    },
+    {
+      "id": "https://tropicos.org/reference/9020903#name-35000378",
+      "type": "TaxonConcept",
+      "dcterms:title": "Dicranoloma sec. Klazenga 1999",
+      "accordingTo": "https://tropicos.org/reference/9020903",
+      "taxonName": "https://www.tropicos.org/name/35000378",
+      "parent": "https://tropicos.org/reference/9020903#name-35001506"
+    },
+    {
+      "id": "https://tropicos.org/name/35000314",
+      "type": "TaxonName",
+      "taxonNameString": "Cryptodicranum",
+      "dwc:scientificNameAuthorship": "E.B.Bartram",
+      "dwc:namePublishedIn": "The Bryologist 41: 127. 1938. (Bryologist)",
+      "nomenclaturalStatus": "legitimate"
+    },
+    {
+      "id": "https://tropicos.org/reference/9020903#name-35000314",
+      "type": "TaxonConcept",
+      "dcterms:title": "Cryptodicranum sec. Klazenga 1999",
+      "accordingTo": "https://tropicos.org/reference/9020903",
+      "taxonName": "https://www.tropicos.org/name/35000314",
+      "parent": "https://tropicos.org/reference/9020903#name-35001506"
+    },
+    {
+      "id": "https://tropicos.org/name/35000381",
+      "type": "TaxonName",
+      "taxonNameString": "Dicranum",
+      "dwc:scientificNameAuthorship": "Hedw.",
+      "dwc:namePublishedIn": "Species Muscorum Frondosorum 126. 1801. (Sp. Musc. Frond.)",
+      "nomenclaturalStatus": "legitimate"
+    },
+    {
+      "id": "https://tropicos.org/reference/9020903#name-35000381",
+      "type": "TaxonConcept",
+      "dcterms:title": "Dicranum sec. Klazenga 1999",
+      "accordingTo": "https://tropicos.org/reference/9020903",
+      "taxonName": "https://www.tropicos.org/name/35000381",
+      "parent": "https://tropicos.org/reference/9020903#name-35001506"
+    },
+    {
+      "id": "https://tropicos.org/name/35001506",
+      "type": "TaxonName",
+      "taxonNameString": "Dicranaceae",
+      "dwc:scientificNameAuthorship": "Schimp.",
+      "dwc:namePublishedIn": "Corollarium Bryologiae Europaeae 11. 1856. (Coroll. Bryol. Eur.)",
+      "nomenclaturalStatus": "legitimate"
+    },
+    {
+      "id": "https://tropicos.org/reference/9020903#name-35001506",
+      "type": "TaxonConcept",
+      "dcterms:title": "Dicranaceae sec. Klazenga 1999",
+      "accordingTo": "https://tropicos.org/reference/9020903",
+      "taxonName": "https://www.tropicos.org/name/35001506"
     }
   ]
 }
