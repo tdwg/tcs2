@@ -39,13 +39,13 @@ Eddy 1988, **E.** Dicranoloma assimile sec. Tan & Koponen 1983.
 
 <hr/>
 
-![](media/taxon-concepts-taxon-names-references.svg)
+<img alt="" src="media/taxon-concepts-taxon-names-references.svg" width="800">
 
 **Fig. 2.** Graph with all Taxon Concepts, Taxon Names and references.
 
 <hr>
 
-![](media/taxon-concepts-taxon-names.svg)
+<img alt="" src="media/taxon-concepts-taxon-names.svg" width="800">
 
 **Fig. 3.** Graph with all Taxon Concepts, Taxon Names and references.
 
@@ -79,23 +79,23 @@ included in the object Taxon Concept but not in the subject Taxon Concept.
 
 <hr>
 
-![](media/ostensive-mappings.svg)
+<img alt="" src="media/ostensive-mappings.svg" width="800">
 
-**Fig. 4** Taxon Concepts with mappings based on the type specimens of names
+**Fig. 7** Taxon Concepts with mappings based on the type specimens of names
 that are included in the concepts.
 
 <hr>
 
-![](media/intensional-mappings.svg)
+<img alt="" src="media/intensional-mappings.svg" width="800">
 
-**Fig. 5.** Taxon Concept with mappings that were added to the data set by the
+**Fig. 8.** Taxon Concept with mappings that were added to the data set by the
 author of the latest revision.
 
 <hr>
 
-![](media/intensional-mappings-groups.svg)
+<img alt="" src="media/intensional-mappings-groups.svg" width="800">
 
-**Fig. 6.** Taxon Concepts with individual Taxon Concepts (green dots) connected
+**Fig. 9.** Taxon Concepts with individual Taxon Concepts (green dots) connected
 to "group concepts" (light-brown dots), which are representative for groups of
 Taxon Concepts that are congruent with each other, through `isCongruentWith`
 mappings and group concept are connected to each other by other intersecting
@@ -103,18 +103,18 @@ mapping relations.
 
 <hr>
 
-![alt text](media/taxon-concepts-treatments.png)
+<img alt="" src="media/taxon-concepts-treatments.png">
 
-**Fig. 7.** Groups of TaxonConcepts connected by intensional mappings, with
+**Fig. 10.** Groups of TaxonConcepts connected by intensional mappings, with
 concepts for each treatment highlighted in red. **A.** Tan & Koponen 1983,
 **B.** Eddy 1988, **C.** Tan 1989, **D.** Norris & Koponen 1990, **E.** Klazenga
 1999.
 
 <hr>
 
-![](media/intensional-mappings-higher-classification.svg)
+<img alt="" src="media/intensional-mappings-higher-classification.svg" width="800">
 
-**Fig. 8.** Intersecting groups of Taxon Concepts with the concepts in the
+**Fig. 11.** Intersecting groups of Taxon Concepts with the concepts in the
 latest taxonomy (red dots) connected to higher-taxon concepts (yellow dots)
 through `parent` relations.
 
@@ -122,12 +122,12 @@ through `parent` relations.
 
 ![alt text](media/ostensive-groups-classification.png)
 
-**Fig. 9.** Groups of intersecting Taxon Concepts based on ostensive mappings,
+**Fig. 12.** Groups of intersecting Taxon Concepts based on ostensive mappings,
 without (**A**) and with (**B**) classification.
 
 <hr>
 
 ![alt text](media/ostensive-groups-classification-corrected.png)
 
-**Fig. 10.** As previous figure, but with intersections caused by
+**Fig. 13.** As previous figure, but with intersections caused by
 misidentifications removed.
