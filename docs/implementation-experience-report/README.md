@@ -34,7 +34,7 @@ all associated names (orange dots). Taxon Concepts are connected to names via
 the `taxonName` and `synonym` properties and Taxon Names are connected to each
 other through the `basionym` and `replacedName` properties. **A.** Dicranoloma
 assimile sec. Klazenga 1999, **B.** Dicranum assimile sec. Norris & Koponen
-1990, **C.** Dicranoloma assimile sec. Tan 1989, **D.** Dicranooloma assimile sec.
+1990, **C.** Dicranoloma assimile sec. Tan 1989, **D.** Dicranoloma assimile sec.
 Eddy 1988, **E.** Dicranoloma assimile sec. Tan & Koponen 1983.
 
 <hr/>
