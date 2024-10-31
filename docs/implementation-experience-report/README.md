@@ -101,7 +101,7 @@ author of the latest revision (intensional mappings).
 
 <img alt="" src="media/intensional-mappings-higher-classification-groups.svg" width="800">
 
-**Fig. 10** As previous figure, but with "group concepts" (AviBase's "deep concepts"), representing all Taxon Concepts that are congruent with it and each other.
+**Fig. 10.** As previous figure, but with "group concepts" (AviBase's "deep concepts"), representing all Taxon Concepts that are congruent with it and each other.
 
 <hr>
 
