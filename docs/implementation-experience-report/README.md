@@ -27,19 +27,19 @@ property.
 
 <br/>
 
-![alt text](media/taxon-concepts.png)
+![alt text](media/figure-1.png)
 
 **Fig. 1.** Taxon concepts (green dots) with their according-to (blue dots) and
 all associated names (orange dots). Taxon Concepts are connected to names via
 the `taxonName` and `synonym` properties and Taxon Names are connected to each
 other through the `basionym` and `replacedName` properties. **A.** Dicranoloma
-assimile sec. Klazenga 1999, **B.** Dicranum assimile sec. Norris & Koponen
-1990, **C.** Dicranoloma assimile sec. Tan 1989, **D.** Dicranoloma assimile sec.
-Eddy 1988, **E.** Dicranoloma assimile sec. Tan & Koponen 1983.
+assimile sec. Klazenga 1999 ([figure-1a.svg](media/figure-1a.svg)), **B.** Dicranum assimile sec. Norris & Koponen
+1990 ([figure-1b.svg](media/figure-1b.svg)), **C.** Dicranoloma assimile sec. Tan 1989 ([figure-1c.svg](media/figure-1c.svg)), **D.** Dicranoloma assimile sec.
+Eddy 1988 ([figure-1d.svg](media/figure-1d.svg)), **E.** Dicranoloma assimile sec. Tan & Koponen 1983 ([figure-1e.svg](media/figure-1e.svg)).
 
 <hr/>
 
-<img alt="" src="media/taxon-concepts-taxon-names-references.svg" width="800">
+<img alt="" src="media/figure-2.svg" width="800">
 
 **Fig. 2.** Graph with all Taxon Concepts, Taxon Names and references.
 
@@ -51,24 +51,24 @@ Eddy 1988, **E.** Dicranoloma assimile sec. Tan & Koponen 1983.
 
 <hr>
 
-![alt text](media/taxon-name-relations.png)
+![alt text](media/figure-4.png)
 
 **Fig. 4.** Taxon Names and their relationships. **A.** Name without other
-combinations, **B.** basionym with two combinations, **C.** replacement name and
-replaced name, both of which are the basionym of another combination, **D.**
+combinations ([figure-4a.svg](media/figure-4a.svg)), **B.** basionym with two combinations ([figure-4b.svg](media/figure-4b.svg)), **C.** replacement name and
+replaced name, both of which are the basionym of another combination ([figure-4c.svg](media/figure-4c.svg)), **D.**
 replacement name of which the replaced name is the replacement name of another
-name.
+name ([figure-4d.svg](media/figure-4d.svg)).
 
 <hr>
 
-![alt text](media/taxon-name-relations-2.png)
+![alt text](media/figure-5.png)
 
 **Fig. 5.** Same Taxon Name graphs as in the previous figure, but with
-`originalName` property connecting combinations to the same "original name".
+`originalName` property connecting combinations to the same "original name" ([figure-5a.svg](media/figure-4a.svg), [figure-5b.svg](media/figure-5b.svg), [figure-5c.svg](media/figure-5c.svg), [figure-5d.svg](media/figure-5d.svg)).
 
 <hr>
 
-![alt text](media/mapping-by-name-examples.png)
+![alt text](media/figure-6.png)
 
 **Fig. 6.** Examples of Taxon Concept Mappings using type specimens of names
 that the concepts apply to. **==**: `isCongruentWith`; **>**: `includes`; **<**:
@@ -79,34 +79,37 @@ included in the object Taxon Concept but not in the subject Taxon Concept.
 
 <hr>
 
-<img alt="" src="media/ostensive-mappings.svg" width="800">
+<img alt="" src="media/figure-7.svg" width="800">
 
 **Fig. 7** Taxon Concepts with mappings based on the type specimens of names
 that are included in the concepts (ostensive mappings).
 
 <hr>
 
-<img alt="" src="media/intensional-mappings.svg" width="800">
+<img alt="" src="media/figure-8.svg" width="800">
 
 **Fig. 8.** Taxon Concepts with mappings that were added to the data set by the
 author of the latest revision (intensional mappings).
 
 <hr>
 
-<img alt="" src="media/intensional-mappings-higher-classification-3.svg" width="800">
+<img alt="" src="media/figure-9.svg" width="800">
 
 **Fig. 9.** Taxon Concepts with intensional mappings and with higher-taxon concepts (yellow dots) and hierarchical (`parent`) relationships from the latest treatment (Klazenga, 1999).
 
 <hr>
 
-<img alt="" src="media/intensional-mappings-higher-classification-groups.svg" width="800">
+<img alt="" src="media/figure-10.svg" width="800">
 
-**Fig. 10.** As previous figure, but with "group concepts" (AviBase's "deep concepts"), representing all Taxon Concepts that are congruent with it and each other.
+**Fig. 10.** As previous figure, but with "group concepts" (AviBase's "deep
+concepts"), representing all Taxon Concepts that are congruent with it and each
+other.
 
 <hr>
 
-<img alt="" src="media/ostensive-mappings-higher-classification-3.svg" width="800">
+<img alt="" src="media/figure-11.svg" width="800">
 
-**Fig. 11.** Taxon Concepts with ostensive mappings from Fig. 7 with higher-taxon concepts and classification as in Fig. 9.
+**Fig. 11.** Taxon Concepts with ostensive mappings from Fig. 7 with
+higher-taxon concepts and classification as in Fig. 9.
 
 <hr>

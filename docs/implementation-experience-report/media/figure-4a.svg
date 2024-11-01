@@ -1,0 +1,13 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="58" height="58" viewBox="-29
+-27.979387283325195 58 58" style="background-color:white">
+  <title>Neo4j Graph Visualization</title>
+  <desc>Created using Neo4j (http://www.neo4j.com/)</desc>
+  <g class="layer relationships" />
+  <g class="layer nodes">
+    <g class="node" aria-label="graph-node553" transform="translate(0,1.0206127620922383)">
+      <circle class="b-outline" cx="0" cy="0" r="25" fill="#F79767" stroke="#f36924" stroke-width="2px" /><text
+        class="caption" text-anchor="middle" pointer-events="none" x="0" y="5" font-size="10px" fill="#FFFFFF"
+        font-family="Helvetica Neue, Helvetica, Arial, sans-serif"> </text>
+    </g>
+  </g>
+</svg>
