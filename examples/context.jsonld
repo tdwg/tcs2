@@ -22,7 +22,7 @@
     "taxonName":                { "@type": "@id", "@id": "tcs:taxonName" },
     "synonym":                  { "@type": "@id", "@id": "tcs:synonym", "@container": "@set" },
     "vernacularName":           { "@type": "@id", "@id": "tcs:vernacularName", "@container": "@set" },
-    "taxonomicRank":            { "@type": "@vocab", "@id": "tcs:taxonomicRank" },
+    "taxonRank":                { "@type": "@vocab", "@id": "tcs:taxonomicRank" },
     "parent":                   { "@type": "@id", "@id": "tcs:parent" },
     "isCongruentWith":          { "@type": "@id", "@id": "tcs:isCongruentWith", "@container": "@set" },
     "includes":                 { "@type": "@id", "@id": "tcs:includes", "@container": "@set" },
