@@ -9,7 +9,10 @@
     {
       "id": "https://tropicos.org/reference/9002886",
       "type": "bibo:AcademicArticle",
+      "bibo:handle": "Tan & Koponen 1983",
       "dcterms:title": "Dicranoloma (Musci, Dicranaceae) in Southeast Asia, with special reference to the Philippine taxa",
+      "dcterms:bibliographicCitation": "Tan, B.C. & T. Koponen (1983). Dicranoloma (Musci, Dicranaceae) in Southeast Asia, with special reference to the Philippine taxa. Ann. Bot. Fenn. 20: 1797-2442.",
+      "dcterms:date": "1983",
       "dcterms:creator": [
         {
           "id": "https://www.wikidata.org/wiki/Q21339909"
@@ -59,7 +62,8 @@
       "type": "TaxonConcept",
       "dcterms:title": "Dicranoloma arfakianum sec. Tan & Koponen 1983",
       "accordingTo": "https://tropicos.org/reference/9002886",
-      "taxonName": "https://tropicos.org/name/35121455"
+      "taxonName": "https://tropicos.org/name/35121455",
+      "taxonRank": "species"
     },
     {
       "id": "https://tropicos.org/reference/9002886#name-35121457",
@@ -71,7 +75,8 @@
         "https://tropicos.org/name/35158615",
         "https://tropicos.org/name/35121551",
         "https://tropicos.org/name/35122178"
-      ]
+      ],
+      "taxonRank": "species"
     },
     {
       "id": "https://tropicos.org/reference/9002886#name-35121458",
@@ -84,7 +89,8 @@
         "https://tropicos.org/name/35121569",
         "https://tropicos.org/name/35121587",
         "https://tropicos.org/name/35124384"
-      ]
+      ],
+      "taxonRank": "species"
     },
     {
       "id": "https://tropicos.org/reference/9002886#name-35121467",
@@ -103,7 +109,8 @@
         "https://tropicos.org/name/35122121",
         "https://tropicos.org/name/35124390",
         "https://tropicos.org/name/35131611"
-      ]
+      ],
+      "taxonRank": "species"
     },
     {
       "id": "https://tropicos.org/reference/9002886#name-35121475",
@@ -113,21 +120,24 @@
       "taxonName": "https://tropicos.org/name/35121475",
       "synonym": [
         "https://tropicos.org/name/35121973"
-      ]
+      ],
+      "taxonRank": "species"
     },
     {
       "id": "https://tropicos.org/reference/9002886#name-35121479",
       "type": "TaxonConcept",
       "dcterms:title": "Dicranoloma brachypelma sec. Tan & Koponen 1983",
       "accordingTo": "https://tropicos.org/reference/9002886",
-      "taxonName": "https://tropicos.org/name/35121479"
+      "taxonName": "https://tropicos.org/name/35121479",
+      "taxonRank": "species"
     },
     {
       "id": "https://tropicos.org/reference/9002886#name-35121483",
       "type": "TaxonConcept",
       "dcterms:title": "Dicranoloma brassii sec. Tan & Koponen 1983",
       "accordingTo": "https://tropicos.org/reference/9002886",
-      "taxonName": "https://tropicos.org/name/35121483"
+      "taxonName": "https://tropicos.org/name/35121483",
+      "taxonRank": "species"
     },
     {
       "id": "https://tropicos.org/reference/9005756#name-35121488",
@@ -139,14 +149,16 @@
         "https://tropicos.org/name/35162124",
         "https://tropicos.org/name/35121595",
         "https://tropicos.org/name/35121635"
-      ]
+      ],
+      "taxonRank": "species"
     },
     {
       "id": "https://tropicos.org/reference/9002886#name-35121491",
       "type": "TaxonConcept",
       "dcterms:title": "Dicranoloma brevisetum sec. Tan & Koponen 1983",
       "accordingTo": "https://tropicos.org/reference/9002886",
-      "taxonName": "https://tropicos.org/name/35121491"
+      "taxonName": "https://tropicos.org/name/35121491",
+      "taxonRank": "species"
     },
     {
       "id": "https://tropicos.org/reference/9002886#name-35191032",
@@ -158,6 +170,7 @@
         "https://tropicos.org/name/35123679",
         "https://tropicos.org/name/35123680"
       ],
+      "taxonRank": "variety",
       "parent": "https://tropicos.org/reference/9006742#name-35121491"
     },
     {
@@ -171,6 +184,7 @@
         "https://tropicos.org/name/35122018",
         "https://tropicos.org/name/35186801"
       ],
+      "taxonRank": "variety",
       "parent": "https://tropicos.org/reference/9006742#name-35121491"
     },
     {
@@ -179,6 +193,7 @@
       "dcterms:title": "Dicranoloma brevisetum f. nematosum sec. Tan & Koponen 1983",
       "accordingTo": "https://tropicos.org/reference/9002886",
       "taxonName": "https://tropicos.org/name/35167975",
+      "taxonRank": "form",
       "parent": "https://tropicos.org/reference/9002886#name-35167976"
     },
     {
@@ -186,35 +201,40 @@
       "type": "TaxonConcept",
       "dcterms:title": "Dicranoloma daymannianum sec. Tan & Koponen 1983",
       "accordingTo": "https://tropicos.org/reference/9002886",
-      "taxonName": "https://tropicos.org/name/35121509"
+      "taxonName": "https://tropicos.org/name/35121509",
+      "taxonRank": "species"
     },
     {
       "id": "https://tropicos.org/reference/9002886#name-35121514",
       "type": "TaxonConcept",
       "dcterms:title": "Dicranoloma dicarpon sec. Tan & Koponen 1983",
       "accordingTo": "https://tropicos.org/reference/9002886",
-      "taxonName": "https://tropicos.org/name/35121514"
+      "taxonName": "https://tropicos.org/name/35121514",
+      "taxonRank": "species"
     },
     {
       "id": "https://tropicos.org/reference/9002886#name-35121518",
       "type": "TaxonConcept",
       "dcterms:title": "Dicranoloma dives sec. Tan & Koponen 1983",
       "accordingTo": "https://tropicos.org/reference/9002886",
-      "taxonName": "https://tropicos.org/name/35121518"
+      "taxonName": "https://tropicos.org/name/35121518",
+      "taxonRank": "species"
     },
     {
       "id": "https://tropicos.org/reference/9002886#name-35121530",
       "type": "TaxonConcept",
       "dcterms:title": "Dicranoloma fragile sec. Tan & Koponen 1983",
       "accordingTo": "https://tropicos.org/reference/9002886",
-      "taxonName": "https://tropicos.org/name/35121530"
+      "taxonName": "https://tropicos.org/name/35121530",
+      "taxonRank": "species"
     },
     {
       "id": "https://tropicos.org/reference/9002886#name-35121578",
       "type": "TaxonConcept",
       "dcterms:title": "Dicranoloma novoguinense sec. Tan & Koponen 1983",
       "accordingTo": "https://tropicos.org/reference/9002886",
-      "taxonName": "https://tropicos.org/name/35121578"
+      "taxonName": "https://tropicos.org/name/35121578",
+      "taxonRank": "species"
     },
     {
       "id": "https://tropicos.org/reference/9002886#name-35121609",
@@ -228,12 +248,16 @@
         "https://tropicos.org/name/35124044",
         "https://tropicos.org/name/35124046"
       ],
-      "taxonName": "https://tropicos.org/name/35121609"
+      "taxonName": "https://tropicos.org/name/35121609",
+      "taxonRank": "species"
     },
     {
       "id": "https://tropicos.org/reference/9005756",
       "type": "bibo:Book",
       "dcterms:title": "Sphagnales to Dicranales",
+      "bibo:handle": "Eddy 1988",
+      "dcterms:date": "1988",
+      "dcterms:bibliographicCitation": "Eddy, A. (1988). A Handbook of Malesian Mosses. Volume 1. Sphagnales to Dicranales. British Museum (Natural History), London.",
       "dcterms:creator": {
         "id": "https://www.wikidata.org/wiki/Q21511351"
       },
@@ -273,39 +297,60 @@
       "synonym": [
         "https://tropicos.org/name/35158614",
         "https://tropicos.org/name/35158615"
-      ]
+      ],
+      "taxonRank": "species"
+    },
+    {
+      "id": "https://tropicos.org/reference/9005756#name-35121458-2",
+      "type": "TaxonConcept",
+      "dcterms:title": "Dicranoloma assimile s.l. sec. Eddy 1988",
+      "accordingTo": "https://tropicos.org/reference/9005756",
+      "taxonName": "https://tropicos.org/name/35121458",
+      "synonym": [
+        "https://tropicos.org/name/35121483",
+        "https://tropicos.org/name/35121523",
+        "https://tropicos.org/name/35121455",
+        "https://tropicos.org/name/35121542",
+        "https://tropicos.org/name/35121556"
+      ],
+      "taxonRank": "species",
+      "rdfs:comment": "Includes Dicranoloma laevifolium, D. arfakianum and D. havilandii"
     },
     {
       "id": "https://tropicos.org/reference/9005756#name-35121455",
       "type": "TaxonConcept",
       "dcterms:title": "Dicranoloma arfakianum sec. Eddy 1988",
       "accordingTo": "https://tropicos.org/reference/9005756",
-      "taxonName": "https://tropicos.org/name/35121455"
+      "taxonName": "https://tropicos.org/name/35121455",
+      "taxonRank": "species"
     },
     {
       "id": "https://tropicos.org/reference/9005756#name-35121458",
       "type": "TaxonConcept",
-      "dcterms:title": "Dicranoloma assimile sec. Eddy 1988",
+      "dcterms:title": "Dicranoloma assimile s.s. sec. Eddy 1988",
       "accordingTo": "https://tropicos.org/reference/9005756",
       "taxonName": "https://tropicos.org/name/35121458",
       "synonym": [
         "https://tropicos.org/name/35121483",
         "https://tropicos.org/name/35121523"
-      ]
+      ],
+      "taxonRank": "species"
     },
     {
       "id": "https://tropicos.org/reference/9005756#name-35121467",
       "type": "TaxonConcept",
       "dcterms:title": "Dicranoloma billarderii sec. Eddy 1988",
       "accordingTo": "https://tropicos.org/reference/9005756",
-      "taxonName": "https://tropicos.org/name/35121467"
+      "taxonName": "https://tropicos.org/name/35121467",
+      "taxonRank": "species"
     },
     {
       "id": "https://tropicos.org/reference/9005756#name-35121475",
       "type": "TaxonConcept",
       "dcterms:title": "Dicranoloma blumei sec. Eddy 1988",
       "accordingTo": "https://tropicos.org/reference/9005756",
-      "taxonName": "https://tropicos.org/name/35121475"
+      "taxonName": "https://tropicos.org/name/35121475",
+      "taxonRank": "species"
     },
     {
       "id": "https://tropicos.org/reference/9005756#name-35121486",
@@ -317,14 +362,16 @@
         "https://tropicos.org/name/35121452",
         "https://tropicos.org/name/35121479",
         "https://tropicos.org/name/35122011"
-      ]
+      ],
+      "taxonRank": "species"
     },
     {
       "id": "https://tropicos.org/reference/9005756#name-35121491",
       "type": "TaxonConcept",
       "dcterms:title": "Dicranoloma brevisetum sec. Eddy 1988",
       "accordingTo": "https://tropicos.org/reference/9005756",
-      "taxonName": "https://tropicos.org/name/35121491"
+      "taxonName": "https://tropicos.org/name/35121491",
+      "taxonRank": "species"
     },
     {
       "id": "https://tropicos.org/reference/9005756#name-35121530",
@@ -334,61 +381,96 @@
       "taxonName": "https://tropicos.org/name/35121530",
       "synonym": [
         "https://tropicos.org/name/35121509"
-      ]
+      ],
+      "taxonRank": "species"
     },
     {
       "id": "https://tropicos.org/reference/9005756#name-35184079",
       "type": "TaxonConcept",
       "dcterms:title": "Dicranoloma geluense sec. Eddy 1988",
       "accordingTo": "https://tropicos.org/reference/9005756",
-      "taxonName": "https://tropicos.org/name/35184079"
+      "taxonName": "https://tropicos.org/name/35184079",
+      "taxonRank": "species"
     },
     {
       "id": "https://tropicos.org/reference/9005756#name-35121542",
       "type": "TaxonConcept",
       "dcterms:title": "Dicranoloma havilandii sec. Eddy 1988",
       "accordingTo": "https://tropicos.org/reference/9005756",
-      "taxonName": "https://tropicos.org/name/35121542"
+      "taxonName": "https://tropicos.org/name/35121542",
+      "taxonRank": "species"
     },
     {
       "id": "https://tropicos.org/reference/9005756#name-35121556",
       "type": "TaxonConcept",
       "dcterms:title": "Dicranoloma laevifolium sec. Eddy 1988",
       "accordingTo": "https://tropicos.org/reference/9005756",
-      "taxonName": "https://tropicos.org/name/35121556"
+      "taxonName": "https://tropicos.org/name/35121556",
+      "taxonRank": "species"
     },
     {
       "id": "https://tropicos.org/reference/9005756#name-35121559",
       "type": "TaxonConcept",
       "dcterms:title": "Dicranoloma leucophyllum sec. Eddy 1988",
       "accordingTo": "https://tropicos.org/reference/9005756",
-      "taxonName": "https://tropicos.org/name/35121559"
+      "taxonName": "https://tropicos.org/name/35121559",
+      "taxonRank": "species"
     },
     {
       "id": "https://tropicos.org/reference/9005756#name-35121578",
       "type": "TaxonConcept",
       "dcterms:title": "Dicranoloma novoguinense sec. Eddy 1988",
       "accordingTo": "https://tropicos.org/reference/9005756",
-      "taxonName": "https://tropicos.org/name/35121578"
+      "taxonName": "https://tropicos.org/name/35121578",
+      "taxonRank": "species"
+    },
+    {
+      "id": "https://tropicos.org/reference/9005756#name-35121587",
+      "type": "TaxonConcept",
+      "dcterms:title": "Dicranoloma perarmatum sec. Eddy 1988",
+      "accordingTo": "https://tropicos.org/reference/9005756",
+      "taxonName": "https://tropicos.org/name/35121587",
+      "synonym": [
+        "https://tropicos.org/name/35121569"
+      ],
+      "taxonRank": "species"
+    },
+    {
+      "id": "https://tropicos.org/reference/9005756#name-35121609-2",
+      "type": "TaxonConcept",
+      "dcterms:title": "Dicranoloma reflexum s.l. sec. Eddy 1988",
+      "accordingTo": "https://tropicos.org/reference/9005756",
+      "taxonName": "https://tropicos.org/name/35121609",
+      "synonym": [
+        "https://tropicos.org/name/35122238",
+        "https://tropicos.org/name/35123686",
+        "https://tropicos.org/name/35124046",
+        "https://tropicos.org/name/35121587",
+        "https://tropicos.org/name/35121569"
+      ],
+      "taxonRank": "species",
+      "rdfs:comment": "Includes Dicranoloma perarmatum"
     },
     {
       "id": "https://tropicos.org/reference/9005756#name-35121609",
       "type": "TaxonConcept",
-      "dcterms:title": "Dicranoloma reflexum sec. Eddy 1988",
+      "dcterms:title": "Dicranoloma reflexum s.s. sec. Eddy 1988",
       "accordingTo": "https://tropicos.org/reference/9005756",
       "taxonName": "https://tropicos.org/name/35121609",
       "synonym": [
         "https://tropicos.org/name/35122238",
         "https://tropicos.org/name/35123686",
         "https://tropicos.org/name/35124046"
-      ]
+      ],
+      "taxonRank": "species"
     },
     {
       "id": "https://tropicos.org/reference/9005756#name-35121617",
       "type": "TaxonConcept",
       "dcterms:title": "Dicranoloma rugifolium sec. Eddy 1988",
       "accordingTo": "https://tropicos.org/reference/9005756",
-      "taxonName": "https://tropicos.org/name/35121617"
+      "taxonName": "https://tropicos.org/name/35121617",
+      "taxonRank": "species"
     },
     {
       "id": "https://tropicos.org/reference/9006742#name-35121457",
@@ -399,12 +481,16 @@
       "synonym": [
         "https://tropicos.org/name/35121494",
         "https://tropicos.org/name/35121551"
-      ]
+      ],
+      "taxonRank": "species"
     },
     {
       "id": "https://tropicos.org/reference/9006742",
-      "type": "tcs:bibo:AcademicArticle",
+      "type": "bibo:AcademicArticle",
       "dcterms:title": "The bryophytes of Sabah (North Borneo) with special reference to the BRYOTROP transect of Mount Kinabalu. II. Dicranoloma and Brotherobryum (Dicranaceae, Bryopsida)",
+      "bibo:handle": "Tan 1989",
+      "dcterms:date": "1989",
+      "dcterms:bibliographicCitation": "Tan, B.C. (1989). The bryophytes of Sabah (North Borneo) with special reference to the BRYOTROP transect of Mount Kinabalu. II. Dicranoloma and Brotherobryum (Dicranaceae, Bryopsida)/ Willdenowia 18: 497-512.",
       "dcterms:creator": [
         { "id": "https://www.wikidata.org/wiki/Q21339909" }
       ],
@@ -436,7 +522,8 @@
         "https://tropicos.org/name/35121523",
         "https://tropicos.org/name/35121569",
         "https://tropicos.org/name/35121587"
-      ]
+      ],
+      "taxonRank": "species"
     },
     {
       "id": "https://tropicos.org/reference/9006742#name-35121467",
@@ -449,7 +536,8 @@
         "https://tropicos.org/name/35121595",
         "https://tropicos.org/name/35121635",
         "https://tropicos.org/name/35121637"
-      ]
+      ],
+      "taxonRank": "species"
     },
     {
       "id": "https://tropicos.org/reference/9006742#name-35121475",
@@ -459,14 +547,16 @@
       "taxonName": "https://tropicos.org/name/35121475",
       "synonym": [
         "https://tropicos.org/name/35162124"
-      ]
+      ],
+      "taxonRank": "species"
     },
     {
       "id": "https://tropicos.org/reference/9006742#name-35121484",
       "type": "TaxonConcept",
       "dcterms:title": "Dicranoloma braunfelsioides sec. Tan 1989",
       "accordingTo": "https://tropicos.org/reference/9006742",
-      "taxonName": "https://tropicos.org/name/35121484"
+      "taxonName": "https://tropicos.org/name/35121484",
+      "taxonRank": "species"
     },
     {
       "id": "https://tropicos.org/reference/9006742#name-35121491",
@@ -480,14 +570,16 @@
         "https://tropicos.org/name/35121543",
         "https://tropicos.org/name/35122018",
         "https://tropicos.org/name/35123679"
-      ]
+      ],
+      "taxonRank": "species"
     },
     {
       "id": "https://tropicos.org/reference/9006742#name-35121542",
       "type": "TaxonConcept",
       "dcterms:title": "Dicranoloma havilandii sec. Tan 1989",
       "accordingTo": "https://tropicos.org/reference/9006742",
-      "taxonName": "https://tropicos.org/name/35121542"
+      "taxonName": "https://tropicos.org/name/35121542",
+      "taxonRank": "species"
     },
     {
       "id": "https://tropicos.org/reference/9006742#name-35121596",
@@ -497,14 +589,16 @@
       "taxonName": "https://tropicos.org/name/35121596",
       "synonym": [
         "https://tropicos.org/name/35121524"
-      ]
+      ],
+      "taxonRank": "species"
     },
     {
       "id": "https://tropicos.org/reference/9006742#name-35121578",
       "type": "TaxonConcept",
       "dcterms:title": "Dicranoloma novoguinense sec. Tan 1989",
       "accordingTo": "https://tropicos.org/reference/9006742",
-      "taxonName": "https://tropicos.org/name/35121578"
+      "taxonName": "https://tropicos.org/name/35121578",
+      "taxonRank": "species"
     },
     {
       "id": "https://tropicos.org/reference/9006742#name-35121609",
@@ -515,12 +609,16 @@
       "synonym": [
         "https://tropicos.org/name/35122238",
         "https://tropicos.org/name/35124046"
-      ]
+      ],
+      "taxonRank": "species"
     },
     {
       "id": "https://tropicos.org/reference/9007945",
       "type": "bibo:AcademicArticle",
       "dcterms:title": "Bryophyte flora of the Huon Peninsula, Papua New Guinea. XXXV. Dicranaceae and Dicnemonaceae (Musci)",
+      "bibo:handle": "Norris & Koponen 1990",
+      "dcterms:date": "1990",
+      "dcterms:bibliographicCitation": "Norris, D.H. & T. Koponen (1990). Bryophyte flora of the Huon Peninsula, Papua New Guinea. XXXV. Dicranaceae and Dicnemonaceae (Musci). Acta Bot. Fenn. 139: 1-64.",
       "dcterms:creator": [
         { "id": "https://www.wikidata.org/wiki/Q21522236" },
         { "id": "https://www.wikidata.org/wiki/Q5411655" }
@@ -558,7 +656,8 @@
       "taxonName": "https://tropicos.org/name/35121903",
       "synonym": [
         "https://tropicos.org/name/35122257"
-      ]
+      ],
+      "taxonRank": "species"
     },
     {
       "id": "https://tropicos.org/reference/9007945#name-35121907",
@@ -570,7 +669,8 @@
         "https://tropicos.org/name/35158614",
         "https://tropicos.org/name/35158615",
         "https://tropicos.org/name/35122178"
-      ]
+      ],
+      "taxonRank": "species"
     },
     {
       "id": "https://tropicos.org/reference/9007945#name-35121913",
@@ -581,14 +681,16 @@
       "synonym": [
         "https://tropicos.org/name/35121587",
         "https://tropicos.org/name/35154921"
-      ]
+      ],
+      "taxonRank": "species"
     },
     {
       "id": "https://tropicos.org/reference/9007945#name-35204723",
       "type": "TaxonConcept",
       "dcterms:title": "Dicranum bartramianum sec. Norris & Koponen 1990",
       "accordingTo": "https://tropicos.org/reference/9007945",
-      "taxonName": "https://tropicos.org/name/35183593"
+      "taxonName": "https://tropicos.org/name/35183593",
+      "taxonRank": "species"
     },
     {
       "id": "https://tropicos.org/reference/9007945#name-35121960",
@@ -598,7 +700,8 @@
       "taxonName": "https://tropicos.org/name/35121960",
       "synonym": [
         "https://tropicos.org/name/35123636"
-      ]
+      ],
+      "taxonRank": "species"
     },
     {
       "id": "https://tropicos.org/reference/9007945#name-35121972",
@@ -610,7 +713,8 @@
         "https://tropicos.org/name/35188177",
         "https://tropicos.org/name/35121477",
         "https://tropicos.org/name/35121973"
-      ]
+      ],
+      "taxonRank": "species"
     },
     {
       "id": "https://tropicos.org/reference/9007945#name-35122018",
@@ -622,21 +726,24 @@
         "https://tropicos.org/name/35122026",
         "https://tropicos.org/name/35123815",
         "https://tropicos.org/name/35150829"
-      ]
+      ],
+      "taxonRank": "species"
     },
     {
       "id": "https://tropicos.org/reference/9007945#name-35184272",
       "type": "TaxonConcept",
       "dcterms:title": "Dicranum cutlackii sec. Norris & Koponen 1990",
       "accordingTo": "https://tropicos.org/reference/9007945",
-      "taxonName": "https://tropicos.org/name/35184272"
+      "taxonName": "https://tropicos.org/name/35184272",
+      "taxonRank": "species"
     },
     {
       "id": "https://tropicos.org/reference/9007945#name-35184274",
       "type": "TaxonConcept",
       "dcterms:title": "Dicranum daymannianum sec. Norris & Koponen 1990",
       "accordingTo": "https://tropicos.org/reference/9007945",
-      "taxonName": "https://tropicos.org/name/35184274"
+      "taxonName": "https://tropicos.org/name/35184274",
+      "taxonRank": "species"
     },
     {
       "id": "https://tropicos.org/reference/9007945#name-35122214",
@@ -646,21 +753,24 @@
       "taxonName": "https://tropicos.org/name/35122214",
       "synonym": [
         "https://tropicos.org/name/35121483"
-      ]
+      ],
+      "taxonRank": "species"
     },
     {
       "id": "https://tropicos.org/reference/9007945#name-35184275",
       "type": "TaxonConcept",
       "dcterms:title": "Dicranum geluense sec. Norris & Koponen 1990",
       "accordingTo": "https://tropicos.org/reference/9007945",
-      "taxonName": "https://tropicos.org/name/35184275"
+      "taxonName": "https://tropicos.org/name/35184275",
+      "taxonRank": "species"
     },
     {
       "id": "https://tropicos.org/reference/9007945#-name-35123838",
       "type": "TaxonConcept",
       "dcterms:title": "Dicranum novoguineense sec. Norris & Koponen 1990",
       "accordingTo": "https://tropicos.org/reference/9007945",
-      "taxonName": "https://tropicos.org/name/35123838"
+      "taxonName": "https://tropicos.org/name/35123838",
+      "taxonRank": "species"
     },
     {
       "id": "https://tropicos.org/reference/9007945#name-35184276",
@@ -671,12 +781,16 @@
       "synonym": [
         "https://tropicos.org/name/35121480",
         "https://tropicos.org/name/35168349"
-      ]
+      ],
+      "taxonRank": "species"
     },
     {
       "id": "https://tropicos.org/reference/9020903",
       "type": "bibo:AcademicArticle",
       "dcterms:title": "A revision of the Malesian species of Dicranoloma (Dicranaceae, Musci)",
+      "bibo:handle": "Klazenga 1999",
+      "dcterms:date": "1999",
+      "dcterms:bibliographicCitation": "Klazenga, N. (1999). A revision of the Malesian species of Dicranoloma (Dicranaceae, Musci). J. Hattori Bot. Lab. 87: 1-130.",
       "dcterms:creator": [
         {
           "id": "https://orcid.org/0000-0003-2224-6821"
@@ -717,6 +831,7 @@
       "synonym": [
         "https://tropicos.org/name/35122257"
       ],
+      "taxonRank": "species",
       "parent": "https://tropicos.org/reference/9020903#name-35000378"
     },
     {
@@ -731,6 +846,7 @@
         "https://tropicos.org/name/35121494",
         "https://tropicos.org/name/35121551"
       ],
+      "taxonRank": "species",
       "parent": "https://tropicos.org/reference/9020903#name-35000314"
     },
     {
@@ -751,6 +867,7 @@
         "https://tropicos.org/name/35124384",
         "https://tropicos.org/name/35154921"
       ],
+      "taxonRank": "species",
       "parent": "https://tropicos.org/reference/9020903#name-35000378"
     },
     {
@@ -759,6 +876,7 @@
       "dcterms:title": "Dicranoloma bartramianum sec. Klazenga 1999",
       "accordingTo": "https://tropicos.org/reference/9020903",
       "taxonName": "https://tropicos.org/name/35204723",
+      "taxonRank": "species",
       "parent": "https://tropicos.org/reference/9020903#name-35000378"
     },
     {
@@ -773,6 +891,7 @@
         "https://tropicos.org/name/35121484",
         "https://tropicos.org/name/35121973"
       ],
+      "taxonRank": "species",
       "parent": "https://tropicos.org/reference/9020903#name-35000378"
     },
     {
@@ -788,6 +907,7 @@
         "https://tropicos.org/name/35121635",
         "https://tropicos.org/name/35123838"
       ],
+      "taxonRank": "species",
       "parent": "https://tropicos.org/reference/9020903#name-35000378"
     },
     {
@@ -810,6 +930,7 @@
         "https://tropicos.org/name/35123636",
         "https://tropicos.org/name/35123815"
       ],
+      "taxonRank": "species",
       "parent": "https://tropicos.org/reference/9020903#name-35000378"
     },
     {
@@ -826,6 +947,7 @@
         "https://tropicos.org/name/35123679",
         "https://tropicos.org/name/35123680"
       ],
+      "taxonRank": "species",
       "parent": "https://tropicos.org/reference/9020903#name-35000378"
     },
     {
@@ -834,6 +956,7 @@
       "dcterms:title": "Dicranoloma cutlackii sec. Klazenga 1999",
       "accordingTo": "https://tropicos.org/reference/9020903",
       "taxonName": "https://tropicos.org/name/35204724",
+      "taxonRank": "species",
       "parent": "https://tropicos.org/reference/9020903#name-35000378"
     },
     {
@@ -846,6 +969,7 @@
         "https://tropicos.org/name/35121483",
         "https://tropicos.org/name/35182608"
       ],
+      "taxonRank": "species",
       "parent": "https://tropicos.org/reference/9020903#name-35000378"
     },
     {
@@ -861,6 +985,7 @@
         "https://tropicos.org/name/35123686",
         "https://tropicos.org/name/35124046"
       ],
+      "taxonRank": "species",
       "parent": "https://tropicos.org/reference/9020903#name-35000378"
     },
     {
@@ -869,6 +994,7 @@
       "taxonName": "https://tropicos.org/name/35121509",
       "dcterms:title": "Dicranoloma daymannianum sec. Klazenga 1999",
       "accordingTo": "https://tropicos.org/reference/9020903",
+      "taxonRank": "species",
       "parent": "https://tropicos.org/reference/9020903#name-35000378"
     },
     {
@@ -877,6 +1003,7 @@
       "dcterms:title": "Dicranoloma geluense sec. Klazenga 1999",
       "accordingTo": "https://tropicos.org/reference/9020903",
       "taxonName": "https://tropicos.org/name/35184079",
+      "taxonRank": "species",
       "parent": "https://tropicos.org/reference/9020903#name-35000378"
     },
     {
@@ -885,6 +1012,7 @@
       "dcterms:title": "Dicranoloma havilandii sec. Klazenga 1999",
       "accordingTo": "https://tropicos.org/reference/9020903",
       "taxonName": "https://tropicos.org/name/35121542",
+      "taxonRank": "species",
       "parent": "https://tropicos.org/reference/9020903#name-35000378"
     },
     {
@@ -893,6 +1021,7 @@
       "dcterms:title": "Dicranoloma rugifolium sec. Klazenga 1999",
       "accordingTo": "https://tropicos.org/reference/9020903",
       "taxonName": "https://tropicos.org/name/35121617",
+      "taxonRank": "species",
       "parent": "https://tropicos.org/reference/9020903#name-35000378"
     },
     {
@@ -901,6 +1030,7 @@
       "dcterms:title": "Dicranoloma steenisii sec. Klazenga 1999",
       "accordingTo": "https://tropicos.org/reference/9020903",
       "taxonName": "https://tropicos.org/name/35200565",
+      "taxonRank": "species",
       "parent": "https://tropicos.org/reference/9020903#name-35000378"
     },
     {
@@ -913,6 +1043,7 @@
         "https://tropicos.org/name/35121530",
         "https://tropicos.org/name/35122365"
       ],
+      "taxonRank": "species",
       "parent": "https://tropicos.org/reference/9020903#name-35000381"
     },
 
@@ -1077,16 +1208,18 @@
       "namePublishedIn": "https://tropicos.org/reference/9029579",
       "dwc:namePublishedIn": "Nat. Pflanzenfam. 1,3: 322 (1901)",
       "dwc:namePublishedInYear": "1901",
+      "nomenclaturalStatus": "legitimate",
       "basionym": "https://tropicos.org/name/35121913"
     },
     {
       "id": "https://tropicos.org/name/35123973",
       "type": "TaxonName",
-      "taxonNameString": "Dicranum polysetum var. assimile",
       "dwc:scientificName": "Dicranum polysetum var. assimile (Hampe) Dozy & Molk.",
+      "taxonNameString": "Dicranum polysetum var. assimile",
       "dwc:scientificNameAuthorship": "Dozy & Molk.",
       "dwc:namePublishedIn": "Musci Frondosi Inediti Archipelagi Indici 5: 143. 1847. (Musc. Frond. Ined. Archip. Ind.)",
-      "nomenclaturalStatus": "legitimate"
+      "nomenclaturalStatus": "legitimate",
+      "basionym": "https://tropicos.org/name/35121913"
     },
     {
       "id": "https://tropicos.org/name/35124384",
@@ -3108,7 +3241,8 @@
       "id": "https://tropicos.org/name/35191032",
       "type": "TaxonName",
       "taxonNameString": "Dicranoloma brevisetum var. brevisetum",
-      "dwc:scientificName": "Dicranoloma brevisetum var. brevisetum"
+      "dwc:scientificName": "Dicranoloma brevisetum var. brevisetum",
+      "autonymOf": "https://tropicos.org/name/35121491"
     },
     {
       "id": "https://tropicos.org/name/35122028",
@@ -5415,14 +5549,6 @@
       "nomenclaturalStatus": "legitimate"
     },
     {
-      "id": "https://www.tropicos.org/name/35000378",
-      "type": "TaxonName",
-      "taxonNameString": "Dicranoloma",
-      "dwc:scientificNameAuthorship": "(Renauld) Renauld",
-      "dwc:namePublishedIn": "Revue Bryologique 28(4): 69–70. 1901. (Rev. Bryol.)",
-      "nomenclaturalStatus": "legitimate"
-    },
-    {
       "id": "https://tropicos.org/name/35000378",
       "type": "TaxonName",
       "taxonNameString": "Dicranoloma",
@@ -5435,8 +5561,9 @@
       "type": "TaxonConcept",
       "dcterms:title": "Dicranoloma sec. Klazenga 1999",
       "accordingTo": "https://tropicos.org/reference/9020903",
-      "taxonName": "https://www.tropicos.org/name/35000378",
-      "parent": "https://tropicos.org/reference/9020903#name-35001506"
+      "taxonName": "https://tropicos.org/name/35000378",
+      "parent": "https://tropicos.org/reference/9020903#name-35001506",
+      "taxonRank": "genus"
     },
     {
       "id": "https://tropicos.org/name/35000314",
@@ -5451,8 +5578,9 @@
       "type": "TaxonConcept",
       "dcterms:title": "Cryptodicranum sec. Klazenga 1999",
       "accordingTo": "https://tropicos.org/reference/9020903",
-      "taxonName": "https://www.tropicos.org/name/35000314",
-      "parent": "https://tropicos.org/reference/9020903#name-35001506"
+      "taxonName": "https://tropicos.org/name/35000314",
+      "parent": "https://tropicos.org/reference/9020903#name-35001506",
+      "taxonRank": "genus"
     },
     {
       "id": "https://tropicos.org/name/35000381",
@@ -5467,8 +5595,9 @@
       "type": "TaxonConcept",
       "dcterms:title": "Dicranum sec. Klazenga 1999",
       "accordingTo": "https://tropicos.org/reference/9020903",
-      "taxonName": "https://www.tropicos.org/name/35000381",
-      "parent": "https://tropicos.org/reference/9020903#name-35001506"
+      "taxonName": "https://tropicos.org/name/35000381",
+      "parent": "https://tropicos.org/reference/9020903#name-35001506",
+      "taxonRank": "genus"
     },
     {
       "id": "https://tropicos.org/name/35001506",
@@ -5483,7 +5612,2718 @@
       "type": "TaxonConcept",
       "dcterms:title": "Dicranaceae sec. Klazenga 1999",
       "accordingTo": "https://tropicos.org/reference/9020903",
-      "taxonName": "https://www.tropicos.org/name/35001506"
+      "taxonName": "https://tropicos.org/name/35001506",
+      "taxonRank": "family"
+    },
+    {
+      "id": "_:ann0",
+      "type": "oa:Annotation",
+      "oa:motivatedBy": "oa:commenting",
+      "oa:target": "https://tropicos.org/reference/9020903#name-35121455",
+      "oa:hasBody": {
+        "type": "TaxonConceptMapping",
+        "mappingAccordingTo": "_:ann0",
+        "mappingRelation": "tcs:isCongruentWith",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35121455",
+        "objectTaxonConcept": "https://tropicos.org/reference/9007945#name-35121903"
+      },
+      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821",
+      "dcterms:created": "2024-11-08T08:38:00+11"
+    },
+    {
+      "id": "_:ann1",
+      "type": "oa:Annotation",
+      "oa:motivatedBy": "oa:commenting",
+      "oa:target": "https://tropicos.org/reference/9020903#name-35121514",
+      "oa:hasBody": {
+        "type": "TaxonConceptMapping",
+        "mappingAccordingTo": "_:ann1",
+        "mappingRelation": "tcs:isCongruentWith",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35121514",
+        "objectTaxonConcept": "https://tropicos.org/reference/9007945#name-35122214"
+      },
+      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821",
+      "dcterms:created": "2024-11-08T08:38:00+11"
+    },
+    {
+      "id": "_:ann2",
+      "type": "oa:Annotation",
+      "oa:motivatedBy": "oa:commenting",
+      "oa:target": "https://tropicos.org/reference/9020903#name-35121458",
+      "oa:hasBody": {
+        "type": "TaxonConceptMapping",
+        "mappingAccordingTo": "_:ann2",
+        "mappingRelation": "tcs:partiallyOverlaps",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35121458",
+        "objectTaxonConcept": "https://tropicos.org/reference/9007945#name-35184276",
+        "rdfs:comment": "incl.Dicranoloma brachyphyllum, Dicranoloma havilandii var. latifolium"
+      },
+      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821",
+      "dcterms:created": "2024-11-08T08:38:00+11"
+    },
+    {
+      "id": "_:ann3",
+      "type": "oa:Annotation",
+      "oa:motivatedBy": "oa:commenting",
+      "oa:target": "https://tropicos.org/reference/9020903#name-35158613",
+      "oa:hasBody": {
+        "type": "TaxonConceptMapping",
+        "mappingAccordingTo": "_:ann3",
+        "mappingRelation": "tcs:isCongruentWith",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35158613",
+        "objectTaxonConcept": "https://tropicos.org/reference/9007945#name-35121907"
+      },
+      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821",
+      "dcterms:created": "2024-11-08T08:38:00+11"
+    },
+    {
+      "id": "_:ann4",
+      "type": "oa:Annotation",
+      "oa:motivatedBy": "oa:commenting",
+      "oa:target": "https://tropicos.org/reference/9020903#name-35121458",
+      "oa:hasBody": {
+        "type": "TaxonConceptMapping",
+        "mappingAccordingTo": "_:ann4",
+        "mappingRelation": "tcs:includes",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35121458",
+        "objectTaxonConcept": "https://tropicos.org/reference/9007945#name-35121913",
+        "rdfs:comment": "excl. Dicranoloma brachyphyllum, Dicranoloma havilandii var. latifolium"
+      },
+      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821",
+      "dcterms:created": "2024-11-08T08:38:00+11"
+    },
+    {
+      "id": "_:ann5",
+      "type": "oa:Annotation",
+      "oa:motivatedBy": "oa:commenting",
+      "oa:target": "https://tropicos.org/reference/9020903#name-35204723",
+      "oa:hasBody": {
+        "type": "TaxonConceptMapping",
+        "mappingAccordingTo": "_:ann5",
+        "mappingRelation": "tcs:isCongruentWith",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35204723",
+        "objectTaxonConcept": "https://tropicos.org/reference/9007945#name-35204723"
+      },
+      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821",
+      "dcterms:created": "2024-11-08T08:38:00+11"
+    },
+    {
+      "id": "_:ann6",
+      "type": "oa:Annotation",
+      "oa:motivatedBy": "oa:commenting",
+      "oa:target": "https://tropicos.org/reference/9020903#name-35121475",
+      "oa:hasBody": {
+        "type": "TaxonConceptMapping",
+        "mappingAccordingTo": "_:ann6",
+        "mappingRelation": "tcs:isCongruentWith",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35121475",
+        "objectTaxonConcept": "https://tropicos.org/reference/9007945#name-35121972"
+      },
+      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821",
+      "dcterms:created": "2024-11-08T08:38:00+11"
+    },
+    {
+      "id": "_:ann7",
+      "type": "oa:Annotation",
+      "oa:motivatedBy": "oa:commenting",
+      "oa:target": "https://tropicos.org/reference/9020903#name-35121467",
+      "oa:hasBody": {
+        "type": "TaxonConceptMapping",
+        "mappingAccordingTo": "_:ann7",
+        "mappingRelation": "tcs:includes",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35121467",
+        "objectTaxonConcept": "https://tropicos.org/reference/9007945#name-35121960",
+        "rdfs:comment": "excl. Dicranoloma novoguinense; misidentified type of Dicranum laevifolium"
+      },
+      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821",
+      "dcterms:created": "2024-11-08T08:38:00+11"
+    },
+    {
+      "id": "_:ann8",
+      "type": "oa:Annotation",
+      "oa:motivatedBy": "oa:commenting",
+      "oa:target": "https://tropicos.org/reference/9020903#name-35121467",
+      "oa:hasBody": {
+        "type": "TaxonConceptMapping",
+        "mappingAccordingTo": "_:ann8",
+        "mappingRelation": "tcs:includes",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35121467",
+        "objectTaxonConcept": "https://tropicos.org/reference/9007945#-name-35123838"
+      },
+      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821",
+      "dcterms:created": "2024-11-08T08:38:00+11"
+    },
+    {
+      "id": "_:ann9",
+      "type": "oa:Annotation",
+      "oa:motivatedBy": "oa:commenting",
+      "oa:target": "https://tropicos.org/reference/9020903#name-35121486",
+      "oa:hasBody": {
+        "type": "TaxonConceptMapping",
+        "mappingAccordingTo": "_:ann9",
+        "mappingRelation": "tcs:isIncludedIn",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35121486",
+        "objectTaxonConcept": "https://tropicos.org/reference/9007945#name-35122018",
+        "rdfs:comment": "incl. Dicranoloma brevisetum; misidentified type of Dicranum laevifolium"
+      },
+      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821",
+      "dcterms:created": "2024-11-08T08:38:00+11"
+    },
+    {
+      "id": "_:ann10",
+      "type": "oa:Annotation",
+      "oa:motivatedBy": "oa:commenting",
+      "oa:target": "https://tropicos.org/reference/9020903#name-35121486",
+      "oa:hasBody": {
+        "type": "TaxonConceptMapping",
+        "mappingAccordingTo": "_:ann10",
+        "mappingRelation": "tcs:isDisjointFrom",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35121486",
+        "objectTaxonConcept": "https://tropicos.org/reference/9007945#name-35121960",
+        "rdfs:comment": "misidentified type of Dicranum laevifolium"
+      },
+      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821",
+      "dcterms:created": "2024-11-08T08:38:00+11"
+    },
+    {
+      "id": "_:ann11",
+      "type": "oa:Annotation",
+      "oa:motivatedBy": "oa:commenting",
+      "oa:target": "https://tropicos.org/reference/9020903#name-35121491",
+      "oa:hasBody": {
+        "type": "TaxonConceptMapping",
+        "mappingAccordingTo": "_:ann11",
+        "mappingRelation": "tcs:isIncludedIn",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35121491",
+        "objectTaxonConcept": "https://tropicos.org/reference/9007945#name-35122018",
+        "rdfs:comment": "incl. Dicranoloma brevisetum"
+      },
+      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821",
+      "dcterms:created": "2024-11-08T08:38:00+11"
+    },
+    {
+      "id": "_:ann12",
+      "type": "oa:Annotation",
+      "oa:motivatedBy": "oa:commenting",
+      "oa:target": "https://tropicos.org/reference/9020903#name-35204724",
+      "oa:hasBody": {
+        "type": "TaxonConceptMapping",
+        "mappingAccordingTo": "_:ann12",
+        "mappingRelation": "tcs:isCongruentWith",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35204724",
+        "objectTaxonConcept": "https://tropicos.org/reference/9007945#name-35184272"
+      },
+      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821",
+      "dcterms:created": "2024-11-08T08:38:00+11"
+    },
+    {
+      "id": "_:ann13",
+      "type": "oa:Annotation",
+      "oa:motivatedBy": "oa:commenting",
+      "oa:target": "https://tropicos.org/reference/9020903#name-35121509",
+      "oa:hasBody": {
+        "type": "TaxonConceptMapping",
+        "mappingAccordingTo": "_:ann13",
+        "mappingRelation": "tcs:isCongruentWith",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35121509",
+        "objectTaxonConcept": "https://tropicos.org/reference/9007945#name-35184274"
+      },
+      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821",
+      "dcterms:created": "2024-11-08T08:38:00+11"
+    },
+    {
+      "id": "_:ann14",
+      "type": "oa:Annotation",
+      "oa:motivatedBy": "oa:commenting",
+      "oa:target": "https://tropicos.org/reference/9020903#name-35121617",
+      "oa:hasBody": {
+        "type": "TaxonConceptMapping",
+        "mappingAccordingTo": "_:ann14",
+        "mappingRelation": "tcs:isIncludedIn",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35121617",
+        "objectTaxonConcept": "https://tropicos.org/reference/9007945#name-35184276",
+        "rdfs:comment": "incl. Dicranoloma brachyphyllum, Dicranoloma havilandii var. latifolium"
+      },
+      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821",
+      "dcterms:created": "2024-11-08T08:38:00+11"
+    },
+    {
+      "id": "_:ann15",
+      "type": "oa:Annotation",
+      "oa:motivatedBy": "oa:commenting",
+      "oa:target": "https://tropicos.org/reference/9020903#name-35184079",
+      "oa:hasBody": {
+        "type": "TaxonConceptMapping",
+        "mappingAccordingTo": "_:ann15",
+        "mappingRelation": "tcs:isCongruentWith",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35184079",
+        "objectTaxonConcept": "https://tropicos.org/reference/9007945#name-35184275"
+      },
+      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821",
+      "dcterms:created": "2024-11-08T08:38:00+11"
+    },
+    {
+      "id": "_:ann16",
+      "type": "oa:Annotation",
+      "oa:motivatedBy": "oa:commenting",
+      "oa:target": "https://tropicos.org/reference/9020903#name-35121609",
+      "oa:hasBody": {
+        "type": "TaxonConceptMapping",
+        "mappingAccordingTo": "_:ann16",
+        "mappingRelation": "tcs:isCongruentWith",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35121609",
+        "objectTaxonConcept": "https://tropicos.org/reference/9006742#name-35121609"
+      },
+      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821",
+      "dcterms:created": "2024-11-08T08:38:00+11"
+    },
+    {
+      "id": "_:ann17",
+      "type": "oa:Annotation",
+      "oa:motivatedBy": "oa:commenting",
+      "oa:target": "https://tropicos.org/reference/9020903#name-35121514",
+      "oa:hasBody": {
+        "type": "TaxonConceptMapping",
+        "mappingAccordingTo": "_:ann17",
+        "mappingRelation": "tcs:partiallyOverlaps",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35121514",
+        "objectTaxonConcept": "https://tropicos.org/reference/9006742#name-35121458",
+        "rdfs:comment": "main part of distribution of Dicranoloma dicarpon is outside Malesia"
+      },
+      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821",
+      "dcterms:created": "2024-11-08T08:38:00+11"
+    },
+    {
+      "id": "_:ann18",
+      "type": "oa:Annotation",
+      "oa:motivatedBy": "oa:commenting",
+      "oa:target": "https://tropicos.org/reference/9020903#name-35121486",
+      "oa:hasBody": {
+        "type": "TaxonConceptMapping",
+        "mappingAccordingTo": "_:ann18",
+        "mappingRelation": "tcs:isIncludedIn",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35121486",
+        "objectTaxonConcept": "https://tropicos.org/reference/9006742#name-35121491"
+      },
+      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821",
+      "dcterms:created": "2024-11-08T08:38:00+11"
+    },
+    {
+      "id": "_:ann19",
+      "type": "oa:Annotation",
+      "oa:motivatedBy": "oa:commenting",
+      "oa:target": "https://tropicos.org/reference/9020903#name-35158613",
+      "oa:hasBody": {
+        "type": "TaxonConceptMapping",
+        "mappingAccordingTo": "_:ann19",
+        "mappingRelation": "tcs:isCongruentWith",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35158613",
+        "objectTaxonConcept": "https://tropicos.org/reference/9006742#name-35121457"
+      },
+      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821",
+      "dcterms:created": "2024-11-08T08:38:00+11"
+    },
+    {
+      "id": "_:ann20",
+      "type": "oa:Annotation",
+      "oa:motivatedBy": "oa:commenting",
+      "oa:target": "https://tropicos.org/reference/9020903#name-35121458",
+      "oa:hasBody": {
+        "type": "TaxonConceptMapping",
+        "mappingAccordingTo": "_:ann20",
+        "mappingRelation": "tcs:includes",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35121458",
+        "objectTaxonConcept": "https://tropicos.org/reference/9006742#name-35121458",
+        "rdfs:comment": "excl. Dicranoloma euryloma var. rugifolium; incl. Dicranoloma brassii; misidentified type specimen of Dicranoloma defoliatum"
+      },
+      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821",
+      "dcterms:created": "2024-11-08T08:38:00+11"
+    },
+    {
+      "id": "_:ann21",
+      "type": "oa:Annotation",
+      "oa:motivatedBy": "oa:commenting",
+      "oa:target": "https://tropicos.org/reference/9020903#name-35121458",
+      "oa:hasBody": {
+        "type": "TaxonConceptMapping",
+        "mappingAccordingTo": "_:ann21",
+        "mappingRelation": "tcs:partiallyOverlaps",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35121458",
+        "objectTaxonConcept": "https://tropicos.org/reference/9006742#name-35121596",
+        "rdfs:comment": "main distribution of Dicranoloma platycaulon is outside Malesia"
+      },
+      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821",
+      "dcterms:created": "2024-11-08T08:38:00+11"
+    },
+    {
+      "id": "_:ann22",
+      "type": "oa:Annotation",
+      "oa:motivatedBy": "oa:commenting",
+      "oa:target": "https://tropicos.org/reference/9020903#name-35121542",
+      "oa:hasBody": {
+        "type": "TaxonConceptMapping",
+        "mappingAccordingTo": "_:ann22",
+        "mappingRelation": "tcs:isCongruentWith",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35121542",
+        "objectTaxonConcept": "https://tropicos.org/reference/9006742#name-35121542"
+      },
+      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821",
+      "dcterms:created": "2024-11-08T08:38:00+11"
+    },
+    {
+      "id": "_:ann23",
+      "type": "oa:Annotation",
+      "oa:motivatedBy": "oa:commenting",
+      "oa:target": "https://tropicos.org/reference/9020903#name-35121475",
+      "oa:hasBody": {
+        "type": "TaxonConceptMapping",
+        "mappingAccordingTo": "_:ann23",
+        "mappingRelation": "tcs:includes",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35121475",
+        "objectTaxonConcept": "https://tropicos.org/reference/9006742#name-35121484"
+      },
+      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821",
+      "dcterms:created": "2024-11-08T08:38:00+11"
+    },
+    {
+      "id": "_:ann24",
+      "type": "oa:Annotation",
+      "oa:motivatedBy": "oa:commenting",
+      "oa:target": "https://tropicos.org/reference/9020903#name-35121467",
+      "oa:hasBody": {
+        "type": "TaxonConceptMapping",
+        "mappingAccordingTo": "_:ann24",
+        "mappingRelation": "tcs:includes",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35121467",
+        "objectTaxonConcept": "https://tropicos.org/reference/9006742#name-35121467",
+        "rdfs:comment": "excl. Dicranoloma novoguinense"
+      },
+      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821",
+      "dcterms:created": "2024-11-08T08:38:00+11"
+    },
+    {
+      "id": "_:ann25",
+      "type": "oa:Annotation",
+      "oa:motivatedBy": "oa:commenting",
+      "oa:target": "https://tropicos.org/reference/9020903#name-35121491",
+      "oa:hasBody": {
+        "type": "TaxonConceptMapping",
+        "mappingAccordingTo": "_:ann25",
+        "mappingRelation": "tcs:isIncludedIn",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35121491",
+        "objectTaxonConcept": "https://tropicos.org/reference/9006742#name-35121491",
+        "rdfs:comment": "incl. Dicranoloma braunii; misidentified type specimen of Dicranoloma defoliatum"
+      },
+      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821",
+      "dcterms:created": "2024-11-08T08:38:00+11"
+    },
+    {
+      "id": "_:ann26",
+      "type": "oa:Annotation",
+      "oa:motivatedBy": "oa:commenting",
+      "oa:target": "https://tropicos.org/reference/9020903#name-35121491",
+      "oa:hasBody": {
+        "type": "TaxonConceptMapping",
+        "mappingAccordingTo": "_:ann26",
+        "mappingRelation": "tcs:isDisjointFrom",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35121491",
+        "objectTaxonConcept": "https://tropicos.org/reference/9006742#name-35121475"
+      },
+      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821",
+      "dcterms:created": "2024-11-08T08:38:00+11"
+    },
+    {
+      "id": "_:ann27",
+      "type": "oa:Annotation",
+      "oa:motivatedBy": "oa:commenting",
+      "oa:target": "https://tropicos.org/reference/9020903#name-35121467",
+      "oa:hasBody": {
+        "type": "TaxonConceptMapping",
+        "mappingAccordingTo": "_:ann27",
+        "mappingRelation": "tcs:includes",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35121467",
+        "objectTaxonConcept": "https://tropicos.org/reference/9006742#name-35121578"
+      },
+      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821",
+      "dcterms:created": "2024-11-08T08:38:00+11"
+    },
+    {
+      "id": "_:ann28",
+      "type": "oa:Annotation",
+      "oa:motivatedBy": "oa:commenting",
+      "oa:target": "https://tropicos.org/reference/9020903#name-35121475",
+      "oa:hasBody": {
+        "type": "TaxonConceptMapping",
+        "mappingAccordingTo": "_:ann28",
+        "mappingRelation": "tcs:includes",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35121475",
+        "objectTaxonConcept": "https://tropicos.org/reference/9006742#name-35121475",
+        "rdfs:comment": "excl. Dicranoloma braunfelsioides; misidentified type specimen of Dicranoloma defoliatum"
+      },
+      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821",
+      "dcterms:created": "2024-11-08T08:38:00+11"
+    },
+    {
+      "id": "_:ann29",
+      "type": "oa:Annotation",
+      "oa:motivatedBy": "oa:commenting",
+      "oa:target": "https://tropicos.org/reference/9020903#name-35121491",
+      "oa:hasBody": {
+        "type": "TaxonConceptMapping",
+        "mappingAccordingTo": "_:ann29",
+        "mappingRelation": "tcs:includes",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35121491",
+        "objectTaxonConcept": "https://tropicos.org/reference/9005756#name-35121491",
+        "rdfs:comment": "excl. Dicranoloma leucophyllum"
+      },
+      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821",
+      "dcterms:created": "2024-11-08T08:38:00+11"
+    },
+    {
+      "id": "_:ann30",
+      "type": "oa:Annotation",
+      "oa:motivatedBy": "oa:commenting",
+      "oa:target": "https://tropicos.org/reference/9020903#name-35121609",
+      "oa:hasBody": {
+        "type": "TaxonConceptMapping",
+        "mappingAccordingTo": "_:ann30",
+        "mappingRelation": "tcs:isIncludedIn",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35121609",
+        "objectTaxonConcept": "https://tropicos.org/reference/9005756#name-35121609-2",
+        "rdfs:comment": "incl. Dicranoloma perarmatum"
+      },
+      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821",
+      "dcterms:created": "2024-11-08T08:38:00+11"
+    },
+    {
+      "id": "_:ann31",
+      "type": "oa:Annotation",
+      "oa:motivatedBy": "oa:commenting",
+      "oa:target": "https://tropicos.org/reference/9020903#name-35121491",
+      "oa:hasBody": {
+        "type": "TaxonConceptMapping",
+        "mappingAccordingTo": "_:ann31",
+        "mappingRelation": "tcs:includes",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35121491",
+        "objectTaxonConcept": "https://tropicos.org/reference/9005756#name-35121559"
+      },
+      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821",
+      "dcterms:created": "2024-11-08T08:38:00+11"
+    },
+    {
+      "id": "_:ann32",
+      "type": "oa:Annotation",
+      "oa:motivatedBy": "oa:commenting",
+      "oa:target": "https://tropicos.org/reference/9020903#name-35121609",
+      "oa:hasBody": {
+        "type": "TaxonConceptMapping",
+        "mappingAccordingTo": "_:ann32",
+        "mappingRelation": "tcs:isCongruentWith",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35121609",
+        "objectTaxonConcept": "https://tropicos.org/reference/9005756#name-35121609"
+      },
+      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821",
+      "dcterms:created": "2024-11-08T08:38:00+11"
+    },
+    {
+      "id": "_:ann33",
+      "type": "oa:Annotation",
+      "oa:motivatedBy": "oa:commenting",
+      "oa:target": "https://tropicos.org/reference/9020903#name-35121509",
+      "oa:hasBody": {
+        "type": "TaxonConceptMapping",
+        "mappingAccordingTo": "_:ann33",
+        "mappingRelation": "tcs:isIncludedIn",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35121509",
+        "objectTaxonConcept": "https://tropicos.org/reference/9005756#name-35121530"
+      },
+      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821",
+      "dcterms:created": "2024-11-08T08:38:00+11"
+    },
+    {
+      "id": "_:ann34",
+      "type": "oa:Annotation",
+      "oa:motivatedBy": "oa:commenting",
+      "oa:target": "https://tropicos.org/reference/9020903#name-35184079",
+      "oa:hasBody": {
+        "type": "TaxonConceptMapping",
+        "mappingAccordingTo": "_:ann34",
+        "mappingRelation": "tcs:isCongruentWith",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35184079",
+        "objectTaxonConcept": "https://tropicos.org/reference/9005756#name-35184079"
+      },
+      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821",
+      "dcterms:created": "2024-11-08T08:38:00+11"
+    },
+    {
+      "id": "_:ann35",
+      "type": "oa:Annotation",
+      "oa:motivatedBy": "oa:commenting",
+      "oa:target": "https://tropicos.org/reference/9020903#name-35121542",
+      "oa:hasBody": {
+        "type": "TaxonConceptMapping",
+        "mappingAccordingTo": "_:ann35",
+        "mappingRelation": "tcs:isCongruentWith",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35121542",
+        "objectTaxonConcept": "https://tropicos.org/reference/9005756#name-35121542"
+      },
+      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821",
+      "dcterms:created": "2024-11-08T08:38:00+11"
+    },
+    {
+      "id": "_:ann36",
+      "type": "oa:Annotation",
+      "oa:motivatedBy": "oa:commenting",
+      "oa:target": "https://tropicos.org/reference/9020903#name-35121617",
+      "oa:hasBody": {
+        "type": "TaxonConceptMapping",
+        "mappingAccordingTo": "_:ann36",
+        "mappingRelation": "tcs:isCongruentWith",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35121617",
+        "objectTaxonConcept": "https://tropicos.org/reference/9005756#name-35121617"
+      },
+      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821",
+      "dcterms:created": "2024-11-08T08:38:00+11"
+    },
+    {
+      "id": "_:ann37",
+      "type": "oa:Annotation",
+      "oa:motivatedBy": "oa:commenting",
+      "oa:target": "https://tropicos.org/reference/9020903#name-35121491",
+      "oa:hasBody": {
+        "type": "TaxonConceptMapping",
+        "mappingAccordingTo": "_:ann37",
+        "mappingRelation": "tcs:isDisjointFrom",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35121491",
+        "objectTaxonConcept": "https://tropicos.org/reference/9005756#name-35121488",
+        "rdfs:comment": "misidentified type of Dicranoloma defoliatum"
+      },
+      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821",
+      "dcterms:created": "2024-11-08T08:38:00+11"
+    },
+    {
+      "id": "_:ann38",
+      "type": "oa:Annotation",
+      "oa:motivatedBy": "oa:commenting",
+      "oa:target": "https://tropicos.org/reference/9020903#name-35121458",
+      "oa:hasBody": {
+        "type": "TaxonConceptMapping",
+        "mappingAccordingTo": "_:ann38",
+        "mappingRelation": "tcs:includes",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35121458",
+        "objectTaxonConcept": "https://tropicos.org/reference/9005756#name-35121587"
+      },
+      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821",
+      "dcterms:created": "2024-11-08T08:38:00+11"
+    },
+    {
+      "id": "_:ann39",
+      "type": "oa:Annotation",
+      "oa:motivatedBy": "oa:commenting",
+      "oa:target": "https://tropicos.org/reference/9020903#name-35121455",
+      "oa:hasBody": {
+        "type": "TaxonConceptMapping",
+        "mappingAccordingTo": "_:ann39",
+        "mappingRelation": "tcs:isCongruentWith",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35121455",
+        "objectTaxonConcept": "https://tropicos.org/reference/9005756#name-35121455"
+      },
+      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821",
+      "dcterms:created": "2024-11-08T08:38:00+11"
+    },
+    {
+      "id": "_:ann40",
+      "type": "oa:Annotation",
+      "oa:motivatedBy": "oa:commenting",
+      "oa:target": "https://tropicos.org/reference/9020903#name-35121467",
+      "oa:hasBody": {
+        "type": "TaxonConceptMapping",
+        "mappingAccordingTo": "_:ann40",
+        "mappingRelation": "tcs:includes",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35121467",
+        "objectTaxonConcept": "https://tropicos.org/reference/9005756#name-35121578"
+      },
+      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821",
+      "dcterms:created": "2024-11-08T08:38:00+11"
+    },
+    {
+      "id": "_:ann41",
+      "type": "oa:Annotation",
+      "oa:motivatedBy": "oa:commenting",
+      "oa:target": "https://tropicos.org/reference/9020903#name-35121467",
+      "oa:hasBody": {
+        "type": "TaxonConceptMapping",
+        "mappingAccordingTo": "_:ann41",
+        "mappingRelation": "tcs:includes",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35121467",
+        "objectTaxonConcept": "https://tropicos.org/reference/9005756#name-35121488",
+        "rdfs:comment": "misidentified type of Dicranoloma defoliatum"
+      },
+      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821",
+      "dcterms:created": "2024-11-08T08:38:00+11"
+    },
+    {
+      "id": "_:ann42",
+      "type": "oa:Annotation",
+      "oa:motivatedBy": "oa:commenting",
+      "oa:target": "https://tropicos.org/reference/9020903#name-35121467",
+      "oa:hasBody": {
+        "type": "TaxonConceptMapping",
+        "mappingAccordingTo": "_:ann42",
+        "mappingRelation": "tcs:includes",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35121467",
+        "objectTaxonConcept": "https://tropicos.org/reference/9005756#name-35121467",
+        "rdfs:comment": "excl. Dicranoloma novoguinense, Dicranoloma brevicapsulare"
+      },
+      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821",
+      "dcterms:created": "2024-11-08T08:38:00+11"
+    },
+    {
+      "id": "_:ann43",
+      "type": "oa:Annotation",
+      "oa:motivatedBy": "oa:commenting",
+      "oa:target": "https://tropicos.org/reference/9020903#name-35121486",
+      "oa:hasBody": {
+        "type": "TaxonConceptMapping",
+        "mappingAccordingTo": "_:ann43",
+        "mappingRelation": "tcs:isCongruentWith",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35121486",
+        "objectTaxonConcept": "https://tropicos.org/reference/9005756#name-35121486",
+        "rdfs:comment": "misidentified type of Dicranum laevifolium"
+      },
+      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821",
+      "dcterms:created": "2024-11-08T08:38:00+11"
+    },
+    {
+      "id": "_:ann44",
+      "type": "oa:Annotation",
+      "oa:motivatedBy": "oa:commenting",
+      "oa:target": "https://tropicos.org/reference/9020903#name-35121458",
+      "oa:hasBody": {
+        "type": "TaxonConceptMapping",
+        "mappingAccordingTo": "_:ann44",
+        "mappingRelation": "tcs:partiallyOverlaps",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35121458",
+        "objectTaxonConcept": "https://tropicos.org/reference/9005756#name-35121609-2",
+        "rdfs:comment": "concepts share Dicranoloma perarmatum"
+      },
+      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821",
+      "dcterms:created": "2024-11-08T08:38:00+11"
+    },
+    {
+      "id": "_:ann45",
+      "type": "oa:Annotation",
+      "oa:motivatedBy": "oa:commenting",
+      "oa:target": "https://tropicos.org/reference/9020903#name-35121458",
+      "oa:hasBody": {
+        "type": "TaxonConceptMapping",
+        "mappingAccordingTo": "_:ann45",
+        "mappingRelation": "tcs:partiallyOverlaps",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35121458",
+        "objectTaxonConcept": "https://tropicos.org/reference/9005756#name-35121458-2",
+        "rdfs:comment": "incl. Dicranoloma arfakianum, D. brassii, D. havilandii and D. laevifolium; excl. Dicranoloma perarmatum"
+      },
+      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821",
+      "dcterms:created": "2024-11-08T08:38:00+11"
+    },
+    {
+      "id": "_:ann46",
+      "type": "oa:Annotation",
+      "oa:motivatedBy": "oa:commenting",
+      "oa:target": "https://tropicos.org/reference/9020903#name-35121458",
+      "oa:hasBody": {
+        "type": "TaxonConceptMapping",
+        "mappingAccordingTo": "_:ann46",
+        "mappingRelation": "tcs:isIncludedIn",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35121458",
+        "objectTaxonConcept": "https://tropicos.org/reference/9005756#name-35121458",
+        "rdfs:comment": "incl. Dicranoloma brassii; excl. Dicranoloma perarmatum"
+      },
+      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821",
+      "dcterms:created": "2024-11-08T08:38:00+11"
+    },
+    {
+      "id": "_:ann47",
+      "type": "oa:Annotation",
+      "oa:motivatedBy": "oa:commenting",
+      "oa:target": "https://tropicos.org/reference/9020903#name-35121514",
+      "oa:hasBody": {
+        "type": "TaxonConceptMapping",
+        "mappingAccordingTo": "_:ann47",
+        "mappingRelation": "tcs:partiallyOverlaps",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35121514",
+        "objectTaxonConcept": "https://tropicos.org/reference/9005756#name-35121458-2",
+        "rdfs:comment": "overlaps in Dicranoloma brassii"
+      },
+      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821",
+      "dcterms:created": "2024-11-08T08:38:00+11"
+    },
+    {
+      "id": "_:ann48",
+      "type": "oa:Annotation",
+      "oa:motivatedBy": "oa:commenting",
+      "oa:target": "https://tropicos.org/reference/9020903#name-35158613",
+      "oa:hasBody": {
+        "type": "TaxonConceptMapping",
+        "mappingAccordingTo": "_:ann48",
+        "mappingRelation": "tcs:isCongruentWith",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35158613",
+        "objectTaxonConcept": "https://tropicos.org/reference/9005756#name-35158613"
+      },
+      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821",
+      "dcterms:created": "2024-11-08T08:38:00+11"
+    },
+    {
+      "id": "_:ann49",
+      "type": "oa:Annotation",
+      "oa:motivatedBy": "oa:commenting",
+      "oa:target": "https://tropicos.org/reference/9020903#name-35121455",
+      "oa:hasBody": {
+        "type": "TaxonConceptMapping",
+        "mappingAccordingTo": "_:ann49",
+        "mappingRelation": "tcs:isIncludedIn",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35121455",
+        "objectTaxonConcept": "https://tropicos.org/reference/9005756#name-35121458-2"
+      },
+      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821",
+      "dcterms:created": "2024-11-08T08:38:00+11"
+    },
+    {
+      "id": "_:ann50",
+      "type": "oa:Annotation",
+      "oa:motivatedBy": "oa:commenting",
+      "oa:target": "https://tropicos.org/reference/9020903#name-35121514",
+      "oa:hasBody": {
+        "type": "TaxonConceptMapping",
+        "mappingAccordingTo": "_:ann50",
+        "mappingRelation": "tcs:partiallyOverlaps",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35121514",
+        "objectTaxonConcept": "https://tropicos.org/reference/9005756#name-35121458",
+        "rdfs:comment": "main distribution of Dicranoloma dicarpon outside Malesia"
+      },
+      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821",
+      "dcterms:created": "2024-11-08T08:38:00+11"
+    },
+    {
+      "id": "_:ann51",
+      "type": "oa:Annotation",
+      "oa:motivatedBy": "oa:commenting",
+      "oa:target": "https://tropicos.org/reference/9020903#name-35121542",
+      "oa:hasBody": {
+        "type": "TaxonConceptMapping",
+        "mappingAccordingTo": "_:ann51",
+        "mappingRelation": "tcs:isIncludedIn",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35121542",
+        "objectTaxonConcept": "https://tropicos.org/reference/9005756#name-35121458-2"
+      },
+      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821",
+      "dcterms:created": "2024-11-08T08:38:00+11"
+    },
+    {
+      "id": "_:ann52",
+      "type": "oa:Annotation",
+      "oa:motivatedBy": "oa:commenting",
+      "oa:target": "https://tropicos.org/reference/9020903#name-35204725",
+      "oa:hasBody": {
+        "type": "TaxonConceptMapping",
+        "mappingAccordingTo": "_:ann52",
+        "mappingRelation": "tcs:isIncludedIn",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35204725",
+        "objectTaxonConcept": "https://tropicos.org/reference/9005756#name-35121530",
+        "rdfs:comment": "incl. Dicranoloma daymannianum"
+      },
+      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821",
+      "dcterms:created": "2024-11-08T08:38:00+11"
+    },
+    {
+      "id": "_:ann53",
+      "type": "oa:Annotation",
+      "oa:motivatedBy": "oa:commenting",
+      "oa:target": "https://tropicos.org/reference/9020903#name-35121475",
+      "oa:hasBody": {
+        "type": "TaxonConceptMapping",
+        "mappingAccordingTo": "_:ann53",
+        "mappingRelation": "tcs:isCongruentWith",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35121475",
+        "objectTaxonConcept": "https://tropicos.org/reference/9005756#name-35121475"
+      },
+      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821",
+      "dcterms:created": "2024-11-08T08:38:00+11"
+    },
+    {
+      "id": "_:ann54",
+      "type": "oa:Annotation",
+      "oa:motivatedBy": "oa:commenting",
+      "oa:target": "https://tropicos.org/reference/9020903#name-35121486",
+      "oa:hasBody": {
+        "type": "TaxonConceptMapping",
+        "mappingAccordingTo": "_:ann54",
+        "mappingRelation": "tcs:isDisjointFrom",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35121486",
+        "objectTaxonConcept": "https://tropicos.org/reference/9005756#name-35121458-2",
+        "rdfs:comment": "misidentified type of Dicranum laevifolium"
+      },
+      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821",
+      "dcterms:created": "2024-11-08T08:38:00+11"
+    },
+    {
+      "id": "_:ann55",
+      "type": "oa:Annotation",
+      "oa:motivatedBy": "oa:commenting",
+      "oa:target": "https://tropicos.org/reference/9020903#name-35121486",
+      "oa:hasBody": {
+        "type": "TaxonConceptMapping",
+        "mappingAccordingTo": "_:ann55",
+        "mappingRelation": "tcs:isDisjointFrom",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35121486",
+        "objectTaxonConcept": "https://tropicos.org/reference/9005756#name-35121556",
+        "rdfs:comment": "misidentified type of Dicranum laevifolium"
+      },
+      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821",
+      "dcterms:created": "2024-11-08T08:38:00+11"
+    },
+    {
+      "id": "_:ann56",
+      "type": "oa:Annotation",
+      "oa:motivatedBy": "oa:commenting",
+      "oa:target": "https://tropicos.org/reference/9020903#name-35121491",
+      "oa:hasBody": {
+        "type": "TaxonConceptMapping",
+        "mappingAccordingTo": "_:ann56",
+        "mappingRelation": "tcs:isCongruentWith",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35121491",
+        "objectTaxonConcept": "https://tropicos.org/reference/9002886#name-35191032"
+      },
+      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821",
+      "dcterms:created": "2024-11-08T08:38:00+11"
+    },
+    {
+      "id": "_:ann57",
+      "type": "oa:Annotation",
+      "oa:motivatedBy": "oa:commenting",
+      "oa:target": "https://tropicos.org/reference/9020903#name-35121467",
+      "oa:hasBody": {
+        "type": "TaxonConceptMapping",
+        "mappingAccordingTo": "_:ann57",
+        "mappingRelation": "tcs:includes",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35121467",
+        "objectTaxonConcept": "https://tropicos.org/reference/9002886#name-35121467",
+        "rdfs:comment": "excl. Dicranoloma novoguinense"
+      },
+      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821",
+      "dcterms:created": "2024-11-08T08:38:00+11"
+    },
+    {
+      "id": "_:ann58",
+      "type": "oa:Annotation",
+      "oa:motivatedBy": "oa:commenting",
+      "oa:target": "https://tropicos.org/reference/9020903#name-35121486",
+      "oa:hasBody": {
+        "type": "TaxonConceptMapping",
+        "mappingAccordingTo": "_:ann58",
+        "mappingRelation": "tcs:includes",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35121486",
+        "objectTaxonConcept": "https://tropicos.org/reference/9002886#name-35121479"
+      },
+      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821",
+      "dcterms:created": "2024-11-08T08:38:00+11"
+    },
+    {
+      "id": "_:ann59",
+      "type": "oa:Annotation",
+      "oa:motivatedBy": "oa:commenting",
+      "oa:target": "https://tropicos.org/reference/9020903#name-35121458",
+      "oa:hasBody": {
+        "type": "TaxonConceptMapping",
+        "mappingAccordingTo": "_:ann59",
+        "mappingRelation": "tcs:isCongruentWith",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35121458",
+        "objectTaxonConcept": "https://tropicos.org/reference/9002886#name-35121458"
+      },
+      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821",
+      "dcterms:created": "2024-11-08T08:38:00+11"
+    },
+    {
+      "id": "_:ann60",
+      "type": "oa:Annotation",
+      "oa:motivatedBy": "oa:commenting",
+      "oa:target": "https://tropicos.org/reference/9020903#name-35121486",
+      "oa:hasBody": {
+        "type": "TaxonConceptMapping",
+        "mappingAccordingTo": "_:ann60",
+        "mappingRelation": "tcs:includes",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35121486",
+        "objectTaxonConcept": "https://tropicos.org/reference/9002886#name-35167975"
+      },
+      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821",
+      "dcterms:created": "2024-11-08T08:38:00+11"
+    },
+    {
+      "id": "_:ann61",
+      "type": "oa:Annotation",
+      "oa:motivatedBy": "oa:commenting",
+      "oa:target": "https://tropicos.org/reference/9020903#name-35121486",
+      "oa:hasBody": {
+        "type": "TaxonConceptMapping",
+        "mappingAccordingTo": "_:ann61",
+        "mappingRelation": "tcs:includes",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35121486",
+        "objectTaxonConcept": "https://tropicos.org/reference/9002886#name-35167976",
+        "rdfs:comment": "excl. Dicranoloma brachypelma"
+      },
+      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821",
+      "dcterms:created": "2024-11-08T08:38:00+11"
+    },
+    {
+      "id": "_:ann62",
+      "type": "oa:Annotation",
+      "oa:motivatedBy": "oa:commenting",
+      "oa:target": "https://tropicos.org/reference/9020903#name-35121455",
+      "oa:hasBody": {
+        "type": "TaxonConceptMapping",
+        "mappingAccordingTo": "_:ann62",
+        "mappingRelation": "tcs:isCongruentWith",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35121455",
+        "objectTaxonConcept": "https://tropicos.org/reference/9002886#name-35121455"
+      },
+      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821",
+      "dcterms:created": "2024-11-08T08:38:00+11"
+    },
+    {
+      "id": "_:ann63",
+      "type": "oa:Annotation",
+      "oa:motivatedBy": "oa:commenting",
+      "oa:target": "https://tropicos.org/reference/9020903#name-35121514",
+      "oa:hasBody": {
+        "type": "TaxonConceptMapping",
+        "mappingAccordingTo": "_:ann63",
+        "mappingRelation": "tcs:includes",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35121514",
+        "objectTaxonConcept": "https://tropicos.org/reference/9002886#name-35121483"
+      },
+      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821",
+      "dcterms:created": "2024-11-08T08:38:00+11"
+    },
+    {
+      "id": "_:ann64",
+      "type": "oa:Annotation",
+      "oa:motivatedBy": "oa:commenting",
+      "oa:target": "https://tropicos.org/reference/9020903#name-35121491",
+      "oa:hasBody": {
+        "type": "TaxonConceptMapping",
+        "mappingAccordingTo": "_:ann64",
+        "mappingRelation": "tcs:isIncludedIn",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35121491",
+        "objectTaxonConcept": "https://tropicos.org/reference/9002886#name-35121491",
+        "rdfs:comment": "incl. Dicranoloma braunii"
+      },
+      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821",
+      "dcterms:created": "2024-11-08T08:38:00+11"
+    },
+    {
+      "id": "_:ann65",
+      "type": "oa:Annotation",
+      "oa:motivatedBy": "oa:commenting",
+      "oa:target": "https://tropicos.org/reference/9020903#name-35121609",
+      "oa:hasBody": {
+        "type": "TaxonConceptMapping",
+        "mappingAccordingTo": "_:ann65",
+        "mappingRelation": "tcs:includes",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35121609",
+        "objectTaxonConcept": "https://tropicos.org/reference/9002886#name-35121518"
+      },
+      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821",
+      "dcterms:created": "2024-11-08T08:38:00+11"
+    },
+    {
+      "id": "_:ann66",
+      "type": "oa:Annotation",
+      "oa:motivatedBy": "oa:commenting",
+      "oa:target": "https://tropicos.org/reference/9020903#name-35121475",
+      "oa:hasBody": {
+        "type": "TaxonConceptMapping",
+        "mappingAccordingTo": "_:ann66",
+        "mappingRelation": "tcs:isCongruentWith",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35121475",
+        "objectTaxonConcept": "https://tropicos.org/reference/9002886#name-35121475"
+      },
+      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821",
+      "dcterms:created": "2024-11-08T08:38:00+11"
+    },
+    {
+      "id": "_:ann67",
+      "type": "oa:Annotation",
+      "oa:motivatedBy": "oa:commenting",
+      "oa:target": "https://tropicos.org/reference/9020903#name-35204725",
+      "oa:hasBody": {
+        "type": "TaxonConceptMapping",
+        "mappingAccordingTo": "_:ann67",
+        "mappingRelation": "tcs:isCongruentWith",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35204725",
+        "objectTaxonConcept": "https://tropicos.org/reference/9002886#name-35121530"
+      },
+      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821",
+      "dcterms:created": "2024-11-08T08:38:00+11"
+    },
+    {
+      "id": "_:ann68",
+      "type": "oa:Annotation",
+      "oa:motivatedBy": "oa:commenting",
+      "oa:target": "https://tropicos.org/reference/9020903#name-35121509",
+      "oa:hasBody": {
+        "type": "TaxonConceptMapping",
+        "mappingAccordingTo": "_:ann68",
+        "mappingRelation": "tcs:isCongruentWith",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35121509",
+        "objectTaxonConcept": "https://tropicos.org/reference/9002886#name-35121509"
+      },
+      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821",
+      "dcterms:created": "2024-11-08T08:38:00+11"
+    },
+    {
+      "id": "_:ann69",
+      "type": "oa:Annotation",
+      "oa:motivatedBy": "oa:commenting",
+      "oa:target": "https://tropicos.org/reference/9020903#name-35121609",
+      "oa:hasBody": {
+        "type": "TaxonConceptMapping",
+        "mappingAccordingTo": "_:ann69",
+        "mappingRelation": "tcs:includes",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35121609",
+        "objectTaxonConcept": "https://tropicos.org/reference/9002886#name-35121609",
+        "rdfs:comment": "excl. Dicranoloma dives"
+      },
+      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821",
+      "dcterms:created": "2024-11-08T08:38:00+11"
+    },
+    {
+      "id": "_:ann70",
+      "type": "oa:Annotation",
+      "oa:motivatedBy": "oa:commenting",
+      "oa:target": "https://tropicos.org/reference/9020903#name-35158613",
+      "oa:hasBody": {
+        "type": "TaxonConceptMapping",
+        "mappingAccordingTo": "_:ann70",
+        "mappingRelation": "tcs:isCongruentWith",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35158613",
+        "objectTaxonConcept": "https://tropicos.org/reference/9002886#name-35121457"
+      },
+      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821",
+      "dcterms:created": "2024-11-08T08:38:00+11"
+    },
+    {
+      "id": "_:ann71",
+      "type": "oa:Annotation",
+      "oa:motivatedBy": "oa:commenting",
+      "oa:target": "https://tropicos.org/reference/9020903#name-35121467",
+      "oa:hasBody": {
+        "type": "TaxonConceptMapping",
+        "mappingAccordingTo": "_:ann71",
+        "mappingRelation": "tcs:includes",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35121467",
+        "objectTaxonConcept": "https://tropicos.org/reference/9002886#name-35121578"
+      },
+      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821",
+      "dcterms:created": "2024-11-08T08:38:00+11"
+    },
+    {
+      "id": "_:ann72",
+      "type": "oa:Annotation",
+      "oa:motivatedBy": "oa:commenting",
+      "oa:target": "https://tropicos.org/reference/9020903#name-35121514",
+      "oa:hasBody": {
+        "type": "TaxonConceptMapping",
+        "mappingAccordingTo": "_:ann72",
+        "mappingRelation": "tcs:includes",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9020903#name-35121514",
+        "objectTaxonConcept": "https://tropicos.org/reference/9002886#name-35121514",
+        "rdfs:comment": "excl. Dicranoloma brassii"
+      },
+      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821",
+      "dcterms:created": "2024-11-08T08:38:00+11"
+    },
+    {
+      "id": "_:ann73",
+      "type": "oa:Annotation",
+      "oa:motivatedBy": "oa:commenting",
+      "oa:target": "https://tropicos.org/reference/9007945#name-35121960",
+      "oa:hasBody": {
+        "type": "TaxonConceptMapping",
+        "mappingAccordingTo": "_:ann73",
+        "mappingRelation": "tcs:isCongruentWith",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9007945#name-35121960",
+        "objectTaxonConcept": "https://tropicos.org/reference/9006742#name-35121467"
+      },
+      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821",
+      "dcterms:created": "2024-11-08T08:38:00+11"
+    },
+    {
+      "id": "_:ann74",
+      "type": "oa:Annotation",
+      "oa:motivatedBy": "oa:commenting",
+      "oa:target": "https://tropicos.org/reference/9007945#name-35121913",
+      "oa:hasBody": {
+        "type": "TaxonConceptMapping",
+        "mappingAccordingTo": "_:ann74",
+        "mappingRelation": "tcs:isIncludedIn",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9007945#name-35121913",
+        "objectTaxonConcept": "https://tropicos.org/reference/9006742#name-35121458",
+        "rdfs:comment": "excl. Dicranoloma brassii"
+      },
+      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821",
+      "dcterms:created": "2024-11-08T08:38:00+11"
+    },
+    {
+      "id": "_:ann75",
+      "type": "oa:Annotation",
+      "oa:motivatedBy": "oa:commenting",
+      "oa:target": "https://tropicos.org/reference/9007945#name-35121907",
+      "oa:hasBody": {
+        "type": "TaxonConceptMapping",
+        "mappingAccordingTo": "_:ann75",
+        "mappingRelation": "tcs:isCongruentWith",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9007945#name-35121907",
+        "objectTaxonConcept": "https://tropicos.org/reference/9006742#name-35121457"
+      },
+      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821",
+      "dcterms:created": "2024-11-08T08:38:00+11"
+    },
+    {
+      "id": "_:ann76",
+      "type": "oa:Annotation",
+      "oa:motivatedBy": "oa:commenting",
+      "oa:target": "https://tropicos.org/reference/9007945#-name-35123838",
+      "oa:hasBody": {
+        "type": "TaxonConceptMapping",
+        "mappingAccordingTo": "_:ann76",
+        "mappingRelation": "tcs:isCongruentWith",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9007945#-name-35123838",
+        "objectTaxonConcept": "https://tropicos.org/reference/9006742#name-35121578"
+      },
+      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821",
+      "dcterms:created": "2024-11-08T08:38:00+11"
+    },
+    {
+      "id": "_:ann77",
+      "type": "oa:Annotation",
+      "oa:motivatedBy": "oa:commenting",
+      "oa:target": "https://tropicos.org/reference/9007945#name-35122018",
+      "oa:hasBody": {
+        "type": "TaxonConceptMapping",
+        "mappingAccordingTo": "_:ann77",
+        "mappingRelation": "tcs:isCongruentWith",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9007945#name-35122018",
+        "objectTaxonConcept": "https://tropicos.org/reference/9006742#name-35121491",
+        "rdfs:comment": "Tan (1989) did not mention Dicranoloma brachypelma, so Dicranoloma brevisetum sec. Tan 1989 can be congruent with either Dicranoloma brevisetum sec,.Tan & Koponen 1983 or Dicranum braunii sec. Norris & Koponen 1990, but not with both."
+      },
+      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821",
+      "dcterms:created": "2024-11-08T08:38:00+11"
+    },
+    {
+      "id": "_:ann78",
+      "type": "oa:Annotation",
+      "oa:motivatedBy": "oa:commenting",
+      "oa:target": "https://tropicos.org/reference/9007945#name-35122214",
+      "oa:hasBody": {
+        "type": "TaxonConceptMapping",
+        "mappingAccordingTo": "_:ann78",
+        "mappingRelation": "tcs:partiallyOverlaps",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9007945#name-35122214",
+        "objectTaxonConcept": "https://tropicos.org/reference/9006742#name-35121458",
+        "rdfs:comment": "main distribution of Dicranoloma dicarpum is outside Malesia"
+      },
+      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821",
+      "dcterms:created": "2024-11-08T08:38:00+11"
+    },
+    {
+      "id": "_:ann79",
+      "type": "oa:Annotation",
+      "oa:motivatedBy": "oa:commenting",
+      "oa:target": "https://tropicos.org/reference/9007945#name-35121972",
+      "oa:hasBody": {
+        "type": "TaxonConceptMapping",
+        "mappingAccordingTo": "_:ann79",
+        "mappingRelation": "tcs:includes",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9007945#name-35121972",
+        "objectTaxonConcept": "https://tropicos.org/reference/9006742#name-35121475"
+      },
+      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821",
+      "dcterms:created": "2024-11-08T08:38:00+11"
+    },
+    {
+      "id": "_:ann80",
+      "type": "oa:Annotation",
+      "oa:motivatedBy": "oa:commenting",
+      "oa:target": "https://tropicos.org/reference/9007945#name-35121913",
+      "oa:hasBody": {
+        "type": "TaxonConceptMapping",
+        "mappingAccordingTo": "_:ann80",
+        "mappingRelation": "tcs:partiallyOverlaps",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9007945#name-35121913",
+        "objectTaxonConcept": "https://tropicos.org/reference/9005756#name-35121458-2",
+        "rdfs:comment": "incl. Dicranoloma arfakianum, D. brassii, D. havilandii and D. laevifolium; excl. Dicranoloma perarmatum"
+      },
+      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821",
+      "dcterms:created": "2024-11-08T08:38:00+11"
+    },
+    {
+      "id": "_:ann81",
+      "type": "oa:Annotation",
+      "oa:motivatedBy": "oa:commenting",
+      "oa:target": "https://tropicos.org/reference/9007945#name-35121913",
+      "oa:hasBody": {
+        "type": "TaxonConceptMapping",
+        "mappingAccordingTo": "_:ann81",
+        "mappingRelation": "tcs:partiallyOverlaps",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9007945#name-35121913",
+        "objectTaxonConcept": "https://tropicos.org/reference/9005756#name-35121609-2",
+        "rdfs:comment": "overlaps in Dicranoloma perarmatum"
+      },
+      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821",
+      "dcterms:created": "2024-11-08T08:38:00+11"
+    },
+    {
+      "id": "_:ann82",
+      "type": "oa:Annotation",
+      "oa:motivatedBy": "oa:commenting",
+      "oa:target": "https://tropicos.org/reference/9007945#name-35121913",
+      "oa:hasBody": {
+        "type": "TaxonConceptMapping",
+        "mappingAccordingTo": "_:ann82",
+        "mappingRelation": "tcs:isIncludedIn",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9007945#name-35121913",
+        "objectTaxonConcept": "https://tropicos.org/reference/9005756#name-35121458",
+        "rdfs:comment": "incl. Dicranoloma brassii"
+      },
+      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821",
+      "dcterms:created": "2024-11-08T08:38:00+11"
+    },
+    {
+      "id": "_:ann83",
+      "type": "oa:Annotation",
+      "oa:motivatedBy": "oa:commenting",
+      "oa:target": "https://tropicos.org/reference/9007945#name-35184274",
+      "oa:hasBody": {
+        "type": "TaxonConceptMapping",
+        "mappingAccordingTo": "_:ann83",
+        "mappingRelation": "tcs:isIncludedIn",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9007945#name-35184274",
+        "objectTaxonConcept": "https://tropicos.org/reference/9005756#name-35121530",
+        "rdfs:comment": "main distribution of Dicranoloma fragile is outside Malesia"
+      },
+      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821",
+      "dcterms:created": "2024-11-08T08:38:00+11"
+    },
+    {
+      "id": "_:ann84",
+      "type": "oa:Annotation",
+      "oa:motivatedBy": "oa:commenting",
+      "oa:target": "https://tropicos.org/reference/9007945#-name-35123838",
+      "oa:hasBody": {
+        "type": "TaxonConceptMapping",
+        "mappingAccordingTo": "_:ann84",
+        "mappingRelation": "tcs:isCongruentWith",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9007945#-name-35123838",
+        "objectTaxonConcept": "https://tropicos.org/reference/9005756#name-35121578"
+      },
+      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821",
+      "dcterms:created": "2024-11-08T08:38:00+11"
+    },
+    {
+      "id": "_:ann85",
+      "type": "oa:Annotation",
+      "oa:motivatedBy": "oa:commenting",
+      "oa:target": "https://tropicos.org/reference/9007945#name-35121913",
+      "oa:hasBody": {
+        "type": "TaxonConceptMapping",
+        "mappingAccordingTo": "_:ann85",
+        "mappingRelation": "tcs:includes",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9007945#name-35121913",
+        "objectTaxonConcept": "https://tropicos.org/reference/9005756#name-35121587"
+      },
+      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821",
+      "dcterms:created": "2024-11-08T08:38:00+11"
+    },
+    {
+      "id": "_:ann86",
+      "type": "oa:Annotation",
+      "oa:motivatedBy": "oa:commenting",
+      "oa:target": "https://tropicos.org/reference/9007945#name-35121907",
+      "oa:hasBody": {
+        "type": "TaxonConceptMapping",
+        "mappingAccordingTo": "_:ann86",
+        "mappingRelation": "tcs:isCongruentWith",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9007945#name-35121907",
+        "objectTaxonConcept": "https://tropicos.org/reference/9005756#name-35158613"
+      },
+      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821",
+      "dcterms:created": "2024-11-08T08:38:00+11"
+    },
+    {
+      "id": "_:ann87",
+      "type": "oa:Annotation",
+      "oa:motivatedBy": "oa:commenting",
+      "oa:target": "https://tropicos.org/reference/9007945#name-35121903",
+      "oa:hasBody": {
+        "type": "TaxonConceptMapping",
+        "mappingAccordingTo": "_:ann87",
+        "mappingRelation": "tcs:isIncludedIn",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9007945#name-35121903",
+        "objectTaxonConcept": "https://tropicos.org/reference/9005756#name-35121458-2"
+      },
+      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821",
+      "dcterms:created": "2024-11-08T08:38:00+11"
+    },
+    {
+      "id": "_:ann88",
+      "type": "oa:Annotation",
+      "oa:motivatedBy": "oa:commenting",
+      "oa:target": "https://tropicos.org/reference/9007945#name-35122018",
+      "oa:hasBody": {
+        "type": "TaxonConceptMapping",
+        "mappingAccordingTo": "_:ann88",
+        "mappingRelation": "tcs:includes",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9007945#name-35122018",
+        "objectTaxonConcept": "https://tropicos.org/reference/9005756#name-35121486",
+        "rdfs:comment": "excl. Dicranoloma brevisetum, Dicranoloma leucophyllum"
+      },
+      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821",
+      "dcterms:created": "2024-11-08T08:38:00+11"
+    },
+    {
+      "id": "_:ann89",
+      "type": "oa:Annotation",
+      "oa:motivatedBy": "oa:commenting",
+      "oa:target": "https://tropicos.org/reference/9007945#name-35122018",
+      "oa:hasBody": {
+        "type": "TaxonConceptMapping",
+        "mappingAccordingTo": "_:ann89",
+        "mappingRelation": "tcs:includes",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9007945#name-35122018",
+        "objectTaxonConcept": "https://tropicos.org/reference/9005756#name-35121491"
+      },
+      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821",
+      "dcterms:created": "2024-11-08T08:38:00+11"
+    },
+    {
+      "id": "_:ann90",
+      "type": "oa:Annotation",
+      "oa:motivatedBy": "oa:commenting",
+      "oa:target": "https://tropicos.org/reference/9007945#name-35121972",
+      "oa:hasBody": {
+        "type": "TaxonConceptMapping",
+        "mappingAccordingTo": "_:ann90",
+        "mappingRelation": "tcs:isCongruentWith",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9007945#name-35121972",
+        "objectTaxonConcept": "https://tropicos.org/reference/9005756#name-35121475"
+      },
+      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821",
+      "dcterms:created": "2024-11-08T08:38:00+11"
+    },
+    {
+      "id": "_:ann91",
+      "type": "oa:Annotation",
+      "oa:motivatedBy": "oa:commenting",
+      "oa:target": "https://tropicos.org/reference/9007945#name-35121960",
+      "oa:hasBody": {
+        "type": "TaxonConceptMapping",
+        "mappingAccordingTo": "_:ann91",
+        "mappingRelation": "tcs:includes",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9007945#name-35121960",
+        "objectTaxonConcept": "https://tropicos.org/reference/9005756#name-35121467",
+        "rdfs:comment": "excl. Dicranoloma laevifolium"
+      },
+      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821",
+      "dcterms:created": "2024-11-08T08:38:00+11"
+    },
+    {
+      "id": "_:ann92",
+      "type": "oa:Annotation",
+      "oa:motivatedBy": "oa:commenting",
+      "oa:target": "https://tropicos.org/reference/9007945#name-35122214",
+      "oa:hasBody": {
+        "type": "TaxonConceptMapping",
+        "mappingAccordingTo": "_:ann92",
+        "mappingRelation": "tcs:partiallyOverlaps",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9007945#name-35122214",
+        "objectTaxonConcept": "https://tropicos.org/reference/9005756#name-35121458-2",
+        "rdfs:comment": "overlaps in Dicranoloma brassii"
+      },
+      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821",
+      "dcterms:created": "2024-11-08T08:38:00+11"
+    },
+    {
+      "id": "_:ann93",
+      "type": "oa:Annotation",
+      "oa:motivatedBy": "oa:commenting",
+      "oa:target": "https://tropicos.org/reference/9007945#name-35121960",
+      "oa:hasBody": {
+        "type": "TaxonConceptMapping",
+        "mappingAccordingTo": "_:ann93",
+        "mappingRelation": "tcs:partiallyOverlaps",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9007945#name-35121960",
+        "objectTaxonConcept": "https://tropicos.org/reference/9005756#name-35121458-2",
+        "rdfs:comment": "overlaps in Dicranoloma laevifolium"
+      },
+      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821",
+      "dcterms:created": "2024-11-08T08:38:00+11"
+    },
+    {
+      "id": "_:ann94",
+      "type": "oa:Annotation",
+      "oa:motivatedBy": "oa:commenting",
+      "oa:target": "https://tropicos.org/reference/9007945#name-35121903",
+      "oa:hasBody": {
+        "type": "TaxonConceptMapping",
+        "mappingAccordingTo": "_:ann94",
+        "mappingRelation": "tcs:isCongruentWith",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9007945#name-35121903",
+        "objectTaxonConcept": "https://tropicos.org/reference/9005756#name-35121455"
+      },
+      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821",
+      "dcterms:created": "2024-11-08T08:38:00+11"
+    },
+    {
+      "id": "_:ann95",
+      "type": "oa:Annotation",
+      "oa:motivatedBy": "oa:commenting",
+      "oa:target": "https://tropicos.org/reference/9007945#name-35184276",
+      "oa:hasBody": {
+        "type": "TaxonConceptMapping",
+        "mappingAccordingTo": "_:ann95",
+        "mappingRelation": "tcs:includes",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9007945#name-35184276",
+        "objectTaxonConcept": "https://tropicos.org/reference/9005756#name-35121617",
+        "rdfs:comment": "Eddy (1988) specifically mentioned forms of Dicranoloma assimile that look similar to Dicranoloma rugifolium."
+      },
+      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821",
+      "dcterms:created": "2024-11-08T08:38:00+11"
+    },
+    {
+      "id": "_:ann96",
+      "type": "oa:Annotation",
+      "oa:motivatedBy": "oa:commenting",
+      "oa:target": "https://tropicos.org/reference/9007945#name-35122214",
+      "oa:hasBody": {
+        "type": "TaxonConceptMapping",
+        "mappingAccordingTo": "_:ann96",
+        "mappingRelation": "tcs:partiallyOverlaps",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9007945#name-35122214",
+        "objectTaxonConcept": "https://tropicos.org/reference/9005756#name-35121458",
+        "rdfs:comment": "incl. Dicranoloma brassii; main distribution of Dicranoloma dicarpon is outside Malesia"
+      },
+      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821",
+      "dcterms:created": "2024-11-08T08:38:00+11"
+    },
+    {
+      "id": "_:ann97",
+      "type": "oa:Annotation",
+      "oa:motivatedBy": "oa:commenting",
+      "oa:target": "https://tropicos.org/reference/9007945#name-35184275",
+      "oa:hasBody": {
+        "type": "TaxonConceptMapping",
+        "mappingAccordingTo": "_:ann97",
+        "mappingRelation": "tcs:isCongruentWith",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9007945#name-35184275",
+        "objectTaxonConcept": "https://tropicos.org/reference/9005756#name-35184079"
+      },
+      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821",
+      "dcterms:created": "2024-11-08T08:38:00+11"
+    },
+    {
+      "id": "_:ann98",
+      "type": "oa:Annotation",
+      "oa:motivatedBy": "oa:commenting",
+      "oa:target": "https://tropicos.org/reference/9007945#name-35121960",
+      "oa:hasBody": {
+        "type": "TaxonConceptMapping",
+        "mappingAccordingTo": "_:ann98",
+        "mappingRelation": "tcs:includes",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9007945#name-35121960",
+        "objectTaxonConcept": "https://tropicos.org/reference/9005756#name-35121556"
+      },
+      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821",
+      "dcterms:created": "2024-11-08T08:38:00+11"
+    },
+    {
+      "id": "_:ann99",
+      "type": "oa:Annotation",
+      "oa:motivatedBy": "oa:commenting",
+      "oa:target": "https://tropicos.org/reference/9007945#name-35121972",
+      "oa:hasBody": {
+        "type": "TaxonConceptMapping",
+        "mappingAccordingTo": "_:ann99",
+        "mappingRelation": "tcs:isCongruentWith",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9007945#name-35121972",
+        "objectTaxonConcept": "https://tropicos.org/reference/9002886#name-35121475"
+      },
+      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821",
+      "dcterms:created": "2024-11-08T08:38:00+11"
+    },
+    {
+      "id": "_:ann100",
+      "type": "oa:Annotation",
+      "oa:motivatedBy": "oa:commenting",
+      "oa:target": "https://tropicos.org/reference/9007945#-name-35123838",
+      "oa:hasBody": {
+        "type": "TaxonConceptMapping",
+        "mappingAccordingTo": "_:ann100",
+        "mappingRelation": "tcs:isCongruentWith",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9007945#-name-35123838",
+        "objectTaxonConcept": "https://tropicos.org/reference/9002886#name-35121578"
+      },
+      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821",
+      "dcterms:created": "2024-11-08T08:38:00+11"
+    },
+    {
+      "id": "_:ann101",
+      "type": "oa:Annotation",
+      "oa:motivatedBy": "oa:commenting",
+      "oa:target": "https://tropicos.org/reference/9007945#name-35122018",
+      "oa:hasBody": {
+        "type": "TaxonConceptMapping",
+        "mappingAccordingTo": "_:ann101",
+        "mappingRelation": "tcs:includes",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9007945#name-35122018",
+        "objectTaxonConcept": "https://tropicos.org/reference/9002886#name-35167975"
+      },
+      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821",
+      "dcterms:created": "2024-11-08T08:38:00+11"
+    },
+    {
+      "id": "_:ann102",
+      "type": "oa:Annotation",
+      "oa:motivatedBy": "oa:commenting",
+      "oa:target": "https://tropicos.org/reference/9007945#name-35121913",
+      "oa:hasBody": {
+        "type": "TaxonConceptMapping",
+        "mappingAccordingTo": "_:ann102",
+        "mappingRelation": "tcs:isIncludedIn",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9007945#name-35121913",
+        "objectTaxonConcept": "https://tropicos.org/reference/9002886#name-35121458",
+        "rdfs:comment": "incl. forms with rugose leaves that Norris and Koponen place in Dicranum rugifolium."
+      },
+      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821",
+      "dcterms:created": "2024-11-08T08:38:00+11"
+    },
+    {
+      "id": "_:ann103",
+      "type": "oa:Annotation",
+      "oa:motivatedBy": "oa:commenting",
+      "oa:target": "https://tropicos.org/reference/9007945#name-35122018",
+      "oa:hasBody": {
+        "type": "TaxonConceptMapping",
+        "mappingAccordingTo": "_:ann103",
+        "mappingRelation": "tcs:includes",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9007945#name-35122018",
+        "objectTaxonConcept": "https://tropicos.org/reference/9002886#name-35167976"
+      },
+      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821",
+      "dcterms:created": "2024-11-08T08:38:00+11"
+    },
+    {
+      "id": "_:ann104",
+      "type": "oa:Annotation",
+      "oa:motivatedBy": "oa:commenting",
+      "oa:target": "https://tropicos.org/reference/9007945#name-35121960",
+      "oa:hasBody": {
+        "type": "TaxonConceptMapping",
+        "mappingAccordingTo": "_:ann104",
+        "mappingRelation": "tcs:isCongruentWith",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9007945#name-35121960",
+        "objectTaxonConcept": "https://tropicos.org/reference/9002886#name-35121467"
+      },
+      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821",
+      "dcterms:created": "2024-11-08T08:38:00+11"
+    },
+    {
+      "id": "_:ann105",
+      "type": "oa:Annotation",
+      "oa:motivatedBy": "oa:commenting",
+      "oa:target": "https://tropicos.org/reference/9007945#name-35122214",
+      "oa:hasBody": {
+        "type": "TaxonConceptMapping",
+        "mappingAccordingTo": "_:ann105",
+        "mappingRelation": "tcs:includes",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9007945#name-35122214",
+        "objectTaxonConcept": "https://tropicos.org/reference/9002886#name-35121483"
+      },
+      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821",
+      "dcterms:created": "2024-11-08T08:38:00+11"
+    },
+    {
+      "id": "_:ann106",
+      "type": "oa:Annotation",
+      "oa:motivatedBy": "oa:commenting",
+      "oa:target": "https://tropicos.org/reference/9007945#name-35121907",
+      "oa:hasBody": {
+        "type": "TaxonConceptMapping",
+        "mappingAccordingTo": "_:ann106",
+        "mappingRelation": "tcs:isCongruentWith",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9007945#name-35121907",
+        "objectTaxonConcept": "https://tropicos.org/reference/9002886#name-35121457"
+      },
+      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821",
+      "dcterms:created": "2024-11-08T08:38:00+11"
+    },
+    {
+      "id": "_:ann107",
+      "type": "oa:Annotation",
+      "oa:motivatedBy": "oa:commenting",
+      "oa:target": "https://tropicos.org/reference/9007945#name-35121903",
+      "oa:hasBody": {
+        "type": "TaxonConceptMapping",
+        "mappingAccordingTo": "_:ann107",
+        "mappingRelation": "tcs:isCongruentWith",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9007945#name-35121903",
+        "objectTaxonConcept": "https://tropicos.org/reference/9002886#name-35121455"
+      },
+      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821",
+      "dcterms:created": "2024-11-08T08:38:00+11"
+    },
+    {
+      "id": "_:ann108",
+      "type": "oa:Annotation",
+      "oa:motivatedBy": "oa:commenting",
+      "oa:target": "https://tropicos.org/reference/9007945#name-35122214",
+      "oa:hasBody": {
+        "type": "TaxonConceptMapping",
+        "mappingAccordingTo": "_:ann108",
+        "mappingRelation": "tcs:includes",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9007945#name-35122214",
+        "objectTaxonConcept": "https://tropicos.org/reference/9002886#name-35121514",
+        "rdfs:comment": "excl. Dicranoloma brassii"
+      },
+      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821",
+      "dcterms:created": "2024-11-08T08:38:00+11"
+    },
+    {
+      "id": "_:ann109",
+      "type": "oa:Annotation",
+      "oa:motivatedBy": "oa:commenting",
+      "oa:target": "https://tropicos.org/reference/9007945#name-35122018",
+      "oa:hasBody": {
+        "type": "TaxonConceptMapping",
+        "mappingAccordingTo": "_:ann109",
+        "mappingRelation": "tcs:includes",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9007945#name-35122018",
+        "objectTaxonConcept": "https://tropicos.org/reference/9002886#name-35191032"
+      },
+      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821",
+      "dcterms:created": "2024-11-08T08:38:00+11"
+    },
+    {
+      "id": "_:ann110",
+      "type": "oa:Annotation",
+      "oa:motivatedBy": "oa:commenting",
+      "oa:target": "https://tropicos.org/reference/9007945#name-35122018",
+      "oa:hasBody": {
+        "type": "TaxonConceptMapping",
+        "mappingAccordingTo": "_:ann110",
+        "mappingRelation": "tcs:includes",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9007945#name-35122018",
+        "objectTaxonConcept": "https://tropicos.org/reference/9002886#name-35121491",
+        "rdfs:comment": "Tan & Koponen (1983) recognised Dicranoloma brachypelma. The type of Leucoloma brachypelma is from Java, so was not in Norris & Koponen's (1990) treatment, which is for New Guinea."
+      },
+      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821",
+      "dcterms:created": "2024-11-08T08:38:00+11"
+    },
+    {
+      "id": "_:ann111",
+      "type": "oa:Annotation",
+      "oa:motivatedBy": "oa:commenting",
+      "oa:target": "https://tropicos.org/reference/9007945#name-35184274",
+      "oa:hasBody": {
+        "type": "TaxonConceptMapping",
+        "mappingAccordingTo": "_:ann111",
+        "mappingRelation": "tcs:isCongruentWith",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9007945#name-35184274",
+        "objectTaxonConcept": "https://tropicos.org/reference/9002886#name-35121509"
+      },
+      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821",
+      "dcterms:created": "2024-11-08T08:38:00+11"
+    },
+    {
+      "id": "_:ann112",
+      "type": "oa:Annotation",
+      "oa:motivatedBy": "oa:commenting",
+      "oa:target": "https://tropicos.org/reference/9006742#name-35121542",
+      "oa:hasBody": {
+        "type": "TaxonConceptMapping",
+        "mappingAccordingTo": "_:ann112",
+        "mappingRelation": "tcs:isCongruentWith",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9006742#name-35121542",
+        "objectTaxonConcept": "https://tropicos.org/reference/9005756#name-35121542"
+      },
+      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821",
+      "dcterms:created": "2024-11-08T08:38:00+11"
+    },
+    {
+      "id": "_:ann113",
+      "type": "oa:Annotation",
+      "oa:motivatedBy": "oa:commenting",
+      "oa:target": "https://tropicos.org/reference/9006742#name-35121458",
+      "oa:hasBody": {
+        "type": "TaxonConceptMapping",
+        "mappingAccordingTo": "_:ann113",
+        "mappingRelation": "tcs:partiallyOverlaps",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9006742#name-35121458",
+        "objectTaxonConcept": "https://tropicos.org/reference/9005756#name-35121458-2",
+        "rdfs:comment": "incl. Dicranoloma havilandii; excl. Dicranoloma perarmatum"
+      },
+      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821",
+      "dcterms:created": "2024-11-08T08:38:00+11"
+    },
+    {
+      "id": "_:ann114",
+      "type": "oa:Annotation",
+      "oa:motivatedBy": "oa:commenting",
+      "oa:target": "https://tropicos.org/reference/9006742#name-35121491",
+      "oa:hasBody": {
+        "type": "TaxonConceptMapping",
+        "mappingAccordingTo": "_:ann114",
+        "mappingRelation": "tcs:includes",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9006742#name-35121491",
+        "objectTaxonConcept": "https://tropicos.org/reference/9005756#name-35121559"
+      },
+      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821",
+      "dcterms:created": "2024-11-08T08:38:00+11"
+    },
+    {
+      "id": "_:ann115",
+      "type": "oa:Annotation",
+      "oa:motivatedBy": "oa:commenting",
+      "oa:target": "https://tropicos.org/reference/9006742#name-35121609",
+      "oa:hasBody": {
+        "type": "TaxonConceptMapping",
+        "mappingAccordingTo": "_:ann115",
+        "mappingRelation": "tcs:isCongruentWith",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9006742#name-35121609",
+        "objectTaxonConcept": "https://tropicos.org/reference/9005756#name-35121609"
+      },
+      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821",
+      "dcterms:created": "2024-11-08T08:38:00+11"
+    },
+    {
+      "id": "_:ann116",
+      "type": "oa:Annotation",
+      "oa:motivatedBy": "oa:commenting",
+      "oa:target": "https://tropicos.org/reference/9006742#name-35121609",
+      "oa:hasBody": {
+        "type": "TaxonConceptMapping",
+        "mappingAccordingTo": "_:ann116",
+        "mappingRelation": "tcs:isIncludedIn",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9006742#name-35121609",
+        "objectTaxonConcept": "https://tropicos.org/reference/9005756#name-35121609-2",
+        "rdfs:comment": "incl. Dicranoloma perarmatum"
+      },
+      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821",
+      "dcterms:created": "2024-11-08T08:38:00+11"
+    },
+    {
+      "id": "_:ann117",
+      "type": "oa:Annotation",
+      "oa:motivatedBy": "oa:commenting",
+      "oa:target": "https://tropicos.org/reference/9006742#name-35121467",
+      "oa:hasBody": {
+        "type": "TaxonConceptMapping",
+        "mappingAccordingTo": "_:ann117",
+        "mappingRelation": "tcs:includes",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9006742#name-35121467",
+        "objectTaxonConcept": "https://tropicos.org/reference/9005756#name-35121488",
+        "rdfs:comment": "both misidentified type of Dicranoloma defoliatum"
+      },
+      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821",
+      "dcterms:created": "2024-11-08T08:38:00+11"
+    },
+    {
+      "id": "_:ann118",
+      "type": "oa:Annotation",
+      "oa:motivatedBy": "oa:commenting",
+      "oa:target": "https://tropicos.org/reference/9006742#name-35121467",
+      "oa:hasBody": {
+        "type": "TaxonConceptMapping",
+        "mappingAccordingTo": "_:ann118",
+        "mappingRelation": "tcs:includes",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9006742#name-35121467",
+        "objectTaxonConcept": "https://tropicos.org/reference/9005756#name-35121467",
+        "rdfs:comment": "excl. Dicranoloma brevicapsulare"
+      },
+      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821",
+      "dcterms:created": "2024-11-08T08:38:00+11"
+    },
+    {
+      "id": "_:ann119",
+      "type": "oa:Annotation",
+      "oa:motivatedBy": "oa:commenting",
+      "oa:target": "https://tropicos.org/reference/9006742#name-35121458",
+      "oa:hasBody": {
+        "type": "TaxonConceptMapping",
+        "mappingAccordingTo": "_:ann119",
+        "mappingRelation": "tcs:partiallyOverlaps",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9006742#name-35121458",
+        "objectTaxonConcept": "https://tropicos.org/reference/9005756#name-35121609-2",
+        "rdfs:comment": "overlaps in Dicranoloma perarmatum"
+      },
+      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821",
+      "dcterms:created": "2024-11-08T08:38:00+11"
+    },
+    {
+      "id": "_:ann120",
+      "type": "oa:Annotation",
+      "oa:motivatedBy": "oa:commenting",
+      "oa:target": "https://tropicos.org/reference/9006742#name-35121475",
+      "oa:hasBody": {
+        "type": "TaxonConceptMapping",
+        "mappingAccordingTo": "_:ann120",
+        "mappingRelation": "tcs:isIncludedIn",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9006742#name-35121475",
+        "objectTaxonConcept": "https://tropicos.org/reference/9005756#name-35121475",
+        "rdfs:comment": "Both treatments misidentified the type of Dicranoloma defoliatum; Tan (1989) recognises Dicranoloma braunfelsioides, which Eddy (1988) does not mention."
+      },
+      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821",
+      "dcterms:created": "2024-11-08T08:38:00+11"
+    },
+    {
+      "id": "_:ann121",
+      "type": "oa:Annotation",
+      "oa:motivatedBy": "oa:commenting",
+      "oa:target": "https://tropicos.org/reference/9006742#name-35121458",
+      "oa:hasBody": {
+        "type": "TaxonConceptMapping",
+        "mappingAccordingTo": "_:ann121",
+        "mappingRelation": "tcs:isIncludedIn",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9006742#name-35121458",
+        "objectTaxonConcept": "https://tropicos.org/reference/9005756#name-35121458",
+        "rdfs:comment": "Eddy (1988) did not include Dicranoloma euryloma var. rugifolium in his synonymy, but mentions forms of Dicranoloma assimile that look like the type of Dicranoloma euryloma var. rugifolium."
+      },
+      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821",
+      "dcterms:created": "2024-11-08T08:38:00+11"
+    },
+    {
+      "id": "_:ann122",
+      "type": "oa:Annotation",
+      "oa:motivatedBy": "oa:commenting",
+      "oa:target": "https://tropicos.org/reference/9006742#name-35121458",
+      "oa:hasBody": {
+        "type": "TaxonConceptMapping",
+        "mappingAccordingTo": "_:ann122",
+        "mappingRelation": "tcs:includes",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9006742#name-35121458",
+        "objectTaxonConcept": "https://tropicos.org/reference/9005756#name-35121587"
+      },
+      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821",
+      "dcterms:created": "2024-11-08T08:38:00+11"
+    },
+    {
+      "id": "_:ann123",
+      "type": "oa:Annotation",
+      "oa:motivatedBy": "oa:commenting",
+      "oa:target": "https://tropicos.org/reference/9006742#name-35121578",
+      "oa:hasBody": {
+        "type": "TaxonConceptMapping",
+        "mappingAccordingTo": "_:ann123",
+        "mappingRelation": "tcs:isCongruentWith",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9006742#name-35121578",
+        "objectTaxonConcept": "https://tropicos.org/reference/9005756#name-35121578"
+      },
+      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821",
+      "dcterms:created": "2024-11-08T08:38:00+11"
+    },
+    {
+      "id": "_:ann124",
+      "type": "oa:Annotation",
+      "oa:motivatedBy": "oa:commenting",
+      "oa:target": "https://tropicos.org/reference/9006742#name-35121457",
+      "oa:hasBody": {
+        "type": "TaxonConceptMapping",
+        "mappingAccordingTo": "_:ann124",
+        "mappingRelation": "tcs:isCongruentWith",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9006742#name-35121457",
+        "objectTaxonConcept": "https://tropicos.org/reference/9005756#name-35158613"
+      },
+      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821",
+      "dcterms:created": "2024-11-08T08:38:00+11"
+    },
+    {
+      "id": "_:ann125",
+      "type": "oa:Annotation",
+      "oa:motivatedBy": "oa:commenting",
+      "oa:target": "https://tropicos.org/reference/9006742#name-35121491",
+      "oa:hasBody": {
+        "type": "TaxonConceptMapping",
+        "mappingAccordingTo": "_:ann125",
+        "mappingRelation": "tcs:includes",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9006742#name-35121491",
+        "objectTaxonConcept": "https://tropicos.org/reference/9005756#name-35121486"
+      },
+      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821",
+      "dcterms:created": "2024-11-08T08:38:00+11"
+    },
+    {
+      "id": "_:ann126",
+      "type": "oa:Annotation",
+      "oa:motivatedBy": "oa:commenting",
+      "oa:target": "https://tropicos.org/reference/9006742#name-35121491",
+      "oa:hasBody": {
+        "type": "TaxonConceptMapping",
+        "mappingAccordingTo": "_:ann126",
+        "mappingRelation": "tcs:includes",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9006742#name-35121491",
+        "objectTaxonConcept": "https://tropicos.org/reference/9005756#name-35121491",
+        "rdfs:comment": "excl. Dicranoloma braunii, Dicranoloma leucophyllum"
+      },
+      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821",
+      "dcterms:created": "2024-11-08T08:38:00+11"
+    },
+    {
+      "id": "_:ann127",
+      "type": "oa:Annotation",
+      "oa:motivatedBy": "oa:commenting",
+      "oa:target": "https://tropicos.org/reference/9006742#name-35121475",
+      "oa:hasBody": {
+        "type": "TaxonConceptMapping",
+        "mappingAccordingTo": "_:ann127",
+        "mappingRelation": "tcs:isDisjointFrom",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9006742#name-35121475",
+        "objectTaxonConcept": "https://tropicos.org/reference/9005756#name-35121488",
+        "rdfs:comment": "both misidentified type of Dicranoloma defoliatum"
+      },
+      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821",
+      "dcterms:created": "2024-11-08T08:38:00+11"
+    },
+    {
+      "id": "_:ann128",
+      "type": "oa:Annotation",
+      "oa:motivatedBy": "oa:commenting",
+      "oa:target": "https://tropicos.org/reference/9006742#name-35121542",
+      "oa:hasBody": {
+        "type": "TaxonConceptMapping",
+        "mappingAccordingTo": "_:ann128",
+        "mappingRelation": "tcs:isIncludedIn",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9006742#name-35121542",
+        "objectTaxonConcept": "https://tropicos.org/reference/9005756#name-35121458-2"
+      },
+      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821",
+      "dcterms:created": "2024-11-08T08:38:00+11"
+    },
+    {
+      "id": "_:ann129",
+      "type": "oa:Annotation",
+      "oa:motivatedBy": "oa:commenting",
+      "oa:target": "https://tropicos.org/reference/9006742#name-35121457",
+      "oa:hasBody": {
+        "type": "TaxonConceptMapping",
+        "mappingAccordingTo": "_:ann129",
+        "mappingRelation": "tcs:isCongruentWith",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9006742#name-35121457",
+        "objectTaxonConcept": "https://tropicos.org/reference/9002886#name-35121457"
+      },
+      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821",
+      "dcterms:created": "2024-11-08T08:38:00+11"
+    },
+    {
+      "id": "_:ann130",
+      "type": "oa:Annotation",
+      "oa:motivatedBy": "oa:commenting",
+      "oa:target": "https://tropicos.org/reference/9006742#name-35121491",
+      "oa:hasBody": {
+        "type": "TaxonConceptMapping",
+        "mappingAccordingTo": "_:ann130",
+        "mappingRelation": "tcs:includes",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9006742#name-35121491",
+        "objectTaxonConcept": "https://tropicos.org/reference/9002886#name-35191032"
+      },
+      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821",
+      "dcterms:created": "2024-11-08T08:38:00+11"
+    },
+    {
+      "id": "_:ann131",
+      "type": "oa:Annotation",
+      "oa:motivatedBy": "oa:commenting",
+      "oa:target": "https://tropicos.org/reference/9006742#name-35121467",
+      "oa:hasBody": {
+        "type": "TaxonConceptMapping",
+        "mappingAccordingTo": "_:ann131",
+        "mappingRelation": "tcs:isCongruentWith",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9006742#name-35121467",
+        "objectTaxonConcept": "https://tropicos.org/reference/9002886#name-35121467"
+      },
+      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821",
+      "dcterms:created": "2024-11-08T08:38:00+11"
+    },
+    {
+      "id": "_:ann132",
+      "type": "oa:Annotation",
+      "oa:motivatedBy": "oa:commenting",
+      "oa:target": "https://tropicos.org/reference/9006742#name-35121458",
+      "oa:hasBody": {
+        "type": "TaxonConceptMapping",
+        "mappingAccordingTo": "_:ann132",
+        "mappingRelation": "tcs:includes",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9006742#name-35121458",
+        "objectTaxonConcept": "https://tropicos.org/reference/9002886#name-35121483"
+      },
+      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821",
+      "dcterms:created": "2024-11-08T08:38:00+11"
+    },
+    {
+      "id": "_:ann133",
+      "type": "oa:Annotation",
+      "oa:motivatedBy": "oa:commenting",
+      "oa:target": "https://tropicos.org/reference/9006742#name-35121458",
+      "oa:hasBody": {
+        "type": "TaxonConceptMapping",
+        "mappingAccordingTo": "_:ann133",
+        "mappingRelation": "tcs:includes",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9006742#name-35121458",
+        "objectTaxonConcept": "https://tropicos.org/reference/9002886#name-35121458",
+        "rdfs:comment": "excl. Dicranoloma brassii"
+      },
+      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821",
+      "dcterms:created": "2024-11-08T08:38:00+11"
+    },
+    {
+      "id": "_:ann134",
+      "type": "oa:Annotation",
+      "oa:motivatedBy": "oa:commenting",
+      "oa:target": "https://tropicos.org/reference/9006742#name-35121491",
+      "oa:hasBody": {
+        "type": "TaxonConceptMapping",
+        "mappingAccordingTo": "_:ann134",
+        "mappingRelation": "tcs:includes",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9006742#name-35121491",
+        "objectTaxonConcept": "https://tropicos.org/reference/9002886#name-35167976"
+      },
+      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821",
+      "dcterms:created": "2024-11-08T08:38:00+11"
+    },
+    {
+      "id": "_:ann135",
+      "type": "oa:Annotation",
+      "oa:motivatedBy": "oa:commenting",
+      "oa:target": "https://tropicos.org/reference/9006742#name-35121578",
+      "oa:hasBody": {
+        "type": "TaxonConceptMapping",
+        "mappingAccordingTo": "_:ann135",
+        "mappingRelation": "tcs:isCongruentWith",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9006742#name-35121578",
+        "objectTaxonConcept": "https://tropicos.org/reference/9002886#name-35121578"
+      },
+      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821",
+      "dcterms:created": "2024-11-08T08:38:00+11"
+    },
+    {
+      "id": "_:ann136",
+      "type": "oa:Annotation",
+      "oa:motivatedBy": "oa:commenting",
+      "oa:target": "https://tropicos.org/reference/9006742#name-35121609",
+      "oa:hasBody": {
+        "type": "TaxonConceptMapping",
+        "mappingAccordingTo": "_:ann136",
+        "mappingRelation": "tcs:includes",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9006742#name-35121609",
+        "objectTaxonConcept": "https://tropicos.org/reference/9002886#name-35121609",
+        "rdfs:comment": "excl. Dicranoloma dives"
+      },
+      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821",
+      "dcterms:created": "2024-11-08T08:38:00+11"
+    },
+    {
+      "id": "_:ann137",
+      "type": "oa:Annotation",
+      "oa:motivatedBy": "oa:commenting",
+      "oa:target": "https://tropicos.org/reference/9006742#name-35121609",
+      "oa:hasBody": {
+        "type": "TaxonConceptMapping",
+        "mappingAccordingTo": "_:ann137",
+        "mappingRelation": "tcs:includes",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9006742#name-35121609",
+        "objectTaxonConcept": "https://tropicos.org/reference/9002886#name-35121518"
+      },
+      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821",
+      "dcterms:created": "2024-11-08T08:38:00+11"
+    },
+    {
+      "id": "_:ann138",
+      "type": "oa:Annotation",
+      "oa:motivatedBy": "oa:commenting",
+      "oa:target": "https://tropicos.org/reference/9006742#name-35121475",
+      "oa:hasBody": {
+        "type": "TaxonConceptMapping",
+        "mappingAccordingTo": "_:ann138",
+        "mappingRelation": "tcs:isIncludedIn",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9006742#name-35121475",
+        "objectTaxonConcept": "https://tropicos.org/reference/9002886#name-35121475",
+        "rdfs:comment": "Tan (1989) recognises Dicranoloma braunfelsioides,"
+      },
+      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821",
+      "dcterms:created": "2024-11-08T08:38:00+11"
+    },
+    {
+      "id": "_:ann139",
+      "type": "oa:Annotation",
+      "oa:motivatedBy": "oa:commenting",
+      "oa:target": "https://tropicos.org/reference/9006742#name-35121491",
+      "oa:hasBody": {
+        "type": "TaxonConceptMapping",
+        "mappingAccordingTo": "_:ann139",
+        "mappingRelation": "tcs:includes",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9006742#name-35121491",
+        "objectTaxonConcept": "https://tropicos.org/reference/9002886#name-35167975"
+      },
+      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821",
+      "dcterms:created": "2024-11-08T08:38:00+11"
+    },
+    {
+      "id": "_:ann140",
+      "type": "oa:Annotation",
+      "oa:motivatedBy": "oa:commenting",
+      "oa:target": "https://tropicos.org/reference/9006742#name-35121491",
+      "oa:hasBody": {
+        "type": "TaxonConceptMapping",
+        "mappingAccordingTo": "_:ann140",
+        "mappingRelation": "tcs:includes",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9006742#name-35121491",
+        "objectTaxonConcept": "https://tropicos.org/reference/9002886#name-35121491"
+      },
+      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821",
+      "dcterms:created": "2024-11-08T08:38:00+11"
+    },
+    {
+      "id": "_:ann141",
+      "type": "oa:Annotation",
+      "oa:motivatedBy": "oa:commenting",
+      "oa:target": "https://tropicos.org/reference/9005756#name-35121609-2",
+      "oa:hasBody": {
+        "type": "TaxonConceptMapping",
+        "mappingAccordingTo": "_:ann141",
+        "mappingRelation": "tcs:includes",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9005756#name-35121609-2",
+        "objectTaxonConcept": "https://tropicos.org/reference/9005756#name-35121587"
+      },
+      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821",
+      "dcterms:created": "2024-11-08T08:38:00+11"
+    },
+    {
+      "id": "_:ann142",
+      "type": "oa:Annotation",
+      "oa:motivatedBy": "oa:commenting",
+      "oa:target": "https://tropicos.org/reference/9005756#name-35121542",
+      "oa:hasBody": {
+        "type": "TaxonConceptMapping",
+        "mappingAccordingTo": "_:ann142",
+        "mappingRelation": "tcs:isIncludedIn",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9005756#name-35121542",
+        "objectTaxonConcept": "https://tropicos.org/reference/9005756#name-35121458-2"
+      },
+      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821",
+      "dcterms:created": "2024-11-08T08:38:00+11"
+    },
+    {
+      "id": "_:ann143",
+      "type": "oa:Annotation",
+      "oa:motivatedBy": "oa:commenting",
+      "oa:target": "https://tropicos.org/reference/9005756#name-35121458-2",
+      "oa:hasBody": {
+        "type": "TaxonConceptMapping",
+        "mappingAccordingTo": "_:ann143",
+        "mappingRelation": "tcs:includes",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9005756#name-35121458-2",
+        "objectTaxonConcept": "https://tropicos.org/reference/9005756#name-35121556"
+      },
+      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821",
+      "dcterms:created": "2024-11-08T08:38:00+11"
+    },
+    {
+      "id": "_:ann144",
+      "type": "oa:Annotation",
+      "oa:motivatedBy": "oa:commenting",
+      "oa:target": "https://tropicos.org/reference/9005756#name-35121609",
+      "oa:hasBody": {
+        "type": "TaxonConceptMapping",
+        "mappingAccordingTo": "_:ann144",
+        "mappingRelation": "tcs:isIncludedIn",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9005756#name-35121609",
+        "objectTaxonConcept": "https://tropicos.org/reference/9005756#name-35121609-2"
+      },
+      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821",
+      "dcterms:created": "2024-11-08T08:38:00+11"
+    },
+    {
+      "id": "_:ann145",
+      "type": "oa:Annotation",
+      "oa:motivatedBy": "oa:commenting",
+      "oa:target": "https://tropicos.org/reference/9005756#name-35121458-2",
+      "oa:hasBody": {
+        "type": "TaxonConceptMapping",
+        "mappingAccordingTo": "_:ann145",
+        "mappingRelation": "tcs:includes",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9005756#name-35121458-2",
+        "objectTaxonConcept": "https://tropicos.org/reference/9005756#name-35121455"
+      },
+      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821",
+      "dcterms:created": "2024-11-08T08:38:00+11"
+    },
+    {
+      "id": "_:ann146",
+      "type": "oa:Annotation",
+      "oa:motivatedBy": "oa:commenting",
+      "oa:target": "https://tropicos.org/reference/9005756#name-35121458",
+      "oa:hasBody": {
+        "type": "TaxonConceptMapping",
+        "mappingAccordingTo": "_:ann146",
+        "mappingRelation": "tcs:isIncludedIn",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9005756#name-35121458",
+        "objectTaxonConcept": "https://tropicos.org/reference/9005756#name-35121458-2"
+      },
+      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821",
+      "dcterms:created": "2024-11-08T08:38:00+11"
+    },
+    {
+      "id": "_:ann147",
+      "type": "oa:Annotation",
+      "oa:motivatedBy": "oa:commenting",
+      "oa:target": "https://tropicos.org/reference/9005756#name-35121455",
+      "oa:hasBody": {
+        "type": "TaxonConceptMapping",
+        "mappingAccordingTo": "_:ann147",
+        "mappingRelation": "tcs:isIncludedIn",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9005756#name-35121455",
+        "objectTaxonConcept": "https://tropicos.org/reference/9005756#name-35121458-2"
+      },
+      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821",
+      "dcterms:created": "2024-11-08T08:38:00+11"
+    },
+    {
+      "id": "_:ann148",
+      "type": "oa:Annotation",
+      "oa:motivatedBy": "oa:commenting",
+      "oa:target": "https://tropicos.org/reference/9005756#name-35121530",
+      "oa:hasBody": {
+        "type": "TaxonConceptMapping",
+        "mappingAccordingTo": "_:ann148",
+        "mappingRelation": "tcs:includes",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9005756#name-35121530",
+        "objectTaxonConcept": "https://tropicos.org/reference/9002886#name-35121530",
+        "rdfs:comment": "excl. Dicranoloma daymannianum"
+      },
+      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821",
+      "dcterms:created": "2024-11-08T08:38:00+11"
+    },
+    {
+      "id": "_:ann149",
+      "type": "oa:Annotation",
+      "oa:motivatedBy": "oa:commenting",
+      "oa:target": "https://tropicos.org/reference/9005756#name-35121530",
+      "oa:hasBody": {
+        "type": "TaxonConceptMapping",
+        "mappingAccordingTo": "_:ann149",
+        "mappingRelation": "tcs:includes",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9005756#name-35121530",
+        "objectTaxonConcept": "https://tropicos.org/reference/9002886#name-35121509"
+      },
+      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821",
+      "dcterms:created": "2024-11-08T08:38:00+11"
+    },
+    {
+      "id": "_:ann150",
+      "type": "oa:Annotation",
+      "oa:motivatedBy": "oa:commenting",
+      "oa:target": "https://tropicos.org/reference/9005756#name-35121609",
+      "oa:hasBody": {
+        "type": "TaxonConceptMapping",
+        "mappingAccordingTo": "_:ann150",
+        "mappingRelation": "tcs:includes",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9005756#name-35121609",
+        "objectTaxonConcept": "https://tropicos.org/reference/9002886#name-35121609",
+        "rdfs:comment": "excl. Dicranoloma dives"
+      },
+      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821",
+      "dcterms:created": "2024-11-08T08:38:00+11"
+    },
+    {
+      "id": "_:ann151",
+      "type": "oa:Annotation",
+      "oa:motivatedBy": "oa:commenting",
+      "oa:target": "https://tropicos.org/reference/9005756#name-35121609-2",
+      "oa:hasBody": {
+        "type": "TaxonConceptMapping",
+        "mappingAccordingTo": "_:ann151",
+        "mappingRelation": "tcs:includes",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9005756#name-35121609-2",
+        "objectTaxonConcept": "https://tropicos.org/reference/9002886#name-35121609",
+        "rdfs:comment": "excl. Dicranoloma dives"
+      },
+      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821",
+      "dcterms:created": "2024-11-08T08:38:00+11"
+    },
+    {
+      "id": "_:ann152",
+      "type": "oa:Annotation",
+      "oa:motivatedBy": "oa:commenting",
+      "oa:target": "https://tropicos.org/reference/9005756#name-35121578",
+      "oa:hasBody": {
+        "type": "TaxonConceptMapping",
+        "mappingAccordingTo": "_:ann152",
+        "mappingRelation": "tcs:isCongruentWith",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9005756#name-35121578",
+        "objectTaxonConcept": "https://tropicos.org/reference/9002886#name-35121578"
+      },
+      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821",
+      "dcterms:created": "2024-11-08T08:38:00+11"
+    },
+    {
+      "id": "_:ann153",
+      "type": "oa:Annotation",
+      "oa:motivatedBy": "oa:commenting",
+      "oa:target": "https://tropicos.org/reference/9005756#name-35121467",
+      "oa:hasBody": {
+        "type": "TaxonConceptMapping",
+        "mappingAccordingTo": "_:ann153",
+        "mappingRelation": "tcs:isIncludedIn",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9005756#name-35121467",
+        "objectTaxonConcept": "https://tropicos.org/reference/9002886#name-35121467",
+        "rdfs:comment": "excl. Dicranoloma brevicapsulare"
+      },
+      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821",
+      "dcterms:created": "2024-11-08T08:38:00+11"
+    },
+    {
+      "id": "_:ann154",
+      "type": "oa:Annotation",
+      "oa:motivatedBy": "oa:commenting",
+      "oa:target": "https://tropicos.org/reference/9005756#name-35121559",
+      "oa:hasBody": {
+        "type": "TaxonConceptMapping",
+        "mappingAccordingTo": "_:ann154",
+        "mappingRelation": "tcs:isIncludedIn",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9005756#name-35121559",
+        "objectTaxonConcept": "https://tropicos.org/reference/9002886#name-35191032"
+      },
+      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821",
+      "dcterms:created": "2024-11-08T08:38:00+11"
+    },
+    {
+      "id": "_:ann155",
+      "type": "oa:Annotation",
+      "oa:motivatedBy": "oa:commenting",
+      "oa:target": "https://tropicos.org/reference/9005756#name-35121609-2",
+      "oa:hasBody": {
+        "type": "TaxonConceptMapping",
+        "mappingAccordingTo": "_:ann155",
+        "mappingRelation": "tcs:partiallyOverlaps",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9005756#name-35121609-2",
+        "objectTaxonConcept": "https://tropicos.org/reference/9002886#name-35121458",
+        "rdfs:comment": "overlaps in Dicranoloma perarmatum"
+      },
+      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821",
+      "dcterms:created": "2024-11-08T08:38:00+11"
+    },
+    {
+      "id": "_:ann156",
+      "type": "oa:Annotation",
+      "oa:motivatedBy": "oa:commenting",
+      "oa:target": "https://tropicos.org/reference/9005756#name-35121455",
+      "oa:hasBody": {
+        "type": "TaxonConceptMapping",
+        "mappingAccordingTo": "_:ann156",
+        "mappingRelation": "tcs:isCongruentWith",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9005756#name-35121455",
+        "objectTaxonConcept": "https://tropicos.org/reference/9002886#name-35121455"
+      },
+      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821",
+      "dcterms:created": "2024-11-08T08:38:00+11"
+    },
+    {
+      "id": "_:ann157",
+      "type": "oa:Annotation",
+      "oa:motivatedBy": "oa:commenting",
+      "oa:target": "https://tropicos.org/reference/9005756#name-35121458-2",
+      "oa:hasBody": {
+        "type": "TaxonConceptMapping",
+        "mappingAccordingTo": "_:ann157",
+        "mappingRelation": "tcs:includes",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9005756#name-35121458-2",
+        "objectTaxonConcept": "https://tropicos.org/reference/9002886#name-35121455"
+      },
+      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821",
+      "dcterms:created": "2024-11-08T08:38:00+11"
+    },
+    {
+      "id": "_:ann158",
+      "type": "oa:Annotation",
+      "oa:motivatedBy": "oa:commenting",
+      "oa:target": "https://tropicos.org/reference/9005756#name-35158613",
+      "oa:hasBody": {
+        "type": "TaxonConceptMapping",
+        "mappingAccordingTo": "_:ann158",
+        "mappingRelation": "tcs:isCongruentWith",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9005756#name-35158613",
+        "objectTaxonConcept": "https://tropicos.org/reference/9002886#name-35121457"
+      },
+      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821",
+      "dcterms:created": "2024-11-08T08:38:00+11"
+    },
+    {
+      "id": "_:ann159",
+      "type": "oa:Annotation",
+      "oa:motivatedBy": "oa:commenting",
+      "oa:target": "https://tropicos.org/reference/9005756#name-35121587",
+      "oa:hasBody": {
+        "type": "TaxonConceptMapping",
+        "mappingAccordingTo": "_:ann159",
+        "mappingRelation": "tcs:isIncludedIn",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9005756#name-35121587",
+        "objectTaxonConcept": "https://tropicos.org/reference/9002886#name-35121458"
+      },
+      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821",
+      "dcterms:created": "2024-11-08T08:38:00+11"
+    },
+    {
+      "id": "_:ann160",
+      "type": "oa:Annotation",
+      "oa:motivatedBy": "oa:commenting",
+      "oa:target": "https://tropicos.org/reference/9005756#name-35121488",
+      "oa:hasBody": {
+        "type": "TaxonConceptMapping",
+        "mappingAccordingTo": "_:ann160",
+        "mappingRelation": "tcs:isIncludedIn",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9005756#name-35121488",
+        "objectTaxonConcept": "https://tropicos.org/reference/9002886#name-35121467"
+      },
+      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821",
+      "dcterms:created": "2024-11-08T08:38:00+11"
+    },
+    {
+      "id": "_:ann161",
+      "type": "oa:Annotation",
+      "oa:motivatedBy": "oa:commenting",
+      "oa:target": "https://tropicos.org/reference/9005756#name-35121486",
+      "oa:hasBody": {
+        "type": "TaxonConceptMapping",
+        "mappingAccordingTo": "_:ann161",
+        "mappingRelation": "tcs:includes",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9005756#name-35121486",
+        "objectTaxonConcept": "https://tropicos.org/reference/9002886#name-35167976",
+        "rdfs:comment": "excl. Dicranoloma brachypelma"
+      },
+      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821",
+      "dcterms:created": "2024-11-08T08:38:00+11"
+    },
+    {
+      "id": "_:ann162",
+      "type": "oa:Annotation",
+      "oa:motivatedBy": "oa:commenting",
+      "oa:target": "https://tropicos.org/reference/9005756#name-35121458",
+      "oa:hasBody": {
+        "type": "TaxonConceptMapping",
+        "mappingAccordingTo": "_:ann162",
+        "mappingRelation": "tcs:includes",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9005756#name-35121458",
+        "objectTaxonConcept": "https://tropicos.org/reference/9002886#name-35121483"
+      },
+      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821",
+      "dcterms:created": "2024-11-08T08:38:00+11"
+    },
+    {
+      "id": "_:ann163",
+      "type": "oa:Annotation",
+      "oa:motivatedBy": "oa:commenting",
+      "oa:target": "https://tropicos.org/reference/9005756#name-35121458",
+      "oa:hasBody": {
+        "type": "TaxonConceptMapping",
+        "mappingAccordingTo": "_:ann163",
+        "mappingRelation": "tcs:includes",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9005756#name-35121458",
+        "objectTaxonConcept": "https://tropicos.org/reference/9002886#name-35121458",
+        "rdfs:comment": "excl. Dicranoloma brassii"
+      },
+      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821",
+      "dcterms:created": "2024-11-08T08:38:00+11"
+    },
+    {
+      "id": "_:ann164",
+      "type": "oa:Annotation",
+      "oa:motivatedBy": "oa:commenting",
+      "oa:target": "https://tropicos.org/reference/9005756#name-35121458-2",
+      "oa:hasBody": {
+        "type": "TaxonConceptMapping",
+        "mappingAccordingTo": "_:ann164",
+        "mappingRelation": "tcs:includes",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9005756#name-35121458-2",
+        "objectTaxonConcept": "https://tropicos.org/reference/9002886#name-35121483"
+      },
+      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821",
+      "dcterms:created": "2024-11-08T08:38:00+11"
+    },
+    {
+      "id": "_:ann165",
+      "type": "oa:Annotation",
+      "oa:motivatedBy": "oa:commenting",
+      "oa:target": "https://tropicos.org/reference/9005756#name-35121491",
+      "oa:hasBody": {
+        "type": "TaxonConceptMapping",
+        "mappingAccordingTo": "_:ann165",
+        "mappingRelation": "tcs:isIncludedIn",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9005756#name-35121491",
+        "objectTaxonConcept": "https://tropicos.org/reference/9002886#name-35191032",
+        "rdfs:comment": "incl. Dicranoloma leucophyllum"
+      },
+      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821",
+      "dcterms:created": "2024-11-08T08:38:00+11"
+    },
+    {
+      "id": "_:ann166",
+      "type": "oa:Annotation",
+      "oa:motivatedBy": "oa:commenting",
+      "oa:target": "https://tropicos.org/reference/9005756#name-35121458-2",
+      "oa:hasBody": {
+        "type": "TaxonConceptMapping",
+        "mappingAccordingTo": "_:ann166",
+        "mappingRelation": "tcs:partiallyOverlaps",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9005756#name-35121458-2",
+        "objectTaxonConcept": "https://tropicos.org/reference/9002886#name-35121458",
+        "rdfs:comment": "incl. Dicranoloma perarmatum; excl. Dicranoloma arfakianum, D. brassii"
+      },
+      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821",
+      "dcterms:created": "2024-11-08T08:38:00+11"
+    },
+    {
+      "id": "_:ann167",
+      "type": "oa:Annotation",
+      "oa:motivatedBy": "oa:commenting",
+      "oa:target": "https://tropicos.org/reference/9005756#name-35121609",
+      "oa:hasBody": {
+        "type": "TaxonConceptMapping",
+        "mappingAccordingTo": "_:ann167",
+        "mappingRelation": "tcs:includes",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9005756#name-35121609",
+        "objectTaxonConcept": "https://tropicos.org/reference/9002886#name-35121518"
+      },
+      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821",
+      "dcterms:created": "2024-11-08T08:38:00+11"
+    },
+    {
+      "id": "_:ann168",
+      "type": "oa:Annotation",
+      "oa:motivatedBy": "oa:commenting",
+      "oa:target": "https://tropicos.org/reference/9005756#name-35121486",
+      "oa:hasBody": {
+        "type": "TaxonConceptMapping",
+        "mappingAccordingTo": "_:ann168",
+        "mappingRelation": "tcs:includes",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9005756#name-35121486",
+        "objectTaxonConcept": "https://tropicos.org/reference/9002886#name-35121479"
+      },
+      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821",
+      "dcterms:created": "2024-11-08T08:38:00+11"
+    },
+    {
+      "id": "_:ann169",
+      "type": "oa:Annotation",
+      "oa:motivatedBy": "oa:commenting",
+      "oa:target": "https://tropicos.org/reference/9005756#name-35121609-2",
+      "oa:hasBody": {
+        "type": "TaxonConceptMapping",
+        "mappingAccordingTo": "_:ann169",
+        "mappingRelation": "tcs:includes",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9005756#name-35121609-2",
+        "objectTaxonConcept": "https://tropicos.org/reference/9002886#name-35121518"
+      },
+      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821",
+      "dcterms:created": "2024-11-08T08:38:00+11"
+    },
+    {
+      "id": "_:ann170",
+      "type": "oa:Annotation",
+      "oa:motivatedBy": "oa:commenting",
+      "oa:target": "https://tropicos.org/reference/9005756#name-35121475",
+      "oa:hasBody": {
+        "type": "TaxonConceptMapping",
+        "mappingAccordingTo": "_:ann170",
+        "mappingRelation": "tcs:isCongruentWith",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9005756#name-35121475",
+        "objectTaxonConcept": "https://tropicos.org/reference/9002886#name-35121475"
+      },
+      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821",
+      "dcterms:created": "2024-11-08T08:38:00+11"
+    },
+    {
+      "id": "_:ann171",
+      "type": "oa:Annotation",
+      "oa:motivatedBy": "oa:commenting",
+      "oa:target": "https://tropicos.org/reference/9005756#name-35121491",
+      "oa:hasBody": {
+        "type": "TaxonConceptMapping",
+        "mappingAccordingTo": "_:ann171",
+        "mappingRelation": "tcs:isIncludedIn",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9005756#name-35121491",
+        "objectTaxonConcept": "https://tropicos.org/reference/9002886#name-35121491",
+        "rdfs:comment": "excl. Dicranoloma braunii, Dicranoloma leucophyllum"
+      },
+      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821",
+      "dcterms:created": "2024-11-08T08:38:00+11"
+    },
+    {
+      "id": "_:ann172",
+      "type": "oa:Annotation",
+      "oa:motivatedBy": "oa:commenting",
+      "oa:target": "https://tropicos.org/reference/9002886#name-35191032",
+      "oa:hasBody": {
+        "type": "TaxonConceptMapping",
+        "mappingAccordingTo": "_:ann172",
+        "mappingRelation": "tcs:isIncludedIn",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9002886#name-35191032",
+        "objectTaxonConcept": "https://tropicos.org/reference/9002886#name-35121491"
+      },
+      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821",
+      "dcterms:created": "2024-11-08T08:38:00+11"
+    },
+    {
+      "id": "_:ann173",
+      "type": "oa:Annotation",
+      "oa:motivatedBy": "oa:commenting",
+      "oa:target": "https://tropicos.org/reference/9002886#name-35121491",
+      "oa:hasBody": {
+        "type": "TaxonConceptMapping",
+        "mappingAccordingTo": "_:ann173",
+        "mappingRelation": "tcs:includes",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9002886#name-35121491",
+        "objectTaxonConcept": "https://tropicos.org/reference/9002886#name-35191032"
+      },
+      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821",
+      "dcterms:created": "2024-11-08T08:38:00+11"
+    },
+    {
+      "id": "_:ann174",
+      "type": "oa:Annotation",
+      "oa:motivatedBy": "oa:commenting",
+      "oa:target": "https://tropicos.org/reference/9002886#name-35167976",
+      "oa:hasBody": {
+        "type": "TaxonConceptMapping",
+        "mappingAccordingTo": "_:ann174",
+        "mappingRelation": "tcs:includes",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9002886#name-35167976",
+        "objectTaxonConcept": "https://tropicos.org/reference/9002886#name-35167975"
+      },
+      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821",
+      "dcterms:created": "2024-11-08T08:38:00+11"
+    },
+    {
+      "id": "_:ann175",
+      "type": "oa:Annotation",
+      "oa:motivatedBy": "oa:commenting",
+      "oa:target": "https://tropicos.org/reference/9002886#name-35167975",
+      "oa:hasBody": {
+        "type": "TaxonConceptMapping",
+        "mappingAccordingTo": "_:ann175",
+        "mappingRelation": "tcs:isIncludedIn",
+        "subjectTaxonConcept": "https://tropicos.org/reference/9002886#name-35167975",
+        "objectTaxonConcept": "https://tropicos.org/reference/9002886#name-35167976"
+      },
+      "dcterms:creator": "https://orcid.org/0000-0003-2224-6821",
+      "dcterms:created": "2024-11-08T08:38:00+11"
     }
   ]
 }

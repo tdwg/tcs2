@@ -1,10 +1,15 @@
 # Implementation experience report
 
+## Introduction
+
 No new features have been added in this revision of TCS. One of the main
 objectives of the current effort is to make TCS useful again and all terms in
 the current release are widely implemented in applications that are out there.
 Terms for which a clear use case could not be identified have been left out of
 this release.
+
+
+## Relation with ColDP
 
 A recent important application, the Catalog of Life Data Package (ColDP), has a
 data model that is very similar to TCS and includes all TCS terms, the main
@@ -20,12 +25,16 @@ Taxon. When the names in a data set are unique, it is possible to roundtrip
 between the two schemas of ColDP—i.e., the schema with Taxon and Name and the
 schema with Name usage—and between TCS and Darwin Core.
 
+
+## Relation with Darwin Core
+
 TCS can play the same role for the Darwin Core Taxon that the Darwin Core IRI
 (`dwciri`) namespace has for the other Darwin Core entities. Moreover the TCS
 Nomenclatural Type can be used as the object for the `dwciri:typeStatus`
 property.
 
-<br/>
+
+## An example
 
 ![alt text](media/figure-1.png)
 
@@ -34,8 +43,8 @@ all associated names (orange dots). Taxon Concepts are connected to names via
 the `taxonName` and `synonym` properties and Taxon Names are connected to each
 other through the `basionym` and `replacedName` properties. **A.** Dicranoloma
 assimile sec. Klazenga 1999 ([figure-1a.svg](media/figure-1a.svg)), **B.** Dicranum assimile sec. Norris & Koponen
-1990 ([figure-1b.svg](media/figure-1b.svg)), **C.** Dicranoloma assimile sec. Tan 1989 ([figure-1c.svg](media/figure-1c.svg)), **D.** Dicranoloma assimile sec.
-Eddy 1988 ([figure-1d.svg](media/figure-1d.svg)), **E.** Dicranoloma assimile sec. Tan & Koponen 1983 ([figure-1e.svg](media/figure-1e.svg)).
+1990 ([figure-1b.svg](media/figure-1b.svg)), **C.** Dicranoloma assimile sec. Tan 1989 ([figure-1c.svg](media/figure-1c.svg)), **D.** Dicranoloma assimile s.s. sec.
+Eddy 1988 ([figure-1d.svg](media/figure-1d.svg)), **E.** Dicranoloma assimile s.l. sec. Eddy 1988 ([figure-1e.svg](media/figure-1e.svg)), **F.** Dicranoloma assimile sec. Tan & Koponen 1983 ([figure-1f.svg](media/figure-1f.svg)).
 
 <hr/>
 
@@ -45,7 +54,7 @@ Eddy 1988 ([figure-1d.svg](media/figure-1d.svg)), **E.** Dicranoloma assimile se
 
 <hr>
 
-<img alt="" src="media/taxon-concepts-taxon-names.svg" width="800">
+<img alt="" src="media/figure-3.svg" width="800">
 
 **Fig. 3.** Graph with all Taxon Concepts and Taxon Names.
 
@@ -104,12 +113,3 @@ author of the latest revision (intensional mappings).
 **Fig. 10.** As previous figure, but with "group concepts" (AviBase's "deep
 concepts"), representing all Taxon Concepts that are congruent with it and each
 other.
-
-<hr>
-
-<img alt="" src="media/figure-11.svg" width="800">
-
-**Fig. 11.** Taxon Concepts with ostensive mappings from Fig. 7 with
-higher-taxon concepts and classification as in Fig. 9.
-
-<hr>
