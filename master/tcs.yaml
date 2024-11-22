@@ -1101,6 +1101,148 @@
     - predicate: "skos:exactMatch"
       iri: "tn:ConservedAgainst"
 
+# property: basionymAuthor
+- localName: basionymAuthor
+  label: Basionym author
+  definition: Author of the basionym of the name
+  usage: >-
+    `basionymAuthor` is an IRI property. It can be a Person or a Group, or
+    multiple Person IRIs or objects.
+  notes: >-
+    `basionymAuthor` (or its literal counterpart) is the bit in parentheses
+    in the `dwc:scientificNameAuthorship`.
+  type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+  organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonName
+  required: No
+  repeatable: Yes
+  github: 239
+
+# property: basionymAuthorLiteral
+- localName: basionymAuthorLiteral
+  label: Basionym author literal
+  definition: Author of the basionym of the name
+  usage: >-
+    `basionymAuthorLiteral` is a Literal property.
+  notes: >-
+    `basionymAuthorLiteral` is the bit in parentheses
+    in the `dwc:scientificNameAuthorship`.
+  type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+  organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonName
+  required: No
+  repeatable: No
+  github: 239
+
+# property: combinationAuthor
+- localName: combinationAuthor
+  label: Combination author
+  definition: Author of the present name
+  usage: >-
+    `combinationAuthor` is an IRI property. It can be a Person or a Group, or
+    multiple Person IRIs or objects.
+  notes: >-
+    `combinationAuthor` is not quite right for uninomials but we have thought
+    hard about a better term and have come up empty for now.
+  type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+  organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonName
+  required: No
+  repeatable: Yes
+  github: 239
+
+# property: combinationAuthorLiteral
+- localName: combinationAuthorLiteral
+  label: Combination author literal
+  definition: Author of the present name
+  usage: >-
+    `combinationAuthorLiteral` is a Literal property.
+  notes: null
+  type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+  organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonName
+  required: No
+  repeatable: No
+  github: 239
+
+# property: basionymAscribedAuthor
+- localName: basionymAscribedAuthor
+  label: Basionym author
+  definition: Ascribed author of the basionym of the name
+  usage: >-
+    `basionymAscribedAuthor` is an IRI property. It can be a Person or a Group, or
+    multiple Person IRIs or objects.
+  notes: >-
+    'Ascribed author' is a person (or group of people) who a name is ascribed to
+    in a publication, but who is not the author of the name according to the
+    rules of the nomenclatural codes, because they did not contribute to the
+    validating description of the name. In the `dwc:scientificNameAuthorship`
+    these authors are indicated with 'ex'. Note that for botanical names the
+    ascribed author comes before the 'ex' while for zoological names it comes
+    after.
+  type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+  organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonName
+  required: No
+  repeatable: Yes
+  github: 239
+
+# property: basionymAscribedAuthorLiteral
+- localName: basionymAscribedAuthorLiteral
+  label: Basionym author literal
+  definition: Ascribed author of the basionym of the name
+  usage: >-
+    `basionymAscribedAuthorLiteral` is a Literal property.
+  notes: >-
+    'Ascribed author' is a person (or group of people) who a name is ascribed to
+    in a publication, but who is not the author of the name according to the
+    rules of the nomenclatural codes, because they did not contribute to the
+    validating description of the name. In the `dwc:scientificNameAuthorship`
+    these authors are indicated with 'ex'. Note that for botanical names the
+    ascribed author comes before the 'ex' while for zoological names it comes
+    after.
+  type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+  organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonName
+  required: No
+  repeatable: No
+  github: 239
+
+# property: combinationAscribedAuthor
+- localName: combinationAscribedAuthor
+  label: Combination ascribed author
+  definition: Ascribed author of the present name
+  usage: >-
+    `combinationAscibedAuthor` is an IRI property. It can be a Person or a Group, or
+    multiple Person IRIs or objects.
+  notes: >-
+    'Ascribed author' is a person (or group of people) who a name is ascribed to
+    in a publication, but who is not the author of the name according to the
+    rules of the nomenclatural codes, because they did not contribute to the
+    validating description of the name. In the `dwc:scientificNameAuthorship`
+    these authors are indicated with 'ex'. Note that for botanical names the
+    ascribed author comes before the 'ex' while for zoological names it comes
+    after.
+  type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+  organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonName
+  required: No
+  repeatable: Yes
+  github: 239
+
+# property: combinationAscribedAuthorLiteral
+- localName: combinationAscribedAuthorLiteral
+  label: Combination ascribed author literal
+  definition: Ascribed author of the present name
+  usage: >-
+    `combinationAscribedAuthorLiteral` is a Literal property.
+  notes: >-
+    'Ascribed author' is a person (or group of people) who a name is ascribed to
+    in a publication, but who is not the author of the name according to the
+    rules of the nomenclatural codes, because they did not contribute to the
+    validating description of the name. In the `dwc:scientificNameAuthorship`
+    these authors are indicated with 'ex'. Note that for botanical names the
+    ascribed author comes before the 'ex' while for zoological names it comes
+    after.
+  type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+  organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonName
+  required: No
+  repeatable: No
+  github: 239
+
 
 # class: NomenclaturalType
 - localName: NomenclaturalType
