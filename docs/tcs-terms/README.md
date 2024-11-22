@@ -3122,7 +3122,7 @@ A scientific name below the rank of family is not conserved against all  other n
 
 **Comments**
 
-'Ascribed author' is a person (or group of people) who a name is ascribed to in a publication, but who is not the author of the name according to the rules of the nomenclatural codes, because they did not contribute to the validating description of the name. In the `dwc:scientificNameAuthorship` these authors are indicated with 'ex'. Note that for botanical names the ascribed author comes before the 'ex' while for zoological names it comes after.
+'Ascribed author' is a person (or group of people) who a name is ascribed to in a publication, but who is not the author of the name according to the rules of the nomenclatural codes, because they did not contribute to the validating description of the name. In the `dwc:scientificNameAuthorship` these authors are indicated with 'ex', the ascribed author coming before the 'ex' and the author the name is attributed to after. Note that the 'ex' construction that is sometimes used with zoological names has got nothing to do with attribution or ascription, but is used to indicate a concept, much like we do here with 'sec.' or 'sensu' in taxon concept labels.
 
 ### tcs:basionymAscribedAuthorLiteral
 
@@ -3162,7 +3162,7 @@ A scientific name below the rank of family is not conserved against all  other n
 
 **Comments**
 
-'Ascribed author' is a person (or group of people) who a name is ascribed to in a publication, but who is not the author of the name according to the rules of the nomenclatural codes, because they did not contribute to the validating description of the name. In the `dwc:scientificNameAuthorship` these authors are indicated with 'ex'. Note that for botanical names the ascribed author comes before the 'ex' while for zoological names it comes after.
+'Ascribed author' is a person (or group of people) who a name is ascribed to in a publication, but who is not the author of the name according to the rules of the nomenclatural codes, because they did not contribute to the validating description of the name. In the `dwc:scientificNameAuthorship` these authors are indicated with 'ex', the ascribed author coming before the 'ex' and the author the name is attributed to after. Note that the 'ex' construction that is sometimes used with zoological names has got nothing to do with attribution or ascription, but is used to indicate a concept, much like we do here with 'sec.' or 'sensu' in taxon concept labels.
 
 ### tcs:combinationAscribedAuthor
 
@@ -3202,7 +3202,7 @@ A scientific name below the rank of family is not conserved against all  other n
 
 **Comments**
 
-'Ascribed author' is a person (or group of people) who a name is ascribed to in a publication, but who is not the author of the name according to the rules of the nomenclatural codes, because they did not contribute to the validating description of the name. In the `dwc:scientificNameAuthorship` these authors are indicated with 'ex'. Note that for botanical names the ascribed author comes before the 'ex' while for zoological names it comes after.
+'Ascribed author' is a person (or group of people) who a name is ascribed to in a publication, but who is not the author of the name according to the rules of the nomenclatural codes, because they did not contribute to the validating description of the name. In the `dwc:scientificNameAuthorship` these authors are indicated with 'ex', the ascribed author coming before the 'ex' and the author the name is attributed to after. Note that the 'ex' construction that is sometimes used with zoological names has got nothing to do with attribution or ascription, but is used to indicate a concept, much like we do here with 'sec.' or 'sensu' in taxon concept labels.
 
 ### tcs:combinationAscribedAuthorLiteral
 
@@ -3242,7 +3242,7 @@ A scientific name below the rank of family is not conserved against all  other n
 
 **Comments**
 
-'Ascribed author' is a person (or group of people) who a name is ascribed to in a publication, but who is not the author of the name according to the rules of the nomenclatural codes, because they did not contribute to the validating description of the name. In the `dwc:scientificNameAuthorship` these authors are indicated with 'ex'. Note that for botanical names the ascribed author comes before the 'ex' while for zoological names it comes after.
+'Ascribed author' is a person (or group of people) who a name is ascribed to in a publication, but who is not the author of the name according to the rules of the nomenclatural codes, because they did not contribute to the validating description of the name. In the `dwc:scientificNameAuthorship` these authors are indicated with 'ex', the ascribed author coming before the 'ex' and the author the name is attributed to after. Note that the 'ex' construction that is sometimes used with zoological names has got nothing to do with attribution or ascription, but is used to indicate a concept, much like we do here with 'sec.' or 'sensu' in taxon concept labels.
 
 ### dwc:scientificNameAuthorship
 
