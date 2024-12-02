@@ -213,12 +213,7 @@ standards, like Plinian Core and SDD.
 
 All parsed name terms, except 'uninomial', are in Darwin Core and have been
 borrowed from there. We think that, if people have a need for a 'uninomial'
-term, it might be best to have that in Darwin Core as well. Parsed authorship
-terms are not in Darwin Core, but we have not added them in TCS 2 either, as
-adding them is not straightforward because, unlike the parsed name terms, these
-terms are not defined outside TDWG standards. They can be added if people
-who want them can come up with terms and definitions that are acceptable to the
-entire community.
+term, it might be best to have that in Darwin Core as well.
 
 Finally, several of the relations in the Taxon Relationship Type enumeration
 have not (yet) been included as properties. Some of these are negations of
@@ -516,12 +511,12 @@ TCS 1 | TDWG Ontology | TCS 2
 /DataSet/TaxonNames/TaxonName/CanonicalName/InfraspecificEpithet | [tn:infraspecificEpithet](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L147) | [dwc:infraspecificEpithet](https://github.com/tdwg/tcs2/tree/master/docs/tcs-terms#dwcinfraspecificepithet)
 /DataSet/TaxonNames/TaxonName/CanonicalName/CultivarNameGroup | [tn:cultivarNameGroup](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L97) | [dwc:cultivarEpithet](https://github.com/tdwg/tcs2/tree/master/docs/tcs-terms#dwccultivarepithet)
 /DataSet/TaxonNames/TaxonName/CanonicalAuthorship/Simple | [tn:authorship](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L72) | [dwc:scientificNameAuthorship](https://github.com/tdwg/tcs2/tree/master/docs/tcs-terms#dwcscientificnameauthorship)
-/DataSet/TaxonNames/TaxonName/CanonicalAuthorship/Authorship/Simple | &mdash; | &mdash;
-/DataSet/TaxonNames/TaxonName/CanonicalAuthorship/Authorship/Authors | &mdash; | &mdash;
-/DataSet/TaxonNames/TaxonName/CanonicalAuthorship/BasionymAuthorship/Simple | [  tn:basionymAuthorship](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L373) | &mdash;
-/DataSet/TaxonNames/TaxonName/CanonicalAuthorship/BasionymAuthorship/Authors | &mdash; | &mdash;
-/DataSet/TaxonNames/TaxonName/CanonicalAuthorship/CombinationAuthorship/Simple | [tn:combinationAuthorship](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L388) | &mdash;
-/DataSet/TaxonNames/TaxonName/CanonicalAuthorship/CombinationAuthorship/Authors | &mdash; | &mdash;
+/DataSet/TaxonNames/TaxonName/CanonicalAuthorship/Authorship/Simple | [tn:combinationAuthorship](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L388) | [combinationAuthorLiteral](https://github.com/tdwg/tcs2/tree/master/docs/tcs-terms#tcscombinationauthorliteral) \| [combinationAscribedAuthorLiteral](https://github.com/tdwg/tcs2/tree/master/docs/tcs-terms#tcscombinationascribedauthorliteral)
+/DataSet/TaxonNames/TaxonName/CanonicalAuthorship/Authorship/Authors | &mdash; | [combinationAuthor](https://github.com/tdwg/tcs2/tree/master/docs/tcs-terms#tcscombinationauthor) \| [combinationAscribedAuthor](https://github.com/tdwg/tcs2/tree/master/docs/tcs-terms#tcscombinationascribedauthor)
+/DataSet/TaxonNames/TaxonName/CanonicalAuthorship/BasionymAuthorship/Simple | [  tn:basionymAuthorship](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L373) | [basionymAuthorLiteral](https://github.com/tdwg/tcs2/tree/master/docs/tcs-terms#tcsbasionymauthorliteral) \| [basionymAsctibedAuthorLiteral](https://github.com/tdwg/tcs2/tree/master/docs/tcs-terms#tcsbasionymascribedauthorliteral)
+/DataSet/TaxonNames/TaxonName/CanonicalAuthorship/BasionymAuthorship/Authors | &mdash; | [basionymAuthor](https://github.com/tdwg/tcs2/tree/master/docs/tcs-terms#tcsbasionymauthor) \| [basionymAscribedAuthor](https://github.com/tdwg/tcs2/tree/master/docs/tcs-terms#tcsbasionymascribedauthor)
+/DataSet/TaxonNames/TaxonName/CanonicalAuthorship/CombinationAuthorship/Simple | [tn:combinationAuthorship](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L388) | [combinationAuthorLiteral](https://github.com/tdwg/tcs2/tree/master/docs/tcs-terms#tcscombinationauthorliteral) \| [combinationAscribedAuthorLiteral](https://github.com/tdwg/tcs2/tree/master/docs/tcs-terms#tcscombinationascribedauthorliteral)
+/DataSet/TaxonNames/TaxonName/CanonicalAuthorship/CombinationAuthorship/Authors | &mdash; | [combinationAuthor](https://github.com/tdwg/tcs2/tree/master/docs/tcs-terms#tcscombinationauthor) \| [combinationAscribedAuthor](https://github.com/tdwg/tcs2/tree/master/docs/tcs-terms#tcscombinationascribedauthor)
 /DataSet/TaxonNames/TaxonName/PublishedIn | &mdash; | [namePublishedIn](https://github.com/tdwg/tcs2/tree/master/docs/tcs-terms#tcsnamepublishedin)
 /DataSet/TaxonNames/TaxonName/Year | [tn:year](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L269) | [dwc:namePublishedInYear](https://github.com/tdwg/tcs2/tree/master/docs/tcs-terms#dwcnamepublishedinyear)
 /DataSet/TaxonNames/TaxonName/MicroReference \| //element(*,NomenclaturalNoteType)/MicroReference | &mdash; | [microReference](https://github.com/tdwg/tcs2/tree/master/docs/tcs-terms#tcsmicroreference)
