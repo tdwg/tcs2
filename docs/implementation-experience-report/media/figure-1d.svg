@@ -1,0 +1,93 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="483.2648620605469" height="436.61273193359375"
+  viewBox="-279.3452453613281 -193.4558868408203 483.2648620605469 436.61273193359375" style="background-color:white">
+  <title>Neo4j Graph Visualization</title>
+  <desc>Created using Neo4j (http://www.neo4j.com/)</desc>
+  <g class="layer relationships">
+    <g class="relationship" transform="translate(22.81963006896461 80.18904448267494) rotate(355.4528486107956)">
+      <path class="b-outline" fill="#4C8EDA" stroke="none"
+        d="M 32.5 1 L 51.471758089900504 1 L 51.471758089900504 -1 L 32.5 -1 Z M 100.6084768399005 1 L 119.58023492980101 1 L 119.58023492980101 4 L 127.58023492980101 0 L 119.58023492980101 -4 L 119.58023492980101 -1 L 100.6084768399005 -1 Z" />
+      <text text-anchor="middle" pointer-events="none" font-size="8px" fill="#000000" x="76.0401174649005" y="3"
+        font-family="Helvetica Neue, Helvetica, Arial, sans-serif">accordingTo</text>
+    </g>
+    <g class="relationship" transform="translate(22.81963006896461 80.18904448267494) rotate(422.74994926218824)">
+      <path class="b-outline" fill="#C990C0" stroke="none"
+        d="M 32.5 1.5 L 55.59018594047431 1.5 L 55.59018594047431 -1.5 L 32.5 -1.5 Z M 93.60190469047431 1.5 L 116.69209063094863 1.5 L 116.69209063094863 4.5 L 125.69209063094863 0 L 116.69209063094863 -4.5 L 116.69209063094863 -1.5 L 93.60190469047431 -1.5 Z" />
+      <text text-anchor="middle" pointer-events="none" font-size="8px" fill="#000000" x="74.59604531547431" y="3"
+        font-family="Helvetica Neue, Helvetica, Arial, sans-serif">synonym</text>
+    </g>
+    <g class="relationship" transform="translate(22.81963006896461 80.18904448267494) rotate(307.0654710433854)">
+      <path class="b-outline" fill="#C990C0" stroke="none"
+        d="M 32.5 1.5 L 57.118729940632136 1.5 L 57.118729940632136 -1.5 L 32.5 -1.5 Z M 95.13044869063214 1.5 L 119.74917863126427 1.5 L 119.74917863126427 4.5 L 128.74917863126427 0 L 119.74917863126427 -4.5 L 119.74917863126427 -1.5 L 95.13044869063214 -1.5 Z" />
+      <text text-anchor="middle" pointer-events="none" font-size="8px" fill="#000000" x="76.12458931563214" y="3"
+        font-family="Helvetica Neue, Helvetica, Arial, sans-serif">synonym</text>
+    </g>
+    <g class="relationship" transform="translate(22.81963006896461 80.18904448267494) rotate(258.1422377788266)">
+      <path class="b-outline" fill="#FFC454" stroke="none"
+        d="M 32.5 1.5 L 56.35141726448195 1.5 L 56.35141726448195 -1.5 L 32.5 -1.5 Z M 103.26157351448195 1.5 L 127.1129907789639 1.5 L 127.1129907789639 4.5 L 136.1129907789639 0 L 127.1129907789639 -4.5 L 127.1129907789639 -1.5 L 103.26157351448195 -1.5 Z" />
+      <text text-anchor="middle" pointer-events="none" font-size="8px" fill="#000000" x="79.80649538948195" y="3"
+        transform="rotate(180 79.80649538948195 0)"
+        font-family="Helvetica Neue, Helvetica, Arial, sans-serif">taxonName</text>
+    </g>
+    <g class="relationship" transform="translate(-10.286315822462713 -77.48591276918668) rotate(215.875323749627)">
+      <path class="b-outline" fill="#F79767" stroke="none"
+        d="M 25 1 L 50.08436785681248 1 L 50.08436785681248 -1 L 25 -1 Z M 90.32264910681248 1 L 115.40701696362495 1 L 115.40701696362495 4 L 123.40701696362495 0 L 115.40701696362495 -4 L 115.40701696362495 -1 L 90.32264910681248 -1 Z" />
+      <text text-anchor="middle" pointer-events="none" font-size="8px" fill="#000000" x="70.20350848181248" y="3"
+        transform="rotate(180 70.20350848181248 0)"
+        font-family="Helvetica Neue, Helvetica, Arial, sans-serif">basionym</text>
+    </g>
+    <g class="relationship" transform="translate(-149.97056564607644 -19.421457408106168) rotate(277.63073540987193)">
+      <path class="b-outline" fill="#F79767" stroke="none"
+        d="M 25 1 L 49.04599927036742 1 L 49.04599927036742 -1 L 25 -1 Z M 89.28428052036742 1 L 113.33027979073483 1 L 113.33027979073483 4 L 121.33027979073483 0 L 113.33027979073483 -4 L 113.33027979073483 -1 L 89.28428052036742 -1 Z" />
+      <text text-anchor="middle" pointer-events="none" font-size="8px" fill="#000000" x="69.16513989536742" y="3"
+        font-family="Helvetica Neue, Helvetica, Arial, sans-serif">basionym</text>
+    </g>
+    <g class="relationship" transform="translate(-250.3452639500061 -82.45269229009257) rotate(325.60957614434966)">
+      <path class="b-outline" fill="#F79767" stroke="none"
+        d="M 25 1 L 48.47203020055265 1 L 48.47203020055265 -1 L 25 -1 Z M 88.71031145055265 1 L 112.1823416511053 1 L 112.1823416511053 4 L 120.1823416511053 0 L 112.1823416511053 -4 L 112.1823416511053 -1 L 88.71031145055265 -1 Z" />
+      <text text-anchor="middle" pointer-events="none" font-size="8px" fill="#000000" x="68.59117082555265" y="3"
+        font-family="Helvetica Neue, Helvetica, Arial, sans-serif">basionym</text>
+    </g>
+  </g>
+  <g class="layer nodes">
+    <g class="node" aria-label="graph-node594" transform="translate(22.81963006896461,80.18904448267494)">
+      <circle class="b-outline" cx="0" cy="0" r="32.5" fill="#8DCC93" stroke="#5db665" stroke-width="2px" /><text
+        class="caption" text-anchor="middle" pointer-events="none" x="0" y="5" font-size="10px" fill="#2A2C34"
+        font-family="Helvetica Neue, Helvetica, Arial, sans-serif"> </text>
+    </g>
+    <g class="node" aria-label="graph-node456" transform="translate(91.81772621743129,214.1568350392598)">
+      <circle class="b-outline" cx="0" cy="0" r="25" fill="#F79767" stroke="#f36924" stroke-width="2px" /><text
+        class="caption" text-anchor="middle" pointer-events="none" x="0" y="5" font-size="10px" fill="#FFFFFF"
+        font-family="Helvetica Neue, Helvetica, Arial, sans-serif"> </text>
+    </g>
+    <g class="node" aria-label="graph-node648" transform="translate(174.91960779783344,68.09256292352426)">
+      <circle class="b-outline" cx="0" cy="0" r="25" fill="#4C8EDA" stroke="#2870c2" stroke-width="2px" /><text
+        class="caption" text-anchor="middle" pointer-events="none" x="0" y="5" font-size="10px" fill="#FFFFFF"
+        font-family="Helvetica Neue, Helvetica, Arial, sans-serif"> </text>
+    </g>
+    <g class="node" aria-label="graph-node534" transform="translate(115.48844494191239,-42.49469804188185)">
+      <circle class="b-outline" cx="0" cy="0" r="25" fill="#F79767" stroke="#f36924" stroke-width="2px" /><text
+        class="caption" text-anchor="middle" pointer-events="none" x="0" y="5" font-size="10px" fill="#FFFFFF"
+        font-family="Helvetica Neue, Helvetica, Arial, sans-serif"> </text>
+    </g>
+    <g class="node" aria-label="graph-node445" transform="translate(-10.286315822462713,-77.48591276918668)">
+      <circle class="b-outline" cx="0" cy="0" r="25" fill="#F79767" stroke="#f36924" stroke-width="2px" /><text
+        class="caption" text-anchor="middle" pointer-events="none" x="0" y="5" font-size="10px" fill="#FFFFFF"
+        font-family="Helvetica Neue, Helvetica, Arial, sans-serif"> </text>
+    </g>
+    <g class="node" aria-label="graph-node446" transform="translate(-130.53964684188412,-164.4559022067802)">
+      <circle class="b-outline" cx="0" cy="0" r="25" fill="#F79767" stroke="#f36924" stroke-width="2px" /><text
+        class="caption" text-anchor="middle" pointer-events="none" x="0" y="5" font-size="10px" fill="#FFFFFF"
+        font-family="Helvetica Neue, Helvetica, Arial, sans-serif"> </text>
+    </g>
+    <g class="node" aria-label="graph-node447" transform="translate(-149.97056564607644,-19.421457408106168)">
+      <circle class="b-outline" cx="0" cy="0" r="25" fill="#F79767" stroke="#f36924" stroke-width="2px" /><text
+        class="caption" text-anchor="middle" pointer-events="none" x="0" y="5" font-size="10px" fill="#FFFFFF"
+        font-family="Helvetica Neue, Helvetica, Arial, sans-serif"> </text>
+    </g>
+    <g class="node" aria-label="graph-node448" transform="translate(-250.3452639500061,-82.45269229009257)">
+      <circle class="b-outline" cx="0" cy="0" r="25" fill="#F79767" stroke="#f36924" stroke-width="2px" /><text
+        class="caption" text-anchor="middle" pointer-events="none" x="0" y="5" font-size="10px" fill="#FFFFFF"
+        font-family="Helvetica Neue, Helvetica, Arial, sans-serif"> </text>
+    </g>
+  </g>
+</svg>

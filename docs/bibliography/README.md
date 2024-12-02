@@ -16,6 +16,8 @@ Berlin Model: A Concept-Based Taxonomic Information Model'. In MoReTax: Handling
 Factual Information Linked to Taxonomic Concepts in Biology, Schriftenreihe Fur
 Vegetationskunde 39, pp. 15–42.
 
+<a id="eddy_sphagnales_1988"></a> Eddy, A. (1988). Sphagnales to Dicranales, A
+Handbook of Malesian Mosses. Natural History Museum Publications, London.
 
 <a id="franz_perspectives_2009"></a> [franz_perspectives_2009]&emsp;Franz, N.M.
 and Peet, R.K. (2009) ‘Perspectives: Towards a language for mapping
@@ -37,17 +39,30 @@ Sciadorhodion, Rhodora and Viscidula)’, Edinburgh Journal of Botany, 52(1), pp
 (2012) 33. Dicranaceae, Australian Mosses Online. Available at:
 https://www.anbg.gov.au/abrs/Mosses_online/Dicranaceae.pdf.
 
+<a id="lepage_avibase_2014"></a>[lepage_avibase_2014] Lepage, D., Vaidya, G., Guralnick, R., 2014. Avibase – a database system for managing and organizing taxonomic concepts. ZooKeys 420, 117–135. https://doi.org/10.3897/zookeys.420.7089
+
+<a id="norris_bryophyte_1990"></a> [norris_bryophytes_1990] Norris, D.H., Koponen, T. (1990). Bryophyte
+flora of the Huon Peninsula, Papua New Guinea. XXXV. Dicranaceae and
+Dicnemonaceae (Musci). Acta Bot. Fenn. 139, 1–64.
+
 <a id="senderov_openbiodiv-o_2018"></a>
 [senderov_openbiodiv-o_2018]&emsp;Senderov, V. et al. (2018) ‘OpenBiodiv-O:
 ontology of the OpenBiodiv knowledge management system’, Journal of Biomedical
 Semantics, 9(1), p. 5. https://doi.org/10.1186/s13326-017-0174-5.
 
 <a id="senderov_openbiodiv_nodate"></a>
-Senderov, Viktor, and Kiril Simov. “OpenBiodiv Ontology and Guide.” The Open Biodiversity Knowledge Management System. Accessed October 26, 2024. https://github.com/pensoft/OpenBiodiv/blob/master/ontology/openbiodiv-ontology.Rmd.
-
+[senderov_openbiodiv_nodate] Senderov, Viktor, and Kiril Simov. “OpenBiodiv Ontology and Guide.” The Open Biodiversity 
+Knowledge Management System. Accessed October 26, 2024. https://github.com/pensoft/OpenBiodiv/blob/master/ontology/openbiodiv-ontology.Rmd.
 
 <a id="sokal_principles_1963"></a> [sokal_principles_1963]&emsp;Sokal, R.R. and
 Sneath, P.H.A. (1963) Principles of Numerical Taxonomy. New York: W.H. Freeman &
 Co.
 
+<a id="tan_bryophytes_1989"></a>[tan_bryophytes_1989] Tan, B.C. (1989). The bryophytes of Sabah
+(North Borneo) with special reference to the BRYOTROP transect of Mount
+Kinabalu. II. Dicranoloma and Brotherobryum (Dicranaceae, Bryopsida).
+Willdenowia 18, 497–512.
 
+<a id="tan_dicranoloma_1983"><a>[tan_dicranoloma_1983] Tan, B.C., Koponen, T. (1983). Dicranoloma
+(Musci, Dicranaceae) in Southeast Asia, with special reference to the Philippine
+taxa. Ann. Bot. Fenn. 20, 317–334.
