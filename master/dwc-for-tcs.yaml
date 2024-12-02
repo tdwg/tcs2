@@ -12,14 +12,21 @@
     identification qualifications, which should instead be supplied in the 
     IdentificationQualifier term.
   usage: >-
-    `scientificName` can be used instead of the `taxonNameString` property.
+    `scientificName` can be used instead of the `taxonName` property on a Taxon
+    Concept or the `taxonNameString` property on the Taxon Name.
   notes: null
   examples: null
   type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
-  organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonName
+  organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonConcept
   required: No
   repeatable: No
   github: 17
+  mappings:
+    - predicate: "skos:broadMatch"
+      iri: /DataSet/TaxonNames/TaxonName/Simple
+      remarks: TCS 1 uses the same element for vernacular names
+    - predicate: "skos:broadMatch"
+      iri: tn:nameComplete
 
 # property: scientificNameAuthorship
 - localName: scientificNameAuthorship
@@ -37,6 +44,50 @@
   required: No
   repeatable: No
   github: 24
+  mappings:
+    - predicate: "skos:exactMatch"
+      iri: /DataSet/TaxonNames/TaxonName/CanonicalAuthorship/Simple
+    - predicate: "skos:exactMatch"
+      iri: "tn:authorship"
+
+# property: vernacularName
+- localName: vernacularName
+  label: Vernacular Name 
+  definition: >-
+    A common or vernacular name.
+  usage: null
+  notes: null
+  examples: null
+  type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+  organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonConcept
+  required: No
+  repeatable: No
+  github: 235
+
+# property: namePublishedIn
+- localName: namePublishedIn
+  label: Name Published In
+  definition: >-
+    A reference for the publication in which the dwc:scientificName was 
+    originally established under the rules of the associated 
+    dwc:nomenclaturalCode.
+  usage: null
+  notes: >-
+    This is the string equivalent of the TCS `namePublishedIn`. It can be used
+    if one wants to give the protologue as a string, as in many botanical
+    publications.
+  examples: null
+  type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+  organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonName
+  required: No
+  repeatable: No
+  github: 237
+  mappings:
+  - predicate: "skos:exactMatch"
+    iri: /DataSet/TaxonNames/TaxonName/Simple 
+    remarks: >-
+      The TCS 1 element can be used with both a 'ref' attribute and a text node.
+
 
 # namePublishedInYear
 - localName: namePublishedInYear
@@ -53,6 +104,36 @@
   required: No
   repeatable: No
   github: 31
+  mappings:
+    - predicate: "skos:exactMatch"
+      iri: /DataSet/TaxonNames/TaxonName/Year
+    - predicate: "skos:exactMatch"
+      iri: "tn:year"
+
+# verbatimTaxonRank
+- localName: verbatimTaxonRank
+  label: Verbatim taxon rank
+  definition: >-
+    The taxonomic rank of the most specific name in the dwc:scientificName as it
+    appears in the original record.
+  usage: 
+  notes: >-
+    This term can be used for taxonomic rank designations that are not in the
+    controlled vocabulary that is used. Implementations can decide for
+    themselves if it makes more sense to use this term on a Taxon Concept object
+    or a Taxon Name object, or both.
+  examples: null
+  type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+  organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonConcept
+  required: No
+  repeatable: No
+  github: 6
+  mappings:
+    - predicate: "skos:exactMatch"
+      iri: /DataSet/TaxonConcepts/TaxonConcept/Rank
+    - predicate: "skos:exactMatch"
+      iri: tc:rankString
+
 
 # property: genericName
 - localName: genericName
@@ -67,6 +148,11 @@
   required: No
   repeatable: No
   github: 19
+  mappings: 
+    - predicate: "skos:exactMatch"
+      iri: /DataSet/TaxonNames/TaxonName/CanonicalName/Genus
+    - predicate: "skos:exactMatch"
+      iri: "tn:genusPart"
 
 # property: infragenericEpithet
 - localName: infragenericEpithet
@@ -87,6 +173,11 @@
   required: No
   repeatable: No
   github: 20
+  mappings:
+    - predicate: "skos:exactMatch"
+      iri: /DataSet/TaxonNames/TaxonName/CanonicalName/InfragenericEpithet
+    - predicate: "skos:exactMatch"
+      iri: "tn:infragenericEpithet"
 
 # property: specificEpithet
 - localName: specificEpithet
@@ -105,6 +196,11 @@
   required: No
   repeatable: No
   github: 21
+  mappings:
+    - predicate: "skos:exactMatch"
+      iri: /DataSet/TaxonNames/TaxonName/CanonicalName/SpecificEpithet
+    - predicate: "skos:exactMatch"
+      iri: "tn:specificEpithet"
 
 # property: infraspecificEpithet
 - localName: infraspecificEpithet
@@ -125,6 +221,11 @@
   repeatable: No
   required: No
   github: 22
+  mappings:
+    - predicate: "skos:exactMatch"
+      iri: /DataSet/TaxonNames/TaxonName/CanonicalName/InfraspecificEpithet
+    - predicate: "skos:exactMatch"
+      iri: "tn:infraspecificEpithet"
 
 # property: cultivarEpithet
 - localName: cultivarEpithet
@@ -135,8 +236,8 @@
   usage: >-
     The cultivar epithet follows a well-formed botanical name. Only include
     the string of the epithet. i.e. omit the single quotes around cultivar 
-    names, the word 'Group' that denotes cultivar group and the + sign 
-    used in chimeras.
+    names, the word 'Group' that denotes cultivar group, the + sign 
+    used in chimeras and the 'gx' suffix in greges.
   notes: null
   examples: null
   type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
@@ -144,3 +245,8 @@
   required: No
   repeatable: No
   github: 23
+  mappings:
+  - predicate: "skos:exactMatch"
+    iri: /DataSet/TaxonNames/TaxonName/CanonicalName/CultivarNameGroup
+  - predicate: "skos:exactMatch"
+    iri: "tn:cultivarNameGroup"

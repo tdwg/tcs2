@@ -1,0 +1,54 @@
+@prefix tcs: <http://rs.tdwg.org/tcs/terms/> .
+@prefix dwc: <http://rs.tdwg.org/dwc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+
+<https://tropicos.org/name/35121972> a tcs:TaxonName ;
+    tcs:taxonNameString "Dicranum blumei" ;
+    dwc:scientificNameAuthorship "Nees" ;
+    dwc:namePublishedIn """Nova Acta Physico-medica Academiae Caesareae Leopoldino-Carolinae Naturae Curiosorum 
+            Exhibentia Ephemerides sive Observationes Historias et Experimenta 11(1) tcs: 131. 15 f. 1. 1823. 
+            (Nova Acta Phys.-Med. Acad. Caes. Leop.-Carol. Nat. Cur.)""" ;
+    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/legitimate> ;
+    tcs:typification [ a tcs:NomenclaturalType ;
+            tcs:typifiedName <https://tropicos.org/name/35121972> ;
+            tcs:typeSpecimen [ a dwc:MaterialCitation ;
+                    dwc:country "Indonesia" ;
+                    dwc:island "Java" ;
+                    dwc:verbatimLocality "Java in montibus excelsis partim ignivomis Salak et Gédé" ;
+                    dwc:recordedBy "C. Blume" ;
+                    dwc:recordNumber "s.n." ;
+                    dwc:institutionCode "LE" ;
+                    dwc:disposition "not located" ] ;
+            tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/holotype> ] ,
+        [ a tcs:NomenclaturalType ;
+            tcs:typifiedName <https://tropicos.org/name/35121972> ;
+            tcs:typeSpecimen [ a dwc:MaterialCitation ;
+                    dwc:country "Indonesia" ;
+                    dwc:island "Java" ;
+                    dwc:verbatimLocality "Java in montibus excelsis partim ignivomis Salak et Gédé" ;
+                    dwc:recordedBy "C. Blume" ;
+                    dwc:recordNumber "s.n." ;
+                    dwc:institutionCode "JE" ] ;
+            tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/lectotype> ;
+            tcs:typePublishedIn <https://www.tropicos.org/reference/9020903> ] ,
+        [ a tcs:NomenclaturalType ;
+            tcs:typifiedName <https://tropicos.org/name/35121972> ;
+            tcs:typeSpecimen [ a dwc:MaterialCitation ;
+                    dwc:country "Indonesia" ;
+                    dwc:island "Java" ;
+                    dwc:verbatimLocality "Java in montibus excelsis partim ignivomis Salak et Gédé" ;
+                    dwc:recordedBy "C. Blume" ;
+                    dwc:recordNumber "s.n." ;
+                    dwc:institutionCode "L" ] ;
+            tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> ] ,
+        [ a tcs:NomenclaturalType ;
+            tcs:typifiedName <https://tropicos.org/name/35121972> ;
+            tcs:typeSpecimen [ a dwc:MaterialCitation ;
+                    dwc:country "Indonesia" ;
+                    dwc:island "Java" ;
+                    dwc:verbatimLocality "Java in montibus excelsis partim ignivomis Salak et Gédé" ;
+                    dwc:recordedBy "C. Blume" ;
+                    dwc:recordNumber "s.n." ;
+                    dwc:institutionCode "NY" ] ;
+            tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> ] .

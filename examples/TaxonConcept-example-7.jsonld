@@ -1,0 +1,22 @@
+{
+  "@context": "https://raw.githubusercontent.com/tdwg/tcs2/master/examples/context.jsonld",
+  "type": "TaxonConcept",
+  "accordingTo": "https://avibase.bsc-eoc.org",
+  "taxonName": {
+    "type": "TaxonName",
+    "taxonNameString": "Acrocephalus sechellensis",
+    "dwc:scientificNameAuthorship": "(Oustalet, J-FÉ 1877)",
+    "basionym": {
+      "type": "TaxonName",
+      "taxonNameString": "Ellisia sechellensis",
+      "dwc:scientificNameAuthorship": "Oustalet, J-FÉ 1877",
+      "dwc:namePublishedIn": "Bull. (Sci.) Soc. Philomath. [Paris] (7), 1 p.103",
+      "dwc:namePublishedInYear": "1877"
+    }
+  },
+  "vernacularName": {
+    "type": "http://rs.gbif.org/terms/1.0/VernacularName",
+    "dwc:vernacularName": "Seychelles Warbler",
+    "dcterms:language": "en"
+  }
+}

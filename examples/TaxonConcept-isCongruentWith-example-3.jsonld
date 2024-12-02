@@ -1,0 +1,13 @@
+{
+  "@context": "https://raw.githubusercontent.com/tdwg/tcs2/master/examples/context.jsonld",
+  "type": "TaxonConcept",
+  "dcterms:title": "Dicranum fuscescens sec. Koperski et al. 2000",
+  "taxonName": "https://www.tropicos.org/name/35122385",
+  "accordingTo": "https://www.tropicos.org/reference/9022656",
+  "isCongruentWith": {
+    "type": "TaxonConcept",
+    "dcterms:title": "Dicranum fuscescens sec. Corley et al. 1981",
+    "accordingTo": "https://www.tropicos.org/reference/9004554",
+    "taxonName": "https://www.tropicos.org/name/35122385"
+  }
+}

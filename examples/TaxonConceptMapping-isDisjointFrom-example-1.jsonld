@@ -1,0 +1,16 @@
+{
+  "@context": "https://raw.githubusercontent.com/tdwg/tcs2/taxon-concept-mapping-object/examples/context.jsonld",
+  "type": "TaxonConceptMapping",
+  "mappingAccordingTo": { "id": "https://doi.org/10.3233/SW-160220" },
+  "mappingRelation": "isDisjointFrom",
+  "subjectTaxonConcept": {
+    "dcterms:title": "Andropogon glaucopsis sec. BONAP 2014",
+    "taxonName": { "id": "https://www.ipni.org/n/387942-1>" },
+    "accordingTo": { "id": "http://bonap.net/napa#2014" }
+  },
+  "objectTaxonConcept": {
+    "dcterms:title": "Andropogon virginicus sec. Weakley 2006",
+    "taxonName": { "id": "https://www.ipni.org/n/388740-1" },
+    "accordingTo": { "id": "http://www.herbarium.unc.edu/FloraArchives/WeakleyFlora_2006-Jan.pdf" }
+  }
+}

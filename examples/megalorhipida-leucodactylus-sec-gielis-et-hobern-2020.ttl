@@ -1,23 +1,16 @@
 @prefix tcs: <http://rs.tdwg.org/tcs/terms/> .
-@prefix address: <http://schemas.talis.com/2005/address/schema#> .
 @prefix bibo: <http://purl.org/ontology/bibo/> .
-@prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
-@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
 @prefix dwc: <http://rs.tdwg.org/dwc/terms/> .
-@prefix dwciri: <http://rs.tdwg.org/dwc/iri/> .
-@prefix foaf: <http://xmlns.com/foaf/0.1/> .
-@prefix gbif: <http://rs.gbif.org/terms/1.0/> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 
 <https://www.catalogueoflife.org/data/taxon/3YVTF> a tcs:TaxonConcept ;
     dcterms:title "Megalorhipida leucodactylus sec. Gielis & Hobern 2020-07-16" ;
     tcs:accordingTo <https://doi.org/10.48580/dfry-3gd#1.1.23.5> ;
     tcs:taxonName [ a tcs:TaxonName ;
             tcs:taxonNameString "Megalorhipida leucodactylus" ;
-            dwc:scientificName "Megalorhipida leucodactylus (Fabricius, 1794)" ;
+            dwc:scientificNameAuthorship "(Fabricius, 1794)" ;
             tcs:basionym <https://zoobank.org/NomenclaturalActs/39b2f236-3914-4962-9dcc-f594671654bd> ] ;
-    tcs:synonym _:tn1 , 
+    tcs:synonym _:tn1 ,
         _:tn2 ,
         _:tn3 ,
         _:tn4 ,
@@ -28,7 +21,7 @@
         _:tn9 ,
         _:tn10 ,
         _:tn11 ;
-    tcs:taxonomicRank <http://rs.gbif.org/vocabulary/gbif/rank/species> ;
+    tcs:taxonRank <http://rs.gbif.org/vocabulary/gbif/rank/species> ;
     tcs:parent <https://www.catalogueoflife.org/data/taxon/62ZBY> ;
     tcs:intersects _:tc1,
         _:tc2,
@@ -59,40 +52,52 @@
 #
 
 <https://zoobank.org/NomenclaturalActs/39b2f236-3914-4962-9dcc-f594671654bd> a tcs:TaxonName ;
-    dwc:scientificName "Pterophorus leucodactylus Fabricius, 1794" .
+    tcs:taxonNameString "Pterophorus leucodactylus" ;
+    dwc:scientificNameAuthorship "Fabricius, 1794" .
 
 _:tn1 a tcs:TaxonName ;
-    dwc:scientificName "Aciptilia hawaiiensis Butler, 1881" .
+    tcs:taxonNameString "Aciptilia hawaiiensis" ;
+    dwc:scientificNameAuthorship "Butler, 1881" .
 
 _:tn2 a tcs:TaxonName ;
-    dwc:scientificName "Megalorhipida palaestinensis Amsel, 1935" .
+    tcs:taxonNameString "Megalorhipida palaestinensis" ;
+    dwc:scientificNameAuthorship "Amsel, 1935" .
 
 _:tn3 a tcs:TaxonName ;
-    dwc:scientificName "Pterophorus congrualis Walker, 1864" .
+    tcs:taxonNameString "Pterophorus congrualis" ;
+    dwc:scientificNameAuthorship "Walker, 1864" .
 
 _:tn4 a tcs:TaxonName ;
-    dwc:scientificName "Pterophorus defectalis Walker, 1864" .
+    tcs:taxonNameString "Pterophorus defectalis" ;
+    dwc:scientificNameAuthorship "Walker, 1864" .
 
 _:tn5 a tcs:TaxonName ;
-    dwc:scientificName "Trichoptilus adelphodes Meyrick, 1887" .
+    tcs:taxonNameString "Trichoptilus adelphodes" ;
+    dwc:scientificNameAuthorship "Meyrick, 1887" .
 
 _:tn6 a tcs:TaxonName ;
-    dwc:scientificName "Trichoptilus centetes Meyrick, 1886" .
+    tcs:taxonNameString "Trichoptilus centetes" ;
+    dwc:scientificNameAuthorship "Meyrick, 1886" .
 
 _:tn7 a tcs:TaxonName ;
-    dwc:scientificName "Trichoptilus compsochares Meyrick, 1886" .
+    tcs:taxonNameString "Trichoptilus compsochares" ;
+    dwc:scientificNameAuthorship "Meyrick, 1886" .
 
 _:tn8 a tcs:TaxonName ;
-    dwc:scientificName "Trichoptilus derelictus Meyrick, 1926" .
+    tcs:taxonNameString "Trichoptilus derelictus" ;
+    dwc:scientificNameAuthorship "Meyrick, 1926" .
 
 _:tn9 a tcs:TaxonName ;
-    dwc:scientificName "Trichoptilus ochrodactylus Fish, 1881" .
+    tcs:taxonNameString "Trichoptilus ochrodactylus" ;
+    dwc:scientificNameAuthorship "Fish, 1881" .
 
 _:tn10 a tcs:TaxonName ;
-    dwc:scientificName "Trichoptilus ralumensis Pagenstecher, 1900" .
+    tcs:taxonNameString "Trichoptilus ralumensis" ;
+    dwc:scientificNameAuthorship "Pagenstecher, 1900" .
 
 _:tn11 a tcs:TaxonName ;
-    dwc:scientificName "Pterophorus oxydactylus Walker, 1864" .
+    tcs:taxonNameString "Pterophorus oxydactylus" ;
+    dwc:scientificNameAuthorship "Walker, 1864" .
 
 
 #
@@ -103,79 +108,85 @@ _:tn11 a tcs:TaxonName ;
     dcterms:title "Megalorhipida sec. Gielis & Hobern 2020-07-16" ;
     tcs:accordingTo <https://doi.org/10.48580/dfry-3gd#1.1.23.5> ;
     tcs:taxonName [ a tcs:TaxonName ;
-            dwc:scientificName "Megalorhipida Amsel, 1935" ] ;
-    tcs:taxonomicRank <http://rs.gbif.org/vocabulary/gbif/rank/genus> ;
+            tcs:taxonNameString "Megalorhipida" ;
+            dwc:scientificNameAuthorship "Amsel, 1935" ] ;
+    tcs:taxonRank <http://rs.gbif.org/vocabulary/gbif/rank/genus> ;
     tcs:parent <https://www.catalogueoflife.org/data/taxon/L44> .
 
 <https://www.catalogueoflife.org/data/taxon/L44> a tcs:TaxonConcept ;
     dcterms:title "Oxyptilini sec. Gielis & Hobern 2020-07-16" ;
     tcs:accordingTo <https://doi.org/10.48580/dfry-3gd#1.1.23.5> ;
     tcs:taxonName [ a tcs:TaxonName ;
-            dwc:scientificName "Oxyptilini Bigot, Gibeaux, Nel & Picard, 1998" ] ;
-    tcs:taxonomicRank <http://rs.gbif.org/vocabulary/gbif/rank/tribe> ;
+            tcs:taxonNameString "Oxyptilini" ;
+    dwc:scientificNameAuthorship "Bigot, Gibeaux, Nel & Picard, 1998" ] ;
+    tcs:taxonRank <http://rs.gbif.org/vocabulary/gbif/rank/tribe> ;
     tcs:parent <https://www.catalogueoflife.org/data/taxon/K8N> .
 
 <https://www.catalogueoflife.org/data/taxon/K8N> a tcs:TaxonConcept ;
     dcterms:title "Pterophorinae sec. Gielis & Hobern 2020-07-16" ;
     tcs:accordingTo <https://doi.org/10.48580/dfry-3gd#1.1.23.5> ;
     tcs:taxonName [ a tcs:TaxonName ;
-            dwc:scientificName "Pterophorinae Zeller, 1841" ] ;
-    tcs:taxonomicRank <http://rs.gbif.org/vocabulary/gbif/rank/subfamily> ;
+            tcs:taxonNameString "Pterophorinae" ;
+    dwc:scientificNameAuthorship "Zeller, 1841" ] ;
+    tcs:taxonRank <http://rs.gbif.org/vocabulary/gbif/rank/subfamily> ;
     tcs:parent <https://www.catalogueoflife.org/data/taxon/8TLBR> .
 
 <https://www.catalogueoflife.org/data/taxon/8TLBR> a tcs:TaxonConcept ;
     dcterms:title "Pterophoridae sec. Gielis & Hobern 2020-07-16" ;
     tcs:accordingTo <https://doi.org/10.48580/dfry-3gd#1.1.23.5> ;
     tcs:taxonName [ a tcs:TaxonName ;
-            dwc:scientificName "Pterophoridae Latreille, 1802" ] ;
-    tcs:taxonomicRank <http://rs.gbif.org/vocabulary/gbif/rank/family> ;
+            tcs:taxonNameString "Pterophoridae" ;
+    dwc:scientificNameAuthorship "Latreille, 1802" ] ;
+    tcs:taxonRank <http://rs.gbif.org/vocabulary/gbif/rank/family> ;
     tcs:parent <https://www.catalogueoflife.org/data/taxon/B6LST> .
 
 <https://www.catalogueoflife.org/data/taxon/B6LST> a tcs:TaxonConcept ;
     dcterms:title "Pterophoroidea sec. Gielis & Hobern 2020-07-16" ;
     tcs:accordingTo <https://doi.org/10.48580/dfry-3gd#1.1.23.5> ;
     tcs:taxonName [ a tcs:TaxonName ;
-            dwc:scientificName "Pterophoroidea Kuznetzov & Stekolnikov, 1979" ] ;
-    tcs:taxonomicRank <http://rs.gbif.org/vocabulary/gbif/rank/superfamily> ;
+            tcs:taxonNameString "Pterophoroidea" ;
+    dwc:scientificNameAuthorship "Kuznetzov & Stekolnikov, 1979" ] ;
+    tcs:taxonRank <http://rs.gbif.org/vocabulary/gbif/rank/superfamily> ;
     tcs:parent <https://www.catalogueoflife.org/data/taxon/B6L67> .
 
 <https://www.catalogueoflife.org/data/taxon/B6L67> a tcs:TaxonConcept ;
     dcterms:title "Lepidoptera sec. Global Lepidoptera Index 2023-05-10" ;
     tcs:accordingTo <https://doi.org/10.48580/dfs6-49xk> ;
     tcs:taxonName [ a tcs:TaxonName ;
-            dwc:scientificName "Lepidoptera Linnaeus, 1758" ] ;
-    tcs:taxonomicRank <http://rs.gbif.org/vocabulary/gbif/rank/order> ;
+            tcs:taxonNameString "Lepidoptera" ;
+    dwc:scientificNameAuthorship "Linnaeus, 1758" ] ;
+    tcs:taxonRank <http://rs.gbif.org/vocabulary/gbif/rank/order> ;
     tcs:parent <https://www.catalogueoflife.org/data/taxon/H6> .
 
 <https://www.catalogueoflife.org/data/taxon/H6> a tcs:TaxonConcept ;
     dcterms:title "Insecta sec. Catalogue of Life" ;
     tcs:accordingTo <https://doi.org/10.48580/dfs6> ;
     tcs:taxonName [ a tcs:TaxonName ;
-            dwc:scientificName "Insecta" ] ;
-    tcs:taxonomicRank <http://rs.gbif.org/vocabulary/gbif/rank/class> ;
+            tcs:taxonNameString "Insecta" ] ;
+    tcs:taxonRank <http://rs.gbif.org/vocabulary/gbif/rank/class> ;
     tcs:parent <https://www.catalogueoflife.org/data/taxon/RT> .
 
 <https://www.catalogueoflife.org/data/taxon/RT> a tcs:TaxonConcept ;
     dcterms:title "Arthropoda sec. Catalogue of Life" ;
     tcs:accordingTo <https://doi.org/10.48580/dfs6> ;
     tcs:taxonName [ a tcs:TaxonName ;
-            dwc:scientificName "Arthropoda" ] ;
-    tcs:taxonomicRank <http://rs.gbif.org/vocabulary/gbif/rank/phylum> ;
+            tcs:taxonNameString "Arthropoda" ] ;
+    tcs:taxonRank <http://rs.gbif.org/vocabulary/gbif/rank/phylum> ;
     tcs:parent <https://www.catalogueoflife.org/data/taxon/N> .
 
 <https://www.catalogueoflife.org/data/taxon/N> a tcs:TaxonConcept ;
     dcterms:title "Animalia sec. Catalogue of Life" ;
     tcs:accordingTo <https://doi.org/10.48580/dfs6> ;
     tcs:taxonName [ a tcs:TaxonName ;
-            dwc:scientificName "Animalia" ] ;
-    tcs:taxonomicRank <http://rs.gbif.org/vocabulary/gbif/rank/kingdom> ;
+            tcs:taxonNameString "Animalia" ] ;
+    tcs:taxonRank <http://rs.gbif.org/vocabulary/gbif/rank/kingdom> ;
     tcs:parent <https://www.catalogueoflife.org/data/taxon/5T6MX> .
 
 <https://www.catalogueoflife.org/data/taxon/5T6MX> a tcs:TaxonConcept ;
     dcterms:title "Biota sec. Catalogue of Life" ;
     tcs:accordingTo <https://doi.org/10.48580/dfs6> ;
     tcs:taxonName [ a tcs:TaxonName ;
-            dwc:scientificName "Biota" ] .
+            tcs:taxonNameString "Biota" ] .
 
 
 #
@@ -210,8 +221,10 @@ _:tc2 a tcs:TaxonConcept ;
     tcs:taxonName <https://zoobank.org/NomenclaturalActs/39b2f236-3914-4962-9dcc-f594671654bd> .
 
 _:tc3 a tcs:TaxonConcept ;
-    dcterms:title "Pterophorus leucodactylus sec. Matthews et al. 2019" ;
-    tcs:accordingTo <https://digitalcommons.unl.edu/insectamundi/1219> ;
+    dcterms:title "Pterophorus leucodactylus sec. Gielis & al. 2022" ;
+    tcs:accordingTo [ a bibo:Book ;
+            dcterms:bibliographicCitation """Gielis, C., Franssen, M., Groenen, 
+                    F., & Wangdi, K. (2022). Moths of Bhutan. 1–420.""" ] ;
     tcs:taxonName <https://zoobank.org/NomenclaturalActs/39b2f236-3914-4962-9dcc-f594671654bd> .
 
 <https://digitalcommons.unl.edu/insectamundi/1219> a bibo:AcademicArticle ;

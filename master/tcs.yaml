@@ -8,52 +8,81 @@
   definition: >-
     An identifiable taxonomic position that can be aligned to other such 
     positions through TCS concept mapping relationships.
-  usage: The `taxonName` and `accordingTo` properties are required.
+  usage: >-
+    A `TaxonConcept` MUST have `taxonName` and `accordingTo` properties. 
   notes: >-
-    A taxonomic position is an opinion about the definition of a taxonomic 
-    group. A Taxon Concept is identifiable, because it combines a label – 
-    `taxonName` in TCS – with a source – `accordingTo`. Both these properties 
-    are required. When mentioning a taxon concept, the label and the source are 
-    combined, separated by 'sec.' (from, 'secundus', meaning 'according 
-    to') or 'sensu' (meaning the same). The term `title` has been borrowed from 
-    Dublin Core to provide this taxon concept label. Because of the context 
-    provided by the source, taxon concepts are in principle also alignable to 
-    other Taxon Concepts using TCS concept mapping relationship statements. The 
-    concept mapping properties in TCS are `isCongruentWith`, `includes`, 
-    `isIncludedIn`, `partiallyOverlaps`, `isDisjointFrom` and `intersects`.
+    A taxonomic position is an opinion about the definition of a taxonomic
+    group. A Taxon Concept is identifiable, because it combines a label –
+    `taxonName` in TCS – with a source – `accordingTo`. Both the `taxonName` and
+    `accordingTo` properties are required on a `tcs:TaxonConcept`. When
+    mentioning a taxon concept, the label and the source are combined, separated
+    by 'sec.' (from, 'secundus', meaning 'according to') or 'sensu' (meaning the
+    same). The term `dcterms:title` has been borrowed from Dublin Core to provide this
+    taxon concept label. Because of the context provided by the source, taxon
+    concepts are in principle also alignable to other Taxon Concepts using TCS
+    concept mapping statements. The concept mapping properties in TCS are
+    `isCongruentWith`, `includes`, `isIncludedIn`, `partiallyOverlaps`,
+    `isDisjointFrom` and `intersects`. These properties can be used directly on
+    a `TaxonConcept` object or as the value of the `tcs:mappingRelation`
+    property in a `tcs:TaxonConceptMapping` object.
 
 
-    The TCS Taxon Concept is applied more broadly than the term is used in 
-    science (e.g. Franz & Peet 2009 
-    [\[franz_perspectives_2009\]](../bibliography/#franz_perspectives_2009)). 
-    On the one hand, things 
-    that are not generally considered to be biological taxa, e.g. hybrids and 
-    cultivars, can be casted as TCS Taxon Concepts. Also Operational Taxonomic 
-    Units (OTUs) [\[sokal_principles_1963\]](../bibliography/#sokal_principles_1963) 
-    can be exchanged as Taxon Concepts, if there is a reason to do so, e.g. if 
-    one wants to align them with other Taxon Concepts later. On the other hand, 
-    entries from treatments that are considered to cite concepts from other 
-    treatments can be formulated as Taxon Concepts. Every taxon concept from a 
-    treatment that is likely to be referenced as the source of taxonomic 
-    context, for example a field guide for a determination of a specimen or a 
-    national census for an ecological study, can – and it would be very nice if 
-    they would – be stated as a Taxon Concept, so they can be aligned with other 
+    The TCS Taxon Concept is applied more broadly than the term is used in
+    science (e.g. Franz & Peet 2009
+    [\[franz_perspectives_2009\]](../bibliography/#franz_perspectives_2009)). On
+    the one hand, things that are not generally considered to be biological
+    taxa, e.g. hybrids and cultivars, can be casted as TCS Taxon Concepts. Also
+    Operational Taxonomic Units (OTUs)
+    [\[sokal_principles_1963\]](../bibliography/#sokal_principles_1963) can be
+    exchanged as Taxon Concepts, if there is a reason to do so, e.g. if one
+    wants to align them with other Taxon Concepts later. On the other hand,
+    entries from treatments that are considered to cite concepts from other
+    treatments can be formulated as Taxon Concepts. Every taxon concept from a
+    treatment that is likely to be referenced as the source of taxonomic
+    context, for example a field guide for a determination of a specimen or a
+    national census for an ecological study, can – and it would be very nice if
+    they would – be stated as a Taxon Concept, so they can be aligned with other
     Taxon Concepts that may provide more or different taxonomic context.
 
 
-    By contrast, entries in the nomenclature section of treatments (synonyms) 
-    and in lists of nomenclatural types are not Taxon Concepts.
+    By contrast, entries in the nomenclature section of treatments
+    ('TaxonomicNameUsage's sensu Senderov et al. 2018
+    &#91;[senderov_openbiodiv-o_2018](#senderov_openbiodiv-o_2018)&#93;) and in
+    lists of nomenclatural types are not Taxon Concepts.
   examples: 
-    - TaxonConcept-1
-    - TaxonConcept-2
-    - TaxonConcept-3
-    - TaxonConcept-4
-    - TaxonConcept-5
+    - TaxonConcept-example-1
+    - TaxonConcept-example-2
+    - TaxonConcept-example-3
+    - TaxonConcept-example-4
+    - TaxonConcept-example-5
+    - TaxonConcept-example-6
+    - TaxonConcept-example-7
   type: http://www.w3.org/2000/01/rdf-schema#Class
   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonConcept
   required: null
   repeatable: null
-  github: 1
+  github: 213
+  mappings:
+    - predicate: "skos:exactMatch"
+      iri: /DataSet/TaxonConcepts/TaxonConcept
+    - predicate: "skos:exactMatch"
+      iri: "tc:TaxonConcept"
+    - predicate: "skos:relatedMatch"
+      iri: "dwc:Taxon"
+      remarks: >-
+        The dwc:Taxon is hard to categorise. as it can be implemented in a way
+        that a Taxon is equivalent to a TaxonConcept, but if either
+        `taxonomicStatus` or `acceptedNameUsage` terms are used, both `accepted`
+        and `synonym` uses are data artefacts that are not TaxonConcepts.
+    - predicate: "skos:exactMatch"
+      iri: "openbiodiv-o:TaxonomicConcept"
+    - predicate: "skos:broadMatch"
+      iri: "openbiodiv-o:OperationalTaxonomicUnit"
+    - predicate: "skos:broadMatch"
+      iri: "skos:Concept"
+    - predicate: "skos:broadMatch"
+      iri: "frbr:Work"
+    
 
 # property: accordingTo
 - localName: accordingTo
@@ -81,14 +110,37 @@
     to provide it in a format that can be understood by reference managers 
     such as Zotero or Mendeley.
   examples: 
-    - TaxonConcept-accordingTo-1
-    - TaxonConcept-accordingTo-2
-    - TaxonConcept-accordingTo-3
+    - TaxonConcept-accordingTo-example-1
+    - TaxonConcept-accordingTo-example-2
+    - TaxonConcept-accordingTo-example-3
   type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonConcept
   required: Yes
   repeatable: No
   github: 4
+  mappings:
+    - predicate: "skos:exactMatch"
+      iri: /DataSet/TaxonConcepts/TaxonConcept/AccordingTo/AccordingToDetailed
+    - predicate: "skos:exactMatch"
+      iri: "tn:accordingTo"
+    - predicate: "skos:exactMatch"
+      iri: "dwc:nameAccordingTo"
+      remarks: >-
+        The TCS term is the IRI equivalent of the Darwin Core term.
+    - predicate: "skos:narrowMatch"
+      iri: "frbr:realization"
+      remarks: >-
+        In OpenBiodiv-O, the `frbr:realization` is the `openbiodiv-o:Treatment`
+        of that particular taxon. `tcs:accordingTo` can also point to the
+        `openbiodiv-o:TaxonomicArticle`. In OpenBiodiv-O the `TaxonomicArticle`
+        `openbiodiv-o:contains` the `Treatment`s.
+    - predicate: "skos:closeMatch"
+      iri: "skos:inScheme"
+      remarks: >-
+        Both the subject and object in this relationship have a broader meaning
+        in SKOS, but if the subject is a TaxonConcept, the meaning of the term
+        is the same.
+
 
 # property: taxonName
 - localName: taxonName
@@ -113,6 +165,22 @@
   required: Yes
   repeatable: No
   github: 2
+  mappings:
+    - predicate: "skos:exactMatch"
+      iri: /DataSet/TaxonConcepts/TaxonConcept/Name/@ref
+    - predicate: "skos:exactMatch"
+      iri: "tn:hasName"
+    - predicate: "skos:narrowMatch"
+      iri: "dwc:scientificName"
+      remarks: >-
+        In Darwin Core records that do not have a `scientificName` but do have a
+        `vernacularName`, the `vernacularName` is the `taxonName`. Also note
+        `dwc:scientificName` is a string and `tcs:taxonName` an IRI.
+    - predicate: "skos:narrowMatch"
+      iri: "dwc:vernacularName"
+    - predicate: "skos:closeMatch"
+      iri: "openbiodiv-o:taxonomicName"
+
 
 # property: synonym
 - localName: synonym
@@ -122,73 +190,128 @@
   usage: >-
     `synonym` is a Taxon Name; a Taxon Concept can have multiple synonyms.
   notes: >-
-    Synonyms are names and synonymy is between names but, if the names have 
-    different nomenclatural types, a Taxon Concept is required. Therefore, 
-    `synonym` is a property of the Taxon Concept class. `synonym` is used here 
-    in the strict meaning that the type of a name falls within a Taxon Concept. 
-    The same goes for the `taxonName` and therefore `synonym` 
-    has the same relationship to Taxon Concept as `taxonName`. This allows one 
-    to dispose of names without having to deal with the Taxon Concepts that were 
-    realised along with the publication of these names. If one wants to include 
-    these “original concepts” and indicate a relationship between Taxon 
-    Concepts, and the more precise relationship is not provided, the 
-    `intersects` property can be used.
+    A synonym is an alternative label for a taxon, so `synonym`, like
+    `taxonName`, is a relation between a `TaxonConcept` and a `TaxonName`, not a
+    relationship between different taxonomic entities.
+
+
+    The terms 'heterotypic synonym' and 'homotypic synonym' from the
+    nomenclatural codes ('subjective synonym' and 'objective synonym',
+    respectively, in the Zoological Code) are, in the context of Taxon Concepts
+    and Taxon Names, best understood as synonyms (relations between Taxon
+    Concepts and Taxon Names) and combinations (relations between Taxon Names),
+    respectively. In TCS, combinations are dealt with using properties of the
+    `TaxonName` class, *e.g.* `basionym` and `replacedName` (note that
+    'combination' is used here in a broader sense that what the term actually
+    means). This has the advantage that people do not need to separate
+    heterotypic and homotypic synonyms, or generally deal with nomenclature,
+    which adds a degree of complexity that not all systems need or want.
+    Avoiding terms that are too strictly defined in the nomenclatural codes also
+    has the advantage that the term can, in principle, be applied to things that
+    cannot be heterotypic or homotypic synonyms, e.g., to names that are not
+    validly published under the relevant code, or names at different taxonomic
+    ranks than the accepted name, and avoids inappropriate use of the terms
+    defined in the nomenclatural codes.
   examples: 
-    - TaxonConcept-synonym-1
-    - TaxonConcept-synonym-2
-    - TaxonConcept-synonym-3
+    - TaxonConcept-synonym-example-1
+    - TaxonConcept-synonym-example-2
+    - TaxonConcept-synonym-example-3
   type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonConcept
   required: No
   repeatable: Yes
   github: 65
+  mappings: 
+    - predicate: "skos:broadMatch"
+      iri: "/DataSet/TaxonConcepts/TaxonConcept/TaxonRelationships/TaxonRelationship[@type='has synonym']" 
+      remarks: >-
+        The 'has synonym' relationship from TCS 1 has been
+        split into `synonym` for relations between TaxonConcept and TaxonName
+        and `intersects` for relationships between TaxonConcepts. Also note that
+        the object of `has synonym` is a TaxonConcept and the object of
+        `synonym` a TaxonName.
+    - predicate: "skos:broadMatch"
+      iri: "tc:hasSynonym"
+    - predicate: "skos:closeMatch"
+      iri: "skosxl:hiddenLabel"
+      remarks: >-
+        A synonym is an alternative label that is not used for the TaxonConcept.
 
 # property: vernacularName
 - localName: vernacularName
   label: Vernacular Name
   definition: >-
-    Common or vernacular name for a taxonomic group, when used besides the 
-    `taxonName`.
+    Name for a taxon in a language used for general purposes.
   usage: >-
     `vernacularName` is an IRI term; a Taxon Concept can have more than one 
     `vernacularName`.
   notes: >-
-    The `vernacularName` property can be used when a vernacular name is used 
-    alongside a scientific name, which is the `taxonName`. If a vernacular name 
-    is the only name, the `taxonName` property should be used. The object of the 
-    `vernacularName` property can be a Taxon Name, but another label 
-    object, such as the GBIF [Vernacular Name](https://rs.gbif.org/extension/gbif/1.0/vernacularname.xml), 
-    might be preferrable, especially if there can be multiple vernacular names 
-    for a concept.
+    The `vernacularName` property can be used when a vernacular name is used
+    alongside a scientific name, which is the `taxonName`. If a vernacular name
+    is the only name, the `taxonName` property should be used. The object of the
+    `vernacularName` property can be a Taxon Name, but another label object,
+    such as the GBIF [Vernacular
+    Name](https://rs.gbif.org/extension/gbif/1.0/vernacularname.xml), might be
+    preferrable, especially if there can be multiple vernacular names for a
+    concept.
   examples: 
-    - TaxonConcept-vernacularName-1
-    - TaxonConcept-vernacularName-2
-    - TaxonConcept-vernacularName-3
+    - TaxonConcept-vernacularName-example-1
+    - TaxonConcept-vernacularName-example-2
+    - TaxonConcept-vernacularName-example-3
   type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonConcept
   required: No
   repeatable: Yes
   github: 10
+  mappings: 
+    - predicate: "skos:exactMatch"
+      iri: /DataSet/TaxonConcepts/TaxonConcept/TaxonRelationships/TaxonRelationship[@type='has vernacular']
+      remarks: >-
+        Note that the object of `has vernacular` is a TaxonConcept while the
+        object of `vernacularName` is a TaxonName.
+    - predicate: "skos:exactMatch"
+      iri: "tc:hasVernacular"
+    - predicate: "skos:exactMatch"
+      iri: "dwc:vernacularName"
+      remarks: >-
+        The TCS term is the IRI equivalent of the Darwin Core term.
+    - predicate: "skos:closeMatch"
+      iri: "openbiodiv-o:vernacularName"
+    - predicate: "skos:closeMatch"
+      iri: "skosxl:altLabel"
+         
 
-# property: taxonomicRank
-- localName: taxonomicRank
+# property: taxonRank
+- localName: taxonRank
   label: Taxonomic Rank
   definition: The rank at which a taxon is classified.
   usage: >-
-    `taxonomicRank` is an IRI property; a Taxon Concept can have only one 
-    `taxonomicRank`.
+    `taxonRank` is an IRI property; a Taxon Concept or Taxon Name can have
+    only one `taxonRank`.
   notes: >-
-    The rank is an attribute of elements in a classification and `taxonomicRank` 
-    can be applied to Taxon Concepts as well Taxon Names, as the rank of a 
-    taxon is reflected in its name. This property takes an object or IRI and it 
-    is recommended to use a value from an existing controlled vocabulary. 
-    While there is no TDWG vocabulary yet, the GBIF Taxonomic Rank Vocabulary 
+    This property takes an object or IRI and it is recommended to use a value
+    from an existing controlled vocabulary. While there is no TDWG vocabulary
+    yet, the GBIF Taxonomic Rank Vocabulary
     (https://rs.gbif.org/vocabulary/gbif/rank.xml) is recommended.
+
+
+    A `TaxonName` takes its `taxonRank` from the `taxonConcept` it is
+    applied to, so this property can also be used on a (stand-alone) `TaxonName`
+    object.
   type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonConcept
   required: No
   repeatable: No
   github: 32
+  mappings: 
+    - predicate: "skos:exactMatch"
+      iri: /DataSet/TaxonConcepts/TaxonConcept/Rank/@code
+    - predicate: "skos:exactMatch"
+      iri: "tc:taxonomicRank"
+    - predicate: "skos:exactMatch"
+      iri: "dwc:taxonRank"
+      remarks: >-
+        The TCS term is the IRI equivalent of the Darwin Core term.
 
 # property: parent
 - localName: parent
@@ -207,7 +330,45 @@
   repeatable: No
   required: No
   type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
-  github: 8
+  examples:
+    - TaxonConcept-parent-example-1
+  github: 9
+  mappings:
+    - predicate: "skos:exactMatch"
+      iri: /DataSet/TaxonConcepts/TaxonConcept/TaxonRelationships/TaxonRelationship[@type='is child taxon of']
+    - predicate: "skos:exactMatch"
+      iri: "tc:isChildTaxonOf"
+    - predicate: "skos:exactMatch"
+      iri: "dwc:parentNameUsage"
+      remarks: >-
+        The TCS term is the IRI equivalent of the Darwin Core term.
+    - predicate: "skos:closeMatch"
+      iri: "skos:broader"
+
+# property: child
+- localName: child
+  label: Child
+  definition: >-
+    A direct subordinate in a classification.
+  usage: >-
+    `child` is another Taxon Concept; a Taxon Concept can have more than one 
+    child.
+  notes: 
+  examples: 
+    - TaxonConcept-child-example-1
+  organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonConcept
+  repeatable: Yes
+  required: No
+  type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+  github: 232
+  mappings:
+    - predicate: "skos:exactMatch"
+      iri: /DataSet/TaxonConcepts/TaxonConcept/TaxonRelationships/TaxonRelationship[@type='is parent taxon of']
+    - predicate: "skos:exactMatch"
+      iri: "tc:isParentTaxonOf"
+    - predicate: "skos:closeMatch"
+      iri: "skos:narrower"
+
 
 # property: isCongruentWith
 - localName: isCongruentWith
@@ -215,41 +376,63 @@
   definition: >-
     The subject and object taxon concepts have a congruent taxonomic meaning, 
     i.e. there is no conflict between the concepts
-  usage: null
+  usage: >-
+    `isCongruentWith` can be used as a property on a Taxon Concept object, or as
+    the value of the `mappingRelation` property on a Taxon Concept Mapping
+    object. In both cases both the subject and object are Taxon Concepts.
   notes: >-
-    The `isCongruentWith` relationship is symmetrical, so if A `isCongruentWith` 
-    B then B `isCongruentWith` A, as well as transitive, so if A 
-    `isCongruentWith` B and B `isCongruentWith` C it follows that A 
-    `isCongruentWith` C.
+    The `isCongruentWith` relation is symmetrical, so if A `isCongruentWith` B
+    then B `isCongruentWith` A, as well as transitive, so if A `isCongruentWith`
+    B and B `isCongruentWith` C it follows that A `isCongruentWith` C.
 
 
     ![](../media/taxon-relationship-type-is-congruent-with.jpg)
 
 
-    This relationship can also be written as the formula **A &cong; B** or **A == B**.
+    This relation can also be written as the formula **A &cong; B** or **A
+    == B**.
   examples: 
-    - TaxonConcept-isCongruentWith-1
-    - TaxonConcept-isCongruentWith-2
-    - TaxonConcept-isCongruentWith-3
+    - TaxonConcept-isCongruentWith-example-1
+    - TaxonConceptMapping-isCongruentWith-example-2
+    - TaxonConcept-isCongruentWith-example-3
+    - TaxonConceptMapping-isCongruentWith-example-1
   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonConcept
   repeatable: Yes
   required: No
   type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
   github: 52
+  mappings:
+    - predicate: "skos:exactMatch"
+      iri: /DataSet/TaxonConcepts/TaxonConcept/TaxonRelationships/TaxonRelationship[@type='is congruent to']
+    - predicate: "skos:exactMatch"
+      iri: "tc:isCongruentTo"
+    - predicate: "skos:narrowMatch"
+      iri: "openbiodiv-o:Equal_INT"
+      remarks: >-
+        OpenBiodiv-O distinguishes between RCC5 Relation statements based on the
+        ostensive component of the concepts and those based on the intensional
+        component.
+    - predicate: "skos:narrowMatch"
+      iri: "openbiodiv-o:Equal_OST"
+    - predicate: "skos:closeMatch"
+      iri: "skos:closeMatch"
 
 # property: includes
 - localName: includes
-  type: http://www.w3.org/2004/02/skos/core#Concept
+  type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
   label: Includes
   definition: >-
     The subject taxon concept has a more inclusive taxonomic meaning than
     the object taxon concept
+  usage: >-
+    `includes` can be used as a property on a Taxon Concept object, or as the
+    value of the `mappingRelation` property on a Taxon Concept Mapping object.
+    In both cases both the subject and object are Taxon Concepts.
   notes: >-
-    The `includes` relationship is not symmetric, its inverse 
-    relationship being  `isIncludedIn`, so if A `includes` B then B 
-    `isIncludedIn` A. The `includes` relationship  is transitive, so 
-    if A `includes` B and B `includes` C it follows that A 
-    `includes` C.
+    The `includes` relation is not symmetric, its inverse relation being
+    `isIncludedIn`, so if A `includes` B then B `isIncludedIn` A. The `includes`
+    relation  is transitive, so if A `includes` B and B `includes` C it follows
+    that A `includes` C.
 
 
     ![](../media/taxon-relationship-type-includes.jpg)
@@ -257,27 +440,41 @@
 
     This relation type can also be written as the formula **A > B**.
   examples: 
-    - TaxonConcept-includes-1
-    - TaxonConcept-includes-2
+    - TaxonConcept-includes-example-1
+    - TaxonConceptMapping-includes-example-2
+    - TaxonConceptMapping-includes-example-1
   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonConcept
   repeatable: Yes
   required: No
-  type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
   github: 53
+  mappings:
+    - predicate: "skos:exactMatch"
+      iri: /DataSet/TaxonConcepts/TaxonConcept/TaxonRelationships/TaxonRelationship[@type='includes']
+    - predicate: "skos:exactMatch"
+      iri: "tc:includes"
+    - predicate: "skos:narrowMatch"
+      iri: "openbiodiv-o:InverseProperPart_INT"
+    - predicate: "skos:narrowMatch"
+      iri: "openbiodiv-o:InverseProperPart_OST"
+    - predicate: "skos:closeMatch"
+      iri: "skos:broadMatch"
 
 # controlled term: isIncludedIn
 - localName: isIncludedIn
-  type: http://www.w3.org/2004/02/skos/core#Concept
+  type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
   label: is included in
   definition: >-
     The subject taxon concept has a less inclusive taxonomic meaning than the 
     object taxon concept
+  usage: >-
+    `isIncludedIn` can be used as a property on a Taxon Concept object, or as
+    the value of the `mappingRelation` property on a Taxon Concept Mapping
+    object. In both cases both the subject and object are Taxon Concepts.
   notes: >-
-    The `isIncludedIn` relationship is not symmetric, its inverse 
-    relationship being  `includes`, so if A `isIncludedIn` B then B 
-    `includes` A. The `isIncludedIn` relationship  is transitive, so 
-    if A `isIncludedIn` B and B `isIncludedIn` C it follows that A 
-    `isIncludedIn` C.
+    The `isIncludedIn` relation is not symmetric, its inverse relation being
+    `includes`, so if A `isIncludedIn` B then B `includes` A. The `isIncludedIn`
+    relation  is transitive, so if A `isIncludedIn` B and B `isIncludedIn` C it
+    follows that A `isIncludedIn` C.
 
 
     ![](../media/taxon-relationship-type-is-included-in.jpg)
@@ -285,52 +482,87 @@
 
     This relation type can also be written as the formula **A < B**.
   examples: 
-    - TaxonConcept-isIncludedIn-1
-    - TaxonConcept-isIncludedIn-2
+    - TaxonConcept-isIncludedIn-example-1
+    - TaxonConceptMapping-isIncludedIn-example-2
+    - TaxonConceptMapping-isIncludedIn-example-1
   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonConcept
   repeatable: Yes
   required: No
-  type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
   github: 54
+  mappings:
+    - predicate: "skos:exactMatch"
+      iri: /DataSet/TaxonConcepts/TaxonConcept/TaxonRelationships/TaxonRelationship[@type='is included in']
+    - predicate: "skos:exactMatch"
+      iri: "tc:isIncludedIn"
+    - predicate: "skos:narrowMatch"
+      iri: "openbiodiv-o:ProperPart_INT"
+      remarks: >-
+        OpenBiodiv-O distinguishes between RCC5 Relation statements based on the
+        ostensive component of the concepts and those based on the intensional
+        component.
+    - predicate: "skos:narrowMatch"
+      iri: "openbiodiv-o:ProperPart_OST"
+    - predicate: "skos:closeMatch"
+      iri: "skos:narrowMatch"
 
-# controlled term: partiallyOverlaps
+# property: partiallyOverlaps
 - localName: partiallyOverlaps
-  type: http://www.w3.org/2004/02/skos/core#Concept
+  type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
   label: partially overlaps
   definition: >-
     The subject and object taxon concepts have partially overlapping taxonomic 
     meanings, _i.e._ they have some members in common, but each concept in 
     addition has members that are not included in the other concept
+  usage: >-
+    `partiallyOverlaps` can be used as a property on a Taxon Concept object, or
+    as the value of the `mappingRelation` property on a Taxon Concept Mapping
+    object. In both cases both the subject and object are Taxon Concepts.
   notes: >-
-    The `partiallyOverlaps`  relationship is symmetrical, so if A 
-    `partiallyOverlaps` B then B `partiallyOverlaps` A, but not transitive, so, 
-    if A `partiallyOverlaps` B and B `partiallyOverlaps` C, it does not follow 
-    that A `partiallyOverlaps` C.
+    The `partiallyOverlaps` relation is symmetrical, so if A `partiallyOverlaps`
+    B then B `partiallyOverlaps` A, but not transitive, so, if A
+    `partiallyOverlaps` B and B `partiallyOverlaps` C, it does not follow that A
+    `partiallyOverlaps` C.
 
 
     ![](../media/taxon-relationship-type-partially-overlaps.jpg)
 
 
-    This relationship can also be written as the formula **A >< B**.
+    This relation can also be written as the formula **A >< B**.
   examples:
-    - TaxonConcept-partiallyOverlaps-1
-    - TaxonConcept-partiallyOverlaps-2
-    - TaxonConcept-partiallyOverlaps-3
+    - TaxonConcept-partiallyOverlaps-example-1
+    - TaxonConceptMapping-partiallyOverlaps-example-2
+    - TaxonConceptMapping-partiallyOverlaps-example-1
   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonConcept
   repeatable: Yes
   required: No
-  type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
   github: 55
+  mappings:
+    - predicate: "skos:exactMatch"
+      iri: /DataSet/TaxonConcepts/TaxonConcept/TaxonRelationships/TaxonRelationship[@type='overlaps']
+    - predicate: "skos:exactMatch"
+      iri: "tc:overlaps"
+    - predicate: "skos:narrowMatch"
+      iri: "openbiodiv-o:PartiallyOverlaps_INT"
+      remarks: >-
+        OpenBiodiv-O distinguishes between RCC5 Relation statements based on the
+        ostensive component of the concepts and those based on the intensional
+        component.
+    - predicate: "skos:narrowMatch"
+      iri: "openbiodiv-o:PartiallyOverlaps_OST"
 
 # property: isDisjointFrom
 - localName: isDisjointFrom
-  type: http://www.w3.org/2004/02/skos/core#Concept
+  type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
   label: is disjoint from
   definition: >-
-    The subject and objects taxon concepts have non-overlapping taxonomic 
+    The subject and object taxon concepts have non-overlapping taxonomic 
     meanings, _i.e._ they do not have any members in common
+  usage: >-
+    `isDisjointFrom` can be used as a property on a Taxon Concept object, or as
+    the value of the `mappingRelation` property on a Taxon Concept Mapping
+    object. In both cases both the subject and object are Taxon Concepts.
   notes: >-
-    The `isDisjointFrom`  relationship is symmetrical, so if A `isDisjointFrom` 
+    The `isDisjointFrom`  relation is symmetrical, so if A `isDisjointFrom` 
     B then B `isDisjointFrom` A, but not transitive, so, if A `isDisjointFrom` 
     B and B `isDisjointFrom` C, it does not follow that A `isDisjointFrom` C.
 
@@ -338,37 +570,186 @@
     ![](../media/taxon-relationship-type-is-disjoint-from.jpg)
 
 
-    This relationship can also be written as the formula **A | B**.
-  examples: 
-    - TaxonConcept-isDisjointFrom
+    This relation can also be written as the formula **A | B**.
+  examples:
+    - TaxonConcept-isDisjointFrom-example-1
+    - TaxonConceptMapping-isDisjointFrom-example-2
+    - TaxonConceptMapping-isDisjointFrom-example-1
   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonConcept
   repeatable: Yes
   required: No
-  type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
   github: 56
+  mappings:
+    - predicate: "skos:exactMatch"
+      iri: /DataSet/TaxonConcepts/TaxonConcept/TaxonRelationships/TaxonRelationship[@type='excludes']
+    - predicate: "skos:exactMatch"
+      iri: "tc:excludes"
+    - predicate: "skos:narrowMatch"
+      iri: "openbiodiv-o:Disjoint_INT"
+      remarks: >-
+        OpenBiodiv-O distinguishes between RCC5 Relation statements based on the
+        ostensive component of the concepts and those based on the intensional
+        component.
+    - predicate: "skos:narrowMatch"
+      iri: "openbiodiv-o:Disjoint_OST"
 
-# controlled term: intersects
+# property: intersects
 - localName: intersects
-  type: http://www.w3.org/2004/02/skos/core#Concept
+  type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
   label: Intersects
   definition: >-
     The taxonomic meanings of the subject and object taxon concepts intersect, 
     _i.e._ they have at least one member in common.
-  usage: null
+  usage: >-
+    `intersects` can be used as a property on a Taxon Concept object, or as the
+    value of the `mappingRelation` property on a Taxon Concept Mapping object.
+    In both cases both the subject and object are Taxon Concepts.
   notes: >-
-    `intersects` is the opposite of `isDisjointFrom` and the union of 
-    `isCongruentWith`, `includes`, `isIncludedIn` and 
-    `partiallyOverlaps`, meaning it can be any of these relationships. This 
-    relationship type can be used when the more precise nature of the 
-    relationship is not known or not stated, for example when dealing with 
-    statements in traditional synonymies or with references to other treatments.
+    `intersects` is the opposite of `isDisjointFrom` and the union of
+    `isCongruentWith`, `includes`, `isIncludedIn` and `partiallyOverlaps`,
+    meaning it can be any of these relations. This relation can be used when the
+    more precise nature of the relationship is not known.
+
+
+    Quasi-nomenclatural statements like 'pro parte synonym', 'partial synonym'
+    and 'misapplication', are Taxon Concept Mappings, no matter how imperfect,
+    and, in TCS, are best dealt with using the `intersects` relation. In fact,
+    all 'traditional synonymy' relationships, cf. Berendsohn & al. (2000
+    [\[berendsohn_berlin_2003\]](../bibliography/#berendsohn_berlin_2003)), can
+    be accommodated using `intersects`. Also, citations of references in
+    treatments are, in the context of TCS, best accommodated using the
+    `intersects` relation.
   examples:
-    - TaxonConcept-intersects-1
+    - TaxonConcept-intersects-example-1
+    - TaxonConcept-intersects-example-2
+    - TaxonConceptMapping-intersects-example-1
+    - TaxonConcept-intersects-example-3
   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonConcept
   repeatable: Yes
   required: No
-  type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
   github: 57
+  mappings:
+    - predicate: "skos:broadMatch"
+      iri: /DataSet/TaxonConcepts/TaxonConcept/TaxonRelationships/TaxonRelationship[@type='has synonym']
+      remarks: >-
+        The TCS 1 `has synonym` relationship has been split into `synonym` for
+        relations between TaxonConcept and TaxonName and `intersects` for
+        relationships between TaxonConcepts.
+    - predicate: "skos:broadMatch"
+      iri: "tc:hasSynonym"
+
+# class: TaxonConceptMapping
+- localName: TaxonConceptMapping
+  label: Taxon concept mapping
+  definition: >-
+    Alignment or mapping of two Taxon Concepts in different taxonomies or
+    different versions of a taxonomy
+  usage: When using this class all properties are required
+  notes: >-
+    The Taxon Concept Mapping class allows for adding extra data to a taxon
+    concept mapping statement. As it allows for adding an 'according to' to a
+    concept mapping it can be used for third-party mappings. While structurally
+    very similar to the Darwin Core Resource Relationship class, it is different
+    in that instances of the Taxon Concept Mapping class are meaningful as
+    standalone objects.
+  type: http://www.w3.org/2000/01/rdf-schema#Class
+  organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonConceptMapping
+  required: null
+  repeatable: null
+  github: 43
+  mappings:
+    - predicate: "skos:broadMatch"
+      iri: /DataSet/TaxonRelationshipAssertions/TaxonRelationshipAssertion
+      remarks: >-
+        TCS 1 TaxonRelationshipInsertions could include many more relationship
+        types; the TCS 2 TaxonConceptMapping can only include the set-theory
+        relationship types.
+    - predicate: "skos:broadMatch"
+      iri: "dwc:ResourceRelationship"
+      remarks: >-
+        The TaxonConceptMapping is a special kind of ResourceRelationship.
+    - predicate: "skos:broadMatch"
+      iri: "rdf:Statement"
+
+# property: mappingAccordingTo
+- localName: mappingAccordingTo
+  label: Mapping according to
+  definition: >-
+    Reference to the source of the taxon concept mapping.
+  usage: >-
+    `mappingAccordingTo` is an IRI term and is required; a Taxon 
+    Concept Mapping can have only one `mappingAccordingTo`.
+  notes: null
+  type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+  organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonConceptMapping
+  required: Yes
+  repeatable: No
+  github: 47
+  mappings:
+    - predicate: "skos:exactMatch"
+      iri: /DataSet/TaxonRelationshipAssertions/TaxonRelationshipAssertion/AccordingTo
+    - predicate: "skos:exactMatch"
+      iri: "dwc:relationshipAccordingTo"
+
+# property: mappingRelation
+- localName: mappingRelation
+  label: Mapping relation
+  definition: The kind of mapping relation between the two concepts
+  usage: >-
+    This property is required; one MUST use one of the mapping properties
+    `isCongruentWith`, `includes`, `isIncludedIn`, `partiallyOverlaps`,
+    `isDisjointFrom` or `intersects`.
+  notes: null
+  type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+  organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonConceptMapping
+  required: Yes
+  repeatable: No
+  github: 44
+  mappings:
+    - predicate: "skos:exactMatch"
+      iri: /DataSet/TaxonRelationshipAssertions/TaxonRelationshipAssertion/@type
+    - predicate: "skos:exactMatch"
+      iri: "dwc:relationshipOfResourceID"
+
+# property: subjectTaxonConcept
+- localName: subjectTaxonConcept
+  label: Subject Taxon Concept
+  definition: Taxon Concept that is the subject in the mapping statement.
+  usage: >-
+    `subjectTaxonConcept` is a TCS Taxon Concept; a Taxon Concept Mapping 
+    statement can have only one `subjectTaxonConcept`.
+  notes: >-
+    This is the Taxon Concept at the left-hand side of the statement.
+  type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+  organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonConceptMapping
+  required: Yes
+  repeatable: No
+  github: 45
+  mappings:
+    - predicate: "skos:exactMatch"
+      iri: /DataSet/TaxonRelationshipAssertions/TaxonRelationshipAssertion/FromTaxonConcept
+    - predicate: "skos:exactMatch"
+      iri: "dwc:resourceID"
+
+# property: objectTaxonConcept
+- localName: objectTaxonConcept
+  label: Object Taxon Concept
+  definition: Taxon Concept that is the object in the mapping statement.
+  usage: >-
+    `objectTaxonConcept` is a TCS Taxon Concept; a Taxon Concept Mapping 
+    statement can have only one `objectTaxonConcept`.
+  notes: >-
+    This is the Taxon Concept at the right-hand side of the statement.
+  type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+  organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonConceptMapping
+  required: Yes
+  repeatable: No
+  github: 46
+  mappings:
+    - predicate: "skos:exactMatch"
+      iri: /DataSet/TaxonRelationshipAssertions/TaxonRelationshipAssertion/ToTaxonConcept
+    - predicate: "skos:exactMatch"
+      iri: "dwc:relatedResourceID"
 
 
 # class: TaxonName 
@@ -379,20 +760,31 @@
     A TCS Taxon Name requires either a `taxonNameString` or 
     `dwc:scientificName`.
   notes: >-
-    The word 'name' here is taken in its dictionary meaning and not in the 
-    sense of a particular nomenclatural code. This means that the Taxon Name 
-    class can be used for any type of name, not just names that are validly 
-    published under the relevant nomenclatural code.
+    The word 'name' here is taken in its dictionary meaning and not in the sense
+    of a particular nomenclatural code. This means that the Taxon Name class
+    can, in principle, be used for any type of name, not just names that are
+    validly published under the relevant nomenclatural code.
   examples: 
-    - TaxonName-1
-    - TaxonName-2
-    - TaxonName-3
-    - TaxonName-4
+    - TaxonName-example-1
+    - TaxonName-example-2
+    - TaxonName-example-3
+    - TaxonName-example-4
   type: http://www.w3.org/2000/01/rdf-schema#Class
   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonName
   required: null
   repeatable: null
   github: 15
+  mappings: 
+    - predicate: "skos:exactMatch"
+      iri: /DataSet/TaxonNames/TaxonName
+    - predicate: "skos:exactMatch"
+      iri: "tn:TaxonName"
+    - predicate: "skos:closeMatch"
+      iri: "openbiodiv-o:TaxonomicName"
+    - predicate: "skos:broadMatch"
+      iri:  "skosxl:Label"
+      remarks: >-
+        The TaxonName is a special kind of SKOSXL Label
 
 # property: taxonNameString
 - localName: taxonNameString
@@ -415,6 +807,13 @@
   required: No
   repeatable: No
   github: 16
+  mappings: 
+    - predicate: "skos:exactMatch"
+      iri: /DataSet/TaxonNames/TaxonName/Simple
+    - predicate: "skos:exactMatch"
+      iri: "tn:nameComplete"
+    - predicate: "skos:closeMatch"
+      iri: "skosxl:literalForm"
 
 # property: namePublishedIn
 - localName: namePublishedIn
@@ -424,12 +823,21 @@
   usage: null
   notes: >-
     In botany, this would be the protologue. This is the IRI counterpart of 
-    the Darwin Core `namePublishedIn`.
+    the Darwin Core `namePublishedIn`, which TCS borrows.
   type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonName
   required: No
   repeatable: No
   github: 29
+  mappings: 
+    - predicate: "skos:exactMatch"
+      iri: /DataSet/TaxonNames/TaxonName/PublishedIn
+    - predicate: "skos:exactMatch"
+      iri: "tn:namePublishedIn"
+    - predicate: "skos:exactMatch"
+      iri: "dwc:namePublishedIn"
+      remarks: >-
+        The TCS term is the IRI equivalent of the Darwin Core term
 
 # property: microreference
 - localName: microreference
@@ -448,6 +856,11 @@
   required: No
   repeatable: No
   github: 30
+  mappings:
+    - predicate: "skos:exactMatch"
+      iri: /DataSet/TaxonNames/TaxonName/MicroReference
+    - predicate:
+      iri: "tn:microReference"
 
 # property: nomenclaturalCode
 - localName: nomenclaturalCode
@@ -468,6 +881,15 @@
   required: No
   repeatable: No
   github: 33
+  mappings:
+    - predicate: "skos:exactMatch"
+      iri: /DataSet/TaxonNames/TaxonName/@nomenclaturalCode
+    - predicate: "skos:exactMatch"
+      iri: "tn:nomenclaturalCode"
+    - predicate: "skos:exactMatch"
+      iri: "dwc:nomenclaturalCode"
+      remarks: >-
+        The TCS term is the IRI equivalent of the Darwin Core term.
 
 # property: nomenclaturalStatus
 - localName: nomenclaturalStatus
@@ -478,7 +900,6 @@
   usage: >-
     `nomenclaturalStatus` takes an IRI or object; a Taxon Name can have only one 
     `nomenclaturalStatus`.
-
   notes: >-
     This is the IRI equivalent of the Darwin Core `nomenclaturalStatus`. In the 
     absence of a TDWG vocabulary, it is recommended to use a value from the GBIF 
@@ -489,27 +910,92 @@
   required: No
   repeatable: No
   github: 35
+  mappings:
+    - predicate: "skos:exactMatch"
+      iri: /DataSet/TaxonNames/TaxonName/PublicationStatus
+    - predicate: "skos:exactMatch"
+      iri: "tn:publicationStatus"
+    - predicate: "skos:exactMatch"
+      iri: "dwc:nomenclaturalCode"
+      remarks: >-
+        The TCS term is the IRI equivalent of the Darwin Core term.
+
+
+# property: typification
+- localName: typification
+  label: Typification
+  definition: >-
+    Designation of a nomenclatural type for a name
+  usage: >-
+    The `typification` property takes a `tcs:NomenclaturalType` or array of
+    `tcs:NomenclaturalType`s.
+  notes: >-
+    `tcs:typification` is the inverse of `tcs:typifiedName`.
+  type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+  organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonName
+  required: No
+  repeatable: Yes
+  examples: 
+    - TaxonName-typification-example-1
+    - TaxonName-typification-example-2
+  github: 238
+  mappings:
+    - predicate: "skos:exactMatch"
+      iri: /DataSet/TaxonNames/TaxonName/Typification
+
+
+# property: typificationLiteral
+- localName: typificationLiteral
+  label: Typification
+  definition: >-
+    Designation of a nomenclatural type for a name
+  usage: The `typificationLiteral` property takes a literal value.
+  notes: >-
+    The `typificationLiteral` property can be used for citation of a type (or
+    types) as written in the publication in which the typified name was
+    published. 
+  type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+  organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonName
+  required: No
+  repeatable: No
+  github: 223
+  mappings:
+    - predicate: "skos:exactMatch"
+      iri: /DataSet/TaxonNames/TaxonName/Typification/Simple
 
 # property: basionym
 - localName: basionym
   label: Basionym
-  definition: Original name on which the present name is based.
+  definition: Epithet- or name-bringing synonym.
   usage: >-
-    A `basionym` is another Taxon Name; a Taxon Name can have only one 
+    A `basionym` is another Taxon Name; a Taxon Name can have only one
     `basionym`.
   notes: >-
-    A basionym is the epithet-bringing name.  The `basionym` property is only 
-    used for new combinations ('comb. nov.'). If the new name is a replacement 
-    name ('nom. nov.') the `replacedName` property should be used 
-    instead.
+    The term `basionym` is in the draft BioCode
+    ([\[greuter_draft_2011\]](../bibliography/#greuter_draft_2011)), so can be
+    used for all organisms. The `basionym` property is only used for new
+    combinations ('comb. nov.'). If the new name is a replacement name ('nom.
+    nov.') the `replacedName` property should be used instead. It should be
+    noted that a basionym is always a different name or combination: a name
+    cannot be its own basionym.
   examples: 
-    - TaxonName-basionym-1
-    - TaxonName-basionym-2
-  required: No
+    - TaxonName-basionym-example-1
+    - TaxonName-basionym-example-2
   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonName
+  required: No
   repeatable: No
   type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
   github: 36
+  mappings:
+    - predicate: "skos:exactMatch"
+      iri: /DataSet/TaxonNames/TaxonName/Basionym
+    - predicate: "skos:exactMatch"
+      iri: "tn:hasBasionym"
+    - predicate: "skos:broadMatch"
+      iri: "dwc:originalNameUsage"
+      remarks: >-
+        `originalNameUsage` can be a `basionym` or a `replacedName` or any older
+        name with the same type. Also note that `originalNameUsage` is a string.
 
 # property: replacedName
 - localName: replacedName
@@ -521,43 +1007,74 @@
     `replacedName` is another Taxon Name; a Taxon Name can have only one 
     `replacedName`.
   notes: >-
-    In the Botanical Code the term 'replaced synonym' is used. A 'replacement 
-    name' is a name that is published as a substitute for an earlier published 
-    name that is either illegitimate or for which a new combination cannot be 
-    created in the place a taxon is transferred to because of an older blocking 
-    name.
+    'replaced name' is used in the draft BioCode
+    ([\[greuter_draft_2011\]](../bibliography/#greuter_draft_2011)). In the
+    Botanical Code the term 'replaced synonym' is used for the same thing. A
+    'replacement name' is a name that is published as a substitute for an
+    earlier published name that is either illegitimate or for which a new
+    combination cannot be created in the place a taxon is transferred to because
+    of an older blocking name.
   examples: 
-    - TaxonName-replacedName-1
-    - TaxonName-replacedName-2
+    - TaxonName-replacedName-example-1
+    - TaxonName-replacedName-example-2
+    - TaxonName-replacedName-example-3
+    - TaxonName-replacedName-example-4
   type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonName
   required: No
   repeatable: No
   github: 37
+  mappings:
+    - predicate: "skos:exactMatch"
+      iri: /DataSet/TaxonNames/TaxonName/ReplacementNameFor
+    - predicate: "skos:exactMatch"
+      iri: "tn:ReplacementNameFor"
+    - predicate: "skos:broadMatch"
+      iri: "dwc:originalNameUsage"
+      remarks: >-
+        `originalNameUsage` can be a `replacedName` or a `basionym` or any older
+        name with the same type. Also note that `originalNameUsage` is a string.
 
-# property: spellingCorrectionOf
-- localName: spellingCorrectionOf
-  label: Spelling correction of
+# property: emendationOf
+- localName: emendationOf
+  label: Emendation of
   definition: >-
-    Name for which this name is a correction
+    Name for which this name is an emendation
   usage: >-
-    `spellingCorrectionOf` is another Taxon Name object
-  notes: >-
-    The `spellingCorrectionOf` property can be used if the originally published 
-    name string, or another established name string, is not spelt correctly 
-    according to the current version of the relevant Code. It can link an 
-    established spelling of a name to the correctly spelt name where other name 
-    relationship properties cannot. `spellingCorrectionOf` is not the same as 
-    an orthographic variant. An orthographic variant is a valid name in another 
-    publication, while a spelling correction is generally for a correctable 
-    error in the original publication. 
-  examples:
-    - TaxonName-spellingCorrectionOf
+    `emendationOf` is another Taxon Name object
+  notes:
   type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonName
   required: No
-  repeatable: Yes
+  repeatable: No
   github: 224
+  mappings:
+    - predicate: "skos:exactMatch"
+      iri: /DataSet/TaxonNames/TaxonName/SpellingCorrectionOf
+    - predicate: "skos:exactMatch"
+      iri: "tn:SpellingCorrection"
+
+# property: laterHomonymOf
+- localName: laterHomonymOf
+  label: Later homonym of
+  definition: >-
+    An older legitimate name with the same spelling but a different
+    nomenclatural type
+  usage: >-
+    `laterHomonymOf` is another Taxon Name object
+  notes: >-
+    If there are more than two homonyms, the oldest one should be given here. In
+    zoology, this is the _senior homonym_.
+  type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+  organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonName
+  required: No
+  repeatable: No
+  github: 229
+  mappings:
+    - predicate: "skos:exactMatch"
+      iri: /DataSet/TaxonNames/TaxonName/LaterHomonymOf
+    - predicate: "skos:exactMatch"
+      iri: "tn:LaterHomonymOf"
 
 # property: conservedAgainst
 - localName: conservedAgainst
@@ -572,12 +1089,167 @@
     against the conserved name. A name can be conserved against more than one 
     other name, so this property is repeatable.
   examples:
-    - TaxonName-conservedAgainst
+    - TaxonName-conservedAgainst-example-1
   type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonName
   required: No
   repeatable: Yes
   github: 39
+  mappings:
+    - predicate: "skos:exactMatch"
+      iri: /DataSet/TaxonNames/TaxonName/ConservedAgainst
+    - predicate: "skos:exactMatch"
+      iri: "tn:ConservedAgainst"
+
+# property: basionymAuthor
+- localName: basionymAuthor
+  label: Basionym author
+  definition: Author of the basionym of the name
+  usage: >-
+    `basionymAuthor` is an IRI property. It can be a Person or a Group, or
+    multiple Person IRIs or objects.
+  notes: >-
+    `basionymAuthor` (or its literal counterpart) is the bit in parentheses
+    in the `dwc:scientificNameAuthorship`.
+  type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+  organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonName
+  required: No
+  repeatable: Yes
+  github: 239
+
+# property: basionymAuthorLiteral
+- localName: basionymAuthorLiteral
+  label: Basionym author literal
+  definition: Author of the basionym of the name
+  usage: >-
+    `basionymAuthorLiteral` is a Literal property.
+  notes: >-
+    `basionymAuthorLiteral` is the bit in parentheses
+    in the `dwc:scientificNameAuthorship`.
+  type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+  organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonName
+  required: No
+  repeatable: No
+  github: 239
+
+# property: combinationAuthor
+- localName: combinationAuthor
+  label: Combination author
+  definition: Author of the present name
+  usage: >-
+    `combinationAuthor` is an IRI property. It can be a Person or a Group, or
+    multiple Person IRIs or objects.
+  notes: >-
+    `combinationAuthor` is not quite right for uninomials but we have thought
+    hard about a better term and have come up empty for now.
+  type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+  organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonName
+  required: No
+  repeatable: Yes
+  github: 239
+
+# property: combinationAuthorLiteral
+- localName: combinationAuthorLiteral
+  label: Combination author literal
+  definition: Author of the present name
+  usage: >-
+    `combinationAuthorLiteral` is a Literal property.
+  notes: null
+  type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+  organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonName
+  required: No
+  repeatable: No
+  github: 239
+
+# property: basionymAscribedAuthor
+- localName: basionymAscribedAuthor
+  label: Basionym author
+  definition: Ascribed author of the basionym of the name
+  usage: >-
+    `basionymAscribedAuthor` is an IRI property. It can be a Person or a Group, or
+    multiple Person IRIs or objects.
+  notes: >-
+    'Ascribed author' is a person (or group of people) who a name is ascribed to
+    in a publication, but who is not the author of the name according to the
+    rules of the nomenclatural codes, because they did not contribute to the
+    validating description of the name. In the `dwc:scientificNameAuthorship`
+    these authors are indicated with 'ex', the ascribed author coming before the
+    'ex' and the author the name is attributed to after. Note that the 'ex'
+    construction that is sometimes used with zoological names has got nothing to
+    do with attribution or ascription, but is used to indicate a concept, much
+    like we do here with 'sec.' or 'sensu' in taxon concept labels.
+  type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+  organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonName
+  required: No
+  repeatable: Yes
+  github: 239
+
+# property: basionymAscribedAuthorLiteral
+- localName: basionymAscribedAuthorLiteral
+  label: Basionym author literal
+  definition: Ascribed author of the basionym of the name
+  usage: >-
+    `basionymAscribedAuthorLiteral` is a Literal property.
+  notes: >-
+    'Ascribed author' is a person (or group of people) who a name is ascribed to
+    in a publication, but who is not the author of the name according to the
+    rules of the nomenclatural codes, because they did not contribute to the
+    validating description of the name. In the `dwc:scientificNameAuthorship`
+    these authors are indicated with 'ex', the ascribed author coming before the
+    'ex' and the author the name is attributed to after. Note that the 'ex'
+    construction that is sometimes used with zoological names has got nothing to
+    do with attribution or ascription, but is used to indicate a concept, much
+    like we do here with 'sec.' or 'sensu' in taxon concept labels.
+  type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+  organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonName
+  required: No
+  repeatable: No
+  github: 239
+
+# property: combinationAscribedAuthor
+- localName: combinationAscribedAuthor
+  label: Combination ascribed author
+  definition: Ascribed author of the present name
+  usage: >-
+    `combinationAscibedAuthor` is an IRI property. It can be a Person or a Group, or
+    multiple Person IRIs or objects.
+  notes: >-
+    'Ascribed author' is a person (or group of people) who a name is ascribed to
+    in a publication, but who is not the author of the name according to the
+    rules of the nomenclatural codes, because they did not contribute to the
+    validating description of the name. In the `dwc:scientificNameAuthorship`
+    these authors are indicated with 'ex', the ascribed author coming before the
+    'ex' and the author the name is attributed to after. Note that the 'ex'
+    construction that is sometimes used with zoological names has got nothing to
+    do with attribution or ascription, but is used to indicate a concept, much
+    like we do here with 'sec.' or 'sensu' in taxon concept labels.
+  type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+  organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonName
+  required: No
+  repeatable: Yes
+  github: 239
+
+# property: combinationAscribedAuthorLiteral
+- localName: combinationAscribedAuthorLiteral
+  label: Combination ascribed author literal
+  definition: Ascribed author of the present name
+  usage: >-
+    `combinationAscribedAuthorLiteral` is a Literal property.
+  notes: >-
+    'Ascribed author' is a person (or group of people) who a name is ascribed to
+    in a publication, but who is not the author of the name according to the
+    rules of the nomenclatural codes, because they did not contribute to the
+    validating description of the name. In the `dwc:scientificNameAuthorship`
+    these authors are indicated with 'ex', the ascribed author coming before the
+    'ex' and the author the name is attributed to after. Note that the 'ex'
+    construction that is sometimes used with zoological names has got nothing to
+    do with attribution or ascription, but is used to indicate a concept, much
+    like we do here with 'sec.' or 'sensu' in taxon concept labels.
+  type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+  organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonName
+  required: No
+  repeatable: No
+  github: 239
 
 
 # class: NomenclaturalType
@@ -593,12 +1265,28 @@
     of a Taxon Name. In Darwin Core, NomenclaturalType can be used as object 
     with `dwciri:typeStatus`.
   examples: 
-    - NomenclaturalType
+    - NomenclaturalType-example-1
   type: http://www.w3.org/2000/01/rdf-schema#Class
   organizedInClass: http://rs.tdwg.org/tcs/terms/NomenclaturalType
   repeatable: null
   required: null
   github: 58
+  mappings:
+    - predicate: "skos:narrowMatch"
+      iri: /DataSet/TaxonNames/TaxonName/Typification/TypeVouchers/TypeVoucher/
+      remarks: >-
+        TCS 1 does not have an equivalent for NomenclaturalType, but has a
+        choice between TypeName and TypeVouchers. Therefore, TypeVoucher does
+        not include those NomenclaturalTypes that have a `typeName` rather than
+        a `typeSpecimen`.
+    - predicate: "skos:broadMatch"
+      iri: "dwc:ResourceRelationship"
+      remarks: >-
+        A NomenclaturalType is in essence a special kind of ResourceRelationship
+        connecting a name to a specimen or other name, with, depending on
+        whether one comes from a tcs:TaxonName or a dwc:MaterialEntity,
+        `typifiedName` being the `resourceID` and `typeSpecimen` or `typeName`
+        the `relatedResourceID` and vice versa.
 
 # property: typifiedName
 - localName: typifiedName
@@ -619,6 +1307,12 @@
   required: Yes
   repeatable: No
   github: 59
+  mappings:
+    - predicate: ""
+      iri: ""
+      remarks: >-
+        In TCS 1 there is no property relating a TypeVoucher to a TaxonName, as
+        TypeVouchers are nested under the TaxonName.
 
 # property: typeOfType
 - localName: typeOfType
@@ -637,6 +1331,13 @@
   repeatable: No
   organizedInClass: http://rs.tdwg.org/tcs/terms/NomenclaturalType
   github: 60
+  mappings:
+    - predicate: "skos:narrowMatch"
+      iri: /DataSet/TaxonNames/TaxonName/Typification/TypeVouchers/TypeVoucher/@typeofType
+      remarks: >-
+        In TCS 1 only TypeVouchers have a `typeOfType`; TypeName does not.
+    - predicate: "skos:narrowMatch"
+      iri: "tn:typeOfType"
 
 # property: typeName
 - localName: typeName
@@ -654,6 +1355,11 @@
   required: No
   repeatable: No
   github: 61
+  mappings:
+    - predicate: "skos:exactMatch"
+      iri: /DataSet/TaxonNames/TaxonName/Typification/TypeName/NameReference
+    - predicate: "skos:exactMatch"
+      iri: "tn:typeName"
 
 # property: typeSpecimen
 - localName: typeSpecimen
@@ -674,6 +1380,12 @@
   required: No
   repeatable: No
   github: 62
+  mappings:
+    - predicate: "skos:exactMatch"
+      iri: /DataSet/TaxonNames/TaxonName/Typification/TypeVouchers/TypeVoucher/VoucherReference
+    - predicate: "skos:exactMatch"
+      iri: "tn:typeSpecimen"
+
 
 # property: typePublishedIn
 - localName: typePublishedIn
@@ -685,9 +1397,22 @@
   notes: >-
     `typePublishedIn` is relevant for lectotypes, neotypes, epitypes and 
     conserved types. For other kinds of type the publication where the type is 
-    designated is the publication where the name was published.
+    designated is the publication the name was published in.
   type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
   organizedInClass: http://rs.tdwg.org/tcs/terms/NomenclaturalType
   required: No
   repeatable: No
   github: 63
+  mappings:
+    - predicate: "skos:narrowMatch"
+      iri: /DataSet/TaxonNames/TaxonName/Typification/TypeName/LectotypePublication
+      remarks: >-
+        Apart from TCS 1 having different elements for `LectotypePublication`for
+        TypeName and TypeVoucher, the TCS 1 terms are ostensibly only to be used
+        for lectotypifications, while designations of neotypes, epitypes and
+        conserved types also takes place in different publications from the ones
+        the names have been published in. The TCS 2 term can be used for all
+        these typifications, as it could for typifications that are in the
+        publication of the name.
+    - predicate: "skos:narrowMatch"
+      iri: /DataSet/TaxonNames/TaxonName/Typification/TypeVouchers/TypeVoucher/LectotypePublication

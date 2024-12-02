@@ -1,0 +1,77 @@
+{
+  "@context": "https://raw.githubusercontent.com/tdwg/tcs2/master/examples/context.jsonld",
+  "id": "https://www.catalogueoflife.org/data/taxon/3YVTF",
+  "type": "TaxonConcept",
+  "accordingTo": "https://doi.org/10.48580/dfry-3gd#1.1.23.5",
+  "dcterms:title": "Megalorhipida leucodactylus sec. Gielis & Hobern 2020-07-16",
+  "taxonName": {
+    "type": "TaxonName",
+    "taxonNameString": "Megalorhipida leucodactylus",
+    "dwc:scientificNameAuthorship": "(Fabricius, 1794)",
+    "basionym": {
+      "type": "TaxonName",
+      "id": { "id": "https://zoobank.org/NomenclaturalActs/39b2f236-3914-4962-9dcc-f594671654bd" },
+      "taxonNameString": "Pterophorus leucodactylus Fabricius, 1794",
+			"dwc:scientificNameAuthorship": ""
+    }
+  },
+  "synonym": [
+    {
+      "type": "TaxonName",
+      "taxonNameString": "Aciptilia hawaiiensis",
+			"dwc:scientificNameAuthorship": "Butler, 1881"
+    }, 
+    {
+      "type": "TaxonName",
+      "taxonNameString": "Megalorhipida palaestinensis",
+			"dwc:scientificNameAuthorship": "Amsel, 1935"
+    },
+    {
+      "type": "TaxonName",
+      "taxonNameString": "Pterophorus congrualis",
+			"dwc:scientificNameAuthorship": "Walker, 1864"
+    },
+    {
+      "type": "TaxonName",
+      "taxonNameString": "Pterophorus defectalis",
+			"dwc:scientificNameAuthorship": "Walker, 1864"
+    },
+    {
+      "type": "TaxonName",
+      "taxonNameString": "Trichoptilus adelphodes",
+			"dwc:scientificNameAuthorship": "Meyrick, 1887"
+    },
+    {
+      "type": "TaxonName",
+      "taxonNameString": "Trichoptilus centetes",
+			"dwc:scientificNameAuthorship": "Meyrick, 1886"
+    },
+    {
+      "type": "TaxonName",
+      "taxonNameString": "Trichoptilus compsochares",
+			"dwc:scientificNameAuthorship": "Meyrick, 1886"
+    },
+    {
+      "type": "TaxonName",
+      "taxonNameString": "Trichoptilus derelictus",
+			"dwc:scientificNameAuthorship": "Meyrick, 1926"
+    },
+    {
+      "type": "TaxonName",
+      "taxonNameString": "Trichoptilus ochrodactylus",
+			"dwc:scientificNameAuthorship": "Fish, 1881"
+    },
+    {
+      "type": "TaxonName",
+      "taxonNameString": "Trichoptilus ralumensis",
+			"dwc:scientificNameAuthorship": "Pagenstecher, 1900"
+    },
+    {
+      "type": "TaxonName",
+      "taxonNameString": "Pterophorus oxydactylus",
+			"dwc:scientificNameAuthorship": "Walker, 1864"
+    }
+  ],
+  "taxonRank": "species",
+  "parent": { "id": "https://www.catalogueoflife.org/data/taxon/62ZBY" }
+}

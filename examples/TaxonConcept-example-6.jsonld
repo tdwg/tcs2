@@ -1,0 +1,37 @@
+{
+  "@context": [
+    "https://raw.githubusercontent.com/tdwg/tcs2/master/examples/context.jsonld",
+    {
+      "skosxl": "http://www.w3.org/2008/05/skos-xl#"
+    }
+  ],
+  "@graph": [
+    {
+      "id": "https://doi.plutof.ut.ee/doi/10.15156/BIO/SH1109146.09FU",
+      "type": "TaxonConcept",
+      "taxonName": {
+        "type": "skosxl:Label",
+        "skosxl:literalForm": "SH1109146.09FU"
+      },
+      "accordingTo": "https://unite.ut.ee",
+      "isIncludedIn": {
+        "id": "https://doi.plutof.ut.ee/doi/10.15156/BIO/TH077737",
+        "accordingTo": "https://unite.ut.ee",
+        "taxonName": {
+          "id": "https://www.indexfungorum.org/names/NamesRecord.asp?RecordID=17175",
+          "type": "TaxonName",
+          "taxonNameString": "Boletus",
+          "dwc:scientificNameAuthorship": "L",
+          "dwc:namePublishedIn": "Sp. pl. 2: 1176" ,
+          "dwc:namePublishedInYear": "1753"
+        }
+      }
+    },
+    {
+      "id": "https://unite.ut.ee" ,
+      "type": "bibo:Website",
+      "dcterms:title": "UNITE: rDNA ITS based identification of Eukaryotes and their communication via DOIs",
+      "bibo:uri": "https://unite.ut.ee"
+    }
+  ]
+}

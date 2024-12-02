@@ -1,12 +1,8 @@
 {
-  "@context": [
-    "https://raw.githubusercontent.com/tdwg/tcs2/master/examples/context.jsonld",
-     {
-       "value": { "id": "rdf:value", "type": "id"}
-     }
-  ],
+  "@context": "https://raw.githubusercontent.com/tdwg/tcs2/master/examples/context.jsonld",
   "@graph": [
     {
+      "id": "_:2000-Campylium",
       "type": "TaxonConcept",
       "dcterms:title": "Campylium sec. Koperski & al. 2000",
       "accordingTo": "https://tropicos.org/reference/9022656",
@@ -16,32 +12,49 @@
         "https://www.tropicos.org/name/35000213",
         "https://www.tropicos.org/name/35000256"
       ],
-      "rdfs:comment": "Weltweit über 30 Arten, in Europa 9 Arten (incl. *C. laxifolium Engelmark & Hedenäs 1990). – Hedenäs (1997a) akzeptiert auch die Gattungen Campyliadelphus und Campylophyllum und stellt Campylium polygamum zur Gattung Drepanocladus.",
-      "isCongruentWith": [
-        "_:1981-Campylium"
-      ],
-      "includes": [
-        {
-          "value": "_:1980-Campylium",
-          "rdfs:comment": "excl. *C. longicuspis (Lindb. & Arnell) Hedenäs (syn. *Amblystegium l. Lindb. & Arnell, *Drepanocladus l. [Lindb. & Arnell] Broth., *Pseudocalliergon l. [Lindb. & Arnell] Loeske), da Hedenäs diese Kombination erst 1989 schuf. Es bleibt unklar, zu welcher Gattung Smith dieses auf den Britischen Inseln nicht nachgewiesene Taxon stellt."
-        }
-      ],
-      "partiallyOverlaps": [
-        {
-          "value": "_:1927-Chrysohypnum",
-          "rdfs:comment": "incl. Amblystegium radicale (Chrysohypnum hygrophilum); excl. *Campylium longicuspis (Lindb. & Arnell) Hedenäs (Drepanocladus l.)."
-        },
-        {
-          "value": "_:1927-Drepanocladus",
-          "rdfs:comment": "incl. *Campylium longicuspis (Lindb. & Arnell) Hedenäs (Drepanocladus l.)."
-        },
-        {
-          "value": "_:1992-Campylium",
-          "rdfs:comment": "incl. Amblystegium radicale (Campylium r.). Wahrscheinlich excl. *C. longicuspis (Lindb. & Arnell) Hedenäs. Dieses arktische Taxon wird vermutlich nicht in das Gattungkonzept einbezogen, da Hedenäs erst 1989 diese Kombination schuf. Es bleibt unklar, zu welcher Gattung Frahm & Frey dieses Taxon stellen."
-        }
-      ]
+      "rdfs:comment": "Weltweit über 30 Arten, in Europa 9 Arten (incl. *C. laxifolium Engelmark & Hedenäs 1990). – Hedenäs (1997a) akzeptiert auch die Gattungen Campyliadelphus und Campylophyllum und stellt Campylium polygamum zur Gattung Drepanocladus."
     },
     {
+      "type": "TaxonConceptMapping",
+      "mappingAccordingTo": "https://tropicos.org/reference/9022656",
+      "mappingRelation": "isCongruentWith",
+      "subjectTaxonConcept": "_:2000-Campylium",
+      "objectTaxonConcept": "_:1981-Campylium"
+    },
+    {
+      "type": "TaxonConceptMapping",
+      "mappingAccordingTo": "https://tropicos.org/reference/9022656",
+      "mappingRelation": "includes",
+      "subjectTaxonConcept": "_:2000-Campylium",
+      "objectTaxonConcept": "_:1980-Campylium",
+      "rdfs:comment": "excl. *C. longicuspis (Lindb. & Arnell) Hedenäs (syn. *Amblystegium l. Lindb. & Arnell, *Drepanocladus l. [Lindb. & Arnell] Broth., *Pseudocalliergon l. [Lindb. & Arnell] Loeske), da Hedenäs diese Kombination erst 1989 schuf. Es bleibt unklar, zu welcher Gattung Smith dieses auf den Britischen Inseln nicht nachgewiesene Taxon stellt."
+    },
+    {
+      "type": "TaxonConceptMapping",
+      "mappingAccordingTo": "https://tropicos.org/reference/9022656",
+      "mappingRelation": "partiallyOverlaps",
+      "subjectTaxonConcept": "_:2000-Campylium",
+      "objectTaxonConcept": "_:1927-Chrysohypnum",
+      "rdfs:comment": "incl. Amblystegium radicale (Chrysohypnum hygrophilum); excl. *Campylium longicuspis (Lindb. & Arnell) Hedenäs (Drepanocladus l.)."
+    },
+    {
+      "type": "TaxonConceptMapping",
+      "mappingAccordingTo": "https://tropicos.org/reference/9022656",
+      "mappingRelation": "partiallyOverlaps",
+      "subjectTaxonConcept": "_:2000-Campylium",
+      "objectTaxonConcept": "_:1927-Drepanocladus",
+      "rdfs:comment": "incl. *Campylium longicuspis (Lindb. & Arnell) Hedenäs (Drepanocladus l.)."
+    },
+    {
+      "type": "TaxonConceptMapping",
+      "mappingAccordingTo": "https://tropicos.org/reference/9022656",
+      "mappingRelation": "partiallyOverlaps",
+      "subjectTaxonConcept": "_:2000-Campylium",
+      "objectTaxonConcept": "_:1992-Campylium",
+      "rdfs:comment": "incl. Amblystegium radicale (Campylium r.). Wahrscheinlich excl. *C. longicuspis (Lindb. & Arnell) Hedenäs. Dieses arktische Taxon wird vermutlich nicht in das Gattungkonzept einbezogen, da Hedenäs erst 1989 diese Kombination schuf. Es bleibt unklar, zu welcher Gattung Frahm & Frey dieses Taxon stellen."
+    },
+    {
+      "id": "_:2000-Amblystegium",
       "type": "TaxonConcept",
       "dcterms:title": "Amblystegium sec. Koperski & al. 2000",
       "accordingTo": "https://tropicos.org/reference/9022656",
@@ -49,49 +62,88 @@
       "synonym": [
         "https://tropicos.org/name/35000612"
       ],
-      "rdfs:comment": "Weltweit etwa 35 Arten, in Europa 8 Arten. Abweichend von Corley & al. wird in Übereinstimmung mit Anderson & al. (1990), Ignatov & Afonina (1992), Blockeel & Long (1998) sowie Crosby & al. (1999) Leptodictyum als Gattung akzeptiert (s. auch Hedenäs 1990a).",
-      "isIncludedIn": [
-        {
-          "value": "1981-Amblystegium",
-          "rdfs:comment": "incl. Leptodictyum riparium (Amblystegium r.)"
-        }
-      ],
-      "includes": [
-        {
-          "value": "1992-Amblystegium",
-          "rdfs:comment": "excl. Amblystegium confervoides (Amblystegiella c.), A. subtile (Amblystegiella s.), A. fluviatile (Hygroamblystegium f.), A. tenax (Hygroambystegium t.), A. radicale (Campylium r.)"
-        },
-        "_:1992-Hygroamblystegium",
-        "_:1927-Hygroamblystegium"
-      ],
-      "partiallyOverlaps": [
-        {
-          "value": "_:1992-Amblystegiella",
-          "rdfs:comment": "incl. Amblystegium confervoides (Amblystegiella c.), Amblystegium subtile (Amblystegiella s.)"
-        },
-        {
-          "value": "_:1992-Campylium",
-          "rdfs:comment": "incl. Amblystegium confervoides (Amblystegiella c.), Amblystegium subtile (Amblystegiella s.)"
-        },
-        {
-          "value": "_:1927-Amblystegium",
-          "rdfs:comment": "incl. Conardia compacta (Amblystegium c.), *Isopterygiopsis alpicola (Lind. & Arnell) Hedenäs (Amblystegium a.), Leptodictyum riparium (Amblystegium r.), Platydictya jungermannioides (Amblystegium sprucei), Pseudoleskeella catenulata p.p. (Amblystegium ursorum) sowie die aussereuropäische Art *Homomallium adnatum (Hedw,) Broth. (Amblystegium a.); excl. Amblystegium fluviatile (Hygroamblystegium f.), A. tenax (Hygroamblystegium t.), A. radicale (Chrysohypnum hygrophilum)."
-        },
-        {
-          "value": "_:1927-Chrysohypnum",
-          "rdfs:comment": "incl. Amblystegium radicale (Chrysohypnum hygrophilum)"
-        },
-        {
-          "value": "_:1980-Amblystegium",
-          "rdfs:comment": "incl. Conardia compacta (Amblystegium c.), Leptodictyum riparium (Amblystegium r.); excl. Amblystegium confervioides (Platydictya c.)"
-        },
-        {
-          "value": "_:1980-Platydictya",
-          "rdfs:comment": "incl. Amblystegium confervoides (Platydictya c.)"
-        }
-      ]
+      "rdfs:comment": "Weltweit etwa 35 Arten, in Europa 8 Arten. Abweichend von Corley & al. wird in Übereinstimmung mit Anderson & al. (1990), Ignatov & Afonina (1992), Blockeel & Long (1998) sowie Crosby & al. (1999) Leptodictyum als Gattung akzeptiert (s. auch Hedenäs 1990a)."
     },
     {
+      "type": "TaxonConceptMapping",
+      "mappingAccordingTo": "https://tropicos.org/reference/9022656",
+      "mappingRelation": "isIncludedIn",
+      "subjectTaxonConcept": "_:2000-Amblystegium",
+      "objectTaxonConcept": "1981-Amblystegium",
+      "rdfs:comment": "incl. Leptodictyum riparium (Amblystegium r.)"
+    },
+    {
+      "type": "TaxonConceptMapping",
+      "mappingAccordingTo": "https://tropicos.org/reference/9022656",
+      "mappingRelation": "includes",
+      "subjectTaxonConcept": "_:2000-Amblystegium",
+      "objectTaxonConcept": "1992-Amblystegium",
+      "rdfs:comment": "excl. Amblystegium confervoides (Amblystegiella c.), A. subtile (Amblystegiella s.), A. fluviatile (Hygroamblystegium f.), A. tenax (Hygroambystegium t.), A. radicale (Campylium r.)"
+    },
+    {
+      "type": "TaxonConceptMapping",
+      "mappingAccordingTo": "https://tropicos.org/reference/9022656",
+      "mappingRelation": "includes",
+      "subjectTaxonConcept": "_:2000-Amblystegium",
+      "objectTaxonConcept": "_:1992-Hygroamblystegium"
+    },
+    {
+      "type": "TaxonConceptMapping",
+      "mappingAccordingTo": "https://tropicos.org/reference/9022656",
+      "mappingRelation": "includes",
+      "subjectTaxonConcept": "_:2000-Amblystegium",
+      "objectTaxonConcept": "_:1927-Hygroamblystegium"
+    },
+    {
+      "type": "TaxonConceptMapping",
+      "mappingAccordingTo": "https://tropicos.org/reference/9022656",
+      "mappingRelation": "partiallyOverlaps",
+      "subjectTaxonConcept": "_:2000-Amblystegium",
+      "objectTaxonConcept": "_:1992-Amblystegiella",
+      "rdfs:comment": "incl. Amblystegium confervoides (Amblystegiella c.), Amblystegium subtile (Amblystegiella s.)"
+    },
+    {
+      "type": "TaxonConceptMapping",
+      "mappingAccordingTo": "https://tropicos.org/reference/9022656",
+      "mappingRelation": "partiallyOverlaps",
+      "subjectTaxonConcept": "_:2000-Amblystegium",
+      "objectTaxonConcept": "_:1992-Campylium",
+      "rdfs:comment": "incl. Amblystegium confervoides (Amblystegiella c.), Amblystegium subtile (Amblystegiella s.)"
+    },
+    {
+      "type": "TaxonConceptMapping",
+      "mappingAccordingTo": "https://tropicos.org/reference/9022656",
+      "mappingRelation": "partiallyOverlaps",
+      "subjectTaxonConcept": "_:2000-Amblystegium",
+      "objectTaxonConcept": "_:1927-Amblystegium",
+      "rdfs:comment": "incl. Conardia compacta (Amblystegium c.), *Isopterygiopsis alpicola (Lind. & Arnell) Hedenäs (Amblystegium a.), Leptodictyum riparium (Amblystegium r.), Platydictya jungermannioides (Amblystegium sprucei), Pseudoleskeella catenulata p.p. (Amblystegium ursorum) sowie die aussereuropäische Art *Homomallium adnatum (Hedw,) Broth. (Amblystegium a.); excl. Amblystegium fluviatile (Hygroamblystegium f.), A. tenax (Hygroamblystegium t.), A. radicale (Chrysohypnum hygrophilum)."
+    },
+    {
+      "type": "TaxonConceptMapping",
+      "mappingAccordingTo": "https://tropicos.org/reference/9022656",
+      "mappingRelation": "partiallyOverlaps",
+      "subjectTaxonConcept": "_:2000-Amblystegium",
+      "objectTaxonConcept": "_:1927-Chrysohypnum",
+      "rdfs:comment": "incl. Amblystegium radicale (Chrysohypnum hygrophilum)"
+    },
+    {
+      "type": "TaxonConceptMapping",
+      "mappingAccordingTo": "https://tropicos.org/reference/9022656",
+      "mappingRelation": "partiallyOverlaps",
+      "subjectTaxonConcept": "_:2000-Amblystegium",
+      "objectTaxonConcept": "_:1980-Amblystegium",
+      "rdfs:comment": "incl. Conardia compacta (Amblystegium c.), Leptodictyum riparium (Amblystegium r.); excl. Amblystegium confervioides (Platydictya c.)"
+    },
+    {
+      "type": "TaxonConceptMapping",
+      "mappingAccordingTo": "https://tropicos.org/reference/9022656",
+      "mappingRelation": "partiallyOverlaps",
+      "subjectTaxonConcept": "_:2000-Amblystegium",
+      "objectTaxonConcept": "_:1980-Platydictya",
+      "rdfs:comment": "incl. Amblystegium confervoides (Platydictya c.)"
+    },
+    {
+      "id": "_:2000-Platydictya",
       "type": "TaxonConcept",
       "dcterms:title": "Platydictya sec. Koperski & al. 2000",
       "accordingTo": "https://www.tropicos.org/reference/9022656",
@@ -99,47 +151,99 @@
       "synonym": [
         "https://www.tropicos.org/name/35000039"
       ],
-      "rdfs:comment": "Weltweit 7 Arten, in Europa 1 Art.",
-      "isCongruentWith": [
-        "_:1981-Platydictya"
-      ],
-      "isIncludedIn": [
-        {
-          "value": "_:1992-Amblystegiella",
-          "rdfs:comment": "incl. Amblystegium confervoides (Amblystegiella c.), Amblystegium subtile (Amblystegiella s.)"
-        },
-        "_:1927-Amblystegium",
-        {
-          "value": "_:1927-Amblystegium-sect-Serpoleskea",
-          "rdfs:comment": "incl. Amblystegium confervoides, A. subtile, *Isopterygiopsis alpicola (Lindb. & Arnell) Hedenäs (Amblystegium a.), Pseudoleskeella catenulata (Amblystegium ursorum) sowie *Homomallium adnatum (Hedw.) Broth. (Amblystegium a.), einem in Europa nicht nachgewiesene Taxon"
-        },
-        {
-          "value": "_:1980-Platydictya",
-          "rdfs:comment": "incl. Amblystegium confervoides (Platydictya c.)"
-        }
-      ]
+      "rdfs:comment": "Weltweit 7 Arten, in Europa 1 Art."
     },
     {
+      "type": "TaxonConceptMapping",
+      "mappingAccordingTo": "https://tropicos.org/reference/9022656",
+      "mappingRelation": "isCongruentWith",
+      "subjectTaxonConcept": "_:2000-Platydictya",
+      "objectTaxonConcept": "_:1981-Platydictya"
+    },
+    {
+      "type": "TaxonConceptMapping",
+      "mappingAccordingTo": "https://tropicos.org/reference/9022656",
+      "mappingRelation": "isIncludedIn",
+      "subjectTaxonConcept": "_:2000-Platydictya",
+      "objectTaxonConcept": "_:1992-Amblystegiella",
+      "rdfs:comment": "incl. Amblystegium confervoides (Amblystegiella c.), Amblystegium subtile (Amblystegiella s.)"
+    },
+    {
+      "type": "TaxonConceptMapping",
+      "mappingAccordingTo": "https://tropicos.org/reference/9022656",
+      "mappingRelation": "isIncludedIn",
+      "subjectTaxonConcept": "_:2000-Platydictya",
+      "objectTaxonConcept": "_:1927-Amblystegium"
+    },
+    {
+      "type": "TaxonConceptMapping",
+      "mappingAccordingTo": "https://tropicos.org/reference/9022656",
+      "mappingRelation": "isIncludedIn",
+      "subjectTaxonConcept": "_:2000-Platydictya",
+      "objectTaxonConcept": "_:1927-Amblystegium-sect-Serpoleskea",
+      "rdfs:comment": "incl. Amblystegium confervoides, A. subtile, *Isopterygiopsis alpicola (Lindb. & Arnell) Hedenäs (Amblystegium a.), Pseudoleskeella catenulata (Amblystegium ursorum) sowie *Homomallium adnatum (Hedw.) Broth. (Amblystegium a.), einem in Europa nicht nachgewiesene Taxon"
+    },
+    {
+      "type": "TaxonConceptMapping",
+      "mappingAccordingTo": "https://tropicos.org/reference/9022656",
+      "mappingRelation": "isIncludedIn",
+      "subjectTaxonConcept": "_:2000-Platydictya",
+      "objectTaxonConcept": "_:1980-Platydictya",
+      "rdfs:comment": "incl. Amblystegium confervoides (Platydictya c.)"
+    },
+    {
+      "id": "_:2000-Leptodictyum",
       "type": "TaxonConcept",
       "dcterms:title": "Leptodictyum sec. Koperski & al. 2000",
       "accordingTo": "https://www.tropicos.org/reference/9022656",
-      "isCongruentWith": [
-        "_:1992-Leptodictyum",
-        "_:1927-Amblystegium-sect-Leptodictyum"
-      ],
-      "isIncludedIn": [
-        "1981-Amblystegium",
-        {
-          "value": "_1981-Amblystegium-subg-Leptodictyum",
-          "rdfs:comment": "incl. Amblystegium humile"
-        },
-        "_:1927-Amblystegium",
-        "_:1980-Amblystegium"
-      ],
       "taxonName": "https://www.tropicos.org/name/35000692",
-      "rdfs:comment": "Welweit 8 Arten, in Europa 1 Art. – In Übereinstimmung mit Anderson & al. (1990), Ignatov & Afonina (1992), Blockeel & Long (1998) sowie Crosby & al. (1999) wird Leptodictyum als Gattung akzeptiert (s. auch Hedenäs 1990a)."
+      "rdfs:comment": "Weltweit 8 Arten, in Europa 1 Art. – In Übereinstimmung mit Anderson & al. (1990), Ignatov & Afonina (1992), Blockeel & Long (1998) sowie Crosby & al. (1999) wird Leptodictyum als Gattung akzeptiert (s. auch Hedenäs 1990a)."
     },
     {
+      "type": "TaxonConceptMapping",
+      "mappingAccordingTo": "https://tropicos.org/reference/9022656",
+      "mappingRelation": "isCongruentWith",
+      "subjectTaxonConcept": "_:2000-Leptodictyum",
+      "objectTaxonConcept": "_:1992-Leptodictyum"
+    },
+    {
+      "type": "TaxonConceptMapping",
+      "mappingAccordingTo": "https://tropicos.org/reference/9022656",
+      "mappingRelation": "isCongruentWith",
+      "subjectTaxonConcept": "_:2000-Leptodictyum",
+      "objectTaxonConcept": "_:1927-Amblystegium-sect-Leptodictyum"
+    },
+    {
+      "type": "TaxonConceptMapping",
+      "mappingAccordingTo": "https://tropicos.org/reference/9022656",
+      "mappingRelation": "isIncludedIn",
+      "subjectTaxonConcept": "_:2000-Leptodictyum",
+      "objectTaxonConcept": "_:1981-Amblystegium"
+    },
+    {
+      "type": "TaxonConceptMapping",
+      "mappingAccordingTo": "https://tropicos.org/reference/9022656",
+      "mappingRelation": "isIncludedIn",
+      "subjectTaxonConcept": "_:2000-Leptodictyum",
+      "objectTaxonConcept": "_1981-Amblystegium-subg-Leptodictyum",
+      "rdfs:comment": "incl. Amblystegium humile"
+    },
+    {
+      "type": "TaxonConceptMapping",
+      "mappingAccordingTo": "https://tropicos.org/reference/9022656",
+      "mappingRelation": "isIncludedIn",
+      "subjectTaxonConcept": "_:2000-Leptodictyum",
+      "objectTaxonConcept": "_:1927-Amblystegium"
+    },
+    {
+      "type": "TaxonConceptMapping",
+      "mappingAccordingTo": "https://tropicos.org/reference/9022656",
+      "mappingRelation": "isIncludedIn",
+      "subjectTaxonConcept": "_:2000-Leptodictyum",
+      "objectTaxonConcept": "_:1980-Amblystegium"
+    },
+    {
+      "id": "_:2000-Conardia",
       "type": "TaxonConcept",
       "dcterms:title": "Conardia sec. Koperski & al. 2000",
       "accordingTo": "https://www.tropicos.org/reference/9022656",
@@ -153,6 +257,34 @@
         "_:1927-Amblystegium",
         "_:1980-Amblystegium"
       ]
+    },
+    {
+      "type": "TaxonConceptMapping",
+      "mappingAccordingTo": "https://tropicos.org/reference/9022656",
+      "mappingRelation": "isCongruentWith",
+      "subjectTaxonConcept": "_:2000-Conardia",
+      "objectTaxonConcept": "_:1981-Conardia"
+    },
+    {
+      "type": "TaxonConceptMapping",
+      "mappingAccordingTo": "https://tropicos.org/reference/9022656",
+      "mappingRelation": "isIncludedIn",
+      "subjectTaxonConcept": "_:2000-Conardia",
+      "objectTaxonConcept": "_:1992-Rhynchostegiella"
+    },
+    {
+      "type": "TaxonConceptMapping",
+      "mappingAccordingTo": "https://tropicos.org/reference/9022656",
+      "mappingRelation": "isIncludedIn",
+      "subjectTaxonConcept": "_:2000-Conardia",
+      "objectTaxonConcept": "_:1927-Amblystegium"
+    },
+    {
+      "type": "TaxonConceptMapping",
+      "mappingAccordingTo": "https://tropicos.org/reference/9022656",
+      "mappingRelation": "isIncludedIn",
+      "subjectTaxonConcept": "_:2000-Conardia",
+      "objectTaxonConcept": "_:1980-Amblystegium"
     },
     {
       "id": "1981-Amblystegium",

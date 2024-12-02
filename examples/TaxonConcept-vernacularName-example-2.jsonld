@@ -1,0 +1,20 @@
+{
+  "@context": "https://raw.githubusercontent.com/tdwg/tcs2/master/examples/context.jsonld",
+  "type": "TaxonConcept",
+  "dcterms:title": "Quercus robur sec. Duistermaat 2020",
+  "accordingTo": {
+    "id": "urn:isbn:978-90-01-58956-1",
+    "type": "bibo:Book",
+    "dcterms:bibliographicCitation": "Duistermaat, H. (2020). Heukels \n            Flora van Nederland, edn 24. Noordhoff, Groningen."
+  },
+  "taxonName": {
+    "id": "https://www.ipni.org/n/304293-2",
+    "type": "TaxonName",
+    "tcs:taxonNameString": "Quercus robur"
+  },
+  "vernacularName": {
+    "type": "gbif:VernacularName",
+    "dwc:vernacularName": "Zomereik",
+    "dcterms:language": "nl"
+  }
+}

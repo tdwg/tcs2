@@ -43,13 +43,18 @@ from the treatment by Klazenga to the concepts in the other four treatments:
 
 ### Amblystegiaceae in Koperski & al. (2000)
 
-[TurTLe](https://github.com/tdwg/tcs2/blob/master/examples/amblystegium-sec-koperski-et-al.jsonld) |
-[JSON-LD](https://github.com/tdwg/tcs2/blob/master/examples/amblystegium-sec-koperski-et-al.ttl)
+[TurTLe](https://github.com/tdwg/tcs2/blob/master/examples/amblystegium-sec-koperski-et-al.ttl) |
+[JSON-LD](https://github.com/tdwg/tcs2/blob/master/examples/amblystegium-sec-koperski-et-al.jsonld)
+
+With embedded Taxon Concept Mappings:
+
+[TurTLe](https://github.com/tdwg/tcs2/blob/master/examples/amblystegium-sec-koperski-et-al-embedded.ttl) |
+[JSON-LD](https://github.com/tdwg/tcs2/blob/master/examples/amblystegium-sec-koperski-et-al-embedded.jsonld)
 
 ### Circus cyaneus and Circus hudsonianus in Avibase
 
 [TurTLe](https://github.com/tdwg/tcs2/blob/master/examples/avibase-circus-cyaneus-hudsonius.ttl) |
-[JSON-LD](https://github.com/tdwg/tcs2/blob/master/examples/avibase-circus-cyaneus-hudsonius.ttl)
+[JSON-LD](https://github.com/tdwg/tcs2/blob/master/examples/avibase-circus-cyaneus-hudsonius.jsonld)
 
 ### Eupolypods in Rothfels & al. (2012)
 
@@ -58,10 +63,11 @@ from the treatment by Klazenga to the concepts in the other four treatments:
 
 ### Megalorhipida leucodactylus in Catalogue of Life
 
-[TurTLe](https://github.com/tdwg/tcs2/blob/master/examples/megalorhipida-leucodactylus-sec-gielis-et-hobern-2020.jsonld) |
+[TurTLe](https://github.com/tdwg/tcs2/blob/master/examples/megalorhipida-leucodactylus-sec-gielis-et-hobern-2020.ttl) |
 [JSON-LD](https://github.com/tdwg/tcs2/blob/master/examples/megalorhipida-leucodactylus-sec-gielis-et-hobern-2020.jsonld)
 
 ### Specimen of Salix arbusculoides sec. Argus 1973 in the University of Alaska Museum of the North (ALA)
+
 This example shows how TCS can be used in combination with Darwin Core in 
 occurrence data. The Identification cites a Taxon Concept. 
 

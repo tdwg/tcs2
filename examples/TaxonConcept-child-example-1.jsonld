@@ -1,0 +1,60 @@
+{
+  "@context": "https://raw.githubusercontent.com/tdwg/tcs2/master/examples/context.jsonld",
+  "type": "TaxonConcept",
+  "id": "https://www.catalogueoflife.org/data/taxon/6DBT",
+  "dcterms:title": "Panthera sec. Catalogue of Life 2024-01-24",
+  "accordingTo": { "@id": "https://doi.org/10.48580/dfrdl" },
+  "taxonName": {
+  "type": "TaxonName",
+    "taxonNameString": "Panthera",
+    "dwc:scientificNameAuthorship": "Oken, 1816"
+  },
+  "children": {
+    "@set": [
+      {
+        "id": "https://www.catalogueoflife.org/data/taxon/4CGXP",
+        "type": "TaxonConcept",
+        "dcterms:title": "Panthera leo sec. Catalogue of Life 2024-01-24",
+        "accordingTo": { "@id": "https://doi.org/10.48580/dfrdl" },
+        "taxonName": {
+					"type": "TaxonName",
+					"taxonNameString": "Panthera leo",
+					"dwc:scientificNameAuthorship": "(Linnaeus, 1758)"
+				} 
+      },
+      {
+        "id": "https://www.catalogueoflife.org/data/taxon/4CGXQ",
+        "type": "TaxonConcept",
+        "dcterms:title": "Panthera onca sec. Catalogue of Life 2024-01-24",
+        "accordingTo": { "@id": "https://doi.org/10.48580/dfrdl" },
+        "taxonName": {
+					"type": "TaxonName",
+					"taxonNameString": "Panthera onca",
+					"dwc:scientificNameAuthorship": "(Linnaeus, 1758)"
+				} 
+      },
+      {
+        "id": "https://www.catalogueoflife.org/data/taxon/4CGXR",
+        "type": "TaxonConcept",
+        "dcterms:title": "Panthera pardus sec. Catalogue of Life 2024-01-24",
+        "accordingTo": { "@id": "https://doi.org/10.48580/dfrdl" },
+        "taxonName": {
+					"type": "TaxonName",
+					"taxonNameString": "Panthera pardus",
+					"dwc:scientificNameAuthorship": "(Linnaeus, 1758)"
+				} 
+      },
+      {
+        "id": "https://www.catalogueoflife.org/data/taxon/4CGXS",
+        "type": "TaxonConcept",
+        "dcterms:title": "Panthera tigris sec. Catalogue of Life 2024-01-24",
+        "accordingTo": { "@id": "https://doi.org/10.48580/dfrdl" },
+        "taxonName": {
+					"type": "TaxonName",
+					"taxonNameString": "Panthera tigris",
+					"dwc:scientificNameAuthorship": "(Linnaeus, 1758)"
+				} 
+      }
+    ]
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "@context": "https://raw.githubusercontent.com/tdwg/tcs2/master/examples/context.jsonld",
+  "@graph": [
+    {
+      "type": "TaxonConcept",
+      "dcterms:title": "Begonia salaziensis sec. Klazenga & al. 1994",
+      "accordingTo": "https://doi/org/10.2307/3668252",
+      "taxonName": "https://ipni.org/n/105644-1",
+      "intersects": [
+        {
+          "type": "TaxonConcept",
+          "dcterms:title": "Begonia salaziensis sec. Warburg 1894",
+          "accordingTo": {
+            "dcterms:bibliographicCitation": "Warburg, O. (1894). Begoniaceae, in Engler, A. & K. Prantl, Nat. Pflanzenfam. 3(6a): 121-150."
+          },
+          "taxonName": "https://ipni.org/n/105644-1"
+        },
+        {
+          "type": "TaxonConcept",
+          "dcterms:title": "Begonia salaziensis sec. Irmscher 1925",
+          "accordingTo": {
+            "dcterms:bibliographicCitation": "Irmscher, E. (1925). Begoniaceae, in Engler, A. & K. Prantl, Nat. Pflanzenfam. ed. 2, 21: 548-588."
+          },
+          "taxonName": "https://ipni.org/n/105644-1"
+        }
+      ]
+    },
+    {
+      "type": "TaxonConcept",
+      "dcterms:title": "Begonia seychellensis sec. Klazenga & al. 1994",
+      "accordingTo": "https://doi/org/10.2307/3668252",
+      "taxonName": "https://www.ipni.org/n/105731-1",
+      "intersects": [
+        {
+          "type": "TaxonConcept",
+          "dcterms:title": "Begonia comorensis sec. Keraudren-Aymonin 1983",
+          "accordingTo": {
+            "dcterms:bibliographicCitation": "Keraudren-Aymonin, 1983"
+          },
+          "taxonName": "https://www.ipni.org/n/104440-1",
+          "synonym": "https://www.ipni.org/n/105731-1"
+        }
+      ]
+    }
+  ]
+}

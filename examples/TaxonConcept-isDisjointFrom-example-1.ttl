@@ -1,0 +1,25 @@
+@prefix tcs: <http://rs.tdwg.org/tcs/terms/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dwc: <http://rs.tdwg.org/dwc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+[] a tcs:TaxonConcept 
+    dcterms:title "Campylopus introflexus sec. Koperski & al. 2000" ; 
+    tcs:accordingTo <https://www.tropicos.org/reference/9022656> ;
+    tcs:taxonName <https://www.tropicos.org/name/35156181> ;
+    tcs:isDisjointFrom [ rdf:value [ a tcs:TaxonConcept ;
+                    dcterms:title "Campylopus introflexus sec. Mönkemeyer 1927" ;
+                    tcs:accordingTo <https://www.tropicos.org/publication/700> ;
+                    tcs:taxonName <https://www.tropicos.org/name/35156181> ] ;
+            rdfs:comment """Mit dem Taxon in Mönkemeyer ist der Beschreibung 
+                    nach eindeutig *C. pilifer Brid. (C. polytrichoides De 
+                    Not.), eine ozeanisch-submediterrane Art, gemeint. In 
+                    älteren Floren wird C. introflexus, bevor diese Art von 
+                    Störmer (1958) für Europa nachgewiesen wurde, regelmäßig als 
+                    Synonym von C. polytrichoides aufgeführt oder in diesem 
+                    Sinne verwendet (vgl. u. a. Demaret & Castagne 1961: 
+                    203)""" ] .
+
+# Because of the comment it is better to use a Taxon Concept Mapping object
+# here.

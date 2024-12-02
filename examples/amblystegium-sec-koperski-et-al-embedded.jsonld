@@ -1,0 +1,709 @@
+{
+  "@context": [
+    "https://raw.githubusercontent.com/tdwg/tcs2/master/examples/context.jsonld",
+     {
+       "value": { "id": "rdf:value", "type": "id"}
+     }
+  ],
+  "@graph": [
+    {
+      "type": "TaxonConcept",
+      "dcterms:title": "Campylium sec. Koperski & al. 2000",
+      "accordingTo": "https://tropicos.org/reference/9022656",
+      "taxonName": "https://www.tropicos.org/name/35000208",
+      "synonym": [
+        "https://www.tropicos.org/name/35000207",
+        "https://www.tropicos.org/name/35000213",
+        "https://www.tropicos.org/name/35000256"
+      ],
+      "rdfs:comment": "Weltweit über 30 Arten, in Europa 9 Arten (incl. *C. laxifolium Engelmark & Hedenäs 1990). – Hedenäs (1997a) akzeptiert auch die Gattungen Campyliadelphus und Campylophyllum und stellt Campylium polygamum zur Gattung Drepanocladus.",
+      "isCongruentWith": [
+        "_:1981-Campylium"
+      ],
+      "includes": [
+        {
+          "value": "_:1980-Campylium",
+          "rdfs:comment": "excl. *C. longicuspis (Lindb. & Arnell) Hedenäs (syn. *Amblystegium l. Lindb. & Arnell, *Drepanocladus l. [Lindb. & Arnell] Broth., *Pseudocalliergon l. [Lindb. & Arnell] Loeske), da Hedenäs diese Kombination erst 1989 schuf. Es bleibt unklar, zu welcher Gattung Smith dieses auf den Britischen Inseln nicht nachgewiesene Taxon stellt."
+        }
+      ],
+      "partiallyOverlaps": [
+        {
+          "value": "_:1927-Chrysohypnum",
+          "rdfs:comment": "incl. Amblystegium radicale (Chrysohypnum hygrophilum); excl. *Campylium longicuspis (Lindb. & Arnell) Hedenäs (Drepanocladus l.)."
+        },
+        {
+          "value": "_:1927-Drepanocladus",
+          "rdfs:comment": "incl. *Campylium longicuspis (Lindb. & Arnell) Hedenäs (Drepanocladus l.)."
+        },
+        {
+          "value": "_:1992-Campylium",
+          "rdfs:comment": "incl. Amblystegium radicale (Campylium r.). Wahrscheinlich excl. *C. longicuspis (Lindb. & Arnell) Hedenäs. Dieses arktische Taxon wird vermutlich nicht in das Gattungkonzept einbezogen, da Hedenäs erst 1989 diese Kombination schuf. Es bleibt unklar, zu welcher Gattung Frahm & Frey dieses Taxon stellen."
+        }
+      ]
+    },
+    {
+      "type": "TaxonConcept",
+      "dcterms:title": "Amblystegium sec. Koperski & al. 2000",
+      "accordingTo": "https://tropicos.org/reference/9022656",
+      "taxonName": "https://tropicos.org/name/35000040",
+      "synonym": [
+        "https://tropicos.org/name/35000612"
+      ],
+      "rdfs:comment": "Weltweit etwa 35 Arten, in Europa 8 Arten. Abweichend von Corley & al. wird in Übereinstimmung mit Anderson & al. (1990), Ignatov & Afonina (1992), Blockeel & Long (1998) sowie Crosby & al. (1999) Leptodictyum als Gattung akzeptiert (s. auch Hedenäs 1990a).",
+      "isIncludedIn": [
+        {
+          "value": "1981-Amblystegium",
+          "rdfs:comment": "incl. Leptodictyum riparium (Amblystegium r.)"
+        }
+      ],
+      "includes": [
+        {
+          "value": "1992-Amblystegium",
+          "rdfs:comment": "excl. Amblystegium confervoides (Amblystegiella c.), A. subtile (Amblystegiella s.), A. fluviatile (Hygroamblystegium f.), A. tenax (Hygroambystegium t.), A. radicale (Campylium r.)"
+        },
+        "_:1992-Hygroamblystegium",
+        "_:1927-Hygroamblystegium"
+      ],
+      "partiallyOverlaps": [
+        {
+          "value": "_:1992-Amblystegiella",
+          "rdfs:comment": "incl. Amblystegium confervoides (Amblystegiella c.), Amblystegium subtile (Amblystegiella s.)"
+        },
+        {
+          "value": "_:1992-Campylium",
+          "rdfs:comment": "incl. Amblystegium confervoides (Amblystegiella c.), Amblystegium subtile (Amblystegiella s.)"
+        },
+        {
+          "value": "_:1927-Amblystegium",
+          "rdfs:comment": "incl. Conardia compacta (Amblystegium c.), *Isopterygiopsis alpicola (Lind. & Arnell) Hedenäs (Amblystegium a.), Leptodictyum riparium (Amblystegium r.), Platydictya jungermannioides (Amblystegium sprucei), Pseudoleskeella catenulata p.p. (Amblystegium ursorum) sowie die aussereuropäische Art *Homomallium adnatum (Hedw,) Broth. (Amblystegium a.); excl. Amblystegium fluviatile (Hygroamblystegium f.), A. tenax (Hygroamblystegium t.), A. radicale (Chrysohypnum hygrophilum)."
+        },
+        {
+          "value": "_:1927-Chrysohypnum",
+          "rdfs:comment": "incl. Amblystegium radicale (Chrysohypnum hygrophilum)"
+        },
+        {
+          "value": "_:1980-Amblystegium",
+          "rdfs:comment": "incl. Conardia compacta (Amblystegium c.), Leptodictyum riparium (Amblystegium r.); excl. Amblystegium confervioides (Platydictya c.)"
+        },
+        {
+          "value": "_:1980-Platydictya",
+          "rdfs:comment": "incl. Amblystegium confervoides (Platydictya c.)"
+        }
+      ]
+    },
+    {
+      "type": "TaxonConcept",
+      "dcterms:title": "Platydictya sec. Koperski & al. 2000",
+      "accordingTo": "https://www.tropicos.org/reference/9022656",
+      "taxonName": "https://www.tropicos.org/name/35000970",
+      "synonym": [
+        "https://www.tropicos.org/name/35000039"
+      ],
+      "rdfs:comment": "Weltweit 7 Arten, in Europa 1 Art.",
+      "isCongruentWith": [
+        "_:1981-Platydictya"
+      ],
+      "isIncludedIn": [
+        {
+          "value": "_:1992-Amblystegiella",
+          "rdfs:comment": "incl. Amblystegium confervoides (Amblystegiella c.), Amblystegium subtile (Amblystegiella s.)"
+        },
+        "_:1927-Amblystegium",
+        {
+          "value": "_:1927-Amblystegium-sect-Serpoleskea",
+          "rdfs:comment": "incl. Amblystegium confervoides, A. subtile, *Isopterygiopsis alpicola (Lindb. & Arnell) Hedenäs (Amblystegium a.), Pseudoleskeella catenulata (Amblystegium ursorum) sowie *Homomallium adnatum (Hedw.) Broth. (Amblystegium a.), einem in Europa nicht nachgewiesene Taxon"
+        },
+        {
+          "value": "_:1980-Platydictya",
+          "rdfs:comment": "incl. Amblystegium confervoides (Platydictya c.)"
+        }
+      ]
+    },
+    {
+      "type": "TaxonConcept",
+      "dcterms:title": "Leptodictyum sec. Koperski & al. 2000",
+      "accordingTo": "https://www.tropicos.org/reference/9022656",
+      "isCongruentWith": [
+        "_:1992-Leptodictyum",
+        "_:1927-Amblystegium-sect-Leptodictyum"
+      ],
+      "isIncludedIn": [
+        "1981-Amblystegium",
+        {
+          "value": "_1981-Amblystegium-subg-Leptodictyum",
+          "rdfs:comment": "incl. Amblystegium humile"
+        },
+        "_:1927-Amblystegium",
+        "_:1980-Amblystegium"
+      ],
+      "taxonName": "https://www.tropicos.org/name/35000692",
+      "rdfs:comment": "Weltweit 8 Arten, in Europa 1 Art. – In Übereinstimmung mit Anderson & al. (1990), Ignatov & Afonina (1992), Blockeel & Long (1998) sowie Crosby & al. (1999) wird Leptodictyum als Gattung akzeptiert (s. auch Hedenäs 1990a)."
+    },
+    {
+      "type": "TaxonConcept",
+      "dcterms:title": "Conardia sec. Koperski & al. 2000",
+      "accordingTo": "https://www.tropicos.org/reference/9022656",
+      "taxonName": "https://www.tropicos.org/name/35000290",
+      "rdfs:comment": "Weltweit 1 Art.",
+      "isCongruentWith": [
+        "_:1981-Conardia"
+      ],
+      "isIncludedIn": [
+        "_:1992-Rhynchostegiella",
+        "_:1927-Amblystegium",
+        "_:1980-Amblystegium"
+      ]
+    },
+    {
+      "id": "1981-Amblystegium",
+      "type": "TaxonConcept",
+      "dcterms:title": "Amblystegium sec. Corley & al. 1981",
+      "accordingTo": "https://www.tropicos.org/reference/9004554",
+      "taxonName": "https://tropicos.org/name/35000040"
+    },
+    {
+      "id": "_1981-Amblystegium-subg-Leptodictyum",
+      "type": "TaxonConcept",
+      "dcterms:title": "Amblystegium subg. Leptodictyum sec. Corley & al. 1981",
+      "accordingTo": "https://www.tropicos.org/reference/9004554",
+      "taxonName": "https://www.tropicos.org/name/35102656"
+    },
+    {
+      "id": "_:1981-Campylium",
+      "type": "TaxonConcept",
+      "dcterms:title": "Campylium sec. Corley & al. 1981",
+      "accordingTo": "https://www.tropicos.org/reference/9004554",
+      "taxonName": "https://www.tropicos.org/name/35000208"
+    },
+    {
+      "id": "_:1981-Conardia",
+      "type": "TaxonConcept",
+      "dcterms:title": "Conardia sec. Corley & al. 1981",
+      "accordingTo": "https://www.tropicos.org/reference/9004554",
+      "taxonName": "https://www.tropicos.org/name/35000290"
+    },
+    {
+      "id": "_:1981-Platydictya",
+      "type": "TaxonConcept",
+      "dcterms:title": "Platydictya sec. Corley & al. 1981",
+      "accordingTo": "https://www.tropicos.org/reference/9004554",
+      "taxonName": "https://www.tropicos.org/name/35000970"
+    },
+    {
+      "id": "_:1992-Amblystegiella",
+      "type": "TaxonConcept",
+      "dcterms:title": "Amblystegiella sec. Frahm & Frey 1992",
+      "accordingTo": "https://www.tropicos.org/reference/9011497",
+      "taxonName": "https://www.tropicos.org/name/35000039"
+    },
+    {
+      "id": "1992-Amblystegium",
+      "type": "TaxonConcept",
+      "dcterms:title": "Amblystegium sec. Frahm & Frey 1992",
+      "accordingTo": "https://www.tropicos.org/reference/9011497",
+      "taxonName": "https://www.tropicos.org/name/35000040"
+    },
+    {
+      "id": "_:1992-Campylium",
+      "type": "TaxonConcept",
+      "dcterms:title": "Campylium sec. Frahm & Frey 1992",
+      "accordingTo": "https://www.tropicos.org/reference/9011497",
+      "taxonName": "https://www.tropicos.org/name/35000208"
+    },
+    {
+      "id": "_:1992-Hygroamblystegium",
+      "type": "TaxonConcept",
+      "dcterms:title": "Hygroamblystegium sec. Frahm & Frey 1992",
+      "accordingTo": "https://www.tropicos.org/reference/9011497",
+      "taxonName": "https://www.tropicos.org/name/35000612"
+    },
+    {
+      "id": "_:1992-Leptodictyum",
+      "type": "TaxonConcept",
+      "dcterms:title": "Leptodictyum sec. Frahm & Frey 1992",
+      "accordingTo": "https://www.tropicos.org/reference/9011497",
+      "taxonName": "https://www.tropicos.org/name/35000692"
+    },
+    {
+      "id": "_:1992-Rhynchostegiella",
+      "type": "TaxonConcept",
+      "dcterms:title": "Rhynchostegiella sec. Frahm & Frey 1992",
+      "accordingTo": "https://www.tropicos.org/reference/9011497",
+      "taxonName": "https://www.tropicos.org/name/35001131"
+    },
+    {
+      "id": "_:1980-Amblystegium",
+      "type": "TaxonConcept",
+      "dcterms:title": "Amblystegium sec. Smith 1980",
+      "accordingTo": "https://www.tropicos.org/reference/9007023",
+      "taxonName": "https://www.tropicos.org/name/35000040"
+    },
+    {
+      "id": "_:1980-Campylium",
+      "type": "TaxonConcept",
+      "dcterms:title": "Campylium sec. Smith & al. 1980",
+      "accordingTo": "https://www.tropicos.org/reference/9007023",
+      "taxonName": "https://www.tropicos.org/name/35000208"
+    },
+    {
+      "id": "_:1980-Platydictya",
+      "type": "TaxonConcept",
+      "dcterms:title": "Platydictya sec. Smith 1980",
+      "accordingTo": "https://www.tropicos.org/reference/9007023",
+      "taxonName": "https://www.tropicos.org/name/35000970"
+    },
+    {
+      "id": "_:1927-Amblystegium",
+      "type": "TaxonConcept",
+      "dcterms:title": "Amblystegium sec. Mönkemeyer 1927",
+      "accordingTo": "https://www.tropicos.org/reference/9011497",
+      "taxonName": "https://www.tropicos.org/name/35000040"
+    },
+    {
+      "id": "_:1927-Amblystegium-sect-Leptodictyum",
+      "type": "TaxonConcept",
+      "dcterms:title": "Amblystegium sect. Leptodictyum sec. Mönkemeyer 1927",
+      "accordingTo": "https://www.tropicos.org/reference/9021085",
+      "taxonName": "https://www.tropicos.org/name/35102672"
+    },
+    {
+      "id": "_:1927-Amblystegium-sect-Serpoleskea",
+      "type": "TaxonConcept",
+      "dcterms:title": "Amblystegium sect. Serpoleskea sec. Mönkemeyer 1927",
+      "accordingTo": "https://www.tropicos.org/reference/9021085",
+      "taxonName": "https://www.tropicos.org/name/35102679"
+    },
+    {
+      "id": "_:1927-Chrysohypnum",
+      "type": "TaxonConcept",
+      "dcterms:title": "Chrysohypnum sec. Mönkemeyer 1927",
+      "accordingTo": "https://www.tropicos.org/reference/9011497",
+      "taxonName": "https://www.tropicos.org/name/35000256"
+    },
+    {
+      "id": "_:1927-Drepanocladus",
+      "type": "TaxonConcept",
+      "dcterms:title": "Drepanocladus sec. Mönkemeyer 1927",
+      "accordingTo": "https://www.tropicos.org/reference/9021085",
+      "taxonName": "https://www.tropicos.org/name/35000413"
+    },
+    {
+      "id": "_:1927-Hygroamblystegium",
+      "type": "TaxonConcept",
+      "dcterms:title": "Hygroamblystegium sec. Mönkemeyer 1927",
+      "accordingTo": "https://www.tropicos.org/reference/9011497",
+      "taxonName": "https://www.tropicos.org/name/35000612"
+    },
+    {
+      "id": "https://www.tropicos.org/name/35000039",
+      "type": "TaxonName",
+      "taxonNameString": "Amblystegiella",
+      "dwc:scientificNameAuthorship": "Loeske",
+      "dwc:namePublishedIn": "Moosfl. Harz.: 294 (1903)",
+      "nomenclaturalStatus": "http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/superfluum"
+    },
+    {
+      "id": "https://www.tropicos.org/name/35000040",
+      "type": "TaxonName",
+      "dwc:namePublishedIn": "Bryol. Eur. 6: 45 (1853)",
+      "dwc:scientificNameAuthorship": "Schimp.",
+      "taxonNameString": "Amblystegium"
+    },
+    {
+      "id": "https://www.tropicos.org/name/35102672",
+      "type": "TaxonName",
+      "taxonNameString": "Amblystegium sect. Leptodictyum",
+      "dwc:scientificNameAuthorship": "(Schimp.) Mönk.",
+      "dwc:namePublishedIn": "Laubm. Eur.: 730 (1927)",
+      "basionym": "https://www.tropicos.org/name/35102656"
+    },
+    {
+      "id": "https://www.tropicos.org/name/35102656",
+      "type": "TaxonName",
+      "taxonNameString": "Amblystegium subg. Leptodictyum",
+      "dwc:scientificNameAuthorship": "Schimp.",
+      "dwc:namePublishedIn": "Syn. Musc. Eur.: 595 (1860)"
+    },
+    {
+      "id": "https://www.tropicos.org/name/35102679",
+      "type": "TaxonName",
+      "taxonNameString": "Amblystegium sect. Serpoleskea",
+      "dwc:scientificNameAuthorship": "(Limpr.) Mönk.",
+      "dwc:namePublishedIn": "Laubm. Eur.: 730 (1927)"
+    },
+    {
+      "id": "https://www.tropicos.org/name/35000207",
+      "type": "TaxonName",
+      "taxonNameString": "Campyliadelphus",
+      "dwc:scientificNameAuthorship": "(Kindb.) R.S.Chopra",
+      "dwc:namePublishedIn": "Taxon. Indian Mosses: 442 (1975)"
+    },
+    {
+      "id": "https://www.tropicos.org/name/35000208",
+      "type": "TaxonName",
+      "taxonNameString": "Campylium",
+      "dwc:scientificNameAuthorship": "(Sull.) Mitt.",
+      "basionym": "https://www.tropicos.org/name/35101380",
+      "dwc:namePublishedIn": "J. Linn. Soc., Bot. 12: 631 (1809)"
+    },
+    {
+      "id": "https://www.tropicos.org/name/35000213",
+      "type": "TaxonName",
+      "taxonNameString": "Campylophyllum",
+      "dwc:scientificNameAuthorship": "(Schimp.) M.Fleisch.",
+      "dwc:namePublishedIn": "Nova Guinea 12(2): 123 (1914)"
+    },
+    {
+      "id": "https://www.tropicos.org/name/35000256",
+      "type": "TaxonName",
+      "taxonNameString": "Chrysohypnum",
+      "dwc:scientificNameAuthorship": "G.Roth",
+      "dwc:namePublishedIn": "Hedwigia 38(Beibl. 1): 6 (1899)",
+      "nomenclaturalStatus": "http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/superfluum"
+    },
+    {
+      "id": "https://www.tropicos.org/name/35000290",
+      "type": "TaxonName",
+      "taxonNameString": "Conardia",
+      "dwc:scientificNameAuthorship": "H.Rob.",
+      "dwc:namePublishedIn": "Phytologia 33: 294 (1976)"
+    },
+    {
+      "id": "https://www.tropicos.org/name/35000413",
+      "type": "TaxonName",
+      "taxonNameString": "Drepanocladus",
+      "dwc:scientificNameAuthorship": "(Müll.Hal.) G.Roth",
+      "dwc:namePublishedIn": "Hedwigia 38(Beibl. 1): 6 (1899)"
+    },
+    {
+      "id": "https://www.tropicos.org/name/35000612",
+      "type": "TaxonName",
+      "taxonNameString": "Hygroamblystegium",
+      "dwc:scientificNameAuthorship": "Loeske",
+      "dwc:namePublishedIn": "Moosfl. Harz.: 298 (1903)"
+    },
+    {
+      "id": "https://www.tropicos.org/name/35101380",
+      "type": "TaxonName",
+      "taxonNameString": "Hypnum subg. Campylium",
+      "dwc:scientificNameAuthorship": "Sull.",
+      "dwc:namePublishedIn": "Man. Bot. (A. Eaton), ed. 2: 677 (1856)"
+    },
+    {
+      "id": "https://www.tropicos.org/name/35000692",
+      "type": "TaxonName",
+      "taxonNameString": "Leptodictyum",
+      "dwc:scientificNameAuthorship": "(Schimp.) Warnst.",
+      "dwc:namePublishedIn": "Krypt.-Fl. Brandenburg, Laubm. 2: 840 (1906)",
+      "basionym": "https://www.tropicos.org/name/35102656"
+    },
+    {
+      "id": "https://www.tropicos.org/name/35000970",
+      "type": "TaxonName",
+      "taxonNameString": "Platydictya",
+      "dwc:scientificNameAuthorship": "Berk.",
+      "dwc:namePublishedIn": "Handb. Brit. Mosses: 145 (1863)"
+    },
+    {
+      "id": "https://www.tropicos.org/name/35001131",
+      "type": "TaxonName",
+      "taxonNameString": "Rhynchostegiella",
+      "dwc:scientificNameAuthorship": "(Schimp.) Limpr.",
+      "dwc:namePublishedIn": "Laubm. Deutschl. 3: 207 (1896)",
+      "nomenclaturalStatus": "http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/conservandum"
+    },
+    {
+      "id": "https://www.tropicos.org/reference/9022656",
+      "type": "bibo:Book",
+      "dcterms:title": "Referenzliste der Moose Deutschlands, Dokumentation unterschiedlicher taxonomischer Auffassungen",
+      "dcterms:creator": [
+        {
+          "id": "_:b43"
+        },
+        {
+          "id": "_:b44"
+        },
+        {
+          "id": "_:b45"
+        },
+        {
+          "id": "_:b46"
+        }
+      ],
+      "bibo:authorList": {
+        "@list": [
+          {
+            "id": "_:b43"
+          },
+          {
+            "id": "_:b44"
+          },
+          {
+            "id": "_:b45"
+          },
+          {
+            "id": "_:b46"
+          }
+        ]
+      },
+      "dcterms:date": "2000",
+      "dcterms:isPartOf": {
+        "type": "bibo:Series",
+        "dcterms:title": "Schriftenreihe für Vegetationskunde"
+      },
+      "bibo:number": "34",
+      "dcterms:publisher": {
+        "type": "foaf:Organization",
+        "address:localityName": "Bonn-Bad Godesberg",
+        "foaf:name": "Bundersamt für Naturschutz"
+      },
+      "bibo:numPages": "519",
+      "dcterms:language": "German",
+      "bibo:isbn13": "3-7843-3504-7"
+    },
+    {
+      "id": "https://www.tropicos.org/reference/9004554",
+      "type": "bibo:AcademicArticle",
+      "dcterms:title": "Mosses of Europe and the Azores; an annotated list of species, with synonyms from the recent literature",
+      "dcterms:creator": [
+        {
+          "id": "_:b57"
+        },
+        {
+          "id": "_:b58"
+        },
+        {
+          "id": "_:b59"
+        },
+        {
+          "id": "_:b60"
+        },
+        {
+          "id": "_:b61"
+        }
+      ],
+      "bibo:authorList": {
+        "@list": [
+          {
+            "id": "_:b57"
+          },
+          {
+            "id": "_:b58"
+          },
+          {
+            "id": "_:b59"
+          },
+          {
+            "id": "_:b60"
+          },
+          {
+            "id": "_:b61"
+          }
+        ]
+      },
+      "dcterms:isPartOf": {
+        "type": "bibo:Issue",
+        "dcterms:date": "1981",
+        "dcterms:isPartOf": {
+          "type": "bibo:Journal",
+          "dcterms:title": "Journal of Bryology",
+          "bibo:shortTitle": "J. Bryol."
+        },
+        "bibo:issue": "4",
+        "bibo:volume": "11"
+      },
+      "bibo:pages": "609-689"
+    },
+    {
+      "id": "https://www.tropicos.org/reference/9010070",
+      "type": "bibo:AcademicArticle",
+      "dcterms:title": "Additions and amendments of the mosses of Europe and the Azores",
+      "dcterms:creator": [
+        {
+          "id": "_:b57"
+        },
+        {
+          "id": "_:b58"
+        }
+      ],
+      "bibo:authorList": {
+        "@list": [
+          {
+            "id": "_:b57"
+          },
+          {
+            "id": "_:b58"
+          }
+        ]
+      },
+      "dcterms:isPartOf": {
+        "type": "bibo:Issue",
+        "dcterms:isPartOf": {
+          "type": "bibo:Journal",
+          "dcterms:title": "Journal of Bryology",
+          "bibo:shortTitle": "J. Bryol."
+        },
+        "bibo:issue": "3",
+        "bibo:volume": "16"
+      },
+      "bibo:pages": "337-356"
+    },
+    {
+      "id": "https://www.tropicos.org/reference/9011497",
+      "type": "bibo:Book",
+      "dcterms:title": "Moosflora",
+      "dcterms:creator": [
+        {
+          "id": "_:b80"
+        },
+        {
+          "id": "_:b81"
+        }
+      ],
+      "bibo:authorList": {
+        "@list": [
+          {
+            "id": "_:b80"
+          },
+          {
+            "id": "_:b81"
+          }
+        ]
+      },
+      "dcterms:date": "1992",
+      "dcterms:isPartOf": {
+        "type": "bibo:Series",
+        "dcterms:title": "Uni-Taschenb."
+      },
+      "bibo:number": "1250",
+      "dcterms:publisher": {
+        "type": "foaf:Organization",
+        "foaf:name": "Ulmer",
+        "address:localityName": "Stuttgart"
+      },
+      "bibo:edition": "3. Aufl.",
+      "bibo:numPages": "528"
+    },
+    {
+      "id": "https://www.tropicos.org/reference/9007023",
+      "type": "bibo:Book",
+      "dcterms:title": "The moss flora of Britain and Ireland",
+      "dcterms:creator": {
+        "id": "_:b61"
+      },
+      "bibo:authorList": {
+        "id": "_:b61"
+      },
+      "dcterms:date": "1978",
+      "dcterms:publisher": {
+        "type": "foaf:Organization",
+        "foaf:name": "Cambridge University Press",
+        "address:localityName": "Cambridge"
+      }
+    },
+    {
+      "id": "https://www.tropicos.org/reference/9021085",
+      "type": "bibo:Book",
+      "dcterms:creator": {
+        "id": "_:b89"
+      },
+      "dcterms:date": "1927",
+      "dcterms:isPartOf": {
+        "type": "bibo:Series",
+        "dcterms:title": "Kryptogamenflora von Deutschland, Österreich und der Schweiz",
+        "bibo:editor": {
+          "id": "_:b91"
+        }
+      },
+      "dcterms:publisher": {
+        "type": "foaf:Organization",
+        "address:localityName": "Leipzig",
+        "foaf:name": "Geest & Portig"
+      },
+      "dcterms:title": "Die Laubmoose Europas",
+      "bibo:authorList": {
+        "id": "_:b89"
+      },
+      "bibo:numPages": "960",
+      "bibo:volume": "Bd. IV"
+    },
+    {
+      "id": "_:b45",
+      "type": "foaf:Person",
+      "foaf:givenname": "Walter",
+      "foaf:surname": "Braun"
+    },
+    {
+      "id": "_:b57",
+      "type": "foaf:Person",
+      "foaf:givenname": "M.F.V.",
+      "foaf:surname": "Corley"
+    },
+    {
+      "id": "_:b58",
+      "type": "foaf:Person",
+      "foaf:givenname": "A.C.",
+      "foaf:surname": "Crundwell"
+    },
+    {
+      "id": "_:b59",
+      "type": "foaf:Person",
+      "foaf:givenname": "R.",
+      "foaf:surname": "Düll"
+    },
+    {
+      "id": "_:b80",
+      "type": "foaf:Person",
+      "foaf:givenname": "J.-P.",
+      "foaf:surname": "Frahm"
+    },
+    {
+      "id": "_:b81",
+      "type": "foaf:Person",
+      "foaf:givenname": "W.",
+      "foaf:surname": "Frey"
+    },
+    {
+      "id": "_:b46",
+      "type": "foaf:Person",
+      "foaf:givenname": "S. Rob",
+      "foaf:surname": "Gradstein"
+    },
+    {
+      "id": "_:b60",
+      "type": "foaf:Person",
+      "foaf:givenname": "M.O.",
+      "foaf:surname": "Hill"
+    },
+    {
+      "id": "_:b43",
+      "type": "foaf:Person",
+      "foaf:givenname": "Monica",
+      "foaf:surname": "Koperski"
+    },
+    {
+      "id": "_:b89",
+      "type": "foaf:Person",
+      "foaf:givenname": "W.",
+      "foaf:surname": "Mönkemeyer"
+    },
+    {
+      "id": "_:b91",
+      "type": "foaf:Person",
+      "foaf:givenname": "G.L.",
+      "foaf:surname": "Rabenhorst"
+    },
+    {
+      "id": "_:b44",
+      "type": "foaf:Person",
+      "foaf:givenname": "Michael",
+      "foaf:surname": "Sauer"
+    },
+    {
+      "id": "_:b61",
+      "type": "foaf:Person",
+      "foaf:givenname": "A.J.E.",
+      "foaf:surname": "Smith"
+    }
+  ]
+}

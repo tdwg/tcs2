@@ -1,0 +1,75 @@
+{
+  "@context": [
+    "https://raw.githubusercontent.com/tdwg/tcs2/master/examples/context.jsonld",
+    {
+      "typification": { "@reverse": "tcs:typifiedName", "@container": "@set" }
+    }
+  ],
+  "id": "https://ipni.org/n/105731-1",
+  "type": "TaxonName",
+  "taxonNameString": "Begonia seychellensis",
+  "dwc:scientificNameAuthorship": "Hemsl.",
+  "dwc:namePublishedIn": "J. Bot. 54(Suppl. 2): 15 (1916)",
+  "typification": [
+    {
+      "type": "NomenclaturalType",
+      "typeOfType": "lectotype",
+      "typeSpecimen": {
+        "type": "dwc:MaterialCitation",
+        "dwc:country": "Seychelles",
+        "dwc:island": "Mahé",
+        "dwc:recordedBy": "Horne",
+        "dwc:recordNumber": "245",
+        "dwc:institutionCode": "K"
+      }
+    },
+    {
+      "type": "NomenclaturalType",
+      "typeOfType": "isotype",
+      "typeSpecimen": {
+        "type": "dwc:MaterialCitation",
+        "dwc:country": "Seychelles",
+        "dwc:island": "Mahé",
+        "dwc:recordedBy": "Horne",
+        "dwc:recordNumber": "s.n.",
+        "dwc:institutionCode": "G"
+      }
+    },
+    {
+      "type": "NomenclaturalType",
+      "typeOfType": "syntype",
+      "typeSpecimen": {
+        "type": "dwc:MaterialCitation",
+        "dwc:country": "Seychelles",
+        "dwc:island": "Mahé",
+        "dwc:recordedBy": "Gardiner",
+        "dwc:recordNumber": "s.n.",
+        "dwc:institutionCode": "K"
+      }
+    },
+    {
+      "type": "NomenclaturalType",
+      "typeOfType": "syntype",
+      "typeSpecimen": {
+        "type": "dwc:MaterialCitation",
+        "dwc:country": "Seychelles",
+        "dwc:island": "Silhouette",
+        "dwc:recordedBy": "Gardiner",
+        "dwc:recordNumber": "111",
+        "dwc:institutionCode": "K"
+      }
+    },
+    {
+      "type": "NomenclaturalType",
+      "typeOfType": "syntype",
+      "typeSpecimen": {
+        "type": "dwc:MaterialCitation",
+        "dwc:country": "Seychelles",
+        "dwc:island": "Mahé and Silhouette",
+        "dwc:recordedBy": "Neville",
+        "dwc:recordNumber": "s.n.",
+        "dwc:institutionCode": "K"
+      }
+    }
+  ]
+}

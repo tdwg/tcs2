@@ -17,6 +17,10 @@ categories:
     label: Taxon Concept
     comments: ''
     display_id: taxonConcept
+  - namespace: 'http://rs.tdwg.org/tcs/terms/TaxonConceptMapping'
+    label: Taxon Concept Mapping
+    comments: ''
+    display_id: taxonConceptMapping
   - namespace: 'http://rs.tdwg.org/tcs/terms/TaxonName'
     label: Taxon Name
     comments: ''
