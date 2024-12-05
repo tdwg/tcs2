@@ -682,7 +682,7 @@
   notes: null
   type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonConceptMapping
-  required: Yes
+  required: No
   repeatable: No
   github: 47
   mappings:

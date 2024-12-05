@@ -41,7 +41,7 @@ nomenclatural data.
 
 **Taxon Concept Mapping**
 
-[tcs:TaxonConceptMapping](#tcstaxonconceptmapping) | [tcs:mappingAccordingTo](#tcsmappingaccordingto) | [tcs:mappingRelation](#tcsmappingrelation) | [tcs:subjectTaxonConcept](#tcssubjecttaxonconcept) | [tcs:objectTaxonConcept](#tcsobjecttaxonconcept)
+[tcs:TaxonConceptMapping](#tcstaxonconceptmapping) | [tcs:mappingAccordingTo](#tcsmappingaccordingto) | [tcs:mappingRelation](#tcsmappingrelation) | [tcs:subjectTaxonConcept](#tcssubjecttaxonconcept) | [tcs:objectTaxonConcept](#tcsobjecttaxonconcept) | [dcterms:creator](#dctermscreator) | [dcterms:created](#dctermscreated)
 
 **Taxon Name**
 
@@ -1936,7 +1936,7 @@ The Taxon Concept Mapping class allows for adding extra data to a taxon concept 
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>required:</b> Yes — <b>repeatable:</b> No</td>
+			<td><b>required:</b> No — <b>repeatable:</b> No</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -2067,6 +2067,80 @@ This is the Taxon Concept at the left-hand side of the statement.
 **Comments**
 
 This is the Taxon Concept at the right-hand side of the statement.
+
+### dcterms:creator
+
+<table style="width:100%;">
+	<tbody>
+		<tr>
+			<td>Identifier</td>
+			<td>http://purl.org/dc/terms/creator</td>
+		</tr>
+		<tr>
+			<td>Type</td>
+			<td>http://www.w3.org/1999/02/22-rdf-syntax-ns#Property</td>
+		</tr>
+		<tr>
+			<td>Label</td>
+			<td>Creator</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td><b>required:</b> No — <b>repeatable:</b> Yes</td>
+		</tr>
+		<tr>
+			<td>Definition</td>
+			<td><p>An entity primarily responsible for making the resource.</p></td>
+		</tr>
+		<tr>
+			<td>GitHub issue</td>
+			<td>https://github.com/tdwg/tcs2/issues/47</td>
+		</tr>
+	</tbody>
+</table>
+
+
+**Comments**
+
+`dcterms:creator` can be used in combination with `dcterms:created` as an alternative to `mappingAccordingTo`.
+
+
+### dcterms:created
+
+<table style="width:100%;">
+	<tbody>
+		<tr>
+			<td>Identifier</td>
+			<td>http://purl.org/dc/terms/created</td>
+		</tr>
+		<tr>
+			<td>Type</td>
+			<td>http://www.w3.org/1999/02/22-rdf-syntax-ns#Property</td>
+		</tr>
+		<tr>
+			<td>Label</td>
+			<td>Created</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td><b>required:</b> No — <b>repeatable:</b> No</td>
+		</tr>
+		<tr>
+			<td>Definition</td>
+			<td><p>Date of creation of the resource.</p></td>
+		</tr>
+		<tr>
+			<td>GitHub issue</td>
+			<td>https://github.com/tdwg/tcs2/issues/47</td>
+		</tr>
+	</tbody>
+</table>
+
+
+**Comments**
+
+`dcterms:created` can be used in combination with `dcterms:creator` as an alternative to `mappingAccordingTo`.
+
 
 ## Taxon Name
 

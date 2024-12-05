@@ -1,6 +1,6 @@
 # Taxon Concept Standard
 
-![](./media/tcs-diagram-20241204.drawio.svg)
+![](./media/tcs-diagram-20241205.drawio.svg)
 
 ## Feature report
 

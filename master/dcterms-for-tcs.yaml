@@ -25,3 +25,31 @@
       remarks: >-
         TCS adopts the TaxonConceptLabel from OpenBiodiv-O. `dcterms:title` s
         good match for the string representation.
+
+# creator
+- localName: creator
+  label: Creator
+  definition: An entity primarily responsible for making the resource.
+  usage: null
+  notes: >
+    `dcterms:creator` can be used in combination with `dcterms:created` as an alternative to `mappingAccordingTo`.
+  type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+  organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonConceptMapping
+  required: No
+  repeatable: Yes
+  github: 47
+
+# creator
+- localName: created
+  label: Created
+  definition: Date of creation of the resource.
+  usage: null
+  notes: >
+    `dcterms:created` can be used in combination with `dcterms:creator` as an alternative to `mappingAccordingTo`.
+  type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+  organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonConceptMapping
+  required: No
+  repeatable: No
+  github: 47
+
+
