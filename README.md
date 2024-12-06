@@ -22,6 +22,7 @@ While in principle we will not be adding new terms at this stage, we might come 
 - Anne Fuchs - Centre for Australian National Biodiversity Research, Australia
 - Niels Klazenga – Royal Botanic Gardens Victoria / Atlas of Living Australia, Australia (chair)
 - Johan Liljeblad – SLU Swedish Species Information Centre, Sweden
+- Carlos Martínez Muñoz - Senckenberg Gesellschaft für Naturforschung, Germany
 - Mieke Strong - Gaia Resources, Australia
 - Campbell Webb – University of Alaska Museum of the North, USA
 - Greg Whitbread – Taxamatics, Australia
