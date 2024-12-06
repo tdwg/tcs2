@@ -16,13 +16,15 @@ While in principle we will not be adding new terms at this stage, we might come 
 
 ## Core members
 
-- Anne Fuchs - Centre for Australian National Biodiversity Research
-- Jeff Gerbracht – Cornell Lab of Ornithology
-- Niels Klazenga – Royal Botanic Gardens Victoria / Atlas of Living Australia (chair)
-- Johan Liljeblad – SLU Swedish Species Information Centre
-- William Ulate – Missouri Botanical Garden
-- Campbell Webb – University of Alaska Museum of the North
-- Greg Whitbread – Taxamatics
+- Vijay Barve, Natural History Museum, Los Angeles County, USA
+- Thierry Bourgoin - Muséum national de l'Histoire naturelle, France
+- Markus Döring - Global Biodiversity Information Facility, Germany
+- Anne Fuchs - Centre for Australian National Biodiversity Research, Australia
+- Niels Klazenga – Royal Botanic Gardens Victoria / Atlas of Living Australia, Australia (chair)
+- Johan Liljeblad – SLU Swedish Species Information Centre, Sweden
+- Mieke Strong - Gaia Resources, Australia
+- Campbell Webb – University of Alaska Museum of the North, USA
+- Greg Whitbread – Taxamatics, Australia
 
 ## Getting involved
 
