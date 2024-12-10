@@ -247,9 +247,10 @@ def term_table(term):
 
     # Examples
     if 'examples' in term and isinstance(term['examples'], list):
-        examples = ''
+        examples = '<ul>'
         for ex in term['examples']:
-            examples += add_example(ex)
+            examples += '<li><a href="../examples/#' + ex + '">' + ex + '</a></li>'
+        examples += '</ul>'
             
         text += table_row([
             table_cell('Examples'),
