@@ -227,6 +227,28 @@ def term_table(term):
             table_cell(term['controlled_value_string'])
         ])
 
+    # Comments/Notes
+    if term['notes']:
+        comments = term['notes']
+        text += table_row([
+            table_cell('Comments'),
+            table_cell(markdown.markdown(comments))
+        ])
+        
+        
+
+    # Examples
+    if 'examples' in term and isinstance(term['examples'], list):
+        examples = '<ul>'
+        for ex in term['examples']:
+            examples += '<li><a href="../examples/#' + ex + '">' + ex + '</a></li>'
+        examples += '</ul>'
+            
+        text += table_row([
+            table_cell('Examples'),
+            table_cell(examples)
+        ])
+
     # Github issue
     if 'github' in term and not pd.isna(term['github']):
         text += table_row([
@@ -237,23 +259,6 @@ def term_table(term):
 
     text += '\t</tbody>\n'
     text += '</table>\n\n'
-
-    # Comments/Notes
-    if term['notes']:
-        comments = term['notes']
-        # text += table_row([
-        #     table_cell('Comments'),
-        #     table_cell(markdown.markdown(comments, extensions=['nl2br']))
-        # ])
-        text += '\n**Comments**\n\n'
-        text += comments
-        text += '\n\n'
-
-    # Examples
-    if 'examples' in term and isinstance(term['examples'], list):
-        text += '\n**Examples**\n\n'
-        for ex in term['examples']:
-            text += add_example(ex)
 
     return text
 
@@ -294,3 +299,105 @@ def create_vocab(categories, merged_df):
         for index, row in filtered_df.iterrows():
             vocab += term_table(row)
     return vocab
+
+
+def create_examples_page(config):
+    merged_df = create_df(config['termLists'])
+    examples = merged_df[~merged_df['examples'].isna()]
+
+    classes = ['TaxonConcept', 'TaxonConceptMapping', 'TaxonName', 'NomenclaturalType']
+    
+    with open('./static/examples-header.md', 'r') as f:
+        header = f.read()
+
+    with open('../docs/examples/README.md', 'w') as f:
+        
+        f.write(header)
+        
+        f.write('## Index\n\n')
+        
+        for cl in classes:
+            egs = []
+            for index, row in examples[examples['organizedInClass'] == 'http://rs.tdwg.org/tcs/terms/' + cl].iterrows():
+                if type(row['examples']) == list:
+                    egs.append({
+                        'namespace': row['namespace'],
+                        'localName': row['localName'],
+                        'examples': row['examples']
+                    })
+            
+            if len(egs):
+                f.write('### ' + cl + '\n\n')
+                
+                terms = []
+                for row in egs:
+                    alias = [n['vann_preferredNamespacePrefix'] for n in config['termLists'] if n['vann_preferredNamespaceUri'] == row['namespace']][0]
+                    localName = row['localName']
+                    items = []
+                    for ex in row['examples']:
+                        items.append(f'[{ex}](#{ex})')
+                    terms.append(f'**{alias}:{localName}:** ' + ' &bull; '.join(items))
+                f.write(' | '.join(terms))
+                f.write('\n\n')
+
+        for cl in classes:
+            
+            egs = []
+            for index, row in examples[examples['organizedInClass'] == 'http://rs.tdwg.org/tcs/terms/' + cl].iterrows():
+                if type(row['examples']) == list:
+                    egs.append({
+                        'namespace': row['namespace'],
+                        'localName': row['localName'],
+                        'examples': row['examples']
+                    })
+            
+            if len(egs):
+                f.write("\n## " + cl + "\n\n")
+                
+                for row in egs:
+                    alias = [n['vann_preferredNamespacePrefix'] for n in config['termLists'] if n['vann_preferredNamespaceUri'] == row['namespace']][0]
+                    f.write("\n### " + alias + ":" + row['localName'] + "\n\n") 
+                
+                    for ex in row['examples']:
+                        if ex[:len(cl)+1] == cl + '-':
+                            f.write('#### ' + ex)
+                            text = add_example(ex)
+                            f.write(text)
+                        
+def create_sssom_page(config):
+    merged_df = create_df(config['termLists'])
+    mappings = merged_df[~merged_df['mappings'].isna()]
+
+    classes = ['TaxonConcept', 'TaxonConceptMappings', 'TaxonName', 'NomenclaturalType']
+
+    with open('./static/mappings-header.md', 'r') as f:
+        header = f.read()
+
+    with open('../docs/sssom_mappings/README.md', 'w') as f:
+        
+        f.write(header)
+        
+        for cl in classes:
+            f.write("\n## " + cl + "\n\n")
+            
+            for index, row in mappings[mappings['organizedInClass'] == 'http://rs.tdwg.org/tcs/terms/' + cl].iterrows():
+                alias = [n['vann_preferredNamespacePrefix'] for n in config['termLists'] if n['vann_preferredNamespaceUri'] == row['namespace']][0]
+                f.write("\n### " + alias + ":" + row['localName'] + "\n\n") 
+                
+                f.write("| predicate | IRI or XPATH | remarks |\n")
+                f.write("|-|-|-|\n")
+                for m in row['mappings']:
+                    f.write("| " + str(m['predicate']))
+                    f.write(' | ' + str(m['iri'])\
+                        .replace('tc:', 'http://rs.tdwg.org/ontology/voc/TaxonConcept#')\
+                        .replace('tn:', 'http://rs.tdwg.org/ontology/voc/TaxonName#')\
+                        .replace('dwc:', 'http://rs.tdwg.org/dwc/terms/')\
+                        .replace('openbiodiv-o:', 'http://openbiodiv.net/')\
+                        .replace('skos:', 'http://www.w3.org/2004/02/skos/core#')\
+                        .replace('skosxl:', 'http://www.w3.org/2008/05/skos-xl#')\
+                        .replace('frbr:', 'http://purl.org/spar/frbr/'))
+                    if 'remarks' in m:
+                        f.write(' | ' + str(m['remarks']))
+                    else:
+                        f.write(' | ')
+                    f.write(' |\n')
