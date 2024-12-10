@@ -6,7 +6,7 @@
 
 ### tcs:TaxonConcept
 
-
+#### TaxonConcept-example-1
 ```turtle
 [] a tcs:TaxonConcept ;
     dcterms:title "Dicranoloma blumei sec. Klazenga 1999" ;
@@ -25,7 +25,7 @@
 
 [&lsqb;TaxonConcept-example-1.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-example-1.ttl)&nbsp;[&lsqb;TaxonConcept-example-1.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-example-1.jsonld)
 
-
+#### TaxonConcept-example-2
 ```turtle
 [] a tcs:TaxonConcept ;
     dcterms:title "Orthetrum caledonicum sec. Theischinger and Hawking 2010" ;
@@ -43,7 +43,7 @@
 
 [&lsqb;TaxonConcept-example-2.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-example-2.ttl)&nbsp;[&lsqb;TaxonConcept-example-2.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-example-2.jsonld)
 
-
+#### TaxonConcept-example-3
 ```turtle
 [] a tcs:TaxonConcept ;
     dcterms:title "Calymperes moluccense sec. Yong et al. 2013" ;
@@ -63,7 +63,7 @@
 
 [&lsqb;TaxonConcept-example-3.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-example-3.ttl)&nbsp;[&lsqb;TaxonConcept-example-3.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-example-3.jsonld)
 
-
+#### TaxonConcept-example-4
 ```turtle
 <https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:105644-1> a tcs:TaxonConcept ;
     dcterms:title "Begonia salaziensis sec. POWO 2022" ;
@@ -82,7 +82,7 @@
 
 [&lsqb;TaxonConcept-example-4.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-example-4.ttl)&nbsp;[&lsqb;TaxonConcept-example-4.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-example-4.jsonld)
 
-
+#### TaxonConcept-example-5
 ```turtle
 <https://www.catalogueoflife.org/data/taxon/KF8T#v2022-11-14> a tcs:TaxonConcept ;
     dcterms:title "Balaenoptera musculus sec. Catalogue of Life 2022-11-14" ;
@@ -99,7 +99,7 @@
 
 [&lsqb;TaxonConcept-example-5.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-example-5.ttl)&nbsp;[&lsqb;TaxonConcept-example-5.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-example-5.jsonld)
 
-
+#### TaxonConcept-example-6
 ```turtle
 # Species Hypothesis (SH) from UNITE
 
@@ -127,7 +127,7 @@
 
 [&lsqb;TaxonConcept-example-6.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-example-6.ttl)&nbsp;[&lsqb;TaxonConcept-example-6.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-example-6.jsonld)
 
-
+#### TaxonConcept-example-7
 ```turtle
 <https://avibase.ca/E0E4DFB8> a tcs:TaxonConcept ;
     tcs:accordingTo <https://avibase.bsc-eoc.org> ;
@@ -149,7 +149,7 @@
 
 ### tcs:accordingTo
 
-
+#### TaxonConcept-accordingTo-example-1
 ```turtle
 # Taxonomic article (object of property only)
 <https://doi.org/10.1080/14772000.2013.806371> a bibo:AcademicArticle ;
@@ -187,7 +187,7 @@
 
 [&lsqb;TaxonConcept-accordingTo-example-1.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-accordingTo-example-1.ttl)&nbsp;[&lsqb;TaxonConcept-accordingTo-example-1.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-accordingTo-example-1.jsonld)
 
-
+#### TaxonConcept-accordingTo-example-2
 ```turtle
 # Field guide (object of property only)
 <urn:isbn:978-0-307-95790-0> a bibo:Book ;
@@ -212,7 +212,7 @@ _:b1 a foaf:Person ;
 
 [&lsqb;TaxonConcept-accordingTo-example-2.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-accordingTo-example-2.ttl)&nbsp;[&lsqb;TaxonConcept-accordingTo-example-2.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-accordingTo-example-2.jsonld)
 
-
+#### TaxonConcept-accordingTo-example-3
 ```turtle
 # Checklist (object of property only)
 <urn:isbn:978-967-5221-99-6> a bibo:Book ;
@@ -226,7 +226,7 @@ _:b1 a foaf:Person ;
 
 ### tcs:synonym
 
-
+#### TaxonConcept-synonym-example-1
 ```turtle
 []  a tcs:TaxonConcept ;
     dcterms:title "Dicranoloma blumei sec. Klazenga 1999" ;
@@ -294,7 +294,7 @@ _:b1 a foaf:Person ;
 
 [&lsqb;TaxonConcept-synonym-example-1.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-synonym-example-1.ttl)&nbsp;[&lsqb;TaxonConcept-synonym-example-1.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-synonym-example-1.jsonld)
 
-
+#### TaxonConcept-synonym-example-2
 ```turtle
 [] a tcs:TaxonConcept ;
     dcterms:title "Hebe colensoi sec. Bayly & Kellow 2006" ;
@@ -321,7 +321,7 @@ _:b1 a foaf:Person ;
 
 [&lsqb;TaxonConcept-synonym-example-2.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-synonym-example-2.ttl)&nbsp;[&lsqb;TaxonConcept-synonym-example-2.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-synonym-example-2.jsonld)
 
-
+#### TaxonConcept-synonym-example-3
 ```turtle
 <https://www.catalogueoflife.org/data/taxon/3YVTF> a tcs:TaxonConcept ;
     dcterms:title "Megalorhipida leucodactylus sec. Gielis & Hobern 2020-07-16" ;
@@ -376,7 +376,7 @@ _:b1 a foaf:Person ;
 
 ### tcs:vernacularName
 
-
+#### TaxonConcept-vernacularName-example-1
 ```turtle
 [] a tcs:TaxonConcept ;
     dcterms:title "Graphium macleayanum sec. Orr & Kitching 2010" ;
@@ -394,7 +394,7 @@ _:b1 a foaf:Person ;
 
 [&lsqb;TaxonConcept-vernacularName-example-1.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-vernacularName-example-1.ttl)&nbsp;[&lsqb;TaxonConcept-vernacularName-example-1.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-vernacularName-example-1.jsonld)
 
-
+#### TaxonConcept-vernacularName-example-2
 ```turtle
 [] a tcs:TaxonConcept ;
     dcterms:title "Quercus robur sec. Duistermaat 2020" ;
@@ -414,7 +414,7 @@ _:b1 a foaf:Person ;
 
 [&lsqb;TaxonConcept-vernacularName-example-2.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-vernacularName-example-2.ttl)&nbsp;[&lsqb;TaxonConcept-vernacularName-example-2.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-vernacularName-example-2.jsonld)
 
-
+#### TaxonConcept-vernacularName-example-3
 ```turtle
 <https://vicflora.rbg.vic.gov.au/flora/taxon/93c88fde-ab15-4a9a-a61d-3830a57a0160#2023-03-02> 
     a tcs:TaxonConcept ;
@@ -451,7 +451,7 @@ _:b1 a foaf:Person ;
 
 ### tcs:parent
 
-
+#### TaxonConcept-parent-example-1
 ```turtle
 <https://www.catalogueoflife.org/data/taxon/6DBT> a tcs:TaxonConcept ;
     dcterms:title "Panthera sec. Catalogue of Life 2024-01-24" ;
@@ -498,7 +498,7 @@ _:b1 a foaf:Person ;
 
 ### tcs:child
 
-
+#### TaxonConcept-child-example-1
 ```turtle
 <https://www.catalogueoflife.org/data/taxon/6DBT> a tcs:TaxonConcept ;
     dcterms:title "Panthera sec. Catalogue of Life 2024-01-24" ;
@@ -545,7 +545,7 @@ _:b1 a foaf:Person ;
 
 ### tcs:isCongruentWith
 
-
+#### TaxonConcept-isCongruentWith-example-1
 ```turtle
 [] a tcs:TaxonConcept ;
     dcterms:title "Aspleniaceae sec. Rothfels & al. 2012" ;
@@ -571,7 +571,7 @@ _:b1 a foaf:Person ;
 
 [&lsqb;TaxonConcept-isCongruentWith-example-1.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-isCongruentWith-example-1.ttl)&nbsp;[&lsqb;TaxonConcept-isCongruentWith-example-1.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-isCongruentWith-example-1.jsonld)
 
-
+#### TaxonConceptMapping-isCongruentWith-example-2
 ```turtle
 _:b0  a tcs:TaxonConcept ;
     dcterms:title "Aspleniaceae sec. Rothfels & al. 2012" ;
@@ -617,7 +617,7 @@ _:b0  a tcs:TaxonConcept ;
 
 [&lsqb;TaxonConceptMapping-isCongruentWith-example-2.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConceptMapping-isCongruentWith-example-2.ttl)&nbsp;[&lsqb;TaxonConceptMapping-isCongruentWith-example-2.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConceptMapping-isCongruentWith-example-2.jsonld)
 
-
+#### TaxonConcept-isCongruentWith-example-3
 ```turtle
 [] a tcs:TaxonConcept ;
     dcterms:title "Dicranum fuscescens sec. Koperski et al. 2000" ;
@@ -631,7 +631,7 @@ _:b0  a tcs:TaxonConcept ;
 
 [&lsqb;TaxonConcept-isCongruentWith-example-3.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-isCongruentWith-example-3.ttl)&nbsp;[&lsqb;TaxonConcept-isCongruentWith-example-3.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-isCongruentWith-example-3.jsonld)
 
-
+#### TaxonConceptMapping-isCongruentWith-example-1
 ```turtle
 # Andropogon capillipes sec. BONAP 2014 is congruent with Andropogon capillipes sec. Weakley 2006
 [] a tcs:TaxonConceptMapping ;
@@ -652,7 +652,7 @@ _:b0  a tcs:TaxonConcept ;
 
 ### tcs:includes
 
-
+#### TaxonConcept-includes-example-1
 ```turtle
 [] a tcs:TaxonConcept ;
     dcterms:title "Diplaziopsidaceae sec. Rothfels & al. 2012" ;
@@ -666,7 +666,7 @@ _:b0  a tcs:TaxonConcept ;
 
 [&lsqb;TaxonConcept-includes-example-1.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-includes-example-1.ttl)&nbsp;[&lsqb;TaxonConcept-includes-example-1.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-includes-example-1.jsonld)
 
-
+#### TaxonConceptMapping-includes-example-2
 ```turtle
 [] a tcs:TaxonConceptMapping ;
     tcs:mappingAccordingTo <https://doi.org/10.1002/tax.613003> ;
@@ -683,7 +683,7 @@ _:b0  a tcs:TaxonConcept ;
 
 [&lsqb;TaxonConceptMapping-includes-example-2.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConceptMapping-includes-example-2.ttl)&nbsp;[&lsqb;TaxonConceptMapping-includes-example-2.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConceptMapping-includes-example-2.jsonld)
 
-
+#### TaxonConceptMapping-includes-example-1
 ```turtle
 # Andropogon glomeratus sec. BONAP 2014 includes Andropogon tenuispatheus sec. Weakley 2006
 [] a tcs:TaxonConceptMapping ;
@@ -712,7 +712,7 @@ _:b0  a tcs:TaxonConcept ;
 
 ### tcs:isIncludedIn
 
-
+#### TaxonConcept-isIncludedIn-example-1
 ```turtle
 [] a tcs:TaxonConcept ;
     dcterms:title "Athyriaceae sec. Rothfels & al. 2012" ;
@@ -741,7 +741,7 @@ _:b0  a tcs:TaxonConcept ;
 
 [&lsqb;TaxonConcept-isIncludedIn-example-1.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-isIncludedIn-example-1.ttl)&nbsp;[&lsqb;TaxonConcept-isIncludedIn-example-1.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-isIncludedIn-example-1.jsonld)
 
-
+#### TaxonConceptMapping-isIncludedIn-example-2
 ```turtle
 _:b1 a tcs:TaxonConcept ;
     dcterms:title "Athyriaceae sec. Rothfels & al. 2012" ;
@@ -790,7 +790,7 @@ _:b1 a tcs:TaxonConcept ;
 
 [&lsqb;TaxonConceptMapping-isIncludedIn-example-2.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConceptMapping-isIncludedIn-example-2.ttl)&nbsp;[&lsqb;TaxonConceptMapping-isIncludedIn-example-2.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConceptMapping-isIncludedIn-example-2.jsonld)
 
-
+#### TaxonConceptMapping-isIncludedIn-example-1
 ```turtle
 # Andropogon hirsutior sec. BONAP 2014 is included in Andropogon glomeratus sec. Weakley 2006
 [] a tcs:TaxonConceptMapping ;
@@ -811,7 +811,7 @@ _:b1 a tcs:TaxonConcept ;
 
 ### tcs:partiallyOverlaps
 
-
+#### TaxonConcept-partiallyOverlaps-example-1
 ```turtle
 [] a tcs:TaxonConcept ;
     dcterms:title "Diplaziopsidaceae sec. Rothfels & al. 2012" ;
@@ -825,7 +825,7 @@ _:b1 a tcs:TaxonConcept ;
 
 [&lsqb;TaxonConcept-partiallyOverlaps-example-1.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-partiallyOverlaps-example-1.ttl)&nbsp;[&lsqb;TaxonConcept-partiallyOverlaps-example-1.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-partiallyOverlaps-example-1.jsonld)
 
-
+#### TaxonConceptMapping-partiallyOverlaps-example-2
 ```turtle
 [] a tcs:TaxonConceptMapping ;
     tcs:mappingAccordingTo <https://doi.org/10.1002/tax.613003> ;
@@ -842,7 +842,7 @@ _:b1 a tcs:TaxonConcept ;
 
 [&lsqb;TaxonConceptMapping-partiallyOverlaps-example-2.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConceptMapping-partiallyOverlaps-example-2.ttl)&nbsp;[&lsqb;TaxonConceptMapping-partiallyOverlaps-example-2.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConceptMapping-partiallyOverlaps-example-2.jsonld)
 
-
+#### TaxonConceptMapping-partiallyOverlaps-example-1
 ```turtle
 # Andropogon glomeratus sec. BONAP 2014 partially overlaps Andropogon glomeratus
 # sec. Weakley 2006
@@ -864,7 +864,7 @@ _:b1 a tcs:TaxonConcept ;
 
 ### tcs:isDisjointFrom
 
-
+#### TaxonConcept-isDisjointFrom-example-1
 ```turtle
 [] a tcs:TaxonConcept 
     dcterms:title "Campylopus introflexus sec. Koperski & al. 2000" ; 
@@ -889,7 +889,7 @@ _:b1 a tcs:TaxonConcept ;
 
 [&lsqb;TaxonConcept-isDisjointFrom-example-1.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-isDisjointFrom-example-1.ttl)&nbsp;[&lsqb;TaxonConcept-isDisjointFrom-example-1.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-isDisjointFrom-example-1.jsonld)
 
-
+#### TaxonConceptMapping-isDisjointFrom-example-2
 ```turtle
 [] a tcs:TaxonConceptMapping ;
     tcs:mappingAccordingTo <https://www.tropicos.org/reference/9022656> ;
@@ -913,7 +913,7 @@ _:b1 a tcs:TaxonConcept ;
 
 [&lsqb;TaxonConceptMapping-isDisjointFrom-example-2.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConceptMapping-isDisjointFrom-example-2.ttl)&nbsp;[&lsqb;TaxonConceptMapping-isDisjointFrom-example-2.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConceptMapping-isDisjointFrom-example-2.jsonld)
 
-
+#### TaxonConceptMapping-isDisjointFrom-example-1
 ```turtle
 # Andropogon glaucopsis sec. BONAP 2014 is disjoint from Andropogon virginicus sec. Weakley 2006
 [] a tcs:TaxonConceptMapping ;
@@ -934,7 +934,7 @@ _:b1 a tcs:TaxonConcept ;
 
 ### tcs:intersects
 
-
+#### TaxonConcept-intersects-example-1
 ```turtle
 [] a tcs:TaxonConcept ;
     dcterms:title "Begonia salaziensis sec. Klazenga & al. 1994" ;
@@ -970,7 +970,7 @@ _:b1 a tcs:TaxonConcept ;
 
 [&lsqb;TaxonConcept-intersects-example-1.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-intersects-example-1.ttl)&nbsp;[&lsqb;TaxonConcept-intersects-example-1.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-intersects-example-1.jsonld)
 
-
+#### TaxonConcept-intersects-example-2
 ```turtle
 <https://id.biodiversity.org.au/instance/apni/545068> a tcs:TaxonConcept ;
     dcterms:title "Euphrasia gibbsiae sec. Barker 1982" ;
@@ -1013,7 +1013,7 @@ _:b1 a tcs:TaxonConcept ;
 
 [&lsqb;TaxonConcept-intersects-example-2.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-intersects-example-2.ttl)&nbsp;[&lsqb;TaxonConcept-intersects-example-2.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-intersects-example-2.jsonld)
 
-
+#### TaxonConceptMapping-intersects-example-1
 ```turtle
 <https://id.biodiversity.org.au/instance/apni/545068> a tcs:TaxonConcept ;
     dcterms:title "Euphrasia gibbsiae sec. Barker 1982" ;
@@ -1069,7 +1069,7 @@ _:b1 a tcs:TaxonConcept ;
 
 [&lsqb;TaxonConceptMapping-intersects-example-1.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConceptMapping-intersects-example-1.ttl)&nbsp;[&lsqb;TaxonConceptMapping-intersects-example-1.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConceptMapping-intersects-example-1.jsonld)
 
-
+#### TaxonConcept-intersects-example-3
 ```turtle
 <https://www.catalogueoflife.org/data/taxon/BRKHX> a tcs:TaxonConcept ;
     dcterms:title "Megalorhipida leucodactylus sec. Gielis & Hobern 2023-01-05" ;
@@ -1118,7 +1118,7 @@ _:b1 a tcs:TaxonConcept ;
 
 ### tcs:TaxonName
 
-
+#### TaxonName-example-1
 ```turtle
 <urn:lsid:zoobank.org:act:355AAA50-D89F-466E-A216-96B7A17D5AD4> a tcs:TaxonName ;
     tcs:taxonNameString "Carabus nitens" ;
@@ -1127,7 +1127,7 @@ _:b1 a tcs:TaxonConcept ;
 
 [&lsqb;TaxonName-example-1.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonName-example-1.ttl)&nbsp;[&lsqb;TaxonName-example-1.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonName-example-1.jsonld)
 
-
+#### TaxonName-example-2
 ```turtle
 <https://www.ipni.org/n/316069-1> a tcs:TaxonName ;
     tcs:taxonNameString "Rafflesia arnoldii" ;
@@ -1137,7 +1137,7 @@ _:b1 a tcs:TaxonConcept ;
 
 [&lsqb;TaxonName-example-2.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonName-example-2.ttl)&nbsp;[&lsqb;TaxonName-example-2.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonName-example-2.jsonld)
 
-
+#### TaxonName-example-3
 ```turtle
 <http://www.indexfungorum.org/names/NamesRecord.asp?RecordID=178962> a tcs:TaxonName ;
     tcs:taxonNameString "Amanita phalloides" ;
@@ -1147,7 +1147,7 @@ _:b1 a tcs:TaxonConcept ;
 
 [&lsqb;TaxonName-example-3.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonName-example-3.ttl)&nbsp;[&lsqb;TaxonName-example-3.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonName-example-3.jsonld)
 
-
+#### TaxonName-example-4
 ```turtle
 # Example from TCS 1
 <https://www.ipni.org/n/50985479-1> a tcs:TaxonName ;
@@ -1170,7 +1170,7 @@ _:b1 a tcs:TaxonConcept ;
 
 ### tcs:typification
 
-
+#### TaxonName-typification-example-1
 ```turtle
 <https://ipni.org/n/105731-1> a tcs:TaxonName ;
     tcs:taxonNameString "Begonia seychellensis" ;
@@ -1225,7 +1225,7 @@ _:b1 a tcs:TaxonConcept ;
 
 [&lsqb;TaxonName-typification-example-1.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonName-typification-example-1.ttl)&nbsp;[&lsqb;TaxonName-typification-example-1.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonName-typification-example-1.jsonld)
 
-
+#### TaxonName-typification-example-2
 ```turtle
 <https://tropicos.org/name/35121972> a tcs:TaxonName ;
     tcs:taxonNameString "Dicranum blumei" ;
@@ -1283,7 +1283,7 @@ _:b1 a tcs:TaxonConcept ;
 
 ### tcs:basionym
 
-
+#### TaxonName-basionym-example-1
 ```turtle
 <https://id.biodiversity.org.au/name/apni/166271> a tcs:TaxonName ;
     rdf:seeAlso <https://www.ipni.org/n/17571690-1> ;
@@ -1301,7 +1301,7 @@ _:b1 a tcs:TaxonConcept ;
 
 [&lsqb;TaxonName-basionym-example-1.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonName-basionym-example-1.ttl)&nbsp;[&lsqb;TaxonName-basionym-example-1.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonName-basionym-example-1.jsonld)
 
-
+#### TaxonName-basionym-example-2
 ```turtle
 [] a tcs:TaxonName ;
     tcs:taxonNameString "Osphranter rufus" ;
@@ -1323,7 +1323,7 @@ _:b1 a tcs:TaxonName ;
 
 ### tcs:replacedName
 
-
+#### TaxonName-replacedName-example-1
 ```turtle
 <https://www.tropicos.org/name/35183593> a tcs:TaxonName ;
     tcs:taxonNameString "Dicranum bartramianum" ;
@@ -1364,7 +1364,7 @@ _:b1 a tcs:TaxonName ;
 
 [&lsqb;TaxonName-replacedName-example-1.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonName-replacedName-example-1.ttl)&nbsp;[&lsqb;TaxonName-replacedName-example-1.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonName-replacedName-example-1.jsonld)
 
-
+#### TaxonName-replacedName-example-2
 ```turtle
 <https://www.tropicos.org/name/35000146> a tcs:TaxonName ;
     tcs:taxonNameString "Braunfelsia" ;
@@ -1390,7 +1390,7 @@ _:b1 a tcs:TaxonName ;
 
 [&lsqb;TaxonName-replacedName-example-2.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonName-replacedName-example-2.ttl)&nbsp;[&lsqb;TaxonName-replacedName-example-2.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonName-replacedName-example-2.jsonld)
 
-
+#### TaxonName-replacedName-example-3
 ```turtle
 <https://www.ipni.org/n/17567870-1> a tcs:TaxonName ;
     tcs:taxonNameString "Doodia media subsp. australis" ;
@@ -1419,7 +1419,7 @@ _:b1 a tcs:TaxonName ;
 
 [&lsqb;TaxonName-replacedName-example-3.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonName-replacedName-example-3.ttl)&nbsp;[&lsqb;TaxonName-replacedName-example-3.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonName-replacedName-example-3.jsonld)
 
-
+#### TaxonName-replacedName-example-4
 ```turtle
 <https://www.ipni.org/n/471632-1> a tcs:TaxonName ;
     tcs:taxonNameString "Acacia tenuifolia" ;
@@ -1453,7 +1453,7 @@ _:b1 a tcs:TaxonName ;
 
 ### tcs:conservedAgainst
 
-
+#### TaxonName-conservedAgainst-example-1
 ```turtle
 <https://www.tropicos.org/name/35000378> a tcs:TaxonName ;
     tcs:taxonNameString "Dicranoloma" ;
@@ -1481,7 +1481,7 @@ _:b1 a tcs:TaxonName ;
 
 ### tcs:NomenclaturalType
 
-
+#### NomenclaturalType-example-1
 ```turtle
 # Examples from TCS 1
 [] a tcs:NomenclaturalType ;
