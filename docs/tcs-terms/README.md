@@ -787,6 +787,17 @@ nomenclatural data.
 			<td><p>In TCS <code>dcterms:title</code> is used for the taxonomic concept label <a href="../bibliography#senderov_openbiodiv-o_2018">[senderov_openbiodiv-o_2018]</a>, which consists of the Taxon Name and a reference to  the publication where the concept is circumscribed, separated by 'sec.',  which stands for 'secundus' ('according to'). It is used to indicate one  specific meaning of a name – a Taxon Concept – rather than the cumulative  nomenclatural and taxonomic legacy associated with the name.</p></td>
 		</tr>
 		<tr>
+			<td>Examples</td>
+			<td><ul>
+<li><code>Dicranoloma assimile sec. Klazenga 1999</code></li>
+<li><code>Euphrasia gibbsiae sec. Barker 1982</code></li>
+<li><code>Megalorhipida leucodactylus sec. Gielis &amp; Hobern 2020-07-16</code></li>
+<li><code>Circus cyaneus sec. Clements 2021</code></li>
+<li><code>Circus cyaneus sec. Howard &amp; Moore 2013</code></li>
+<li><code>Circus [cyaneus or hudsonius] sec. AviBase #82745BAA</code></li>
+</ul></td>
+		</tr>
+		<tr>
 			<td>GitHub issue</td>
 			<td>https://github.com/tdwg/tcs2/issues/222</td>
 		</tr>

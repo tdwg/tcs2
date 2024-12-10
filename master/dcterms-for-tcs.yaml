@@ -13,7 +13,7 @@
     which stands for 'secundus' ('according to'). It is used to indicate one 
     specific meaning of a name – a Taxon Concept – rather than the cumulative 
     nomenclatural and taxonomic legacy associated with the name.
-  examples: TaxonConcept-title.md
+  examples: TaxonConcept-title-examples.md
   type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonConcept
   required: No

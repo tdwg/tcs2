@@ -238,16 +238,25 @@ def term_table(term):
         
 
     # Examples
-    if 'examples' in term and isinstance(term['examples'], list):
-        examples = '<ul>'
-        for ex in term['examples']:
-            examples += '<li><a href="../examples/#' + ex + '">' + ex + '</a></li>'
-        examples += '</ul>'
-            
-        text += table_row([
-            table_cell('Examples'),
-            table_cell(examples)
-        ])
+    if 'examples' in term: 
+        if isinstance(term['examples'], list):
+            examples = '<ul>'
+            for ex in term['examples']:
+                examples += '<li><a href="../examples/#' + ex + '">' + ex + '</a></li>'
+            examples += '</ul>'
+                
+            text += table_row([
+                table_cell('Examples'),
+                table_cell(examples)
+            ])
+        elif isinstance(term['examples'], str):
+            with open('../examples/' + term['examples'], 'r') as f:
+                examples = f.read()
+            text += table_row([
+                table_cell('Examples'),
+                table_cell(markdown.markdown(examples))
+            ])
+                
 
     # Github issue
     if 'github' in term and not pd.isna(term['github']):
