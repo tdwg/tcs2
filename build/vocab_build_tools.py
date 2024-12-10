@@ -240,7 +240,7 @@ def term_table(term):
         comments = term['notes']
         text += table_row([
             table_cell('Comments'),
-            table_cell(comments)
+            table_cell(markdown.markdown(comments))
         ])
         
         
