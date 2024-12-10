@@ -336,7 +336,7 @@ def create_examples_page(config):
                     items = []
                     for ex in row['examples']:
                         items.append(f'[{ex}](#{ex})')
-                    terms.append(f'**{alias}:{localName}:** ' + ', '.join(items))
+                    terms.append(f'**{alias}:{localName}:** ' + ' &bull; '.join(items))
                 f.write(' | '.join(terms))
                 f.write('\n\n')
 
