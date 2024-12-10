@@ -1,5 +1,41 @@
 # Examples
 
+## Namespaces
+
+The following namespace aliases are used in the examples below:
+
+| alias | uri |
+|-|-|
+| tcs | http://rs.tdwg.org/tcs/terms/ |
+| dwc | http://rs.tdwg.org/dwc/terms/ |
+| dcterms | http://purl.org/dc/terms/ |
+| address | http://schemas.talis.com/2005/address/schema# |
+| bibo | http://purl.org/ontology/bibo/ |
+| foaf | http://xmlns.com/foaf/0.1/ |
+| gbif | http://rs.gbif.org/terms/1.0/ |
+| oa | http://www.w3.org/ns/oa# |
+| rdf | http://www.w3.org/1999/02/22-rdf-syntax-ns# |
+| rdfs | http://www.w3.org/2000/01/rdf-schema# |
+| skosxl | http://www.w3.org/2008/05/skos-xl# |
+
+## Index
+
+### TaxonConcept
+
+**tcs:TaxonConcept:** [TaxonConcept-example-1](#TaxonConcept-example-1), [TaxonConcept-example-2](#TaxonConcept-example-2), [TaxonConcept-example-3](#TaxonConcept-example-3), [TaxonConcept-example-4](#TaxonConcept-example-4), [TaxonConcept-example-5](#TaxonConcept-example-5), [TaxonConcept-example-6](#TaxonConcept-example-6), [TaxonConcept-example-7](#TaxonConcept-example-7) | **tcs:accordingTo:** [TaxonConcept-accordingTo-example-1](#TaxonConcept-accordingTo-example-1), [TaxonConcept-accordingTo-example-2](#TaxonConcept-accordingTo-example-2), [TaxonConcept-accordingTo-example-3](#TaxonConcept-accordingTo-example-3) | **tcs:synonym:** [TaxonConcept-synonym-example-1](#TaxonConcept-synonym-example-1), [TaxonConcept-synonym-example-2](#TaxonConcept-synonym-example-2), [TaxonConcept-synonym-example-3](#TaxonConcept-synonym-example-3) | **tcs:vernacularName:** [TaxonConcept-vernacularName-example-1](#TaxonConcept-vernacularName-example-1), [TaxonConcept-vernacularName-example-2](#TaxonConcept-vernacularName-example-2), [TaxonConcept-vernacularName-example-3](#TaxonConcept-vernacularName-example-3) | **tcs:parent:** [TaxonConcept-parent-example-1](#TaxonConcept-parent-example-1) | **tcs:child:** [TaxonConcept-child-example-1](#TaxonConcept-child-example-1) | **tcs:isCongruentWith:** [TaxonConcept-isCongruentWith-example-1](#TaxonConcept-isCongruentWith-example-1), [TaxonConceptMapping-isCongruentWith-example-2](#TaxonConceptMapping-isCongruentWith-example-2), [TaxonConcept-isCongruentWith-example-3](#TaxonConcept-isCongruentWith-example-3), [TaxonConceptMapping-isCongruentWith-example-1](#TaxonConceptMapping-isCongruentWith-example-1) | **tcs:includes:** [TaxonConcept-includes-example-1](#TaxonConcept-includes-example-1), [TaxonConceptMapping-includes-example-2](#TaxonConceptMapping-includes-example-2), [TaxonConceptMapping-includes-example-1](#TaxonConceptMapping-includes-example-1) | **tcs:isIncludedIn:** [TaxonConcept-isIncludedIn-example-1](#TaxonConcept-isIncludedIn-example-1), [TaxonConceptMapping-isIncludedIn-example-2](#TaxonConceptMapping-isIncludedIn-example-2), [TaxonConceptMapping-isIncludedIn-example-1](#TaxonConceptMapping-isIncludedIn-example-1) | **tcs:partiallyOverlaps:** [TaxonConcept-partiallyOverlaps-example-1](#TaxonConcept-partiallyOverlaps-example-1), [TaxonConceptMapping-partiallyOverlaps-example-2](#TaxonConceptMapping-partiallyOverlaps-example-2), [TaxonConceptMapping-partiallyOverlaps-example-1](#TaxonConceptMapping-partiallyOverlaps-example-1) | **tcs:isDisjointFrom:** [TaxonConcept-isDisjointFrom-example-1](#TaxonConcept-isDisjointFrom-example-1), [TaxonConceptMapping-isDisjointFrom-example-2](#TaxonConceptMapping-isDisjointFrom-example-2), [TaxonConceptMapping-isDisjointFrom-example-1](#TaxonConceptMapping-isDisjointFrom-example-1) | **tcs:intersects:** [TaxonConcept-intersects-example-1](#TaxonConcept-intersects-example-1), [TaxonConcept-intersects-example-2](#TaxonConcept-intersects-example-2), [TaxonConceptMapping-intersects-example-1](#TaxonConceptMapping-intersects-example-1), [TaxonConcept-intersects-example-3](#TaxonConcept-intersects-example-3)
+
+### TaxonConceptMapping
+
+**tcs:TaxonConceptMapping:** [TaxonConceptMapping-isCongruentWith-example-1](#TaxonConceptMapping-isCongruentWith-example-1), [TaxonConceptMapping-isCongruentWith-example-2](#TaxonConceptMapping-isCongruentWith-example-2), [TaxonConceptMapping-includes-example-1](#TaxonConceptMapping-includes-example-1), [TaxonConceptMapping-includes-example-2](#TaxonConceptMapping-includes-example-2), [TaxonConceptMapping-isIncludedIn-example-1](#TaxonConceptMapping-isIncludedIn-example-1), [TaxonConceptMapping-isIncludedIn-example-2](#TaxonConceptMapping-isIncludedIn-example-2), [TaxonConceptMapping-partiallyOverlaps-example-1](#TaxonConceptMapping-partiallyOverlaps-example-1), [TaxonConceptMapping-partiallyOverlaps-example-2](#TaxonConceptMapping-partiallyOverlaps-example-2), [TaxonConceptMapping-isDisjointFrom-example-1](#TaxonConceptMapping-isDisjointFrom-example-1), [TaxonConceptMapping-isDisjointFrom-example-2](#TaxonConceptMapping-isDisjointFrom-example-2), [TaxonConceptMapping-intersects-example-1](#TaxonConceptMapping-intersects-example-1), [TaxonConceptMapping-intersects-example-2](#TaxonConceptMapping-intersects-example-2)
+
+### TaxonName
+
+**tcs:TaxonName:** [TaxonName-example-1](#TaxonName-example-1), [TaxonName-example-2](#TaxonName-example-2), [TaxonName-example-3](#TaxonName-example-3), [TaxonName-example-4](#TaxonName-example-4) | **tcs:typification:** [TaxonName-typification-example-1](#TaxonName-typification-example-1), [TaxonName-typification-example-2](#TaxonName-typification-example-2) | **tcs:basionym:** [TaxonName-basionym-example-1](#TaxonName-basionym-example-1), [TaxonName-basionym-example-2](#TaxonName-basionym-example-2) | **tcs:replacedName:** [TaxonName-replacedName-example-1](#TaxonName-replacedName-example-1), [TaxonName-replacedName-example-2](#TaxonName-replacedName-example-2), [TaxonName-replacedName-example-3](#TaxonName-replacedName-example-3), [TaxonName-replacedName-example-4](#TaxonName-replacedName-example-4) | **tcs:conservedAgainst:** [TaxonName-conservedAgainst-example-1](#TaxonName-conservedAgainst-example-1)
+
+### NomenclaturalType
+
+**tcs:NomenclaturalType:** [NomenclaturalType-example-1](#NomenclaturalType-example-1)
+
 
 ## TaxonConcept
 
@@ -571,52 +607,6 @@ _:b1 a foaf:Person ;
 
 [&lsqb;TaxonConcept-isCongruentWith-example-1.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-isCongruentWith-example-1.ttl)&nbsp;[&lsqb;TaxonConcept-isCongruentWith-example-1.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-isCongruentWith-example-1.jsonld)
 
-#### TaxonConceptMapping-isCongruentWith-example-2
-```turtle
-_:b0  a tcs:TaxonConcept ;
-    dcterms:title "Aspleniaceae sec. Rothfels & al. 2012" ;
-    tcs:accordingTo <https://doi.org/10.1002/tax.613003> ;
-    tcs:taxonName <https://ipni.org/n/30001382-2> .
-
-[] a tcs:TaxonConceptMapping ;
-    tcs:mappingAccordingTo <https://doi.org/10.1002/tax.613003> ;
-    tcs:mappingRelation tcs:isCongruentWith ;
-    tcs:subjectTaxonConcept _:b0 ;
-    tcs:objectTaxonConcept [ a tcs:TaxonConcept ;
-            dcterms:title "Aspleniaceae sec. Christenhusz & al. 2011" ;
-            tcs:accordingTo <https://doi.org/10.11646/phytotaxa.19.1.2> ;
-            tcs:taxonName <https://ipni.org/n/30001382-2> ] .
-
-[] a tcs:TaxonConceptMapping ;
-    tcs:mappingAccordingTo <https://doi.org/10.1002/tax.613003> ;
-    tcs:mappingRelation tcs:isCongruentWith ;
-    tcs:subjectTaxonConcept _:b0 ;
-    tcs:objectTaxonConcept [ a tcs:TaxonConcept ;
-            dcterms:title "Aspleniaceae sec. Smith & al. 2006" ;
-            tcs:accordingTo <https://doi.org/10.2307/25065646> ;
-            tcs:acceptedName <https://ipni.org/n/30001382-2> ] .
-
-[] a tcs:TaxonConceptMapping ;
-    tcs:mappingAccordingTo <https://doi.org/10.1002/tax.613003> ;
-    tcs:mappingRelation tcs:isCongruentWith ;
-    tcs:subjectTaxonConcept _:b0 ;
-    tcs:objectTaxonConcept [ a tcs:TaxonConcept ;
-            dcterms:title "Aspleniaceae sec. Pichi Sermolli 1977" ;
-            tcs:accordingTo <https://doi.org/10.1080/00837792.1977.10670077> ;
-            tcs:taxonName <https://ipni.org/n/30001382-2> ] .
-
-[] a tcs:TaxonConceptMapping ;
-    tcs:mappingAccordingTo <https://doi.org/10.1002/tax.613003> ;
-    tcs:mappingRelation tcs:isCongruentWith ;
-    tcs:subjectTaxonConcept _:b0 ;
-    tcs:objectTaxonConcept [ a tcs:TaxonConcept ;
-            dcterms:title "Aspleniaceae sec. Nayar 1970" ;
-            tcs:accordingTo <https://doi.org/10.2307/1217958> ;
-            tcs:taxonName <https://ipni.org/n/30001382-2> ] .
-```
-
-[&lsqb;TaxonConceptMapping-isCongruentWith-example-2.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConceptMapping-isCongruentWith-example-2.ttl)&nbsp;[&lsqb;TaxonConceptMapping-isCongruentWith-example-2.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConceptMapping-isCongruentWith-example-2.jsonld)
-
 #### TaxonConcept-isCongruentWith-example-3
 ```turtle
 [] a tcs:TaxonConcept ;
@@ -630,24 +620,6 @@ _:b0  a tcs:TaxonConcept ;
 ```
 
 [&lsqb;TaxonConcept-isCongruentWith-example-3.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-isCongruentWith-example-3.ttl)&nbsp;[&lsqb;TaxonConcept-isCongruentWith-example-3.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-isCongruentWith-example-3.jsonld)
-
-#### TaxonConceptMapping-isCongruentWith-example-1
-```turtle
-# Andropogon capillipes sec. BONAP 2014 is congruent with Andropogon capillipes sec. Weakley 2006
-[] a tcs:TaxonConceptMapping ;
-    tcs:mappingAccordingTo <https://doi.org/10.3233/SW-160220> ;
-    tcs:mappingRelation tcs:isCongruentWith ;
-    tcs:subjectTaxonConcept [ a tcs:TaxonConcept ;
-        dcterms:title "Andropogon capillipes sec. BONAP 2014" ;
-        tcs:taxonName <https://www.ipni.org/n/12781-2> ;
-        tcs:accordingTo <http://bonap.net/napa#2014> ] ;
-    tcs:objectTaxonConcept [ a tcs:TaxonConcept ;
-        dcterms:title "Andropogon capillipes sec. Weakley 2006" ;
-        tcs:taxonName <https://www.ipni.org/n/12781-2> ;
-        tcs:accordingTo <http://www.herbarium.unc.edu/FloraArchives/WeakleyFlora_2006-Jan.pdf> ] .
-```
-
-[&lsqb;TaxonConceptMapping-isCongruentWith-example-1.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConceptMapping-isCongruentWith-example-1.ttl)&nbsp;[&lsqb;TaxonConceptMapping-isCongruentWith-example-1.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConceptMapping-isCongruentWith-example-1.jsonld)
 
 
 ### tcs:includes
@@ -665,49 +637,6 @@ _:b0  a tcs:TaxonConcept ;
 ```
 
 [&lsqb;TaxonConcept-includes-example-1.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-includes-example-1.ttl)&nbsp;[&lsqb;TaxonConcept-includes-example-1.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-includes-example-1.jsonld)
-
-#### TaxonConceptMapping-includes-example-2
-```turtle
-[] a tcs:TaxonConceptMapping ;
-    tcs:mappingAccordingTo <https://doi.org/10.1002/tax.613003> ;
-    tcs:mappingRelation tcs:includes ;
-    tcs:subjectTaxonConcept [ a tcs:TaxonConcept ;
-            dcterms:title "Diplaziopsidaceae sec. Rothfels & al. 2012" ;
-            tcs:accordingTo <https://doi.org/10.1002/tax.613003> ;
-            tcs:taxonName <https://ipni.org/n/77110538-1> ] ;
-    tcs:objectTaxonConcept [ a tcs:TaxonConcept ;
-            dcterms:title "Diplaziopsidaceae sec. Christenhusz & al. 2011" ;
-            tcs:accordingTo <https://doi.org/10.11646/phytotaxa.19.1.2> ;
-            tcs:taxonName <https://ipni.org/n/77110538-1> ] .
-```
-
-[&lsqb;TaxonConceptMapping-includes-example-2.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConceptMapping-includes-example-2.ttl)&nbsp;[&lsqb;TaxonConceptMapping-includes-example-2.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConceptMapping-includes-example-2.jsonld)
-
-#### TaxonConceptMapping-includes-example-1
-```turtle
-# Andropogon glomeratus sec. BONAP 2014 includes Andropogon tenuispatheus sec. Weakley 2006
-[] a tcs:TaxonConceptMapping ;
-    tcs:mappingAccordingTo <https://doi.org/10.3233/SW-160220> ;
-    tcs:mappingRelation tcs:includes ;
-    tcs:subjectTaxonConcept [ a tcs:TaxonConcept ;
-        dcterms:title "Andropogon glomeratus sec. BONAP 2014" ;
-        tcs:taxonName <https://www.ipni.org/n/12850-2> ;
-        tcs:accordingTo <http://bonap.net/napa#2014> ] ;
-    tcs:objectTaxonConcept [ a tcs:TaxonConcept ;
-        dcterms:title "Andropogon tenuispatheus sec. Weakley 2006" ;
-        tcs:taxonName <https://www.ipni.org/n/13093-2> ;
-        tcs:accordingTo <http://www.herbarium.unc.edu/FloraArchives/WeakleyFlora_2006-Jan.pdf> ] .
-
-<https://www.ipni.org/n/12850-2> a tcs:TaxonName ;
-    tcs:taxonNameString "Andropogon glomeratus" ;
-    dwc:scientificNameAuthorship "Britton, Sterns & Poggenb." .
-
-<https://www.ipni.org/n/13093-2> a tcs:TaxonName ;
-    tcs:taxonNameString "Andropogon tenuispatheus" ;
-    dwc:scientificNameAuthorship "Nash" .
-```
-
-[&lsqb;TaxonConceptMapping-includes-example-1.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConceptMapping-includes-example-1.ttl)&nbsp;[&lsqb;TaxonConceptMapping-includes-example-1.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConceptMapping-includes-example-1.jsonld)
 
 
 ### tcs:isIncludedIn
@@ -741,73 +670,6 @@ _:b0  a tcs:TaxonConcept ;
 
 [&lsqb;TaxonConcept-isIncludedIn-example-1.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-isIncludedIn-example-1.ttl)&nbsp;[&lsqb;TaxonConcept-isIncludedIn-example-1.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-isIncludedIn-example-1.jsonld)
 
-#### TaxonConceptMapping-isIncludedIn-example-2
-```turtle
-_:b1 a tcs:TaxonConcept ;
-    dcterms:title "Athyriaceae sec. Rothfels & al. 2012" ;
-    tcs:accordingTo <https://doi.org/10.1002/tax.613003> ;
-    tcs:taxonName <https://ipni.org/n/30000361-2> .
-
-[] a tcs:TaxonConceptMapping ;
-    tcs:mappingAccordingTo <https://doi.org/10.1002/tax.613003> ;
-    tcs:mappingRelation tcs:isIncludedIn ;
-    tcs:subjectTaxonConcept _:b1 ;
-    tcs:objectTaxonConcept [ a tcs:TaxonConcept ;
-            dcterms:title "Athyriaceae sec. Christenhusz & al. 2011" ;
-            tcs:accordingTo <https://doi.org/10.11646/phytotaxa.19.1.2> ;
-            tcs:taxonName <https://ipni.org/n/30000361-2> ] .
-
-[] a tcs:TaxonConceptMapping ;
-    tcs:mappingAccordingTo <https://doi.org/10.1002/tax.613003> ;
-    tcs:mappingRelation tcs:isIncludedIn ;
-    tcs:subjectTaxonConcept _:b1 ;
-    tcs:objectTaxonConcept [ a tcs:TaxonConcept ;
-            dcterms:title "Woodsiaceae sec. Smith & al. 2006" ;
-            tcs:accordingTo <https://doi.org/10.2307/25065646> ;
-            tcs:taxonName <https://ipni.org/n/30000455-2> ] .
-
-[] a tcs:TaxonConceptMapping ;
-    tcs:mappingAccordingTo <https://doi.org/10.1002/tax.613003> ;
-    tcs:mappingRelation tcs:isIncludedIn ;
-    tcs:subjectTaxonConcept _:b1 ;
-    tcs:objectTaxonConcept [ a tcs:TaxonConcept ;
-            dcterms:title "Dryopteridaceae sec. Nayar 1970" ;
-            tcs:accordingTo <https://doi.org/10.2307/1217958> ;
-            tcs:taxonName <https://www.ipni.org/n/30014148-2> ] .
-
-[] a tcs:TaxonConceptMapping ;
-    tcs:mappingAccordingTo <https://doi.org/10.1002/tax.613003> ;
-    tcs:mappingRelation tcs:isIncludedIn ;
-    tcs:subjectTaxonConcept _:b1 ;
-    tcs:objectTaxonConcept [ a tcs:TaxonConcept ;
-            dcterms:title "Dennstaedtiaceae sec. Holttum 1947" ;
-            tcs:accordingTo [ a dcterms:BibliographicResource ;
-                    dcterms:bibliographicCitation """Holttum, R.E. (1947). A 
-                            revised classification of leptosporangiate ferns. 
-                            Journal of the Linnean Society. Botany 53: 123–155.""" ] ;
-            tcs:taxonName <https://ipni.org/n/17434830-1> ] .
-```
-
-[&lsqb;TaxonConceptMapping-isIncludedIn-example-2.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConceptMapping-isIncludedIn-example-2.ttl)&nbsp;[&lsqb;TaxonConceptMapping-isIncludedIn-example-2.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConceptMapping-isIncludedIn-example-2.jsonld)
-
-#### TaxonConceptMapping-isIncludedIn-example-1
-```turtle
-# Andropogon hirsutior sec. BONAP 2014 is included in Andropogon glomeratus sec. Weakley 2006
-[] a tcs:TaxonConceptMapping ;
-    tcs:mappingAccordingTo <https://doi.org/10.3233/SW-160220> ;
-    tcs:mappingRelation tcs:isIncludedIn ;
-    tcs:subjectTaxonConcept [ a tcs:TaxonConcept ;
-        dcterms:title "Andropogon hirsutior sec. BONAP 2014" ;
-        tcs:taxonName <https://www.ipni.org/n/60458078-2> ;
-        tcs:accordingTo <http://bonap.net/napa#2014> ] ;
-    tcs:objectTaxonConcept [ a tcs:TaxonConcept ;
-        dcterms:title "Andropogon glomeratus sec. Weakley 2006" ;
-        tcs:taxonName <https://www.ipni.org/n/12850-2> ;
-        tcs:accordingTo <http://www.herbarium.unc.edu/FloraArchives/WeakleyFlora_2006-Jan.pdf> ] .
-```
-
-[&lsqb;TaxonConceptMapping-isIncludedIn-example-1.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConceptMapping-isIncludedIn-example-1.ttl)&nbsp;[&lsqb;TaxonConceptMapping-isIncludedIn-example-1.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConceptMapping-isIncludedIn-example-1.jsonld)
-
 
 ### tcs:partiallyOverlaps
 
@@ -824,42 +686,6 @@ _:b1 a tcs:TaxonConcept ;
 ```
 
 [&lsqb;TaxonConcept-partiallyOverlaps-example-1.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-partiallyOverlaps-example-1.ttl)&nbsp;[&lsqb;TaxonConcept-partiallyOverlaps-example-1.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-partiallyOverlaps-example-1.jsonld)
-
-#### TaxonConceptMapping-partiallyOverlaps-example-2
-```turtle
-[] a tcs:TaxonConceptMapping ;
-    tcs:mappingAccordingTo <https://doi.org/10.1002/tax.613003> ;
-    tcs:mappingRelation tcs:partiallyOverlaps ;
-    tcs:subjectTaxonConcept [ a tcs:TaxonConcept ;
-            dcterms:title "Diplaziopsidaceae sec. Rothfels & al. 2012" ;
-            tcs:accordingTo <https://doi.org/10.1002/tax.613003> ;
-            tcs:taxonName <https://ipni.org/n/77110538-1> ] ;
-    tcs:objectTaxonConcept [ a tcs:TaxonConcept ;
-            dcterms:title "Athyriaceae sec. Christenhusz & al. 2011" ;
-            tcs:accordingTo <https://doi.org/10.11646/phytotaxa.19.1.2> ;
-            tcs:taxonName <https://ipni.org/n/30000361-2> ] .
-```
-
-[&lsqb;TaxonConceptMapping-partiallyOverlaps-example-2.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConceptMapping-partiallyOverlaps-example-2.ttl)&nbsp;[&lsqb;TaxonConceptMapping-partiallyOverlaps-example-2.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConceptMapping-partiallyOverlaps-example-2.jsonld)
-
-#### TaxonConceptMapping-partiallyOverlaps-example-1
-```turtle
-# Andropogon glomeratus sec. BONAP 2014 partially overlaps Andropogon glomeratus
-# sec. Weakley 2006
-[] a tcs:TaxonConceptMapping ;
-    tcs:mappingAccordingTo <https://doi.org/10.3233/SW-160220> ;
-    tcs:mappingRelation tcs:partiallyOverlaps ;
-    tcs:subjectTaxonConcept [ a tcs:TaxonConcept ;
-            dcterms:title "Andropogon glomeratus sec. BONAP 2014" ;
-            tcs:taxonName <https://www.ipni.org/n/12850-2> ;
-            tcs:accordingTo <http://bonap.net/napa#2014> ] ;
-    tcs:objectTaxonConcept [ a tcs:TaxonConcept ;
-            dcterms:title "Andropogon glomeratus sec. Weakley 2006" ;
-            tcs:taxonName <https://www.ipni.org/n/12850-2> ;
-            tcs:accordingTo <http://www.herbarium.unc.edu/FloraArchives/WeakleyFlora_2006-Jan.pdf> ] .
-```
-
-[&lsqb;TaxonConceptMapping-partiallyOverlaps-example-1.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConceptMapping-partiallyOverlaps-example-1.ttl)&nbsp;[&lsqb;TaxonConceptMapping-partiallyOverlaps-example-1.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConceptMapping-partiallyOverlaps-example-1.jsonld)
 
 
 ### tcs:isDisjointFrom
@@ -888,48 +714,6 @@ _:b1 a tcs:TaxonConcept ;
 ```
 
 [&lsqb;TaxonConcept-isDisjointFrom-example-1.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-isDisjointFrom-example-1.ttl)&nbsp;[&lsqb;TaxonConcept-isDisjointFrom-example-1.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-isDisjointFrom-example-1.jsonld)
-
-#### TaxonConceptMapping-isDisjointFrom-example-2
-```turtle
-[] a tcs:TaxonConceptMapping ;
-    tcs:mappingAccordingTo <https://www.tropicos.org/reference/9022656> ;
-    tcs:mappingRelation tcs:isDisjointFrom ;
-    tcs:subjectTaxonConcept [ a tcs:TaxonConcept ;
-            dcterms:title "Campylopus introflexus sec. Koperski & al. 2000" ; 
-            tcs:accordingTo <https://www.tropicos.org/reference/9022656> ;
-            tcs:taxonName <https://www.tropicos.org/name/35156181> ] ;
-    tcs:objectTaxonConcept [ a tcs:TaxonConcept ;
-            dcterms:title "Campylopus introflexus sec. Mönkemeyer 1927" ;
-            tcs:accordingTo <https://www.tropicos.org/publication/700> ;
-            tcs:taxonName <https://www.tropicos.org/publication/700> ] ;
-    rdfs:comment """Mit dem Taxon in Mönkemeyer ist der Beschreibung nach 
-            eindeutig *C. pilifer Brid. (C. polytrichoides De Not.), eine 
-            ozeanisch-submediterrane Art, gemeint. In älteren Floren wird C. 
-            introflexus, bevor diese Art von Störmer (1958) für Europa 
-            nachgewiesen wurde, regelmäßig als Synonym von C. polytrichoides 
-            aufgeführt oder in diesem Sinne verwendet (vgl. u. a. Demaret & 
-            Castagne 1961: 203)""" .
-```
-
-[&lsqb;TaxonConceptMapping-isDisjointFrom-example-2.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConceptMapping-isDisjointFrom-example-2.ttl)&nbsp;[&lsqb;TaxonConceptMapping-isDisjointFrom-example-2.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConceptMapping-isDisjointFrom-example-2.jsonld)
-
-#### TaxonConceptMapping-isDisjointFrom-example-1
-```turtle
-# Andropogon glaucopsis sec. BONAP 2014 is disjoint from Andropogon virginicus sec. Weakley 2006
-[] a tcs:TaxonConceptMapping ;
-    tcs:mappingAccordingTo <https://doi.org/10.3233/SW-160220> ;
-    tcs:mappingRelation tcs:isDisjointFrom ;
-    tcs:subjectTaxonConcept [ a tcs:TaxonConcept ;
-        dcterms:title "Andropogon glaucopsis sec. BONAP 2014" ;
-        tcs:taxonName <https://www.ipni.org/n/387942-1> ;
-        tcs:accordingTo <http://bonap.net/napa#2014> ] ;
-    tcs:objectTaxonConcept [ a tcs:TaxonConcept ;
-        dcterms:title "Andropogon virginicus sec. Weakley 2006" ;
-        tcs:taxonName <https://www.ipni.org/n/388740-1> ;
-        tcs:accordingTo <http://www.herbarium.unc.edu/FloraArchives/WeakleyFlora_2006-Jan.pdf> ] .
-```
-
-[&lsqb;TaxonConceptMapping-isDisjointFrom-example-1.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConceptMapping-isDisjointFrom-example-1.ttl)&nbsp;[&lsqb;TaxonConceptMapping-isDisjointFrom-example-1.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConceptMapping-isDisjointFrom-example-1.jsonld)
 
 
 ### tcs:intersects
@@ -1013,6 +797,301 @@ _:b1 a tcs:TaxonConcept ;
 
 [&lsqb;TaxonConcept-intersects-example-2.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-intersects-example-2.ttl)&nbsp;[&lsqb;TaxonConcept-intersects-example-2.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-intersects-example-2.jsonld)
 
+#### TaxonConcept-intersects-example-3
+```turtle
+<https://www.catalogueoflife.org/data/taxon/BRKHX> a tcs:TaxonConcept ;
+    dcterms:title "Megalorhipida leucodactylus sec. Gielis & Hobern 2023-01-05" ;
+    tcs:accordingTo <https://doi.org/10.48580/dfry-3gd#1.1.23.5> ;
+    tcs:taxonName [ a tcs:TaxonName ;
+            tcs:taxonNameString "Megalorhipida leucodactylus" ;
+            dwc:scientificNameAuthorship "(Fabricius, 1794)" ;
+            tcs:basionym <https://zoobank.org/NomenclaturalActs/39b2f236-3914-4962-9dcc-f594671654bd> ] ;
+    tcs:intersects [ a tcs:TaxonConcept ;
+            dcterms:title "Pterophorus congrualis sec. Walker 1864" ;
+            tcs:accordingTo <https://www.biodiversitylibrary.org/page/38948425> ;
+            tcs:taxonName [ a tcs:TaxonName ;
+                    tcs:taxonNameString "Pterophorus congrualis" ;
+                    dwc:scientificNameAuthorship "Walker, 1864" ] ] ,
+        [ a tcs:TaxonConcept ;
+            dcterms:title "Pterophorus leucodactylus sec. Gielis & al. 2022" ;
+            tcs:accordingTo [ a bibo:Book ;
+                    dcterms:bibliographicCitation """Gielis, C., Franssen, M., Groenen, 
+                            F., & Wangdi, K. (2022). Moths of Bhutan. 1–420.""" ] ;
+            tcs:taxonName <https://zoobank.org/NomenclaturalActs/39b2f236-3914-4962-9dcc-f594671654bd> ] ,
+        [ a tcs:TaxonConcept ;
+            dcterms:title "Pterophorus leucodactylus sec. Ustjuzhanin, Kovtunovich & Streltzov 2022" ;
+            tcs:accordingTo [ a bibo:AcademicArticle ;
+                    dcterms:bibliographicCitation """Ustjuzhanin, P., Kovtunovich V. & 
+                            Streltzov, A. (2022). Review on the fauna of Pterophoridae 
+                            of the Republic of Guinea (Lepidoptera: Pterophoridae). 
+                            SHILAP Revista De Lepidopterología, 50(199), 435–439.""" ] ;
+            tcs:taxonName <https://zoobank.org/NomenclaturalActs/39b2f236-3914-4962-9dcc-f594671654bd> ] .
+
+# This example shows only a fraction of the references that are cited in the
+# treatment and lacks some properties of the Taxon Concept. For the full
+# treatment, see examples/megalorhipida-leucodactylus-sec-gielis-et-hobern-2020.ttl.
+```
+
+[&lsqb;TaxonConcept-intersects-example-3.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-intersects-example-3.ttl)&nbsp;[&lsqb;TaxonConcept-intersects-example-3.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-intersects-example-3.jsonld)
+
+
+## TaxonConceptMapping
+
+
+### tcs:TaxonConceptMapping
+
+#### TaxonConceptMapping-isCongruentWith-example-1
+```turtle
+# Andropogon capillipes sec. BONAP 2014 is congruent with Andropogon capillipes sec. Weakley 2006
+[] a tcs:TaxonConceptMapping ;
+    tcs:mappingAccordingTo <https://doi.org/10.3233/SW-160220> ;
+    tcs:mappingRelation tcs:isCongruentWith ;
+    tcs:subjectTaxonConcept [ a tcs:TaxonConcept ;
+        dcterms:title "Andropogon capillipes sec. BONAP 2014" ;
+        tcs:taxonName <https://www.ipni.org/n/12781-2> ;
+        tcs:accordingTo <http://bonap.net/napa#2014> ] ;
+    tcs:objectTaxonConcept [ a tcs:TaxonConcept ;
+        dcterms:title "Andropogon capillipes sec. Weakley 2006" ;
+        tcs:taxonName <https://www.ipni.org/n/12781-2> ;
+        tcs:accordingTo <http://www.herbarium.unc.edu/FloraArchives/WeakleyFlora_2006-Jan.pdf> ] .
+```
+
+[&lsqb;TaxonConceptMapping-isCongruentWith-example-1.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConceptMapping-isCongruentWith-example-1.ttl)&nbsp;[&lsqb;TaxonConceptMapping-isCongruentWith-example-1.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConceptMapping-isCongruentWith-example-1.jsonld)
+
+#### TaxonConceptMapping-isCongruentWith-example-2
+```turtle
+_:b0  a tcs:TaxonConcept ;
+    dcterms:title "Aspleniaceae sec. Rothfels & al. 2012" ;
+    tcs:accordingTo <https://doi.org/10.1002/tax.613003> ;
+    tcs:taxonName <https://ipni.org/n/30001382-2> .
+
+[] a tcs:TaxonConceptMapping ;
+    tcs:mappingAccordingTo <https://doi.org/10.1002/tax.613003> ;
+    tcs:mappingRelation tcs:isCongruentWith ;
+    tcs:subjectTaxonConcept _:b0 ;
+    tcs:objectTaxonConcept [ a tcs:TaxonConcept ;
+            dcterms:title "Aspleniaceae sec. Christenhusz & al. 2011" ;
+            tcs:accordingTo <https://doi.org/10.11646/phytotaxa.19.1.2> ;
+            tcs:taxonName <https://ipni.org/n/30001382-2> ] .
+
+[] a tcs:TaxonConceptMapping ;
+    tcs:mappingAccordingTo <https://doi.org/10.1002/tax.613003> ;
+    tcs:mappingRelation tcs:isCongruentWith ;
+    tcs:subjectTaxonConcept _:b0 ;
+    tcs:objectTaxonConcept [ a tcs:TaxonConcept ;
+            dcterms:title "Aspleniaceae sec. Smith & al. 2006" ;
+            tcs:accordingTo <https://doi.org/10.2307/25065646> ;
+            tcs:acceptedName <https://ipni.org/n/30001382-2> ] .
+
+[] a tcs:TaxonConceptMapping ;
+    tcs:mappingAccordingTo <https://doi.org/10.1002/tax.613003> ;
+    tcs:mappingRelation tcs:isCongruentWith ;
+    tcs:subjectTaxonConcept _:b0 ;
+    tcs:objectTaxonConcept [ a tcs:TaxonConcept ;
+            dcterms:title "Aspleniaceae sec. Pichi Sermolli 1977" ;
+            tcs:accordingTo <https://doi.org/10.1080/00837792.1977.10670077> ;
+            tcs:taxonName <https://ipni.org/n/30001382-2> ] .
+
+[] a tcs:TaxonConceptMapping ;
+    tcs:mappingAccordingTo <https://doi.org/10.1002/tax.613003> ;
+    tcs:mappingRelation tcs:isCongruentWith ;
+    tcs:subjectTaxonConcept _:b0 ;
+    tcs:objectTaxonConcept [ a tcs:TaxonConcept ;
+            dcterms:title "Aspleniaceae sec. Nayar 1970" ;
+            tcs:accordingTo <https://doi.org/10.2307/1217958> ;
+            tcs:taxonName <https://ipni.org/n/30001382-2> ] .
+```
+
+[&lsqb;TaxonConceptMapping-isCongruentWith-example-2.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConceptMapping-isCongruentWith-example-2.ttl)&nbsp;[&lsqb;TaxonConceptMapping-isCongruentWith-example-2.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConceptMapping-isCongruentWith-example-2.jsonld)
+
+#### TaxonConceptMapping-includes-example-1
+```turtle
+# Andropogon glomeratus sec. BONAP 2014 includes Andropogon tenuispatheus sec. Weakley 2006
+[] a tcs:TaxonConceptMapping ;
+    tcs:mappingAccordingTo <https://doi.org/10.3233/SW-160220> ;
+    tcs:mappingRelation tcs:includes ;
+    tcs:subjectTaxonConcept [ a tcs:TaxonConcept ;
+        dcterms:title "Andropogon glomeratus sec. BONAP 2014" ;
+        tcs:taxonName <https://www.ipni.org/n/12850-2> ;
+        tcs:accordingTo <http://bonap.net/napa#2014> ] ;
+    tcs:objectTaxonConcept [ a tcs:TaxonConcept ;
+        dcterms:title "Andropogon tenuispatheus sec. Weakley 2006" ;
+        tcs:taxonName <https://www.ipni.org/n/13093-2> ;
+        tcs:accordingTo <http://www.herbarium.unc.edu/FloraArchives/WeakleyFlora_2006-Jan.pdf> ] .
+
+<https://www.ipni.org/n/12850-2> a tcs:TaxonName ;
+    tcs:taxonNameString "Andropogon glomeratus" ;
+    dwc:scientificNameAuthorship "Britton, Sterns & Poggenb." .
+
+<https://www.ipni.org/n/13093-2> a tcs:TaxonName ;
+    tcs:taxonNameString "Andropogon tenuispatheus" ;
+    dwc:scientificNameAuthorship "Nash" .
+```
+
+[&lsqb;TaxonConceptMapping-includes-example-1.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConceptMapping-includes-example-1.ttl)&nbsp;[&lsqb;TaxonConceptMapping-includes-example-1.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConceptMapping-includes-example-1.jsonld)
+
+#### TaxonConceptMapping-includes-example-2
+```turtle
+[] a tcs:TaxonConceptMapping ;
+    tcs:mappingAccordingTo <https://doi.org/10.1002/tax.613003> ;
+    tcs:mappingRelation tcs:includes ;
+    tcs:subjectTaxonConcept [ a tcs:TaxonConcept ;
+            dcterms:title "Diplaziopsidaceae sec. Rothfels & al. 2012" ;
+            tcs:accordingTo <https://doi.org/10.1002/tax.613003> ;
+            tcs:taxonName <https://ipni.org/n/77110538-1> ] ;
+    tcs:objectTaxonConcept [ a tcs:TaxonConcept ;
+            dcterms:title "Diplaziopsidaceae sec. Christenhusz & al. 2011" ;
+            tcs:accordingTo <https://doi.org/10.11646/phytotaxa.19.1.2> ;
+            tcs:taxonName <https://ipni.org/n/77110538-1> ] .
+```
+
+[&lsqb;TaxonConceptMapping-includes-example-2.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConceptMapping-includes-example-2.ttl)&nbsp;[&lsqb;TaxonConceptMapping-includes-example-2.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConceptMapping-includes-example-2.jsonld)
+
+#### TaxonConceptMapping-isIncludedIn-example-1
+```turtle
+# Andropogon hirsutior sec. BONAP 2014 is included in Andropogon glomeratus sec. Weakley 2006
+[] a tcs:TaxonConceptMapping ;
+    tcs:mappingAccordingTo <https://doi.org/10.3233/SW-160220> ;
+    tcs:mappingRelation tcs:isIncludedIn ;
+    tcs:subjectTaxonConcept [ a tcs:TaxonConcept ;
+        dcterms:title "Andropogon hirsutior sec. BONAP 2014" ;
+        tcs:taxonName <https://www.ipni.org/n/60458078-2> ;
+        tcs:accordingTo <http://bonap.net/napa#2014> ] ;
+    tcs:objectTaxonConcept [ a tcs:TaxonConcept ;
+        dcterms:title "Andropogon glomeratus sec. Weakley 2006" ;
+        tcs:taxonName <https://www.ipni.org/n/12850-2> ;
+        tcs:accordingTo <http://www.herbarium.unc.edu/FloraArchives/WeakleyFlora_2006-Jan.pdf> ] .
+```
+
+[&lsqb;TaxonConceptMapping-isIncludedIn-example-1.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConceptMapping-isIncludedIn-example-1.ttl)&nbsp;[&lsqb;TaxonConceptMapping-isIncludedIn-example-1.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConceptMapping-isIncludedIn-example-1.jsonld)
+
+#### TaxonConceptMapping-isIncludedIn-example-2
+```turtle
+_:b1 a tcs:TaxonConcept ;
+    dcterms:title "Athyriaceae sec. Rothfels & al. 2012" ;
+    tcs:accordingTo <https://doi.org/10.1002/tax.613003> ;
+    tcs:taxonName <https://ipni.org/n/30000361-2> .
+
+[] a tcs:TaxonConceptMapping ;
+    tcs:mappingAccordingTo <https://doi.org/10.1002/tax.613003> ;
+    tcs:mappingRelation tcs:isIncludedIn ;
+    tcs:subjectTaxonConcept _:b1 ;
+    tcs:objectTaxonConcept [ a tcs:TaxonConcept ;
+            dcterms:title "Athyriaceae sec. Christenhusz & al. 2011" ;
+            tcs:accordingTo <https://doi.org/10.11646/phytotaxa.19.1.2> ;
+            tcs:taxonName <https://ipni.org/n/30000361-2> ] .
+
+[] a tcs:TaxonConceptMapping ;
+    tcs:mappingAccordingTo <https://doi.org/10.1002/tax.613003> ;
+    tcs:mappingRelation tcs:isIncludedIn ;
+    tcs:subjectTaxonConcept _:b1 ;
+    tcs:objectTaxonConcept [ a tcs:TaxonConcept ;
+            dcterms:title "Woodsiaceae sec. Smith & al. 2006" ;
+            tcs:accordingTo <https://doi.org/10.2307/25065646> ;
+            tcs:taxonName <https://ipni.org/n/30000455-2> ] .
+
+[] a tcs:TaxonConceptMapping ;
+    tcs:mappingAccordingTo <https://doi.org/10.1002/tax.613003> ;
+    tcs:mappingRelation tcs:isIncludedIn ;
+    tcs:subjectTaxonConcept _:b1 ;
+    tcs:objectTaxonConcept [ a tcs:TaxonConcept ;
+            dcterms:title "Dryopteridaceae sec. Nayar 1970" ;
+            tcs:accordingTo <https://doi.org/10.2307/1217958> ;
+            tcs:taxonName <https://www.ipni.org/n/30014148-2> ] .
+
+[] a tcs:TaxonConceptMapping ;
+    tcs:mappingAccordingTo <https://doi.org/10.1002/tax.613003> ;
+    tcs:mappingRelation tcs:isIncludedIn ;
+    tcs:subjectTaxonConcept _:b1 ;
+    tcs:objectTaxonConcept [ a tcs:TaxonConcept ;
+            dcterms:title "Dennstaedtiaceae sec. Holttum 1947" ;
+            tcs:accordingTo [ a dcterms:BibliographicResource ;
+                    dcterms:bibliographicCitation """Holttum, R.E. (1947). A 
+                            revised classification of leptosporangiate ferns. 
+                            Journal of the Linnean Society. Botany 53: 123–155.""" ] ;
+            tcs:taxonName <https://ipni.org/n/17434830-1> ] .
+```
+
+[&lsqb;TaxonConceptMapping-isIncludedIn-example-2.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConceptMapping-isIncludedIn-example-2.ttl)&nbsp;[&lsqb;TaxonConceptMapping-isIncludedIn-example-2.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConceptMapping-isIncludedIn-example-2.jsonld)
+
+#### TaxonConceptMapping-partiallyOverlaps-example-1
+```turtle
+# Andropogon glomeratus sec. BONAP 2014 partially overlaps Andropogon glomeratus
+# sec. Weakley 2006
+[] a tcs:TaxonConceptMapping ;
+    tcs:mappingAccordingTo <https://doi.org/10.3233/SW-160220> ;
+    tcs:mappingRelation tcs:partiallyOverlaps ;
+    tcs:subjectTaxonConcept [ a tcs:TaxonConcept ;
+            dcterms:title "Andropogon glomeratus sec. BONAP 2014" ;
+            tcs:taxonName <https://www.ipni.org/n/12850-2> ;
+            tcs:accordingTo <http://bonap.net/napa#2014> ] ;
+    tcs:objectTaxonConcept [ a tcs:TaxonConcept ;
+            dcterms:title "Andropogon glomeratus sec. Weakley 2006" ;
+            tcs:taxonName <https://www.ipni.org/n/12850-2> ;
+            tcs:accordingTo <http://www.herbarium.unc.edu/FloraArchives/WeakleyFlora_2006-Jan.pdf> ] .
+```
+
+[&lsqb;TaxonConceptMapping-partiallyOverlaps-example-1.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConceptMapping-partiallyOverlaps-example-1.ttl)&nbsp;[&lsqb;TaxonConceptMapping-partiallyOverlaps-example-1.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConceptMapping-partiallyOverlaps-example-1.jsonld)
+
+#### TaxonConceptMapping-partiallyOverlaps-example-2
+```turtle
+[] a tcs:TaxonConceptMapping ;
+    tcs:mappingAccordingTo <https://doi.org/10.1002/tax.613003> ;
+    tcs:mappingRelation tcs:partiallyOverlaps ;
+    tcs:subjectTaxonConcept [ a tcs:TaxonConcept ;
+            dcterms:title "Diplaziopsidaceae sec. Rothfels & al. 2012" ;
+            tcs:accordingTo <https://doi.org/10.1002/tax.613003> ;
+            tcs:taxonName <https://ipni.org/n/77110538-1> ] ;
+    tcs:objectTaxonConcept [ a tcs:TaxonConcept ;
+            dcterms:title "Athyriaceae sec. Christenhusz & al. 2011" ;
+            tcs:accordingTo <https://doi.org/10.11646/phytotaxa.19.1.2> ;
+            tcs:taxonName <https://ipni.org/n/30000361-2> ] .
+```
+
+[&lsqb;TaxonConceptMapping-partiallyOverlaps-example-2.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConceptMapping-partiallyOverlaps-example-2.ttl)&nbsp;[&lsqb;TaxonConceptMapping-partiallyOverlaps-example-2.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConceptMapping-partiallyOverlaps-example-2.jsonld)
+
+#### TaxonConceptMapping-isDisjointFrom-example-1
+```turtle
+# Andropogon glaucopsis sec. BONAP 2014 is disjoint from Andropogon virginicus sec. Weakley 2006
+[] a tcs:TaxonConceptMapping ;
+    tcs:mappingAccordingTo <https://doi.org/10.3233/SW-160220> ;
+    tcs:mappingRelation tcs:isDisjointFrom ;
+    tcs:subjectTaxonConcept [ a tcs:TaxonConcept ;
+        dcterms:title "Andropogon glaucopsis sec. BONAP 2014" ;
+        tcs:taxonName <https://www.ipni.org/n/387942-1> ;
+        tcs:accordingTo <http://bonap.net/napa#2014> ] ;
+    tcs:objectTaxonConcept [ a tcs:TaxonConcept ;
+        dcterms:title "Andropogon virginicus sec. Weakley 2006" ;
+        tcs:taxonName <https://www.ipni.org/n/388740-1> ;
+        tcs:accordingTo <http://www.herbarium.unc.edu/FloraArchives/WeakleyFlora_2006-Jan.pdf> ] .
+```
+
+[&lsqb;TaxonConceptMapping-isDisjointFrom-example-1.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConceptMapping-isDisjointFrom-example-1.ttl)&nbsp;[&lsqb;TaxonConceptMapping-isDisjointFrom-example-1.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConceptMapping-isDisjointFrom-example-1.jsonld)
+
+#### TaxonConceptMapping-isDisjointFrom-example-2
+```turtle
+[] a tcs:TaxonConceptMapping ;
+    tcs:mappingAccordingTo <https://www.tropicos.org/reference/9022656> ;
+    tcs:mappingRelation tcs:isDisjointFrom ;
+    tcs:subjectTaxonConcept [ a tcs:TaxonConcept ;
+            dcterms:title "Campylopus introflexus sec. Koperski & al. 2000" ; 
+            tcs:accordingTo <https://www.tropicos.org/reference/9022656> ;
+            tcs:taxonName <https://www.tropicos.org/name/35156181> ] ;
+    tcs:objectTaxonConcept [ a tcs:TaxonConcept ;
+            dcterms:title "Campylopus introflexus sec. Mönkemeyer 1927" ;
+            tcs:accordingTo <https://www.tropicos.org/publication/700> ;
+            tcs:taxonName <https://www.tropicos.org/publication/700> ] ;
+    rdfs:comment """Mit dem Taxon in Mönkemeyer ist der Beschreibung nach 
+            eindeutig *C. pilifer Brid. (C. polytrichoides De Not.), eine 
+            ozeanisch-submediterrane Art, gemeint. In älteren Floren wird C. 
+            introflexus, bevor diese Art von Störmer (1958) für Europa 
+            nachgewiesen wurde, regelmäßig als Synonym von C. polytrichoides 
+            aufgeführt oder in diesem Sinne verwendet (vgl. u. a. Demaret & 
+            Castagne 1961: 203)""" .
+```
+
+[&lsqb;TaxonConceptMapping-isDisjointFrom-example-2.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConceptMapping-isDisjointFrom-example-2.ttl)&nbsp;[&lsqb;TaxonConceptMapping-isDisjointFrom-example-2.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConceptMapping-isDisjointFrom-example-2.jsonld)
+
 #### TaxonConceptMapping-intersects-example-1
 ```turtle
 <https://id.biodiversity.org.au/instance/apni/545068> a tcs:TaxonConcept ;
@@ -1069,48 +1148,55 @@ _:b1 a tcs:TaxonConcept ;
 
 [&lsqb;TaxonConceptMapping-intersects-example-1.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConceptMapping-intersects-example-1.ttl)&nbsp;[&lsqb;TaxonConceptMapping-intersects-example-1.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConceptMapping-intersects-example-1.jsonld)
 
-#### TaxonConcept-intersects-example-3
+#### TaxonConceptMapping-intersects-example-2
 ```turtle
-<https://www.catalogueoflife.org/data/taxon/BRKHX> a tcs:TaxonConcept ;
-    dcterms:title "Megalorhipida leucodactylus sec. Gielis & Hobern 2023-01-05" ;
-    tcs:accordingTo <https://doi.org/10.48580/dfry-3gd#1.1.23.5> ;
-    tcs:taxonName [ a tcs:TaxonName ;
-            tcs:taxonNameString "Megalorhipida leucodactylus" ;
-            dwc:scientificNameAuthorship "(Fabricius, 1794)" ;
-            tcs:basionym <https://zoobank.org/NomenclaturalActs/39b2f236-3914-4962-9dcc-f594671654bd> ] ;
-    tcs:intersects [ a tcs:TaxonConcept ;
-            dcterms:title "Pterophorus congrualis sec. Walker 1864" ;
-            tcs:accordingTo <https://www.biodiversitylibrary.org/page/38948425> ;
-            tcs:taxonName [ a tcs:TaxonName ;
-                    tcs:taxonNameString "Pterophorus congrualis" ;
-                    dwc:scientificNameAuthorship "Walker, 1864" ] ] ,
-        [ a tcs:TaxonConcept ;
-            dcterms:title "Pterophorus leucodactylus sec. Gielis & al. 2022" ;
-            tcs:accordingTo [ a bibo:Book ;
-                    dcterms:bibliographicCitation """Gielis, C., Franssen, M., Groenen, 
-                            F., & Wangdi, K. (2022). Moths of Bhutan. 1–420.""" ] ;
-            tcs:taxonName <https://zoobank.org/NomenclaturalActs/39b2f236-3914-4962-9dcc-f594671654bd> ] ,
-        [ a tcs:TaxonConcept ;
-            dcterms:title "Pterophorus leucodactylus sec. Ustjuzhanin, Kovtunovich & Streltzov 2022" ;
-            tcs:accordingTo [ a bibo:AcademicArticle ;
-                    dcterms:bibliographicCitation """Ustjuzhanin, P., Kovtunovich V. & 
-                            Streltzov, A. (2022). Review on the fauna of Pterophoridae 
-                            of the Republic of Guinea (Lepidoptera: Pterophoridae). 
-                            SHILAP Revista De Lepidopterología, 50(199), 435–439.""" ] ;
-            tcs:taxonName <https://zoobank.org/NomenclaturalActs/39b2f236-3914-4962-9dcc-f594671654bd> ] .
+[] a tcs:TaxonConceptMapping ;
+    tcs:mappingAccordingTo <https://doi/org/10.2307/3668252> ;
+    tcs:mappingRelation tcs:intersects ;
+    tcs:subjectTaxonConcept [ a tcs:TaxonConcept ;
+            dcterms:title "Begonia salaziensis sec. Klazenga & al. 1994" ;
+            tcs:accordingTo <https://doi/org/10.2307/3668252> ;
+            tcs:taxonName <https://ipni.org/n/105644-1> ] ;
+    tcs:objectTaxonConcept [ a tcs:TaxonConcept ;
+            dcterms:title "Begonia salaziensis sec. Warburg 1894" ;
+            tcs:accordingTo [ a bibo:Chapter ;
+                    dcterms:bibliographicCitation """Warburg, O. (1894). Begoniaceae, 
+                            in Engler, A. & K. Prantl, Nat. Pflanzenfam. 3(6a): 
+                            121-150.""" ] ;
+            tcs:taxonName <https://ipni.org/n/105644-1> ] .
 
-# This example shows only a fraction of the references that are cited in the
-# treatment and lacks some properties of the Taxon Concept. For the full
-# treatment, see examples/megalorhipida-leucodactylus-sec-gielis-et-hobern-2020.ttl.
+[] a tcs:TaxonConceptMapping ;
+    tcs:mappingAccordingTo <https://doi/org/10.2307/3668252> ;
+    tcs:mappingRelation tcs:intersects ;
+    tcs:subjectTaxonConcept [ a tcs:TaxonConcept ;
+            dcterms:title "Begonia salaziensis sec. Klazenga & al. 1994" ;
+            tcs:accordingTo <https://doi/org/10.2307/3668252> ;
+            tcs:taxonName <https://ipni.org/n/105644-1> ] ;
+    tcs:objectTaxonConcept [ a tcs:TaxonConcept ;
+            dcterms:title "Begonia salaziensis sec. Irmscher 1925" ;
+            tcs:accordingTo [ a bibo:Chapter ;
+                    dcterms:bibliographicCitation """Irmscher, E. (1925). Begoniaceae, 
+                            in Engler, A. & K. Prantl, Nat. Pflanzenfam. ed. 2, 21: 
+                            548-588.""" ] ;
+            tcs:taxonName <https://ipni.org/n/105644-1> ] .
+
+[] a tcs:TaxonConceptMapping ;
+    tcs:mappingAccordingTo <https://doi/org/10.2307/3668252> ;
+    tcs:mappingRelation tcs:intersects ;
+    tcs:subjectTaxonConcept [ a tcs:TaxonConcept ;
+            dcterms:title "Begonia seychellensis sec. Klazenga & al. 1994" ;
+            tcs:accordingTo <https://doi/org/10.2307/3668252> ;
+            tcs:taxonName <https://www.ipni.org/n/105731-1> ] ;
+    tcs:objectTaxonConcept [ a tcs:TaxonConcept ;
+        dcterms:title "Begonia comorensis sec. Keraudren-Aymonin 1983" ;
+        tcs:accordingTo [ a bibo:Book ;
+                dcterms:bibliographicCitation """Keraudren-Aymonin, M. (1983). Flore 
+                        de Madagascar et des Comores. Famille 144 – Begoniacées: 7-108""" ] ;
+        tcs:taxonName <https://www.ipni.org/n/104440-1> ;
+        tcs:synonym <https://www.ipni.org/n/105731-1> ] .
 ```
 
-[&lsqb;TaxonConcept-intersects-example-3.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-intersects-example-3.ttl)&nbsp;[&lsqb;TaxonConcept-intersects-example-3.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-intersects-example-3.jsonld)
-
-
-### dcterms:title
-
-
-## TaxonConceptMappings
+[&lsqb;TaxonConceptMapping-intersects-example-2.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConceptMapping-intersects-example-2.ttl)&nbsp;[&lsqb;TaxonConceptMapping-intersects-example-2.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConceptMapping-intersects-example-2.jsonld)
 
 
 ## TaxonName

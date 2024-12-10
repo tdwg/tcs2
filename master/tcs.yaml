@@ -657,6 +657,19 @@
   required: null
   repeatable: null
   github: 43
+  examples:
+    - TaxonConceptMapping-isCongruentWith-example-1
+    - TaxonConceptMapping-isCongruentWith-example-2
+    - TaxonConceptMapping-includes-example-1
+    - TaxonConceptMapping-includes-example-2
+    - TaxonConceptMapping-isIncludedIn-example-1
+    - TaxonConceptMapping-isIncludedIn-example-2
+    - TaxonConceptMapping-partiallyOverlaps-example-1
+    - TaxonConceptMapping-partiallyOverlaps-example-2
+    - TaxonConceptMapping-isDisjointFrom-example-1
+    - TaxonConceptMapping-isDisjointFrom-example-2
+    - TaxonConceptMapping-intersects-example-1
+    - TaxonConceptMapping-intersects-example-2
   mappings:
     - predicate: "skos:broadMatch"
       iri: /DataSet/TaxonRelationshipAssertions/TaxonRelationshipAssertion

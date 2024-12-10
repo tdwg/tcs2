@@ -28,3 +28,6 @@ for config in documents:
     outputObject = open(config['outFileName'], 'wt', encoding='utf-8')
     outputObject.write(output)
     outputObject.close()
+    
+    tools.create_examples_page(config)
+    tools.create_sssom_page(config)
