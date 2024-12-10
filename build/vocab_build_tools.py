@@ -235,25 +235,29 @@ def term_table(term):
                 'https://github.com/tdwg/tcs2/issues/{github}'.format(github=int(term['github'])))
         ])
 
-    text += '\t</tbody>\n'
-    text += '</table>\n\n'
-
     # Comments/Notes
     if term['notes']:
         comments = term['notes']
-        # text += table_row([
-        #     table_cell('Comments'),
-        #     table_cell(markdown.markdown(comments, extensions=['nl2br']))
-        # ])
-        text += '\n**Comments**\n\n'
-        text += comments
-        text += '\n\n'
+        text += table_row([
+            table_cell('Comments'),
+            table_cell(comments)
+        ])
+        
+        
 
     # Examples
     if 'examples' in term and isinstance(term['examples'], list):
-        text += '\n**Examples**\n\n'
+        examples = ''
         for ex in term['examples']:
-            text += add_example(ex)
+            examples += add_example(ex)
+            
+        text += table_row([
+            table_cell('Examples'),
+            table_cell(examples)
+        ])
+
+    text += '\t</tbody>\n'
+    text += '</table>\n\n'
 
     return text
 

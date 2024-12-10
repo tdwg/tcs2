@@ -82,22 +82,17 @@ nomenclatural data.
 			<td>GitHub issue</td>
 			<td>https://github.com/tdwg/tcs2/issues/213</td>
 		</tr>
-	</tbody>
-</table>
-
-
-**Comments**
-
-A taxonomic position is an opinion about the definition of a taxonomic group. A Taxon Concept is identifiable, because it combines a label – `taxonName` in TCS – with a source – `accordingTo`. Both the `taxonName` and `accordingTo` properties are required on a `tcs:TaxonConcept`. When mentioning a taxon concept, the label and the source are combined, separated by 'sec.' (from, 'secundus', meaning 'according to') or 'sensu' (meaning the same). The term `dcterms:title` has been borrowed from Dublin Core to provide this taxon concept label. Because of the context provided by the source, taxon concepts are in principle also alignable to other Taxon Concepts using TCS concept mapping statements. The concept mapping properties in TCS are `isCongruentWith`, `includes`, `isIncludedIn`, `partiallyOverlaps`, `isDisjointFrom` and `intersects`. These properties can be used directly on a `TaxonConcept` object or as the value of the `tcs:mappingRelation` property in a `tcs:TaxonConceptMapping` object.
+		<tr>
+			<td>Comments</td>
+			<td>A taxonomic position is an opinion about the definition of a taxonomic group. A Taxon Concept is identifiable, because it combines a label – `taxonName` in TCS – with a source – `accordingTo`. Both the `taxonName` and `accordingTo` properties are required on a `tcs:TaxonConcept`. When mentioning a taxon concept, the label and the source are combined, separated by 'sec.' (from, 'secundus', meaning 'according to') or 'sensu' (meaning the same). The term `dcterms:title` has been borrowed from Dublin Core to provide this taxon concept label. Because of the context provided by the source, taxon concepts are in principle also alignable to other Taxon Concepts using TCS concept mapping statements. The concept mapping properties in TCS are `isCongruentWith`, `includes`, `isIncludedIn`, `partiallyOverlaps`, `isDisjointFrom` and `intersects`. These properties can be used directly on a `TaxonConcept` object or as the value of the `tcs:mappingRelation` property in a `tcs:TaxonConceptMapping` object.
 
 The TCS Taxon Concept is applied more broadly than the term is used in science (e.g. Franz & Peet 2009 [\[franz_perspectives_2009\]](../bibliography/#franz_perspectives_2009)). On the one hand, things that are not generally considered to be biological taxa, e.g. hybrids and cultivars, can be casted as TCS Taxon Concepts. Also Operational Taxonomic Units (OTUs) [\[sokal_principles_1963\]](../bibliography/#sokal_principles_1963) can be exchanged as Taxon Concepts, if there is a reason to do so, e.g. if one wants to align them with other Taxon Concepts later. On the other hand, entries from treatments that are considered to cite concepts from other treatments can be formulated as Taxon Concepts. Every taxon concept from a treatment that is likely to be referenced as the source of taxonomic context, for example a field guide for a determination of a specimen or a national census for an ecological study, can – and it would be very nice if they would – be stated as a Taxon Concept, so they can be aligned with other Taxon Concepts that may provide more or different taxonomic context.
 
-By contrast, entries in the nomenclature section of treatments ('TaxonomicNameUsage's sensu Senderov et al. 2018 &#91;[senderov_openbiodiv-o_2018](#senderov_openbiodiv-o_2018)&#93;) and in lists of nomenclatural types are not Taxon Concepts.
-
-
-**Examples**
-
-
+By contrast, entries in the nomenclature section of treatments ('TaxonomicNameUsage's sensu Senderov et al. 2018 &#91;[senderov_openbiodiv-o_2018](#senderov_openbiodiv-o_2018)&#93;) and in lists of nomenclatural types are not Taxon Concepts.</td>
+		</tr>
+		<tr>
+			<td>Examples</td>
+			<td>
 ```turtle
 [] a tcs:TaxonConcept ;
     dcterms:title "Dicranoloma blumei sec. Klazenga 1999" ;
@@ -237,6 +232,11 @@ By contrast, entries in the nomenclature section of treatments ('TaxonomicNameUs
 
 [&lsqb;TaxonConcept-example-7.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-example-7.ttl)&nbsp;[&lsqb;TaxonConcept-example-7.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-example-7.jsonld)
 
+</td>
+		</tr>
+	</tbody>
+</table>
+
 ### tcs:accordingTo
 
 <table style="width:100%;">
@@ -269,20 +269,15 @@ By contrast, entries in the nomenclature section of treatments ('TaxonomicNameUs
 			<td>GitHub issue</td>
 			<td>https://github.com/tdwg/tcs2/issues/4</td>
 		</tr>
-	</tbody>
-</table>
+		<tr>
+			<td>Comments</td>
+			<td>Every Taxon Concept is in some sort of treatment and this treatment  provides important context without which we do not know what a taxon name  really means and therefore the `accordingTo` property is required for a TCS  Taxon Concept. In TCS 2, `accordingTo` has to be a reference to some sort  of resource rather than just a person's name. However, TCS is lenient about  the nature of this resource and, apart from references to bibliographic  resources, references to personal communications and determinations are  also acceptable, if there is value in supplying taxon concepts from such  communications as Taxon Concepts.
 
-
-**Comments**
-
-Every Taxon Concept is in some sort of treatment and this treatment  provides important context without which we do not know what a taxon name  really means and therefore the `accordingTo` property is required for a TCS  Taxon Concept. In TCS 2, `accordingTo` has to be a reference to some sort  of resource rather than just a person's name. However, TCS is lenient about  the nature of this resource and, apart from references to bibliographic  resources, references to personal communications and determinations are  also acceptable, if there is value in supplying taxon concepts from such  communications as Taxon Concepts.
-
-The value of `accordingTo` has to be an object or IRI. This object can  contain as little as a bibliographic reference but it is much more useful  to provide it in a format that can be understood by reference managers  such as Zotero or Mendeley.
-
-
-**Examples**
-
-
+The value of `accordingTo` has to be an object or IRI. This object can  contain as little as a bibliographic reference but it is much more useful  to provide it in a format that can be understood by reference managers  such as Zotero or Mendeley.</td>
+		</tr>
+		<tr>
+			<td>Examples</td>
+			<td>
 ```turtle
 # Taxonomic article (object of property only)
 <https://doi.org/10.1080/14772000.2013.806371> a bibo:AcademicArticle ;
@@ -356,6 +351,11 @@ _:b1 a foaf:Person ;
 
 [&lsqb;TaxonConcept-accordingTo-example-3.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-accordingTo-example-3.ttl)&nbsp;[&lsqb;TaxonConcept-accordingTo-example-3.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-accordingTo-example-3.jsonld)
 
+</td>
+		</tr>
+	</tbody>
+</table>
+
 ### tcs:taxonName
 
 <table style="width:100%;">
@@ -388,15 +388,14 @@ _:b1 a foaf:Person ;
 			<td>GitHub issue</td>
 			<td>https://github.com/tdwg/tcs2/issues/2</td>
 		</tr>
+		<tr>
+			<td>Comments</td>
+			<td>The `taxonName` can be anything from a well-formed scientific name to an  informal name, vernacular name, indigenous knowledge label, or even a label  containing numbers and/or special symbols, such as are often used for OTUs. 
+
+The object of `taxonName` is an object or IRI, so that it can be reused in  other Taxon Concepts. TCS has got the Taxon Name class, which can be used  for any type of name, but people are free to use alternatives, e.g.  `skosxl:Label`, if they want to restrict the use of the Taxon Name class to  scientific (or scientific-y) names only.</td>
+		</tr>
 	</tbody>
 </table>
-
-
-**Comments**
-
-The `taxonName` can be anything from a well-formed scientific name to an  informal name, vernacular name, indigenous knowledge label, or even a label  containing numbers and/or special symbols, such as are often used for OTUs. 
-
-The object of `taxonName` is an object or IRI, so that it can be reused in  other Taxon Concepts. TCS has got the Taxon Name class, which can be used  for any type of name, but people are free to use alternatives, e.g.  `skosxl:Label`, if they want to restrict the use of the Taxon Name class to  scientific (or scientific-y) names only.
 
 ### tcs:synonym
 
@@ -430,20 +429,15 @@ The object of `taxonName` is an object or IRI, so that it can be reused in  othe
 			<td>GitHub issue</td>
 			<td>https://github.com/tdwg/tcs2/issues/65</td>
 		</tr>
-	</tbody>
-</table>
+		<tr>
+			<td>Comments</td>
+			<td>A synonym is an alternative label for a taxon, so `synonym`, like `taxonName`, is a relation between a `TaxonConcept` and a `TaxonName`, not a relationship between different taxonomic entities.
 
-
-**Comments**
-
-A synonym is an alternative label for a taxon, so `synonym`, like `taxonName`, is a relation between a `TaxonConcept` and a `TaxonName`, not a relationship between different taxonomic entities.
-
-The terms 'heterotypic synonym' and 'homotypic synonym' from the nomenclatural codes ('subjective synonym' and 'objective synonym', respectively, in the Zoological Code) are, in the context of Taxon Concepts and Taxon Names, best understood as synonyms (relations between Taxon Concepts and Taxon Names) and combinations (relations between Taxon Names), respectively. In TCS, combinations are dealt with using properties of the `TaxonName` class, *e.g.* `basionym` and `replacedName` (note that 'combination' is used here in a broader sense that what the term actually means). This has the advantage that people do not need to separate heterotypic and homotypic synonyms, or generally deal with nomenclature, which adds a degree of complexity that not all systems need or want. Avoiding terms that are too strictly defined in the nomenclatural codes also has the advantage that the term can, in principle, be applied to things that cannot be heterotypic or homotypic synonyms, e.g., to names that are not validly published under the relevant code, or names at different taxonomic ranks than the accepted name, and avoids inappropriate use of the terms defined in the nomenclatural codes.
-
-
-**Examples**
-
-
+The terms 'heterotypic synonym' and 'homotypic synonym' from the nomenclatural codes ('subjective synonym' and 'objective synonym', respectively, in the Zoological Code) are, in the context of Taxon Concepts and Taxon Names, best understood as synonyms (relations between Taxon Concepts and Taxon Names) and combinations (relations between Taxon Names), respectively. In TCS, combinations are dealt with using properties of the `TaxonName` class, *e.g.* `basionym` and `replacedName` (note that 'combination' is used here in a broader sense that what the term actually means). This has the advantage that people do not need to separate heterotypic and homotypic synonyms, or generally deal with nomenclature, which adds a degree of complexity that not all systems need or want. Avoiding terms that are too strictly defined in the nomenclatural codes also has the advantage that the term can, in principle, be applied to things that cannot be heterotypic or homotypic synonyms, e.g., to names that are not validly published under the relevant code, or names at different taxonomic ranks than the accepted name, and avoids inappropriate use of the terms defined in the nomenclatural codes.</td>
+		</tr>
+		<tr>
+			<td>Examples</td>
+			<td>
 ```turtle
 []  a tcs:TaxonConcept ;
     dcterms:title "Dicranoloma blumei sec. Klazenga 1999" ;
@@ -590,6 +584,11 @@ The terms 'heterotypic synonym' and 'homotypic synonym' from the nomenclatural c
 
 [&lsqb;TaxonConcept-synonym-example-3.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-synonym-example-3.ttl)&nbsp;[&lsqb;TaxonConcept-synonym-example-3.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-synonym-example-3.jsonld)
 
+</td>
+		</tr>
+	</tbody>
+</table>
+
 ### tcs:vernacularName
 
 <table style="width:100%;">
@@ -622,18 +621,13 @@ The terms 'heterotypic synonym' and 'homotypic synonym' from the nomenclatural c
 			<td>GitHub issue</td>
 			<td>https://github.com/tdwg/tcs2/issues/10</td>
 		</tr>
-	</tbody>
-</table>
-
-
-**Comments**
-
-The `vernacularName` property can be used when a vernacular name is used alongside a scientific name, which is the `taxonName`. If a vernacular name is the only name, the `taxonName` property should be used. The object of the `vernacularName` property can be a Taxon Name, but another label object, such as the GBIF [Vernacular Name](https://rs.gbif.org/extension/gbif/1.0/vernacularname.xml), might be preferrable, especially if there can be multiple vernacular names for a concept.
-
-
-**Examples**
-
-
+		<tr>
+			<td>Comments</td>
+			<td>The `vernacularName` property can be used when a vernacular name is used alongside a scientific name, which is the `taxonName`. If a vernacular name is the only name, the `taxonName` property should be used. The object of the `vernacularName` property can be a Taxon Name, but another label object, such as the GBIF [Vernacular Name](https://rs.gbif.org/extension/gbif/1.0/vernacularname.xml), might be preferrable, especially if there can be multiple vernacular names for a concept.</td>
+		</tr>
+		<tr>
+			<td>Examples</td>
+			<td>
 ```turtle
 [] a tcs:TaxonConcept ;
     dcterms:title "Graphium macleayanum sec. Orr & Kitching 2010" ;
@@ -705,6 +699,11 @@ The `vernacularName` property can be used when a vernacular name is used alongsi
 
 [&lsqb;TaxonConcept-vernacularName-example-3.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-vernacularName-example-3.ttl)&nbsp;[&lsqb;TaxonConcept-vernacularName-example-3.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-vernacularName-example-3.jsonld)
 
+</td>
+		</tr>
+	</tbody>
+</table>
+
 ### tcs:taxonRank
 
 <table style="width:100%;">
@@ -737,15 +736,14 @@ The `vernacularName` property can be used when a vernacular name is used alongsi
 			<td>GitHub issue</td>
 			<td>https://github.com/tdwg/tcs2/issues/32</td>
 		</tr>
+		<tr>
+			<td>Comments</td>
+			<td>This property takes an object or IRI and it is recommended to use a value from an existing controlled vocabulary. While there is no TDWG vocabulary yet, the GBIF Taxonomic Rank Vocabulary (https://rs.gbif.org/vocabulary/gbif/rank.xml) is recommended.
+
+A `TaxonName` takes its `taxonRank` from the `taxonConcept` it is applied to, so this property can also be used on a (stand-alone) `TaxonName` object.</td>
+		</tr>
 	</tbody>
 </table>
-
-
-**Comments**
-
-This property takes an object or IRI and it is recommended to use a value from an existing controlled vocabulary. While there is no TDWG vocabulary yet, the GBIF Taxonomic Rank Vocabulary (https://rs.gbif.org/vocabulary/gbif/rank.xml) is recommended.
-
-A `TaxonName` takes its `taxonRank` from the `taxonConcept` it is applied to, so this property can also be used on a (stand-alone) `TaxonName` object.
 
 ### tcs:parent
 
@@ -779,18 +777,13 @@ A `TaxonName` takes its `taxonRank` from the `taxonConcept` it is applied to, so
 			<td>GitHub issue</td>
 			<td>https://github.com/tdwg/tcs2/issues/9</td>
 		</tr>
-	</tbody>
-</table>
-
-
-**Comments**
-
-The `parent` is another Taxon Concept. This is the parent as indicated in  the `accordingTo` reference, rather than a third-party classification. The  `accordingTo` of the parent will generally, but not necessarily, be the  same as that of the child. 
-
-
-**Examples**
-
-
+		<tr>
+			<td>Comments</td>
+			<td>The `parent` is another Taxon Concept. This is the parent as indicated in  the `accordingTo` reference, rather than a third-party classification. The  `accordingTo` of the parent will generally, but not necessarily, be the  same as that of the child. </td>
+		</tr>
+		<tr>
+			<td>Examples</td>
+			<td>
 ```turtle
 <https://www.catalogueoflife.org/data/taxon/6DBT> a tcs:TaxonConcept ;
     dcterms:title "Panthera sec. Catalogue of Life 2024-01-24" ;
@@ -834,6 +827,11 @@ The `parent` is another Taxon Concept. This is the parent as indicated in  the `
 
 [&lsqb;TaxonConcept-parent-example-1.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-parent-example-1.ttl)&nbsp;[&lsqb;TaxonConcept-parent-example-1.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-parent-example-1.jsonld)
 
+</td>
+		</tr>
+	</tbody>
+</table>
+
 ### tcs:child
 
 <table style="width:100%;">
@@ -866,13 +864,9 @@ The `parent` is another Taxon Concept. This is the parent as indicated in  the `
 			<td>GitHub issue</td>
 			<td>https://github.com/tdwg/tcs2/issues/232</td>
 		</tr>
-	</tbody>
-</table>
-
-
-**Examples**
-
-
+		<tr>
+			<td>Examples</td>
+			<td>
 ```turtle
 <https://www.catalogueoflife.org/data/taxon/6DBT> a tcs:TaxonConcept ;
     dcterms:title "Panthera sec. Catalogue of Life 2024-01-24" ;
@@ -916,6 +910,11 @@ The `parent` is another Taxon Concept. This is the parent as indicated in  the `
 
 [&lsqb;TaxonConcept-child-example-1.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-child-example-1.ttl)&nbsp;[&lsqb;TaxonConcept-child-example-1.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-child-example-1.jsonld)
 
+</td>
+		</tr>
+	</tbody>
+</table>
+
 ### tcs:isCongruentWith
 
 <table style="width:100%;">
@@ -948,22 +947,17 @@ The `parent` is another Taxon Concept. This is the parent as indicated in  the `
 			<td>GitHub issue</td>
 			<td>https://github.com/tdwg/tcs2/issues/52</td>
 		</tr>
-	</tbody>
-</table>
-
-
-**Comments**
-
-The `isCongruentWith` relation is symmetrical, so if A `isCongruentWith` B then B `isCongruentWith` A, as well as transitive, so if A `isCongruentWith` B and B `isCongruentWith` C it follows that A `isCongruentWith` C.
+		<tr>
+			<td>Comments</td>
+			<td>The `isCongruentWith` relation is symmetrical, so if A `isCongruentWith` B then B `isCongruentWith` A, as well as transitive, so if A `isCongruentWith` B and B `isCongruentWith` C it follows that A `isCongruentWith` C.
 
 ![](../media/taxon-relationship-type-is-congruent-with.jpg)
 
-This relation can also be written as the formula **A &cong; B** or **A == B**.
-
-
-**Examples**
-
-
+This relation can also be written as the formula **A &cong; B** or **A == B**.</td>
+		</tr>
+		<tr>
+			<td>Examples</td>
+			<td>
 ```turtle
 [] a tcs:TaxonConcept ;
     dcterms:title "Aspleniaceae sec. Rothfels & al. 2012" ;
@@ -1067,6 +1061,11 @@ _:b0  a tcs:TaxonConcept ;
 
 [&lsqb;TaxonConceptMapping-isCongruentWith-example-1.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConceptMapping-isCongruentWith-example-1.ttl)&nbsp;[&lsqb;TaxonConceptMapping-isCongruentWith-example-1.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConceptMapping-isCongruentWith-example-1.jsonld)
 
+</td>
+		</tr>
+	</tbody>
+</table>
+
 ### tcs:includes
 
 <table style="width:100%;">
@@ -1099,22 +1098,17 @@ _:b0  a tcs:TaxonConcept ;
 			<td>GitHub issue</td>
 			<td>https://github.com/tdwg/tcs2/issues/53</td>
 		</tr>
-	</tbody>
-</table>
-
-
-**Comments**
-
-The `includes` relation is not symmetric, its inverse relation being `isIncludedIn`, so if A `includes` B then B `isIncludedIn` A. The `includes` relation  is transitive, so if A `includes` B and B `includes` C it follows that A `includes` C.
+		<tr>
+			<td>Comments</td>
+			<td>The `includes` relation is not symmetric, its inverse relation being `isIncludedIn`, so if A `includes` B then B `isIncludedIn` A. The `includes` relation  is transitive, so if A `includes` B and B `includes` C it follows that A `includes` C.
 
 ![](../media/taxon-relationship-type-includes.jpg)
 
-This relation type can also be written as the formula **A > B**.
-
-
-**Examples**
-
-
+This relation type can also be written as the formula **A > B**.</td>
+		</tr>
+		<tr>
+			<td>Examples</td>
+			<td>
 ```turtle
 [] a tcs:TaxonConcept ;
     dcterms:title "Diplaziopsidaceae sec. Rothfels & al. 2012" ;
@@ -1171,6 +1165,11 @@ This relation type can also be written as the formula **A > B**.
 
 [&lsqb;TaxonConceptMapping-includes-example-1.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConceptMapping-includes-example-1.ttl)&nbsp;[&lsqb;TaxonConceptMapping-includes-example-1.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConceptMapping-includes-example-1.jsonld)
 
+</td>
+		</tr>
+	</tbody>
+</table>
+
 ### tcs:isIncludedIn
 
 <table style="width:100%;">
@@ -1203,22 +1202,17 @@ This relation type can also be written as the formula **A > B**.
 			<td>GitHub issue</td>
 			<td>https://github.com/tdwg/tcs2/issues/54</td>
 		</tr>
-	</tbody>
-</table>
-
-
-**Comments**
-
-The `isIncludedIn` relation is not symmetric, its inverse relation being `includes`, so if A `isIncludedIn` B then B `includes` A. The `isIncludedIn` relation  is transitive, so if A `isIncludedIn` B and B `isIncludedIn` C it follows that A `isIncludedIn` C.
+		<tr>
+			<td>Comments</td>
+			<td>The `isIncludedIn` relation is not symmetric, its inverse relation being `includes`, so if A `isIncludedIn` B then B `includes` A. The `isIncludedIn` relation  is transitive, so if A `isIncludedIn` B and B `isIncludedIn` C it follows that A `isIncludedIn` C.
 
 ![](../media/taxon-relationship-type-is-included-in.jpg)
 
-This relation type can also be written as the formula **A < B**.
-
-
-**Examples**
-
-
+This relation type can also be written as the formula **A < B**.</td>
+		</tr>
+		<tr>
+			<td>Examples</td>
+			<td>
 ```turtle
 [] a tcs:TaxonConcept ;
     dcterms:title "Athyriaceae sec. Rothfels & al. 2012" ;
@@ -1314,6 +1308,11 @@ _:b1 a tcs:TaxonConcept ;
 
 [&lsqb;TaxonConceptMapping-isIncludedIn-example-1.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConceptMapping-isIncludedIn-example-1.ttl)&nbsp;[&lsqb;TaxonConceptMapping-isIncludedIn-example-1.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConceptMapping-isIncludedIn-example-1.jsonld)
 
+</td>
+		</tr>
+	</tbody>
+</table>
+
 ### tcs:partiallyOverlaps
 
 <table style="width:100%;">
@@ -1346,22 +1345,17 @@ _:b1 a tcs:TaxonConcept ;
 			<td>GitHub issue</td>
 			<td>https://github.com/tdwg/tcs2/issues/55</td>
 		</tr>
-	</tbody>
-</table>
-
-
-**Comments**
-
-The `partiallyOverlaps` relation is symmetrical, so if A `partiallyOverlaps` B then B `partiallyOverlaps` A, but not transitive, so, if A `partiallyOverlaps` B and B `partiallyOverlaps` C, it does not follow that A `partiallyOverlaps` C.
+		<tr>
+			<td>Comments</td>
+			<td>The `partiallyOverlaps` relation is symmetrical, so if A `partiallyOverlaps` B then B `partiallyOverlaps` A, but not transitive, so, if A `partiallyOverlaps` B and B `partiallyOverlaps` C, it does not follow that A `partiallyOverlaps` C.
 
 ![](../media/taxon-relationship-type-partially-overlaps.jpg)
 
-This relation can also be written as the formula **A >< B**.
-
-
-**Examples**
-
-
+This relation can also be written as the formula **A >< B**.</td>
+		</tr>
+		<tr>
+			<td>Examples</td>
+			<td>
 ```turtle
 [] a tcs:TaxonConcept ;
     dcterms:title "Diplaziopsidaceae sec. Rothfels & al. 2012" ;
@@ -1411,6 +1405,11 @@ This relation can also be written as the formula **A >< B**.
 
 [&lsqb;TaxonConceptMapping-partiallyOverlaps-example-1.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConceptMapping-partiallyOverlaps-example-1.ttl)&nbsp;[&lsqb;TaxonConceptMapping-partiallyOverlaps-example-1.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConceptMapping-partiallyOverlaps-example-1.jsonld)
 
+</td>
+		</tr>
+	</tbody>
+</table>
+
 ### tcs:isDisjointFrom
 
 <table style="width:100%;">
@@ -1443,22 +1442,17 @@ This relation can also be written as the formula **A >< B**.
 			<td>GitHub issue</td>
 			<td>https://github.com/tdwg/tcs2/issues/56</td>
 		</tr>
-	</tbody>
-</table>
-
-
-**Comments**
-
-The `isDisjointFrom`  relation is symmetrical, so if A `isDisjointFrom`  B then B `isDisjointFrom` A, but not transitive, so, if A `isDisjointFrom`  B and B `isDisjointFrom` C, it does not follow that A `isDisjointFrom` C.
+		<tr>
+			<td>Comments</td>
+			<td>The `isDisjointFrom`  relation is symmetrical, so if A `isDisjointFrom`  B then B `isDisjointFrom` A, but not transitive, so, if A `isDisjointFrom`  B and B `isDisjointFrom` C, it does not follow that A `isDisjointFrom` C.
 
 ![](../media/taxon-relationship-type-is-disjoint-from.jpg)
 
-This relation can also be written as the formula **A | B**.
-
-
-**Examples**
-
-
+This relation can also be written as the formula **A | B**.</td>
+		</tr>
+		<tr>
+			<td>Examples</td>
+			<td>
 ```turtle
 [] a tcs:TaxonConcept 
     dcterms:title "Campylopus introflexus sec. Koperski & al. 2000" ; 
@@ -1525,6 +1519,11 @@ This relation can also be written as the formula **A | B**.
 
 [&lsqb;TaxonConceptMapping-isDisjointFrom-example-1.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConceptMapping-isDisjointFrom-example-1.ttl)&nbsp;[&lsqb;TaxonConceptMapping-isDisjointFrom-example-1.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConceptMapping-isDisjointFrom-example-1.jsonld)
 
+</td>
+		</tr>
+	</tbody>
+</table>
+
 ### tcs:intersects
 
 <table style="width:100%;">
@@ -1557,20 +1556,15 @@ This relation can also be written as the formula **A | B**.
 			<td>GitHub issue</td>
 			<td>https://github.com/tdwg/tcs2/issues/57</td>
 		</tr>
-	</tbody>
-</table>
+		<tr>
+			<td>Comments</td>
+			<td>`intersects` is the opposite of `isDisjointFrom` and the union of `isCongruentWith`, `includes`, `isIncludedIn` and `partiallyOverlaps`, meaning it can be any of these relations. This relation can be used when the more precise nature of the relationship is not known.
 
-
-**Comments**
-
-`intersects` is the opposite of `isDisjointFrom` and the union of `isCongruentWith`, `includes`, `isIncludedIn` and `partiallyOverlaps`, meaning it can be any of these relations. This relation can be used when the more precise nature of the relationship is not known.
-
-Quasi-nomenclatural statements like 'pro parte synonym', 'partial synonym' and 'misapplication', are Taxon Concept Mappings, no matter how imperfect, and, in TCS, are best dealt with using the `intersects` relation. In fact, all 'traditional synonymy' relationships, cf. Berendsohn & al. (2000 [\[berendsohn_berlin_2003\]](../bibliography/#berendsohn_berlin_2003)), can be accommodated using `intersects`. Also, citations of references in treatments are, in the context of TCS, best accommodated using the `intersects` relation.
-
-
-**Examples**
-
-
+Quasi-nomenclatural statements like 'pro parte synonym', 'partial synonym' and 'misapplication', are Taxon Concept Mappings, no matter how imperfect, and, in TCS, are best dealt with using the `intersects` relation. In fact, all 'traditional synonymy' relationships, cf. Berendsohn & al. (2000 [\[berendsohn_berlin_2003\]](../bibliography/#berendsohn_berlin_2003)), can be accommodated using `intersects`. Also, citations of references in treatments are, in the context of TCS, best accommodated using the `intersects` relation.</td>
+		</tr>
+		<tr>
+			<td>Examples</td>
+			<td>
 ```turtle
 [] a tcs:TaxonConcept ;
     dcterms:title "Begonia salaziensis sec. Klazenga & al. 1994" ;
@@ -1742,6 +1736,11 @@ Quasi-nomenclatural statements like 'pro parte synonym', 'partial synonym' and '
 
 [&lsqb;TaxonConcept-intersects-example-3.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-intersects-example-3.ttl)&nbsp;[&lsqb;TaxonConcept-intersects-example-3.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-intersects-example-3.jsonld)
 
+</td>
+		</tr>
+	</tbody>
+</table>
+
 ### dwc:scientificName
 
 <table style="width:100%;">
@@ -1836,13 +1835,12 @@ Quasi-nomenclatural statements like 'pro parte synonym', 'partial synonym' and '
 			<td>GitHub issue</td>
 			<td>https://github.com/tdwg/tcs2/issues/6</td>
 		</tr>
+		<tr>
+			<td>Comments</td>
+			<td>This term can be used for taxonomic rank designations that are not in the controlled vocabulary that is used. Implementations can decide for themselves if it makes more sense to use this term on a Taxon Concept object or a Taxon Name object, or both.</td>
+		</tr>
 	</tbody>
 </table>
-
-
-**Comments**
-
-This term can be used for taxonomic rank designations that are not in the controlled vocabulary that is used. Implementations can decide for themselves if it makes more sense to use this term on a Taxon Concept object or a Taxon Name object, or both.
 
 ### dcterms:title
 
@@ -1872,14 +1870,13 @@ This term can be used for taxonomic rank designations that are not in the contro
 			<td>GitHub issue</td>
 			<td>https://github.com/tdwg/tcs2/issues/222</td>
 		</tr>
+		<tr>
+			<td>Comments</td>
+			<td>In TCS `dcterms:title` is used for the taxonomic concept label [\[senderov_openbiodiv-o_2018\]](../bibliography#senderov_openbiodiv-o_2018), which consists of the Taxon Name and a reference to  the publication where the concept is circumscribed, separated by 'sec.',  which stands for 'secundus' ('according to'). It is used to indicate one  specific meaning of a name – a Taxon Concept – rather than the cumulative  nomenclatural and taxonomic legacy associated with the name.
+</td>
+		</tr>
 	</tbody>
 </table>
-
-
-**Comments**
-
-In TCS `dcterms:title` is used for the taxonomic concept label [\[senderov_openbiodiv-o_2018\]](../bibliography#senderov_openbiodiv-o_2018), which consists of the Taxon Name and a reference to  the publication where the concept is circumscribed, separated by 'sec.',  which stands for 'secundus' ('according to'). It is used to indicate one  specific meaning of a name – a Taxon Concept – rather than the cumulative  nomenclatural and taxonomic legacy associated with the name.
-
 
 ## Taxon Concept Mapping
 
@@ -1911,13 +1908,12 @@ In TCS `dcterms:title` is used for the taxonomic concept label [\[senderov_openb
 			<td>GitHub issue</td>
 			<td>https://github.com/tdwg/tcs2/issues/43</td>
 		</tr>
+		<tr>
+			<td>Comments</td>
+			<td>The Taxon Concept Mapping class allows for adding extra data to a taxon concept mapping statement. As it allows for adding an 'according to' to a concept mapping it can be used for third-party mappings. While structurally very similar to the Darwin Core Resource Relationship class, it is different in that instances of the Taxon Concept Mapping class are meaningful as standalone objects.</td>
+		</tr>
 	</tbody>
 </table>
-
-
-**Comments**
-
-The Taxon Concept Mapping class allows for adding extra data to a taxon concept mapping statement. As it allows for adding an 'according to' to a concept mapping it can be used for third-party mappings. While structurally very similar to the Darwin Core Resource Relationship class, it is different in that instances of the Taxon Concept Mapping class are meaningful as standalone objects.
 
 ### tcs:mappingAccordingTo
 
@@ -2021,13 +2017,12 @@ The Taxon Concept Mapping class allows for adding extra data to a taxon concept 
 			<td>GitHub issue</td>
 			<td>https://github.com/tdwg/tcs2/issues/45</td>
 		</tr>
+		<tr>
+			<td>Comments</td>
+			<td>This is the Taxon Concept at the left-hand side of the statement.</td>
+		</tr>
 	</tbody>
 </table>
-
-
-**Comments**
-
-This is the Taxon Concept at the left-hand side of the statement.
 
 ### tcs:objectTaxonConcept
 
@@ -2061,13 +2056,12 @@ This is the Taxon Concept at the left-hand side of the statement.
 			<td>GitHub issue</td>
 			<td>https://github.com/tdwg/tcs2/issues/46</td>
 		</tr>
+		<tr>
+			<td>Comments</td>
+			<td>This is the Taxon Concept at the right-hand side of the statement.</td>
+		</tr>
 	</tbody>
 </table>
-
-
-**Comments**
-
-This is the Taxon Concept at the right-hand side of the statement.
 
 ### dcterms:creator
 
@@ -2097,14 +2091,13 @@ This is the Taxon Concept at the right-hand side of the statement.
 			<td>GitHub issue</td>
 			<td>https://github.com/tdwg/tcs2/issues/47</td>
 		</tr>
+		<tr>
+			<td>Comments</td>
+			<td>`dcterms:creator` can be used in combination with `dcterms:created` as an alternative to `mappingAccordingTo`.
+</td>
+		</tr>
 	</tbody>
 </table>
-
-
-**Comments**
-
-`dcterms:creator` can be used in combination with `dcterms:created` as an alternative to `mappingAccordingTo`.
-
 
 ### dcterms:created
 
@@ -2134,14 +2127,13 @@ This is the Taxon Concept at the right-hand side of the statement.
 			<td>GitHub issue</td>
 			<td>https://github.com/tdwg/tcs2/issues/47</td>
 		</tr>
+		<tr>
+			<td>Comments</td>
+			<td>`dcterms:created` can be used in combination with `dcterms:creator` as an alternative to `mappingAccordingTo`.
+</td>
+		</tr>
 	</tbody>
 </table>
-
-
-**Comments**
-
-`dcterms:created` can be used in combination with `dcterms:creator` as an alternative to `mappingAccordingTo`.
-
 
 ## Taxon Name
 
@@ -2173,18 +2165,13 @@ This is the Taxon Concept at the right-hand side of the statement.
 			<td>GitHub issue</td>
 			<td>https://github.com/tdwg/tcs2/issues/15</td>
 		</tr>
-	</tbody>
-</table>
-
-
-**Comments**
-
-The word 'name' here is taken in its dictionary meaning and not in the sense of a particular nomenclatural code. This means that the Taxon Name class can, in principle, be used for any type of name, not just names that are validly published under the relevant nomenclatural code.
-
-
-**Examples**
-
-
+		<tr>
+			<td>Comments</td>
+			<td>The word 'name' here is taken in its dictionary meaning and not in the sense of a particular nomenclatural code. This means that the Taxon Name class can, in principle, be used for any type of name, not just names that are validly published under the relevant nomenclatural code.</td>
+		</tr>
+		<tr>
+			<td>Examples</td>
+			<td>
 ```turtle
 <urn:lsid:zoobank.org:act:355AAA50-D89F-466E-A216-96B7A17D5AD4> a tcs:TaxonName ;
     tcs:taxonNameString "Carabus nitens" ;
@@ -2233,6 +2220,11 @@ The word 'name' here is taken in its dictionary meaning and not in the sense of 
 
 [&lsqb;TaxonName-example-4.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonName-example-4.ttl)&nbsp;[&lsqb;TaxonName-example-4.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonName-example-4.jsonld)
 
+</td>
+		</tr>
+	</tbody>
+</table>
+
 ### tcs:taxonNameString
 
 <table style="width:100%;">
@@ -2265,13 +2257,12 @@ The word 'name' here is taken in its dictionary meaning and not in the sense of 
 			<td>GitHub issue</td>
 			<td>https://github.com/tdwg/tcs2/issues/16</td>
 		</tr>
+		<tr>
+			<td>Comments</td>
+			<td>The `taxonNameString` property differs from the `scientificName` property  in Darwin Core in that all kinds of names are allowed. Also, in the case of  scientific names, contrary to the `dwc:scientificName`, `taxonNameString`  does not include the authorship. In botanical names, it does include the  rank prefixes for infrageneric and infraspecific epithets as they are  considered part of the name.</td>
+		</tr>
 	</tbody>
 </table>
-
-
-**Comments**
-
-The `taxonNameString` property differs from the `scientificName` property  in Darwin Core in that all kinds of names are allowed. Also, in the case of  scientific names, contrary to the `dwc:scientificName`, `taxonNameString`  does not include the authorship. In botanical names, it does include the  rank prefixes for infrageneric and infraspecific epithets as they are  considered part of the name.
 
 ### tcs:namePublishedIn
 
@@ -2301,13 +2292,12 @@ The `taxonNameString` property differs from the `scientificName` property  in Da
 			<td>GitHub issue</td>
 			<td>https://github.com/tdwg/tcs2/issues/29</td>
 		</tr>
+		<tr>
+			<td>Comments</td>
+			<td>In botany, this would be the protologue. This is the IRI counterpart of  the Darwin Core `namePublishedIn`, which TCS borrows.</td>
+		</tr>
 	</tbody>
 </table>
-
-
-**Comments**
-
-In botany, this would be the protologue. This is the IRI counterpart of  the Darwin Core `namePublishedIn`, which TCS borrows.
 
 ### tcs:microreference
 
@@ -2341,13 +2331,12 @@ In botany, this would be the protologue. This is the IRI counterpart of  the Dar
 			<td>GitHub issue</td>
 			<td>https://github.com/tdwg/tcs2/issues/30</td>
 		</tr>
+		<tr>
+			<td>Comments</td>
+			<td>In taxonomic works it is convention to cite the exact location in a work  where a new name is published. The `microreference` property lets one do  that on the Taxon Name object, so that the `namePublishedIn` reference can  be reused.</td>
+		</tr>
 	</tbody>
 </table>
-
-
-**Comments**
-
-In taxonomic works it is convention to cite the exact location in a work  where a new name is published. The `microreference` property lets one do  that on the Taxon Name object, so that the `namePublishedIn` reference can  be reused.
 
 ### tcs:nomenclaturalCode
 
@@ -2381,13 +2370,12 @@ In taxonomic works it is convention to cite the exact location in a work  where 
 			<td>GitHub issue</td>
 			<td>https://github.com/tdwg/tcs2/issues/33</td>
 		</tr>
+		<tr>
+			<td>Comments</td>
+			<td>This is the IRI equivalent of the Darwin Core `nomenclaturalCode`. In the  absence of a TDWG vocabulary, it is recommended to use a value from the GBIF  Nomenclatural Codes Vocabulary  (https://rs.gbif.org/vocabulary/gbif/nomenclatural_code.xml).</td>
+		</tr>
 	</tbody>
 </table>
-
-
-**Comments**
-
-This is the IRI equivalent of the Darwin Core `nomenclaturalCode`. In the  absence of a TDWG vocabulary, it is recommended to use a value from the GBIF  Nomenclatural Codes Vocabulary  (https://rs.gbif.org/vocabulary/gbif/nomenclatural_code.xml).
 
 ### tcs:nomenclaturalStatus
 
@@ -2421,13 +2409,12 @@ This is the IRI equivalent of the Darwin Core `nomenclaturalCode`. In the  absen
 			<td>GitHub issue</td>
 			<td>https://github.com/tdwg/tcs2/issues/35</td>
 		</tr>
+		<tr>
+			<td>Comments</td>
+			<td>This is the IRI equivalent of the Darwin Core `nomenclaturalStatus`. In the  absence of a TDWG vocabulary, it is recommended to use a value from the GBIF  Nomenclatural Status Vocabulary  (https://rs.gbif.org/vocabulary/gbif/nomenclatural_status.xml).</td>
+		</tr>
 	</tbody>
 </table>
-
-
-**Comments**
-
-This is the IRI equivalent of the Darwin Core `nomenclaturalStatus`. In the  absence of a TDWG vocabulary, it is recommended to use a value from the GBIF  Nomenclatural Status Vocabulary  (https://rs.gbif.org/vocabulary/gbif/nomenclatural_status.xml).
 
 ### tcs:typification
 
@@ -2461,18 +2448,13 @@ This is the IRI equivalent of the Darwin Core `nomenclaturalStatus`. In the  abs
 			<td>GitHub issue</td>
 			<td>https://github.com/tdwg/tcs2/issues/238</td>
 		</tr>
-	</tbody>
-</table>
-
-
-**Comments**
-
-`tcs:typification` is the inverse of `tcs:typifiedName`.
-
-
-**Examples**
-
-
+		<tr>
+			<td>Comments</td>
+			<td>`tcs:typification` is the inverse of `tcs:typifiedName`.</td>
+		</tr>
+		<tr>
+			<td>Examples</td>
+			<td>
 ```turtle
 <https://ipni.org/n/105731-1> a tcs:TaxonName ;
     tcs:taxonNameString "Begonia seychellensis" ;
@@ -2582,6 +2564,11 @@ This is the IRI equivalent of the Darwin Core `nomenclaturalStatus`. In the  abs
 
 [&lsqb;TaxonName-typification-example-2.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonName-typification-example-2.ttl)&nbsp;[&lsqb;TaxonName-typification-example-2.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonName-typification-example-2.jsonld)
 
+</td>
+		</tr>
+	</tbody>
+</table>
+
 ### tcs:typificationLiteral
 
 <table style="width:100%;">
@@ -2614,13 +2601,12 @@ This is the IRI equivalent of the Darwin Core `nomenclaturalStatus`. In the  abs
 			<td>GitHub issue</td>
 			<td>https://github.com/tdwg/tcs2/issues/223</td>
 		</tr>
+		<tr>
+			<td>Comments</td>
+			<td>The `typificationLiteral` property can be used for citation of a type (or types) as written in the publication in which the typified name was published. </td>
+		</tr>
 	</tbody>
 </table>
-
-
-**Comments**
-
-The `typificationLiteral` property can be used for citation of a type (or types) as written in the publication in which the typified name was published. 
 
 ### tcs:basionym
 
@@ -2654,18 +2640,13 @@ The `typificationLiteral` property can be used for citation of a type (or types)
 			<td>GitHub issue</td>
 			<td>https://github.com/tdwg/tcs2/issues/36</td>
 		</tr>
-	</tbody>
-</table>
-
-
-**Comments**
-
-The term `basionym` is in the draft BioCode ([\[greuter_draft_2011\]](../bibliography/#greuter_draft_2011)), so can be used for all organisms. The `basionym` property is only used for new combinations ('comb. nov.'). If the new name is a replacement name ('nom. nov.') the `replacedName` property should be used instead. It should be noted that a basionym is always a different name or combination: a name cannot be its own basionym.
-
-
-**Examples**
-
-
+		<tr>
+			<td>Comments</td>
+			<td>The term `basionym` is in the draft BioCode ([\[greuter_draft_2011\]](../bibliography/#greuter_draft_2011)), so can be used for all organisms. The `basionym` property is only used for new combinations ('comb. nov.'). If the new name is a replacement name ('nom. nov.') the `replacedName` property should be used instead. It should be noted that a basionym is always a different name or combination: a name cannot be its own basionym.</td>
+		</tr>
+		<tr>
+			<td>Examples</td>
+			<td>
 ```turtle
 <https://id.biodiversity.org.au/name/apni/166271> a tcs:TaxonName ;
     rdf:seeAlso <https://www.ipni.org/n/17571690-1> ;
@@ -2702,6 +2683,11 @@ _:b1 a tcs:TaxonName ;
 
 [&lsqb;TaxonName-basionym-example-2.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonName-basionym-example-2.ttl)&nbsp;[&lsqb;TaxonName-basionym-example-2.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonName-basionym-example-2.jsonld)
 
+</td>
+		</tr>
+	</tbody>
+</table>
+
 ### tcs:replacedName
 
 <table style="width:100%;">
@@ -2734,18 +2720,13 @@ _:b1 a tcs:TaxonName ;
 			<td>GitHub issue</td>
 			<td>https://github.com/tdwg/tcs2/issues/37</td>
 		</tr>
-	</tbody>
-</table>
-
-
-**Comments**
-
-'replaced name' is used in the draft BioCode ([\[greuter_draft_2011\]](../bibliography/#greuter_draft_2011)). In the Botanical Code the term 'replaced synonym' is used for the same thing. A 'replacement name' is a name that is published as a substitute for an earlier published name that is either illegitimate or for which a new combination cannot be created in the place a taxon is transferred to because of an older blocking name.
-
-
-**Examples**
-
-
+		<tr>
+			<td>Comments</td>
+			<td>'replaced name' is used in the draft BioCode ([\[greuter_draft_2011\]](../bibliography/#greuter_draft_2011)). In the Botanical Code the term 'replaced synonym' is used for the same thing. A 'replacement name' is a name that is published as a substitute for an earlier published name that is either illegitimate or for which a new combination cannot be created in the place a taxon is transferred to because of an older blocking name.</td>
+		</tr>
+		<tr>
+			<td>Examples</td>
+			<td>
 ```turtle
 <https://www.tropicos.org/name/35183593> a tcs:TaxonName ;
     tcs:taxonNameString "Dicranum bartramianum" ;
@@ -2872,6 +2853,11 @@ _:b1 a tcs:TaxonName ;
 
 [&lsqb;TaxonName-replacedName-example-4.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonName-replacedName-example-4.ttl)&nbsp;[&lsqb;TaxonName-replacedName-example-4.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonName-replacedName-example-4.jsonld)
 
+</td>
+		</tr>
+	</tbody>
+</table>
+
 ### tcs:emendationOf
 
 <table style="width:100%;">
@@ -2939,13 +2925,12 @@ _:b1 a tcs:TaxonName ;
 			<td>GitHub issue</td>
 			<td>https://github.com/tdwg/tcs2/issues/229</td>
 		</tr>
+		<tr>
+			<td>Comments</td>
+			<td>If there are more than two homonyms, the oldest one should be given here. In zoology, this is the _senior homonym_.</td>
+		</tr>
 	</tbody>
 </table>
-
-
-**Comments**
-
-If there are more than two homonyms, the oldest one should be given here. In zoology, this is the _senior homonym_.
 
 ### tcs:conservedAgainst
 
@@ -2979,18 +2964,13 @@ If there are more than two homonyms, the oldest one should be given here. In zoo
 			<td>GitHub issue</td>
 			<td>https://github.com/tdwg/tcs2/issues/39</td>
 		</tr>
-	</tbody>
-</table>
-
-
-**Comments**
-
-A scientific name below the rank of family is not conserved against all  other names, but only against one or more names that in turn are rejected  against the conserved name. A name can be conserved against more than one  other name, so this property is repeatable.
-
-
-**Examples**
-
-
+		<tr>
+			<td>Comments</td>
+			<td>A scientific name below the rank of family is not conserved against all  other names, but only against one or more names that in turn are rejected  against the conserved name. A name can be conserved against more than one  other name, so this property is repeatable.</td>
+		</tr>
+		<tr>
+			<td>Examples</td>
+			<td>
 ```turtle
 <https://www.tropicos.org/name/35000378> a tcs:TaxonName ;
     tcs:taxonNameString "Dicranoloma" ;
@@ -3011,6 +2991,11 @@ A scientific name below the rank of family is not conserved against all  other n
 ```
 
 [&lsqb;TaxonName-conservedAgainst-example-1.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonName-conservedAgainst-example-1.ttl)&nbsp;[&lsqb;TaxonName-conservedAgainst-example-1.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonName-conservedAgainst-example-1.jsonld)
+
+</td>
+		</tr>
+	</tbody>
+</table>
 
 ### tcs:basionymAuthor
 
@@ -3044,13 +3029,12 @@ A scientific name below the rank of family is not conserved against all  other n
 			<td>GitHub issue</td>
 			<td>https://github.com/tdwg/tcs2/issues/239</td>
 		</tr>
+		<tr>
+			<td>Comments</td>
+			<td>`basionymAuthor` (or its literal counterpart) is the bit in parentheses in the `dwc:scientificNameAuthorship`.</td>
+		</tr>
 	</tbody>
 </table>
-
-
-**Comments**
-
-`basionymAuthor` (or its literal counterpart) is the bit in parentheses in the `dwc:scientificNameAuthorship`.
 
 ### tcs:basionymAuthorLiteral
 
@@ -3084,13 +3068,12 @@ A scientific name below the rank of family is not conserved against all  other n
 			<td>GitHub issue</td>
 			<td>https://github.com/tdwg/tcs2/issues/239</td>
 		</tr>
+		<tr>
+			<td>Comments</td>
+			<td>`basionymAuthorLiteral` is the bit in parentheses in the `dwc:scientificNameAuthorship`.</td>
+		</tr>
 	</tbody>
 </table>
-
-
-**Comments**
-
-`basionymAuthorLiteral` is the bit in parentheses in the `dwc:scientificNameAuthorship`.
 
 ### tcs:combinationAuthor
 
@@ -3124,13 +3107,12 @@ A scientific name below the rank of family is not conserved against all  other n
 			<td>GitHub issue</td>
 			<td>https://github.com/tdwg/tcs2/issues/239</td>
 		</tr>
+		<tr>
+			<td>Comments</td>
+			<td>`combinationAuthor` is not quite right for uninomials but we have thought hard about a better term and have come up empty for now.</td>
+		</tr>
 	</tbody>
 </table>
-
-
-**Comments**
-
-`combinationAuthor` is not quite right for uninomials but we have thought hard about a better term and have come up empty for now.
 
 ### tcs:combinationAuthorLiteral
 
@@ -3199,13 +3181,12 @@ A scientific name below the rank of family is not conserved against all  other n
 			<td>GitHub issue</td>
 			<td>https://github.com/tdwg/tcs2/issues/239</td>
 		</tr>
+		<tr>
+			<td>Comments</td>
+			<td>'Ascribed author' is a person (or group of people) who a name is ascribed to in a publication, but who is not the author of the name according to the rules of the nomenclatural codes, because they did not contribute to the validating description of the name. In the `dwc:scientificNameAuthorship` these authors are indicated with 'ex', the ascribed author coming before the 'ex' and the author the name is attributed to after. Note that the 'ex' construction that is sometimes used with zoological names has got nothing to do with attribution or ascription, but is used to indicate a concept, much like we do here with 'sec.' or 'sensu' in taxon concept labels.</td>
+		</tr>
 	</tbody>
 </table>
-
-
-**Comments**
-
-'Ascribed author' is a person (or group of people) who a name is ascribed to in a publication, but who is not the author of the name according to the rules of the nomenclatural codes, because they did not contribute to the validating description of the name. In the `dwc:scientificNameAuthorship` these authors are indicated with 'ex', the ascribed author coming before the 'ex' and the author the name is attributed to after. Note that the 'ex' construction that is sometimes used with zoological names has got nothing to do with attribution or ascription, but is used to indicate a concept, much like we do here with 'sec.' or 'sensu' in taxon concept labels.
 
 ### tcs:basionymAscribedAuthorLiteral
 
@@ -3239,13 +3220,12 @@ A scientific name below the rank of family is not conserved against all  other n
 			<td>GitHub issue</td>
 			<td>https://github.com/tdwg/tcs2/issues/239</td>
 		</tr>
+		<tr>
+			<td>Comments</td>
+			<td>'Ascribed author' is a person (or group of people) who a name is ascribed to in a publication, but who is not the author of the name according to the rules of the nomenclatural codes, because they did not contribute to the validating description of the name. In the `dwc:scientificNameAuthorship` these authors are indicated with 'ex', the ascribed author coming before the 'ex' and the author the name is attributed to after. Note that the 'ex' construction that is sometimes used with zoological names has got nothing to do with attribution or ascription, but is used to indicate a concept, much like we do here with 'sec.' or 'sensu' in taxon concept labels.</td>
+		</tr>
 	</tbody>
 </table>
-
-
-**Comments**
-
-'Ascribed author' is a person (or group of people) who a name is ascribed to in a publication, but who is not the author of the name according to the rules of the nomenclatural codes, because they did not contribute to the validating description of the name. In the `dwc:scientificNameAuthorship` these authors are indicated with 'ex', the ascribed author coming before the 'ex' and the author the name is attributed to after. Note that the 'ex' construction that is sometimes used with zoological names has got nothing to do with attribution or ascription, but is used to indicate a concept, much like we do here with 'sec.' or 'sensu' in taxon concept labels.
 
 ### tcs:combinationAscribedAuthor
 
@@ -3279,13 +3259,12 @@ A scientific name below the rank of family is not conserved against all  other n
 			<td>GitHub issue</td>
 			<td>https://github.com/tdwg/tcs2/issues/239</td>
 		</tr>
+		<tr>
+			<td>Comments</td>
+			<td>'Ascribed author' is a person (or group of people) who a name is ascribed to in a publication, but who is not the author of the name according to the rules of the nomenclatural codes, because they did not contribute to the validating description of the name. In the `dwc:scientificNameAuthorship` these authors are indicated with 'ex', the ascribed author coming before the 'ex' and the author the name is attributed to after. Note that the 'ex' construction that is sometimes used with zoological names has got nothing to do with attribution or ascription, but is used to indicate a concept, much like we do here with 'sec.' or 'sensu' in taxon concept labels.</td>
+		</tr>
 	</tbody>
 </table>
-
-
-**Comments**
-
-'Ascribed author' is a person (or group of people) who a name is ascribed to in a publication, but who is not the author of the name according to the rules of the nomenclatural codes, because they did not contribute to the validating description of the name. In the `dwc:scientificNameAuthorship` these authors are indicated with 'ex', the ascribed author coming before the 'ex' and the author the name is attributed to after. Note that the 'ex' construction that is sometimes used with zoological names has got nothing to do with attribution or ascription, but is used to indicate a concept, much like we do here with 'sec.' or 'sensu' in taxon concept labels.
 
 ### tcs:combinationAscribedAuthorLiteral
 
@@ -3319,13 +3298,12 @@ A scientific name below the rank of family is not conserved against all  other n
 			<td>GitHub issue</td>
 			<td>https://github.com/tdwg/tcs2/issues/239</td>
 		</tr>
+		<tr>
+			<td>Comments</td>
+			<td>'Ascribed author' is a person (or group of people) who a name is ascribed to in a publication, but who is not the author of the name according to the rules of the nomenclatural codes, because they did not contribute to the validating description of the name. In the `dwc:scientificNameAuthorship` these authors are indicated with 'ex', the ascribed author coming before the 'ex' and the author the name is attributed to after. Note that the 'ex' construction that is sometimes used with zoological names has got nothing to do with attribution or ascription, but is used to indicate a concept, much like we do here with 'sec.' or 'sensu' in taxon concept labels.</td>
+		</tr>
 	</tbody>
 </table>
-
-
-**Comments**
-
-'Ascribed author' is a person (or group of people) who a name is ascribed to in a publication, but who is not the author of the name according to the rules of the nomenclatural codes, because they did not contribute to the validating description of the name. In the `dwc:scientificNameAuthorship` these authors are indicated with 'ex', the ascribed author coming before the 'ex' and the author the name is attributed to after. Note that the 'ex' construction that is sometimes used with zoological names has got nothing to do with attribution or ascription, but is used to indicate a concept, much like we do here with 'sec.' or 'sensu' in taxon concept labels.
 
 ### dwc:scientificNameAuthorship
 
@@ -3390,13 +3368,12 @@ A scientific name below the rank of family is not conserved against all  other n
 			<td>GitHub issue</td>
 			<td>https://github.com/tdwg/tcs2/issues/237</td>
 		</tr>
+		<tr>
+			<td>Comments</td>
+			<td>This is the string equivalent of the TCS `namePublishedIn`. It can be used if one wants to give the protologue as a string, as in many botanical publications.</td>
+		</tr>
 	</tbody>
 </table>
-
-
-**Comments**
-
-This is the string equivalent of the TCS `namePublishedIn`. It can be used if one wants to give the protologue as a string, as in many botanical publications.
 
 ### dwc:namePublishedInYear
 
@@ -3638,18 +3615,13 @@ This is the string equivalent of the TCS `namePublishedIn`. It can be used if on
 			<td>GitHub issue</td>
 			<td>https://github.com/tdwg/tcs2/issues/58</td>
 		</tr>
-	</tbody>
-</table>
-
-
-**Comments**
-
-A nomenclatural type fixes the usage of a name to the taxonomic group that  contains the type. One or more Nomenclatural Types make up the typification  of a Taxon Name. In Darwin Core, NomenclaturalType can be used as object  with `dwciri:typeStatus`.
-
-
-**Examples**
-
-
+		<tr>
+			<td>Comments</td>
+			<td>A nomenclatural type fixes the usage of a name to the taxonomic group that  contains the type. One or more Nomenclatural Types make up the typification  of a Taxon Name. In Darwin Core, NomenclaturalType can be used as object  with `dwciri:typeStatus`.</td>
+		</tr>
+		<tr>
+			<td>Examples</td>
+			<td>
 ```turtle
 # Examples from TCS 1
 [] a tcs:NomenclaturalType ;
@@ -3686,6 +3658,11 @@ A nomenclatural type fixes the usage of a name to the taxonomic group that  cont
 
 [&lsqb;NomenclaturalType-example-1.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/NomenclaturalType-example-1.ttl)&nbsp;[&lsqb;NomenclaturalType-example-1.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/NomenclaturalType-example-1.jsonld)
 
+</td>
+		</tr>
+	</tbody>
+</table>
+
 ### tcs:typifiedName
 
 <table style="width:100%;">
@@ -3718,13 +3695,12 @@ A nomenclatural type fixes the usage of a name to the taxonomic group that  cont
 			<td>GitHub issue</td>
 			<td>https://github.com/tdwg/tcs2/issues/59</td>
 		</tr>
+		<tr>
+			<td>Comments</td>
+			<td>The `typifiedName` property links the Nomenclatural Type back to the Taxon  Name. Also, when coming from the Preserved Specimen, the typified name is  the most important piece of information, because there is no point in  knowing what kind of type a specimen is without knowing for what name it  is the type. Therefore, `typifiedName` is a required property.</td>
+		</tr>
 	</tbody>
 </table>
-
-
-**Comments**
-
-The `typifiedName` property links the Nomenclatural Type back to the Taxon  Name. Also, when coming from the Preserved Specimen, the typified name is  the most important piece of information, because there is no point in  knowing what kind of type a specimen is without knowing for what name it  is the type. Therefore, `typifiedName` is a required property.
 
 ### tcs:typeOfType
 
@@ -3758,13 +3734,12 @@ The `typifiedName` property links the Nomenclatural Type back to the Taxon  Name
 			<td>GitHub issue</td>
 			<td>https://github.com/tdwg/tcs2/issues/60</td>
 		</tr>
+		<tr>
+			<td>Comments</td>
+			<td>This is an IRI property. In the absence of a TDWG controlled vocabulary,  it is recommended to use a value from the GBIF Nomenclatural Type Status  Vocabulary (https://rs.gbif.org/vocabulary/gbif/type_status.xml).</td>
+		</tr>
 	</tbody>
 </table>
-
-
-**Comments**
-
-This is an IRI property. In the absence of a TDWG controlled vocabulary,  it is recommended to use a value from the GBIF Nomenclatural Type Status  Vocabulary (https://rs.gbif.org/vocabulary/gbif/type_status.xml).
 
 ### tcs:typeName
 
@@ -3798,13 +3773,12 @@ This is an IRI property. In the absence of a TDWG controlled vocabulary,  it is 
 			<td>GitHub issue</td>
 			<td>https://github.com/tdwg/tcs2/issues/61</td>
 		</tr>
+		<tr>
+			<td>Comments</td>
+			<td>Taxon names at ranks above species level can be typified by the name of a  lower taxon. Ultimately, by following the chain of type names, all names  resolve to a type species and thus a type specimen. </td>
+		</tr>
 	</tbody>
 </table>
-
-
-**Comments**
-
-Taxon names at ranks above species level can be typified by the name of a  lower taxon. Ultimately, by following the chain of type names, all names  resolve to a type species and thus a type specimen. 
 
 ### tcs:typeSpecimen
 
@@ -3838,13 +3812,12 @@ Taxon names at ranks above species level can be typified by the name of a  lower
 			<td>GitHub issue</td>
 			<td>https://github.com/tdwg/tcs2/issues/62</td>
 		</tr>
+		<tr>
+			<td>Comments</td>
+			<td>Names at ranks of species and below are typified by a specimen. This property is mutually exclusive with `typeName`. This is an IRI property. One could use the Darwin Core Preserved Specimen or Material Citation. While a Taxon Name can have more than one type specimens, each of these type specimens requires its own Nomenclatural Type record, so a Nomenclatural Type can have only one `typeSpecimen`.</td>
+		</tr>
 	</tbody>
 </table>
-
-
-**Comments**
-
-Names at ranks of species and below are typified by a specimen. This property is mutually exclusive with `typeName`. This is an IRI property. One could use the Darwin Core Preserved Specimen or Material Citation. While a Taxon Name can have more than one type specimens, each of these type specimens requires its own Nomenclatural Type record, so a Nomenclatural Type can have only one `typeSpecimen`.
 
 ### tcs:typePublishedIn
 
@@ -3878,12 +3851,11 @@ Names at ranks of species and below are typified by a specimen. This property is
 			<td>GitHub issue</td>
 			<td>https://github.com/tdwg/tcs2/issues/63</td>
 		</tr>
+		<tr>
+			<td>Comments</td>
+			<td>`typePublishedIn` is relevant for lectotypes, neotypes, epitypes and  conserved types. For other kinds of type the publication where the type is  designated is the publication the name was published in.</td>
+		</tr>
 	</tbody>
 </table>
-
-
-**Comments**
-
-`typePublishedIn` is relevant for lectotypes, neotypes, epitypes and  conserved types. For other kinds of type the publication where the type is  designated is the publication the name was published in.
 
 <!-- footer -->
