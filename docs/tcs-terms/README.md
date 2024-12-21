@@ -1723,11 +1723,11 @@ nomenclatural data.
 		</tr>
 		<tr>
 			<td>Usage</td>
-			<td><p><code>combinationAuthor</code> is an IRI property. It can be a Person or a Group, or multiple Person IRIs or objects.</p></td>
+			<td><p>A 'combination' is taken here to be a different name with the same basionym.</p></td>
 		</tr>
 		<tr>
 			<td>Comments</td>
-			<td><p><code>combinationAuthor</code> is not quite right for uninomials but we have thought hard about a better term and have come up empty for now.</p></td>
+			<td><p>'Combination' is '</p></td>
 		</tr>
 		<tr>
 			<td>GitHub issue</td>
@@ -1762,7 +1762,7 @@ nomenclatural data.
 		</tr>
 		<tr>
 			<td>Usage</td>
-			<td><p><code>combinationAuthorLiteral</code> is a Literal property.</p></td>
+			<td><p>A 'combination' is taken here to be a different name with the same basionym.</p></td>
 		</tr>
 		<tr>
 			<td>GitHub issue</td>

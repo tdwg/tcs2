@@ -1171,11 +1171,9 @@
   label: Combination author
   definition: Author of the present name
   usage: >-
-    `combinationAuthor` is an IRI property. It can be a Person or a Group, or
-    multiple Person IRIs or objects.
+    A 'combination' is taken here to be a different name with the same basionym.
   notes: >-
-    `combinationAuthor` is not quite right for uninomials but we have thought
-    hard about a better term and have come up empty for now.
+    'Combination' is '
   type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonName
   required: No
@@ -1187,7 +1185,7 @@
   label: Combination author literal
   definition: Author of the present name
   usage: >-
-    `combinationAuthorLiteral` is a Literal property.
+    A 'combination' is taken here to be a different name with the same basionym.
   notes: null
   type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonName
