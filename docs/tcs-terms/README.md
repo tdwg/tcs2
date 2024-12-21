@@ -1727,7 +1727,7 @@ nomenclatural data.
 		</tr>
 		<tr>
 			<td>Comments</td>
-			<td><p>'combination' is taken here to be a different name with the same basionym.</p></td>
+			<td><p>'combination' is taken here to be a different name with the same nomenclatural type.</p></td>
 		</tr>
 		<tr>
 			<td>GitHub issue</td>
@@ -1766,7 +1766,7 @@ nomenclatural data.
 		</tr>
 		<tr>
 			<td>Comments</td>
-			<td><p>'combination' is taken here to be a different name with the same basionym.</p></td>
+			<td><p>'combination' is taken here to be a different name with the same nomenclatural type.</p></td>
 		</tr>
 		<tr>
 			<td>GitHub issue</td>

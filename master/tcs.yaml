@@ -1174,7 +1174,8 @@
     `combinationAuthor` is an IRI property. It can be a Person or a Group, or
     multiple Person IRIs or objects.
   notes: >-
-    'combination' is taken here to be a different name with the same basionym.
+    'combination' is taken here to be a different name with the same
+    nomenclatural type.
   type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonName
   required: No
@@ -1188,7 +1189,8 @@
   usage: >-
     `combinationAuthorLiteral` is a Literal property.
   notes: >-
-    'combination' is taken here to be a different name with the same basionym.
+    'combination' is taken here to be a different name with the same
+    nomenclatural type.
   type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonName
   required: No
