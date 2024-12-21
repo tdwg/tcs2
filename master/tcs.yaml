@@ -1169,11 +1169,12 @@
 # property: combinationAuthor
 - localName: combinationAuthor
   label: Combination author
-  definition: Author of the present name
+  definition: Author of the combination
   usage: >-
-    A 'combination' is taken here to be a different name with the same basionym.
+    `combinationAuthor` is an IRI property. It can be a Person or a Group, or
+    multiple Person IRIs or objects.
   notes: >-
-    'Combination' is '
+    'combination' is taken here to be a different name with the same basionym.
   type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonName
   required: No
@@ -1183,10 +1184,11 @@
 # property: combinationAuthorLiteral
 - localName: combinationAuthorLiteral
   label: Combination author literal
-  definition: Author of the present name
+  definition: Author of the combination
   usage: >-
-    A 'combination' is taken here to be a different name with the same basionym.
-  notes: null
+    `combinationAuthorLiteral` is a Literal property.
+  notes: >-
+    'combination' is taken here to be a different name with the same basionym.
   type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonName
   required: No
