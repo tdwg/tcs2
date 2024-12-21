@@ -1048,6 +1048,27 @@
         `originalNameUsage` can be a `replacedName` or a `basionym` or any older
         name with the same type. Also note that `originalNameUsage` is a string.
 
+# property: basedOn
+- localName: basedOn
+  label: Based on
+  definition: >-
+    Earlier name on which this name is based
+  usage: >-
+    `basedOn` is another Taxon Name; a Taxon Name can have only one `basedOn`.
+    The term should only be used in situations where the semantically more
+    meaningful `basionym` and `replacedName` cannot be used.
+  notes: >-
+    The `basedOn` property can be used to associate a name to a homotypic group
+    of names in situations where the `basionym` and `replacedName` properties
+    cannot be used. Therefore the property can be useful for (1) linking an
+    autonym to a species name, (2) linking a valid name to an earlier invalid
+    name and (3) linking an invalid name to a later valid name.
+  type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+  organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonName
+  required: No
+  repeatable: No
+  github: 38
+
 # property: emendationOf
 - localName: emendationOf
   label: Emendation of
