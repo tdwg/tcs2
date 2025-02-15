@@ -14,7 +14,7 @@
 
 **Contributors**: Niels Klazenga, Greg Whitbread, Vijay Barve, Thierry Bourgoin,
 Markus Döring, Anne Fuchs, Jeff Gerbracht, Johan Liljeblad, Carlos Martínez
-Muñoz, William Ulate, Cam Webb 
+Muñoz, Mieke Strong, William Ulate, Cam Webb 
 
 **Creator**: TDWG Taxon Concept Schema (TCS) 2 Task Group
 
