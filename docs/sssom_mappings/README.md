@@ -236,13 +236,6 @@
 | skos:exactMatch | http://rs.tdwg.org/ontology/voc/TaxonName#ReplacementNameFor |  |
 | skos:broadMatch | http://rs.tdwg.org/dwc/terms/originalNameUsage | `originalNameUsage` can be a `replacedName` or a `basionym` or any older name with the same type. Also note that `originalNameUsage` is a string. |
 
-### tcs:emendationOf
-
-| predicate | IRI or XPATH | remarks |
-|-|-|-|
-| skos:exactMatch | /DataSet/TaxonNames/TaxonName/SpellingCorrectionOf |  |
-| skos:exactMatch | http://rs.tdwg.org/ontology/voc/TaxonName#SpellingCorrection |  |
-
 ### tcs:laterHomonymOf
 
 | predicate | IRI or XPATH | remarks |

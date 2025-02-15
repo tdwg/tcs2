@@ -1069,25 +1069,6 @@
   repeatable: No
   github: 38
 
-# property: emendationOf
-- localName: emendationOf
-  label: Emendation of
-  definition: >-
-    Name for which this name is an emendation
-  usage: >-
-    `emendationOf` is another Taxon Name object
-  notes:
-  type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
-  organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonName
-  required: No
-  repeatable: No
-  github: 224
-  mappings:
-    - predicate: "skos:exactMatch"
-      iri: /DataSet/TaxonNames/TaxonName/SpellingCorrectionOf
-    - predicate: "skos:exactMatch"
-      iri: "tn:SpellingCorrection"
-
 # property: laterHomonymOf
 - localName: laterHomonymOf
   label: Later homonym of
