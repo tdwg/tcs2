@@ -1,4 +1,4 @@
-# Taxon Concept Standard
+# The Taxon Concept Standard (TCS)
 
 ![](./media/tcs-diagram.drawio.svg)
 
