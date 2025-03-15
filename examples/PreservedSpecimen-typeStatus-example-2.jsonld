@@ -1,0 +1,126 @@
+{
+  "@context": [
+    "https://raw.githubusercontent.com/tdwg/tcs2/master/examples/context.jsonld",
+    {
+      "dsw": "http://purl.org/dsw/",
+      "dwciri": "http://rs.tdwg.org/dwc/iri/"
+    }
+  ],
+  "@graph": [
+    {
+      "id": "https://specify.rbg.vic.gov.au/specify/view/collectionobject/739393",
+      "type": "dwc:PreservedSpecimen",
+      "dwc:catalogNumber": "MEL 0227036A",
+      "dsw:evidenceFor": {
+        "id": "https://avh.ala.org.au/occurrences/78ba3182-76a4-4fcd-a231-d657acf3d347",
+        "type": "dwc:Occurrence",
+        "dwciri:recordedBy": {
+          "id": "http://www.wikidata.org/entity/Q2589989",
+          "type": "foaf:Person",
+          "foaf:givenName": "James",
+          "foaf:surname": "Drummond"
+        },
+        "dwc:recordNumber": "722",
+        "dwciri:atEvent": {
+          "type": "dwc:Event",
+          "dwc:eventDate": "1829/1863",
+          "dwciri:inDescribedPlace": {
+            "type": "dcterms:Location",
+            "dwc:country": "Australia",
+            "dwc:stateOrProvince": "Western Australia",
+            "dwc:verbatimLocality": "Swan River"
+          }
+        },
+        "dsw:hasEvidence": [
+          { "id": "https://specify.rbg.vic.gov.au/specify/view/collectionobject/739393" },
+          { "id": "http://specimens.kew.org/herbarium/K001096706" },
+          { "id": "http://specimens.kew.org/herbarium/K001096705" },
+          { "id": "_:BM000050758" }
+        ]
+      },
+      "dws:isBasisForId": {
+        "type": "dwc:Identification",
+        "dwciri:toTaxon": { 
+          "id": "https://id.biodiversity.org.au/instance/apni/698961",
+          "dcterms:title": "Stenanthemum coronatum sec. Australian Plant Census 2011",
+          "taxonName": {
+            "id": "https://www.ipni.org/n/718981-1",
+            "type": "TaxonName",
+            "taxonNameString": "Stenanthemum coronatum",
+            "dwc:scienctificNameAuthorship": "(Reissek) Reissek",
+            "dwc:namePublishedIn": "Linnaea 29: 295",
+            "dwc:namePublishedInYear": "1858",
+            "basionym": "https://www.ipni.org/n/717216-1"
+          },
+          "accordingTo": "https://id.biodiversity.org.au/reference/apni/49840"
+        },
+        "dwciri:identifiedBy": { "id": "https://orcid.org/0000-0001-9124-9802" },
+        "dwc:dateIdentified": "2024-04-12"
+      },
+      "dwciri:typeStatus": {
+        "type": "NomenclaturalType",
+        "typifiedName": {
+          "id": "https://www.ipni.org/n/717216-1",
+          "type": "TaxonName",
+          "taxonNameString": "Cryptandra coronata",
+          "dwc:scienctificNameAuthorship": "Pl. Preiss. [J.G.C.Lehmann] 2(2-3): 288",
+          "dwc:namePublishedInYear": "1848"
+        },
+        "typeOfType": "lectotype"
+      }
+    },
+    {
+      "id": "http://specimens.kew.org/herbarium/K001096706",
+      "type": "dwc:PreservedSpecimen",
+      "dwc:catalogNumber": "K001096706",
+      "dsw:evidenceFor": { "id": "https://avh.ala.org.au/occurrences/78ba3182-76a4-4fcd-a231-d657acf3d347" },
+      "dws:isBasisForId": {
+        "type": "dwc:Identification",
+        "dwciri:toTaxon": { "id": "https://id.biodiversity.org.au/instance/apni/698961" },
+        "dwciri:identifiedBy": {
+          "id": "https://orcid.org/0000-0001-9124-9802",
+          "type": "foaf:Person",
+          "foaf:givenName": "Jürgen",
+          "foaf:surname": "Kellermann"
+        }
+      },
+      "dwciri:typeStatus": {
+        "type": "NomenclaturalType",
+        "typifiedName": "https://www.ipni.org/n/717216-1",
+        "typeOfType": "isolectotype"
+      }
+    },
+    {
+      "id": "http://specimens.kew.org/herbarium/K001096705",
+      "type": "dwc:PreservedSpecimen",
+      "dwc:catalogNumber": "K001096705",
+      "dsw:evidenceFor": { "id": "https://avh.ala.org.au/occurrences/78ba3182-76a4-4fcd-a231-d657acf3d347" },
+      "dws:isBasisForId": {
+        "type": "dwc:Identification",
+        "dwciri:toTaxon": { "id": "https://id.biodiversity.org.au/instance/apni/698961" },
+        "dwciri:identifiedBy": { "id": "https://orcid.org/0000-0001-9124-9802" }
+      },
+      "dwciri:typeStatus": {
+        "type": "NomenclaturalType",
+        "typifiedName": "https://www.ipni.org/n/717216-1",
+        "typeOfType": "isolectotype"
+      }
+    },
+    {
+      "id": "_:BM000050758",
+      "type": "dwc:PreservedSpecimen",
+      "dwc:catalogNumber": "BM000050758",
+      "dsw:evidenceFor": { "id": "https://avh.ala.org.au/occurrences/78ba3182-76a4-4fcd-a231-d657acf3d347" },
+      "dws:isBasisForId": {
+        "type": "dwc:Identification",
+        "dwciri:toTaxon": { "id": "https://id.biodiversity.org.au/instance/apni/698961" },
+        "dwciri:identifiedBy": { "id": "https://orcid.org/0000-0001-9124-9802" }
+      },
+      "dwciri:typeStatus": {
+        "type": "NomenclaturalType",
+        "typifiedName":  { "id": "https://www.ipni.org/n/717216-1" },
+        "typeOfType": "isolectotype"
+      }
+    }
+  ]
+}

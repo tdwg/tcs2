@@ -1,0 +1,71 @@
+{
+  "@context": [
+    "https://raw.githubusercontent.com/tdwg/tcs2/master/examples/context.jsonld",
+    {
+      "dsw": "http://purl.org/dsw/",
+      "dwciri": "http://rs.tdwg.org/dwc/iri/"
+    }
+  ],
+  "@graph": [
+    {
+      "id": "https://specify.rbg.vic.gov.au/specify/view/collectionobject/51589",
+      "type": "dwc:PreservedSpecimen",
+      "dwc:catalogNumber": "MEL 0687503A",
+      "dsw:evidenceFor": { 
+        "id": "https://avh.ala.org.au/occurrences/f121f99a-5b02-4f7b-9d57-bb2718c0c7de",
+        "type": "dwc:Occurrence",
+        "dwciri:recordedBy": {
+          "type": "foaf:Person",
+          "foaf:givenName": "Murray Ian Hill",
+          "foaf:surname": "Brooker"
+        },
+        "dwc:recordNumber": "8969",
+        "dsw:atEvent": {
+          "dwc:eventDate": "1985-05-01",
+          "dwciri:inDescribedPlace": {
+            "type": "dcterms:Location",
+            "dwc:country": "Australia",
+            "dwc:stateOrProvince": "Queensland",
+            "dwc:verbatimLocality": "10 km NE of Pentland",
+            "dwc:verbatimLatitude": "20° 28' S",
+            "dwc:verbatimLongitude": "145° 29' E",
+            "dwc:decimalLatitude": -20.46670,
+            "dwc:decimalLongitude": 145.48330,
+            "dwc:coordinatePrecision": 0.01667,
+            "dwc:coordinateUncertaintyInMeters": 1000,
+            "dwciri:geodeticDatum": { "id": "https://epsg.io/4326" }
+          }
+        },
+        "dsw:hasEvidence": { "id": "https://specify.rbg.vic.gov.au/specify/view/collectionobject/51589" }
+      },
+      "dsw:isBasisForId": {
+        "type": "dwc:Identification",
+        "dwciri:toTaxon": { 
+          "id": "https://id.biodiversity.org.au/instance/apni/612750",
+          "type": "TaxonConcept",
+          "dcterms:title": "Eucalyptus crebra sec. Australian Plant Census 2006",
+          "taxonName": {
+            "id": "https://www.ipni.org/n/592841-1",
+            "type": "TaxonName",
+            "taxonNameString": "Eucalyptus crebra",
+            "dwc:scientificNameAuthorship": "F.Muel.",
+            "dwc:namePublishedIn": "J. Proc. Linn. Soc., Bot. 3: 87",
+            "dwc:namePublishedInYear": "1858"
+          }
+        }
+      },
+      "dwciri:typeStatus": {
+        "type": "NomenclaturalType",
+        "typeOfType": "isolectotype",
+        "typifiedName": {
+          "id": "https://www.ipni.org/n/933707-1",
+          "type": "TaxonName",
+          "taxonNameString": "Eucalyptus xanthoclada",
+          "dwc:scientificNameAuthorship": "Brooker & A.R.Bean",
+          "dwc:namePublishedIn": "Brunonia 10(2): 193",
+          "dwc:namePublishedInYear": "1987"
+        }
+      }
+    }
+  ]
+}

@@ -66,13 +66,52 @@ With embedded Taxon Concept Mappings:
 [TurTLe](https://github.com/tdwg/tcs2/blob/master/examples/megalorhipida-leucodactylus-sec-gielis-et-hobern-2020.ttl) |
 [JSON-LD](https://github.com/tdwg/tcs2/blob/master/examples/megalorhipida-leucodactylus-sec-gielis-et-hobern-2020.jsonld)
 
-### Specimen of Salix arbusculoides sec. Argus 1973 in the University of Alaska Museum of the North (ALA)
 
-This example shows how TCS can be used in combination with Darwin Core in 
-occurrence data. The Identification cites a Taxon Concept. 
+## Interface with occurrence/specimen data 
 
-[TurTLe](https://github.com/tdwg/tcs2/blob/master/examples/uam-herb-86707.ttl)
-[JSON-LD](https://github.com/tdwg/tcs2/blob/master/examples/uam-herb-86707.jsonld)
+TCS interfaces with Darwin Core occurrence data through identifications and nomenclatural type designations.
+
+### Identifications
+
+Taxon concepts are related to identifications through the `dwciri:toTaxon`
+property on the `dwc:Identification`. 
+
+Identification-toTaxon-example-1: [TurTLe](https://github.com/tdwg/tcs2/blob/master/examples/Identification-toTaxon-example-1.ttl) |
+[JSON-LD](https://github.com/tdwg/tcs2/blob/master/examples/Identification-toTaxon-example-1.jsonld)
+
+### Nomenclatural types
+
+In the following examples we link a `tcs:NomenclaturalType` to a
+`dwc:PreservedSpecimen` with the `dwciri:typeStatus` property, which we consider
+the inverse of the `tcs:typeSpecimen` property of the `tcs:NomenclaturalType`.
+Elsewhere, e.g. in the [Rhododendron subg. penthantera example from TCS
+1](https://github.com/tdwg/tcs2/blob/master/examples/rhododendron-subg-pentanthera.ttl#L178-L187),
+we also use the `dwc:MaterialCitation` class in relation to nomenclatural types,
+but only as the object of `tcs:typeSpecimen`, so as part of the typification of
+a name, and never with `dcw:typeStatus` as the type status of a specimen.
+
+PreservedSpecimen-typeStatus-example-1:
+[TurTLe](https://github.com/tdwg/tcs2/blob/master/examples/PreservedSpecimen-typeStatus-example-1.ttl)
+|
+[JSON-LD](https://github.com/tdwg/tcs2/blob/master/examples/PreservedSpecimen-typeStatus-example-1.jsonld)
+
+PreservedSpecimen-typeStatus-example-2:
+[TurTLe](https://github.com/tdwg/tcs2/blob/master/examples/PreservedSpecimen-typeStatus-example-2.ttl)
+|
+[JSON-LD](https://github.com/tdwg/tcs2/blob/master/examples/PreservedSpecimen-typeStatus-example-2.jsonld)
+
+PreservedSpecimen-typeStatus-example-3:
+[TurTLe](https://github.com/tdwg/tcs2/blob/master/examples/PreservedSpecimen-typeStatus-example-3.ttl)
+|
+[JSON-LD](https://github.com/tdwg/tcs2/blob/master/examples/PreservedSpecimen-typeStatus-example-3.jsonld)
+
+PreservedSpecimen-typeStatus-example-4:
+[TurTLe](https://github.com/tdwg/tcs2/blob/master/examples/PreservedSpecimen-typeStatus-example-4.ttl)
+|
+[JSON-LD](https://github.com/tdwg/tcs2/blob/master/examples/PreservedSpecimen-typeStatus-example-4.jsonld)
+
+
+
 
 
 

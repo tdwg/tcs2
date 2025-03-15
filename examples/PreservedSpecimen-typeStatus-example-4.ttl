@@ -1,0 +1,65 @@
+@prefix tcs: <http://rs.tdwg.org/tcs/terms/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dwc: <http://rs.tdwg.org/dwc/terms/> .
+@prefix dsw: <http://purl.org/dsw/> .
+@prefix dwciri: <http://rs.tdwg.org/dwc/iri/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<https://specify.rbg.vic.gov.au/specify/view/collectionobject/313208> a dwc:PresrvedSpecimen ;
+    dwc:catalogNumber "MEL 1516494A" ;
+    dsw:evidenceFor <https://avh.ala.org.au/occurrences/794ef2b7-956e-44e5-9321-cbe9553d6057> ;
+    dsw:isBasisForId [ a dwc:Identification ;
+            dwciri:toTaxon <https://id.biodiversity.org.au/instance/apni/683275> ;
+            dwciri:identifiedBy <http://www.wikidata.org/entity/Q5925767> ;
+            dwc:dateIdentified "1980-03-24" ] ;
+    dwciri:typeStatus [ a tcs:NomenclaturalType ;
+            tcs:typifiedName <https://www.ipni.org/n/520357-1> ;
+            tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/syntype> ] . 
+
+<https://avh.ala.org.au/occurrences/794ef2b7-956e-44e5-9321-cbe9553d6057> a dwc:Occurrence ;
+    dwciri:recordedBy <http://www.wikidata.org/entity/Q16065577> ;
+    dwc:recordNumber "88" ;
+    dsw:atEvent [ a dwc:Event ;
+            dwc:eventDate "1852/1862" ;
+            dwciri:inDescribedPlace [ a dcterms:Location ;
+                    dwc:country "Australia" ;
+                    dwc:stateOrProvince "Victoria" ;
+                    dwc:verbatimLocality "Between Mount Arapiles and Lake Hindmarsh" ;
+                    dwc:locality "Mount Arapiles" ;
+                    dwc:verbatimLatitude "36° 45' S" ;
+                    dwc:verbatimLongitude "141° 50' E" ;
+                    dwc:decimalLatitude -36.75000 ;
+                    dwc:decimalLongitude 141.83330 ;
+                    dwc:coordinatePrecision 0.01677 ;
+                    dwc:coordinateUncertaintyInMeters 25000 ;
+                    dwciri:geodeticDatum <https://epsg.io/4326> ] ] .
+
+<http://www.wikidata.org/entity/Q5925767> a foaf:Person ;
+    foaf:givenName "James Henderson" ;
+    foaf:surname "Ross" .
+
+<http://www.wikidata.org/entity/Q16065577> a foaf:Person ;
+    foaf:givenName "John" ;
+    foaf:surname "Dallachy" .
+
+<https://id.biodiversity.org.au/instance/apni/683275> a tcs:TaxonConcept ;
+    dcterms:title "Templetonia stenophylla sec. Ross 1996" ;
+    tcs:taxonName <https://www.ipni.org/n/520361-1> ;
+    tcs:accordingTo <https://id.biodiversity.org.au/reference/apni/50798> .
+
+
+<https://www.ipni.org/n/520361-1> a tcs:TaxonName ;
+    tcs:taxonNameString "Templetonia stenophylla" ;
+    dwc:scientificNameAuthorship "(F.Muell.) J.M.Black" ;
+    dwc:namePublishedIn "Fl. S. Austral. 304" ;
+    dwc:namePublishedInYear "1924" .
+
+<https://www.ipni.org/n/520357-1> a tcs:TaxonName ;
+    tcs:taxonNameString "Templetonia muelleri" ;
+    dwc:scientificNameAuthorship "Benth." ;
+    dwc:namePublishedIn "Fl. Austral. 2: 169" ;
+    dwc:namePublishedInYear "1864" ;
+    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/superfluum> ;
+    rdfs:comment "Templestonia muelleri Benth. includes the type of Bossiaea stenophylla F.Muell." .
+
