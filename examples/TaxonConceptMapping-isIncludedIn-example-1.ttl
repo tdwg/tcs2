@@ -8,9 +8,9 @@
     tcs:mappingRelation tcs:isIncludedIn ;
     tcs:subjectTaxonConcept [ a tcs:TaxonConcept ;
         dcterms:title "Andropogon hirsutior sec. BONAP 2014" ;
-        tcs:taxonName <https://www.ipni.org/n/60458078-2> ;
+        tcs:taxonName <https://ipni.org/n/60458078-2> ;
         tcs:accordingTo <http://bonap.net/napa#2014> ] ;
     tcs:objectTaxonConcept [ a tcs:TaxonConcept ;
         dcterms:title "Andropogon glomeratus sec. Weakley 2006" ;
-        tcs:taxonName <https://www.ipni.org/n/12850-2> ;
+        tcs:taxonName <https://ipni.org/n/12850-2> ;
         tcs:accordingTo <http://www.herbarium.unc.edu/FloraArchives/WeakleyFlora_2006-Jan.pdf> ] .

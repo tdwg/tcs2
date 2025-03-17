@@ -12,8 +12,8 @@
 <https://id.biodiversity.org.au/instance/apni/545068> a tcs:TaxonConcept ;
     dcterms:title "Euphrasia gibbsiae sec. Barker 1982" ;
     tcs:accordingTo <https://www.jstor.org/stable/23873848> ;
-    tcs:taxonName <https://www.ipni.org/n/802545-1> ;
-    tcs:synonym <https://www.ipni.org/n/802619-1> ;
+    tcs:taxonName <https://ipni.org/n/802545-1> ;
+    tcs:synonym <https://ipni.org/n/802619-1> ;
     tcs:intersects [ rdf:value <https://id.biodiversity.org.au/instance/apni/713514> ;
             rdfs:comment "p.p. (as to Tasmanian occurrences and f. subglabrifolia in Victoria)" ] ,
         _:tc1 ,
@@ -37,85 +37,85 @@
 <https://id.biodiversity.org.au/instance/apni/713514> a tcs:TaxonConcept ;
     dcterms:title "Euphrasia gibbsiae sec. Curtis 1967" ;
     tcs:accordingTo <https://id.biodiversity.org.au/reference/apni/23028> ;
-    tcs:taxonName <https://www.ipni.org/n/802545-1> .
+    tcs:taxonName <https://ipni.org/n/802545-1> .
 
 _:tc1 a tcs:TaxonConcept ;
     dcterms:title "Euphrasia gibbsiae sec. Willis 1967" ;
     tcs:accordingTo _:ref1 ;
-    tcs:taxonName <https://www.ipni.org/n/802545-1> .
+    tcs:taxonName <https://ipni.org/n/802545-1> .
 
 _:tc2 a tcs:TaxonConcept ;
     dcterms:title "Euphrasia gibbsiae sec. Cochrane & al. 1968" ;
     tcs:accordingTo _:ref2 ;
-    tcs:taxonName <https://www.ipni.org/n/802545-1> .
+    tcs:taxonName <https://ipni.org/n/802545-1> .
 
 _:tc3 a tcs:TaxonConcept ;
     dcterms:title "Euphrasia gibbsiae sec. Harris 1970" ;
     tcs:accordingTo _:ref3 ;
-    tcs:taxonName <https://www.ipni.org/n/802545-1> .
+    tcs:taxonName <https://ipni.org/n/802545-1> .
 
 _:tc4 a tcs:TaxonConcept ;
     dcterms:title "Euphrasia gibbsiae sec. Willis 1973" ;
     tcs:accordingTo _:ref4 ;
-    tcs:taxonName <https://www.ipni.org/n/802545-1> .
+    tcs:taxonName <https://ipni.org/n/802545-1> .
 
 _:tc5 a tcs:TaxonConcept ;
     dcterms:title "Euphrasia gibbsiae sec. Stones & Curtis 1978" ;
     tcs:accordingTo _:ref5 ;
-    tcs:taxonName <https://www.ipni.org/n/802545-1> .
+    tcs:taxonName <https://ipni.org/n/802545-1> .
 
 _:tc6 a tcs:TaxonConcept ;
     dcterms:title "Euphrasia kingii sec. Curtis 1967" ;
     tcs:accordingTo <https://id.biodiversity.org.au/reference/apni/23028> ;
-    tcs:taxonName <https://www.ipni.org/n/802619-1> .
+    tcs:taxonName <https://ipni.org/n/802619-1> .
 
 _:tc7 a tcs:TaxonConcept ;
     dcterms:title "Euphrasia kingii sec. Stones & Curtis 1978" ;
     tcs:accordingTo _:ref5 ;
-    tcs:taxonName <https://www.ipni.org/n/802619-1> .
+    tcs:taxonName <https://ipni.org/n/802619-1> .
 
 _:tc8 a tcs:TaxonConcept ;
     dcterms:title "Euphrasia brownii sec. Mueller 1865" ;
     tcs:accordingTo _:ref6 ;
-    tcs:taxonName <https://www.ipni.org/n/124446-3> .
+    tcs:taxonName <https://ipni.org/n/124446-3> .
 
 _:tc9 a tcs:TaxonConcept ;
     dcterms:title "Euphrasia striata sec. Bentham 1868" ;
     tcs:accordingTo _:ref7 ;
-    tcs:taxonName <https://www.ipni.org/n/802876-1> .
+    tcs:taxonName <https://ipni.org/n/802876-1> .
 
 _:tc10 a tcs:TaxonConcept ;
     dcterms:title "Euphrasia striata sec. Wettstein 1896" ;
     tcs:accordingTo _:ref8 ;
-    tcs:taxonName <https://www.ipni.org/n/802876-1> .
+    tcs:taxonName <https://ipni.org/n/802876-1> .
 
 _:tc11 a tcs:TaxonConcept ;
     dcterms:title "Euphrasia collina sec. Wettstein 1896" ;
     tcs:accordingTo _:ref8 ;
-    tcs:taxonName <https://www.ipni.org/n/802451-1> .
+    tcs:taxonName <https://ipni.org/n/802451-1> .
 
 
-<https://www.ipni.org/n/802545-1> a tcs:TaxonName ;
+<https://ipni.org/n/802545-1> a tcs:TaxonName ;
     tcs:taxonNameString "Euphrasia gibbsiae" ;
     dwc:scientificNameAuthorship "Du Rietz" ;
     tcs:namePublishedIn _:refdcc6da69a323c681 .
 
-<https://www.ipni.org/n/802619-1> a tcs:TaxonName ;
+<https://ipni.org/n/802619-1> a tcs:TaxonName ;
     tcs:taxonNameString "Euphrasia kingii" ;
     dwc:scientificNameAuthorship "W.M.Curtis" ;
     tcs:namePublishedIn <https://id.biodiversity.org.au/reference/apni/23028>.
 
-<https://www.ipni.org/n/124446-3> a tcs:TaxonName ;
+<https://ipni.org/n/124446-3> a tcs:TaxonName ;
     tcs:taxonNameString "Euphrasia brownii" ;
     dwc:scientificNameAuthorship "F.Muell." ;
     tcs:namePublishedIn _:ref3fa574ead9183735 ;
     tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/illegitimum> .
 
-<https://www.ipni.org/n/802876-1> a tcs:TaxonName ;
+<https://ipni.org/n/802876-1> a tcs:TaxonName ;
     tcs:taxonNameString "Euphrasia striata" ;
     dwc:scientificNameAuthorship "R.Br." .
 
-<https://www.ipni.org/n/802451-1> a tcs:TaxonName ;
+<https://ipni.org/n/802451-1> a tcs:TaxonName ;
     tcs:taxonNameString "Euphrasia collina" ;
     dwc:scientificNameAuthorship "R.Br." .
 

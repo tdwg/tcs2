@@ -12,6 +12,6 @@
   "objectTaxonConcept": {
     "dcterms:title": "Diplaziopsidaceae sec. Christenhusz & al. 2011",
     "accordingTo": { "id": "https://doi.org/10.11646/phytotaxa.19.1.2" },
-    "taxonName": { "id": "https://www.ipni.org/n/13093-2" }
+    "taxonName": { "id": "https://ipni.org/n/13093-2" }
   }
 }

@@ -25,11 +25,11 @@
 [] a tcs:TaxonConcept ;
     dcterms:title "Begonia seychellensis sec. Klazenga & al. 1994" ;
     tcs:accordingTo <https://doi/org/10.2307/3668252> ;
-    tcs:taxonName <https://www.ipni.org/n/105731-1> ;
+    tcs:taxonName <https://ipni.org/n/105731-1> ;
     tcs:intersects [ a tcs:TaxonConcept ;
         dcterms:title "Begonia comorensis sec. Keraudren-Aymonin 1983" ;
         tcs:accordingTo [ a bibo:Book ;
                 dcterms:bibliographicCitation """Keraudren-Aymonin, M. (1983). Flore 
                         de Madagascar et des Comores. Famille 144 – Begoniacées: 7-108""" ] ;
-        tcs:taxonName <https://www.ipni.org/n/104440-1> ;
-        tcs:synonym <https://www.ipni.org/n/105731-1> ] .
+        tcs:taxonName <https://ipni.org/n/104440-1> ;
+        tcs:synonym <https://ipni.org/n/105731-1> ] .

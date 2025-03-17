@@ -20,7 +20,7 @@
       "nomenclaturalStatus": "illegitimate"
     },
     {
-      "id": "https://www.ipni.org/n/39527-1",
+      "id": "https://ipni.org/n/39527-1",
       "type": "TaxonName",
       "taxonNameString": "Solmsia",
       "dwc:scientificNameAuthorship": "Baill.",

@@ -45,7 +45,7 @@
         "type": "TaxonConcept",
         "dcterms:title": "Begonia seychellensis sec. Klazenga & al. 1994",
         "accordingTo": { "id": "https://doi/org/10.2307/3668252" },
-        "taxonName": { "id": "https://www.ipni.org/n/105731-1" }
+        "taxonName": { "id": "https://ipni.org/n/105731-1" }
       },
       "objectTaxonConcept": {
         "type": "TaxonConcept",
@@ -54,8 +54,8 @@
           "type": "bibo:Book",
           "dcterms:bibliographicCitation": "Keraudren-Aymonin, M. (1983). Flore de Madagascar et des Comores. Famille 144 – Begoniacées: 7-108"
         },
-        "taxonName": { "id": "https://www.ipni.org/n/104440-1" },
-        "synonym": { "id": "https://www.ipni.org/n/105731-1" }
+        "taxonName": { "id": "https://ipni.org/n/104440-1" },
+        "synonym": { "id": "https://ipni.org/n/105731-1" }
       }
     }
   ]

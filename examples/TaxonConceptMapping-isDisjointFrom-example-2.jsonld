@@ -13,7 +13,7 @@
       "objectTaxonConcept": {
         "dcterms:title": "Campylopus introflexus sec. Mönkemeyer 1927",
         "accordingTo": { "id": "https://www.tropicos.org/publication/700" },
-        "taxonName": { "id": "https://www.ipni.org/n/388740-1" }
+        "taxonName": { "id": "https://ipni.org/n/388740-1" }
       }
     }
   ]

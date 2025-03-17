@@ -162,7 +162,7 @@
         [ a tcs:TaxonConcept ;
             dcterms:title "Onocleoideae sec. Holttum 1947" ;
             tcs:accordingTo _:r8356b78f024b33be ;
-            tcs:taxonName <https://www.ipni.org/n/17436290-1> ] .
+            tcs:taxonName <https://ipni.org/n/17436290-1> ] .
 
 
 [] a tcs:TaxonConcept ;
@@ -234,7 +234,7 @@ _:2011-Athyriaceae a tcs:TaxonConcept ;
 _:1970-Dryopteridaceae a tcs:TaxonConcept ;
     dcterms:title "Dryopteridaceae sec. Nayar 1970" ;
     tcs:accordingTo <https://doi.org/10.2307/1217958> ;
-    tcs:taxonName <https://www.ipni.org/n/30014148-2> .
+    tcs:taxonName <https://ipni.org/n/30014148-2> .
 
 _:1977-Athyriaceae a tcs:TaxonConcept ;
     dcterms:title "Athyriaceae sec. Pichi Sermolli 1977" ;
@@ -257,7 +257,7 @@ _:tn44673c94cdc45415 a tcs:TaxonName ;
 _:tn79905b93a0bb9c11 a tcs:TaxonName ;
     tcs:taxonNameString "Eupolypods II" .
 
-<https://www.ipni.org/n/30014148-2> a tcs:TaxonName ;
+<https://ipni.org/n/30014148-2> a tcs:TaxonName ;
     tcs:taxonNameString "Dryopteridaceae" ;
     dwc:scientificNameAuthorship "Herter" ;
     dwc:namePublishedIn "Revista Sudamer. Bot. 9: 15" ;
@@ -329,7 +329,7 @@ _:tn79905b93a0bb9c11 a tcs:TaxonName ;
     dwc:namePublishedIn "Webbia 24(2): 704" ;
     dwc:namePublishedInYear "1970" .
 
-<https://www.ipni.org/n/17436290-1> a tcs:TaxonName ;
+<https://ipni.org/n/17436290-1> a tcs:TaxonName ;
     tcs:taxonNameString "Onocleoideae B.K.Nayar, " ;
     dwc:scientificNameAuthorship "B.K.Nayar" ;
     dwc:namePublishedIn "Taxon 19: 235" ;
@@ -342,22 +342,22 @@ _:tn79905b93a0bb9c11 a tcs:TaxonName ;
     dcterms:title "A revised family–level classification for eupolypod II ferns (Polypodiidae: Polypodiales)" ;
     dcterms:creator <https://orcid.org/0000-0002-6605-1770> ,
             <https://orcid.org/0000-0003-1568-150X> ,
-            <https://www.ipni.org/a/20030162-1> ,
+            <https://ipni.org/a/20030162-1> ,
             _:p7db44c4c846970d7 ,
-            <https://www.ipni.org/a/14414-1> ,
+            <https://ipni.org/a/14414-1> ,
             <https://orcid.org/0000-0003-3891-9904> ,
             <https://orcid.org/0000-0002-9776-6736> ;
     bibo:authorList [ a rdf:Seq ;
             rdf:_1 <https://orcid.org/0000-0002-6605-1770> ;
             rdf:_2 <https://orcid.org/0000-0003-1568-150X> ;
-            rdf:_3 <https://www.ipni.org/a/20030162-1> ;
+            rdf:_3 <https://ipni.org/a/20030162-1> ;
             rdf:_4 _:p7db44c4c846970d7 ;
-            rdf:_5 <https://www.ipni.org/a/14414-1> ;
+            rdf:_5 <https://ipni.org/a/14414-1> ;
             rdf:_6 <https://orcid.org/0000-0003-3891-9904> ;
             rdf:_7 <https://orcid.org/0000-0002-9776-6736> ] ;
     dcterms:isPartOf [ a bibo:Issue ; 
             dcterms:date "2012" ;
-            dcterms:isPartOf <https://www.ipni.org/p/812-2> ;
+            dcterms:isPartOf <https://ipni.org/p/812-2> ;
             bibo:volume "61" ;
             bibo:issue "3" ] ;
     bibo:pages "513-533" ;
@@ -365,28 +365,28 @@ _:tn79905b93a0bb9c11 a tcs:TaxonName ;
 
 <https://doi.org/10.2307/25065646> a bibo:AcademicArticle ;
     dcterms:title "A classification for extant ferns" ;
-    dcterms:creator <https://www.ipni.org/a/9771-1> , 
+    dcterms:creator <https://ipni.org/a/9771-1> , 
             <https://orcid.org/0000-0002-9776-6736> ,
             <https://orcid.org/0000-0003-3891-9904> ,
             <https://orcid.org/0000-0002-6677-5234> ,
-            <https://www.ipni.org/a/40553-1> ,
+            <https://ipni.org/a/40553-1> ,
             _:p548a313ff862ecc1 ;
     bibo:authorList [ a rdf:Seq ;
-            rdf:_1 <https://www.ipni.org/a/9771-1> ; 
+            rdf:_1 <https://ipni.org/a/9771-1> ; 
             rdf:_2 <https://orcid.org/0000-0002-9776-6736> ;
             rdf:_3 <https://orcid.org/0000-0003-3891-9904> ;
             rdf:_4 <https://orcid.org/0000-0002-6677-5234> ;
-            rdf:_5 <https://www.ipni.org/a/40553-1> ;
+            rdf:_5 <https://ipni.org/a/40553-1> ;
             rdf:_6 _:p548a313ff862ecc1 ] ;
     dcterms:isPartOf [ a bibo:Issue ;
             dcterms:date "2006" ;
-            dcterms:isPartOf <https://www.ipni.org/p/812-2> ;
+            dcterms:isPartOf <https://ipni.org/p/812-2> ;
             bibo:volume "55" ;
             bibo:issue "3" ] ;
     bibo:pages "705-731" ;
     bibo:doi "10.2307/25065646" .
 
-<https://www.ipni.org/p/812-2> a bibo:Journal ;
+<https://ipni.org/p/812-2> a bibo:Journal ;
     dcterms:title "Taxon" ;
     bibo:issn "1996-8175" .
 
@@ -394,31 +394,31 @@ _:tn79905b93a0bb9c11 a tcs:TaxonName ;
     dcterms:title "A linear sequence of extant families and genera of lycophytes and ferns" ;
     dcterms:creator <https://orcid.org/0000-0003-1398-8743> ,
             <https://orcid.org/0000-0003-3425-1011> ,
-            <https://www.ipni.org/a/40553-1> ;
+            <https://ipni.org/a/40553-1> ;
     bibo:authorList [ a rdf:Seq ;
             rdf:_1 <https://orcid.org/0000-0003-1398-8743> ;
             rdf:_2 <https://orcid.org/0000-0003-3425-1011> ;
-            rdf:_3 <https://www.ipni.org/a/40553-1> ] ;
+            rdf:_3 <https://ipni.org/a/40553-1> ] ;
     dcterms:isPartOf [ a bibo:Issue ;
             dcterms:date "2011" ;
-            dcterms:isPartOf <https://www.ipni.org/p/20011462-1> ; 
+            dcterms:isPartOf <https://ipni.org/p/20011462-1> ; 
             dcterms:volume "19" ] ;
     bibo:pages "7-54" ;
     bibo:uri "https://www.biotaxa.org/Phytotaxa/article/view/phytotaxa.19.1.2" ;
     bibo:doi "10.11646/phytotaxa.19.1.2" .
 
-<https://www.ipni.org/p/20011462-1> a bibo:Journal ;
+<https://ipni.org/p/20011462-1> a bibo:Journal ;
     dcterms:title "Phytotaxa" ;
     bibo:issn "1179-3155" .
 
 <https://doi.org/10.2307/1217958> a bibo:AcademicArticle ;
     dcterms:title "A phylogenetic classification of the homosporous ferns" ;
-    dcterms:creator <https://www.ipni.org/a/23960-1> ;
+    dcterms:creator <https://ipni.org/a/23960-1> ;
     bibo:authorList [ a rdf:Seq ;
-            rdf:_1 <https://www.ipni.org/a/23960-1> ] ;
+            rdf:_1 <https://ipni.org/a/23960-1> ] ;
     dcterms:isPartOf [ a bibo:Issue ;
             dcterms:date "1970" ;
-            dcterms:isPartOf <https://www.ipni.org/p/812-2> ;
+            dcterms:isPartOf <https://ipni.org/p/812-2> ;
             bibo:volume "19" ;
             bibo:issue "2" ] ;
     bibo:pages "229-236" ;
@@ -427,33 +427,33 @@ _:tn79905b93a0bb9c11 a tcs:TaxonName ;
 
 <https://doi.org/10.1080/00837792.1977.10670077> a bibo:AcademicArticle ;
     dcterms:title "Tentamen Pteridophytorum genera in taxonomicum ordinem redigendi" ;
-    dcterms:creator <https://www.ipni.org/a/7667-1> ;
+    dcterms:creator <https://ipni.org/a/7667-1> ;
     bibo:authorList [ a rdf:Seq ;
-            rdf:_1 <https://www.ipni.org/a/7667-1> ] ;
+            rdf:_1 <https://ipni.org/a/7667-1> ] ;
     dcterms:isPartOf [ a bibo:Issue ;
             dcterms:date "1977" ;
-            dcterms:isPartOf <https://www.ipni.org/p/826-2> ;
+            dcterms:isPartOf <https://ipni.org/p/826-2> ;
             bibo:volume "31" ;
             bibo:issue "2" ] ;
     bibo:pages "313-512" ;
     bibo:uri "https://www.tandfonline.com/doi/abs/10.1080/00837792.1977.10670077" ;
     bibo:doi "10.1080/00837792.1977.10670077" .
 
-<https://www.ipni.org/p/826-2> a bibo:Journal ;
+<https://ipni.org/p/826-2> a bibo:Journal ;
     dcterms:title "Webbia" .
 
 _:r8356b78f024b33be a bibo:AcademicArticle ;
     dcterms:title "A revised classification of leptosporangiate ferns" ;
-    dcterms:creator <https://www.ipni.org/a/4063-1> ;
+    dcterms:creator <https://ipni.org/a/4063-1> ;
     bibo:authorList [ a rdf:Seq; 
-            rdf:_1 <https://www.ipni.org/a/4063-1> ] ;
+            rdf:_1 <https://ipni.org/a/4063-1> ] ;
     dcterms:isPartOf [ a bibo:Issue ;
             dcterms:date "1947" ;
-            dcterms:isPartOf <https://www.ipni.org/p/682-2> ;
+            dcterms:isPartOf <https://ipni.org/p/682-2> ;
             bibo:volume 53 ] ;
     bibo:pages "123-155" .
 
-<https://www.ipni.org/p/682-2> a bibo:Journal ;
+<https://ipni.org/p/682-2> a bibo:Journal ;
     dcterms:title "Journal of the Linnean Society. Botany" .
 
 
@@ -467,7 +467,7 @@ _:r8356b78f024b33be a bibo:AcademicArticle ;
     foaf:givenname "Michael E." ;
     foaf:surname "Sundue" .
 
-<https://www.ipni.org/a/20030162-1> a foaf:Person ;
+<https://ipni.org/a/20030162-1> a foaf:Person ;
     foaf:givenname "L-Jaung" ;
     foaf:surname "Kuo" .
 
@@ -475,7 +475,7 @@ _:p7db44c4c846970d7 a foaf:Person ;
     foaf:givenname "Anders" ;
     foaf:surname "Larsson" .
 
-<https://www.ipni.org/a/14414-1> a foaf:Person ;
+<https://ipni.org/a/14414-1> a foaf:Person ;
     foaf:givenname "Masahiro" ;
     foaf:surname "Kato" .
 
@@ -487,7 +487,7 @@ _:p7db44c4c846970d7 a foaf:Person ;
     foaf:givenname "Kathleen M." ;
     foaf:surname "Pryer" .
 
-<https://www.ipni.org/a/9771-1> a foaf:Person ;
+<https://ipni.org/a/9771-1> a foaf:Person ;
     foaf:givenname "Alan R." ;
     foaf:surname "Smith" .
 
@@ -495,7 +495,7 @@ _:p7db44c4c846970d7 a foaf:Person ;
     foaf:givenname "Petra" ;
     foaf:surname "Korall" .
 
-<https://www.ipni.org/a/40553-1> a foaf:Person ;
+<https://ipni.org/a/40553-1> a foaf:Person ;
     foaf:givenname "Harald" ;
     foaf:surname "Schneider" .
 
@@ -511,14 +511,14 @@ _:p548a313ff862ecc1 a foaf:Person ;
     foaf:givenname "Xian-Chun" ;
     foaf:surname "Zhang" .
 
-<https://www.ipni.org/a/23960-1> a foaf:Person ;
+<https://ipni.org/a/23960-1> a foaf:Person ;
     foaf:givenname "Bala Krishnan" ;
     foaf:surname "Nayar" .
 
-<https://www.ipni.org/a/7667-1> a foaf:Person ;
+<https://ipni.org/a/7667-1> a foaf:Person ;
     foaf:givenname "Rodolfo Emilio Giuseppe" ;
     foaf:surname "Pichi Sermolli" .
 
-<https://www.ipni.org/a/4063-1> a foaf:Person ;
+<https://ipni.org/a/4063-1> a foaf:Person ;
     foaf:givenname "Richard Eric" ;
     foaf:surname "Holttum" .

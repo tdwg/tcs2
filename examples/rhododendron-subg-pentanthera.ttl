@@ -43,7 +43,7 @@ _:tc1 a tcs:TaxonConcept ;
     dcterms:title "Rhododendron subgen. Pentanthera sec. Judd & Kron 1995" ;
     tcs:accordingTo _:ref1 ;
     tcs:taxonName _:tn1 ;
-    tcs:synonym <https://www.ipni.org/n/14620-1> ,
+    tcs:synonym <https://ipni.org/n/14620-1> ,
             _:tn4 . 
 
 _:tn1 a tcs:TaxonName ;
@@ -72,7 +72,7 @@ _:tn3  a tcs:TaxonName ;
     tcs:typifiedName _:tn2 ;
     tcs:typeName _:tn3 .
 
-<https://www.ipni.org/n/14620-1> a tcs:TaxonName ;
+<https://ipni.org/n/14620-1> a tcs:TaxonName ;
     tcs:nomenclaturalCode <http://rs.gbif.org/vocabulary/gbif/nomenclatural_code/ICN> ;
     tcs:taxonNameString "Anthodendron Rchb." ;
     dwc:scientificNameAuthorship "Rchb." ;
@@ -83,10 +83,10 @@ _:tn3  a tcs:TaxonName ;
     tcs:taxonNameString "Rhododendron subgen. Anthodendron" ;
     dwc:scientificNameAuthorship "Anthodendron (Reichenbach) Rehder" ;
     dwc:namePublishedIn "Monogr. Azaleas 115 (1921)" ;
-    tcs:basionym <https://www.ipni.org/n/14620-1> .
+    tcs:basionym <https://ipni.org/n/14620-1> .
 
 [] a tcs:NomenclaturalType ;
-    tcs:typifiedName <https://www.ipni.org/n/14620-1> ;
+    tcs:typifiedName <https://ipni.org/n/14620-1> ;
     tcs:typeName _:tn3 .
 
 _:tn4 a tcs:TaxonName ;
@@ -95,7 +95,7 @@ _:tn4 a tcs:TaxonName ;
     dwc:scientificNameAuthorship "Sleumer" ;
     dwc:namePublishedIn "Bot. Jahrb. Syst. 74: 550 (1949)" .
 
-<https://www.ipni.org/n/332817-1> a tcs:TaxonName ;
+<https://ipni.org/n/332817-1> a tcs:TaxonName ;
     tcs:nomenclaturalCode <http://rs.gbif.org/vocabulary/gbif/nomenclatural_code/ICN> ;
     tcs:taxonNameString "Rhododendron luteum" ;
     dwc:scientificNameAuthorship "Sweet" ;
@@ -103,7 +103,7 @@ _:tn4 a tcs:TaxonName ;
 
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName _:tn4 ;
-    tcs:typeName <https://www.ipni.org/n/332817-1> .
+    tcs:typeName <https://ipni.org/n/332817-1> .
 
 
 #
@@ -124,10 +124,10 @@ _:tn4 a tcs:TaxonName ;
 _:tc2 a tcs:TaxonConcept ;
     dcterms:title "Rhododendron sect. Sciadorhodion sec. Judd & Kron 1995" ;
     tcs:accordingTo _:ref1 ;
-    tcs:taxonName <https://www.ipni.org/n/50985479-1> ;
+    tcs:taxonName <https://ipni.org/n/50985479-1> ;
     tcs:parent _:tc1 .
 
-<https://www.ipni.org/n/50985479-1> a tcs:TaxonName ;
+<https://ipni.org/n/50985479-1> a tcs:TaxonName ;
     tcs:nomenclaturalCode <http://rs.gbif.org/vocabulary/gbif/nomenclatural_code/ICN> ;
     tcs:taxonomicNameString "Rhododendron sect. Sciadorhodion" ;
     dwc:scientificNameAuthorship "Rehder & Wilson" ;
@@ -138,11 +138,11 @@ _:tc2 a tcs:TaxonConcept ;
     tcs:taxonNameString "Azalea subgen. Sciadorhodion" ;
     dwc:scientificNameAuthorship "(Rehder & Wilson) Copeland" ;
     dwc:namePublishedIn "Am. Midi. Nat. 30: 597 (1943)" ;
-    tcs:basionym <https://www.ipni.org/n/50985479-1> .
+    tcs:basionym <https://ipni.org/n/50985479-1> .
 
 [] a tcs:NomenclaturalType ;
-  tcs:typifiedName <https://www.ipni.org/n/50985479-1> ;
-  tcs:typeName <https://www.ipni.org/n/333193-1> .
+  tcs:typifiedName <https://ipni.org/n/50985479-1> ;
+  tcs:typeName <https://ipni.org/n/333193-1> .
 
 
 #
@@ -152,31 +152,31 @@ _:tc2 a tcs:TaxonConcept ;
 [] a tcs:TaxonConcept ;
     dcterms:title "Rhododendron schlippenbachii sec. Judd & Kron 1995" ;
     tcs:accordingTo _:ref1 ;
-    tcs:taxonName <https://www.ipni.org/n/333307-1> ;
+    tcs:taxonName <https://ipni.org/n/333307-1> ;
     tcs:parent _:tc1 .
 
-<https://www.ipni.org/n/333307-1> a tcs:TaxonName ;
+<https://ipni.org/n/333307-1> a tcs:TaxonName ;
     tcs:nomenclaturalCode <http://rs.gbif.org/vocabulary/gbif/nomenclatural_code/ICN> ;
     tcs:taxonomicNameString "Rhododendron schlippenbachii" ;
     dwc:scientificNameAuthorship "Maxim." ;
     dwc:namePublishedIn "Bull. Acad. Sci. St Pétersbourg, ser. 3 15 (1870)" .
 
-<https://www.ipni.org/n/326933-1> a tcs:TaxonName ;
+<https://ipni.org/n/326933-1> a tcs:TaxonName ;
     tcs:nomenclaturalCode <http://rs.gbif.org/vocabulary/gbif/nomenclatural_code/ICN> ;
     tcs:taxonNameString "Azalea schlippenbachii" ;
     dwc:namePublishedIn "Revis. Gen.Pl. 2:387 (1891)" ;
     dwc:scientificNameAuthorship "(Maxim.) Kuntze" ;
-    tcs:basionym <https://www.ipni.org/n/333307-1> .
+    tcs:basionym <https://ipni.org/n/333307-1> .
 
 [] a tcs:TaxonName ;
     tcs:nomenclaturalCode <http://rs.gbif.org/vocabulary/gbif/nomenclatural_code/ICN> ;
     tcs:taxonNameString "Azalea schlippenbachii" ;
     dwc:scientificNameAuthorship "(Maxim.) Kuntze" ;
     dwc:namePublishedIn "Revis. Gen.Pl. 2:387 (1891)" ;
-    tcs:basionym <https://www.ipni.org/n/333307-1> .
+    tcs:basionym <https://ipni.org/n/333307-1> .
 
 [] a tcs:NomenclaturalType ;
-    tcs:typifiedName <https://www.ipni.org/n/333307-1> ;
+    tcs:typifiedName <https://ipni.org/n/333307-1> ;
     tcs:typeSpecimen [ a dwc:MaterialCitation ;
             dwc:verbatimLocality "[Russia] Manchuria, shores of Possiet Bay, [SW of Vladivostok]" ;
             dwc:eventDate "1860" ;
@@ -187,7 +187,7 @@ _:tc2 a tcs:TaxonConcept ;
     tcs:typePublishedIn _:ref1 .
 
 [] a tcs:NomenclaturalType ;
-    tcs:typifiedName <https://www.ipni.org/n/333307-1> ;
+    tcs:typifiedName <https://ipni.org/n/333307-1> ;
     tcs:typeSpecimen [ a dwc:MaterialCitation ;
             dwc:country "Russia" ;
             dwc:verbatimLocality "Manchuria, shores of Possiet Bay, [SW of Vladivostok]" ;
@@ -197,7 +197,7 @@ _:tc2 a tcs:TaxonConcept ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isolectotype> .
 
 [] a tcs:NomenclaturalType ;
-    tcs:typifiedName <https://www.ipni.org/n/333307-1> ;
+    tcs:typifiedName <https://ipni.org/n/333307-1> ;
     tcs:typeSpecimen [ a dwc:MaterialCitation ;
             dwc:country "Russia" ;
             dwc:verbatimLocality "Manchuria, shores of Possiet Bay, [SW of Vladivostok]" ;
@@ -214,11 +214,11 @@ _:tc2 a tcs:TaxonConcept ;
 [] a tcs:TaxonConcept ;
     dcterms:title "Rhododendron quinquefolium sec. Judd & Kron 1995" ;
     tcs:accordingTo _:ref1 ;
-    tcs:taxonName <https://www.ipni.org/n/333193-1> ;
-    tcs:synonym ( <https://www.ipni.org/n/950178-1> ) ;
+    tcs:taxonName <https://ipni.org/n/333193-1> ;
+    tcs:synonym ( <https://ipni.org/n/950178-1> ) ;
     tcs:parent _:tc2 .
 
-<https://www.ipni.org/n/333193-1> a tcs:TaxonName ;
+<https://ipni.org/n/333193-1> a tcs:TaxonName ;
     tcs:nomenclaturalCode <http://rs.gbif.org/vocabulary/gbif/nomenclatural_code/ICN> ;
     tcs:taxonomicNameString "Rhododendron quinquefolium" ;
     dwc:scientificNameAuthorship "Bisset & S.Moore" ;
@@ -229,10 +229,10 @@ _:tc2 a tcs:TaxonConcept ;
     tcs:taxonomicNameString "Azalea quinquefolia" ;
     dwc:scientificNameAuthorship "(Bisset & S.Moore) Olmsted et al." ;
     dwc:namePublishedIn "Stand. Pl. Names 27 (1923)" ;
-    tcs:basionym <https://www.ipni.org/n/333193-1> .
+    tcs:basionym <https://ipni.org/n/333193-1> .
 
 [] a tcs:NomenclaturalType ;
-    tcs:typifiedName <https://www.ipni.org/n/333193-1> ;
+    tcs:typifiedName <https://ipni.org/n/333193-1> ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/lectotype> ;
     tcs:typeSpecimen [ a dwc:MaterialCitation ;
             dwc:verbatimLocality "Japan, Honshu, Nikko" ;
@@ -241,14 +241,14 @@ _:tc2 a tcs:TaxonConcept ;
             dwc:eventDate "1876-05-23" ;
             dwc:institutionCode "E" ] .
 
-<https://www.ipni.org/n/950178-1> a tcs:TaxonName ;
+<https://ipni.org/n/950178-1> a tcs:TaxonName ;
     tcs:nomenclaturalCode <http://rs.gbif.org/vocabulary/gbif/nomenclatural_code/ICN> ;
     tcs:taxonomicNameString "Rhododendron quinquefolium f. speciosum" ;
     dwc:scientificNameAuthorship "N. Yonezawa" ;
     dwc:namePublishedIn "J. Phytogeogr. Taxon. 35(2): 101 (1987)" .
 
 [] a tcs:NomenclaturalType ;
-    tcs:typifiedName <https://www.ipni.org/n/950178-1> ;
+    tcs:typifiedName <https://ipni.org/n/950178-1> ;
     tcs:typeSpecimen [ a dwc:MaterialCitation ;
             dwc:verbatimLocality "Japan, Honshu, Nikko" ;
             dwc:recordedBy "Bisset" ;
@@ -265,13 +265,13 @@ _:tc2 a tcs:TaxonConcept ;
 [] a tcs:TaxonConcept ;
     dcterms:title "Rhododendron pentaphyllum sec. Judd & Kron 1995" ;
     tcs:accordingTo _:ref1 ;
-    tcs:taxonName <https://www.ipni.org/n/333062-1> ;
+    tcs:taxonName <https://ipni.org/n/333062-1> ;
     tcs:synonym _:tn5 ,
         _:tn6 ,
-        <https://www.ipni.org/n/950666-1> ;
+        <https://ipni.org/n/950666-1> ;
     tcs:parent _:tc2 .
 
-<https://www.ipni.org/n/333062-1> a tcs:TaxonName ;
+<https://ipni.org/n/333062-1> a tcs:TaxonName ;
     tcs:nomenclaturalCode <http://rs.gbif.org/vocabulary/gbif/nomenclatural_code/ICN> ;
     tcs:taxonomicNameString "Rhododendron pentaphyllum" ;
     dwc:scientificNameAuthorship "Maxim." ;
@@ -279,15 +279,15 @@ _:tc2 a tcs:TaxonConcept ;
     dwc:genericName "Rhododendron" ;
     dwc:specificEpithet "pentaphyllum" .
 
-<https://www.ipni.org/n/326897-1> a tcs:TaxonName ;
+<https://ipni.org/n/326897-1> a tcs:TaxonName ;
     tcs:nomenclaturalCode <http://rs.gbif.org/vocabulary/gbif/nomenclatural_code/ICN> ;
     tcs:taxonomicNameString "Azalea pentaphylla" ;
     dwc:scientificNameAuthorship " (Maxim.) H.F.Copel." ;
     tcs:namePublishedIn _:ref1 ;
-    tcs:basionym <https://www.ipni.org/n/333062-1> .
+    tcs:basionym <https://ipni.org/n/333062-1> .
 
 [] a tcs:NomenclaturalType ;
-    tcs:typifiedName <https://www.ipni.org/n/333062-1> ;
+    tcs:typifiedName <https://ipni.org/n/333062-1> ;
     tcs:typeSpecimen [ a dwc:MaterialCitation ;
             dwc:country "Japan" ;
             dwc:verbatimLocality "Kyushiu, prov. Osumi, summit, Mt Taka-kuma" ;
@@ -313,14 +313,14 @@ _:tn6 a tcs:TaxonName ;
     dwc:scientificNameAuthorship "Rehder" ;
     dwc:namePublishedIn "Bailey, Stand. Cycl. Hort. 5: 2947 (1916)" .
 
-<https://www.ipni.org/n/950666-1> a tcs:TaxonName ;
+<https://ipni.org/n/950666-1> a tcs:TaxonName ;
     tcs:nomenclaturalCode <http://rs.gbif.org/vocabulary/gbif/nomenclatural_code/ICN> ;
     tcs:taxonomicNameString "Rhododendron pentaphyllum var. shikokianum" ;
     dwc:scientificNameAuthorship "T. Yamazaki" ;
     dwc:namePublishedIn "Jap. Bot. 63: 312 (1988)" .
 
 [] a tcs:NomenclaturalType ;
-    tcs:typifiedName <https://www.ipni.org/n/950666-1> ;
+    tcs:typifiedName <https://ipni.org/n/950666-1> ;
     tcs:typeSpecimen [ a dwc:MaterialCitation ;
             dwc:country "Japan" ;
             dwc:verbatimLocality "Shikoku, pref. Kochi, Agawagun Nanokawa" ;
@@ -336,25 +336,25 @@ _:tn6 a tcs:TaxonName ;
 
 [] a tcs:TaxonConcept ;
     dcterms:title "Rhododendron albrechtii sec. Judd & Kron 1995" ;
-    tcs:taxonName <https://www.ipni.org/n/331902-1> ;
+    tcs:taxonName <https://ipni.org/n/331902-1> ;
     tcs:accordingTo _:ref1 ;
     tcs:parent _:tc2 .
 
-<https://www.ipni.org/n/331902-1> a tcs:TaxonName ;
+<https://ipni.org/n/331902-1> a tcs:TaxonName ;
     tcs:nomenclaturalCode <http://rs.gbif.org/vocabulary/gbif/nomenclatural_code/ICN> ;
     tcs:taxonomicNameString "Rhododendron albrechtii" ;
     dwc:scientificNameAuthorship "Maxim." ;
     dwc:namePublishedIn "Bull. Acad. Sci. Sci. St Pétersbourg, sér. 3, 15: 227 (1870)" .
 
-<https://www.ipni.org/n/326708-1> a tcs:TaxonName ;
+<https://ipni.org/n/326708-1> a tcs:TaxonName ;
     tcs:nomenclaturalCode <http://rs.gbif.org/vocabulary/gbif/nomenclatural_code/ICN> ;
     tcs:taxonomicNameString "Azalea albrechtii" ;
     dwc:scientificNameAuthorship "(Maxim.) Kuntze" ;
     dwc:namePublishedIn "Revis. Gen.Pl. 2:387 (1892)" ;
-    tcs:basionym <https://www.ipni.org/n/331902-1> .
+    tcs:basionym <https://ipni.org/n/331902-1> .
 
 [] a tcs:NomenclaturalType ;
-    tcs:typifiedName <https://www.ipni.org/n/331902-1> ;
+    tcs:typifiedName <https://ipni.org/n/331902-1> ;
     tcs:typeSpecimen [ a dwc:MaterialCitation ;
             dwc:country "Japan" ;
             dwc:verbatimLocality "Japan, Hakodate, in subapline valley near Nodafu" ;
@@ -381,7 +381,7 @@ _:tn7 a tcs:TaxonName ;
 
 [ ] a tcs:NomenclaturalType ;
     tcs:typifiedName _:tn7 ;
-    tcs:typeName <https://www.ipni.org/n/332960-1> .
+    tcs:typeName <https://ipni.org/n/332960-1> .
 
 
 #
@@ -391,24 +391,24 @@ _:tn7 a tcs:TaxonName ;
 [] a tcs:TaxonConcept ;
     dcterms:title "Rhodondendron nipponicum sec. Judd & Cron 1995" ;
     tcs:accordingTo _:ref1 ;
-    tcs:taxonName <https://www.ipni.org/n/332960-1> ;
+    tcs:taxonName <https://ipni.org/n/332960-1> ;
     tcs:parent _:tc3 .
 
-<https://www.ipni.org/n/332960-1> a tcs:TaxonName ;
+<https://ipni.org/n/332960-1> a tcs:TaxonName ;
     tcs:nomenclaturalCode <http://rs.gbif.org/vocabulary/gbif/nomenclatural_code/ICN> ;
     tcs:taxonNameString "Rhododendron nipponicum" ;
     dwc:scientificNameAuthorship "Matsum" ;
     dwc:namePublishedIn "Bot. Mag. (Tokyo) 13: 17 (1899)" .
 
-<https://www.ipni.org/n/326879-1> a tcs:TaxonName ;
+<https://ipni.org/n/326879-1> a tcs:TaxonName ;
     tcs:nomenclaturalCode <http://rs.gbif.org/vocabulary/gbif/nomenclatural_code/ICN> ;
     tcs:taxonNameString "Azalea nipponica" ;
     dwc:scientificNameAuthorship "(Matsum.) H.F.Copel." ;
     dwc:namePublishedIn "Amer. Midl. Naturalist xxx. 595 (1943), in obs." ;
-    tcs:basionym <https://www.ipni.org/n/332960-1> .
+    tcs:basionym <https://ipni.org/n/332960-1> .
 
 [] a tcs:NomenclaturalType ;
-    tcs:typifiedName <https://www.ipni.org/n/332960-1> ;
+    tcs:typifiedName <https://ipni.org/n/332960-1> ;
     tcs:typeSpecimen [ a dwc:MaterialCitation ;
             dwc:country "Japan" ;
             dwc:stateProvince "Uzen" ;
@@ -438,13 +438,13 @@ _:tn8 a tcs:TaxonName ;
     dwc:namePublishedIn "Gen. Syst. 3: 848 (1834)" ;
     tcs:basionym _:tn5e0223abc91531be .
 
-<https://www.ipni.org/n/14860-1> a tcs:TaxonName ;
+<https://ipni.org/n/14860-1> a tcs:TaxonName ;
     tcs:nomenclaturalCode <http://rs.gbif.org/vocabulary/gbif/nomenclatural_code/ICN> ;
     tcs:taxonNameString "Rhodora" ;
     dwc:scientificNameAuthorship "L." ;
     dwc:namePublishedIn "Sp. Pl. ed. 2, 1: 561 (1762)" .
 
-<https://www.ipni.org/n/14768-1> a tcs:TaxonName ;
+<https://ipni.org/n/14768-1> a tcs:TaxonName ;
     tcs:nomenclaturalCode <http://rs.gbif.org/vocabulary/gbif/nomenclatural_code/ICN> ;
     tcs:taxonNameString "Hochenwartia" ;
     dwc:scientificNameAuthorship "Crantz" ;
@@ -454,11 +454,11 @@ _:tn8 a tcs:TaxonName ;
     tcs:nomenclaturalCode <http://rs.gbif.org/vocabulary/gbif/nomenclatural_code/ICN> ;
     tcs:taxonNameString "Azalea subgen. Rhodora" ;
     tcs:namePublishedIn "Am. Midi. Nat. 30: 595 (1943)" ;
-    tcs:basionym <https://www.ipni.org/n/14860-1> .
+    tcs:basionym <https://ipni.org/n/14860-1> .
 
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName _:tn0916f44282bd1eea ;
-    tcs:typeName <https://www.ipni.org/n/307873-2> .
+    tcs:typeName <https://ipni.org/n/307873-2> .
 
 
 #
@@ -468,32 +468,32 @@ _:tn8 a tcs:TaxonName ;
 [] a tcs:TaxonConcept ;
     dcterms:title "Rhodondendron vaseyi sec. Judd & Cron 1995" ;
     tcs:accordingTo _:ref1 ;
-    tcs:taxonName <https://www.ipni.org/n/307873-2> ;
-    tcs:synonym <https://www.ipni.org/n/219536-2> ;
+    tcs:taxonName <https://ipni.org/n/307873-2> ;
+    tcs:synonym <https://ipni.org/n/219536-2> ;
     tcs:parent _:tc4 .
 
-<https://www.ipni.org/n/307873-2> a tcs:TaxonName ;
+<https://ipni.org/n/307873-2> a tcs:TaxonName ;
     tcs:nomenclaturalCode <http://rs.gbif.org/vocabulary/gbif/nomenclatural_code/ICN> ;
     tcs:taxonNameString "Rhododendron vaseyi" ;
     dwc:scientificNameAuthorship "A.Gray" ;
     dwc:namePublishedIn "Proc. Amer. Acad. Arts 15: 48 (1879)" .
 
-<https://www.ipni.org/n/27677-2> a tcs:TaxonName ;
+<https://ipni.org/n/27677-2> a tcs:TaxonName ;
     tcs:nomenclaturalCode <http://rs.gbif.org/vocabulary/gbif/nomenclatural_code/ICN> ;
     tcs:taxonNameString "Azalea vaseyi" ;
     dwc:scientificNameAuthorship "(A.Gray) Rehder" ;
     dwc:namePublishedIn "Möller's Deutsche Gärtn.-Zeitung 14: 332 (1899)" ;
-    tcs:basionym <https://www.ipni.org/n/307873-2> .
+    tcs:basionym <https://ipni.org/n/307873-2> .
 
-<https://www.ipni.org/n/33213-2> a tcs:TaxonName ;
+<https://ipni.org/n/33213-2> a tcs:TaxonName ;
     tcs:nomenclaturalCode <http://rs.gbif.org/vocabulary/gbif/nomenclatural_code/ICN> ;
     tcs:taxonNameString "Biltia vaseyi" ;
     dwc:scientificNameAuthorship "(A.Gray) Small" ;
     dwc:namePublishedIn "Fl. S.E. U.S. [Small]. 884, 1336 (1903)" ;
-    tcs:basionym <https://www.ipni.org/n/307873-2> .
+    tcs:basionym <https://ipni.org/n/307873-2> .
 
 [] a tcs:NomenclaturalType ;
-    tcs:typifiedName <https://www.ipni.org/n/307873-2> ;
+    tcs:typifiedName <https://ipni.org/n/307873-2> ;
     tcs:typeSpecimen [ a dwc:MaterialCitation ;
             dwc:country "United States" ;
             dwc:stateProvince "North Carolina" ;
@@ -506,7 +506,7 @@ _:tn8 a tcs:TaxonName ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/holotype> .
 
 [] a tcs:NomenclaturalType ;
-    tcs:typifiedName <https://www.ipni.org/n/307873-2> ;
+    tcs:typifiedName <https://ipni.org/n/307873-2> ;
     tcs:typeSpecimen [ a dwc:MaterialCitation ;
             dwc:country "United States" ;
             dwc:stateProvince "North Carolina" ;
@@ -519,7 +519,7 @@ _:tn8 a tcs:TaxonName ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> .
 
 [] a tcs:NomenclaturalType ;
-    tcs:typifiedName <https://www.ipni.org/n/307873-2> ;
+    tcs:typifiedName <https://ipni.org/n/307873-2> ;
     tcs:typeSpecimen [ a dwc:MaterialCitation ;
             dwc:country "United States" ;
             dwc:stateProvince "North Carolina" ;
@@ -531,7 +531,7 @@ _:tn8 a tcs:TaxonName ;
             dwc:institutionCode "US" ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> .
 
-<https://www.ipni.org/n/219536-2> a tcs:TaxonName ;
+<https://ipni.org/n/219536-2> a tcs:TaxonName ;
     tcs:nomenclaturalCode <http://rs.gbif.org/vocabulary/gbif/nomenclatural_code/ICN> ;
     tcs:taxonNameString "Rhododendron vaseyi f. album" ;
     dwc:scientificNameAuthorship "Rehder" ;
@@ -545,63 +545,63 @@ _:tn8 a tcs:TaxonName ;
 [] a tcs:TaxonConcept ;
     dcterms:title "Rhodondendron canadense sec. Judd & Cron 1995" ;
     tcs:accordingTo _:ref1 ;
-    tcs:taxonName <https://www.ipni.org/n/1203750-2> ;
-    tcs:synonym <https://www.ipni.org/n/333228-1> ,
-            <https://www.ipni.org/n/219524-2> ,
+    tcs:taxonName <https://ipni.org/n/1203750-2> ;
+    tcs:synonym <https://ipni.org/n/333228-1> ,
+            <https://ipni.org/n/219524-2> ,
             _:tn9 ,
-            <https://www.ipni.org/n/219459-2> ;
+            <https://ipni.org/n/219459-2> ;
     tcs:parent _:tc4 .
 
-<https://www.ipni.org/n/1203750-2> a tcs:TaxonName ;
+<https://ipni.org/n/1203750-2> a tcs:TaxonName ;
     tcs:nomenclaturalCode <http://rs.gbif.org/vocabulary/gbif/nomenclatural_code/ICN> ;
     tcs:taxonNameString "Rhododendron canadense (L.) Torr." ;
     dwc:scientificNameAuthorship "(L.) Torr." ;
     dwc:namePublishedIn "Rep. Bot. Dep. Surv. New York, no. 50, Assembly 151 (1841)" ;
-    dwc:basionym <https://www.ipni.org/n/311891-2> .
+    dwc:basionym <https://ipni.org/n/311891-2> .
 
-<https://www.ipni.org/n/311891-2> a tcs:TaxonName ;
+<https://ipni.org/n/311891-2> a tcs:TaxonName ;
     tcs:nomenclaturalCode <http://rs.gbif.org/vocabulary/gbif/nomenclatural_code/ICN> ;
     tcs:taxonNameString "Rhodora canadensis L., Sp. Pl., ed. 2. 1: 561 (1762)" ;
     dwc:scientificNameAuthorship "L." ;
     dwc:namePublishedIn "Sp. Pl., ed. 2. 1: 561 (1762)" .
 
-<https://www.ipni.org/n/330854-1> a tcs:TaxonName ;
+<https://ipni.org/n/330854-1> a tcs:TaxonName ;
     tcs:nomenclaturalCode <http://rs.gbif.org/vocabulary/gbif/nomenclatural_code/ICN> ;
     tcs:taxonNameString "Hochenwartia canadensis" ;
     dwc:scientificNameAuthorship "Crantz" ;
     dwc:namePublishedIn "Inst. Rei Herb. 2: 469 (1766)" ;
-    tcs:basionym <https://www.ipni.org/n/311891-2> .
+    tcs:basionym <https://ipni.org/n/311891-2> .
 
-<https://www.ipni.org/n/27635-2> a tcs:TaxonName ;
+<https://ipni.org/n/27635-2> a tcs:TaxonName ;
     tcs:nomenclaturalCode <http://rs.gbif.org/vocabulary/gbif/nomenclatural_code/ICN> ;
     tcs:taxonNameString "Azalea canadensis" ;
     dwc:scientificNameAuthorship "(L.) Kuntze" ;
     dwc:namePublishedIn "Revis. Gen. Pl. 2: 386 (1891)" ;
-    tcs:basionym <https://www.ipni.org/n/311891-2> .
+    tcs:basionym <https://ipni.org/n/311891-2> .
 
-<https://www.ipni.org/n/333228-1> a tcs:TaxonName ;
+<https://ipni.org/n/333228-1> a tcs:TaxonName ;
     tcs:nomenclaturalCode <http://rs.gbif.org/vocabulary/gbif/nomenclatural_code/ICN> ;
     tcs:taxonNameString "Rhododendron rhodora" ;
     dwc:scientificNameAuthorship "J.F.Gmel." ;
     dwc:namePublishedIn "Syst. Nat., ed. 13[bis]. 2(1): 694 (1791)" ;
     tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/superfluum> .
 
-<https://www.ipni.org/n/219524-2> a tcs:TaxonName ;
+<https://ipni.org/n/219524-2> a tcs:TaxonName ;
     tcs:nomenclaturalCode <http://rs.gbif.org/vocabulary/gbif/nomenclatural_code/ICN> ;
     tcs:taxonNameString "Rhododendron rhodora f. albiflorum" ;
     dwc:scientificNameAuthorship "E.L.Rand & Redfield" ;
     dwc:namePublishedIn "Fl. Mt. Desert Isl. 127 (1894)" .
 
-<https://www.ipni.org/n/219458-2> a tcs:TaxonName ;
+<https://ipni.org/n/219458-2> a tcs:TaxonName ;
     tcs:nomenclaturalCode <http://rs.gbif.org/vocabulary/gbif/nomenclatural_code/ICN> ;
     tcs:taxonNameString "Rhododendron canadense f. albiflorum" ;
     dwc:scientificNameAuthorship "(E.L.Rand & Redfield) Rheder" ;
     dwc:namePublishedIn "Monogr. Azaleas [E.H. Wilson & A. Rehder] 122 (1921)" ;
-    dwc:basionym <https://www.ipni.org/n/219524-2> .
+    dwc:basionym <https://ipni.org/n/219524-2> .
 
 [] a tcs:NomenclaturalType ;
     tcs:nomenclaturalCode <http://rs.gbif.org/vocabulary/gbif/nomenclatural_code/ICN> ;
-    tcs:typifiedName <https://www.ipni.org/n/219524-2> ;
+    tcs:typifiedName <https://ipni.org/n/219524-2> ;
     tcs:typeSpecimen [ a dwc:MaterialCitation ;
             dwc:country "United States" ;
             dwc:stateProvince "Maine" ;
@@ -619,13 +619,13 @@ _:tn9 a tcs:TaxonName ;
     dwc:scientificNameAuthorship "Voss" ;
     dwc:namePublishedIn "Vilmorin's Blumengartn. 1: 587 ([1894-]1896)" .
     
-<https://www.ipni.org/n/219459-2> a tcs:TaxonName ;
+<https://ipni.org/n/219459-2> a tcs:TaxonName ;
     tcs:taxonNameString "Rhododendron canadense f. viridifolium" ;
     dwc:scientificNameAuthorship "Fernald" ;
     dwc:namePublishedIn "Monogr. Azaleas [E.H. Wilson & A. Rehder] 122 (1921)" .
 
 [] a tcs:NomenclaturalType ;
-    tcs:typifiedName <https://www.ipni.org/n/219459-2> ;
+    tcs:typifiedName <https://ipni.org/n/219459-2> ;
     tcs:typeSpecimen [ a dwc:MaterialCitation ;
             dwc:country "Canada" ;
             dwc:stateProvince "Nova Scotia" ;
@@ -637,7 +637,7 @@ _:tn9 a tcs:TaxonName ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/holotype> .
 
 [] a tcs:NomenclaturalType ;
-    tcs:typifiedName <https://www.ipni.org/n/219459-2> ;
+    tcs:typifiedName <https://ipni.org/n/219459-2> ;
     tcs:typeSpecimen [ a dwc:MaterialCitation ;
             dwc:country "Canada" ;
             dwc:stateProvince "Nova Scotia" ;

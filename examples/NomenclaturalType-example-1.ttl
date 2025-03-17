@@ -5,15 +5,15 @@
 
 # Examples from TCS 1
 [] a tcs:NomenclaturalType ;
-    tcs:typifiedName <https://www.ipni.org/n/50985479-1> ;
+    tcs:typifiedName <https://ipni.org/n/50985479-1> ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/lectotype> ;
-    tcs:typeName <https://www.ipni.org/n/333193-1> ;
+    tcs:typeName <https://ipni.org/n/333193-1> ;
     tcs:typePublishedIn [ a bibo:Article ;
     	  dcterms:bibliographicCitation """Copeland, H.F. (1943). A study, anatomical and 
                 taxonomic, of the genera of Rhododendroideae. Am. Midl. Nat. 30: 533-625""" ] .
 
 [] a tcs:NomenclaturalType ;
-    tcs:typifiedName <https://www.ipni.org/n/333193-1> ;
+    tcs:typifiedName <https://ipni.org/n/333193-1> ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/lectotype> ;
     tcs:typeSpecimen [ a dwc:MaterialCitation ;
         dwc:verbatimLocality "Japan, Honshu, Nikko" ;
@@ -27,10 +27,10 @@
                 Journal of Botany 52: 1-54.""" ] .
 
 # name used in TaxonName examples; more data there
-<https://www.ipni.org/n/50985479-1> a tcs:TaxonName ;
+<https://ipni.org/n/50985479-1> a tcs:TaxonName ;
     tcs:taxonNameString "Rhododendron sect. Sciadorhodion" ;
     dwc:scientificNameAuthorship "Rehder & Wilson" .
 
-<https://www.ipni.org/n/333193-1> a tcs:TaxonName ;
+<https://ipni.org/n/333193-1> a tcs:TaxonName ;
     tcs:taxonNameString "Rhododendron quinquefolium" ;
     dwc:scientificNameAuthorship "Bisset & S.Moore" .

@@ -7,12 +7,12 @@
 [] a tcs:TaxonConcept ;
     dcterms:title "Quercus robur sec. Duistermaat 2020" ;
     tcs:accordingTo <urn:isbn:978-90-01-58956-1> ;
-    tcs:taxonName <https://www.ipni.org/n/304293-2> ;
+    tcs:taxonName <https://ipni.org/n/304293-2> ;
     tcs:vernacularName [ a gbif:VernacularName ;
             dwc:vernacularName "Zomereik" ;
             dcterms:language "nl" ] .
 
-<https://www.ipni.org/n/304293-2> a tcs:TaxonName ;
+<https://ipni.org/n/304293-2> a tcs:TaxonName ;
     tcs:taxonNameString "Quercus robur" .
 
 <urn:isbn:978-90-01-58956-1> a bibo:Book ;

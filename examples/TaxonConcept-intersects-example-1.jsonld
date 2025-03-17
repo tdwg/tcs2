@@ -29,7 +29,7 @@
       "type": "TaxonConcept",
       "dcterms:title": "Begonia seychellensis sec. Klazenga & al. 1994",
       "accordingTo": "https://doi/org/10.2307/3668252",
-      "taxonName": "https://www.ipni.org/n/105731-1",
+      "taxonName": "https://ipni.org/n/105731-1",
       "intersects": [
         {
           "type": "TaxonConcept",
@@ -37,8 +37,8 @@
           "accordingTo": {
             "dcterms:bibliographicCitation": "Keraudren-Aymonin, 1983"
           },
-          "taxonName": "https://www.ipni.org/n/104440-1",
-          "synonym": "https://www.ipni.org/n/105731-1"
+          "taxonName": "https://ipni.org/n/104440-1",
+          "synonym": "https://ipni.org/n/105731-1"
         }
       ]
     }

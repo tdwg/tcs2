@@ -46,7 +46,7 @@
           "type": "TaxonConcept",
           "dcterms:title": "Templetonia stenophylla sec. Ross 1996",
           "taxonName": {
-            "id": "https://www.ipni.org/n/520361-1",
+            "id": "https://ipni.org/n/520361-1",
             "type": "TaxonName",
             "taxonNameString": "Templetonia stenophylla",
             "dwc:scientificNameAuthorship": "(F.Muell.) J.M.Black",
@@ -64,7 +64,7 @@
       "dwciri:typeStatus": {
         "type": "NomenclaturalType",
         "typifiedName": {
-          "id": "https://www.ipni.org/n/520357-1",
+          "id": "https://ipni.org/n/520357-1",
           "type": "TaxonName",
           "taxonNameString": "Templetonia muelleri",
           "dwc:scientificNameAuthorship": "Benth.",

@@ -2,7 +2,7 @@
   "@context": "https://raw.githubusercontent.com/tdwg/tcs2/master/examples/context.jsonld",
   "@graph": [
     {
-      "id": "https://www.ipni.org/n/471632-1",
+      "id": "https://ipni.org/n/471632-1",
       "type": "TaxonName",
       "taxonNameString": "Acacia tenuifolia",
       "dwc:scientificNameAuthorship": "F.Muell.",
@@ -10,30 +10,30 @@
       "dwc:namePublishedInYear": "1855",
       "nomenclaturalStatus": "illegitimate",
       "rdf:seeAlso": [
-        { "id": "https://www.ipni.org/n/81578-3" },
+        { "id": "https://ipni.org/n/81578-3" },
         { "id": "https://id.biodiversity.org.au/name/apni/71120" }
       ]
     },
     {
-      "id": "https://www.ipni.org/n/469641-1",
+      "id": "https://ipni.org/n/469641-1",
       "type": "TaxonName",
       "taxonNameString": "Acacia aculeatissima",
       "dwc:scientiticNameAuthorship": "J.F.Macbr.",
       "dwc:namePublishedIn": "Contr. Gray Herb. 59: 6",
       "dwc:namePublishedInYear": "1919",
-      "replacedName": { "id": "https://www.ipni.org/n/471632-1" },
+      "replacedName": { "id": "https://ipni.org/n/471632-1" },
       "rdf:seeAlso": [
-        { "id": "https://www.ipni.org/n/56412-3" },
+        { "id": "https://ipni.org/n/56412-3" },
         { "id": "https://id.biodiversity.org.au/name/apni/58056" }
       ]
     },
     {
-      "id": "https://www.ipni.org/n/60428094-2",
+      "id": "https://ipni.org/n/60428094-2",
       "type": "TaxonName",
       "taxonNameString": "Racosperma aculeatissimum",
       "dwc:scientificNameAuthorship": "(J.F.Macbr.) Pedley",
       "dwc:namePublishedIn": "2011",
-      "replacedName": { "id": "https://www.ipni.org/n/17567870-1" },
+      "replacedName": { "id": "https://ipni.org/n/17567870-1" },
       "rdf:seeAlso": { "id": "https://id.biodiversity.org.au/instance/apni/51432623" }
     }
   ]

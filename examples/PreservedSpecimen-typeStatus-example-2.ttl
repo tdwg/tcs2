@@ -14,7 +14,7 @@
             dwciri:identifiedBy <https://orcid.org/0000-0001-9124-9802> ;
             dwc:dateIdentified "2024-04-12" ] ;
     dwciri:typeStatus [ a tcs:NomenclaturalType ;
-            tcs:typifiedName <https://www.ipni.org/n/717216-1> ;
+            tcs:typifiedName <https://ipni.org/n/717216-1> ;
             tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/lectotype> ;
             tcs:typePublishedIn <https://id.biodiversity.org.au/reference/apni/39897> ] .
 
@@ -25,7 +25,7 @@
             dwciri:toTaxon <https://id.biodiversity.org.au/instance/apni/698961> ;
             dwciri:identifiedBy <https://orcid.org/0000-0001-9124-9802> ] ;
     dwciri:typeStatus [ a tcs:NomenclaturalType ;
-            tcs:typifiedName <https://www.ipni.org/n/717216-1> ;
+            tcs:typifiedName <https://ipni.org/n/717216-1> ;
             tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isolectotype> ;
             tcs:typePublishedIn <https://id.biodiversity.org.au/reference/apni/39897> ] .
 
@@ -36,7 +36,7 @@
             dwciri:toTaxon <https://id.biodiversity.org.au/instance/apni/698961> ;
             dwciri:identifiedBy <https://orcid.org/0000-0001-9124-9802> ] ;
     dwciri:typeStatus [ a tcs:NomenclaturalType ;
-            tcs:typifiedName <https://www.ipni.org/n/717216-1> ;
+            tcs:typifiedName <https://ipni.org/n/717216-1> ;
             tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isolectotype> ;
             tcs:typePublishedIn <https://id.biodiversity.org.au/reference/apni/39897> ] .
 
@@ -47,7 +47,7 @@ _:BM000050758 a dwc:PreservedSpecimen ;
             dwciri:toTaxon <https://id.biodiversity.org.au/instance/apni/698961> ;
             dwciri:identifiedBy <https://orcid.org/0000-0001-9124-9802> ] ;
     dwciri:typeStatus [ a tcs:NomenclaturalType ;
-            tcs:typifiedName <https://www.ipni.org/n/717216-1> ;
+            tcs:typifiedName <https://ipni.org/n/717216-1> ;
             tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isolectotype> ;
             tcs:typePublishedIn <https://id.biodiversity.org.au/reference/apni/39897> ] .
 
@@ -75,17 +75,17 @@ _:BM000050758 a dwc:PreservedSpecimen ;
 
 <https://id.biodiversity.org.au/instance/apni/698961> a tcs:TaxonConcept ;
     dcterms:title "Stenanthemum coronatum sec. Australian Plant Census 2011" ;
-    tcs:taxonName <https://www.ipni.org/n/718981-1> ;
+    tcs:taxonName <https://ipni.org/n/718981-1> ;
     tcs:accordingTo <https://id.biodiversity.org.au/reference/apni/49840> .
 
-<https://www.ipni.org/n/718981-1> a tcs:TaxonName ;
+<https://ipni.org/n/718981-1> a tcs:TaxonName ;
     tcs:taxonNameString "Stenanthemum coronatum" ;
     dwc:scientificNameAuthorship "(Reissek) Reissek" ;
     dwc:namePublishedIn "Linnaea 29: 295" ;
     dwc:namePublishedInYear "1858" ;
-    tcs:basionym <https://www.ipni.org/n/717216-1> .
+    tcs:basionym <https://ipni.org/n/717216-1> .
 
-<https://www.ipni.org/n/717216-1> a tcs:TaxonName ;
+<https://ipni.org/n/717216-1> a tcs:TaxonName ;
     tcs:taxonNameString "Cryptandra coronata" ;
     dwc:scientificNameAuthorship "Reissek" ;
     dwc:namePublishedIn "Pl. Preiss. [J.G.C.Lehmann] 2(2-3): 288" ;

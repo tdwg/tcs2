@@ -104,9 +104,9 @@ The following namespace aliases are used in the examples below:
 <https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:105644-1> a tcs:TaxonConcept ;
     dcterms:title "Begonia salaziensis sec. POWO 2022" ;
     tcs:accordingTo <urn:lsid:ipni.org:publications:17755-2> ;
-    tcs:taxonName <https://www.ipni.org/n/105644-1> .
+    tcs:taxonName <https://ipni.org/n/105644-1> .
 
-<https://www.ipni.org/n/105644-1> a tcs:TaxonName ;
+<https://ipni.org/n/105644-1> a tcs:TaxonName ;
     tcs:taxonNameString "Begonia salaziensis" ; 
     dwc:scientificNameAuthorship "Warb." ;
     dwc:namePublishedIn "Nat. Pflanzenfam. [Engler & Prantl] iii. 6 a. (1894) 139." .
@@ -335,21 +335,21 @@ _:b1 a foaf:Person ;
 [] a tcs:TaxonConcept ;
     dcterms:title "Hebe colensoi sec. Bayly & Kellow 2006" ;
     tcs:accordingTo <urn:isbn:978-0-909010-12-6> ;
-    tcs:taxonName <https://www.ipni.org/n/803678-1> ;
-    tcs:synonym <https://www.ipni.org/n/812087-1> .
+    tcs:taxonName <https://ipni.org/n/803678-1> ;
+    tcs:synonym <https://ipni.org/n/812087-1> .
 
-<https://www.ipni.org/n/803678-1> a tcs:TaxonName ;
+<https://ipni.org/n/803678-1> a tcs:TaxonName ;
     tcs:taxonNameString "Hebe colensoi" ;
     dwc:scientificNameAuthorship "(Hook.f.) Cockayne" ;
     dwc:namePublishedIn "Trans. & Proc. New Zealand Inst. 60: 384 (1929)" ;
-    tcs:basionym <https://www.ipni.org/n/811835-1> .
+    tcs:basionym <https://ipni.org/n/811835-1> .
 
-<https://www.ipni.org/n/811835-1> a tcs:TaxonName ;
+<https://ipni.org/n/811835-1> a tcs:TaxonName ;
     tcs:taxonNameString "Veronica colensoi" ;
     dwc:scientificNameAuthorship "Hook.f." ;
     dwc:namePublishedIn "Handb. N. Zeal. Fl. 209. (1864)" .
 
-<https://www.ipni.org/n/812087-1> a tcs:TaxonName ;
+<https://ipni.org/n/812087-1> a tcs:TaxonName ;
     tcs:taxonNameString "Veronica hillii" ;
     dwc:scientificNameAuthorship "Colenso" ;
     dwc:namePublishedIn "Trans. & Proc. New Zealand Inst. 28: 606 (1896)" .
@@ -435,12 +435,12 @@ _:b1 a foaf:Person ;
 [] a tcs:TaxonConcept ;
     dcterms:title "Quercus robur sec. Duistermaat 2020" ;
     tcs:accordingTo <urn:isbn:978-90-01-58956-1> ;
-    tcs:taxonName <https://www.ipni.org/n/304293-2> ;
+    tcs:taxonName <https://ipni.org/n/304293-2> ;
     tcs:vernacularName [ a gbif:VernacularName ;
             dwc:vernacularName "Zomereik" ;
             dcterms:language "nl" ] .
 
-<https://www.ipni.org/n/304293-2> a tcs:TaxonName ;
+<https://ipni.org/n/304293-2> a tcs:TaxonName ;
     tcs:taxonNameString "Quercus robur" .
 
 <urn:isbn:978-90-01-58956-1> a bibo:Book ;
@@ -459,7 +459,7 @@ _:b1 a foaf:Person ;
             dcterms:bibliographicCitation """VicFlora (2023). Flora of Victoria, 
                     Royal Botanic Gardens Victoria. Available online: 
                     https://vicflora.rbg.vic.gov.au (accessed on: 22 Mar. 2023).""" ] ;
-    tcs:taxonName <https://www.ipni.org/n/134460-3> ;
+    tcs:taxonName <https://ipni.org/n/134460-3> ;
     tcs:vernacularName [ a gbif:VernacularName ; 
             dwc:vernacularName "Scrub Cypress-pine" ;
             dcterms:language "en" ;
@@ -477,7 +477,7 @@ _:b1 a foaf:Person ;
             dcterms:language "en" ;
             gbif:isPreferredName <http://rs.gbif.org/vocab/boolean/false> ] .
 
-<https://www.ipni.org/n/134460-3> a tcs:TaxonName ;
+<https://ipni.org/n/134460-3> a tcs:TaxonName ;
     tcs:taxonNameString "Callitris verrucosa" ;
     dwc:scientificNameAuthorship "(A.Cunn. ex Endl.) F.Muell." .
 ```
@@ -658,7 +658,7 @@ _:b1 a foaf:Person ;
         [ a tcs:TaxonConcept ;
             dcterms:title "Dryopteridaceae sec. Nayar 1970" ;
             tcs:accordingTo <https://doi.org/10.2307/1217958> ;
-            tcs:taxonName <https://www.ipni.org/n/30014148-2> ] ,
+            tcs:taxonName <https://ipni.org/n/30014148-2> ] ,
         [ a tcs:TaxonConcept ;
             dcterms:title "Dennstaedtiaceae sec. Holttum 1947" ;
             tcs:accordingTo [ a dcterms:BibliographicResource ;
@@ -742,14 +742,14 @@ _:b1 a foaf:Person ;
 [] a tcs:TaxonConcept ;
     dcterms:title "Begonia seychellensis sec. Klazenga & al. 1994" ;
     tcs:accordingTo <https://doi/org/10.2307/3668252> ;
-    tcs:taxonName <https://www.ipni.org/n/105731-1> ;
+    tcs:taxonName <https://ipni.org/n/105731-1> ;
     tcs:intersects [ a tcs:TaxonConcept ;
         dcterms:title "Begonia comorensis sec. Keraudren-Aymonin 1983" ;
         tcs:accordingTo [ a bibo:Book ;
                 dcterms:bibliographicCitation """Keraudren-Aymonin, M. (1983). Flore 
                         de Madagascar et des Comores. Famille 144 – Begoniacées: 7-108""" ] ;
-        tcs:taxonName <https://www.ipni.org/n/104440-1> ;
-        tcs:synonym <https://www.ipni.org/n/105731-1> ] .
+        tcs:taxonName <https://ipni.org/n/104440-1> ;
+        tcs:synonym <https://ipni.org/n/105731-1> ] .
 ```
 
 [&lsqb;TaxonConcept-intersects-example-1.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-intersects-example-1.ttl)&nbsp;[&lsqb;TaxonConcept-intersects-example-1.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-intersects-example-1.jsonld)
@@ -759,33 +759,33 @@ _:b1 a foaf:Person ;
 <https://id.biodiversity.org.au/instance/apni/545068> a tcs:TaxonConcept ;
     dcterms:title "Euphrasia gibbsiae sec. Barker 1982" ;
     tcs:accordingTo <https://www.jstor.org/stable/23873848> ;
-    tcs:taxonName <https://www.ipni.org/n/802545-1> ;
-    tcs:synonym <https://www.ipni.org/n/802619-1> ;
+    tcs:taxonName <https://ipni.org/n/802545-1> ;
+    tcs:synonym <https://ipni.org/n/802619-1> ;
     tcs:intersects <https://id.biodiversity.org.au/instance/apni/713514> ,
         [ rdf:value [ a tcs:TaxonConcept ;
                     dcterms:title "Euphrasia gibbsiae sec. Willis 1967" ;
                     tcs:accordingTo <https://www.biodiversitylibrary.org/page/49934392> ;
-                    tcs:taxonName <https://www.ipni.org/n/802545-1> ] ;
+                    tcs:taxonName <https://ipni.org/n/802545-1> ] ;
             rdfs:comment """p.p. (as to Tasmanian occurrences and f. 
                     subglabrifolia in Victoria)""" ] ,
         [ rdf:value [ a tcs:TaxonConcept ;
                     dcterms:title "Euphrasia gibbsiae sec. Harris 1970" ;
                     tcs:accordingTo [ a dcterms:BibliographicResource ;
                             dcterms:bibliographicCitation "Harris, Alp. Pl. Austral. (1970)" ] ;
-                    tcs:taxonName <https://www.ipni.org/n/802545-1> ] ;
+                    tcs:taxonName <https://ipni.org/n/802545-1> ] ;
             rdfs:comment """p.p. (excl. "f. comberi" in Victoria)""" ] ,
         [ rdf:value [ a tcs:TaxonConcept ;
                     dcterms:title "Euphrasia striata sec. Bentham 1868" ;
                     tcs:accordingTo [ a dcterms:BibliographicResource ;
                             dcterms:bibliographicCitation "Bentham, Fl. Austral. (1868)" ] ;
-                    tcs:taxonName <https://www.ipni.org/n/802876-1> ] ;
+                    tcs:taxonName <https://ipni.org/n/802876-1> ] ;
             rdfs:comment """p.p. (as to Stuart 1745, Milligan MEL41451, p.p., 
                     Mueller MEL41539)""" ] .
 
 <https://id.biodiversity.org.au/instance/apni/713514> a tcs:TaxonConcept ;
     dcterms:title "Euphrasia gibbsiae sec. Curtis 1967" ;
     tcs:accordingTo <https://id.biodiversity.org.au/reference/apni/23028> ;
-    tcs:taxonName <https://www.ipni.org/n/802545-1> .
+    tcs:taxonName <https://ipni.org/n/802545-1> .
 
 # This treatment can be found in the BHL at
 # https://www.biodiversitylibrary.org/page/61979377.
@@ -848,11 +848,11 @@ _:b1 a foaf:Person ;
     tcs:mappingRelation tcs:isCongruentWith ;
     tcs:subjectTaxonConcept [ a tcs:TaxonConcept ;
         dcterms:title "Andropogon capillipes sec. BONAP 2014" ;
-        tcs:taxonName <https://www.ipni.org/n/12781-2> ;
+        tcs:taxonName <https://ipni.org/n/12781-2> ;
         tcs:accordingTo <http://bonap.net/napa#2014> ] ;
     tcs:objectTaxonConcept [ a tcs:TaxonConcept ;
         dcterms:title "Andropogon capillipes sec. Weakley 2006" ;
-        tcs:taxonName <https://www.ipni.org/n/12781-2> ;
+        tcs:taxonName <https://ipni.org/n/12781-2> ;
         tcs:accordingTo <http://www.herbarium.unc.edu/FloraArchives/WeakleyFlora_2006-Jan.pdf> ] .
 ```
 
@@ -912,18 +912,18 @@ _:b0  a tcs:TaxonConcept ;
     tcs:mappingRelation tcs:includes ;
     tcs:subjectTaxonConcept [ a tcs:TaxonConcept ;
         dcterms:title "Andropogon glomeratus sec. BONAP 2014" ;
-        tcs:taxonName <https://www.ipni.org/n/12850-2> ;
+        tcs:taxonName <https://ipni.org/n/12850-2> ;
         tcs:accordingTo <http://bonap.net/napa#2014> ] ;
     tcs:objectTaxonConcept [ a tcs:TaxonConcept ;
         dcterms:title "Andropogon tenuispatheus sec. Weakley 2006" ;
-        tcs:taxonName <https://www.ipni.org/n/13093-2> ;
+        tcs:taxonName <https://ipni.org/n/13093-2> ;
         tcs:accordingTo <http://www.herbarium.unc.edu/FloraArchives/WeakleyFlora_2006-Jan.pdf> ] .
 
-<https://www.ipni.org/n/12850-2> a tcs:TaxonName ;
+<https://ipni.org/n/12850-2> a tcs:TaxonName ;
     tcs:taxonNameString "Andropogon glomeratus" ;
     dwc:scientificNameAuthorship "Britton, Sterns & Poggenb." .
 
-<https://www.ipni.org/n/13093-2> a tcs:TaxonName ;
+<https://ipni.org/n/13093-2> a tcs:TaxonName ;
     tcs:taxonNameString "Andropogon tenuispatheus" ;
     dwc:scientificNameAuthorship "Nash" .
 ```
@@ -955,11 +955,11 @@ _:b0  a tcs:TaxonConcept ;
     tcs:mappingRelation tcs:isIncludedIn ;
     tcs:subjectTaxonConcept [ a tcs:TaxonConcept ;
         dcterms:title "Andropogon hirsutior sec. BONAP 2014" ;
-        tcs:taxonName <https://www.ipni.org/n/60458078-2> ;
+        tcs:taxonName <https://ipni.org/n/60458078-2> ;
         tcs:accordingTo <http://bonap.net/napa#2014> ] ;
     tcs:objectTaxonConcept [ a tcs:TaxonConcept ;
         dcterms:title "Andropogon glomeratus sec. Weakley 2006" ;
-        tcs:taxonName <https://www.ipni.org/n/12850-2> ;
+        tcs:taxonName <https://ipni.org/n/12850-2> ;
         tcs:accordingTo <http://www.herbarium.unc.edu/FloraArchives/WeakleyFlora_2006-Jan.pdf> ] .
 ```
 
@@ -997,7 +997,7 @@ _:b1 a tcs:TaxonConcept ;
     tcs:objectTaxonConcept [ a tcs:TaxonConcept ;
             dcterms:title "Dryopteridaceae sec. Nayar 1970" ;
             tcs:accordingTo <https://doi.org/10.2307/1217958> ;
-            tcs:taxonName <https://www.ipni.org/n/30014148-2> ] .
+            tcs:taxonName <https://ipni.org/n/30014148-2> ] .
 
 [] a tcs:TaxonConceptMapping ;
     tcs:mappingAccordingTo <https://doi.org/10.1002/tax.613003> ;
@@ -1023,11 +1023,11 @@ _:b1 a tcs:TaxonConcept ;
     tcs:mappingRelation tcs:partiallyOverlaps ;
     tcs:subjectTaxonConcept [ a tcs:TaxonConcept ;
             dcterms:title "Andropogon glomeratus sec. BONAP 2014" ;
-            tcs:taxonName <https://www.ipni.org/n/12850-2> ;
+            tcs:taxonName <https://ipni.org/n/12850-2> ;
             tcs:accordingTo <http://bonap.net/napa#2014> ] ;
     tcs:objectTaxonConcept [ a tcs:TaxonConcept ;
             dcterms:title "Andropogon glomeratus sec. Weakley 2006" ;
-            tcs:taxonName <https://www.ipni.org/n/12850-2> ;
+            tcs:taxonName <https://ipni.org/n/12850-2> ;
             tcs:accordingTo <http://www.herbarium.unc.edu/FloraArchives/WeakleyFlora_2006-Jan.pdf> ] .
 ```
 
@@ -1058,11 +1058,11 @@ _:b1 a tcs:TaxonConcept ;
     tcs:mappingRelation tcs:isDisjointFrom ;
     tcs:subjectTaxonConcept [ a tcs:TaxonConcept ;
         dcterms:title "Andropogon glaucopsis sec. BONAP 2014" ;
-        tcs:taxonName <https://www.ipni.org/n/387942-1> ;
+        tcs:taxonName <https://ipni.org/n/387942-1> ;
         tcs:accordingTo <http://bonap.net/napa#2014> ] ;
     tcs:objectTaxonConcept [ a tcs:TaxonConcept ;
         dcterms:title "Andropogon virginicus sec. Weakley 2006" ;
-        tcs:taxonName <https://www.ipni.org/n/388740-1> ;
+        tcs:taxonName <https://ipni.org/n/388740-1> ;
         tcs:accordingTo <http://www.herbarium.unc.edu/FloraArchives/WeakleyFlora_2006-Jan.pdf> ] .
 ```
 
@@ -1097,8 +1097,8 @@ _:b1 a tcs:TaxonConcept ;
 <https://id.biodiversity.org.au/instance/apni/545068> a tcs:TaxonConcept ;
     dcterms:title "Euphrasia gibbsiae sec. Barker 1982" ;
     tcs:accordingTo <https://www.jstor.org/stable/23873848> ;
-    tcs:taxonName <https://www.ipni.org/n/802545-1> ;
-    tcs:synonym <https://www.ipni.org/n/802619-1> .
+    tcs:taxonName <https://ipni.org/n/802545-1> ;
+    tcs:synonym <https://ipni.org/n/802619-1> .
 
 [] a tcs:TaxonConceptMapping ;
     tcs:mappingAccordingTo <https://www.jstor.org/stable/23873848> ;
@@ -1109,7 +1109,7 @@ _:b1 a tcs:TaxonConcept ;
 <https://id.biodiversity.org.au/instance/apni/713514> a tcs:TaxonConcept ;
     dcterms:title "Euphrasia gibbsiae sec. Curtis 1967" ;
     tcs:accordingTo <https://id.biodiversity.org.au/reference/apni/23028> ;
-    tcs:taxonName <https://www.ipni.org/n/802545-1> .
+    tcs:taxonName <https://ipni.org/n/802545-1> .
 
 [] a tcs:TaxonConceptMapping ;
     tcs:mappingAccordingTo <https://www.jstor.org/stable/23873848> ;
@@ -1118,7 +1118,7 @@ _:b1 a tcs:TaxonConcept ;
     tcs:objectTaxonConcept [ a tcs:TaxonConcept ;
             dcterms:title "Euphrasia gibbsiae sec. Willis 1970" ;
             tcs:accordingTo <https://www.biodiversitylibrary.org/page/49934392> ;
-            tcs:taxonName <https://www.ipni.org/n/802545-1> ] ;
+            tcs:taxonName <https://ipni.org/n/802545-1> ] ;
     rdfs:comment """p.p. (as to Tasmanian occurrences and f. subglabrifolia in 
             Victoria)"""
 
@@ -1130,7 +1130,7 @@ _:b1 a tcs:TaxonConcept ;
             dcterms:title "Euphrasia gibbsiae sec. Harris 1970" ;
             tcs:accordingTo [ a dcterms:BibliographicResource ;
                     dcterms:bibliographicCitation "Harris, Alp. Pl. Austral. (1970)" ] ;
-            tcs:taxonName <https://www.ipni.org/n/802545-1> ] ;
+            tcs:taxonName <https://ipni.org/n/802545-1> ] ;
     rdfs:comment """p.p. (excl. "f. comberi" in Victoria)""" .
 
 [] a tcs:TaxonConceptMapping ;
@@ -1141,7 +1141,7 @@ _:b1 a tcs:TaxonConcept ;
             dcterms:title "Euphrasia striata sec. Bentham 1868" ;
             tcs:accordingTo [ a dcterms:BibliographicResource ;
                     dcterms:bibliographicCitation "Bentham, Fl. Austral. (1868)" ] ;
-            tcs:taxonName <https://www.ipni.org/n/802876-1> ] ;
+            tcs:taxonName <https://ipni.org/n/802876-1> ] ;
     rdfs:comment """p.p. (as to Stuart 1745, Milligan MEL41451, p.p., Mueller 
             MEL41539)""" .
 ```
@@ -1186,14 +1186,14 @@ _:b1 a tcs:TaxonConcept ;
     tcs:subjectTaxonConcept [ a tcs:TaxonConcept ;
             dcterms:title "Begonia seychellensis sec. Klazenga & al. 1994" ;
             tcs:accordingTo <https://doi/org/10.2307/3668252> ;
-            tcs:taxonName <https://www.ipni.org/n/105731-1> ] ;
+            tcs:taxonName <https://ipni.org/n/105731-1> ] ;
     tcs:objectTaxonConcept [ a tcs:TaxonConcept ;
         dcterms:title "Begonia comorensis sec. Keraudren-Aymonin 1983" ;
         tcs:accordingTo [ a bibo:Book ;
                 dcterms:bibliographicCitation """Keraudren-Aymonin, M. (1983). Flore 
                         de Madagascar et des Comores. Famille 144 – Begoniacées: 7-108""" ] ;
-        tcs:taxonName <https://www.ipni.org/n/104440-1> ;
-        tcs:synonym <https://www.ipni.org/n/105731-1> ] .
+        tcs:taxonName <https://ipni.org/n/104440-1> ;
+        tcs:synonym <https://ipni.org/n/105731-1> ] .
 ```
 
 [&lsqb;TaxonConceptMapping-intersects-example-2.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConceptMapping-intersects-example-2.ttl)&nbsp;[&lsqb;TaxonConceptMapping-intersects-example-2.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConceptMapping-intersects-example-2.jsonld)
@@ -1215,7 +1215,7 @@ _:b1 a tcs:TaxonConcept ;
 
 #### TaxonName-example-2
 ```turtle
-<https://www.ipni.org/n/316069-1> a tcs:TaxonName ;
+<https://ipni.org/n/316069-1> a tcs:TaxonName ;
     tcs:taxonNameString "Rafflesia arnoldii" ;
     dwc:scientificNameAuthorship "R.Br." ;
     dwc:namePublishedIn "Account Rafflesia 7, tt. 15-22 (1821)" .
@@ -1236,7 +1236,7 @@ _:b1 a tcs:TaxonConcept ;
 #### TaxonName-example-4
 ```turtle
 # Example from TCS 1
-<https://www.ipni.org/n/50985479-1> a tcs:TaxonName ;
+<https://ipni.org/n/50985479-1> a tcs:TaxonName ;
     tcs:nomenclaturalCode <http://rs.gbif.org/vocabulary/gbif/nomenclatural_code/ICN> ;
     tcs:taxonomicNameString "Rhododendron sect. Sciadorhodion" ;
     dwc:scientificNameAuthorship "Rehder & Wilson" ;
@@ -1372,14 +1372,14 @@ _:b1 a tcs:TaxonConcept ;
 #### TaxonName-basionym-example-1
 ```turtle
 <https://id.biodiversity.org.au/name/apni/166271> a tcs:TaxonName ;
-    rdf:seeAlso <https://www.ipni.org/n/17571690-1> ;
+    rdf:seeAlso <https://ipni.org/n/17571690-1> ;
     tcs:taxonNameString "Doodia australis" ;
     dwc:scientificNameAuthorship "(Parris) Parris" ;
     dwc:namePublishedIn "Fl. Australia 48: 710 (1998)" ;
     tcs:basionym <https://id.biodiversity.org.au/name/apni/117170> .
 
 <https://id.biodiversity.org.au/name/apni/117170> a tcs:TaxonName ;
-    rdf:seeAlso <https://www.ipni.org/n/17567870-1> ;
+    rdf:seeAlso <https://ipni.org/n/17567870-1> ;
     tcs:taxonNameString "Doodia media subsp. australis" ;
     dwc:scientificNameAuthorship "Parris" ;
     dwc:namePublishedIn "New Zealand J. Bot. 10(4): 593 (1972)" .
@@ -1467,7 +1467,7 @@ _:b1 a tcs:TaxonName ;
     tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/illegitimum> .
 
 # prior homonym
-<https://www.ipni.org/n/39527-1> a tcs:TaxonName ;
+<https://ipni.org/n/39527-1> a tcs:TaxonName ;
     tcs:taxonNameString "Solmsia" ;
     dwc:scientificNameAuthorship "Baill." ;
     dwc:namePublishedIn "Adansonia 10: 37" ;
@@ -1478,28 +1478,28 @@ _:b1 a tcs:TaxonName ;
 
 #### TaxonName-replacedName-example-3
 ```turtle
-<https://www.ipni.org/n/17567870-1> a tcs:TaxonName ;
+<https://ipni.org/n/17567870-1> a tcs:TaxonName ;
     tcs:taxonNameString "Doodia media subsp. australis" ;
     dwc:scientificNameAuthorship: "Parris" ;
     dwc:namePublishedIn "New Zealand J. Bot. 10(4): 593" ;
     dwc:namePublishedInYear "1972" ;
-    rdf:seeAlso <https://www.ipni.org/n/167675-3> ,
+    rdf:seeAlso <https://ipni.org/n/167675-3> ,
             <https://id.biodiversity.org.au/name/apni/117170> .
 
-<https://www.ipni.org/n/17571690-1> a tcs:TaxonName ;
+<https://ipni.org/n/17571690-1> a tcs:TaxonName ;
     tcs:taxonNameString "Doodia australis" ;
     dwc:scientificNameAuthorship "(Parris) Parris" ;
     dwc:namePublishedIn "Fl. Australia 48: 710" ;
     dwc:namePublishedInYear "1998" ;
-    tcs:basionym <https://www.ipni.org/n/17567870-1> ;
+    tcs:basionym <https://ipni.org/n/17567870-1> ;
     rdf:seeAlso <https://id.biodiversity.org.au/name/apni/166271> .
 
-<https://www.ipni.org/n/77110594-1> a tcs:TaxonName ;
+<https://ipni.org/n/77110594-1> a tcs:TaxonName ;
     tcs:taxonNameString "Blechnum parrisiae" ;
     dwc:scientificNameAuthorship "Christenh." ;
     dwc:namePublishedIn "Phytotaxa 19: 20" ;
     dwc:namePublishedInYear "2011" ;
-    tcs:replacedName <https://www.ipni.org/n/17567870-1> ;
+    tcs:replacedName <https://ipni.org/n/17567870-1> ;
     rdf:seeAlso <https://id.biodiversity.org.au/instance/apni/51432623> .
 ```
 
@@ -1507,30 +1507,30 @@ _:b1 a tcs:TaxonName ;
 
 #### TaxonName-replacedName-example-4
 ```turtle
-<https://www.ipni.org/n/471632-1> a tcs:TaxonName ;
+<https://ipni.org/n/471632-1> a tcs:TaxonName ;
     tcs:taxonNameString "Acacia tenuifolia" ;
     dwc:scientificNameAuthorship "F.Muell." ;
     dwc:namePublishedIn "Trans. Philos. Soc. Victoria 1: 37" ;
     dwc:namePublishedInYear "1855" ;
     tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/illegitimum> ;
-    rdf:seeAlso <https://www.ipni.org/n/81578-3> ,
+    rdf:seeAlso <https://ipni.org/n/81578-3> ,
             <https://id.biodiversity.org.au/name/apni/71120> .
 
-<https://www.ipni.org/n/469641-1> a tcs:TaxonName ;
+<https://ipni.org/n/469641-1> a tcs:TaxonName ;
     tcs:taxonNameString "Acacia aculeatissima" ;
     dwc:scientificNameAuthorship "J.F.Macbr." ;
     dwc:namePublishedIn "Contr. Gray Herb. 59: 6" ;
     dwc:namePublishedInYear "1919" ;
-    tcs:replacedName <https://www.ipni.org/n/471632-1> ;
-    rdf:seeAlso <https://www.ipni.org/n/56412-3> ,
+    tcs:replacedName <https://ipni.org/n/471632-1> ;
+    rdf:seeAlso <https://ipni.org/n/56412-3> ,
             <https://id.biodiversity.org.au/name/apni/58056> .
 
-<https://www.ipni.org/n/60428094-2> a tcs:TaxonName ;
+<https://ipni.org/n/60428094-2> a tcs:TaxonName ;
     tcs:taxonNameString "Racosperma aculeatissimum" ;
     dwc:scientificNameAuthorship "(J.F.Macbr.) Pedley" ;
     dwc:namePublishedIn "Austrobaileya 6(3): 447" ;
     dwc:namePublishedInYear "2003" ;
-    tcs:basionym <https://www.ipni.org/n/469641-1> ;
+    tcs:basionym <https://ipni.org/n/469641-1> ;
     rdf:seeAlso <https://id.biodiversity.org.au/name/apni/190652> .
 ```
 
@@ -1691,15 +1691,15 @@ _:b1 a rdf:Seq ;
 ```turtle
 # Examples from TCS 1
 [] a tcs:NomenclaturalType ;
-    tcs:typifiedName <https://www.ipni.org/n/50985479-1> ;
+    tcs:typifiedName <https://ipni.org/n/50985479-1> ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/lectotype> ;
-    tcs:typeName <https://www.ipni.org/n/333193-1> ;
+    tcs:typeName <https://ipni.org/n/333193-1> ;
     tcs:typePublishedIn [ a bibo:Article ;
     	  dcterms:bibliographicCitation """Copeland, H.F. (1943). A study, anatomical and 
                 taxonomic, of the genera of Rhododendroideae. Am. Midl. Nat. 30: 533-625""" ] .
 
 [] a tcs:NomenclaturalType ;
-    tcs:typifiedName <https://www.ipni.org/n/333193-1> ;
+    tcs:typifiedName <https://ipni.org/n/333193-1> ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/lectotype> ;
     tcs:typeSpecimen [ a dwc:MaterialCitation ;
         dwc:verbatimLocality "Japan, Honshu, Nikko" ;
@@ -1713,11 +1713,11 @@ _:b1 a rdf:Seq ;
                 Journal of Botany 52: 1-54.""" ] .
 
 # name used in TaxonName examples; more data there
-<https://www.ipni.org/n/50985479-1> a tcs:TaxonName ;
+<https://ipni.org/n/50985479-1> a tcs:TaxonName ;
     tcs:taxonNameString "Rhododendron sect. Sciadorhodion" ;
     dwc:scientificNameAuthorship "Rehder & Wilson" .
 
-<https://www.ipni.org/n/333193-1> a tcs:TaxonName ;
+<https://ipni.org/n/333193-1> a tcs:TaxonName ;
     tcs:taxonNameString "Rhododendron quinquefolium" ;
     dwc:scientificNameAuthorship "Bisset & S.Moore" .
 ```

@@ -11,7 +11,7 @@
             dcterms:bibliographicCitation """VicFlora (2023). Flora of Victoria, 
                     Royal Botanic Gardens Victoria. Available online: 
                     https://vicflora.rbg.vic.gov.au (accessed on: 22 Mar. 2023).""" ] ;
-    tcs:taxonName <https://www.ipni.org/n/134460-3> ;
+    tcs:taxonName <https://ipni.org/n/134460-3> ;
     tcs:vernacularName [ a gbif:VernacularName ; 
             dwc:vernacularName "Scrub Cypress-pine" ;
             dcterms:language "en" ;
@@ -29,6 +29,6 @@
             dcterms:language "en" ;
             gbif:isPreferredName <http://rs.gbif.org/vocab/boolean/false> ] .
 
-<https://www.ipni.org/n/134460-3> a tcs:TaxonName ;
+<https://ipni.org/n/134460-3> a tcs:TaxonName ;
     tcs:taxonNameString "Callitris verrucosa" ;
     dwc:scientificNameAuthorship "(A.Cunn. ex Endl.) F.Muell." .

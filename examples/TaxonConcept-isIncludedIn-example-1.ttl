@@ -19,7 +19,7 @@
         [ a tcs:TaxonConcept ;
             dcterms:title "Dryopteridaceae sec. Nayar 1970" ;
             tcs:accordingTo <https://doi.org/10.2307/1217958> ;
-            tcs:taxonName <https://www.ipni.org/n/30014148-2> ] ,
+            tcs:taxonName <https://ipni.org/n/30014148-2> ] ,
         [ a tcs:TaxonConcept ;
             dcterms:title "Dennstaedtiaceae sec. Holttum 1947" ;
             tcs:accordingTo [ a dcterms:BibliographicResource ;

@@ -9,7 +9,7 @@
     "dcterms:bibliographicCitation": "Govaerts, R. (1996). World Checklist of Seed Plants 2(1, 2): 1-492. MIM, Deurne."
   },
   "taxonName": {
-    "id": "https://www.ipni.org/n/105644-1",
+    "id": "https://ipni.org/n/105644-1",
     "type": "TaxonName",
     "taxonNameString": "Begonia salaziensis",
     "dwc:scientificNameAuthorship": "Warb.",

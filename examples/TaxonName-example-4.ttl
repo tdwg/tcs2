@@ -4,7 +4,7 @@
 @prefix bibo: <http://purl.org/ontology/bibo/> .
 
 # Example from TCS 1
-<https://www.ipni.org/n/50985479-1> a tcs:TaxonName ;
+<https://ipni.org/n/50985479-1> a tcs:TaxonName ;
     tcs:nomenclaturalCode <http://rs.gbif.org/vocabulary/gbif/nomenclatural_code/ICN> ;
     tcs:taxonomicNameString "Rhododendron sect. Sciadorhodion" ;
     dwc:scientificNameAuthorship "Rehder & Wilson" ;

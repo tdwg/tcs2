@@ -71,7 +71,7 @@
           "type": "TaxonConcept",
           "dcterms:title": "Onocleoideae sec. Holttum 1947",
           "accordingTo": "_:b38",
-          "taxonName": "https://www.ipni.org/n/17436290-1"
+          "taxonName": "https://ipni.org/n/17436290-1"
         }
       ]
     },
@@ -333,7 +333,7 @@
       "type": "TaxonConcept",
       "dcterms:title": "Dryopteridaceae sec. Nayar 1970",
       "accordingTo": "https://doi.org/10.2307/1217958",
-      "taxonName": "https://www.ipni.org/n/30014148-2"
+      "taxonName": "https://ipni.org/n/30014148-2"
     },
     {
       "id": "_:1947-Dennstaedtiaceae",
@@ -391,7 +391,7 @@
       "taxonNameString": "Diplaziopsidaceae"
     },
     {
-      "id": "https://www.ipni.org/n/30014148-2",
+      "id": "https://ipni.org/n/30014148-2",
       "type": "TaxonName",
       "taxonNameString": "Dryopteridaceae",
       "dwc:scientificNameAuthorship": "Herter",
@@ -415,7 +415,7 @@
       "dwc:namePublishedInYear": "1970"
     },
     {
-      "id": "https://www.ipni.org/n/17436290-1",
+      "id": "https://ipni.org/n/17436290-1",
       "type": "TaxonName",
       "taxonNameString": "Onocleoideae",
       "dwc:scientificNameAuthorship": "B.K.Nayar",
@@ -458,13 +458,13 @@
           "id": "https://orcid.org/0000-0003-1568-150X"
         },
         {
-          "id": "https://www.ipni.org/a/20030162-1"
+          "id": "https://ipni.org/a/20030162-1"
         },
         {
           "id": "_:b50"
         },
         {
-          "id": "https://www.ipni.org/a/14414-1"
+          "id": "https://ipni.org/a/14414-1"
         },
         {
           "id": "https://orcid.org/0000-0003-3891-9904"
@@ -482,13 +482,13 @@
             "id": "https://orcid.org/0000-0003-1568-150X"
           },
           {
-            "id": "https://www.ipni.org/a/20030162-1"
+            "id": "https://ipni.org/a/20030162-1"
           },
           {
             "id": "_:b50"
           },
           {
-            "id": "https://www.ipni.org/a/14414-1"
+            "id": "https://ipni.org/a/14414-1"
           },
           {
             "id": "https://orcid.org/0000-0003-3891-9904"
@@ -502,7 +502,7 @@
         "type": "bibo:Issue",
         "dcterms:date": "2012",
         "dcterms:isPartOf": {
-          "id": "https://www.ipni.org/p/812-2"
+          "id": "https://ipni.org/p/812-2"
         },
         "bibo:volume": "61",
         "bibo:issue": "3"
@@ -522,7 +522,7 @@
           "id": "https://orcid.org/0000-0003-3425-1011"
         },
         {
-          "id": "https://www.ipni.org/a/40553-1"
+          "id": "https://ipni.org/a/40553-1"
         }
       ],
       "bibo:authorList": {
@@ -534,7 +534,7 @@
             "id": "https://orcid.org/0000-0003-3425-1011"
           },
           {
-            "id": "https://www.ipni.org/a/40553-1"
+            "id": "https://ipni.org/a/40553-1"
           }
         ]
       },
@@ -542,7 +542,7 @@
         "type": "bibo:Issue",
         "dcterms:date": "2011",
         "dcterms:isPartOf": {
-          "id": "https://www.ipni.org/p/20011462-1",
+          "id": "https://ipni.org/p/20011462-1",
           "type": "bibo:Journal",
           "dcterms:title": "Phytotaxa",
           "bibo:issn": "1179-3155"
@@ -559,7 +559,7 @@
       "dcterms:title": "A classification for extant ferns",
       "dcterms:creator": [
         {
-          "id": "https://www.ipni.org/a/9771-1"
+          "id": "https://ipni.org/a/9771-1"
         },
         {
           "id": "https://orcid.org/0000-0002-9776-6736"
@@ -571,7 +571,7 @@
           "id": "https://orcid.org/0000-0002-6677-5234"
         },
         {
-          "id": "https://www.ipni.org/a/40553-1"
+          "id": "https://ipni.org/a/40553-1"
         },
         {
           "id": "_:b53"
@@ -580,7 +580,7 @@
       "bibo:authorList": {
         "@list": [
           {
-            "id": "https://www.ipni.org/a/9771-1"
+            "id": "https://ipni.org/a/9771-1"
           },
           {
             "id": "https://orcid.org/0000-0002-9776-6736"
@@ -592,7 +592,7 @@
             "id": "https://orcid.org/0000-0002-6677-5234"
           },
           {
-            "id": "https://www.ipni.org/a/40553-1"
+            "id": "https://ipni.org/a/40553-1"
           },
           {
             "id": "_:b53"
@@ -603,7 +603,7 @@
         "type": "bibo:Issue",
         "dcterms:date": "2006",
         "dcterms:isPartOf": {
-          "id": "https://www.ipni.org/p/812-2"
+          "id": "https://ipni.org/p/812-2"
         },
         "bibo:volume": "55",
         "bibo:issue": "3"
@@ -616,12 +616,12 @@
       "type": "bibo:AcademicArticle",
       "dcterms:title": "Tentamen Pteridophytorum genera in taxonomicum ordinem redigendi",
       "dcterms:creator": {
-        "id": "https://www.ipni.org/a/7667-1"
+        "id": "https://ipni.org/a/7667-1"
       },
       "bibo:authorList": {
         "@list": [
           {
-            "id": "https://www.ipni.org/a/7667-1"
+            "id": "https://ipni.org/a/7667-1"
           }
         ]
       },
@@ -629,7 +629,7 @@
         "type": "bibo:Issue",
         "dcterms:date": "1977",
         "dcterms:isPartOf": {
-          "id": "https://www.ipni.org/p/826-2",
+          "id": "https://ipni.org/p/826-2",
           "type": "bibo:Journal",
           "dcterms:title": "Webbia"
         },
@@ -645,12 +645,12 @@
       "type": "bibo:AcademicArticle",
       "dcterms:title": "A phylogenetic classification of the homosporous ferns",
       "dcterms:creator": {
-        "id": "https://www.ipni.org/a/23960-1"
+        "id": "https://ipni.org/a/23960-1"
       },
       "bibo:authorList": {
         "@list": [
           {
-            "id": "https://www.ipni.org/a/23960-1"
+            "id": "https://ipni.org/a/23960-1"
           }
         ]
       },
@@ -658,7 +658,7 @@
         "type": "bibo:Issue",
         "dcterms:date": "1970",
         "dcterms:isPartOf": {
-          "id": "https://www.ipni.org/p/812-2"
+          "id": "https://ipni.org/p/812-2"
         },
         "bibo:volume": "19",
         "bibo:issue": "2"
@@ -668,7 +668,7 @@
       "bibo:uri": "https://onlinelibrary.wiley.com/doi/abs/10.2307/1217958"
     },
     {
-      "id": "https://www.ipni.org/p/812-2",
+      "id": "https://ipni.org/p/812-2",
       "type": "bibo:Journal",
       "dcterms:title": "Taxon",
       "bibo:issn": "1996-8175"
@@ -680,13 +680,13 @@
       "foaf:surname": "Christenhusz"
     },
     {
-      "id": "https://www.ipni.org/a/4063-1",
+      "id": "https://ipni.org/a/4063-1",
       "type": "foaf:Person",
       "foaf:givenname": "Richard Eric",
       "foaf:surname": "Holttum"
     },
     {
-      "id": "https://www.ipni.org/a/14414-1",
+      "id": "https://ipni.org/a/14414-1",
       "type": "foaf:Person",
       "foaf:givenname": "Masahiro",
       "foaf:surname": "Kato"
@@ -698,7 +698,7 @@
       "foaf:surname": "Korall"
     },
     {
-      "id": "https://www.ipni.org/a/20030162-1",
+      "id": "https://ipni.org/a/20030162-1",
       "type": "foaf:Person",
       "foaf:givenname": "L-Jaung",
       "foaf:surname": "Kuo"
@@ -710,13 +710,13 @@
       "foaf:surname": "Larsson"
     },
     {
-      "id": "https://www.ipni.org/a/23960-1",
+      "id": "https://ipni.org/a/23960-1",
       "type": "foaf:Person",
       "foaf:givenname": "Bala Krishnan",
       "foaf:surname": "Nayar"
     },
     {
-      "id": "https://www.ipni.org/a/7667-1",
+      "id": "https://ipni.org/a/7667-1",
       "type": "foaf:Person",
       "foaf:givenname": "Rodolfo Emilio Giuseppe",
       "foaf:surname": "Pichi Sermolli"
@@ -734,7 +734,7 @@
       "foaf:surname": "Rothfels"
     },
     {
-      "id": "https://www.ipni.org/a/40553-1",
+      "id": "https://ipni.org/a/40553-1",
       "type": "foaf:Person",
       "foaf:givenname": "Harald",
       "foaf:surname": "Schneider"
@@ -746,7 +746,7 @@
       "foaf:surname": "Schuetpelz"
     },
     {
-      "id": "https://www.ipni.org/a/9771-1",
+      "id": "https://ipni.org/a/9771-1",
       "type": "foaf:Person",
       "foaf:givenname": "Alan R.",
       "foaf:surname": "Smith"

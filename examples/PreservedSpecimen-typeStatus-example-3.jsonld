@@ -45,7 +45,7 @@
           "type": "TaxonConcept",
           "dcterms:title": "Eucalyptus crebra sec. Australian Plant Census 2006",
           "taxonName": {
-            "id": "https://www.ipni.org/n/592841-1",
+            "id": "https://ipni.org/n/592841-1",
             "type": "TaxonName",
             "taxonNameString": "Eucalyptus crebra",
             "dwc:scientificNameAuthorship": "F.Muel.",
@@ -58,7 +58,7 @@
         "type": "NomenclaturalType",
         "typeOfType": "isolectotype",
         "typifiedName": {
-          "id": "https://www.ipni.org/n/933707-1",
+          "id": "https://ipni.org/n/933707-1",
           "type": "TaxonName",
           "taxonNameString": "Eucalyptus xanthoclada",
           "dwc:scientificNameAuthorship": "Brooker & A.R.Bean",

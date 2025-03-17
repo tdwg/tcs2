@@ -15,7 +15,7 @@
                     foaf:name "National Herbarium of Victoria (MEL)" ] ] ;
     dwciri:typeStatus [ a tcs:NomenclaturalType ;
             tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isolectotype> ;
-            tcs:typifiedName <https://www.ipni.org/n/933707-1> ] .
+            tcs:typifiedName <https://ipni.org/n/933707-1> ] .
 
 <https://avh.ala.org.au/occurrences/f121f99a-5b02-4f7b-9d57-bb2718c0c7de> a dwc:Occurrence ;
     dwciri:recordedBy [ a foaf:Person ;
@@ -39,16 +39,16 @@
 
 <https://id.biodiversity.org.au/instance/apni/612750> a tcs:TaxonConcept ;
     dcterms:title "Eucalyptus crebra sec. Australian Plant Census 2006" ;
-    tcs:taxonName <https://www.ipni.org/n/592841-1> ;
+    tcs:taxonName <https://ipni.org/n/592841-1> ;
     tcs:accordingTo <https://id.biodiversity.org.au/reference/apni/42942> .
 
-<https://www.ipni.org/n/592841-1> a tcs:TaxonName ;
+<https://ipni.org/n/592841-1> a tcs:TaxonName ;
     tcs:taxonNameString "Eucalyptus crebra" ;
     dwc:scientificNameAuthorship "F.Muel." ;
     dwc:namePublishedIn "J. Proc. Linn. Soc., Bot. 3: 87" ;
     dwc:namePublishedInYear "1858" .
 
-<https://www.ipni.org/n/933707-1> a tcs:TaxonName ;
+<https://ipni.org/n/933707-1> a tcs:TaxonName ;
     tcs:taxonNameString "Eucalyptus xanthoclada" ;
     dwc:scientificNameAuthorship "Brooker & A.R.Bean" ;
     dwc:namePublishedIn "Brunonia 10(2): 193" ;

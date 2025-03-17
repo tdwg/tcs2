@@ -8,7 +8,7 @@
     "dcterms:bibliographicCitation": "Duistermaat, H. (2020). Heukels \n            Flora van Nederland, edn 24. Noordhoff, Groningen."
   },
   "taxonName": {
-    "id": "https://www.ipni.org/n/304293-2",
+    "id": "https://ipni.org/n/304293-2",
     "type": "TaxonName",
     "tcs:taxonNameString": "Quercus robur"
   },
