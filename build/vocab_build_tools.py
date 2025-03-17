@@ -240,16 +240,22 @@ def term_table(term):
     # Examples
     if 'examples' in term: 
         if isinstance(term['examples'], list):
-            examples = '<ul>'
+            examples = []
+            for ex in term['examples']:
+                examples.append('<li><a href="../examples/#' + ex + '">' + ex + '</a></li>')
+            
+            examples_text = ''
             for idx, ex in enumerate(term['examples']):
                 if idx == 0:
-                    first_example = add_example(ex, False)
-                examples += '<li><a href="../examples/#' + ex + '">' + ex + '</a></li>'
-            examples += '</ul>'
+                    examples_text += '<ul>' + examples[0] + '</ul>\n'
+                    examples_text += add_example(ex, False)
+                    examples_text += '\n'
+            examples_text += '<ul>' + '\n'.join(examples[1:]) + '</ul>'
+                    
                 
             text += table_row([
                 table_cell('Examples'),
-                table_cell('\n' + first_example + '\n' + examples)
+                table_cell(examples_text)
             ])
         elif isinstance(term['examples'], str):
             with open('../examples/' + term['examples'], 'r') as f:

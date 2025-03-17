@@ -86,7 +86,7 @@ nomenclatural data.
 		</tr>
 		<tr>
 			<td>Examples</td>
-			<td>
+			<td><ul><li><a href="../examples/#TaxonConcept-example-1">TaxonConcept-example-1</a></li></ul>
 
 ```turtle
 [] a tcs:TaxonConcept ;
@@ -105,7 +105,12 @@ nomenclatural data.
 ```
 
 
-<ul><li><a href="../examples/#TaxonConcept-example-1">TaxonConcept-example-1</a></li><li><a href="../examples/#TaxonConcept-example-2">TaxonConcept-example-2</a></li><li><a href="../examples/#TaxonConcept-example-3">TaxonConcept-example-3</a></li><li><a href="../examples/#TaxonConcept-example-4">TaxonConcept-example-4</a></li><li><a href="../examples/#TaxonConcept-example-5">TaxonConcept-example-5</a></li><li><a href="../examples/#TaxonConcept-example-6">TaxonConcept-example-6</a></li><li><a href="../examples/#TaxonConcept-example-7">TaxonConcept-example-7</a></li></ul></td>
+<ul><li><a href="../examples/#TaxonConcept-example-2">TaxonConcept-example-2</a></li>
+<li><a href="../examples/#TaxonConcept-example-3">TaxonConcept-example-3</a></li>
+<li><a href="../examples/#TaxonConcept-example-4">TaxonConcept-example-4</a></li>
+<li><a href="../examples/#TaxonConcept-example-5">TaxonConcept-example-5</a></li>
+<li><a href="../examples/#TaxonConcept-example-6">TaxonConcept-example-6</a></li>
+<li><a href="../examples/#TaxonConcept-example-7">TaxonConcept-example-7</a></li></ul></td>
 		</tr>
 		<tr>
 			<td>GitHub issue</td>
@@ -149,7 +154,7 @@ nomenclatural data.
 		</tr>
 		<tr>
 			<td>Examples</td>
-			<td>
+			<td><ul><li><a href="../examples/#TaxonConcept-accordingTo-example-1">TaxonConcept-accordingTo-example-1</a></li></ul>
 
 ```turtle
 # Taxonomic article (object of property only)
@@ -187,7 +192,8 @@ nomenclatural data.
 ```
 
 
-<ul><li><a href="../examples/#TaxonConcept-accordingTo-example-1">TaxonConcept-accordingTo-example-1</a></li><li><a href="../examples/#TaxonConcept-accordingTo-example-2">TaxonConcept-accordingTo-example-2</a></li><li><a href="../examples/#TaxonConcept-accordingTo-example-3">TaxonConcept-accordingTo-example-3</a></li></ul></td>
+<ul><li><a href="../examples/#TaxonConcept-accordingTo-example-2">TaxonConcept-accordingTo-example-2</a></li>
+<li><a href="../examples/#TaxonConcept-accordingTo-example-3">TaxonConcept-accordingTo-example-3</a></li></ul></td>
 		</tr>
 		<tr>
 			<td>GitHub issue</td>
@@ -271,7 +277,7 @@ nomenclatural data.
 		</tr>
 		<tr>
 			<td>Examples</td>
-			<td>
+			<td><ul><li><a href="../examples/#TaxonConcept-synonym-example-1">TaxonConcept-synonym-example-1</a></li></ul>
 
 ```turtle
 []  a tcs:TaxonConcept ;
@@ -339,7 +345,8 @@ nomenclatural data.
 ```
 
 
-<ul><li><a href="../examples/#TaxonConcept-synonym-example-1">TaxonConcept-synonym-example-1</a></li><li><a href="../examples/#TaxonConcept-synonym-example-2">TaxonConcept-synonym-example-2</a></li><li><a href="../examples/#TaxonConcept-synonym-example-3">TaxonConcept-synonym-example-3</a></li></ul></td>
+<ul><li><a href="../examples/#TaxonConcept-synonym-example-2">TaxonConcept-synonym-example-2</a></li>
+<li><a href="../examples/#TaxonConcept-synonym-example-3">TaxonConcept-synonym-example-3</a></li></ul></td>
 		</tr>
 		<tr>
 			<td>GitHub issue</td>
@@ -382,7 +389,7 @@ nomenclatural data.
 		</tr>
 		<tr>
 			<td>Examples</td>
-			<td>
+			<td><ul><li><a href="../examples/#TaxonConcept-vernacularName-example-1">TaxonConcept-vernacularName-example-1</a></li></ul>
 
 ```turtle
 [] a tcs:TaxonConcept ;
@@ -400,7 +407,8 @@ nomenclatural data.
 ```
 
 
-<ul><li><a href="../examples/#TaxonConcept-vernacularName-example-1">TaxonConcept-vernacularName-example-1</a></li><li><a href="../examples/#TaxonConcept-vernacularName-example-2">TaxonConcept-vernacularName-example-2</a></li><li><a href="../examples/#TaxonConcept-vernacularName-example-3">TaxonConcept-vernacularName-example-3</a></li></ul></td>
+<ul><li><a href="../examples/#TaxonConcept-vernacularName-example-2">TaxonConcept-vernacularName-example-2</a></li>
+<li><a href="../examples/#TaxonConcept-vernacularName-example-3">TaxonConcept-vernacularName-example-3</a></li></ul></td>
 		</tr>
 		<tr>
 			<td>GitHub issue</td>
@@ -483,7 +491,7 @@ nomenclatural data.
 		</tr>
 		<tr>
 			<td>Examples</td>
-			<td>
+			<td><ul><li><a href="../examples/#TaxonConcept-parent-example-1">TaxonConcept-parent-example-1</a></li></ul>
 
 ```turtle
 <https://www.catalogueoflife.org/data/taxon/6DBT> a tcs:TaxonConcept ;
@@ -527,7 +535,7 @@ nomenclatural data.
 ```
 
 
-<ul><li><a href="../examples/#TaxonConcept-parent-example-1">TaxonConcept-parent-example-1</a></li></ul></td>
+<ul></ul></td>
 		</tr>
 		<tr>
 			<td>GitHub issue</td>
@@ -566,7 +574,7 @@ nomenclatural data.
 		</tr>
 		<tr>
 			<td>Examples</td>
-			<td>
+			<td><ul><li><a href="../examples/#TaxonConcept-child-example-1">TaxonConcept-child-example-1</a></li></ul>
 
 ```turtle
 <https://www.catalogueoflife.org/data/taxon/6DBT> a tcs:TaxonConcept ;
@@ -610,7 +618,7 @@ nomenclatural data.
 ```
 
 
-<ul><li><a href="../examples/#TaxonConcept-child-example-1">TaxonConcept-child-example-1</a></li></ul></td>
+<ul></ul></td>
 		</tr>
 		<tr>
 			<td>GitHub issue</td>
@@ -655,7 +663,7 @@ nomenclatural data.
 		</tr>
 		<tr>
 			<td>Examples</td>
-			<td>
+			<td><ul><li><a href="../examples/#TaxonConcept-isCongruentWith-example-1">TaxonConcept-isCongruentWith-example-1</a></li></ul>
 
 ```turtle
 [] a tcs:TaxonConcept ;
@@ -681,7 +689,9 @@ nomenclatural data.
 ```
 
 
-<ul><li><a href="../examples/#TaxonConcept-isCongruentWith-example-1">TaxonConcept-isCongruentWith-example-1</a></li><li><a href="../examples/#TaxonConceptMapping-isCongruentWith-example-2">TaxonConceptMapping-isCongruentWith-example-2</a></li><li><a href="../examples/#TaxonConcept-isCongruentWith-example-3">TaxonConcept-isCongruentWith-example-3</a></li><li><a href="../examples/#TaxonConceptMapping-isCongruentWith-example-1">TaxonConceptMapping-isCongruentWith-example-1</a></li></ul></td>
+<ul><li><a href="../examples/#TaxonConceptMapping-isCongruentWith-example-2">TaxonConceptMapping-isCongruentWith-example-2</a></li>
+<li><a href="../examples/#TaxonConcept-isCongruentWith-example-3">TaxonConcept-isCongruentWith-example-3</a></li>
+<li><a href="../examples/#TaxonConceptMapping-isCongruentWith-example-1">TaxonConceptMapping-isCongruentWith-example-1</a></li></ul></td>
 		</tr>
 		<tr>
 			<td>GitHub issue</td>
@@ -726,7 +736,7 @@ nomenclatural data.
 		</tr>
 		<tr>
 			<td>Examples</td>
-			<td>
+			<td><ul><li><a href="../examples/#TaxonConcept-includes-example-1">TaxonConcept-includes-example-1</a></li></ul>
 
 ```turtle
 [] a tcs:TaxonConcept ;
@@ -740,7 +750,8 @@ nomenclatural data.
 ```
 
 
-<ul><li><a href="../examples/#TaxonConcept-includes-example-1">TaxonConcept-includes-example-1</a></li><li><a href="../examples/#TaxonConceptMapping-includes-example-2">TaxonConceptMapping-includes-example-2</a></li><li><a href="../examples/#TaxonConceptMapping-includes-example-1">TaxonConceptMapping-includes-example-1</a></li></ul></td>
+<ul><li><a href="../examples/#TaxonConceptMapping-includes-example-2">TaxonConceptMapping-includes-example-2</a></li>
+<li><a href="../examples/#TaxonConceptMapping-includes-example-1">TaxonConceptMapping-includes-example-1</a></li></ul></td>
 		</tr>
 		<tr>
 			<td>GitHub issue</td>
@@ -785,7 +796,7 @@ nomenclatural data.
 		</tr>
 		<tr>
 			<td>Examples</td>
-			<td>
+			<td><ul><li><a href="../examples/#TaxonConcept-isIncludedIn-example-1">TaxonConcept-isIncludedIn-example-1</a></li></ul>
 
 ```turtle
 [] a tcs:TaxonConcept ;
@@ -814,7 +825,8 @@ nomenclatural data.
 ```
 
 
-<ul><li><a href="../examples/#TaxonConcept-isIncludedIn-example-1">TaxonConcept-isIncludedIn-example-1</a></li><li><a href="../examples/#TaxonConceptMapping-isIncludedIn-example-2">TaxonConceptMapping-isIncludedIn-example-2</a></li><li><a href="../examples/#TaxonConceptMapping-isIncludedIn-example-1">TaxonConceptMapping-isIncludedIn-example-1</a></li></ul></td>
+<ul><li><a href="../examples/#TaxonConceptMapping-isIncludedIn-example-2">TaxonConceptMapping-isIncludedIn-example-2</a></li>
+<li><a href="../examples/#TaxonConceptMapping-isIncludedIn-example-1">TaxonConceptMapping-isIncludedIn-example-1</a></li></ul></td>
 		</tr>
 		<tr>
 			<td>GitHub issue</td>
@@ -859,7 +871,7 @@ nomenclatural data.
 		</tr>
 		<tr>
 			<td>Examples</td>
-			<td>
+			<td><ul><li><a href="../examples/#TaxonConcept-partiallyOverlaps-example-1">TaxonConcept-partiallyOverlaps-example-1</a></li></ul>
 
 ```turtle
 [] a tcs:TaxonConcept ;
@@ -873,7 +885,8 @@ nomenclatural data.
 ```
 
 
-<ul><li><a href="../examples/#TaxonConcept-partiallyOverlaps-example-1">TaxonConcept-partiallyOverlaps-example-1</a></li><li><a href="../examples/#TaxonConceptMapping-partiallyOverlaps-example-2">TaxonConceptMapping-partiallyOverlaps-example-2</a></li><li><a href="../examples/#TaxonConceptMapping-partiallyOverlaps-example-1">TaxonConceptMapping-partiallyOverlaps-example-1</a></li></ul></td>
+<ul><li><a href="../examples/#TaxonConceptMapping-partiallyOverlaps-example-2">TaxonConceptMapping-partiallyOverlaps-example-2</a></li>
+<li><a href="../examples/#TaxonConceptMapping-partiallyOverlaps-example-1">TaxonConceptMapping-partiallyOverlaps-example-1</a></li></ul></td>
 		</tr>
 		<tr>
 			<td>GitHub issue</td>
@@ -918,7 +931,7 @@ nomenclatural data.
 		</tr>
 		<tr>
 			<td>Examples</td>
-			<td>
+			<td><ul><li><a href="../examples/#TaxonConcept-isDisjointFrom-example-1">TaxonConcept-isDisjointFrom-example-1</a></li></ul>
 
 ```turtle
 [] a tcs:TaxonConcept 
@@ -943,7 +956,8 @@ nomenclatural data.
 ```
 
 
-<ul><li><a href="../examples/#TaxonConcept-isDisjointFrom-example-1">TaxonConcept-isDisjointFrom-example-1</a></li><li><a href="../examples/#TaxonConceptMapping-isDisjointFrom-example-2">TaxonConceptMapping-isDisjointFrom-example-2</a></li><li><a href="../examples/#TaxonConceptMapping-isDisjointFrom-example-1">TaxonConceptMapping-isDisjointFrom-example-1</a></li></ul></td>
+<ul><li><a href="../examples/#TaxonConceptMapping-isDisjointFrom-example-2">TaxonConceptMapping-isDisjointFrom-example-2</a></li>
+<li><a href="../examples/#TaxonConceptMapping-isDisjointFrom-example-1">TaxonConceptMapping-isDisjointFrom-example-1</a></li></ul></td>
 		</tr>
 		<tr>
 			<td>GitHub issue</td>
@@ -987,7 +1001,7 @@ nomenclatural data.
 		</tr>
 		<tr>
 			<td>Examples</td>
-			<td>
+			<td><ul><li><a href="../examples/#TaxonConcept-intersects-example-1">TaxonConcept-intersects-example-1</a></li></ul>
 
 ```turtle
 [] a tcs:TaxonConcept ;
@@ -1023,7 +1037,9 @@ nomenclatural data.
 ```
 
 
-<ul><li><a href="../examples/#TaxonConcept-intersects-example-1">TaxonConcept-intersects-example-1</a></li><li><a href="../examples/#TaxonConcept-intersects-example-2">TaxonConcept-intersects-example-2</a></li><li><a href="../examples/#TaxonConceptMapping-intersects-example-1">TaxonConceptMapping-intersects-example-1</a></li><li><a href="../examples/#TaxonConcept-intersects-example-3">TaxonConcept-intersects-example-3</a></li></ul></td>
+<ul><li><a href="../examples/#TaxonConcept-intersects-example-2">TaxonConcept-intersects-example-2</a></li>
+<li><a href="../examples/#TaxonConceptMapping-intersects-example-1">TaxonConceptMapping-intersects-example-1</a></li>
+<li><a href="../examples/#TaxonConcept-intersects-example-3">TaxonConcept-intersects-example-3</a></li></ul></td>
 		</tr>
 		<tr>
 			<td>GitHub issue</td>
@@ -1211,7 +1227,7 @@ nomenclatural data.
 		</tr>
 		<tr>
 			<td>Examples</td>
-			<td>
+			<td><ul><li><a href="../examples/#TaxonConceptMapping-isCongruentWith-example-1">TaxonConceptMapping-isCongruentWith-example-1</a></li></ul>
 
 ```turtle
 # Andropogon capillipes sec. BONAP 2014 is congruent with Andropogon capillipes sec. Weakley 2006
@@ -1229,7 +1245,17 @@ nomenclatural data.
 ```
 
 
-<ul><li><a href="../examples/#TaxonConceptMapping-isCongruentWith-example-1">TaxonConceptMapping-isCongruentWith-example-1</a></li><li><a href="../examples/#TaxonConceptMapping-isCongruentWith-example-2">TaxonConceptMapping-isCongruentWith-example-2</a></li><li><a href="../examples/#TaxonConceptMapping-includes-example-1">TaxonConceptMapping-includes-example-1</a></li><li><a href="../examples/#TaxonConceptMapping-includes-example-2">TaxonConceptMapping-includes-example-2</a></li><li><a href="../examples/#TaxonConceptMapping-isIncludedIn-example-1">TaxonConceptMapping-isIncludedIn-example-1</a></li><li><a href="../examples/#TaxonConceptMapping-isIncludedIn-example-2">TaxonConceptMapping-isIncludedIn-example-2</a></li><li><a href="../examples/#TaxonConceptMapping-partiallyOverlaps-example-1">TaxonConceptMapping-partiallyOverlaps-example-1</a></li><li><a href="../examples/#TaxonConceptMapping-partiallyOverlaps-example-2">TaxonConceptMapping-partiallyOverlaps-example-2</a></li><li><a href="../examples/#TaxonConceptMapping-isDisjointFrom-example-1">TaxonConceptMapping-isDisjointFrom-example-1</a></li><li><a href="../examples/#TaxonConceptMapping-isDisjointFrom-example-2">TaxonConceptMapping-isDisjointFrom-example-2</a></li><li><a href="../examples/#TaxonConceptMapping-intersects-example-1">TaxonConceptMapping-intersects-example-1</a></li><li><a href="../examples/#TaxonConceptMapping-intersects-example-2">TaxonConceptMapping-intersects-example-2</a></li></ul></td>
+<ul><li><a href="../examples/#TaxonConceptMapping-isCongruentWith-example-2">TaxonConceptMapping-isCongruentWith-example-2</a></li>
+<li><a href="../examples/#TaxonConceptMapping-includes-example-1">TaxonConceptMapping-includes-example-1</a></li>
+<li><a href="../examples/#TaxonConceptMapping-includes-example-2">TaxonConceptMapping-includes-example-2</a></li>
+<li><a href="../examples/#TaxonConceptMapping-isIncludedIn-example-1">TaxonConceptMapping-isIncludedIn-example-1</a></li>
+<li><a href="../examples/#TaxonConceptMapping-isIncludedIn-example-2">TaxonConceptMapping-isIncludedIn-example-2</a></li>
+<li><a href="../examples/#TaxonConceptMapping-partiallyOverlaps-example-1">TaxonConceptMapping-partiallyOverlaps-example-1</a></li>
+<li><a href="../examples/#TaxonConceptMapping-partiallyOverlaps-example-2">TaxonConceptMapping-partiallyOverlaps-example-2</a></li>
+<li><a href="../examples/#TaxonConceptMapping-isDisjointFrom-example-1">TaxonConceptMapping-isDisjointFrom-example-1</a></li>
+<li><a href="../examples/#TaxonConceptMapping-isDisjointFrom-example-2">TaxonConceptMapping-isDisjointFrom-example-2</a></li>
+<li><a href="../examples/#TaxonConceptMapping-intersects-example-1">TaxonConceptMapping-intersects-example-1</a></li>
+<li><a href="../examples/#TaxonConceptMapping-intersects-example-2">TaxonConceptMapping-intersects-example-2</a></li></ul></td>
 		</tr>
 		<tr>
 			<td>GitHub issue</td>
@@ -1488,7 +1514,7 @@ nomenclatural data.
 		</tr>
 		<tr>
 			<td>Examples</td>
-			<td>
+			<td><ul><li><a href="../examples/#TaxonName-example-1">TaxonName-example-1</a></li></ul>
 
 ```turtle
 <urn:lsid:zoobank.org:act:355AAA50-D89F-466E-A216-96B7A17D5AD4> a tcs:TaxonName ;
@@ -1497,7 +1523,9 @@ nomenclatural data.
 ```
 
 
-<ul><li><a href="../examples/#TaxonName-example-1">TaxonName-example-1</a></li><li><a href="../examples/#TaxonName-example-2">TaxonName-example-2</a></li><li><a href="../examples/#TaxonName-example-3">TaxonName-example-3</a></li><li><a href="../examples/#TaxonName-example-4">TaxonName-example-4</a></li></ul></td>
+<ul><li><a href="../examples/#TaxonName-example-2">TaxonName-example-2</a></li>
+<li><a href="../examples/#TaxonName-example-3">TaxonName-example-3</a></li>
+<li><a href="../examples/#TaxonName-example-4">TaxonName-example-4</a></li></ul></td>
 		</tr>
 		<tr>
 			<td>GitHub issue</td>
@@ -1731,7 +1759,7 @@ nomenclatural data.
 		</tr>
 		<tr>
 			<td>Examples</td>
-			<td>
+			<td><ul><li><a href="../examples/#TaxonName-typification-example-1">TaxonName-typification-example-1</a></li></ul>
 
 ```turtle
 <https://ipni.org/n/105731-1> a tcs:TaxonName ;
@@ -1786,7 +1814,7 @@ nomenclatural data.
 ```
 
 
-<ul><li><a href="../examples/#TaxonName-typification-example-1">TaxonName-typification-example-1</a></li><li><a href="../examples/#TaxonName-typification-example-2">TaxonName-typification-example-2</a></li></ul></td>
+<ul><li><a href="../examples/#TaxonName-typification-example-2">TaxonName-typification-example-2</a></li></ul></td>
 		</tr>
 		<tr>
 			<td>GitHub issue</td>
@@ -1868,7 +1896,7 @@ nomenclatural data.
 		</tr>
 		<tr>
 			<td>Examples</td>
-			<td>
+			<td><ul><li><a href="../examples/#TaxonName-basionym-example-1">TaxonName-basionym-example-1</a></li></ul>
 
 ```turtle
 <https://id.biodiversity.org.au/name/apni/166271> a tcs:TaxonName ;
@@ -1886,7 +1914,7 @@ nomenclatural data.
 ```
 
 
-<ul><li><a href="../examples/#TaxonName-basionym-example-1">TaxonName-basionym-example-1</a></li><li><a href="../examples/#TaxonName-basionym-example-2">TaxonName-basionym-example-2</a></li></ul></td>
+<ul><li><a href="../examples/#TaxonName-basionym-example-2">TaxonName-basionym-example-2</a></li></ul></td>
 		</tr>
 		<tr>
 			<td>GitHub issue</td>
@@ -1929,7 +1957,7 @@ nomenclatural data.
 		</tr>
 		<tr>
 			<td>Examples</td>
-			<td>
+			<td><ul><li><a href="../examples/#TaxonName-replacedName-example-1">TaxonName-replacedName-example-1</a></li></ul>
 
 ```turtle
 <https://www.tropicos.org/name/35183593> a tcs:TaxonName ;
@@ -1970,7 +1998,9 @@ nomenclatural data.
 ```
 
 
-<ul><li><a href="../examples/#TaxonName-replacedName-example-1">TaxonName-replacedName-example-1</a></li><li><a href="../examples/#TaxonName-replacedName-example-2">TaxonName-replacedName-example-2</a></li><li><a href="../examples/#TaxonName-replacedName-example-3">TaxonName-replacedName-example-3</a></li><li><a href="../examples/#TaxonName-replacedName-example-4">TaxonName-replacedName-example-4</a></li></ul></td>
+<ul><li><a href="../examples/#TaxonName-replacedName-example-2">TaxonName-replacedName-example-2</a></li>
+<li><a href="../examples/#TaxonName-replacedName-example-3">TaxonName-replacedName-example-3</a></li>
+<li><a href="../examples/#TaxonName-replacedName-example-4">TaxonName-replacedName-example-4</a></li></ul></td>
 		</tr>
 		<tr>
 			<td>GitHub issue</td>
@@ -2091,7 +2121,7 @@ nomenclatural data.
 		</tr>
 		<tr>
 			<td>Examples</td>
-			<td>
+			<td><ul><li><a href="../examples/#TaxonName-conservedAgainst-example-1">TaxonName-conservedAgainst-example-1</a></li></ul>
 
 ```turtle
 <https://www.tropicos.org/name/35000378> a tcs:TaxonName ;
@@ -2113,7 +2143,7 @@ nomenclatural data.
 ```
 
 
-<ul><li><a href="../examples/#TaxonName-conservedAgainst-example-1">TaxonName-conservedAgainst-example-1</a></li></ul></td>
+<ul></ul></td>
 		</tr>
 		<tr>
 			<td>GitHub issue</td>
@@ -2156,7 +2186,7 @@ nomenclatural data.
 		</tr>
 		<tr>
 			<td>Examples</td>
-			<td>
+			<td><ul><li><a href="../examples/#TaxonName-combinationAuthor-example-1">TaxonName-combinationAuthor-example-1</a></li></ul>
 
 ```turtle
 <https://ipni.org/n/316069-1> a tcs:TaxonName ;
@@ -2171,7 +2201,7 @@ nomenclatural data.
 ```
 
 
-<ul><li><a href="../examples/#TaxonName-combinationAuthor-example-1">TaxonName-combinationAuthor-example-1</a></li></ul></td>
+<ul></ul></td>
 		</tr>
 		<tr>
 			<td>GitHub issue</td>
@@ -2253,7 +2283,7 @@ nomenclatural data.
 		</tr>
 		<tr>
 			<td>Examples</td>
-			<td>
+			<td><ul><li><a href="../examples/#TaxonName-basionymAuthor-example-1">TaxonName-basionymAuthor-example-1</a></li></ul>
 
 ```turtle
 <https://tropicos.org/name/35121611> a tcs:taxonName ;
@@ -2289,7 +2319,7 @@ _:b1 a rdf:Seq ;
 ```
 
 
-<ul><li><a href="../examples/#TaxonName-basionymAuthor-example-1">TaxonName-basionymAuthor-example-1</a></li></ul></td>
+<ul></ul></td>
 		</tr>
 		<tr>
 			<td>GitHub issue</td>
@@ -2371,7 +2401,7 @@ _:b1 a rdf:Seq ;
 		</tr>
 		<tr>
 			<td>Examples</td>
-			<td>
+			<td><ul><li><a href="../examples/#TaxonName-combinationAscribedAuthor-example-1">TaxonName-combinationAscribedAuthor-example-1</a></li></ul>
 
 ```turtle
 <https://tropicos.org/name/35153928> a tcs:TaxonName ;
@@ -2392,7 +2422,7 @@ _:b1 a rdf:Seq ;
 ```
 
 
-<ul><li><a href="../examples/#TaxonName-combinationAscribedAuthor-example-1">TaxonName-combinationAscribedAuthor-example-1</a></li></ul></td>
+<ul></ul></td>
 		</tr>
 		<tr>
 			<td>GitHub issue</td>
@@ -2474,7 +2504,7 @@ _:b1 a rdf:Seq ;
 		</tr>
 		<tr>
 			<td>Examples</td>
-			<td>
+			<td><ul><li><a href="../examples/#TaxonName-basionymAscribedAuthor-example-1">TaxonName-basionymAscribedAuthor-example-1</a></li></ul>
 
 ```turtle
 <https://ipni.org/n/3007069-1> a tcs:TaxonName ;
@@ -2510,7 +2540,7 @@ _:b1 a rdf:Seq ;
 ```
 
 
-<ul><li><a href="../examples/#TaxonName-basionymAscribedAuthor-example-1">TaxonName-basionymAscribedAuthor-example-1</a></li></ul></td>
+<ul></ul></td>
 		</tr>
 		<tr>
 			<td>GitHub issue</td>
@@ -2870,7 +2900,7 @@ _:b1 a rdf:Seq ;
 		</tr>
 		<tr>
 			<td>Examples</td>
-			<td>
+			<td><ul><li><a href="../examples/#NomenclaturalType-example-1">NomenclaturalType-example-1</a></li></ul>
 
 ```turtle
 # Examples from TCS 1
@@ -2907,7 +2937,7 @@ _:b1 a rdf:Seq ;
 ```
 
 
-<ul><li><a href="../examples/#NomenclaturalType-example-1">NomenclaturalType-example-1</a></li></ul></td>
+<ul></ul></td>
 		</tr>
 		<tr>
 			<td>GitHub issue</td>
