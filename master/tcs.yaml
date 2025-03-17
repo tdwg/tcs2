@@ -1121,8 +1121,7 @@
   label: Combination author
   definition: Author of the combination
   usage: >-
-    `combinationAuthor` is an IRI property. It can be a Person or a Group, or
-    multiple Person IRIs or objects.
+    `combinationAuthor` is an IRI property. It can be a person or a list of persons.
   notes: >-
     'combination' is taken here to be a different name with the same
     nomenclatural type.
@@ -1154,8 +1153,8 @@
   label: Basionym author
   definition: Author of the basionym of the name
   usage: >-
-    `basionymAuthor` is an IRI property. It can be a Person or a Group, or
-    multiple Person IRIs or objects.
+    `basionymAuthor` is an IRI property. It can be a person or a list of
+    persons.
   notes: >-
     `basionymAuthor` (or its literal counterpart) is the bit in parentheses
     in the `dwc:scientificNameAuthorship`.
@@ -1187,8 +1186,8 @@
   label: Combination ascribed author
   definition: Ascribed author of the present name
   usage: >-
-    `combinationAscibedAuthor` is an IRI property. It can be a Person or a Group, or
-    multiple Person IRIs or objects.
+    `combinationAscribedAuthor` is an IRI property. It can be a person or a list
+    of persons.
   notes: >-
     'Ascribed author' is a person (or group of people) who a name is ascribed to
     in a publication, but who is not the author of the name according to the
@@ -1234,8 +1233,8 @@
   label: Basionym author
   definition: Ascribed author of the basionym of the name
   usage: >-
-    `basionymAscribedAuthor` is an IRI property. It can be a Person or a Group, or
-    multiple Person IRIs or objects.
+    `basionymAscribedAuthor` is an IRI property. It can be a person or a list of
+    persons.
   notes: >-
     'Ascribed author' is a person (or group of people) who a name is ascribed to
     in a publication, but who is not the author of the name according to the

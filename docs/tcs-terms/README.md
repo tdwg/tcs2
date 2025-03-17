@@ -2178,7 +2178,7 @@ nomenclatural data.
 		</tr>
 		<tr>
 			<td>Usage</td>
-			<td><p><code>combinationAuthor</code> is an IRI property. It can be a Person or a Group, or multiple Person IRIs or objects.</p></td>
+			<td><p><code>combinationAuthor</code> is an IRI property. It can be a person or a list of persons.</p></td>
 		</tr>
 		<tr>
 			<td>Comments</td>
@@ -2275,7 +2275,7 @@ nomenclatural data.
 		</tr>
 		<tr>
 			<td>Usage</td>
-			<td><p><code>basionymAuthor</code> is an IRI property. It can be a Person or a Group, or multiple Person IRIs or objects.</p></td>
+			<td><p><code>basionymAuthor</code> is an IRI property. It can be a person or a list of persons.</p></td>
 		</tr>
 		<tr>
 			<td>Comments</td>
@@ -2393,7 +2393,7 @@ _:b1 a rdf:Seq ;
 		</tr>
 		<tr>
 			<td>Usage</td>
-			<td><p><code>combinationAscibedAuthor</code> is an IRI property. It can be a Person or a Group, or multiple Person IRIs or objects.</p></td>
+			<td><p><code>combinationAscribedAuthor</code> is an IRI property. It can be a person or a list of persons.</p></td>
 		</tr>
 		<tr>
 			<td>Comments</td>
@@ -2496,7 +2496,7 @@ _:b1 a rdf:Seq ;
 		</tr>
 		<tr>
 			<td>Usage</td>
-			<td><p><code>basionymAscribedAuthor</code> is an IRI property. It can be a Person or a Group, or multiple Person IRIs or objects.</p></td>
+			<td><p><code>basionymAscribedAuthor</code> is an IRI property. It can be a person or a list of persons.</p></td>
 		</tr>
 		<tr>
 			<td>Comments</td>
