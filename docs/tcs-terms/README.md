@@ -86,7 +86,26 @@ nomenclatural data.
 		</tr>
 		<tr>
 			<td>Examples</td>
-			<td><ul><li><a href="../examples/#TaxonConcept-example-1">TaxonConcept-example-1</a></li><li><a href="../examples/#TaxonConcept-example-2">TaxonConcept-example-2</a></li><li><a href="../examples/#TaxonConcept-example-3">TaxonConcept-example-3</a></li><li><a href="../examples/#TaxonConcept-example-4">TaxonConcept-example-4</a></li><li><a href="../examples/#TaxonConcept-example-5">TaxonConcept-example-5</a></li><li><a href="../examples/#TaxonConcept-example-6">TaxonConcept-example-6</a></li><li><a href="../examples/#TaxonConcept-example-7">TaxonConcept-example-7</a></li></ul></td>
+			<td>
+
+```turtle
+[] a tcs:TaxonConcept ;
+    dcterms:title "Dicranoloma blumei sec. Klazenga 1999" ;
+    tcs:accordingTo <https://www.tropicos.org/reference/9020903> 
+    tcs:taxonName <https://www.tropicos.org/name/35121475> .
+
+<https://www.tropicos.org/name/35121475> a tcs:TaxonName ;
+    tcs:taxonNameString "Dicranoloma blumei" ;
+    dwc:scientificNameAuthorship "(Nees) Renauld" .
+
+<https://www.tropicos.org/reference/9020903> a bibo:AcademicArticle ;
+    dcterms:bibliographicCitation """Klazenga, N. (1999). A revision of the 
+            Malesian species of Dicranoloma (Dicranaceae, Musci). Journal of the 
+            Hattori Botanical Laboratory 87: 1-130.""" .
+```
+
+
+<ul><li><a href="../examples/#TaxonConcept-example-1">TaxonConcept-example-1</a></li><li><a href="../examples/#TaxonConcept-example-2">TaxonConcept-example-2</a></li><li><a href="../examples/#TaxonConcept-example-3">TaxonConcept-example-3</a></li><li><a href="../examples/#TaxonConcept-example-4">TaxonConcept-example-4</a></li><li><a href="../examples/#TaxonConcept-example-5">TaxonConcept-example-5</a></li><li><a href="../examples/#TaxonConcept-example-6">TaxonConcept-example-6</a></li><li><a href="../examples/#TaxonConcept-example-7">TaxonConcept-example-7</a></li></ul></td>
 		</tr>
 		<tr>
 			<td>GitHub issue</td>
@@ -130,7 +149,45 @@ nomenclatural data.
 		</tr>
 		<tr>
 			<td>Examples</td>
-			<td><ul><li><a href="../examples/#TaxonConcept-accordingTo-example-1">TaxonConcept-accordingTo-example-1</a></li><li><a href="../examples/#TaxonConcept-accordingTo-example-2">TaxonConcept-accordingTo-example-2</a></li><li><a href="../examples/#TaxonConcept-accordingTo-example-3">TaxonConcept-accordingTo-example-3</a></li></ul></td>
+			<td>
+
+```turtle
+# Taxonomic article (object of property only)
+<https://doi.org/10.1080/14772000.2013.806371> a bibo:AcademicArticle ;
+    dcterms:creator <https://orcid.org/0000-0001-7089-7018>,
+            <https://orcid.org/0000-0002-2469-8162> ;
+    bibo:authorList ( <https://orcid.org/0000-0001-7089-7018> 
+        	<https://orcid.org/0000-0002-2469-8162> ) ;
+    dcterms:title """Description of two new species and phylogenetic reassessment of 
+            Perelleschus O’Brien & Wibmer, 1986 (Coleoptera: Curculionidae), with 
+            a complete taxonomic concept history of Perelleschus sec. Franz & 
+            Cardona-Duque, 2013""" ;
+    bibo:shortTitle """Description of two new species and phylogenetic reassessment 
+            of Perelleschus O’Brien & Wibmer, 1986 (Coleoptera""" ;
+    dcterms:isPartOf [ a bibo:Issue ;
+        dcterms:date "June 1, 2013" ;
+        dcterms:isPartOf [ a bibo:Journal ;
+                dcterms:title "Systematics and Biodiversity" ;
+                bibo:issn "1477-2000" ] ;
+                dcterms:publisher [ a foaf:Organization ;
+                    foaf:name "Taylor & Francis" ] ;
+            bibo:volume "11" ;
+            bibo:issue "2" ] ;
+    bibo:pages "209-236" ;
+    bibo:doi "10.1080/14772000.2013.806371" ;
+    bibo:uri "https://doi.org/10.1080/14772000.2013.806371" .
+
+<https://orcid.org/0000-0001-7089-7018> a foaf:Person ;
+    foaf:givenName "Nico M." ;
+    foaf:surname "Franz" .
+
+<https://orcid.org/0000-0002-2469-8162> a foaf:Person ;
+    foaf:givenName "Juliana" ;
+    foaf:surname "Cardona-Duque*" .
+```
+
+
+<ul><li><a href="../examples/#TaxonConcept-accordingTo-example-1">TaxonConcept-accordingTo-example-1</a></li><li><a href="../examples/#TaxonConcept-accordingTo-example-2">TaxonConcept-accordingTo-example-2</a></li><li><a href="../examples/#TaxonConcept-accordingTo-example-3">TaxonConcept-accordingTo-example-3</a></li></ul></td>
 		</tr>
 		<tr>
 			<td>GitHub issue</td>
@@ -214,7 +271,75 @@ nomenclatural data.
 		</tr>
 		<tr>
 			<td>Examples</td>
-			<td><ul><li><a href="../examples/#TaxonConcept-synonym-example-1">TaxonConcept-synonym-example-1</a></li><li><a href="../examples/#TaxonConcept-synonym-example-2">TaxonConcept-synonym-example-2</a></li><li><a href="../examples/#TaxonConcept-synonym-example-3">TaxonConcept-synonym-example-3</a></li></ul></td>
+			<td>
+
+```turtle
+[]  a tcs:TaxonConcept ;
+    dcterms:title "Dicranoloma blumei sec. Klazenga 1999" ;
+    tcs:accordingTo <https://www.tropicos.org/reference/9020903> ;
+    tcs:taxonName <https://www.tropicos.org/name/35121475> ;
+    tcs:synonym <https://www.tropicos.org/name/35121973> , 
+            <https://www.tropicos.org/name/35121477> ,
+            <https://www.tropicos.org/name/35121484> ,
+            <https://www.tropicos.org/name/35188177> .
+
+<https://www.tropicos.org/name/35121475> a tcs:TaxonName ;
+    tcs:taxonNameString "Dicranoloma blumei" ;
+    dwc:scientificNameAuthorship "(Nees) Renauld" ;
+    dwc:namePublishedIn "Rev. Bryol. 28(4): 69 (1901)" ;
+    tcs:basionym <https://www.tropicos.org/name/35121972> .
+
+<https://www.tropicos.org/name/35121972> a tcs:TaxonName ;
+    tcs:taxonNameString "Dicranum blumei" ;
+    dwc:scientificNameAuthorship "Nees" ; 
+    dwc:namePublishedIn """Nova Acta Phys.-Med. Acad. Caes. Leop.-Carol. Nat. 
+            Cur. 11(1): 131 (1823)""" .
+
+<https://www.tropicos.org/name/35154856> a tcs:TaxonName ;
+    tcs:taxonNameString "Leucoloma blumei" ;
+    dwc:scientificNameAuthorship "(Nees) Broth." ; 
+    dwc:namePublishedIn "Nat. Pflanzenfam. I(3): 322 (1901)" ;
+    tcs:basionym <https://www.tropicos.org/name/35121972> .
+
+<https://www.tropicos.org/name/35121973> a tcs:TaxonName ;
+    tcs:taxonNameString "Dicranum blumei var. laxifolium" ;
+    dwc:scientificNameAuthorship "Broth. & Geh." ;
+    dwc:namePublishedIn "Biblioth. Bot. 44: 4 (1898)" .
+
+<https://www.tropicos.org/name/35121477> a tcs:TaxonName ;
+    tcs:taxonNameString "Dicranoloma blumei var. papillisetum" ;
+    dwc:scientificNameAuthorship "M. Fleisch." ;
+    dwc:namePublishedIn "Nova Guinea 12(2): 112 (1914)" .
+
+<https://www.tropicos.org/name/35188177> a tcs:TaxonName ;
+    tcs:taxonNameString "Dicranoloma blumei f. subintegrum" ;
+    dwc:scientificNameAuthorship "Dixon" ;
+    dwc:namePublishedIn "J. Bot. 80: 4 (1942)" .
+
+<https://www.tropicos.org/name/35121484> a tcs:TaxonName ;
+    tcs:taxonNameString "Dicranoloma braunfelsioides" ;
+    dwc:scientificNameAuthorship "Herzog" ;
+    dwc:namePublishedIn "Hedwigia 61: 288 (1919)" . 
+
+<https://www.tropicos.org/reference/9020903> a bibo:AcademicArticle ;
+    dcterms:bibliographicCitation """Klazenga, N. (1999). A revision of the 
+            Malesian species of Dicranoloma (Dicranaceae, Musci). Journal of the 
+            Hattori Botanical Laboratory 87: 1-130.""" .
+
+# Example shows both homotypic and heterotypic synonyms:
+# 
+# Dicranoloma blumei, Dicranum blumei and Leucoloma blumei are homotypic 
+# synonyms and are linked through the basionym (Dicranum blumei is the basionym 
+# of Dicranoloma blumei and Leucoloma blumei).
+# 
+# Dicranum blumei var. laxifolium, Dicranoloma blumei var. papillisetum, 
+# Dicranoloma braunfelsioides and Dicranoloma blumei f. subintegrum are 
+# heterotypic synonyms of Dicranoloma blumei (according to this publication) and 
+# are provided using the `synonym` property.
+```
+
+
+<ul><li><a href="../examples/#TaxonConcept-synonym-example-1">TaxonConcept-synonym-example-1</a></li><li><a href="../examples/#TaxonConcept-synonym-example-2">TaxonConcept-synonym-example-2</a></li><li><a href="../examples/#TaxonConcept-synonym-example-3">TaxonConcept-synonym-example-3</a></li></ul></td>
 		</tr>
 		<tr>
 			<td>GitHub issue</td>
@@ -257,7 +382,25 @@ nomenclatural data.
 		</tr>
 		<tr>
 			<td>Examples</td>
-			<td><ul><li><a href="../examples/#TaxonConcept-vernacularName-example-1">TaxonConcept-vernacularName-example-1</a></li><li><a href="../examples/#TaxonConcept-vernacularName-example-2">TaxonConcept-vernacularName-example-2</a></li><li><a href="../examples/#TaxonConcept-vernacularName-example-3">TaxonConcept-vernacularName-example-3</a></li></ul></td>
+			<td>
+
+```turtle
+[] a tcs:TaxonConcept ;
+    dcterms:title "Graphium macleayanum sec. Orr & Kitching 2010" ;
+    tcs:accordingTo <urn:isbn:978-1-74175-108-6> ;
+    tcs:taxonName [ a tcs:TaxonName ;
+            tcs:taxonNameString "Graphium macleayanum" ] ;
+    tcs:vernacularName [ a gbif:VernacularName ;
+            dwc:vernacularName "Macleay's Swallowtail" ;
+            dcterms:language: "en" ] .
+
+<urn:isbn:978-1-74175-108-6> a bibo:Book ; 
+    dcterms:bibliographicCitation """Orr, A. & Kitching, R. (2010). The 
+            butterflies of Australia. Jacana Books, Crows Nest, Australia.""" .
+```
+
+
+<ul><li><a href="../examples/#TaxonConcept-vernacularName-example-1">TaxonConcept-vernacularName-example-1</a></li><li><a href="../examples/#TaxonConcept-vernacularName-example-2">TaxonConcept-vernacularName-example-2</a></li><li><a href="../examples/#TaxonConcept-vernacularName-example-3">TaxonConcept-vernacularName-example-3</a></li></ul></td>
 		</tr>
 		<tr>
 			<td>GitHub issue</td>
@@ -340,7 +483,51 @@ nomenclatural data.
 		</tr>
 		<tr>
 			<td>Examples</td>
-			<td><ul><li><a href="../examples/#TaxonConcept-parent-example-1">TaxonConcept-parent-example-1</a></li></ul></td>
+			<td>
+
+```turtle
+<https://www.catalogueoflife.org/data/taxon/6DBT> a tcs:TaxonConcept ;
+    dcterms:title "Panthera sec. Catalogue of Life 2024-01-24" ;
+    tcs:accordingTo <https://doi.org/10.48580/dfrdl> ;
+    tcs:taxonName: [ a tcs:TaxonName ;
+            tcs:taxonNameString: "Panthera" ;
+            dwc:scientificNameAuthorship: "Oken, 1816" ] .
+
+<https://www.catalogueoflife.org/data/taxon/4CGXP> a tcs:TaxonConcept ;
+    dcterms:title "Panthera leo sec. Catalogue of Life 2024-01-24" ;
+    tcs:accordingTo <https://doi.org/10.48580/dfrdl> ;
+    tcs:taxonName: [ a tcs:TaxonName ;
+            tcs:taxonNameString: "Panthera leo" ;
+            dwc:scientificNameAuthorship: "(Linnaeus, 1758)" ] ;
+    tcs:parent <https://www.catalogueoflife.org/data/taxon/6DBT> .
+
+<https://www.catalogueoflife.org/data/taxon/4CGXQ> a tcs:TaxonConcept ;
+    dcterms:title "Panthera onca sec. Catalogue of Life 2024-01-24" ;
+    tcs:accordingTo <https://doi.org/10.48580/dfrdl> ;
+    tcs:taxonName: [ a tcs:TaxonName ;
+            tcs:taxonNameString: "Panthera onca" ;
+            dwc:scientificNameAuthorship: "(Linnaeus, 1758)" ] ;
+    tcs:parent <https://www.catalogueoflife.org/data/taxon/6DBT> .
+
+<https://www.catalogueoflife.org/data/taxon/4CGXR> a tcs:TaxonConcept ;
+    dcterms:title "Panthera pardus sec. Catalogue of Life 2024-01-24" ;
+    tcs:accordingTo <https://doi.org/10.48580/dfrdl> ;
+    tcs:taxonName: [ a tcs:TaxonName ;
+            tcs:taxonNameString: "Panthera pardus" ;
+            dwc:scientificNameAuthorship: "(Linnaeus, 1758)" ] ;
+    tcs:parent <https://www.catalogueoflife.org/data/taxon/6DBT> .
+
+<https://www.catalogueoflife.org/data/taxon/4CGXS> a tcs:TaxonConcept ;
+    dcterms:title "Panthera tigris sec. Catalogue of Life 2024-01-24" ;
+    tcs:accordingTo <https://doi.org/10.48580/dfrdl> ;
+    tcs:taxonName: [ a tcs:TaxonName ;
+            tcs:taxonNameString: "Panthera tigris" ;
+            dwc:scientificNameAuthorship: "(Linnaeus, 1758)" ] ;
+    tcs:parent <https://www.catalogueoflife.org/data/taxon/6DBT> .
+```
+
+
+<ul><li><a href="../examples/#TaxonConcept-parent-example-1">TaxonConcept-parent-example-1</a></li></ul></td>
 		</tr>
 		<tr>
 			<td>GitHub issue</td>
@@ -379,7 +566,51 @@ nomenclatural data.
 		</tr>
 		<tr>
 			<td>Examples</td>
-			<td><ul><li><a href="../examples/#TaxonConcept-child-example-1">TaxonConcept-child-example-1</a></li></ul></td>
+			<td>
+
+```turtle
+<https://www.catalogueoflife.org/data/taxon/6DBT> a tcs:TaxonConcept ;
+    dcterms:title "Panthera sec. Catalogue of Life 2024-01-24" ;
+    tcs:accordingTo <https://doi.org/10.48580/dfrdl> ;
+    tcs:taxonName: [ a tcs:TaxonName ;
+            tcs:taxonNameString: "Panthera" ;
+            dwc:scientificNameAuthorship: "Oken, 1816" ]  ;
+    tcs:child <https://www.catalogueoflife.org/data/taxon/4CGXP> ,
+            <https://www.catalogueoflife.org/data/taxon/4CGXQ> ,
+            <https://www.catalogueoflife.org/data/taxon/4CGXR> ,
+            <https://www.catalogueoflife.org/data/taxon/4CGXS> .
+
+<https://www.catalogueoflife.org/data/taxon/4CGXP> a tcs:TaxonConcept ;
+    dcterms:title "Panthera leo sec. Catalogue of Life 2024-01-24" ;
+    tcs:accordingTo <https://doi.org/10.48580/dfrdl> ;
+    tcs:taxonName: [ a tcs:TaxonName ;
+            tcs:taxonNameString: "Panthera leo" ;
+            dwc:scientificNameAuthorship: "(Linnaeus, 1758)" ] .
+
+<https://www.catalogueoflife.org/data/taxon/4CGXQ> a tcs:TaxonConcept ;
+    dcterms:title "Panthera onca sec. Catalogue of Life 2024-01-24" ;
+    tcs:accordingTo <https://doi.org/10.48580/dfrdl> ;
+    tcs:taxonName: [ a tcs:TaxonName ;
+            tcs:taxonNameString: "Panthera onca" ;
+            dwc:scientificNameAuthorship: "(Linnaeus, 1758)" ] .
+
+<https://www.catalogueoflife.org/data/taxon/4CGXR> a tcs:TaxonConcept ;
+    dcterms:title "Panthera pardus sec. Catalogue of Life 2024-01-24" ;
+    tcs:accordingTo <https://doi.org/10.48580/dfrdl> ;
+    tcs:taxonName: [ a tcs:TaxonName ;
+            tcs:taxonNameString: "Panthera pardus" ;
+            dwc:scientificNameAuthorship: "(Linnaeus, 1758)" ] .
+
+<https://www.catalogueoflife.org/data/taxon/4CGXS> a tcs:TaxonConcept ;
+    dcterms:title "Panthera tigris sec. Catalogue of Life 2024-01-24" ;
+    tcs:accordingTo <https://doi.org/10.48580/dfrdl> ;
+    tcs:taxonName: [ a tcs:TaxonName ;
+            tcs:taxonNameString: "Panthera tigris" ;
+            dwc:scientificNameAuthorship: "(Linnaeus, 1758)" ] .
+```
+
+
+<ul><li><a href="../examples/#TaxonConcept-child-example-1">TaxonConcept-child-example-1</a></li></ul></td>
 		</tr>
 		<tr>
 			<td>GitHub issue</td>
@@ -424,7 +655,33 @@ nomenclatural data.
 		</tr>
 		<tr>
 			<td>Examples</td>
-			<td><ul><li><a href="../examples/#TaxonConcept-isCongruentWith-example-1">TaxonConcept-isCongruentWith-example-1</a></li><li><a href="../examples/#TaxonConceptMapping-isCongruentWith-example-2">TaxonConceptMapping-isCongruentWith-example-2</a></li><li><a href="../examples/#TaxonConcept-isCongruentWith-example-3">TaxonConcept-isCongruentWith-example-3</a></li><li><a href="../examples/#TaxonConceptMapping-isCongruentWith-example-1">TaxonConceptMapping-isCongruentWith-example-1</a></li></ul></td>
+			<td>
+
+```turtle
+[] a tcs:TaxonConcept ;
+    dcterms:title "Aspleniaceae sec. Rothfels & al. 2012" ;
+    tcs:accordingTo <https://doi.org/10.1002/tax.613003> ;
+    tcs:taxonName <https://ipni.org/n/30001382-2> ;
+    tcs:isCongruentWith [ a tcs:TaxonConcept ;
+            dcterms:title "Aspleniaceae sec. Christenhusz & al. 2011" ;
+            tcs:accordingTo <https://doi.org/10.11646/phytotaxa.19.1.2> ;
+            tcs:taxonName <https://ipni.org/n/30001382-2> ] ,
+        [ a tcs:TaxonConcept ;
+            dcterms:title "Aspleniaceae sec. Smith & al. 2006" ;
+            tcs:accordingTo <https://doi.org/10.2307/25065646> ;
+            tcs:acceptedName <https://ipni.org/n/30001382-2> ] ,
+        [ a tcs:TaxonConcept ;
+            dcterms:title "Aspleniaceae sec. Pichi Sermolli 1977" ;
+            tcs:accordingTo <https://doi.org/10.1080/00837792.1977.10670077> ;
+            tcs:taxonName <https://ipni.org/n/30001382-2> ] ,
+        [ a tcs:TaxonConcept ;
+            dcterms:title "Aspleniaceae sec. Nayar 1970" ;
+            tcs:accordingTo <https://doi.org/10.2307/1217958> ;
+            tcs:taxonName <https://ipni.org/n/30001382-2> ] .
+```
+
+
+<ul><li><a href="../examples/#TaxonConcept-isCongruentWith-example-1">TaxonConcept-isCongruentWith-example-1</a></li><li><a href="../examples/#TaxonConceptMapping-isCongruentWith-example-2">TaxonConceptMapping-isCongruentWith-example-2</a></li><li><a href="../examples/#TaxonConcept-isCongruentWith-example-3">TaxonConcept-isCongruentWith-example-3</a></li><li><a href="../examples/#TaxonConceptMapping-isCongruentWith-example-1">TaxonConceptMapping-isCongruentWith-example-1</a></li></ul></td>
 		</tr>
 		<tr>
 			<td>GitHub issue</td>
@@ -469,7 +726,21 @@ nomenclatural data.
 		</tr>
 		<tr>
 			<td>Examples</td>
-			<td><ul><li><a href="../examples/#TaxonConcept-includes-example-1">TaxonConcept-includes-example-1</a></li><li><a href="../examples/#TaxonConceptMapping-includes-example-2">TaxonConceptMapping-includes-example-2</a></li><li><a href="../examples/#TaxonConceptMapping-includes-example-1">TaxonConceptMapping-includes-example-1</a></li></ul></td>
+			<td>
+
+```turtle
+[] a tcs:TaxonConcept ;
+    dcterms:title "Diplaziopsidaceae sec. Rothfels & al. 2012" ;
+    tcs:accordingTo <https://doi.org/10.1002/tax.613003> ;
+    tcs:taxonName <https://ipni.org/n/77110538-1> ;
+    tcs:includes [ a tcs:TaxonConcept ;
+            dcterms:title "Diplaziopsidaceae sec. Christenhusz & al. 2011" ;
+            tcs:accordingTo <https://doi.org/10.11646/phytotaxa.19.1.2> ;
+            tcs:taxonName <https://ipni.org/n/77110538-1> ] .
+```
+
+
+<ul><li><a href="../examples/#TaxonConcept-includes-example-1">TaxonConcept-includes-example-1</a></li><li><a href="../examples/#TaxonConceptMapping-includes-example-2">TaxonConceptMapping-includes-example-2</a></li><li><a href="../examples/#TaxonConceptMapping-includes-example-1">TaxonConceptMapping-includes-example-1</a></li></ul></td>
 		</tr>
 		<tr>
 			<td>GitHub issue</td>
@@ -514,7 +785,36 @@ nomenclatural data.
 		</tr>
 		<tr>
 			<td>Examples</td>
-			<td><ul><li><a href="../examples/#TaxonConcept-isIncludedIn-example-1">TaxonConcept-isIncludedIn-example-1</a></li><li><a href="../examples/#TaxonConceptMapping-isIncludedIn-example-2">TaxonConceptMapping-isIncludedIn-example-2</a></li><li><a href="../examples/#TaxonConceptMapping-isIncludedIn-example-1">TaxonConceptMapping-isIncludedIn-example-1</a></li></ul></td>
+			<td>
+
+```turtle
+[] a tcs:TaxonConcept ;
+    dcterms:title "Athyriaceae sec. Rothfels & al. 2012" ;
+    tcs:accordingTo <https://doi.org/10.1002/tax.613003> ;
+    tcs:taxonName <https://ipni.org/n/30000361-2> ;
+    tcs:isIncludedIn [ a tcs:TaxonConcept ;
+            dcterms:title "Athyriaceae sec. Christenhusz & al. 2011" ;
+            tcs:accordingTo <https://doi.org/10.11646/phytotaxa.19.1.2> ;
+            tcs:taxonName <https://ipni.org/n/30000361-2> ] ,
+        [ a tcs:TaxonConcept ;
+            dcterms:title "Woodsiaceae sec. Smith & al. 2006" ;
+            tcs:accordingTo <https://doi.org/10.2307/25065646> ;
+            tcs:taxonName <https://ipni.org/n/30000455-2> ] ,
+        [ a tcs:TaxonConcept ;
+            dcterms:title "Dryopteridaceae sec. Nayar 1970" ;
+            tcs:accordingTo <https://doi.org/10.2307/1217958> ;
+            tcs:taxonName <https://ipni.org/n/30014148-2> ] ,
+        [ a tcs:TaxonConcept ;
+            dcterms:title "Dennstaedtiaceae sec. Holttum 1947" ;
+            tcs:accordingTo [ a dcterms:BibliographicResource ;
+                    dcterms:bibliographicCitation """Holttum, R.E. (1947). A 
+                            revised classification of leptosporangiate ferns. 
+                            Journal of the Linnean Society. Botany 53: 123–155.""" ] ;
+            tcs:taxonName <https://ipni.org/n/17434830-1> ] .
+```
+
+
+<ul><li><a href="../examples/#TaxonConcept-isIncludedIn-example-1">TaxonConcept-isIncludedIn-example-1</a></li><li><a href="../examples/#TaxonConceptMapping-isIncludedIn-example-2">TaxonConceptMapping-isIncludedIn-example-2</a></li><li><a href="../examples/#TaxonConceptMapping-isIncludedIn-example-1">TaxonConceptMapping-isIncludedIn-example-1</a></li></ul></td>
 		</tr>
 		<tr>
 			<td>GitHub issue</td>
@@ -559,7 +859,21 @@ nomenclatural data.
 		</tr>
 		<tr>
 			<td>Examples</td>
-			<td><ul><li><a href="../examples/#TaxonConcept-partiallyOverlaps-example-1">TaxonConcept-partiallyOverlaps-example-1</a></li><li><a href="../examples/#TaxonConceptMapping-partiallyOverlaps-example-2">TaxonConceptMapping-partiallyOverlaps-example-2</a></li><li><a href="../examples/#TaxonConceptMapping-partiallyOverlaps-example-1">TaxonConceptMapping-partiallyOverlaps-example-1</a></li></ul></td>
+			<td>
+
+```turtle
+[] a tcs:TaxonConcept ;
+    dcterms:title "Diplaziopsidaceae sec. Rothfels & al. 2012" ;
+    tcs:accordingTo <https://doi.org/10.1002/tax.613003> ;
+    tcs:taxonName <https://ipni.org/n/77110538-1> ;
+    tcs:partiallyOverlaps [ a tcs:TaxonConcept ;
+            dcterms:title "Athyriaceae sec. Christenhusz & al. 2011" ;
+            tcs:accordingTo <https://doi.org/10.11646/phytotaxa.19.1.2> ;
+            tcs:taxonName <https://ipni.org/n/30000361-2> ] .
+```
+
+
+<ul><li><a href="../examples/#TaxonConcept-partiallyOverlaps-example-1">TaxonConcept-partiallyOverlaps-example-1</a></li><li><a href="../examples/#TaxonConceptMapping-partiallyOverlaps-example-2">TaxonConceptMapping-partiallyOverlaps-example-2</a></li><li><a href="../examples/#TaxonConceptMapping-partiallyOverlaps-example-1">TaxonConceptMapping-partiallyOverlaps-example-1</a></li></ul></td>
 		</tr>
 		<tr>
 			<td>GitHub issue</td>
@@ -604,7 +918,32 @@ nomenclatural data.
 		</tr>
 		<tr>
 			<td>Examples</td>
-			<td><ul><li><a href="../examples/#TaxonConcept-isDisjointFrom-example-1">TaxonConcept-isDisjointFrom-example-1</a></li><li><a href="../examples/#TaxonConceptMapping-isDisjointFrom-example-2">TaxonConceptMapping-isDisjointFrom-example-2</a></li><li><a href="../examples/#TaxonConceptMapping-isDisjointFrom-example-1">TaxonConceptMapping-isDisjointFrom-example-1</a></li></ul></td>
+			<td>
+
+```turtle
+[] a tcs:TaxonConcept 
+    dcterms:title "Campylopus introflexus sec. Koperski & al. 2000" ; 
+    tcs:accordingTo <https://www.tropicos.org/reference/9022656> ;
+    tcs:taxonName <https://www.tropicos.org/name/35156181> ;
+    tcs:isDisjointFrom [ rdf:value [ a tcs:TaxonConcept ;
+                    dcterms:title "Campylopus introflexus sec. Mönkemeyer 1927" ;
+                    tcs:accordingTo <https://www.tropicos.org/publication/700> ;
+                    tcs:taxonName <https://www.tropicos.org/name/35156181> ] ;
+            rdfs:comment """Mit dem Taxon in Mönkemeyer ist der Beschreibung 
+                    nach eindeutig *C. pilifer Brid. (C. polytrichoides De 
+                    Not.), eine ozeanisch-submediterrane Art, gemeint. In 
+                    älteren Floren wird C. introflexus, bevor diese Art von 
+                    Störmer (1958) für Europa nachgewiesen wurde, regelmäßig als 
+                    Synonym von C. polytrichoides aufgeführt oder in diesem 
+                    Sinne verwendet (vgl. u. a. Demaret & Castagne 1961: 
+                    203)""" ] .
+
+# Because of the comment it is better to use a Taxon Concept Mapping object
+# here.
+```
+
+
+<ul><li><a href="../examples/#TaxonConcept-isDisjointFrom-example-1">TaxonConcept-isDisjointFrom-example-1</a></li><li><a href="../examples/#TaxonConceptMapping-isDisjointFrom-example-2">TaxonConceptMapping-isDisjointFrom-example-2</a></li><li><a href="../examples/#TaxonConceptMapping-isDisjointFrom-example-1">TaxonConceptMapping-isDisjointFrom-example-1</a></li></ul></td>
 		</tr>
 		<tr>
 			<td>GitHub issue</td>
@@ -648,7 +987,43 @@ nomenclatural data.
 		</tr>
 		<tr>
 			<td>Examples</td>
-			<td><ul><li><a href="../examples/#TaxonConcept-intersects-example-1">TaxonConcept-intersects-example-1</a></li><li><a href="../examples/#TaxonConcept-intersects-example-2">TaxonConcept-intersects-example-2</a></li><li><a href="../examples/#TaxonConceptMapping-intersects-example-1">TaxonConceptMapping-intersects-example-1</a></li><li><a href="../examples/#TaxonConcept-intersects-example-3">TaxonConcept-intersects-example-3</a></li></ul></td>
+			<td>
+
+```turtle
+[] a tcs:TaxonConcept ;
+    dcterms:title "Begonia salaziensis sec. Klazenga & al. 1994" ;
+    tcs:accordingTo <https://doi/org/10.2307/3668252> ;
+    tcs:taxonName <https://ipni.org/n/105644-1> ;
+    tcs:intersects [ a tcs:TaxonConcept ;
+            dcterms:title "Begonia salaziensis sec. Warburg 1894" ;
+            tcs:accordingTo [ a bibo:Chapter ;
+                    dcterms:bibliographicCitation """Warburg, O. (1894). Begoniaceae, 
+                            in Engler, A. & K. Prantl, Nat. Pflanzenfam. 3(6a): 
+                            121-150.""" ] ;
+            tcs:taxonName <https://ipni.org/n/105644-1> ] ,
+        [ a tcs:TaxonConcept ;
+            dcterms:title "Begonia salaziensis sec. Irmscher 1925" ;
+            tcs:accordingTo [ a bibo:Chapter ;
+                    dcterms:bibliographicCitation """Irmscher, E. (1925). Begoniaceae, 
+                            in Engler, A. & K. Prantl, Nat. Pflanzenfam. ed. 2, 21: 
+                            548-588.""" ] ;
+            tcs:taxonName <https://ipni.org/n/105644-1> ] .
+
+[] a tcs:TaxonConcept ;
+    dcterms:title "Begonia seychellensis sec. Klazenga & al. 1994" ;
+    tcs:accordingTo <https://doi/org/10.2307/3668252> ;
+    tcs:taxonName <https://ipni.org/n/105731-1> ;
+    tcs:intersects [ a tcs:TaxonConcept ;
+        dcterms:title "Begonia comorensis sec. Keraudren-Aymonin 1983" ;
+        tcs:accordingTo [ a bibo:Book ;
+                dcterms:bibliographicCitation """Keraudren-Aymonin, M. (1983). Flore 
+                        de Madagascar et des Comores. Famille 144 – Begoniacées: 7-108""" ] ;
+        tcs:taxonName <https://ipni.org/n/104440-1> ;
+        tcs:synonym <https://ipni.org/n/105731-1> ] .
+```
+
+
+<ul><li><a href="../examples/#TaxonConcept-intersects-example-1">TaxonConcept-intersects-example-1</a></li><li><a href="../examples/#TaxonConcept-intersects-example-2">TaxonConcept-intersects-example-2</a></li><li><a href="../examples/#TaxonConceptMapping-intersects-example-1">TaxonConceptMapping-intersects-example-1</a></li><li><a href="../examples/#TaxonConcept-intersects-example-3">TaxonConcept-intersects-example-3</a></li></ul></td>
 		</tr>
 		<tr>
 			<td>GitHub issue</td>
@@ -836,7 +1211,25 @@ nomenclatural data.
 		</tr>
 		<tr>
 			<td>Examples</td>
-			<td><ul><li><a href="../examples/#TaxonConceptMapping-isCongruentWith-example-1">TaxonConceptMapping-isCongruentWith-example-1</a></li><li><a href="../examples/#TaxonConceptMapping-isCongruentWith-example-2">TaxonConceptMapping-isCongruentWith-example-2</a></li><li><a href="../examples/#TaxonConceptMapping-includes-example-1">TaxonConceptMapping-includes-example-1</a></li><li><a href="../examples/#TaxonConceptMapping-includes-example-2">TaxonConceptMapping-includes-example-2</a></li><li><a href="../examples/#TaxonConceptMapping-isIncludedIn-example-1">TaxonConceptMapping-isIncludedIn-example-1</a></li><li><a href="../examples/#TaxonConceptMapping-isIncludedIn-example-2">TaxonConceptMapping-isIncludedIn-example-2</a></li><li><a href="../examples/#TaxonConceptMapping-partiallyOverlaps-example-1">TaxonConceptMapping-partiallyOverlaps-example-1</a></li><li><a href="../examples/#TaxonConceptMapping-partiallyOverlaps-example-2">TaxonConceptMapping-partiallyOverlaps-example-2</a></li><li><a href="../examples/#TaxonConceptMapping-isDisjointFrom-example-1">TaxonConceptMapping-isDisjointFrom-example-1</a></li><li><a href="../examples/#TaxonConceptMapping-isDisjointFrom-example-2">TaxonConceptMapping-isDisjointFrom-example-2</a></li><li><a href="../examples/#TaxonConceptMapping-intersects-example-1">TaxonConceptMapping-intersects-example-1</a></li><li><a href="../examples/#TaxonConceptMapping-intersects-example-2">TaxonConceptMapping-intersects-example-2</a></li></ul></td>
+			<td>
+
+```turtle
+# Andropogon capillipes sec. BONAP 2014 is congruent with Andropogon capillipes sec. Weakley 2006
+[] a tcs:TaxonConceptMapping ;
+    tcs:mappingAccordingTo <https://doi.org/10.3233/SW-160220> ;
+    tcs:mappingRelation tcs:isCongruentWith ;
+    tcs:subjectTaxonConcept [ a tcs:TaxonConcept ;
+        dcterms:title "Andropogon capillipes sec. BONAP 2014" ;
+        tcs:taxonName <https://ipni.org/n/12781-2> ;
+        tcs:accordingTo <http://bonap.net/napa#2014> ] ;
+    tcs:objectTaxonConcept [ a tcs:TaxonConcept ;
+        dcterms:title "Andropogon capillipes sec. Weakley 2006" ;
+        tcs:taxonName <https://ipni.org/n/12781-2> ;
+        tcs:accordingTo <http://www.herbarium.unc.edu/FloraArchives/WeakleyFlora_2006-Jan.pdf> ] .
+```
+
+
+<ul><li><a href="../examples/#TaxonConceptMapping-isCongruentWith-example-1">TaxonConceptMapping-isCongruentWith-example-1</a></li><li><a href="../examples/#TaxonConceptMapping-isCongruentWith-example-2">TaxonConceptMapping-isCongruentWith-example-2</a></li><li><a href="../examples/#TaxonConceptMapping-includes-example-1">TaxonConceptMapping-includes-example-1</a></li><li><a href="../examples/#TaxonConceptMapping-includes-example-2">TaxonConceptMapping-includes-example-2</a></li><li><a href="../examples/#TaxonConceptMapping-isIncludedIn-example-1">TaxonConceptMapping-isIncludedIn-example-1</a></li><li><a href="../examples/#TaxonConceptMapping-isIncludedIn-example-2">TaxonConceptMapping-isIncludedIn-example-2</a></li><li><a href="../examples/#TaxonConceptMapping-partiallyOverlaps-example-1">TaxonConceptMapping-partiallyOverlaps-example-1</a></li><li><a href="../examples/#TaxonConceptMapping-partiallyOverlaps-example-2">TaxonConceptMapping-partiallyOverlaps-example-2</a></li><li><a href="../examples/#TaxonConceptMapping-isDisjointFrom-example-1">TaxonConceptMapping-isDisjointFrom-example-1</a></li><li><a href="../examples/#TaxonConceptMapping-isDisjointFrom-example-2">TaxonConceptMapping-isDisjointFrom-example-2</a></li><li><a href="../examples/#TaxonConceptMapping-intersects-example-1">TaxonConceptMapping-intersects-example-1</a></li><li><a href="../examples/#TaxonConceptMapping-intersects-example-2">TaxonConceptMapping-intersects-example-2</a></li></ul></td>
 		</tr>
 		<tr>
 			<td>GitHub issue</td>
@@ -1095,7 +1488,16 @@ nomenclatural data.
 		</tr>
 		<tr>
 			<td>Examples</td>
-			<td><ul><li><a href="../examples/#TaxonName-example-1">TaxonName-example-1</a></li><li><a href="../examples/#TaxonName-example-2">TaxonName-example-2</a></li><li><a href="../examples/#TaxonName-example-3">TaxonName-example-3</a></li><li><a href="../examples/#TaxonName-example-4">TaxonName-example-4</a></li></ul></td>
+			<td>
+
+```turtle
+<urn:lsid:zoobank.org:act:355AAA50-D89F-466E-A216-96B7A17D5AD4> a tcs:TaxonName ;
+    tcs:taxonNameString "Carabus nitens" ;
+    dwc:scientificNameAuthorship "Linnaeus, 1758" .
+```
+
+
+<ul><li><a href="../examples/#TaxonName-example-1">TaxonName-example-1</a></li><li><a href="../examples/#TaxonName-example-2">TaxonName-example-2</a></li><li><a href="../examples/#TaxonName-example-3">TaxonName-example-3</a></li><li><a href="../examples/#TaxonName-example-4">TaxonName-example-4</a></li></ul></td>
 		</tr>
 		<tr>
 			<td>GitHub issue</td>
@@ -1329,7 +1731,62 @@ nomenclatural data.
 		</tr>
 		<tr>
 			<td>Examples</td>
-			<td><ul><li><a href="../examples/#TaxonName-typification-example-1">TaxonName-typification-example-1</a></li><li><a href="../examples/#TaxonName-typification-example-2">TaxonName-typification-example-2</a></li></ul></td>
+			<td>
+
+```turtle
+<https://ipni.org/n/105731-1> a tcs:TaxonName ;
+    tcs:taxonNameString "Begonia seychellensis" ;
+    dwc:scientificNameAuthorship "Hemsl." ;
+    dwc:namePublishedIn "J. Bot. 54(Suppl. 2): 15 (1916)" ;
+    tcs:typification [ a tcs:NomenclaturalType ;
+            tcs:typifiedName <https://ipni.org/n/105731-1> ;
+            tcs:typeSpecimen [ a dwc:MaterialCitation ;
+                    dwc:country "Seychelles" ;
+                    dwc:island "Mahé" ;
+                    dwc:recordedBy "Horne" ;
+                    dwc:recordNumber "s.n." ;
+                    dwc:institutionCode "G" ] ;
+            tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isolectotype> ] ,
+        [ a tcs:NomenclaturalType ;
+            tcs:typifiedName <https://ipni.org/n/105731-1> ;
+            tcs:typeSpecimen [ a dwc:MaterialCitation ;
+                    dwc:country "Seychelles" ;
+                    dwc:island "Mahé" ;
+                    dwc:recordedBy "Horne" ;
+                    dwc:recordNumber "245" ;
+                    dwc:institutionCode "K" ] ;
+            tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/lectotype> ]  ,
+        [ a tcs:NomenclaturalType ;
+            tcs:typifiedName <https://ipni.org/n/105731-1> ;
+            tcs:typeSpecimen [ a dwc:MaterialCitation ;
+                    dwc:country "Seychelles" ;
+                    dwc:island "Mahé" ;
+                    dwc:recordedBy "Gardiner" ;
+                    dwc:recordNumber "s.n." ;
+                    dwc:institutionCode "K" ] ;
+            tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/syntype> ]  ,
+        [ a tcs:NomenclaturalType ;
+            tcs:typifiedName <https://ipni.org/n/105731-1> ;
+            tcs:typeSpecimen [ a dwc:MaterialCitation ;
+                    dwc:country "Seychelles" ;
+                    dwc:island "Silhouette" ;
+                    dwc:recordedBy "Gardiner" ;
+                    dwc:recordNumber "111" ;
+                    dwc:institutionCode "K" ] ;
+            tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/syntype> ]  ,
+        [ a tcs:NomenclaturalType ;
+            tcs:typifiedName <https://ipni.org/n/105731-1> ;
+            tcs:typeSpecimen [ a dwc:MaterialCitation ;
+                    dwc:country "Seychelles" ;
+                    dwc:island "Mahé and Silhouette" ;
+                    dwc:recordedBy "Neville" ;
+                    dwc:recordNumber "s.n." ;
+                    dwc:institutionCode "K" ] ;
+            tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/syntype> ]  .
+```
+
+
+<ul><li><a href="../examples/#TaxonName-typification-example-1">TaxonName-typification-example-1</a></li><li><a href="../examples/#TaxonName-typification-example-2">TaxonName-typification-example-2</a></li></ul></td>
 		</tr>
 		<tr>
 			<td>GitHub issue</td>
@@ -1411,7 +1868,25 @@ nomenclatural data.
 		</tr>
 		<tr>
 			<td>Examples</td>
-			<td><ul><li><a href="../examples/#TaxonName-basionym-example-1">TaxonName-basionym-example-1</a></li><li><a href="../examples/#TaxonName-basionym-example-2">TaxonName-basionym-example-2</a></li></ul></td>
+			<td>
+
+```turtle
+<https://id.biodiversity.org.au/name/apni/166271> a tcs:TaxonName ;
+    rdf:seeAlso <https://ipni.org/n/17571690-1> ;
+    tcs:taxonNameString "Doodia australis" ;
+    dwc:scientificNameAuthorship "(Parris) Parris" ;
+    dwc:namePublishedIn "Fl. Australia 48: 710 (1998)" ;
+    tcs:basionym <https://id.biodiversity.org.au/name/apni/117170> .
+
+<https://id.biodiversity.org.au/name/apni/117170> a tcs:TaxonName ;
+    rdf:seeAlso <https://ipni.org/n/17567870-1> ;
+    tcs:taxonNameString "Doodia media subsp. australis" ;
+    dwc:scientificNameAuthorship "Parris" ;
+    dwc:namePublishedIn "New Zealand J. Bot. 10(4): 593 (1972)" .
+```
+
+
+<ul><li><a href="../examples/#TaxonName-basionym-example-1">TaxonName-basionym-example-1</a></li><li><a href="../examples/#TaxonName-basionym-example-2">TaxonName-basionym-example-2</a></li></ul></td>
 		</tr>
 		<tr>
 			<td>GitHub issue</td>
@@ -1454,7 +1929,48 @@ nomenclatural data.
 		</tr>
 		<tr>
 			<td>Examples</td>
-			<td><ul><li><a href="../examples/#TaxonName-replacedName-example-1">TaxonName-replacedName-example-1</a></li><li><a href="../examples/#TaxonName-replacedName-example-2">TaxonName-replacedName-example-2</a></li><li><a href="../examples/#TaxonName-replacedName-example-3">TaxonName-replacedName-example-3</a></li><li><a href="../examples/#TaxonName-replacedName-example-4">TaxonName-replacedName-example-4</a></li></ul></td>
+			<td>
+
+```turtle
+<https://www.tropicos.org/name/35183593> a tcs:TaxonName ;
+    tcs:taxonNameString "Dicranum bartramianum" ;
+    dwc:scientificNameAuthorship "B.H.Allen" ;
+    dwc:namePublishedIn "Cryptog. Bryol. Lichénol. 8: 323" ;
+    dwc:namePublishedInYear "1987" ;
+    tcs:replacedName <https://www.tropicos.org/name/35120798> .
+
+<https://www.tropicos.org/name/35120798> a tcs:TaxonName ;
+    tcs:taxonNameString "Dicnemon robustum" ;
+    dwc:scientificNameAuthorship "E.B.Bartram" ;
+    dwc:namePublishedIn "Bryologist 48: 112" ;
+    dwc:namePublishedInYear "1945" .
+
+# blocking name
+<https://www.tropicos.org/name/35124067> a tcs:TaxonName ;
+    tcs:taxonNameString "Dicranum robustum" ;
+    dwc:scientificNameAuthorship "Hook.f. & Wilson" ;
+    dwc:namePublishedIn "London J. Bot. 3: 542" ;
+    dwc:namePublishedInYear "1844" .
+
+# combination of Dicnemon robustum
+<https://www.tropicos.org/name/35162373> a tcs:TaxonName ;
+    tcs:taxonNameString "Eucamptodon robustum" ;
+    dwc:scientificNameAuthorship "(E.B.Bartram) E.B.Bartram" ;
+    dwc:namePublishedIn "Brittonia 11: 88" ;
+    dwc:namePublishedInYear "1959" ;
+    tcs:basionym <https://www.tropicos.org/name/35120798> .
+
+# combination of Dicranum bartramianum
+<https://www.tropicos.org/name/35204723> a tcs:TaxonName ;
+    tcs:taxonNameString "Dicranoloma bartramianum" ;
+    dwc:scientificNameAuthorship "(B.H.Allen) Klazenga" ;
+    dwc:namePublishedIn "J. Hattory Bot. Lab. 87: 57" ;
+    dwc:namePublishedInYear "1999" ;
+    tcs:basionym <https://www.tropicos.org/name/35183593> .
+```
+
+
+<ul><li><a href="../examples/#TaxonName-replacedName-example-1">TaxonName-replacedName-example-1</a></li><li><a href="../examples/#TaxonName-replacedName-example-2">TaxonName-replacedName-example-2</a></li><li><a href="../examples/#TaxonName-replacedName-example-3">TaxonName-replacedName-example-3</a></li><li><a href="../examples/#TaxonName-replacedName-example-4">TaxonName-replacedName-example-4</a></li></ul></td>
 		</tr>
 		<tr>
 			<td>GitHub issue</td>
@@ -1575,7 +2091,29 @@ nomenclatural data.
 		</tr>
 		<tr>
 			<td>Examples</td>
-			<td><ul><li><a href="../examples/#TaxonName-conservedAgainst-example-1">TaxonName-conservedAgainst-example-1</a></li></ul></td>
+			<td>
+
+```turtle
+<https://www.tropicos.org/name/35000378> a tcs:TaxonName ;
+    tcs:taxonNameString "Dicranoloma" ;
+    dwc:scientificNameAuthorship "(Renauld) Renauld" ;
+    tcs:namePublishedInYear "1909" ;
+    tcs:conservedAgainst <https://www.tropicos.org/name/35000771> ,
+            <https://www.tropicos.org/name/35000146> .
+
+<https://www.tropicos.org/name/35000771> a tcs:TaxonName ;
+    tcs:taxonNameString "Megalostylium" ;
+    dwc:scientificNameAuthorship "Dozy & Molk." ;
+    dwc:namePublishedInYear "1848" . 
+
+<https://www.tropicos.org/name/35000146> a tcs:TaxonName ;
+    tcs:taxonNameString "Braunfelsia" ;
+    dwc:scientificNameAuthorship "Paris" ;
+    dwc:namePublishedInYear "1894" .
+```
+
+
+<ul><li><a href="../examples/#TaxonName-conservedAgainst-example-1">TaxonName-conservedAgainst-example-1</a></li></ul></td>
 		</tr>
 		<tr>
 			<td>GitHub issue</td>
@@ -1618,7 +2156,22 @@ nomenclatural data.
 		</tr>
 		<tr>
 			<td>Examples</td>
-			<td><ul><li><a href="../examples/#TaxonName-combinationAuthor-example-1">TaxonName-combinationAuthor-example-1</a></li></ul></td>
+			<td>
+
+```turtle
+<https://ipni.org/n/316069-1> a tcs:TaxonName ;
+    tcs:taxonNameString "Rafflesia arnoldi" ;
+    dwc:scientificNameAuthorship "R.Br." ;
+    tcs:combinationAuthor <https://ipni.org/a/1192-1> ;
+    tcs:combinationAuthorLiteral "R.Br." .
+
+<https://ipni.org/a/1192-1> a foaf:Person ;
+    foaf:givenName "Robert" ;
+    foaf:surname "Brown" .
+```
+
+
+<ul><li><a href="../examples/#TaxonName-combinationAuthor-example-1">TaxonName-combinationAuthor-example-1</a></li></ul></td>
 		</tr>
 		<tr>
 			<td>GitHub issue</td>
@@ -1700,7 +2253,43 @@ nomenclatural data.
 		</tr>
 		<tr>
 			<td>Examples</td>
-			<td><ul><li><a href="../examples/#TaxonName-basionymAuthor-example-1">TaxonName-basionymAuthor-example-1</a></li></ul></td>
+			<td>
+
+```turtle
+<https://tropicos.org/name/35121611> a tcs:taxonName ;
+    tcs:taxonNameString "Dicranoloma robustum" ;
+    dwc:scientificNameAuthorship "(Hook.f. & Wilson) Paris" ;
+    tcs:combinationAuthor <https://tropicos.org/person/2011> ;
+    tcs:combinationAuthorLiteral "Paris" 
+    tcs:basionymAuthor _:b1 ;
+    tcs:basionymAuthorLiteral "Hook.f. & Wilson" ;
+    tcs:basionym <https://tropicos.org/name/35124067> .
+
+<https://tropicos.org/name/35124067> a tcs:TaxonName ;
+    tcs:taxonNameString "Dicranum robustum" ;
+    dwc:scientificNameAuthorship ;
+    tcs:combinationAuthor _:b1 ;
+    tcs:combinationAuthorLiteral "Hook.f. & Wilson" .
+
+<https://tropicos.org/person/2011> a foaf:Person ;
+    foaf:givenName "Jean Édouard Gabriel Narcisse" ;
+    foaf:surname "Paris" .
+
+_:b1 a rdf:Seq ;
+    rdf:_1 <https://tropicos.org/person/3> ;
+    rdf:_2 <https://tropicos.org/person/10481> .
+
+<https://tropicos.org/person/3> a foaf:Person ;
+    foaf:givenName "Joseph Dalton" ;
+    foaf:surname "Hooker" .
+
+<https://tropicos.org/person/10481> a foaf:Person ;
+    foaf:givenName "William" ;
+    foaf:surname "Wilson" .
+```
+
+
+<ul><li><a href="../examples/#TaxonName-basionymAuthor-example-1">TaxonName-basionymAuthor-example-1</a></li></ul></td>
 		</tr>
 		<tr>
 			<td>GitHub issue</td>
@@ -1782,7 +2371,28 @@ nomenclatural data.
 		</tr>
 		<tr>
 			<td>Examples</td>
-			<td><ul><li><a href="../examples/#TaxonName-combinationAscribedAuthor-example-1">TaxonName-combinationAscribedAuthor-example-1</a></li></ul></td>
+			<td>
+
+```turtle
+<https://tropicos.org/name/35153928> a tcs:TaxonName ;
+    tcs:taxonNameString "Calymperes serratum" ;
+    dwc:scientificNameAuthorship "A.Braun ex Müll.Hal." ;
+    tcs:combinationAuthor <https://tropicos.org/person/2> ;
+    tcs:combinationAuthorLiteral "Müll.Hal." ;
+    tcs:combinationAscribedAuthor <https://tropicos.org/person/973> ;
+    tcs:combinationAscribedAuthorLiteral "A.Braun" .
+
+<https://tropicos.org/person/2> a foaf:Person ;
+    foaf:givenName "Johann Karl (Carl) August (Friedrich Wilhelm)" ;
+    foaf:surname "Müller" .
+
+<https://tropicos.org/person/973> a foaf:Person ;
+    foaf:givenName "Alexander Karl (Carl) Heinrich" ;
+    foaf:surname "Braun" .
+```
+
+
+<ul><li><a href="../examples/#TaxonName-combinationAscribedAuthor-example-1">TaxonName-combinationAscribedAuthor-example-1</a></li></ul></td>
 		</tr>
 		<tr>
 			<td>GitHub issue</td>
@@ -1864,7 +2474,43 @@ nomenclatural data.
 		</tr>
 		<tr>
 			<td>Examples</td>
-			<td><ul><li><a href="../examples/#TaxonName-basionymAscribedAuthor-example-1">TaxonName-basionymAscribedAuthor-example-1</a></li></ul></td>
+			<td>
+
+```turtle
+<https://ipni.org/n/3007069-1> a tcs:TaxonName ;
+    tcs:taxonNameString "Senna artemisioides" ;
+    dwc:scientificNameAuthorship "(Gaudich. ex DC.) Isely)" ;
+    tcs:combinationAuthor <https://ipni.org/a/4317-1> ;
+    tcs:combinationAuthorLiteral "Isely" ;
+    tcs:basionymAuthor <https://ipni.org/a/16855-1> ;
+    tcs:basionymAuthorLiteral "DC." ;
+    tcs:basionymAscribedAuthor <https://ipni.org/a/3050-1> ;
+    tcs:basionymAscribedAuthorLiteral "Gaudich." ;
+    tcs:basionym <https://ipni.org/n/484142-1> .
+
+<https://ipni.org/n/484142-1> a tcs:TaxonName ;
+    tcs:taxonNameString "Cassia artemisioides" ;
+    dwc:scientificNameAuthorship "Gaudich. ex DC." ;
+    tcs:combinationAuthor <https://ipni.org/a/16855-1> ;
+    tcs:combinationAuthorLiteral "DC." ;
+    tcs:combinationAscribedAuthor <https://ipni.org/a/3050-1> ;
+    tcs:combinationAscribedAuthorLiteral "Gaudich." .
+
+<https://ipni.org/a/4317-1> a foaf:Person ;
+    foaf:givenName "Duane" ;
+    foaf:surname "Isely" .
+
+<https://ipni.org/a/4317-1> a foaf:Person ;
+    foaf:givenName "Augustin Pyramus" ;
+    foaf:surname "De Candolle" .
+
+<https://ipni.org/a/3050-1> a foaf:Person ;
+    foaf:givenName "Charles" ;
+    foaf:surname "Gaudichaud-Beaupré" .
+```
+
+
+<ul><li><a href="../examples/#TaxonName-basionymAscribedAuthor-example-1">TaxonName-basionymAscribedAuthor-example-1</a></li></ul></td>
 		</tr>
 		<tr>
 			<td>GitHub issue</td>
@@ -2224,7 +2870,44 @@ nomenclatural data.
 		</tr>
 		<tr>
 			<td>Examples</td>
-			<td><ul><li><a href="../examples/#NomenclaturalType-example-1">NomenclaturalType-example-1</a></li></ul></td>
+			<td>
+
+```turtle
+# Examples from TCS 1
+[] a tcs:NomenclaturalType ;
+    tcs:typifiedName <https://ipni.org/n/50985479-1> ;
+    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/lectotype> ;
+    tcs:typeName <https://ipni.org/n/333193-1> ;
+    tcs:typePublishedIn [ a bibo:Article ;
+    	  dcterms:bibliographicCitation """Copeland, H.F. (1943). A study, anatomical and 
+                taxonomic, of the genera of Rhododendroideae. Am. Midl. Nat. 30: 533-625""" ] .
+
+[] a tcs:NomenclaturalType ;
+    tcs:typifiedName <https://ipni.org/n/333193-1> ;
+    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/lectotype> ;
+    tcs:typeSpecimen [ a dwc:MaterialCitation ;
+        dwc:verbatimLocality "Japan, Honshu, Nikko" ;
+        dwc:recordedBy "Bisset" ;
+        dwc:recordNumber "233" ;
+        dwc:eventDate "1876-05-23" ;
+        dwc:institutionCode "E" ] ;
+    tcs:typePublishedIn [ a bibo:Article ; 
+        dcterms:bibliographicCitation """Judd, W.S.; Kron, K.A. (1995). A revision of Rhododendron 
+                VI. Subgenus Pentanthera (sections Sciadorhodon, Rhodora and Viscidula). Edinburgh 
+                Journal of Botany 52: 1-54.""" ] .
+
+# name used in TaxonName examples; more data there
+<https://ipni.org/n/50985479-1> a tcs:TaxonName ;
+    tcs:taxonNameString "Rhododendron sect. Sciadorhodion" ;
+    dwc:scientificNameAuthorship "Rehder & Wilson" .
+
+<https://ipni.org/n/333193-1> a tcs:TaxonName ;
+    tcs:taxonNameString "Rhododendron quinquefolium" ;
+    dwc:scientificNameAuthorship "Bisset & S.Moore" .
+```
+
+
+<ul><li><a href="../examples/#NomenclaturalType-example-1">NomenclaturalType-example-1</a></li></ul></td>
 		</tr>
 		<tr>
 			<td>GitHub issue</td>
