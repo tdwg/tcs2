@@ -1,0 +1,43 @@
+{
+  "@context": "https://raw.githubusercontent.com/tdwg/tcs2/master/examples/context.jsonld",
+  "id": "https://tropicos.org/name/35121611",
+  "type": "TaxonName",
+  "taxonNameString": "Dicranoloma robustum",
+  "dwc:scientificNameAuthorship": "(Hook.f. & Wilson) Paris",
+  "combinationAuthor": {
+    "id": "https://tropicos.org/person/2011",
+    "type": "foaf:Person",
+    "foaf:givenName": "Jean Édouard Gabriel Narcisse",
+    "foaf:surname": "Paris"
+  },
+  "combinationAuthorLiteral": "Paris",
+  "basionymAuthor": {
+    "@list": [
+      {
+        "id": "https://tropicos.org/person/3",
+        "type": "foaf:Person",
+        "foaf:givenName": "Joseph Dalton",
+        "foaf:surname": "Hooker"
+      },
+      {
+        "id": "https://tropicos.org/person/10481",
+        "type": "foaf:Person",
+        "foaf:givenName": "William",
+        "foaf:surname": "Wilson"
+      }
+    ]
+  },
+  "basionymAuthorLiteral": "Hook.f. & Wilson",
+  "basionym": {
+    "id": "https://tropicos.org/name/35124067",
+    "type": "TaxonName",
+    "taxonNameString": "Dicranum robustum",
+    "dwc:scientificNameAuthorship": "Hook.f.& Wilson",
+    "combinationAuthor": {
+      "@list": [
+        "https://tropicos.org/person/3",
+        "https://tropicos.org/person/10481"
+      ]
+    }
+  }
+}

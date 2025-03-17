@@ -46,7 +46,14 @@
     "basionym":                         { "@type": "@id", "@id": "tcs:basionym" },
     "replacedName":                     { "@type": "@id", "@id": "tcs:replacedName" },
     "conservedAgainst":                 { "@type": "@id", "@id": "tcs:conservedAgainst", "@container": "@set" },
-
+    "combinationAuthor":                { "@type": "@id", "@id": "tcs:combinationAuthor" },
+    "combinationAscribedAuthor":        { "@type": "@id", "@id": "tcs:combinationAscribedAuthor" },
+    "basionymAuthor":                   { "@type": "@id", "@id": "tcs:basionymAuthor" },
+    "basionymAscribedAuthor":           { "@type": "@id", "@id": "tcs:basionymAscribedAuthor" },
+    "combinationAuthorLiteral":         { "@type": "xsd:String", "@id": "tcs:combinationAuthorLiteral" },
+    "combinationAscribedAuthorLiteral": { "@type": "xsd:String", "@id": "tcs:combinationAscribedAuthorLiteral" },
+    "basionymAuthorLiteral":            { "@type": "xsd:String", "@id": "tcs:basionymAuthorLiteral" },
+    "basionymAscribedAuthorLiteral":    { "@type": "xsd:String", "@id": "tcs:basionymAscribedAuthorLiteral" },
     "typification":                     { "@reverse": "tcs:typifiedName", "@container": "@set" },
     "typificationLiteral":              { "@type": "xsd:String", "@id": "tcs:typificationLiteral" },
 

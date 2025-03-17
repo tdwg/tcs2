@@ -1,0 +1,13 @@
+@prefix tcs: <http://rs.tdwg.org/tcs/terms/> .
+@prefix dwc: <http://rs.tdwg.org/dwc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+<https://ipni.org/n/316069-1> a tcs:TaxonName ;
+    tcs:taxonNameString "Rafflesia arnoldi" ;
+    dwc:scientificNameAuthorship "R.Br." ;
+    tcs:combinationAuthor <https://ipni.org/a/1192-1> ;
+    tcs:combinationAuthorLiteral "R.Br." .
+
+<https://ipni.org/a/1192-1> a foaf:Person ;
+    foaf:givenName "Robert" ;
+    foaf:surname "Brown" .

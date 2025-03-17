@@ -1116,37 +1116,6 @@
     - predicate: "skos:exactMatch"
       iri: "tn:ConservedAgainst"
 
-# property: basionymAuthor
-- localName: basionymAuthor
-  label: Basionym author
-  definition: Author of the basionym of the name
-  usage: >-
-    `basionymAuthor` is an IRI property. It can be a Person or a Group, or
-    multiple Person IRIs or objects.
-  notes: >-
-    `basionymAuthor` (or its literal counterpart) is the bit in parentheses
-    in the `dwc:scientificNameAuthorship`.
-  type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
-  organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonName
-  required: No
-  repeatable: Yes
-  github: 239
-
-# property: basionymAuthorLiteral
-- localName: basionymAuthorLiteral
-  label: Basionym author literal
-  definition: Author of the basionym of the name
-  usage: >-
-    `basionymAuthorLiteral` is a Literal property.
-  notes: >-
-    `basionymAuthorLiteral` is the bit in parentheses
-    in the `dwc:scientificNameAuthorship`.
-  type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
-  organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonName
-  required: No
-  repeatable: No
-  github: 239
-
 # property: combinationAuthor
 - localName: combinationAuthor
   label: Combination author
@@ -1161,6 +1130,8 @@
   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonName
   required: No
   repeatable: Yes
+  examples: 
+    - TaxonName-combinationAuthor-example-1
   github: 239
 
 # property: combinationAuthorLiteral
@@ -1178,45 +1149,33 @@
   repeatable: No
   github: 239
 
-# property: basionymAscribedAuthor
-- localName: basionymAscribedAuthor
+# property: basionymAuthor
+- localName: basionymAuthor
   label: Basionym author
-  definition: Ascribed author of the basionym of the name
+  definition: Author of the basionym of the name
   usage: >-
-    `basionymAscribedAuthor` is an IRI property. It can be a Person or a Group, or
+    `basionymAuthor` is an IRI property. It can be a Person or a Group, or
     multiple Person IRIs or objects.
   notes: >-
-    'Ascribed author' is a person (or group of people) who a name is ascribed to
-    in a publication, but who is not the author of the name according to the
-    rules of the nomenclatural codes, because they did not contribute to the
-    validating description of the name. In the `dwc:scientificNameAuthorship`
-    these authors are indicated with 'ex', the ascribed author coming before the
-    'ex' and the author the name is attributed to after. Note that the 'ex'
-    construction that is sometimes used with zoological names has got nothing to
-    do with attribution or ascription, but is used to indicate a concept, much
-    like we do here with 'sec.' or 'sensu' in taxon concept labels.
+    `basionymAuthor` (or its literal counterpart) is the bit in parentheses
+    in the `dwc:scientificNameAuthorship`.
   type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonName
   required: No
   repeatable: Yes
+  examples:
+    - TaxonName-basionymAuthor-example-1
   github: 239
 
-# property: basionymAscribedAuthorLiteral
-- localName: basionymAscribedAuthorLiteral
+# property: basionymAuthorLiteral
+- localName: basionymAuthorLiteral
   label: Basionym author literal
-  definition: Ascribed author of the basionym of the name
+  definition: Author of the basionym of the name
   usage: >-
-    `basionymAscribedAuthorLiteral` is a Literal property.
+    `basionymAuthorLiteral` is a Literal property.
   notes: >-
-    'Ascribed author' is a person (or group of people) who a name is ascribed to
-    in a publication, but who is not the author of the name according to the
-    rules of the nomenclatural codes, because they did not contribute to the
-    validating description of the name. In the `dwc:scientificNameAuthorship`
-    these authors are indicated with 'ex', the ascribed author coming before the
-    'ex' and the author the name is attributed to after. Note that the 'ex'
-    construction that is sometimes used with zoological names has got nothing to
-    do with attribution or ascription, but is used to indicate a concept, much
-    like we do here with 'sec.' or 'sensu' in taxon concept labels.
+    `basionymAuthorLiteral` is the bit in parentheses
+    in the `dwc:scientificNameAuthorship`.
   type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonName
   required: No
@@ -1244,6 +1203,8 @@
   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonName
   required: No
   repeatable: Yes
+  examples: 
+    - TaxonName-combinationAscribedAuthor-example-1
   github: 239
 
 # property: combinationAscribedAuthorLiteral
@@ -1252,6 +1213,53 @@
   definition: Ascribed author of the present name
   usage: >-
     `combinationAscribedAuthorLiteral` is a Literal property.
+  notes: >-
+    'Ascribed author' is a person (or group of people) who a name is ascribed to
+    in a publication, but who is not the author of the name according to the
+    rules of the nomenclatural codes, because they did not contribute to the
+    validating description of the name. In the `dwc:scientificNameAuthorship`
+    these authors are indicated with 'ex', the ascribed author coming before the
+    'ex' and the author the name is attributed to after. Note that the 'ex'
+    construction that is sometimes used with zoological names has got nothing to
+    do with attribution or ascription, but is used to indicate a concept, much
+    like we do here with 'sec.' or 'sensu' in taxon concept labels.
+  type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+  organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonName
+  required: No
+  repeatable: No
+  github: 239
+
+# property: basionymAscribedAuthor
+- localName: basionymAscribedAuthor
+  label: Basionym author
+  definition: Ascribed author of the basionym of the name
+  usage: >-
+    `basionymAscribedAuthor` is an IRI property. It can be a Person or a Group, or
+    multiple Person IRIs or objects.
+  notes: >-
+    'Ascribed author' is a person (or group of people) who a name is ascribed to
+    in a publication, but who is not the author of the name according to the
+    rules of the nomenclatural codes, because they did not contribute to the
+    validating description of the name. In the `dwc:scientificNameAuthorship`
+    these authors are indicated with 'ex', the ascribed author coming before the
+    'ex' and the author the name is attributed to after. Note that the 'ex'
+    construction that is sometimes used with zoological names has got nothing to
+    do with attribution or ascription, but is used to indicate a concept, much
+    like we do here with 'sec.' or 'sensu' in taxon concept labels.
+  type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+  organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonName
+  required: No
+  repeatable: Yes
+  examples:
+    - TaxonName-basionymAscribedAuthor-example-1
+  github: 239
+
+# property: basionymAscribedAuthorLiteral
+- localName: basionymAscribedAuthorLiteral
+  label: Basionym author literal
+  definition: Ascribed author of the basionym of the name
+  usage: >-
+    `basionymAscribedAuthorLiteral` is a Literal property.
   notes: >-
     'Ascribed author' is a person (or group of people) who a name is ascribed to
     in a publication, but who is not the author of the name according to the

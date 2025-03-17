@@ -30,7 +30,7 @@ The following namespace aliases are used in the examples below:
 
 ### TaxonName
 
-**tcs:TaxonName:** [TaxonName-example-1](#TaxonName-example-1) &bull; [TaxonName-example-2](#TaxonName-example-2) &bull; [TaxonName-example-3](#TaxonName-example-3) &bull; [TaxonName-example-4](#TaxonName-example-4) | **tcs:typification:** [TaxonName-typification-example-1](#TaxonName-typification-example-1) &bull; [TaxonName-typification-example-2](#TaxonName-typification-example-2) | **tcs:basionym:** [TaxonName-basionym-example-1](#TaxonName-basionym-example-1) &bull; [TaxonName-basionym-example-2](#TaxonName-basionym-example-2) | **tcs:replacedName:** [TaxonName-replacedName-example-1](#TaxonName-replacedName-example-1) &bull; [TaxonName-replacedName-example-2](#TaxonName-replacedName-example-2) &bull; [TaxonName-replacedName-example-3](#TaxonName-replacedName-example-3) &bull; [TaxonName-replacedName-example-4](#TaxonName-replacedName-example-4) | **tcs:conservedAgainst:** [TaxonName-conservedAgainst-example-1](#TaxonName-conservedAgainst-example-1)
+**tcs:TaxonName:** [TaxonName-example-1](#TaxonName-example-1) &bull; [TaxonName-example-2](#TaxonName-example-2) &bull; [TaxonName-example-3](#TaxonName-example-3) &bull; [TaxonName-example-4](#TaxonName-example-4) | **tcs:typification:** [TaxonName-typification-example-1](#TaxonName-typification-example-1) &bull; [TaxonName-typification-example-2](#TaxonName-typification-example-2) | **tcs:basionym:** [TaxonName-basionym-example-1](#TaxonName-basionym-example-1) &bull; [TaxonName-basionym-example-2](#TaxonName-basionym-example-2) | **tcs:replacedName:** [TaxonName-replacedName-example-1](#TaxonName-replacedName-example-1) &bull; [TaxonName-replacedName-example-2](#TaxonName-replacedName-example-2) &bull; [TaxonName-replacedName-example-3](#TaxonName-replacedName-example-3) &bull; [TaxonName-replacedName-example-4](#TaxonName-replacedName-example-4) | **tcs:conservedAgainst:** [TaxonName-conservedAgainst-example-1](#TaxonName-conservedAgainst-example-1) | **tcs:combinationAuthor:** [TaxonName-combinationAuthor-example-1](#TaxonName-combinationAuthor-example-1) | **tcs:basionymAuthor:** [TaxonName-basionymAuthor-example-1](#TaxonName-basionymAuthor-example-1) | **tcs:combinationAscribedAuthor:** [TaxonName-combinationAscribedAuthor-example-1](#TaxonName-combinationAscribedAuthor-example-1) | **tcs:basionymAscribedAuthor:** [TaxonName-basionymAscribedAuthor-example-1](#TaxonName-basionymAscribedAuthor-example-1)
 
 ### NomenclaturalType
 
@@ -1560,6 +1560,126 @@ _:b1 a tcs:TaxonName ;
 ```
 
 [&lsqb;TaxonName-conservedAgainst-example-1.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonName-conservedAgainst-example-1.ttl)&nbsp;[&lsqb;TaxonName-conservedAgainst-example-1.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonName-conservedAgainst-example-1.jsonld)
+
+
+### tcs:combinationAuthor
+
+#### TaxonName-combinationAuthor-example-1
+```turtle
+<https://ipni.org/n/316069-1> a tcs:TaxonName ;
+    tcs:taxonNameString "Rafflesia arnoldi" ;
+    dwc:scientificNameAuthorship "R.Br." ;
+    tcs:combinationAuthor <https://ipni.org/a/1192-1> ;
+    tcs:combinationAuthorLiteral "R.Br." .
+
+<https://ipni.org/a/1192-1> a foaf:Person ;
+    foaf:givenName "Robert" ;
+    foaf:surname "Brown" .
+```
+
+[&lsqb;TaxonName-combinationAuthor-example-1.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonName-combinationAuthor-example-1.ttl)&nbsp;[&lsqb;TaxonName-combinationAuthor-example-1.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonName-combinationAuthor-example-1.jsonld)
+
+
+### tcs:basionymAuthor
+
+#### TaxonName-basionymAuthor-example-1
+```turtle
+<https://tropicos.org/name/35121611> a tcs:taxonName ;
+    tcs:taxonNameString "Dicranoloma robustum" ;
+    dwc:scientificNameAuthorship "(Hook.f. & Wilson) Paris" ;
+    tcs:combinationAuthor <https://tropicos.org/person/2011> ;
+    tcs:combinationAuthorLiteral "Paris" 
+    tcs:basionymAuthor _:b1 ;
+    tcs:basionymAuthorLiteral "Hook.f. & Wilson" ;
+    tcs:basionym <https://tropicos.org/name/35124067> .
+
+<https://tropicos.org/name/35124067> a tcs:TaxonName ;
+    tcs:taxonNameString "Dicranum robustum" ;
+    dwc:scientificNameAuthorship ;
+    tcs:combinationAuthor _:b1 ;
+    tcs:combinationAuthorLiteral "Hook.f. & Wilson" .
+
+<https://tropicos.org/person/2011> a foaf:Person ;
+    foaf:givenName "Jean Édouard Gabriel Narcisse" ;
+    foaf:surname "Paris" .
+
+_:b1 a rdf:Seq ;
+    rdf:_1 <https://tropicos.org/person/3> ;
+    rdf:_2 <https://tropicos.org/person/10481> .
+
+<https://tropicos.org/person/3> a foaf:Person ;
+    foaf:givenName "Joseph Dalton" ;
+    foaf:surname "Hooker" .
+
+<https://tropicos.org/person/10481> a foaf:Person ;
+    foaf:givenName "William" ;
+    foaf:surname "Wilson" .
+```
+
+[&lsqb;TaxonName-basionymAuthor-example-1.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonName-basionymAuthor-example-1.ttl)&nbsp;[&lsqb;TaxonName-basionymAuthor-example-1.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonName-basionymAuthor-example-1.jsonld)
+
+
+### tcs:combinationAscribedAuthor
+
+#### TaxonName-combinationAscribedAuthor-example-1
+```turtle
+<https://tropicos.org/name/35153928> a tcs:TaxonName ;
+    tcs:taxonNameString "Calymperes serratum" ;
+    dwc:scientificNameAuthorship "A.Braun ex Müll.Hal." ;
+    tcs:combinationAuthor <https://tropicos.org/person/2> ;
+    tcs:combinationAuthorLiteral "Müll.Hal." ;
+    tcs:combinationAscribedAuthor <https://tropicos.org/person/973> ;
+    tcs:combinationAscribedAuthorLiteral "A.Braun" .
+
+<https://tropicos.org/person/2> a foaf:Person ;
+    foaf:givenName "Johann Karl (Carl) August (Friedrich Wilhelm)" ;
+    foaf:surname "Müller" .
+
+<https://tropicos.org/person/973> a foaf:Person ;
+    foaf:givenName "Alexander Karl (Carl) Heinrich" ;
+    foaf:surname "Braun" .
+```
+
+[&lsqb;TaxonName-combinationAscribedAuthor-example-1.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonName-combinationAscribedAuthor-example-1.ttl)&nbsp;[&lsqb;TaxonName-combinationAscribedAuthor-example-1.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonName-combinationAscribedAuthor-example-1.jsonld)
+
+
+### tcs:basionymAscribedAuthor
+
+#### TaxonName-basionymAscribedAuthor-example-1
+```turtle
+<https://ipni.org/n/3007069-1> a tcs:TaxonName ;
+    tcs:taxonNameString "Senna artemisioides" ;
+    dwc:scientificNameAuthorship "(Gaudich. ex DC.) Isely)" ;
+    tcs:combinationAuthor <https://ipni.org/a/4317-1> ;
+    tcs:combinationAuthorLiteral "Isely" ;
+    tcs:basionymAuthor <https://ipni.org/a/16855-1> ;
+    tcs:basionymAuthorLiteral "DC." ;
+    tcs:basionymAscribedAuthor <https://ipni.org/a/3050-1> ;
+    tcs:basionymAscribedAuthorLiteral "Gaudich." ;
+    tcs:basionym <https://ipni.org/n/484142-1> .
+
+<https://ipni.org/n/484142-1> a tcs:TaxonName ;
+    tcs:taxonNameString "Cassia artemisioides" ;
+    dwc:scientificNameAuthorship "Gaudich. ex DC." ;
+    tcs:combinationAuthor <https://ipni.org/a/16855-1> ;
+    tcs:combinationAuthorLiteral "DC." ;
+    tcs:combinationAscribedAuthor <https://ipni.org/a/3050-1> ;
+    tcs:combinationAscribedAuthorLiteral "Gaudich." .
+
+<https://ipni.org/a/4317-1> a foaf:Person ;
+    foaf:givenName "Duane" ;
+    foaf:surname "Isely" .
+
+<https://ipni.org/a/4317-1> a foaf:Person ;
+    foaf:givenName "Augustin Pyramus" ;
+    foaf:surname "De Candolle" .
+
+<https://ipni.org/a/3050-1> a foaf:Person ;
+    foaf:givenName "Charles" ;
+    foaf:surname "Gaudichaud-Beaupré" .
+```
+
+[&lsqb;TaxonName-basionymAscribedAuthor-example-1.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonName-basionymAscribedAuthor-example-1.ttl)&nbsp;[&lsqb;TaxonName-basionymAscribedAuthor-example-1.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonName-basionymAscribedAuthor-example-1.jsonld)
 
 
 ## NomenclaturalType

@@ -46,7 +46,7 @@ nomenclatural data.
 
 **Taxon Name**
 
-[tcs:TaxonName](#tcstaxonname) | [tcs:taxonNameString](#tcstaxonnamestring) | [tcs:namePublishedIn](#tcsnamepublishedin) | [tcs:microreference](#tcsmicroreference) | [tcs:nomenclaturalCode](#tcsnomenclaturalcode) | [tcs:nomenclaturalStatus](#tcsnomenclaturalstatus) | [tcs:typification](#tcstypification) | [tcs:typificationLiteral](#tcstypificationliteral) | [tcs:basionym](#tcsbasionym) | [tcs:replacedName](#tcsreplacedname) | [tcs:basedOn](#tcsbasedon) | [tcs:laterHomonymOf](#tcslaterhomonymof) | [tcs:conservedAgainst](#tcsconservedagainst) | [tcs:basionymAuthor](#tcsbasionymauthor) | [tcs:basionymAuthorLiteral](#tcsbasionymauthorliteral) | [tcs:combinationAuthor](#tcscombinationauthor) | [tcs:combinationAuthorLiteral](#tcscombinationauthorliteral) | [tcs:basionymAscribedAuthor](#tcsbasionymascribedauthor) | [tcs:basionymAscribedAuthorLiteral](#tcsbasionymascribedauthorliteral) | [tcs:combinationAscribedAuthor](#tcscombinationascribedauthor) | [tcs:combinationAscribedAuthorLiteral](#tcscombinationascribedauthorliteral) | [dwc:scientificNameAuthorship](#dwcscientificnameauthorship) | [dwc:namePublishedIn](#dwcnamepublishedin) | [dwc:namePublishedInYear](#dwcnamepublishedinyear) | [dwc:genericName](#dwcgenericname) | [dwc:infragenericEpithet](#dwcinfragenericepithet) | [dwc:specificEpithet](#dwcspecificepithet) | [dwc:infraspecificEpithet](#dwcinfraspecificepithet) | [dwc:cultivarEpithet](#dwccultivarepithet)
+[tcs:TaxonName](#tcstaxonname) | [tcs:taxonNameString](#tcstaxonnamestring) | [tcs:namePublishedIn](#tcsnamepublishedin) | [tcs:microreference](#tcsmicroreference) | [tcs:nomenclaturalCode](#tcsnomenclaturalcode) | [tcs:nomenclaturalStatus](#tcsnomenclaturalstatus) | [tcs:typification](#tcstypification) | [tcs:typificationLiteral](#tcstypificationliteral) | [tcs:basionym](#tcsbasionym) | [tcs:replacedName](#tcsreplacedname) | [tcs:basedOn](#tcsbasedon) | [tcs:laterHomonymOf](#tcslaterhomonymof) | [tcs:conservedAgainst](#tcsconservedagainst) | [tcs:combinationAuthor](#tcscombinationauthor) | [tcs:combinationAuthorLiteral](#tcscombinationauthorliteral) | [tcs:basionymAuthor](#tcsbasionymauthor) | [tcs:basionymAuthorLiteral](#tcsbasionymauthorliteral) | [tcs:combinationAscribedAuthor](#tcscombinationascribedauthor) | [tcs:combinationAscribedAuthorLiteral](#tcscombinationascribedauthorliteral) | [tcs:basionymAscribedAuthor](#tcsbasionymascribedauthor) | [tcs:basionymAscribedAuthorLiteral](#tcsbasionymascribedauthorliteral) | [dwc:scientificNameAuthorship](#dwcscientificnameauthorship) | [dwc:namePublishedIn](#dwcnamepublishedin) | [dwc:namePublishedInYear](#dwcnamepublishedinyear) | [dwc:genericName](#dwcgenericname) | [dwc:infragenericEpithet](#dwcinfragenericepithet) | [dwc:specificEpithet](#dwcspecificepithet) | [dwc:infraspecificEpithet](#dwcinfraspecificepithet) | [dwc:cultivarEpithet](#dwccultivarepithet)
 
 **Nomenclatural Type**
 
@@ -1584,84 +1584,6 @@ nomenclatural data.
 	</tbody>
 </table>
 
-### tcs:basionymAuthor
-
-<table style="width:100%;">
-	<tbody>
-		<tr>
-			<td>Identifier</td>
-			<td>http://rs.tdwg.org/tcs/terms/basionymAuthor</td>
-		</tr>
-		<tr>
-			<td>Type</td>
-			<td>http://www.w3.org/1999/02/22-rdf-syntax-ns#Property</td>
-		</tr>
-		<tr>
-			<td>Label</td>
-			<td>Basionym author</td>
-		</tr>
-		<tr>
-			<td></td>
-			<td><b>required:</b> No — <b>repeatable:</b> Yes</td>
-		</tr>
-		<tr>
-			<td>Definition</td>
-			<td><p>Author of the basionym of the name</p></td>
-		</tr>
-		<tr>
-			<td>Usage</td>
-			<td><p><code>basionymAuthor</code> is an IRI property. It can be a Person or a Group, or multiple Person IRIs or objects.</p></td>
-		</tr>
-		<tr>
-			<td>Comments</td>
-			<td><p><code>basionymAuthor</code> (or its literal counterpart) is the bit in parentheses in the <code>dwc:scientificNameAuthorship</code>.</p></td>
-		</tr>
-		<tr>
-			<td>GitHub issue</td>
-			<td>https://github.com/tdwg/tcs2/issues/239</td>
-		</tr>
-	</tbody>
-</table>
-
-### tcs:basionymAuthorLiteral
-
-<table style="width:100%;">
-	<tbody>
-		<tr>
-			<td>Identifier</td>
-			<td>http://rs.tdwg.org/tcs/terms/basionymAuthorLiteral</td>
-		</tr>
-		<tr>
-			<td>Type</td>
-			<td>http://www.w3.org/1999/02/22-rdf-syntax-ns#Property</td>
-		</tr>
-		<tr>
-			<td>Label</td>
-			<td>Basionym author literal</td>
-		</tr>
-		<tr>
-			<td></td>
-			<td><b>required:</b> No — <b>repeatable:</b> No</td>
-		</tr>
-		<tr>
-			<td>Definition</td>
-			<td><p>Author of the basionym of the name</p></td>
-		</tr>
-		<tr>
-			<td>Usage</td>
-			<td><p><code>basionymAuthorLiteral</code> is a Literal property.</p></td>
-		</tr>
-		<tr>
-			<td>Comments</td>
-			<td><p><code>basionymAuthorLiteral</code> is the bit in parentheses in the <code>dwc:scientificNameAuthorship</code>.</p></td>
-		</tr>
-		<tr>
-			<td>GitHub issue</td>
-			<td>https://github.com/tdwg/tcs2/issues/239</td>
-		</tr>
-	</tbody>
-</table>
-
 ### tcs:combinationAuthor
 
 <table style="width:100%;">
@@ -1693,6 +1615,10 @@ nomenclatural data.
 		<tr>
 			<td>Comments</td>
 			<td><p>'combination' is taken here to be a different name with the same nomenclatural type.</p></td>
+		</tr>
+		<tr>
+			<td>Examples</td>
+			<td><ul><li><a href="../examples/#TaxonName-combinationAuthor-example-1">TaxonName-combinationAuthor-example-1</a></li></ul></td>
 		</tr>
 		<tr>
 			<td>GitHub issue</td>
@@ -1740,13 +1666,13 @@ nomenclatural data.
 	</tbody>
 </table>
 
-### tcs:basionymAscribedAuthor
+### tcs:basionymAuthor
 
 <table style="width:100%;">
 	<tbody>
 		<tr>
 			<td>Identifier</td>
-			<td>http://rs.tdwg.org/tcs/terms/basionymAscribedAuthor</td>
+			<td>http://rs.tdwg.org/tcs/terms/basionymAuthor</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -1762,15 +1688,19 @@ nomenclatural data.
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td><p>Ascribed author of the basionym of the name</p></td>
+			<td><p>Author of the basionym of the name</p></td>
 		</tr>
 		<tr>
 			<td>Usage</td>
-			<td><p><code>basionymAscribedAuthor</code> is an IRI property. It can be a Person or a Group, or multiple Person IRIs or objects.</p></td>
+			<td><p><code>basionymAuthor</code> is an IRI property. It can be a Person or a Group, or multiple Person IRIs or objects.</p></td>
 		</tr>
 		<tr>
 			<td>Comments</td>
-			<td><p>'Ascribed author' is a person (or group of people) who a name is ascribed to in a publication, but who is not the author of the name according to the rules of the nomenclatural codes, because they did not contribute to the validating description of the name. In the <code>dwc:scientificNameAuthorship</code> these authors are indicated with 'ex', the ascribed author coming before the 'ex' and the author the name is attributed to after. Note that the 'ex' construction that is sometimes used with zoological names has got nothing to do with attribution or ascription, but is used to indicate a concept, much like we do here with 'sec.' or 'sensu' in taxon concept labels.</p></td>
+			<td><p><code>basionymAuthor</code> (or its literal counterpart) is the bit in parentheses in the <code>dwc:scientificNameAuthorship</code>.</p></td>
+		</tr>
+		<tr>
+			<td>Examples</td>
+			<td><ul><li><a href="../examples/#TaxonName-basionymAuthor-example-1">TaxonName-basionymAuthor-example-1</a></li></ul></td>
 		</tr>
 		<tr>
 			<td>GitHub issue</td>
@@ -1779,13 +1709,13 @@ nomenclatural data.
 	</tbody>
 </table>
 
-### tcs:basionymAscribedAuthorLiteral
+### tcs:basionymAuthorLiteral
 
 <table style="width:100%;">
 	<tbody>
 		<tr>
 			<td>Identifier</td>
-			<td>http://rs.tdwg.org/tcs/terms/basionymAscribedAuthorLiteral</td>
+			<td>http://rs.tdwg.org/tcs/terms/basionymAuthorLiteral</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -1801,15 +1731,15 @@ nomenclatural data.
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td><p>Ascribed author of the basionym of the name</p></td>
+			<td><p>Author of the basionym of the name</p></td>
 		</tr>
 		<tr>
 			<td>Usage</td>
-			<td><p><code>basionymAscribedAuthorLiteral</code> is a Literal property.</p></td>
+			<td><p><code>basionymAuthorLiteral</code> is a Literal property.</p></td>
 		</tr>
 		<tr>
 			<td>Comments</td>
-			<td><p>'Ascribed author' is a person (or group of people) who a name is ascribed to in a publication, but who is not the author of the name according to the rules of the nomenclatural codes, because they did not contribute to the validating description of the name. In the <code>dwc:scientificNameAuthorship</code> these authors are indicated with 'ex', the ascribed author coming before the 'ex' and the author the name is attributed to after. Note that the 'ex' construction that is sometimes used with zoological names has got nothing to do with attribution or ascription, but is used to indicate a concept, much like we do here with 'sec.' or 'sensu' in taxon concept labels.</p></td>
+			<td><p><code>basionymAuthorLiteral</code> is the bit in parentheses in the <code>dwc:scientificNameAuthorship</code>.</p></td>
 		</tr>
 		<tr>
 			<td>GitHub issue</td>
@@ -1851,6 +1781,10 @@ nomenclatural data.
 			<td><p>'Ascribed author' is a person (or group of people) who a name is ascribed to in a publication, but who is not the author of the name according to the rules of the nomenclatural codes, because they did not contribute to the validating description of the name. In the <code>dwc:scientificNameAuthorship</code> these authors are indicated with 'ex', the ascribed author coming before the 'ex' and the author the name is attributed to after. Note that the 'ex' construction that is sometimes used with zoological names has got nothing to do with attribution or ascription, but is used to indicate a concept, much like we do here with 'sec.' or 'sensu' in taxon concept labels.</p></td>
 		</tr>
 		<tr>
+			<td>Examples</td>
+			<td><ul><li><a href="../examples/#TaxonName-combinationAscribedAuthor-example-1">TaxonName-combinationAscribedAuthor-example-1</a></li></ul></td>
+		</tr>
+		<tr>
 			<td>GitHub issue</td>
 			<td>https://github.com/tdwg/tcs2/issues/239</td>
 		</tr>
@@ -1884,6 +1818,88 @@ nomenclatural data.
 		<tr>
 			<td>Usage</td>
 			<td><p><code>combinationAscribedAuthorLiteral</code> is a Literal property.</p></td>
+		</tr>
+		<tr>
+			<td>Comments</td>
+			<td><p>'Ascribed author' is a person (or group of people) who a name is ascribed to in a publication, but who is not the author of the name according to the rules of the nomenclatural codes, because they did not contribute to the validating description of the name. In the <code>dwc:scientificNameAuthorship</code> these authors are indicated with 'ex', the ascribed author coming before the 'ex' and the author the name is attributed to after. Note that the 'ex' construction that is sometimes used with zoological names has got nothing to do with attribution or ascription, but is used to indicate a concept, much like we do here with 'sec.' or 'sensu' in taxon concept labels.</p></td>
+		</tr>
+		<tr>
+			<td>GitHub issue</td>
+			<td>https://github.com/tdwg/tcs2/issues/239</td>
+		</tr>
+	</tbody>
+</table>
+
+### tcs:basionymAscribedAuthor
+
+<table style="width:100%;">
+	<tbody>
+		<tr>
+			<td>Identifier</td>
+			<td>http://rs.tdwg.org/tcs/terms/basionymAscribedAuthor</td>
+		</tr>
+		<tr>
+			<td>Type</td>
+			<td>http://www.w3.org/1999/02/22-rdf-syntax-ns#Property</td>
+		</tr>
+		<tr>
+			<td>Label</td>
+			<td>Basionym author</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td><b>required:</b> No — <b>repeatable:</b> Yes</td>
+		</tr>
+		<tr>
+			<td>Definition</td>
+			<td><p>Ascribed author of the basionym of the name</p></td>
+		</tr>
+		<tr>
+			<td>Usage</td>
+			<td><p><code>basionymAscribedAuthor</code> is an IRI property. It can be a Person or a Group, or multiple Person IRIs or objects.</p></td>
+		</tr>
+		<tr>
+			<td>Comments</td>
+			<td><p>'Ascribed author' is a person (or group of people) who a name is ascribed to in a publication, but who is not the author of the name according to the rules of the nomenclatural codes, because they did not contribute to the validating description of the name. In the <code>dwc:scientificNameAuthorship</code> these authors are indicated with 'ex', the ascribed author coming before the 'ex' and the author the name is attributed to after. Note that the 'ex' construction that is sometimes used with zoological names has got nothing to do with attribution or ascription, but is used to indicate a concept, much like we do here with 'sec.' or 'sensu' in taxon concept labels.</p></td>
+		</tr>
+		<tr>
+			<td>Examples</td>
+			<td><ul><li><a href="../examples/#TaxonName-basionymAscribedAuthor-example-1">TaxonName-basionymAscribedAuthor-example-1</a></li></ul></td>
+		</tr>
+		<tr>
+			<td>GitHub issue</td>
+			<td>https://github.com/tdwg/tcs2/issues/239</td>
+		</tr>
+	</tbody>
+</table>
+
+### tcs:basionymAscribedAuthorLiteral
+
+<table style="width:100%;">
+	<tbody>
+		<tr>
+			<td>Identifier</td>
+			<td>http://rs.tdwg.org/tcs/terms/basionymAscribedAuthorLiteral</td>
+		</tr>
+		<tr>
+			<td>Type</td>
+			<td>http://www.w3.org/1999/02/22-rdf-syntax-ns#Property</td>
+		</tr>
+		<tr>
+			<td>Label</td>
+			<td>Basionym author literal</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td><b>required:</b> No — <b>repeatable:</b> No</td>
+		</tr>
+		<tr>
+			<td>Definition</td>
+			<td><p>Ascribed author of the basionym of the name</p></td>
+		</tr>
+		<tr>
+			<td>Usage</td>
+			<td><p><code>basionymAscribedAuthorLiteral</code> is a Literal property.</p></td>
 		</tr>
 		<tr>
 			<td>Comments</td>

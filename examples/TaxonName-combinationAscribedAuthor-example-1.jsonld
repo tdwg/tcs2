@@ -1,0 +1,21 @@
+{
+  "@context": "https://raw.githubusercontent.com/tdwg/tcs2/master/examples/context.jsonld",
+  "id": "https://tropicos.org/name/35153928>",
+  "type": "TaxonName",
+  "taxonNameString": "Calymperes serratum",
+  "dwc:scientificNameAuthorship": "A.Braun ex Müll.Hal.",
+  "combinationAuthor": {
+    "id": "https://tropicos.org/person/2",
+    "type": "foaf:Person",
+    "foaf:givenName": "Johann Karl (Carl) August (Friedrich Wilhelm)",
+    "foaf:surname": "Müller"
+  },
+  "combinationAuthorLiteral": "Müll.Hal.",
+  "combinationAscribedAuthor": {
+    "id": "https://tropicos.org/person/973",
+    "type": "foaf:Person",
+    "foaf:givenName": "Alexander Karl (Carl) Heinrich",
+    "foaf:surname": "Braun"
+  },
+  "combinationAscribedAuthorLiteral": "A.Braun"
+}
