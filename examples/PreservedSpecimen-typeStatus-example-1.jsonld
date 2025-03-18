@@ -3,7 +3,22 @@
     "https://raw.githubusercontent.com/tdwg/tcs2/master/examples/context.jsonld",
     {
       "dsw": "http://purl.org/dsw/",
-      "dwciri": "http://rs.tdwg.org/dwc/iri/"
+      "dwciri": "http://rs.tdwg.org/dwc/iri/",
+      "oa": "http://www.w3.org/ns/oa#",
+      "Annotation": "oa:Annotation",
+      "commenting": "oa:commenting",
+      "body": {
+        "@id": "oa:hasBody",
+        "@type": "@id"
+      },
+      "target": {
+        "@id": "oa:hasTarget",
+        "@type": "@id"
+      },
+      "motivation": {
+        "@id": "oa:motivatedBy",
+        "@type": "@vocab"
+      }
     }
   ],
   "@graph": [
@@ -47,6 +62,7 @@
         "dsw:hasEvidence": { "id": "https://specify.rbg.vic.gov.au/specify/view/collectionobject/273521" }
       },  
       "dsw:isBasisForId": {
+        "id": "_:b0",
         "type": "dwc:Identification",
         "dwciri:toTaxon": {
           "id": "https://id.biodiversity.org.au/instance/apni/601693",
@@ -66,8 +82,15 @@
       "dwciri:typeStatus": {
         "type": "NomenclaturalType",
         "typeOfType": "http://rs.gbif.org/vocabulary/gbif/type_status/isolectotype",
-        "typifiedName": "https://ipni.org/n/703183-1"
+        "typifiedName": "https://ipni.org/n/703183-1",
+        "typeSpecimen": "https://specify.rbg.vic.gov.au/specify/view/collectionobject/273521"
       }
+    },
+    {
+      "type": "Annotation",
+      "motivation": "commenting",
+      "body": "_:b0",
+      "target": "https://specify.rbg.vic.gov.au/specify/view/collectionobject/273521"
     }
   ]
 }

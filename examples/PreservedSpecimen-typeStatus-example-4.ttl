@@ -4,18 +4,38 @@
 @prefix dsw: <http://purl.org/dsw/> .
 @prefix dwciri: <http://rs.tdwg.org/dwc/iri/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix oa: <http://www.w3.org/ns/oa#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
 <https://specify.rbg.vic.gov.au/specify/view/collectionobject/313208> a dwc:PresrvedSpecimen ;
     dwc:catalogNumber "MEL 1516494A" ;
     dsw:evidenceFor <https://avh.ala.org.au/occurrences/794ef2b7-956e-44e5-9321-cbe9553d6057> ;
-    dsw:isBasisForId [ a dwc:Identification ;
-            dwciri:toTaxon <https://id.biodiversity.org.au/instance/apni/683275> ;
-            dwciri:identifiedBy <http://www.wikidata.org/entity/Q5925767> ;
-            dwc:dateIdentified "1980-03-24" ] ;
-    dwciri:typeStatus [ a tcs:NomenclaturalType ;
-            tcs:typifiedName <https://ipni.org/n/520357-1> ;
-            tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/syntype> ] . 
+    dsw:isBasisForId _:b0 ;
+    dwciri:typeStatus _:b1 .
+
+[] a oa:Annotation ;
+    oa:motivatedBy oa:commenting ;
+    oa:hasBody _:b0 ;
+    oa:hasTarget <https://specify.rbg.vic.gov.au/specify/view/collectionobject/313208> ;
+    dcterms:creator <http://www.wikidata.org/entity/Q5925767> ;
+    dcterms:created "1980-03-24" .
+
+_:b0 a dwc:Identification ;
+    dwciri:toTaxon <https://id.biodiversity.org.au/instance/apni/683275> ;
+    dwciri:identifiedBy <http://www.wikidata.org/entity/Q5925767> ;
+    dwc:dateIdentified "1980-03-24" .
+
+[] a oa:Annotation ;
+    oa:motivatedBy oa:commenting ;
+    oa:hasBody _:b1 ;
+    oa:hasTarget <https://specify.rbg.vic.gov.au/specify/view/collectionobject/313208> ;
+    dcterms:creator <http://www.wikidata.org/entity/Q5925767> ;
+    dcterms:created "1980-03-24" .
+
+_:b1 a tcs:NomenclaturalType ;
+    tcs:typifiedName <https://ipni.org/n/520357-1> ;
+    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/syntype> ;
+    tcs:typeSpecimen <https://specify.rbg.vic.gov.au/specify/view/collectionobject/313208> .
 
 <https://avh.ala.org.au/occurrences/794ef2b7-956e-44e5-9321-cbe9553d6057> a dwc:Occurrence ;
     dwciri:recordedBy <http://www.wikidata.org/entity/Q16065577> ;

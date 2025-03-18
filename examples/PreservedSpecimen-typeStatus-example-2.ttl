@@ -4,19 +4,61 @@
 @prefix dsw: <http://purl.org/dsw/> .
 @prefix dwciri: <http://rs.tdwg.org/dwc/iri/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix oa: <http://www.w3.org/ns/oa#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
 <https://specify.rbg.vic.gov.au/specify/view/collectionobject/739393> a dwc:PreservedSpecimen ;
     dwc:catalogNumber "MEL 0227036A" ;
     dsw:evidenceFor <https://avh.ala.org.au/occurrences/78ba3182-76a4-4fcd-a231-d657acf3d347> ;
-    dsw:isBasisForId [ a dwc:Identification ;
-            dwciri:toTaxon <https://id.biodiversity.org.au/instance/apni/698961> ;
-            dwciri:identifiedBy <https://orcid.org/0000-0001-9124-9802> ;
-            dwc:dateIdentified "2024-04-12" ] ;
+    dsw:isBasisForId _:b0 ;
     dwciri:typeStatus [ a tcs:NomenclaturalType ;
             tcs:typifiedName <https://ipni.org/n/717216-1> ;
             tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/lectotype> ;
             tcs:typePublishedIn <https://id.biodiversity.org.au/reference/apni/39897> ] .
+
+_:b0 a dwc:Identification ;
+    dwciri:toTaxon <https://id.biodiversity.org.au/instance/apni/698961> ;
+    dwciri:identifiedBy <https://orcid.org/0000-0001-9124-9802> ;
+    dwc:dateIdentified "2024-04-12" .
+
+[] a oa:Annotation ;
+    oa:motivatedBy oa:commenting ;
+    oa:hasBody _:b0 ;
+    oa:hasTarget <https://specify.rbg.vic.gov.au/specify/view/collectionobject/739393> ;
+    dcterms:createdBy <https://orcid.org/0000-0001-9124-9802> ;
+    dcterms:created "2024-04-12" .
+
+_:b1 a tcs:NomenclaturalType ;
+    tcs:typifiedName <https://ipni.org/n/717216-1> ;
+    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/lectotype> ;
+    tcs:typeSpecimen <https://specify.rbg.vic.gov.au/specify/view/collectionobject/739393> ;
+    tcs:typePublishedIn <https://id.biodiversity.org.au/reference/apni/39897> .
+
+[] a oa:Annotation ;
+    oa:motivatedBy oa:commenting ;
+    oa:hasBody _:b1 ;
+    oa:hasTarget <https://specify.rbg.vic.gov.au/specify/view/collectionobject/739393> ;
+    dcterms:creator <https://orcid.org/0000-0001-9124-9802> ;
+    dcterms:created "2024-04-12" .
+
+[] a oa:Annotation ;
+    oa:motivatedBy oa:commenting ;
+    oa:hasBody [ a dwc:Identification ;
+            dwciri:toTaxon <https://id.biodiversity.org.au/instance/apni/698961> ;
+            dwc:identifiedBy <http://www.wikidata.org/entity/Q5719316> ;
+            dwc:dateIdentified "1999-09-28" ] ;
+    oa:hasTarget <https://specify.rbg.vic.gov.au/specify/view/collectionobject/739393> ;
+    dcterms:creator <http://www.wikidata.org/entity/Q5719316> ;
+    dcterms:created "1999-09-28" .
+
+[] a oa:Annotation ;
+    oa:motivatedBy oa:commenting ;
+    oa:hasBody [ a tcs:NomenclaturalType ;
+            tcs:typifiedName <https://ipni.org/n/717216-1> ;
+            tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/holotype> ;
+            tcs:typeSpecimen <https://specify.rbg.vic.gov.au/specify/view/collectionobject/739393> ] ;
+    dcterms:creator <http://www.wikidata.org/entity/Q5719316> ;
+    dcterms:created "1999-09-28" .
 
 <http://specimens.kew.org/herbarium/K001096706> a dwc:PreservedSpecimen ;
     dwc:catalogNumber "K001096706" ;
@@ -68,6 +110,10 @@ _:BM000050758 a dwc:PreservedSpecimen ;
 <https://orcid.org/0000-0001-9124-9802> a foaf:Person ;
     foaf:givenName "Jürgen" ;
     foaf:surname "Kellermann" .
+
+<http://www.wikidata.org/entity/Q5719316> a foaf:Person ;
+    foaf:givenName "Barbara Lynette" ;
+    foaf:surname "Rye" .
 
 <http://www.wikidata.org/entity/Q2589989> a foaf:Person ;
     foaf:givenName "James" ;

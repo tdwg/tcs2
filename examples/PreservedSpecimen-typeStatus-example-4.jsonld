@@ -3,7 +3,22 @@
     "https://raw.githubusercontent.com/tdwg/tcs2/master/examples/context.jsonld",
     {
       "dsw": "http://purl.org/dsw/",
-      "dwciri": "http://rs.tdwg.org/dwc/iri/"
+      "dwciri": "http://rs.tdwg.org/dwc/iri/",
+      "oa": "http://www.w3.org/ns/oa#",
+      "Annotation": "oa:Annotation",
+      "commenting": "oa:commenting",
+      "body": {
+        "@id": "oa:hasBody",
+        "@type": "@id"
+      },
+      "target": {
+        "@id": "oa:hasTarget",
+        "@type": "@id"
+      },
+      "motivation": {
+        "@id": "oa:motivatedBy",
+        "@type": "@vocab"
+      }
     }
   ],
   "@graph": [
@@ -40,6 +55,7 @@
         }
       },
       "dsw:isBasisForId": {
+        "id": "_:b0",
         "type": "dwc:Identification",
         "dwciri:toTaxon": {
           "id": "https://id.biodiversity.org.au/instance/apni/683275",
@@ -62,6 +78,7 @@
         }
       },
       "dwciri:typeStatus": {
+        "id": "_:b1",
         "type": "NomenclaturalType",
         "typifiedName": {
           "id": "https://ipni.org/n/520357-1",
@@ -73,8 +90,25 @@
           "nomenclaturalStatus": "superfluous",
           "rdfs:comment": "Templestonia muelleri Benth. includes the type of Bossiaea stenophylla F.Muell."
         },
-        "typeOfType": "syntype"
+        "typeOfType": "syntype",
+        "typeSpecimen": "https://specify.rbg.vic.gov.au/specify/view/collectionobject/313208"
       }
+    },
+    {
+      "type": "Annotation",
+      "motivation": "commenting",
+      "body": "_:b0",
+      "target": "https://specify.rbg.vic.gov.au/specify/view/collectionobject/313208",
+      "dcterms:creator": { "@id": "http://www.wikidata.org/entity/Q5925767" },
+      "dcterms:created": "1980-03-24"
+    },
+    {
+      "type": "Annotation",
+      "motivation": "commenting",
+      "body": "_:b1",
+      "target": "https://specify.rbg.vic.gov.au/specify/view/collectionobject/313208",
+      "dcterms:creator": { "@id": "http://www.wikidata.org/entity/Q5925767" },
+      "dcterms:created": "1980-03-24"
     }
   ]
 }

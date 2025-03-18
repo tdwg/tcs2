@@ -3,7 +3,22 @@
     "https://raw.githubusercontent.com/tdwg/tcs2/master/examples/context.jsonld",
     {
       "dsw": "http://purl.org/dsw/",
-      "dwciri": "http://rs.tdwg.org/dwc/iri/"
+      "dwciri": "http://rs.tdwg.org/dwc/iri/",
+      "oa": "http://www.w3.org/ns/oa#",
+      "Annotation": "oa:Annotation",
+      "commenting": "oa:commenting",
+      "body": {
+        "@id": "oa:hasBody",
+        "@type": "@id"
+      },
+      "target": {
+        "@id": "oa:hasTarget",
+        "@type": "@id"
+      },
+      "motivation": {
+        "@id": "oa:motivatedBy",
+        "@type": "@vocab"
+      }
     }
   ],
   "@graph": [
@@ -15,6 +30,7 @@
         "id": "https://avh.ala.org.au/occurrences/f121f99a-5b02-4f7b-9d57-bb2718c0c7de",
         "type": "dwc:Occurrence",
         "dwciri:recordedBy": {
+          "id": "https://www.ipni.org/a/1174-1",
           "type": "foaf:Person",
           "foaf:givenName": "Murray Ian Hill",
           "foaf:surname": "Brooker"
@@ -39,6 +55,7 @@
         "dsw:hasEvidence": { "id": "https://specify.rbg.vic.gov.au/specify/view/collectionobject/51589" }
       },
       "dsw:isBasisForId": {
+        "id": "_:b0",
         "type": "dwc:Identification",
         "dwciri:toTaxon": { 
           "id": "https://id.biodiversity.org.au/instance/apni/612750",
@@ -64,7 +81,37 @@
           "dwc:scientificNameAuthorship": "Brooker & A.R.Bean",
           "dwc:namePublishedIn": "Brunonia 10(2): 193",
           "dwc:namePublishedInYear": "1987"
-        }
+        },
+        "typeSpecimen": "https://specify.rbg.vic.gov.au/specify/view/collectionobject/51589"
+      }
+    },
+    {
+      "type": "Annotation",
+      "motivation": "commenting",
+      "body": "_:b0",
+      "target": "https://specify.rbg.vic.gov.au/specify/view/collectionobject/51589",
+      "dcterms:creator": {
+        "id": "https://orcid.org/0000-0001-6661-7722",
+        "type": "foaf:Person",
+        "foaf:givenName": "Wayne",
+        "foaf:surname": "Gebert"
+      },
+      "dcterms:created": "2015-08-07"
+    },
+    {
+      "type": "Annotation",
+      "motivation": "commenting",
+      "body": {
+        "type": "dwc:Identification",
+        "dwciri:toTaxon": {
+          "id": "https://id.biodiversity.org.au/instance/apni/455406",
+          "type": "tcs:Taxon",
+          "dcterms:title": "Eucalyptus xanthoclada sec. Brooker & Bean 1987",
+          "taxonName": "https://ipni.org/n/933707-1",
+          "accordingTo": "https://id.biodiversity.org.au/reference/apni/40410"
+        },
+        "dwciri:identifiedBy": "https://www.ipni.org/a/1174-1",
+        "dwc:dateIdentified": "1993-02/1993-03"
       }
     }
   ]
