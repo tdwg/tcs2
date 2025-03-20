@@ -1,6 +1,6 @@
 # Feature report 
 
-## Why do we need TCS 2?
+## Introduction
 
 The Taxon Concept Schema (TCS) is the TDWG standard for exchanging taxonomic
 data. It is one of the '2005' group of standards, together with Access to
