@@ -223,7 +223,37 @@ have more to do with the format of hybrid formulas than with relationships
 between taxa, and yet others, e.g., `anamorph of`, only apply to certain groups
 of organisms and are not used in systems designed specifically for these groups.
 
-## Context: SKOS and OpenBiodiv-O
+## Place in TDWG ecosystem
+
+Unlike other TDWG standards like Audiovisual Core and Latimer Core—and also
+unlike the time when TCS shared the stage with ABCD and SDD—TCS does not have
+its own subdomain within the TDWG infrastructure but falls completely within the
+domain that is also covered by Darwin Core. TCS shines where the data becomes more structured and more semantic.
+
+The figure below shows the application profiles that already exist or are being
+planned in the domain that is covered by Darwin Core.
+
+![](../media/tdwg-infrastructure.drawio.svg)
+
+On the left is occurrence or specimen data and on the right is taxonomic and
+nomenclatural data. From top to bottom, or from Darwin Core Archive to
+Frictionless Data Package to RDF, the structure and semantics of the data
+increases.
+
+The niche of TCS is in the bottom-right of the figure. It has already been said
+before that the Darwin Core Taxon class does not work with RDF and that TCS (2)
+is meant to fill the gap. It is to be expected that the Darwin Core Data Package
+(DwC-DP) will not have an equivalent to the Darwin Core Archive Taxon Core,
+because the Catalogue of Life Data Package (CoLDP) already occupies that space.
+CoLDP has got two different schemas, one with a NameUsage table, which is
+equivalent to the Darwin Core Taxon, and another one with Taxon and Name tables,
+which are equivalent to the TCS Taxon Concept and Taxon Name respectively. The
+latter schema is already very nearly TCS compliant. It is therefore the
+intention that we won't develop a TDWG TCS Data Package, but that we work with
+Catalogue of Life tomake ColDP fully TCS compliant, so that CoLDP can be the
+Data Package application profile for TCS.
+
+## Broader context: SKOS and OpenBiodiv-O
 
 TCS can be usefully compared with SKOS (Simple Knowledge Organization System),
 with the Taxon Concept equivalent to the `skos:Concept` and the Taxon Name to
@@ -238,7 +268,7 @@ horizontal ones `skos:mappingRelation`s. In SKOS, `skos:broader` and
 `skos:narrower` are used between Concepts in the same Concept Scheme, while the
 `skos:mappingRelation` properties are used to map Concepts from different
 Concept Schemes. Likewise, in TCS, hierarchical relationship terms are only used
-within the same taxonomy, while the horizontal relationship terms can also be
+within the same taxonomy, while the horizontal relationship terms are primarily
 used to align Taxon Concepts between different taxonomies or different versions
 of a taxonomy.
 
@@ -313,6 +343,8 @@ in TCS.
 <br/><br/>
 
 ## Appendix 1: Mapping of TCS 1 and TDWG Ontology terms
+
+![](../media/tdwg/tdwg-infrastructure.drawio.svg)
 
 ### Taxon Concept
 
@@ -522,9 +554,9 @@ TCS 1 | TDWG Ontology | TCS 2
 /DataSet/TaxonNames/TaxonName/MicroReference \| //element(*,NomenclaturalNoteType)/MicroReference | &mdash; | [microReference](https://github.com/tdwg/tcs2/tree/master/docs/tcs-terms#tcsmicroreference)
 /DataSet/TaxonNames/TaxonName/Typification | &mdash; | [typification](https://github.com/tdwg/tcs2/tree/master/docs/tcs-terms#tcstypification)
 /DataSet/TaxonNames/TaxonName/Typification/Simple | &mdash; | [typificationLiteral](https://github.com/tdwg/tcs2/tree/master/docs/tcs-terms#tcstypificationLiteral)
-/DataSet/TaxonNames/TaxonName/SpellingCorrectionOf | [tn:spellingCorrection](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L647) | [emendationOf](https://github.com/tdwg/tcs2/tree/master/docs/tcs-terms#tcsspellingcorrectionof)
+/DataSet/TaxonNames/TaxonName/SpellingCorrectionOf | [tn:spellingCorrection](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L647) | &mdash;
 /DataSet/TaxonNames/TaxonName/Basionym | [tn:hasBasionym](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L296) | [basionym](https://github.com/tdwg/tcs2/tree/master/docs/tcs-terms#tcsbasionym)
-/DataSet/TaxonNames/TaxonName/BasedOn | [tn:BasedOn](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L427) | &mdash;
+/DataSet/TaxonNames/TaxonName/BasedOn | [tn:BasedOn](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L427) | [basedOn](https://github.com/tdwg/tcs2/tree/master/docs/tcs-terms#tcsbasedOn)
 /DataSet/TaxonNames/TaxonName/ConservedAgainst | [tn:ConservedAgainst](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L433) | [conservedAgainst](https://github.com/tdwg/tcs2/tree/master/docs/tcs-terms#tcsconservedagainst)
 /DataSet/TaxonNames/TaxonName/LaterHomonymOf | [tn:LaterHomonymOf](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L547) | [laterHomonymOf](https://github.com/tdwg/tcs2/tree/master/docs/tcs-terms#tcslaterhomonymof)
 /DataSet/TaxonNames/TaxonName/Sanctioned | &mdash; | &mdash;
