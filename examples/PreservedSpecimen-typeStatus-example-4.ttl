@@ -20,11 +20,6 @@
     dcterms:creator <http://www.wikidata.org/entity/Q5925767> ;
     dcterms:created "1980-03-24" .
 
-_:b0 a dwc:Identification ;
-    dwciri:toTaxon <https://id.biodiversity.org.au/instance/apni/683275> ;
-    dwciri:identifiedBy <http://www.wikidata.org/entity/Q5925767> ;
-    dwc:dateIdentified "1980-03-24" .
-
 [] a oa:Annotation ;
     oa:motivatedBy oa:commenting ;
     oa:hasBody _:b1 ;
@@ -32,10 +27,34 @@ _:b0 a dwc:Identification ;
     dcterms:creator <http://www.wikidata.org/entity/Q5925767> ;
     dcterms:created "1980-03-24" .
 
+_:b0 a dwc:Identification ;
+    dwciri:toTaxon <https://id.biodiversity.org.au/instance/apni/683275> ;
+    dwciri:identifiedBy <http://www.wikidata.org/entity/Q5925767> ;
+    dwc:dateIdentified "1980-03-24" .
+
 _:b1 a tcs:NomenclaturalType ;
     tcs:typifiedName <https://ipni.org/n/520357-1> ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/syntype> ;
     tcs:typeSpecimen <https://specify.rbg.vic.gov.au/specify/view/collectionobject/313208> .
+
+<https://id.biodiversity.org.au/instance/apni/683275> a tcs:TaxonConcept ;
+    dcterms:title "Templetonia stenophylla sec. Ross 1996" ;
+    tcs:taxonName <https://ipni.org/n/520361-1> ;
+    tcs:accordingTo <https://id.biodiversity.org.au/reference/apni/50798> .
+
+<https://ipni.org/n/520361-1> a tcs:TaxonName ;
+    tcs:taxonNameString "Templetonia stenophylla" ;
+    dwc:scientificNameAuthorship "(F.Muell.) J.M.Black" ;
+    dwc:namePublishedIn "Fl. S. Austral. 304" ;
+    dwc:namePublishedInYear "1924" .
+
+<https://ipni.org/n/520357-1> a tcs:TaxonName ;
+    tcs:taxonNameString "Templetonia muelleri" ;
+    dwc:scientificNameAuthorship "Benth." ;
+    dwc:namePublishedIn "Fl. Austral. 2: 169" ;
+    dwc:namePublishedInYear "1864" ;
+    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/superfluum> ;
+    rdfs:comment "Templestonia muelleri Benth. includes the type of Bossiaea stenophylla F.Muell." .
 
 <https://avh.ala.org.au/occurrences/794ef2b7-956e-44e5-9321-cbe9553d6057> a dwc:Occurrence ;
     dwciri:recordedBy <http://www.wikidata.org/entity/Q16065577> ;
@@ -62,24 +81,3 @@ _:b1 a tcs:NomenclaturalType ;
 <http://www.wikidata.org/entity/Q16065577> a foaf:Person ;
     foaf:givenName "John" ;
     foaf:surname "Dallachy" .
-
-<https://id.biodiversity.org.au/instance/apni/683275> a tcs:TaxonConcept ;
-    dcterms:title "Templetonia stenophylla sec. Ross 1996" ;
-    tcs:taxonName <https://ipni.org/n/520361-1> ;
-    tcs:accordingTo <https://id.biodiversity.org.au/reference/apni/50798> .
-
-
-<https://ipni.org/n/520361-1> a tcs:TaxonName ;
-    tcs:taxonNameString "Templetonia stenophylla" ;
-    dwc:scientificNameAuthorship "(F.Muell.) J.M.Black" ;
-    dwc:namePublishedIn "Fl. S. Austral. 304" ;
-    dwc:namePublishedInYear "1924" .
-
-<https://ipni.org/n/520357-1> a tcs:TaxonName ;
-    tcs:taxonNameString "Templetonia muelleri" ;
-    dwc:scientificNameAuthorship "Benth." ;
-    dwc:namePublishedIn "Fl. Austral. 2: 169" ;
-    dwc:namePublishedInYear "1864" ;
-    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/superfluum> ;
-    rdfs:comment "Templestonia muelleri Benth. includes the type of Bossiaea stenophylla F.Muell." .
-
