@@ -16,18 +16,18 @@
             tcs:typifiedName <https://ipni.org/n/933707-1> ;
             tcs:typeSpecimen <https://specify.rbg.vic.gov.au/specify/view/collectionobject/51589> ] .
 
-_:b0 a dwc:Identification ;
-    dwciri:toTaxon <https://id.biodiversity.org.au/instance/apni/612750> ;
-    dwc:dateIdentified "2015-08-27" ;
-    dwciri:identifiedBy [ a foaf:Organization ;
-            foaf:name "National Herbarium of Victoria (MEL)" ] .
-
 [] a oa:Annotation ;
     oa:motivatedBy oa:commenting ;
     oa:hasBody _:b0 ;
     oa:hasTarget <https://specify.rbg.vic.gov.au/specify/view/collectionobject/51589> ;
     dcterms:creator <https://orcid.org/0000-0001-6661-7722> ;
     dcterms:created "2015-08-07" .
+
+_:b0 a dwc:Identification ;
+    dwciri:toTaxon <https://id.biodiversity.org.au/instance/apni/612750> ;
+    dwc:dateIdentified "2015-08-27" ;
+    dwciri:identifiedBy [ a foaf:Organization ;
+            foaf:name "National Herbarium of Victoria (MEL)" ] .
 
 [] a oa:Annotation ;
     oa:motivatedBy oa:commenting ;
@@ -37,24 +37,6 @@ _:b0 a dwc:Identification ;
             dwciri:dateIdentified "1993-02/1993-03" ] ;
     dcterms:creator <https://www.ipni.org/a/1174-1> ;
     dcterms:created "1993-02/1993-03" .
-
-<https://avh.ala.org.au/occurrences/f121f99a-5b02-4f7b-9d57-bb2718c0c7de> a dwc:Occurrence ;
-    dwciri:recordedBy <https://www.ipni.org/a/1174-1> ;
-    dwc:recordNumber "8969" ;
-    dsw:atEvent [ a dwc:Event ;
-            dwc:eventDate "1985-05-01" ;
-            dwciri:inDescribedPlace [ a dcterms:Location ;
-                    dwc:country "Australia" ;
-                    dwc:stateOrProvince "Queensland" ;
-                    dwc:verbatimLocality "10 km NE of Pentland" ;
-                    dwc:verbatimLatitude "20° 28' S" ;
-                    dwc:verbatimLongitude "145° 29' E" ;
-                    dwc:decimalLatitude -20.46670 ;
-                    dwc:decimalLongitude 145.48330 ;
-                    dwc:coordinatePrecision 0.01667 ;
-                    dwc:coordinateUncertaintyInMeters 1000 ;
-                    dwciri:geodeticDatum <https://epsg.io/4326> ] ] ;
-    dsw:hasEvidence <https://specify.rbg.vic.gov.au/specify/view/collectionobject/51589> .
 
 <https://id.biodiversity.org.au/instance/apni/455406> a tcs:TaxonConcept ;
     dcterms:title "Eucalyptus xanthoclada sec. Brooker & Bean 1987" ;
@@ -77,6 +59,24 @@ _:b0 a dwc:Identification ;
     dwc:scientificNameAuthorship "Brooker & A.R.Bean" ;
     dwc:namePublishedIn "Brunonia 10(2): 193" ;
     dwc:namePublishedInYear "1987" .
+
+<https://avh.ala.org.au/occurrences/f121f99a-5b02-4f7b-9d57-bb2718c0c7de> a dwc:Occurrence ;
+    dwciri:recordedBy <https://www.ipni.org/a/1174-1> ;
+    dwc:recordNumber "8969" ;
+    dsw:atEvent [ a dwc:Event ;
+            dwc:eventDate "1985-05-01" ;
+            dwciri:inDescribedPlace [ a dcterms:Location ;
+                    dwc:country "Australia" ;
+                    dwc:stateOrProvince "Queensland" ;
+                    dwc:verbatimLocality "10 km NE of Pentland" ;
+                    dwc:verbatimLatitude "20° 28' S" ;
+                    dwc:verbatimLongitude "145° 29' E" ;
+                    dwc:decimalLatitude -20.46670 ;
+                    dwc:decimalLongitude 145.48330 ;
+                    dwc:coordinatePrecision 0.01667 ;
+                    dwc:coordinateUncertaintyInMeters 1000 ;
+                    dwciri:geodeticDatum <https://epsg.io/4326> ] ] ;
+    dsw:hasEvidence <https://specify.rbg.vic.gov.au/specify/view/collectionobject/51589> .
 
 <https://www.ipni.org/a/1174-1> a foaf:Person ;
     foaf:givenName "Brooker" ;
