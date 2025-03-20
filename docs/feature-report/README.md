@@ -178,7 +178,7 @@ taxonomy), or between Taxon Concepts in rank-free systems, e.g., cladograms.
 
 - tcs:basionym
 - tcs:replacedSynonym
-- tcs:emendationOf
+- tcs:basedOn
 - tcs:conservedAgainst
 - tcs:laterHomonymOf
 
