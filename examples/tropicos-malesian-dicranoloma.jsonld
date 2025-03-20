@@ -28,10 +28,6 @@
       "created": {
         "@id": "dcterms:created",
         "@type": "xsd:datetime"
-      },
-      "isAutonymOf": {
-        "@id": "tcs:autonymOf",
-        "@type": "@id"
       }
     }
   ],
@@ -73,9 +69,7 @@
         },
         "bibo:volume": "20"
       },
-      "bibo:pages": "317-334",
-      "bibo:handle": "Tan & Koponen 1983",
-      "dcterms:bibliographicCitation": "Tan, B.C. & T.J. Koponen (1983) Dicranoloma (Musci, Dicranaceae) in Southeast Asia, with special reference to the Philippine taxa. Ann. Bot. Fenn. 20:317-334"
+      "bibo:pages": "317-334"
     },
     {
       "id": "https://www.wikidata.org/wiki/Q21339909",
@@ -218,7 +212,6 @@
       ],
       "taxonRank": "variety",
       "parent": "https://tropicos.org/reference/9006742#name-35121491"
-      "parent": "https://tropicos.org/reference/9002886#name-35121491"
     },
     {
       "id": "https://tropicos.org/reference/9002886#name-35167975",
@@ -313,9 +306,7 @@
         }
       },
       "bibo:volume": "1",
-      "bibo:isbn": "0-567-01038-7",
-      "bibo:handle": "Eddy 1988",
-      "dcterms:bibliographicCitation": "Eddy, A. (1983) A Handbook of Malesian Mosses, Vol. 1: Sphagnales to Dicranales. Natural History Museum Publications, London"
+      "bibo:isbn": "0-567-01038-7"
     },
     {
       "id": "https://www.wikidata.org/wiki/Q21511351",
@@ -544,9 +535,7 @@
         },
         "bibo:volume": "18"
       },
-      "bibo:pages": "497-512",
-      "bibo:handle": "Tan 1989",
-      "dcterms:bibliographicCitation": "Tan, B.C. (1989) The bryophytes of Sabah (North Borneo) with special reference to the BRYOTROP transect of Mount Kinabalu. II. Dicranoloma and Brotherobryum (Dicranaceae, Bryopsida). Willdenowia 18:497-512"
+      "bibo:pages": "497-512"
     },
     {
       "id": "https://tropicos.org/reference/9006742#name-35121458",
@@ -677,9 +666,7 @@
         },
         "bibo:volume": "139"
       },
-      "bibo:pages": "1-64",
-      "bibo:handle": "Norris & Koponen 1990",
-      "dcterms:bibliographicCitation": "Norris, D.H. & T.J. Koponen (1990) Bryophyte flora of the Huon Peninsula, Papua New Guinea. XXXV. Dicranaceae and Dicnemonaceae (Musci). Acta Bot. Fenn. 139:1-64"
+      "bibo:pages": "1-64"
     },
     {
       "id": "https://www.wikidata.org/wiki/Q21522236",
@@ -853,9 +840,7 @@
         },
         "bibo:volume": "87"
       },
-      "bibo:pages:": "1-130",
-      "bibo:handle": "Klazenga 1999",
-      "dcterms:bibliographicCitation": "Klazenga, N. (1999) A revision of the Malesian species of Dicranoloma (Dicranaceae, Musci). J. Hattori. Bot. Lab. 87:1-130"
+      "bibo:pages:": "1-130"
     },
     {
       "id": "https://orcid.org/0000-0003-2224-6821",
@@ -3211,7 +3196,7 @@
       "id": "https://tropicos.org/name/35191032",
       "type": "TaxonName",
       "taxonNameString": "Dicranoloma brevisetum var. brevisetum",
-      "autonymOf": "https://tropicos.org/name/35121491"
+      "basedOn": "https://tropicos.org/name/35121491"
     },
     {
       "id": "https://tropicos.org/name/35122028",

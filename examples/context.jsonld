@@ -45,6 +45,7 @@
     "nomenclaturalStatus":              { "@type": "@vocab", "@id": "tcs:nomenclaturalStatus" },
     "basionym":                         { "@type": "@id", "@id": "tcs:basionym" },
     "replacedName":                     { "@type": "@id", "@id": "tcs:replacedName" },
+    "basedOn":                          { "@type": "@id", "@id": "tcs:basedOn" },
     "conservedAgainst":                 { "@type": "@id", "@id": "tcs:conservedAgainst", "@container": "@set" },
     "combinationAuthor":                { "@type": "@id", "@id": "tcs:combinationAuthor" },
     "combinationAscribedAuthor":        { "@type": "@id", "@id": "tcs:combinationAscribedAuthor" },

@@ -20,9 +20,9 @@ relation into the `synonym` property for relationships between Taxon Concept and
 Taxon Name—like `taxonName`—and the `intersects` property for relationships
 between Taxon Concepts. When TCS is expressed in tabular form, a separate table
 is still needed for synonyms, because of the many-to-many relation between Taxon
-Concepts and Taxon Names, but there should be no identifiers for synonyms. This
-is the same way the Name Relation table in the ColDP schema has been
-implemented.
+Concepts and Taxon Names, but this is just a pivot table and there should be no
+identifiers for synonyms. This is the same way the Name Relation table in the
+ColDP schema has been implemented.
 
 ColDP also offers a Name Usage entity "for simpler sharing", which is more
 similar to the Darwin Core Taxon.
@@ -180,12 +180,13 @@ relations included.
 
 <hr>
 
-One issue that was encountered is that there is nothing in TCS to link autonyms
-to a homotypic group of names, which is something the TCS Maintenance Group will
-have to look into. For the purpose of making the example work, I have added a
-`autonymOf` property (in the example), but this will not withstand scrutiny, as
-a name is just an autonym, not an autonym of another name and, even if so, what
-would that other name be?
+One issue that was encountered is that the `basionym` and `replacedName`
+properties cannot be used to link autonyms to a group of names with the same
+type. This issue is resolved by the `basedOn` property, for which the only
+semantics is that it links two names with the same type and that the subject is
+a more recent name than the object. Thus, `basedOn` can be used to link names to
+a homotypic group of names that cannot be linked using `basionym` and
+`replacedName`, e.g. invalid names and autonyms.
 
 There is one other bit of data preparation that needs to be done, which is
 adding the accepted name and synonyms of infraspecific taxa to the specimen
@@ -198,12 +199,12 @@ intersection (**A &cap; B**) and which names are in one concept and not in the
 other (**A &ndash; B** or **B &ndash; A**). This helps us find the more precise
 relationships between concepts. For the names that are in the relative
 supplements, there is another check to do, as there is only a conflict if the
-name is used elsewhere in the other treatment. So, if there are only names in
-the intersection and there are no names that are in one concept and not in the
-other, the concepts are congruent (**A** `isCongruentWith` **B**); if the
-subject (**A**) has names that are not in the object (**B**) the subject
-includes the object (**A** `includes` **B**); if there are names in the object
-that are not in the subject, the subject is included in the object (**A**
+name is used elsewhere in the other treatment. With this proviso, if there are
+only names in the intersection and there are no names that are in one concept
+and not in the other, the concepts are congruent (**A** `isCongruentWith`
+**B**); if the subject (**A**) has names that are not in the object (**B**) the
+subject includes the object (**A** `includes` **B**); if there are names in the
+object that are not in the subject, the subject is included in the object (**A**
 `isIncludedIn` **B**); and if there are names that are in the subject and not
 the object as well as names that are in the object but not the subject, the
 concepts partially overlap (**A** `partiallyOverlaps` **B**). Examples of each
