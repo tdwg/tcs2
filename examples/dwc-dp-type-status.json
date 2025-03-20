@@ -1,0 +1,100 @@
+{
+  "resources": [
+    {
+      "profile": "tabular-data-resource",
+      "name": "material-entities",
+      "path": "data/material-entities.csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "dwc:materialEntityID",
+            "type": "string"
+          },
+          {
+            "name": "dwc:preparations",
+            "type": "string"
+          },
+          {
+            "name": "dwc:disposition",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "in collection",
+                "missing",
+                "on loan",
+                "used up",
+                "destroyed",
+                "deaccessioned"
+              ]
+            }
+          },
+          {
+            "name": "dwc:verbatimLabel",
+            "type": "string"
+          },
+          {
+            "name": "dwc:associatedSequences",
+            "type": "string"
+          },
+          {
+            "name": "dwc:typeStatus",
+            "type": "string"
+          },
+          {
+            "name": "dwc:materialEntityRemarks",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "profile": "tabular-data-resource",
+      "name": "type-status",
+      "path": "data/type-status.csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "dwc:materialEntityID",
+            "type": "string"
+          },
+          {
+            "name": "dwc:typeOfType",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "holotype",
+                "isotype",
+                "syntype",
+                "paratype",
+                "lectotype",
+                "neotype",
+                "..."
+              ]
+            }
+          },
+          {
+            "name": "dwc:typifiedName",
+            "type": "string"
+          },
+          {
+            "name": "dcterms:creator",
+            "type": "string"
+          },
+          {
+            "name": "dcterms:created",
+            "type": "string"
+          }
+        ]
+      },
+      "foreignKeys": [
+        {
+          "fields": "dwc:materialEntityID",
+          "reference": {
+            "resource": "material-entities",
+            "fields": "dwc:MaterialEntityID"
+          }
+        }
+      ]
+    }
+  ]
+}
