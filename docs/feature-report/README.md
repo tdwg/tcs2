@@ -86,9 +86,9 @@ Ontologies can be found back in TCS 2.
 
 ## Changes
  
-The most important change is that while in TCS 1 a `Name` can either be a text
+The most important change is that while in TCS 1 only the `Name` element is required—and then a `Name` can either be a text
 node, so a string, or a reference (`ref`) to a `TaxonName` element with an `id`
-attribute, and the `AccordingTo` element is not, in TCS 2 both `taxonName` and
+attribute—and the `AccordingTo` element is not, in TCS 2 both `taxonName` and
 `accordingTo` are required and both properties are IRI or object properties.
 Every TCS 2 Taxon Concept object has to have a source, or `accordingTo`, which
 is a publication or other other form of communication where a taxon is defined
@@ -102,7 +102,7 @@ the `taxonName` property is also required.
 The most important structural change we made was dismantling the Taxon
 Relationship object that both TCS 1 and the Taxon Concept Ontology have. We want
 TCS to be a vocabulary standard, i.e. a set of terms and definitions, so TCS
-should not prescribe a certain syntax. 
+should not prescribe a certain syntax.
 
 Another problem with an all-purpose relationship object is that it obscures the
 nature of the relationship. Not all relationship types in TCS 1 are
