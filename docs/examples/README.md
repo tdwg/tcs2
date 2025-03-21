@@ -1670,7 +1670,7 @@ _:b1 a rdf:Seq ;
     foaf:givenName "Duane" ;
     foaf:surname "Isely" .
 
-<https://ipni.org/a/4317-1> a foaf:Person ;
+<https://ipni.org/a/16855-1> a foaf:Person ;
     foaf:givenName "Augustin Pyramus" ;
     foaf:surname "De Candolle" .
 

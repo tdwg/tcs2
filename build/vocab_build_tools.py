@@ -242,15 +242,16 @@ def term_table(term):
         if isinstance(term['examples'], list):
             examples = []
             for ex in term['examples']:
-                examples.append('<li><a href="../examples/#' + ex + '">' + ex + '</a></li>')
+                links = add_links(ex)
+                examples.append(links)
             
             examples_text = ''
             for idx, ex in enumerate(term['examples']):
                 if idx == 0:
-                    examples_text += '<ul>' + examples[0] + '</ul>\n'
+                    examples_text += '\n'
                     examples_text += add_example(ex, False)
                     examples_text += '\n'
-            examples_text += '<ul>' + '\n'.join(examples[1:]) + '</ul>'
+            examples_text += '\n'.join(examples)
                     
                 
             text += table_row([
@@ -288,9 +289,14 @@ def add_example(ex, links=True):
     text += example
     text += '\n```\n\n'
     if (links):
-        text += '[&lsqb;' + ex + '.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/' + ex + '.ttl)&nbsp;'
-        text += '[&lsqb;' + ex + '.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/' + ex + '.jsonld)\n\n'
+        text += add_links(ex)
     return text
+
+def add_links(ex):
+    text = '[&lsqb;' + ex + '.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/' + ex + '.ttl)&nbsp;'
+    text += '[&lsqb;' + ex + '.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/' + ex + '.jsonld)\n\n'
+    return text
+    
 
 
 # create vocabulary
