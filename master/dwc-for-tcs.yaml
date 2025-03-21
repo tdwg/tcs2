@@ -12,8 +12,8 @@
     identification qualifications, which should instead be supplied in the 
     IdentificationQualifier term.
   usage: >-
-    `scientificName` can be used instead of the `taxonName` property on a Taxon
-    Concept or the `taxonNameString` property on the Taxon Name.
+    `scientificName` can be used in addition to the `taxonName` property on a
+    Taxon Concept or the `taxonNameString` property on a Taxon Name.
   notes: null
   examples: null
   type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property

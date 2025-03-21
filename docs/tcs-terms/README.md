@@ -1160,7 +1160,7 @@ nomenclatural data.
 		</tr>
 		<tr>
 			<td>Usage</td>
-			<td><p><code>scientificName</code> can be used instead of the <code>taxonName</code> property on a Taxon Concept or the <code>taxonNameString</code> property on the Taxon Name.</p></td>
+			<td><p><code>scientificName</code> can be used in addition to the <code>taxonName</code> property on a Taxon Concept or the <code>taxonNameString</code> property on a Taxon Name.</p></td>
 		</tr>
 		<tr>
 			<td>GitHub issue</td>
