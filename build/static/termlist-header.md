@@ -11,12 +11,12 @@
 **Latest version**:
 
 **Abstract**: The Taxon Concept Standard (TCS) is the TDWG standard specifically
-for sharing taxonomic data. TCS provides TaxonConcept and TaxonName classes for
-information about taxon concepts and taxon names, respectively, as well as a
-TaxonConceptMapping class for taxon concept alignments and a NomenclaturalType
-class for information on typification of taxon names. TCS provides a consistent
-way to share and communicate taxonomic and nomenclatural data and is most useful
-where data becomes more structured and semantic.
+for sharing taxonomic and nomenclatural data. TCS provides TaxonConcept and
+TaxonName classes for information about taxon concepts and taxon names,
+respectively, as well as a TaxonConceptMapping class for taxon concept
+alignments and a NomenclaturalType class for information on typification of
+taxon names. TCS offers a semantic framework for, and facilitates more accurate
+exchange of, taxonomic and nomenclatural data.
 
 **Contributors**: Niels Klazenga, Greg Whitbread, Vijay Barve, Thierry Bourgoin,
 Markus Döring, Anne Fuchs, Jeff Gerbracht, Johan Liljeblad, Carlos Martínez
