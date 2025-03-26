@@ -237,20 +237,20 @@ planned in the domain that is covered by Darwin Core.
 
 On the left is occurrence or specimen data and on the right is taxonomic and
 nomenclatural data. From top to bottom, or from Darwin Core Archive to
-Frictionless Data Package to RDF, the structure and semantics of the data
+Frictionless Data Package to RDF, the structure of and semantics in the data
 increases.
 
 The niche of TCS is in the bottom-right of the figure. It has already been said
-before that the Darwin Core Taxon class does not work with RDF and that TCS (2)
-is meant to fill the gap. It is to be expected that the Darwin Core Data Package
+before that the Darwin Core Taxon class does not work with RDF and that TCS is
+meant to fill the gap. It is to be expected that the Darwin Core Data Package
 (DwC-DP) will not have an equivalent to the Darwin Core Archive Taxon Core,
 because the Catalogue of Life Data Package (CoLDP) already occupies that space.
 CoLDP has got two different schemas, one with a NameUsage table, which is
-equivalent to the Darwin Core Taxon, and another one with Taxon and Name tables,
+equivalent to the Darwin Core Taxon, and another with Taxon and Name tables,
 which are equivalent to the TCS Taxon Concept and Taxon Name respectively. The
 latter schema is already very nearly TCS compliant. It is therefore the
 intention that we won't develop a TDWG TCS Data Package, but that we work with
-Catalogue of Life tomake ColDP fully TCS compliant, so that CoLDP can be the
+Catalogue of Life to make ColDP fully TCS compliant, so that CoLDP can be the
 Data Package application profile for TCS.
 
 ## Broader context: SKOS and OpenBiodiv-O
