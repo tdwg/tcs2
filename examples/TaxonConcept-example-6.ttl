@@ -17,7 +17,7 @@
     tcs:taxonName <https://www.indexfungorum.org/names/NamesRecord.asp?RecordID=17175> .
 
 <https://www.indexfungorum.org/names/NamesRecord.asp?RecordID=17175> a tcs:TaxonNAme ;
-    tcs:taxonNameString "Boletus" ;
+    tcs:nameString "Boletus" ;
     dwc:scientificNameAuthorship "L" ;
     dwc:namePublishedIn "Sp. pl. 2: 1176" ;
     dwc:namePublishedInYear "1753" .

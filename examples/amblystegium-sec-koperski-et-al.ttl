@@ -413,87 +413,87 @@ _:1927_Hygroamblystegium a tcs:TaxonConcept ;
 # Names
 
 <https://www.tropicos.org/name/35000040> a tcs:TaxonName ;
-    tcs:taxonNameString "Amblystegium" ;
+    tcs:nameString "Amblystegium" ;
     dwc:scientificNameAuthorship "Schimp." ;
     dwc:namePublishedIn "Bryol. Eur. 6: 45 (1853)" .
 
 <https://www.tropicos.org/name/35000208> a tcs:TaxonName ;
-    tcs:taxonNameString "Campylium" ;
+    tcs:nameString "Campylium" ;
     dwc:scientificNameAuthorship "(Sull.) Mitt." ;
     dwc:namePublishedIn "J. Linn. Soc., Bot. 12: 631 (1809)" ;
     tcs:basionym <https://www.tropicos.org/name/35101380> .
 
 <https://www.tropicos.org/name/35000970> a tcs:TaxonName ;
-    tcs:taxonNameString "Platydictya" ;
+    tcs:nameString "Platydictya" ;
     dwc:scientificNameAuthorship "Berk." ;
     dwc:namePublishedIn "Handb. Brit. Mosses: 145 (1863)" .
 
 <https://www.tropicos.org/name/35000692> a tcs:TaxonName ;
-    tcs:taxonNameString "Leptodictyum" ;
+    tcs:nameString "Leptodictyum" ;
     dwc:scientificNameAuthorship "(Schimp.) Warnst." ;
     dwc:namePublishedIn "Krypt.-Fl. Brandenburg, Laubm. 2: 840 (1906)" ;
     tcs:basionym <https://www.tropicos.org/name/35102656> .
 
 <https://www.tropicos.org/name/35000290> a tcs:TaxonName ;
-    tcs:taxonNameString "Conardia" ;
+    tcs:nameString "Conardia" ;
     dwc:scientificNameAuthorship "H.Rob." ;
     dwc:namePublishedIn "Phytologia 33: 294 (1976)" .
 
 <https://www.tropicos.org/name/35000207> a tcs:TaxonName ;
-    tcs:taxonNameString "Campyliadelphus" ;
+    tcs:nameString "Campyliadelphus" ;
     dwc:namePublishedIn "Taxon. Indian Mosses: 442 (1975)" ;
     dwc:scientificNameAuthorship "(Kindb.) R.S.Chopra" .
 
 <https://www.tropicos.org/name/35000213> a tcs:TaxonName ;
-    tcs:taxonNameString "Campylophyllum" ;
+    tcs:nameString "Campylophyllum" ;
     dwc:namePublishedIn "Nova Guinea 12(2): 123 (1914)" ;
     dwc:scientificNameAuthorship "(Schimp.) M.Fleisch." .
 
 <https://www.tropicos.org/name/35000039> a tcs:TaxonName ;
-    tcs:taxonNameString "Amblystegiella" ;
+    tcs:nameString "Amblystegiella" ;
     dwc:namePublishedIn "Moosfl. Harz.: 294 (1903)" ;
     dwc:scientificNameAuthorship "Loeske" ;
     tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/superfluum> .
 
 <https://www.tropicos.org/name/35000256> a tcs:TaxonName ;
-    tcs:taxonNameString "Chrysohypnum" ;
+    tcs:nameString "Chrysohypnum" ;
     dwc:scientificNameAuthorship "G.Roth" ;
     dwc:namePublishedIn "Hedwigia 38(Beibl. 1): 6 (1899)" ;
     tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/superfluum> .
 
 <https://www.tropicos.org/name/35000413> a tcs:TaxonName ;
-    tcs:taxonNameString "Drepanocladus" ;
+    tcs:nameString "Drepanocladus" ;
     dwc:scientificNameAuthorship "(Müll.Hal.) G.Roth" ;
     dwc:namePublishedIn "Hedwigia 38(Beibl. 1): 6 (1899)" .
 
 <https://www.tropicos.org/name/35001131> a tcs:TaxonName ;
-    tcs:taxonNameString "Rhynchostegiella" ;
+    tcs:nameString "Rhynchostegiella" ;
     dwc:scientificNameAuthorship "(Schimp.) Limpr." ;
     dwc:namePublishedIn "Laubm. Deutschl. 3: 207 (1896)" ;
     tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/conservandum> .
 
 <https://www.tropicos.org/name/35101380> a tcs:TaxonName ;
-    tcs:taxonNameString "Hypnum subg. Campylium" ;
+    tcs:nameString "Hypnum subg. Campylium" ;
     dwc:namePublishedIn "Man. Bot. (A. Eaton), ed. 2: 677 (1856)" ;
     dwc:scientificNameAuthorship "Sull." .
 
 <https://www.tropicos.org/name/35102679> a tcs:TaxonName ;
-    tcs:taxonNameString "Amblystegium sect. Serpoleskea" ;
+    tcs:nameString "Amblystegium sect. Serpoleskea" ;
     dwc:scientificNameAuthorship "(Limpr.) Mönk." ;
     dwc:namePublishedIn "Laubm. Eur.: 730 (1927)" .
 
 <https://www.tropicos.org/name/35000612> a tcs:TaxonName ;
-    tcs:taxonNameString "Hygroamblystegium" ;
+    tcs:nameString "Hygroamblystegium" ;
     dwc:scientificNameAuthorship "Loeske" ;
     dwc:namePublishedIn "Moosfl. Harz.: 298 (1903)" .
 
 <https://www.tropicos.org/name/35102656> a tcs:TaxonName ;
-    tcs:taxonNameString "Amblystegium subg. Leptodictyum" ;
+    tcs:nameString "Amblystegium subg. Leptodictyum" ;
     dwc:scientificNameAuthorship "Schimp." ;
     dwc:namePublishedIn "Syn. Musc. Eur.: 595 (1860)" .
 
 <https://www.tropicos.org/name/35102672> a tcs:TaxonName ;
-    tcs:taxonNameString "Amblystegium sect. Leptodictyum" ;
+    tcs:nameString "Amblystegium sect. Leptodictyum" ;
     dwc:scientificNameAuthorship "(Schimp.) Mönk." ;
     dwc:namePublishedIn "Laubm. Eur.: 730 (1927)" ;
     tcs:basionym <https://www.tropicos.org/name/35102656> .

@@ -9,7 +9,7 @@
     tcs:taxonName <https://ipni.org/n/105644-1> .
 
 <https://ipni.org/n/105644-1> a tcs:TaxonName ;
-    tcs:taxonNameString "Begonia salaziensis" ; 
+    tcs:nameString "Begonia salaziensis" ; 
     dwc:scientificNameAuthorship "Warb." ;
     dwc:namePublishedIn "Nat. Pflanzenfam. [Engler & Prantl] iii. 6 a. (1894) 139." .
 

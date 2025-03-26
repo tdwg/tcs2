@@ -4,7 +4,7 @@
 
 
 <https://ipni.org/n/105731-1> a tcs:TaxonName ;
-    tcs:taxonNameString "Begonia seychellensis" ;
+    tcs:nameString "Begonia seychellensis" ;
     dwc:scientificNameAuthorship "Hemsl." ;
     dwc:namePublishedIn "J. Bot. 54(Suppl. 2): 15 (1916)" ;
     tcs:typification [ a tcs:NomenclaturalType ;

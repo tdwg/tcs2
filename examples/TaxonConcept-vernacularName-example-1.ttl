@@ -8,7 +8,7 @@
     dcterms:title "Graphium macleayanum sec. Orr & Kitching 2010" ;
     tcs:accordingTo <urn:isbn:978-1-74175-108-6> ;
     tcs:taxonName [ a tcs:TaxonName ;
-            tcs:taxonNameString "Graphium macleayanum" ] ;
+            tcs:nameString "Graphium macleayanum" ] ;
     tcs:vernacularName [ a gbif:VernacularName ;
             dwc:vernacularName "Macleay's Swallowtail" ;
             dcterms:language: "en" ] .

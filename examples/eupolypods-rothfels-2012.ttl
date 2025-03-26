@@ -249,88 +249,88 @@ _:1947-Dennstaedtiaceae a tcs:TaxonConcept ;
 # Taxon names
 
 _:tn5d4f0656a86805a4 a tcs:TaxonName ;
-    tcs:taxonNameString "Eupolypods" .
+    tcs:nameString "Eupolypods" .
 
 _:tn44673c94cdc45415 a tcs:TaxonName ;
-    tcs:taxonNameString "Eupolypods I" .
+    tcs:nameString "Eupolypods I" .
 
 _:tn79905b93a0bb9c11 a tcs:TaxonName ;
-    tcs:taxonNameString "Eupolypods II" .
+    tcs:nameString "Eupolypods II" .
 
 <https://ipni.org/n/30014148-2> a tcs:TaxonName ;
-    tcs:taxonNameString "Dryopteridaceae" ;
+    tcs:nameString "Dryopteridaceae" ;
     dwc:scientificNameAuthorship "Herter" ;
     dwc:namePublishedIn "Revista Sudamer. Bot. 9: 15" ;
     dwc:namePublishedInYear "1949" .
 
 <https://ipni.org/n/30001382-2> a tcs:TaxonName ;
-    tcs:taxonNameString "Aspleniaceae" ;
+    tcs:nameString "Aspleniaceae" ;
     dwc:scientificNameAuthorship "Newman" ;
     dwc:namePublishedIn "Hist. Brit. Ferns 6" ;
     dwc:namePublishedInYear "1840" .
 
 <https://ipni.org/n/30000361-2> a tcs:TaxonName ;
-    tcs:taxonNameString "Athyriaceae" ;
+    tcs:nameString "Athyriaceae" ;
     dwc:scientificNameAuthorship "Alston" ;
     dwc:namePublishedIn "Taxon 5: 25" ;
     dwc:namePublishedInYear "1956" .
 
 <https://ipni.org/n/30002151-2> a tcs:TaxonName ;
-    tcs:taxonNameString "Blechnaceae" ;
+    tcs:nameString "Blechnaceae" ;
     dwc:scientificNameAuthorship "Newman" ;
     dwc:namePublishedIn "Hist. Brit. Ferns, ed. 2 8" ;
     dwc:namePublishedInYear "1844" .
 
 <https://ipni.org/n/20001946-1> a tcs:TaxonName ;
-    tcs:taxonNameString "Cystopteridaceae" ;
+    tcs:nameString "Cystopteridaceae" ;
     dwc:scientificNameAuthorship "(Payer) Shmakov" ;
     dwc:namePublishedIn "Turczaninowia 4(1-2): 60" ;
     dwc:namePublishedInYear "2001" .
 
 <https://ipni.org/n/77110538-1> a tcs:TaxonName ;
-    tcs:taxonNameString "Diplaziopsidaceae" ;
+    tcs:nameString "Diplaziopsidaceae" ;
     dwc:scientificNameAuthorship "X.C.Zhang & Christenh." ;
     dwc:namePublishedIn "Phytotaxa 19: 15" ;
     dwc:namePublishedInYear "2011" .
 
 <https://ipni.org/n/77114955-1> a tcs:TaxonName ;
-    tcs:taxonNameString "Hemidictyaceae" ;
+    tcs:nameString "Hemidictyaceae" ;
     dwc:scientificNameAuthorship "Christenh. & H.Schneid." ;
     dwc:namePublishedIn "Phytotaxa 28: 51" ;
     dwc:namePublishedInYear "2011" .
 
 <https://ipni.org/n/17446060-1> a tcs:TaxonName ;
-    tcs:taxonNameString "Onocleaceae" ;
+    tcs:nameString "Onocleaceae" ;
     dwc:scientificNameAuthorship "Pic.Serm." ;
     dwc:namePublishedIn "Webbia 24(2): 708" ;
     dwc:namePublishedInYear "1970" .
 
 <https://ipni.org/n/77110539-1> a tcs:TaxonName ;
-    tcs:taxonNameString "Rhachidosoraceae" ;
+    tcs:nameString "Rhachidosoraceae" ;
     dwc:scientificNameAuthorship "X.C.Zhang" ;
     dwc:namePublishedIn "Phytotaxa 19: 16" ;
     dwc:namePublishedInYear "2011" .
 
 <https://ipni.org/n/30000455-2> a tcs:TaxonName ;
-    tcs:taxonNameString "Thelypteridaceae" ;
+    tcs:nameString "Thelypteridaceae" ;
     dwc:scientificNameAuthorship "Pic.Serm." ;
     dwc:namePublishedIn "Webbia 24(2): 709" ;
     dwc:namePublishedInYear "1970" .
 
 <https://ipni.org/n/60456504-2> a tcs:TaxonName ;
-    tcs:taxonNameString "Woodsiaceae" ;
+    tcs:nameString "Woodsiaceae" ;
     dwc:scientificNameAuthorship "Herter" ;
     dwc:namePublishedIn "Revista Sudamer. Bot. 9: 14" ;
     dwc:namePublishedInYear "1949" .
 
 <https://ipni.org/n/17434830-1> a tcs:TaxonName ;
-    tcs:taxonNameString "Dennstaedtiaceae" ;
+    tcs:nameString "Dennstaedtiaceae" ;
     dwc:scientificNameAuthorship "Pic.Serm." ;
     dwc:namePublishedIn "Webbia 24(2): 704" ;
     dwc:namePublishedInYear "1970" .
 
 <https://ipni.org/n/17436290-1> a tcs:TaxonName ;
-    tcs:taxonNameString "Onocleoideae B.K.Nayar, " ;
+    tcs:nameString "Onocleoideae B.K.Nayar, " ;
     dwc:scientificNameAuthorship "B.K.Nayar" ;
     dwc:namePublishedIn "Taxon 19: 235" ;
     dwc:namePublishedInYear "1970" .

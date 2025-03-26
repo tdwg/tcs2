@@ -9,7 +9,7 @@
   },
   "taxonName": {
     "type": "TaxonName",
-    "taxonNameString": "Graphium macleayanum"
+    "nameString": "Graphium macleayanum"
   },
   "vernacularName": {
     "type": "gbif:VernacularName",

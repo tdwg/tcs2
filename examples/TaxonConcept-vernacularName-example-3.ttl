@@ -30,5 +30,5 @@
             gbif:isPreferredName <http://rs.gbif.org/vocab/boolean/false> ] .
 
 <https://ipni.org/n/134460-3> a tcs:TaxonName ;
-    tcs:taxonNameString "Callitris verrucosa" ;
+    tcs:nameString "Callitris verrucosa" ;
     dwc:scientificNameAuthorship "(A.Cunn. ex Endl.) F.Muell." .

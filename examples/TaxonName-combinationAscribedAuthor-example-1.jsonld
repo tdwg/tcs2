@@ -2,7 +2,7 @@
   "@context": "https://raw.githubusercontent.com/tdwg/tcs2/master/examples/context.jsonld",
   "id": "https://tropicos.org/name/35153928>",
   "type": "TaxonName",
-  "taxonNameString": "Calymperes serratum",
+  "nameString": "Calymperes serratum",
   "dwc:scientificNameAuthorship": "A.Braun ex Müll.Hal.",
   "combinationAuthor": {
     "id": "https://tropicos.org/person/2",

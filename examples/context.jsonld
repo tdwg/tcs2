@@ -38,7 +38,7 @@
     "subjectTaxonConcept":              { "@type": "@id", "@id": "tcs:subjectTaxonConcept" },
     "objectTaxonConcept":               { "@type": "@id", "@id": "tcs:objectTaxonConcept" },
 
-    "taxonNameString":                  { "@type": "xsd:String", "@id": "tcs:taxonNameString" },
+    "nameString":                  { "@type": "xsd:String", "@id": "tcs:nameString" },
     "namePublishedIn":                  { "@type": "@id", "@id": "tcs:namePublishedIn" },
     "microReference":                   { "@type": "xsd:String", "@id": "tcs:microReference" },
     "nomenclaturalCode":                { "@type": "@vocab", "@id": "tcs:nomenclaturalCode" },

@@ -4,7 +4,7 @@
     {
       "id": "https://www.tropicos.org/name/35000146",
       "type": "TaxonName",
-      "taxonNameString": "Braunfelsia",
+      "nameString": "Braunfelsia",
       "dwc:scientificNameAuthorship": "Paris",
       "dwc:namePublishedIn": "Index Bryol.: 148",
       "dwc:namePublishedInYear": "1894",
@@ -13,7 +13,7 @@
     {
       "id": "https://www.tropicos.org/name/35001206",
       "type": "TaxonName",
-      "taxonNameString": "Solmsia",
+      "nameString": "Solmsia",
       "dwc:scientificNameAuthorship": "Hampe",
       "dwc:namePublishedIn": "Nuovo Giorn. Bot. Ital. 4(4): 273, 281",
       "dwc:namePublishedInYear": "1872",
@@ -22,7 +22,7 @@
     {
       "id": "https://ipni.org/n/39527-1",
       "type": "TaxonName",
-      "taxonNameString": "Solmsia",
+      "nameString": "Solmsia",
       "dwc:scientificNameAuthorship": "Baill.",
       "dwc:namePublishedIn": "Adansonia 10: 37",
       "dwc:namePublishedInYear": "1871"

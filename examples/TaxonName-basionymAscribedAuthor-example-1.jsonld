@@ -2,7 +2,7 @@
   "@context": "https://raw.githubusercontent.com/tdwg/tcs2/master/examples/context.jsonld",
   "id": "https://ipni.org/n/3007069-1",
   "type": "TaxonName",
-  "taxonNameString": "Senna artemisioides",
+  "nameString": "Senna artemisioides",
   "dwc:scientificNameAuthorship": "(Gaudich. ex DC.) Isely)",
   "combinationAuthor": {
     "id": "https://ipni.org/a/4317-1",
@@ -28,7 +28,7 @@
   "basionym": {
     "id": "https://ipni.org/n/484142-1",
     "type": "TaxonName",
-    "taxonNameString": "Cassia artemisioides",
+    "nameString": "Cassia artemisioides",
     "dwc:scientificNameAuthorship": "Gaudich. ex DC.",
     "combinationAuthor": "https://ipni.org/a/4317-1",
     "combinationAuthorLiteral": "DC.",

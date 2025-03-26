@@ -3,7 +3,7 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 
 <https://ipni.org/n/17567870-1> a tcs:TaxonName ;
-    tcs:taxonNameString "Doodia media subsp. australis" ;
+    tcs:nameString "Doodia media subsp. australis" ;
     dwc:scientificNameAuthorship: "Parris" ;
     dwc:namePublishedIn "New Zealand J. Bot. 10(4): 593" ;
     dwc:namePublishedInYear "1972" ;
@@ -11,7 +11,7 @@
             <https://id.biodiversity.org.au/name/apni/117170> .
 
 <https://ipni.org/n/17571690-1> a tcs:TaxonName ;
-    tcs:taxonNameString "Doodia australis" ;
+    tcs:nameString "Doodia australis" ;
     dwc:scientificNameAuthorship "(Parris) Parris" ;
     dwc:namePublishedIn "Fl. Australia 48: 710" ;
     dwc:namePublishedInYear "1998" ;
@@ -19,7 +19,7 @@
     rdf:seeAlso <https://id.biodiversity.org.au/name/apni/166271> .
 
 <https://ipni.org/n/77110594-1> a tcs:TaxonName ;
-    tcs:taxonNameString "Blechnum parrisiae" ;
+    tcs:nameString "Blechnum parrisiae" ;
     dwc:scientificNameAuthorship "Christenh." ;
     dwc:namePublishedIn "Phytotaxa 19: 20" ;
     dwc:namePublishedInYear "2011" ;

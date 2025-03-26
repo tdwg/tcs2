@@ -114,7 +114,7 @@
           },
           "taxonName": {
             "type": "TaxonName",
-            "taxonNameString": "Megalorhipida leucodactylus",
+            "nameString": "Megalorhipida leucodactylus",
 			      "dwc:scientificNameAuthorship": "(Fabricius, 1794)",
             "basionym":  "https://zoobank.org/NomenclaturalActs/39b2f236-3914-4962-9dcc-f594671654bd"
           }
@@ -230,73 +230,73 @@
     {
       "id": "https://zoobank.org/NomenclaturalActs/39b2f236-3914-4962-9dcc-f594671654bd",
       "type": "TaxonName",
-      "taxonNameString": "Pterophorus leucodactylus",
+      "nameString": "Pterophorus leucodactylus",
 			"dwc:scientificNameAuthorship": "Fabricius, 1794"
     },
     {
       "id": "_:tn1",
       "type": "TaxonName",
-      "taxonNameString": "Aciptilia hawaiiensis",
+      "nameString": "Aciptilia hawaiiensis",
 			"dwc:scientificNameAuthorship": "Butler, 1881"
     },
     {
       "id": "_:tn2",
       "type": "TaxonName",
-      "taxonNameString": "Megalorhipida palaestinensis",
+      "nameString": "Megalorhipida palaestinensis",
 			"dwc:scientificNameAuthorship": "Amsel, 1935"
     },
     {
       "id": "_:tn3",
       "type": "TaxonName",
-      "taxonNameString": "Pterophorus congrualis",
+      "nameString": "Pterophorus congrualis",
 			"dwc:scientificNameAuthorship": "Walker, 1864"
     },
     {
       "id": "_:tn4",
       "type": "TaxonName",
-      "taxonNameString": "Pterophorus defectalis",
+      "nameString": "Pterophorus defectalis",
 			"dwc:scientificNameAuthorship": "Walker, 1864"
     },
     {
       "id": "_:tn5",
       "type": "TaxonName",
-      "taxonNameString": "Trichoptilus adelphodes",
+      "nameString": "Trichoptilus adelphodes",
 			"dwc:scientificNameAuthorship": "Meyrick, 1887"
     },
     {
       "id": "_:tn6",
       "type": "TaxonName",
-      "taxonNameString": "Trichoptilus centetes",
+      "nameString": "Trichoptilus centetes",
 			"dwc:scientificNameAuthorship": "Meyrick, 1886"
     },
     {
       "id": "_:tn7",
       "type": "TaxonName",
-      "taxonNameString": "Trichoptilus compsochares",
+      "nameString": "Trichoptilus compsochares",
 			"dwc:scientificNameAuthorship": "Meyrick, 1886"
     },
     {
       "id": "_:tn8",
       "type": "TaxonName",
-      "taxonNameString": "Trichoptilus derelictus",
+      "nameString": "Trichoptilus derelictus",
 			"dwc:scientificNameAuthorship": "Meyrick, 1926"
     },
     {
       "id": "_:tn9",
       "type": "TaxonName",
-      "taxonNameString": "Trichoptilus ochrodactylus ",
+      "nameString": "Trichoptilus ochrodactylus ",
 			"dwc:scientificNameAuthorship": "Fish, 1881"
     },
     {
       "id": "_:tn10",
       "type": "TaxonName",
-      "taxonNameString": "Trichoptilus ralumensis ",
+      "nameString": "Trichoptilus ralumensis ",
 			"dwc:scientificNameAuthorship": "Pagenstecher, 1900"
     },
     {
       "id": "_:tn11",
       "type": "TaxonName",
-      "taxonNameString": "Pterophorus oxydactylus ",
+      "nameString": "Pterophorus oxydactylus ",
 			"dwc:scientificNameAuthorship": "Walker, 1864"
     },
 
@@ -307,7 +307,7 @@
       "accordingTo": "https://doi.org/10.48580/dfry-3gd#1.1.23.5",
       "taxonName": {
         "type": "TaxonName",
-        "taxonNameString": "Megalorhipida",
+        "nameString": "Megalorhipida",
 			  "dwc:scientificNameAuthorship": "Amsel, 1935"
       },
       "taxonRank": "genus",
@@ -320,7 +320,7 @@
       "accordingTo": "https://doi.org/10.48580/dfry-3gd#1.1.23.5",
       "taxonName": {
         "type": "TaxonName",
-        "taxonNameString": "Oxyptilini",
+        "nameString": "Oxyptilini",
 			  "dwc:scientificNameAuthorship": "Bigot, Gibeaux, Nel & Picard, 1998"
       },
       "taxonRank": "tribe",
@@ -333,7 +333,7 @@
       "accordingTo": "https://doi.org/10.48580/dfry-3gd#1.1.23.5",
       "taxonName": {
         "type": "TaxonName",
-        "taxonNameString": "Pterophorinae",
+        "nameString": "Pterophorinae",
 			  "dwc:scientificNameAuthorship": "Zeller, 1841"
       },
       "taxonRank": "subfamily",
@@ -346,7 +346,7 @@
       "accordingTo": "https://doi.org/10.48580/dfry-3gd#1.1.23.5",
       "taxonName": {
         "type": "TaxonName",
-        "taxonNameString": "Pterophoridae",
+        "nameString": "Pterophoridae",
 			"dwc:scientificNameAuthorship": "Latreille, 1802"
       },
       "taxonRank": "family",
@@ -359,7 +359,7 @@
       "accordingTo": "https://doi.org/10.48580/dfry-3gd#1.1.23.5",
       "taxonName": {
         "type": "TaxonName",
-        "taxonNameString": "Pterophoroidea",
+        "nameString": "Pterophoroidea",
 			  "dwc:scientificNameAuthorship": "Kuznetzov & Stekolnikov, 1979"
       },
       "taxonRank": "superfamily",
@@ -372,7 +372,7 @@
       "accordingTo": "https://doi.org/10.48580/dfs6-49xk",
       "taxonName": {
         "type": "TaxonName",
-        "taxonNameString": "Lepidoptera",
+        "nameString": "Lepidoptera",
 			  "dwc:scientificNameAuthorship": "Linnaeus, 1758"
       },
       "taxonRank": "order",
@@ -385,7 +385,7 @@
       "accordingTo": "https://doi.org/10.48580/dfs6",
       "taxonName": {
         "type": "TaxonName",
-        "taxonNameString": "Insecta"
+        "nameString": "Insecta"
       },
       "taxonRank": "class",
       "parent": "https://www.catalogueoflife.org/data/taxon/RT"
@@ -397,7 +397,7 @@
       "accordingTo": "https://doi.org/10.48580/dfs6",
       "taxonName": {
         "type": "TaxonName",
-        "taxonNameString": "Arthropoda"
+        "nameString": "Arthropoda"
       },
       "taxonRank": "phylum",
       "parent": "https://www.catalogueoflife.org/data/taxon/N"
@@ -409,7 +409,7 @@
       "accordingTo": "https://doi.org/10.48580/dfs6",
       "taxonName": {
         "type": "TaxonName",
-        "taxonNameString": "Animalia"
+        "nameString": "Animalia"
       },
       "taxonRank": "kingdom",
       "parent": "https://www.catalogueoflife.org/data/taxon/5T6MX"
@@ -420,7 +420,7 @@
       "dcterms:title": "Biota sec. Catalogue of Life",
       "taxonName": {
         "type": "TaxonName",
-        "taxonNameString": "Biota"
+        "nameString": "Biota"
       },
       "accordingTo": "https://doi.org/10.48580/dfs6"
     },

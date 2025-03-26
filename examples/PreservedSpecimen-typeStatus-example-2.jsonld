@@ -62,7 +62,7 @@
           "taxonName": {
             "id": "https://ipni.org/n/718981-1",
             "type": "TaxonName",
-            "taxonNameString": "Stenanthemum coronatum",
+            "nameString": "Stenanthemum coronatum",
             "dwc:scienctificNameAuthorship": "(Reissek) Reissek",
             "dwc:namePublishedIn": "Linnaea 29: 295",
             "dwc:namePublishedInYear": "1858",
@@ -79,7 +79,7 @@
         "typifiedName": {
           "id": "https://ipni.org/n/717216-1",
           "type": "TaxonName",
-          "taxonNameString": "Cryptandra coronata",
+          "nameString": "Cryptandra coronata",
           "dwc:scienctificNameAuthorship": "Pl. Preiss. [J.G.C.Lehmann] 2(2-3): 288",
           "dwc:namePublishedInYear": "1848"
         },

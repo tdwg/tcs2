@@ -7,7 +7,7 @@
     dcterms:title "Balaenoptera musculus sec. Catalogue of Life 2022-11-14" ;
     tcs:accordingTo <https://www.catalogueoflife.org#v2022-11-14> ;
     tcs:taxonName [ a tcs:TaxonName ;
-            tcs:taxonNameString "Balaenoptera musculus" ;
+            tcs:nameString "Balaenoptera musculus" ;
             dwc:scientificNameAuthorship "(Linnaeus, 1758)" ] .
 
 <https://www.catalogueoflife.org#v2022-11-14> a bibo:Website ;

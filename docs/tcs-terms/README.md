@@ -73,7 +73,7 @@ on a `TaxonConceptMapping`. The value of `mappingRelation` has to be one of the
 mapping properties from the `TaxonConcept` class.
 
 The **TaxonName** class encapsulates all information about taxon names. Only the
-`taxonNameString` property is required. Currently, TCS only has the one class
+`nameString` property is required. Currently, TCS only has the one class
 that can be used for all types of names, including scientific named and
 vernacular names, but it is envisaged that in future TCS will also have classes
 for specific categories of names, e.g., 'ScientificName' and 'VernacularName'.
@@ -174,7 +174,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 
 **Taxon Name**
 
-[tcs:TaxonName](#tcstaxonname) | [tcs:taxonNameString](#tcstaxonnamestring) | [tcs:namePublishedIn](#tcsnamepublishedin) | [tcs:microreference](#tcsmicroreference) | [tcs:nomenclaturalCode](#tcsnomenclaturalcode) | [tcs:nomenclaturalStatus](#tcsnomenclaturalstatus) | [tcs:typification](#tcstypification) | [tcs:typificationLiteral](#tcstypificationliteral) | [tcs:basionym](#tcsbasionym) | [tcs:replacedName](#tcsreplacedname) | [tcs:basedOn](#tcsbasedon) | [tcs:laterHomonymOf](#tcslaterhomonymof) | [tcs:conservedAgainst](#tcsconservedagainst) | [tcs:combinationAuthor](#tcscombinationauthor) | [tcs:combinationAuthorLiteral](#tcscombinationauthorliteral) | [tcs:basionymAuthor](#tcsbasionymauthor) | [tcs:basionymAuthorLiteral](#tcsbasionymauthorliteral) | [tcs:combinationAscribedAuthor](#tcscombinationascribedauthor) | [tcs:combinationAscribedAuthorLiteral](#tcscombinationascribedauthorliteral) | [tcs:basionymAscribedAuthor](#tcsbasionymascribedauthor) | [tcs:basionymAscribedAuthorLiteral](#tcsbasionymascribedauthorliteral) | [dwc:scientificNameAuthorship](#dwcscientificnameauthorship) | [dwc:namePublishedIn](#dwcnamepublishedin) | [dwc:namePublishedInYear](#dwcnamepublishedinyear) | [dwc:genericName](#dwcgenericname) | [dwc:infragenericEpithet](#dwcinfragenericepithet) | [dwc:specificEpithet](#dwcspecificepithet) | [dwc:infraspecificEpithet](#dwcinfraspecificepithet) | [dwc:cultivarEpithet](#dwccultivarepithet)
+[tcs:TaxonName](#tcstaxonname) | [tcs:nameString](#tcsnamestring) | [tcs:namePublishedIn](#tcsnamepublishedin) | [tcs:microreference](#tcsmicroreference) | [tcs:nomenclaturalCode](#tcsnomenclaturalcode) | [tcs:nomenclaturalStatus](#tcsnomenclaturalstatus) | [tcs:typification](#tcstypification) | [tcs:typificationLiteral](#tcstypificationliteral) | [tcs:basionym](#tcsbasionym) | [tcs:replacedName](#tcsreplacedname) | [tcs:basedOn](#tcsbasedon) | [tcs:laterHomonymOf](#tcslaterhomonymof) | [tcs:conservedAgainst](#tcsconservedagainst) | [tcs:combinationAuthor](#tcscombinationauthor) | [tcs:combinationAuthorLiteral](#tcscombinationauthorliteral) | [tcs:basionymAuthor](#tcsbasionymauthor) | [tcs:basionymAuthorLiteral](#tcsbasionymauthorliteral) | [tcs:combinationAscribedAuthor](#tcscombinationascribedauthor) | [tcs:combinationAscribedAuthorLiteral](#tcscombinationascribedauthorliteral) | [tcs:basionymAscribedAuthor](#tcsbasionymascribedauthor) | [tcs:basionymAscribedAuthorLiteral](#tcsbasionymascribedauthorliteral) | [dwc:scientificNameAuthorship](#dwcscientificnameauthorship) | [dwc:namePublishedIn](#dwcnamepublishedin) | [dwc:namePublishedInYear](#dwcnamepublishedinyear) | [dwc:genericName](#dwcgenericname) | [dwc:infragenericEpithet](#dwcinfragenericepithet) | [dwc:specificEpithet](#dwcspecificepithet) | [dwc:infraspecificEpithet](#dwcinfraspecificepithet) | [dwc:cultivarEpithet](#dwccultivarepithet)
 
 **Nomenclatural Type**
 
@@ -225,7 +225,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
     tcs:taxonName <https://www.tropicos.org/name/35121475> .
 
 <https://www.tropicos.org/name/35121475> a tcs:TaxonName ;
-    tcs:taxonNameString "Dicranoloma blumei" ;
+    tcs:nameString "Dicranoloma blumei" ;
     dwc:scientificNameAuthorship "(Nees) Renauld" .
 
 <https://www.tropicos.org/reference/9020903> a bibo:AcademicArticle ;
@@ -442,40 +442,40 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
             <https://www.tropicos.org/name/35188177> .
 
 <https://www.tropicos.org/name/35121475> a tcs:TaxonName ;
-    tcs:taxonNameString "Dicranoloma blumei" ;
+    tcs:nameString "Dicranoloma blumei" ;
     dwc:scientificNameAuthorship "(Nees) Renauld" ;
     dwc:namePublishedIn "Rev. Bryol. 28(4): 69 (1901)" ;
     tcs:basionym <https://www.tropicos.org/name/35121972> .
 
 <https://www.tropicos.org/name/35121972> a tcs:TaxonName ;
-    tcs:taxonNameString "Dicranum blumei" ;
+    tcs:nameString "Dicranum blumei" ;
     dwc:scientificNameAuthorship "Nees" ; 
     dwc:namePublishedIn """Nova Acta Phys.-Med. Acad. Caes. Leop.-Carol. Nat. 
             Cur. 11(1): 131 (1823)""" .
 
 <https://www.tropicos.org/name/35154856> a tcs:TaxonName ;
-    tcs:taxonNameString "Leucoloma blumei" ;
+    tcs:nameString "Leucoloma blumei" ;
     dwc:scientificNameAuthorship "(Nees) Broth." ; 
     dwc:namePublishedIn "Nat. Pflanzenfam. I(3): 322 (1901)" ;
     tcs:basionym <https://www.tropicos.org/name/35121972> .
 
 <https://www.tropicos.org/name/35121973> a tcs:TaxonName ;
-    tcs:taxonNameString "Dicranum blumei var. laxifolium" ;
+    tcs:nameString "Dicranum blumei var. laxifolium" ;
     dwc:scientificNameAuthorship "Broth. & Geh." ;
     dwc:namePublishedIn "Biblioth. Bot. 44: 4 (1898)" .
 
 <https://www.tropicos.org/name/35121477> a tcs:TaxonName ;
-    tcs:taxonNameString "Dicranoloma blumei var. papillisetum" ;
+    tcs:nameString "Dicranoloma blumei var. papillisetum" ;
     dwc:scientificNameAuthorship "M. Fleisch." ;
     dwc:namePublishedIn "Nova Guinea 12(2): 112 (1914)" .
 
 <https://www.tropicos.org/name/35188177> a tcs:TaxonName ;
-    tcs:taxonNameString "Dicranoloma blumei f. subintegrum" ;
+    tcs:nameString "Dicranoloma blumei f. subintegrum" ;
     dwc:scientificNameAuthorship "Dixon" ;
     dwc:namePublishedIn "J. Bot. 80: 4 (1942)" .
 
 <https://www.tropicos.org/name/35121484> a tcs:TaxonName ;
-    tcs:taxonNameString "Dicranoloma braunfelsioides" ;
+    tcs:nameString "Dicranoloma braunfelsioides" ;
     dwc:scientificNameAuthorship "Herzog" ;
     dwc:namePublishedIn "Hedwigia 61: 288 (1919)" . 
 
@@ -555,7 +555,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
     dcterms:title "Graphium macleayanum sec. Orr & Kitching 2010" ;
     tcs:accordingTo <urn:isbn:978-1-74175-108-6> ;
     tcs:taxonName [ a tcs:TaxonName ;
-            tcs:taxonNameString "Graphium macleayanum" ] ;
+            tcs:nameString "Graphium macleayanum" ] ;
     tcs:vernacularName [ a gbif:VernacularName ;
             dwc:vernacularName "Macleay's Swallowtail" ;
             dcterms:language: "en" ] .
@@ -664,14 +664,14 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
     dcterms:title "Panthera sec. Catalogue of Life 2024-01-24" ;
     tcs:accordingTo <https://doi.org/10.48580/dfrdl> ;
     tcs:taxonName: [ a tcs:TaxonName ;
-            tcs:taxonNameString: "Panthera" ;
+            tcs:nameString: "Panthera" ;
             dwc:scientificNameAuthorship: "Oken, 1816" ] .
 
 <https://www.catalogueoflife.org/data/taxon/4CGXP> a tcs:TaxonConcept ;
     dcterms:title "Panthera leo sec. Catalogue of Life 2024-01-24" ;
     tcs:accordingTo <https://doi.org/10.48580/dfrdl> ;
     tcs:taxonName: [ a tcs:TaxonName ;
-            tcs:taxonNameString: "Panthera leo" ;
+            tcs:nameString: "Panthera leo" ;
             dwc:scientificNameAuthorship: "(Linnaeus, 1758)" ] ;
     tcs:parent <https://www.catalogueoflife.org/data/taxon/6DBT> .
 
@@ -679,7 +679,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
     dcterms:title "Panthera onca sec. Catalogue of Life 2024-01-24" ;
     tcs:accordingTo <https://doi.org/10.48580/dfrdl> ;
     tcs:taxonName: [ a tcs:TaxonName ;
-            tcs:taxonNameString: "Panthera onca" ;
+            tcs:nameString: "Panthera onca" ;
             dwc:scientificNameAuthorship: "(Linnaeus, 1758)" ] ;
     tcs:parent <https://www.catalogueoflife.org/data/taxon/6DBT> .
 
@@ -687,7 +687,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
     dcterms:title "Panthera pardus sec. Catalogue of Life 2024-01-24" ;
     tcs:accordingTo <https://doi.org/10.48580/dfrdl> ;
     tcs:taxonName: [ a tcs:TaxonName ;
-            tcs:taxonNameString: "Panthera pardus" ;
+            tcs:nameString: "Panthera pardus" ;
             dwc:scientificNameAuthorship: "(Linnaeus, 1758)" ] ;
     tcs:parent <https://www.catalogueoflife.org/data/taxon/6DBT> .
 
@@ -695,7 +695,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
     dcterms:title "Panthera tigris sec. Catalogue of Life 2024-01-24" ;
     tcs:accordingTo <https://doi.org/10.48580/dfrdl> ;
     tcs:taxonName: [ a tcs:TaxonName ;
-            tcs:taxonNameString: "Panthera tigris" ;
+            tcs:nameString: "Panthera tigris" ;
             dwc:scientificNameAuthorship: "(Linnaeus, 1758)" ] ;
     tcs:parent <https://www.catalogueoflife.org/data/taxon/6DBT> .
 ```
@@ -749,7 +749,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
     dcterms:title "Panthera sec. Catalogue of Life 2024-01-24" ;
     tcs:accordingTo <https://doi.org/10.48580/dfrdl> ;
     tcs:taxonName: [ a tcs:TaxonName ;
-            tcs:taxonNameString: "Panthera" ;
+            tcs:nameString: "Panthera" ;
             dwc:scientificNameAuthorship: "Oken, 1816" ]  ;
     tcs:child <https://www.catalogueoflife.org/data/taxon/4CGXP> ,
             <https://www.catalogueoflife.org/data/taxon/4CGXQ> ,
@@ -760,28 +760,28 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
     dcterms:title "Panthera leo sec. Catalogue of Life 2024-01-24" ;
     tcs:accordingTo <https://doi.org/10.48580/dfrdl> ;
     tcs:taxonName: [ a tcs:TaxonName ;
-            tcs:taxonNameString: "Panthera leo" ;
+            tcs:nameString: "Panthera leo" ;
             dwc:scientificNameAuthorship: "(Linnaeus, 1758)" ] .
 
 <https://www.catalogueoflife.org/data/taxon/4CGXQ> a tcs:TaxonConcept ;
     dcterms:title "Panthera onca sec. Catalogue of Life 2024-01-24" ;
     tcs:accordingTo <https://doi.org/10.48580/dfrdl> ;
     tcs:taxonName: [ a tcs:TaxonName ;
-            tcs:taxonNameString: "Panthera onca" ;
+            tcs:nameString: "Panthera onca" ;
             dwc:scientificNameAuthorship: "(Linnaeus, 1758)" ] .
 
 <https://www.catalogueoflife.org/data/taxon/4CGXR> a tcs:TaxonConcept ;
     dcterms:title "Panthera pardus sec. Catalogue of Life 2024-01-24" ;
     tcs:accordingTo <https://doi.org/10.48580/dfrdl> ;
     tcs:taxonName: [ a tcs:TaxonName ;
-            tcs:taxonNameString: "Panthera pardus" ;
+            tcs:nameString: "Panthera pardus" ;
             dwc:scientificNameAuthorship: "(Linnaeus, 1758)" ] .
 
 <https://www.catalogueoflife.org/data/taxon/4CGXS> a tcs:TaxonConcept ;
     dcterms:title "Panthera tigris sec. Catalogue of Life 2024-01-24" ;
     tcs:accordingTo <https://doi.org/10.48580/dfrdl> ;
     tcs:taxonName: [ a tcs:TaxonName ;
-            tcs:taxonNameString: "Panthera tigris" ;
+            tcs:nameString: "Panthera tigris" ;
             dwc:scientificNameAuthorship: "(Linnaeus, 1758)" ] .
 ```
 
@@ -1286,7 +1286,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		</tr>
 		<tr>
 			<td>Usage</td>
-			<td><p><code>scientificName</code> can be used in addition to the <code>taxonName</code> property on a Taxon Concept or the <code>taxonNameString</code> property on a Taxon Name.</p></td>
+			<td><p><code>scientificName</code> can be used in addition to the <code>taxonName</code> property on a Taxon Concept or the <code>nameString</code> property on a Taxon Name.</p></td>
 		</tr>
 		<tr>
 			<td></td>
@@ -1747,7 +1747,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		</tr>
 		<tr>
 			<td>Usage</td>
-			<td><p>A TCS Taxon Name requires either a <code>taxonNameString</code> or  <code>dwc:scientificName</code>.</p></td>
+			<td><p>A TCS Taxon Name requires either a <code>nameString</code> or  <code>dwc:scientificName</code>.</p></td>
 		</tr>
 		<tr>
 			<td>Comments</td>
@@ -1759,7 +1759,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 
 ```turtle
 <urn:lsid:zoobank.org:act:355AAA50-D89F-466E-A216-96B7A17D5AD4> a tcs:TaxonName ;
-    tcs:taxonNameString "Carabus nitens" ;
+    tcs:nameString "Carabus nitens" ;
     dwc:scientificNameAuthorship "Linnaeus, 1758" .
 ```
 
@@ -1784,13 +1784,13 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 	</tbody>
 </table>
 
-#### tcs:taxonNameString
+#### tcs:nameString
 
 <table style="width:100%;">
 	<tbody>
 		<tr>
 			<td>Identifier</td>
-			<td>http://rs.tdwg.org/tcs/terms/taxonNameString</td>
+			<td>http://rs.tdwg.org/tcs/terms/nameString</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -1806,7 +1806,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		</tr>
 		<tr>
 			<td>Usage</td>
-			<td><p><code>taxonNameString</code> is a literal. Either <code>taxonomicNameString</code> or  <code>dwc:scientificName</code> is required on a TCS Taxon Name and a Taxon Name can  have only one of either.</p></td>
+			<td><p><code>nameString</code> is a literal. Either <code>taxonomicNameString</code> or  <code>dwc:scientificName</code> is required on a TCS Taxon Name and a Taxon Name can  have only one of either.</p></td>
 		</tr>
 		<tr>
 			<td></td>
@@ -1814,7 +1814,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		</tr>
 		<tr>
 			<td>Comments</td>
-			<td><p>The <code>taxonNameString</code> property differs from the <code>scientificName</code> property  in Darwin Core in that all kinds of names are allowed. Also, in the case of  scientific names, contrary to the <code>dwc:scientificName</code>, <code>taxonNameString</code>  does not include the authorship. In botanical names, it does include the  rank prefixes for infrageneric and infraspecific epithets as they are  considered part of the name.</p></td>
+			<td><p>The <code>nameString</code> property differs from the <code>scientificName</code> property  in Darwin Core in that all kinds of names are allowed. Also, in the case of  scientific names, contrary to the <code>dwc:scientificName</code>, <code>nameString</code>  does not include the authorship. In botanical names, it does include the  rank prefixes for infrageneric and infraspecific epithets as they are  considered part of the name.</p></td>
 		</tr>
 		<tr>
 			<td>GitHub issue</td>
@@ -2013,7 +2013,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 
 ```turtle
 <https://ipni.org/n/105731-1> a tcs:TaxonName ;
-    tcs:taxonNameString "Begonia seychellensis" ;
+    tcs:nameString "Begonia seychellensis" ;
     dwc:scientificNameAuthorship "Hemsl." ;
     dwc:namePublishedIn "J. Bot. 54(Suppl. 2): 15 (1916)" ;
     tcs:typification [ a tcs:NomenclaturalType ;
@@ -2156,14 +2156,14 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 ```turtle
 <https://id.biodiversity.org.au/name/apni/166271> a tcs:TaxonName ;
     rdf:seeAlso <https://ipni.org/n/17571690-1> ;
-    tcs:taxonNameString "Doodia australis" ;
+    tcs:nameString "Doodia australis" ;
     dwc:scientificNameAuthorship "(Parris) Parris" ;
     dwc:namePublishedIn "Fl. Australia 48: 710 (1998)" ;
     tcs:basionym <https://id.biodiversity.org.au/name/apni/117170> .
 
 <https://id.biodiversity.org.au/name/apni/117170> a tcs:TaxonName ;
     rdf:seeAlso <https://ipni.org/n/17567870-1> ;
-    tcs:taxonNameString "Doodia media subsp. australis" ;
+    tcs:nameString "Doodia media subsp. australis" ;
     dwc:scientificNameAuthorship "Parris" ;
     dwc:namePublishedIn "New Zealand J. Bot. 10(4): 593 (1972)" .
 ```
@@ -2221,28 +2221,28 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 
 ```turtle
 <https://www.tropicos.org/name/35183593> a tcs:TaxonName ;
-    tcs:taxonNameString "Dicranum bartramianum" ;
+    tcs:nameString "Dicranum bartramianum" ;
     dwc:scientificNameAuthorship "B.H.Allen" ;
     dwc:namePublishedIn "Cryptog. Bryol. Lichénol. 8: 323" ;
     dwc:namePublishedInYear "1987" ;
     tcs:replacedName <https://www.tropicos.org/name/35120798> .
 
 <https://www.tropicos.org/name/35120798> a tcs:TaxonName ;
-    tcs:taxonNameString "Dicnemon robustum" ;
+    tcs:nameString "Dicnemon robustum" ;
     dwc:scientificNameAuthorship "E.B.Bartram" ;
     dwc:namePublishedIn "Bryologist 48: 112" ;
     dwc:namePublishedInYear "1945" .
 
 # blocking name
 <https://www.tropicos.org/name/35124067> a tcs:TaxonName ;
-    tcs:taxonNameString "Dicranum robustum" ;
+    tcs:nameString "Dicranum robustum" ;
     dwc:scientificNameAuthorship "Hook.f. & Wilson" ;
     dwc:namePublishedIn "London J. Bot. 3: 542" ;
     dwc:namePublishedInYear "1844" .
 
 # combination of Dicnemon robustum
 <https://www.tropicos.org/name/35162373> a tcs:TaxonName ;
-    tcs:taxonNameString "Eucamptodon robustum" ;
+    tcs:nameString "Eucamptodon robustum" ;
     dwc:scientificNameAuthorship "(E.B.Bartram) E.B.Bartram" ;
     dwc:namePublishedIn "Brittonia 11: 88" ;
     dwc:namePublishedInYear "1959" ;
@@ -2250,7 +2250,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 
 # combination of Dicranum bartramianum
 <https://www.tropicos.org/name/35204723> a tcs:TaxonName ;
-    tcs:taxonNameString "Dicranoloma bartramianum" ;
+    tcs:nameString "Dicranoloma bartramianum" ;
     dwc:scientificNameAuthorship "(B.H.Allen) Klazenga" ;
     dwc:namePublishedIn "J. Hattory Bot. Lab. 87: 57" ;
     dwc:namePublishedInYear "1999" ;
@@ -2394,19 +2394,19 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 
 ```turtle
 <https://www.tropicos.org/name/35000378> a tcs:TaxonName ;
-    tcs:taxonNameString "Dicranoloma" ;
+    tcs:nameString "Dicranoloma" ;
     dwc:scientificNameAuthorship "(Renauld) Renauld" ;
     tcs:namePublishedInYear "1909" ;
     tcs:conservedAgainst <https://www.tropicos.org/name/35000771> ,
             <https://www.tropicos.org/name/35000146> .
 
 <https://www.tropicos.org/name/35000771> a tcs:TaxonName ;
-    tcs:taxonNameString "Megalostylium" ;
+    tcs:nameString "Megalostylium" ;
     dwc:scientificNameAuthorship "Dozy & Molk." ;
     dwc:namePublishedInYear "1848" . 
 
 <https://www.tropicos.org/name/35000146> a tcs:TaxonName ;
-    tcs:taxonNameString "Braunfelsia" ;
+    tcs:nameString "Braunfelsia" ;
     dwc:scientificNameAuthorship "Paris" ;
     dwc:namePublishedInYear "1894" .
 ```
@@ -2461,7 +2461,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 
 ```turtle
 <https://ipni.org/n/316069-1> a tcs:TaxonName ;
-    tcs:taxonNameString "Rafflesia arnoldi" ;
+    tcs:nameString "Rafflesia arnoldi" ;
     dwc:scientificNameAuthorship "R.Br." ;
     tcs:combinationAuthor <https://ipni.org/a/1192-1> ;
     tcs:combinationAuthorLiteral "R.Br." .
@@ -2560,7 +2560,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 
 ```turtle
 <https://tropicos.org/name/35121611> a tcs:taxonName ;
-    tcs:taxonNameString "Dicranoloma robustum" ;
+    tcs:nameString "Dicranoloma robustum" ;
     dwc:scientificNameAuthorship "(Hook.f. & Wilson) Paris" ;
     tcs:combinationAuthor <https://tropicos.org/person/2011> ;
     tcs:combinationAuthorLiteral "Paris" 
@@ -2569,7 +2569,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
     tcs:basionym <https://tropicos.org/name/35124067> .
 
 <https://tropicos.org/name/35124067> a tcs:TaxonName ;
-    tcs:taxonNameString "Dicranum robustum" ;
+    tcs:nameString "Dicranum robustum" ;
     dwc:scientificNameAuthorship ;
     tcs:combinationAuthor _:b1 ;
     tcs:combinationAuthorLiteral "Hook.f. & Wilson" .
@@ -2680,7 +2680,7 @@ _:b1 a rdf:Seq ;
 
 ```turtle
 <https://tropicos.org/name/35153928> a tcs:TaxonName ;
-    tcs:taxonNameString "Calymperes serratum" ;
+    tcs:nameString "Calymperes serratum" ;
     dwc:scientificNameAuthorship "A.Braun ex Müll.Hal." ;
     tcs:combinationAuthor <https://tropicos.org/person/2> ;
     tcs:combinationAuthorLiteral "Müll.Hal." ;
@@ -2785,7 +2785,7 @@ _:b1 a rdf:Seq ;
 
 ```turtle
 <https://ipni.org/n/3007069-1> a tcs:TaxonName ;
-    tcs:taxonNameString "Senna artemisioides" ;
+    tcs:nameString "Senna artemisioides" ;
     dwc:scientificNameAuthorship "(Gaudich. ex DC.) Isely)" ;
     tcs:combinationAuthor <https://ipni.org/a/4317-1> ;
     tcs:combinationAuthorLiteral "Isely" ;
@@ -2796,7 +2796,7 @@ _:b1 a rdf:Seq ;
     tcs:basionym <https://ipni.org/n/484142-1> .
 
 <https://ipni.org/n/484142-1> a tcs:TaxonName ;
-    tcs:taxonNameString "Cassia artemisioides" ;
+    tcs:nameString "Cassia artemisioides" ;
     dwc:scientificNameAuthorship "Gaudich. ex DC." ;
     tcs:combinationAuthor <https://ipni.org/a/16855-1> ;
     tcs:combinationAuthorLiteral "DC." ;
@@ -2889,7 +2889,7 @@ _:b1 a rdf:Seq ;
 		</tr>
 		<tr>
 			<td>Usage</td>
-			<td><p><code>scientificNameAuthorship</code> can be used if the <code>taxonNameString</code> is a  scientific name.</p></td>
+			<td><p><code>scientificNameAuthorship</code> can be used if the <code>nameString</code> is a  scientific name.</p></td>
 		</tr>
 		<tr>
 			<td></td>
@@ -3207,11 +3207,11 @@ _:b1 a rdf:Seq ;
 
 # name used in TaxonName examples; more data there
 <https://ipni.org/n/50985479-1> a tcs:TaxonName ;
-    tcs:taxonNameString "Rhododendron sect. Sciadorhodion" ;
+    tcs:nameString "Rhododendron sect. Sciadorhodion" ;
     dwc:scientificNameAuthorship "Rehder & Wilson" .
 
 <https://ipni.org/n/333193-1> a tcs:TaxonName ;
-    tcs:taxonNameString "Rhododendron quinquefolium" ;
+    tcs:nameString "Rhododendron quinquefolium" ;
     dwc:scientificNameAuthorship "Bisset & S.Moore" .
 ```
 

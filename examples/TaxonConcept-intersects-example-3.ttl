@@ -7,14 +7,14 @@
     dcterms:title "Megalorhipida leucodactylus sec. Gielis & Hobern 2023-01-05" ;
     tcs:accordingTo <https://doi.org/10.48580/dfry-3gd#1.1.23.5> ;
     tcs:taxonName [ a tcs:TaxonName ;
-            tcs:taxonNameString "Megalorhipida leucodactylus" ;
+            tcs:nameString "Megalorhipida leucodactylus" ;
             dwc:scientificNameAuthorship "(Fabricius, 1794)" ;
             tcs:basionym <https://zoobank.org/NomenclaturalActs/39b2f236-3914-4962-9dcc-f594671654bd> ] ;
     tcs:intersects [ a tcs:TaxonConcept ;
             dcterms:title "Pterophorus congrualis sec. Walker 1864" ;
             tcs:accordingTo <https://www.biodiversitylibrary.org/page/38948425> ;
             tcs:taxonName [ a tcs:TaxonName ;
-                    tcs:taxonNameString "Pterophorus congrualis" ;
+                    tcs:nameString "Pterophorus congrualis" ;
                     dwc:scientificNameAuthorship "Walker, 1864" ] ] ,
         [ a tcs:TaxonConcept ;
             dcterms:title "Pterophorus leucodactylus sec. Gielis & al. 2022" ;

@@ -13,7 +13,7 @@
             dcterms:language "nl" ] .
 
 <https://ipni.org/n/304293-2> a tcs:TaxonName ;
-    tcs:taxonNameString "Quercus robur" .
+    tcs:nameString "Quercus robur" .
 
 <urn:isbn:978-90-01-58956-1> a bibo:Book ;
     dcterms:bibliographicCitation """Duistermaat, H. (2020). Heukels 

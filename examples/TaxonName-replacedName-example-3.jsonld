@@ -4,7 +4,7 @@
     {
       "id": "https://ipni.org/n/17567870-1",
       "type": "TaxonName",
-      "taxonNameString": "Doodia media subsp. australis",
+      "nameString": "Doodia media subsp. australis",
       "dwc:scientificNameAuthorship": "Parris",
       "dwc:namePublishedIn": "New Zealand J. Bot. 10(4): 593",
       "dwc:namePublishedInYear": "1972",
@@ -16,7 +16,7 @@
     {
       "id": "https://ipni.org/n/17571690-1",
       "type": "TaxonName",
-      "taxonNameString": "Doodia australis",
+      "nameString": "Doodia australis",
       "dwc:scientiticNameAuthorship": "(Parris) Parris",
       "dwc:namePublishedIn": "Fl. Australia 48: 710",
       "dwc:namePublishedInYear": "1998",
@@ -26,7 +26,7 @@
     {
       "id": "https://ipni.org/n/77110594-1",
       "type": "TaxonName",
-      "taxonNameString": "Blechnum parrisiae",
+      "nameString": "Blechnum parrisiae",
       "dwc:scientificNameAuthorship": "Christenh.",
       "dwc:namePublishedIn": "2011",
       "replacedName": { "id": "https://ipni.org/n/17567870-1" },

@@ -71,7 +71,7 @@
           "taxonName": {
             "id": "https://ipni.org/n/703183-1",
             "type": "TaxonName",
-            "taxonNameString": "Banksia serrata",
+            "nameString": "Banksia serrata",
             "dwc:scientificNameAuthorship": "L.f.",
             "dwc:namePublishedIn": "Suppl. Pl. 126",
             "dwc:namePublishedInYear": "1782"

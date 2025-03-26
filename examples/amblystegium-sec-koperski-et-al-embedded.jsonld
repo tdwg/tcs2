@@ -297,7 +297,7 @@
     {
       "id": "https://www.tropicos.org/name/35000039",
       "type": "TaxonName",
-      "taxonNameString": "Amblystegiella",
+      "nameString": "Amblystegiella",
       "dwc:scientificNameAuthorship": "Loeske",
       "dwc:namePublishedIn": "Moosfl. Harz.: 294 (1903)",
       "nomenclaturalStatus": "http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/superfluum"
@@ -307,12 +307,12 @@
       "type": "TaxonName",
       "dwc:namePublishedIn": "Bryol. Eur. 6: 45 (1853)",
       "dwc:scientificNameAuthorship": "Schimp.",
-      "taxonNameString": "Amblystegium"
+      "nameString": "Amblystegium"
     },
     {
       "id": "https://www.tropicos.org/name/35102672",
       "type": "TaxonName",
-      "taxonNameString": "Amblystegium sect. Leptodictyum",
+      "nameString": "Amblystegium sect. Leptodictyum",
       "dwc:scientificNameAuthorship": "(Schimp.) Mönk.",
       "dwc:namePublishedIn": "Laubm. Eur.: 730 (1927)",
       "basionym": "https://www.tropicos.org/name/35102656"
@@ -320,28 +320,28 @@
     {
       "id": "https://www.tropicos.org/name/35102656",
       "type": "TaxonName",
-      "taxonNameString": "Amblystegium subg. Leptodictyum",
+      "nameString": "Amblystegium subg. Leptodictyum",
       "dwc:scientificNameAuthorship": "Schimp.",
       "dwc:namePublishedIn": "Syn. Musc. Eur.: 595 (1860)"
     },
     {
       "id": "https://www.tropicos.org/name/35102679",
       "type": "TaxonName",
-      "taxonNameString": "Amblystegium sect. Serpoleskea",
+      "nameString": "Amblystegium sect. Serpoleskea",
       "dwc:scientificNameAuthorship": "(Limpr.) Mönk.",
       "dwc:namePublishedIn": "Laubm. Eur.: 730 (1927)"
     },
     {
       "id": "https://www.tropicos.org/name/35000207",
       "type": "TaxonName",
-      "taxonNameString": "Campyliadelphus",
+      "nameString": "Campyliadelphus",
       "dwc:scientificNameAuthorship": "(Kindb.) R.S.Chopra",
       "dwc:namePublishedIn": "Taxon. Indian Mosses: 442 (1975)"
     },
     {
       "id": "https://www.tropicos.org/name/35000208",
       "type": "TaxonName",
-      "taxonNameString": "Campylium",
+      "nameString": "Campylium",
       "dwc:scientificNameAuthorship": "(Sull.) Mitt.",
       "basionym": "https://www.tropicos.org/name/35101380",
       "dwc:namePublishedIn": "J. Linn. Soc., Bot. 12: 631 (1809)"
@@ -349,14 +349,14 @@
     {
       "id": "https://www.tropicos.org/name/35000213",
       "type": "TaxonName",
-      "taxonNameString": "Campylophyllum",
+      "nameString": "Campylophyllum",
       "dwc:scientificNameAuthorship": "(Schimp.) M.Fleisch.",
       "dwc:namePublishedIn": "Nova Guinea 12(2): 123 (1914)"
     },
     {
       "id": "https://www.tropicos.org/name/35000256",
       "type": "TaxonName",
-      "taxonNameString": "Chrysohypnum",
+      "nameString": "Chrysohypnum",
       "dwc:scientificNameAuthorship": "G.Roth",
       "dwc:namePublishedIn": "Hedwigia 38(Beibl. 1): 6 (1899)",
       "nomenclaturalStatus": "http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/superfluum"
@@ -364,35 +364,35 @@
     {
       "id": "https://www.tropicos.org/name/35000290",
       "type": "TaxonName",
-      "taxonNameString": "Conardia",
+      "nameString": "Conardia",
       "dwc:scientificNameAuthorship": "H.Rob.",
       "dwc:namePublishedIn": "Phytologia 33: 294 (1976)"
     },
     {
       "id": "https://www.tropicos.org/name/35000413",
       "type": "TaxonName",
-      "taxonNameString": "Drepanocladus",
+      "nameString": "Drepanocladus",
       "dwc:scientificNameAuthorship": "(Müll.Hal.) G.Roth",
       "dwc:namePublishedIn": "Hedwigia 38(Beibl. 1): 6 (1899)"
     },
     {
       "id": "https://www.tropicos.org/name/35000612",
       "type": "TaxonName",
-      "taxonNameString": "Hygroamblystegium",
+      "nameString": "Hygroamblystegium",
       "dwc:scientificNameAuthorship": "Loeske",
       "dwc:namePublishedIn": "Moosfl. Harz.: 298 (1903)"
     },
     {
       "id": "https://www.tropicos.org/name/35101380",
       "type": "TaxonName",
-      "taxonNameString": "Hypnum subg. Campylium",
+      "nameString": "Hypnum subg. Campylium",
       "dwc:scientificNameAuthorship": "Sull.",
       "dwc:namePublishedIn": "Man. Bot. (A. Eaton), ed. 2: 677 (1856)"
     },
     {
       "id": "https://www.tropicos.org/name/35000692",
       "type": "TaxonName",
-      "taxonNameString": "Leptodictyum",
+      "nameString": "Leptodictyum",
       "dwc:scientificNameAuthorship": "(Schimp.) Warnst.",
       "dwc:namePublishedIn": "Krypt.-Fl. Brandenburg, Laubm. 2: 840 (1906)",
       "basionym": "https://www.tropicos.org/name/35102656"
@@ -400,14 +400,14 @@
     {
       "id": "https://www.tropicos.org/name/35000970",
       "type": "TaxonName",
-      "taxonNameString": "Platydictya",
+      "nameString": "Platydictya",
       "dwc:scientificNameAuthorship": "Berk.",
       "dwc:namePublishedIn": "Handb. Brit. Mosses: 145 (1863)"
     },
     {
       "id": "https://www.tropicos.org/name/35001131",
       "type": "TaxonName",
-      "taxonNameString": "Rhynchostegiella",
+      "nameString": "Rhynchostegiella",
       "dwc:scientificNameAuthorship": "(Schimp.) Limpr.",
       "dwc:namePublishedIn": "Laubm. Deutschl. 3: 207 (1896)",
       "nomenclaturalStatus": "http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/conservandum"

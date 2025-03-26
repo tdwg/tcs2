@@ -345,7 +345,7 @@
     {
       "id": "https://ipni.org/n/30001382-2",
       "type": "TaxonName",
-      "taxonNameString": "Aspleniaceae",
+      "nameString": "Aspleniaceae",
       "dwc:scientificNameAuthorship": "Newman",
       "dwc:namePublishedIn": "Hist. Brit. Ferns 6",
       "dwc:namePublishedInYear": "1840"
@@ -353,7 +353,7 @@
     {
       "id": "https://ipni.org/n/30000361-2",
       "type": "TaxonName",
-      "taxonNameString": "Athyriaceae",
+      "nameString": "Athyriaceae",
       "dwc:scientificNameAuthorship": "Alston",
       "dwc:namePublishedIn": "Taxon 5: 25",
       "dwc:namePublishedInYear": "1956"
@@ -361,7 +361,7 @@
     {
       "id": "https://ipni.org/n/30002151-2",
       "type": "TaxonName",
-      "taxonNameString": "Blechnaceae",
+      "nameString": "Blechnaceae",
       "dwc:scientificNameAuthorship": "Newman",
       "dwc:namePublishedIn": "Hist. Brit. Ferns, ed. 2 8",
       "dwc:namePublishedInYear": "1844"
@@ -372,12 +372,12 @@
       "dwc:namePublishedIn": "Turczaninowia 4(1-2): 60",
       "dwc:namePublishedInYear": "2001",
       "dwc:scientificNameAuthorship": "(Payer) Shmakov",
-      "taxonNameString": "Cystopteridaceae"
+      "nameString": "Cystopteridaceae"
     },
     {
       "id": "https://ipni.org/n/17434830-1",
       "type": "TaxonName",
-      "taxonNameString": "Dennstaedtiaceae",
+      "nameString": "Dennstaedtiaceae",
       "dwc:scientificNameAuthorship": "Pic.Serm.",
       "dwc:namePublishedIn": "Webbia 24(2): 704",
       "dwc:namePublishedInYear": "1970"
@@ -388,12 +388,12 @@
       "dwc:namePublishedIn": "Phytotaxa 19: 15",
       "dwc:namePublishedInYear": "2011",
       "dwc:scientificNameAuthorship": "X.C.Zhang & Christenh.",
-      "taxonNameString": "Diplaziopsidaceae"
+      "nameString": "Diplaziopsidaceae"
     },
     {
       "id": "https://ipni.org/n/30014148-2",
       "type": "TaxonName",
-      "taxonNameString": "Dryopteridaceae",
+      "nameString": "Dryopteridaceae",
       "dwc:scientificNameAuthorship": "Herter",
       "dwc:namePublishedIn": "Revista Sudamer. Bot. 9: 15",
       "dwc:namePublishedInYear": "1949"
@@ -401,7 +401,7 @@
     {
       "id": "https://ipni.org/n/77114955-1",
       "type": "TaxonName",
-      "taxonNameString": "Hemidictyaceae",
+      "nameString": "Hemidictyaceae",
       "dwc:scientificNameAuthorship": "Christenh. & H.Schneid.",
       "dwc:namePublishedIn": "Phytotaxa 28: 51",
       "dwc:namePublishedInYear": "2011"
@@ -409,7 +409,7 @@
     {
       "id": "https://ipni.org/n/17446060-1",
       "type": "TaxonName",
-      "taxonNameString": "Onocleaceae",
+      "nameString": "Onocleaceae",
       "dwc:scientificNameAuthorship": "Pic.Serm.",
       "dwc:namePublishedIn": "Webbia 24(2): 708",
       "dwc:namePublishedInYear": "1970"
@@ -417,7 +417,7 @@
     {
       "id": "https://ipni.org/n/17436290-1",
       "type": "TaxonName",
-      "taxonNameString": "Onocleoideae",
+      "nameString": "Onocleoideae",
       "dwc:scientificNameAuthorship": "B.K.Nayar",
       "dwc:namePublishedIn": "Taxon 19: 235",
       "dwc:namePublishedInYear": "1970"
@@ -425,7 +425,7 @@
     {
       "id": "https://ipni.org/n/77110539-1",
       "type": "TaxonName",
-      "taxonNameString": "Rhachidosoraceae",
+      "nameString": "Rhachidosoraceae",
       "dwc:scientificNameAuthorship": "X.C.Zhang",
       "dwc:namePublishedIn": "Phytotaxa 19: 16",
       "dwc:namePublishedInYear": "2011"
@@ -433,7 +433,7 @@
     {
       "id": "https://ipni.org/n/30000455-2",
       "type": "TaxonName",
-      "taxonNameString": "Thelypteridaceae",
+      "nameString": "Thelypteridaceae",
       "dwc:scientificNameAuthorship": "Pic.Serm.",
       "dwc:namePublishedIn": "Webbia 24(2): 709",
       "dwc:namePublishedInYear": "1970"
@@ -441,7 +441,7 @@
     {
       "id": "https://ipni.org/n/60456504-2",
       "type": "TaxonName",
-      "taxonNameString": "Woodsiaceae",
+      "nameString": "Woodsiaceae",
       "dwc:scientificNameAuthorship": "Herter",
       "dwc:namePublishedIn": "Revista Sudamer. Bot. 9: 14",
       "dwc:namePublishedInYear": "1949"

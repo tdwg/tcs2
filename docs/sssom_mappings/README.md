@@ -169,7 +169,7 @@
 | skos:closeMatch | http://openbiodiv.net/TaxonomicName |  |
 | skos:broadMatch | http://www.w3.org/2008/05/skos-xl#Label | The TaxonName is a special kind of SKOSXL Label |
 
-### tcs:taxonNameString
+### tcs:nameString
 
 | predicate | IRI or XPATH | remarks |
 |-|-|-|

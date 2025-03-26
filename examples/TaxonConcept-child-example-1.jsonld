@@ -6,7 +6,7 @@
   "accordingTo": { "@id": "https://doi.org/10.48580/dfrdl" },
   "taxonName": {
   "type": "TaxonName",
-    "taxonNameString": "Panthera",
+    "nameString": "Panthera",
     "dwc:scientificNameAuthorship": "Oken, 1816"
   },
   "children": {
@@ -18,7 +18,7 @@
         "accordingTo": { "@id": "https://doi.org/10.48580/dfrdl" },
         "taxonName": {
 					"type": "TaxonName",
-					"taxonNameString": "Panthera leo",
+					"nameString": "Panthera leo",
 					"dwc:scientificNameAuthorship": "(Linnaeus, 1758)"
 				} 
       },
@@ -29,7 +29,7 @@
         "accordingTo": { "@id": "https://doi.org/10.48580/dfrdl" },
         "taxonName": {
 					"type": "TaxonName",
-					"taxonNameString": "Panthera onca",
+					"nameString": "Panthera onca",
 					"dwc:scientificNameAuthorship": "(Linnaeus, 1758)"
 				} 
       },
@@ -40,7 +40,7 @@
         "accordingTo": { "@id": "https://doi.org/10.48580/dfrdl" },
         "taxonName": {
 					"type": "TaxonName",
-					"taxonNameString": "Panthera pardus",
+					"nameString": "Panthera pardus",
 					"dwc:scientificNameAuthorship": "(Linnaeus, 1758)"
 				} 
       },
@@ -51,7 +51,7 @@
         "accordingTo": { "@id": "https://doi.org/10.48580/dfrdl" },
         "taxonName": {
 					"type": "TaxonName",
-					"taxonNameString": "Panthera tigris",
+					"nameString": "Panthera tigris",
 					"dwc:scientificNameAuthorship": "(Linnaeus, 1758)"
 				} 
       }

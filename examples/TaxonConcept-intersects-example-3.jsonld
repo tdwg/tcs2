@@ -6,7 +6,7 @@
   "accordingTo": "https://doi.org/10.48580/dfry-3gd#1.1.23.5",
   "taxonName": { 
     "type": "TaxonName",
-    "taxonNameString": "Megalorhipida leucodactylus",
+    "nameString": "Megalorhipida leucodactylus",
     "dwc:scientificNameAuthorship": "(Fabricius, 1794)",
     "basionym": "https://zoobank.org/NomenclaturalActs/39b2f236-3914-4962-9dcc-f594671654bd"
   },
@@ -17,7 +17,7 @@
       "accordingTo": "https://www.biodiversitylibrary.org/page/38948425",
       "taxonName": {
         "type": "TaxonName",
-        "taxonNameString": "Pterophorus congrualis",
+        "nameString": "Pterophorus congrualis",
         "dwc:scientificNameAuthorship": "Walker, 1864"
       }
     },

@@ -9,7 +9,7 @@
     tcs:taxonName <https://www.tropicos.org/name/35121475> .
 
 <https://www.tropicos.org/name/35121475> a tcs:TaxonName ;
-    tcs:taxonNameString "Dicranoloma blumei" ;
+    tcs:nameString "Dicranoloma blumei" ;
     dwc:scientificNameAuthorship "(Nees) Renauld" .
 
 <https://www.tropicos.org/reference/9020903> a bibo:AcademicArticle ;

@@ -4,7 +4,7 @@
     {
       "id": "https://ipni.org/n/471632-1",
       "type": "TaxonName",
-      "taxonNameString": "Acacia tenuifolia",
+      "nameString": "Acacia tenuifolia",
       "dwc:scientificNameAuthorship": "F.Muell.",
       "dwc:namePublishedIn": "Trans. Philos. Soc. Victoria 1: 37",
       "dwc:namePublishedInYear": "1855",
@@ -17,7 +17,7 @@
     {
       "id": "https://ipni.org/n/469641-1",
       "type": "TaxonName",
-      "taxonNameString": "Acacia aculeatissima",
+      "nameString": "Acacia aculeatissima",
       "dwc:scientiticNameAuthorship": "J.F.Macbr.",
       "dwc:namePublishedIn": "Contr. Gray Herb. 59: 6",
       "dwc:namePublishedInYear": "1919",
@@ -30,7 +30,7 @@
     {
       "id": "https://ipni.org/n/60428094-2",
       "type": "TaxonName",
-      "taxonNameString": "Racosperma aculeatissimum",
+      "nameString": "Racosperma aculeatissimum",
       "dwc:scientificNameAuthorship": "(J.F.Macbr.) Pedley",
       "dwc:namePublishedIn": "2011",
       "replacedName": { "id": "https://ipni.org/n/17567870-1" },

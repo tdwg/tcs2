@@ -87,7 +87,7 @@
           "dcterms:title": "Circus cyaneus cyaneus sec. Howard & Moore 2013",
           "taxonName": {
             "type": "TaxonName",
-            "taxonNameString": "Circus cyaneus cyaneus"
+            "nameString": "Circus cyaneus cyaneus"
           }
         }
       ]
@@ -128,7 +128,7 @@
           "accordingTo": "_:ref4",
           "taxonName": {
             "type": "TaxonName",
-            "taxonNameString": "Circus cyaneus hudsonius",
+            "nameString": "Circus cyaneus hudsonius",
             "dwc:scientificNameAuthorship": "(Linnaeus 1766)"
           }
         }
@@ -139,13 +139,13 @@
       "id": "_:tn1",
       "type": "TaxonName",
       "dwc:scientificNameAuthorship": "(Linnaeus 1766)",
-      "taxonNameString": "Circus cyaneus"
+      "nameString": "Circus cyaneus"
     },
     {
       "id": "_:tn2",
       "type": "TaxonName",
       "dwc:scientificNameAuthorship": "(Linnaeus 1766)",
-      "taxonNameString": "Circus hudsonius"
+      "nameString": "Circus hudsonius"
     },
     
 

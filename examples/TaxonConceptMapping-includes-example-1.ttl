@@ -16,9 +16,9 @@
         tcs:accordingTo <http://www.herbarium.unc.edu/FloraArchives/WeakleyFlora_2006-Jan.pdf> ] .
 
 <https://ipni.org/n/12850-2> a tcs:TaxonName ;
-    tcs:taxonNameString "Andropogon glomeratus" ;
+    tcs:nameString "Andropogon glomeratus" ;
     dwc:scientificNameAuthorship "Britton, Sterns & Poggenb." .
 
 <https://ipni.org/n/13093-2> a tcs:TaxonName ;
-    tcs:taxonNameString "Andropogon tenuispatheus" ;
+    tcs:nameString "Andropogon tenuispatheus" ;
     dwc:scientificNameAuthorship "Nash" .

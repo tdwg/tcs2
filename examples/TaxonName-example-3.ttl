@@ -2,6 +2,6 @@
 @prefix dwc: <http://rs.tdwg.org/dwc/terms/> .
 
 <http://www.indexfungorum.org/names/NamesRecord.asp?RecordID=178962> a tcs:TaxonName ;
-    tcs:taxonNameString "Amanita phalloides" ;
+    tcs:nameString "Amanita phalloides" ;
     dwc:scientificNameAuthorship "(Vaill. ex Fr.) Link" ;
     dwc:namePublishedIn "Handb. Erk. Gew. 3: 272 (1833)" .

@@ -13,40 +13,40 @@
             <https://www.tropicos.org/name/35188177> .
 
 <https://www.tropicos.org/name/35121475> a tcs:TaxonName ;
-    tcs:taxonNameString "Dicranoloma blumei" ;
+    tcs:nameString "Dicranoloma blumei" ;
     dwc:scientificNameAuthorship "(Nees) Renauld" ;
     dwc:namePublishedIn "Rev. Bryol. 28(4): 69 (1901)" ;
     tcs:basionym <https://www.tropicos.org/name/35121972> .
 
 <https://www.tropicos.org/name/35121972> a tcs:TaxonName ;
-    tcs:taxonNameString "Dicranum blumei" ;
+    tcs:nameString "Dicranum blumei" ;
     dwc:scientificNameAuthorship "Nees" ; 
     dwc:namePublishedIn """Nova Acta Phys.-Med. Acad. Caes. Leop.-Carol. Nat. 
             Cur. 11(1): 131 (1823)""" .
 
 <https://www.tropicos.org/name/35154856> a tcs:TaxonName ;
-    tcs:taxonNameString "Leucoloma blumei" ;
+    tcs:nameString "Leucoloma blumei" ;
     dwc:scientificNameAuthorship "(Nees) Broth." ; 
     dwc:namePublishedIn "Nat. Pflanzenfam. I(3): 322 (1901)" ;
     tcs:basionym <https://www.tropicos.org/name/35121972> .
 
 <https://www.tropicos.org/name/35121973> a tcs:TaxonName ;
-    tcs:taxonNameString "Dicranum blumei var. laxifolium" ;
+    tcs:nameString "Dicranum blumei var. laxifolium" ;
     dwc:scientificNameAuthorship "Broth. & Geh." ;
     dwc:namePublishedIn "Biblioth. Bot. 44: 4 (1898)" .
 
 <https://www.tropicos.org/name/35121477> a tcs:TaxonName ;
-    tcs:taxonNameString "Dicranoloma blumei var. papillisetum" ;
+    tcs:nameString "Dicranoloma blumei var. papillisetum" ;
     dwc:scientificNameAuthorship "M. Fleisch." ;
     dwc:namePublishedIn "Nova Guinea 12(2): 112 (1914)" .
 
 <https://www.tropicos.org/name/35188177> a tcs:TaxonName ;
-    tcs:taxonNameString "Dicranoloma blumei f. subintegrum" ;
+    tcs:nameString "Dicranoloma blumei f. subintegrum" ;
     dwc:scientificNameAuthorship "Dixon" ;
     dwc:namePublishedIn "J. Bot. 80: 4 (1942)" .
 
 <https://www.tropicos.org/name/35121484> a tcs:TaxonName ;
-    tcs:taxonNameString "Dicranoloma braunfelsioides" ;
+    tcs:nameString "Dicranoloma braunfelsioides" ;
     dwc:scientificNameAuthorship "Herzog" ;
     dwc:namePublishedIn "Hedwigia 61: 288 (1919)" . 
 

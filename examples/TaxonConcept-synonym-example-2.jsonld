@@ -6,13 +6,13 @@
   "taxonName": {
     "id": "https://ipni.org/n/803678-1",
     "type": "TaxonName",
-    "taxonNameString": "Hebe colensoi",
+    "nameString": "Hebe colensoi",
     "dwc:scientificNameAuthorship": "(Hook.f.) Cockayne",
     "dwc:namePublishedIn": "Trans. & Proc. New Zealand Inst. 60: 384 (1929)",
     "basionym": {
       "id": "https://ipni.org/n/811835-1",
       "type": "TaxonName",
-      "taxonNameString": "Veronica colensoi",
+      "nameString": "Veronica colensoi",
       "dwc:scientificNameAuthorship": "Hook.f.",
       "dwc:namePublishedIn": "Handb. N. Zeal. Fl. 209. (1864)"
     }
@@ -20,7 +20,7 @@
   "synonym": {
     "id": "https://ipni.org/n/812087-1",
     "type": "TaxonName",
-    "taxonNameString": "Veronica hillii",
+    "nameString": "Veronica hillii",
     "dwc:scientificNameAuthorship": "Colenso",
     "dwc:namePublishedIn": "Trans. & Proc. New Zealand Inst. 28: 606 (1896)"
   }

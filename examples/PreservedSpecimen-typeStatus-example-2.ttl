@@ -66,14 +66,14 @@ _:b1 a tcs:NomenclaturalType ;
     tcs:accordingTo <https://id.biodiversity.org.au/reference/apni/49840> .
 
 <https://ipni.org/n/718981-1> a tcs:TaxonName ;
-    tcs:taxonNameString "Stenanthemum coronatum" ;
+    tcs:nameString "Stenanthemum coronatum" ;
     dwc:scientificNameAuthorship "(Reissek) Reissek" ;
     dwc:namePublishedIn "Linnaea 29: 295" ;
     dwc:namePublishedInYear "1858" ;
     tcs:basionym <https://ipni.org/n/717216-1> .
 
 <https://ipni.org/n/717216-1> a tcs:TaxonName ;
-    tcs:taxonNameString "Cryptandra coronata" ;
+    tcs:nameString "Cryptandra coronata" ;
     dwc:scientificNameAuthorship "Reissek" ;
     dwc:namePublishedIn "Pl. Preiss. [J.G.C.Lehmann] 2(2-3): 288" ;
     dwc:namePublishedInYear "1848" .

@@ -49,13 +49,13 @@ _:b0 a dwc:Identification ;
     tcs:accordingTo <https://id.biodiversity.org.au/reference/apni/42942> .
 
 <https://ipni.org/n/592841-1> a tcs:TaxonName ;
-    tcs:taxonNameString "Eucalyptus crebra" ;
+    tcs:nameString "Eucalyptus crebra" ;
     dwc:scientificNameAuthorship "F.Muel." ;
     dwc:namePublishedIn "J. Proc. Linn. Soc., Bot. 3: 87" ;
     dwc:namePublishedInYear "1858" .
 
 <https://ipni.org/n/933707-1> a tcs:TaxonName ;
-    tcs:taxonNameString "Eucalyptus xanthoclada" ;
+    tcs:nameString "Eucalyptus xanthoclada" ;
     dwc:scientificNameAuthorship "Brooker & A.R.Bean" ;
     dwc:namePublishedIn "Brunonia 10(2): 193" ;
     dwc:namePublishedInYear "1987" .

@@ -6,14 +6,14 @@
       "typifiedName": {
         "id": "https://ipni.org/n/50985479-1",
         "type": "TaxonName",
-        "taxonNameString": "Rhododendron sect. Sciadorhodion",
+        "nameString": "Rhododendron sect. Sciadorhodion",
         "dwc:scientificNameAuthorship": "Rehder & Wilson"
       },
       "typeOfType": "lectotype",
       "typeName": {
         "id": "https://ipni.org/n/333193-1",
         "type": "TaxonName",
-        "taxonNameString": "Rhododendron quinquefolium",
+        "nameString": "Rhododendron quinquefolium",
         "dwc:scientificNameAuthorship": "Bisset & S.Moore"
       },
       "typePublishedIn": {
@@ -25,7 +25,7 @@
       "typifiedName": {
         "id": "https://ipni.org/n/333193-1",
         "type": "TaxonName",
-        "taxonNameString": "Rhododendron quinquefolium",
+        "nameString": "Rhododendron quinquefolium",
         "dwc:scientificNameAuthorship": "Bisset & S.Moore"
       },
       "typeOfType": "lectotype",

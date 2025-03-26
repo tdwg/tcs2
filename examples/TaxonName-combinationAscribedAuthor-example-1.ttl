@@ -3,7 +3,7 @@
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 
 <https://tropicos.org/name/35153928> a tcs:TaxonName ;
-    tcs:taxonNameString "Calymperes serratum" ;
+    tcs:nameString "Calymperes serratum" ;
     dwc:scientificNameAuthorship "A.Braun ex Müll.Hal." ;
     tcs:combinationAuthor <https://tropicos.org/person/2> ;
     tcs:combinationAuthorLiteral "Müll.Hal." ;

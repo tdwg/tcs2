@@ -5,7 +5,7 @@
   "taxonName": {
     "id": "https://www.tropicos.org/name/35121475",
     "type": "TaxonName",
-    "taxonNameString": "Dicranoloma blumei",
+    "nameString": "Dicranoloma blumei",
     "dwc:scientificNameAuthorship": "(Nees) Renauld"
   },
   "accordingTo": {

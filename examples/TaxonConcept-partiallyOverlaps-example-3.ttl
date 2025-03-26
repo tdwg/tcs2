@@ -17,5 +17,5 @@
     dcterms:source <https://doi.org/10.1111/cla.12042> .
 
 _:b1 a tcs:TaxonName ;
-    tcs:taxonNameString "Phyllotrox" ;
+    tcs:nameString "Phyllotrox" ;
     dwc:scientificNameAuthorship "Schönherr, 1843" .

@@ -2,7 +2,7 @@
   "@context": "https://raw.githubusercontent.com/tdwg/tcs2/master/examples/context.jsonld",
   "id": "https://tropicos.org/name/35121611",
   "type": "TaxonName",
-  "taxonNameString": "Dicranoloma robustum",
+  "nameString": "Dicranoloma robustum",
   "dwc:scientificNameAuthorship": "(Hook.f. & Wilson) Paris",
   "combinationAuthor": {
     "id": "https://tropicos.org/person/2011",
@@ -31,7 +31,7 @@
   "basionym": {
     "id": "https://tropicos.org/name/35124067",
     "type": "TaxonName",
-    "taxonNameString": "Dicranum robustum",
+    "nameString": "Dicranum robustum",
     "dwc:scientificNameAuthorship": "Hook.f.& Wilson",
     "combinationAuthor": {
       "@list": [

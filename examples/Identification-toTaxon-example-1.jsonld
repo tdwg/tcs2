@@ -40,7 +40,7 @@
     {
       "id": "https://ipni.org/n/306317-2",
       "type": "TaxonName",
-      "taxonNameString": "Salix arbusculoides",
+      "nameString": "Salix arbusculoides",
       "dwc:scientificNameAuthorship": "Andersson"
     },
     {

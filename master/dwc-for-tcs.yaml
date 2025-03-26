@@ -13,7 +13,7 @@
     IdentificationQualifier term.
   usage: >-
     `scientificName` can be used in addition to the `taxonName` property on a
-    Taxon Concept or the `taxonNameString` property on a Taxon Name.
+    Taxon Concept or the `nameString` property on a Taxon Name.
   notes: null
   examples: null
   type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
@@ -35,7 +35,7 @@
     The authorship information for the `scientificName` formatted according to 
     the conventions of the applicable `nomenclaturalCode`.
   usage: >-
-    `scientificNameAuthorship` can be used if the `taxonNameString` is a 
+    `scientificNameAuthorship` can be used if the `nameString` is a 
     scientific name.
   notes: null
   examples: null

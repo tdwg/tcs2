@@ -874,15 +874,15 @@ _:ann45 a oa:Annotation ;
 ################################################################################
 
 <https://ipni.org/n/735086-1> a tcs:TaxonName ;
-    tcs:taxonNameString "Rubus anglocandicans" ;
+    tcs:nameString "Rubus anglocandicans" ;
     dwc:scientificNameAuthorship "A.Newton" .
 
 <https://ipni.org/n/735806-1> a tcs:TaxonName ;
-    tcs:taxonNameString "Rubus chloocladus" ;
+    tcs:nameString "Rubus chloocladus" ;
     dwc:scientificNameAuthorship "W.C.R.Watson" .
 
 <https://ipni.org/n/735864-1> a tcs:TaxonName ;
-    tcs:taxonNameString "Rubus cissburiensis" ;
+    tcs:nameString "Rubus cissburiensis" ;
     dwc:scientificNameAuthorship "W.C.Barton & Ridd." .
 
 <https://ipni.org/n/109257-3> a tcs:TaxonName ;
@@ -890,96 +890,96 @@ _:ann45 a oa:Annotation ;
     dwc:scientificNameAuthorship "Weihe & Nees" .
 
 <https://ipni.org/n/736464-1> a tcs:TaxonName ;
-    tcs:taxonNameString "Rubus echinatus" ;
+    tcs:nameString "Rubus echinatus" ;
     dwc:scientificNameAuthorship "Lindl." .
 
 <https://ipni.org/n/736600-1> a tcs:TaxonName ;
-    tcs:taxonNameString "Rubus erythrops" ;
+    tcs:nameString "Rubus erythrops" ;
     dwc:scientificNameAuthorship "Edees & A.Newton" .
 
 <https://ipni.org/n/736933-1> a tcs:TaxonName ;
-    tcs:taxonNameString "Rubus fruticosus" ;
+    tcs:nameString "Rubus fruticosus" ;
     dwc:scientificNameAuthorship "L." .
 
 <https://ipni.org/n/737344-1> a tcs:TaxonName ;
-    tcs:taxonNameString "Rubus hillii" ;
+    tcs:nameString "Rubus hillii" ;
     dwc:scientificNameAuthorship "F.Muell." .
 
 <https://ipni.org/n/298089-2> a tcs:TaxonName ;
-    tcs:taxonNameString "Rubus idaeus" ;
+    tcs:nameString "Rubus idaeus" ;
     dwc:scientificNameAuthorship "L." .
 
 <https://ipni.org/n/737860-1> a tcs:TaxonName ;
-    tcs:taxonNameString "Rubus laciniatus" ;
+    tcs:nameString "Rubus laciniatus" ;
     dwc:scientificNameAuthorship "Willd." .
 
 <https://id.biodiversity.org.au/name/apni/116274> a tcs:TaxonName ;
-    tcs:taxonNameString "Rubus laciniatus subsp. laciniatus" .
+    tcs:nameString "Rubus laciniatus subsp. laciniatus" .
 
 <https://ipni.org/n/890023-1> a tcs:TaxonName ;
-    tcs:taxonNameString "Rubus laciniatus subsp. selmeri" ;
+    tcs:nameString "Rubus laciniatus subsp. selmeri" ;
     dwc:scientificNameAuthorship "(Lindenb.) Beek" .
 
 <https://ipni.org/n/738053-1> a tcs:TaxonName ;
-    tcs:taxonNameString "Rubus leucostachys" ;
+    tcs:nameString "Rubus leucostachys" ;
     dwc:scientificNameAuthorship "Sm." .
 
 <https://ipni.org/n/223266-2> a tcs:TaxonName ;
-    tcs:taxonNameString "Rubus ×loganobaccus" ;
+    tcs:nameString "Rubus ×loganobaccus" ;
     dwc:scientificNameAuthorship "L.H.Bailey" .
 
 <https://ipni.org/n/738460-1> a tcs:TaxonName ;
-    tcs:taxonNameString "Rubus moluccanus" ;
+    tcs:nameString "Rubus moluccanus" ;
     dwc:scientificNameAuthorship "L." .
 
 <https://ipni.org/n/999015-1> a tcs:TaxonName ;
-    tcs:taxonNameString "Rubus moluccanus var. trilobus" ;
+    tcs:nameString "Rubus moluccanus var. trilobus" ;
     dwc:scientificNameAuthorship "A.R.Bean" .
 
 <https://ipni.org/n/738682-1> a tcs:TaxonName ;
-    tcs:taxonNameString "Rubus novus" ;
+    tcs:nameString "Rubus novus" ;
     dwc:scientificNameAuthorship "Kuntze" .
 
 <https://ipni.org/n/738967-1> a tcs:TaxonName ;
-    tcs:taxonNameString "Rubus parvifolius" ;
+    tcs:nameString "Rubus parvifolius" ;
     dwc:scientificNameAuthorship "L." .
 
 <https://ipni.org/n/895791-1> a tcs:TaxonName ;
-    tcs:taxonNameString "Rubus phoenicolasius";
+    tcs:nameString "Rubus phoenicolasius";
     dwc:scientificNameAuthorship "Maxim." .
 
 <https://ipni.org/n/739244-1> a tcs:TaxonName ;
-    tcs:taxonNameString "Rubus polyanthemus" ;
+    tcs:nameString "Rubus polyanthemus" ;
     dwc:scientificNameAuthorship "Lindeb." .
 
 <https://ipni.org/n/739337-1> a tcs:TaxonName ;
-    tcs:taxonNameString "Rubus procerus" ;
+    tcs:nameString "Rubus procerus" ;
     dwc:scientificNameAuthorship "Genev." .
 
 <https://ipni.org/n/739797-1> a tcs:TaxonName ;
-    tcs:taxonNameString "Rubus rosaceus" ;
+    tcs:nameString "Rubus rosaceus" ;
     dwc:scientificNameAuthorship "Bluff & Fingerh" .
 
 <https://ipni.org/n/739800-1> a tcs:TaxonName ;
-    tcs:taxonNameString "Rubus rosifolius" ;
+    tcs:nameString "Rubus rosifolius" ;
     dwc:scientificNameAuthorship "Sm." .
 
 <https://id.biodiversity.org.au/name/apni/171003> a tcs:TaxonName ;
-    tcs:taxonNameString "Rubus rosifolius var. rosifolius" .
+    tcs:nameString "Rubus rosifolius var. rosifolius" .
 
 <https://ipni.org/n/110479-3> a tcs:TaxonName ;
-    tcs:taxonNameString "Rubus rugosus" ;
+    tcs:nameString "Rubus rugosus" ;
     dwc:scientificNameAuthorship "Sm." .
 
 <https://ipni.org/n/740982-1> a tcs:TaxonName ;
-    tcs:taxonNameString "Rubus ulmifolius" ;
+    tcs:nameString "Rubus ulmifolius" ;
     dwc:scientificNameAuthorship "Schott" .
 
 <https://id.biodiversity.org.au/name/apni/116699> a tcs:TaxonName ;
-    tcs:taxonNameString "Rubus ulmifolius var. ulmifolius" .
+    tcs:nameString "Rubus ulmifolius var. ulmifolius" .
 
 <https://ipni.org/n/741131-1> a tcs:TaxonName ;
-    tcs:taxonNameString "Rubus vestitus" ;
+    tcs:nameString "Rubus vestitus" ;
     dwc:scientificNameAuthorship "Weihe & Nees" .
 
 

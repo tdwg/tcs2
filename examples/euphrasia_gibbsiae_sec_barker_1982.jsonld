@@ -175,7 +175,7 @@
     {
       "id": "https://ipni.org/n/124446-3",
       "type": "TaxonName",
-      "tcs:taxonNameString": "Euphrasia brownii",
+      "tcs:nameString": "Euphrasia brownii",
       "dwc:scientificNameAuthorship": "F.Muell.",
       "namePublishedIn": "_:b29",
       "nomenclaturalStatus": "illegitimate"
@@ -183,26 +183,26 @@
     {
       "id": "https://ipni.org/n/802451-1",
       "type": "TaxonName",
-      "tcs:taxonNameString": "Euphrasia collina",
+      "tcs:nameString": "Euphrasia collina",
       "dwc:scientificNameAuthorship": "R.Br."
     },
     {
       "id": "https://ipni.org/n/802876-1",
       "type": "TaxonName",
-      "tcs:taxonNameString": "Euphrasia striata",
+      "tcs:nameString": "Euphrasia striata",
       "dwc:scientificNameAuthorship": "R.Br."
     },
     {
       "id": "https://ipni.org/n/802545-1",
       "type": "TaxonName",
-      "tcs:taxonNameString": "Euphrasia gibbsiae",
+      "tcs:nameString": "Euphrasia gibbsiae",
       "dwc:scientificNameAuthorship": "Du Rietz",
       "namePublishedIn": "_:b28"
     },
     {
       "id": "https://ipni.org/n/802619-1",
       "type": "TaxonName",
-      "tcs:taxonNameString": "Euphrasia kingii",
+      "tcs:nameString": "Euphrasia kingii",
       "dwc:scientificNameAuthorship": "W.M.Curtis",
       "namePublishedIn": "https://id.biodiversity.org.au/reference/apni/23028"
     },

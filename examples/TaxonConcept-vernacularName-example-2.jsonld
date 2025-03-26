@@ -10,7 +10,7 @@
   "taxonName": {
     "id": "https://ipni.org/n/304293-2",
     "type": "TaxonName",
-    "tcs:taxonNameString": "Quercus robur"
+    "tcs:nameString": "Quercus robur"
   },
   "vernacularName": {
     "type": "gbif:VernacularName",

@@ -28,9 +28,9 @@
 
 # name used in TaxonName examples; more data there
 <https://ipni.org/n/50985479-1> a tcs:TaxonName ;
-    tcs:taxonNameString "Rhododendron sect. Sciadorhodion" ;
+    tcs:nameString "Rhododendron sect. Sciadorhodion" ;
     dwc:scientificNameAuthorship "Rehder & Wilson" .
 
 <https://ipni.org/n/333193-1> a tcs:TaxonName ;
-    tcs:taxonNameString "Rhododendron quinquefolium" ;
+    tcs:nameString "Rhododendron quinquefolium" ;
     dwc:scientificNameAuthorship "Bisset & S.Moore" .

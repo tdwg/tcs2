@@ -8,7 +8,7 @@
       "accordingTo": "https://doi.org/10.48580/dfrdl",
       "taxonName": {
         "type": "TaxonName",
-        "taxonNameString": "Panthera",
+        "nameString": "Panthera",
         "dwc:scientificNameAuthorship": "Oken, 1816"
       }
     },
@@ -19,7 +19,7 @@
       "accordingTo": "https://doi.org/10.48580/dfrdl",
       "taxonName": {
         "type": "TaxonName",
-        "taxonNameString": "Panthera leo",
+        "nameString": "Panthera leo",
         "dwc:scientificNameAuthorship": "(Linnaeus, 1758)"
       },
       "parent": "https://www.catalogueoflife.org/data/taxon/6DBT"
@@ -31,7 +31,7 @@
       "accordingTo": "https://doi.org/10.48580/dfrdl",
       "taxonName": {
         "type": "TaxonName",
-        "taxonNameString": "Panthera onca",
+        "nameString": "Panthera onca",
         "dwc:scientificNameAuthorship": "(Linnaeus, 1758)"
       },
       "parent": "https://www.catalogueoflife.org/data/taxon/6DBT" 
@@ -43,7 +43,7 @@
       "accordingTo": "https://doi.org/10.48580/dfrdl",
       "taxonName": {
         "type": "TaxonName",
-        "taxonNameString": "Panthera pardus",
+        "nameString": "Panthera pardus",
         "dwc:scientificNameAuthorship": "(Linnaeus, 1758)"
       },
       "parent": "https://www.catalogueoflife.org/data/taxon/6DBT"
@@ -55,7 +55,7 @@
       "accordingTo": "https://doi.org/10.48580/dfrdl",
       "taxonName": {
         "type": "TaxonName",
-        "taxonNameString": "Panthera tigris",
+        "nameString": "Panthera tigris",
         "dwc:scientificNameAuthorship": "(Linnaeus, 1758)"
       },
       "parent": "https://www.catalogueoflife.org/data/taxon/6DBT" 

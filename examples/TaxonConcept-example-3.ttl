@@ -9,7 +9,7 @@
     tcs:taxonName <https://www.tropicos.org/name/35153806> .
 
 <https://www.tropicos.org/name/35153806> a tcs:TaxonName ;
-    tcs:taxonNameString "Calymperes moluccense" ;
+    tcs:nameString "Calymperes moluccense" ;
     dwc:scientificNameAuthorship "Schwägr." .
 
 <urn:isbn:978-967-5221-99-6> a bibo:Book ;

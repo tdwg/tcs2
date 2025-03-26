@@ -73,7 +73,7 @@ on a `TaxonConceptMapping`. The value of `mappingRelation` has to be one of the
 mapping properties from the `TaxonConcept` class.
 
 The **TaxonName** class encapsulates all information about taxon names. Only the
-`taxonNameString` property is required. Currently, TCS only has the one class
+`nameString` property is required. Currently, TCS only has the one class
 that can be used for all types of names, including scientific named and
 vernacular names, but it is envisaged that in future TCS will also have classes
 for specific categories of names, e.g., 'ScientificName' and 'VernacularName'.

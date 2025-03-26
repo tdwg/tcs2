@@ -20,7 +20,7 @@
     {
       "id": "https://www.tropicos.org/name/35121475",
       "type": "TaxonName",
-      "taxonNameString": "Dicranoloma blumei",
+      "nameString": "Dicranoloma blumei",
       "dwc:scientificNameAuthorship": "(Nees) Renauld",
       "dwc:namePublishedIn": "Rev. Bryol. 28(4): 69 (1901)",
       "basionym": "https://www.tropicos.org/name/35121972"
@@ -28,14 +28,14 @@
     {
       "id": "https://www.tropicos.org/name/35121972",
       "type": "TaxonName",
-      "taxonNameString": "Dicranum blumei",
+      "nameString": "Dicranum blumei",
       "dwc:scientificNameAuthorship": "Nees",
       "dwc:namePublishedIn": "Nova Acta Phys.-Med. Acad. Caes. Leop.-Carol. Nat. Cur. 11(1): 131 (1823)"
     },
     {
       "id": "https://www.tropicos.org/name/35154856",
       "type": "TaxonName",
-      "taxonNameString": "Leucoloma blumei",
+      "nameString": "Leucoloma blumei",
       "dwc:scientificNameAuthorship": "(Nees) Broth.",
       "dwc:namePublishedIn": "Nat. Pflanzenfam. I(3): 322 (1901)",
       "basionym": "https://www.tropicos.org/name/35121972"
@@ -43,28 +43,28 @@
     {
       "id": "https://www.tropicos.org/name/35121973",
       "type": "TaxonName",
-      "taxonNameString": "Dicranum blumei var. laxifolium",
+      "nameString": "Dicranum blumei var. laxifolium",
       "dwc:scientificNameAuthorship": "Broth. & Geh.",
       "dwc:namePublishedIn": "Biblioth. Bot. 44: 4 (1898)"
     },
     {
       "id": "https://www.tropicos.org/name/35121477",
       "type": "TaxonName",
-      "taxonNameString": "Dicranoloma blumei var. papillisetum",
+      "nameString": "Dicranoloma blumei var. papillisetum",
       "dwc:scientificNameAuthorship": "M. Fleisch.",
       "dwc:namePublishedIn": "Nova Guinea 12(2): 112 (1914)"
     },
     {
       "id": "https://www.tropicos.org/name/35188177",
       "type": "TaxonName",
-      "taxonNameString": "Dicranoloma blumei f. subintegrum",
+      "nameString": "Dicranoloma blumei f. subintegrum",
       "dwc:scientificNameAuthorship": "Dixon",
       "dwc:namePublishedIn": "J. Bot. 80: 4 (1942)"
     },
     {
       "id": "https://www.tropicos.org/name/35121484",
       "type": "TaxonName",
-      "taxonNameString": "Dicranoloma braunfelsioides",
+      "nameString": "Dicranoloma braunfelsioides",
       "dwc:scientificNameAuthorship": "Herzog",
       "dwc:namePublishedIn": "Hedwigia 61: 288 (1919)"
     }

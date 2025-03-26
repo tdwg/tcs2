@@ -298,7 +298,7 @@ of a taxonomy.
 | tcs:intersects | skos:relatedMatch |
 | | |
 | **tcs:TaxonName** | **skosxl:Label** |
-| tcs:taxonNameString | skosxl:literalForm |
+| tcs:nameString | skosxl:literalForm |
 | | |
 | tcs:basionym | skosxl:labelRelation |
 | tcs:replacedSynonym | skosxl:labelRelation |
@@ -534,7 +534,7 @@ TCS 1 | TDWG Ontology | TCS 2
 /DataSet/TaxonNames/TaxonName | [tn:TaxonName](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L29) | **[TaxonName](https://github.com/tdwg/tcs2/tree/master/docs/tcs-terms#tcstaxonname)**
 /DataSet/TaxonNames/TaxonName/@nomenclaturalCode | [tn:nomenclaturalCode](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L173) | [nomenclaturalCode](https://github.com/tdwg/tcs2/tree/master/docs/tcs-terms#tcsnomenclaturalcode)
 /DataSet/TaxonNames/TaxonName/@isAnamorphic | &mdash; | &mdash;
-/DataSet/TaxonNames/TaxonName/Simple |   [tn:nameComplete](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L161) | [taxonNameString](https://github.com/tdwg/tcs2/tree/master/docs/tcs-terms#tcstaxonnamestring)
+/DataSet/TaxonNames/TaxonName/Simple |   [tn:nameComplete](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L161) | [nameString](https://github.com/tdwg/tcs2/tree/master/docs/tcs-terms#tcsnameString)
 /DataSet/TaxonNames/TaxonName/Rank | [tn:rankString](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L321) | [dwc:verbatimTaxonRank](https://github.com/tdwg/tcs2/tree/master/docs/tcs-terms#dwcverbatimtaxonrank)
 /DataSet/TaxonNames/TaxonName/Rank/@code | [tn:rank](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L309) | [taxonRank](https://github.com/tdwg/tcs2/tree/master/docs/tcs-terms#tcstaxonomicrank)
 /DataSet/TaxonNames/TaxonName/CanonicalName/Uninomial | [tn:uninomial](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L257) | &mdash;

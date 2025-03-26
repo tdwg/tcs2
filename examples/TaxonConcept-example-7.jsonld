@@ -4,11 +4,11 @@
   "accordingTo": "https://avibase.bsc-eoc.org",
   "taxonName": {
     "type": "TaxonName",
-    "taxonNameString": "Acrocephalus sechellensis",
+    "nameString": "Acrocephalus sechellensis",
     "dwc:scientificNameAuthorship": "(Oustalet, J-FÉ 1877)",
     "basionym": {
       "type": "TaxonName",
-      "taxonNameString": "Ellisia sechellensis",
+      "nameString": "Ellisia sechellensis",
       "dwc:scientificNameAuthorship": "Oustalet, J-FÉ 1877",
       "dwc:namePublishedIn": "Bull. (Sci.) Soc. Philomath. [Paris] (7), 1 p.103",
       "dwc:namePublishedInYear": "1877"

@@ -21,7 +21,7 @@
     {
       "id": "_:b1",
       "type": "TaxonName",
-      "taxonNameString": "Phyllotrox",
+      "nameString": "Phyllotrox",
       "dwc:scientificNameAuthorship": "Schönherr, 1843"
     }
   ]

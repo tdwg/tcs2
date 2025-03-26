@@ -43,13 +43,13 @@ _:b1 a tcs:NomenclaturalType ;
     tcs:accordingTo <https://id.biodiversity.org.au/reference/apni/50798> .
 
 <https://ipni.org/n/520361-1> a tcs:TaxonName ;
-    tcs:taxonNameString "Templetonia stenophylla" ;
+    tcs:nameString "Templetonia stenophylla" ;
     dwc:scientificNameAuthorship "(F.Muell.) J.M.Black" ;
     dwc:namePublishedIn "Fl. S. Austral. 304" ;
     dwc:namePublishedInYear "1924" .
 
 <https://ipni.org/n/520357-1> a tcs:TaxonName ;
-    tcs:taxonNameString "Templetonia muelleri" ;
+    tcs:nameString "Templetonia muelleri" ;
     dwc:scientificNameAuthorship "Benth." ;
     dwc:namePublishedIn "Fl. Austral. 2: 169" ;
     dwc:namePublishedInYear "1864" ;

@@ -4,21 +4,21 @@
     {
       "id": "_:n997a7ab504af4be2b3d2eb7fbcc24e51b1",
       "type": "TaxonName",
-      "taxonNameString": "Osphranter rufus",
+      "nameString": "Osphranter rufus",
       "dwc:scientificNameAuthorship": "(Desmaret, 1882)",
       "basionym": "_:b1"
     },
     {
       "id": "_:n997a7ab504af4be2b3d2eb7fbcc24e51b3",
       "type": "TaxonName",
-      "taxonNameString": "Macropus rufus",
+      "nameString": "Macropus rufus",
       "dwc:scientificNameAuthorship": "(Desmaret, 1882)",
       "basionym:": "_:b1"
     },
     {
       "id": "_:b1",
       "type": "TaxonName",
-      "taxonNameString": "Kangurus rufus",
+      "nameString": "Kangurus rufus",
       "dwc:scientificNameAuthorship": "Desmaret, 1882"
     }
   ]

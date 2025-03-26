@@ -64,7 +64,7 @@
           "taxonName": {
             "id": "https://ipni.org/n/592841-1",
             "type": "TaxonName",
-            "taxonNameString": "Eucalyptus crebra",
+            "nameString": "Eucalyptus crebra",
             "dwc:scientificNameAuthorship": "F.Muel.",
             "dwc:namePublishedIn": "J. Proc. Linn. Soc., Bot. 3: 87",
             "dwc:namePublishedInYear": "1858"
@@ -77,7 +77,7 @@
         "typifiedName": {
           "id": "https://ipni.org/n/933707-1",
           "type": "TaxonName",
-          "taxonNameString": "Eucalyptus xanthoclada",
+          "nameString": "Eucalyptus xanthoclada",
           "dwc:scientificNameAuthorship": "Brooker & A.R.Bean",
           "dwc:namePublishedIn": "Brunonia 10(2): 193",
           "dwc:namePublishedInYear": "1987"

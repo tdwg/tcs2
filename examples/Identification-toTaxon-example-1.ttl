@@ -32,7 +32,7 @@
 
 <https://ipni.org/n/306317-2>
     a tcs:TaxonName ;
-    tcs:taxonNameString "Salix arbusculoides"
+    tcs:nameString "Salix arbusculoides"
     dwc:scientificNameAuthorship "Andersson" .
 
 <https://www.idigbio.org/portal/records/1e364de0-e016-4ace-8c7d-46a60027c4cb>

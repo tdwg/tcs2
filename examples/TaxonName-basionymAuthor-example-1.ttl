@@ -3,7 +3,7 @@
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 
 <https://tropicos.org/name/35121611> a tcs:taxonName ;
-    tcs:taxonNameString "Dicranoloma robustum" ;
+    tcs:nameString "Dicranoloma robustum" ;
     dwc:scientificNameAuthorship "(Hook.f. & Wilson) Paris" ;
     tcs:combinationAuthor <https://tropicos.org/person/2011> ;
     tcs:combinationAuthorLiteral "Paris" 
@@ -12,7 +12,7 @@
     tcs:basionym <https://tropicos.org/name/35124067> .
 
 <https://tropicos.org/name/35124067> a tcs:TaxonName ;
-    tcs:taxonNameString "Dicranum robustum" ;
+    tcs:nameString "Dicranum robustum" ;
     dwc:scientificNameAuthorship ;
     tcs:combinationAuthor _:b1 ;
     tcs:combinationAuthorLiteral "Hook.f. & Wilson" .

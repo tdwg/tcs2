@@ -770,7 +770,7 @@
   label: Taxon Name
   definition: A name or label applied to a taxon or taxonomic group. 
   usage: >-
-    A TCS Taxon Name requires either a `taxonNameString` or 
+    A TCS Taxon Name requires either a `nameString` or 
     `dwc:scientificName`.
   notes: >-
     The word 'name' here is taken in its dictionary meaning and not in the sense
@@ -799,19 +799,19 @@
       remarks: >-
         The TaxonName is a special kind of SKOSXL Label
 
-# property: taxonNameString
-- localName: taxonNameString
+# property: nameString
+- localName: nameString
   label: Taxon Name String
   definition: >-
     The complete name string without any authority or year components.
   usage: >-
-    `taxonNameString` is a literal. Either `taxonomicNameString` or 
+    `nameString` is a literal. Either `taxonomicNameString` or 
     `dwc:scientificName` is required on a TCS Taxon Name and a Taxon Name can 
     have only one of either.
   notes: >-
-    The `taxonNameString` property differs from the `scientificName` property 
+    The `nameString` property differs from the `scientificName` property 
     in Darwin Core in that all kinds of names are allowed. Also, in the case of 
-    scientific names, contrary to the `dwc:scientificName`, `taxonNameString` 
+    scientific names, contrary to the `dwc:scientificName`, `nameString` 
     does not include the authorship. In botanical names, it does include the 
     rank prefixes for infrageneric and infraspecific epithets as they are 
     considered part of the name.

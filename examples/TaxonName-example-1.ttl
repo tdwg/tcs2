@@ -2,5 +2,5 @@
 @prefix dwc: <http://rs.tdwg.org/dwc/terms/> .
 
 <urn:lsid:zoobank.org:act:355AAA50-D89F-466E-A216-96B7A17D5AD4> a tcs:TaxonName ;
-    tcs:taxonNameString "Carabus nitens" ;
+    tcs:nameString "Carabus nitens" ;
     dwc:scientificNameAuthorship "Linnaeus, 1758" .
