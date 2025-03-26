@@ -93,7 +93,7 @@ required.
 
 In contrast to Darwin Core, TCS does not define 'ID' and 'Remarks' properties on 
 its classes. In accordance with the Darwin Core RDF Guide
-([darwin_core_and_rdfowl_task_groups_darwin_2015](#darwin_core_and_rdfowl_task_groups_darwin_2015)), instances of TCS
+(Darwin Core and RDF/OWL Task Groups 2015 [\[darwin_core_and_rdfowl_task_groups_darwin_2015\]](../bibliography/#darwin_core_and_rdfowl_task_groups_darwin_2015)), instances of TCS
 classes SHOULD have a `rdf:id` and MAY have a `rdfs:comment`.
 
 Information on **synonymy** can be shared using the `synonym` property of the
