@@ -89,7 +89,7 @@ def create_index(categories, merged_df):
     Returns:
         string: index of terms in Markdown format
     """
-    text = '\n## Index of terms\n\n'
+    text = '\n## 4. Index of terms\n\n'
 
     for category in categories:
         if len(categories) > 1:
@@ -165,7 +165,7 @@ def term_table(term):
     curie = '{namespaceAlias}:{localName}'.format(
         namespaceAlias=term['namespaceAlias'], localName=term['localName'])
 
-    text = '### ' + curie + '\n\n'
+    text = '#### ' + curie + '\n\n'
 
     text += '<table style="width:100%;">\n'
 
@@ -191,17 +191,6 @@ def term_table(term):
         table_cell(term['label'])
     ])
 
-    # Attributes
-    if 'Property' in term['type']:
-        required = "Yes" if term['required'] else "No"
-        repeatable = "Yes" if term['repeatable'] else "No"
-        attrs = '<b>required:</b> {required} — <b>repeatable:</b> {repeatable}'.format(
-            required=required, repeatable=repeatable)
-        text += table_row([
-            table_cell(''),
-            table_cell(attrs)
-        ])
-
     # Definition
     definition = term['definition'] if term['definition'] else ""
     text += table_row([
@@ -219,6 +208,17 @@ def term_table(term):
         except: 
             print(term['localName'])
             print(term['usage'])
+
+    # Attributes
+    if 'Property' in term['type']:
+        required = "Yes" if term['required'] else "No"
+        repeatable = "Yes" if term['repeatable'] else "No"
+        attrs = '<b>required:</b> {required} — <b>repeatable:</b> {repeatable}'.format(
+            required=required, repeatable=repeatable)
+        text += table_row([
+            table_cell(''),
+            table_cell(attrs)
+        ])
 
     # Controlled term
     if 'Concept' in term['type']:
@@ -312,10 +312,10 @@ def create_vocab(categories, merged_df):
         str: vocabulary in HTML format
     """
     # vocab = '## Vocabulary\n\n'
-    vocab = ''
+    vocab = '## 5. Vocabulary\n\n'
     for category in categories:
         if len(categories) > 1:
-            vocab += '## {label}\n\n'.format(label=category['label'])
+            vocab += '### {label}\n\n'.format(label=category['label'])
             filtered_df = merged_df[merged_df['organizedInClass']
                                     == category['namespace']]
         else:

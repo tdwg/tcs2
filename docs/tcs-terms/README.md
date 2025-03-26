@@ -1,6 +1,6 @@
-# Taxon Concept Standard (TCS) Terms
+# Taxon Concept Standard (TCS) term list
 
-**Title**: Taxon Concept Standard (TCS) Term List
+**Title**: Taxon Concept Standard (TCS) term list
 
 **Date version created**: yyyy-mm-dd
 
@@ -10,7 +10,13 @@
 
 **Latest version**:
 
-**Abstract**: 
+**Abstract**: The Taxon Concept Standard (TCS) is the TDWG standard specifically
+for sharing taxonomic data. TCS provides TaxonConcept and TaxonName classes for
+information about taxon concepts and taxon names, respectively, as well as a
+TaxonConceptMapping class for taxon concept alignments and a NomenclaturalType
+class for information on typification of taxon names. TCS provides a consistent
+way to share and communicate taxonomic and nomenclatural data and is most useful
+where data becomes more structured and semantic.
 
 **Contributors**: Niels Klazenga, Greg Whitbread, Vijay Barve, Thierry Bourgoin,
 Markus Döring, Anne Fuchs, Jeff Gerbracht, Johan Liljeblad, Carlos Martínez
@@ -21,20 +27,142 @@ Muñoz, Mieke Strong, William Ulate, Cam Webb
 **Bibliographic citation**: Taxon Concept Standard Maintenance Group (2024).
 Taxon Concept Standard Term List. Biodiversity Information Standards (TDWG).
 
-## Introduction
+## 1. Introduction
 
-The Taxon Concept Standard (TCS; renamed from 'Taxon Concept Schema') is the
-TDWG standard for taxonomic data. TCS provides TaxonConcept and TaxonName
-classes for information about taxon concepts and taxon names, respectively, as
-well as a TaxonConceptMapping class for taxon concept alignments and a
-NomenclaturalType class for information on typification of taxon names.
+### 1.1. Status of this document and its content
 
-TCS provides a consistent way to share and communicate taxonomic and
-nomenclatural data.
+While TCS is in public review everything in this document is preliminary. Once
+ratified, this **Introduction** will be informative and the **Namespace** and
+**Borrowed terms** sections normative. Within the **Vocabulary** section the
+Identifier, Type, Definition and Usage for terms are normative. For borrowed
+terms Usage is normative only in the sense that it specifies how the term should
+be used within TCS. All other parts, including Label, Comments and Examples, are
+informative.
 
-<br/>
+### 1.2. RFC keywords
 
-## Index of terms
+The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD",
+"SHOULD NOT", "RECOMMENDED", "MAY", and "OPTIONAL" in this document are to be
+interpreted as described in [RFC 2119](https://tools.ietf.org/html/rfc2119).
+
+### 1.3. Structure of TCS
+
+TCS has four main classes, **TaxonConcept**, **TaxonConceptMapping**,
+**TaxonName** and **NomenclaturalType**.
+
+The **TaxonConcept** class provides terms to share information about taxon
+concepts and is the class everything else in TCS revolves around. We have
+defined a **TaxonConcept** as:
+
+> An **identifiable** taxonomic position that can be **aligned** to other such positions
+> through TCS concept mapping relations
+
+The change from the earlier 'a name plus a description of a taxon' was necessary
+because TCS has to deal with a wider variety of taxon concepts and today's taxon
+concepts do not necessarily have a formal scientific name or a description. In
+order for a taxon concept to be identifiable, however, it needs to have some
+kind of label and it has to have some sort of treatment, so the `taxonName` and
+`accordingTo` properties on the `TaxonConcept` are required.
+
+The **TaxonConceptMapping** class is almost identical in structure to the Darwin
+Core `ResourceRelationship` class. As a taxon concept mapping is a very specific
+type of resource relationship and because Darwin Core does not define IRI
+properties for `dwc:ResourceRelationship`, TCS defines its own class. The
+`subjectTaxonConcept`, `mappingRelation` and `objectTaxonConcept` are required
+on a `TaxonConceptMapping`. The value of `mappingRelation` has to be one of the
+mapping properties from the `TaxonConcept` class.
+
+The **TaxonName** class encapsulates all information about taxon names. Only the
+`taxonNameString` property is required. Currently, TCS only has the one class
+that can be used for all types of names, including scientific named and
+vernacular names, but it is envisaged that in future TCS will also have classes
+for specific categories of names, e.g., 'ScientificName' and 'VernacularName'.
+The use of the **TaxonName** class is not currently required in TCS: it can be
+replaced by a [SKOS-XL Label](https://www.w3.org/TR/skos-reference/skos-xl.html)
+or [GBIF VernacularName](http://rs.gbif.org/terms/1.0/VernacularName) (or any
+other label object) if considered more appropriate.
+
+The **NomenclaturalType** class can be used to share information about
+nomenclatural types of names. It also shows similarity to the Darwin Core
+`ResourceRelationship` class in the sense that a nomenclatural type is a
+resource relationship between a `tcs:TaxonName` and either another
+`tcs:TaxonName` or a Specimen (for which we use the Darwin Core
+`PreservedSpecimen` or `MaterialCitation` in the examples). The `typifiedName`,
+`typeOfType` and either the `typeSpecimen` or `typeName` properties are
+required.
+
+In contrast to Darwin Core, TCS does not define 'ID' and 'Remarks' properties on 
+its classes. In accordance with the Darwin Core RDF Guide
+([darwin_core_and_rdfowl_task_groups_darwin_2015](#darwin_core_and_rdfowl_task_groups_darwin_2015)), instances of TCS
+classes SHOULD have a `rdf:id` and MAY have a `rdfs:comment`.
+
+Information on **synonymy** can be shared using the `synonym` property of the
+TaxonConcept and the `basionym` and `replacedName` properties of the TaxonName.
+TCS does not use the terms 'homotypic synonym' and 'heterotypic synonym' because
+these terms are rather strictly defined in the nomenclatural codes, which makes
+them less useful for data exchange, but `synonym` can be used for heterotypic
+synonyms and `basionym` and `replacedName` for homotypic synonyms. The `synonym`
+property can be used for all synonyms and it is up to data providers or
+application profiles whether or not synonyms are split into homotypic and
+heterotypic synonyms.
+
+The mapping properties in the TaxonConcept class, `isCongruentWith`, `includes`,
+`isIncludedIn`, `partiallyOverlaps`, `intersects` and `isDisjointFrom` can be
+used to align taxon concepts. These properties are equivalent to topological
+properties in spatial analysis and can be used in reasoning. Taxon concept
+mappings are currently not used very often in taxonomic treatments but, besides
+being more expressive and more generally applicable than nomenclatural
+relationships, they have the advantage that they can be made by third parties,
+so they can be used to add information to the analysis that is not already
+present in the data.
+
+### 1.4. Examples
+
+Examples are provided for most TCS terms. As almost all TCS properties are IRI
+properties, significant context has been added to make the examples as useful as
+possible. As because of this the examples take up a lot of space only one
+example per term has been reproduced in this document. Links are provided for
+other examples.
+
+The examples in this document are in TurTLe. This format has been chosen because
+it is very terse and still easy to read and, most importantly, allows comments.
+The fact that the examples are in a serialization of RDF should not be taken to
+mean that TCS data has to be RDF, just that it can be RDF. All examples are also
+provided in JSON-LD.
+
+The following namespace aliases are used in the examples:
+
+| alias | namespace |
+|-|-|
+| tcs | http://rs.tdwg.org/tcs/terms/ |
+| address | http://schemas.talis.com/2005/address/schema# |
+| bibo | http://purl.org/ontology/bibo/ |
+| dcterms | http://purl.org/dc/terms/ |
+| dwc | http://rs.tdwg.org/dwc/terms/ |
+| dwciri | http://rs.tdwg.org/dwc/iri/ |
+| dsw | http://purl.org/dsw/ |
+| foaf | http://xmlns.com/foaf/0.1/ |
+| gbif | http://rs.gbif.org/terms/1.0/ |
+| oa | http://www.w3.org/ns/oa# |
+| rdf | http://www.w3.org/1999/02/22-rdf-syntax-ns# |
+| rdfs | http://www.w3.org/2000/01/rdf-schema# |
+| skosxl | http://www.w3.org/2008/05/skos-xl# |
+
+## 2. Namespace
+
+The namespace for TCS terms is `http://rs.tdwg.org/tcs/terms/`. The recommended
+alias for this namespace is `tcs`.
+
+## 3. Borrowed terms
+
+As much as possible TCS uses already existing terms rather than define new
+terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
+
+| standard | namespace | alias |
+|-|-|-|
+| Darwin Core | http://rs.tdwg.org/dwc/terms/ | dwc |
+| Dublin Core | http://purl.org/dc/terms/ | dcterms |
+## 4. Index of terms
 
 **Taxon Concept**
 
@@ -52,9 +180,11 @@ nomenclatural data.
 
 [tcs:NomenclaturalType](#tcsnomenclaturaltype) | [tcs:typifiedName](#tcstypifiedname) | [tcs:typeOfType](#tcstypeoftype) | [tcs:typeName](#tcstypename) | [tcs:typeSpecimen](#tcstypespecimen) | [tcs:typePublishedIn](#tcstypepublishedin)
 
-## Taxon Concept
+## 5. Vocabulary
 
-### tcs:TaxonConcept
+### Taxon Concept
+
+#### tcs:TaxonConcept
 
 <table style="width:100%;">
 	<tbody>
@@ -72,7 +202,7 @@ nomenclatural data.
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td><p>An identifiable taxonomic position that can be aligned to other such  positions through TCS concept mapping relationships.</p></td>
+			<td><p>An identifiable taxonomic position that can be aligned to other such  positions through TCS concept mapping relations.</p></td>
 		</tr>
 		<tr>
 			<td>Usage</td>
@@ -134,7 +264,7 @@ nomenclatural data.
 	</tbody>
 </table>
 
-### tcs:accordingTo
+#### tcs:accordingTo
 
 <table style="width:100%;">
 	<tbody>
@@ -151,16 +281,16 @@ nomenclatural data.
 			<td>According To</td>
 		</tr>
 		<tr>
-			<td></td>
-			<td><b>required:</b> Yes — <b>repeatable:</b> No</td>
-		</tr>
-		<tr>
 			<td>Definition</td>
 			<td><p>Reference to the treatment or other source in which a Taxon Concept is  established or used. </p></td>
 		</tr>
 		<tr>
 			<td>Usage</td>
 			<td><p><code>accordingTo</code> is an IRI term and is required on a Taxon Concept. A  Taxon Concept can have only one <code>accordingTo</code>. </p></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td><b>required:</b> Yes — <b>repeatable:</b> No</td>
 		</tr>
 		<tr>
 			<td>Comments</td>
@@ -224,7 +354,7 @@ nomenclatural data.
 	</tbody>
 </table>
 
-### tcs:taxonName
+#### tcs:taxonName
 
 <table style="width:100%;">
 	<tbody>
@@ -241,16 +371,16 @@ nomenclatural data.
 			<td>Taxon name</td>
 		</tr>
 		<tr>
-			<td></td>
-			<td><b>required:</b> Yes — <b>repeatable:</b> No</td>
-		</tr>
-		<tr>
 			<td>Definition</td>
 			<td><p>The accepted name for the taxonomic group.</p></td>
 		</tr>
 		<tr>
 			<td>Usage</td>
 			<td><p><code>taxonName</code> is an IRI term and is required on a TCS Taxon Concept. A Taxon  Concept can only have one <code>taxonName</code>.</p></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td><b>required:</b> Yes — <b>repeatable:</b> No</td>
 		</tr>
 		<tr>
 			<td>Comments</td>
@@ -264,7 +394,7 @@ nomenclatural data.
 	</tbody>
 </table>
 
-### tcs:synonym
+#### tcs:synonym
 
 <table style="width:100%;">
 	<tbody>
@@ -281,16 +411,16 @@ nomenclatural data.
 			<td>Synonym</td>
 		</tr>
 		<tr>
-			<td></td>
-			<td><b>required:</b> No — <b>repeatable:</b> Yes</td>
-		</tr>
-		<tr>
 			<td>Definition</td>
 			<td><p>Name considered to apply to the same taxon as the accepted name.</p></td>
 		</tr>
 		<tr>
 			<td>Usage</td>
 			<td><p><code>synonym</code> is a Taxon Name; a Taxon Concept can have multiple synonyms.</p></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td><b>required:</b> No — <b>repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Comments</td>
@@ -384,7 +514,7 @@ nomenclatural data.
 	</tbody>
 </table>
 
-### tcs:vernacularName
+#### tcs:vernacularName
 
 <table style="width:100%;">
 	<tbody>
@@ -401,16 +531,16 @@ nomenclatural data.
 			<td>Vernacular Name</td>
 		</tr>
 		<tr>
-			<td></td>
-			<td><b>required:</b> No — <b>repeatable:</b> Yes</td>
-		</tr>
-		<tr>
 			<td>Definition</td>
 			<td><p>Name for a taxon in a language used for general purposes.</p></td>
 		</tr>
 		<tr>
 			<td>Usage</td>
 			<td><p><code>vernacularName</code> is an IRI term; a Taxon Concept can have more than one  <code>vernacularName</code>.</p></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td><b>required:</b> No — <b>repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Comments</td>
@@ -453,7 +583,7 @@ nomenclatural data.
 	</tbody>
 </table>
 
-### tcs:taxonRank
+#### tcs:taxonRank
 
 <table style="width:100%;">
 	<tbody>
@@ -470,16 +600,16 @@ nomenclatural data.
 			<td>Taxonomic Rank</td>
 		</tr>
 		<tr>
-			<td></td>
-			<td><b>required:</b> No — <b>repeatable:</b> No</td>
-		</tr>
-		<tr>
 			<td>Definition</td>
 			<td><p>The rank at which a taxon is classified.</p></td>
 		</tr>
 		<tr>
 			<td>Usage</td>
 			<td><p><code>taxonRank</code> is an IRI property; a Taxon Concept or Taxon Name can have only one <code>taxonRank</code>.</p></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td><b>required:</b> No — <b>repeatable:</b> No</td>
 		</tr>
 		<tr>
 			<td>Comments</td>
@@ -493,7 +623,7 @@ nomenclatural data.
 	</tbody>
 </table>
 
-### tcs:parent
+#### tcs:parent
 
 <table style="width:100%;">
 	<tbody>
@@ -510,16 +640,16 @@ nomenclatural data.
 			<td>Parent</td>
 		</tr>
 		<tr>
-			<td></td>
-			<td><b>required:</b> No — <b>repeatable:</b> No</td>
-		</tr>
-		<tr>
 			<td>Definition</td>
 			<td><p>The direct parent in a classification.</p></td>
 		</tr>
 		<tr>
 			<td>Usage</td>
 			<td><p><code>parent</code> is another Taxon Concept; a Taxon Concept can have only one  <code>parent</code>.</p></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td><b>required:</b> No — <b>repeatable:</b> No</td>
 		</tr>
 		<tr>
 			<td>Comments</td>
@@ -582,7 +712,7 @@ nomenclatural data.
 	</tbody>
 </table>
 
-### tcs:child
+#### tcs:child
 
 <table style="width:100%;">
 	<tbody>
@@ -599,16 +729,16 @@ nomenclatural data.
 			<td>Child</td>
 		</tr>
 		<tr>
-			<td></td>
-			<td><b>required:</b> No — <b>repeatable:</b> Yes</td>
-		</tr>
-		<tr>
 			<td>Definition</td>
 			<td><p>A direct subordinate in a classification.</p></td>
 		</tr>
 		<tr>
 			<td>Usage</td>
 			<td><p><code>child</code> is another Taxon Concept; a Taxon Concept can have more than one  child.</p></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td><b>required:</b> No — <b>repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Examples</td>
@@ -667,7 +797,7 @@ nomenclatural data.
 	</tbody>
 </table>
 
-### tcs:isCongruentWith
+#### tcs:isCongruentWith
 
 <table style="width:100%;">
 	<tbody>
@@ -684,16 +814,16 @@ nomenclatural data.
 			<td>Is Congruent With</td>
 		</tr>
 		<tr>
-			<td></td>
-			<td><b>required:</b> No — <b>repeatable:</b> Yes</td>
-		</tr>
-		<tr>
 			<td>Definition</td>
 			<td><p>The subject and object taxon concepts have a congruent taxonomic meaning,  i.e. there is no conflict between the concepts</p></td>
 		</tr>
 		<tr>
 			<td>Usage</td>
 			<td><p><code>isCongruentWith</code> can be used as a property on a Taxon Concept object, or as the value of the <code>mappingRelation</code> property on a Taxon Concept Mapping object. In both cases both the subject and object are Taxon Concepts.</p></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td><b>required:</b> No — <b>repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Comments</td>
@@ -749,7 +879,7 @@ nomenclatural data.
 	</tbody>
 </table>
 
-### tcs:includes
+#### tcs:includes
 
 <table style="width:100%;">
 	<tbody>
@@ -766,16 +896,16 @@ nomenclatural data.
 			<td>Includes</td>
 		</tr>
 		<tr>
-			<td></td>
-			<td><b>required:</b> No — <b>repeatable:</b> Yes</td>
-		</tr>
-		<tr>
 			<td>Definition</td>
 			<td><p>The subject taxon concept has a more inclusive taxonomic meaning than the object taxon concept</p></td>
 		</tr>
 		<tr>
 			<td>Usage</td>
 			<td><p><code>includes</code> can be used as a property on a Taxon Concept object, or as the value of the <code>mappingRelation</code> property on a Taxon Concept Mapping object. In both cases both the subject and object are Taxon Concepts.</p></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td><b>required:</b> No — <b>repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Comments</td>
@@ -816,7 +946,7 @@ nomenclatural data.
 	</tbody>
 </table>
 
-### tcs:isIncludedIn
+#### tcs:isIncludedIn
 
 <table style="width:100%;">
 	<tbody>
@@ -833,16 +963,16 @@ nomenclatural data.
 			<td>is included in</td>
 		</tr>
 		<tr>
-			<td></td>
-			<td><b>required:</b> No — <b>repeatable:</b> Yes</td>
-		</tr>
-		<tr>
 			<td>Definition</td>
 			<td><p>The subject taxon concept has a less inclusive taxonomic meaning than the  object taxon concept</p></td>
 		</tr>
 		<tr>
 			<td>Usage</td>
 			<td><p><code>isIncludedIn</code> can be used as a property on a Taxon Concept object, or as the value of the <code>mappingRelation</code> property on a Taxon Concept Mapping object. In both cases both the subject and object are Taxon Concepts.</p></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td><b>required:</b> No — <b>repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Comments</td>
@@ -898,7 +1028,7 @@ nomenclatural data.
 	</tbody>
 </table>
 
-### tcs:partiallyOverlaps
+#### tcs:partiallyOverlaps
 
 <table style="width:100%;">
 	<tbody>
@@ -915,16 +1045,16 @@ nomenclatural data.
 			<td>partially overlaps</td>
 		</tr>
 		<tr>
-			<td></td>
-			<td><b>required:</b> No — <b>repeatable:</b> Yes</td>
-		</tr>
-		<tr>
 			<td>Definition</td>
 			<td><p>The subject and object taxon concepts have partially overlapping taxonomic  meanings, <em>i.e.</em> they have some members in common, but each concept in  addition has members that are not included in the other concept</p></td>
 		</tr>
 		<tr>
 			<td>Usage</td>
 			<td><p><code>partiallyOverlaps</code> can be used as a property on a Taxon Concept object, or as the value of the <code>mappingRelation</code> property on a Taxon Concept Mapping object. In both cases both the subject and object are Taxon Concepts.</p></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td><b>required:</b> No — <b>repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Comments</td>
@@ -965,7 +1095,7 @@ nomenclatural data.
 	</tbody>
 </table>
 
-### tcs:isDisjointFrom
+#### tcs:isDisjointFrom
 
 <table style="width:100%;">
 	<tbody>
@@ -982,16 +1112,16 @@ nomenclatural data.
 			<td>is disjoint from</td>
 		</tr>
 		<tr>
-			<td></td>
-			<td><b>required:</b> No — <b>repeatable:</b> Yes</td>
-		</tr>
-		<tr>
 			<td>Definition</td>
 			<td><p>The subject and object taxon concepts have non-overlapping taxonomic  meanings, <em>i.e.</em> they do not have any members in common</p></td>
 		</tr>
 		<tr>
 			<td>Usage</td>
 			<td><p><code>isDisjointFrom</code> can be used as a property on a Taxon Concept object, or as the value of the <code>mappingRelation</code> property on a Taxon Concept Mapping object. In both cases both the subject and object are Taxon Concepts.</p></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td><b>required:</b> No — <b>repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Comments</td>
@@ -1043,7 +1173,7 @@ nomenclatural data.
 	</tbody>
 </table>
 
-### tcs:intersects
+#### tcs:intersects
 
 <table style="width:100%;">
 	<tbody>
@@ -1060,16 +1190,16 @@ nomenclatural data.
 			<td>Intersects</td>
 		</tr>
 		<tr>
-			<td></td>
-			<td><b>required:</b> No — <b>repeatable:</b> Yes</td>
-		</tr>
-		<tr>
 			<td>Definition</td>
 			<td><p>The taxonomic meanings of the subject and object taxon concepts intersect,  <em>i.e.</em> they have at least one member in common.</p></td>
 		</tr>
 		<tr>
 			<td>Usage</td>
 			<td><p><code>intersects</code> can be used as a property on a Taxon Concept object, or as the value of the <code>mappingRelation</code> property on a Taxon Concept Mapping object. In both cases both the subject and object are Taxon Concepts.</p></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td><b>required:</b> No — <b>repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Comments</td>
@@ -1134,7 +1264,7 @@ nomenclatural data.
 	</tbody>
 </table>
 
-### dwc:scientificName
+#### dwc:scientificName
 
 <table style="width:100%;">
 	<tbody>
@@ -1151,10 +1281,6 @@ nomenclatural data.
 			<td>Scientific Name</td>
 		</tr>
 		<tr>
-			<td></td>
-			<td><b>required:</b> No — <b>repeatable:</b> No</td>
-		</tr>
-		<tr>
 			<td>Definition</td>
 			<td><p>The full scientific name, with authorship and date information if known.  When forming part of an Identification, this should be the name in lowest  level taxonomic rank that can be determined. This term should not contain  identification qualifications, which should instead be supplied in the  IdentificationQualifier term.</p></td>
 		</tr>
@@ -1163,13 +1289,17 @@ nomenclatural data.
 			<td><p><code>scientificName</code> can be used in addition to the <code>taxonName</code> property on a Taxon Concept or the <code>taxonNameString</code> property on a Taxon Name.</p></td>
 		</tr>
 		<tr>
+			<td></td>
+			<td><b>required:</b> No — <b>repeatable:</b> No</td>
+		</tr>
+		<tr>
 			<td>GitHub issue</td>
 			<td>https://github.com/tdwg/tcs2/issues/17</td>
 		</tr>
 	</tbody>
 </table>
 
-### dwc:vernacularName
+#### dwc:vernacularName
 
 <table style="width:100%;">
 	<tbody>
@@ -1186,12 +1316,12 @@ nomenclatural data.
 			<td>Vernacular Name</td>
 		</tr>
 		<tr>
-			<td></td>
-			<td><b>required:</b> No — <b>repeatable:</b> No</td>
-		</tr>
-		<tr>
 			<td>Definition</td>
 			<td><p>A common or vernacular name.</p></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td><b>required:</b> No — <b>repeatable:</b> No</td>
 		</tr>
 		<tr>
 			<td>GitHub issue</td>
@@ -1200,7 +1330,7 @@ nomenclatural data.
 	</tbody>
 </table>
 
-### dwc:verbatimTaxonRank
+#### dwc:verbatimTaxonRank
 
 <table style="width:100%;">
 	<tbody>
@@ -1217,12 +1347,12 @@ nomenclatural data.
 			<td>Verbatim taxon rank</td>
 		</tr>
 		<tr>
-			<td></td>
-			<td><b>required:</b> No — <b>repeatable:</b> No</td>
-		</tr>
-		<tr>
 			<td>Definition</td>
 			<td><p>The taxonomic rank of the most specific name in the dwc:scientificName as it appears in the original record.</p></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td><b>required:</b> No — <b>repeatable:</b> No</td>
 		</tr>
 		<tr>
 			<td>Comments</td>
@@ -1235,7 +1365,7 @@ nomenclatural data.
 	</tbody>
 </table>
 
-### dcterms:title
+#### dcterms:title
 
 <table style="width:100%;">
 	<tbody>
@@ -1252,12 +1382,12 @@ nomenclatural data.
 			<td>Taxon concept label</td>
 		</tr>
 		<tr>
-			<td></td>
-			<td><b>required:</b> No — <b>repeatable:</b> No</td>
-		</tr>
-		<tr>
 			<td>Definition</td>
 			<td><p>A name given to the resource.</p></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td><b>required:</b> No — <b>repeatable:</b> No</td>
 		</tr>
 		<tr>
 			<td>Comments</td>
@@ -1281,9 +1411,9 @@ nomenclatural data.
 	</tbody>
 </table>
 
-## Taxon Concept Mapping
+### Taxon Concept Mapping
 
-### tcs:TaxonConceptMapping
+#### tcs:TaxonConceptMapping
 
 <table style="width:100%;">
 	<tbody>
@@ -1375,7 +1505,7 @@ nomenclatural data.
 	</tbody>
 </table>
 
-### tcs:mappingAccordingTo
+#### tcs:mappingAccordingTo
 
 <table style="width:100%;">
 	<tbody>
@@ -1392,10 +1522,6 @@ nomenclatural data.
 			<td>Mapping according to</td>
 		</tr>
 		<tr>
-			<td></td>
-			<td><b>required:</b> No — <b>repeatable:</b> No</td>
-		</tr>
-		<tr>
 			<td>Definition</td>
 			<td><p>Reference to the source of the taxon concept mapping.</p></td>
 		</tr>
@@ -1404,13 +1530,17 @@ nomenclatural data.
 			<td><p><code>mappingAccordingTo</code> is an IRI term and is required; a Taxon  Concept Mapping can have only one <code>mappingAccordingTo</code>.</p></td>
 		</tr>
 		<tr>
+			<td></td>
+			<td><b>required:</b> No — <b>repeatable:</b> No</td>
+		</tr>
+		<tr>
 			<td>GitHub issue</td>
 			<td>https://github.com/tdwg/tcs2/issues/47</td>
 		</tr>
 	</tbody>
 </table>
 
-### tcs:mappingRelation
+#### tcs:mappingRelation
 
 <table style="width:100%;">
 	<tbody>
@@ -1427,10 +1557,6 @@ nomenclatural data.
 			<td>Mapping relation</td>
 		</tr>
 		<tr>
-			<td></td>
-			<td><b>required:</b> Yes — <b>repeatable:</b> No</td>
-		</tr>
-		<tr>
 			<td>Definition</td>
 			<td><p>The kind of mapping relation between the two concepts</p></td>
 		</tr>
@@ -1439,13 +1565,17 @@ nomenclatural data.
 			<td><p>This property is required; one MUST use one of the mapping properties <code>isCongruentWith</code>, <code>includes</code>, <code>isIncludedIn</code>, <code>partiallyOverlaps</code>, <code>isDisjointFrom</code> or <code>intersects</code>.</p></td>
 		</tr>
 		<tr>
+			<td></td>
+			<td><b>required:</b> Yes — <b>repeatable:</b> No</td>
+		</tr>
+		<tr>
 			<td>GitHub issue</td>
 			<td>https://github.com/tdwg/tcs2/issues/44</td>
 		</tr>
 	</tbody>
 </table>
 
-### tcs:subjectTaxonConcept
+#### tcs:subjectTaxonConcept
 
 <table style="width:100%;">
 	<tbody>
@@ -1462,16 +1592,16 @@ nomenclatural data.
 			<td>Subject Taxon Concept</td>
 		</tr>
 		<tr>
-			<td></td>
-			<td><b>required:</b> Yes — <b>repeatable:</b> No</td>
-		</tr>
-		<tr>
 			<td>Definition</td>
 			<td><p>Taxon Concept that is the subject in the mapping statement.</p></td>
 		</tr>
 		<tr>
 			<td>Usage</td>
 			<td><p><code>subjectTaxonConcept</code> is a TCS Taxon Concept; a Taxon Concept Mapping  statement can have only one <code>subjectTaxonConcept</code>.</p></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td><b>required:</b> Yes — <b>repeatable:</b> No</td>
 		</tr>
 		<tr>
 			<td>Comments</td>
@@ -1484,7 +1614,7 @@ nomenclatural data.
 	</tbody>
 </table>
 
-### tcs:objectTaxonConcept
+#### tcs:objectTaxonConcept
 
 <table style="width:100%;">
 	<tbody>
@@ -1501,16 +1631,16 @@ nomenclatural data.
 			<td>Object Taxon Concept</td>
 		</tr>
 		<tr>
-			<td></td>
-			<td><b>required:</b> Yes — <b>repeatable:</b> No</td>
-		</tr>
-		<tr>
 			<td>Definition</td>
 			<td><p>Taxon Concept that is the object in the mapping statement.</p></td>
 		</tr>
 		<tr>
 			<td>Usage</td>
 			<td><p><code>objectTaxonConcept</code> is a TCS Taxon Concept; a Taxon Concept Mapping  statement can have only one <code>objectTaxonConcept</code>.</p></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td><b>required:</b> Yes — <b>repeatable:</b> No</td>
 		</tr>
 		<tr>
 			<td>Comments</td>
@@ -1523,7 +1653,7 @@ nomenclatural data.
 	</tbody>
 </table>
 
-### dcterms:creator
+#### dcterms:creator
 
 <table style="width:100%;">
 	<tbody>
@@ -1540,12 +1670,12 @@ nomenclatural data.
 			<td>Creator</td>
 		</tr>
 		<tr>
-			<td></td>
-			<td><b>required:</b> No — <b>repeatable:</b> Yes</td>
-		</tr>
-		<tr>
 			<td>Definition</td>
 			<td><p>An entity primarily responsible for making the resource.</p></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td><b>required:</b> No — <b>repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Comments</td>
@@ -1558,7 +1688,7 @@ nomenclatural data.
 	</tbody>
 </table>
 
-### dcterms:created
+#### dcterms:created
 
 <table style="width:100%;">
 	<tbody>
@@ -1575,12 +1705,12 @@ nomenclatural data.
 			<td>Created</td>
 		</tr>
 		<tr>
-			<td></td>
-			<td><b>required:</b> No — <b>repeatable:</b> No</td>
-		</tr>
-		<tr>
 			<td>Definition</td>
 			<td><p>Date of creation of the resource.</p></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td><b>required:</b> No — <b>repeatable:</b> No</td>
 		</tr>
 		<tr>
 			<td>Comments</td>
@@ -1593,9 +1723,9 @@ nomenclatural data.
 	</tbody>
 </table>
 
-## Taxon Name
+### Taxon Name
 
-### tcs:TaxonName
+#### tcs:TaxonName
 
 <table style="width:100%;">
 	<tbody>
@@ -1654,7 +1784,7 @@ nomenclatural data.
 	</tbody>
 </table>
 
-### tcs:taxonNameString
+#### tcs:taxonNameString
 
 <table style="width:100%;">
 	<tbody>
@@ -1671,16 +1801,16 @@ nomenclatural data.
 			<td>Taxon Name String</td>
 		</tr>
 		<tr>
-			<td></td>
-			<td><b>required:</b> No — <b>repeatable:</b> No</td>
-		</tr>
-		<tr>
 			<td>Definition</td>
 			<td><p>The complete name string without any authority or year components.</p></td>
 		</tr>
 		<tr>
 			<td>Usage</td>
 			<td><p><code>taxonNameString</code> is a literal. Either <code>taxonomicNameString</code> or  <code>dwc:scientificName</code> is required on a TCS Taxon Name and a Taxon Name can  have only one of either.</p></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td><b>required:</b> No — <b>repeatable:</b> No</td>
 		</tr>
 		<tr>
 			<td>Comments</td>
@@ -1693,7 +1823,7 @@ nomenclatural data.
 	</tbody>
 </table>
 
-### tcs:namePublishedIn
+#### tcs:namePublishedIn
 
 <table style="width:100%;">
 	<tbody>
@@ -1710,12 +1840,12 @@ nomenclatural data.
 			<td>Name Published In</td>
 		</tr>
 		<tr>
-			<td></td>
-			<td><b>required:</b> No — <b>repeatable:</b> No</td>
-		</tr>
-		<tr>
 			<td>Definition</td>
 			<td><p>Reference to the publication in which the name was first published.</p></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td><b>required:</b> No — <b>repeatable:</b> No</td>
 		</tr>
 		<tr>
 			<td>Comments</td>
@@ -1728,7 +1858,7 @@ nomenclatural data.
 	</tbody>
 </table>
 
-### tcs:microreference
+#### tcs:microreference
 
 <table style="width:100%;">
 	<tbody>
@@ -1745,16 +1875,16 @@ nomenclatural data.
 			<td>Microreference</td>
 		</tr>
 		<tr>
-			<td></td>
-			<td><b>required:</b> No — <b>repeatable:</b> No</td>
-		</tr>
-		<tr>
 			<td>Definition</td>
 			<td><p>Specifies any minor reference parts, e.g. page number.</p></td>
 		</tr>
 		<tr>
 			<td>Usage</td>
 			<td><p><code>microreference</code> is a string literal; a Taxon Name can have only one  <code>microreference</code> and only when <code>namePublishedIn</code> is used as well.</p></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td><b>required:</b> No — <b>repeatable:</b> No</td>
 		</tr>
 		<tr>
 			<td>Comments</td>
@@ -1767,7 +1897,7 @@ nomenclatural data.
 	</tbody>
 </table>
 
-### tcs:nomenclaturalCode
+#### tcs:nomenclaturalCode
 
 <table style="width:100%;">
 	<tbody>
@@ -1784,16 +1914,16 @@ nomenclatural data.
 			<td>Nomenclatural Code</td>
 		</tr>
 		<tr>
-			<td></td>
-			<td><b>required:</b> No — <b>repeatable:</b> No</td>
-		</tr>
-		<tr>
 			<td>Definition</td>
 			<td><p>Nomenclatural code that applies to the group of organisms the taxonomic name  is for.</p></td>
 		</tr>
 		<tr>
 			<td>Usage</td>
 			<td><p><code>nomenclaturalCode</code> takes an IRI or object; a Taxon Name can have only one  <code>nomenclaturalCode</code>.</p></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td><b>required:</b> No — <b>repeatable:</b> No</td>
 		</tr>
 		<tr>
 			<td>Comments</td>
@@ -1806,7 +1936,7 @@ nomenclatural data.
 	</tbody>
 </table>
 
-### tcs:nomenclaturalStatus
+#### tcs:nomenclaturalStatus
 
 <table style="width:100%;">
 	<tbody>
@@ -1823,16 +1953,16 @@ nomenclatural data.
 			<td>Nomenclatural Status</td>
 		</tr>
 		<tr>
-			<td></td>
-			<td><b>required:</b> No — <b>repeatable:</b> No</td>
-		</tr>
-		<tr>
 			<td>Definition</td>
 			<td><p>Status related to the original publication of the name and its conformance to the relevant rules of nomenclature.</p></td>
 		</tr>
 		<tr>
 			<td>Usage</td>
 			<td><p><code>nomenclaturalStatus</code> takes an IRI or object; a Taxon Name can have only one  <code>nomenclaturalStatus</code>.</p></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td><b>required:</b> No — <b>repeatable:</b> No</td>
 		</tr>
 		<tr>
 			<td>Comments</td>
@@ -1845,7 +1975,7 @@ nomenclatural data.
 	</tbody>
 </table>
 
-### tcs:typification
+#### tcs:typification
 
 <table style="width:100%;">
 	<tbody>
@@ -1862,16 +1992,16 @@ nomenclatural data.
 			<td>Typification</td>
 		</tr>
 		<tr>
-			<td></td>
-			<td><b>required:</b> No — <b>repeatable:</b> Yes</td>
-		</tr>
-		<tr>
 			<td>Definition</td>
 			<td><p>Designation of a nomenclatural type for a name</p></td>
 		</tr>
 		<tr>
 			<td>Usage</td>
 			<td><p>The <code>typification</code> property takes a <code>tcs:NomenclaturalType</code> or array of <code>tcs:NomenclaturalType</code>s.</p></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td><b>required:</b> No — <b>repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Comments</td>
@@ -1948,7 +2078,7 @@ nomenclatural data.
 	</tbody>
 </table>
 
-### tcs:typificationLiteral
+#### tcs:typificationLiteral
 
 <table style="width:100%;">
 	<tbody>
@@ -1965,16 +2095,16 @@ nomenclatural data.
 			<td>Typification</td>
 		</tr>
 		<tr>
-			<td></td>
-			<td><b>required:</b> No — <b>repeatable:</b> No</td>
-		</tr>
-		<tr>
 			<td>Definition</td>
 			<td><p>Designation of a nomenclatural type for a name</p></td>
 		</tr>
 		<tr>
 			<td>Usage</td>
 			<td><p>The <code>typificationLiteral</code> property takes a literal value.</p></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td><b>required:</b> No — <b>repeatable:</b> No</td>
 		</tr>
 		<tr>
 			<td>Comments</td>
@@ -1987,7 +2117,7 @@ nomenclatural data.
 	</tbody>
 </table>
 
-### tcs:basionym
+#### tcs:basionym
 
 <table style="width:100%;">
 	<tbody>
@@ -2004,16 +2134,16 @@ nomenclatural data.
 			<td>Basionym</td>
 		</tr>
 		<tr>
-			<td></td>
-			<td><b>required:</b> No — <b>repeatable:</b> No</td>
-		</tr>
-		<tr>
 			<td>Definition</td>
 			<td><p>Epithet- or name-bringing synonym.</p></td>
 		</tr>
 		<tr>
 			<td>Usage</td>
 			<td><p>A <code>basionym</code> is another Taxon Name; a Taxon Name can have only one <code>basionym</code>.</p></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td><b>required:</b> No — <b>repeatable:</b> No</td>
 		</tr>
 		<tr>
 			<td>Comments</td>
@@ -2053,7 +2183,7 @@ nomenclatural data.
 	</tbody>
 </table>
 
-### tcs:replacedName
+#### tcs:replacedName
 
 <table style="width:100%;">
 	<tbody>
@@ -2070,16 +2200,16 @@ nomenclatural data.
 			<td>Replaced name</td>
 		</tr>
 		<tr>
-			<td></td>
-			<td><b>required:</b> No — <b>repeatable:</b> No</td>
-		</tr>
-		<tr>
 			<td>Definition</td>
 			<td><p>The legitimate or illegitimate, previously published name on which a  replacement name (nomen novum) is based.</p></td>
 		</tr>
 		<tr>
 			<td>Usage</td>
 			<td><p><code>replacedName</code> is another Taxon Name; a Taxon Name can have only one  <code>replacedName</code>.</p></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td><b>required:</b> No — <b>repeatable:</b> No</td>
 		</tr>
 		<tr>
 			<td>Comments</td>
@@ -2148,7 +2278,7 @@ nomenclatural data.
 	</tbody>
 </table>
 
-### tcs:basedOn
+#### tcs:basedOn
 
 <table style="width:100%;">
 	<tbody>
@@ -2165,16 +2295,16 @@ nomenclatural data.
 			<td>Based on</td>
 		</tr>
 		<tr>
-			<td></td>
-			<td><b>required:</b> No — <b>repeatable:</b> No</td>
-		</tr>
-		<tr>
 			<td>Definition</td>
 			<td><p>Earlier name on which this name is based</p></td>
 		</tr>
 		<tr>
 			<td>Usage</td>
 			<td><p><code>basedOn</code> is another Taxon Name; a Taxon Name can have only one <code>basedOn</code>. The term should only be used in situations where the semantically more meaningful <code>basionym</code> and <code>replacedName</code> cannot be used.</p></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td><b>required:</b> No — <b>repeatable:</b> No</td>
 		</tr>
 		<tr>
 			<td>Comments</td>
@@ -2187,7 +2317,7 @@ nomenclatural data.
 	</tbody>
 </table>
 
-### tcs:laterHomonymOf
+#### tcs:laterHomonymOf
 
 <table style="width:100%;">
 	<tbody>
@@ -2204,16 +2334,16 @@ nomenclatural data.
 			<td>Later homonym of</td>
 		</tr>
 		<tr>
-			<td></td>
-			<td><b>required:</b> No — <b>repeatable:</b> No</td>
-		</tr>
-		<tr>
 			<td>Definition</td>
 			<td><p>An older legitimate name with the same spelling but a different nomenclatural type</p></td>
 		</tr>
 		<tr>
 			<td>Usage</td>
 			<td><p><code>laterHomonymOf</code> is another Taxon Name object</p></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td><b>required:</b> No — <b>repeatable:</b> No</td>
 		</tr>
 		<tr>
 			<td>Comments</td>
@@ -2226,7 +2356,7 @@ nomenclatural data.
 	</tbody>
 </table>
 
-### tcs:conservedAgainst
+#### tcs:conservedAgainst
 
 <table style="width:100%;">
 	<tbody>
@@ -2243,16 +2373,16 @@ nomenclatural data.
 			<td>Conserved Against</td>
 		</tr>
 		<tr>
-			<td></td>
-			<td><b>required:</b> No — <b>repeatable:</b> Yes</td>
-		</tr>
-		<tr>
 			<td>Definition</td>
 			<td><p>Name(s) against which this name is conserved.</p></td>
 		</tr>
 		<tr>
 			<td>Usage</td>
 			<td><p>The <code>conservedAgainst</code> property takes another Taxon Name; a Taxon Name can  be conserved against more than one other Taxon Names.</p></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td><b>required:</b> No — <b>repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Comments</td>
@@ -2293,7 +2423,7 @@ nomenclatural data.
 	</tbody>
 </table>
 
-### tcs:combinationAuthor
+#### tcs:combinationAuthor
 
 <table style="width:100%;">
 	<tbody>
@@ -2310,16 +2440,16 @@ nomenclatural data.
 			<td>Combination author</td>
 		</tr>
 		<tr>
-			<td></td>
-			<td><b>required:</b> No — <b>repeatable:</b> Yes</td>
-		</tr>
-		<tr>
 			<td>Definition</td>
 			<td><p>Author of the combination</p></td>
 		</tr>
 		<tr>
 			<td>Usage</td>
 			<td><p><code>combinationAuthor</code> is an IRI property. It can be a person or a list of persons.</p></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td><b>required:</b> No — <b>repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Comments</td>
@@ -2353,7 +2483,7 @@ nomenclatural data.
 	</tbody>
 </table>
 
-### tcs:combinationAuthorLiteral
+#### tcs:combinationAuthorLiteral
 
 <table style="width:100%;">
 	<tbody>
@@ -2370,16 +2500,16 @@ nomenclatural data.
 			<td>Combination author literal</td>
 		</tr>
 		<tr>
-			<td></td>
-			<td><b>required:</b> No — <b>repeatable:</b> No</td>
-		</tr>
-		<tr>
 			<td>Definition</td>
 			<td><p>Author of the combination</p></td>
 		</tr>
 		<tr>
 			<td>Usage</td>
 			<td><p><code>combinationAuthorLiteral</code> is a Literal property.</p></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td><b>required:</b> No — <b>repeatable:</b> No</td>
 		</tr>
 		<tr>
 			<td>Comments</td>
@@ -2392,7 +2522,7 @@ nomenclatural data.
 	</tbody>
 </table>
 
-### tcs:basionymAuthor
+#### tcs:basionymAuthor
 
 <table style="width:100%;">
 	<tbody>
@@ -2409,16 +2539,16 @@ nomenclatural data.
 			<td>Basionym author</td>
 		</tr>
 		<tr>
-			<td></td>
-			<td><b>required:</b> No — <b>repeatable:</b> Yes</td>
-		</tr>
-		<tr>
 			<td>Definition</td>
 			<td><p>Author of the basionym of the name</p></td>
 		</tr>
 		<tr>
 			<td>Usage</td>
 			<td><p><code>basionymAuthor</code> is an IRI property. It can be a person or a list of persons.</p></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td><b>required:</b> No — <b>repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Comments</td>
@@ -2473,7 +2603,7 @@ _:b1 a rdf:Seq ;
 	</tbody>
 </table>
 
-### tcs:basionymAuthorLiteral
+#### tcs:basionymAuthorLiteral
 
 <table style="width:100%;">
 	<tbody>
@@ -2490,16 +2620,16 @@ _:b1 a rdf:Seq ;
 			<td>Basionym author literal</td>
 		</tr>
 		<tr>
-			<td></td>
-			<td><b>required:</b> No — <b>repeatable:</b> No</td>
-		</tr>
-		<tr>
 			<td>Definition</td>
 			<td><p>Author of the basionym of the name</p></td>
 		</tr>
 		<tr>
 			<td>Usage</td>
 			<td><p><code>basionymAuthorLiteral</code> is a Literal property.</p></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td><b>required:</b> No — <b>repeatable:</b> No</td>
 		</tr>
 		<tr>
 			<td>Comments</td>
@@ -2512,7 +2642,7 @@ _:b1 a rdf:Seq ;
 	</tbody>
 </table>
 
-### tcs:combinationAscribedAuthor
+#### tcs:combinationAscribedAuthor
 
 <table style="width:100%;">
 	<tbody>
@@ -2529,16 +2659,16 @@ _:b1 a rdf:Seq ;
 			<td>Combination ascribed author</td>
 		</tr>
 		<tr>
-			<td></td>
-			<td><b>required:</b> No — <b>repeatable:</b> Yes</td>
-		</tr>
-		<tr>
 			<td>Definition</td>
 			<td><p>Ascribed author of the present name</p></td>
 		</tr>
 		<tr>
 			<td>Usage</td>
 			<td><p><code>combinationAscribedAuthor</code> is an IRI property. It can be a person or a list of persons.</p></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td><b>required:</b> No — <b>repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Comments</td>
@@ -2578,7 +2708,7 @@ _:b1 a rdf:Seq ;
 	</tbody>
 </table>
 
-### tcs:combinationAscribedAuthorLiteral
+#### tcs:combinationAscribedAuthorLiteral
 
 <table style="width:100%;">
 	<tbody>
@@ -2595,16 +2725,16 @@ _:b1 a rdf:Seq ;
 			<td>Combination ascribed author literal</td>
 		</tr>
 		<tr>
-			<td></td>
-			<td><b>required:</b> No — <b>repeatable:</b> No</td>
-		</tr>
-		<tr>
 			<td>Definition</td>
 			<td><p>Ascribed author of the present name</p></td>
 		</tr>
 		<tr>
 			<td>Usage</td>
 			<td><p><code>combinationAscribedAuthorLiteral</code> is a Literal property.</p></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td><b>required:</b> No — <b>repeatable:</b> No</td>
 		</tr>
 		<tr>
 			<td>Comments</td>
@@ -2617,7 +2747,7 @@ _:b1 a rdf:Seq ;
 	</tbody>
 </table>
 
-### tcs:basionymAscribedAuthor
+#### tcs:basionymAscribedAuthor
 
 <table style="width:100%;">
 	<tbody>
@@ -2634,16 +2764,16 @@ _:b1 a rdf:Seq ;
 			<td>Basionym author</td>
 		</tr>
 		<tr>
-			<td></td>
-			<td><b>required:</b> No — <b>repeatable:</b> Yes</td>
-		</tr>
-		<tr>
 			<td>Definition</td>
 			<td><p>Ascribed author of the basionym of the name</p></td>
 		</tr>
 		<tr>
 			<td>Usage</td>
 			<td><p><code>basionymAscribedAuthor</code> is an IRI property. It can be a person or a list of persons.</p></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td><b>required:</b> No — <b>repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Comments</td>
@@ -2698,7 +2828,7 @@ _:b1 a rdf:Seq ;
 	</tbody>
 </table>
 
-### tcs:basionymAscribedAuthorLiteral
+#### tcs:basionymAscribedAuthorLiteral
 
 <table style="width:100%;">
 	<tbody>
@@ -2715,16 +2845,16 @@ _:b1 a rdf:Seq ;
 			<td>Basionym author literal</td>
 		</tr>
 		<tr>
-			<td></td>
-			<td><b>required:</b> No — <b>repeatable:</b> No</td>
-		</tr>
-		<tr>
 			<td>Definition</td>
 			<td><p>Ascribed author of the basionym of the name</p></td>
 		</tr>
 		<tr>
 			<td>Usage</td>
 			<td><p><code>basionymAscribedAuthorLiteral</code> is a Literal property.</p></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td><b>required:</b> No — <b>repeatable:</b> No</td>
 		</tr>
 		<tr>
 			<td>Comments</td>
@@ -2737,7 +2867,7 @@ _:b1 a rdf:Seq ;
 	</tbody>
 </table>
 
-### dwc:scientificNameAuthorship
+#### dwc:scientificNameAuthorship
 
 <table style="width:100%;">
 	<tbody>
@@ -2754,10 +2884,6 @@ _:b1 a rdf:Seq ;
 			<td>Scientific Name Authorship</td>
 		</tr>
 		<tr>
-			<td></td>
-			<td><b>required:</b> No — <b>repeatable:</b> No</td>
-		</tr>
-		<tr>
 			<td>Definition</td>
 			<td><p>The authorship information for the <code>scientificName</code> formatted according to  the conventions of the applicable <code>nomenclaturalCode</code>.</p></td>
 		</tr>
@@ -2766,13 +2892,17 @@ _:b1 a rdf:Seq ;
 			<td><p><code>scientificNameAuthorship</code> can be used if the <code>taxonNameString</code> is a  scientific name.</p></td>
 		</tr>
 		<tr>
+			<td></td>
+			<td><b>required:</b> No — <b>repeatable:</b> No</td>
+		</tr>
+		<tr>
 			<td>GitHub issue</td>
 			<td>https://github.com/tdwg/tcs2/issues/24</td>
 		</tr>
 	</tbody>
 </table>
 
-### dwc:namePublishedIn
+#### dwc:namePublishedIn
 
 <table style="width:100%;">
 	<tbody>
@@ -2789,12 +2919,12 @@ _:b1 a rdf:Seq ;
 			<td>Name Published In</td>
 		</tr>
 		<tr>
-			<td></td>
-			<td><b>required:</b> No — <b>repeatable:</b> No</td>
-		</tr>
-		<tr>
 			<td>Definition</td>
 			<td><p>A reference for the publication in which the dwc:scientificName was  originally established under the rules of the associated  dwc:nomenclaturalCode.</p></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td><b>required:</b> No — <b>repeatable:</b> No</td>
 		</tr>
 		<tr>
 			<td>Comments</td>
@@ -2807,7 +2937,7 @@ _:b1 a rdf:Seq ;
 	</tbody>
 </table>
 
-### dwc:namePublishedInYear
+#### dwc:namePublishedInYear
 
 <table style="width:100%;">
 	<tbody>
@@ -2824,10 +2954,6 @@ _:b1 a rdf:Seq ;
 			<td>Name Published In Year</td>
 		</tr>
 		<tr>
-			<td></td>
-			<td><b>required:</b> No — <b>repeatable:</b> No</td>
-		</tr>
-		<tr>
 			<td>Definition</td>
 			<td><p>The four-digit year in which the <code>scientificName</code> was published.</p></td>
 		</tr>
@@ -2836,13 +2962,17 @@ _:b1 a rdf:Seq ;
 			<td><p>This is the publication year for the present name combination, not the basionym should this be a new combination.</p></td>
 		</tr>
 		<tr>
+			<td></td>
+			<td><b>required:</b> No — <b>repeatable:</b> No</td>
+		</tr>
+		<tr>
 			<td>GitHub issue</td>
 			<td>https://github.com/tdwg/tcs2/issues/31</td>
 		</tr>
 	</tbody>
 </table>
 
-### dwc:genericName
+#### dwc:genericName
 
 <table style="width:100%;">
 	<tbody>
@@ -2859,10 +2989,6 @@ _:b1 a rdf:Seq ;
 			<td>Generic Name</td>
 		</tr>
 		<tr>
-			<td></td>
-			<td><b>required:</b> No — <b>repeatable:</b> No</td>
-		</tr>
-		<tr>
 			<td>Definition</td>
 			<td><p>The genus part of the <code>scientificName</code> without authorship.</p></td>
 		</tr>
@@ -2871,13 +2997,17 @@ _:b1 a rdf:Seq ;
 			<td><p>This property should only be used for names below the rank of genus.</p></td>
 		</tr>
 		<tr>
+			<td></td>
+			<td><b>required:</b> No — <b>repeatable:</b> No</td>
+		</tr>
+		<tr>
 			<td>GitHub issue</td>
 			<td>https://github.com/tdwg/tcs2/issues/19</td>
 		</tr>
 	</tbody>
 </table>
 
-### dwc:infragenericEpithet
+#### dwc:infragenericEpithet
 
 <table style="width:100%;">
 	<tbody>
@@ -2894,10 +3024,6 @@ _:b1 a rdf:Seq ;
 			<td>Infrageneric Epithet</td>
 		</tr>
 		<tr>
-			<td></td>
-			<td><b>required:</b> No — <b>repeatable:</b> No</td>
-		</tr>
-		<tr>
 			<td>Definition</td>
 			<td><p>The infrageneric part of combinations at ranks above species but below  genus.</p></td>
 		</tr>
@@ -2906,13 +3032,17 @@ _:b1 a rdf:Seq ;
 			<td><p>Names at ranks between species and genus, e.g. subgenera and sections, are  composed of two parts; the genus and the infrageneric epithet. This property  should therefore always be accompanied by the <code>genericName</code> property. If the  <code>infragenericEpithet</code> property is present, the <code>specificEpithet</code> and  <code>infraspecificEpithet</code> properties should not be present. </p></td>
 		</tr>
 		<tr>
+			<td></td>
+			<td><b>required:</b> No — <b>repeatable:</b> No</td>
+		</tr>
+		<tr>
 			<td>GitHub issue</td>
 			<td>https://github.com/tdwg/tcs2/issues/20</td>
 		</tr>
 	</tbody>
 </table>
 
-### dwc:specificEpithet
+#### dwc:specificEpithet
 
 <table style="width:100%;">
 	<tbody>
@@ -2929,10 +3059,6 @@ _:b1 a rdf:Seq ;
 			<td>Specific Epithet</td>
 		</tr>
 		<tr>
-			<td></td>
-			<td><b>required:</b> No — <b>repeatable:</b> No</td>
-		</tr>
-		<tr>
 			<td>Definition</td>
 			<td><p>The name of the first or species epithet of the scientificName.</p></td>
 		</tr>
@@ -2941,13 +3067,17 @@ _:b1 a rdf:Seq ;
 			<td><p>Names at ranks of species and below are composed of two or three words; the  genus name, the specific epithet and possibly an infraspecific epithet.  This property should therefore always be accompanied by the <code>genus</code> property.  If the <code>specificEpithet</code> property is present the <code>infragenericEpithet</code>  property should not be present.</p></td>
 		</tr>
 		<tr>
+			<td></td>
+			<td><b>required:</b> No — <b>repeatable:</b> No</td>
+		</tr>
+		<tr>
 			<td>GitHub issue</td>
 			<td>https://github.com/tdwg/tcs2/issues/21</td>
 		</tr>
 	</tbody>
 </table>
 
-### dwc:infraspecificEpithet
+#### dwc:infraspecificEpithet
 
 <table style="width:100%;">
 	<tbody>
@@ -2964,10 +3094,6 @@ _:b1 a rdf:Seq ;
 			<td>Infraspecific Epithet</td>
 		</tr>
 		<tr>
-			<td></td>
-			<td><b>required:</b> No — <b>repeatable:</b> No</td>
-		</tr>
-		<tr>
 			<td>Definition</td>
 			<td><p>The name of the lowest or terminal infraspecific epithet of the  <code>scientificName</code>, excluding any rank designation.</p></td>
 		</tr>
@@ -2976,13 +3102,17 @@ _:b1 a rdf:Seq ;
 			<td><p>Names at ranks below species are composed of three words; the genus name,  the specific epithet and an infraspecific epithet. This property should  therefore always be accompanied by the <code>genus</code> and <code>specificEpithet</code>  properties. If the <code>infraspecificEpithet</code> property is present the  <code>infragenericEpithet</code> property should not be present.</p></td>
 		</tr>
 		<tr>
+			<td></td>
+			<td><b>required:</b> No — <b>repeatable:</b> No</td>
+		</tr>
+		<tr>
 			<td>GitHub issue</td>
 			<td>https://github.com/tdwg/tcs2/issues/22</td>
 		</tr>
 	</tbody>
 </table>
 
-### dwc:cultivarEpithet
+#### dwc:cultivarEpithet
 
 <table style="width:100%;">
 	<tbody>
@@ -2999,10 +3129,6 @@ _:b1 a rdf:Seq ;
 			<td>Cultivar Epithet</td>
 		</tr>
 		<tr>
-			<td></td>
-			<td><b>required:</b> No — <b>repeatable:</b> No</td>
-		</tr>
-		<tr>
 			<td>Definition</td>
 			<td><p>Part of the name of a cultivar, cultivar group or grex that follows the  scientific name.</p></td>
 		</tr>
@@ -3011,15 +3137,19 @@ _:b1 a rdf:Seq ;
 			<td><p>The cultivar epithet follows a well-formed botanical name. Only include the string of the epithet. i.e. omit the single quotes around cultivar  names, the word 'Group' that denotes cultivar group, the + sign  used in chimeras and the 'gx' suffix in greges.</p></td>
 		</tr>
 		<tr>
+			<td></td>
+			<td><b>required:</b> No — <b>repeatable:</b> No</td>
+		</tr>
+		<tr>
 			<td>GitHub issue</td>
 			<td>https://github.com/tdwg/tcs2/issues/23</td>
 		</tr>
 	</tbody>
 </table>
 
-## Nomenclatural Type
+### Nomenclatural Type
 
-### tcs:NomenclaturalType
+#### tcs:NomenclaturalType
 
 <table style="width:100%;">
 	<tbody>
@@ -3041,7 +3171,7 @@ _:b1 a rdf:Seq ;
 		</tr>
 		<tr>
 			<td>Usage</td>
-			<td><p>A Nomenclatural Type requires a <code>typifiedName</code> and either a <code>typeName</code> or  <code>typeSpecimen</code>.</p></td>
+			<td><p>A Nomenclatural Type requires a <code>typifiedName</code>, <code>typeOfType</code> and either a <code>typeName</code> or <code>typeSpecimen</code>.</p></td>
 		</tr>
 		<tr>
 			<td>Comments</td>
@@ -3097,7 +3227,7 @@ _:b1 a rdf:Seq ;
 	</tbody>
 </table>
 
-### tcs:typifiedName
+#### tcs:typifiedName
 
 <table style="width:100%;">
 	<tbody>
@@ -3114,16 +3244,16 @@ _:b1 a rdf:Seq ;
 			<td>Typified Name</td>
 		</tr>
 		<tr>
-			<td></td>
-			<td><b>required:</b> Yes — <b>repeatable:</b> No</td>
-		</tr>
-		<tr>
 			<td>Definition</td>
 			<td><p>The scientific name for which the specimen or other name is the type.</p></td>
 		</tr>
 		<tr>
 			<td>Usage</td>
 			<td><p><code>typifiedName</code> is a Taxon Name and is required; a Nomenclatural Type can  typify only one Taxon Name.</p></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td><b>required:</b> Yes — <b>repeatable:</b> No</td>
 		</tr>
 		<tr>
 			<td>Comments</td>
@@ -3136,7 +3266,7 @@ _:b1 a rdf:Seq ;
 	</tbody>
 </table>
 
-### tcs:typeOfType
+#### tcs:typeOfType
 
 <table style="width:100%;">
 	<tbody>
@@ -3153,16 +3283,16 @@ _:b1 a rdf:Seq ;
 			<td>Type of Type</td>
 		</tr>
 		<tr>
-			<td></td>
-			<td><b>required:</b> No — <b>repeatable:</b> No</td>
-		</tr>
-		<tr>
 			<td>Definition</td>
 			<td><p>The kind of type this specimen is, e.g. holotype, isotype etc.</p></td>
 		</tr>
 		<tr>
 			<td>Usage</td>
 			<td><p><code>typeOfType</code> is an IRI term and should take its value from a controlled  vocabulary. A Nomenclatural Type can have only one <code>typeOfType</code></p></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td><b>required:</b> Yes — <b>repeatable:</b> No</td>
 		</tr>
 		<tr>
 			<td>Comments</td>
@@ -3175,7 +3305,7 @@ _:b1 a rdf:Seq ;
 	</tbody>
 </table>
 
-### tcs:typeName
+#### tcs:typeName
 
 <table style="width:100%;">
 	<tbody>
@@ -3192,16 +3322,16 @@ _:b1 a rdf:Seq ;
 			<td>Type Name</td>
 		</tr>
 		<tr>
-			<td></td>
-			<td><b>required:</b> No — <b>repeatable:</b> No</td>
-		</tr>
-		<tr>
 			<td>Definition</td>
 			<td><p>The name that is the type.</p></td>
 		</tr>
 		<tr>
 			<td>Usage</td>
 			<td><p><code>typeName</code> is a Taxon Name. A nomenclatural type can have only one  <code>typeName</code>.</p></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td><b>required:</b> No — <b>repeatable:</b> No</td>
 		</tr>
 		<tr>
 			<td>Comments</td>
@@ -3214,7 +3344,7 @@ _:b1 a rdf:Seq ;
 	</tbody>
 </table>
 
-### tcs:typeSpecimen
+#### tcs:typeSpecimen
 
 <table style="width:100%;">
 	<tbody>
@@ -3231,16 +3361,16 @@ _:b1 a rdf:Seq ;
 			<td>Type Specimen</td>
 		</tr>
 		<tr>
-			<td></td>
-			<td><b>required:</b> No — <b>repeatable:</b> No</td>
-		</tr>
-		<tr>
 			<td>Definition</td>
 			<td><p>The specimen that is the type.</p></td>
 		</tr>
 		<tr>
 			<td>Usage</td>
 			<td><p><code>typeSpecimen</code> takes an IRI – or object – that refers to a specimen. A  Nomenclatural Type can only have one <code>typeSpecimen</code>.</p></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td><b>required:</b> No — <b>repeatable:</b> No</td>
 		</tr>
 		<tr>
 			<td>Comments</td>
@@ -3253,7 +3383,7 @@ _:b1 a rdf:Seq ;
 	</tbody>
 </table>
 
-### tcs:typePublishedIn
+#### tcs:typePublishedIn
 
 <table style="width:100%;">
 	<tbody>
@@ -3270,16 +3400,16 @@ _:b1 a rdf:Seq ;
 			<td>Type Published In</td>
 		</tr>
 		<tr>
-			<td></td>
-			<td><b>required:</b> No — <b>repeatable:</b> No</td>
-		</tr>
-		<tr>
 			<td>Definition</td>
 			<td><p>Publication where the type was nominated</p></td>
 		</tr>
 		<tr>
 			<td>Usage</td>
 			<td><p><code>typePublishedIn</code> is an IRI term. A Nomenclatural Type can have at most one  <code>typePublishedIn</code>. </p></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td><b>required:</b> No — <b>repeatable:</b> No</td>
 		</tr>
 		<tr>
 			<td>Comments</td>

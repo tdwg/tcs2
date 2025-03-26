@@ -29,5 +29,5 @@ for config in documents:
     outputObject.write(output)
     outputObject.close()
     
-    tools.create_examples_page(config)
+    # tools.create_examples_page(config)
     tools.create_sssom_page(config)
