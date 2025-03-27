@@ -544,7 +544,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		</tr>
 		<tr>
 			<td>Comments</td>
-			<td><p>The <code>vernacularName</code> property can be used when a vernacular name is used alongside a scientific name, which is the <code>taxonName</code>. If a vernacular name is the only name, the <code>taxonName</code> property should be used. The object of the <code>vernacularName</code> property can be a Taxon Name, but another label object, such as the GBIF <a href="https://rs.gbif.org/extension/gbif/1.0/vernacularname.xml">Vernacular Name</a>, might be preferrable, especially if there can be multiple vernacular names for a concept.</p></td>
+			<td><p>The <code>vernacularName</code> property can be used when a vernacular name is used alongside a scientific name, which is the <code>taxonName</code>. If a vernacular name is the only name, the <code>taxonName</code> property SHOULD be used. The object of the <code>vernacularName</code> property can be a Taxon Name, but another label object, such as the GBIF <a href="https://rs.gbif.org/extension/gbif/1.0/vernacularname.xml">Vernacular Name</a>, might be preferrable, especially if there can be multiple vernacular names for a concept.</p></td>
 		</tr>
 		<tr>
 			<td>Examples</td>
@@ -613,7 +613,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		</tr>
 		<tr>
 			<td>Comments</td>
-			<td><p>This property takes an object or IRI and it is recommended to use a value from an existing controlled vocabulary. While there is no TDWG vocabulary yet, the GBIF Taxonomic Rank Vocabulary (https://rs.gbif.org/vocabulary/gbif/rank.xml) is recommended.</p>
+			<td><p>This property takes an object or IRI and it is RECOMMENDED to use a value from an existing controlled vocabulary. While there is no TDWG vocabulary yet, the GBIF Taxonomic Rank Vocabulary (https://rs.gbif.org/vocabulary/gbif/rank.xml) is RECOMMENDED.</p>
 <p>A <code>TaxonName</code> takes its <code>taxonRank</code> from the <code>taxonConcept</code> it is applied to, so this property can also be used on a (stand-alone) <code>TaxonName</code> object.</p></td>
 		</tr>
 		<tr>
@@ -1927,7 +1927,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		</tr>
 		<tr>
 			<td>Comments</td>
-			<td><p>This is the IRI equivalent of the Darwin Core <code>nomenclaturalCode</code>. In the  absence of a TDWG vocabulary, it is recommended to use a value from the GBIF  Nomenclatural Codes Vocabulary  (https://rs.gbif.org/vocabulary/gbif/nomenclatural_code.xml).</p></td>
+			<td><p>This is the IRI equivalent of the Darwin Core <code>nomenclaturalCode</code>. In the  absence of a TDWG vocabulary, it is RECOMMENDED to use a value from the GBIF  Nomenclatural Codes Vocabulary  (https://rs.gbif.org/vocabulary/gbif/nomenclatural_code.xml).</p></td>
 		</tr>
 		<tr>
 			<td>GitHub issue</td>
@@ -1966,7 +1966,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		</tr>
 		<tr>
 			<td>Comments</td>
-			<td><p>This is the IRI equivalent of the Darwin Core <code>nomenclaturalStatus</code>. In the  absence of a TDWG vocabulary, it is recommended to use a value from the GBIF  Nomenclatural Status Vocabulary  (https://rs.gbif.org/vocabulary/gbif/nomenclatural_status.xml).</p></td>
+			<td><p>This is the IRI equivalent of the Darwin Core <code>nomenclaturalStatus</code>. In the  absence of a TDWG vocabulary, it is RECOMMENDED to use a value from the GBIF  Nomenclatural Status Vocabulary  (https://rs.gbif.org/vocabulary/gbif/nomenclatural_status.xml).</p></td>
 		</tr>
 		<tr>
 			<td>GitHub issue</td>
@@ -2147,7 +2147,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		</tr>
 		<tr>
 			<td>Comments</td>
-			<td><p>The term <code>basionym</code> is in the draft BioCode (<a href="../bibliography/#greuter_draft_2011">[greuter_draft_2011]</a>), so can be used for all organisms. The <code>basionym</code> property is only used for new combinations ('comb. nov.'). If the new name is a replacement name ('nom. nov.') the <code>replacedName</code> property should be used instead. It should be noted that a basionym is always a different name or combination: a name cannot be its own basionym.</p></td>
+			<td><p>The term <code>basionym</code> is in the draft BioCode (<a href="../bibliography/#greuter_draft_2011">[greuter_draft_2011]</a>), so can be used for all organisms. The <code>basionym</code> property is only used for new combinations ('comb. nov.'). If the new name is a replacement name ('nom. nov.') the <code>replacedName</code> property SHOULD be used instead. It SHOULD be noted that a basionym is always a different name or combination: a name cannot be its own basionym.</p></td>
 		</tr>
 		<tr>
 			<td>Examples</td>
@@ -2300,7 +2300,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		</tr>
 		<tr>
 			<td>Usage</td>
-			<td><p><code>basedOn</code> is another Taxon Name; a Taxon Name can have only one <code>basedOn</code>. The term should only be used in situations where the semantically more meaningful <code>basionym</code> and <code>replacedName</code> cannot be used.</p></td>
+			<td><p><code>basedOn</code> is another Taxon Name; a Taxon Name can have only one <code>basedOn</code>. The term SHOULD only be used in situations where the semantically more meaningful <code>basionym</code> and <code>replacedName</code> cannot be used.</p></td>
 		</tr>
 		<tr>
 			<td></td>
@@ -2347,7 +2347,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		</tr>
 		<tr>
 			<td>Comments</td>
-			<td><p>If there are more than two homonyms, the oldest one should be given here. In zoology, this is the <em>senior homonym</em>.</p></td>
+			<td><p>If there are more than two homonyms, the oldest name SHOULD be given here. In zoology, this is the <em>senior homonym</em>.</p></td>
 		</tr>
 		<tr>
 			<td>GitHub issue</td>
@@ -3288,7 +3288,7 @@ _:b1 a rdf:Seq ;
 		</tr>
 		<tr>
 			<td>Usage</td>
-			<td><p><code>typeOfType</code> is an IRI term and should take its value from a controlled  vocabulary. A Nomenclatural Type can have only one <code>typeOfType</code></p></td>
+			<td><p><code>typeOfType</code> is an IRI term and SHOULD take its value from a controlled  vocabulary. A Nomenclatural Type can have only one <code>typeOfType</code></p></td>
 		</tr>
 		<tr>
 			<td></td>
@@ -3296,7 +3296,7 @@ _:b1 a rdf:Seq ;
 		</tr>
 		<tr>
 			<td>Comments</td>
-			<td><p>This is an IRI property. In the absence of a TDWG controlled vocabulary,  it is recommended to use a value from the GBIF Nomenclatural Type Status  Vocabulary (https://rs.gbif.org/vocabulary/gbif/type_status.xml).</p></td>
+			<td><p>This is an IRI property. In the absence of a TDWG controlled vocabulary,  it is RECOMMENDED to use a value from the GBIF Nomenclatural Type Status  Vocabulary (https://rs.gbif.org/vocabulary/gbif/type_status.xml).</p></td>
 		</tr>
 		<tr>
 			<td>GitHub issue</td>

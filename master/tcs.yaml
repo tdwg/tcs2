@@ -248,7 +248,7 @@
   notes: >-
     The `vernacularName` property can be used when a vernacular name is used
     alongside a scientific name, which is the `taxonName`. If a vernacular name
-    is the only name, the `taxonName` property should be used. The object of the
+    is the only name, the `taxonName` property SHOULD be used. The object of the
     `vernacularName` property can be a Taxon Name, but another label object,
     such as the GBIF [Vernacular
     Name](https://rs.gbif.org/extension/gbif/1.0/vernacularname.xml), might be
@@ -289,10 +289,10 @@
     `taxonRank` is an IRI property; a Taxon Concept or Taxon Name can have
     only one `taxonRank`.
   notes: >-
-    This property takes an object or IRI and it is recommended to use a value
+    This property takes an object or IRI and it is RECOMMENDED to use a value
     from an existing controlled vocabulary. While there is no TDWG vocabulary
     yet, the GBIF Taxonomic Rank Vocabulary
-    (https://rs.gbif.org/vocabulary/gbif/rank.xml) is recommended.
+    (https://rs.gbif.org/vocabulary/gbif/rank.xml) is RECOMMENDED.
 
 
     A `TaxonName` takes its `taxonRank` from the `taxonConcept` it is
@@ -438,7 +438,7 @@
     ![](../media/taxon-relationship-type-includes.jpg)
 
 
-    This relation type can also be written as the formula **A > B**.
+    This relation can also be written as the formula **A > B**.
   examples: 
     - TaxonConcept-includes-example-1
     - TaxonConceptMapping-includes-example-2
@@ -480,7 +480,7 @@
     ![](../media/taxon-relationship-type-is-included-in.jpg)
 
 
-    This relation type can also be written as the formula **A < B**.
+    This relation can also be written as the formula **A < B**.
   examples: 
     - TaxonConcept-isIncludedIn-example-1
     - TaxonConceptMapping-isIncludedIn-example-2
@@ -886,7 +886,7 @@
     `nomenclaturalCode`.
   notes: >-
     This is the IRI equivalent of the Darwin Core `nomenclaturalCode`. In the 
-    absence of a TDWG vocabulary, it is recommended to use a value from the GBIF 
+    absence of a TDWG vocabulary, it is RECOMMENDED to use a value from the GBIF 
     Nomenclatural Codes Vocabulary 
     (https://rs.gbif.org/vocabulary/gbif/nomenclatural_code.xml).
   type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
@@ -915,7 +915,7 @@
     `nomenclaturalStatus`.
   notes: >-
     This is the IRI equivalent of the Darwin Core `nomenclaturalStatus`. In the 
-    absence of a TDWG vocabulary, it is recommended to use a value from the GBIF 
+    absence of a TDWG vocabulary, it is RECOMMENDED to use a value from the GBIF 
     Nomenclatural Status Vocabulary 
     (https://rs.gbif.org/vocabulary/gbif/nomenclatural_status.xml).
   type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
@@ -988,7 +988,7 @@
     ([\[greuter_draft_2011\]](../bibliography/#greuter_draft_2011)), so can be
     used for all organisms. The `basionym` property is only used for new
     combinations ('comb. nov.'). If the new name is a replacement name ('nom.
-    nov.') the `replacedName` property should be used instead. It should be
+    nov.') the `replacedName` property SHOULD be used instead. It SHOULD be
     noted that a basionym is always a different name or combination: a name
     cannot be its own basionym.
   examples: 
@@ -1055,7 +1055,7 @@
     Earlier name on which this name is based
   usage: >-
     `basedOn` is another Taxon Name; a Taxon Name can have only one `basedOn`.
-    The term should only be used in situations where the semantically more
+    The term SHOULD only be used in situations where the semantically more
     meaningful `basionym` and `replacedName` cannot be used.
   notes: >-
     The `basedOn` property can be used to associate a name to a homotypic group
@@ -1078,7 +1078,7 @@
   usage: >-
     `laterHomonymOf` is another Taxon Name object
   notes: >-
-    If there are more than two homonyms, the oldest one should be given here. In
+    If there are more than two homonyms, the oldest name SHOULD be given here. In
     zoology, this is the _senior homonym_.
   type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonName
@@ -1344,11 +1344,11 @@
   definition: >-
     The kind of type this specimen is, e.g. holotype, isotype etc.
   usage: >-
-    `typeOfType` is an IRI term and should take its value from a controlled 
+    `typeOfType` is an IRI term and SHOULD take its value from a controlled 
     vocabulary. A Nomenclatural Type can have only one `typeOfType`
   notes: >-
     This is an IRI property. In the absence of a TDWG controlled vocabulary, 
-    it is recommended to use a value from the GBIF Nomenclatural Type Status 
+    it is RECOMMENDED to use a value from the GBIF Nomenclatural Type Status 
     Vocabulary (https://rs.gbif.org/vocabulary/gbif/type_status.xml).
   type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
   required: Yes
