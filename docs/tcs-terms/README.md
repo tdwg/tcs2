@@ -911,7 +911,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 			<td>Comments</td>
 			<td><p>The <code>includes</code> relation is not symmetric, its inverse relation being <code>isIncludedIn</code>, so if A <code>includes</code> B then B <code>isIncludedIn</code> A. The <code>includes</code> relation  is transitive, so if A <code>includes</code> B and B <code>includes</code> C it follows that A <code>includes</code> C.</p>
 <p><img alt="" src="../media/taxon-relationship-type-includes.jpg" /></p>
-<p>This relation type can also be written as the formula <strong>A &gt; B</strong>.</p></td>
+<p>This relation can also be written as the formula <strong>A &gt; B</strong>.</p></td>
 		</tr>
 		<tr>
 			<td>Examples</td>
@@ -978,7 +978,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 			<td>Comments</td>
 			<td><p>The <code>isIncludedIn</code> relation is not symmetric, its inverse relation being <code>includes</code>, so if A <code>isIncludedIn</code> B then B <code>includes</code> A. The <code>isIncludedIn</code> relation  is transitive, so if A <code>isIncludedIn</code> B and B <code>isIncludedIn</code> C it follows that A <code>isIncludedIn</code> C.</p>
 <p><img alt="" src="../media/taxon-relationship-type-is-included-in.jpg" /></p>
-<p>This relation type can also be written as the formula <strong>A &lt; B</strong>.</p></td>
+<p>This relation can also be written as the formula <strong>A &lt; B</strong>.</p></td>
 		</tr>
 		<tr>
 			<td>Examples</td>
