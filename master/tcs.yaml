@@ -14,7 +14,7 @@
     A taxonomic position is an opinion about the definition of a taxonomic
     group. A Taxon Concept is identifiable, because it combines a label –
     `taxonName` in TCS – with a source – `accordingTo`. Both the `taxonName` and
-    `accordingTo` properties are required on a `tcs:TaxonConcept`. When
+    `accordingTo` properties are REQUIRED on a `tcs:TaxonConcept`. When
     mentioning a taxon concept, the label and the source are combined, separated
     by 'sec.' (from, 'secundus', meaning 'according to') or 'sensu' (meaning the
     same). The term `dcterms:title` has been borrowed from Dublin Core to provide this
@@ -91,12 +91,12 @@
     Reference to the treatment or other source in which a Taxon Concept is 
     established or used. 
   usage: >-
-    `accordingTo` is an IRI term and is required on a Taxon Concept. A 
+    `accordingTo` is an IRI term and is REQUIRED on a Taxon Concept. A 
     Taxon Concept can have only one `accordingTo`. 
   notes: >-
     Every Taxon Concept is in some sort of treatment and this treatment 
     provides important context without which we do not know what a taxon name 
-    really means and therefore the `accordingTo` property is required for a TCS 
+    really means and therefore the `accordingTo` property is REQUIRED for a TCS 
     Taxon Concept. In TCS 2, `accordingTo` has to be a reference to some sort 
     of resource rather than just a person's name. However, TCS is lenient about 
     the nature of this resource and, apart from references to bibliographic 
@@ -147,7 +147,7 @@
   label: Taxon name
   definition: The accepted name for the taxonomic group.
   usage: >-
-    `taxonName` is an IRI term and is required on a TCS Taxon Concept. A Taxon 
+    `taxonName` is an IRI term and is REQUIRED on a TCS Taxon Concept. A Taxon 
     Concept can only have one `taxonName`.
   notes: >-
     The `taxonName` can be anything from a well-formed scientific name to an 
@@ -644,7 +644,9 @@
   definition: >-
     Alignment or mapping of two Taxon Concepts in different taxonomies or
     different versions of a taxonomy
-  usage: When using this class all properties are required
+  usage: >-
+    When using this class the `subjectTaxonConcept`, `mappingRelation` and
+    `objectTaxonConcept` are REQUIRED 
   notes: >-
     The Taxon Concept Mapping class allows for adding extra data to a taxon
     concept mapping statement. As it allows for adding an 'according to' to a
@@ -690,7 +692,7 @@
   definition: >-
     Reference to the source of the taxon concept mapping.
   usage: >-
-    `mappingAccordingTo` is an IRI term and is required; a Taxon 
+    `mappingAccordingTo` is an IRI term; a Taxon 
     Concept Mapping can have only one `mappingAccordingTo`.
   notes: null
   type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
@@ -709,7 +711,7 @@
   label: Mapping relation
   definition: The kind of mapping relation between the two concepts
   usage: >-
-    This property is required; one MUST use one of the mapping properties
+    This property is REQUIRED; one MUST use one of the mapping properties
     `isCongruentWith`, `includes`, `isIncludedIn`, `partiallyOverlaps`,
     `isDisjointFrom` or `intersects`.
   notes: null
@@ -806,7 +808,7 @@
     The complete name string without any authority or year components.
   usage: >-
     `nameString` is a literal. Either `taxonomicNameString` or 
-    `dwc:scientificName` is required on a TCS Taxon Name and a Taxon Name can 
+    `dwc:scientificName` is REQUIRED on a TCS Taxon Name and a Taxon Name can 
     have only one of either.
   notes: >-
     The `nameString` property differs from the `scientificName` property 
@@ -1318,14 +1320,14 @@
   definition: >-
     The scientific name for which the specimen or other name is the type.
   usage: >-
-    `typifiedName` is a Taxon Name and is required; a Nomenclatural Type can 
+    `typifiedName` is a Taxon Name and is REQUIRED; a Nomenclatural Type can 
     typify only one Taxon Name.
   notes: >-
     The `typifiedName` property links the Nomenclatural Type back to the Taxon 
     Name. Also, when coming from the Preserved Specimen, the typified name is 
     the most important piece of information, because there is no point in 
     knowing what kind of type a specimen is without knowing for what name it 
-    is the type. Therefore, `typifiedName` is a required property.
+    is the type. Therefore, `typifiedName` is a REQUIRED property.
   type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
   organizedInClass: http://rs.tdwg.org/tcs/terms/NomenclaturalType
   required: Yes

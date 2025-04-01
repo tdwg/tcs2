@@ -210,7 +210,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		</tr>
 		<tr>
 			<td>Comments</td>
-			<td><p>A taxonomic position is an opinion about the definition of a taxonomic group. A Taxon Concept is identifiable, because it combines a label – <code>taxonName</code> in TCS – with a source – <code>accordingTo</code>. Both the <code>taxonName</code> and <code>accordingTo</code> properties are required on a <code>tcs:TaxonConcept</code>. When mentioning a taxon concept, the label and the source are combined, separated by 'sec.' (from, 'secundus', meaning 'according to') or 'sensu' (meaning the same). The term <code>dcterms:title</code> has been borrowed from Dublin Core to provide this taxon concept label. Because of the context provided by the source, taxon concepts are in principle also alignable to other Taxon Concepts using TCS concept mapping statements. The concept mapping properties in TCS are <code>isCongruentWith</code>, <code>includes</code>, <code>isIncludedIn</code>, <code>partiallyOverlaps</code>, <code>isDisjointFrom</code> and <code>intersects</code>. These properties can be used directly on a <code>TaxonConcept</code> object or as the value of the <code>tcs:mappingRelation</code> property in a <code>tcs:TaxonConceptMapping</code> object.</p>
+			<td><p>A taxonomic position is an opinion about the definition of a taxonomic group. A Taxon Concept is identifiable, because it combines a label – <code>taxonName</code> in TCS – with a source – <code>accordingTo</code>. Both the <code>taxonName</code> and <code>accordingTo</code> properties are REQUIRED on a <code>tcs:TaxonConcept</code>. When mentioning a taxon concept, the label and the source are combined, separated by 'sec.' (from, 'secundus', meaning 'according to') or 'sensu' (meaning the same). The term <code>dcterms:title</code> has been borrowed from Dublin Core to provide this taxon concept label. Because of the context provided by the source, taxon concepts are in principle also alignable to other Taxon Concepts using TCS concept mapping statements. The concept mapping properties in TCS are <code>isCongruentWith</code>, <code>includes</code>, <code>isIncludedIn</code>, <code>partiallyOverlaps</code>, <code>isDisjointFrom</code> and <code>intersects</code>. These properties can be used directly on a <code>TaxonConcept</code> object or as the value of the <code>tcs:mappingRelation</code> property in a <code>tcs:TaxonConceptMapping</code> object.</p>
 <p>The TCS Taxon Concept is applied more broadly than the term is used in science (e.g. Franz &amp; Peet 2009 <a href="../bibliography/#franz_perspectives_2009">[franz_perspectives_2009]</a>). On the one hand, things that are not generally considered to be biological taxa, e.g. hybrids and cultivars, can be casted as TCS Taxon Concepts. Also Operational Taxonomic Units (OTUs) <a href="../bibliography/#sokal_principles_1963">[sokal_principles_1963]</a> can be exchanged as Taxon Concepts, if there is a reason to do so, e.g. if one wants to align them with other Taxon Concepts later. On the other hand, entries from treatments that are considered to cite concepts from other treatments can be formulated as Taxon Concepts. Every taxon concept from a treatment that is likely to be referenced as the source of taxonomic context, for example a field guide for a determination of a specimen or a national census for an ecological study, can – and it would be very nice if they would – be stated as a Taxon Concept, so they can be aligned with other Taxon Concepts that may provide more or different taxonomic context.</p>
 <p>By contrast, entries in the nomenclature section of treatments ('TaxonomicNameUsage's sensu Senderov et al. 2018 &#91;<a href="#senderov_openbiodiv-o_2018">senderov_openbiodiv-o_2018</a>&#93;) and in lists of nomenclatural types are not Taxon Concepts.</p></td>
 		</tr>
@@ -286,7 +286,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		</tr>
 		<tr>
 			<td>Usage</td>
-			<td><p><code>accordingTo</code> is an IRI term and is required on a Taxon Concept. A  Taxon Concept can have only one <code>accordingTo</code>. </p></td>
+			<td><p><code>accordingTo</code> is an IRI term and is REQUIRED on a Taxon Concept. A  Taxon Concept can have only one <code>accordingTo</code>. </p></td>
 		</tr>
 		<tr>
 			<td></td>
@@ -294,7 +294,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		</tr>
 		<tr>
 			<td>Comments</td>
-			<td><p>Every Taxon Concept is in some sort of treatment and this treatment  provides important context without which we do not know what a taxon name  really means and therefore the <code>accordingTo</code> property is required for a TCS  Taxon Concept. In TCS 2, <code>accordingTo</code> has to be a reference to some sort  of resource rather than just a person's name. However, TCS is lenient about  the nature of this resource and, apart from references to bibliographic  resources, references to personal communications and determinations are  also acceptable, if there is value in supplying taxon concepts from such  communications as Taxon Concepts.</p>
+			<td><p>Every Taxon Concept is in some sort of treatment and this treatment  provides important context without which we do not know what a taxon name  really means and therefore the <code>accordingTo</code> property is REQUIRED for a TCS  Taxon Concept. In TCS 2, <code>accordingTo</code> has to be a reference to some sort  of resource rather than just a person's name. However, TCS is lenient about  the nature of this resource and, apart from references to bibliographic  resources, references to personal communications and determinations are  also acceptable, if there is value in supplying taxon concepts from such  communications as Taxon Concepts.</p>
 <p>The value of <code>accordingTo</code> has to be an object or IRI. This object can  contain as little as a bibliographic reference but it is much more useful  to provide it in a format that can be understood by reference managers  such as Zotero or Mendeley.</p></td>
 		</tr>
 		<tr>
@@ -376,7 +376,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		</tr>
 		<tr>
 			<td>Usage</td>
-			<td><p><code>taxonName</code> is an IRI term and is required on a TCS Taxon Concept. A Taxon  Concept can only have one <code>taxonName</code>.</p></td>
+			<td><p><code>taxonName</code> is an IRI term and is REQUIRED on a TCS Taxon Concept. A Taxon  Concept can only have one <code>taxonName</code>.</p></td>
 		</tr>
 		<tr>
 			<td></td>
@@ -425,7 +425,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		<tr>
 			<td>Comments</td>
 			<td><p>A synonym is an alternative label for a taxon, so <code>synonym</code>, like <code>taxonName</code>, is a relation between a <code>TaxonConcept</code> and a <code>TaxonName</code>, not a relationship between different taxonomic entities.</p>
-<p>The terms 'heterotypic synonym' and 'homotypic synonym' from the nomenclatural codes ('subjective synonym' and 'objective synonym', respectively, in the Zoological Code) are, in the context of Taxon Concepts and Taxon Names, best understood as synonyms (relations between Taxon Concepts and Taxon Names) and combinations (relations between Taxon Names), respectively. In TCS, combinations are dealt with using properties of the <code>TaxonName</code> class, <em>e.g.</em> <code>basionym</code> and <code>replacedName</code> (note that 'combination' is used here in a broader sense than what the term actually means). This has the advantage that people do not need to separate heterotypic and homotypic synonyms, or generally deal with nomenclature, which adds a degree of complexity that not all systems need or want. Avoiding terms that are too strictly defined in the nomenclatural codes also has the advantage that the term can, in principle, be applied to things that cannot be heterotypic or homotypic synonyms, e.g., to names that are not validly published under the relevant code, or names at different taxonomic ranks than the accepted name, and avoids inappropriate use of the terms defined in the nomenclatural codes.</p></td>
+<p>The terms 'heterotypic synonym' and 'homotypic synonym' from the nomenclatural codes ('subjective synonym' and 'objective synonym', respectively, in the Zoological Code) are, in the context of Taxon Concepts and Taxon Names, best understood as synonyms (relations between Taxon Concepts and Taxon Names) and combinations (relations between Taxon Names), respectively. In TCS, combinations are dealt with using properties of the <code>TaxonName</code> class, <em>e.g.</em> <code>basionym</code> and <code>replacedName</code> (note that 'combination' is used here in a broader sense that what the term actually means). This has the advantage that people do not need to separate heterotypic and homotypic synonyms, or generally deal with nomenclature, which adds a degree of complexity that not all systems need or want. Avoiding terms that are too strictly defined in the nomenclatural codes also has the advantage that the term can, in principle, be applied to things that cannot be heterotypic or homotypic synonyms, e.g., to names that are not validly published under the relevant code, or names at different taxonomic ranks than the accepted name, and avoids inappropriate use of the terms defined in the nomenclatural codes.</p></td>
 		</tr>
 		<tr>
 			<td>Examples</td>
@@ -1435,7 +1435,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		</tr>
 		<tr>
 			<td>Usage</td>
-			<td><p>When using this class all properties are required</p></td>
+			<td><p>When using this class the <code>subjectTaxonConcept</code>, <code>mappingRelation</code> and <code>objectTaxonConcept</code> are REQUIRED </p></td>
 		</tr>
 		<tr>
 			<td>Comments</td>
@@ -1527,7 +1527,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		</tr>
 		<tr>
 			<td>Usage</td>
-			<td><p><code>mappingAccordingTo</code> is an IRI term and is required; a Taxon  Concept Mapping can have only one <code>mappingAccordingTo</code>.</p></td>
+			<td><p><code>mappingAccordingTo</code> is an IRI term; a Taxon  Concept Mapping can have only one <code>mappingAccordingTo</code>.</p></td>
 		</tr>
 		<tr>
 			<td></td>
@@ -1562,7 +1562,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		</tr>
 		<tr>
 			<td>Usage</td>
-			<td><p>This property is required; one MUST use one of the mapping properties <code>isCongruentWith</code>, <code>includes</code>, <code>isIncludedIn</code>, <code>partiallyOverlaps</code>, <code>isDisjointFrom</code> or <code>intersects</code>.</p></td>
+			<td><p>This property is REQUIRED; one MUST use one of the mapping properties <code>isCongruentWith</code>, <code>includes</code>, <code>isIncludedIn</code>, <code>partiallyOverlaps</code>, <code>isDisjointFrom</code> or <code>intersects</code>.</p></td>
 		</tr>
 		<tr>
 			<td></td>
@@ -1806,7 +1806,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		</tr>
 		<tr>
 			<td>Usage</td>
-			<td><p><code>nameString</code> is a literal. Either <code>taxonomicNameString</code> or  <code>dwc:scientificName</code> is required on a TCS Taxon Name and a Taxon Name can  have only one of either.</p></td>
+			<td><p><code>nameString</code> is a literal. Either <code>taxonomicNameString</code> or  <code>dwc:scientificName</code> is REQUIRED on a TCS Taxon Name and a Taxon Name can  have only one of either.</p></td>
 		</tr>
 		<tr>
 			<td></td>
@@ -2959,7 +2959,7 @@ _:b1 a rdf:Seq ;
 		</tr>
 		<tr>
 			<td>Usage</td>
-			<td><p>This is the publication year for the present name combination, not the basionym SHOULD this be a new combination.</p></td>
+			<td><p>This is the publication year for the present name combination, not the basionym should this be a new combination.</p></td>
 		</tr>
 		<tr>
 			<td></td>
@@ -2994,7 +2994,7 @@ _:b1 a rdf:Seq ;
 		</tr>
 		<tr>
 			<td>Usage</td>
-			<td><p>This property SHOULD only be used for names below the rank of genus.</p></td>
+			<td><p>This property should only be used for names below the rank of genus.</p></td>
 		</tr>
 		<tr>
 			<td></td>
@@ -3029,7 +3029,7 @@ _:b1 a rdf:Seq ;
 		</tr>
 		<tr>
 			<td>Usage</td>
-			<td><p>Names at ranks between species and genus, e.g. subgenera and sections, are  composed of two parts; the genus and the infrageneric epithet. This property  SHOULD therefore always be accompanied by the <code>genericName</code> property. If the  <code>infragenericEpithet</code> property is present, the <code>specificEpithet</code> and  <code>infraspecificEpithet</code> properties SHOULD not be present. </p></td>
+			<td><p>Names at ranks between species and genus, e.g. subgenera and sections, are  composed of two parts; the genus and the infrageneric epithet. This property  should therefore always be accompanied by the <code>genericName</code> property. If the  <code>infragenericEpithet</code> property is present, the <code>specificEpithet</code> and  <code>infraspecificEpithet</code> properties should not be present. </p></td>
 		</tr>
 		<tr>
 			<td></td>
@@ -3064,7 +3064,7 @@ _:b1 a rdf:Seq ;
 		</tr>
 		<tr>
 			<td>Usage</td>
-			<td><p>Names at ranks of species and below are composed of two or three words; the  genus name, the specific epithet and possibly an infraspecific epithet.  This property SHOULD therefore always be accompanied by the <code>genus</code> property.  If the <code>specificEpithet</code> property is present the <code>infragenericEpithet</code>  property SHOULD not be present.</p></td>
+			<td><p>Names at ranks of species and below are composed of two or three words; the  genus name, the specific epithet and possibly an infraspecific epithet.  This property should therefore always be accompanied by the <code>genus</code> property.  If the <code>specificEpithet</code> property is present the <code>infragenericEpithet</code>  property should not be present.</p></td>
 		</tr>
 		<tr>
 			<td></td>
@@ -3099,7 +3099,7 @@ _:b1 a rdf:Seq ;
 		</tr>
 		<tr>
 			<td>Usage</td>
-			<td><p>Names at ranks below species are composed of three words; the genus name,  the specific epithet and an infraspecific epithet. This property SHOULD  therefore always be accompanied by the <code>genus</code> and <code>specificEpithet</code>  properties. If the <code>infraspecificEpithet</code> property is present the  <code>infragenericEpithet</code> property SHOULD not be present.</p></td>
+			<td><p>Names at ranks below species are composed of three words; the genus name,  the specific epithet and an infraspecific epithet. This property should  therefore always be accompanied by the <code>genus</code> and <code>specificEpithet</code>  properties. If the <code>infraspecificEpithet</code> property is present the  <code>infragenericEpithet</code> property should not be present.</p></td>
 		</tr>
 		<tr>
 			<td></td>
@@ -3249,7 +3249,7 @@ _:b1 a rdf:Seq ;
 		</tr>
 		<tr>
 			<td>Usage</td>
-			<td><p><code>typifiedName</code> is a Taxon Name and is required; a Nomenclatural Type can  typify only one Taxon Name.</p></td>
+			<td><p><code>typifiedName</code> is a Taxon Name and is REQUIRED; a Nomenclatural Type can  typify only one Taxon Name.</p></td>
 		</tr>
 		<tr>
 			<td></td>
@@ -3257,7 +3257,7 @@ _:b1 a rdf:Seq ;
 		</tr>
 		<tr>
 			<td>Comments</td>
-			<td><p>The <code>typifiedName</code> property links the Nomenclatural Type back to the Taxon  Name. Also, when coming from the Preserved Specimen, the typified name is  the most important piece of information, because there is no point in  knowing what kind of type a specimen is without knowing for what name it  is the type. Therefore, <code>typifiedName</code> is a required property.</p></td>
+			<td><p>The <code>typifiedName</code> property links the Nomenclatural Type back to the Taxon  Name. Also, when coming from the Preserved Specimen, the typified name is  the most important piece of information, because there is no point in  knowing what kind of type a specimen is without knowing for what name it  is the type. Therefore, <code>typifiedName</code> is a REQUIRED property.</p></td>
 		</tr>
 		<tr>
 			<td>GitHub issue</td>
