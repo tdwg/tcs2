@@ -195,6 +195,9 @@ are the mapping properties, *i.e.* `isCongruentWith`, `includes`,
 
 ![](../media/context-tcs.jpg)
 
+A full mapping of elements in the TCS XML Schema to terms in TCS 2 can be found
+in [Appendix 1](#appendix-1-mapping-of-tcs-1-and-tdwg-ontology-terms).
+
 ## Terms omitted from the initial release
 
 The most significant thing that has been left out of TCS 2 for now is the
