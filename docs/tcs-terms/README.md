@@ -1806,7 +1806,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		</tr>
 		<tr>
 			<td>Usage</td>
-			<td><p><code>nameString</code> is a literal. Either <code>taxonomicNameString</code> or  <code>dwc:scientificName</code> is REQUIRED on a TCS Taxon Name and a Taxon Name can  have only one of either.</p></td>
+			<td><p><code>nameString</code> is a literal. The <code>nameString</code> property is REQUIRED on a TCS Taxon Name and a Taxon Name can have only one <code>nameString</code>.</p></td>
 		</tr>
 		<tr>
 			<td></td>

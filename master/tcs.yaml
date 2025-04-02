@@ -807,9 +807,8 @@
   definition: >-
     The complete name string without any authority or year components.
   usage: >-
-    `nameString` is a literal. Either `taxonomicNameString` or 
-    `dwc:scientificName` is REQUIRED on a TCS Taxon Name and a Taxon Name can 
-    have only one of either.
+    `nameString` is a literal. The `nameString` property is REQUIRED on a TCS
+    Taxon Name and a Taxon Name can have only one `nameString`.
   notes: >-
     The `nameString` property differs from the `scientificName` property 
     in Darwin Core in that all kinds of names are allowed. Also, in the case of 
