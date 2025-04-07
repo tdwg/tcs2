@@ -7,7 +7,7 @@
 @prefix oa: <http://www.w3.org/ns/oa#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-<https://specify.rbg.vic.gov.au/specify/view/collectionobject/313208> a dwc:PresrvedSpecimen ;
+<https://specify.rbg.vic.gov.au/specify/view/collectionobject/313208> a dwc:PreservedSpecimen ;
     dwc:catalogNumber "MEL 1516494A" ;
     dsw:evidenceFor <https://avh.ala.org.au/occurrences/794ef2b7-956e-44e5-9321-cbe9553d6057> ;
     dsw:isBasisForId _:b0 ;
