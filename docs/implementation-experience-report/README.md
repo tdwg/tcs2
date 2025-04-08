@@ -266,7 +266,7 @@ ostensive mappings, and thus the data is misleading, include the following:
 1. **Different interpretations of specimens.** There is no reason why type
    specimens cannot be misidentified by later workers. This is the case here for
    the type specimen of _Dicranoloma defoliatum_ Froehl., which was included in
-   _Dicranoloma deplanchei_ sec. Eddy 1988 by Eddy (1988), in _Dicranoloma
+   _Dicranoloma brevicapsulare_ sec. Eddy 1988 by Eddy (1988), in _Dicranoloma
    blumei_ sec. Tan 1989 by Tan (1989) and in _Dicranoloma brevisetum_ sec.
    Klazenga 1999 by Klazenga (1999). The `partiallyOverlaps` mappings between
    these three concepts that were caused by the type of _Dicranoloma defoliatum_
@@ -294,8 +294,8 @@ ostensive mappings, and thus the data is misleading, include the following:
    in others. In this example Tan & Koponen (1983) recognise _Dicranoloma
    brachypelma_ sec. Tan & Koponen 1983, while Eddy (1988) and Klazenga (1999)
    include the type of _Leucoloma brachypelma_ Broth. in _Dicranoloma braunii_
-   sec. Eddy 1988 and Dicranoloma braunii_ sec. Klazenga 1999 respectively. Tan
-   (1989) and Norris & Koponen (1999) do ot mention the type of _leucoloma
+   sec. Eddy 1988 and _Dicranoloma braunii_ sec. Klazenga 1999 respectively. Tan
+   (1989) and Norris & Koponen (1999) do not mention the type of _leucoloma
    brachypelma_ at all. Because of this, we cannot say with certainty how
    _Dicranoloma braunii_ sec. Tan 1989 and _Dicranum braunii_ sec. Norris &
    Koponen 1990 relate to the other three concepts of _Dicranoloma braunii_
