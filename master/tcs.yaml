@@ -772,8 +772,7 @@
   label: Taxon Name
   definition: A name or label applied to a taxon or taxonomic group. 
   usage: >-
-    A TCS Taxon Name requires either a `nameString` or 
-    `dwc:scientificName`.
+    A TCS Taxon Name MUST have a `nameString`.
   notes: >-
     The word 'name' here is taken in its dictionary meaning and not in the sense
     of a particular nomenclatural code. This means that the Taxon Name class

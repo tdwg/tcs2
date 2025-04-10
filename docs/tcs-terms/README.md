@@ -1747,7 +1747,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		</tr>
 		<tr>
 			<td>Usage</td>
-			<td><p>A TCS Taxon Name requires either a <code>nameString</code> or  <code>dwc:scientificName</code>.</p></td>
+			<td><p>A TCS Taxon Name MUST have a <code>nameString</code>.</p></td>
 		</tr>
 		<tr>
 			<td>Comments</td>
