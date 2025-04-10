@@ -386,7 +386,7 @@
     B and B `isCongruentWith` C it follows that A `isCongruentWith` C.
 
 
-    ![](../media/taxon-relationship-type-is-congruent-with.jpg)
+    ![](../media/mapping-relation-is-congruent-with.drawio.svg)
 
 
     This relation can also be written as the formula **A &cong; B** or **A
@@ -435,7 +435,7 @@
     that A `includes` C.
 
 
-    ![](../media/taxon-relationship-type-includes.jpg)
+    ![](../media/mapping-relation-includes.drawio.svg)
 
 
     This relation can also be written as the formula **A > B**.
@@ -477,7 +477,7 @@
     follows that A `isIncludedIn` C.
 
 
-    ![](../media/taxon-relationship-type-is-included-in.jpg)
+    ![](../media/mapping-relation-is-included-in.drawio.svg)
 
 
     This relation can also be written as the formula **A < B**.
@@ -524,7 +524,7 @@
     `partiallyOverlaps` C.
 
 
-    ![](../media/taxon-relationship-type-partially-overlaps.jpg)
+    ![](../media/mapping-relation-partially-overlaps.drawio.svg)
 
 
     This relation can also be written as the formula **A >< B**.
@@ -567,7 +567,7 @@
     B and B `isDisjointFrom` C, it does not follow that A `isDisjointFrom` C.
 
 
-    ![](../media/taxon-relationship-type-is-disjoint-from.jpg)
+    ![](../media/mapping-relations-is-disjoint-from.drawio.svg)
 
 
     This relation can also be written as the formula **A | B**.

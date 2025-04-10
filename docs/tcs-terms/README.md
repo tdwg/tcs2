@@ -828,7 +828,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		<tr>
 			<td>Comments</td>
 			<td><p>The <code>isCongruentWith</code> relation is symmetrical, so if A <code>isCongruentWith</code> B then B <code>isCongruentWith</code> A, as well as transitive, so if A <code>isCongruentWith</code> B and B <code>isCongruentWith</code> C it follows that A <code>isCongruentWith</code> C.</p>
-<p><img alt="" src="../media/taxon-relationship-type-is-congruent-with.jpg" /></p>
+<p><img alt="" src="../media/mapping-relation-is-congruent-with.drawio.svg" /></p>
 <p>This relation can also be written as the formula <strong>A &cong; B</strong> or <strong>A == B</strong>.</p></td>
 		</tr>
 		<tr>
@@ -910,7 +910,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		<tr>
 			<td>Comments</td>
 			<td><p>The <code>includes</code> relation is not symmetric, its inverse relation being <code>isIncludedIn</code>, so if A <code>includes</code> B then B <code>isIncludedIn</code> A. The <code>includes</code> relation  is transitive, so if A <code>includes</code> B and B <code>includes</code> C it follows that A <code>includes</code> C.</p>
-<p><img alt="" src="../media/taxon-relationship-type-includes.jpg" /></p>
+<p><img alt="" src="../media/mapping-relation-includes.drawio.svg" /></p>
 <p>This relation can also be written as the formula <strong>A &gt; B</strong>.</p></td>
 		</tr>
 		<tr>
@@ -977,7 +977,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		<tr>
 			<td>Comments</td>
 			<td><p>The <code>isIncludedIn</code> relation is not symmetric, its inverse relation being <code>includes</code>, so if A <code>isIncludedIn</code> B then B <code>includes</code> A. The <code>isIncludedIn</code> relation  is transitive, so if A <code>isIncludedIn</code> B and B <code>isIncludedIn</code> C it follows that A <code>isIncludedIn</code> C.</p>
-<p><img alt="" src="../media/taxon-relationship-type-is-included-in.jpg" /></p>
+<p><img alt="" src="../media/mapping-relation-is-included-in.drawio.svg" /></p>
 <p>This relation can also be written as the formula <strong>A &lt; B</strong>.</p></td>
 		</tr>
 		<tr>
@@ -1059,7 +1059,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		<tr>
 			<td>Comments</td>
 			<td><p>The <code>partiallyOverlaps</code> relation is symmetrical, so if A <code>partiallyOverlaps</code> B then B <code>partiallyOverlaps</code> A, but not transitive, so, if A <code>partiallyOverlaps</code> B and B <code>partiallyOverlaps</code> C, it does not follow that A <code>partiallyOverlaps</code> C.</p>
-<p><img alt="" src="../media/taxon-relationship-type-partially-overlaps.jpg" /></p>
+<p><img alt="" src="../media/mapping-relation-partially-overlaps.drawio.svg" /></p>
 <p>This relation can also be written as the formula <strong>A &gt;&lt; B</strong>.</p></td>
 		</tr>
 		<tr>
@@ -1126,7 +1126,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		<tr>
 			<td>Comments</td>
 			<td><p>The <code>isDisjointFrom</code>  relation is symmetrical, so if A <code>isDisjointFrom</code>  B then B <code>isDisjointFrom</code> A, but not transitive, so, if A <code>isDisjointFrom</code>  B and B <code>isDisjointFrom</code> C, it does not follow that A <code>isDisjointFrom</code> C.</p>
-<p><img alt="" src="../media/taxon-relationship-type-is-disjoint-from.jpg" /></p>
+<p><img alt="" src="../media/mapping-relations-is-disjoint-from.drawio.svg" /></p>
 <p>This relation can also be written as the formula <strong>A | B</strong>.</p></td>
 		</tr>
 		<tr>
