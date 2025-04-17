@@ -317,12 +317,12 @@
 - localName: parent
   label: Parent
   definition: >-
-    The direct parent in a classification.
+    The immediately next higher taxon in a hierarchical classification.
   usage: >-
     `parent` is another Taxon Concept; a Taxon Concept can have only one 
     `parent`.
   notes: >-
-    The `parent` is another Taxon Concept. This is the parent as indicated in 
+    This is the parent as indicated in 
     the `accordingTo` reference, rather than a third-party classification. The 
     `accordingTo` of the parent will generally, but not necessarily, be the 
     same as that of the child. 
@@ -349,7 +349,7 @@
 - localName: child
   label: Child
   definition: >-
-    A direct subordinate in a classification.
+    A direct subordinate in a hierarchical classification.
   usage: >-
     `child` is another Taxon Concept; a Taxon Concept can have more than one 
     child.

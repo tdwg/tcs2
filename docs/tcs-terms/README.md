@@ -641,7 +641,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td><p>The direct parent in a classification.</p></td>
+			<td><p>The immediately next higher taxon in a hierarchical classification.</p></td>
 		</tr>
 		<tr>
 			<td>Usage</td>
@@ -653,7 +653,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		</tr>
 		<tr>
 			<td>Comments</td>
-			<td><p>The <code>parent</code> is another Taxon Concept. This is the parent as indicated in  the <code>accordingTo</code> reference, rather than a third-party classification. The  <code>accordingTo</code> of the parent will generally, but not necessarily, be the  same as that of the child. </p></td>
+			<td><p>This is the parent as indicated in  the <code>accordingTo</code> reference, rather than a third-party classification. The  <code>accordingTo</code> of the parent will generally, but not necessarily, be the  same as that of the child. </p></td>
 		</tr>
 		<tr>
 			<td>Examples</td>
@@ -730,7 +730,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td><p>A direct subordinate in a classification.</p></td>
+			<td><p>A direct subordinate in a hierarchical classification.</p></td>
 		</tr>
 		<tr>
 			<td>Usage</td>
