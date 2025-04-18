@@ -28,6 +28,10 @@
       "created": {
         "@id": "dcterms:created",
         "@type": "xsd:datetime"
+      },
+      "source": {
+        "@id": "dcterms:source",
+        "@type": "@id"
       }
     }
   ],
@@ -1101,7 +1105,8 @@
             "dwc:recordNumber": "167",
             "dwc:institutionCode": "B",
             "dwc:disposition": "destroyed"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         },
         {
           "type": "NomenclaturalType",
@@ -1115,7 +1120,8 @@
             "dwc:recordedBy": "O. Beccari",
             "dwc:recordNumber": "167",
             "dwc:institutionCode": "H-BR"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         },
         {
           "type": "NomenclaturalType",
@@ -1129,7 +1135,8 @@
             "dwc:recordedBy": "O. Beccari",
             "dwc:recordNumber": "167",
             "dwc:institutionCode": "FH-FL"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         },
         {
           "type": "NomenclaturalType",
@@ -1143,7 +1150,8 @@
             "dwc:recordedBy": "O. Beccari",
             "dwc:stateProvince": "Irian Jaya",
             "dwc:verbatimLocality": "Mt. Arfak ad Hatam, 5000-7000'"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         },
         {
           "type": "NomenclaturalType",
@@ -1156,7 +1164,8 @@
             "dwc:recordedBy": "O. Beccari",
             "dwc:recordNumber": "167",
             "dwc:institutionCode": "S"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         }
       ]
     },
@@ -1204,7 +1213,8 @@
             "dwc:recordedBy": "Junghuhn",
             "dwc:recordNumber": "s.n.",
             "dwc:institutionCode": "BM"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         },
         {
           "type": "NomenclaturalType",
@@ -1216,7 +1226,8 @@
             "dwc:recordedBy": "Junghuhn",
             "dwc:recordNumber": "s.n.",
             "dwc:institutionCode": "L"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         }
       ]
     },
@@ -1261,7 +1272,8 @@
             "dwc:recordNumber": "48",
             "dwc:institutionCode": "B",
             "dwc:disposition": "destroyed"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         },{
           "type": "NomenclaturalType",
           "typeOfType": "isotype",
@@ -1274,7 +1286,8 @@
             "dwc:recordedBy": "Micholitz, W.",
             "dwc:recordNumber": "48",
             "dwc:institutionCode": "BM"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         },
         {
           "type": "NomenclaturalType",
@@ -1289,7 +1302,8 @@
             "dwc:recordNumber": "48",
             "dwc:institutionCode": "FH",
             "dwc:collectionCode": "FH-FL"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         },
         {
           "type": "NomenclaturalType",
@@ -1305,7 +1319,8 @@
             "dwc:recordNumber": "48",
             "dwc:institutionCode": "H",
             "dwc:collectionCode": "H-BR"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         },
         {
           "type": "NomenclaturalType",
@@ -1319,7 +1334,8 @@
             "dwc:recordedBy": "Micholitz, W.",
             "dwc:recordNumber": "48",
             "dwc:institutionCode": "S"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         }
       ]
     },
@@ -1362,7 +1378,8 @@
             "dwc:recordNumber": "s.n.",
             "dwc:institutionCode": "P",
             "dwc:disposition": "not found"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         },
         {
           "type": "NomenclaturalType",
@@ -1375,7 +1392,8 @@
             "dwc:island": "Java",
             "dwc:recordNumber": "s.n.",
             "dwc:recordedBy": "Lefèbre"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         }
       ]
     },
@@ -1398,7 +1416,8 @@
             "dwc:recordNumber": "s.n.",
             "dwc:institutionCode": "FH",
             "dwc:collectionCode": "FH-FL"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         },
         {
           "type": "NomenclaturalType",
@@ -1409,7 +1428,8 @@
             "dwc:recordedBy": "Korthals",
             "dwc:recordNumber": "s.n.",
             "dwc:institutionCode": "L"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         }
       ]
     },
@@ -1435,7 +1455,8 @@
             "dwc:recordNumber": "1126",
             "dwc:institutionCode": "H",
             "dwc:collectionCode": "H-BR"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         },
         {
           "type": "NomenclaturalType",
@@ -1451,7 +1472,8 @@
             "dwc:recordedBy": "Copeland",
             "dwc:recordNumber": "1126",
             "dwc:institutionCode": "FH"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         },
         {
           "type": "NomenclaturalType",
@@ -1466,7 +1488,8 @@
             "dwc:recordedBy": "Copeland",
             "dwc:stateOrProvince": "Davao",
             "dwc:verbatimLocality": "Mt Apo"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         },
         {
           "type": "NomenclaturalType",
@@ -1482,7 +1505,8 @@
             "dwc:recordNumber": "1126",
             "dwc:institutionCode": "FH",
             "dwc:collectionCode": "FH-FL"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         }
       ]
     },
@@ -1507,7 +1531,8 @@
             "dwc:recordNumber": "BS 22114",
             "dwc:institutionCode": "H",
             "dwc:collectionCode": "H-BR"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         }
       ]
     },
@@ -1533,7 +1558,8 @@
             "dwc:recordedBy": "Holttum",
             "dwc:recordNumber": "25633",
             "dwc:institutionCode": "BM"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         },
         {
           "type": "NomenclaturalType",
@@ -1549,7 +1575,8 @@
             "dwc:recordNumber": "25633",
             "dwc:institutionCode": "FH",
             "dwc:collectionCode": "FH-Bartr."
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         },
         {
           "type": "NomenclaturalType",
@@ -1564,7 +1591,8 @@
             "dwc:recordedBy": "Oxford Expedition 1932 (P.W. Richards)",
             "dwc:recordNumber": "1853",
             "dwc:institutionCode": "BM"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         }
       ]
     },
@@ -1590,7 +1618,8 @@
             "dwc:recordedBy": "Mjöberg",
             "dwc:recordNumber": "s.n.",
             "dwc:institutionCode": "FH"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         },
         {
           "type": "NomenclaturalType",
@@ -1605,7 +1634,8 @@
             "dwc:recordedBy": "Mjöberg",
             "dwc:recordNumber": "s.n.",
             "dwc:institutionCode": "BM"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         },
         {
           "type": "NomenclaturalType",
@@ -1620,7 +1650,8 @@
             "dwc:recordedBy": "Mjöberg",
             "dwc:recordNumber": "s.n.",
             "dwc:institutionCode": "FH"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         }
       ]
     },
@@ -1645,7 +1676,8 @@
             "dwc:recordedBy": "Clemens, M.S.",
             "dwc:recordNumber": "10245",
             "dwc:institutionCode": "NICH"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         },
         {
           "type": "NomenclaturalType",
@@ -1660,7 +1692,8 @@
             "dwc:recordedBy": "Clemens, M.S.",
             "dwc:recordNumber": "10245",
             "dwc:institutionCode": "L"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         }
       ]
     },
@@ -1685,7 +1718,8 @@
             "dwc:recordedBy": "van Zanten, B.O.",
             "dwc:recordNumber": "677a",
             "dwc:institutionCode": "L"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         },
         {
           "type": "NomenclaturalType",
@@ -1700,7 +1734,8 @@
             "dwc:recordedBy": "van Zanten, B.O.",
             "dwc:recordNumber": "677a",
             "dwc:institutionCode": "BM"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         },
         {
           "type": "NomenclaturalType",
@@ -1715,7 +1750,8 @@
             "dwc:recordedBy": "van Zanten, B.O.",
             "dwc:recordNumber": "677a",
             "dwc:institutionCode": "NY"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         },
         {
           "type": "NomenclaturalType",
@@ -1730,7 +1766,8 @@
             "dwc:recordedBy": "van Zanten, B.O.",
             "dwc:recordNumber": "680a",
             "dwc:institutionCode": "BM"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         },
         {
           "type": "NomenclaturalType",
@@ -1745,7 +1782,8 @@
             "dwc:recordedBy": "van Zanten, B.O.",
             "dwc:recordNumber": "680a",
             "dwc:institutionCode": "L"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         },
         {
           "type": "NomenclaturalType",
@@ -1760,7 +1798,8 @@
             "dwc:recordedBy": "van Zanten, B.O.",
             "dwc:recordNumber": "680a",
             "dwc:institutionCode": "NY"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         }
       ]
     },
@@ -1784,7 +1823,8 @@
             "dwc:recordNumber": "s.n.",
             "dwc:institutionCode": "H",
             "dwc:collectionCode": "H-BR"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         },
         {
           "type": "NomenclaturalType",
@@ -1797,7 +1837,8 @@
             "dwc:recordedBy": "J. McDonald",
             "dwc:recordNumber": "s.n.",
             "dwc:institutionCode": "BM"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         }
       ]
     },
@@ -1828,7 +1869,8 @@
             "dwc:recordedBy": "Clemens",
             "dwc:recordNumber": "12493",
             "dwc:institutionCode": "FH"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         },
         {
           "type": "NomenclaturalType",
@@ -1840,7 +1882,8 @@
             "dwc:recordedBy": "Clemens",
             "dwc:recordNumber": "12493",
             "dwc:institutionCode": "FH"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         },
         {
           "type": "NomenclaturalType",
@@ -1852,7 +1895,8 @@
             "dwc:recordNumber": "12493",
             "dwc:recordedBy": "Clemens",
             "dwc:institutionCode": "MiCH"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         }
       ]
     },
@@ -1899,7 +1943,8 @@
             "dwc:recordNumber": "s.n.",
             "dwc:institutionCode": "B",
             "dwc:disposition": "not found"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         }
       ]
     },
@@ -1931,11 +1976,13 @@
             "dwc:recordNumber": "6",
             "dwc:institutionCode": "H",
             "dwc:collectionCode": "H-BR"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         },
         {
           "id": "_:b94",
           "type": "NomenclaturalType",
+          "typifiedName": "https://tropicos.org/name/35123838",
           "typeOfType": "isotype",
           "typeSpecimen": {
             "type": "dwc:MaterialCitation",
@@ -1946,7 +1993,7 @@
             "dwc:recordNumber": "6",
             "dwc:institutionCode": "BM"
           },
-          "typifiedName": "https://tropicos.org/name/35123838"
+          "source": "https://tropicos.org/reference/9020903"
         }
       ]
     },
@@ -1977,7 +2024,8 @@
             "dwc:recordedBy": "Hanif & Nur",
             "dwc:recordNumber": "7915a",
             "dwc:institutionCode": "BM"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         },
         {
           "type": "NomenclaturalType",
@@ -1990,7 +2038,8 @@
             "dwc:recordedBy": "Hanif & Nur",
             "dwc:recordNumber": "7915a",
             "dwc:institutionCode": "KLU"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         },
         {
           "id": "_:b100",
@@ -2004,7 +2053,8 @@
             "dwc:recordedBy": "Hanif & Nur",
             "dwc:recordNumber": "7915a",
             "dwc:institutionCode": "L"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         }
       ]
     },
@@ -2030,7 +2080,8 @@
             "dwc:recordedBy": "Clemens",
             "dwc:recordNumber": "BS 10552",
             "dwc:institutionCode": "H"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         },
         {
           "type": "NomenclaturalType",
@@ -2043,7 +2094,8 @@
             "dwc:recordedBy": "Clemens",
             "dwc:recordNumber": "BS 10552",
             "dwc:institutionCode": "BM"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         },
         {
           "type": "NomenclaturalType",
@@ -2056,7 +2108,8 @@
             "dwc:recordedBy": "Clemens",
             "dwc:recordNumber": "BS 10552",
             "dwc:institutionCode": "L"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         },
         {
           "type": "NomenclaturalType",
@@ -2069,7 +2122,8 @@
             "dwc:recordedBy": "Clemens",
             "dwc:recordNumber": "BS 10552",
             "dwc:institutionCode": "NY"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         },
         {
           "id": "_:b110",
@@ -2083,7 +2137,8 @@
             "dwc:recordedBy": "Winkler",
             "dwc:recordNumber": "3200",
             "dwc:institutionCode": "BM"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         },
         {
           "type": "NomenclaturalType",
@@ -2097,7 +2152,8 @@
             "dwc:recordNumber": "3200",
             "dwc:institutionCode": "H",
             "dwc:collectionCode": "H-BR"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         }
       ]
     },
@@ -2129,7 +2185,8 @@
             "dwc:recordedBy": "Phillips",
             "dwc:recordNumber": "26",
             "dwc:institutionCode": "FH"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         },
         {
           "type": "NomenclaturalType",
@@ -2143,7 +2200,8 @@
             "dwc:recordedBy": "Phillips",
             "dwc:recordNumber": "26",
             "dwc:institutionCode": "BM"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         }
       ]
     },
@@ -2167,7 +2225,8 @@
             "dwc:recordNumber": "383",
             "dwc:recordedBy": "Stresemann",
             "dwc:institutionCode": "JE"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         }
       ]
     },
@@ -2199,7 +2258,8 @@
             "dwc:recordNumber": "s.n.",
             "dwc:institutionCode": "LE",
             "dwc:disposition": "not located"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         },
         {
           "type": "NomenclaturalType",
@@ -2212,7 +2272,8 @@
             "dwc:recordedBy": "C. Blume",
             "dwc:recordNumber": "s.n.",
             "dwc:institutionCode": "JE"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         },
         {
           "id": "_:b124",
@@ -2226,7 +2287,8 @@
             "dwc:recordedBy": "C. Blume",
             "dwc:recordNumber": "s.n.",
             "dwc:institutionCode": "L"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         },
         {
           "type": "NomenclaturalType",
@@ -2239,7 +2301,8 @@
             "dwc:recordedBy": "C. Blume",
             "dwc:recordNumber": "s.n.",
             "dwc:institutionCode": "NY"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         }
       ]
     },
@@ -2273,7 +2336,8 @@
             "dwc:recordNumber": "161",
             "dwc:institutionCode": "H",
             "dwc:collectionCode": "H-BR"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         },
         {
           "type": "NomenclaturalType",
@@ -2287,7 +2351,8 @@
             "dwc:recordNumber": "161",
             "dwc:institutionCode": "FH",
             "dwc:collectionCode": "FH-FL"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         },
         {
           "type": "NomenclaturalType",
@@ -2300,7 +2365,8 @@
             "dwc:recordedBy": "O. Beccari",
             "dwc:recordNumber": "161",
             "dwc:institutionCode": "L"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         }
       ]
     },
@@ -2324,6 +2390,7 @@
         {
           "id": "_:b134",
           "type": "NomenclaturalType",
+          "typifiedName": "https://tropicos.org/name/35121477",
           "typeOfType": "holotype",
           "typeSpecimen": {
             "type": "dwc:MaterialCitation",
@@ -2335,7 +2402,7 @@
             "dwc:institutionCode": "F",
             "dwc:collectionCode": "FH-FL"
           },
-          "typifiedName": "https://tropicos.org/name/35121477"
+          "source": "https://tropicos.org/reference/9020903"
         }
       ]
     },
@@ -2359,7 +2426,8 @@
             "dwc:recordNumber": "s.n.",
             "dwc:recordedBy": "Stresemann",
             "dwc:institutionCode": "JE"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         },
         {
           "type": "NomenclaturalType",
@@ -2373,7 +2441,8 @@
             "dwc:recordedBy": "Stresemann",
             "dwc:recordNumber": "s.n.",
             "dwc:institutionCode": "B"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         },
         {
           "type": "NomenclaturalType",
@@ -2387,7 +2456,8 @@
             "dwc:recordedBy": "Stresemann",
             "dwc:recordNumber": "s.n.",
             "dwc:institutionCode": "S"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         }
       ]
     },
@@ -2411,7 +2481,8 @@
             "dwc:recordedBy": "C.E. Carr",
             "dwc:recordNumber": "13651",
             "dwc:institutionCode": "BM"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         },
         {
           "type": "NomenclaturalType",
@@ -2424,7 +2495,8 @@
             "dwc:recordedBy": "C.E. Carr",
             "dwc:recordNumber": "13651",
             "dwc:institutionCode": "H"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         },
         {
           "type": "NomenclaturalType",
@@ -2437,7 +2509,8 @@
             "dwc:recordedBy": "C.E. Carr",
             "dwc:recordNumber": "13651",
             "dwc:institutionCode": "L"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         },
         {
           "type": "NomenclaturalType",
@@ -2450,7 +2523,8 @@
             "dwc:recordedBy": "C.E. Carr",
             "dwc:recordNumber": "13651",
             "dwc:institutionCode": "NY"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         }
       ]
     },
@@ -2481,7 +2555,8 @@
             "dwc:recordedBy": "Teysmann",
             "dwc:recordNumber": "s.n.",
             "dwc:institutionCode": "L"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         },
         {
           "type": "NomenclaturalType",
@@ -2494,7 +2569,8 @@
             "dwc:recordNumber": "s.n.",
             "dwc:institutionCode": "H",
             "dwc:collectionCode": "H-BR"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         },
         {
           "type": "NomenclaturalType",
@@ -2505,7 +2581,8 @@
             "dwc:recordNumber": "s.n.",
             "dwc:institutionCode": "L",
             "dwc:disposition": "not located"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         },
         {
           "type": "NomenclaturalType",
@@ -2515,7 +2592,8 @@
             "dwc:recordNumber": "s.n.",
             "dwc:recordedBy": "Rochussen",
             "dwc:institutionCode": "L"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         },
         {
           "type": "NomenclaturalType",
@@ -2529,7 +2607,8 @@
             "dwc:recordNumber": "s.n.",
             "dwc:institutionCode": "L",
             "dwc:disposition": "not located"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         }
       ]
     },
@@ -2561,7 +2640,8 @@
             "dwc:recordedBy": "C.L. Blume",
             "dwc:institutionCode": "B",
             "dwc:disposition": "destroyed"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         },
         {
           "type": "NomenclaturalType",
@@ -2573,7 +2653,8 @@
             "dwc:island": "Java",
             "dwc:recordedBy": "C.L. Blume",
             "dwc:institutionCode": "L"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         }
       ]
     },
@@ -2612,7 +2693,8 @@
             "dwc:occurrenceRemarks": "inter alios muscos",
             "dwc:institutionCode": "B",
             "dwc:disposition": "destroyed"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         },
         {
           "type": "NomenclaturalType",
@@ -2625,7 +2707,8 @@
             "dwc:occurrenceRemarks": "inter alios muscos",
             "dwc:recordedBy": "Graeffe",
             "dwc:institutionCode": "S"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         },
         {
           "type": "NomenclaturalType",
@@ -2638,7 +2721,8 @@
             "dwc:recordedBy": "Graeffe",
             "dwc:institutionCode": "H",
             "dwc:collectionCode": "H-BR"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         }
       ]
     },
@@ -2680,7 +2764,8 @@
             "dwc:recordNumber": "184",
             "dwc:institutionCode": "H",
             "dwc:collectionCode": "H-BR"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         },
         {
           "type": "NomenclaturalType",
@@ -2694,7 +2779,8 @@
             "dwc:stateOrProvince": "Irian Jaya",
             "dwc:verbatimLocality": "Mt. Arfak ad Hatam, 5000-7000'",
             "dwc:institutionCode": "FH"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         },
         {
           "type": "NomenclaturalType",
@@ -2707,7 +2793,8 @@
             "dwc:recordedBy": "O. Beccari",
             "dwc:recordNumber": "184",
             "dwc:institutionCode": "S"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         }
       ]
     },
@@ -2748,7 +2835,8 @@
             "dwc:recordNumber": "686",
             "dwc:institutionCode": "H",
             "dwc:collectionCode": "H-BR"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         },
         {
           "type": "NomenclaturalType",
@@ -2760,7 +2848,8 @@
             "dwc:recordedBy": "W. MacGregor",
             "dwc:recordNumber": "686",
             "dwc:institutionCode": "S"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         }
       ]
     },
@@ -2811,7 +2900,8 @@
             "dwc:recordNumber": "s.n.",
             "dwc:institutionCode": "B",
             "dwc:disposition": "destroyed"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         },
         {
           "type": "NomenclaturalType",
@@ -2826,7 +2916,8 @@
             "dwc:recordNumber": "s.n.",
             "dwc:institutionCode": "H",
             "dwc:collectionCode": "H-BR"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         }
       ]
     },
@@ -2886,7 +2977,8 @@
             "dwc:recordNumber": "s.n.",
             "dwc:institutionCode": "H",
             "dwc:collectionCode": "H-BR"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         },
         {
           "type": "NomenclaturalType",
@@ -2899,7 +2991,8 @@
             "dwc:recordedBy": "K & L. Rechinger",
             "dwc:recordNumber": "s.n.",
             "dwc:institutionCode": "W"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         }
       ]
     },
@@ -2930,7 +3023,8 @@
             "dwc:recordedBy": "J.B. Clark",
             "dwc:recordNumber": "4",
             "dwc:institutionCode": "BM"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         }
       ]
     },
@@ -2953,7 +3047,8 @@
             "dwc:recordedBy": "Fr. Verdoorn",
             "dwc:recordNumber": "74c",
             "dwc:institutionCode": "BM"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         },
         {
           "type": "NomenclaturalType",
@@ -2966,7 +3061,8 @@
             "dwc:recordedBy": "Fr. Verdoorn",
             "dwc:recordNumber": "74c",
             "dwc:institutionCode": "JE"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         }
       ]
     },
@@ -2989,7 +3085,8 @@
             "dwc:recordedBy": "Enriquez",
             "dwc:recordNumber": "18111",
             "dwc:institutionCode": "BM"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         },
         {
           "type": "NomenclaturalType",
@@ -3002,7 +3099,8 @@
             "dwc:recordedBy": "Enriquez",
             "dwc:recordNumber": "18111",
             "dwc:institutionCode": "L"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         }
       ]
     },
@@ -3026,7 +3124,8 @@
             "dwc:recordNumber": "20090",
             "dwc:institutionCode": "FH",
             "dwc:collectionCode": "FH-Bartr."
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         }
       ]
     },
@@ -3049,7 +3148,8 @@
             "dwc:recordNumber": "1585",
             "dwc:institutionCode": "FH",
             "dwc:collectionCode": "FH-FL"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         },
         {
           "type": "NomenclaturalType",
@@ -3061,7 +3161,8 @@
             "dwc:recordedBy": "Loria",
             "dwc:recordNumber": "1585",
             "dwc:institutionCode": "H"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         }
       ]
     },
@@ -3084,7 +3185,8 @@
             "dwc:recordNumber": "93a",
             "dwc:recordedBy": "O. Beccari",
             "dwc:institutionCode": "BM"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         },
         {
           "type": "NomenclaturalType",
@@ -3097,7 +3199,8 @@
             "dwc:recordedBy": "O. Beccari",
             "dwc:recordNumber": "93a",
             "dwc:institutionCode": "JE"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         }
       ]
     },
@@ -3130,7 +3233,8 @@
             "dwc:recordedBy": "Zippelius",
             "dwc:recordNumber": "s.n.",
             "dwc:institutionCode": "L"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         },
         {
           "type": "NomenclaturalType",
@@ -3145,7 +3249,8 @@
             "dwc:recordNumber": "s.n.",
             "dwc:institutionCode": "H",
             "dwc:collectionCode": "H-BR"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         },
         {
           "type": "NomenclaturalType",
@@ -3158,7 +3263,8 @@
             "dwc:recordedBy": "Kuhl & Van Hasselt",
             "dwc:recordNumber": "s.n.",
             "dwc:institutionCode": "L"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         },
         {
           "type": "NomenclaturalType",
@@ -3171,7 +3277,8 @@
             "dwc:recordedBy": "Kuhl & Van Hasselt",
             "dwc:recordNumber": "s.n.",
             "dwc:institutionCode": "S"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         }
       ]
     },
@@ -3218,7 +3325,8 @@
             "dwc:recordedBy": "De Vriese",
             "dwc:recordNumber": "s.n.",
             "dwc:institutionCode": "L"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         },
         {
           "type": "NomenclaturalType",
@@ -3229,7 +3337,8 @@
             "dwc:recordNumber": "s.n.",
             "dwc:institutionCode": "L",
             "dwc:disposition": "not located"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         }
       ]
     },
@@ -3252,7 +3361,8 @@
             "dwc:recordedBy": "Teysmann",
             "dwc:recordNumber": "s.n.",
             "dwc:institutionCode": "L"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         },
         {
           "id": "_:b222",
@@ -3266,7 +3376,8 @@
             "dwc:recordNumber": "s.n.",
             "dwc:institutionCode": "H",
             "dwc:collectionCode": "H-BR"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         },
         {
           "id": "_:b224",
@@ -3279,7 +3390,8 @@
             "dwc:recordedBy": "Teysmann",
             "dwc:recordNumber": "s.n.",
             "dwc:institutionCode": "S"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         }
       ]
     },
@@ -3321,7 +3433,8 @@
             "dwc:institutionCode": "FH",
             "dwc:collectionCode": "FH-FL",
             "dwc:disposition": "not found"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         },
         {
           "type": "NomenclaturalType",
@@ -3333,7 +3446,8 @@
             "dwc:recordedBy": "Fleischer",
             "dwc:recordNumber": "s.n.",
             "dwc:institutionCode": "BM"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         },
         {
           "type": "NomenclaturalType",
@@ -3346,7 +3460,8 @@
             "dwc:recordNumber": "s.n.",
             "dwc:institutionCode": "FH",
             "dwc:collectionCode": "FH-Bartr."
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         },
         {
           "type": "NomenclaturalType",
@@ -3359,7 +3474,8 @@
             "dwc:recordedBy": "Fleischer",
             "dwc:recordNumber": "s.n.",
             "dwc:institutionCode": "H"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         },
         {
           "type": "NomenclaturalType",
@@ -3371,7 +3487,8 @@
             "dwc:recordedBy": "Fleischer",
             "dwc:recordNumber": "s.n.",
             "dwc:institutionCode": "JE"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         },
         {
           "type": "NomenclaturalType",
@@ -3383,7 +3500,8 @@
             "dwc:recordedBy": "Fleischer",
             "dwc:recordNumber": "s.n.",
             "dwc:institutionCode": "L"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         },
         {
           "type": "NomenclaturalType",
@@ -3395,7 +3513,8 @@
             "dwc:recordedBy": "Fleischer",
             "dwc:recordNumber": "s.n.",
             "dwc:institutionCode": "NY"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         },
         {
           "type": "NomenclaturalType",
@@ -3407,7 +3526,8 @@
             "dwc:recordedBy": "Fleischer",
             "dwc:recordNumber": "s.n.",
             "dwc:institutionCode": "S"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         }
       ]
     },
@@ -3440,7 +3560,8 @@
             "dwc:recordNumber": "s.n.",
             "dwc:institutionCode": "S",
             "dwc:disposition": "not found"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         },
         {
           "type": "NomenclaturalType",
@@ -3453,7 +3574,8 @@
             "dwc:recordedBy": "Meijer",
             "dwc:recordNumber": "12717",
             "dwc:institutionCode": "L"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         }
       ]
     },
@@ -3478,7 +3600,8 @@
             "dwc:recordNumber": "2028",
             "dwc:institutionCode": "KLU",
             "dwc:disposition": "not available"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         },
         {
           "type": "NomenclaturalType",
@@ -3491,7 +3614,8 @@
             "dwc:stateOrProvince": "Pahang",
             "dwc:verbatimLocality": "Gunung Jasar Trail no. 11, near peak",
             "dwc:institutionCode": "FH"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         },
         {
           "type": "NomenclaturalType",
@@ -3504,7 +3628,8 @@
             "dwc:recordedBy": "Damanhuri",
             "dwc:recordNumber": "2028",
             "dwc:institutionCode": "H"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         },
         {
           "type": "NomenclaturalType",
@@ -3517,7 +3642,8 @@
             "dwc:recordedBy": "Damanhuri",
             "dwc:recordNumber": "2028",
             "dwc:institutionCode": "NICH"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         },
         {
           "id": "_:b254",
@@ -3531,7 +3657,8 @@
             "dwc:recordedBy": "Damanhuri",
             "dwc:recordNumber": "2028",
             "dwc:institutionCode": "NY"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         },
         {
           "type": "NomenclaturalType",
@@ -3544,7 +3671,8 @@
             "dwc:recordedBy": "Damanhuri",
             "dwc:recordNumber": "2028",
             "dwc:institutionCode": "UKMB"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         },
         {
           "type": "NomenclaturalType",
@@ -3557,7 +3685,8 @@
             "dwc:recordedBy": "Hanif & Nur",
             "dwc:recordNumber": "7915a",
             "dwc:institutionCode": "L"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         },
         {
           "type": "NomenclaturalType",
@@ -3570,7 +3699,8 @@
             "dwc:recordedBy": "Damanhuri",
             "dwc:recordNumber": "164",
             "dwc:institutionCode": "H"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         },
         {
           "type": "NomenclaturalType",
@@ -3583,7 +3713,8 @@
             "dwc:recordedBy": "Damanhuri",
             "dwc:recordNumber": "164",
             "dwc:institutionCode": "KLU"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         },
         {
           "type": "NomenclaturalType",
@@ -3596,7 +3727,8 @@
             "dwc:recordedBy": "Damanhuri",
             "dwc:recordNumber": "164",
             "dwc:institutionCode": "UKMB"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         },
         {
           "type": "NomenclaturalType",
@@ -3609,7 +3741,8 @@
             "dwc:recordedBy": "Damanhuri",
             "dwc:recordNumber": "1625",
             "dwc:institutionCode": "H"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         },
         {
           "id": "_:b262",
@@ -3624,6 +3757,7 @@
             "dwc:recordNumber": "1625",
             "dwc:institutionCode": "KLU"
           },
+          "source": "https://tropicos.org/reference/9020903",
           "typifiedName": "https://tropicos.org/name/35186481"
         },
         {
@@ -3637,7 +3771,8 @@
             "dwc:recordedBy": "Damanhuri",
             "dwc:recordNumber": "1625",
             "dwc:institutionCode": "L"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         },
         {
           "type": "NomenclaturalType",
@@ -3650,7 +3785,8 @@
             "dwc:recordedBy": "Damanhuri",
             "dwc:recordNumber": "1625",
             "dwc:institutionCode": "UKMB"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         },
         {
           "type": "NomenclaturalType",
@@ -3663,7 +3799,8 @@
             "dwc:recordedBy": "Damanhuri",
             "dwc:recordNumber": "1983",
             "dwc:institutionCode": "KLU"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         }
       ]
     },
@@ -3685,7 +3822,8 @@
             "dwc:recordedBy": "Fleischer",
             "dwc:recordNumber": "s.n.",
             "dwc:institutionCode": "BM"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         }
       ]
     },
@@ -3711,7 +3849,8 @@
             "dwc:recordedBy": "Norris",
             "dwc:recordNumber": "62827",
             "dwc:institutionCode": "H"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         },
         {
           "type": "NomenclaturalType",
@@ -3727,7 +3866,8 @@
             "dwc:recordedBy": "Norris",
             "dwc:recordNumber": "62827",
             "dwc:institutionCode": "BM"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         },
         {
           "type": "NomenclaturalType",
@@ -3742,7 +3882,8 @@
             "dwc:recordedBy": "Brass",
             "dwc:recordNumber": "22560a",
             "dwc:institutionCode": "H"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         },
         {
           "type": "NomenclaturalType",
@@ -3758,7 +3899,8 @@
             "dwc:recordedBy": "Norris",
             "dwc:recordNumber": "62827",
             "dwc:institutionCode": "HSC"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         },
         {
           "type": "NomenclaturalType",
@@ -3774,7 +3916,8 @@
             "dwc:recordedBy": "Norris",
             "dwc:recordNumber": "62827",
             "dwc:institutionCode": "LAE"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         },
         {
           "type": "NomenclaturalType",
@@ -3789,7 +3932,8 @@
             "dwc:recordNumber": "32825",
             "dwc:recordedBy": "Koponen",
             "dwc:institutionCode": "H"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         },
         {
           "type": "NomenclaturalType",
@@ -3804,7 +3948,8 @@
             "dwc:recordedBy": "Koponen",
             "dwc:recordNumber": "32780",
             "dwc:institutionCode": "FH"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         },
         {
           "type": "NomenclaturalType",
@@ -3819,7 +3964,8 @@
             "dwc:recordedBy": "Koponen",
             "dwc:recordNumber": "32825",
             "dwc:institutionCode": "L"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         },
         {
           "type": "NomenclaturalType",
@@ -3832,7 +3978,8 @@
             "dwc:recordedBy": "Mundua",
             "dwc:recordNumber": "64",
             "dwc:institutionCode": "H"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         },
         {
           "type": "NomenclaturalType",
@@ -3847,7 +3994,8 @@
             "dwc:recordedBy": "Norris",
             "dwc:recordNumber": "62709",
             "dwc:institutionCode": "H"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         },
         {
           "type": "NomenclaturalType",
@@ -3862,7 +4010,8 @@
             "dwc:recordedBy": "Norris",
             "dwc:recordNumber": "63051",
             "dwc:institutionCode": "H"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         },
         {
           "type": "NomenclaturalType",
@@ -3878,7 +4027,8 @@
             "dwc:recordedBy": "Norris",
             "dwc:stateOrProvince": "Morobe",
             "dwc:verbatimLocality": "Mt. Sarawaket Southern Range, 2.5 km S of Lake Gwam"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         },
         {
           "type": "NomenclaturalType",
@@ -3893,7 +4043,8 @@
             "dwc:recordedBy": "Norris",
             "dwc:recordNumber": "64304",
             "dwc:institutionCode": "H"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         },
         {
           "type": "NomenclaturalType",
@@ -3908,7 +4059,8 @@
             "dwc:recordedBy": "Norris",
             "dwc:recordNumber": "63348",
             "dwc:institutionCode": "H"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         },
         {
           "type": "NomenclaturalType",
@@ -3923,7 +4075,8 @@
             "dwc:recordedBy": "Norris",
             "dwc:recordNumber": "63995",
             "dwc:institutionCode": "H"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         },
         {
           "type": "NomenclaturalType",
@@ -3938,7 +4091,8 @@
             "dwc:recordedBy": "Norris",
             "dwc:recordNumber": "64304",
             "dwc:institutionCode": "H"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         },
         {
           "type": "NomenclaturalType",
@@ -3953,7 +4107,8 @@
             "dwc:recordedBy": "Norris",
             "dwc:recordNumber": "65024",
             "dwc:institutionCode": "H"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         },
         {
           "type": "NomenclaturalType",
@@ -3968,7 +4123,8 @@
             "dwc:recordedBy": "Norris",
             "dwc:recordNumber": "65040",
             "dwc:institutionCode": "H"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         },
         {
           "type": "NomenclaturalType",
@@ -3983,7 +4139,8 @@
             "dwc:recordedBy": "Norris",
             "dwc:recordNumber": "65173",
             "dwc:institutionCode": "H"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         },
         {
           "type": "NomenclaturalType",
@@ -3999,7 +4156,8 @@
             "dwc:recordedBy": "Streimann",
             "dwc:recordNumber": "20541",
             "dwc:institutionCode": "H"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         }
       ]
     },
@@ -4033,7 +4191,8 @@
             "dwc:recordNumber": "22560a",
             "dwc:institutionCode": "FH",
             "dwc:collectionCode": "FH-Bartr."
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         },
         {
           "type": "NomenclaturalType",
@@ -4048,7 +4207,8 @@
             "dwc:recordedBy": "Brass",
             "dwc:recordNumber": "22560a",
             "dwc:institutionCode": "FH"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         }
       ]
     },
@@ -4088,7 +4248,8 @@
             "dwc:institutionCode": "LE",
             "dwc:collectionCode": "Hb. Nees",
             "dwc:disposition": "not seen"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         },
         {
           "type": "NomenclaturalType",
@@ -4099,7 +4260,8 @@
             "dwc:recordedBy": "Sieber",
             "dwc:recordNumber": "10",
             "dwc:institutionCode": "JE"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         },
         {
           "type": "NomenclaturalType",
@@ -4110,7 +4272,8 @@
             "dwc:recordedBy": "Sieber",
             "dwc:recordNumber": "10",
             "dwc:institutionCode": "L"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         },
         {
           "type": "NomenclaturalType",
@@ -4121,7 +4284,8 @@
             "dwc:recordedBy": "Sieber",
             "dwc:recordNumber": "10",
             "dwc:institutionCode": "MO"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         },
         {
           "type": "NomenclaturalType",
@@ -4132,7 +4296,8 @@
             "dwc:recordedBy": "Sieber",
             "dwc:recordNumber": "10",
             "dwc:institutionCode": "NY"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         }
       ]
     },
@@ -4166,7 +4331,8 @@
             "dwc:recordNumber": "2468",
             "dwc:institutionCode": "H",
             "dwc:collectionCode": "H-BR"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         },
         {
           "type": "NomenclaturalType",
@@ -4180,7 +4346,8 @@
             "dwc:recordNumber": "2412",
             "dwc:institutionCode": "H",
             "dwc:collectionCode": "H-BR"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         }
       ]
     },
@@ -4206,7 +4373,8 @@
             "dwc:recordedBy": "Brass, L.J.",
             "dwc:recordNumber": "22854",
             "dwc:institutionCode": "H"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         },
         {
           "type": "NomenclaturalType",
@@ -4222,7 +4390,8 @@
             "dwc:recordedBy": "Brass, L.J.",
             "dwc:recordNumber": "22854",
             "dwc:institutionCode": "CBG"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         },
         {
           "type": "NomenclaturalType",
@@ -4238,7 +4407,8 @@
             "dwc:verbatimLocality": "Mt. Dayman, north slopes",
             "dwc:stateOrProvince": "Milne Bay",
             "dwc:institutionCode": "FH"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         },
         {
           "type": "NomenclaturalType",
@@ -4254,7 +4424,8 @@
             "dwc:recordedBy": "Brass, L.J.",
             "dwc:recordNumber": "22558",
             "dwc:institutionCode": "CBG"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         },
         {
           "type": "NomenclaturalType",
@@ -4270,7 +4441,8 @@
             "dwc:recordedBy": "Brass, L.J.",
             "dwc:recordNumber": "22558",
             "dwc:institutionCode": "FH"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         },
         {
           "type": "NomenclaturalType",
@@ -4286,7 +4458,8 @@
             "dwc:recordedBy": "Brass, L.J.",
             "dwc:recordNumber": "22390",
             "dwc:institutionCode": "FH"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         }
       ]
     },
@@ -4317,7 +4490,8 @@
             "dwc:recordedBy": "Werner",
             "dwc:recordNumber": "s.n.",
             "dwc:institutionCode": "JE"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         }
       ]
     },
@@ -4351,7 +4525,8 @@
             "dwc:recordedBy": "Clemens",
             "dwc:recordNumber": "10747",
             "dwc:institutionCode": "H"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         },
         {
           "type": "NomenclaturalType",
@@ -4364,7 +4539,8 @@
             "dwc:recordedBy": "Clemens",
             "dwc:recordNumber": "10747",
             "dwc:institutionCode": "BM"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         },
         {
           "type": "NomenclaturalType",
@@ -4377,7 +4553,8 @@
             "dwc:recordedBy": "Clemens",
             "dwc:recordNumber": "10747",
             "dwc:institutionCode": "FH"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         },
         {
           "id": "_:b360",
@@ -4391,7 +4568,8 @@
             "dwc:recordedBy": "Clemens",
             "dwc:recordNumber": "10747",
             "dwc:institutionCode": "JE"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         },
         {
           "type": "NomenclaturalType",
@@ -4404,7 +4582,8 @@
             "dwc:recordedBy": "Clemens",
             "dwc:recordNumber": "10747",
             "dwc:institutionCode": "L"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         },
         {
           "type": "NomenclaturalType",
@@ -4417,7 +4596,8 @@
             "dwc:recordedBy": "Clemens",
             "dwc:recordNumber": "10747",
             "dwc:institutionCode": "NY"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         },
         {
           "type": "NomenclaturalType",
@@ -4430,7 +4610,8 @@
             "dwc:recordedBy": "Haviland",
             "dwc:recordNumber": "1424",
             "dwc:institutionCode": "BM"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         },
         {
           "type": "NomenclaturalType",
@@ -4444,7 +4625,8 @@
             "dwc:recordNumber": "1424",
             "dwc:institutionCode": "H",
             "dwc:collectionCode": "H-BR"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         }
       ]
     },
@@ -4475,7 +4657,8 @@
             "dwc:recordNumber": "2101",
             "dwc:institutionCode": "B",
             "dwc:disposition": "destroyed"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         },
         {
           "type": "NomenclaturalType",
@@ -4488,7 +4671,8 @@
             "dwc:recordedBy": "Zollinger",
             "dwc:recordNumber": "2101",
             "dwc:institutionCode": "L"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         },
         {
           "type": "NomenclaturalType",
@@ -4500,7 +4684,8 @@
             "dwc:recordedBy": "Zollinger",
             "dwc:recordNumber": "2101",
             "dwc:institutionCode": "BM"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         },
         {
           "type": "NomenclaturalType",
@@ -4513,7 +4698,8 @@
             "dwc:recordNumber": "2101",
             "dwc:institutionCode": "H",
             "dwc:collectionCode": "H-BR"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         },
         {
           "type": "NomenclaturalType",
@@ -4526,7 +4712,8 @@
             "dwc:recordedBy": "Zollinger",
             "dwc:recordNumber": "2101",
             "dwc:institutionCode": "NY"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         },
         {
           "type": "NomenclaturalType",
@@ -4539,7 +4726,8 @@
             "dwc:recordedBy": "Zollinger",
             "dwc:recordNumber": "2101",
             "dwc:institutionCode": "S"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         }
       ]
     },
@@ -4570,7 +4758,8 @@
             "dwc:recordedBy": "Hb. Miquelianum",
             "dwc:institutionCode": "B",
             "dwc:disposition": "destroyed"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         },
         {
           "type": "NomenclaturalType",
@@ -4582,7 +4771,8 @@
             "dwc:stateOrProvince": "Java",
             "dwc:recordedBy": "Hb. Miquelianum",
             "dwc:institutionCode": "S"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         }
       ]
     },
@@ -4613,7 +4803,8 @@
             "dwc:island": "Java",
             "dwc:recordedBy": "Herb. A. Braun",
             "dwc:disposition": "not located"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         }
       ]
     },
@@ -4656,7 +4847,8 @@
             "dwc:recordNumber": "s.n.",
             "dwc:institutionCode": "FH",
             "dwc:collectionCode": "FH-FL"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         },
         {
           "type": "NomenclaturalType",
@@ -4671,7 +4863,8 @@
             "dwc:recordedBy": "Fleischer",
             "dwc:recordNumber": "s.n.",
             "dwc:institutionCode": "L"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         },
         {
           "type": "NomenclaturalType",
@@ -4685,7 +4878,8 @@
             "dwc:recordedBy": "Fleischer",
             "dwc:recordNumber": "s.n.",
             "dwc:institutionCode": "BM"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         },
         {
           "type": "NomenclaturalType",
@@ -4700,7 +4894,8 @@
             "dwc:recordNumber": "s.n.",
             "dwc:institutionCode": "H",
             "dwc:collectionCode": "H-BR"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         },
         {
           "type": "NomenclaturalType",
@@ -4714,7 +4909,8 @@
             "dwc:recordNumber": "s.n.",
             "dwc:recordedBy": "Fleischer",
             "dwc:institutionCode": "JE"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         },
         {
           "type": "NomenclaturalType",
@@ -4728,7 +4924,8 @@
             "dwc:recordedBy": "Fleischer",
             "dwc:recordNumber": "s.n.",
             "dwc:institutionCode": "NY"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         },
         {
           "type": "NomenclaturalType",
@@ -4742,7 +4939,8 @@
             "dwc:recordedBy": "Fleischer",
             "dwc:recordNumber": "s.n.",
             "dwc:institutionCode": "S"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         }
       ]
     },
@@ -4777,7 +4975,8 @@
             "dwc:institutionCode": "H",
             "dwc:collectionCode": "H-BR",
             "dwc:disposition": "not found"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         },
         {
           "type": "NomenclaturalType",
@@ -4791,7 +4990,8 @@
             "dwc:recordedBy": "Ramos",
             "dwc:recordNumber": "Bur. Sci. 5867",
             "dwc:institutionCode": "BM"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         },
         {
           "type": "NomenclaturalType",
@@ -4805,7 +5005,8 @@
             "dwc:recordedBy": "Ramos",
             "dwc:recordNumber": "Bur. Sci. 5867",
             "dwc:institutionCode": "NY"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         }
       ]
     },
@@ -4830,7 +5031,8 @@
             "dwc:recordNumber": "Bur. Sci. 27090",
             "dwc:institutionCode": "H",
             "dwc:collectionCode": "H-BR"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         },
         {
           "type": "NomenclaturalType",
@@ -4844,7 +5046,8 @@
             "dwc:recordedBy": "Ramos",
             "dwc:recordNumber": "Bur. Sci. 27090",
             "dwc:institutionCode": "BM"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         },
         {
           "type": "NomenclaturalType",
@@ -4858,7 +5061,8 @@
             "dwc:recordedBy": "Ramos",
             "dwc:recordNumber": "Bur. Sci. 27090",
             "dwc:institutionCode": "L"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         },
         {
           "type": "NomenclaturalType",
@@ -4872,7 +5076,8 @@
             "dwc:recordedBy": "Ramos",
             "dwc:recordNumber": "Bur. Sci. 27090",
             "dwc:institutionCode": "NY"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         }
       ]
     },
@@ -4895,7 +5100,8 @@
             "dwc:recordedBy": "Brass",
             "dwc:recordNumber": "9252",
             "dwc:institutionCode": "FH"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         },
         {
           "type": "NomenclaturalType",
@@ -4908,7 +5114,8 @@
             "dwc:recordedBy": "Brass",
             "dwc:recordNumber": "9252",
             "dwc:institutionCode": "BM"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         },
         {
           "type": "NomenclaturalType",
@@ -4921,7 +5128,8 @@
             "dwc:recordedBy": "Brass",
             "dwc:recordNumber": "9252",
             "dwc:institutionCode": "L"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         },
         {
           "type": "NomenclaturalType",
@@ -4934,7 +5142,8 @@
             "dwc:recordedBy": "Brass",
             "dwc:recordNumber": "9252",
             "dwc:institutionCode": "NY"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         }
       ]
     },
@@ -4966,7 +5175,8 @@
             "dwc:recordedBy": "Iserentant",
             "dwc:recordNumber": "B-48A",
             "dwc:institutionCode": "H"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         },
         {
           "type": "NomenclaturalType",
@@ -4979,7 +5189,8 @@
             "dwc:recordedBy": "Eddy",
             "dwc:recordNumber": "1172",
             "dwc:institutionCode": "BM"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         },
         {
           "type": "NomenclaturalType",
@@ -4992,7 +5203,8 @@
             "dwc:stateOrProvince": "Eastern Highlands",
             "dwc:verbatimLocality": "Doulo Pass (25 km W of Goroka) , north of Highlands Highway, 2550 m",
             "dwc:institutionCode": "CBG"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         },
         {
           "type": "NomenclaturalType",
@@ -5005,7 +5217,8 @@
             "dwc:recordedBy": "Hoffmann",
             "dwc:recordNumber": "89-352",
             "dwc:institutionCode": "NY"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         },
         {
           "type": "NomenclaturalType",
@@ -5018,7 +5231,8 @@
             "dwc:verbatimLocality": "5 km SE of Lake Wamba (5 km S of Tep-Tep Airstrip) , on saddle of ridge leading to top of Mt. Finisterre, 3000 m",
             "dwc:recordNumber": "64304 p.p.",
             "dwc:institutionCode": "H"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         },
         {
           "type": "NomenclaturalType",
@@ -5032,7 +5246,8 @@
             "dwc:recordNumber": "2813",
             "dwc:institutionCode": "FH",
             "dwc:collectionCode": "FH-Bartr."
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         },
         {
           "type": "NomenclaturalType",
@@ -5045,7 +5260,8 @@
             "dwc:recordedBy": "Robbins",
             "dwc:recordNumber": "2813",
             "dwc:institutionCode": "L"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         },
         {
           "type": "NomenclaturalType",
@@ -5058,7 +5274,8 @@
             "dwc:recordedBy": "Streimann",
             "dwc:recordNumber": "20602",
             "dwc:institutionCode": "CBG"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         },
         {
           "type": "NomenclaturalType",
@@ -5071,7 +5288,8 @@
             "dwc:recordedBy": "Streimann",
             "dwc:recordNumber": "20602",
             "dwc:institutionCode": "H"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         }
       ]
     },
@@ -5104,7 +5322,8 @@
             "dwc:recordNumber": "173",
             "dwc:institutionCode": "H",
             "dwc:collectionCode": "H-BR"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         },
         {
           "type": "NomenclaturalType",
@@ -5118,7 +5337,8 @@
             "dwc:recordNumber": "173",
             "dwc:institutionCode": "B",
             "dwc:disposition": "destroyed"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         },
         {
           "type": "NomenclaturalType",
@@ -5132,7 +5352,8 @@
             "dwc:recordNumber": "173",
             "dwc:institutionCode": "FH",
             "dwc:collectionCode": "FH-Bartr."
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         },
         {
           "type": "NomenclaturalType",
@@ -5147,7 +5368,8 @@
             "dwc:recordNumber": "173",
             "dwc:institutionCode": "FH",
             "dwc:collectionCode": "FH-FL"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         },
         {
           "type": "NomenclaturalType",
@@ -5160,7 +5382,8 @@
             "dwc:recordedBy": "O. Beccari",
             "dwc:recordNumber": "173",
             "dwc:institutionCode": "L"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         },
         {
           "type": "NomenclaturalType",
@@ -5174,7 +5397,8 @@
             "dwc:recordNumber": "s.n.",
             "dwc:institutionCode": "B",
             "dwc:disposition": "destroyed"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         }
       ]
     },
@@ -5215,7 +5439,8 @@
             "dwc:recordedBy": "K. Deninger",
             "dwc:recordNumber": "s.n.",
             "dwc:institutionCode": "JE"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         },
         {
           "type": "NomenclaturalType",
@@ -5229,7 +5454,8 @@
             "dwc:recordedBy": "K. Deninger",
             "dwc:recordNumber": "s.n.",
             "dwc:institutionCode": "BM"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         },
         {
           "type": "NomenclaturalType",
@@ -5243,7 +5469,8 @@
             "dwc:recordedBy": "K. Deninger",
             "dwc:recordNumber": "s.n.",
             "dwc:institutionCode": "S"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         }
       ]
     },
@@ -5268,7 +5495,8 @@
             "dwc:recordNumber": "3181",
             "dwc:institutionCode": "H",
             "dwc:collectionCode": "H-BR"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         }
       ]
     },
@@ -5293,7 +5521,8 @@
             "dwc:recordNumber": "(D)",
             "dwc:institutionCode": "FH",
             "dwc:collectionCode": "FH-Bartr."
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         },
         {
           "type": "NomenclaturalType",
@@ -5307,7 +5536,8 @@
             "dwc:recordedBy": "S.F. Kajewski",
             "dwc:recordNumber": "(D)",
             "dwc:institutionCode": "FH"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         }
       ]
     },
@@ -5330,7 +5560,8 @@
             "dwc:stateOrProvince": "Morobe",
             "dwc:verbatimLocality": "A-mieng (A-mien), on Yaneng (Yamen) River, a tributary of the Buso River, above mouth of Tosapik Creek, 5000-6000 ft",
             "dwc:institutionCode": "FH"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         }
       ]
     },
@@ -5352,7 +5583,8 @@
             "dwc:recordedBy": "D. Gardner",
             "dwc:recordNumber": "12229.12",
             "dwc:institutionCode": "BM"
-          }
+          },
+          "source": "https://tropicos.org/reference/9020903"
         }
       ]
     },

@@ -120,8 +120,8 @@
     foaf:surname "Norris" .
 
 <https://tropicos.org/reference/9020903> a bibo:AcademicArticle ;
-    dcterms:title "A revision of the Malesian species of Dicranoloma 
-            (Dicranaceae, Musci)" ;
+    dcterms:title """A revision of the Malesian species of Dicranoloma 
+            (Dicranaceae, Musci)""" ;
     dcterms:creator <https://orcid.org/0000-0003-2224-6821> ;
     bibo:authorList [ a rdf:Seq ;
             rdf:_1 <https://orcid.org/0000-0003-2224-6821> ] ;
@@ -3352,7 +3352,8 @@ _:ann148 a oa:Annotation ;
             dwc:recordNumber "167" ;
             dwc:institutionCode "B" ;
             dwc:disposition "destroyed" ] ;
-    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/holotype> .
+    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/holotype> ;
+    dcterms:source <https://tropicos.org/reference/9020903> .
 
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35121903> ;
@@ -3375,7 +3376,8 @@ _:ann148 a oa:Annotation ;
             dwc:recordedBy "O. Beccari" ;
             dwc:recordNumber "167" ;
             dwc:institutionCode "FH-FL" ] ;
-    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> .
+    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> ;
+    dcterms:source <https://tropicos.org/reference/9020903> .
 
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35121903> ;
@@ -3386,7 +3388,8 @@ _:ann148 a oa:Annotation ;
             dwc:recordedBy "O. Beccari" ;
             dwc:recordNumber "167" ;
             dwc:institutionCode "L" ] ;
-    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> .
+    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> ;
+    dcterms:source <https://tropicos.org/reference/9020903> .
 
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35121903> ;
@@ -3397,7 +3400,8 @@ _:ann148 a oa:Annotation ;
             dwc:recordedBy "O. Beccari" ;
             dwc:recordNumber "167" ;
             dwc:institutionCode "S" ] ;
-    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> .
+    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> ;
+    dcterms:source <https://tropicos.org/reference/9020903> .
 
 # Dicranum assimile Hampe
 [] a tcs:NomenclaturalType ;
@@ -3819,7 +3823,8 @@ _:ann148 a oa:Annotation ;
             dwc:recordedBy "Clemens" ;
             dwc:recordNumber "12493" ;
             dwc:institutionCode "FH" ] ;
-    tcs:typeOfType  <http://rs.gbif.org/vocabulary/gbif/type_status/holotype> .
+    tcs:typeOfType  <http://rs.gbif.org/vocabulary/gbif/type_status/holotype> ;
+    dcterms:source <https://tropicos.org/reference/9020903> .
 
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35183593> ;
@@ -3829,7 +3834,8 @@ _:ann148 a oa:Annotation ;
             dwc:recordedBy "Clemens" ;
             dwc:recordNumber "12493" ;
             dwc:institutionCode "FH" ] ;
-    tcs:typeOfType  <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> .
+    tcs:typeOfType  <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> ;
+    dcterms:source <https://tropicos.org/reference/9020903> .
 
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35183593> ;
@@ -3839,7 +3845,8 @@ _:ann148 a oa:Annotation ;
             dwc:recordedBy "Clemens" ;
             dwc:recordNumber "12493" ;
             dwc:institutionCode "MiCH" ] ;
-    tcs:typeOfType  <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> .
+    tcs:typeOfType  <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> ;
+    dcterms:source <https://tropicos.org/reference/9020903> .
 
 # Dicranum billarderii Brid.
 [] a tcs:NomenclaturalType ;
@@ -3850,7 +3857,8 @@ _:ann148 a oa:Annotation ;
             dwc:recordNumber "s.n." ;
             dwc:institutionCode "B" ;
             dwc:disposition "not found" ] ;
-    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/holotype> .
+    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/holotype> ;
+    dcterms:source <https://tropicos.org/reference/9020903> .
 
 # Dicranum novoguineense
 [] a tcs:NomenclaturalType ;
@@ -3863,7 +3871,8 @@ _:ann148 a oa:Annotation ;
             dwc:recordNumber "6" ;
             dwc:institutionCode "H" ;
             dwc:collectionCode "H-BR" ] ;
-    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/holotype> .
+    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/holotype> ;
+    dcterms:source <https://tropicos.org/reference/9020903> .
 
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35123838> ;
@@ -3874,7 +3883,8 @@ _:ann148 a oa:Annotation ;
             dwc:recordedBy "W. MacGregor" ;
             dwc:recordNumber "6" ;
             dwc:institutionCode "BM" ] ;
-    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> .
+    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> ;
+    dcterms:source <https://tropicos.org/reference/9020903> .
 
 # Dicranoloma brevicapsulare Dixon
 [] a tcs:NomenclaturalType ;
@@ -3886,7 +3896,8 @@ _:ann148 a oa:Annotation ;
             dwc:recordedBy "Hanif & Nur" ;
             dwc:recordNumber "7915a" ;
             dwc:institutionCode "BM" ] ;
-    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/holotype> .
+    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/holotype> ;
+    dcterms:source <https://tropicos.org/reference/9020903> .
 
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35121488> ;
@@ -3897,7 +3908,8 @@ _:ann148 a oa:Annotation ;
             dwc:recordedBy "Hanif & Nur" ;
             dwc:recordNumber "7915a" ;
             dwc:institutionCode "KLU" ] ;
-    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> .
+    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> ;
+    dcterms:source <https://tropicos.org/reference/9020903> .
 
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35121488> ;
@@ -3908,7 +3920,8 @@ _:ann148 a oa:Annotation ;
             dwc:recordedBy "Hanif & Nur" ;
             dwc:recordNumber "7915a" ;
             dwc:institutionCode "L" ] ;
-    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> .
+    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> ;
+    dcterms:source <https://tropicos.org/reference/9020903> .
 
 # Dicranoloma subecostatum Dixon
 [] a tcs:NomenclaturalType ;
@@ -3933,7 +3946,8 @@ _:ann148 a oa:Annotation ;
             dwc:recordedBy "Clemens" ;
             dwc:recordNumber "BS 10552" ;
             dwc:institutionCode "BM" ] ;
-    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isolectotype> .
+    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isolectotype> ;
+    dcterms:source <https://tropicos.org/reference/9020903> .
  
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35121635> ;
@@ -3944,7 +3958,8 @@ _:ann148 a oa:Annotation ;
             dwc:recordedBy "Clemens" ;
             dwc:recordNumber "BS 10552" ;
             dwc:institutionCode "L" ] ;
-    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isolectotype> .
+    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isolectotype> ;
+    dcterms:source <https://tropicos.org/reference/9020903> .
  
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35121635> ;
@@ -3955,7 +3970,8 @@ _:ann148 a oa:Annotation ;
             dwc:recordedBy "Clemens" ;
             dwc:recordNumber "BS 10552" ;
             dwc:institutionCode "NY" ] ;
-    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isolectotype> .
+    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isolectotype> ;
+    dcterms:source <https://tropicos.org/reference/9020903> .
  
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35121635> ;
@@ -3966,7 +3982,8 @@ _:ann148 a oa:Annotation ;
             dwc:recordedBy "Winkler" ;
             dwc:recordNumber "3200" ;
             dwc:institutionCode "BM" ] ;
-    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/syntype> .
+    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/syntype> ;
+    dcterms:source <https://tropicos.org/reference/9020903> .
  
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35121635> ;
@@ -3978,7 +3995,8 @@ _:ann148 a oa:Annotation ;
             dwc:recordNumber "3200" ;
             dwc:institutionCode "H" ;
             dwc:collectionCode "H-BR" ] ;
-    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/syntype> .
+    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/syntype> ;
+    dcterms:source <https://tropicos.org/reference/9020903> .
 
 # Dicranoloma phillipsiae E.B.Bartram
 [] a tcs:NomenclaturalType ;
@@ -3991,7 +4009,8 @@ _:ann148 a oa:Annotation ;
             dwc:recordedBy "Phillips" ;
             dwc:recordNumber "26" ;
             dwc:institutionCode "FH" ] ;
-    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/holotype> .
+    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/holotype> ;
+    dcterms:source <https://tropicos.org/reference/9020903> .
 
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35121595> ;
@@ -4003,7 +4022,8 @@ _:ann148 a oa:Annotation ;
             dwc:recordedBy "Phillips" ;
             dwc:recordNumber "26" ;
             dwc:institutionCode "BM" ] ;
-    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> .
+    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> ;
+    dcterms:source <https://tropicos.org/reference/9020903> .
 
 # Dicranoloma deningeri Herzog
 [] a tcs:NomenclaturalType ;
@@ -4029,7 +4049,8 @@ _:ann148 a oa:Annotation ;
             dwc:recordNumber "s.n." ;
             dwc:institutionCode "LE" ;
             dwc:disposition "not located" ] ;
-    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/holotype> .
+    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/holotype> ;
+    dcterms:source <https://tropicos.org/reference/9020903> .
 
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35121972> ;
@@ -4040,7 +4061,8 @@ _:ann148 a oa:Annotation ;
             dwc:recordedBy "C. Blume" ;
             dwc:recordNumber "s.n." ;
             dwc:institutionCode "JE" ] ;
-    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/lectotype> .
+    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/lectotype> ;
+    dcterms:source <https://tropicos.org/reference/9020903> .
 
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35121972> ;
@@ -4051,7 +4073,8 @@ _:ann148 a oa:Annotation ;
             dwc:recordedBy "C. Blume" ;
             dwc:recordNumber "s.n." ;
             dwc:institutionCode "L" ] ;
-    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> .
+    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> ;
+    dcterms:source <https://tropicos.org/reference/9020903> .
 
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35121972> ;
@@ -4062,7 +4085,8 @@ _:ann148 a oa:Annotation ;
             dwc:recordedBy "C. Blume" ;
             dwc:recordNumber "s.n." ;
             dwc:institutionCode "NY" ] ;
-    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> .
+    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> ;
+    dcterms:source <https://tropicos.org/reference/9020903> .
 
 # Dicranum blumei var. laxifolium Broth. & Geh.
 [] a tcs:NomenclaturalType ;
@@ -4088,7 +4112,8 @@ _:ann148 a oa:Annotation ;
             dwc:recordNumber "161" ;
             dwc:institutionCode "FH" ;
             dwc:collectionCode "FH-FL" ] ;
-    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> .
+    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> ;
+    dcterms:source <https://tropicos.org/reference/9020903> .
 
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35121973> ;
@@ -4099,7 +4124,8 @@ _:ann148 a oa:Annotation ;
             dwc:recordedBy "O. Beccari" ;
             dwc:recordNumber "161" ;
             dwc:institutionCode "L" ] ;
-    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> .
+    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> ;
+    dcterms:source <https://tropicos.org/reference/9020903> .
 
 # Dicranoloma blumei var. papillisetum M.Fleisch.
 [] a tcs:NomenclaturalType ;
@@ -4112,7 +4138,8 @@ _:ann148 a oa:Annotation ;
             dwc:recordNumber "9" ;
             dwc:institutionCode "F" ;
             dwc:collectionCode "FH-FL" ] ;
-    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/holotype> .
+    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/holotype> ;
+    dcterms:source <https://tropicos.org/reference/9020903> .
     
 # Dicranoloma braunfelsioides Herzog
 [] a tcs:NomenclaturalType ;
@@ -4125,7 +4152,8 @@ _:ann148 a oa:Annotation ;
             dwc:recordedBy "Stresemann" ;
             dwc:recordNumber "s.n." ;
             dwc:institutionCode "JE" ] ;
-    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/holotype> .
+    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/holotype> ;
+    dcterms:source <https://tropicos.org/reference/9020903> .
 
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35121484> ;
@@ -4137,7 +4165,8 @@ _:ann148 a oa:Annotation ;
             dwc:recordedBy "Stresemann" ;
             dwc:recordNumber "s.n." ;
             dwc:institutionCode "B" ] ;
-    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> .
+    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> ;
+    dcterms:source <https://tropicos.org/reference/9020903> .
 
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35121484> ;
@@ -4149,7 +4178,8 @@ _:ann148 a oa:Annotation ;
             dwc:recordedBy "Stresemann" ;
             dwc:recordNumber "s.n." ;
             dwc:institutionCode "S" ] ;
-    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> .
+    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> ;
+    dcterms:source <https://tropicos.org/reference/9020903> .
 
 # Dicranoloma blumei f. subintegrum Dixon
 [] a tcs:NomenclaturalType ;
@@ -4161,7 +4191,8 @@ _:ann148 a oa:Annotation ;
             dwc:recordedBy "C.E. Carr" ;
             dwc:recordNumber "13651" ;
             dwc:institutionCode "BM" ] ;
-    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/holotype> .
+    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/holotype> ;
+    dcterms:source <https://tropicos.org/reference/9020903> .
 
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35188177> ;
@@ -4172,7 +4203,8 @@ _:ann148 a oa:Annotation ;
             dwc:recordedBy "C.E. Carr" ;
             dwc:recordNumber "13651" ;
             dwc:institutionCode "H" ] ;
-    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> .
+    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> ;
+    dcterms:source <https://tropicos.org/reference/9020903> .
 
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35188177> ;
@@ -4183,7 +4215,8 @@ _:ann148 a oa:Annotation ;
             dwc:recordedBy "C.E. Carr" ;
             dwc:recordNumber "13651" ;
             dwc:institutionCode "L" ] ;
-    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> .
+    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> ;
+    dcterms:source <https://tropicos.org/reference/9020903> .
 
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35188177> ;
@@ -4194,7 +4227,8 @@ _:ann148 a oa:Annotation ;
             dwc:recordedBy "C.E. Carr" ;
             dwc:recordNumber "13651" ;
             dwc:institutionCode "NY" ] ;
-    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> .
+    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> ;
+    dcterms:source <https://tropicos.org/reference/9020903> .
  
 # Dicranum braunii Müll.Hal.
 [] a tcs:NomenclaturalType ;
@@ -4217,7 +4251,8 @@ _:ann148 a oa:Annotation ;
             dwc:recordNumber "s.n." ;
             dwc:institutionCode "H" ;
             dwc:collectionCode "H-BR" ] ;
-    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isolectotype> .
+    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isolectotype> ;
+    dcterms:source <https://tropicos.org/reference/9020903> .
 
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35122018> ;
@@ -4229,7 +4264,8 @@ _:ann148 a oa:Annotation ;
             dwc:recordNumber "s.n." ;
             dwc:institutionCode "L" ;
             dwc:disposition "not located" ] ;
-    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/syntype> .
+    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/syntype> ;
+    dcterms:source <https://tropicos.org/reference/9020903> .
 
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35122018> ;
@@ -4237,7 +4273,8 @@ _:ann148 a oa:Annotation ;
             dwc:recordedBy "Rochussen" ;
             dwc:recordNumber "s.n." ;
             dwc:institutionCode "L" ] ;
-    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/syntype> .
+    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/syntype> ;
+    dcterms:source <https://tropicos.org/reference/9020903> .
 
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35122018> ;
@@ -4246,7 +4283,8 @@ _:ann148 a oa:Annotation ;
             dwc:recordNumber "s.n." ;
             dwc:institutionCode "L" ;
             dwc:disposition "not located" ] ;
-    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/syntype> .
+    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/syntype> ;
+    dcterms:source <https://tropicos.org/reference/9020903> .
 
 # Leucoloma brachypelma Broth.
 [] a tcs:NomenclaturalType ;
@@ -4257,7 +4295,8 @@ _:ann148 a oa:Annotation ;
             dwc:recordedBy "C.L. Blume" ;
             dwc:institutionCode "B" ;
             dwc:disposition "destroyed" ] ;
-    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/holotype> .
+    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/holotype> ;
+    dcterms:source <https://tropicos.org/reference/9020903> .
 
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35154862> ;
@@ -4279,7 +4318,8 @@ _:ann148 a oa:Annotation ;
             dwc:recordedBy "Graeffe" ;
             dwc:institutionCode "B" ;
             dwc:disposition "destroyed" ] ;
-    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/holotype> .
+    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/holotype> ;
+    dcterms:source <https://tropicos.org/reference/9020903> .
 
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35123489> ;
@@ -4301,7 +4341,8 @@ _:ann148 a oa:Annotation ;
             dwc:recordedBy "Graeffe" ;
             dwc:institutionCode "H" ;
             dwc:collectionCode "H-BR" ] ;
-    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> .
+    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> ;
+    dcterms:source <https://tropicos.org/reference/9020903> .
     
 # Dicranum laevifolium Broth. & Geh.
 [] a tcs:NomenclaturalType ;
@@ -4314,7 +4355,8 @@ _:ann148 a oa:Annotation ;
             dwc:recordNumber "184" ;
             dwc:institutionCode "H" ;
             dwc:collectionCode "H-BR" ] ;
-    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/holotype> .
+    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/holotype> ;
+    dcterms:source <https://tropicos.org/reference/9020903> .
 
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35123636> ;
@@ -4326,7 +4368,8 @@ _:ann148 a oa:Annotation ;
             dwc:recordNumber "184" ;
             dwc:institutionCode "FH" ;
             dwc:collectionCode "FH-FL" ] ;
-    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> .
+    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> ;
+    dcterms:source <https://tropicos.org/reference/9020903> .
 
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35123636> ;
@@ -4337,7 +4380,8 @@ _:ann148 a oa:Annotation ;
             dwc:recordedBy "O. Beccari" ;
             dwc:recordNumber "184" ;
             dwc:institutionCode "S" ] ;
-    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> .
+    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> ;
+    dcterms:source <https://tropicos.org/reference/9020903> .
     
 # Dicranum nematosum Broth. & Geh.
 [] a tcs:NomenclaturalType ;
@@ -4349,7 +4393,8 @@ _:ann148 a oa:Annotation ;
             dwc:recordNumber "686" ;
             dwc:institutionCode "H" ;
             dwc:collectionCode "H-BR" ] ;
-    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/holotype> .
+    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/holotype> ;
+    dcterms:source <https://tropicos.org/reference/9020903> .
 
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35123815> ;
@@ -4359,7 +4404,8 @@ _:ann148 a oa:Annotation ;
             dwc:recordedBy "W. MacGregor" ;
             dwc:recordNumber "686" ;
             dwc:institutionCode "S" ] ;
-    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> .
+    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> ;
+    dcterms:source <https://tropicos.org/reference/9020903> .
 
 # Dicranum mindanense Broth.
 [] a tcs:NomenclaturalType ;
@@ -4372,7 +4418,8 @@ _:ann148 a oa:Annotation ;
             dwc:recordNumber "s.n." ;
             dwc:institutionCode "B" ;
             dwc:disposition "destroyed" ] ;
-    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/holotype> .
+    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/holotype> ;
+    dcterms:source <https://tropicos.org/reference/9020903> .
 
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35186801> ;
@@ -4398,7 +4445,8 @@ _:ann148 a oa:Annotation ;
             dwc:recordNumber "s.n." ;
             dwc:institutionCode "H" ;
             dwc:collectionCode "H-BR" ] ;
-    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/holotype> .
+    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/holotype> ;
+    dcterms:source <https://tropicos.org/reference/9020903> .
 
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35121487> ;
@@ -4409,7 +4457,8 @@ _:ann148 a oa:Annotation ;
             dwc:recordedBy "K & L. Rechinger" ;
             dwc:recordNumber "s.n." ;
             dwc:institutionCode "W" ] ;
-    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/paratype> .
+    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/paratype> ;
+    dcterms:source <https://tropicos.org/reference/9020903> .
 
 # Dicranoloma braunii f. brevifolia
 [] a tcs:NomenclaturalType ;
@@ -4421,7 +4470,8 @@ _:ann148 a oa:Annotation ;
             dwc:recordedBy "J.B. Clark" ;
             dwc:recordNumber "4" ;
             dwc:institutionCode "BM" ] ;
-    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/holotype> .
+    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/holotype> ;
+    dcterms:source <https://tropicos.org/reference/9020903> .
 
 # Dicranoloma hemineuron Dixon
 [] a tcs:NomenclaturalType ;
@@ -4433,7 +4483,8 @@ _:ann148 a oa:Annotation ;
             dwc:recordedBy "Fr. Verdoorn" ;
             dwc:recordNumber "74c" ;
             dwc:institutionCode "BM" ] ;
-    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/holotype> .
+    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/holotype> ;
+    dcterms:source <https://tropicos.org/reference/9020903> .
 
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35121543> ;
@@ -4444,7 +4495,8 @@ _:ann148 a oa:Annotation ;
             dwc:recordedBy "Fr. Verdoorn" ;
             dwc:recordNumber "74c" ;
             dwc:institutionCode "JE" ] ;
-    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> .
+    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> ;
+    dcterms:source <https://tropicos.org/reference/9020903> .
 
 # Dicranoloma angustifondreum Dixon
 [] a tcs:NomenclaturalType ;
@@ -4456,7 +4508,8 @@ _:ann148 a oa:Annotation ;
             dwc:recordedBy "Enriquez" ;
             dwc:recordNumber "18111" ;
             dwc:institutionCode "BM" ] ;
-    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/holotype> .
+    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/holotype> ;
+    dcterms:source <https://tropicos.org/reference/9020903> .
 
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35121452> ;
@@ -4467,7 +4520,8 @@ _:ann148 a oa:Annotation ;
             dwc:recordedBy "Enriquez" ;
             dwc:recordNumber "18111" ;
             dwc:institutionCode "L" ] ;
-    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> .
+    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> ;
+    dcterms:source <https://tropicos.org/reference/9020903> .
     
 # Dicranoloma spiniforme E.B.Bartram
 [] a tcs:NomenclaturalType ;
@@ -4481,7 +4535,8 @@ _:ann148 a oa:Annotation ;
             dwc:recordNumber "20090" ;
             dwc:institutionCode "FH" ;
             dwc:collectionCode "FH-Bartr." ] ;
-    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/holotype> .
+    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/holotype> ;
+    dcterms:source <https://tropicos.org/reference/9020903> .
 
 # Bartramia pungentella Müll.Hal.
 [] a tcs:NomenclaturalType ;
@@ -4551,7 +4606,8 @@ _:ann148 a oa:Annotation ;
             dwc:recordNumber "s.n." ;
             dwc:institutionCode "H" ;
             dwc:collectionCode "H-BR" ] ;
-    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/syntype> .
+    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/syntype> ;
+    dcterms:source <https://tropicos.org/reference/9020903> .
     
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35150829> ;
@@ -4562,7 +4618,8 @@ _:ann148 a oa:Annotation ;
             dwc:recordedBy "Kuhl & Van Hasselt" ;
             dwc:recordNumber "s.n." ;
             dwc:institutionCode "L" ] ;
-    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/syntype> .
+    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/syntype> ;
+    dcterms:source <https://tropicos.org/reference/9020903> .
 
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35150829> ;
@@ -4573,7 +4630,8 @@ _:ann148 a oa:Annotation ;
             dwc:recordedBy "Kuhl & Van Hasselt" ;
             dwc:recordNumber "s.n." ;
             dwc:institutionCode "S" ] ;
-    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/syntype> .
+    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/syntype> ;
+    dcterms:source <https://tropicos.org/reference/9020903> .
 
 # Dicranum brevisetum var. angustum Sande Lac.
 [] a tcs:NomenclaturalType ;
@@ -4595,7 +4653,8 @@ _:ann148 a oa:Annotation ;
             dwc:recordNumber "s.n." ;
             dwc:institutionCode "L" ;
             dwc:disposition "not located" ] ;
-    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/syntype> .
+    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/syntype> ;
+    dcterms:source <https://tropicos.org/reference/9020903> .
 
 # Dicranum leucophyllum Sande Lac.
 [] a tcs:NomenclaturalType ;
@@ -4618,7 +4677,8 @@ _:ann148 a oa:Annotation ;
             dwc:recordNumber "s.n." ;
             dwc:institutionCode "H" ;
             dwc:collectionCode "H-BR" ] ;
-    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isolectotype> .
+    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isolectotype> ;
+    dcterms:source <https://tropicos.org/reference/9020903> .
 
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35123679> ;
@@ -4628,7 +4688,8 @@ _:ann148 a oa:Annotation ;
             dwc:recordedBy "Teysmann" ;
             dwc:recordNumber "s.n." ;
             dwc:institutionCode "S" ] ;
-    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isolectotype> .
+    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isolectotype> ;
+    dcterms:source <https://tropicos.org/reference/9020903> .
 
 # Dicranum leucophyllum var. kurzii M.Fleish.
 [] a tcs:NomenclaturalType ;
@@ -4641,7 +4702,8 @@ _:ann148 a oa:Annotation ;
             dwc:institutionCode "FH" ;
             dwc:collectionCode "FH-FL" ;
             dwc:disposition "not found" ] ;
-    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/holotype> .
+    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/holotype> ;
+    dcterms:source <https://tropicos.org/reference/9020903> .
 
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35122028> ;
@@ -4651,7 +4713,8 @@ _:ann148 a oa:Annotation ;
             dwc:recordedBy "Fleischer" ;
             dwc:recordNumber "s.n." ;
             dwc:institutionCode "BM" ] ;
-    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> .
+    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> ;
+    dcterms:source <https://tropicos.org/reference/9020903> .
 
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35122028> ;
@@ -4662,7 +4725,8 @@ _:ann148 a oa:Annotation ;
             dwc:recordNumber "s.n." ;
             dwc:institutionCode "FH" ;
             dwc:collectionCode "FH-Bartr." ] ;
-    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> .
+    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> ;
+    dcterms:source <https://tropicos.org/reference/9020903> .
 
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35122028> ;
@@ -4673,7 +4737,8 @@ _:ann148 a oa:Annotation ;
             dwc:recordNumber "s.n." ;
             dwc:institutionCode "H" ;
             dwc:collectionCode "H-BR" ] ;
-    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> .
+    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> ;
+    dcterms:source <https://tropicos.org/reference/9020903> .
 
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35122028> ;
@@ -4683,7 +4748,8 @@ _:ann148 a oa:Annotation ;
             dwc:recordedBy "Fleischer" ;
             dwc:recordNumber "s.n." ;
             dwc:institutionCode "JE" ] ;
-    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> .
+    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> ;
+    dcterms:source <https://tropicos.org/reference/9020903> .
 
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35122028> ;
@@ -4693,7 +4759,8 @@ _:ann148 a oa:Annotation ;
             dwc:recordedBy "Fleischer" ;
             dwc:recordNumber "s.n." ;
             dwc:institutionCode "L" ] ;
-    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> .
+    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> ;
+    dcterms:source <https://tropicos.org/reference/9020903> .
 
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35122028> ;
@@ -4703,7 +4770,8 @@ _:ann148 a oa:Annotation ;
             dwc:recordedBy "Fleischer" ;
             dwc:recordNumber "s.n." ;
             dwc:institutionCode "NY" ] ;
-    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> .
+    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> ;
+    dcterms:source <https://tropicos.org/reference/9020903> .
 
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35122028> ;
@@ -4713,7 +4781,8 @@ _:ann148 a oa:Annotation ;
             dwc:recordedBy "Fleischer" ;
             dwc:recordNumber "s.n." ;
             dwc:institutionCode "S" ] ;
-    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> .
+    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> ;
+    dcterms:source <https://tropicos.org/reference/9020903> .
 
 # Dicranoloma defoliatum J.Froehl.
 [] a tcs:NomenclaturalType ;
@@ -4727,7 +4796,8 @@ _:ann148 a oa:Annotation ;
             dwc:recordNumber "s.n." ;
             dwc:institutionCode "S" ;
             dwc:disposition "not found" ] ;
-    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/holotype> .
+    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/holotype> ;
+    dcterms:source <https://tropicos.org/reference/9020903> .
 
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35162124> ;
@@ -4739,7 +4809,8 @@ _:ann148 a oa:Annotation ;
             dwc:recordedBy "Meijer" ;
             dwc:recordNumber "12717" ;
             dwc:institutionCode "L" ] ;
-    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> .
+    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> ;
+    dcterms:source <https://tropicos.org/reference/9020903> .
 
 # Dicranoloma damanhurii B.C.Tan & Mohamed
 [] a tcs:NomenclaturalType ;
@@ -4752,7 +4823,8 @@ _:ann148 a oa:Annotation ;
             dwc:recordNumber "2028" ;
             dwc:institutionCode "KLU" ;
             dwc:disposition "not available" ] ;
-    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/holotype> .
+    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/holotype> ;
+    dcterms:source <https://tropicos.org/reference/9020903> .
 
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35186481> ;
@@ -4763,7 +4835,8 @@ _:ann148 a oa:Annotation ;
             dwc:recordedBy "Damanhuri" ;
             dwc:recordNumber "2028" ;
             dwc:institutionCode "FH" ] ;
-    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> .
+    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> ;
+    dcterms:source <https://tropicos.org/reference/9020903> .
 
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35186481> ;
@@ -4774,7 +4847,8 @@ _:ann148 a oa:Annotation ;
             dwc:recordedBy "Damanhuri" ;
             dwc:recordNumber "2028" ;
             dwc:institutionCode "H" ] ;
-    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> .
+    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> ;
+    dcterms:source <https://tropicos.org/reference/9020903> .
 
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35186481> ;
@@ -4785,7 +4859,8 @@ _:ann148 a oa:Annotation ;
             dwc:recordedBy "Damanhuri" ;
             dwc:recordNumber "2028" ;
             dwc:institutionCode "NICH" ] ;
-    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> .
+    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> ;
+    dcterms:source <https://tropicos.org/reference/9020903> .
 
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35186481> ;
@@ -4796,7 +4871,8 @@ _:ann148 a oa:Annotation ;
             dwc:recordedBy "Damanhuri" ;
             dwc:recordNumber "2028" ;
             dwc:institutionCode "NY" ] ;
-    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> .
+    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> ;
+    dcterms:source <https://tropicos.org/reference/9020903> .
 
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35186481> ;
@@ -4807,7 +4883,8 @@ _:ann148 a oa:Annotation ;
             dwc:recordedBy "Damanhuri" ;
             dwc:recordNumber "2028" ;
             dwc:institutionCode "UKMB" ] ;
-    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> .
+    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> ;
+    dcterms:source <https://tropicos.org/reference/9020903> .
  
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35186481> ;
@@ -4818,7 +4895,8 @@ _:ann148 a oa:Annotation ;
             dwc:recordedBy "Damanhuri" ;
             dwc:recordNumber "1983" ;
             dwc:institutionCode "KLU" ] ;
-    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/paratype> .
+    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/paratype> ;
+    dcterms:source <https://tropicos.org/reference/9020903> .
  
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35186481> ;
@@ -4829,7 +4907,8 @@ _:ann148 a oa:Annotation ;
             dwc:recordedBy "Damanhuri" ;
             dwc:recordNumber "1625" ;
             dwc:institutionCode "H" ] ;
-    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/paratype> .
+    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/paratype> ;
+    dcterms:source <https://tropicos.org/reference/9020903> .
  
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35186481> ;
@@ -4840,7 +4919,8 @@ _:ann148 a oa:Annotation ;
             dwc:recordedBy "Damanhuri" ;
             dwc:recordNumber "1625" ;
             dwc:institutionCode "KLU" ] ;
-    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/paratype> .
+    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/paratype> ;
+    dcterms:source <https://tropicos.org/reference/9020903> .
 
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35186481> ;
@@ -4851,7 +4931,8 @@ _:ann148 a oa:Annotation ;
             dwc:recordedBy "Damanhuri" ;
             dwc:recordNumber "1625" ;
             dwc:institutionCode "L" ] ;
-    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/paratype> .
+    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/paratype> ;
+    dcterms:source <https://tropicos.org/reference/9020903> .
 
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35186481> ;
@@ -4862,7 +4943,8 @@ _:ann148 a oa:Annotation ;
             dwc:recordedBy "Damanhuri" ;
             dwc:recordNumber "1625" ;
             dwc:institutionCode "UKMB" ] ;
-    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/paratype> .
+    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/paratype> ;
+    dcterms:source <https://tropicos.org/reference/9020903> .
 
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35186481> ;
@@ -4873,7 +4955,8 @@ _:ann148 a oa:Annotation ;
             dwc:recordedBy "Damanhuri" ;
             dwc:recordNumber "164" ;
             dwc:institutionCode "H" ] ;
-    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/paratype> .
+    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/paratype> ;
+    dcterms:source <https://tropicos.org/reference/9020903> .
 
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35186481> ;
@@ -4884,7 +4967,8 @@ _:ann148 a oa:Annotation ;
             dwc:recordedBy "Damanhuri" ;
             dwc:recordNumber "164" ;
             dwc:institutionCode "KLU" ] ;
-    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/paratype> .
+    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/paratype> ;
+    dcterms:source <https://tropicos.org/reference/9020903> .
 
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35186481> ;
@@ -4895,7 +4979,8 @@ _:ann148 a oa:Annotation ;
             dwc:recordedBy "Damanhuri" ;
             dwc:recordNumber "164" ;
             dwc:institutionCode "UKMB" ] ;
-    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/paratype> .
+    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/paratype> ;
+    dcterms:source <https://tropicos.org/reference/9020903> .
 
 # Dicranoloma leucophyllum f. rufescens M.Fleish.
 [] a tcs:NomenclaturalType ;
@@ -4921,7 +5006,8 @@ _:ann148 a oa:Annotation ;
             dwc:recordedBy "Norris" ;
             dwc:recordNumber "62827" ;
             dwc:institutionCode "H" ] ;
-    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/holotype> .
+    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/holotype> ;
+    dcterms:source <https://tropicos.org/reference/9020903> .
 
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35184272> ;
@@ -4935,7 +5021,8 @@ _:ann148 a oa:Annotation ;
             dwc:recordedBy "Norris" ;
             dwc:recordNumber "62827" ;
             dwc:institutionCode "BM" ] ;
-    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> .
+    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> ;
+    dcterms:source <https://tropicos.org/reference/9020903> .
 
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35184272> ;
@@ -4949,7 +5036,8 @@ _:ann148 a oa:Annotation ;
             dwc:recordedBy "Norris" ;
             dwc:recordNumber "62827" ;
             dwc:institutionCode "HSC" ] ;
-    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> .
+    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> ;
+    dcterms:source <https://tropicos.org/reference/9020903> .
 
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35184272> ;
@@ -4963,7 +5051,8 @@ _:ann148 a oa:Annotation ;
             dwc:recordedBy "Norris" ;
             dwc:recordNumber "62827" ;
             dwc:institutionCode "LAE" ] ;
-    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> .
+    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> ;
+    dcterms:source <https://tropicos.org/reference/9020903> .
 
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35184272> ;
@@ -4976,7 +5065,8 @@ _:ann148 a oa:Annotation ;
             dwc:recordedBy "Streimann" ;
             dwc:recordNumber "20541" ;
             dwc:institutionCode "H" ] ;
-    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/paratype> .
+    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/paratype> ;
+    dcterms:source <https://tropicos.org/reference/9020903> .
 
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35184272> ;
@@ -4987,7 +5077,8 @@ _:ann148 a oa:Annotation ;
             dwc:recordedBy "Mundua" ;
             dwc:recordNumber "64" ;
             dwc:institutionCode "H" ] ;
-    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/paratype> .
+    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/paratype> ;
+    dcterms:source <https://tropicos.org/reference/9020903> .
 
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35184272> ;
@@ -5000,7 +5091,8 @@ _:ann148 a oa:Annotation ;
             dwc:recordedBy "Norris" ;
             dwc:recordNumber "65024" ;
             dwc:institutionCode "H" ] ;
-    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/paratype> .
+    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/paratype> ;
+    dcterms:source <https://tropicos.org/reference/9020903> .
 
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35184272> ;
@@ -5013,7 +5105,8 @@ _:ann148 a oa:Annotation ;
             dwc:recordedBy "Norris" ;
             dwc:recordNumber "65040" ;
             dwc:institutionCode "H" ] ;
-    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/paratype> .
+    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/paratype> ;
+    dcterms:source <https://tropicos.org/reference/9020903> .
 
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35184272> ;
@@ -5026,7 +5119,8 @@ _:ann148 a oa:Annotation ;
             dwc:recordedBy "Norris" ;
             dwc:recordNumber "65173" ;
             dwc:institutionCode "H" ] ;
-    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/paratype> .
+    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/paratype> ;
+    dcterms:source <https://tropicos.org/reference/9020903> .
 
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35184272> ;
@@ -5039,7 +5133,8 @@ _:ann148 a oa:Annotation ;
             dwc:recordedBy "Koponen" ;
             dwc:recordNumber "32780" ;
             dwc:institutionCode "FH" ] ;
-    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/paratype> .
+    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/paratype> ;
+    dcterms:source <https://tropicos.org/reference/9020903> .
 
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35184272> ;
@@ -5052,7 +5147,8 @@ _:ann148 a oa:Annotation ;
             dwc:recordedBy "Koponen" ;
             dwc:recordNumber "32780" ;
             dwc:institutionCode "H" ] ;
-    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/paratype> .
+    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/paratype> ;
+    dcterms:source <https://tropicos.org/reference/9020903> .
 
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35184272> ;
@@ -5065,7 +5161,8 @@ _:ann148 a oa:Annotation ;
             dwc:recordedBy "Koponen" ;
             dwc:recordNumber "32825" ;
             dwc:institutionCode "H" ] ;
-    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/paratype> .
+    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/paratype> ;
+    dcterms:source <https://tropicos.org/reference/9020903> .
 
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35184272> ;
@@ -5078,7 +5175,8 @@ _:ann148 a oa:Annotation ;
             dwc:recordedBy "Koponen" ;
             dwc:recordNumber "32825" ;
             dwc:institutionCode "L" ] ;
-    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/paratype> .
+    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/paratype> ;
+    dcterms:source <https://tropicos.org/reference/9020903> .
 
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35184272> ;
@@ -5091,7 +5189,8 @@ _:ann148 a oa:Annotation ;
             dwc:recordedBy "Norris" ;
             dwc:recordNumber "62709" ;
             dwc:institutionCode "H" ] ;
-    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/paratype> .
+    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/paratype> ;
+    dcterms:source <https://tropicos.org/reference/9020903> .
 
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35184272> ;
@@ -5104,7 +5203,8 @@ _:ann148 a oa:Annotation ;
             dwc:recordedBy "Norris" ;
             dwc:recordNumber "63044" ;
             dwc:institutionCode "H" ] ;
-    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/paratype> .
+    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/paratype> ;
+    dcterms:source <https://tropicos.org/reference/9020903> .
 
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35184272> ;
@@ -5117,7 +5217,8 @@ _:ann148 a oa:Annotation ;
             dwc:recordedBy "Norris" ;
             dwc:recordNumber "63051" ;
             dwc:institutionCode "H" ] ;
-    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/paratype> .
+    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/paratype> ;
+    dcterms:source <https://tropicos.org/reference/9020903> .
 
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35184272> ;
@@ -5130,7 +5231,8 @@ _:ann148 a oa:Annotation ;
             dwc:recordedBy "Norris" ;
             dwc:recordNumber "63260" ;
             dwc:institutionCode "H" ] ;
-    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/paratype> .
+    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/paratype> ;
+    dcterms:source <https://tropicos.org/reference/9020903> .
 
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35184272> ;
@@ -5143,7 +5245,8 @@ _:ann148 a oa:Annotation ;
             dwc:recordedBy "Norris" ;
             dwc:recordNumber "63260" ;
             dwc:institutionCode "JE" ] ;
-    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/paratype> .
+    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/paratype> ;
+    dcterms:source <https://tropicos.org/reference/9020903> .
 
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35184272> ;
@@ -5156,7 +5259,8 @@ _:ann148 a oa:Annotation ;
             dwc:recordedBy "Norris" ;
             dwc:recordNumber "63348" ;
             dwc:institutionCode "H" ] ;
-    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/paratype> .
+    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/paratype> ;
+    dcterms:source <https://tropicos.org/reference/9020903> .
 
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35184272> ;
@@ -5169,7 +5273,8 @@ _:ann148 a oa:Annotation ;
             dwc:recordedBy "Norris" ;
             dwc:recordNumber "63995" ;
             dwc:institutionCode "H" ] ;
-    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/paratype> .
+    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/paratype> ;
+    dcterms:source <https://tropicos.org/reference/9020903> .
 
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35184272> ;
@@ -5182,7 +5287,8 @@ _:ann148 a oa:Annotation ;
             dwc:recordedBy "Norris" ;
             dwc:recordNumber "64304" ;
             dwc:institutionCode "H" ] ;
-    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/paratype> .
+    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/paratype> ;
+    dcterms:source <https://tropicos.org/reference/9020903> .
 
 # Dicranoloma daymannianum E.B.Bartram
 [] a tcs:NomenclaturalType ;
@@ -5197,7 +5303,8 @@ _:ann148 a oa:Annotation ;
             dwc:recordNumber "22560a" ;
             dwc:institutionCode "FH" ;
             dwc:collectionCode "FH-Bartr." ] ;
-    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/holotype> .
+    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/holotype> ;
+    dcterms:source <https://tropicos.org/reference/9020903> .
 
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35121509> ;
@@ -5210,7 +5317,8 @@ _:ann148 a oa:Annotation ;
             dwc:recordedBy "Brass" ;
             dwc:recordNumber "22560a" ;
             dwc:institutionCode "FH" ] ;
-    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> .
+    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> ;
+    dcterms:source <https://tropicos.org/reference/9020903> .
 
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35121509> ;
@@ -5223,7 +5331,8 @@ _:ann148 a oa:Annotation ;
             dwc:recordedBy "Brass" ;
             dwc:recordNumber "22560a" ;
             dwc:institutionCode "H" ] ;
-    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> .
+    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> ;
+    dcterms:source <https://tropicos.org/reference/9020903> .
 
 # Dicranum dicarpon Nees
 [] a tcs:NomenclaturalType ;
@@ -5235,7 +5344,8 @@ _:ann148 a oa:Annotation ;
             dwc:institutionCode "LE" ;
             dwc:collectionCode "Hb. Nees" ;
             dwc:disposition "not seen" ] ;
-    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/holotype> .
+    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/holotype> ;
+    dcterms:source <https://tropicos.org/reference/9020903> .
 
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35122214> ;
@@ -5244,7 +5354,8 @@ _:ann148 a oa:Annotation ;
             dwc:recordedBy "Sieber" ;
             dwc:recordNumber "10" ;
             dwc:institutionCode "JE" ] ;
-    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> .
+    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> ;
+    dcterms:source <https://tropicos.org/reference/9020903> .
 
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35122214> ;
@@ -5253,7 +5364,8 @@ _:ann148 a oa:Annotation ;
             dwc:recordedBy "Sieber" ;
             dwc:recordNumber "10" ;
             dwc:institutionCode "L" ] ;
-    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> .
+    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> ;
+    dcterms:source <https://tropicos.org/reference/9020903> .
 
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35122214> ;
@@ -5262,7 +5374,8 @@ _:ann148 a oa:Annotation ;
             dwc:recordedBy "Sieber" ;
             dwc:recordNumber "10" ;
             dwc:institutionCode "MO" ] ;
-    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> .
+    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> ;
+    dcterms:source <https://tropicos.org/reference/9020903> .
 
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35122214> ;
@@ -5271,7 +5384,8 @@ _:ann148 a oa:Annotation ;
             dwc:recordedBy "Sieber" ;
             dwc:recordNumber "10" ;
             dwc:institutionCode "NY" ] ;
-    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> .
+    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> ;
+    dcterms:source <https://tropicos.org/reference/9020903> .
 
 # Dicranoloma formosanum Broth.
 [] a tcs:NomenclaturalType ;
@@ -5368,7 +5482,8 @@ _:ann148 a oa:Annotation ;
             dwc:recordedBy "Werner" ;
             dwc:recordNumber "s.n." ;
             dwc:institutionCode "JE" ] ;
-    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/holotype> .
+    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/holotype> ;
+    dcterms:source <https://tropicos.org/reference/9020903> .
             
 # Dicranoloma havilandii Broth.
 [] a tcs:NomenclaturalType ;
@@ -5393,7 +5508,8 @@ _:ann148 a oa:Annotation ;
             dwc:recordedBy "Clemens" ;
             dwc:recordNumber "10747" ;
             dwc:institutionCode "BM" ] ;
-    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isolectotype> .
+    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isolectotype> ;
+    dcterms:source <https://tropicos.org/reference/9020903> .
 
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35121542> ;
@@ -5404,7 +5520,8 @@ _:ann148 a oa:Annotation ;
             dwc:recordedBy "Clemens" ;
             dwc:recordNumber "10747" ;
             dwc:institutionCode "FH" ] ;
-    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isolectotype> .
+    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isolectotype> ;
+    dcterms:source <https://tropicos.org/reference/9020903> .
 
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35121542> ;
@@ -5415,7 +5532,8 @@ _:ann148 a oa:Annotation ;
             dwc:recordedBy "Clemens" ;
             dwc:recordNumber "10747" ;
             dwc:institutionCode "JE" ] ;
-    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isolectotype> .
+    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isolectotype> ;
+    dcterms:source <https://tropicos.org/reference/9020903> .
 
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35121542> ;
@@ -5426,7 +5544,8 @@ _:ann148 a oa:Annotation ;
             dwc:recordedBy "Clemens" ;
             dwc:recordNumber "10747" ;
             dwc:institutionCode "L" ] ;
-    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isolectotype> .
+    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isolectotype> ;
+    dcterms:source <https://tropicos.org/reference/9020903> .
 
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35121542> ;
@@ -5437,7 +5556,8 @@ _:ann148 a oa:Annotation ;
             dwc:recordedBy "Clemens" ;
             dwc:recordNumber "10747" ;
             dwc:institutionCode "NY" ] ;
-    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isolectotype> .
+    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isolectotype> ;
+    dcterms:source <https://tropicos.org/reference/9020903> .
             
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35121542> ;
@@ -5448,7 +5568,8 @@ _:ann148 a oa:Annotation ;
             dwc:recordedBy "Haviland" ;
             dwc:recordNumber "1424" ;
             dwc:institutionCode "BM" ] ;
-    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/syntype> .
+    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/syntype> ;
+    dcterms:source <https://tropicos.org/reference/9020903> .
             
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35121542> ;
@@ -5460,7 +5581,8 @@ _:ann148 a oa:Annotation ;
             dwc:recordNumber "1424" ;
             dwc:institutionCode "H" ;
             dwc:collectionCode "H-BR" ] ;
-    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/syntype> .
+    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/syntype> ;
+    dcterms:source <https://tropicos.org/reference/9020903> .
 
 # Dicranum reflexum Müll.Hal.
 [] a tcs:NomenclaturalType ;
@@ -5472,7 +5594,8 @@ _:ann148 a oa:Annotation ;
             dwc:recordNumber "2101" ;
             dwc:institutionCode "B" ;
             dwc:disposition "destroyed" ] ;
-    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/holotype> .
+    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/holotype> ;
+    dcterms:source <https://tropicos.org/reference/9020903> .
 
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35124048> ;
@@ -5482,7 +5605,8 @@ _:ann148 a oa:Annotation ;
             dwc:recordedBy "Zollinger" ;
             dwc:recordNumber "2101" ;
             dwc:institutionCode "BM" ] ;
-    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> .
+    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> ;
+    dcterms:source <https://tropicos.org/reference/9020903> .
 
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35124048> ;
@@ -5493,7 +5617,8 @@ _:ann148 a oa:Annotation ;
             dwc:recordNumber "2101" ;
             dwc:institutionCode "H" ;
             dwc:collectionCode "H-BR" ] ;
-    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> .
+    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> ;
+    dcterms:source <https://tropicos.org/reference/9020903> .
 
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35124048> ;
@@ -5537,7 +5662,8 @@ _:ann148 a oa:Annotation ;
             dwc:recordedBy "Hb. Miquelianum" ;
             dwc:institutionCode "B" ;
             dwc:disposition "destroyed" ] ;
-    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/holotype> .
+    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/holotype> ;
+    dcterms:source <https://tropicos.org/reference/9020903> .
 
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35124046> ;
@@ -5557,7 +5683,8 @@ _:ann148 a oa:Annotation ;
             dwc:island "Java" ;
             dwc:recordedBy "Herb. A. Braun" ;
             dwc:disposition "not located" ] ;
-    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/holotype> .
+    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/holotype> ;
+    dcterms:source <https://tropicos.org/reference/9020903> .
 
 # Dicranum limprichtii M.Fleisch.
 [] a tcs:NomenclaturalType ;
@@ -5572,7 +5699,8 @@ _:ann148 a oa:Annotation ;
             dwc:institutionCode "FH" ;
             dwc:collectionCode "FH-FL" ;
             dwc:disposition "not located" ] ;
-    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/holotype> .
+    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/holotype> ;
+    dcterms:source <https://tropicos.org/reference/9020903> .
 
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35123686> ;
@@ -5597,7 +5725,8 @@ _:ann148 a oa:Annotation ;
             dwc:recordedBy "Fleischer" ;
             dwc:recordNumber "s.n." ;
             dwc:institutionCode "BM" ] ;
-    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> .
+    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> ;
+    dcterms:source <https://tropicos.org/reference/9020903> .
 
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35123686> ;
@@ -5610,7 +5739,8 @@ _:ann148 a oa:Annotation ;
             dwc:recordNumber "s.n." ;
             dwc:institutionCode "H" ;
             dwc:collectionCode "H-BR" ] ;
-    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> .
+    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> ;
+    dcterms:source <https://tropicos.org/reference/9020903> .
 
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35123686> ;
@@ -5622,7 +5752,8 @@ _:ann148 a oa:Annotation ;
             dwc:recordedBy "Fleischer" ;
             dwc:recordNumber "s.n." ;
             dwc:institutionCode "JE" ] ;
-    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> .
+    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> ;
+    dcterms:source <https://tropicos.org/reference/9020903> .
 
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35123686> ;
@@ -5634,7 +5765,8 @@ _:ann148 a oa:Annotation ;
             dwc:recordedBy "Fleischer" ;
             dwc:recordNumber "s.n." ;
             dwc:institutionCode "NY" ] ;
-    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> .
+    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> ;
+    dcterms:source <https://tropicos.org/reference/9020903> .
 
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35123686> ;
@@ -5646,7 +5778,8 @@ _:ann148 a oa:Annotation ;
             dwc:recordedBy "Fleischer" ;
             dwc:recordNumber "s.n." ;
             dwc:institutionCode "S" ] ;
-    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> .
+    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> ;
+    dcterms:source <https://tropicos.org/reference/9020903> .
 
 # Dicranoloma ramosii Broth.
 [] a tcs:NomenclaturalType ;
@@ -5661,7 +5794,8 @@ _:ann148 a oa:Annotation ;
             dwc:institutionCode "H" ;
             dwc:collectionCode "H-BR" ;
             dwc:disposition "not found" ] ;
-    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/holotype> .
+    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/holotype> ;
+    dcterms:source <https://tropicos.org/reference/9020903> .
 
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35121606> ;
@@ -5673,7 +5807,8 @@ _:ann148 a oa:Annotation ;
             dwc:recordedBy "Ramos" ;
             dwc:recordNumber "Bur. Sci. 5867" ;
             dwc:institutionCode "BM" ] ;
-    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> .
+    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> ;
+    dcterms:source <https://tropicos.org/reference/9020903> .
 
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35121606> ;
@@ -5685,7 +5820,8 @@ _:ann148 a oa:Annotation ;
             dwc:recordedBy "Ramos" ;
             dwc:recordNumber "Bur. Sci. 5867" ;
             dwc:institutionCode "NY" ] ;
-    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> .
+    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> ;
+    dcterms:source <https://tropicos.org/reference/9020903> .
     
 # Dicranoloma tenuirete Broth.
 [] a tcs:NomenclaturalType ;
@@ -5699,7 +5835,8 @@ _:ann148 a oa:Annotation ;
             dwc:recordNumber "Bur. Sci. 27090" ;
             dwc:institutionCode "H" ;
             dwc:collectionCode "H-BR" ] ;
-    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/holotype> .
+    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/holotype> ;
+    dcterms:source <https://tropicos.org/reference/9020903> .
 
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35121648> ;
@@ -5711,7 +5848,8 @@ _:ann148 a oa:Annotation ;
             dwc:recordedBy "Ramos" ;
             dwc:recordNumber "Bur. Sci. 27090" ;
             dwc:institutionCode "BM" ] ;
-    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> .
+    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> ;
+    dcterms:source <https://tropicos.org/reference/9020903> .
 
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35121648> ;
@@ -5723,7 +5861,8 @@ _:ann148 a oa:Annotation ;
             dwc:recordedBy "Ramos" ;
             dwc:recordNumber "Bur. Sci. 27090" ;
             dwc:institutionCode "L" ] ;
-    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> .
+    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> ;
+    dcterms:source <https://tropicos.org/reference/9020903> .
 
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35121648> ;
@@ -5735,7 +5874,8 @@ _:ann148 a oa:Annotation ;
             dwc:recordedBy "Ramos" ;
             dwc:recordNumber "Bur. Sci. 27090" ;
             dwc:institutionCode "NY" ] ;
-    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> .
+    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> ;
+    dcterms:source <https://tropicos.org/reference/9020903> .
 
 # Dicranoloma rugifolium E.B.Bartram
 [] a tcs:NomenclaturalType ;
@@ -5747,7 +5887,8 @@ _:ann148 a oa:Annotation ;
             dwc:recordedBy "Brass" ;
             dwc:recordNumber "9252" ;
             dwc:institutionCode "FH" ] ;
-    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/holotype> .
+    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/holotype> ;
+    dcterms:source <https://tropicos.org/reference/9020903> .
 
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35121617> ;
@@ -5758,7 +5899,8 @@ _:ann148 a oa:Annotation ;
             dwc:recordedBy "Brass" ;
             dwc:recordNumber "9252" ;
             dwc:institutionCode "BM" ] ;
-    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> .
+    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> ;
+    dcterms:source <https://tropicos.org/reference/9020903> .
 
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35121617> ;
@@ -5769,7 +5911,8 @@ _:ann148 a oa:Annotation ;
             dwc:recordedBy "Brass" ;
             dwc:recordNumber "9252" ;
             dwc:institutionCode "L" ] ;
-    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> .
+    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> ;
+    dcterms:source <https://tropicos.org/reference/9020903> .
 
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35121617> ;
@@ -5780,7 +5923,8 @@ _:ann148 a oa:Annotation ;
             dwc:recordedBy "Brass" ;
             dwc:recordNumber "9252" ;
             dwc:institutionCode "NY" ] ;
-    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> .
+    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> ;
+    dcterms:source <https://tropicos.org/reference/9020903> .
     
 # Dicranoloma steenisii
 [] a tcs:NomenclaturalType ;
@@ -5792,7 +5936,8 @@ _:ann148 a oa:Annotation ;
             dwc:recordedBy "Iserentant" ;
             dwc:recordNumber "B-48A" ;
             dwc:institutionCode "H" ] ;
-    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/holotype> .
+    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/holotype> ;
+    dcterms:source <https://tropicos.org/reference/9020903> .
 
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35200565> ;
@@ -5804,7 +5949,8 @@ _:ann148 a oa:Annotation ;
             dwc:recordNumber "2813" ;
             dwc:institutionCode "FH" ;
             dwc:collectionCode "FH-Bartr." ] ;
-    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/paratype> .
+    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/paratype> ;
+    dcterms:source <https://tropicos.org/reference/9020903> .
 
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35200565> ;
@@ -5815,7 +5961,8 @@ _:ann148 a oa:Annotation ;
             dwc:recordedBy "Robbins" ;
             dwc:recordNumber "2813" ;
             dwc:institutionCode "L" ] ;
-    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/paratype> .
+    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/paratype> ;
+    dcterms:source <https://tropicos.org/reference/9020903> .
 
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35200565> ;
@@ -5826,7 +5973,8 @@ _:ann148 a oa:Annotation ;
             dwc:recordedBy "Streimann" ;
             dwc:recordNumber "20602" ;
             dwc:institutionCode "CBG" ] ;
-    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/paratype> .
+    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/paratype> ;
+    dcterms:source <https://tropicos.org/reference/9020903> .
 
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35200565> ;
@@ -5837,7 +5985,8 @@ _:ann148 a oa:Annotation ;
             dwc:recordedBy "Streimann" ;
             dwc:recordNumber "20602" ;
             dwc:institutionCode "H" ] ;
-    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/paratype> .
+    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/paratype> ;
+    dcterms:source <https://tropicos.org/reference/9020903> .
 
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35200565> ;
@@ -5848,7 +5997,8 @@ _:ann148 a oa:Annotation ;
             dwc:recordedBy "Hoffmann" ;
             dwc:recordNumber "89-352" ;
             dwc:institutionCode "CBG" ] ;
-    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/paratype> .
+    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/paratype> ;
+    dcterms:source <https://tropicos.org/reference/9020903> .
 
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35200565> ;
@@ -5859,7 +6009,8 @@ _:ann148 a oa:Annotation ;
             dwc:recordedBy "Hoffmann" ;
             dwc:recordNumber "89-352" ;
             dwc:institutionCode "NY" ] ;
-    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/paratype> .
+    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/paratype> ;
+    dcterms:source <https://tropicos.org/reference/9020903> .
 
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35200565> ;
@@ -5870,7 +6021,8 @@ _:ann148 a oa:Annotation ;
             dwc:recordedBy "Eddy" ;
             dwc:recordNumber "1172" ;
             dwc:institutionCode "BM" ] ;
-    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/paratype> .
+    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/paratype> ;
+    dcterms:source <https://tropicos.org/reference/9020903> .
 
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35200565> ;
@@ -5883,7 +6035,8 @@ _:ann148 a oa:Annotation ;
             dwc:recordedBy "Norris" ;
             dwc:recordNumber "64304 p.p." ;
             dwc:institutionCode "H" ] ;
-    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/paratype> .
+    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/paratype> ;
+    dcterms:source <https://tropicos.org/reference/9020903> .
 
 # Dicranum armitii Müll.Hal.
 [] a tcs:NomenclaturalType ;
@@ -5896,7 +6049,8 @@ _:ann148 a oa:Annotation ;
             dwc:recordNumber "173" ;
             dwc:institutionCode "B" ;
             dwc:disposition "destroyed" ] ;
-    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isolectotype> .
+    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isolectotype> ;
+    dcterms:source <https://tropicos.org/reference/9020903> .
 
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35121907> ;
@@ -5921,7 +6075,8 @@ _:ann148 a oa:Annotation ;
             dwc:recordNumber "173" ;
             dwc:institutionCode "FH" ;
             dwc:collectionCode "FH-Bartr." ] ;
-    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isolectotype> .
+    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isolectotype> ;
+    dcterms:source <https://tropicos.org/reference/9020903> .
 
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35121907> ;
@@ -5933,7 +6088,8 @@ _:ann148 a oa:Annotation ;
             dwc:recordNumber "173" ;
             dwc:institutionCode "FH" ;
             dwc:collectionCode "FH-FL" ] ;
-    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isolectotype> .
+    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isolectotype> ;
+    dcterms:source <https://tropicos.org/reference/9020903> .
 
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35121907> ;
@@ -5944,7 +6100,8 @@ _:ann148 a oa:Annotation ;
             dwc:recordedBy "O. Beccari" ;
             dwc:recordNumber "173" ;
             dwc:institutionCode "L" ] ;
-    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isolectotype> .
+    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isolectotype> ;
+    dcterms:source <https://tropicos.org/reference/9020903> .
 
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35121907> ;
@@ -5956,7 +6113,8 @@ _:ann148 a oa:Annotation ;
             dwc:institutionCode "B" ;
             dwc:disposition "destroyed" ;
             dwc:occurrenceRemarks "\"Hb. Melbourne 1885 misit\"" ] ;
-    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/syntype> .
+    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/syntype> ;
+    dcterms:source <https://tropicos.org/reference/9020903> .
 
 # Dicranoloma buruense Broth. & Herzog
 [] a tcs:NomenclaturalType ;
@@ -5969,7 +6127,8 @@ _:ann148 a oa:Annotation ;
             dwc:recordedBy "K. Deninger" ;
             dwc:recordNumber "s.n." ;
             dwc:institutionCode "JE" ] ;
-    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/holotype> .
+    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/holotype> ;
+    dcterms:source <https://tropicos.org/reference/9020903> .
 
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35121494> ;
@@ -5981,7 +6140,8 @@ _:ann148 a oa:Annotation ;
             dwc:recordedBy "K. Deninger" ;
             dwc:recordNumber "s.n." ;
             dwc:institutionCode "BM" ] ;
-    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> .
+    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> ;
+    dcterms:source <https://tropicos.org/reference/9020903> .
 
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35121494> ;
@@ -5993,7 +6153,8 @@ _:ann148 a oa:Annotation ;
             dwc:recordedBy "K. Deninger" ;
             dwc:recordNumber "s.n." ;
             dwc:institutionCode "S" ] ;
-    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> .
+    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> ;
+    dcterms:source <https://tropicos.org/reference/9020903> .
 
 # Dicranoloma johannis-winkleri Broth.
 [] a tcs:NomenclaturalType ;
@@ -6007,7 +6168,8 @@ _:ann148 a oa:Annotation ;
             dwc:recordNumber "3181" ;
             dwc:institutionCode "H" ;
             dwc:collectionCode "H-BR" ] ;
-    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/holotype> .
+    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/holotype> ;
+    dcterms:source <https://tropicos.org/reference/9020903> .
 
 # Cryptodicranum setosum E.B.Bartram
 [] a tcs:NomenclaturalType ;
@@ -6021,7 +6183,8 @@ _:ann148 a oa:Annotation ;
             dwc:recordNumber "(D)" ;
             dwc:institutionCode "FH" ;
             dwc:collectionCode "FH-Bartr." ] ;
-    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/holotype> .
+    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/holotype> ;
+    dcterms:source <https://tropicos.org/reference/9020903> .
 
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35158615> ;
@@ -6033,7 +6196,8 @@ _:ann148 a oa:Annotation ;
             dwc:recordedBy "S.F. Kajewski" ;
             dwc:recordNumber "(D)" ;
             dwc:institutionCode "FH" ] ;
-    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> .
+    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> ;
+    dcterms:source <https://tropicos.org/reference/9020903> .
 
 # Cryptodicranum armitii var. fragilifolium E.B.Bartram
 [] a tcs:NomenclaturalType ;
@@ -6047,7 +6211,8 @@ _:ann148 a oa:Annotation ;
             dwc:recordedBy "M.S. Clemens" ;
             dwc:recordNumber "12229.12" ;
             dwc:institutionCode "FH" ] ;
-    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/holotype> .
+    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/holotype> ;
+    dcterms:source <https://tropicos.org/reference/9020903> .
 
 # Dicranoloma fragile Broth.
 [] a tcs:NomenclaturalType ;
@@ -6057,4 +6222,5 @@ _:ann148 a oa:Annotation ;
             dwc:recordedBy "D. Gardner" ;
             dwc:recordNumber "12229.12" ;
             dwc:institutionCode "BM" ] ;
-    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/holotype> .
+    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/holotype> ;
+    dcterms:source <https://tropicos.org/reference/9020903> .
