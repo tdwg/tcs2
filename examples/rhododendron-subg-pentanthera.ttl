@@ -70,7 +70,8 @@ _:tn3  a tcs:TaxonName ;
 
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName _:tn2 ;
-    tcs:typeName _:tn3 .
+    tcs:typeName _:tn3 ;
+    dcterms:source _:ref1 .
 
 <https://ipni.org/n/14620-1> a tcs:TaxonName ;
     tcs:nomenclaturalCode <http://rs.gbif.org/vocabulary/gbif/nomenclatural_code/ICN> ;
@@ -87,7 +88,8 @@ _:tn3  a tcs:TaxonName ;
 
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://ipni.org/n/14620-1> ;
-    tcs:typeName _:tn3 .
+    tcs:typeName _:tn3 ;
+    dcterms:source _:ref1 .
 
 _:tn4 a tcs:TaxonName ;
     tcs:nomenclaturalCode <http://rs.gbif.org/vocabulary/gbif/nomenclatural_code/ICN> ;
@@ -103,7 +105,8 @@ _:tn4 a tcs:TaxonName ;
 
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName _:tn4 ;
-    tcs:typeName <https://ipni.org/n/332817-1> .
+    tcs:typeName <https://ipni.org/n/332817-1> ;
+    dcterms:source _:ref1 .
 
 
 #
@@ -141,8 +144,9 @@ _:tc2 a tcs:TaxonConcept ;
     tcs:basionym <https://ipni.org/n/50985479-1> .
 
 [] a tcs:NomenclaturalType ;
-  tcs:typifiedName <https://ipni.org/n/50985479-1> ;
-  tcs:typeName <https://ipni.org/n/333193-1> .
+    tcs:typifiedName <https://ipni.org/n/50985479-1> ;
+    tcs:typeName <https://ipni.org/n/333193-1> ;
+    dcterms:source _:ref1 .
 
 
 #
@@ -184,7 +188,7 @@ _:tc2 a tcs:TaxonConcept ;
             dwc:institutionCode "LE" ] ;
     tcs:typePublishedIn _:ref1 ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/lectotype> ;
-    tcs:typePublishedIn _:ref1 .
+    dcterms:source _:ref1 .
 
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://ipni.org/n/333307-1> ;
@@ -194,7 +198,8 @@ _:tc2 a tcs:TaxonConcept ;
             dwc:recordedBy "C. Maximowicz" ;
             dwc:eventDate "1860" ;
             dwc:institutionCode "GH" ] ;
-    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isolectotype> .
+    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isolectotype> ;
+    dcterms:source _:ref1 .
 
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://ipni.org/n/333307-1> ;
@@ -204,7 +209,8 @@ _:tc2 a tcs:TaxonConcept ;
             dwc:recordedBy "C. Maximowicz" ;
             dwc:eventDate "1860" ;
             dwc:institutionCode "NY" ] ;
-    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isolectotype> .
+    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isolectotype> ;
+    dcterms:source _:ref1 .
 
 
 #
@@ -239,7 +245,8 @@ _:tc2 a tcs:TaxonConcept ;
             dwc:recordedBy "Bisset" ;
             dwc:recordNumber "233" ;
             dwc:eventDate "1876-05-23" ;
-            dwc:institutionCode "E" ] .
+            dwc:institutionCode "E" ] ;
+    dcterms:source _:ref1 .
 
 <https://ipni.org/n/950178-1> a tcs:TaxonName ;
     tcs:nomenclaturalCode <http://rs.gbif.org/vocabulary/gbif/nomenclatural_code/ICN> ;
@@ -255,7 +262,8 @@ _:tc2 a tcs:TaxonConcept ;
             dwc:recordNumber "233" ;
             dwc:eventDate "1876-05-23" ;
             dwc:institutionCode "E" ] ;
-    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/holotype> .
+    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/holotype> ;
+    dcterms:source _:ref1 .
 
 
 #
@@ -277,7 +285,8 @@ _:tc2 a tcs:TaxonConcept ;
     dwc:scientificNameAuthorship "Maxim." ;
     dwc:namePublishedIn "Bull. Acad. Sci. St Petersbourg, ser. 3, 31:65 (1887)" ;
     dwc:genericName "Rhododendron" ;
-    dwc:specificEpithet "pentaphyllum" .
+    dwc:specificEpithet "pentaphyllum" ;
+    dcterms:source _:ref1 .
 
 <https://ipni.org/n/326897-1> a tcs:TaxonName ;
     tcs:nomenclaturalCode <http://rs.gbif.org/vocabulary/gbif/nomenclatural_code/ICN> ;
@@ -293,7 +302,8 @@ _:tc2 a tcs:TaxonConcept ;
             dwc:verbatimLocality "Kyushiu, prov. Osumi, summit, Mt Taka-kuma" ;
             dwc:recordedBy "Tashiro" ;
             dwc:institutionCode "LE" ] ;
-    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/holotype> .
+    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/holotype> ;
+    dcterms:source _:ref1 .
 
 _:tn5 a tcs:TaxonName ;
     tcs:nomenclaturalCode <http://rs.gbif.org/vocabulary/gbif/nomenclatural_code/ICN> ;
@@ -305,7 +315,8 @@ _:tn5 a tcs:TaxonName ;
     tcs:typifiedName _:tn5 ;
     tcs:typeSpecimen [ a dwc:MaterialCitation ;
         dwc:country "Japan" ;
-        dwc:verbatimLocality "central mountains" ] .
+        dwc:verbatimLocality "central mountains" ] ;
+    dcterms:source _:ref1 .
 
 _:tn6 a tcs:TaxonName ;
     tcs:nomenclaturalCode <http://rs.gbif.org/vocabulary/gbif/nomenclatural_code/ICN> ;
@@ -327,7 +338,8 @@ _:tn6 a tcs:TaxonName ;
             dwc:recordedBy "K. Watanabe" ; 
             dwc:eventDate "1890-04-21" ;
             dwc:institutionCode "TI" ] ;
-    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/holotype> .
+    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/holotype> ;
+    dcterms:source _:ref1 .
 
 
 #
@@ -361,7 +373,8 @@ _:tn6 a tcs:TaxonName ;
             dwc:recordedBy "C. Maximowicz" ;
             dwc:eventDate "1861" ;
             dwc:institutionCode "LE" ] ;
-    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/lectotype> .
+    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/lectotype> ;
+    dcterms:source _:ref1 .
 
 
 #
@@ -381,7 +394,8 @@ _:tn7 a tcs:TaxonName ;
 
 [ ] a tcs:NomenclaturalType ;
     tcs:typifiedName _:tn7 ;
-    tcs:typeName <https://ipni.org/n/332960-1> .
+    tcs:typeName <https://ipni.org/n/332960-1> ;
+    dcterms:source _:ref1 .
 
 
 #
@@ -418,7 +432,8 @@ _:tn7 a tcs:TaxonName ;
             dwc:eventDate "1887-07-24" ;
             dwc:institutionCode "TI" ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/lectotype> ;
-    tcs:typePublishedIn _:ref1 .
+    tcs:typePublishedIn _:ref1 ;
+    dcterms:source _:ref1 .
 
 
 #
@@ -458,7 +473,8 @@ _:tn8 a tcs:TaxonName ;
 
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName _:tn0916f44282bd1eea ;
-    tcs:typeName <https://ipni.org/n/307873-2> .
+    tcs:typeName <https://ipni.org/n/307873-2> ;
+    dcterms:source _:ref1 .
 
 
 #
@@ -503,7 +519,8 @@ _:tn8 a tcs:TaxonName ;
             dwc:recordedBy "Vasey" ;
             dwc:recordNumber "s.n." ;
             dwc:institutionCode "GH" ] ;
-    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/holotype> .
+    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/holotype> ;
+    dcterms:source _:ref1 .
 
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://ipni.org/n/307873-2> ;
@@ -516,7 +533,8 @@ _:tn8 a tcs:TaxonName ;
             dwc:recordedBy "Vasey" ;
             dwc:recordNumber "s.n." ;
             dwc:institutionCode "NY" ] ;
-    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> .
+    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> ;
+    dcterms:source _:ref1 .
 
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://ipni.org/n/307873-2> ;
@@ -529,7 +547,8 @@ _:tn8 a tcs:TaxonName ;
             dwc:recordedBy "Vasey" ;
             dwc:recordNumber "s.n." ;
             dwc:institutionCode "US" ] ;
-    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> .
+    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> ;
+    dcterms:source _:ref1 .
 
 <https://ipni.org/n/219536-2> a tcs:TaxonName ;
     tcs:nomenclaturalCode <http://rs.gbif.org/vocabulary/gbif/nomenclatural_code/ICN> ;
@@ -611,7 +630,8 @@ _:tn8 a tcs:TaxonName ;
             dwc:recordedBy "A. J. Downs" ;
             dwc:recordNumber "s.n." ;
             dwc:institutionCode "NEBC" ] ;
-    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/holotype> .
+    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/holotype> ;
+    dcterms:source _:ref1 .
 
 _:tn9 a tcs:TaxonName ;
     tcs:nomenclaturalCode <http://rs.gbif.org/vocabulary/gbif/nomenclatural_code/ICN> ;
@@ -634,7 +654,8 @@ _:tn9 a tcs:TaxonName ;
             dwc:recordedBy "Fernald & Long" ;
             dwc:recordNumber "22150" ;
             dwc:institutionCode "GH" ] ;
-    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/holotype> .
+    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/holotype> ;
+    dcterms:source _:ref1 .
 
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://ipni.org/n/219459-2> ;
@@ -646,4 +667,5 @@ _:tn9 a tcs:TaxonName ;
             dwc:recordedBy "Fernald & Long" ;
             dwc:recordNumber "22150" ;
             dwc:institutionCode "NY" ] ;
-    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> .
+    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> ;
+    dcterms:source _:ref1 .

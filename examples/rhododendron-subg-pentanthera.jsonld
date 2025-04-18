@@ -2,7 +2,8 @@
   "@context": [
     "https://raw.githubusercontent.com/tdwg/tcs2/master/examples/context.jsonld",
     {
-      "typification": { "@reverse": "tcs:typifiedName", "@container": "@set" }
+      "typification": { "@reverse": "tcs:typifiedName", "@container": "@set" },
+      "source": { "@id": "dcterms:source", "@type": "@id"}
     }
   ],
   "@graph": [
@@ -137,7 +138,8 @@
       "typification": [
         {
           "type": "NomenclaturalType",
-          "typeName": "_:tn9"
+          "typeName": "_:tn9",
+          "source": "_:ref1"
         }
       ]
     },
@@ -159,7 +161,8 @@
       "typification": [
         {
           "type": "NomenclaturalType",
-          "typeName": "_:tn9"
+          "typeName": "_:tn9",
+          "source": "_:ref1"
         }
       ]
     },
@@ -181,7 +184,8 @@
       "typification": [
         {
           "type": "NomenclaturalType",
-          "typeName": "https://ipni.org/n/332817-1"
+          "typeName": "https://ipni.org/n/332817-1",
+          "source": "_:ref1"
         }
       ]
     },
@@ -203,7 +207,8 @@
       "typification": [
         {
           "type": "NomenclaturalType",
-          "typeName": "https://ipni.org/n/333193-1"
+          "typeName": "https://ipni.org/n/333193-1",
+          "source": "_:ref1"
         }
       ]
     },
@@ -233,7 +238,8 @@
             "dwc:institutionCode": "LE"
           },
           "typeOfType": "lectotype",
-          "typePublishedIn": "_:ref1"
+          "typePublishedIn": "_:ref1",
+          "source": "_:ref1"
         },
         {
           "type": "NomenclaturalType",
@@ -245,7 +251,8 @@
             "dwc:eventDate": "1860",
             "dwc:recordedBy": "C. Maximowicz",
             "dwc:institutionCode": "GH"
-          }
+          },
+          "source": "_:ref1"
         },
         {
           "type": "NomenclaturalType",
@@ -257,7 +264,8 @@
             "dwc:recordedBy": "C. Maximowicz",
             "dwc:institutionCode": "NY"
           },
-          "typeOfType": "isolectotype"
+          "typeOfType": "isolectotype",
+          "source": "_:ref1"
         }
       ]
     },
@@ -296,7 +304,8 @@
             "dwc:recordNumber": "233",
             "dwc:institutionCode": "E"
           },
-          "typeOfType": "lectotype"
+          "typeOfType": "lectotype",
+          "source": "_:ref1"
         }
       ]
     },
@@ -326,7 +335,8 @@
             "dwc:recordNumber": "233",
             "dwc:institutionCode": "E"
           },
-          "typeOfType": "holotype"
+          "typeOfType": "holotype",
+          "source": "_:ref1"
         }
       ]
     },
@@ -347,7 +357,8 @@
             "dwc:recordedBy": "Tashiro",
             "dwc:institutionCode": "LE"
           },
-          "typeOfType": "holotype"
+          "typeOfType": "holotype",
+          "source": "_:ref1"
         }
       ]
     },
@@ -374,7 +385,8 @@
             "type": "dwc:MaterialCitation",
             "dwc:country": "Japan",
             "dwc:verbatimLocality": "central mountains"
-          }
+          },
+          "source": "_:ref1"
         }
       ]
     },
@@ -405,7 +417,8 @@
             "dwc:recordedBy": "K. Watanabe",
             "dwc:institutionCode": "TI"
           },
-          "typeOfType": "holotype"
+          "typeOfType": "holotype",
+          "source": "_:ref1"
         }
       ]
     },
@@ -427,7 +440,8 @@
             "dwc:recordedBy": "C. Maximowicz",
             "dwc:institutionCode": "LE"
           },
-          "typeOfType": "lectotype"
+          "typeOfType": "lectotype",
+          "source": "_:ref1"
         }
       ]
     },
@@ -449,7 +463,8 @@
       "typification": [
         {
           "type": "NomenclaturalType",
-          "typeName": "https://ipni.org/n/332960-1"
+          "typeName": "https://ipni.org/n/332960-1",
+          "source": "_:ref1"
         }
       ]
     },
@@ -474,7 +489,8 @@
             "dwc:institutionCode": "TI"
           },
           "typeOfType": "lectotype",
-          "typePublishedIn": "_:ref1"
+          "typePublishedIn": "_:ref1",
+          "source": "_:ref1"
         }
       ]
     },
@@ -506,7 +522,8 @@
       "typification": [
         {
           "type": "NomenclaturalType",
-          "typeName": "https://ipni.org/n/307873-2"
+          "typeName": "https://ipni.org/n/307873-2",
+          "source": "_:ref1"
         }
       ]
     },
@@ -546,7 +563,8 @@
             "dwc:recordNumber": "s.n.",
             "dwc:institutionCode": "GH"
           },
-          "typeOfType": "holotype"
+          "typeOfType": "holotype",
+          "source": "_:ref1"
         },
         {
           "type": "NomenclaturalType",
@@ -561,7 +579,8 @@
             "dwc:recordNumber": "s.n.",
             "dwc:institutionCode": "NY"
           },
-          "typeOfType": "isotype"
+          "typeOfType": "isotype",
+          "source": "_:ref1"
         },
         {
           "type": "NomenclaturalType",
@@ -576,7 +595,8 @@
             "dwc:recordNumber": "s.n.",
             "dwc:institutionCode": "US"
           },
-          "typeOfType": "isotype"
+          "typeOfType": "isotype",
+          "source": "_:ref1"
         }
       ]
     },
@@ -671,7 +691,8 @@
             "dwc:recordNumber": "s.n.",
             "dwc:institutionCode": "NEBC"
           },
-          "typeOfType": "holotype"
+          "typeOfType": "holotype",
+          "source": "_:ref1"
         }
       ]
     },
@@ -711,7 +732,8 @@
             "dwc:recordNumber": "22150",
             "dwc:institutionCode": "GH"
           },
-          "typeOfType": "holotype"
+          "typeOfType": "holotype",
+          "source": "_:ref1"
         },
         {
           "type": "NomenclaturalType",
@@ -725,7 +747,8 @@
             "dwc:recordNumber": "22150",
             "dwc:institutionCode": "NY"
           },
-          "typeOfType": "isotype"
+          "typeOfType": "isotype",
+          "source": "_:ref1"
         }
       ]
     },
