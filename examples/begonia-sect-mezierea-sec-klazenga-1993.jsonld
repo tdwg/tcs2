@@ -47,8 +47,9 @@
       "nameString": "Mezierea",
       "typification": {
         "type": "NomenclaturalType",
-        "typeName": "https://ipni.org/n/106227-1"
-      }
+        "typeName": "https://ipni.org/n/106227-1",
+        "dcterms:source": "https://doi/org/10.2307/3668252"
+      } 
     },
     {
       "id": "_:b6",
@@ -59,7 +60,8 @@
       "typification": {
         "id": "_:b12",
         "type": "NomenclaturalType",
-        "typeName": "https://ipni.org/n/106227-1"
+        "typeName": "https://ipni.org/n/106227-1",
+        "dcterms:source": "https://doi/org/10.2307/3668252"
       }
     },
     {
@@ -70,7 +72,8 @@
       "nameString": "Begonia sect. Exalabegonia",
       "typification": {
         "type": "NomenclaturalType",
-        "typeName": "https://ipni.org/n/104820-1"
+        "typeName": "https://ipni.org/n/104820-1",
+        "dcterms:source": "https://doi/org/10.2307/3668252"
       }
     },
 
@@ -132,7 +135,8 @@
             "dwc:recordNumber": "1606",
             "dwc:institutionCode": "B"
           },
-          "typeOfType": "holotype"
+          "typeOfType": "holotype",
+          "dcterms:source": "https://doi/org/10.2307/3668252"  
         },
         {
           "type": "NomenclaturalType",
@@ -143,7 +147,8 @@
             "dwc:recordedBy": "Hildebrandt",
             "dwc:recordNumber": "1606",
             "dwc:institutionCode": "W"
-          }
+          },
+          "dcterms:source": "https://doi/org/10.2307/3668252"  
         }
       ]
     },
@@ -163,7 +168,7 @@
       "dwc:namePublishedIn": "Prodr. [A. P. de Candolle] 15(1): 408 (1864)",
       "basionym": "https://ipni.org/n/104440-1",
       "typification": {
-      "type": "NomenclaturalType",
+        "type": "NomenclaturalType",
         "typeOfType": "holotype",
         "typeSpecimen": {
           "type": "dwc:MaterialCitation",
@@ -171,7 +176,8 @@
           "dwc:recordedBy": "Boivin",
           "dwc:recordNumber": "s.n.",
           "dwc:institutionCode": "P"
-        }
+        },
+        "dcterms:source": "https://doi/org/10.2307/3668252"
       }
     },
 
@@ -206,7 +212,8 @@
             "dwc:recordedBy": "Humbert",
             "dwc:recordNumber": "22493",
             "dwc:institutionCode": "P"
-          }
+          },
+          "dcterms:source": "https://doi/org/10.2307/3668252"  
         },
         {
           "type": "NomenclaturalType",
@@ -218,7 +225,8 @@
             "dwc:recordedBy": "Humbert",
             "dwc:recordNumber": "22493",
             "dwc:institutionCode": "P"
-          }
+          },
+          "dcterms:source": "https://doi/org/10.2307/3668252"  
         } 
       ]
     },
@@ -265,7 +273,8 @@
           "dwc:recordedBy": "Meyer",
           "dwc:recordNumber": "306",
           "dwc:institutionCode": "B"
-        }
+        },
+        "dcterms:source": "https://doi/org/10.2307/3668252"
       }
     },
 
@@ -392,7 +401,8 @@
             "dwc:institutionCode": "BM",
             "dwc:recordNumber": "875",
             "dwc:recordedBy": "Welwitsch"
-          }
+          },
+          "dcterms:source": "https://doi/org/10.2307/3668252"  
         },
         {
           "type": "NomenclaturalType",
@@ -403,7 +413,8 @@
             "dwc:recordedBy": "Welwitsch",
             "dwc:recordNumber": "875",
             "dwc:institutionCode": "COI"
-          }
+          },
+          "dcterms:source": "https://doi/org/10.2307/3668252"  
         },
         {
           "type": "NomenclaturalType",
@@ -414,7 +425,8 @@
             "dwc:recordedBy": "Welwitsch",
             "dwc:recordNumber": "875",
             "dwc:institutionCode": "G"
-          }
+          },
+          "dcterms:source": "https://doi/org/10.2307/3668252"  
         },
         {
           "type": "NomenclaturalType",
@@ -425,7 +437,8 @@
             "dwc:recordNumber": "875",
             "dwc:institutionCode": "K"
           },
-          "typeOfType": "isolectotype"
+          "typeOfType": "isolectotype",
+          "dcterms:source": "https://doi/org/10.2307/3668252"  
         },
         {
           "id": "_:b62",
@@ -437,7 +450,8 @@
             "dwc:recordNumber": "562",
             "dwc:institutionCode": "K"
           },
-          "typeOfType": "syntype"
+          "typeOfType": "syntype",
+          "dcterms:source": "https://doi/org/10.2307/3668252"  
         },
         {
           "type": "NomenclaturalType",
@@ -448,7 +462,8 @@
             "dwc:recordNumber": "1274",
             "dwc:institutionCode": "K"
           },
-          "typeOfType": "syntype"
+          "typeOfType": "syntype",
+          "dcterms:source": "https://doi/org/10.2307/3668252"  
         }
       ]
     },
@@ -467,7 +482,8 @@
           "dwc:recordedBy": "Baron",
           "dwc:recordNumber": "9",
           "dwc:institutionCode": "K"
-        }
+        },
+        "dcterms:source": "https://doi/org/10.2307/3668252"
       }
     },
     {
@@ -484,7 +500,8 @@
           "dwc:recordedBy": "Culta Bot. Garten Berlin",
           "dwc:recordNumber": "s.n.",
           "dwc:institutionCode": "B"
-        }
+        },
+        "dcterms:source": "https://doi/org/10.2307/3668252"
       }
     },
     {
@@ -503,7 +520,8 @@
             "dwc:recordedBy": "Preuss",
             "dwc:recordNumber": "1063",
             "dwc:institutionCode": "B"
-          }
+          },
+          "dcterms:source": "https://doi/org/10.2307/3668252"  
         },
         {
           "type": "NomenclaturalType",
@@ -514,7 +532,8 @@
             "dwc:recordedBy": "Preuss",
             "dwc:recordNumber": "1063",
             "dwc:institutionCode": "COI"
-          }
+          },
+          "dcterms:source": "https://doi/org/10.2307/3668252"  
         },
         {
           "type": "NomenclaturalType",
@@ -525,7 +544,8 @@
             "dwc:recordedBy": "Dusén",
             "dwc:recordNumber": "418",
             "dwc:institutionCode": "B"
-          }
+          },
+          "dcterms:source": "https://doi/org/10.2307/3668252"  
         },
         {
           "type": "NomenclaturalType",
@@ -536,7 +556,8 @@
             "dwc:recordedBy": "Preuss",
             "dwc:recordNumber": "658",
             "dwc:institutionCode": "B"
-          }
+          },
+          "dcterms:source": "https://doi/org/10.2307/3668252"  
         },
         {
           "type": "NomenclaturalType",
@@ -547,7 +568,8 @@
             "dwc:recordedBy": "Preuss",
             "dwc:recordNumber": "995",
             "dwc:institutionCode": "B"
-          }
+          },
+          "dcterms:source": "https://doi/org/10.2307/3668252"  
         }
       ]
     },
@@ -567,7 +589,8 @@
           "dwc:recordNumber": "4",
           "dwc:institutionCode": "B"
         },
-        "typeOfType": "holotype"
+        "typeOfType": "holotype",
+        "dcterms:source": "https://doi/org/10.2307/3668252"
       }
     },
     {
@@ -585,7 +608,8 @@
           "dwc:recordedBy": "Busse",
           "dwc:recordNumber": "349",
           "dwc:institutionCode": "B"
-        }
+        },
+        "dcterms:source": "https://doi/org/10.2307/3668252"
       }
     },
     {
@@ -604,7 +628,8 @@
           "dwc:recordNumber": "647",
           "dwc:institutionCode": "B"
         },
-        "typeOfType": "holotype"
+        "typeOfType": "holotype",
+        "dcterms:source": "https://doi/org/10.2307/3668252"
       }
     },
     
@@ -623,7 +648,8 @@
           "dwc:recordedBy": "Baumann",
           "dwc:recordNumber": "419",
           "dwc:institutionCode": "B"
-        }
+        },
+        "dcterms:source": "https://doi/org/10.2307/3668252"
       }
     },
     {
@@ -642,7 +668,8 @@
             "dwc:recordedBy": "Seret",
             "dwc:recordNumber": "121",
             "dwc:institutionCode": "BR"
-          }
+          },
+          "dcterms:source": "https://doi/org/10.2307/3668252"  
         },
         {
           "type": "NomenclaturalType",
@@ -653,7 +680,8 @@
             "dwc:recordedBy": "Seret",
             "dwc:recordNumber": "121 bis",
             "dwc:institutionCode": "BR"
-          }
+          },
+          "dcterms:source": "https://doi/org/10.2307/3668252"  
         }
       ]
     },
@@ -673,7 +701,8 @@
             "dwc:recordedBy": "Chevalier",
             "dwc:recordNumber": "21349",
             "dwc:institutionCode": "P"
-          }
+          },
+          "dcterms:source": "https://doi/org/10.2307/3668252"  
         },
         {
           "type": "NomenclaturalType",
@@ -684,7 +713,8 @@
             "dwc:recordedBy": "Chevalier",
             "dwc:recordNumber": "20609",
             "dwc:institutionCode": "B"
-          }
+          },
+          "dcterms:source": "https://doi/org/10.2307/3668252"  
         },
         {
           "type": "NomenclaturalType",
@@ -695,7 +725,8 @@
             "dwc:recordedBy": "Chevalier",
             "dwc:recordNumber": "20609",
             "dwc:institutionCode": "P"
-          }
+          },
+          "dcterms:source": "https://doi/org/10.2307/3668252"  
         },
         {
           "type": "NomenclaturalType",
@@ -706,7 +737,8 @@
             "dwc:recordedBy": "Chevalier",
             "dwc:recordNumber": "20761",
             "dwc:institutionCode": "P"
-          }
+          },
+          "dcterms:source": "https://doi/org/10.2307/3668252"  
         },
         {
           "type": "NomenclaturalType",
@@ -717,7 +749,8 @@
             "dwc:institutionCode": "P",
             "dwc:recordNumber": "21355",
             "dwc:recordedBy": "Chevalier"
-          }
+          },
+          "dcterms:source": "https://doi/org/10.2307/3668252"  
         },
         {
           "type": "NomenclaturalType",
@@ -728,7 +761,8 @@
             "dwc:recordNumber": "21419",
             "dwc:recordedBy": "Chevalier",
             "dwc:institutionCode": "P"
-          }
+          },
+          "dcterms:source": "https://doi/org/10.2307/3668252"  
         }
       ]
     },
@@ -748,7 +782,8 @@
             "dwc:recordedBy": "Schlieben",
             "dwc:recordNumber": "3306",
             "dwc:institutionCode": "B"
-          }
+          },
+          "dcterms:source": "https://doi/org/10.2307/3668252"  
         },
         {
           "type": "NomenclaturalType",
@@ -759,7 +794,8 @@
             "dwc:recordedBy": "Schlieben",
             "dwc:recordNumber": "3306",
             "dwc:institutionCode": "B"
-          }
+          },
+          "dcterms:source": "https://doi/org/10.2307/3668252"  
         },
         {
           "type": "NomenclaturalType",
@@ -770,7 +806,8 @@
             "dwc:recordedBy": "Schlieben",
             "dwc:recordNumber": "3306",
             "dwc:institutionCode": "WAG"
-          }
+          },
+          "dcterms:source": "https://doi/org/10.2307/3668252"  
         },
         {
           "type": "NomenclaturalType",
@@ -781,7 +818,8 @@
             "dwc:recordedBy": "Burtt",
             "dwc:recordNumber": "4720",
             "dwc:institutionCode": "BM"
-          }
+          },
+          "dcterms:source": "https://doi/org/10.2307/3668252"  
         },
         {
           "type": "NomenclaturalType",
@@ -792,7 +830,8 @@
             "dwc:recordedBy": "Burtt",
             "dwc:recordNumber": "4720",
             "dwc:institutionCode": "K"
-          }
+          },
+          "dcterms:source": "https://doi/org/10.2307/3668252"  
         }
       ]
     },
@@ -846,7 +885,8 @@
             "dwc:recordedBy": "Gaudichaud",
             "dwc:recordNumber": "s.n.",
             "dwc:institutionCode": "G"
-          }
+          },
+          "dcterms:source": "https://doi/org/10.2307/3668252"  
         },
         {
           "type": "NomenclaturalType",
@@ -857,7 +897,8 @@
             "dwc:recordedBy": "Gaudichaud",
             "dwc:recordNumber": "s.n.",
             "dwc:institutionCode": "P"
-          }
+          },
+          "dcterms:source": "https://doi/org/10.2307/3668252"  
         }
       ]
     },
@@ -878,7 +919,8 @@
             "dwc:recordedBy": "Hardwicke",
             "dwc:recordNumber": "s.n.",
             "dwc:institutionCode": "BM"
-          }
+          },
+          "dcterms:source": "https://doi/org/10.2307/3668252"  
         }
       ]
     },
@@ -918,7 +960,8 @@
             "dwc:recordedBy": "Horne",
             "dwc:recordNumber": "245",
             "dwc:institutionCode": "K"
-          }
+          },
+          "dcterms:source": "https://doi/org/10.2307/3668252"  
         },
         {
           "type": "NomenclaturalType",
@@ -930,7 +973,8 @@
             "dwc:recordedBy": "Horne",
             "dwc:recordNumber": "s.n.",
             "dwc:institutionCode": "G"
-          }
+          },
+          "dcterms:source": "https://doi/org/10.2307/3668252"  
         },
         {
           "type": "NomenclaturalType",
@@ -942,7 +986,8 @@
             "dwc:recordedBy": "Gardiner",
             "dwc:recordNumber": "s.n.",
             "dwc:institutionCode": "K"
-          }
+          },
+          "dcterms:source": "https://doi/org/10.2307/3668252"  
         },
         {
           "type": "NomenclaturalType",
@@ -954,7 +999,8 @@
             "dwc:recordedBy": "Gardiner",
             "dwc:recordNumber": "111",
             "dwc:institutionCode": "K"
-          }
+          },
+          "dcterms:source": "https://doi/org/10.2307/3668252"  
         },
         {
           "type": "NomenclaturalType",
@@ -966,7 +1012,8 @@
             "dwc:recordedBy": "Neville",
             "dwc:recordNumber": "s.n.",
             "dwc:institutionCode": "K"
-          }
+          },
+          "dcterms:source": "https://doi/org/10.2307/3668252"  
         }
       ]
     },
