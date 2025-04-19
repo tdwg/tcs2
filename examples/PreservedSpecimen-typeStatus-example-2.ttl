@@ -1,4 +1,5 @@
 @prefix tcs: <http://rs.tdwg.org/tcs/terms/> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix dwc: <http://rs.tdwg.org/dwc/terms/> .
 @prefix dsw: <http://purl.org/dsw/> .
@@ -136,3 +137,32 @@ _:BM000050758 a dwc:PreservedSpecimen ;
             tcs:typifiedName <https://ipni.org/n/717216-1> ;
             tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isolectotype> ;
             tcs:typePublishedIn <https://id.biodiversity.org.au/reference/apni/39897> ] .
+
+# From the literature
+
+<https://id.biodiversity.org.au/reference/apni/39897> a bibo:JournalArticle ;
+    dcterms:bibliographicCitation """Rye, B.L. (1995), New and priority taxa in 
+            the genera Cryptandra and Stenanthemum (Rhamnaceae) of Western 
+            Australia. Nuytsia 10(2): 255-305""" .
+
+[] a tcs:NomenclaturalType ;
+    tcs:typifiedName <https://ipni.org/n/717216-1> ;
+    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/holotype> ;
+    tcs:typeSpecimen <https://specify.rbg.vic.gov.au/specify/view/collectionobject/739393> ;
+    dcterms:source <https://id.biodiversity.org.au/reference/apni/39897> .
+
+
+<https://id.biodiversity.org.au/reference/apni/51399981> a bibo:JournalArticle ;
+    dcterms:bibliographicReference """Kellermann, J. & Thiele, K.R. (2021), The 
+            other ‘propeller plant’ – Notes on Stenanthemum Reissek (Rhamnaceae: 
+            Pomaderreae) and a key to the genus in Australia. Swainsona 35: 
+            11-22""" .
+
+# The incorrect listing of Drummond 722 (MEL 227036) as the holotype ("type") of
+# Cryptandra coronata constitutes a lectotypification under the botanical code.
+[] a tcs:NomenclaturalType ;
+    tcs:typifiedName <https://ipni.org/n/717216-1> ;
+    tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/holotype> ;
+    tcs:typeSpecimen <https://specify.rbg.vic.gov.au/specify/view/collectionobject/739393> ;
+    tcs:typePublishedIn <https://id.biodiversity.org.au/reference/apni/39897> ;
+    dcterms:source <https://id.biodiversity.org.au/reference/apni/51399981> .
