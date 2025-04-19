@@ -190,27 +190,25 @@
       }
     },
     {
-      "id": "https://id.biodiversity.org.au/reference/apni/39897",
-      "type": "bibo:JournalArticle",
-      "dcterms:bibliographicCitation": "Rye, B.L. (1995), New and priority taxa in the genera Cryptandra and Stenanthemum (Rhamnaceae) of Western Australia. Nuytsia 10(2): 255-305"
-    },
-    {
       "type": "NomenclaturalType",
       "typifiedName": "https://ipni.org/n/717216-1",
       "typeOfType": "holotype",
-      "dcterms:source": { "id": "https://id.biodiversity.org.au/reference/apni/39897" }
-    },
-    {
-      "id": "https://id.biodiversity.org.au/reference/apni/51399981",
-      "type": "bibo:JournalArticle",
-      "dcterms:bibliographicCitation": "Kellermann, J. & Thiele, K.R. (2021), The other ‘propeller plant’ – Notes on Stenanthemum Reissek (Rhamnaceae: Pomaderreae) and a key to the genus in Australia. Swainsona 35: 11-22"
+      "dcterms:source": {
+        "id": "https://id.biodiversity.org.au/reference/apni/39897",
+        "type": "bibo:JournalArticle",
+        "dcterms:bibliographicCitation": "Rye, B.L. (1995), New and priority taxa in the genera Cryptandra and Stenanthemum (Rhamnaceae) of Western Australia. Nuytsia 10(2): 255-305"
+      }
     },
     {
       "type": "NomenclaturalType",
       "typifiedName": "https://ipni.org/n/717216-1",
       "typeOfType": "lectotype",
       "typePublishedIn": "https://id.biodiversity.org.au/reference/apni/39897",
-      "dcterms:source": { "id": "https://id.biodiversity.org.au/reference/apni/51399981" }
+      "dcterms:source": {
+        "id": "https://id.biodiversity.org.au/reference/apni/51399981",
+        "type": "bibo:JournalArticle",
+        "dcterms:bibliographicCitation": "Kellermann, J. & Thiele, K.R. (2021), The other ‘propeller plant’ – Notes on Stenanthemum Reissek (Rhamnaceae: Pomaderreae) and a key to the genus in Australia. Swainsona 35: 11-22"
+      }
     }
   ]
 }
