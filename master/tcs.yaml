@@ -209,9 +209,8 @@
     Avoiding terms that are too strictly defined in the nomenclatural codes also
     has the advantage that the term can, in principle, be applied to things that
     cannot be heterotypic or homotypic synonyms, e.g., to names that are not
-    validly published under the relevant code, or names at different taxonomic
-    ranks than the accepted name, and avoids inappropriate use of the terms
-    defined in the nomenclatural codes.
+    validly published under the relevant code, and avoids inappropriate use of
+    the terms defined in the nomenclatural codes.
   examples: 
     - TaxonConcept-synonym-example-1
     - TaxonConcept-synonym-example-2
