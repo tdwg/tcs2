@@ -352,7 +352,10 @@
   usage: >-
     `child` is another Taxon Concept; a Taxon Concept can have more than one 
     child.
-  notes: 
+  notes: >-
+    This is a child as indicated in the `accordingTo` reference, rather than a
+    third-party classification. The `accordingTo` of the child will generally,
+    but not necessarily, be the same as that of the child.
   examples: 
     - TaxonConcept-child-example-1
   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonConcept

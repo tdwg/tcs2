@@ -742,6 +742,10 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 			<td><b>required:</b> No — <b>repeatable:</b> Yes</td>
 		</tr>
 		<tr>
+			<td>Comments</td>
+			<td><p>This is a child as indicated in the <code>accordingTo</code> reference, rather than a third-party classification. The <code>accordingTo</code> of the child will generally, but not necessarily, be the same as that of the child.</p></td>
+		</tr>
+		<tr>
 			<td>Examples</td>
 			<td>
 
