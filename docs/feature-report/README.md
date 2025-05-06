@@ -608,7 +608,7 @@ TCS 1 | TDWG Ontology | TCS 2
 
 ### Type of Type vocabulary
 
-<sup>*</sup> TCS 2 recommends the GBIF [Nomenclatural Type Status Vocabulary](https://rs.gbif.org/vocabulary/gbif/type_status.xml)
+<sup>*</sup> TCS 2 recommends the GBIF [Nomenclatural Type Status Vocabulary](https://rs.gbif.org/vocabulary/gbif/type_status_2021-01-18.xml)
 
 TCS 1 | TDWG Ontology | TCS 2<sup>*</sup>
 -|-|-
@@ -625,12 +625,14 @@ exlecto | [tn:ExLectotype](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c9
 exneo | [tn:ExNeotype](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L471) | [exneotype](http://rs.gbif.org/vocabulary/gbif/type_status/exneotype)
 expara | [tn:ExParatype](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L476) | [exparatype](http://rs.gbif.org/vocabulary/gbif/type_status/exparatype)
 exsyn | [tn:ExSyntype](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L481) | [exsyntype](http://rs.gbif.org/vocabulary/gbif/type_status/exsyntype)
+&mdash; | &mdash; | [extype](http://rs.gbif.org/vocabulary/gbif/type_status/extype)
 hapanto | [tn:Hapantotype](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L491) | [hapantotype](http://rs.gbif.org/vocabulary/gbif/type_status/hapantotype)
 holo | [tn:Holotype](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L498) | [holotype](http://rs.gbif.org/vocabulary/gbif/type_status/holotype)
 icono | [tn:Iconotype](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L520) | [iconotype](http://rs.gbif.org/vocabulary/gbif/type_status/iconotype)
 iso | [tn:Isotype](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L541) | [isotype](http://rs.gbif.org/vocabulary/gbif/type_status/isotype)
 isolecto | [tn:IsoLectotype](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L526) | [isolectotype](http://rs.gbif.org/vocabulary/gbif/type_status/isolectotype)
 isoneo | [tn:Isoneotype](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L531) | [isoneotype](http://rs.gbif.org/vocabulary/gbif/type_status/isoneotype)
+&mdash; | &mdash; | [isoparatype](http://rs.gbif.org/vocabulary/gbif/type_status/isoparatype)
 isosyn | [tn:Isosyntype](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L536) | [isosyntype](http://rs.gbif.org/vocabulary/gbif/type_status/isosyntype)
 lecto | [tn:Lectotype](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L553) | [lectotype]()
 neo | [tn:Neotype](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L560) | [lectotype](http://rs.gbif.org/vocabulary/gbif/type_status/lectotype)

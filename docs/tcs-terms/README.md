@@ -3301,7 +3301,7 @@ _:b1 a rdf:Seq ;
 		</tr>
 		<tr>
 			<td>Comments</td>
-			<td><p>This is an IRI property. In the absence of a TDWG controlled vocabulary,  it is RECOMMENDED to use a value from the GBIF Nomenclatural Type Status  Vocabulary (https://rs.gbif.org/vocabulary/gbif/type_status.xml).</p></td>
+			<td><p>This is an IRI property. In the absence of a TDWG controlled vocabulary,  it is RECOMMENDED to use a value from the GBIF Nomenclatural Type Status  Vocabulary (https://rs.gbif.org/vocabulary/gbif/type_status_2021-01-18.xml).</p></td>
 		</tr>
 		<tr>
 			<td>GitHub issue</td>

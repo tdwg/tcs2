@@ -1351,7 +1351,7 @@
   notes: >-
     This is an IRI property. In the absence of a TDWG controlled vocabulary, 
     it is RECOMMENDED to use a value from the GBIF Nomenclatural Type Status 
-    Vocabulary (https://rs.gbif.org/vocabulary/gbif/type_status.xml).
+    Vocabulary (https://rs.gbif.org/vocabulary/gbif/type_status_2021-01-18.xml).
   type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
   required: Yes
   repeatable: No
