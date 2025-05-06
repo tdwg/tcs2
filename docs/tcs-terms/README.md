@@ -614,7 +614,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		</tr>
 		<tr>
 			<td>Comments</td>
-			<td><p>This property takes an object or IRI and it is RECOMMENDED to use a value from an existing controlled vocabulary. While there is no TDWG vocabulary yet, the GBIF Taxonomic Rank Vocabulary (https://rs.gbif.org/vocabulary/gbif/rank.xml) is RECOMMENDED.</p>
+			<td><p>This property takes an object or IRI and it is RECOMMENDED to use a value from an existing controlled vocabulary. While there is no TDWG vocabulary yet, the GBIF Taxonomic Rank Vocabulary (https://rs.gbif.org/vocabulary/gbif/rank_2015-04-24.xml) is RECOMMENDED.</p>
 <p>A <code>TaxonName</code> takes its <code>taxonRank</code> from the <code>taxonConcept</code> it is applied to, so this property can also be used on a (stand-alone) <code>TaxonName</code> object.</p></td>
 		</tr>
 		<tr>

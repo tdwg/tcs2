@@ -291,7 +291,7 @@
     This property takes an object or IRI and it is RECOMMENDED to use a value
     from an existing controlled vocabulary. While there is no TDWG vocabulary
     yet, the GBIF Taxonomic Rank Vocabulary
-    (https://rs.gbif.org/vocabulary/gbif/rank.xml) is RECOMMENDED.
+    (https://rs.gbif.org/vocabulary/gbif/rank_2015-04-24.xml) is RECOMMENDED.
 
 
     A `TaxonName` takes its `taxonRank` from the `taxonConcept` it is

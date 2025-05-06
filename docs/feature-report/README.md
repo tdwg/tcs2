@@ -423,7 +423,7 @@ nominal | &mdash; | &mdash;
 
 ### Taxonomic Rank vocabulary
 
-<sup>*</sup> TCS 2 recommends the [Taxonomic Rank GBIF Vocabulary](https://rs.gbif.org/vocabulary/gbif/rank.xml)
+<sup>*</sup> TCS 2 recommends the [Taxonomic Rank GBIF Vocabulary](https://rs.gbif.org/vocabulary/gbif/rank_2015-04-24.xml)
 
 #### TaxonomicRankAboveSuperfamilyEnum
 
@@ -468,6 +468,7 @@ supertrib | &mdash; | &mdash;
 trib | &mdash; | [tribe](http://rs.gbif.org/vocabulary/gbif/rank/tribe)
 subtrib | &mdash; | [subtribe](http://rs.gbif.org/vocabulary/gbif/rank/subtribe)
 infratrib | &mdash; | &mdash;
+&mdash; | &mdash; | [supragenericname](http://rs.gbif.org/vocabulary/gbif/rank/supragenericname)
 
 #### TaxonomicRankGenusGroupEnum
 
@@ -511,8 +512,11 @@ subsubfm | &mdash; | &mdash;
 fsp | &mdash; | &mdash;
 taxinfrasp | &mdash; | &mdash;
 cand | &mdash; | &mdash;
-infrasp | &mdash; | &mdash;
+infrasp | &mdash; | [infraspecificname](http://rs.gbif.org/vocabulary/gbif/rank/infraspecificname)
 
+
+
+ 
 
 #### TaxonomicRankCultivatedPlants
 
@@ -525,8 +529,18 @@ convar | &mdash; | &mdash;
 graftchimaera | &mdash; | &mdash;
 denomclass | &mdash; | &mdash;
 
+
+### Microbial ranks (from GBIF vocabulary)
+
 TCS 1 | TDWG Ontology | TCS 2
 -|-|-
+--- | --- | [pathovar](http://rs.gbif.org/vocabulary/gbif/rank/pathovar)
+--- | --- | [biovar](http://rs.gbif.org/vocabulary/gbif/rank/biovar)
+--- | --- | [chemovar](http://rs.gbif.org/vocabulary/gbif/rank/chemovar)
+--- | --- | [morphovar](http://rs.gbif.org/vocabulary/gbif/rank/morphovar)
+--- | === | [serovar](http://rs.gbif.org/vocabulary/gbif/rank/serovar)
+--- | --- | [chemoform](http://rs.gbif.org/vocabulary/gbif/rank/chemoform)
+--- | --- | [formaspecialis](http://rs.gbif.org/vocabulary/gbif/rank/formaspecialis)
 &mdash; | &mdash; | [strain](http://rs.gbif.org/vocabulary/gbif/rank/strain)
 
 
