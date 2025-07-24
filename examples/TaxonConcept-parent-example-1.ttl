@@ -15,7 +15,7 @@
     tcs:taxonName: [ a tcs:TaxonName ;
             tcs:nameString: "Panthera leo" ;
             dwc:scientificNameAuthorship: "(Linnaeus, 1758)" ] ;
-    tcs:parent <https://www.catalogueoflife.org/data/taxon/6DBT> .
+    tcs:parentTaxonConcept <https://www.catalogueoflife.org/data/taxon/6DBT> .
 
 <https://www.catalogueoflife.org/data/taxon/4CGXQ> a tcs:TaxonConcept ;
     dcterms:title "Panthera onca sec. Catalogue of Life 2024-01-24" ;
@@ -23,7 +23,7 @@
     tcs:taxonName: [ a tcs:TaxonName ;
             tcs:nameString: "Panthera onca" ;
             dwc:scientificNameAuthorship: "(Linnaeus, 1758)" ] ;
-    tcs:parent <https://www.catalogueoflife.org/data/taxon/6DBT> .
+    tcs:parentTaxonConcept <https://www.catalogueoflife.org/data/taxon/6DBT> .
 
 <https://www.catalogueoflife.org/data/taxon/4CGXR> a tcs:TaxonConcept ;
     dcterms:title "Panthera pardus sec. Catalogue of Life 2024-01-24" ;
@@ -31,7 +31,7 @@
     tcs:taxonName: [ a tcs:TaxonName ;
             tcs:nameString: "Panthera pardus" ;
             dwc:scientificNameAuthorship: "(Linnaeus, 1758)" ] ;
-    tcs:parent <https://www.catalogueoflife.org/data/taxon/6DBT> .
+    tcs:parentTaxonConcept <https://www.catalogueoflife.org/data/taxon/6DBT> .
 
 <https://www.catalogueoflife.org/data/taxon/4CGXS> a tcs:TaxonConcept ;
     dcterms:title "Panthera tigris sec. Catalogue of Life 2024-01-24" ;
@@ -39,4 +39,4 @@
     tcs:taxonName: [ a tcs:TaxonName ;
             tcs:nameString: "Panthera tigris" ;
             dwc:scientificNameAuthorship: "(Linnaeus, 1758)" ] ;
-    tcs:parent <https://www.catalogueoflife.org/data/taxon/6DBT> .
+    tcs:parentTaxonConcept <https://www.catalogueoflife.org/data/taxon/6DBT> .

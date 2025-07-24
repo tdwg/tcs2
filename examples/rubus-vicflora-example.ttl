@@ -27,7 +27,7 @@
     dcterms:title "Rubus anglocandidans sec. Stajsic 2017" ;
     tcs:taxonName <https://ipni.org/n/735086-1> ;
     tcs:accordingTo <https://vicflora.rbg.vic.gov.au#2024-10-17> ;
-    tcs:parent <https://vicflora.rbg.vic.gov.au/flora/taxon/26931a82-e21a-4482-b073-969d328c34dd> .
+    tcs:parentTaxonConcept <https://vicflora.rbg.vic.gov.au/flora/taxon/26931a82-e21a-4482-b073-969d328c34dd> .
 
 <https://id.biodiversity.org.au/instance/apni/646626> a tcs:TaxonConcept ;
     dcterms:title "Rubus anglocandicans sec. CHAH 2007" ;
@@ -38,7 +38,7 @@
     dcterms:title "Rubus chloocladus sec. Jeanes & Jobson 2017" ;
     tcs:taxonName <https://ipni.org/n/735806-1> ;
     tcs:accordingTo <https://id.biodiversity.org.au/reference/apni/50742> ;
-    tcs:parent <https://vicflora.rbg.vic.gov.au/flora/taxon/26931a82-e21a-4482-b073-969d328c34dd> .
+    tcs:parentTaxonConcept <https://vicflora.rbg.vic.gov.au/flora/taxon/26931a82-e21a-4482-b073-969d328c34dd> .
 
 <https://id.biodiversity.org.au/instance/apni/504396> a tcs:TaxonConcept ;
     dcterms:title "Rubus cissburiensis sec. Willis 1973" ;
@@ -49,7 +49,7 @@
     dcterms:title "Rubus cissburiensis sec. Jeanes & Jobson 1996" ;
     tcs:taxonName <https://ipni.org/n/735864-1> ;
     tcs:accordingTo <https://id.biodiversity.org.au/reference/apni/50742> ;
-    tcs:parent <https://vicflora.rbg.vic.gov.au/flora/taxon/26931a82-e21a-4482-b073-969d328c34dd> .
+    tcs:parentTaxonConcept <https://vicflora.rbg.vic.gov.au/flora/taxon/26931a82-e21a-4482-b073-969d328c34dd> .
 
 <https://id.biodiversity.org.au/instance/apni/646578> a tcs:TaxonConcept ;
     dcterms:title "Rubus cissburiensis sec. Evans et al. 2007" ;
@@ -60,7 +60,7 @@
     dcterms:title "Rubus discolor sec. Jeanes & Jobson 1996" ;
     tcs:taxonName <https://ipni.org/n/109257-3> ;
     tcs:accordingTo <https://id.biodiversity.org.au/reference/apni/50742> ;
-    tcs:parent <https://vicflora.rbg.vic.gov.au/flora/taxon/26931a82-e21a-4482-b073-969d328c34dd> .
+    tcs:parentTaxonConcept <https://vicflora.rbg.vic.gov.au/flora/taxon/26931a82-e21a-4482-b073-969d328c34dd> .
 
 <https://id.biodiversity.org.au/instance/apni/646579> a tcs:TaxonConcept ;
     dcterms:title "Rubus echinatus sec. Evans et al. 2007" ;
@@ -71,13 +71,13 @@
     dcterms:title "Rubus echinatus sec. Messina 2016" ;
     tcs:taxonName <https://ipni.org/n/736464-1> ;
     tcs:accordingTo <https://vicflora.rbg.vic.gov.au#2024-10-17> ;
-    tcs:parent <https://vicflora.rbg.vic.gov.au/flora/taxon/26931a82-e21a-4482-b073-969d328c34dd> .
+    tcs:parentTaxonConcept <https://vicflora.rbg.vic.gov.au/flora/taxon/26931a82-e21a-4482-b073-969d328c34dd> .
 
 <https://vicflora.rbg.vic.gov.au/flora/taxon/59a312d9-6f33-4b4d-adb1-5a71747989ac> a tcs:TaxonConcept ;
     dcterms:title "Rubus erythrops sec. Stajsic 2017" ;
     tcs:taxonName <https://ipni.org/n/736600-1> ;
     tcs:accordingTo <https://vicflora.rbg.vic.gov.au#2024-10-17> ;
-    tcs:parent <https://vicflora.rbg.vic.gov.au/flora/taxon/26931a82-e21a-4482-b073-969d328c34dd> .
+    tcs:parentTaxonConcept <https://vicflora.rbg.vic.gov.au/flora/taxon/26931a82-e21a-4482-b073-969d328c34dd> .
 
 <https://vicflora.rbg.vic.gov.au/flora/taxon/f12391f2-d022-49f5-9a6a-01b36066b83f> a tcs:TaxonConcept ;
     dcterms:title "Rubus fruticosus sec. Willis 1973" ;
@@ -93,13 +93,13 @@
     dcterms:title "Rubus hillii sec. Jeanes & Jobson 1996" ;
     tcs:taxonName <https://ipni.org/n/737344-1> ;
     tcs:accordingTo <https://id.biodiversity.org.au/reference/apni/50742> ;
-    tcs:parent <https://vicflora.rbg.vic.gov.au/flora/taxon/26931a82-e21a-4482-b073-969d328c34dd> .
+    tcs:parentTaxonConcept <https://vicflora.rbg.vic.gov.au/flora/taxon/26931a82-e21a-4482-b073-969d328c34dd> .
 
 <https://vicflora.rbg.vic.gov.au/flora/taxon/7177f2c9-87ea-4c39-841a-f899d2c2fa70> a tcs:TaxonConcept ;
     dcterms:title "Rubus idaeus sec. Jeanes & Jobson 1996" ;
     tcs:taxonName <https://ipni.org/n/298089-2> ;
     tcs:accordingTo <https://id.biodiversity.org.au/reference/apni/50742> ;
-    tcs:parent <https://vicflora.rbg.vic.gov.au/flora/taxon/26931a82-e21a-4482-b073-969d328c34dd> .
+    tcs:parentTaxonConcept <https://vicflora.rbg.vic.gov.au/flora/taxon/26931a82-e21a-4482-b073-969d328c34dd> .
 
 <https://id.biodiversity.org.au/instance/apni/646605> a tcs:TaxonConcept ;
     dcterms:title "Rubus idaeus sec. Evans et al. 2007" ;
@@ -110,7 +110,7 @@
     dcterms:title "Rubus laciniatus sec. Jeanes & Jobson 1996" ;
     tcs:taxonName <https://ipni.org/n/737860-1> ;
     tcs:accordingTo <https://id.biodiversity.org.au/reference/apni/50742> ;
-    tcs:parent <https://vicflora.rbg.vic.gov.au/flora/taxon/26931a82-e21a-4482-b073-969d328c34dd> .
+    tcs:parentTaxonConcept <https://vicflora.rbg.vic.gov.au/flora/taxon/26931a82-e21a-4482-b073-969d328c34dd> .
 
 <https://id.biodiversity.org.au/instance/apni/646628> a tcs:TaxonConcept ;
     dcterms:title "Rubus laciniatus sec. CHAH 2007" ;
@@ -122,19 +122,19 @@
     tcs:taxonName <https://ipni.org/n/737860-1> ;
     tcs:accordingTo <https://vicflora.rbg.vic.gov.au#2024-10-17> ;
     tcs:synonym <https://ipni.org/n/890023-1> ;
-    tcs:parent <https://vicflora.rbg.vic.gov.au/flora/taxon/26931a82-e21a-4482-b073-969d328c34dd> .
+    tcs:parentTaxonConcept <https://vicflora.rbg.vic.gov.au/flora/taxon/26931a82-e21a-4482-b073-969d328c34dd> .
 
 <https://vicflora.rbg.vic.gov.au/flora/taxon/bd6ec31f-ea27-4e37-a65b-d717d32dfadd> a tcs:TaxonConcept ;
     dcterms:title "Rubus lacinitus subsp. laciniatus sec. Jeanes & Jobson 1996" ;
     tcs:taxonName <https://id.biodiversity.org.au/name/apni/116274> ;
     tcs:accordingTo <https://id.biodiversity.org.au/reference/apni/50742> ;
-    tcs:parent <https://id.biodiversity.org.au/instance/apni/682175> .
+    tcs:parentTaxonConcept <https://id.biodiversity.org.au/instance/apni/682175> .
 
 <https://vicflora.rbg.vic.gov.au/flora/taxon/b002ed31-9fa1-4bfc-a9e6-f671f224e297> a tcs:TaxonConcept ;
     dcterms:title "Rubus laciniatus subsp. selmeri sec. Jeanes & Jobson 1996" ;
     tcs:taxonName <https://ipni.org/n/890023-1> ;
     tcs:accordingTo <https://id.biodiversity.org.au/reference/apni/50742> ;
-    tcs:parent <https://id.biodiversity.org.au/instance/apni/682175> .
+    tcs:parentTaxonConcept <https://id.biodiversity.org.au/instance/apni/682175> .
 
 <https://id.biodiversity.org.au/instance/apni/646631> a tcs:TaxonConcept ;
     dcterms:title "Rubus leucostachys sec. CHAH 2017" ;
@@ -145,7 +145,7 @@
     dcterms:title "Rubus leucostachys sec. Stajsic 2017" ;
     tcs:taxonName <https://ipni.org/n/738053-1> ;
     tcs:accordingTo <https://vicflora.rbg.vic.gov.au#2024-10-17> ;
-    tcs:parent <https://vicflora.rbg.vic.gov.au/flora/taxon/26931a82-e21a-4482-b073-969d328c34dd> .
+    tcs:parentTaxonConcept <https://vicflora.rbg.vic.gov.au/flora/taxon/26931a82-e21a-4482-b073-969d328c34dd> .
 
 <https://id.biodiversity.org.au/instance/apni/646632> a tcs:TaxonConcept ;
     dcterms:title "Rubus ×loganobaccus sec. CHAH 2007" ;
@@ -156,7 +156,7 @@
     dcterms:title "Rubus loganobaccus sec. Messina 2016" ;
     tcs:taxonName <https://ipni.org/n/223266-2> ;
     tcs:accordingTo <https://vicflora.rbg.vic.gov.au#2024-10-17> ;
-    tcs:parent <https://vicflora.rbg.vic.gov.au/flora/taxon/26931a82-e21a-4482-b073-969d328c34dd> .
+    tcs:parentTaxonConcept <https://vicflora.rbg.vic.gov.au/flora/taxon/26931a82-e21a-4482-b073-969d328c34dd> .
 
 <https://id.biodiversity.org.au/instance/apni/646633> a tcs:TaxonConcept ;
     dcterms:title "Rubus moluccanus sec. CHAH 2007" ;
@@ -167,7 +167,7 @@
     dcterms:title "Rubus moluccanus sec. Messina 2016" ;
     tcs:taxonName <https://ipni.org/n/738460-1> ;
     tcs:accordingTo <https://vicflora.rbg.vic.gov.au#2024-10-17> ;
-    tcs:parent <https://vicflora.rbg.vic.gov.au/flora/taxon/26931a82-e21a-4482-b073-969d328c34dd> .
+    tcs:parentTaxonConcept <https://vicflora.rbg.vic.gov.au/flora/taxon/26931a82-e21a-4482-b073-969d328c34dd> .
 
 <https://id.biodiversity.org.au/instance/apni/646635> a tcs:TaxonConcept ;
     dcterms:title "Rubus moluccanus var. trilobus sec. CHAH 2007" ;
@@ -179,7 +179,7 @@
     tcs:taxonName <https://ipni.org/n/999015-1> ;
     tcs:accordingTo <https://vicflora.rbg.vic.gov.au#2024-10-17> ;
     tcs:synonym <https://ipni.org/n/737344-1> ;
-    tcs:parent <https://vicflora.rbg.vic.gov.au/flora/taxon/91c807aa-8634-4f02-bf4c-c51b0450dbbe> .
+    tcs:parentTaxonConcept <https://vicflora.rbg.vic.gov.au/flora/taxon/91c807aa-8634-4f02-bf4c-c51b0450dbbe> .
 
 <https://id.biodiversity.org.au/instance/apni/646639> a tcs:TaxonConcept ;
     dcterms:title "Rubus ×novus sec. CHAH 2007" ;
@@ -190,13 +190,13 @@
     dcterms:title "Rubus ×novus sec. Messina 2016" ;
     tcs:taxonName <https://ipni.org/n/738682-1> ;
     tcs:accordingTo <https://vicflora.rbg.vic.gov.au#2024-10-17> ;
-    tcs:parent <https://vicflora.rbg.vic.gov.au/flora/taxon/26931a82-e21a-4482-b073-969d328c34dd> .
+    tcs:parentTaxonConcept <https://vicflora.rbg.vic.gov.au/flora/taxon/26931a82-e21a-4482-b073-969d328c34dd> .
 
 <https://vicflora.rbg.vic.gov.au/flora/taxon/bc19413d-6b07-4c94-84ee-4b5fef7e2f98> a tcs:TaxonConcept ;
     dcterms:title "Rubus parvifolius sec. Jeanes & Jobson 1996" ;
     tcs:taxonName <https://ipni.org/n/738967-1> ;
     tcs:accordingTo <https://id.biodiversity.org.au/reference/apni/50742> ;
-    tcs:parent <https://vicflora.rbg.vic.gov.au/flora/taxon/26931a82-e21a-4482-b073-969d328c34dd> .
+    tcs:parentTaxonConcept <https://vicflora.rbg.vic.gov.au/flora/taxon/26931a82-e21a-4482-b073-969d328c34dd> .
 
 <https://id.biodiversity.org.au/instance/apni/646641> a tcs:TaxonConcept ;
     dcterms:title "Rubus parvifolius sec. CHAH 2007" ;
@@ -207,7 +207,7 @@
     dcterms:title "Rubus phoenicolasius sec. Jeanes & Jobson 1996" ;
     tcs:taxonName <https://ipni.org/n/895791-1> ;
     tcs:accordingTo <https://id.biodiversity.org.au/reference/apni/50742> ;
-    tcs:parent <https://vicflora.rbg.vic.gov.au/flora/taxon/26931a82-e21a-4482-b073-969d328c34dd> .
+    tcs:parentTaxonConcept <https://vicflora.rbg.vic.gov.au/flora/taxon/26931a82-e21a-4482-b073-969d328c34dd> .
 
 <https://id.biodiversity.org.au/instance/apni/646643> a tcs:TaxonConcept ;
     dcterms:title "Rubus phoenicolasius sec. CHAH 2007" ;
@@ -223,7 +223,7 @@
     dcterms:title "Rubus polyanthemus sec. Jeanes & Jobson 1996" ;
     tcs:taxonName <https://ipni.org/n/739244-1> ;
     tcs:accordingTo <https://id.biodiversity.org.au/reference/apni/50742> ;
-    tcs:parent <https://vicflora.rbg.vic.gov.au/flora/taxon/26931a82-e21a-4482-b073-969d328c34dd> .
+    tcs:parentTaxonConcept <https://vicflora.rbg.vic.gov.au/flora/taxon/26931a82-e21a-4482-b073-969d328c34dd> .
 
 <https://id.biodiversity.org.au/instance/apni/646585> a tcs:TaxonConcept ;
     dcterms:title "Rubus polyanthemus sec. Evans et al. 2007" ;
@@ -234,19 +234,19 @@
     dcterms:title "Rubus procerus sec. Jeanes & Jobson 1996" ;
     tcs:taxonName <https://ipni.org/n/739337-1> ;
     tcs:accordingTo <https://id.biodiversity.org.au/reference/apni/50742> ;
-    tcs:parent <https://vicflora.rbg.vic.gov.au/flora/taxon/26931a82-e21a-4482-b073-969d328c34dd> .
+    tcs:parentTaxonConcept <https://vicflora.rbg.vic.gov.au/flora/taxon/26931a82-e21a-4482-b073-969d328c34dd> .
 
 <https://vicflora.rbg.vic.gov.au/flora/taxon/aba08ea4-1489-4774-88f1-5d7356f35760> a tcs:TaxonConcept ;
     dcterms:title "Rubus rosaceus sec. Jeanes & Jobson 2016" ;
     tcs:taxonName <https://ipni.org/n/739797-1> ;
     tcs:accordingTo <https://id.biodiversity.org.au/reference/apni/50742> ;
-    tcs:parent <https://vicflora.rbg.vic.gov.au/flora/taxon/26931a82-e21a-4482-b073-969d328c34dd> .
+    tcs:parentTaxonConcept <https://vicflora.rbg.vic.gov.au/flora/taxon/26931a82-e21a-4482-b073-969d328c34dd> .
 
 <https://id.biodiversity.org.au/instance/apni/980672> a tcs:TaxonConcept ;
     dcterms:title "Rubus rosifolius sec. Jeanes & Jobson 1996" ;
     tcs:taxonName <https://ipni.org/n/739800-1> ;
     tcs:accordingTo <https://id.biodiversity.org.au/reference/apni/50742> ;
-    tcs:parent <https://vicflora.rbg.vic.gov.au/flora/taxon/26931a82-e21a-4482-b073-969d328c34dd> .
+    tcs:parentTaxonConcept <https://vicflora.rbg.vic.gov.au/flora/taxon/26931a82-e21a-4482-b073-969d328c34dd> .
 
 <https://id.biodiversity.org.au/instance/apni/646646> a tcs:TaxonConcept ;
     dcterms:title "Rubus rosifolius sec. CHAH 2007" ;
@@ -257,7 +257,7 @@
     dcterms:title "Rubus rosifolius sec. Messina 2016" ;
     tcs:taxonName <https://ipni.org/n/739800-1> ;
     tcs:accordingTo <https://vicflora.rbg.vic.gov.au#2024-10-17> ;
-    tcs:parent <https://vicflora.rbg.vic.gov.au/flora/taxon/26931a82-e21a-4482-b073-969d328c34dd> .
+    tcs:parentTaxonConcept <https://vicflora.rbg.vic.gov.au/flora/taxon/26931a82-e21a-4482-b073-969d328c34dd> .
 
 <https://id.biodiversity.org.au/instance/apni/569900>  a tcs:TaxonConcept ;
     dcterms:title "Rubus rosifolius var. rosifolius sec. Bean 1997" ;
@@ -268,8 +268,8 @@
     dcterms:title "Rubus rosifolius var. rosifolius sec. Messina 2016" ;
     tcs:taxonName <https://id.biodiversity.org.au/name/apni/171003> ;
     tcs:accordingTo <https://vicflora.rbg.vic.gov.au#2024-10-17> ;
-    tcs:parent <https://vicflora.rbg.vic.gov.au/flora/taxon/7ca7bc22-d0c3-4502-96a1-a230f64e0d54> ;
-    tcs:parent <https://vicflora.rbg.vic.gov.au/flora/taxon/26931a82-e21a-4482-b073-969d328c34dd> .
+    tcs:parentTaxonConcept <https://vicflora.rbg.vic.gov.au/flora/taxon/7ca7bc22-d0c3-4502-96a1-a230f64e0d54> ;
+    tcs:parentTaxonConcept <https://vicflora.rbg.vic.gov.au/flora/taxon/26931a82-e21a-4482-b073-969d328c34dd> .
 
 <https://id.biodiversity.org.au/instance/apni/646650> a tcs:TaxonConcept ;
     dcterms:title "Rubus rugosus sec. CHAH 2007" ;
@@ -280,13 +280,13 @@
     dcterms:title "Rubus rugosus sec. Messina 2016" ;
     tcs:taxonName <https://ipni.org/n/110479-3> ;
     tcs:accordingTo <https://vicflora.rbg.vic.gov.au#2024-10-17> ;
-    tcs:parent <https://vicflora.rbg.vic.gov.au/flora/taxon/26931a82-e21a-4482-b073-969d328c34dd> .
+    tcs:parentTaxonConcept <https://vicflora.rbg.vic.gov.au/flora/taxon/26931a82-e21a-4482-b073-969d328c34dd> .
 
 <https://id.biodiversity.org.au/instance/apni/646519> a tcs:TaxonConcept ;
     dcterms:title "Rubus ulmifolius sec. Jeanes & Jobson 1996" ;
     tcs:taxonName <https://ipni.org/n/740982-1> ;
     tcs:accordingTo <https://id.biodiversity.org.au/reference/apni/50742> ;
-    tcs:parent <https://vicflora.rbg.vic.gov.au/flora/taxon/26931a82-e21a-4482-b073-969d328c34dd> .
+    tcs:parentTaxonConcept <https://vicflora.rbg.vic.gov.au/flora/taxon/26931a82-e21a-4482-b073-969d328c34dd> .
 
 <https://id.biodiversity.org.au/instance/apni/879754> a tcs:TaxonConcept ;
     dcterms:title "Rubus ulmifolius sec. CHAH 2007" ;
@@ -297,7 +297,7 @@
     dcterms:title "Rubus ulmifolius sec. Messina 2016" ;
     tcs:taxonName <https://ipni.org/n/740982-1> ;
     tcs:accordingTo <https://vicflora.rbg.vic.gov.au#2024-10-17> ;
-    tcs:parent <https://vicflora.rbg.vic.gov.au/flora/taxon/26931a82-e21a-4482-b073-969d328c34dd> .
+    tcs:parentTaxonConcept <https://vicflora.rbg.vic.gov.au/flora/taxon/26931a82-e21a-4482-b073-969d328c34dd> .
 
 <https://id.biodiversity.org.au/instance/apni/646651> a tcs:TaxonConcept ;
     dcterms:title "Rubus ulmifolius var. ulmifolius sec. CHAH 2007" ;
@@ -308,8 +308,8 @@
     dcterms:title "Rubus ulmifolius var. ulmifolius sec. Messina 2016" ;
     tcs:taxonName <https://id.biodiversity.org.au/name/apni/116699> ;
     tcs:accordingTo <https://vicflora.rbg.vic.gov.au#2024-10-17> ;
-    tcs:parent <https://vicflora.rbg.vic.gov.au/flora/taxon/58bd6e3f-6ab9-4922-bd00-b53bcd20d409> ;
-    tcs:parent <https://vicflora.rbg.vic.gov.au/flora/taxon/26931a82-e21a-4482-b073-969d328c34dd> .
+    tcs:parentTaxonConcept <https://vicflora.rbg.vic.gov.au/flora/taxon/58bd6e3f-6ab9-4922-bd00-b53bcd20d409> ;
+    tcs:parentTaxonConcept <https://vicflora.rbg.vic.gov.au/flora/taxon/26931a82-e21a-4482-b073-969d328c34dd> .
 
 <https://vicflora.rbg.vic.gov.au/flora/taxon/6cc7c631-8311-4726-9c42-885f8a639576> a tcs:TaxonConcept ;
     dcterms:title "Rubus vestitus sec. Jeanes & Jobson 1996" ;

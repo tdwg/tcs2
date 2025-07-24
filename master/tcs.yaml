@@ -312,13 +312,13 @@
         The TCS term is the IRI equivalent of the Darwin Core term.
 
 # property: parent
-- localName: parent
+- localName: parentTaxonConcept
   label: Parent
   definition: >-
     The immediately next higher taxon in a hierarchical classification.
   usage: >-
-    `parent` is another Taxon Concept; a Taxon Concept can have only one 
-    `parent`.
+    `parentTaxonConcept` is another TaxonConcept; a TaxonConcept can have only
+    one `parentTaxonConcept`.
   notes: >-
     This is the parent as indicated in 
     the `accordingTo` reference, rather than a third-party classification. The 
@@ -344,17 +344,17 @@
       iri: "skos:broader"
 
 # property: child
-- localName: child
+- localName: childTaxonConcept
   label: Child
   definition: >-
     A direct subordinate in a hierarchical classification.
   usage: >-
-    `child` is another Taxon Concept; a Taxon Concept can have more than one 
-    child.
+    `childTaxonConcept` is another TaxonConcept; a TaxonConcept can have more
+    than one `childTaxonConcept`.
   notes: >-
     This is a child as indicated in the `accordingTo` reference, rather than a
     third-party classification. The `accordingTo` of the child will generally,
-    but not necessarily, be the same as that of the child.
+    but not necessarily, be the same as that of the parent.
   examples: 
     - TaxonConcept-child-example-1
   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonConcept

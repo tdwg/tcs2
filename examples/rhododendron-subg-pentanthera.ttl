@@ -117,7 +117,7 @@ _:tn4 a tcs:TaxonName ;
     dcterms:title "Rhododendron sect. Pentanthera sec. Judd & Kron 1995" ;
     tcs:accordingTo _:ref1 ;
     tcs:taxonName _:tn1 ;
-    tcs:parent _:tc1 . 
+    tcs:parentTaxonConcept _:tc1 . 
 
 
 #
@@ -128,7 +128,7 @@ _:tc2 a tcs:TaxonConcept ;
     dcterms:title "Rhododendron sect. Sciadorhodion sec. Judd & Kron 1995" ;
     tcs:accordingTo _:ref1 ;
     tcs:taxonName <https://ipni.org/n/50985479-1> ;
-    tcs:parent _:tc1 .
+    tcs:parentTaxonConcept _:tc1 .
 
 <https://ipni.org/n/50985479-1> a tcs:TaxonName ;
     tcs:nomenclaturalCode <http://rs.gbif.org/vocabulary/gbif/nomenclatural_code/ICN> ;
@@ -157,7 +157,7 @@ _:tc2 a tcs:TaxonConcept ;
     dcterms:title "Rhododendron schlippenbachii sec. Judd & Kron 1995" ;
     tcs:accordingTo _:ref1 ;
     tcs:taxonName <https://ipni.org/n/333307-1> ;
-    tcs:parent _:tc1 .
+    tcs:parentTaxonConcept _:tc1 .
 
 <https://ipni.org/n/333307-1> a tcs:TaxonName ;
     tcs:nomenclaturalCode <http://rs.gbif.org/vocabulary/gbif/nomenclatural_code/ICN> ;
@@ -222,7 +222,7 @@ _:tc2 a tcs:TaxonConcept ;
     tcs:accordingTo _:ref1 ;
     tcs:taxonName <https://ipni.org/n/333193-1> ;
     tcs:synonym ( <https://ipni.org/n/950178-1> ) ;
-    tcs:parent _:tc2 .
+    tcs:parentTaxonConcept _:tc2 .
 
 <https://ipni.org/n/333193-1> a tcs:TaxonName ;
     tcs:nomenclaturalCode <http://rs.gbif.org/vocabulary/gbif/nomenclatural_code/ICN> ;
@@ -277,7 +277,7 @@ _:tc2 a tcs:TaxonConcept ;
     tcs:synonym _:tn5 ,
         _:tn6 ,
         <https://ipni.org/n/950666-1> ;
-    tcs:parent _:tc2 .
+    tcs:parentTaxonConcept _:tc2 .
 
 <https://ipni.org/n/333062-1> a tcs:TaxonName ;
     tcs:nomenclaturalCode <http://rs.gbif.org/vocabulary/gbif/nomenclatural_code/ICN> ;
@@ -350,7 +350,7 @@ _:tn6 a tcs:TaxonName ;
     dcterms:title "Rhododendron albrechtii sec. Judd & Kron 1995" ;
     tcs:taxonName <https://ipni.org/n/331902-1> ;
     tcs:accordingTo _:ref1 ;
-    tcs:parent _:tc2 .
+    tcs:parentTaxonConcept _:tc2 .
 
 <https://ipni.org/n/331902-1> a tcs:TaxonName ;
     tcs:nomenclaturalCode <http://rs.gbif.org/vocabulary/gbif/nomenclatural_code/ICN> ;
@@ -385,7 +385,7 @@ _:tc3 a tcs:TaxonConcept ;
     dcterms:title "Rhodondendron sect. Viscidula sec. Judd & Cron 1995" ;
     tcs:accordingTo _:ref1 ;
     tcs:taxonName _:tn7 ;
-    tcs:parent _:tc1 .
+    tcs:parentTaxonConcept _:tc1 .
 
 _:tn7 a tcs:TaxonName ;
     tcs:nameString "Rhododendron sect. Viscidula" ;
@@ -406,7 +406,7 @@ _:tn7 a tcs:TaxonName ;
     dcterms:title "Rhodondendron nipponicum sec. Judd & Cron 1995" ;
     tcs:accordingTo _:ref1 ;
     tcs:taxonName <https://ipni.org/n/332960-1> ;
-    tcs:parent _:tc3 .
+    tcs:parentTaxonConcept _:tc3 .
 
 <https://ipni.org/n/332960-1> a tcs:TaxonName ;
     tcs:nomenclaturalCode <http://rs.gbif.org/vocabulary/gbif/nomenclatural_code/ICN> ;
@@ -444,7 +444,7 @@ _:tc4 a tcs:TaxonConcept ;
     dcterms:title "Rhodondendron sect. Rhodora sec. Judd & Cron 1995" ;
     tcs:accordingTo _:ref1 ;
     tcs:taxonName _:tn8 ;
-    tcs:parent _:tc1 .
+    tcs:parentTaxonConcept _:tc1 .
 
 _:tn8 a tcs:TaxonName ;
     tcs:nomenclaturalCode <http://rs.gbif.org/vocabulary/gbif/nomenclatural_code/ICN> ;
@@ -486,7 +486,7 @@ _:tn8 a tcs:TaxonName ;
     tcs:accordingTo _:ref1 ;
     tcs:taxonName <https://ipni.org/n/307873-2> ;
     tcs:synonym <https://ipni.org/n/219536-2> ;
-    tcs:parent _:tc4 .
+    tcs:parentTaxonConcept _:tc4 .
 
 <https://ipni.org/n/307873-2> a tcs:TaxonName ;
     tcs:nomenclaturalCode <http://rs.gbif.org/vocabulary/gbif/nomenclatural_code/ICN> ;
@@ -569,7 +569,7 @@ _:tn8 a tcs:TaxonName ;
             <https://ipni.org/n/219524-2> ,
             _:tn9 ,
             <https://ipni.org/n/219459-2> ;
-    tcs:parent _:tc4 .
+    tcs:parentTaxonConcept _:tc4 .
 
 <https://ipni.org/n/1203750-2> a tcs:TaxonName ;
     tcs:nomenclaturalCode <http://rs.gbif.org/vocabulary/gbif/nomenclatural_code/ICN> ;

@@ -109,7 +109,7 @@ _:tn-9948023f0d6c7923 a tcs:TaxonName ;
     dcterms:title "Begonia comorensis sec. Klazenga & al. 1994" ;
     tcs:accordingTo <https://doi/org/10.2307/3668252> ;
     tcs:taxonName <https://ipni.org/n/104440-1> ;
-    tcs:parent _:1994-begonia-sect-mezierea ;
+    tcs:parentTaxonConcept _:1994-begonia-sect-mezierea ;
     tcs:intersects [ a tcs:TaxonConcept ;
             dcterms:title "Begonia comorensis sec. Warburg 1894" ;
             tcs:accordingTo _:ref-d9a27f7b90cde25a ;
@@ -186,7 +186,7 @@ _:1983-Begonia-comorensis a tcs:TaxonConcept ;
     dcterms:title "Begonia humbertii sec. Klazenga & al. 1994" ;
     tcs:accordingTo <https://doi/org/10.2307/3668252> ;
     tcs:taxonName <https://ipni.org/n/901574-1> ;
-    tcs:parent _:1994-begonia-sect-mezierea ;
+    tcs:parentTaxonConcept _:1994-begonia-sect-mezierea ;
     tcs:intersects [ a tcs:TaxonConcept ;
             dcterms:title "Begonia humbertii sec. Keraudren-Aymonin 1983" ;
             tcs:accordingTo _:ref-ba1eab1dfbe06903 ;
@@ -226,7 +226,7 @@ _:1983-Begonia-comorensis a tcs:TaxonConcept ;
     dcterms:title "Begonia meyeri-johannis sec. Klazenga & al. 1994" ;
     tcs:accordingTo <https://doi/org/10.2307/3668252> ;
     tcs:taxonName <https://ipni.org/n/105197-1> ;
-    tcs:parent _:1994-begonia-sect-mezierea ;
+    tcs:parentTaxonConcept _:1994-begonia-sect-mezierea ;
     tcs:intersects [ a tcs:TaxonConcept ;
             dcterms:title "Begonia meyeri-johannis sec. Warburg 1894" ;
             tcs:accordingTo _:ref-d9a27f7b90cde25a ;
@@ -274,7 +274,7 @@ _:1983-Begonia-comorensis a tcs:TaxonConcept ;
             <https://ipni.org/n/105716-1> ,
             <https://ipni.org/n/105665-1> ,
             <https://ipni.org/n/105529-1> ;
-    tcs:parent _:1994-begonia-sect-mezierea ;
+    tcs:parentTaxonConcept _:1994-begonia-sect-mezierea ;
     tcs:intersects [ a tcs:TaxonConcept ;
             dcterms:title "Begonia oxyloba sec. Warburg 1894" ;
             tcs:accordingTo _:ref-d9a27f7b90cde25a ;
@@ -705,7 +705,7 @@ _:1983-Begonia-comorensis a tcs:TaxonConcept ;
     tcs:taxonName <https://ipni.org/n/105644-1> ;
     tcs:synonym <https://ipni.org/n/104198-1> ,
             <https://ipni.org/n/77237080-1> ;
-    tcs:parent _:1994-begonia-sect-mezierea ;
+    tcs:parentTaxonConcept _:1994-begonia-sect-mezierea ;
     tcs:intersects [ a tcs:TaxonConcept ;
             dcterms:title "Begonia salaziensis sec. Warburg 1894" ;
             tcs:accordingTo _:ref-d9a27f7b90cde25a ;
@@ -778,7 +778,7 @@ _:1983-Begonia-comorensis a tcs:TaxonConcept ;
     dcterms:title "Begonia seychellensis sec. Klazenga & al. 1994" ;
     tcs:accordingTo <https://doi/org/10.2307/3668252> ;
     tcs:taxonName <https://ipni.org/n/105731-1> ;
-    tcs:parent _:1994-begonia-sect-mezierea ;
+    tcs:parentTaxonConcept _:1994-begonia-sect-mezierea ;
     tcs:intersects _:1983-Begonia-comorensis . 
 
 <https://ipni.org/n/105731-1> a tcs:TaxonName ;

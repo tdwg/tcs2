@@ -169,7 +169,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 
 **Taxon Concept**
 
-[tcs:TaxonConcept](#tcstaxonconcept) | [tcs:accordingTo](#tcsaccordingto) | [tcs:taxonName](#tcstaxonname) | [tcs:synonym](#tcssynonym) | [tcs:vernacularName](#tcsvernacularname) | [tcs:taxonRank](#tcstaxonrank) | [tcs:parent](#tcsparent) | [tcs:child](#tcschild) | [tcs:isCongruentWith](#tcsiscongruentwith) | [tcs:includes](#tcsincludes) | [tcs:isIncludedIn](#tcsisincludedin) | [tcs:partiallyOverlaps](#tcspartiallyoverlaps) | [tcs:isDisjointFrom](#tcsisdisjointfrom) | [tcs:intersects](#tcsintersects) | [dwc:scientificName](#dwcscientificname) | [dwc:vernacularName](#dwcvernacularname) | [dwc:verbatimTaxonRank](#dwcverbatimtaxonrank) | [dcterms:title](#dctermstitle)
+[tcs:TaxonConcept](#tcstaxonconcept) | [tcs:accordingTo](#tcsaccordingto) | [tcs:taxonName](#tcstaxonname) | [tcs:synonym](#tcssynonym) | [tcs:vernacularName](#tcsvernacularname) | [tcs:taxonRank](#tcstaxonrank) | [tcs:parentTaxonConcept](#tcsparenttaxonconcept) | [tcs:childTaxonConcept](#tcschildtaxonconcept) | [tcs:isCongruentWith](#tcsiscongruentwith) | [tcs:includes](#tcsincludes) | [tcs:isIncludedIn](#tcsisincludedin) | [tcs:partiallyOverlaps](#tcspartiallyoverlaps) | [tcs:isDisjointFrom](#tcsisdisjointfrom) | [tcs:intersects](#tcsintersects) | [dwc:scientificName](#dwcscientificname) | [dwc:vernacularName](#dwcvernacularname) | [dwc:verbatimTaxonRank](#dwcverbatimtaxonrank) | [dcterms:title](#dctermstitle)
 
 **Taxon Concept Mapping**
 
@@ -626,13 +626,13 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 	</tbody>
 </table>
 
-#### tcs:parent
+#### tcs:parentTaxonConcept
 
 <table style="width:100%;">
 	<tbody>
 		<tr>
 			<td>Identifier</td>
-			<td>http://rs.tdwg.org/tcs/terms/parent</td>
+			<td>http://rs.tdwg.org/tcs/terms/parentTaxonConcept</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -648,7 +648,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		</tr>
 		<tr>
 			<td>Usage</td>
-			<td><p><code>parent</code> is another Taxon Concept; a Taxon Concept can have only one  <code>parent</code>.</p></td>
+			<td><p><code>parentTaxonConcept</code> is another TaxonConcept; a TaxonConcept can have only one <code>parentTaxonConcept</code>.</p></td>
 		</tr>
 		<tr>
 			<td></td>
@@ -676,7 +676,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
     tcs:taxonName: [ a tcs:TaxonName ;
             tcs:nameString: "Panthera leo" ;
             dwc:scientificNameAuthorship: "(Linnaeus, 1758)" ] ;
-    tcs:parent <https://www.catalogueoflife.org/data/taxon/6DBT> .
+    tcs:parentTaxonConcept <https://www.catalogueoflife.org/data/taxon/6DBT> .
 
 <https://www.catalogueoflife.org/data/taxon/4CGXQ> a tcs:TaxonConcept ;
     dcterms:title "Panthera onca sec. Catalogue of Life 2024-01-24" ;
@@ -684,7 +684,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
     tcs:taxonName: [ a tcs:TaxonName ;
             tcs:nameString: "Panthera onca" ;
             dwc:scientificNameAuthorship: "(Linnaeus, 1758)" ] ;
-    tcs:parent <https://www.catalogueoflife.org/data/taxon/6DBT> .
+    tcs:parentTaxonConcept <https://www.catalogueoflife.org/data/taxon/6DBT> .
 
 <https://www.catalogueoflife.org/data/taxon/4CGXR> a tcs:TaxonConcept ;
     dcterms:title "Panthera pardus sec. Catalogue of Life 2024-01-24" ;
@@ -692,7 +692,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
     tcs:taxonName: [ a tcs:TaxonName ;
             tcs:nameString: "Panthera pardus" ;
             dwc:scientificNameAuthorship: "(Linnaeus, 1758)" ] ;
-    tcs:parent <https://www.catalogueoflife.org/data/taxon/6DBT> .
+    tcs:parentTaxonConcept <https://www.catalogueoflife.org/data/taxon/6DBT> .
 
 <https://www.catalogueoflife.org/data/taxon/4CGXS> a tcs:TaxonConcept ;
     dcterms:title "Panthera tigris sec. Catalogue of Life 2024-01-24" ;
@@ -700,7 +700,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
     tcs:taxonName: [ a tcs:TaxonName ;
             tcs:nameString: "Panthera tigris" ;
             dwc:scientificNameAuthorship: "(Linnaeus, 1758)" ] ;
-    tcs:parent <https://www.catalogueoflife.org/data/taxon/6DBT> .
+    tcs:parentTaxonConcept <https://www.catalogueoflife.org/data/taxon/6DBT> .
 ```
 
 
@@ -715,13 +715,13 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 	</tbody>
 </table>
 
-#### tcs:child
+#### tcs:childTaxonConcept
 
 <table style="width:100%;">
 	<tbody>
 		<tr>
 			<td>Identifier</td>
-			<td>http://rs.tdwg.org/tcs/terms/child</td>
+			<td>http://rs.tdwg.org/tcs/terms/childTaxonConcept</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -737,7 +737,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		</tr>
 		<tr>
 			<td>Usage</td>
-			<td><p><code>child</code> is another Taxon Concept; a Taxon Concept can have more than one  child.</p></td>
+			<td><p><code>childTaxonConcept</code> is another TaxonConcept; a TaxonConcept can have more than one <code>childTaxonConcept</code>.</p></td>
 		</tr>
 		<tr>
 			<td></td>
@@ -745,7 +745,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		</tr>
 		<tr>
 			<td>Comments</td>
-			<td><p>This is a child as indicated in the <code>accordingTo</code> reference, rather than a third-party classification. The <code>accordingTo</code> of the child will generally, but not necessarily, be the same as that of the child.</p></td>
+			<td><p>This is a child as indicated in the <code>accordingTo</code> reference, rather than a third-party classification. The <code>accordingTo</code> of the child will generally, but not necessarily, be the same as that of the parent.</p></td>
 		</tr>
 		<tr>
 			<td>Examples</td>
@@ -758,7 +758,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
     tcs:taxonName: [ a tcs:TaxonName ;
             tcs:nameString: "Panthera" ;
             dwc:scientificNameAuthorship: "Oken, 1816" ]  ;
-    tcs:child <https://www.catalogueoflife.org/data/taxon/4CGXP> ,
+    tcs:childTaxonConcept <https://www.catalogueoflife.org/data/taxon/4CGXP> ,
             <https://www.catalogueoflife.org/data/taxon/4CGXQ> ,
             <https://www.catalogueoflife.org/data/taxon/4CGXR> ,
             <https://www.catalogueoflife.org/data/taxon/4CGXS> .

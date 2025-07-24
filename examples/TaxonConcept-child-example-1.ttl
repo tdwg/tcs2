@@ -8,7 +8,7 @@
     tcs:taxonName: [ a tcs:TaxonName ;
             tcs:nameString: "Panthera" ;
             dwc:scientificNameAuthorship: "Oken, 1816" ]  ;
-    tcs:child <https://www.catalogueoflife.org/data/taxon/4CGXP> ,
+    tcs:childTaxonConcept <https://www.catalogueoflife.org/data/taxon/4CGXP> ,
             <https://www.catalogueoflife.org/data/taxon/4CGXQ> ,
             <https://www.catalogueoflife.org/data/taxon/4CGXR> ,
             <https://www.catalogueoflife.org/data/taxon/4CGXS> .

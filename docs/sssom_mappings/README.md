@@ -62,7 +62,7 @@
 | skos:exactMatch | http://rs.tdwg.org/ontology/voc/TaxonConcept#taxonomicRank |  |
 | skos:exactMatch | http://rs.tdwg.org/dwc/terms/taxonRank | The TCS term is the IRI equivalent of the Darwin Core term. |
 
-### tcs:parent
+### tcs:parentTaxonConcept
 
 | predicate | IRI or XPATH | remarks |
 |-|-|-|
@@ -71,7 +71,7 @@
 | skos:exactMatch | http://rs.tdwg.org/dwc/terms/parentNameUsage | The TCS term is the IRI equivalent of the Darwin Core term. |
 | skos:closeMatch | http://www.w3.org/2004/02/skos/core#broader |  |
 
-### tcs:child
+### tcs:childTaxonConcept
 
 | predicate | IRI or XPATH | remarks |
 |-|-|-|

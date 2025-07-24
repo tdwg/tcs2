@@ -221,7 +221,7 @@
     tcs:synonym <https://tropicos.org/name/35123679> ,
             <https://tropicos.org/name/35123680>  ;
     tcs:taxonRank <http://rs.gbif.org/vocabulary/gbif/rank/variety> ; 
-    tcs:parent <https://tropicos.org/reference/9006742#name-35121491> .
+    tcs:parentTaxonConcept <https://tropicos.org/reference/9006742#name-35121491> .
 
 <https://tropicos.org/reference/9002886#name-35167976> a tcs:TaxonConcept ;
     dcterms:title "Dicranoloma brevisetum var. samoanum sec. Tan & Koponen 1983" ;
@@ -231,14 +231,14 @@
             <https://tropicos.org/name/35122018> ,
             <https://tropicos.org/name/35186801> ;
     tcs:taxonRank <http://rs.gbif.org/vocabulary/gbif/rank/variety> ; 
-    tcs:parent <https://tropicos.org/reference/9006742#name-35121491> .
+    tcs:parentTaxonConcept <https://tropicos.org/reference/9006742#name-35121491> .
 
 <https://tropicos.org/reference/9002886#name-35167975> a tcs:TaxonConcept ;
     dcterms:title "Dicranoloma brevisetum f. nematosum sec. Tan & Koponen 1983" ;
     tcs:accordingTo <https://tropicos.org/reference/9002886> ;
     tcs:taxonName <https://tropicos.org/name/35167975> ;
     tcs:taxonRank <http://rs.gbif.org/vocabulary/gbif/rank/form> ; 
-    tcs:parent <https://tropicos.org/reference/9002886#name-35167976> .
+    tcs:parentTaxonConcept <https://tropicos.org/reference/9002886#name-35167976> .
 
 <https://tropicos.org/reference/9002886#name-35121509> a tcs:TaxonConcept ;
     dcterms:title "Dicranoloma daymannianum sec. Tan & Koponen 1983" ;

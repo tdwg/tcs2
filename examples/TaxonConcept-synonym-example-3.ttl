@@ -43,7 +43,7 @@
             tcs:nameString "Pterophorus oxydactylus" ;
             dwc:scientificNameAuthorship: "Walker, 1864"  ] ;
     tcs:taxonRank <http://rs.gbif.org/vocabulary/gbif/rank/species> ;
-    tcs:parent <https://www.catalogueoflife.org/data/taxon/62ZBY> .
+    tcs:parentTaxonConcept <https://www.catalogueoflife.org/data/taxon/62ZBY> .
 
 <https://zoobank.org/NomenclaturalActs/39b2f236-3914-4962-9dcc-f594671654bd> a tcs:TaxonName ;
     tcs:nameString "Pterophorus leucodactylus" ;
