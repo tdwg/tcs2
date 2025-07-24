@@ -31,14 +31,15 @@ Taxon Concept Standard Term List. Biodiversity Information Standards (TDWG).
 
 ### 1.1. Status of this document and its content
 
-While TCS is in public review everything in this document is preliminary. Once
-ratified, this **Introduction** will be informative and the **Namespace** and
-**Borrowed terms** sections normative. Within the **Vocabulary** section the
-Identifier, Type, Definition and Usage for terms are normative. The assignement
-of properties to classes is normative unless Usage says differently. For
-borrowed terms Usage is normative only in the sense that it specifies how the
-term should be used within TCS. All other parts, including Label, Comments and
-Examples, are informative.
+The **Introduction** in this document is informative and the **Namespace** and
+**Borrowed terms** sections are normative. Within the **Vocabulary** section the
+Identifier, Type, Definition and Usage for terms are normative. For borrowed
+terms Usage is normative only in the sense that it specifies how the term should
+be used within TCS. All other parts, including Label, Comments and Examples, are
+informative. The assignment of properties to classes is also informative,
+although most properties can only be reasonably used in the class in which they
+are organised. For the properties that can be used in more than one TCS class
+this has been indicated in the notes.
 
 ### 1.2. RFC keywords
 
@@ -172,7 +173,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 
 **Taxon Concept Mapping**
 
-[tcs:TaxonConceptMapping](#tcstaxonconceptmapping) | [tcs:mappingAccordingTo](#tcsmappingaccordingto) | [tcs:mappingRelation](#tcsmappingrelation) | [tcs:subjectTaxonConcept](#tcssubjecttaxonconcept) | [tcs:objectTaxonConcept](#tcsobjecttaxonconcept) | [dcterms:creator](#dctermscreator) | [dcterms:created](#dctermscreated)
+[tcs:TaxonConceptMapping](#tcstaxonconceptmapping) | [tcs:mappingAccordingTo](#tcsmappingaccordingto) | [tcs:mappingRelation](#tcsmappingrelation) | [tcs:subjectTaxonConcept](#tcssubjecttaxonconcept) | [tcs:objectTaxonConcept](#tcsobjecttaxonconcept)
 
 **Taxon Name**
 
@@ -180,7 +181,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 
 **Nomenclatural Type**
 
-[tcs:NomenclaturalType](#tcsnomenclaturaltype) | [tcs:typifiedName](#tcstypifiedname) | [tcs:typeOfType](#tcstypeoftype) | [tcs:typeName](#tcstypename) | [tcs:typeSpecimen](#tcstypespecimen) | [tcs:typePublishedIn](#tcstypepublishedin) | [dcterms:source](#dctermssource)
+[tcs:NomenclaturalType](#tcsnomenclaturaltype) | [tcs:typifiedName](#tcstypifiedname) | [tcs:typeOfType](#tcstypeoftype) | [tcs:typeName](#tcstypename) | [tcs:typeSpecimen](#tcstypespecimen) | [tcs:typePublishedIn](#tcstypepublishedin)
 
 ## 5. Vocabulary
 
@@ -607,7 +608,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		</tr>
 		<tr>
 			<td>Usage</td>
-			<td><p><code>taxonRank</code> is an IRI property; <code>taxonRank</code> MAY be used on TaxonConcept or TaxonName objects; a TaxonConcept or TaxonName MUST NOT have more than one <code>taxonRank</code>.</p></td>
+			<td><p><code>taxonRank</code> is an IRI property; a TaxonConcept or TaxonName MUST NOT have more than one <code>taxonRank</code>.</p></td>
 		</tr>
 		<tr>
 			<td></td>
@@ -616,7 +617,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		<tr>
 			<td>Comments</td>
 			<td><p>This property takes an object or IRI and it is RECOMMENDED to use a value from an existing controlled vocabulary. While there is no TDWG vocabulary yet, the GBIF Taxonomic Rank Vocabulary (https://rs.gbif.org/vocabulary/gbif/rank_2015-04-24.xml) is RECOMMENDED.</p>
-<p>A <code>TaxonName</code> takes its <code>taxonRank</code> from the <code>taxonConcept</code> it is applied to, so this property can also be used on a (stand-alone) <code>TaxonName</code> object.</p></td>
+<p>A taxon name takes its rank from the taxon it is applied to, so this property can also be used on a (stand-alone) <code>TaxonName</code> object.</p></td>
 		</tr>
 		<tr>
 			<td>GitHub issue</td>
@@ -1291,12 +1292,12 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 			<td><p>The full scientific name, with authorship and date information if known.  When forming part of an Identification, this should be the name in lowest  level taxonomic rank that can be determined. This term should not contain  identification qualifications, which should instead be supplied in the  IdentificationQualifier term.</p></td>
 		</tr>
 		<tr>
-			<td>Usage</td>
-			<td><p><code>scientificName</code> MAY be used in addition to the <code>taxonName</code> property on a Taxon Concept or the <code>nameString</code> property on a Taxon Name.</p></td>
-		</tr>
-		<tr>
 			<td></td>
 			<td><b>required:</b> No — <b>repeatable:</b> No</td>
+		</tr>
+		<tr>
+			<td>Comments</td>
+			<td><p><code>scientificName</code> can be used in addition to the <code>taxonName</code> property on a TaxonConcept object or the <code>nameString</code> property on a TaxonName object.</p></td>
 		</tr>
 		<tr>
 			<td>GitHub issue</td>
@@ -1357,12 +1358,12 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 			<td><p>The taxonomic rank of the most specific name in the dwc:scientificName as it appears in the original record.</p></td>
 		</tr>
 		<tr>
-			<td>Usage</td>
-			<td><p>This term MAY be used for taxonomic rank designations that are not in the controlled vocabulary that is used. Implementations MAY decide for themselves if it makes more sense to use this term on a Taxon Concept object or a Taxon Name object, or both.</p></td>
-		</tr>
-		<tr>
 			<td></td>
 			<td><b>required:</b> No — <b>repeatable:</b> No</td>
+		</tr>
+		<tr>
+			<td>Comments</td>
+			<td><p>This term may be used for taxonomic rank designations that are not in the controlled vocabulary that is used. Implementations can decide for themselves if it makes more sense to use this term on a TaxonConcept object or a TaxonName object, or both.</p></td>
 		</tr>
 		<tr>
 			<td>GitHub issue</td>
@@ -1655,84 +1656,6 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		<tr>
 			<td>GitHub issue</td>
 			<td>https://github.com/tdwg/tcs2/issues/46</td>
-		</tr>
-	</tbody>
-</table>
-
-#### dcterms:creator
-
-<table style="width:100%;">
-	<tbody>
-		<tr>
-			<td>Identifier</td>
-			<td>http://purl.org/dc/terms/creator</td>
-		</tr>
-		<tr>
-			<td>Type</td>
-			<td>http://www.w3.org/1999/02/22-rdf-syntax-ns#Property</td>
-		</tr>
-		<tr>
-			<td>Label</td>
-			<td>Creator</td>
-		</tr>
-		<tr>
-			<td>Definition</td>
-			<td><p>An entity primarily responsible for making the resource.</p></td>
-		</tr>
-		<tr>
-			<td>Usage</td>
-			<td><p>While assigned to the <code>TaxonConceptMapping</code> class, <code>dcterms:creator</code> MAY also be used as a property on a <code>NomenclaturalType</code> object.</p></td>
-		</tr>
-		<tr>
-			<td></td>
-			<td><b>required:</b> No — <b>repeatable:</b> Yes</td>
-		</tr>
-		<tr>
-			<td>Comments</td>
-			<td><p><code>dcterms:creator</code> can be used in combination with <code>dcterms:created</code> as an alternative to <code>mappingAccordingTo</code>.</p></td>
-		</tr>
-		<tr>
-			<td>GitHub issue</td>
-			<td>https://github.com/tdwg/tcs2/issues/47</td>
-		</tr>
-	</tbody>
-</table>
-
-#### dcterms:created
-
-<table style="width:100%;">
-	<tbody>
-		<tr>
-			<td>Identifier</td>
-			<td>http://purl.org/dc/terms/created</td>
-		</tr>
-		<tr>
-			<td>Type</td>
-			<td>http://www.w3.org/1999/02/22-rdf-syntax-ns#Property</td>
-		</tr>
-		<tr>
-			<td>Label</td>
-			<td>Created</td>
-		</tr>
-		<tr>
-			<td>Definition</td>
-			<td><p>Date of creation of the resource.</p></td>
-		</tr>
-		<tr>
-			<td>Usage</td>
-			<td><p>While assigned to the <code>TaxonConceptMapping</code> class, <code>dcterms:created</code> MAY also be used as a property on a <code>NomenclaturalType</code> object.</p></td>
-		</tr>
-		<tr>
-			<td></td>
-			<td><b>required:</b> No — <b>repeatable:</b> No</td>
-		</tr>
-		<tr>
-			<td>Comments</td>
-			<td><p><code>dcterms:created</code> can be used in combination with <code>dcterms:creator</code> as an alternative to <code>mappingAccordingTo</code>.</p></td>
-		</tr>
-		<tr>
-			<td>GitHub issue</td>
-			<td>https://github.com/tdwg/tcs2/issues/47</td>
 		</tr>
 	</tbody>
 </table>
@@ -3432,41 +3355,6 @@ _:b1 a rdf:Seq ;
 		<tr>
 			<td>GitHub issue</td>
 			<td>https://github.com/tdwg/tcs2/issues/63</td>
-		</tr>
-	</tbody>
-</table>
-
-#### dcterms:source
-
-<table style="width:100%;">
-	<tbody>
-		<tr>
-			<td>Identifier</td>
-			<td>http://purl.org/dc/terms/source</td>
-		</tr>
-		<tr>
-			<td>Type</td>
-			<td>http://www.w3.org/1999/02/22-rdf-syntax-ns#Property</td>
-		</tr>
-		<tr>
-			<td>Label</td>
-			<td>Source</td>
-		</tr>
-		<tr>
-			<td>Definition</td>
-			<td><p>A related resource from which the described resource is derived.</p></td>
-		</tr>
-		<tr>
-			<td></td>
-			<td><b>required:</b> No — <b>repeatable:</b> No</td>
-		</tr>
-		<tr>
-			<td>Comments</td>
-			<td><p><code>dcterms:source</code> can be used to indicate a publication, <em>e.g.</em> a taxonomic revision or a list of types, in which a nomenclatural type was cited.</p></td>
-		</tr>
-		<tr>
-			<td>GitHub issue</td>
-			<td>https://github.com/tdwg/tcs2/issues/47</td>
 		</tr>
 	</tbody>
 </table>

@@ -285,9 +285,8 @@
   label: Taxonomic Rank
   definition: The rank at which a taxon is classified.
   usage: >-
-    `taxonRank` is an IRI property; `taxonRank` MAY be used on TaxonConcept or
-    TaxonName objects; a TaxonConcept or TaxonName MUST NOT have more than one
-    `taxonRank`.
+    `taxonRank` is an IRI property; a TaxonConcept or TaxonName MUST NOT have
+    more than one `taxonRank`.
   notes: >-
     This property takes an object or IRI and it is RECOMMENDED to use a value
     from an existing controlled vocabulary. While there is no TDWG vocabulary
@@ -295,9 +294,8 @@
     (https://rs.gbif.org/vocabulary/gbif/rank_2015-04-24.xml) is RECOMMENDED.
 
 
-    A `TaxonName` takes its `taxonRank` from the `taxonConcept` it is
-    applied to, so this property can also be used on a (stand-alone) `TaxonName`
-    object.
+    A taxon name takes its rank from the taxon it is applied to, so this
+    property can also be used on a (stand-alone) `TaxonName` object.
   type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonConcept
   required: No
