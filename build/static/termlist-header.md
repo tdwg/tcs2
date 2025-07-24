@@ -37,7 +37,7 @@ Identifier, Type, Definition and Usage for terms are normative. For borrowed
 terms Usage is normative only in the sense that it specifies how the term should
 be used within TCS. All other parts, including Label, Comments and Examples, are
 informative. The assignment of properties to classes is also informative,
-although most properties can only be reasonably used in the class in which they
+although most properties can only reasonably be used in the class in which they
 are organised. For the properties that can be used in more than one TCS class
 this has been indicated in the notes.
 
