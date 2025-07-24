@@ -34,10 +34,11 @@ Taxon Concept Standard Term List. Biodiversity Information Standards (TDWG).
 While TCS is in public review everything in this document is preliminary. Once
 ratified, this **Introduction** will be informative and the **Namespace** and
 **Borrowed terms** sections normative. Within the **Vocabulary** section the
-Identifier, Type, Definition and Usage for terms are normative. For borrowed
-terms Usage is normative only in the sense that it specifies how the term should
-be used within TCS. All other parts, including Label, Comments and Examples, are
-informative.
+Identifier, Type, Definition and Usage for terms are normative. The assignement
+of properties to classes is normative unless Usage says differently. For
+borrowed terms Usage is normative only in the sense that it specifies how the
+term should be used within TCS. All other parts, including Label, Comments and
+Examples, are informative.
 
 ### 1.2. RFC keywords
 
