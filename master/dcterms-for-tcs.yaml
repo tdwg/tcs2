@@ -30,9 +30,12 @@
 - localName: creator
   label: Creator
   definition: An entity primarily responsible for making the resource.
-  usage: null
-  notes: >
-    `dcterms:creator` can be used in combination with `dcterms:created` as an alternative to `mappingAccordingTo`.
+  usage: >-
+    While assigned to the `TaxonConceptMapping` class, `dcterms:creator` MAY
+    also be used as a property on a `NomenclaturalType` object.
+  notes: >-
+    `dcterms:creator` can be used in combination with `dcterms:created` as an
+    alternative to `mappingAccordingTo`.
   type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonConceptMapping
   required: No
@@ -43,11 +46,28 @@
 - localName: created
   label: Created
   definition: Date of creation of the resource.
-  usage: null
-  notes: >
-    `dcterms:created` can be used in combination with `dcterms:creator` as an alternative to `mappingAccordingTo`.
+  usage: >-
+    While assigned to the `TaxonConceptMapping` class, `dcterms:created` MAY
+    also be used as a property on a `NomenclaturalType` object.
+  notes: >-
+    `dcterms:created` can be used in combination with `dcterms:creator` as an
+    alternative to `mappingAccordingTo`.
   type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonConceptMapping
+  required: No
+  repeatable: No
+  github: 47
+
+# source
+- localName: source
+  label: Source
+  definition: A related resource from which the described resource is derived.
+  usage: null
+  notes: >-
+    `dcterms:source` can be used to indicate a publication, _e.g._ a taxonomic
+    revision or a list of types, in which a nomenclatural type was cited.
+  type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+  organizedInClass: http://rs.tdwg.org/tcs/terms/NomenclaturalType
   required: No
   repeatable: No
   github: 47

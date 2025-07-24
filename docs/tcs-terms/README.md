@@ -179,7 +179,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 
 **Nomenclatural Type**
 
-[tcs:NomenclaturalType](#tcsnomenclaturaltype) | [tcs:typifiedName](#tcstypifiedname) | [tcs:typeOfType](#tcstypeoftype) | [tcs:typeName](#tcstypename) | [tcs:typeSpecimen](#tcstypespecimen) | [tcs:typePublishedIn](#tcstypepublishedin)
+[tcs:NomenclaturalType](#tcsnomenclaturaltype) | [tcs:typifiedName](#tcstypifiedname) | [tcs:typeOfType](#tcstypeoftype) | [tcs:typeName](#tcstypename) | [tcs:typeSpecimen](#tcstypespecimen) | [tcs:typePublishedIn](#tcstypepublishedin) | [dcterms:source](#dctermssource)
 
 ## 5. Vocabulary
 
@@ -377,7 +377,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		</tr>
 		<tr>
 			<td>Usage</td>
-			<td><p><code>taxonName</code> is an IRI term and is REQUIRED on a TCS Taxon Concept. A Taxon  Concept can only have one <code>taxonName</code>.</p></td>
+			<td><p><code>taxonName</code> is an IRI term and is REQUIRED on a TCS TaxonConcept. A TaxonConcept MUST NOT have more than one <code>taxonName</code>.</p></td>
 		</tr>
 		<tr>
 			<td></td>
@@ -606,7 +606,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		</tr>
 		<tr>
 			<td>Usage</td>
-			<td><p><code>taxonRank</code> is an IRI property; a Taxon Concept or Taxon Name can have only one <code>taxonRank</code>.</p></td>
+			<td><p><code>taxonRank</code> is an IRI property; <code>taxonRank</code> MAY be used on TaxonConcept or TaxonName objects; a TaxonConcept or TaxonName MUST NOT have more than one <code>taxonRank</code>.</p></td>
 		</tr>
 		<tr>
 			<td></td>
@@ -1291,7 +1291,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		</tr>
 		<tr>
 			<td>Usage</td>
-			<td><p><code>scientificName</code> can be used in addition to the <code>taxonName</code> property on a Taxon Concept or the <code>nameString</code> property on a Taxon Name.</p></td>
+			<td><p><code>scientificName</code> MAY be used in addition to the <code>taxonName</code> property on a Taxon Concept or the <code>nameString</code> property on a Taxon Name.</p></td>
 		</tr>
 		<tr>
 			<td></td>
@@ -1356,12 +1356,12 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 			<td><p>The taxonomic rank of the most specific name in the dwc:scientificName as it appears in the original record.</p></td>
 		</tr>
 		<tr>
-			<td></td>
-			<td><b>required:</b> No — <b>repeatable:</b> No</td>
+			<td>Usage</td>
+			<td><p>This term MAY be used for taxonomic rank designations that are not in the controlled vocabulary that is used. Implementations MAY decide for themselves if it makes more sense to use this term on a Taxon Concept object or a Taxon Name object, or both.</p></td>
 		</tr>
 		<tr>
-			<td>Comments</td>
-			<td><p>This term can be used for taxonomic rank designations that are not in the controlled vocabulary that is used. Implementations can decide for themselves if it makes more sense to use this term on a Taxon Concept object or a Taxon Name object, or both.</p></td>
+			<td></td>
+			<td><b>required:</b> No — <b>repeatable:</b> No</td>
 		</tr>
 		<tr>
 			<td>GitHub issue</td>
@@ -1679,6 +1679,10 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 			<td><p>An entity primarily responsible for making the resource.</p></td>
 		</tr>
 		<tr>
+			<td>Usage</td>
+			<td><p>While assigned to the <code>TaxonConceptMapping</code> class, <code>dcterms:creator</code> MAY also be used as a property on a <code>NomenclaturalType</code> object.</p></td>
+		</tr>
+		<tr>
 			<td></td>
 			<td><b>required:</b> No — <b>repeatable:</b> Yes</td>
 		</tr>
@@ -1712,6 +1716,10 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		<tr>
 			<td>Definition</td>
 			<td><p>Date of creation of the resource.</p></td>
+		</tr>
+		<tr>
+			<td>Usage</td>
+			<td><p>While assigned to the <code>TaxonConceptMapping</code> class, <code>dcterms:created</code> MAY also be used as a property on a <code>NomenclaturalType</code> object.</p></td>
 		</tr>
 		<tr>
 			<td></td>
@@ -3371,7 +3379,7 @@ _:b1 a rdf:Seq ;
 		</tr>
 		<tr>
 			<td>Usage</td>
-			<td><p><code>typeSpecimen</code> takes an IRI – or object – that refers to a specimen. A  Nomenclatural Type can only have one <code>typeSpecimen</code>.</p></td>
+			<td><p><code>typeSpecimen</code> takes an IRI – or object – that refers to a specimen. A  NomenclaturalType MUST NOT have more than one <code>typeSpecimen</code>.</p></td>
 		</tr>
 		<tr>
 			<td></td>
@@ -3423,6 +3431,41 @@ _:b1 a rdf:Seq ;
 		<tr>
 			<td>GitHub issue</td>
 			<td>https://github.com/tdwg/tcs2/issues/63</td>
+		</tr>
+	</tbody>
+</table>
+
+#### dcterms:source
+
+<table style="width:100%;">
+	<tbody>
+		<tr>
+			<td>Identifier</td>
+			<td>http://purl.org/dc/terms/source</td>
+		</tr>
+		<tr>
+			<td>Type</td>
+			<td>http://www.w3.org/1999/02/22-rdf-syntax-ns#Property</td>
+		</tr>
+		<tr>
+			<td>Label</td>
+			<td>Source</td>
+		</tr>
+		<tr>
+			<td>Definition</td>
+			<td><p>A related resource from which the described resource is derived.</p></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td><b>required:</b> No — <b>repeatable:</b> No</td>
+		</tr>
+		<tr>
+			<td>Comments</td>
+			<td><p><code>dcterms:source</code> can be used to indicate a publication, <em>e.g.</em> a taxonomic revision or a list of types, in which a nomenclatural type was cited.</p></td>
+		</tr>
+		<tr>
+			<td>GitHub issue</td>
+			<td>https://github.com/tdwg/tcs2/issues/47</td>
 		</tr>
 	</tbody>
 </table>

@@ -12,7 +12,7 @@
     identification qualifications, which should instead be supplied in the 
     IdentificationQualifier term.
   usage: >-
-    `scientificName` can be used in addition to the `taxonName` property on a
+    `scientificName` MAY be used in addition to the `taxonName` property on a
     Taxon Concept or the `nameString` property on a Taxon Name.
   notes: null
   examples: null
@@ -116,12 +116,12 @@
   definition: >-
     The taxonomic rank of the most specific name in the dwc:scientificName as it
     appears in the original record.
-  usage: 
-  notes: >-
-    This term can be used for taxonomic rank designations that are not in the
-    controlled vocabulary that is used. Implementations can decide for
+  usage: >-
+    This term MAY be used for taxonomic rank designations that are not in the
+    controlled vocabulary that is used. Implementations MAY decide for
     themselves if it makes more sense to use this term on a Taxon Concept object
     or a Taxon Name object, or both.
+  notes: null
   examples: null
   type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonConcept
