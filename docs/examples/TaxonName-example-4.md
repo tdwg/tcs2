@@ -1,0 +1,21 @@
+# TaxonName-example-4
+
+```turtle
+# Example from TCS 1
+<https://ipni.org/n/50985479-1> a tcs:TaxonName ;
+    tcs:nomenclaturalCode <http://rs.gbif.org/vocabulary/gbif/nomenclatural_code/ICN> ;
+    tcs:taxonomicNameString "Rhododendron sect. Sciadorhodion" ;
+    dwc:scientificNameAuthorship "Rehder & Wilson" ;
+    dwc:namePublishedIn "Monogr. Azaleas 79 (1921)" ;
+    tcs:namePublishedIn [ a bibo:Book ;
+        dcterms:bibliographicCitation """Wilson, E.H. & Rehder, A. (1921). A 
+                monograph of the azaleas. Publication of the Arnold Arboretum 
+                No. 9 Harvard University, Cambridge MA.""" ] ;
+    tcs:microReference "79" ;
+    dwc:namePublishedInYear "1921" ;
+    dwc:genericName "Rhododendron" ;
+    dwc:infragenericName "Sciadorhodion" .
+```
+
+[&lsqb;TaxonName-example-4.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonName-example-4.ttl)&nbsp;[&lsqb;TaxonName-example-4.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonName-example-4.jsonld)
+

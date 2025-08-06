@@ -241,22 +241,26 @@ def term_table(term):
     if 'examples' in term: 
         if isinstance(term['examples'], list):
             examples = []
-            for ex in term['examples']:
-                links = add_links(ex)
-                examples.append(links)
+            # for ex in term['examples']:
+            #     links = add_links(ex)
+            #     examples.append(links)
             
-            examples_text = ''
-            for idx, ex in enumerate(term['examples']):
-                if idx == 0:
-                    examples_text += '\n'
-                    examples_text += add_example(ex, False)
-                    examples_text += '\n'
-            examples_text += '\n'.join(examples)
-                    
+            # examples_text = ''
+            # for idx, ex in enumerate(term['examples']):
+            #     if idx == 0:
+            #         examples_text += '\n'
+            #         examples_text += add_example(ex, False)
+            #         examples_text += '\n'
+            # examples_text += '\n'.join(examples)
+
+            for ex in term['examples']:
+                examples.append(add_example_link(ex))
+            examples_text = '\n'.join(examples) 
                 
             text += table_row([
                 table_cell('Examples'),
-                table_cell(examples_text)
+                # table_cell(examples_text)
+                table_cell(f"\n\n{examples_text}\n\n")
             ])
         elif isinstance(term['examples'], str):
             with open('../examples/' + term['examples'], 'r') as f:
@@ -296,6 +300,9 @@ def add_links(ex):
     text = '[&lsqb;' + ex + '.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/' + ex + '.ttl)&nbsp;'
     text += '[&lsqb;' + ex + '.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/' + ex + '.jsonld)\n\n'
     return text
+
+def add_example_link(ex):
+    return f"- [{ex}](../examples/{ex}.md)\n"
     
 
 
