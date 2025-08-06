@@ -272,12 +272,12 @@ def term_table(term):
                 
 
     # Github issue
-    if 'github' in term and not pd.isna(term['github']):
-        text += table_row([
-            table_cell('GitHub issue'),
-            table_cell(
-                'https://github.com/tdwg/tcs2/issues/{github}'.format(github=int(term['github'])))
-        ])
+    # if 'github' in term and not pd.isna(term['github']):
+    #     text += table_row([
+    #         table_cell('GitHub issue'),
+    #         table_cell(
+    #             'https://github.com/tdwg/tcs2/issues/{github}'.format(github=int(term['github'])))
+    #     ])
 
     text += '\t</tbody>\n'
     text += '</table>\n\n'

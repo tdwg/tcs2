@@ -238,10 +238,6 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 
 </td>
 		</tr>
-		<tr>
-			<td>GitHub issue</td>
-			<td>https://github.com/tdwg/tcs2/issues/213</td>
-		</tr>
 	</tbody>
 </table>
 
@@ -291,10 +287,6 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 
 </td>
 		</tr>
-		<tr>
-			<td>GitHub issue</td>
-			<td>https://github.com/tdwg/tcs2/issues/4</td>
-		</tr>
 	</tbody>
 </table>
 
@@ -330,10 +322,6 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 			<td>Comments</td>
 			<td><p>The <code>taxonName</code> can be anything from a well-formed scientific name to an  informal name, vernacular name, indigenous knowledge label, or even a label  containing numbers and/or special symbols, such as are often used for OTUs. </p>
 <p>The object of <code>taxonName</code> is an object or IRI, so that it can be reused in  other Taxon Concepts. TCS has got the Taxon Name class, which can be used  for any type of name, but people are free to use alternatives, e.g.  <code>skosxl:Label</code>, if they want to restrict the use of the Taxon Name class to  scientific (or scientific-y) names only.</p></td>
-		</tr>
-		<tr>
-			<td>GitHub issue</td>
-			<td>https://github.com/tdwg/tcs2/issues/2</td>
 		</tr>
 	</tbody>
 </table>
@@ -384,10 +372,6 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 
 </td>
 		</tr>
-		<tr>
-			<td>GitHub issue</td>
-			<td>https://github.com/tdwg/tcs2/issues/65</td>
-		</tr>
 	</tbody>
 </table>
 
@@ -436,10 +420,6 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 
 </td>
 		</tr>
-		<tr>
-			<td>GitHub issue</td>
-			<td>https://github.com/tdwg/tcs2/issues/10</td>
-		</tr>
 	</tbody>
 </table>
 
@@ -475,10 +455,6 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 			<td>Comments</td>
 			<td><p>This property takes an object or IRI and it is RECOMMENDED to use a value from an existing controlled vocabulary. While there is no TDWG vocabulary yet, the GBIF Taxonomic Rank Vocabulary (https://rs.gbif.org/vocabulary/gbif/rank_2015-04-24.xml) is RECOMMENDED.</p>
 <p>A taxon name takes its rank from the taxon it is applied to, so this property can also be used on a (stand-alone) <code>TaxonName</code> object.</p></td>
-		</tr>
-		<tr>
-			<td>GitHub issue</td>
-			<td>https://github.com/tdwg/tcs2/issues/32</td>
 		</tr>
 	</tbody>
 </table>
@@ -524,10 +500,6 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 
 </td>
 		</tr>
-		<tr>
-			<td>GitHub issue</td>
-			<td>https://github.com/tdwg/tcs2/issues/9</td>
-		</tr>
 	</tbody>
 </table>
 
@@ -571,10 +543,6 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 
 
 </td>
-		</tr>
-		<tr>
-			<td>GitHub issue</td>
-			<td>https://github.com/tdwg/tcs2/issues/232</td>
 		</tr>
 	</tbody>
 </table>
@@ -628,10 +596,6 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 
 </td>
 		</tr>
-		<tr>
-			<td>GitHub issue</td>
-			<td>https://github.com/tdwg/tcs2/issues/52</td>
-		</tr>
 	</tbody>
 </table>
 
@@ -681,10 +645,6 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 
 
 </td>
-		</tr>
-		<tr>
-			<td>GitHub issue</td>
-			<td>https://github.com/tdwg/tcs2/issues/53</td>
 		</tr>
 	</tbody>
 </table>
@@ -736,10 +696,6 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 
 </td>
 		</tr>
-		<tr>
-			<td>GitHub issue</td>
-			<td>https://github.com/tdwg/tcs2/issues/54</td>
-		</tr>
 	</tbody>
 </table>
 
@@ -790,10 +746,6 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 
 </td>
 		</tr>
-		<tr>
-			<td>GitHub issue</td>
-			<td>https://github.com/tdwg/tcs2/issues/55</td>
-		</tr>
 	</tbody>
 </table>
 
@@ -843,10 +795,6 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 
 
 </td>
-		</tr>
-		<tr>
-			<td>GitHub issue</td>
-			<td>https://github.com/tdwg/tcs2/issues/56</td>
 		</tr>
 	</tbody>
 </table>
@@ -899,10 +847,6 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 
 </td>
 		</tr>
-		<tr>
-			<td>GitHub issue</td>
-			<td>https://github.com/tdwg/tcs2/issues/57</td>
-		</tr>
 	</tbody>
 </table>
 
@@ -934,10 +878,6 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 			<td>Comments</td>
 			<td><p><code>scientificName</code> can be used in addition to the <code>taxonName</code> property on a TaxonConcept object or the <code>nameString</code> property on a TaxonName object.</p></td>
 		</tr>
-		<tr>
-			<td>GitHub issue</td>
-			<td>https://github.com/tdwg/tcs2/issues/17</td>
-		</tr>
 	</tbody>
 </table>
 
@@ -964,10 +904,6 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		<tr>
 			<td></td>
 			<td><b>required:</b> No — <b>repeatable:</b> No</td>
-		</tr>
-		<tr>
-			<td>GitHub issue</td>
-			<td>https://github.com/tdwg/tcs2/issues/235</td>
 		</tr>
 	</tbody>
 </table>
@@ -999,10 +935,6 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		<tr>
 			<td>Comments</td>
 			<td><p>This term may be used for taxonomic rank designations that are not in the controlled vocabulary that is used. Implementations can decide for themselves if it makes more sense to use this term on a TaxonConcept object or a TaxonName object, or both.</p></td>
-		</tr>
-		<tr>
-			<td>GitHub issue</td>
-			<td>https://github.com/tdwg/tcs2/issues/6</td>
 		</tr>
 	</tbody>
 </table>
@@ -1045,10 +977,6 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 <li><code>Circus cyaneus sec. Howard &amp; Moore 2013</code></li>
 <li><code>Circus [cyaneus or hudsonius] sec. AviBase #82745BAA</code></li>
 </ul></td>
-		</tr>
-		<tr>
-			<td>GitHub issue</td>
-			<td>https://github.com/tdwg/tcs2/issues/222</td>
 		</tr>
 	</tbody>
 </table>
@@ -1114,10 +1042,6 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 
 </td>
 		</tr>
-		<tr>
-			<td>GitHub issue</td>
-			<td>https://github.com/tdwg/tcs2/issues/43</td>
-		</tr>
 	</tbody>
 </table>
 
@@ -1149,10 +1073,6 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 			<td></td>
 			<td><b>required:</b> No — <b>repeatable:</b> No</td>
 		</tr>
-		<tr>
-			<td>GitHub issue</td>
-			<td>https://github.com/tdwg/tcs2/issues/47</td>
-		</tr>
 	</tbody>
 </table>
 
@@ -1183,10 +1103,6 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		<tr>
 			<td></td>
 			<td><b>required:</b> Yes — <b>repeatable:</b> No</td>
-		</tr>
-		<tr>
-			<td>GitHub issue</td>
-			<td>https://github.com/tdwg/tcs2/issues/44</td>
 		</tr>
 	</tbody>
 </table>
@@ -1223,10 +1139,6 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 			<td>Comments</td>
 			<td><p>This is the Taxon Concept at the left-hand side of the statement.</p></td>
 		</tr>
-		<tr>
-			<td>GitHub issue</td>
-			<td>https://github.com/tdwg/tcs2/issues/45</td>
-		</tr>
 	</tbody>
 </table>
 
@@ -1261,10 +1173,6 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		<tr>
 			<td>Comments</td>
 			<td><p>This is the Taxon Concept at the right-hand side of the statement.</p></td>
-		</tr>
-		<tr>
-			<td>GitHub issue</td>
-			<td>https://github.com/tdwg/tcs2/issues/46</td>
 		</tr>
 	</tbody>
 </table>
@@ -1314,10 +1222,6 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 
 </td>
 		</tr>
-		<tr>
-			<td>GitHub issue</td>
-			<td>https://github.com/tdwg/tcs2/issues/15</td>
-		</tr>
 	</tbody>
 </table>
 
@@ -1353,10 +1257,6 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 			<td>Comments</td>
 			<td><p>The <code>nameString</code> property differs from the <code>scientificName</code> property  in Darwin Core in that all kinds of names are allowed. Also, in the case of  scientific names, contrary to the <code>dwc:scientificName</code>, <code>nameString</code>  does not include the authorship. In botanical names, it does include the  rank prefixes for infrageneric and infraspecific epithets as they are  considered part of the name.</p></td>
 		</tr>
-		<tr>
-			<td>GitHub issue</td>
-			<td>https://github.com/tdwg/tcs2/issues/16</td>
-		</tr>
 	</tbody>
 </table>
 
@@ -1387,10 +1287,6 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		<tr>
 			<td>Comments</td>
 			<td><p>In botany, this would be the protologue. This is the IRI counterpart of  the Darwin Core <code>namePublishedIn</code>, which TCS borrows.</p></td>
-		</tr>
-		<tr>
-			<td>GitHub issue</td>
-			<td>https://github.com/tdwg/tcs2/issues/29</td>
 		</tr>
 	</tbody>
 </table>
@@ -1427,10 +1323,6 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 			<td>Comments</td>
 			<td><p>In taxonomic works it is convention to cite the exact location in a work  where a new name is published. The <code>microreference</code> property lets one do  that on the Taxon Name object, so that the <code>namePublishedIn</code> reference can  be reused.</p></td>
 		</tr>
-		<tr>
-			<td>GitHub issue</td>
-			<td>https://github.com/tdwg/tcs2/issues/30</td>
-		</tr>
 	</tbody>
 </table>
 
@@ -1466,10 +1358,6 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 			<td>Comments</td>
 			<td><p>This is the IRI equivalent of the Darwin Core <code>nomenclaturalCode</code>. In the  absence of a TDWG vocabulary, it is RECOMMENDED to use a value from the GBIF  Nomenclatural Codes Vocabulary  (https://rs.gbif.org/vocabulary/gbif/nomenclatural_code.xml).</p></td>
 		</tr>
-		<tr>
-			<td>GitHub issue</td>
-			<td>https://github.com/tdwg/tcs2/issues/33</td>
-		</tr>
 	</tbody>
 </table>
 
@@ -1504,10 +1392,6 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		<tr>
 			<td>Comments</td>
 			<td><p>This is the IRI equivalent of the Darwin Core <code>nomenclaturalStatus</code>. In the  absence of a TDWG vocabulary, it is RECOMMENDED to use a value from the GBIF  Nomenclatural Status Vocabulary  (https://rs.gbif.org/vocabulary/gbif/nomenclatural_status_2019-02-08.xml).</p></td>
-		</tr>
-		<tr>
-			<td>GitHub issue</td>
-			<td>https://github.com/tdwg/tcs2/issues/35</td>
 		</tr>
 	</tbody>
 </table>
@@ -1555,10 +1439,6 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 
 </td>
 		</tr>
-		<tr>
-			<td>GitHub issue</td>
-			<td>https://github.com/tdwg/tcs2/issues/238</td>
-		</tr>
 	</tbody>
 </table>
 
@@ -1593,10 +1473,6 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		<tr>
 			<td>Comments</td>
 			<td><p>The <code>typificationLiteral</code> property can be used for citation of a type (or types) as written in the publication in which the typified name was published. </p></td>
-		</tr>
-		<tr>
-			<td>GitHub issue</td>
-			<td>https://github.com/tdwg/tcs2/issues/223</td>
 		</tr>
 	</tbody>
 </table>
@@ -1643,10 +1519,6 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 
 
 </td>
-		</tr>
-		<tr>
-			<td>GitHub issue</td>
-			<td>https://github.com/tdwg/tcs2/issues/36</td>
 		</tr>
 	</tbody>
 </table>
@@ -1698,10 +1570,6 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 
 </td>
 		</tr>
-		<tr>
-			<td>GitHub issue</td>
-			<td>https://github.com/tdwg/tcs2/issues/37</td>
-		</tr>
 	</tbody>
 </table>
 
@@ -1737,10 +1605,6 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 			<td>Comments</td>
 			<td><p>The <code>basedOn</code> property can be used to associate a name to a homotypic group of names in situations where the <code>basionym</code> and <code>replacedName</code> properties cannot be used. Therefore the property can be useful for (1) linking an autonym to a species name, (2) linking a valid name to an earlier invalid name and (3) linking an invalid name to a later valid name.</p></td>
 		</tr>
-		<tr>
-			<td>GitHub issue</td>
-			<td>https://github.com/tdwg/tcs2/issues/38</td>
-		</tr>
 	</tbody>
 </table>
 
@@ -1775,10 +1639,6 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		<tr>
 			<td>Comments</td>
 			<td><p>If there are more than two homonyms, the oldest name SHOULD be given here. In zoology, this is the <em>senior homonym</em>.</p></td>
-		</tr>
-		<tr>
-			<td>GitHub issue</td>
-			<td>https://github.com/tdwg/tcs2/issues/229</td>
 		</tr>
 	</tbody>
 </table>
@@ -1824,10 +1684,6 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 
 </td>
 		</tr>
-		<tr>
-			<td>GitHub issue</td>
-			<td>https://github.com/tdwg/tcs2/issues/39</td>
-		</tr>
 	</tbody>
 </table>
 
@@ -1872,10 +1728,6 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 
 </td>
 		</tr>
-		<tr>
-			<td>GitHub issue</td>
-			<td>https://github.com/tdwg/tcs2/issues/239</td>
-		</tr>
 	</tbody>
 </table>
 
@@ -1910,10 +1762,6 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		<tr>
 			<td>Comments</td>
 			<td><p>'combination' is taken here to be a different name with the same nomenclatural type.</p></td>
-		</tr>
-		<tr>
-			<td>GitHub issue</td>
-			<td>https://github.com/tdwg/tcs2/issues/239</td>
 		</tr>
 	</tbody>
 </table>
@@ -1959,10 +1807,6 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 
 </td>
 		</tr>
-		<tr>
-			<td>GitHub issue</td>
-			<td>https://github.com/tdwg/tcs2/issues/239</td>
-		</tr>
 	</tbody>
 </table>
 
@@ -1997,10 +1841,6 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		<tr>
 			<td>Comments</td>
 			<td><p><code>basionymAuthorLiteral</code> is the bit in parentheses in the <code>dwc:scientificNameAuthorship</code>.</p></td>
-		</tr>
-		<tr>
-			<td>GitHub issue</td>
-			<td>https://github.com/tdwg/tcs2/issues/239</td>
 		</tr>
 	</tbody>
 </table>
@@ -2046,10 +1886,6 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 
 </td>
 		</tr>
-		<tr>
-			<td>GitHub issue</td>
-			<td>https://github.com/tdwg/tcs2/issues/239</td>
-		</tr>
 	</tbody>
 </table>
 
@@ -2084,10 +1920,6 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		<tr>
 			<td>Comments</td>
 			<td><p>'Ascribed author' is a person (or group of people) who a name is ascribed to in a publication, but who is not the author of the name according to the rules of the nomenclatural codes, because they did not contribute to the validating description of the name. In the <code>dwc:scientificNameAuthorship</code> these authors are indicated with 'ex', the ascribed author coming before the 'ex' and the author the name is attributed to after. Note that the 'ex' construction that is sometimes used with zoological names has got nothing to do with attribution or ascription, but is used to indicate a concept, much like we do here with 'sec.' or 'sensu' in taxon concept labels.</p></td>
-		</tr>
-		<tr>
-			<td>GitHub issue</td>
-			<td>https://github.com/tdwg/tcs2/issues/239</td>
 		</tr>
 	</tbody>
 </table>
@@ -2133,10 +1965,6 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 
 </td>
 		</tr>
-		<tr>
-			<td>GitHub issue</td>
-			<td>https://github.com/tdwg/tcs2/issues/239</td>
-		</tr>
 	</tbody>
 </table>
 
@@ -2172,10 +2000,6 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 			<td>Comments</td>
 			<td><p>'Ascribed author' is a person (or group of people) who a name is ascribed to in a publication, but who is not the author of the name according to the rules of the nomenclatural codes, because they did not contribute to the validating description of the name. In the <code>dwc:scientificNameAuthorship</code> these authors are indicated with 'ex', the ascribed author coming before the 'ex' and the author the name is attributed to after. Note that the 'ex' construction that is sometimes used with zoological names has got nothing to do with attribution or ascription, but is used to indicate a concept, much like we do here with 'sec.' or 'sensu' in taxon concept labels.</p></td>
 		</tr>
-		<tr>
-			<td>GitHub issue</td>
-			<td>https://github.com/tdwg/tcs2/issues/239</td>
-		</tr>
 	</tbody>
 </table>
 
@@ -2206,10 +2030,6 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		<tr>
 			<td></td>
 			<td><b>required:</b> No — <b>repeatable:</b> No</td>
-		</tr>
-		<tr>
-			<td>GitHub issue</td>
-			<td>https://github.com/tdwg/tcs2/issues/24</td>
 		</tr>
 	</tbody>
 </table>
@@ -2242,10 +2062,6 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 			<td>Comments</td>
 			<td><p>This is the string equivalent of the TCS <code>namePublishedIn</code>. It can be used if one wants to give the protologue as a string, as in many botanical publications.</p></td>
 		</tr>
-		<tr>
-			<td>GitHub issue</td>
-			<td>https://github.com/tdwg/tcs2/issues/237</td>
-		</tr>
 	</tbody>
 </table>
 
@@ -2276,10 +2092,6 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		<tr>
 			<td></td>
 			<td><b>required:</b> No — <b>repeatable:</b> No</td>
-		</tr>
-		<tr>
-			<td>GitHub issue</td>
-			<td>https://github.com/tdwg/tcs2/issues/31</td>
 		</tr>
 	</tbody>
 </table>
@@ -2312,10 +2124,6 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 			<td></td>
 			<td><b>required:</b> No — <b>repeatable:</b> No</td>
 		</tr>
-		<tr>
-			<td>GitHub issue</td>
-			<td>https://github.com/tdwg/tcs2/issues/19</td>
-		</tr>
 	</tbody>
 </table>
 
@@ -2346,10 +2154,6 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		<tr>
 			<td></td>
 			<td><b>required:</b> No — <b>repeatable:</b> No</td>
-		</tr>
-		<tr>
-			<td>GitHub issue</td>
-			<td>https://github.com/tdwg/tcs2/issues/20</td>
 		</tr>
 	</tbody>
 </table>
@@ -2382,10 +2186,6 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 			<td></td>
 			<td><b>required:</b> No — <b>repeatable:</b> No</td>
 		</tr>
-		<tr>
-			<td>GitHub issue</td>
-			<td>https://github.com/tdwg/tcs2/issues/21</td>
-		</tr>
 	</tbody>
 </table>
 
@@ -2417,10 +2217,6 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 			<td></td>
 			<td><b>required:</b> No — <b>repeatable:</b> No</td>
 		</tr>
-		<tr>
-			<td>GitHub issue</td>
-			<td>https://github.com/tdwg/tcs2/issues/22</td>
-		</tr>
 	</tbody>
 </table>
 
@@ -2451,10 +2247,6 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		<tr>
 			<td></td>
 			<td><b>required:</b> No — <b>repeatable:</b> No</td>
-		</tr>
-		<tr>
-			<td>GitHub issue</td>
-			<td>https://github.com/tdwg/tcs2/issues/23</td>
 		</tr>
 	</tbody>
 </table>
@@ -2498,10 +2290,6 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 
 </td>
 		</tr>
-		<tr>
-			<td>GitHub issue</td>
-			<td>https://github.com/tdwg/tcs2/issues/58</td>
-		</tr>
 	</tbody>
 </table>
 
@@ -2536,10 +2324,6 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		<tr>
 			<td>Comments</td>
 			<td><p>The <code>typifiedName</code> property links the Nomenclatural Type back to the Taxon  Name. Also, when coming from the Preserved Specimen, the typified name is  the most important piece of information, because there is no point in  knowing what kind of type a specimen is without knowing for what name it  is the type. Therefore, <code>typifiedName</code> is a REQUIRED property.</p></td>
-		</tr>
-		<tr>
-			<td>GitHub issue</td>
-			<td>https://github.com/tdwg/tcs2/issues/59</td>
 		</tr>
 	</tbody>
 </table>
@@ -2576,10 +2360,6 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 			<td>Comments</td>
 			<td><p>This is an IRI property. In the absence of a TDWG controlled vocabulary,  it is RECOMMENDED to use a value from the GBIF Nomenclatural Type Status  Vocabulary (https://rs.gbif.org/vocabulary/gbif/type_status_2021-01-18.xml).</p></td>
 		</tr>
-		<tr>
-			<td>GitHub issue</td>
-			<td>https://github.com/tdwg/tcs2/issues/60</td>
-		</tr>
 	</tbody>
 </table>
 
@@ -2614,10 +2394,6 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		<tr>
 			<td>Comments</td>
 			<td><p>Taxon names at ranks above species level can be typified by the name of a  lower taxon. Ultimately, by following the chain of type names, all names  resolve to a type species and thus a type specimen. </p></td>
-		</tr>
-		<tr>
-			<td>GitHub issue</td>
-			<td>https://github.com/tdwg/tcs2/issues/61</td>
 		</tr>
 	</tbody>
 </table>
@@ -2654,10 +2430,6 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 			<td>Comments</td>
 			<td><p>Names at ranks of species and below are typified by a specimen. This property is mutually exclusive with <code>typeName</code>. This is an IRI property. One could use the Darwin Core Preserved Specimen or Material Citation. While a Taxon Name can have more than one type specimens, each of these type specimens requires its own Nomenclatural Type record, so a Nomenclatural Type can have only one <code>typeSpecimen</code>.</p></td>
 		</tr>
-		<tr>
-			<td>GitHub issue</td>
-			<td>https://github.com/tdwg/tcs2/issues/62</td>
-		</tr>
 	</tbody>
 </table>
 
@@ -2692,10 +2464,6 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		<tr>
 			<td>Comments</td>
 			<td><p><code>typePublishedIn</code> is relevant for lectotypes, neotypes, epitypes and  conserved types. For other kinds of type the publication where the type is  designated is the publication the name was published in.</p></td>
-		</tr>
-		<tr>
-			<td>GitHub issue</td>
-			<td>https://github.com/tdwg/tcs2/issues/63</td>
 		</tr>
 	</tbody>
 </table>
