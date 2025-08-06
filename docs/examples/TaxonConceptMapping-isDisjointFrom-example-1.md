@@ -1,4 +1,4 @@
-# TaxonConceptMapping-isDisjointFrom-example-1
+# TaxonConceptMapping isDisjointFrom example 1
 
 ```turtle
 # Andropogon glaucopsis sec. BONAP 2014 is disjoint from Andropogon virginicus sec. Weakley 2006

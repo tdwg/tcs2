@@ -1,4 +1,4 @@
-# TaxonName-example-4
+# TaxonName example 4
 
 ```turtle
 # Example from TCS 1

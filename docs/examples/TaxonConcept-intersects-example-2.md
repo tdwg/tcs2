@@ -1,4 +1,4 @@
-# TaxonConcept-intersects-example-2
+# TaxonConcept intersects example 2
 
 ```turtle
 <https://id.biodiversity.org.au/instance/apni/545068> a tcs:TaxonConcept ;

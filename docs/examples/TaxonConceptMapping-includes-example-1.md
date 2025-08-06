@@ -1,4 +1,4 @@
-# TaxonConceptMapping-includes-example-1
+# TaxonConceptMapping includes example 1
 
 ```turtle
 # Andropogon glomeratus sec. BONAP 2014 includes Andropogon tenuispatheus sec. Weakley 2006

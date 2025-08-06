@@ -1,4 +1,4 @@
-# TaxonConceptMapping-isIncludedIn-example-1
+# TaxonConceptMapping isIncludedIn example 1
 
 ```turtle
 # Andropogon hirsutior sec. BONAP 2014 is included in Andropogon glomeratus sec. Weakley 2006

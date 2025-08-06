@@ -1,4 +1,4 @@
-# TaxonConcept-synonym-example-3
+# TaxonConcept synonym example 3
 
 ```turtle
 <https://www.catalogueoflife.org/data/taxon/3YVTF> a tcs:TaxonConcept ;

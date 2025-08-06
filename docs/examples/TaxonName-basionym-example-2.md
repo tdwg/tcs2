@@ -1,4 +1,4 @@
-# TaxonName-basionym-example-2
+# TaxonName basionym example 2
 
 ```turtle
 [] a tcs:TaxonName ;

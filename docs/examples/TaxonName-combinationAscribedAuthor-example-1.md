@@ -1,4 +1,4 @@
-# TaxonName-combinationAscribedAuthor-example-1
+# TaxonName combinationAscribedAuthor example 1
 
 ```turtle
 <https://tropicos.org/name/35153928> a tcs:TaxonName ;

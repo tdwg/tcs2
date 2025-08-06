@@ -1,4 +1,4 @@
-# TaxonName-conservedAgainst-example-1
+# TaxonName conservedAgainst example 1
 
 ```turtle
 <https://www.tropicos.org/name/35000378> a tcs:TaxonName ;

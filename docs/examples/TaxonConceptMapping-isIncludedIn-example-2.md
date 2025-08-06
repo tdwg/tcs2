@@ -1,4 +1,4 @@
-# TaxonConceptMapping-isIncludedIn-example-2
+# TaxonConceptMapping isIncludedIn example 2
 
 ```turtle
 _:b1 a tcs:TaxonConcept ;

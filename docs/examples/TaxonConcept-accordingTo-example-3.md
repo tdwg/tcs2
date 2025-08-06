@@ -1,4 +1,4 @@
-# TaxonConcept-accordingTo-example-3
+# TaxonConcept accordingTo example 3
 
 ```turtle
 # Checklist (object of property only)

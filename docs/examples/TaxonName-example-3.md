@@ -1,4 +1,4 @@
-# TaxonName-example-3
+# TaxonName example 3
 
 ```turtle
 <http://www.indexfungorum.org/names/NamesRecord.asp?RecordID=178962> a tcs:TaxonName ;

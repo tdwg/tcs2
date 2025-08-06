@@ -1,4 +1,4 @@
-# TaxonConcept-intersects-example-1
+# TaxonConcept intersects example 1
 
 ```turtle
 [] a tcs:TaxonConcept ;

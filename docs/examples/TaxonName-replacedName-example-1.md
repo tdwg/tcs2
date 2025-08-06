@@ -1,4 +1,4 @@
-# TaxonName-replacedName-example-1
+# TaxonName replacedName example 1
 
 ```turtle
 <https://www.tropicos.org/name/35183593> a tcs:TaxonName ;

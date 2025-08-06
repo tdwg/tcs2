@@ -1,4 +1,4 @@
-# TaxonConcept-synonym-example-1
+# TaxonConcept synonym example 1
 
 ```turtle
 []  a tcs:TaxonConcept ;

@@ -1,4 +1,4 @@
-# TaxonConcept-child-example-1
+# TaxonConcept child example 1
 
 ```turtle
 <https://www.catalogueoflife.org/data/taxon/6DBT> a tcs:TaxonConcept ;

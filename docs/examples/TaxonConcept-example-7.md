@@ -1,4 +1,4 @@
-# TaxonConcept-example-7
+# TaxonConcept example 7
 
 ```turtle
 <https://avibase.ca/E0E4DFB8> a tcs:TaxonConcept ;

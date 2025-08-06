@@ -1,4 +1,4 @@
-# TaxonConcept-isCongruentWith-example-3
+# TaxonConcept isCongruentWith example 3
 
 ```turtle
 [] a tcs:TaxonConcept ;

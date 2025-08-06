@@ -1,4 +1,4 @@
-# TaxonConcept-example-5
+# TaxonConcept example 5
 
 ```turtle
 <https://www.catalogueoflife.org/data/taxon/KF8T#v2022-11-14> a tcs:TaxonConcept ;

@@ -1,4 +1,4 @@
-# TaxonConceptMapping-isCongruentWith-example-2
+# TaxonConceptMapping isCongruentWith example 2
 
 ```turtle
 _:b0  a tcs:TaxonConcept ;

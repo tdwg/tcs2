@@ -1,4 +1,4 @@
-# TaxonName-basionymAscribedAuthor-example-1
+# TaxonName basionymAscribedAuthor example 1
 
 ```turtle
 <https://ipni.org/n/3007069-1> a tcs:TaxonName ;

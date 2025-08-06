@@ -1,4 +1,4 @@
-# TaxonConcept-vernacularName-example-1
+# TaxonConcept vernacularName example 1
 
 ```turtle
 [] a tcs:TaxonConcept ;

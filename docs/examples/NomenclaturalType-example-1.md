@@ -1,4 +1,4 @@
-# NomenclaturalType-example-1
+# NomenclaturalType example 1
 
 ```turtle
 # Examples from TCS 1

@@ -1,4 +1,4 @@
-# TaxonConcept-isIncludedIn-example-1
+# TaxonConcept isIncludedIn example 1
 
 ```turtle
 [] a tcs:TaxonConcept ;

@@ -1,4 +1,4 @@
-# TaxonConcept-accordingTo-example-2
+# TaxonConcept accordingTo example 2
 
 ```turtle
 # Field guide (object of property only)

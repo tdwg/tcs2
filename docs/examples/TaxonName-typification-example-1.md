@@ -1,4 +1,4 @@
-# TaxonName-typification-example-1
+# TaxonName typification example 1
 
 ```turtle
 <https://ipni.org/n/105731-1> a tcs:TaxonName ;

@@ -1,4 +1,4 @@
-# TaxonConceptMapping-isCongruentWith-example-1
+# TaxonConceptMapping isCongruentWith example 1
 
 ```turtle
 # Andropogon capillipes sec. BONAP 2014 is congruent with Andropogon capillipes sec. Weakley 2006

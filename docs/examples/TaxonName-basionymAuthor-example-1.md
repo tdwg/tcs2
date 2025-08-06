@@ -1,4 +1,4 @@
-# TaxonName-basionymAuthor-example-1
+# TaxonName basionymAuthor example 1
 
 ```turtle
 <https://tropicos.org/name/35121611> a tcs:taxonName ;

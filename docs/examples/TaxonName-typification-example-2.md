@@ -1,4 +1,4 @@
-# TaxonName-typification-example-2
+# TaxonName typification example 2
 
 ```turtle
 <https://tropicos.org/name/35121972> a tcs:TaxonName ;

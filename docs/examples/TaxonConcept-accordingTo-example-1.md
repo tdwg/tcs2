@@ -1,4 +1,4 @@
-# TaxonConcept-accordingTo-example-1
+# TaxonConcept accordingTo example 1
 
 ```turtle
 # Taxonomic article (object of property only)

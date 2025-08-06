@@ -1,4 +1,4 @@
-# TaxonConceptMapping-partiallyOverlaps-example-1
+# TaxonConceptMapping partiallyOverlaps example 1
 
 ```turtle
 # Andropogon glomeratus sec. BONAP 2014 partially overlaps Andropogon glomeratus

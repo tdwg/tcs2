@@ -1,4 +1,4 @@
-# TaxonConcept-isDisjointFrom-example-1
+# TaxonConcept isDisjointFrom example 1
 
 ```turtle
 [] a tcs:TaxonConcept 

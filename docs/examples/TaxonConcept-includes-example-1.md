@@ -1,4 +1,4 @@
-# TaxonConcept-includes-example-1
+# TaxonConcept includes example 1
 
 ```turtle
 [] a tcs:TaxonConcept ;

@@ -1,4 +1,4 @@
-# TaxonName-example-1
+# TaxonName example 1
 
 ```turtle
 <urn:lsid:zoobank.org:act:355AAA50-D89F-466E-A216-96B7A17D5AD4> a tcs:TaxonName ;

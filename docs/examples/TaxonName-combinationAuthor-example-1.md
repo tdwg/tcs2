@@ -1,4 +1,4 @@
-# TaxonName-combinationAuthor-example-1
+# TaxonName combinationAuthor example 1
 
 ```turtle
 <https://ipni.org/n/316069-1> a tcs:TaxonName ;

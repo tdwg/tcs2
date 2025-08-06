@@ -1,4 +1,4 @@
-# TaxonConcept-example-6
+# TaxonConcept example 6
 
 ```turtle
 # Species Hypothesis (SH) from UNITE

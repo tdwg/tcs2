@@ -1,4 +1,4 @@
-# TaxonConceptMapping-partiallyOverlaps-example-2
+# TaxonConceptMapping partiallyOverlaps example 2
 
 ```turtle
 [] a tcs:TaxonConceptMapping ;

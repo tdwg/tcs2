@@ -1,4 +1,4 @@
-# TaxonConcept-example-4
+# TaxonConcept example 4
 
 ```turtle
 <https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:105644-1> a tcs:TaxonConcept ;

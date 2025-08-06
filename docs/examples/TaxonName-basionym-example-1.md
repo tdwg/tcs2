@@ -1,4 +1,4 @@
-# TaxonName-basionym-example-1
+# TaxonName basionym example 1
 
 ```turtle
 <https://id.biodiversity.org.au/name/apni/166271> a tcs:TaxonName ;

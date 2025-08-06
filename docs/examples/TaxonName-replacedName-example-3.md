@@ -1,4 +1,4 @@
-# TaxonName-replacedName-example-3
+# TaxonName replacedName example 3
 
 ```turtle
 <https://ipni.org/n/17567870-1> a tcs:TaxonName ;

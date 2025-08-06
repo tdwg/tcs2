@@ -1,4 +1,4 @@
-# TaxonConceptMapping-isDisjointFrom-example-2
+# TaxonConceptMapping isDisjointFrom example 2
 
 ```turtle
 [] a tcs:TaxonConceptMapping ;

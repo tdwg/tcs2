@@ -1,4 +1,4 @@
-# TaxonConcept-intersects-example-3
+# TaxonConcept intersects example 3
 
 ```turtle
 <https://www.catalogueoflife.org/data/taxon/BRKHX> a tcs:TaxonConcept ;
