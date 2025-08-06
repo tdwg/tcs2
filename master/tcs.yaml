@@ -384,14 +384,8 @@
   notes: >-
     The `isCongruentWith` relation is symmetrical, so if A `isCongruentWith` B
     then B `isCongruentWith` A, as well as transitive, so if A `isCongruentWith`
-    B and B `isCongruentWith` C it follows that A `isCongruentWith` C.
-
-
-    ![](../media/mapping-relation-is-congruent-with.drawio.svg)
-
-
-    This relation can also be written as the formula **A &cong; B** or **A
-    == B**.
+    B and B `isCongruentWith` C it follows that A `isCongruentWith` C. This
+    relation can also be written as the formula **A &cong; B** or **A == B**.
   examples: 
     - TaxonConcept-isCongruentWith-example-1
     - TaxonConceptMapping-isCongruentWith-example-2
@@ -433,13 +427,8 @@
     The `includes` relation is not symmetric, its inverse relation being
     `isIncludedIn`, so if A `includes` B then B `isIncludedIn` A. The `includes`
     relation  is transitive, so if A `includes` B and B `includes` C it follows
-    that A `includes` C.
-
-
-    ![](../media/mapping-relation-includes.drawio.svg)
-
-
-    This relation can also be written as the formula **A > B**.
+    that A `includes` C. This relation can also be written as the formula **A >
+    B**.
   examples: 
     - TaxonConcept-includes-example-1
     - TaxonConceptMapping-includes-example-2
@@ -475,13 +464,8 @@
     The `isIncludedIn` relation is not symmetric, its inverse relation being
     `includes`, so if A `isIncludedIn` B then B `includes` A. The `isIncludedIn`
     relation  is transitive, so if A `isIncludedIn` B and B `isIncludedIn` C it
-    follows that A `isIncludedIn` C.
-
-
-    ![](../media/mapping-relation-is-included-in.drawio.svg)
-
-
-    This relation can also be written as the formula **A < B**.
+    follows that A `isIncludedIn` C. This relation can also be written as the
+    formula **A < B**.
   examples: 
     - TaxonConcept-isIncludedIn-example-1
     - TaxonConceptMapping-isIncludedIn-example-2
@@ -522,13 +506,8 @@
     The `partiallyOverlaps` relation is symmetrical, so if A `partiallyOverlaps`
     B then B `partiallyOverlaps` A, but not transitive, so, if A
     `partiallyOverlaps` B and B `partiallyOverlaps` C, it does not follow that A
-    `partiallyOverlaps` C.
-
-
-    ![](../media/mapping-relation-partially-overlaps.drawio.svg)
-
-
-    This relation can also be written as the formula **A >< B**.
+    `partiallyOverlaps` C. This relation can also be written as the formula **A
+    >< B**.
   examples:
     - TaxonConcept-partiallyOverlaps-example-1
     - TaxonConceptMapping-partiallyOverlaps-example-2
@@ -563,15 +542,10 @@
     the value of the `mappingRelation` property on a Taxon Concept Mapping
     object. In both cases both the subject and object are Taxon Concepts.
   notes: >-
-    The `isDisjointFrom`  relation is symmetrical, so if A `isDisjointFrom` 
-    B then B `isDisjointFrom` A, but not transitive, so, if A `isDisjointFrom` 
-    B and B `isDisjointFrom` C, it does not follow that A `isDisjointFrom` C.
-
-
-    ![](../media/mapping-relations-is-disjoint-from.drawio.svg)
-
-
-    This relation can also be written as the formula **A | B**.
+    The `isDisjointFrom`  relation is symmetrical, so if A `isDisjointFrom` B
+    then B `isDisjointFrom` A, but not transitive, so, if A `isDisjointFrom` B
+    and B `isDisjointFrom` C, it does not follow that A `isDisjointFrom` C. This
+    relation can also be written as the formula **A | B**.
   examples:
     - TaxonConcept-isDisjointFrom-example-1
     - TaxonConceptMapping-isDisjointFrom-example-2
@@ -609,13 +583,11 @@
     `intersects` is the opposite of `isDisjointFrom` and the union of
     `isCongruentWith`, `includes`, `isIncludedIn` and `partiallyOverlaps`,
     meaning it can be any of these relations. This relation can be used when the
-    more precise nature of the relationship is not known.
-
-
-    Quasi-nomenclatural statements like 'pro parte synonym', 'partial synonym'
-    and 'misapplication', are Taxon Concept Mappings, no matter how imperfect,
-    and, in TCS, are best dealt with using the `intersects` relation. In fact,
-    all 'traditional synonymy' relationships, cf. Berendsohn & al. (2000
+    more precise nature of the relationship is not known. Quasi-nomenclatural
+    statements like 'pro parte synonym', 'partial synonym' and 'misapplication',
+    are Taxon Concept Mappings, no matter how imperfect, and, in TCS, are best
+    dealt with using the `intersects` relation. In fact, all 'traditional
+    synonymy' relationships, cf. Berendsohn & al. (2000
     [\[berendsohn_berlin_2003\]](../bibliography/#berendsohn_berlin_2003)), can
     be accommodated using `intersects`. Also, citations of references in
     treatments are, in the context of TCS, best accommodated using the
