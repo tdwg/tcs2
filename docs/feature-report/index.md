@@ -1,4 +1,31 @@
-# TCS 2 feature report
+# TCS 2 Feature Report
+
+**Title**
+: TCS 2 Feature Report
+
+**Date version created**
+: 2025-08-09
+
+**Part of TDWG standard**
+: http://www.tdwg.org/standards/117
+
+**This version**
+: http://rs.tdwg.org/tcs/doc/feature-report/2025-08-09
+
+**Latest version**
+: http://rs.tdwg.org/tcs/doc/feature-report
+
+**Abstract** 
+: The TCS 2 Feature Report sets out why a major new version of TCS was necessary
+and describes the difference between TCS 1 and TCS 2. It also places TCS within
+the TDWG ecosystem and broader context.
+
+**Contributors**
+: Niels Klazenga, Cam Webb 
+
+**Creator**
+: TDWG Taxon Concept Schema (TCS) 2 Task Group
+
 
 ## Introduction
 
@@ -365,6 +392,7 @@ TCS 1 | TDWG Ontology | TCS 2
 /DataSet/TaxonConcepts/TaxonConcept/SpecimenCircumscription | [tc:circumscribedBy](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonConcept.ttl#L80) | &mdash;
 /DataSet/TaxonConcepts/TaxonConcept/CharacterCircumscription | [tc:describedBy](https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonConcept.ttl#L87) | &mdash;
 
+<br>
 
 ### Taxon Relationship / Taxon Relationship Assertion
 
