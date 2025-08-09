@@ -1,4 +1,30 @@
-# TCS 2 implementation experience report
+# TCS 2 Implementation Experience Report
+
+**Title**
+: TCS 2 Implementation Experience Report
+
+**Date version created**
+: 2025-08-09
+
+**Part of TDWG standard**
+: http://www.tdwg.org/standards/117
+
+**This version**
+: http://rs.tdwg.org/tcs/doc/implementation-experience-report/2025-08-09
+
+**Latest version**
+: http://rs.tdwg.org/tcs/doc/implementation-experience-report
+
+**Abstract** 
+: The TCS 2 Implementation Experience Report describes how TCS terms are already 
+being implemented and provides a worked out example highlighting Taxon Concept 
+Mappings, which are a feature of TCS that is not used that often.
+
+**Contributors**
+: Niels Klazenga
+
+**Creator**
+: TDWG Taxon Concept Schema (TCS) 2 Task Group
 
 ## Introduction
 
