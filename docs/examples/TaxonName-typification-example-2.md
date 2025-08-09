@@ -1,5 +1,9 @@
 # TaxonName typification example 2
 
+
+**Term:** [tcs:typification](/terms/#tcs_typification)
+
+[TaxonName-typification-example-1](./TaxonName-typification-example-1.html) | TaxonName-typification-example-2
 ```turtle
 <https://tropicos.org/name/35121972> a tcs:TaxonName ;
     tcs:nameString "Dicranum blumei" ;
@@ -52,5 +56,5 @@
             tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> ] .
 ```
 
-[&lsqb;TaxonName-typification-example-2.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonName-typification-example-2.ttl)&nbsp;[&lsqb;TaxonName-typification-example-2.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonName-typification-example-2.jsonld)
+[&#91;TaxonName-typification-example-2.ttl&#93;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonName-typification-example-2.ttl)&nbsp;[&#91;TaxonName-typification-example-2.jsonld&#93;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonName-typification-example-2.jsonld)
 

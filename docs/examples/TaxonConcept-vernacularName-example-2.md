@@ -1,5 +1,9 @@
 # TaxonConcept vernacularName example 2
 
+
+**Term:** [tcs:vernacularName](/terms/#tcs_vernacularname)
+
+[TaxonConcept-vernacularName-example-1](./TaxonConcept-vernacularName-example-1.html) | TaxonConcept-vernacularName-example-2 | [TaxonConcept-vernacularName-example-3](./TaxonConcept-vernacularName-example-3.html)
 ```turtle
 [] a tcs:TaxonConcept ;
     dcterms:title "Quercus robur sec. Duistermaat 2020" ;
@@ -17,5 +21,5 @@
             Flora van Nederland, edn 24. Noordhoff, Groningen.""" .
 ```
 
-[&lsqb;TaxonConcept-vernacularName-example-2.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-vernacularName-example-2.ttl)&nbsp;[&lsqb;TaxonConcept-vernacularName-example-2.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-vernacularName-example-2.jsonld)
+[&#91;TaxonConcept-vernacularName-example-2.ttl&#93;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-vernacularName-example-2.ttl)&nbsp;[&#91;TaxonConcept-vernacularName-example-2.jsonld&#93;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-vernacularName-example-2.jsonld)
 

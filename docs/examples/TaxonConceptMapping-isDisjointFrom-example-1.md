@@ -1,5 +1,9 @@
 # TaxonConceptMapping isDisjointFrom example 1
 
+
+**Term:** [tcs:isDisjointFrom](/terms/#tcs_isdisjointfrom)
+
+[TaxonConcept-isDisjointFrom-example-1](./TaxonConcept-isDisjointFrom-example-1.html) | [TaxonConceptMapping-isDisjointFrom-example-2](./TaxonConceptMapping-isDisjointFrom-example-2.html) | TaxonConceptMapping-isDisjointFrom-example-1
 ```turtle
 # Andropogon glaucopsis sec. BONAP 2014 is disjoint from Andropogon virginicus sec. Weakley 2006
 [] a tcs:TaxonConceptMapping ;
@@ -15,5 +19,5 @@
         tcs:accordingTo <http://www.herbarium.unc.edu/FloraArchives/WeakleyFlora_2006-Jan.pdf> ] .
 ```
 
-[&lsqb;TaxonConceptMapping-isDisjointFrom-example-1.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConceptMapping-isDisjointFrom-example-1.ttl)&nbsp;[&lsqb;TaxonConceptMapping-isDisjointFrom-example-1.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConceptMapping-isDisjointFrom-example-1.jsonld)
+[&#91;TaxonConceptMapping-isDisjointFrom-example-1.ttl&#93;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConceptMapping-isDisjointFrom-example-1.ttl)&nbsp;[&#91;TaxonConceptMapping-isDisjointFrom-example-1.jsonld&#93;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConceptMapping-isDisjointFrom-example-1.jsonld)
 

@@ -1,5 +1,9 @@
 # TaxonName basionym example 1
 
+
+**Term:** [tcs:basionym](/terms/#tcs_basionym)
+
+TaxonName-basionym-example-1 | [TaxonName-basionym-example-2](./TaxonName-basionym-example-2.html)
 ```turtle
 <https://id.biodiversity.org.au/name/apni/166271> a tcs:TaxonName ;
     rdf:seeAlso <https://ipni.org/n/17571690-1> ;
@@ -15,5 +19,5 @@
     dwc:namePublishedIn "New Zealand J. Bot. 10(4): 593 (1972)" .
 ```
 
-[&lsqb;TaxonName-basionym-example-1.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonName-basionym-example-1.ttl)&nbsp;[&lsqb;TaxonName-basionym-example-1.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonName-basionym-example-1.jsonld)
+[&#91;TaxonName-basionym-example-1.ttl&#93;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonName-basionym-example-1.ttl)&nbsp;[&#91;TaxonName-basionym-example-1.jsonld&#93;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonName-basionym-example-1.jsonld)
 

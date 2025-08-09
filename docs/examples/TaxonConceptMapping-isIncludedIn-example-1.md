@@ -1,5 +1,9 @@
 # TaxonConceptMapping isIncludedIn example 1
 
+
+**Term:** [tcs:isIncludedIn](/terms/#tcs_isincludedin)
+
+[TaxonConcept-isIncludedIn-example-1](./TaxonConcept-isIncludedIn-example-1.html) | [TaxonConceptMapping-isIncludedIn-example-2](./TaxonConceptMapping-isIncludedIn-example-2.html) | TaxonConceptMapping-isIncludedIn-example-1
 ```turtle
 # Andropogon hirsutior sec. BONAP 2014 is included in Andropogon glomeratus sec. Weakley 2006
 [] a tcs:TaxonConceptMapping ;
@@ -15,5 +19,5 @@
         tcs:accordingTo <http://www.herbarium.unc.edu/FloraArchives/WeakleyFlora_2006-Jan.pdf> ] .
 ```
 
-[&lsqb;TaxonConceptMapping-isIncludedIn-example-1.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConceptMapping-isIncludedIn-example-1.ttl)&nbsp;[&lsqb;TaxonConceptMapping-isIncludedIn-example-1.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConceptMapping-isIncludedIn-example-1.jsonld)
+[&#91;TaxonConceptMapping-isIncludedIn-example-1.ttl&#93;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConceptMapping-isIncludedIn-example-1.ttl)&nbsp;[&#91;TaxonConceptMapping-isIncludedIn-example-1.jsonld&#93;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConceptMapping-isIncludedIn-example-1.jsonld)
 

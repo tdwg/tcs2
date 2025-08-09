@@ -1,5 +1,9 @@
 # TaxonConcept example 5
 
+
+**Term:** [tcs:TaxonConcept](/terms/#tcs_taxonconcept)
+
+[TaxonConcept-example-1](./TaxonConcept-example-1.html) | [TaxonConcept-example-2](./TaxonConcept-example-2.html) | [TaxonConcept-example-3](./TaxonConcept-example-3.html) | [TaxonConcept-example-4](./TaxonConcept-example-4.html) | TaxonConcept-example-5 | [TaxonConcept-example-6](./TaxonConcept-example-6.html) | [TaxonConcept-example-7](./TaxonConcept-example-7.html)
 ```turtle
 <https://www.catalogueoflife.org/data/taxon/KF8T#v2022-11-14> a tcs:TaxonConcept ;
     dcterms:title "Balaenoptera musculus sec. Catalogue of Life 2022-11-14" ;
@@ -14,5 +18,5 @@
     bibo:uri "https://www.catalogueoflife.org" .
 ```
 
-[&lsqb;TaxonConcept-example-5.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-example-5.ttl)&nbsp;[&lsqb;TaxonConcept-example-5.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-example-5.jsonld)
+[&#91;TaxonConcept-example-5.ttl&#93;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-example-5.ttl)&nbsp;[&#91;TaxonConcept-example-5.jsonld&#93;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-example-5.jsonld)
 

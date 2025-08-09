@@ -1,5 +1,9 @@
 # TaxonName replacedName example 2
 
+
+**Term:** [tcs:replacedName](/terms/#tcs_replacedname)
+
+[TaxonName-replacedName-example-1](./TaxonName-replacedName-example-1.html) | TaxonName-replacedName-example-2 | [TaxonName-replacedName-example-3](./TaxonName-replacedName-example-3.html) | [TaxonName-replacedName-example-4](./TaxonName-replacedName-example-4.html)
 ```turtle
 <https://www.tropicos.org/name/35000146> a tcs:TaxonName ;
     tcs:nameString "Braunfelsia" ;
@@ -23,5 +27,5 @@
     dwc:namePublishedInYear "1871" .
 ```
 
-[&lsqb;TaxonName-replacedName-example-2.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonName-replacedName-example-2.ttl)&nbsp;[&lsqb;TaxonName-replacedName-example-2.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonName-replacedName-example-2.jsonld)
+[&#91;TaxonName-replacedName-example-2.ttl&#93;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonName-replacedName-example-2.ttl)&nbsp;[&#91;TaxonName-replacedName-example-2.jsonld&#93;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonName-replacedName-example-2.jsonld)
 

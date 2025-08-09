@@ -1,5 +1,9 @@
 # TaxonConcept intersects example 2
 
+
+**Term:** [tcs:intersects](/terms/#tcs_intersects)
+
+[TaxonConcept-intersects-example-1](./TaxonConcept-intersects-example-1.html) | TaxonConcept-intersects-example-2 | [TaxonConceptMapping-intersects-example-1](./TaxonConceptMapping-intersects-example-1.html) | [TaxonConcept-intersects-example-3](./TaxonConcept-intersects-example-3.html)
 ```turtle
 <https://id.biodiversity.org.au/instance/apni/545068> a tcs:TaxonConcept ;
     dcterms:title "Euphrasia gibbsiae sec. Barker 1982" ;
@@ -40,5 +44,5 @@
 # examples/euphrasia_gibbsiae_sec_barker_1982.ttl for the full example.
 ```
 
-[&lsqb;TaxonConcept-intersects-example-2.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-intersects-example-2.ttl)&nbsp;[&lsqb;TaxonConcept-intersects-example-2.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-intersects-example-2.jsonld)
+[&#91;TaxonConcept-intersects-example-2.ttl&#93;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-intersects-example-2.ttl)&nbsp;[&#91;TaxonConcept-intersects-example-2.jsonld&#93;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-intersects-example-2.jsonld)
 

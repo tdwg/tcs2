@@ -1,5 +1,9 @@
 # TaxonConcept accordingTo example 2
 
+
+**Term:** [tcs:accordingTo](/terms/#tcs_accordingto)
+
+[TaxonConcept-accordingTo-example-1](./TaxonConcept-accordingTo-example-1.html) | TaxonConcept-accordingTo-example-2 | [TaxonConcept-accordingTo-example-3](./TaxonConcept-accordingTo-example-3.html)
 ```turtle
 # Field guide (object of property only)
 <urn:isbn:978-0-307-95790-0> a bibo:Book ;
@@ -22,5 +26,5 @@ _:b1 a foaf:Person ;
     foaf:surname "Sibley" .
 ```
 
-[&lsqb;TaxonConcept-accordingTo-example-2.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-accordingTo-example-2.ttl)&nbsp;[&lsqb;TaxonConcept-accordingTo-example-2.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-accordingTo-example-2.jsonld)
+[&#91;TaxonConcept-accordingTo-example-2.ttl&#93;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-accordingTo-example-2.ttl)&nbsp;[&#91;TaxonConcept-accordingTo-example-2.jsonld&#93;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-accordingTo-example-2.jsonld)
 

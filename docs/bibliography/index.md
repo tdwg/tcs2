@@ -1,9 +1,4 @@
 # Bibliography
-<a id="darwin_core_and_rdfowl_task_groups_darwin_2015"></a>
-[darwin_core_and_rdfowl_task_groups_darwin_2015]&emsp;Darwin Core and RDF/OWL
-Task Groups (2015) Darwin Core RDF guide, Darwin Core. Available at:
-https://dwc.tdwg.org/rdf/.
-
 <a id="baskauf_darwin-sw_2016"></a> [baskauf_darwin-sw_2016]&emsp;Baskauf, S.J.
 and Webb, C.O. (2016) ‘Darwin-SW: Darwin Core-based terms for expressing
 biodiversity data as RDF’, Semantic Web, 7(6), pp. 629–643. Available at:
@@ -15,6 +10,11 @@ Wolf-Hennig Kusber, Jingling Li, Dominik Röpert, and Frank Specht. (2003) 'The
 Berlin Model: A Concept-Based Taxonomic Information Model'. In MoReTax: Handling
 Factual Information Linked to Taxonomic Concepts in Biology, Schriftenreihe Fur
 Vegetationskunde 39, pp. 15–42.
+
+<a id="darwin_core_and_rdfowl_task_groups_darwin_2015"></a>
+[darwin_core_and_rdfowl_task_groups_darwin_2015]&emsp;Darwin Core and RDF/OWL
+Task Groups (2015) Darwin Core RDF guide, Darwin Core. Available at:
+https://dwc.tdwg.org/rdf/.
 
 <a id="eddy_sphagnales_1988"></a> Eddy, A. (1988). Sphagnales to Dicranales, A
 Handbook of Malesian Mosses. Natural History Museum Publications, London.
@@ -66,3 +66,8 @@ Willdenowia 18, 497–512.
 <a id="tan_dicranoloma_1983"><a>[tan_dicranoloma_1983] Tan, B.C., Koponen, T. (1983). Dicranoloma
 (Musci, Dicranaceae) in Southeast Asia, with special reference to the Philippine
 taxa. Ann. Bot. Fenn. 20, 317–334.
+
+<a id="vocabulary_maintenance_specification_task_group_2017"></a>[vocabulary_maintenance_specification_task_group_vocabulary_2017]
+Vocabulary Maintenance Specification Task Group. 2017. Vocabulary Maintenance
+Standard. Biodiversity Information Standards (TDWG)
+http://www.tdwg.org/standards/642

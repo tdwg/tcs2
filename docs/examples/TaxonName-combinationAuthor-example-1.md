@@ -1,5 +1,9 @@
 # TaxonName combinationAuthor example 1
 
+
+**Term:** [tcs:combinationAuthor](/terms/#tcs_combinationauthor)
+
+
 ```turtle
 <https://ipni.org/n/316069-1> a tcs:TaxonName ;
     tcs:nameString "Rafflesia arnoldi" ;
@@ -12,5 +16,5 @@
     foaf:surname "Brown" .
 ```
 
-[&lsqb;TaxonName-combinationAuthor-example-1.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonName-combinationAuthor-example-1.ttl)&nbsp;[&lsqb;TaxonName-combinationAuthor-example-1.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonName-combinationAuthor-example-1.jsonld)
+[&#91;TaxonName-combinationAuthor-example-1.ttl&#93;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonName-combinationAuthor-example-1.ttl)&nbsp;[&#91;TaxonName-combinationAuthor-example-1.jsonld&#93;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonName-combinationAuthor-example-1.jsonld)
 

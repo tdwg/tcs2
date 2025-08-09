@@ -1,5 +1,9 @@
 # TaxonConcept vernacularName example 3
 
+
+**Term:** [tcs:vernacularName](/terms/#tcs_vernacularname)
+
+[TaxonConcept-vernacularName-example-1](./TaxonConcept-vernacularName-example-1.html) | [TaxonConcept-vernacularName-example-2](./TaxonConcept-vernacularName-example-2.html) | TaxonConcept-vernacularName-example-3
 ```turtle
 <https://vicflora.rbg.vic.gov.au/flora/taxon/93c88fde-ab15-4a9a-a61d-3830a57a0160#2023-03-02> 
     a tcs:TaxonConcept ;
@@ -31,5 +35,5 @@
     dwc:scientificNameAuthorship "(A.Cunn. ex Endl.) F.Muell." .
 ```
 
-[&lsqb;TaxonConcept-vernacularName-example-3.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-vernacularName-example-3.ttl)&nbsp;[&lsqb;TaxonConcept-vernacularName-example-3.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-vernacularName-example-3.jsonld)
+[&#91;TaxonConcept-vernacularName-example-3.ttl&#93;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-vernacularName-example-3.ttl)&nbsp;[&#91;TaxonConcept-vernacularName-example-3.jsonld&#93;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-vernacularName-example-3.jsonld)
 

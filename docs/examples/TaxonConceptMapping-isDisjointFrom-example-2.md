@@ -1,5 +1,9 @@
 # TaxonConceptMapping isDisjointFrom example 2
 
+
+**Term:** [tcs:isDisjointFrom](/terms/#tcs_isdisjointfrom)
+
+[TaxonConcept-isDisjointFrom-example-1](./TaxonConcept-isDisjointFrom-example-1.html) | TaxonConceptMapping-isDisjointFrom-example-2 | [TaxonConceptMapping-isDisjointFrom-example-1](./TaxonConceptMapping-isDisjointFrom-example-1.html)
 ```turtle
 [] a tcs:TaxonConceptMapping ;
     tcs:mappingAccordingTo <https://www.tropicos.org/reference/9022656> ;
@@ -21,5 +25,5 @@
             Castagne 1961: 203)""" .
 ```
 
-[&lsqb;TaxonConceptMapping-isDisjointFrom-example-2.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConceptMapping-isDisjointFrom-example-2.ttl)&nbsp;[&lsqb;TaxonConceptMapping-isDisjointFrom-example-2.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConceptMapping-isDisjointFrom-example-2.jsonld)
+[&#91;TaxonConceptMapping-isDisjointFrom-example-2.ttl&#93;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConceptMapping-isDisjointFrom-example-2.ttl)&nbsp;[&#91;TaxonConceptMapping-isDisjointFrom-example-2.jsonld&#93;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConceptMapping-isDisjointFrom-example-2.jsonld)
 

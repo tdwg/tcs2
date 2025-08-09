@@ -1,5 +1,9 @@
 # TaxonName typification example 1
 
+
+**Term:** [tcs:typification](/terms/#tcs_typification)
+
+TaxonName-typification-example-1 | [TaxonName-typification-example-2](./TaxonName-typification-example-2.html)
 ```turtle
 <https://ipni.org/n/105731-1> a tcs:TaxonName ;
     tcs:nameString "Begonia seychellensis" ;
@@ -52,5 +56,5 @@
             tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/syntype> ]  .
 ```
 
-[&lsqb;TaxonName-typification-example-1.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonName-typification-example-1.ttl)&nbsp;[&lsqb;TaxonName-typification-example-1.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonName-typification-example-1.jsonld)
+[&#91;TaxonName-typification-example-1.ttl&#93;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonName-typification-example-1.ttl)&nbsp;[&#91;TaxonName-typification-example-1.jsonld&#93;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonName-typification-example-1.jsonld)
 

@@ -1,5 +1,9 @@
 # TaxonName combinationAscribedAuthor example 1
 
+
+**Term:** [tcs:combinationAscribedAuthor](/terms/#tcs_combinationascribedauthor)
+
+
 ```turtle
 <https://tropicos.org/name/35153928> a tcs:TaxonName ;
     tcs:nameString "Calymperes serratum" ;
@@ -18,5 +22,5 @@
     foaf:surname "Braun" .
 ```
 
-[&lsqb;TaxonName-combinationAscribedAuthor-example-1.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonName-combinationAscribedAuthor-example-1.ttl)&nbsp;[&lsqb;TaxonName-combinationAscribedAuthor-example-1.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonName-combinationAscribedAuthor-example-1.jsonld)
+[&#91;TaxonName-combinationAscribedAuthor-example-1.ttl&#93;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonName-combinationAscribedAuthor-example-1.ttl)&nbsp;[&#91;TaxonName-combinationAscribedAuthor-example-1.jsonld&#93;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonName-combinationAscribedAuthor-example-1.jsonld)
 

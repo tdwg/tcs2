@@ -1,5 +1,9 @@
 # TaxonName basionymAuthor example 1
 
+
+**Term:** [tcs:basionymAuthor](/terms/#tcs_basionymauthor)
+
+
 ```turtle
 <https://tropicos.org/name/35121611> a tcs:taxonName ;
     tcs:nameString "Dicranoloma robustum" ;
@@ -33,5 +37,5 @@ _:b1 a rdf:Seq ;
     foaf:surname "Wilson" .
 ```
 
-[&lsqb;TaxonName-basionymAuthor-example-1.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonName-basionymAuthor-example-1.ttl)&nbsp;[&lsqb;TaxonName-basionymAuthor-example-1.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonName-basionymAuthor-example-1.jsonld)
+[&#91;TaxonName-basionymAuthor-example-1.ttl&#93;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonName-basionymAuthor-example-1.ttl)&nbsp;[&#91;TaxonName-basionymAuthor-example-1.jsonld&#93;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonName-basionymAuthor-example-1.jsonld)
 

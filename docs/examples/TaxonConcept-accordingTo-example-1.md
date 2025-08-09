@@ -1,5 +1,9 @@
 # TaxonConcept accordingTo example 1
 
+
+**Term:** [tcs:accordingTo](/terms/#tcs_accordingto)
+
+TaxonConcept-accordingTo-example-1 | [TaxonConcept-accordingTo-example-2](./TaxonConcept-accordingTo-example-2.html) | [TaxonConcept-accordingTo-example-3](./TaxonConcept-accordingTo-example-3.html)
 ```turtle
 # Taxonomic article (object of property only)
 <https://doi.org/10.1080/14772000.2013.806371> a bibo:AcademicArticle ;
@@ -35,5 +39,5 @@
     foaf:surname "Cardona-Duque*" .
 ```
 
-[&lsqb;TaxonConcept-accordingTo-example-1.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-accordingTo-example-1.ttl)&nbsp;[&lsqb;TaxonConcept-accordingTo-example-1.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-accordingTo-example-1.jsonld)
+[&#91;TaxonConcept-accordingTo-example-1.ttl&#93;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-accordingTo-example-1.ttl)&nbsp;[&#91;TaxonConcept-accordingTo-example-1.jsonld&#93;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-accordingTo-example-1.jsonld)
 

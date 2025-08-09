@@ -1,5 +1,9 @@
 # NomenclaturalType example 1
 
+
+**Term:** [tcs:NomenclaturalType](/terms/#tcs_nomenclaturaltype)
+
+
 ```turtle
 # Examples from TCS 1
 [] a tcs:NomenclaturalType ;
@@ -34,5 +38,5 @@
     dwc:scientificNameAuthorship "Bisset & S.Moore" .
 ```
 
-[&lsqb;NomenclaturalType-example-1.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/NomenclaturalType-example-1.ttl)&nbsp;[&lsqb;NomenclaturalType-example-1.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/NomenclaturalType-example-1.jsonld)
+[&#91;NomenclaturalType-example-1.ttl&#93;](https://github.com/tdwg/tcs2/blob/master/examples/NomenclaturalType-example-1.ttl)&nbsp;[&#91;NomenclaturalType-example-1.jsonld&#93;](https://github.com/tdwg/tcs2/blob/master/examples/NomenclaturalType-example-1.jsonld)
 

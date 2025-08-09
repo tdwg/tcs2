@@ -1,5 +1,9 @@
 # TaxonName conservedAgainst example 1
 
+
+**Term:** [tcs:conservedAgainst](/terms/#tcs_conservedagainst)
+
+
 ```turtle
 <https://www.tropicos.org/name/35000378> a tcs:TaxonName ;
     tcs:nameString "Dicranoloma" ;
@@ -19,5 +23,5 @@
     dwc:namePublishedInYear "1894" .
 ```
 
-[&lsqb;TaxonName-conservedAgainst-example-1.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonName-conservedAgainst-example-1.ttl)&nbsp;[&lsqb;TaxonName-conservedAgainst-example-1.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonName-conservedAgainst-example-1.jsonld)
+[&#91;TaxonName-conservedAgainst-example-1.ttl&#93;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonName-conservedAgainst-example-1.ttl)&nbsp;[&#91;TaxonName-conservedAgainst-example-1.jsonld&#93;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonName-conservedAgainst-example-1.jsonld)
 

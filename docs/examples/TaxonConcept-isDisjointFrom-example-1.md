@@ -1,5 +1,9 @@
 # TaxonConcept isDisjointFrom example 1
 
+
+**Term:** [tcs:isDisjointFrom](/terms/#tcs_isdisjointfrom)
+
+TaxonConcept-isDisjointFrom-example-1 | [TaxonConceptMapping-isDisjointFrom-example-2](./TaxonConceptMapping-isDisjointFrom-example-2.html) | [TaxonConceptMapping-isDisjointFrom-example-1](./TaxonConceptMapping-isDisjointFrom-example-1.html)
 ```turtle
 [] a tcs:TaxonConcept 
     dcterms:title "Campylopus introflexus sec. Koperski & al. 2000" ; 
@@ -22,5 +26,5 @@
 # here.
 ```
 
-[&lsqb;TaxonConcept-isDisjointFrom-example-1.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-isDisjointFrom-example-1.ttl)&nbsp;[&lsqb;TaxonConcept-isDisjointFrom-example-1.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-isDisjointFrom-example-1.jsonld)
+[&#91;TaxonConcept-isDisjointFrom-example-1.ttl&#93;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-isDisjointFrom-example-1.ttl)&nbsp;[&#91;TaxonConcept-isDisjointFrom-example-1.jsonld&#93;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-isDisjointFrom-example-1.jsonld)
 

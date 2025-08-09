@@ -1,5 +1,9 @@
 # TaxonConceptMapping includes example 2
 
+
+**Term:** [tcs:includes](/terms/#tcs_includes)
+
+[TaxonConcept-includes-example-1](./TaxonConcept-includes-example-1.html) | TaxonConceptMapping-includes-example-2 | [TaxonConceptMapping-includes-example-1](./TaxonConceptMapping-includes-example-1.html)
 ```turtle
 [] a tcs:TaxonConceptMapping ;
     tcs:mappingAccordingTo <https://doi.org/10.1002/tax.613003> ;
@@ -14,5 +18,5 @@
             tcs:taxonName <https://ipni.org/n/77110538-1> ] .
 ```
 
-[&lsqb;TaxonConceptMapping-includes-example-2.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConceptMapping-includes-example-2.ttl)&nbsp;[&lsqb;TaxonConceptMapping-includes-example-2.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConceptMapping-includes-example-2.jsonld)
+[&#91;TaxonConceptMapping-includes-example-2.ttl&#93;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConceptMapping-includes-example-2.ttl)&nbsp;[&#91;TaxonConceptMapping-includes-example-2.jsonld&#93;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConceptMapping-includes-example-2.jsonld)
 

@@ -1,5 +1,9 @@
 # TaxonName replacedName example 4
 
+
+**Term:** [tcs:replacedName](/terms/#tcs_replacedname)
+
+[TaxonName-replacedName-example-1](./TaxonName-replacedName-example-1.html) | [TaxonName-replacedName-example-2](./TaxonName-replacedName-example-2.html) | [TaxonName-replacedName-example-3](./TaxonName-replacedName-example-3.html) | TaxonName-replacedName-example-4
 ```turtle
 <https://ipni.org/n/471632-1> a tcs:TaxonName ;
     tcs:nameString "Acacia tenuifolia" ;
@@ -28,5 +32,5 @@
     rdf:seeAlso <https://id.biodiversity.org.au/name/apni/190652> .
 ```
 
-[&lsqb;TaxonName-replacedName-example-4.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonName-replacedName-example-4.ttl)&nbsp;[&lsqb;TaxonName-replacedName-example-4.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonName-replacedName-example-4.jsonld)
+[&#91;TaxonName-replacedName-example-4.ttl&#93;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonName-replacedName-example-4.ttl)&nbsp;[&#91;TaxonName-replacedName-example-4.jsonld&#93;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonName-replacedName-example-4.jsonld)
 

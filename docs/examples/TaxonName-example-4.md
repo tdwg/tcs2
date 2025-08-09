@@ -1,5 +1,9 @@
 # TaxonName example 4
 
+
+**Term:** [tcs:TaxonName](/terms/#tcs_taxonname)
+
+[TaxonName-example-1](./TaxonName-example-1.html) | [TaxonName-example-2](./TaxonName-example-2.html) | [TaxonName-example-3](./TaxonName-example-3.html) | TaxonName-example-4
 ```turtle
 # Example from TCS 1
 <https://ipni.org/n/50985479-1> a tcs:TaxonName ;
@@ -17,5 +21,5 @@
     dwc:infragenericName "Sciadorhodion" .
 ```
 
-[&lsqb;TaxonName-example-4.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonName-example-4.ttl)&nbsp;[&lsqb;TaxonName-example-4.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonName-example-4.jsonld)
+[&#91;TaxonName-example-4.ttl&#93;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonName-example-4.ttl)&nbsp;[&#91;TaxonName-example-4.jsonld&#93;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonName-example-4.jsonld)
 

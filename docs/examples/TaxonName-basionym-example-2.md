@@ -1,5 +1,9 @@
 # TaxonName basionym example 2
 
+
+**Term:** [tcs:basionym](/terms/#tcs_basionym)
+
+[TaxonName-basionym-example-1](./TaxonName-basionym-example-1.html) | TaxonName-basionym-example-2
 ```turtle
 [] a tcs:TaxonName ;
     tcs:nameString "Osphranter rufus" ;
@@ -16,5 +20,5 @@ _:b1 a tcs:TaxonName ;
     dwc:scientificNameAuthorship "Desmaret, 1882" .
 ```
 
-[&lsqb;TaxonName-basionym-example-2.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonName-basionym-example-2.ttl)&nbsp;[&lsqb;TaxonName-basionym-example-2.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonName-basionym-example-2.jsonld)
+[&#91;TaxonName-basionym-example-2.ttl&#93;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonName-basionym-example-2.ttl)&nbsp;[&#91;TaxonName-basionym-example-2.jsonld&#93;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonName-basionym-example-2.jsonld)
 
