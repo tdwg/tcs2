@@ -5,9 +5,11 @@
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix oa: <http://www.w3.org/ns/oa#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skosxl: <http://www.w3.org/2008/05/skos-xl#> .
 
 <https://avibase.ca/E0E4DFB8> a tcs:TaxonConcept ;
+    rdfs:label "Acrophalus seychellensis" ;
     tcs:accordingTo <https://avibase.bsc-eoc.org> ;
     tcs:taxonName: [ a tcs:TaxonName ;
             tcs:nameString "Acrocephalus sechellensis" ;
