@@ -1,0 +1,1978 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  
+    <title>TCS 2 feature report - Taxon Concept Standard</title>
+  
+
+   
+  
+  
+  
+
+  
+  
+  
+  
+  
+    <meta name="generator" content="Jekyll, theme: tdwg/petridish">
+  
+
+  <meta property="og:url" content="http://localhost:4000/feature-report/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="TCS 2 feature report">
+  
+  
+  
+
+  <link rel="icon" type="image/x-icon" href="http://localhost:4000/favicon.ico">
+  <!-- Bootstrap CSS is included in main.css -->
+  <link rel="stylesheet" href="/assets/theme/css/main.css">
+  <link rel="stylesheet" href="/assets/theme/css/fontawesome-all.min.css">
+  <link rel="stylesheet" href="/assets/theme/css/academicons.min.css">
+  <link rel="stylesheet" href="/assets/theme/css/pygments.css">
+  
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i&display=swap" rel="stylesheet">
+  
+  <link rel="alternate" type="application/rss+xml" title="Taxon Concept Standard - RSS feed" href="http://localhost:4000/feed.xml" >
+  <!-- Javascript libraries: loaded at top so templates can use these -->
+  <script src="/assets/theme/js/jquery.min.js"></script>
+  <script src="/assets/theme/js/popper.min.js"></script>
+  <script src="/assets/theme/js/bootstrap.min.js"></script>
+</head>
+
+
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-secondary d-print-none" id="main-nav">
+  <div class="container">
+    <a class="navbar-brand d-flex align-items-center" href="/">
+      
+        <img class="me-3" src="/assets/theme/images/tdwg-logo-short.svg" alt="Taxon Concept Standard">
+      
+      
+        Taxon Concept Standard
+      
+    </a>
+    
+    
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-menu">
+        Menu <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbar-menu">
+        <ul class="navbar-nav ms-auto">
+          
+            
+              <li class="navbar-item">
+                
+                <a class="nav-link" href="/">Home</a>
+              </li>
+            
+          
+            
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                  Introduction
+                </a>
+                <div class="dropdown-menu dropdown-menu-end">
+                  
+                    
+                      
+                      <a class="dropdown-item active" href="/feature-report/">Feature report</a>
+                    
+                  
+                    
+                      
+                      <a class="dropdown-item" href="/implementation-experience-report/">Implementation experience report</a>
+                    
+                  
+                </div>
+              </li>
+            
+          
+            
+              <li class="navbar-item">
+                
+                <a class="nav-link" href="/terms/">Terms</a>
+              </li>
+            
+          
+            
+              <li class="navbar-item">
+                
+                <a class="nav-link" href="https://github.com/tdwg/tcs2">GitHub</a>
+              </li>
+            
+          
+        </ul>
+      </div>
+    
+  </div>
+</nav>
+
+
+    <main>
+      
+
+  <header class="header bg-no-image">
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-10 col-lg-8 position-relative mx-auto">
+          <h1>TCS 2 feature report</h1>
+          
+          <div class="lead">
+</div>
+          
+          
+
+          
+
+          <div class="tags">
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  </header>
+
+
+      <div class="container content">
+          
+        <div class="row">
+  
+  <div class="col-md-10 col-lg-3 mx-auto">
+    <div class="toc">
+      <h6>On this page</h6>
+      <ul><li><a href="#introduction">Introduction</a></li><li><a href="#parameters">Parameters</a></li><li><a href="#changes">Changes</a><ul><li><a href="#relationships-between-taxon-concepts-taxa">Relationships between Taxon Concepts (taxa)</a></li><li><a href="#relationships-between-taxon-concepts-and-taxon-names">Relationships between Taxon Concepts and Taxon Names</a></li><li><a href="#relationships-between-taxon-names">Relationships between Taxon Names</a></li></ul></li><li><a href="#terms-omitted-from-the-initial-release">Terms omitted from the initial release</a></li><li><a href="#place-in-tdwg-ecosystem">Place in TDWG ecosystem</a></li><li><a href="#broader-context-skos-and-openbiodiv-o">Broader context: SKOS and OpenBiodiv-O</a></li><li><a href="#appendix-1-mapping-of-tcs-1-and-tdwg-ontology-terms">Appendix 1: Mapping of TCS 1 and TDWG Ontology terms</a><ul><li><a href="#taxon-concept">Taxon Concept</a></li><li><a href="#taxon-relationship--taxon-relationship-assertion">Taxon Relationship / Taxon Relationship Assertion</a></li><li><a href="#relationship-type-vocabulary">Relationship Type vocabulary</a></li><li><a href="#taxon-concept-type-vocabulary">Taxon Concept type vocabulary</a></li><li><a href="#taxonomic-rank-vocabulary">Taxonomic Rank vocabulary</a></li><li><a href="#microbial-ranks-from-gbif-vocabulary">Microbial ranks (from GBIF vocabulary)</a></li><li><a href="#taxon-name">Taxon Name</a></li><li><a href="#nomenclatural-code-vocabulary">Nomenclatural Code vocabulary</a></li><li><a href="#typification">Typification</a></li><li><a href="#type-of-type-vocabulary">Type of Type vocabulary</a></li></ul></li></ul>
+    </div>
+  </div>
+  
+  <div class="col-md-10 col-lg-8 order-lg-first mx-auto">
+
+    <h1 id="tcs-2-feature-report">TCS 2 feature report</h1>
+
+<h2 id="introduction">Introduction</h2>
+
+<p>The Taxon Concept Schema (TCS) is the TDWG standard for exchanging taxonomic
+data. It is one of the ‘2005’ group of standards, together with Access to
+Biological Collections Data (ABCD) and Structured Descriptive Data (SDD), that
+consists of an XML Schema. Unlike ABCD, TCS did not have a dedicated group of
+users or maintainers and has not been maintained since shortly after it was
+ratified. Any problems that people might have with TCS were never fixed, because
+there was no mechanism for making formal changes to the XML Schema.</p>
+
+<p>As TCS is an XML Schema, data delivered as TCS has to be XML, which was the
+predominant format for data exchange at the time. A few years after TCS was
+ratified, another format, Comma-delimited Values (CSV), became people’s
+preferred format for shipping around large amounts of data, at least in the
+Biodiversity Data domain. Another issue people have with TCS is that it can only
+be used for complete data sets and not for individual Taxon Concepts or Taxon
+Names.</p>
+
+<p>Since Darwin Core was ratified in 2009, the Darwin Core Taxon class has been the
+main vehicle for shipping around taxonomic data. Darwin Core, because it is a
+vocabulary standard, can be delivered in various formats, including CSV.</p>
+
+<p>There has been dissatisfaction with the Darwin Core Taxon class for exchanging
+taxonomic data, however, predominantly because people feel it is too permissive.
+Darwin Core Taxon data may be syntactically correct but have a meaning that is
+incompatible with the consumer’s data model. The Darwin Core Taxon class also
+has references to objects that are not defined and its implementation allows for
+data artefacts that are not taxa by any definition, including that of the Darwin
+Core Taxon itself.</p>
+
+<p>These issues were the reason that the Darwin Core RDF Guide (Darwin Core and
+RDF/OWL Task Groups 2015
+<a href="../bibliography/#darwin_core_and_rdfowl_task_groups_darwin_2015">[darwin_core_and_rdfowl_task_groups_darwin_2015]</a>)
+concluded that the creation of functional <code class="language-plaintext highlighter-rouge">dwc:Taxon</code> instances described using
+RDF was not possible at the time of writing and that the task of describing
+taxonomic entities would have to be an effort outside of Darwin Core. TCS 2 is
+that effort.</p>
+
+<p>In 2017, the Vocabulary Maintenance Standard (VMS) and Standard Documentation
+Standard (SDS) were ratified, which established a mechanism by which existing
+TDWG standards should be maintained and documented. In 2018, the then Taxonomic
+Names and Concepts Interest Group (TNC)—which was also responsible for the
+creation of TCS 1—set out to review TCS, the TDWG Taxon Concept and Taxon Name
+LSID Ontologies, the Darwin Core Taxon class and other systems for exchanging
+taxonomic data that were out there. In 2020, a new charter for the TNC was
+ratified, which made the TNC the Interest Group that maintains TCS and which
+lead to a change of the name of the Interest Group to TCS Maintenance Group. A
+charter for the TCS 2 Task Group, to create the new version of TCS, was ratified
+in 2021.</p>
+
+<p>TCS 2 takes TCS out of its XML Schema and
+converts it to a vocabulary standard, like Darwin Core, that does not impose a
+data format and can be maintained under the VMS.</p>
+
+<h2 id="parameters">Parameters</h2>
+
+<p>The purpose of the current work is to make TCS useable again by changing it from
+an XML Schema to a vocabulary standard. Changes we propose are as far as
+possible only structural and do not affect the meaning of terms. Because TCS 2
+is a vocabulary standard we have had to provide new definitions for many of the
+terms, as in TCS 1 the meaning of elements and attributes was largely implicit,
+but the Taxon Concept and Taxon Name in TCS 2 are the Taxon Concept and Taxon
+Name in TCS 1 and the same goes for all other terms. No completely new terms
+have been added.</p>
+
+<p>Where possible, we borrow terms from other existing standards, rather than
+defining them in TCS. The parsed name properties, as well as some other Taxon
+Name properties, are borrowed from Darwin Core and some Taxon Concept properties
+from Dublin Core. There are some other terms which have been defined in TCS as
+IRI properties, which have literal equivalents in Darwin Core. In most cases,
+they will share the same local name and label.</p>
+
+<p>While the formal TDWG standard we are replacing is an XML Schema (XSD), we were
+influenced by and borrowed from the TDWG <a href="https://github.com/tdwg/ontology/blob/master/ontology/voc/TaxonConcept.rdf">Taxon
+Concept</a>
+and <a href="https://github.com/tdwg/ontology/blob/master/ontology/voc/TaxonName.rdf">Taxon
+Name</a>
+LSID Ontologies, (with non-resolving URIs:
+<code class="language-plaintext highlighter-rouge">http://rs.tdwg.org/ontology/voc/TaxonConcept</code> and
+<code class="language-plaintext highlighter-rouge">http://rs.tdwg.org/ontology/voc/TaxonName</code>), which were primarily developed by
+Roger Hyam. These were a rather precise translation of the TCS XML Schema into
+OWL ontologies. Because the TDWG Ontologies were never standardized, we could
+not directly import terms from them, but, conceptually, much from the TDWG
+Ontologies can be found back in TCS 2.</p>
+
+<h2 id="changes">Changes</h2>
+
+<p>The most important change is that while in TCS 1 only the <code class="language-plaintext highlighter-rouge">Name</code> element is required—and then a <code class="language-plaintext highlighter-rouge">Name</code> can either be a text
+node, so a string, or a reference (<code class="language-plaintext highlighter-rouge">ref</code>) to a <code class="language-plaintext highlighter-rouge">TaxonName</code> element with an <code class="language-plaintext highlighter-rouge">id</code>
+attribute—and the <code class="language-plaintext highlighter-rouge">AccordingTo</code> element is not, in TCS 2 both <code class="language-plaintext highlighter-rouge">taxonName</code> and
+<code class="language-plaintext highlighter-rouge">accordingTo</code> are required and both properties are IRI or object properties.
+Every TCS 2 Taxon Concept object has to have a source, or <code class="language-plaintext highlighter-rouge">accordingTo</code>, which
+is a publication or other other form of communication where a taxon is defined
+in a certain way. This means that every Taxon Concept is traceable to a source
+and identifiable. Every TaxonConcept also must have a label and, while there are
+alternative properties, like <code class="language-plaintext highlighter-rouge">dcterms:title</code> and <code class="language-plaintext highlighter-rouge">dwc:scientificName</code>, for
+providing labels we think that for interoperability of TCS data sets it is
+important that the label is always provided with the same property. Therefore,
+the <code class="language-plaintext highlighter-rouge">taxonName</code> property is also required.</p>
+
+<p>The most important structural change we made was dismantling the Taxon
+Relationship object that both TCS 1 and the Taxon Concept Ontology have. We want
+TCS to be a vocabulary standard, i.e. a set of terms and definitions, so TCS
+should not prescribe a certain syntax.</p>
+
+<p>Another problem with an all-purpose relationship object is that it obscures the
+nature of the relationship. Not all relationship types in TCS 1 are
+relationships between Taxon Concepts, some are relationships between Taxon
+Concepts and Taxon Names. Also, relationships between Taxon Names in TCS 1 are
+elements (owl:objectProperty in the TDWG Taxon Name LSID Ontology), while
+relationships between Taxon Concepts (and some between Taxon Concepts and Taxon
+Names) are values in an enumeration (owl:Class in the TDWG Taxon Concept LSID
+Ontology).</p>
+
+<p>By elevating the values from the Taxon Relationship Type enumeration to
+first-class TCS properties and leaving the syntax out of the standard, people
+can choose whether to connect them to the subject Taxon Concept, or use them in
+a utility object outside TCS, for example the Darwin Core Resource Relationship
+class. The shape of the data may dictate the use of a relationship object, but
+the terms have the same meaning, regardless of the syntax.</p>
+
+<p>The one thing that really needed to be fixed in TCS was the ‘has synonym’
+relationship type. The documentation of the term in TCS 1 already identifies
+‘has synonym’ as a mixed concept:</p>
+
+<blockquote>
+  <p>The target concept is considered a synonym of the current concept. This is an
+ambiguous relationship. It can mean: 1) a nomenclatural relationship where all
+that is implied is that the type of the target concept is included in the
+current circumscription. This is more precisely expressed as a
+SpecimenCircumscription (for heterotypic synonyms) or as TaxonName basionym
+relationships (for homotypic synonyms) 2) a concept relationship where some
+part of (or all of) the target concept is included in the current
+circumscription. This is more precisely expressed using the set relationships
+such as ‘is congruent to’. This is intended for handling legacy data.</p>
+</blockquote>
+
+<p>To resolve this issue, we have split the term into <code class="language-plaintext highlighter-rouge">synonym</code> (for meaning 1) and
+<code class="language-plaintext highlighter-rouge">intersects</code> (for meaning 2). <code class="language-plaintext highlighter-rouge">intersects</code> is a mapping property that is the
+union of the <code class="language-plaintext highlighter-rouge">isCongruentWith</code>, <code class="language-plaintext highlighter-rouge">includes</code>, <code class="language-plaintext highlighter-rouge">isIncludedIn</code> and
+<code class="language-plaintext highlighter-rouge">partiallyOverlaps</code> (and the opposite of <code class="language-plaintext highlighter-rouge">isDisjointFrom</code>) mapping properties
+and thus can be used when the exact nature of the relationship is not known, or
+not indicated. We have found that this relation is not only useful for dealing
+with references to other treatments in the nomenclature section of a treatment
+(what the TCS 1 definition calls ‘legacy data’), but for any references to other
+treatments, <em>e.g.</em> the references in a Catalogue of Life entry (see the
+<a href="https://github.com/tdwg/tcs2/blob/master/examples/megalorhipida-leucodactylus-sec-gielis-et-hobern-2020.ttl"><em>Megalorhipida leucodactylus</em>
+example</a>).</p>
+
+<p>We currently recognise the following relations between the major entities in
+TCS:</p>
+
+<h3 id="relationships-between-taxon-concepts-taxa">Relationships between Taxon Concepts (taxa)</h3>
+
+<h4 id="hierarchical-relationships">Hierarchical relationships</h4>
+
+<ul>
+  <li>tcs:parent</li>
+</ul>
+
+<h4 id="horizontal-relationships">Horizontal relationships<sup>*</sup></h4>
+
+<ul>
+  <li>tcs:isCongruentWith</li>
+  <li>tcs:includes</li>
+  <li>tcs:isIncludedIn</li>
+  <li>tcs:partiallyOverlaps</li>
+  <li>tcs:isDisjointWith</li>
+  <li>tcs:intersects</li>
+</ul>
+
+<p><sup>*</sup>Horizontal relationships between Taxon Concepts are relationships
+between Taxon Concepts in different taxonomies (or different versions of a
+taxonomy), or between Taxon Concepts in rank-free systems, e.g., cladograms.</p>
+
+<h3 id="relationships-between-taxon-concepts-and-taxon-names">Relationships between Taxon Concepts and Taxon Names</h3>
+
+<ul>
+  <li>tcs:taxonName</li>
+  <li>tcs:synonym</li>
+  <li>tcs:vernacularName</li>
+</ul>
+
+<h3 id="relationships-between-taxon-names">Relationships between Taxon Names</h3>
+
+<ul>
+  <li>tcs:basionym</li>
+  <li>tcs:replacedSynonym</li>
+  <li>tcs:basedOn</li>
+  <li>tcs:conservedAgainst</li>
+  <li>tcs:laterHomonymOf</li>
+</ul>
+
+<p>We have included a TaxonConceptMapping class, as it is often useful to have
+objects for Taxon Concept mappings that can be shared. The TaxonConceptMapping
+class replaces the TaxonRelationshipAssertion element in TCS 1, but is only to
+be used with the relationship types that TCS 1 calls ‘set relationships’. In TCS
+2, the properties that can be used as object for the <code class="language-plaintext highlighter-rouge">mappingRelation</code> property
+are the mapping properties, <em>i.e.</em> <code class="language-plaintext highlighter-rouge">isCongruentWith</code>, <code class="language-plaintext highlighter-rouge">includes</code>,
+<code class="language-plaintext highlighter-rouge">isIncludedIn</code>, <code class="language-plaintext highlighter-rouge">partiallyOverlaps</code>, <code class="language-plaintext highlighter-rouge">isDisjointFrom</code> and <code class="language-plaintext highlighter-rouge">intersects</code>.</p>
+
+<p><br /></p>
+
+<p><img src="/media/context-tcs.jpg" alt="" /></p>
+
+<p>A full mapping of elements in the TCS XML Schema to terms in TCS 2 can be found
+in <a href="#appendix-1-mapping-of-tcs-1-and-tdwg-ontology-terms">Appendix 1</a>.</p>
+
+<h2 id="terms-omitted-from-the-initial-release">Terms omitted from the initial release</h2>
+
+<p>The most significant thing that has been left out of TCS 2 for now is the
+circumscription or definition of taxa. TCS 1 has the <code class="language-plaintext highlighter-rouge">CharacterCircumscription</code>
+and <code class="language-plaintext highlighter-rouge">SpecimenCircumscription</code> elements, translated to <code class="language-plaintext highlighter-rouge">DescribedBy</code> and
+<code class="language-plaintext highlighter-rouge">CircumscribedBy</code>, respectively, in the TDWG Ontology. These have been left out
+of the initial release of TCS 2, because we are not aware of any systems using
+them and because it is not immediately apparent how they should be used,
+especially for <code class="language-plaintext highlighter-rouge">CharacterCircumscription</code>, or that they are the only and best
+way to express circumscription in TCS. Just because it is not included yet does
+not mean circumscription is not important. The TCS Maintenance Group has every
+intention of adding circumscription to TCS at a later stage in a separate
+effort. If we are to include circumscription in TCS, it should be done in a way
+that it is operational and computer-tractable. Lists of characters (or
+descriptions) and lists of specimens are better accommodated in other TDWG
+standards, like Plinian Core and SDD.</p>
+
+<p>All parsed name terms, except ‘uninomial’, are in Darwin Core and have been
+borrowed from there. We think that, if people have a need for a ‘uninomial’
+term, it might be best to have that in Darwin Core as well.</p>
+
+<p>Finally, several of the relations in the Taxon Relationship Type enumeration
+have not (yet) been included as properties. Some of these are negations of
+adopted terms that are in groups of more than two, making their meaning
+ambiguous, e.g. <code class="language-plaintext highlighter-rouge">does not include</code>. Others, like the hybrid parent terms seem to
+have more to do with the format of hybrid formulas than with relationships
+between taxa, and yet others, e.g., <code class="language-plaintext highlighter-rouge">anamorph of</code>, only apply to certain groups
+of organisms and are not used in systems designed specifically for these groups.</p>
+
+<h2 id="place-in-tdwg-ecosystem">Place in TDWG ecosystem</h2>
+
+<p>Unlike other TDWG standards like Audiovisual Core and Latimer Core—and also
+unlike the time when TCS shared the stage with ABCD and SDD—TCS does not have
+its own subdomain within the TDWG infrastructure but falls completely within the
+domain that is also covered by Darwin Core. TCS shines where the data becomes more structured and more semantic.</p>
+
+<p>The figure below shows the application profiles that already exist or are being
+planned in the domain that is covered by Darwin Core.</p>
+
+<p><img src="/media/tdwg-infrastructure.drawio.svg" alt="" /></p>
+
+<p>On the left is occurrence or specimen data and on the right is taxonomic and
+nomenclatural data. From top to bottom, or from Darwin Core Archive to
+Frictionless Data Package to RDF, the structure of and semantics in the data
+increases.</p>
+
+<p>The niche of TCS is in the bottom-right of the figure. It has already been said
+before that the Darwin Core Taxon class does not work with RDF and that TCS is
+meant to fill the gap. It is to be expected that the Darwin Core Data Package
+(DwC-DP) will not have an equivalent to the Darwin Core Archive Taxon Core,
+because the Catalogue of Life Data Package (CoLDP) already occupies that space.
+CoLDP has got two different schemas, one with a NameUsage table, which is
+equivalent to the Darwin Core Taxon, and another with Taxon and Name tables,
+which are equivalent to the TCS Taxon Concept and Taxon Name respectively. The
+latter schema is already very nearly TCS compliant. It is therefore the
+intention that we won’t develop a TDWG TCS Data Package, but that we work with
+Catalogue of Life to make ColDP fully TCS compliant, so that CoLDP can be the
+Data Package application profile for TCS.</p>
+
+<h2 id="broader-context-skos-and-openbiodiv-o">Broader context: SKOS and OpenBiodiv-O</h2>
+
+<p>TCS can be usefully compared with SKOS (Simple Knowledge Organization System),
+with the Taxon Concept equivalent to the <code class="language-plaintext highlighter-rouge">skos:Concept</code> and the Taxon Name to
+the <code class="language-plaintext highlighter-rouge">skosxl:Label</code>. The taxonomy or publication the Taxon Concepts are in can be
+compared to the <code class="language-plaintext highlighter-rouge">skos:ConceptScheme</code> and therefore the <code class="language-plaintext highlighter-rouge">accordingTo</code> property to
+the <code class="language-plaintext highlighter-rouge">skos:inScheme</code> property. <code class="language-plaintext highlighter-rouge">taxonName</code>, <code class="language-plaintext highlighter-rouge">synonym</code> and <code class="language-plaintext highlighter-rouge">vernacularName</code> can be
+seen as <code class="language-plaintext highlighter-rouge">skosxl:prefLabel</code>, <code class="language-plaintext highlighter-rouge">skosxl:hiddenLabel</code> and <code class="language-plaintext highlighter-rouge">skosxl:altLabel</code>
+respectively. Relationships between names are <code class="language-plaintext highlighter-rouge">skosxl:labelRelation</code> properties
+and relationships between taxa <code class="language-plaintext highlighter-rouge">skos:semanticRelation</code> properties, with the
+hierarchical relationships being <code class="language-plaintext highlighter-rouge">skos:broader</code> and <code class="language-plaintext highlighter-rouge">skos:narrower</code> and the
+horizontal ones <code class="language-plaintext highlighter-rouge">skos:mappingRelation</code>s. In SKOS, <code class="language-plaintext highlighter-rouge">skos:broader</code> and
+<code class="language-plaintext highlighter-rouge">skos:narrower</code> are used between Concepts in the same Concept Scheme, while the
+<code class="language-plaintext highlighter-rouge">skos:mappingRelation</code> properties are used to map Concepts from different
+Concept Schemes. Likewise, in TCS, hierarchical relationship terms are only used
+within the same taxonomy, while the horizontal relationship terms are primarily
+used to align Taxon Concepts between different taxonomies or different versions
+of a taxonomy.</p>
+
+<p><img src="/media/context-skos.jpg" alt="" /></p>
+
+<p><br /></p>
+
+<p><strong>Table 1</strong>: Mapping of TCS relations to SKOS terms</p>
+
+<div class="table-responsive"><table class="table">
+  <thead>
+    <tr>
+      <th>TCS</th>
+      <th>SKOS</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>tcs:TaxonConcept</strong></td>
+      <td><strong>skos:Concept</strong></td>
+    </tr>
+    <tr>
+      <td>tcs:accordingTo</td>
+      <td>skos:inScheme</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>tcs:taxonName</td>
+      <td>skosxl:prefLabel</td>
+    </tr>
+    <tr>
+      <td>tcs:synonym</td>
+      <td>skosxl:hiddenLabel</td>
+    </tr>
+    <tr>
+      <td>tcs:vernacularName</td>
+      <td>skosxl:altLabel</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>tcs:parent</td>
+      <td>skos:broader</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>tcs:isCongruentWith</td>
+      <td>skos:closeMatch</td>
+    </tr>
+    <tr>
+      <td>tcs:includes</td>
+      <td>skos:narrowMatch</td>
+    </tr>
+    <tr>
+      <td>tcs:isIncludedIn</td>
+      <td>skos:broadMatch</td>
+    </tr>
+    <tr>
+      <td>tcs:partiallyOverlaps</td>
+      <td>skos:relatedMatch</td>
+    </tr>
+    <tr>
+      <td>tcs:isDisjointWith</td>
+      <td>skos:relatedMatch</td>
+    </tr>
+    <tr>
+      <td>tcs:intersects</td>
+      <td>skos:relatedMatch</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><strong>tcs:TaxonName</strong></td>
+      <td><strong>skosxl:Label</strong></td>
+    </tr>
+    <tr>
+      <td>tcs:nameString</td>
+      <td>skosxl:literalForm</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>tcs:basionym</td>
+      <td>skosxl:labelRelation</td>
+    </tr>
+    <tr>
+      <td>tcs:replacedSynonym</td>
+      <td>skosxl:labelRelation</td>
+    </tr>
+    <tr>
+      <td>tcs:conservedAgainst</td>
+      <td>skosxl:labelRelation</td>
+    </tr>
+    <tr>
+      <td>tcs:spellingCorrectionOf</td>
+      <td>skosxl:labelRelation</td>
+    </tr>
+    <tr>
+      <td>tcs:laterHomonymOf</td>
+      <td>skosxl:labelRelation</td>
+    </tr>
+  </tbody>
+</table></div>
+
+<p><br /><br /></p>
+
+<p>The OpenBiodiv Ontology (OpenBiodiv-O) defines the <code class="language-plaintext highlighter-rouge">TaxonomicConcept</code> as a Work
+under the FRBR (Functional Requirements for Bibliographic Records) data model as
+well as a SKOS Concept. A <code class="language-plaintext highlighter-rouge">Work</code> in FRBR is the product of an intellectual
+process of one or more persons, about which only indirect evidence is at our
+hand. The Expression that realises this Work is the Treatment. While in FRBR a
+Work can have more than one Expression, there is a one-to-one relationship
+between Taxonomic Concept and Treatment in OpenBiodiv-O. This is exactly how we
+think of Taxon Concepts in TCS and forms a nice bridge between Taxon (or
+Taxonomic) Concepts and the literature. Librarians among us will recognise FRBR
+as the data model, or one of the data models, behind RDA (Resource Description
+and Access), a cataloguing standard that is used world-wide.</p>
+
+<p>One or more Treatments are contained in a <code class="language-plaintext highlighter-rouge">TaxonomicArticle</code>. Therefore, the
+<code class="language-plaintext highlighter-rouge">accordingTo</code> property in TCS can point to either a Taxonomic Article or an
+individual Treatment. It should be noted that the Taxonomic Article and
+everything contained in it have no counterparts in TCS and that TCS relies on
+other specifications for those.</p>
+
+<p>In other respects, TCS is a bit broader than OpenBiodiv-O. Every
+<code class="language-plaintext highlighter-rouge">OperationalTaxonomicUnit</code>, which is a superclass of <code class="language-plaintext highlighter-rouge">TaxonomicConcept</code> in
+OpenBiodiv-O, can be expressed as a TCS Taxon Concept, if there is a reason to
+do so. Also, there are categories of Taxon Concepts that TCS needs to be able to
+deal with, like entries in Catalogue of Life or AviBase, that, while fitting the
+definition of a Taxonomic Concept, can (probably) not be expressed in
+OpenBiodiv-O.</p>
+
+<p>The <code class="language-plaintext highlighter-rouge">RCC5Statement</code> in OpenBiodiv-O is equivalent to the <code class="language-plaintext highlighter-rouge">TaxonConceptMapping</code>
+in TCS.</p>
+
+<p><br /></p>
+
+<p><img src="/media/context-openbiodiv-o.jpg" alt="" /></p>
+
+<p><br /><br /></p>
+
+<h2 id="appendix-1-mapping-of-tcs-1-and-tdwg-ontology-terms">Appendix 1: Mapping of TCS 1 and TDWG Ontology terms</h2>
+
+<p><img src="../media/tdwg/tdwg-infrastructure.drawio.svg" alt="" /></p>
+
+<h3 id="taxon-concept">Taxon Concept</h3>
+
+<div class="table-responsive"><table class="table">
+  <thead>
+    <tr>
+      <th>TCS 1</th>
+      <th>TDWG Ontology</th>
+      <th>TCS 2</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>/DataSet/TaxonConcepts/TaxonConcept</td>
+      <td><a href="https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonConcept.ttl#L36">tc:TaxonConcept</a></td>
+      <td><strong><a href="https://github.com/tdwg/tcs2/tree/master/docs/tcs-terms#tcstaxonconcept">TaxonConcept</a></strong></td>
+    </tr>
+    <tr>
+      <td>/DataSet/TaxonConcepts/TaxonConcept/@type</td>
+      <td>—</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <td>/DataSet/TaxonConcepts/TaxonConcept/Rank</td>
+      <td><a href="https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonConcept.ttl#L142">tc:rankString</a></td>
+      <td><a href="https://github.com/tdwg/tcs2/tree/master/docs/tcs-terms#dwcverbatimtaxonrank">dwc:verbatimTaxonRank</a></td>
+    </tr>
+    <tr>
+      <td>/DataSet/TaxonConcepts/TaxonConcept/Rank/@code</td>
+      <td><a href="https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonConcept.ttl#L157">tc:rank</a></td>
+      <td><a href="https://github.com/tdwg/tcs2/tree/master/docs/tcs-terms#tcstaxonomicrank">taxonomicRank</a></td>
+    </tr>
+    <tr>
+      <td>/DataSet/TaxonConcepts/TaxonConcept/Name</td>
+      <td><a href="https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonConcept.ttl#L72">tc:nameString</a></td>
+      <td><a href="https://github.com/tdwg/tcs2/tree/master/docs/tcs-terms#dctermstitle">dcterms:title</a> | <a href="https://github.com/tdwg/tcs2/tree/master/docs/tcs-terms#dwcscientificname">dwc:scientificName</a> | <a href="https://github.com/tdwg/tcs2/tree/master/docs/tcs-terms#dwcvernacularname">dwc:vernacularName</a></td>
+    </tr>
+    <tr>
+      <td>/DataSet/TaxonConcepts/TaxonConcept/Name/@ref</td>
+      <td><a href="https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonConcept.ttl#L65">tc:hasName</a></td>
+      <td><a href="https://github.com/tdwg/tcs2/tree/master/docs/tcs-terms#tcstaxonname">taxonName</a></td>
+    </tr>
+    <tr>
+      <td>/DataSet/TaxonConcepts/TaxonConcept/AccordingTo/AccordingToDetailed</td>
+      <td><a href="https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonConcept.ttl#L50">tc:accordingTo</a></td>
+      <td><a href="https://github.com/tdwg/tcs2/tree/master/docs/tcs-terms#tcsaccordingto">accordingTo</a></td>
+    </tr>
+    <tr>
+      <td>/DataSet/TaxonConcepts/TaxonConcept/AccordingTo/AccordingToSimple</td>
+      <td><a href="https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonConcept.ttl#L58">tc:accordingToString</a></td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <td>/DataSet/TaxonConcepts/TaxonConcept/SpecimenCircumscription</td>
+      <td><a href="https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonConcept.ttl#L80">tc:circumscribedBy</a></td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <td>/DataSet/TaxonConcepts/TaxonConcept/CharacterCircumscription</td>
+      <td><a href="https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonConcept.ttl#L87">tc:describedBy</a></td>
+      <td>—</td>
+    </tr>
+  </tbody>
+</table></div>
+
+<h3 id="taxon-relationship--taxon-relationship-assertion">Taxon Relationship / Taxon Relationship Assertion</h3>
+
+<p><sup>*</sup> TaxonConceptMapping in TCS 2 is only used for the subset of relationship types that TCS 1 calls set relationships.</p>
+
+<div class="table-responsive"><table class="table">
+  <thead>
+    <tr>
+      <th>TCS 1</th>
+      <th>TDWG Ontology</th>
+      <th>TCS 2<sup>*</sup></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>/DataSet/TaxonConcepts/TaxonConcept/TaxonRelationships/TaxonRelationship | /DataSet/TaxonRelationshipAssertions/TaxonRelationshipAssertion</td>
+      <td><a href="https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonConcept.ttl#L42">tc:Relationship</a></td>
+      <td><a href="https://github.com/tdwg/tcs2/tree/master/docs/tcs-terms#tcstaxonconceptmapping">TaxonConceptMapping</a></td>
+    </tr>
+    <tr>
+      <td>/DataSet/TaxonConcepts/TaxonConcept/Relationships/Relationship/@type | /DataSet/TaxonRelationshipAssertions/TaxonRelationshipAssertion/@type</td>
+      <td><a href="https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonConcept.ttl#L128">tc:relationshipCategory</a></td>
+      <td><a href="https://github.com/tdwg/tcs2/tree/master/docs/tcs-terms#tcsmappingrelation">mappingRelation</a></td>
+    </tr>
+    <tr>
+      <td>/DataSet/TaxonRelationshipAssertions/TaxonRelationshipAssertion/FromTaxonConcept</td>
+      <td><a href="https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonConcept.ttl#L94">tc:fromTaxon</a></td>
+      <td><a href="https://github.com/tdwg/tcs2/tree/master/docs/tcs-terms#tcssubjecttaxonconcept">subjectTaxonConcept</a></td>
+    </tr>
+    <tr>
+      <td>/DataSet/TaxonRelationshipAssertions/TaxonRelationshipAssertion/ToTaxonConcept | /DataSet/TaxonConcepts/TaxonConcept/TaxonRelationships/TaxonRelationship/ToTaxonConcept</td>
+      <td><a href="https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonConcept.ttl#L134">tc:toTaxon</a></td>
+      <td><a href="https://github.com/tdwg/tcs2/tree/master/docs/tcs-terms#tcsobjecttaxonconcept">objectTaxonConcept</a></td>
+    </tr>
+    <tr>
+      <td>/DataSet/TaxonRelationshipAssertions/TaxonRelationshipAssertion/AccordingTo</td>
+      <td>—</td>
+      <td><a href="https://github.com/tdwg/tcs2/tree/master/docs/tcs-terms#tcsmappingaccordingto">mappingAccordingTo</a></td>
+    </tr>
+  </tbody>
+</table></div>
+
+<p><br /></p>
+
+<h3 id="relationship-type-vocabulary">Relationship Type vocabulary</h3>
+
+<div class="table-responsive"><table class="table">
+  <thead>
+    <tr>
+      <th>TCS 1</th>
+      <th>TDWG Ontology</th>
+      <th>TCS 2</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>is congruent to</td>
+      <td><a href="https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonConcept.ttl#L252">tc:IsCongruentTo</a></td>
+      <td><a href="https://github.com/tdwg/tcs2/tree/master/docs/tcs-terms#tcsiscongruentwith">isCongruentWith</a></td>
+    </tr>
+    <tr>
+      <td>is not congruent to</td>
+      <td><a href="https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonConcept.ttl#L299">tc:IsNotCongruentTo</a></td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <td>includes</td>
+      <td><a href="https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonConcept.ttl#L222">tc:Includes</a></td>
+      <td><a href="https://github.com/tdwg/tcs2/tree/master/docs/tcs-terms#tcsincludes">includes</a></td>
+    </tr>
+    <tr>
+      <td>does not include</td>
+      <td><a href="https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonConcept.ttl#L178">tc:DoesNotInclude</a></td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <td>excludes</td>
+      <td><a href="https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonConcept.ttl#L191">tc:Excludes</a></td>
+      <td><a href="https://github.com/tdwg/tcs2/tree/master/docs/tcs-terms#tcsisdisjointfrom">isDisjointFrom</a></td>
+    </tr>
+    <tr>
+      <td>is included in</td>
+      <td><a href="https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonConcept.ttl#L286">tc:IsIncludedIn</a></td>
+      <td><a href="https://github.com/tdwg/tcs2/tree/master/docs/tcs-terms#tcsisincludedin">isIncludedIn</a></td>
+    </tr>
+    <tr>
+      <td>is not included in</td>
+      <td><a href="https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonConcept.ttl#L306">tc:IsNotIncludedIn</a></td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <td>overlaps</td>
+      <td><a href="https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonConcept.ttl#L357">tc:Overlaps</a></td>
+      <td><a href="https://github.com/tdwg/tcs2/tree/master/docs/tcs-terms#tcspartiallyoverlaps">partiallyOverlaps</a></td>
+    </tr>
+    <tr>
+      <td>does not overlap</td>
+      <td><a href="https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonConcept.ttl#L184">tc:DoesNotOverlap</a></td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>is child taxon of</td>
+      <td><a href="https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonConcept.ttl#L245">tc:IsChildTaxonOf</a></td>
+      <td><a href="https://github.com/tdwg/tcs2/tree/master/docs/tcs-terms#tcsparent">parent</a></td>
+    </tr>
+    <tr>
+      <td>is parent taxon of</td>
+      <td><a href="https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonConcept.ttl#L312">tc:IsParentTaxonOf</a></td>
+      <td><a href="https://github.com/tdwg/tcs2/tree/master/docs/tcs-terms#tcschild">child</a></td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>is anamorph of</td>
+      <td><a href="https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonConcept.ttl#L237">tc:IsAnamorphOf</a></td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <td>is teleomorph of</td>
+      <td><a href="https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonConcept.ttl#L340">tc:IsTeleomorphOf</a></td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>is second parent of</td>
+      <td><a href="https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonConcept.ttl#L319">tc:IsSecondParentOf</a></td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <td>is female parent of</td>
+      <td><a href="https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonConcept.ttl#L259">tc:IsFemaleParentOf</a></td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <td>is first parent of</td>
+      <td><a href="https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonConcept.ttl#L265">tc:IsFirstParentOf</a></td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <td>is male parent of</td>
+      <td><a href="https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonConcept.ttl#292">tc:IsMaleParentOf</a></td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <td>is hybrid parent of</td>
+      <td><a href="https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonConcept.ttl#279">tc:sHybridParentOf</a></td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <td>is hybrid child of</td>
+      <td><a href="https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonConcept.ttl#272">tc:IsHybridChildOf</a></td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>is ambiregnal of</td>
+      <td><a href="https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonConcept.ttl#228">tc:IsAmbiregnalOf</a></td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>is vernacular for</td>
+      <td><a href="https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonConcept.ttl#348">tc:IsVernacularFor</a></td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <td>has vernacular</td>
+      <td><a href="https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonConcept.ttl#212">tc:HasVernacular</a></td>
+      <td><a href="https://github.com/tdwg/tcs2/tree/master/docs/tcs-terms#tcsvernacularname">vernacularName</a></td>
+    </tr>
+    <tr>
+      <td>has synonym</td>
+      <td><a href="https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonConcept.ttl#L198">tc:HasSynonym</a></td>
+      <td><a href="https://github.com/tdwg/tcs2/tree/master/docs/tcs-terms#tcssynonym">synonym</a> | <a href="https://github.com/tdwg/tcs2/tree/master/docs/tcs-terms#tcsintersects">intersects</a></td>
+    </tr>
+  </tbody>
+</table></div>
+
+<p><br /></p>
+
+<h3 id="taxon-concept-type-vocabulary">Taxon Concept type vocabulary</h3>
+
+<div class="table-responsive"><table class="table">
+  <thead>
+    <tr>
+      <th>TCS 1</th>
+      <th>TDWG Ontology</th>
+      <th>TCS 2</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>original</td>
+      <td>—</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <td>revision</td>
+      <td>—</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <td>incomplete</td>
+      <td>—</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <td>aggregate</td>
+      <td>—</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <td>nominal</td>
+      <td>—</td>
+      <td>—</td>
+    </tr>
+  </tbody>
+</table></div>
+
+<p><br /></p>
+
+<h3 id="taxonomic-rank-vocabulary">Taxonomic Rank vocabulary</h3>
+
+<p><sup>*</sup> TCS 2 recommends the <a href="https://rs.gbif.org/vocabulary/gbif/rank_2015-04-24.xml">Taxonomic Rank GBIF Vocabulary</a></p>
+
+<h4 id="taxonomicrankabovesuperfamilyenum">TaxonomicRankAboveSuperfamilyEnum</h4>
+
+<div class="table-responsive"><table class="table">
+  <thead>
+    <tr>
+      <th>TCS 1</th>
+      <th>TDWG Ontology</th>
+      <th>TCS 2<sup>*</sup></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>dom</td>
+      <td>—</td>
+      <td><a href="http://rs.gbif.org/vocabulary/gbif/rank/domain">domain</a></td>
+    </tr>
+    <tr>
+      <td>superreg</td>
+      <td>—</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <td>reg</td>
+      <td>—</td>
+      <td><a href="http://rs.gbif.org/vocabulary/gbif/rank/kingdom">kingdom</a></td>
+    </tr>
+    <tr>
+      <td>subreg</td>
+      <td>—</td>
+      <td><a href="http://rs.gbif.org/vocabulary/gbif/rank/subkingdom">subkingdom</a></td>
+    </tr>
+    <tr>
+      <td>infrareg</td>
+      <td>—</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <td>superphyl_div</td>
+      <td>—</td>
+      <td><a href="http://rs.gbif.org/vocabulary/gbif/rank/superphylum">superphylum</a></td>
+    </tr>
+    <tr>
+      <td>phyl_div</td>
+      <td>—</td>
+      <td><a href="http://rs.gbif.org/vocabulary/gbif/rank/phylum">phylum</a></td>
+    </tr>
+    <tr>
+      <td>subphyl_div</td>
+      <td>—</td>
+      <td><a href="http://rs.gbif.org/vocabulary/gbif/rank/subphylum">subphylum</a></td>
+    </tr>
+    <tr>
+      <td>infraphyl_div</td>
+      <td>—</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <td>supercl</td>
+      <td>—</td>
+      <td><a href="http://rs.gbif.org/vocabulary/gbif/rank/superclass">superclass</a></td>
+    </tr>
+    <tr>
+      <td>cl</td>
+      <td>—</td>
+      <td><a href="http://rs.gbif.org/vocabulary/gbif/rank/class">class</a></td>
+    </tr>
+    <tr>
+      <td>subcl</td>
+      <td>—</td>
+      <td><a href="http://rs.gbif.org/vocabulary/gbif/rank/subclass">subclass</a></td>
+    </tr>
+    <tr>
+      <td>infracl</td>
+      <td>—</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <td>—</td>
+      <td>—</td>
+      <td><a href="http://rs.gbif.org/vocabulary/gbif/rank/supercohort">supercohort</a></td>
+    </tr>
+    <tr>
+      <td>—</td>
+      <td>—</td>
+      <td><a href="http://rs.gbif.org/vocabulary/gbif/rank/cohort">cohort</a></td>
+    </tr>
+    <tr>
+      <td>—</td>
+      <td>—</td>
+      <td><a href="http://rs.gbif.org/vocabulary/gbif/rank/subcohort">subcohort</a></td>
+    </tr>
+    <tr>
+      <td>superord</td>
+      <td>—</td>
+      <td><a href="http://rs.gbif.org/vocabulary/gbif/rank/superorder">superorder</a></td>
+    </tr>
+    <tr>
+      <td>ord</td>
+      <td>—</td>
+      <td><a href="http://rs.gbif.org/vocabulary/gbif/rank/order">order</a></td>
+    </tr>
+    <tr>
+      <td>subord</td>
+      <td>—</td>
+      <td><a href="http://rs.gbif.org/vocabulary/gbif/rank/suborder">suborder</a></td>
+    </tr>
+    <tr>
+      <td>infraord</td>
+      <td>—</td>
+      <td><a href="http://rs.gbif.org/vocabulary/gbif/rank/infraorder">infraorder</a></td>
+    </tr>
+    <tr>
+      <td>taxsupragen</td>
+      <td>—</td>
+      <td>—</td>
+    </tr>
+  </tbody>
+</table></div>
+
+<p><br /></p>
+
+<h4 id="taxonomicrankfamilygroupenum">TaxonomicRankFamilyGroupEnum</h4>
+
+<div class="table-responsive"><table class="table">
+  <thead>
+    <tr>
+      <th>TCS 1</th>
+      <th>TDWG Ontology</th>
+      <th>TCS 2<sup>*</sup></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>superfam</td>
+      <td>—</td>
+      <td><a href="http://rs.gbif.org/vocabulary/gbif/rank/superfamily">superfamily</a></td>
+    </tr>
+    <tr>
+      <td>fam</td>
+      <td>—</td>
+      <td><a href="http://rs.gbif.org/vocabulary/gbif/rank/family">family</a></td>
+    </tr>
+    <tr>
+      <td>subfam</td>
+      <td>—</td>
+      <td><a href="http://rs.gbif.org/vocabulary/gbif/rank/subfamily">subfamily</a></td>
+    </tr>
+    <tr>
+      <td>infrafam</td>
+      <td>—</td>
+      <td>—</td>
+    </tr>
+  </tbody>
+</table></div>
+
+<p><br /></p>
+
+<h4 id="taxonomicrankfamilysubdivisionenum">TaxonomicRankFamilySubdivisionEnum</h4>
+
+<div class="table-responsive"><table class="table">
+  <thead>
+    <tr>
+      <th>TCS 1</th>
+      <th>TDWG Ontology</th>
+      <th>TCS 2<sup>*</sup></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>supertrib</td>
+      <td>—</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <td>trib</td>
+      <td>—</td>
+      <td><a href="http://rs.gbif.org/vocabulary/gbif/rank/tribe">tribe</a></td>
+    </tr>
+    <tr>
+      <td>subtrib</td>
+      <td>—</td>
+      <td><a href="http://rs.gbif.org/vocabulary/gbif/rank/subtribe">subtribe</a></td>
+    </tr>
+    <tr>
+      <td>infratrib</td>
+      <td>—</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <td>—</td>
+      <td>—</td>
+      <td><a href="http://rs.gbif.org/vocabulary/gbif/rank/supragenericname">supragenericname</a></td>
+    </tr>
+  </tbody>
+</table></div>
+
+<p><br /></p>
+
+<h4 id="taxonomicrankgenusgroupenum">TaxonomicRankGenusGroupEnum</h4>
+
+<div class="table-responsive"><table class="table">
+  <thead>
+    <tr>
+      <th>TCS 1</th>
+      <th>TDWG Ontology</th>
+      <th>TCS 2<sup>*</sup></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>gen</td>
+      <td>—</td>
+      <td><a href="http://rs.gbif.org/vocabulary/gbif/rank/genus">genus</a></td>
+    </tr>
+    <tr>
+      <td>subgen</td>
+      <td>—</td>
+      <td><a href="http://rs.gbif.org/vocabulary/gbif/rank/subgenus">subgenus</a></td>
+    </tr>
+    <tr>
+      <td>infragen</td>
+      <td>—</td>
+      <td>—</td>
+    </tr>
+  </tbody>
+</table></div>
+
+<p><br /></p>
+
+<h4 id="taxonomicrankgenussubdivisionenum">TaxonomicRankGenusSubdivisionEnum</h4>
+
+<div class="table-responsive"><table class="table">
+  <thead>
+    <tr>
+      <th>TCS 1</th>
+      <th>TDWG Ontology</th>
+      <th>TCS 2<sup>*</sup></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>sect</td>
+      <td>—</td>
+      <td><a href="http://rs.gbif.org/vocabulary/gbif/rank/section">section</a></td>
+    </tr>
+    <tr>
+      <td>subsect</td>
+      <td>—</td>
+      <td><a href="http://rs.gbif.org/vocabulary/gbif/rank/subsection">subsection</a></td>
+    </tr>
+    <tr>
+      <td>ser</td>
+      <td>—</td>
+      <td><a href="http://rs.gbif.org/vocabulary/gbif/rank/series">series</a></td>
+    </tr>
+    <tr>
+      <td>subser</td>
+      <td>—</td>
+      <td><a href="http://rs.gbif.org/vocabulary/gbif/rank/subseries">subseries</a></td>
+    </tr>
+    <tr>
+      <td>aggr</td>
+      <td>—</td>
+      <td><a href="http://rs.gbif.org/vocabulary/gbif/rank/speciesAggregate">speciesAggregate</a></td>
+    </tr>
+    <tr>
+      <td>taxinfragen</td>
+      <td>—</td>
+      <td>—</td>
+    </tr>
+  </tbody>
+</table></div>
+
+<p><br /></p>
+
+<h4 id="taxonomicrankspeciesgroupenum">TaxonomicRankSpeciesGroupEnum</h4>
+
+<div class="table-responsive"><table class="table">
+  <thead>
+    <tr>
+      <th>TCS 1</th>
+      <th>TDWG Ontology</th>
+      <th>TCS 2<sup>*</sup></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>sp</td>
+      <td>—</td>
+      <td><a href="http://rs.gbif.org/vocabulary/gbif/rank/species">species</a></td>
+    </tr>
+    <tr>
+      <td>subsp_aggr</td>
+      <td>—</td>
+      <td><a href="http://rs.gbif.org/vocabulary/gbif/rank/subspecificAggregate">subspecificAggregate</a></td>
+    </tr>
+    <tr>
+      <td>subsp</td>
+      <td>—</td>
+      <td><a href="http://rs.gbif.org/vocabulary/gbif/rank/subspecies">subspecies</a></td>
+    </tr>
+  </tbody>
+</table></div>
+
+<p><br /></p>
+
+<h4 id="taxonomicrankbelowsubspeciesenum">TaxonomicRankBelowSubspeciesEnum</h4>
+
+<div class="table-responsive"><table class="table">
+  <thead>
+    <tr>
+      <th>TCS 1</th>
+      <th>TDWG Ontology</th>
+      <th>TCS 2<sup>*</sup></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>bv</td>
+      <td>—</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <td>pv</td>
+      <td>—</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <td>var</td>
+      <td>—</td>
+      <td><a href="http://rs.gbif.org/vocabulary/gbif/rank/variety">variety</a></td>
+    </tr>
+    <tr>
+      <td>subvar</td>
+      <td>—</td>
+      <td><a href="http://rs.gbif.org/vocabulary/gbif/rank/subvariety">subvariety</a></td>
+    </tr>
+    <tr>
+      <td>subsubvar</td>
+      <td>—</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <td>fm</td>
+      <td>—</td>
+      <td><a href="http://rs.gbif.org/vocabulary/gbif/rank/form">form</a></td>
+    </tr>
+    <tr>
+      <td>subfm</td>
+      <td>—</td>
+      <td><a href="http://rs.gbif.org/vocabulary/gbif/rank/subform">subform</a></td>
+    </tr>
+    <tr>
+      <td>subsubfm</td>
+      <td>—</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <td>fsp</td>
+      <td>—</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <td>taxinfrasp</td>
+      <td>—</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <td>cand</td>
+      <td>—</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <td>infrasp</td>
+      <td>—</td>
+      <td><a href="http://rs.gbif.org/vocabulary/gbif/rank/infraspecificname">infraspecificname</a></td>
+    </tr>
+  </tbody>
+</table></div>
+
+<p><br /></p>
+
+<h4 id="taxonomicrankcultivatedplants">TaxonomicRankCultivatedPlants</h4>
+
+<div class="table-responsive"><table class="table">
+  <thead>
+    <tr>
+      <th>TCS 1</th>
+      <th>TDWG Ontology</th>
+      <th>TCS 2<sup>*</sup></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>cvgroup</td>
+      <td>—</td>
+      <td><a href="http://rs.gbif.org/vocabulary/gbif/rank/cultivarGroup">cultivarGroup</a></td>
+    </tr>
+    <tr>
+      <td>grex</td>
+      <td>—</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <td>cv</td>
+      <td>—</td>
+      <td><a href="http://rs.gbif.org/vocabulary/gbif/rank/cultivar">cultivar</a></td>
+    </tr>
+    <tr>
+      <td>convar</td>
+      <td>—</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <td>graftchimaera</td>
+      <td>—</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <td>denomclass</td>
+      <td>—</td>
+      <td>—</td>
+    </tr>
+  </tbody>
+</table></div>
+
+<p><br /></p>
+
+<h3 id="microbial-ranks-from-gbif-vocabulary">Microbial ranks (from GBIF vocabulary)</h3>
+
+<div class="table-responsive"><table class="table">
+  <thead>
+    <tr>
+      <th>TCS 1</th>
+      <th>TDWG Ontology</th>
+      <th>TCS 2</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>—</td>
+      <td>—</td>
+      <td><a href="http://rs.gbif.org/vocabulary/gbif/rank/pathovar">pathovar</a></td>
+    </tr>
+    <tr>
+      <td>—</td>
+      <td>—</td>
+      <td><a href="http://rs.gbif.org/vocabulary/gbif/rank/biovar">biovar</a></td>
+    </tr>
+    <tr>
+      <td>—</td>
+      <td>—</td>
+      <td><a href="http://rs.gbif.org/vocabulary/gbif/rank/chemovar">chemovar</a></td>
+    </tr>
+    <tr>
+      <td>—</td>
+      <td>—</td>
+      <td><a href="http://rs.gbif.org/vocabulary/gbif/rank/morphovar">morphovar</a></td>
+    </tr>
+    <tr>
+      <td>—</td>
+      <td>===</td>
+      <td><a href="http://rs.gbif.org/vocabulary/gbif/rank/serovar">serovar</a></td>
+    </tr>
+    <tr>
+      <td>—</td>
+      <td>—</td>
+      <td><a href="http://rs.gbif.org/vocabulary/gbif/rank/chemoform">chemoform</a></td>
+    </tr>
+    <tr>
+      <td>—</td>
+      <td>—</td>
+      <td><a href="http://rs.gbif.org/vocabulary/gbif/rank/formaspecialis">formaspecialis</a></td>
+    </tr>
+    <tr>
+      <td>—</td>
+      <td>—</td>
+      <td><a href="http://rs.gbif.org/vocabulary/gbif/rank/strain">strain</a></td>
+    </tr>
+  </tbody>
+</table></div>
+
+<p><br /></p>
+
+<h3 id="taxon-name">Taxon Name</h3>
+
+<div class="table-responsive"><table class="table">
+  <thead>
+    <tr>
+      <th>TCS 1</th>
+      <th>TDWG Ontology</th>
+      <th>TCS 2</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>/DataSet/TaxonNames/TaxonName</td>
+      <td><a href="https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L29">tn:TaxonName</a></td>
+      <td><strong><a href="https://github.com/tdwg/tcs2/tree/master/docs/tcs-terms#tcstaxonname">TaxonName</a></strong></td>
+    </tr>
+    <tr>
+      <td>/DataSet/TaxonNames/TaxonName/@nomenclaturalCode</td>
+      <td><a href="https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L173">tn:nomenclaturalCode</a></td>
+      <td><a href="https://github.com/tdwg/tcs2/tree/master/docs/tcs-terms#tcsnomenclaturalcode">nomenclaturalCode</a></td>
+    </tr>
+    <tr>
+      <td>/DataSet/TaxonNames/TaxonName/@isAnamorphic</td>
+      <td>—</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <td>/DataSet/TaxonNames/TaxonName/Simple</td>
+      <td><a href="https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L161">tn:nameComplete</a></td>
+      <td><a href="https://github.com/tdwg/tcs2/tree/master/docs/tcs-terms#tcsnameString">nameString</a></td>
+    </tr>
+    <tr>
+      <td>/DataSet/TaxonNames/TaxonName/Rank</td>
+      <td><a href="https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L321">tn:rankString</a></td>
+      <td><a href="https://github.com/tdwg/tcs2/tree/master/docs/tcs-terms#dwcverbatimtaxonrank">dwc:verbatimTaxonRank</a></td>
+    </tr>
+    <tr>
+      <td>/DataSet/TaxonNames/TaxonName/Rank/@code</td>
+      <td><a href="https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L309">tn:rank</a></td>
+      <td><a href="https://github.com/tdwg/tcs2/tree/master/docs/tcs-terms#tcstaxonomicrank">taxonRank</a></td>
+    </tr>
+    <tr>
+      <td>/DataSet/TaxonNames/TaxonName/CanonicalName/Uninomial</td>
+      <td><a href="https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L257">tn:uninomial</a></td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <td>/DataSet/TaxonNames/TaxonName/CanonicalName/Genus</td>
+      <td><a href="https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L110">tn:genusPart</a></td>
+      <td><a href="https://github.com/tdwg/tcs2/tree/master/docs/tcs-terms#dwcgenericname">dwc:genericName</a></td>
+    </tr>
+    <tr>
+      <td>/DataSet/TaxonNames/TaxonName/CanonicalName/InfragenericEpithet</td>
+      <td><a href="https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L133">tn:infragenericEpithet</a></td>
+      <td><a href="https://github.com/tdwg/tcs2/tree/master/docs/tcs-terms#dwcinfragenericepithet">dwc:infragenericEpithet</a></td>
+    </tr>
+    <tr>
+      <td>/DataSet/TaxonNames/TaxonName/CanonicalName/SpecificEpithet</td>
+      <td><a href="https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L205">tn:specificEpithet</a></td>
+      <td><a href="https://github.com/tdwg/tcs2/tree/master/docs/tcs-terms#dwcspecificepithet">dwc:specificEpithet</a></td>
+    </tr>
+    <tr>
+      <td>/DataSet/TaxonNames/TaxonName/CanonicalName/InfraspecificEpithet</td>
+      <td><a href="https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L147">tn:infraspecificEpithet</a></td>
+      <td><a href="https://github.com/tdwg/tcs2/tree/master/docs/tcs-terms#dwcinfraspecificepithet">dwc:infraspecificEpithet</a></td>
+    </tr>
+    <tr>
+      <td>/DataSet/TaxonNames/TaxonName/CanonicalName/CultivarNameGroup</td>
+      <td><a href="https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L97">tn:cultivarNameGroup</a></td>
+      <td><a href="https://github.com/tdwg/tcs2/tree/master/docs/tcs-terms#dwccultivarepithet">dwc:cultivarEpithet</a></td>
+    </tr>
+    <tr>
+      <td>/DataSet/TaxonNames/TaxonName/CanonicalAuthorship/Simple</td>
+      <td><a href="https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L72">tn:authorship</a></td>
+      <td><a href="https://github.com/tdwg/tcs2/tree/master/docs/tcs-terms#dwcscientificnameauthorship">dwc:scientificNameAuthorship</a></td>
+    </tr>
+    <tr>
+      <td>/DataSet/TaxonNames/TaxonName/CanonicalAuthorship/Authorship/Simple</td>
+      <td><a href="https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L388">tn:combinationAuthorship</a></td>
+      <td><a href="https://github.com/tdwg/tcs2/tree/master/docs/tcs-terms#tcscombinationauthorliteral">combinationAuthorLiteral</a> | <a href="https://github.com/tdwg/tcs2/tree/master/docs/tcs-terms#tcscombinationascribedauthorliteral">combinationAscribedAuthorLiteral</a></td>
+    </tr>
+    <tr>
+      <td>/DataSet/TaxonNames/TaxonName/CanonicalAuthorship/Authorship/Authors</td>
+      <td>—</td>
+      <td><a href="https://github.com/tdwg/tcs2/tree/master/docs/tcs-terms#tcscombinationauthor">combinationAuthor</a> | <a href="https://github.com/tdwg/tcs2/tree/master/docs/tcs-terms#tcscombinationascribedauthor">combinationAscribedAuthor</a></td>
+    </tr>
+    <tr>
+      <td>/DataSet/TaxonNames/TaxonName/CanonicalAuthorship/BasionymAuthorship/Simple</td>
+      <td><a href="https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L373">  tn:basionymAuthorship</a></td>
+      <td><a href="https://github.com/tdwg/tcs2/tree/master/docs/tcs-terms#tcsbasionymauthorliteral">basionymAuthorLiteral</a> | <a href="https://github.com/tdwg/tcs2/tree/master/docs/tcs-terms#tcsbasionymascribedauthorliteral">basionymAsctibedAuthorLiteral</a></td>
+    </tr>
+    <tr>
+      <td>/DataSet/TaxonNames/TaxonName/CanonicalAuthorship/BasionymAuthorship/Authors</td>
+      <td>—</td>
+      <td><a href="https://github.com/tdwg/tcs2/tree/master/docs/tcs-terms#tcsbasionymauthor">basionymAuthor</a> | <a href="https://github.com/tdwg/tcs2/tree/master/docs/tcs-terms#tcsbasionymascribedauthor">basionymAscribedAuthor</a></td>
+    </tr>
+    <tr>
+      <td>/DataSet/TaxonNames/TaxonName/CanonicalAuthorship/CombinationAuthorship/Simple</td>
+      <td><a href="https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L388">tn:combinationAuthorship</a></td>
+      <td><a href="https://github.com/tdwg/tcs2/tree/master/docs/tcs-terms#tcscombinationauthorliteral">combinationAuthorLiteral</a> | <a href="https://github.com/tdwg/tcs2/tree/master/docs/tcs-terms#tcscombinationascribedauthorliteral">combinationAscribedAuthorLiteral</a></td>
+    </tr>
+    <tr>
+      <td>/DataSet/TaxonNames/TaxonName/CanonicalAuthorship/CombinationAuthorship/Authors</td>
+      <td>—</td>
+      <td><a href="https://github.com/tdwg/tcs2/tree/master/docs/tcs-terms#tcscombinationauthor">combinationAuthor</a> | <a href="https://github.com/tdwg/tcs2/tree/master/docs/tcs-terms#tcscombinationascribedauthor">combinationAscribedAuthor</a></td>
+    </tr>
+    <tr>
+      <td>/DataSet/TaxonNames/TaxonName/PublishedIn</td>
+      <td>—</td>
+      <td><a href="https://github.com/tdwg/tcs2/tree/master/docs/tcs-terms#tcsnamepublishedin">namePublishedIn</a></td>
+    </tr>
+    <tr>
+      <td>/DataSet/TaxonNames/TaxonName/Year</td>
+      <td><a href="https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L269">tn:year</a></td>
+      <td><a href="https://github.com/tdwg/tcs2/tree/master/docs/tcs-terms#dwcnamepublishedinyear">dwc:namePublishedInYear</a></td>
+    </tr>
+    <tr>
+      <td>/DataSet/TaxonNames/TaxonName/MicroReference | //element(*,NomenclaturalNoteType)/MicroReference</td>
+      <td>—</td>
+      <td><a href="https://github.com/tdwg/tcs2/tree/master/docs/tcs-terms#tcsmicroreference">microReference</a></td>
+    </tr>
+    <tr>
+      <td>/DataSet/TaxonNames/TaxonName/Typification</td>
+      <td>—</td>
+      <td><a href="https://github.com/tdwg/tcs2/tree/master/docs/tcs-terms#tcstypification">typification</a></td>
+    </tr>
+    <tr>
+      <td>/DataSet/TaxonNames/TaxonName/Typification/Simple</td>
+      <td>—</td>
+      <td><a href="https://github.com/tdwg/tcs2/tree/master/docs/tcs-terms#tcstypificationLiteral">typificationLiteral</a></td>
+    </tr>
+    <tr>
+      <td>/DataSet/TaxonNames/TaxonName/SpellingCorrectionOf</td>
+      <td><a href="https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L647">tn:spellingCorrection</a></td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <td>/DataSet/TaxonNames/TaxonName/Basionym</td>
+      <td><a href="https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L296">tn:hasBasionym</a></td>
+      <td><a href="https://github.com/tdwg/tcs2/tree/master/docs/tcs-terms#tcsbasionym">basionym</a></td>
+    </tr>
+    <tr>
+      <td>/DataSet/TaxonNames/TaxonName/BasedOn</td>
+      <td><a href="https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L427">tn:BasedOn</a></td>
+      <td><a href="https://github.com/tdwg/tcs2/tree/master/docs/tcs-terms#tcsbasedOn">basedOn</a></td>
+    </tr>
+    <tr>
+      <td>/DataSet/TaxonNames/TaxonName/ConservedAgainst</td>
+      <td><a href="https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L433">tn:ConservedAgainst</a></td>
+      <td><a href="https://github.com/tdwg/tcs2/tree/master/docs/tcs-terms#tcsconservedagainst">conservedAgainst</a></td>
+    </tr>
+    <tr>
+      <td>/DataSet/TaxonNames/TaxonName/LaterHomonymOf</td>
+      <td><a href="https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L547">tn:LaterHomonymOf</a></td>
+      <td><a href="https://github.com/tdwg/tcs2/tree/master/docs/tcs-terms#tcslaterhomonymof">laterHomonymOf</a></td>
+    </tr>
+    <tr>
+      <td>/DataSet/TaxonNames/TaxonName/Sanctioned</td>
+      <td>—</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <td>/DataSet/TaxonNames/TaxonName/ReplacementNameFor</td>
+      <td><a href="https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L630">tn:ReplacementNameFor</a></td>
+      <td><a href="https://github.com/tdwg/tcs2/tree/master/docs/tcs-terms#tcsreplacedname">replacedName</a></td>
+    </tr>
+    <tr>
+      <td>/DataSet/TaxonNames/TaxonName/PublicationStatus</td>
+      <td><a href="https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L624">tn:publicationStatus</a></td>
+      <td><a href="https://github.com/tdwg/tcs2/tree/master/docs/tcs-terms#tcsnomenclaturalstatus">nomenclaturalStatus</a></td>
+    </tr>
+  </tbody>
+</table></div>
+
+<p><br /></p>
+
+<h3 id="nomenclatural-code-vocabulary">Nomenclatural Code vocabulary</h3>
+
+<p><sup>*</sup> TCS 2 recommends the GBIF <a href="https://rs.gbif.org/vocabulary/gbif/nomenclatural_code.xml">Nomenclatural Codes</a> vocabulary</p>
+
+<div class="table-responsive"><table class="table">
+  <thead>
+    <tr>
+      <th>TCS 1</th>
+      <th>TDWG Ontology</th>
+      <th>TCS 2<sup>*</sup></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Viral</td>
+      <td><a href="https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L675">tn:Viral</a></td>
+      <td><a href="http://rs.gbif.org/vocabulary/gbif/nomenclatural_code/ICVCN">ICVCN</a></td>
+    </tr>
+    <tr>
+      <td>Bacteriological</td>
+      <td><a href="https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L422">tn:Bacteriological</a></td>
+      <td><a href="http://rs.gbif.org/vocabulary/gbif/nomenclatural_code/ICNB">ICNB</a></td>
+    </tr>
+    <tr>
+      <td>Botanical</td>
+      <td><a href="https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L505">tn:ICBN</a></td>
+      <td><a href="http://rs.gbif.org/vocabulary/gbif/nomenclatural_code/ICN">ICN</a></td>
+    </tr>
+    <tr>
+      <td>Zoological</td>
+      <td><a href="https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L515">tn:ICZN</a></td>
+      <td><a href="http://rs.gbif.org/vocabulary/gbif/nomenclatural_code/ICZN">ICZN</a></td>
+    </tr>
+    <tr>
+      <td>CultivatedPlant</td>
+      <td><a href="https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L510">tn:ICNCP</a></td>
+      <td><a href="http://rs.gbif.org/vocabulary/gbif/nomenclatural_code/ICNCP">ICNCP</a></td>
+    </tr>
+    <tr>
+      <td>Indeterminate</td>
+      <td>—</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <td>—</td>
+      <td>—</td>
+      <td><a href="http://rs.gbif.org/vocabulary/gbif/nomenclatural_code/BioCode">BioCode</a></td>
+    </tr>
+  </tbody>
+</table></div>
+
+<p><br /></p>
+
+<h3 id="typification">Typification</h3>
+
+<div class="table-responsive"><table class="table">
+  <thead>
+    <tr>
+      <th>TCS 1</th>
+      <th>TDWG Ontology</th>
+      <th>TCS 2</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>/DataSet/TaxonNames/TaxonName/Typification/TypeVouchers/TypeVoucher | /DataSet/TaxonNames/TaxonName/Typification/TypeName</td>
+      <td><a href="https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L45">tn:NomenclaturalType</a></td>
+      <td><strong><a href="https://github.com/tdwg/tcs2/tree/master/docs/tcs-terms#tcsnomenclaturaltype">NomenclaturalType</a></strong></td>
+    </tr>
+    <tr>
+      <td>—</td>
+      <td>—</td>
+      <td><a href="https://github.com/tdwg/tcs2/tree/master/docs/tcs-terms#tcstypifiedname">typifiedName</a></td>
+    </tr>
+    <tr>
+      <td>/DataSet/TaxonNames/TaxonName/Typification/TypeVouchers/TypeVoucher/@typeofType</td>
+      <td><a href="https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L241">tn:typeOfType</a></td>
+      <td><a href="https://github.com/tdwg/tcs2/tree/master/docs/tcs-terms#tcstypeoftype">typeOfType</a></td>
+    </tr>
+    <tr>
+      <td>/DataSet/TaxonNames/TaxonName/Typification/TypeVouchers/TypeVoucher/VoucherReference</td>
+      <td><a href="https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L249">tn:typeSpecimen</a></td>
+      <td><a href="https://github.com/tdwg/tcs2/tree/master/docs/tcs-terms#tcstypespecimen">typeSpecimen</a></td>
+    </tr>
+    <tr>
+      <td>/DataSet/TaxonNames/TaxonName/Typification/TypeName/LectotypePublication | /DataSet/TaxonNames/TaxonName/Typification/TypeVouchers/TypeVoucher/LectotypePublication | /DataSet/TaxonNames/TaxonName/Typification/TypeName/LectotypePublication</td>
+      <td>—</td>
+      <td><a href="https://github.com/tdwg/tcs2/tree/master/docs/tcs-terms#tcstypepublishedin">typePublishedIn</a></td>
+    </tr>
+    <tr>
+      <td>/DataSet/TaxonNames/TaxonName/Typification/TypeName/NameReference</td>
+      <td><a href="https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L233">tn:typeName</a></td>
+      <td><a href="https://github.com/tdwg/tcs2/tree/master/docs/tcs-terms#tcstypename">typeName</a></td>
+    </tr>
+  </tbody>
+</table></div>
+
+<p><br /></p>
+
+<h3 id="type-of-type-vocabulary">Type of Type vocabulary</h3>
+
+<p><sup>*</sup> TCS 2 recommends the GBIF <a href="https://rs.gbif.org/vocabulary/gbif/type_status_2021-01-18.xml">Nomenclatural Type Status Vocabulary</a></p>
+
+<div class="table-responsive"><table class="table">
+  <thead>
+    <tr>
+      <th>TCS 1</th>
+      <th>TDWG Ontology</th>
+      <th>TCS 2<sup>*</sup></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>allo</td>
+      <td><a href="https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L416">tn:Allotype</a></td>
+      <td><a href="http://rs.gbif.org/vocabulary/gbif/type_status/allotype">allotype</a></td>
+    </tr>
+    <tr>
+      <td>allolecto</td>
+      <td><a href="https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L406">tn:Allolectotype</a></td>
+      <td><a href="http://rs.gbif.org/vocabulary/gbif/type_status/allolectotype">allolectotype</a></td>
+    </tr>
+    <tr>
+      <td>alloneo</td>
+      <td><a href="https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L411">tn:Alloneotype</a></td>
+      <td><a href="http://rs.gbif.org/vocabulary/gbif/type_status/alloneotype">alloneotype</a></td>
+    </tr>
+    <tr>
+      <td>co</td>
+      <td><a href="https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L439">tn:Cotype</a></td>
+      <td><a href="http://rs.gbif.org/vocabulary/gbif/type_status/cotype">cotype</a></td>
+    </tr>
+    <tr>
+      <td>epi</td>
+      <td><a href="https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L444">tn:Epitype</a></td>
+      <td><a href="http://rs.gbif.org/vocabulary/gbif/type_status/epitype">epitype</a></td>
+    </tr>
+    <tr>
+      <td>ex</td>
+      <td><a href="https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L486">tn:ExType</a></td>
+      <td><a href="http://rs.gbif.org/vocabulary/gbif/type_status/exsyntype">extype</a></td>
+    </tr>
+    <tr>
+      <td>exepi</td>
+      <td><a href="https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L451">tn:ExEpitype</a></td>
+      <td><a href="http://rs.gbif.org/vocabulary/gbif/type_status/exepitype">exepitype</a></td>
+    </tr>
+    <tr>
+      <td>exholo</td>
+      <td><a href="https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L456">tn:ExHolotype</a></td>
+      <td><a href="http://rs.gbif.org/vocabulary/gbif/type_status/exholotype">exholotype</a></td>
+    </tr>
+    <tr>
+      <td>exiso</td>
+      <td><a href="https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L273">tn:ExIsotype</a></td>
+      <td><a href="http://rs.gbif.org/vocabulary/gbif/type_status/exisotype">exisotype</a></td>
+    </tr>
+    <tr>
+      <td>exlecto</td>
+      <td><a href="https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L466">tn:ExLectotype</a></td>
+      <td><a href="http://rs.gbif.org/vocabulary/gbif/type_status/exlectotype">exlectotype</a></td>
+    </tr>
+    <tr>
+      <td>exneo</td>
+      <td><a href="https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L471">tn:ExNeotype</a></td>
+      <td><a href="http://rs.gbif.org/vocabulary/gbif/type_status/exneotype">exneotype</a></td>
+    </tr>
+    <tr>
+      <td>expara</td>
+      <td><a href="https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L476">tn:ExParatype</a></td>
+      <td><a href="http://rs.gbif.org/vocabulary/gbif/type_status/exparatype">exparatype</a></td>
+    </tr>
+    <tr>
+      <td>exsyn</td>
+      <td><a href="https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L481">tn:ExSyntype</a></td>
+      <td><a href="http://rs.gbif.org/vocabulary/gbif/type_status/exsyntype">exsyntype</a></td>
+    </tr>
+    <tr>
+      <td>—</td>
+      <td>—</td>
+      <td><a href="http://rs.gbif.org/vocabulary/gbif/type_status/extype">extype</a></td>
+    </tr>
+    <tr>
+      <td>hapanto</td>
+      <td><a href="https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L491">tn:Hapantotype</a></td>
+      <td><a href="http://rs.gbif.org/vocabulary/gbif/type_status/hapantotype">hapantotype</a></td>
+    </tr>
+    <tr>
+      <td>holo</td>
+      <td><a href="https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L498">tn:Holotype</a></td>
+      <td><a href="http://rs.gbif.org/vocabulary/gbif/type_status/holotype">holotype</a></td>
+    </tr>
+    <tr>
+      <td>icono</td>
+      <td><a href="https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L520">tn:Iconotype</a></td>
+      <td><a href="http://rs.gbif.org/vocabulary/gbif/type_status/iconotype">iconotype</a></td>
+    </tr>
+    <tr>
+      <td>iso</td>
+      <td><a href="https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L541">tn:Isotype</a></td>
+      <td><a href="http://rs.gbif.org/vocabulary/gbif/type_status/isotype">isotype</a></td>
+    </tr>
+    <tr>
+      <td>isolecto</td>
+      <td><a href="https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L526">tn:IsoLectotype</a></td>
+      <td><a href="http://rs.gbif.org/vocabulary/gbif/type_status/isolectotype">isolectotype</a></td>
+    </tr>
+    <tr>
+      <td>isoneo</td>
+      <td><a href="https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L531">tn:Isoneotype</a></td>
+      <td><a href="http://rs.gbif.org/vocabulary/gbif/type_status/isoneotype">isoneotype</a></td>
+    </tr>
+    <tr>
+      <td>—</td>
+      <td>—</td>
+      <td><a href="http://rs.gbif.org/vocabulary/gbif/type_status/isoparatype">isoparatype</a></td>
+    </tr>
+    <tr>
+      <td>isosyn</td>
+      <td><a href="https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L536">tn:Isosyntype</a></td>
+      <td><a href="http://rs.gbif.org/vocabulary/gbif/type_status/isosyntype">isosyntype</a></td>
+    </tr>
+    <tr>
+      <td>lecto</td>
+      <td><a href="https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L553">tn:Lectotype</a></td>
+      <td><a href="">lectotype</a></td>
+    </tr>
+    <tr>
+      <td>neo</td>
+      <td><a href="https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L560">tn:Neotype</a></td>
+      <td><a href="http://rs.gbif.org/vocabulary/gbif/type_status/lectotype">lectotype</a></td>
+    </tr>
+    <tr>
+      <td>para</td>
+      <td><a href="https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L582">tn:Paratype</a></td>
+      <td><a href="http://rs.gbif.org/vocabulary/gbif/type_status/paratype">paratype</a></td>
+    </tr>
+    <tr>
+      <td>paralecto</td>
+      <td><a href="https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L572">tn:Paralectotype</a></td>
+      <td><a href="http://rs.gbif.org/vocabulary/gbif/type_status/paralectotype">paralectotype</a></td>
+    </tr>
+    <tr>
+      <td>paraneo</td>
+      <td><a href="https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L577">tn:Paraneotype</a></td>
+      <td><a href="http://rs.gbif.org/vocabulary/gbif/type_status/paraneotype">paraneotype</a></td>
+    </tr>
+    <tr>
+      <td>plasto</td>
+      <td><a href="https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L609">tn:Plastotype</a></td>
+      <td><a href="http://rs.gbif.org/vocabulary/gbif/type_status/plastotype">plastotype</a></td>
+    </tr>
+    <tr>
+      <td>plastoholo</td>
+      <td><a href="https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L589">tn:Plastoholotype</a></td>
+      <td><a href="http://rs.gbif.org/vocabulary/gbif/type_status/plastoholotype">plastoholotype</a></td>
+    </tr>
+    <tr>
+      <td>plastoiso</td>
+      <td><a href="https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L594">tn:Plastoisotype</a></td>
+      <td><a href="http://rs.gbif.org/vocabulary/gbif/type_status/plastoisotype">plastoisotype</a></td>
+    </tr>
+    <tr>
+      <td>plastolecto</td>
+      <td><a href="https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L599">tn:Plastolectotype</a></td>
+      <td><a href="http://rs.gbif.org/vocabulary/gbif/type_status/plastolectotype">plastolectotype</a></td>
+    </tr>
+    <tr>
+      <td>plastoneo</td>
+      <td><a href="https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L604">tn:Plastoneotype</a></td>
+      <td><a href="http://rs.gbif.org/vocabulary/gbif/type_status/plastoneotype">plastoneotype</a></td>
+    </tr>
+    <tr>
+      <td>plastopara</td>
+      <td><a href="https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L609">tn:Plastoparatype</a></td>
+      <td><a href="http://rs.gbif.org/vocabulary/gbif/type_status/plastoparatype">plastoparatype</a></td>
+    </tr>
+    <tr>
+      <td>plastosyn</td>
+      <td><a href="https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L614">tn:Plastosyntype</a></td>
+      <td><a href="http://rs.gbif.org/vocabulary/gbif/type_status/plastosyntype">plastosyntype</a></td>
+    </tr>
+    <tr>
+      <td>sec</td>
+      <td><a href="https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L641">tn:SecondaryType</a></td>
+      <td><a href="http://rs.gbif.org/vocabulary/gbif/type_status/secondarytype">secondarytype</a></td>
+    </tr>
+    <tr>
+      <td>supp</td>
+      <td><a href="https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L652">tn:SupplementaryType</a></td>
+      <td><a href="http://rs.gbif.org/vocabulary/gbif/type_status/supplementarytype">supplementarytype</a></td>
+    </tr>
+    <tr>
+      <td>syn</td>
+      <td><a href="https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L657">tn:Syntype</a></td>
+      <td><a href="http://rs.gbif.org/vocabulary/gbif/type_status/syntype">syntype</a></td>
+    </tr>
+    <tr>
+      <td>topo</td>
+      <td><a href="https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L663">tn:Topotype</a></td>
+      <td><a href="http://rs.gbif.org/vocabulary/gbif/type_status/topotype">topotype</a></td>
+    </tr>
+    <tr>
+      <td>type</td>
+      <td><a href="https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L669">tn:Type</a></td>
+      <td><a href="http://rs.gbif.org/vocabulary/gbif/type_status/type">type</a></td>
+    </tr>
+    <tr>
+      <td>not</td>
+      <td><a href="https://github.com/tdwg/tnc/blob/5d3950009e2462e7d8c930dc08f4733738b9133d/tcs-docs/TaxonName.ttl#L567">tn:NotAType</a></td>
+      <td><a href="http://rs.gbif.org/vocabulary/gbif/type_status/notatype">notatype</a></td>
+    </tr>
+    <tr>
+      <td>—</td>
+      <td>—</td>
+      <td><a href="http://rs.gbif.org/vocabulary/gbif/type_status/originalmaterial">originalmaterial</a></td>
+    </tr>
+    <tr>
+      <td>—</td>
+      <td>—</td>
+      <td><a href="http://rs.gbif.org/vocabulary/gbif/type_status/typeSpecies">typeSpecies</a></td>
+    </tr>
+    <tr>
+      <td>—</td>
+      <td>—</td>
+      <td><a href="http://rs.gbif.org/vocabulary/gbif/type_status/typeGenus">typeGenus</a></td>
+    </tr>
+  </tbody>
+</table></div>
+
+
+    
+  </div>
+</div>
+
+
+      </div>
+    </main>
+
+    <footer class="d-print-none">
+  <div class="container">
+    <div class="row">
+      
+        <div class="col-lg">
+          <ul class="list-inline">
+            
+
+            
+
+            
+
+            
+
+            
+              <li class="list-inline-item">
+                <a href="https://github.com/tdwg/ac">
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+            
+
+            
+          </ul>
+        </div>
+      
+
+      
+        <div class="col-lg">
+          
+
+
+          
+            <ul class="fa-ul">
+              
+                <li>
+                  <i class="fa-li fa fa-chevron-circle-right"></i>
+                  <a href="https://www.tdwg.org/">Biodiversity Information Standards (TDWG)</a>
+                </li>
+              
+            </ul>
+          
+        </div>
+      
+    </div>
+
+    <div class="small mt-2">
+      
+      
+        <p>Content on this site, made open by <a href="https://www.tdwg.org/">Biodiversity Information Standards (TDWG)</a>  is licensed under a <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.</p>
+
+      
+      
+    </div>
+  </div>
+</footer>
+
+<script src="/assets/theme/js/anchor.min.js"></script>
+<script>
+  // Show anchors when hovering over headings, using anchor.js
+  (function () {
+    const headings = ".content h2[id], .content h3[id], .content h4[id], .content h5[id], .content h6[id]";
+    anchors.options = { placement: "right" };
+    anchors.add(headings);
+  })();
+</script>
+
+
+  </body>
+</html>

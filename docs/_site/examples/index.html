@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  
+    <title>Examples - Taxon Concept Standard</title>
+  
+
+   
+  
+  
+  
+
+  
+  
+  
+  
+  
+    <meta name="generator" content="Jekyll, theme: tdwg/petridish">
+  
+
+  <meta property="og:url" content="http://localhost:4000/examples/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Examples">
+  
+  
+  
+
+  <link rel="icon" type="image/x-icon" href="http://localhost:4000/favicon.ico">
+  <!-- Bootstrap CSS is included in main.css -->
+  <link rel="stylesheet" href="/assets/theme/css/main.css">
+  <link rel="stylesheet" href="/assets/theme/css/fontawesome-all.min.css">
+  <link rel="stylesheet" href="/assets/theme/css/academicons.min.css">
+  <link rel="stylesheet" href="/assets/theme/css/pygments.css">
+  
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i&display=swap" rel="stylesheet">
+  
+  <link rel="alternate" type="application/rss+xml" title="Taxon Concept Standard - RSS feed" href="http://localhost:4000/feed.xml" >
+  <!-- Javascript libraries: loaded at top so templates can use these -->
+  <script src="/assets/theme/js/jquery.min.js"></script>
+  <script src="/assets/theme/js/popper.min.js"></script>
+  <script src="/assets/theme/js/bootstrap.min.js"></script>
+</head>
+
+
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-secondary d-print-none" id="main-nav">
+  <div class="container">
+    <a class="navbar-brand d-flex align-items-center" href="/">
+      
+        <img class="me-3" src="/assets/theme/images/tdwg-logo-short.svg" alt="Taxon Concept Standard">
+      
+      
+        Taxon Concept Standard
+      
+    </a>
+    
+    
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-menu">
+        Menu <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbar-menu">
+        <ul class="navbar-nav ms-auto">
+          
+            
+              <li class="navbar-item">
+                
+                <a class="nav-link" href="/">Home</a>
+              </li>
+            
+          
+            
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                  Introduction
+                </a>
+                <div class="dropdown-menu dropdown-menu-end">
+                  
+                    
+                      
+                      <a class="dropdown-item" href="/feature-report/">Feature report</a>
+                    
+                  
+                    
+                      
+                      <a class="dropdown-item" href="/implementation-experience-report/">Implementation experience report</a>
+                    
+                  
+                </div>
+              </li>
+            
+          
+            
+              <li class="navbar-item">
+                
+                <a class="nav-link" href="/terms/">Terms</a>
+              </li>
+            
+          
+            
+              <li class="navbar-item">
+                
+                <a class="nav-link" href="https://github.com/tdwg/tcs2">GitHub</a>
+              </li>
+            
+          
+        </ul>
+      </div>
+    
+  </div>
+</nav>
+
+
+    <main>
+      
+
+  <header class="header bg-no-image">
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-10 col-lg-8 position-relative mx-auto">
+          <h1>Examples</h1>
+          
+          <div class="lead">
+</div>
+          
+          
+
+          
+
+          <div class="tags">
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  </header>
+
+
+      <div class="container content">
+          
+        <div class="row">
+  
+  <div class="col-md-10 col-lg-3 mx-auto">
+    <div class="toc">
+      <h6>On this page</h6>
+      <ul><li><a href="#taxonconcept">TaxonConcept</a><ul><li><a href="#tcstaxonconcept">tcs:TaxonConcept</a></li><li><a href="#tcsaccordingto">tcs:accordingTo</a></li><li><a href="#tcssynonym">tcs:synonym</a></li><li><a href="#tcsvernacularname">tcs:vernacularName</a></li><li><a href="#tcsparenttaxonconcept">tcs:parentTaxonConcept</a></li><li><a href="#tcschildtaxonconcept">tcs:childTaxonConcept</a></li><li><a href="#tcsiscongruentwith">tcs:isCongruentWith</a></li><li><a href="#tcsincludes">tcs:includes</a></li><li><a href="#tcsisincludedin">tcs:isIncludedIn</a></li><li><a href="#tcspartiallyoverlaps">tcs:partiallyOverlaps</a></li><li><a href="#tcsisdisjointfrom">tcs:isDisjointFrom</a></li><li><a href="#tcsintersects">tcs:intersects</a></li></ul></li><li><a href="#taxonconceptmappings">TaxonConceptMappings</a></li><li><a href="#taxonname">TaxonName</a><ul><li><a href="#tcstaxonname">tcs:TaxonName</a></li><li><a href="#tcstypification">tcs:typification</a></li><li><a href="#tcsbasionym">tcs:basionym</a></li><li><a href="#tcsreplacedname">tcs:replacedName</a></li><li><a href="#tcsconservedagainst">tcs:conservedAgainst</a></li><li><a href="#tcscombinationauthor">tcs:combinationAuthor</a></li><li><a href="#tcsbasionymauthor">tcs:basionymAuthor</a></li><li><a href="#tcscombinationascribedauthor">tcs:combinationAscribedAuthor</a></li><li><a href="#tcsbasionymascribedauthor">tcs:basionymAscribedAuthor</a></li></ul></li><li><a href="#nomenclaturaltype">NomenclaturalType</a><ul><li><a href="#tcsnomenclaturaltype">tcs:NomenclaturalType</a></li></ul></li></ul>
+    </div>
+  </div>
+  
+  <div class="col-md-10 col-lg-8 order-lg-first mx-auto">
+
+    <h1 id="examples">Examples</h1>
+
+<h2 id="taxonconcept">TaxonConcept</h2>
+
+<h3 id="tcstaxonconcept">tcs:TaxonConcept</h3>
+
+<ul>
+  <li><a href="/examples/TaxonConcept-example-1.html">TaxonConcept-example-1</a></li>
+  <li><a href="/examples/TaxonConcept-example-2.html">TaxonConcept-example-2</a></li>
+  <li><a href="/examples/TaxonConcept-example-3.html">TaxonConcept-example-3</a></li>
+  <li><a href="/examples/TaxonConcept-example-4.html">TaxonConcept-example-4</a></li>
+  <li><a href="/examples/TaxonConcept-example-5.html">TaxonConcept-example-5</a></li>
+  <li><a href="/examples/TaxonConcept-example-6.html">TaxonConcept-example-6</a></li>
+  <li><a href="/examples/TaxonConcept-example-7.html">TaxonConcept-example-7</a></li>
+</ul>
+
+<h3 id="tcsaccordingto">tcs:accordingTo</h3>
+
+<ul>
+  <li><a href="/examples/TaxonConcept-accordingTo-example-1.html">TaxonConcept-accordingTo-example-1</a></li>
+  <li><a href="/examples/TaxonConcept-accordingTo-example-2.html">TaxonConcept-accordingTo-example-2</a></li>
+  <li><a href="/examples/TaxonConcept-accordingTo-example-3.html">TaxonConcept-accordingTo-example-3</a></li>
+</ul>
+
+<h3 id="tcssynonym">tcs:synonym</h3>
+
+<ul>
+  <li><a href="/examples/TaxonConcept-synonym-example-1.html">TaxonConcept-synonym-example-1</a></li>
+  <li><a href="/examples/TaxonConcept-synonym-example-2.html">TaxonConcept-synonym-example-2</a></li>
+  <li><a href="/examples/TaxonConcept-synonym-example-3.html">TaxonConcept-synonym-example-3</a></li>
+</ul>
+
+<h3 id="tcsvernacularname">tcs:vernacularName</h3>
+
+<ul>
+  <li><a href="/examples/TaxonConcept-vernacularName-example-1.html">TaxonConcept-vernacularName-example-1</a></li>
+  <li><a href="/examples/TaxonConcept-vernacularName-example-2.html">TaxonConcept-vernacularName-example-2</a></li>
+  <li><a href="/examples/TaxonConcept-vernacularName-example-3.html">TaxonConcept-vernacularName-example-3</a></li>
+</ul>
+
+<h3 id="tcsparenttaxonconcept">tcs:parentTaxonConcept</h3>
+
+<ul>
+  <li><a href="/examples/TaxonConcept-parent-example-1.html">TaxonConcept-parent-example-1</a></li>
+</ul>
+
+<h3 id="tcschildtaxonconcept">tcs:childTaxonConcept</h3>
+
+<ul>
+  <li><a href="/examples/TaxonConcept-child-example-1.html">TaxonConcept-child-example-1</a></li>
+</ul>
+
+<h3 id="tcsiscongruentwith">tcs:isCongruentWith</h3>
+
+<ul>
+  <li><a href="/examples/TaxonConcept-isCongruentWith-example-1.html">TaxonConcept-isCongruentWith-example-1</a></li>
+  <li><a href="/examples/TaxonConceptMapping-isCongruentWith-example-2.html">TaxonConceptMapping-isCongruentWith-example-2</a></li>
+  <li><a href="/examples/TaxonConcept-isCongruentWith-example-3.html">TaxonConcept-isCongruentWith-example-3</a></li>
+  <li><a href="/examples/TaxonConceptMapping-isCongruentWith-example-1.html">TaxonConceptMapping-isCongruentWith-example-1</a></li>
+</ul>
+
+<h3 id="tcsincludes">tcs:includes</h3>
+
+<ul>
+  <li><a href="/examples/TaxonConcept-includes-example-1.html">TaxonConcept-includes-example-1</a></li>
+  <li><a href="/examples/TaxonConceptMapping-includes-example-2.html">TaxonConceptMapping-includes-example-2</a></li>
+  <li><a href="/examples/TaxonConceptMapping-includes-example-1.html">TaxonConceptMapping-includes-example-1</a></li>
+</ul>
+
+<h3 id="tcsisincludedin">tcs:isIncludedIn</h3>
+
+<ul>
+  <li><a href="/examples/TaxonConcept-isIncludedIn-example-1.html">TaxonConcept-isIncludedIn-example-1</a></li>
+  <li><a href="/examples/TaxonConceptMapping-isIncludedIn-example-2.html">TaxonConceptMapping-isIncludedIn-example-2</a></li>
+  <li><a href="/examples/TaxonConceptMapping-isIncludedIn-example-1.html">TaxonConceptMapping-isIncludedIn-example-1</a></li>
+</ul>
+
+<h3 id="tcspartiallyoverlaps">tcs:partiallyOverlaps</h3>
+
+<ul>
+  <li><a href="/examples/TaxonConcept-partiallyOverlaps-example-1.html">TaxonConcept-partiallyOverlaps-example-1</a></li>
+  <li><a href="/examples/TaxonConceptMapping-partiallyOverlaps-example-2.html">TaxonConceptMapping-partiallyOverlaps-example-2</a></li>
+  <li><a href="/examples/TaxonConceptMapping-partiallyOverlaps-example-1.html">TaxonConceptMapping-partiallyOverlaps-example-1</a></li>
+</ul>
+
+<h3 id="tcsisdisjointfrom">tcs:isDisjointFrom</h3>
+
+<ul>
+  <li><a href="/examples/TaxonConcept-isDisjointFrom-example-1.html">TaxonConcept-isDisjointFrom-example-1</a></li>
+  <li><a href="/examples/TaxonConceptMapping-isDisjointFrom-example-2.html">TaxonConceptMapping-isDisjointFrom-example-2</a></li>
+  <li><a href="/examples/TaxonConceptMapping-isDisjointFrom-example-1.html">TaxonConceptMapping-isDisjointFrom-example-1</a></li>
+</ul>
+
+<h3 id="tcsintersects">tcs:intersects</h3>
+
+<ul>
+  <li><a href="/examples/TaxonConcept-intersects-example-1.html">TaxonConcept-intersects-example-1</a></li>
+  <li><a href="/examples/TaxonConcept-intersects-example-2.html">TaxonConcept-intersects-example-2</a></li>
+  <li><a href="/examples/TaxonConceptMapping-intersects-example-1.html">TaxonConceptMapping-intersects-example-1</a></li>
+  <li><a href="/examples/TaxonConcept-intersects-example-3.html">TaxonConcept-intersects-example-3</a></li>
+</ul>
+
+<h2 id="taxonconceptmappings">TaxonConceptMappings</h2>
+
+<h2 id="taxonname">TaxonName</h2>
+
+<h3 id="tcstaxonname">tcs:TaxonName</h3>
+
+<ul>
+  <li><a href="/examples/TaxonName-example-1.html">TaxonName-example-1</a></li>
+  <li><a href="/examples/TaxonName-example-2.html">TaxonName-example-2</a></li>
+  <li><a href="/examples/TaxonName-example-3.html">TaxonName-example-3</a></li>
+  <li><a href="/examples/TaxonName-example-4.html">TaxonName-example-4</a></li>
+</ul>
+
+<h3 id="tcstypification">tcs:typification</h3>
+
+<ul>
+  <li><a href="/examples/TaxonName-typification-example-1.html">TaxonName-typification-example-1</a></li>
+  <li><a href="/examples/TaxonName-typification-example-2.html">TaxonName-typification-example-2</a></li>
+</ul>
+
+<h3 id="tcsbasionym">tcs:basionym</h3>
+
+<ul>
+  <li><a href="/examples/TaxonName-basionym-example-1.html">TaxonName-basionym-example-1</a></li>
+  <li><a href="/examples/TaxonName-basionym-example-2.html">TaxonName-basionym-example-2</a></li>
+</ul>
+
+<h3 id="tcsreplacedname">tcs:replacedName</h3>
+
+<ul>
+  <li><a href="/examples/TaxonName-replacedName-example-1.html">TaxonName-replacedName-example-1</a></li>
+  <li><a href="/examples/TaxonName-replacedName-example-2.html">TaxonName-replacedName-example-2</a></li>
+  <li><a href="/examples/TaxonName-replacedName-example-3.html">TaxonName-replacedName-example-3</a></li>
+  <li><a href="/examples/TaxonName-replacedName-example-4.html">TaxonName-replacedName-example-4</a></li>
+</ul>
+
+<h3 id="tcsconservedagainst">tcs:conservedAgainst</h3>
+
+<ul>
+  <li><a href="/examples/TaxonName-conservedAgainst-example-1.html">TaxonName-conservedAgainst-example-1</a></li>
+</ul>
+
+<h3 id="tcscombinationauthor">tcs:combinationAuthor</h3>
+
+<ul>
+  <li><a href="/examples/TaxonName-combinationAuthor-example-1.html">TaxonName-combinationAuthor-example-1</a></li>
+</ul>
+
+<h3 id="tcsbasionymauthor">tcs:basionymAuthor</h3>
+
+<ul>
+  <li><a href="/examples/TaxonName-basionymAuthor-example-1.html">TaxonName-basionymAuthor-example-1</a></li>
+</ul>
+
+<h3 id="tcscombinationascribedauthor">tcs:combinationAscribedAuthor</h3>
+
+<ul>
+  <li><a href="/examples/TaxonName-combinationAscribedAuthor-example-1.html">TaxonName-combinationAscribedAuthor-example-1</a></li>
+</ul>
+
+<h3 id="tcsbasionymascribedauthor">tcs:basionymAscribedAuthor</h3>
+
+<ul>
+  <li><a href="/examples/TaxonName-basionymAscribedAuthor-example-1.html">TaxonName-basionymAscribedAuthor-example-1</a></li>
+</ul>
+
+<h2 id="nomenclaturaltype">NomenclaturalType</h2>
+
+<h3 id="tcsnomenclaturaltype">tcs:NomenclaturalType</h3>
+
+<ul>
+  <li><a href="/examples/NomenclaturalType-example-1.html">NomenclaturalType-example-1</a></li>
+</ul>
+
+
+    
+  </div>
+</div>
+
+
+      </div>
+    </main>
+
+    <footer class="d-print-none">
+  <div class="container">
+    <div class="row">
+      
+        <div class="col-lg">
+          <ul class="list-inline">
+            
+
+            
+
+            
+
+            
+
+            
+              <li class="list-inline-item">
+                <a href="https://github.com/tdwg/ac">
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+            
+
+            
+          </ul>
+        </div>
+      
+
+      
+        <div class="col-lg">
+          
+
+
+          
+            <ul class="fa-ul">
+              
+                <li>
+                  <i class="fa-li fa fa-chevron-circle-right"></i>
+                  <a href="https://www.tdwg.org/">Biodiversity Information Standards (TDWG)</a>
+                </li>
+              
+            </ul>
+          
+        </div>
+      
+    </div>
+
+    <div class="small mt-2">
+      
+      
+        <p>Content on this site, made open by <a href="https://www.tdwg.org/">Biodiversity Information Standards (TDWG)</a>  is licensed under a <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.</p>
+
+      
+      
+    </div>
+  </div>
+</footer>
+
+<script src="/assets/theme/js/anchor.min.js"></script>
+<script>
+  // Show anchors when hovering over headings, using anchor.js
+  (function () {
+    const headings = ".content h2[id], .content h3[id], .content h4[id], .content h5[id], .content h6[id]";
+    anchors.options = { placement: "right" };
+    anchors.add(headings);
+  })();
+</script>
+
+
+  </body>
+</html>

@@ -1,0 +1,682 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  
+    <title>TCS 2 implementation experience report - Taxon Concept Standard</title>
+  
+
+   
+  
+  
+  
+
+  
+  
+  
+  
+  
+    <meta name="generator" content="Jekyll, theme: tdwg/petridish">
+  
+
+  <meta property="og:url" content="http://localhost:4000/implementation-experience-report/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="TCS 2 implementation experience report">
+  
+  
+  
+
+  <link rel="icon" type="image/x-icon" href="http://localhost:4000/favicon.ico">
+  <!-- Bootstrap CSS is included in main.css -->
+  <link rel="stylesheet" href="/assets/theme/css/main.css">
+  <link rel="stylesheet" href="/assets/theme/css/fontawesome-all.min.css">
+  <link rel="stylesheet" href="/assets/theme/css/academicons.min.css">
+  <link rel="stylesheet" href="/assets/theme/css/pygments.css">
+  
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i&display=swap" rel="stylesheet">
+  
+  <link rel="alternate" type="application/rss+xml" title="Taxon Concept Standard - RSS feed" href="http://localhost:4000/feed.xml" >
+  <!-- Javascript libraries: loaded at top so templates can use these -->
+  <script src="/assets/theme/js/jquery.min.js"></script>
+  <script src="/assets/theme/js/popper.min.js"></script>
+  <script src="/assets/theme/js/bootstrap.min.js"></script>
+</head>
+
+
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-secondary d-print-none" id="main-nav">
+  <div class="container">
+    <a class="navbar-brand d-flex align-items-center" href="/">
+      
+        <img class="me-3" src="/assets/theme/images/tdwg-logo-short.svg" alt="Taxon Concept Standard">
+      
+      
+        Taxon Concept Standard
+      
+    </a>
+    
+    
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-menu">
+        Menu <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbar-menu">
+        <ul class="navbar-nav ms-auto">
+          
+            
+              <li class="navbar-item">
+                
+                <a class="nav-link" href="/">Home</a>
+              </li>
+            
+          
+            
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                  Introduction
+                </a>
+                <div class="dropdown-menu dropdown-menu-end">
+                  
+                    
+                      
+                      <a class="dropdown-item" href="/feature-report/">Feature report</a>
+                    
+                  
+                    
+                      
+                      <a class="dropdown-item active" href="/implementation-experience-report/">Implementation experience report</a>
+                    
+                  
+                </div>
+              </li>
+            
+          
+            
+              <li class="navbar-item">
+                
+                <a class="nav-link" href="/terms/">Terms</a>
+              </li>
+            
+          
+            
+              <li class="navbar-item">
+                
+                <a class="nav-link" href="https://github.com/tdwg/tcs2">GitHub</a>
+              </li>
+            
+          
+        </ul>
+      </div>
+    
+  </div>
+</nav>
+
+
+    <main>
+      
+
+  <header class="header bg-no-image">
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-10 col-lg-8 position-relative mx-auto">
+          <h1>TCS 2 implementation experience report</h1>
+          
+          <div class="lead">
+</div>
+          
+          
+
+          
+
+          <div class="tags">
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  </header>
+
+
+      <div class="container content">
+          
+        <div class="row">
+  
+  <div class="col-md-10 col-lg-3 mx-auto">
+    <div class="toc">
+      <h6>On this page</h6>
+      <ul><li><a href="#introduction">Introduction</a></li><li><a href="#relation-with-coldp">Relation with ColDP</a></li><li><a href="#relation-with-darwin-core">Relation with Darwin Core</a></li><li><a href="#an-example">An example</a></li></ul>
+    </div>
+  </div>
+  
+  <div class="col-md-10 col-lg-8 order-lg-first mx-auto">
+
+    <h1 id="tcs-2-implementation-experience-report">TCS 2 implementation experience report</h1>
+
+<h2 id="introduction">Introduction</h2>
+
+<p>One of the main objectives of the current effort is to make TCS useful again and
+the current release provides standard terms for concepts that are already widely
+used in applications that are out there. No new features have been added in this
+revision of TCS. Terms from TCS 1 for which we do not have clear idea yet of how
+they can be implemented have not yet been included in this release.</p>
+
+<h2 id="relation-with-coldp">Relation with ColDP</h2>
+
+<p>A recent important application, the Catalogue of Life Data Package (ColDP), has
+a data model that is very similar to TCS and includes all TCS terms, the only
+conflict being that ColDP has a Synonym entity that requires an ID, which TCS
+does not. This might be a legacy from TCS 1 where <code class="language-plaintext highlighter-rouge">has synonym</code> is a
+relationship between Taxon Concepts. In TCS 2, we have split the <code class="language-plaintext highlighter-rouge">has synonym</code>
+relation into the <code class="language-plaintext highlighter-rouge">synonym</code> property for relationships between Taxon Concept and
+Taxon Name—like <code class="language-plaintext highlighter-rouge">taxonName</code>—and the <code class="language-plaintext highlighter-rouge">intersects</code> property for relationships
+between Taxon Concepts. When TCS is expressed in tabular form, a separate table
+is still needed for synonyms, because of the many-to-many relation between Taxon
+Concepts and Taxon Names, but this is just a pivot table and there should be no
+identifiers for synonyms. This is the same way the Name Relation table in the
+ColDP schema has been implemented.</p>
+
+<p>ColDP also offers a Name Usage entity “for simpler sharing”, which is more
+similar to the Darwin Core Taxon.</p>
+
+<h2 id="relation-with-darwin-core">Relation with Darwin Core</h2>
+
+<p>TCS can play the same role for the Darwin Core Taxon that the Darwin Core IRI
+(<code class="language-plaintext highlighter-rouge">dwciri</code>) namespace has for the other Darwin Core entities. Moreover the TCS
+Nomenclatural Type can be used as the object for the <code class="language-plaintext highlighter-rouge">dwciri:typeStatus</code>
+property.</p>
+
+<p>In order to convert existing Darwin Core Taxon Core data sets to TCS data sets,
+a <code class="language-plaintext highlighter-rouge">taxonConceptID</code> can be created by coalescing the <code class="language-plaintext highlighter-rouge">acceptedNameUsageID</code>—or the
+<code class="language-plaintext highlighter-rouge">taxonID</code> of the <code class="language-plaintext highlighter-rouge">acceptedNameUsage</code>—and <code class="language-plaintext highlighter-rouge">taxonID</code>. If the data set, or record,
+lacks a <code class="language-plaintext highlighter-rouge">nameAccordingTo</code>, the <code class="language-plaintext highlighter-rouge">nameAccordingTo</code> is the data set itself.</p>
+
+<p>While for sharing purely taxonomic data TCS is the preferred format, at the
+interface of taxonomic data and occurrence data, <em>e.g.</em>, identifications, Darwin
+Core will often be preferred. The <code class="language-plaintext highlighter-rouge">dwc:taxonConceptID</code> can be used to reference
+a <code class="language-plaintext highlighter-rouge">tcs:TaxonConcept</code> from a <code class="language-plaintext highlighter-rouge">dwc:Taxon</code>. For the purpose of distribution maps,
+etc., <code class="language-plaintext highlighter-rouge">dwc:Taxon</code> and <code class="language-plaintext highlighter-rouge">tcs:TaxonConcept</code> can be considered equivalent.</p>
+
+<h2 id="an-example">An example</h2>
+
+<p>The following example will (hopefully) serve to demonstrate some of the workings
+of TCS and how it can be used. This example deals with five different treatments
+(Tan &amp; Koponen, 1983
+[<a href="../bibliography/#tan_dicranoloma_1983">tan_dicranoloma_1983</a>]; Eddy, 1988
+[<a href="../bibliography/#eddy_sphagnales_1988">eddy_sphagnales_1988</a>]; Tan, 1989
+[<a href="../bibliography/#tan_dicranoloma_1983">tan_dicranoloma_1983</a>]; Norris &amp;
+Koponen, 1990
+[<a href="../bibliography/#norris_bryophytes_1990">norris_bryophytes_1990</a>]; Klazenga,
+1999 [<a href="../bibliography/#klazenga_revision_1999">klazenga_revision_1999</a>]) of the
+moss genus <em>Dicranoloma</em> in Malesia (Malaysia, Indonesia, Brunei, The
+Philippines and Papua New Guinea). It contains a total of 71 Taxon Concepts (67
+at the species level or below) and 133 Taxon Names. All the data used below
+comes from the <a href="https://github.com/tdwg/tcs2/blob/master/examples/tropicos-malesian-dicranoloma.jsonld">JSON-LD
+file</a>
+of one of the
+<a href="https://github.com/tdwg/tcs2/tree/master/examples#treatments-of-malesian-dicranoloma-in-tropicos">examples</a>.</p>
+
+<p>Some examples of Taxon Concepts with their <code class="language-plaintext highlighter-rouge">accordingTo</code>, accepted name
+(<code class="language-plaintext highlighter-rouge">taxonName</code>) and synonyms (<code class="language-plaintext highlighter-rouge">synonym</code>), when entered into a graph database, are
+shown in figure 1.</p>
+
+<hr />
+
+<p><img src="/implementation-experience-report/media/figure-1.png" alt="Figure 1." /></p>
+
+<p><strong>Figure 1.</strong> Taxon concepts (green dots) with their according-to (blue dots)
+and all associated names (orange dots). Taxon Concepts are connected to names
+via the <code class="language-plaintext highlighter-rouge">taxonName</code> and <code class="language-plaintext highlighter-rouge">synonym</code> properties and Taxon Names are connected to
+each other through the <code class="language-plaintext highlighter-rouge">basionym</code> and <code class="language-plaintext highlighter-rouge">replacedName</code> properties. <strong>A.</strong>
+Dicranoloma assimile sec. Klazenga 1999 (<a href="/implementation-experience-report/media/figure-1a.svg">figure-1a.svg</a>),
+<strong>B.</strong> Dicranum assimile sec. Norris &amp; Koponen 1990
+(<a href="/implementation-experience-report/media/figure-1b.svg">figure-1b.svg</a>), <strong>C.</strong> Dicranoloma assimile sec. Tan
+1989 (<a href="/implementation-experience-report/media/figure-1c.svg">figure-1c.svg</a>), <strong>D.</strong> Dicranoloma assimile s.s.
+sec. Eddy 1988 (<a href="/implementation-experience-report/media/figure-1d.svg">figure-1d.svg</a>), <strong>E.</strong> Dicranoloma
+assimile s.l. sec. Eddy 1988 (<a href="/implementation-experience-report/media/figure-1e.svg">figure-1e.svg</a>), <strong>F.</strong>
+Dicranoloma assimile sec. Tan &amp; Koponen 1983
+(<a href="/implementation-experience-report/media/figure-1f.svg">figure-1f.svg</a>).</p>
+
+<hr />
+
+<p>The Taxon Concepts in <strong>figure 1</strong> all have the same Taxon Name, <em>Dicranoloma
+assimile</em> (Hampe) Renauld, so will show at least some overlap. At the same time,
+they have different synonyms, so they are not exactly the same. If we put all
+Taxon Concepts and associated references and Taxon Names in the graph, we get a
+rather nebulous picture of the relationships between the items in the graph
+(<strong>figure 2</strong>).</p>
+
+<hr />
+
+<p><img alt="Figure 2." src="media/figure-2.svg" width="800" /></p>
+
+<p><strong>Figure 2.</strong> Graph with all Taxon Concepts (green dots), Taxon Names (orange
+dots) and references (blue dots).</p>
+
+<hr />
+
+<p>Removing the references makes for a much clearer picture (<strong>figure 3</strong>) but
+there is still a big agglomerate of connected taxon concepts that contains
+almost half of the Taxon Concepts. While it is easy for humans to see where this
+cluster can be broken up, it will not be for machines and, more importantly,
+even humans cannot do anything about it without changing the Taxon Concepts
+while only working with Taxon Concept–Taxon Name relationships (<em>i.e.</em> accepted
+names and synonyms) alone.</p>
+
+<hr />
+
+<p><img alt="Figure 3." src="media/figure-3.svg" width="800" /></p>
+
+<p><strong>Figure 3.</strong> Graph with all Taxon Concepts (green dots) and Taxon Names (orange
+dots).</p>
+
+<hr />
+
+<p>To address the problem, let’s leave the administration for what it is and see
+what else there is to see in the data. For this, we make use of the fact that
+all scientific names have type specimens, so we can use the accepted names and
+synonyms as a ‘specimen circumscription’ (<em>cf.</em> TCS 1).</p>
+
+<p>To do this properly, we first have to group names with the same type. In TCS,
+we’ve got the <code class="language-plaintext highlighter-rouge">basionym</code> and <code class="language-plaintext highlighter-rouge">replacedName</code> properties, representing terms that
+are used in the domain, to connect names with the same type. However, the
+<code class="language-plaintext highlighter-rouge">basionym</code> and <code class="language-plaintext highlighter-rouge">replacedName</code> properties will never connect the same names, and
+they are always different names from the subject (a name cannot be its own
+basionym or replaced name), so these properties cannot always be used to connect
+all homotypic names to the same name.</p>
+
+<p>In the current example we’ve got names that have no other combinations (<strong>figure
+4A</strong>) and combinations that group around a basionym (<strong>figure 4B</strong>), for which
+linking up the names through the <code class="language-plaintext highlighter-rouge">basionym</code> will work fine, but we also have
+some more complicated situations, like a replaced name and a replacement name,
+both of which are the basionym of another name (<strong>figure 4C</strong>), or a replaced
+name with a replacement name where the replacement name is the replaced name of
+another name (<strong>figure 4D</strong>). In order to link up these names, we have to do
+something different.</p>
+
+<hr />
+
+<p><img src="/implementation-experience-report/media/figure-4.png" alt="Figure 4." /></p>
+
+<p><strong>Figure 4.</strong> Taxon Names and their relationships. <strong>A.</strong> Name without other
+combinations (<a href="/implementation-experience-report/media/figure-4a.svg">figure-4a.svg</a>), <strong>B.</strong> basionym with two combinations (<a href="/implementation-experience-report/media/figure-4b.svg">figure-4b.svg</a>), <strong>C.</strong> replacement name and
+replaced name, both of which are the basionym of another combination (<a href="/implementation-experience-report/media/figure-4c.svg">figure-4c.svg</a>), <strong>D.</strong>
+replacement name of which the replaced name is the replacement name of another
+name (<a href="/implementation-experience-report/media/figure-4d.svg">figure-4d.svg</a>).</p>
+
+<hr />
+
+<p>There was no appetite in the Task Group for an <code class="language-plaintext highlighter-rouge">originalName</code> property,
+analogous to the Darwin Core <code class="language-plaintext highlighter-rouge">originalNameUsage</code>, in TCS, probably because of
+the problematic semantics, so we have to infer it from the <code class="language-plaintext highlighter-rouge">basionym</code> and
+<code class="language-plaintext highlighter-rouge">replacedName</code> relations. This is probably for the best, as for our purposes it
+is immaterial which name in a group becomes the “original name”, so we do not
+have to be concerned with the semantics and can do what works best in the
+situation. In this case, the “original name” is the earliest name (like in
+<code class="language-plaintext highlighter-rouge">dwc:originalNameUsage</code>) but (in contrast to <code class="language-plaintext highlighter-rouge">dwc:originalNameUsage</code>) this name
+does not have to be a legitimate name. So, it will be a different name depending
+on whether illegitimate and/or invalid names are included in the data set or
+not. <strong>Figure 5</strong> shows the examples from figure 4 with the <code class="language-plaintext highlighter-rouge">originalName</code>
+relations included.</p>
+
+<hr />
+
+<p><img src="/implementation-experience-report/media/figure-5.png" alt="Figure 5." /></p>
+
+<p><strong>Figure 5.</strong> Same Taxon Name graphs as in the previous figure, but with
+<code class="language-plaintext highlighter-rouge">originalName</code> property connecting combinations to the same “original name”
+(<a href="/implementation-experience-report/media/figure-4a.svg">figure-5a.svg</a>, <a href="/implementation-experience-report/media/figure-5b.svg">figure-5b.svg</a>,
+<a href="/implementation-experience-report/media/figure-5c.svg">figure-5c.svg</a>, <a href="/implementation-experience-report/media/figure-5d.svg">figure-5d.svg</a>).</p>
+
+<hr />
+
+<p>One issue that was encountered is that the <code class="language-plaintext highlighter-rouge">basionym</code> and <code class="language-plaintext highlighter-rouge">replacedName</code>
+properties cannot be used to link autonyms to a group of names with the same
+type. This issue is resolved by the <code class="language-plaintext highlighter-rouge">basedOn</code> property, for which the only
+semantics is that it links two names with the same type and that the subject is
+a more recent name than the object. Thus, <code class="language-plaintext highlighter-rouge">basedOn</code> can be used to link names to
+a homotypic group of names that cannot be linked using <code class="language-plaintext highlighter-rouge">basionym</code> and
+<code class="language-plaintext highlighter-rouge">replacedName</code>, e.g. invalid names and autonyms.</p>
+
+<p>There is one other bit of data preparation that needs to be done, which is
+adding the accepted name and synonyms of infraspecific taxa to the specimen
+circumscription of their parents.</p>
+
+<p>Now we’ve got everything in place to start mapping Taxon Concepts to each other.
+To do so, we first get all the pairs of Taxon Concepts that intersect, <em>i.e.</em>
+have names in common. Then, for each pair, we see which names are in the
+intersection (<strong>A ∩ B</strong>) and which names are in one concept and not in the
+other (<strong>A – B</strong> or <strong>B – A</strong>). This helps us find the more precise
+relationships between concepts. For the names that are in the relative
+supplements, there is another check to do, as there is only a conflict if the
+name is used elsewhere in the other treatment. With this proviso, if there are
+only names in the intersection and there are no names that are in one concept
+and not in the other, the concepts are congruent (<strong>A</strong> <code class="language-plaintext highlighter-rouge">isCongruentWith</code>
+<strong>B</strong>); if the subject (<strong>A</strong>) has names that are not in the object (<strong>B</strong>) the
+subject includes the object (<strong>A</strong> <code class="language-plaintext highlighter-rouge">includes</code> <strong>B</strong>); if there are names in the
+object that are not in the subject, the subject is included in the object (<strong>A</strong>
+<code class="language-plaintext highlighter-rouge">isIncludedIn</code> <strong>B</strong>); and if there are names that are in the subject and not
+the object as well as names that are in the object but not the subject, the
+concepts partially overlap (<strong>A</strong> <code class="language-plaintext highlighter-rouge">partiallyOverlaps</code> <strong>B</strong>). Examples of each
+of the intersection types found in this example are given in <strong>figure 6</strong>.</p>
+
+<hr />
+
+<p><img src="/implementation-experience-report/media/figure-6.png" alt="Figure 6." /></p>
+
+<p><strong>Figure 6.</strong> Examples of Taxon Concept Mappings using type specimens of names
+that the concepts apply to. <strong>==</strong>: <code class="language-plaintext highlighter-rouge">isCongruentWith</code>; <strong>&gt;</strong>: <code class="language-plaintext highlighter-rouge">includes</code>; <strong>&lt;</strong>:
+<code class="language-plaintext highlighter-rouge">isIncludedIn</code>; <strong>&gt;&lt;</strong>: <code class="language-plaintext highlighter-rouge">partiallyOverlaps</code>. <strong>A ∩ B</strong>: specimens included in
+both subject and object Taxon Concepts; <strong>A – B</strong>: specimens included in the
+subject Taxon Concept but not in the object Taxon Concept; <strong>B – A</strong>: specimens
+included in the object Taxon Concept but not in the subject Taxon Concept.</p>
+
+<hr />
+
+<p>The Taxon Concepts and their mappings based on the inclusion of type specimens
+of names are shown in <strong>figure 7</strong>. The groups of connected concepts, or single
+concepts, are, of course, the same as in <strong>figure 3</strong> where we linked Taxon
+Concepts via the Taxon Names, because they are based on the same data. What we
+have gained, however, is that (1) we now have the more precise mapping relations
+and (2) a more expressive language to align taxon concepts (and reconcile
+taxonomies) than just ‘accepted name’ and ‘synonym’. Most importantly (3), the
+taxon concept mappings are things we are allowed to muck around with, as they
+are not part of the taxon concepts.</p>
+
+<hr />
+
+<p><img alt="Figure 7." src="media/figure-7.svg" width="800" /></p>
+
+<p><strong>Figure 7.</strong> Taxon Concepts with mappings based on the type specimens of names
+that are included in the concepts (ostensive mappings).</p>
+
+<hr />
+
+<p>Taxon concept information has two components (<em>cf.</em> Senderov et al., 2018
+[<a href="../bibliography/#senderov_openbiodiv-o_2018">senderov_openbiodiv-o_2018</a>]), an
+<em>ostensive</em> component, which is a list of (some of the) organisms that belong to
+the taxon concept, and an <em>intensional</em> component, mostly expressed as
+characters, which is a definition of the allowable variation within (all) the
+organisms that make up the taxon. In TCS 1 these components are represented by
+the ‘SpecimenCircumscription’ and ‘CharacterCircumscription’ elements (for TCS
+2, we are going to take a bit more time to think about circumscription, so these
+are not included in this release yet). For ease of use of terms, we call the
+taxon concept mappings based on the ostensive and intensional components of
+taxon concept information ‘ostensive mappings’ and ‘intensional mappings’
+respectively. For many purposes, and certainly in this example, ostensive
+mappings can be inferred from the information that is already in the data set,
+so that is what we have just done, while intensional mappings need to be
+explicitly added to the data set, which is what we are going to do next.</p>
+
+<p>In this example, in most cases the intensional mapping is the same as the
+ostensive mapping. Reasons why intensional mappings can be different from the
+ostensive mappings, and thus the data is misleading, include the following:</p>
+
+<ol>
+  <li>
+    <p><strong>Different interpretations of specimens.</strong> There is no reason why type
+specimens cannot be misidentified by later workers. This is the case here for
+the type specimen of <em>Dicranoloma defoliatum</em> Froehl., which was included in
+<em>Dicranoloma brevicapsulare</em> sec. Eddy 1988 by Eddy (1988), in <em>Dicranoloma
+blumei</em> sec. Tan 1989 by Tan (1989) and in <em>Dicranoloma brevisetum</em> sec.
+Klazenga 1999 by Klazenga (1999). The <code class="language-plaintext highlighter-rouge">partiallyOverlaps</code> mappings between
+these three concepts that were caused by the type of <em>Dicranoloma defoliatum</em>
+were changed to <code class="language-plaintext highlighter-rouge">isDisjointFrom</code> mappings in the intensional mappings.</p>
+  </li>
+  <li>
+    <p><strong>Ambiguous types.</strong> Eddy (1988) treated <em>Dicranoloma laevifolium</em> sec. Eddy
+1988 as a species on its own. Tan (1989) and Norris &amp; Koponen 1990 included
+the type of <em>Dicranum laevifolium</em> Broth. &amp; Geh. in <em>Dicranoloma billarderii</em>
+sec. Tan 1989 and <em>Dicranum billarderii</em> sec. Norris &amp; Koponen 1990
+respectively. None of these workers probably saw the type material in
+Brotherus’s herbarium, which Klazenga (1999) considered to belong to
+<em>Dicranoloma braunii</em> sec. Klazenga 1999, but based their concepts on the
+description and on other specimens identified as <em>Dicranoloma laevifolium</em>.
+It cannot be discounted that we have to do with a mixed type gathering here
+and that the material in Brotherus’s herbarium and the material in Geheeb’s
+herbarium (which is inaccessible) belongs to different species, which is a
+situation that is not unheard of in bryophytes. In any case, intensionally
+<em>Dicranoloma braunii</em> sec. Klazenga 1999 does not overlap (is disjoint from)
+<em>Dicranoloma laevifolium</em> sec. Eddy 1988, <em>Dicranoloma billarderii</em> sec. Tan
+1989 and <em>Dicranum billarderii</em> sec. Norris &amp; Koponen 1990. The mappings
+between the latter three concepts remain unchanged from the ostensive
+mappings.</p>
+  </li>
+  <li>
+    <p><strong>Missing data.</strong> This is the case when a name is used in some works and not
+in others. In this example Tan &amp; Koponen (1983) recognise <em>Dicranoloma
+brachypelma</em> sec. Tan &amp; Koponen 1983, while Eddy (1988) and Klazenga (1999)
+include the type of <em>Leucoloma brachypelma</em> Broth. in <em>Dicranoloma braunii</em>
+sec. Eddy 1988 and <em>Dicranoloma braunii</em> sec. Klazenga 1999 respectively. Tan
+(1989) and Norris &amp; Koponen (1999) do not mention the type of <em>leucoloma
+brachypelma</em> at all. Because of this, we cannot say with certainty how
+<em>Dicranoloma braunii</em> sec. Tan 1989 and <em>Dicranum braunii</em> sec. Norris &amp;
+Koponen 1990 relate to the other three concepts of <em>Dicranoloma braunii</em>
+(Bosch &amp; Sande Lac.) Paris.</p>
+  </li>
+  <li>
+    <p><strong>Different geographic scopes.</strong> The five treatments have a different
+geographic focus. While the treaments by Eddy (1988) and Klazenga (1999) are
+for the entire Malay Archipelago, Tan &amp; Koponen (1983) focus on the
+Philippines, Tan (1989) on Borneo (especially Gn. Kinabalu in Sabah) and
+Norris &amp; Koponen (1990) on Papua New Guinea (the Huon Peninsula in Morobe
+Province). This might explain why Tan (1989) and Norris &amp; Koponen (1990) did
+not list <em>Leucoloma brachypelma</em>, the type of which is from Java, but not why
+Tan &amp; Koponen (1983) do have it.</p>
+
+    <p>The example also includes species whose main distribution is outside Malesia.
+Tan &amp; Koponen (1983) recognise <em>Dicranoloma brassii</em> sec. Tan &amp; Koponen 1983
+as endemic in New Guinea, while Norris &amp; Koponen (1990) and Klazenga (1999)
+include the type of <em>Dicranoloma brassii</em> E.B.Bartram in <em>Dicranum dicarpon</em>
+sec. Norris &amp; Koponen 1990 and <em>Dicranoloma dicarpon</em> sec. Klazenga 1999.
+<em>Dicranoloma dicarpon</em> is a mainly Australasian taxon that reaches into Papua
+New Guinea (and has two records, the syntypes of <em>Dicranoloma formosanum</em>
+Broth., in Taiwan), so, while ostensibly <em>Dicranoloma brassii</em> sec. Tan &amp;
+Koponen (1983) is congruent with <em>Dicranum dicarpon</em> sec. Norris &amp; Koponen
+1990 and <em>Dicranoloma dicarpon</em> sec. Klazenga 1999, intensionally it is
+included in those concepts. Eddy (1988) and Tan (1989) include the type of
+<em>Dicranoloma brassii</em> in <em>Dicranoloma assimile</em> sec. Eddy 1988 and
+<em>Dicranoloma assimile</em> sec. Tan 1989 respectively, so concepts of
+<em>Dicranoloma assimile</em> (Hampe) Paris, which are in all five treatments, are
+affected too.</p>
+
+    <p>In another example, <em>Dicranoloma platycaulon</em> sec. Tan 1989 includes the type
+of <em>Dicranoloma euryloma</em> var. <em>rugifolium</em> E.B.Bartram, which is also
+included in <em>Dicranum rugifolium</em> sec. Norris &amp; Koponen 1999 and <em>Dicranoloma
+assimile</em> sec. Klazenga 1999. <em>Dicranoloma platycaulon</em> is restricted to New
+Zealand and South-eastern Australia, so <em>Dicranoloma platycaulon</em> sec. Tan
+1989 is not included in <em>Dicranum rugifolium</em> sec. Norris &amp; Koponen 1990 or
+<em>Dicranoloma assimile</em> sec. Klazenga 1990, as the data seems to suggest, but
+partially overlaps these concepts.</p>
+  </li>
+  <li>
+    <p><strong>New taxa.</strong> Two new taxon names, <em>Dicranum cutlackii</em> Norris &amp; T.J.Kop. and
+<em>Dicranoloma steenisii</em> Klazenga were published in the period from 1983 to
+1999 in which the five treatments were produced. I have concluded that
+<em>Dicranum cutlackii</em> sec. Norris &amp; Koponen 1990 and <em>Dicranoloma steenisii</em>
+sec. Klazenga 1999 are taxa that were overlooked before, rather than split
+off from other concepts, so they do not intersect with concepts from earlier
+treatments, but it is easy to think of situations where it is the other way.
+For new concepts that do not have any names in common with existing concepts,
+it is impossible to say based on the name data alone whether they are truly
+new concepts, which leave existing concepts unchanged, or whether they have
+been split off from already recognised taxa, so they affect the concept that
+keeps the existing name. Extra data needs to be included in the data set to
+tell these situations apart.</p>
+  </li>
+</ol>
+
+<p>The intensional mappings have been added to the
+<a href="https://github.com/tdwg/tcs2/blob/master/examples/tropicos-malesian-dicranoloma.jsonld">JSON-LD</a>
+and are shown in <strong>figure 8</strong>.</p>
+
+<hr />
+
+<p><img alt="Figure 8." src="media/figure-8.svg" width="800" /></p>
+
+<p><strong>Figure 8.</strong> Taxon Concepts with mappings that were added to the data set by
+the author of the latest revision (intensional mappings).</p>
+
+<hr />
+
+<p>We can see that the large agglomerate of connected concepts has been nicely
+broken up now that the intersections that are caused by misidentifications and
+ambiguous types have been removed. The mappings that do intersect now accurately
+reflect the horizontal relationships between the taxon concepts (I can see
+that).</p>
+
+<p>To see what this looks like with a taxonomic backbone, let’s throw in some
+higher taxa and hierarchical relationships (<strong>figure 9</strong>).</p>
+
+<hr />
+
+<p><img alt="Figure 9." src="media/figure-9.svg" width="800" /></p>
+
+<p><strong>Figure 9.</strong> Taxon Concepts with intensional mappings and with higher-taxon
+concepts (yellow dots) and hierarchical (<code class="language-plaintext highlighter-rouge">parent</code>) relationships from the latest
+treatment (Klazenga, 1999).</p>
+
+<hr />
+
+<p>Now we can see that in the top-left corner there is a group in which the latest
+revision (where the concepts of higher taxa come from) recognises three taxa and
+another one in the bottom-right corner in which two taxa are recognised. There
+is even a group at the bottom just left of the middle in which the latest
+revision recognises two species in different genera. The rest of the groups
+contain a single concept from the latest revision. If in these groups all
+concepts are connected to each other, all concepts in the group are congruent
+with each other, but if there are things sticking out, there is also overlap or
+inclusion. For example, in the group in the top-right corner, all other
+treatments recognise two or three taxa, but the latest treatment lumps those all
+together into one.</p>
+
+<p>One more thing we can do is grouping the taxon concepts that are congruent to
+each other. This is what Avibase does with the Avibase IDs. The taxon concepts
+in these groups (or with the same Avibase ID if we were talking about birds)
+have the same (or essentially the same) extension, which is the entire set of
+organisms the concept applies to. We could also say that they are the same
+taxon, as a taxon is the extension of a taxon concept.</p>
+
+<p>The Avibase publication (Lepage et al., 2014
+[<a href="../bibliography/#lepage_avibase_2014">lepage_avibase_2014</a>]) speaks of “deep
+concepts”. These “deep concepts” are already in the taxon concepts and are not a
+new type of objects that the AviBase ID aplies to. What Avibase does, and what
+we are doing here, is deduplication, not creating a new type of object.</p>
+
+<p>The “aggregate Taxon Concepts” thus created are shown in <strong>figure 10</strong>.</p>
+
+<hr />
+
+<p><img alt="Figure 10." src="media/figure-10.svg" width="800" /></p>
+
+<p><strong>Figure 10.</strong> As previous figure, but with “aggregate Taxon Concepts”,
+representing Taxon Concepts that are congruent with it and each other.
+Individual Taxon Concepts are related to the aggregate Taxon Concepts through
+<code class="language-plaintext highlighter-rouge">isCongruentWith</code> relationships (not shown). Aggregate Taxon Concepts can be
+related to each other via <code class="language-plaintext highlighter-rouge">includes</code>, <code class="language-plaintext highlighter-rouge">isIncludedIn</code> and <code class="language-plaintext highlighter-rouge">partiallyOverlaps</code>
+relationships.</p>
+
+<hr />
+
+<p>While the deduplication may not have made a big difference in this example, as
+there are relatively many conflicting concepts, it is easy to see how much of a
+difference it can make at a larger scale or in less messy groups.</p>
+
+<p>For this example, as will mostly be the case at the level of individual
+taxonomic revisions, it was easy to create the intensional mappings for all
+pairs of taxon concepts. At a much larger scale this will of course not work
+anymore. However, as indicated, in many cases the ostensive mappings we can get
+from the name matching are correct and they are mostly the best we’ve got.
+Therefore, it is important to persist these mappings as results of the taxonomy
+reconciliation, so that experts can go in and say ‘this mapping is incorrect’ or
+‘this mapping was missed’, thereby correcting the worst mismatches and missed
+matches and incrementally improving the data. Letting in mappings from other
+sources, the further upstream the better, would be great too. For this all to
+work taxon concepts need to be identifiable in taxonomies (and identifications)
+and need to have strong identifiers.</p>
+
+
+    
+  </div>
+</div>
+
+
+      </div>
+    </main>
+
+    <footer class="d-print-none">
+  <div class="container">
+    <div class="row">
+      
+        <div class="col-lg">
+          <ul class="list-inline">
+            
+
+            
+
+            
+
+            
+
+            
+              <li class="list-inline-item">
+                <a href="https://github.com/tdwg/ac">
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+            
+
+            
+          </ul>
+        </div>
+      
+
+      
+        <div class="col-lg">
+          
+
+
+          
+            <ul class="fa-ul">
+              
+                <li>
+                  <i class="fa-li fa fa-chevron-circle-right"></i>
+                  <a href="https://www.tdwg.org/">Biodiversity Information Standards (TDWG)</a>
+                </li>
+              
+            </ul>
+          
+        </div>
+      
+    </div>
+
+    <div class="small mt-2">
+      
+      
+        <p>Content on this site, made open by <a href="https://www.tdwg.org/">Biodiversity Information Standards (TDWG)</a>  is licensed under a <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.</p>
+
+      
+      
+    </div>
+  </div>
+</footer>
+
+<script src="/assets/theme/js/anchor.min.js"></script>
+<script>
+  // Show anchors when hovering over headings, using anchor.js
+  (function () {
+    const headings = ".content h2[id], .content h3[id], .content h4[id], .content h5[id], .content h6[id]";
+    anchors.options = { placement: "right" };
+    anchors.add(headings);
+  })();
+</script>
+
+
+  </body>
+</html>
