@@ -1,16 +1,22 @@
-# TCS term list
+# Taxon Concept Standard (TCS) term list
 
-**Title**: Taxon Concept Standard (TCS) term list
+**Title**
+: Taxon Concept Standard (TCS) term list
 
-**Date version created**: yyyy-mm-dd
+**Date version created**
+: 2025-08-09
 
-**Part of TDWG standard**: 
+**Part of TDWG standard**
+: http://www.tdwg.org/standards/117
 
-**This version**:
+**This version**
+: http://rs.tdwg.org/tcs/doc/terms/2025-08-09
 
-**Latest version**:
+**Latest version**
+: http://rs.tdwg.org/tcs/doc/terms
 
-**Abstract**: The Taxon Concept Standard (TCS) is the TDWG standard specifically
+**Abstract**
+: The Taxon Concept Standard (TCS) is the TDWG standard specifically
 for sharing taxonomic and nomenclatural data. TCS provides TaxonConcept and
 TaxonName classes for information about taxon concepts and taxon names,
 respectively, as well as a TaxonConceptMapping class for taxon concept
@@ -18,13 +24,16 @@ alignments and a NomenclaturalType class for information on typification of
 taxon names. TCS offers a semantic framework for, and facilitates more accurate
 exchange of, taxonomic and nomenclatural data.
 
-**Contributors**: Niels Klazenga, Greg Whitbread, Vijay Barve, Thierry Bourgoin,
+**Contributors**
+: Niels Klazenga, Greg Whitbread, Vijay Barve, Thierry Bourgoin,
 Markus Döring, Anne Fuchs, Jeff Gerbracht, Johan Liljeblad, Carlos Martínez
 Muñoz, Mieke Strong, William Ulate, Cam Webb 
 
-**Creator**: TDWG Taxon Concept Schema (TCS) 2 Task Group
+**Creator**
+: TDWG Taxon Concept Schema (TCS) 2 Task Group
 
-**Bibliographic citation**: Taxon Concept Standard Maintenance Group (2024).
+**Bibliographic citation**
+: Taxon Concept Standard Maintenance Group (2025).
 Taxon Concept Standard Term List. Biodiversity Information Standards (TDWG).
 
 ## 1. Introduction
@@ -39,7 +48,7 @@ be used within TCS. All other parts, including Label, Comments and Examples, are
 informative. The assignment of properties to classes is also informative,
 although most properties can only reasonably be used in the class in which they
 are organised. For the properties that can be used in more than one TCS class
-this has been indicated in the notes.
+this has been indicated in the comments.
 
 ### 1.2. RFC keywords
 
@@ -123,33 +132,14 @@ present in the data.
 
 Examples are provided for most TCS terms. As almost all TCS properties are IRI
 properties, significant context has been added to make the examples as useful as
-possible. As because of this the examples take up a lot of space only one
-example per term has been reproduced in this document. Links are provided for
-other examples.
+possible. As because of this the examples take up a lot of space they have been
+placed in separate documents, which are linked to from this document.
 
-The examples in this document are in TurTLe. This format has been chosen because
-it is very terse and still easy to read and, most importantly, allows comments.
-The fact that the examples are in a serialization of RDF should not be taken to
-mean that TCS data has to be RDF, just that it can be RDF. All examples are also
-provided in JSON-LD.
-
-The following namespace aliases are used in the examples:
-
-| alias | namespace |
-|-|-|
-| tcs | http://rs.tdwg.org/tcs/terms/ |
-| address | http://schemas.talis.com/2005/address/schema# |
-| bibo | http://purl.org/ontology/bibo/ |
-| dcterms | http://purl.org/dc/terms/ |
-| dwc | http://rs.tdwg.org/dwc/terms/ |
-| dwciri | http://rs.tdwg.org/dwc/iri/ |
-| dsw | http://purl.org/dsw/ |
-| foaf | http://xmlns.com/foaf/0.1/ |
-| gbif | http://rs.gbif.org/terms/1.0/ |
-| oa | http://www.w3.org/ns/oa# |
-| rdf | http://www.w3.org/1999/02/22-rdf-syntax-ns# |
-| rdfs | http://www.w3.org/2000/01/rdf-schema# |
-| skosxl | http://www.w3.org/2008/05/skos-xl# |
+The examples referenced in this document are in TurTLe. This format has been
+chosen because it is very terse and still easy to read and, most importantly,
+allows comments. The fact that the examples are in a serialization of RDF should
+not be taken to mean that TCS data has to be RDF, just that it can be RDF. All
+examples are also provided in JSON-LD.
 
 ## 2. Namespace
 
@@ -161,36 +151,93 @@ alias for this namespace is `tcs`.
 As much as possible TCS uses already existing terms rather than define new
 terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 
-| standard | namespace | alias |
-|-|-|-|
+| Standard | Namespace | Alias |
+|----------|-----------|-------|
 | Darwin Core | http://rs.tdwg.org/dwc/terms/ | dwc |
 | Dublin Core | http://purl.org/dc/terms/ | dcterms |
+
 ## 4. Index of terms
 
 **Taxon Concept**
 
-[tcs:TaxonConcept](#tcstaxonconcept) | [tcs:accordingTo](#tcsaccordingto) | [tcs:taxonName](#tcstaxonname) | [tcs:synonym](#tcssynonym) | [tcs:vernacularName](#tcsvernacularname) | [tcs:taxonRank](#tcstaxonrank) | [tcs:parentTaxonConcept](#tcsparenttaxonconcept) | [tcs:childTaxonConcept](#tcschildtaxonconcept) | [tcs:isCongruentWith](#tcsiscongruentwith) | [tcs:includes](#tcsincludes) | [tcs:isIncludedIn](#tcsisincludedin) | [tcs:partiallyOverlaps](#tcspartiallyoverlaps) | [tcs:isDisjointFrom](#tcsisdisjointfrom) | [tcs:intersects](#tcsintersects) | [dwc:scientificName](#dwcscientificname) | [dwc:vernacularName](#dwcvernacularname) | [dwc:verbatimTaxonRank](#dwcverbatimtaxonrank) | [dcterms:title](#dctermstitle)
+[tcs:TaxonConcept](#tcs_taxonconcept) |
+[tcs:accordingTo](#tcs_accordingto) |
+[tcs:taxonName](#tcs_taxonname) |
+[tcs:synonym](#tcs_synonym) |
+[tcs:vernacularName](#tcs_vernacularname) |
+[tcs:taxonRank](#tcs_taxonrank) |
+[tcs:parentTaxonConcept](#tcs_parenttaxonconcept) |
+[tcs:childTaxonConcept](#tcs_childtaxonconcept) |
+[tcs:isCongruentWith](#tcs_iscongruentwith) |
+[tcs:includes](#tcs_includes) |
+[tcs:isIncludedIn](#tcs_isincludedin) |
+[tcs:partiallyOverlaps](#tcs_partiallyoverlaps) |
+[tcs:isDisjointFrom](#tcs_isdisjointfrom) |
+[tcs:intersects](#tcs_intersects) |
+[dwc:scientificName](#dwc_scientificname) |
+[dwc:vernacularName](#dwc_vernacularname) |
+[dwc:verbatimTaxonRank](#dwc_verbatimtaxonrank) |
+[dcterms:title](#dcterms_title)
 
 **Taxon Concept Mapping**
 
-[tcs:TaxonConceptMapping](#tcstaxonconceptmapping) | [tcs:mappingAccordingTo](#tcsmappingaccordingto) | [tcs:mappingRelation](#tcsmappingrelation) | [tcs:subjectTaxonConcept](#tcssubjecttaxonconcept) | [tcs:objectTaxonConcept](#tcsobjecttaxonconcept)
+[tcs:TaxonConceptMapping](#tcs_taxonconceptmapping) |
+[tcs:mappingAccordingTo](#tcs_mappingaccordingto) |
+[tcs:mappingRelation](#tcs_mappingrelation) |
+[tcs:subjectTaxonConcept](#tcs_subjecttaxonconcept) |
+[tcs:objectTaxonConcept](#tcs_objecttaxonconcept)
 
 **Taxon Name**
 
-[tcs:TaxonName](#tcstaxonname) | [tcs:nameString](#tcsnamestring) | [tcs:namePublishedIn](#tcsnamepublishedin) | [tcs:microreference](#tcsmicroreference) | [tcs:nomenclaturalCode](#tcsnomenclaturalcode) | [tcs:nomenclaturalStatus](#tcsnomenclaturalstatus) | [tcs:typification](#tcstypification) | [tcs:typificationLiteral](#tcstypificationliteral) | [tcs:basionym](#tcsbasionym) | [tcs:replacedName](#tcsreplacedname) | [tcs:basedOn](#tcsbasedon) | [tcs:laterHomonymOf](#tcslaterhomonymof) | [tcs:conservedAgainst](#tcsconservedagainst) | [tcs:combinationAuthor](#tcscombinationauthor) | [tcs:combinationAuthorLiteral](#tcscombinationauthorliteral) | [tcs:basionymAuthor](#tcsbasionymauthor) | [tcs:basionymAuthorLiteral](#tcsbasionymauthorliteral) | [tcs:combinationAscribedAuthor](#tcscombinationascribedauthor) | [tcs:combinationAscribedAuthorLiteral](#tcscombinationascribedauthorliteral) | [tcs:basionymAscribedAuthor](#tcsbasionymascribedauthor) | [tcs:basionymAscribedAuthorLiteral](#tcsbasionymascribedauthorliteral) | [dwc:scientificNameAuthorship](#dwcscientificnameauthorship) | [dwc:namePublishedIn](#dwcnamepublishedin) | [dwc:namePublishedInYear](#dwcnamepublishedinyear) | [dwc:genericName](#dwcgenericname) | [dwc:infragenericEpithet](#dwcinfragenericepithet) | [dwc:specificEpithet](#dwcspecificepithet) | [dwc:infraspecificEpithet](#dwcinfraspecificepithet) | [dwc:cultivarEpithet](#dwccultivarepithet)
+[tcs:TaxonName](#tcs_taxonname) |
+[tcs:nameString](#tcs_namestring) |
+[tcs:namePublishedIn](#tcs_namepublishedin) |
+[tcs:microreference](#tcs_microreference) |
+[tcs:nomenclaturalCode](#tcs_nomenclaturalcode) |
+[tcs:nomenclaturalStatus](#tcs_nomenclaturalstatus) |
+[tcs:typification](#tcs_typification) |
+[tcs:typificationLiteral](#tcs_typificationliteral) |
+[tcs:basionym](#tcs_basionym) |
+[tcs:replacedName](#tcs_replacedname) |
+[tcs:basedOn](#tcs_basedon) |
+[tcs:laterHomonymOf](#tcs_laterhomonymof) |
+[tcs:conservedAgainst](#tcs_conservedagainst) |
+[tcs:combinationAuthor](#tcs_combinationauthor) |
+[tcs:combinationAuthorLiteral](#tcs_combinationauthorliteral) |
+[tcs:basionymAuthor](#tcs_basionymauthor) |
+[tcs:basionymAuthorLiteral](#tcs_basionymauthorliteral) |
+[tcs:combinationAscribedAuthor](#tcs_combinationascribedauthor) |
+[tcs:combinationAscribedAuthorLiteral](#tcs_combinationascribedauthorliteral) |
+[tcs:basionymAscribedAuthor](#tcs_basionymascribedauthor) |
+[tcs:basionymAscribedAuthorLiteral](#tcs_basionymascribedauthorliteral) |
+[dwc:scientificNameAuthorship](#dwc_scientificnameauthorship) |
+[dwc:namePublishedIn](#dwc_namepublishedin) |
+[dwc:namePublishedInYear](#dwc_namepublishedinyear) |
+[dwc:genericName](#dwc_genericname) |
+[dwc:infragenericEpithet](#dwc_infragenericepithet) |
+[dwc:specificEpithet](#dwc_specificepithet) |
+[dwc:infraspecificEpithet](#dwc_infraspecificepithet) |
+[dwc:cultivarEpithet](#dwc_cultivarepithet)
 
 **Nomenclatural Type**
 
-[tcs:NomenclaturalType](#tcsnomenclaturaltype) | [tcs:typifiedName](#tcstypifiedname) | [tcs:typeOfType](#tcstypeoftype) | [tcs:typeName](#tcstypename) | [tcs:typeSpecimen](#tcstypespecimen) | [tcs:typePublishedIn](#tcstypepublishedin)
+[tcs:NomenclaturalType](#tcs_nomenclaturaltype) |
+[tcs:typifiedName](#tcs_typifiedname) |
+[tcs:typeOfType](#tcs_typeoftype) |
+[tcs:typeName](#tcs_typename) |
+[tcs:typeSpecimen](#tcs_typespecimen) |
+[tcs:typePublishedIn](#tcs_typepublishedin)
 
 ## 5. Vocabulary
 
-### Taxon Concept
+### 5.1. Taxon Concept
 
-#### tcs:TaxonConcept
+<table>
 
-<table style="width:100%;">
-	<tbody>
+    <thead>
+        <th colspan="2"><a id="tcs_taxonconcept"></a>Term Name: tcs:TaxonConcept</th>
+    </thead>
+    <tbody>
 		<tr>
 			<td>Identifier</td>
 			<td>http://rs.tdwg.org/tcs/terms/TaxonConcept</td>
@@ -219,32 +266,33 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		</tr>
 		<tr>
 			<td>Examples</td>
-			<td>
+			<td><ul>
+<li><a href="/examples/TaxonConcept-example-1.html">TaxonConcept-example-1</a></li>
 
-- [TaxonConcept-example-1](../examples/TaxonConcept-example-1.md)
+<li><a href="/examples/TaxonConcept-example-2.html">TaxonConcept-example-2</a></li>
 
-- [TaxonConcept-example-2](../examples/TaxonConcept-example-2.md)
+<li><a href="/examples/TaxonConcept-example-3.html">TaxonConcept-example-3</a></li>
 
-- [TaxonConcept-example-3](../examples/TaxonConcept-example-3.md)
+<li><a href="/examples/TaxonConcept-example-4.html">TaxonConcept-example-4</a></li>
 
-- [TaxonConcept-example-4](../examples/TaxonConcept-example-4.md)
+<li><a href="/examples/TaxonConcept-example-5.html">TaxonConcept-example-5</a></li>
 
-- [TaxonConcept-example-5](../examples/TaxonConcept-example-5.md)
+<li><a href="/examples/TaxonConcept-example-6.html">TaxonConcept-example-6</a></li>
 
-- [TaxonConcept-example-6](../examples/TaxonConcept-example-6.md)
+<li><a href="/examples/TaxonConcept-example-7.html">TaxonConcept-example-7</a></li>
 
-- [TaxonConcept-example-7](../examples/TaxonConcept-example-7.md)
-
-
+</ul>
 </td>
 		</tr>
 	</tbody>
 </table>
 
-#### tcs:accordingTo
+<table>
 
-<table style="width:100%;">
-	<tbody>
+    <thead>
+        <th colspan="2"><a id="tcs_accordingto"></a>Term Name: tcs:accordingTo</th>
+    </thead>
+    <tbody>
 		<tr>
 			<td>Identifier</td>
 			<td>http://rs.tdwg.org/tcs/terms/accordingTo</td>
@@ -276,24 +324,25 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		</tr>
 		<tr>
 			<td>Examples</td>
-			<td>
+			<td><ul>
+<li><a href="/examples/TaxonConcept-accordingTo-example-1.html">TaxonConcept-accordingTo-example-1</a></li>
 
-- [TaxonConcept-accordingTo-example-1](../examples/TaxonConcept-accordingTo-example-1.md)
+<li><a href="/examples/TaxonConcept-accordingTo-example-2.html">TaxonConcept-accordingTo-example-2</a></li>
 
-- [TaxonConcept-accordingTo-example-2](../examples/TaxonConcept-accordingTo-example-2.md)
+<li><a href="/examples/TaxonConcept-accordingTo-example-3.html">TaxonConcept-accordingTo-example-3</a></li>
 
-- [TaxonConcept-accordingTo-example-3](../examples/TaxonConcept-accordingTo-example-3.md)
-
-
+</ul>
 </td>
 		</tr>
 	</tbody>
 </table>
 
-#### tcs:taxonName
+<table>
 
-<table style="width:100%;">
-	<tbody>
+    <thead>
+        <th colspan="2"><a id="tcs_taxonname"></a>Term Name: tcs:taxonName</th>
+    </thead>
+    <tbody>
 		<tr>
 			<td>Identifier</td>
 			<td>http://rs.tdwg.org/tcs/terms/taxonName</td>
@@ -326,10 +375,12 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 	</tbody>
 </table>
 
-#### tcs:synonym
+<table>
 
-<table style="width:100%;">
-	<tbody>
+    <thead>
+        <th colspan="2"><a id="tcs_synonym"></a>Term Name: tcs:synonym</th>
+    </thead>
+    <tbody>
 		<tr>
 			<td>Identifier</td>
 			<td>http://rs.tdwg.org/tcs/terms/synonym</td>
@@ -361,24 +412,25 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		</tr>
 		<tr>
 			<td>Examples</td>
-			<td>
+			<td><ul>
+<li><a href="/examples/TaxonConcept-synonym-example-1.html">TaxonConcept-synonym-example-1</a></li>
 
-- [TaxonConcept-synonym-example-1](../examples/TaxonConcept-synonym-example-1.md)
+<li><a href="/examples/TaxonConcept-synonym-example-2.html">TaxonConcept-synonym-example-2</a></li>
 
-- [TaxonConcept-synonym-example-2](../examples/TaxonConcept-synonym-example-2.md)
+<li><a href="/examples/TaxonConcept-synonym-example-3.html">TaxonConcept-synonym-example-3</a></li>
 
-- [TaxonConcept-synonym-example-3](../examples/TaxonConcept-synonym-example-3.md)
-
-
+</ul>
 </td>
 		</tr>
 	</tbody>
 </table>
 
-#### tcs:vernacularName
+<table>
 
-<table style="width:100%;">
-	<tbody>
+    <thead>
+        <th colspan="2"><a id="tcs_vernacularname"></a>Term Name: tcs:vernacularName</th>
+    </thead>
+    <tbody>
 		<tr>
 			<td>Identifier</td>
 			<td>http://rs.tdwg.org/tcs/terms/vernacularName</td>
@@ -409,24 +461,25 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		</tr>
 		<tr>
 			<td>Examples</td>
-			<td>
+			<td><ul>
+<li><a href="/examples/TaxonConcept-vernacularName-example-1.html">TaxonConcept-vernacularName-example-1</a></li>
 
-- [TaxonConcept-vernacularName-example-1](../examples/TaxonConcept-vernacularName-example-1.md)
+<li><a href="/examples/TaxonConcept-vernacularName-example-2.html">TaxonConcept-vernacularName-example-2</a></li>
 
-- [TaxonConcept-vernacularName-example-2](../examples/TaxonConcept-vernacularName-example-2.md)
+<li><a href="/examples/TaxonConcept-vernacularName-example-3.html">TaxonConcept-vernacularName-example-3</a></li>
 
-- [TaxonConcept-vernacularName-example-3](../examples/TaxonConcept-vernacularName-example-3.md)
-
-
+</ul>
 </td>
 		</tr>
 	</tbody>
 </table>
 
-#### tcs:taxonRank
+<table>
 
-<table style="width:100%;">
-	<tbody>
+    <thead>
+        <th colspan="2"><a id="tcs_taxonrank"></a>Term Name: tcs:taxonRank</th>
+    </thead>
+    <tbody>
 		<tr>
 			<td>Identifier</td>
 			<td>http://rs.tdwg.org/tcs/terms/taxonRank</td>
@@ -459,10 +512,12 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 	</tbody>
 </table>
 
-#### tcs:parentTaxonConcept
+<table>
 
-<table style="width:100%;">
-	<tbody>
+    <thead>
+        <th colspan="2"><a id="tcs_parenttaxonconcept"></a>Term Name: tcs:parentTaxonConcept</th>
+    </thead>
+    <tbody>
 		<tr>
 			<td>Identifier</td>
 			<td>http://rs.tdwg.org/tcs/terms/parentTaxonConcept</td>
@@ -493,20 +548,21 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		</tr>
 		<tr>
 			<td>Examples</td>
-			<td>
+			<td><ul>
+<li><a href="/examples/TaxonConcept-parent-example-1.html">TaxonConcept-parent-example-1</a></li>
 
-- [TaxonConcept-parent-example-1](../examples/TaxonConcept-parent-example-1.md)
-
-
+</ul>
 </td>
 		</tr>
 	</tbody>
 </table>
 
-#### tcs:childTaxonConcept
+<table>
 
-<table style="width:100%;">
-	<tbody>
+    <thead>
+        <th colspan="2"><a id="tcs_childtaxonconcept"></a>Term Name: tcs:childTaxonConcept</th>
+    </thead>
+    <tbody>
 		<tr>
 			<td>Identifier</td>
 			<td>http://rs.tdwg.org/tcs/terms/childTaxonConcept</td>
@@ -537,20 +593,21 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		</tr>
 		<tr>
 			<td>Examples</td>
-			<td>
+			<td><ul>
+<li><a href="/examples/TaxonConcept-child-example-1.html">TaxonConcept-child-example-1</a></li>
 
-- [TaxonConcept-child-example-1](../examples/TaxonConcept-child-example-1.md)
-
-
+</ul>
 </td>
 		</tr>
 	</tbody>
 </table>
 
-#### tcs:isCongruentWith
+<table>
 
-<table style="width:100%;">
-	<tbody>
+    <thead>
+        <th colspan="2"><a id="tcs_iscongruentwith"></a>Term Name: tcs:isCongruentWith</th>
+    </thead>
+    <tbody>
 		<tr>
 			<td>Identifier</td>
 			<td>http://rs.tdwg.org/tcs/terms/isCongruentWith</td>
@@ -581,26 +638,27 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		</tr>
 		<tr>
 			<td>Examples</td>
-			<td>
+			<td><ul>
+<li><a href="/examples/TaxonConcept-isCongruentWith-example-1.html">TaxonConcept-isCongruentWith-example-1</a></li>
 
-- [TaxonConcept-isCongruentWith-example-1](../examples/TaxonConcept-isCongruentWith-example-1.md)
+<li><a href="/examples/TaxonConceptMapping-isCongruentWith-example-2.html">TaxonConceptMapping-isCongruentWith-example-2</a></li>
 
-- [TaxonConceptMapping-isCongruentWith-example-2](../examples/TaxonConceptMapping-isCongruentWith-example-2.md)
+<li><a href="/examples/TaxonConcept-isCongruentWith-example-3.html">TaxonConcept-isCongruentWith-example-3</a></li>
 
-- [TaxonConcept-isCongruentWith-example-3](../examples/TaxonConcept-isCongruentWith-example-3.md)
+<li><a href="/examples/TaxonConceptMapping-isCongruentWith-example-1.html">TaxonConceptMapping-isCongruentWith-example-1</a></li>
 
-- [TaxonConceptMapping-isCongruentWith-example-1](../examples/TaxonConceptMapping-isCongruentWith-example-1.md)
-
-
+</ul>
 </td>
 		</tr>
 	</tbody>
 </table>
 
-#### tcs:includes
+<table>
 
-<table style="width:100%;">
-	<tbody>
+    <thead>
+        <th colspan="2"><a id="tcs_includes"></a>Term Name: tcs:includes</th>
+    </thead>
+    <tbody>
 		<tr>
 			<td>Identifier</td>
 			<td>http://rs.tdwg.org/tcs/terms/includes</td>
@@ -631,24 +689,25 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		</tr>
 		<tr>
 			<td>Examples</td>
-			<td>
+			<td><ul>
+<li><a href="/examples/TaxonConcept-includes-example-1.html">TaxonConcept-includes-example-1</a></li>
 
-- [TaxonConcept-includes-example-1](../examples/TaxonConcept-includes-example-1.md)
+<li><a href="/examples/TaxonConceptMapping-includes-example-2.html">TaxonConceptMapping-includes-example-2</a></li>
 
-- [TaxonConceptMapping-includes-example-2](../examples/TaxonConceptMapping-includes-example-2.md)
+<li><a href="/examples/TaxonConceptMapping-includes-example-1.html">TaxonConceptMapping-includes-example-1</a></li>
 
-- [TaxonConceptMapping-includes-example-1](../examples/TaxonConceptMapping-includes-example-1.md)
-
-
+</ul>
 </td>
 		</tr>
 	</tbody>
 </table>
 
-#### tcs:isIncludedIn
+<table>
 
-<table style="width:100%;">
-	<tbody>
+    <thead>
+        <th colspan="2"><a id="tcs_isincludedin"></a>Term Name: tcs:isIncludedIn</th>
+    </thead>
+    <tbody>
 		<tr>
 			<td>Identifier</td>
 			<td>http://rs.tdwg.org/tcs/terms/isIncludedIn</td>
@@ -679,24 +738,25 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		</tr>
 		<tr>
 			<td>Examples</td>
-			<td>
+			<td><ul>
+<li><a href="/examples/TaxonConcept-isIncludedIn-example-1.html">TaxonConcept-isIncludedIn-example-1</a></li>
 
-- [TaxonConcept-isIncludedIn-example-1](../examples/TaxonConcept-isIncludedIn-example-1.md)
+<li><a href="/examples/TaxonConceptMapping-isIncludedIn-example-2.html">TaxonConceptMapping-isIncludedIn-example-2</a></li>
 
-- [TaxonConceptMapping-isIncludedIn-example-2](../examples/TaxonConceptMapping-isIncludedIn-example-2.md)
+<li><a href="/examples/TaxonConceptMapping-isIncludedIn-example-1.html">TaxonConceptMapping-isIncludedIn-example-1</a></li>
 
-- [TaxonConceptMapping-isIncludedIn-example-1](../examples/TaxonConceptMapping-isIncludedIn-example-1.md)
-
-
+</ul>
 </td>
 		</tr>
 	</tbody>
 </table>
 
-#### tcs:partiallyOverlaps
+<table>
 
-<table style="width:100%;">
-	<tbody>
+    <thead>
+        <th colspan="2"><a id="tcs_partiallyoverlaps"></a>Term Name: tcs:partiallyOverlaps</th>
+    </thead>
+    <tbody>
 		<tr>
 			<td>Identifier</td>
 			<td>http://rs.tdwg.org/tcs/terms/partiallyOverlaps</td>
@@ -727,24 +787,25 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		</tr>
 		<tr>
 			<td>Examples</td>
-			<td>
+			<td><ul>
+<li><a href="/examples/TaxonConcept-partiallyOverlaps-example-1.html">TaxonConcept-partiallyOverlaps-example-1</a></li>
 
-- [TaxonConcept-partiallyOverlaps-example-1](../examples/TaxonConcept-partiallyOverlaps-example-1.md)
+<li><a href="/examples/TaxonConceptMapping-partiallyOverlaps-example-2.html">TaxonConceptMapping-partiallyOverlaps-example-2</a></li>
 
-- [TaxonConceptMapping-partiallyOverlaps-example-2](../examples/TaxonConceptMapping-partiallyOverlaps-example-2.md)
+<li><a href="/examples/TaxonConceptMapping-partiallyOverlaps-example-1.html">TaxonConceptMapping-partiallyOverlaps-example-1</a></li>
 
-- [TaxonConceptMapping-partiallyOverlaps-example-1](../examples/TaxonConceptMapping-partiallyOverlaps-example-1.md)
-
-
+</ul>
 </td>
 		</tr>
 	</tbody>
 </table>
 
-#### tcs:isDisjointFrom
+<table>
 
-<table style="width:100%;">
-	<tbody>
+    <thead>
+        <th colspan="2"><a id="tcs_isdisjointfrom"></a>Term Name: tcs:isDisjointFrom</th>
+    </thead>
+    <tbody>
 		<tr>
 			<td>Identifier</td>
 			<td>http://rs.tdwg.org/tcs/terms/isDisjointFrom</td>
@@ -775,24 +836,25 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		</tr>
 		<tr>
 			<td>Examples</td>
-			<td>
+			<td><ul>
+<li><a href="/examples/TaxonConcept-isDisjointFrom-example-1.html">TaxonConcept-isDisjointFrom-example-1</a></li>
 
-- [TaxonConcept-isDisjointFrom-example-1](../examples/TaxonConcept-isDisjointFrom-example-1.md)
+<li><a href="/examples/TaxonConceptMapping-isDisjointFrom-example-2.html">TaxonConceptMapping-isDisjointFrom-example-2</a></li>
 
-- [TaxonConceptMapping-isDisjointFrom-example-2](../examples/TaxonConceptMapping-isDisjointFrom-example-2.md)
+<li><a href="/examples/TaxonConceptMapping-isDisjointFrom-example-1.html">TaxonConceptMapping-isDisjointFrom-example-1</a></li>
 
-- [TaxonConceptMapping-isDisjointFrom-example-1](../examples/TaxonConceptMapping-isDisjointFrom-example-1.md)
-
-
+</ul>
 </td>
 		</tr>
 	</tbody>
 </table>
 
-#### tcs:intersects
+<table>
 
-<table style="width:100%;">
-	<tbody>
+    <thead>
+        <th colspan="2"><a id="tcs_intersects"></a>Term Name: tcs:intersects</th>
+    </thead>
+    <tbody>
 		<tr>
 			<td>Identifier</td>
 			<td>http://rs.tdwg.org/tcs/terms/intersects</td>
@@ -823,26 +885,27 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		</tr>
 		<tr>
 			<td>Examples</td>
-			<td>
+			<td><ul>
+<li><a href="/examples/TaxonConcept-intersects-example-1.html">TaxonConcept-intersects-example-1</a></li>
 
-- [TaxonConcept-intersects-example-1](../examples/TaxonConcept-intersects-example-1.md)
+<li><a href="/examples/TaxonConcept-intersects-example-2.html">TaxonConcept-intersects-example-2</a></li>
 
-- [TaxonConcept-intersects-example-2](../examples/TaxonConcept-intersects-example-2.md)
+<li><a href="/examples/TaxonConceptMapping-intersects-example-1.html">TaxonConceptMapping-intersects-example-1</a></li>
 
-- [TaxonConceptMapping-intersects-example-1](../examples/TaxonConceptMapping-intersects-example-1.md)
+<li><a href="/examples/TaxonConcept-intersects-example-3.html">TaxonConcept-intersects-example-3</a></li>
 
-- [TaxonConcept-intersects-example-3](../examples/TaxonConcept-intersects-example-3.md)
-
-
+</ul>
 </td>
 		</tr>
 	</tbody>
 </table>
 
-#### dwc:scientificName
+<table>
 
-<table style="width:100%;">
-	<tbody>
+    <thead>
+        <th colspan="2"><a id="dwc_scientificname"></a>Term Name: dwc:scientificName</th>
+    </thead>
+    <tbody>
 		<tr>
 			<td>Identifier</td>
 			<td>http://rs.tdwg.org/dwc/terms/scientificName</td>
@@ -870,10 +933,12 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 	</tbody>
 </table>
 
-#### dwc:vernacularName
+<table>
 
-<table style="width:100%;">
-	<tbody>
+    <thead>
+        <th colspan="2"><a id="dwc_vernacularname"></a>Term Name: dwc:vernacularName</th>
+    </thead>
+    <tbody>
 		<tr>
 			<td>Identifier</td>
 			<td>http://rs.tdwg.org/dwc/terms/vernacularName</td>
@@ -897,10 +962,12 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 	</tbody>
 </table>
 
-#### dwc:verbatimTaxonRank
+<table>
 
-<table style="width:100%;">
-	<tbody>
+    <thead>
+        <th colspan="2"><a id="dwc_verbatimtaxonrank"></a>Term Name: dwc:verbatimTaxonRank</th>
+    </thead>
+    <tbody>
 		<tr>
 			<td>Identifier</td>
 			<td>http://rs.tdwg.org/dwc/terms/verbatimTaxonRank</td>
@@ -928,10 +995,12 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 	</tbody>
 </table>
 
-#### dcterms:title
+<table>
 
-<table style="width:100%;">
-	<tbody>
+    <thead>
+        <th colspan="2"><a id="dcterms_title"></a>Term Name: dcterms:title</th>
+    </thead>
+    <tbody>
 		<tr>
 			<td>Identifier</td>
 			<td>http://purl.org/dc/terms/title</td>
@@ -970,12 +1039,14 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 	</tbody>
 </table>
 
-### Taxon Concept Mapping
+### 5.2. Taxon Concept Mapping
 
-#### tcs:TaxonConceptMapping
+<table>
 
-<table style="width:100%;">
-	<tbody>
+    <thead>
+        <th colspan="2"><a id="tcs_taxonconceptmapping"></a>Term Name: tcs:TaxonConceptMapping</th>
+    </thead>
+    <tbody>
 		<tr>
 			<td>Identifier</td>
 			<td>http://rs.tdwg.org/tcs/terms/TaxonConceptMapping</td>
@@ -1002,42 +1073,43 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		</tr>
 		<tr>
 			<td>Examples</td>
-			<td>
+			<td><ul>
+<li><a href="/examples/TaxonConceptMapping-isCongruentWith-example-1.html">TaxonConceptMapping-isCongruentWith-example-1</a></li>
 
-- [TaxonConceptMapping-isCongruentWith-example-1](../examples/TaxonConceptMapping-isCongruentWith-example-1.md)
+<li><a href="/examples/TaxonConceptMapping-isCongruentWith-example-2.html">TaxonConceptMapping-isCongruentWith-example-2</a></li>
 
-- [TaxonConceptMapping-isCongruentWith-example-2](../examples/TaxonConceptMapping-isCongruentWith-example-2.md)
+<li><a href="/examples/TaxonConceptMapping-includes-example-1.html">TaxonConceptMapping-includes-example-1</a></li>
 
-- [TaxonConceptMapping-includes-example-1](../examples/TaxonConceptMapping-includes-example-1.md)
+<li><a href="/examples/TaxonConceptMapping-includes-example-2.html">TaxonConceptMapping-includes-example-2</a></li>
 
-- [TaxonConceptMapping-includes-example-2](../examples/TaxonConceptMapping-includes-example-2.md)
+<li><a href="/examples/TaxonConceptMapping-isIncludedIn-example-1.html">TaxonConceptMapping-isIncludedIn-example-1</a></li>
 
-- [TaxonConceptMapping-isIncludedIn-example-1](../examples/TaxonConceptMapping-isIncludedIn-example-1.md)
+<li><a href="/examples/TaxonConceptMapping-isIncludedIn-example-2.html">TaxonConceptMapping-isIncludedIn-example-2</a></li>
 
-- [TaxonConceptMapping-isIncludedIn-example-2](../examples/TaxonConceptMapping-isIncludedIn-example-2.md)
+<li><a href="/examples/TaxonConceptMapping-partiallyOverlaps-example-1.html">TaxonConceptMapping-partiallyOverlaps-example-1</a></li>
 
-- [TaxonConceptMapping-partiallyOverlaps-example-1](../examples/TaxonConceptMapping-partiallyOverlaps-example-1.md)
+<li><a href="/examples/TaxonConceptMapping-partiallyOverlaps-example-2.html">TaxonConceptMapping-partiallyOverlaps-example-2</a></li>
 
-- [TaxonConceptMapping-partiallyOverlaps-example-2](../examples/TaxonConceptMapping-partiallyOverlaps-example-2.md)
+<li><a href="/examples/TaxonConceptMapping-isDisjointFrom-example-1.html">TaxonConceptMapping-isDisjointFrom-example-1</a></li>
 
-- [TaxonConceptMapping-isDisjointFrom-example-1](../examples/TaxonConceptMapping-isDisjointFrom-example-1.md)
+<li><a href="/examples/TaxonConceptMapping-isDisjointFrom-example-2.html">TaxonConceptMapping-isDisjointFrom-example-2</a></li>
 
-- [TaxonConceptMapping-isDisjointFrom-example-2](../examples/TaxonConceptMapping-isDisjointFrom-example-2.md)
+<li><a href="/examples/TaxonConceptMapping-intersects-example-1.html">TaxonConceptMapping-intersects-example-1</a></li>
 
-- [TaxonConceptMapping-intersects-example-1](../examples/TaxonConceptMapping-intersects-example-1.md)
+<li><a href="/examples/TaxonConceptMapping-intersects-example-2.html">TaxonConceptMapping-intersects-example-2</a></li>
 
-- [TaxonConceptMapping-intersects-example-2](../examples/TaxonConceptMapping-intersects-example-2.md)
-
-
+</ul>
 </td>
 		</tr>
 	</tbody>
 </table>
 
-#### tcs:mappingAccordingTo
+<table>
 
-<table style="width:100%;">
-	<tbody>
+    <thead>
+        <th colspan="2"><a id="tcs_mappingaccordingto"></a>Term Name: tcs:mappingAccordingTo</th>
+    </thead>
+    <tbody>
 		<tr>
 			<td>Identifier</td>
 			<td>http://rs.tdwg.org/tcs/terms/mappingAccordingTo</td>
@@ -1065,10 +1137,12 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 	</tbody>
 </table>
 
-#### tcs:mappingRelation
+<table>
 
-<table style="width:100%;">
-	<tbody>
+    <thead>
+        <th colspan="2"><a id="tcs_mappingrelation"></a>Term Name: tcs:mappingRelation</th>
+    </thead>
+    <tbody>
 		<tr>
 			<td>Identifier</td>
 			<td>http://rs.tdwg.org/tcs/terms/mappingRelation</td>
@@ -1096,10 +1170,12 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 	</tbody>
 </table>
 
-#### tcs:subjectTaxonConcept
+<table>
 
-<table style="width:100%;">
-	<tbody>
+    <thead>
+        <th colspan="2"><a id="tcs_subjecttaxonconcept"></a>Term Name: tcs:subjectTaxonConcept</th>
+    </thead>
+    <tbody>
 		<tr>
 			<td>Identifier</td>
 			<td>http://rs.tdwg.org/tcs/terms/subjectTaxonConcept</td>
@@ -1131,10 +1207,12 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 	</tbody>
 </table>
 
-#### tcs:objectTaxonConcept
+<table>
 
-<table style="width:100%;">
-	<tbody>
+    <thead>
+        <th colspan="2"><a id="tcs_objecttaxonconcept"></a>Term Name: tcs:objectTaxonConcept</th>
+    </thead>
+    <tbody>
 		<tr>
 			<td>Identifier</td>
 			<td>http://rs.tdwg.org/tcs/terms/objectTaxonConcept</td>
@@ -1166,12 +1244,14 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 	</tbody>
 </table>
 
-### Taxon Name
+### 5.3. Taxon Name
 
-#### tcs:TaxonName
+<table>
 
-<table style="width:100%;">
-	<tbody>
+    <thead>
+        <th colspan="2"><a id="tcs_taxonname"></a>Term Name: tcs:TaxonName</th>
+    </thead>
+    <tbody>
 		<tr>
 			<td>Identifier</td>
 			<td>http://rs.tdwg.org/tcs/terms/TaxonName</td>
@@ -1198,26 +1278,27 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		</tr>
 		<tr>
 			<td>Examples</td>
-			<td>
+			<td><ul>
+<li><a href="/examples/TaxonName-example-1.html">TaxonName-example-1</a></li>
 
-- [TaxonName-example-1](../examples/TaxonName-example-1.md)
+<li><a href="/examples/TaxonName-example-2.html">TaxonName-example-2</a></li>
 
-- [TaxonName-example-2](../examples/TaxonName-example-2.md)
+<li><a href="/examples/TaxonName-example-3.html">TaxonName-example-3</a></li>
 
-- [TaxonName-example-3](../examples/TaxonName-example-3.md)
+<li><a href="/examples/TaxonName-example-4.html">TaxonName-example-4</a></li>
 
-- [TaxonName-example-4](../examples/TaxonName-example-4.md)
-
-
+</ul>
 </td>
 		</tr>
 	</tbody>
 </table>
 
-#### tcs:nameString
+<table>
 
-<table style="width:100%;">
-	<tbody>
+    <thead>
+        <th colspan="2"><a id="tcs_namestring"></a>Term Name: tcs:nameString</th>
+    </thead>
+    <tbody>
 		<tr>
 			<td>Identifier</td>
 			<td>http://rs.tdwg.org/tcs/terms/nameString</td>
@@ -1249,10 +1330,12 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 	</tbody>
 </table>
 
-#### tcs:namePublishedIn
+<table>
 
-<table style="width:100%;">
-	<tbody>
+    <thead>
+        <th colspan="2"><a id="tcs_namepublishedin"></a>Term Name: tcs:namePublishedIn</th>
+    </thead>
+    <tbody>
 		<tr>
 			<td>Identifier</td>
 			<td>http://rs.tdwg.org/tcs/terms/namePublishedIn</td>
@@ -1280,10 +1363,12 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 	</tbody>
 </table>
 
-#### tcs:microreference
+<table>
 
-<table style="width:100%;">
-	<tbody>
+    <thead>
+        <th colspan="2"><a id="tcs_microreference"></a>Term Name: tcs:microreference</th>
+    </thead>
+    <tbody>
 		<tr>
 			<td>Identifier</td>
 			<td>http://rs.tdwg.org/tcs/terms/microreference</td>
@@ -1315,10 +1400,12 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 	</tbody>
 </table>
 
-#### tcs:nomenclaturalCode
+<table>
 
-<table style="width:100%;">
-	<tbody>
+    <thead>
+        <th colspan="2"><a id="tcs_nomenclaturalcode"></a>Term Name: tcs:nomenclaturalCode</th>
+    </thead>
+    <tbody>
 		<tr>
 			<td>Identifier</td>
 			<td>http://rs.tdwg.org/tcs/terms/nomenclaturalCode</td>
@@ -1350,10 +1437,12 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 	</tbody>
 </table>
 
-#### tcs:nomenclaturalStatus
+<table>
 
-<table style="width:100%;">
-	<tbody>
+    <thead>
+        <th colspan="2"><a id="tcs_nomenclaturalstatus"></a>Term Name: tcs:nomenclaturalStatus</th>
+    </thead>
+    <tbody>
 		<tr>
 			<td>Identifier</td>
 			<td>http://rs.tdwg.org/tcs/terms/nomenclaturalStatus</td>
@@ -1385,10 +1474,12 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 	</tbody>
 </table>
 
-#### tcs:typification
+<table>
 
-<table style="width:100%;">
-	<tbody>
+    <thead>
+        <th colspan="2"><a id="tcs_typification"></a>Term Name: tcs:typification</th>
+    </thead>
+    <tbody>
 		<tr>
 			<td>Identifier</td>
 			<td>http://rs.tdwg.org/tcs/terms/typification</td>
@@ -1419,22 +1510,23 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		</tr>
 		<tr>
 			<td>Examples</td>
-			<td>
+			<td><ul>
+<li><a href="/examples/TaxonName-typification-example-1.html">TaxonName-typification-example-1</a></li>
 
-- [TaxonName-typification-example-1](../examples/TaxonName-typification-example-1.md)
+<li><a href="/examples/TaxonName-typification-example-2.html">TaxonName-typification-example-2</a></li>
 
-- [TaxonName-typification-example-2](../examples/TaxonName-typification-example-2.md)
-
-
+</ul>
 </td>
 		</tr>
 	</tbody>
 </table>
 
-#### tcs:typificationLiteral
+<table>
 
-<table style="width:100%;">
-	<tbody>
+    <thead>
+        <th colspan="2"><a id="tcs_typificationliteral"></a>Term Name: tcs:typificationLiteral</th>
+    </thead>
+    <tbody>
 		<tr>
 			<td>Identifier</td>
 			<td>http://rs.tdwg.org/tcs/terms/typificationLiteral</td>
@@ -1466,10 +1558,12 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 	</tbody>
 </table>
 
-#### tcs:basionym
+<table>
 
-<table style="width:100%;">
-	<tbody>
+    <thead>
+        <th colspan="2"><a id="tcs_basionym"></a>Term Name: tcs:basionym</th>
+    </thead>
+    <tbody>
 		<tr>
 			<td>Identifier</td>
 			<td>http://rs.tdwg.org/tcs/terms/basionym</td>
@@ -1500,22 +1594,23 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		</tr>
 		<tr>
 			<td>Examples</td>
-			<td>
+			<td><ul>
+<li><a href="/examples/TaxonName-basionym-example-1.html">TaxonName-basionym-example-1</a></li>
 
-- [TaxonName-basionym-example-1](../examples/TaxonName-basionym-example-1.md)
+<li><a href="/examples/TaxonName-basionym-example-2.html">TaxonName-basionym-example-2</a></li>
 
-- [TaxonName-basionym-example-2](../examples/TaxonName-basionym-example-2.md)
-
-
+</ul>
 </td>
 		</tr>
 	</tbody>
 </table>
 
-#### tcs:replacedName
+<table>
 
-<table style="width:100%;">
-	<tbody>
+    <thead>
+        <th colspan="2"><a id="tcs_replacedname"></a>Term Name: tcs:replacedName</th>
+    </thead>
+    <tbody>
 		<tr>
 			<td>Identifier</td>
 			<td>http://rs.tdwg.org/tcs/terms/replacedName</td>
@@ -1546,26 +1641,27 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		</tr>
 		<tr>
 			<td>Examples</td>
-			<td>
+			<td><ul>
+<li><a href="/examples/TaxonName-replacedName-example-1.html">TaxonName-replacedName-example-1</a></li>
 
-- [TaxonName-replacedName-example-1](../examples/TaxonName-replacedName-example-1.md)
+<li><a href="/examples/TaxonName-replacedName-example-2.html">TaxonName-replacedName-example-2</a></li>
 
-- [TaxonName-replacedName-example-2](../examples/TaxonName-replacedName-example-2.md)
+<li><a href="/examples/TaxonName-replacedName-example-3.html">TaxonName-replacedName-example-3</a></li>
 
-- [TaxonName-replacedName-example-3](../examples/TaxonName-replacedName-example-3.md)
+<li><a href="/examples/TaxonName-replacedName-example-4.html">TaxonName-replacedName-example-4</a></li>
 
-- [TaxonName-replacedName-example-4](../examples/TaxonName-replacedName-example-4.md)
-
-
+</ul>
 </td>
 		</tr>
 	</tbody>
 </table>
 
-#### tcs:basedOn
+<table>
 
-<table style="width:100%;">
-	<tbody>
+    <thead>
+        <th colspan="2"><a id="tcs_basedon"></a>Term Name: tcs:basedOn</th>
+    </thead>
+    <tbody>
 		<tr>
 			<td>Identifier</td>
 			<td>http://rs.tdwg.org/tcs/terms/basedOn</td>
@@ -1597,10 +1693,12 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 	</tbody>
 </table>
 
-#### tcs:laterHomonymOf
+<table>
 
-<table style="width:100%;">
-	<tbody>
+    <thead>
+        <th colspan="2"><a id="tcs_laterhomonymof"></a>Term Name: tcs:laterHomonymOf</th>
+    </thead>
+    <tbody>
 		<tr>
 			<td>Identifier</td>
 			<td>http://rs.tdwg.org/tcs/terms/laterHomonymOf</td>
@@ -1632,10 +1730,12 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 	</tbody>
 </table>
 
-#### tcs:conservedAgainst
+<table>
 
-<table style="width:100%;">
-	<tbody>
+    <thead>
+        <th colspan="2"><a id="tcs_conservedagainst"></a>Term Name: tcs:conservedAgainst</th>
+    </thead>
+    <tbody>
 		<tr>
 			<td>Identifier</td>
 			<td>http://rs.tdwg.org/tcs/terms/conservedAgainst</td>
@@ -1666,20 +1766,21 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		</tr>
 		<tr>
 			<td>Examples</td>
-			<td>
+			<td><ul>
+<li><a href="/examples/TaxonName-conservedAgainst-example-1.html">TaxonName-conservedAgainst-example-1</a></li>
 
-- [TaxonName-conservedAgainst-example-1](../examples/TaxonName-conservedAgainst-example-1.md)
-
-
+</ul>
 </td>
 		</tr>
 	</tbody>
 </table>
 
-#### tcs:combinationAuthor
+<table>
 
-<table style="width:100%;">
-	<tbody>
+    <thead>
+        <th colspan="2"><a id="tcs_combinationauthor"></a>Term Name: tcs:combinationAuthor</th>
+    </thead>
+    <tbody>
 		<tr>
 			<td>Identifier</td>
 			<td>http://rs.tdwg.org/tcs/terms/combinationAuthor</td>
@@ -1710,20 +1811,21 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		</tr>
 		<tr>
 			<td>Examples</td>
-			<td>
+			<td><ul>
+<li><a href="/examples/TaxonName-combinationAuthor-example-1.html">TaxonName-combinationAuthor-example-1</a></li>
 
-- [TaxonName-combinationAuthor-example-1](../examples/TaxonName-combinationAuthor-example-1.md)
-
-
+</ul>
 </td>
 		</tr>
 	</tbody>
 </table>
 
-#### tcs:combinationAuthorLiteral
+<table>
 
-<table style="width:100%;">
-	<tbody>
+    <thead>
+        <th colspan="2"><a id="tcs_combinationauthorliteral"></a>Term Name: tcs:combinationAuthorLiteral</th>
+    </thead>
+    <tbody>
 		<tr>
 			<td>Identifier</td>
 			<td>http://rs.tdwg.org/tcs/terms/combinationAuthorLiteral</td>
@@ -1755,10 +1857,12 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 	</tbody>
 </table>
 
-#### tcs:basionymAuthor
+<table>
 
-<table style="width:100%;">
-	<tbody>
+    <thead>
+        <th colspan="2"><a id="tcs_basionymauthor"></a>Term Name: tcs:basionymAuthor</th>
+    </thead>
+    <tbody>
 		<tr>
 			<td>Identifier</td>
 			<td>http://rs.tdwg.org/tcs/terms/basionymAuthor</td>
@@ -1789,20 +1893,21 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		</tr>
 		<tr>
 			<td>Examples</td>
-			<td>
+			<td><ul>
+<li><a href="/examples/TaxonName-basionymAuthor-example-1.html">TaxonName-basionymAuthor-example-1</a></li>
 
-- [TaxonName-basionymAuthor-example-1](../examples/TaxonName-basionymAuthor-example-1.md)
-
-
+</ul>
 </td>
 		</tr>
 	</tbody>
 </table>
 
-#### tcs:basionymAuthorLiteral
+<table>
 
-<table style="width:100%;">
-	<tbody>
+    <thead>
+        <th colspan="2"><a id="tcs_basionymauthorliteral"></a>Term Name: tcs:basionymAuthorLiteral</th>
+    </thead>
+    <tbody>
 		<tr>
 			<td>Identifier</td>
 			<td>http://rs.tdwg.org/tcs/terms/basionymAuthorLiteral</td>
@@ -1834,10 +1939,12 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 	</tbody>
 </table>
 
-#### tcs:combinationAscribedAuthor
+<table>
 
-<table style="width:100%;">
-	<tbody>
+    <thead>
+        <th colspan="2"><a id="tcs_combinationascribedauthor"></a>Term Name: tcs:combinationAscribedAuthor</th>
+    </thead>
+    <tbody>
 		<tr>
 			<td>Identifier</td>
 			<td>http://rs.tdwg.org/tcs/terms/combinationAscribedAuthor</td>
@@ -1868,20 +1975,21 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		</tr>
 		<tr>
 			<td>Examples</td>
-			<td>
+			<td><ul>
+<li><a href="/examples/TaxonName-combinationAscribedAuthor-example-1.html">TaxonName-combinationAscribedAuthor-example-1</a></li>
 
-- [TaxonName-combinationAscribedAuthor-example-1](../examples/TaxonName-combinationAscribedAuthor-example-1.md)
-
-
+</ul>
 </td>
 		</tr>
 	</tbody>
 </table>
 
-#### tcs:combinationAscribedAuthorLiteral
+<table>
 
-<table style="width:100%;">
-	<tbody>
+    <thead>
+        <th colspan="2"><a id="tcs_combinationascribedauthorliteral"></a>Term Name: tcs:combinationAscribedAuthorLiteral</th>
+    </thead>
+    <tbody>
 		<tr>
 			<td>Identifier</td>
 			<td>http://rs.tdwg.org/tcs/terms/combinationAscribedAuthorLiteral</td>
@@ -1913,10 +2021,12 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 	</tbody>
 </table>
 
-#### tcs:basionymAscribedAuthor
+<table>
 
-<table style="width:100%;">
-	<tbody>
+    <thead>
+        <th colspan="2"><a id="tcs_basionymascribedauthor"></a>Term Name: tcs:basionymAscribedAuthor</th>
+    </thead>
+    <tbody>
 		<tr>
 			<td>Identifier</td>
 			<td>http://rs.tdwg.org/tcs/terms/basionymAscribedAuthor</td>
@@ -1947,20 +2057,21 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		</tr>
 		<tr>
 			<td>Examples</td>
-			<td>
+			<td><ul>
+<li><a href="/examples/TaxonName-basionymAscribedAuthor-example-1.html">TaxonName-basionymAscribedAuthor-example-1</a></li>
 
-- [TaxonName-basionymAscribedAuthor-example-1](../examples/TaxonName-basionymAscribedAuthor-example-1.md)
-
-
+</ul>
 </td>
 		</tr>
 	</tbody>
 </table>
 
-#### tcs:basionymAscribedAuthorLiteral
+<table>
 
-<table style="width:100%;">
-	<tbody>
+    <thead>
+        <th colspan="2"><a id="tcs_basionymascribedauthorliteral"></a>Term Name: tcs:basionymAscribedAuthorLiteral</th>
+    </thead>
+    <tbody>
 		<tr>
 			<td>Identifier</td>
 			<td>http://rs.tdwg.org/tcs/terms/basionymAscribedAuthorLiteral</td>
@@ -1992,10 +2103,12 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 	</tbody>
 </table>
 
-#### dwc:scientificNameAuthorship
+<table>
 
-<table style="width:100%;">
-	<tbody>
+    <thead>
+        <th colspan="2"><a id="dwc_scientificnameauthorship"></a>Term Name: dwc:scientificNameAuthorship</th>
+    </thead>
+    <tbody>
 		<tr>
 			<td>Identifier</td>
 			<td>http://rs.tdwg.org/dwc/terms/scientificNameAuthorship</td>
@@ -2023,10 +2136,12 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 	</tbody>
 </table>
 
-#### dwc:namePublishedIn
+<table>
 
-<table style="width:100%;">
-	<tbody>
+    <thead>
+        <th colspan="2"><a id="dwc_namepublishedin"></a>Term Name: dwc:namePublishedIn</th>
+    </thead>
+    <tbody>
 		<tr>
 			<td>Identifier</td>
 			<td>http://rs.tdwg.org/dwc/terms/namePublishedIn</td>
@@ -2054,10 +2169,12 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 	</tbody>
 </table>
 
-#### dwc:namePublishedInYear
+<table>
 
-<table style="width:100%;">
-	<tbody>
+    <thead>
+        <th colspan="2"><a id="dwc_namepublishedinyear"></a>Term Name: dwc:namePublishedInYear</th>
+    </thead>
+    <tbody>
 		<tr>
 			<td>Identifier</td>
 			<td>http://rs.tdwg.org/dwc/terms/namePublishedInYear</td>
@@ -2085,10 +2202,12 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 	</tbody>
 </table>
 
-#### dwc:genericName
+<table>
 
-<table style="width:100%;">
-	<tbody>
+    <thead>
+        <th colspan="2"><a id="dwc_genericname"></a>Term Name: dwc:genericName</th>
+    </thead>
+    <tbody>
 		<tr>
 			<td>Identifier</td>
 			<td>http://rs.tdwg.org/dwc/terms/genericName</td>
@@ -2116,10 +2235,12 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 	</tbody>
 </table>
 
-#### dwc:infragenericEpithet
+<table>
 
-<table style="width:100%;">
-	<tbody>
+    <thead>
+        <th colspan="2"><a id="dwc_infragenericepithet"></a>Term Name: dwc:infragenericEpithet</th>
+    </thead>
+    <tbody>
 		<tr>
 			<td>Identifier</td>
 			<td>http://rs.tdwg.org/dwc/terms/infragenericEpithet</td>
@@ -2147,10 +2268,12 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 	</tbody>
 </table>
 
-#### dwc:specificEpithet
+<table>
 
-<table style="width:100%;">
-	<tbody>
+    <thead>
+        <th colspan="2"><a id="dwc_specificepithet"></a>Term Name: dwc:specificEpithet</th>
+    </thead>
+    <tbody>
 		<tr>
 			<td>Identifier</td>
 			<td>http://rs.tdwg.org/dwc/terms/specificEpithet</td>
@@ -2178,10 +2301,12 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 	</tbody>
 </table>
 
-#### dwc:infraspecificEpithet
+<table>
 
-<table style="width:100%;">
-	<tbody>
+    <thead>
+        <th colspan="2"><a id="dwc_infraspecificepithet"></a>Term Name: dwc:infraspecificEpithet</th>
+    </thead>
+    <tbody>
 		<tr>
 			<td>Identifier</td>
 			<td>http://rs.tdwg.org/dwc/terms/infraspecificEpithet</td>
@@ -2209,10 +2334,12 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 	</tbody>
 </table>
 
-#### dwc:cultivarEpithet
+<table>
 
-<table style="width:100%;">
-	<tbody>
+    <thead>
+        <th colspan="2"><a id="dwc_cultivarepithet"></a>Term Name: dwc:cultivarEpithet</th>
+    </thead>
+    <tbody>
 		<tr>
 			<td>Identifier</td>
 			<td>http://rs.tdwg.org/dwc/terms/cultivarEpithet</td>
@@ -2240,12 +2367,14 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 	</tbody>
 </table>
 
-### Nomenclatural Type
+### 5.4. Nomenclatural Type
 
-#### tcs:NomenclaturalType
+<table>
 
-<table style="width:100%;">
-	<tbody>
+    <thead>
+        <th colspan="2"><a id="tcs_nomenclaturaltype"></a>Term Name: tcs:NomenclaturalType</th>
+    </thead>
+    <tbody>
 		<tr>
 			<td>Identifier</td>
 			<td>http://rs.tdwg.org/tcs/terms/NomenclaturalType</td>
@@ -2272,20 +2401,21 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		</tr>
 		<tr>
 			<td>Examples</td>
-			<td>
+			<td><ul>
+<li><a href="/examples/NomenclaturalType-example-1.html">NomenclaturalType-example-1</a></li>
 
-- [NomenclaturalType-example-1](../examples/NomenclaturalType-example-1.md)
-
-
+</ul>
 </td>
 		</tr>
 	</tbody>
 </table>
 
-#### tcs:typifiedName
+<table>
 
-<table style="width:100%;">
-	<tbody>
+    <thead>
+        <th colspan="2"><a id="tcs_typifiedname"></a>Term Name: tcs:typifiedName</th>
+    </thead>
+    <tbody>
 		<tr>
 			<td>Identifier</td>
 			<td>http://rs.tdwg.org/tcs/terms/typifiedName</td>
@@ -2317,10 +2447,12 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 	</tbody>
 </table>
 
-#### tcs:typeOfType
+<table>
 
-<table style="width:100%;">
-	<tbody>
+    <thead>
+        <th colspan="2"><a id="tcs_typeoftype"></a>Term Name: tcs:typeOfType</th>
+    </thead>
+    <tbody>
 		<tr>
 			<td>Identifier</td>
 			<td>http://rs.tdwg.org/tcs/terms/typeOfType</td>
@@ -2352,10 +2484,12 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 	</tbody>
 </table>
 
-#### tcs:typeName
+<table>
 
-<table style="width:100%;">
-	<tbody>
+    <thead>
+        <th colspan="2"><a id="tcs_typename"></a>Term Name: tcs:typeName</th>
+    </thead>
+    <tbody>
 		<tr>
 			<td>Identifier</td>
 			<td>http://rs.tdwg.org/tcs/terms/typeName</td>
@@ -2387,10 +2521,12 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 	</tbody>
 </table>
 
-#### tcs:typeSpecimen
+<table>
 
-<table style="width:100%;">
-	<tbody>
+    <thead>
+        <th colspan="2"><a id="tcs_typespecimen"></a>Term Name: tcs:typeSpecimen</th>
+    </thead>
+    <tbody>
 		<tr>
 			<td>Identifier</td>
 			<td>http://rs.tdwg.org/tcs/terms/typeSpecimen</td>
@@ -2422,10 +2558,12 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 	</tbody>
 </table>
 
-#### tcs:typePublishedIn
+<table>
 
-<table style="width:100%;">
-	<tbody>
+    <thead>
+        <th colspan="2"><a id="tcs_typepublishedin"></a>Term Name: tcs:typePublishedIn</th>
+    </thead>
+    <tbody>
 		<tr>
 			<td>Identifier</td>
 			<td>http://rs.tdwg.org/tcs/terms/typePublishedIn</td>

@@ -1,16 +1,22 @@
 # Taxon Concept Standard (TCS) term list
 
-**Title**: Taxon Concept Standard (TCS) term list
+**Title**
+: Taxon Concept Standard (TCS) term list
 
-**Date version created**: yyyy-mm-dd
+**Date version created**
+: 2025-08-09
 
-**Part of TDWG standard**: 
+**Part of TDWG standard**
+: http://www.tdwg.org/standards/117
 
-**This version**:
+**This version**
+: http://rs.tdwg.org/tcs/doc/terms/2025-08-09
 
-**Latest version**:
+**Latest version**
+: http://rs.tdwg.org/tcs/doc/terms
 
-**Abstract**: The Taxon Concept Standard (TCS) is the TDWG standard specifically
+**Abstract**
+: The Taxon Concept Standard (TCS) is the TDWG standard specifically
 for sharing taxonomic and nomenclatural data. TCS provides TaxonConcept and
 TaxonName classes for information about taxon concepts and taxon names,
 respectively, as well as a TaxonConceptMapping class for taxon concept
@@ -18,13 +24,16 @@ alignments and a NomenclaturalType class for information on typification of
 taxon names. TCS offers a semantic framework for, and facilitates more accurate
 exchange of, taxonomic and nomenclatural data.
 
-**Contributors**: Niels Klazenga, Greg Whitbread, Vijay Barve, Thierry Bourgoin,
+**Contributors**
+: Niels Klazenga, Greg Whitbread, Vijay Barve, Thierry Bourgoin,
 Markus Döring, Anne Fuchs, Jeff Gerbracht, Johan Liljeblad, Carlos Martínez
 Muñoz, Mieke Strong, William Ulate, Cam Webb 
 
-**Creator**: TDWG Taxon Concept Schema (TCS) 2 Task Group
+**Creator**
+: TDWG Taxon Concept Schema (TCS) 2 Task Group
 
-**Bibliographic citation**: Taxon Concept Standard Maintenance Group (2024).
+**Bibliographic citation**
+: Taxon Concept Standard Maintenance Group (2025).
 Taxon Concept Standard Term List. Biodiversity Information Standards (TDWG).
 
 ## 1. Introduction
@@ -39,7 +48,7 @@ be used within TCS. All other parts, including Label, Comments and Examples, are
 informative. The assignment of properties to classes is also informative,
 although most properties can only reasonably be used in the class in which they
 are organised. For the properties that can be used in more than one TCS class
-this has been indicated in the notes.
+this has been indicated in the comments.
 
 ### 1.2. RFC keywords
 
@@ -123,33 +132,14 @@ present in the data.
 
 Examples are provided for most TCS terms. As almost all TCS properties are IRI
 properties, significant context has been added to make the examples as useful as
-possible. As because of this the examples take up a lot of space only one
-example per term has been reproduced in this document. Links are provided for
-other examples.
+possible. As because of this the examples take up a lot of space they have been
+placed in separate documents, which are linked to from this document.
 
-The examples in this document are in TurTLe. This format has been chosen because
-it is very terse and still easy to read and, most importantly, allows comments.
-The fact that the examples are in a serialization of RDF should not be taken to
-mean that TCS data has to be RDF, just that it can be RDF. All examples are also
-provided in JSON-LD.
-
-The following namespace aliases are used in the examples:
-
-| alias | namespace |
-|-|-|
-| tcs | http://rs.tdwg.org/tcs/terms/ |
-| address | http://schemas.talis.com/2005/address/schema# |
-| bibo | http://purl.org/ontology/bibo/ |
-| dcterms | http://purl.org/dc/terms/ |
-| dwc | http://rs.tdwg.org/dwc/terms/ |
-| dwciri | http://rs.tdwg.org/dwc/iri/ |
-| dsw | http://purl.org/dsw/ |
-| foaf | http://xmlns.com/foaf/0.1/ |
-| gbif | http://rs.gbif.org/terms/1.0/ |
-| oa | http://www.w3.org/ns/oa# |
-| rdf | http://www.w3.org/1999/02/22-rdf-syntax-ns# |
-| rdfs | http://www.w3.org/2000/01/rdf-schema# |
-| skosxl | http://www.w3.org/2008/05/skos-xl# |
+The examples referenced in this document are in TurTLe. This format has been
+chosen because it is very terse and still easy to read and, most importantly,
+allows comments. The fact that the examples are in a serialization of RDF should
+not be taken to mean that TCS data has to be RDF, just that it can be RDF. All
+examples are also provided in JSON-LD.
 
 ## 2. Namespace
 
@@ -161,7 +151,7 @@ alias for this namespace is `tcs`.
 As much as possible TCS uses already existing terms rather than define new
 terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 
-| standard | namespace | alias |
-|-|-|-|
+| Standard | Namespace | Alias |
+|----------|-----------|-------|
 | Darwin Core | http://rs.tdwg.org/dwc/terms/ | dwc |
 | Dublin Core | http://purl.org/dc/terms/ | dcterms |
