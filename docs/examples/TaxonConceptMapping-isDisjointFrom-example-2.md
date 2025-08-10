@@ -25,5 +25,5 @@
             Castagne 1961: 203)""" .
 ```
 
-[&#91;TaxonConceptMapping-isDisjointFrom-example-2.ttl&#93;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConceptMapping-isDisjointFrom-example-2.ttl)&nbsp;[&#91;TaxonConceptMapping-isDisjointFrom-example-2.jsonld&#93;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConceptMapping-isDisjointFrom-example-2.jsonld)
+[&#91;TurTLe&#93;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConceptMapping-isDisjointFrom-example-2.ttl)&nbsp;[&#91;JSON-LD&#93;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConceptMapping-isDisjointFrom-example-2.jsonld)
 

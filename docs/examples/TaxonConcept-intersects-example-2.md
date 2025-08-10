@@ -44,5 +44,5 @@
 # examples/euphrasia_gibbsiae_sec_barker_1982.ttl for the full example.
 ```
 
-[&#91;TaxonConcept-intersects-example-2.ttl&#93;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-intersects-example-2.ttl)&nbsp;[&#91;TaxonConcept-intersects-example-2.jsonld&#93;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-intersects-example-2.jsonld)
+[&#91;TurTLe&#93;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-intersects-example-2.ttl)&nbsp;[&#91;JSON-LD&#93;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-intersects-example-2.jsonld)
 

@@ -45,5 +45,5 @@
             dwc:scientificNameAuthorship: "(Linnaeus, 1758)" ] .
 ```
 
-[&#91;TaxonConcept-child-example-1.ttl&#93;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-child-example-1.ttl)&nbsp;[&#91;TaxonConcept-child-example-1.jsonld&#93;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-child-example-1.jsonld)
+[&#91;TurTLe&#93;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-child-example-1.ttl)&nbsp;[&#91;JSON-LD&#93;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-child-example-1.jsonld)
 

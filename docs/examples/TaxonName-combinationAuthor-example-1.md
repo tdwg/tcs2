@@ -16,5 +16,5 @@
     foaf:surname "Brown" .
 ```
 
-[&#91;TaxonName-combinationAuthor-example-1.ttl&#93;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonName-combinationAuthor-example-1.ttl)&nbsp;[&#91;TaxonName-combinationAuthor-example-1.jsonld&#93;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonName-combinationAuthor-example-1.jsonld)
+[&#91;TurTLe&#93;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonName-combinationAuthor-example-1.ttl)&nbsp;[&#91;JSON-LD&#93;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonName-combinationAuthor-example-1.jsonld)
 

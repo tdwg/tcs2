@@ -37,5 +37,5 @@ TaxonConcept-intersects-example-1 | [TaxonConcept-intersects-example-2](./TaxonC
         tcs:synonym <https://ipni.org/n/105731-1> ] .
 ```
 
-[&#91;TaxonConcept-intersects-example-1.ttl&#93;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-intersects-example-1.ttl)&nbsp;[&#91;TaxonConcept-intersects-example-1.jsonld&#93;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-intersects-example-1.jsonld)
+[&#91;TurTLe&#93;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-intersects-example-1.ttl)&nbsp;[&#91;JSON-LD&#93;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-intersects-example-1.jsonld)
 

@@ -21,5 +21,5 @@
             Malaysia, Kepong, Malaysia.""" .
 ```
 
-[&#91;TaxonConcept-example-3.ttl&#93;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-example-3.ttl)&nbsp;[&#91;TaxonConcept-example-3.jsonld&#93;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-example-3.jsonld)
+[&#91;TurTLe&#93;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-example-3.ttl)&nbsp;[&#91;JSON-LD&#93;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-example-3.jsonld)
 

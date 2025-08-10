@@ -19,5 +19,5 @@ TaxonName-basionym-example-1 | [TaxonName-basionym-example-2](./TaxonName-basion
     dwc:namePublishedIn "New Zealand J. Bot. 10(4): 593 (1972)" .
 ```
 
-[&#91;TaxonName-basionym-example-1.ttl&#93;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonName-basionym-example-1.ttl)&nbsp;[&#91;TaxonName-basionym-example-1.jsonld&#93;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonName-basionym-example-1.jsonld)
+[&#91;TurTLe&#93;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonName-basionym-example-1.ttl)&nbsp;[&#91;JSON-LD&#93;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonName-basionym-example-1.jsonld)
 

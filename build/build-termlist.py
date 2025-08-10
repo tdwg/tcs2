@@ -9,8 +9,6 @@ documents = yaml.load_all(stream, Loader=yaml.FullLoader)
 
 # create new markdown documents
 for config in documents:
-    print(config['outFileName'])
-
     merged_df = tools.create_df(config['termLists'])
     term_index = tools.create_index(config['categories'], merged_df)
     vocab = tools.create_vocab(config['categories'], merged_df)
@@ -28,6 +26,10 @@ for config in documents:
     outputObject = open(config['outFileName'], 'wt', encoding='utf-8')
     outputObject.write(output)
     outputObject.close()
+
+    # Examples
+    tools.create_examples_index_page(config)
+    tools.create_example_pages(config)
     
     # tools.create_examples_page(config)
-    tools.create_sssom_page(config)
+    # tools.create_sssom_page(config)

@@ -21,5 +21,5 @@
             Flora van Nederland, edn 24. Noordhoff, Groningen.""" .
 ```
 
-[&#91;TaxonConcept-vernacularName-example-2.ttl&#93;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-vernacularName-example-2.ttl)&nbsp;[&#91;TaxonConcept-vernacularName-example-2.jsonld&#93;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-vernacularName-example-2.jsonld)
+[&#91;TurTLe&#93;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-vernacularName-example-2.ttl)&nbsp;[&#91;JSON-LD&#93;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-vernacularName-example-2.jsonld)
 

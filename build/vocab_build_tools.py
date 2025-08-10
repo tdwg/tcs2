@@ -304,8 +304,8 @@ def add_example(ex, links=True):
     return text
 
 def add_links(ex):
-    text = '[&#91;' + ex + '.ttl&#93;](https://github.com/tdwg/tcs2/blob/master/examples/' + ex + '.ttl)&nbsp;'
-    text += '[&#91;' + ex + '.jsonld&#93;](https://github.com/tdwg/tcs2/blob/master/examples/' + ex + '.jsonld)\n\n'
+    text = '[&#91;TurTLe&#93;](https://github.com/tdwg/tcs2/blob/master/examples/' + ex + '.ttl)&nbsp;'
+    text += '[&#91;JSON-LD&#93;](https://github.com/tdwg/tcs2/blob/master/examples/' + ex + '.jsonld)\n\n'
     return text
 
 def add_example_link(ex):
@@ -439,3 +439,61 @@ def create_sssom_page(config):
                     else:
                         f.write(' | ')
                     f.write(' |\n')
+
+
+def create_examples_index_page(config):
+    merged_df = create_df(config['termLists'])
+    examples = merged_df[~merged_df['examples'].isna()]
+
+    classes = ['TaxonConcept', 'TaxonConceptMappings', 'TaxonName', 'NomenclaturalType']
+
+    header_object = open('static/examples-header.md', 'rt', encoding='utf-8')
+    header = header_object.read()
+    header_object.close()
+
+    with open('../docs/examples/index.md', 'w') as f:
+        
+        f.write(header)
+        
+        for cl in classes:
+            f.write("\n## " + cl + "\n\n")
+            
+            for index, row in examples[examples['organizedInClass'] == 'http://rs.tdwg.org/tcs/terms/' + cl].iterrows():
+                alias = [n['vann_preferredNamespacePrefix'] for n in config['termLists'] if n['vann_preferredNamespaceUri'] == row['namespace']][0]
+                
+                if type(row['examples']) == list:
+                    f.write("\n### " + alias + ":" + row['localName'] + "\n\n")
+                    for ex in row['examples']:
+                        f.write(f"- [{ex}]({ex}.md)\n")
+
+def create_example_pages(config):
+    merged_df = create_df(config['termLists'])
+    examples = merged_df[~merged_df['examples'].isna()]
+
+    classes = ['TaxonConcept', 'TaxonConceptMappings', 'TaxonName', 'NomenclaturalType']
+
+    for cl in classes:
+        for index, row in examples[examples['organizedInClass'] == 'http://rs.tdwg.org/tcs/terms/' + cl].iterrows():
+            alias = [n['vann_preferredNamespacePrefix'] for n in config['termLists'] if n['vann_preferredNamespaceUri'] == row['namespace']][0]
+            
+            if type(row['examples']) == list:
+                for index, ex in enumerate(row['examples']):
+                    with open('../docs/examples/' + ex + '.md', 'w') as f:
+                        heading = ex.replace('-', ' ')
+                        f.write('# ' + heading + '\n')
+                        f.write('\n\n')
+                        f.write('**Term:** ')
+                        f.write('[' + alias + ':' + row['localName'] + '](/terms/#' + alias + '_' + row['localName'].lower() + ')')
+                        f.write('\n\n')
+
+                        if (len(row['examples']) > 1):
+                            exs = []
+                            for i, exx in enumerate(row['examples']):
+                                if i == index:
+                                    exs.append(exx)
+                                else:
+                                    exs.append(f'[{exx}](./{exx}.html)')
+                            f.write(' | '.join(exs))
+
+                        text = add_example(ex)
+                        f.write(text)

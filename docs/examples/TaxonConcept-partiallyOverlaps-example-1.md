@@ -15,5 +15,5 @@ TaxonConcept-partiallyOverlaps-example-1 | [TaxonConceptMapping-partiallyOverlap
             tcs:taxonName <https://ipni.org/n/30000361-2> ] .
 ```
 
-[&#91;TaxonConcept-partiallyOverlaps-example-1.ttl&#93;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-partiallyOverlaps-example-1.ttl)&nbsp;[&#91;TaxonConcept-partiallyOverlaps-example-1.jsonld&#93;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-partiallyOverlaps-example-1.jsonld)
+[&#91;TurTLe&#93;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-partiallyOverlaps-example-1.ttl)&nbsp;[&#91;JSON-LD&#93;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-partiallyOverlaps-example-1.jsonld)
 

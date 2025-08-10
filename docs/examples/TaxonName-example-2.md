@@ -11,5 +11,5 @@
     dwc:namePublishedIn "Account Rafflesia 7, tt. 15-22 (1821)" .
 ```
 
-[&#91;TaxonName-example-2.ttl&#93;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonName-example-2.ttl)&nbsp;[&#91;TaxonName-example-2.jsonld&#93;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonName-example-2.jsonld)
+[&#91;TurTLe&#93;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonName-example-2.ttl)&nbsp;[&#91;JSON-LD&#93;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonName-example-2.jsonld)
 

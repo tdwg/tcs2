@@ -56,5 +56,5 @@ TaxonName-typification-example-1 | [TaxonName-typification-example-2](./TaxonNam
             tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/syntype> ]  .
 ```
 
-[&#91;TaxonName-typification-example-1.ttl&#93;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonName-typification-example-1.ttl)&nbsp;[&#91;TaxonName-typification-example-1.jsonld&#93;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonName-typification-example-1.jsonld)
+[&#91;TurTLe&#93;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonName-typification-example-1.ttl)&nbsp;[&#91;JSON-LD&#93;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonName-typification-example-1.jsonld)
 

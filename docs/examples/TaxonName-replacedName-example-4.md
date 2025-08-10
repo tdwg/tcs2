@@ -32,5 +32,5 @@
     rdf:seeAlso <https://id.biodiversity.org.au/name/apni/190652> .
 ```
 
-[&#91;TaxonName-replacedName-example-4.ttl&#93;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonName-replacedName-example-4.ttl)&nbsp;[&#91;TaxonName-replacedName-example-4.jsonld&#93;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonName-replacedName-example-4.jsonld)
+[&#91;TurTLe&#93;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonName-replacedName-example-4.ttl)&nbsp;[&#91;JSON-LD&#93;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonName-replacedName-example-4.jsonld)
 

@@ -29,5 +29,5 @@
     bibo:uri "https://unite.ut.ee" .
 ```
 
-[&#91;TaxonConcept-example-6.ttl&#93;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-example-6.ttl)&nbsp;[&#91;TaxonConcept-example-6.jsonld&#93;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-example-6.jsonld)
+[&#91;TurTLe&#93;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-example-6.ttl)&nbsp;[&#91;JSON-LD&#93;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-example-6.jsonld)
 

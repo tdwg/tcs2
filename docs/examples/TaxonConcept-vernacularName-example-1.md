@@ -19,5 +19,5 @@ TaxonConcept-vernacularName-example-1 | [TaxonConcept-vernacularName-example-2](
             butterflies of Australia. Jacana Books, Crows Nest, Australia.""" .
 ```
 
-[&#91;TaxonConcept-vernacularName-example-1.ttl&#93;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-vernacularName-example-1.ttl)&nbsp;[&#91;TaxonConcept-vernacularName-example-1.jsonld&#93;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-vernacularName-example-1.jsonld)
+[&#91;TurTLe&#93;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-vernacularName-example-1.ttl)&nbsp;[&#91;JSON-LD&#93;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-vernacularName-example-1.jsonld)
 

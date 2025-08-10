@@ -47,5 +47,5 @@ _:b0  a tcs:TaxonConcept ;
             tcs:taxonName <https://ipni.org/n/30001382-2> ] .
 ```
 
-[&#91;TaxonConceptMapping-isCongruentWith-example-2.ttl&#93;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConceptMapping-isCongruentWith-example-2.ttl)&nbsp;[&#91;TaxonConceptMapping-isCongruentWith-example-2.jsonld&#93;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConceptMapping-isCongruentWith-example-2.jsonld)
+[&#91;TurTLe&#93;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConceptMapping-isCongruentWith-example-2.ttl)&nbsp;[&#91;JSON-LD&#93;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConceptMapping-isCongruentWith-example-2.jsonld)
 

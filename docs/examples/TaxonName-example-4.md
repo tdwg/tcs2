@@ -21,5 +21,5 @@
     dwc:infragenericName "Sciadorhodion" .
 ```
 
-[&#91;TaxonName-example-4.ttl&#93;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonName-example-4.ttl)&nbsp;[&#91;TaxonName-example-4.jsonld&#93;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonName-example-4.jsonld)
+[&#91;TurTLe&#93;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonName-example-4.ttl)&nbsp;[&#91;JSON-LD&#93;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonName-example-4.jsonld)
 

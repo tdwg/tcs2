@@ -20,5 +20,5 @@ TaxonConcept-example-1 | [TaxonConcept-example-2](./TaxonConcept-example-2.html)
             Hattori Botanical Laboratory 87: 1-130.""" .
 ```
 
-[&#91;TaxonConcept-example-1.ttl&#93;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-example-1.ttl)&nbsp;[&#91;TaxonConcept-example-1.jsonld&#93;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-example-1.jsonld)
+[&#91;TurTLe&#93;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-example-1.ttl)&nbsp;[&#91;JSON-LD&#93;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-example-1.jsonld)
 
