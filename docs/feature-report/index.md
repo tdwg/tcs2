@@ -26,8 +26,12 @@ the TDWG ecosystem and broader context.
 **Creator**
 : TDWG Taxon Concept Schema (TCS) 2 Task Group
 
+**Bibliographic citation** 
+: Taxon Concept Standard Maintenance Group (2025). TCS 2 Feature Report. 
+http://rs.tdwg.org/tcs/doc/feature-report/2025-08-09
 
-## Introduction
+
+## 1. Introduction
 
 The Taxon Concept Schema (TCS) is the TDWG standard for exchanging taxonomic
 data. It is one of the '2005' group of standards, together with Access to
@@ -81,7 +85,11 @@ TCS 2 takes TCS out of its XML Schema and
 converts it to a vocabulary standard, like Darwin Core, that does not impose a
 data format and can be maintained under the VMS.
 
-## Parameters
+### 1.1. Status of this document and its content
+
+This entire document is non-normative.
+
+## 2. Parameters
 
 The purpose of the current work is to make TCS useable again by changing it from
 an XML Schema to a vocabulary standard. Changes we propose are as far as
@@ -112,7 +120,7 @@ OWL ontologies. Because the TDWG Ontologies were never standardized, we could
 not directly import terms from them, but, conceptually, much from the TDWG
 Ontologies can be found back in TCS 2.
 
-## Changes
+## 3. Changes
  
 The most important change is that while in TCS 1 only the `Name` element is required—and then a `Name` can either be a text
 node, so a string, or a reference (`ref`) to a `TaxonName` element with an `id`
@@ -177,13 +185,13 @@ example](https://github.com/tdwg/tcs2/blob/master/examples/megalorhipida-leucoda
 We currently recognise the following relations between the major entities in
 TCS:
 
-### Relationships between Taxon Concepts (taxa)
+### 3.1. Relationships between Taxon Concepts (taxa)
 
-#### Hierarchical relationships
+#### 3.1.1. Hierarchical relationships
 
 - tcs:parent
 
-#### Horizontal relationships<sup>*</sup>
+#### 3.1.2. Horizontal relationships<sup>*</sup>
 
 - tcs:isCongruentWith
 - tcs:includes
@@ -196,19 +204,21 @@ TCS:
 between Taxon Concepts in different taxonomies (or different versions of a
 taxonomy), or between Taxon Concepts in rank-free systems, e.g., cladograms.
 
-### Relationships between Taxon Concepts and Taxon Names
+### 3.2. Relationships between Taxon Concepts and Taxon Names
 
 - tcs:taxonName
 - tcs:synonym
 - tcs:vernacularName
 
-### Relationships between Taxon Names
+### 3.3. Relationships between Taxon Names
 
 - tcs:basionym
 - tcs:replacedSynonym
 - tcs:basedOn
 - tcs:conservedAgainst
 - tcs:laterHomonymOf
+
+### 3.4. Taxon Concept mappings
 
 We have included a TaxonConceptMapping class, as it is often useful to have
 objects for Taxon Concept mappings that can be shared. The TaxonConceptMapping
@@ -225,7 +235,7 @@ are the mapping properties, *i.e.* `isCongruentWith`, `includes`,
 A full mapping of elements in the TCS XML Schema to terms in TCS 2 can be found
 in [Appendix 1](#appendix-1-mapping-of-tcs-1-and-tdwg-ontology-terms).
 
-## Terms omitted from the initial release
+## 4. Terms omitted from the initial release
 
 The most significant thing that has been left out of TCS 2 for now is the
 circumscription or definition of taxa. TCS 1 has the `CharacterCircumscription`
@@ -254,7 +264,7 @@ have more to do with the format of hybrid formulas than with relationships
 between taxa, and yet others, e.g., `anamorph of`, only apply to certain groups
 of organisms and are not used in systems designed specifically for these groups.
 
-## Place in TDWG ecosystem
+## 5. Place in TDWG ecosystem
 
 Unlike other TDWG standards like Audiovisual Core and Latimer Core—and also
 unlike the time when TCS shared the stage with ABCD and SDD—TCS does not have
@@ -284,7 +294,9 @@ intention that we won't develop a TDWG TCS Data Package, but that we work with
 Catalogue of Life to make ColDP fully TCS compliant, so that CoLDP can be the
 Data Package application profile for TCS.
 
-## Broader context: SKOS and OpenBiodiv-O
+## 6. Broader context: SKOS and OpenBiodiv-O
+
+### 6.1. SKOS
 
 TCS can be usefully compared with SKOS (Simple Knowledge Organization System),
 with the Taxon Concept equivalent to the `skos:Concept` and the Taxon Name to
@@ -336,7 +348,9 @@ of a taxonomy.
 | tcs:spellingCorrectionOf | skosxl:labelRelation |
 | tcs:laterHomonymOf | skosxl:labelRelation |
 
-<br/><br/>
+<br/>
+
+### 6.2. OpenBiodiv-O
 
 The OpenBiodiv Ontology (OpenBiodiv-O) defines the `TaxonomicConcept` as a Work
 under the FRBR (Functional Requirements for Bibliographic Records) data model as

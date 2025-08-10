@@ -38,7 +38,8 @@ data.
   would like it to be.
 
 - [Examples](./examples/) — All the examples that are referenced in the _TCS
-  Term List_. Examples are focused on individual terms.
+  Term List_. Examples are focused on individual terms, but do provide some
+  context.
 
 - [Recipes](./recipes/) — Recipes are longer examples that focus on complete
   records and show how TCS can be applied to real-world situations. There are

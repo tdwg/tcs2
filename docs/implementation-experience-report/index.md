@@ -26,7 +26,11 @@ Mappings, which are a feature of TCS that is not used that often.
 **Creator**
 : TDWG Taxon Concept Schema (TCS) 2 Task Group
 
-## Introduction
+**Bibliographic Citation**
+: Taxon Concept Standard Maintenance Group (2025). TCS 2 Implementation 
+Experience Report. http://rs.tdwg.org/tcs/doc/implementation-experience-report/2025-08-09.
+
+## 1. Introduction
 
 One of the main objectives of the current effort is to make TCS useful again and
 the current release provides standard terms for concepts that are already widely
@@ -34,8 +38,11 @@ used in applications that are out there. No new features have been added in this
 revision of TCS. Terms from TCS 1 for which we do not have clear idea yet of how
 they can be implemented have not yet been included in this release.
 
+### 1.1. Status of this document and its content
 
-## Relation with ColDP
+This entire document is non-normative.
+
+## 2. Relation with ColDP
 
 A recent important application, the Catalogue of Life Data Package (ColDP), has
 a data model that is very similar to TCS and includes all TCS terms, the only
@@ -54,7 +61,7 @@ ColDP also offers a Name Usage entity "for simpler sharing", which is more
 similar to the Darwin Core Taxon.
 
 
-## Relation with Darwin Core
+## 3. Relation with Darwin Core
 
 TCS can play the same role for the Darwin Core Taxon that the Darwin Core IRI
 (`dwciri`) namespace has for the other Darwin Core entities. Moreover the TCS
@@ -73,7 +80,7 @@ a `tcs:TaxonConcept` from a `dwc:Taxon`. For the purpose of distribution maps,
 etc., `dwc:Taxon` and `tcs:TaxonConcept` can be considered equivalent. 
 
 
-## An example
+## 4. An example
 
 The following example will (hopefully) serve to demonstrate some of the workings
 of TCS and how it can be used. This example deals with five different treatments
