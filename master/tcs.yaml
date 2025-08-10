@@ -288,10 +288,12 @@
     `taxonRank` is an IRI property; a TaxonConcept or TaxonName MUST NOT have
     more than one `taxonRank`.
   notes: >-
-    This property takes an object or IRI and it is RECOMMENDED to use a value
-    from an existing controlled vocabulary. While there is no TDWG vocabulary
-    yet, the GBIF Taxonomic Rank Vocabulary
-    (https://rs.gbif.org/vocabulary/gbif/rank_2015-04-24.xml) is RECOMMENDED.
+    This term is the IRI equivalent of the Darwin Core `taxonRank`. This
+    property takes an object or IRI and it is RECOMMENDED to use a value from an
+    existing controlled vocabulary. While there is no TDWG vocabulary yet, the
+    GBIF Taxonomic Rank Vocabulary
+    ([https://rs.gbif.org/vocabulary/gbif/rank_2015-04-24.xml](https://rs.gbif.org/vocabulary/gbif/rank_2015-04-24.xml))
+    is RECOMMENDED.
 
 
     A taxon name takes its rank from the taxon it is applied to, so this
@@ -873,10 +875,10 @@
     `nomenclaturalCode` takes an IRI or object; a Taxon Name can have only one 
     `nomenclaturalCode`.
   notes: >-
-    This is the IRI equivalent of the Darwin Core `nomenclaturalCode`. In the 
-    absence of a TDWG vocabulary, it is RECOMMENDED to use a value from the GBIF 
-    Nomenclatural Codes Vocabulary 
-    (https://rs.gbif.org/vocabulary/gbif/nomenclatural_code.xml).
+    This is the IRI equivalent of the Darwin Core `nomenclaturalCode`. In the
+    absence of a TDWG vocabulary, it is RECOMMENDED to use a value from the GBIF
+    Nomenclatural Codes Vocabulary
+    ([https://rs.gbif.org/vocabulary/gbif/nomenclatural_code.xml](https://rs.gbif.org/vocabulary/gbif/nomenclatural_code.xml)).
   type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonName
   required: No
@@ -905,7 +907,7 @@
     This is the IRI equivalent of the Darwin Core `nomenclaturalStatus`. In the 
     absence of a TDWG vocabulary, it is RECOMMENDED to use a value from the GBIF 
     Nomenclatural Status Vocabulary 
-    (https://rs.gbif.org/vocabulary/gbif/nomenclatural_status_2019-02-08.xml).
+    ([https://rs.gbif.org/vocabulary/gbif/nomenclatural_status_2019-02-08.xml](https://rs.gbif.org/vocabulary/gbif/nomenclatural_status_2019-02-08.xml)).
   type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonName
   required: No
