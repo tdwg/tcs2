@@ -25,9 +25,18 @@ taxon names. TCS offers a semantic framework for, and facilitates more accurate
 exchange of, taxonomic and nomenclatural data.
 
 **Contributors**
-: Niels Klazenga, Greg Whitbread, Vijay Barve, Thierry Bourgoin,
-Markus Döring, Anne Fuchs, Jeff Gerbracht, Johan Liljeblad, Carlos Martínez
-Muñoz, Mieke Strong, William Ulate, Cam Webb 
+: Niels Klazenga [![](../media/orcid_16x16.gif)](https://orcid.org/0000-0003-2224-6821) (Royal Botanic Gardens Victoria, Australia/Atlas of Living Australia, Australia),
+Greg Whitbread [![](../media/orcid_16x16.gif)](https://orcid.org/0000-0002-2954-9027) (Taxamatics, Australia),
+Vijay Barve  [![](../media/orcid_16x16.gif)](https://orcid.org/0000-0002-4852-2567) (Natural History Museum of Los Angeles County, USA),
+Thierry Bourgoin [![](../media/orcid_16x16.gif)](https://orcid.org/0000-0001-9277-2478) (Museum national Histoire naturelle Paris, France),
+Markus Döring [![](../media/orcid_16x16.gif)](https://orcid.org/0000-0001-7757-1889) (GBIF, Denmark/Catalogue of Life, The Netherlands),
+Anne Fuchs [![](../media/orcid_16x16.gif)](https://orcid.org/0000-0001-5737-8803) (Centre for Australian National Biodiversity Research, Australia),
+Jeff Gerbracht (Cornell Lab of Ornithology, USA),
+Johan Liljeblad [![](../media/orcid_16x16.gif)](https://orcid.org/0000-0003-0442-8162) (Swedish Species Information Centre, Sweden),
+Carlos Martínez Muñoz,
+Mieke Strong [![](../media/orcid_16x16.gif)](https://orcid.org/0009-0004-5278-4238) (Gaia Resources, Australia),
+William Ulate [![](../media/orcid_16x16.gif)](https://orcid.org/0000-0003-2863-2491) (Missouri Botanical Garden, USA),
+Cam Webb [![](../media/orcid_16x16.gif)](https://orcid.org/0000-0003-1031-3249) (University of Alaska Museum of the North, USA)
 
 **Creator**
 : TDWG Taxon Concept Schema (TCS) 2 Task Group
@@ -506,7 +515,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		</tr>
 		<tr>
 			<td>Comments</td>
-			<td><p>This property takes an object or IRI and it is RECOMMENDED to use a value from an existing controlled vocabulary. While there is no TDWG vocabulary yet, the GBIF Taxonomic Rank Vocabulary (https://rs.gbif.org/vocabulary/gbif/rank_2015-04-24.xml) is RECOMMENDED.</p>
+			<td><p>This term is the IRI equivalent of the Darwin Core <code>taxonRank</code>. This property takes an object or IRI and it is RECOMMENDED to use a value from an existing controlled vocabulary. While there is no TDWG vocabulary yet, the GBIF Taxonomic Rank Vocabulary (<a href="https://rs.gbif.org/vocabulary/gbif/rank_2015-04-24.xml">https://rs.gbif.org/vocabulary/gbif/rank_2015-04-24.xml</a>) is RECOMMENDED.</p>
 <p>A taxon name takes its rank from the taxon it is applied to, so this property can also be used on a (stand-alone) <code>TaxonName</code> object.</p></td>
 		</tr>
 	</tbody>
@@ -1437,7 +1446,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		</tr>
 		<tr>
 			<td>Comments</td>
-			<td><p>This is the IRI equivalent of the Darwin Core <code>nomenclaturalCode</code>. In the  absence of a TDWG vocabulary, it is RECOMMENDED to use a value from the GBIF  Nomenclatural Codes Vocabulary  (https://rs.gbif.org/vocabulary/gbif/nomenclatural_code.xml).</p></td>
+			<td><p>This is the IRI equivalent of the Darwin Core <code>nomenclaturalCode</code>. In the absence of a TDWG vocabulary, it is RECOMMENDED to use a value from the GBIF Nomenclatural Codes Vocabulary (<a href="https://rs.gbif.org/vocabulary/gbif/nomenclatural_code.xml">https://rs.gbif.org/vocabulary/gbif/nomenclatural_code.xml</a>).</p></td>
 		</tr>
 	</tbody>
 </table>
@@ -1474,7 +1483,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		</tr>
 		<tr>
 			<td>Comments</td>
-			<td><p>This is the IRI equivalent of the Darwin Core <code>nomenclaturalStatus</code>. In the  absence of a TDWG vocabulary, it is RECOMMENDED to use a value from the GBIF  Nomenclatural Status Vocabulary  (https://rs.gbif.org/vocabulary/gbif/nomenclatural_status_2019-02-08.xml).</p></td>
+			<td><p>This is the IRI equivalent of the Darwin Core <code>nomenclaturalStatus</code>. In the  absence of a TDWG vocabulary, it is RECOMMENDED to use a value from the GBIF  Nomenclatural Status Vocabulary  (<a href="https://rs.gbif.org/vocabulary/gbif/nomenclatural_status_2019-02-08.xml">https://rs.gbif.org/vocabulary/gbif/nomenclatural_status_2019-02-08.xml</a>).</p></td>
 		</tr>
 	</tbody>
 </table>

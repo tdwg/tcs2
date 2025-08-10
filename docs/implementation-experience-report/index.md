@@ -21,7 +21,7 @@ being implemented and provides a worked out example highlighting Taxon Concept
 Mappings, which are a feature of TCS that is not used that often.
 
 **Contributors**
-: Niels Klazenga
+: Niels Klazenga [![](../media/orcid_16x16.gif)](https://orcid.org/0000-0003-2224-6821) (Royal Botanic Gardens Victoria, Australia/Atlas of Living Australia, Australia)
 
 **Creator**
 : TDWG Taxon Concept Schema (TCS) 2 Task Group

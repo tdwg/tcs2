@@ -25,9 +25,18 @@ taxon names. TCS offers a semantic framework for, and facilitates more accurate
 exchange of, taxonomic and nomenclatural data.
 
 **Contributors**
-: Niels Klazenga, Greg Whitbread, Vijay Barve, Thierry Bourgoin,
-Markus Döring, Anne Fuchs, Jeff Gerbracht, Johan Liljeblad, Carlos Martínez
-Muñoz, Mieke Strong, William Ulate, Cam Webb 
+: Niels Klazenga [![](../media/orcid_16x16.gif)](https://orcid.org/0000-0003-2224-6821) (Royal Botanic Gardens Victoria, Australia/Atlas of Living Australia, Australia),
+Greg Whitbread [![](../media/orcid_16x16.gif)](https://orcid.org/0000-0002-2954-9027) (Taxamatics, Australia),
+Vijay Barve  [![](../media/orcid_16x16.gif)](https://orcid.org/0000-0002-4852-2567) (Natural History Museum of Los Angeles County, USA),
+Thierry Bourgoin [![](../media/orcid_16x16.gif)](https://orcid.org/0000-0001-9277-2478) (Museum national Histoire naturelle Paris, France),
+Markus Döring [![](../media/orcid_16x16.gif)](https://orcid.org/0000-0001-7757-1889) (GBIF, Denmark/Catalogue of Life, The Netherlands),
+Anne Fuchs [![](../media/orcid_16x16.gif)](https://orcid.org/0000-0001-5737-8803) (Centre for Australian National Biodiversity Research, Australia),
+Jeff Gerbracht (Cornell Lab of Ornithology, USA),
+Johan Liljeblad [![](../media/orcid_16x16.gif)](https://orcid.org/0000-0003-0442-8162) (Swedish Species Information Centre, Sweden),
+Carlos Martínez Muñoz,
+Mieke Strong [![](../media/orcid_16x16.gif)](https://orcid.org/0009-0004-5278-4238) (Gaia Resources, Australia),
+William Ulate [![](../media/orcid_16x16.gif)](https://orcid.org/0000-0003-2863-2491) (Missouri Botanical Garden, USA),
+Cam Webb [![](../media/orcid_16x16.gif)](https://orcid.org/0000-0003-1031-3249) (University of Alaska Museum of the North, USA)
 
 **Creator**
 : TDWG Taxon Concept Schema (TCS) 2 Task Group
