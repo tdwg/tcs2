@@ -386,6 +386,9 @@
     then B `isCongruentWith` A, as well as transitive, so if A `isCongruentWith`
     B and B `isCongruentWith` C it follows that A `isCongruentWith` C. This
     relation can also be written as the formula **A &cong; B** or **A == B**.
+
+
+    ![](../media/mapping-relation-isCongruentWith.drawio.svg)
   examples: 
     - TaxonConcept-isCongruentWith-example-1
     - TaxonConceptMapping-isCongruentWith-example-2
@@ -429,6 +432,9 @@
     relation  is transitive, so if A `includes` B and B `includes` C it follows
     that A `includes` C. This relation can also be written as the formula **A >
     B**.
+
+
+    ![](../media/mapping-relation-includes.drawio.svg)
   examples: 
     - TaxonConcept-includes-example-1
     - TaxonConceptMapping-includes-example-2
@@ -466,6 +472,9 @@
     relation  is transitive, so if A `isIncludedIn` B and B `isIncludedIn` C it
     follows that A `isIncludedIn` C. This relation can also be written as the
     formula **A < B**.
+
+
+    ![](../media/mapping-relation-isIncludedIn.drawio.svg)
   examples: 
     - TaxonConcept-isIncludedIn-example-1
     - TaxonConceptMapping-isIncludedIn-example-2
@@ -508,6 +517,9 @@
     `partiallyOverlaps` B and B `partiallyOverlaps` C, it does not follow that A
     `partiallyOverlaps` C. This relation can also be written as the formula **A
     >< B**.
+
+
+    ![](../media/mapping-relation-partiallyOverlaps.drawio.svg)
   examples:
     - TaxonConcept-partiallyOverlaps-example-1
     - TaxonConceptMapping-partiallyOverlaps-example-2
@@ -546,6 +558,9 @@
     then B `isDisjointFrom` A, but not transitive, so, if A `isDisjointFrom` B
     and B `isDisjointFrom` C, it does not follow that A `isDisjointFrom` C. This
     relation can also be written as the formula **A | B**.
+
+
+    ![](../media/mapping-relation-isDisjointFrom.drawio.svg)
   examples:
     - TaxonConcept-isDisjointFrom-example-1
     - TaxonConceptMapping-isDisjointFrom-example-2
