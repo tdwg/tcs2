@@ -13,7 +13,7 @@ in many formats, including CSV, JSON and RDF, and can be used for individual
 objects as well as entire data sets. TCS can be used alongside or instead of the
 Darwin Core Taxon class. It provides TaxonConcept, TaxonName,
 TaxonConceptMapping and NomenclaturalType entities that provide a semantic
-framework for and allows more accurate transfer of, taxonomic and nomenclatural
+framework for, and allows more accurate transfer of, taxonomic and nomenclatural
 data.
 
 </p>
