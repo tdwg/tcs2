@@ -22,7 +22,7 @@ the TDWG ecosystem and broader context.
 
 **Contributors**
 : Niels Klazenga [![](../media/orcid_16x16.gif)](https://orcid.org/0000-0003-2224-6821) (Royal Botanic Gardens Victoria, Australia/Atlas of Living Australia, Australia), 
-Cam Webb  [![](../media/orcid_16x16.gif)](https://orcid.org/0000-0003-1031-3249) (University of Alaska Museum of the North, USA)
+Cam Webb [![](../media/orcid_16x16.gif)](https://orcid.org/0000-0003-1031-3249) (University of Alaska Museum of the North, USA)
 
 **Creator**
 : TDWG Taxon Concept Schema (TCS) 2 Task Group
