@@ -2,13 +2,24 @@
 
 - text: Home
   href: /
-- text: Introduction
-  menu:
-  - text: Feature report
-    href: /feature-report/
-  - text: Implementation experience report
-    href: /implementation-experience-report/
 - text: Terms
   href: /terms/
+- text: Reports
+  menu:
+  - text: TCS 2 reports
+  - text: TCS 2 Feature Report
+    href: /feature-report/
+  - text: TCS 2 Implementation Experience Report
+    href: /implementation-experience-report/
+- text: Resources
+  menu:
+    - text: Examples
+    - text: Examples
+      href: /examples/
+    - text: Recipes
+      href: /recipes/
+    - text: Bibliography
+    - text: Bibliography
+      href: /bibliography
 - text: GitHub
   href: https://github.com/tdwg/tcs2
