@@ -42,9 +42,9 @@ they can be implemented have not yet been included in this release.
 
 This entire document is non-normative.
 
-## 2. Relation with ColDP
+## 2. Relation with CoLDP
 
-A recent important application, the Catalogue of Life Data Package (ColDP), has
+A recent important application, the Catalogue of Life Data Package (CoLDP), has
 a data model that is very similar to TCS and includes all TCS terms, the only
 conflict being that ColDP has a Synonym entity that requires an ID, which TCS
 does not. This might be a legacy from TCS 1 where `has synonym` is a
@@ -55,9 +55,9 @@ between Taxon Concepts. When TCS is expressed in tabular form, a separate table
 is still needed for synonyms, because of the many-to-many relation between Taxon
 Concepts and Taxon Names, but this is just a pivot table and there should be no
 identifiers for synonyms. This is the same way the Name Relation table in the
-ColDP schema has been implemented.
+CoLDP schema has been implemented.
 
-ColDP also offers a Name Usage entity "for simpler sharing", which is more
+CoLDP also offers a Name Usage entity "for simpler sharing", which is more
 similar to the Darwin Core Taxon.
 
 
@@ -107,7 +107,7 @@ shown in figure 1.
 
 ![Figure 1.](media/figure-1.png)
 
-**Figure 1.** Taxon concepts (green dots) with their according-to (blue dots)
+**Figure 1.** Taxon concepts (green dots) with their `accordingTo` (blue dots)
 and all associated names (orange dots). Taxon Concepts are connected to names
 via the `taxonName` and `synonym` properties and Taxon Names are connected to
 each other through the `basionym` and `replacedName` properties. **A.**
@@ -131,7 +131,7 @@ rather nebulous picture of the relationships between the items in the graph
 
 <hr>
 
-<img alt="Figure 2." src="media/figure-2.svg" width="800">
+[<img alt="Figure 2." src="media/figure-2.svg" width="800">](media/figure-2.svg)
 
 **Figure 2.** Graph with all Taxon Concepts (green dots), Taxon Names (orange
 dots) and references (blue dots).
@@ -148,7 +148,7 @@ names and synonyms) alone.
 
 <hr>
 
-<img alt="Figure 3." src="media/figure-3.svg" width="800">
+[<img alt="Figure 3." src="media/figure-3.svg" width="800">](media/figure-3.svg)
 
 **Figure 3.** Graph with all Taxon Concepts (green dots) and Taxon Names (orange
 dots).
@@ -268,7 +268,7 @@ are not part of the taxon concepts.
 
 <hr>
 
-<img alt="Figure 7." src="media/figure-7.svg" width="800">
+[<img alt="Figure 7." src="media/figure-7.svg" width="800">](media/figure-7.svg)
 
 **Figure 7.** Taxon Concepts with mappings based on the type specimens of names
 that are included in the concepts (ostensive mappings).
@@ -388,7 +388,7 @@ and are shown in **figure 8**.
 
 <hr>
 
-<img alt="Figure 8." src="media/figure-8.svg" width="800">
+[<img alt="Figure 8." src="media/figure-8.svg" width="800">](media/figure-8.svg)
 
 **Figure 8.** Taxon Concepts with mappings that were added to the data set by
 the author of the latest revision (intensional mappings).
@@ -406,7 +406,7 @@ higher taxa and hierarchical relationships (**figure 9**).
 
 <hr>
 
-<img alt="Figure 9." src="media/figure-9.svg" width="800">
+[<img alt="Figure 9." src="media/figure-9.svg" width="800">](media/figure-9.svg)
 
 **Figure 9.** Taxon Concepts with intensional mappings and with higher-taxon
 concepts (yellow dots) and hierarchical (`parent`) relationships from the latest
@@ -443,7 +443,7 @@ The "aggregate Taxon Concepts" thus created are shown in **figure 10**.
 
 <hr>
 
-<img alt="Figure 10." src="media/figure-10.svg" width="800">
+[<img alt="Figure 10." src="media/figure-10.svg" width="800">](media/figure-10.svg)
 
 **Figure 10.** As previous figure, but with "aggregate Taxon Concepts",
 representing Taxon Concepts that are congruent with it and each other.
