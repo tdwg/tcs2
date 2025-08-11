@@ -202,7 +202,7 @@
     Concepts and Taxon Names) and combinations (relations between Taxon Names),
     respectively. In TCS, combinations are dealt with using properties of the
     `TaxonName` class, *e.g.* `basionym` and `replacedName` (note that
-    'combination' is used here in a broader sense that what the term actually
+    'combination' is used here in a broader sense than what the term actually
     means). This has the advantage that people do not need to separate
     heterotypic and homotypic synonyms, or generally deal with nomenclature,
     which adds a degree of complexity that not all systems need or want.
@@ -313,7 +313,7 @@
       remarks: >-
         The TCS term is the IRI equivalent of the Darwin Core term.
 
-# property: parent
+# property: parentTaxonConcept
 - localName: parentTaxonConcept
   label: Parent
   definition: >-
@@ -1179,15 +1179,16 @@
     `combinationAscribedAuthor` is an IRI property. It can be a person or a list
     of persons.
   notes: >-
-    'Ascribed author' is a person (or group of people) who a name is ascribed to
-    in a publication, but who is not the author of the name according to the
+    An 'ascribed author' is a person (or group of people) who a name is ascribed
+    to in a publication, but who is not the author of the name according to the
     rules of the nomenclatural codes, because they did not contribute to the
     validating description of the name. In the `dwc:scientificNameAuthorship`
     these authors are indicated with 'ex', the ascribed author coming before the
-    'ex' and the author the name is attributed to after. Note that the 'ex'
-    construction that is sometimes used with zoological names has got nothing to
-    do with attribution or ascription, but is used to indicate a concept, much
-    like we do here with 'sec.' or 'sensu' in taxon concept labels.
+    'ex' and the author the name is attributed to after. Note that the 'ex' (or
+    'Ex') construction that is sometimes used with zoological names has got
+    nothing to do with attribution or ascription, but is used to denote a
+    concept, much like we do here with 'sec.' or 'sensu' in taxon concept
+    labels.
   type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonName
   required: No
@@ -1203,15 +1204,16 @@
   usage: >-
     `combinationAscribedAuthorLiteral` is a Literal property.
   notes: >-
-    'Ascribed author' is a person (or group of people) who a name is ascribed to
-    in a publication, but who is not the author of the name according to the
+    An 'ascribed author' is a person (or group of people) who a name is ascribed
+    to in a publication, but who is not the author of the name according to the
     rules of the nomenclatural codes, because they did not contribute to the
     validating description of the name. In the `dwc:scientificNameAuthorship`
     these authors are indicated with 'ex', the ascribed author coming before the
-    'ex' and the author the name is attributed to after. Note that the 'ex'
-    construction that is sometimes used with zoological names has got nothing to
-    do with attribution or ascription, but is used to indicate a concept, much
-    like we do here with 'sec.' or 'sensu' in taxon concept labels.
+    'ex' and the author the name is attributed to after. Note that the 'ex' (or
+    'Ex') construction that is sometimes used with zoological names has got
+    nothing to do with attribution or ascription, but is used to denote a
+    concept, much like we do here with 'sec.' or 'sensu' in taxon concept
+    labels.
   type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonName
   required: No
@@ -1226,15 +1228,16 @@
     `basionymAscribedAuthor` is an IRI property. It can be a person or a list of
     persons.
   notes: >-
-    'Ascribed author' is a person (or group of people) who a name is ascribed to
-    in a publication, but who is not the author of the name according to the
+    An 'ascribed author' is a person (or group of people) who a name is ascribed
+    to in a publication, but who is not the author of the name according to the
     rules of the nomenclatural codes, because they did not contribute to the
     validating description of the name. In the `dwc:scientificNameAuthorship`
     these authors are indicated with 'ex', the ascribed author coming before the
-    'ex' and the author the name is attributed to after. Note that the 'ex'
-    construction that is sometimes used with zoological names has got nothing to
-    do with attribution or ascription, but is used to indicate a concept, much
-    like we do here with 'sec.' or 'sensu' in taxon concept labels.
+    'ex' and the author the name is attributed to after. Note that the 'ex' (or
+    'Ex') construction that is sometimes used with zoological names has got
+    nothing to do with attribution or ascription, but is used to denote a
+    concept, much like we do here with 'sec.' or 'sensu' in taxon concept
+    labels.
   type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonName
   required: No
@@ -1250,15 +1253,16 @@
   usage: >-
     `basionymAscribedAuthorLiteral` is a Literal property.
   notes: >-
-    'Ascribed author' is a person (or group of people) who a name is ascribed to
-    in a publication, but who is not the author of the name according to the
+    An 'ascribed author' is a person (or group of people) who a name is ascribed
+    to in a publication, but who is not the author of the name according to the
     rules of the nomenclatural codes, because they did not contribute to the
     validating description of the name. In the `dwc:scientificNameAuthorship`
     these authors are indicated with 'ex', the ascribed author coming before the
-    'ex' and the author the name is attributed to after. Note that the 'ex'
-    construction that is sometimes used with zoological names has got nothing to
-    do with attribution or ascription, but is used to indicate a concept, much
-    like we do here with 'sec.' or 'sensu' in taxon concept labels.
+    'ex' and the author the name is attributed to after. Note that the 'ex' (or
+    'Ex') construction that is sometimes used with zoological names has got
+    nothing to do with attribution or ascription, but is used to denote a
+    concept, much like we do here with 'sec.' or 'sensu' in taxon concept
+    labels.
   type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonName
   required: No
@@ -1339,7 +1343,7 @@
   notes: >-
     This is an IRI property. In the absence of a TDWG controlled vocabulary, 
     it is RECOMMENDED to use a value from the GBIF Nomenclatural Type Status 
-    Vocabulary (https://rs.gbif.org/vocabulary/gbif/type_status_2021-01-18.xml).
+    Vocabulary ([https://rs.gbif.org/vocabulary/gbif/type_status_2021-01-18.xml](https://rs.gbif.org/vocabulary/gbif/type_status_2021-01-18.xml)).
   type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
   required: Yes
   repeatable: No
