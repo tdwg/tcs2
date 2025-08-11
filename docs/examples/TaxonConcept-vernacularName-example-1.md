@@ -1,5 +1,9 @@
 # TaxonConcept vernacularName example 1
 
+
+**Term:** [tcs:vernacularName](/terms/#tcs_vernacularname)
+
+TaxonConcept-vernacularName-example-1 | [TaxonConcept-vernacularName-example-2](./TaxonConcept-vernacularName-example-2.html) | [TaxonConcept-vernacularName-example-3](./TaxonConcept-vernacularName-example-3.html)
 ```turtle
 [] a tcs:TaxonConcept ;
     dcterms:title "Graphium macleayanum sec. Orr & Kitching 2010" ;
@@ -15,5 +19,5 @@
             butterflies of Australia. Jacana Books, Crows Nest, Australia.""" .
 ```
 
-[&lsqb;TaxonConcept-vernacularName-example-1.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-vernacularName-example-1.ttl)&nbsp;[&lsqb;TaxonConcept-vernacularName-example-1.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-vernacularName-example-1.jsonld)
+[&#91;TurTLe&#93;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-vernacularName-example-1.ttl)&nbsp;[&#91;JSON-LD&#93;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-vernacularName-example-1.jsonld)
 

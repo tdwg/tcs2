@@ -1,5 +1,9 @@
 # TaxonConcept intersects example 1
 
+
+**Term:** [tcs:intersects](/terms/#tcs_intersects)
+
+TaxonConcept-intersects-example-1 | [TaxonConcept-intersects-example-2](./TaxonConcept-intersects-example-2.html) | [TaxonConceptMapping-intersects-example-1](./TaxonConceptMapping-intersects-example-1.html) | [TaxonConcept-intersects-example-3](./TaxonConcept-intersects-example-3.html)
 ```turtle
 [] a tcs:TaxonConcept ;
     dcterms:title "Begonia salaziensis sec. Klazenga & al. 1994" ;
@@ -33,5 +37,5 @@
         tcs:synonym <https://ipni.org/n/105731-1> ] .
 ```
 
-[&lsqb;TaxonConcept-intersects-example-1.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-intersects-example-1.ttl)&nbsp;[&lsqb;TaxonConcept-intersects-example-1.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-intersects-example-1.jsonld)
+[&#91;TurTLe&#93;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-intersects-example-1.ttl)&nbsp;[&#91;JSON-LD&#93;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-intersects-example-1.jsonld)
 

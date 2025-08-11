@@ -1,5 +1,9 @@
 # TaxonConcept includes example 1
 
+
+**Term:** [tcs:includes](/terms/#tcs_includes)
+
+TaxonConcept-includes-example-1 | [TaxonConceptMapping-includes-example-2](./TaxonConceptMapping-includes-example-2.html) | [TaxonConceptMapping-includes-example-1](./TaxonConceptMapping-includes-example-1.html)
 ```turtle
 [] a tcs:TaxonConcept ;
     dcterms:title "Diplaziopsidaceae sec. Rothfels & al. 2012" ;
@@ -11,5 +15,5 @@
             tcs:taxonName <https://ipni.org/n/77110538-1> ] .
 ```
 
-[&lsqb;TaxonConcept-includes-example-1.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-includes-example-1.ttl)&nbsp;[&lsqb;TaxonConcept-includes-example-1.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-includes-example-1.jsonld)
+[&#91;TurTLe&#93;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-includes-example-1.ttl)&nbsp;[&#91;JSON-LD&#93;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-includes-example-1.jsonld)
 

@@ -1,5 +1,9 @@
 # TaxonConceptMapping includes example 1
 
+
+**Term:** [tcs:includes](/terms/#tcs_includes)
+
+[TaxonConcept-includes-example-1](./TaxonConcept-includes-example-1.html) | [TaxonConceptMapping-includes-example-2](./TaxonConceptMapping-includes-example-2.html) | TaxonConceptMapping-includes-example-1
 ```turtle
 # Andropogon glomeratus sec. BONAP 2014 includes Andropogon tenuispatheus sec. Weakley 2006
 [] a tcs:TaxonConceptMapping ;
@@ -23,5 +27,5 @@
     dwc:scientificNameAuthorship "Nash" .
 ```
 
-[&lsqb;TaxonConceptMapping-includes-example-1.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConceptMapping-includes-example-1.ttl)&nbsp;[&lsqb;TaxonConceptMapping-includes-example-1.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConceptMapping-includes-example-1.jsonld)
+[&#91;TurTLe&#93;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConceptMapping-includes-example-1.ttl)&nbsp;[&#91;JSON-LD&#93;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConceptMapping-includes-example-1.jsonld)
 

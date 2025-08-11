@@ -1,5 +1,9 @@
 # TaxonConceptMapping isIncludedIn example 2
 
+
+**Term:** [tcs:isIncludedIn](/terms/#tcs_isincludedin)
+
+[TaxonConcept-isIncludedIn-example-1](./TaxonConcept-isIncludedIn-example-1.html) | TaxonConceptMapping-isIncludedIn-example-2 | [TaxonConceptMapping-isIncludedIn-example-1](./TaxonConceptMapping-isIncludedIn-example-1.html)
 ```turtle
 _:b1 a tcs:TaxonConcept ;
     dcterms:title "Athyriaceae sec. Rothfels & al. 2012" ;
@@ -46,5 +50,5 @@ _:b1 a tcs:TaxonConcept ;
             tcs:taxonName <https://ipni.org/n/17434830-1> ] .
 ```
 
-[&lsqb;TaxonConceptMapping-isIncludedIn-example-2.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConceptMapping-isIncludedIn-example-2.ttl)&nbsp;[&lsqb;TaxonConceptMapping-isIncludedIn-example-2.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConceptMapping-isIncludedIn-example-2.jsonld)
+[&#91;TurTLe&#93;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConceptMapping-isIncludedIn-example-2.ttl)&nbsp;[&#91;JSON-LD&#93;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConceptMapping-isIncludedIn-example-2.jsonld)
 

@@ -202,7 +202,7 @@
     Concepts and Taxon Names) and combinations (relations between Taxon Names),
     respectively. In TCS, combinations are dealt with using properties of the
     `TaxonName` class, *e.g.* `basionym` and `replacedName` (note that
-    'combination' is used here in a broader sense that what the term actually
+    'combination' is used here in a broader sense than what the term actually
     means). This has the advantage that people do not need to separate
     heterotypic and homotypic synonyms, or generally deal with nomenclature,
     which adds a degree of complexity that not all systems need or want.
@@ -288,10 +288,12 @@
     `taxonRank` is an IRI property; a TaxonConcept or TaxonName MUST NOT have
     more than one `taxonRank`.
   notes: >-
-    This property takes an object or IRI and it is RECOMMENDED to use a value
-    from an existing controlled vocabulary. While there is no TDWG vocabulary
-    yet, the GBIF Taxonomic Rank Vocabulary
-    (https://rs.gbif.org/vocabulary/gbif/rank_2015-04-24.xml) is RECOMMENDED.
+    This term is the IRI equivalent of the Darwin Core `taxonRank`. This
+    property takes an object or IRI and it is RECOMMENDED to use a value from an
+    existing controlled vocabulary. While there is no TDWG vocabulary yet, the
+    GBIF Taxonomic Rank Vocabulary
+    ([https://rs.gbif.org/vocabulary/gbif/rank_2015-04-24.xml](https://rs.gbif.org/vocabulary/gbif/rank_2015-04-24.xml))
+    is RECOMMENDED.
 
 
     A taxon name takes its rank from the taxon it is applied to, so this
@@ -311,7 +313,7 @@
       remarks: >-
         The TCS term is the IRI equivalent of the Darwin Core term.
 
-# property: parent
+# property: parentTaxonConcept
 - localName: parentTaxonConcept
   label: Parent
   definition: >-
@@ -386,6 +388,9 @@
     then B `isCongruentWith` A, as well as transitive, so if A `isCongruentWith`
     B and B `isCongruentWith` C it follows that A `isCongruentWith` C. This
     relation can also be written as the formula **A &cong; B** or **A == B**.
+
+
+    ![](../media/mapping-relation-isCongruentWith.drawio.svg)
   examples: 
     - TaxonConcept-isCongruentWith-example-1
     - TaxonConceptMapping-isCongruentWith-example-2
@@ -429,6 +434,9 @@
     relation  is transitive, so if A `includes` B and B `includes` C it follows
     that A `includes` C. This relation can also be written as the formula **A >
     B**.
+
+
+    ![](../media/mapping-relation-includes.drawio.svg)
   examples: 
     - TaxonConcept-includes-example-1
     - TaxonConceptMapping-includes-example-2
@@ -466,6 +474,9 @@
     relation  is transitive, so if A `isIncludedIn` B and B `isIncludedIn` C it
     follows that A `isIncludedIn` C. This relation can also be written as the
     formula **A < B**.
+
+
+    ![](../media/mapping-relation-isIncludedIn.drawio.svg)
   examples: 
     - TaxonConcept-isIncludedIn-example-1
     - TaxonConceptMapping-isIncludedIn-example-2
@@ -508,6 +519,9 @@
     `partiallyOverlaps` B and B `partiallyOverlaps` C, it does not follow that A
     `partiallyOverlaps` C. This relation can also be written as the formula **A
     >< B**.
+
+
+    ![](../media/mapping-relation-partiallyOverlaps.drawio.svg)
   examples:
     - TaxonConcept-partiallyOverlaps-example-1
     - TaxonConceptMapping-partiallyOverlaps-example-2
@@ -546,6 +560,9 @@
     then B `isDisjointFrom` A, but not transitive, so, if A `isDisjointFrom` B
     and B `isDisjointFrom` C, it does not follow that A `isDisjointFrom` C. This
     relation can also be written as the formula **A | B**.
+
+
+    ![](../media/mapping-relation-isDisjointFrom.drawio.svg)
   examples:
     - TaxonConcept-isDisjointFrom-example-1
     - TaxonConceptMapping-isDisjointFrom-example-2
@@ -858,10 +875,10 @@
     `nomenclaturalCode` takes an IRI or object; a Taxon Name can have only one 
     `nomenclaturalCode`.
   notes: >-
-    This is the IRI equivalent of the Darwin Core `nomenclaturalCode`. In the 
-    absence of a TDWG vocabulary, it is RECOMMENDED to use a value from the GBIF 
-    Nomenclatural Codes Vocabulary 
-    (https://rs.gbif.org/vocabulary/gbif/nomenclatural_code.xml).
+    This is the IRI equivalent of the Darwin Core `nomenclaturalCode`. In the
+    absence of a TDWG vocabulary, it is RECOMMENDED to use a value from the GBIF
+    Nomenclatural Codes Vocabulary
+    ([https://rs.gbif.org/vocabulary/gbif/nomenclatural_code.xml](https://rs.gbif.org/vocabulary/gbif/nomenclatural_code.xml)).
   type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonName
   required: No
@@ -890,7 +907,7 @@
     This is the IRI equivalent of the Darwin Core `nomenclaturalStatus`. In the 
     absence of a TDWG vocabulary, it is RECOMMENDED to use a value from the GBIF 
     Nomenclatural Status Vocabulary 
-    (https://rs.gbif.org/vocabulary/gbif/nomenclatural_status_2019-02-08.xml).
+    ([https://rs.gbif.org/vocabulary/gbif/nomenclatural_status_2019-02-08.xml](https://rs.gbif.org/vocabulary/gbif/nomenclatural_status_2019-02-08.xml)).
   type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonName
   required: No
@@ -1162,15 +1179,16 @@
     `combinationAscribedAuthor` is an IRI property. It can be a person or a list
     of persons.
   notes: >-
-    'Ascribed author' is a person (or group of people) who a name is ascribed to
-    in a publication, but who is not the author of the name according to the
+    An 'ascribed author' is a person (or group of people) who a name is ascribed
+    to in a publication, but who is not the author of the name according to the
     rules of the nomenclatural codes, because they did not contribute to the
     validating description of the name. In the `dwc:scientificNameAuthorship`
     these authors are indicated with 'ex', the ascribed author coming before the
-    'ex' and the author the name is attributed to after. Note that the 'ex'
-    construction that is sometimes used with zoological names has got nothing to
-    do with attribution or ascription, but is used to indicate a concept, much
-    like we do here with 'sec.' or 'sensu' in taxon concept labels.
+    'ex' and the author the name is attributed to after. Note that the 'ex' (or
+    'Ex') construction that is sometimes used with zoological names has got
+    nothing to do with attribution or ascription, but is used to denote a
+    concept, much like we do here with 'sec.' or 'sensu' in taxon concept
+    labels.
   type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonName
   required: No
@@ -1186,15 +1204,16 @@
   usage: >-
     `combinationAscribedAuthorLiteral` is a Literal property.
   notes: >-
-    'Ascribed author' is a person (or group of people) who a name is ascribed to
-    in a publication, but who is not the author of the name according to the
+    An 'ascribed author' is a person (or group of people) who a name is ascribed
+    to in a publication, but who is not the author of the name according to the
     rules of the nomenclatural codes, because they did not contribute to the
     validating description of the name. In the `dwc:scientificNameAuthorship`
     these authors are indicated with 'ex', the ascribed author coming before the
-    'ex' and the author the name is attributed to after. Note that the 'ex'
-    construction that is sometimes used with zoological names has got nothing to
-    do with attribution or ascription, but is used to indicate a concept, much
-    like we do here with 'sec.' or 'sensu' in taxon concept labels.
+    'ex' and the author the name is attributed to after. Note that the 'ex' (or
+    'Ex') construction that is sometimes used with zoological names has got
+    nothing to do with attribution or ascription, but is used to denote a
+    concept, much like we do here with 'sec.' or 'sensu' in taxon concept
+    labels.
   type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonName
   required: No
@@ -1209,15 +1228,16 @@
     `basionymAscribedAuthor` is an IRI property. It can be a person or a list of
     persons.
   notes: >-
-    'Ascribed author' is a person (or group of people) who a name is ascribed to
-    in a publication, but who is not the author of the name according to the
+    An 'ascribed author' is a person (or group of people) who a name is ascribed
+    to in a publication, but who is not the author of the name according to the
     rules of the nomenclatural codes, because they did not contribute to the
     validating description of the name. In the `dwc:scientificNameAuthorship`
     these authors are indicated with 'ex', the ascribed author coming before the
-    'ex' and the author the name is attributed to after. Note that the 'ex'
-    construction that is sometimes used with zoological names has got nothing to
-    do with attribution or ascription, but is used to indicate a concept, much
-    like we do here with 'sec.' or 'sensu' in taxon concept labels.
+    'ex' and the author the name is attributed to after. Note that the 'ex' (or
+    'Ex') construction that is sometimes used with zoological names has got
+    nothing to do with attribution or ascription, but is used to denote a
+    concept, much like we do here with 'sec.' or 'sensu' in taxon concept
+    labels.
   type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonName
   required: No
@@ -1233,15 +1253,16 @@
   usage: >-
     `basionymAscribedAuthorLiteral` is a Literal property.
   notes: >-
-    'Ascribed author' is a person (or group of people) who a name is ascribed to
-    in a publication, but who is not the author of the name according to the
+    An 'ascribed author' is a person (or group of people) who a name is ascribed
+    to in a publication, but who is not the author of the name according to the
     rules of the nomenclatural codes, because they did not contribute to the
     validating description of the name. In the `dwc:scientificNameAuthorship`
     these authors are indicated with 'ex', the ascribed author coming before the
-    'ex' and the author the name is attributed to after. Note that the 'ex'
-    construction that is sometimes used with zoological names has got nothing to
-    do with attribution or ascription, but is used to indicate a concept, much
-    like we do here with 'sec.' or 'sensu' in taxon concept labels.
+    'ex' and the author the name is attributed to after. Note that the 'ex' (or
+    'Ex') construction that is sometimes used with zoological names has got
+    nothing to do with attribution or ascription, but is used to denote a
+    concept, much like we do here with 'sec.' or 'sensu' in taxon concept
+    labels.
   type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonName
   required: No
@@ -1322,7 +1343,7 @@
   notes: >-
     This is an IRI property. In the absence of a TDWG controlled vocabulary, 
     it is RECOMMENDED to use a value from the GBIF Nomenclatural Type Status 
-    Vocabulary (https://rs.gbif.org/vocabulary/gbif/type_status_2021-01-18.xml).
+    Vocabulary ([https://rs.gbif.org/vocabulary/gbif/type_status_2021-01-18.xml](https://rs.gbif.org/vocabulary/gbif/type_status_2021-01-18.xml)).
   type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
   required: Yes
   repeatable: No

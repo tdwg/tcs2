@@ -1,7 +1,7 @@
 ---
 headerFileName: ./static/termlist-header.md
 footerFileName: ./static/termlist-footer.md
-outFileName: ../docs/tcs-terms/README.md
+outFileName: ../docs/terms/index.md
 termLists:
   - filename: tcs
     vann_preferredNamespacePrefix: tcs

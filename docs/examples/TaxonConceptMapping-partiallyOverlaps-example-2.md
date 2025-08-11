@@ -1,5 +1,9 @@
 # TaxonConceptMapping partiallyOverlaps example 2
 
+
+**Term:** [tcs:partiallyOverlaps](/terms/#tcs_partiallyoverlaps)
+
+[TaxonConcept-partiallyOverlaps-example-1](./TaxonConcept-partiallyOverlaps-example-1.html) | TaxonConceptMapping-partiallyOverlaps-example-2 | [TaxonConceptMapping-partiallyOverlaps-example-1](./TaxonConceptMapping-partiallyOverlaps-example-1.html)
 ```turtle
 [] a tcs:TaxonConceptMapping ;
     tcs:mappingAccordingTo <https://doi.org/10.1002/tax.613003> ;
@@ -14,5 +18,5 @@
             tcs:taxonName <https://ipni.org/n/30000361-2> ] .
 ```
 
-[&lsqb;TaxonConceptMapping-partiallyOverlaps-example-2.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConceptMapping-partiallyOverlaps-example-2.ttl)&nbsp;[&lsqb;TaxonConceptMapping-partiallyOverlaps-example-2.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConceptMapping-partiallyOverlaps-example-2.jsonld)
+[&#91;TurTLe&#93;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConceptMapping-partiallyOverlaps-example-2.ttl)&nbsp;[&#91;JSON-LD&#93;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConceptMapping-partiallyOverlaps-example-2.jsonld)
 

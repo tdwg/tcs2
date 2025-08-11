@@ -1,5 +1,9 @@
 # TaxonConcept partiallyOverlaps example 1
 
+
+**Term:** [tcs:partiallyOverlaps](/terms/#tcs_partiallyoverlaps)
+
+TaxonConcept-partiallyOverlaps-example-1 | [TaxonConceptMapping-partiallyOverlaps-example-2](./TaxonConceptMapping-partiallyOverlaps-example-2.html) | [TaxonConceptMapping-partiallyOverlaps-example-1](./TaxonConceptMapping-partiallyOverlaps-example-1.html)
 ```turtle
 [] a tcs:TaxonConcept ;
     dcterms:title "Diplaziopsidaceae sec. Rothfels & al. 2012" ;
@@ -11,5 +15,5 @@
             tcs:taxonName <https://ipni.org/n/30000361-2> ] .
 ```
 
-[&lsqb;TaxonConcept-partiallyOverlaps-example-1.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-partiallyOverlaps-example-1.ttl)&nbsp;[&lsqb;TaxonConcept-partiallyOverlaps-example-1.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-partiallyOverlaps-example-1.jsonld)
+[&#91;TurTLe&#93;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-partiallyOverlaps-example-1.ttl)&nbsp;[&#91;JSON-LD&#93;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-partiallyOverlaps-example-1.jsonld)
 

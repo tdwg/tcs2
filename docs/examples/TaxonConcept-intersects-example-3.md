@@ -1,5 +1,9 @@
 # TaxonConcept intersects example 3
 
+
+**Term:** [tcs:intersects](/terms/#tcs_intersects)
+
+[TaxonConcept-intersects-example-1](./TaxonConcept-intersects-example-1.html) | [TaxonConcept-intersects-example-2](./TaxonConcept-intersects-example-2.html) | [TaxonConceptMapping-intersects-example-1](./TaxonConceptMapping-intersects-example-1.html) | TaxonConcept-intersects-example-3
 ```turtle
 <https://www.catalogueoflife.org/data/taxon/BRKHX> a tcs:TaxonConcept ;
     dcterms:title "Megalorhipida leucodactylus sec. Gielis & Hobern 2023-01-05" ;
@@ -34,5 +38,5 @@
 # treatment, see examples/megalorhipida-leucodactylus-sec-gielis-et-hobern-2020.ttl.
 ```
 
-[&lsqb;TaxonConcept-intersects-example-3.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-intersects-example-3.ttl)&nbsp;[&lsqb;TaxonConcept-intersects-example-3.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-intersects-example-3.jsonld)
+[&#91;TurTLe&#93;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-intersects-example-3.ttl)&nbsp;[&#91;JSON-LD&#93;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-intersects-example-3.jsonld)
 

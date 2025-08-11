@@ -1,5 +1,9 @@
 # TaxonName basionymAscribedAuthor example 1
 
+
+**Term:** [tcs:basionymAscribedAuthor](/terms/#tcs_basionymascribedauthor)
+
+
 ```turtle
 <https://ipni.org/n/3007069-1> a tcs:TaxonName ;
     tcs:nameString "Senna artemisioides" ;
@@ -33,5 +37,5 @@
     foaf:surname "Gaudichaud-Beaupré" .
 ```
 
-[&lsqb;TaxonName-basionymAscribedAuthor-example-1.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonName-basionymAscribedAuthor-example-1.ttl)&nbsp;[&lsqb;TaxonName-basionymAscribedAuthor-example-1.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonName-basionymAscribedAuthor-example-1.jsonld)
+[&#91;TurTLe&#93;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonName-basionymAscribedAuthor-example-1.ttl)&nbsp;[&#91;JSON-LD&#93;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonName-basionymAscribedAuthor-example-1.jsonld)
 

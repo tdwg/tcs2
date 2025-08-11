@@ -1,5 +1,9 @@
 # TaxonConcept synonym example 3
 
+
+**Term:** [tcs:synonym](/terms/#tcs_synonym)
+
+[TaxonConcept-synonym-example-1](./TaxonConcept-synonym-example-1.html) | [TaxonConcept-synonym-example-2](./TaxonConcept-synonym-example-2.html) | TaxonConcept-synonym-example-3
 ```turtle
 <https://www.catalogueoflife.org/data/taxon/3YVTF> a tcs:TaxonConcept ;
     dcterms:title "Megalorhipida leucodactylus sec. Gielis & Hobern 2020-07-16" ;
@@ -49,5 +53,5 @@
     dwc:scientificNameAuthorship: "Fabricius, 1794"  .
 ```
 
-[&lsqb;TaxonConcept-synonym-example-3.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-synonym-example-3.ttl)&nbsp;[&lsqb;TaxonConcept-synonym-example-3.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-synonym-example-3.jsonld)
+[&#91;TurTLe&#93;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-synonym-example-3.ttl)&nbsp;[&#91;JSON-LD&#93;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-synonym-example-3.jsonld)
 

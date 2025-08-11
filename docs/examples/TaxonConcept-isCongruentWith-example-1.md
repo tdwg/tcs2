@@ -1,5 +1,9 @@
 # TaxonConcept isCongruentWith example 1
 
+
+**Term:** [tcs:isCongruentWith](/terms/#tcs_iscongruentwith)
+
+TaxonConcept-isCongruentWith-example-1 | [TaxonConceptMapping-isCongruentWith-example-2](./TaxonConceptMapping-isCongruentWith-example-2.html) | [TaxonConcept-isCongruentWith-example-3](./TaxonConcept-isCongruentWith-example-3.html) | [TaxonConceptMapping-isCongruentWith-example-1](./TaxonConceptMapping-isCongruentWith-example-1.html)
 ```turtle
 [] a tcs:TaxonConcept ;
     dcterms:title "Aspleniaceae sec. Rothfels & al. 2012" ;
@@ -23,5 +27,5 @@
             tcs:taxonName <https://ipni.org/n/30001382-2> ] .
 ```
 
-[&lsqb;TaxonConcept-isCongruentWith-example-1.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-isCongruentWith-example-1.ttl)&nbsp;[&lsqb;TaxonConcept-isCongruentWith-example-1.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-isCongruentWith-example-1.jsonld)
+[&#91;TurTLe&#93;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-isCongruentWith-example-1.ttl)&nbsp;[&#91;JSON-LD&#93;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-isCongruentWith-example-1.jsonld)
 

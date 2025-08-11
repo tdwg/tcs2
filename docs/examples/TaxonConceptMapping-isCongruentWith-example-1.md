@@ -1,5 +1,9 @@
 # TaxonConceptMapping isCongruentWith example 1
 
+
+**Term:** [tcs:isCongruentWith](/terms/#tcs_iscongruentwith)
+
+[TaxonConcept-isCongruentWith-example-1](./TaxonConcept-isCongruentWith-example-1.html) | [TaxonConceptMapping-isCongruentWith-example-2](./TaxonConceptMapping-isCongruentWith-example-2.html) | [TaxonConcept-isCongruentWith-example-3](./TaxonConcept-isCongruentWith-example-3.html) | TaxonConceptMapping-isCongruentWith-example-1
 ```turtle
 # Andropogon capillipes sec. BONAP 2014 is congruent with Andropogon capillipes sec. Weakley 2006
 [] a tcs:TaxonConceptMapping ;
@@ -15,5 +19,5 @@
         tcs:accordingTo <http://www.herbarium.unc.edu/FloraArchives/WeakleyFlora_2006-Jan.pdf> ] .
 ```
 
-[&lsqb;TaxonConceptMapping-isCongruentWith-example-1.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConceptMapping-isCongruentWith-example-1.ttl)&nbsp;[&lsqb;TaxonConceptMapping-isCongruentWith-example-1.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConceptMapping-isCongruentWith-example-1.jsonld)
+[&#91;TurTLe&#93;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConceptMapping-isCongruentWith-example-1.ttl)&nbsp;[&#91;JSON-LD&#93;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConceptMapping-isCongruentWith-example-1.jsonld)
 

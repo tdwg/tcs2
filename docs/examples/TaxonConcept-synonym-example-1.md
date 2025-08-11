@@ -1,5 +1,9 @@
 # TaxonConcept synonym example 1
 
+
+**Term:** [tcs:synonym](/terms/#tcs_synonym)
+
+TaxonConcept-synonym-example-1 | [TaxonConcept-synonym-example-2](./TaxonConcept-synonym-example-2.html) | [TaxonConcept-synonym-example-3](./TaxonConcept-synonym-example-3.html)
 ```turtle
 []  a tcs:TaxonConcept ;
     dcterms:title "Dicranoloma blumei sec. Klazenga 1999" ;
@@ -65,5 +69,5 @@
 # are provided using the `synonym` property.
 ```
 
-[&lsqb;TaxonConcept-synonym-example-1.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-synonym-example-1.ttl)&nbsp;[&lsqb;TaxonConcept-synonym-example-1.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-synonym-example-1.jsonld)
+[&#91;TurTLe&#93;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-synonym-example-1.ttl)&nbsp;[&#91;JSON-LD&#93;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-synonym-example-1.jsonld)
 

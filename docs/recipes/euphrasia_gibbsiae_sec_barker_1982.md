@@ -1,0 +1,385 @@
+# Barker 1982 Euphrasia gibbsiae recipe
+
+[Recipes](../recipes)
+
+The following is a treatment of a single species, _Euphrasia gibbsiae_, in a
+treatment of the Australian species of _Euphrasia_ (Barker 1982
+[[barker_taxonomic_1982](../bibliography/#barker_1982)]). The treatment
+references many other taxonomic treatments in the nomenclatural section. TCS can
+handle these with the `intersects` property. Based on the information it is
+possible to make third-party taxon concept mappings.
+
+## Treatment
+
+```turtle
+<https://id.biodiversity.org.au/instance/apni/545068> a tcs:TaxonConcept ;
+    dcterms:title "Euphrasia gibbsiae sec. Barker 1982" ;
+    tcs:accordingTo <https://www.jstor.org/stable/23873848> ;
+    tcs:taxonName <https://ipni.org/n/802545-1> ;
+    tcs:synonym <https://ipni.org/n/802619-1> ;
+    tcs:intersects [ rdf:value <https://id.biodiversity.org.au/instance/apni/713514> ;
+            rdfs:comment "p.p. (as to Tasmanian occurrences and f. subglabrifolia in Victoria)" ] ,
+        _:tc1 ,
+        _:tc2 , 
+        [ rdf:value _:tc3 ;
+            rdfs:comment """p.p. (excl. "f. comberi" in Victoria)""" ] , 
+        [ rdf:value _:tc4 ;
+            rdfs:comment "p.p. (as to f. subglabrifolia)" ] ,
+        _:tc5 ,
+        _:tc6 ,
+        _:tc7 ,
+        [ rdf:value _:tc8 ;
+            rdfs:comment "p.p. (as to var. psilantherea p.p.)" ] ,
+        [ rdf:value _:tc9 ;
+            rdfs:comment "p.p. (as to Stuart 1745, Milligan MEL41451, p.p., Mueller MEL41539)" ] ,
+        [ rdf:value _:tc10 ;
+            rdfs:comment "p.p. (as to Oldfield W36919, W36922)" ] ,
+        [ rdf:value _:tc11 ;
+            rdfs:comment "p.p. (as to Labillardière G)" ] .
+
+<https://id.biodiversity.org.au/instance/apni/713514> a tcs:TaxonConcept ;
+    dcterms:title "Euphrasia gibbsiae sec. Curtis 1967" ;
+    tcs:accordingTo <https://id.biodiversity.org.au/reference/apni/23028> ;
+    tcs:taxonName <https://ipni.org/n/802545-1> .
+
+_:tc1 a tcs:TaxonConcept ;
+    dcterms:title "Euphrasia gibbsiae sec. Willis 1967" ;
+    tcs:accordingTo _:ref1 ;
+    tcs:taxonName <https://ipni.org/n/802545-1> .
+
+_:tc2 a tcs:TaxonConcept ;
+    dcterms:title "Euphrasia gibbsiae sec. Cochrane & al. 1968" ;
+    tcs:accordingTo _:ref2 ;
+    tcs:taxonName <https://ipni.org/n/802545-1> .
+
+_:tc3 a tcs:TaxonConcept ;
+    dcterms:title "Euphrasia gibbsiae sec. Harris 1970" ;
+    tcs:accordingTo _:ref3 ;
+    tcs:taxonName <https://ipni.org/n/802545-1> .
+
+_:tc4 a tcs:TaxonConcept ;
+    dcterms:title "Euphrasia gibbsiae sec. Willis 1973" ;
+    tcs:accordingTo _:ref4 ;
+    tcs:taxonName <https://ipni.org/n/802545-1> .
+
+_:tc5 a tcs:TaxonConcept ;
+    dcterms:title "Euphrasia gibbsiae sec. Stones & Curtis 1978" ;
+    tcs:accordingTo _:ref5 ;
+    tcs:taxonName <https://ipni.org/n/802545-1> .
+
+_:tc6 a tcs:TaxonConcept ;
+    dcterms:title "Euphrasia kingii sec. Curtis 1967" ;
+    tcs:accordingTo <https://id.biodiversity.org.au/reference/apni/23028> ;
+    tcs:taxonName <https://ipni.org/n/802619-1> .
+
+_:tc7 a tcs:TaxonConcept ;
+    dcterms:title "Euphrasia kingii sec. Stones & Curtis 1978" ;
+    tcs:accordingTo _:ref5 ;
+    tcs:taxonName <https://ipni.org/n/802619-1> .
+
+_:tc8 a tcs:TaxonConcept ;
+    dcterms:title "Euphrasia brownii sec. Mueller 1865" ;
+    tcs:accordingTo _:ref6 ;
+    tcs:taxonName <https://ipni.org/n/124446-3> .
+
+_:tc9 a tcs:TaxonConcept ;
+    dcterms:title "Euphrasia striata sec. Bentham 1868" ;
+    tcs:accordingTo _:ref7 ;
+    tcs:taxonName <https://ipni.org/n/802876-1> .
+
+_:tc10 a tcs:TaxonConcept ;
+    dcterms:title "Euphrasia striata sec. Wettstein 1896" ;
+    tcs:accordingTo _:ref8 ;
+    tcs:taxonName <https://ipni.org/n/802876-1> .
+
+_:tc11 a tcs:TaxonConcept ;
+    dcterms:title "Euphrasia collina sec. Wettstein 1896" ;
+    tcs:accordingTo _:ref8 ;
+    tcs:taxonName <https://ipni.org/n/802451-1> .
+
+
+<https://ipni.org/n/802545-1> a tcs:TaxonName ;
+    tcs:nameString "Euphrasia gibbsiae" ;
+    dwc:scientificNameAuthorship "Du Rietz" ;
+    tcs:namePublishedIn _:refdcc6da69a323c681 .
+
+<https://ipni.org/n/802619-1> a tcs:TaxonName ;
+    tcs:nameString "Euphrasia kingii" ;
+    dwc:scientificNameAuthorship "W.M.Curtis" ;
+    tcs:namePublishedIn <https://id.biodiversity.org.au/reference/apni/23028>.
+
+<https://ipni.org/n/124446-3> a tcs:TaxonName ;
+    tcs:nameString "Euphrasia brownii" ;
+    dwc:scientificNameAuthorship "F.Muell." ;
+    tcs:namePublishedIn _:ref3fa574ead9183735 ;
+    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/illegitimum> .
+
+<https://ipni.org/n/802876-1> a tcs:TaxonName ;
+    tcs:nameString "Euphrasia striata" ;
+    dwc:scientificNameAuthorship "R.Br." .
+
+<https://ipni.org/n/802451-1> a tcs:TaxonName ;
+    tcs:nameString "Euphrasia collina" ;
+    dwc:scientificNameAuthorship "R.Br." .
+```
+
+## Third-party taxon concept mappings
+
+```turtle
+# Euphrasia gibbsiae sec. Barker 1982 > Euphrasia gibbsiae sec. Curtis 1967
+_:ann1 a oa:Annotation ;
+    oa:motivatedBy oa:commenting ;
+    oa:hasTarget <https://id.biodiversity.org.au/instance/apni/545068> ;
+    oa:hasBody [ a tcs:TaxonConceptMapping ;
+            tcs:mappingAccordingTo _:ann1 ;
+            tcs:mappingRelation tcs:includes ;
+            tcs:subjectTaxonConcept <https://id.biodiversity.org.au/instance/apni/545068> ;
+            tcs:objectTaxonConcept <https://id.biodiversity.org.au/instance/apni/713514> ;
+            rdfs:comment """Euphrasia gibbsiae sec. Barker 1982 also includes Euphrasia 
+                    kingii sec. Curtis 1967""" ] ;
+    dcterms:creator <https://orcid.org/0000-0003-2224-6821> ;
+    dcterms:created "2023-10-21T23:41:00+11" .
+
+# Euphrasia gibbsiae sec. Barker 1982 < Euphrasia gibbsiae sec. Willis 1967
+_:ann2 a oa:Annotation ;
+    oa:motivatedBy oa:commenting ;
+    oa:hasTarget <https://id.biodiversity.org.au/instance/apni/545068> ;
+    oa:hasBody [ a tcs:TaxonConceptMapping ;
+            tcs:mappingAccordingTo _:ann2 ;
+            tcs:mappingRelation tcs:isIncludedIn ;
+            tcs:subjectTaxonConcept <https://id.biodiversity.org.au/instance/apni/545068> ;
+            tcs:objectTaxonConcept _:tc1 ;
+            rdfs:comment """Only Tasmanian occurrences and Victorian occurrences of 
+                    f. subglabrifolia of Euphrasia gibbsiae sec. Willis 1967 are included in 
+                    Euphrasia gibbsiae sec. Barker 1982 [WRB 1982]""" ] ;
+    dcterms:creator <https://orcid.org/0000-0003-2224-6821> ;
+    dcterms:created "2023-10-21T23:41:00+11" .
+
+# Euphrasia gibbsiae sec. Barker 1982 ≙ Euphrasia gibbsiae sec. Cochrane & al. 1968
+_:ann3 a oa:Annotation ;
+    oa:motivatedBy oa:commenting ;
+    oa:hasTarget <https://id.biodiversity.org.au/instance/apni/545068> ;
+    oa:hasBody [ a tcs:TaxonConceptMapping ;
+            tcs:mappingAccordingTo _:ann3 ;
+            tcs:mappingRelation tcs:isCongruentWith ;
+            tcs:subjectTaxonConcept <https://id.biodiversity.org.au/instance/apni/545068> ;
+            tcs:objectTaxonConcept _:tc2 ] ;
+    dcterms:creator <https://orcid.org/0000-0003-2224-6821> ;
+    dcterms:created "2023-10-21T23:41:00+11" .
+
+# Euphrasia gibbsiae sec. Barker 1982 < Euphrasia gibbsiae sec. Harris 1970
+_:ann4 a oa:Annotation ;
+    oa:motivatedBy oa:commenting ;
+    oa:hasTarget <https://id.biodiversity.org.au/instance/apni/545068> ;
+    oa:hasBody [ a tcs:TaxonConceptMapping ;
+            tcs:mappingAccordingTo _:ann4 ;
+            tcs:mappingRelation tcs:isIncludedIn ;
+            tcs:subjectTaxonConcept <https://id.biodiversity.org.au/instance/apni/545068> ;
+            tcs:objectTaxonConcept _:tc3 ;
+            rdfs:comment """Victoria occurrences of f. comberi sensu Harris 1978 are 
+                    excluded from Euphrasia gibbsiae sec. Barker 1982 [WRB 1982]""" ] ;
+    dcterms:creator <https://orcid.org/0000-0003-2224-6821> ;
+    dcterms:created "2023-10-21T23:41:00+11" .
+
+# Euphrasia gibbsiae sec. Barker 1982 < Euphrasia gibbsiae sec. Willis 1973
+_:ann5 a oa:Annotation ;
+    oa:motivatedBy oa:commenting ;
+    oa:hasTarget <https://id.biodiversity.org.au/instance/apni/545068> ;
+    oa:hasBody [ a tcs:TaxonConceptMapping ;
+            tcs:mappingAccordingTo _:ann5 ;
+            tcs:mappingRelation tcs:isIncludedIn ;
+            tcs:subjectTaxonConcept <https://id.biodiversity.org.au/instance/apni/545068> ;
+            tcs:objectTaxonConcept _:tc4 ;
+            rdfs:comment """Only occurrences of f. subglabrifolia sensu Willis 1973 are 
+                    included in Euphrasia gibbsiae sec. Barker 1982 [WRB 1982]""" ] ;
+    dcterms:creator <https://orcid.org/0000-0003-2224-6821> ;
+    dcterms:created "2023-10-21T23:41:00+11" .
+
+# Euphrasia gibbsiae sec. Barker 1982 > Euphrasia gibbsiae sec. Stones & Curtis 1978
+_:ann6 a oa:Annotation ;
+    oa:motivatedBy oa:commenting ;
+    oa:hasTarget <https://id.biodiversity.org.au/instance/apni/545068> ;
+    oa:hasBody [ a tcs:TaxonConceptMapping ;
+            tcs:mappingAccordingTo _:ann6 ;
+            tcs:mappingRelation tcs:includes ;
+            tcs:subjectTaxonConcept <https://id.biodiversity.org.au/instance/apni/545068> ;
+            tcs:objectTaxonConcept _:tc5 ;
+            rdfs:comment """Euphrasia gibbsiae sec. Barker 1982 also includes Euphrasia 
+                    kingii sec. Curtis & Stones 1973""" ] ;
+    dcterms:creator <https://orcid.org/0000-0003-2224-6821> ;
+    dcterms:created "2023-10-21T23:41:00+11" .
+
+# Euphrasia gibbsiae sec. Barker 1982 > Euphrasia kingii sec. Curtis 1967
+_:ann7 a oa:Annotation ;
+    oa:motivatedBy oa:commenting ;
+    oa:hasTarget <https://id.biodiversity.org.au/instance/apni/545068> ;
+    oa:hasBody [ a tcs:TaxonConceptMapping ;
+            tcs:mappingAccordingTo _:ann7 ;
+            tcs:mappingRelation tcs:includes ;
+            tcs:subjectTaxonConcept <https://id.biodiversity.org.au/instance/apni/545068> ;
+            tcs:objectTaxonConcept _:tc6 ;
+            rdfs:comment """Euphrasia gibbsiae sec. Barker 1982 also includes Euphrasia 
+                    gibbsiae sec. Curtis 1967""" ] ;
+    dcterms:creator <https://orcid.org/0000-0003-2224-6821> ;
+    dcterms:created "2023-10-21T23:41:00+11" .
+
+# Euphrasia gibbsiae sec. Barker 1982 > Euphrasia kingii sec. Stones & Curtis 1978
+_:ann8 a oa:Annotation ;
+    oa:motivatedBy oa:commenting ;
+    oa:hasTarget <https://id.biodiversity.org.au/instance/apni/545068> ;
+    oa:hasBody [ a tcs:TaxonConceptMapping ;
+            tcs:mappingAccordingTo _:ann8 ;
+            tcs:mappingRelation tcs:includes ;
+            tcs:subjectTaxonConcept <https://id.biodiversity.org.au/instance/apni/545068> ;
+            tcs:objectTaxonConcept _:tc7 ;
+            rdfs:comment """Euphrasia gibbsiae sec. Barker 1982 also includes Euphrasia 
+                    gibbsiae sec. Curtis & Stones 1973""" ] ;
+    dcterms:creator <https://orcid.org/0000-0003-2224-6821> ;
+    dcterms:created "2023-10-21T23:41:00+11" .
+
+
+# References
+
+<https://www.jstor.org/stable/23873848> a bibo:AcademicArticle ;
+    dcterms:title """Taxonomic Studies in Euphrasia L. (Scrophulariaceae). a 
+        Revised Infrageneric Classification, and a Revision of the Genus in 
+        Australia""" ;
+    dcterms:creator _:a1 ;
+    bibo:authorList [ a rdf:Seq ;
+        rdf:_1 _:a1 ] ;
+    dcterms:isPartOf [ a bibo:Issue ;
+        dcterms:date "1982" ;
+        dcterms:isPartOf [ a bibo:Journal ;
+            dcterms:title "Journal of the Adelaide Botanic Garden" ] ;
+        bibo:volume "5" ] ;
+    bibo:pages: "1-304" ;
+    bibo:uri "https://www.jstor.org/stable/23873848" .
+
+# Curtis, W.M. (1967). "The Student's Flora of Tasmania". (Govt Printer: 
+# Tasmania).
+<https://id.biodiversity.org.au/reference/apni/23028> a bibo:Book ;
+    dcterms:title "The student's flora of Tasmania" ;
+    dcterms:creator _:a2 ;
+    bibo:authorList [ a rdf:Seq ;
+        rdf:_1 _:a2 ] ;
+    dcterms:date "1967" ;
+    dcterms:publisher [ a foaf:Organization ;
+        foaf:name "Government Printer" ;
+        address:localityName "Tasmania" ] .
+
+# Willis, J.H. (1973). "A Handbook to Plants in Victoria 2. Dicotyledons". 
+# (Melbourne University Press).
+_:ref1 a bibo:AcademicArticle ;
+    dcterms:title "Systematic notes on the indigenous Australian flora" ;
+    dcterms:creator _:a3 ;
+    bibo:authorList [ a rdf:Seq ;
+        rdf:_1 _:a3 ] ;
+    dcterms:isPartOf [ a bibo:Issue ;
+        dcterms:date "1967" ;
+        dcterms:isPartOf [ a bibo:Journal ;
+            dcterms:title "Muelleria" ] ;
+        bibo:volume "1" ] ;
+    bibo:pages "117-163" .
+
+_:ref2 a dcterms:BibliographicResource ;
+    dcterms:bibliographicCitation "Cochrane, Fuhrer, Rotherham & Willis, Fl. Pl. Vict. (1968)" .
+
+_:ref3 a dcterms:BibliographicResource ;
+    dcterms:bibliographicCitation "Harris, Alp. Pl. Austral. (1970)" .
+
+# Willis, J.H. (1973). "A Handbook to Plants in Victoria 2. Dicotyledons". 
+# (Melbourne University Press).
+_:ref4 a bibo:Book ;
+    dcterms:title "A Handbook to Plants in Victoria 2. Dicotyledons" ;
+    dcterms:creator _:a3 ;
+    bibo:authorList [ a rdf:Seq ;
+        rdf:_1 _:a3 ] ;
+        dcterms:date "1973" ;
+    dcterms:publisher [ a foaf:Organization ;
+        foaf:name "Melbourne University Press" ] .
+
+# Stones, M., & Curtis, W.M. (1967-78). "The Endemic Flora of Tasmania". 
+# (Aerial Press: London).
+_:ref5 a bibo:Book ;
+    dcterms:title "The Endemic Flora of Tasmania" ;
+    dcterms:creator _:a4 , 
+            _:a1 ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:a4 ;
+            rdf:_2 _:a1 ] ;
+    dcterms:date "1967-78" ;
+    dcterms:publisher [ a foaf:Organization ;
+        foaf:name "Aerial Press" ;
+        address:localityName "London" ] .
+
+# Mueller, F. (1865). Scrophularinae: Euphrasia Brownii. "Fragmenta 
+# Phytographiae Australiae". (Govt Printer: Melbourne), vol 5: 88-90.
+_:ref6 a bibo:Chapter ;
+    dcterms:title "Scrophularinae: Euphrasia Brownii" ;
+    dcterms:creator _:a5 ;
+    bibo:authorList [ a rdf:Seq ;
+        rdf:_1 _:a5 ] ;
+    dcterms:isPartOf [ a bibo:Book ;
+        dcterms:date "1865" ;
+        dcterms:isPartOf [ a bibo:MultiVolumeBook ;
+            dcterms:title "Fragmenta Phytographiae Australiae" ] ;
+        bibo:volume "5" ] ;
+    bibo:pages "88-90" .
+
+# Bentham, G. (1868). "Flora Australiensis". (Reeve: London), vol. 4.
+_:ref7 a bibo:Book ;
+    dcterms:isPartOf [ a bibo:MultiVolumeBook ; 
+        dcterms:title "Flora Australiensis" ;
+        dcterms:creator _:a7 ;
+        bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:a7 ] ;
+        dcterms:publisher [ a foaf:Organization ;
+            foaf:name "Reeve" ;
+            address:localityName "London" ] ] ;
+    dcterms:date "1868" ;
+    bibo:volume "4" .
+
+# Wettstein, R. von (1896). "Monographiae der Gattung Euphrasia". (Engelmann: Leipzig).
+_:ref8 a bibo:Book ;
+    dcterms:title "Monographiae der Gattung Euphrasia" ;
+    dcterms:creator _:a6 ;
+    dcterms:authorList [ a rdf:Seq ;
+        rdf:_1 _:a6 ] ;
+    dcterms:publisher [ a foaf:Organization ;
+        foaf:name "Engelmann" ;
+        address:localityName "Leipzig" ] .
+
+
+# Agents
+
+_:a1 a foaf:Person ;
+    foaf:givenName "W.R." ;
+    foaf:surname "Barker" .
+
+_:a2 a foaf:Person ;
+    foaf:givenName "W.M." ;
+    foaf:surname "Curtis" .
+
+_:a3 a foaf:Person ;
+    foaf:givenName "J.H." ;
+    foaf:surname "Willis" .
+
+_:a4 a foaf:Person ;
+    foaf:givenName "M." ;
+    foaf:surname "Stones" .
+
+_:a5 a foaf:Person ;
+    foaf:givenName "F." ;
+    foaf:surname "Mueller" .
+
+_:a6 a foaf:Person ;
+    foaf:givenName "R." ;
+    foaf:surname "Von Wettstein" .
+
+_:a7 a foaf:Person ;
+    foaf:givenName "G." ;
+    foaf:surname "Bentham" .
+```
+
+[TurTLe](https://github.com/tdwg/tcs2/blob/master/examples/euphrasia_gibbsiae_sec_barker_1982.ttl) |
+[JSON-LD](https://github.com/tdwg/tcs2/blob/master/examples/euphrasia_gibbsiae_sec_barker_1982.jsonld)

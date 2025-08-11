@@ -1,5 +1,9 @@
 # TaxonConcept synonym example 2
 
+
+**Term:** [tcs:synonym](/terms/#tcs_synonym)
+
+[TaxonConcept-synonym-example-1](./TaxonConcept-synonym-example-1.html) | TaxonConcept-synonym-example-2 | [TaxonConcept-synonym-example-3](./TaxonConcept-synonym-example-3.html)
 ```turtle
 [] a tcs:TaxonConcept ;
     dcterms:title "Hebe colensoi sec. Bayly & Kellow 2006" ;
@@ -24,5 +28,5 @@
     dwc:namePublishedIn "Trans. & Proc. New Zealand Inst. 28: 606 (1896)" .
 ```
 
-[&lsqb;TaxonConcept-synonym-example-2.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-synonym-example-2.ttl)&nbsp;[&lsqb;TaxonConcept-synonym-example-2.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-synonym-example-2.jsonld)
+[&#91;TurTLe&#93;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-synonym-example-2.ttl)&nbsp;[&#91;JSON-LD&#93;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-synonym-example-2.jsonld)
 

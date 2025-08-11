@@ -1,5 +1,9 @@
 # TaxonConcept parent example 1
 
+
+**Term:** [tcs:parentTaxonConcept](/terms/#tcs_parenttaxonconcept)
+
+
 ```turtle
 <https://www.catalogueoflife.org/data/taxon/6DBT> a tcs:TaxonConcept ;
     dcterms:title "Panthera sec. Catalogue of Life 2024-01-24" ;
@@ -41,5 +45,5 @@
     tcs:parentTaxonConcept <https://www.catalogueoflife.org/data/taxon/6DBT> .
 ```
 
-[&lsqb;TaxonConcept-parent-example-1.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-parent-example-1.ttl)&nbsp;[&lsqb;TaxonConcept-parent-example-1.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-parent-example-1.jsonld)
+[&#91;TurTLe&#93;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-parent-example-1.ttl)&nbsp;[&#91;JSON-LD&#93;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-parent-example-1.jsonld)
 

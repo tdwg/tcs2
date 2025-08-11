@@ -1,5 +1,9 @@
 # TaxonConcept example 1
 
+
+**Term:** [tcs:TaxonConcept](/terms/#tcs_taxonconcept)
+
+TaxonConcept-example-1 | [TaxonConcept-example-2](./TaxonConcept-example-2.html) | [TaxonConcept-example-3](./TaxonConcept-example-3.html) | [TaxonConcept-example-4](./TaxonConcept-example-4.html) | [TaxonConcept-example-5](./TaxonConcept-example-5.html) | [TaxonConcept-example-6](./TaxonConcept-example-6.html) | [TaxonConcept-example-7](./TaxonConcept-example-7.html)
 ```turtle
 [] a tcs:TaxonConcept ;
     dcterms:title "Dicranoloma blumei sec. Klazenga 1999" ;
@@ -16,5 +20,5 @@
             Hattori Botanical Laboratory 87: 1-130.""" .
 ```
 
-[&lsqb;TaxonConcept-example-1.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-example-1.ttl)&nbsp;[&lsqb;TaxonConcept-example-1.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-example-1.jsonld)
+[&#91;TurTLe&#93;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-example-1.ttl)&nbsp;[&#91;JSON-LD&#93;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-example-1.jsonld)
 

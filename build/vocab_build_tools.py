@@ -89,7 +89,7 @@ def create_index(categories, merged_df):
     Returns:
         string: index of terms in Markdown format
     """
-    text = '\n## 4. Index of terms\n\n'
+    text = '\n\n## 4. Index of terms\n\n'
 
     for category in categories:
         if len(categories) > 1:
@@ -109,12 +109,12 @@ def create_index(categories, merged_df):
             else:
                 label = '{label}'.format(label=row['label'])
 
-            anchor = '#{namespaceAlias}{localName}'.format(
+            anchor = '#{namespaceAlias}_{localName}'.format(
                 namespaceAlias=row['namespaceAlias'], localName=row['localName'].lower())
 
-            item = '[{label}]({anchor})'.format(label=label, anchor=anchor)
+            item = f'[{label}]({anchor})'
             items.append(item)
-        text += ' | '.join(items) + '\n\n'
+        text += ' |\n'.join(items) + '\n\n'
 
     return text
 
@@ -162,14 +162,21 @@ def term_table(term):
     Returns:
         str: HTML table (<table/>) with term metadata
     """
+    text = '<table>\n'
+
     curie = '{namespaceAlias}:{localName}'.format(
         namespaceAlias=term['namespaceAlias'], localName=term['localName'])
+    
+    id = curie.replace(':', '_').lower()
 
-    text = '#### ' + curie + '\n\n'
+    text += f"""
+    <thead>
+        <th colspan="2"><a id="{id}"></a>Term Name: {curie}</th>
+    </thead>
+    """
 
-    text += '<table style="width:100%;">\n'
 
-    text += '\t<tbody>\n'
+    text += '<tbody>\n'
 
     # Term IRI
     uri = '{namespace}{localName}'.format(
@@ -260,7 +267,7 @@ def term_table(term):
             text += table_row([
                 table_cell('Examples'),
                 # table_cell(examples_text)
-                table_cell(f"\n\n{examples_text}\n\n")
+                table_cell(f"<ul>\n{examples_text}\n</ul>\n")
             ])
         elif isinstance(term['examples'], str):
             with open('../examples/' + term['examples'], 'r') as f:
@@ -297,12 +304,12 @@ def add_example(ex, links=True):
     return text
 
 def add_links(ex):
-    text = '[&lsqb;' + ex + '.ttl&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/' + ex + '.ttl)&nbsp;'
-    text += '[&lsqb;' + ex + '.jsonld&rsqb;](https://github.com/tdwg/tcs2/blob/master/examples/' + ex + '.jsonld)\n\n'
+    text = '[&#91;TurTLe&#93;](https://github.com/tdwg/tcs2/blob/master/examples/' + ex + '.ttl)&nbsp;'
+    text += '[&#91;JSON-LD&#93;](https://github.com/tdwg/tcs2/blob/master/examples/' + ex + '.jsonld)\n\n'
     return text
 
 def add_example_link(ex):
-    return f"- [{ex}](../examples/{ex}.md)\n"
+    return f"<li><a href=\"/examples/{ex}.html\">{ex}</a></li>\n"
     
 
 
@@ -320,9 +327,9 @@ def create_vocab(categories, merged_df):
     """
     # vocab = '## Vocabulary\n\n'
     vocab = '## 5. Vocabulary\n\n'
-    for category in categories:
+    for index, category in enumerate(categories, start=1):
         if len(categories) > 1:
-            vocab += '### {label}\n\n'.format(label=category['label'])
+            vocab += '### 5.{index}. {label}\n\n'.format(label=category['label'], index=index)
             filtered_df = merged_df[merged_df['organizedInClass']
                                     == category['namespace']]
         else:
@@ -432,3 +439,61 @@ def create_sssom_page(config):
                     else:
                         f.write(' | ')
                     f.write(' |\n')
+
+
+def create_examples_index_page(config):
+    merged_df = create_df(config['termLists'])
+    examples = merged_df[~merged_df['examples'].isna()]
+
+    classes = ['TaxonConcept', 'TaxonConceptMappings', 'TaxonName', 'NomenclaturalType']
+
+    header_object = open('static/examples-header.md', 'rt', encoding='utf-8')
+    header = header_object.read()
+    header_object.close()
+
+    with open('../docs/examples/index.md', 'w') as f:
+        
+        f.write(header)
+        
+        for cl in classes:
+            f.write("\n## " + cl + "\n\n")
+            
+            for index, row in examples[examples['organizedInClass'] == 'http://rs.tdwg.org/tcs/terms/' + cl].iterrows():
+                alias = [n['vann_preferredNamespacePrefix'] for n in config['termLists'] if n['vann_preferredNamespaceUri'] == row['namespace']][0]
+                
+                if type(row['examples']) == list:
+                    f.write("\n### " + alias + ":" + row['localName'] + "\n\n")
+                    for ex in row['examples']:
+                        f.write(f"- [{ex}]({ex}.md)\n")
+
+def create_example_pages(config):
+    merged_df = create_df(config['termLists'])
+    examples = merged_df[~merged_df['examples'].isna()]
+
+    classes = ['TaxonConcept', 'TaxonConceptMappings', 'TaxonName', 'NomenclaturalType']
+
+    for cl in classes:
+        for index, row in examples[examples['organizedInClass'] == 'http://rs.tdwg.org/tcs/terms/' + cl].iterrows():
+            alias = [n['vann_preferredNamespacePrefix'] for n in config['termLists'] if n['vann_preferredNamespaceUri'] == row['namespace']][0]
+            
+            if type(row['examples']) == list:
+                for index, ex in enumerate(row['examples']):
+                    with open('../docs/examples/' + ex + '.md', 'w') as f:
+                        heading = ex.replace('-', ' ')
+                        f.write('# ' + heading + '\n')
+                        f.write('\n\n')
+                        f.write('**Term:** ')
+                        f.write('[' + alias + ':' + row['localName'] + '](/terms/#' + alias + '_' + row['localName'].lower() + ')')
+                        f.write('\n\n')
+
+                        if (len(row['examples']) > 1):
+                            exs = []
+                            for i, exx in enumerate(row['examples']):
+                                if i == index:
+                                    exs.append(exx)
+                                else:
+                                    exs.append(f'[{exx}](./{exx}.html)')
+                            f.write(' | '.join(exs))
+
+                        text = add_example(ex)
+                        f.write(text)
