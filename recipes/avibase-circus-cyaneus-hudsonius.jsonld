@@ -2,6 +2,7 @@
   "@context": [
     "https://raw.githubusercontent.com/tdwg/tcs2/master/examples/context.jsonld",
     {
+      "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
       "mappingRelation": {
         "@id": "tcs:mappingRelation",
         "@type": "@vocab"
@@ -41,11 +42,9 @@
       "id": "https://avibase.ca/82745BAA",
       "type": "TaxonConcept",
       "dcterms:identifier": "avibase-82745BAA",
+      "rdfs:label": "Circus [cyaneus or hudsonius]",
       "accordingTo": "https://avibase.bsc-eoc.org",
-      "taxonName": {
-        "type": "skosxl:Label",
-        "skosxl:literalForm": "Circus [cyaneus or hudsonius]"
-      },
+      "taxonName": "_:tn1",
       "isCongruentWith": {
         "type": "TaxonConcept",
         "accordingTo": "_:ref4",
@@ -57,11 +56,9 @@
       "id": "https://avibase.ca/F558C7F9",
       "type": "TaxonConcept",
       "dcterms:identifier": "avibase-F558C7F9",
+      "rdfs:label": "Circus cyaneus",
       "accordingTo": "https://avibase.bsc-eoc.org",
-      "taxonName": {
-        "type": "skosxl:Label",
-        "skosxl:literalForm": "Circus cyaneus"
-      },
+      "taxonName": "_:tn1",
       "isCongruentWith": [
         {
           "type": "TaxonConcept",
@@ -96,13 +93,11 @@
       "id": "https://avibase.ca/A091D50A",
       "type": "TaxonConcept",
       "dcterms:identifier": "avibase-A091D50A",
+      "rdfs:label": "Circus hudsonius",
       "accordingTo": {
         "id": "https://avibase.bsc-eoc.org"
       },
-      "taxonName": {
-        "type": "skosxl:Label",
-        "skosxl:literalForm": "Circus hudsonius"
-      },
+      "taxonName": "_:tn2",
       "isCongruentWith": [
         {
           "type": "TaxonConcept",

@@ -1,0 +1,64 @@
+# Identification toTaxon example
+
+```turtle
+<https://arctos.database.museum/guid/UAM:Herb:86707> a dwc:PreservedSpecimen ;
+    dsw:evidenceFor <https://www.idigbio.org/portal/records/1e364de0-e016-4ace-8c7d-46a60027c4cb> ;
+    dsw:isBasisForId [
+        a dwc:Identification ;
+        dcterms:date "1984" ;
+        dwciri:identifiedBy <https://www.wikidata.org/wiki/Q18982613> ;
+        dwciri:toTaxon [
+            a tcs:TaxonConcept ;
+            dcterms:title "Salix arbusculoides sec. Argus 1973" ;
+            tcs:taxonName <https://ipni.org/n/306317-2> ;
+            tcs:accordingTo [
+                a bibo:Book ;
+                dcterms:title "The Genus Salix in Alaska and the Yukon" ;
+                dcterms:creator <https://www.wikidata.org/wiki/Q18982613> ;
+                dcterms:date "1973"
+            ] ;
+            rdfs:comment "Assumes Argus's concept did not change from 1973 to 1984 [CW 2023]"
+        ] ;
+    ] ;
+    schema:itemLocation <https://scientific-collections.gbif.org/institution/5a35d381-0dc9-4ea0-9b50-9b69a2ce0ed0> .
+
+<https://ipni.org/n/306317-2>
+    a tcs:TaxonName ;
+    tcs:nameString "Salix arbusculoides"
+    dwc:scientificNameAuthorship "Andersson" .
+
+<https://www.idigbio.org/portal/records/1e364de0-e016-4ace-8c7d-46a60027c4cb>
+    a dwc:Occurrence ;
+    dwciri:recordedBy [
+        a foaf:Person ;
+        foaf:givenName "David" ;
+        foaf:surname "Densmore"
+    ] ;
+    dsw:atEvent [
+        a dwc:Event ;
+        dwc:eventDate "1975-07-03" ;
+        dwciri:inDescribedPlace [
+            a dcterms:Location ;
+            dwc:country "United States" ;
+            dwc:stateOrProvince "Alaska" ;
+            dwc:county "Fairbanks North Star" ;
+            dwc:verbatimLocality """Tanana Lowlands, Bonanza Creek Experimental 
+                 Forest, Bonanza Cr. Logging Road, 10 Km Down, Fairbanks 
+                 Quad, Bonanza Creek Experimental Forest""" ;
+            dwc:decimalLongitude 64.7 ;
+            dwc:decimalLatitude -148.3 ;
+            dwc:coordinateUncertaintyInMeters 3615 ;
+            dwciri:geodeticDatum <https://epsg.io/4326>
+        ]
+    ] ;
+    dsw:hasEvidence <https://arctos.database.museum/guid/UAM:Herb:86707> .
+
+<https://www.wikidata.org/wiki/Q18982613>
+    a foaf:Agent ;
+    foaf:givenName "George" ;
+    foaf:surname "Argus" ;
+    rdfs:comment "One of the most experienced salicologists in US history" .
+```
+
+[TurTLe](https://github.com/tdwg/tcs2/blob/master/examples/Identification-toTaxon-example-1.ttl) |
+[JSON-LD](https://github.com/tdwg/tcs2/blob/master/examples/Identification-toTaxon-example-1.jsonld)

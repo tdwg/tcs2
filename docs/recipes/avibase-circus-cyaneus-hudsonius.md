@@ -1,17 +1,33 @@
-@prefix tcs: <http://rs.tdwg.org/tcs/terms/> .
-@prefix bibo: <http://purl.org/ontology/bibo/> .
-@prefix dcterms: <http://purl.org/dc/terms/> .
-@prefix dwc: <http://rs.tdwg.org/dwc/terms/> .
-@prefix foaf: <http://xmlns.com/foaf/0.1/> .
-@prefix oa: <http://www.w3.org/ns/oa#> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix skosxl: <http://www.w3.org/2008/05/skos-xl#> .
+# Avibase Circus cyaneus–hudsonius recipe
 
+[Recipes](../recipes)
+
+Avibase is an extensive database information system about all birds of the
+world, containing over 53 million records about 10,000 species and 22,000
+subspecies of birds, including distribution information for 20,000 regions,
+taxonomy, synonyms in several languages and more. Avibase aligns the taxonomy
+from 263 sources and assigns Avibase IDs to groups of concepts with the same
+circumscription.
+
+This example was presented by Jeff Gerbracht at TCS Maintenance Group meeting 
+in 2021. It revolves around _Circus cyaneus_, which was considered a holarctic
+species, but has been split into a paleo-arctic species, _Circus cyaneus_, and a
+neo-arctic species, _Circus hudsonius_.
+
+Concepts from the sources that the Avibase concepts are based on are linked to
+the Avibase concept using the `isCongruentWith` property. Mappings between
+Avibase concepts are not made in so many words in Avibase, so they are provided
+in the form of annotations, but the information comes from Avibase's taxon
+grids.
+
+## Avibase concepts
+
+```turtle
 <https://avibase.ca/82745BAA> a tcs:TaxonConcept ;
     dcterms:identifier "avibase-82745BAA" ;
+    skosxl:label "Circus [cyaneus or hudsonius]" ;
     tcs:accordingTo <https://avibase.bsc-eoc.org> ;
-    tcs:taxonName [ a skosxl:Label ;
-            skosxl:literalForm "Circus [cyaneus or hudsonius]" ] ;
+    tcs:taxonName _:tn1 ;
     tcs:isCongruentWith [ a tcs:TaxonConcept ;
             dcterms:title "Circus cyaneus sec. Howard & Moore 2013" ;
             tcs:accordingTo _:ref4 ;
@@ -19,6 +35,7 @@
 
 <https://avibase.ca/F558C7F9> a tcs:TaxonConcept ;
     dcterms:identifier "avibase-F558C7F9" ;
+    skosxl:label "Circus cyaneus" ;
     tcs:accordingTo <https://avibase.bsc-eoc.org> ;
     tcs:taxonName [ a skosxl:Label ;
             skosxl:literalForm "Circus cyaneus" ] ;
@@ -42,9 +59,9 @@
 
 <https://avibase.ca/A091D50A> a tcs:TaxonConcept ;
     dcterms:identifier "avibase-A091D50A" ;
+    skosxl:label "Circus hudsonius" ;
     tcs:accordingTo <https://avibase.bsc-eoc.org> ;
-    tcs:taxonName [ a skosxl:Label; 
-            skosxl:literalForm "Circus hudsonius" ] ;
+    tcs:taxonName _:tn2 ;
     tcs:isCongruentWith [ a tcs:TaxonConcept ;
             dcterms:title "Circus hudsonius sec. Clements 2021" ;
             tcs:accordingTo _:ref1 ;
@@ -92,10 +109,11 @@ _:ref3 a dcterms:BibliographicResource ;
 
 _:ref4 a dcterms:BibliographicResource ;
     dcterms:bibliographicCitation "Howard & Moore, 2013" .
+```
 
+## Third-party taxon concept mappings
 
-# Third-party taxon concept mappings
-
+```turtle
 _:ann1 a oa:Annotation ;
     oa:motivatedBy oa:commenting ;
     oa:hasBody [ a tcs:TaxonConceptMapping ;
@@ -128,3 +146,7 @@ _:ann3 a oa:Annotation ;
     oa:hasTarget <https://avibase.ca/F558C7F9> ;
     dcterms:creator <https://orcid.org/0000-0003-2224-6821> ;
     dcterms:created "2023-10-21T13:55:00+10" .
+```
+
+[TurTLe](https://github.com/tdwg/tcs2/blob/master/examples/avibase-circus-cyaneus-hudsonius.ttl) |
+[JSON-LD](https://github.com/tdwg/tcs2/blob/master/examples/avibase-circus-cyaneus-hudsonius.jsonld)

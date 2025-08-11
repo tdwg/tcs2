@@ -1,5 +1,10 @@
-# Rhododendron subg. Pentanthera revision recipe
+# Judd & Kron 1995 Rhododendron subg. Pentanthera recipe
 
+[Recipes](../recipes)
+
+This is the example that shipped with TCS 1. It is based on a revision of
+_Rhododendron_ subg. _Pentanthera_ by Judd & Kron
+[\[judd_revision_1995\]](../bibliography/#judd_revision_1995).
 
 ```turtle
 #
