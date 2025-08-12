@@ -6236,8 +6236,8 @@ _:ann148 a oa:Annotation ;
     dcterms:source <https://tropicos.org/reference/9020903> .
 ```
 
-[TurTLe](https://github.com/tdwg/tcs2/blob/master/examples/tropicos-malesian-dicranoloma.ttl) |
-[JSON-LD](https://github.com/tdwg/tcs2/blob/master/examples/tropicos-malesian-dicranoloma.jsonld)
+[TurTLe](https://github.com/tdwg/tcs2/blob/master/recipes/tropicos-malesian-dicranoloma.ttl) |
+[JSON-LD](https://github.com/tdwg/tcs2/blob/master/recipes/tropicos-malesian-dicranoloma.jsonld)
 
 ## Annotations
 
@@ -6905,5 +6905,5 @@ from the treatment by Klazenga to the concepts in the other four treatments:
     dcterms:created "2023-10-22T23:44:00+11" .
 ```
 
-[TurTLe](https://github.com/tdwg/tcs2/blob/master/examples/tropicos-malesian-dicranoloma-annotations.ttl) |
-[JSON-LD](https://github.com/tdwg/tcs2/blob/master/examples/tropicos-malesian-dicranoloma-annotations.jsonld)
+[TurTLe](https://github.com/tdwg/tcs2/blob/master/recipes/tropicos-malesian-dicranoloma-annotations.ttl) |
+[JSON-LD](https://github.com/tdwg/tcs2/blob/master/recipes/tropicos-malesian-dicranoloma-annotations.jsonld)

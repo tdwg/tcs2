@@ -381,5 +381,5 @@ _:a7 a foaf:Person ;
     foaf:surname "Bentham" .
 ```
 
-[TurTLe](https://github.com/tdwg/tcs2/blob/master/examples/euphrasia_gibbsiae_sec_barker_1982.ttl) |
-[JSON-LD](https://github.com/tdwg/tcs2/blob/master/examples/euphrasia_gibbsiae_sec_barker_1982.jsonld)
+[TurTLe](https://github.com/tdwg/tcs2/blob/master/recipes/euphrasia_gibbsiae_sec_barker_1982.ttl) |
+[JSON-LD](https://github.com/tdwg/tcs2/blob/master/recipes/euphrasia_gibbsiae_sec_barker_1982.jsonld)

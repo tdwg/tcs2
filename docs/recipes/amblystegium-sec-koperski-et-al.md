@@ -1068,5 +1068,5 @@ _:moenkemeyer_w a foaf:Person ;
     foaf:surname "Mönkemeyer" .
 ```
 
-[TurTLe](https://github.com/tdwg/tcs2/blob/master/examples/amblystegium-sec-koperski-et-al.ttl) |
-[JSON-LD](https://github.com/tdwg/tcs2/blob/master/examples/amblystegium-sec-koperski-et-al.jsonld)
+[TurTLe](https://github.com/tdwg/tcs2/blob/master/recipes/amblystegium-sec-koperski-et-al.ttl) |
+[JSON-LD](https://github.com/tdwg/tcs2/blob/master/recipes/amblystegium-sec-koperski-et-al.jsonld)

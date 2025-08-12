@@ -148,5 +148,5 @@ _:ann3 a oa:Annotation ;
     dcterms:created "2023-10-21T13:55:00+10" .
 ```
 
-[TurTLe](https://github.com/tdwg/tcs2/blob/master/examples/avibase-circus-cyaneus-hudsonius.ttl) |
-[JSON-LD](https://github.com/tdwg/tcs2/blob/master/examples/avibase-circus-cyaneus-hudsonius.jsonld)
+[TurTLe](https://github.com/tdwg/tcs2/blob/master/recipes/avibase-circus-cyaneus-hudsonius.ttl) |
+[JSON-LD](https://github.com/tdwg/tcs2/blob/master/recipes/avibase-circus-cyaneus-hudsonius.jsonld)
