@@ -672,6 +672,6 @@ _:tn9 a tcs:TaxonName ;
     dcterms:source _:ref1 .
 ```
 
-[&#91;NomenclaturalType-example-1.ttl&#93;](https://github.com/tdwg/tcs2/blob/master/recipes/NomenclaturalType-example-1.ttl) |
-[&#91;NomenclaturalType-example-1.jsonld&#93;](https://github.com/tdwg/tcs2/blob/master/recipes/NomenclaturalType-example-1.jsonld)
+[NomenclaturalType-example-1.ttl](https://github.com/tdwg/tcs2/blob/master/recipes/NomenclaturalType-example-1.ttl) |
+[NomenclaturalType-example-1.jsonld](https://github.com/tdwg/tcs2/blob/master/recipes/NomenclaturalType-example-1.jsonld)
 
