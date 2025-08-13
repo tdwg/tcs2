@@ -309,7 +309,7 @@ def add_links(ex):
     return text
 
 def add_example_link(ex):
-    return f"<li><a href=\"/examples/{ex}.html\">{ex}</a></li>\n"
+    return f"<li><a href=\"../examples/{ex}.html\">{ex}</a></li>\n"
     
 
 

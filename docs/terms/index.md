@@ -276,19 +276,19 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		<tr>
 			<td>Examples</td>
 			<td><ul>
-<li><a href="/examples/TaxonConcept-example-1.html">TaxonConcept-example-1</a></li>
+<li><a href="../examples/TaxonConcept-example-1.html">TaxonConcept-example-1</a></li>
 
-<li><a href="/examples/TaxonConcept-example-2.html">TaxonConcept-example-2</a></li>
+<li><a href="../examples/TaxonConcept-example-2.html">TaxonConcept-example-2</a></li>
 
-<li><a href="/examples/TaxonConcept-example-3.html">TaxonConcept-example-3</a></li>
+<li><a href="../examples/TaxonConcept-example-3.html">TaxonConcept-example-3</a></li>
 
-<li><a href="/examples/TaxonConcept-example-4.html">TaxonConcept-example-4</a></li>
+<li><a href="../examples/TaxonConcept-example-4.html">TaxonConcept-example-4</a></li>
 
-<li><a href="/examples/TaxonConcept-example-5.html">TaxonConcept-example-5</a></li>
+<li><a href="../examples/TaxonConcept-example-5.html">TaxonConcept-example-5</a></li>
 
-<li><a href="/examples/TaxonConcept-example-6.html">TaxonConcept-example-6</a></li>
+<li><a href="../examples/TaxonConcept-example-6.html">TaxonConcept-example-6</a></li>
 
-<li><a href="/examples/TaxonConcept-example-7.html">TaxonConcept-example-7</a></li>
+<li><a href="../examples/TaxonConcept-example-7.html">TaxonConcept-example-7</a></li>
 
 </ul>
 </td>
@@ -334,11 +334,11 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		<tr>
 			<td>Examples</td>
 			<td><ul>
-<li><a href="/examples/TaxonConcept-accordingTo-example-1.html">TaxonConcept-accordingTo-example-1</a></li>
+<li><a href="../examples/TaxonConcept-accordingTo-example-1.html">TaxonConcept-accordingTo-example-1</a></li>
 
-<li><a href="/examples/TaxonConcept-accordingTo-example-2.html">TaxonConcept-accordingTo-example-2</a></li>
+<li><a href="../examples/TaxonConcept-accordingTo-example-2.html">TaxonConcept-accordingTo-example-2</a></li>
 
-<li><a href="/examples/TaxonConcept-accordingTo-example-3.html">TaxonConcept-accordingTo-example-3</a></li>
+<li><a href="../examples/TaxonConcept-accordingTo-example-3.html">TaxonConcept-accordingTo-example-3</a></li>
 
 </ul>
 </td>
@@ -422,11 +422,11 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		<tr>
 			<td>Examples</td>
 			<td><ul>
-<li><a href="/examples/TaxonConcept-synonym-example-1.html">TaxonConcept-synonym-example-1</a></li>
+<li><a href="../examples/TaxonConcept-synonym-example-1.html">TaxonConcept-synonym-example-1</a></li>
 
-<li><a href="/examples/TaxonConcept-synonym-example-2.html">TaxonConcept-synonym-example-2</a></li>
+<li><a href="../examples/TaxonConcept-synonym-example-2.html">TaxonConcept-synonym-example-2</a></li>
 
-<li><a href="/examples/TaxonConcept-synonym-example-3.html">TaxonConcept-synonym-example-3</a></li>
+<li><a href="../examples/TaxonConcept-synonym-example-3.html">TaxonConcept-synonym-example-3</a></li>
 
 </ul>
 </td>
@@ -471,11 +471,11 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		<tr>
 			<td>Examples</td>
 			<td><ul>
-<li><a href="/examples/TaxonConcept-vernacularName-example-1.html">TaxonConcept-vernacularName-example-1</a></li>
+<li><a href="../examples/TaxonConcept-vernacularName-example-1.html">TaxonConcept-vernacularName-example-1</a></li>
 
-<li><a href="/examples/TaxonConcept-vernacularName-example-2.html">TaxonConcept-vernacularName-example-2</a></li>
+<li><a href="../examples/TaxonConcept-vernacularName-example-2.html">TaxonConcept-vernacularName-example-2</a></li>
 
-<li><a href="/examples/TaxonConcept-vernacularName-example-3.html">TaxonConcept-vernacularName-example-3</a></li>
+<li><a href="../examples/TaxonConcept-vernacularName-example-3.html">TaxonConcept-vernacularName-example-3</a></li>
 
 </ul>
 </td>
@@ -558,7 +558,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		<tr>
 			<td>Examples</td>
 			<td><ul>
-<li><a href="/examples/TaxonConcept-parent-example-1.html">TaxonConcept-parent-example-1</a></li>
+<li><a href="../examples/TaxonConcept-parent-example-1.html">TaxonConcept-parent-example-1</a></li>
 
 </ul>
 </td>
@@ -603,7 +603,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		<tr>
 			<td>Examples</td>
 			<td><ul>
-<li><a href="/examples/TaxonConcept-child-example-1.html">TaxonConcept-child-example-1</a></li>
+<li><a href="../examples/TaxonConcept-child-example-1.html">TaxonConcept-child-example-1</a></li>
 
 </ul>
 </td>
@@ -649,13 +649,13 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		<tr>
 			<td>Examples</td>
 			<td><ul>
-<li><a href="/examples/TaxonConcept-isCongruentWith-example-1.html">TaxonConcept-isCongruentWith-example-1</a></li>
+<li><a href="../examples/TaxonConcept-isCongruentWith-example-1.html">TaxonConcept-isCongruentWith-example-1</a></li>
 
-<li><a href="/examples/TaxonConceptMapping-isCongruentWith-example-2.html">TaxonConceptMapping-isCongruentWith-example-2</a></li>
+<li><a href="../examples/TaxonConceptMapping-isCongruentWith-example-2.html">TaxonConceptMapping-isCongruentWith-example-2</a></li>
 
-<li><a href="/examples/TaxonConcept-isCongruentWith-example-3.html">TaxonConcept-isCongruentWith-example-3</a></li>
+<li><a href="../examples/TaxonConcept-isCongruentWith-example-3.html">TaxonConcept-isCongruentWith-example-3</a></li>
 
-<li><a href="/examples/TaxonConceptMapping-isCongruentWith-example-1.html">TaxonConceptMapping-isCongruentWith-example-1</a></li>
+<li><a href="../examples/TaxonConceptMapping-isCongruentWith-example-1.html">TaxonConceptMapping-isCongruentWith-example-1</a></li>
 
 </ul>
 </td>
@@ -701,11 +701,11 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		<tr>
 			<td>Examples</td>
 			<td><ul>
-<li><a href="/examples/TaxonConcept-includes-example-1.html">TaxonConcept-includes-example-1</a></li>
+<li><a href="../examples/TaxonConcept-includes-example-1.html">TaxonConcept-includes-example-1</a></li>
 
-<li><a href="/examples/TaxonConceptMapping-includes-example-2.html">TaxonConceptMapping-includes-example-2</a></li>
+<li><a href="../examples/TaxonConceptMapping-includes-example-2.html">TaxonConceptMapping-includes-example-2</a></li>
 
-<li><a href="/examples/TaxonConceptMapping-includes-example-1.html">TaxonConceptMapping-includes-example-1</a></li>
+<li><a href="../examples/TaxonConceptMapping-includes-example-1.html">TaxonConceptMapping-includes-example-1</a></li>
 
 </ul>
 </td>
@@ -751,11 +751,11 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		<tr>
 			<td>Examples</td>
 			<td><ul>
-<li><a href="/examples/TaxonConcept-isIncludedIn-example-1.html">TaxonConcept-isIncludedIn-example-1</a></li>
+<li><a href="../examples/TaxonConcept-isIncludedIn-example-1.html">TaxonConcept-isIncludedIn-example-1</a></li>
 
-<li><a href="/examples/TaxonConceptMapping-isIncludedIn-example-2.html">TaxonConceptMapping-isIncludedIn-example-2</a></li>
+<li><a href="../examples/TaxonConceptMapping-isIncludedIn-example-2.html">TaxonConceptMapping-isIncludedIn-example-2</a></li>
 
-<li><a href="/examples/TaxonConceptMapping-isIncludedIn-example-1.html">TaxonConceptMapping-isIncludedIn-example-1</a></li>
+<li><a href="../examples/TaxonConceptMapping-isIncludedIn-example-1.html">TaxonConceptMapping-isIncludedIn-example-1</a></li>
 
 </ul>
 </td>
@@ -801,11 +801,11 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		<tr>
 			<td>Examples</td>
 			<td><ul>
-<li><a href="/examples/TaxonConcept-partiallyOverlaps-example-1.html">TaxonConcept-partiallyOverlaps-example-1</a></li>
+<li><a href="../examples/TaxonConcept-partiallyOverlaps-example-1.html">TaxonConcept-partiallyOverlaps-example-1</a></li>
 
-<li><a href="/examples/TaxonConceptMapping-partiallyOverlaps-example-2.html">TaxonConceptMapping-partiallyOverlaps-example-2</a></li>
+<li><a href="../examples/TaxonConceptMapping-partiallyOverlaps-example-2.html">TaxonConceptMapping-partiallyOverlaps-example-2</a></li>
 
-<li><a href="/examples/TaxonConceptMapping-partiallyOverlaps-example-1.html">TaxonConceptMapping-partiallyOverlaps-example-1</a></li>
+<li><a href="../examples/TaxonConceptMapping-partiallyOverlaps-example-1.html">TaxonConceptMapping-partiallyOverlaps-example-1</a></li>
 
 </ul>
 </td>
@@ -851,11 +851,11 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		<tr>
 			<td>Examples</td>
 			<td><ul>
-<li><a href="/examples/TaxonConcept-isDisjointFrom-example-1.html">TaxonConcept-isDisjointFrom-example-1</a></li>
+<li><a href="../examples/TaxonConcept-isDisjointFrom-example-1.html">TaxonConcept-isDisjointFrom-example-1</a></li>
 
-<li><a href="/examples/TaxonConceptMapping-isDisjointFrom-example-2.html">TaxonConceptMapping-isDisjointFrom-example-2</a></li>
+<li><a href="../examples/TaxonConceptMapping-isDisjointFrom-example-2.html">TaxonConceptMapping-isDisjointFrom-example-2</a></li>
 
-<li><a href="/examples/TaxonConceptMapping-isDisjointFrom-example-1.html">TaxonConceptMapping-isDisjointFrom-example-1</a></li>
+<li><a href="../examples/TaxonConceptMapping-isDisjointFrom-example-1.html">TaxonConceptMapping-isDisjointFrom-example-1</a></li>
 
 </ul>
 </td>
@@ -900,13 +900,13 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		<tr>
 			<td>Examples</td>
 			<td><ul>
-<li><a href="/examples/TaxonConcept-intersects-example-1.html">TaxonConcept-intersects-example-1</a></li>
+<li><a href="../examples/TaxonConcept-intersects-example-1.html">TaxonConcept-intersects-example-1</a></li>
 
-<li><a href="/examples/TaxonConcept-intersects-example-2.html">TaxonConcept-intersects-example-2</a></li>
+<li><a href="../examples/TaxonConcept-intersects-example-2.html">TaxonConcept-intersects-example-2</a></li>
 
-<li><a href="/examples/TaxonConceptMapping-intersects-example-1.html">TaxonConceptMapping-intersects-example-1</a></li>
+<li><a href="../examples/TaxonConceptMapping-intersects-example-1.html">TaxonConceptMapping-intersects-example-1</a></li>
 
-<li><a href="/examples/TaxonConcept-intersects-example-3.html">TaxonConcept-intersects-example-3</a></li>
+<li><a href="../examples/TaxonConcept-intersects-example-3.html">TaxonConcept-intersects-example-3</a></li>
 
 </ul>
 </td>
@@ -1088,29 +1088,29 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		<tr>
 			<td>Examples</td>
 			<td><ul>
-<li><a href="/examples/TaxonConceptMapping-isCongruentWith-example-1.html">TaxonConceptMapping-isCongruentWith-example-1</a></li>
+<li><a href="../examples/TaxonConceptMapping-isCongruentWith-example-1.html">TaxonConceptMapping-isCongruentWith-example-1</a></li>
 
-<li><a href="/examples/TaxonConceptMapping-isCongruentWith-example-2.html">TaxonConceptMapping-isCongruentWith-example-2</a></li>
+<li><a href="../examples/TaxonConceptMapping-isCongruentWith-example-2.html">TaxonConceptMapping-isCongruentWith-example-2</a></li>
 
-<li><a href="/examples/TaxonConceptMapping-includes-example-1.html">TaxonConceptMapping-includes-example-1</a></li>
+<li><a href="../examples/TaxonConceptMapping-includes-example-1.html">TaxonConceptMapping-includes-example-1</a></li>
 
-<li><a href="/examples/TaxonConceptMapping-includes-example-2.html">TaxonConceptMapping-includes-example-2</a></li>
+<li><a href="../examples/TaxonConceptMapping-includes-example-2.html">TaxonConceptMapping-includes-example-2</a></li>
 
-<li><a href="/examples/TaxonConceptMapping-isIncludedIn-example-1.html">TaxonConceptMapping-isIncludedIn-example-1</a></li>
+<li><a href="../examples/TaxonConceptMapping-isIncludedIn-example-1.html">TaxonConceptMapping-isIncludedIn-example-1</a></li>
 
-<li><a href="/examples/TaxonConceptMapping-isIncludedIn-example-2.html">TaxonConceptMapping-isIncludedIn-example-2</a></li>
+<li><a href="../examples/TaxonConceptMapping-isIncludedIn-example-2.html">TaxonConceptMapping-isIncludedIn-example-2</a></li>
 
-<li><a href="/examples/TaxonConceptMapping-partiallyOverlaps-example-1.html">TaxonConceptMapping-partiallyOverlaps-example-1</a></li>
+<li><a href="../examples/TaxonConceptMapping-partiallyOverlaps-example-1.html">TaxonConceptMapping-partiallyOverlaps-example-1</a></li>
 
-<li><a href="/examples/TaxonConceptMapping-partiallyOverlaps-example-2.html">TaxonConceptMapping-partiallyOverlaps-example-2</a></li>
+<li><a href="../examples/TaxonConceptMapping-partiallyOverlaps-example-2.html">TaxonConceptMapping-partiallyOverlaps-example-2</a></li>
 
-<li><a href="/examples/TaxonConceptMapping-isDisjointFrom-example-1.html">TaxonConceptMapping-isDisjointFrom-example-1</a></li>
+<li><a href="../examples/TaxonConceptMapping-isDisjointFrom-example-1.html">TaxonConceptMapping-isDisjointFrom-example-1</a></li>
 
-<li><a href="/examples/TaxonConceptMapping-isDisjointFrom-example-2.html">TaxonConceptMapping-isDisjointFrom-example-2</a></li>
+<li><a href="../examples/TaxonConceptMapping-isDisjointFrom-example-2.html">TaxonConceptMapping-isDisjointFrom-example-2</a></li>
 
-<li><a href="/examples/TaxonConceptMapping-intersects-example-1.html">TaxonConceptMapping-intersects-example-1</a></li>
+<li><a href="../examples/TaxonConceptMapping-intersects-example-1.html">TaxonConceptMapping-intersects-example-1</a></li>
 
-<li><a href="/examples/TaxonConceptMapping-intersects-example-2.html">TaxonConceptMapping-intersects-example-2</a></li>
+<li><a href="../examples/TaxonConceptMapping-intersects-example-2.html">TaxonConceptMapping-intersects-example-2</a></li>
 
 </ul>
 </td>
@@ -1293,13 +1293,13 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		<tr>
 			<td>Examples</td>
 			<td><ul>
-<li><a href="/examples/TaxonName-example-1.html">TaxonName-example-1</a></li>
+<li><a href="../examples/TaxonName-example-1.html">TaxonName-example-1</a></li>
 
-<li><a href="/examples/TaxonName-example-2.html">TaxonName-example-2</a></li>
+<li><a href="../examples/TaxonName-example-2.html">TaxonName-example-2</a></li>
 
-<li><a href="/examples/TaxonName-example-3.html">TaxonName-example-3</a></li>
+<li><a href="../examples/TaxonName-example-3.html">TaxonName-example-3</a></li>
 
-<li><a href="/examples/TaxonName-example-4.html">TaxonName-example-4</a></li>
+<li><a href="../examples/TaxonName-example-4.html">TaxonName-example-4</a></li>
 
 </ul>
 </td>
@@ -1525,9 +1525,9 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		<tr>
 			<td>Examples</td>
 			<td><ul>
-<li><a href="/examples/TaxonName-typification-example-1.html">TaxonName-typification-example-1</a></li>
+<li><a href="../examples/TaxonName-typification-example-1.html">TaxonName-typification-example-1</a></li>
 
-<li><a href="/examples/TaxonName-typification-example-2.html">TaxonName-typification-example-2</a></li>
+<li><a href="../examples/TaxonName-typification-example-2.html">TaxonName-typification-example-2</a></li>
 
 </ul>
 </td>
@@ -1609,9 +1609,9 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		<tr>
 			<td>Examples</td>
 			<td><ul>
-<li><a href="/examples/TaxonName-basionym-example-1.html">TaxonName-basionym-example-1</a></li>
+<li><a href="../examples/TaxonName-basionym-example-1.html">TaxonName-basionym-example-1</a></li>
 
-<li><a href="/examples/TaxonName-basionym-example-2.html">TaxonName-basionym-example-2</a></li>
+<li><a href="../examples/TaxonName-basionym-example-2.html">TaxonName-basionym-example-2</a></li>
 
 </ul>
 </td>
@@ -1656,13 +1656,13 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		<tr>
 			<td>Examples</td>
 			<td><ul>
-<li><a href="/examples/TaxonName-replacedName-example-1.html">TaxonName-replacedName-example-1</a></li>
+<li><a href="../examples/TaxonName-replacedName-example-1.html">TaxonName-replacedName-example-1</a></li>
 
-<li><a href="/examples/TaxonName-replacedName-example-2.html">TaxonName-replacedName-example-2</a></li>
+<li><a href="../examples/TaxonName-replacedName-example-2.html">TaxonName-replacedName-example-2</a></li>
 
-<li><a href="/examples/TaxonName-replacedName-example-3.html">TaxonName-replacedName-example-3</a></li>
+<li><a href="../examples/TaxonName-replacedName-example-3.html">TaxonName-replacedName-example-3</a></li>
 
-<li><a href="/examples/TaxonName-replacedName-example-4.html">TaxonName-replacedName-example-4</a></li>
+<li><a href="../examples/TaxonName-replacedName-example-4.html">TaxonName-replacedName-example-4</a></li>
 
 </ul>
 </td>
@@ -1781,7 +1781,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		<tr>
 			<td>Examples</td>
 			<td><ul>
-<li><a href="/examples/TaxonName-conservedAgainst-example-1.html">TaxonName-conservedAgainst-example-1</a></li>
+<li><a href="../examples/TaxonName-conservedAgainst-example-1.html">TaxonName-conservedAgainst-example-1</a></li>
 
 </ul>
 </td>
@@ -1826,7 +1826,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		<tr>
 			<td>Examples</td>
 			<td><ul>
-<li><a href="/examples/TaxonName-combinationAuthor-example-1.html">TaxonName-combinationAuthor-example-1</a></li>
+<li><a href="../examples/TaxonName-combinationAuthor-example-1.html">TaxonName-combinationAuthor-example-1</a></li>
 
 </ul>
 </td>
@@ -1908,7 +1908,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		<tr>
 			<td>Examples</td>
 			<td><ul>
-<li><a href="/examples/TaxonName-basionymAuthor-example-1.html">TaxonName-basionymAuthor-example-1</a></li>
+<li><a href="../examples/TaxonName-basionymAuthor-example-1.html">TaxonName-basionymAuthor-example-1</a></li>
 
 </ul>
 </td>
@@ -1990,7 +1990,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		<tr>
 			<td>Examples</td>
 			<td><ul>
-<li><a href="/examples/TaxonName-combinationAscribedAuthor-example-1.html">TaxonName-combinationAscribedAuthor-example-1</a></li>
+<li><a href="../examples/TaxonName-combinationAscribedAuthor-example-1.html">TaxonName-combinationAscribedAuthor-example-1</a></li>
 
 </ul>
 </td>
@@ -2072,7 +2072,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		<tr>
 			<td>Examples</td>
 			<td><ul>
-<li><a href="/examples/TaxonName-basionymAscribedAuthor-example-1.html">TaxonName-basionymAscribedAuthor-example-1</a></li>
+<li><a href="../examples/TaxonName-basionymAscribedAuthor-example-1.html">TaxonName-basionymAscribedAuthor-example-1</a></li>
 
 </ul>
 </td>
@@ -2416,7 +2416,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		<tr>
 			<td>Examples</td>
 			<td><ul>
-<li><a href="/examples/NomenclaturalType-example-1.html">NomenclaturalType-example-1</a></li>
+<li><a href="../examples/NomenclaturalType-example-1.html">NomenclaturalType-example-1</a></li>
 
 </ul>
 </td>
