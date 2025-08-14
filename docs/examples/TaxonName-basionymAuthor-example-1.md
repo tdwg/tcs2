@@ -1,7 +1,7 @@
 # TaxonName basionymAuthor example 1
 
 
-**Term:** [tcs:basionymAuthor](/terms/#tcs_basionymauthor)
+**Term:** [tcs:basionymAuthor](../terms/#tcs_basionymauthor)
 
 
 ```turtle

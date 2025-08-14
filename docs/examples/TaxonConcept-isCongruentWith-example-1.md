@@ -1,7 +1,7 @@
 # TaxonConcept isCongruentWith example 1
 
 
-**Term:** [tcs:isCongruentWith](/terms/#tcs_iscongruentwith)
+**Term:** [tcs:isCongruentWith](../terms/#tcs_iscongruentwith)
 
 TaxonConcept-isCongruentWith-example-1 | [TaxonConceptMapping-isCongruentWith-example-2](./TaxonConceptMapping-isCongruentWith-example-2.html) | [TaxonConcept-isCongruentWith-example-3](./TaxonConcept-isCongruentWith-example-3.html) | [TaxonConceptMapping-isCongruentWith-example-1](./TaxonConceptMapping-isCongruentWith-example-1.html)
 ```turtle

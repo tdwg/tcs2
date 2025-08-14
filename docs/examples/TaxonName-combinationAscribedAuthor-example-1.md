@@ -1,7 +1,7 @@
 # TaxonName combinationAscribedAuthor example 1
 
 
-**Term:** [tcs:combinationAscribedAuthor](/terms/#tcs_combinationascribedauthor)
+**Term:** [tcs:combinationAscribedAuthor](../terms/#tcs_combinationascribedauthor)
 
 
 ```turtle

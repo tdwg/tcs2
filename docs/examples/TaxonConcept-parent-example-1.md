@@ -1,7 +1,7 @@
 # TaxonConcept parent example 1
 
 
-**Term:** [tcs:parentTaxonConcept](/terms/#tcs_parenttaxonconcept)
+**Term:** [tcs:parentTaxonConcept](../terms/#tcs_parenttaxonconcept)
 
 
 ```turtle

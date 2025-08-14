@@ -1,7 +1,7 @@
 # TaxonConcept example 7
 
 
-**Term:** [tcs:TaxonConcept](/terms/#tcs_taxonconcept)
+**Term:** [tcs:TaxonConcept](../terms/#tcs_taxonconcept)
 
 [TaxonConcept-example-1](./TaxonConcept-example-1.html) | [TaxonConcept-example-2](./TaxonConcept-example-2.html) | [TaxonConcept-example-3](./TaxonConcept-example-3.html) | [TaxonConcept-example-4](./TaxonConcept-example-4.html) | [TaxonConcept-example-5](./TaxonConcept-example-5.html) | [TaxonConcept-example-6](./TaxonConcept-example-6.html) | TaxonConcept-example-7
 ```turtle

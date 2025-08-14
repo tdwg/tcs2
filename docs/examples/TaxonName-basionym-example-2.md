@@ -1,7 +1,7 @@
 # TaxonName basionym example 2
 
 
-**Term:** [tcs:basionym](/terms/#tcs_basionym)
+**Term:** [tcs:basionym](../terms/#tcs_basionym)
 
 [TaxonName-basionym-example-1](./TaxonName-basionym-example-1.html) | TaxonName-basionym-example-2
 ```turtle

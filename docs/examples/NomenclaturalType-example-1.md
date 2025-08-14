@@ -1,7 +1,7 @@
 # NomenclaturalType example 1
 
 
-**Term:** [tcs:NomenclaturalType](/terms/#tcs_nomenclaturaltype)
+**Term:** [tcs:NomenclaturalType](../terms/#tcs_nomenclaturaltype)
 
 
 ```turtle

@@ -1,7 +1,7 @@
 # TaxonName example 1
 
 
-**Term:** [tcs:TaxonName](/terms/#tcs_taxonname)
+**Term:** [tcs:TaxonName](../terms/#tcs_taxonname)
 
 TaxonName-example-1 | [TaxonName-example-2](./TaxonName-example-2.html) | [TaxonName-example-3](./TaxonName-example-3.html) | [TaxonName-example-4](./TaxonName-example-4.html)
 ```turtle

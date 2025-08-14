@@ -1,7 +1,7 @@
 # TaxonConcept intersects example 3
 
 
-**Term:** [tcs:intersects](/terms/#tcs_intersects)
+**Term:** [tcs:intersects](../terms/#tcs_intersects)
 
 [TaxonConcept-intersects-example-1](./TaxonConcept-intersects-example-1.html) | [TaxonConcept-intersects-example-2](./TaxonConcept-intersects-example-2.html) | [TaxonConceptMapping-intersects-example-1](./TaxonConceptMapping-intersects-example-1.html) | TaxonConcept-intersects-example-3
 ```turtle

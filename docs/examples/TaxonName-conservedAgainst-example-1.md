@@ -1,7 +1,7 @@
 # TaxonName conservedAgainst example 1
 
 
-**Term:** [tcs:conservedAgainst](/terms/#tcs_conservedagainst)
+**Term:** [tcs:conservedAgainst](../terms/#tcs_conservedagainst)
 
 
 ```turtle

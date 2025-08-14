@@ -1,7 +1,7 @@
 # TaxonConcept accordingTo example 2
 
 
-**Term:** [tcs:accordingTo](/terms/#tcs_accordingto)
+**Term:** [tcs:accordingTo](../terms/#tcs_accordingto)
 
 [TaxonConcept-accordingTo-example-1](./TaxonConcept-accordingTo-example-1.html) | TaxonConcept-accordingTo-example-2 | [TaxonConcept-accordingTo-example-3](./TaxonConcept-accordingTo-example-3.html)
 ```turtle

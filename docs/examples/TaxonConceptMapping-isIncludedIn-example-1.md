@@ -1,7 +1,7 @@
 # TaxonConceptMapping isIncludedIn example 1
 
 
-**Term:** [tcs:isIncludedIn](/terms/#tcs_isincludedin)
+**Term:** [tcs:isIncludedIn](../terms/#tcs_isincludedin)
 
 [TaxonConcept-isIncludedIn-example-1](./TaxonConcept-isIncludedIn-example-1.html) | [TaxonConceptMapping-isIncludedIn-example-2](./TaxonConceptMapping-isIncludedIn-example-2.html) | TaxonConceptMapping-isIncludedIn-example-1
 ```turtle

@@ -483,7 +483,7 @@ def create_example_pages(config):
                         f.write('# ' + heading + '\n')
                         f.write('\n\n')
                         f.write('**Term:** ')
-                        f.write('[' + alias + ':' + row['localName'] + '](/terms/#' + alias + '_' + row['localName'].lower() + ')')
+                        f.write('[' + alias + ':' + row['localName'] + '](../terms/#' + alias + '_' + row['localName'].lower() + ')')
                         f.write('\n\n')
 
                         if (len(row['examples']) > 1):

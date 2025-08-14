@@ -1,7 +1,7 @@
 # TaxonConcept vernacularName example 1
 
 
-**Term:** [tcs:vernacularName](/terms/#tcs_vernacularname)
+**Term:** [tcs:vernacularName](../terms/#tcs_vernacularname)
 
 TaxonConcept-vernacularName-example-1 | [TaxonConcept-vernacularName-example-2](./TaxonConcept-vernacularName-example-2.html) | [TaxonConcept-vernacularName-example-3](./TaxonConcept-vernacularName-example-3.html)
 ```turtle

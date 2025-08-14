@@ -1,7 +1,7 @@
 # TaxonConcept isDisjointFrom example 1
 
 
-**Term:** [tcs:isDisjointFrom](/terms/#tcs_isdisjointfrom)
+**Term:** [tcs:isDisjointFrom](../terms/#tcs_isdisjointfrom)
 
 TaxonConcept-isDisjointFrom-example-1 | [TaxonConceptMapping-isDisjointFrom-example-2](./TaxonConceptMapping-isDisjointFrom-example-2.html) | [TaxonConceptMapping-isDisjointFrom-example-1](./TaxonConceptMapping-isDisjointFrom-example-1.html)
 ```turtle

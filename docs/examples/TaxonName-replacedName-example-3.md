@@ -1,7 +1,7 @@
 # TaxonName replacedName example 3
 
 
-**Term:** [tcs:replacedName](/terms/#tcs_replacedname)
+**Term:** [tcs:replacedName](../terms/#tcs_replacedname)
 
 [TaxonName-replacedName-example-1](./TaxonName-replacedName-example-1.html) | [TaxonName-replacedName-example-2](./TaxonName-replacedName-example-2.html) | TaxonName-replacedName-example-3 | [TaxonName-replacedName-example-4](./TaxonName-replacedName-example-4.html)
 ```turtle

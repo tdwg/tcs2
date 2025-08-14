@@ -1,7 +1,7 @@
 # TaxonConceptMapping includes example 1
 
 
-**Term:** [tcs:includes](/terms/#tcs_includes)
+**Term:** [tcs:includes](../terms/#tcs_includes)
 
 [TaxonConcept-includes-example-1](./TaxonConcept-includes-example-1.html) | [TaxonConceptMapping-includes-example-2](./TaxonConceptMapping-includes-example-2.html) | TaxonConceptMapping-includes-example-1
 ```turtle

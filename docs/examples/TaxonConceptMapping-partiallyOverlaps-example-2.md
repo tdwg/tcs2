@@ -1,7 +1,7 @@
 # TaxonConceptMapping partiallyOverlaps example 2
 
 
-**Term:** [tcs:partiallyOverlaps](/terms/#tcs_partiallyoverlaps)
+**Term:** [tcs:partiallyOverlaps](../terms/#tcs_partiallyoverlaps)
 
 [TaxonConcept-partiallyOverlaps-example-1](./TaxonConcept-partiallyOverlaps-example-1.html) | TaxonConceptMapping-partiallyOverlaps-example-2 | [TaxonConceptMapping-partiallyOverlaps-example-1](./TaxonConceptMapping-partiallyOverlaps-example-1.html)
 ```turtle

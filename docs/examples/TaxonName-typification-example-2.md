@@ -1,7 +1,7 @@
 # TaxonName typification example 2
 
 
-**Term:** [tcs:typification](/terms/#tcs_typification)
+**Term:** [tcs:typification](../terms/#tcs_typification)
 
 [TaxonName-typification-example-1](./TaxonName-typification-example-1.html) | TaxonName-typification-example-2
 ```turtle

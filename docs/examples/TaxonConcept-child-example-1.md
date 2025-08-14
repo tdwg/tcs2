@@ -1,7 +1,7 @@
 # TaxonConcept child example 1
 
 
-**Term:** [tcs:childTaxonConcept](/terms/#tcs_childtaxonconcept)
+**Term:** [tcs:childTaxonConcept](../terms/#tcs_childtaxonconcept)
 
 
 ```turtle

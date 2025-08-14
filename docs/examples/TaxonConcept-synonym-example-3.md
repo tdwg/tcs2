@@ -1,7 +1,7 @@
 # TaxonConcept synonym example 3
 
 
-**Term:** [tcs:synonym](/terms/#tcs_synonym)
+**Term:** [tcs:synonym](../terms/#tcs_synonym)
 
 [TaxonConcept-synonym-example-1](./TaxonConcept-synonym-example-1.html) | [TaxonConcept-synonym-example-2](./TaxonConcept-synonym-example-2.html) | TaxonConcept-synonym-example-3
 ```turtle
