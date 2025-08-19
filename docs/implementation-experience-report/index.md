@@ -69,9 +69,13 @@ Nomenclatural Type can be used as the object for the `dwciri:typeStatus`
 property.
 
 In order to convert existing Darwin Core Taxon Core data sets to TCS data sets,
-a `taxonConceptID` can be created by coalescing the `acceptedNameUsageID`—or the
-`taxonID` of the `acceptedNameUsage`—and `taxonID`. If the data set, or record,
-lacks a `nameAccordingTo`, the `nameAccordingTo` is the data set itself.
+a `taxonConceptID` can be obtained by taking the `taxonID` if the name is
+accepted or the `acceptedNameUsageID` if the name is a synonym. If there is no
+`acceptedNameUsageID`, but `acceptedNameUsage` is used instead, the
+`taxonConceptID` is the `taxonID` of the record of which the `scientificName` is
+the same as the `acceptedNameUsage` of the record for which the `taxonConceptID`
+is created. If the data set, or record, lacks a `nameAccordingTo`, the
+`nameAccordingTo` is the data set itself.
 
 While for sharing purely taxonomic data TCS is the preferred format, at the
 interface of taxonomic data and occurrence data, _e.g._, identifications, Darwin
