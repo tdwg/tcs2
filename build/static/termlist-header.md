@@ -112,10 +112,15 @@ resource relationship between a `tcs:TaxonName` and either another
 `typeOfType` and either the `typeSpecimen` or `typeName` properties are
 required.
 
-In contrast to Darwin Core, TCS does not define 'ID' and 'Remarks' properties on 
-its classes. In accordance with the Darwin Core RDF Guide
-(Darwin Core and RDF/OWL Task Groups 2015 [\[darwin_core_and_rdfowl_task_groups_darwin_2015\]](../bibliography/#darwin_core_and_rdfowl_task_groups_darwin_2015)), instances of TCS
-classes SHOULD have a `rdf:id` and MAY have a `rdfs:comment`.
+In contrast to Darwin Core, TCS does not define 'ID' and 'Remarks' properties on
+its classes. In accordance with the Darwin Core RDF Guide (Darwin Core and
+RDF/OWL Task Groups 2015
+[\[darwin_core_and_rdfowl_task_groups_darwin_2015\]](../bibliography/#darwin_core_and_rdfowl_task_groups_darwin_2015)),
+instances of TCS classes SHOULD have a `rdf:id` and MAY have a `rdfs:comment`.
+Also, other terms from general-purpose standards like RDFS and Dublin Core MAY
+be used—and have been freely used in the examples—when they add value to the
+data. These terms have not been borrowed by TCS, as they have no special meaning
+in TCS and are used with TCS the same way as everywhere else.
 
 Information on **synonymy** can be shared using the `synonym` property of the
 TaxonConcept and the `basionym` and `replacedName` properties of the TaxonName.
