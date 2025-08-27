@@ -120,8 +120,8 @@
   notes: >-
     This term may be used for taxonomic rank designations that are not in the
     controlled vocabulary that is used. Implementations can decide for
-    themselves if it makes more sense to use this term on a TaxonConcept object
-    or a TaxonName object, or both.
+    themselves if it makes more sense to use this term on a Taxon Concept object
+    or a Taxon Name object, or both.
   examples: null
   type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonConcept
