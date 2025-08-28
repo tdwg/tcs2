@@ -806,7 +806,7 @@
     considered part of the name.
   type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonName
-  required: No
+  required: Yes
   repeatable: No
   github: 16
   mappings: 

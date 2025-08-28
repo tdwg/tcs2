@@ -329,7 +329,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>required:</b> Yes — <b>repeatable:</b> No</td>
+			<td><b>Required:</b> Yes — <b>Repeatable:</b> No</td>
 		</tr>
 		<tr>
 			<td>Comments</td>
@@ -379,7 +379,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>required:</b> Yes — <b>repeatable:</b> No</td>
+			<td><b>Required:</b> Yes — <b>Repeatable:</b> No</td>
 		</tr>
 		<tr>
 			<td>Comments</td>
@@ -417,7 +417,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>required:</b> No — <b>repeatable:</b> Yes</td>
+			<td><b>Required:</b> No — <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Comments</td>
@@ -467,7 +467,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>required:</b> No — <b>repeatable:</b> Yes</td>
+			<td><b>Required:</b> No — <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Comments</td>
@@ -516,7 +516,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>required:</b> No — <b>repeatable:</b> No</td>
+			<td><b>Required:</b> No — <b>Repeatable:</b> No</td>
 		</tr>
 		<tr>
 			<td>Comments</td>
@@ -554,7 +554,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>required:</b> No — <b>repeatable:</b> No</td>
+			<td><b>Required:</b> No — <b>Repeatable:</b> No</td>
 		</tr>
 		<tr>
 			<td>Comments</td>
@@ -599,7 +599,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>required:</b> No — <b>repeatable:</b> Yes</td>
+			<td><b>Required:</b> No — <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Comments</td>
@@ -644,7 +644,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>required:</b> No — <b>repeatable:</b> Yes</td>
+			<td><b>Required:</b> No — <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Comments</td>
@@ -696,7 +696,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>required:</b> No — <b>repeatable:</b> Yes</td>
+			<td><b>Required:</b> No — <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Comments</td>
@@ -746,7 +746,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>required:</b> No — <b>repeatable:</b> Yes</td>
+			<td><b>Required:</b> No — <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Comments</td>
@@ -796,7 +796,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>required:</b> No — <b>repeatable:</b> Yes</td>
+			<td><b>Required:</b> No — <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Comments</td>
@@ -846,7 +846,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>required:</b> No — <b>repeatable:</b> Yes</td>
+			<td><b>Required:</b> No — <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Comments</td>
@@ -896,7 +896,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>required:</b> No — <b>repeatable:</b> Yes</td>
+			<td><b>Required:</b> No — <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Comments</td>
@@ -943,7 +943,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>required:</b> No — <b>repeatable:</b> No</td>
+			<td><b>Required:</b> No — <b>Repeatable:</b> No</td>
 		</tr>
 		<tr>
 			<td>Comments</td>
@@ -976,7 +976,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>required:</b> No — <b>repeatable:</b> No</td>
+			<td><b>Required:</b> No — <b>Repeatable:</b> No</td>
 		</tr>
 	</tbody>
 </table>
@@ -1005,7 +1005,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>required:</b> No — <b>repeatable:</b> No</td>
+			<td><b>Required:</b> No — <b>Repeatable:</b> No</td>
 		</tr>
 		<tr>
 			<td>Comments</td>
@@ -1038,7 +1038,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>required:</b> No — <b>repeatable:</b> No</td>
+			<td><b>Required:</b> No — <b>Repeatable:</b> No</td>
 		</tr>
 		<tr>
 			<td>Comments</td>
@@ -1151,7 +1151,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>required:</b> No — <b>repeatable:</b> No</td>
+			<td><b>Required:</b> No — <b>Repeatable:</b> No</td>
 		</tr>
 	</tbody>
 </table>
@@ -1184,7 +1184,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>required:</b> Yes — <b>repeatable:</b> No</td>
+			<td><b>Required:</b> Yes — <b>Repeatable:</b> No</td>
 		</tr>
 	</tbody>
 </table>
@@ -1217,7 +1217,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>required:</b> Yes — <b>repeatable:</b> No</td>
+			<td><b>Required:</b> Yes — <b>Repeatable:</b> No</td>
 		</tr>
 		<tr>
 			<td>Comments</td>
@@ -1254,7 +1254,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>required:</b> Yes — <b>repeatable:</b> No</td>
+			<td><b>Required:</b> Yes — <b>Repeatable:</b> No</td>
 		</tr>
 		<tr>
 			<td>Comments</td>
@@ -1340,7 +1340,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>required:</b> No — <b>repeatable:</b> No</td>
+			<td><b>Required:</b> Yes — <b>Repeatable:</b> No</td>
 		</tr>
 		<tr>
 			<td>Comments</td>
@@ -1373,7 +1373,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>required:</b> No — <b>repeatable:</b> No</td>
+			<td><b>Required:</b> No — <b>Repeatable:</b> No</td>
 		</tr>
 		<tr>
 			<td>Comments</td>
@@ -1410,7 +1410,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>required:</b> No — <b>repeatable:</b> No</td>
+			<td><b>Required:</b> No — <b>Repeatable:</b> No</td>
 		</tr>
 		<tr>
 			<td>Comments</td>
@@ -1447,7 +1447,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>required:</b> No — <b>repeatable:</b> No</td>
+			<td><b>Required:</b> No — <b>Repeatable:</b> No</td>
 		</tr>
 		<tr>
 			<td>Comments</td>
@@ -1484,7 +1484,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>required:</b> No — <b>repeatable:</b> No</td>
+			<td><b>Required:</b> No — <b>Repeatable:</b> No</td>
 		</tr>
 		<tr>
 			<td>Comments</td>
@@ -1521,7 +1521,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>required:</b> No — <b>repeatable:</b> Yes</td>
+			<td><b>Required:</b> No — <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Comments</td>
@@ -1568,7 +1568,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>required:</b> No — <b>repeatable:</b> No</td>
+			<td><b>Required:</b> No — <b>Repeatable:</b> No</td>
 		</tr>
 		<tr>
 			<td>Comments</td>
@@ -1605,7 +1605,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>required:</b> No — <b>repeatable:</b> No</td>
+			<td><b>Required:</b> No — <b>Repeatable:</b> No</td>
 		</tr>
 		<tr>
 			<td>Comments</td>
@@ -1652,7 +1652,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>required:</b> No — <b>repeatable:</b> No</td>
+			<td><b>Required:</b> No — <b>Repeatable:</b> No</td>
 		</tr>
 		<tr>
 			<td>Comments</td>
@@ -1703,7 +1703,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>required:</b> No — <b>repeatable:</b> No</td>
+			<td><b>Required:</b> No — <b>Repeatable:</b> No</td>
 		</tr>
 		<tr>
 			<td>Comments</td>
@@ -1740,7 +1740,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>required:</b> No — <b>repeatable:</b> No</td>
+			<td><b>Required:</b> No — <b>Repeatable:</b> No</td>
 		</tr>
 		<tr>
 			<td>Comments</td>
@@ -1777,7 +1777,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>required:</b> No — <b>repeatable:</b> Yes</td>
+			<td><b>Required:</b> No — <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Comments</td>
@@ -1822,7 +1822,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>required:</b> No — <b>repeatable:</b> Yes</td>
+			<td><b>Required:</b> No — <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Comments</td>
@@ -1867,7 +1867,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>required:</b> No — <b>repeatable:</b> No</td>
+			<td><b>Required:</b> No — <b>Repeatable:</b> No</td>
 		</tr>
 		<tr>
 			<td>Comments</td>
@@ -1904,7 +1904,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>required:</b> No — <b>repeatable:</b> Yes</td>
+			<td><b>Required:</b> No — <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Comments</td>
@@ -1949,7 +1949,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>required:</b> No — <b>repeatable:</b> No</td>
+			<td><b>Required:</b> No — <b>Repeatable:</b> No</td>
 		</tr>
 		<tr>
 			<td>Comments</td>
@@ -1986,7 +1986,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>required:</b> No — <b>repeatable:</b> Yes</td>
+			<td><b>Required:</b> No — <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Comments</td>
@@ -2031,7 +2031,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>required:</b> No — <b>repeatable:</b> No</td>
+			<td><b>Required:</b> No — <b>Repeatable:</b> No</td>
 		</tr>
 		<tr>
 			<td>Comments</td>
@@ -2068,7 +2068,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>required:</b> No — <b>repeatable:</b> Yes</td>
+			<td><b>Required:</b> No — <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Comments</td>
@@ -2113,7 +2113,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>required:</b> No — <b>repeatable:</b> No</td>
+			<td><b>Required:</b> No — <b>Repeatable:</b> No</td>
 		</tr>
 		<tr>
 			<td>Comments</td>
@@ -2150,7 +2150,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>required:</b> No — <b>repeatable:</b> No</td>
+			<td><b>Required:</b> No — <b>Repeatable:</b> No</td>
 		</tr>
 	</tbody>
 </table>
@@ -2179,7 +2179,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>required:</b> No — <b>repeatable:</b> No</td>
+			<td><b>Required:</b> No — <b>Repeatable:</b> No</td>
 		</tr>
 		<tr>
 			<td>Comments</td>
@@ -2216,7 +2216,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>required:</b> No — <b>repeatable:</b> No</td>
+			<td><b>Required:</b> No — <b>Repeatable:</b> No</td>
 		</tr>
 	</tbody>
 </table>
@@ -2249,7 +2249,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>required:</b> No — <b>repeatable:</b> No</td>
+			<td><b>Required:</b> No — <b>Repeatable:</b> No</td>
 		</tr>
 	</tbody>
 </table>
@@ -2282,7 +2282,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>required:</b> No — <b>repeatable:</b> No</td>
+			<td><b>Required:</b> No — <b>Repeatable:</b> No</td>
 		</tr>
 	</tbody>
 </table>
@@ -2315,7 +2315,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>required:</b> No — <b>repeatable:</b> No</td>
+			<td><b>Required:</b> No — <b>Repeatable:</b> No</td>
 		</tr>
 	</tbody>
 </table>
@@ -2348,7 +2348,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>required:</b> No — <b>repeatable:</b> No</td>
+			<td><b>Required:</b> No — <b>Repeatable:</b> No</td>
 		</tr>
 	</tbody>
 </table>
@@ -2381,7 +2381,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>required:</b> No — <b>repeatable:</b> No</td>
+			<td><b>Required:</b> No — <b>Repeatable:</b> No</td>
 		</tr>
 	</tbody>
 </table>
@@ -2457,7 +2457,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>required:</b> Yes — <b>repeatable:</b> No</td>
+			<td><b>Required:</b> Yes — <b>Repeatable:</b> No</td>
 		</tr>
 		<tr>
 			<td>Comments</td>
@@ -2494,7 +2494,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>required:</b> Yes — <b>repeatable:</b> No</td>
+			<td><b>Required:</b> Yes — <b>Repeatable:</b> No</td>
 		</tr>
 		<tr>
 			<td>Comments</td>
@@ -2531,7 +2531,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>required:</b> No — <b>repeatable:</b> No</td>
+			<td><b>Required:</b> No — <b>Repeatable:</b> No</td>
 		</tr>
 		<tr>
 			<td>Comments</td>
@@ -2568,7 +2568,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>required:</b> No — <b>repeatable:</b> No</td>
+			<td><b>Required:</b> No — <b>Repeatable:</b> No</td>
 		</tr>
 		<tr>
 			<td>Comments</td>
@@ -2605,7 +2605,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>required:</b> No — <b>repeatable:</b> No</td>
+			<td><b>Required:</b> No — <b>Repeatable:</b> No</td>
 		</tr>
 		<tr>
 			<td>Comments</td>
