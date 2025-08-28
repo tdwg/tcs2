@@ -11,8 +11,8 @@ taxonomic and nomenclatural data. Formerly an XML Schema, and called <i>Taxon
 Concept Schema</i>, TCS is now a vocabulary standard with terms that can be used
 in many formats, including CSV, JSON and RDF, and for individual objects as well
 as entire data sets. TCS can be used alongside or instead of the Darwin Core
-Taxon class. It defines <b>TaxonConcept</b>, <b>TaxonName</b>,
-<b>TaxonConceptMapping</b> and <b>NomenclaturalType</b> classes, which provide a
+Taxon class. It defines <b>Taxon Concept</b>, <b>Taxon Name</b>, <b>Taxon
+Concept Mapping</b> and <b>Nomenclatural Type</b> classes, which provide a
 semantic framework for, and allow more accurate transfer of, taxonomic and
 nomenclatural data.
 
