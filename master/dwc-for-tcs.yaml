@@ -7,14 +7,14 @@
   label: Scientific Name 
   definition: >-
     The full scientific name, with authorship and date information if known. 
-    When forming part of an Identification, this should be the name in lowest 
-    level taxonomic rank that can be determined. This term should not contain 
-    identification qualifications, which should instead be supplied in the 
-    IdentificationQualifier term.
+    When forming part of an Identification, this SHOULD be the name in lowest 
+    level taxonomic rank that can be determined. This term SHOULD not contain 
+    identification qualifications, which SHOULD instead be supplied in the 
+    `identificationQualifier` term.
   usage: null
   notes: >-
     `scientificName` can be used in addition to the `taxonName` property on a
-    TaxonConcept object or the `nameString` property on a TaxonName object.
+    Taxon Concept object or the `nameString` property on a Taxon Name object.
   examples: null
   type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonConcept
@@ -68,14 +68,14 @@
 - localName: namePublishedIn
   label: Name Published In
   definition: >-
-    A reference for the publication in which the dwc:scientificName was 
+    A reference for the publication in which the `dwc:scientificName` was 
     originally established under the rules of the associated 
-    dwc:nomenclaturalCode.
+    `dwc:nomenclaturalCode`.
   usage: null
   notes: >-
-    This is the string equivalent of the TCS `namePublishedIn`. It can be used
-    if one wants to give the protologue as a string, as in many botanical
-    publications.
+    This is the string literal equivalent of the TCS `namePublishedIn`. It can
+    be used if one wants to give the protologue as a string, as in many
+    botanical publications.
   examples: null
   type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonName
@@ -112,10 +112,10 @@
 
 # verbatimTaxonRank
 - localName: verbatimTaxonRank
-  label: Verbatim taxon rank
+  label: Verbatim Taxon Rank
   definition: >-
-    The taxonomic rank of the most specific name in the dwc:scientificName as it
-    appears in the original record.
+    The taxonomic rank of the most specific name in the `dwc:scientificName` as
+    it appears in the original record.
   usage: null
   notes: >-
     This term may be used for taxonomic rank designations that are not in the
@@ -140,7 +140,7 @@
   label: Generic Name
   definition: The genus part of the `scientificName` without authorship.
   usage: >-
-    This property should only be used for names below the rank of genus.
+    This property SHOULD only be used for names below the rank of genus.
   notes: null
   examples: null
   type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
@@ -163,9 +163,9 @@
   usage: >-
     Names at ranks between species and genus, e.g. subgenera and sections, are 
     composed of two parts; the genus and the infrageneric epithet. This property 
-    should therefore always be accompanied by the `genericName` property. If the 
+    SHOULD therefore always be accompanied by the `genericName` property. If the 
     `infragenericEpithet` property is present, the `specificEpithet` and 
-    `infraspecificEpithet` properties should not be present. 
+    `infraspecificEpithet` properties SHOULD not be present. 
   notes: null
   examples: null
   type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
@@ -184,11 +184,11 @@
   label: Specific Epithet
   definition: The name of the first or species epithet of the scientificName.
   usage: >-
-    Names at ranks of species and below are composed of two or three words; the 
-    genus name, the specific epithet and possibly an infraspecific epithet. 
-    This property should therefore always be accompanied by the `genus` property. 
-    If the `specificEpithet` property is present the `infragenericEpithet` 
-    property should not be present.
+    Names at ranks of species and below are composed of two or three parts: the
+    generic name, the specific epithet and possibly an infraspecific epithet.
+    This property SHOULD therefore always be accompanied by the `genus`
+    property. If the `specificEpithet` property is present the
+    `infragenericEpithet` property SHOULD not be present.
   notes: null
   examples: null
   type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
@@ -209,11 +209,11 @@
     The name of the lowest or terminal infraspecific epithet of the 
     `scientificName`, excluding any rank designation.
   usage: >-
-    Names at ranks below species are composed of three words; the genus name, 
-    the specific epithet and an infraspecific epithet. This property should 
+    Names at ranks below species are composed of three parts; the genus name, 
+    the specific epithet and an infraspecific epithet. This property SHOULD 
     therefore always be accompanied by the `genus` and `specificEpithet` 
     properties. If the `infraspecificEpithet` property is present the 
-    `infragenericEpithet` property should not be present.
+    `infragenericEpithet` property SHOULD not be present.
   notes: null
   examples: null
   type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property

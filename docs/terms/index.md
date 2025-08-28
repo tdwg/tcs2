@@ -334,7 +334,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		<tr>
 			<td>Comments</td>
 			<td><p>Every Taxon Concept is in some sort of treatment and this treatment  provides important context without which we do not know what a taxon name  really means and therefore the <code>accordingTo</code> property is REQUIRED for a TCS  Taxon Concept. In TCS 2, <code>accordingTo</code> has to be a reference to some sort  of resource rather than just a person's name. However, TCS is lenient about  the nature of this resource and, apart from references to bibliographic  resources, references to personal communications and determinations are  also acceptable, if there is value in supplying taxon concepts from such  communications as Taxon Concepts.</p>
-<p>The value of <code>accordingTo</code> has to be an object or IRI. This object can  contain as little as a bibliographic reference but it is much more useful  to provide it in a format that can be understood by reference managers  such as Zotero or Mendeley.</p></td>
+<p>The value of <code>accordingTo</code> has to be an object or IRI. This object can contain as little as a bibliographic reference but it is more useful to provide it in a format that can be understood by reference managers such as Zotero or Mendeley.</p></td>
 		</tr>
 		<tr>
 			<td>Examples</td>
@@ -367,7 +367,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td>Taxon name</td>
+			<td>Taxon Name</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -375,7 +375,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		</tr>
 		<tr>
 			<td>Usage</td>
-			<td><p><code>taxonName</code> is an IRI term and is REQUIRED on a TCS TaxonConcept. A TaxonConcept MUST NOT have more than one <code>taxonName</code>.</p></td>
+			<td><p><code>taxonName</code> is an IRI term and is REQUIRED on a TCS Taxon Concept. A Taxon Concept MUST NOT have more than one <code>taxonName</code>.</p></td>
 		</tr>
 		<tr>
 			<td></td>
@@ -384,7 +384,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		<tr>
 			<td>Comments</td>
 			<td><p>The <code>taxonName</code> can be anything from a well-formed scientific name to an  informal name, vernacular name, indigenous knowledge label, or even a label  containing numbers and/or special symbols, such as are often used for OTUs. </p>
-<p>The object of <code>taxonName</code> is an object or IRI, so that it can be reused in  other Taxon Concepts. TCS has got the Taxon Name class, which can be used  for any type of name, but people are free to use alternatives, e.g.  <code>skosxl:Label</code>, if they want to restrict the use of the Taxon Name class to  scientific (or scientific-y) names only.</p></td>
+<p>The object of <code>taxonName</code> is an object or IRI, so that it can be reused in  other Taxon Concepts. TCS has got the Taxon Name class, which can be used  for any type of name, but people are free to use alternatives, e.g.  <code>skosxl:Label</code>, if they want to restrict the use of the Taxon Name class to  scientific names only.</p></td>
 		</tr>
 	</tbody>
 </table>
@@ -422,7 +422,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		<tr>
 			<td>Comments</td>
 			<td><p>A synonym is an alternative label for a taxon, so <code>synonym</code>, like <code>taxonName</code>, is a relation between a <code>TaxonConcept</code> and a <code>TaxonName</code>, not a relationship between different taxonomic entities.</p>
-<p>The terms 'heterotypic synonym' and 'homotypic synonym' from the nomenclatural codes ('subjective synonym' and 'objective synonym', respectively, in the Zoological Code) are, in the context of Taxon Concepts and Taxon Names, best understood as synonyms (relations between Taxon Concepts and Taxon Names) and combinations (relations between Taxon Names), respectively. In TCS, combinations are dealt with using properties of the <code>TaxonName</code> class, <em>e.g.</em> <code>basionym</code> and <code>replacedName</code> (note that 'combination' is used here in a broader sense than what the term actually means). This has the advantage that people do not need to separate heterotypic and homotypic synonyms, or generally deal with nomenclature, which adds a degree of complexity that not all systems need or want. Avoiding terms that are too strictly defined in the nomenclatural codes also has the advantage that the term can, in principle, be applied to things that cannot be heterotypic or homotypic synonyms, e.g., to names that are not validly published under the relevant code, and avoids inappropriate use of the terms defined in the nomenclatural codes.</p></td>
+<p>The terms 'heterotypic synonym' and 'homotypic synonym' from the nomenclatural codes ('subjective synonym' and 'objective synonym', respectively, in the Zoological Code) are, in the context of Taxon Concepts and Taxon Names, best understood as synonyms (relations between Taxon Concepts and Taxon Names) and combinations (relations between Taxon Names), respectively. In TCS, combinations are dealt with using properties of the <code>TaxonName</code> class, <em>e.g.</em>, <code>basionym</code> and <code>replacedName</code> (note that 'combination' is used here in a broader sense than what the term actually means). This has the advantage that people do not need to separate heterotypic and homotypic synonyms, or generally deal with nomenclature, which adds a degree of complexity that not all systems need or want. Avoiding terms that are strictly defined in the nomenclatural codes also has the advantage that the term can, in principle, be applied to things that cannot be heterotypic or homotypic synonyms, e.g., to names that are not validly published under the relevant code, and avoids inappropriate use of the terms defined in the nomenclatural codes.</p></td>
 		</tr>
 		<tr>
 			<td>Examples</td>
@@ -504,7 +504,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td>Taxonomic Rank</td>
+			<td>Taxon Rank</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -512,7 +512,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		</tr>
 		<tr>
 			<td>Usage</td>
-			<td><p><code>taxonRank</code> is an IRI property; a TaxonConcept or TaxonName MUST NOT have more than one <code>taxonRank</code>.</p></td>
+			<td><p><code>taxonRank</code> is an IRI property; a Taxon Concept or Taxon Name MUST NOT have more than one <code>taxonRank</code>.</p></td>
 		</tr>
 		<tr>
 			<td></td>
@@ -542,7 +542,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td>Parent</td>
+			<td>Parent Taxon Concept</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -550,7 +550,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		</tr>
 		<tr>
 			<td>Usage</td>
-			<td><p><code>parentTaxonConcept</code> is another TaxonConcept; a TaxonConcept can have only one <code>parentTaxonConcept</code>.</p></td>
+			<td><p><code>parentTaxonConcept</code> is another Taxon Concept; a Taxon Concept can have only one <code>parentTaxonConcept</code>.</p></td>
 		</tr>
 		<tr>
 			<td></td>
@@ -558,7 +558,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		</tr>
 		<tr>
 			<td>Comments</td>
-			<td><p>This is the parent as indicated in  the <code>accordingTo</code> reference, rather than a third-party classification. The  <code>accordingTo</code> of the parent will generally, but not necessarily, be the  same as that of the child. </p></td>
+			<td><p>This is the parent as indicated in the <code>accordingTo</code> reference, rather than a third-party classification. The <code>accordingTo</code> of the parent will generally, but not necessarily, be the same as that of the child. </p></td>
 		</tr>
 		<tr>
 			<td>Examples</td>
@@ -587,7 +587,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td>Child</td>
+			<td>Child Taxon Concept</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -595,7 +595,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		</tr>
 		<tr>
 			<td>Usage</td>
-			<td><p><code>childTaxonConcept</code> is another TaxonConcept; a TaxonConcept can have more than one <code>childTaxonConcept</code>.</p></td>
+			<td><p><code>childTaxonConcept</code> is another Taxon Concept; a Taxon Concept can have more than one <code>childTaxonConcept</code>.</p></td>
 		</tr>
 		<tr>
 			<td></td>
@@ -734,7 +734,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td>is included in</td>
+			<td>Is Included In</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -784,7 +784,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td>partially overlaps</td>
+			<td>Partially Overlaps</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -834,7 +834,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td>is disjoint from</td>
+			<td>Is Disjoint From</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -939,7 +939,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td><p>The full scientific name, with authorship and date information if known.  When forming part of an Identification, this should be the name in lowest  level taxonomic rank that can be determined. This term should not contain  identification qualifications, which should instead be supplied in the  IdentificationQualifier term.</p></td>
+			<td><p>The full scientific name, with authorship and date information if known.  When forming part of an Identification, this SHOULD be the name in lowest  level taxonomic rank that can be determined. This term SHOULD not contain  identification qualifications, which SHOULD instead be supplied in the  <code>identificationQualifier</code> term.</p></td>
 		</tr>
 		<tr>
 			<td></td>
@@ -947,7 +947,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		</tr>
 		<tr>
 			<td>Comments</td>
-			<td><p><code>scientificName</code> can be used in addition to the <code>taxonName</code> property on a TaxonConcept object or the <code>nameString</code> property on a TaxonName object.</p></td>
+			<td><p><code>scientificName</code> can be used in addition to the <code>taxonName</code> property on a Taxon Concept object or the <code>nameString</code> property on a Taxon Name object.</p></td>
 		</tr>
 	</tbody>
 </table>
@@ -997,11 +997,11 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td>Verbatim taxon rank</td>
+			<td>Verbatim Taxon Rank</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td><p>The taxonomic rank of the most specific name in the dwc:scientificName as it appears in the original record.</p></td>
+			<td><p>The taxonomic rank of the most specific name in the <code>dwc:scientificName</code> as it appears in the original record.</p></td>
 		</tr>
 		<tr>
 			<td></td>
@@ -1030,7 +1030,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td>Taxon concept label</td>
+			<td>Taxon Concept Label</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -1076,7 +1076,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td>Taxon concept mapping</td>
+			<td>Taxon Concept Mapping</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -1139,7 +1139,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td>Mapping according to</td>
+			<td>Mapping According To</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -1172,7 +1172,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td>Mapping relation</td>
+			<td>Mapping Relation</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -1328,7 +1328,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td>Taxon Name String</td>
+			<td>Name String</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -1517,7 +1517,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		</tr>
 		<tr>
 			<td>Usage</td>
-			<td><p>The <code>typification</code> property takes a <code>tcs:NomenclaturalType</code> or array of <code>tcs:NomenclaturalType</code>s.</p></td>
+			<td><p>The <code>typification</code> property takes a TCS Nomenclatural Type or list of Nomenclatural Types.</p></td>
 		</tr>
 		<tr>
 			<td></td>
@@ -1640,7 +1640,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td>Replaced name</td>
+			<td>Replaced Name</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -1691,7 +1691,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td>Based on</td>
+			<td>Based On</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -1728,7 +1728,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td>Later homonym of</td>
+			<td>Later Homonym Of</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -1810,7 +1810,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td>Combination author</td>
+			<td>Combination Author</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -1855,7 +1855,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td>Combination author literal</td>
+			<td>Combination Author</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -1892,11 +1892,11 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td>Basionym author</td>
+			<td>Basionym Author</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td><p>Author of the basionym of the name</p></td>
+			<td><p>Author of the basionym of the described name</p></td>
 		</tr>
 		<tr>
 			<td>Usage</td>
@@ -1937,11 +1937,11 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td>Basionym author literal</td>
+			<td>Basionym Author</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td><p>Author of the basionym of the name</p></td>
+			<td><p>Author of the basionym of the described name</p></td>
 		</tr>
 		<tr>
 			<td>Usage</td>
@@ -1974,11 +1974,11 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td>Combination ascribed author</td>
+			<td>Combination Ascribed Author</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td><p>Ascribed author of the present name</p></td>
+			<td><p>Ascribed author of the described name</p></td>
 		</tr>
 		<tr>
 			<td>Usage</td>
@@ -2019,11 +2019,11 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td>Combination ascribed author literal</td>
+			<td>Combination Ascribed Author</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td><p>Ascribed author of the present name</p></td>
+			<td><p>Ascribed author of the described name</p></td>
 		</tr>
 		<tr>
 			<td>Usage</td>
@@ -2056,7 +2056,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td>Basionym author</td>
+			<td>Basionym Ascribed Author</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -2101,7 +2101,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td>Basionym author literal</td>
+			<td>Basionym Ascribed Author</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -2175,7 +2175,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td><p>A reference for the publication in which the dwc:scientificName was  originally established under the rules of the associated  dwc:nomenclaturalCode.</p></td>
+			<td><p>A reference for the publication in which the <code>dwc:scientificName</code> was  originally established under the rules of the associated  <code>dwc:nomenclaturalCode</code>.</p></td>
 		</tr>
 		<tr>
 			<td></td>
@@ -2183,7 +2183,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		</tr>
 		<tr>
 			<td>Comments</td>
-			<td><p>This is the string equivalent of the TCS <code>namePublishedIn</code>. It can be used if one wants to give the protologue as a string, as in many botanical publications.</p></td>
+			<td><p>This is the string literal equivalent of the TCS <code>namePublishedIn</code>. It can be used if one wants to give the protologue as a string, as in many botanical publications.</p></td>
 		</tr>
 	</tbody>
 </table>
@@ -2245,7 +2245,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		</tr>
 		<tr>
 			<td>Usage</td>
-			<td><p>This property should only be used for names below the rank of genus.</p></td>
+			<td><p>This property SHOULD only be used for names below the rank of genus.</p></td>
 		</tr>
 		<tr>
 			<td></td>
@@ -2278,7 +2278,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		</tr>
 		<tr>
 			<td>Usage</td>
-			<td><p>Names at ranks between species and genus, e.g. subgenera and sections, are  composed of two parts; the genus and the infrageneric epithet. This property  should therefore always be accompanied by the <code>genericName</code> property. If the  <code>infragenericEpithet</code> property is present, the <code>specificEpithet</code> and  <code>infraspecificEpithet</code> properties should not be present. </p></td>
+			<td><p>Names at ranks between species and genus, e.g. subgenera and sections, are  composed of two parts; the genus and the infrageneric epithet. This property  SHOULD therefore always be accompanied by the <code>genericName</code> property. If the  <code>infragenericEpithet</code> property is present, the <code>specificEpithet</code> and  <code>infraspecificEpithet</code> properties SHOULD not be present. </p></td>
 		</tr>
 		<tr>
 			<td></td>
@@ -2311,7 +2311,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		</tr>
 		<tr>
 			<td>Usage</td>
-			<td><p>Names at ranks of species and below are composed of two or three words; the  genus name, the specific epithet and possibly an infraspecific epithet.  This property should therefore always be accompanied by the <code>genus</code> property.  If the <code>specificEpithet</code> property is present the <code>infragenericEpithet</code>  property should not be present.</p></td>
+			<td><p>Names at ranks of species and below are composed of two or three parts: the generic name, the specific epithet and possibly an infraspecific epithet. This property SHOULD therefore always be accompanied by the <code>genus</code> property. If the <code>specificEpithet</code> property is present the <code>infragenericEpithet</code> property SHOULD not be present.</p></td>
 		</tr>
 		<tr>
 			<td></td>
@@ -2344,7 +2344,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		</tr>
 		<tr>
 			<td>Usage</td>
-			<td><p>Names at ranks below species are composed of three words; the genus name,  the specific epithet and an infraspecific epithet. This property should  therefore always be accompanied by the <code>genus</code> and <code>specificEpithet</code>  properties. If the <code>infraspecificEpithet</code> property is present the  <code>infragenericEpithet</code> property should not be present.</p></td>
+			<td><p>Names at ranks below species are composed of three parts; the genus name,  the specific epithet and an infraspecific epithet. This property SHOULD  therefore always be accompanied by the <code>genus</code> and <code>specificEpithet</code>  properties. If the <code>infraspecificEpithet</code> property is present the  <code>infragenericEpithet</code> property SHOULD not be present.</p></td>
 		</tr>
 		<tr>
 			<td></td>
@@ -2416,7 +2416,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		</tr>
 		<tr>
 			<td>Comments</td>
-			<td><p>A nomenclatural type fixes the usage of a name to the taxonomic group that  contains the type. One or more Nomenclatural Types make up the typification  of a Taxon Name. In Darwin Core, NomenclaturalType can be used as object  with <code>dwciri:typeStatus</code>.</p></td>
+			<td><p>A nomenclatural type fixes the usage of a name to the taxonomic group that contains the type. One or more Nomenclatural Types make up the typification of a Taxon Name. In Darwin Core, a Nomenclatural Type object can be used as object with <code>dwciri:typeStatus</code>.</p></td>
 		</tr>
 		<tr>
 			<td>Examples</td>
@@ -2482,7 +2482,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td>Type of Type</td>
+			<td>Type Of Type</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -2564,7 +2564,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		</tr>
 		<tr>
 			<td>Usage</td>
-			<td><p><code>typeSpecimen</code> takes an IRI – or object – that refers to a specimen. A  NomenclaturalType MUST NOT have more than one <code>typeSpecimen</code>.</p></td>
+			<td><p><code>typeSpecimen</code> takes an IRI – or object – that refers to a specimen. A  Nomenclatural Type MUST NOT have more than one <code>typeSpecimen</code>.</p></td>
 		</tr>
 		<tr>
 			<td></td>

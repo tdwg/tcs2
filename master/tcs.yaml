@@ -64,16 +64,16 @@
   github: 213
   mappings:
     - predicate: "skos:exactMatch"
-      iri: /DataSet/TaxonConcepts/TaxonConcept
+      iri: /DataSet/TaxonConcepts/Taxon Concept
     - predicate: "skos:exactMatch"
       iri: "tc:TaxonConcept"
     - predicate: "skos:relatedMatch"
       iri: "dwc:Taxon"
       remarks: >-
         The dwc:Taxon is hard to categorise. as it can be implemented in a way
-        that a Taxon is equivalent to a TaxonConcept, but if either
+        that a Taxon is equivalent to a Taxon Concept, but if either
         `taxonomicStatus` or `acceptedNameUsage` terms are used, both `accepted`
-        and `synonym` uses are data artefacts that are not TaxonConcepts.
+        and `synonym` uses are data artefacts that are not Taxon Concepts.
     - predicate: "skos:exactMatch"
       iri: "openbiodiv-o:TaxonomicConcept"
     - predicate: "skos:broadMatch"
@@ -105,10 +105,10 @@
     communications as Taxon Concepts.
 
 
-    The value of `accordingTo` has to be an object or IRI. This object can 
-    contain as little as a bibliographic reference but it is much more useful 
-    to provide it in a format that can be understood by reference managers 
-    such as Zotero or Mendeley.
+    The value of `accordingTo` has to be an object or IRI. This object can
+    contain as little as a bibliographic reference but it is more useful to
+    provide it in a format that can be understood by reference managers such as
+    Zotero or Mendeley.
   examples: 
     - TaxonConcept-accordingTo-example-1
     - TaxonConcept-accordingTo-example-2
@@ -138,17 +138,17 @@
       iri: "skos:inScheme"
       remarks: >-
         Both the subject and object in this relationship have a broader meaning
-        in SKOS, but if the subject is a TaxonConcept, the meaning of the term
+        in SKOS, but if the subject is a Taxon Concept, the meaning of the term
         is the same.
 
 
 # property: taxonName
 - localName: taxonName
-  label: Taxon name
+  label: Taxon Name
   definition: The accepted name for the taxonomic group.
   usage: >-
-    `taxonName` is an IRI term and is REQUIRED on a TCS TaxonConcept. A
-    TaxonConcept MUST NOT have more than one `taxonName`.
+    `taxonName` is an IRI term and is REQUIRED on a TCS Taxon Concept. A
+    Taxon Concept MUST NOT have more than one `taxonName`.
   notes: >-
     The `taxonName` can be anything from a well-formed scientific name to an 
     informal name, vernacular name, indigenous knowledge label, or even a label 
@@ -159,7 +159,7 @@
     other Taxon Concepts. TCS has got the Taxon Name class, which can be used 
     for any type of name, but people are free to use alternatives, e.g. 
     `skosxl:Label`, if they want to restrict the use of the Taxon Name class to 
-    scientific (or scientific-y) names only.
+    scientific names only.
   type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonConcept
   required: Yes
@@ -201,13 +201,13 @@
     and Taxon Names, best understood as synonyms (relations between Taxon
     Concepts and Taxon Names) and combinations (relations between Taxon Names),
     respectively. In TCS, combinations are dealt with using properties of the
-    `TaxonName` class, *e.g.* `basionym` and `replacedName` (note that
+    `TaxonName` class, _e.g._, `basionym` and `replacedName` (note that
     'combination' is used here in a broader sense than what the term actually
     means). This has the advantage that people do not need to separate
     heterotypic and homotypic synonyms, or generally deal with nomenclature,
     which adds a degree of complexity that not all systems need or want.
-    Avoiding terms that are too strictly defined in the nomenclatural codes also
-    has the advantage that the term can, in principle, be applied to things that
+    Avoiding terms that are strictly defined in the nomenclatural codes also has
+    the advantage that the term can, in principle, be applied to things that
     cannot be heterotypic or homotypic synonyms, e.g., to names that are not
     validly published under the relevant code, and avoids inappropriate use of
     the terms defined in the nomenclatural codes.
@@ -225,16 +225,16 @@
       iri: "/DataSet/TaxonConcepts/TaxonConcept/TaxonRelationships/TaxonRelationship[@type='has synonym']" 
       remarks: >-
         The 'has synonym' relationship from TCS 1 has been
-        split into `synonym` for relations between TaxonConcept and TaxonName
-        and `intersects` for relationships between TaxonConcepts. Also note that
-        the object of `has synonym` is a TaxonConcept and the object of
-        `synonym` a TaxonName.
+        split into `synonym` for relations between Taxon Concept and Taxon Name
+        and `intersects` for relationships between Taxon Concepts. Also note that
+        the object of `has synonym` is a Taxon Concept and the object of
+        `synonym` a Taxon Name.
     - predicate: "skos:broadMatch"
       iri: "tc:hasSynonym"
     - predicate: "skos:closeMatch"
       iri: "skosxl:hiddenLabel"
       remarks: >-
-        A synonym is an alternative label that is not used for the TaxonConcept.
+        A synonym is an alternative label that is not used for the Taxon Concept.
 
 # property: vernacularName
 - localName: vernacularName
@@ -266,8 +266,8 @@
     - predicate: "skos:exactMatch"
       iri: /DataSet/TaxonConcepts/TaxonConcept/TaxonRelationships/TaxonRelationship[@type='has vernacular']
       remarks: >-
-        Note that the object of `has vernacular` is a TaxonConcept while the
-        object of `vernacularName` is a TaxonName.
+        Note that the object of `has vernacular` is a Taxon Concept while the
+        object of `vernacularName` is a Taxon Name.
     - predicate: "skos:exactMatch"
       iri: "tc:hasVernacular"
     - predicate: "skos:exactMatch"
@@ -282,10 +282,10 @@
 
 # property: taxonRank
 - localName: taxonRank
-  label: Taxonomic Rank
+  label: Taxon Rank
   definition: The rank at which a taxon is classified.
   usage: >-
-    `taxonRank` is an IRI property; a TaxonConcept or TaxonName MUST NOT have
+    `taxonRank` is an IRI property; a Taxon Concept or Taxon Name MUST NOT have
     more than one `taxonRank`.
   notes: >-
     This term is the IRI equivalent of the Darwin Core `taxonRank`. This
@@ -315,17 +315,16 @@
 
 # property: parentTaxonConcept
 - localName: parentTaxonConcept
-  label: Parent
+  label: Parent Taxon Concept
   definition: >-
     The immediately next higher taxon in a hierarchical classification.
   usage: >-
-    `parentTaxonConcept` is another TaxonConcept; a TaxonConcept can have only
+    `parentTaxonConcept` is another Taxon Concept; a Taxon Concept can have only
     one `parentTaxonConcept`.
   notes: >-
-    This is the parent as indicated in 
-    the `accordingTo` reference, rather than a third-party classification. The 
-    `accordingTo` of the parent will generally, but not necessarily, be the 
-    same as that of the child. 
+    This is the parent as indicated in the `accordingTo` reference, rather than
+    a third-party classification. The `accordingTo` of the parent will
+    generally, but not necessarily, be the same as that of the child. 
   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonConcept
   repeatable: No
   required: No
@@ -347,11 +346,11 @@
 
 # property: child
 - localName: childTaxonConcept
-  label: Child
+  label: Child Taxon Concept
   definition: >-
     A direct subordinate in a hierarchical classification.
   usage: >-
-    `childTaxonConcept` is another TaxonConcept; a TaxonConcept can have more
+    `childTaxonConcept` is another Taxon Concept; a Taxon Concept can have more
     than one `childTaxonConcept`.
   notes: >-
     This is a child as indicated in the `accordingTo` reference, rather than a
@@ -460,7 +459,7 @@
 # controlled term: isIncludedIn
 - localName: isIncludedIn
   type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
-  label: is included in
+  label: Is Included In
   definition: >-
     The subject taxon concept has a less inclusive taxonomic meaning than the 
     object taxon concept
@@ -504,7 +503,7 @@
 # property: partiallyOverlaps
 - localName: partiallyOverlaps
   type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
-  label: partially overlaps
+  label: Partially Overlaps
   definition: >-
     The subject and object taxon concepts have partially overlapping taxonomic 
     meanings, _i.e._ they have some members in common, but each concept in 
@@ -547,7 +546,7 @@
 # property: isDisjointFrom
 - localName: isDisjointFrom
   type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
-  label: is disjoint from
+  label: Is Disjoint From
   definition: >-
     The subject and object taxon concepts have non-overlapping taxonomic 
     meanings, _i.e._ they do not have any members in common
@@ -623,14 +622,14 @@
       iri: /DataSet/TaxonConcepts/TaxonConcept/TaxonRelationships/TaxonRelationship[@type='has synonym']
       remarks: >-
         The TCS 1 `has synonym` relationship has been split into `synonym` for
-        relations between TaxonConcept and TaxonName and `intersects` for
-        relationships between TaxonConcepts.
+        relations between Taxon Concept and Taxon Name and `intersects` for
+        relationships between Taxon Concepts.
     - predicate: "skos:broadMatch"
       iri: "tc:hasSynonym"
 
 # class: TaxonConceptMapping
 - localName: TaxonConceptMapping
-  label: Taxon concept mapping
+  label: Taxon Concept Mapping
   definition: >-
     Alignment or mapping of two Taxon Concepts in different taxonomies or
     different versions of a taxonomy
@@ -667,18 +666,18 @@
       iri: /DataSet/TaxonRelationshipAssertions/TaxonRelationshipAssertion
       remarks: >-
         TCS 1 TaxonRelationshipInsertions could include many more relationship
-        types; the TCS 2 TaxonConceptMapping can only include the set-theory
+        types; the TCS 2 Taxon Concept Mapping can only include the set-theory
         relationship types.
     - predicate: "skos:broadMatch"
       iri: "dwc:ResourceRelationship"
       remarks: >-
-        The TaxonConceptMapping is a special kind of ResourceRelationship.
+        The Taxon Concept Mapping is a special kind of ResourceRelationship.
     - predicate: "skos:broadMatch"
       iri: "rdf:Statement"
 
 # property: mappingAccordingTo
 - localName: mappingAccordingTo
-  label: Mapping according to
+  label: Mapping According To
   definition: >-
     Reference to the source of the taxon concept mapping.
   usage: >-
@@ -698,7 +697,7 @@
 
 # property: mappingRelation
 - localName: mappingRelation
-  label: Mapping relation
+  label: Mapping Relation
   definition: The kind of mapping relation between the two concepts
   usage: >-
     This property is REQUIRED; one MUST use one of the mapping properties
@@ -788,11 +787,11 @@
     - predicate: "skos:broadMatch"
       iri:  "skosxl:Label"
       remarks: >-
-        The TaxonName is a special kind of SKOSXL Label
+        The Taxon Name is a special kind of SKOSXL Label
 
 # property: nameString
 - localName: nameString
-  label: Taxon Name String
+  label: Name String
   definition: >-
     The complete name string without any authority or year components.
   usage: >-
@@ -930,8 +929,8 @@
   definition: >-
     Designation of a nomenclatural type for a name
   usage: >-
-    The `typification` property takes a `tcs:NomenclaturalType` or array of
-    `tcs:NomenclaturalType`s.
+    The `typification` property takes a TCS Nomenclatural Type or list of
+    Nomenclatural Types.
   notes: >-
     `tcs:typification` is the inverse of `tcs:typifiedName`.
   type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
@@ -1002,7 +1001,7 @@
 
 # property: replacedName
 - localName: replacedName
-  label: Replaced name
+  label: Replaced Name
   definition: >-
     The legitimate or illegitimate, previously published name on which a 
     replacement name (nomen novum) is based.
@@ -1040,7 +1039,7 @@
 
 # property: basedOn
 - localName: basedOn
-  label: Based on
+  label: Based On
   definition: >-
     Earlier name on which this name is based
   usage: >-
@@ -1061,7 +1060,7 @@
 
 # property: laterHomonymOf
 - localName: laterHomonymOf
-  label: Later homonym of
+  label: Later Homonym Of
   definition: >-
     An older legitimate name with the same spelling but a different
     nomenclatural type
@@ -1108,7 +1107,7 @@
 
 # property: combinationAuthor
 - localName: combinationAuthor
-  label: Combination author
+  label: Combination Author
   definition: Author of the combination
   usage: >-
     `combinationAuthor` is an IRI property. It can be a person or a list of persons.
@@ -1125,7 +1124,7 @@
 
 # property: combinationAuthorLiteral
 - localName: combinationAuthorLiteral
-  label: Combination author literal
+  label: Combination Author
   definition: Author of the combination
   usage: >-
     `combinationAuthorLiteral` is a Literal property.
@@ -1140,8 +1139,8 @@
 
 # property: basionymAuthor
 - localName: basionymAuthor
-  label: Basionym author
-  definition: Author of the basionym of the name
+  label: Basionym Author
+  definition: Author of the basionym of the described name
   usage: >-
     `basionymAuthor` is an IRI property. It can be a person or a list of
     persons.
@@ -1158,8 +1157,8 @@
 
 # property: basionymAuthorLiteral
 - localName: basionymAuthorLiteral
-  label: Basionym author literal
-  definition: Author of the basionym of the name
+  label: Basionym Author
+  definition: Author of the basionym of the described name
   usage: >-
     `basionymAuthorLiteral` is a Literal property.
   notes: >-
@@ -1173,8 +1172,8 @@
 
 # property: combinationAscribedAuthor
 - localName: combinationAscribedAuthor
-  label: Combination ascribed author
-  definition: Ascribed author of the present name
+  label: Combination Ascribed Author
+  definition: Ascribed author of the described name
   usage: >-
     `combinationAscribedAuthor` is an IRI property. It can be a person or a list
     of persons.
@@ -1199,8 +1198,8 @@
 
 # property: combinationAscribedAuthorLiteral
 - localName: combinationAscribedAuthorLiteral
-  label: Combination ascribed author literal
-  definition: Ascribed author of the present name
+  label: Combination Ascribed Author
+  definition: Ascribed author of the described name
   usage: >-
     `combinationAscribedAuthorLiteral` is a Literal property.
   notes: >-
@@ -1222,7 +1221,7 @@
 
 # property: basionymAscribedAuthor
 - localName: basionymAscribedAuthor
-  label: Basionym author
+  label: Basionym Ascribed Author
   definition: Ascribed author of the basionym of the name
   usage: >-
     `basionymAscribedAuthor` is an IRI property. It can be a person or a list of
@@ -1248,7 +1247,7 @@
 
 # property: basionymAscribedAuthorLiteral
 - localName: basionymAscribedAuthorLiteral
-  label: Basionym author literal
+  label: Basionym Ascribed Author
   definition: Ascribed author of the basionym of the name
   usage: >-
     `basionymAscribedAuthorLiteral` is a Literal property.
@@ -1278,10 +1277,10 @@
     A Nomenclatural Type requires a `typifiedName`, `typeOfType` and either a
     `typeName` or `typeSpecimen`.
   notes: >-
-    A nomenclatural type fixes the usage of a name to the taxonomic group that 
-    contains the type. One or more Nomenclatural Types make up the typification 
-    of a Taxon Name. In Darwin Core, NomenclaturalType can be used as object 
-    with `dwciri:typeStatus`.
+    A nomenclatural type fixes the usage of a name to the taxonomic group that
+    contains the type. One or more Nomenclatural Types make up the typification
+    of a Taxon Name. In Darwin Core, a Nomenclatural Type object can be used as
+    object with `dwciri:typeStatus`.
   examples: 
     - NomenclaturalType-example-1
   type: http://www.w3.org/2000/01/rdf-schema#Class
@@ -1293,16 +1292,16 @@
     - predicate: "skos:narrowMatch"
       iri: /DataSet/TaxonNames/TaxonName/Typification/TypeVouchers/TypeVoucher/
       remarks: >-
-        TCS 1 does not have an equivalent for NomenclaturalType, but has a
-        choice between TypeName and TypeVouchers. Therefore, TypeVoucher does
-        not include those NomenclaturalTypes that have a `typeName` rather than
-        a `typeSpecimen`.
+        TCS 1 does not have an equivalent for `NomenclaturalType`, but has a
+        choice between `TypeName` and `TypeVouchers`. Therefore, `TypeVoucher`
+        does not include those NomenclaturalTypes that have a `typeName` rather
+        than a `typeSpecimen`.
     - predicate: "skos:broadMatch"
       iri: "dwc:ResourceRelationship"
       remarks: >-
-        A NomenclaturalType is in essence a special kind of ResourceRelationship
+        A Nomenclatural Type is in essence a special kind of ResourceRelationship
         connecting a name to a specimen or other name, with, depending on
-        whether one comes from a tcs:TaxonName or a dwc:MaterialEntity,
+        whether one comes from a `tcs:TaxonName` or a `dwc:MaterialEntity`,
         `typifiedName` being the `resourceID` and `typeSpecimen` or `typeName`
         the `relatedResourceID` and vice versa.
 
@@ -1334,7 +1333,7 @@
 
 # property: typeOfType
 - localName: typeOfType
-  label: Type of Type
+  label: Type Of Type
   definition: >-
     The kind of type this specimen is, e.g. holotype, isotype etc.
   usage: >-
@@ -1385,7 +1384,7 @@
   definition: The specimen that is the type.
   usage: >-
     `typeSpecimen` takes an IRI – or object – that refers to a specimen. A 
-    NomenclaturalType MUST NOT have more than one `typeSpecimen`.
+    Nomenclatural Type MUST NOT have more than one `typeSpecimen`.
   notes: >-
     Names at ranks of species and below are typified by a specimen. This
     property is mutually exclusive with `typeName`. This is an IRI property. One
