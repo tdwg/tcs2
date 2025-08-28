@@ -17,10 +17,10 @@
 
 **Abstract**
 : The Taxon Concept Standard (TCS) is the TDWG standard specifically
-for sharing taxonomic and nomenclatural data. TCS provides TaxonConcept and
-TaxonName classes for information about taxon concepts and taxon names,
-respectively, as well as a TaxonConceptMapping class for taxon concept
-alignments and a NomenclaturalType class for information on typification of
+for sharing taxonomic and nomenclatural data. TCS provides Taxon Concept and
+Taxon Name classes for information about taxon concepts and taxon names,
+respectively, as well as a Taxon Concept Mapping class for taxon concept
+alignments and a Nomenclatural Type class for information on typification of
 taxon names. TCS offers a semantic framework for, and facilitates more accurate
 exchange of, taxonomic and nomenclatural data.
 
@@ -68,12 +68,12 @@ when, they appear in all capitals, as shown here.
 
 ### 1.3. Structure of TCS
 
-TCS has four main classes, **TaxonConcept**, **TaxonConceptMapping**,
-**TaxonName** and **NomenclaturalType**.
+TCS has four main classes, **Taxon Concept**, **Taxon Concept Mapping**,
+**Taxon Name** and **Nomenclatural Type**.
 
-The **TaxonConcept** class provides terms to share information about taxon
+The **Taxon Concept** class provides terms to share information about taxon
 concepts and is the class everything else in TCS revolves around. We have
-defined a **TaxonConcept** as:
+defined a **Taxon Concept** as:
 
 > An **identifiable** taxonomic position that can be **aligned** to other such positions
 > through TCS concept mapping relations
@@ -85,7 +85,7 @@ order for a taxon concept to be identifiable, however, it needs to have some
 kind of label and it has to have some sort of treatment, so the `taxonName` and
 `accordingTo` properties on the `TaxonConcept` are required.
 
-The **TaxonConceptMapping** class is almost identical in structure to the Darwin
+The **Taxon Concept Mapping** class is almost identical in structure to the Darwin
 Core `ResourceRelationship` class. As a taxon concept mapping is a very specific
 type of resource relationship and because Darwin Core does not define IRI
 properties for `dwc:ResourceRelationship`, TCS defines its own class. The
@@ -93,17 +93,17 @@ properties for `dwc:ResourceRelationship`, TCS defines its own class. The
 on a `TaxonConceptMapping`. The value of `mappingRelation` has to be one of the
 mapping properties from the `TaxonConcept` class.
 
-The **TaxonName** class encapsulates all information about taxon names. Only the
+The **Taxon Name** class encapsulates all information about taxon names. Only the
 `nameString` property is required. Currently, TCS only has the one class
 that can be used for all types of names, including scientific named and
 vernacular names, but it is envisaged that in future TCS will also have classes
 for specific categories of names, e.g., 'ScientificName' and 'VernacularName'.
-The use of the **TaxonName** class is not currently required in TCS: it can be
+The use of the **Taxon Name** class is not currently required in TCS: it can be
 replaced by a [SKOS-XL Label](https://www.w3.org/TR/skos-reference/skos-xl.html)
 or [GBIF VernacularName](http://rs.gbif.org/terms/1.0/VernacularName) (or any
 other label object) if considered more appropriate.
 
-The **NomenclaturalType** class can be used to share information about
+The **Nomenclatural Type** class can be used to share information about
 nomenclatural types of names. It also shows similarity to the Darwin Core
 `ResourceRelationship` class in the sense that a nomenclatural type is a
 resource relationship between a `tcs:TaxonName` and either another
@@ -123,7 +123,7 @@ data. These terms have not been borrowed by TCS, as they have no special meaning
 in TCS and are used with TCS the same way as everywhere else.
 
 Information on **synonymy** can be shared using the `synonym` property of the
-TaxonConcept and the `basionym` and `replacedName` properties of the TaxonName.
+Taxon Concept and the `basionym` and `replacedName` properties of the TaxonName.
 TCS does not use the terms 'homotypic synonym' and 'heterotypic synonym' because
 these terms are rather strictly defined in the nomenclatural codes, which makes
 them less useful for data exchange, but `synonym` can be used for heterotypic
@@ -132,15 +132,15 @@ property can be used for all synonyms and it is up to data providers or
 application profiles whether or not synonyms are split into homotypic and
 heterotypic synonyms.
 
-The mapping properties in the TaxonConcept class, `isCongruentWith`, `includes`,
-`isIncludedIn`, `partiallyOverlaps`, `intersects` and `isDisjointFrom` can be
-used to align taxon concepts. These properties are equivalent to topological
-properties in spatial analysis and can be used in reasoning. Taxon concept
-mappings are currently not used very often in taxonomic treatments but, besides
-being more expressive and more generally applicable than nomenclatural
-relationships, they have the advantage that they can be made by third parties,
-so they can be used to add information to the analysis that is not already
-present in the data.
+The mapping properties in the Taxon Concept class, `isCongruentWith`,
+`includes`, `isIncludedIn`, `partiallyOverlaps`, `intersects` and
+`isDisjointFrom` can be used to align taxon concepts. These properties are
+equivalent to topological properties in spatial analysis and can be used in
+reasoning. Taxon concept mappings are currently not used very often in taxonomic
+treatments but, besides being more expressive and more generally applicable than
+nomenclatural relationships, they have the advantage that they can be made by
+third parties, so they can be used to add information to the analysis that is
+not already present in the data.
 
 ### 1.4. Examples
 
