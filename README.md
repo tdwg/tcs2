@@ -1,41 +1,88 @@
-# TCS 2 Task Group
+# The Taxon Concept Standard
 
-Welcome to the repository of the TCS 2 Task Group. The TCS 2 Task Group ([charter](https://github.com/tdwg/tnc/blob/master/charters/tcs-2-task-group-charter.md)) was established, under the Taxon Names and Concepts Interest Group, by the TDWG Executive in March 2021, in order to develop the new version of the Taxon Concept Schema (TCS).
+The Taxon Concept Standard (TCS), is the TDWG standard for exchange of taxonomic
+and nomenclatural data. Formerly an XML Schema, and called Taxon Concept Schema,
+TCS is now a vocabulary standard with terms that can be used in many formats,
+including CSV, JSON and RDF, and for individual objects as well as entire data
+sets. TCS can be used alongside or instead of the Darwin Core Taxon class. It
+defines Taxon Concept, Taxon Name, Taxon Concept Mapping and Nomenclatural Type
+classes, which provide a semantic framework for, and allow more accurate
+transfer of, taxonomic and nomenclatural data.
 
-The [Taxon Concept Schema](https://www.tdwg.org/standards/tcs/) is the TDWG standard for the exchange of information on the definition of taxa, or taxon concepts. It was ratified at the TDWG Conference in Leningrad in 2006. It is one of a group of TDWG standards, including also the [Access to Biological Collections Data Schema (ABCD)](https://www.tdwg.org/standards/abcd/) and the [Structured Descriptive Data Schema (SDD)](https://www.tdwg.org/standards/sdd/), ratified around the same time, that are based on an [XML Schema](https://www.w3.org/TR/xmlschema-0/). Unfortunately, TCS has never enjoyed much take-up, probably mainly because of the restrictions imposed by the XML Schema. The [Taxon Name](https://github.com/tdwg/ontology/blob/master/ontology/voc/TaxonName.rdf) and [Taxon Concept](https://github.com/tdwg/ontology/blob/master/ontology/voc/TaxonConcept.rdf) parts of the [TDWG LSID Ontology](https://github.com/tdwg/ontology/), which were a reframing of TCS in RDF, have found some more usage and were in fact considered the most useful parts of the TDWG Ontology. However, with the demise of the TDWG Ontology, and especially since the ratification of [Darwin Core](https://dwc.tdwg.org/), which allows for the exchange of taxon definition information in a variety of formats, including CSV, in 2010, most of the exchange of taxon definition information has been done in Darwin Core.
+TCS is maintained by the [Taxon Concept Standard Maintenance
+Group](https://www.tdwg.org/standards/tcs/#maintenance-group) in this
+repository.
 
-After the Interest Group meeting at the SPNHC–TDWG Joint Conference in Dunedin in 2018, where the shortcomings of Darwin Core with respect to the exchange of taxon definition information were discussed, the Taxon Name and Concept Interest Group started a review of TCS, which eventually led to the establishment of the TCS 2 Task Group.
+## Getting started
 
-The purpose of the Task Group is to recast TCS into a vocabulary standard, like Darwin Core and [Audubon Core](https://ac.tdwg.org/), that can be maintained and documented under the [Vocabulary Maintenance Standard](https://github.com/tdwg/vocab/tree/master/vms) and the [Standards Documentation Standard](https://github.com/tdwg/vocab/tree/master/sds). It is expected that TCS 2 will not replace the Darwin Core Taxon class, but rather complement Darwin Core. The tasks of the Task Group are:
+- [TCS Term List](https://tdwg.github.io/tcs2/terms/) — The normative list of TCS terms. This document
+  defines and describes all TCS terms and provides guidance on how to use them.
 
-- Turn the TCS XML Schema into a set of classes and properties
-- Update, improve and/or provide definitions for all terms
-- Provide controlled vocabularies for properties that would benefit from them.
+- [TCS 2 Feature report](https://tdwg.github.io/tcs2/feature-report/) — A Feature Report is one of two
+  documents that have to accompany major enhancements to TDWG standards,
+  according to the Vocabulary Maintenance Standard
+  ([[vocabulary_maintenance_specification_task_group_vocabulary_2017](https://tdwg.github.io/tcs2/bibliography/#[vocabulary_maintenance_specification_task_group_2017])]).
+  The _TCS 2 Feature Report_ sets out why TCS 2 was necessary and describes the
+  changes from TCS 1 to TCS 2. It also places TCS in the TDWG ecosystem and
+  broader context.
 
-While in principle we will not be adding new terms at this stage, we might come up with better names for terms if that does not change the meaning of the term significantly. We also might, at the discretion of the Task Group, add new terms if we can get agreement on them easily. On the other hand, we might leave out – for the moment – some terms that are currently in TCS, which are not straightforward and for which we do not have a strong use case yet. The objective is to get a standard that people can use and that can be maintained as soon as possible. Resolving any perceived problems in TCS, or making significant additions, will be much easier when they can be discussed in isolation and we have a framework to work within.
+- [TCS 2 Implementation experience report](https://tdwg.github.io/tcs2/implementation-experience-report/)
+  — The _TCS 2 Implementation Experience Report_ describes how parts of TCS have
+  already been implemented and provides a worked out example that highlights the
+  TCS Taxon Concept Mappings, a feature of TCS that is not used as often as we
+  would like it to be.
 
-## Core members
+- [Examples](https://tdwg.github.io/tcs2/examples/) — All the examples that are referenced in the _TCS
+  Term List_. Examples are focused on individual terms, but do provide some
+  context.
 
-- Vijay Barve, Natural History Museum, Los Angeles County, USA
-- Thierry Bourgoin - Muséum national de l'Histoire naturelle, France
-- Markus Döring - Global Biodiversity Information Facility, Germany
-- Anne Fuchs - Centre for Australian National Biodiversity Research, Australia
-- Niels Klazenga – Royal Botanic Gardens Victoria / Atlas of Living Australia, Australia (chair)
-- Johan Liljeblad – SLU Swedish Species Information Centre, Sweden
-- Carlos Martínez Muñoz - Senckenberg Gesellschaft für Naturforschung, Germany
-- Mieke Strong - Gaia Resources, Australia
-- Campbell Webb – University of Alaska Museum of the North, USA
-- Greg Whitbread – Taxamatics, Australia
+- [Recipes](https://tdwg.github.io/tcs2/recipes/) — Recipes are longer examples that focus on complete
+  records and show how TCS can be applied to real-world situations. There are
+  recipes for some taxonomic revisions, including the one example that shipped
+  with TCS 1, a checklist, a page from the Catalogue of Life and entries from
+  AviBase. Also, some examples of how to use TCS in combination with Darwin
+  Core, for identifications and nomenclatural type designations, are included.
 
-## Getting involved
+- [Bibliography](https://tdwg.github.io/tcs2/bibliography/) — The references cited on this website.
 
-All the work of the Task Group is done in this GitHub repository, especially in the [issues](https://github.com/tdwg/tcs2/issues), where we have created an issue for each term, so the best way of becoming involved in developing the next version of TCS is to watch this repository and participate in the discussions around each term. We also have meetings via WebEx, which we cannot announce as publicly as before, so, if you want to become even more involved, please contact the chair of the Task Group, so you'll receive the invitations.
+## Structure of this repository
 
+In the structure below `:` means manually maintained and `+` means generated. Generated documents should not be edited manually. 
 
-
-![](assets/tcs_diagram.svg)
-
-
-
-**Figure 1.** Mind model of what the new version of TCS might look like and how the classes could relate to each other and to external classes. Data types and connectors will not make it into the standard, so other relationships will be possible.
+```
+├── build
+│   ├── static                           : Headers and footers for generated files
+│   ├── build-termlist.py                : Main build script for the documentation
+│   ├── config.yaml                      : Configuration for the build; sets locations for files, etc.
+│   └── vocab_build_tools.py             : Functions used for building documentation
+│
+├── docs
+│   ├── _data
+│   │   ├── footer.yml
+│   │   └── navigation.yml
+│   ├── bibliography
+│   │   └── index.md                     : Bibliography page
+│   ├── examples                         + Examples folder
+│   │   ├── index.md                     + Examples index                         
+│   │   └── ....md                       + Example files
+│   ├── feature-report
+│   │   └── index.md                     : Feature Report page
+│   ├── implementation-experience-report
+│   │   ├── index.md                     : Implementation Experience Report page
+│   │   └── media                        : Images used in Implementation Experience Report
+│   ├── media
+|   ├── recipes                          : Recipes folder
+│   └── terms
+│       └── index.md                     + Term List 
+│
+├── examples                             : Examples in TTL and JSON 
+│
+├── master                               : Master files from which all documentation is generated
+|   ├── README.md
+|   ├── dcterms-for-tcs.yaml             : Terms borrowed from Dublin Core                   
+|   ├── dwc-for-tcs.yaml                 : Terms borrowed from Darwin Core 
+|   └── tcs.yaml                         : Terms defined in TCS
+│
+└── recipes                              : Recipes in TTL and JSON     
+```
 
