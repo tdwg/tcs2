@@ -220,7 +220,7 @@ def term_table(term):
     if 'Property' in term['type']:
         required = "Yes" if term['required'] else "No"
         repeatable = "Yes" if term['repeatable'] else "No"
-        attrs = '<b>required:</b> {required} — <b>repeatable:</b> {repeatable}'.format(
+        attrs = '<b>Required:</b> {required} — <b>Repeatable:</b> {repeatable}'.format(
             required=required, repeatable=repeatable)
         text += table_row([
             table_cell(''),
