@@ -95,7 +95,7 @@ mapping properties from the `TaxonConcept` class.
 
 The **Taxon Name** class encapsulates all information about taxon names. Only the
 `nameString` property is required. Currently, TCS only has the one class
-that can be used for all types of names, including scientific named and
+that can be used for all types of names, including scientific names and
 vernacular names, but it is envisaged that in future TCS will also have classes
 for specific categories of names, e.g., 'ScientificName' and 'VernacularName'.
 The use of the **Taxon Name** class is not currently required in TCS: it can be
