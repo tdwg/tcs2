@@ -1,5 +1,5 @@
 {
-  "@context": "https://raw.githubusercontent.com/tdwg/tcs2/taxon-concept-mapping-object/examples/context.jsonld",
+  "@context": "https://raw.githubusercontent.com/tdwg/tcs2/master/examples/context.jsonld",
   "type": "TaxonConceptMapping",
   "mappingAccordingTo": { "id": "https://doi.org/10.3233/SW-160220" },
   "mappingRelation": "isCongruentWith",

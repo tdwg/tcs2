@@ -1,5 +1,5 @@
 {
-  "@context": "https://raw.githubusercontent.com/tdwg/tcs2/dev-20230824/examples/context.jsonld",
+  "@context": "https://raw.githubusercontent.com/tdwg/tcs2/master/examples/context.jsonld",
   "type": "TaxonConcept",
   "dcterms:title": "Campylopus introflexus sec. Koperski & al. 2000",
   "accordingTo": { "id": "https://www.tropicos.org/reference/9022656" },
