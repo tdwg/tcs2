@@ -1,6 +1,8 @@
 import yaml
 import re
 import csv
+import os
+from datetime import datetime
 
 """
 Removes images, converts double linebreaks to paragraph marks, converts
@@ -45,7 +47,13 @@ def convert_term_list_to_csv(filename):
                 'tdwgutility_organizedInClass': term['organizedInClass']
             })
 
-    with open(f'rs.tdwg.org/{filename}.csv', 'w', newline='') as csvfile:
+    current_time = datetime.now()
+    formatted_date = current_time.strftime("%Y-%m-%d")
+    dir = f'../rs.tdwg.org/{formatted_date}'
+    if not os.path.isdir(dir):
+        os.mkdir(dir)
+
+    with open(f'{dir}/{filename}.csv', 'w', newline='') as csvfile:
         fieldnames = [
             'term_localName',
             'label',
