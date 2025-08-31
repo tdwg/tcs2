@@ -139,8 +139,8 @@ equivalent to topological properties in spatial analysis and can be used in
 reasoning. Taxon concept mappings are currently not used very often in taxonomic
 treatments but, besides being more expressive and more generally applicable than
 nomenclatural relationships, they have the advantage that they can be made by
-third parties, so they can be used to add information to the analysis that is
-not already present in the data.
+third parties, so they can be used to add information that is not already
+present in the data.
 
 ### 1.4. Examples
 
