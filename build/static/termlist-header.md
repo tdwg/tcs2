@@ -132,7 +132,7 @@ property can be used for all synonyms and it is up to data providers or
 application profiles whether or not synonyms are split into homotypic and
 heterotypic synonyms.
 
-The mapping properties in the Taxon Concept class, `isCongruentWith`,
+The **mapping properties** in the Taxon Concept class, `isCongruentWith`,
 `includes`, `isIncludedIn`, `partiallyOverlaps`, `intersects` and
 `isDisjointFrom` can be used to align taxon concepts. These properties are
 equivalent to topological properties in spatial analysis and can be used in
