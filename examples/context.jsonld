@@ -21,8 +21,8 @@
 
     "accordingTo":                      { "@type": "@id", "@id": "tcs:accordingTo" },
     "taxonName":                        { "@type": "@id", "@id": "tcs:taxonName" },
-    "synonym":                          { "@type": "@id", "@id": "tcs:synonym", "@container": "@set" },
-    "vernacularName":                   { "@type": "@id", "@id": "tcs:vernacularName", "@container": "@set" },
+    "synonyms":                         { "@type": "@id", "@id": "tcs:synonym", "@container": "@set" },
+    "vernacularNames":                  { "@type": "@id", "@id": "tcs:vernacularName", "@container": "@set" },
     "taxonRank":                        { "@type": "@vocab", "@id": "tcs:taxonRank" },
     "parent":                           { "@type": "@id", "@id": "tcs:parentTaxonConcept" },
     "children":                         { "@type": "@id", "@id": "tcs:childTaxonConcept", "@container": "@set"},
