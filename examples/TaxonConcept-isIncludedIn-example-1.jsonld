@@ -1,31 +1,31 @@
 {
   "@context": "https://raw.githubusercontent.com/tdwg/tcs2/refs/heads/master/examples/context.jsonld",
   "type": "TaxonConcept",
-  "dcterms:title": "Athyriaceae sec. Rothfels & al. 2012",
+  "taxonConceptLabel": "Athyriaceae sec. Rothfels & al. 2012",
   "accordingTo": "https://doi.org/10.1002/tax.613003",
   "taxonName": "https://ipni.org/n/30000361-2",
   "isIncludedIn": [
     {
       "type": "TaxonName",
-      "dcterms:title": "Athyriaceae sec. Christenhusz & al. 2011",
+      "taxonConceptLabel": "Athyriaceae sec. Christenhusz & al. 2011",
       "accordingTo": "https://doi.org/10.11646/phytotaxa.19.1.2",
       "taxonName": "https://ipni.org/n/30000361-2"
     },
     {
       "type": "TaxonName",
-      "dcterms:title": "Woodsiaceae sec. Smith & al. 2006",
+      "taxonConceptLabel": "Woodsiaceae sec. Smith & al. 2006",
       "accordingTo": "https://doi.org/10.2307/25065646",
       "taxonName": "https://ipni.org/n/30000455-2"
     },
     {
       "type": "TaxonName",
-      "dcterms:title": "Dryopteridaceae sec. Nayar 1970",
+      "taxonConceptLabel": "Dryopteridaceae sec. Nayar 1970",
       "accordingTo": "https://doi.org/10.2307/1217958",
       "taxonName": "https://ipni.org/n/30014148-2"
     },
     {
       "type": "TaxonName",
-      "dcterms:title": "Dennstaedtiaceae sec. Holttum 1947",
+      "taxonConceptLabel": "Dennstaedtiaceae sec. Holttum 1947",
       "accordingTo": {
         "dcterms:bibliographicCitation": "Holttum, 1947"
       },

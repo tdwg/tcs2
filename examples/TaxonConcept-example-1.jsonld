@@ -1,7 +1,7 @@
 {
   "@context": "https://raw.githubusercontent.com/tdwg/tcs2/refs/heads/master/examples/context.jsonld",
   "type": "TaxonConcept",
-  "dcterms:title": "Dicranoloma blumei sec. Klazenga 1999",
+  "taxonConceptLabel": "Dicranoloma blumei sec. Klazenga 1999",
   "taxonName": {
     "id": "https://www.tropicos.org/name/35121475",
     "type": "TaxonName",

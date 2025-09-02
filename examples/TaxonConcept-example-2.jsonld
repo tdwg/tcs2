@@ -1,7 +1,7 @@
 {
   "@context": "https://raw.githubusercontent.com/tdwg/tcs2/refs/heads/master/examples/context.jsonld",
   "type": "TaxonConcept",
-  "dcterms:title": "Orthetrum caledonicum sec. Theischinger and Hawking 2010",
+  "taxonConceptLabel": "Orthetrum caledonicum sec. Theischinger and Hawking 2010",
   "accordingTo": {
     "id": "urn:isbn:978-0-643-09073-6",
     "type": "bibo:Book",

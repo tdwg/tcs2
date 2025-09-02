@@ -1,31 +1,31 @@
 {
   "@context": "https://raw.githubusercontent.com/tdwg/tcs2/refs/heads/master/examples/context.jsonld",
   "type": "TaxonConcept",
-  "dcterms:title": "Aspleniaceae sec. Rothfels & al. 2012",
+  "taxonConceptLabel": "Aspleniaceae sec. Rothfels & al. 2012",
   "accordingTo": "https://doi.org/10.1002/tax.613003",
   "taxonName": "https://ipni.org/n/30001382-2",
   "isCongruentWith": [
     {
       "type": "TaxonConcept",
-      "dcterms:title": "Aspleniaceae sec. Christenhusz & al. 2011",
+      "taxonConceptLabel": "Aspleniaceae sec. Christenhusz & al. 2011",
       "accordingTo": "https://doi.org/10.11646/phytotaxa.19.1.2",
       "taxonName": "https://ipni.org/n/30001382-2"
     },
     {
       "type": "TaxonConcept",
-      "dcterms:title": "Aspleniaceae sec. Smith & al. 2006",
+      "taxonConceptLabel": "Aspleniaceae sec. Smith & al. 2006",
       "accordingTo": "https://doi.org/10.2307/25065646",
       "taxonName": "https://ipni.org/n/30001382-2"
     },
     {
       "type": "TaxonConcept",
-      "dcterms:title": "Aspleniaceae sec. Pichi Sermolli 1977",
+      "taxonConceptLabel": "Aspleniaceae sec. Pichi Sermolli 1977",
       "taxonName": "https://ipni.org/n/30001382-2",
       "accordingTo": "https://doi.org/10.1080/00837792.1977.10670077"
     },
     {
       "type": "TaxonConcept",
-      "dcterms:title": "Aspleniaceae sec. Nayar 1970",
+      "taxonConceptLabel": "Aspleniaceae sec. Nayar 1970",
       "accordingTo": "https://doi.org/10.2307/1217958",
       "taxonName": "https://ipni.org/n/30001382-2"
     }

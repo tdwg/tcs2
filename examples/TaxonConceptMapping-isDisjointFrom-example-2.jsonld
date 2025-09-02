@@ -6,12 +6,12 @@
       "mappingAccordingTo": { "id": "https://www.tropicos.org/reference/9022656" },
       "mappingRelation": "isDisjointFrom",
       "subjectTaxonConcept": {
-        "dcterms:title": "Campylopus introflexus sec. Koperski & al. 2000",
+        "taxonConceptLabel": "Campylopus introflexus sec. Koperski & al. 2000",
         "accordingTo": { "id": "https://www.tropicos.org/reference/9022656" },
         "taxonName": { "id": "https://www.tropicos.org/name/35156181>" }
       },
       "objectTaxonConcept": {
-        "dcterms:title": "Campylopus introflexus sec. Mönkemeyer 1927",
+        "taxonConceptLabel": "Campylopus introflexus sec. Mönkemeyer 1927",
         "accordingTo": { "id": "https://www.tropicos.org/publication/700" },
         "taxonName": { "id": "https://ipni.org/n/388740-1" }
       }

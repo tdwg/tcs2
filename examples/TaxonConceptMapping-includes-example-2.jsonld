@@ -5,12 +5,12 @@
   "mappingRelation": "includes",
   "subjectTaxonConcept": {
     "type": "TaxonConcept",
-    "dcterms:title": "Diplaziopsidaceae sec. Rothfels & al. 2012",
+    "taxonConceptLabel": "Diplaziopsidaceae sec. Rothfels & al. 2012",
     "accordingTo": { "id": "https://doi.org/10.1002/tax.613003" },
     "taxonName": { "id": "https://ipni.org/n/77110538-1" }
   },
   "objectTaxonConcept": {
-    "dcterms:title": "Diplaziopsidaceae sec. Christenhusz & al. 2011",
+    "taxonConceptLabel": "Diplaziopsidaceae sec. Christenhusz & al. 2011",
     "accordingTo": { "id": "https://doi.org/10.11646/phytotaxa.19.1.2" },
     "taxonName": { "id": "https://ipni.org/n/13093-2" }
   }

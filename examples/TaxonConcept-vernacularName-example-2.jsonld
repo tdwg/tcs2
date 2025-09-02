@@ -1,7 +1,7 @@
 {
   "@context": "https://raw.githubusercontent.com/tdwg/tcs2/refs/heads/master/examples/context.jsonld",
   "type": "TaxonConcept",
-  "dcterms:title": "Quercus robur sec. Duistermaat 2020",
+  "taxonConceptLabel": "Quercus robur sec. Duistermaat 2020",
   "accordingTo": {
     "id": "urn:isbn:978-90-01-58956-1",
     "type": "bibo:Book",

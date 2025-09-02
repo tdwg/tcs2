@@ -14,7 +14,12 @@
     "id":                               "@id",
     "type":                             "@type",
 
-    "TaxonConcept":                     "tcs:TaxonConcept",
+    "TaxonConcept":                     {
+      "@id": "tcs:TaxonConcept",
+      "@context": {
+        "taxonConceptLabel": "taxonConceptLabel"
+      }
+    },
     "TaxonConceptMapping":              "tcs:TaxonConceptMapping",
     "TaxonName":                        "tcs:TaxonName",
     "NomenclaturalType":                "tcs:NomenclaturalType",

@@ -3,7 +3,7 @@
   "id": "https://www.catalogueoflife.org/data/taxon/3YVTF",
   "type": "TaxonConcept",
   "accordingTo": "https://doi.org/10.48580/dfry-3gd#1.1.23.5",
-  "dcterms:title": "Megalorhipida leucodactylus sec. Gielis & Hobern 2020-07-16",
+  "taxonConceptLabel": "Megalorhipida leucodactylus sec. Gielis & Hobern 2020-07-16",
   "taxonName": {
     "type": "TaxonName",
     "nameString": "Megalorhipida leucodactylus",

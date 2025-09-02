@@ -3,13 +3,13 @@
   "@graph": [
     {
       "type": "TaxonConcept",
-      "dcterms:title": "Eupolypods sec. Rothfels & al. 2012",
+      "taxonConceptLabel": "Eupolypods sec. Rothfels & al. 2012",
       "accordingTo": "https://doi.org/10.1002/tax.613003",
       "taxonName": "_:b2",
       "isCongruentWith": [
         {
           "type": "TaxonConcept",
-          "dcterms:title": "Eupolypods sec. Smith & al. 2006",
+          "taxonConceptLabel": "Eupolypods sec. Smith & al. 2006",
           "accordingTo": "https://doi.org/10.2307/25065646",
           "taxonName": "_:b2"
         }
@@ -17,13 +17,13 @@
     },
     {
       "type": "TaxonConcept",
-      "dcterms:title": "Eupolypods I sec. Rothfels & al. 2012",
+      "taxonConceptLabel": "Eupolypods I sec. Rothfels & al. 2012",
       "accordingTo": "https://doi.org/10.1002/tax.613003",
       "taxonName": "_:b5",
       "isCongruentWith": [
         {
           "type": "TaxonConcept",
-          "dcterms:title": "Eupolypods I sec. Smith & al. 2006",
+          "taxonConceptLabel": "Eupolypods I sec. Smith & al. 2006",
           "accordingTo": "https://doi.org/10.2307/25065646",
           "taxonName": "_:b5"
         }
@@ -31,13 +31,13 @@
     },
     {
       "type": "TaxonConcept",
-      "dcterms:title": "Eupolypods II sec. Rothfels & al. 2012",
+      "taxonConceptLabel": "Eupolypods II sec. Rothfels & al. 2012",
       "accordingTo": "https://doi.org/10.1002/tax.613003",
       "taxonName": "_:b8",
       "isCongruentWith": [
         {
           "type": "TaxonConcept",
-          "dcterms:title": "Eupolypods II sec. Smith & al. 2006",
+          "taxonConceptLabel": "Eupolypods II sec. Smith & al. 2006",
           "accordingTo": "https://doi.org/10.2307/25065646",
           "taxonName": "_:b8"
         }
@@ -45,31 +45,31 @@
     },
     {
       "type": "TaxonConcept",
-      "dcterms:title": "Onocleaceae sec. Rothfels & al. 2012",
+      "taxonConceptLabel": "Onocleaceae sec. Rothfels & al. 2012",
       "accordingTo": "https://doi.org/10.1002/tax.613003",
       "taxonName": "https://ipni.org/n/17446060-1",
       "isCongruentWith": [
         {
           "type": "TaxonConcept",
-          "dcterms:title": "Onocleaceae sec. Christenhusz & al. 2011",
+          "taxonConceptLabel": "Onocleaceae sec. Christenhusz & al. 2011",
           "accordingTo": "https://doi.org/10.11646/phytotaxa.19.1.2",
           "taxonName": "https://ipni.org/n/17446060-1"
         },
         {
           "type": "TaxonConcept",
-          "dcterms:title": "Onocleaceae sec. Smith & al. 2006",
+          "taxonConceptLabel": "Onocleaceae sec. Smith & al. 2006",
           "accordingTo": "https://doi.org/10.2307/25065646",
           "taxonName": "https://ipni.org/n/17446060-1"
         },
         {
           "type": "TaxonConcept",
-          "dcterms:title": "Onocleaceae sec. Pichi Sermolli 1977",
+          "taxonConceptLabel": "Onocleaceae sec. Pichi Sermolli 1977",
           "accordingTo": "https://doi.org/10.1080/00837792.1977.10670077",
           "taxonName": "https://ipni.org/n/17446060-1"
         },
         {
           "type": "TaxonConcept",
-          "dcterms:title": "Onocleoideae sec. Holttum 1947",
+          "taxonConceptLabel": "Onocleoideae sec. Holttum 1947",
           "accordingTo": "_:b38",
           "taxonName": "https://ipni.org/n/17436290-1"
         }
@@ -77,37 +77,37 @@
     },
     {
       "type": "TaxonConcept",
-      "dcterms:title": "Thelypteridaceae sec. Rothfels & al. 2012",
+      "taxonConceptLabel": "Thelypteridaceae sec. Rothfels & al. 2012",
       "accordingTo": "https://doi.org/10.1002/tax.613003",
       "taxonName": "https://ipni.org/n/30000455-2",
       "isCongruentWith": [
         {
           "type": "TaxonConcept",
-          "dcterms:title": "Thelypteridaceae sec. Christenhusz & al. 2011",
+          "taxonConceptLabel": "Thelypteridaceae sec. Christenhusz & al. 2011",
           "accordingTo": "https://doi.org/10.11646/phytotaxa.19.1.2",
           "taxonName": "https://ipni.org/n/30000455-2"
         },
         {
           "type": "TaxonConcept",
-          "dcterms:title": "Thelypteridaceae sec. Smith & al. 2006",
+          "taxonConceptLabel": "Thelypteridaceae sec. Smith & al. 2006",
           "accordingTo": "https://doi.org/10.2307/25065646",
           "taxonName": "https://ipni.org/n/30000455-2"
         },
         {
           "type": "TaxonConcept",
-          "dcterms:title": "Thelypteridaceae sec. Pichi Sermolli 1977",
+          "taxonConceptLabel": "Thelypteridaceae sec. Pichi Sermolli 1977",
           "accordingTo": "https://doi.org/10.1080/00837792.1977.10670077",
           "taxonName": "https://ipni.org/n/30000455-2"
         },
         {
           "type": "TaxonConcept",
-          "dcterms:title": "Thelypteridaceae sec. Nayar 1970",
+          "taxonConceptLabel": "Thelypteridaceae sec. Nayar 1970",
           "accordingTo": "https://doi.org/10.2307/1217958",
           "taxonName": "https://ipni.org/n/30000455-2"
         },
         {
           "type": "TaxonConcept",
-          "dcterms:title": "Thelypteridaceae sec. Holttum 1947",
+          "taxonConceptLabel": "Thelypteridaceae sec. Holttum 1947",
           "accordingTo": "_:b38",
           "taxonName": "https://ipni.org/n/30000455-2"
         }
@@ -115,19 +115,19 @@
     },
     {
       "type": "TaxonConcept",
-      "dcterms:title": "Woodsiaceae sec. Rothfels & al. 2012",
+      "taxonConceptLabel": "Woodsiaceae sec. Rothfels & al. 2012",
       "accordingTo": "https://doi.org/10.1002/tax.613003",
       "taxonName": "https://ipni.org/n/60456504-2",
       "isCongruentWith": [
         {
           "type": "TaxonConcept",
-          "dcterms:title": "Woodsiaceae sec. Christenhusz & al. 2011",
+          "taxonConceptLabel": "Woodsiaceae sec. Christenhusz & al. 2011",
           "accordingTo": "https://doi.org/10.11646/phytotaxa.19.1.2",
           "taxonName": "https://ipni.org/n/60456504-2"
         },
         {
           "type": "TaxonConcept",
-          "dcterms:title": "Woodsiaceae sec. Pichi Sermolli 1977",
+          "taxonConceptLabel": "Woodsiaceae sec. Pichi Sermolli 1977",
           "accordingTo": "https://doi.org/10.1080/00837792.1977.10670077",
           "taxonName": "https://ipni.org/n/60456504-2"
         }
@@ -140,13 +140,13 @@
     },
     {
       "type": "TaxonConcept",
-      "dcterms:title": "Cystopteridaceae sec. Rothfels & al. 2012",
+      "taxonConceptLabel": "Cystopteridaceae sec. Rothfels & al. 2012",
       "accordingTo": "https://doi.org/10.1002/tax.613003",
       "taxonName": "https://ipni.org/n/20001946-1",
       "isCongruentWith": [
         {
           "type": "TaxonConcept",
-          "dcterms:title": "Cystopteridaceae sec. Christenhusz & al. 2011",
+          "taxonConceptLabel": "Cystopteridaceae sec. Christenhusz & al. 2011",
           "accordingTo": "https://doi.org/10.11646/phytotaxa.19.1.2",
           "taxonName": "https://ipni.org/n/20001946-1"
         }
@@ -154,7 +154,7 @@
       "isIncludedIn": [
         {
           "type": "TaxonConcept",
-          "dcterms:title": "Cystopteridaceae sensu Christenhusz & al. 2011",
+          "taxonConceptLabel": "Cystopteridaceae sensu Christenhusz & al. 2011",
           "accordingTo": "https://doi.org/10.11646/phytotaxa.19.1.2",
           "taxonName": "https://ipni.org/n/20001946-1"
         },
@@ -165,13 +165,13 @@
     },
     {
       "type": "TaxonConcept",
-      "dcterms:title": "Rhachidosoraceae sec. Rothfels & al. 2012",
+      "taxonConceptLabel": "Rhachidosoraceae sec. Rothfels & al. 2012",
       "accordingTo": "https://doi.org/10.1002/tax.613003",
       "taxonName": "https://ipni.org/n/77110539-1",
       "isCongruentWith": [
         {
           "type": "TaxonConcept",
-          "dcterms:title": "Rhachidosoraceae sec. Christnhusz & al. 2011",
+          "taxonConceptLabel": "Rhachidosoraceae sec. Christnhusz & al. 2011",
           "accordingTo": "https://doi.org/10.11646/phytotaxa.19.1.2",
           "taxonName": "https://ipni.org/n/77110539-1"
         }
@@ -184,13 +184,13 @@
     },
     {
       "type": "TaxonConcept",
-      "dcterms:title": "Diplaziopsidaceae sec. Rothfels & al. 2012",
+      "taxonConceptLabel": "Diplaziopsidaceae sec. Rothfels & al. 2012",
       "accordingTo": "https://doi.org/10.1002/tax.613003",
       "taxonName": "https://ipni.org/n/77110538-1",
       "includes": [
         {
           "type": "TaxonConcept",
-          "dcterms:title": "Diplaziopsidaceae sec. Christenhusz & al. 2011",
+          "taxonConceptLabel": "Diplaziopsidaceae sec. Christenhusz & al. 2011",
           "accordingTo": "https://doi.org/10.11646/phytotaxa.19.1.2",
           "taxonName": "https://ipni.org/n/77110538-1"
         }
@@ -207,12 +207,12 @@
     },
     {
       "type": "TaxonConcept",
-      "dcterms:title": "Hemidictyaceae sec. Rothfels & al. 2012",
+      "taxonConceptLabel": "Hemidictyaceae sec. Rothfels & al. 2012",
       "accordingTo": "https://doi.org/10.1002/tax.613003",
       "isCongruentWith": [
         {
           "type": "TaxonConcept",
-          "dcterms:title": "Hemidictyaceae sec. Christenhusz & al. 2011",
+          "taxonConceptLabel": "Hemidictyaceae sec. Christenhusz & al. 2011",
           "accordingTo": "https://doi.org/10.11646/phytotaxa.19.1.2",
           "taxonName": "https://ipni.org/n/77114955-1"
         }
@@ -227,7 +227,7 @@
     },
     {
       "type": "TaxonConcept",
-      "dcterms:title": "Athyriaceae sec. Rothfels & al. 2012",
+      "taxonConceptLabel": "Athyriaceae sec. Rothfels & al. 2012",
       "accordingTo": "https://doi.org/10.1002/tax.613003",
       "taxonName": "https://ipni.org/n/30000361-2",
       "isIncludedIn": [
@@ -239,31 +239,31 @@
     },
     {
       "type": "TaxonConcept",
-      "dcterms:title": "Aspleniaceae sec. Rothfels & al. 2012",
+      "taxonConceptLabel": "Aspleniaceae sec. Rothfels & al. 2012",
       "accordingTo": "https://doi.org/10.1002/tax.613003",
       "taxonName": "https://ipni.org/n/30001382-2",
       "isCongruentWith": [
         {
           "type": "TaxonConcept",
-          "dcterms:title": "Aspleniaceae sec. Christenhusz & al. 2011",
+          "taxonConceptLabel": "Aspleniaceae sec. Christenhusz & al. 2011",
           "accordingTo": "https://doi.org/10.11646/phytotaxa.19.1.2",
           "taxonName": "https://ipni.org/n/30001382-2"
         },
         {
           "type": "TaxonConcept",
-          "dcterms:title": "Aspleniaceae sec. Smith & al. 2006",
+          "taxonConceptLabel": "Aspleniaceae sec. Smith & al. 2006",
           "accordingTo": "https://doi.org/10.2307/25065646",
           "taxonName": "https://ipni.org/n/30001382-2"
         },
         {
           "type": "TaxonConcept",
-          "dcterms:title": "Aspleniaceae sec. Nayar 1970",
+          "taxonConceptLabel": "Aspleniaceae sec. Nayar 1970",
           "accordingTo": "https://doi.org/10.2307/1217958",
           "taxonName": "https://ipni.org/n/30001382-2"
         },
         {
           "type": "TaxonConcept",
-          "dcterms:title": "Aspleniaceae sec. Pichi Sermolli 1977",
+          "taxonConceptLabel": "Aspleniaceae sec. Pichi Sermolli 1977",
           "accordingTo": "https://doi.org/10.1080/00837792.1977.10670077",
           "taxonName": "https://ipni.org/n/30001382-2"
         }
@@ -274,31 +274,31 @@
     },
     {
       "type": "TaxonConcept",
-      "dcterms:title": "Blechnaceae sec. Rothfels & al. 2012",
+      "taxonConceptLabel": "Blechnaceae sec. Rothfels & al. 2012",
       "accordingTo": "https://doi.org/10.1002/tax.613003",
       "taxonName": "https://ipni.org/n/30002151-2",
       "isCongruentWith": [
         {
           "type": "TaxonConcept",
-          "dcterms:title": "Blechnaceae sec. Christenhusz & al. 2011",
+          "taxonConceptLabel": "Blechnaceae sec. Christenhusz & al. 2011",
           "accordingTo": "https://doi.org/10.11646/phytotaxa.19.1.2",
           "taxonName": "https://ipni.org/n/30002151-2"
         },
         {
           "type": "TaxonConcept",
-          "dcterms:title": "Blechnaceae sec. Smith & al. 2006",
+          "taxonConceptLabel": "Blechnaceae sec. Smith & al. 2006",
           "accordingTo": "https://doi.org/10.2307/25065646",
           "taxonName": "https://ipni.org/n/30000361-2"
         },
         {
           "type": "TaxonConcept",
-          "dcterms:title": "Blechnaceae sec. Pichi Sermolli",
+          "taxonConceptLabel": "Blechnaceae sec. Pichi Sermolli",
           "accordingTo": "https://doi.org/10.1080/00837792.1977.10670077",
           "taxonName": "https://ipni.org/n/30002151-2"
         },
         {
           "type": "TaxonConcept",
-          "dcterms:title": "Blechnaceae sec. Nayar 1970",
+          "taxonConceptLabel": "Blechnaceae sec. Nayar 1970",
           "accordingTo": "https://doi.org/10.1002/tax.613003",
           "taxonName": "https://ipni.org/n/30002151-2"
         }
@@ -310,35 +310,35 @@
     {
       "id": "_:2011-Athyriaceae",
       "type": "TaxonConcept",
-      "dcterms:title": "Athyriaceae sec. Christenhusz & al. 2011",
+      "taxonConceptLabel": "Athyriaceae sec. Christenhusz & al. 2011",
       "accordingTo": "https://doi.org/10.11646/phytotaxa.19.1.2",
       "taxonName": "https://ipni.org/n/30000361-2"
     },
     {
       "id": "_:2006-Woodsiaceae",
       "type": "TaxonConcept",
-      "dcterms:title": "Woodsiaceae sec. Smith & al. 2006",
+      "taxonConceptLabel": "Woodsiaceae sec. Smith & al. 2006",
       "accordingTo": "https://doi.org/10.2307/25065646",
       "taxonName": "https://ipni.org/n/30000455-2"
     },
     {
       "id": "_:1977-Athyriaceae",
       "type": "TaxonConcept",
-      "dcterms:title": "Athyriaceae sec. Pichi Sermolli 1977",
+      "taxonConceptLabel": "Athyriaceae sec. Pichi Sermolli 1977",
       "accordingTo": "https://doi.org/10.1080/00837792.1977.10670077",
       "taxonName": "https://ipni.org/n/30000361-2"
     },
     {
       "id": "_:1970-Dryopteridaceae",
       "type": "TaxonConcept",
-      "dcterms:title": "Dryopteridaceae sec. Nayar 1970",
+      "taxonConceptLabel": "Dryopteridaceae sec. Nayar 1970",
       "accordingTo": "https://doi.org/10.2307/1217958",
       "taxonName": "https://ipni.org/n/30014148-2"
     },
     {
       "id": "_:1947-Dennstaedtiaceae",
       "type": "TaxonConcept",
-      "dcterms:title": "Dennstaedtiaceae sec. Holttum 1947",
+      "taxonConceptLabel": "Dennstaedtiaceae sec. Holttum 1947",
       "accordingTo": "_:b38",
       "taxonName": "https://ipni.org/n/17434830-1"
     },

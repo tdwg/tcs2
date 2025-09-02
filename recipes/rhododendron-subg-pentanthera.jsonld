@@ -10,7 +10,7 @@
     {
       "id": "_:tc1",
       "type": "TaxonConcept",
-      "dcterms:title": "Rhododendron subgen. Pentanthera sec. Judd & Kron 1995",
+      "taxonConceptLabel": "Rhododendron subgen. Pentanthera sec. Judd & Kron 1995",
       "accordingTo": "_:ref1",
       "synonyms": [
         "https://ipni.org/n/14620-1",
@@ -21,7 +21,7 @@
     {
       "id": "_:b15",
       "type": "TaxonConcept",
-      "dcterms:title": "Rhododendron sect. Pentanthera sec. Judd & Kron 1995",
+      "taxonConceptLabel": "Rhododendron sect. Pentanthera sec. Judd & Kron 1995",
       "accordingTo": "_:ref1",
       "taxonName": "_:tn1",
       "parent": "_:tc1"
@@ -29,21 +29,21 @@
     {
       "id": "_:tc2",
       "type": "TaxonConcept",
-      "dcterms:title": "Rhododendron sect. Sciadorhodion sec. Judd & Kron 1995",
+      "taxonConceptLabel": "Rhododendron sect. Sciadorhodion sec. Judd & Kron 1995",
       "accordingTo": "_:ref1",
       "parent": "_:tc1",
       "taxonName": "https://ipni.org/n/50985479-1"
     },
     {
       "type": "TaxonConcept",
-      "dcterms:title": "Rhododendron schlippenbachii sec. Judd & Kron 1995",
+      "taxonConceptLabel": "Rhododendron schlippenbachii sec. Judd & Kron 1995",
       "accordingTo": "_:ref1",
       "parent": "_:tc1",
       "taxonName": "https://ipni.org/n/333307-1"
     },
     {
       "type": "TaxonConcept",
-      "dcterms:title": "Rhododendron quinquefolium sec. Judd & Kron 1995",
+      "taxonConceptLabel": "Rhododendron quinquefolium sec. Judd & Kron 1995",
       "accordingTo": "_:ref1",
       "parent": "_:tc2",
       "tcs:synonym": {
@@ -57,7 +57,7 @@
     },
     {
       "type": "TaxonConcept",
-      "dcterms:title": "Rhododendron pentaphyllum sec. Judd & Kron 1995",
+      "taxonConceptLabel": "Rhododendron pentaphyllum sec. Judd & Kron 1995",
       "accordingTo": "_:ref1",
       "parent": "_:tc2",
       "synonyms": [
@@ -69,7 +69,7 @@
     },
     {
       "type": "TaxonConcept",
-      "dcterms:title": "Rhododendron albrechtii sec. Judd & Kron 1995",
+      "taxonConceptLabel": "Rhododendron albrechtii sec. Judd & Kron 1995",
       "accordingTo": "_:ref1",
       "parent": "_:tc2",
       "taxonName": "https://ipni.org/n/331902-1"
@@ -77,14 +77,14 @@
     {
       "id": "_:tc3",
       "type": "TaxonConcept",
-      "dcterms:title": "Rhodondendron sect. Viscidula sec. Judd & Cron 1995",
+      "taxonConceptLabel": "Rhodondendron sect. Viscidula sec. Judd & Cron 1995",
       "accordingTo": "_:ref1",
       "parent": "_:tc1",
       "taxonName": "_:tn6"
     },
     {
       "type": "TaxonConcept",
-      "dcterms:title": "Rhodondendron nipponicum sec. Judd & Cron 1995",
+      "taxonConceptLabel": "Rhodondendron nipponicum sec. Judd & Cron 1995",
       "accordingTo": "_:ref1",
       "parent": "_:tc3",
       "taxonName": "https://ipni.org/n/332960-1"
@@ -92,14 +92,14 @@
     {
       "id": "_:tc4",
       "type": "TaxonConcept",
-      "dcterms:title": "Rhodondendron sect. Rhodora sec. Judd & Cron 1995",
+      "taxonConceptLabel": "Rhodondendron sect. Rhodora sec. Judd & Cron 1995",
       "accordingTo": "_:ref1",
       "taxonName": "_:tn7",
       "parent": "_:tc1"
     },
     {
       "type": "TaxonConcept",
-      "dcterms:title": "Rhodondendron vaseyi sec. Judd & Cron 1995",
+      "taxonConceptLabel": "Rhodondendron vaseyi sec. Judd & Cron 1995",
       "accordingTo": "_:ref1",
       "parent": "_:tc4",
       "synonyms": [
@@ -109,7 +109,7 @@
     },
     {
       "type": "TaxonConcept",
-      "dcterms:title": "Rhodondendron canadense sec. Judd & Cron 1995",
+      "taxonConceptLabel": "Rhodondendron canadense sec. Judd & Cron 1995",
       "accordingTo": "_:ref1",
       "parent": "_:tc4",
       "synonyms": [

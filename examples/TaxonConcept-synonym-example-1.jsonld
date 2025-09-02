@@ -3,7 +3,7 @@
   "@graph": [
     {
       "type": "TaxonConcept",
-      "dcterms:title": "Dicranoloma blumei sec. Klazenga 1999",
+      "taxonConceptLabel": "Dicranoloma blumei sec. Klazenga 1999",
       "accordingTo": {
         "id": "https://www.tropicos.org/reference/9020903",
         "type": "bibo:AcademicArticle",

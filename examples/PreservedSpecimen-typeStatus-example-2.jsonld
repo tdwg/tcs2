@@ -58,7 +58,7 @@
         "type": "dwc:Identification",
         "dwciri:toTaxon": { 
           "id": "https://id.biodiversity.org.au/instance/apni/698961",
-          "dcterms:title": "Stenanthemum coronatum sec. Australian Plant Census 2011",
+          "taxonConceptLabel": "Stenanthemum coronatum sec. Australian Plant Census 2011",
           "taxonName": {
             "id": "https://ipni.org/n/718981-1",
             "type": "TaxonName",

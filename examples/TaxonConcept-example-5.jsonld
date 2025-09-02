@@ -2,7 +2,7 @@
   "@context": "https://raw.githubusercontent.com/tdwg/tcs2/refs/heads/master/examples/context.jsonld",
   "id": "https://www.catalogueoflife.org/data/taxon/KF8T#v2022-11-14",
   "type": "TaxonConcept",
-  "dcterms:title": "Balaenoptera musculus sec. Catalogue of Life 2022-11-14",
+  "taxonConceptLabel": "Balaenoptera musculus sec. Catalogue of Life 2022-11-14",
   "accordingTo": {
     "id": "https://www.catalogueoflife.org#v2022-11-14",
     "type": "bibo:Website",

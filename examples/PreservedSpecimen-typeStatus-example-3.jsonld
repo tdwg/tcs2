@@ -60,7 +60,7 @@
         "dwciri:toTaxon": { 
           "id": "https://id.biodiversity.org.au/instance/apni/612750",
           "type": "TaxonConcept",
-          "dcterms:title": "Eucalyptus crebra sec. Australian Plant Census 2006",
+          "taxonConceptLabel": "Eucalyptus crebra sec. Australian Plant Census 2006",
           "taxonName": {
             "id": "https://ipni.org/n/592841-1",
             "type": "TaxonName",
@@ -106,7 +106,7 @@
         "dwciri:toTaxon": {
           "id": "https://id.biodiversity.org.au/instance/apni/455406",
           "type": "tcs:Taxon",
-          "dcterms:title": "Eucalyptus xanthoclada sec. Brooker & Bean 1987",
+          "taxonConceptLabel": "Eucalyptus xanthoclada sec. Brooker & Bean 1987",
           "taxonName": "https://ipni.org/n/933707-1",
           "accordingTo": "https://id.biodiversity.org.au/reference/apni/40410"
         },

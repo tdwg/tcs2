@@ -4,7 +4,7 @@
     {
       "id": "_:2000-Campylium",
       "type": "TaxonConcept",
-      "dcterms:title": "Campylium sec. Koperski & al. 2000",
+      "taxonConceptLabel": "Campylium sec. Koperski & al. 2000",
       "accordingTo": "https://tropicos.org/reference/9022656",
       "taxonName": "https://www.tropicos.org/name/35000208",
       "synonyms": [
@@ -56,7 +56,7 @@
     {
       "id": "_:2000-Amblystegium",
       "type": "TaxonConcept",
-      "dcterms:title": "Amblystegium sec. Koperski & al. 2000",
+      "taxonConceptLabel": "Amblystegium sec. Koperski & al. 2000",
       "accordingTo": "https://tropicos.org/reference/9022656",
       "taxonName": "https://tropicos.org/name/35000040",
       "synonyms": [
@@ -145,7 +145,7 @@
     {
       "id": "_:2000-Platydictya",
       "type": "TaxonConcept",
-      "dcterms:title": "Platydictya sec. Koperski & al. 2000",
+      "taxonConceptLabel": "Platydictya sec. Koperski & al. 2000",
       "accordingTo": "https://www.tropicos.org/reference/9022656",
       "taxonName": "https://www.tropicos.org/name/35000970",
       "synonyms": [
@@ -194,7 +194,7 @@
     {
       "id": "_:2000-Leptodictyum",
       "type": "TaxonConcept",
-      "dcterms:title": "Leptodictyum sec. Koperski & al. 2000",
+      "taxonConceptLabel": "Leptodictyum sec. Koperski & al. 2000",
       "accordingTo": "https://www.tropicos.org/reference/9022656",
       "taxonName": "https://www.tropicos.org/name/35000692",
       "rdfs:comment": "Weltweit 8 Arten, in Europa 1 Art. – In Übereinstimmung mit Anderson & al. (1990), Ignatov & Afonina (1992), Blockeel & Long (1998) sowie Crosby & al. (1999) wird Leptodictyum als Gattung akzeptiert (s. auch Hedenäs 1990a)."
@@ -245,7 +245,7 @@
     {
       "id": "_:2000-Conardia",
       "type": "TaxonConcept",
-      "dcterms:title": "Conardia sec. Koperski & al. 2000",
+      "taxonConceptLabel": "Conardia sec. Koperski & al. 2000",
       "accordingTo": "https://www.tropicos.org/reference/9022656",
       "taxonName": "https://www.tropicos.org/name/35000290",
       "rdfs:comment": "Weltweit 1 Art.",
@@ -289,140 +289,140 @@
     {
       "id": "1981-Amblystegium",
       "type": "TaxonConcept",
-      "dcterms:title": "Amblystegium sec. Corley & al. 1981",
+      "taxonConceptLabel": "Amblystegium sec. Corley & al. 1981",
       "accordingTo": "https://www.tropicos.org/reference/9004554",
       "taxonName": "https://tropicos.org/name/35000040"
     },
     {
       "id": "_1981-Amblystegium-subg-Leptodictyum",
       "type": "TaxonConcept",
-      "dcterms:title": "Amblystegium subg. Leptodictyum sec. Corley & al. 1981",
+      "taxonConceptLabel": "Amblystegium subg. Leptodictyum sec. Corley & al. 1981",
       "accordingTo": "https://www.tropicos.org/reference/9004554",
       "taxonName": "https://www.tropicos.org/name/35102656"
     },
     {
       "id": "_:1981-Campylium",
       "type": "TaxonConcept",
-      "dcterms:title": "Campylium sec. Corley & al. 1981",
+      "taxonConceptLabel": "Campylium sec. Corley & al. 1981",
       "accordingTo": "https://www.tropicos.org/reference/9004554",
       "taxonName": "https://www.tropicos.org/name/35000208"
     },
     {
       "id": "_:1981-Conardia",
       "type": "TaxonConcept",
-      "dcterms:title": "Conardia sec. Corley & al. 1981",
+      "taxonConceptLabel": "Conardia sec. Corley & al. 1981",
       "accordingTo": "https://www.tropicos.org/reference/9004554",
       "taxonName": "https://www.tropicos.org/name/35000290"
     },
     {
       "id": "_:1981-Platydictya",
       "type": "TaxonConcept",
-      "dcterms:title": "Platydictya sec. Corley & al. 1981",
+      "taxonConceptLabel": "Platydictya sec. Corley & al. 1981",
       "accordingTo": "https://www.tropicos.org/reference/9004554",
       "taxonName": "https://www.tropicos.org/name/35000970"
     },
     {
       "id": "_:1992-Amblystegiella",
       "type": "TaxonConcept",
-      "dcterms:title": "Amblystegiella sec. Frahm & Frey 1992",
+      "taxonConceptLabel": "Amblystegiella sec. Frahm & Frey 1992",
       "accordingTo": "https://www.tropicos.org/reference/9011497",
       "taxonName": "https://www.tropicos.org/name/35000039"
     },
     {
       "id": "1992-Amblystegium",
       "type": "TaxonConcept",
-      "dcterms:title": "Amblystegium sec. Frahm & Frey 1992",
+      "taxonConceptLabel": "Amblystegium sec. Frahm & Frey 1992",
       "accordingTo": "https://www.tropicos.org/reference/9011497",
       "taxonName": "https://www.tropicos.org/name/35000040"
     },
     {
       "id": "_:1992-Campylium",
       "type": "TaxonConcept",
-      "dcterms:title": "Campylium sec. Frahm & Frey 1992",
+      "taxonConceptLabel": "Campylium sec. Frahm & Frey 1992",
       "accordingTo": "https://www.tropicos.org/reference/9011497",
       "taxonName": "https://www.tropicos.org/name/35000208"
     },
     {
       "id": "_:1992-Hygroamblystegium",
       "type": "TaxonConcept",
-      "dcterms:title": "Hygroamblystegium sec. Frahm & Frey 1992",
+      "taxonConceptLabel": "Hygroamblystegium sec. Frahm & Frey 1992",
       "accordingTo": "https://www.tropicos.org/reference/9011497",
       "taxonName": "https://www.tropicos.org/name/35000612"
     },
     {
       "id": "_:1992-Leptodictyum",
       "type": "TaxonConcept",
-      "dcterms:title": "Leptodictyum sec. Frahm & Frey 1992",
+      "taxonConceptLabel": "Leptodictyum sec. Frahm & Frey 1992",
       "accordingTo": "https://www.tropicos.org/reference/9011497",
       "taxonName": "https://www.tropicos.org/name/35000692"
     },
     {
       "id": "_:1992-Rhynchostegiella",
       "type": "TaxonConcept",
-      "dcterms:title": "Rhynchostegiella sec. Frahm & Frey 1992",
+      "taxonConceptLabel": "Rhynchostegiella sec. Frahm & Frey 1992",
       "accordingTo": "https://www.tropicos.org/reference/9011497",
       "taxonName": "https://www.tropicos.org/name/35001131"
     },
     {
       "id": "_:1980-Amblystegium",
       "type": "TaxonConcept",
-      "dcterms:title": "Amblystegium sec. Smith 1980",
+      "taxonConceptLabel": "Amblystegium sec. Smith 1980",
       "accordingTo": "https://www.tropicos.org/reference/9007023",
       "taxonName": "https://www.tropicos.org/name/35000040"
     },
     {
       "id": "_:1980-Campylium",
       "type": "TaxonConcept",
-      "dcterms:title": "Campylium sec. Smith & al. 1980",
+      "taxonConceptLabel": "Campylium sec. Smith & al. 1980",
       "accordingTo": "https://www.tropicos.org/reference/9007023",
       "taxonName": "https://www.tropicos.org/name/35000208"
     },
     {
       "id": "_:1980-Platydictya",
       "type": "TaxonConcept",
-      "dcterms:title": "Platydictya sec. Smith 1980",
+      "taxonConceptLabel": "Platydictya sec. Smith 1980",
       "accordingTo": "https://www.tropicos.org/reference/9007023",
       "taxonName": "https://www.tropicos.org/name/35000970"
     },
     {
       "id": "_:1927-Amblystegium",
       "type": "TaxonConcept",
-      "dcterms:title": "Amblystegium sec. Mönkemeyer 1927",
+      "taxonConceptLabel": "Amblystegium sec. Mönkemeyer 1927",
       "accordingTo": "https://www.tropicos.org/reference/9011497",
       "taxonName": "https://www.tropicos.org/name/35000040"
     },
     {
       "id": "_:1927-Amblystegium-sect-Leptodictyum",
       "type": "TaxonConcept",
-      "dcterms:title": "Amblystegium sect. Leptodictyum sec. Mönkemeyer 1927",
+      "taxonConceptLabel": "Amblystegium sect. Leptodictyum sec. Mönkemeyer 1927",
       "accordingTo": "https://www.tropicos.org/reference/9021085",
       "taxonName": "https://www.tropicos.org/name/35102672"
     },
     {
       "id": "_:1927-Amblystegium-sect-Serpoleskea",
       "type": "TaxonConcept",
-      "dcterms:title": "Amblystegium sect. Serpoleskea sec. Mönkemeyer 1927",
+      "taxonConceptLabel": "Amblystegium sect. Serpoleskea sec. Mönkemeyer 1927",
       "accordingTo": "https://www.tropicos.org/reference/9021085",
       "taxonName": "https://www.tropicos.org/name/35102679"
     },
     {
       "id": "_:1927-Chrysohypnum",
       "type": "TaxonConcept",
-      "dcterms:title": "Chrysohypnum sec. Mönkemeyer 1927",
+      "taxonConceptLabel": "Chrysohypnum sec. Mönkemeyer 1927",
       "accordingTo": "https://www.tropicos.org/reference/9011497",
       "taxonName": "https://www.tropicos.org/name/35000256"
     },
     {
       "id": "_:1927-Drepanocladus",
       "type": "TaxonConcept",
-      "dcterms:title": "Drepanocladus sec. Mönkemeyer 1927",
+      "taxonConceptLabel": "Drepanocladus sec. Mönkemeyer 1927",
       "accordingTo": "https://www.tropicos.org/reference/9021085",
       "taxonName": "https://www.tropicos.org/name/35000413"
     },
     {
       "id": "_:1927-Hygroamblystegium",
       "type": "TaxonConcept",
-      "dcterms:title": "Hygroamblystegium sec. Mönkemeyer 1927",
+      "taxonConceptLabel": "Hygroamblystegium sec. Mönkemeyer 1927",
       "accordingTo": "https://www.tropicos.org/reference/9011497",
       "taxonName": "https://www.tropicos.org/name/35000612"
     },
@@ -547,7 +547,7 @@
     {
       "id": "https://www.tropicos.org/reference/9022656",
       "type": "bibo:Book",
-      "dcterms:title": "Referenzliste der Moose Deutschlands, Dokumentation unterschiedlicher taxonomischer Auffassungen",
+      "taxonConceptLabel": "Referenzliste der Moose Deutschlands, Dokumentation unterschiedlicher taxonomischer Auffassungen",
       "dcterms:creator": [
         {
           "id": "_:b43"
@@ -581,7 +581,7 @@
       "dcterms:date": "2000",
       "dcterms:isPartOf": {
         "type": "bibo:Series",
-        "dcterms:title": "Schriftenreihe für Vegetationskunde"
+        "taxonConceptLabel": "Schriftenreihe für Vegetationskunde"
       },
       "bibo:number": "34",
       "dcterms:publisher": {

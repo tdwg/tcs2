@@ -60,7 +60,7 @@
         "dwciri:toTaxon": {
           "id": "https://id.biodiversity.org.au/instance/apni/683275",
           "type": "TaxonConcept",
-          "dcterms:title": "Templetonia stenophylla sec. Ross 1996",
+          "taxonConceptLabel": "Templetonia stenophylla sec. Ross 1996",
           "taxonName": {
             "id": "https://ipni.org/n/520361-1",
             "type": "TaxonName",

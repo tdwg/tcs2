@@ -22,7 +22,7 @@
         "dwciri:toTaxon": {
           "rdf:value": {
             "type": "TaxonConcept",
-            "dcterms:title": "Salix arbusculoides sec. Argus 1973",
+            "taxonConceptLabel": "Salix arbusculoides sec. Argus 1973",
             "taxonName": "https://ipni.org/n/306317-2",
             "accordingTo": {
               "type": "bibo:Book",

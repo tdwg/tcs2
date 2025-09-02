@@ -10,7 +10,7 @@
     {
       "id": "_:1994-begonia-sect-mezierea",
       "type": "TaxonConcept",
-      "dcterms:title": "Begonia sect. Mezierea sec. Klazenga & al. 1994",
+      "taxonConceptLabel": "Begonia sect. Mezierea sec. Klazenga & al. 1994",
       "accordingTo": "https://doi/org/10.2307/3668252",
       "taxonName": "_:b5",
       "synonyms": [
@@ -20,13 +20,13 @@
       "intersects": [
         {
           "type": "TaxonConcept",
-          "dcterms:title": "Begonia sect. Mezierea sec. Warburg 1894",
+          "taxonConceptLabel": "Begonia sect. Mezierea sec. Warburg 1894",
           "accordingTo": "_:b8",
           "taxonName": "_:b5"
         },
         {
           "type": "TaxonConcept",
-          "dcterms:title": "Begonia sect. Mezierea sec. Irmscher 1925",
+          "taxonConceptLabel": "Begonia sect. Mezierea sec. Irmscher 1925",
           "accordingTo": "_:b10",
           "taxonName": "_:b5"
         }
@@ -80,7 +80,7 @@
 
     { 
       "type": "TaxonConcept",
-      "dcterms:title": "Begonia comorensis sec. Klazenga & al. 1994",
+      "taxonConceptLabel": "Begonia comorensis sec. Klazenga & al. 1994",
       "accordingTo": "https://doi/org/10.2307/3668252",
       "taxonName": "https://ipni.org/n/104440-1",
       "synonyms": [
@@ -90,19 +90,19 @@
       "intersects": [
         {
           "type": "TaxonConcept",
-          "dcterms:title": "Begonia comorensis sec. Warburg 1894",
+          "taxonConceptLabel": "Begonia comorensis sec. Warburg 1894",
           "accordingTo": "_:b8",
           "taxonName": "https://ipni.org/n/104440-1"
         },
         {
           "type": "TaxonConcept",
-          "dcterms:title": "Begonia comorensis sec. Warburg 1895",
+          "taxonConceptLabel": "Begonia comorensis sec. Warburg 1895",
           "accordingTo": "_:b17",
           "taxonName": "https://ipni.org/n/104440-1"
         },
         {
           "type": "TaxonConcept",
-          "dcterms:title": "Begonia comorensis sec. Irmscher 1925",
+          "taxonConceptLabel": "Begonia comorensis sec. Irmscher 1925",
           "accordingTo": "_:b10",
           "taxonName": "https://ipni.org/n/104440-1"
         },
@@ -112,7 +112,7 @@
     {
       "id": "_:1983-begonia-comorensis",
       "type": "TaxonConcept",
-      "dcterms:title": "Begonia comorensis sec. Keraudren-Aymonin 1983",
+      "taxonConceptLabel": "Begonia comorensis sec. Keraudren-Aymonin 1983",
       "accordingTo": "_:b20",
       "taxonName": "https://ipni.org/n/104440-1",
       "synonyms": [
@@ -184,14 +184,14 @@
 
     {
       "type": "TaxonConcept",
-      "dcterms:title": "Begonia humbertii sec. Klazenga & al. 1994",
+      "taxonConceptLabel": "Begonia humbertii sec. Klazenga & al. 1994",
       "accordingTo": "https://doi/org/10.2307/3668252",
       "taxonName": "https://ipni.org/n/901574-1",
       "parent": "_:1994-begonia-sect-mezierea",
       "intersects": [
         {
           "type": "TaxonConcept",
-          "dcterms:title": "Begonia humbertii sec. Keraudren-Aymonin 1983",
+          "taxonConceptLabel": "Begonia humbertii sec. Keraudren-Aymonin 1983",
           "accordingTo": "_:b20",
           "taxonName": "https://ipni.org/n/901574-1"
         }
@@ -234,26 +234,26 @@
 
     {
       "type": "TaxonConcept",
-      "dcterms:title": "Begonia meyeri-johannis sec. Klazenga & al. 1994",
+      "taxonConceptLabel": "Begonia meyeri-johannis sec. Klazenga & al. 1994",
       "accordingTo": "https://doi/org/10.2307/3668252",
       "taxonName": "https://ipni.org/n/105197-1",
       "parent": "_:1994-begonia-sect-mezierea",
       "intersects": [
         {
           "type": "TaxonConcept",
-          "dcterms:title": "Begonia meyeri-johannis sec. Warburg 1894",
+          "taxonConceptLabel": "Begonia meyeri-johannis sec. Warburg 1894",
           "accordingTo": "_:b8",
           "taxonName": "https://ipni.org/n/105197-1"
         },
         {
           "type": "TaxonConcept",
-          "dcterms:title": "Begonia meyeri-johannis sec. Warburg 1895",
+          "taxonConceptLabel": "Begonia meyeri-johannis sec. Warburg 1895",
           "accordingTo": "_:b17",
           "taxonName": "https://ipni.org/n/105197-1"
         },
         {
           "type": "TaxonConcept",
-          "dcterms:title": "Begonia meyeri-johannis sec. Irmscher 1925",
+          "taxonConceptLabel": "Begonia meyeri-johannis sec. Irmscher 1925",
           "accordingTo": "_:b10",
           "taxonName": "https://ipni.org/n/105197-1"
         }
@@ -282,7 +282,7 @@
     {
       "type": "TaxonConcept",
       "accordingTo": "https://doi/org/10.2307/3668252",
-      "dcterms:title": "Begonia oxyloba sec. Klazenga & al. 1994",
+      "taxonConceptLabel": "Begonia oxyloba sec. Klazenga & al. 1994",
       "taxonName": "https://ipni.org/n/105331-1",
       "synonyms": [
         "https://ipni.org/n/104421-1",
@@ -300,31 +300,31 @@
       "intersects": [
         {
           "type": "TaxonConcept",
-          "dcterms:title": "Begonia oxyloba sec. Warburg 1894",
+          "taxonConceptLabel": "Begonia oxyloba sec. Warburg 1894",
           "accordingTo": "_:b8",
           "taxonName": "https://ipni.org/n/105331-1"
         },
         {
           "type": "TaxonConcept",
-          "dcterms:title": "Begonia oxyloba sec. Warburg 1895",
+          "taxonConceptLabel": "Begonia oxyloba sec. Warburg 1895",
           "accordingTo": "_:b17",
           "taxonName": "https://ipni.org/n/105331-1"
         },
         {
           "type": "TaxonConcept",
-          "dcterms:title": "Begonia cladocarpa sec. Warburg 1894",
+          "taxonConceptLabel": "Begonia cladocarpa sec. Warburg 1894",
           "accordingTo": "_:b8",
           "taxonName": "https://ipni.org/n/104421-1"
         },
         {
           "type": "TaxonConcept",
-          "dcterms:title": "Begonia cladocarpa sec. Keraudren-Aymonin 1983",
+          "taxonConceptLabel": "Begonia cladocarpa sec. Keraudren-Aymonin 1983",
           "accordingTo": "_:b20",
           "taxonName": "https://ipni.org/n/104421-1"
         },
         {
           "type": "TaxonConcept",
-          "dcterms:title": "Begonia oxyloba sec. Engler 1921",
+          "taxonConceptLabel": "Begonia oxyloba sec. Engler 1921",
           "accordingTo": "_:b45",
           "taxonName": "https://ipni.org/n/105331-1",
           "synonyms": [
@@ -338,49 +338,49 @@
         },
         {
           "type": "TaxonConcept",
-          "dcterms:title": "Begonia oxyloba sec. Irmscher 1925",
+          "taxonConceptLabel": "Begonia oxyloba sec. Irmscher 1925",
           "accordingTo": "_:b17",
           "taxonName": "https://ipni.org/n/105331-1"
         },
         {
           "type": "TaxonConcept",
-          "dcterms:title": "Begonia heddei sec. Irmscher 1925",
+          "taxonConceptLabel": "Begonia heddei sec. Irmscher 1925",
           "accordingTo": "_:b17",
           "taxonName": "https://ipni.org/n/104820-1"
         },
         {
           "type": "TaxonConcept",
-          "dcterms:title": "Begonia lehmbachii sec. Irmscher 1925",
+          "taxonConceptLabel": "Begonia lehmbachii sec. Irmscher 1925",
           "accordingTo": "_:b17",
           "taxonName": "https://ipni.org/n/105026-1"
         },
         {
           "type": "TaxonConcept",
-          "dcterms:title": "Begonia conraui sec. Irmscher 1925",
+          "taxonConceptLabel": "Begonia conraui sec. Irmscher 1925",
           "accordingTo": "_:b17",
           "taxonName": "https://ipni.org/n/104451-1"
         },
         {
           "type": "TaxonConcept",
-          "dcterms:title": "Begonia kummerae sec. Irmscher 1925",
+          "taxonConceptLabel": "Begonia kummerae sec. Irmscher 1925",
           "accordingTo": "_:b17",
           "taxonName": "https://ipni.org/n/104983-1"
         },
         {
-          "dcterms:title": "Begonia petrophila sec. Irmscher 1925",
+          "taxonConceptLabel": "Begonia petrophila sec. Irmscher 1925",
           "type": "TaxonConcept",
           "accordingTo": "_:b17",
           "taxonName": "https://ipni.org/n/105419-1"
         },
         {
           "type": "TaxonConcept",
-          "dcterms:title": "Begonia seretii sec. Irmscher 1925",
+          "taxonConceptLabel": "Begonia seretii sec. Irmscher 1925",
           "accordingTo": "_:b17",
           "taxonName": "https://ipni.org/n/105716-1"
         },
         {
           "type": "TaxonConcept",
-          "dcterms:title": "Begonia sassandrensis sec. Irmscher 1925",
+          "taxonConceptLabel": "Begonia sassandrensis sec. Irmscher 1925",
           "accordingTo": "_:b17",
           "taxonName": "https://ipni.org/n/105665-1"
         }
@@ -839,7 +839,7 @@
 
     {
       "type": "TaxonConcept",
-      "dcterms:title": "Begonia salaziensis sec. Klazenga & al. 1994",
+      "taxonConceptLabel": "Begonia salaziensis sec. Klazenga & al. 1994",
       "accordingTo": "https://doi/org/10.2307/3668252",
       "taxonName": "https://ipni.org/n/105644-1",
       "synonyms": [
@@ -850,13 +850,13 @@
       "intersects": [
         {
           "type": "TaxonConcept",
-          "dcterms:title": "Begonia salaziensis sec. Warburg 1894",
+          "taxonConceptLabel": "Begonia salaziensis sec. Warburg 1894",
           "accordingTo": "_:b8",
           "taxonName": "https://ipni.org/n/105644-1"
         },
         {
           "type": "TaxonConcept",
-          "dcterms:title": "Begonia salaziensis sec. Irmscher 1925",
+          "taxonConceptLabel": "Begonia salaziensis sec. Irmscher 1925",
           "accordingTo": "_:b17",
           "taxonName": "https://ipni.org/n/105644-1"
         }
@@ -936,7 +936,7 @@
 
     {
       "type": "TaxonConcept",
-      "dcterms:title": "Begonia seychellensis sec. Klazenga & al. 1994",
+      "taxonConceptLabel": "Begonia seychellensis sec. Klazenga & al. 1994",
       "accordingTo": "https://doi/org/10.2307/3668252",
       "taxonName": "https://ipni.org/n/105731-1",
       "parent": "_:1994-begonia-sect-mezierea",

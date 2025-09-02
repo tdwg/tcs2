@@ -48,7 +48,7 @@
       "isCongruentWith": {
         "type": "TaxonConcept",
         "accordingTo": "_:ref4",
-        "dcterms:title": "Circus cyaneus sec. Howard & Moore 2013",
+        "taxonConceptLabel": "Circus cyaneus sec. Howard & Moore 2013",
         "taxonName": "_:tn1"
       }
     },
@@ -62,26 +62,26 @@
       "isCongruentWith": [
         {
           "type": "TaxonConcept",
-          "dcterms:title": "Circus cyaneus sec. Clements 2021",
+          "taxonConceptLabel": "Circus cyaneus sec. Clements 2021",
           "accordingTo": "_:ref1",
           "taxonName": "_:tn1"
         },
         {
           "type": "TaxonConcept",
-          "dcterms:title": "Circus cyaneus sec. Gill & al. 2021",
+          "taxonConceptLabel": "Circus cyaneus sec. Gill & al. 2021",
           "accordingTo": "_:ref2",
           "taxonName": "_:tn1"
         },
         {
           "type": "TaxonConcept",
           "accordingTo": "_:ref3",
-          "dcterms:title": "Circus cyaneus sec. HBW/Birdlife 2020",
+          "taxonConceptLabel": "Circus cyaneus sec. HBW/Birdlife 2020",
           "taxonName": "_:tn1"
         },
         {
           "type": "TaxonConcept",
           "accordingTo": "_:ref4",
-          "dcterms:title": "Circus cyaneus cyaneus sec. Howard & Moore 2013",
+          "taxonConceptLabel": "Circus cyaneus cyaneus sec. Howard & Moore 2013",
           "taxonName": {
             "type": "TaxonName",
             "nameString": "Circus cyaneus cyaneus"
@@ -101,25 +101,25 @@
       "isCongruentWith": [
         {
           "type": "TaxonConcept",
-          "dcterms:title": "Circus hudsonius sec. Clements 2021",
+          "taxonConceptLabel": "Circus hudsonius sec. Clements 2021",
           "accordingTo": "_:ref1",
           "taxonName": "_:tn2"
         },
         {
           "type": "TaxonConcept",
-          "dcterms:title": "Circus hudsonius sec. Gill & al. 2021",
+          "taxonConceptLabel": "Circus hudsonius sec. Gill & al. 2021",
           "accordingTo": "_:ref2",
           "taxonName": "_:tn2"
         },
         {
           "type": "TaxonConcept",
-          "dcterms:title": "Circus hudsonius sec. HBW/Birdlife 2020",
+          "taxonConceptLabel": "Circus hudsonius sec. HBW/Birdlife 2020",
           "accordingTo": "_:ref3",
           "taxonName": "_:tn2"
         },
         {
           "type": "TaxonConcept",
-          "dcterms:title": "Circus cyaneus hudsonius sec. Howard & Moore 2013",
+          "taxonConceptLabel": "Circus cyaneus hudsonius sec. Howard & Moore 2013",
           "accordingTo": "_:ref4",
           "taxonName": {
             "type": "TaxonName",

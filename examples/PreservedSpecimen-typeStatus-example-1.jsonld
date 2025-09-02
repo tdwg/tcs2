@@ -67,7 +67,7 @@
         "dwciri:toTaxon": {
           "id": "https://id.biodiversity.org.au/instance/apni/601693",
           "type": "TaxonConcept",
-          "dcterms:title": "Banksia serrata sec. Australian Plant Census 2005",
+          "taxonConceptLabel": "Banksia serrata sec. Australian Plant Census 2005",
           "taxonName": {
             "id": "https://ipni.org/n/703183-1",
             "type": "TaxonName",

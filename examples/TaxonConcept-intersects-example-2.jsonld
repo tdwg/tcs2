@@ -11,14 +11,14 @@
     {
       "id": "https://id.biodiversity.org.au/instance/apni/713514",
       "type": "TaxonConcept",
-      "dcterms:title": "Euphrasia gibbsiae sec. Curtis 1967",
+      "taxonConceptLabel": "Euphrasia gibbsiae sec. Curtis 1967",
       "accordingTo": "https://id.biodiversity.org.au/reference/apni/23028",
       "taxonName": "https://ipni.org/n/802545-1"
     },
     {
       "rdf:value": {
         "type": "TaxonConcept",
-        "dcterms:title": "Euphrasia gibbsiae sec. Willis 1967",
+        "taxonConceptLabel": "Euphrasia gibbsiae sec. Willis 1967",
         "accordingTo": "https://www.biodiversitylibrary.org/page/49934392",
         "taxonName": "https://ipni.org/n/802545-1"
       },
@@ -27,7 +27,7 @@
     {
       "rdf:value": {
         "type": "TaxonConcept",
-        "dcterms:title": "Euphrasia gibbsiae sec. Harris 1970",
+        "taxonConceptLabel": "Euphrasia gibbsiae sec. Harris 1970",
         "accordingTo": {
           "type": "dcterms:BibliographicResource",
           "dcterms:bibliographicCitation": "Harris, Alp. Pl. Austral. (1970)"
@@ -39,7 +39,7 @@
     {
       "rdf:value": {
         "type": "TaxonConcept",
-        "dcterms:title": "Euphrasia gibbsiae sec. Harris 1970",
+        "taxonConceptLabel": "Euphrasia gibbsiae sec. Harris 1970",
         "accordingTo": {
           "type": "dcterms:BibliographicResource",
           "dcterms:bibliographicCitation": "Bentham, Fl. Austral. (1868)"

@@ -6,14 +6,14 @@
       "rdf:subject": {
         "type": "TaxonConcept",
         "accordingTo": "https://www.jstor.org/stable/25078744",
-        "dcterms:title": "Phyllotrox sec. Franz & O'Brien 2001",
+        "taxonConceptLabel": "Phyllotrox sec. Franz & O'Brien 2001",
         "taxonName": "_:b1"
       },
       "rdf:predicate": "partiallyOverlaps",
       "rdf:object": {
         "type": "TaxonConcept",
         "accordingTo": "https://doi.org/10.1111/j.1365-3113.2005.00308.x",
-        "dcterms:title": "Phyllotrox sec. Franz 2006",
+        "taxonConceptLabel": "Phyllotrox sec. Franz 2006",
         "taxonName": "_:b1"
       },
       "dcterms:source": "https://doi.org/10.1111/cla.12042"

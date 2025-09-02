@@ -2,7 +2,7 @@
   "@context": "https://raw.githubusercontent.com/tdwg/tcs2/refs/heads/master/examples/context.jsonld",
   "id": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:105644-1",
   "type": "TaxonConcept",
-  "dcterms:title": "Begonia salaziensis sec. POWO 2022",
+  "taxonConceptLabel": "Begonia salaziensis sec. POWO 2022",
   "accordingTo": {
     "id": "urn:lsid:ipni.org:publications:17755-2",
     "type": "bibo:Book",

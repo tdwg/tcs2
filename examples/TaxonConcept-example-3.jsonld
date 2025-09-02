@@ -1,7 +1,7 @@
 {
   "@context": "https://raw.githubusercontent.com/tdwg/tcs2/refs/heads/master/examples/context.jsonld",
   "type": "TaxonConcept",
-  "dcterms:title": "Calymperes moluccense sec. Yong et al. 2013",
+  "taxonConceptLabel": "Calymperes moluccense sec. Yong et al. 2013",
   "accordingTo": {
     "id": "urn:isbn:978-967-5221-99-6",
     "type": "bibo:Book",
