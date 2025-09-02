@@ -14,10 +14,10 @@
     "id":                               "@id",
     "type":                             "@type",
 
-    "TaxonConcept":                     {
+    "TaxonConcept": {
       "@id": "tcs:TaxonConcept",
       "@context": {
-        "taxonConceptLabel": "taxonConceptLabel"
+        "taxonConceptLabel": "dcterms:title"
       }
     },
     "TaxonConceptMapping":              "tcs:TaxonConceptMapping",
