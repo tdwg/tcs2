@@ -2,7 +2,7 @@
   "@context": [
     "https://raw.githubusercontent.com/tdwg/tcs2/refs/heads/master/examples/context.jsonld",
      {
-       "value": { "id": "rdf:value", "type": "id"}
+       "value": { "@id": "rdf:value", "@type": "@id"}
      }
   ],
   "@graph": [
@@ -52,13 +52,13 @@
       "rdfs:comment": "Weltweit etwa 35 Arten, in Europa 8 Arten. Abweichend von Corley & al. wird in Übereinstimmung mit Anderson & al. (1990), Ignatov & Afonina (1992), Blockeel & Long (1998) sowie Crosby & al. (1999) Leptodictyum als Gattung akzeptiert (s. auch Hedenäs 1990a).",
       "isIncludedIn": [
         {
-          "value": "1981-Amblystegium",
+          "value": "_:1981-Amblystegium",
           "rdfs:comment": "incl. Leptodictyum riparium (Amblystegium r.)"
         }
       ],
       "includes": [
         {
-          "value": "1992-Amblystegium",
+          "value": "_:1992-Amblystegium",
           "rdfs:comment": "excl. Amblystegium confervoides (Amblystegiella c.), A. subtile (Amblystegiella s.), A. fluviatile (Hygroamblystegium f.), A. tenax (Hygroambystegium t.), A. radicale (Campylium r.)"
         },
         "_:1992-Hygroamblystegium",
@@ -128,9 +128,9 @@
         "_:1927-Amblystegium-sect-Leptodictyum"
       ],
       "isIncludedIn": [
-        "1981-Amblystegium",
+        "_:1981-Amblystegium",
         {
-          "value": "_1981-Amblystegium-subg-Leptodictyum",
+          "value": "_:1981-Amblystegium-subg-Leptodictyum",
           "rdfs:comment": "incl. Amblystegium humile"
         },
         "_:1927-Amblystegium",
@@ -155,14 +155,14 @@
       ]
     },
     {
-      "id": "1981-Amblystegium",
+      "id": "_:1981-Amblystegium",
       "type": "TaxonConcept",
       "taxonConceptLabel": "Amblystegium sec. Corley & al. 1981",
       "accordingTo": "https://www.tropicos.org/reference/9004554",
       "taxonName": "https://tropicos.org/name/35000040"
     },
     {
-      "id": "_1981-Amblystegium-subg-Leptodictyum",
+      "id": "_:1981-Amblystegium-subg-Leptodictyum",
       "type": "TaxonConcept",
       "taxonConceptLabel": "Amblystegium subg. Leptodictyum sec. Corley & al. 1981",
       "accordingTo": "https://www.tropicos.org/reference/9004554",
@@ -197,7 +197,7 @@
       "taxonName": "https://www.tropicos.org/name/35000039"
     },
     {
-      "id": "1992-Amblystegium",
+      "id": "_:1992-Amblystegium",
       "type": "TaxonConcept",
       "taxonConceptLabel": "Amblystegium sec. Frahm & Frey 1992",
       "accordingTo": "https://www.tropicos.org/reference/9011497",

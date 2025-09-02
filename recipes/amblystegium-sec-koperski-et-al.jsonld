@@ -69,7 +69,7 @@
       "mappingAccordingTo": "https://tropicos.org/reference/9022656",
       "mappingRelation": "isIncludedIn",
       "subjectTaxonConcept": "_:2000-Amblystegium",
-      "objectTaxonConcept": "1981-Amblystegium",
+      "objectTaxonConcept": "_:1981-Amblystegium",
       "rdfs:comment": "incl. Leptodictyum riparium (Amblystegium r.)"
     },
     {
@@ -77,7 +77,7 @@
       "mappingAccordingTo": "https://tropicos.org/reference/9022656",
       "mappingRelation": "includes",
       "subjectTaxonConcept": "_:2000-Amblystegium",
-      "objectTaxonConcept": "1992-Amblystegium",
+      "objectTaxonConcept": "_:1992-Amblystegium",
       "rdfs:comment": "excl. Amblystegium confervoides (Amblystegiella c.), A. subtile (Amblystegiella s.), A. fluviatile (Hygroamblystegium f.), A. tenax (Hygroambystegium t.), A. radicale (Campylium r.)"
     },
     {
@@ -225,7 +225,7 @@
       "mappingAccordingTo": "https://tropicos.org/reference/9022656",
       "mappingRelation": "isIncludedIn",
       "subjectTaxonConcept": "_:2000-Leptodictyum",
-      "objectTaxonConcept": "_1981-Amblystegium-subg-Leptodictyum",
+      "objectTaxonConcept": "_:1981-Amblystegium-subg-Leptodictyum",
       "rdfs:comment": "incl. Amblystegium humile"
     },
     {
@@ -287,14 +287,14 @@
       "objectTaxonConcept": "_:1980-Amblystegium"
     },
     {
-      "id": "1981-Amblystegium",
+      "id": "_:1981-Amblystegium",
       "type": "TaxonConcept",
       "taxonConceptLabel": "Amblystegium sec. Corley & al. 1981",
       "accordingTo": "https://www.tropicos.org/reference/9004554",
       "taxonName": "https://tropicos.org/name/35000040"
     },
     {
-      "id": "_1981-Amblystegium-subg-Leptodictyum",
+      "id": "_:1981-Amblystegium-subg-Leptodictyum",
       "type": "TaxonConcept",
       "taxonConceptLabel": "Amblystegium subg. Leptodictyum sec. Corley & al. 1981",
       "accordingTo": "https://www.tropicos.org/reference/9004554",
@@ -329,7 +329,7 @@
       "taxonName": "https://www.tropicos.org/name/35000039"
     },
     {
-      "id": "1992-Amblystegium",
+      "id": "_:1992-Amblystegium",
       "type": "TaxonConcept",
       "taxonConceptLabel": "Amblystegium sec. Frahm & Frey 1992",
       "accordingTo": "https://www.tropicos.org/reference/9011497",
@@ -547,7 +547,7 @@
     {
       "id": "https://www.tropicos.org/reference/9022656",
       "type": "bibo:Book",
-      "taxonConceptLabel": "Referenzliste der Moose Deutschlands, Dokumentation unterschiedlicher taxonomischer Auffassungen",
+      "dcterms:title": "Referenzliste der Moose Deutschlands, Dokumentation unterschiedlicher taxonomischer Auffassungen",
       "dcterms:creator": [
         {
           "id": "_:b43"
@@ -581,7 +581,7 @@
       "dcterms:date": "2000",
       "dcterms:isPartOf": {
         "type": "bibo:Series",
-        "taxonConceptLabel": "Schriftenreihe für Vegetationskunde"
+        "dcterms:title": "Schriftenreihe für Vegetationskunde"
       },
       "bibo:number": "34",
       "dcterms:publisher": {
