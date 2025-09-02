@@ -1,6 +1,6 @@
 {
   "@context": [
-    "https://raw.githubusercontent.com/tdwg/tcs2/master/examples/context.jsonld",
+    "https://raw.githubusercontent.com/tdwg/tcs2/refs/heads/master/examples/context.jsonld",
     {
       "typification": { "@reverse": "tcs:typifiedName", "@container": "@set" },
       "source": { "@id": "dcterms:source", "@type": "@id"}

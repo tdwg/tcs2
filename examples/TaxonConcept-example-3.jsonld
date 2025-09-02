@@ -1,5 +1,5 @@
 {
-  "@context": "https://raw.githubusercontent.com/tdwg/tcs2/master/examples/context.jsonld",
+  "@context": "https://raw.githubusercontent.com/tdwg/tcs2/refs/heads/master/examples/context.jsonld",
   "type": "TaxonConcept",
   "dcterms:title": "Calymperes moluccense sec. Yong et al. 2013",
   "accordingTo": {

@@ -1,5 +1,5 @@
 {
-  "@context": "https://raw.githubusercontent.com/tdwg/tcs2/master/examples/context.jsonld",
+  "@context": "https://raw.githubusercontent.com/tdwg/tcs2/refs/heads/master/examples/context.jsonld",
   "@graph": [
     {
       "id": "https://www.catalogueoflife.org/data/taxon/3YVTF",

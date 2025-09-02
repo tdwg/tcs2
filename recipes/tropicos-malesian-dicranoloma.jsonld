@@ -1,6 +1,6 @@
 {
   "@context": [
-    "https://raw.githubusercontent.com/tdwg/tcs2/master/examples/context.jsonld",
+    "https://raw.githubusercontent.com/tdwg/tcs2/refs/heads/master/examples/context.jsonld",
     {
       "oa": "http://www.w3.org/ns/oa#",
       "Annotation": "oa:Annotation",

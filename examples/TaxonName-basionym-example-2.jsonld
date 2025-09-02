@@ -1,5 +1,5 @@
 {
-  "@context": "https://raw.githubusercontent.com/tdwg/tcs2/master/examples/context.jsonld",
+  "@context": "https://raw.githubusercontent.com/tdwg/tcs2/refs/heads/master/examples/context.jsonld",
   "@graph": [
     {
       "id": "_:n997a7ab504af4be2b3d2eb7fbcc24e51b1",

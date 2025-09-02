@@ -1,5 +1,5 @@
 {
-  "@context": "https://raw.githubusercontent.com/tdwg/tcs2/master/examples/context.jsonld",
+  "@context": "https://raw.githubusercontent.com/tdwg/tcs2/refs/heads/master/examples/context.jsonld",
   "id": "https://id.biodiversity.org.au/instance/apni/545068",
   "type": "TaxonConcept",
   "accordingTo": "https://www.jstor.org/stable/23873848",

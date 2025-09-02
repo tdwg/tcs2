@@ -1,5 +1,5 @@
 {
-  "@context": "https://raw.githubusercontent.com/tdwg/tcs2/master/examples/context.jsonld",
+  "@context": "https://raw.githubusercontent.com/tdwg/tcs2/refs/heads/master/examples/context.jsonld",
   "type": "TaxonConcept",
   "dcterms:title": "Quercus robur sec. Duistermaat 2020",
   "accordingTo": {
