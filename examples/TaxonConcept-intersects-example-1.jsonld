@@ -38,7 +38,9 @@
             "dcterms:bibliographicCitation": "Keraudren-Aymonin, 1983"
           },
           "taxonName": "https://ipni.org/n/104440-1",
-          "synonym": "https://ipni.org/n/105731-1"
+          "synonyms": [
+            "https://ipni.org/n/105731-1"
+          ]
         }
       ]
     }

@@ -4,7 +4,9 @@
   "type": "TaxonConcept",
   "accordingTo": "https://www.jstor.org/stable/23873848",
   "taxonName": "https://ipni.org/n/802545-1",
-  "synonym": "https://ipni.org/n/802619-1",
+  "synonyms": [
+    "https://ipni.org/n/802619-1"
+  ],
   "intersects": [
     {
       "id": "https://id.biodiversity.org.au/instance/apni/713514",

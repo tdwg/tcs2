@@ -11,7 +11,9 @@
         "dcterms:title": "Euphrasia gibbsiae sec. Barker 1982",
         "accordingTo": { "id": "https://www.jstor.org/stable/23873848" },
         "taxonName": { "id": "https://ipni.org/n/802545-1" },
-        "synonym": { "id": "https://ipni.org/n/802619-1" }
+        "synonyms": [
+          { "id": "https://ipni.org/n/802619-1" }
+        ]
       },
       "objectTaxonConcept": {
         "id": "https://id.biodiversity.org.au/instance/apni/713514",

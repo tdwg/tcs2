@@ -11,8 +11,10 @@
     "type": "TaxonName",
     "nameString": "Orthetrum caledonicum"
   },
-  "vernacularName": {
-    "type": "TaxonName",
-    "nameString": "Blue Skimmer"
-  }
+  "vernacularNames": [
+    {
+      "type": "TaxonName",
+      "nameString": "Blue Skimmer"
+    }
+  ]
 }

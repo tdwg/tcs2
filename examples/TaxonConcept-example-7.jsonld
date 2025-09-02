@@ -20,9 +20,11 @@
       "dwc:namePublishedInYear": "1877"
     }
   },
-  "vernacularName": {
-    "type": "http://rs.gbif.org/terms/1.0/VernacularName",
-    "dwc:vernacularName": "Seychelles Warbler",
-    "dcterms:language": "en"
-  }
+  "vernacularNames": [
+    {
+      "type": "http://rs.gbif.org/terms/1.0/VernacularName",
+      "dwc:vernacularName": "Seychelles Warbler",
+      "dcterms:language": "en"
+    }
+  ]
 }

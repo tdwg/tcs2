@@ -7,7 +7,7 @@
       "dcterms:title": "Megalorhipida leucodactylus sec. Gielis & Hobern 2020-07-16",
       "accordingTo": "https://doi.org/10.48580/dfry-3gd#1.1.23.5",
       "taxonName": "https://zoobank.org/NomenclaturalActs/39b2f236-3914-4962-9dcc-f594671654bd",
-      "synonym": [
+      "synonyms": [
         "_:tn1", "_:tn2", "_:tn3", "_:tn4", "_:tn5", "_:tn6", 
         "_:tn7", "_:tn8", "_:tn9", "_:tn10", "_:tn11"
       ],

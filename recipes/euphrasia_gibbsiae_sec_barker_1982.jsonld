@@ -47,7 +47,7 @@
       "dcterms:title": "Euphrasia gibbsiae sec. Barker 1982",
       "accordingTo": "https://www.jstor.org/stable/23873848",
       "taxonName": "https://ipni.org/n/802545-1",
-      "synonym": [
+      "synonyms": [
         "https://ipni.org/n/802619-1"
       ],
       "intersects": [

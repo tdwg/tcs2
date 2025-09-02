@@ -11,7 +11,7 @@
       "dcterms:title": "Campylium sec. Koperski & al. 2000",
       "accordingTo": "https://tropicos.org/reference/9022656",
       "taxonName": "https://www.tropicos.org/name/35000208",
-      "synonym": [
+      "synonyms": [
         "https://www.tropicos.org/name/35000207",
         "https://www.tropicos.org/name/35000213",
         "https://www.tropicos.org/name/35000256"
@@ -46,7 +46,7 @@
       "dcterms:title": "Amblystegium sec. Koperski & al. 2000",
       "accordingTo": "https://tropicos.org/reference/9022656",
       "taxonName": "https://tropicos.org/name/35000040",
-      "synonym": [
+      "synonyms": [
         "https://tropicos.org/name/35000612"
       ],
       "rdfs:comment": "Weltweit etwa 35 Arten, in Europa 8 Arten. Abweichend von Corley & al. wird in Übereinstimmung mit Anderson & al. (1990), Ignatov & Afonina (1992), Blockeel & Long (1998) sowie Crosby & al. (1999) Leptodictyum als Gattung akzeptiert (s. auch Hedenäs 1990a).",
@@ -96,7 +96,7 @@
       "dcterms:title": "Platydictya sec. Koperski & al. 2000",
       "accordingTo": "https://www.tropicos.org/reference/9022656",
       "taxonName": "https://www.tropicos.org/name/35000970",
-      "synonym": [
+      "synonyms": [
         "https://www.tropicos.org/name/35000039"
       ],
       "rdfs:comment": "Weltweit 7 Arten, in Europa 1 Art.",

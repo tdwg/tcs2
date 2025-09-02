@@ -101,7 +101,7 @@
       "dcterms:title": "Dicranoloma armitii sec. Tan & Koponen 1983",
       "accordingTo": "https://tropicos.org/reference/9002886",
       "taxonName": "https://tropicos.org/name/35121457",
-      "synonym": [
+      "synonyms": [
         "https://tropicos.org/name/35158615",
         "https://tropicos.org/name/35121551",
         "https://tropicos.org/name/35122178"
@@ -114,7 +114,7 @@
       "dcterms:title": "Dicranoloma assimile sec. Tan & Koponen 1983",
       "accordingTo": "https://tropicos.org/reference/9002886",
       "taxonName": "https://tropicos.org/name/35121458",
-      "synonym": [
+      "synonyms": [
         "https://tropicos.org/name/35121535",
         "https://tropicos.org/name/35121569",
         "https://tropicos.org/name/35121587",
@@ -128,7 +128,7 @@
       "dcterms:title": "Dicranoloma billarderii sec. Tan & Koponen 1983",
       "accordingTo": "https://tropicos.org/reference/9002886",
       "taxonName": "https://tropicos.org/name/35121467",
-      "synonym": [
+      "synonyms": [
         "https://tropicos.org/name/35157135",
         "https://tropicos.org/name/35121488",
         "https://tropicos.org/name/35121595",
@@ -148,7 +148,7 @@
       "dcterms:title": "Dicranoloma blumei sec. Tan & Koponen 1983",
       "accordingTo": "https://tropicos.org/reference/9002886",
       "taxonName": "https://tropicos.org/name/35121475",
-      "synonym": [
+      "synonyms": [
         "https://tropicos.org/name/35121973"
       ],
       "taxonRank": "species"
@@ -175,7 +175,7 @@
       "dcterms:title": "Dicranoloma brevicapsulare sec. Eddy 1988",
       "accordingTo": "https://tropicos.org/reference/9005756",
       "taxonName": "https://tropicos.org/name/35121488",
-      "synonym": [
+      "synonyms": [
         "https://tropicos.org/name/35162124",
         "https://tropicos.org/name/35121595",
         "https://tropicos.org/name/35121635"
@@ -196,7 +196,7 @@
       "dcterms:title": "Dicranoloma brevisetum var. brevisetum sec. Tan & Koponen 1983",
       "accordingTo": "https://tropicos.org/reference/9002886",
       "taxonName": "https://tropicos.org/name/35191032",
-      "synonym": [
+      "synonyms": [
         "https://tropicos.org/name/35123679",
         "https://tropicos.org/name/35123680"
       ],
@@ -209,7 +209,7 @@
       "dcterms:title": "Dicranoloma brevisetum var. samoanum sec. Tan & Koponen 1983",
       "accordingTo": "https://tropicos.org/reference/9002886",
       "taxonName": "https://tropicos.org/name/35167976",
-      "synonym": [
+      "synonyms": [
         "https://tropicos.org/name/35121486",
         "https://tropicos.org/name/35122018",
         "https://tropicos.org/name/35186801"
@@ -271,7 +271,7 @@
       "type": "TaxonConcept",
       "dcterms:title": "Dicranoloma reflexum sec. Tan & Koponen 1983",
       "accordingTo": "https://tropicos.org/reference/9002886",
-      "synonym": [
+      "synonyms": [
         "https://tropicos.org/name/35121606",
         "https://tropicos.org/name/35121648",
         "https://tropicos.org/name/35123686",
@@ -324,7 +324,7 @@
       "dcterms:title": "Cryptodicranum armitii sec. Eddy 1988",
       "accordingTo": "https://tropicos.org/reference/9005756",
       "taxonName": "https://tropicos.org/name/35158613",
-      "synonym": [
+      "synonyms": [
         "https://tropicos.org/name/35158614",
         "https://tropicos.org/name/35158615"
       ],
@@ -336,7 +336,7 @@
       "dcterms:title": "Dicranoloma assimile s.l. sec. Eddy 1988",
       "accordingTo": "https://tropicos.org/reference/9005756",
       "taxonName": "https://tropicos.org/name/35121458",
-      "synonym": [
+      "synonyms": [
         "https://tropicos.org/name/35121483",
         "https://tropicos.org/name/35121523",
         "https://tropicos.org/name/35121455",
@@ -360,7 +360,7 @@
       "dcterms:title": "Dicranoloma assimile s.s. sec. Eddy 1988",
       "accordingTo": "https://tropicos.org/reference/9005756",
       "taxonName": "https://tropicos.org/name/35121458",
-      "synonym": [
+      "synonyms": [
         "https://tropicos.org/name/35121483",
         "https://tropicos.org/name/35121523"
       ],
@@ -388,7 +388,7 @@
       "dcterms:title": "Dicranoloma braunii sec. Eddy 1988",
       "accordingTo": "https://tropicos.org/reference/9005756",
       "taxonName": "https://tropicos.org/name/35121486",
-      "synonym": [
+      "synonyms": [
         "https://tropicos.org/name/35121452",
         "https://tropicos.org/name/35121479",
         "https://tropicos.org/name/35122011"
@@ -409,7 +409,7 @@
       "dcterms:title": "Dicranoloma fragile sec. Eddy 1988",
       "accordingTo": "https://tropicos.org/reference/9005756",
       "taxonName": "https://tropicos.org/name/35121530",
-      "synonym": [
+      "synonyms": [
         "https://tropicos.org/name/35121509"
       ],
       "taxonRank": "species"
@@ -460,7 +460,7 @@
       "dcterms:title": "Dicranoloma perarmatum sec. Eddy 1988",
       "accordingTo": "https://tropicos.org/reference/9005756",
       "taxonName": "https://tropicos.org/name/35121587",
-      "synonym": [
+      "synonyms": [
         "https://tropicos.org/name/35121569"
       ],
       "taxonRank": "species"
@@ -471,7 +471,7 @@
       "dcterms:title": "Dicranoloma reflexum s.l. sec. Eddy 1988",
       "accordingTo": "https://tropicos.org/reference/9005756",
       "taxonName": "https://tropicos.org/name/35121609",
-      "synonym": [
+      "synonyms": [
         "https://tropicos.org/name/35122238",
         "https://tropicos.org/name/35123686",
         "https://tropicos.org/name/35124046",
@@ -487,7 +487,7 @@
       "dcterms:title": "Dicranoloma reflexum s.s. sec. Eddy 1988",
       "accordingTo": "https://tropicos.org/reference/9005756",
       "taxonName": "https://tropicos.org/name/35121609",
-      "synonym": [
+      "synonyms": [
         "https://tropicos.org/name/35122238",
         "https://tropicos.org/name/35123686",
         "https://tropicos.org/name/35124046"
@@ -508,7 +508,7 @@
       "dcterms:title": "Dicranoloma armitii sec. Tan 1989",
       "accordingTo": "https://tropicos.org/reference/9006742",
       "taxonName": "https://tropicos.org/name/35121457",
-      "synonym": [
+      "synonyms": [
         "https://tropicos.org/name/35121494",
         "https://tropicos.org/name/35121551"
       ],
@@ -547,7 +547,7 @@
       "dcterms:title": "Dicranoloma assimile sec. Tan 1989",
       "accordingTo": "https://tropicos.org/reference/9006742",
       "taxonName": "https://tropicos.org/name/35121458",
-      "synonym": [
+      "synonyms": [
         "https://tropicos.org/name/35121483",
         "https://tropicos.org/name/35121523",
         "https://tropicos.org/name/35121569",
@@ -561,7 +561,7 @@
       "dcterms:title": "Dicranoloma billarderii sec. Tan 1989",
       "accordingTo": "https://tropicos.org/reference/9006742",
       "taxonName": "https://tropicos.org/name/35121467",
-      "synonym": [
+      "synonyms": [
         "https://tropicos.org/name/35121488",
         "https://tropicos.org/name/35121595",
         "https://tropicos.org/name/35121635",
@@ -575,7 +575,7 @@
       "dcterms:title": "Dicranoloma blumei sec. Tan 1989",
       "accordingTo": "https://tropicos.org/reference/9006742",
       "taxonName": "https://tropicos.org/name/35121475",
-      "synonym": [
+      "synonyms": [
         "https://tropicos.org/name/35162124"
       ],
       "taxonRank": "species"
@@ -594,7 +594,7 @@
       "dcterms:title": "Dicranoloma brevisetum sec. Tan 1989",
       "accordingTo": "https://tropicos.org/reference/9006742",
       "taxonName": "https://tropicos.org/name/35121491",
-      "synonym": [
+      "synonyms": [
         "https://tropicos.org/name/35121452",
         "https://tropicos.org/name/35121487",
         "https://tropicos.org/name/35121543",
@@ -617,7 +617,7 @@
       "dcterms:title": "Dicranoloma platycaulon sec. Tan 1989",
       "accordingTo": "https://tropicos.org/reference/9006742",
       "taxonName": "https://tropicos.org/name/35121596",
-      "synonym": [
+      "synonyms": [
         "https://tropicos.org/name/35121524"
       ],
       "taxonRank": "species"
@@ -636,7 +636,7 @@
       "dcterms:title": "Dicranoloma reflexum sec. Tan 1989",
       "accordingTo": "https://tropicos.org/reference/9006742",
       "taxonName": "https://tropicos.org/name/35121609",
-      "synonym": [
+      "synonyms": [
         "https://tropicos.org/name/35122238",
         "https://tropicos.org/name/35124046"
       ],
@@ -684,7 +684,7 @@
       "dcterms:title": "Dicranum arfakianum sec. Norris & Koponen 1990",
       "accordingTo": "https://tropicos.org/reference/9007945",
       "taxonName": "https://tropicos.org/name/35121903",
-      "synonym": [
+      "synonyms": [
         "https://tropicos.org/name/35122257"
       ],
       "taxonRank": "species"
@@ -695,7 +695,7 @@
       "dcterms:title": "Dicranum armitii sec. Norris & Koponen 1990",
       "accordingTo": "https://tropicos.org/reference/9007945",
       "taxonName": "https://tropicos.org/name/35121907",
-      "synonym": [
+      "synonyms": [
         "https://tropicos.org/name/35158614",
         "https://tropicos.org/name/35158615",
         "https://tropicos.org/name/35122178"
@@ -708,7 +708,7 @@
       "dcterms:title": "Dicranum assimile sec. Norris & Koponen 1990",
       "accordingTo": "https://tropicos.org/reference/9007945",
       "taxonName": "https://tropicos.org/name/35121913",
-      "synonym": [
+      "synonyms": [
         "https://tropicos.org/name/35121587",
         "https://tropicos.org/name/35154921"
       ],
@@ -728,7 +728,7 @@
       "dcterms:title": "Dicranum billarderii sec. Norris & Koponen 1990",
       "accordingTo": "https://tropicos.org/reference/9007945",
       "taxonName": "https://tropicos.org/name/35121960",
-      "synonym": [
+      "synonyms": [
         "https://tropicos.org/name/35123636"
       ],
       "taxonRank": "species"
@@ -739,7 +739,7 @@
       "dcterms:title": "Dicranum blumei sec. Norris & Koponen 1990",
       "accordingTo": "https://tropicos.org/reference/9007945",
       "taxonName": "https://tropicos.org/name/35121972",
-      "synonym": [
+      "synonyms": [
         "https://tropicos.org/name/35188177",
         "https://tropicos.org/name/35121477",
         "https://tropicos.org/name/35121973"
@@ -752,7 +752,7 @@
       "dcterms:title": "Dicranum braunii sec. Norris & Koponen 1990",
       "accordingTo": "https://tropicos.org/reference/9007945",
       "taxonName": "https://tropicos.org/name/35122018",
-      "synonym": [
+      "synonyms": [
         "https://tropicos.org/name/35122026",
         "https://tropicos.org/name/35123815",
         "https://tropicos.org/name/35150829"
@@ -781,7 +781,7 @@
       "dcterms:title": "Dicranum dicarpon sec. Norris & Koponen 1990",
       "accordingTo": "https://tropicos.org/reference/9007945",
       "taxonName": "https://tropicos.org/name/35122214",
-      "synonym": [
+      "synonyms": [
         "https://tropicos.org/name/35121483"
       ],
       "taxonRank": "species"
@@ -808,7 +808,7 @@
       "dcterms:title": "Dicranum rugifolium sec. Norris & Koponen 1990",
       "accordingTo": "https://tropicos.org/reference/9007945",
       "taxonName": "https://tropicos.org/name/35184276",
-      "synonym": [
+      "synonyms": [
         "https://tropicos.org/name/35121480",
         "https://tropicos.org/name/35168349"
       ],
@@ -858,7 +858,7 @@
       "dcterms:title": "Dicranoloma arfakianum sec. Klazenga 1999",
       "accordingTo": "https://tropicos.org/reference/9020903",
       "taxonName": "https://tropicos.org/name/35121455",
-      "synonym": [
+      "synonyms": [
         "https://tropicos.org/name/35122257"
       ],
       "taxonRank": "species",
@@ -870,7 +870,7 @@
       "dcterms:title": "Cryptodicranum armitii sec. Klazenga 1999",
       "accordingTo": "https://tropicos.org/reference/9020903",
       "taxonName": "https://tropicos.org/name/35158613",
-      "synonym": [
+      "synonyms": [
         "https://tropicos.org/name/35158614",
         "https://tropicos.org/name/35158615",
         "https://tropicos.org/name/35121494",
@@ -885,7 +885,7 @@
       "dcterms:title": "Dicranoloma assimile sec. Klazenga 1999",
       "accordingTo": "https://tropicos.org/reference/9020903",
       "taxonName": "https://tropicos.org/name/35121458",
-      "synonym": [
+      "synonyms": [
         "https://tropicos.org/name/35121480",
         "https://tropicos.org/name/35121523",
         "https://tropicos.org/name/35121524",
@@ -915,7 +915,7 @@
       "dcterms:title": "Dicranoloma blumei sec. Klazenga 1999",
       "accordingTo": "https://tropicos.org/reference/9020903",
       "taxonName": "https://tropicos.org/name/35121475",
-      "synonym": [
+      "synonyms": [
         "https://tropicos.org/name/35188177",
         "https://tropicos.org/name/35121477",
         "https://tropicos.org/name/35121484",
@@ -930,7 +930,7 @@
       "dcterms:title": "Dicranoloma billarderii sec. Klazenga 1999",
       "accordingTo": "https://tropicos.org/reference/9020903",
       "taxonName": "https://tropicos.org/name/35121467",
-      "synonym": [
+      "synonyms": [
         "https://tropicos.org/name/35121488",
         "https://tropicos.org/name/35121510",
         "https://tropicos.org/name/35121595",
@@ -946,7 +946,7 @@
       "dcterms:title": "Dicranoloma braunii sec. Klazenga 1999",
       "accordingTo": "https://tropicos.org/reference/9020903",
       "taxonName": "https://tropicos.org/name/35121486",
-      "synonym": [
+      "synonyms": [
         "https://tropicos.org/name/35113481",
         "https://tropicos.org/name/35121452",
         "https://tropicos.org/name/35204816",
@@ -969,7 +969,7 @@
       "dcterms:title": "Dicranoloma brevisetum sec. Klazenga 1999",
       "accordingTo": "https://tropicos.org/reference/9020903",
       "taxonName": "https://tropicos.org/name/35121491",
-      "synonym": [
+      "synonyms": [
         "https://tropicos.org/name/35186481",
         "https://tropicos.org/name/35162124",
         "https://tropicos.org/name/35204817",
@@ -995,7 +995,7 @@
       "dcterms:title": "Dicranoloma dicarpon sec. Klazenga 1999",
       "accordingTo": "https://tropicos.org/reference/9020903",
       "taxonName": "https://tropicos.org/name/35121514",
-      "synonym": [
+      "synonyms": [
         "https://tropicos.org/name/35121483",
         "https://tropicos.org/name/35182608"
       ],
@@ -1008,7 +1008,7 @@
       "dcterms:title": "Dicranoloma reflexum sec. Klazenga 1999",
       "accordingTo": "https://tropicos.org/reference/9020903",
       "taxonName": "https://tropicos.org/name/35121609",
-      "synonym": [
+      "synonyms": [
         "https://tropicos.org/name/35121606",
         "https://tropicos.org/name/35121648",
         "https://tropicos.org/name/35122238",
@@ -1069,7 +1069,7 @@
       "dcterms:title": "Dicranum psathyrum sec. Klazenga 1999",
       "accordingTo": "https://tropicos.org/reference/9020903",
       "taxonName": "https://tropicos.org/name/35204725",
-      "synonym": [
+      "synonyms": [
         "https://tropicos.org/name/35121530",
         "https://tropicos.org/name/35122365"
       ],

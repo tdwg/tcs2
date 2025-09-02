@@ -12,7 +12,7 @@
       "type": "TaxonConcept",
       "dcterms:title": "Rhododendron subgen. Pentanthera sec. Judd & Kron 1995",
       "accordingTo": "_:ref1",
-      "synonym": [
+      "synonyms": [
         "https://ipni.org/n/14620-1",
         "_:tn3"
       ],
@@ -60,7 +60,7 @@
       "dcterms:title": "Rhododendron pentaphyllum sec. Judd & Kron 1995",
       "accordingTo": "_:ref1",
       "parent": "_:tc2",
-      "synonym": [
+      "synonyms": [
         "_:tn4",
         "_:tn5",
         "https://ipni.org/n/950666-1"
@@ -102,7 +102,7 @@
       "dcterms:title": "Rhodondendron vaseyi sec. Judd & Cron 1995",
       "accordingTo": "_:ref1",
       "parent": "_:tc4",
-      "synonym": [
+      "synonyms": [
         "https://ipni.org/n/219536-2"
       ],
       "taxonName": "https://ipni.org/n/307873-2"
@@ -112,7 +112,7 @@
       "dcterms:title": "Rhodondendron canadense sec. Judd & Cron 1995",
       "accordingTo": "_:ref1",
       "parent": "_:tc4",
-      "synonym": [
+      "synonyms": [
         "https://ipni.org/n/333228-1",
         "https://ipni.org/n/219524-2",
         "_:tn8",

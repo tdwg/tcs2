@@ -12,9 +12,11 @@
     "type": "TaxonName",
     "tcs:nameString": "Quercus robur"
   },
-  "vernacularName": {
-    "type": "gbif:VernacularName",
-    "dwc:vernacularName": "Zomereik",
-    "dcterms:language": "nl"
-  }
+  "vernacularNames": [
+    {
+      "type": "gbif:VernacularName",
+      "dwc:vernacularName": "Zomereik",
+      "dcterms:language": "nl"
+    }
+  ]
 }

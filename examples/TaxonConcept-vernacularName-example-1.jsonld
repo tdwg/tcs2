@@ -11,9 +11,11 @@
     "type": "TaxonName",
     "nameString": "Graphium macleayanum"
   },
-  "vernacularName": {
-    "type": "gbif:VernacularName",
-    "dwc:vernacularName": "Macleay's Swallowtail",
-    "dcterms:language": "en"
-  }
+  "vernacularNames": [
+    {
+      "type": "gbif:VernacularName",
+      "dwc:vernacularName": "Macleay's Swallowtail",
+      "dcterms:language": "en"
+    }
+  ]
 }

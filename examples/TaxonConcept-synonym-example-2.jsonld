@@ -17,11 +17,13 @@
       "dwc:namePublishedIn": "Handb. N. Zeal. Fl. 209. (1864)"
     }
   },
-  "synonym": {
-    "id": "https://ipni.org/n/812087-1",
-    "type": "TaxonName",
-    "nameString": "Veronica hillii",
-    "dwc:scientificNameAuthorship": "Colenso",
-    "dwc:namePublishedIn": "Trans. & Proc. New Zealand Inst. 28: 606 (1896)"
-  }
+  "synonyms": [
+    {
+      "id": "https://ipni.org/n/812087-1",
+      "type": "TaxonName",
+      "nameString": "Veronica hillii",
+      "dwc:scientificNameAuthorship": "Colenso",
+      "dwc:namePublishedIn": "Trans. & Proc. New Zealand Inst. 28: 606 (1896)"
+    }
+  ]
 }

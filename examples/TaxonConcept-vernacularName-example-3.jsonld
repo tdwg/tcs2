@@ -13,7 +13,7 @@
     "dwc:scientificNameAuthorship": "(A.Cunn. ex Endl.) F.Muell.",
     "tcs:nameString": "Callitris verrucosa"
   },
-  "vernacularName": [
+  "vernacularNames": [
     {
       "type": "gbif:VernacularName",
       "dwc:vernacularName": "Scrub Cypress-pine", 

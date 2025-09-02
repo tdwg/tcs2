@@ -15,7 +15,7 @@
 			"dwc:scientificNameAuthorship": ""
     }
   },
-  "synonym": [
+  "synonyms": [
     {
       "type": "TaxonName",
       "nameString": "Aciptilia hawaiiensis",
