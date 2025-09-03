@@ -12,6 +12,7 @@ Recipes show how TCS can be applied to real-world situations.
 - [Avibase Circus cyaneus–Circus hudsonius recipe](./avibase-circus-cyaneus-hudsonius) 
 - [Rothfels & al. 2012 Eupolyploids recipe](./eupolypods-rothfels-2012)
 - [Catalogue of Life Megalorhipida leucodactylus recipe](./megalorhipida-leucodactylus-sec-gielis-et-hobern-2020)
+- [IUCN Taxonomic Status of Giraffes report recipe](./giraffes)
 
 
 ## Interface with occurrence/specimen data 
