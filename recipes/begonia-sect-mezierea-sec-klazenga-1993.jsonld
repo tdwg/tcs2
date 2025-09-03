@@ -36,15 +36,15 @@
       "id": "_:b5",
       "type": "TaxonName",
       "nameString": "Begonia sect. Mezierea",
-      "dwc:scientificNameAuthorship": "(Gaudich.) Warb.",
-      "dwc:namePublishedIn": "Nat. Pflanzenfam. 3 (6A): 139 (1894)",
+      "scientificNameAuthorship": "(Gaudich.) Warb.",
+      "namePublishedInLiteral": "Nat. Pflanzenfam. 3 (6A): 139 (1894)",
       "basionym": "https://ipni.org/n/3898-1"
     },
     {
       "id": "https://ipni.org/n/3898-1",
       "type": "TaxonName",
-      "dwc:namePublishedIn": "Voy. Bonite, Bot. 3(Atlas): t. 32 (1841)",
-      "dwc:scientificNameAuthorship": "Gaudich.",
+      "namePublishedInLiteral": "Voy. Bonite, Bot. 3(Atlas): t. 32 (1841)",
+      "scientificNameAuthorship": "Gaudich.",
       "nameString": "Mezierea",
       "typification": {
         "type": "NomenclaturalType",
@@ -55,8 +55,8 @@
     {
       "id": "_:b6",
       "type": "TaxonName",
-      "dwc:namePublishedIn": "Prodr. 15(1): 407 (1864)",
-      "dwc:scientificNameAuthorship": "A.DC.",
+      "namePublishedInLiteral": "Prodr. 15(1): 407 (1864)",
+      "scientificNameAuthorship": "A.DC.",
       "nameString": "Begonia sect. Aneupteron",
       "typification": {
         "id": "_:b12",
@@ -68,8 +68,8 @@
     {
       "id": "https://ipni.org/n/77215303-1",
       "type": "TaxonName",
-      "dwc:namePublishedIn": "Gartenflora 49: 2 (1900)",
-      "dwc:scientificNameAuthorship": "Warb.",
+      "namePublishedInLiteral": "Gartenflora 49: 2 (1900)",
+      "scientificNameAuthorship": "Warb.",
       "nameString": "Begonia sect. Exalabegonia",
       "typification": {
         "type": "NomenclaturalType",
@@ -123,8 +123,8 @@
       "id": "https://ipni.org/n/104440-1",
       "type": "TaxonName",
       "nameString": "Begonia comorensis",
-      "dwc:scientificNameAuthorship": "Warb.",
-      "dwc:namePublishedIn": "Bot. Jahrb. Syst. 22(1): 38 (1895)",
+      "scientificNameAuthorship": "Warb.",
+      "namePublishedInLiteral": "Bot. Jahrb. Syst. 22(1): 38 (1895)",
       "typification": [
         {
           "type": "NomenclaturalType",
@@ -157,16 +157,16 @@
       "id": "https://ipni.org/n/923040-1",
       "type": "TaxonName",
       "nameString": "Begonia salaziensis var. comorensis",
-      "dwc:scientificNameAuthorship": "(Warb.) L.B.Sm. & Wassh.",
-      "dwc:namePublishedIn": "Phytologia 54(7): 466 (1984)",
+      "scientificNameAuthorship": "(Warb.) L.B.Sm. & Wassh.",
+      "namePublishedInLiteral": "Phytologia 54(7): 466 (1984)",
       "basionym": "https://ipni.org/n/104440-1"
     },
     {
       "id": "https://ipni.org/n/77283357-1",
       "type": "TaxonName",
       "nameString": "Mezierea salaziensis var. comorensis",
-      "dwc:scientificNameAuthorship": "A.DC.",
-      "dwc:namePublishedIn": "Prodr. [A. P. de Candolle] 15(1): 408 (1864)",
+      "scientificNameAuthorship": "A.DC.",
+      "namePublishedInLiteral": "Prodr. [A. P. de Candolle] 15(1): 408 (1864)",
       "basionym": "https://ipni.org/n/104440-1",
       "typification": {
         "type": "NomenclaturalType",
@@ -201,8 +201,8 @@
       "id": "https://ipni.org/n/901574-1",
       "type": "TaxonName",
       "nameString": "Begonia humbertii",
-      "dwc:scientificNameAuthorship": "Keraudren",
-      "dwc:namePublishedIn": "Fl. Madagasc. Fam. 144: 100 (1983) (1983)",
+      "scientificNameAuthorship": "Keraudren",
+      "namePublishedInLiteral": "Fl. Madagasc. Fam. 144: 100 (1983) (1983)",
       "typification": [
         {
           "type": "NomenclaturalType",
@@ -263,8 +263,8 @@
       "id": "https://ipni.org/n/105197-1",
       "type": "TaxonName",
       "nameString": "Begonia meyeri-johannis Engl.",
-      "dwc:scientificNameAuthorship": "Engl.",
-      "dwc:namePublishedIn": "Abh. Königl. Akad. Wiss. Berlin 1891(2): 305 (1892)",
+      "scientificNameAuthorship": "Engl.",
+      "namePublishedInLiteral": "Abh. Königl. Akad. Wiss. Berlin 1891(2): 305 (1892)",
       "typification": {
         "type": "NomenclaturalType",
         "typeOfType": "holotype",
@@ -390,8 +390,8 @@
       "id": "https://ipni.org/n/105331-1",
       "type": "TaxonName",
       "nameString": "Begonia oxyloba",
-      "dwc:scientificNameAuthorship": "Hook.f.",
-      "dwc:namePublishedIn": "Fl. Trop. Afr. [Oliver et al.] 2: 578 (1871)",
+      "scientificNameAuthorship": "Hook.f.",
+      "namePublishedInLiteral": "Fl. Trop. Afr. [Oliver et al.] 2: 578 (1871)",
       "typification": [
         {
           "type": "NomenclaturalType",
@@ -471,8 +471,8 @@
     {
       "id": "https://ipni.org/n/104421-1",
       "type": "TaxonName",
-      "dwc:namePublishedIn": "J. Bot. 20: 113 (1882)",
-      "dwc:scientificNameAuthorship": "Baker",
+      "namePublishedInLiteral": "J. Bot. 20: 113 (1882)",
+      "scientificNameAuthorship": "Baker",
       "nameString": "Begonia cladocarpa",
       "typification": {
         "type": "NomenclaturalType",
@@ -491,8 +491,8 @@
       "id": "https://ipni.org/n/104820-1",
       "type": "TaxonName",
       "nameString": "Begonia heddei",
-      "dwc:scientificNameAuthorship": "Warb.",
-      "dwc:namePublishedIn": "Gartenflora 49: 1 (1900)",
+      "scientificNameAuthorship": "Warb.",
+      "namePublishedInLiteral": "Gartenflora 49: 1 (1900)",
       "typification": {
         "type": "NomenclaturalType",
         "typeOfType": "holotype",
@@ -509,8 +509,8 @@
       "id": "https://ipni.org/n/105026-1",
       "type": "TaxonName",
       "nameString": "Begonia lehmbachii",
-      "dwc:scientificNameAuthorship": "Warb",
-      "dwc:namePublishedIn": "Gartenfl. 49:281 (1900)",
+      "scientificNameAuthorship": "Warb",
+      "namePublishedInLiteral": "Gartenfl. 49:281 (1900)",
       "typification": [
         {
           "type": "NomenclaturalType",
@@ -578,8 +578,8 @@
       "id": "https://ipni.org/n/104451-1",
       "type": "TaxonName",
       "nameString": "Begonia conraui",
-      "dwc:scientificNameAuthorship": "Gilg",
-      "dwc:namePublishedIn": "Bot. Jahrb. Syst. 34(1): 87 (1904)",
+      "scientificNameAuthorship": "Gilg",
+      "namePublishedInLiteral": "Bot. Jahrb. Syst. 34(1): 87 (1904)",
       "typification": {
         "type": "NomenclaturalType",
         "typifiedName": "https://ipni.org/n/104451-1",
@@ -598,8 +598,8 @@
       "id": "https://ipni.org/n/104983-1",
       "type": "TaxonName",
       "nameString": "Begonia kummerae",
-      "dwc:scientificNameAuthorship": "Gilg",
-      "dwc:namePublishedIn": "Bot. Jahrb. Syst. 34(1): 87 (1904)",
+      "scientificNameAuthorship": "Gilg",
+      "namePublishedInLiteral": "Bot. Jahrb. Syst. 34(1): 87 (1904)",
       "typification": {
         "type": "NomenclaturalType",
         "typeOfType": "holotype",
@@ -617,8 +617,8 @@
       "id": "https://ipni.org/n/105419-1",
       "type": "TaxonName",
       "nameString": "Begonia petrophila",
-      "dwc:scientificNameAuthorship": "Gilg",
-      "dwc:namePublishedIn": "Bot. Jahrb. Syst. 34(1): 86 (1904)",
+      "scientificNameAuthorship": "Gilg",
+      "namePublishedInLiteral": "Bot. Jahrb. Syst. 34(1): 86 (1904)",
       "typification": {
         "type": "NomenclaturalType",
         "typifiedName": "https://ipni.org/n/105419-1",
@@ -638,8 +638,8 @@
       "id": "https://ipni.org/n/105880-1",
       "type": "TaxonName",
       "nameString": "Begonia togoensis",
-      "dwc:scientificNameAuthorship": "Gilg",
-      "dwc:namePublishedIn": "Bot. Jahrb. Syst. 34(1): 88 (1904)",
+      "scientificNameAuthorship": "Gilg",
+      "namePublishedInLiteral": "Bot. Jahrb. Syst. 34(1): 88 (1904)",
       "typification": {
         "type": "NomenclaturalType",
         "typeOfType": "holotype",
@@ -657,8 +657,8 @@
       "id": "https://ipni.org/n/105716-1",
       "type": "TaxonName",
       "nameString": "Begonia seretii",
-      "dwc:scientificNameAuthorship": "De Wild.",
-      "dwc:namePublishedIn": "Ann. Mus. Congo Belge, Bot. sér. 5, 2[1]: 59 (1907)",
+      "scientificNameAuthorship": "De Wild.",
+      "namePublishedInLiteral": "Ann. Mus. Congo Belge, Bot. sér. 5, 2[1]: 59 (1907)",
       "typification": [
         {
           "type": "NomenclaturalType",
@@ -690,8 +690,8 @@
       "id": "https://ipni.org/n/105665-1",
       "type": "TaxonName",
       "nameString": "Begonia sassandrensis",
-      "dwc:scientificNameAuthorship": "A.Chev.",
-      "dwc:namePublishedIn": "Bull. Soc. Bot. France 58(Mém. 8d): 175 (1912)",
+      "scientificNameAuthorship": "A.Chev.",
+      "namePublishedInLiteral": "Bull. Soc. Bot. France 58(Mém. 8d): 175 (1912)",
       "typification": [
         {
           "type": "NomenclaturalType",
@@ -771,8 +771,8 @@
       "id": "https://ipni.org/n/105529-1",
       "type": "TaxonName",
       "nameString": "Begonia pycnocaulis",
-      "dwc:scientificNameAuthorship": "Irmsch.",
-      "dwc:namePublishedIn": "Bot. Jahrb. Syst. 81(1-2): 180 (1961)",
+      "scientificNameAuthorship": "Irmsch.",
+      "namePublishedInLiteral": "Bot. Jahrb. Syst. 81(1-2): 180 (1961)",
       "typification": [
         {
           "type": "NomenclaturalType",
@@ -866,16 +866,16 @@
       "id": "https://ipni.org/n/105644-1",
       "type": "TaxonName",
       "nameString": "Begonia salaziensis",
-      "dwc:scientificNameAuthorship": "(Gaudich.) Warb.",
-      "dwc:namePublishedIn": "Nat. Pflanzenfam. [Engler & Prantl] iii. 6a: 139 (1894)",
+      "scientificNameAuthorship": "(Gaudich.) Warb.",
+      "namePublishedInLiteral": "Nat. Pflanzenfam. [Engler & Prantl] iii. 6a: 139 (1894)",
       "basionym": "https://ipni.org/n/106227-1"
     },
     {
       "id": "https://ipni.org/n/106227-1",
       "type": "TaxonName",
       "nameString": "Mezierea salaziensis",
-      "dwc:scientificNameAuthorship": "Gaudich.",
-      "dwc:namePublishedIn": "Voy. Bonite, Bot. 3(Atlas): t. 32 (1841)",
+      "scientificNameAuthorship": "Gaudich.",
+      "namePublishedInLiteral": "Voy. Bonite, Bot. 3(Atlas): t. 32 (1841)",
       "typification": [
         {
           "type": "NomenclaturalType",
@@ -907,8 +907,8 @@
       "id": "https://ipni.org/n/104198-1",
       "type": "TaxonName",
       "nameString": "Begonia aptera Roxb., Hort. Bengal. 104; Fl. Ind. iii. 650.",
-      "dwc:scientificNameAuthorship": "Roxb.",
-      "dwc:namePublishedIn": "Hort. Bengal. 104; Fl. Ind. iii. 650 (1832)",
+      "scientificNameAuthorship": "Roxb.",
+      "namePublishedInLiteral": "Hort. Bengal. 104; Fl. Ind. iii. 650 (1832)",
       "nomenclaturalStatus": "http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/illegitimum",
       "typification": [
         {
@@ -929,8 +929,8 @@
       "id": "https://ipni.org/n/77237080-1",
       "type": "TaxonName",
       "nameString": "Begonia mascariensis",
-      "dwc:scientificNameAuthorship": "Baker",
-      "dwc:namePublishedIn": "Fl. Mauritius 129 (1877)",
+      "scientificNameAuthorship": "Baker",
+      "namePublishedInLiteral": "Fl. Mauritius 129 (1877)",
       "nomenclaturalStatus": "http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/dubimum"
     },
 
@@ -948,8 +948,8 @@
       "id": "https://ipni.org/n/105731-1",
       "type": "TaxonName",
       "nameString": "Begonia seychellensis",
-      "dwc:scientificNameAuthorship": "Hemsl.",
-      "dwc:namePublishedIn": "J. Bot. 54(Suppl. 2): 15 (1916)",
+      "scientificNameAuthorship": "Hemsl.",
+      "namePublishedInLiteral": "J. Bot. 54(Suppl. 2): 15 (1916)",
       "typification": [
         {
           "type": "NomenclaturalType",

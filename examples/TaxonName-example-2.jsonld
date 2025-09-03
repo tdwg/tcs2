@@ -3,6 +3,6 @@
   "id": "https://ipni.org/n/316069-1",
   "type": "TaxonName",
   "nameString": "Rafflesia arnoldii",
-  "dwc:scientificNameAuthorship": "R.Br.",
-  "dwc:namePublishedIn": "Account Rafflesia 7, tt. 15-22 (1821)"
+  "scientificNameAuthorship": "R.Br.",
+  "namePublishedInLiteral": "Account Rafflesia 7, tt. 15-22 (1821)"
 }

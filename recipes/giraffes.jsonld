@@ -58,15 +58,15 @@
       "type": "TaxonName",
       "id": "zoobank:29a6803b-c1d8-4460-96c7-cc006095413f",
       "nameString": "Giraffa",
-      "dwc:scientificNameAuthorship": "Brisson",
-      "dwc:namePublishedInYear": "1762"
+      "scientificNameAuthorship": "Brisson",
+      "namePublishedInYear": "1762"
     },
     {
       "type": "TaxonName",
       "id": "zoobank:3ac03875-1c25-49a5-96c5-981b87cfa73a",
       "nameString": "Giraffa camelopardalis reticulata",
-      "dwc:scientificNameAuthorship": "de Winton",
-      "dwc:namePublishedInYear": "1899"
+      "scientificNameAuthorship": "de Winton",
+      "namePublishedInYear": "1899"
     },
     {
       "type": "TaxonName",
@@ -78,8 +78,8 @@
       "type": "TaxonName",
       "id": "zoobank:ca84d710-341e-46af-be74-f49f84c8a53c",
       "nameString": "Cervus camelopardalis",
-      "dwc:scientificNameAuthorship": "Linn.",
-      "dwc:namePublishedInYear": "1758"
+      "scientificNameAuthorship": "Linn.",
+      "namePublishedInYear": "1758"
     },
     {
       "type": "TaxonName",
@@ -97,15 +97,15 @@
       "type": "TaxonName",
       "id": "zoobank:6b9469dc-6f06-4fba-911b-c08c2667278f",
       "nameString": "Camelopardalis antiquorum",
-      "dwc:scientificNameAuthorship": "Swainson",
-      "dwc:namePublishedInYear": "1835"
+      "scientificNameAuthorship": "Swainson",
+      "namePublishedInYear": "1835"
     },
     {
       "type": "TaxonName",
       "id": "<zoobank:e6851c80-2e77-4a51-bbbc-7179249e9d5c",
       "nameString": "Camelopardalis aethiopica",
-      "dwc:scientificNameAuthorship": "Ogilby",
-      "dwc:namePublishedInYear": "1837"
+      "scientificNameAuthorship": "Ogilby",
+      "namePublishedInYear": "1837"
     },
     {
       "type": "TaxonName",
@@ -123,22 +123,22 @@
       "type": "TaxonName",
       "id": "zoobank:9cba7e21-4f14-4354-b559-36b7db538c08",
       "nameString": "Giraffa camelopardalis cottoni",
-      "dwc:scientificNameAuthorship": "Lydekker",
-      "dwc:namePublishedInYear": "1904"
+      "scientificNameAuthorship": "Lydekker",
+      "namePublishedInYear": "1904"
     },
     {
       "type": "TaxonName",
       "id": "zoobank:a3492a30-8739-4b4e-8e6f-5c09e2c34315",
       "nameString": "Giraffa camelopardalis rothschildi",
-      "dwc:scientificNameAuthorship": "Lydekker",
-      "dwc:namePublishedInYear": "1903"
+      "scientificNameAuthorship": "Lydekker",
+      "namePublishedInYear": "1903"
     },
     {
       "type": "TaxonName",
       "id": "zoobank:fc4e3aca-4e59-4fae-a052-f220b4a5c70b",
       "nameString": "Giraffa tippelskirchi",
-      "dwc:scientificNameAuthorship": "Matschie",
-      "dwc:namePublishedInYear": "1898"
+      "scientificNameAuthorship": "Matschie",
+      "namePublishedInYear": "1898"
     },
     {
       "type": "TaxonName",
@@ -156,29 +156,29 @@
       "type": "TaxonName",
       "id": "zoobank:aed6605c-7811-4260-9c4c-21b26b946e5d",
       "nameString": "Giraffa schillingsii",
-      "dwc:scientificNameAuthorship": "Matschie",
-      "dwc:namePublishedInYear": "1898"
+      "scientificNameAuthorship": "Matschie",
+      "namePublishedInYear": "1898"
     },
     {
       "type": "TaxonName",
       "id": "zoobank:f4bc8451-d2f8-41be-a900-e61af09734b6",
       "nameString": "Giraffa hagenbecki",
-      "dwc:scientificNameAuthorship": "Knottnerus-Meyer",
-      "dwc:namePublishedInYear": "1910"
+      "scientificNameAuthorship": "Knottnerus-Meyer",
+      "namePublishedInYear": "1910"
     },
     {
       "type": "TaxonName",
       "id": "zoobank:38db2575-317c-4f7c-b0d0-5a85250e5f1f",
       "nameString": "Giraffa camelopardalis congoensis",
-      "dwc:scientificNameAuthorship": "Lydekker",
-      "dwc:namePublishedInYear": "1903"
+      "scientificNameAuthorship": "Lydekker",
+      "namePublishedInYear": "1903"
     },
     {
       "type": "TaxonName",
       "id": "zoobank:c8aeee34-3551-4227-871c-13f2a52bcf02",
       "nameString": "Giraffa camelopardalis angolensis",
-      "dwc:scientificNameAuthorship": "Lydekker",
-      "dwc:namePublishedInYear": "1903"
+      "scientificNameAuthorship": "Lydekker",
+      "namePublishedInYear": "1903"
     },
     {
       "type": "TaxonName",
@@ -196,15 +196,15 @@
       "type": "TaxonName",
       "id": "zoobank:0477d1d3-3602-4bec-b4a3-11d108886065",
       "nameString": "Giraffa camelopardalis wardi",
-      "dwc:scientificNameAuthorship": "Lydekker",
-      "dwc:namePublishedInYear": "1904"
+      "scientificNameAuthorship": "Lydekker",
+      "namePublishedInYear": "1904"
     },
     {
       "type": "TaxonName",
       "id": "_:tn14",
       "nameString": "Camelopardalis capensis",
-      "dwc:scientificNameAuthorship": "Lesson",
-      "dwc:namePublishedInYear": "1842"
+      "scientificNameAuthorship": "Lesson",
+      "namePublishedInYear": "1842"
     },
     {
       "type": "TaxonName",
@@ -216,15 +216,15 @@
       "type": "TaxonName",
       "id": "<zoobank:507a1a9e-dcf8-4c92-a94d-2ad984ad8f46",
       "nameString": "Camelopardalis senaariensis",
-      "dwc:scientificNameAuthorship": "Trouessart",
-      "dwc:namePublishedInYear": "1898"
+      "scientificNameAuthorship": "Trouessart",
+      "namePublishedInYear": "1898"
     },
     {
       "type": "TaxonName",
       "id": "zoobank:4967abaa-2035-4237-85e9-3bc7ffa2259b",
       "nameString": "Giraffa camelopardalis australis",
-      "dwc:scientificNameAuthorship": "Rhoads",
-      "dwc:namePublishedInYear": "1896"
+      "scientificNameAuthorship": "Rhoads",
+      "namePublishedInYear": "1896"
     },
     {
       "type": "TaxonName",
@@ -236,8 +236,8 @@
       "type": "TaxonName",
       "id": "zoobank:a1d014fd-cdbf-4eaf-a979-100186fc2f41",
       "nameString": "Giraffa camelopardalis peralta",
-      "dwc:scientificNameAuthorship": "Thomas",
-      "dwc:namePublishedInYear": "1908"
+      "scientificNameAuthorship": "Thomas",
+      "namePublishedInYear": "1908"
     },
     {
       "type": "TaxonName",
@@ -249,15 +249,15 @@
       "type": "TaxonName",
       "id": "_:tn20",
       "nameString": "Giraffa camelopardalis renatae",
-      "dwc:scientificNameAuthorship": "Krumbiegel",
-      "dwc:namePublishedInYear": "1971"
+      "scientificNameAuthorship": "Krumbiegel",
+      "namePublishedInYear": "1971"
     },
     {
       "type": "TaxonName",
       "id": "zoobank:154d50db-6186-4760-b298-856af70de7b8",
       "nameString": "Giraffa camelopardalis thornicrofti",
-      "dwc:scientificNameAuthorship": "Lydekker",
-      "dwc:namePublishedInYear": "1903"
+      "scientificNameAuthorship": "Lydekker",
+      "namePublishedInYear": "1903"
     },
     {
       "type": "TaxonName",
@@ -275,8 +275,8 @@
       "type": "TaxonName",
       "id": "zoobank:d877e595-ff30-4d86-b4bd-39d06e5e2cf3",
       "nameString": "Camelopardalis giraffa",
-      "dwc:scientificNameAuthorship": "Schreber",
-      "dwc:namePublishedInYear": "1784"
+      "scientificNameAuthorship": "Schreber",
+      "namePublishedInYear": "1784"
     },
     {
       "type": "TaxonName",
@@ -294,8 +294,8 @@
       "type": "TaxonName",
       "id": "zoobank:be7a0080-ff1c-4857-a536-6d0016ccc1e8",
       "nameString": "Giraffa infumata",
-      "dwc:scientificNameAuthorship": "Noak",
-      "dwc:namePublishedInYear": "1908"
+      "scientificNameAuthorship": "Noak",
+      "namePublishedInYear": "1908"
     },
     {
       "type": "TaxonConcept",

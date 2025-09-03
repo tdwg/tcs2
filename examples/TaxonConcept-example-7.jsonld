@@ -11,13 +11,13 @@
   "taxonName": {
     "type": "TaxonName",
     "nameString": "Acrocephalus sechellensis",
-    "dwc:scientificNameAuthorship": "(Oustalet, J-FÉ 1877)",
+    "scientificNameAuthorship": "(Oustalet, J-FÉ 1877)",
     "basionym": {
       "type": "TaxonName",
       "nameString": "Ellisia sechellensis",
-      "dwc:scientificNameAuthorship": "Oustalet, J-FÉ 1877",
-      "dwc:namePublishedIn": "Bull. (Sci.) Soc. Philomath. [Paris] (7), 1 p.103",
-      "dwc:namePublishedInYear": "1877"
+      "scientificNameAuthorship": "Oustalet, J-FÉ 1877",
+      "namePublishedInLiteral": "Bull. (Sci.) Soc. Philomath. [Paris] (7), 1 p.103",
+      "namePublishedInYear": "1877"
     }
   },
   "vernacularNames": [

@@ -3,7 +3,7 @@
   "id": "https://tropicos.org/name/35121611",
   "type": "TaxonName",
   "nameString": "Dicranoloma robustum",
-  "dwc:scientificNameAuthorship": "(Hook.f. & Wilson) Paris",
+  "scientificNameAuthorship": "(Hook.f. & Wilson) Paris",
   "combinationAuthor": {
     "id": "https://tropicos.org/person/2011",
     "type": "foaf:Person",
@@ -32,7 +32,7 @@
     "id": "https://tropicos.org/name/35124067",
     "type": "TaxonName",
     "nameString": "Dicranum robustum",
-    "dwc:scientificNameAuthorship": "Hook.f.& Wilson",
+    "scientificNameAuthorship": "Hook.f.& Wilson",
     "combinationAuthor": {
       "@list": [
         "https://tropicos.org/person/3",

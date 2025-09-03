@@ -7,14 +7,14 @@
         "id": "https://ipni.org/n/50985479-1",
         "type": "TaxonName",
         "nameString": "Rhododendron sect. Sciadorhodion",
-        "dwc:scientificNameAuthorship": "Rehder & Wilson"
+        "scientificNameAuthorship": "Rehder & Wilson"
       },
       "typeOfType": "lectotype",
       "typeName": {
         "id": "https://ipni.org/n/333193-1",
         "type": "TaxonName",
         "nameString": "Rhododendron quinquefolium",
-        "dwc:scientificNameAuthorship": "Bisset & S.Moore"
+        "scientificNameAuthorship": "Bisset & S.Moore"
       },
       "typePublishedIn": {
         "dcterms:bibliographicCitation": "Copeland, H.F. (1943). A study, anatomical and taxonomic, of the genera of Rhododendroideae. Am. Midl. Nat. 30: 533-625"
@@ -26,7 +26,7 @@
         "id": "https://ipni.org/n/333193-1",
         "type": "TaxonName",
         "nameString": "Rhododendron quinquefolium",
-        "dwc:scientificNameAuthorship": "Bisset & S.Moore"
+        "scientificNameAuthorship": "Bisset & S.Moore"
       },
       "typeOfType": "lectotype",
       "typeSpecimen": {

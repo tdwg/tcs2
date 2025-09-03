@@ -5,27 +5,27 @@
       "id": "https://www.tropicos.org/name/35000146",
       "type": "TaxonName",
       "nameString": "Braunfelsia",
-      "dwc:scientificNameAuthorship": "Paris",
-      "dwc:namePublishedIn": "Index Bryol.: 148",
-      "dwc:namePublishedInYear": "1894",
+      "scientificNameAuthorship": "Paris",
+      "namePublishedInLiteral": "Index Bryol.: 148",
+      "namePublishedInYear": "1894",
       "replacedName": "https://www.tropicos.org/name/35001206"
     },
     {
       "id": "https://www.tropicos.org/name/35001206",
       "type": "TaxonName",
       "nameString": "Solmsia",
-      "dwc:scientificNameAuthorship": "Hampe",
-      "dwc:namePublishedIn": "Nuovo Giorn. Bot. Ital. 4(4): 273, 281",
-      "dwc:namePublishedInYear": "1872",
+      "scientificNameAuthorship": "Hampe",
+      "namePublishedInLiteral": "Nuovo Giorn. Bot. Ital. 4(4): 273, 281",
+      "namePublishedInYear": "1872",
       "nomenclaturalStatus": "illegitimate"
     },
     {
       "id": "https://ipni.org/n/39527-1",
       "type": "TaxonName",
       "nameString": "Solmsia",
-      "dwc:scientificNameAuthorship": "Baill.",
-      "dwc:namePublishedIn": "Adansonia 10: 37",
-      "dwc:namePublishedInYear": "1871"
+      "scientificNameAuthorship": "Baill.",
+      "namePublishedInLiteral": "Adansonia 10: 37",
+      "namePublishedInYear": "1871"
     }
   ]
 }

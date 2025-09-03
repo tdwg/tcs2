@@ -115,7 +115,7 @@
           "taxonName": {
             "type": "TaxonName",
             "nameString": "Megalorhipida leucodactylus",
-			      "dwc:scientificNameAuthorship": "(Fabricius, 1794)",
+			      "scientificNameAuthorship": "(Fabricius, 1794)",
             "basionym":  "https://zoobank.org/NomenclaturalActs/39b2f236-3914-4962-9dcc-f594671654bd"
           }
         },
@@ -231,73 +231,73 @@
       "id": "https://zoobank.org/NomenclaturalActs/39b2f236-3914-4962-9dcc-f594671654bd",
       "type": "TaxonName",
       "nameString": "Pterophorus leucodactylus",
-			"dwc:scientificNameAuthorship": "Fabricius, 1794"
+			"scientificNameAuthorship": "Fabricius, 1794"
     },
     {
       "id": "_:tn1",
       "type": "TaxonName",
       "nameString": "Aciptilia hawaiiensis",
-			"dwc:scientificNameAuthorship": "Butler, 1881"
+			"scientificNameAuthorship": "Butler, 1881"
     },
     {
       "id": "_:tn2",
       "type": "TaxonName",
       "nameString": "Megalorhipida palaestinensis",
-			"dwc:scientificNameAuthorship": "Amsel, 1935"
+			"scientificNameAuthorship": "Amsel, 1935"
     },
     {
       "id": "_:tn3",
       "type": "TaxonName",
       "nameString": "Pterophorus congrualis",
-			"dwc:scientificNameAuthorship": "Walker, 1864"
+			"scientificNameAuthorship": "Walker, 1864"
     },
     {
       "id": "_:tn4",
       "type": "TaxonName",
       "nameString": "Pterophorus defectalis",
-			"dwc:scientificNameAuthorship": "Walker, 1864"
+			"scientificNameAuthorship": "Walker, 1864"
     },
     {
       "id": "_:tn5",
       "type": "TaxonName",
       "nameString": "Trichoptilus adelphodes",
-			"dwc:scientificNameAuthorship": "Meyrick, 1887"
+			"scientificNameAuthorship": "Meyrick, 1887"
     },
     {
       "id": "_:tn6",
       "type": "TaxonName",
       "nameString": "Trichoptilus centetes",
-			"dwc:scientificNameAuthorship": "Meyrick, 1886"
+			"scientificNameAuthorship": "Meyrick, 1886"
     },
     {
       "id": "_:tn7",
       "type": "TaxonName",
       "nameString": "Trichoptilus compsochares",
-			"dwc:scientificNameAuthorship": "Meyrick, 1886"
+			"scientificNameAuthorship": "Meyrick, 1886"
     },
     {
       "id": "_:tn8",
       "type": "TaxonName",
       "nameString": "Trichoptilus derelictus",
-			"dwc:scientificNameAuthorship": "Meyrick, 1926"
+			"scientificNameAuthorship": "Meyrick, 1926"
     },
     {
       "id": "_:tn9",
       "type": "TaxonName",
       "nameString": "Trichoptilus ochrodactylus ",
-			"dwc:scientificNameAuthorship": "Fish, 1881"
+			"scientificNameAuthorship": "Fish, 1881"
     },
     {
       "id": "_:tn10",
       "type": "TaxonName",
       "nameString": "Trichoptilus ralumensis ",
-			"dwc:scientificNameAuthorship": "Pagenstecher, 1900"
+			"scientificNameAuthorship": "Pagenstecher, 1900"
     },
     {
       "id": "_:tn11",
       "type": "TaxonName",
       "nameString": "Pterophorus oxydactylus ",
-			"dwc:scientificNameAuthorship": "Walker, 1864"
+			"scientificNameAuthorship": "Walker, 1864"
     },
 
     {
@@ -308,7 +308,7 @@
       "taxonName": {
         "type": "TaxonName",
         "nameString": "Megalorhipida",
-			  "dwc:scientificNameAuthorship": "Amsel, 1935"
+			  "scientificNameAuthorship": "Amsel, 1935"
       },
       "taxonRank": "genus",
       "parent": "https://www.catalogueoflife.org/data/taxon/L44"
@@ -321,7 +321,7 @@
       "taxonName": {
         "type": "TaxonName",
         "nameString": "Oxyptilini",
-			  "dwc:scientificNameAuthorship": "Bigot, Gibeaux, Nel & Picard, 1998"
+			  "scientificNameAuthorship": "Bigot, Gibeaux, Nel & Picard, 1998"
       },
       "taxonRank": "tribe",
       "parent": "https://www.catalogueoflife.org/data/taxon/K8N"
@@ -334,7 +334,7 @@
       "taxonName": {
         "type": "TaxonName",
         "nameString": "Pterophorinae",
-			  "dwc:scientificNameAuthorship": "Zeller, 1841"
+			  "scientificNameAuthorship": "Zeller, 1841"
       },
       "taxonRank": "subfamily",
       "parent": "https://www.catalogueoflife.org/data/taxon/8TLBR"
@@ -347,7 +347,7 @@
       "taxonName": {
         "type": "TaxonName",
         "nameString": "Pterophoridae",
-			"dwc:scientificNameAuthorship": "Latreille, 1802"
+			"scientificNameAuthorship": "Latreille, 1802"
       },
       "taxonRank": "family",
       "parent": "https://www.catalogueoflife.org/data/taxon/B6LST"
@@ -360,7 +360,7 @@
       "taxonName": {
         "type": "TaxonName",
         "nameString": "Pterophoroidea",
-			  "dwc:scientificNameAuthorship": "Kuznetzov & Stekolnikov, 1979"
+			  "scientificNameAuthorship": "Kuznetzov & Stekolnikov, 1979"
       },
       "taxonRank": "superfamily",
       "parent": "https://www.catalogueoflife.org/data/taxon/B6L67"
@@ -373,7 +373,7 @@
       "taxonName": {
         "type": "TaxonName",
         "nameString": "Lepidoptera",
-			  "dwc:scientificNameAuthorship": "Linnaeus, 1758"
+			  "scientificNameAuthorship": "Linnaeus, 1758"
       },
       "taxonRank": "order",
       "parent": "https://www.catalogueoflife.org/data/taxon/H6"

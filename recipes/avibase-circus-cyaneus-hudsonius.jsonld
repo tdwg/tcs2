@@ -124,7 +124,7 @@
           "taxonName": {
             "type": "TaxonName",
             "nameString": "Circus cyaneus hudsonius",
-            "dwc:scientificNameAuthorship": "(Linnaeus 1766)"
+            "scientificNameAuthorship": "(Linnaeus 1766)"
           }
         }
       ]
@@ -133,13 +133,13 @@
     {
       "id": "_:tn1",
       "type": "TaxonName",
-      "dwc:scientificNameAuthorship": "(Linnaeus 1766)",
+      "scientificNameAuthorship": "(Linnaeus 1766)",
       "nameString": "Circus cyaneus"
     },
     {
       "id": "_:tn2",
       "type": "TaxonName",
-      "dwc:scientificNameAuthorship": "(Linnaeus 1766)",
+      "scientificNameAuthorship": "(Linnaeus 1766)",
       "nameString": "Circus hudsonius"
     },
     

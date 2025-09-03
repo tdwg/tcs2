@@ -64,8 +64,8 @@
             "type": "TaxonName",
             "nameString": "Stenanthemum coronatum",
             "dwc:scienctificNameAuthorship": "(Reissek) Reissek",
-            "dwc:namePublishedIn": "Linnaea 29: 295",
-            "dwc:namePublishedInYear": "1858",
+            "namePublishedInLiteral": "Linnaea 29: 295",
+            "namePublishedInYear": "1858",
             "basionym": "https://ipni.org/n/717216-1"
           },
           "accordingTo": "https://id.biodiversity.org.au/reference/apni/49840"
@@ -81,7 +81,7 @@
           "type": "TaxonName",
           "nameString": "Cryptandra coronata",
           "dwc:scienctificNameAuthorship": "Pl. Preiss. [J.G.C.Lehmann] 2(2-3): 288",
-          "dwc:namePublishedInYear": "1848"
+          "namePublishedInYear": "1848"
         },
         "typeOfType": "lectotype",
         "typeSpecimen": "https://specify.rbg.vic.gov.au/specify/view/collectionobject/739393",

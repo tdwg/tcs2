@@ -41,7 +41,7 @@
       "id": "https://ipni.org/n/306317-2",
       "type": "TaxonName",
       "nameString": "Salix arbusculoides",
-      "dwc:scientificNameAuthorship": "Andersson"
+      "scientificNameAuthorship": "Andersson"
     },
     {
       "id": "https://www.idigbio.org/portal/records/1e364de0-e016-4ace-8c7d-46a60027c4cb",

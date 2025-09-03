@@ -8,8 +8,8 @@
   "id": "https://ipni.org/n/105731-1",
   "type": "TaxonName",
   "nameString": "Begonia seychellensis",
-  "dwc:scientificNameAuthorship": "Hemsl.",
-  "dwc:namePublishedIn": "J. Bot. 54(Suppl. 2): 15 (1916)",
+  "scientificNameAuthorship": "Hemsl.",
+  "namePublishedInLiteral": "J. Bot. 54(Suppl. 2): 15 (1916)",
   "typification": [
     {
       "type": "NomenclaturalType",

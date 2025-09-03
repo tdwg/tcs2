@@ -20,13 +20,13 @@
       "id": "https://ipni.org/n/12850-2",
       "type": "TaxonName",
       "nameString": "Andropogon glomeratus",
-      "dwc:scientificNameAuthorship": "Britton, Sterns & Poggenb."
+      "scientificNameAuthorship": "Britton, Sterns & Poggenb."
     },
     {
       "id": "https://ipni.org/n/13093-2",
       "type": "TaxonName",
       "nameString": "Andropogon tenuispatheus",
-      "dwc:scientificNameAuthorship": "Nash"
+      "scientificNameAuthorship": "Nash"
     }
   ]
 }

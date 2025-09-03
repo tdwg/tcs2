@@ -3,7 +3,7 @@
   "id": "https://tropicos.org/name/35153928>",
   "type": "TaxonName",
   "nameString": "Calymperes serratum",
-  "dwc:scientificNameAuthorship": "A.Braun ex Müll.Hal.",
+  "scientificNameAuthorship": "A.Braun ex Müll.Hal.",
   "combinationAuthor": {
     "id": "https://tropicos.org/person/2",
     "type": "foaf:Person",

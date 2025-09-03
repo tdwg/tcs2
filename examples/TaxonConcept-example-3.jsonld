@@ -11,6 +11,6 @@
     "id": "https://www.tropicos.org/name/35153806",
     "type": "TaxonName",
     "nameString": "Calymperes moluccense",
-    "dwc:scientificNameAuthorship": "Schwägr."
+    "scientificNameAuthorship": "Schwägr."
   }
 }

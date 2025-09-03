@@ -65,9 +65,9 @@
             "id": "https://ipni.org/n/592841-1",
             "type": "TaxonName",
             "nameString": "Eucalyptus crebra",
-            "dwc:scientificNameAuthorship": "F.Muel.",
-            "dwc:namePublishedIn": "J. Proc. Linn. Soc., Bot. 3: 87",
-            "dwc:namePublishedInYear": "1858"
+            "scientificNameAuthorship": "F.Muel.",
+            "namePublishedInLiteral": "J. Proc. Linn. Soc., Bot. 3: 87",
+            "namePublishedInYear": "1858"
           }
         }
       },
@@ -78,9 +78,9 @@
           "id": "https://ipni.org/n/933707-1",
           "type": "TaxonName",
           "nameString": "Eucalyptus xanthoclada",
-          "dwc:scientificNameAuthorship": "Brooker & A.R.Bean",
-          "dwc:namePublishedIn": "Brunonia 10(2): 193",
-          "dwc:namePublishedInYear": "1987"
+          "scientificNameAuthorship": "Brooker & A.R.Bean",
+          "namePublishedInLiteral": "Brunonia 10(2): 193",
+          "namePublishedInYear": "1987"
         },
         "typeSpecimen": "https://specify.rbg.vic.gov.au/specify/view/collectionobject/51589"
       }

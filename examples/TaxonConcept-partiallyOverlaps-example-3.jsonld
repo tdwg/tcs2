@@ -22,7 +22,7 @@
       "id": "_:b1",
       "type": "TaxonName",
       "nameString": "Phyllotrox",
-      "dwc:scientificNameAuthorship": "Schönherr, 1843"
+      "scientificNameAuthorship": "Schönherr, 1843"
     }
   ]
 }

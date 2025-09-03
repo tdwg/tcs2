@@ -7,7 +7,7 @@
   "taxonName": { 
     "type": "TaxonName",
     "nameString": "Megalorhipida leucodactylus",
-    "dwc:scientificNameAuthorship": "(Fabricius, 1794)",
+    "scientificNameAuthorship": "(Fabricius, 1794)",
     "basionym": "https://zoobank.org/NomenclaturalActs/39b2f236-3914-4962-9dcc-f594671654bd"
   },
   "intersects": [
@@ -18,7 +18,7 @@
       "taxonName": {
         "type": "TaxonName",
         "nameString": "Pterophorus congrualis",
-        "dwc:scientificNameAuthorship": "Walker, 1864"
+        "scientificNameAuthorship": "Walker, 1864"
       }
     },
     {

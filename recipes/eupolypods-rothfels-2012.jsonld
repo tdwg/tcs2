@@ -346,105 +346,105 @@
       "id": "https://ipni.org/n/30001382-2",
       "type": "TaxonName",
       "nameString": "Aspleniaceae",
-      "dwc:scientificNameAuthorship": "Newman",
-      "dwc:namePublishedIn": "Hist. Brit. Ferns 6",
-      "dwc:namePublishedInYear": "1840"
+      "scientificNameAuthorship": "Newman",
+      "namePublishedInLiteral": "Hist. Brit. Ferns 6",
+      "namePublishedInYear": "1840"
     },
     {
       "id": "https://ipni.org/n/30000361-2",
       "type": "TaxonName",
       "nameString": "Athyriaceae",
-      "dwc:scientificNameAuthorship": "Alston",
-      "dwc:namePublishedIn": "Taxon 5: 25",
-      "dwc:namePublishedInYear": "1956"
+      "scientificNameAuthorship": "Alston",
+      "namePublishedInLiteral": "Taxon 5: 25",
+      "namePublishedInYear": "1956"
     },
     {
       "id": "https://ipni.org/n/30002151-2",
       "type": "TaxonName",
       "nameString": "Blechnaceae",
-      "dwc:scientificNameAuthorship": "Newman",
-      "dwc:namePublishedIn": "Hist. Brit. Ferns, ed. 2 8",
-      "dwc:namePublishedInYear": "1844"
+      "scientificNameAuthorship": "Newman",
+      "namePublishedInLiteral": "Hist. Brit. Ferns, ed. 2 8",
+      "namePublishedInYear": "1844"
     },
     {
       "id": "https://ipni.org/n/20001946-1",
       "type": "TaxonName",
-      "dwc:namePublishedIn": "Turczaninowia 4(1-2): 60",
-      "dwc:namePublishedInYear": "2001",
-      "dwc:scientificNameAuthorship": "(Payer) Shmakov",
+      "namePublishedInLiteral": "Turczaninowia 4(1-2): 60",
+      "namePublishedInYear": "2001",
+      "scientificNameAuthorship": "(Payer) Shmakov",
       "nameString": "Cystopteridaceae"
     },
     {
       "id": "https://ipni.org/n/17434830-1",
       "type": "TaxonName",
       "nameString": "Dennstaedtiaceae",
-      "dwc:scientificNameAuthorship": "Pic.Serm.",
-      "dwc:namePublishedIn": "Webbia 24(2): 704",
-      "dwc:namePublishedInYear": "1970"
+      "scientificNameAuthorship": "Pic.Serm.",
+      "namePublishedInLiteral": "Webbia 24(2): 704",
+      "namePublishedInYear": "1970"
     },
     {
       "id": "https://ipni.org/n/77110538-1",
       "type": "TaxonName",
-      "dwc:namePublishedIn": "Phytotaxa 19: 15",
-      "dwc:namePublishedInYear": "2011",
-      "dwc:scientificNameAuthorship": "X.C.Zhang & Christenh.",
+      "namePublishedInLiteral": "Phytotaxa 19: 15",
+      "namePublishedInYear": "2011",
+      "scientificNameAuthorship": "X.C.Zhang & Christenh.",
       "nameString": "Diplaziopsidaceae"
     },
     {
       "id": "https://ipni.org/n/30014148-2",
       "type": "TaxonName",
       "nameString": "Dryopteridaceae",
-      "dwc:scientificNameAuthorship": "Herter",
-      "dwc:namePublishedIn": "Revista Sudamer. Bot. 9: 15",
-      "dwc:namePublishedInYear": "1949"
+      "scientificNameAuthorship": "Herter",
+      "namePublishedInLiteral": "Revista Sudamer. Bot. 9: 15",
+      "namePublishedInYear": "1949"
     },
     {
       "id": "https://ipni.org/n/77114955-1",
       "type": "TaxonName",
       "nameString": "Hemidictyaceae",
-      "dwc:scientificNameAuthorship": "Christenh. & H.Schneid.",
-      "dwc:namePublishedIn": "Phytotaxa 28: 51",
-      "dwc:namePublishedInYear": "2011"
+      "scientificNameAuthorship": "Christenh. & H.Schneid.",
+      "namePublishedInLiteral": "Phytotaxa 28: 51",
+      "namePublishedInYear": "2011"
     },
     {
       "id": "https://ipni.org/n/17446060-1",
       "type": "TaxonName",
       "nameString": "Onocleaceae",
-      "dwc:scientificNameAuthorship": "Pic.Serm.",
-      "dwc:namePublishedIn": "Webbia 24(2): 708",
-      "dwc:namePublishedInYear": "1970"
+      "scientificNameAuthorship": "Pic.Serm.",
+      "namePublishedInLiteral": "Webbia 24(2): 708",
+      "namePublishedInYear": "1970"
     },
     {
       "id": "https://ipni.org/n/17436290-1",
       "type": "TaxonName",
       "nameString": "Onocleoideae",
-      "dwc:scientificNameAuthorship": "B.K.Nayar",
-      "dwc:namePublishedIn": "Taxon 19: 235",
-      "dwc:namePublishedInYear": "1970"
+      "scientificNameAuthorship": "B.K.Nayar",
+      "namePublishedInLiteral": "Taxon 19: 235",
+      "namePublishedInYear": "1970"
     },
     {
       "id": "https://ipni.org/n/77110539-1",
       "type": "TaxonName",
       "nameString": "Rhachidosoraceae",
-      "dwc:scientificNameAuthorship": "X.C.Zhang",
-      "dwc:namePublishedIn": "Phytotaxa 19: 16",
-      "dwc:namePublishedInYear": "2011"
+      "scientificNameAuthorship": "X.C.Zhang",
+      "namePublishedInLiteral": "Phytotaxa 19: 16",
+      "namePublishedInYear": "2011"
     },
     {
       "id": "https://ipni.org/n/30000455-2",
       "type": "TaxonName",
       "nameString": "Thelypteridaceae",
-      "dwc:scientificNameAuthorship": "Pic.Serm.",
-      "dwc:namePublishedIn": "Webbia 24(2): 709",
-      "dwc:namePublishedInYear": "1970"
+      "scientificNameAuthorship": "Pic.Serm.",
+      "namePublishedInLiteral": "Webbia 24(2): 709",
+      "namePublishedInYear": "1970"
     },
     {
       "id": "https://ipni.org/n/60456504-2",
       "type": "TaxonName",
       "nameString": "Woodsiaceae",
-      "dwc:scientificNameAuthorship": "Herter",
-      "dwc:namePublishedIn": "Revista Sudamer. Bot. 9: 14",
-      "dwc:namePublishedInYear": "1949"
+      "scientificNameAuthorship": "Herter",
+      "namePublishedInLiteral": "Revista Sudamer. Bot. 9: 14",
+      "namePublishedInYear": "1949"
     },
     {
       "id": "https://doi.org/10.1002/tax.613003",

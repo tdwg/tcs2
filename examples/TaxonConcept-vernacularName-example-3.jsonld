@@ -10,7 +10,7 @@
   "taxonName": {
     "id": "https://ipni.org/n/134460-3",
     "type": "TaxonName",
-    "dwc:scientificNameAuthorship": "(A.Cunn. ex Endl.) F.Muell.",
+    "scientificNameAuthorship": "(A.Cunn. ex Endl.) F.Muell.",
     "tcs:nameString": "Callitris verrucosa"
   },
   "vernacularNames": [

@@ -65,9 +65,9 @@
             "id": "https://ipni.org/n/520361-1",
             "type": "TaxonName",
             "nameString": "Templetonia stenophylla",
-            "dwc:scientificNameAuthorship": "(F.Muell.) J.M.Black",
-            "dwc:namePublishedIn": "Fl. S. Austral. 304",
-            "dwc:namePublishedInYear": "1924"
+            "scientificNameAuthorship": "(F.Muell.) J.M.Black",
+            "namePublishedInLiteral": "Fl. S. Austral. 304",
+            "namePublishedInYear": "1924"
           }
         },
         "dwciri:identifiedBy": {
@@ -84,9 +84,9 @@
           "id": "https://ipni.org/n/520357-1",
           "type": "TaxonName",
           "nameString": "Templetonia muelleri",
-          "dwc:scientificNameAuthorship": "Benth.",
-          "dwc:namePublishedIn": "Fl. Austral. 2: 169",
-          "dwc:namePublishedInYear": "1864",
+          "scientificNameAuthorship": "Benth.",
+          "namePublishedInLiteral": "Fl. Austral. 2: 169",
+          "namePublishedInYear": "1864",
           "nomenclaturalStatus": "superfluous",
           "rdfs:comment": "Templestonia muelleri Benth. includes the type of Bossiaea stenophylla F.Muell."
         },

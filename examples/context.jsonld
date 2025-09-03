@@ -21,7 +21,19 @@
       }
     },
     "TaxonConceptMapping":              "tcs:TaxonConceptMapping",
-    "TaxonName":                        "tcs:TaxonName",
+    "TaxonName": { 
+      "@id": "tcs:TaxonName",
+      "@context": {
+        "scientificNameAuthorship": "dwc:scientificNameAuthorship",
+        "namePublishedInLiteral": "namePublishedInLiteral",
+        "namePublishedInYear": "dwc:namePublishedInYear",
+        "genericName": "dwc:genericName",
+        "infragenericEpithet": "dwc:infragenericEpithet",
+        "specificEpithet": "dwc:specificEpithet",
+        "infraspecificEpithet": "dwc:infraspecificEpithet",
+        "cultivarEpithet": "dwc:cultivarEpithet"
+      }
+    },
     "NomenclaturalType":                "tcs:NomenclaturalType",
 
     "accordingTo":                      { "@type": "@id", "@id": "tcs:accordingTo" },

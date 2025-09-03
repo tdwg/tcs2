@@ -21,9 +21,9 @@
           "id": "https://www.indexfungorum.org/names/NamesRecord.asp?RecordID=17175",
           "type": "TaxonName",
           "nameString": "Boletus",
-          "dwc:scientificNameAuthorship": "L",
-          "dwc:namePublishedIn": "Sp. pl. 2: 1176" ,
-          "dwc:namePublishedInYear": "1753"
+          "scientificNameAuthorship": "L",
+          "namePublishedInLiteral": "Sp. pl. 2: 1176" ,
+          "namePublishedInYear": "1753"
         }
       }
     },

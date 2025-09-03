@@ -3,7 +3,7 @@
   "id": "https://ipni.org/n/316069-1",
   "type": "TaxonName",
   "nameString": "Rafflesia arnoldi",
-  "dwc:scientificNameAuthorship": "R.Br.",
+  "scientificNameAuthorship": "R.Br.",
   "combinationAuthor": {
     "id": "https://ipni.org/a/1192-1",
     "type": "foaf:Person",

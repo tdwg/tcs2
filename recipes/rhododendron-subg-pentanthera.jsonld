@@ -126,15 +126,15 @@
       "type": "TaxonName",
       "nomenclaturalCode": "ICN",
       "nameString": "Rhododendron subgen. Pentanthera",
-      "dwc:scientificNameAuthorship": "(G. Don) Poyarkova",
+      "scientificNameAuthorship": "(G. Don) Poyarkova",
       "basionym": "_:tn2",
-      "dwc:namePublishedIn": "Fl. SSR 18: 57 (1952)"
+      "namePublishedInLiteral": "Fl. SSR 18: 57 (1952)"
     },
     {
       "id": "_:tn2",
       "type": "TaxonName",
       "nameString": "Rhododendron sect. Pentanthera",
-      "dwc:namePublishedIn": "Gen. Syst. 3: 846 (1834)",
+      "namePublishedInLiteral": "Gen. Syst. 3: 846 (1834)",
       "typification": [
         {
           "type": "NomenclaturalType",
@@ -147,8 +147,8 @@
       "type": "TaxonName",
       "nomenclaturalCode": "ICN",
       "nameString": "Azalea subgen. Pentanthera",
-      "dwc:scientificNameAuthorship": "(G. Don) Koch",
-      "dwc:namePublishedIn": "Dendrol. 2: 186 (1872)",
+      "scientificNameAuthorship": "(G. Don) Koch",
+      "namePublishedInLiteral": "Dendrol. 2: 186 (1872)",
       "basionym": "_:tn2"
     },
     {
@@ -156,8 +156,8 @@
       "type": "TaxonName",
       "nomenclaturalCode": "ICN",
       "nameString": "Anthodendron Rchb.",
-      "dwc:scientificNameAuthorship": "Rchb.",
-      "dwc:namePublishedIn": "Moessl. Handb. i. p. xl. 244, 308 (1827)",
+      "scientificNameAuthorship": "Rchb.",
+      "namePublishedInLiteral": "Moessl. Handb. i. p. xl. 244, 308 (1827)",
       "typification": [
         {
           "type": "NomenclaturalType",
@@ -170,8 +170,8 @@
       "type": "TaxonName",
       "nomenclaturalCode": "ICN",
       "nameString": "Rhododendron subgen. Anthodendron",
-      "dwc:scientificNameAuthorship": "Anthodendron (Reichenbach) Rehder",
-      "dwc:namePublishedIn": "Monogr. Azaleas 115 (1921)",
+      "scientificNameAuthorship": "Anthodendron (Reichenbach) Rehder",
+      "namePublishedInLiteral": "Monogr. Azaleas 115 (1921)",
       "basionym": "https://ipni.org/n/14620-1"
     },
     {
@@ -179,8 +179,8 @@
       "type": "TaxonName",
       "nomenclaturalCode": "ICN",
       "nameString": "Rhododendron subgen. Pseudanthodendron",
-      "dwc:scientificNameAuthorship": "Sleumer",
-      "dwc:namePublishedIn": "Bot. Jahrb. Syst. 74: 550 (1949)",
+      "scientificNameAuthorship": "Sleumer",
+      "namePublishedInLiteral": "Bot. Jahrb. Syst. 74: 550 (1949)",
       "typification": [
         {
           "type": "NomenclaturalType",
@@ -194,16 +194,16 @@
       "type": "TaxonName",
       "nomenclaturalCode": "ICN",
       "nameString": "Rhododendron luteum",
-      "dwc:scientificNameAuthorship": "Sweet",
-      "dwc:namePublishedIn": "Hort. Brit. [Sweet], ed. 2. 343 (1830)"
+      "scientificNameAuthorship": "Sweet",
+      "namePublishedInLiteral": "Hort. Brit. [Sweet], ed. 2. 343 (1830)"
     },
     {
       "id": "https://ipni.org/n/50985479-1",
       "type": "TaxonName",
       "nomenclaturalCode": "ICN",
       "nameString": "Rhododendron sect. Sciadorhodion",
-      "dwc:scientificNameAuthorship": "Rehder & Wilson",
-      "dwc:namePublishedIn": "Monogr. Azaleas 79 (1921)",
+      "scientificNameAuthorship": "Rehder & Wilson",
+      "namePublishedInLiteral": "Monogr. Azaleas 79 (1921)",
       "typification": [
         {
           "type": "NomenclaturalType",
@@ -216,8 +216,8 @@
       "type": "TaxonName",
       "nomenclaturalCode": "ICN",
       "nameString": "Azalea subgen. Sciadorhodion (Rehder & Wilson) Copeland",
-      "dwc:scientificNameAuthorship": "(Rehder & Wilson) Copeland",
-      "dwc:namePublishedIn": "Am. Midi. Nat. 30: 597 (1943)",
+      "scientificNameAuthorship": "(Rehder & Wilson) Copeland",
+      "namePublishedInLiteral": "Am. Midi. Nat. 30: 597 (1943)",
       "basionym": "https://ipni.org/n/50985479-1"
     },
     {
@@ -225,8 +225,8 @@
       "type": "TaxonName",
       "nomenclaturalCode": "ICN",
       "nameString": "Rhododendron schlippenbachii",
-      "dwc:scientificNameAuthorship": "Maxim.",
-      "dwc:namePublishedIn": "Bull. Acad. Sci. St Pétersbourg, ser. 3 15 (1870)",
+      "scientificNameAuthorship": "Maxim.",
+      "namePublishedInLiteral": "Bull. Acad. Sci. St Pétersbourg, ser. 3 15 (1870)",
       "typification": [
         {
           "type": "NomenclaturalType",
@@ -274,16 +274,16 @@
       "type": "TaxonName",
       "nomenclaturalCode": "ICN",
       "nameString": "Azalea schlippenbachii",
-      "dwc:scientificNameAuthorship": "(Maxim.) Kuntze",
-      "dwc:namePublishedIn": "Revis. Gen.Pl. 2:387 (1891)",
+      "scientificNameAuthorship": "(Maxim.) Kuntze",
+      "namePublishedInLiteral": "Revis. Gen.Pl. 2:387 (1891)",
       "basionym": "https://ipni.org/n/333307-1"
     },
     {
       "type": "TaxonName",
       "nomenclaturalCode": "ICN",
       "nameString": "Azalea schlippenbachii",
-      "dwc:scientificNameAuthorship": "(Maxim.) Kuntze",
-      "dwc:namePublishedIn": "Revis. Gen.Pl. 2:387 (1891)",
+      "scientificNameAuthorship": "(Maxim.) Kuntze",
+      "namePublishedInLiteral": "Revis. Gen.Pl. 2:387 (1891)",
       "basionym": "https://ipni.org/n/333307-1"
     },
     {
@@ -291,8 +291,8 @@
       "type": "TaxonName",
       "nomenclaturalCode": "ICN",
       "nameString": "Rhododendron quinquefolium",
-      "dwc:scientificNameAuthorship": "Bisset & S.Moore",
-      "dwc:namePublishedIn": "J. Bot. 15: 292 (1877)",
+      "scientificNameAuthorship": "Bisset & S.Moore",
+      "namePublishedInLiteral": "J. Bot. 15: 292 (1877)",
       "typification": [
         {
           "type": "NomenclaturalType",
@@ -313,8 +313,8 @@
       "type": "TaxonName",
       "nomenclaturalCode": "ICN",
       "nameString": "Azalea quinquefolia",
-      "dwc:scientificNameAuthorship": "(Bisset & S.Moore) Olmsted et al.",
-      "dwc:namePublishedIn": "Stand. Pl. Names 27 (1923)",
+      "scientificNameAuthorship": "(Bisset & S.Moore) Olmsted et al.",
+      "namePublishedInLiteral": "Stand. Pl. Names 27 (1923)",
       "basionym": "https://ipni.org/n/333193-1"
     },
     {
@@ -322,8 +322,8 @@
       "type": "TaxonName",
       "nomenclaturalCode": "ICN",
       "nameString": "Rhododendron quinquefolium f. speciosum",
-      "dwc:scientificNameAuthorship": "N. Yonezawa",
-      "dwc:namePublishedIn": "J. Phytogeogr. Taxon. 35(2): 101 (1987)",
+      "scientificNameAuthorship": "N. Yonezawa",
+      "namePublishedInLiteral": "J. Phytogeogr. Taxon. 35(2): 101 (1987)",
       "typification:": [
         {
           "type": "NomenclaturalType",
@@ -345,8 +345,8 @@
       "type": "TaxonName",
       "nomenclaturalCode": "ICN",
       "nameString": "Rhododendron pentaphyllum",
-      "dwc:scientificNameAuthorship": "Maxim.",
-      "dwc:namePublishedIn": "Bull. Acad. Sci. St Petersbourg, ser. 3, 31:65 (1887)",
+      "scientificNameAuthorship": "Maxim.",
+      "namePublishedInLiteral": "Bull. Acad. Sci. St Petersbourg, ser. 3, 31:65 (1887)",
       "typification": [
         {
           "type": "NomenclaturalType",
@@ -365,7 +365,7 @@
     {
       "id": "https://ipni.org/n/326897-1",
       "type": "TaxonName",
-      "dwc:scientificNameAuthorship": " (Maxim.) H.F.Copel.",
+      "scientificNameAuthorship": " (Maxim.) H.F.Copel.",
       "namePublishedIn": "_:ref1",
       "nomenclaturalCode": "ICN",
       "nameString": "Azalea pentaphylla",
@@ -376,8 +376,8 @@
       "type": "TaxonName",
       "nomenclaturalCode": "ICN",
       "nameString": "Rhododendron pentaphyllum var. nikoense",
-      "dwc:scientificNameAuthorship": "Komatsu",
-      "dwc:namePublishedIn": "Icon. Pl. Koisikav. 3: 45, t 168 (1916)",
+      "scientificNameAuthorship": "Komatsu",
+      "namePublishedInLiteral": "Icon. Pl. Koisikav. 3: 45, t 168 (1916)",
       "typification": [
         {
           "type": "NomenclaturalType",
@@ -395,16 +395,16 @@
       "type": "TaxonName",
       "nomenclaturalCode": "ICN",
       "nameString": "Rhododendron quinquefolium var. roseum",
-      "dwc:scientificNameAuthorship": "Rehder",
-      "dwc:namePublishedIn": "Bailey, Stand. Cycl. Hort. 5: 2947 (1916)"
+      "scientificNameAuthorship": "Rehder",
+      "namePublishedInLiteral": "Bailey, Stand. Cycl. Hort. 5: 2947 (1916)"
     },
     {
       "id": "https://ipni.org/n/950666-1",
       "type": "TaxonName",
       "nomenclaturalCode": "ICN",
       "nameString": "Rhododendron pentaphyllum var. shikokianum",
-      "dwc:scientificNameAuthorship": "T. Yamazaki",
-      "dwc:namePublishedIn": "Jap. Bot. 63: 312 (1988)", 
+      "scientificNameAuthorship": "T. Yamazaki",
+      "namePublishedInLiteral": "Jap. Bot. 63: 312 (1988)", 
       "typification": [
         {
           "type": "NomenclaturalType",
@@ -427,8 +427,8 @@
       "type": "TaxonName",
       "nomenclaturalCode": "ICN",
       "nameString": "Rhododendron albrechtii",
-      "dwc:scientificNameAuthorship": "Maxim.",
-      "dwc:namePublishedIn": "Bull. Acad. Sci. Sci. St Pétersbourg, sér. 3, 15: 227 (1870)",
+      "scientificNameAuthorship": "Maxim.",
+      "namePublishedInLiteral": "Bull. Acad. Sci. Sci. St Pétersbourg, sér. 3, 15: 227 (1870)",
       "typification": [
         {
           "type": "NomenclaturalType",
@@ -450,16 +450,16 @@
       "type": "TaxonName",
       "nomenclaturalCode": "ICN",
       "nameString": "Azalea albrechtii",
-      "dwc:scientificNameAuthorship": "(Maxim.) Kuntze",
+      "scientificNameAuthorship": "(Maxim.) Kuntze",
       "basionym": "https://ipni.org/n/331902-1",
-      "dwc:namePublishedIn": "Revis. Gen.Pl. 2:387 (1892)"
+      "namePublishedInLiteral": "Revis. Gen.Pl. 2:387 (1892)"
     },
     {
       "id": "_:tn6",
       "type": "TaxonName",
       "nameString": "Rhododendron sect. Viscidula",
-      "dwc:scientificNameAuthorship": "Matsum. & Nakai",
-      "dwc:namePublishedIn": "Bot. Mag. (Tokyo) 30: 289 (1916)",
+      "scientificNameAuthorship": "Matsum. & Nakai",
+      "namePublishedInLiteral": "Bot. Mag. (Tokyo) 30: 289 (1916)",
       "typification": [
         {
           "type": "NomenclaturalType",
@@ -473,8 +473,8 @@
       "type": "TaxonName",
       "nomenclaturalCode": "ICN",
       "nameString": "Rhododendron nipponicum",
-      "dwc:scientificNameAuthorship": "Matsum",
-      "dwc:namePublishedIn": "Bot. Mag. (Tokyo) 13: 17 (1899)",
+      "scientificNameAuthorship": "Matsum",
+      "namePublishedInLiteral": "Bot. Mag. (Tokyo) 13: 17 (1899)",
       "typification": [
         {
           "type": "NomenclaturalType",
@@ -499,8 +499,8 @@
       "type": "TaxonName",
       "nomenclaturalCode": "ICN",
       "nameString": "Azalea nipponica",
-      "dwc:scientificNameAuthorship": "(Matsum.) H.F.Copel.",
-      "dwc:namePublishedIn": "Amer. Midl. Naturalist xxx. 595 (1943), in obs.",
+      "scientificNameAuthorship": "(Matsum.) H.F.Copel.",
+      "namePublishedInLiteral": "Amer. Midl. Naturalist xxx. 595 (1943), in obs.",
       "basionym": "https://ipni.org/n/332960-1"
     },
     {
@@ -508,8 +508,8 @@
       "type": "TaxonName",
       "nomenclaturalCode": "ICN",
       "nameString": "Rhododendron sect. Rhodora",
-      "dwc:scientificNameAuthorship": "(L.) G.Don",
-      "dwc:namePublishedIn": "Gen. Syst. 3: 848 (1834)",
+      "scientificNameAuthorship": "(L.) G.Don",
+      "namePublishedInLiteral": "Gen. Syst. 3: 848 (1834)",
       "basionym": "https://ipni.org/n/14860-1"
     },
     {
@@ -517,8 +517,8 @@
       "type": "TaxonName",
       "nomenclaturalCode": "ICN",
       "nameString": "Rhodora",
-      "dwc:scientificNameAuthorship": "L.",
-      "dwc:namePublishedIn": "Sp. Pl. ed. 2, 1: 561 (1762)",
+      "scientificNameAuthorship": "L.",
+      "namePublishedInLiteral": "Sp. Pl. ed. 2, 1: 561 (1762)",
       "typification": [
         {
           "type": "NomenclaturalType",
@@ -532,8 +532,8 @@
       "type": "TaxonName",
       "nomenclaturalCode": "ICN",
       "nameString": "Hochenwartia",
-      "dwc:scientificNameAuthorship": "Crantz",
-      "dwc:namePublishedIn": "Inst. Rei Herb. 2: 468 (1766)"
+      "scientificNameAuthorship": "Crantz",
+      "namePublishedInLiteral": "Inst. Rei Herb. 2: 468 (1766)"
     },
     {
       "type": "TaxonName",
@@ -547,8 +547,8 @@
       "type": "TaxonName",
       "nomenclaturalCode": "ICN",
       "nameString": "Rhododendron vaseyi",
-      "dwc:scientificNameAuthorship": "A.Gray",
-      "dwc:namePublishedIn": "Proc. Amer. Acad. Arts 15: 48 (1879)",
+      "scientificNameAuthorship": "A.Gray",
+      "namePublishedInLiteral": "Proc. Amer. Acad. Arts 15: 48 (1879)",
       "typification": [
         {
           "type": "NomenclaturalType",
@@ -605,17 +605,17 @@
       "type": "TaxonName",
       "nomenclaturalCode": "ICN",
       "nameString": "Azalea vaseyi",
-      "dwc:scientificNameAuthorship": "(A.Gray) Rehder",
+      "scientificNameAuthorship": "(A.Gray) Rehder",
       "basionym": "https://ipni.org/n/307873-2",
-      "dwc:namePublishedIn": "Möller's Deutsche Gärtn.-Zeitung 14: 332 (1899)"
+      "namePublishedInLiteral": "Möller's Deutsche Gärtn.-Zeitung 14: 332 (1899)"
     },
     {
       "id": "https://ipni.org/n/33213-2",
       "type": "TaxonName",
       "nomenclaturalCode": "ICN",
       "nameString": "Biltia vaseyi",
-      "dwc:scientificNameAuthorship": "(A.Gray) Small",
-      "dwc:namePublishedIn": "Fl. S.E. U.S. [Small]. 884, 1336 (1903)",
+      "scientificNameAuthorship": "(A.Gray) Small",
+      "namePublishedInLiteral": "Fl. S.E. U.S. [Small]. 884, 1336 (1903)",
       "basionym": "https://ipni.org/n/307873-2"
     },
     {
@@ -623,16 +623,16 @@
       "type": "TaxonName",
       "nomenclaturalCode": "ICN",
       "nameString": "Rhododendron vaseyi f. album",
-      "dwc:scientificNameAuthorship": "Rehder",
-      "dwc:namePublishedIn": "Mitt. Deutsch. Dendrol. Ges. 1915: 225 (1915)"
+      "scientificNameAuthorship": "Rehder",
+      "namePublishedInLiteral": "Mitt. Deutsch. Dendrol. Ges. 1915: 225 (1915)"
     },
     {
       "id": "https://ipni.org/n/1203750-2",
       "type": "TaxonName",
       "nomenclaturalCode": "ICN",
       "nameString": "Rhododendron canadense (L.) Torr.",
-      "dwc:scientificNameAuthorship": "(L.) Torr.",
-      "dwc:namePublishedIn": "Rep. Bot. Dep. Surv. New York, no. 50, Assembly 151 (1841)",
+      "scientificNameAuthorship": "(L.) Torr.",
+      "namePublishedInLiteral": "Rep. Bot. Dep. Surv. New York, no. 50, Assembly 151 (1841)",
       "basionym": "https://ipni.org/n/311891-2"
     },
     {
@@ -640,16 +640,16 @@
       "type": "TaxonName",
       "nomenclaturalCode": "ICN",
       "nameString": "Rhodora canadensis L.",
-      "dwc:scientificNameAuthorship": "L.",
-      "dwc:namePublishedIn": "Sp. Pl., ed. 2. 1: 561 (1762)"
+      "scientificNameAuthorship": "L.",
+      "namePublishedInLiteral": "Sp. Pl., ed. 2. 1: 561 (1762)"
     },
     {
       "id": "https://ipni.org/n/330854-1",
       "type": "TaxonName",
       "nomenclaturalCode": "ICN",
       "nameString": "Hochenwartia canadensis",
-      "dwc:scientificNameAuthorship": "Crantz",
-      "dwc:namePublishedIn": "Inst. Rei Herb. 2: 469 (1766)",
+      "scientificNameAuthorship": "Crantz",
+      "namePublishedInLiteral": "Inst. Rei Herb. 2: 469 (1766)",
       "basionym": "https://ipni.org/n/311891-2"
     },
     {
@@ -657,8 +657,8 @@
       "type": "TaxonName",
       "nomenclaturalCode": "ICN",
       "nameString": "Azalea canadensis",
-      "dwc:scientificNameAuthorship": "(L.) Kuntze",
-      "dwc:namePublishedIn": "Revis. Gen. Pl. 2: 386 (1891)",
+      "scientificNameAuthorship": "(L.) Kuntze",
+      "namePublishedInLiteral": "Revis. Gen. Pl. 2: 386 (1891)",
       "basionym": "https://ipni.org/n/311891-2"
     },
     {
@@ -666,8 +666,8 @@
       "type": "TaxonName",
       "nomenclaturalCode": "ICN",
       "nameString": "Rhododendron rhodora",
-      "dwc:scientificNameAuthorship": "J.F.Gmel.",
-      "dwc:namePublishedIn": "Syst. Nat., ed. 13[bis]. 2(1): 694 (1791)",
+      "scientificNameAuthorship": "J.F.Gmel.",
+      "namePublishedInLiteral": "Syst. Nat., ed. 13[bis]. 2(1): 694 (1791)",
       "nomenclaturalStatus": "superfluous"
     },
     {
@@ -675,8 +675,8 @@
       "type": "TaxonName",
       "nomenclaturalCode": "ICN",
       "nameString": "Rhododendron rhodora f. albiflorum",
-      "dwc:scientificNameAuthorship": "E.L.Rand & Redfield",
-      "dwc:namePublishedIn": "Fl. Mt. Desert Isl. 127 (1894)",
+      "scientificNameAuthorship": "E.L.Rand & Redfield",
+      "namePublishedInLiteral": "Fl. Mt. Desert Isl. 127 (1894)",
       "typification": [
         {
           "type": "NomenclaturalType",
@@ -701,8 +701,8 @@
       "type": "TaxonName",
       "nomenclaturalCode": "ICN",
       "nameString": "Rhododendron canadense f. albiflorum",
-      "dwc:scientificNameAuthorship": "(E.L.Rand & Redfield) Rheder",
-      "dwc:namePublishedIn": "Monogr. Azaleas [E.H. Wilson & A. Rehder] 122 (1921)",
+      "scientificNameAuthorship": "(E.L.Rand & Redfield) Rheder",
+      "namePublishedInLiteral": "Monogr. Azaleas [E.H. Wilson & A. Rehder] 122 (1921)",
       "basionym": "https://ipni.org/n/219524-2"
     },
     {
@@ -710,15 +710,15 @@
       "type": "TaxonName",
       "nomenclaturalCode": "ICN",
       "nameString": "Rhododendron canadense f. album",
-      "dwc:scientificNameAuthorship": "Voss",
-      "dwc:namePublishedIn": "Vilmorin's Blumengartn. 1: 587 ([1894-]1896)"
+      "scientificNameAuthorship": "Voss",
+      "namePublishedInLiteral": "Vilmorin's Blumengartn. 1: 587 ([1894-]1896)"
     },
     {
       "id": "https://ipni.org/n/219459-2",
       "type": "TaxonName",
       "nameString": "Rhododendron canadense f. viridifolium",
-      "dwc:scientificNameAuthorship": "Fernald",
-      "dwc:namePublishedIn": "Monogr. Azaleas [E.H. Wilson & A. Rehder] 122 (1921)",
+      "scientificNameAuthorship": "Fernald",
+      "namePublishedInLiteral": "Monogr. Azaleas [E.H. Wilson & A. Rehder] 122 (1921)",
       "typification": [
         {
           "type": "NomenclaturalType",
@@ -756,7 +756,7 @@
       "id": "_:tn9",
       "type": "TaxonName",
       "nameString": "Rhododendron flavum",
-      "dwc:scientificNameAuthorship": "G.Don"
+      "scientificNameAuthorship": "G.Don"
     },
 
     {

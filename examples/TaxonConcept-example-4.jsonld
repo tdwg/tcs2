@@ -12,7 +12,7 @@
     "id": "https://ipni.org/n/105644-1",
     "type": "TaxonName",
     "nameString": "Begonia salaziensis",
-    "dwc:scientificNameAuthorship": "Warb.",
-    "dwc:namePublishedIn": "Nat. Pflanzenfam. [Engler & Prantl] iii. 6 a. (1894) 139."
+    "scientificNameAuthorship": "Warb.",
+    "namePublishedInLiteral": "Nat. Pflanzenfam. [Engler & Prantl] iii. 6 a. (1894) 139."
   }
 }

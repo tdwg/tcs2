@@ -72,9 +72,9 @@
             "id": "https://ipni.org/n/703183-1",
             "type": "TaxonName",
             "nameString": "Banksia serrata",
-            "dwc:scientificNameAuthorship": "L.f.",
-            "dwc:namePublishedIn": "Suppl. Pl. 126",
-            "dwc:namePublishedInYear": "1782"
+            "scientificNameAuthorship": "L.f.",
+            "namePublishedInLiteral": "Suppl. Pl. 126",
+            "namePublishedInYear": "1782"
           },
           "accordingTo": "https://id.biodiversity.org.au/reference/apni/42312"
         }

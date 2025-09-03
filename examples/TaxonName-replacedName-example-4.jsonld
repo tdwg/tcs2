@@ -5,9 +5,9 @@
       "id": "https://ipni.org/n/471632-1",
       "type": "TaxonName",
       "nameString": "Acacia tenuifolia",
-      "dwc:scientificNameAuthorship": "F.Muell.",
-      "dwc:namePublishedIn": "Trans. Philos. Soc. Victoria 1: 37",
-      "dwc:namePublishedInYear": "1855",
+      "scientificNameAuthorship": "F.Muell.",
+      "namePublishedInLiteral": "Trans. Philos. Soc. Victoria 1: 37",
+      "namePublishedInYear": "1855",
       "nomenclaturalStatus": "illegitimate",
       "rdf:seeAlso": [
         { "id": "https://ipni.org/n/81578-3" },
@@ -19,8 +19,8 @@
       "type": "TaxonName",
       "nameString": "Acacia aculeatissima",
       "dwc:scientiticNameAuthorship": "J.F.Macbr.",
-      "dwc:namePublishedIn": "Contr. Gray Herb. 59: 6",
-      "dwc:namePublishedInYear": "1919",
+      "namePublishedInLiteral": "Contr. Gray Herb. 59: 6",
+      "namePublishedInYear": "1919",
       "replacedName": { "id": "https://ipni.org/n/471632-1" },
       "rdf:seeAlso": [
         { "id": "https://ipni.org/n/56412-3" },
@@ -31,8 +31,8 @@
       "id": "https://ipni.org/n/60428094-2",
       "type": "TaxonName",
       "nameString": "Racosperma aculeatissimum",
-      "dwc:scientificNameAuthorship": "(J.F.Macbr.) Pedley",
-      "dwc:namePublishedIn": "2011",
+      "scientificNameAuthorship": "(J.F.Macbr.) Pedley",
+      "namePublishedInLiteral": "2011",
       "replacedName": { "id": "https://ipni.org/n/17567870-1" },
       "rdf:seeAlso": { "id": "https://id.biodiversity.org.au/instance/apni/51432623" }
     }

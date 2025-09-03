@@ -3,6 +3,6 @@
   "id": "http://www.indexfungorum.org/names/NamesRecord.asp?RecordID=178962",
   "type": "TaxonName",
   "nameString": "Amanita phalloides",
-  "dwc:scientificNameAuthorship": "(Vaill. ex Fr.) Link",
-  "dwc:namePublishedIn": "Handb. Erk. Gew. 3: 272 (1833)"
+  "scientificNameAuthorship": "(Vaill. ex Fr.) Link",
+  "namePublishedInLiteral": "Handb. Erk. Gew. 3: 272 (1833)"
 }
