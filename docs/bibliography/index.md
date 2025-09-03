@@ -17,6 +17,11 @@ Concept-Based Taxonomic Information Model. In MoReTax: Handling Factual
 Information Linked to Taxonomic Concepts in Biology, Schriftenreihe für 
 Vegetationskunde 39, 15–42.
 
+<a id="dagg_giraffa_1971"></a>**[dagg_giraffa_1971]**
+: Dagg, A.I., 1971. Giraffa camelopardalis. Mammalian Species 1–8.
+[doi:10.2307/3503830](https://doi.org/10.2307/3503830)
+
+
 <a id="darwin_core_and_rdfowl_task_groups_darwin_2015"></a>**[darwin_core_and_rdfowl_task_groups_darwin_2015]**
 : Darwin Core and RDF/OWL Task Groups (2015) Darwin Core RDF guide, Darwin Core.
 &lt;[https://dwc.tdwg.org/rdf/](https://dwc.tdwg.org/rdf/)&gt;.
@@ -31,11 +36,20 @@ relationships among taxonomic concepts. Systematics and Biodiversity, 7(1),
 5–20.
 [doi:10.1017/S147720000800282X](https://doi.org/10.1017/S147720000800282X).
 
+<a id="groves_ungulate_2011"></a>**[groves_ungulate_2011]**
+: Groves, C., Grubb, P., 2011. Ungulate taxonomy. The John Hopkins University
+Press, Baltimore.
+
 <a id="greuter_draft_2011"></a>**[greuter_draft_2011]**
 : Greuter, W., G. Garrity, D. L. Hawksworth, R. Jahn, P. M. Kirk, S. Knapp, J.
 McNeill, et al., 2011. Draft BioCode (2011): Principles and Rules Regulating the
 Naming of Organisms. Taxon 60(1), 201–12.
 [doi:10.1002/tax.601019](https://doi.org/10.1002/tax.601019).
+
+<a id="iucn_ssc_giraffe_and_okapi_specialist_group_taxonomic_task_force_evaluation_2025"></a>**[iucn_ssc_giraffe_and_okapi_specialist_group_taxonomic_task_force_evaluation_2025]**
+: IUCN SSC Giraffe and Okapi Specialist Group Taxonomic Task Force, 2025. An
+evaluation of the taxonomic status of giraffe (Giraffa spp.). IUCN SSC Giraffe
+and Okapi Specialist Group, Windhoek, Namibia.
 
 <a id="judd_revision_1995"></a>**[judd_revision_1995]**
 : Judd, W.S. and Kron, K.A., 1995. A revision of Rhododendron VI. Subgenus
@@ -65,6 +79,19 @@ Godesberg.
 : Lepage, D., Vaidya, G., Guralnick, R., 2014. Avibase – a database system for
 managing and organizing taxonomic concepts. ZooKeys 420, 117–135.
 [doi:10.3897/zookeys.420.7089](https://doi.org/10.3897/zookeys.420.7089)
+
+<a id="lydekker_subspecies_2004"></a>**[lydekker_subspecies_1904]**
+: Lydekker, R., 1904. On the Subspecies of Giraffa camelopardalis. Proceedings
+of the Zoological Society of London 74, 202–229.
+[doi:10.1111/j.1469-7998.1904.tb08288.x](https://doi.org/10.1111/j.1469-7998.1904.tb08288.x)
+
+<a id="muller_giraffa_2018"></a>**[muller_giraffa_2018]**
+: Muller, Z., Bercovitch, F., Brand, R., Brown, D., Brown, M., Bolger, D.,
+Carter, K., Deacon, F., Doherty, J.B., Fennessy, J., Fennessy, S., Hussein,
+A.A., Lee, D., Marais, A., Strauss, M., Tutchings, A. & Wube, T. 2018. Giraffa
+camelopardalis (amended version of 2016 assessment). The IUCN Red List of
+Threatened Species 2018: e.T9194A136266699.
+[doi:10.2305/IUCN.UK.2016-3.RLTS.T9194A136266699.en](https://dx.doi.org/10.2305/IUCN.UK.2016-3.RLTS.T9194A136266699.en)
 
 <a id="norris_bryophyte_1990"></a>**[norris_bryophytes_1990]** 
 : Norris, D.H., Koponen, T., 1990. Bryophyte flora of the Huon Peninsula, Papua

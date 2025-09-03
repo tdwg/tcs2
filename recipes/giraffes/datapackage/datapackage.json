@@ -1,0 +1,378 @@
+{
+  "name" : "iucn-giraffes-2025",
+  "title" : "IUCN Taxonomic Status of Giraffes Report Recipe",
+  "resources": [
+    {
+      "name": "TaxonConcept",
+      "path": "TaxonConcept.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "$schema": "https://datapackage.org/profiles/2.0/tabledialect.json",
+        "fields": [
+          {
+            "name": "ID",
+            "type": "string",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "taxonConceptLabel",
+            "type": "string"
+          },
+          {
+            "name": "taxonNameID",
+            "type": "string",
+            "constraints": {
+              "required": true
+            },
+            "rdfType": "http://rs.tdwg.org/tcs/terms/TaxonName"
+          },
+          {
+            "name": "accordingToID",
+            "type": "string",
+            "constraints": {
+              "required": true
+            },
+            "rdfType": "http://purl.org/dc/terms/BibliographicResource"
+          },
+          {
+            "name": "taxonRank",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "genus",
+                "species",
+                "subspecies"
+              ]
+            } 
+          },
+          {
+            "name": "parentID",
+            "type": "string",
+            "rdfType": "http://rs.tdwg.org/tcs/terms/TaxonConcept"
+          }
+        ],
+        "primaryKey": ["ID"],
+        "foreignKeys": [
+          {
+            "fields": ["taxonNameID"],
+            "reference": {
+              "resource": "TaxonName",
+              "fields": ["ID"]
+            }
+          },
+          {
+            "fields": ["accordingToID"],
+            "reference": {
+              "resource": "BibliographicResource",
+              "fields": "ID"
+            }
+          },
+          {
+            "fields": ["parentID"],
+            "reference": {
+              "resource": "TaxonConcept",
+              "fields": ["ID"]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "TaxonConceptMapping",
+      "path": "TaxonConceptMapping.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "$schema": "https://datapackage.org/profiles/2.0/tabledialect.json",
+        "fields": [
+          {
+            "name": "subjectTaxonConceptID",
+            "type": "string",
+            "rdfType": "http://rs.tdwg.org/tcs/terms/TaxonConcept",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "mappingRelation",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "isCongruentWith",
+                "includes",
+                "isIncludedIn",
+                "partiallyOverlaps",
+                "isDisjointFrom"
+              ]
+            }
+          },
+          {
+            "name": "objectTaxonConceptID",
+            "type": "string",
+            "rdfType": "http://rs.tdwg.org/tcs/terms/TaxonConcept",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "remarks",
+            "type": "string"
+          },
+          {
+            "name": "source",
+            "type": "string"
+          },
+          {
+            "name": "creator",
+            "type": "string"
+          },
+          {
+            "name": "created",
+            "type": "string"
+          }
+        ],
+        "foreignKeys": [
+          {
+            "fields": ["subjectTaxonConceptID"],
+            "reference": {
+              "resource": "TaxonConcept",
+              "fields": ["ID"]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "TaxonName",
+      "path": "TaxonName.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "$schema": "https://datapackage.org/profiles/2.0/tabledialect.json",
+        "fields": [
+          {
+            "name": "ID",
+            "type": "string",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "nameString",
+            "type": "string",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "scientificNameAuthorship",
+            "type": "string"
+          },
+          {
+            "name": "namePublishedInYear",
+            "type": "string"
+          },
+          {
+            "name": "basionymID",
+            "type": "string"
+          },
+          {
+            "name": "replacedNameID",
+            "type": "string"
+          },
+          {
+            "name": "basedOnID",
+            "type": "string"
+          }
+        ],
+        "primaryKey": ["ID"],
+        "foreignKeys": [
+          {
+            "fields": ["basionymID"],
+            "reference": {
+              "resource": "TaxonName",
+              "fields": ["ID"]
+            }
+          },
+          {
+            "fields": ["replacedNameID"],
+            "reference": {
+              "resource": "TaxonName",
+              "fields": ["ID"]
+            }
+          },
+          {
+            "fields": ["basedOnID"],
+            "reference": {
+              "resource": "TaxonName",
+              "fields": ["ID"]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Synonym",
+      "path": "Synonym.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "$schema": "https://datapackage.org/profiles/2.0/tabledialect.json",
+        "fields": [
+          {
+            "name": "taxonConceptID",
+            "type": "string",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "taxonNameID",
+            "type": "string",
+            "constraints": {
+              "required": true
+            }
+          }
+        ],
+        "foreignKeys": [
+          {
+            "fields": ["taxonConceptID"],
+            "reference": {
+              "resource": "TaxonConcept",
+              "fields": ["ID"]
+            }
+          },
+          {
+            "fields": ["taxonNameID"],
+            "reference": {
+              "resource": "TaxonName",
+              "fields": ["ID"]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "VernacularName",
+      "path": "VernacularName.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "$schema": "https://datapackage.org/profiles/2.0/tabledialect.json",
+        "fields": [
+          {
+            "name": "taxonConceptID",
+            "type": "string",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "vernacularName",
+            "type": "string",
+            "constraints": {
+              "required": true
+            }
+          }          
+        ],
+        "foreignKeys": [
+          {
+            "fields": ["taxonConceptID"],
+            "reference": {
+              "resource": "TaxonConcept",
+              "fields": ["ID"]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "BibliographicResource",
+      "path": "BibliographicResource.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "$schema": "https://datapackage.org/profiles/2.0/tabledialect.json",
+        "fields": [
+          {
+            "name": "ID",
+            "type": "string"
+          },
+          {
+            "name": "referenceTypeType",
+            "type": "string"
+          },
+          {
+            "name": "publicationYear",
+            "type": "string"
+          },
+          {
+            "name": "creator",
+            "type": "string"
+          },
+          {
+            "name": "title",
+            "type": "string"
+          },
+          {
+            "name": "publicationTitle",
+            "type": "string"
+          },
+          {
+            "name": "isbn",
+            "type": "string"
+          },
+          {
+            "name": "issn",
+            "type": "string"
+          },
+          {
+            "name": "doi",
+            "type": "string"
+          },
+          {
+            "name": "uri",
+            "type": "string"
+          },
+          {
+            "name": "date",
+            "type": "string"
+          },
+          {
+            "name": "pages",
+            "type": "string"
+          },
+          {
+            "name": "numPages",
+            "type": "string"
+          },
+          {
+            "name": "issue",
+            "type": "string"
+          },
+          {
+            "name": "volume",
+            "type": "string"
+          },
+          {
+            "name": "publisher",
+            "type": "string"
+          },
+          {
+            "name": "place",
+            "type": "string"
+          }
+        ]
+      }
+    }
+  ]
+}

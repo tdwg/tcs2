@@ -36,6 +36,11 @@ _:a0 a foaf:Person ;
     dwc:scientificNameAuthorship "Brisson" ;
     dwc:namePublishedInYear "1762" .
 
+<https://zoobank.org/NomenclaturalActs/092ff21a-bd6b-4eb3-a27b-c74943868b9e> a tcs:TaxonName ;
+    tcs:nameString "Camelopardalis" ;
+    dwc:scientificNameAuthorship "Schreber" ;
+    dwc:namePublishedInYear "1784" .
+
 _:tn0 a tcs:TaxonName ;
     tcs:nameString "Giraffa reticulata" ;
     tcs:basionym  <zoobank:3ac03875-1c25-49a5-96c5-981b87cfa73a> .
@@ -62,6 +67,11 @@ _:tn2 a tcs:TaxonName ;
     tcs:nameString "Camelopardalis antiquorum" ;
     dwc:scientificNameAuthorship "Swainson" ;
     dwc:namePublishedInYear "1835" .
+
+<zoobank:e6851c80-2e77-4a51-bbbc-7179249e9d5c> a tcs:TaxonName ;
+    tcs:nameString "Camelopardalis aethiopica" ;
+    dwc:scientificNameAuthorship "Ogilby" ;
+    dwc:namePublishedInYear "1837" .
 
 _:tn17 a tcs:TaxonName ;
     tcs:nameString "Giraffa antiquorum" ;
@@ -99,6 +109,11 @@ _:tn26 a tcs:TaxonName ;
     dwc:scientificNameAuthorship "Matschie" ;
     dwc:namePublishedInYear "1898" .
 
+<zoobank:f4bc8451-d2f8-41be-a900-e61af09734b6> a tcs:TaxonName ;
+    tcs:nameString "Giraffa hagenbecki" ;
+    dwc:scientificNameAuthorship "Knottnerus-Meyer" ;
+    dwc:namePublishedInYear "1910" .
+
 <zoobank:38db2575-317c-4f7c-b0d0-5a85250e5f1f> a tcs:TaxonName ;
     tcs:nameString "Giraffa camelopardalis congoensis" ;
     dwc:scientificNameAuthorship "Lydekker" ;
@@ -130,6 +145,11 @@ _:tn14 a tcs:TaxonName ;
 _:tn10 a tcs:TaxonName ;
     tcs:nameString "Giraffa camelopardalis capensis" ;
     tcs:basionym _:tn14 .
+
+<zoobank:507a1a9e-dcf8-4c92-a94d-2ad984ad8f46> a tcs:TaxonName ;
+    tcs:nameString "Camelopardalis senaariensis" ;
+    dwc:scientificNameAuthorship "Trouessart" ;
+    dwc:namePublishedInYear "1898" .
 
 _:tn15 a tcs:TaxonName ;
     tcs:nameString "Giraffa australis" ;
@@ -167,6 +187,10 @@ _:tn28 a tcs:TaxonName ;
     tcs:nameString "Giraffa tippelskirchi thornicrofti" ;
     tcs:basionym <zoobank:154d50db-6186-4760-b298-856af70de7b8> .
 
+-:tn30 a tcs:TaxonName ;
+    tcs:nameString "Giraffa camelopardalis thornicrofti" ;
+    tcs:basionym <zoobank:154d50db-6186-4760-b298-856af70de7b8> .
+
 <zoobank:d877e595-ff30-4d86-b4bd-39d06e5e2cf3> a tcs:TaxonName ;
     tcs:nameString "Camelopardalis giraffa" ;
     dwc:scientificNameAuthorship "Schreber" ;
@@ -180,25 +204,45 @@ _:tn27 a tcs:TaxonName ;
     tcs:nameString "Giraffa giraffa giraffa" ;
     tcs:basedOn _:tn22 .
 
+<_:tn31 a tcs:TaxonName ;
+    tcs:nameString "Giraffa camelopardalis giraffa" ;
+    tcs:basedOn _:tn22 .
+
 <zoobank:be7a0080-ff1c-4857-a536-6d0016ccc1e8> a tcs:TaxonName ;
     tcs:nameString "Giraffa infumata" ;
     dwc:scientificNameAuthorship "Noak" ;
     dwc:namePublishedInYear "1908" .
 
+<zoobank:5bdb022d-954d-42d4-b6ca-a273af39789f> a tcs:TaxonName ;
+    tcs:nameString "Giraffa reticulata nigrescens" ;
+    dwc:scientificNameAuthorship "Lydekker" ;
+    dwc:namePublishedInYear "1911" .
+
+_:tc31 a tcs:TaxonConcept ;
+    dcterms:title "Giraffa sec. Lydekker 1904"
+    tcs:taxonName <zoobank:29a6803b-c1d8-4460-96c7-cc006095413f> ;
+    tcs:accordingTo <https://doi.org/10.1111/j.1469-7998.1904.tb08288.x> ;
+    tcs:taxonRank <http://rs.gbif.org/vocabulary/gbif/rank/genus> ;
+    tcs:vernacularName [ a gbif:VernacularName ;
+            dwc:vernacularName "Giraffe" ] .
 
 _:tc0 a tcs:TaxonConcept ;
     dcterms:title "Giraffa reticulata sec. Lydekker 1904";
     tcs:taxonName _:tn0 ;
     tcs:accordingTo <https://doi.org/10.1111/j.1469-7998.1904.tb08288.x> ;
     tcs:taxonRank <http://rs.gbif.org/vocabulary/gbif/rank/species> ;
+    tcs:parentTaxonConcept _:tc31 ;
     tcs:vernacularName [ a gbif:VernacularName ;
-            dwc:vernacularName "Reticulated giraffe"] .
+            dwc:vernacularName "Reticulated giraffe"] ;
+    rdfs:comment """\"I reserve the point as to whether a tramition between this 
+            [G. reticulata] and the next [G. camelopardalis] may not exist.\"""" .
 
 _:tc1 a tcs:TaxonConcept ;
     dcterms:title "Giraffa camelopardalis sec. Lydekker 1904" ;
     tcs:taxonName _:tn1 ;
     tcs:accordingTo <https://doi.org/10.1111/j.1469-7998.1904.tb08288.x> ;
     tcs:taxonRank <http://rs.gbif.org/vocabulary/gbif/rank/species> ;
+    tcs:parentTaxonConcept _:tc31 ;
     tcs:vernacularName [ a gbif:VernacularName ;
             dwc:vernacularName "Blotched giraffe"] .
 
@@ -294,6 +338,122 @@ _:tc11 a tcs:TaxonConcept ;
             dwc:vernacularName "Nigerian giraffe" ] ;
     tcs:parentTaxonConcept _:tc1 .
 
+
+<https://doi.org/10.2307/3503830> a bibo:AcademicArticle ;
+    dcterms:title "Giraffa camelopardalis" ;
+    bibo:uri "https://doi.org/10.2307/3503830" ;
+    bibo:pages "1-8" ;
+    bibo:doi "10.2307/3503830" ;
+    dcterms:creator _:a6 ;
+    bibo:authorList [ a rdf:Seq ;
+            rdf:_1 _:a6 ] ;
+    dcterms:isPartOf [ a bibo:Issue ;
+            dcterms:date "1971-01-19" ;
+            bibo:issue "5" ;
+            dcterms:isPartOf [ a bibo:Journal ;
+                    dcterms:title "Mammalian Species" ;
+                    bibo:issn "0076-3519" ]] .
+
+_:a6 a foaf:Person ;
+    foaf:givenName "Anne Innis" ;
+    foaf:surname "Dagg" .
+
+_:tc34 a tcs:TaxonConcept ;
+    dcterms:title "Giraffa sec. Dagg 1971" ;
+    tcs:taxonName <zoobank:29a6803b-c1d8-4460-96c7-cc006095413f> ;
+    tcs:accordingTo <https://doi.org/10.2307/3503830> ;
+    tcs:taxonRank <http://rs.gbif.org/vocabulary/gbif/rank/genus> ;
+    tcs:synonym <https://zoobank.org/NomenclaturalActs/092ff21a-bd6b-4eb3-a27b-c74943868b9e> .
+
+_:tc35 a tcs:TaxonConcept ;
+    dcterms:title "Giraffa camelopardalis sec. Dagg 1971" ;
+    tcs:taxonName _:tn1 ;
+    tcs:accordingTo <https://doi.org/10.2307/3503830> ;
+    tcs:taxonRank <http://rs.gbif.org/vocabulary/gbif/rank/species> ;
+    tcs:parentTaxonConcept _:tc34 ;
+    tcs:synonym <zoobank:d877e595-ff30-4d86-b4bd-39d06e5e2cf3> ,
+        <zoobank:6b9469dc-6f06-4fba-911b-c08c2667278f> ,
+        <zoobank:e6851c80-2e77-4a51-bbbc-7179249e9d5c> ,
+        _:tn14 ,
+        <zoobank:507a1a9e-dcf8-4c92-a94d-2ad984ad8f46> ,
+        <zoobank:fc4e3aca-4e59-4fae-a052-f220b4a5c70b> ,
+        <zoobank:aed6605c-7811-4260-9c4c-21b26b946e5d> ,
+        <zoobank:f4bc8451-d2f8-41be-a900-e61af09734b6> .
+
+_:tc36 a tcs:TaxonConcept ;
+    dcterms:title "Giraffa camelopardalis camelopardalis sec. Dagg 1971" ;
+    tcs:taxonName _:tn2 ;
+    tcs:accordingTo <https://doi.org/10.2307/3503830> ;
+    tcs:taxonRank <http://rs.gbif.org/vocabulary/gbif/rank/subspecies> ;
+    tcs:parentTaxonConcept _:tc35 ;
+    tcs:synonym <zoobank:e6851c80-2e77-4a51-bbbc-7179249e9d5c> .
+
+_:tc37 a tcs:TaxonConcept ;
+    dcterms:title "Giraffa camelopardalis antiquorum sec. Dagg 1971" ;
+    tcs:taxonName _:tn3 ;
+    tcs:accordingTo <https://doi.org/10.2307/3503830> ;
+    tcs:taxonRank <http://rs.gbif.org/vocabulary/gbif/rank/subspecies> ;
+    tcs:parentTaxonConcept _:tc35 ;
+    tcs:synonym <zoobank:507a1a9e-dcf8-4c92-a94d-2ad984ad8f46> .
+
+_:tc38 a tcs:TaxonConcept ;
+    dcterms:title "Giraffa camelopardalis peralta sec. Dagg 1971" ;
+    tcs:taxonName <zoobank:a1d014fd-cdbf-4eaf-a979-100186fc2f41> ;
+    tcs:accordingTo <https://doi.org/10.2307/3503830> ;
+    tcs:taxonRank <http://rs.gbif.org/vocabulary/gbif/rank/subspecies> ;
+    tcs:parentTaxonConcept _:tc35 .
+
+_:tc39 a tcs:TaxonConcept ;
+    dcterms:title "Giraffa camelopardalis reticulata sec. Dagg 1971" ;
+    tcs:taxonName <zoobank:3ac03875-1c25-49a5-96c5-981b87cfa73a> ;
+    tcs:accordingTo <https://doi.org/10.2307/3503830> ;
+    tcs:taxonRank <http://rs.gbif.org/vocabulary/gbif/rank/subspecies> ;
+    tcs:parentTaxonConcept _:tc35 ;
+    tcs:synonym <zoobank:f4bc8451-d2f8-41be-a900-e61af09734b6> ,
+        <zoobank:5bdb022d-954d-42d4-b6ca-a273af39789f> .
+
+_:tc40 a tcs:TaxonConcept ;
+    dcterms:title "Giraffa camelopardalis rothschildi sec. Dagg 1971" ;
+    tcs:taxonName <zoobank:a3492a30-8739-4b4e-8e6f-5c09e2c34315> ;
+    tcs:accordingTo <https://doi.org/10.2307/3503830> ;
+    tcs:taxonRank <http://rs.gbif.org/vocabulary/gbif/rank/subspecies> ;
+    tcs:parentTaxonConcept _:tc35 ;
+    tcs:synonym <zoobank:9cba7e21-4f14-4354-b559-36b7db538c08> .
+
+_:tc41 a tcs:TaxonConcept ;
+    dcterms:title "Giraffa camelopardalis tippelskirchi sec. Dagg 1971" ;
+    tcs:taxonName _:tn6 ;
+    tcs:accordingTo <https://doi.org/10.2307/3503830> ;
+    tcs:taxonRank <http://rs.gbif.org/vocabulary/gbif/rank/subspecies> ;
+    tcs:parentTaxonConcept _:tc35 ;
+    tcs:synonym <zoobank:aed6605c-7811-4260-9c4c-21b26b946e5d> .
+
+_:tc42 a tcs:TaxonConcept ;
+    dcterms:title "Giraffa camelopardalis thornicrofti sec. Dagg 1971" ;
+    tcs:taxonName _:tn30 ;
+    tcs:accordingTo <https://doi.org/10.2307/3503830> ;
+    tcs:taxonRank <http://rs.gbif.org/vocabulary/gbif/rank/subspecies> ;
+    tcs:parentTaxonConcept _:tc35 .
+
+_:tc43 a tcs:TaxonConcept ;
+    dcterms:title "Giraffa camelopardalis angolensis sec. Dagg 1971" ;
+    tcs:taxonName <zoobank:c8aeee34-3551-4227-871c-13f2a52bcf02> ;
+    tcs:accordingTo <https://doi.org/10.2307/3503830> ;
+    tcs:taxonRank <http://rs.gbif.org/vocabulary/gbif/rank/subspecies> ;
+    tcs:parentTaxonConcept _:tc35 ;
+    tcs:synonym <zoobank:be7a0080-ff1c-4857-a536-6d0016ccc1e8> .
+
+_:tc44 a tcs:TaxonConcept ;
+    dcterms:title "Giraffa camelopardalis giraffa sec. Dagg 1971" ;
+    tcs:taxonName _:tn31 ;
+    tcs:accordingTo <https://doi.org/10.2307/3503830> ;
+    tcs:taxonRank <http://rs.gbif.org/vocabulary/gbif/rank/subspecies> ;
+    tcs:parentTaxonConcept _:tc35 ;
+    tcs:synonym _:tn14 , 
+        _:tn15 , 
+        <zoobank:0477d1d3-3602-4bec-b4a3-11d108886065> .
+
+
 <urn:isbn:978-1-4214-0093-8> a bibo:Book ;
     dcterms:title "Ungulate taxonomy" ;
     dcterms:date "2011" ;
@@ -316,11 +476,20 @@ _:a4 a foaf:Person ;
     foaf:surname "Grubb" .
 
 
+_:tc32 a tcs:TaxonConcept ;
+    dcterms:title "Giraffa sec. Groves & Grubb 2011"
+    tcs:taxonName <zoobank:29a6803b-c1d8-4460-96c7-cc006095413f> ;
+    tcs:accordingTo <urn:isbn:978-1-4214-0093-8> ;
+    tcs:taxonRank <http://rs.gbif.org/vocabulary/gbif/rank/genus> ;
+    tcs:vernacularName [ a gbif:VernacularName ;
+            dwc:vernacularName "Giraffe" ] .
+
 _:tc12 a tcs:TaxonConcept ;
     dcterms:title "Giraffa camelopardalis sec. Groves & Grubb 2011" ;
     tcs:taxonName _:tn1 ;
     tcs:accordingTo <urn:isbn:978-1-4214-0093-8> ;
     tcs:taxonRank <http://rs.gbif.org/vocabulary/gbif/rank/species> ;
+    tcs:parentTaxonConcept _:tc32 ;
     tcs:vernacularName [ a gbif:VernacularName ;
             dwc:vernacularName "Nubian giraffe" ] ,
         [ a gbif:VernacularName ;
@@ -333,6 +502,7 @@ _:tc13 a tcs:TaxonConcept ;
     tcs:taxonName _:tn0 ;
     tcs:accordingTo <urn:isbn:978-1-4214-0093-8> ;
     tcs:taxonRank <http://rs.gbif.org/vocabulary/gbif/rank/species> ;
+    tcs:parentTaxonConcept _:tc32 ;
     tcs:vernacularName [ a gbif:VernacularName ;
             dwc:vernacularName "Reticulated giraffe" ] .
 
@@ -341,6 +511,7 @@ _:tc14 a tcs:TaxonConcept ;
     tcs:taxonName _:tn17 ; 
     tcs:accordingTo <urn:isbn:978-1-4214-0093-8> ;
     tcs:taxonRank <http://rs.gbif.org/vocabulary/gbif/rank/species> ;
+    tcs:parentTaxonConcept _:tc32 ;
     tcs:vernacularName [ a gbif:VernacularName ;
             dwc:vernacularName "Kordofan giraffe" ] ;
     tcs:synonym <zoobank:38db2575-317c-4f7c-b0d0-5a85250e5f1f> .
@@ -350,6 +521,7 @@ _:tc15 a tcs:TaxonConcept ;
     tcs:taxonName <zoobank:a1d014fd-cdbf-4eaf-a979-100186fc2f41> ;
     tcs:accordingTo <urn:isbn:978-1-4214-0093-8> ;
     tcs:taxonRank <http://rs.gbif.org/vocabulary/gbif/rank/species> ;
+    tcs:parentTaxonConcept _:tc32 ;
     tcs:vernacularName [ a gbif:VernacularName ;
             dwc:vernacularName "West African giraffe" ] ;
     tcs:synonym _:tn20 .
@@ -359,6 +531,7 @@ _:tc16 a tcs:TaxonConcept ;
     tcs:taxonName <zoobank:fc4e3aca-4e59-4fae-a052-f220b4a5c70b> ;
     tcs:accordingTo <urn:isbn:978-1-4214-0093-8> ;
     tcs:taxonRank <http://rs.gbif.org/vocabulary/gbif/rank/species> ;
+    tcs:parentTaxonConcept _:tc32 ;
     tcs:vernacularName [ a gbif:VernacularName ;
             dwc:vernacularName "Maasai giraffe" ] ,
         [ a gbif:VernacularName ;
@@ -370,6 +543,7 @@ _:tc17 a tcs:TaxonConcept ;
     tcs:taxonName _:tn21 ;
     tcs:accordingTo <urn:isbn:978-1-4214-0093-8> ;
     tcs:taxonRank <http://rs.gbif.org/vocabulary/gbif/rank/species> ;
+    tcs:parentTaxonConcept _:tc32 ;
     tcs:vernacularName [ a gbif:VernacularName ;
             dwc:vernacularName "Luangwa giraffe" ] .
 
@@ -378,6 +552,7 @@ _:tc18 a tcs:TaxonConcept ;
     tcs:taxonName _:tn22 ;
     tcs:accordingTo <urn:isbn:978-1-4214-0093-8> ;
     tcs:taxonRank <http://rs.gbif.org/vocabulary/gbif/rank/species> ;
+    tcs:parentTaxonConcept _:tc32 ;
     tcs:vernacularName [ a gbif:VernacularName ;
             dwc:vernacularName "Cape giraffe" ] ;
     tcs:synonym _:tn14 , 
@@ -389,6 +564,7 @@ _:tc19 a tcs:TaxonConcept ;
     tcs:taxonName _:tn25 ;
     tcs:accordingTo <urn:isbn:978-1-4214-0093-8> ;
     tcs:taxonRank <http://rs.gbif.org/vocabulary/gbif/rank/species> ;
+    tcs:parentTaxonConcept _:tc32 ;
     tcs:vernacularName [ a gbif:VernacularName ;
             dwc:vernacularName "Angolan giraffe" ] .
 
@@ -407,24 +583,31 @@ _:a5 a foaf:Organization ;
     foaf:name "IUCN SSC Giraffe and Okapi Specialist Group Taxonomic Task Force" .
 
 
+_:tc33 a tcs:TaxonConcept ;
+    dcterms:title "Giraffa sec. IUCN 2025" ;
+    tcs:taxonName <zoobank:29a6803b-c1d8-4460-96c7-cc006095413f> ;
+    tcs:accordingTo _:ref0 ;
+    tcs:taxonRank <http://rs.gbif.org/vocabulary/gbif/rank/genus> ;
+    tcs:vernacularName [ a gbif:VernacularName ;
+            dwc:vernacularName "Giraffe" ] .
+
 _:tc20 a tcs:TaxonConcept ;
     dcterms:title "Giraffa camelopardalis sec. IUCN 2025" ;
     tcs:taxonName _:tn1 ;
     tcs:accordingTo _:ref0 ;
     tcs:taxonRank <http://rs.gbif.org/vocabulary/gbif/rank/species> ;
+    tcs:parentTaxonConcept _:tc33 ;
     tcs:vernacularName [ a gbif:VernacularName ;
-            dwc:vernacularName "Northern giraffe" ] ;
-    tcs:includes _:tc12 , _:tc15 , _:tc14.
+            dwc:vernacularName "Northern giraffe" ] .
 
 _:tc21 a tcs:TaxonConcept ;
     dcterms:title "Giraffa camelopardalis peralta sec. IUCN 2025" ;
     tcs:taxonName <zoobank:a1d014fd-cdbf-4eaf-a979-100186fc2f41> ;
     tcs:accordingTo _:ref0 ;
     tcs:taxonRank <http://rs.gbif.org/vocabulary/gbif/rank/subspecies> ;
-    tcs:vernacularName [ a gbif:VernacularName ;
-            dwc:vernacularName "West African giraffe" ] ;
     tcs:parentTaxonConcept _:tc20 ;
-    tcs:isCongruentWith _:tc15 .
+    tcs:vernacularName [ a gbif:VernacularName ;
+            dwc:vernacularName "West African giraffe" ] .
 
 _:tc22 a tcs:TaxonConcept ;
     dcterms:title "Giraffa camelopardalis antiquorum sec. IUCN 2025" ;
@@ -433,8 +616,7 @@ _:tc22 a tcs:TaxonConcept ;
     tcs:taxonRank <http://rs.gbif.org/vocabulary/gbif/rank/subspecies> ;
     tcs:vernacularName [ a gbif:VernacularName ;
             dwc:vernacularName "Kordofan giraffe" ] ;
-    tcs:parentTaxonConcept _:tc20 ;
-    tcs:isCongruentWith _:tc14 .
+    tcs:parentTaxonConcept _:tc20 .
 
 _:tc23 a tcs:TaxonConcept ;
     dcterms:title "Giraffa camelopardalis camelopardalis sec. IUCN 2025" ;
@@ -443,102 +625,164 @@ _:tc23 a tcs:TaxonConcept ;
     tcs:taxonRank <http://rs.gbif.org/vocabulary/gbif/rank/subspecies> ;
     tcs:vernacularName [ a gbif:VernacularName ;
             dwc:vernacularName "Nubian giraffe" ] ;
-    tcs:parentTaxonConcept _:tc20 ;
-    tcs:isCongruentWith _:tc12 .
+    tcs:parentTaxonConcept _:tc20 .
 
 _:tc24 a tcs:TaxonConcept ;
     dcterms:title "Giraffa reticulata sec. IUCN 2025" ;
     tcs:taxonName _:tn0 ;
     tcs:accordingTo _:ref0 ;
     tcs:taxonRank <http://rs.gbif.org/vocabulary/gbif/rank/species> ;
+    tcs:parentTaxonConcept _:tc33 ;
     tcs:vernacularName [ a gbif:VernacularName ;
-            dwc:vernacularName "Reticulated giraffe" ] ;
-    tcs:isCongruentWith _:tc13 .
+            dwc:vernacularName "Reticulated giraffe" ] .
 
 _:tc25 a tcs:TaxonConcept ;
     dcterms:title "Giraffa tippelskirchi sec. IUCN 2025" ;
     tcs:taxonName <zoobank:fc4e3aca-4e59-4fae-a052-f220b4a5c70b> ;
     tcs:accordingTo _:ref0 ;
     tcs:taxonRank <http://rs.gbif.org/vocabulary/gbif/rank/species> ;
+    tcs:parentTaxonConcept _:tc33 ;
     tcs:vernacularName [ a gbif:VernacularName ;
-            dwc:vernacularName "Masai giraffe" ] ;
-    tcs:includes _:tc16 , _:tc17 .
+            dwc:vernacularName "Masai giraffe" ] .
 
 _:tc26 a tcs:TaxonConcept ;
     dcterms:title "Giraffa tippelskirchi tippelskirchi sec. IUCN 2025" ;
     tcs:taxonName _:tn26 ;
     tcs:accordingTo _:ref0 ;
     tcs:taxonRank <http://rs.gbif.org/vocabulary/gbif/rank/subspecies> ;
-    tcs:vernacularName [ a gbif:VernacularName ;
-            dwc:vernacularName "Masai giraffe" ] ;
     tcs:parentTaxonConcept _:tc25 ;
-    tcs:isCongruentWith _:tc16 .
+    tcs:vernacularName [ a gbif:VernacularName ;
+            dwc:vernacularName "Masai giraffe" ] .
 
 _:tc27 a tcs:TaxonConcept ;
     dcterms:title "Giraffa tippelskirchi thornicrofti sec. IUCN 2025" ;
     tcs:taxonName _:tn28 ;
     tcs:accordingTo _:ref0 ;
     tcs:taxonRank <http://rs.gbif.org/vocabulary/gbif/rank/subspecies> ;
+    tcs:parentTaxonConcept _:tc25 ;
     tcs:vernacularName [ a gbif:VernacularName ;
             dwc:vernacularName "Luangwa giraffe" ] ,
         [ a gbif:VernacularName ;
-            dwc:vernacularName "Thornicroft's giraffe" ] ;
-    tcs:parentTaxonConcept _:tc25 ;
-    tcs:isCongruentWith _:tc17 .
+            dwc:vernacularName "Thornicroft's giraffe" ] .
 
 _:tc28 a tcs:TaxonConcept ;
     dcterms:title "Giraffa giraffa sec. IUCN 2025" ;
     tcs:taxonName _:tn22 ;
     tcs:accordingTo _:ref0 ;
     tcs:taxonRank <http://rs.gbif.org/vocabulary/gbif/rank/species> ;
+    tcs:parentTaxonConcept _:tc33 ;
     tcs:vernacularName [ a gbif:VernacularName ;
-            dwc:vernacularName "Southern giraffe" ] ;
-    tcs:includes _:tc18 , _:tc19 .
+            dwc:vernacularName "Southern giraffe" ] .
 
 _:tc29 a tcs:TaxonConcept ;
     dcterms:title "Giraffa giraffa giraffa sec. IUCN 2025" ;
     tcs:taxonName _:tn27 ;
     tcs:accordingTo _:ref0 ;
     tcs:taxonRank <http://rs.gbif.org/vocabulary/gbif/rank/subspecies> ;
-    tcs:vernacularName [ a gbif:VernacularName ;
-            dwc:vernacularName "South African giraffe" ] ;
     tcs:parentTaxonConcept _:tc25 ;
-    tcs:isCongruentWith _:tc18 .
+    tcs:vernacularName [ a gbif:VernacularName ;
+            dwc:vernacularName "South African giraffe" ] .
 
 _:tc30 a tcs:TaxonConcept ;
     dcterms:title "Giraffa giraffa angolensis sec. IUCN 2025" ;
     tcs:taxonName _:tn27 ;
     tcs:accordingTo _:ref0 ;
     tcs:taxonRank <http://rs.gbif.org/vocabulary/gbif/rank/subspecies> ;
-    tcs:vernacularName [ a gbif:VernacularName ;
-            dwc:vernacularName "Angolan giraffe" ] ;
     tcs:parentTaxonConcept _:tc25 ;
-    tcs:isCongruentWith _:tc19 .
+    tcs:vernacularName [ a gbif:VernacularName ;
+            dwc:vernacularName "Angolan giraffe" ] .
 
 #
 # Taxon Concept Mappings
 #
+
+# Giraffa sec. IUCN 2025 == Giraffa sec. Groves & Grubb 2011
+[] a tcs:TaxonConceptMapping ;
+    tcs:subjectTaxonConcept _:tc33 ;
+    tcs:mappingRelation tcs:isCongruentWith ;
+    tcs:objectTaxonConcept _:tc32 ;
+    dcterms:creator <https://orcid.org/0000-0003-2224-6821> ;
+    dcterms:created "2025-09-01" .
+
+# Giraffa sec. IUCN 2025 == Giraffa sec. Dagg 1971
+[] a tcs:TaxonConceptMapping ;
+    tcs:subjectTaxonConcept _:tc33 ;
+    tcs:mappingRelation tcs:isCongruentWith ;
+    tcs:objectTaxonConcept _:tc34 ;
+    dcterms:creator <https://orcid.org/0000-0003-2224-6821> ;
+    dcterms:created "2025-09-01" .
+
+# Giraffa sec. IUCN 2025 == Giraffa sec. Lydekker
+[] a tcs:TaxonConceptMapping ;
+    tcs:subjectTaxonConcept _:tc33 ;
+    tcs:mappingRelation tcs:isCongruentWith ;
+    tcs:objectTaxonConcept _:tc31 ;
+    dcterms:creator <https://orcid.org/0000-0003-2224-6821> ;
+    dcterms:created "2025-09-01" .
 
 # Giraffa camelopardalis sec. IUCN 2025 > Giraffa camelopardalis sec. Groves & Grubb 2011
 [] a tcs:TaxonConceptMapping ;
     tcs:subjectTaxonConcept _:tc20 ;
     tcs:mappingRelation tcs:includes ;
     tcs:objectTaxonConcept _:tc12 ;
-    dcterms:source _:ref0 .
+    dcterms:creator <https://orcid.org/0000-0003-2224-6821> ;
+    dcterms:created "2025-09-01" .
 
 # Giraffa camelopardalis sec. IUCN 2025 > Giraffa peralta sec. Groves & Grubb 2011
 [] a tcs:TaxonConceptMapping ;
     tcs:subjectTaxonConcept _:tc20 ;
     tcs:mappingRelation tcs:includes ;
     tcs:objectTaxonConcept _:tc15 ;
-    dcterms:source _:ref0 .
+    dcterms:creator <https://orcid.org/0000-0003-2224-6821> ;
+    dcterms:created "2025-09-01" .
 
 # Giraffa camelopardalis sec. IUCN 2025 > Giraffa antiquorum sec. Groves & Grubb 2011
 [] a tcs:TaxonConceptMapping ;
     tcs:subjectTaxonConcept _:tc20 ;
     tcs:mappingRelation tcs:includes ;
     tcs:objectTaxonConcept _:tc14 ;
-    dcterms:source _:ref0 .
+    dcterms:creator <https://orcid.org/0000-0003-2224-6821> ;
+    dcterms:created "2025-09-01" .
+
+# Giraffa camelopardalis sec. IUCN 2025 < Giraffa camelopardalis sec. Dagg 1971
+[] a tcs:TaxonConceptMapping ;
+    tcs:subjectTaxonConcept _:tc20 ;
+    tcs:mappingRelation tcs:isIncludedIn ;
+    tcs:objectTaxonConcept _:tc35 ;
+    dcterms:creator <https://orcid.org/0000-0003-2224-6821> ;
+    dcterms:created "2025-09-01" .
+
+# Giraffa camelopardalis sec. IUCN 2025 > Giraffa camelopardalis camelopardalis sec. Dagg 1971
+[] a tcs:TaxonConceptMapping ;
+    tcs:subjectTaxonConcept _:tc20 ;
+    tcs:mappingRelation tcs:includes ;
+    tcs:objectTaxonConcept _:tc36 ;
+    dcterms:creator <https://orcid.org/0000-0003-2224-6821> ;
+    dcterms:created "2025-09-01" .
+
+# Giraffa camelopardalis sec. IUCN 2025 > Giraffa camelopardalis antiquorum sec. Dagg 1971
+[] a tcs:TaxonConceptMapping ;
+    tcs:subjectTaxonConcept _:tc20 ;
+    tcs:mappingRelation tcs:includes ;
+    tcs:objectTaxonConcept _:tc37 ;
+    dcterms:creator <https://orcid.org/0000-0003-2224-6821> ;
+    dcterms:created "2025-09-01" .
+
+# Giraffa camelopardalis sec. IUCN 2025 > Giraffa camelopardalis peralta sec. Dagg 1971
+[] a tcs:TaxonConceptMapping ;
+    tcs:subjectTaxonConcept _:tc20 ;
+    tcs:mappingRelation tcs:includes ;
+    tcs:objectTaxonConcept _:tc38 ;
+    dcterms:creator <https://orcid.org/0000-0003-2224-6821> ;
+    dcterms:created "2025-09-01" .
+
+# Giraffa camelopardalis sec. IUCN 2025 > Giraffa camelopardalis rothschildi sec. Dagg 1971
+[] a tcs:TaxonConceptMapping ;
+    tcs:subjectTaxonConcept _:tc20 ;
+    tcs:mappingRelation tcs:includes ;
+    tcs:objectTaxonConcept _:tc40 ;
+    dcterms:creator <https://orcid.org/0000-0003-2224-6821> ;
+    dcterms:created "2025-09-01" .
 
 # Giraffa camelopardalis sec. IUCN < Giraffa camelopardalis sec. Lydekker 1904
 [] a tcs:TaxonConceptMapping ;
@@ -593,7 +837,24 @@ _:tc30 a tcs:TaxonConcept ;
     tcs:subjectTaxonConcept _:tc21 ;
     tcs:mappingRelation tcs:isCongruentWith ;
     tcs:objectTaxonConcept _:tc15 ;
-    dcterms:source _:ref0 .
+    dcterms:creator <https://orcid.org/0000-0003-2224-6821> ;
+    dcterms:created "2025-09-01" .
+
+# Giraffa camelopardalis peralta sec. IUCN 2025 < Giraffa camelopardalis sec. Dagg 1971
+[] a tcs:TaxonConceptMapping ;
+    tcs:subjectTaxonConcept _:tc21 ;
+    tcs:mappingRelation tcs:isIncludedIn ;
+    tcs:objectTaxonConcept _:tc35 ;
+    dcterms:creator <https://orcid.org/0000-0003-2224-6821> ;
+    dcterms:created "2025-09-01" .
+
+# Giraffa camelopardalis peralta sec. IUCN 2025 == Giraffa camelopardalis peralta sec. Dagg 1971
+[] a tcs:TaxonConceptMapping ;
+    tcs:subjectTaxonConcept _:tc21 ;
+    tcs:mappingRelation tcs:isCongruentWith ;
+    tcs:objectTaxonConcept _:tc38 ;
+    dcterms:creator <https://orcid.org/0000-0003-2224-6821> ;
+    dcterms:created "2025-09-01" .
 
 # Giraffa camelopardalis peralta sec. IUCN < Giraffa camelopardalis sec. Lydekker
 [] a tcs:TaxonConceptMapping ;
@@ -616,7 +877,24 @@ _:tc30 a tcs:TaxonConcept ;
     tcs:subjectTaxonConcept _:tc22 ;
     tcs:mappingRelation tcs:isCongruentWith ;
     tcs:objectTaxonConcept _:tc14 ;
-    dcterms:source _:ref0 .
+    dcterms:creator <https://orcid.org/0000-0003-2224-6821> ;
+    dcterms:created "2025-09-01" .
+
+# Giraffa camelopardalis peralta sec. IUCN 2025 < Giraffa camelopardalis sec. Dagg 1971
+[] a tcs:TaxonConceptMapping ;
+    tcs:subjectTaxonConcept _:tc22 ;
+    tcs:mappingRelation tcs:isIncludedIn ;
+    tcs:objectTaxonConcept _:tc35 ;
+    dcterms:creator <https://orcid.org/0000-0003-2224-6821> ;
+    dcterms:created "2025-09-01" .
+
+# Giraffa camelopardalis peralta sec. IUCN 2025 == Giraffa camelopardalis antiquorum sec. Dagg 1971
+[] a tcs:TaxonConceptMapping ;
+    tcs:subjectTaxonConcept _:tc22 ;
+    tcs:mappingRelation tcs:isCongruentWith ;
+    tcs:objectTaxonConcept _:tc37 ;
+    dcterms:creator <https://orcid.org/0000-0003-2224-6821> ;
+    dcterms:created "2025-09-01" .
 
 # Giraffa camelopardalis antiquorum sec. IUCN < Giraffa camelopardalis sec. Lydekker
 [] a tcs:TaxonConceptMapping ;
@@ -647,9 +925,34 @@ _:tc30 a tcs:TaxonConcept ;
     tcs:subjectTaxonConcept _:tc23 ;
     tcs:mappingRelation tcs:isCongruentWith ;
     tcs:objectTaxonConcept _:tc12 ;
-    dcterms:source _:ref0 .
+    dcterms:creator <https://orcid.org/0000-0003-2224-6821> ;
+    dcterms:created "2025-09-01" .
 
-# Giraffa camelopardalis camelopardalis sec. IUCN < Giraffa camelopardalis sec. Lydekker
+# Giraffa camelopardalis camelopardais sec. IUCN 2025 < Giraffa camelopardalis sec. Dagg 1971
+[] a tcs:TaxonConceptMapping ;
+    tcs:subjectTaxonConcept _:tc23 ;
+    tcs:mappingRelation tcs:isIncludedIn ;
+    tcs:objectTaxonConcept _:tc35 ;
+    dcterms:creator <https://orcid.org/0000-0003-2224-6821> ;
+    dcterms:created "2025-09-01" .
+
+# Giraffa camelopardalis camelopardalis sec. IUCN 2025 > Giraffa camelopardalis camelopardalis sec. Dagg 1971
+[] a tcs:TaxonConceptMapping ;
+    tcs:subjectTaxonConcept _:tc23 ;
+    tcs:mappingRelation tcs:includes ;
+    tcs:objectTaxonConcept _:tc36 ;
+    dcterms:creator <https://orcid.org/0000-0003-2224-6821> ;
+    dcterms:created "2025-09-01" .
+
+# Giraffa camelopardalis camelopardalis sec. IUCN 2025 > Giraffa camelopardalis rothschili sec. Dagg 1971
+[] a tcs:TaxonConceptMapping ;
+    tcs:subjectTaxonConcept _:tc23 ;
+    tcs:mappingRelation tcs:includes ;
+    tcs:objectTaxonConcept _:tc40 ;
+    dcterms:creator <https://orcid.org/0000-0003-2224-6821> ;
+    dcterms:created "2025-09-01" .
+
+# Giraffa camelopardalis camelopardalis sec. IUCN < Giraffa camelopardalis sec. Lydekker 1904
 [] a tcs:TaxonConceptMapping ;
     tcs:subjectTaxonConcept _:tc23 ;
     tcs:mappingRelation tcs:isIncludedIn ;
@@ -686,7 +989,24 @@ _:tc30 a tcs:TaxonConcept ;
     tcs:subjectTaxonConcept _:tc24 ;
     tcs:mappingRelation tcs:isCongruentWith ;
     tcs:objectTaxonConcept _:tc13 ;
-    dcterms:source _:ref0 .
+    dcterms:creator <https://orcid.org/0000-0003-2224-6821> ;
+    dcterms:created "2025-09-01" .
+
+# Giraffa reticulata sec. IUCN 2025 < Giraffa camelopardalis sec. Dagg 1971
+[] a tcs:TaxonConceptMapping ;
+    tcs:subjectTaxonConcept _:tc24 ;
+    tcs:mappingRelation tcs:isIncludedIn ;
+    tcs:objectTaxonConcept _:tc35 ;
+    dcterms:creator <https://orcid.org/0000-0003-2224-6821> ;
+    dcterms:created "2025-09-01" .
+
+# Giraffa reticulata sec. IUCN 2025 == Giraffa camelopardalis reticulata sec. Dagg 1971
+[] a tcs:TaxonConceptMapping ;
+    tcs:subjectTaxonConcept _:tc24 ;
+    tcs:mappingRelation tcs:isCongruentWith ;
+    tcs:objectTaxonConcept _:tc39 ;
+    dcterms:creator <https://orcid.org/0000-0003-2224-6821> ;
+    dcterms:created "2025-09-01" .
 
 # Giraffa reticulata sec. IUCN 2025 == Giraffa reticulata sec. Lydekker 1904
 [] a tcs:TaxonConceptMapping ;
@@ -701,14 +1021,40 @@ _:tc30 a tcs:TaxonConcept ;
     tcs:subjectTaxonConcept _:tc25 ;
     tcs:mappingRelation tcs:includes ;
     tcs:objectTaxonConcept _:tc16 ;
-    dcterms:source _:ref0 .
+    dcterms:creator <https://orcid.org/0000-0003-2224-6821> ;
+    dcterms:created "2025-09-01" .
 
 # Giraffa tippelskirchi sec. IUCN 2025 > Giraffa thornicrofti sec. Groves & Grubb 2011
 [] a tcs:TaxonConceptMapping ;
     tcs:subjectTaxonConcept _:tc25 ;
     tcs:mappingRelation tcs:includes ;
     tcs:objectTaxonConcept _:tc17 ;
-    dcterms:source _:ref0 .
+    dcterms:creator <https://orcid.org/0000-0003-2224-6821> ;
+    dcterms:created "2025-09-01" .
+
+# Giraffa tippelskirchi sec. IUCN 2025 < Giraffa camelopardalis sec. Dagg 1971
+[] a tcs:TaxonConceptMapping ;
+    tcs:subjectTaxonConcept _:tc25 ;
+    tcs:mappingRelation tcs:isIncludedIn ;
+    tcs:objectTaxonConcept _:tc35 ;
+    dcterms:creator <https://orcid.org/0000-0003-2224-6821> ;
+    dcterms:created "2025-09-01" .
+
+# Giraffa tippelskirchi sec. IUCN 2025 > Giraffa camelopardalis tippelskirchi sec. Dagg 1971
+[] a tcs:TaxonConceptMapping ;
+    tcs:subjectTaxonConcept _:tc25 ;
+    tcs:mappingRelation tcs:includes ;
+    tcs:objectTaxonConcept _:tc41 ;
+    dcterms:creator <https://orcid.org/0000-0003-2224-6821> ;
+    dcterms:created "2025-09-01" .
+
+# Giraffa tippelskirchi sec. IUCN 2025 > Giraffa camelopardalis thornicrofti sec. Dagg 1971
+[] a tcs:TaxonConceptMapping ;
+    tcs:subjectTaxonConcept _:tc25 ;
+    tcs:mappingRelation tcs:includes ;
+    tcs:objectTaxonConcept _:tc42 ;
+    dcterms:creator <https://orcid.org/0000-0003-2224-6821> ;
+    dcterms:created "2025-09-01" .
 
 # Giraffa tippelskirchi sec. IUCN 2025 < Giraffa camelopardalis sec. Lydekker 1904
 [] a tcs:TaxonConceptMapping ;
@@ -731,7 +1077,24 @@ _:tc30 a tcs:TaxonConcept ;
     tcs:subjectTaxonConcept _:tc26 ;
     tcs:mappingRelation tcs:isCongruentWith ;
     tcs:objectTaxonConcept _:tc16 ;
-    dcterms:source _:ref0 .
+    dcterms:creator <https://orcid.org/0000-0003-2224-6821> ;
+    dcterms:created "2025-09-01" .
+
+# Giraffa tippelskirchi tippelskirchi sec. IUCN 2025 < Giraffa camelopardalis sec. Dagg 1971
+[] a tcs:TaxonConceptMapping ;
+    tcs:subjectTaxonConcept _:tc26 ;
+    tcs:mappingRelation tcs:includes ;
+    tcs:objectTaxonConcept _:tc35 ;
+    dcterms:creator <https://orcid.org/0000-0003-2224-6821> ;
+    dcterms:created "2025-09-01" .
+
+# Giraffa tippelskirchi tippelskirchi sec. IUCN 2025 == Giraffa camelopardalis tippelskirchi sec. Dagg 1971
+[] a tcs:TaxonConceptMapping ;
+    tcs:subjectTaxonConcept _:tc26 ;
+    tcs:mappingRelation tcs:isCongruentWith ;
+    tcs:objectTaxonConcept _:tc41 ;
+    dcterms:creator <https://orcid.org/0000-0003-2224-6821> ;
+    dcterms:created "2025-09-01" .
 
 # Giraffa tippelskirchi tippelskirchi sec. IUCN 2025 < Giraffa camelopardalis sec. Lydekker 1904
 [] a tcs:TaxonConceptMapping ;
@@ -757,6 +1120,22 @@ _:tc30 a tcs:TaxonConcept ;
     tcs:objectTaxonConcept _:tc17 ;
     dcterms:source "_:ref0" .
 
+# Giraffa tippelskirchi thornicrofti sec. IUCN 2025 < Giraffa camelopardalis sec. Dagg 1971
+[] a tcs:TaxonConceptMapping ;
+    tcs:subjectTaxonConcept _:tc27 ;
+    tcs:mappingRelation tcs:includes ;
+    tcs:objectTaxonConcept _:tc35 ;
+    dcterms:creator <https://orcid.org/0000-0003-2224-6821> ;
+    dcterms:created "2025-09-01" .
+
+# Giraffa tippelskirchi thornicrofti sec. IUCN 2025 == Giraffa camelopardalis thornicrofti sec. Dagg 1971
+[] a tcs:TaxonConceptMapping ;
+    tcs:subjectTaxonConcept _:tc27 ;
+    tcs:mappingRelation tcs:isCongruentWith ;
+    tcs:objectTaxonConcept _:tc42 ;
+    dcterms:creator <https://orcid.org/0000-0003-2224-6821> ;
+    dcterms:created "2025-09-01" .
+
 # Giraffa tippelskirchi thornicrofti sec. IUCN 2025 < Giraffa camelopardalis sec. Lydekker 1904
 [] a tcs:TaxonConceptMapping ;
     tcs:subjectTaxonConcept _:tc27 ;
@@ -779,14 +1158,40 @@ _:tc30 a tcs:TaxonConcept ;
     tcs:subjectTaxonConcept _:tc28 ;
     tcs:mappingRelation tcs:includes ;
     tcs:objectTaxonConcept _:tc18 ;
-    dcterms:source _:ref0 .
+    dcterms:creator <https://orcid.org/0000-0003-2224-6821> ;
+    dcterms:created "2025-09-01" .
 
 # Giraffa giraffa sec. IUCN 2025 > Giraffa angolensis sec. Groves & Grubb 2025
 [] a tcs:TaxonConceptMapping ;
     tcs:subjectTaxonConcept _:tc28 ;
     tcs:mappingRelation tcs:includes ;
     tcs:objectTaxonConcept _:tc19 ;
-    dcterms:source _:ref0 .
+    dcterms:creator <https://orcid.org/0000-0003-2224-6821> ;
+    dcterms:created "2025-09-01" .
+
+# Giraffa giraffa sec. IUCN 2025 < Giraffa camelopardalis sec. Dagg 1971
+[] a tcs:TaxonConceptMapping ;
+    tcs:subjectTaxonConcept _:tc28 ;
+    tcs:mappingRelation tcs:includes ;
+    tcs:objectTaxonConcept _:tc35 ;
+    dcterms:creator <https://orcid.org/0000-0003-2224-6821> ;
+    dcterms:created "2025-09-01" .
+
+# Giraffa giraffa sec. IUCN 2025 > Giraffa camelopardalis angolensis sec. Dagg 1971
+[] a tcs:TaxonConceptMapping ;
+    tcs:subjectTaxonConcept _:tc26 ;
+    tcs:mappingRelation tcs:includes ;
+    tcs:objectTaxonConcept _:tc43 ;
+    dcterms:creator <https://orcid.org/0000-0003-2224-6821> ;
+    dcterms:created "2025-09-01" .
+
+# Giraffa giraffa sec. IUCN 2025 > Giraffa camelopardalis giraffa sec. Dagg 1971
+[] a tcs:TaxonConceptMapping ;
+    tcs:subjectTaxonConcept _:tc26 ;
+    tcs:mappingRelation tcs:includes ;
+    tcs:objectTaxonConcept _:tc44 ;
+    dcterms:creator <https://orcid.org/0000-0003-2224-6821> ;
+    dcterms:created "2025-09-01" .
 
 # Giraffa giraffa sec. IUCN 2025 < Giraffa camelopardalis sec. Lydekker 1904
 [] a tcs:TaxonConceptMapping ;
@@ -825,7 +1230,24 @@ _:tc30 a tcs:TaxonConcept ;
     tcs:subjectTaxonConcept _:tc29 ;
     tcs:mappingRelation tcs:isCongruentWith ;
     tcs:objectTaxonConcept _:tc18 ;
-    dcterms:source _:ref0 .
+    dcterms:creator <https://orcid.org/0000-0003-2224-6821> ;
+    dcterms:created "2025-09-01" .
+
+# Giraffa giraffa giraffa sec. IUCN 2025 < Giraffa camelopardalis sec. Dagg 1971
+[] a tcs:TaxonConceptMapping ;
+    tcs:subjectTaxonConcept _:tc29 ;
+    tcs:mappingRelation tcs:includes ;
+    tcs:objectTaxonConcept _:tc35 ;
+    dcterms:creator <https://orcid.org/0000-0003-2224-6821> ;
+    dcterms:created "2025-09-01" .
+
+# Giraffa giraffa sec. IUCN 2025 == Giraffa camelopardalis giraffa sec. Dagg 1971
+[] a tcs:TaxonConceptMapping ;
+    tcs:subjectTaxonConcept _:tc29 ;
+    tcs:mappingRelation tcs:isCongruentWith ;
+    tcs:objectTaxonConcept _:tc44 ;
+    dcterms:creator <https://orcid.org/0000-0003-2224-6821> ;
+    dcterms:created "2025-09-01" .
 
 # Giraffa giraffa giraffa sec. IUCN < Giraffa camelopardalis sec. Lydekker 1904
 [] a tcs:TaxonConceptMapping ;
@@ -856,7 +1278,24 @@ _:tc30 a tcs:TaxonConcept ;
     tcs:subjectTaxonConcept _:tc30 ;
     tcs:mappingRelation tcs:isCongruentWith ;
     tcs:objectTaxonConcept _:tc19 ;
-    dcterms:source _:ref0 .
+    dcterms:creator <https://orcid.org/0000-0003-2224-6821> ;
+    dcterms:created "2025-09-01" .
+
+# Giraffa giraffa angolensis sec. IUCN 2025 < Giraffa camelopardalis sec. Dagg 1971
+[] a tcs:TaxonConceptMapping ;
+    tcs:subjectTaxonConcept _:tc30 ;
+    tcs:mappingRelation tcs:includes ;
+    tcs:objectTaxonConcept _:tc35 ;
+    dcterms:creator <https://orcid.org/0000-0003-2224-6821> ;
+    dcterms:created "2025-09-01" .
+
+# Giraffa giraffa angolensis sec. IUCN 2025 == Giraffa camelopardalis angolensis sec. Dagg 1971
+[] a tcs:TaxonConceptMapping ;
+    tcs:subjectTaxonConcept _:tc26 ;
+    tcs:mappingRelation tcs:isCongruentWith ;
+    tcs:objectTaxonConcept _:tc43 ;
+    dcterms:creator <https://orcid.org/0000-0003-2224-6821> ;
+    dcterms:created "2025-09-01" .
 
 # Giraffa giraffa angolensis sec. IUCN 2025 < Giraffa camelopardalis sec. Lydekker 1904
 [] a tcs:TaxonConceptMapping ;

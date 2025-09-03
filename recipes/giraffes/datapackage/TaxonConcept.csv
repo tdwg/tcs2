@@ -1,0 +1,46 @@
+ID,taxonConceptLabel,taxonNameID,accordingToID,taxonRank,parentID
+_:tc31,Giraffa sec. Lydekker 1904,zoobank:29a6803b-c1d8-4460-96c7-cc006095413f,https://doi.org/10.1111/j.1469-7998.1904.tb08288.x,genus,
+_:tc0,Giraffa reticulata sec. Lydekker 1904,_:tn0,https://doi.org/10.1111/j.1469-7998.1904.tb08288.x,species,_:tc31
+_:tc1,Giraffa camelopardalis sec. Lydekker 1904,_:tn1,https://doi.org/10.1111/j.1469-7998.1904.tb08288.x,species,_:tc31
+_:tc2,Giraffa camelopardalis typica sec. Lydekker 1904,_:tn2,https://doi.org/10.1111/j.1469-7998.1904.tb08288.x,subspecies,_:tn1
+_:tc3,Giraffa camelopardalis antiquorum sec. Lydekker 1904,_:tn3,https://doi.org/10.1111/j.1469-7998.1904.tb08288.x,subspecies,_:tn1
+_:tc4,Giraffa camelopardalis cottoni sec. Lydekker 1904,zoobank:9cba7e21-4f14-4354-b559-36b7db538c08,https://doi.org/10.1111/j.1469-7998.1904.tb08288.x,subspecies,_:tn1
+_:tc5,Giraffa camelopardalis rothchildi sec. Lydekker 1904,zoobank:a3492a30-8739-4b4e-8e6f-5c09e2c34315,https://doi.org/10.1111/j.1469-7998.1904.tb08288.x,subspecies,_:tn1
+_:tc6,Giraffa camelopardalis tippelskirchi sec. Lydekker 1904,_:tn6,https://doi.org/10.1111/j.1469-7998.1904.tb08288.x,subspecies,_:tn1
+_:tc7,Giraffa camelopardalis congoensis sec. Lydekker 1904,zoobank:38db2575-317c-4f7c-b0d0-5a85250e5f1f,https://doi.org/10.1111/j.1469-7998.1904.tb08288.x,subspecies,_:tn1
+_:tc8,Giraffa camelopardalis angolensis sec. Lydekker 1904,zoobank:38db2575-317c-4f7c-b0d0-5a85250e5f1f,https://doi.org/10.1111/j.1469-7998.1904.tb08288.x,subspecies,_:tn1
+_:tc9,Giraffa camelopardalis wardi sec. Lydekker 1904,zoobank:0477d1d3-3602-4bec-b4a3-11d108886065,https://doi.org/10.1111/j.1469-7998.1904.tb08288.x,subspecies,_:tn1
+_:tc10,Giraffa camelopardalis capensis sec. Lydekker 1904,_:tn10,https://doi.org/10.1111/j.1469-7998.1904.tb08288.x,subspecies,_:tn1
+_:tc11,Giraffa camelopardalis peralta sec. Lydekker 1904,zoobank:a1d014fd-cdbf-4eaf-a979-100186fc2f41,https://doi.org/10.1111/j.1469-7998.1904.tb08288.x,subspecies,_:tn1
+_:tc34,Giraffa sec. Dagg 1971,zoobank:29a6803b-c1d8-4460-96c7-cc006095413f,https://doi.org/10.2307/3503830,genus,
+_:tc35,Giraffa camelopardalis sec. Dagg 1971,_:tn1,https://doi.org/10.2307/3503830,species,tc34
+_:tc36,Giraffa camelopardalis camelopardalis sec. Dagg 1971,_:tn2,https://doi.org/10.2307/3503830,subspecies,tc35
+_:tc36,Giraffa camelopardalis antiquorum sec. Dagg 1971,_:tn3,https://doi.org/10.2307/3503830,subspecies,_:tc35
+_:tc37,Giraffa camelopardalis peralta sec. Dagg 1971,zoobank:a1d014fd-cdbf-4eaf-a979-100186fc2f41,https://doi.org/10.2307/3503830,subspecies,_:tc35
+_:tc39,Giraffa camelopardalis reticulata sec. Dagg 1971,zoobank:3ac03875-1c25-49a5-96c5-981b87cfa73a,https://doi.org/10.2307/3503830,subspecies,_:tc35
+_:tc40,Giraffa camelopardalis rothschildii sec. Dagg 1971,zoobank:a3492a30-8739-4b4e-8e6f-5c09e2c34315,https://doi.org/10.2307/3503830,subspecies,_:tc35
+_:tc41,Giraffa camelopardalis tippelskirchi sec. Dagg 1971,_:tn6,https://doi.org/10.2307/3503830,subspecies,_:tc35
+_:tc42,Giraffa camelopardalis thornicrofti sec. Dagg 1971,_:tn30,https://doi.org/10.2307/3503830,subspecies,_:tc35
+_:tc43,Giraffa camelopardalis angolensis sec. Dagg 1971,zoobank:c8aeee34-3551-4227-871c-13f2a52bcf02,https://doi.org/10.2307/3503830,subspecies,_:tc35
+_:tc44,Giraffa camelopardalis giraffa sec. Dagg 1971,zoobank:c8aeee34-3551-4227-871c-13f2a52bcf02,https://doi.org/10.2307/3503830,subspecies,_:tc35
+_:tc32,Giraffa sec. Groves & Grubb 2011,zoobank:29a6803b-c1d8-4460-96c7-cc006095413f,urn:isbn:978-1-4214-0093-8,genus,
+_:tc12,Giraffa camelopardalis sec. Groves & Grubb 2011,_:tn1,urn:isbn:978-1-4214-0093-8,species,_:tc32
+_:tc13,Giraffa reticulata sec. Groves & Grubb 2011,_:tn0,urn:isbn:978-1-4214-0093-8,species,_:tc32
+_:tc14,Giraffa antiquorum sec. Groves & Grubb 2011,_:tn17,urn:isbn:978-1-4214-0093-8,species,_:tc32
+_:tc15,Giraffa peralta sec. Groves & Grubb 2011,zoobank:a1d014fd-cdbf-4eaf-a979-100186fc2f41,urn:isbn:978-1-4214-0093-8,species,_:tc32
+_:tc16,Giraffa tippelskirchi sec. Groves & Grubb 2011,zoobank:fc4e3aca-4e59-4fae-a052-f220b4a5c70b,urn:isbn:978-1-4214-0093-8,species,_:tc32
+_:tc17,Giraffa thornicrofti sec. Groves & Grubb 2011,_:tn21,urn:isbn:978-1-4214-0093-8,species,_:tc32
+_:tc18,Giraffa giraffa sec. Groves & Grubb 2011,_:tn22,urn:isbn:978-1-4214-0093-8,species,_:tc32
+_:tc19,Giraffa angolensis sec. Groves & Grubb 2011,_:tn25,urn:isbn:978-1-4214-0093-8,species,_:tc32
+_:tc33,Giraffa sec. IUCN 2025,zoobank:29a6803b-c1d8-4460-96c7-cc006095413f,_:ref0,genus,
+_:tc20,Giraffa camelopardalis sec. IUCN 2025,_:tn1,_:ref0,species,_:tc33
+_:tc21,Giraffa camelopardalis peralta sec. IUCN 2025,zoobank:a1d014fd-cdbf-4eaf-a979-100186fc2f41,_:ref0,subspecies,_:tc20
+_:tc22,Giraffa camelopardalis antiquorum sec. IUCN 2025,_:tn3,_:ref0,subspecies,_:tc20
+_:tc23,Giraffa camelopardalis camelopardalis sec. IUCN 2025,_:tn2,_:ref0,subspecies,_:tc20
+_:tc24,Giraffa reticulata sec. IUCN 2025,_:tn0,_:ref0,species,_:tc33
+_:tc25,Giraffa tippelskirchi sec. IUCN 2025,zoobank:fc4e3aca-4e59-4fae-a052-f220b4a5c70b,_:ref0,species,_:tc33
+_:tc26,Giraffa tippelskirchi tippelskirchi sec. IUCN 2025,_:tn26,_:ref0,subspecies,_:tc25
+_:tc27,Giraffa tippelskirchi thornicrofti sec. IUCN 2025,_:tn28,_:ref0,subspecies,_:tc25
+_:tc28,Giraffa giraffa sec. IUCN 2025,_:tn22,_:ref0,species,_:tc33
+_:tc29,Giraffa giraffa giraffa sec. IUCN 2025,_:tn27,_:ref0,subspecies,_:tc25
+_:tc30,Giraffa giraffa angolensis sec. IUCN 2025,_:tn27,_:ref0,subspecies,_:tc25
