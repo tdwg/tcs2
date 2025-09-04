@@ -1,11 +1,23 @@
 {
   "@context": {
-    "@base": "https://raw.githubusercontent.com/tdwg/tcs2/refs/heads/master/examples/jsonld/",
-    "@import": [
-      "convenience.jsonld",
-      "namespaces.jsonld"
-    ],
-    
+    "container":                        "@container",
+    "id":                               "@id",
+    "type":                             "@type",
+    "list":                             "@list",
+    "set":                              "@set",
+    "vocab":                            "@vocab",
+
+    "tcs":                              "http://rs.tdwg.org/tcs/terms/",
+    "address":                          "http://schemas.talis.com/2005/address/schema#",
+    "bibo":                             "http://purl.org/ontology/bibo/",
+    "dcterms":                          "http://purl.org/dc/terms/",
+    "dwc":                              "http://rs.tdwg.org/dwc/terms/",
+    "foaf":                             "http://xmlns.com/foaf/0.1/",
+    "gbif":                             "http://rs.gbif.org/terms/1.0/",
+    "rdf":                              "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs":                             "http://www.w3.org/2000/01/rdf-schema#",
+    "xsd":                              "http://www.w3.org/2001/XMLSchema#",
+
     "TaxonConcept":                     { "@type": "@id", "@id": "tcs:TaxonConcept", "@context": {
         "taxonConceptLabel":                { "@type": "xsd:String", "@id": "dcterms:title" }
       }
