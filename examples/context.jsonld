@@ -17,13 +17,9 @@
     "TaxonConcept": {
       "@id": "tcs:TaxonConcept",
       "@context": {
-        "taxonConceptLabel": "dcterms:title"
+        "taxonConceptLabel":            { "@type": "xsd:String", "@id": "dcterms:title" }
       }
     },
-    "TaxonConceptMapping":              "tcs:TaxonConceptMapping",
-    "TaxonName":                        { "@type": "@id",  "@id": "tcs:TaxonName" },
-    "NomenclaturalType":                "tcs:NomenclaturalType",
-
     "accordingTo":                      { "@type": "@id", "@id": "tcs:accordingTo" },
     "taxonName":                        { "@type": "@id", "@id": "tcs:taxonName" },
     "synonyms":                         { "@type": "@id", "@id": "tcs:synonym", "@container": "@set" },
@@ -72,6 +68,7 @@
         "strain":                       "http://rs.gbif.org/vocabulary/gbif/rank/strain"
       }
     },
+    "verbatimTaxonRank":                { "@type": "xsd:String", "@id": "dwc:verbatimTaxonRank" },
     "parent":                           { "@type": "@id", "@id": "tcs:parentTaxonConcept" },
     "children":                         { "@type": "@id", "@id": "tcs:childTaxonConcept", "@container": "@set"},
     "isCongruentWith":                  { "@type": "@id", "@id": "tcs:isCongruentWith", "@container": "@set" },
@@ -81,11 +78,13 @@
     "isDisjointFrom":                   { "@type": "@id", "@id": "tcs:isDisjointFrom", "@container": "@set" },
     "intersects":                       { "@type": "@id", "@id": "tcs:intersects", "@container": "@set" },
 
+    "TaxonConceptMapping":              "tcs:TaxonConceptMapping",
     "mappingAccordingTo":               { "@type": "@id", "@id": "tcs:mappingAccordingTo" },
     "mappingRelation":                  { "@type": "@vocab", "@id": "tcs:mappingRelation" },
     "subjectTaxonConcept":              { "@type": "@id", "@id": "tcs:subjectTaxonConcept" },
     "objectTaxonConcept":               { "@type": "@id", "@id": "tcs:objectTaxonConcept" },
 
+    "TaxonName":                        { "@type": "@id",  "@id": "tcs:TaxonName" },
     "nameString":                       { "@type": "xsd:String", "@id": "tcs:nameString" },
     "scientificNameAuthorship":         { "@type": "xsd:String", "@id": "dwc:scientificNameAuthorship" },
     "namePublishedInLiteral":           { "@type": "xsd:String", "@id": "dwc:namePublishedIn" },
@@ -158,7 +157,7 @@
     "infraspecificEpithet":             { "@type": "xsd:String", "@id": "dwc:infraspecificEpithet" },
     "cultivarEpithet":                  { "@type": "xsd:String", "@id": "dwc:cultivarEpithet" },
 
-
+    "NomenclaturalType":                "tcs:NomenclaturalType",
     "typifiedName":                     { "@type": "@id", "@id": "tcs:typifiedName" },
     "typeOfType": { 
       "@type": "@vocab", 
@@ -208,8 +207,6 @@
     },
     "typeName":                         { "@type": "@id", "@id": "tcs:typeName" },
     "typeSpecimen":                     { "@type": "@id", "@id": "tcs:typeSpecimen" },
-    "typePublishedIn":                  { "@type": "@id", "@id": "tcs:typePublishedIn" },
-
-    "verbatimTaxonRank":                { "@type": "xsd:String", "@id": "dwc:verbatimTaxonRank" }
+    "typePublishedIn":                  { "@type": "@id", "@id": "tcs:typePublishedIn" }
   }
 }
