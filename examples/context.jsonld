@@ -1,15 +1,6 @@
 {
   "@context": {
-    "container":                        "@container",
-    "graph":                            "@graph",
-    "id":                               "@id",
-    "list":                             "@list",
-    "reverse":                          "@reverse",
-    "set":                              "@set",
-    "type":                             "@type",
-    "value":                            "@value",
-    "version":                          "@version",
-    "vocab":                            "@vocab",
+    "@import": "https://json-ld.org/contexts/convenience.jsonld",
 
     "tcs":                              "http://rs.tdwg.org/tcs/terms/",
     "address":                          "http://schemas.talis.com/2005/address/schema#",
