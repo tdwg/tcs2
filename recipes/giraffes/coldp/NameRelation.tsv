@@ -1,0 +1,17 @@
+nameID	type	relatedID
+tn-3	basionym	tn-1
+tn-5	basionym	tn-4
+tn-6	basedOn	tn-4
+tn-9	basionym	tn-7
+tn-10	basionym	tn-7
+tn-14	basionym	tn-13
+tn-15	basedOn	tn-13
+tn-20	basionym	tn-19
+tn-21	basionym	tn-19
+tn-24	basionym	tn-23
+tn-27	basionym	tn-26
+tn-29	basionym	tn-28
+tn-32	basionym	tn-31
+tn-33	basionym	tn-31
+tn-35	basionym	tn-34
+tn-36	basedOn	tn-34

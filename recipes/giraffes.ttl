@@ -518,7 +518,7 @@ _:tc14 a tcs:TaxonConcept ;
 
 _:tc15 a tcs:TaxonConcept ;
     dcterms:title "Giraffa peralta sec. Groves & Grubb 2011" ;
-    tcs:taxonName <zoobank:a1d014fd-cdbf-4eaf-a979-100186fc2f41> ;
+    tcs:taxonName _:tn19 ;
     tcs:accordingTo <urn:isbn:978-1-4214-0093-8> ;
     tcs:taxonRank <http://rs.gbif.org/vocabulary/gbif/rank/species> ;
     tcs:parentTaxonConcept _:tc32 ;
@@ -679,16 +679,16 @@ _:tc29 a tcs:TaxonConcept ;
     tcs:taxonName _:tn27 ;
     tcs:accordingTo _:ref0 ;
     tcs:taxonRank <http://rs.gbif.org/vocabulary/gbif/rank/subspecies> ;
-    tcs:parentTaxonConcept _:tc25 ;
+    tcs:parentTaxonConcept _:tc28 ;
     tcs:vernacularName [ a gbif:VernacularName ;
             dwc:vernacularName "South African giraffe" ] .
 
 _:tc30 a tcs:TaxonConcept ;
     dcterms:title "Giraffa giraffa angolensis sec. IUCN 2025" ;
-    tcs:taxonName _:tn27 ;
+    tcs:taxonName _:tn29 ;
     tcs:accordingTo _:ref0 ;
     tcs:taxonRank <http://rs.gbif.org/vocabulary/gbif/rank/subspecies> ;
-    tcs:parentTaxonConcept _:tc25 ;
+    tcs:parentTaxonConcept _:tc28 ;
     tcs:vernacularName [ a gbif:VernacularName ;
             dwc:vernacularName "Angolan giraffe" ] .
 

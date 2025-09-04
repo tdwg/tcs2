@@ -1,0 +1,5 @@
+ID,citation,type,author,title,containerTitle,isbn,issn,doi,link,issued,page,issue,volume,publisher,publisherPlace
+https://doi.org/10.1111/j.1469-7998.1904.tb08288.x,IUCN 2025,Report,IUCN SSC Giraffe and Okapi Specialist Group Taxonomic Task Force,An evaluation of the taxonomic status of giraffe (Giraffa spp.),,,,,,2025,,,,IUCN SSC Giraffe and Okapi Specialist Group,"Windhoek, Namibia"
+https://doi.org/10.2307/3503830,Groves & Grubb 2011,Book,"Groves, Colin; Grubb, Peter",Ungulate taxonomy,,978-1-4214-0093-8,,,,2011,,,,The John Hopkins University Press,Baltimore
+urn:isbn:978-1-4214-0093-8,Dagg 1971,AcademicArticle,"Lydekker, R.",On the Subspecies of Giraffa camelopardalis.,Proceedings of the Zoological Society of London,,1469-7998,10.1111/j.1469-7998.1904.tb08288.x,https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1469-7998.1904.tb08288.x,1904,202-229,1,74,,
+_:ref0,Lydekker 1974,AcademicArticle,"Dagg, Anne Innis",Giraffa camelopardalis,Mammalian Species,,0076-3519,10.2307/3503830,https://doi.org/10.2307/3503830,25952,1-8,5,,,

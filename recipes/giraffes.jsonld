@@ -102,7 +102,7 @@
     },
     {
       "type": "TaxonName",
-      "id": "<zoobank:e6851c80-2e77-4a51-bbbc-7179249e9d5c",
+      "id": "zoobank:e6851c80-2e77-4a51-bbbc-7179249e9d5c",
       "nameString": "Camelopardalis aethiopica",
       "scientificNameAuthorship": "Ogilby",
       "namePublishedInYear": "1837"
@@ -214,7 +214,7 @@
     },
     {
       "type": "TaxonName",
-      "id": "<zoobank:507a1a9e-dcf8-4c92-a94d-2ad984ad8f46",
+      "id": "zoobank:507a1a9e-dcf8-4c92-a94d-2ad984ad8f46",
       "nameString": "Camelopardalis senaariensis",
       "scientificNameAuthorship": "Trouessart",
       "namePublishedInYear": "1898"
@@ -354,7 +354,7 @@
           "dwc:vernacularName": "Nubian giraffe"
         }
       ],
-      "parent": "_:tn1"
+      "parent": "_:tc1"
     },
     {
       "type": "TaxonConcept",
@@ -369,7 +369,7 @@
           "dwc:vernacularName": "Kordofan giraffe"
         }
       ],
-      "parent": "_:tn1"
+      "parent": "_:tc1"
     },
     {
       "type": "TaxonConcept",
@@ -384,7 +384,7 @@
           "dwc:vernacularName": "South Lado giraffe"
         }
       ],
-      "parent": "_:tn1"
+      "parent": "_:tc1"
     },
     {
       "type": "TaxonConcept",
@@ -399,7 +399,7 @@
           "dwc:vernacularName": "Baringo giraffe"
         }
       ],
-      "parent": "_:tn1"
+      "parent": "_:tc1"
     },
     {
       "type": "TaxonConcept",
@@ -414,7 +414,7 @@
           "dwc:vernacularName": "Kilimanjaro giraffe"
         }
       ],
-      "parent": "_:tn1"
+      "parent": "_:tc1"
     },
     {
       "type": "TaxonConcept",
@@ -429,7 +429,7 @@
           "dwc:vernacularName": "Congo giraffe"
         }
       ],
-      "parent": "_:tn1"
+      "parent": "_:tc1"
     },
     {
       "type": "TaxonConcept",
@@ -444,7 +444,7 @@
           "dwc:vernacularName": "Angola giraffe"
         }
       ],
-      "parent": "_:tn1"
+      "parent": "_:tc1"
     },
     {
       "type": "TaxonConcept",
@@ -459,7 +459,7 @@
           "dwc:vernacularName": "Northern Transvaal giraffe"
         }
       ],
-      "parent": "_:tn1"
+      "parent": "_:tc1"
     },
     {
       "type": "TaxonConcept",
@@ -474,7 +474,7 @@
           "dwc:vernacularName": "Cape giraffe"
         }
       ],
-      "parent": "_:tn1"
+      "parent": "_:tc1"
     },
     {
       "type": "TaxonConcept",
@@ -489,7 +489,7 @@
           "dwc:vernacularName": "Nigerian giraffe"
         }
       ],
-      "parent": "_:tn1"
+      "parent": "_:tc1"
     },
 
     {
@@ -537,7 +537,7 @@
       "taxonName": "_:tn1",
       "accordingTo": "https://doi.org/10.2307/3503830",
       "taxonRank": "species",
-      "parent": "tc34",
+      "parent": "_:tc34",
       "synonyms": [
         "zoobank:d877e595-ff30-4d86-b4bd-39d06e5e2cf3",
         "zoobank:e6851c80-2e77-4a51-bbbc-7179249e9d5c",
@@ -555,14 +555,14 @@
       "taxonName": "_:tn2",
       "accordingTo": "https://doi.org/10.2307/3503830",
       "taxonRank": "subspecies",
-      "parent": "tc35",
+      "parent": "_:tc35",
       "synonyms": [
         "zoobank:e6851c80-2e77-4a51-bbbc-7179249e9d5c"
       ]
     },
     {
       "type": "TaxonConcept",
-      "id": "_:tc36",
+      "id": "_:tc37",
       "taxonConceptLabel": "Giraffa camelopardalis antiquorum sec. Dagg 1971",
       "taxonName": "_:tn3",
       "accordingTo": "https://doi.org/10.2307/3503830",
@@ -571,7 +571,7 @@
     },
     {
       "type": "TaxonConcept",
-      "id": "_:tc37",
+      "id": "_:tc38",
       "taxonConceptLabel": "Giraffa camelopardalis peralta sec. Dagg 1971",
       "taxonName": "zoobank:a1d014fd-cdbf-4eaf-a979-100186fc2f41",
       "accordingTo": "https://doi.org/10.2307/3503830",
@@ -619,7 +619,7 @@
       "type": "TaxonConcept",
       "id": "_:tc42",
       "taxonConceptLabel": "Giraffa camelopardalis thornicrofti sec. Dagg 1971",
-      "taxonName": "_:tn30",
+      "taxonName": "zoobank:154d50db-6186-4760-b298-856af70de7b8",
       "accordingTo": "https://doi.org/10.2307/3503830",
       "taxonRank": "subspecies",
       "parent": "_:tc35"
@@ -759,7 +759,7 @@
       "type": "TaxonConcept",
       "id": "_:tc15",
       "taxonConceptLabel": "Giraffa peralta sec. Groves & Grubb 2011",
-      "taxonName": "zoobank:a1d014fd-cdbf-4eaf-a979-100186fc2f41",
+      "taxonName": "_:tn19",
       "accordingTo": "urn:isbn:978-1-4214-0093-8",
       "taxonRank": "species",
       "parent": "_:tc32",
@@ -1022,7 +1022,7 @@
       "taxonName": "_:tn27",
       "accordingTo": "_:ref0",
       "taxonRank": "subspecies",
-      "parent": "_:tc25",
+      "parent": "_:tc28",
       "vernacularNames": [
         {
           "type": "gbif:VernacularName",
@@ -1034,10 +1034,10 @@
       "type": "TaxonConcept",
       "id": "_:tc30",
       "taxonConceptLabel": "Giraffa giraffa angolensis sec. IUCN 2025",
-      "taxonName": "_:tn27",
+      "taxonName": "_:tn29",
       "accordingTo": "_:ref0",
       "taxonRank": "subspecies",
-      "parent": "_:tc25",
+      "parent": "_:tc28",
       "vernacularNames": [
         {
           "type": "gbif:VernacularName",
