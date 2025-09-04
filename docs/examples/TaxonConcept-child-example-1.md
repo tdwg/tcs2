@@ -10,7 +10,8 @@
     tcs:accordingTo <https://doi.org/10.48580/dfrdl> ;
     tcs:taxonName: [ a tcs:TaxonName ;
             tcs:nameString: "Panthera" ;
-            dwc:scientificNameAuthorship: "Oken, 1816" ]  ;
+            dwc:scientificNameAuthorship: "Oken" ;
+            dwc:namePublishedInYear "1816" ]  ;
     tcs:childTaxonConcept <https://www.catalogueoflife.org/data/taxon/4CGXP> ,
             <https://www.catalogueoflife.org/data/taxon/4CGXQ> ,
             <https://www.catalogueoflife.org/data/taxon/4CGXR> ,
@@ -21,28 +22,40 @@
     tcs:accordingTo <https://doi.org/10.48580/dfrdl> ;
     tcs:taxonName: [ a tcs:TaxonName ;
             tcs:nameString: "Panthera leo" ;
-            dwc:scientificNameAuthorship: "(Linnaeus, 1758)" ] .
+            tcs:basionym [ a tcs:TaxonName ;
+                    tcs:nameString: "Felis leo" ;
+                    dwc:scientificNameAuthorship "Linnaeus" ;
+                        dwc:namePublishedInYear "1758" ]] .
 
 <https://www.catalogueoflife.org/data/taxon/4CGXQ> a tcs:TaxonConcept ;
     dcterms:title "Panthera onca sec. Catalogue of Life 2024-01-24" ;
     tcs:accordingTo <https://doi.org/10.48580/dfrdl> ;
     tcs:taxonName: [ a tcs:TaxonName ;
             tcs:nameString: "Panthera onca" ;
-            dwc:scientificNameAuthorship: "(Linnaeus, 1758)" ] .
+            tcs:basionym [ a tcs:TaxonName ;
+                    tcs:nameString: "Felis onca" ;
+                    dwc:scientificNameAuthorship "Linnaeus" ;
+                        dwc:namePublishedInYear "1758" ]] .
 
 <https://www.catalogueoflife.org/data/taxon/4CGXR> a tcs:TaxonConcept ;
     dcterms:title "Panthera pardus sec. Catalogue of Life 2024-01-24" ;
     tcs:accordingTo <https://doi.org/10.48580/dfrdl> ;
     tcs:taxonName: [ a tcs:TaxonName ;
             tcs:nameString: "Panthera pardus" ;
-            dwc:scientificNameAuthorship: "(Linnaeus, 1758)" ] .
+            tcs:basionym [ a tcs:TaxonName ;
+                    tcs:nameString: "Felis pardus" ;
+                    dwc:scientificNameAuthorship "Linnaeus" ;
+                        dwc:namePublishedInYear "1758" ]] .
 
 <https://www.catalogueoflife.org/data/taxon/4CGXS> a tcs:TaxonConcept ;
     dcterms:title "Panthera tigris sec. Catalogue of Life 2024-01-24" ;
     tcs:accordingTo <https://doi.org/10.48580/dfrdl> ;
     tcs:taxonName: [ a tcs:TaxonName ;
             tcs:nameString: "Panthera tigris" ;
-            dwc:scientificNameAuthorship: "(Linnaeus, 1758)" ] .
+            tcs:basionym [ a tcs:TaxonName ;
+                    tcs:nameString: "Felis tigris" ;
+                    dwc:scientificNameAuthorship "Linnaeus" ;
+                        dwc:namePublishedInYear "1758" ]] .
 ```
 
 [&#91;TurTLe&#93;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-child-example-1.ttl)&nbsp;[&#91;JSON-LD&#93;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-child-example-1.jsonld)
