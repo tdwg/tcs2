@@ -22,15 +22,15 @@
     "rdfs":                             "http://www.w3.org/2000/01/rdf-schema#",
     "xsd":                              "http://www.w3.org/2001/XMLSchema#",
 
-    "TaxonConcept":                     { "id": "tcs:TaxonConcept", "@context": {
-        "taxonConceptLabel":            { "type": "xsd:String", "id": "dcterms:title" }
+    "TaxonConcept":                     { "@type": "@id", "@id": "tcs:TaxonConcept", "@context": {
+        "taxonConceptLabel":                { "@type": "xsd:String", "@id": "dcterms:title" }
       }
     },
-    "accordingTo":                      { "type": "id", "id": "tcs:accordingTo" },
-    "taxonName":                        { "type": "id", "id": "tcs:taxonName" },
-    "synonyms":                         { "type": "id", "id": "tcs:synonym", "container": "@set" },
-    "vernacularNames":                  { "type": "id", "id": "tcs:vernacularName", "container": "@set" },
-    "taxonRank":                        { "type": "vocab", "id": "tcs:taxonRank", "@context": {
+    "accordingTo":                      { "@type": "@id", "@id": "tcs:accordingTo" },
+    "taxonName":                        { "@type": "@id", "@id": "tcs:taxonName" },
+    "synonyms":                         { "@type": "@id", "@id": "tcs:synonym", "@container": "@set" },
+    "vernacularNames":                  { "@type": "@id", "@id": "tcs:vernacularName", "@container": "@set" },
+    "taxonRank":                        { "@type": "@vocab", "@id": "tcs:taxonRank", "@context": {
         "domain":                           "http://rs.gbif.org/vocabulary/gbif/rank/domain",
         "kingdom":                          "http://rs.gbif.org/vocabulary/gbif/rank/kingdom",
         "subkingdom":                       "http://rs.gbif.org/vocabulary/gbif/rank/subkingdom",
@@ -71,30 +71,30 @@
         "strain":                           "http://rs.gbif.org/vocabulary/gbif/rank/strain"
       }
     },
-    "verbatimTaxonRank":                { "type": "xsd:String", "id": "dwc:verbatimTaxonRank" },
-    "parent":                           { "type": "id", "id": "tcs:parentTaxonConcept" },
-    "children":                         { "type": "id", "id": "tcs:childTaxonConcept", "container": "@set"},
-    "isCongruentWith":                  { "type": "id", "id": "tcs:isCongruentWith", "container": "@set" },
-    "includes":                         { "type": "id", "id": "tcs:includes", "container": "@set" },
-    "isIncludedIn":                     { "type": "id", "id": "tcs:isIncludedIn", "container": "@set" },
-    "partiallyOverlaps":                { "type": "id", "id": "tcs:partiallyOverlaps", "container": "@set" },
-    "isDisjointFrom":                   { "type": "id", "id": "tcs:isDisjointFrom", "container": "@set" },
-    "intersects":                       { "type": "id", "id": "tcs:intersects", "container": "@set" },
+    "verbatimTaxonRank":                { "@type": "xsd:String", "@id": "dwc:verbatimTaxonRank" },
+    "parent":                           { "@type": "@id", "@id": "tcs:parentTaxonConcept" },
+    "children":                         { "@reverse": "tcs:parentTaxonConcept", "@container": "@set" },
+    "isCongruentWith":                  { "@type": "@id", "@id": "tcs:isCongruentWith", "@container": "@set" },
+    "includes":                         { "@type": "@id", "@id": "tcs:includes", "@container": "@set" },
+    "isIncludedIn":                     { "@type": "@id", "@id": "tcs:isIncludedIn", "@container": "@set" },
+    "partiallyOverlaps":                { "@type": "@id", "@id": "tcs:partiallyOverlaps", "@container": "@set" },
+    "isDisjointFrom":                   { "@type": "@id", "@id": "tcs:isDisjointFrom", "@container": "@set" },
+    "intersects":                       { "@type": "@id", "@id": "tcs:intersects", "@container": "@set" },
 
-    "TaxonConceptMapping":              "tcs:TaxonConceptMapping",
-    "mappingAccordingTo":               { "type": "id", "id": "tcs:mappingAccordingTo" },
-    "mappingRelation":                  { "type": "vocab", "id": "tcs:mappingRelation" },
-    "subjectTaxonConcept":              { "type": "id", "id": "tcs:subjectTaxonConcept" },
-    "objectTaxonConcept":               { "type": "id", "id": "tcs:objectTaxonConcept" },
+    "TaxonConceptMapping":              { "@type": "@id",  "@id": "tcs:TaxonConceptMapping" },
+    "mappingAccordingTo":               { "@type": "@id", "@id": "tcs:mappingAccordingTo" },
+    "mappingRelation":                  { "@type": "@vocab", "@id": "tcs:mappingRelation" },
+    "subjectTaxonConcept":              { "@type": "@id", "@id": "tcs:subjectTaxonConcept" },
+    "objectTaxonConcept":               { "@type": "@id", "@id": "tcs:objectTaxonConcept" },
 
-    "TaxonName":                        { "type": "id",  "id": "tcs:TaxonName" },
-    "nameString":                       { "type": "xsd:String", "id": "tcs:nameString" },
-    "scientificNameAuthorship":         { "type": "xsd:String", "id": "dwc:scientificNameAuthorship" },
-    "namePublishedInLiteral":           { "type": "xsd:String", "id": "dwc:namePublishedIn" },
-    "namePublishedInYear":              { "type": "xsd:String", "id": "dwc:namePublishedInYear" },
-    "namePublishedIn":                  { "type": "id", "id": "tcs:namePublishedIn" },
-    "microReference":                   { "type": "xsd:String", "id": "tcs:microReference" },
-    "nomenclaturalCode":                { "type": "vocab", "id": "tcs:nomenclaturalCode", "@context": {
+    "TaxonName":                        { "@type": "@id",  "@id": "tcs:TaxonName" },
+    "nameString":                       { "@type": "xsd:String", "@id": "tcs:nameString" },
+    "scientificNameAuthorship":         { "@type": "xsd:String", "@id": "dwc:scientificNameAuthorship" },
+    "namePublishedInLiteral":           { "@type": "xsd:String", "@id": "dwc:namePublishedIn" },
+    "namePublishedInYear":              { "@type": "xsd:String", "@id": "dwc:namePublishedInYear" },
+    "namePublishedIn":                  { "@type": "@id", "@id": "tcs:namePublishedIn" },
+    "microReference":                   { "@type": "xsd:String", "@id": "tcs:microReference" },
+    "nomenclaturalCode":                { "@type": "@vocab", "@id": "tcs:nomenclaturalCode", "@context": {
         "ICN":                              "http://rs.gbif.org/vocabulary/gbif/nomenclatural_code/ICN",
         "ICZN":                             "http://rs.gbif.org/vocabulary/gbif/nomenclatural_code/ICZN",
         "ICVCN":                            "http://rs.gbif.org/vocabulary/gbif/nomenclatural_code/ICVCN",
@@ -103,7 +103,7 @@
         "BioCode":                          "http://rs.gbif.org/vocabulary/gbif/nomenclatural_code/BioCode"
       }
     },
-    "nomenclaturalStatus":              { "type": "vocab", "id": "tcs:nomenclaturalStatus", "@context": {
+    "nomenclaturalStatus":              { "@type": "@vocab", "@id": "tcs:nomenclaturalStatus", "@context": {
         "abortivum":                        "http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/abortivum",
         "alternativum":                     "http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/alternativum",
         "ambigua":                          "http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/ambigua",
@@ -134,29 +134,29 @@
         "valid":                            "http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/valid"
       } 
     },
-    "basionym":                         { "type": "id", "id": "tcs:basionym" },
-    "replacedName":                     { "type": "id", "id": "tcs:replacedName" },
-    "basedOn":                          { "type": "id", "id": "tcs:basedOn" },
-    "conservedAgainst":                 { "type": "id", "id": "tcs:conservedAgainst", "container": "@set" },
-    "combinationAuthor":                { "type": "id", "id": "tcs:combinationAuthor" },
-    "combinationAscribedAuthor":        { "type": "id", "id": "tcs:combinationAscribedAuthor" },
-    "basionymAuthor":                   { "type": "id", "id": "tcs:basionymAuthor" },
-    "basionymAscribedAuthor":           { "type": "id", "id": "tcs:basionymAscribedAuthor" },
-    "combinationAuthorLiteral":         { "type": "xsd:String", "id": "tcs:combinationAuthorLiteral" },
-    "combinationAscribedAuthorLiteral": { "type": "xsd:String", "id": "tcs:combinationAscribedAuthorLiteral" },
-    "basionymAuthorLiteral":            { "type": "xsd:String", "id": "tcs:basionymAuthorLiteral" },
-    "basionymAscribedAuthorLiteral":    { "type": "xsd:String", "id": "tcs:basionymAscribedAuthorLiteral" },
-    "typification":                     { "@reverse": "tcs:typifiedName", "container": "@set" },
-    "typificationLiteral":              { "type": "xsd:String", "id": "tcs:typificationLiteral" },
-    "genericName":                      { "type": "xsd:String", "id": "dwc:genericName" },
-    "infragenericEpithet":              { "type": "xsd:String", "id": "dwc:infragenericEpithet" },
-    "specificEpithet":                  { "type": "xsd:String", "id": "dwc:specificEpithet" },
-    "infraspecificEpithet":             { "type": "xsd:String", "id": "dwc:infraspecificEpithet" },
-    "cultivarEpithet":                  { "type": "xsd:String", "id": "dwc:cultivarEpithet" },
+    "basionym":                         { "@type": "@id", "@id": "tcs:basionym" },
+    "replacedName":                     { "@type": "@id", "@id": "tcs:replacedName" },
+    "basedOn":                          { "@type": "@id", "@id": "tcs:basedOn" },
+    "conservedAgainst":                 { "@type": "@id", "@id": "tcs:conservedAgainst", "@container": "@set" },
+    "combinationAuthor":                { "@type": "@id", "@id": "tcs:combinationAuthor" },
+    "combinationAscribedAuthor":        { "@type": "@id", "@id": "tcs:combinationAscribedAuthor" },
+    "basionymAuthor":                   { "@type": "@id", "@id": "tcs:basionymAuthor" },
+    "basionymAscribedAuthor":           { "@type": "@id", "@id": "tcs:basionymAscribedAuthor" },
+    "combinationAuthorLiteral":         { "@type": "xsd:String", "@id": "tcs:combinationAuthorLiteral" },
+    "combinationAscribedAuthorLiteral": { "@type": "xsd:String", "@id": "tcs:combinationAscribedAuthorLiteral" },
+    "basionymAuthorLiteral":            { "@type": "xsd:String", "@id": "tcs:basionymAuthorLiteral" },
+    "basionymAscribedAuthorLiteral":    { "@type": "xsd:String", "@id": "tcs:basionymAscribedAuthorLiteral" },
+    "typification":                     { "@reverse": "tcs:typifiedName", "@container": "@set" },
+    "typificationLiteral":              { "@type": "xsd:String", "@id": "tcs:typificationLiteral" },
+    "genericName":                      { "@type": "xsd:String", "@id": "dwc:genericName" },
+    "infragenericEpithet":              { "@type": "xsd:String", "@id": "dwc:infragenericEpithet" },
+    "specificEpithet":                  { "@type": "xsd:String", "@id": "dwc:specificEpithet" },
+    "infraspecificEpithet":             { "@type": "xsd:String", "@id": "dwc:infraspecificEpithet" },
+    "cultivarEpithet":                  { "@type": "xsd:String", "@id": "dwc:cultivarEpithet" },
 
-    "NomenclaturalType":                "tcs:NomenclaturalType",
-    "typifiedName":                     { "type": "id", "id": "tcs:typifiedName" },
-    "typeOfType":                       { "type": "vocab", "id": "tcs:typeOfType", "@context": {
+    "NomenclaturalType":                { "@type": "@id", "@id": "tcs:NomenclaturalType" },
+    "typifiedName":                     { "@type": "@id", "@id": "tcs:typifiedName" },
+    "typeOfType":                       { "@type": "@vocab", "@id": "tcs:typeOfType", "@context": {
         "allolectotype":                    "http://rs.gbif.org/vocabulary/gbif/type_status/allolectotype",
         "alloneotype":                      "http://rs.gbif.org/vocabulary/gbif/type_status/alloneotype",
         "allotype":                         "http://rs.gbif.org/vocabulary/gbif/type_status/allotype",
@@ -199,8 +199,8 @@
         "typeGenus":                        "http://rs.gbif.org/vocabulary/gbif/type_status/typeGenus"
       } 
     },
-    "typeName":                         { "type": "id", "id": "tcs:typeName" },
-    "typeSpecimen":                     { "type": "id", "id": "tcs:typeSpecimen" },
-    "typePublishedIn":                  { "type": "id", "id": "tcs:typePublishedIn" }
+    "typeName":                         { "@type": "@id", "@id": "tcs:typeName" },
+    "typeSpecimen":                     { "@type": "@id", "@id": "tcs:typeSpecimen" },
+    "typePublishedIn":                  { "@type": "@id", "@id": "tcs:typePublishedIn" }
   }
 }
