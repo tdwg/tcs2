@@ -257,6 +257,7 @@
     - TaxonConcept-vernacularName-example-1
     - TaxonConcept-vernacularName-example-2
     - TaxonConcept-vernacularName-example-3
+    - TaxonConcept-vernacularName-example-4
   type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonConcept
   required: No

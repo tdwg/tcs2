@@ -11,17 +11,23 @@
     tcs:taxonName: [ a tcs:TaxonName ;
             tcs:nameString "Panthera" ;
             dwc:scientificNameAuthorship "Oken" ;
-            dwc:namePublishedInYear "1816" ] .
+            dwc:namePublishedInYear "1816" ] ;
+    tcs:vernacularName [ a gbif:VernacularName ;
+            dwc:vernacularName "Roaring cats"] ;
+    tcs:taxonRank <http://rs.gbif.org/vocabulary/gbif/rank/genus> .
 
 <https://www.catalogueoflife.org/data/taxon/4CGXP> a tcs:TaxonConcept ;
     dcterms:title "Panthera leo sec. Catalogue of Life 2024-01-24" ;
     tcs:accordingTo <https://doi.org/10.48580/dfrdl> ;
     tcs:taxonName: [ a tcs:TaxonName ;
-            tcs:nameString: "Panthera onca" ;
+            tcs:nameString: "Panthera leo" ;
             tcs:basionym [ a tcs:TaxonName ;
-                    tcs:nameString "Felis onca" ;
+                    tcs:nameString "Felis leo" ;
                     dwc:scientificNameAuthorship "Linnaeus" ;
                         dwc:namePublishedInYear "1758" ]] ;
+    tcs:vernacularName: [ a gbif:VernacularName ;
+            dwc:vernacularName "Lion"] ;
+    tcs:taxonRank <http://rs.gbif.org/vocabulary/gbif/rank/species> ;
     tcs:parentTaxonConcept <https://www.catalogueoflife.org/data/taxon/6DBT> .
 
 <https://www.catalogueoflife.org/data/taxon/4CGXQ> a tcs:TaxonConcept ;
@@ -33,28 +39,53 @@
                     tcs:nameString: "Felis onca" ;
                     dwc:scientificNameAuthorship "Linnaeus" ;
                         dwc:namePublishedInYear "1758" ]] ;
+    tcs:vernacularName: [ a gbif:VernacularName ;
+            dwc:vernacularName "Jaguar"] ;
+    tcs:taxonRank <http://rs.gbif.org/vocabulary/gbif/rank/species> ;
     tcs:parentTaxonConcept <https://www.catalogueoflife.org/data/taxon/6DBT> .
 
 <https://www.catalogueoflife.org/data/taxon/4CGXR> a tcs:TaxonConcept ;
     dcterms:title "Panthera pardus sec. Catalogue of Life 2024-01-24" ;
     tcs:accordingTo <https://doi.org/10.48580/dfrdl> ;
     tcs:taxonName: [ a tcs:TaxonName ;
-            tcs:nameString "Panthera onca" ;
+            tcs:nameString "Panthera pardus" ;
             tcs:basionym [ a tcs:TaxonName ;
-                    tcs:nameString: "Felis onca" ;
+                    tcs:nameString: "Felis pardus" ;
                     dwc:scientificNameAuthorship "Linnaeus" ;
                         dwc:namePublishedInYear "1758" ]] ;
+    tcs:vernacularName: [ a gbif:VernacularName ;
+            dwc:vernacularName "Panther"] ,
+        [ a gbif:VernacularName ;
+            dwc:vernacularName "Leopard" ] ;
+    tcs:taxonRank <http://rs.gbif.org/vocabulary/gbif/rank/species> ;
     tcs:parentTaxonConcept <https://www.catalogueoflife.org/data/taxon/6DBT> .
 
 <https://www.catalogueoflife.org/data/taxon/4CGXS> a tcs:TaxonConcept ;
     dcterms:title "Panthera tigris sec. Catalogue of Life 2024-01-24" ;
     tcs:accordingTo <https://doi.org/10.48580/dfrdl> ;
     tcs:taxonName: [ a tcs:TaxonName ;
-            tcs:nameString "Panthera onca" ;
+            tcs:nameString "Panthera tigris" ;
             tcs:basionym [ a tcs:TaxonName ;
-                    tcs:nameString: "Felis onca" ;
+                    tcs:nameString: "Felis tigris" ;
                     dwc:scientificNameAuthorship "Linnaeus" ;
                         dwc:namePublishedInYear "1758" ]] ;
+    tcs:vernacularName: [ a gbif:VernacularName ;
+            dwc:vernacularName "Tiger"] ;
+    tcs:taxonRank <http://rs.gbif.org/vocabulary/gbif/rank/species> ;
+    tcs:parentTaxonConcept <https://www.catalogueoflife.org/data/taxon/6DBT> .
+
+<https://www.catalogueoflife.org/data/taxon/4CGXT> a tcs:TaxonConcept ;
+    dcterms:title "Panthera uncia sec. Catalogue of Life 2025-09-04" ;
+    tcs:accordingTo <https://doi.org/10.48580/dfrdl> ;
+    tcs:taxonName: [ a tcs:TaxonName ;
+            tcs:nameString "Panthera uncia" ;
+            tcs:basionym [ a tcs:TaxonName ;
+                    tcs:nameString: "Felis uncia" ;
+                    dwc:scientificNameAuthorship "Schreber" ;
+                        dwc:namePublishedInYear "1775" ]] ;
+    tcs:vernacularName: [ a gbif:VernacularName ;
+            dwc:vernacularName "Snow leopard"] ;
+    tcs:taxonRank <http://rs.gbif.org/vocabulary/gbif/rank/species> ;
     tcs:parentTaxonConcept <https://www.catalogueoflife.org/data/taxon/6DBT> .
 ```
 

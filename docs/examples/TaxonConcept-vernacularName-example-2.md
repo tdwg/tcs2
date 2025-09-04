@@ -3,7 +3,7 @@
 
 **Term:** [tcs:vernacularName](../terms/#tcs_vernacularname)
 
-[TaxonConcept-vernacularName-example-1](./TaxonConcept-vernacularName-example-1.html) | TaxonConcept-vernacularName-example-2 | [TaxonConcept-vernacularName-example-3](./TaxonConcept-vernacularName-example-3.html)
+[TaxonConcept-vernacularName-example-1](./TaxonConcept-vernacularName-example-1.html) | TaxonConcept-vernacularName-example-2 | [TaxonConcept-vernacularName-example-3](./TaxonConcept-vernacularName-example-3.html) | [TaxonConcept-vernacularName-example-4](./TaxonConcept-vernacularName-example-4.html)
 ```turtle
 [] a tcs:TaxonConcept ;
     dcterms:title "Quercus robur sec. Duistermaat 2020" ;

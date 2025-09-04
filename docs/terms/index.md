@@ -480,6 +480,8 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 
 <li><a href="../examples/TaxonConcept-vernacularName-example-3.html">TaxonConcept-vernacularName-example-3</a></li>
 
+<li><a href="../examples/TaxonConcept-vernacularName-example-4.html">TaxonConcept-vernacularName-example-4</a></li>
+
 </ul>
 </td>
 		</tr>

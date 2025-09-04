@@ -61,6 +61,7 @@ Playground](https://json-ld.org/playground/).
 - [TaxonConcept-vernacularName-example-1](TaxonConcept-vernacularName-example-1.md)
 - [TaxonConcept-vernacularName-example-2](TaxonConcept-vernacularName-example-2.md)
 - [TaxonConcept-vernacularName-example-3](TaxonConcept-vernacularName-example-3.md)
+- [TaxonConcept-vernacularName-example-4](TaxonConcept-vernacularName-example-4.md)
 
 ### tcs:parentTaxonConcept
 

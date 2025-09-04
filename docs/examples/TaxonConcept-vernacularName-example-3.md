@@ -3,7 +3,7 @@
 
 **Term:** [tcs:vernacularName](../terms/#tcs_vernacularname)
 
-[TaxonConcept-vernacularName-example-1](./TaxonConcept-vernacularName-example-1.html) | [TaxonConcept-vernacularName-example-2](./TaxonConcept-vernacularName-example-2.html) | TaxonConcept-vernacularName-example-3
+[TaxonConcept-vernacularName-example-1](./TaxonConcept-vernacularName-example-1.html) | [TaxonConcept-vernacularName-example-2](./TaxonConcept-vernacularName-example-2.html) | TaxonConcept-vernacularName-example-3 | [TaxonConcept-vernacularName-example-4](./TaxonConcept-vernacularName-example-4.html)
 ```turtle
 <https://vicflora.rbg.vic.gov.au/flora/taxon/93c88fde-ab15-4a9a-a61d-3830a57a0160#2023-03-02> 
     a tcs:TaxonConcept ;
