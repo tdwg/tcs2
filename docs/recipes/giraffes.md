@@ -657,3 +657,6 @@ the classifications by Groves and Grubb (2011) and Lydekker (1904).
 [TurTLe](https://github.com/tdwg/tcs2/blob/master/recipes/giraffes.ttl) |
 [JSON-LD](https://github.com/tdwg/tcs2/blob/master/recipes/giraffes.jsonld) |
 [Data Package](https://github.com/tdwg/tcs2/blob/master/recipes/giraffes/datapackage/)
+[CoLDP](https://github.com/tdwg/tcs2/blob/master/recipes/giraffes/coldp/)
+
+The CoLDP has been uploaded to ChecklistBank: [data set 312143](https://www.checklistbank.org/dataset/312143/about)
