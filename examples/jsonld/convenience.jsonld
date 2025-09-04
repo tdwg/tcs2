@@ -1,0 +1,10 @@
+{
+  "@context": {
+    "container":                        "@container",
+    "id":                               "@id",
+    "type":                             "@type",
+    "list":                             "@list",
+    "set":                              "@set",
+    "vocab":                            "@vocab"
+  }
+}
