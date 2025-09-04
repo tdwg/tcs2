@@ -2,32 +2,6 @@
 # Terms borrowed from Darwin Core
 #
 
-# property: scientificName
-- localName: scientificName
-  label: Scientific Name 
-  definition: >-
-    The full scientific name, with authorship and date information if known. 
-    When forming part of an Identification, this SHOULD be the name in lowest 
-    level taxonomic rank that can be determined. This term SHOULD not contain 
-    identification qualifications, which SHOULD instead be supplied in the 
-    `identificationQualifier` term.
-  usage: null
-  notes: >-
-    `scientificName` can be used in addition to the `taxonName` property on a
-    Taxon Concept object or the `nameString` property on a Taxon Name object.
-  examples: null
-  type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
-  organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonConcept
-  required: No
-  repeatable: No
-  github: 17
-  mappings:
-    - predicate: "skos:broadMatch"
-      iri: /DataSet/TaxonNames/TaxonName/Simple
-      remarks: TCS 1 uses the same element for vernacular names
-    - predicate: "skos:broadMatch"
-      iri: tn:nameComplete
-
 # property: scientificNameAuthorship
 - localName: scientificNameAuthorship
   label: Scientific Name Authorship
@@ -49,20 +23,6 @@
       iri: /DataSet/TaxonNames/TaxonName/CanonicalAuthorship/Simple
     - predicate: "skos:exactMatch"
       iri: "tn:authorship"
-
-# property: vernacularName
-- localName: vernacularName
-  label: Vernacular Name 
-  definition: >-
-    A common or vernacular name.
-  usage: null
-  notes: null
-  examples: null
-  type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
-  organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonConcept
-  required: No
-  repeatable: No
-  github: 235
 
 # property: namePublishedIn
 - localName: namePublishedIn

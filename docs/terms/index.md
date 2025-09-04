@@ -188,8 +188,6 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 [tcs:partiallyOverlaps](#tcs_partiallyoverlaps) |
 [tcs:isDisjointFrom](#tcs_isdisjointfrom) |
 [tcs:intersects](#tcs_intersects) |
-[dwc:scientificName](#dwc_scientificname) |
-[dwc:vernacularName](#dwc_vernacularname) |
 [dwc:verbatimTaxonRank](#dwc_verbatimtaxonrank) |
 [dcterms:title](#dcterms_title)
 
@@ -915,68 +913,6 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 
 </ul>
 </td>
-		</tr>
-	</tbody>
-</table>
-
-<table>
-
-    <thead>
-        <th colspan="2"><a id="dwc_scientificname"></a>Term Name: dwc:scientificName</th>
-    </thead>
-    <tbody>
-		<tr>
-			<td>Identifier</td>
-			<td>http://rs.tdwg.org/dwc/terms/scientificName</td>
-		</tr>
-		<tr>
-			<td>Type</td>
-			<td>http://www.w3.org/1999/02/22-rdf-syntax-ns#Property</td>
-		</tr>
-		<tr>
-			<td>Label</td>
-			<td>Scientific Name</td>
-		</tr>
-		<tr>
-			<td>Definition</td>
-			<td><p>The full scientific name, with authorship and date information if known.  When forming part of an Identification, this SHOULD be the name in lowest  level taxonomic rank that can be determined. This term SHOULD not contain  identification qualifications, which SHOULD instead be supplied in the  <code>identificationQualifier</code> term.</p></td>
-		</tr>
-		<tr>
-			<td></td>
-			<td><b>Required:</b> No — <b>Repeatable:</b> No</td>
-		</tr>
-		<tr>
-			<td>Comments</td>
-			<td><p><code>scientificName</code> can be used in addition to the <code>taxonName</code> property on a Taxon Concept object or the <code>nameString</code> property on a Taxon Name object.</p></td>
-		</tr>
-	</tbody>
-</table>
-
-<table>
-
-    <thead>
-        <th colspan="2"><a id="dwc_vernacularname"></a>Term Name: dwc:vernacularName</th>
-    </thead>
-    <tbody>
-		<tr>
-			<td>Identifier</td>
-			<td>http://rs.tdwg.org/dwc/terms/vernacularName</td>
-		</tr>
-		<tr>
-			<td>Type</td>
-			<td>http://www.w3.org/1999/02/22-rdf-syntax-ns#Property</td>
-		</tr>
-		<tr>
-			<td>Label</td>
-			<td>Vernacular Name</td>
-		</tr>
-		<tr>
-			<td>Definition</td>
-			<td><p>A common or vernacular name.</p></td>
-		</tr>
-		<tr>
-			<td></td>
-			<td><b>Required:</b> No — <b>Repeatable:</b> No</td>
 		</tr>
 	</tbody>
 </table>
