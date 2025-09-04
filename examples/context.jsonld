@@ -1,6 +1,11 @@
 {
   "@context": {
-    "@import": "https://json-ld.org/contexts/convenience.jsonld",
+    "container":                        "@container",
+    "id":                               "@id",
+    "type":                             "@type",
+    "list":                             "@list",
+    "set":                              "@set",
+    "vocab":                            "@vocab",
 
     "tcs":                              "http://rs.tdwg.org/tcs/terms/",
     "address":                          "http://schemas.talis.com/2005/address/schema#",
