@@ -25,7 +25,7 @@
       "@id": "tcs:TaxonName",
       "@context": {
         "scientificNameAuthorship": "dwc:scientificNameAuthorship",
-        "namePublishedInLiteral": "namePublishedInLiteral",
+        "namePublishedInLiteral": "dwc:namePublishedIn",
         "namePublishedInYear": "dwc:namePublishedInYear",
         "genericName": "dwc:genericName",
         "infragenericEpithet": "dwc:infragenericEpithet",
