@@ -9,7 +9,8 @@
       "taxonName": {
         "type": "TaxonName",
         "nameString": "Panthera",
-        "scientificNameAuthorship": "Oken, 1816"
+        "scientificNameAuthorship": "Oken",
+        "namePublishedInYear": "1816"
       }
     },
     {
@@ -20,7 +21,12 @@
       "taxonName": {
         "type": "TaxonName",
         "nameString": "Panthera leo",
-        "scientificNameAuthorship": "(Linnaeus, 1758)"
+        "basionym": {
+          "type": "TaxonName",
+          "nameString": "Felis leo",
+          "scientificNameAuthorship": "Linnaeus",
+          "namePublishedInYear": "1758"
+        }
       },
       "parent": "https://www.catalogueoflife.org/data/taxon/6DBT"
     },
@@ -32,7 +38,12 @@
       "taxonName": {
         "type": "TaxonName",
         "nameString": "Panthera onca",
-        "scientificNameAuthorship": "(Linnaeus, 1758)"
+        "basionym": {
+          "type": "TaxonName",
+          "nameString": "Felis onca",
+          "scientificNameAuthorship": "Linnaeus",
+          "namePublishedInYear": "1758"
+        }
       },
       "parent": "https://www.catalogueoflife.org/data/taxon/6DBT" 
     },
@@ -44,7 +55,12 @@
       "taxonName": {
         "type": "TaxonName",
         "nameString": "Panthera pardus",
-        "scientificNameAuthorship": "(Linnaeus, 1758)"
+        "basionym": {
+          "type": "TaxonName",
+          "nameString": "Felis pardus",
+          "scientificNameAuthorship": "Linnaeus",
+          "namePublishedInYear": "1758"
+        }
       },
       "parent": "https://www.catalogueoflife.org/data/taxon/6DBT"
     },
@@ -56,7 +72,12 @@
       "taxonName": {
         "type": "TaxonName",
         "nameString": "Panthera tigris",
-        "scientificNameAuthorship": "(Linnaeus, 1758)"
+        "basionym": {
+          "type": "TaxonName",
+          "nameString": "Felis tigris",
+          "scientificNameAuthorship": "Linnaeus",
+          "namePublishedInYear": "1758"
+        }
       },
       "parent": "https://www.catalogueoflife.org/data/taxon/6DBT" 
     }

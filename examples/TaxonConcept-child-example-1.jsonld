@@ -7,8 +7,10 @@
   "taxonName": {
   "type": "TaxonName",
     "nameString": "Panthera",
-    "scientificNameAuthorship": "Oken, 1816"
+    "scientificNameAuthorship": "Oken",
+    "namePublishedInYear": "1816"
   },
+  "taxonRank": "genus",
   "children": {
     "@set": [
       {
@@ -19,8 +21,14 @@
         "taxonName": {
 					"type": "TaxonName",
 					"nameString": "Panthera leo",
-					"scientificNameAuthorship": "(Linnaeus, 1758)"
-				} 
+					"basionym": {
+            "type": "TaxonName",
+            "nameString": "Felis leo",
+            "scientificNameAuthorship": "Linnaeus",
+            "namePublishedInYear": "1758"
+          }
+				},
+        "taxonRank": "species"
       },
       {
         "id": "https://www.catalogueoflife.org/data/taxon/4CGXQ",
@@ -30,8 +38,14 @@
         "taxonName": {
 					"type": "TaxonName",
 					"nameString": "Panthera onca",
-					"scientificNameAuthorship": "(Linnaeus, 1758)"
-				} 
+					"basionym": {
+            "type": "TaxonName",
+            "nameString": "Felis onca",
+            "scientificNameAuthorship": "Linnaeus",
+            "namePublishedInYear": "1758"
+          }
+				},
+        "taxonRank": "species"
       },
       {
         "id": "https://www.catalogueoflife.org/data/taxon/4CGXR",
@@ -41,8 +55,14 @@
         "taxonName": {
 					"type": "TaxonName",
 					"nameString": "Panthera pardus",
-					"scientificNameAuthorship": "(Linnaeus, 1758)"
-				} 
+					"basionym": {
+            "type": "TaxonName",
+            "nameString": "Felis pardus",
+            "scientificNameAuthorship": "Linnaeus",
+            "namePublishedInYear": "1758"
+          }
+				},
+        "taxonRank": "species"
       },
       {
         "id": "https://www.catalogueoflife.org/data/taxon/4CGXS",
@@ -52,8 +72,14 @@
         "taxonName": {
 					"type": "TaxonName",
 					"nameString": "Panthera tigris",
-					"scientificNameAuthorship": "(Linnaeus, 1758)"
-				} 
+					"basionym": {
+            "type": "TaxonName",
+            "nameString": "Felis tigris",
+            "scientificNameAuthorship": "Linnaeus",
+            "namePublishedInYear": "1758"
+          }
+				},
+        "taxonRank": "species"
       }
     ]
   }
