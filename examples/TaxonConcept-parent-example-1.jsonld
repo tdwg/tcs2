@@ -11,7 +11,14 @@
         "nameString": "Panthera",
         "scientificNameAuthorship": "Oken",
         "namePublishedInYear": "1816"
-      }
+      },
+      "vernacularNames": [
+        {
+          "type": "gbif:VernacularName",
+          "dwc:vernacularName": "Roaring cats"
+        }
+      ],
+      "taxonRank": "genus"
     },
     {
       "id": "https://www.catalogueoflife.org/data/taxon/4CGXP",
@@ -28,6 +35,13 @@
           "namePublishedInYear": "1758"
         }
       },
+      "vernacularNames": [
+        {
+          "type": "gbif:VernacularName",
+          "dwc:vernacularName": "Lion"
+        }
+      ],
+      "taxonRank": "species",
       "parent": "https://www.catalogueoflife.org/data/taxon/6DBT"
     },
     {
@@ -45,6 +59,13 @@
           "namePublishedInYear": "1758"
         }
       },
+      "vernacularNames": [
+        {
+          "type": "gbif:VernacularName",
+          "dwc:vernacularName": "Jaguar"
+        }
+      ],
+      "taxonRank": "species",
       "parent": "https://www.catalogueoflife.org/data/taxon/6DBT" 
     },
     {
@@ -62,6 +83,13 @@
           "namePublishedInYear": "1758"
         }
       },
+      "vernacularNames": [
+        {
+          "type": "gbif:VernacularName",
+          "dwc:vernacularName": "Panther"
+        }
+      ],
+      "taxonRank": "species",
       "parent": "https://www.catalogueoflife.org/data/taxon/6DBT"
     },
     {
@@ -79,6 +107,37 @@
           "namePublishedInYear": "1758"
         }
       },
+      "vernacularNames": [
+        {
+          "type": "gbif:VernacularName",
+          "dwc:vernacularName": "Tiger"
+        }
+      ],
+      "taxonRank": "species",
+      "parent": "https://www.catalogueoflife.org/data/taxon/6DBT" 
+    },
+    {
+      "id": "https://www.catalogueoflife.org/data/taxon/4CGXT",
+      "type": "TaxonConcept",
+      "taxonConceptLabel": "Panthera uncia sec. Catalogue of Life 2025-09-04",
+      "accordingTo": "https://doi.org/10.48580/dfrdl",
+      "taxonName": {
+        "type": "TaxonName",
+        "nameString": "Panthera uncia",
+        "basionym": {
+          "type": "TaxonName",
+          "nameString": "Felis uncia",
+          "scientificNameAuthorship": "Schreber",
+          "namePublishedInYear": "1775"
+        }
+      },
+      "vernacularNames": [
+        {
+          "type": "gbif:VernacularName",
+          "dwc:vernacularName": "Snow leopard"
+        }
+      ],
+      "taxonRank": "species",
       "parent": "https://www.catalogueoflife.org/data/taxon/6DBT" 
     }
   ]
