@@ -1111,10 +1111,11 @@
   label: Combination Author
   definition: Author of the combination
   usage: >-
-    `combinationAuthor` is an IRI property. It can be a person or a list of persons.
+    `combinationAuthor` is an IRI property. It can be a person or a list of
+    persons.
   notes: >-
-    'combination' is taken here to be a different name with the same
-    nomenclatural type.
+    'combination' is taken here to be one of a group of different names with the
+    same nomenclatural type.
   type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonName
   required: No
@@ -1130,8 +1131,8 @@
   usage: >-
     `combinationAuthorLiteral` is a Literal property.
   notes: >-
-    'combination' is taken here to be a different name with the same
-    nomenclatural type.
+    'combination' is taken here to be one of a group of different names with the
+    same nomenclatural type.
   type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonName
   required: No

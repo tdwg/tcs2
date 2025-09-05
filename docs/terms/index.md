@@ -1764,7 +1764,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		</tr>
 		<tr>
 			<td>Comments</td>
-			<td><p>'combination' is taken here to be a different name with the same nomenclatural type.</p></td>
+			<td><p>'combination' is taken here to be one of a group of different names with the same nomenclatural type.</p></td>
 		</tr>
 		<tr>
 			<td>Examples</td>
@@ -1809,7 +1809,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		</tr>
 		<tr>
 			<td>Comments</td>
-			<td><p>'combination' is taken here to be a different name with the same nomenclatural type.</p></td>
+			<td><p>'combination' is taken here to be one of a group of different names with the same nomenclatural type.</p></td>
 		</tr>
 	</tbody>
 </table>
