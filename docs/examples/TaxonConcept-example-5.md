@@ -10,7 +10,9 @@
     tcs:accordingTo <https://www.catalogueoflife.org#v2022-11-14> ;
     tcs:taxonName [ a tcs:TaxonName ;
             tcs:nameString "Balaenoptera musculus" ;
-            dwc:scientificNameAuthorship "(Linnaeus, 1758)" ] .
+            dwc:scientificNameAuthorship "(Linnaeus, 1758)" ] ;
+    tcs:vernacularName [ a gbif:VernacularName ;
+            dwc:vernacularName "Blue whale" ].
 
 <https://www.catalogueoflife.org#v2022-11-14> a bibo:Website ;
     dcterms:isVersionOf "https://www.catalogueoflife.org" ;

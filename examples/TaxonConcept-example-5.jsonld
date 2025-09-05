@@ -14,5 +14,11 @@
     "type": "TaxonName",
     "nameString": "Balaenoptera musculus",
     "scientificNameAuthorship": "(Linnaeus, 1758)"
-  }
+  },
+  "vernacularNames": [
+    {
+      "type": "gbif:VernacularName",
+      "dwc:vernacularName": "Blue whale"
+    }
+  ]
 }
