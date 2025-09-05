@@ -1,5 +1,5 @@
 {
-  "@context": "https://raw.githubusercontent.com/tdwg/tcs2/refs/heads/master/examples/context.jsonld",
+  "@context": "https://raw.githubusercontent.com/tdwg/tcs2/refs/heads/master/jsonld/context.jsonld",
   "type": "TaxonConcept",
   "taxonConceptLabel": "Graphium macleayanum sec. Orr & Kitching 2010",
   "accordingTo": {

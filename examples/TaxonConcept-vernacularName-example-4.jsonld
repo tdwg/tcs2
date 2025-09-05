@@ -1,5 +1,5 @@
 {
-  "@context": "https://raw.githubusercontent.com/tdwg/tcs2/refs/heads/master/examples/context.jsonld",
+  "@context": "https://raw.githubusercontent.com/tdwg/tcs2/refs/heads/master/jsonld/context.jsonld",
   "type": "TaxonConcept",
   "id": "<https://www.catalogueoflife.org/data/taxon/4CGXT",
   "taxonConceptLabel": "Panthera uncia sec. Catalogue of Life 2025-09-04",

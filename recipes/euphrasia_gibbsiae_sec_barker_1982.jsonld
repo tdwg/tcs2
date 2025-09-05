@@ -1,6 +1,6 @@
 {
   "@context": [
-    "https://raw.githubusercontent.com/tdwg/tcs2/refs/heads/master/examples/context.jsonld",
+    "https://raw.githubusercontent.com/tdwg/tcs2/refs/heads/master/jsonld/context.jsonld",
     {
       "mappingRelation": {
         "@id": "tcs:mappingRelation",

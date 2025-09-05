@@ -1,5 +1,5 @@
 {
-  "@context": "https://raw.githubusercontent.com/tdwg/tcs2/refs/heads/master/examples/context.jsonld",
+  "@context": "https://raw.githubusercontent.com/tdwg/tcs2/refs/heads/master/jsonld/context.jsonld",
   "id": "urn:isbn:978-967-5221-99-6",
   "type": "bibo:Book",
   "dcterms:bibliographicCitation": "Yong, K.T.; Tan, B.C.; Ho, B.C.; Ho, Q.Y.; Mohamed, H. (2013). A revised moss checklist of Peninsular Malaysia and Singapore. Research Pamphlet no. 133. Forest Research Institute Malaysia, Kepong, Selangor, Malaysia."

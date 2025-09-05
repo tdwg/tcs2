@@ -1,5 +1,5 @@
 {
-  "@context": "https://raw.githubusercontent.com/tdwg/tcs2/refs/heads/master/examples/context.jsonld",
+  "@context": "https://raw.githubusercontent.com/tdwg/tcs2/refs/heads/master/jsonld/context.jsonld",
   "id": "urn:lsid:zoobank.org:act:355AAA50-D89F-466E-A216-96B7A17D5AD4",
   "type": "TaxonName",
   "nameString": "Carabus nitens",

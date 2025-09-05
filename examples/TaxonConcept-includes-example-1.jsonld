@@ -1,5 +1,5 @@
 {
-  "@context": "https://raw.githubusercontent.com/tdwg/tcs2/refs/heads/master/examples/context.jsonld",
+  "@context": "https://raw.githubusercontent.com/tdwg/tcs2/refs/heads/master/jsonld/context.jsonld",
   "type": "TaxonConcept",
   "taxonConceptLabel": "Diplaziopsidaceae sec. Rothfels & al. 2012",
   "accodingTo": "https://doi.org/10.1002/tax.613003",

@@ -1,5 +1,5 @@
 {
-  "@context": "https://raw.githubusercontent.com/tdwg/tcs2/refs/heads/master/examples/context.jsonld",
+  "@context": "https://raw.githubusercontent.com/tdwg/tcs2/refs/heads/master/jsonld/context.jsonld",
   "type": "TaxonConcept",
   "id": "https://www.catalogueoflife.org/data/taxon/6DBT",
   "taxonConceptLabel": "Panthera sec. Catalogue of Life 2024-01-24",
