@@ -10,8 +10,7 @@
     tcs:accordingTo <https://doi.org/10.48580/dfrdl> ;
     tcs:taxonName: [ a tcs:TaxonName ;
             tcs:nameString "Panthera" ;
-            dwc:scientificNameAuthorship "Oken" ;
-            dwc:namePublishedInYear "1816" ] ;
+            dwc:scientificNameAuthorship "Oken, 1816" ] ;
     tcs:vernacularName [ a gbif:VernacularName ;
             dwc:vernacularName "Roaring cats"] ;
     tcs:taxonRank <http://rs.gbif.org/vocabulary/gbif/rank/genus> .
@@ -21,10 +20,7 @@
     tcs:accordingTo <https://doi.org/10.48580/dfrdl> ;
     tcs:taxonName: [ a tcs:TaxonName ;
             tcs:nameString: "Panthera leo" ;
-            tcs:basionym [ a tcs:TaxonName ;
-                    tcs:nameString "Felis leo" ;
-                    dwc:scientificNameAuthorship "Linnaeus" ;
-                        dwc:namePublishedInYear "1758" ]] ;
+            dwc:scientificNameAuthorship "(Linnaeus, 1758)" ] ;
     tcs:vernacularName: [ a gbif:VernacularName ;
             dwc:vernacularName "Lion"] ;
     tcs:taxonRank <http://rs.gbif.org/vocabulary/gbif/rank/species> ;
@@ -35,10 +31,7 @@
     tcs:accordingTo <https://doi.org/10.48580/dfrdl> ;
     tcs:taxonName: [ a tcs:TaxonName ;
             tcs:nameString "Panthera onca" ;
-            tcs:basionym [ a tcs:TaxonName ;
-                    tcs:nameString: "Felis onca" ;
-                    dwc:scientificNameAuthorship "Linnaeus" ;
-                        dwc:namePublishedInYear "1758" ]] ;
+            dwc:scientificNameAuthorship "(Linnaeus, 1758)" ] ;
     tcs:vernacularName: [ a gbif:VernacularName ;
             dwc:vernacularName "Jaguar"] ;
     tcs:taxonRank <http://rs.gbif.org/vocabulary/gbif/rank/species> ;
@@ -49,10 +42,7 @@
     tcs:accordingTo <https://doi.org/10.48580/dfrdl> ;
     tcs:taxonName: [ a tcs:TaxonName ;
             tcs:nameString "Panthera pardus" ;
-            tcs:basionym [ a tcs:TaxonName ;
-                    tcs:nameString: "Felis pardus" ;
-                    dwc:scientificNameAuthorship "Linnaeus" ;
-                        dwc:namePublishedInYear "1758" ]] ;
+            dwc:scientificNameAuthorship "(Linnaeus, 1758)" ] ;
     tcs:vernacularName: [ a gbif:VernacularName ;
             dwc:vernacularName "Panther"] ,
         [ a gbif:VernacularName ;
@@ -65,10 +55,7 @@
     tcs:accordingTo <https://doi.org/10.48580/dfrdl> ;
     tcs:taxonName: [ a tcs:TaxonName ;
             tcs:nameString "Panthera tigris" ;
-            tcs:basionym [ a tcs:TaxonName ;
-                    tcs:nameString: "Felis tigris" ;
-                    dwc:scientificNameAuthorship "Linnaeus" ;
-                        dwc:namePublishedInYear "1758" ]] ;
+            dwc:scientificNameAuthorship "(Linnaeus, 1758)" ] ;
     tcs:vernacularName: [ a gbif:VernacularName ;
             dwc:vernacularName "Tiger"] ;
     tcs:taxonRank <http://rs.gbif.org/vocabulary/gbif/rank/species> ;
@@ -79,10 +66,7 @@
     tcs:accordingTo <https://doi.org/10.48580/dfrdl> ;
     tcs:taxonName: [ a tcs:TaxonName ;
             tcs:nameString "Panthera uncia" ;
-            tcs:basionym [ a tcs:TaxonName ;
-                    tcs:nameString: "Felis uncia" ;
-                    dwc:scientificNameAuthorship "Schreber" ;
-                        dwc:namePublishedInYear "1775" ]] ;
+            dwc:scientificNameAuthorship "(Schreber, 1775)" ] ;
     tcs:vernacularName: [ a gbif:VernacularName ;
             dwc:vernacularName "Snow leopard"] ;
     tcs:taxonRank <http://rs.gbif.org/vocabulary/gbif/rank/species> ;

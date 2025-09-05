@@ -7,8 +7,7 @@
   "taxonName": {
     "type": "TaxonName",
     "nameString": "Panthera",
-    "scientificNameAuthorship": "Oken",
-    "namePublishedInYear": "1816"
+    "scientificNameAuthorship": "Oken, 1816"
   },
   "vernacularNames": [
     {
@@ -26,12 +25,7 @@
       "taxonName": {
         "type": "TaxonName",
         "nameString": "Panthera leo",
-        "basionym": {
-          "type": "TaxonName",
-          "nameString": "Felis leo",
-          "scientificNameAuthorship": "Linnaeus",
-          "namePublishedInYear": "1758"
-        }
+        "scientificNameAuthorship": "(Linnaeus, 1758)"
       },
       "vernacularNames": [
         {
@@ -49,12 +43,7 @@
       "taxonName": {
         "type": "TaxonName",
         "nameString": "Panthera onca",
-        "basionym": {
-          "type": "TaxonName",
-          "nameString": "Felis onca",
-          "scientificNameAuthorship": "Linnaeus",
-          "namePublishedInYear": "1758"
-        }
+        "scientificNameAuthorship": "(Linnaeus, 1758)"
       },
       "vernacularNames": [
         {
@@ -72,12 +61,7 @@
       "taxonName": {
         "type": "TaxonName",
         "nameString": "Panthera pardus",
-        "basionym": {
-          "type": "TaxonName",
-          "nameString": "Felis pardus",
-          "scientificNameAuthorship": "Linnaeus",
-          "namePublishedInYear": "1758"
-        }
+        "scientificNameAuthorship": "(Linnaeus, 1758)"
       },
       "vernacularNames": [
         {
@@ -95,12 +79,7 @@
       "taxonName": {
         "type": "TaxonName",
         "nameString": "Panthera tigris",
-        "basionym": {
-          "type": "TaxonName",
-          "nameString": "Felis tigris",
-          "scientificNameAuthorship": "Linnaeus",
-          "namePublishedInYear": "1758"
-        }
+        "scientificNameAuthorship": "(Linnaeus, 1758)"
       },
       "vernacularNames": [
         {
@@ -118,12 +97,7 @@
       "taxonName": {
         "type": "TaxonName",
         "nameString": "Panthera uncia",
-        "basionym": {
-          "type": "TaxonName",
-          "nameString": "Felis uncia",
-          "scientificNameAuthorship": "Schreber",
-          "namePublishedInYear": "1775"
-        }
+        "scientificNameAuthorship": "(Schreber, 1775)"
       },
       "vernacularNames": [
         {
