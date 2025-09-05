@@ -330,7 +330,8 @@
       "vernacularNames": [
         {
           "type": "gbif:VernacularName",
-          "dwc:vernacularName": "Giraffe"
+          "dwc:vernacularName": "Giraffe",
+					"dcterms:language": "en"
         }
       ]
     },
@@ -345,7 +346,8 @@
       "vernacularNames": [
         {
           "type": "gbif:VernacularName",
-          "dwc:vernacularName": "Reticulated giraffe"
+          "dwc:vernacularName": "Reticulated giraffe",
+					"dcterms:language": "en"
         }
       ]
     },
@@ -360,7 +362,8 @@
       "vernacularNames": [
         {
           "type": "gbif:VernacularName",
-          "dwc:vernacularName": "Blotched giraffe"
+          "dwc:vernacularName": "Blotched giraffe",
+					"dcterms:language": "en"
         }
       ]
     },
@@ -374,7 +377,8 @@
       "vernacularNames": [
         {
           "type": "gbif:VernacularName",
-          "dwc:vernacularName": "Nubian giraffe"
+          "dwc:vernacularName": "Nubian giraffe",
+					"dcterms:language": "en"
         }
       ],
       "parent": "_:tc1"
@@ -389,7 +393,8 @@
       "vernacularNames": [
         {
           "type": "gbif:VernacularName",
-          "dwc:vernacularName": "Kordofan giraffe"
+          "dwc:vernacularName": "Kordofan giraffe",
+					"dcterms:language": "en"
         }
       ],
       "parent": "_:tc1"
@@ -404,7 +409,8 @@
       "vernacularNames": [
         {
           "type": "gbif:VernacularName",
-          "dwc:vernacularName": "South Lado giraffe"
+          "dwc:vernacularName": "South Lado giraffe",
+					"dcterms:language": "en"
         }
       ],
       "parent": "_:tc1"
@@ -419,7 +425,8 @@
       "vernacularNames": [
         {
           "type": "gbif:VernacularName",
-          "dwc:vernacularName": "Baringo giraffe"
+          "dwc:vernacularName": "Baringo giraffe",
+					"dcterms:language": "en"
         }
       ],
       "parent": "_:tc1"
@@ -434,7 +441,8 @@
       "vernacularNames": [
         {
           "type": "gbif:VernacularName",
-          "dwc:vernacularName": "Kilimanjaro giraffe"
+          "dwc:vernacularName": "Kilimanjaro giraffe",
+					"dcterms:language": "en"
         }
       ],
       "parent": "_:tc1"
@@ -449,7 +457,8 @@
       "vernacularNames": [
         {
           "type": "gbif:VernacularName",
-          "dwc:vernacularName": "Congo giraffe"
+          "dwc:vernacularName": "Congo giraffe",
+					"dcterms:language": "en"
         }
       ],
       "parent": "_:tc1"
@@ -464,7 +473,8 @@
       "vernacularNames": [
         {
           "type": "gbif:VernacularName",
-          "dwc:vernacularName": "Angola giraffe"
+          "dwc:vernacularName": "Angola giraffe",
+					"dcterms:language": "en"
         }
       ],
       "parent": "_:tc1"
@@ -479,7 +489,8 @@
       "vernacularNames": [
         {
           "type": "gbif:VernacularName",
-          "dwc:vernacularName": "Northern Transvaal giraffe"
+          "dwc:vernacularName": "Northern Transvaal giraffe",
+					"dcterms:language": "en"
         }
       ],
       "parent": "_:tc1"
@@ -494,7 +505,8 @@
       "vernacularNames": [
         {
           "type": "gbif:VernacularName",
-          "dwc:vernacularName": "Cape giraffe"
+          "dwc:vernacularName": "Cape giraffe",
+					"dcterms:language": "en"
         }
       ],
       "parent": "_:tc1"
@@ -509,7 +521,8 @@
       "vernacularNames": [
         {
           "type": "gbif:VernacularName",
-          "dwc:vernacularName": "Nigerian giraffe"
+          "dwc:vernacularName": "Nigerian giraffe",
+					"dcterms:language": "en"
         }
       ],
       "parent": "_:tc1"
@@ -718,7 +731,8 @@
       "vernacularNames": [
         {
           "type": "gbif:VernacularName",
-          "dwc:vernacularName": "Giraffe"
+          "dwc:vernacularName": "Giraffe",
+					"dcterms:language": "en"
         }
       ]
     },
@@ -733,11 +747,13 @@
       "vernacularNames": [
         {
           "type": "gbif:VernacularName",
-          "dwc:vernacularName": "Nubian giraffe"
+          "dwc:vernacularName": "Nubian giraffe",
+					"dcterms:language": "en"
         },
         {
           "type": "gbif:VernacularName",
-          "dwc:vernacularName": "Rothchild's giraffe"
+          "dwc:vernacularName": "Rothchild's giraffe",
+					"dcterms:language": "en"
         }
       ],
       "synonyms": [
@@ -756,7 +772,8 @@
       "vernacularNames": [
         {
           "type": "gbif:VernacularName",
-          "dwc:vernacularName": "Reticulated giraffe"
+          "dwc:vernacularName": "Reticulated giraffe",
+					"dcterms:language": "en"
         }
       ]
     },
@@ -771,7 +788,8 @@
       "vernacularNames": [
         {
           "type": "gbif:VernacularName",
-          "dwc:vernacularName": "Kordofan giraffe"
+          "dwc:vernacularName": "Kordofan giraffe",
+					"dcterms:language": "en"
         }
       ],
       "synonyms": [
@@ -789,7 +807,8 @@
       "vernacularNames": [
         {
           "type": "gbif:VernacularName",
-          "dwc:vernacularName": "West African giraffe"
+          "dwc:vernacularName": "West African giraffe",
+					"dcterms:language": "en"
         }
       ],
       "synonyms": [
@@ -807,11 +826,13 @@
       "vernacularNames": [
         {
           "type": "gbif:VernacularName",
-          "dwc:vernacularName": "Maasai giraffe"
+          "dwc:vernacularName": "Maasai giraffe",
+					"dcterms:language": "en"
         },
         {
           "type": "gbif:VernacularName",
-          "dwc:vernacularName": "Vine-leaf giraffe"
+          "dwc:vernacularName": "Vine-leaf giraffe",
+					"dcterms:language": "en"
         }
       ],
       "synonyms": [
@@ -829,7 +850,8 @@
       "vernacularNames": [
         {
           "type": "gbif:VernacularName",
-          "dwc:vernacularName": "Luangwa giraffe"
+          "dwc:vernacularName": "Luangwa giraffe",
+					"dcterms:language": "en"
         }
       ]
     },
@@ -844,7 +866,8 @@
       "vernacularNames": [
         {
           "type": "gbif:VernacularName",
-          "dwc:vernacularName": "Cape giraffe"
+          "dwc:vernacularName": "Cape giraffe",
+					"dcterms:language": "en"
         }
       ],
       "synonyms": [
@@ -863,7 +886,8 @@
       "vernacularNames": [
         {
           "type": "gbif:VernacularName",
-          "dwc:vernacularName": "Angolan giraffe"
+          "dwc:vernacularName": "Angolan giraffe",
+					"dcterms:language": "en"
         }
       ]
     },
@@ -899,7 +923,8 @@
       "vernacularNames": [
         {
           "type": "gbif:VernacularName",
-          "dwc:vernacularName": "Giraffe"
+          "dwc:vernacularName": "Giraffe",
+					"dcterms:language": "en"
         }
       ]
     },
@@ -914,7 +939,8 @@
       "vernacularNames": [
         {
           "type": "gbif:VernacularName",
-          "dwc:vernacularName": "Northern giraffe"
+          "dwc:vernacularName": "Northern giraffe",
+					"dcterms:language": "en"
         }
       ]
     },
@@ -929,7 +955,8 @@
       "vernacularNames": [
         {
           "type": "gbif:VernacularName",
-          "dwc:vernacularName": "West African giraffe"
+          "dwc:vernacularName": "West African giraffe",
+					"dcterms:language": "en"
         }
       ]
     },
@@ -944,7 +971,8 @@
       "vernacularNames": [
         {
           "type": "gbif:VernacularName",
-          "dwc:vernacularName": "Kordofan giraffe"
+          "dwc:vernacularName": "Kordofan giraffe",
+					"dcterms:language": "en"
         }
       ]
     },
@@ -959,7 +987,8 @@
       "vernacularNames": [
         {
           "type": "gbif:VernacularName",
-          "dwc:vernacularName": "Nubian giraffe"
+          "dwc:vernacularName": "Nubian giraffe",
+					"dcterms:language": "en"
         }
       ]
     },
@@ -974,7 +1003,8 @@
       "vernacularNames": [
         {
           "type": "gbif:VernacularName",
-          "dwc:vernacularName": "Reticulated giraffe"
+          "dwc:vernacularName": "Reticulated giraffe",
+					"dcterms:language": "en"
         }
       ]
     },
@@ -989,7 +1019,8 @@
       "vernacularNames": [
         {
           "type": "gbif:VernacularName",
-          "dwc:vernacularName": "Masai giraffe"
+          "dwc:vernacularName": "Masai giraffe",
+					"dcterms:language": "en"
         }
       ]
     },
@@ -1004,7 +1035,8 @@
       "vernacularNames": [
         {
           "type": "gbif:VernacularName",
-          "dwc:vernacularName": "Masai giraffe"
+          "dwc:vernacularName": "Masai giraffe",
+					"dcterms:language": "en"
         }
       ]
     },
@@ -1019,7 +1051,8 @@
       "vernacularNames": [
         {
           "type": "gbif:VernacularName",
-          "dwc:vernacularName": "Luangwa giraffe"
+          "dwc:vernacularName": "Luangwa giraffe",
+					"dcterms:language": "en"
         }
       ]
     },
@@ -1034,7 +1067,8 @@
       "vernacularNames": [
         {
           "type": "gbif:VernacularName",
-          "dwc:vernacularName": "Southern giraffe"
+          "dwc:vernacularName": "Southern giraffe",
+					"dcterms:language": "en"
         }
       ]
     },
@@ -1049,7 +1083,8 @@
       "vernacularNames": [
         {
           "type": "gbif:VernacularName",
-          "dwc:vernacularName": "South African giraffe"
+          "dwc:vernacularName": "South African giraffe",
+					"dcterms:language": "en"
         }
       ]
     },
@@ -1064,7 +1099,8 @@
       "vernacularNames": [
         {
           "type": "gbif:VernacularName",
-          "dwc:vernacularName": "Angolan giraffe"
+          "dwc:vernacularName": "Angolan giraffe",
+					"dcterms:language": "en"
         }
       ]
     },

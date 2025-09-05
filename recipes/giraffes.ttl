@@ -234,7 +234,8 @@ _:tc31 a tcs:TaxonConcept ;
     tcs:accordingTo <https://doi.org/10.1111/j.1469-7998.1904.tb08288.x> ;
     tcs:taxonRank <http://rs.gbif.org/vocabulary/gbif/rank/genus> ;
     tcs:vernacularName [ a gbif:VernacularName ;
-            dwc:vernacularName "Giraffe" ] .
+            dwc:vernacularName "Giraffe" ;
+			dcterms:language "en" ] .
 
 _:tc0 a tcs:TaxonConcept ;
     dcterms:title "Giraffa reticulata sec. Lydekker 1904";
@@ -243,7 +244,8 @@ _:tc0 a tcs:TaxonConcept ;
     tcs:taxonRank <http://rs.gbif.org/vocabulary/gbif/rank/species> ;
     tcs:parentTaxonConcept _:tc31 ;
     tcs:vernacularName [ a gbif:VernacularName ;
-            dwc:vernacularName "Reticulated giraffe"] ;
+            dwc:vernacularName "Reticulated giraffe" ;
+			dcterms:language "en" ] ;
     rdfs:comment """\"I reserve the point as to whether a tramition between this 
             [G. reticulata] and the next [G. camelopardalis] may not exist.\"""" .
 
@@ -289,7 +291,8 @@ _:tc5 a tcs:TaxonConcept ;
     tcs:accordingTo <https://doi.org/10.1111/j.1469-7998.1904.tb08288.x> ;
     tcs:taxonRank <http://rs.gbif.org/vocabulary/gbif/rank/subspecies> ;
     tcs:vernacularName [ a gbif:VernacularName ;
-            dwc:vernacularName "Baringo giraffe" ] ;
+            dwc:vernacularName "Baringo giraffe" ;
+			dcterms:language "en" ] ;
     tcs:parentTaxonConcept _:tc1 .
 
 _:tc6 a tcs:TaxonConcept ;
@@ -298,7 +301,8 @@ _:tc6 a tcs:TaxonConcept ;
     tcs:accordingTo <https://doi.org/10.1111/j.1469-7998.1904.tb08288.x> ;
     tcs:taxonRank <http://rs.gbif.org/vocabulary/gbif/rank/subspecies> ;
     tcs:vernacularName [ a gbif:VernacularName ;
-            dwc:vernacularName "Kilimanjaro giraffe" ] ;
+            dwc:vernacularName "Kilimanjaro giraffe" ;
+			dcterms:language "en" ] ;
     tcs:synonym <zoobank:aed6605c-7811-4260-9c4c-21b26b946e5d> ;
     tcs:parentTaxonConcept _:tc1 .
 
@@ -308,7 +312,8 @@ _:tc7 a tcs:TaxonConcept ;
     tcs:taxonRank <http://rs.gbif.org/vocabulary/gbif/rank/subspecies> ;
     tcs:accordingTo <https://doi.org/10.1111/j.1469-7998.1904.tb08288.x> ;
     tcs:vernacularName [ a gbif:VernacularName ;
-            dwc:vernacularName "Congo giraffe" ] ;
+            dwc:vernacularName "Congo giraffe" ;
+			dcterms:language "en" ] ;
     tcs:parentTaxonConcept _:tc1 .
 
 _:tc8 a tcs:TaxonConcept ;
@@ -317,7 +322,8 @@ _:tc8 a tcs:TaxonConcept ;
     tcs:accordingTo <https://doi.org/10.1111/j.1469-7998.1904.tb08288.x> ;
     tcs:taxonRank <http://rs.gbif.org/vocabulary/gbif/rank/subspecies> ;
     tcs:vernacularName [ a gbif:VernacularName ;
-            dwc:vernacularName "Angola giraffe" ] ;
+            dwc:vernacularName "Angola giraffe" ;
+			dcterms:language "en" ] ;
     tcs:parentTaxonConcept _:tc1 .
 
 _:tc9 a tcs:TaxonConcept ;
@@ -326,7 +332,8 @@ _:tc9 a tcs:TaxonConcept ;
     tcs:accordingTo <https://doi.org/10.1111/j.1469-7998.1904.tb08288.x> ;
     tcs:taxonRank <http://rs.gbif.org/vocabulary/gbif/rank/subspecies> ;
     tcs:vernacularName [ a gbif:VernacularName ;
-            dwc:vernacularName "Northern Transvaal giraffe" ] ;
+            dwc:vernacularName "Northern Transvaal giraffe" ;
+			dcterms:language "en" ] ;
     tcs:parentTaxonConcept _:tc1 .
 
 _:tc10 a tcs:TaxonConcept ;
@@ -335,7 +342,8 @@ _:tc10 a tcs:TaxonConcept ;
     tcs:accordingTo <https://doi.org/10.1111/j.1469-7998.1904.tb08288.x> ;
     tcs:taxonRank <http://rs.gbif.org/vocabulary/gbif/rank/subspecies> ;
     tcs:vernacularName [ a gbif:VernacularName ;
-            dwc:vernacularName "Cape giraffe" ] ;
+            dwc:vernacularName "Cape giraffe" ;
+			dcterms:language "en" ] ;
     tcs:synonym _:tn15 ;
     tcs:parentTaxonConcept _:tc1 .
 
@@ -345,7 +353,8 @@ _:tc11 a tcs:TaxonConcept ;
     tcs:accordingTo <https://doi.org/10.1111/j.1469-7998.1904.tb08288.x> ;
     tcs:taxonRank <http://rs.gbif.org/vocabulary/gbif/rank/subspecies> ;
     tcs:vernacularName [ a gbif:VernacularName ;
-            dwc:vernacularName "Nigerian giraffe" ] ;
+            dwc:vernacularName "Nigerian giraffe" ;
+			dcterms:language "en" ] ;
     tcs:parentTaxonConcept _:tc1 .
 
 
@@ -492,7 +501,8 @@ _:tc32 a tcs:TaxonConcept ;
     tcs:accordingTo <urn:isbn:978-1-4214-0093-8> ;
     tcs:taxonRank <http://rs.gbif.org/vocabulary/gbif/rank/genus> ;
     tcs:vernacularName [ a gbif:VernacularName ;
-            dwc:vernacularName "Giraffe" ] .
+            dwc:vernacularName "Giraffe" ;
+			dcterms:language "en" ] .
 
 _:tc12 a tcs:TaxonConcept ;
     dcterms:title "Giraffa camelopardalis sec. Groves & Grubb 2011" ;
@@ -501,9 +511,11 @@ _:tc12 a tcs:TaxonConcept ;
     tcs:taxonRank <http://rs.gbif.org/vocabulary/gbif/rank/species> ;
     tcs:parentTaxonConcept _:tc32 ;
     tcs:vernacularName [ a gbif:VernacularName ;
-            dwc:vernacularName "Nubian giraffe" ] ,
+            dwc:vernacularName "Nubian giraffe" ;
+			dcterms:language "en" ] ,
         [ a gbif:VernacularName ;
-            dwc:vernacularName "Rothchild's giraffe" ] ;
+            dwc:vernacularName "Rothchild's giraffe" ;
+			dcterms:language "en" ] ;
     tcs:synonym <zoobank:a3492a30-8739-4b4e-8e6f-5c09e2c34315>, 
         <zoobank:9cba7e21-4f14-4354-b559-36b7db538c08> .
 
@@ -514,7 +526,8 @@ _:tc13 a tcs:TaxonConcept ;
     tcs:taxonRank <http://rs.gbif.org/vocabulary/gbif/rank/species> ;
     tcs:parentTaxonConcept _:tc32 ;
     tcs:vernacularName [ a gbif:VernacularName ;
-            dwc:vernacularName "Reticulated giraffe" ] .
+            dwc:vernacularName "Reticulated giraffe" ;
+			dcterms:language "en" ] .
 
 _:tc14 a tcs:TaxonConcept ;
     dcterms:title "Giraffa antiquorum sec. Groves & Grubb 2011" ;
@@ -523,7 +536,8 @@ _:tc14 a tcs:TaxonConcept ;
     tcs:taxonRank <http://rs.gbif.org/vocabulary/gbif/rank/species> ;
     tcs:parentTaxonConcept _:tc32 ;
     tcs:vernacularName [ a gbif:VernacularName ;
-            dwc:vernacularName "Kordofan giraffe" ] ;
+            dwc:vernacularName "Kordofan giraffe" ;
+			dcterms:language "en" ] ;
     tcs:synonym <zoobank:38db2575-317c-4f7c-b0d0-5a85250e5f1f> .
 
 _:tc15 a tcs:TaxonConcept ;
@@ -533,7 +547,8 @@ _:tc15 a tcs:TaxonConcept ;
     tcs:taxonRank <http://rs.gbif.org/vocabulary/gbif/rank/species> ;
     tcs:parentTaxonConcept _:tc32 ;
     tcs:vernacularName [ a gbif:VernacularName ;
-            dwc:vernacularName "West African giraffe" ] ;
+            dwc:vernacularName "West African giraffe" ;
+			dcterms:language "en" ] ;
     tcs:synonym _:tn20 .
 
 _:tc16 a tcs:TaxonConcept ;
@@ -543,9 +558,11 @@ _:tc16 a tcs:TaxonConcept ;
     tcs:taxonRank <http://rs.gbif.org/vocabulary/gbif/rank/species> ;
     tcs:parentTaxonConcept _:tc32 ;
     tcs:vernacularName [ a gbif:VernacularName ;
-            dwc:vernacularName "Maasai giraffe" ] ,
+            dwc:vernacularName "Maasai giraffe" ;
+			dcterms:language "en" ] ,
         [ a gbif:VernacularName ;
-            dwc:vernacularName "Vine-leaf giraffe" ] ;
+            dwc:vernacularName "Vine-leaf giraffe" ;
+			dcterms:language "en" ] ;
     tcs:synonym <zoobank:aed6605c-7811-4260-9c4c-21b26b946e5d> .
 
 _:tc17 a tcs:TaxonConcept ;
@@ -555,7 +572,8 @@ _:tc17 a tcs:TaxonConcept ;
     tcs:taxonRank <http://rs.gbif.org/vocabulary/gbif/rank/species> ;
     tcs:parentTaxonConcept _:tc32 ;
     tcs:vernacularName [ a gbif:VernacularName ;
-            dwc:vernacularName "Luangwa giraffe" ] .
+            dwc:vernacularName "Luangwa giraffe" ;
+			dcterms:language "en" ] .
 
 _:tc18 a tcs:TaxonConcept ;
     dcterms:title "Giraffa giraffa sec. Groves & Grubb 2011" ;
@@ -564,7 +582,8 @@ _:tc18 a tcs:TaxonConcept ;
     tcs:taxonRank <http://rs.gbif.org/vocabulary/gbif/rank/species> ;
     tcs:parentTaxonConcept _:tc32 ;
     tcs:vernacularName [ a gbif:VernacularName ;
-            dwc:vernacularName "Cape giraffe" ] ;
+            dwc:vernacularName "Cape giraffe" ;
+			dcterms:language "en" ] ;
     tcs:synonym _:tn14 , 
         <zoobank:be7a0080-ff1c-4857-a536-6d0016ccc1e8> , 
         <zoobank:0477d1d3-3602-4bec-b4a3-11d108886065> .
@@ -576,7 +595,8 @@ _:tc19 a tcs:TaxonConcept ;
     tcs:taxonRank <http://rs.gbif.org/vocabulary/gbif/rank/species> ;
     tcs:parentTaxonConcept _:tc32 ;
     tcs:vernacularName [ a gbif:VernacularName ;
-            dwc:vernacularName "Angolan giraffe" ] .
+            dwc:vernacularName "Angolan giraffe" ;
+			dcterms:language "en" ] .
 
 
 _:ref0 a bibo:Report ;
@@ -599,7 +619,8 @@ _:tc33 a tcs:TaxonConcept ;
     tcs:accordingTo _:ref0 ;
     tcs:taxonRank <http://rs.gbif.org/vocabulary/gbif/rank/genus> ;
     tcs:vernacularName [ a gbif:VernacularName ;
-            dwc:vernacularName "Giraffe" ] .
+            dwc:vernacularName "Giraffe" ;
+			dcterms:language "en" ] .
 
 _:tc20 a tcs:TaxonConcept ;
     dcterms:title "Giraffa camelopardalis sec. IUCN 2025" ;
@@ -608,7 +629,8 @@ _:tc20 a tcs:TaxonConcept ;
     tcs:taxonRank <http://rs.gbif.org/vocabulary/gbif/rank/species> ;
     tcs:parentTaxonConcept _:tc33 ;
     tcs:vernacularName [ a gbif:VernacularName ;
-            dwc:vernacularName "Northern giraffe" ] .
+            dwc:vernacularName "Northern giraffe" ;
+			dcterms:language "en" ] .
 
 _:tc21 a tcs:TaxonConcept ;
     dcterms:title "Giraffa camelopardalis peralta sec. IUCN 2025" ;
@@ -617,7 +639,8 @@ _:tc21 a tcs:TaxonConcept ;
     tcs:taxonRank <http://rs.gbif.org/vocabulary/gbif/rank/subspecies> ;
     tcs:parentTaxonConcept _:tc20 ;
     tcs:vernacularName [ a gbif:VernacularName ;
-            dwc:vernacularName "West African giraffe" ] .
+            dwc:vernacularName "West African giraffe" ;
+			dcterms:language "en" ] .
 
 _:tc22 a tcs:TaxonConcept ;
     dcterms:title "Giraffa camelopardalis antiquorum sec. IUCN 2025" ;
@@ -625,7 +648,8 @@ _:tc22 a tcs:TaxonConcept ;
     tcs:accordingTo _:ref0 ;
     tcs:taxonRank <http://rs.gbif.org/vocabulary/gbif/rank/subspecies> ;
     tcs:vernacularName [ a gbif:VernacularName ;
-            dwc:vernacularName "Kordofan giraffe" ] ;
+            dwc:vernacularName "Kordofan giraffe" ;
+			dcterms:language "en" ] ;
     tcs:parentTaxonConcept _:tc20 .
 
 _:tc23 a tcs:TaxonConcept ;
@@ -634,7 +658,8 @@ _:tc23 a tcs:TaxonConcept ;
     tcs:accordingTo _:ref0 ;
     tcs:taxonRank <http://rs.gbif.org/vocabulary/gbif/rank/subspecies> ;
     tcs:vernacularName [ a gbif:VernacularName ;
-            dwc:vernacularName "Nubian giraffe" ] ;
+            dwc:vernacularName "Nubian giraffe" ;
+			dcterms:language "en" ] ;
     tcs:parentTaxonConcept _:tc20 .
 
 _:tc24 a tcs:TaxonConcept ;
@@ -644,7 +669,8 @@ _:tc24 a tcs:TaxonConcept ;
     tcs:taxonRank <http://rs.gbif.org/vocabulary/gbif/rank/species> ;
     tcs:parentTaxonConcept _:tc33 ;
     tcs:vernacularName [ a gbif:VernacularName ;
-            dwc:vernacularName "Reticulated giraffe" ] .
+            dwc:vernacularName "Reticulated giraffe" ;
+			dcterms:language "en" ] .
 
 _:tc25 a tcs:TaxonConcept ;
     dcterms:title "Giraffa tippelskirchi sec. IUCN 2025" ;
@@ -653,7 +679,8 @@ _:tc25 a tcs:TaxonConcept ;
     tcs:taxonRank <http://rs.gbif.org/vocabulary/gbif/rank/species> ;
     tcs:parentTaxonConcept _:tc33 ;
     tcs:vernacularName [ a gbif:VernacularName ;
-            dwc:vernacularName "Masai giraffe" ] .
+            dwc:vernacularName "Masai giraffe" ;
+			dcterms:language "en" ] .
 
 _:tc26 a tcs:TaxonConcept ;
     dcterms:title "Giraffa tippelskirchi tippelskirchi sec. IUCN 2025" ;
@@ -662,7 +689,8 @@ _:tc26 a tcs:TaxonConcept ;
     tcs:taxonRank <http://rs.gbif.org/vocabulary/gbif/rank/subspecies> ;
     tcs:parentTaxonConcept _:tc25 ;
     tcs:vernacularName [ a gbif:VernacularName ;
-            dwc:vernacularName "Masai giraffe" ] .
+            dwc:vernacularName "Masai giraffe" ;
+			dcterms:language "en" ] .
 
 _:tc27 a tcs:TaxonConcept ;
     dcterms:title "Giraffa tippelskirchi thornicrofti sec. IUCN 2025" ;
@@ -671,9 +699,11 @@ _:tc27 a tcs:TaxonConcept ;
     tcs:taxonRank <http://rs.gbif.org/vocabulary/gbif/rank/subspecies> ;
     tcs:parentTaxonConcept _:tc25 ;
     tcs:vernacularName [ a gbif:VernacularName ;
-            dwc:vernacularName "Luangwa giraffe" ] ,
+            dwc:vernacularName "Luangwa giraffe" ;
+			dcterms:language "en" ] ,
         [ a gbif:VernacularName ;
-            dwc:vernacularName "Thornicroft's giraffe" ] .
+            dwc:vernacularName "Thornicroft's giraffe" ;
+			dcterms:language "en" ] .
 
 _:tc28 a tcs:TaxonConcept ;
     dcterms:title "Giraffa giraffa sec. IUCN 2025" ;
@@ -682,7 +712,8 @@ _:tc28 a tcs:TaxonConcept ;
     tcs:taxonRank <http://rs.gbif.org/vocabulary/gbif/rank/species> ;
     tcs:parentTaxonConcept _:tc33 ;
     tcs:vernacularName [ a gbif:VernacularName ;
-            dwc:vernacularName "Southern giraffe" ] .
+            dwc:vernacularName "Southern giraffe" ;
+			dcterms:language "en" ] .
 
 _:tc29 a tcs:TaxonConcept ;
     dcterms:title "Giraffa giraffa giraffa sec. IUCN 2025" ;
@@ -691,7 +722,8 @@ _:tc29 a tcs:TaxonConcept ;
     tcs:taxonRank <http://rs.gbif.org/vocabulary/gbif/rank/subspecies> ;
     tcs:parentTaxonConcept _:tc28 ;
     tcs:vernacularName [ a gbif:VernacularName ;
-            dwc:vernacularName "South African giraffe" ] .
+            dwc:vernacularName "South African giraffe" ;
+			dcterms:language "en" ] .
 
 _:tc30 a tcs:TaxonConcept ;
     dcterms:title "Giraffa giraffa angolensis sec. IUCN 2025" ;
@@ -700,7 +732,8 @@ _:tc30 a tcs:TaxonConcept ;
     tcs:taxonRank <http://rs.gbif.org/vocabulary/gbif/rank/subspecies> ;
     tcs:parentTaxonConcept _:tc28 ;
     tcs:vernacularName [ a gbif:VernacularName ;
-            dwc:vernacularName "Angolan giraffe" ] .
+            dwc:vernacularName "Angolan giraffe" ;
+			dcterms:language "en" ] .
 
 #
 # Taxon Concept Mappings

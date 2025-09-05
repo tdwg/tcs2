@@ -11,7 +11,8 @@
     tcs:taxonName [ a tcs:TaxonName ; 
             tcs:nameString "Orthetrum caledonicum" ] ;
     tcs:vernacularName [ a tcs:TaxonName ;
-            tcs:nameString "Blue Skimmer" ] .
+            tcs:nameString "Blue Skimmer" ;
+            dcterms:language "en" ] .
 
 <urn:isbn:978-0-643-09073-6> a bibo:Book ;
     dcterms:bibliographicCitation """Theischinger, G.; Hawking, J. (2010). 

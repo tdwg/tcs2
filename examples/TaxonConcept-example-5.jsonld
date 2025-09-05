@@ -18,7 +18,8 @@
   "vernacularNames": [
     {
       "type": "gbif:VernacularName",
-      "dwc:vernacularName": "Blue whale"
+      "dwc:vernacularName": "Blue whale",
+      "dcterms:language": "en"
     }
   ]
 }

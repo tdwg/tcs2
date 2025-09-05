@@ -1,37 +1,37 @@
-taxonID	name
-tc-1	Giraffe
-tc-2	Reticulated giraffe
-tc-3	Blotched giraffe
-tc-4	Nubian giraffe
-tc-5	Kordofan giraffe
-tc-6	South Lado giraffe
-tc-7	Baringo giraffe
-tc-8	Kilimanjaro giraffe
-tc-9	Congo giraffe
-tc-10	Angola giraffe
-tc-11	Northern Transvaal giraffe
-tc-12	Cape giraffe
-tc-13	Nigerian giraffe
-tc-25	Giraffe
-tc-26	Nubian giraffe
-tc-26	Rothchild's giraffe
-tc-27	Reticulated giraffe
-tc-28	Kordofan giraffe
-tc-29	West African giraffe
-tc-30	Maasai giraffe
-tc-30	Vine-leaf giraffe
-tc-31	Luangwa giraffe
-tc-32	Cape giraffe
-tc-33	Angolan giraffe
-tc-34	Giraffe
-tc-35	Northern giraffe
-tc-36	West African giraffe
-tc-37	Kordofan giraffe
-tc-38	Nubian giraffe
-tc-39	Reticulated giraffe
-tc-40	Masai giraffe
-tc-41	Masai giraffe
-tc-42	Luangwa giraffe
-tc-43	Southern giraffe
-tc-44	South African giraffe
-tc-45	Angolan giraffe
+taxonID	name	language
+tc-1	Giraffe	en
+tc-2	Reticulated giraffe	en
+tc-3	Blotched giraffe	en
+tc-4	Nubian giraffe	en
+tc-5	Kordofan giraffe	en
+tc-6	South Lado giraffe	en
+tc-7	Baringo giraffe	en
+tc-8	Kilimanjaro giraffe	en
+tc-9	Congo giraffe	en
+tc-10	Angola giraffe	en
+tc-11	Northern Transvaal giraffe	en
+tc-12	Cape giraffe	en
+tc-13	Nigerian giraffe	en
+tc-25	Giraffe	en
+tc-26	Nubian giraffe	en
+tc-26	Rothchild's giraffe	en
+tc-27	Reticulated giraffe	en
+tc-28	Kordofan giraffe	en
+tc-29	West African giraffe	en
+tc-30	Maasai giraffe	en
+tc-30	Vine-leaf giraffe	en
+tc-31	Luangwa giraffe	en
+tc-32	Cape giraffe	en
+tc-33	Angolan giraffe	en
+tc-34	Giraffe	en
+tc-35	Northern giraffe	en
+tc-36	West African giraffe	en
+tc-37	Kordofan giraffe	en
+tc-38	Nubian giraffe	en
+tc-39	Reticulated giraffe	en
+tc-40	Masai giraffe	en
+tc-41	Masai giraffe	en
+tc-42	Luangwa giraffe	en
+tc-43	Southern giraffe	en
+tc-44	South African giraffe	en
+tc-45	Angolan giraffe	en

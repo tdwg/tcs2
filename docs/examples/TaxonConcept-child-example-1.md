@@ -12,7 +12,8 @@
             tcs:nameString "Panthera" ;
             dwc:scientificNameAuthorship: "Oken, 1816" ]  ;
     tcs:vernacularName [ a gbif:VernacularName ;
-            dwc:vernacularName "Roaring cats"] ;
+            dwc:vernacularName "Roaring cats" ;
+            dcterms:language "en" ] ;
     tcs:taxonRank <http://rs.gbif.org/vocabulary/gbif/rank/genus> ;
     tcs:childTaxonConcept <https://www.catalogueoflife.org/data/taxon/4CGXP> ,
             <https://www.catalogueoflife.org/data/taxon/4CGXQ> ,
@@ -27,7 +28,8 @@
             tcs:nameString "Panthera leo" ;
             dwc:scientificNameAuthorship "(Linnaeus, 1758)" ] ;
     tcs:vernacularName [ a gbif:VernacularName ;
-            dwc:vernacularName "Lion" ] ;
+            dwc:vernacularName "Lion" ;
+            dcterms:language "en" ] ;
     tcs:taxonRank <http://rs.gbif.org/vocabulary/gbif/rank/species> .
 
 <https://www.catalogueoflife.org/data/taxon/4CGXQ> a tcs:TaxonConcept ;
@@ -37,7 +39,8 @@
             tcs:nameString "Panthera onca" ;
             dwc:scientificNameAuthorship "(Linnaeus, 1758)" ] ;
     tcs:vernacularName [ a gbif:VernacularName ;
-            dwc:vernacularName "Jaguar" ] ;
+            dwc:vernacularName "Jaguar" ;
+            dcterms:language "en" ] ;
     tcs:taxonRank <http://rs.gbif.org/vocabulary/gbif/rank/species> .
 
 <https://www.catalogueoflife.org/data/taxon/4CGXR> a tcs:TaxonConcept ;
@@ -47,7 +50,8 @@
             tcs:nameString "Panthera pardus" ;
             dwc:scientificNameAuthorship "(Linnaeus, 1758)" ] ;
     tcs:vernacularName [ a gbif:VernacularName ;
-            dwc:vernacularName "Panther" ] ;
+            dwc:vernacularName "Panther" ;
+            dcterms:language "en" ] ;
     tcs:taxonRank <http://rs.gbif.org/vocabulary/gbif/rank/species> .
 
 <https://www.catalogueoflife.org/data/taxon/4CGXS> a tcs:TaxonConcept ;
@@ -57,7 +61,8 @@
             tcs:nameString "Panthera tigris" ;
             dwc:scientificNameAuthorship "(Linnaeus, 1758)" ] ;
     tcs:vernacularName [ a gbif:VernacularName ;
-            dwc:vernacularName "Tiger" ] ;
+            dwc:vernacularName "Tiger" ;
+            dcterms:language "en" ] ;
     tcs:taxonRank <http://rs.gbif.org/vocabulary/gbif/rank/species> .
 
 <https://www.catalogueoflife.org/data/taxon/4CGXT> a tcs:TaxonConcept ;
@@ -67,7 +72,8 @@
             tcs:nameString "Panthera uncia" ;
             dwc:scientificNameAuthorship "(Schreber, 1775)" ] ;
     tcs:vernacularName [ a gbif:VernacularName ;
-            dwc:vernacularName "Snow leopard" ] ;
+            dwc:vernacularName "Snow leopard" ;
+            dcterms:language "en" ] ;
     tcs:taxonRank <http://rs.gbif.org/vocabulary/gbif/rank/species> .
 ```
 

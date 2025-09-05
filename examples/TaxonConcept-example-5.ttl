@@ -12,7 +12,8 @@
             tcs:nameString "Balaenoptera musculus" ;
             dwc:scientificNameAuthorship "(Linnaeus, 1758)" ] ;
     tcs:vernacularName [ a gbif:VernacularName ;
-            dwc:vernacularName "Blue whale" ].
+            dwc:vernacularName "Blue whale" ;
+            dcterms:language "en" ].
 
 <https://www.catalogueoflife.org#v2022-11-14> a bibo:Website ;
     dcterms:isVersionOf "https://www.catalogueoflife.org" ;

@@ -12,7 +12,8 @@
   "vernacularNames": [
     {
       "type": "gbif:VernacularName",
-      "dwc:vernacularName": "Roaring cats"
+      "dwc:vernacularName": "Roaring cats",
+      "dcterms:language": "en"
     }
   ],
   "taxonRank": "genus",
@@ -30,7 +31,8 @@
       "vernacularNames": [
         {
           "type": "gbif:VernacularName",
-          "dwc:vernacularName": "Lion"
+          "dwc:vernacularName": "Lion",
+          "dcterms:language": "en"
         }
       ],
       "taxonRank": "species"
@@ -48,7 +50,8 @@
       "vernacularNames": [
         {
           "type": "gbif:VernacularName",
-          "dwc:vernacularName": "Jaguar"
+          "dwc:vernacularName": "Jaguar",
+          "dcterms:language": "en"
         }
       ],
       "taxonRank": "species"
@@ -66,7 +69,8 @@
       "vernacularNames": [
         {
           "type": "gbif:VernacularName",
-          "dwc:vernacularName": "Panther"
+          "dwc:vernacularName": "Panther",
+          "dcterms:language": "en"
         }
       ],
       "taxonRank": "species"
@@ -84,7 +88,8 @@
       "vernacularNames": [
         {
           "type": "gbif:VernacularName",
-          "dwc:vernacularName": "Tiger"
+          "dwc:vernacularName": "Tiger",
+          "dcterms:language": "en"
         }
       ],
       "taxonRank": "species"
@@ -102,7 +107,8 @@
       "vernacularNames": [
         {
           "type": "gbif:VernacularName",
-          "dwc:vernacularName": "Snow leopard"
+          "dwc:vernacularName": "Snow leopard",
+          "dcterms:language": "en"
         }
       ],
       "taxonRank": "species"

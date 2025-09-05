@@ -1,37 +1,37 @@
-taxonConceptID,vernacularName
-_:tc31,Giraffe
-_:tc0,Reticulated giraffe
-_:tc1,Blotched giraffe
-_:tc2,Nubian giraffe
-_:tc3,Kordofan giraffe
-_:tc4,South Lado giraffe
-_:tc5,Baringo giraffe
-_:tc6,Kilimanjaro giraffe
-_:tc7,Congo giraffe
-_:tc8,Angola giraffe
-_:tc9,Northern Transvaal giraffe
-_:tc10,Cape giraffe
-_:tc11,Nigerian giraffe
-_:tc32,Giraffe
-_:tc12,Nubian giraffe
-_:tc12,Rothchild's giraffe
-_:tc13,Reticulated giraffe
-_:tc14,Kordofan giraffe
-_:tc15,West African giraffe
-_:tc16,Maasai giraffe
-_:tc16,Vine-leaf giraffe
-_:tc17,Luangwa giraffe
-_:tc18,Cape giraffe
-_:tc19,Angolan giraffe
-_:tc33,Giraffe
-_:tc20,Northern giraffe
-_:tc21,West African giraffe
-_:tc22,Kordofan giraffe
-_:tc23,Nubian giraffe
-_:tc24,Reticulated giraffe
-_:tc25,Masai giraffe
-_:tc26,Masai giraffe
-_:tc27,Luangwa giraffe
-_:tc28,Southern giraffe
-_:tc29,South African giraffe
-_:tc30,Angolan giraffe
+taxonConceptID,vernacularName,language
+_:tc31,Giraffe,en
+_:tc0,Reticulated giraffe,en
+_:tc1,Blotched giraffe,en
+_:tc2,Nubian giraffe,en
+_:tc3,Kordofan giraffe,en
+_:tc4,South Lado giraffe,en
+_:tc5,Baringo giraffe,en
+_:tc6,Kilimanjaro giraffe,en
+_:tc7,Congo giraffe,en
+_:tc8,Angola giraffe,en
+_:tc9,Northern Transvaal giraffe,en
+_:tc10,Cape giraffe,en
+_:tc11,Nigerian giraffe,en
+_:tc32,Giraffe,en
+_:tc12,Nubian giraffe,en
+_:tc12,Rothchild's giraffe,en
+_:tc13,Reticulated giraffe,en
+_:tc14,Kordofan giraffe,en
+_:tc15,West African giraffe,en
+_:tc16,Maasai giraffe,en
+_:tc16,Vine-leaf giraffe,en
+_:tc17,Luangwa giraffe,en
+_:tc18,Cape giraffe,en
+_:tc19,Angolan giraffe,en
+_:tc33,Giraffe,en
+_:tc20,Northern giraffe,en
+_:tc21,West African giraffe,en
+_:tc22,Kordofan giraffe,en
+_:tc23,Nubian giraffe,en
+_:tc24,Reticulated giraffe,en
+_:tc25,Masai giraffe,en
+_:tc26,Masai giraffe,en
+_:tc27,Luangwa giraffe,en
+_:tc28,Southern giraffe,en
+_:tc29,South African giraffe,en
+_:tc30,Angolan giraffe,en
