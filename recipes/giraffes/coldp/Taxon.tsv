@@ -8,7 +8,7 @@ tc-6	tc-3	tn-11	tc-1
 tc-7	tc-3	tn-12	tc-1
 tc-8	tc-3	tn-14	tc-1
 tc-9	tc-3	tn-18	tc-1
-tc-10	tc-3	tn-18	tc-1
+tc-10	tc-3	tn-19	tc-1
 tc-11	tc-3	tn-22	tc-1
 tc-12	tc-3	tn-24	tc-1
 tc-13	tc-3	tn-28	tc-1
@@ -22,7 +22,7 @@ tc-20	tc-15	tn-12	tc-2
 tc-21	tc-15	tn-14	tc-2
 tc-22	tc-15	tn-31	tc-2
 tc-23	tc-15	tn-19	tc-2
-tc-24	tc-15	tn-19	tc-2
+tc-24	tc-15	tn-36	tc-2
 tc-25		tn-1	tc-3
 tc-26	tc-25	tn-5	tc-3
 tc-27	tc-25	tn-3	tc-3
@@ -42,5 +42,5 @@ tc-40	tc-34	tn-13	tc-4
 tc-41	tc-40	tn-15	tc-4
 tc-42	tc-40	tn-33	tc-4
 tc-43	tc-34	tn-35	tc-4
-tc-44	tc-43	tn-36	tc-4
+tc-44	tc-43	tn-37	tc-4
 tc-45	tc-43	tn-21	tc-4

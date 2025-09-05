@@ -33,12 +33,12 @@ _:a0 a foaf:Person ;
 
 <zoobank:29a6803b-c1d8-4460-96c7-cc006095413f> a tcs:TaxonName ;
     tcs:nameString "Giraffa" ;
-    dwc:scientificNameAuthorship "Brisson" ;
+    dwc:scientificNameAuthorship "Brisson, 1762" ;
     dwc:namePublishedInYear "1762" .
 
 <https://zoobank.org/NomenclaturalActs/092ff21a-bd6b-4eb3-a27b-c74943868b9e> a tcs:TaxonName ;
     tcs:nameString "Camelopardalis" ;
-    dwc:scientificNameAuthorship "Schreber" ;
+    dwc:scientificNameAuthorship "Schreber, 1784" ;
     dwc:namePublishedInYear "1784" .
 
 _:tn0 a tcs:TaxonName ;
@@ -47,48 +47,53 @@ _:tn0 a tcs:TaxonName ;
 
 <zoobank:3ac03875-1c25-49a5-96c5-981b87cfa73a> a tcs:TaxonName ;
     tcs:nameString "Giraffa camelopardalis reticulata" ;
-    dwc:scientificNameAuthorship "de Winton" ;
+    dwc:scientificNameAuthorship "de Winton, 899" ;
     dwc:namePublishedInYear "1899" .
 
 _:tn1 a tcs:TaxonName ;
     tcs:nameString "Giraffa camelopardalis" ;
+    tcs:nameString "Cervus camelopardalis" ;
+    dwc:scientificNameAuthorship "(Linn., 1758)" ;
     tcs:basionym <zoobank:ca84d710-341e-46af-be74-f49f84c8a53c> .
 
 <zoobank:ca84d710-341e-46af-be74-f49f84c8a53c> a tcs:TaxonName ;
     tcs:nameString "Cervus camelopardalis" ;
-    dwc:scientificNameAuthorship "Linn." ;
+    dwc:scientificNameAuthorship "Linn., 1758" ;
     dwc:namePublishedInYear "1758" .
 
 _:tn2 a tcs:TaxonName ;
     tcs:nameString "Giraffa camelopardalis camelopardalis" ;
+    dwc:scientificNameAuthorship "(Linn., 1758)" ;
     tcs:basedOn _:tn1 .
 
 <zoobank:6b9469dc-6f06-4fba-911b-c08c2667278f> a tcs:TaxonName ;
     tcs:nameString "Camelopardalis antiquorum" ;
-    dwc:scientificNameAuthorship "Swainson" ;
+    dwc:scientificNameAuthorship "Swainson, 1835" ;
     dwc:namePublishedInYear "1835" .
 
 <zoobank:e6851c80-2e77-4a51-bbbc-7179249e9d5c> a tcs:TaxonName ;
     tcs:nameString "Camelopardalis aethiopica" ;
-    dwc:scientificNameAuthorship "Ogilby" ;
+    dwc:scientificNameAuthorship "Ogilby, 1837" ;
     dwc:namePublishedInYear "1837" .
 
 _:tn17 a tcs:TaxonName ;
     tcs:nameString "Giraffa antiquorum" ;
+    dwc:scientificNameAuthorship "(Swainson, 1835)" ;
     tcs:basionym: <zoobank:6b9469dc-6f06-4fba-911b-c08c2667278f> .
 
 _:tn3 a tcs:TaxonName ;
     tcs:nameString "Giraffa camelopardalis antiquorum" ;
+    dwc:scientificNameAuthorship "(Swainson, 1835)" ;
     tcs:basionym <zoobank:6b9469dc-6f06-4fba-911b-c08c2667278f> .
 
 <zoobank:9cba7e21-4f14-4354-b559-36b7db538c08> a tcs:TaxonName ;
     tcs:nameString "Giraffa camelopardalis cottoni" ;
-    dwc:scientificNameAuthorship "Lydekker" ;
+    dwc:scientificNameAuthorship "Lydekker, 1904" ;
     dwc:namePublishedInYear "1904" .
 
 <zoobank:a3492a30-8739-4b4e-8e6f-5c09e2c34315> a tcs:TaxonName ;
     tcs:nameString "Giraffa camelopardalis rothschildi" ;
-    dwc:scientificNameAuthorship "Lydekker" ;
+    dwc:scientificNameAuthorship "Lydekker, 1903" ;
     dwc:namePublishedInYear "1903" .
 
 _:tn6 a tcs:TaxonName ;
@@ -97,7 +102,7 @@ _:tn6 a tcs:TaxonName ;
 
 <zoobank:fc4e3aca-4e59-4fae-a052-f220b4a5c70b> a tcs:taxonName ;
     tcs:nameString "Giraffa tippelskirchi" ;
-    dwc:scientificNameAuthorship "Matschie" ;
+    dwc:scientificNameAuthorship "Matschie, 1898" ;
     dwc:namePublishedInYear "1898" .
 
 _:tn26 a tcs:TaxonName ;
@@ -106,49 +111,52 @@ _:tn26 a tcs:TaxonName ;
 
 <zoobank:aed6605c-7811-4260-9c4c-21b26b946e5d> a tcs:taxonName ;
     tcs:nameString "Giraffa schillingsi" ;
-    dwc:scientificNameAuthorship "Matschie" ;
+    dwc:scientificNameAuthorship "Matschie, 1898" ;
     dwc:namePublishedInYear "1898" .
 
 <zoobank:f4bc8451-d2f8-41be-a900-e61af09734b6> a tcs:TaxonName ;
     tcs:nameString "Giraffa hagenbecki" ;
-    dwc:scientificNameAuthorship "Knottnerus-Meyer" ;
+    dwc:scientificNameAuthorship "Knottnerus-Meyer, 1910" ;
     dwc:namePublishedInYear "1910" .
 
 <zoobank:38db2575-317c-4f7c-b0d0-5a85250e5f1f> a tcs:TaxonName ;
     tcs:nameString "Giraffa camelopardalis congoensis" ;
-    dwc:scientificNameAuthorship "Lydekker" ;
+    dwc:scientificNameAuthorship "Lydekker, 1903" ;
     dwc:namePublishedInYear "1903" .
 
 <zoobank:c8aeee34-3551-4227-871c-13f2a52bcf02> a tcs:TaxonName ;
     tcs:nameString "Giraffa camelopardalis angolensis" ;
-    dwc:scientificNameAuthorship "Lydekker" ;
+    dwc:scientificNameAuthorship "Lydekker, 1903" ;
     dwc:namePublishedInYear "1903" .
 
 _:tn25 a tcs:TaxonName ;
     tcs:nameString "Giraffa angolensis" ;
+    dwc:scientificNameAuthorship "(Lydekker, 1903)" ;
     tcs:basionym <zoobank:c8aeee34-3551-4227-871c-13f2a52bcf02> .
 
 _:tn29 a tcs:TaxonName ;
     tcs:nameString "Giraffa giraffa angolensis" ;
+    dwc:scientificNameAuthorship "(Lydekker, 1903)" ;
     tcs:basionym <zoobank:c8aeee34-3551-4227-871c-13f2a52bcf02> .
 
 <zoobank:0477d1d3-3602-4bec-b4a3-11d108886065> a tcs:TaxonName ;
     tcs:nameString "Giraffa camelopardalis wardi" ;
-    dwc:scientificNameAuthorship "Lydekker" ;
+    dwc:scientificNameAuthorship "Lydekker, 1904" ;
     dwc:namePublishedInYear "1904" .
 
 _:tn14 a tcs:TaxonName ;
     tcs:nameString "Camelopardalis capensis" ;
-    dwc:scientificNameAuthorship "Lesson" ;
+    dwc:scientificNameAuthorship "Lesson, 1842" ;
     dwc:namePublishedInYear "1842" .
 
 _:tn10 a tcs:TaxonName ;
     tcs:nameString "Giraffa camelopardalis capensis" ;
+    dwc:scientificNameAuthorship "(Lesson, 1842)" ;
     tcs:basionym _:tn14 .
 
 <zoobank:507a1a9e-dcf8-4c92-a94d-2ad984ad8f46> a tcs:TaxonName ;
     tcs:nameString "Camelopardalis senaariensis" ;
-    dwc:scientificNameAuthorship "Trouessart" ;
+    dwc:scientificNameAuthorship "Trouessart, 1898" ;
     dwc:namePublishedInYear "1898" .
 
 _:tn15 a tcs:TaxonName ;
@@ -157,65 +165,67 @@ _:tn15 a tcs:TaxonName ;
 
 <zoobank:4967abaa-2035-4237-85e9-3bc7ffa2259b> a tcs:TaxonName ;
     tcs:nameString "Giraffa camelopardalis australis" ;
-    dwc:scientificNameAuthorship "Rhoads" ;
+    dwc:scientificNameAuthorship "Rhoads, 1896" ;
     dwc:namePublishedInYear "1896" .
 
 <zoobank:a1d014fd-cdbf-4eaf-a979-100186fc2f41> a tcs:TaxonName ;
     tcs:nameString "Giraffa camelopardalis peralta" ;
-    dwc:scientificNameAuthorship "Thomas" ;
+    dwc:scientificNameAuthorship "Thomas, 1908" ;
     dwc:namePublishedInYear "1908" .
 
 _:tn19 a tcs:TaxonName ;
     tcs:nameString "Giraffa peralta" ;
+    dwc:scientificNameAuthorship "Thomas, 1908" ;
     tcs:basionym <zoobank:a1d014fd-cdbf-4eaf-a979-100186fc2f41> .
 
 _:tn20 a tcs:TaxonName ;
     tcs:nameString "Giraffa camelopardalis renatae" ;
-    dwc:scientificNameAuthorship "Krumbiegel" ;
+    dwc:scientificNameAuthorship "Krumbiegel, 1971" ;
     dwc:namePublishedInYear "1971" .
 
 <zoobank:154d50db-6186-4760-b298-856af70de7b8> a tcs:TaxonName ;
     tcs:nameString "Giraffa camelopardalis thronicrofti" ;
-    dwc:scientificNameAuthorship "Lydekker" ;
+    dwc:scientificNameAuthorship "Lydekker, 1903" ;
     dwc:namePublishedIn "1903" .
 
 _:tn21 a tcs:TaxonName ;
     tcs:nameString "Giraffa thornicrofti" ;
+    dwc:scientificNameAuthorship "(Lydekker, 1903)" ;
     tcs:basionym <zoobank:154d50db-6186-4760-b298-856af70de7b8> .
 
 _:tn28 a tcs:TaxonName ;
     tcs:nameString "Giraffa tippelskirchi thornicrofti" ;
-    tcs:basionym <zoobank:154d50db-6186-4760-b298-856af70de7b8> .
-
--:tn30 a tcs:TaxonName ;
-    tcs:nameString "Giraffa camelopardalis thornicrofti" ;
+    dwc:scientificNameAuthorship "(Lydekker, 1903)" ;
     tcs:basionym <zoobank:154d50db-6186-4760-b298-856af70de7b8> .
 
 <zoobank:d877e595-ff30-4d86-b4bd-39d06e5e2cf3> a tcs:TaxonName ;
     tcs:nameString "Camelopardalis giraffa" ;
-    dwc:scientificNameAuthorship "Schreber" ;
+    dwc:scientificNameAuthorship "Schreber, 1784" ;
     dwc:namePublishedInYear "1784" .
 
 _:tn22 a tcs:TaxonName ;
     tcs:nameString "Giraffa giraffa" ;
+    dwc:scientificNameAuthorship "(Schreber, 1784)" ;
+    tcs:basionym <zoobank:d877e595-ff30-4d86-b4bd-39d06e5e2cf3> .
+
+_:tn30 a tcs:TaxonName ;
+    tcs:nameString "Giraffa camelopardalis giraffa" ;
+    dwc:scientificNameAuthorship "(Schreber, 1784)" ;
     tcs:basionym <zoobank:d877e595-ff30-4d86-b4bd-39d06e5e2cf3> .
 
 _:tn27 a tcs:TaxonName ;
     tcs:nameString "Giraffa giraffa giraffa" ;
-    tcs:basedOn _:tn22 .
-
-<_:tn31 a tcs:TaxonName ;
-    tcs:nameString "Giraffa camelopardalis giraffa" ;
+    dwc:scientificNameAuthorship "(Schreber, 1784)" ;
     tcs:basedOn _:tn22 .
 
 <zoobank:be7a0080-ff1c-4857-a536-6d0016ccc1e8> a tcs:TaxonName ;
     tcs:nameString "Giraffa infumata" ;
-    dwc:scientificNameAuthorship "Noak" ;
+    dwc:scientificNameAuthorship "Noak, 1908" ;
     dwc:namePublishedInYear "1908" .
 
 <zoobank:5bdb022d-954d-42d4-b6ca-a273af39789f> a tcs:TaxonName ;
     tcs:nameString "Giraffa reticulata nigrescens" ;
-    dwc:scientificNameAuthorship "Lydekker" ;
+    dwc:scientificNameAuthorship "Lydekker, 1911" ;
     dwc:namePublishedInYear "1911" .
 
 _:tc31 a tcs:TaxonConcept ;
@@ -445,7 +455,7 @@ _:tc43 a tcs:TaxonConcept ;
 
 _:tc44 a tcs:TaxonConcept ;
     dcterms:title "Giraffa camelopardalis giraffa sec. Dagg 1971" ;
-    tcs:taxonName _:tn31 ;
+    tcs:taxonName _:tn30 ;
     tcs:accordingTo <https://doi.org/10.2307/3503830> ;
     tcs:taxonRank <http://rs.gbif.org/vocabulary/gbif/rank/subspecies> ;
     tcs:parentTaxonConcept _:tc35 ;
