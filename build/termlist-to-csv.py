@@ -47,9 +47,10 @@ def convert_term_list_to_csv(filename):
                 'tdwgutility_organizedInClass': term['organizedInClass']
             })
 
-    current_time = datetime.now()
-    formatted_date = current_time.strftime("%Y-%m-%d")
-    dir = f'../rs.tdwg.org/{formatted_date}'
+    # current_time = datetime.now()
+    # formatted_date = current_time.strftime("%Y-%m-%d")
+    # dir = f'../rs.tdwg.org/{formatted_date}'
+    dir = '../rs.tdwg.org/tcs2'
     if not os.path.isdir(dir):
         os.mkdir(dir)
 
