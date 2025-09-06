@@ -6906,4 +6906,5 @@ from the treatment by Klazenga to the concepts in the other four treatments:
 ```
 
 [TurTLe](https://github.com/tdwg/tcs2/blob/master/recipes/tropicos-malesian-dicranoloma-annotations.ttl) |
-[JSON-LD](https://github.com/tdwg/tcs2/blob/master/recipes/tropicos-malesian-dicranoloma-annotations.jsonld)
+[JSON-LD](https://github.com/tdwg/tcs2/blob/master/recipes/tropicos-malesian-dicranoloma-annotations.jsonld) |
+[Data Package](https://github.com/tdwg/tcs2/tree/master/recipes/tropicos-malesian-dicranoloma/datapackage)
