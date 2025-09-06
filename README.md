@@ -72,10 +72,15 @@ In the structure below `:` means manually maintained and `+` means generated. Ge
 │   │   └── media                        : Images used in Implementation Experience Report
 │   ├── media
 |   ├── recipes                          : Recipes folder
+│   │   ├── index.md                     : Recipes index                         
+│   │   └── ....md                       : Recipes files
 │   └── terms
 │       └── index.md                     + Term List 
 │
-├── examples                             : Examples in TTL and JSON 
+├── examples                             : Examples in TTL and JSON-LD
+│
+├── jsonld                             
+│   └── context.jsonld                   : context file for TCS JSON-LD
 │
 ├── master                               : Master files from which all documentation is generated
 |   ├── README.md
@@ -83,6 +88,14 @@ In the structure below `:` means manually maintained and `+` means generated. Ge
 |   ├── dwc-for-tcs.yaml                 : Terms borrowed from Darwin Core 
 |   └── tcs.yaml                         : Terms defined in TCS
 │
-└── recipes                              : Recipes in TTL and JSON     
+├── recipes                              : Recipes in TTL and JSON     
+│
+└── rs.tdwg.org     
+    └── ...
+        ├── config.yaml                  : Configuration for processing term lists                   
+        ├── dcterms-for-tcs.csv          + Terms borrowed from Dublin Core                   
+        ├── dwc-for-tcs.csv              + Terms borrowed from Darwin Core 
+        ├── tcs.csv                      + Terms defined in TCS
+        └── vocab.yml                    : Configuration for processing vocabulary the first time
 ```
 
