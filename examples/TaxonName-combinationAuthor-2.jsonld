@@ -1,0 +1,13 @@
+{
+  "@context": "https://raw.githubusercontent.com/tdwg/tcs2/refs/heads/master/jsonld/context.jsonld",
+  "type": "TaxonName",
+  "id": "https://zoobank.org/NomenclaturalActs/db265300-fb04-4dba-b843-8dd236484ee4",
+  "nameString": "Felis leo",
+  "scientificNameAuthorship": "Linnaeus, 1758",
+  "combinationAuthor": {
+    "type": "foaf:Person",
+    "id": "http://www.wikidata.org/entity/Q1043",
+    "foaf:givenName": "Carl",
+    "foaf:surname": "Linnaeus"
+  }
+}

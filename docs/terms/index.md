@@ -1764,12 +1764,14 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		</tr>
 		<tr>
 			<td>Comments</td>
-			<td><p>'combination' is taken here to be one of a group of different names with the same nomenclatural type.</p></td>
+			<td><p>'combination' is taken here to be one of a group of different names with the same nomenclatural type. <code>combinationAuthor</code> is the author (or authors) that is not in parentheses in the <code>dwc:scientificNameAuthorship</code>.</p></td>
 		</tr>
 		<tr>
 			<td>Examples</td>
 			<td><ul>
 <li><a href="../examples/TaxonName-combinationAuthor-example-1.html">TaxonName-combinationAuthor-example-1</a></li>
+
+<li><a href="../examples/TaxonName-combinationAuthor-example-2.html">TaxonName-combinationAuthor-example-2</a></li>
 
 </ul>
 </td>
@@ -1809,7 +1811,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		</tr>
 		<tr>
 			<td>Comments</td>
-			<td><p>'combination' is taken here to be one of a group of different names with the same nomenclatural type.</p></td>
+			<td><p>'combination' is taken here to be one of a group of different names with the same nomenclatural type. <code>combinationAuthorLiteral</code> is the author (or authors) that is not in parentheses in the <code>dwc:scientificNameAuthorship</code>.</p></td>
 		</tr>
 	</tbody>
 </table>
@@ -1846,12 +1848,14 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		</tr>
 		<tr>
 			<td>Comments</td>
-			<td><p><code>basionymAuthor</code> (or its literal counterpart) is the bit in parentheses in the <code>dwc:scientificNameAuthorship</code>.</p></td>
+			<td><p><code>basionymAuthor</code> (or its literal counterpart) is the author (or authors) in parentheses in the <code>dwc:scientificNameAuthorship</code>.</p></td>
 		</tr>
 		<tr>
 			<td>Examples</td>
 			<td><ul>
 <li><a href="../examples/TaxonName-basionymAuthor-example-1.html">TaxonName-basionymAuthor-example-1</a></li>
+
+<li><a href="../examples/TaxonName-basionymAuthor-example-2.html">TaxonName-basionymAuthor-example-2</a></li>
 
 </ul>
 </td>
@@ -1891,7 +1895,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		</tr>
 		<tr>
 			<td>Comments</td>
-			<td><p><code>basionymAuthorLiteral</code> is the bit in parentheses in the <code>dwc:scientificNameAuthorship</code>.</p></td>
+			<td><p><code>basionymAuthorLiteral</code> is the author (or authors) in parentheses in the <code>dwc:scientificNameAuthorship</code>.</p></td>
 		</tr>
 	</tbody>
 </table>

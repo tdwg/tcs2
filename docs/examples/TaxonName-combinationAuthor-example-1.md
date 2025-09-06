@@ -3,7 +3,7 @@
 
 **Term:** [tcs:combinationAuthor](../terms/#tcs_combinationauthor)
 
-
+TaxonName-combinationAuthor-example-1 | [TaxonName-combinationAuthor-example-2](./TaxonName-combinationAuthor-example-2.html)
 ```turtle
 <https://ipni.org/n/316069-1> a tcs:TaxonName ;
     tcs:nameString "Rafflesia arnoldi" ;

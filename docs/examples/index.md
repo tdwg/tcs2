@@ -146,10 +146,12 @@ Playground](https://json-ld.org/playground/).
 ### tcs:combinationAuthor
 
 - [TaxonName-combinationAuthor-example-1](TaxonName-combinationAuthor-example-1.md)
+- [TaxonName-combinationAuthor-example-2](TaxonName-combinationAuthor-example-2.md)
 
 ### tcs:basionymAuthor
 
 - [TaxonName-basionymAuthor-example-1](TaxonName-basionymAuthor-example-1.md)
+- [TaxonName-basionymAuthor-example-2](TaxonName-basionymAuthor-example-2.md)
 
 ### tcs:combinationAscribedAuthor
 

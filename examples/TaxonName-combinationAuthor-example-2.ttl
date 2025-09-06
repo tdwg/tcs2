@@ -1,0 +1,14 @@
+@prefix tcs: <http://rs.tdwg.org/tcs/terms/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dwc: <http://rs.tdwg.org/dwc/terms/> .
+@prefix gbif: <http://rs.gbif.org/terms/1.0/> .
+
+<https://zoobank.org/NomenclaturalActs/db265300-fb04-4dba-b843-8dd236484ee4> a tcs:TaxonName ;
+    tcs:nameString "Felis leo" ;
+    dwc:scientificNameAuthorship "Linnaeus, 1758" ;
+    tcs:combinationAuthor <http://www.wikidata.org/entity/Q1043> .
+
+<http://www.wikidata.org/entity/Q1043> a foaf:Person ;
+    foaf:givenName: "Carl" ;
+    foaf:surname "Linnaeus" .
+

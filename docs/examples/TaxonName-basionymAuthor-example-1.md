@@ -3,7 +3,7 @@
 
 **Term:** [tcs:basionymAuthor](../terms/#tcs_basionymauthor)
 
-
+TaxonName-basionymAuthor-example-1 | [TaxonName-basionymAuthor-example-2](./TaxonName-basionymAuthor-example-2.html)
 ```turtle
 <https://tropicos.org/name/35121611> a tcs:taxonName ;
     tcs:nameString "Dicranoloma robustum" ;

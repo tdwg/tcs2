@@ -1115,13 +1115,15 @@
     persons.
   notes: >-
     'combination' is taken here to be one of a group of different names with the
-    same nomenclatural type.
+    same nomenclatural type. `combinationAuthor` is the author (or authors) that
+    is not in parentheses in the `dwc:scientificNameAuthorship`.
   type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonName
   required: No
   repeatable: Yes
   examples: 
     - TaxonName-combinationAuthor-example-1
+    - TaxonName-combinationAuthor-example-2
   github: 239
 
 # property: combinationAuthorLiteral
@@ -1132,7 +1134,8 @@
     `combinationAuthorLiteral` is a Literal property.
   notes: >-
     'combination' is taken here to be one of a group of different names with the
-    same nomenclatural type.
+    same nomenclatural type. `combinationAuthorLiteral` is the author (or
+    authors) that is not in parentheses in the `dwc:scientificNameAuthorship`.
   type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonName
   required: No
@@ -1147,14 +1150,15 @@
     `basionymAuthor` is an IRI property. It can be a person or a list of
     persons.
   notes: >-
-    `basionymAuthor` (or its literal counterpart) is the bit in parentheses
-    in the `dwc:scientificNameAuthorship`.
+    `basionymAuthor` (or its literal counterpart) is the author (or authors) in
+    parentheses in the `dwc:scientificNameAuthorship`.
   type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonName
   required: No
   repeatable: Yes
   examples:
     - TaxonName-basionymAuthor-example-1
+    - TaxonName-basionymAuthor-example-2
   github: 239
 
 # property: basionymAuthorLiteral
@@ -1164,8 +1168,8 @@
   usage: >-
     `basionymAuthorLiteral` is a Literal property.
   notes: >-
-    `basionymAuthorLiteral` is the bit in parentheses
-    in the `dwc:scientificNameAuthorship`.
+    `basionymAuthorLiteral` is the author (or authors) in parentheses in the
+    `dwc:scientificNameAuthorship`.
   type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonName
   required: No
