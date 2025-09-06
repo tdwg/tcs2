@@ -1,0 +1,229 @@
+ID,type,dwc:country,dwc:stateOrProvince,dwc:island,dwc:verbatimLocality,dwc:habitat,dwc:minimumElevationInMeters,dwc:maximumElevationInMeters,dwc:recordedBy,dwc:recordNumber,dwc:institutionCode,dwc:collectionCode,dwc:catalogNumber,dwc:disposition,source
+1,dwc:MaterialCitation,Indonesia,,,"Mt. Arfak ad Hatam, 5000-7000'",,,,O. Beccari,167,B,,,destroyed,https://tropicos.org/reference/9020903
+2,dwc:MaterialCitation,Indonesia,,,"Mt. Arfak ad Hatam, 5000-7000'",,,,O. Beccari,167,H-BR,,,,https://tropicos.org/reference/9020903
+3,dwc:MaterialCitation,Indonesia,,,"Mt. Arfak ad Hatam, 5000-7000'",,,,O. Beccari,167,FH-FL,,,,https://tropicos.org/reference/9020903
+4,dwc:MaterialCitation,Indonesia,,,"Mt. Arfak ad Hatam, 5000-7000'",,,,O. Beccari,167,L,,,,https://tropicos.org/reference/9020903
+5,dwc:MaterialCitation,Indonesia,,,"Mt. Arfak ad Hatam, 5000-7000'",,,,O. Beccari,167,S,,,,https://tropicos.org/reference/9020903
+6,dwc:MaterialCitation,Indonesia,,Java,,,,,Junghuhn,s.n.,BM,,,,https://tropicos.org/reference/9020903
+7,dwc:MaterialCitation,Indonesia,,Java,,,,,Junghuhn,s.n.,L,,,,https://tropicos.org/reference/9020903
+8,dwc:MaterialCitation,Indonesia,Sumatra Barat,Sumatra,West Sumatra,,,,"Micholitz, W.",48,B,,,destroyed,https://tropicos.org/reference/9020903
+9,dwc:MaterialCitation,Indonesia,Sumatra Barat,Sumatra,West Sumatra,,,,"Micholitz, W.",48,BM,,,,https://tropicos.org/reference/9020903
+10,dwc:MaterialCitation,Indonesia,Sumatra Barat,Sumatra,West Sumatra,,,,"Micholitz, W.",48,FH,FH-FL,,,https://tropicos.org/reference/9020903
+11,dwc:MaterialCitation,Indonesia,Sumatra Barat,Sumatra,West Sumatra,,,,"Micholitz, W.",48,H,H-BR,,,https://tropicos.org/reference/9020903
+12,dwc:MaterialCitation,Indonesia,Sumatra Barat,Sumatra,West Sumatra,,,,"Micholitz, W.",48,S,,,,https://tropicos.org/reference/9020903
+13,dwc:MaterialCitation,Indonesia,,Java,,,,,Lefèbre,s.n.,P,,,not found,https://tropicos.org/reference/9020903
+14,dwc:MaterialCitation,Indonesia,,Java,,,,,Lefèbre,s.n.,FH,FH-FL,,,https://tropicos.org/reference/9020903
+15,dwc:MaterialCitation,,,Borneo,,,,,Korthals,s.n.,FH,FH-FL,,,https://tropicos.org/reference/9020903
+16,dwc:MaterialCitation,,,Borneo,,,,,Korthals,s.n.,L,,,,https://tropicos.org/reference/9020903
+17,dwc:MaterialCitation,Philippines,Davao,Mindanao,Mt Apo,,,,Copeland,1126,H,H-BR,,,https://tropicos.org/reference/9020903
+18,dwc:MaterialCitation,Philippines,Davao,Mindanao,Mt Apo,,,,Copeland,1126,FH,FH-Bartr.,,,https://tropicos.org/reference/9020903
+19,dwc:MaterialCitation,Philippines,Davao,Mindanao,Mt Apo,,,,Copeland,1126,NY,,,,https://tropicos.org/reference/9020903
+20,dwc:MaterialCitation,Philippines,Davao,Mindanao,Mt Apo,,,,Copeland,1126,FH,FH-FL,,,https://tropicos.org/reference/9020903
+21,dwc:MaterialCitation,Philippines,Camarines Sur,Luzon,Mt. Isarog,,,,Ramos,BS 22114,H,H-BR,,,https://tropicos.org/reference/9020903
+22,dwc:MaterialCitation,Malaysia,Sabah,Borneo,"Tenompok, Lumu-Lumu",,,,Holttum,25633,BM,,,,https://tropicos.org/reference/9020903
+23,dwc:MaterialCitation,Malaysia,Sabah,Borneo,"Tenompok, Lumu-Lumu",,,,Holttum,25633,FH,FH-Bartr.,,,https://tropicos.org/reference/9020903
+24,dwc:MaterialCitation,Malaysia,Sarawak,Borneo,Ulu Koyan,,,,Oxford Expedition 1932 (P.W. Richards),1853,BM,,,,https://tropicos.org/reference/9020903
+25,dwc:MaterialCitation,Malaysia,Sarawak,Borneo,Mt Tibang,,,,Mjöberg,s.n.,FH,FH-Bart.,,,https://tropicos.org/reference/9020903
+26,dwc:MaterialCitation,Malaysia,Sarawak,Borneo,Mt Tibang,,,,Mjöberg,s.n.,BM,,,,https://tropicos.org/reference/9020903
+27,dwc:MaterialCitation,Malaysia,Sarawak,Borneo,Mt Tibang,,,,Mjöberg,s.n.,FH,,,,https://tropicos.org/reference/9020903
+28,dwc:MaterialCitation,Papua New Guinea,Morobe,New Guinea,Mt Sarawaket,,,,"Clemens, M.S.",10245,NICH,,,,https://tropicos.org/reference/9020903
+29,dwc:MaterialCitation,Papua New Guinea,Morobe,New Guinea,Mt Sarawaket,,,,"Clemens, M.S.",10245,L,,,,https://tropicos.org/reference/9020903
+30,dwc:MaterialCitation,Indonesia,Irian Jaya,New Guinea,"Star Mountains, Mt Antares",,,,"van Zanten, B.O.",677a,L,,,,https://tropicos.org/reference/9020903
+31,dwc:MaterialCitation,Indonesia,Irian Jaya,New Guinea,"Star Mountains, Mt Antares",,,,"van Zanten, B.O.",677a,BM,,,,https://tropicos.org/reference/9020903
+32,dwc:MaterialCitation,Indonesia,Irian Jaya,New Guinea,"Star Mountains, Mt Antares",,,,"van Zanten, B.O.",677a,NY,,,,https://tropicos.org/reference/9020903
+33,dwc:MaterialCitation,Indonesia,Irian Jaya,New Guinea,"Star Mountains, Mt Antares",,,,"van Zanten, B.O.",680a,BM,,,,https://tropicos.org/reference/9020903
+34,dwc:MaterialCitation,Indonesia,Irian Jaya,New Guinea,"Star Mountains, Mt Antares",,,,"van Zanten, B.O.",680a,L,,,,https://tropicos.org/reference/9020903
+35,dwc:MaterialCitation,Indonesia,Irian Jaya,New Guinea,"Star Mountains, Mt Antares",,,,"van Zanten, B.O.",680a,NY,,,,https://tropicos.org/reference/9020903
+36,dwc:MaterialCitation,Papua New Guinea,Central Prov.,,"Mt Owen Stanley Range, The Gap",,,,J. McDonald,s.n.,H,H-BR,,,https://tropicos.org/reference/9020903
+37,dwc:MaterialCitation,Papua New Guinea,Central Prov.,,"Mt Owen Stanley Range, The Gap",,,,J. McDonald,s.n.,BM,,,,https://tropicos.org/reference/9020903
+38,dwc:MaterialCitation,Papua New Guinea,,,"Rawlinson Range, 7000-12000 ft",,,,Clemens,12493,FH,,,,https://tropicos.org/reference/9020903
+39,dwc:MaterialCitation,Papua New Guinea,,,"Rawlinson Range, 7000-12000 ft",,,,Clemens,12493,FH,,,,https://tropicos.org/reference/9020903
+40,dwc:MaterialCitation,Papua New Guinea,,,"Rawlinson Range, 7000-12000 ft",,,,Clemens,12493,MiCH,,,,https://tropicos.org/reference/9020903
+41,dwc:MaterialCitation,Australia,,,,,,,De la Billardière,s.n.,B,,,not found,https://tropicos.org/reference/9020903
+42,dwc:MaterialCitation,Papua New Guinea,Central,,Owen Stanley Range,,,,W. MacGregor,6,H,H-BR,,,https://tropicos.org/reference/9020903
+43,dwc:MaterialCitation,Papua New Guinea,Central,,Owen Stanley Range,,,,W. MacGregor,6,BM,,,,https://tropicos.org/reference/9020903
+44,dwc:MaterialCitation,Malaysia,Pahang,,"Gunong Tahan, 5500-7000 ft",,,,Hanif & Nur,7915a,BM,,,,https://tropicos.org/reference/9020903
+45,dwc:MaterialCitation,Malaysia,Pahang,,"Gunong Tahan, 5500-7000 ft",,,,Hanif & Nur,7915a,KLU,,,,https://tropicos.org/reference/9020903
+46,dwc:MaterialCitation,Malaysia,Pahang,,"Gunong Tahan, 5500-7000 ft",,,,Hanif & Nur,7915a,L,,,,https://tropicos.org/reference/9020903
+47,dwc:MaterialCitation,Malaysia,Sabah,,"Mt. Kinabalu, Kemberanga",,,,Clemens,BS 10552,H,H-BR,,,https://tropicos.org/reference/9020903
+48,dwc:MaterialCitation,Malaysia,Sabah,,"Mt. Kinabalu, Kemberanga",,,,Clemens,BS 10552,BM,,,,https://tropicos.org/reference/9020903
+49,dwc:MaterialCitation,Malaysia,Sabah,,"Mt. Kinabalu, Kemberanga",,,,Clemens,BS 10552,L,,,,https://tropicos.org/reference/9020903
+50,dwc:MaterialCitation,Malaysia,Sabah,,"Mt. Kinabalu, Kemberanga",,,,Clemens,BS 10552,NY,,,,https://tropicos.org/reference/9020903
+51,dwc:MaterialCitation,Indonesia,Kalimantan Barat,,"Bukit Raya, 1800 m",,,,Winkler,3200,BM,,,,https://tropicos.org/reference/9020903
+52,dwc:MaterialCitation,Indonesia,Kalimantan Barat,,"Bukit Raya, 1800 m",,,,Winkler,3200,H,H-BR,,,https://tropicos.org/reference/9020903
+53,dwc:MaterialCitation,Philippines,Bukidnon,Mindanao,Near Impalutao,,,,Phillips,26,FH,,,,https://tropicos.org/reference/9020903
+54,dwc:MaterialCitation,Philippines,Bukidnon,Mindanao,Near Impalutao,,,,Phillips,26,BM,,,,https://tropicos.org/reference/9020903
+55,dwc:MaterialCitation,Indonesia,Maluku,Buru,"NW Buru, Gunung Fogha",,,,Stresemann,383,JE,,,,https://tropicos.org/reference/9020903
+56,dwc:MaterialCitation,Indonesia,,Java,Java in montibus excelsis partim ignivomis Salak et Gédé,,,,C. Blume,s.n.,LE,,,not located,https://tropicos.org/reference/9020903
+57,dwc:MaterialCitation,Indonesia,,Java,Java in montibus excelsis partim ignivomis Salak et Gédé,,,,C. Blume,s.n.,JE,,,,https://tropicos.org/reference/9020903
+58,dwc:MaterialCitation,Indonesia,,Java,Java in montibus excelsis partim ignivomis Salak et Gédé,,,,C. Blume,s.n.,L,,,,https://tropicos.org/reference/9020903
+59,dwc:MaterialCitation,Indonesia,,Java,Java in montibus excelsis partim ignivomis Salak et Gédé,,,,C. Blume,s.n.,NY,,,,https://tropicos.org/reference/9020903
+60,dwc:MaterialCitation,Indonesia,Irian Jaya,,"Mt. Arfak ad Hatam, 5000-7000'",,,,O. Beccari,161,H,H-BR,,,https://tropicos.org/reference/9020903
+61,dwc:MaterialCitation,Indonesia,Irian Jaya,,"Mt. Arfak ad Hatam, 5000-7000'",,,,O. Beccari,161,FH,FH-FL,,,https://tropicos.org/reference/9020903
+62,dwc:MaterialCitation,Indonesia,Irian Jaya,,"Mt. Arfak ad Hatam, 5000-7000'",,,,O. Beccari,161,L,,,,https://tropicos.org/reference/9020903
+63,dwc:MaterialCitation,Indonesia,Irian Jaya,,"Am Goliathgebirge am baumasten, 1950-3000 m",,,,A.C. de Kock,9,F,FH-FL,,,https://tropicos.org/reference/9020903
+64,dwc:MaterialCitation,Indonesia,,Seram,"W. Seram, zwische Sepa und Sawai",,,,Stresemann,s.n.,JE,,,,https://tropicos.org/reference/9020903
+65,dwc:MaterialCitation,Indonesia,,Seram,"W. Seram, zwische Sepa und Sawai",,,,Stresemann,s.n.,B,,,,https://tropicos.org/reference/9020903
+66,dwc:MaterialCitation,Indonesia,,Seram,"W. Seram, zwische Sepa und Sawai",,,,Stresemann,s.n.,S,,,,https://tropicos.org/reference/9020903
+67,dwc:MaterialCitation,Papua New Guinea,,,"Alola, Owen Stanley Range above Port Moresby",,,,C.E. Carr,13651,BM,,,,https://tropicos.org/reference/9020903
+68,dwc:MaterialCitation,Papua New Guinea,,,"Alola, Owen Stanley Range above Port Moresby",,,,C.E. Carr,13651,H,,,,https://tropicos.org/reference/9020903
+69,dwc:MaterialCitation,Papua New Guinea,,,"Alola, Owen Stanley Range above Port Moresby",,,,C.E. Carr,13651,L,,,,https://tropicos.org/reference/9020903
+70,dwc:MaterialCitation,Papua New Guinea,,,"Alola, Owen Stanley Range above Port Moresby",,,,C.E. Carr,13651,NY,,,,https://tropicos.org/reference/9020903
+71,dwc:MaterialCitation,Indonesia,,Sumatra,,,,,Teysmann,s.n.,L,,,,https://tropicos.org/reference/9020903
+72,dwc:MaterialCitation,Indonesia,,Sumatra,,,,,Teysmann,s.n.,H,H-BR,,,https://tropicos.org/reference/9020903
+73,dwc:MaterialCitation,,,,,,,,Holle,s.n.,L,,,not located,https://tropicos.org/reference/9020903
+74,dwc:MaterialCitation,,,,,,,,Rochussen,s.n.,L,,,,https://tropicos.org/reference/9020903
+75,dwc:MaterialCitation,Indonesia,,Java,Ad arbores vetustas secus paludes montis Gédé,,,,Zippelius,s.n.,L,,,not located,https://tropicos.org/reference/9020903
+76,dwc:MaterialCitation,Indonesia,,Java,,,,,C.L. Blume,,B,,,destroyed,https://tropicos.org/reference/9020903
+77,dwc:MaterialCitation,Indonesia,,Java,,,,,C.L. Blume,,L,,,,https://tropicos.org/reference/9020903
+78,dwc:MaterialCitation,Samoa,,Savai'i,,,,,Graeffe,,B,,,destroyed,https://tropicos.org/reference/9020903
+79,dwc:MaterialCitation,Samoa,,Savai'i,,,,,Graeffe,,S,,,,https://tropicos.org/reference/9020903
+80,dwc:MaterialCitation,Samoa,,Savai'i,,,,,Graeffe,,H,H-BR,,,https://tropicos.org/reference/9020903
+81,dwc:MaterialCitation,Indonesia,Irian Jaya,,"Mt. Arfak ad Hatam, 5000-7000'",,,,O. Beccari,184,H,H-BR,,,https://tropicos.org/reference/9020903
+82,dwc:MaterialCitation,Indonesia,Irian Jaya,,"Mt. Arfak ad Hatam, 5000-7000'",,,,O. Beccari,184,FH,FH-FL,,,https://tropicos.org/reference/9020903
+83,dwc:MaterialCitation,Indonesia,Irian Jaya,,"Mt. Arfak ad Hatam, 5000-7000'",,,,O. Beccari,184,S,,,,https://tropicos.org/reference/9020903
+84,dwc:MaterialCitation,Papua New Guinea,,,[British New Guinea] in reg. inf.,,,,W. MacGregor,686,H,H-BR,,,https://tropicos.org/reference/9020903
+85,dwc:MaterialCitation,Papua New Guinea,,,[British New Guinea] in reg. inf.,,,,W. MacGregor,686,S,,,,https://tropicos.org/reference/9020903
+86,dwc:MaterialCitation,Philippines,,Mindanao,"South Mindanao, Mt. Batangan",,,,O. Warburg,s.n.,B,,,destroyed,https://tropicos.org/reference/9020903
+87,dwc:MaterialCitation,Philippines,,Mindanao,"South Mindanao, Mt. Batangan",,,,O. Warburg,s.n.,H,H-BR,,,https://tropicos.org/reference/9020903
+88,dwc:MaterialCitation,Samoa,,Savai,Maungaafi,,,,K & L. Rechinger,s.n.,H,H-BR,,,https://tropicos.org/reference/9020903
+89,dwc:MaterialCitation,Samoa,,Savai,Urwald von Tiavi,,,,K & L. Rechinger,s.n.,W,,,,https://tropicos.org/reference/9020903
+90,dwc:MaterialCitation,Papua New Guinea,Central,,"Near Boku, Port Moresby",,,,J.B. Clark,4,BM,,,,https://tropicos.org/reference/9020903
+91,dwc:MaterialCitation,Indonesia,Sumatera Timur,,"Gn. Sibajak, Dg. Singkoet, in silvis primig.",,,,Fr. Verdoorn,74c,BM,,,,https://tropicos.org/reference/9020903
+92,dwc:MaterialCitation,Indonesia,Sumatera Timur,,"Gn. Sibajak, Dg. Singkoet, in silvis primig.",,,,Fr. Verdoorn,74c,JE,,,,https://tropicos.org/reference/9020903
+93,dwc:MaterialCitation,Malaysia,Sabah,,"N. Borneo, Tenompok, on tree, 1220 m",,,,Enriquez,18111,BM,,,,https://tropicos.org/reference/9020903
+94,dwc:MaterialCitation,Malaysia,Sabah,,"N. Borneo, Tenompok, on tree, 1220 m",,,,Enriquez,18111,L,,,,https://tropicos.org/reference/9020903
+95,dwc:MaterialCitation,Australia,Queensland,,"North Queensland, Mt. Finnigan, abundant on undergrowth in high mountain forest, 1100 m",,,,L.J. Brass,20090,FH,FH-Bartr.,,,https://tropicos.org/reference/9020903
+96,dwc:MaterialCitation,Papua New Guinea,,,"Distr. Moresby, in montosis Moroka, 1300 m",,,,Loria,1585,FH,FH-FL,,,https://tropicos.org/reference/9020903
+97,dwc:MaterialCitation,Papua New Guinea,,,"Distr. Moresby, in montosis Moroka, 1300 m",,,,Loria,1585,H,,,,https://tropicos.org/reference/9020903
+98,dwc:MaterialCitation,Indonesia,Sumatera Barat,,"""Padangsche Bovenlanden"", Mt. Singalang",,,,O. Beccari,93a,BM,,,,https://tropicos.org/reference/9020903
+99,dwc:MaterialCitation,Indonesia,Sumatera Barat,,"""Padangsche Bovenlanden"", Mt. Singalang",,,,O. Beccari,93a,JE,,,,https://tropicos.org/reference/9020903
+100,dwc:MaterialCitation,Indonesia,,Java,Rarissime in summo monte Gédé,,,,Zippelius,s.n.,L,,,,https://tropicos.org/reference/9020903
+101,dwc:MaterialCitation,Indonesia,,Java,Monte Pangerango,,,,Kuhl & Van Hasselt,s.n.,H,H-BR,,,https://tropicos.org/reference/9020903
+102,dwc:MaterialCitation,Indonesia,,Java,Monte Pangerango,,,,Kuhl & Van Hasselt,s.n.,L,,,,https://tropicos.org/reference/9020903
+103,dwc:MaterialCitation,Indonesia,,Java,Monte Pangerango,,,,Kuhl & Van Hasselt,s.n.,S,,,,https://tropicos.org/reference/9020903
+104,dwc:MaterialCitation,Indonesia,,Java,"In Monte Pangerango, 7000-9000'",,,,De Vriese,s.n.,L,,,,https://tropicos.org/reference/9020903
+105,dwc:MaterialCitation,,,,,,,,Zippelius,s.n.,L,,,not located,https://tropicos.org/reference/9020903
+106,dwc:MaterialCitation,Indonesia,,Sumatra,,,,,Teysmann,s.n.,L,,,,https://tropicos.org/reference/9020903
+107,dwc:MaterialCitation,Indonesia,,Sumatra,,,,,Teysmann,s.n.,H,H-BR,,,https://tropicos.org/reference/9020903
+108,dwc:MaterialCitation,Indonesia,,Sumatra,,,,,Teysmann,s.n.,S,,,,https://tropicos.org/reference/9020903
+109,dwc:MaterialCitation,Indonesia,,Java,,,,,Fleischer,s.n.,FH,FH-FL,,not found,https://tropicos.org/reference/9020903
+110,dwc:MaterialCitation,Indonesia,,Java,,,,,Fleischer,s.n.,BM,,,,https://tropicos.org/reference/9020903
+111,dwc:MaterialCitation,Indonesia,,Java,,,,,Fleischer,s.n.,FH,FH-Bartr.,,,https://tropicos.org/reference/9020903
+112,dwc:MaterialCitation,Indonesia,,Java,,,,,Fleischer,s.n.,H,H-BR,,,https://tropicos.org/reference/9020903
+113,dwc:MaterialCitation,Indonesia,,Java,,,,,Fleischer,s.n.,JE,,,,https://tropicos.org/reference/9020903
+114,dwc:MaterialCitation,Indonesia,,Java,,,,,Fleischer,s.n.,L,,,,https://tropicos.org/reference/9020903
+115,dwc:MaterialCitation,Indonesia,,Java,,,,,Fleischer,s.n.,NY,,,,https://tropicos.org/reference/9020903
+116,dwc:MaterialCitation,Indonesia,,Java,,,,,Fleischer,s.n.,S,,,,https://tropicos.org/reference/9020903
+117,dwc:MaterialCitation,Malaysia,Sabah,,"Kinabalu, North of Ranau, Bukit Ampuan, summit region, 4000-4200 ft.",,,,Meijer,s.n.,S,,,not found,https://tropicos.org/reference/9020903
+118,dwc:MaterialCitation,Malaysia,Sabah,,"Kinabalu, North of Ranau, Bukit Ampuan, summit region, 4000-4200 ft.",,,,Meijer,12717,L,,,,https://tropicos.org/reference/9020903
+119,dwc:MaterialCitation,Malaysia,Pahang,,"Gunung Jasar Trail no. 11, near peak",,,,Damanhuri,2028,KLU,,,not available,https://tropicos.org/reference/9020903
+120,dwc:MaterialCitation,Malaysia,Pahang,,"Gunung Jasar Trail no. 11, near peak",,,,Damanhuri,2028,FH,,,,https://tropicos.org/reference/9020903
+121,dwc:MaterialCitation,Malaysia,Pahang,,"Gunung Jasar Trail no. 11, near peak",,,,Damanhuri,2028,H,,,,https://tropicos.org/reference/9020903
+122,dwc:MaterialCitation,Malaysia,Pahang,,"Gunung Jasar Trail no. 11, near peak",,,,Damanhuri,2028,NICH,,,,https://tropicos.org/reference/9020903
+123,dwc:MaterialCitation,Malaysia,Pahang,,"Gunung Jasar Trail no. 11, near peak",,,,Damanhuri,2028,NY,,,,https://tropicos.org/reference/9020903
+124,dwc:MaterialCitation,Malaysia,Pahang,,"Gunung Jasar Trail no. 11, near peak",,,,Damanhuri,2028,UKMB,,,,https://tropicos.org/reference/9020903
+125,dwc:MaterialCitation,Malaysia,Pahang,,"Gunong Tahan, 5500-7000 ft",,,,Hanif & Nur,7915a,L,,,,https://tropicos.org/reference/9020903
+126,dwc:MaterialCitation,Malaysia,Pahang,,"Cameron Highlands, Gunong Beremban",,,,Damanhuri,164,H,,,,https://tropicos.org/reference/9020903
+127,dwc:MaterialCitation,Malaysia,Pahang,,"Cameron Highlands, Gunong Beremban",,,,Damanhuri,164,KLU,,,,https://tropicos.org/reference/9020903
+128,dwc:MaterialCitation,Malaysia,Pahang,,"Cameron Highlands, Gunong Beremban",,,,Damanhuri,164,UKMB,,,,https://tropicos.org/reference/9020903
+129,dwc:MaterialCitation,Malaysia,Pahang,,"Cameron Highlands, Gunong Beremban",,,,Damanhuri,1625,H,,,,https://tropicos.org/reference/9020903
+130,dwc:MaterialCitation,Malaysia,Pahang,,"Cameron Highlands, Gunong Beremban",,,,Damanhuri,1625,KLU,,,,https://tropicos.org/reference/9020903
+131,dwc:MaterialCitation,Malaysia,Pahang,,"Cameron Highlands, Gunong Beremban",,,,Damanhuri,1625,L,,,,https://tropicos.org/reference/9020903
+132,dwc:MaterialCitation,Malaysia,Pahang,,"Cameron Highlands, Gunong Beremban",,,,Damanhuri,1625,UKMB,,,,https://tropicos.org/reference/9020903
+133,dwc:MaterialCitation,Malaysia,Pahang,,Gunung Jasar,,,,Damanhuri,1983,KLU,,,,https://tropicos.org/reference/9020903
+134,dwc:MaterialCitation,Sri Lanka,,,"Hortonplains am Berg Totopolayagalla am Baumen, 2600 m",,,,Fleischer,s.n.,BM,,,,https://tropicos.org/reference/9020903
+135,dwc:MaterialCitation,Papua New Guinea,Morobe,,"Mt. Sarawaket Southern Range, 3 km SSE of Lake Gwam",,,,Norris,62827,H,,,,https://tropicos.org/reference/9020903
+136,dwc:MaterialCitation,Papua New Guinea,Morobe,,"Mt. Sarawaket Southern Range, 3 km SSE of Lake Gwam",,,,Norris,62827,BM,,,,https://tropicos.org/reference/9020903
+137,dwc:MaterialCitation,Papua New Guinea,Milne Bay,,"Maneau Range, north slope of Mt. Dayman",,,,Brass,22560a,H,,,,https://tropicos.org/reference/9020903
+138,dwc:MaterialCitation,Papua New Guinea,Morobe,,"Mt. Sarawaket Southern Range, 3 km SSE of Lake Gwam",,,,Norris,62827,HSC,,,,https://tropicos.org/reference/9020903
+139,dwc:MaterialCitation,Papua New Guinea,Morobe,,"Mt. Sarawaket Southern Range, 3 km SSE of Lake Gwam",,,,Norris,62827,LAE,,,,https://tropicos.org/reference/9020903
+140,dwc:MaterialCitation,Papua New Guinea,Morobe,,"Mt. Sarawaket Southern Range, 4 km E of Lake Gwam",,,,Koponen,32825,H,,,,https://tropicos.org/reference/9020903
+141,dwc:MaterialCitation,Papua New Guinea,Morobe,,"Mt. Sarawaket Southern Range, 4 km E of Lake Gwam",,,,Koponen,32780,FH,,,,https://tropicos.org/reference/9020903
+142,dwc:MaterialCitation,Papua New Guinea,Morobe,,"Mt. Sarawaket Southern Range, 4 km E of Lake Gwam",,,,Koponen,32825,L,,,,https://tropicos.org/reference/9020903
+143,dwc:MaterialCitation,Papua New Guinea,Simbu,,Kombugomambuno,,,,Mundua,64,H,,,,https://tropicos.org/reference/9020903
+144,dwc:MaterialCitation,Papua New Guinea,Morobe,,"Mt. Sarawaket Southern Range, 3 km SSE of Lake Gwam",,,,Norris,62709,H,,,,https://tropicos.org/reference/9020903
+145,dwc:MaterialCitation,Papua New Guinea,Morobe,,"Mt. Sarawaket Southern Range, 3 km SSE of Lake Gwam",,,,Norris,63051,H,,,,https://tropicos.org/reference/9020903
+146,dwc:MaterialCitation,Papua New Guinea,Morobe,,"Mt. Sarawaket Southern Range, 2.5 km S of Lake Gwam",,,,Norris,63260,JE,,,,https://tropicos.org/reference/9020903
+147,dwc:MaterialCitation,Papua New Guinea,Morobe,,"Mt. Sarawaket Southern Range, 3 km SW of Lake Wamba (Mt. Finisterre)",,,,Norris,64304,H,,,,https://tropicos.org/reference/9020903
+148,dwc:MaterialCitation,Papua New Guinea,Morobe,,"Mt. Sarawaket Southern Range, 2.5 km S of Lake Gwam",,,,Norris,63348,H,,,,https://tropicos.org/reference/9020903
+149,dwc:MaterialCitation,Papua New Guinea,Morobe,,"Mt. Sarawaket Southern Range, 3 km SW of Lake Wamba",,,,Norris,63995,H,,,,https://tropicos.org/reference/9020903
+150,dwc:MaterialCitation,Papua New Guinea,Morobe,,"Mt. Sarawaket Southern Range, 3 km SW of Lake Wamba (Mt. Finisterre)",,,,Norris,64304,H,,,,https://tropicos.org/reference/9020903
+151,dwc:MaterialCitation,Papua New Guinea,Simbu,,4 km N of Tep-Tep,,,,Norris,65024,H,,,,https://tropicos.org/reference/9020903
+152,dwc:MaterialCitation,Papua New Guinea,Simbu,,4 km N of Tep-Tep,,,,Norris,65040,H,,,,https://tropicos.org/reference/9020903
+153,dwc:MaterialCitation,Papua New Guinea,Simbu,,4 km N of Tep-Tep,,,,Norris,65173,H,,,,https://tropicos.org/reference/9020903
+154,dwc:MaterialCitation,Papua New Guinea,Western Highlands,,"Nebilyer River, 28 km WNW of Mt. Hagen",,,,Streimann,20541,H,,,,https://tropicos.org/reference/9020903
+155,dwc:MaterialCitation,Papua New Guinea,Milne Bay,,"Maneau Range, north slope of Mt. Dayman",,,,Brass,22560a,FH,FH-Bartr.,,,https://tropicos.org/reference/9020903
+156,dwc:MaterialCitation,Papua New Guinea,Milne Bay,,"Maneau Range, north slope of Mt. Dayman",,,,Brass,22560a,FH,,,,https://tropicos.org/reference/9020903
+157,dwc:MaterialCitation,Australia,,,,,,,Sieber,10,LE,Hb. Nees,,not seen,https://tropicos.org/reference/9020903
+158,dwc:MaterialCitation,Australia,,,,,,,Sieber,10,JE,,,,https://tropicos.org/reference/9020903
+159,dwc:MaterialCitation,Australia,,,,,,,Sieber,10,L,,,,https://tropicos.org/reference/9020903
+160,dwc:MaterialCitation,Australia,,,,,,,Sieber,10,MO,,,,https://tropicos.org/reference/9020903
+161,dwc:MaterialCitation,Australia,,,,,,,Sieber,10,NY,,,,https://tropicos.org/reference/9020903
+162,dwc:MaterialCitation,Taiwan,Taichu,,Mt. Tankitake,,,,Shimada,2468,H,H-BR,,,https://tropicos.org/reference/9020903
+163,dwc:MaterialCitation,Taiwan,Taichu,,Mt. Hassen,,,,Sasaki,2412,H,H-BR,,,https://tropicos.org/reference/9020903
+164,dwc:MaterialCitation,Papua New Guinea,Milne Bay,,"Mt. Dayman, north slopes","Mossy forest, on ground",2250.0,2250.0,"Brass, L.J.",22854,H,,,,https://tropicos.org/reference/9020903
+165,dwc:MaterialCitation,Papua New Guinea,Milne Bay,,"Mt. Dayman, north slopes","Mossy forest, on ground",2250.0,2250.0,"Brass, L.J.",22854,CBG,,,,https://tropicos.org/reference/9020903
+166,dwc:MaterialCitation,Papua New Guinea,Milne Bay,,"Mt. Dayman, north slopes","Mossy forest, on ground",2250.0,2250.0,"Brass, L.J.",22854,FH,,,,https://tropicos.org/reference/9020903
+167,dwc:MaterialCitation,Papua New Guinea,Milne Bay,,"Mt. Dayman, north slopes","Dryish forest of slopes, tufted on logs and lower tree trunks",2000.0,2000.0,"Brass, L.J.",22558,CBG,,,,https://tropicos.org/reference/9020903
+168,dwc:MaterialCitation,Papua New Guinea,Milne Bay,,"Mt. Dayman, north slopes","Dryish forest of slopes, tufted on logs and lower tree trunks",2000.0,2000.0,"Brass, L.J.",22558,FH,,,,https://tropicos.org/reference/9020903
+169,dwc:MaterialCitation,Papua New Guinea,Milne Bay,,"Mt. Dayman, north slopes",Lower tree trunks in mossy forest,2230.0,2230.0,"Brass, L.J.",22390,FH,,,,https://tropicos.org/reference/9020903
+170,dwc:MaterialCitation,Papua New Guinea,Morobe,,"Auf dem Gipfel des Gelu (Finisterregebirge) , c. 1700 m",,,,Werner,s.n.,JE,,,,https://tropicos.org/reference/9020903
+171,dwc:MaterialCitation,Malaysia,Sabah,,"Mt. Kinabalu, Paka Cave to Lobang",,,,Clemens,10747,H,H-BR,,,https://tropicos.org/reference/9020903
+172,dwc:MaterialCitation,Malaysia,Sabah,,"Mt. Kinabalu, Paka Cave to Lobang",,,,Clemens,10747,BM,,,,https://tropicos.org/reference/9020903
+173,dwc:MaterialCitation,Malaysia,Sabah,,"Mt. Kinabalu, Paka Cave to Lobang",,,,Clemens,10747,FH,,,,https://tropicos.org/reference/9020903
+174,dwc:MaterialCitation,Malaysia,Sabah,,"Mt. Kinabalu, Paka Cave to Lobang",,,,Clemens,10747,JE,,,,https://tropicos.org/reference/9020903
+175,dwc:MaterialCitation,Malaysia,Sabah,,"Mt. Kinabalu, Paka Cave to Lobang",,,,Clemens,10747,L,,,,https://tropicos.org/reference/9020903
+176,dwc:MaterialCitation,Malaysia,Sabah,,"Mt. Kinabalu, Paka Cave to Lobang",,,,Clemens,10747,NY,,,,https://tropicos.org/reference/9020903
+177,dwc:MaterialCitation,Malaysia,Sabah,,"Mt. Kinabalu, c. 3500 m",,,,Haviland,1424,BM,,,,https://tropicos.org/reference/9020903
+178,dwc:MaterialCitation,Malaysia,Sabah,,"Mt. Kinabalu, c. 3500 m",,,,Haviland,1424,H,H-BR,,,https://tropicos.org/reference/9020903
+179,dwc:MaterialCitation,Indonesia,,Java,,,,,Zollinger,2101,B,,,destroyed,https://tropicos.org/reference/9020903
+180,dwc:MaterialCitation,Indonesia,,Java,,,,,Zollinger,2101,L,,,,https://tropicos.org/reference/9020903
+181,dwc:MaterialCitation,Indonesia,,Java,,,,,Zollinger,2101,BM,,,,https://tropicos.org/reference/9020903
+182,dwc:MaterialCitation,Indonesia,,Java,,,,,Zollinger,2101,H,H-BR,,,https://tropicos.org/reference/9020903
+183,dwc:MaterialCitation,Indonesia,,Java,,,,,Zollinger,2101,NY,,,,https://tropicos.org/reference/9020903
+184,dwc:MaterialCitation,Indonesia,,Java,,,,,Zollinger,2101,S,,,,https://tropicos.org/reference/9020903
+185,dwc:MaterialCitation,Indonesia,Java,,,,,,Hb. Miquelianum,,B,,,destroyed,https://tropicos.org/reference/9020903
+186,dwc:MaterialCitation,Indonesia,Java,,,,,,Hb. Miquelianum,,S,,,,https://tropicos.org/reference/9020903
+187,dwc:MaterialCitation,Indonesia,,Java,,,,,Herb. A. Braun,,,,,not located,https://tropicos.org/reference/9020903
+188,dwc:MaterialCitation,Indonesia,,Java,Auf dem Gipfel des Pangerango bei Kandang Bada am Gedeh,,,,Fleischer,s.n.,FH,FH-FL,,not located,https://tropicos.org/reference/9020903
+189,dwc:MaterialCitation,Indonesia,,Java,Auf dem Gipfel des Pangerango bei Kandang Bada am Gedeh,,,,Fleischer,s.n.,L,,,,https://tropicos.org/reference/9020903
+190,dwc:MaterialCitation,Indonesia,,Java,Auf dem Gipfel des Pangerango bei Kandang Bada am Gedeh,,,,Fleischer,s.n.,BM,,,,https://tropicos.org/reference/9020903
+191,dwc:MaterialCitation,Indonesia,,Java,Auf dem Gipfel des Pangerango bei Kandang Bada am Gedeh,,,,Fleischer,s.n.,H,H-BR,,,https://tropicos.org/reference/9020903
+192,dwc:MaterialCitation,Indonesia,,Java,Auf dem Gipfel des Pangerango bei Kandang Bada am Gedeh,,,,Fleischer,s.n.,JE,,,,https://tropicos.org/reference/9020903
+193,dwc:MaterialCitation,Indonesia,,Java,Auf dem Gipfel des Pangerango bei Kandang Bada am Gedeh,,,,Fleischer,s.n.,NY,,,,https://tropicos.org/reference/9020903
+194,dwc:MaterialCitation,Indonesia,,Java,Auf dem Gipfel des Pangerango bei Kandang Bada am Gedeh,,,,Fleischer,s.n.,S,,,,https://tropicos.org/reference/9020903
+195,dwc:MaterialCitation,Philippines,Benquet,Luzon,Mt. Ugo,,,,Ramos,Bur. Sci. 5867,H,H-BR,,not found,https://tropicos.org/reference/9020903
+196,dwc:MaterialCitation,Philippines,Benquet,Luzon,Mt. Ugo,,,,Ramos,Bur. Sci. 5867,BM,,,,https://tropicos.org/reference/9020903
+197,dwc:MaterialCitation,Philippines,Benquet,Luzon,Mt. Ugo,,,,Ramos,Bur. Sci. 5867,NY,,,,https://tropicos.org/reference/9020903
+198,dwc:MaterialCitation,Philippines,Abra,Luzon,Mount Posuey,,,,Ramos,Bur. Sci. 27090,H,H-BR,,,https://tropicos.org/reference/9020903
+199,dwc:MaterialCitation,Philippines,Abra,Luzon,Mount Posuey,,,,Ramos,Bur. Sci. 27090,BM,,,,https://tropicos.org/reference/9020903
+200,dwc:MaterialCitation,Philippines,Abra,Luzon,Mount Posuey,,,,Ramos,Bur. Sci. 27090,L,,,,https://tropicos.org/reference/9020903
+201,dwc:MaterialCitation,Philippines,Abra,Luzon,Mount Posuey,,,,Ramos,Bur. Sci. 27090,NY,,,,https://tropicos.org/reference/9020903
+202,dwc:MaterialCitation,Indonesia,Irian Jaya,,"Lake Habbema, 3225 m",,,,Brass,9252,FH,,,,https://tropicos.org/reference/9020903
+203,dwc:MaterialCitation,Indonesia,Irian Jaya,,"Lake Habbema, 3225 m",,,,Brass,9252,BM,,,,https://tropicos.org/reference/9020903
+204,dwc:MaterialCitation,Indonesia,Irian Jaya,,"Lake Habbema, 3225 m",,,,Brass,9252,L,,,,https://tropicos.org/reference/9020903
+205,dwc:MaterialCitation,Indonesia,Irian Jaya,,"Lake Habbema, 3225 m",,,,Brass,9252,NY,,,,https://tropicos.org/reference/9020903
+206,dwc:MaterialCitation,Papua New Guinea,Eastern Highlands,,"Watabung Terr., between Goroka and Kundiawa, 2620 m",,,,Iserentant,B-48A,H,,,,https://tropicos.org/reference/9020903
+207,dwc:MaterialCitation,Papua New Guinea,Madang,,"Finisterre Range, Lake Naho Region, 2500 m",,,,Eddy,1172,BM,,,,https://tropicos.org/reference/9020903
+208,dwc:MaterialCitation,Papua New Guinea,Eastern Highlands,,"Doulo Pass (25 km W of Goroka) , north of Highlands Highway, 2550 m",,,,Hoffmann,89-352,CBG,,,,https://tropicos.org/reference/9020903
+209,dwc:MaterialCitation,Papua New Guinea,Eastern Highlands,,"Doulo Pass (25 km W of Goroka) , north of Highlands Highway, 2550 m",,,,Hoffmann,89-352,NY,,,,https://tropicos.org/reference/9020903
+210,dwc:MaterialCitation,Papua New Guinea,Morobe,,"5 km SE of Lake Wamba (5 km S of Tep-Tep Airstrip) , on saddle of ridge leading to top of Mt. Finisterre, 3000 m",,,,Norris,64304 p.p.,H,,,,https://tropicos.org/reference/9020903
+211,dwc:MaterialCitation,Papua New Guinea,Enga,,"Wabag area, Sugarloaf area south of Wapenamanda, 3000 m",,,,Robbins,2813,FH,FH-Bartr.,,,https://tropicos.org/reference/9020903
+212,dwc:MaterialCitation,Papua New Guinea,Enga,,"Wabag area, Sugarloaf area south of Wapenamanda, 3000 m",,,,Robbins,2813,L,,,,https://tropicos.org/reference/9020903
+213,dwc:MaterialCitation,Papua New Guinea,Western Highlands,,"Nebilyer River, 28 km WNW of Mt. Hagen, 2760 m",,,,Streimann,20602,CBG,,,,https://tropicos.org/reference/9020903
+214,dwc:MaterialCitation,Papua New Guinea,Western Highlands,,"Nebilyer River, 28 km WNW of Mt. Hagen, 2760 m",,,,Streimann,20602,H,,,,https://tropicos.org/reference/9020903
+215,dwc:MaterialCitation,Indonesia,Irian Jaya,,"Mt. Arfak ad Hatam, 5000-7000'",,,,O. Beccari,173,H,H-BR,,,https://tropicos.org/reference/9020903
+216,dwc:MaterialCitation,Indonesia,Irian Jaya,,"Mt. Arfak ad Hatam, 5000-7000'",,,,O. Beccari,173,B,,,destroyed,https://tropicos.org/reference/9020903
+217,dwc:MaterialCitation,Indonesia,Irian Jaya,,"Mt. Arfak ad Hatam, 5000-7000'",,,,O. Beccari,173,FH,FH-Bartr.,,,https://tropicos.org/reference/9020903
+218,dwc:MaterialCitation,Indonesia,Irian Jaya,,"Mt. Arfak ad Hatam, 5000-7000'",,,,O. Beccari,173,FH,FH-FL,,,https://tropicos.org/reference/9020903
+219,dwc:MaterialCitation,Indonesia,Irian Jaya,,"Mt. Arfak ad Hatam, 5000-7000'",,,,O. Beccari,173,L,,,,https://tropicos.org/reference/9020903
+220,dwc:MaterialCitation,Papua New Guinea,,,"Cape Armit, Dedouri, J-a-la-River",,,,s. coll.,s.n.,B,,,destroyed,https://tropicos.org/reference/9020903
+221,dwc:MaterialCitation,Indonesia,Maluku,Buru,"Mittelburu, W. Elen, c. 1600 m",,,,K. Deninger,s.n.,JE,,,,https://tropicos.org/reference/9020903
+222,dwc:MaterialCitation,Indonesia,Maluku,Buru,"Mittelburu, W. Elen, c. 1600 m",,,,K. Deninger,s.n.,BM,,,,https://tropicos.org/reference/9020903
+223,dwc:MaterialCitation,Indonesia,Maluku,Buru,"Mittelburu, W. Elen, c. 1600 m",,,,K. Deninger,s.n.,S,,,,https://tropicos.org/reference/9020903
+224,dwc:MaterialCitation,Indonesia,Kalimantan Barat,Borneo,"Bukit Raja, c. 1300 m",,,,H. Winkler,3181,H,H-BR,,,https://tropicos.org/reference/9020903
+225,dwc:MaterialCitation,Papua New Guinea,,Bougainville,Near Lake Laralu,,,,S.F. Kajewski,(D),FH,FH-Bartr.,,,https://tropicos.org/reference/9020903
+226,dwc:MaterialCitation,Papua New Guinea,,Bougainville,Near Lake Laralu,,,,S.F. Kajewski,(D),FH,,,,https://tropicos.org/reference/9020903
+227,dwc:MaterialCitation,Papua New Guinea,Morobe,,"A-mieng (A-mien), on Yaneng (Yamen) River, a tributary of the Buso River, above mouth of Tosapik Creek, 5000-6000 ft",,,,M.S. Clemens,12229.12,FH,,,,https://tropicos.org/reference/9020903
+228,dwc:MaterialCitation,Nepal,,,,,,,D. Gardner,12229.12,BM,,,,https://tropicos.org/reference/9020903
