@@ -1,11 +1,5 @@
 {
-  "@context": [
-    "https://raw.githubusercontent.com/tdwg/tcs2/refs/heads/master/jsonld/context.jsonld",
-    {
-      "typification": { "@reverse": "tcs:typifiedName", "@container": "@set" },
-      "source": { "@id": "dcterms:source", "@type": "@id"}
-    }
-  ],
+  "@context": "https://raw.githubusercontent.com/tdwg/tcs2/refs/heads/master/jsonld/context.jsonld",
   "@graph": [
     {
       "id": "_:1994-begonia-sect-mezierea",
@@ -46,11 +40,13 @@
       "namePublishedInLiteral": "Voy. Bonite, Bot. 3(Atlas): t. 32 (1841)",
       "scientificNameAuthorship": "Gaudich.",
       "nameString": "Mezierea",
-      "typification": {
-        "type": "NomenclaturalType",
-        "typeName": "https://ipni.org/n/106227-1",
-        "source": "https://doi/org/10.2307/3668252"
-      } 
+      "typification": [
+        {
+          "type": "NomenclaturalType",
+          "typeName": "https://ipni.org/n/106227-1",
+          "source": "https://doi/org/10.2307/3668252"
+        }
+      ] 
     },
     {
       "id": "_:b6",
@@ -58,12 +54,14 @@
       "namePublishedInLiteral": "Prodr. 15(1): 407 (1864)",
       "scientificNameAuthorship": "A.DC.",
       "nameString": "Begonia sect. Aneupteron",
-      "typification": {
-        "id": "_:b12",
-        "type": "NomenclaturalType",
-        "typeName": "https://ipni.org/n/106227-1",
-        "source": "https://doi/org/10.2307/3668252"
-      }
+      "typification": [
+        {
+          "id": "_:b12",
+          "type": "NomenclaturalType",
+          "typeName": "https://ipni.org/n/106227-1",
+          "source": "https://doi/org/10.2307/3668252"
+        }
+      ]
     },
     {
       "id": "https://ipni.org/n/77215303-1",
@@ -71,11 +69,13 @@
       "namePublishedInLiteral": "Gartenflora 49: 2 (1900)",
       "scientificNameAuthorship": "Warb.",
       "nameString": "Begonia sect. Exalabegonia",
-      "typification": {
-        "type": "NomenclaturalType",
-        "typeName": "https://ipni.org/n/104820-1",
-        "source": "https://doi/org/10.2307/3668252"
-      }
+      "typification": [
+        {
+          "type": "NomenclaturalType",
+          "typeName": "https://ipni.org/n/104820-1",
+          "source": "https://doi/org/10.2307/3668252"
+        }
+      ]
     },
 
     { 
@@ -168,18 +168,20 @@
       "scientificNameAuthorship": "A.DC.",
       "namePublishedInLiteral": "Prodr. [A. P. de Candolle] 15(1): 408 (1864)",
       "basionym": "https://ipni.org/n/104440-1",
-      "typification": {
-        "type": "NomenclaturalType",
-        "typeOfType": "holotype",
-        "typeSpecimen": {
-          "type": "dwc:MaterialCitation",
-          "dwc:country": "Comoros",
-          "dwc:recordedBy": "Boivin",
-          "dwc:recordNumber": "s.n.",
-          "dwc:institutionCode": "P"
-        },
-        "source": "https://doi/org/10.2307/3668252"
-      }
+      "typification": [
+        {
+          "type": "NomenclaturalType",
+          "typeOfType": "holotype",
+          "typeSpecimen": {
+            "type": "dwc:MaterialCitation",
+            "dwc:country": "Comoros",
+            "dwc:recordedBy": "Boivin",
+            "dwc:recordNumber": "s.n.",
+            "dwc:institutionCode": "P"
+          },
+          "source": "https://doi/org/10.2307/3668252"
+        }
+      ]
     },
 
     {
@@ -265,18 +267,20 @@
       "nameString": "Begonia meyeri-johannis Engl.",
       "scientificNameAuthorship": "Engl.",
       "namePublishedInLiteral": "Abh. Königl. Akad. Wiss. Berlin 1891(2): 305 (1892)",
-      "typification": {
-        "type": "NomenclaturalType",
-        "typeOfType": "holotype",
-        "typeSpecimen": {
-          "type": "dwc:MaterialCitation",
-          "dwc:country": "Tanzania",
-          "dwc:recordedBy": "Meyer",
-          "dwc:recordNumber": "306",
-          "dwc:institutionCode": "B"
-        },
-        "source": "https://doi/org/10.2307/3668252"
-      }
+      "typification": [
+        {
+          "type": "NomenclaturalType",
+          "typeOfType": "holotype",
+          "typeSpecimen": {
+            "type": "dwc:MaterialCitation",
+            "dwc:country": "Tanzania",
+            "dwc:recordedBy": "Meyer",
+            "dwc:recordNumber": "306",
+            "dwc:institutionCode": "B"
+          },
+          "source": "https://doi/org/10.2307/3668252"
+        }
+      ]
     },
 
     {
@@ -474,18 +478,20 @@
       "namePublishedInLiteral": "J. Bot. 20: 113 (1882)",
       "scientificNameAuthorship": "Baker",
       "nameString": "Begonia cladocarpa",
-      "typification": {
-        "type": "NomenclaturalType",
-        "typeOfType": "holotype",
-        "typeSpecimen": {
-          "type": "dwc:MaterialCitation",
-          "dwc:country": "Madagascar",
-          "dwc:recordedBy": "Baron",
-          "dwc:recordNumber": "9",
-          "dwc:institutionCode": "K"
-        },
-        "source": "https://doi/org/10.2307/3668252"
-      }
+      "typification": [
+        {
+          "type": "NomenclaturalType",
+          "typeOfType": "holotype",
+          "typeSpecimen": {
+            "type": "dwc:MaterialCitation",
+            "dwc:country": "Madagascar",
+            "dwc:recordedBy": "Baron",
+            "dwc:recordNumber": "9",
+            "dwc:institutionCode": "K"
+          },
+          "source": "https://doi/org/10.2307/3668252"
+        }
+      ]
     },
     {
       "id": "https://ipni.org/n/104820-1",
@@ -493,17 +499,19 @@
       "nameString": "Begonia heddei",
       "scientificNameAuthorship": "Warb.",
       "namePublishedInLiteral": "Gartenflora 49: 1 (1900)",
-      "typification": {
-        "type": "NomenclaturalType",
-        "typeOfType": "holotype",
-        "typeSpecimen": {
-          "type": "dwc:MaterialCitation",
-          "dwc:recordedBy": "Culta Bot. Garten Berlin",
-          "dwc:recordNumber": "s.n.",
-          "dwc:institutionCode": "B"
-        },
-        "source": "https://doi/org/10.2307/3668252"
-      }
+      "typification": [
+        {
+          "type": "NomenclaturalType",
+          "typeOfType": "holotype",
+          "typeSpecimen": {
+            "type": "dwc:MaterialCitation",
+            "dwc:recordedBy": "Culta Bot. Garten Berlin",
+            "dwc:recordNumber": "s.n.",
+            "dwc:institutionCode": "B"
+          },
+          "source": "https://doi/org/10.2307/3668252"
+        }
+      ]
     },
     {
       "id": "https://ipni.org/n/105026-1",
@@ -580,19 +588,21 @@
       "nameString": "Begonia conraui",
       "scientificNameAuthorship": "Gilg",
       "namePublishedInLiteral": "Bot. Jahrb. Syst. 34(1): 87 (1904)",
-      "typification": {
-        "type": "NomenclaturalType",
-        "typifiedName": "https://ipni.org/n/104451-1",
-        "typeSpecimen": {
-          "type": "dwc:MaterialCitation",
-          "dwc:country": "Cameroon",
-          "dwc:recordedBy": "Conrau",
-          "dwc:recordNumber": "4",
-          "dwc:institutionCode": "B"
-        },
-        "typeOfType": "holotype",
-        "source": "https://doi/org/10.2307/3668252"
-      }
+      "typification": [
+        {
+          "type": "NomenclaturalType",
+          "typifiedName": "https://ipni.org/n/104451-1",
+          "typeSpecimen": {
+            "type": "dwc:MaterialCitation",
+            "dwc:country": "Cameroon",
+            "dwc:recordedBy": "Conrau",
+            "dwc:recordNumber": "4",
+            "dwc:institutionCode": "B"
+          },
+          "typeOfType": "holotype",
+          "source": "https://doi/org/10.2307/3668252"
+        }
+      ]
     },
     {
       "id": "https://ipni.org/n/104983-1",
@@ -600,18 +610,20 @@
       "nameString": "Begonia kummerae",
       "scientificNameAuthorship": "Gilg",
       "namePublishedInLiteral": "Bot. Jahrb. Syst. 34(1): 87 (1904)",
-      "typification": {
-        "type": "NomenclaturalType",
-        "typeOfType": "holotype",
-        "typeSpecimen": {
-          "type": "dwc:MaterialCitation",
-          "dwc:country": "Tanzania",
-          "dwc:recordedBy": "Busse",
-          "dwc:recordNumber": "349",
-          "dwc:institutionCode": "B"
-        },
-        "source": "https://doi/org/10.2307/3668252"
-      }
+      "typification": [
+          {
+          "type": "NomenclaturalType",
+          "typeOfType": "holotype",
+          "typeSpecimen": {
+            "type": "dwc:MaterialCitation",
+            "dwc:country": "Tanzania",
+            "dwc:recordedBy": "Busse",
+            "dwc:recordNumber": "349",
+            "dwc:institutionCode": "B"
+          },
+          "source": "https://doi/org/10.2307/3668252"
+        }
+      ]
     },
     {
       "id": "https://ipni.org/n/105419-1",
@@ -619,19 +631,21 @@
       "nameString": "Begonia petrophila",
       "scientificNameAuthorship": "Gilg",
       "namePublishedInLiteral": "Bot. Jahrb. Syst. 34(1): 86 (1904)",
-      "typification": {
-        "type": "NomenclaturalType",
-        "typifiedName": "https://ipni.org/n/105419-1",
-        "typeSpecimen": {
-          "type": "dwc:MaterialCitation",
-          "dwc:country": "Tanzania",
-          "dwc:recordedBy": "Engler",
-          "dwc:recordNumber": "647",
-          "dwc:institutionCode": "B"
-        },
-        "typeOfType": "holotype",
-        "source": "https://doi/org/10.2307/3668252"
-      }
+      "typification": [
+        {
+          "type": "NomenclaturalType",
+          "typifiedName": "https://ipni.org/n/105419-1",
+          "typeSpecimen": {
+            "type": "dwc:MaterialCitation",
+            "dwc:country": "Tanzania",
+            "dwc:recordedBy": "Engler",
+            "dwc:recordNumber": "647",
+            "dwc:institutionCode": "B"
+          },
+          "typeOfType": "holotype",
+          "source": "https://doi/org/10.2307/3668252"
+        }
+      ]
     },
     
     {
@@ -640,18 +654,20 @@
       "nameString": "Begonia togoensis",
       "scientificNameAuthorship": "Gilg",
       "namePublishedInLiteral": "Bot. Jahrb. Syst. 34(1): 88 (1904)",
-      "typification": {
-        "type": "NomenclaturalType",
-        "typeOfType": "holotype",
-        "typeSpecimen": {
-          "type": "dwc:MaterialCitation",
-          "dwc:country": "Ghana",
-          "dwc:recordedBy": "Baumann",
-          "dwc:recordNumber": "419",
-          "dwc:institutionCode": "B"
-        },
-        "source": "https://doi/org/10.2307/3668252"
-      }
+      "typification": [
+        {
+          "type": "NomenclaturalType",
+          "typeOfType": "holotype",
+          "typeSpecimen": {
+            "type": "dwc:MaterialCitation",
+            "dwc:country": "Ghana",
+            "dwc:recordedBy": "Baumann",
+            "dwc:recordNumber": "419",
+            "dwc:institutionCode": "B"
+          },
+          "source": "https://doi/org/10.2307/3668252"
+        }
+      ]
     },
     {
       "id": "https://ipni.org/n/105716-1",
@@ -1021,8 +1037,10 @@
 
     {
       "id": "https://doi/org/10.2307/3668252",
-      "type": "bibo:JournalArticle",
+      "type": "bibo:AcademicArticle",
+      "bibo:handle": "Klazenga et al. 1994",
       "dcterms:title": "Begonia sect. Mezierea (Gaud.) Warb., a taxonomic revision",
+      "dcterms:bibliographicCitation": "Klazenga, N.; de Wilde, J.J.F.E., Quené, R.J. (1994), Begonia sect. Mezierea (Gaud.) Warb., a taxonomic revision. Bulletin du Jardin botanique national de Belgique / Bulletin van de Nationale Plantentuin van België 63:263-312",
       "dcterms:creator": [
         { "id": "https://orcid.org/0000-0003-2224-6821" },
         { "id": "https://www.wikidata.org/wiki/Q21387987" },
@@ -1052,7 +1070,9 @@
     {
       "id": "_:b45",
       "type": "bibo:BookSection",
+      "bibo:handle": "Engler 1921",
       "dcterms:title": "Fam. Begoniaceae",
+      "dcterms:bibliographicCitation": "Engler, A. (1921). Fam. Begoniaceae Die Pflanzenwelt Afrikas, insbesondere seiner tropischen Gebiete: Grundzüge der Pflanzenverbreitung im Afrika und die Charakterpflanzen Afrikas. W. Engelmann, Leipzig.",
       "dcterms:creator": [
         { "id": "https://www.wikidata.org/wiki/Q60718" }
       ],
@@ -1076,10 +1096,10 @@
         "dcterms:date": "1921",
         "dcterms:isPartOf": {
           "type": "bibo:Series",
-          "dcterms:title": "Die Pflanzenwelt Afrikas, insbesondere seiner tropischen Gebiete tcs: Grundzüge der Pflanzenverbreitung im Afrika und die Charakterpflanzen Afrikas",
+          "dcterms:title": "Die Pflanzenwelt Afrikas, insbesondere seiner tropischen Gebiete: Grundzüge der Pflanzenverbreitung im Afrika und die Charakterpflanzen Afrikas",
           "bibo:publisher": {
             "type": "foaf:Organization",
-            "foaf:name": "W. Engleman",
+            "foaf:name": "W. Engelmann",
             "address:localityName": "Leipzig"
           }
         },
@@ -1091,7 +1111,9 @@
     {
       "id": "_:b8",
       "type": "bibo:BookSection",
+      "bibo:handle": "Warburg 1894",
       "dcterms:title": "Begoniaceae",
+      "dcterms:bibliographicCitation": "Warburg, O. (1894). Begoniaceae. In: Engler, A. & K. Prantl (ed.), Die natürlichen Pflanzenfamilien 3(6a): 121-150.",
       "dcterms:creator": [
         { "id": "https://www.wikidata.org/wiki/Q62822" }
       ],
@@ -1126,7 +1148,9 @@
     {
       "id": "_:b17",
       "type": "bibo:AcademicArticle",
+      "bibo:handle": "Warburg 1895",
       "dcterms:title": "Begoniaceae africanae",
+      "dcterms:bibliographicCitation": "Warburg, O (1895). Begoniaceae africanae. Bot. Jahrb. Syst. 22: 32-45.",
       "dcterms:creator": [
         { "id": "https://www.wikidata.org/wiki/Q62822" }
       ],
@@ -1149,7 +1173,9 @@
     {
       "id": "_:b20",
       "type": "bibo:Book",
+      "bibo:handle": "Keraudren-Aymonin 1983",
       "dcterms:title": "Famille 144 – Begoniacées",
+      "dcterms:bibliographicCitation": "Keraudren-Aymoni, M. (1983). Famille 144 – Begoniacées. Flore de Madagascar et des Comores, pp. 7-108.",
       "dcterms:creator": [
         { "id": "https://www.wikidata.org/wiki/Q10331852" }
       ],
@@ -1168,7 +1194,9 @@
     {
       "id": "_:b10",
       "type": "bibo:BookSection",
+      "bibo:handle": "Irmscher 1925",
       "dcterms:title": "Begoniaceae",
+      "dcterms:bibliographicCitation": "Irmscher, E. (1925). Begoniaceae. In: Engler, A. & K. Prantl (eds.), Die natürlichen Pflanzenfamilien, ed. 2, 21:121-150.",
       "dcterms:creator": [
         { "id": "https://www.wikidata.org/wiki/Q8771887" }
       ],

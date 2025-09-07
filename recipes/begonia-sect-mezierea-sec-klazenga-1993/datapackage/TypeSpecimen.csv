@@ -1,0 +1,45 @@
+ID,type,dwc:country,dwc:stateOrProvince,dwc:island,dwc:verbatimLocality,dwc:habitat,dwc:minimumElevationInMeters,dwc:maximumElevationInMeters,dwc:recordedBy,dwc:recordNumber,dwc:institutionCode,dwc:collectionCode,dwc:catalogNumber,dwc:disposition,source
+_:ts000001,dwc:MaterialCitation,Comoros,,,,,,,Hildebrandt,1606,B,,,,https://doi/org/10.2307/3668252
+_:ts000002,dwc:MaterialCitation,Comoros,,,,,,,Hildebrandt,1606,W,,,,https://doi/org/10.2307/3668252
+_:ts000003,dwc:MaterialCitation,Comoros,,,,,,,Boivin,s.n.,P,,,,https://doi/org/10.2307/3668252
+_:ts000004,dwc:MaterialCitation,Madagascar,,,,,,,Humbert,22493,P,,,,https://doi/org/10.2307/3668252
+_:ts000005,dwc:MaterialCitation,Madagascar,,,,,,,Humbert,22493,P,,,,https://doi/org/10.2307/3668252
+_:ts000006,dwc:MaterialCitation,Tanzania,,,,,,,Meyer,306,B,,,,https://doi/org/10.2307/3668252
+_:ts000007,dwc:MaterialCitation,Angola,,,,,,,Welwitsch,875,BM,,,,https://doi/org/10.2307/3668252
+_:ts000008,dwc:MaterialCitation,Angola,,,,,,,Welwitsch,875,COI,,,,https://doi/org/10.2307/3668252
+_:ts000009,dwc:MaterialCitation,Angola,,,,,,,Welwitsch,875,G,,,,https://doi/org/10.2307/3668252
+_:ts000010,dwc:MaterialCitation,Angola,,,,,,,Welwitsch,875,K,,,,https://doi/org/10.2307/3668252
+_:ts000011,dwc:MaterialCitation,Bioko,,,,,,,Mann,562,K,,,,https://doi/org/10.2307/3668252
+_:ts000012,dwc:MaterialCitation,Cameroon,,,,,,,Mann,1274,K,,,,https://doi/org/10.2307/3668252
+_:ts000013,dwc:MaterialCitation,Madagascar,,,,,,,Baron,9,K,,,,https://doi/org/10.2307/3668252
+_:ts000014,dwc:MaterialCitation,,,,,,,,Culta Bot. Garten Berlin,s.n.,B,,,,https://doi/org/10.2307/3668252
+_:ts000015,dwc:MaterialCitation,Cameroon,,,,,,,Preuss,1063,B,,,,https://doi/org/10.2307/3668252
+_:ts000016,dwc:MaterialCitation,Cameroon,,,,,,,Preuss,1063,COI,,,,https://doi/org/10.2307/3668252
+_:ts000017,dwc:MaterialCitation,Cameroon,,,,,,,Dusén,418,B,,,,https://doi/org/10.2307/3668252
+_:ts000018,dwc:MaterialCitation,Cameroon,,,,,,,Preuss,658,B,,,,https://doi/org/10.2307/3668252
+_:ts000019,dwc:MaterialCitation,Cameroon,,,,,,,Preuss,995,B,,,,https://doi/org/10.2307/3668252
+_:ts000020,dwc:MaterialCitation,Cameroon,,,,,,,Conrau,4,B,,,,https://doi/org/10.2307/3668252
+_:ts000021,dwc:MaterialCitation,Tanzania,,,,,,,Busse,349,B,,,,https://doi/org/10.2307/3668252
+_:ts000022,dwc:MaterialCitation,Tanzania,,,,,,,Engler,647,B,,,,https://doi/org/10.2307/3668252
+_:ts000023,dwc:MaterialCitation,Ghana,,,,,,,Baumann,419,B,,,,https://doi/org/10.2307/3668252
+_:ts000024,dwc:MaterialCitation,Democratic Republic of the Congo,,,,,,,Seret,121,BR,,,,https://doi/org/10.2307/3668252
+_:ts000025,dwc:MaterialCitation,Democratic Republic of the Congo,,,,,,,Seret,121 bis,BR,,,,https://doi/org/10.2307/3668252
+_:ts000026,dwc:MaterialCitation,Ivory Coast,,,,,,,Chevalier,21349,P,,,,https://doi/org/10.2307/3668252
+_:ts000027,dwc:MaterialCitation,Guinea,,,,,,,Chevalier,20609,B,,,,https://doi/org/10.2307/3668252
+_:ts000028,dwc:MaterialCitation,Guinea,,,,,,,Chevalier,20609,P,,,,https://doi/org/10.2307/3668252
+_:ts000029,dwc:MaterialCitation,Guinea,,,,,,,Chevalier,20761,P,,,,https://doi/org/10.2307/3668252
+_:ts000030,dwc:MaterialCitation,Ivory Coast,,,,,,,Chevalier,21355,P,,,,https://doi/org/10.2307/3668252
+_:ts000031,dwc:MaterialCitation,Ivory Coast,,,,,,,Chevalier,21419,P,,,,https://doi/org/10.2307/3668252
+_:ts000032,dwc:MaterialCitation,Tanzania,,,,,,,Schlieben,3306,B,,,,https://doi/org/10.2307/3668252
+_:ts000033,dwc:MaterialCitation,Tanzania,,,,,,,Schlieben,3306,B,,,,https://doi/org/10.2307/3668252
+_:ts000034,dwc:MaterialCitation,Tanzania,,,,,,,Schlieben,3306,WAG,,,,https://doi/org/10.2307/3668252
+_:ts000035,dwc:MaterialCitation,Tanzania,,,,,,,Burtt,4720,BM,,,,https://doi/org/10.2307/3668252
+_:ts000036,dwc:MaterialCitation,Tanzania,,,,,,,Burtt,4720,K,,,,https://doi/org/10.2307/3668252
+_:ts000037,dwc:MaterialCitation,Réunion,,,,,,,Gaudichaud,s.n.,G,,,,https://doi/org/10.2307/3668252
+_:ts000038,dwc:MaterialCitation,Réunion,,,,,,,Gaudichaud,s.n.,P,,,,https://doi/org/10.2307/3668252
+_:ts000039,dwc:MaterialCitation,Réunion,,,,,,,Hardwicke,s.n.,BM,,,,https://doi/org/10.2307/3668252
+_:ts000040,dwc:MaterialCitation,Seychelles,,Mahé,,,,,Horne,245,K,,,,https://doi/org/10.2307/3668252
+_:ts000041,dwc:MaterialCitation,Seychelles,,Mahé,,,,,Horne,s.n.,G,,,,https://doi/org/10.2307/3668252
+_:ts000042,dwc:MaterialCitation,Seychelles,,Mahé,,,,,Gardiner,s.n.,K,,,,https://doi/org/10.2307/3668252
+_:ts000043,dwc:MaterialCitation,Seychelles,,Silhouette,,,,,Gardiner,111,K,,,,https://doi/org/10.2307/3668252
+_:ts000044,dwc:MaterialCitation,Seychelles,,Mahé and Silhouette,,,,,Neville,s.n.,K,,,,https://doi/org/10.2307/3668252

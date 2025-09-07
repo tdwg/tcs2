@@ -1,0 +1,7 @@
+ID,type,bibo:handle,dcterms:title,dcterms:bibliographicCitation,dcterms:date
+https://doi/org/10.2307/3668252,bibo:AcademicArticle,Klazenga et al. 1994,"Begonia sect. Mezierea (Gaud.) Warb., a taxonomic revision","Klazenga, N.; de Wilde, J.J.F.E., Quené, R.J. (1994), Begonia sect. Mezierea (Gaud.) Warb., a taxonomic revision. Bulletin du Jardin botanique national de Belgique / Bulletin van de Nationale Plantentuin van België 63:263-312",1994
+_:b45,bibo:BookSection,Engler 1921,Fam. Begoniaceae,"Engler, A. (1921). Fam. Begoniaceae Die Pflanzenwelt Afrikas, insbesondere seiner tropischen Gebiete: Grundzüge der Pflanzenverbreitung im Afrika und die Charakterpflanzen Afrikas. W. Engelmann, Leipzig.",1921
+_:b8,bibo:BookSection,Warburg 1894,Begoniaceae,"Warburg, O. (1894). Begoniaceae. In: Engler, A. & K. Prantl (ed.), Die natürlichen Pflanzenfamilien 3(6a): 121-150.",1894
+_:b17,bibo:AcademicArticle,Warburg 1895,Begoniaceae africanae,"Warburg, O (1895). Begoniaceae africanae. Bot. Jahrb. Syst. 22: 32-45.",1895
+_:b20,bibo:Book,Keraudren-Aymonin 1983,Famille 144 – Begoniacées,"Keraudren-Aymoni, M. (1983). Famille 144 – Begoniacées. Flore de Madagascar et des Comores, pp. 7-108.",1983
+_:b10,bibo:BookSection,Irmscher 1925,Begoniaceae,"Irmscher, E. (1925). Begoniaceae. In: Engler, A. & K. Prantl (eds.), Die natürlichen Pflanzenfamilien, ed. 2, 21:121-150.",1925

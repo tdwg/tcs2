@@ -889,6 +889,7 @@ _:ref-d9a27f7b90cde25a a bibo:BookSection ;
     bibo:pages "121-150" .
 
 _:ref-0552488b705004b9 a bibo:AcademicArticle ;
+    bibo:handle ""
     dcterms:title "Begoniaceae africanae" ;
     dcterms:creator <https://www.wikidata.org/wiki/Q62822> ;
     bibo:authorList <https://www.wikidata.org/wiki/Q62822> ;
