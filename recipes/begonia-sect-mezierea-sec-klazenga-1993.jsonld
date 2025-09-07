@@ -925,7 +925,7 @@
       "nameString": "Begonia aptera Roxb., Hort. Bengal. 104; Fl. Ind. iii. 650.",
       "scientificNameAuthorship": "Roxb.",
       "namePublishedInLiteral": "Hort. Bengal. 104; Fl. Ind. iii. 650 (1832)",
-      "nomenclaturalStatus": "http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/illegitimum",
+      "nomenclaturalStatus": "illegitimate",
       "typification": [
         {
           "type": "NomenclaturalType",
@@ -946,8 +946,7 @@
       "type": "TaxonName",
       "nameString": "Begonia mascariensis",
       "scientificNameAuthorship": "Baker",
-      "namePublishedInLiteral": "Fl. Mauritius 129 (1877)",
-      "nomenclaturalStatus": "http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/dubimum"
+      "namePublishedInLiteral": "Fl. Mauritius 129 (1877)"
     },
 
     {

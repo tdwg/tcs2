@@ -766,7 +766,6 @@ _:1983-Begonia-comorensis a tcs:TaxonConcept ;
     tcs:nameString "Begonia mascariensis" ;
     dwc:scientificNameAuthorship "Baker" ;
     dwc:namePublishedIn "Fl. Mauritius 129 (1877)" ;
-    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/dubimum> ;
     dcterms:source <https://doi/org/10.2307/3668252> .
 
 
