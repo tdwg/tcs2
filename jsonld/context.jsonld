@@ -82,7 +82,12 @@
     "isDisjointFrom":                   { "@type": "@id", "@id": "tcs:isDisjointFrom", "@container": "@set" },
     "intersects":                       { "@type": "@id", "@id": "tcs:intersects", "@container": "@set" },
 
-    "TaxonConceptMapping":              { "@type": "@id",  "@id": "tcs:TaxonConceptMapping" },
+    "TaxonConceptMapping":              { "@type": "@id",  "@id": "tcs:TaxonConceptMapping", "@context": {
+        "source":                           { "@type": "@id", "@id": "dcterms:source" },
+        "creator":                          { "@type": "@id", "@id": "dcterms:creator" },
+        "created":                          { "@type": "xsd:String", "@id": "dcterms:created" }
+      } 
+    },
     "mappingAccordingTo":               { "@type": "@id", "@id": "tcs:mappingAccordingTo" },
     "mappingRelation":                  { "@type": "@vocab", "@id": "tcs:mappingRelation" },
     "subjectTaxonConcept":              { "@type": "@id", "@id": "tcs:subjectTaxonConcept" },
@@ -155,7 +160,12 @@
     "infraspecificEpithet":             { "@type": "xsd:String", "@id": "dwc:infraspecificEpithet" },
     "cultivarEpithet":                  { "@type": "xsd:String", "@id": "dwc:cultivarEpithet" },
 
-    "NomenclaturalType":                { "@type": "@id", "@id": "tcs:NomenclaturalType" },
+    "NomenclaturalType":                { "@type": "@id", "@id": "tcs:NomenclaturalType", "@context": {
+        "source":                           { "@type": "@id", "@id": "dcterms:source" },
+        "creator":                          { "@type": "@id", "@id": "dcterms:creator" },
+        "created":                          { "@type": "xsd:String", "@id": "dcterms:created" }
+      } 
+    },
     "typifiedName":                     { "@type": "@id", "@id": "tcs:typifiedName" },
     "typeOfType":                       { "@type": "@vocab", "@id": "tcs:typeOfType", "@context": {
         "allolectotype":                    "typeOfTypeVocab:allolectotype",
