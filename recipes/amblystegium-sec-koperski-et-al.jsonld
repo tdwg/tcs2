@@ -728,7 +728,9 @@
     {
       "id": "https://www.tropicos.org/reference/9007023",
       "type": "bibo:Book",
+      "bibo:handle": "Smith 1978",
       "dcterms:title": "The moss flora of Britain and Ireland",
+      "dcterms:bibliographicCitation": "Smith, A.J.E. (1978). The moss flora of Britain and Ireland. Cambridge University Press, Cambridge.",
       "dcterms:creator": {
         "id": "_:b61"
       },
@@ -745,6 +747,9 @@
     {
       "id": "https://www.tropicos.org/reference/9021085",
       "type": "bibo:Book",
+      "bibo:handle": "Mönkemeyer 1927",
+      "dcterms:title": "Die Laubmoose Europas",
+      "dcterms:bibliographicCitation": "Mönkemeyer, W. (1927). Die Laubmoose Europas. In: Rabenhorst, G.L. (ed.), Kryptogamenflora von Deutschland, Österreich und der Schweiz. Geest & Portig, Leipzig",
       "dcterms:creator": {
         "id": "_:b89"
       },
@@ -761,7 +766,6 @@
         "address:localityName": "Leipzig",
         "foaf:name": "Geest & Portig"
       },
-      "dcterms:title": "Die Laubmoose Europas",
       "bibo:authorList": {
         "id": "_:b89"
       },
