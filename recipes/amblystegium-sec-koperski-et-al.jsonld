@@ -16,14 +16,14 @@
     },
     {
       "type": "TaxonConceptMapping",
-      "mappingAccordingTo": "https://tropicos.org/reference/9022656",
+      "source": "https://tropicos.org/reference/9022656",
       "mappingRelation": "isCongruentWith",
       "subjectTaxonConcept": "_:2000-Campylium",
       "objectTaxonConcept": "_:1981-Campylium"
     },
     {
       "type": "TaxonConceptMapping",
-      "mappingAccordingTo": "https://tropicos.org/reference/9022656",
+      "source": "https://tropicos.org/reference/9022656",
       "mappingRelation": "includes",
       "subjectTaxonConcept": "_:2000-Campylium",
       "objectTaxonConcept": "_:1980-Campylium",
@@ -31,7 +31,7 @@
     },
     {
       "type": "TaxonConceptMapping",
-      "mappingAccordingTo": "https://tropicos.org/reference/9022656",
+      "source": "https://tropicos.org/reference/9022656",
       "mappingRelation": "partiallyOverlaps",
       "subjectTaxonConcept": "_:2000-Campylium",
       "objectTaxonConcept": "_:1927-Chrysohypnum",
@@ -39,7 +39,7 @@
     },
     {
       "type": "TaxonConceptMapping",
-      "mappingAccordingTo": "https://tropicos.org/reference/9022656",
+      "source": "https://tropicos.org/reference/9022656",
       "mappingRelation": "partiallyOverlaps",
       "subjectTaxonConcept": "_:2000-Campylium",
       "objectTaxonConcept": "_:1927-Drepanocladus",
@@ -47,7 +47,7 @@
     },
     {
       "type": "TaxonConceptMapping",
-      "mappingAccordingTo": "https://tropicos.org/reference/9022656",
+      "source": "https://tropicos.org/reference/9022656",
       "mappingRelation": "partiallyOverlaps",
       "subjectTaxonConcept": "_:2000-Campylium",
       "objectTaxonConcept": "_:1992-Campylium",
@@ -66,7 +66,7 @@
     },
     {
       "type": "TaxonConceptMapping",
-      "mappingAccordingTo": "https://tropicos.org/reference/9022656",
+      "source": "https://tropicos.org/reference/9022656",
       "mappingRelation": "isIncludedIn",
       "subjectTaxonConcept": "_:2000-Amblystegium",
       "objectTaxonConcept": "_:1981-Amblystegium",
@@ -74,7 +74,7 @@
     },
     {
       "type": "TaxonConceptMapping",
-      "mappingAccordingTo": "https://tropicos.org/reference/9022656",
+      "source": "https://tropicos.org/reference/9022656",
       "mappingRelation": "includes",
       "subjectTaxonConcept": "_:2000-Amblystegium",
       "objectTaxonConcept": "_:1992-Amblystegium",
@@ -82,21 +82,21 @@
     },
     {
       "type": "TaxonConceptMapping",
-      "mappingAccordingTo": "https://tropicos.org/reference/9022656",
+      "source": "https://tropicos.org/reference/9022656",
       "mappingRelation": "includes",
       "subjectTaxonConcept": "_:2000-Amblystegium",
       "objectTaxonConcept": "_:1992-Hygroamblystegium"
     },
     {
       "type": "TaxonConceptMapping",
-      "mappingAccordingTo": "https://tropicos.org/reference/9022656",
+      "source": "https://tropicos.org/reference/9022656",
       "mappingRelation": "includes",
       "subjectTaxonConcept": "_:2000-Amblystegium",
       "objectTaxonConcept": "_:1927-Hygroamblystegium"
     },
     {
       "type": "TaxonConceptMapping",
-      "mappingAccordingTo": "https://tropicos.org/reference/9022656",
+      "source": "https://tropicos.org/reference/9022656",
       "mappingRelation": "partiallyOverlaps",
       "subjectTaxonConcept": "_:2000-Amblystegium",
       "objectTaxonConcept": "_:1992-Amblystegiella",
@@ -104,7 +104,7 @@
     },
     {
       "type": "TaxonConceptMapping",
-      "mappingAccordingTo": "https://tropicos.org/reference/9022656",
+      "source": "https://tropicos.org/reference/9022656",
       "mappingRelation": "partiallyOverlaps",
       "subjectTaxonConcept": "_:2000-Amblystegium",
       "objectTaxonConcept": "_:1992-Campylium",
@@ -112,7 +112,7 @@
     },
     {
       "type": "TaxonConceptMapping",
-      "mappingAccordingTo": "https://tropicos.org/reference/9022656",
+      "source": "https://tropicos.org/reference/9022656",
       "mappingRelation": "partiallyOverlaps",
       "subjectTaxonConcept": "_:2000-Amblystegium",
       "objectTaxonConcept": "_:1927-Amblystegium",
@@ -120,7 +120,7 @@
     },
     {
       "type": "TaxonConceptMapping",
-      "mappingAccordingTo": "https://tropicos.org/reference/9022656",
+      "source": "https://tropicos.org/reference/9022656",
       "mappingRelation": "partiallyOverlaps",
       "subjectTaxonConcept": "_:2000-Amblystegium",
       "objectTaxonConcept": "_:1927-Chrysohypnum",
@@ -128,7 +128,7 @@
     },
     {
       "type": "TaxonConceptMapping",
-      "mappingAccordingTo": "https://tropicos.org/reference/9022656",
+      "source": "https://tropicos.org/reference/9022656",
       "mappingRelation": "partiallyOverlaps",
       "subjectTaxonConcept": "_:2000-Amblystegium",
       "objectTaxonConcept": "_:1980-Amblystegium",
@@ -136,7 +136,7 @@
     },
     {
       "type": "TaxonConceptMapping",
-      "mappingAccordingTo": "https://tropicos.org/reference/9022656",
+      "source": "https://tropicos.org/reference/9022656",
       "mappingRelation": "partiallyOverlaps",
       "subjectTaxonConcept": "_:2000-Amblystegium",
       "objectTaxonConcept": "_:1980-Platydictya",
@@ -155,14 +155,14 @@
     },
     {
       "type": "TaxonConceptMapping",
-      "mappingAccordingTo": "https://tropicos.org/reference/9022656",
+      "source": "https://tropicos.org/reference/9022656",
       "mappingRelation": "isCongruentWith",
       "subjectTaxonConcept": "_:2000-Platydictya",
       "objectTaxonConcept": "_:1981-Platydictya"
     },
     {
       "type": "TaxonConceptMapping",
-      "mappingAccordingTo": "https://tropicos.org/reference/9022656",
+      "source": "https://tropicos.org/reference/9022656",
       "mappingRelation": "isIncludedIn",
       "subjectTaxonConcept": "_:2000-Platydictya",
       "objectTaxonConcept": "_:1992-Amblystegiella",
@@ -170,14 +170,14 @@
     },
     {
       "type": "TaxonConceptMapping",
-      "mappingAccordingTo": "https://tropicos.org/reference/9022656",
+      "source": "https://tropicos.org/reference/9022656",
       "mappingRelation": "isIncludedIn",
       "subjectTaxonConcept": "_:2000-Platydictya",
       "objectTaxonConcept": "_:1927-Amblystegium"
     },
     {
       "type": "TaxonConceptMapping",
-      "mappingAccordingTo": "https://tropicos.org/reference/9022656",
+      "source": "https://tropicos.org/reference/9022656",
       "mappingRelation": "isIncludedIn",
       "subjectTaxonConcept": "_:2000-Platydictya",
       "objectTaxonConcept": "_:1927-Amblystegium-sect-Serpoleskea",
@@ -185,7 +185,7 @@
     },
     {
       "type": "TaxonConceptMapping",
-      "mappingAccordingTo": "https://tropicos.org/reference/9022656",
+      "source": "https://tropicos.org/reference/9022656",
       "mappingRelation": "isIncludedIn",
       "subjectTaxonConcept": "_:2000-Platydictya",
       "objectTaxonConcept": "_:1980-Platydictya",
@@ -201,28 +201,28 @@
     },
     {
       "type": "TaxonConceptMapping",
-      "mappingAccordingTo": "https://tropicos.org/reference/9022656",
+      "source": "https://tropicos.org/reference/9022656",
       "mappingRelation": "isCongruentWith",
       "subjectTaxonConcept": "_:2000-Leptodictyum",
       "objectTaxonConcept": "_:1992-Leptodictyum"
     },
     {
       "type": "TaxonConceptMapping",
-      "mappingAccordingTo": "https://tropicos.org/reference/9022656",
+      "source": "https://tropicos.org/reference/9022656",
       "mappingRelation": "isCongruentWith",
       "subjectTaxonConcept": "_:2000-Leptodictyum",
       "objectTaxonConcept": "_:1927-Amblystegium-sect-Leptodictyum"
     },
     {
       "type": "TaxonConceptMapping",
-      "mappingAccordingTo": "https://tropicos.org/reference/9022656",
+      "source": "https://tropicos.org/reference/9022656",
       "mappingRelation": "isIncludedIn",
       "subjectTaxonConcept": "_:2000-Leptodictyum",
       "objectTaxonConcept": "_:1981-Amblystegium"
     },
     {
       "type": "TaxonConceptMapping",
-      "mappingAccordingTo": "https://tropicos.org/reference/9022656",
+      "source": "https://tropicos.org/reference/9022656",
       "mappingRelation": "isIncludedIn",
       "subjectTaxonConcept": "_:2000-Leptodictyum",
       "objectTaxonConcept": "_:1981-Amblystegium-subg-Leptodictyum",
@@ -230,14 +230,14 @@
     },
     {
       "type": "TaxonConceptMapping",
-      "mappingAccordingTo": "https://tropicos.org/reference/9022656",
+      "source": "https://tropicos.org/reference/9022656",
       "mappingRelation": "isIncludedIn",
       "subjectTaxonConcept": "_:2000-Leptodictyum",
       "objectTaxonConcept": "_:1927-Amblystegium"
     },
     {
       "type": "TaxonConceptMapping",
-      "mappingAccordingTo": "https://tropicos.org/reference/9022656",
+      "source": "https://tropicos.org/reference/9022656",
       "mappingRelation": "isIncludedIn",
       "subjectTaxonConcept": "_:2000-Leptodictyum",
       "objectTaxonConcept": "_:1980-Amblystegium"
@@ -260,28 +260,28 @@
     },
     {
       "type": "TaxonConceptMapping",
-      "mappingAccordingTo": "https://tropicos.org/reference/9022656",
+      "source": "https://tropicos.org/reference/9022656",
       "mappingRelation": "isCongruentWith",
       "subjectTaxonConcept": "_:2000-Conardia",
       "objectTaxonConcept": "_:1981-Conardia"
     },
     {
       "type": "TaxonConceptMapping",
-      "mappingAccordingTo": "https://tropicos.org/reference/9022656",
+      "source": "https://tropicos.org/reference/9022656",
       "mappingRelation": "isIncludedIn",
       "subjectTaxonConcept": "_:2000-Conardia",
       "objectTaxonConcept": "_:1992-Rhynchostegiella"
     },
     {
       "type": "TaxonConceptMapping",
-      "mappingAccordingTo": "https://tropicos.org/reference/9022656",
+      "source": "https://tropicos.org/reference/9022656",
       "mappingRelation": "isIncludedIn",
       "subjectTaxonConcept": "_:2000-Conardia",
       "objectTaxonConcept": "_:1927-Amblystegium"
     },
     {
       "type": "TaxonConceptMapping",
-      "mappingAccordingTo": "https://tropicos.org/reference/9022656",
+      "source": "https://tropicos.org/reference/9022656",
       "mappingRelation": "isIncludedIn",
       "subjectTaxonConcept": "_:2000-Conardia",
       "objectTaxonConcept": "_:1980-Amblystegium"
@@ -432,7 +432,7 @@
       "nameString": "Amblystegiella",
       "scientificNameAuthorship": "Loeske",
       "namePublishedInLiteral": "Moosfl. Harz.: 294 (1903)",
-      "nomenclaturalStatus": "http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/superfluum"
+      "nomenclaturalStatus": "superfluous"
     },
     {
       "id": "https://www.tropicos.org/name/35000040",
@@ -491,7 +491,7 @@
       "nameString": "Chrysohypnum",
       "scientificNameAuthorship": "G.Roth",
       "namePublishedInLiteral": "Hedwigia 38(Beibl. 1): 6 (1899)",
-      "nomenclaturalStatus": "http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/superfluum"
+      "nomenclaturalStatus": "superfluous"
     },
     {
       "id": "https://www.tropicos.org/name/35000290",
@@ -542,12 +542,14 @@
       "nameString": "Rhynchostegiella",
       "scientificNameAuthorship": "(Schimp.) Limpr.",
       "namePublishedInLiteral": "Laubm. Deutschl. 3: 207 (1896)",
-      "nomenclaturalStatus": "http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/conservandum"
+      "nomenclaturalStatus": "conserved"
     },
     {
       "id": "https://www.tropicos.org/reference/9022656",
       "type": "bibo:Book",
+      "bibo:handle": "Koperski et al. 2000",
       "dcterms:title": "Referenzliste der Moose Deutschlands, Dokumentation unterschiedlicher taxonomischer Auffassungen",
+      "dcterms:bibliographicCitation": "Koperski, M.; Sauer, M.; Braun, W.; Gradstein, S.R. (2000). Referenzliste der Moose Deutschlands, Dokumentation unterschiedlicher taxonomischer Auffassungen. Schriftenreihe für Vegetationskunde 34. Bundersamt für Naturschutz, Bonn-Bad Godesberg. 519 pp. isbn 3-7843-3504-7",
       "dcterms:creator": [
         {
           "id": "_:b43"
@@ -596,7 +598,9 @@
     {
       "id": "https://www.tropicos.org/reference/9004554",
       "type": "bibo:AcademicArticle",
+      "bibo:handle": "Corley et al. 1981",
       "dcterms:title": "Mosses of Europe and the Azores; an annotated list of species, with synonyms from the recent literature",
+      "dcterms:bibliographicCitation": "Corley, M.F.V.; Crundwell, A.C.; Düll, D.; Hill, M.O.; Smith, A.J.E. (1981). Journal of Bryology 11: 609-689.",
       "dcterms:creator": [
         {
           "id": "_:b57"
@@ -649,7 +653,9 @@
     {
       "id": "https://www.tropicos.org/reference/9010070",
       "type": "bibo:AcademicArticle",
+      "bibo:handle": "Corley & Crundwell 1991",
       "dcterms:title": "Additions and amendments of the mosses of Europe and the Azores",
+      "dcterms:bibliographicCitation": "Corley, M.F.V.; Crundwell, A.C. (1991). Additions and amendments of the mosses of Europe and the Azores. Journal of Bryology 16: 337-356.",
       "dcterms:creator": [
         {
           "id": "_:b57"
@@ -676,14 +682,17 @@
           "bibo:shortTitle": "J. Bryol."
         },
         "bibo:issue": "3",
-        "bibo:volume": "16"
+        "bibo:volume": "16",
+        "dcterms:date": "1991"
       },
       "bibo:pages": "337-356"
     },
     {
       "id": "https://www.tropicos.org/reference/9011497",
       "type": "bibo:Book",
+      "bibo:handle": "Frahm & Frey 1992",
       "dcterms:title": "Moosflora",
+      "dcterms:bibliographicCitation": "Frahm, J.-P.; Frey, W. (1992). Moosflora. Uni-Taschenb., 3. Aufl. Ulmer, Stuttgart.",
       "dcterms:creator": [
         {
           "id": "_:b80"

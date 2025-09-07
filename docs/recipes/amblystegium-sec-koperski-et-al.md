@@ -1068,5 +1068,8 @@ _:moenkemeyer_w a foaf:Person ;
     foaf:surname "Mönkemeyer" .
 ```
 
+## Full code in GitHub
+
 [TurTLe](https://github.com/tdwg/tcs2/blob/master/recipes/amblystegium-sec-koperski-et-al.ttl) |
-[JSON-LD](https://github.com/tdwg/tcs2/blob/master/recipes/amblystegium-sec-koperski-et-al.jsonld)
+[JSON-LD](https://github.com/tdwg/tcs2/blob/master/recipes/amblystegium-sec-koperski-et-al.jsonld) |
+[Data Package](https://github.com/tdwg/tcs2/blob/master/recipes/amblystegium-sec-koperski-et-al/datapackage)

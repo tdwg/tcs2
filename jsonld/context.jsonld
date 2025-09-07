@@ -116,7 +116,7 @@
         "available":                        "nomenclaturalStatusVocab:available",
         "combinatio":                       "nomenclaturalStatusVocab:combinatio",
         "confusum":                         "nomenclaturalStatusVocab:confusum",
-        "conservandum":                     "nomenclaturalStatusVocab:conservandum",
+        "conserved":                        "nomenclaturalStatusVocab:conservandum",
         "conservandumProp":                 "nomenclaturalStatusVocab:conservandumProp",
         "correctum":                        "nomenclaturalStatusVocab:correctum",
         "dubimum":                          "nomenclaturalStatusVocab:dubimum",
