@@ -956,5 +956,8 @@ _:ref-9a8fd7d105edf2e6 a bibo:BookSection ;
     foaf:surname "Irmscher" .
 ```
 
+# Full code in GitHub
+
 [TurTLe](https://github.com/tdwg/tcs2/blob/master/recipes/begonia-sect-mezierea-sec-klazenga-1993.ttl) |
-[JSON-LD](https://github.com/tdwg/tcs2/blob/master/recipes/begonia-sect-mezierea-sec-klazenga-1993.jsonld)
+[JSON-LD](https://github.com/tdwg/tcs2/blob/master/recipes/begonia-sect-mezierea-sec-klazenga-1993.jsonld) |
+[Data Package](https://github.com/tdwg/tcs2/tree/master/recipes/begonia-sect-mezierea-sec-klazenga-1993/datapackage)
