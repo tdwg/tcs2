@@ -521,5 +521,8 @@ _:p548a313ff862ecc1 a foaf:Person ;
     foaf:surname "Holttum" .
 ```
 
+## Full code in GitHub
+
 [TurTLe](https://github.com/tdwg/tcs2/blob/master/recipes/eupolypods-rothfels-2012.ttl) |
-[JSON-LD](https://github.com/tdwg/tcs2/blob/master/recipes/eupolypods-rothfels-2012.jsonld)
+[JSON-LD](https://github.com/tdwg/tcs2/blob/master/recipes/eupolypods-rothfels-2012.jsonld) |
+[Data Package](https://github.com/tdwg/tcs2/blob/master/recipes/eupolypods-rothfels-2012/datapackage)
