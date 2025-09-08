@@ -29,11 +29,11 @@ _:ref1 a bibo:AcademicArticle ;
 
 <https://orcid.org/0000-0003-2209-0222> a foaf:Person ;
     foaf:givenName "K.A." ;
-    foaf:surname "Kron" .
+    foaf:familyName "Kron" .
 
 <https://orcid.org/0000-0003-2391-2654> a foaf:Person ;
     foaf:givenName "W.S." ;
-    foaf:surname "Judd" .
+    foaf:familyName "Judd" .
 
 
 #

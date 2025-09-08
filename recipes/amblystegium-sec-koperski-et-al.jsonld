@@ -776,79 +776,79 @@
       "id": "_:b45",
       "type": "foaf:Person",
       "foaf:givenname": "Walter",
-      "foaf:surname": "Braun"
+      "foaf:familyName": "Braun"
     },
     {
       "id": "_:b57",
       "type": "foaf:Person",
       "foaf:givenname": "M.F.V.",
-      "foaf:surname": "Corley"
+      "foaf:familyName": "Corley"
     },
     {
       "id": "_:b58",
       "type": "foaf:Person",
       "foaf:givenname": "A.C.",
-      "foaf:surname": "Crundwell"
+      "foaf:familyName": "Crundwell"
     },
     {
       "id": "_:b59",
       "type": "foaf:Person",
       "foaf:givenname": "R.",
-      "foaf:surname": "Düll"
+      "foaf:familyName": "Düll"
     },
     {
       "id": "_:b80",
       "type": "foaf:Person",
       "foaf:givenname": "J.-P.",
-      "foaf:surname": "Frahm"
+      "foaf:familyName": "Frahm"
     },
     {
       "id": "_:b81",
       "type": "foaf:Person",
       "foaf:givenname": "W.",
-      "foaf:surname": "Frey"
+      "foaf:familyName": "Frey"
     },
     {
       "id": "_:b46",
       "type": "foaf:Person",
       "foaf:givenname": "S. Rob",
-      "foaf:surname": "Gradstein"
+      "foaf:familyName": "Gradstein"
     },
     {
       "id": "_:b60",
       "type": "foaf:Person",
       "foaf:givenname": "M.O.",
-      "foaf:surname": "Hill"
+      "foaf:familyName": "Hill"
     },
     {
       "id": "_:b43",
       "type": "foaf:Person",
       "foaf:givenname": "Monica",
-      "foaf:surname": "Koperski"
+      "foaf:familyName": "Koperski"
     },
     {
       "id": "_:b89",
       "type": "foaf:Person",
       "foaf:givenname": "W.",
-      "foaf:surname": "Mönkemeyer"
+      "foaf:familyName": "Mönkemeyer"
     },
     {
       "id": "_:b91",
       "type": "foaf:Person",
       "foaf:givenname": "G.L.",
-      "foaf:surname": "Rabenhorst"
+      "foaf:familyName": "Rabenhorst"
     },
     {
       "id": "_:b44",
       "type": "foaf:Person",
       "foaf:givenname": "Michael",
-      "foaf:surname": "Sauer"
+      "foaf:familyName": "Sauer"
     },
     {
       "id": "_:b61",
       "type": "foaf:Person",
       "foaf:givenname": "A.J.E.",
-      "foaf:surname": "Smith"
+      "foaf:familyName": "Smith"
     }
   ]
 }

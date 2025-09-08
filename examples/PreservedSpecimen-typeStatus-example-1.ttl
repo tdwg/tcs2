@@ -57,12 +57,12 @@ _:b0 a dwc:Identification ;
 
 <http://www.wikidata.org/entity/Q6135471> a foaf:Person ;
     foaf:givenName "James Hamlyn" ;
-    foaf:surname "Willis" .
+    foaf:familyName "Willis" .
 
 <http://www.wikidata.org/entity/Q153408> a foaf:Person ;
     foaf:givenName "Joseph" ;
-    foaf:surname "Banks" .
+    foaf:familyName "Banks" .
 
 <http://www.wikidata.org/entity/Q39789> a foaf:Person ;
     foaf:givenName "Daniel Carl" ;
-    foaf:surname "Solander" .
+    foaf:familyName "Solander" .

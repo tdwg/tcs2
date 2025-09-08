@@ -28,7 +28,7 @@
 
 _:a0 a foaf:Person ;
     foaf:givenName "Richard" ;
-    foaf:surname "Lydekker" .
+    foaf:familyName "Lydekker" .
 
 
 <zoobank:29a6803b-c1d8-4460-96c7-cc006095413f> a tcs:TaxonName ;
@@ -375,7 +375,7 @@ _:tc11 a tcs:TaxonConcept ;
 
 _:a6 a foaf:Person ;
     foaf:givenName "Anne Innis" ;
-    foaf:surname "Dagg" .
+    foaf:familyName "Dagg" .
 
 _:tc34 a tcs:TaxonConcept ;
     dcterms:title "Giraffa sec. Dagg 1971" ;
@@ -488,11 +488,11 @@ _:tc44 a tcs:TaxonConcept ;
 
 _:a3 a foaf:Person ;
     foaf:givenName "Colin" ;
-    foaf:surname "Groves" .
+    foaf:familyName "Groves" .
 
 _:a4 a foaf:Person ;
     foaf:givenName "Peter" ;
-    foaf:surname "Grubb" .
+    foaf:familyName "Grubb" .
 
 
 _:tc32 a tcs:TaxonConcept ;

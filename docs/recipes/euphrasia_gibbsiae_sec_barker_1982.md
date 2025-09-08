@@ -354,31 +354,31 @@ _:ref8 a bibo:Book ;
 
 _:a1 a foaf:Person ;
     foaf:givenName "W.R." ;
-    foaf:surname "Barker" .
+    foaf:familyName "Barker" .
 
 _:a2 a foaf:Person ;
     foaf:givenName "W.M." ;
-    foaf:surname "Curtis" .
+    foaf:familyName "Curtis" .
 
 _:a3 a foaf:Person ;
     foaf:givenName "J.H." ;
-    foaf:surname "Willis" .
+    foaf:familyName "Willis" .
 
 _:a4 a foaf:Person ;
     foaf:givenName "M." ;
-    foaf:surname "Stones" .
+    foaf:familyName "Stones" .
 
 _:a5 a foaf:Person ;
     foaf:givenName "F." ;
-    foaf:surname "Mueller" .
+    foaf:familyName "Mueller" .
 
 _:a6 a foaf:Person ;
     foaf:givenName "R." ;
-    foaf:surname "Von Wettstein" .
+    foaf:familyName "Von Wettstein" .
 
 _:a7 a foaf:Person ;
     foaf:givenName "G." ;
-    foaf:surname "Bentham" .
+    foaf:familyName "Bentham" .
 ```
 
 [TurTLe](https://github.com/tdwg/tcs2/blob/master/recipes/euphrasia_gibbsiae_sec_barker_1982.ttl) |

@@ -1039,25 +1039,25 @@ _:ann45 a oa:Annotation ;
 ################################################################################
 
 <http://www.wikidata.org/entity/Q6135471> a foaf:Person ;
-    foaf:surname "Willis" ;
+    foaf:familyName "Willis" ;
     foaf:givenName "James Hamlyn" .
 
 <https://orcid.org/0000-0003-4671-1425> a foaf:Person ;
-    foaf:surname "Walsh" ;
+    foaf:familyName "Walsh" ;
     foaf:givenName "Neville G." .
 
 <https://orcid.org/0000-0002-6554-2033> a foaf:Person ;
-    foaf:surname "Entwisle" ;
+    foaf:familyName "Entwisle" ;
     foaf:givenName "Tim J." .
 
 <http://www.wikidata.org/entity/Q21395685> a foaf:Person ;
-    foaf:surname "Jeanes" ;
+    foaf:familyName "Jeanes" ;
     foaf:givenName "Jeff A." .
 
 <http://www.wikidata.org/entity/Q21391683> a foaf:Person ;
-    foaf:surname "Jobson" ;
+    foaf:familyName "Jobson" ;
     foaf:givenName "Peter C." .
 
 <https://orcid.org/0000-0003-2224-6821> a foaf:Person ;
-    foaf:surname "Klazenga" ;
+    foaf:familyName "Klazenga" ;
     foaf:givenName "Niels" .

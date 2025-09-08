@@ -95,7 +95,7 @@ _:tn2 a tcs:TaxonName ;
     dcterms:title "Avibase" ;
     dcterms:creator [ a foaf:Person ;
             foaf:givenNames "Denis" ;
-            foaf:surname "Lepage" ] ;
+            foaf:familyName "Lepage" ] ;
     bibo:uri "https://avibase.bsc-eoc.org/avibase.jsp" .
 
 _:ref1 a dcterms:BibliographicResource ;

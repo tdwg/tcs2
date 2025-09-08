@@ -8,21 +8,21 @@
     "id": "https://ipni.org/a/4317-1",
     "type": "foaf:Person",
     "foaf:givenName": "Duane",
-    "foaf:surname": "Isely"
+    "foaf:familyName": "Isely"
   },
   "combinationAuthorLiteral": "Isely",
   "basionymAuthor": {
     "id": "https://ipni.org/a/16855-1",
     "type": "foaf:Person",
     "foaf:givenName": "Augustin Pyramus",
-    "foaf:surname": "De Candolle"
+    "foaf:familyName": "De Candolle"
   },
   "basionymAuthorLiteral": "DC.",
   "basionymAscribedAuthor": {
     "id": "https://ipni.org/a/3050-1",
     "type": "foaf:Person",
     "foaf:givenName": "Charles",
-    "foaf:surname": "Gaudichaud-Beaupré"
+    "foaf:familyName": "Gaudichaud-Beaupré"
   },
   "basionymAscribedAuthorLiteral": "Gaudich.",
   "basionym": {

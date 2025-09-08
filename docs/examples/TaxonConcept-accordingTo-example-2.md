@@ -23,7 +23,7 @@
 
 _:b1 a foaf:Person ;
     foaf:givenName "David Allen" ;
-    foaf:surname "Sibley" .
+    foaf:familyName "Sibley" .
 ```
 
 [&#91;TurTLe&#93;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-accordingTo-example-2.ttl)&nbsp;[&#91;JSON-LD&#93;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-accordingTo-example-2.jsonld)

@@ -534,43 +534,43 @@
       "id": "_:a1",
       "type": "foaf:Person",
       "foaf:givenName": "W.R.",
-      "foaf:surname": "Barker"
+      "foaf:familyName": "Barker"
     },
     {
       "id": "_:a2",
       "type": "foaf:Person",
       "foaf:givenName": "W.M.",
-      "foaf:surname": "Curtis"
+      "foaf:familyName": "Curtis"
     },
     {
       "id": "_:a3",
       "type": "foaf:Person",
       "foaf:givenName": "J.H.",
-      "foaf:surname": "Willis"
+      "foaf:familyName": "Willis"
     },
     {
       "id": "_:a4",
       "type": "foaf:Person",
       "foaf:givenName": "M.",
-      "foaf:surname": "Stones"
+      "foaf:familyName": "Stones"
     },
     {
       "id": "_:a5",
       "type": "foaf:Person",
       "foaf:givenName": "F.",
-      "foaf:surname": "Mueller"
+      "foaf:familyName": "Mueller"
     },
     {
       "id": "_:a6",
       "type": "foaf:Person",
       "foaf:givenName": "G.",
-      "foaf:surname": "Bentham"
+      "foaf:familyName": "Bentham"
     },
     {
       "id": "_:a7",
       "type": "foaf:Person",
       "foaf:givenName": "R.",
-      "foaf:surname": "Von Wettstein"
+      "foaf:familyName": "Von Wettstein"
     }
   ]
 }

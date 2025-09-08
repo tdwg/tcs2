@@ -33,7 +33,7 @@
           "id": "http://www.wikidata.org/entity/Q2589989",
           "type": "foaf:Person",
           "foaf:givenName": "James",
-          "foaf:surname": "Drummond"
+          "foaf:familyName": "Drummond"
         },
         "dwc:recordNumber": "722",
         "dwciri:atEvent": {
@@ -115,7 +115,7 @@
           "id": "http://www.wikidata.org/entity/Q5719316",
           "type":  "foaf:Person",
           "foaf:givenName": "Barbara Lynette",
-          "foaf:surname": "Rye"
+          "foaf:familyName": "Rye"
         },
         "dwc:dateIdentified": "1999-09-28"
       },
@@ -149,7 +149,7 @@
           "id": "https://orcid.org/0000-0001-9124-9802",
           "type": "foaf:Person",
           "foaf:givenName": "Jürgen",
-          "foaf:surname": "Kellermann"
+          "foaf:familyName": "Kellermann"
         }
       },
       "dwciri:typeStatus": {

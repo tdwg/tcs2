@@ -35,15 +35,15 @@
 
 <https://orcid.org/0000-0003-2224-6821> a foaf:Person ;
     foaf:givenName "Niels" ;
-    foaf:surname "Klazenga" .
+    foaf:familyName "Klazenga" .
 
 <https://www.wikidata.org/wiki/Q21387987> a foaf:Person ;
     foaf:givenName "J.J.F.E." ;
-    foaf:surname "de Wilde" .
+    foaf:familyName "de Wilde" .
 
 <https://www.wikidata.org/wiki/Q21394461> a foaf:Person ;
     foaf:givenName "R.J." ;
-    foaf:surname "Quené" .
+    foaf:familyName "Quené" .
 
 # 
 # Begonia sect. Mezierea sec. Klazenga & al. 1994
@@ -930,24 +930,24 @@ _:ref-9a8fd7d105edf2e6 a bibo:BookSection ;
 
 <https://www.wikidata.org/wiki/Q60718> a foaf:Person ;
     foaf:givenName "A." ;
-    foaf:surname "Engler" .
+    foaf:familyName "Engler" .
 
 <https://www.wikidata.org/wiki/Q63040> a foaf:Person ;
     foaf:givenName "O." ;
-    foaf:surname "Drude" .
+    foaf:familyName "Drude" .
 
 <https://www.wikidata.org/wiki/Q62822> a foaf:Person ;
     foaf:givenName "O." ;
-    foaf:surname "Warburg" .
+    foaf:familyName "Warburg" .
 
 <https://www.wikidata.org/wiki/Q64995> a foaf:Person ;
     foaf:givenName "K." ;
-    foaf:surname "Prantl" .
+    foaf:familyName "Prantl" .
 
 <https://www.wikidata.org/wiki/Q10331852> a foaf:Person ;
     foaf:givenName "M." ;
-    foaf:surname "Keraudren-Aymonin" .
+    foaf:familyName "Keraudren-Aymonin" .
 
 <https://www.wikidata.org/wiki/Q8771887> a foaf:Person ;
     foaf:givenName "E." ;
-    foaf:surname "Irmscher" .
+    foaf:familyName "Irmscher" .

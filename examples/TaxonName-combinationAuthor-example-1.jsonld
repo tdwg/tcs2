@@ -8,7 +8,7 @@
     "id": "https://ipni.org/a/1192-1",
     "type": "foaf:Person",
     "foaf:givenName": "Robert",
-    "foaf:surname": "Brown"
+    "foaf:familyName": "Brown"
   },
   "combinationAuthorLiteral": "R.Br."
 }

@@ -32,7 +32,7 @@
     dwciri:recordedBy [
         a foaf:Person ;
         foaf:givenName "David" ;
-        foaf:surname "Densmore"
+        foaf:familyName "Densmore"
     ] ;
     dsw:atEvent [
         a dwc:Event ;
@@ -56,7 +56,7 @@
 <https://www.wikidata.org/wiki/Q18982613>
     a foaf:Agent ;
     foaf:givenName "George" ;
-    foaf:surname "Argus" ;
+    foaf:familyName "Argus" ;
     rdfs:comment "One of the most experienced salicologists in US history" .
 ```
 

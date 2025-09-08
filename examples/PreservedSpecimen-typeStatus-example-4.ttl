@@ -76,8 +76,8 @@ _:b1 a tcs:NomenclaturalType ;
 
 <http://www.wikidata.org/entity/Q5925767> a foaf:Person ;
     foaf:givenName "James Henderson" ;
-    foaf:surname "Ross" .
+    foaf:familyName "Ross" .
 
 <http://www.wikidata.org/entity/Q16065577> a foaf:Person ;
     foaf:givenName "John" ;
-    foaf:surname "Dallachy" .
+    foaf:familyName "Dallachy" .

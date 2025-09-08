@@ -33,7 +33,7 @@
           "id": "https://www.ipni.org/a/1174-1",
           "type": "foaf:Person",
           "foaf:givenName": "Murray Ian Hill",
-          "foaf:surname": "Brooker"
+          "foaf:familyName": "Brooker"
         },
         "dwc:recordNumber": "8969",
         "dsw:atEvent": {
@@ -94,7 +94,7 @@
         "id": "https://orcid.org/0000-0001-6661-7722",
         "type": "foaf:Person",
         "foaf:givenName": "Wayne",
-        "foaf:surname": "Gebert"
+        "foaf:familyName": "Gebert"
       },
       "dcterms:created": "2015-08-07"
     },

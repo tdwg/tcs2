@@ -21,4 +21,4 @@
 
 _:b1 a foaf:Person ;
     foaf:givenName "David Allen" ;
-    foaf:surname "Sibley" .
+    foaf:familyName "Sibley" .

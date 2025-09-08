@@ -80,8 +80,8 @@ _:b0 a dwc:Identification ;
 
 <https://www.ipni.org/a/1174-1> a foaf:Person ;
     foaf:givenName "Brooker" ;
-    foaf:surname "Murray Ian Hill" .
+    foaf:familyName "Murray Ian Hill" .
 
 <https://orcid.org/0000-0001-6661-7722> a foaf:Person ;
     foaf:givenName "Wayne" ;
-    foaf:surname "Gebert" .
+    foaf:familyName "Gebert" .

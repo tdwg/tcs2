@@ -67,11 +67,11 @@ Experience Report](../implementation-experience-report/#4-an-example).
 
 <https://www.wikidata.org/wiki/Q21339909> a foaf:Person ;
     foaf:givenName "Benito Ching" ;
-    foaf:surname "Tan" .
+    foaf:familyName "Tan" .
 
 <https://www.wikidata.org/wiki/Q5411655> a foaf:Person ;
     foaf:givenName "Timo Juhani" ;
-    foaf:surname "Koponen" .
+    foaf:familyName "Koponen" .
 
 <https://tropicos.org/reference/9005756> a bibo:Book ;
     dcterms:title "Sphagnales to Dicranales" ;
@@ -95,7 +95,7 @@ Experience Report](../implementation-experience-report/#4-an-example).
 
 <https://www.wikidata.org/wiki/Q21511351> a foaf:Person ;
     foaf:givenName "Alan" ;
-    foaf:surname "Eddy" .
+    foaf:familyName "Eddy" .
 
 <https://tropicos.org/reference/9006742> a tcs:bibo:AcademicArticle ;
     dcterms:title """The bryophytes of Sabah (North Borneo) with special 
@@ -142,7 +142,7 @@ Experience Report](../implementation-experience-report/#4-an-example).
 
 <https://www.wikidata.org/wiki/Q21522236> a foaf:Person ;
     foaf:givenName "Daniel Howard" ;
-    foaf:surname "Norris" .
+    foaf:familyName "Norris" .
 
 <https://tropicos.org/reference/9020903> a bibo:AcademicArticle ;
     dcterms:title """A revision of the Malesian species of Dicranoloma 
@@ -166,7 +166,7 @@ Experience Report](../implementation-experience-report/#4-an-example).
 
 <https://orcid.org/0000-0003-2224-6821> a foaf:Person ;
     foaf:givenName "Niels" ;
-    foaf:surname "Klazenga" .
+    foaf:familyName "Klazenga" .
 
 
 ################################################################################

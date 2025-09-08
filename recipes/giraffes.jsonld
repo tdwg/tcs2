@@ -52,7 +52,7 @@
       "type": "foaf:Person",
       "id": "_:a0",
       "foaf:givenName": "Richard",
-      "foaf:surname": "Lydekker"
+      "foaf:familyName": "Lydekker"
     },
     {
       "type": "TaxonName",
@@ -556,7 +556,7 @@
       "type": "foaf:Person",
       "id": "_:a6",
       "foaf:givenName": "Anne Innis",
-      "foaf:surname": "Dagg"
+      "foaf:familyName": "Dagg"
     },
     {
       "type": "TaxonConcept",
@@ -713,13 +713,13 @@
       "type": "foaf:Person",
       "id": "_:a3",
       "foaf:givenName": "Colin",
-      "foaf:surname": "Groves"
+      "foaf:familyName": "Groves"
     },
     {
       "type": "foaf:Person",
       "id": "_:a4",
       "foaf:givenName": "Peter",
-      "foaf:surname": "Grubb"
+      "foaf:familyName": "Grubb"
     },
     {
       "type": "TaxonConcept",

@@ -10,4 +10,4 @@
 
 <https://ipni.org/a/1192-1> a foaf:Person ;
     foaf:givenName "Robert" ;
-    foaf:surname "Brown" .
+    foaf:familyName "Brown" .

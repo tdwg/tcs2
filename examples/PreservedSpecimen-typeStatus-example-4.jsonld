@@ -33,7 +33,7 @@
           "id": "http://www.wikidata.org/entity/Q16065577",
           "type": "foaf:Person",
           "foaf:givenName": "John",
-          "foaf:surname": "Dallachy"
+          "foaf:familyName": "Dallachy"
         },
         "dwc:recordNumber": "88",
         "dsw:atEvent": {
@@ -74,7 +74,7 @@
           "id": "http://www.wikidata.org/entity/Q5925767",
           "type": "foaf:Person",
           "foaf:givenName": "James Henderson",
-          "foaf:surname": "Ross"
+          "foaf:familyName": "Ross"
         }
       },
       "dwciri:typeStatus": {

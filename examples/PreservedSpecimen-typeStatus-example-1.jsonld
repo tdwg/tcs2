@@ -33,13 +33,13 @@
             "id": "http://www.wikidata.org/entity/Q153408",
             "type": "foaf:Person",
             "foaf:givenName": "Joseph",
-            "foaf:surname": "Banks"
+            "foaf:familyName": "Banks"
           },
           {
             "id": "http://www.wikidata.org/entity/Q39789",
             "type": "foaf:Person",
             "foaf:givenName": "Daniel Carl",
-            "foaf:surname": "Solander"
+            "foaf:familyName": "Solander"
           }
         ],
         "dsw:atEvent": {

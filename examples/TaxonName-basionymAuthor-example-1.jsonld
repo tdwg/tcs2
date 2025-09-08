@@ -8,7 +8,7 @@
     "id": "https://tropicos.org/person/2011",
     "type": "foaf:Person",
     "foaf:givenName": "Jean Édouard Gabriel Narcisse",
-    "foaf:surname": "Paris"
+    "foaf:familyName": "Paris"
   },
   "combinationAuthorLiteral": "Paris",
   "basionymAuthor": {
@@ -17,13 +17,13 @@
         "id": "https://tropicos.org/person/3",
         "type": "foaf:Person",
         "foaf:givenName": "Joseph Dalton",
-        "foaf:surname": "Hooker"
+        "foaf:familyName": "Hooker"
       },
       {
         "id": "https://tropicos.org/person/10481",
         "type": "foaf:Person",
         "foaf:givenName": "William",
-        "foaf:surname": "Wilson"
+        "foaf:familyName": "Wilson"
       }
     ]
   },

@@ -458,67 +458,67 @@ _:r8356b78f024b33be a bibo:AcademicArticle ;
 
 <https://orcid.org/0000-0002-6605-1770> a foaf:Person ;
     foaf:givenname "Carl J." ;
-    foaf:surname "Rothfels" .
+    foaf:familyName "Rothfels" .
 
 <https://orcid.org/0000-0003-1568-150X> a foaf:Person ;
     foaf:givenname "Michael E." ;
-    foaf:surname "Sundue" .
+    foaf:familyName "Sundue" .
 
 <https://ipni.org/a/20030162-1> a foaf:Person ;
     foaf:givenname "L-Jaung" ;
-    foaf:surname "Kuo" .
+    foaf:familyName "Kuo" .
 
 _:p7db44c4c846970d7 a foaf:Person ;
     foaf:givenname "Anders" ;
-    foaf:surname "Larsson" .
+    foaf:familyName "Larsson" .
 
 <https://ipni.org/a/14414-1> a foaf:Person ;
     foaf:givenname "Masahiro" ;
-    foaf:surname "Kato" .
+    foaf:familyName "Kato" .
 
 <https://orcid.org/0000-0003-3891-9904> a foaf:Person ;
     foaf:givenname "Eric" ;
-    foaf:surname "Schuetpelz" .
+    foaf:familyName "Schuetpelz" .
 
 <https://orcid.org/0000-0002-9776-6736> a foaf:Person ;
     foaf:givenname "Kathleen M." ;
-    foaf:surname "Pryer" .
+    foaf:familyName "Pryer" .
 
 <https://ipni.org/a/9771-1> a foaf:Person ;
     foaf:givenname "Alan R." ;
-    foaf:surname "Smith" .
+    foaf:familyName "Smith" .
 
 <https://orcid.org/0000-0002-6677-5234> a foaf:Person ;
     foaf:givenname "Petra" ;
-    foaf:surname "Korall" .
+    foaf:familyName "Korall" .
 
 <https://ipni.org/a/40553-1> a foaf:Person ;
     foaf:givenname "Harald" ;
-    foaf:surname "Schneider" .
+    foaf:familyName "Schneider" .
 
 _:p548a313ff862ecc1 a foaf:Person ;
     foaf:givenname "Paul G." ;
-    foaf:surname "Wolf" .
+    foaf:familyName "Wolf" .
 
 <https://orcid.org/0000-0003-1398-8743> a foaf:Person ;
     foaf:givenname "Maarten J.M." ;
-    foaf:surname "Christenhusz" .
+    foaf:familyName "Christenhusz" .
 
 <https://orcid.org/0000-0003-3425-1011> a foaf:Person ;
     foaf:givenname "Xian-Chun" ;
-    foaf:surname "Zhang" .
+    foaf:familyName "Zhang" .
 
 <https://ipni.org/a/23960-1> a foaf:Person ;
     foaf:givenname "Bala Krishnan" ;
-    foaf:surname "Nayar" .
+    foaf:familyName "Nayar" .
 
 <https://ipni.org/a/7667-1> a foaf:Person ;
     foaf:givenname "Rodolfo Emilio Giuseppe" ;
-    foaf:surname "Pichi Sermolli" .
+    foaf:familyName "Pichi Sermolli" .
 
 <https://ipni.org/a/4063-1> a foaf:Person ;
     foaf:givenname "Richard Eric" ;
-    foaf:surname "Holttum" .
+    foaf:familyName "Holttum" .
 ```
 
 ## Full code in GitHub

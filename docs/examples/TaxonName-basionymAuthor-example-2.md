@@ -18,7 +18,7 @@
 
 <http://www.wikidata.org/entity/Q1043> a foaf:Person ;
     foaf:givenName: "Carl" ;
-    foaf:surname "Linnaeus" .
+    foaf:familyName "Linnaeus" .
 ```
 
 [&#91;TurTLe&#93;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonName-basionymAuthor-example-2.ttl)&nbsp;[&#91;JSON-LD&#93;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonName-basionymAuthor-example-2.jsonld)

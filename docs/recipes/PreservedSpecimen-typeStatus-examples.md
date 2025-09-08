@@ -63,15 +63,15 @@ _:b0 a dwc:Identification ;
 
 <http://www.wikidata.org/entity/Q6135471> a foaf:Person ;
     foaf:givenName "James Hamlyn" ;
-    foaf:surname "Willis" .
+    foaf:familyName "Willis" .
 
 <http://www.wikidata.org/entity/Q153408> a foaf:Person ;
     foaf:givenName "Joseph" ;
-    foaf:surname "Banks" .
+    foaf:familyName "Banks" .
 
 <http://www.wikidata.org/entity/Q39789> a foaf:Person ;
     foaf:givenName "Daniel Carl" ;
-    foaf:surname "Solander" .
+    foaf:familyName "Solander" .
 ```
 
 [TurTLe](https://github.com/tdwg/tcs2/blob/master/examples/PreservedSpecimen-typeStatus-example-1.ttl) |
@@ -168,15 +168,15 @@ _:b1 a tcs:NomenclaturalType ;
 
 <https://orcid.org/0000-0001-9124-9802> a foaf:Person ;
     foaf:givenName "Jürgen" ;
-    foaf:surname "Kellermann" .
+    foaf:familyName "Kellermann" .
 
 <http://www.wikidata.org/entity/Q5719316> a foaf:Person ;
     foaf:givenName "Barbara Lynette" ;
-    foaf:surname "Rye" .
+    foaf:familyName "Rye" .
 
 <http://www.wikidata.org/entity/Q2589989> a foaf:Person ;
     foaf:givenName "James" ;
-    foaf:surname "Drummond" .
+    foaf:familyName "Drummond" .
 
 <http://specimens.kew.org/herbarium/K001096706> a dwc:PreservedSpecimen ;
     dwc:catalogNumber "K001096706" ;
@@ -320,11 +320,11 @@ _:b0 a dwc:Identification ;
 
 <https://www.ipni.org/a/1174-1> a foaf:Person ;
     foaf:givenName "Brooker" ;
-    foaf:surname "Murray Ian Hill" .
+    foaf:familyName "Murray Ian Hill" .
 
 <https://orcid.org/0000-0001-6661-7722> a foaf:Person ;
     foaf:givenName "Wayne" ;
-    foaf:surname "Gebert" .
+    foaf:familyName "Gebert" .
 ```
 
 [TurTLe](https://github.com/tdwg/tcs2/blob/master/examples/PreservedSpecimen-typeStatus-example-3.ttl) |
@@ -403,11 +403,11 @@ _:b1 a tcs:NomenclaturalType ;
 
 <http://www.wikidata.org/entity/Q5925767> a foaf:Person ;
     foaf:givenName "James Henderson" ;
-    foaf:surname "Ross" .
+    foaf:familyName "Ross" .
 
 <http://www.wikidata.org/entity/Q16065577> a foaf:Person ;
     foaf:givenName "John" ;
-    foaf:surname "Dallachy" .
+    foaf:familyName "Dallachy" .
 ```
 
 [TurTLe](https://github.com/tdwg/tcs2/blob/master/examples/PreservedSpecimen-typeStatus-example-4.ttl) |

@@ -95,15 +95,15 @@ _:b1 a tcs:NomenclaturalType ;
 
 <https://orcid.org/0000-0001-9124-9802> a foaf:Person ;
     foaf:givenName "Jürgen" ;
-    foaf:surname "Kellermann" .
+    foaf:familyName "Kellermann" .
 
 <http://www.wikidata.org/entity/Q5719316> a foaf:Person ;
     foaf:givenName "Barbara Lynette" ;
-    foaf:surname "Rye" .
+    foaf:familyName "Rye" .
 
 <http://www.wikidata.org/entity/Q2589989> a foaf:Person ;
     foaf:givenName "James" ;
-    foaf:surname "Drummond" .
+    foaf:familyName "Drummond" .
 
 <http://specimens.kew.org/herbarium/K001096706> a dwc:PreservedSpecimen ;
     dwc:catalogNumber "K001096706" ;

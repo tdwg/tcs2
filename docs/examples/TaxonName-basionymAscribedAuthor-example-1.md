@@ -26,15 +26,15 @@
 
 <https://ipni.org/a/4317-1> a foaf:Person ;
     foaf:givenName "Duane" ;
-    foaf:surname "Isely" .
+    foaf:familyName "Isely" .
 
 <https://ipni.org/a/16855-1> a foaf:Person ;
     foaf:givenName "Augustin Pyramus" ;
-    foaf:surname "De Candolle" .
+    foaf:familyName "De Candolle" .
 
 <https://ipni.org/a/3050-1> a foaf:Person ;
     foaf:givenName "Charles" ;
-    foaf:surname "Gaudichaud-Beaupré" .
+    foaf:familyName "Gaudichaud-Beaupré" .
 ```
 
 [&#91;TurTLe&#93;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonName-basionymAscribedAuthor-example-1.ttl)&nbsp;[&#91;JSON-LD&#93;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonName-basionymAscribedAuthor-example-1.jsonld)

@@ -29,8 +29,8 @@
 
 <https://orcid.org/0000-0001-7089-7018> a foaf:Person ;
     foaf:givenName "Nico M." ;
-    foaf:surname "Franz" .
+    foaf:familyName "Franz" .
 
 <https://orcid.org/0000-0002-2469-8162> a foaf:Person ;
     foaf:givenName "Juliana" ;
-    foaf:surname "Cardona-Duque*" .
+    foaf:familyName "Cardona-Duque*" .

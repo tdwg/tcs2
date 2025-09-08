@@ -383,7 +383,7 @@ _:1980_Platydictya a tcs:TaxonConcept ;
             dcterms:title "Kryptogamenflora von Deutschland, Österreich und der Schweiz" ;
             bibo:editor [ a foaf:Person ;
                     foaf:givenname "G.L." ;
-                    foaf:surname "Rabenhorst" ] ] ;
+                    foaf:familyName "Rabenhorst" ] ] ;
     dcterms:publisher [ a foaf:Organization ;
             address:localityName "Leipzig" ;
             foaf:name "Geest & Portig" ] ;
@@ -391,51 +391,51 @@ _:1980_Platydictya a tcs:TaxonConcept ;
 
 _:koperski_m a foaf:Person ;
     foaf:givenname "Monica" ;
-    foaf:surname "Koperski" .
+    foaf:familyName "Koperski" .
 
 _:sauer_m a foaf:Person ;
     foaf:givenname "Michael" ;
-    foaf:surname "Sauer" .
+    foaf:familyName "Sauer" .
 
 _:braun_w a foaf:Person ;
     foaf:givenname "Walter" ;
-    foaf:surname "Braun" .
+    foaf:familyName "Braun" .
 
 _:gradstein_sr a foaf:Person ;
     foaf:givenname "S. Rob" ;
-    foaf:surname "Gradstein" .
+    foaf:familyName "Gradstein" .
 
 _:corley_mfv a foaf:Person ;
     foaf:givenname "M.F.V." ;
-    foaf:surname "Corley" .
+    foaf:familyName "Corley" .
 
 _:crundwell_ac a foaf:Person ;
     foaf:givenname "A.C." ;
-    foaf:surname "Crundwell" .
+    foaf:familyName "Crundwell" .
     
 _:duell_r a foaf:Person ;
     foaf:givenname "R." ;
-    foaf:surname "Düll" .
+    foaf:familyName "Düll" .
 
 _:hill_mo a foaf:Person ;
     foaf:givenname "M.O." ;
-    foaf:surname "Hill" .
+    foaf:familyName "Hill" .
 
 _:smith_aje a foaf:Person ;
     foaf:givenname "A.J.E." ;
-    foaf:surname "Smith" .
+    foaf:familyName "Smith" .
 
 _:frahm_j-p a foaf:Person ;
     foaf:givenname "J.-P." ;
-    foaf:surname "Frahm" .
+    foaf:familyName "Frahm" .
 
 _:frey_w a foaf:Person ;
     foaf:givenname "W." ;
-    foaf:surname "Frey" .
+    foaf:familyName "Frey" .
 
 _:moenkemeyer_w a foaf:Person ;
     foaf:givenname "W." ;
-    foaf:surname "Mönkemeyer" .
+    foaf:familyName "Mönkemeyer" .
 ```
 
 [TurTLe](https://github.com/tdwg/tcs2/blob/master/examples/amblystegium-sec-koperski-et-al-embedded.ttl) |
@@ -1010,7 +1010,7 @@ _:1927_Hygroamblystegium a tcs:TaxonConcept ;
             dcterms:title "Kryptogamenflora von Deutschland, Österreich und der Schweiz" ;
             bibo:editor [ a foaf:Person ;
                     foaf:givenname "G.L." ;
-                    foaf:surname "Rabenhorst" ] ] ;
+                    foaf:familyName "Rabenhorst" ] ] ;
     dcterms:publisher [ a foaf:Organization ;
             address:localityName "Leipzig" ;
             foaf:name "Geest & Portig" ] ;
@@ -1021,51 +1021,51 @@ _:1927_Hygroamblystegium a tcs:TaxonConcept ;
 
 _:koperski_m a foaf:Person ;
     foaf:givenname "Monica" ;
-    foaf:surname "Koperski" .
+    foaf:familyName "Koperski" .
 
 _:sauer_m a foaf:Person ;
     foaf:givenname "Michael" ;
-    foaf:surname "Sauer" .
+    foaf:familyName "Sauer" .
 
 _:braun_w a foaf:Person ;
     foaf:givenname "Walter" ;
-    foaf:surname "Braun" .
+    foaf:familyName "Braun" .
 
 _:gradstein_sr a foaf:Person ;
     foaf:givenname "S. Rob" ;
-    foaf:surname "Gradstein" .
+    foaf:familyName "Gradstein" .
 
 _:corley_mfv a foaf:Person ;
     foaf:givenname "M.F.V." ;
-    foaf:surname "Corley" .
+    foaf:familyName "Corley" .
 
 _:crundwell_ac a foaf:Person ;
     foaf:givenname "A.C." ;
-    foaf:surname "Crundwell" .
+    foaf:familyName "Crundwell" .
     
 _:duell_r a foaf:Person ;
     foaf:givenname "R." ;
-    foaf:surname "Düll" .
+    foaf:familyName "Düll" .
 
 _:hill_mo a foaf:Person ;
     foaf:givenname "M.O." ;
-    foaf:surname "Hill" .
+    foaf:familyName "Hill" .
 
 _:smith_aje a foaf:Person ;
     foaf:givenname "A.J.E." ;
-    foaf:surname "Smith" .
+    foaf:familyName "Smith" .
 
 _:frahm_j-p a foaf:Person ;
     foaf:givenname "J.-P." ;
-    foaf:surname "Frahm" .
+    foaf:familyName "Frahm" .
 
 _:frey_w a foaf:Person ;
     foaf:givenname "W." ;
-    foaf:surname "Frey" .
+    foaf:familyName "Frey" .
 
 _:moenkemeyer_w a foaf:Person ;
     foaf:givenname "W." ;
-    foaf:surname "Mönkemeyer" .
+    foaf:familyName "Mönkemeyer" .
 ```
 
 ## Full code in GitHub

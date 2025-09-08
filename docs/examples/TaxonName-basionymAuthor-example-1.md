@@ -22,7 +22,7 @@ TaxonName-basionymAuthor-example-1 | [TaxonName-basionymAuthor-example-2](./Taxo
 
 <https://tropicos.org/person/2011> a foaf:Person ;
     foaf:givenName "Jean Édouard Gabriel Narcisse" ;
-    foaf:surname "Paris" .
+    foaf:familyName "Paris" .
 
 _:b1 a rdf:Seq ;
     rdf:_1 <https://tropicos.org/person/3> ;
@@ -30,11 +30,11 @@ _:b1 a rdf:Seq ;
 
 <https://tropicos.org/person/3> a foaf:Person ;
     foaf:givenName "Joseph Dalton" ;
-    foaf:surname "Hooker" .
+    foaf:familyName "Hooker" .
 
 <https://tropicos.org/person/10481> a foaf:Person ;
     foaf:givenName "William" ;
-    foaf:surname "Wilson" .
+    foaf:familyName "Wilson" .
 ```
 
 [&#91;TurTLe&#93;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonName-basionymAuthor-example-1.ttl)&nbsp;[&#91;JSON-LD&#93;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonName-basionymAuthor-example-1.jsonld)

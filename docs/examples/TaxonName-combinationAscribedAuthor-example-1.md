@@ -15,11 +15,11 @@
 
 <https://tropicos.org/person/2> a foaf:Person ;
     foaf:givenName "Johann Karl (Carl) August (Friedrich Wilhelm)" ;
-    foaf:surname "Müller" .
+    foaf:familyName "Müller" .
 
 <https://tropicos.org/person/973> a foaf:Person ;
     foaf:givenName "Alexander Karl (Carl) Heinrich" ;
-    foaf:surname "Braun" .
+    foaf:familyName "Braun" .
 ```
 
 [&#91;TurTLe&#93;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonName-combinationAscribedAuthor-example-1.ttl)&nbsp;[&#91;JSON-LD&#93;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonName-combinationAscribedAuthor-example-1.jsonld)

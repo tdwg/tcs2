@@ -32,11 +32,11 @@ TaxonConcept-accordingTo-example-1 | [TaxonConcept-accordingTo-example-2](./Taxo
 
 <https://orcid.org/0000-0001-7089-7018> a foaf:Person ;
     foaf:givenName "Nico M." ;
-    foaf:surname "Franz" .
+    foaf:familyName "Franz" .
 
 <https://orcid.org/0000-0002-2469-8162> a foaf:Person ;
     foaf:givenName "Juliana" ;
-    foaf:surname "Cardona-Duque*" .
+    foaf:familyName "Cardona-Duque*" .
 ```
 
 [&#91;TurTLe&#93;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-accordingTo-example-1.ttl)&nbsp;[&#91;JSON-LD&#93;](https://github.com/tdwg/tcs2/blob/master/examples/TaxonConcept-accordingTo-example-1.jsonld)

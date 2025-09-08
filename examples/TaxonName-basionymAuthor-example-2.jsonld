@@ -7,7 +7,7 @@
     "type": "foaf:Person",
     "id": "http://www.wikidata.org/entity/Q1043",
     "foaf:givenName": "Carl",
-    "foaf:surname": "Linnaeus"
+    "foaf:familyName": "Linnaeus"
   },
   "basionym": {
     "type": "TaxonName",

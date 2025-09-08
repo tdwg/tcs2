@@ -49,7 +49,7 @@
       "dwciri:recordedBy": {
         "type": "foaf:Person",
         "foaf:givenName": "David",
-        "foaf:surname": "Densmore"
+        "foaf:familyName": "Densmore"
       },
       "dsw:atEvent": {
         "type": "dwc:Event",
@@ -82,7 +82,7 @@
       "id": "https://www.wikidata.org/wiki/Q18982613",
       "type": "foaf:Agent",
       "foaf:givenName": "George",
-      "foaf:surname": "Argus",
+      "foaf:familyName": "Argus",
       "rdfs:comment": "One of the most experienced salicologists in US history"
     }
   ]

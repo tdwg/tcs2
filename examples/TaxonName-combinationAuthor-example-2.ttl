@@ -10,5 +10,5 @@
 
 <http://www.wikidata.org/entity/Q1043> a foaf:Person ;
     foaf:givenName: "Carl" ;
-    foaf:surname "Linnaeus" .
+    foaf:familyName "Linnaeus" .
 
