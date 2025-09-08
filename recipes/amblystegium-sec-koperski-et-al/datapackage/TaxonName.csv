@@ -1,4 +1,4 @@
-ID,nameString,scientificNameAuthorship,namePublishedInLiteral,namePublishedInYear,nomenclaturalStatus,basionymID,replacedNameID,basedOnID
+ID,nameString,scientificNameAuthorship,namePublishedIn,namePublishedInYear,nomenclaturalStatus,basionymID,replacedNameID,basedOnID
 https://www.tropicos.org/name/35000039,Amblystegiella,Loeske,Moosfl. Harz.: 294 (1903),,superfluous,,,
 https://www.tropicos.org/name/35000040,Amblystegium,Schimp.,Bryol. Eur. 6: 45 (1853),,,,,
 https://www.tropicos.org/name/35102672,Amblystegium sect. Leptodictyum,(Schimp.) Mönk.,Laubm. Eur.: 730 (1927),,,https://www.tropicos.org/name/35102656,,

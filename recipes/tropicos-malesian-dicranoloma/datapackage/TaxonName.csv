@@ -1,4 +1,4 @@
-ID,nameString,scientificNameAuthorship,namePublishedInLiteral,namePublishedInYear,nomenclaturalStatus,basionymID,replacedNameID,basedOnID
+ID,nameString,scientificNameAuthorship,namePublishedIn,namePublishedInYear,nomenclaturalStatus,basionymID,replacedNameID,basedOnID
 https://tropicos.org/name/35121455,Dicranoloma arfakianum,(Geh.) Renauld,,,legitimate,https://tropicos.org/name/35121903,,
 https://tropicos.org/name/35121903,Dicranum arfakianum,Geh.,Bibliotheca Botanica 44: 3. 1. 1898. (Biblioth. Bot.),,legitimate,,,
 https://tropicos.org/name/35154836,Leucoloma arfakianum,Broth.,Die Natürlichen Pflanzenfamilien I(3): 322. 1901. (Nat. Pflanzenfam.),,legitimate,https://tropicos.org/name/35121903,,

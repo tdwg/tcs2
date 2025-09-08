@@ -1,4 +1,8 @@
-subjectTaxonConcept,mappingRelation,objectTaxonConcept,source,creator,created
+subjectTaxonConceptID,mappingRelation,objectTaxonConceptID,sourceID,creator,created
+_:2000-Conardia,isCongruentWith,_:1981-Conardia,https://www.tropicos.org/reference/9022656,,
+_:2000-Conardia,isIncludedIn,_:1992-Rhynchostegiella,https://www.tropicos.org/reference/9022656,,
+_:2000-Conardia,isIncludedIn,_:1927-Amblystegium,https://www.tropicos.org/reference/9022656,,
+_:2000-Conardia,isIncludedIn,_:1980-Amblystegium,https://www.tropicos.org/reference/9022656,,
 _:2000-Campylium,isCongruentWith,_:1981-Campylium,https://tropicos.org/reference/9022656,,
 _:2000-Campylium,includes,_:1980-Campylium,https://tropicos.org/reference/9022656,,
 _:2000-Campylium,partiallyOverlaps,_:1927-Chrysohypnum,https://tropicos.org/reference/9022656,,

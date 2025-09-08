@@ -58,24 +58,24 @@
         "primaryKey": ["ID"],
         "foreignKeys": [
           {
-            "fields": ["taxonNameID"],
+            "fields": "taxonNameID",
             "reference": {
               "resource": "TaxonName",
-              "fields": ["ID"]
+              "fields": "ID"
             }
           },
           {
-            "fields": ["accordingToID"],
+            "fields": "accordingToID",
             "reference": {
               "resource": "BibliographicResource",
               "fields": "ID"
             }
           },
           {
-            "fields": ["parentID"],
+            "fields": "parentID",
             "reference": {
               "resource": "TaxonConcept",
-              "fields": ["ID"]
+              "fields": "ID"
             }
           }
         ]
@@ -138,10 +138,17 @@
         ],
         "foreignKeys": [
           {
-            "fields": ["subjectTaxonConceptID"],
+            "fields": "subjectTaxonConceptID",
             "reference": {
               "resource": "TaxonConcept",
-              "fields": ["ID"]
+              "fields": "ID"
+            }
+          },
+          {
+            "fields": "objectTaxonConceptID",
+            "reference": {
+              "resource": "TaxonConcept",
+              "fields": "ID"
             }
           }
         ]
@@ -210,24 +217,24 @@
         "primaryKey": ["ID"],
         "foreignKeys": [
           {
-            "fields": ["basionymID"],
+            "fields": "basionymID",
             "reference": {
               "resource": "TaxonName",
-              "fields": ["ID"]
+              "fields": "ID"
             }
           },
           {
-            "fields": ["replacedNameID"],
+            "fields": "replacedNameID",
             "reference": {
               "resource": "TaxonName",
-              "fields": ["ID"]
+              "fields": "ID"
             }
           },
           {
-            "fields": ["basedOnID"],
+            "fields": "basedOnID",
             "reference": {
               "resource": "TaxonName",
-              "fields": ["ID"]
+              "fields": "ID"
             }
           }
         ]
@@ -259,17 +266,17 @@
         ],
         "foreignKeys": [
           {
-            "fields": ["taxonConceptID"],
+            "fields": "taxonConceptID",
             "reference": {
               "resource": "TaxonConcept",
-              "fields": ["ID"]
+              "fields": "ID"
             }
           },
           {
-            "fields": ["taxonNameID"],
+            "fields": "taxonNameID",
             "reference": {
               "resource": "TaxonName",
-              "fields": ["ID"]
+              "fields": "ID"
             }
           }
         ]
@@ -326,38 +333,38 @@
         ],
         "foreignKeys": [
           {
-            "field": ["typifiedNameID"],
+            "field": "typifiedNameID",
             "references": {
               "resource": "TaxonName",
-              "field": ["ID"]
+              "field": "ID"
             }
           },
           {
-            "field": ["typeNameID"],
+            "field": "typeNameID",
             "references": {
               "resource": "TaxonName",
-              "field": ["ID"]
+              "field": "ID"
             }
           },
           {
-            "field": ["typeSpecimenID"],
+            "field": "typeSpecimenID",
             "references": {
               "resource": "TypeSpecimen",
-              "field": ["ID"]
+              "field": "ID"
             }
           },
           {
-            "field": ["typePublishedInID"],
+            "field": "typePublishedInID",
             "references": {
               "resource": "BibliographicResource",
               "field": ["ID"]
             }
           },
           {
-            "field": ["sourceID"],
+            "field": "sourceID",
             "references": {
               "resource": "BibliographicResource",
-              "field": ["ID"]
+              "field": "ID"
             }
           }
         ]
@@ -464,10 +471,10 @@
         ],
         "foreignKeys": [
           {
-            "fields": ["taxonConceptID"],
+            "fields": "taxonConceptID",
             "reference": {
               "resource": "TaxonConcept",
-              "fields": ["ID"]
+              "fields": "ID"
             }
           }
         ]

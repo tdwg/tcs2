@@ -1,4 +1,4 @@
-subjectTaxonConcept,mappingRelation,objectTaxonConcept,source,creator,created
+subjectTaxonConceptID,mappingRelation,objectTaxonConceptID,sourceID,creator,created
 _:1994-begonia-sect-mezierea,intersects,_:1894-begonia-sect-mezierea,https://doi/org/10.2307/3668252,,
 _:1994-begonia-sect-mezierea,intersects,_:1925-begonia-sect-mezierea,https://doi/org/10.2307/3668252,,
 _:1994-begonia-comorensis,intersects,_:1894-begonia-comorensis,https://doi/org/10.2307/3668252,,

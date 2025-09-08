@@ -1,4 +1,4 @@
-ID,nameString,scientificNameAuthorship,namePublishedInLiteral,namePublishedInYear,nomenclaturalStatus,basionymID,replacedNameID,basedOnID
+ID,nameString,scientificNameAuthorship,namePublishedIn,namePublishedInYear,nomenclaturalStatus,basionymID,replacedNameID,basedOnID
 https://ipni.org/n/30001382-2,Aspleniaceae,Newman,Hist. Brit. Ferns 6,1840,,,,
 https://ipni.org/n/30000361-2,Athyriaceae,Alston,Taxon 5: 25,1956,,,,
 https://ipni.org/n/30002151-2,Blechnaceae,Newman,"Hist. Brit. Ferns, ed. 2 8",1844,,,,
