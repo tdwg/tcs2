@@ -588,7 +588,7 @@
       "bibo:handle": "Pichi Sermolli 1977",
       "dcterms:title": "Tentamen Pteridophytorum genera in taxonomicum ordinem redigendi",
       "dcterms:bibliographicCitation": "Pichi Sermolli, R.E.G. (1977). Tentamen Pteridophytorum genera in taxonomicum ordinem redigendi 31: 313-512.",
-      "dcterms:creator":         "https://ipni.org/a/7667-1",
+      "dcterms:creator": "https://ipni.org/a/7667-1",
       "bibo:authorList": {
         "@list": [
           "https://ipni.org/a/7667-1"
@@ -615,7 +615,7 @@
       "bibo:handle": "Nayar 1970",
       "dcterms:title": "A phylogenetic classification of the homosporous ferns",
       "dcterms:bibliographicCitation": "Nayar, B.K. (1970). A phylogenetic classification of the homosporous ferns. Taxon 19: 229-236.",
-      "dcterms:creator":         "https://ipni.org/a/23960-1",
+      "dcterms:creator": "https://ipni.org/a/23960-1",
       "bibo:authorList": {
         "@list": [
           "https://ipni.org/a/23960-1"
@@ -641,97 +641,97 @@
     {
       "id": "https://orcid.org/0000-0003-1398-8743",
       "type": "foaf:Person",
-      "foaf:givenname": "Maarten J.M.",
+      "foaf:givenName": "Maarten J.M.",
       "foaf:familyName": "Christenhusz"
     },
     {
       "id": "https://ipni.org/a/4063-1",
       "type": "foaf:Person",
-      "foaf:givenname": "Richard Eric",
+      "foaf:givenName": "Richard Eric",
       "foaf:familyName": "Holttum"
     },
     {
       "id": "https://ipni.org/a/14414-1",
       "type": "foaf:Person",
-      "foaf:givenname": "Masahiro",
+      "foaf:givenName": "Masahiro",
       "foaf:familyName": "Kato"
     },
     {
       "id": "https://orcid.org/0000-0002-6677-5234",
       "type": "foaf:Person",
-      "foaf:givenname": "Petra",
+      "foaf:givenName": "Petra",
       "foaf:familyName": "Korall"
     },
     {
       "id": "https://ipni.org/a/20030162-1",
       "type": "foaf:Person",
-      "foaf:givenname": "L-Jaung",
+      "foaf:givenName": "L-Jaung",
       "foaf:familyName": "Kuo"
     },
     {
       "id": "_:b50",
       "type": "foaf:Person",
-      "foaf:givenname": "Anders",
+      "foaf:givenName": "Anders",
       "foaf:familyName": "Larsson"
     },
     {
       "id": "https://ipni.org/a/23960-1",
       "type": "foaf:Person",
-      "foaf:givenname": "Bala Krishnan",
+      "foaf:givenName": "Bala Krishnan",
       "foaf:familyName": "Nayar"
     },
     {
       "id": "https://ipni.org/a/7667-1",
       "type": "foaf:Person",
-      "foaf:givenname": "Rodolfo Emilio Giuseppe",
+      "foaf:givenName": "Rodolfo Emilio Giuseppe",
       "foaf:familyName": "Pichi Sermolli"
     },
     {
       "id": "https://orcid.org/0000-0002-9776-6736",
       "type": "foaf:Person",
-      "foaf:givenname": "Kathleen M.",
+      "foaf:givenName": "Kathleen M.",
       "foaf:familyName": "Pryer"
     },
     {
       "id": "https://orcid.org/0000-0002-6605-1770",
       "type": "foaf:Person",
-      "foaf:givenname": "Carl J.",
+      "foaf:givenName": "Carl J.",
       "foaf:familyName": "Rothfels"
     },
     {
       "id": "https://ipni.org/a/40553-1",
       "type": "foaf:Person",
-      "foaf:givenname": "Harald",
+      "foaf:givenName": "Harald",
       "foaf:familyName": "Schneider"
     },
     {
       "id": "https://orcid.org/0000-0003-3891-9904",
       "type": "foaf:Person",
-      "foaf:givenname": "Eric",
+      "foaf:givenName": "Eric",
       "foaf:familyName": "Schuetpelz"
     },
     {
       "id": "https://ipni.org/a/9771-1",
       "type": "foaf:Person",
-      "foaf:givenname": "Alan R.",
+      "foaf:givenName": "Alan R.",
       "foaf:familyName": "Smith"
     },
     {
       "id": "https://orcid.org/0000-0003-1568-150X",
       "type": "foaf:Person",
-      "foaf:givenname": "Michael E.",
+      "foaf:givenName": "Michael E.",
       "foaf:familyName": "Sundue"
     },
     {
       "id": "_:b53",
       "type": "foaf:Person",
-      "foaf:givenname": "Paul G.",
+      "foaf:givenName": "Paul G.",
       "foaf:familyName": "Wolf"
     },
     {
       "id": "https://orcid.org/0000-0003-3425-1011",
       "type": "foaf:Person",
-      "foaf:givenname": "Xian-Chun",
+      "foaf:givenName": "Xian-Chun",
       "foaf:familyName": "Zhang"
     }
   ]

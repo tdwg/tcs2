@@ -1,14 +1,14 @@
 ID,type,bibo:handle,dcterms:title,dcterms:bibliographicCitation,dcterms:creator,dcterms:date,bibo:publisher,bibo:volume,bibo:issue,bibo:pageStart,bibo:pageEnd,bibo:pages,bibo:numPages,bibo:number,bibo:isbn,bibo:isbn10,bibo:isbn13,bibo:issn,bibo:doi,dcterms:isPartOf
-_:br728062,bibo:Issue,,,,,2012,,61,3,,,,,,,,,,,https://ipni.org/p/812-2
-https://doi.org/10.1002/tax.613003,bibo:AcademicArticle,Rothfels et al. 2012,A revised family–level classification for eupolypod II ferns (Polypodiidae: Polypodiales),"Rothfels, C.J.; Sundue, M.E.; Kuo, L.-J.; Larsson, A.; Kato, M.; Schuetpelz, E.; Pryer, K.M. (2012). A revised family–level classification for eupolypod II ferns (Polypodiidae: Polypodiales). Taxon 513-533.",_:a616528,2012,,,,,,513-533,,,,,,,10.1002/tax.613003,_:br728062
+_:br021444,bibo:Issue,,,,,2012,,61,3,,,,,,,,,,,https://ipni.org/p/812-2
+https://doi.org/10.1002/tax.613003,bibo:AcademicArticle,Rothfels et al. 2012,A revised family–level classification for eupolypod II ferns (Polypodiidae: Polypodiales),"Rothfels, C.J.; Sundue, M.E.; Kuo, L.-J.; Larsson, A.; Kato, M.; Schuetpelz, E.; Pryer, K.M. (2012). A revised family–level classification for eupolypod II ferns (Polypodiidae: Polypodiales). Taxon 513-533.",_:a830966,2012,,,,,,513-533,,,,,,,10.1002/tax.613003,_:br021444
 https://ipni.org/p/20011462-1,bibo:Journal,,Phytotaxa,,,,,,,,,,,,,,,1179-3155,,
-_:br998327,bibo:Issue,,,,,2011,,,,,,,,,,,,,,https://ipni.org/p/20011462-1
-https://doi.org/10.11646/phytotaxa.19.1.2,bibo:AcademicArticle,Christenhusz et al. 2011,A linear sequence of extant families and genera of lycophytes and ferns,"Christenhusz, M.J.M.; Zhang, X.-C.; Schneider, H. (2011). A linear sequence of extant families and genera of lycophytes and ferns. Phytotaxa 19: 7-54.",_:a587034,2011,,,,,,7-54,,,,,,,10.11646/phytotaxa.19.1.2,_:br998327
-_:br856642,bibo:Issue,,,,,2006,,55,3,,,,,,,,,,,https://ipni.org/p/812-2
-https://doi.org/10.2307/25065646,bibo:AcademicArticle,Smith et al. 2006,A classification for extant ferns,"Smith, A.R.; Pryer, K.M.; Schuetpelz, E.; Korall, P.; Schneider, H.; Wolf, P.G. (2006). A classification for extant ferns. Taxon 55: 705-731.",_:a356243,2006,,,,,,705-731,,,,,,,10.2307/25065646,_:br856642
+_:br214527,bibo:Issue,,,,,2011,,,,,,,,,,,,,,https://ipni.org/p/20011462-1
+https://doi.org/10.11646/phytotaxa.19.1.2,bibo:AcademicArticle,Christenhusz et al. 2011,A linear sequence of extant families and genera of lycophytes and ferns,"Christenhusz, M.J.M.; Zhang, X.-C.; Schneider, H. (2011). A linear sequence of extant families and genera of lycophytes and ferns. Phytotaxa 19: 7-54.",_:a424472,2011,,,,,,7-54,,,,,,,10.11646/phytotaxa.19.1.2,_:br214527
+_:br235999,bibo:Issue,,,,,2006,,55,3,,,,,,,,,,,https://ipni.org/p/812-2
+https://doi.org/10.2307/25065646,bibo:AcademicArticle,Smith et al. 2006,A classification for extant ferns,"Smith, A.R.; Pryer, K.M.; Schuetpelz, E.; Korall, P.; Schneider, H.; Wolf, P.G. (2006). A classification for extant ferns. Taxon 55: 705-731.",_:a678599,2006,,,,,,705-731,,,,,,,10.2307/25065646,_:br235999
 https://ipni.org/p/826-2,bibo:Journal,,Webbia,,,,,,,,,,,,,,,,,
-_:br438718,bibo:Issue,,,,,1977,,31,2,,,,,,,,,,,https://ipni.org/p/826-2
-https://doi.org/10.1080/00837792.1977.10670077,bibo:AcademicArticle,Pichi Sermolli 1977,Tentamen Pteridophytorum genera in taxonomicum ordinem redigendi,"Pichi Sermolli, R.E.G. (1977). Tentamen Pteridophytorum genera in taxonomicum ordinem redigendi 31: 313-512.",https://ipni.org/a/7667-1,1977,,,,,,313-512,,,,,,,10.1080/00837792.1977.10670077,_:br438718
-_:br312405,bibo:Issue,,,,,1970,,19,2,,,,,,,,,,,https://ipni.org/p/812-2
-https://doi.org/10.2307/1217958,bibo:AcademicArticle,Nayar 1970,A phylogenetic classification of the homosporous ferns,"Nayar, B.K. (1970). A phylogenetic classification of the homosporous ferns. Taxon 19: 229-236.",https://ipni.org/a/23960-1,1970,,,,,,229-236,,,,,,,10.2307/1217958,_:br312405
+_:br491595,bibo:Issue,,,,,1977,,31,2,,,,,,,,,,,https://ipni.org/p/826-2
+https://doi.org/10.1080/00837792.1977.10670077,bibo:AcademicArticle,Pichi Sermolli 1977,Tentamen Pteridophytorum genera in taxonomicum ordinem redigendi,"Pichi Sermolli, R.E.G. (1977). Tentamen Pteridophytorum genera in taxonomicum ordinem redigendi 31: 313-512.",https://ipni.org/a/7667-1,1977,,,,,,313-512,,,,,,,10.1080/00837792.1977.10670077,_:br491595
+_:br891081,bibo:Issue,,,,,1970,,19,2,,,,,,,,,,,https://ipni.org/p/812-2
+https://doi.org/10.2307/1217958,bibo:AcademicArticle,Nayar 1970,A phylogenetic classification of the homosporous ferns,"Nayar, B.K. (1970). A phylogenetic classification of the homosporous ferns. Taxon 19: 229-236.",https://ipni.org/a/23960-1,1970,,,,,,229-236,,,,,,,10.2307/1217958,_:br891081
 https://ipni.org/p/812-2,bibo:Journal,,Taxon,,,,,,,,,,,,,,,1996-8175,,
