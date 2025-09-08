@@ -1071,15 +1071,15 @@
       "dcterms:title": "Begonia sect. Mezierea (Gaud.) Warb., a taxonomic revision",
       "dcterms:bibliographicCitation": "Klazenga, N.; de Wilde, J.J.F.E., Quené, R.J. (1994), Begonia sect. Mezierea (Gaud.) Warb., a taxonomic revision. Bulletin du Jardin botanique national de Belgique / Bulletin van de Nationale Plantentuin van België 63:263-312",
       "dcterms:creator": [
-        { "id": "https://orcid.org/0000-0003-2224-6821" },
-        { "id": "https://www.wikidata.org/wiki/Q21387987" },
-        { "id": "https://www.wikidata.org/wiki/Q21394461" }
+        "https://orcid.org/0000-0003-2224-6821",
+        "https://www.wikidata.org/wiki/Q21387987",
+        "https://www.wikidata.org/wiki/Q21394461"
       ],
       "bibo:authorList": {
         "@list": [
-          { "id": "https://orcid.org/0000-0003-2224-6821" },
-          { "id": "https://www.wikidata.org/wiki/Q21387987" },
-          { "id": "https://www.wikidata.org/wiki/Q21394461" }
+          "https://orcid.org/0000-0003-2224-6821",
+          "https://www.wikidata.org/wiki/Q21387987",
+          "https://www.wikidata.org/wiki/Q21394461"
         ]
       },
       "dcterms:isPartOf": {
@@ -1103,23 +1103,23 @@
       "dcterms:title": "Fam. Begoniaceae",
       "dcterms:bibliographicCitation": "Engler, A. (1921). Fam. Begoniaceae Die Pflanzenwelt Afrikas, insbesondere seiner tropischen Gebiete: Grundzüge der Pflanzenverbreitung im Afrika und die Charakterpflanzen Afrikas. W. Engelmann, Leipzig.",
       "dcterms:creator": [
-        { "id": "https://www.wikidata.org/wiki/Q60718" }
+        "https://www.wikidata.org/wiki/Q60718"
       ],
       "bibo:authorList": {
         "@list": [
-          { "id": "https://www.wikidata.org/wiki/Q60718" }
+          "https://www.wikidata.org/wiki/Q60718"
         ]
       },
       "dcterms:isPartOf": {
         "type": "bibo:Book",
         "bibo:editor": [
-          { "id": "https://www.wikidata.org/wiki/Q60718" },
-          { "id": "https://www.wikidata.org/wiki/Q63040"}
+          "https://www.wikidata.org/wiki/Q60718",
+          "https://www.wikidata.org/wiki/Q63040"
         ],
         "bibo:editorList": {
           "@list": [
-            { "id": "https://www.wikidata.org/wiki/Q60718" },
-            { "id": "https://www.wikidata.org/wiki/Q63040"}
+            "https://www.wikidata.org/wiki/Q60718",
+            "https://www.wikidata.org/wiki/Q63040"
           ]
         },
         "dcterms:date": "1921",
@@ -1144,11 +1144,11 @@
       "dcterms:title": "Begoniaceae",
       "dcterms:bibliographicCitation": "Warburg, O. (1894). Begoniaceae. In: Engler, A. & K. Prantl (ed.), Die natürlichen Pflanzenfamilien 3(6a): 121-150.",
       "dcterms:creator": [
-        { "id": "https://www.wikidata.org/wiki/Q62822" }
+        "https://www.wikidata.org/wiki/Q62822"
       ],
       "bibo:authorList": {
         "@list": [
-          { "id": "https://www.wikidata.org/wiki/Q62822" }
+          "https://www.wikidata.org/wiki/Q62822"
         ]
       },
       "dcterms:isPartOf": {
@@ -1159,13 +1159,13 @@
           "dcterms:title": "Die natürlichen Pflanzenfamilien",
           "bibo:shortTitle": "Nat. Pfl.",
           "bibo:editor": [
-            { "id": "https://www.wikidata.org/wiki/Q60718" },
-            { "id": "https://www.wikidata.org/wiki/Q64995" }
+            "https://www.wikidata.org/wiki/Q60718",
+            "https://www.wikidata.org/wiki/Q64995"
           ],
           "bibo:editorList": {
             "@list": [
-              { "id": "https://www.wikidata.org/wiki/Q60718" },
-              { "id": "https://www.wikidata.org/wiki/Q64995" }
+              "https://www.wikidata.org/wiki/Q60718",
+              "https://www.wikidata.org/wiki/Q64995"
             ]
           }
         },
@@ -1181,11 +1181,11 @@
       "dcterms:title": "Begoniaceae africanae",
       "dcterms:bibliographicCitation": "Warburg, O (1895). Begoniaceae africanae. Bot. Jahrb. Syst. 22: 32-45.",
       "dcterms:creator": [
-        { "id": "https://www.wikidata.org/wiki/Q62822" }
+        "https://www.wikidata.org/wiki/Q62822"
       ],
       "bibo:authorList": {
         "@list": [
-          { "id": "https://www.wikidata.org/wiki/Q62822" }
+          "https://www.wikidata.org/wiki/Q62822"
         ]
       },
       "dcterms:isPartOf": {
@@ -1206,11 +1206,11 @@
       "dcterms:title": "Famille 144 – Begoniacées",
       "dcterms:bibliographicCitation": "Keraudren-Aymoni, M. (1983). Famille 144 – Begoniacées. Flore de Madagascar et des Comores, pp. 7-108.",
       "dcterms:creator": [
-        { "id": "https://www.wikidata.org/wiki/Q10331852" }
+        "https://www.wikidata.org/wiki/Q10331852"
       ],
       "bibo:authorList": {
-          "@list": [
-          { "id": "https://www.wikidata.org/wiki/Q10331852" }
+        "@list": [
+          "https://www.wikidata.org/wiki/Q10331852"
         ]
       },
       "dcterms:date": "1983",
@@ -1227,11 +1227,11 @@
       "dcterms:title": "Begoniaceae",
       "dcterms:bibliographicCitation": "Irmscher, E. (1925). Begoniaceae. In: Engler, A. & K. Prantl (eds.), Die natürlichen Pflanzenfamilien, ed. 2, 21:121-150.",
       "dcterms:creator": [
-        { "id": "https://www.wikidata.org/wiki/Q8771887" }
+        "https://www.wikidata.org/wiki/Q8771887"
       ],
       "bibo:authorList": {
         "@list": [
-          { "id": "https://www.wikidata.org/wiki/Q8771887" }
+          "https://www.wikidata.org/wiki/Q8771887"
         ]
       },
       "dcterms:isPartOf": {
@@ -1242,13 +1242,13 @@
           "dcterms:title": "Die natürlichen Pflanzenfamilien",
           "bibo:shortTitle": "Nat. Pflanzenfam.",
           "bibo:editor": [
-            { "id": "https://www.wikidata.org/wiki/Q60718" },
-            { "id": "https://www.wikidata.org/wiki/Q64995" }
+            "https://www.wikidata.org/wiki/Q60718",
+            "https://www.wikidata.org/wiki/Q64995"
           ],
           "bibo:editorList": {
             "@list": [
-              { "id": "https://www.wikidata.org/wiki/Q60718" },
-              { "id": "https://www.wikidata.org/wiki/Q64995" }
+              "https://www.wikidata.org/wiki/Q60718",
+              "https://www.wikidata.org/wiki/Q64995"
             ]
           },
           "bibo:edition": "2"

@@ -551,33 +551,17 @@
       "dcterms:title": "Referenzliste der Moose Deutschlands, Dokumentation unterschiedlicher taxonomischer Auffassungen",
       "dcterms:bibliographicCitation": "Koperski, M.; Sauer, M.; Braun, W.; Gradstein, S.R. (2000). Referenzliste der Moose Deutschlands, Dokumentation unterschiedlicher taxonomischer Auffassungen. Schriftenreihe für Vegetationskunde 34. Bundersamt für Naturschutz, Bonn-Bad Godesberg. 519 pp. isbn 3-7843-3504-7",
       "dcterms:creator": [
-        {
-          "id": "_:b43"
-        },
-        {
-          "id": "_:b44"
-        },
-        {
-          "id": "_:b45"
-        },
-        {
-          "id": "_:b46"
-        }
+        "_:b43",
+        "_:b44",
+        "_:b45",
+        "_:b46"
       ],
       "bibo:authorList": {
         "@list": [
-          {
-            "id": "_:b43"
-          },
-          {
-            "id": "_:b44"
-          },
-          {
-            "id": "_:b45"
-          },
-          {
-            "id": "_:b46"
-          }
+          "_:b43",
+          "_:b44",
+          "_:b45",
+          "_:b46"
         ]
       },
       "dcterms:date": "2000",
@@ -602,39 +586,19 @@
       "dcterms:title": "Mosses of Europe and the Azores; an annotated list of species, with synonyms from the recent literature",
       "dcterms:bibliographicCitation": "Corley, M.F.V.; Crundwell, A.C.; Düll, D.; Hill, M.O.; Smith, A.J.E. (1981). Journal of Bryology 11: 609-689.",
       "dcterms:creator": [
-        {
-          "id": "_:b57"
-        },
-        {
-          "id": "_:b58"
-        },
-        {
-          "id": "_:b59"
-        },
-        {
-          "id": "_:b60"
-        },
-        {
-          "id": "_:b61"
-        }
+        "_:b57",
+        "_:b58",
+        "_:b59",
+        "_:b60",
+        "_:b61"
       ],
       "bibo:authorList": {
         "@list": [
-          {
-            "id": "_:b57"
-          },
-          {
-            "id": "_:b58"
-          },
-          {
-            "id": "_:b59"
-          },
-          {
-            "id": "_:b60"
-          },
-          {
-            "id": "_:b61"
-          }
+          "_:b57",
+          "_:b58",
+          "_:b59",
+          "_:b60",
+          "_:b61"
         ]
       },
       "dcterms:isPartOf": {
@@ -657,21 +621,13 @@
       "dcterms:title": "Additions and amendments of the mosses of Europe and the Azores",
       "dcterms:bibliographicCitation": "Corley, M.F.V.; Crundwell, A.C. (1991). Additions and amendments of the mosses of Europe and the Azores. Journal of Bryology 16: 337-356.",
       "dcterms:creator": [
-        {
-          "id": "_:b57"
-        },
-        {
-          "id": "_:b58"
-        }
+        "_:b57",
+        "_:b58"
       ],
       "bibo:authorList": {
         "@list": [
-          {
-            "id": "_:b57"
-          },
-          {
-            "id": "_:b58"
-          }
+          "_:b57",
+          "_:b58"
         ]
       },
       "dcterms:isPartOf": {
@@ -694,21 +650,13 @@
       "dcterms:title": "Moosflora",
       "dcterms:bibliographicCitation": "Frahm, J.-P.; Frey, W. (1992). Moosflora. Uni-Taschenb., 3. Aufl. Ulmer, Stuttgart.",
       "dcterms:creator": [
-        {
-          "id": "_:b80"
-        },
-        {
-          "id": "_:b81"
-        }
+        "_:b80",
+        "_:b81"
       ],
       "bibo:authorList": {
         "@list": [
-          {
-            "id": "_:b80"
-          },
-          {
-            "id": "_:b81"
-          }
+          "_:b80",
+          "_:b81"
         ]
       },
       "dcterms:date": "1992",
@@ -731,11 +679,13 @@
       "bibo:handle": "Smith 1978",
       "dcterms:title": "The moss flora of Britain and Ireland",
       "dcterms:bibliographicCitation": "Smith, A.J.E. (1978). The moss flora of Britain and Ireland. Cambridge University Press, Cambridge.",
-      "dcterms:creator": {
-        "id": "_:b61"
-      },
+      "dcterms:creator": [
+        "_:b61"
+      ],
       "bibo:authorList": {
-        "id": "_:b61"
+        "@list": [
+          "_:b61"
+        ]
       },
       "dcterms:date": "1978",
       "dcterms:publisher": {
@@ -750,16 +700,16 @@
       "bibo:handle": "Mönkemeyer 1927",
       "dcterms:title": "Die Laubmoose Europas",
       "dcterms:bibliographicCitation": "Mönkemeyer, W. (1927). Die Laubmoose Europas. In: Rabenhorst, G.L. (ed.), Kryptogamenflora von Deutschland, Österreich und der Schweiz. Geest & Portig, Leipzig",
-      "dcterms:creator": {
-        "id": "_:b89"
-      },
+      "dcterms:creator": [
+        "_:b89"
+      ],
       "dcterms:date": "1927",
       "dcterms:isPartOf": {
         "type": "bibo:Series",
         "dcterms:title": "Kryptogamenflora von Deutschland, Österreich und der Schweiz",
-        "bibo:editor": {
-          "id": "_:b91"
-        }
+        "bibo:editor": [
+          "_:b91"
+        ]
       },
       "dcterms:publisher": {
         "type": "foaf:Organization",
@@ -767,7 +717,9 @@
         "foaf:name": "Geest & Portig"
       },
       "bibo:authorList": {
-        "id": "_:b89"
+        "@list": [
+          "_:b89"
+        ]
       },
       "bibo:numPages": "960",
       "bibo:volume": "Bd. IV"

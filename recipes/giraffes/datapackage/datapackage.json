@@ -58,24 +58,24 @@
         "primaryKey": ["ID"],
         "foreignKeys": [
           {
-            "fields": ["taxonNameID"],
+            "fields": "taxonNameID",
             "reference": {
               "resource": "TaxonName",
-              "fields": ["ID"]
+              "fields": "ID"
             }
           },
           {
-            "fields": ["accordingToID"],
+            "fields": "accordingToID",
             "reference": {
               "resource": "BibliographicResource",
               "fields": "ID"
             }
           },
           {
-            "fields": ["parentID"],
+            "fields": "parentID",
             "reference": {
               "resource": "TaxonConcept",
-              "fields": ["ID"]
+              "fields": "ID"
             }
           }
         ]
@@ -138,10 +138,17 @@
         ],
         "foreignKeys": [
           {
-            "fields": ["subjectTaxonConceptID"],
+            "fields": "subjectTaxonConceptID",
             "reference": {
               "resource": "TaxonConcept",
-              "fields": ["ID"]
+              "fields": "ID"
+            }
+          },
+          {
+            "fields": "objectTaxonConceptID",
+            "reference": {
+              "resource": "TaxonConcept",
+              "fields": "ID"
             }
           }
         ]
@@ -175,8 +182,24 @@
             "type": "string"
           },
           {
+            "name": "namePublishedInLiteral",
+            "type": "string"
+          },
+          {
             "name": "namePublishedInYear",
             "type": "string"
+          },
+          {
+            "name": "nomenclaturalStatus",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "legitimate",
+                "illegitimate",
+                "superfluous",
+                "invalid"
+              ]
+            }
           },
           {
             "name": "basionymID",
@@ -194,24 +217,24 @@
         "primaryKey": ["ID"],
         "foreignKeys": [
           {
-            "fields": ["basionymID"],
+            "fields": "basionymID",
             "reference": {
               "resource": "TaxonName",
-              "fields": ["ID"]
+              "fields": "ID"
             }
           },
           {
-            "fields": ["replacedNameID"],
+            "fields": "replacedNameID",
             "reference": {
               "resource": "TaxonName",
-              "fields": ["ID"]
+              "fields": "ID"
             }
           },
           {
-            "fields": ["basedOnID"],
+            "fields": "basedOnID",
             "reference": {
               "resource": "TaxonName",
-              "fields": ["ID"]
+              "fields": "ID"
             }
           }
         ]
@@ -243,18 +266,181 @@
         ],
         "foreignKeys": [
           {
-            "fields": ["taxonConceptID"],
+            "fields": "taxonConceptID",
             "reference": {
               "resource": "TaxonConcept",
-              "fields": ["ID"]
+              "fields": "ID"
             }
           },
           {
-            "fields": ["taxonNameID"],
+            "fields": "taxonNameID",
             "reference": {
               "resource": "TaxonName",
-              "fields": ["ID"]
+              "fields": "ID"
             }
+          }
+        ]
+      }
+    },
+    {
+      "name": "NomenclaturalType",
+      "path": "NomenclaturalType.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "$schema": "https://datapackage.org/profiles/2.0/tabledialect.json",
+        "fields": [
+          {
+            "name": "typifiedNameID",
+            "type": "string",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "typeOfType",
+            "type": "string",
+            "constraints": {
+              "required": true,
+              "enum": [
+                "holotype",
+                "lectotype",
+                "isotype",
+                "paratype",
+                "originalmaterial",
+                "isolectotype",
+                "syntype"
+              ]
+            }
+          },
+          {
+            "name": "typeNameID",
+            "type": "string"
+          },
+          {
+            "name": "typeSpecimenID",
+            "type": "string"
+          },
+          {
+            "name": "typePublishedIn",
+            "type": "string"
+          },
+          {
+            "name": "source",
+            "type": "string"
+          }
+        ],
+        "foreignKeys": [
+          {
+            "field": "typifiedNameID",
+            "references": {
+              "resource": "TaxonName",
+              "field": "ID"
+            }
+          },
+          {
+            "field": "typeNameID",
+            "references": {
+              "resource": "TaxonName",
+              "field": "ID"
+            }
+          },
+          {
+            "field": "typeSpecimenID",
+            "references": {
+              "resource": "TypeSpecimen",
+              "field": "ID"
+            }
+          },
+          {
+            "field": "typePublishedInID",
+            "references": {
+              "resource": "BibliographicResource",
+              "field": ["ID"]
+            }
+          },
+          {
+            "field": "sourceID",
+            "references": {
+              "resource": "BibliographicResource",
+              "field": "ID"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "TypeSpecimen",
+      "path": "TypeSpecimen.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "$schema": "https://datapackage.org/profiles/2.0/tabledialect.json",
+        "fields": [
+          {
+            "name": "ID",
+            "type": "string",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "type",
+            "type": "string"
+          },
+          {
+            "name": "dwc:country",
+            "type": "string"
+          },
+          {
+            "name": "dwc:stateOrProvince",
+            "type": "string"
+          },
+          {
+            "name": "dwc:island",
+            "type": "string"
+          },
+          {
+            "name": "dwc:verbatimLocality",
+            "type": "string"
+          },
+          {
+            "name": "dwc:habitat",
+            "type": "string"
+          },
+          {
+            "name": "dwc:minimumElevationInMeters",
+            "type": "string"
+          },
+          {
+            "name": "dwc:maximumElevationInMeters",
+            "type": "string"
+          },
+          {
+            "name": "dwc:recordedBy",
+            "type": "string"
+          },
+          {
+            "name": "dwc:recordNumber",
+            "type": "string"
+          },
+          {
+            "name": "dwc:institutionCode",
+            "type": "string"
+          },
+          {
+            "name": "dwc:collectionCode",
+            "type": "string"
+          },
+          {
+            "name": "dwc:catalogNumber",
+            "type": "string"
+          },
+          {
+            "name": "dwc:disposition",
+            "type": "string"
           }
         ]
       }
@@ -285,10 +471,10 @@
         ],
         "foreignKeys": [
           {
-            "fields": ["taxonConceptID"],
+            "fields": "taxonConceptID",
             "reference": {
               "resource": "TaxonConcept",
-              "fields": ["ID"]
+              "fields": "ID"
             }
           }
         ]
@@ -308,68 +494,209 @@
             "type": "string"
           },
           {
-            "name": "referenceTypeType",
+            "name": "type",
             "type": "string"
           },
           {
-            "name": "publicationYear",
+            "name": "bibo:handle",
             "type": "string"
           },
           {
-            "name": "creator",
+            "name": "dcterms:title",
             "type": "string"
           },
           {
-            "name": "title",
+            "name": "dcterms:bibliographicCitation",
             "type": "string"
           },
           {
-            "name": "publicationTitle",
+            "name": "dcterms:creator",
             "type": "string"
           },
           {
-            "name": "isbn",
+            "name": "dcterms:date",
             "type": "string"
           },
           {
-            "name": "issn",
+            "name": "bibo:publisher",
             "type": "string"
           },
           {
-            "name": "doi",
+            "name": "bibo:volume",
             "type": "string"
           },
           {
-            "name": "uri",
+            "name": "bibo:issue",
             "type": "string"
           },
           {
-            "name": "date",
+            "name": "bibo:pageStart",
             "type": "string"
           },
           {
-            "name": "pages",
+            "name": "bibo:pageEnd",
             "type": "string"
           },
           {
-            "name": "numPages",
+            "name": "bibo:pages",
             "type": "string"
           },
           {
-            "name": "issue",
+            "name": "bibo:numPages",
             "type": "string"
           },
           {
-            "name": "volume",
+            "name": "bibo:number",
             "type": "string"
           },
           {
-            "name": "publisher",
+            "name": "bibo:isbn",
             "type": "string"
           },
           {
-            "name": "place",
+            "name": "bibo:isbn10",
             "type": "string"
+          },
+          {
+            "name": "bibo:isbn13",
+            "type": "string"
+          },
+          {
+            "name": "bibo:issn",
+            "type": "string"
+          },
+          {
+            "name": "bibo:doi",
+            "type": "string"
+          },
+          {
+            "name": "dcterms:isPartOf",
+            "type": "string"
+          }
+        ],
+        "primaryKey": "ID",
+        "foreignKeys": {
+          "field": "dcterms:isPartOf",
+          "reference": {
+            "resource": "BibliographicResource",
+            "field": "ID"
+          }
+        }
+      }
+    },
+    {
+      "name": "Agent",
+      "path": "Agent.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "$schema": "https://datapackage.org/profiles/2.0/tabledialect.json",
+        "fields": [
+          {
+            "name": "ID",
+            "type": "string"
+          },
+          {
+            "name": "type",
+            "type": "string"
+          },
+          {
+            "name": "foaf:givenName",
+            "type": "string"
+          },
+          {
+            "name": "foaf:familyName",
+            "type": "string"
+          },
+          {
+            "name": "foaf:name",
+            "type": "string"
+          },
+          {
+            "name": "address:localityName",
+            "type": "string"
+          }
+        ],
+        "primaryKey": "ID"
+      }
+    },
+    {
+      "name": "Author",
+      "path": "Author.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "$schema": "https://datapackage.org/profiles/2.0/tabledialect.json",
+        "fields": [
+          {
+            "name": "bibliographicResourceID",
+            "type": "string"
+          },
+          {
+            "name": "orderNumber",
+            "type": "integer"
+          },
+          {
+            "name": "agentID",
+            "type": "string"
+          },
+          {
+            "name": "isEditor",
+            "type": "boolean"
+          }
+        ],
+        "foreignKeys": [
+          {
+            "field": "bibliographicResourceID",
+            "reference": {
+              "resource": "BibliographicResource",
+              "field": "ID"
+            }
+          },
+          {
+            "field": "agentID",
+            "reference": {
+              "resource": "Agent",
+              "field": "ID"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Author",
+      "path": "Author.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "$schema": "https://datapackage.org/profiles/2.0/tabledialect.json",
+        "fields": [
+          {
+            "name": "groupID",
+            "type": "string"
+          },
+          {
+            "name": "memberID",
+            "type": "string"
+          }
+        ],
+        "foreignKeys": [
+          {
+            "field": "groupID",
+            "reference": {
+              "resource": "Agent",
+              "field": "ID"
+            }
+          },
+          {
+            "field": "memberID",
+            "reference": {
+              "resource": "Agent",
+              "field": "ID"
+            }
           }
         ]
       }

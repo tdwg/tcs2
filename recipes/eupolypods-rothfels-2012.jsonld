@@ -537,6 +537,7 @@
         "type": "bibo:Issue",
         "dcterms:date": "2012",
         "dcterms:isPartOf": {
+          "type": "bibo:Journal",
           "id": "https://ipni.org/p/812-2"
         },
         "bibo:volume": "61",
@@ -701,6 +702,7 @@
         "type": "bibo:Issue",
         "dcterms:date": "1970",
         "dcterms:isPartOf": {
+          "type": "bibo:Taxon",
           "id": "https://ipni.org/p/812-2"
         },
         "bibo:volume": "19",

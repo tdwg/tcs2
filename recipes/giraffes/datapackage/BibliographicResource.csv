@@ -1,4 +1,9 @@
-ID,referenceTypeType,publicationYear,creator,title,publicationTitle,isbn,issn,doi,uri,date,pages,numPages,issue,volume,publisher,place
-V9CRC5X4,report,2025,IUCN SSC Giraffe and Okapi Specialist Group Taxonomic Task Force,An evaluation of the taxonomic status of giraffe (Giraffa spp.),,,,,,2025,,,,,IUCN SSC Giraffe and Okapi Specialist Group,"Windhoek, Namibia"
-P5XRLRJ7,book,2011,"Groves, Colin; Grubb, Peter",Ungulate taxonomy,,978-1-4214-0093-8,,,,2011,,317,,,The John Hopkins University Press,Baltimore
-U6YUW2JG,journalArticle,1904,"Lydekker, R.",On the Subspecies of Giraffa camelopardalis.,Proceedings of the Zoological Society of London,,1469-7998,10.1111/j.1469-7998.1904.tb08288.x,https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1469-7998.1904.tb08288.x,1904,202-229,,1,74,,
+ID,type,bibo:handle,dcterms:title,dcterms:bibliographicCitation,dcterms:creator,dcterms:date,bibo:publisher,bibo:volume,bibo:issue,bibo:pageStart,bibo:pageEnd,bibo:pages,bibo:numPages,bibo:number,bibo:isbn,bibo:isbn10,bibo:isbn13,bibo:issn,bibo:doi,dcterms:isPartOf
+_:br585048,bibo:Journal,,Proceedings of the Zoological Society of London,,,,,,,,,,,,,,,,,
+_:br281534,bibo:Issue,,,,,1904,,,,,,,,,,,,,,_:br585048
+https://doi.org/10.1111/j.1469-7998.1904.tb08288.x,bibo:AcademicArticle,Lydekker 1904,On the Subspecies of Giraffa camelopardalis.,"Lydekker, R., 1904. On the Subspecies of Giraffa camelopardalis. Proceedings of the Zoological Society of London 74, 202–229. https://doi.org/10.1111/j.1469-7998.1904.tb08288.x",,1904,,,,,,,,,,,,,,_:br281534
+_:br801151,bibo:Journal,,Mammalian Species,,,,,,,,,,,,,,,,,
+_:br494603,bibo:Issue,,,,,1971-01-19,,,,,,,,,,,,,,_:br801151
+https://doi.org/10.2307/3503830,bibo:AcademicArticle,Dagg 1971,Giraffa camelopardalis,"Dagg, A.I., 1971. Giraffa camelopardalis. Mammalian Species 1–8. https://doi.org/10.2307/3503830",_:a6,1971-01-19,,,,,,,,,,,,,,_:br494603
+urn:isbn:978-1-4214-0093-8,bibo:Book,Groves & Grubb 2011,Ungulate taxonomy,"Groves, C., Grubb, P., 2011. Ungulate taxonomy. The John Hopkins University Press, Baltimore.",,2011,_:a527963,,,,,,,,,,,,,
+_:ref0,bibo:Report,IUCN SSC Giraffe and Okapi Specialist Group Taxonomic Task Force 2025,An evaluation of the taxonomic status of giraffe (Giraffa spp.),"IUCN SSC Giraffe and Okapi Specialist Group Taxonomic Task Force, 2025. An evaluation of the taxonomic status of giraffe (Giraffa spp.). IUCN SSC Giraffe and Okapi Specialist Group, Windhoek, Namibia.",,2025,_:a326532,,,,,,,,,,,,,

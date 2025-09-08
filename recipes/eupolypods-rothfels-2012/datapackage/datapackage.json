@@ -510,8 +510,193 @@
             "type": "string"
           },
           {
+            "name": "dcterms:creator",
+            "type": "string"
+          },
+          {
             "name": "dcterms:date",
             "type": "string"
+          },
+          {
+            "name": "bibo:publisher",
+            "type": "string"
+          },
+          {
+            "name": "bibo:volume",
+            "type": "string"
+          },
+          {
+            "name": "bibo:issue",
+            "type": "string"
+          },
+          {
+            "name": "bibo:pageStart",
+            "type": "string"
+          },
+          {
+            "name": "bibo:pageEnd",
+            "type": "string"
+          },
+          {
+            "name": "bibo:pages",
+            "type": "string"
+          },
+          {
+            "name": "bibo:numPages",
+            "type": "string"
+          },
+          {
+            "name": "bibo:number",
+            "type": "string"
+          },
+          {
+            "name": "bibo:isbn",
+            "type": "string"
+          },
+          {
+            "name": "bibo:isbn10",
+            "type": "string"
+          },
+          {
+            "name": "bibo:isbn13",
+            "type": "string"
+          },
+          {
+            "name": "bibo:issn",
+            "type": "string"
+          },
+          {
+            "name": "bibo:doi",
+            "type": "string"
+          },
+          {
+            "name": "dcterms:isPartOf",
+            "type": "string"
+          }
+        ],
+        "primaryKey": "ID",
+        "foreignKeys": {
+          "field": "dcterms:isPartOf",
+          "reference": {
+            "resource": "BibliographicResource",
+            "field": "ID"
+          }
+        }
+      }
+    },
+    {
+      "name": "Agent",
+      "path": "Agent.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "$schema": "https://datapackage.org/profiles/2.0/tabledialect.json",
+        "fields": [
+          {
+            "name": "ID",
+            "type": "string"
+          },
+          {
+            "name": "type",
+            "type": "string"
+          },
+          {
+            "name": "foaf:givenName",
+            "type": "string"
+          },
+          {
+            "name": "foaf:familyName",
+            "type": "string"
+          },
+          {
+            "name": "foaf:name",
+            "type": "string"
+          },
+          {
+            "name": "address:localityName",
+            "type": "string"
+          }
+        ],
+        "primaryKey": "ID"
+      }
+    },
+    {
+      "name": "Author",
+      "path": "Author.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "$schema": "https://datapackage.org/profiles/2.0/tabledialect.json",
+        "fields": [
+          {
+            "name": "bibliographicResourceID",
+            "type": "string"
+          },
+          {
+            "name": "orderNumber",
+            "type": "integer"
+          },
+          {
+            "name": "agentID",
+            "type": "string"
+          },
+          {
+            "name": "isEditor",
+            "type": "boolean"
+          }
+        ],
+        "foreignKeys": [
+          {
+            "field": "bibliographicResourceID",
+            "reference": {
+              "resource": "BibliographicResource",
+              "field": "ID"
+            }
+          },
+          {
+            "field": "agentID",
+            "reference": {
+              "resource": "Agent",
+              "field": "ID"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Author",
+      "path": "Author.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "$schema": "https://datapackage.org/profiles/2.0/tabledialect.json",
+        "fields": [
+          {
+            "name": "groupID",
+            "type": "string"
+          },
+          {
+            "name": "memberID",
+            "type": "string"
+          }
+        ],
+        "foreignKeys": [
+          {
+            "field": "groupID",
+            "reference": {
+              "resource": "Agent",
+              "field": "ID"
+            }
+          },
+          {
+            "field": "memberID",
+            "reference": {
+              "resource": "Agent",
+              "field": "ID"
+            }
           }
         ]
       }

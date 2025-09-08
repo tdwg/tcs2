@@ -24,7 +24,9 @@
     {
       "type": "bibo:AcademicArticle",
       "id": "https://doi.org/10.1111/j.1469-7998.1904.tb08288.x",
+      "bibo:handle": "Lydekker 1904",
       "dcterms:title": "On the Subspecies of Giraffa camelopardalis.",
+      "dcterms:bibliographicCitation": "Lydekker, R., 1904. On the Subspecies of Giraffa camelopardalis. Proceedings of the Zoological Society of London 74, 202–229. https://doi.org/10.1111/j.1469-7998.1904.tb08288.x",
       "creator": "_:a0",
       "bibo:authorList": {
         "@list": [
@@ -531,7 +533,9 @@
     {
       "type": "bibo:AcademicArticle",
       "id": "https://doi.org/10.2307/3503830",
+      "bibo:handle": "Dagg 1971",
       "dcterms:title": "Giraffa camelopardalis",
+      "dcterms:bibliographicCitation": "Dagg, A.I., 1971. Giraffa camelopardalis. Mammalian Species 1–8. https://doi.org/10.2307/3503830",
       "bibo:uri": "https://doi.org/10.2307/3503830",
       "bibo:pages": "1-8",
       "bibo:doi": "10.2307/3503830",
@@ -689,9 +693,11 @@
     {
       "type": "bibo:Book",
       "id": "urn:isbn:978-1-4214-0093-8",
+      "bibo:handle": "Groves & Grubb 2011",
       "dcterms:title": "Ungulate taxonomy",
+      "dcterms:bibliographicCitation": "Groves, C., Grubb, P., 2011. Ungulate taxonomy. The John Hopkins University Press, Baltimore.",
       "dcterms:date": "2011",
-      "dcterms:publisher": {
+      "bibo:publisher": {
         "type": "foaf:Organization",
         "address:localityName": "Baltimore",
         "foaf:name": "The John Hopkins Iniversity Press"
@@ -894,9 +900,11 @@
     {
       "type": "bibo:Report",
       "id": "_:ref0",
+      "bibo:handle": "IUCN SSC Giraffe and Okapi Specialist Group Taxonomic Task Force 2025",
       "dcterms:title": "An evaluation of the taxonomic status of giraffe (Giraffa spp.)",
+      "dcterms:bibliographicCitation": "IUCN SSC Giraffe and Okapi Specialist Group Taxonomic Task Force, 2025. An evaluation of the taxonomic status of giraffe (Giraffa spp.). IUCN SSC Giraffe and Okapi Specialist Group, Windhoek, Namibia.",
       "dcterms:date": "2025",
-      "dcterms:publisher": {
+      "bibo:publisher": {
         "type": "foaf:Organization",
         "address:localityName": "Windhoek, Namibia",
         "foaf:name": "IUCN SSC Giraffe and Okapi Specialist Group"
