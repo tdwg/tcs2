@@ -486,60 +486,29 @@
       "dcterms:title": "A revised family–level classification for eupolypod II ferns (Polypodiidae: Polypodiales)",
       "dcterms:bibliographicCitation": "Rothfels, C.J.; Sundue, M.E.; Kuo, L.-J.; Larsson, A.; Kato, M.; Schuetpelz, E.; Pryer, K.M. (2012). A revised family–level classification for eupolypod II ferns (Polypodiidae: Polypodiales). Taxon 513-533.",
       "dcterms:creator": [
-        {
-          "id": "https://orcid.org/0000-0002-6605-1770"
-        },
-        {
-          "id": "https://orcid.org/0000-0003-1568-150X"
-        },
-        {
-          "id": "https://ipni.org/a/20030162-1"
-        },
-        {
-          "id": "_:b50"
-        },
-        {
-          "id": "https://ipni.org/a/14414-1"
-        },
-        {
-          "id": "https://orcid.org/0000-0003-3891-9904"
-        },
-        {
-          "id": "https://orcid.org/0000-0002-9776-6736"
-        }
+        "https://orcid.org/0000-0002-6605-1770",
+        "https://orcid.org/0000-0003-1568-150X",
+        "https://ipni.org/a/20030162-1",
+        "_:b50",
+        "https://ipni.org/a/14414-1",
+        "https://orcid.org/0000-0003-3891-9904",
+        "https://orcid.org/0000-0002-9776-6736"
       ],
       "bibo:authorList": {
         "@list": [
-          {
-            "id": "https://orcid.org/0000-0002-6605-1770"
-          },
-          {
-            "id": "https://orcid.org/0000-0003-1568-150X"
-          },
-          {
-            "id": "https://ipni.org/a/20030162-1"
-          },
-          {
-            "id": "_:b50"
-          },
-          {
-            "id": "https://ipni.org/a/14414-1"
-          },
-          {
-            "id": "https://orcid.org/0000-0003-3891-9904"
-          },
-          {
-            "id": "https://orcid.org/0000-0002-9776-6736"
-          }
+          "https://orcid.org/0000-0002-6605-1770",
+          "https://orcid.org/0000-0003-1568-150X",
+          "https://ipni.org/a/20030162-1",
+          "_:b50",
+          "https://ipni.org/a/14414-1",
+          "https://orcid.org/0000-0003-3891-9904",
+          "https://orcid.org/0000-0002-9776-6736"
         ]
       },
       "dcterms:isPartOf": {
         "type": "bibo:Issue",
         "dcterms:date": "2012",
-        "dcterms:isPartOf": {
-          "type": "bibo:Journal",
-          "id": "https://ipni.org/p/812-2"
-        },
+        "dcterms:isPartOf": "https://ipni.org/p/812-2",
         "bibo:volume": "61",
         "bibo:issue": "3"
       },
@@ -553,27 +522,15 @@
       "dcterms:title": "A linear sequence of extant families and genera of lycophytes and ferns",
       "dcterms:bibliographicCitation": "Christenhusz, M.J.M.; Zhang, X.-C.; Schneider, H. (2011). A linear sequence of extant families and genera of lycophytes and ferns. Phytotaxa 19: 7-54.",
       "dcterms:creator": [
-        {
-          "id": "https://orcid.org/0000-0003-1398-8743"
-        },
-        {
-          "id": "https://orcid.org/0000-0003-3425-1011"
-        },
-        {
-          "id": "https://ipni.org/a/40553-1"
-        }
+        "https://orcid.org/0000-0003-1398-8743",
+        "https://orcid.org/0000-0003-3425-1011",
+        "https://ipni.org/a/40553-1"
       ],
       "bibo:authorList": {
         "@list": [
-          {
-            "id": "https://orcid.org/0000-0003-1398-8743"
-          },
-          {
-            "id": "https://orcid.org/0000-0003-3425-1011"
-          },
-          {
-            "id": "https://ipni.org/a/40553-1"
-          }
+          "https://orcid.org/0000-0003-1398-8743",
+          "https://orcid.org/0000-0003-3425-1011",
+          "https://ipni.org/a/40553-1"
         ]
       },
       "dcterms:isPartOf": {
@@ -598,53 +555,27 @@
       "dcterms:title": "A classification for extant ferns",
       "dcterms:bibliographicCitation": "Smith, A.R.; Pryer, K.M.; Schuetpelz, E.; Korall, P.; Schneider, H.; Wolf, P.G. (2006). A classification for extant ferns. Taxon 55: 705-731.",
       "dcterms:creator": [
-        {
-          "id": "https://ipni.org/a/9771-1"
-        },
-        {
-          "id": "https://orcid.org/0000-0002-9776-6736"
-        },
-        {
-          "id": "https://orcid.org/0000-0003-3891-9904"
-        },
-        {
-          "id": "https://orcid.org/0000-0002-6677-5234"
-        },
-        {
-          "id": "https://ipni.org/a/40553-1"
-        },
-        {
-          "id": "_:b53"
-        }
+        "https://ipni.org/a/9771-1",
+        "https://orcid.org/0000-0002-9776-6736",
+        "https://orcid.org/0000-0003-3891-9904",
+        "https://orcid.org/0000-0002-6677-5234",
+        "https://ipni.org/a/40553-1",
+        "_:b53"
       ],
       "bibo:authorList": {
         "@list": [
-          {
-            "id": "https://ipni.org/a/9771-1"
-          },
-          {
-            "id": "https://orcid.org/0000-0002-9776-6736"
-          },
-          {
-            "id": "https://orcid.org/0000-0003-3891-9904"
-          },
-          {
-            "id": "https://orcid.org/0000-0002-6677-5234"
-          },
-          {
-            "id": "https://ipni.org/a/40553-1"
-          },
-          {
-            "id": "_:b53"
-          }
+          "https://ipni.org/a/9771-1",
+          "https://orcid.org/0000-0002-9776-6736",
+          "https://orcid.org/0000-0003-3891-9904",
+          "https://orcid.org/0000-0002-6677-5234",
+          "https://ipni.org/a/40553-1",
+          "_:b53"
         ]
       },
       "dcterms:isPartOf": {
         "type": "bibo:Issue",
         "dcterms:date": "2006",
-        "dcterms:isPartOf": {
-          "id": "https://ipni.org/p/812-2"
-        },
+        "dcterms:isPartOf": "https://ipni.org/p/812-2",
         "bibo:volume": "55",
         "bibo:issue": "3"
       },
@@ -657,14 +588,10 @@
       "bibo:handle": "Pichi Sermolli 1977",
       "dcterms:title": "Tentamen Pteridophytorum genera in taxonomicum ordinem redigendi",
       "dcterms:bibliographicCitation": "Pichi Sermolli, R.E.G. (1977). Tentamen Pteridophytorum genera in taxonomicum ordinem redigendi 31: 313-512.",
-      "dcterms:creator": {
-        "id": "https://ipni.org/a/7667-1"
-      },
+      "dcterms:creator":         "https://ipni.org/a/7667-1",
       "bibo:authorList": {
         "@list": [
-          {
-            "id": "https://ipni.org/a/7667-1"
-          }
+          "https://ipni.org/a/7667-1"
         ]
       },
       "dcterms:isPartOf": {
@@ -688,23 +615,16 @@
       "bibo:handle": "Nayar 1970",
       "dcterms:title": "A phylogenetic classification of the homosporous ferns",
       "dcterms:bibliographicCitation": "Nayar, B.K. (1970). A phylogenetic classification of the homosporous ferns. Taxon 19: 229-236.",
-      "dcterms:creator": {
-        "id": "https://ipni.org/a/23960-1"
-      },
+      "dcterms:creator":         "https://ipni.org/a/23960-1",
       "bibo:authorList": {
         "@list": [
-          {
-            "id": "https://ipni.org/a/23960-1"
-          }
+          "https://ipni.org/a/23960-1"
         ]
       },
       "dcterms:isPartOf": {
         "type": "bibo:Issue",
         "dcterms:date": "1970",
-        "dcterms:isPartOf": {
-          "type": "bibo:Taxon",
-          "id": "https://ipni.org/p/812-2"
-        },
+        "dcterms:isPartOf": "https://ipni.org/p/812-2",
         "bibo:volume": "19",
         "bibo:issue": "2"
       },

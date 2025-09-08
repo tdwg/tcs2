@@ -1,17 +1,17 @@
 groupID,memberID
-_:a547472,{'id': 'https://orcid.org/0000-0002-6605-1770'}
-_:a547472,{'id': 'https://orcid.org/0000-0003-1568-150X'}
-_:a547472,{'id': 'https://ipni.org/a/20030162-1'}
-_:a547472,{'id': '_:b50'}
-_:a547472,{'id': 'https://ipni.org/a/14414-1'}
-_:a547472,{'id': 'https://orcid.org/0000-0003-3891-9904'}
-_:a547472,{'id': 'https://orcid.org/0000-0002-9776-6736'}
-_:a629360,{'id': 'https://orcid.org/0000-0003-1398-8743'}
-_:a629360,{'id': 'https://orcid.org/0000-0003-3425-1011'}
-_:a629360,{'id': 'https://ipni.org/a/40553-1'}
-_:a420535,{'id': 'https://ipni.org/a/9771-1'}
-_:a420535,{'id': 'https://orcid.org/0000-0002-9776-6736'}
-_:a420535,{'id': 'https://orcid.org/0000-0003-3891-9904'}
-_:a420535,{'id': 'https://orcid.org/0000-0002-6677-5234'}
-_:a420535,{'id': 'https://ipni.org/a/40553-1'}
-_:a420535,{'id': '_:b53'}
+_:a616528,https://orcid.org/0000-0002-6605-1770
+_:a616528,https://orcid.org/0000-0003-1568-150X
+_:a616528,https://ipni.org/a/20030162-1
+_:a616528,_:b50
+_:a616528,https://ipni.org/a/14414-1
+_:a616528,https://orcid.org/0000-0003-3891-9904
+_:a616528,https://orcid.org/0000-0002-9776-6736
+_:a587034,https://orcid.org/0000-0003-1398-8743
+_:a587034,https://orcid.org/0000-0003-3425-1011
+_:a587034,https://ipni.org/a/40553-1
+_:a356243,https://ipni.org/a/9771-1
+_:a356243,https://orcid.org/0000-0002-9776-6736
+_:a356243,https://orcid.org/0000-0003-3891-9904
+_:a356243,https://orcid.org/0000-0002-6677-5234
+_:a356243,https://ipni.org/a/40553-1
+_:a356243,_:b53
