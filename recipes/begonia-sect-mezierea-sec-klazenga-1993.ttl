@@ -747,7 +747,7 @@ _:1983-Begonia-comorensis a tcs:TaxonConcept ;
     dcterms:source <https://doi/org/10.2307/3668252> .
 
 <https://ipni.org/n/104198-1> a tcs:TaxonName ;
-    tcs:nameString "Begonia aptera Roxb., Hort. Bengal. 104; Fl. Ind. iii. 650." ;
+    tcs:nameString "Begonia aptera Roxb." ;
     dwc:scientificNameAuthorship "Roxb." ;
     dwc:namePublishedIn "Hort. Bengal. 104; Fl. Ind. iii. 650 (1832)" ;
     tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/illegitimum> .

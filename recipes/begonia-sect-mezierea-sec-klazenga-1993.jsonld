@@ -951,7 +951,7 @@
     {
       "id": "https://ipni.org/n/104198-1",
       "type": "TaxonName",
-      "nameString": "Begonia aptera Roxb., Hort. Bengal. 104; Fl. Ind. iii. 650.",
+      "nameString": "Begonia aptera",
       "scientificNameAuthorship": "Roxb.",
       "namePublishedInLiteral": "Hort. Bengal. 104; Fl. Ind. iii. 650 (1832)",
       "nomenclaturalStatus": "illegitimate",
