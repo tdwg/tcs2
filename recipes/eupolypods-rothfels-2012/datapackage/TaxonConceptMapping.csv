@@ -1,6 +1,6 @@
 subjectTaxonConcept,mappingRelation,objectTaxonConcept,source,creator,created
-_:2012-Eupolyploids,isCongruentWith,_:tc000001,https://doi.org/10.1002/tax.613003,,
-_:2012-Eupolyploids-I,isCongruentWith,_:tc000002,https://doi.org/10.1002/tax.613003,,
+_:2012-Eupolyploids,isCongruentWith,_:2006-Eupolyploids,https://doi.org/10.1002/tax.613003,,
+_:2012-Eupolyploids-I,isCongruentWith,_:2006-Eupolyploids-I,https://doi.org/10.1002/tax.613003,,
 _:2012-Eupolyploids-II,isCongruentWith,_:2006-Eupolyploids-II,https://doi.org/10.1002/tax.613003,,
 _:2012-Onocleaceae,isCongruentWith,_:2011-Onocleaceae,https://doi.org/10.1002/tax.613003,,
 _:2012-Onocleaceae,isCongruentWith,_:2006-Onocleaceae,https://doi.org/10.1002/tax.613003,,

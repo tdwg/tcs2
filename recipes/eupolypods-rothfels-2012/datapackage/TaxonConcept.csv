@@ -1,8 +1,8 @@
 ID,taxonConceptLabel,taxonNameID,accordingToID,taxonRank,parentID
 _:2012-Eupolyploids,Eupolypods sec. Rothfels & al. 2012,_:b2,https://doi.org/10.1002/tax.613003,,
-_:tc000001,Eupolypods sec. Smith & al. 2006,_:b2,https://doi.org/10.2307/25065646,,
+_:2006-Eupolyploids,Eupolypods sec. Smith & al. 2006,_:b2,https://doi.org/10.2307/25065646,,
 _:2012-Eupolyploids-I,Eupolypods I sec. Rothfels & al. 2012,_:b5,https://doi.org/10.1002/tax.613003,,
-_:tc000002,Eupolypods I sec. Smith & al. 2006,_:b5,https://doi.org/10.2307/25065646,,
+_:2006-Eupolyploids-I,Eupolypods I sec. Smith & al. 2006,_:b5,https://doi.org/10.2307/25065646,,
 _:2012-Eupolyploids-II,Eupolypods II sec. Rothfels & al. 2012,_:b8,https://doi.org/10.1002/tax.613003,,
 _:2006-Eupolyploids-II,Eupolypods II sec. Smith & al. 2006,_:b8,https://doi.org/10.2307/25065646,,
 _:2012-Onocleaceae,Onocleaceae sec. Rothfels & al. 2012,https://ipni.org/n/17446060-1,https://doi.org/10.1002/tax.613003,,
