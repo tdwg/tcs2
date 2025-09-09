@@ -1,0 +1,36 @@
+{
+  "@context": {
+    "oa": "http://www.w3.org/ns/oa#",
+    "Annotation": { 
+      "@type": "@id", 
+      "@id": "oa:Annotation", 
+      "@context": {
+        "commenting": "oa:commenting",
+        "body": {
+          "@id": "oa:hasBody",
+          "@type": "@id"
+        },
+        "target": {
+          "@id": "oa:hasTarget",
+          "@type": "@id"
+        },
+        "motivation": {
+          "@id": "oa:motivatedBy",
+          "@type": "@vocab"
+        },
+        "rdf:value": { 
+          "@id": "rdf:value", 
+          "@type": "@id" 
+        },
+        "creator": {
+          "@id": "dcterms:creator",
+          "@type": "@id"
+        },
+        "created": {
+          "@id": "dcterms:created",
+          "@type": "xsd:datetime"
+        }
+      } 
+    }
+  }
+}
