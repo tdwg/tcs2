@@ -1,4 +1,4 @@
-ID,type,foaf:givenName,foaf:familyName,foaf:name,address:localityName
+ID,type,foaf_givenName,foaf_familyName,foaf_name,address_localityName
 https://www.wikidata.org/wiki/Q60718,foaf:Person,A.,Engler,,
 https://www.wikidata.org/wiki/Q64995,foaf:Person,K.,Prantl,,
 https://www.wikidata.org/wiki/Q63040,foaf:Person,O.,Drude,,
@@ -8,5 +8,5 @@ https://www.wikidata.org/wiki/Q62822,foaf:Person,O.,Warburg,,
 https://www.wikidata.org/wiki/Q21387987,foaf:Person,J.J.F.E.,de Wilde,,
 https://www.wikidata.org/wiki/Q21394461,foaf:Person,R.J.,Quené,,
 https://www.wikidata.org/wiki/Q10331852,foaf:Person,M.,Keraudren-Aymonin,,
-_:a671827,foaf:Group,,,,
-_:a520004,foaf:Organization,,,W. Engelmann,Leipzig
+_:a556808,foaf:Group,,,,
+_:a872464,foaf:Organization,,,W. Engelmann,Leipzig
