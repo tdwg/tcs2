@@ -1,0 +1,16 @@
+subjectTaxonConceptID,mappingRelation,objectTaxonConceptID,remarks,sourceID,creatorID,created
+https://avibase.ca/82745BAA,isCongruentWith,type,,https://avibase.bsc-eoc.org,,
+https://avibase.ca/82745BAA,isCongruentWith,accordingTo,,https://avibase.bsc-eoc.org,,
+https://avibase.ca/82745BAA,isCongruentWith,taxonConceptLabel,,https://avibase.bsc-eoc.org,,
+https://avibase.ca/82745BAA,isCongruentWith,taxonName,,https://avibase.bsc-eoc.org,,
+https://avibase.ca/F558C7F9,isCongruentWith,_:tc741816,,https://avibase.bsc-eoc.org,,
+https://avibase.ca/F558C7F9,isCongruentWith,_:tc952784,,https://avibase.bsc-eoc.org,,
+https://avibase.ca/F558C7F9,isCongruentWith,_:tc437369,,https://avibase.bsc-eoc.org,,
+https://avibase.ca/F558C7F9,isCongruentWith,_:tc657015,,https://avibase.bsc-eoc.org,,
+https://avibase.ca/A091D50A,isCongruentWith,_:tc883053,,{'id': 'https://avibase.bsc-eoc.org'},,
+https://avibase.ca/A091D50A,isCongruentWith,_:tc010132,,{'id': 'https://avibase.bsc-eoc.org'},,
+https://avibase.ca/A091D50A,isCongruentWith,_:tc247960,,{'id': 'https://avibase.bsc-eoc.org'},,
+https://avibase.ca/A091D50A,isCongruentWith,_:tc231311,,{'id': 'https://avibase.bsc-eoc.org'},,
+https://avibase.ca/82745BAA,includes,https://avibase.ca/F558C7F9,,,https://orcid.org/0000-0003-2224-6821,2023-10-21T13:55:00+10
+https://avibase.ca/82745BAA,includes,https://avibase.ca/A091D50A,,,https://orcid.org/0000-0003-2224-6821,2023-10-21T13:55:00+10
+https://avibase.ca/F558C7F9,isDisjointFrom,https://avibase.ca/A091D50A,,,https://orcid.org/0000-0003-2224-6821,2023-10-21T13:55:00+10
