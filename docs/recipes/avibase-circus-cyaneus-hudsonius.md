@@ -152,4 +152,4 @@ _:ann3 a oa:Annotation ;
 
 [TurTLe](https://github.com/tdwg/tcs2/blob/master/recipes/avibase-circus-cyaneus-hudsonius.ttl) |
 [JSON-LD](https://github.com/tdwg/tcs2/blob/master/recipes/avibase-circus-cyaneus-hudsonius.jsonld) |
-[JSON-LD](https://github.com/tdwg/tcs2/blob/master/recipes/avibase-circus-cyaneus-hudsonius/datapackage)
+[Data Package](https://github.com/tdwg/tcs2/blob/master/recipes/avibase-circus-cyaneus-hudsonius/datapackage)
