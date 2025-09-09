@@ -1,8 +1,8 @@
-ID,type,foaf:givenName,foaf:familyName,foaf:name,address:localityName
+ID,type,foaf_givenName,foaf_familyName,foaf_name,address_localityName
 _:a0,foaf:Person,Richard,Lydekker,,
 _:a6,foaf:Person,Anne Innis,Dagg,,
 _:a3,foaf:Person,Colin,Groves,,
 _:a4,foaf:Person,Peter,Grubb,,
 _:a5,foaf:Organization,,,IUCN SSC Giraffe and Okapi Specialist Group Taxonomic Task Force,
-_:a794160,foaf:Organization,,,The John Hopkins Iniversity Press,Baltimore
-_:a610818,foaf:Organization,,,IUCN SSC Giraffe and Okapi Specialist Group,"Windhoek, Namibia"
+_:a893184,foaf:Organization,,,The John Hopkins Iniversity Press,Baltimore
+_:a489416,foaf:Organization,,,IUCN SSC Giraffe and Okapi Specialist Group,"Windhoek, Namibia"

@@ -1,9 +1,9 @@
-ID,type,bibo:handle,dcterms:title,dcterms:bibliographicCitation,dcterms:creator,dcterms:date,bibo:publisher,bibo:volume,bibo:issue,bibo:pageStart,bibo:pageEnd,bibo:pages,bibo:numPages,bibo:number,bibo:isbn,bibo:isbn10,bibo:isbn13,bibo:issn,bibo:doi,dcterms:isPartOf
-_:br901294,bibo:Journal,,Proceedings of the Zoological Society of London,,,,,,,,,,,,,,,1469-7998,,
-_:br406617,bibo:Issue,,,,,1904,,74,1,,,,,,,,,,,_:br901294
-https://doi.org/10.1111/j.1469-7998.1904.tb08288.x,bibo:AcademicArticle,Lydekker 1904,On the Subspecies of Giraffa camelopardalis.,"Lydekker, R., 1904. On the Subspecies of Giraffa camelopardalis. Proceedings of the Zoological Society of London 74, 202–229. https://doi.org/10.1111/j.1469-7998.1904.tb08288.x",,1904,,,,,,202-229,,,,,,,10.1111/j.1469-7998.1904.tb08288.x,_:br406617
-_:br571695,bibo:Journal,,Mammalian Species,,,,,,,,,,,,,,,0076-3519,,
-_:br277301,bibo:Issue,,,,,1971-01-19,,,5,,,,,,,,,,,_:br571695
-https://doi.org/10.2307/3503830,bibo:AcademicArticle,Dagg 1971,Giraffa camelopardalis,"Dagg, A.I., 1971. Giraffa camelopardalis. Mammalian Species 1–8. https://doi.org/10.2307/3503830",_:a6,1971-01-19,,,,,,1-8,,,,,,,10.2307/3503830,_:br277301
-urn:isbn:978-1-4214-0093-8,bibo:Book,Groves & Grubb 2011,Ungulate taxonomy,"Groves, C., Grubb, P., 2011. Ungulate taxonomy. The John Hopkins University Press, Baltimore.",,2011,_:a794160,,,,,,317.0,,,,978-1-4214-0093-8,,,
-_:ref0,bibo:Report,IUCN SSC Giraffe and Okapi Specialist Group Taxonomic Task Force 2025,An evaluation of the taxonomic status of giraffe (Giraffa spp.),"IUCN SSC Giraffe and Okapi Specialist Group Taxonomic Task Force, 2025. An evaluation of the taxonomic status of giraffe (Giraffa spp.). IUCN SSC Giraffe and Okapi Specialist Group, Windhoek, Namibia.",,2025,_:a610818,,,,,,,,,,,,,
+ID,type,bibo_handle,dcterms_title,dcterms_bibliographicCitation,dcterms_creator,dcterms_date,dcterms_isPartOf,bibo_publisher,bibo_volume,bibo_issue,bibo_pageStart,bibo_pageEnd,bibo_pages,bibo_numPages,bibo_number,bibo_isbn,bibo_isbn10,bibo_isbn13,bibo_issn,bibo_doi
+_:br970529,bibo:Journal,,Proceedings of the Zoological Society of London,,,,,,,,,,,,,,,,1469-7998,
+_:br523590,bibo:Issue,,,,,1904,_:br970529,,74,1,,,,,,,,,,
+https://doi.org/10.1111/j.1469-7998.1904.tb08288.x,bibo:AcademicArticle,Lydekker 1904,On the Subspecies of Giraffa camelopardalis.,"Lydekker, R., 1904. On the Subspecies of Giraffa camelopardalis. Proceedings of the Zoological Society of London 74, 202–229. https://doi.org/10.1111/j.1469-7998.1904.tb08288.x",,1904,_:br523590,,,,,,202-229,,,,,,,10.1111/j.1469-7998.1904.tb08288.x
+_:br484509,bibo:Journal,,Mammalian Species,,,,,,,,,,,,,,,,0076-3519,
+_:br358722,bibo:Issue,,,,,1971-01-19,_:br484509,,,5,,,,,,,,,,
+https://doi.org/10.2307/3503830,bibo:AcademicArticle,Dagg 1971,Giraffa camelopardalis,"Dagg, A.I., 1971. Giraffa camelopardalis. Mammalian Species 1–8. https://doi.org/10.2307/3503830",_:a6,1971-01-19,_:br358722,,,,,,1-8,,,,,,,10.2307/3503830
+urn:isbn:978-1-4214-0093-8,bibo:Book,Groves & Grubb 2011,Ungulate taxonomy,"Groves, C., Grubb, P., 2011. Ungulate taxonomy. The John Hopkins University Press, Baltimore.",,2011,,_:a893184,,,,,,317.0,,,,978-1-4214-0093-8,,
+_:ref0,bibo:Report,IUCN SSC Giraffe and Okapi Specialist Group Taxonomic Task Force 2025,An evaluation of the taxonomic status of giraffe (Giraffa spp.),"IUCN SSC Giraffe and Okapi Specialist Group Taxonomic Task Force, 2025. An evaluation of the taxonomic status of giraffe (Giraffa spp.). IUCN SSC Giraffe and Okapi Specialist Group, Windhoek, Namibia.",,2025,,_:a489416,,,,,,,,,,,,
