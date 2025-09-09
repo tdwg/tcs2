@@ -1,4 +1,4 @@
-ID,type,foaf:givenName,foaf:familyName,foaf:name,address:localityName
+ID,type,foaf_givenName,foaf_familyName,foaf_name,address_localityName
 https://orcid.org/0000-0003-1398-8743,foaf:Person,Maarten J.M.,Christenhusz,,
 https://ipni.org/a/4063-1,foaf:Person,Richard Eric,Holttum,,
 https://ipni.org/a/14414-1,foaf:Person,Masahiro,Kato,,
@@ -15,6 +15,6 @@ https://ipni.org/a/9771-1,foaf:Person,Alan R.,Smith,,
 https://orcid.org/0000-0003-1568-150X,foaf:Person,Michael E.,Sundue,,
 _:b53,foaf:Person,Paul G.,Wolf,,
 https://orcid.org/0000-0003-3425-1011,foaf:Person,Xian-Chun,Zhang,,
-_:a830966,foaf:Group,,,,
-_:a424472,foaf:Group,,,,
-_:a678599,foaf:Group,,,,
+_:a049113,foaf:Group,,,,
+_:a101316,foaf:Group,,,,
+_:a090686,foaf:Group,,,,
