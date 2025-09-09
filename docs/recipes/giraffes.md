@@ -1,5 +1,7 @@
 # IUCN Taxonomic Status of Giraffes Report Recipe
 
+[Recipes](../recipes)
+
 The following recipe is based on a recently published IUCN report on the
 taxonomic status of Giraffes (IUCN SSC Giraffe and Okapi Specialist Group
 Taxonomic Task Force, 2025
