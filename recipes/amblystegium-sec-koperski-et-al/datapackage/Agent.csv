@@ -1,4 +1,4 @@
-ID,type,foaf:givenName,foaf:familyName,foaf:name,address:localityName
+ID,type,foaf_givenName,foaf_familyName,foaf_name,address_localityName
 _:b45,foaf:Person,,Braun,,
 _:b57,foaf:Person,,Corley,,
 _:b58,foaf:Person,,Crundwell,,
@@ -12,7 +12,7 @@ _:b89,foaf:Person,,Mönkemeyer,,
 _:b91,foaf:Person,,Rabenhorst,,
 _:b44,foaf:Person,,Sauer,,
 _:b61,foaf:Person,,Smith,,
-_:a955093,foaf:Group,,,,
-_:a035932,foaf:Group,,,,
-_:a551064,foaf:Group,,,,
-_:a739097,foaf:Group,,,,
+_:a633652,foaf:Group,,,,
+_:a079275,foaf:Group,,,,
+_:a987427,foaf:Group,,,,
+_:a964918,foaf:Group,,,,

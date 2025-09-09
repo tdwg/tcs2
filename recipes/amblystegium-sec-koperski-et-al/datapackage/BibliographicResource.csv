@@ -1,14 +1,14 @@
-ID,type,bibo:handle,dcterms:title,dcterms:bibliographicCitation,dcterms:creator,dcterms:date,bibo:publisher,bibo:volume,bibo:issue,bibo:pageStart,bibo:pageEnd,bibo:pages,bibo:numPages,bibo:number,bibo:isbn,bibo:isbn10,bibo:isbn13,bibo:issn,bibo:doi,dcterms:isPartOf
-_:br204637,bibo:Series,,Schriftenreihe für Vegetationskunde,,,,,,,,,,,,,,,,,
-https://www.tropicos.org/reference/9022656,bibo:Book,Koperski et al. 2000,"Referenzliste der Moose Deutschlands, Dokumentation unterschiedlicher taxonomischer Auffassungen","Koperski, M.; Sauer, M.; Braun, W.; Gradstein, S.R. (2000). Referenzliste der Moose Deutschlands, Dokumentation unterschiedlicher taxonomischer Auffassungen. Schriftenreihe für Vegetationskunde 34. Bundersamt für Naturschutz, Bonn-Bad Godesberg. 519 pp. isbn 3-7843-3504-7",_:a955093,2000,,,,,,,519,34,,,3-7843-3504-7,,,_:br204637
-_:br039747,bibo:Journal,,Journal of Bryology,,,,,,,,,,,,,,,,,
-_:br575615,bibo:Issue,,,,,1981,,11,4,,,,,,,,,,,_:br039747
-https://www.tropicos.org/reference/9004554,bibo:AcademicArticle,Corley et al. 1981,"Mosses of Europe and the Azores; an annotated list of species, with synonyms from the recent literature","Corley, M.F.V.; Crundwell, A.C.; Düll, D.; Hill, M.O.; Smith, A.J.E. (1981). Journal of Bryology 11: 609-689.",_:a035932,1981,,,,,,609-689,,,,,,,,_:br575615
-_:br319747,bibo:Journal,,Journal of Bryology,,,,,,,,,,,,,,,,,
-_:br519768,bibo:Issue,,,,,1991,,16,3,,,,,,,,,,,_:br319747
-https://www.tropicos.org/reference/9010070,bibo:AcademicArticle,Corley & Crundwell 1991,Additions and amendments of the mosses of Europe and the Azores,"Corley, M.F.V.; Crundwell, A.C. (1991). Additions and amendments of the mosses of Europe and the Azores. Journal of Bryology 16: 337-356.",_:a551064,1991,,,,,,337-356,,,,,,,,_:br519768
-_:br273997,bibo:Series,,Uni-Taschenb.,,,,,,,,,,,,,,,,,
-https://www.tropicos.org/reference/9011497,bibo:Book,Frahm & Frey 1992,Moosflora,"Frahm, J.-P.; Frey, W. (1992). Moosflora. Uni-Taschenb., 3. Aufl. Ulmer, Stuttgart.",_:a739097,1992,,,,,,,528,1250,,,,,,_:br273997
+ID,type,bibo_handle,dcterms_title,dcterms_bibliographicCitation,dcterms_creator,dcterms_date,dcterms_isPartOf,bibo_publisher,bibo_volume,bibo_issue,bibo_pageStart,bibo_pageEnd,bibo_pages,bibo_numPages,bibo_number,bibo_isbn,bibo_isbn10,bibo_isbn13,bibo_issn,bibo_doi
+_:br341521,bibo:Series,,Schriftenreihe für Vegetationskunde,,,,,,,,,,,,,,,,,
+https://www.tropicos.org/reference/9022656,bibo:Book,Koperski et al. 2000,"Referenzliste der Moose Deutschlands, Dokumentation unterschiedlicher taxonomischer Auffassungen","Koperski, M.; Sauer, M.; Braun, W.; Gradstein, S.R. (2000). Referenzliste der Moose Deutschlands, Dokumentation unterschiedlicher taxonomischer Auffassungen. Schriftenreihe für Vegetationskunde 34. Bundersamt für Naturschutz, Bonn-Bad Godesberg. 519 pp. isbn 3-7843-3504-7",_:a633652,2000,_:br341521,,,,,,,519,34,,,3-7843-3504-7,,
+_:br037351,bibo:Journal,,Journal of Bryology,,,,,,,,,,,,,,,,,
+_:br652992,bibo:Issue,,,,,1981,_:br037351,,11,4,,,,,,,,,,
+https://www.tropicos.org/reference/9004554,bibo:AcademicArticle,Corley et al. 1981,"Mosses of Europe and the Azores; an annotated list of species, with synonyms from the recent literature","Corley, M.F.V.; Crundwell, A.C.; Düll, D.; Hill, M.O.; Smith, A.J.E. (1981). Journal of Bryology 11: 609-689.",_:a079275,1981,_:br652992,,,,,,609-689,,,,,,,
+_:br259123,bibo:Journal,,Journal of Bryology,,,,,,,,,,,,,,,,,
+_:br371084,bibo:Issue,,,,,1991,_:br259123,,16,3,,,,,,,,,,
+https://www.tropicos.org/reference/9010070,bibo:AcademicArticle,Corley & Crundwell 1991,Additions and amendments of the mosses of Europe and the Azores,"Corley, M.F.V.; Crundwell, A.C. (1991). Additions and amendments of the mosses of Europe and the Azores. Journal of Bryology 16: 337-356.",_:a987427,1991,_:br371084,,,,,,337-356,,,,,,,
+_:br311200,bibo:Series,,Uni-Taschenb.,,,,,,,,,,,,,,,,,
+https://www.tropicos.org/reference/9011497,bibo:Book,Frahm & Frey 1992,Moosflora,"Frahm, J.-P.; Frey, W. (1992). Moosflora. Uni-Taschenb., 3. Aufl. Ulmer, Stuttgart.",_:a964918,1992,_:br311200,,,,,,,528,1250,,,,,
 https://www.tropicos.org/reference/9007023,bibo:Book,Smith 1978,The moss flora of Britain and Ireland,"Smith, A.J.E. (1978). The moss flora of Britain and Ireland. Cambridge University Press, Cambridge.",_:b61,1978,,,,,,,,,,,,,,
-_:br428115,bibo:Series,,"Kryptogamenflora von Deutschland, Österreich und der Schweiz",,,,,,,,,,,,,,,,,
-https://www.tropicos.org/reference/9021085,bibo:Book,Mönkemeyer 1927,Die Laubmoose Europas,"Mönkemeyer, W. (1927). Die Laubmoose Europas. In: Rabenhorst, G.L. (ed.), Kryptogamenflora von Deutschland, Österreich und der Schweiz. Geest & Portig, Leipzig",_:b89,1927,,Bd. IV,,,,,960,,,,,,,_:br428115
+_:br653467,bibo:Series,,"Kryptogamenflora von Deutschland, Österreich und der Schweiz",,,,,,,,,,,,,,,,,
+https://www.tropicos.org/reference/9021085,bibo:Book,Mönkemeyer 1927,Die Laubmoose Europas,"Mönkemeyer, W. (1927). Die Laubmoose Europas. In: Rabenhorst, G.L. (ed.), Kryptogamenflora von Deutschland, Österreich und der Schweiz. Geest & Portig, Leipzig",_:b89,1927,_:br653467,,Bd. IV,,,,,960,,,,,,
