@@ -505,6 +505,12 @@
       "type": "foaf:Person",
       "foaf:givenName": "R.",
       "foaf:familyName": "Von Wettstein"
+    },
+    {
+      "id": "https://orcid.org/0000-0003-2224-6821",
+      "type": "foaf:Person",
+      "foaf:givenName": "Niels",
+      "foaf:familyName": "Klazenga"
     }
   ]
 }
