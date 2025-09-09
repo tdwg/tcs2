@@ -410,4 +410,4 @@ _:tc20 a tcs:TaxonConcept ;
 
 [TurTLe](https://github.com/tdwg/tcs2/blob/master/recipes/megalorhipida-leucodactylus-sec-gielis-et-hobern-2020.ttl) |
 [JSON-LD](https://github.com/tdwg/tcs2/blob/master/recipes/megalorhipida-leucodactylus-sec-gielis-et-hobern-2020.jsonld) |
-[JSON-LD](https://github.com/tdwg/tcs2/blob/master/recipes/megalorhipida-leucodactylus-sec-gielis-et-hobern-2020/datapackage)
+[Data Package](https://github.com/tdwg/tcs2/blob/master/recipes/megalorhipida-leucodactylus-sec-gielis-et-hobern-2020/datapackage)
