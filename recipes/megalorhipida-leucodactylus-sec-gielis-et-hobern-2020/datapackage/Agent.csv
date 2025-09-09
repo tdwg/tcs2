@@ -1,3 +1,3 @@
-ID,type,foaf:givenName,foaf:familyName,foaf:name,address:localityName
+ID,type,foaf_givenName,foaf_familyName,foaf_name,address_localityName
 https://orcid.org/0000-0001-6492-4016,foaf:Person,Donald,Hobern,,
 https://www.gbif.org/publisher/f4ce3c03-7b38-445e-86e6-5f6b04b649d4,foaf:Organization,,,Catalogue of Life,The Netherlands

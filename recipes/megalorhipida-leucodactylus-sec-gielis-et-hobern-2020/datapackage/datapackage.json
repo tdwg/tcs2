@@ -1,6 +1,6 @@
 {
-  "name" : "iucn-giraffes-2025",
-  "title" : "IUCN Taxonomic Status of Giraffes Report Recipe",
+  "name" : "megalorhipida-leucodactylus-sec-gielis-et-hobern-2020",
+  "title" : "Catalogue of Life Megalorhipida leucodactylus recipe",
   "resources": [
     {
       "name": "TaxonConcept",
@@ -19,10 +19,6 @@
             }
           },
           {
-            "name": "taxonConceptLabel",
-            "type": "string"
-          },
-          {
             "name": "taxonNameID",
             "type": "string",
             "constraints": {
@@ -37,6 +33,10 @@
               "required": true
             },
             "rdfType": "http://purl.org/dc/terms/BibliographicResource"
+          },
+          {
+            "name": "taxonConceptLabel",
+            "type": "string"
           },
           {
             "name": "taxonRank",
@@ -124,11 +124,11 @@
             "type": "string"
           },
           {
-            "name": "source",
+            "name": "sourceID",
             "type": "string"
           },
           {
-            "name": "creator",
+            "name": "creatorID",
             "type": "string"
           },
           {
@@ -148,6 +148,20 @@
             "fields": "objectTaxonConceptID",
             "reference": {
               "resource": "TaxonConcept",
+              "fields": "ID"
+            }
+          },
+          {
+            "fields": "sourceID",
+            "reference": {
+              "resource": "BibliographicResource",
+              "fields": "ID"
+            }
+          },
+          {
+            "fields": "creatorID",
+            "reference": {
+              "resource": "Agent",
               "fields": "ID"
             }
           }
@@ -182,7 +196,7 @@
             "type": "string"
           },
           {
-            "name": "namePublishedInLiteral",
+            "name": "namePublishedIn",
             "type": "string"
           },
           {
@@ -327,7 +341,7 @@
             "type": "string"
           },
           {
-            "name": "source",
+            "name": "sourceID",
             "type": "string"
           }
         ],
@@ -467,7 +481,15 @@
             "constraints": {
               "required": true
             }
-          }          
+          },
+          {
+            "name": "language",
+            "type": "string",
+            "constraints": {
+              "minLength": 2,
+              "maxLength": 2
+            }
+          }         
         ],
         "foreignKeys": [
           {
@@ -515,6 +537,10 @@
           },
           {
             "name": "dcterms:date",
+            "type": "string"
+          },
+          {
+            "name": "dcterms:isPartOf",
             "type": "string"
           },
           {
@@ -567,10 +593,6 @@
           },
           {
             "name": "bibo:doi",
-            "type": "string"
-          },
-          {
-            "name": "dcterms:isPartOf",
             "type": "string"
           }
         ],
@@ -666,8 +688,8 @@
       }
     },
     {
-      "name": "Author",
-      "path": "Author.csv",
+      "name": "GroupMember",
+      "path": "GroupMember.csv",
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
