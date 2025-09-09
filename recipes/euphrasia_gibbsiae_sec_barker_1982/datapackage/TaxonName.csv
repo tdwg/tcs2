@@ -1,6 +1,6 @@
-ID,nameString,scientificNameAuthorship,namePublishedIn,namePublishedInYear,nomenclaturalStatus,basionymID,replacedNameID,basedOnID
-https://ipni.org/n/124446-3,Euphrasia brownii,F.Muell.,,,illegitimate,,,
-https://ipni.org/n/802451-1,Euphrasia collina,R.Br.,,,,,,
-https://ipni.org/n/802876-1,Euphrasia striata,R.Br.,,,,,,
-https://ipni.org/n/802545-1,Euphrasia gibbsiae,Du Rietz,,,,,,
-https://ipni.org/n/802619-1,Euphrasia kingii,W.M.Curtis,,,,,,
+ID,nameString,scientificNameAuthorship,namePublishedIn,namePublishedInYear,nomenclaturalCode,nomenclaturalStatus,basionymID,replacedNameID,basedOnID
+https://ipni.org/n/124446-3,Euphrasia brownii,F.Muell.,,,,illegitimate,,,
+https://ipni.org/n/802451-1,Euphrasia collina,R.Br.,,,,,,,
+https://ipni.org/n/802876-1,Euphrasia striata,R.Br.,,,,,,,
+https://ipni.org/n/802545-1,Euphrasia gibbsiae,Du Rietz,,,,,,,
+https://ipni.org/n/802619-1,Euphrasia kingii,W.M.Curtis,,,,,,,
