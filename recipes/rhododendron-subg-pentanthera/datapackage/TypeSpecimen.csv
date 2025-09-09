@@ -1,0 +1,16 @@
+ID,type,dwc:country,dwc:stateOrProvince,dwc:island,dwc:verbatimLocality,dwc:habitat,dwc:minimumElevationInMeters,dwc:maximumElevationInMeters,dwc:recordedBy,dwc:recordNumber,dwc:institutionCode,dwc:collectionCode,dwc:catalogNumber,dwc:disposition,sourceID
+_:ts000001,dwc:MaterialCitation,,,,"[Russia] Manchuria, shores of Possiet Bay, [SW of Vladivostok]",,,,C. Maximowicz,,LE,,,,_:ref1
+_:ts000002,dwc:MaterialCitation,Russia,,,"Manchuria, shores of Possiet Bay, [SW of Vladivostok]",,,,C. Maximowicz,,GH,,,,_:ref1
+_:ts000003,dwc:MaterialCitation,Russia,,,"Manchuria, shores of Possiet Bay, [SW of Vladivostok]",,,,C. Maximowicz,,NY,,,,_:ref1
+_:ts000004,dwc:MaterialCitation,,,,"Japan, Honshu, Nikko",,,,Bisset,233,E,,,,_:ref1
+_:ts000005,dwc:MaterialCitation,Japan,,,"Kyushiu, prov. Osumi, summit, Mt Taka-kuma",,,,Tashiro,,LE,,,,_:ref1
+_:ts000006,dwc:MaterialCitation,Japan,,,central mountains,,,,,,,,,,_:ref1
+_:ts000007,dwc:MaterialCitation,Japan,,,"Shikoku, pref. Kochi, Agawagun Nanokawa",,,,K. Watanabe,,TI,,,,_:ref1
+_:ts000008,dwc:MaterialCitation,Japan,,,"Japan, Hakodate, in subapline valley near Nodafu",,,,C. Maximowicz,,LE,,,,_:ref1
+_:ts000009,dwc:MaterialCitation,Japan,,,Gassan-hen,,,,S. Okubo & R Yatabe,s.n.,TI,,,,_:ref1
+_:ts000010,dwc:MaterialCitation,United States,,,summit of a balsam mountain c. 7 mi SW of Webster,,,,Vasey,s.n.,GH,,,,_:ref1
+_:ts000011,dwc:MaterialCitation,United States,,,summit of a balsam mountain c. 7 mi SW of Webster,,,,Vasey,s.n.,NY,,,,_:ref1
+_:ts000012,dwc:MaterialCitation,United States,,,summit of a balsam mountain c. 7 mi SW of Webster,,,,Vasey,s.n.,US,,,,_:ref1
+_:ts000013,dwc:MaterialCitation,United States,,,"Mt Desert Isl., Southwest Harbor",,,,A. J. Downs,s.n.,NEBC,,,,_:ref1
+_:ts000014,dwc:MaterialCitation,Canada,,,"boggy thickets bordering Trefry's Lake, Arcadia",,,,Fernald & Long,22150,GH,,,,_:ref1
+_:ts000015,dwc:MaterialCitation,Canada,,,"boggy thickets bordering Trefry's Lake, Arcadia",,,,Fernald & Long,22150,NY,,,,_:ref1

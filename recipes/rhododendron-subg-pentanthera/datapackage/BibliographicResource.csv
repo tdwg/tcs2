@@ -1,0 +1,5 @@
+ID,type,bibo:handle,dcterms:title,dcterms:bibliographicCitation,dcterms:creator,dcterms:date,bibo:publisher,bibo:volume,bibo:issue,bibo:pageStart,bibo:pageEnd,bibo:pages,bibo:numPages,bibo:number,bibo:isbn,bibo:isbn10,bibo:isbn13,bibo:issn,bibo:doi,dcterms:isPartOf
+_:br642962,bibo:Journal,,Edinburgh Journal of Botany,,,,,,,,,,,,,,,,,
+_:br620664,bibo:Issue,,,,,1995,,52,,,,,,,,,,,,_:br642962
+_:ref1,bibo:AcademicArticle,,"A revision of Rhododendron VI. Subgenus Pentanthera 
+            (sections Sciadorhodon, Rhodora and Viscidula)",,_:a568282,1995,,,,,,1-54,,,,,,,,_:br620664

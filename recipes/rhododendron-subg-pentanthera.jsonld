@@ -1,11 +1,5 @@
 {
-  "@context": [
-    "https://raw.githubusercontent.com/tdwg/tcs2/refs/heads/master/jsonld/context.jsonld",
-    {
-      "typification": { "@reverse": "tcs:typifiedName", "@container": "@set" },
-      "source": { "@id": "dcterms:source", "@type": "@id"}
-    }
-  ],
+  "@context": "https://raw.githubusercontent.com/tdwg/tcs2/refs/heads/master/jsonld/context.jsonld",
   "@graph": [
     {
       "id": "_:tc1",
@@ -764,13 +758,13 @@
       "type": "bibo:AcademicArticle",
       "dcterms:title": "A revision of Rhododendron VI. Subgenus Pentanthera \n            (sections Sciadorhodon, Rhodora and Viscidula)",
       "dcterms:creator": [
-        { "id": "https://orcid.org/0000-0003-2209-0222" },
-        { "id": "https://orcid.org/0000-0003-2391-2654" }
+        "https://orcid.org/0000-0003-2209-0222",
+        "https://orcid.org/0000-0003-2391-2654"
       ],
       "bibo:authorList": {
         "@list": [
-          { "id": "https://orcid.org/0000-0003-2209-0222" },
-          { "id": "https://orcid.org/0000-0003-2391-2654" }
+          "https://orcid.org/0000-0003-2209-0222",
+          "https://orcid.org/0000-0003-2391-2654"
         ]
       },
       "dcterms:isPartOf": {

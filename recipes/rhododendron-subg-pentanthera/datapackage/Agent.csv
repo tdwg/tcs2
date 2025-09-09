@@ -1,0 +1,4 @@
+ID,type,foaf:givenName,foaf:familyName,foaf:name,address:localityName
+https://orcid.org/0000-0003-2209-0222,foaf:Person,K.A.,Kron,,
+https://orcid.org/0000-0003-2391-2654,foaf:Person,W.S.,Judd,,
+_:a568282,foaf:Group,,,,

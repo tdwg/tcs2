@@ -1,0 +1,11 @@
+taxonConceptID,taxonNameID
+_:tc1,https://ipni.org/n/14620-1
+_:tc1,_:tn3
+_:tc000003,_:tn4
+_:tc000003,_:tn5
+_:tc000003,https://ipni.org/n/950666-1
+_:tc000006,https://ipni.org/n/219536-2
+_:tc000007,https://ipni.org/n/333228-1
+_:tc000007,https://ipni.org/n/219524-2
+_:tc000007,_:tn8
+_:tc000007,https://ipni.org/n/219459-2
