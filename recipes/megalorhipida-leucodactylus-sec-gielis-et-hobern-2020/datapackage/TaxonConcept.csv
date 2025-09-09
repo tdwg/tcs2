@@ -1,0 +1,35 @@
+ID,taxonConceptLabel,taxonNameID,accordingToID,taxonRank,parentID
+https://www.catalogueoflife.org/data/taxon/3YVTF,Megalorhipida leucodactylus sec. Gielis & Hobern 2020-07-16,https://zoobank.org/NomenclaturalActs/39b2f236-3914-4962-9dcc-f594671654bd,https://doi.org/10.15468/d9u533,species,https://www.catalogueoflife.org/data/taxon/62ZBY
+_:tc000001,Pterophorus congrualis sec. Walker 1864,_:tn3,https://www.biodiversitylibrary.org/page/38948425,,
+_:tc000002,Pterophorus leucodactylus sec. Gielis & al. 2022,https://zoobank.org/NomenclaturalActs/39b2f236-3914-4962-9dcc-f594671654bd,_:br286031,,
+_:tc000003,Pterophorus leucodactylus sec. Matthews et al. 2019,https://zoobank.org/NomenclaturalActs/39b2f236-3914-4962-9dcc-f594671654bd,https://digitalcommons.unl.edu/insectamundi/1219,,
+_:tc000004,"Pterophorus leucodactylus sec. Ustjuzhanin, Kovtunovich & Streltzov 2022",https://zoobank.org/NomenclaturalActs/39b2f236-3914-4962-9dcc-f594671654bd,_:br635633,,
+_:tc000005,Trichoptilus ralumensis sec. Pagenstecher 1900,_:tn10,_:br766965,,
+_:tc000006,Trichoptilus centetes sec. Meyrick 1886,_:tn6,_:br035794,,
+_:tc000007,Trichoptilus ochrodactylus sec. Fish 1881,_:tn9,_:br277292,,
+_:tc000008,Aciptilia hawaiiensis sec. Butler 1881,_:tn1,_:br918118,,
+_:tc000009,Trichoptilus adelphodes sec. Meyrick 1887,_:tn5,https://www.biodiversitylibrary.org/page/13718569,,
+_:tc000010,"Pterophorus leucodactylus sec. Ustjuzhanin et al. 2019,",https://zoobank.org/NomenclaturalActs/39b2f236-3914-4962-9dcc-f594671654bd,https://doi.org/10.1080/09397140.2018.1540159,,
+_:tc000011,"Pterophorus leucodactylus sec. Kovtunovich, Ustjuzhanin, Popotski & Haverinen 2023","{'type': 'TaxonName', 'nameString': 'Megalorhipida leucodactylus', 'scientificNameAuthorship': '(Fabricius, 1794)', 'basionym': 'https://zoobank.org/NomenclaturalActs/39b2f236-3914-4962-9dcc-f594671654bd'}",https://doi.org/10.37828/em.2023.62.17,,
+_:tc000012,Megalorhipida palaestinensis sec. Amsel 1935,_:tn2,_:br401423,,
+_:tc000013,Pterophorus leucodactylus sec. Fabricius 1794,https://zoobank.org/NomenclaturalActs/39b2f236-3914-4962-9dcc-f594671654bd,_:br595277,,
+_:tc000014,Pterophorus leucodactylus sec. Kovtunovich & al. 2014,https://zoobank.org/NomenclaturalActs/39b2f236-3914-4962-9dcc-f594671654bd,https://doi.org/10.11646/zootaxa.3847.4.1,,
+_:tc000015,Pterophorus leucodactylus sec. Ustjuzhanin & Kovtunovich 2023,https://zoobank.org/NomenclaturalActs/39b2f236-3914-4962-9dcc-f594671654bd,https://doi.org/10.37828/em.2023.61.4,,
+_:tc000016,Trichoptilus derelictus sec. Meyrick 1926,_:tn8,_:br892395,,
+_:tc000017,Pterophorus leucodactylus sec. Ustjuzhanin & al. 2021,https://zoobank.org/NomenclaturalActs/39b2f236-3914-4962-9dcc-f594671654bd,https://doi.org/10.25221/fee.423.2,,
+_:tc000018,Pterophorus leucodactylus sec. Ustjuzhanin & Kovtunovich 2017,https://zoobank.org/NomenclaturalActs/39b2f236-3914-4962-9dcc-f594671654bd,_:br748025,,
+_:tc000019,Pterophorus leucodactylus sec. Karsholt & Razowski 1996,https://zoobank.org/NomenclaturalActs/39b2f236-3914-4962-9dcc-f594671654bd,_:br008250,,
+_:tc000020,"Pterophorus leucodactylus sec. Ustjuzhanin, Kovtunovich, Müller, Prozorov & Streltzov 2022",https://zoobank.org/NomenclaturalActs/39b2f236-3914-4962-9dcc-f594671654bd,https://doi.org/10.37828/em.2022.53.6,,
+_:tc000021,Pterophorus defectalis sec. Walker 1864,_:tn4,https://www.biodiversitylibrary.org/page/38948425,,
+_:tc000022,Pterophorus oxydactylus sec. Walker 1864,_:tn11,https://www.biodiversitylibrary.org/page/38948425,,
+_:tc000023,Trichoptilus compsochares sec. Meyrick 1886,_:tn6,_:br140722,,
+https://www.catalogueoflife.org/data/taxon/62ZBY,Megalorhipida sec. Gielis & Hobern 2020-07-16,"{'type': 'TaxonName', 'nameString': 'Megalorhipida', 'scientificNameAuthorship': 'Amsel, 1935'}",https://doi.org/10.15468/d9u533,genus,https://www.catalogueoflife.org/data/taxon/L44
+https://www.catalogueoflife.org/data/taxon/L44,Oxyptilini sec. Gielis & Hobern 2020-07-16,"{'type': 'TaxonName', 'nameString': 'Oxyptilini', 'scientificNameAuthorship': 'Bigot, Gibeaux, Nel & Picard, 1998'}",https://doi.org/10.15468/d9u533,tribe,https://www.catalogueoflife.org/data/taxon/K8N
+https://www.catalogueoflife.org/data/taxon/K8N,Pterophorinae sec. Gielis & Hobern 2020-07-16,"{'type': 'TaxonName', 'nameString': 'Pterophorinae', 'scientificNameAuthorship': 'Zeller, 1841'}",https://doi.org/10.15468/d9u533,subfamily,https://www.catalogueoflife.org/data/taxon/8TLBR
+https://www.catalogueoflife.org/data/taxon/8TLBR,Pterophoridae sec. Gielis & Hobern 2020-07-16,"{'type': 'TaxonName', 'nameString': 'Pterophoridae', 'scientificNameAuthorship': 'Latreille, 1802'}",https://doi.org/10.15468/d9u533,family,https://www.catalogueoflife.org/data/taxon/B6LST
+https://www.catalogueoflife.org/data/taxon/B6LST,Pterophoroidea sec. Gielis & Hobern 2020-07-16,"{'type': 'TaxonName', 'nameString': 'Pterophoroidea', 'scientificNameAuthorship': 'Kuznetzov & Stekolnikov, 1979'}",https://doi.org/10.15468/d9u533,superfamily,https://www.catalogueoflife.org/data/taxon/B6L67
+https://www.catalogueoflife.org/data/taxon/B6L67,Lepidoptera sec. Global Lepidoptera Index 2023-05-10,"{'type': 'TaxonName', 'nameString': 'Lepidoptera', 'scientificNameAuthorship': 'Linnaeus, 1758'}",https://doi.org/10.48580/dfs6-49xk,order,https://www.catalogueoflife.org/data/taxon/H6
+https://www.catalogueoflife.org/data/taxon/H6,Insecta sec. Catalogue of Life,"{'type': 'TaxonName', 'nameString': 'Insecta'}",https://doi.org/10.48580/dfs6,class,https://www.catalogueoflife.org/data/taxon/RT
+https://www.catalogueoflife.org/data/taxon/RT,Arthropoda sec. Catalogue of Life,"{'type': 'TaxonName', 'nameString': 'Arthropoda'}",https://doi.org/10.48580/dfs6,phylum,https://www.catalogueoflife.org/data/taxon/N
+https://www.catalogueoflife.org/data/taxon/N,Animalia sec. Catalogue of Life,"{'type': 'TaxonName', 'nameString': 'Animalia'}",https://doi.org/10.48580/dfs6,kingdom,https://www.catalogueoflife.org/data/taxon/5T6MX
+https://www.catalogueoflife.org/data/taxon/5T6MX,Biota sec. Catalogue of Life,"{'type': 'TaxonName', 'nameString': 'Biota'}",https://doi.org/10.48580/dfs6,,

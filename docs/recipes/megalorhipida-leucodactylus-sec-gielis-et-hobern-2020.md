@@ -9,7 +9,7 @@ Since the example was created the concept has been replaced by a new concept:
 ```turtle
 <https://www.catalogueoflife.org/data/taxon/3YVTF> a tcs:TaxonConcept ;
     dcterms:title "Megalorhipida leucodactylus sec. Gielis & Hobern 2020-07-16" ;
-    tcs:accordingTo <https://doi.org/10.48580/dfry-3gd#1.1.23.5> ;
+    tcs:accordingTo <https://doi.org/10.15468/d9u533> ;
     tcs:taxonName [ a tcs:TaxonName ;
             tcs:nameString "Megalorhipida leucodactylus" ;
             dwc:scientificNameAuthorship "(Fabricius, 1794)" ;
@@ -110,7 +110,7 @@ _:tn11 a tcs:TaxonName ;
 
 <https://www.catalogueoflife.org/data/taxon/62ZBY> a tcs:TaxonConcept ;
     dcterms:title "Megalorhipida sec. Gielis & Hobern 2020-07-16" ;
-    tcs:accordingTo <https://doi.org/10.48580/dfry-3gd#1.1.23.5> ;
+    tcs:accordingTo <https://doi.org/10.15468/d9u533> ;
     tcs:taxonName [ a tcs:TaxonName ;
             tcs:nameString "Megalorhipida" ;
             dwc:scientificNameAuthorship "Amsel, 1935" ] ;
@@ -119,7 +119,7 @@ _:tn11 a tcs:TaxonName ;
 
 <https://www.catalogueoflife.org/data/taxon/L44> a tcs:TaxonConcept ;
     dcterms:title "Oxyptilini sec. Gielis & Hobern 2020-07-16" ;
-    tcs:accordingTo <https://doi.org/10.48580/dfry-3gd#1.1.23.5> ;
+    tcs:accordingTo <https://doi.org/10.15468/d9u533> ;
     tcs:taxonName [ a tcs:TaxonName ;
             tcs:nameString "Oxyptilini" ;
     dwc:scientificNameAuthorship "Bigot, Gibeaux, Nel & Picard, 1998" ] ;
@@ -128,7 +128,7 @@ _:tn11 a tcs:TaxonName ;
 
 <https://www.catalogueoflife.org/data/taxon/K8N> a tcs:TaxonConcept ;
     dcterms:title "Pterophorinae sec. Gielis & Hobern 2020-07-16" ;
-    tcs:accordingTo <https://doi.org/10.48580/dfry-3gd#1.1.23.5> ;
+    tcs:accordingTo <https://doi.org/10.15468/d9u533> ;
     tcs:taxonName [ a tcs:TaxonName ;
             tcs:nameString "Pterophorinae" ;
     dwc:scientificNameAuthorship "Zeller, 1841" ] ;
@@ -137,7 +137,7 @@ _:tn11 a tcs:TaxonName ;
 
 <https://www.catalogueoflife.org/data/taxon/8TLBR> a tcs:TaxonConcept ;
     dcterms:title "Pterophoridae sec. Gielis & Hobern 2020-07-16" ;
-    tcs:accordingTo <https://doi.org/10.48580/dfry-3gd#1.1.23.5> ;
+    tcs:accordingTo <https://doi.org/10.15468/d9u533> ;
     tcs:taxonName [ a tcs:TaxonName ;
             tcs:nameString "Pterophoridae" ;
     dwc:scientificNameAuthorship "Latreille, 1802" ] ;
@@ -146,7 +146,7 @@ _:tn11 a tcs:TaxonName ;
 
 <https://www.catalogueoflife.org/data/taxon/B6LST> a tcs:TaxonConcept ;
     dcterms:title "Pterophoroidea sec. Gielis & Hobern 2020-07-16" ;
-    tcs:accordingTo <https://doi.org/10.48580/dfry-3gd#1.1.23.5> ;
+    tcs:accordingTo <https://doi.org/10.15468/d9u533> ;
     tcs:taxonName [ a tcs:TaxonName ;
             tcs:nameString "Pterophoroidea" ;
     dwc:scientificNameAuthorship "Kuznetzov & Stekolnikov, 1979" ] ;
@@ -196,6 +196,15 @@ _:tn11 a tcs:TaxonName ;
 #
 # References 
 #
+
+<https://doi.org/10.15468/d9u533> a bibo:Webpage;
+    dcterms:title "Catalogue of the Pterophoroidea of the World" ;
+    dcterms:creator <https://orcid.org/0000-0001-6492-4016> ;
+    bibo:editorList [ a rdf:Seq ;
+            rdf:_1 <https://orcid.org/0000-0001-6492-4016 ] ;
+    bibo:publisher <https://www.gbif.org/publisher/f4ce3c03-7b38-445e-86e6-5f6b04b649d4> ;
+    bibo:uri "https://www.gbif.org/dataset/c815ecb1-b036-4617-b545-1bb65e0339cd" ;
+    bibo:doi "10.15468/d9u533" .
 
 _:tc1 a tcs:TaxonConcept ;
     dcterms:title "Pterophorus congrualis sec. Walker 1864" ;
@@ -397,5 +406,8 @@ _:tc20 a tcs:TaxonConcept ;
             45–55.""" .
 ```
 
+## Full code in GitHub
+
 [TurTLe](https://github.com/tdwg/tcs2/blob/master/recipes/megalorhipida-leucodactylus-sec-gielis-et-hobern-2020.ttl) |
-[JSON-LD](https://github.com/tdwg/tcs2/blob/master/recipes/megalorhipida-leucodactylus-sec-gielis-et-hobern-2020.jsonld)
+[JSON-LD](https://github.com/tdwg/tcs2/blob/master/recipes/megalorhipida-leucodactylus-sec-gielis-et-hobern-2020.jsonld) |
+[JSON-LD](https://github.com/tdwg/tcs2/blob/master/recipes/megalorhipida-leucodactylus-sec-gielis-et-hobern-2020/datapackage)

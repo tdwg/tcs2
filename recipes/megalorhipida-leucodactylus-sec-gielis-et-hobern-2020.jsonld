@@ -5,7 +5,7 @@
       "id": "https://www.catalogueoflife.org/data/taxon/3YVTF",
       "type": "TaxonConcept",
       "taxonConceptLabel": "Megalorhipida leucodactylus sec. Gielis & Hobern 2020-07-16",
-      "accordingTo": "https://doi.org/10.48580/dfry-3gd#1.1.23.5",
+      "accordingTo": "https://doi.org/10.15468/d9u533",
       "taxonName": "https://zoobank.org/NomenclaturalActs/39b2f236-3914-4962-9dcc-f594671654bd",
       "synonyms": [
         "_:tn1", "_:tn2", "_:tn3", "_:tn4", "_:tn5", "_:tn6", 
@@ -228,6 +228,35 @@
     },
 
     {
+      "id": "https://doi.org/10.15468/d9u533",
+      "type": "bibo:Webpage",
+      "dcterms:title": "Catalogue of the Pterophoroidea of the World",
+      "bibo:uri": "https://www.gbif.org/dataset/c815ecb1-b036-4617-b545-1bb65e0339cd",
+      "bibo:doi": "10.15468/d9u533",
+      "dcterms:creator": [
+        "https://orcid.org/0000-0001-6492-4016"
+      ],
+      "bibo:editorList": {
+        "@list": [
+          "https://orcid.org/0000-0001-6492-4016"
+        ]
+      },
+      "bibo:publisher": {
+        "id": "https://www.gbif.org/publisher/f4ce3c03-7b38-445e-86e6-5f6b04b649d4",
+        "type": "foaf:Organization",
+        "foaf:name": "Catalogue of Life",
+        "address:localityName": "The Netherlands"
+      }
+    },
+
+    {
+      "id": "https://orcid.org/0000-0001-6492-4016",
+      "type": "foaf:Person",
+      "foaf:givenName": "Donald",
+      "foaf:familyName": "Hobern"
+    },
+
+    {
       "id": "https://zoobank.org/NomenclaturalActs/39b2f236-3914-4962-9dcc-f594671654bd",
       "type": "TaxonName",
       "nameString": "Pterophorus leucodactylus",
@@ -304,7 +333,7 @@
       "id": "https://www.catalogueoflife.org/data/taxon/62ZBY",
       "type": "TaxonConcept",
       "taxonConceptLabel": "Megalorhipida sec. Gielis & Hobern 2020-07-16",
-      "accordingTo": "https://doi.org/10.48580/dfry-3gd#1.1.23.5",
+      "accordingTo": "https://doi.org/10.15468/d9u533",
       "taxonName": {
         "type": "TaxonName",
         "nameString": "Megalorhipida",
@@ -317,7 +346,7 @@
       "id": "https://www.catalogueoflife.org/data/taxon/L44",
       "type": "TaxonConcept",
       "taxonConceptLabel": "Oxyptilini sec. Gielis & Hobern 2020-07-16",
-      "accordingTo": "https://doi.org/10.48580/dfry-3gd#1.1.23.5",
+      "accordingTo": "https://doi.org/10.15468/d9u533",
       "taxonName": {
         "type": "TaxonName",
         "nameString": "Oxyptilini",
@@ -330,7 +359,7 @@
       "id": "https://www.catalogueoflife.org/data/taxon/K8N",
       "type": "TaxonConcept",
       "taxonConceptLabel": "Pterophorinae sec. Gielis & Hobern 2020-07-16",
-      "accordingTo": "https://doi.org/10.48580/dfry-3gd#1.1.23.5",
+      "accordingTo": "https://doi.org/10.15468/d9u533",
       "taxonName": {
         "type": "TaxonName",
         "nameString": "Pterophorinae",
@@ -343,7 +372,7 @@
       "id": "https://www.catalogueoflife.org/data/taxon/8TLBR",
       "type": "TaxonConcept",
       "taxonConceptLabel": "Pterophoridae sec. Gielis & Hobern 2020-07-16",
-      "accordingTo": "https://doi.org/10.48580/dfry-3gd#1.1.23.5",
+      "accordingTo": "https://doi.org/10.15468/d9u533",
       "taxonName": {
         "type": "TaxonName",
         "nameString": "Pterophoridae",
@@ -356,7 +385,7 @@
       "id": "https://www.catalogueoflife.org/data/taxon/B6LST",
       "type": "TaxonConcept",
       "taxonConceptLabel": "Pterophoroidea sec. Gielis & Hobern 2020-07-16",
-      "accordingTo": "https://doi.org/10.48580/dfry-3gd#1.1.23.5",
+      "accordingTo": "https://doi.org/10.15468/d9u533",
       "taxonName": {
         "type": "TaxonName",
         "nameString": "Pterophoroidea",

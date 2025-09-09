@@ -1,0 +1,13 @@
+ID,nameString,scientificNameAuthorship,namePublishedIn,namePublishedInYear,nomenclaturalStatus,basionymID,replacedNameID,basedOnID
+https://zoobank.org/NomenclaturalActs/39b2f236-3914-4962-9dcc-f594671654bd,Pterophorus leucodactylus,"Fabricius, 1794",,,,,,
+_:tn1,Aciptilia hawaiiensis,"Butler, 1881",,,,,,
+_:tn2,Megalorhipida palaestinensis,"Amsel, 1935",,,,,,
+_:tn3,Pterophorus congrualis,"Walker, 1864",,,,,,
+_:tn4,Pterophorus defectalis,"Walker, 1864",,,,,,
+_:tn5,Trichoptilus adelphodes,"Meyrick, 1887",,,,,,
+_:tn6,Trichoptilus centetes,"Meyrick, 1886",,,,,,
+_:tn7,Trichoptilus compsochares,"Meyrick, 1886",,,,,,
+_:tn8,Trichoptilus derelictus,"Meyrick, 1926",,,,,,
+_:tn9,Trichoptilus ochrodactylus ,"Fish, 1881",,,,,,
+_:tn10,Trichoptilus ralumensis ,"Pagenstecher, 1900",,,,,,
+_:tn11,Pterophorus oxydactylus ,"Walker, 1864",,,,,,
