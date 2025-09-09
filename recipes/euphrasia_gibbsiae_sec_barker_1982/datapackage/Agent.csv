@@ -1,0 +1,9 @@
+ID,type,foaf_givenName,foaf_familyName,foaf_name,address_localityName
+_:a1,foaf:Person,W.R.,Barker,,
+_:a2,foaf:Person,W.M.,Curtis,,
+_:a3,foaf:Person,J.H.,Willis,,
+_:a4,foaf:Person,M.,Stones,,
+_:a5,foaf:Person,F.,Mueller,,
+_:a6,foaf:Person,G.,Bentham,,
+_:a7,foaf:Person,R.,Von Wettstein,,
+_:a187963,foaf:Group,,,,

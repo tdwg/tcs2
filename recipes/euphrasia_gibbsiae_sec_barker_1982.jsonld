@@ -1,44 +1,7 @@
 {
   "@context": [
     "https://raw.githubusercontent.com/tdwg/tcs2/refs/heads/master/jsonld/context.jsonld",
-    {
-      "mappingRelation": {
-        "@id": "tcs:mappingRelation",
-        "@type": "@vocab"
-      },
-      "isCongruentWith": "tcs:isCongruentWith",
-      "includes": "tcs:includes",
-      "isIncludedIn": "tcs:isIncludedIn",
-      "partiallyOverlaps": "tcs:partiallyOverlaps",
-      "isDisjointFrom": "tcs:isDisjointFrom",
-      "oa": "http://www.w3.org/ns/oa#",
-      "Annotation": "oa:Annotation",
-      "commenting": "oa:commenting",
-      "body": {
-        "@id": "oa:hasBody",
-        "@type": "@id"
-      },
-      "target": {
-        "@id": "oa:hasTarget",
-        "@type": "@id"
-      },
-      "motivation": {
-        "@id": "oa:motivatedBy",
-        "@type": "@vocab"
-      },
-      "value": { 
-        "@id": "rdf:value", 
-        "@type": "@id" 
-      },
-      "creator": {
-        "@id": "dcterms:creator",
-        "@type": "@id"
-      },
-      "created": {
-        "@id": "dcterms:created",
-        "@type": "xsd:datetime"
-      }
-    }
+    "https://raw.githubusercontent.com/tdwg/tcs2/refs/heads/master/jsonld/annotation/context.jsonld"
   ],
   "@graph": [
     {
@@ -52,28 +15,28 @@
       ],
       "intersects": [
         {
-          "value": "https://id.biodiversity.org.au/instance/apni/713514",
+          "rdf:value": "https://id.biodiversity.org.au/instance/apni/713514",
           "rdfs:comment": "p.p. (as to Tasmanian occurrences and f. subglabrifolia in Victoria)"
         },
         "_:tc1",
         "_:tc2",
         {
-          "value": "_:tc3",
+          "rdf:value": "_:tc3",
           "rdfs:comment": "p.p. (excl. \"f. comberi\" in Victoria)"
         },
         {
-          "value": "_:tc4",
+          "rdf:value": "_:tc4",
           "rdfs:comment": "p.p. (as to f. subglabrifolia)"
         },
         "_:tc5",
         "_:tc6",
         "_:tc7",
         {
-          "value": "_:tc8",
+          "rdf:value": "_:tc8",
           "rdfs:comment": "p.p. (as to var. psilantherea p.p.)"
         },
         {
-          "value": "_:tc9",
+          "rdf:value": "_:tc9",
           "rdfs:comment": "p.p. (as to Stuart 1745, Milligan MEL41451, p.p., Mueller MEL41539)"
         },
         {
@@ -81,7 +44,7 @@
           "rdfs:comment": "p.p. (as to Oldfield W36919, W36922)"
         },
         {
-          "value": "_:tc11",
+          "rdf:value": "_:tc11",
           "rdfs:comment": "p.p. (as to Labillardière G)"
         }
       ]
@@ -175,7 +138,7 @@
     {
       "id": "https://ipni.org/n/124446-3",
       "type": "TaxonName",
-      "tcs:nameString": "Euphrasia brownii",
+      "nameString": "Euphrasia brownii",
       "scientificNameAuthorship": "F.Muell.",
       "namePublishedIn": "_:b29",
       "nomenclaturalStatus": "illegitimate"
@@ -183,26 +146,26 @@
     {
       "id": "https://ipni.org/n/802451-1",
       "type": "TaxonName",
-      "tcs:nameString": "Euphrasia collina",
+      "nameString": "Euphrasia collina",
       "scientificNameAuthorship": "R.Br."
     },
     {
       "id": "https://ipni.org/n/802876-1",
       "type": "TaxonName",
-      "tcs:nameString": "Euphrasia striata",
+      "nameString": "Euphrasia striata",
       "scientificNameAuthorship": "R.Br."
     },
     {
       "id": "https://ipni.org/n/802545-1",
       "type": "TaxonName",
-      "tcs:nameString": "Euphrasia gibbsiae",
+      "nameString": "Euphrasia gibbsiae",
       "scientificNameAuthorship": "Du Rietz",
       "namePublishedIn": "_:b28"
     },
     {
       "id": "https://ipni.org/n/802619-1",
       "type": "TaxonName",
-      "tcs:nameString": "Euphrasia kingii",
+      "nameString": "Euphrasia kingii",
       "scientificNameAuthorship": "W.M.Curtis",
       "namePublishedIn": "https://id.biodiversity.org.au/reference/apni/23028"
     },
@@ -332,9 +295,9 @@
       "id": "https://www.jstor.org/stable/23873848",
       "type": "bibo:AcademicArticle",
       "dcterms:title": "Taxonomic Studies in Euphrasia L. (scrophulariaceae). a \n        Revised Infrageneric Classification, and a Revision of the Genus in \n        Australia",
-      "dcterms:creator": {
-        "id": "_:a1"
-      },
+      "dcterms:creator": [
+        "_:a1"
+      ],
       "bibo:authorList": {
         "@list": [
           { "id": "_:a1" }
@@ -363,9 +326,9 @@
           }
         ]
       },
-      "dcterms:creator": {
-        "id": "_:a2"
-      },
+      "dcterms:creator": [
+        "_:a2"
+      ],
       "dcterms:date": "1967",
       "dcterms:publisher": {
         "type": "foaf:Organization",
@@ -377,9 +340,9 @@
       "id": "_:ref1",
       "type": "bibo:AcademicArticle",
       "dcterms:title": "Systematic notes on the indigenous Australian flora",
-      "dcterms:creator": {
-        "id": "_:a3"
-      },
+      "dcterms:creator": [
+        "_:a3"
+      ],
       "bibo:authorList": {
         "@list": [
           {
@@ -412,9 +375,9 @@
       "id": "_:ref4",
       "type": "bibo:Book",
       "dcterms:title": "A Handbook to Plants in Victoria 2. Dicotyledons",
-      "dcterms:creator": {
-        "id": "_:a3"
-      },
+      "dcterms:creator": [
+        "_:a3"
+      ],
       "bibo:authorList": {
         "@list": [
           {
@@ -433,21 +396,13 @@
       "type": "bibo:Book",
       "dcterms:title": "The Endemic Flora of Tasmania",
       "dcterms:creator": [
-        {
-          "id": "_:a4"
-        },
-        {
-          "id": "_:a1"
-        }
+        "_:a4",
+        "_:a1"
       ],
       "bibo:authorList": {
         "@list": [
-          {
-            "id": "_:a4"
-          },
-          {
-            "id": "_:a1"
-          }
+          "_:a4",
+          "_:a1"
         ]
       },
       "dcterms:date": "1967-78",
@@ -461,14 +416,12 @@
       "id": "_:ref6",
       "type": "bibo:Chapter",
       "dcterms:title": "Scrophularinae: Euphrasia Brownii",
-      "dcterms:creator": {
-        "id": "_:a5"
-      },
+      "dcterms:creator": [
+        "_:a5"
+      ],
       "bibo:authorList": {
         "@list": [
-          {
-            "id": "_:a5"
-          }
+          "_:a5"
         ]
       },
       "dcterms:isPartOf": {
@@ -489,14 +442,12 @@
         "id": "_:b63",
         "type": "bibo:MultiVolumeBook",
         "dcterms:title": "Flora Australiensis",
-        "dcterms:creator": {
-          "id": "_:a6"
-        },
+        "dcterms:creator": [
+          "_:a6"
+        ],
         "bibo:authorList": {
           "@list": [
-            {
-              "id": "_:a6"
-            }
+            "_:a6"
           ]
         },
         "dcterms:publisher": {
@@ -512,9 +463,9 @@
       "id": "_:ref8",
       "type": "bibo:Book",
       "dcterms:title": "Monographiae der Gattung Euphrasia",
-      "dcterms:creator": {
-        "id": "_:a7"
-      },
+      "dcterms:creator": [
+        "_:a7"
+      ],
       "dcterms:authorList": {
         "@list": [
           {

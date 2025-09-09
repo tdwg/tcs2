@@ -1,7 +1,11 @@
 @prefix tcs: <http://rs.tdwg.org/tcs/terms/> .
+@prefix address: <http://schemas.talis.com/2005/address/schema#> .
 @prefix bibo: <http://purl.org/ontology/bibo/> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix dwc: <http://rs.tdwg.org/dwc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
 
 <https://www.catalogueoflife.org/data/taxon/3YVTF> a tcs:TaxonConcept ;
     dcterms:title "Megalorhipida leucodactylus sec. Gielis & Hobern 2020-07-16" ;
@@ -197,7 +201,7 @@ _:tn11 a tcs:TaxonName ;
     dcterms:title "Catalogue of the Pterophoroidea of the World" ;
     dcterms:creator <https://orcid.org/0000-0001-6492-4016> ;
     bibo:editorList [ a rdf:Seq ;
-            rdf:_1 <https://orcid.org/0000-0001-6492-4016 ] ;
+            rdf:_1 <https://orcid.org/0000-0001-6492-4016> ] ;
     bibo:publisher <https://www.gbif.org/publisher/f4ce3c03-7b38-445e-86e6-5f6b04b649d4> ;
     bibo:uri "https://www.gbif.org/dataset/c815ecb1-b036-4617-b545-1bb65e0339cd" ;
     bibo:doi "10.15468/d9u533" .

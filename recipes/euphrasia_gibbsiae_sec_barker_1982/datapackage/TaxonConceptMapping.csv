@@ -1,0 +1,13 @@
+subjectTaxonConceptID,mappingRelation,objectTaxonConceptID,remarks,sourceID,creatorID,created
+https://id.biodiversity.org.au/instance/apni/545068,intersects,https://id.biodiversity.org.au/instance/apni/713514,p.p. (as to Tasmanian occurrences and f. subglabrifolia in Victoria),https://www.jstor.org/stable/23873848,,
+https://id.biodiversity.org.au/instance/apni/545068,intersects,_:tc1,,https://www.jstor.org/stable/23873848,,
+https://id.biodiversity.org.au/instance/apni/545068,intersects,_:tc2,,https://www.jstor.org/stable/23873848,,
+https://id.biodiversity.org.au/instance/apni/545068,intersects,_:tc3,"p.p. (excl. ""f. comberi"" in Victoria)",https://www.jstor.org/stable/23873848,,
+https://id.biodiversity.org.au/instance/apni/545068,intersects,_:tc4,p.p. (as to f. subglabrifolia),https://www.jstor.org/stable/23873848,,
+https://id.biodiversity.org.au/instance/apni/545068,intersects,_:tc5,,https://www.jstor.org/stable/23873848,,
+https://id.biodiversity.org.au/instance/apni/545068,intersects,_:tc6,,https://www.jstor.org/stable/23873848,,
+https://id.biodiversity.org.au/instance/apni/545068,intersects,_:tc7,,https://www.jstor.org/stable/23873848,,
+https://id.biodiversity.org.au/instance/apni/545068,intersects,_:tc8,p.p. (as to var. psilantherea p.p.),https://www.jstor.org/stable/23873848,,
+https://id.biodiversity.org.au/instance/apni/545068,intersects,_:tc9,"p.p. (as to Stuart 1745, Milligan MEL41451, p.p., Mueller MEL41539)",https://www.jstor.org/stable/23873848,,
+https://id.biodiversity.org.au/instance/apni/545068,intersects,_:tc10,"p.p. (as to Oldfield W36919, W36922)",https://www.jstor.org/stable/23873848,,
+https://id.biodiversity.org.au/instance/apni/545068,intersects,_:tc11,p.p. (as to Labillardière G),https://www.jstor.org/stable/23873848,,
