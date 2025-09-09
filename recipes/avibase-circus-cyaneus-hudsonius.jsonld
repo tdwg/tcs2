@@ -45,12 +45,14 @@
       "rdfs:label": "Circus [cyaneus or hudsonius]",
       "accordingTo": "https://avibase.bsc-eoc.org",
       "taxonName": "_:tn1",
-      "isCongruentWith": {
-        "type": "TaxonConcept",
-        "accordingTo": "_:ref4",
-        "taxonConceptLabel": "Circus cyaneus sec. Howard & Moore 2013",
-        "taxonName": "_:tn1"
-      }
+      "isCongruentWith": [
+        {
+          "type": "TaxonConcept",
+          "accordingTo": "_:ref4",
+          "taxonConceptLabel": "Circus cyaneus sec. Howard & Moore 2013",
+          "taxonName": "_:tn1"
+        }
+      ]
     },
     {
       "id": "https://avibase.ca/F558C7F9",
@@ -176,12 +178,10 @@
       "dcterms:bibliographicCitation": "Howard & Moore, 2013"
     },
     {
-      "id": "_:ann1",
       "type": "Annotation",
       "motivation": "commenting",
       "body": {
         "type": "TaxonConceptMapping",
-        "mappingAccordingTo": "_:ann1",
         "mappingRelation": "includes",
         "subjectTaxonConcept": "https://avibase.ca/82745BAA",
         "objectTaxonConcept": "https://avibase.ca/F558C7F9"
@@ -191,12 +191,10 @@
       "created": "2023-10-21T13:55:00+10"
     },
     {
-      "id": "_:ann2",
       "type": "Annotation",
       "motivation": "commenting",
       "body": {
         "type": "TaxonConceptMapping",
-        "mappingAccordingTo": "_:ann2",
         "mappingRelation": "includes",
         "subjectTaxonConcept": "https://avibase.ca/82745BAA",
         "objectTaxonConcept": "https://avibase.ca/A091D50A"
@@ -206,12 +204,10 @@
       "created": "2023-10-21T13:55:00+10"
     },
     {
-      "id": "_:ann3",
       "type": "Annotation",
       "motivation": "commenting",
       "body": {
         "type": "TaxonConceptMapping",
-        "mappingAccordingTo": "_:ann3",
         "mappingRelation": "isDisjointFrom",
         "subjectTaxonConcept": "https://avibase.ca/F558C7F9",
         "objectTaxonConcept": "https://avibase.ca/A091D50A"
