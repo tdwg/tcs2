@@ -1,4 +1,4 @@
-ID,type,dwc:country,dwc:stateOrProvince,dwc:island,dwc:verbatimLocality,dwc:habitat,dwc:minimumElevationInMeters,dwc:maximumElevationInMeters,dwc:recordedBy,dwc:recordNumber,dwc:institutionCode,dwc:collectionCode,dwc:catalogNumber,dwc:disposition,sourceID
+ID,type,dwc_country,dwc_stateOrProvince,dwc_island,dwc_verbatimLocality,dwc_habitat,dwc_minimumElevationInMeters,dwc_maximumElevationInMeters,dwc_recordedBy,dwc_recordNumber,dwc_institutionCode,dwc_collectionCode,dwc_catalogNumber,dwc_disposition,sourceID
 _:ts000001,dwc:MaterialCitation,Indonesia,,,"Mt. Arfak ad Hatam, 5000-7000'",,,,O. Beccari,167,B,,,destroyed,https://tropicos.org/reference/9020903
 _:ts000002,dwc:MaterialCitation,Indonesia,,,"Mt. Arfak ad Hatam, 5000-7000'",,,,O. Beccari,167,H-BR,,,,https://tropicos.org/reference/9020903
 _:ts000003,dwc:MaterialCitation,Indonesia,,,"Mt. Arfak ad Hatam, 5000-7000'",,,,O. Beccari,167,FH-FL,,,,https://tropicos.org/reference/9020903

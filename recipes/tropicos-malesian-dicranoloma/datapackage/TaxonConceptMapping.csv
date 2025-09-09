@@ -1,177 +1,177 @@
-subjectTaxonConceptID,mappingRelation,objectTaxonConceptID,sourceID,creator,created
-https://tropicos.org/reference/9020903#name-35121455,isCongruentWith,https://tropicos.org/reference/9007945#name-35121903,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
-https://tropicos.org/reference/9020903#name-35121514,isCongruentWith,https://tropicos.org/reference/9007945#name-35122214,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
-https://tropicos.org/reference/9020903#name-35121458,partiallyOverlaps,https://tropicos.org/reference/9007945#name-35184276,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
-https://tropicos.org/reference/9020903#name-35158613,isCongruentWith,https://tropicos.org/reference/9007945#name-35121907,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
-https://tropicos.org/reference/9020903#name-35121458,includes,https://tropicos.org/reference/9007945#name-35121913,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
-https://tropicos.org/reference/9020903#name-35204723,isCongruentWith,https://tropicos.org/reference/9007945#name-35204723,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
-https://tropicos.org/reference/9020903#name-35121475,isCongruentWith,https://tropicos.org/reference/9007945#name-35121972,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
-https://tropicos.org/reference/9020903#name-35121467,includes,https://tropicos.org/reference/9007945#name-35121960,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
-https://tropicos.org/reference/9020903#name-35121467,includes,https://tropicos.org/reference/9007945#-name-35123838,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
-https://tropicos.org/reference/9020903#name-35121486,isIncludedIn,https://tropicos.org/reference/9007945#name-35122018,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
-https://tropicos.org/reference/9020903#name-35121486,isDisjointFrom,https://tropicos.org/reference/9007945#name-35121960,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
-https://tropicos.org/reference/9020903#name-35121491,isIncludedIn,https://tropicos.org/reference/9007945#name-35122018,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
-https://tropicos.org/reference/9020903#name-35204724,isCongruentWith,https://tropicos.org/reference/9007945#name-35184272,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
-https://tropicos.org/reference/9020903#name-35121509,isCongruentWith,https://tropicos.org/reference/9007945#name-35184274,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
-https://tropicos.org/reference/9020903#name-35121617,isIncludedIn,https://tropicos.org/reference/9007945#name-35184276,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
-https://tropicos.org/reference/9020903#name-35184079,isCongruentWith,https://tropicos.org/reference/9007945#name-35184275,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
-https://tropicos.org/reference/9020903#name-35121609,isCongruentWith,https://tropicos.org/reference/9006742#name-35121609,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
-https://tropicos.org/reference/9020903#name-35121514,partiallyOverlaps,https://tropicos.org/reference/9006742#name-35121458,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
-https://tropicos.org/reference/9020903#name-35121486,isIncludedIn,https://tropicos.org/reference/9006742#name-35121491,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
-https://tropicos.org/reference/9020903#name-35158613,isCongruentWith,https://tropicos.org/reference/9006742#name-35121457,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
-https://tropicos.org/reference/9020903#name-35121458,includes,https://tropicos.org/reference/9006742#name-35121458,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
-https://tropicos.org/reference/9020903#name-35121458,partiallyOverlaps,https://tropicos.org/reference/9006742#name-35121596,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
-https://tropicos.org/reference/9020903#name-35121542,isCongruentWith,https://tropicos.org/reference/9006742#name-35121542,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
-https://tropicos.org/reference/9020903#name-35121475,includes,https://tropicos.org/reference/9006742#name-35121484,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
-https://tropicos.org/reference/9020903#name-35121467,includes,https://tropicos.org/reference/9006742#name-35121467,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
-https://tropicos.org/reference/9020903#name-35121491,isIncludedIn,https://tropicos.org/reference/9006742#name-35121491,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
-https://tropicos.org/reference/9020903#name-35121491,isDisjointFrom,https://tropicos.org/reference/9006742#name-35121475,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
-https://tropicos.org/reference/9020903#name-35121467,includes,https://tropicos.org/reference/9006742#name-35121578,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
-https://tropicos.org/reference/9020903#name-35121475,includes,https://tropicos.org/reference/9006742#name-35121475,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
-https://tropicos.org/reference/9020903#name-35121491,includes,https://tropicos.org/reference/9005756#name-35121491,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
-https://tropicos.org/reference/9020903#name-35121609,isIncludedIn,https://tropicos.org/reference/9005756#name-35121609-2,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
-https://tropicos.org/reference/9020903#name-35121491,includes,https://tropicos.org/reference/9005756#name-35121559,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
-https://tropicos.org/reference/9020903#name-35121609,isCongruentWith,https://tropicos.org/reference/9005756#name-35121609,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
-https://tropicos.org/reference/9020903#name-35121509,isIncludedIn,https://tropicos.org/reference/9005756#name-35121530,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
-https://tropicos.org/reference/9020903#name-35184079,isCongruentWith,https://tropicos.org/reference/9005756#name-35184079,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
-https://tropicos.org/reference/9020903#name-35121542,isCongruentWith,https://tropicos.org/reference/9005756#name-35121542,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
-https://tropicos.org/reference/9020903#name-35121617,isCongruentWith,https://tropicos.org/reference/9005756#name-35121617,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
-https://tropicos.org/reference/9020903#name-35121491,isDisjointFrom,https://tropicos.org/reference/9005756#name-35121488,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
-https://tropicos.org/reference/9020903#name-35121458,includes,https://tropicos.org/reference/9005756#name-35121587,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
-https://tropicos.org/reference/9020903#name-35121455,isCongruentWith,https://tropicos.org/reference/9005756#name-35121455,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
-https://tropicos.org/reference/9020903#name-35121467,includes,https://tropicos.org/reference/9005756#name-35121578,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
-https://tropicos.org/reference/9020903#name-35121467,includes,https://tropicos.org/reference/9005756#name-35121488,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
-https://tropicos.org/reference/9020903#name-35121467,includes,https://tropicos.org/reference/9005756#name-35121467,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
-https://tropicos.org/reference/9020903#name-35121486,isCongruentWith,https://tropicos.org/reference/9005756#name-35121486,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
-https://tropicos.org/reference/9020903#name-35121458,partiallyOverlaps,https://tropicos.org/reference/9005756#name-35121609-2,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
-https://tropicos.org/reference/9020903#name-35121458,partiallyOverlaps,https://tropicos.org/reference/9005756#name-35121458-2,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
-https://tropicos.org/reference/9020903#name-35121458,isIncludedIn,https://tropicos.org/reference/9005756#name-35121458,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
-https://tropicos.org/reference/9020903#name-35121514,partiallyOverlaps,https://tropicos.org/reference/9005756#name-35121458-2,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
-https://tropicos.org/reference/9020903#name-35158613,isCongruentWith,https://tropicos.org/reference/9005756#name-35158613,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
-https://tropicos.org/reference/9020903#name-35121455,isIncludedIn,https://tropicos.org/reference/9005756#name-35121458-2,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
-https://tropicos.org/reference/9020903#name-35121514,partiallyOverlaps,https://tropicos.org/reference/9005756#name-35121458,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
-https://tropicos.org/reference/9020903#name-35121542,isIncludedIn,https://tropicos.org/reference/9005756#name-35121458-2,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
-https://tropicos.org/reference/9020903#name-35204725,isIncludedIn,https://tropicos.org/reference/9005756#name-35121530,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
-https://tropicos.org/reference/9020903#name-35121475,isCongruentWith,https://tropicos.org/reference/9005756#name-35121475,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
-https://tropicos.org/reference/9020903#name-35121486,isDisjointFrom,https://tropicos.org/reference/9005756#name-35121458-2,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
-https://tropicos.org/reference/9020903#name-35121486,isDisjointFrom,https://tropicos.org/reference/9005756#name-35121556,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
-https://tropicos.org/reference/9020903#name-35121491,isCongruentWith,https://tropicos.org/reference/9002886#name-35191032,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
-https://tropicos.org/reference/9020903#name-35121467,includes,https://tropicos.org/reference/9002886#name-35121467,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
-https://tropicos.org/reference/9020903#name-35121486,includes,https://tropicos.org/reference/9002886#name-35121479,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
-https://tropicos.org/reference/9020903#name-35121458,isCongruentWith,https://tropicos.org/reference/9002886#name-35121458,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
-https://tropicos.org/reference/9020903#name-35121486,includes,https://tropicos.org/reference/9002886#name-35167975,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
-https://tropicos.org/reference/9020903#name-35121486,includes,https://tropicos.org/reference/9002886#name-35167976,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
-https://tropicos.org/reference/9020903#name-35121455,isCongruentWith,https://tropicos.org/reference/9002886#name-35121455,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
-https://tropicos.org/reference/9020903#name-35121514,includes,https://tropicos.org/reference/9002886#name-35121483,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
-https://tropicos.org/reference/9020903#name-35121491,isIncludedIn,https://tropicos.org/reference/9002886#name-35121491,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
-https://tropicos.org/reference/9020903#name-35121609,includes,https://tropicos.org/reference/9002886#name-35121518,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
-https://tropicos.org/reference/9020903#name-35121475,isCongruentWith,https://tropicos.org/reference/9002886#name-35121475,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
-https://tropicos.org/reference/9020903#name-35204725,isCongruentWith,https://tropicos.org/reference/9002886#name-35121530,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
-https://tropicos.org/reference/9020903#name-35121509,isCongruentWith,https://tropicos.org/reference/9002886#name-35121509,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
-https://tropicos.org/reference/9020903#name-35121609,includes,https://tropicos.org/reference/9002886#name-35121609,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
-https://tropicos.org/reference/9020903#name-35158613,isCongruentWith,https://tropicos.org/reference/9002886#name-35121457,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
-https://tropicos.org/reference/9020903#name-35121467,includes,https://tropicos.org/reference/9002886#name-35121578,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
-https://tropicos.org/reference/9020903#name-35121514,includes,https://tropicos.org/reference/9002886#name-35121514,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
-https://tropicos.org/reference/9007945#name-35121960,isCongruentWith,https://tropicos.org/reference/9006742#name-35121467,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
-https://tropicos.org/reference/9007945#name-35121913,isIncludedIn,https://tropicos.org/reference/9006742#name-35121458,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
-https://tropicos.org/reference/9007945#name-35121907,isCongruentWith,https://tropicos.org/reference/9006742#name-35121457,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
-https://tropicos.org/reference/9007945#-name-35123838,isCongruentWith,https://tropicos.org/reference/9006742#name-35121578,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
-https://tropicos.org/reference/9007945#name-35122018,isCongruentWith,https://tropicos.org/reference/9006742#name-35121491,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
-https://tropicos.org/reference/9007945#name-35122214,partiallyOverlaps,https://tropicos.org/reference/9006742#name-35121458,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
-https://tropicos.org/reference/9007945#name-35121972,includes,https://tropicos.org/reference/9006742#name-35121475,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
-https://tropicos.org/reference/9007945#name-35121913,partiallyOverlaps,https://tropicos.org/reference/9005756#name-35121458-2,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
-https://tropicos.org/reference/9007945#name-35121913,partiallyOverlaps,https://tropicos.org/reference/9005756#name-35121609-2,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
-https://tropicos.org/reference/9007945#name-35121913,isIncludedIn,https://tropicos.org/reference/9005756#name-35121458,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
-https://tropicos.org/reference/9007945#name-35184274,isIncludedIn,https://tropicos.org/reference/9005756#name-35121530,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
-https://tropicos.org/reference/9007945#-name-35123838,isCongruentWith,https://tropicos.org/reference/9005756#name-35121578,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
-https://tropicos.org/reference/9007945#name-35121913,includes,https://tropicos.org/reference/9005756#name-35121587,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
-https://tropicos.org/reference/9007945#name-35121907,isCongruentWith,https://tropicos.org/reference/9005756#name-35158613,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
-https://tropicos.org/reference/9007945#name-35121903,isIncludedIn,https://tropicos.org/reference/9005756#name-35121458-2,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
-https://tropicos.org/reference/9007945#name-35122018,includes,https://tropicos.org/reference/9005756#name-35121486,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
-https://tropicos.org/reference/9007945#name-35122018,includes,https://tropicos.org/reference/9005756#name-35121491,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
-https://tropicos.org/reference/9007945#name-35121972,isCongruentWith,https://tropicos.org/reference/9005756#name-35121475,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
-https://tropicos.org/reference/9007945#name-35121960,includes,https://tropicos.org/reference/9005756#name-35121467,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
-https://tropicos.org/reference/9007945#name-35122214,partiallyOverlaps,https://tropicos.org/reference/9005756#name-35121458-2,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
-https://tropicos.org/reference/9007945#name-35121960,partiallyOverlaps,https://tropicos.org/reference/9005756#name-35121458-2,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
-https://tropicos.org/reference/9007945#name-35121903,isCongruentWith,https://tropicos.org/reference/9005756#name-35121455,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
-https://tropicos.org/reference/9007945#name-35184276,includes,https://tropicos.org/reference/9005756#name-35121617,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
-https://tropicos.org/reference/9007945#name-35122214,partiallyOverlaps,https://tropicos.org/reference/9005756#name-35121458,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
-https://tropicos.org/reference/9007945#name-35184275,isCongruentWith,https://tropicos.org/reference/9005756#name-35184079,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
-https://tropicos.org/reference/9007945#name-35121960,includes,https://tropicos.org/reference/9005756#name-35121556,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
-https://tropicos.org/reference/9007945#name-35121972,isCongruentWith,https://tropicos.org/reference/9002886#name-35121475,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
-https://tropicos.org/reference/9007945#-name-35123838,isCongruentWith,https://tropicos.org/reference/9002886#name-35121578,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
-https://tropicos.org/reference/9007945#name-35122018,includes,https://tropicos.org/reference/9002886#name-35167975,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
-https://tropicos.org/reference/9007945#name-35121913,isIncludedIn,https://tropicos.org/reference/9002886#name-35121458,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
-https://tropicos.org/reference/9007945#name-35122018,includes,https://tropicos.org/reference/9002886#name-35167976,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
-https://tropicos.org/reference/9007945#name-35121960,isCongruentWith,https://tropicos.org/reference/9002886#name-35121467,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
-https://tropicos.org/reference/9007945#name-35122214,includes,https://tropicos.org/reference/9002886#name-35121483,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
-https://tropicos.org/reference/9007945#name-35121907,isCongruentWith,https://tropicos.org/reference/9002886#name-35121457,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
-https://tropicos.org/reference/9007945#name-35121903,isCongruentWith,https://tropicos.org/reference/9002886#name-35121455,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
-https://tropicos.org/reference/9007945#name-35122214,includes,https://tropicos.org/reference/9002886#name-35121514,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
-https://tropicos.org/reference/9007945#name-35122018,includes,https://tropicos.org/reference/9002886#name-35191032,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
-https://tropicos.org/reference/9007945#name-35122018,includes,https://tropicos.org/reference/9002886#name-35121491,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
-https://tropicos.org/reference/9007945#name-35184274,isCongruentWith,https://tropicos.org/reference/9002886#name-35121509,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
-https://tropicos.org/reference/9006742#name-35121542,isCongruentWith,https://tropicos.org/reference/9005756#name-35121542,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
-https://tropicos.org/reference/9006742#name-35121458,partiallyOverlaps,https://tropicos.org/reference/9005756#name-35121458-2,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
-https://tropicos.org/reference/9006742#name-35121491,includes,https://tropicos.org/reference/9005756#name-35121559,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
-https://tropicos.org/reference/9006742#name-35121609,isCongruentWith,https://tropicos.org/reference/9005756#name-35121609,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
-https://tropicos.org/reference/9006742#name-35121609,isIncludedIn,https://tropicos.org/reference/9005756#name-35121609-2,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
-https://tropicos.org/reference/9006742#name-35121467,includes,https://tropicos.org/reference/9005756#name-35121488,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
-https://tropicos.org/reference/9006742#name-35121467,includes,https://tropicos.org/reference/9005756#name-35121467,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
-https://tropicos.org/reference/9006742#name-35121458,partiallyOverlaps,https://tropicos.org/reference/9005756#name-35121609-2,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
-https://tropicos.org/reference/9006742#name-35121475,isIncludedIn,https://tropicos.org/reference/9005756#name-35121475,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
-https://tropicos.org/reference/9006742#name-35121458,isIncludedIn,https://tropicos.org/reference/9005756#name-35121458,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
-https://tropicos.org/reference/9006742#name-35121458,includes,https://tropicos.org/reference/9005756#name-35121587,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
-https://tropicos.org/reference/9006742#name-35121578,isCongruentWith,https://tropicos.org/reference/9005756#name-35121578,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
-https://tropicos.org/reference/9006742#name-35121457,isCongruentWith,https://tropicos.org/reference/9005756#name-35158613,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
-https://tropicos.org/reference/9006742#name-35121491,includes,https://tropicos.org/reference/9005756#name-35121486,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
-https://tropicos.org/reference/9006742#name-35121491,includes,https://tropicos.org/reference/9005756#name-35121491,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
-https://tropicos.org/reference/9006742#name-35121475,isDisjointFrom,https://tropicos.org/reference/9005756#name-35121488,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
-https://tropicos.org/reference/9006742#name-35121542,isIncludedIn,https://tropicos.org/reference/9005756#name-35121458-2,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
-https://tropicos.org/reference/9006742#name-35121457,isCongruentWith,https://tropicos.org/reference/9002886#name-35121457,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
-https://tropicos.org/reference/9006742#name-35121491,includes,https://tropicos.org/reference/9002886#name-35191032,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
-https://tropicos.org/reference/9006742#name-35121467,isCongruentWith,https://tropicos.org/reference/9002886#name-35121467,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
-https://tropicos.org/reference/9006742#name-35121458,includes,https://tropicos.org/reference/9002886#name-35121483,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
-https://tropicos.org/reference/9006742#name-35121458,includes,https://tropicos.org/reference/9002886#name-35121458,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
-https://tropicos.org/reference/9006742#name-35121491,includes,https://tropicos.org/reference/9002886#name-35167976,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
-https://tropicos.org/reference/9006742#name-35121578,isCongruentWith,https://tropicos.org/reference/9002886#name-35121578,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
-https://tropicos.org/reference/9006742#name-35121609,includes,https://tropicos.org/reference/9002886#name-35121609,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
-https://tropicos.org/reference/9006742#name-35121609,includes,https://tropicos.org/reference/9002886#name-35121518,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
-https://tropicos.org/reference/9006742#name-35121475,isIncludedIn,https://tropicos.org/reference/9002886#name-35121475,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
-https://tropicos.org/reference/9006742#name-35121491,includes,https://tropicos.org/reference/9002886#name-35167975,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
-https://tropicos.org/reference/9006742#name-35121491,includes,https://tropicos.org/reference/9002886#name-35121491,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
-https://tropicos.org/reference/9005756#name-35121609-2,includes,https://tropicos.org/reference/9005756#name-35121587,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
-https://tropicos.org/reference/9005756#name-35121542,isIncludedIn,https://tropicos.org/reference/9005756#name-35121458-2,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
-https://tropicos.org/reference/9005756#name-35121458-2,includes,https://tropicos.org/reference/9005756#name-35121556,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
-https://tropicos.org/reference/9005756#name-35121609,isIncludedIn,https://tropicos.org/reference/9005756#name-35121609-2,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
-https://tropicos.org/reference/9005756#name-35121458-2,includes,https://tropicos.org/reference/9005756#name-35121455,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
-https://tropicos.org/reference/9005756#name-35121458,isIncludedIn,https://tropicos.org/reference/9005756#name-35121458-2,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
-https://tropicos.org/reference/9005756#name-35121455,isIncludedIn,https://tropicos.org/reference/9005756#name-35121458-2,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
-https://tropicos.org/reference/9005756#name-35121530,includes,https://tropicos.org/reference/9002886#name-35121530,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
-https://tropicos.org/reference/9005756#name-35121530,includes,https://tropicos.org/reference/9002886#name-35121509,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
-https://tropicos.org/reference/9005756#name-35121609,includes,https://tropicos.org/reference/9002886#name-35121609,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
-https://tropicos.org/reference/9005756#name-35121609-2,includes,https://tropicos.org/reference/9002886#name-35121609,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
-https://tropicos.org/reference/9005756#name-35121578,isCongruentWith,https://tropicos.org/reference/9002886#name-35121578,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
-https://tropicos.org/reference/9005756#name-35121467,isIncludedIn,https://tropicos.org/reference/9002886#name-35121467,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
-https://tropicos.org/reference/9005756#name-35121559,isIncludedIn,https://tropicos.org/reference/9002886#name-35191032,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
-https://tropicos.org/reference/9005756#name-35121609-2,partiallyOverlaps,https://tropicos.org/reference/9002886#name-35121458,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
-https://tropicos.org/reference/9005756#name-35121455,isCongruentWith,https://tropicos.org/reference/9002886#name-35121455,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
-https://tropicos.org/reference/9005756#name-35121458-2,includes,https://tropicos.org/reference/9002886#name-35121455,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
-https://tropicos.org/reference/9005756#name-35158613,isCongruentWith,https://tropicos.org/reference/9002886#name-35121457,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
-https://tropicos.org/reference/9005756#name-35121587,isIncludedIn,https://tropicos.org/reference/9002886#name-35121458,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
-https://tropicos.org/reference/9005756#name-35121488,isIncludedIn,https://tropicos.org/reference/9002886#name-35121467,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
-https://tropicos.org/reference/9005756#name-35121486,includes,https://tropicos.org/reference/9002886#name-35167976,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
-https://tropicos.org/reference/9005756#name-35121458,includes,https://tropicos.org/reference/9002886#name-35121483,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
-https://tropicos.org/reference/9005756#name-35121458,includes,https://tropicos.org/reference/9002886#name-35121458,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
-https://tropicos.org/reference/9005756#name-35121458-2,includes,https://tropicos.org/reference/9002886#name-35121483,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
-https://tropicos.org/reference/9005756#name-35121491,isIncludedIn,https://tropicos.org/reference/9002886#name-35191032,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
-https://tropicos.org/reference/9005756#name-35121458-2,partiallyOverlaps,https://tropicos.org/reference/9002886#name-35121458,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
-https://tropicos.org/reference/9005756#name-35121609,includes,https://tropicos.org/reference/9002886#name-35121518,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
-https://tropicos.org/reference/9005756#name-35121486,includes,https://tropicos.org/reference/9002886#name-35121479,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
-https://tropicos.org/reference/9005756#name-35121609-2,includes,https://tropicos.org/reference/9002886#name-35121518,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
-https://tropicos.org/reference/9005756#name-35121475,isCongruentWith,https://tropicos.org/reference/9002886#name-35121475,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
-https://tropicos.org/reference/9005756#name-35121491,isIncludedIn,https://tropicos.org/reference/9002886#name-35121491,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
-https://tropicos.org/reference/9002886#name-35191032,isIncludedIn,https://tropicos.org/reference/9002886#name-35121491,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
-https://tropicos.org/reference/9002886#name-35121491,includes,https://tropicos.org/reference/9002886#name-35191032,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
-https://tropicos.org/reference/9002886#name-35167976,includes,https://tropicos.org/reference/9002886#name-35167975,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
-https://tropicos.org/reference/9002886#name-35167975,isIncludedIn,https://tropicos.org/reference/9002886#name-35167976,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
+subjectTaxonConceptID,mappingRelation,objectTaxonConceptID,remarks,sourceID,creatorID,created
+https://tropicos.org/reference/9020903#name-35121455,isCongruentWith,https://tropicos.org/reference/9007945#name-35121903,,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
+https://tropicos.org/reference/9020903#name-35121514,isCongruentWith,https://tropicos.org/reference/9007945#name-35122214,,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
+https://tropicos.org/reference/9020903#name-35121458,partiallyOverlaps,https://tropicos.org/reference/9007945#name-35184276,"incl.Dicranoloma brachyphyllum, Dicranoloma havilandii var. latifolium",,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
+https://tropicos.org/reference/9020903#name-35158613,isCongruentWith,https://tropicos.org/reference/9007945#name-35121907,,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
+https://tropicos.org/reference/9020903#name-35121458,includes,https://tropicos.org/reference/9007945#name-35121913,"excl. Dicranoloma brachyphyllum, Dicranoloma havilandii var. latifolium",,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
+https://tropicos.org/reference/9020903#name-35204723,isCongruentWith,https://tropicos.org/reference/9007945#name-35204723,,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
+https://tropicos.org/reference/9020903#name-35121475,isCongruentWith,https://tropicos.org/reference/9007945#name-35121972,,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
+https://tropicos.org/reference/9020903#name-35121467,includes,https://tropicos.org/reference/9007945#name-35121960,excl. Dicranoloma novoguinense; misidentified type of Dicranum laevifolium,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
+https://tropicos.org/reference/9020903#name-35121467,includes,https://tropicos.org/reference/9007945#-name-35123838,,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
+https://tropicos.org/reference/9020903#name-35121486,isIncludedIn,https://tropicos.org/reference/9007945#name-35122018,incl. Dicranoloma brevisetum; misidentified type of Dicranum laevifolium,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
+https://tropicos.org/reference/9020903#name-35121486,isDisjointFrom,https://tropicos.org/reference/9007945#name-35121960,misidentified type of Dicranum laevifolium,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
+https://tropicos.org/reference/9020903#name-35121491,isIncludedIn,https://tropicos.org/reference/9007945#name-35122018,incl. Dicranoloma brevisetum,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
+https://tropicos.org/reference/9020903#name-35204724,isCongruentWith,https://tropicos.org/reference/9007945#name-35184272,,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
+https://tropicos.org/reference/9020903#name-35121509,isCongruentWith,https://tropicos.org/reference/9007945#name-35184274,,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
+https://tropicos.org/reference/9020903#name-35121617,isIncludedIn,https://tropicos.org/reference/9007945#name-35184276,"incl. Dicranoloma brachyphyllum, Dicranoloma havilandii var. latifolium",,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
+https://tropicos.org/reference/9020903#name-35184079,isCongruentWith,https://tropicos.org/reference/9007945#name-35184275,,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
+https://tropicos.org/reference/9020903#name-35121609,isCongruentWith,https://tropicos.org/reference/9006742#name-35121609,,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
+https://tropicos.org/reference/9020903#name-35121514,partiallyOverlaps,https://tropicos.org/reference/9006742#name-35121458,main part of distribution of Dicranoloma dicarpon is outside Malesia,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
+https://tropicos.org/reference/9020903#name-35121486,isIncludedIn,https://tropicos.org/reference/9006742#name-35121491,,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
+https://tropicos.org/reference/9020903#name-35158613,isCongruentWith,https://tropicos.org/reference/9006742#name-35121457,,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
+https://tropicos.org/reference/9020903#name-35121458,includes,https://tropicos.org/reference/9006742#name-35121458,excl. Dicranoloma euryloma var. rugifolium; incl. Dicranoloma brassii; misidentified type specimen of Dicranoloma defoliatum,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
+https://tropicos.org/reference/9020903#name-35121458,partiallyOverlaps,https://tropicos.org/reference/9006742#name-35121596,main distribution of Dicranoloma platycaulon is outside Malesia,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
+https://tropicos.org/reference/9020903#name-35121542,isCongruentWith,https://tropicos.org/reference/9006742#name-35121542,,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
+https://tropicos.org/reference/9020903#name-35121475,includes,https://tropicos.org/reference/9006742#name-35121484,,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
+https://tropicos.org/reference/9020903#name-35121467,includes,https://tropicos.org/reference/9006742#name-35121467,excl. Dicranoloma novoguinense,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
+https://tropicos.org/reference/9020903#name-35121491,isIncludedIn,https://tropicos.org/reference/9006742#name-35121491,incl. Dicranoloma braunii; misidentified type specimen of Dicranoloma defoliatum,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
+https://tropicos.org/reference/9020903#name-35121491,isDisjointFrom,https://tropicos.org/reference/9006742#name-35121475,,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
+https://tropicos.org/reference/9020903#name-35121467,includes,https://tropicos.org/reference/9006742#name-35121578,,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
+https://tropicos.org/reference/9020903#name-35121475,includes,https://tropicos.org/reference/9006742#name-35121475,excl. Dicranoloma braunfelsioides; misidentified type specimen of Dicranoloma defoliatum,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
+https://tropicos.org/reference/9020903#name-35121491,includes,https://tropicos.org/reference/9005756#name-35121491,excl. Dicranoloma leucophyllum,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
+https://tropicos.org/reference/9020903#name-35121609,isIncludedIn,https://tropicos.org/reference/9005756#name-35121609-2,incl. Dicranoloma perarmatum,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
+https://tropicos.org/reference/9020903#name-35121491,includes,https://tropicos.org/reference/9005756#name-35121559,,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
+https://tropicos.org/reference/9020903#name-35121609,isCongruentWith,https://tropicos.org/reference/9005756#name-35121609,,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
+https://tropicos.org/reference/9020903#name-35121509,isIncludedIn,https://tropicos.org/reference/9005756#name-35121530,,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
+https://tropicos.org/reference/9020903#name-35184079,isCongruentWith,https://tropicos.org/reference/9005756#name-35184079,,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
+https://tropicos.org/reference/9020903#name-35121542,isCongruentWith,https://tropicos.org/reference/9005756#name-35121542,,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
+https://tropicos.org/reference/9020903#name-35121617,isCongruentWith,https://tropicos.org/reference/9005756#name-35121617,,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
+https://tropicos.org/reference/9020903#name-35121491,isDisjointFrom,https://tropicos.org/reference/9005756#name-35121488,misidentified type of Dicranoloma defoliatum,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
+https://tropicos.org/reference/9020903#name-35121458,includes,https://tropicos.org/reference/9005756#name-35121587,,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
+https://tropicos.org/reference/9020903#name-35121455,isCongruentWith,https://tropicos.org/reference/9005756#name-35121455,,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
+https://tropicos.org/reference/9020903#name-35121467,includes,https://tropicos.org/reference/9005756#name-35121578,,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
+https://tropicos.org/reference/9020903#name-35121467,includes,https://tropicos.org/reference/9005756#name-35121488,misidentified type of Dicranoloma defoliatum,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
+https://tropicos.org/reference/9020903#name-35121467,includes,https://tropicos.org/reference/9005756#name-35121467,"excl. Dicranoloma novoguinense, Dicranoloma brevicapsulare",,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
+https://tropicos.org/reference/9020903#name-35121486,isCongruentWith,https://tropicos.org/reference/9005756#name-35121486,misidentified type of Dicranum laevifolium,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
+https://tropicos.org/reference/9020903#name-35121458,partiallyOverlaps,https://tropicos.org/reference/9005756#name-35121609-2,concepts share Dicranoloma perarmatum,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
+https://tropicos.org/reference/9020903#name-35121458,partiallyOverlaps,https://tropicos.org/reference/9005756#name-35121458-2,"incl. Dicranoloma arfakianum, D. brassii, D. havilandii and D. laevifolium; excl. Dicranoloma perarmatum",,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
+https://tropicos.org/reference/9020903#name-35121458,isIncludedIn,https://tropicos.org/reference/9005756#name-35121458,incl. Dicranoloma brassii; excl. Dicranoloma perarmatum,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
+https://tropicos.org/reference/9020903#name-35121514,partiallyOverlaps,https://tropicos.org/reference/9005756#name-35121458-2,overlaps in Dicranoloma brassii,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
+https://tropicos.org/reference/9020903#name-35158613,isCongruentWith,https://tropicos.org/reference/9005756#name-35158613,,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
+https://tropicos.org/reference/9020903#name-35121455,isIncludedIn,https://tropicos.org/reference/9005756#name-35121458-2,,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
+https://tropicos.org/reference/9020903#name-35121514,partiallyOverlaps,https://tropicos.org/reference/9005756#name-35121458,main distribution of Dicranoloma dicarpon outside Malesia,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
+https://tropicos.org/reference/9020903#name-35121542,isIncludedIn,https://tropicos.org/reference/9005756#name-35121458-2,,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
+https://tropicos.org/reference/9020903#name-35204725,isIncludedIn,https://tropicos.org/reference/9005756#name-35121530,incl. Dicranoloma daymannianum,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
+https://tropicos.org/reference/9020903#name-35121475,isCongruentWith,https://tropicos.org/reference/9005756#name-35121475,,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
+https://tropicos.org/reference/9020903#name-35121486,isDisjointFrom,https://tropicos.org/reference/9005756#name-35121458-2,misidentified type of Dicranum laevifolium,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
+https://tropicos.org/reference/9020903#name-35121486,isDisjointFrom,https://tropicos.org/reference/9005756#name-35121556,misidentified type of Dicranum laevifolium,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
+https://tropicos.org/reference/9020903#name-35121491,isCongruentWith,https://tropicos.org/reference/9002886#name-35191032,,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
+https://tropicos.org/reference/9020903#name-35121467,includes,https://tropicos.org/reference/9002886#name-35121467,excl. Dicranoloma novoguinense,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
+https://tropicos.org/reference/9020903#name-35121486,includes,https://tropicos.org/reference/9002886#name-35121479,,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
+https://tropicos.org/reference/9020903#name-35121458,isCongruentWith,https://tropicos.org/reference/9002886#name-35121458,,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
+https://tropicos.org/reference/9020903#name-35121486,includes,https://tropicos.org/reference/9002886#name-35167975,,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
+https://tropicos.org/reference/9020903#name-35121486,includes,https://tropicos.org/reference/9002886#name-35167976,excl. Dicranoloma brachypelma,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
+https://tropicos.org/reference/9020903#name-35121455,isCongruentWith,https://tropicos.org/reference/9002886#name-35121455,,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
+https://tropicos.org/reference/9020903#name-35121514,includes,https://tropicos.org/reference/9002886#name-35121483,,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
+https://tropicos.org/reference/9020903#name-35121491,isIncludedIn,https://tropicos.org/reference/9002886#name-35121491,incl. Dicranoloma braunii,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
+https://tropicos.org/reference/9020903#name-35121609,includes,https://tropicos.org/reference/9002886#name-35121518,,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
+https://tropicos.org/reference/9020903#name-35121475,isCongruentWith,https://tropicos.org/reference/9002886#name-35121475,,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
+https://tropicos.org/reference/9020903#name-35204725,isCongruentWith,https://tropicos.org/reference/9002886#name-35121530,,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
+https://tropicos.org/reference/9020903#name-35121509,isCongruentWith,https://tropicos.org/reference/9002886#name-35121509,,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
+https://tropicos.org/reference/9020903#name-35121609,includes,https://tropicos.org/reference/9002886#name-35121609,excl. Dicranoloma dives,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
+https://tropicos.org/reference/9020903#name-35158613,isCongruentWith,https://tropicos.org/reference/9002886#name-35121457,,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
+https://tropicos.org/reference/9020903#name-35121467,includes,https://tropicos.org/reference/9002886#name-35121578,,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
+https://tropicos.org/reference/9020903#name-35121514,includes,https://tropicos.org/reference/9002886#name-35121514,excl. Dicranoloma brassii,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
+https://tropicos.org/reference/9007945#name-35121960,isCongruentWith,https://tropicos.org/reference/9006742#name-35121467,,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
+https://tropicos.org/reference/9007945#name-35121913,isIncludedIn,https://tropicos.org/reference/9006742#name-35121458,excl. Dicranoloma brassii,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
+https://tropicos.org/reference/9007945#name-35121907,isCongruentWith,https://tropicos.org/reference/9006742#name-35121457,,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
+https://tropicos.org/reference/9007945#-name-35123838,isCongruentWith,https://tropicos.org/reference/9006742#name-35121578,,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
+https://tropicos.org/reference/9007945#name-35122018,isCongruentWith,https://tropicos.org/reference/9006742#name-35121491,"Tan (1989) did not mention Dicranoloma brachypelma, so Dicranoloma brevisetum sec. Tan 1989 can be congruent with either Dicranoloma brevisetum sec,.Tan & Koponen 1983 or Dicranum braunii sec. Norris & Koponen 1990, but not with both.",,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
+https://tropicos.org/reference/9007945#name-35122214,partiallyOverlaps,https://tropicos.org/reference/9006742#name-35121458,main distribution of Dicranoloma dicarpum is outside Malesia,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
+https://tropicos.org/reference/9007945#name-35121972,includes,https://tropicos.org/reference/9006742#name-35121475,,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
+https://tropicos.org/reference/9007945#name-35121913,partiallyOverlaps,https://tropicos.org/reference/9005756#name-35121458-2,"incl. Dicranoloma arfakianum, D. brassii, D. havilandii and D. laevifolium; excl. Dicranoloma perarmatum",,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
+https://tropicos.org/reference/9007945#name-35121913,partiallyOverlaps,https://tropicos.org/reference/9005756#name-35121609-2,overlaps in Dicranoloma perarmatum,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
+https://tropicos.org/reference/9007945#name-35121913,isIncludedIn,https://tropicos.org/reference/9005756#name-35121458,incl. Dicranoloma brassii,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
+https://tropicos.org/reference/9007945#name-35184274,isIncludedIn,https://tropicos.org/reference/9005756#name-35121530,main distribution of Dicranoloma fragile is outside Malesia,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
+https://tropicos.org/reference/9007945#-name-35123838,isCongruentWith,https://tropicos.org/reference/9005756#name-35121578,,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
+https://tropicos.org/reference/9007945#name-35121913,includes,https://tropicos.org/reference/9005756#name-35121587,,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
+https://tropicos.org/reference/9007945#name-35121907,isCongruentWith,https://tropicos.org/reference/9005756#name-35158613,,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
+https://tropicos.org/reference/9007945#name-35121903,isIncludedIn,https://tropicos.org/reference/9005756#name-35121458-2,,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
+https://tropicos.org/reference/9007945#name-35122018,includes,https://tropicos.org/reference/9005756#name-35121486,"excl. Dicranoloma brevisetum, Dicranoloma leucophyllum",,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
+https://tropicos.org/reference/9007945#name-35122018,includes,https://tropicos.org/reference/9005756#name-35121491,,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
+https://tropicos.org/reference/9007945#name-35121972,isCongruentWith,https://tropicos.org/reference/9005756#name-35121475,,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
+https://tropicos.org/reference/9007945#name-35121960,includes,https://tropicos.org/reference/9005756#name-35121467,excl. Dicranoloma laevifolium,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
+https://tropicos.org/reference/9007945#name-35122214,partiallyOverlaps,https://tropicos.org/reference/9005756#name-35121458-2,overlaps in Dicranoloma brassii,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
+https://tropicos.org/reference/9007945#name-35121960,partiallyOverlaps,https://tropicos.org/reference/9005756#name-35121458-2,overlaps in Dicranoloma laevifolium,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
+https://tropicos.org/reference/9007945#name-35121903,isCongruentWith,https://tropicos.org/reference/9005756#name-35121455,,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
+https://tropicos.org/reference/9007945#name-35184276,includes,https://tropicos.org/reference/9005756#name-35121617,Eddy (1988) specifically mentioned forms of Dicranoloma assimile that look similar to Dicranoloma rugifolium.,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
+https://tropicos.org/reference/9007945#name-35122214,partiallyOverlaps,https://tropicos.org/reference/9005756#name-35121458,incl. Dicranoloma brassii; main distribution of Dicranoloma dicarpon is outside Malesia,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
+https://tropicos.org/reference/9007945#name-35184275,isCongruentWith,https://tropicos.org/reference/9005756#name-35184079,,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
+https://tropicos.org/reference/9007945#name-35121960,includes,https://tropicos.org/reference/9005756#name-35121556,,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
+https://tropicos.org/reference/9007945#name-35121972,isCongruentWith,https://tropicos.org/reference/9002886#name-35121475,,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
+https://tropicos.org/reference/9007945#-name-35123838,isCongruentWith,https://tropicos.org/reference/9002886#name-35121578,,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
+https://tropicos.org/reference/9007945#name-35122018,includes,https://tropicos.org/reference/9002886#name-35167975,,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
+https://tropicos.org/reference/9007945#name-35121913,isIncludedIn,https://tropicos.org/reference/9002886#name-35121458,incl. forms with rugose leaves that Norris and Koponen place in Dicranum rugifolium.,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
+https://tropicos.org/reference/9007945#name-35122018,includes,https://tropicos.org/reference/9002886#name-35167976,,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
+https://tropicos.org/reference/9007945#name-35121960,isCongruentWith,https://tropicos.org/reference/9002886#name-35121467,,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
+https://tropicos.org/reference/9007945#name-35122214,includes,https://tropicos.org/reference/9002886#name-35121483,,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
+https://tropicos.org/reference/9007945#name-35121907,isCongruentWith,https://tropicos.org/reference/9002886#name-35121457,,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
+https://tropicos.org/reference/9007945#name-35121903,isCongruentWith,https://tropicos.org/reference/9002886#name-35121455,,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
+https://tropicos.org/reference/9007945#name-35122214,includes,https://tropicos.org/reference/9002886#name-35121514,excl. Dicranoloma brassii,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
+https://tropicos.org/reference/9007945#name-35122018,includes,https://tropicos.org/reference/9002886#name-35191032,,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
+https://tropicos.org/reference/9007945#name-35122018,includes,https://tropicos.org/reference/9002886#name-35121491,"Tan & Koponen (1983) recognised Dicranoloma brachypelma. The type of Leucoloma brachypelma is from Java, so was not in Norris & Koponen's (1990) treatment, which is for New Guinea.",,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
+https://tropicos.org/reference/9007945#name-35184274,isCongruentWith,https://tropicos.org/reference/9002886#name-35121509,,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
+https://tropicos.org/reference/9006742#name-35121542,isCongruentWith,https://tropicos.org/reference/9005756#name-35121542,,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
+https://tropicos.org/reference/9006742#name-35121458,partiallyOverlaps,https://tropicos.org/reference/9005756#name-35121458-2,incl. Dicranoloma havilandii; excl. Dicranoloma perarmatum,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
+https://tropicos.org/reference/9006742#name-35121491,includes,https://tropicos.org/reference/9005756#name-35121559,,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
+https://tropicos.org/reference/9006742#name-35121609,isCongruentWith,https://tropicos.org/reference/9005756#name-35121609,,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
+https://tropicos.org/reference/9006742#name-35121609,isIncludedIn,https://tropicos.org/reference/9005756#name-35121609-2,incl. Dicranoloma perarmatum,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
+https://tropicos.org/reference/9006742#name-35121467,includes,https://tropicos.org/reference/9005756#name-35121488,both misidentified type of Dicranoloma defoliatum,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
+https://tropicos.org/reference/9006742#name-35121467,includes,https://tropicos.org/reference/9005756#name-35121467,excl. Dicranoloma brevicapsulare,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
+https://tropicos.org/reference/9006742#name-35121458,partiallyOverlaps,https://tropicos.org/reference/9005756#name-35121609-2,overlaps in Dicranoloma perarmatum,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
+https://tropicos.org/reference/9006742#name-35121475,isIncludedIn,https://tropicos.org/reference/9005756#name-35121475,"Both treatments misidentified the type of Dicranoloma defoliatum; Tan (1989) recognises Dicranoloma braunfelsioides, which Eddy (1988) does not mention.",,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
+https://tropicos.org/reference/9006742#name-35121458,isIncludedIn,https://tropicos.org/reference/9005756#name-35121458,"Eddy (1988) did not include Dicranoloma euryloma var. rugifolium in his synonymy, but mentions forms of Dicranoloma assimile that look like the type of Dicranoloma euryloma var. rugifolium.",,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
+https://tropicos.org/reference/9006742#name-35121458,includes,https://tropicos.org/reference/9005756#name-35121587,,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
+https://tropicos.org/reference/9006742#name-35121578,isCongruentWith,https://tropicos.org/reference/9005756#name-35121578,,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
+https://tropicos.org/reference/9006742#name-35121457,isCongruentWith,https://tropicos.org/reference/9005756#name-35158613,,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
+https://tropicos.org/reference/9006742#name-35121491,includes,https://tropicos.org/reference/9005756#name-35121486,,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
+https://tropicos.org/reference/9006742#name-35121491,includes,https://tropicos.org/reference/9005756#name-35121491,"excl. Dicranoloma braunii, Dicranoloma leucophyllum",,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
+https://tropicos.org/reference/9006742#name-35121475,isDisjointFrom,https://tropicos.org/reference/9005756#name-35121488,both misidentified type of Dicranoloma defoliatum,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
+https://tropicos.org/reference/9006742#name-35121542,isIncludedIn,https://tropicos.org/reference/9005756#name-35121458-2,,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
+https://tropicos.org/reference/9006742#name-35121457,isCongruentWith,https://tropicos.org/reference/9002886#name-35121457,,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
+https://tropicos.org/reference/9006742#name-35121491,includes,https://tropicos.org/reference/9002886#name-35191032,,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
+https://tropicos.org/reference/9006742#name-35121467,isCongruentWith,https://tropicos.org/reference/9002886#name-35121467,,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
+https://tropicos.org/reference/9006742#name-35121458,includes,https://tropicos.org/reference/9002886#name-35121483,,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
+https://tropicos.org/reference/9006742#name-35121458,includes,https://tropicos.org/reference/9002886#name-35121458,excl. Dicranoloma brassii,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
+https://tropicos.org/reference/9006742#name-35121491,includes,https://tropicos.org/reference/9002886#name-35167976,,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
+https://tropicos.org/reference/9006742#name-35121578,isCongruentWith,https://tropicos.org/reference/9002886#name-35121578,,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
+https://tropicos.org/reference/9006742#name-35121609,includes,https://tropicos.org/reference/9002886#name-35121609,excl. Dicranoloma dives,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
+https://tropicos.org/reference/9006742#name-35121609,includes,https://tropicos.org/reference/9002886#name-35121518,,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
+https://tropicos.org/reference/9006742#name-35121475,isIncludedIn,https://tropicos.org/reference/9002886#name-35121475,"Tan (1989) recognises Dicranoloma braunfelsioides,",,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
+https://tropicos.org/reference/9006742#name-35121491,includes,https://tropicos.org/reference/9002886#name-35167975,,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
+https://tropicos.org/reference/9006742#name-35121491,includes,https://tropicos.org/reference/9002886#name-35121491,,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
+https://tropicos.org/reference/9005756#name-35121609-2,includes,https://tropicos.org/reference/9005756#name-35121587,,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
+https://tropicos.org/reference/9005756#name-35121542,isIncludedIn,https://tropicos.org/reference/9005756#name-35121458-2,,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
+https://tropicos.org/reference/9005756#name-35121458-2,includes,https://tropicos.org/reference/9005756#name-35121556,,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
+https://tropicos.org/reference/9005756#name-35121609,isIncludedIn,https://tropicos.org/reference/9005756#name-35121609-2,,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
+https://tropicos.org/reference/9005756#name-35121458-2,includes,https://tropicos.org/reference/9005756#name-35121455,,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
+https://tropicos.org/reference/9005756#name-35121458,isIncludedIn,https://tropicos.org/reference/9005756#name-35121458-2,,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
+https://tropicos.org/reference/9005756#name-35121455,isIncludedIn,https://tropicos.org/reference/9005756#name-35121458-2,,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
+https://tropicos.org/reference/9005756#name-35121530,includes,https://tropicos.org/reference/9002886#name-35121530,excl. Dicranoloma daymannianum,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
+https://tropicos.org/reference/9005756#name-35121530,includes,https://tropicos.org/reference/9002886#name-35121509,,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
+https://tropicos.org/reference/9005756#name-35121609,includes,https://tropicos.org/reference/9002886#name-35121609,excl. Dicranoloma dives,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
+https://tropicos.org/reference/9005756#name-35121609-2,includes,https://tropicos.org/reference/9002886#name-35121609,excl. Dicranoloma dives,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
+https://tropicos.org/reference/9005756#name-35121578,isCongruentWith,https://tropicos.org/reference/9002886#name-35121578,,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
+https://tropicos.org/reference/9005756#name-35121467,isIncludedIn,https://tropicos.org/reference/9002886#name-35121467,excl. Dicranoloma brevicapsulare,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
+https://tropicos.org/reference/9005756#name-35121559,isIncludedIn,https://tropicos.org/reference/9002886#name-35191032,,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
+https://tropicos.org/reference/9005756#name-35121609-2,partiallyOverlaps,https://tropicos.org/reference/9002886#name-35121458,overlaps in Dicranoloma perarmatum,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
+https://tropicos.org/reference/9005756#name-35121455,isCongruentWith,https://tropicos.org/reference/9002886#name-35121455,,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
+https://tropicos.org/reference/9005756#name-35121458-2,includes,https://tropicos.org/reference/9002886#name-35121455,,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
+https://tropicos.org/reference/9005756#name-35158613,isCongruentWith,https://tropicos.org/reference/9002886#name-35121457,,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
+https://tropicos.org/reference/9005756#name-35121587,isIncludedIn,https://tropicos.org/reference/9002886#name-35121458,,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
+https://tropicos.org/reference/9005756#name-35121488,isIncludedIn,https://tropicos.org/reference/9002886#name-35121467,,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
+https://tropicos.org/reference/9005756#name-35121486,includes,https://tropicos.org/reference/9002886#name-35167976,excl. Dicranoloma brachypelma,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
+https://tropicos.org/reference/9005756#name-35121458,includes,https://tropicos.org/reference/9002886#name-35121483,,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
+https://tropicos.org/reference/9005756#name-35121458,includes,https://tropicos.org/reference/9002886#name-35121458,excl. Dicranoloma brassii,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
+https://tropicos.org/reference/9005756#name-35121458-2,includes,https://tropicos.org/reference/9002886#name-35121483,,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
+https://tropicos.org/reference/9005756#name-35121491,isIncludedIn,https://tropicos.org/reference/9002886#name-35191032,incl. Dicranoloma leucophyllum,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
+https://tropicos.org/reference/9005756#name-35121458-2,partiallyOverlaps,https://tropicos.org/reference/9002886#name-35121458,"incl. Dicranoloma perarmatum; excl. Dicranoloma arfakianum, D. brassii",,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
+https://tropicos.org/reference/9005756#name-35121609,includes,https://tropicos.org/reference/9002886#name-35121518,,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
+https://tropicos.org/reference/9005756#name-35121486,includes,https://tropicos.org/reference/9002886#name-35121479,,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
+https://tropicos.org/reference/9005756#name-35121609-2,includes,https://tropicos.org/reference/9002886#name-35121518,,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
+https://tropicos.org/reference/9005756#name-35121475,isCongruentWith,https://tropicos.org/reference/9002886#name-35121475,,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
+https://tropicos.org/reference/9005756#name-35121491,isIncludedIn,https://tropicos.org/reference/9002886#name-35121491,"excl. Dicranoloma braunii, Dicranoloma leucophyllum",,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
+https://tropicos.org/reference/9002886#name-35191032,isIncludedIn,https://tropicos.org/reference/9002886#name-35121491,,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
+https://tropicos.org/reference/9002886#name-35121491,includes,https://tropicos.org/reference/9002886#name-35191032,,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
+https://tropicos.org/reference/9002886#name-35167976,includes,https://tropicos.org/reference/9002886#name-35167975,,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11
+https://tropicos.org/reference/9002886#name-35167975,isIncludedIn,https://tropicos.org/reference/9002886#name-35167976,,,https://orcid.org/0000-0003-2224-6821,2024-11-08T08:38:00+11

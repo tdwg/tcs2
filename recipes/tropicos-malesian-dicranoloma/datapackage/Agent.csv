@@ -1,9 +1,9 @@
-ID,type,foaf:givenName,foaf:familyName,foaf:name,address:localityName
+ID,type,foaf_givenName,foaf_familyName,foaf_name,address_localityName
 https://www.wikidata.org/wiki/Q21339909,foaf:Person,Benito Ching,Tan,,
 https://www.wikidata.org/wiki/Q5411655,foaf:Person,Timo Juhani,Koponen,,
 https://www.wikidata.org/wiki/Q21511351,foaf:Person,Alan,Eddy,,
 https://www.wikidata.org/wiki/Q21522236,foaf:Person,Daniel Howard,Norris,,
 https://orcid.org/0000-0003-2224-6821,foaf:Person,Niels,Klazenga,,
-_:a896814,foaf:Group,,,,
-_:a148849,foaf:Organization,,,Natural History Museum Publications,London
-_:a507879,foaf:Group,,,,
+_:a672260,foaf:Group,,,,
+_:a470827,foaf:Organization,,,Natural History Museum Publications,London
+_:a552362,foaf:Group,,,,
