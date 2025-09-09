@@ -1,6 +1,6 @@
 {
-  "name" : "iucn-giraffes-2025",
-  "title" : "IUCN Taxonomic Status of Giraffes Report Recipe",
+  "name" : "rhododendron-subg-pentanthera",
+  "title" : "Judd & Kron 1995 Rhododendron subg. Pentanthera recipe",
   "resources": [
     {
       "name": "TaxonConcept",
@@ -19,10 +19,6 @@
             }
           },
           {
-            "name": "taxonConceptLabel",
-            "type": "string"
-          },
-          {
             "name": "taxonNameID",
             "type": "string",
             "constraints": {
@@ -39,13 +35,52 @@
             "rdfType": "http://purl.org/dc/terms/BibliographicResource"
           },
           {
+            "name": "taxonConceptLabel",
+            "type": "string"
+          },
+          {
             "name": "taxonRank",
             "type": "string",
             "constraints": {
               "enum": [
+                "domain",
+                "kingdom",
+                "subkingdom",
+                "superphylum",
+                "phylum",
+                "subphylum",
+                "superclass",
+                "class",
+                "subclass",
+                "supercohort",
+                "cohort",
+                "subcohort",
+                "superorder",
+                "order",
+                "suborder",
+                "infraorder",
+                "superfamily",
+                "family",
+                "subfamily",
+                "tribe",
+                "subtribe",
                 "genus",
+                "subgenus",
+                "section",
+                "subsection",
+                "series",
+                "subseries",
+                "speciesAggregate",
                 "species",
-                "subspecies"
+                "subspecificAggregate",
+                "subspecies",
+                "variety",
+                "subvariety",
+                "form",
+                "subform",
+                "cultivarGroup",
+                "cultivar",
+                "strain"
               ]
             } 
           },
@@ -124,11 +159,11 @@
             "type": "string"
           },
           {
-            "name": "source",
+            "name": "sourceID",
             "type": "string"
           },
           {
-            "name": "creator",
+            "name": "creatorID",
             "type": "string"
           },
           {
@@ -148,6 +183,20 @@
             "fields": "objectTaxonConceptID",
             "reference": {
               "resource": "TaxonConcept",
+              "fields": "ID"
+            }
+          },
+          {
+            "fields": "sourceID",
+            "reference": {
+              "resource": "BibliographicResource",
+              "fields": "ID"
+            }
+          },
+          {
+            "fields": "creatorID",
+            "reference": {
+              "resource": "Agent",
               "fields": "ID"
             }
           }
@@ -182,7 +231,7 @@
             "type": "string"
           },
           {
-            "name": "namePublishedInLiteral",
+            "name": "namePublishedIn",
             "type": "string"
           },
           {
@@ -190,14 +239,52 @@
             "type": "string"
           },
           {
+            "name": "nomenclaturalCode",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "ICN",
+                "ICZN",
+                "ICVCN",
+                "ICNB",
+                "ICNCP",
+                "BioCode"
+              ]
+            }
+          },
+          {
             "name": "nomenclaturalStatus",
             "type": "string",
             "constraints": {
               "enum": [
-                "legitimate",
+                "abortivum",
+                "alternativum",
+                "ambigua",
+                "available",
+                "combinatio",
+                "confusum",
+                "conserved",
+                "conservandumProp",
+                "correctum",
+                "dubimum",
                 "illegitimate",
+                "invalid",
+                "legitimate",
+                "negatum",
+                "novum",
+                "nudum",
+                "nullum",
+                "oblitum",
+                "oppressa",
+                "protectum",
+                "provisorum",
+                "rejiciendum",
+                "rejiciendumProp",
+                "rejiciendumUtique",
+                "rejiciendumUtiqueProp",
+                "subnudum",
                 "superfluous",
-                "invalid"
+                "valid"
               ]
             }
           },
@@ -302,15 +389,47 @@
             "name": "typeOfType",
             "type": "string",
             "constraints": {
-              "required": true,
               "enum": [
+                "allolectotype",
+                "alloneotype",
+                "allotype",
+                "cotype",
+                "epitype",
+                "exepitype",
+                "exholotype",
+                "exisotype",
+                "exlectotype",
+                "exneotype",
+                "exparatype",
+                "exsyntype",
+                "extype",
+                "hapantotype",
                 "holotype",
-                "lectotype",
+                "iconotype",
                 "isotype",
-                "paratype",
-                "originalmaterial",
                 "isolectotype",
-                "syntype"
+                "isoneotype",
+                "isosyntype",
+                "lectotype",
+                "neotype",
+                "notatype",
+                "originalmaterial",
+                "paralectotype",
+                "paraneotype",
+                "paratype",
+                "plastoholotype",
+                "plastoisotype",
+                "plastolectotype",
+                "plastoneotype",
+                "plastoparatype",
+                "plastosyntype",
+                "plastotype",
+                "secondarytype",
+                "supplementarytype",
+                "syntype",
+                "topotype",
+                "typeSpecies",
+                "typeGenus"
               ]
             }
           },
@@ -327,7 +446,7 @@
             "type": "string"
           },
           {
-            "name": "source",
+            "name": "sourceID",
             "type": "string"
           }
         ],
@@ -467,7 +586,15 @@
             "constraints": {
               "required": true
             }
-          }          
+          },
+          {
+            "name": "language",
+            "type": "string",
+            "constraints": {
+              "minLength": 2,
+              "maxLength": 2
+            }
+          }         
         ],
         "foreignKeys": [
           {
@@ -515,6 +642,10 @@
           },
           {
             "name": "dcterms:date",
+            "type": "string"
+          },
+          {
+            "name": "dcterms:isPartOf",
             "type": "string"
           },
           {
@@ -567,10 +698,6 @@
           },
           {
             "name": "bibo:doi",
-            "type": "string"
-          },
-          {
-            "name": "dcterms:isPartOf",
             "type": "string"
           }
         ],
@@ -666,8 +793,8 @@
       }
     },
     {
-      "name": "Author",
-      "path": "Author.csv",
+      "name": "GroupMember",
+      "path": "GroupMember.csv",
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
