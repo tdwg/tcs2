@@ -96,9 +96,7 @@
       "type": "TaxonConcept",
       "dcterms:identifier": "avibase-A091D50A",
       "rdfs:label": "Circus hudsonius",
-      "accordingTo": {
-        "id": "https://avibase.bsc-eoc.org"
-      },
+      "accordingTo": "https://avibase.bsc-eoc.org",
       "taxonName": "_:tn2",
       "isCongruentWith": [
         {
