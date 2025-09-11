@@ -1916,7 +1916,8 @@
             "dwc:verbatimLocality": "Rawlinson Range, 7000-12000 ft",
             "dwc:recordNumber": "12493",
             "dwc:recordedBy": "Clemens",
-            "dwc:institutionCode": "MiCH"
+            "dwc:institutionCode": "MICH",
+            "schema:itemLocation": "https://scientific-collections.gbif.org/collection/62289b33-ae4f-438c-8574-bd27b348c1fb"
           },
           "source": "https://tropicos.org/reference/9020903"
         }
