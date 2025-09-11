@@ -26,6 +26,7 @@
       "id": "https://specify.rbg.vic.gov.au/specify/view/collectionobject/739393",
       "type": "dwc:PreservedSpecimen",
       "dwc:catalogNumber": "MEL 0227036A",
+      "schema:itemLocation": "https://scientific-collections.gbif.org/collection/7777d910-553a-45ac-b0e5-635261c1e992",
       "dsw:evidenceFor": {
         "id": "https://avh.ala.org.au/occurrences/78ba3182-76a4-4fcd-a231-d657acf3d347",
         "type": "dwc:Occurrence",
@@ -141,6 +142,7 @@
       "id": "http://specimens.kew.org/herbarium/K001096706",
       "type": "dwc:PreservedSpecimen",
       "dwc:catalogNumber": "K001096706",
+      "schema:itemLocation": "https://scientific-collections.gbif.org/collection/dceb8d52-094c-4c2c-8960-75e0097c6861",
       "dsw:evidenceFor": { "id": "https://avh.ala.org.au/occurrences/78ba3182-76a4-4fcd-a231-d657acf3d347" },
       "dws:isBasisForId": {
         "type": "dwc:Identification",
@@ -162,6 +164,7 @@
       "id": "http://specimens.kew.org/herbarium/K001096705",
       "type": "dwc:PreservedSpecimen",
       "dwc:catalogNumber": "K001096705",
+      "schema:itemLocation": "https://scientific-collections.gbif.org/collection/dceb8d52-094c-4c2c-8960-75e0097c6861",
       "dsw:evidenceFor": { "id": "https://avh.ala.org.au/occurrences/78ba3182-76a4-4fcd-a231-d657acf3d347" },
       "dws:isBasisForId": {
         "type": "dwc:Identification",
@@ -178,6 +181,7 @@
       "id": "_:BM000050758",
       "type": "dwc:PreservedSpecimen",
       "dwc:catalogNumber": "BM000050758",
+      "schema:itemLocation": "https://scientific-collections.gbif.org/collection/8bb3763f-955c-4791-8777-44de1996b378",
       "dsw:evidenceFor": { "id": "https://avh.ala.org.au/occurrences/78ba3182-76a4-4fcd-a231-d657acf3d347" },
       "dws:isBasisForId": {
         "type": "dwc:Identification",

@@ -18,7 +18,8 @@ a name, and never with `dcw:typeStatus` as the type status of a specimen.
     dwciri:typeStatus [ a tcs:NomenclaturalType ;
             tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isolectotype> ;
             tcs:typifiedName <https://ipni.org/n/703183-1> ;
-            tcs:typeSpecimen <https://specify.rbg.vic.gov.au/specify/view/collectionobject/273521> ] .
+            tcs:typeSpecimen <https://specify.rbg.vic.gov.au/specify/view/collectionobject/273521> ] ;
+    schema:itemLocation <https://scientific-collections.gbif.org/collection/7777d910-553a-45ac-b0e5-635261c1e992> .
 
 [] a oa:Annotation ;
     oa:motivatedBy oa:commenting ;
@@ -88,7 +89,8 @@ _:b0 a dwc:Identification ;
     dwciri:typeStatus [ a tcs:NomenclaturalType ;
             tcs:typifiedName <https://ipni.org/n/717216-1> ;
             tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/lectotype> ;
-            tcs:typePublishedIn <https://id.biodiversity.org.au/reference/apni/39897> ] .
+            tcs:typePublishedIn <https://id.biodiversity.org.au/reference/apni/39897> ] ;
+    schema:itemLocation <https://scientific-collections.gbif.org/collection/7777d910-553a-45ac-b0e5-635261c1e992> .
 
 [] a oa:Annotation ;
     oa:motivatedBy oa:commenting ;
@@ -187,7 +189,8 @@ _:b1 a tcs:NomenclaturalType ;
     dwciri:typeStatus [ a tcs:NomenclaturalType ;
             tcs:typifiedName <https://ipni.org/n/717216-1> ;
             tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isolectotype> ;
-            tcs:typePublishedIn <https://id.biodiversity.org.au/reference/apni/39897> ] .
+            tcs:typePublishedIn <https://id.biodiversity.org.au/reference/apni/39897> ] ;
+    schema:itemLocation <https://scientific-collections.gbif.org/collection/dceb8d52-094c-4c2c-8960-75e0097c6861> .
 
 <http://specimens.kew.org/herbarium/K001096705> a dwc:PreservedSpecimen ;
     dwc:catalogNumber "K001096705" ;
@@ -198,7 +201,8 @@ _:b1 a tcs:NomenclaturalType ;
     dwciri:typeStatus [ a tcs:NomenclaturalType ;
             tcs:typifiedName <https://ipni.org/n/717216-1> ;
             tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isolectotype> ;
-            tcs:typePublishedIn <https://id.biodiversity.org.au/reference/apni/39897> ] .
+            tcs:typePublishedIn <https://id.biodiversity.org.au/reference/apni/39897> ] ;
+    schema:itemLocation <https://scientific-collections.gbif.org/collection/dceb8d52-094c-4c2c-8960-75e0097c6861> .
 
 _:BM000050758 a dwc:PreservedSpecimen ;
     dwc:catalogNumber "BM000050758" ;
@@ -209,7 +213,8 @@ _:BM000050758 a dwc:PreservedSpecimen ;
     dwciri:typeStatus [ a tcs:NomenclaturalType ;
             tcs:typifiedName <https://ipni.org/n/717216-1> ;
             tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isolectotype> ;
-            tcs:typePublishedIn <https://id.biodiversity.org.au/reference/apni/39897> ] .
+            tcs:typePublishedIn <https://id.biodiversity.org.au/reference/apni/39897> ] ;
+    schema:itemLocation <https://scientific-collections.gbif.org/collection/8bb3763f-955c-4791-8777-44de1996b378> .
 
 # From the literature
 
@@ -249,6 +254,7 @@ _:BM000050758 a dwc:PreservedSpecimen ;
 ```turtle
 <https://specify.rbg.vic.gov.au/specify/view/collectionobject/51589> a dwc:PreservedSpecimen ;
     dwc:catalogNumber "MEL 0687503A" ;
+    schema:itemLocation <https://scientific-collections.gbif.org/collection/7777d910-553a-45ac-b0e5-635261c1e992> ;
     dsw:evidenceFor <https://avh.ala.org.au/occurrences/f121f99a-5b02-4f7b-9d57-bb2718c0c7de> ;
     dsw:isBasisForId _:b0 ;
     dwciri:typeStatus [ a tcs:NomenclaturalType ;
@@ -336,6 +342,7 @@ _:b0 a dwc:Identification ;
 ```turtle
 <https://specify.rbg.vic.gov.au/specify/view/collectionobject/313208> a dwc:PreservedSpecimen ;
     dwc:catalogNumber "MEL 1516494A" ;
+    schema:itemLocation <https://scientific-collections.gbif.org/collection/7777d910-553a-45ac-b0e5-635261c1e992> ;
     dsw:evidenceFor <https://avh.ala.org.au/occurrences/794ef2b7-956e-44e5-9321-cbe9553d6057> ;
     dsw:isBasisForId _:b0 ;
     dwciri:typeStatus _:b1 .

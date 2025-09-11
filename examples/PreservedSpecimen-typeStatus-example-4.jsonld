@@ -26,6 +26,7 @@
       "id": "https://specify.rbg.vic.gov.au/specify/view/collectionobject/313208",
       "type": "dwc:PreservedSpecimen",
       "dwc:catalogNumber": "MEL 1516494A",
+      "schema:itemLocation": "https://scientific-collections.gbif.org/collection/7777d910-553a-45ac-b0e5-635261c1e992",
       "dsw:evidenceFor": {
         "id": "https://avh.ala.org.au/occurrences/794ef2b7-956e-44e5-9321-cbe9553d6057",
         "type": "dwc:Occurrence",

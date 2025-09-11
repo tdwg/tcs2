@@ -5,10 +5,12 @@
 @prefix dwciri: <http://rs.tdwg.org/dwc/iri/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix schema: <https://schema.org/> .
 
 
 <https://specify.rbg.vic.gov.au/specify/view/collectionobject/51589> a dwc:PreservedSpecimen ;
     dwc:catalogNumber "MEL 0687503A" ;
+    schema:itemLocation <https://scientific-collections.gbif.org/collection/7777d910-553a-45ac-b0e5-635261c1e992> ;
     dsw:evidenceFor <https://avh.ala.org.au/occurrences/f121f99a-5b02-4f7b-9d57-bb2718c0c7de> ;
     dsw:isBasisForId _:b0 ;
     dwciri:typeStatus [ a tcs:NomenclaturalType ;

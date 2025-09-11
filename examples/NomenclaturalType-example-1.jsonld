@@ -34,7 +34,8 @@
         "dwc:verbatimLocality": "Japan, Honshu, Nikko",
         "dwc:recordedBy": "Bisset",
         "dwc:eventDate": "1876-05-23",
-        "dwc:institutionCode": "E"
+        "dwc:institutionCode": "E",
+        "schema:itemLocation": "https://scientific-collections.gbif.org/collection/427c8cd7-4358-4a00-9ef3-2b2676d28d1e"
       },
       "typePublishedIn": {
         "dcterms:bibliographicCitation": "Judd, W.S.; Kron, K.A. (1995). A revision of Rhododendron VI. Subgenus Pentanthera (sections Sciadorhodon, Rhodora and Viscidula). Edinburgh Journal of Botany 52: 1-54."

@@ -6,9 +6,11 @@
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix oa: <http://www.w3.org/ns/oa#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
 
 <https://specify.rbg.vic.gov.au/specify/view/collectionobject/313208> a dwc:PreservedSpecimen ;
     dwc:catalogNumber "MEL 1516494A" ;
+    schema:itemLocation <https://scientific-collections.gbif.org/collection/7777d910-553a-45ac-b0e5-635261c1e992> ;
     dsw:evidenceFor <https://avh.ala.org.au/occurrences/794ef2b7-956e-44e5-9321-cbe9553d6057> ;
     dsw:isBasisForId _:b0 ;
     dwciri:typeStatus _:b1 .

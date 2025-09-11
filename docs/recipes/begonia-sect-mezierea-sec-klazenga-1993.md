@@ -150,7 +150,8 @@ _:1983-Begonia-comorensis a tcs:TaxonConcept ;
             dwc:country "Comoros" ;
             dwc:recordedBy "Hildebrandt" ;
             dwc:recordNumber "1606" ;
-            dwc:institutionCode "B" ] ;
+            dwc:institutionCode "B" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/fceacd29-9f6c-4c9c-a4bc-67795f9cb972> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/holotype> ;
     dcterms:source <https://doi/org/10.2307/3668252> .
 
@@ -160,7 +161,8 @@ _:1983-Begonia-comorensis a tcs:TaxonConcept ;
             dwc:country "Comoros" ;
             dwc:recordedBy "Hildebrandt" ;
             dwc:recordNumber "1606" ;
-            dwc:institutionCode "W" ] ;
+            dwc:institutionCode "W" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/7dae0702-991d-47bb-95bd-1ed2738673be> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> ;
     dcterms:source <https://doi/org/10.2307/3668252> .
 
@@ -176,7 +178,8 @@ _:1983-Begonia-comorensis a tcs:TaxonConcept ;
             dwc:country "Comoros" ;
             dwc:recordedBy "Boivin" ;
             dwc:recordNumber "s.n." ;
-            dwc:institutionCode "P" ] ;
+            dwc:institutionCode "P" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/bc3d39fd-a7d4-4763-b951-2bdeddd8a5d2> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/holotype> ;
     dcterms:source <https://doi/org/10.2307/3668252> .
 
@@ -206,7 +209,8 @@ _:1983-Begonia-comorensis a tcs:TaxonConcept ;
             dwc:country "Madagascar" ;
             dwc:recordedBy "Humbert" ;
             dwc:recordNumber "22493" ;
-            dwc:institutionCode "P" ] ;
+            dwc:institutionCode "P" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/bc3d39fd-a7d4-4763-b951-2bdeddd8a5d2> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/holotype> ;
     dcterms:source <https://doi/org/10.2307/3668252> .
 
@@ -216,7 +220,8 @@ _:1983-Begonia-comorensis a tcs:TaxonConcept ;
             dwc:country "Madagascar" ;
             dwc:recordedBy "Humbert" ;
             dwc:recordNumber "22493" ;
-            dwc:institutionCode "P" ] ;
+            dwc:institutionCode "P" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/bc3d39fd-a7d4-4763-b951-2bdeddd8a5d2> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> ;
     dcterms:source <https://doi/org/10.2307/3668252> .
 
@@ -254,7 +259,8 @@ _:1983-Begonia-comorensis a tcs:TaxonConcept ;
       dwc:country "Tanzania" ;
       dwc:recordedBy "Meyer" ;
       dwc:recordNumber "306" ;
-      dwc:institutionCode "B" ] ;
+      dwc:institutionCode "B" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/fceacd29-9f6c-4c9c-a4bc-67795f9cb972> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/holotype> ;
     dcterms:source <https://doi/org/10.2307/3668252> .
 
@@ -349,7 +355,8 @@ _:1983-Begonia-comorensis a tcs:TaxonConcept ;
             dwc:country "Angola" ;
             dwc:recordedBy "Welwitsch" ;
             dwc:recordNumber "875" ;
-            dwc:institutionCode "BM" ] ;
+            dwc:institutionCode "BM" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/8bb3763f-955c-4791-8777-44de1996b378> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/lectotype> ;
     dcterms:source <https://doi/org/10.2307/3668252> .
 
@@ -359,7 +366,8 @@ _:1983-Begonia-comorensis a tcs:TaxonConcept ;
             dwc:country "Angola" ;
             dwc:recordedBy "Welwitsch" ;
             dwc:recordNumber "875" ;
-            dwc:institutionCode "COI" ] ;
+            dwc:institutionCode "COI" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/bcfb5b02-ff85-4974-bfe2-df70ed4df8e9> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isolectotype> ;
     dcterms:source <https://doi/org/10.2307/3668252> .
 
@@ -369,7 +377,8 @@ _:1983-Begonia-comorensis a tcs:TaxonConcept ;
             dwc:country "Angola" ;
             dwc:recordedBy "Welwitsch" ;
             dwc:recordNumber "875" ;
-            dwc:institutionCode "G" ] ;
+            dwc:institutionCode "G" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/71cbe56c-06e4-49c8-a22d-e45013a252eb> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isolectotype> ;
     dcterms:source <https://doi/org/10.2307/3668252> .
 
@@ -379,7 +388,8 @@ _:1983-Begonia-comorensis a tcs:TaxonConcept ;
             dwc:country "Angola" ;
             dwc:recordedBy "Welwitsch" ;
             dwc:recordNumber "875" ;
-            dwc:institutionCode "K" ] ;
+            dwc:institutionCode "K" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/dceb8d52-094c-4c2c-8960-75e0097c6861> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isolectotype> ;
     dcterms:source <https://doi/org/10.2307/3668252> .
 
@@ -389,7 +399,8 @@ _:1983-Begonia-comorensis a tcs:TaxonConcept ;
             dwc:country "Bioko" ;
             dwc:recordedBy "Mann" ;
             dwc:recordNumber "562" ;
-            dwc:institutionCode "K" ] ;
+            dwc:institutionCode "K" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/dceb8d52-094c-4c2c-8960-75e0097c6861> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/syntype> ;
     dcterms:source <https://doi/org/10.2307/3668252> .
 
@@ -399,7 +410,8 @@ _:1983-Begonia-comorensis a tcs:TaxonConcept ;
             dwc:country "Cameroon" ;
             dwc:recordedBy "Mann" ;
             dwc:recordNumber "1274" ;
-            dwc:institutionCode "K" ] ;
+            dwc:institutionCode "K" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/dceb8d52-094c-4c2c-8960-75e0097c6861> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/syntype> ;
     dcterms:source <https://doi/org/10.2307/3668252> .
 
@@ -415,7 +427,8 @@ _:1983-Begonia-comorensis a tcs:TaxonConcept ;
             dwc:country "Madagascar" ;
             dwc:recordedBy "Baron" ;
             dwc:recordNumber "9" ;
-            dwc:institutionCode "K" ] ;
+            dwc:institutionCode "K" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/dceb8d52-094c-4c2c-8960-75e0097c6861> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/holotype> ;
     dcterms:source <https://doi/org/10.2307/3668252> .
 
@@ -430,7 +443,8 @@ _:1983-Begonia-comorensis a tcs:TaxonConcept ;
     tcs:typeSpecimen [ a dwc:MaterialCitation ;
             dwc:recordedBy "Culta Bot. Garten Berlin" ;
             dwc:recordNumber "s.n." ;
-            dwc:institutionCode "B" ] ;
+            dwc:institutionCode "B" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/fceacd29-9f6c-4c9c-a4bc-67795f9cb972> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/holotype> ;
     dcterms:source <https://doi/org/10.2307/3668252> .
 
@@ -446,7 +460,8 @@ _:1983-Begonia-comorensis a tcs:TaxonConcept ;
             dwc:country "Cameroon" ;
             dwc:recordedBy "Preuss" ;
             dwc:recordNumber "1063" ;
-            dwc:institutionCode "B" ] ;
+            dwc:institutionCode "B" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/fceacd29-9f6c-4c9c-a4bc-67795f9cb972> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/lectotype> ;
     dcterms:source <https://doi/org/10.2307/3668252> .
 
@@ -456,7 +471,8 @@ _:1983-Begonia-comorensis a tcs:TaxonConcept ;
             dwc:country "Cameroon" ;
             dwc:recordedBy "Preuss" ;
             dwc:recordNumber "1063" ;
-            dwc:institutionCode "COI" ] ;
+            dwc:institutionCode "COI" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/bcfb5b02-ff85-4974-bfe2-df70ed4df8e9> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isolectotype> ;
     dcterms:source <https://doi/org/10.2307/3668252> .
 
@@ -466,7 +482,8 @@ _:1983-Begonia-comorensis a tcs:TaxonConcept ;
             dwc:country "Cameroon" ;
             dwc:recordedBy "Preuss" ;
             dwc:recordNumber "658" ;
-            dwc:institutionCode "B" ] ;
+            dwc:institutionCode "B" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/fceacd29-9f6c-4c9c-a4bc-67795f9cb972> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/syntype> ;
     dcterms:source <https://doi/org/10.2307/3668252> .
 
@@ -476,7 +493,8 @@ _:1983-Begonia-comorensis a tcs:TaxonConcept ;
             dwc:country "Cameroon" ;
             dwc:recordedBy "Preuss" ;
             dwc:recordNumber "995" ;
-            dwc:institutionCode "B" ] ;
+            dwc:institutionCode "B" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/fceacd29-9f6c-4c9c-a4bc-67795f9cb972> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/syntype> ;
     dcterms:source <https://doi/org/10.2307/3668252> .
 
@@ -486,7 +504,8 @@ _:1983-Begonia-comorensis a tcs:TaxonConcept ;
             dwc:country "Cameroon" ;
             dwc:recordedBy "Dusén" ;
             dwc:recordNumber "418" ;
-            dwc:institutionCode "B" ] ;
+            dwc:institutionCode "B" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/fceacd29-9f6c-4c9c-a4bc-67795f9cb972> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/syntype> ;
     dcterms:source <https://doi/org/10.2307/3668252> .
 
@@ -501,7 +520,8 @@ _:1983-Begonia-comorensis a tcs:TaxonConcept ;
             dwc:country "Cameroon" ;
             dwc:recordedBy "Conrau" ;
             dwc:recordNumber "4" ;
-            dwc:institutionCode "B" ] ;
+            dwc:institutionCode "B" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/fceacd29-9f6c-4c9c-a4bc-67795f9cb972> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/holotype> ;
     dcterms:source <https://doi/org/10.2307/3668252> .
 
@@ -517,7 +537,8 @@ _:1983-Begonia-comorensis a tcs:TaxonConcept ;
             dwc:country "Tanzania" ;
             dwc:recordedBy "Engler" ;
             dwc:recordNumber "647" ;
-            dwc:institutionCode "B" ] ;
+            dwc:institutionCode "B" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/fceacd29-9f6c-4c9c-a4bc-67795f9cb972> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/holotype> ;
     dcterms:source <https://doi/org/10.2307/3668252> .
 
@@ -532,7 +553,8 @@ _:1983-Begonia-comorensis a tcs:TaxonConcept ;
             dwc:country "Tanzania" ;
             dwc:recordedBy "Busse" ;
             dwc:recordNumber "349" ;
-            dwc:institutionCode "B" ] ;
+            dwc:institutionCode "B" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/fceacd29-9f6c-4c9c-a4bc-67795f9cb972> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/holotype> ;
     dcterms:source <https://doi/org/10.2307/3668252> .
 
@@ -547,7 +569,8 @@ _:1983-Begonia-comorensis a tcs:TaxonConcept ;
             dwc:country "Ghana" ;
             dwc:recordedBy "Baumann" ;
             dwc:recordNumber "419" ;
-            dwc:institutionCode "B" ] ;
+            dwc:institutionCode "B" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/fceacd29-9f6c-4c9c-a4bc-67795f9cb972> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/holotype> ;
     dcterms:source <https://doi/org/10.2307/3668252> .
 
@@ -562,7 +585,8 @@ _:1983-Begonia-comorensis a tcs:TaxonConcept ;
             dwc:country "Democratic Republic of the Congo" ;
             dwc:recordedBy "Seret" ;
             dwc:recordNumber "121" ;
-            dwc:institutionCode "BR" ] ;
+            dwc:institutionCode "BR" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/6416a67f-3c3e-495c-8998-568f64249178> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/lectotype> ;
     dcterms:source <https://doi/org/10.2307/3668252> .
 
@@ -572,7 +596,8 @@ _:1983-Begonia-comorensis a tcs:TaxonConcept ;
             dwc:country "Democratic Republic of the Congo" ;
             dwc:recordedBy "Seret" ;
             dwc:recordNumber "121 bis" ;
-            dwc:institutionCode "BR" ] ;
+            dwc:institutionCode "BR" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/6416a67f-3c3e-495c-8998-568f64249178> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/syntype> ;
     dcterms:source <https://doi/org/10.2307/3668252> .
 
@@ -587,7 +612,8 @@ _:1983-Begonia-comorensis a tcs:TaxonConcept ;
             dwc:country "Ivory Coast" ;
             dwc:recordedBy "Chevalier" ;
             dwc:recordNumber "21349" ;
-            dwc:institutionCode "P" ] ;
+            dwc:institutionCode "P" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/bc3d39fd-a7d4-4763-b951-2bdeddd8a5d2> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/lectotype> ;
     dcterms:source <https://doi/org/10.2307/3668252> .
 
@@ -597,7 +623,8 @@ _:1983-Begonia-comorensis a tcs:TaxonConcept ;
             dwc:country "Ivory Coast" ;
             dwc:recordedBy "Chevalier" ;
             dwc:recordNumber "21355" ;
-            dwc:institutionCode "P" ] ;
+            dwc:institutionCode "P" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/bc3d39fd-a7d4-4763-b951-2bdeddd8a5d2> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/syntype> ;
     dcterms:source <https://doi/org/10.2307/3668252> .
 
@@ -607,7 +634,8 @@ _:1983-Begonia-comorensis a tcs:TaxonConcept ;
             dwc:country "Ivory Coast" ;
             dwc:recordedBy "Chevalier" ;
             dwc:recordNumber "21419" ;
-            dwc:institutionCode "P" ] ;
+            dwc:institutionCode "P" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/bc3d39fd-a7d4-4763-b951-2bdeddd8a5d2> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/syntype> ;
     dcterms:source <https://doi/org/10.2307/3668252> .
 
@@ -617,7 +645,8 @@ _:1983-Begonia-comorensis a tcs:TaxonConcept ;
             dwc:country "Guinea" ;
             dwc:recordedBy "Chevalier" ;
             dwc:recordNumber "20609" ;
-            dwc:institutionCode "P" ] ;
+            dwc:institutionCode "P" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/bc3d39fd-a7d4-4763-b951-2bdeddd8a5d2> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/syntype> ;
     dcterms:source <https://doi/org/10.2307/3668252> .
 
@@ -627,7 +656,8 @@ _:1983-Begonia-comorensis a tcs:TaxonConcept ;
             dwc:country "Guinea" ;
             dwc:recordedBy "Chevalier" ;
             dwc:recordNumber "20609" ;
-            dwc:institutionCode "B" ] ;
+            dwc:institutionCode "B" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/fceacd29-9f6c-4c9c-a4bc-67795f9cb972> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isosyntype> ;
     dcterms:source <https://doi/org/10.2307/3668252> .
 
@@ -637,7 +667,8 @@ _:1983-Begonia-comorensis a tcs:TaxonConcept ;
             dwc:country "Guinea" ;
             dwc:recordedBy "Chevalier" ;
             dwc:recordNumber "20761" ;
-            dwc:institutionCode "P" ] ;
+            dwc:institutionCode "P" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/bc3d39fd-a7d4-4763-b951-2bdeddd8a5d2> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/syntype> ;
     dcterms:source <https://doi/org/10.2307/3668252> .
 
@@ -653,7 +684,8 @@ _:1983-Begonia-comorensis a tcs:TaxonConcept ;
             dwc:country "Tanzania" ;
             dwc:recordedBy "Schlieben" ;
             dwc:recordNumber "3306" ;
-            dwc:institutionCode "B" ] ;
+            dwc:institutionCode "B" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/fceacd29-9f6c-4c9c-a4bc-67795f9cb972> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/holotype> ;
     dcterms:source <https://doi/org/10.2307/3668252> .
 
@@ -663,7 +695,8 @@ _:1983-Begonia-comorensis a tcs:TaxonConcept ;
             dwc:country "Tanzania" ;
             dwc:recordedBy "Schlieben" ;
             dwc:recordNumber "3306" ;
-            dwc:institutionCode "B" ] ;
+            dwc:institutionCode "B" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/fceacd29-9f6c-4c9c-a4bc-67795f9cb972> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> ;
     dcterms:source <https://doi/org/10.2307/3668252> .
 
@@ -673,7 +706,8 @@ _:1983-Begonia-comorensis a tcs:TaxonConcept ;
             dwc:country "Tanzania" ;
             dwc:recordedBy "Schlieben" ;
             dwc:recordNumber "3306" ;
-            dwc:institutionCode "WAG" ] ;
+            dwc:institutionCode "WAG" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/0add23db-a8f7-4d15-95ad-4ed0c5c8a055> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> ;
     dcterms:source <https://doi/org/10.2307/3668252> .
 
@@ -683,7 +717,8 @@ _:1983-Begonia-comorensis a tcs:TaxonConcept ;
             dwc:country "Tanzania" ;
             dwc:recordedBy "Burtt" ;
             dwc:recordNumber "4720" ;
-            dwc:institutionCode "BM" ] ;
+            dwc:institutionCode "BM" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/8bb3763f-955c-4791-8777-44de1996b378> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/paratype> ;
     dcterms:source <https://doi/org/10.2307/3668252> .
 
@@ -693,7 +728,8 @@ _:1983-Begonia-comorensis a tcs:TaxonConcept ;
             dwc:country "Tanzania" ;
             dwc:recordedBy "Burtt" ;
             dwc:recordNumber "4720" ;
-            dwc:institutionCode "K" ] ;
+            dwc:institutionCode "K" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/dceb8d52-094c-4c2c-8960-75e0097c6861> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/paratype> ;
     dcterms:source <https://doi/org/10.2307/3668252> .
 
@@ -735,7 +771,8 @@ _:1983-Begonia-comorensis a tcs:TaxonConcept ;
             dwc:country "Réunion" ;
             dwc:recordedBy "Gaudichaud" ;
             dwc:recordNumber "s.n." ;
-            dwc:institutionCode "P" ] ;
+            dwc:institutionCode "P" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/bc3d39fd-a7d4-4763-b951-2bdeddd8a5d2> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/holotype> ;
     dcterms:source <https://doi/org/10.2307/3668252> .
 
@@ -745,12 +782,13 @@ _:1983-Begonia-comorensis a tcs:TaxonConcept ;
             dwc:country "Réunion" ;
             dwc:recordedBy "Gaudichaud" ;
             dwc:recordNumber "s.n." ;
-            dwc:institutionCode "G" ] ;
+            dwc:institutionCode "G" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/71cbe56c-06e4-49c8-a22d-e45013a252eb> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> ;
     dcterms:source <https://doi/org/10.2307/3668252> .
 
 <https://ipni.org/n/104198-1> a tcs:TaxonName ;
-    tcs:nameString "Begonia aptera Roxb., Hort. Bengal. 104; Fl. Ind. iii. 650." ;
+    tcs:nameString "Begonia aptera Roxb." ;
     dwc:scientificNameAuthorship "Roxb." ;
     dwc:namePublishedIn "Hort. Bengal. 104; Fl. Ind. iii. 650 (1832)" ;
     tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/illegitimum> .
@@ -761,7 +799,8 @@ _:1983-Begonia-comorensis a tcs:TaxonConcept ;
             dwc:country "Réunion" ;
             dwc:recordedBy "Hardwicke" ;
             dwc:recordNumber "s.n." ;
-            dwc:institutionCode "BM" ] ;
+            dwc:institutionCode "BM" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/8bb3763f-955c-4791-8777-44de1996b378> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/holotype> ;
     dcterms:source <https://doi/org/10.2307/3668252> .
 
@@ -769,7 +808,6 @@ _:1983-Begonia-comorensis a tcs:TaxonConcept ;
     tcs:nameString "Begonia mascariensis" ;
     dwc:scientificNameAuthorship "Baker" ;
     dwc:namePublishedIn "Fl. Mauritius 129 (1877)" ;
-    tcs:nomenclaturalStatus <http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/dubimum> ;
     dcterms:source <https://doi/org/10.2307/3668252> .
 
 
@@ -796,7 +834,8 @@ _:1983-Begonia-comorensis a tcs:TaxonConcept ;
             dwc:island "Mahé" ;
             dwc:recordedBy "Horne" ;
             dwc:recordNumber "s.n." ;
-            dwc:institutionCode "G" ] ;
+            dwc:institutionCode "G" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/71cbe56c-06e4-49c8-a22d-e45013a252eb> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isolectotype> ;
     dcterms:source <https://doi/org/10.2307/3668252> .
 
@@ -807,7 +846,8 @@ _:1983-Begonia-comorensis a tcs:TaxonConcept ;
             dwc:island "Mahé" ;
             dwc:recordedBy "Horne" ;
             dwc:recordNumber "245" ;
-            dwc:institutionCode "K" ] ;
+            dwc:institutionCode "K" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/dceb8d52-094c-4c2c-8960-75e0097c6861> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/lectotype> ;
     dcterms:source <https://doi/org/10.2307/3668252> .
 
@@ -818,7 +858,8 @@ _:1983-Begonia-comorensis a tcs:TaxonConcept ;
             dwc:island "Mahé" ;
             dwc:recordedBy "Gardiner" ;
             dwc:recordNumber "s.n." ;
-            dwc:institutionCode "K" ] ;
+            dwc:institutionCode "K" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/dceb8d52-094c-4c2c-8960-75e0097c6861> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/syntype> ;
     dcterms:source <https://doi/org/10.2307/3668252> .
 
@@ -829,7 +870,8 @@ _:1983-Begonia-comorensis a tcs:TaxonConcept ;
             dwc:island "Silhouette" ;
             dwc:recordedBy "Gardiner" ;
             dwc:recordNumber "111" ;
-            dwc:institutionCode "K" ] ;
+            dwc:institutionCode "K" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/dceb8d52-094c-4c2c-8960-75e0097c6861> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/syntype> ;
     dcterms:source <https://doi/org/10.2307/3668252> .
 
@@ -840,7 +882,8 @@ _:1983-Begonia-comorensis a tcs:TaxonConcept ;
             dwc:island "Mahé and Silhouette" ;
             dwc:recordedBy "Neville" ;
             dwc:recordNumber "s.n." ;
-            dwc:institutionCode "K" ] ;
+            dwc:institutionCode "K" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/dceb8d52-094c-4c2c-8960-75e0097c6861> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/syntype> ;
     dcterms:source <https://doi/org/10.2307/3668252> .
 
@@ -892,6 +935,7 @@ _:ref-d9a27f7b90cde25a a bibo:BookSection ;
     bibo:pages "121-150" .
 
 _:ref-0552488b705004b9 a bibo:AcademicArticle ;
+    bibo:handle ""
     dcterms:title "Begoniaceae africanae" ;
     dcterms:creator <https://www.wikidata.org/wiki/Q62822> ;
     bibo:authorList <https://www.wikidata.org/wiki/Q62822> ;

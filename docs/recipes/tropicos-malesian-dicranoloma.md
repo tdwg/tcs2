@@ -1609,7 +1609,8 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:verbatimLocality "Mt. Arfak ad Hatam, 5000-7000'" ;
             dwc:recordedBy "O. Beccari" ;
             dwc:recordNumber "167" ;
-            dwc:institutionCode "H-BR" ] ;
+            dwc:institutionCode "H-BR" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/c2e5e176-8597-4ea1-aae6-04da9a904c40> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/lectotype> ;
     tcs:typePublishedIn <https://tropicos.org/reference/9007945> .
 
@@ -1621,7 +1622,8 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:verbatimLocality "Mt. Arfak ad Hatam, 5000-7000'" ;
             dwc:recordedBy "O. Beccari" ;
             dwc:recordNumber "167" ;
-            dwc:institutionCode "FH-FL" ] ;
+            dwc:institutionCode "FH-FL" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/f46647cc-4d11-4244-81f6-0139b5a176a4> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> ;
     dcterms:source <https://tropicos.org/reference/9020903> .
 
@@ -1633,7 +1635,8 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:verbatimLocality "Mt. Arfak ad Hatam, 5000-7000'" ;
             dwc:recordedBy "O. Beccari" ;
             dwc:recordNumber "167" ;
-            dwc:institutionCode "L" ] ;
+            dwc:institutionCode "L" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/0add23db-a8f7-4d15-95ad-4ed0c5c8a055> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> ;
     dcterms:source <https://tropicos.org/reference/9020903> .
 
@@ -1645,7 +1648,8 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:verbatimLocality "Mt. Arfak ad Hatam, 5000-7000'" ;
             dwc:recordedBy "O. Beccari" ;
             dwc:recordNumber "167" ;
-            dwc:institutionCode "S" ] ;
+            dwc:institutionCode "S" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/c54dfec0-d9d1-48db-bb57-38846544e117> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> ;
     dcterms:source <https://tropicos.org/reference/9020903> .
 
@@ -1658,7 +1662,8 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:island "Java" ;
             dwc:recordedBy "Junghuhn" ;
             dwc:recordNumber "s.n." ;
-            dwc:institutionCode "BM" ] .
+            dwc:institutionCode "BM" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/8bb3763f-955c-4791-8777-44de1996b378> ] .
 
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35121913> ;
@@ -1668,7 +1673,8 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:island "Java" ;
             dwc:recordNumber "s.n." ;
             dwc:recordedBy "Junghuhn" ;
-            dwc:institutionCode "L" ] .
+            dwc:institutionCode "L" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/0add23db-a8f7-4d15-95ad-4ed0c5c8a055> ] .
 
 # Dicranum sumatranum Müll.Hal.
 [] a tcs:NomenclaturalType ;
@@ -1696,6 +1702,7 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:recordedBy "Micholitz, W." ;
             dwc:recordNumber "48" ;
             dwc:institutionCode "H" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/c2e5e176-8597-4ea1-aae6-04da9a904c40> ;
             dwc:collectionCode "H-BR" ] .
 
 [] a tcs:NomenclaturalType ;
@@ -1708,7 +1715,8 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:verbatimLocality "West Sumatra" ;
             dwc:recordedBy "Micholitz, W." ;
             dwc:recordNumber "48" ;
-            dwc:institutionCode "BM" ] .
+            dwc:institutionCode "BM" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/8bb3763f-955c-4791-8777-44de1996b378> ] .
 
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35124384> ;
@@ -1721,6 +1729,7 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:recordedBy "Micholitz, W." ;
             dwc:recordNumber "48" ;
             dwc:institutionCode "FH" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/f46647cc-4d11-4244-81f6-0139b5a176a4> ;
             dwc:collectionCode "FH-FL" ] .
 
 [] a tcs:NomenclaturalType ;
@@ -1733,7 +1742,8 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:verbatimLocality "West Sumatra" ;
             dwc:recordedBy "Micholitz, W." ;
             dwc:recordNumber "48" ;
-            dwc:institutionCode "S" ] .
+            dwc:institutionCode "S" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/c54dfec0-d9d1-48db-bb57-38846544e117> ] .
 
 # Dicranoloma gedeanum Renauld & Cardot
 [] a tcs:NomenclaturalType ;
@@ -1756,6 +1766,7 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:recordedBy "Lefèbre" ;
             dwc:recordNumber "s.n." ;
             dwc:institutionCode "FH" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/f46647cc-4d11-4244-81f6-0139b5a176a4> ;
             dwc:collectionCode "FH-FL" ] .
 
 # Dicranum assimile f. major M.Fleisch.
@@ -1767,7 +1778,8 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:island "Borneo" ;
             dwc:recordedBy "Korthals" ;
             dwc:recordNumber "s.n." ;
-            dwc:institutionCode "FH" ] .
+            dwc:institutionCode "FH" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/f46647cc-4d11-4244-81f6-0139b5a176a4> ] .
 
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35204815> ;
@@ -1776,7 +1788,8 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:island "Borneo" ;
             dwc:recordedBy "Korthals" ;
             dwc:recordNumber "s.n." ;
-            dwc:institutionCode "L" ] .
+            dwc:institutionCode "L" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/0add23db-a8f7-4d15-95ad-4ed0c5c8a055> ] .
 
 # Dicranoloma perarmatum Broth.
 [] a tcs:NomenclaturalType ;
@@ -1791,6 +1804,7 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:recordedBy "Copeland" ;
             dwc:recordNumber "1126" ;
             dwc:institutionCode "H" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/c2e5e176-8597-4ea1-aae6-04da9a904c40> ;
             dwc:collectionCode "H-BR" ] .
 
 [] a tcs:NomenclaturalType ;
@@ -1805,6 +1819,7 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:recordedBy "Copeland" ;
             dwc:recordNumber "1126" ;
             dwc:institutionCode "FH" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/f46647cc-4d11-4244-81f6-0139b5a176a4> ;
             dwc:collectionCode "FH-FL" ] .
 
 [] a tcs:NomenclaturalType ;
@@ -1819,6 +1834,7 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:recordedBy "Copeland" ;
             dwc:recordNumber "1126" ;
             dwc:institutionCode "FH" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/f46647cc-4d11-4244-81f6-0139b5a176a4> ;
             dwc:collectionCode "FH-Bartr." ] .
 
 [] a tcs:NomenclaturalType ;
@@ -1832,7 +1848,8 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:locationRemarks "On trees, 1800 m" ;
             dwc:recordedBy "Copeland" ;
             dwc:recordNumber "1126" ;
-            dwc:institutionCode "NY" ] .
+            dwc:institutionCode "NY" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/b2190553-4505-4fdd-8fff-065c8ca26f72> ] .
 
 # Dicranoloma monocarpum Broth.
 [] a tcs:NomenclaturalType ;
@@ -1846,6 +1863,7 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:recordedBy "Ramos" ;
             dwc:recordNumber "BS 22114" ;
             dwc:institutionCode "H" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/c2e5e176-8597-4ea1-aae6-04da9a904c40> ;
             dwc:collectionCode "H-BR" ] .
 
 # Dicranoloma euryloma Dixon
@@ -1860,7 +1878,8 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:locationRemarks "1400-1600 m" ;
             dwc:recordedBy "Holttum" ;
             dwc:recordNumber "25633" ;
-            dwc:institutionCode "BM" ] .
+            dwc:institutionCode "BM" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/8bb3763f-955c-4791-8777-44de1996b378> ] .
 
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35121523> ;
@@ -1874,6 +1893,7 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:recordedBy "Holttum" ;
             dwc:recordNumber "25633" ;
             dwc:institutionCode "FH" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/f46647cc-4d11-4244-81f6-0139b5a176a4> ;
             dwc:collectionCode "FH-Bartr." ] .
 
 [] a tcs:NomenclaturalType ;
@@ -1887,7 +1907,8 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:locationRemarks "At base of tree in white sand forest" ;
             dwc:recordedBy "Oxford Expedition 1932 (P.W. Richards)" ;
             dwc:recordNumber "1853" ;
-            dwc:institutionCode "BM" ] .
+            dwc:institutionCode "BM" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/8bb3763f-955c-4791-8777-44de1996b378> ] .
 
 # Dicranoloma euryloma var. rigifolium E.B.Bartram
 [] a tcs:NomenclaturalType ;
@@ -1902,6 +1923,7 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:recordedBy "Mjöberg" ;
             dwc:recordNumber "s.n." ;
             dwc:institutionCode "FH" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/f46647cc-4d11-4244-81f6-0139b5a176a4> ;
             dwc:collectionCode "FH-Bart." ] .
 
 [] a tcs:NomenclaturalType ;
@@ -1915,7 +1937,8 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:locationRemarks "1600 m" ;
             dwc:recordedBy "Mjöberg" ;
             dwc:recordNumber "s.n." ;
-            dwc:institutionCode "BM" ] .
+            dwc:institutionCode "BM" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/8bb3763f-955c-4791-8777-44de1996b378> ] .
 
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35121524> ;
@@ -1928,7 +1951,8 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:locationRemarks "1600 m" ;
             dwc:recordedBy "Mjöberg" ;
             dwc:recordNumber "s.n." ;
-            dwc:institutionCode "FH" ] .
+            dwc:institutionCode "FH" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/f46647cc-4d11-4244-81f6-0139b5a176a4> ] .
 
 # Dicranoloma brachyphyllum Nog.
 [] a tcs:NomenclaturalType ;
@@ -1942,7 +1966,8 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:locationRemarks "11000-12000 ft" ;
             dwc:recordedBy "Clemens, M.S." ;
             dwc:recordNumber "10245" ;
-            dwc:institutionCode "NICH" ] .
+            dwc:institutionCode "NICH" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/165f38ce-f38e-49f0-a9f8-6ce3650d1eb9> ] .
 
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35121480> ;
@@ -1955,7 +1980,8 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:locationRemarks "11000-12000 ft" ;
             dwc:recordedBy "Clemens, M.S." ;
             dwc:recordNumber "10245" ;
-            dwc:institutionCode "L" ] .
+            dwc:institutionCode "L" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/0add23db-a8f7-4d15-95ad-4ed0c5c8a055> ] .
 
 # Dicranoloma havilandii var. latifolium Zanten
 [] a tcs:NomenclaturalType ;
@@ -1969,7 +1995,8 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:locationRemarks "Below western summit, 3300 m, terrestrial and at base of shrubs in alpine peat" ;
             dwc:recordedBy "van Zanten, B.O." ;
             dwc:recordNumber "677a" ;
-            dwc:institutionCode "L" ] .
+            dwc:institutionCode "L" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/0add23db-a8f7-4d15-95ad-4ed0c5c8a055> ] .
 
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35168349> ;
@@ -1982,7 +2009,8 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:locationRemarks "Below western summit, 3300 m, terrestrial and at base of shrubs in alpine peat" ;
             dwc:recordedBy "van Zanten, B.O." ;
             dwc:recordNumber "677a" ;
-            dwc:institutionCode "BM" ] .
+            dwc:institutionCode "BM" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/8bb3763f-955c-4791-8777-44de1996b378> ] .
 
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35168349> ;
@@ -1995,7 +2023,8 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:locationRemarks "Below western summit, 3300 m, terrestrial and at base of shrubs in alpine peat" ;
             dwc:recordedBy "van Zanten, B.O." ;
             dwc:recordNumber "677a" ;
-            dwc:institutionCode "NY" ] .
+            dwc:institutionCode "NY" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/b2190553-4505-4fdd-8fff-065c8ca26f72> ] .
 
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35168349> ;
@@ -2008,7 +2037,8 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:locationRemarks "Below western summit, 3300 m, terrestrial and at base of shrubs in alpine peat" ;
             dwc:recordedBy "van Zanten, B.O." ;
             dwc:recordNumber "680a" ;
-            dwc:institutionCode "BM" ] .
+            dwc:institutionCode "BM" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/8bb3763f-955c-4791-8777-44de1996b378> ] .
 
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35168349> ;
@@ -2021,7 +2051,8 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:locationRemarks "Below western summit, 3300 m, terrestrial and at base of shrubs in alpine peat" ;
             dwc:recordedBy "van Zanten, B.O." ;
             dwc:recordNumber "680a" ;
-            dwc:institutionCode "L" ] .
+            dwc:institutionCode "L" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/0add23db-a8f7-4d15-95ad-4ed0c5c8a055> ] .
 
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35168349> ;
@@ -2034,7 +2065,8 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:locationRemarks "Below western summit, 3300 m, terrestrial and at base of shrubs in alpine peat" ;
             dwc:recordedBy "van Zanten, B.O." ;
             dwc:recordNumber "680a" ;
-            dwc:institutionCode "NY" ] .
+            dwc:institutionCode "NY" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/b2190553-4505-4fdd-8fff-065c8ca26f72> ] .
 
 # Leucoloma donaldii Broth.
 [] a tcs:NomenclaturalType ;
@@ -2045,7 +2077,8 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:verbatimLocality "Mt Owen Stanley Range, The Gap" ;
             dwc:recordedBy "J. McDonald" ;
             dwc:recordNumber "s.n." ;
-            dwc:institutionCode "BM" ] ;
+            dwc:institutionCode "BM" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/8bb3763f-955c-4791-8777-44de1996b378> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/originalmaterial> .
 
 [] a tcs:NomenclaturalType ;
@@ -2057,6 +2090,7 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:recordedBy "J. McDonald" ;
             dwc:recordNumber "s.n." ;
             dwc:institutionCode "H" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/c2e5e176-8597-4ea1-aae6-04da9a904c40> ;
             dwc:collectionCode "H-BR" ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/originalmaterial> .
 
@@ -2068,7 +2102,8 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:verbatimLocality "Rawlinson Range, 7000-12000 ft" ;
             dwc:recordedBy "Clemens" ;
             dwc:recordNumber "12493" ;
-            dwc:institutionCode "FH" ] ;
+            dwc:institutionCode "FH" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/f46647cc-4d11-4244-81f6-0139b5a176a4> ] ;
     tcs:typeOfType  <http://rs.gbif.org/vocabulary/gbif/type_status/holotype> ;
     dcterms:source <https://tropicos.org/reference/9020903> .
 
@@ -2079,7 +2114,8 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:verbatimLocality "Rawlinson Range, 7000-12000 ft" ;
             dwc:recordedBy "Clemens" ;
             dwc:recordNumber "12493" ;
-            dwc:institutionCode "FH" ] ;
+            dwc:institutionCode "FH" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/f46647cc-4d11-4244-81f6-0139b5a176a4> ] ;
     tcs:typeOfType  <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> ;
     dcterms:source <https://tropicos.org/reference/9020903> .
 
@@ -2090,7 +2126,8 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:verbatimLocality "Rawlinson Range, 7000-12000 ft" ;
             dwc:recordedBy "Clemens" ;
             dwc:recordNumber "12493" ;
-            dwc:institutionCode "MiCH" ] ;
+            dwc:institutionCode "MICH" ;
+            schema:itemLocation <https://scientific-collections.gbif.org/collection/62289b33-ae4f-438c-8574-bd27b348c1fb> ] ;
     tcs:typeOfType  <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> ;
     dcterms:source <https://tropicos.org/reference/9020903> .
 
@@ -2116,6 +2153,7 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:recordedBy "W. MacGregor" ;
             dwc:recordNumber "6" ;
             dwc:institutionCode "H" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/c2e5e176-8597-4ea1-aae6-04da9a904c40> ;
             dwc:collectionCode "H-BR" ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/holotype> ;
     dcterms:source <https://tropicos.org/reference/9020903> .
@@ -2128,7 +2166,8 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:verbatimLocality "Owen Stanley Range" ;
             dwc:recordedBy "W. MacGregor" ;
             dwc:recordNumber "6" ;
-            dwc:institutionCode "BM" ] ;
+            dwc:institutionCode "BM" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/8bb3763f-955c-4791-8777-44de1996b378> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> ;
     dcterms:source <https://tropicos.org/reference/9020903> .
 
@@ -2141,7 +2180,8 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:verbatimLocality "Gunong Tahan, 5500-7000 ft" ;
             dwc:recordedBy "Hanif & Nur" ;
             dwc:recordNumber "7915a" ;
-            dwc:institutionCode "BM" ] ;
+            dwc:institutionCode "BM" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/8bb3763f-955c-4791-8777-44de1996b378> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/holotype> ;
     dcterms:source <https://tropicos.org/reference/9020903> .
 
@@ -2153,7 +2193,8 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:verbatimLocality "Gunong Tahan, 5500-7000 ft" ;
             dwc:recordedBy "Hanif & Nur" ;
             dwc:recordNumber "7915a" ;
-            dwc:institutionCode "KLU" ] ;
+            dwc:institutionCode "KLU" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/534f4c7f-7e3c-453d-ba32-f285560eedb5> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> ;
     dcterms:source <https://tropicos.org/reference/9020903> .
 
@@ -2165,7 +2206,8 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:verbatimLocality "Gunong Tahan, 5500-7000 ft" ;
             dwc:recordedBy "Hanif & Nur" ;
             dwc:recordNumber "7915a" ;
-            dwc:institutionCode "L" ] ;
+            dwc:institutionCode "L" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/0add23db-a8f7-4d15-95ad-4ed0c5c8a055> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> ;
     dcterms:source <https://tropicos.org/reference/9020903> .
 
@@ -2179,6 +2221,7 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:recordedBy "Clemens" ;
             dwc:recordNumber "BS 10552" ;
             dwc:institutionCode "H" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/c2e5e176-8597-4ea1-aae6-04da9a904c40> ;
             dwc:collectionCode "H-BR" ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/lectotype> ;
     tcs:typePublishedIn <https://tropicos.org/reference/9002886> .
@@ -2191,7 +2234,8 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:verbatimLocality "Mt. Kinabalu, Kemberanga" ;
             dwc:recordedBy "Clemens" ;
             dwc:recordNumber "BS 10552" ;
-            dwc:institutionCode "BM" ] ;
+            dwc:institutionCode "BM" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/8bb3763f-955c-4791-8777-44de1996b378> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isolectotype> ;
     dcterms:source <https://tropicos.org/reference/9020903> .
  
@@ -2203,7 +2247,8 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:verbatimLocality "Mt. Kinabalu, Kemberanga" ;
             dwc:recordedBy "Clemens" ;
             dwc:recordNumber "BS 10552" ;
-            dwc:institutionCode "L" ] ;
+            dwc:institutionCode "L" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/0add23db-a8f7-4d15-95ad-4ed0c5c8a055> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isolectotype> ;
     dcterms:source <https://tropicos.org/reference/9020903> .
  
@@ -2215,7 +2260,8 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:verbatimLocality "Mt. Kinabalu, Kemberanga" ;
             dwc:recordedBy "Clemens" ;
             dwc:recordNumber "BS 10552" ;
-            dwc:institutionCode "NY" ] ;
+            dwc:institutionCode "NY" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/b2190553-4505-4fdd-8fff-065c8ca26f72> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isolectotype> ;
     dcterms:source <https://tropicos.org/reference/9020903> .
  
@@ -2227,7 +2273,8 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:verbatimLocality "Bukit Raya, 1800 m" ;
             dwc:recordedBy "Winkler" ;
             dwc:recordNumber "3200" ;
-            dwc:institutionCode "BM" ] ;
+            dwc:institutionCode "BM" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/8bb3763f-955c-4791-8777-44de1996b378> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/syntype> ;
     dcterms:source <https://tropicos.org/reference/9020903> .
  
@@ -2240,6 +2287,7 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:recordedBy "Winkler" ;
             dwc:recordNumber "3200" ;
             dwc:institutionCode "H" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/c2e5e176-8597-4ea1-aae6-04da9a904c40> ;
             dwc:collectionCode "H-BR" ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/syntype> ;
     dcterms:source <https://tropicos.org/reference/9020903> .
@@ -2254,7 +2302,8 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:verbatimLocality "Near Impalutao" ;
             dwc:recordedBy "Phillips" ;
             dwc:recordNumber "26" ;
-            dwc:institutionCode "FH" ] ;
+            dwc:institutionCode "FH" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/f46647cc-4d11-4244-81f6-0139b5a176a4> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/holotype> ;
     dcterms:source <https://tropicos.org/reference/9020903> .
 
@@ -2267,7 +2316,8 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:verbatimLocality "Near Impalutao" ;
             dwc:recordedBy "Phillips" ;
             dwc:recordNumber "26" ;
-            dwc:institutionCode "BM" ] ;
+            dwc:institutionCode "BM" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/8bb3763f-955c-4791-8777-44de1996b378> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> ;
     dcterms:source <https://tropicos.org/reference/9020903> .
 
@@ -2281,7 +2331,8 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:verbatimLocality "NW Buru, Gunung Fogha" ;
             dwc:recordedBy "Stresemann" ;
             dwc:recordNumber "383" ;
-            dwc:institutionCode "JE" ] ;
+            dwc:institutionCode "JE" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/db03f448-f575-475a-84c9-809aa21ecd14> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/originalmaterial> .
 
 # Dicranum blumei Nees
@@ -2306,7 +2357,8 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:verbatimLocality "Java in montibus excelsis partim ignivomis Salak et Gédé" ;
             dwc:recordedBy "C. Blume" ;
             dwc:recordNumber "s.n." ;
-            dwc:institutionCode "JE" ] ;
+            dwc:institutionCode "JE" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/db03f448-f575-475a-84c9-809aa21ecd14> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/lectotype> ;
     dcterms:source <https://tropicos.org/reference/9020903> .
 
@@ -2318,7 +2370,8 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:verbatimLocality "Java in montibus excelsis partim ignivomis Salak et Gédé" ;
             dwc:recordedBy "C. Blume" ;
             dwc:recordNumber "s.n." ;
-            dwc:institutionCode "L" ] ;
+            dwc:institutionCode "L" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/0add23db-a8f7-4d15-95ad-4ed0c5c8a055> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> ;
     dcterms:source <https://tropicos.org/reference/9020903> .
 
@@ -2330,7 +2383,8 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:verbatimLocality "Java in montibus excelsis partim ignivomis Salak et Gédé" ;
             dwc:recordedBy "C. Blume" ;
             dwc:recordNumber "s.n." ;
-            dwc:institutionCode "NY" ] ;
+            dwc:institutionCode "NY" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/b2190553-4505-4fdd-8fff-065c8ca26f72> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> ;
     dcterms:source <https://tropicos.org/reference/9020903> .
 
@@ -2344,6 +2398,7 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:recordedBy "O. Beccari" ;
             dwc:recordNumber "161" ;
             dwc:institutionCode "H" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/c2e5e176-8597-4ea1-aae6-04da9a904c40> ;
             dwc:collectionCode "H-BR" ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/lectotype> ;
     tcs:typePublishedIn <https://tropicos.org/reference/9020903> .
@@ -2357,6 +2412,7 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:recordedBy "O. Beccari" ;
             dwc:recordNumber "161" ;
             dwc:institutionCode "FH" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/f46647cc-4d11-4244-81f6-0139b5a176a4> ;
             dwc:collectionCode "FH-FL" ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> ;
     dcterms:source <https://tropicos.org/reference/9020903> .
@@ -2369,7 +2425,8 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:verbatimLocality "Mt. Arfak ad Hatam, 5000-7000'" ;
             dwc:recordedBy "O. Beccari" ;
             dwc:recordNumber "161" ;
-            dwc:institutionCode "L" ] ;
+            dwc:institutionCode "L" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/0add23db-a8f7-4d15-95ad-4ed0c5c8a055> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> ;
     dcterms:source <https://tropicos.org/reference/9020903> .
 
@@ -2397,7 +2454,8 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:verbatimLocality "W. Seram, zwische Sepa und Sawai" ;
             dwc:recordedBy "Stresemann" ;
             dwc:recordNumber "s.n." ;
-            dwc:institutionCode "JE" ] ;
+            dwc:institutionCode "JE" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/db03f448-f575-475a-84c9-809aa21ecd14> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/holotype> ;
     dcterms:source <https://tropicos.org/reference/9020903> .
 
@@ -2410,7 +2468,8 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:verbatimLocality "W. Seram, zwische Sepa und Sawai" ;
             dwc:recordedBy "Stresemann" ;
             dwc:recordNumber "s.n." ;
-            dwc:institutionCode "B" ] ;
+            dwc:institutionCode "B" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/fceacd29-9f6c-4c9c-a4bc-67795f9cb972> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> ;
     dcterms:source <https://tropicos.org/reference/9020903> .
 
@@ -2423,7 +2482,8 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:verbatimLocality "W. Seram, zwische Sepa und Sawai" ;
             dwc:recordedBy "Stresemann" ;
             dwc:recordNumber "s.n." ;
-            dwc:institutionCode "S" ] ;
+            dwc:institutionCode "S" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/c54dfec0-d9d1-48db-bb57-38846544e117> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> ;
     dcterms:source <https://tropicos.org/reference/9020903> .
 
@@ -2436,7 +2496,8 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:locationRemarks "On a tree in forest, c. 6200 ft." ;
             dwc:recordedBy "C.E. Carr" ;
             dwc:recordNumber "13651" ;
-            dwc:institutionCode "BM" ] ;
+            dwc:institutionCode "BM" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/8bb3763f-955c-4791-8777-44de1996b378> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/holotype> ;
     dcterms:source <https://tropicos.org/reference/9020903> .
 
@@ -2448,7 +2509,8 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:locationRemarks "On a tree in forest, c. 6200 ft." ;
             dwc:recordedBy "C.E. Carr" ;
             dwc:recordNumber "13651" ;
-            dwc:institutionCode "H" ] ;
+            dwc:institutionCode "H" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/c2e5e176-8597-4ea1-aae6-04da9a904c40> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> ;
     dcterms:source <https://tropicos.org/reference/9020903> .
 
@@ -2460,7 +2522,8 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:locationRemarks "On a tree in forest, c. 6200 ft." ;
             dwc:recordedBy "C.E. Carr" ;
             dwc:recordNumber "13651" ;
-            dwc:institutionCode "L" ] ;
+            dwc:institutionCode "L" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/0add23db-a8f7-4d15-95ad-4ed0c5c8a055> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> ;
     dcterms:source <https://tropicos.org/reference/9020903> .
 
@@ -2472,7 +2535,8 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:locationRemarks "On a tree in forest, c. 6200 ft." ;
             dwc:recordedBy "C.E. Carr" ;
             dwc:recordNumber "13651" ;
-            dwc:institutionCode "NY" ] ;
+            dwc:institutionCode "NY" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/b2190553-4505-4fdd-8fff-065c8ca26f72> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> ;
     dcterms:source <https://tropicos.org/reference/9020903> .
  
@@ -2484,7 +2548,8 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:island "Sumatra" ;
             dwc:recordedBy "Teysmann" ;
             dwc:recordNumber "s.n." ;
-            dwc:institutionCode "L" ] ;
+            dwc:institutionCode "L" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/0add23db-a8f7-4d15-95ad-4ed0c5c8a055> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/lectotype> ;
     tcs:typePublishedIn <https://tropicos.org/reference/9020903> .
 
@@ -2496,6 +2561,7 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:recordedBy "Teysmann" ;
             dwc:recordNumber "s.n." ;
             dwc:institutionCode "H" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/c2e5e176-8597-4ea1-aae6-04da9a904c40> ;
             dwc:collectionCode "H-BR" ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isolectotype> ;
     dcterms:source <https://tropicos.org/reference/9020903> .
@@ -2518,7 +2584,8 @@ Experience Report](../implementation-experience-report/#4-an-example).
     tcs:typeSpecimen [ a dwc:MaterialCitation ;
             dwc:recordedBy "Rochussen" ;
             dwc:recordNumber "s.n." ;
-            dwc:institutionCode "L" ] ;
+            dwc:institutionCode "L" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/0add23db-a8f7-4d15-95ad-4ed0c5c8a055> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/syntype> ;
     dcterms:source <https://tropicos.org/reference/9020903> .
 
@@ -2550,7 +2617,8 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:country "Indonesia" ;
             dwc:island "Java" ;
             dwc:recordedBy "C.L. Blume" ;
-            dwc:institutionCode "L" ] ;
+            dwc:institutionCode "L" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/0add23db-a8f7-4d15-95ad-4ed0c5c8a055> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/lectotype> ;
     tcs:typePublishedIn <https://tropicos.org/reference/9020903> .
 
@@ -2574,7 +2642,8 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:island "Savai'i" ;
             dwc:occurrenceRemarks "inter alios muscos" ;
             dwc:recordedBy "Graeffe" ;
-            dwc:institutionCode "S" ] ;
+            dwc:institutionCode "S" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/c54dfec0-d9d1-48db-bb57-38846544e117> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/lectotype> ;
     tcs:typePublishedIn <https://tropicos.org/reference/9020903> .
 
@@ -2586,6 +2655,7 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:occurrenceRemarks "inter alios muscos" ;
             dwc:recordedBy "Graeffe" ;
             dwc:institutionCode "H" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/c2e5e176-8597-4ea1-aae6-04da9a904c40> ;
             dwc:collectionCode "H-BR" ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> ;
     dcterms:source <https://tropicos.org/reference/9020903> .
@@ -2600,6 +2670,7 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:recordedBy "O. Beccari" ;
             dwc:recordNumber "184" ;
             dwc:institutionCode "H" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/c2e5e176-8597-4ea1-aae6-04da9a904c40> ;
             dwc:collectionCode "H-BR" ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/holotype> ;
     dcterms:source <https://tropicos.org/reference/9020903> .
@@ -2613,6 +2684,7 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:recordedBy "O. Beccari" ;
             dwc:recordNumber "184" ;
             dwc:institutionCode "FH" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/f46647cc-4d11-4244-81f6-0139b5a176a4> ;
             dwc:collectionCode "FH-FL" ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> ;
     dcterms:source <https://tropicos.org/reference/9020903> .
@@ -2625,7 +2697,8 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:verbatimLocality "Mt. Arfak ad Hatam, 5000-7000'" ;
             dwc:recordedBy "O. Beccari" ;
             dwc:recordNumber "184" ;
-            dwc:institutionCode "S" ] ;
+            dwc:institutionCode "S" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/c54dfec0-d9d1-48db-bb57-38846544e117> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> ;
     dcterms:source <https://tropicos.org/reference/9020903> .
     
@@ -2638,6 +2711,7 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:recordedBy "W. MacGregor" ;
             dwc:recordNumber "686" ;
             dwc:institutionCode "H" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/c2e5e176-8597-4ea1-aae6-04da9a904c40> ;
             dwc:collectionCode "H-BR" ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/holotype> ;
     dcterms:source <https://tropicos.org/reference/9020903> .
@@ -2649,7 +2723,8 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:verbatimLocality "[British New Guinea] in reg. inf." ;
             dwc:recordedBy "W. MacGregor" ;
             dwc:recordNumber "686" ;
-            dwc:institutionCode "S" ] ;
+            dwc:institutionCode "S" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/c54dfec0-d9d1-48db-bb57-38846544e117> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> ;
     dcterms:source <https://tropicos.org/reference/9020903> .
 
@@ -2676,7 +2751,8 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:recordedBy "O. Warburg" ;
             dwc:recordNumber "s.n." ;
             dwc:institutionCode "H" ;
-            dwc:collectionCode "H-BR" ] ;
+            dwc:collectionCode "H-BR";
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/c2e5e176-8597-4ea1-aae6-04da9a904c40>  ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/lectotype> ;
     tcs:typePublishedIn <https://tropicos.org/reference/9002886> .
 
@@ -2690,7 +2766,8 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:recordedBy "K & L. Rechinger" ;
             dwc:recordNumber "s.n." ;
             dwc:institutionCode "H" ;
-            dwc:collectionCode "H-BR" ] ;
+            dwc:collectionCode "H-BR" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/c2e5e176-8597-4ea1-aae6-04da9a904c40> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/holotype> ;
     dcterms:source <https://tropicos.org/reference/9020903> .
 
@@ -2702,7 +2779,8 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:verbatimLocality "Urwald von Tiavi" ;
             dwc:recordedBy "K & L. Rechinger" ;
             dwc:recordNumber "s.n." ;
-            dwc:institutionCode "W" ] ;
+            dwc:institutionCode "W" ;
+            schema:itemLocation <https://scientific-collections.gbif.org/collection/7dae0702-991d-47bb-95bd-1ed2738673be> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/paratype> ;
     dcterms:source <https://tropicos.org/reference/9020903> .
 
@@ -2715,7 +2793,8 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:verbatimLocality "Near Boku, Port Moresby" ;
             dwc:recordedBy "J.B. Clark" ;
             dwc:recordNumber "4" ;
-            dwc:institutionCode "BM" ] ;
+            dwc:institutionCode "BM" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/8bb3763f-955c-4791-8777-44de1996b378> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/holotype> ;
     dcterms:source <https://tropicos.org/reference/9020903> .
 
@@ -2728,7 +2807,8 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:verbatimLocality "Gn. Sibajak, Dg. Singkoet, in silvis primig." ;
             dwc:recordedBy "Fr. Verdoorn" ;
             dwc:recordNumber "74c" ;
-            dwc:institutionCode "BM" ] ;
+            dwc:institutionCode "BM" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/8bb3763f-955c-4791-8777-44de1996b378> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/holotype> ;
     dcterms:source <https://tropicos.org/reference/9020903> .
 
@@ -2740,7 +2820,8 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:verbatimLocality "Gn. Sibajak, Dg. Singkoet, in silvis primig." ;
             dwc:recordedBy "Fr. Verdoorn" ;
             dwc:recordNumber "74c" ;
-            dwc:institutionCode "JE" ] ;
+            dwc:institutionCode "JE" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/db03f448-f575-475a-84c9-809aa21ecd14> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> ;
     dcterms:source <https://tropicos.org/reference/9020903> .
 
@@ -2753,7 +2834,8 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:verbatimLocality "N. Borneo, Tenompok, on tree, 1220 m" ;
             dwc:recordedBy "Enriquez" ;
             dwc:recordNumber "18111" ;
-            dwc:institutionCode "BM" ] ;
+            dwc:institutionCode "BM" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/8bb3763f-955c-4791-8777-44de1996b378> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/holotype> ;
     dcterms:source <https://tropicos.org/reference/9020903> .
 
@@ -2765,7 +2847,8 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:verbatimLocality "N. Borneo, Tenompok, on tree, 1220 m" ;
             dwc:recordedBy "Enriquez" ;
             dwc:recordNumber "18111" ;
-            dwc:institutionCode "L" ] ;
+            dwc:institutionCode "L" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/0add23db-a8f7-4d15-95ad-4ed0c5c8a055> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> ;
     dcterms:source <https://tropicos.org/reference/9020903> .
     
@@ -2780,6 +2863,7 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:recordedBy "L.J. Brass" ;
             dwc:recordNumber "20090" ;
             dwc:institutionCode "FH" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/f46647cc-4d11-4244-81f6-0139b5a176a4> ;
             dwc:collectionCode "FH-Bartr." ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/holotype> ;
     dcterms:source <https://tropicos.org/reference/9020903> .
@@ -2793,6 +2877,7 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:recordedBy "Loria" ;
             dwc:recordNumber "1585" ;
             dwc:institutionCode "FH" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/f46647cc-4d11-4244-81f6-0139b5a176a4> ;
             dwc:collectionCode "FH-FL" ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/originalmaterial> .
 
@@ -2803,7 +2888,8 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:verbatimLocality "Distr. Moresby, in montosis Moroka, 1300 m" ;
             dwc:recordedBy "Loria" ;
             dwc:recordNumber "1585" ;
-            dwc:institutionCode "H" ] ;
+            dwc:institutionCode "H" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/c2e5e176-8597-4ea1-aae6-04da9a904c40> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/originalmaterial> .
 
 # Dicranum horridum Geh.
@@ -2815,7 +2901,8 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:verbatimLocality "\"Padangsche Bovenlanden\", Mt. Singalang" ;
             dwc:recordedBy "O. Beccari" ;
             dwc:recordNumber "93a" ;
-            dwc:institutionCode "BM" ] ;
+            dwc:institutionCode "BM" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/8bb3763f-955c-4791-8777-44de1996b378> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/originalmaterial> .
 
 [] a tcs:NomenclaturalType ;
@@ -2826,7 +2913,8 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:verbatimLocality "\"Padangsche Bovenlanden\", Mt. Singalang" ;
             dwc:recordedBy "O. Beccari" ;
             dwc:recordNumber "93a" ;
-            dwc:institutionCode "JE" ] ;
+            dwc:institutionCode "JE" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/db03f448-f575-475a-84c9-809aa21ecd14> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/originalmaterial> .
 
 # Megalostylium brevisetum Dozy & Molk.
@@ -2838,7 +2926,8 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:verbatimLocality "Rarissime in summo monte Gédé" ;
             dwc:recordedBy "Zippelius" ;
             dwc:recordNumber "s.n." ;
-            dwc:institutionCode "L" ] ;
+            dwc:institutionCode "L" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/0add23db-a8f7-4d15-95ad-4ed0c5c8a055> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/lectotype> ;
     tcs:typePublishedIn <https://tropicos.org/reference/9020903> .
      
@@ -2851,6 +2940,7 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:recordedBy "Kuhl & Van Hasselt" ;
             dwc:recordNumber "s.n." ;
             dwc:institutionCode "H" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/c2e5e176-8597-4ea1-aae6-04da9a904c40> ;
             dwc:collectionCode "H-BR" ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/syntype> ;
     dcterms:source <https://tropicos.org/reference/9020903> .
@@ -2863,7 +2953,8 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:verbatimLocality "Monte Pangerango" ;
             dwc:recordedBy "Kuhl & Van Hasselt" ;
             dwc:recordNumber "s.n." ;
-            dwc:institutionCode "L" ] ;
+            dwc:institutionCode "L" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/0add23db-a8f7-4d15-95ad-4ed0c5c8a055> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/syntype> ;
     dcterms:source <https://tropicos.org/reference/9020903> .
 
@@ -2875,7 +2966,8 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:verbatimLocality "Monte Pangerango" ;
             dwc:recordedBy "Kuhl & Van Hasselt" ;
             dwc:recordNumber "s.n." ;
-            dwc:institutionCode "S" ] ;
+            dwc:institutionCode "S" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/c54dfec0-d9d1-48db-bb57-38846544e117> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/syntype> ;
     dcterms:source <https://tropicos.org/reference/9020903> .
 
@@ -2888,7 +2980,8 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:verbatimLocality "In Monte Pangerango, 7000-9000'" ;
             dwc:recordedBy "De Vriese" ;
             dwc:recordNumber "s.n." ;
-            dwc:institutionCode "L" ] ;
+            dwc:institutionCode "L" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/0add23db-a8f7-4d15-95ad-4ed0c5c8a055> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/lectotype> ;
     tcs:typePublishedIn <https://tropicos.org/reference/9020903> .
 
@@ -2910,7 +3003,8 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:island "Sumatra" ;
             dwc:recordedBy "Teysmann" ;
             dwc:recordNumber "s.n." ;
-            dwc:institutionCode "L" ] ;
+            dwc:institutionCode "L" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/0add23db-a8f7-4d15-95ad-4ed0c5c8a055> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/lectotype> ;
     tcs:typePublishedIn <https://tropicos.org/reference/9020903> .
 
@@ -2922,6 +3016,7 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:recordedBy "Teysmann" ;
             dwc:recordNumber "s.n." ;
             dwc:institutionCode "H" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/c2e5e176-8597-4ea1-aae6-04da9a904c40> ;
             dwc:collectionCode "H-BR" ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isolectotype> ;
     dcterms:source <https://tropicos.org/reference/9020903> .
@@ -2933,7 +3028,8 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:island "Sumatra" ;
             dwc:recordedBy "Teysmann" ;
             dwc:recordNumber "s.n." ;
-            dwc:institutionCode "S" ] ;
+            dwc:institutionCode "S" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/c54dfec0-d9d1-48db-bb57-38846544e117> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isolectotype> ;
     dcterms:source <https://tropicos.org/reference/9020903> .
 
@@ -2958,7 +3054,8 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:island "Java" ;
             dwc:recordedBy "Fleischer" ;
             dwc:recordNumber "s.n." ;
-            dwc:institutionCode "BM" ] ;
+            dwc:institutionCode "BM" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/8bb3763f-955c-4791-8777-44de1996b378> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> ;
     dcterms:source <https://tropicos.org/reference/9020903> .
 
@@ -2970,6 +3067,7 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:recordedBy "Fleischer" ;
             dwc:recordNumber "s.n." ;
             dwc:institutionCode "FH" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/f46647cc-4d11-4244-81f6-0139b5a176a4> ;
             dwc:collectionCode "FH-Bartr." ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> ;
     dcterms:source <https://tropicos.org/reference/9020903> .
@@ -2982,6 +3080,7 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:recordedBy "Fleischer" ;
             dwc:recordNumber "s.n." ;
             dwc:institutionCode "H" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/c2e5e176-8597-4ea1-aae6-04da9a904c40> ;
             dwc:collectionCode "H-BR" ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> ;
     dcterms:source <https://tropicos.org/reference/9020903> .
@@ -2993,7 +3092,8 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:island "Java" ;
             dwc:recordedBy "Fleischer" ;
             dwc:recordNumber "s.n." ;
-            dwc:institutionCode "JE" ] ;
+            dwc:institutionCode "JE" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/db03f448-f575-475a-84c9-809aa21ecd14> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> ;
     dcterms:source <https://tropicos.org/reference/9020903> .
 
@@ -3004,7 +3104,8 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:island "Java" ;
             dwc:recordedBy "Fleischer" ;
             dwc:recordNumber "s.n." ;
-            dwc:institutionCode "L" ] ;
+            dwc:institutionCode "L" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/0add23db-a8f7-4d15-95ad-4ed0c5c8a055> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> ;
     dcterms:source <https://tropicos.org/reference/9020903> .
 
@@ -3015,7 +3116,8 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:island "Java" ;
             dwc:recordedBy "Fleischer" ;
             dwc:recordNumber "s.n." ;
-            dwc:institutionCode "NY" ] ;
+            dwc:institutionCode "NY" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/b2190553-4505-4fdd-8fff-065c8ca26f72> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> ;
     dcterms:source <https://tropicos.org/reference/9020903> .
 
@@ -3026,7 +3128,8 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:island "Java" ;
             dwc:recordedBy "Fleischer" ;
             dwc:recordNumber "s.n." ;
-            dwc:institutionCode "S" ] ;
+            dwc:institutionCode "S" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/c54dfec0-d9d1-48db-bb57-38846544e117> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> ;
     dcterms:source <https://tropicos.org/reference/9020903> .
 
@@ -3054,7 +3157,8 @@ Experience Report](../implementation-experience-report/#4-an-example).
                     summit region, 4000-4200 ft.""" ;
             dwc:recordedBy "Meijer" ;
             dwc:recordNumber "12717" ;
-            dwc:institutionCode "L" ] ;
+            dwc:institutionCode "L" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/0add23db-a8f7-4d15-95ad-4ed0c5c8a055> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> ;
     dcterms:source <https://tropicos.org/reference/9020903> .
 
@@ -3080,7 +3184,8 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:verbatimLocality "Gunung Jasar Trail no. 11, near peak" ;
             dwc:recordedBy "Damanhuri" ;
             dwc:recordNumber "2028" ;
-            dwc:institutionCode "FH" ] ;
+            dwc:institutionCode "FH" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/f46647cc-4d11-4244-81f6-0139b5a176a4> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> ;
     dcterms:source <https://tropicos.org/reference/9020903> .
 
@@ -3092,7 +3197,8 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:verbatimLocality "Gunung Jasar Trail no. 11, near peak" ;
             dwc:recordedBy "Damanhuri" ;
             dwc:recordNumber "2028" ;
-            dwc:institutionCode "H" ] ;
+            dwc:institutionCode "H" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/c2e5e176-8597-4ea1-aae6-04da9a904c40> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> ;
     dcterms:source <https://tropicos.org/reference/9020903> .
 
@@ -3104,7 +3210,8 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:verbatimLocality "Gunung Jasar Trail no. 11, near peak" ;
             dwc:recordedBy "Damanhuri" ;
             dwc:recordNumber "2028" ;
-            dwc:institutionCode "NICH" ] ;
+            dwc:institutionCode "NICH" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/165f38ce-f38e-49f0-a9f8-6ce3650d1eb9> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> ;
     dcterms:source <https://tropicos.org/reference/9020903> .
 
@@ -3116,7 +3223,8 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:verbatimLocality "Gunung Jasar Trail no. 11, near peak" ;
             dwc:recordedBy "Damanhuri" ;
             dwc:recordNumber "2028" ;
-            dwc:institutionCode "NY" ] ;
+            dwc:institutionCode "NY" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/b2190553-4505-4fdd-8fff-065c8ca26f72> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> ;
     dcterms:source <https://tropicos.org/reference/9020903> .
 
@@ -3128,7 +3236,8 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:verbatimLocality "Gunung Jasar Trail no. 11, near peak" ;
             dwc:recordedBy "Damanhuri" ;
             dwc:recordNumber "2028" ;
-            dwc:institutionCode "UKMB" ] ;
+            dwc:institutionCode "UKMB" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/d68827b8-a283-4be5-8720-8ca287bc8818> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> ;
     dcterms:source <https://tropicos.org/reference/9020903> .
  
@@ -3140,7 +3249,8 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:verbatimLocality "Gunung Jasar" ;
             dwc:recordedBy "Damanhuri" ;
             dwc:recordNumber "1983" ;
-            dwc:institutionCode "KLU" ] ;
+            dwc:institutionCode "KLU" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/534f4c7f-7e3c-453d-ba32-f285560eedb5> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/paratype> ;
     dcterms:source <https://tropicos.org/reference/9020903> .
  
@@ -3152,7 +3262,8 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:verbatimLocality "Cameron Highlands, Gunong Beremban" ;
             dwc:recordedBy "Damanhuri" ;
             dwc:recordNumber "1625" ;
-            dwc:institutionCode "H" ] ;
+            dwc:institutionCode "H" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/c2e5e176-8597-4ea1-aae6-04da9a904c40> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/paratype> ;
     dcterms:source <https://tropicos.org/reference/9020903> .
  
@@ -3164,7 +3275,8 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:verbatimLocality "Cameron Highlands, Gunong Beremban" ;
             dwc:recordedBy "Damanhuri" ;
             dwc:recordNumber "1625" ;
-            dwc:institutionCode "KLU" ] ;
+            dwc:institutionCode "KLU" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/534f4c7f-7e3c-453d-ba32-f285560eedb5> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/paratype> ;
     dcterms:source <https://tropicos.org/reference/9020903> .
 
@@ -3176,7 +3288,8 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:verbatimLocality "Cameron Highlands, Gunong Beremban" ;
             dwc:recordedBy "Damanhuri" ;
             dwc:recordNumber "1625" ;
-            dwc:institutionCode "L" ] ;
+            dwc:institutionCode "L" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/0add23db-a8f7-4d15-95ad-4ed0c5c8a055> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/paratype> ;
     dcterms:source <https://tropicos.org/reference/9020903> .
 
@@ -3188,7 +3301,8 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:verbatimLocality "Cameron Highlands, Gunong Beremban" ;
             dwc:recordedBy "Damanhuri" ;
             dwc:recordNumber "1625" ;
-            dwc:institutionCode "UKMB" ] ;
+            dwc:institutionCode "UKMB" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/d68827b8-a283-4be5-8720-8ca287bc8818> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/paratype> ;
     dcterms:source <https://tropicos.org/reference/9020903> .
 
@@ -3200,7 +3314,8 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:verbatimLocality "Cameron Highlands, Gunong Beremban" ;
             dwc:recordedBy "Damanhuri" ;
             dwc:recordNumber "164" ;
-            dwc:institutionCode "H" ] ;
+            dwc:institutionCode "H" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/c2e5e176-8597-4ea1-aae6-04da9a904c40> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/paratype> ;
     dcterms:source <https://tropicos.org/reference/9020903> .
 
@@ -3212,7 +3327,8 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:verbatimLocality "Cameron Highlands, Gunong Beremban" ;
             dwc:recordedBy "Damanhuri" ;
             dwc:recordNumber "164" ;
-            dwc:institutionCode "KLU" ] ;
+            dwc:institutionCode "KLU" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/534f4c7f-7e3c-453d-ba32-f285560eedb5> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/paratype> ;
     dcterms:source <https://tropicos.org/reference/9020903> .
 
@@ -3224,7 +3340,8 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:verbatimLocality "Cameron Highlands, Gunong Beremban" ;
             dwc:recordedBy "Damanhuri" ;
             dwc:recordNumber "164" ;
-            dwc:institutionCode "UKMB" ] ;
+            dwc:institutionCode "UKMB" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/d68827b8-a283-4be5-8720-8ca287bc8818> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/paratype> ;
     dcterms:source <https://tropicos.org/reference/9020903> .
 
@@ -3236,7 +3353,8 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:verbatimLocality "Hortonplains am Berg Totopolayagalla am Baumen, 2600 m" ;
             dwc:recordedBy "Fleischer" ;
             dwc:recordNumber "s.n." ;
-            dwc:institutionCode "BM" ] ;
+            dwc:institutionCode "BM" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/8bb3763f-955c-4791-8777-44de1996b378> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/originalmaterial> .
    
 # Dicranum cutlackii D.H.Norris & T.J.Kop.
@@ -3251,7 +3369,8 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:maximumAltitudeInMeters "3350" ;
             dwc:recordedBy "Norris" ;
             dwc:recordNumber "62827" ;
-            dwc:institutionCode "H" ] ;
+            dwc:institutionCode "H" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/c2e5e176-8597-4ea1-aae6-04da9a904c40> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/holotype> ;
     dcterms:source <https://tropicos.org/reference/9020903> .
 
@@ -3266,7 +3385,8 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:maximumAltitudeInMeters "3350" ;
             dwc:recordedBy "Norris" ;
             dwc:recordNumber "62827" ;
-            dwc:institutionCode "BM" ] ;
+            dwc:institutionCode "BM" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/8bb3763f-955c-4791-8777-44de1996b378> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> ;
     dcterms:source <https://tropicos.org/reference/9020903> .
 
@@ -3281,7 +3401,8 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:maximumAltitudeInMeters "3350" ;
             dwc:recordedBy "Norris" ;
             dwc:recordNumber "62827" ;
-            dwc:institutionCode "HSC" ] ;
+            dwc:institutionCode "HSC" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/4d30b412-b0bb-49f2-a7cc-93b7036cc67a> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> ;
     dcterms:source <https://tropicos.org/reference/9020903> .
 
@@ -3296,7 +3417,8 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:maximumAltitudeInMeters "3350" ;
             dwc:recordedBy "Norris" ;
             dwc:recordNumber "62827" ;
-            dwc:institutionCode "LAE" ] ;
+            dwc:institutionCode "LAE" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/81a18808-4ac3-4ec9-8040-fac08257a87f> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> ;
     dcterms:source <https://tropicos.org/reference/9020903> .
 
@@ -3310,7 +3432,8 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:maximumAltitudeInMeters "2750" ;
             dwc:recordedBy "Streimann" ;
             dwc:recordNumber "20541" ;
-            dwc:institutionCode "H" ] ;
+            dwc:institutionCode "H" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/c2e5e176-8597-4ea1-aae6-04da9a904c40> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/paratype> ;
     dcterms:source <https://tropicos.org/reference/9020903> .
 
@@ -3322,7 +3445,8 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:verbatimLocality "Kombugomambuno" ;
             dwc:recordedBy "Mundua" ;
             dwc:recordNumber "64" ;
-            dwc:institutionCode "H" ] ;
+            dwc:institutionCode "H" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/c2e5e176-8597-4ea1-aae6-04da9a904c40> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/paratype> ;
     dcterms:source <https://tropicos.org/reference/9020903> .
 
@@ -3336,7 +3460,8 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:maximumAltitudeInMeters "3100" ;
             dwc:recordedBy "Norris" ;
             dwc:recordNumber "65024" ;
-            dwc:institutionCode "H" ] ;
+            dwc:institutionCode "H" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/c2e5e176-8597-4ea1-aae6-04da9a904c40> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/paratype> ;
     dcterms:source <https://tropicos.org/reference/9020903> .
 
@@ -3350,7 +3475,8 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:maximumAltitudeInMeters "3100" ;
             dwc:recordedBy "Norris" ;
             dwc:recordNumber "65040" ;
-            dwc:institutionCode "H" ] ;
+            dwc:institutionCode "H" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/c2e5e176-8597-4ea1-aae6-04da9a904c40> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/paratype> ;
     dcterms:source <https://tropicos.org/reference/9020903> .
 
@@ -3364,7 +3490,8 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:maximumAltitudeInMeters "3100" ;
             dwc:recordedBy "Norris" ;
             dwc:recordNumber "65173" ;
-            dwc:institutionCode "H" ] ;
+            dwc:institutionCode "H" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/c2e5e176-8597-4ea1-aae6-04da9a904c40> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/paratype> ;
     dcterms:source <https://tropicos.org/reference/9020903> .
 
@@ -3378,7 +3505,8 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:maximumAltitudeInMeters "3300" ;
             dwc:recordedBy "Koponen" ;
             dwc:recordNumber "32780" ;
-            dwc:institutionCode "FH" ] ;
+            dwc:institutionCode "FH" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/f46647cc-4d11-4244-81f6-0139b5a176a4> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/paratype> ;
     dcterms:source <https://tropicos.org/reference/9020903> .
 
@@ -3392,7 +3520,8 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:maximumAltitudeInMeters "3300" ;
             dwc:recordedBy "Koponen" ;
             dwc:recordNumber "32780" ;
-            dwc:institutionCode "H" ] ;
+            dwc:institutionCode "H" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/c2e5e176-8597-4ea1-aae6-04da9a904c40> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/paratype> ;
     dcterms:source <https://tropicos.org/reference/9020903> .
 
@@ -3406,7 +3535,8 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:maximumAltitudeInMeters "3300" ;
             dwc:recordedBy "Koponen" ;
             dwc:recordNumber "32825" ;
-            dwc:institutionCode "H" ] ;
+            dwc:institutionCode "H" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/c2e5e176-8597-4ea1-aae6-04da9a904c40> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/paratype> ;
     dcterms:source <https://tropicos.org/reference/9020903> .
 
@@ -3420,7 +3550,8 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:maximumAltitudeInMeters "3300" ;
             dwc:recordedBy "Koponen" ;
             dwc:recordNumber "32825" ;
-            dwc:institutionCode "L" ] ;
+            dwc:institutionCode "L" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/0add23db-a8f7-4d15-95ad-4ed0c5c8a055> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/paratype> ;
     dcterms:source <https://tropicos.org/reference/9020903> .
 
@@ -3434,7 +3565,8 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:maximumAltitudeInMeters "3350" ;
             dwc:recordedBy "Norris" ;
             dwc:recordNumber "62709" ;
-            dwc:institutionCode "H" ] ;
+            dwc:institutionCode "H" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/c2e5e176-8597-4ea1-aae6-04da9a904c40> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/paratype> ;
     dcterms:source <https://tropicos.org/reference/9020903> .
 
@@ -3448,7 +3580,8 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:maximumAltitudeInMeters "3350" ;
             dwc:recordedBy "Norris" ;
             dwc:recordNumber "63044" ;
-            dwc:institutionCode "H" ] ;
+            dwc:institutionCode "H" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/c2e5e176-8597-4ea1-aae6-04da9a904c40> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/paratype> ;
     dcterms:source <https://tropicos.org/reference/9020903> .
 
@@ -3462,7 +3595,8 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:maximumAltitudeInMeters "3350" ;
             dwc:recordedBy "Norris" ;
             dwc:recordNumber "63051" ;
-            dwc:institutionCode "H" ] ;
+            dwc:institutionCode "H" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/c2e5e176-8597-4ea1-aae6-04da9a904c40> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/paratype> ;
     dcterms:source <https://tropicos.org/reference/9020903> .
 
@@ -3476,7 +3610,8 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:maximumAltitudeInMeters "3550" ;
             dwc:recordedBy "Norris" ;
             dwc:recordNumber "63260" ;
-            dwc:institutionCode "H" ] ;
+            dwc:institutionCode "H" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/c2e5e176-8597-4ea1-aae6-04da9a904c40> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/paratype> ;
     dcterms:source <https://tropicos.org/reference/9020903> .
 
@@ -3490,7 +3625,8 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:maximumAltitudeInMeters "3550" ;
             dwc:recordedBy "Norris" ;
             dwc:recordNumber "63260" ;
-            dwc:institutionCode "JE" ] ;
+            dwc:institutionCode "JE" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/db03f448-f575-475a-84c9-809aa21ecd14> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/paratype> ;
     dcterms:source <https://tropicos.org/reference/9020903> .
 
@@ -3504,7 +3640,8 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:maximumAltitudeInMeters "3550" ;
             dwc:recordedBy "Norris" ;
             dwc:recordNumber "63348" ;
-            dwc:institutionCode "H" ] ;
+            dwc:institutionCode "H" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/c2e5e176-8597-4ea1-aae6-04da9a904c40> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/paratype> ;
     dcterms:source <https://tropicos.org/reference/9020903> .
 
@@ -3518,7 +3655,8 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:maximumAltitudeInMeters "2800" ;
             dwc:recordedBy "Norris" ;
             dwc:recordNumber "63995" ;
-            dwc:institutionCode "H" ] ;
+            dwc:institutionCode "H" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/c2e5e176-8597-4ea1-aae6-04da9a904c40> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/paratype> ;
     dcterms:source <https://tropicos.org/reference/9020903> .
 
@@ -3532,7 +3670,8 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:maximumAltitudeInMeters "3000" ;
             dwc:recordedBy "Norris" ;
             dwc:recordNumber "64304" ;
-            dwc:institutionCode "H" ] ;
+            dwc:institutionCode "H" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/c2e5e176-8597-4ea1-aae6-04da9a904c40> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/paratype> ;
     dcterms:source <https://tropicos.org/reference/9020903> .
 
@@ -3548,6 +3687,7 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:recordedBy "Brass" ;
             dwc:recordNumber "22560a" ;
             dwc:institutionCode "FH" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/f46647cc-4d11-4244-81f6-0139b5a176a4> ;
             dwc:collectionCode "FH-Bartr." ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/holotype> ;
     dcterms:source <https://tropicos.org/reference/9020903> .
@@ -3562,7 +3702,8 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:maximumAltitudeInMeters "2000" ;
             dwc:recordedBy "Brass" ;
             dwc:recordNumber "22560a" ;
-            dwc:institutionCode "FH" ] ;
+            dwc:institutionCode "FH" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/f46647cc-4d11-4244-81f6-0139b5a176a4> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> ;
     dcterms:source <https://tropicos.org/reference/9020903> .
 
@@ -3576,7 +3717,8 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:maximumAltitudeInMeters "2000" ;
             dwc:recordedBy "Brass" ;
             dwc:recordNumber "22560a" ;
-            dwc:institutionCode "H" ] ;
+            dwc:institutionCode "H" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/c2e5e176-8597-4ea1-aae6-04da9a904c40> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> ;
     dcterms:source <https://tropicos.org/reference/9020903> .
 
@@ -3599,7 +3741,8 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:country "Australia" ;
             dwc:recordedBy "Sieber" ;
             dwc:recordNumber "10" ;
-            dwc:institutionCode "JE" ] ;
+            dwc:institutionCode "JE" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/db03f448-f575-475a-84c9-809aa21ecd14> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> ;
     dcterms:source <https://tropicos.org/reference/9020903> .
 
@@ -3609,7 +3752,8 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:country "Australia" ;
             dwc:recordedBy "Sieber" ;
             dwc:recordNumber "10" ;
-            dwc:institutionCode "L" ] ;
+            dwc:institutionCode "L" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/0add23db-a8f7-4d15-95ad-4ed0c5c8a055> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> ;
     dcterms:source <https://tropicos.org/reference/9020903> .
 
@@ -3619,7 +3763,8 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:country "Australia" ;
             dwc:recordedBy "Sieber" ;
             dwc:recordNumber "10" ;
-            dwc:institutionCode "MO" ] ;
+            dwc:institutionCode "MO" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/eaea4a82-2376-4a90-9e83-c0498ef6e7b8> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> ;
     dcterms:source <https://tropicos.org/reference/9020903> .
 
@@ -3629,7 +3774,8 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:country "Australia" ;
             dwc:recordedBy "Sieber" ;
             dwc:recordNumber "10" ;
-            dwc:institutionCode "NY" ] ;
+            dwc:institutionCode "NY" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/b2190553-4505-4fdd-8fff-065c8ca26f72> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> ;
     dcterms:source <https://tropicos.org/reference/9020903> .
 
@@ -3646,7 +3792,8 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:maximumElevationInMeters 2250 ;
             dwc:recordedBy "Brass, L.J." ;
             dwc:recordNumber "22854" ;
-            dwc:institutionCode "H" ] .
+            dwc:institutionCode "H" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/c2e5e176-8597-4ea1-aae6-04da9a904c40> ] .
 
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35121483> ;
@@ -3660,7 +3807,8 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:maximumElevationInMeters 2250 ;
             dwc:recordNumber "22854" ;
             dwc:recordedBy "Brass, L.J." ;
-            dwc:institutionCode "CBG" ] .
+            dwc:institutionCode "CBG" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/ebd0b78d-d128-43d4-ad37-692f38526f85> ] .
 
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35121483> ;
@@ -3674,7 +3822,8 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:maximumElevationInMeters 2250 ;
             dwc:recordedBy "Brass, L.J." ;
             dwc:recordNumber "22854" ;
-            dwc:institutionCode "FH" ] .
+            dwc:institutionCode "FH" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/f46647cc-4d11-4244-81f6-0139b5a176a4> ] .
 
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35121483> ;
@@ -3688,7 +3837,8 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:maximumElevationInMeters 2000 ;
             dwc:recordedBy "Brass, L.J." ;
             dwc:recordNumber "22558" ;
-            dwc:institutionCode "FH" ] .
+            dwc:institutionCode "FH" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/f46647cc-4d11-4244-81f6-0139b5a176a4> ] .
 
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35121483> ;
@@ -3702,7 +3852,8 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:maximumElevationInMeters 2230 ;
             dwc:recordedBy "Brass, L.J." ;
             dwc:recordNumber "22390" ;
-            dwc:institutionCode "FH" ] .
+            dwc:institutionCode "FH" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/f46647cc-4d11-4244-81f6-0139b5a176a4> ] .
 
 [] a tcs:NomenclaturalType ;
     tcs:typifiedName <https://tropicos.org/name/35121483> ;
@@ -3716,7 +3867,8 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:maximumElevationInMeters 2000 ;
             dwc:recordedBy "Brass, L.J." ;
             dwc:recordNumber "22558" ;
-            dwc:institutionCode "CBG" ] .
+            dwc:institutionCode "CBG" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/ebd0b78d-d128-43d4-ad37-692f38526f85> ] .
 
 # Werneriobryum geluense Herzog
 [] a tcs:NomenclaturalType ;
@@ -3727,7 +3879,8 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:verbatimLocality "Auf dem Gipfel des Gelu (Finisterregebirge), c. 1700 m" ;
             dwc:recordedBy "Werner" ;
             dwc:recordNumber "s.n." ;
-            dwc:institutionCode "JE" ] ;
+            dwc:institutionCode "JE" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/db03f448-f575-475a-84c9-809aa21ecd14> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/holotype> ;
     dcterms:source <https://tropicos.org/reference/9020903> .
             
@@ -3741,6 +3894,7 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:recordedBy "Clemens" ;
             dwc:recordNumber "10747" ;
             dwc:institutionCode "H" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/c2e5e176-8597-4ea1-aae6-04da9a904c40> ;
             dwc:collectionCode "H-BR" ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/lectotype> ;
     tcs:typePublishedIn <https://tropicos.org/reference/9006742> .
@@ -3753,7 +3907,8 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:verbatimLocality "Mt. Kinabalu, Paka Cave to Lobang" ;
             dwc:recordedBy "Clemens" ;
             dwc:recordNumber "10747" ;
-            dwc:institutionCode "BM" ] ;
+            dwc:institutionCode "BM" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/8bb3763f-955c-4791-8777-44de1996b378> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isolectotype> ;
     dcterms:source <https://tropicos.org/reference/9020903> .
 
@@ -3765,7 +3920,8 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:verbatimLocality "Mt. Kinabalu, Paka Cave to Lobang" ;
             dwc:recordedBy "Clemens" ;
             dwc:recordNumber "10747" ;
-            dwc:institutionCode "FH" ] ;
+            dwc:institutionCode "FH" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/f46647cc-4d11-4244-81f6-0139b5a176a4> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isolectotype> ;
     dcterms:source <https://tropicos.org/reference/9020903> .
 
@@ -3777,7 +3933,8 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:verbatimLocality "Mt. Kinabalu, Paka Cave to Lobang" ;
             dwc:recordedBy "Clemens" ;
             dwc:recordNumber "10747" ;
-            dwc:institutionCode "JE" ] ;
+            dwc:institutionCode "JE" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/db03f448-f575-475a-84c9-809aa21ecd14> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isolectotype> ;
     dcterms:source <https://tropicos.org/reference/9020903> .
 
@@ -3789,7 +3946,8 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:verbatimLocality "Mt. Kinabalu, Paka Cave to Lobang" ;
             dwc:recordedBy "Clemens" ;
             dwc:recordNumber "10747" ;
-            dwc:institutionCode "L" ] ;
+            dwc:institutionCode "L" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/0add23db-a8f7-4d15-95ad-4ed0c5c8a055> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isolectotype> ;
     dcterms:source <https://tropicos.org/reference/9020903> .
 
@@ -3801,7 +3959,8 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:verbatimLocality "Mt. Kinabalu, Paka Cave to Lobang" ;
             dwc:recordedBy "Clemens" ;
             dwc:recordNumber "10747" ;
-            dwc:institutionCode "NY" ] ;
+            dwc:institutionCode "NY" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/b2190553-4505-4fdd-8fff-065c8ca26f72> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isolectotype> ;
     dcterms:source <https://tropicos.org/reference/9020903> .
             
@@ -3813,7 +3972,8 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:verbatimLocality "Mt. Kinabalu, c. 3500 m" ;
             dwc:recordedBy "Haviland" ;
             dwc:recordNumber "1424" ;
-            dwc:institutionCode "BM" ] ;
+            dwc:institutionCode "BM" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/8bb3763f-955c-4791-8777-44de1996b378> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/syntype> ;
     dcterms:source <https://tropicos.org/reference/9020903> .
             
@@ -3826,6 +3986,7 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:recordedBy "Haviland" ;
             dwc:recordNumber "1424" ;
             dwc:institutionCode "H" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/c2e5e176-8597-4ea1-aae6-04da9a904c40> ;
             dwc:collectionCode "H-BR" ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/syntype> ;
     dcterms:source <https://tropicos.org/reference/9020903> .
@@ -3850,7 +4011,8 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:island "Java" ;
             dwc:recordedBy "Zollinger" ;
             dwc:recordNumber "2101" ;
-            dwc:institutionCode "BM" ] ;
+            dwc:institutionCode "BM" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/8bb3763f-955c-4791-8777-44de1996b378> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> ;
     dcterms:source <https://tropicos.org/reference/9020903> .
 
@@ -3862,6 +4024,7 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:recordedBy "Zollinger" ;
             dwc:recordNumber "2101" ;
             dwc:institutionCode "H" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/c2e5e176-8597-4ea1-aae6-04da9a904c40> ;
             dwc:collectionCode "H-BR" ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> ;
     dcterms:source <https://tropicos.org/reference/9020903> .
@@ -3873,7 +4036,8 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:island "Java" ;
             dwc:recordedBy "Zollinger" ;
             dwc:recordNumber "2101" ;
-            dwc:institutionCode "L" ] ;
+            dwc:institutionCode "L" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/0add23db-a8f7-4d15-95ad-4ed0c5c8a055> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/lectotype> ;
     tcs:typePublishedIn <https://tropicos.org/reference/9020903> .
 
@@ -3884,7 +4048,8 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:island "Java" ;
             dwc:recordedBy "Zollinger" ;
             dwc:recordNumber "2101" ;
-            dwc:institutionCode "NY" ] ;
+            dwc:institutionCode "NY" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/b2190553-4505-4fdd-8fff-065c8ca26f72> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> ;
     tcs:typePublishedIn <https://tropicos.org/reference/9020903> .
 
@@ -3895,7 +4060,8 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:island "Java" ;
             dwc:recordedBy "Zollinger" ;
             dwc:recordNumber "2101" ;
-            dwc:institutionCode "S" ] ;
+            dwc:institutionCode "S" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/c54dfec0-d9d1-48db-bb57-38846544e117> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> ;
     tcs:typePublishedIn <https://tropicos.org/reference/9020903> .
 
@@ -3917,7 +4083,8 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:country "Indonesia" ;
             dwc:stateOrProvince "Java" ;
             dwc:recordedBy "Hb. Miquelianum" ;
-            dwc:institutionCode "S" ] ;
+            dwc:institutionCode "S" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/c54dfec0-d9d1-48db-bb57-38846544e117> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/lectotype> ;
     tcs:typePublishedIn <https://tropicos.org/reference/9020903> .
 
@@ -3957,7 +4124,8 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:locationRemarks "An Baumen und auf Waldboden" ;
             dwc:recordedBy "Fleischer" ;
             dwc:recordNumber "s.n." ;
-            dwc:institutionCode "L" ] ;
+            dwc:institutionCode "L" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/0add23db-a8f7-4d15-95ad-4ed0c5c8a055> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/lectotype> ;
     tcs:typePublishedIn <https://tropicos.org/reference/9020903> .
 
@@ -3970,7 +4138,8 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:locationRemarks "An Baumen und auf Waldboden" ;
             dwc:recordedBy "Fleischer" ;
             dwc:recordNumber "s.n." ;
-            dwc:institutionCode "BM" ] ;
+            dwc:institutionCode "BM" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/8bb3763f-955c-4791-8777-44de1996b378> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> ;
     dcterms:source <https://tropicos.org/reference/9020903> .
 
@@ -3984,6 +4153,7 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:recordedBy "Fleischer" ;
             dwc:recordNumber "s.n." ;
             dwc:institutionCode "H" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/c2e5e176-8597-4ea1-aae6-04da9a904c40> ;
             dwc:collectionCode "H-BR" ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> ;
     dcterms:source <https://tropicos.org/reference/9020903> .
@@ -3997,7 +4167,8 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:locationRemarks "An Baumen und auf Waldboden" ;
             dwc:recordedBy "Fleischer" ;
             dwc:recordNumber "s.n." ;
-            dwc:institutionCode "JE" ] ;
+            dwc:institutionCode "JE" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/db03f448-f575-475a-84c9-809aa21ecd14> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> ;
     dcterms:source <https://tropicos.org/reference/9020903> .
 
@@ -4010,7 +4181,8 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:locationRemarks "An Baumen und auf Waldboden" ;
             dwc:recordedBy "Fleischer" ;
             dwc:recordNumber "s.n." ;
-            dwc:institutionCode "NY" ] ;
+            dwc:institutionCode "NY" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/b2190553-4505-4fdd-8fff-065c8ca26f72> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> ;
     dcterms:source <https://tropicos.org/reference/9020903> .
 
@@ -4023,7 +4195,8 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:locationRemarks "An Baumen und auf Waldboden" ;
             dwc:recordedBy "Fleischer" ;
             dwc:recordNumber "s.n." ;
-            dwc:institutionCode "S" ] ;
+            dwc:institutionCode "S" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/c54dfec0-d9d1-48db-bb57-38846544e117> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> ;
     dcterms:source <https://tropicos.org/reference/9020903> .
 
@@ -4052,7 +4225,8 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:verbatimLocality "Mt. Ugo" ;
             dwc:recordedBy "Ramos" ;
             dwc:recordNumber "Bur. Sci. 5867" ;
-            dwc:institutionCode "BM" ] ;
+            dwc:institutionCode "BM" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/8bb3763f-955c-4791-8777-44de1996b378> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> ;
     dcterms:source <https://tropicos.org/reference/9020903> .
 
@@ -4065,7 +4239,8 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:verbatimLocality "Mt. Ugo" ;
             dwc:recordedBy "Ramos" ;
             dwc:recordNumber "Bur. Sci. 5867" ;
-            dwc:institutionCode "NY" ] ;
+            dwc:institutionCode "NY" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/b2190553-4505-4fdd-8fff-065c8ca26f72> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> ;
     dcterms:source <https://tropicos.org/reference/9020903> .
     
@@ -4080,6 +4255,7 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:recordedBy "Ramos" ;
             dwc:recordNumber "Bur. Sci. 27090" ;
             dwc:institutionCode "H" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/c2e5e176-8597-4ea1-aae6-04da9a904c40> ;
             dwc:collectionCode "H-BR" ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/holotype> ;
     dcterms:source <https://tropicos.org/reference/9020903> .
@@ -4093,7 +4269,8 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:verbatimLocality "Mount Posuey" ;
             dwc:recordedBy "Ramos" ;
             dwc:recordNumber "Bur. Sci. 27090" ;
-            dwc:institutionCode "BM" ] ;
+            dwc:institutionCode "BM" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/8bb3763f-955c-4791-8777-44de1996b378> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> ;
     dcterms:source <https://tropicos.org/reference/9020903> .
 
@@ -4106,7 +4283,8 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:verbatimLocality "Mount Posuey" ;
             dwc:recordedBy "Ramos" ;
             dwc:recordNumber "Bur. Sci. 27090" ;
-            dwc:institutionCode "L" ] ;
+            dwc:institutionCode "L" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/0add23db-a8f7-4d15-95ad-4ed0c5c8a055> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> ;
     dcterms:source <https://tropicos.org/reference/9020903> .
 
@@ -4119,7 +4297,8 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:verbatimLocality "Mount Posuey" ;
             dwc:recordedBy "Ramos" ;
             dwc:recordNumber "Bur. Sci. 27090" ;
-            dwc:institutionCode "NY" ] ;
+            dwc:institutionCode "NY" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/b2190553-4505-4fdd-8fff-065c8ca26f72> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> ;
     dcterms:source <https://tropicos.org/reference/9020903> .
 
@@ -4132,7 +4311,8 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:verbatimLocality "Lake Habbema, 3225 m" ;
             dwc:recordedBy "Brass" ;
             dwc:recordNumber "9252" ;
-            dwc:institutionCode "FH" ] ;
+            dwc:institutionCode "FH" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/f46647cc-4d11-4244-81f6-0139b5a176a4> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/holotype> ;
     dcterms:source <https://tropicos.org/reference/9020903> .
 
@@ -4144,7 +4324,8 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:verbatimLocality "Lake Habbema, 3225 m" ;
             dwc:recordedBy "Brass" ;
             dwc:recordNumber "9252" ;
-            dwc:institutionCode "BM" ] ;
+            dwc:institutionCode "BM" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/8bb3763f-955c-4791-8777-44de1996b378> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> ;
     dcterms:source <https://tropicos.org/reference/9020903> .
 
@@ -4156,7 +4337,8 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:verbatimLocality "Lake Habbema, 3225 m" ;
             dwc:recordedBy "Brass" ;
             dwc:recordNumber "9252" ;
-            dwc:institutionCode "L" ] ;
+            dwc:institutionCode "L" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/0add23db-a8f7-4d15-95ad-4ed0c5c8a055> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> ;
     dcterms:source <https://tropicos.org/reference/9020903> .
 
@@ -4168,7 +4350,8 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:verbatimLocality "Lake Habbema, 3225 m" ;
             dwc:recordedBy "Brass" ;
             dwc:recordNumber "9252" ;
-            dwc:institutionCode "NY" ] ;
+            dwc:institutionCode "NY" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/b2190553-4505-4fdd-8fff-065c8ca26f72> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> ;
     dcterms:source <https://tropicos.org/reference/9020903> .
     
@@ -4181,7 +4364,8 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:verbatimLocality "Watabung Terr., between Goroka and Kundiawa, 2620 m" ;
             dwc:recordedBy "Iserentant" ;
             dwc:recordNumber "B-48A" ;
-            dwc:institutionCode "H" ] ;
+            dwc:institutionCode "H" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/c2e5e176-8597-4ea1-aae6-04da9a904c40> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/holotype> ;
     dcterms:source <https://tropicos.org/reference/9020903> .
 
@@ -4194,6 +4378,7 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:recordedBy "Robbins" ;
             dwc:recordNumber "2813" ;
             dwc:institutionCode "FH" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/f46647cc-4d11-4244-81f6-0139b5a176a4> ;
             dwc:collectionCode "FH-Bartr." ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/paratype> ;
     dcterms:source <https://tropicos.org/reference/9020903> .
@@ -4206,7 +4391,8 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:verbatimLocality "Wabag area, Sugarloaf area south of Wapenamanda, 3000 m" ;
             dwc:recordedBy "Robbins" ;
             dwc:recordNumber "2813" ;
-            dwc:institutionCode "L" ] ;
+            dwc:institutionCode "L" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/0add23db-a8f7-4d15-95ad-4ed0c5c8a055> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/paratype> ;
     dcterms:source <https://tropicos.org/reference/9020903> .
 
@@ -4218,7 +4404,8 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:verbatimLocality "Nebilyer River, 28 km WNW of Mt. Hagen, 2760 m" ;
             dwc:recordedBy "Streimann" ;
             dwc:recordNumber "20602" ;
-            dwc:institutionCode "CBG" ] ;
+            dwc:institutionCode "CBG" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/ebd0b78d-d128-43d4-ad37-692f38526f85> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/paratype> ;
     dcterms:source <https://tropicos.org/reference/9020903> .
 
@@ -4230,7 +4417,8 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:verbatimLocality "Nebilyer River, 28 km WNW of Mt. Hagen, 2760 m" ;
             dwc:recordedBy "Streimann" ;
             dwc:recordNumber "20602" ;
-            dwc:institutionCode "H" ] ;
+            dwc:institutionCode "H" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/c2e5e176-8597-4ea1-aae6-04da9a904c40> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/paratype> ;
     dcterms:source <https://tropicos.org/reference/9020903> .
 
@@ -4242,7 +4430,8 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:verbatimLocality "Doulo Pass (25 km W of Goroka) , north of Highlands Highway, 2550 m" ;
             dwc:recordedBy "Hoffmann" ;
             dwc:recordNumber "89-352" ;
-            dwc:institutionCode "CBG" ] ;
+            dwc:institutionCode "CBG" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/ebd0b78d-d128-43d4-ad37-692f38526f85> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/paratype> ;
     dcterms:source <https://tropicos.org/reference/9020903> .
 
@@ -4254,7 +4443,8 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:verbatimLocality "Doulo Pass (25 km W of Goroka) , north of Highlands Highway, 2550 m" ;
             dwc:recordedBy "Hoffmann" ;
             dwc:recordNumber "89-352" ;
-            dwc:institutionCode "NY" ] ;
+            dwc:institutionCode "NY" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/b2190553-4505-4fdd-8fff-065c8ca26f72> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/paratype> ;
     dcterms:source <https://tropicos.org/reference/9020903> .
 
@@ -4266,7 +4456,8 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:verbatimLocality "Finisterre Range, Lake Naho Region, 2500 m" ;
             dwc:recordedBy "Eddy" ;
             dwc:recordNumber "1172" ;
-            dwc:institutionCode "BM" ] ;
+            dwc:institutionCode "BM" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/8bb3763f-955c-4791-8777-44de1996b378> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/paratype> ;
     dcterms:source <https://tropicos.org/reference/9020903> .
 
@@ -4280,7 +4471,8 @@ Experience Report](../implementation-experience-report/#4-an-example).
                     Finisterre, 3000 m""" ;
             dwc:recordedBy "Norris" ;
             dwc:recordNumber "64304 p.p." ;
-            dwc:institutionCode "H" ] ;
+            dwc:institutionCode "H" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/c2e5e176-8597-4ea1-aae6-04da9a904c40> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/paratype> ;
     dcterms:source <https://tropicos.org/reference/9020903> .
 
@@ -4307,6 +4499,7 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:recordedBy "O. Beccari" ;
             dwc:recordNumber "173" ;
             dwc:institutionCode "H" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/c2e5e176-8597-4ea1-aae6-04da9a904c40> ;
             dwc:collectionCode "H-BR" ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/lectotype> ;
     tcs:typePublishedIn <https://tropicos.org/reference/9020903> .
@@ -4320,6 +4513,7 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:recordedBy "O. Beccari" ;
             dwc:recordNumber "173" ;
             dwc:institutionCode "FH" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/f46647cc-4d11-4244-81f6-0139b5a176a4> ;
             dwc:collectionCode "FH-Bartr." ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isolectotype> ;
     dcterms:source <https://tropicos.org/reference/9020903> .
@@ -4333,6 +4527,7 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:recordedBy "O. Beccari" ;
             dwc:recordNumber "173" ;
             dwc:institutionCode "FH" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/f46647cc-4d11-4244-81f6-0139b5a176a4> ;
             dwc:collectionCode "FH-FL" ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isolectotype> ;
     dcterms:source <https://tropicos.org/reference/9020903> .
@@ -4345,7 +4540,8 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:verbatimLocality "Mt. Arfak ad Hatam, 5000-7000'" ;
             dwc:recordedBy "O. Beccari" ;
             dwc:recordNumber "173" ;
-            dwc:institutionCode "L" ] ;
+            dwc:institutionCode "L" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/0add23db-a8f7-4d15-95ad-4ed0c5c8a055> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isolectotype> ;
     dcterms:source <https://tropicos.org/reference/9020903> .
 
@@ -4372,7 +4568,8 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:verbatimLocality "Mittelburu, W. Elen, c. 1600 m" ;
             dwc:recordedBy "K. Deninger" ;
             dwc:recordNumber "s.n." ;
-            dwc:institutionCode "JE" ] ;
+            dwc:institutionCode "JE" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/db03f448-f575-475a-84c9-809aa21ecd14> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/holotype> ;
     dcterms:source <https://tropicos.org/reference/9020903> .
 
@@ -4385,7 +4582,8 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:verbatimLocality "Mittelburu, W. Elen, c. 1600 m" ;
             dwc:recordedBy "K. Deninger" ;
             dwc:recordNumber "s.n." ;
-            dwc:institutionCode "BM" ] ;
+            dwc:institutionCode "BM" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/8bb3763f-955c-4791-8777-44de1996b378> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> ;
     dcterms:source <https://tropicos.org/reference/9020903> .
 
@@ -4398,7 +4596,8 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:verbatimLocality "Mittelburu, W. Elen, c. 1600 m" ;
             dwc:recordedBy "K. Deninger" ;
             dwc:recordNumber "s.n." ;
-            dwc:institutionCode "S" ] ;
+            dwc:institutionCode "S" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/c54dfec0-d9d1-48db-bb57-38846544e117> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> ;
     dcterms:source <https://tropicos.org/reference/9020903> .
 
@@ -4413,6 +4612,7 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:recordedBy "H. Winkler" ;
             dwc:recordNumber "3181" ;
             dwc:institutionCode "H" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/c2e5e176-8597-4ea1-aae6-04da9a904c40> ;
             dwc:collectionCode "H-BR" ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/holotype> ;
     dcterms:source <https://tropicos.org/reference/9020903> .
@@ -4428,6 +4628,7 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:recordedBy "S.F. Kajewski" ;
             dwc:recordNumber "(D)" ;
             dwc:institutionCode "FH" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/f46647cc-4d11-4244-81f6-0139b5a176a4> ;
             dwc:collectionCode "FH-Bartr." ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/holotype> ;
     dcterms:source <https://tropicos.org/reference/9020903> .
@@ -4441,7 +4642,8 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:verbatimLocality "Near Lake Laralu" ;
             dwc:recordedBy "S.F. Kajewski" ;
             dwc:recordNumber "(D)" ;
-            dwc:institutionCode "FH" ] ;
+            dwc:institutionCode "FH" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/f46647cc-4d11-4244-81f6-0139b5a176a4> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> ;
     dcterms:source <https://tropicos.org/reference/9020903> .
 
@@ -4456,7 +4658,8 @@ Experience Report](../implementation-experience-report/#4-an-example).
                     5000-6000 ft""" ;
             dwc:recordedBy "M.S. Clemens" ;
             dwc:recordNumber "12229.12" ;
-            dwc:institutionCode "FH" ] ;
+            dwc:institutionCode "FH" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/f46647cc-4d11-4244-81f6-0139b5a176a4> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/holotype> ;
     dcterms:source <https://tropicos.org/reference/9020903> .
 
@@ -4467,7 +4670,8 @@ Experience Report](../implementation-experience-report/#4-an-example).
             dwc:country "Nepal" ;
             dwc:recordedBy "D. Gardner" ;
             dwc:recordNumber "12229.12" ;
-            dwc:institutionCode "BM" ] ;
+            dwc:institutionCode "BM" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/8bb3763f-955c-4791-8777-44de1996b378> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/holotype> ;
     dcterms:source <https://tropicos.org/reference/9020903> .
 ```

@@ -84,7 +84,8 @@
         "typeOfType": "http://rs.gbif.org/vocabulary/gbif/type_status/isolectotype",
         "typifiedName": "https://ipni.org/n/703183-1",
         "typeSpecimen": "https://specify.rbg.vic.gov.au/specify/view/collectionobject/273521"
-      }
+      },
+      "schema:itemLocation": "https://scientific-collections.gbif.org/collection/7777d910-553a-45ac-b0e5-635261c1e992"
     },
     {
       "type": "Annotation",

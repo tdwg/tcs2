@@ -7,6 +7,8 @@
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix oa: <http://www.w3.org/ns/oa#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
 
 <https://specify.rbg.vic.gov.au/specify/view/collectionobject/739393> a dwc:PreservedSpecimen ;
     dwc:catalogNumber "MEL 0227036A" ;
@@ -15,7 +17,8 @@
     dwciri:typeStatus [ a tcs:NomenclaturalType ;
             tcs:typifiedName <https://ipni.org/n/717216-1> ;
             tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/lectotype> ;
-            tcs:typePublishedIn <https://id.biodiversity.org.au/reference/apni/39897> ] .
+            tcs:typePublishedIn <https://id.biodiversity.org.au/reference/apni/39897> ] ;
+    schema:itemLocation <https://scientific-collections.gbif.org/collection/7777d910-553a-45ac-b0e5-635261c1e992> .
 
 [] a oa:Annotation ;
     oa:motivatedBy oa:commenting ;
@@ -114,7 +117,8 @@ _:b1 a tcs:NomenclaturalType ;
     dwciri:typeStatus [ a tcs:NomenclaturalType ;
             tcs:typifiedName <https://ipni.org/n/717216-1> ;
             tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isolectotype> ;
-            tcs:typePublishedIn <https://id.biodiversity.org.au/reference/apni/39897> ] .
+            tcs:typePublishedIn <https://id.biodiversity.org.au/reference/apni/39897> ] ;
+    schema:itemLocation <https://scientific-collections.gbif.org/collection/dceb8d52-094c-4c2c-8960-75e0097c6861> .
 
 <http://specimens.kew.org/herbarium/K001096705> a dwc:PreservedSpecimen ;
     dwc:catalogNumber "K001096705" ;
@@ -125,7 +129,8 @@ _:b1 a tcs:NomenclaturalType ;
     dwciri:typeStatus [ a tcs:NomenclaturalType ;
             tcs:typifiedName <https://ipni.org/n/717216-1> ;
             tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isolectotype> ;
-            tcs:typePublishedIn <https://id.biodiversity.org.au/reference/apni/39897> ] .
+            tcs:typePublishedIn <https://id.biodiversity.org.au/reference/apni/39897> ] ;
+    schema:itemLocation <https://scientific-collections.gbif.org/collection/dceb8d52-094c-4c2c-8960-75e0097c6861> .
 
 _:BM000050758 a dwc:PreservedSpecimen ;
     dwc:catalogNumber "BM000050758" ;
@@ -136,7 +141,8 @@ _:BM000050758 a dwc:PreservedSpecimen ;
     dwciri:typeStatus [ a tcs:NomenclaturalType ;
             tcs:typifiedName <https://ipni.org/n/717216-1> ;
             tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isolectotype> ;
-            tcs:typePublishedIn <https://id.biodiversity.org.au/reference/apni/39897> ] .
+            tcs:typePublishedIn <https://id.biodiversity.org.au/reference/apni/39897> ] ;
+    schema:itemLocation <https://scientific-collections.gbif.org/collection/8bb3763f-955c-4791-8777-44de1996b378> .
 
 # From the literature
 

@@ -5,6 +5,7 @@
 @prefix dwciri: <http://rs.tdwg.org/dwc/iri/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix schema: <https://schema.org/> .
 
 <https://specify.rbg.vic.gov.au/specify/view/collectionobject/273521> a dwc:PreservedSpecimen ;
     dsw:evidenceFor <https://avh.ala.org.au/occurrences/89086162-0bd8-4504-8abd-960d0a97d41a> ;
@@ -12,7 +13,8 @@
     dwciri:typeStatus [ a tcs:NomenclaturalType ;
             tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isolectotype> ;
             tcs:typifiedName <https://ipni.org/n/703183-1> ;
-            tcs:typeSpecimen <https://specify.rbg.vic.gov.au/specify/view/collectionobject/273521> ] .
+            tcs:typeSpecimen <https://specify.rbg.vic.gov.au/specify/view/collectionobject/273521> ] ;
+    schema:itemLocation <https://scientific-collections.gbif.org/collection/7777d910-553a-45ac-b0e5-635261c1e992> .
 
 [] a oa:Annotation ;
     oa:motivatedBy oa:commenting ;

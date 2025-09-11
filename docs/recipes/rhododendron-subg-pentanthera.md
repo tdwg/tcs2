@@ -8,7 +8,7 @@ _Rhododendron_ subg. _Pentanthera_ by Judd & Kron
 
 ```turtle
 #
-# A revision of Rhododendron subg. Pentanthera
+# A revision of Rhododendron subg Pentanthera
 #
 
 _:ref1 a bibo:AcademicArticle ;
@@ -186,7 +186,8 @@ _:tc2 a tcs:TaxonConcept ;
             dwc:verbatimLocality "[Russia] Manchuria, shores of Possiet Bay, [SW of Vladivostok]" ;
             dwc:eventDate "1860" ;
             dwc:recordedBy "C. Maximowicz" ;
-            dwc:institutionCode "LE" ] ;
+            dwc:institutionCode "LE" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/824651b8-8457-4f66-ab1c-fccd49133af9> ] ;
     tcs:typePublishedIn _:ref1 ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/lectotype> ;
     dcterms:source _:ref1 .
@@ -198,7 +199,8 @@ _:tc2 a tcs:TaxonConcept ;
             dwc:verbatimLocality "Manchuria, shores of Possiet Bay, [SW of Vladivostok]" ;
             dwc:recordedBy "C. Maximowicz" ;
             dwc:eventDate "1860" ;
-            dwc:institutionCode "GH" ] ;
+            dwc:institutionCode "GH" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/institution/219261fd-d235-4d52-acd6-ddc79dc7e870> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isolectotype> ;
     dcterms:source _:ref1 .
 
@@ -209,7 +211,8 @@ _:tc2 a tcs:TaxonConcept ;
             dwc:verbatimLocality "Manchuria, shores of Possiet Bay, [SW of Vladivostok]" ;
             dwc:recordedBy "C. Maximowicz" ;
             dwc:eventDate "1860" ;
-            dwc:institutionCode "NY" ] ;
+            dwc:institutionCode "NY" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/b2190553-4505-4fdd-8fff-065c8ca26f72> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isolectotype> ;
     dcterms:source _:ref1 .
 
@@ -246,7 +249,8 @@ _:tc2 a tcs:TaxonConcept ;
             dwc:recordedBy "Bisset" ;
             dwc:recordNumber "233" ;
             dwc:eventDate "1876-05-23" ;
-            dwc:institutionCode "E" ] ;
+            dwc:institutionCode "E" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/427c8cd7-4358-4a00-9ef3-2b2676d28d1e> ] ;
     dcterms:source _:ref1 .
 
 <https://ipni.org/n/950178-1> a tcs:TaxonName ;
@@ -262,7 +266,8 @@ _:tc2 a tcs:TaxonConcept ;
             dwc:recordedBy "Bisset" ;
             dwc:recordNumber "233" ;
             dwc:eventDate "1876-05-23" ;
-            dwc:institutionCode "E" ] ;
+            dwc:institutionCode "E" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/427c8cd7-4358-4a00-9ef3-2b2676d28d1e> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/holotype> ;
     dcterms:source _:ref1 .
 
@@ -302,7 +307,8 @@ _:tc2 a tcs:TaxonConcept ;
             dwc:country "Japan" ;
             dwc:verbatimLocality "Kyushiu, prov. Osumi, summit, Mt Taka-kuma" ;
             dwc:recordedBy "Tashiro" ;
-            dwc:institutionCode "LE" ] ;
+            dwc:institutionCode "LE" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/824651b8-8457-4f66-ab1c-fccd49133af9> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/holotype> ;
     dcterms:source _:ref1 .
 
@@ -338,7 +344,8 @@ _:tn6 a tcs:TaxonName ;
             dwc:verbatimLocality "Shikoku, pref. Kochi, Agawagun Nanokawa" ;
             dwc:recordedBy "K. Watanabe" ; 
             dwc:eventDate "1890-04-21" ;
-            dwc:institutionCode "TI" ] ;
+            dwc:institutionCode "TI" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/f333b9d7-dbad-40d8-a47d-654d168a3e65> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/holotype> ;
     dcterms:source _:ref1 .
 
@@ -373,7 +380,8 @@ _:tn6 a tcs:TaxonName ;
             dwc:verbatimLocality "Japan, Hakodate, in subapline valley near Nodafu" ;
             dwc:recordedBy "C. Maximowicz" ;
             dwc:eventDate "1861" ;
-            dwc:institutionCode "LE" ] ;
+            dwc:institutionCode "LE" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/824651b8-8457-4f66-ab1c-fccd49133af9> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/lectotype> ;
     dcterms:source _:ref1 .
 
@@ -431,7 +439,8 @@ _:tn7 a tcs:TaxonName ;
             dwc:recordedBy "S. Okubo & R Yatabe" ;
             dwc:recordNumber "s.n." ;
             dwc:eventDate "1887-07-24" ;
-            dwc:institutionCode "TI" ] ;
+            dwc:institutionCode "TI" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/f333b9d7-dbad-40d8-a47d-654d168a3e65> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/lectotype> ;
     tcs:typePublishedIn _:ref1 ;
     dcterms:source _:ref1 .
@@ -519,7 +528,8 @@ _:tn8 a tcs:TaxonName ;
             dwc:eventDate "1878-06-03" ;
             dwc:recordedBy "Vasey" ;
             dwc:recordNumber "s.n." ;
-            dwc:institutionCode "GH" ] ;
+            dwc:institutionCode "GH" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/institution/219261fd-d235-4d52-acd6-ddc79dc7e870> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/holotype> ;
     dcterms:source _:ref1 .
 
@@ -533,7 +543,8 @@ _:tn8 a tcs:TaxonName ;
             dwc:eventDate "1878-06-03" ;
             dwc:recordedBy "Vasey" ;
             dwc:recordNumber "s.n." ;
-            dwc:institutionCode "NY" ] ;
+            dwc:institutionCode "NY" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/b2190553-4505-4fdd-8fff-065c8ca26f72> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> ;
     dcterms:source _:ref1 .
 
@@ -547,7 +558,8 @@ _:tn8 a tcs:TaxonName ;
             dwc:eventDate "1878-06-03" ;
             dwc:recordedBy "Vasey" ;
             dwc:recordNumber "s.n." ;
-            dwc:institutionCode "US" ] ;
+            dwc:institutionCode "US" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/151c91ba-a521-4735-8c11-5abf8db7fb67> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> ;
     dcterms:source _:ref1 .
 
@@ -630,7 +642,8 @@ _:tn8 a tcs:TaxonName ;
             dwc:eventDate "1880-07" ;
             dwc:recordedBy "A. J. Downs" ;
             dwc:recordNumber "s.n." ;
-            dwc:institutionCode "NEBC" ] ;
+            dwc:institutionCode "NEBC" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/d92ce4c7-6d93-40fb-a3be-e246dddc0b25> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/holotype> ;
     dcterms:source _:ref1 .
 
@@ -654,7 +667,8 @@ _:tn9 a tcs:TaxonName ;
             dwc:eventDate "1920-08-29" ;
             dwc:recordedBy "Fernald & Long" ;
             dwc:recordNumber "22150" ;
-            dwc:institutionCode "GH" ] ;
+            dwc:institutionCode "GH" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/institution/219261fd-d235-4d52-acd6-ddc79dc7e870> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/holotype> ;
     dcterms:source _:ref1 .
 
@@ -667,7 +681,8 @@ _:tn9 a tcs:TaxonName ;
             dwc:eventDate "1920-08-29" ;
             dwc:recordedBy "Fernald & Long" ;
             dwc:recordNumber "22150" ;
-            dwc:institutionCode "NY" ] ;
+            dwc:institutionCode "NY" ;
+			schema:itemLocation <https://scientific-collections.gbif.org/collection/b2190553-4505-4fdd-8fff-065c8ca26f72> ] ;
     tcs:typeOfType <http://rs.gbif.org/vocabulary/gbif/type_status/isotype> ;
     dcterms:source _:ref1 .
 ```
