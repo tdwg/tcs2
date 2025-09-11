@@ -558,6 +558,12 @@
             "type": "string"
           },
           {
+            "name": "schema:itemLocation",
+            "type": "string",
+            "format": "uri",
+            "description": "URL of the collection in GRSciColl"
+          },
+          {
             "name": "dwc:disposition",
             "type": "string"
           }
