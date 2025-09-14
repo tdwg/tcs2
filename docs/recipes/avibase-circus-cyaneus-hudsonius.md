@@ -37,8 +37,7 @@ grids.
     dcterms:identifier "avibase-F558C7F9" ;
     skosxl:label "Circus cyaneus" ;
     tcs:accordingTo <https://avibase.bsc-eoc.org> ;
-    tcs:taxonName [ a skosxl:Label ;
-            skosxl:literalForm "Circus cyaneus" ] ;
+    tcs:taxonName _:tn1 ;
     tcs:isCongruentWith [ a tcs:TaxonConcept ;
             dcterms:title "Circus cyaneus sec. Clements 2021" ;
             tcs:accordingTo _:ref1 ;
