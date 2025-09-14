@@ -1,41 +1,7 @@
 {
   "@context": [
     "https://raw.githubusercontent.com/tdwg/tcs2/refs/heads/master/jsonld/context.jsonld",
-    {
-      "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-      "mappingRelation": {
-        "@id": "tcs:mappingRelation",
-        "@type": "@vocab"
-      },
-      "isCongruentWith": "tcs:isCongruentWith",
-      "includes": "tcs:includes",
-      "isIncludedIn": "tcs:isIncludedIn",
-      "partiallyOverlaps": "tcs:partiallyOverlaps",
-      "isDisjointFrom": "tcs:isDisjointFrom",
-      "oa": "http://www.w3.org/ns/oa#",
-      "Annotation": "oa:Annotation",
-      "commenting": "oa:commenting",
-      "body": {
-        "@id": "oa:hasBody",
-        "@type": "@id"
-      },
-      "target": {
-        "@id": "oa:hasTarget",
-        "@type": "@id"
-      },
-      "motivation": {
-        "@id": "oa:motivatedBy",
-        "@type": "@vocab"
-      },
-      "creator": {
-        "@id": "dcterms:creator",
-        "@type": "@id"
-      },
-      "created": {
-        "@id": "dcterms:created",
-        "@type": "xsd:datetime"
-      }
-    }
+    "https://raw.githubusercontent.com/tdwg/tcs2/refs/heads/master/jsonld/annotation/context.jsonld"
   ],
   "@graph": [
     {
@@ -148,7 +114,7 @@
       "id": "https://avibase.bsc-eoc.org",
       "type": "bibo:Website",
       "bibo:uri": "https://avibase.bsc-eoc.org/avibase.jsp",
-      "creator": [{
+      "dcterms:creator": [{
         "type": "foaf:Person",
         "foaf:givenNames": "Denis",
         "foaf:familyName": "Lepage"

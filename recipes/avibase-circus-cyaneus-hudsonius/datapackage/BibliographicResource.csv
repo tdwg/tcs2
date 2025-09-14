@@ -1,2 +1,2 @@
 ID,type,bibo_handle,dcterms_title,dcterms_bibliographicCitation,dcterms_creator,dcterms_date,dcterms_isPartOf,bibo_publisher,bibo_volume,bibo_issue,bibo_pageStart,bibo_pageEnd,bibo_pages,bibo_numPages,bibo_number,bibo_isbn,bibo_isbn10,bibo_isbn13,bibo_issn,bibo_doi
-https://avibase.bsc-eoc.org,bibo:Website,,Avibase,,,,,,,,,,,,,,,,,
+https://avibase.bsc-eoc.org,bibo:Website,,Avibase,,"{'type': 'foaf:Person', 'foaf:givenNames': 'Denis', 'foaf:familyName': 'Lepage'}",,,,,,,,,,,,,,,

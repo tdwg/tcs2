@@ -1,11 +1,10 @@
 {
-  "@context": [
-    "https://raw.githubusercontent.com/tdwg/tcs2/refs/heads/master/jsonld/context.jsonld",
-    {
-      "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
-    }
-  ],
+  "@context": "https://raw.githubusercontent.com/tdwg/tcs2/refs/heads/master/jsonld/context.jsonld",
   "type": "TaxonConcept",
+  "dcterms:identifier": [
+    "E0E4DFB8DA0FBD09",
+    "avibase-E0E4DFB8"
+  ],
   "rdfs:label": "Acrocephalus seychellensis",
   "accordingTo": "https://avibase.bsc-eoc.org",
   "taxonName": {

@@ -1,5 +1,5 @@
 ID,nameString,scientificNameAuthorship,namePublishedIn,namePublishedInYear,nomenclaturalCode,nomenclaturalStatus,basionymID,replacedNameID,basedOnID
-_:tn683040,Circus cyaneus cyaneus,,,,,,,,
-_:tn417667,Circus cyaneus hudsonius,(Linnaeus 1766),,,,,,,
+_:tn615916,Circus cyaneus cyaneus,,,,,,,,
+_:tn034201,Circus cyaneus hudsonius,(Linnaeus 1766),,,,,,,
 _:tn1,Circus cyaneus,(Linnaeus 1766),,,,,,,
 _:tn2,Circus hudsonius,(Linnaeus 1766),,,,,,,

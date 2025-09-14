@@ -6,11 +6,11 @@
 @prefix oa: <http://www.w3.org/ns/oa#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix skosxl: <http://www.w3.org/2008/05/skos-xl#> .
+
 
 <https://avibase.ca/82745BAA> a tcs:TaxonConcept ;
     dcterms:identifier "avibase-82745BAA" ;
-    skosxl:label "Circus [cyaneus or hudsonius]" ;
+    rdfs:label "Circus [cyaneus or hudsonius]" ;
     tcs:accordingTo <https://avibase.bsc-eoc.org> ;
     tcs:taxonName _:tn1 ;
     tcs:isCongruentWith [ a tcs:TaxonConcept ;
@@ -20,10 +20,9 @@
 
 <https://avibase.ca/F558C7F9> a tcs:TaxonConcept ;
     dcterms:identifier "avibase-F558C7F9" ;
-    skosxl:label "Circus cyaneus" ;
+    rdfs:label "Circus cyaneus" ;
     tcs:accordingTo <https://avibase.bsc-eoc.org> ;
-    tcs:taxonName [ a skosxl:Label ;
-            skosxl:literalForm "Circus cyaneus" ] ;
+    tcs:taxonName _:tn1 ;
     tcs:isCongruentWith [ a tcs:TaxonConcept ;
             dcterms:title "Circus cyaneus sec. Clements 2021" ;
             tcs:accordingTo _:ref1 ;
@@ -44,7 +43,7 @@
 
 <https://avibase.ca/A091D50A> a tcs:TaxonConcept ;
     dcterms:identifier "avibase-A091D50A" ;
-    skosxl:label "Circus hudsonius" ;
+    rdfs:label "Circus hudsonius" ;
     tcs:accordingTo <https://avibase.bsc-eoc.org> ;
     tcs:taxonName _:tn2 ;
     tcs:isCongruentWith [ a tcs:TaxonConcept ;
