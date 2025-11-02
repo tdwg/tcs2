@@ -190,7 +190,8 @@ TCS:
 
 #### 3.1.1. Hierarchical relationships
 
-- tcs:parent
+- tcs:parentTaxonConcept
+- tcs:childTaxonConcept
 
 #### 3.1.2. Horizontal relationships<sup>*</sup>
 
