@@ -55,9 +55,11 @@
   definition: >-
     The four-digit year in which the `scientificName` was published.
   usage: >-
-    This is the publication year for the present name combination, not the
+    This is the publication year for the present combination, not the
     basionym should this be a new combination.
-  notes: null
+  notes: >-
+    For zoological names, the year the original name is published in is mostly
+    given in the `dwc:scientificNameAuthorship`.
   examples: null
   type: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
   organizedInClass: http://rs.tdwg.org/tcs/terms/TaxonName
