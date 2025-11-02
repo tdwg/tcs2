@@ -152,10 +152,10 @@ Ontology).
 
 By elevating the values from the Taxon Relationship Type enumeration to
 first-class TCS properties and leaving the syntax out of the standard, people
-can choose whether to connect them to the subject Taxon Concept, or use them in
-a utility object outside TCS, for example the Darwin Core Resource Relationship
-class. The shape of the data may dictate the use of a relationship object, but
-the terms have the same meaning, regardless of the syntax.
+can choose whether to connect them to the subject Taxon Concept or use them as
+the object of the `mappingRelation` property on a Taxon Concept Mapping object.
+The shape of the data may dictate the use of a relationship object, but the
+terms have the same meaning, regardless of the syntax.
 
 The one thing that really needed to be fixed in TCS was the 'has synonym'
 relationship type. The documentation of the term in TCS 1 already identifies
