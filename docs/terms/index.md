@@ -2154,11 +2154,15 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 		</tr>
 		<tr>
 			<td>Usage</td>
-			<td><p>This is the publication year for the present name combination, not the basionym should this be a new combination.</p></td>
+			<td><p>This is the publication year for the present combination, not the basionym should this be a new combination.</p></td>
 		</tr>
 		<tr>
 			<td></td>
 			<td><b>Required:</b> No — <b>Repeatable:</b> No</td>
+		</tr>
+		<tr>
+			<td>Comments</td>
+			<td><p>For zoological names, the year the original name is published in is mostly given in the <code>dwc:scientificNameAuthorship</code>.</p></td>
 		</tr>
 	</tbody>
 </table>
