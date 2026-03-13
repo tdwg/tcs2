@@ -110,7 +110,7 @@ def create_index(categories, merged_df):
                 label = '{label}'.format(label=row['label'])
 
             anchor = '#{namespaceAlias}_{localName}'.format(
-                namespaceAlias=row['namespaceAlias'], localName=row['localName'].lower())
+                namespaceAlias=row['namespaceAlias'], localName=row['localName'])
 
             item = f'[{label}]({anchor})'
             items.append(item)

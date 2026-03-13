@@ -174,71 +174,71 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 
 **Taxon Concept**
 
-[tcs:TaxonConcept](#tcs_taxonconcept) |
-[tcs:accordingTo](#tcs_accordingto) |
-[tcs:taxonName](#tcs_taxonname) |
+[tcs:TaxonConcept](#tcs_TaxonConcept) |
+[tcs:accordingTo](#tcs_accordingTo) |
+[tcs:taxonName](#tcs_taxonName) |
 [tcs:synonym](#tcs_synonym) |
-[tcs:vernacularName](#tcs_vernacularname) |
-[tcs:taxonRank](#tcs_taxonrank) |
-[tcs:parentTaxonConcept](#tcs_parenttaxonconcept) |
-[tcs:childTaxonConcept](#tcs_childtaxonconcept) |
-[tcs:isCongruentWith](#tcs_iscongruentwith) |
+[tcs:vernacularName](#tcs_vernacularName) |
+[tcs:taxonRank](#tcs_taxonRank) |
+[tcs:parentTaxonConcept](#tcs_parentTaxonConcept) |
+[tcs:childTaxonConcept](#tcs_childTaxonConcept) |
+[tcs:isCongruentWith](#tcs_isCongruentWith) |
 [tcs:includes](#tcs_includes) |
-[tcs:isIncludedIn](#tcs_isincludedin) |
-[tcs:partiallyOverlaps](#tcs_partiallyoverlaps) |
-[tcs:isDisjointFrom](#tcs_isdisjointfrom) |
+[tcs:isIncludedIn](#tcs_isIncludedIn) |
+[tcs:partiallyOverlaps](#tcs_partiallyOverlaps) |
+[tcs:isDisjointFrom](#tcs_isDisjointFrom) |
 [tcs:intersects](#tcs_intersects) |
-[dwc:verbatimTaxonRank](#dwc_verbatimtaxonrank) |
+[dwc:verbatimTaxonRank](#dwc_verbatimTaxonRank) |
 [dcterms:title](#dcterms_title)
 
 **Taxon Concept Mapping**
 
-[tcs:TaxonConceptMapping](#tcs_taxonconceptmapping) |
-[tcs:mappingAccordingTo](#tcs_mappingaccordingto) |
-[tcs:mappingRelation](#tcs_mappingrelation) |
-[tcs:subjectTaxonConcept](#tcs_subjecttaxonconcept) |
-[tcs:objectTaxonConcept](#tcs_objecttaxonconcept)
+[tcs:TaxonConceptMapping](#tcs_TaxonConceptMapping) |
+[tcs:mappingAccordingTo](#tcs_mappingAccordingTo) |
+[tcs:mappingRelation](#tcs_mappingRelation) |
+[tcs:subjectTaxonConcept](#tcs_subjectTaxonConcept) |
+[tcs:objectTaxonConcept](#tcs_objectTaxonConcept)
 
 **Taxon Name**
 
-[tcs:TaxonName](#tcs_taxonname) |
-[tcs:nameString](#tcs_namestring) |
-[tcs:namePublishedIn](#tcs_namepublishedin) |
+[tcs:TaxonName](#tcs_TaxonName) |
+[tcs:nameString](#tcs_nameString) |
+[tcs:namePublishedIn](#tcs_namePublishedIn) |
 [tcs:microreference](#tcs_microreference) |
-[tcs:nomenclaturalCode](#tcs_nomenclaturalcode) |
-[tcs:nomenclaturalStatus](#tcs_nomenclaturalstatus) |
+[tcs:nomenclaturalCode](#tcs_nomenclaturalCode) |
+[tcs:nomenclaturalStatus](#tcs_nomenclaturalStatus) |
 [tcs:typification](#tcs_typification) |
-[tcs:typificationLiteral](#tcs_typificationliteral) |
+[tcs:typificationLiteral](#tcs_typificationLiteral) |
 [tcs:basionym](#tcs_basionym) |
-[tcs:replacedName](#tcs_replacedname) |
-[tcs:basedOn](#tcs_basedon) |
-[tcs:laterHomonymOf](#tcs_laterhomonymof) |
-[tcs:conservedAgainst](#tcs_conservedagainst) |
-[tcs:combinationAuthor](#tcs_combinationauthor) |
-[tcs:combinationAuthorLiteral](#tcs_combinationauthorliteral) |
-[tcs:basionymAuthor](#tcs_basionymauthor) |
-[tcs:basionymAuthorLiteral](#tcs_basionymauthorliteral) |
-[tcs:combinationAscribedAuthor](#tcs_combinationascribedauthor) |
-[tcs:combinationAscribedAuthorLiteral](#tcs_combinationascribedauthorliteral) |
-[tcs:basionymAscribedAuthor](#tcs_basionymascribedauthor) |
-[tcs:basionymAscribedAuthorLiteral](#tcs_basionymascribedauthorliteral) |
-[dwc:scientificNameAuthorship](#dwc_scientificnameauthorship) |
-[dwc:namePublishedIn](#dwc_namepublishedin) |
-[dwc:namePublishedInYear](#dwc_namepublishedinyear) |
-[dwc:genericName](#dwc_genericname) |
-[dwc:infragenericEpithet](#dwc_infragenericepithet) |
-[dwc:specificEpithet](#dwc_specificepithet) |
-[dwc:infraspecificEpithet](#dwc_infraspecificepithet) |
-[dwc:cultivarEpithet](#dwc_cultivarepithet)
+[tcs:replacedName](#tcs_replacedName) |
+[tcs:basedOn](#tcs_basedOn) |
+[tcs:laterHomonymOf](#tcs_laterHomonymOf) |
+[tcs:conservedAgainst](#tcs_conservedAgainst) |
+[tcs:combinationAuthor](#tcs_combinationAuthor) |
+[tcs:combinationAuthorLiteral](#tcs_combinationAuthorLiteral) |
+[tcs:basionymAuthor](#tcs_basionymAuthor) |
+[tcs:basionymAuthorLiteral](#tcs_basionymAuthorLiteral) |
+[tcs:combinationAscribedAuthor](#tcs_combinationAscribedAuthor) |
+[tcs:combinationAscribedAuthorLiteral](#tcs_combinationAscribedAuthorLiteral) |
+[tcs:basionymAscribedAuthor](#tcs_basionymAscribedAuthor) |
+[tcs:basionymAscribedAuthorLiteral](#tcs_basionymAscribedAuthorLiteral) |
+[dwc:scientificNameAuthorship](#dwc_scientificNameAuthorship) |
+[dwc:namePublishedIn](#dwc_namePublishedIn) |
+[dwc:namePublishedInYear](#dwc_namePublishedInYear) |
+[dwc:genericName](#dwc_genericName) |
+[dwc:infragenericEpithet](#dwc_infragenericEpithet) |
+[dwc:specificEpithet](#dwc_specificEpithet) |
+[dwc:infraspecificEpithet](#dwc_infraspecificEpithet) |
+[dwc:cultivarEpithet](#dwc_cultivarEpithet)
 
 **Nomenclatural Type**
 
-[tcs:NomenclaturalType](#tcs_nomenclaturaltype) |
-[tcs:typifiedName](#tcs_typifiedname) |
-[tcs:typeOfType](#tcs_typeoftype) |
-[tcs:typeName](#tcs_typename) |
-[tcs:typeSpecimen](#tcs_typespecimen) |
-[tcs:typePublishedIn](#tcs_typepublishedin)
+[tcs:NomenclaturalType](#tcs_NomenclaturalType) |
+[tcs:typifiedName](#tcs_typifiedName) |
+[tcs:typeOfType](#tcs_typeOfType) |
+[tcs:typeName](#tcs_typeName) |
+[tcs:typeSpecimen](#tcs_typeSpecimen) |
+[tcs:typePublishedIn](#tcs_typePublishedIn)
 
 ## 5. Vocabulary
 
