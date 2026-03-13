@@ -247,7 +247,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 <table>
 
     <thead>
-        <th colspan="2"><a id="tcs_taxonconcept"></a>Term Name: tcs:TaxonConcept</th>
+        <th colspan="2"><a id="tcs_TaxonConcept"></a>Term Name: tcs:TaxonConcept</th>
     </thead>
     <tbody>
 		<tr>
@@ -302,7 +302,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 <table>
 
     <thead>
-        <th colspan="2"><a id="tcs_accordingto"></a>Term Name: tcs:accordingTo</th>
+        <th colspan="2"><a id="tcs_accordingTo"></a>Term Name: tcs:accordingTo</th>
     </thead>
     <tbody>
 		<tr>
@@ -352,7 +352,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 <table>
 
     <thead>
-        <th colspan="2"><a id="tcs_taxonname"></a>Term Name: tcs:taxonName</th>
+        <th colspan="2"><a id="tcs_taxonName"></a>Term Name: tcs:taxonName</th>
     </thead>
     <tbody>
 		<tr>
@@ -440,7 +440,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 <table>
 
     <thead>
-        <th colspan="2"><a id="tcs_vernacularname"></a>Term Name: tcs:vernacularName</th>
+        <th colspan="2"><a id="tcs_vernacularName"></a>Term Name: tcs:vernacularName</th>
     </thead>
     <tbody>
 		<tr>
@@ -491,7 +491,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 <table>
 
     <thead>
-        <th colspan="2"><a id="tcs_taxonrank"></a>Term Name: tcs:taxonRank</th>
+        <th colspan="2"><a id="tcs_taxonRank"></a>Term Name: tcs:taxonRank</th>
     </thead>
     <tbody>
 		<tr>
@@ -529,7 +529,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 <table>
 
     <thead>
-        <th colspan="2"><a id="tcs_parenttaxonconcept"></a>Term Name: tcs:parentTaxonConcept</th>
+        <th colspan="2"><a id="tcs_parentTaxonConcept"></a>Term Name: tcs:parentTaxonConcept</th>
     </thead>
     <tbody>
 		<tr>
@@ -574,7 +574,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 <table>
 
     <thead>
-        <th colspan="2"><a id="tcs_childtaxonconcept"></a>Term Name: tcs:childTaxonConcept</th>
+        <th colspan="2"><a id="tcs_childTaxonConcept"></a>Term Name: tcs:childTaxonConcept</th>
     </thead>
     <tbody>
 		<tr>
@@ -619,7 +619,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 <table>
 
     <thead>
-        <th colspan="2"><a id="tcs_iscongruentwith"></a>Term Name: tcs:isCongruentWith</th>
+        <th colspan="2"><a id="tcs_isCongruentWith"></a>Term Name: tcs:isCongruentWith</th>
     </thead>
     <tbody>
 		<tr>
@@ -721,7 +721,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 <table>
 
     <thead>
-        <th colspan="2"><a id="tcs_isincludedin"></a>Term Name: tcs:isIncludedIn</th>
+        <th colspan="2"><a id="tcs_isIncludedIn"></a>Term Name: tcs:isIncludedIn</th>
     </thead>
     <tbody>
 		<tr>
@@ -771,7 +771,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 <table>
 
     <thead>
-        <th colspan="2"><a id="tcs_partiallyoverlaps"></a>Term Name: tcs:partiallyOverlaps</th>
+        <th colspan="2"><a id="tcs_partiallyOverlaps"></a>Term Name: tcs:partiallyOverlaps</th>
     </thead>
     <tbody>
 		<tr>
@@ -821,7 +821,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 <table>
 
     <thead>
-        <th colspan="2"><a id="tcs_isdisjointfrom"></a>Term Name: tcs:isDisjointFrom</th>
+        <th colspan="2"><a id="tcs_isDisjointFrom"></a>Term Name: tcs:isDisjointFrom</th>
     </thead>
     <tbody>
 		<tr>
@@ -922,7 +922,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 <table>
 
     <thead>
-        <th colspan="2"><a id="dwc_verbatimtaxonrank"></a>Term Name: dwc:verbatimTaxonRank</th>
+        <th colspan="2"><a id="dwc_verbatimTaxonRank"></a>Term Name: dwc:verbatimTaxonRank</th>
     </thead>
     <tbody>
 		<tr>
@@ -1001,7 +1001,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 <table>
 
     <thead>
-        <th colspan="2"><a id="tcs_taxonconceptmapping"></a>Term Name: tcs:TaxonConceptMapping</th>
+        <th colspan="2"><a id="tcs_TaxonConceptMapping"></a>Term Name: tcs:TaxonConceptMapping</th>
     </thead>
     <tbody>
 		<tr>
@@ -1064,7 +1064,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 <table>
 
     <thead>
-        <th colspan="2"><a id="tcs_mappingaccordingto"></a>Term Name: tcs:mappingAccordingTo</th>
+        <th colspan="2"><a id="tcs_mappingAccordingTo"></a>Term Name: tcs:mappingAccordingTo</th>
     </thead>
     <tbody>
 		<tr>
@@ -1097,7 +1097,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 <table>
 
     <thead>
-        <th colspan="2"><a id="tcs_mappingrelation"></a>Term Name: tcs:mappingRelation</th>
+        <th colspan="2"><a id="tcs_mappingRelation"></a>Term Name: tcs:mappingRelation</th>
     </thead>
     <tbody>
 		<tr>
@@ -1130,7 +1130,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 <table>
 
     <thead>
-        <th colspan="2"><a id="tcs_subjecttaxonconcept"></a>Term Name: tcs:subjectTaxonConcept</th>
+        <th colspan="2"><a id="tcs_subjectTaxonConcept"></a>Term Name: tcs:subjectTaxonConcept</th>
     </thead>
     <tbody>
 		<tr>
@@ -1167,7 +1167,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 <table>
 
     <thead>
-        <th colspan="2"><a id="tcs_objecttaxonconcept"></a>Term Name: tcs:objectTaxonConcept</th>
+        <th colspan="2"><a id="tcs_objectTaxonConcept"></a>Term Name: tcs:objectTaxonConcept</th>
     </thead>
     <tbody>
 		<tr>
@@ -1206,7 +1206,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 <table>
 
     <thead>
-        <th colspan="2"><a id="tcs_taxonname"></a>Term Name: tcs:TaxonName</th>
+        <th colspan="2"><a id="tcs_TaxonName"></a>Term Name: tcs:TaxonName</th>
     </thead>
     <tbody>
 		<tr>
@@ -1253,7 +1253,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 <table>
 
     <thead>
-        <th colspan="2"><a id="tcs_namestring"></a>Term Name: tcs:nameString</th>
+        <th colspan="2"><a id="tcs_nameString"></a>Term Name: tcs:nameString</th>
     </thead>
     <tbody>
 		<tr>
@@ -1290,7 +1290,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 <table>
 
     <thead>
-        <th colspan="2"><a id="tcs_namepublishedin"></a>Term Name: tcs:namePublishedIn</th>
+        <th colspan="2"><a id="tcs_namePublishedIn"></a>Term Name: tcs:namePublishedIn</th>
     </thead>
     <tbody>
 		<tr>
@@ -1360,7 +1360,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 <table>
 
     <thead>
-        <th colspan="2"><a id="tcs_nomenclaturalcode"></a>Term Name: tcs:nomenclaturalCode</th>
+        <th colspan="2"><a id="tcs_nomenclaturalCode"></a>Term Name: tcs:nomenclaturalCode</th>
     </thead>
     <tbody>
 		<tr>
@@ -1397,7 +1397,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 <table>
 
     <thead>
-        <th colspan="2"><a id="tcs_nomenclaturalstatus"></a>Term Name: tcs:nomenclaturalStatus</th>
+        <th colspan="2"><a id="tcs_nomenclaturalStatus"></a>Term Name: tcs:nomenclaturalStatus</th>
     </thead>
     <tbody>
 		<tr>
@@ -1481,7 +1481,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 <table>
 
     <thead>
-        <th colspan="2"><a id="tcs_typificationliteral"></a>Term Name: tcs:typificationLiteral</th>
+        <th colspan="2"><a id="tcs_typificationLiteral"></a>Term Name: tcs:typificationLiteral</th>
     </thead>
     <tbody>
 		<tr>
@@ -1565,7 +1565,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 <table>
 
     <thead>
-        <th colspan="2"><a id="tcs_replacedname"></a>Term Name: tcs:replacedName</th>
+        <th colspan="2"><a id="tcs_replacedName"></a>Term Name: tcs:replacedName</th>
     </thead>
     <tbody>
 		<tr>
@@ -1616,7 +1616,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 <table>
 
     <thead>
-        <th colspan="2"><a id="tcs_basedon"></a>Term Name: tcs:basedOn</th>
+        <th colspan="2"><a id="tcs_basedOn"></a>Term Name: tcs:basedOn</th>
     </thead>
     <tbody>
 		<tr>
@@ -1653,7 +1653,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 <table>
 
     <thead>
-        <th colspan="2"><a id="tcs_laterhomonymof"></a>Term Name: tcs:laterHomonymOf</th>
+        <th colspan="2"><a id="tcs_laterHomonymOf"></a>Term Name: tcs:laterHomonymOf</th>
     </thead>
     <tbody>
 		<tr>
@@ -1690,7 +1690,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 <table>
 
     <thead>
-        <th colspan="2"><a id="tcs_conservedagainst"></a>Term Name: tcs:conservedAgainst</th>
+        <th colspan="2"><a id="tcs_conservedAgainst"></a>Term Name: tcs:conservedAgainst</th>
     </thead>
     <tbody>
 		<tr>
@@ -1735,7 +1735,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 <table>
 
     <thead>
-        <th colspan="2"><a id="tcs_combinationauthor"></a>Term Name: tcs:combinationAuthor</th>
+        <th colspan="2"><a id="tcs_combinationAuthor"></a>Term Name: tcs:combinationAuthor</th>
     </thead>
     <tbody>
 		<tr>
@@ -1782,7 +1782,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 <table>
 
     <thead>
-        <th colspan="2"><a id="tcs_combinationauthorliteral"></a>Term Name: tcs:combinationAuthorLiteral</th>
+        <th colspan="2"><a id="tcs_combinationAuthorLiteral"></a>Term Name: tcs:combinationAuthorLiteral</th>
     </thead>
     <tbody>
 		<tr>
@@ -1819,7 +1819,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 <table>
 
     <thead>
-        <th colspan="2"><a id="tcs_basionymauthor"></a>Term Name: tcs:basionymAuthor</th>
+        <th colspan="2"><a id="tcs_basionymAuthor"></a>Term Name: tcs:basionymAuthor</th>
     </thead>
     <tbody>
 		<tr>
@@ -1866,7 +1866,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 <table>
 
     <thead>
-        <th colspan="2"><a id="tcs_basionymauthorliteral"></a>Term Name: tcs:basionymAuthorLiteral</th>
+        <th colspan="2"><a id="tcs_basionymAuthorLiteral"></a>Term Name: tcs:basionymAuthorLiteral</th>
     </thead>
     <tbody>
 		<tr>
@@ -1903,7 +1903,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 <table>
 
     <thead>
-        <th colspan="2"><a id="tcs_combinationascribedauthor"></a>Term Name: tcs:combinationAscribedAuthor</th>
+        <th colspan="2"><a id="tcs_combinationAscribedAuthor"></a>Term Name: tcs:combinationAscribedAuthor</th>
     </thead>
     <tbody>
 		<tr>
@@ -1948,7 +1948,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 <table>
 
     <thead>
-        <th colspan="2"><a id="tcs_combinationascribedauthorliteral"></a>Term Name: tcs:combinationAscribedAuthorLiteral</th>
+        <th colspan="2"><a id="tcs_combinationAscribedAuthorLiteral"></a>Term Name: tcs:combinationAscribedAuthorLiteral</th>
     </thead>
     <tbody>
 		<tr>
@@ -1985,7 +1985,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 <table>
 
     <thead>
-        <th colspan="2"><a id="tcs_basionymascribedauthor"></a>Term Name: tcs:basionymAscribedAuthor</th>
+        <th colspan="2"><a id="tcs_basionymAscribedAuthor"></a>Term Name: tcs:basionymAscribedAuthor</th>
     </thead>
     <tbody>
 		<tr>
@@ -2030,7 +2030,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 <table>
 
     <thead>
-        <th colspan="2"><a id="tcs_basionymascribedauthorliteral"></a>Term Name: tcs:basionymAscribedAuthorLiteral</th>
+        <th colspan="2"><a id="tcs_basionymAscribedAuthorLiteral"></a>Term Name: tcs:basionymAscribedAuthorLiteral</th>
     </thead>
     <tbody>
 		<tr>
@@ -2067,7 +2067,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 <table>
 
     <thead>
-        <th colspan="2"><a id="dwc_scientificnameauthorship"></a>Term Name: dwc:scientificNameAuthorship</th>
+        <th colspan="2"><a id="dwc_scientificNameAuthorship"></a>Term Name: dwc:scientificNameAuthorship</th>
     </thead>
     <tbody>
 		<tr>
@@ -2100,7 +2100,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 <table>
 
     <thead>
-        <th colspan="2"><a id="dwc_namepublishedin"></a>Term Name: dwc:namePublishedIn</th>
+        <th colspan="2"><a id="dwc_namePublishedIn"></a>Term Name: dwc:namePublishedIn</th>
     </thead>
     <tbody>
 		<tr>
@@ -2133,7 +2133,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 <table>
 
     <thead>
-        <th colspan="2"><a id="dwc_namepublishedinyear"></a>Term Name: dwc:namePublishedInYear</th>
+        <th colspan="2"><a id="dwc_namePublishedInYear"></a>Term Name: dwc:namePublishedInYear</th>
     </thead>
     <tbody>
 		<tr>
@@ -2170,7 +2170,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 <table>
 
     <thead>
-        <th colspan="2"><a id="dwc_genericname"></a>Term Name: dwc:genericName</th>
+        <th colspan="2"><a id="dwc_genericName"></a>Term Name: dwc:genericName</th>
     </thead>
     <tbody>
 		<tr>
@@ -2203,7 +2203,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 <table>
 
     <thead>
-        <th colspan="2"><a id="dwc_infragenericepithet"></a>Term Name: dwc:infragenericEpithet</th>
+        <th colspan="2"><a id="dwc_infragenericEpithet"></a>Term Name: dwc:infragenericEpithet</th>
     </thead>
     <tbody>
 		<tr>
@@ -2236,7 +2236,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 <table>
 
     <thead>
-        <th colspan="2"><a id="dwc_specificepithet"></a>Term Name: dwc:specificEpithet</th>
+        <th colspan="2"><a id="dwc_specificEpithet"></a>Term Name: dwc:specificEpithet</th>
     </thead>
     <tbody>
 		<tr>
@@ -2269,7 +2269,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 <table>
 
     <thead>
-        <th colspan="2"><a id="dwc_infraspecificepithet"></a>Term Name: dwc:infraspecificEpithet</th>
+        <th colspan="2"><a id="dwc_infraspecificEpithet"></a>Term Name: dwc:infraspecificEpithet</th>
     </thead>
     <tbody>
 		<tr>
@@ -2302,7 +2302,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 <table>
 
     <thead>
-        <th colspan="2"><a id="dwc_cultivarepithet"></a>Term Name: dwc:cultivarEpithet</th>
+        <th colspan="2"><a id="dwc_cultivarEpithet"></a>Term Name: dwc:cultivarEpithet</th>
     </thead>
     <tbody>
 		<tr>
@@ -2337,7 +2337,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 <table>
 
     <thead>
-        <th colspan="2"><a id="tcs_nomenclaturaltype"></a>Term Name: tcs:NomenclaturalType</th>
+        <th colspan="2"><a id="tcs_NomenclaturalType"></a>Term Name: tcs:NomenclaturalType</th>
     </thead>
     <tbody>
 		<tr>
@@ -2378,7 +2378,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 <table>
 
     <thead>
-        <th colspan="2"><a id="tcs_typifiedname"></a>Term Name: tcs:typifiedName</th>
+        <th colspan="2"><a id="tcs_typifiedName"></a>Term Name: tcs:typifiedName</th>
     </thead>
     <tbody>
 		<tr>
@@ -2415,7 +2415,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 <table>
 
     <thead>
-        <th colspan="2"><a id="tcs_typeoftype"></a>Term Name: tcs:typeOfType</th>
+        <th colspan="2"><a id="tcs_typeOfType"></a>Term Name: tcs:typeOfType</th>
     </thead>
     <tbody>
 		<tr>
@@ -2452,7 +2452,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 <table>
 
     <thead>
-        <th colspan="2"><a id="tcs_typename"></a>Term Name: tcs:typeName</th>
+        <th colspan="2"><a id="tcs_typeName"></a>Term Name: tcs:typeName</th>
     </thead>
     <tbody>
 		<tr>
@@ -2489,7 +2489,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 <table>
 
     <thead>
-        <th colspan="2"><a id="tcs_typespecimen"></a>Term Name: tcs:typeSpecimen</th>
+        <th colspan="2"><a id="tcs_typeSpecimen"></a>Term Name: tcs:typeSpecimen</th>
     </thead>
     <tbody>
 		<tr>
@@ -2526,7 +2526,7 @@ terms. Thus, many terms have been borrowed from Darwin Core and Dublin Core.
 <table>
 
     <thead>
-        <th colspan="2"><a id="tcs_typepublishedin"></a>Term Name: tcs:typePublishedIn</th>
+        <th colspan="2"><a id="tcs_typePublishedIn"></a>Term Name: tcs:typePublishedIn</th>
     </thead>
     <tbody>
 		<tr>

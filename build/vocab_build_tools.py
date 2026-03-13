@@ -167,7 +167,7 @@ def term_table(term):
     curie = '{namespaceAlias}:{localName}'.format(
         namespaceAlias=term['namespaceAlias'], localName=term['localName'])
     
-    id = curie.replace(':', '_').lower()
+    id = curie.replace(':', '_')
 
     text += f"""
     <thead>
