@@ -4,13 +4,13 @@
 : Taxon Concept Standard (TCS) Term List
 
 **Date version created**
-: 2025-08-09
+: 2025-12-11
 
 **Part of TDWG standard**
 : http://www.tdwg.org/standards/117
 
 **This version**
-: http://rs.tdwg.org/tcs/doc/terms/2025-08-09
+: http://rs.tdwg.org/tcs/doc/terms/2025-12-11
 
 **Latest version**
 : http://rs.tdwg.org/tcs/doc/terms
