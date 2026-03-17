@@ -43,7 +43,7 @@ Cam Webb [![](../media/orcid_16x16.gif)](https://orcid.org/0000-0003-1031-3249) 
 
 **Bibliographic citation**
 : Taxon Concept Standard Maintenance Group (2025).
-Taxon Concept Standard Term List. Biodiversity Information Standards (TDWG).
+Taxon Concept Standard List of Terms. Biodiversity Information Standards (TDWG).
 
 ## 1. Introduction
 

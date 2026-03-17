@@ -20,7 +20,7 @@ nomenclatural data.
 
 ## Getting started
 
-- [TCS Term List](./terms/) — The normative list of TCS terms. This document
+- [TCS List of Terms](./terms/) — The normative list of TCS terms. This document
   defines and describes all TCS terms and provides guidance on how to use them.
 
 - [TCS 2 Feature report](./feature-report/) — A Feature Report is one of two
