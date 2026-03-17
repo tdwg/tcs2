@@ -1,7 +1,7 @@
-# Taxon Concept Standard (TCS) Term List
+# Taxon Concept Standard (TCS) List of Terms
 
 **Title**
-: Taxon Concept Standard (TCS) Term List
+: Taxon Concept Standard (TCS) List of Terms
 
 **Date version created**
 : 2025-12-11
